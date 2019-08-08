@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Del modo di ordinare una pubblica biblioteca</title>
+      <author>Agostino Salvioni</author>
+    </titleStmt>
+    <extent>45 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit001204</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Del modo di ordinare una pubblica biblioteca</title>
+        <author>Salvioni, Agostino</author>
+        <publisher>Dalla Tipografia Crescini</publisher>
+        <pubPlace>Bergamo</pubPlace>
+        <date>1843</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>800</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="gre">Greco</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>1999-04-20T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elisabetta Macchi</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione - Digitalizzazione DBT</item>
+    </change>
+    <change>
+      <date>2004-02-25T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-02-25T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Codifica XML - Codifica XML sulla base del protocollo CIBIT</item>
+    </change>
+    <change>
+      <date>2005-05-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<pb n="1"/>
+<head>[Dedica]</head>
+<p>AI 
+RAGGUARDEVOLI 
+CHIARISSIMI CONCITTADINI 
+ALESSANDRO CONTE MORONI 
+LEONINO SOARDO <abbr>CO.</abbr> PALATINO 
+GIOVANNI ABATE BONGIANI 
+COMMISSARII 
+ELETTI DAL CONSIGLIO COMUNALE DI BERGAMO 
+PER CONOSCERE DELLE COSE 
+ALLA PUBBLICA BIBLIOTECA APPARTENENTI 
+I QUALI 
+CON ZELO VERAMENTE DISTINTO 
+E CON MODI NOBILISSIMI 
+SI OCCUPANO DI TUTTO CIO' CHE TORNA 
+AD ORNAMENTO ED A VANTAGGIO 
+DEL LETTERARIO ISTITUTO 
+QUESTO RAGIONAMENTO 
+L'AUTORE DEVOTAMENTE PRESENTA.
+</p></div1>
+</front>
+<body>
+<div1 type="part2">
+<head>[Testo]</head>
+<p>
+<pb n="3"/>
+Accade ben soventi le volte, che nelle operazioni fatte di pubblica ragione, ognuno vuol 
+mettervi di bocca, e sentenziarne a suo modo; 
+per cui ne avviene, che alle saggie osservazioni de' veri intelligenti, le quali sempre 
+tornano utilissime, siamo costretti, non senza 
+disdegno, accoppiarvi la tolleranza delle critiche 
+rade volte sincere de' presontuosi, e pazientare 
+alle insensate dicerie degl'ignoranti. Un tale 
+sgradevole accidente potrebbe forse avvenire 
+in riguardo all'attuale ordinamento dei libri 
+<pb n="5"/>
+nella nuova patria biblioteca, cui si dà opera 
+laboriosa. Credo per ciò far cosa opportuna, 
+ed al mio dovere convenevole, l'esporre francamente a questo dotto accademico Consesso, 
+ed alla coltissima udienza, qual metodo si verrà 
+praticando nella distribuzione de' libri, e con 
+quale ragionevolezza si procederà dietro maturi 
+studj, ed autorevoli esempj, acciò portar se ne 
+possa un ben fondato giudicio. (<num>1</num>)<note place="foot">Questo Ragionamento fu tenuto nella pubblica Adunanza dell'Ateneo il <num>20</num> Luglio anno corrente. </note> 
+La nostra Città, sin da tempo antico, poichè le lettere sempre appo noi furono in fiore, 
+ebbe nel palazzo comunale la sua biblioteca, 
+per cui, con utile divisamento, <foreign lang="lat"><emph>ingenia hominum 
+rem pubblicam fecit</emph></foreign>, come di Asinio Pollione scrive 
+Plinio lo storico. (<num>2</num>)<note place="foot">Pollione fu il primo che istituì in Roma una pubblica biblioteca. - <emph><abbr>Plin.</abbr> <abbr>l.</abbr> <num>35</num></emph>. </note> Essa a dir vero, non era 
+gran cosa, e composta la maggior parte di libri 
+legali. Il dottissimo Cardinal Furietti, illustre 
+nostro concittadino, ricca la fece, sarà circa un 
+secolo, di pregevoli opere, legando alla medesima la scelta, e numerosa sua libreria. Avvenuta 
+essendo in seguito la soppressione di religiose 
+corporazioni, le furono aggregati i libri delle 
+rispettive loro biblioteche, e quella specialmente, 
+assai ragguardevole, e tutta intiera, de' monaci 
+Benedettini di San Paolo d'Argon. Capace non 
+<pb n="6"/>
+essendo la sala del Comune a contenere sì gran 
+numero di libri, fu scelto a tal uopo il vasto 
+locale della nascente biblioteca Capitolare, divenuta essa pure di comunale ragione. Tale 
+farraginosa congerie di volumi fu ordinata per 
+materie, come meglio conveniva, e come ora 
+è generale usanza; ed al principiare del corrente 
+secolo la biblioteca fu aperta a pubblico comodo. In seguito ne venne compilato un esatto, 
+e ragionato catalogo, il quale, nulla negligentando fatica, costò alcuni anni di lavoro. Ebbi 
+in ciò a coadjutore, come Vice-bibliotecario 
+l'A<abbr>b.</abbr> Cristoforo Negri, soggetto dotato a dovizia di letterarie cognizioni. Poscia mi fu compagno nella stessa qualità, l'ottimo amico don 
+Antonio Cefis, che per quasi trent'anni, prestò 
+l'opera sua con zelo singolare. Crescendo poi 
+oltremodo il numero de' libri, sino a circa 
+settanta mila, per grandiosi acquisti, per generosi legati (<num>*</num>)<note place="foot">Agliardi, Marchesi, Rubbi, e Giani. </note>, e per l'aggregazione della 
+copiosa libreria dell'<abbr>I.</abbr> <abbr>R.</abbr> Liceo, neppure le 
+sale capitolari, quantunque accresciute di una 
+novella fabbrica, erano capaci a contenerli. A 
+tale strettezza di luogo saviamente provvide il 
+Consiglio comunale, destinando ad uso di 
+civica biblioteca il magnifico antico palazzo 
+della civile ragione, detto il Palazzo Vecchio, 
+<pb n="7"/>
+che venne a tale scopo, con bell'ordine architettonico, opportunamente accomodato. (<num>*</num>)<note place="foot">L'antico nostro palazzo civico, detto della ragione, 
+era annoverato tra i più cospicui, per ornamenti, e per 
+architettura. Marcantonio Micheli nel pregievole suo libro: 
+<foreign lang="lat"><emph>Urbis, et agri Bergomensis descriptio</emph></foreign>: così ne scrive 
+<foreign lang="lat"><emph>Ante forum juris attollebatur moles, sive ornamentorum 
+apparatum, sive structurae soliditatem spectares, nulli 
+aedificio postferenda</emph></foreign>. La soldatesca spagnola lo incendiò la 
+notte antecedente il <num>25</num> Giugno <date>1513</date>, con grave danno e pubblico e privato. Brevi anni dopo venne riedificato per opera di 
+Pietro Isabello nostro concittadino, architetto di fama non 
+volgare. Ammirasi specialmente in esso la congegnosa travatura del palco superiore. </note> Comprende questo una vastissima aula in perfetta 
+quadratura, che luce, ed aura riceve principalmente dal meriggio, comunicando con la plaga 
+boreale, per convenevoli aperture, cui sono 
+lateralmente aggiunte due altre comode sale 
+di minore capacità. Una maestosa galleria quadrilunga, ad uso pure di libri, serve a comune 
+ingresso. Essa risguarda l'artico polo, e soprasta 
+la piazza maggiore, senza disturbo negli studj: 
+in fondo alla quale verrà di fronte collocata 
+una statua colossale, in marmo carrarese, simboleggiante la Pace, altrice delle scienze, e 
+delle lettere. L'egregio scultore Benzoni sta 
+elaborandola in Roma con mirabile magistero.
+Vitruvio, nel sesto de' suoi libri dell'Architettura, parlando delle biblioteche, dice: che devono essere collocate verso l'oriente, perchè 
+richieggono la luce del mattino: <foreign lang="lat"><emph>matutinum 
+<pb n="8"/>
+postulant lumen</emph></foreign>; e perchè meno si guastano i 
+libri: <foreign lang="lat"><emph>libri non putrescunt</emph></foreign>. Ma io sarei d'avviso, che miglior cosa sarebbe, che fossero 
+poste tra il mezzo giorno, ed il settentrione, 
+sì come trovasi essere la nostra; poichè in tale 
+posizione più temperati ne vengono gl'intensi 
+calori estivi; e più propizia ne spira una ventilazione, cotanto opportuna alla conservazione 
+de' libri. In riguardo poi alla luce, quando essa 
+ci venga libera, e per sufficienti finestre, si può 
+avere da qualunque parte. Forse che a' giorni 
+vitruviani le domestiche librerie erano frequentate ai primi albori; locchè però neppure a 
+que' tempi costumavasi in riguardo alle pubbliche biblioteche.
+Lo imballaggio per il traslocamento de' libri 
+dall'antica alla nuova biblioteca fu pressochè 
+tutto eseguito con buon ordine; ma sulla fine, 
+per accidente non troppo opportuno, venne 
+alquanto affastellato. Nel trasporto però niun 
+libro andò smarrito.
+Nell'aula maggiore, per consenso de' celebri bibliografi, alla principale scansia, segnata con la lettera iniziale dell'alfabeto, collocati verranno primamente quei libri, dai quali 
+deve avere cominciamento ogni umano sapere; 
+que' libri cioè divinamente inspirati, detti per 
+antonomasia, con voce di greca origine, la 
+<pb n="9"/>
+Bibbia, come sarebbe a dire il Libro per eccellenza, incominciando dai testi originali dell'antico, e del nuovo Testamento, cui andranno 
+unite le Poliglotte, e le altre versioni in molteplici lingue, seguendo l'ordine de' tempi in 
+cui furono eseguite. Attigui ad esse sono gli 
+scrittori di critica, e di ermeneutica sacra. Succedono poscia li espositori, ed i commentatori 
+de' codici divini. Stanno presso questi que' rispettabili dottori, che la chiesa venera come 
+sommi maestri in divinità: sono essi i Padri 
+greci, ed i latini, cui si uniranno que' scrittori 
+che sulle norme della dottrina insegnata da 
+Padri, ci espongono col metodo o accademico, 
+o delle scuole, la dogmatica, e la morale teologia, per cui si dà loro il nome di Teologi 
+dogmatici, o moralisti.
+Fonte primario di ecclesiastico insegnamento sono pure i Concilii della Chiesa; essi 
+per ciò avranno un consecutivo collocamento 
+dopo i Padri, <note place="foot">Altri antepongono i Concilii ai Padri. </note> incominciando dai sinodi ecumenici, o generali, che portano il nome di 
+sacrosanti, e progredendo ai nazionali, ai provinciali, ed ai diocesani. Prossimo ad essi si 
+concederà posto agli scrittori, che ragionano di 
+ecclesiastiche antichità, e dell'antica e moderna 
+disciplina della Chiesa: indi ai trattati delle 
+<pb n="10"/>
+liturgiche cerimonie, e dei sacri riti. Affini a 
+questi sono i libri di storia ecclesiastica. Occuperà il primo rango la storia generale della 
+Chiesa, poscia verrà quella delle chiese particolari, 
+degli ordini monastici, degli istituti religiosi, e 
+di consimile argomento. La sacra biografia, le 
+vite cioè di personaggi venerandi per pietà, e 
+per gesta religiose, o illustri per supreme dignità, 
+come sono specialmente i Romani Pontefici, 
+fanno parte della ecclesiastica istoria, e con 
+essa verranno collocate. Seguono per ultimo i 
+sacri oratori, ed i libri ascetici, ossia di cristiana divozione. Sogliono in appresso aver 
+luogo separato gli scritti di dottrine eterodosse; 
+e quelli che risguardano le religioni de' popoli, 
+cui non è lume il vangelo. Uniti a questi vanno 
+pure i libri di quella antica mitologia, che fu 
+all'uomo oggetto di culto nelle sue religiose 
+aberrazioni.
+Alcune divine determinazioni, i canoni disciplinari de' Concilii, le costituzioni, dette ancora 
+Decretali de' Romani Pontefici, le costumanze 
+della Chiesa, costituiscono quella scienza che 
+ha titolo di diritto Canonico, il quale tutta 
+abbraccia la ecclesiastica economia. Le collezioni, 
+ed i libri di tali materie fanno parte de' sacri 
+studj, e vogliono essere in essi compresi. 
+<pb n="11"/>
+Le leggi divine ed ecclesiastiche ricordano 
+facilmente le naturali, e le civili; quelle leggi 
+cioè che riguardano l'uomo nello stato di 
+natura, e nell'ordine sociale. Perciò queste due 
+facoltà, che per molti rapporti si collegano, e trattate sono con metodo, e con ordine eguale, 
+come osservasi specialmente nelle insigni opere 
+dell'Hericourt, e del Domat = <emph>Le leggi ecclesiastiche, e le civili poste nel loro ordine naturale</emph>, 
+devono, per costumanza antica, essere unite; ed 
+alla ecclesiastica verrà di seguito la civile giurisprudenza. Sotto questo titolo generale si comprende il gius di natura, e delle genti, il diritto 
+pubblico, ed il privato. Quindi le opere che ne 
+trattano, tra le quali primeggia il famoso codice = <foreign lang="lat"><emph>Corpus juris civilis</emph></foreign>, saranno collocate 
+secondo l'ordine che si viene accennando. 
+I più dotti e celebri scrittori di bibliografia 
+pongono questa scientifica materia dopo quella 
+degli accennati studj ecclesiastici, cui per molti 
+rapporti appartiene.
+Ai libri di giurisprudenza è costumanza 
+accompagnare quelli della legislazione in generale, e delle scienze politiche, ed economiche, 
+alle quali ha relazione il commercio. 
+Al sortire dal santuario de' sacri studj si 
+presenta rispettosa al limitare la Filosofia, il 
+cui nome indica amore della sapienza. Essa dà 
+<pb n="12"/>
+alla Teologia il bacio dell'amistà come a sorella figlia del medesimo Padre, il quale se 
+parlò espressamente all'uomo, segnò pure sopra 
+di lui il lume della ragione. Comune ad entrambe essendo la divina origine ne consegue, 
+che concordi saranno pure nella verità dello 
+insegnamento; sicchè un vero teologico non 
+potrà mai esser falso in filosofia: ed un vero 
+filosofico non mai sarà contrario a teologico 
+dogma. Ben s'intende aversi qui discorso del 
+filosofo, che usa rettamente della ragione, nè si 
+abbandona ad erronei traviamenti: come egualmente del teologo, che tiene sana dottrina, nè 
+s'illude a fallaci interpretazioni della divina 
+parola.
+Per tali ragionevoli motivi presso i libri 
+di sacra letteratura amasi collocare i filosofici. 
+In questa disposizione si presentano per i 
+primi i moltissimi libri di corso filosofico, 
+che tutto lievemente ne percorrono lo stadio. 
+La filosofia poi altra è teoretica, ed altra dicesi pratica. Sono argomento alla prima la <emph>Psicologia</emph> empirica, cui si riferiscono tutte le 
+dottrine ideologiche: la <emph>Logica</emph>; la <emph>Metafisica</emph>; l'<emph>Estetica</emph> detta da moderni <emph>Callologia</emph>. Appartiene 
+alla filosofia pratica l'<emph>Etica</emph> che altri dicono 
+<emph>Aretologia</emph>, la quale espone le regole de' costumi, 
+e di un retto vivere secondo il dettame della 
+<pb n="13"/>
+ragione; la <emph>Froneseologia</emph>, e la <emph>Pedagogia</emph>. 
+L'ordine, con cui queste materie sono ricordate è quello, che verrà osservato nella distribuzione de' libri, che ne danno i trattati. In 
+riguardo poi a quegl'innumerevoli scritti, specie 
+di aborto dell'umano concepimento, e che pur 
+vantano filosofia trascendentale, i quali di presente innondano in modo particolare le regioni 
+poste, a nostro riguardo, oltre la catena delle 
+Alpi, assegnerei loro la classe speciale che ha 
+titolo = Stranezze filosofiche. =
+Alle filosofiche facoltà si congiunge la 
+scienza delle quantità, e de' numeri, cioè le 
+Matematiche. Sono esse o pure, o applicate. 
+Oggetto delle prime è l'<emph>Aritmetica</emph>, l'<emph>Algebra</emph>, 
+la <emph>Geometria</emph>, la <emph>Trigonometria</emph>, e tutto quel 
+complesso di cognizioni che si dicono matematiche elementari, e sublimi. Lo sono delle altre 
+la <emph>Meccanica</emph> propriamente detta, la <emph>Statica</emph>, 
+la <emph>Dinamica</emph>, l'<emph>Astronomia</emph>, l'<emph>Idraulica</emph>, l'<emph>Ottica</emph>, 
+con altre analoghe facoltà. Questo compartimento sarà di norma nella collocazione de' rispettivi libri.
+In alcune biblioteche, come nel catalogo 
+della Firmiana di Milano, l'Architettura militare trovasi unita alla civile tra le belle arti, 
+perchè Vitruvio la comprende ne' suoi libri 
+<foreign lang="lat"><emph>De architectura</emph></foreign>, e ne tratta di proposito 
+<pb n="14"/>
+usando talvolta geometriche dimostrazioni. Ma 
+ora quest'arte, dopo le nuove artiglierie, essendo tutta argomento delle matematiche applicate, vuol essere dietro autorevoli esempj, tra 
+esse collocata. Quindi le famose opere sulle fortificazioni militari del De Marchi, di Vauban, 
+del Carnot, e di altri insigni scrittori di tali 
+materie, andranno tra matematici. Per certa 
+analogia crederei opportuno l'unirvi tutti quei 
+libri antichi, che trattano di cose a milizia appartenenti.
+Dopo i ragionati libri di filosofia vengono 
+per consenso generale, quelli di Fisica sperimentale, ossia delle scienze naturali: poichè 
+<foreign lang="lat"><emph>Physis</emph></foreign>, greca voce, torna lo stesso che natura. 
+Qui appartiene la <emph>Geologia</emph>, quella scienza 
+cioè, che ha per oggetto la storia naturale 
+del globo terrestre considerato, per quanto è 
+possibile, sotto tutti i suoi rapporti. E' noto 
+che la storia naturale si divide in tre parti, 
+dette volgarmente i tre regni: Animale, Vegetabile, e Minerale. Sono attenenti al primo 
+regno la <emph>Zoologia</emph>, la storia cioè di tutti gli 
+animanti, compreso il ragionevole; l'<emph>Antropologia somatica</emph>, o dottrina dell'uomo considerato 
+sotto il rapporto fisico; cui appartengono le 
+scienze mediche, la <emph>Fisiologia</emph>, la <emph>Patologia</emph>, 
+la <emph>Chirurgia</emph>, l'<emph>Anotomia</emph>, la <emph>Zoojatria</emph>, e la 
+<pb n="15"/>
+<emph>Igenia</emph>, la quale dividesi in <emph>Cosmetica</emph>, ed in 
+<emph>Atletica</emph> ossia <emph>Ginnastica</emph>, con tutte le appendici che hanno con essa convenevole rapporto. 
+Ravvivano il secondo la fiorente botanica, l'agricoltura, e tutte quelle coorti cui è anima la 
+vegetazione. I corpi organici, o non organizzati, 
+i metalli, i fossili, le miniere e tutto ciò che 
+da esse deriva, tengono profondamente il terzo 
+regno. Tutti i libri, che sotto varj titoli, trattano delle indicate materie, a storia naturale 
+appartenenti, avranno la rispettiva tecnologica 
+stanza, conforme l'accennata loro divisione.
+La <emph>Chimica</emph>, quell'arte imitatrice, e rivale 
+della natura, verrà in seguito alle naturali produzioni. Essa si divide in molti rami. I principali sono la chimica agraria, nobilmente illustrata 
+dal Dawy, e da Chaptal; la farmaceutica; la 
+chimica applicata alle arti, ed ai mestieri; la 
+<emph>Metallurgia</emph>, e l'<emph>Alchimia</emph>. Vasto è il campo 
+di questa scienza nella moderna filosofia; i 
+molti libri, che ne trattano, troveranno sede 
+opportuna nelle proprie loro tecnologie, a 
+norma delle classificazioni indicate da Ottavio 
+Ferrario nel suo Corso di Chimica generale.
+Ma non basta conoscere le scienze, ed 
+aver ricca la mente di belle cognizioni, conviene 
+ancora saperle altrui nobilmente comunicare, 
+e farle gradire con chiara, e piacevole 
+<pb n="16"/>
+elocuzione; un bello, ed elegante stile presta opra 
+utilissima, facili rendendo, e gradevoli le più 
+scabre, e severe dottrine -</p>
+<quote rend="block">
+<lg type="versi">
+<l><foreign lang="lat"><emph>Omne tulit punctum qui miscuit utile dulci</emph> (<num>1</num>)<note place="foot"><foreign lang="lat">Hora<abbr>t.</abbr> de A<abbr>rt.</abbr> <abbr>Poet.</abbr></foreign></note>.</foreign> </l>
+</lg></quote>
+<p>Nobile esempio ce ne porge Virgilio nelle 
+sue Georgiche, il Galileo, il Redi, ed i <emph>Saggi</emph> 
+dell'Accademia del Cimento. Quindi dalle filosofiche discipline naturale, ed opportuno 
+ne viene il passaggio alla filologia, a quei 
+libri cioè, che ci ammaestrano con quale 
+proprietà di voci, di termini, e di dizione devono 
+le scienze essere esposte, ed insegnate. Primeggiano in ciò que' genj di Grecia, che furono e 
+sempre saranno mirabile esempio di nobile stile. 
+Noti essi sono col nome di Classici greci scrittori. Le opere loro collocate saranno dopo le 
+filosofiche, unitamente alle traduzioni, e a quegli 
+scritti, che le illustrarono. Succedono a' Greci, 
+per diritto ereditario, i Classici latini, che con 
+eleganti scritture trattarono la lingua antica del 
+Lazio, e con essi le rispettive loro versioni. 
+<emph>La Biblioteca degli autori classici</emph> dell'Arvood, 
+potrà esserci di norma nella distribuzione di 
+questi libri.
+Una tenebrosa barbarie, offuscò per alcun 
+tempo il bel cielo d'Italia. Al diradarsi delle 
+tenebre le lettere latine ebbero risorgimento; 
+<pb n="17"/>
+e molti insigni cultori di esse, imitando i classici padri, dettarono libri filologici di buona 
+latinità. Essi verranno in seguito agli antichi, 
+col titolo di = Moderni latini scrittori.
+Figlia primogenita della latina è la italica 
+favella; per ciò i libri scritti elegantemente nel 
+bellissimo nostro idioma, che gli Accademici 
+Fiorentini della Crusca, ed il consenso de' dotti 
+propongono a testi di lingua, e noti sono col 
+nome di classici italiani, quelli seguiranno 
+della madre antica. Dante, Petrarca, e Bocaccio, 
+insigni triumviri, vi avranno i primi seggi. Di 
+seguito a' classici staranno tutti i moltissimi 
+libri di varia italiana letteratura.
+Le stranie nazioni, specialmente la Francese, 
+la Spagnola, la Tedesca, e l'Anglicana hanno 
+esse pure la loro particolare filologica letteratura, 
+e pregiatissimi scritti posseggono su tale argomento. Credo per ciò opportuno assegnare in 
+una biblioteca un posto distinto a tali libri, 
+col titolo di <emph>Letteratura straniera</emph>, collocandoli 
+per ordine di nazionalità. Delle estranee lettere fanno parte ancora le lingue, e le letterature orientali, come l'ebraica, la caldea, la 
+siriaca, l'arabica, ed altre più rinomate delle immense eoliche regioni. Al termine poi di ogni 
+letteratura poste vanno le rispettive loro filologie.
+<pb n="18"/>
+Nella distribuzione de' libri filologici si 
+porranno in primo luogo le collezioni generali 
+delle opere di un'autore: <foreign lang="lat"><emph>Opera omnia</emph></foreign>: unitamente stampate. In seguito verranno le separate edizioni dei particolari trattati. Alla poesia, 
+per diritto di primogenitura, sarà concesso il 
+posto principale; poscia lo avranno i prosatori. 
+Verrà poi sempre osservato nelle analoghe materie 
+l'ordine del tempo in cui gli scrittori fiorirono.
+Le buone lettere, e le belle arti si danno 
+a vicenda la mano: entrambe concorrono all'umano incivilimento; e laddove non vi sono 
+buone lettere, nè belle arti, ivi è barbarie. 
+Eguali ebbero sempre la fortuna, e di conserto 
+fiorirono. I secoli di Pericle in Grecia, di 
+Augusto in Roma, de' Medici in Italia, e del 
+magno Colbert in Francia ne fanno prova. Pindaro, e Fidia; Virgilio, e Vitruvio; Lodovico, 
+e Michelangelo; Cornelio, e Poussin, furono genj 
+contemporanei. La pittura dicesi sorella a poesia, e come una stessa cosa: <foreign lang="lat"><emph>Ut pictura poesis</emph></foreign>: 
+scrisse il classico latino autore dell'Arte poetica. 
+Per siffatta ragione a seguito de' libri di belle 
+lettere quelli avranno luogo, che le arti belle risguardano, le quali diconsi belle, perchè, seguendo natura, raggiungono un grado sublime 
+di bellezza. Sono esse principalmente la pittura, 
+la scultura, l'architettura, e lo intaglio o 
+<pb n="19"/>
+incisione. Tra libri di questa classe non solo sono 
+comprese quelle opere, che trattano esteticamente, 
+e per teorica delle arti, o ne danno i precetti del 
+disegno; ma quelle pure, che con figurati rami 
+presentano bellezze artistiche; e fra queste con le 
+moderne si comprendono ancora le antiche, perchè ricordano monumenti ammirandi di opere 
+vetuste di scultura, e di architettura: ed hanno 
+titolo di <emph>antichità figurata</emph>. Sono di tal genere il 
+Museo Pio Clementino, le Antichità di Atene, 
+di Roma, e dell'Egitto. In questa classe avrà 
+per ciò posto onorevole la grande opera del 
+Montfaucon: <emph>L'antichità spiegata, e rappresentata con figure</emph>, che sono più di trenta mila; 
+l'insigne <emph>Raccolta di antichità</emph> del Cajlus: quelle 
+di Ennio Visconti, del Piranesi, ed altri di 
+merito eguale. Qui pure ben staranno le antiche 
+e le moderne costumanze delle nazioni rappresentate con figurati disegni. Dotti bibliografi 
+pongono nella classe del bello artistico la Nummismatica, e le opere figurate, che risguardano 
+la Tipografia, la Paleografia, e l'arte Diplomatica.
+Le biografie degli artisti; i cataloghi delle 
+pinacoteche; le descrizioni di gabinetti pittorici, 
+e tutti que' libri, che in alcun modo illustrano 
+oggetti di belle arti, vanno ad esse uniti.
+<pb n="20"/>
+La Musica, quell'arte gradevole del diletto, 
+fu posta da molti, non senza ragionevole motivo, tra le matematiche, perchè di quantità, 
+e di numeri si compone; ma troverà luogo 
+più piacevole, e più generalmente acconsentito tra le belle arti. A questo riguardo la 
+nostra biblioteca va gloriosa di possedere tutta 
+intiera la ricchissima, e rara collezione di libri 
+di scienza musicale, dell'illustre, e coltissimo 
+Maestro Mayr.
+I libri delle arti belle, figlie del sentimento, 
+avranno a compagni, come a corteo, con i 
+voluti riguardi, quelli delle arti fabrili, prodotte dalla necessità.
+Quella grande maestra dell'uomo la Istoria, 
+che per distinzione appellasi profana, vien posta 
+per consentimento di celebri scrittori, dopo le 
+materie sin qui ragionate. E primamente i libri 
+di storia generale de' popoli antichi, e moderni; 
+poscia li storici delle particolari nazioni, e dei 
+loro imperi; per ultimo le istorie delle provincie, 
+e delle città. Le vite di que' famosi personaggi, 
+che altamente colla storia si collegano, vanno 
+insieme ad essa; come quelle di Carlo Magno, 
+di Carlo Quinto, di Federico il grande, di 
+Napoleone, ed altre di eguale importanza. 
+Hanno lo stesso carattere, ed avranno consimile destino le istoriche genealogie delle 
+<pb n="21"/>
+famiglie più illustri. E qui spontaneo ne corre il 
+pensiero all'opera immortale del Litta. Alla 
+classe istorica convengono pure que' libri Epistolari, che rammentano cose pubbliche appartenenti agli Stati, ed ai Governi. Le raccolte 
+di antiche lapidarie iscrizioni devonsi pure 
+collocare tra libri di storia: poichè, come i 
+dotti ben sanno, sono ad essa di grave fondamento. Importantissime tra queste si hanno 
+quelle dei famosi marmi di Arondel: <foreign lang="lat"><emph>Marmora 
+oxoniensia</emph></foreign>: dagli eruditi editori dottamente 
+illustrati. Accanto desse si concederà sede opportuna alla Archeologia, la quale va occupandosi della investigazione di antichi storici 
+monumenti. Alla storia appartiene pure la profana mitologia, che poggia in origine a storico 
+fondamento. Potrebbero forse trovar qui luogo 
+ancora i Romanzi storici; ma a questi, siccome 
+una specie di ermafroditi, crederei più convenevole quello della rispettiva loro letteratura.
+Occhi della storia si dicono essere la Cronologia, e la Geografia; perciò i libri, e le carte 
+di queste due facoltà, unitamente alle relazioni, 
+ed alle descrizioni de' viaggiatori, tra le quali 
+quelle primeggiano dell'Humbold, compiranno 
+la storica collezione.
+Vi sono molti libri, che non si possono 
+classificare sotto alcuna particolare scientifica, 
+<pb n="22"/>
+o letteraria categoria, perchè a tutte appartengono. S'addicono a questo numero le Poliantee, 
+le Polimazie, le Enciclopedie, gli Atti delle 
+società letterarie; le Raccolte, o Miscellanee di 
+scritti sopra diverse materie; le collezioni famose 
+di Grevio, e di Gronovio; i giornali scientifici, e letterarj; le grammatiche, le biblioteche, 
+ed i lessici universali, o poliglotti; le generali 
+biografie, ed i cataloghi bibliografici. Tutti 
+questi libri verranno compresi sotto il titolo 
+generico di <emph>Poligrafia</emph>. Nel loro collocamento 
+si procurerà di accostarli, per quanto ne convengono gli argomenti.
+Ad ogni classe scientifica o letteraria, di 
+cui si compone una biblioteca, saranno apposte 
+le proprie loro storiche notizie, ed i rispettivi 
+dizionarj, che più comune ne rendono la intelligenza.
+Parecchi autori, e di molto grido, hanno 
+scritto sopra diverse disparate materie, le cui 
+opere sono pubblicate in una sola edizione, che 
+tutte le comprende, con ordine di volumi. Dilacerare siffatte collezioni, e dimembrarle per 
+materie, non lo credo conveniente; poichè si 
+dovrebbe tal volta bipartire uno stesso volume. 
+In questo caso io penso, che si debba por mente 
+in quale argomento l'autore primeggia, ed abbia 
+fama più distinta, per collocare le opere sue 
+<pb n="23"/>
+laddove più celebre sta il suo nome. Per esempio Leibnizio è grande nelle filosofiche, e nelle 
+matematiche discipline; ma il primato egli forse 
+lo tiene nella filosofia razionale; perciò le opere 
+di lui, della bella edizione di Dutens, verranno 
+collocate tra i filosofi dell'accennata categoria. 
+Diversamente si procederà quando le opere 
+siano separatamente stampate. Le opere principali di Mascheroni vanno certamente tra matematici; ma l'elegantissimo suo <emph>Invito a Lesbia</emph>, 
+stampato a parte, avrà luogo onorevole tra 
+classici poeti italiani. In generale poi io ritengo 
+che le opere di un Autore quantunque in diverse edizioni, ma che trattano di analoghe 
+materie, si debba collocarle unite, per quanto 
+il formato, ed una certa simmetrica disposizione 
+lo può consentire.
+Le edizioni del secolo <num>XV.</num>, volgarmente 
+del quattrocento, cotanto pregievoli perchè le 
+prime di ogni autore, dette <emph>principes</emph>, tengono 
+luogo di codici manoscritti, avranno posto in 
+separati scaffali, seguendo l'ordine cronologico.
+E' costumanza usata in alcune librerie di 
+collocare separatamente le edizioni di celebri 
+tipografi, quali sono gli Aldi, gli Elzeviri, i Comini, ed altri di simile celebrità. Ma ora questa 
+specie di tipomania, per buone ragioni, va 
+scemando alquanto di moda.
+<pb n="24"/>
+Vengono per ultimo i codici manoscritti. 
+Dilicati, e preziosi cimelii son questi di ogni 
+pubblica, e privata biblioteca. Saranno essi gelosamente custoditi in appositi armadj, che dai 
+latini, con tecnica voce detti furono <emph>plutei</emph>. Il 
+Bibliotecario non ne permetterà la ispezione, 
+che con sorveglianza diligentissima.
+Tale è il modo con cui, dopo aver consultato dottissimi autori, e seguendo ragionevolezza di ordine, io credo, che il grande 
+albero delle scienze, e delle lettere debbasi 
+diramare nell'ordinamento di una pubblica libreria. Metodo in gran parte tenuto nell'antica 
+nostra comunale biblioteca, ma che ora nella 
+nuova viene assai migliorato, e per più opportuna capacità di spazioso locale, e per quelle 
+cognizioni, che in me ne vennero maggiori da 
+studj convenevoli, e dalla pratica del servigio di 
+bibliotecario, che, per quaranta e più anni, vo 
+prestando con tutto affetto alla mia patria. Io lo 
+espongo con franca confidenza innanzi questo 
+letterario Consesso, a pochi tratti di larghe pen- 
+nellate, i cui accessorj saranno dagli intelligenti 
+facilmente suppliti. Che se mai andar potessi in 
+alcun luogo errato, prego lealmente i dotti miei 
+colleghi ad essermi cortesi di saggi, e ragionevoli avvisamenti.
+<pb n="25"/>
+Opinarono alcuni che il prospetto delle 
+cognizioni umane del d'Alembert, premesso alla 
+grande Enciclopedia metodica, servir dovesse 
+a modello nella ordinazione di una biblioteca. 
+Il discorso però dell'illustre matematico, benchè 
+assai erudito, non può essere opportuno al nostro intento, nè in alcuna pubblica libreria 
+venne praticato. Lo stesso dicasi di altre opere 
+di simil genere, ed ancora più filosofiche; perchè 
+le sublimi intellettuali ricerche sull'ideologico 
+progresso dell'umano sapere non del tutto si 
+confanno alla pratica comunemente adottata 
+nella ordinazione di una biblioteca.
+Ma per quanto commendevole esser possa 
+un ragionato metodo di generale distribuzione 
+de' libri, tornarebbe vana ogni teorica di ordine, 
+se i libri non fossero realmente posti con tutta 
+esattezza laddove vanno collocati. Qui stà il 
+punto più difficile. Affare non è questo di ogni 
+volgare letteratura, nè impresa da prendersi 
+a gabbo, trattandosi di numerose migliaja di 
+libri di vario argomento. Chi tenesse opinione 
+diversa dimostrerebbe ignoranza in sì fatta 
+materia. Non bastano superficiali cognizioni a 
+semplice frontespizio. È necessario sapere, per 
+appropriati studj, di quale materia tratti realmente ogni libro; quale ne primeggi il dettato; 
+quali sieno nelle scienze, e nelle lettere i suoi 
+<pb n="26"/>
+rapporti, e le relative tecnologie. Sono convenevoli discrete nozioni sulle qualità assolute 
+delle matematiche, e su quelle specialmente, 
+che diconsi applicate in relazione alle arti, ed 
+ai mestieri. Ignota esser non deve una fondata 
+intelligenza del linguaggio chimico. Fa d'uopo 
+conoscere esattamente la storia letteraria, i 
+migliori libri di bibliografia, ed i cataloghi 
+delle più celebri biblioteche. Note esser devono 
+le più pregievoli e le più stimate edizioni, in 
+ogni classe di materie. La storia pure delle 
+arti non deve essere ignorata. Aggiungasi una 
+sufficiente perizia nell'arte diplomatica, e nella 
+paleografia, per gli antichi codici manoscritti. 
+Conviene in oltre non essere straniero a parecchie lingue, e specialmente alle dotte. Chi 
+privo essendo di un tal corredo di cognizioni 
+pur volesse porvi mano, o mettervi lingua, 
+mal si apporrebbe, ed avrebbe taccia di saccenteria.
+Il Mattaire, bibliografo di sommo grido, nella 
+introduzione alla sua storia degl'illustri tipografi 
+gli Stefani, così disegna a tratti risentiti la 
+ignoranza di alcuni nell'argomento, che viene 
+per noi proposto. <foreign lang="lat"><emph>Sunt qui ignorant character 
+characteri; liber libro; typographus typographo quid praestet. Deformi pulcher; emendatus 
+corrupto; doctissimus ineptissimo quid intersit</emph>.</foreign>
+<pb n="27"/>
+Ciò nulla meno con tutto un convenevole 
+letterario apparato potrebbe avvenire, che nel 
+fervore del primo collocamento di numerosissimi 
+volumi, e molti ancora confusi, alcuno di essi 
+posto non fosse, per avventura, in quella classe 
+cui appartiene. Inevitabile condizione è questa 
+di ogni opera letteraria di lunga lena; come 
+avvertì Orazio nella celebre sua epistola ai 
+Pisoni. Il fare cosa perfetta, e farla di primo 
+colpo, non è dato all'uomo. Ma a questo eventuale inconveniente sarà facilmente riparato con 
+un'attenta generale revista, ed ancor replicata, al 
+terminare della operazione: e lealtà certamente 
+non sarebbe un immaturo sentenziarne a scranna. 
+Accade, non di rado, ragionato dubbio a qual 
+classe possa con tutta proprietà appartenere un 
+libro. In questo caso le distinte cognizioni di un 
+dotto bibliotecario determineranno alla meglio 
+ogni dubbiezza.
+Nel tardo, e faticoso operare mi sono 
+compagni tre pregiatissimi amici; il Vice-bibliotecario abbate Giovanni Bosis, ornato di molta 
+letteraria coltura; l'emerito <abbr>Prof.</abbr> don Francesco 
+Bolis, dottissimo specialmente negli studj ecclesiastici, ed il <abbr>Co.</abbr> Bartolomeo Suardo, nome 
+chiaro nelle lettere italiane.
+In riguardo al catalogo generale, quantunque esso esistesse regolarmente composto, nella 
+<pb n="28"/>
+antica biblioteca, pure, per le indispensabili 
+avvenute variazioni, non sarà inopportuno che 
+sia rinnovato. A questa laboriosa impresa ha 
+cortesemente offerta l'opera sua il lodato Conte 
+Soardo. Che una franca lena possa corrispondere all'arduo divisamento. Esso ha già dato 
+incominciamento al suo lavoro, il quale dovrà essere eseguito sugl'esempj, che ne abbiamo nelle stimate bibliografie dell'Osmont, 
+del Cravenna, e del Brunet, e sulle traccie 
+segnate da Jacobo Morelli nel suo catalogo 
+della famosa biblioteca Pinelliana. Ciò però 
+appartiene soltanto al modo d'inscrivere i 
+libri, non a quello della loro distribuzione; 
+in riguardo alla quale egli stesso confessa, nella 
+prefazione, che il suo metodo non può convenire ad altre, ancor più cospicue biblioteche: 
+<foreign lang="lat"><emph>quam quidem methodum, ad alias bibliothecas, 
+vel locupletiores, describendas, minime accomodatam esse lubentissime fateor</emph></foreign>. Lo stesso può 
+dirsi rispetto ancora ad alcuni altri celebri cataloghi. Per quello che risguarda le edizioni del 
+secolo <num>XV.</num> saranno di modello gli <emph>Annali Tipografici</emph> del Panzer, ed il <emph>Dizionario Bibliografico</emph> dell'erudito De la Serna Santander. Nella 
+formazione poi del catalogo de' manoscritti verrà 
+scelto ad esemplare quello, assai pregiato, dei 
+codici della biblioteca Mediceo-Laurenziana di 
+Firenze; opera egregia del chiarissimo Bandini.
+<pb n="29"/>
+Per conoscere, ed avvisare alle cose, che 
+alla biblioteca appartengono, il Comunale Consiglio ha eletta una Commissione di tre ragguardevoli concittadini: il <abbr>Co.</abbr> Alessandro Moroni, 
+il <abbr>Co.</abbr> Leonino Soardo, ed il <abbr>ch.</abbr> A<abbr>b.</abbr> <abbr>Prof.</abbr> Bongiani, i quali con modi gentilissimi, e con 
+zelo distinto si prestano a tutto ciò, che può 
+essere del loro incarico, assecondati dal consentimento della Municipale Magistratura.
+Credo dover aggiungere brevi parole sulla 
+materiale situazione de' libri, voluta dalla opportunità, e convenevolezza di luogo, e dalle 
+particolari circostanze della nostra biblioteca. 
+Nell'aula maggiore vi stanno tutti i libri di 
+sacro ed ecclesiastico studio; i filosofici; quelli 
+di greca, latina, ed italiana filologia, e quelli 
+alla storia appartenenti. La prima delle attigue 
+sale è destinata alla duplice giurisprudenza, ed 
+alle edizioni del quinto decimo secolo, che ammontano a mille duecento; molte delle quali, 
+e per rarità, e per merito tipografico, sono 
+d'aversi in pregio assai distinto. I libri di 
+poligrafia saranno posti nella seconda, che servirà, con molta opportunità, a sala di studio. 
+Luogo avràn qui pure le lettere straniere.
+Gli atti accademici, che di trecento sorpassano 
+i mille volumi; le belle arti, e le matematiche, tutta occupano la galleria. 
+<pb n="30"/>
+Pregievolissime e per copiosa ricchezza di libri, e per 
+rarità di opere, sono queste tre collezioni; per 
+cui si può francamente asseverare, che in tali 
+rami la biblioteca di Bergamo ha il vanto sopra 
+tutte le provinciali del Regno. I codici manoscritti avranno stanza in quella destinata particolarmente ad uso del bibliotecario, e riposti 
+saranno in forti, e chiusi ciscranni, onde più si-
+cura ne sia la custodia. Sono essi presso che mille 
+quattrocento. Appartengono parecchi a classici 
+scrittori latini, ed italiani; ed alcuni pure alla 
+greca, ed alla orientale letteratura.
+Da quanto vengo ingenuamente esponendo 
+nel presente, per natura sua, non troppo elegante ragionamento, mi fermo in franca fiducia 
+di poter far certi i miei concittadini, che la 
+pubblica nostra biblioteca, istituto letterario, 
+che cotanto fa onore alla patria, potrà per 
+ragionevolezza di ordinamento, ed esattezza di 
+esecuzione, e per decevole convenienza di ornato, gareggiare con le più cospicue dell'Italia.
+</p></div1>
+<pb n="31"/>
+<div1 type="parte">
+<head>Annotazione <emph>d'aggiungersi alla linea</emph> <num>12</num> <emph>della pagina</emph> <num>29</num>.</head>
+<p>
+Il celebre Fortunato Federici, bibliotecario 
+della <abbr>I.</abbr> <abbr>R.</abbr> Università di Padova, cui un'antica 
+legavami, e leale amicizia, uomo eruditissimo 
+specialmente nella bibliografia, come le molte 
+sue opere lo fanno chiaro, preparata avea per 
+recitare nell'Ateneo di Treviso, e pubblicare 
+colle stampe una sua <emph>Memoria sul metodo di 
+ordinare il catalogo di una biblioteca</emph>; ma subita morte, appena scorre l'anno, lo tolse 
+d'improvviso alle lettere, ed agli amici. Per 
+la generosa cortesia del gentilissimo fratello di 
+lui io posseggo, tutto di recente, questo pregievole scritto, il quale oltre modo mi è carissimo, e come pegno novello di ricordanza 
+amichevole, e perchè per alcuni riguardi può 
+essere di molta utilità alla rinnovazione del 
+catalogo della nostra biblioteca.
+<pb n="32"/>
+</p></div1>
+</body>
+</text>
+</TEI.2>

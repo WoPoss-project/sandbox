@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Cantus Circaeus</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>97 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001459</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali; Nino Aragno</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-10-06T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Gabriele Masini</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-10-27T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 n="Titolo"><p>PHILOTEI IORDANI BRUNI NOLANI<lb/>
+CANTUS CIRCAEUS AD EAM<lb/>
+MEMORIAE PRAXIM ORDINATUS QUAM IPSE<lb/>
+IUDICIARUM APPELLAT. </p>
+<lb/>
+<p><hi rend="italic">Ad altissimum principem henricum d'angoulesme magnum galliarum priorem, in provincia regis locumtenentem, etc.</hi></p>
+<lb/>
+<p>PARISIIS<lb/>
+Apud Aegidium Gillium, via S. Ioannis Lateranensis, sub<lb/>
+trium coronarum signo. <lb/>
+MDLXXXII</p></div1>
+
+<div1 n="Dedica"><opener><salute>ILLUSTRISSIMO ALTISSIMOQUE PRINCIPI HENRICO D'ANGOULESME</salute></opener>
+<p>Magno Galliarum Priori, Provinciae Gubernatori, ac Locumtenenti generali, et totius maris orientalis pro Regia Maiestate Admiralio Io. Regnault eiusdem Illustrissimi a secretis Consiliarius.</p>
+
+<p>	Cum ad manus meas, Altissime princeps, duplex de cantu Circaeo et eius ad memoriae Artem applicatione Dialogus pervenerit; cumque artis ipsius excellentia, et fructus non me lateat: dignissimam quae nobilibus et generosis ingeniis communicaretur existimavi. Materiam enim minime vanam, de rebus maxime desiderabilibus comprehendit. Mitto quod praeter titulum, et artis elementa nihil habet cum aliis hactenus editis commune: eaque admittit propria, quae Iordanum non solum autorem sed et frugi inventorem testificabuntur. Ad haec artis istius editio ad eius famam, et iustificationem pertinet: accidit enim eius exemplaria successu quodam fuisse vitiata: et conspurcata circumferantur: quatenus et auctor reddatur vulgo suspectus, et Ars minus commendabilis. Consultum ergo mihi fuit eam ipsam artem habentem pro titulo prohemium (in quo quae promitti possunt proponuntur) cum suo progressu cuius erat exemplar apud me, fidelissime ut olim quibusdam dictata fuerat, utque dialogo Circae
+ o cum eiusdem applicationibus ad augmentum et non modicum ornamentum et claritatem facientibus postea per Ior. est efformata, in lucem edere. Cui quidem amico consilio atque sententia libentissime ut par erat consentivit Iordanus meque rogavit ut (cum sit ipse gravioribus negociis intentus) ego eam ipsam curam susciperem et complerem. Post igitur aliam artem per ipsum editam, et christianissimo Regi dicatam: quae de umbris idearum intitulatur: hanc ego edendam suscepi, quae quidem illud habet peculiare, atque proprium: ut memoriam verborum seu dictionum quam aliae artes inter millibus suppositis imaginibus, et centum millibus locis difficile complebant: ista in centum, et viginti praecipuis formis (ut ipse loquitur) subiectivandis: iuxta terminorum, sententiarumquae numerum facillime perficiet, determinatis operationibus insigniis, circunstantiis, et adsistentibus. Quibus efficit ut haec ars pro memoria verborum longe minus labore, industria, et exercitatione: quam caeterae
+ omnes quae legi possint indigeat. Adeo ut facilius, et certius hanc viam incedentibus praestent tres quatuorve menses, quam aliorum tramitem persequentibus, tres quatuorve praestare valeant anni. Quod sane artem hanc aliis comparare potenti non potest esse dubium. Quod vero ad memoriam rerum et sententiarum attinet: satis apertum est quod mox auditis artis praeceptionibus: quilibet eadem possit pro sua uti capacitate: et ab eius profectu non est iudicii compos qui excludatur. Dictas igitur cum in ipsa singularitates acceperim dignum existimavi ut sub tui nominis splendore curreret: quatenus etiam obsequium perpetuae servitutis qua tibi ex toto pectore sum addictus, hoc etiam signo percipere possis: ut et si qui fructum ex huius artis canonibus emetent, ipsum ex parte ad te, cuius secundis auspiciis est edita, referant. Interim celsitudo tua muneris exiguitatem, animi affectusque magnitudine compenset obsecro. Vale, et quamdiutissime Regiae Ma. Patriae, et admnistrationi tuae
+ , tuisque foelix et incolumis vive.</p>
+<p>	Tuae amplitudini addictiss. et obsequentissimus servus Io. REGNAULT.</p>
+
+
+</div1>
+<div1><head>IORDANUS LIBRO.</head>
+<lg><l>	Visurus magam magni solis filiam,
+</l><l>His procedens e latebris,
+</l><l>Ibis Circeum liber in hospicium,
+</l><l>Haud arctis arctis clusum terminis;
+</l></lg><lg><l>	Balantes oves, mugientes et boves,
+</l><l>Crissantes haedorum patres
+</l><l>Visurus, univers'et campi pecora,
+</l><l>Cunctasque sylvae bestias.
+</l></lg><lg><l>	Concentu vario errabunt caeli volucres,
+</l><l>In terra, in und'in aere.
+</l><l>Et te dimittent illaesum pisces maris,
+</l><l>Naturali silentio.
+</l></lg><lg><l>	Tandem caveto, quando domum appuleris,
+</l><l>Inventurus domestica:
+</l><l>Namque ante fores, aditumqu' ant' atrii,
+</l><l>Limosum se praesentans
+</l></lg><lg><l>	Occurret porcus, cui si forte adhaeseris:
+</l><l>Limo, dentibus, pedibus:
+</l><l>Mordebit, inquinabit, inculcabit,
+</l><l>Et grunditu t'obtundet.
+</l></lg><lg><l>	Ipsis in foribus, in adituqu'atrii,
+</l><l>Morans genus latrantium:
+</l><l>Molestum fiet baubatu multiplici,
+</l><l>Et faucibus terribile.
+</l></lg><lg><l>	Hoc ni desipias, et nisi desipiat,
+</l><l>Metu dentis, et baculi,
+</l><l>Te non mordebit, ipsum non percuties,
+</l><l>Perges, nec te praepediet.
+</l></lg><lg><l>	Quae cum solerti evaseris industria,
+</l><l>Interiora subiens:
+</l><l>Solaris volucer te gallus exipiet,
+</l><l>Solis committens filiae.</l></lg>
+
+<p>PHILHOTHEI IORDANI BRUNI NOLANI CANTUS CIRCAEUS, AD MEMORIAE PRAXIM ORDINATUS.</p></div1></front>
+
+<body><div1><head>DIALOGUS PRIMUS.</head>
+
+<stage><hi rend="italic">Interloquunt.</hi> CIRCE et MOERIS.</stage>
+
+	<sp><speaker>CIRCE</speaker><p> Sol qui illustras omnia solus. Apollo, carminis author, pharetrate, arcitenens, sagitti-potens, Pythie, lauriger, fatiloque, pastor, vates, augur, et medice. Phaebe, rosee, crinite, pulchricome, flave, nitide, placide, cytharaede, cantor, et veridice. Titan, Milesi, Palatine, Cyrrhaee, Timbraee, Deli, Delphice, Leucadice, Tegaee, Capitoline, Smynthaee, Ismeni, et Latialis. Qui mirabiles impertiris naturas elementis: quo dispensante tumescunt, et sedantur maria: turbantur et serenantur aer et aethera: vivida quoque intenditur, reprimiturque ignium vis atque potentia. Cuius ministerio viget istius compago universi, inscrutabiles rerum vires ab ideis per animae mundi rationes ad nos usque deducens et infra, unde variae atque multiplices herbarum, plantarum caeterarum, lapidumque virtutes, quae per stellarum radios mundanum ad se trahere spiritum sunt potentes.</p><p>
+	Adesto sacris filiae tuae Circes votis. Si intento, castoque tibi adsum animo, si dignis pro facultate ritibus me praesento. En tibi faciles aras struximus. Adsunt tua tibi redolentia thura, sandalorumque rubentium fumus. En tertio susurravi barbara et arcana carmina. Peractae sunt lustrationes. Septem suffituum genera pro septem mundi principibus expedivimus. Solutiones et ligamenta de more sunt peracta. Sygillavimus omnia. unum abest ut praecationum quae praecurrere debuerunt, quaeque ad suos repetitae sunt numeros concupita proferamus. Moeri inspice lineam, et vide an adhuc altum caeli sol teneat.
+	</p></sp><sp><speaker>MOERIS</speaker><p> Nil abest.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Convertor igitur ad te meridianum solem, per mirabilem potentiam qua unus tam plurima facis. Per concitatorum equorum tuorum cursus, qui universa detegens duo latentia percurris hemisphaeria. Quis quaeso rerum modus est? Ecce sub humano cortice ferinos animos. Convenit ne hominis corpus ut caecum atque fallax habitaculum bestialem animam incolere? Ubi sunt iura rerum? ubi fas, nefasque naturae? Si repetivit Astraea caelum, cuius ne vestigium quidem terra videat: cur non de caelo saltem apparet Astraea? Ecce subivimus minime occultum Chaos. Cur non miscentur ignibus maria, et limpida nigris terris astra: si in terris ipsis et earum gubernaculis nihil est quod faciem demonstret suam? Ipsa ne nos mater natura decipit? Matrem dixerim an novercam? Veritati nil ipsa odibilius esse debet falsitate: bonitati nil ipsa malitia molestius. Non est, non est certe modicum o clarissima mundi lampas, quod et visibilium, et non sensibilium ratiocinant
+ um circumveniamur ingeniis. Cur ergo similem debuimus in ipsa natura ypocrisim experiri? Si perpauci hominum animi sunt effincti, cur quaeso tot hominum sunt efformata corpora? Convertere igitur ad partes tuas o Sol, et tantum naturae et dignitatis tuae praeiudicium vindicato. Insignito Circem tuam tu caeterique praepotentes dii, ut eidem potentia qua ministerialibus spiritibus proximisque corporum istorum formatoribus imperare valeat.</p><p>
+	Adiuro vos per mendaces vultus errorum ministros, per altam praesidum naturae potentiam, ut a singulis brutalium specierum individuis humanam abstrahentes faciem, in suas ipsa faciatis extrinsecas atque veraces prodire figuras. Si quando repressum cursum obire debent flumina. Si quando altum suum arripere debent ignes. Si nullum est aeterno violentum. Si tandem omnia suos ad terminos debent appellere. Mutatur ne aliquid Moeri?
+</p></sp><sp><speaker>	MOERIS</speaker><p> Nil prorsus.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Adiuro vos iterum quid trepidatis? quid haeretis vectores formarum, sygillorum naturae falsificatores. Iuppiter verax, cuius per vos est laesa maiestas vobis imperat. Cogit vos pater hominum, in cuius virtute vos ter, atque quater adstringo. Impero quoque vobis per caeteros qui supra caetera animantium genera habent imperium deos: ut sophistico hominum remoto vultu non impediatis quominus singulorum in lucem conspiciendae prodeant figurae. Respice Moeri.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Nil adest novi.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Tertiam igitur adiurationem aggravabo.</p><p>
+	Iterum ad te manus tendo meas, o Sol. En tibi tota adsisto. Explica rogo te leones tuos, tuos lynces, capros, cynocephalos, laros, vitulos, serpentes, elephantes et caetera animalium istorum ad te pertinentium genera. Alciones, hirundines, coturnices, corvos, cornices, capellas, cicadas, et scarabeos, caeteraque tui generis volitantia. Testudinem, pholim, tunnum, raiam, cethe, caeteraque id genus tua. Qui Ubius, Alexicacus, Phanes, Horus, Apollo diei, Dionysius noctis, et Diespiter diceris. Cuius virtutem aurum, hiacinthus, rubinus, et carbunculus mihi vicariam subministrant. In medio regiminis planetarum reverende, cursum praemonstrans et commonstrans omnium: educens, producens, et maturans universa, regnantium, et consiliariorum domine, fulgentibus radiis celeberrime. Si tu princeps mundi, oculus caeli, speculum naturae, architectura animae mundi, et sygillus alti architectoris. Te quoque lunam appello. En et adsisto tibi. Profer (rogo te) tuos mergulos, grues, buteones, c
+ yconias, graculos, anates, anseres, caeterasque volucres aquaticas. Lumacas, ligurinos, palmipedes, salpas, araneas, ictices, iversas, lacertas, tuaque generis istius universa: Rubetam, ranam, cancros, limacas, ossolas, tuaque caetera natantium. Te appello: quam Hecaten, Latonam, Dianam, Phaeben, Lucinam, Triviam, Tergeminam, Deamque triformem dicimus. Si agilis, omnivaga, pulcherrima, clara, candida, casta, innupta, verecunda, pia, misericors, et intemerata. Iaculatrix, honesta, animosa venatrix, regina caeli, manium gubernatrix, dea noctis, rectrix elementorum, terrae nutrix, animantium lactatrix, maris domina, roris mater, aeris nutrix, custos nemorum, sylvarum dominatrix, tartari domitrix, larvarum potentissima insectatrix, consors Apollinis. Adsis Menala, Euxina, Pisaea, Latona, Aventina.</p><p>
+	En et tibi Saturne senex erigor. Affer (rogo potentiam tuam) tuos asinos, bubulos, camelos, cervos, talpas, lepores, mures, sues, basiliscos, feles, simias, hienas, siluros, mures, bufones, origes, caeteraque tui generis terrestria. Vespertiliones, noctuas, gallinas, muscas, brucos, locustas, cuculos, aliasque tui generis aves. Anguillam, polypum, sepiam, spongiam, et reliqua tui generis aquea. Falcipotens, grandaeve, mature, lente, tarde, verende, falcate, tristis, sapiens iudiciose, profunde, penetrator, rimator, scrutator, cogitabunde, et contemplator. Aetatum dominator, agrorum cultor, falcis inventor, temporum gubernaculorum moderator, currentis minister aeternitatis, emensorum metitor spaciorum, duratione intransibilem aequans sempiternitatem. Deorum parentis pater, adportans, et asportans universa sub voraci tempore, orditor eorum quae fiunt, servator eorum quae durant, et absumptor eorum quae intereunt. A quo draconibus tractum toties sum mutuata currum. Qui Iovem ig
+ neo aethereoque caelo, Iunonem aeri, Neptunum mari, et Plutonem inferno deos genuisti. Adsis pater aetatis aureae. Leucadie, Cretensis, Itale, Latie, Aventine.</p><p>
+	Ad tuum quoque tribunal convertor o Iuppiter, ede (exoro te) tuas aquilas, percnopteros, pygargos, perdices, pellicanos, cyconias, anthos, iliades, turdos, apes, caeterasque tui generis aves. Elephantos, subulones, cervos, satherios, boves, cameleontes, aliaque generis istius animantia. Delphinos, siluras, mugiles, glaucos et alia que tibi degunt in undis. Fulminator, invictissime, iudex, praetorie, magistralis, dux, princeps, rex, imperator, et monarcha. Opulente, xenie, hospitalis, verax, et religiose. Hilaris, liberalis, pie, regalis, magnifice, misericors, et iustificator. Deorum fortunatissime. Universam de fato felicitatem contrahens, veritatis amator, promotor potentatum, servator maiestatis, fons universae laetitiae. Stator optime, legislator populorum, conciliator deorum. Qui divum omnium pater appellaris. Cuius incessu geminus mundi cardo contremiscit. Adsis Olimpice, Dodonaee, Paeanomphe, Ideae, Phrigie, Tarpeie, Lybice, Pysaee, Gnidie, Molosse, Ausonie, Elysie, L
+ atialis.</p><p>
+	Te quoque Mavortem advoco, ne dedigneris tuos hic promere scorpiones, serpentes, aspides, viperas, hircos, hoedos, pardos, canes, cynocephalos, apros, pantheras, lupos, onagros, equos, hyppelaphos, vulpes, tuasque caeteras bestias atque feras. Accipitres, falcones, sabbuteones, strutiones, gryphos, percas, milvos, alias rapaces volucres et vespas. Fucam, draconem, crocodilum, chroneum, torpedinem, narum, et alia quae tibi degunt in aquis. Gradivum, bellicosum, masculinum, acutum, terribilem, collilatum, villosum, minacem, indomitum, truculentum, belliparentem, cruentum, infaustum, impavidum, frementem, ambiguum, trucis aspectus deum, latis incedentem passibus, robustum, horrificum, ferreum, armisonum, furentem, efferum, horridum, crudum, homicidam, rabidum, turbidum, infestum, rapacem, atque funestum. Ardentibus oculis terribilem, ignem e naribus efflantem, magnae gravitatis ducem, truculentae factionis gloriosum principem, callidum cordis litigantium incensorem, evaginato g
+ ladio omnem tibi vim adaperire potentem, potentiarum et robustorum omnium invictum dissipatorem, soliorum irrefragabilem eversorem, cui obsistenti resistit nemo, quem metus et discordia antecedunt, cui furor iraque ministrant, et quem mors sequitur, maxime omnium formidanda. Adsis Scythonie, Threiicie, Bistonie, Strimonie, Odrysie, Melyte, Getice, Quirine.</p><p>
+	Adsis et tu dea tertii caeli venus, quam et Esperum, Bosphorum, et luciferum dicimus. Oro te, prome tuas columbas, turtures, pavones, ficedulas, galgulos, passeres, pelecanes, harpas, pifices, olores, cygnos, palumbos, sturnos, chenalopices, et non nominatas aves tuas. Lepores, hinnulos, equas, formicas, fringillas, caeteraque specierum istarum animantia. Phocam, ruticillam, sagum, vitulum et undicola tibi natantia. Venus alma, formosa, pulcherrima, amica, benevola, gratiosa, dulcis, amena, candida, siderea, dionea, olens, iocosa, aphrogenia, foecunda, gratiosa, larga, benefica, placida, deliciosa, ingeniosa, ignita, conciliatrix maxima, susceptrix optima, amorum domina, harmoniarum ministra, musicalium dictatrix, blanditiarum praeposita, saltationum moderatrix, ornamentorum effectrix, universorum compago, rerum vinculum. Tu ex tota primi deorum parentis Caelii propagativa virtute exorta, tu continuam animantibus successionem praebens, tu voluptatum et gaudiorum omnium unive
+ rsalis propagatrix, tu inaccessorum arduorumque omnium penetratrix, tu potens deorum omnium triumphatrix. Adsis dea Paphia, Cypria, Ericina, Calydonia, Samia, Idalis, Gnidia, Cytheraea, Capitolina.</p><p>
+	Ad me convertere Mercuri, qui et Hermes, et Stilbon, filius Maiae, et Athlantis nepos generosus diceris. Coge, me rogante tuas upupas, apes, luscinias, meropes, orchilos, monedulas, ardeolas, penelopes, philomelas et alias aves tuas. Item paros, pantheras, ligurinos, herinaceos, mustelas, mulas, et eius generis alia. Trochilum, squatinam, cancellum, murenam, pastinacam cum caeteris eiusdem speciei. Mercuri caducifer, galerate, pinniger, alipes, iuvenis, pulcherrime, virtuose, strenue, impiger, agilis, volucer, diligens, convertibilis, sapiens, scriba, pictor, cantor, vates, inventive, disputator, numerator, geometra, astronome, divine. Reconditorum penetrator, occultorum elucidator, enigmatum enodator, deorum interpres, nuncie facundissime, ratiocinator maxime, notarie solis, superum, et infernorum conciliator, utroque sexu foecundissime, mas maribus, foemina foeminis, arbiter numinum, inventor cytharae, artibus omnibus sufficientissime. Adsis Arcas, Tegaee, Memphitice, Aegy
+ ptie, Atheniensis, Palladie, Olimpice.</p><p>
+	Adeste simul omnes septem mundi principes, et in Circem vestram intendite, ut vestra mutuata potentia (quam in vicariis vestris herbarum succis, et ignium fumis, et lapidum appensionibus insinuo) administratores figurarum valeam adstringere, ut vel coacti faciant alius generis viventium species latentes (ementita hominis recedente figura) ex occultis in apertam prodire lucem.</p><p>
+	Iterum ergo atque iterum coniuro vos, atque confirmo, vastatores iniqui, impudentissimi, impii, pertinaces, non me fugietis. Recedant, recedant vel invitis nobis humani vultus a bestiis. Potenter vobis impero in conspectu solis istius, per Iovem altitonantem, et per deos omnes qui segnitiem et tergiversationem vestram ulciscentur. Creditis ista deos non curare? En literae deorum sacrae: quas in hac lamina ostendo. En quos in aerem explico characteres. En vestigium magni sygilli. Moeri, explica membranam in qua sunt potentissimae notae, quarum mortales omnes latent misteria. Haec sunt quibus ipsas credimus nos posse mutare naturae leges: cur non per ipsas licebit easdem impie prophanatas instaurare? Adde ignibus thura, fumigiorumque caeteras species, haecque dum ipsa submurmuravero, respice de fenestra quid se turba fiat:
+</p></sp><sp><speaker>	MOERIS</speaker><p> Mirabile visu Circe, mirabile, de tot quos vidimus hominibus, tres quatuorve tantum, qui trepidi ad tuta confugiunt remansere. Caeteros omnes quorum alii in proximas se recipiunt cavernas, alii in arborum ramos advolant, alii se dedant in proximum mare precipites, alii domestici magis ad nostras fores adproperant: in diversi generis animantia video transformatos.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Imo proprias explicavere formas. Futurum est ut inculper Moeri: beneficam Circen maleficam imprudentes homines appellabunt. Ii qui adhuc perstant veri sunt homines: illos nec vult, neque potest cantus noster attigisse.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Terrore concutior mea diva et regina, quoniam visu terribiles nobis bestiae comminantur.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Paulo ante formidabas?
+</p></sp><sp><speaker>	MOERIS</speaker><p> Minime quidem.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Nunc igitur minor tibi datur timoris occasio.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Cur id?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Non enim differunt haec quae modo vides bruta et bestias (ut et ipsa nosti) ab iis quos paulo ante videbas homines, praeter quam quod apertos nunc habent ungues, dentes, aculeos, et cornua quae latebant. Imo et hoc te non ignorare volo, quod cum illo careant organo, quod est ab ipsa animorum intima ledenda efficacissimum: longe minus nocua, atque formidanda sunt effecta.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Quid ipsum?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Lingua.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Dii me ament quid fecerint magis timeo quam quid dixerint.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Minus ideo sapis. At et hoc indicabo tibi quod et nunc pro eo in quo versaris formidinis genere minus debeas esse solicita. Ipsi enim, quorum alios cornutos, alios aculeatos, alios ita dentatos, alios letifere unguitos aspicis: erant omnes atque singuli cornu simul et aculeo, et dente, et ungue terribiles. Iam diversa atque singularia quibus se tueri, et alios ledere possint arma nacti sunt, cum prius haberent omnia.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Quonam pacto id mihi suadebis?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Nescis eum qui manu armatur magis omnibus armari? nescis manum omnibus carere armis: ut omnibus praepotens esse possit armis? ignoras ipsam sibi et aculeos, venena, et cornua, et dentes adaptantem, a nullis sibi timere bestiarum insultibus, et eo tantum instrumento animantibus omnibus quae videntur imperare consuevisse? Temere igitur et imprudenter es facta timidior. Omnem igitur formidinem pelle ex animo, omnem abigas ambiguitatem, et mecum in ipsorum examen pergito.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Non possum non timere praesentia, aptata, atque conversa contra nos inermes atque debiles cornua, caeteraque quae video mortis instrumenta.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Tuto propera, facili carmine superabimus omnia.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Id si dea potens polliceris, nihil hesitans pergo.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Principio isthaec domestica vestigemus animalia. En proximos nobis porcos qui fugam versus tecta arripuere, facillime omnium istos sub humano cortice cognovisses.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Facillime quidem.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Porcus enim est animal A, avarum. B, barbarum. C, coenosum. D, durum. E, erroneum. F, foetidum. G, gulosum. H, hebes. K, Kapitosum. L, Libidinosum. M, molestum. N, nequitiosum. O, ociosum. P, pertinax. Q, quaerulum. R. rusticum. S, stultum. T, turgidum. V, vile. X, lunaticum. Y, auriculatum. Z, mutabile, Ψ, non bonum nisi mortuum.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Cum elementarium porcinum institueres Circe, unum de mage necessariis elementum praetermisisti.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Non illud inconsulte factum, quia ipsum est tum in aliis omnibus elementis implicitum, tum et ipsorum elementum videtur elementorum. In uno ergo adferantur omnia, sicut in omnibus allatum est unum. A ingratum. B immundum. C inconsultum. D infidum. E inconstans. F impaciens. G indiscretum. H incivile. I impudens. K impetuosum. L incautum. M infaustum. N ineptum. O iniquum. P inhumanum. Q immite. R inverecundum. S inquietum. T insanum. V intemperatum. X ignobile. Y incultum. Z inhospitale. Ψ immemor.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Et ego per numeros ex naturalibus ipsum considerabo. i. Parvos habens oculos, hosque non nisi gulae inservientes. ii. acutas habet aures. iii. peramplas fauces. iiii. immunditias ad omnes nares adpositas. v. laesivos dentes. vi. augustum. angustum volo dicere frontem. vii. cerebrum pinguiusculum. viii. caudam semper mobilem, semper adnodantem, nunquam vero nodantem, quasi semper negociantem, et numquam proficientem. ix. ventrem habet unum et ampliorem. x. dentes nunquam amittit. xi. intra eius ossa nihil aut modicum reperies medullae. xii. quadrupedum omnium difficile pilum mutat, aut amittit. xiii. habet pediculorum genus familiare. xiiii. propriam habet ad coitum vocem. xv. foemina eius ipso mare est vocalior. xvi. acerrime saevit tempore coitus. xvii. foecundissimum multorum animalium. xviii. non est uno cibo constans. xix. facile in omnibus cibi generibus assuescit. xx. pabuli mutatione, et varietate maxime gaudet. xxi. illius qu
+ i glandibus est pastus caro, magis, meliusque sapit. xxii. in urbanum et sylvestre genus dividitur. xxiii. ibi deliciosius degit ubi lutum repperit. xxiiii. brutale omnino.</p><p>
+	Tot igitur indicia sui cum porcus habeat, quis ipsum facile (quantumcumque sub homine lateat) non cognoscet? Si tibi videtur domina, caetera unico, magisque adcommodato signo persequamur: praestare enim videtur levius multa tangere, quam duo comprehendere, vel unum.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Ita faciendum.
+
+</p></sp><div2><head><hi rend="italic">QUAESTIO PRIMA.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> De pluribus quae video canum generibus, caeteris omissis ut hac que mordax est et proprie Cynica, quae non minus est ipso porco illustris: quomodo istud ignavum canum genus sub humana figura potuissem agnoscere?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Ipsum est genus illud barbarorum, quod quidquid non intelligit damnat atque carpit: ut modo ignavi et ipsa figura noti canes allatrant in ignotos omnes etiam beneficos, in perditos etiam atque scelestissimos notos mitiores.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO II.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Asinos modo praetermittam: de ipsis n. alias gravius, atque maturius considerabitur. Hos asinorum filios puta mulos, qua nota dinoscere potuissem?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Ii sunt qui ut philosophi haberentur et eloquentes: nec philosophi nec eloquentes erant. ut poetam iactantes et oratorem: neutrum essent. ut sub titulo legistarum atque scholasticorum: nec tales haberentur neque tales. ut grammatici et disceptatores: in utroque deficerem munere. ut mercatores et nobiles: secretius ignobilitatis genus incurrerent. ut togati et armigeri: bello essent et literis inepti. ut aulici et religiosi: etherocliti generis se praestarent animal. ut pulchri et terribiles: neque foeminam ederent neque virum. veluti modo ex equa matre et asino patre, non sunt equi nec asini: et ruditum cum hinnitu mixtum habent.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO III.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Hyrcos quid mihi significasset?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Vel odor hyrcinus, vel quod quandiu vivunt, tamdiu coeunt. vel hoc quod gestiunt cum socium cum sua foemina coeuntem viderint, tunc prae gaudio crissant, et exultant ut arietes.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO IIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quomodo potuissem simias observare?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Vel ab ipso naso, vel ex hoc quod cum optima quaeque affectarent, ut vel optimam poesim, vel sophiam, vel orationem, vel hystoriam: infaelicissime tamen in omnibus se gerebant. Ex hoc inquam quod tendentes ad optimum inciderint in pessimum. ut nunc vides, quod cum hominem animalium pulcherrimum imitentur, hoc ipso fiunt maxime omnium deformes.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Non obstante quod simius simio pulcher.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO V.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quomodo distinxissem ab isto genus illud aliud simiarum?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Illi in seriis gravibusque rebus inutiles, magnatibus adulando, et hystrionando, et parasitos agendo placebant: ut modo cum non valeant cum asinis ferre onera, cum equis militare, arare cum bobus, cum porcis mortui pascere: sic tantum usuveniunt ut risum faciant.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO VI.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Est et tertium simiarum genus sepositum, respice ad ripas fluvii, quid illud indicabat?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Erat videre barbarum parentum genus, inurbanos, inciviles, et male natos educans filios, dum immodico et irrationali affectu moribus illorum indulgerent: ut modo vides in propria forma catulos suos strictius amplexando necare.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO VII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Qua nota camelos aspexisses?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Dicam. Cum sub eo quod hominis est latitarent, puris rebus minime delectabantur, sed cuncta ad morem suum conspurcata probabant: de quorum genere sunt qui sapientum monimenta puerilibus et sordidis infecta adiectionibus suscipere malunt, aut suscipi: ut modo totum camelum praeferentes potu minime gaudent, nisi cum pedum conculcatione turbata fuerit aqua.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO VIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Isti proximum genus et capite persimile non cognosco. haeret enim cameli capiti cervix equina, maculisque intincto dorso tigrim refert, et pedibus bovem.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Cameleopardales ipsos appellant, quos inde percipere potuisses, quia ritu quodam erant deorum cultores, voce carnifices, vita diverso vitiorum genere immundi, scripturae monumentis bubulci.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO IX.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Qui erant hienae gestus?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Blandiebantur obsequio, ut in perniciem traherent: ut modo humanam sciunt referre vocem, et homines proprio quod audierint nomine advocare, quos discerpant.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO X.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Videtur adstare et aliud hienae genus.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Ipsum idem sub actionibus diversis agnovisses. vides quemadmodum adcurrant ad hominis excrementa, quae si altius essent (ut nequeant attingere) suspensa: porrectu corporis lassae interirent. Iisdem cum homines referrent, foedissima quaeque habebantur dulcissima, et de optimis ipsum pessimum consulebatur accipere. Sicut in saccis quibus vina colantur apparet: ipsi enim vina effundentes, solas sibi retinent feces.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XI.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Cervorum genus istud tam celebriter cornutum?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Isti sub quorundam principum tegumento latebant, quibus si quid placebat, id procul percipiebant: si quid minus arrisisset quamtumvis clamasses non intelligebant. ut modo si arrigant aures, acutissimo pollent auditu: si demittant surdissimi sunt.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quid nos in elephantum prospectum adduxisset?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Hoc quod nares habebant pro manu, vel quod carentes manibus, utebantur naribus: nihil enim ipsi cum facere nescirent: in aliorum factis iudicandis tantummodo occupabantur.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quis ursos istos olfecisset?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Quicumque expertus esset illorum naturam contumacem, barbaram, atque feram: quos pariendo, fovendo, nutriendo, et lambendo promoverit. Hoc enim animal quantumvis lingua aliisque oris lenimentis ex infigurato rudique partu formetur: ferum tamen adolescit, durum, et alpestre.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XIIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quis leones cognovisset?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Qui considerasset quod cum principes essent, a viribus infimorum convitiis illis erat metuendum. veluti nunc natura ipsa coguntur cristam, vocemque galli formidare.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Nunquid proprea in feras sunt mutati?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Minime, sed erant ipso addito furore leones.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XV.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Caetera illa maiora alias consideranda relinquo. Qua nota istricem mihi potuisses indicare?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Nonne vides ipsum aristas spinasque suas non nisi provocatum, accitum, instigatum, et compulsum iaculari?
+</p></sp><sp><speaker>	MOERIS</speaker><p> Intelligo.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XVI.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Echinos facile cognovissem, quia ut modo spinas, spinis circumquaque contecti ingrediuntur: sic olim in omnibus negociis acerbitatem servabant, cum animum intus asperum retinerent.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Vere quidem.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XVII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Unde pro testudinibus illos divinassem. Et quale testudinum genus (omissis aliis) est istud?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Hi extiterant magnifica expectatione allecti ad aulas principum, quarum deliciis delectari poterant, adusque ut eis postea libere in suum se ocium atque quietem recipere non licuerit: veluti nunc humano deposito velamine, et suo apparentes cortice contectae, cum meridiani solis oblectatae calore, totum illi excalfaciendum dorsum exposuerint, adeo potentia solis ipsarum corticem exsiccavit, ut eodem quasi supernatante subere repressae: nequeant ad tutiores, interioresque recessus adnatare, unde et nullo negotio iam possunt a venatoribus captari. Hoc testudinum genus Indicum appellant.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XVIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quid ais de cancris istis quos pinnoteras appellant?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Nonne vides quemadmodum sub inanibus se condunt concharum testis: minores sub minoribus, sub capacioribus autem maiores? Iam videre licebat multos qui cum per sese nihil valerent: propria diffisi sufficientia, maiorum dominorumque suorum titulis tuebantur.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XIX.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Vidisses crocodillos?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Contra plaudentes ferociebant, concedebant autem contemnentibus et obstantibus: ut modo terribiles extant in fugaces, fugaces in terribiles.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XX.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Aspides quoque?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Hi in parentes, magistros, et beneficos: contumeliosi, ingrati, homicidae: ut modo filii, matres morsibus enecant.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXI.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quomodo illuxissent isti pro chameleontibus?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Vel quia adulatores et imitatores omnium praeter quam eorum quae onesta et clara videntur: sicut nunc praeter rubrum, atque candidum, colores omnes imitantur. Vel quia aura popularis eos alebat nec quippam aliud ab humana laude et gloria aucupabantur. Aspice illos ore semper hiantes, utque alio quam aere non pascantur. Vel quia intra maximum quem habent atque capacissimum pulmonem nil possident: veluti iam praeter ventosam iactantiam nil potuissent animorum notomistae in ipsis contemplari.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Uno dic verbo, quis aspectu homines, convicisset esse aquaticos istos?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Dicam. Qui illos malorum turpiumque libenter auditores et imitatores considerasset: ita. n. Sycias comperisset, quae modo id quod in corpore pessimum est, et insuave potenter attrahunt. Illos Polypos cognovissent, si vidissent quomodo diversorum se moribus adcommodando, et animalium diversi generis (ut aucupes facere consuevere) fingendo voces: rem domesticam noverant simulando augere, quemadmodum modo coloris mutatione venantur.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Dimissis istorum speciebus aliis, alias considerandis: levemus oculos Circe ad aves istas quae ad proximam Sylvam et eminentias advolare. Qui erant hyrundines quae in ipsis nidulantur tectis? Suo satis vultu ipsas eos figurare fertur qui vultum suum serenante fortuna amicis aderant: qua saeviente et inconstantem obnubilante faciem. terga dabant: ut modo veris tempore nobis adsunt, hyeme vero urgente recedunt.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Bene. Sed et in hoc cognosci poterant, cum sub hominis tegumento simul cum veris conversarentur hominibus, et humanas adirent patrias, atque domos, de abiectis paleis, et festucis eorum se adcommodantes: ipsis tamen non poterant assuescere: sicut et mures nequeunt cum hominibus convenire, quantumvis sub eodem degant atque vivant tecto.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXIIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Pavones quoque facile cognovissem, videbam enim gloriosos altigrados, pennas coloresque suos amplantes, inflato pectore tumentes.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Certe. Sed et eos intelligere pavones debuisses, qui nihil nisi laudati faciebant: ut modo cum quis eos laudaverit, se pennis explicatis faciunt perspicuos.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXV.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Luscinias quoque non ignorassem. Erant quoddam loquacium hominum genus, qui multum dicebant ut multum sapere viderentur: quos quidem stultorum alebat existimatio: sapientibus aeque atque stulti contemptibiles, quibus illud non latet quod dicitur. <quote><hi rend="italic">VAS VACUUM MULTUM SONAT</hi></quote>.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Optime. Erat et quoddam garrulum poetarum genus, quod inanibus modulationibus abundabat.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXVI.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Quem refert avis pusilla quae vocem bovis imitatur?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Istos cognovisses cum vilia, atque pusilla subiecta: sufficientia, animo, et natura viles: vocem (de rebus magnis loquentes, et decernentes) magnificabant.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXVII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Coccices novi, cum alienas uxores suorum facerent filiorum matres: ut nunc videmus ova in alienis supponere nidis.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Recte iudicasti.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXVIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Aquilam quam avem regiam appellant, contortis rapacibusque digitis satis ipsam se declarantem, quis non cognovisset? quis ipsam sub homine vociferantem non audisset?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Certum est et aquilas multas sub quorundam potentum vultibus latere. Omnes aquilae sunt potentes, atqui non omnes potentes, aquilae. Neque enim Circen tuam ex hac parte aquilam dixeris, cum deam asseras, atque reginam.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Minime quidem, sed quid esset iniuriae? nonne et deorum pater Iuppiter ipse sub aquila latuit?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Recedis a proposito, iam de aquilis quae sub homine latebant loquimur, non de hominibus atque diis qui solent sub aquilis et animantibus aliis latere.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXIX.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Avem illam quae aquilam videtur oppugnare, non cognosco.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Cybindum appellant. Aquila et Cybindus latebant sub specie principum, qui cum inter se consererent, a tertio invadente subvertebantur: ut modo ad usque cohaerent unguibus et rostro se dilacerantes: ut ad inferiora terrae mutuo conflictu depressi, ab aliis corripiantur.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXX.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Dii optimi nunquam adeo magnam avim vidisse memini.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Illa est strutio camelus avium maxima, atque stolidissima: quae cum frutice collum occultarit, latere se existimat. Tales sunt et phasiani, tales sunt mugiles, in aquis. Ipsam aspicere potuisses cum homo ingenti corpore onustus atque mole, minimum habens iudicii praesentabatur.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXXI.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Siquidem multis volatilium communem esse constat rapacitatem et carnivoracitatem, quonam Circe vultures (si vultures sunt quos video, ob ipsas enim quae supervenere tenebras non bene possum eas quas ibi video nigras aves distinguere) signo seorsum ab aliis cognovissem?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Ipsi sunt vultures. Ipsi iam imminentes divitum captabant mortes, quas pluribus praecedentibus annis olfaciebant: ut modo ad cadavera advolant, quae ante triduum futura praesentiunt. Sed nos famem futuram non praesensimus, et nimium volatilibus istis intentae, tenebras in ipso extremo sentivimus crepusculo: quae stellarum nobis reddito conspectu, nos ab istorum animalium intuitu distraxere. Tectum ergo coenaturae repetamus.
+</p></sp><sp><speaker>	MOERIS</speaker><p> Crastinam ergo diem si lubet totam ad inspicienda reliqua destinemus.
+</p></sp><sp><speaker>	CIRCE</speaker><p> Ita, si a magis urgentibus non avertar.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXXII.</hi></head>
+	<sp><speaker>MOERIS</speaker><p> Sed diversi generis noctilucas istas quaeso domina Circe ne differas significare mihi, sub quibus latuisse possunt faciebus?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Isti sunt docti, sapientes, et illustres: inter idiotas, asinos, et obscuros.
+
+</p></sp></div2><div2><head><hi rend="italic">QUAESTIO XXXIII.</hi></head>
+<sp><speaker>	MOERIS</speaker><p> Qui erant hoc adeo venustum, affabile, humanum, conversatile, et officiosum animalis genus: quod ante nos urgente nocte ad perticas domesticas advolavit? Gallos inquam istos quomodo cognovissem?
+</p></sp><sp><speaker>	CIRCE</speaker><p> Gallus cum sit animal pulcherrimum, canorum, nobile, generosum, magnanimum, solare, imperiosum et pene divinum: seipso tamen abutitur, et ob id unum meliori exuitur forma: quod cum simili atque consorte, pro vilibus et ociosis gallinis ut plurimum in pugna commoritur, isque qui victor evadit aliis oblectamen spectatoribus, cantu se testatur superiorem. Istum vidisses in illis latere, qui mutuis dissidiis mutuo se consueverunt atterere, quique sua in suos facinora caeteris ridiculi iactabant.</p></sp><p>
+FINIS</p>
+
+
+</div2></div1><div1><head>DIALOGUS II APPLICATORIUS AD ARTEM MEMORIAE.</head>
+
+<stage><hi rend="italic">Interloquunt. </hi> ALBERICUS, BORISTA.</stage>
+
+<sp><speaker>	ALB.</speaker><p> Amice Borista, in lectione Circaei cantus, eiusdemque fictorum successuum, exigui quo uti licet temporis trivisse partem, non potest metedere. Ibi non modicam rerum conspicio varietatem, ibi multos in ipso verborum cortice sensus explicitos: intentiones quoque medullitus implicitas, innumeras esse coniicio, de quibus omnibus id quod seriosum est atque praecipuum, ignorare me fateor.
+</p></sp><sp><speaker>	BOR.</speaker><p> Nec facile intelliges.
+</p></sp><sp><speaker>	ALB.</speaker><p> De iis autem in quorum captum possem promoveri, unum duntaxat est quod ardenti animo concupisco.
+</p></sp><sp><speaker>	BOR.</speaker><p> Quidnam?
+</p></sp><sp><speaker>	ALB.</speaker><p> Ut eam ipsam quae in dialogi facie est varietatem valeam (quatenus per artem fieri posse audio) eodem quo parta fuit ordine, absque negocii arduitate memoriter fixam retinere. Ipsum enim et per laboris impatientiam labilemque (quae a natura est) retinendi facultatem, alioqui me facere posse diffido. Audio te ex Iordani inventis haud istrionicam quandam, qualem iactant alii, ex considerationibus de umbris idearum expressam callere artem: quam multi valde arduam, proprioque studio inaccessibilem iudicant. Nonnulli ex iis qui doctiores vulgo videntur, ne ipsorum insufficientia delitescat, et cum suam pudeat eos fateri paupertatem, quod quippiam ex ipsis non percipiant ad artem quam asserunt esse confusam referunt.
+</p></sp><sp><speaker>	BOR.</speaker><p> Artem quidem inaccessibilem, sed sine schala concesserim facile. Difficilem quoque fateor, sed non propterea accusatione dignam: omnia quippe optima velimus nolimus, decreto deorum in arduis esse sita, non est quem lateat. Quod etiam doctorum multi per se ipsos eam non intelligant, non est eorum ignorantiae, nec artis confusioni tribuendum: nihilo enim minus absque istius artis intellectu doctissimi esse possunt. Quod enim ad ipsos attinet, illud est in causa, quod aliis in negotiis magis occupati, modica artis istius sententias legunt attentione. Non enim satis est quod membra intentionumque partes omnes intelligant: sed et insuper necessarium est eos dignari, ut circa eadem considerent et contemplentur, nec non intentiones alias ad alias referant, relatasque cum aliis ita conferant, ut quasi ex simplicibus intentionibus, terminorum conflent combinationes, et per se ipsos ea quae in proposito inventionis iudicii et memoriae deduci pos
+ sunt deducant. Pro iis autem qui tantum subire laborem et ad tantam pertingere perfectionem minime valentes; aliqualem praxim tantummodo captant: extat eius editio quaedam, paucis quibusdam amicis communicata, iis qui in huius generis artium studio sunt versati, facilis ad intelligendum. Ubi quid alienis addiderit inventis, quidque totum adinvenerit ipse, per te facile poteris videre.
+</p></sp><sp><speaker>	ALB.</speaker><p> Propitii sunt mihi dii: rem mihi desideratissimam videbor esse per te consecutus, si dictis facta respondebunt.
+</p></sp><sp><speaker>	BOR.</speaker><p> En exemplar aperio, sis attentus animo, et audita considera, et si quippam non intellexeris, perquire. Habet libellus pro titulo suum proemium.
+</p></sp><sp><speaker>	ALB.</speaker><p> Lege.
+
+
+
+</p></sp><div2><head><hi rend="italic">INTENTIO AUTHORIS.</hi></head>
+
+<sp><speaker>	BORISTA.</speaker><p>
+	<hi rend="italic">Intentio nostra est, divino annuente numine, artificiosam metodicamque prosequi viam: ad corrigendum defectum, roborandam infirmitatem, et sublevandam virtutem memoriae naturalis: quatenus quilibet (dummodo sit rationis compos, et mediocris particeps iudicii) proficere possit in ea, adeo ut nemo talibus existentibus conditionibus, ab ademptione istius artis excludatur. Quod quidem ars non habet a seipsa, neque ex eorum qui praecesserunt industria, a quorum inventionibus excitati: promoti sumus diuturnam cogitationem ad addendum, tum eis quae faciunt ab facilitatem negotii atque certitudinem: tum etiam ad brevitatem. Quandoquidem quae secundum viam aliorum requirebant diuturnam exercitationem, intensam attentionem, et quodammodo ab aliis studiis abdicationem, adeo ut feliciora ingenia tale studium dedignarentur: iam per nos Altissimi gratia adeo facile et illustre et dignum negotium proponitur: ut nemo sanae mentis sit, qui nedum artem amare debeat: verum qu
+ oque toto appulsu atque nervis, in eius studium incumbere. Quandoquidem ars ista adiuvat omnes alias, et ostendit viam, et patefacit aditum ad inventiones alias plurimas. Siquidem ita faciet, ad memoriam, ut etiam maxime conferat ad iudicium. Sed quid in laude, et momento huius artis detineor? Successus rem ipsam comprobat. Unum tantummodo est difficile, ut aliquis haec ipsa per se ipsum possit intelligere. A docente omnes intelligent. Quod quidem non evenit ex eo, quia nos difficultati studeamus: sed a novitate rei et celebritate terminorum. Hortatur autem Plato in Euthidemo ut res celeberrimae atque archanae habeantur a philosophis apud se et paucis, atque dignis communicentur. Aqua enim inquit ille vilissimo pretio emitur, cum tamen omnium rerum sit pretiosissima. Idem nos amicis nostris facimus, atque intensius: maiori etenim occasione ducimur quam Plato in eo proposito duceretur. Idem omnibus iis, in quorum manus ista devenerint, consulimus: ne abutantur gratia et dono
+ eisdem elargito. Et considerent quod figuratum est in Prometheo qui cum deorum ignem hominibus exhibuisset, ipsorum incurrit indignationem. Caetera que in proaemiis et ampullatis exordiis solent proponi, praetermittimus. Sufficit enim necessaria adducere et ea quae ad praesentis intentionis complementum faciunt. </hi>
+
+
+</p></sp></div2><div2><head><hi rend="italic">DIVISIO LIBRI.</hi></head>
+	<sp><p>Habet praesens negotium ut dividatur in Theoriam et Praxim, utpote in rationem artis, et principiorum ipsius: Et praecepta illa a quibus maxime proximeque operatio proficiscitur.</p><p>
+	Theoria habet tres partes: Aliam quae est de modo inquirendae artis in gubernanda phantasia et cogitativa, quae sunt portae memoriae; Aliam quae est de ratione subiectorum seu locorum; Aliam quae est de ratione adiectorum seu imaginum.</p><p>
+	Praxis vero habet duas partes: Alteram quae respicit memoriam rerum; Alteram quae respicit memoriam verborum.
+
+
+</p></sp></div2><div2><head><hi rend="italic">DE THEORIA PRAESENTIS ARTIS.</hi></head>
+
+<div3><head>PRIMA PARS THEORIAE.</head>
+
+<div4><head>CAP. I.</head>
+<argument><p><hi rend="italic">Modus et ratio gubernandorum sensuum internorum ad instruendam et construendam memoriam. </hi></p></argument>
+
+<sp><p>Par. I <hi rend="italic">Ordo potentiarum et organorum. </hi></p>
+	<p>Satis famosum est, atque concessum: quatuor esse cellulas, pro quatuor sensibus internis, quarum: Prima, sensus communis appellatur, situata in anteriori parte cerebri. Secunda, usque ad cerebri medietatem, phantasiae domicilium nuncupatur. Tertia illam contingens cogitativae domus dicitur. Quarta vero memorativae. Hoc modicum est ut ad praesentem spectat considerationem: praeterquam ea de causa, ut habeamus ordinem operationum istarum potentiarum, ad perficiendam memoriae operationem,</p>
+
+<p>Par. II. <hi rend="italic">Ordo operationum sive actuum. </hi> </p>
+	<p>Ordinantur igitur ita operationes istae, ut per aliam, ad aliam progredi non valeamus, usque ad ultimum memoriae cubile: nisi successive incedentes ab una in aliam, eodem ordine quo per sua organa, et domicilia a matre natura fuerunt institutae, et ordinatae secundum situm. Imaginentur enim ut quatuor camerae, seu cubilia non quidem seposita, sed ut altero intra alterum collocato, ita ut in quartum pateat ingressus per tertium: in tertium per secundum: in secundum per primum. Dico in proposito ut nihil ingrediatur memoriam, nisi per atrium cogitativae: nihil cogitativam, nisi per atrium phantasiae: nihil phantasiam, nisi per atrium sensus communis.</p>
+
+<p><hi rend="italic">Comparatio</hi> Par. III. </p>
+	<p>Habenda ergo ratio est in arte ista eadem cum ea quam naturam ipsam habere perspicimus: ut videlicet ars ipsa et imitetur, et sequatur, emuletur, et adiuvet naturam. Idque ipsum praestet in duobus. Tum videlicet in eo quod faciat res memorabiles. Tum etiam in eo quod easdem ordinate memorabiles reddat, atque promptas. Primum efficitur beneficio imaginativae: secundum beneficio phantasiae. Imaginativa enim perficit imagines cum rationibus suis, phantasia vero praesertim atque proprie loca atque sedes imaginum.
+
+
+</p></sp></div4><div4><head>CAP. II.</head>
+<argument><p><hi rend="italic">De modo inquirendae artis, in gubernanda phantasia. </hi> </p></argument>
+
+<sp>	<p>Cogitativa igitur formatur (ut naturales volunt) per species non sensatas, quae a speciebus sensatis educuntur. Est ianua, et introitus, et clavis unica cubilis memoriae. Unde eorum tantummodo meminimus, quorum impulsu cogitatio sollicitata fuerat (dico cogitationem universaliter dictam in genere ratiocinantum: haec enim facultas in brutis aestimativa dicitur ab ipsis qui solemnius philosophantur) per amorem, odium, metum, spem, tristitiam, laetitiam, abbominationem, delectationem, et species aliarum affectionum animalia, quibus quidem memoria redditur habilis ad receptionem specierum sensibilium: et species sensibiles aptissime actu ab eadem recipiuntur.</p><p>
+	Ecce quomodo species redduntur memorabiles et formabiles. Iuxta quam facultatem solam tantummodo hoc nobis feliciter succedit: ut ea quae vidimus nos vidisse recordemur cum occurrerint. Alterum necessarium est pro usu doctrinae, ut ordinate et ad libitum eorumdem recordemur. Et ideo sicut in scriptura extrinseca atque pictura quae serviunt oculis extrinsecis duo requiruntur: ratio videlicet formae atque figurae characterum et imaginum, et materia atque subiectum in quo formae illae et imagines possint subsistere, manere et perdurare. Ita etiam in scriptura intrinseca atque pictura, quae serviunt oculis intrinsecis, duo sunt necessaria. Alterum quod habeat rationem figurarum, imaginum et literarum: alterum quod habeat rationem libri, paginae, lapidis, atque parietis, unde pendet ratio proxime dicendorum.
+
+
+</p></sp></div4></div3><div3><head>SECUNDA PARS THEORIAE:</head>
+
+<div4><head>CAP. I.</head>
+<argument><p><hi rend="italic">De his quae faciunt ad Theoriam subiectorum et formarum. </hi> </p></argument>
+
+	<sp><p>Oportet igitur pro basi et fundamento istius, primo quasi paginam apparare: deinde rationem adscribendorum characterum, et apponendarum imaginum adferre et insinuare modo quo alia ad alia referantur. Facile subinde erit mediocribus considerationibus et conceptis, prodire ad operationem.</p>
+
+<p>Par. I.</p>
+<p><hi rend="italic">De subiectis: et primo quid sit subiectum. </hi> </p>
+
+	<p>Subiectorum ergo ratio, primo consideranda occurrit, ante quam promoveamur ad insinuanda ea quae illis adveniunt. Subiectum ergo in proposito non sumitur secundum intentionem logicam, vel phisicam: sed secundum intentionem convenientem quae technica appellatur, utpote secundum intentionem artificialem: et est subiectum, non formalium praedicationum, quod distinguitur contra praedicatum. Non formae substantialis, quod ile dicitur, quod est materia prima. Non formarum accidentalium, quod est compositum physicum. Non formarum artificialium inherentium naturalibus corporibus. Sed est subiectum formarum phantasiabilium apponibilium, et remobilium, vagantium, et discurrentium ad libitum operantis phantasiae, et cogitativae. Ex quo desumitur ratio seu definitio subiecti pertinentis ad hanc artem in sua generalitate: quod distinguitur in suas species, pacto quod sequitur.</p><p>
+
+Par. II.</p>
+<p><hi rend="italic">De subiecto quod est praesentis intentionis. </hi></p>
+
+<p>	Subiectum vero istud (utpote quod est aptum natum ad recipiendas formas memorabiles ut memorandae sunt) pro commodo esse potest vel compositum naturale, vel semimathematicum, vel verbale positivum. Ipsum vero naturale, Vel potest esse communissimum, extentum iuxta latitudinem ambitus universi, Vel communius iuxta latitudinem Geographiae, Vel commune iuxta latitudinem alicuius continentis, Vel proprium iuxta latitudinem politicam, Vel proprius iuxta latitudinem domesticam, seu oeconomicam, Vel propriissimum iuxta multitudinem atque numerum partium domus, et particularum eiusdem.</p><p>
+	Tot existentibus subiecti speciebus: ipsae quae sunt infra latitudines proprietatis: maxime sunt ad usum praesentem accomodatae, licet etiam hae quae sunt intra latitudinem communitatis usu venire valeant. Porro praxis illarum, una cum praxi subiectorum semimathematicorum currere potest. De quibus fortasse in regulis practicis aliquid commonstrabimus. Nunc autem consequens est in medium afferre conditiones subiectorum per ordinem.
+
+
+</p></sp></div4><div4><head>CAP. II.</head>
+
+<argument><p><hi rend="italic">De conditionibus subiectorum. </hi> </p></argument>
+
+<sp><p>Par. I.</p>
+<p>	Subiecta ergo sensibilia atque materialia, iudicio omnium qui de hac arte hactenus bene dixerunt: primo quo ad substantiam ita sunt eligenda, ut sint ad oculum sensibilia: quorum Alia sunt naturalia ut lapides, arbores et similia. Alia sunt artificiosa, ut aulae, columnae, anguli, statuae et similia. Alia sunt utroque modo sese habentia, ut quae partim natura, partim arte constant.</p><p>
+
+Par. II.</p><p>
+	Quo ad quantitatem eorum continuam, subiecta propria debent esse non admodum magna, ne quasi visum obtundant et disperdant, nec admodum parva, ne quasi visum fugiant: sed mediocria ad hominis magnitudinem talem, quae sit iuxta altitudinem elevatorum et latitudinem extentorum brachiorum.</p><p>
+
+Par. III.</p><p>
+	Quo ad quantitatem discretam sint tot quot sunt praecipuae species memorandae. Modica quidem atque pauca sufficiunt ad rerum et sententiarum memoriam: plurima vero ad memoriam verborum requiruntur.</p><p>
+	Quod etiam ad copiam subiectorum attinet, quoniam aliquando non sufficere solent ipsa quae ex una domo vel aedificio desumi et eligi possunt: confugiendum est ad actum proportionalem ei, quem scriptores ad oculum extrinsecum facere consueverunt. Ubi quippe eis pagina una non sufficit ad integri negotii expressionem, paginam paginae adnectunt atque consuunt: ut quod tabella non exprimit, liber exprimat. Ita ferme nobis consulitur in praesenti operatione, ut propria institutione loca communia locis communibus connectamus. Et opere nostrae cogitationis, et phantasiae, ea quae re ipsa sunt divisa, disiuncta, et ab invicem elongata: uniantur, coniungantur, et aproximentur. Fiat igitur hoc pacto. Fini et termino unius, adhereat principium alterius vel adherere intelligatur. Nihil enim obstat quo minus possis fini atque termino tuae domus, quae est in una parte civitatis, apponere principium unius aedificii, quod est in alia parte civitatis. Pariter nihil obstat quo minus valeas ex
+ tremo locorum Romanorum adnectere primum locorum Parisiensium, dummodo sit fixum apud te, atque sancitum, ut semper tali fini tale principium intelligas succedere.</p><p>
+
+Par. IV.</p><p>
+	Quo ad Qualitatem. Subiecta ut volunt omnes non debere esse nimium illustria, neque admodum obscura: sed talia qualia non intelligantur excellentia sua visum turbare, vel defectu suo visum minus movere.</p><p>
+
+Par. V.</p><p>
+	Quo ad Differentiam. Volunt ut caveatur tanquam ab igne a pluralitate similium locorum, sed in omni electione commendetur varietas. Unde dimitte (inquiunt) plura inter columnia similia, similes fenestras, dimitte vacua spatia. In quibus tamen si placeat aliquid collocare: instituere potes aliquod receptaculum cuiusmodi est altare, mensa, solium, ceteraque huiusmodi.</p><p>
+
+Par. VI.</p><p>
+	Quo ad Relationem. Subiecta debent intelligi formata, mota, et alterata adventu imaginum: ut easdem valeat commode repraesentare. Intelligantur inquam affecta, sicuti de facto afficitur pagina per advenientem literam: vel si fieri potest, et melius, sicut afficitur cera per novae imaginis impressionem. Et hoc notasse valet at id quod sciri debet quo ad actionem, et passionem.</p><p>
+
+Par. VII.</p><p>
+	Quo ad Ordinationem. Ex omnium sententia loca sine delectu non sunt assumenda: sed ordinate: sicut per ordinem sibi succedunt partes, et membra aedificiorum.</p><p>
+
+Par. VIII.</p><p>
+	Quo ad Situm. Non debent esse nimium propinqua, neque nimium distantia: sed ad conveniens intervallum seposita. Alioqui ita confundent obtuitum et intuitum imaginationis: sicut in scriptura oculari, confusionem causant literae super literas inscriptae, et literae literis inherentes.</p><p>
+	Similiter etiam turbant (licet non ita) literae a literis plusquam mediocriter semotae.
+
+
+</p></sp><sp><speaker>	BOR.</speaker><p> Percepisti ne Alb. subiectorum rationem.
+</p></sp><sp><speaker>	ALB.</speaker><p> Percepi, et in ipsis quod ad modos et conditiones eligendorum locorum spectat, nihil amplius adferre videtur praeter id quod hactenus ab aliis extat allatum.
+</p></sp><sp><speaker>	BOR.</speaker><p> Rem superficie tenus considerasti. Sed concessum sit eum de iis quae pertinent ad loca sensibilia nihil permutare. Quid dices si haec, quae mortua prius habebantur, per ea quae proxime subsequenti capite habebuntur vivificare doceat, subiectorum maximi faciendam rationem adferens? Certe si animum applicueris: celeberrimam habebis artis speciem, ad artium intentiones et ordinandas, et perpetuo retinendas.
+</p></sp><sp><speaker>	ALB.</speaker><p> Bene, ad propositam applicationem faciendam progredere.
+</p></sp><sp><speaker>	BOR.</speaker><p> Ita fiet. Habes igitur ex arte communi quemadmodum adparanda sint subiecta. Sensibilia. Naturalia. Artificialia. Mixta. Mediocris spacii. Mediocris perspicuitatis. Iuxta memorabilium specierum numerum. Diversa. Differentia. Congruas habitudines ad apponendas formas servantia. Ordinata.</p><p>
+	Convenientibus seposita intervallis.
+</p></sp><sp><speaker>	ALB.</speaker><p> Habeo.
+</p></sp><sp><speaker>	BOR.</speaker><p> Modo, quo pacto vivificata debeant haberi percipito.
+</p></sp><sp><speaker>	ALB.</speaker><p> Lege.
+
+</p></sp></div4><div4><head>CAP. III.</head>
+<argument><p><hi rend="italic">Cautela ad firmitatem subiectorum pro formarum retentione, quae paucis fuit nota et leviter tacta. Et est quod potest pertinere ad rationem subiectorum, quo ad ultimum praedicamentum quod est</hi> "HABERE". </p></argument>
+
+<sp><p>Par. I.</p><p>
+	Subiectorum alia substantiva, alia adiectiva sunt. Subiecta substantiva appello ea de quibus hactenus meminimus. Subiecta vero adiectiva sunt quaedam quae locis praedictis adiici possunt differentia a suis substantivis in hoc quod illa perpetuo manent eadem et immobilia: haec vero licet perpetuo inibi manere debeant atque maneant: tamen pro occasione adventantium formarum, atque imaginum moventur, alterantur, et in varios, atque diversos usus assumuntur, dum per ea aliquid sit, vel ipsi actioni eadem inseruntur quoquo pacto. Ista nimirum addere valent virtuti locorum quantum anima corpori, adeo ut sine istis loca mortua habeantur: cum istis vero viventia. Adde igitur angulo pileum, sedi pugionem, fenestrae cyatum, caeterasque aliis huiusmodi utensilia, atque mobilia: quandoquidem nihil adeo modicum est, quod ad innumeros usus innumeras non valeat habere relationes. Nunc in angulo dum vapulat Albertus pileus, usu venit ad munus scuti. Nunc dum pingit Ideus: pileus deseruit pr
+ o continentia colorum. Nunc dum fodit rusticus: ligone Pileus inciditur, et ita successive aliis alia agentibus, atque facientibus: aliter atque aliter pileus operationibus inseritur. Hinc aliquando si non occurrat loco appositum, quasi a revelatore fideli, poteris ab ipso adiectivo subiecto de re apposita certior effici: cum quaeras quid factum est de te pileo? quid factum est de te pugione?
+
+</p></sp><sp><speaker>	ALB.</speaker><p> Dii me ament Borista, eo magis huius praeceptionis industriam laudabilem argumentor, mihique persuadeo, quo maturius super ista cautela et vivificatione locorum a celeberrimis antiquorum tacta quidem, sed minime comprehensa considero.
+</p></sp><sp><speaker>	BOR.</speaker><p> Iam incomparabilem habes inventionem, cuius ne vestigium quidem prioribus coniectare licet artibus.
+</p></sp><sp><speaker>	ALB.</speaker><p> Qua de re?
+</p></sp><sp><speaker>	BOR.</speaker><p> De ordinatione semimathematicorum subiectorum.
+</p></sp><sp><speaker>	ALB.</speaker><p> Audiam novitatem subiectorum semimathematicorum.
+
+
+</p></sp></div4><div4><head>CAP. IV.</head>
+
+<sp><p>Par. I.</p>
+<p>	<hi rend="italic">De ratione subiectorum semimathematicorum. </hi> </p>
+
+<p>	Subiecta pure mathematica usu venire non possunt, quandoquidem abstracta sunt et sua abstractione phantasiam pulsare vel movere non possunt, quandoquidem abstractio pertinet ad superiorem facultatem, quam sit ipsa phantasia.</p><p>
+
+Par. II.</p><p>
+	Illud ergo quod valent praestare Mathematicalia secundum se, est ordo solus: et hic in duobus inquiri potest (in quorum tamen uno feliciter succedit) in figuris videlicet et numeris. In figuris quidem procedendo a triangulo ad quadrangulum: a quadrangulo, ad pentagonum: hinc ad exagonum: hinc ad eptagonum, et ita deinceps in innumerum per planas figuras. Similiter in solidis figuris, a corpore trilatero ad quatrilaterum, ab ipso quod est trium superficierum, ad ipsum quod est quatuor superficierum: et ita deinceps ad alia. Qui progressus difficile formari potest in usum praesentis artis.</p><p>
+
+Par. III.</p><p>
+	In numeris autem, procedendo a monade ad dualitatem: a dualitate ad trinitatem: et ita deinceps in innumerum. Veruntamen ipsi numeri non valent repraesentare: sed ordinem tantummodo insinuare. Applicentur igitur rebus aliquibus naturalibus, et per easdem colorentur, atque formentur. Destinentur ergo pro primo denario linea, pro secundo lignea, pro tertio ferrea, pro quarto aenea, pro quinto argentea, pro sexto aurea, pro septimo sericea, pro octavo pannea, pro nono coriacea, pro decimo pellicea. Vel pro primo organa agricolturae, pro secundo organa artis ferrariae, pro tertio militiae, pro quarto vestiariae, pro quinto lanionicae, pro sexto hortensis, pro septimo coquinariae, pro octavo medicinae, pro nono tonstrinae, pro decimo funerariae, pro undecimo sacrificiae, et ita deinceps.</p><p>
+
+Par. IIII.</p><p>
+	Quibus decadibus ordinatis et determinatis, sive istiusmodi, sive aliis modis: sive secundum hunc modum, sive secundum alium: modicis aliquibus differentiis poteris tibi decernere, et diffinire differentias, ad insinuandos digitos numeros in singulis decadibus. Siquidem in ligneis, aureis, ceterisque huiusmodi, sunt differentia instrumenta, atque res. Similiter in coquinariis, hortensibus et similibus.</p><p>
+
+Par. V.</p><p>
+	Applicari igitur possunt intentiones rerum memorabilium rebus istis suo ordine: unde non solum rerum memoriam et ordinem: verum quoque et numerum situm, et regionem, cum intentione partium et capitum possibile est retinere: sed rem fusius quam par esse videtur artis dignitati explicuimus.
+
+</p></sp><sp><speaker>	ALB.</speaker><p> Dii boni quam praegnans inventum ipsum sine tua declaratione percipio: clarius. n. non poterat nec debebat aperiri.
+</p></sp><sp><speaker>	BOR.</speaker><p> Ipsum sane maturiori consideratum iudicio maturius et excellentius apparebit. Ipsum ingeniis etiam non admodum excitatis ad maximos usus notabilem offert occasionem.
+</p></sp><sp><speaker>	ALB.</speaker><p> Illud etiam in re proposita perpendas velim: quod non solum locorum, sed et imaginum foecundissimam rationem explicuit, ubi et loca per imagines, et imagines per loca docuit vivificare. Hic etiam rationem engraphice habendarum artium inspicio.
+</p></sp><sp><speaker>	BOR.</speaker><p> De iis hactenus. Lege.</p>
+
+<p>Par. VI.</p>
+<p><hi rend="italic">De locis verbalibus positivis. </hi> </p>
+
+<p>	De locis autem verbalibus positivis, non est praesentis negotii tractare: et non nisi violenter tractari possent in partem istius artis, de ipsis enim consideramus in libro clavis magnae, qui est de inventione, et iudicio scientiarum, et de arcana retentione et fixione. Sufficiat ergo in proposito, proxime dicta semimathematicalia, quae capitum, sententiarum, legum, vel paragraphorum, vel cuiuscumque rei esse possunt subiecta: verum etiam valent ad hoc ipsum ut sint imagines numerorum in allegationibus, caeterisque huius modi.</p><p>
+
+Par. VII.</p><p>
+	Illud etiam est considerandum quod pro diversis materiis, et occasionibus, ex diversis generibus, semimathematicalia loca possunt atque debent diversimode formari: quorum duos enumerabimus: aliique multi similiter enumerari possunt.
+
+</p></sp><sp><speaker>	ALB.</speaker><p> Habes ne verbalium locorum rationem Borista?
+</p></sp><sp><speaker>	BOR.</speaker><p> Nullam prorsus, eamque si haberem non esset hic locus nec tempus eiusdem adducendae.
+</p></sp><sp><speaker>	ALB.</speaker><p> Quomodo talem iudicas si non cognoscis?
+</p></sp><sp><speaker>	BOR.</speaker><p> Id ergo non te praetereat, ad applicandum numerum Circaeum, ut iuxta capitalium terminorum multitudinem, locis sensibilibus, a quorum tibi praxi est exordiendum, apparatis: mox in rerum memorandarum, quae tum locorum ordinem, tum et a locorum ordine consequuntur, appositionem intendas animum.
+</p></sp><sp><speaker>	ALB.</speaker><p> Recte. Iam quasi paginam in qua scribendum, vel tabulam in qua pingendum est habeo dispositam. Mox igitur inscribendi, figurandique rationem explicato.
+
+</p></sp></div4></div3><div3><head>TERTIA PARS THEORIAE DE RATIONE ADIECTORUM SEU DE FORMIS.</head>
+
+<div4><head>CAP. I.</head>
+<argument><p><hi rend="italic">Quid sit forma, et quotuplex. </hi></p></argument>
+
+<sp><p>	Forma quoque in proposito non sumitur secundum intentionem Methaphisicam Platonicam ut pote pro idea; Nec secundum intentionem Methaphisicam Peripateticam, ut pote pro essentia. Nec secundum rationem physicam, ut pote pro forma substantiali vel accidentali informante materiam vel subiectum. Nec secundum intentionem technicam utpote artificialem additam rebus physicis actu existentibus quas supponit. Sed secundum rationem logicam non quidem rationalem, sed phantasticam (quatenus nomen logices amplius accipitur) respondentem intentioni subiecti, quod supra pariter dividendo, et distinguendo ab aliis, diffinivimus.</p><p>
+
+Par. II.</p><p>
+	Est igitur forma in proposito aliquod cogitatum vel cogitabile opere phantasiae et cogitativae, adiectum locis seu subiectis iuxta triplicem superius illatam differentiam, triplicibus: ad aliquod repraesentandum, et retinendum pro informatione, et perfectione memorativae facultatis.</p><p>
+
+Par. III.</p><p>
+	Formarum ergo aliae sunt naturales, aliae sunt positivae. Naturalium intrinsecae usu non veniunt in proposito: Siquidem (ut patet) non sunt imaginabiles, extrinsecae vero, quae in sensibus obiiciuntur, nec omnes usu venire possunt, sed illae tantummodo, quae per visum, et auditum sensus internos ingrediuntur, selectissimae vero sunt formae visibiles. Gustus enim et ex intimis sentit obiecta, tactus vero extrinsecus adherentia, olfactus modicum distantia, auditus distantiora, visus vero distantissima ab ipsis mundi imaginibus obiecta concipit. Ideo omnium spiritualissimus, et divinissimus, sicut naturaliter antecellit: qui determinant in praesenti proposito formas extrinsecas visibiles, quae quidem licet non sint formae de quibus loquimur: tamen sunt fontes a quibus illae emanant, et matres quae illas parturiunt. Unde si ipsae exteriores vestigia appellantur idaearum: interiores umbrae appellantur earundem a nobis in libro qui de umbris inscribitur.</p><p>
+
+Par. IIII.</p><p>
+	Formae vero aliae quae sunt intrinsecae, extrinsecarum rivuli atque filiae, quae per vehicula et canales sensuum externorum, sese in phantasticam facultatem ingesserunt, sunt praesentis intentionis. Et istae dupliciter sumi possunt uno pacto, secundum suam naturam, nuditatem, et puritatem, et eiusmodi sunt cum sensum ipsum internum aggrediuntur: Altero pacto alteratae, commutatae, deordinatae, et commistae, et ita dupliciter, vel ab intentione, vel ab aliorum naturalium accidentium perturbatione. Primo modo possint esse artificiales, secundo vero minime.</p><p>
+
+Par. V.</p><p>
+	Itaque duo sunt genera imaginum. Aliae enim sunt similes rebus extrinsecis secundum totum vel per integrum, ut imago Socratis vel Platonis, imago equi, vel tauri. Aliae vero sunt similes rebus extrinsecis secundum partes, sed non secundum totum: ut imago montis aurei, centauri, harpiae, et similium. Utrumque generum commodum est ad praxim praesentis artificii, sive etiam necessarium.
+
+
+</p></sp></div4><div4><head>CAP. II.</head>
+<argument><p><hi rend="italic">De Conditionibus formarum seu imaginum. </hi> </p></argument>
+
+<sp><p>Par. I.</p><p>
+	Formae vero quod ad essentiam et substantiam attinet, debent esse ex eorum genere quae maxime valeant phantasiam pulsare, et cogitativam excitare. Genus vero illarum in proxime dictis est manifestatum.</p><p>
+
+Par. II.</p><p>
+	Quod ad quantitatem discretam attinet, iuxta multudinem locorum sunt multiplicandae: et ad commodum rerum insinuandarum distinguendae, plures in quam simul, utpote in eodem loco non concurrant. Hinc enim accidit ut aliae alias confundant, ut evenit in literis complicatis. Illud tamen feliciter contingere potest, ut in eodem loco plures ita collocentur ut aliae alias consequentes attingant, quae in antecedentibus ita continebantur, sicut virtualiter in praemissis sunt illationes.</p><p>
+
+Par. III.</p><p>
+	Quod vero ed quantitatem continuam attinet, caveto a parvis imaginibus, et ab immodicis. Illae enim sensum non excitant: istae vero extensione sua visum, internumque obtutum dispergunt. Extrinsecum quippe oculum non movet, vel lente movet musca, aegre vero formam suam insinuat gigas in magno pariete depictus . Ad mediocritatem ergo contrahantur ampliora, et extendantur exigua. Ideo dicitur in libro clavis magnae. Aut modica, aut modificata. Aut magnifica, aut magnificata: unde licet elicere quod ipsum secundum se modicum, et impotens ad movendum: beneficio concomitantis reddi potest magnum atque potens. Scutum et cadaver praesentabit muscam, sagittarius, sagitt. Sutor acum, scriptor calamum.</p><p>
+
+Par. IIII.</p><p>
+	Quod ad qualitatem pertinet, illud in memoriam revocandum est: quod tales eligendae sunt formae, quales admirationem, timorem, amorem, spem, abhominationem, similesque alios eius generis affectus valeant accire. Quod si imago hoc ipsum de sui natura non praestet: faciat tua institutione, destinatione, et secundum genus applicatione. Ita enim mortuam imaginem (nisi admodum hebetis extes ingenii) vivificare poteris. Hinc si ex hominum genere magis tibi notos, atque celebres, monstruosos, pulchros, dilectos, exosos omnes adsumas: melius usu venire poterunt. Cum que duo sint genera formarum, animata videlicet et inanimata: prima praestant secundis. Animatorum quoque cum duae sint species, rationalia videlicet et irrationalia: prima secundum omnem modum praecedunt universa. Ipsis enim omnis actio, omnis passio, motus, omnis tandem usus potest convenire.</p><p>
+	Quodcunque enim valent ferre caeterae omnes: hae solae possunt, atque amplius. Unde et mundos eas appellare licet.</p><p>
+
+Par. V.</p><p>
+	Quod ad relationem vicissim dicitur de istis, quod supra de subiectis dictum est.</p><p>
+	Non inquam decipiaris aliquando non collocans et putans te collocare, non affigens, et putans te affigere. Quandoquidem aliquando accidit (imo ut plurimum) ut per minorem applicationem, sive intentionem naturali memoriae committas, quod putes te loco committere, id est cum quasi in aerem fundens excogitatam formam, subiecto illam minime facis inhaerere. Contra quam delusionem ita reparandum est. Assuesce ut habeas semper veram loci formam ob oculos, et germanam formam collocandae rei, ut in sene capillos albos, curvum bustum, tremulas manus, caeteraque huius modi intuearis: Et cum istis omnibus eius applicationem ad locum, et habitudinem loci ad ipsum, quasi dicas. En ubi homo ille, En quid locus ille capit, similiter de aliis formis est iudicandum. Proinde, mitto quod supra dictum est de locis adiectivis.</p><p>
+
+Par. VI.</p><p>
+	Quod ad actionem et passionem attinet. Intelligatur forma in locum aliquid agere, vel aliquid pati a loco, aptum vel ineptum: iocundum vel triste: commodum, vel incommodum. Hinc enim pendet robur et fixio adiecti cum subiectos, et eius quod proportionale est materiae cum eo quod formae proportionatur.</p><p>
+
+Par. VII.</p><p>
+	Mox a similitudine et uniformitate non minus cavendum est quam a quolibet alio, quod minus favet, atque contrariatur rationi perfectionis imaginum. Turbat enim et confundit crebra eiusdem imaginis repetitio, et appositio. Quod si necessitas urgeat (distinctis tamen intervallis) ut eandem formam iterato accipias: recipias eam alteratam, alteram, et aliis habitudinibus indutam. Sicut enim natura ipsa abolet similitudinem, ipsam (de similitudine numerali loquor) ita et ars. Nunquam enim natura duos homines similes constituit, imo nec unum hominem omnino similem perseverare facit, sed quem mane sumpsit ut unum, vespere sumit sensualiter ut alterum.
+
+</p></sp><sp><speaker>	ALB.</speaker><p> De iis quae ab antiquis necessaria notatuque digna praecepta sunt, quod faciat ad facilitatem, ordinem, atque sufficientiam: nihil est quod praetermisisse videatur.
+</p></sp><sp><speaker>	BOR.</speaker><p> Nimirum praeter errores, ineptias, et infantias quae ab oscuris et irrationalibus quibusdam allata sunt, omnia continet ista consideratio, omnia sufficienter distinxit, numeravit, digessit in species, et ordinavit. Duo sunt quae sibi peculiariter potest vindicare. Alterum quod adeo (si intelligatur) spiritum ipsum regulare docet: ut tantum absit ne formas in ipsis doceat depingere subiectis, ut mirum in modum quomodo eaedem in ipsis insculpi valeant aperiat. Alterum quod paucis aliorum inventa perficiat, et ad ulteriora promoveat.
+</p></sp><sp><speaker>	ALB.</speaker><p> Prosequere.
+
+
+</p></sp></div4><div4><head>CAP. III.</head>
+<argument><p><hi rend="italic">Modi aliquot imaginum ad rerum figurationem atque vocum. </hi></p></argument>
+
+<sp><p>Par. I.</p><p>
+	Extant nonnullae rationes, atque modi: quibus possunt tum nomina, tum res ipsae unica imagine figurari. Primum quidem distinguendum est de modis in genere hoc pacto. Eorum a quibus recipi potest signum rei repraesentandae, alia retinent similitudinem secundum rem, alia vero secundum dictionem.</p><p>
+
+Par. II.</p><p>
+	i. Collocamus ergo aliquando rem ipsam si ipsa est figurabilis a phantasia, ut scamnum pro scamno, equum pro equo.</p><p>
+	ii. Aliquando vero similem in voce, pro simili. Utpote collocamus rem figurabilem, quae denominatione sua causat memoriam rei infigurabilis, cuius nomen affine est nomini illius. Sic apponimus equum ad equitatem memorandam, vitim ad vitam.</p><p>
+	iii. Aliquando vero per Etimologiam, solemus venari illud a quo ipsa desumitur, utpote infigurabile a figurabili, a Romano Romam, a montano montem.
+	</p><p>iiii. Aliquando a similitudine capitis, utpote principii dictionis, consuevimus revocare memoriam eius quod in fine est dissimile. Ita per asinum loco appositum solebam asilum recordari, vel Aser.
+	</p><p>v. Aliquando a translatione nominis, quemadmodum a Philippo loco apposito, venabar memoriam amatoris equorum. vel e converso aliquando.
+	</p><p>vi. Ab antecedente, venari solebam consequens, quemadmodum naturaliter ab aurora solis exortus concipitur, et a pastu digestionem figuratam concipimus.
+	</p><p>vii. Aliquando ex concomitante, sicut a socio socium qui semper ipsi unitur consuevimus recordari. Ubi igitur aliquid est infigurabile, sicut mors, potest figurari per caedem vel cadaver.
+	</p><p>viii. Aliquando a consequente, quod dicitur vicissim cum antecedente: sicut a fumo nominas ignem praecedentem, et per ignem recolimus fumum subsequentem.
+	</p><p>ix. Aliquando ab accidente subiectum, quem admodum a re alba apposita, nivem lucramur, a saltatione saltatorem.
+	</p><p>x. Aliquando a subiecto accidens: sicut ex alveo mellis collocato, recolimus dulcedinem, ex leone ferocitatem, ex urso iram.
+	</p><p>xi. Aliquando ex Hyeroglifico suum designatum: sicut ex lance et statera iustitiam. Ex speculo prudentiam.
+	</p><p>xii. Aliquando ex insigni insignitum: ut ex ense Martem, ex clavi Ianum.
+	</p><p>xiii. Aliquando ex simbolo simbolatum, ut ex homine nasuto Tongilianum, de quo illud, Nil praeter nasum Tongilianus habet. Ex homine armato Hannibalem: ex togato, lacerata tunica, nudis pedibus, detecto capite, Diogenem.
+	</p><p>xiiii. Aliquando ex contemporaneo tempus, sicut ex floribus Aprilem: ex torculari Autumnum, et sic de aliis.
+	</p><p>xv. Aliquando ex circumstantia locum atque subiectum, ut ex certo habitu Theutonicum seu Germaniam, Africanum, seu Africam.
+	</p><p>xvi. Ex proportionato proportionale, quemadmodum ex figulo ad lutum, subit nobis consideratio universalis plasmatoris ad universum plasmabile. in magno synapi haec propositio. Modico in semine atque principio maximi effectus praeexistunt: unde parvus error in principio, magnus in fine.
+	</p><p>xvii. Ex convertente conversum, quemadmodum ex voce Maro clarescit Roma, ex voce Remo more.
+	</p><p>xviii. Ex partibus totum, ex componentibus compositum, unde Davus cum viti obiicit infigurabile David.
+	</p><p>xix. Ex capitis diminutione vel additione, corpus alterius significati, sicut ex Palatio latio clarescit.
+	</p><p>xx. Ex capitis similitudine, capite adsimulatum, sicut ex pariente Paralipomenon liber clarescit.
+	</p><p>xxi. Ex assolente proferre, vocabulum ipsum, vel sententiam: hinc quidam qui dicere solebat omnia amicorum sunt communia loco appositus reducit te in memoriam sententiae illius. Et nota hic quod etiam ex tua institutione potes eiusmodi sententias, et terminos quibusdam accommodare, veluti usu venire potest modus proxime sequens atque magis.
+	</p><p>xxii. Ex subiecto recipiente verificationem sententiae, vel significationem termini, sententiam ipsam atque terminum, sicut mihi quidam garrulus et maledicus, nec bene fortunatus: sententiam illam psalmistae. vir linguosos non dirigetur in terra.
+	</p><p>xxiii. Ex metaphora seu transpositione, transpositionis subiectum: ex argento lunam: ex plumbo Saturnum. Ex stamno Iovem. Item et ex vulpe astutiam. Ex cane adulationem. Ex simia imitationem et emulationem.
+	</p><p>xxiiii. Ex propria passione, ipsum cui appropriatur, sicut ex bove mugitum, ex porco grunditum. Ex quibus etiam aliquando translatio fieri potest, sicut postquam ex asino habemus ruditum, ex ruditu habere possimus fatuum sermonem, eo enim et asinilogos solebam mihi describere.
+	</p><p>xxv. Ex instrumento artificem, et instrumentatum in genere, sicut ex sphera et astrolabio, astrologum possum meminisse.
+	</p><p>xxvi. Ex habituato, habitum infigurabilem, sicut ex muliere grammatica, quae est substantia cum accidente, seu subiectum cum qualitate: ipsam grammaticam quae qualitas quaedam est conceptare possem. sicut ex musico, musicam. Similiter ex habente id quod habetur, ut ex predium habente, predium: ex principe principatum: licet sit aliud praedicamentum. Similiter in qualitatis genere, ex modificato, modum: sicut ex recipiente rationem alicuius adverbii, ipsum adverbium: sicut ex bene saltante, adverbium bene occurrere potest.
+	</p><p>xxvii. Ex specie genus, sicut ex bove loco apposito figurabili, meminisse possum animal genus infigurabile.
+	</p><p>xxviii. Ex relativo correlativum, sicut ex domino servum.
+	</p><p>xxix. Ex contrario, contrarium per antiphrasim: sicut per aliquem inculte loquentem, Demosthenem, per fatuum, Aristotelem.
+	</p><p>xxx. Ex agente, actum, vel actionem: sicut ex furante, furtum. Si qui autem alii modi praeter istos imaginentur, omnes habeantur ut in istis inclusi et ad istos reducibiles. Perfecta si quidem enumeratione atque respectu ad talem redacti sunt numerum, ut patet callentibus rationem magnae clavis.
+
+</p></sp><sp><speaker>	ALB.</speaker><p> Certe alios difficile possem imaginari modos qui (quatenus spectat ad ea quae sensibiliter movere continget) in enumeratis triginta non contineantur.
+</p></sp><sp><speaker>	BOR.</speaker><p> Cur dicis sensibiliter?
+</p></sp><sp><speaker>	ALB.</speaker><p> Quandoquidem ad reminiscentiam atque memoriam quam per ordinem semimathematicalium subiectorum atque verbalium positivorum: adipiscimur, possumus aucupari: ex praedictis triginta discursibus, quibus alia per alia possunt praesentari (quatenus ex unius appositi memoria in alterius vel infigurabilis, vel egre figurabilis solemus promoveri) nullus est qui conducere videatur.
+</p></sp><sp><speaker>	BOR.</speaker><p> Pace tua, nullum est memoriae genus in quo aliquod vel plura harum figurationum genera non usu veniant: sicut enim citra species phantasiabiles nec intelligere nec memorari possumus: ita nec citra usum alicuius ex enumeratis generibus.
+</p></sp><sp><speaker>	ALB.</speaker><p> Considerabo super hoc, nunc ad alia.
+</p></sp><sp><speaker>	BOR.</speaker><p> PRIMA PARS PRAXIS. Cap. I. Par. I.
+</p></sp><sp><speaker>	ALB.</speaker><p> Certe nihil amplius requirebatur ad praxim. Quis non videt quemadmodum ipsius praxis ratio sub titulo theoriae latissime continetur et explicatur.
+</p></sp><sp><speaker>	BOR.</speaker><p> Credo hanc tituli distinctionem potius ob ordinem doctrinae, quam ob aliam causam adduxisse authorem: Sed audi haec deinceps habebuntur. Ex iis enim non modicum pro utriusque memoriae specie relevaberis.
+</p></sp><sp><speaker>	ALB.</speaker><p> Audiam.
+
+</p></sp></div4></div3><div3><head>PRIMA PARS PRAXIS. PRO REBUS PRAESENTANDIS.</head>
+
+<sp><p>Par. II.</p><p>
+	Quamvis his quae supra allata sunt sub titulo theoriae sufficientissime etiam a mediocribus ingeniis ratio praxis tota possit educi: tamen per haec quae mox subinferimus superiora confirmamus, et superioribus addimus.</p><p>
+
+Par. III.</p><p>
+	Paratis ergo dispositis ordinatis, determinatis, atque confirmatis subiectis: facile est formas ipsas apponere. Sensibilium quidem sensibiles, non sensibilium vero etiam sensibiles. Porro sensibiles formae relatae ad sensibilia obiecta, rationem veram imaginum et exemplarum admittunt. Relatae vero ad non sensibilia obiecta, habent rationem signorum, notarum, et indiciorum. Quomodo autem quaelibet significari possint, designari, et effigiari, demonstravimus ex parte magna, magis quam unquam demonstratum fuerit ante nos. Unum tantummodo abest ut succurramus iis terminis qui per praedictas imaginum rationes non possunt figurari: cum de triginta modis illis nullum aliquando possumus ad propositum adaptare: sive difficultate proveniente a nobis, sive a re ipsa cuius memoria est habenda, et commodam praesentationem quaerimus. Modo igitur proxime sub inferendo providendum. Qui quidem nullum memorabile excludit, sive sit terminus intellectus sive non intellectus, sive significativus
+ . quomodocumque sit, dummodo sit articulatus.
+
+
+</p></sp></div3><div3><head>SECUNDA PARS PRAXIS.</head>
+
+<div4><head>CAP. I.</head>
+<argument><p><hi rend="italic">De memoriae verborum praxi. </hi> </p></argument>
+
+<sp><p>Par. I.</p><p>
+	Ubi igitur res ipsas collocare nequimus, quia sunt infigurabiles: aptemus nobis nominum, vocumque quarumlibet inscriptionem tali pacto habendam. Primo sint homines, iuxta elementorum numerum distincti, quorum alii unum, aliud alii tibi designent elementum, sive ex institutione ut pote ex appropriato: sive ex veritate, ut pote ex proprio nomine. Sint in quam tibi pro elemento A designando plures Aristarchi. pro elemento B plures Bacchi. pro C Caesares, qui quidem loco appositi, haec tibi repraesentabunt elementa.</p><p>
+
+Par. II.</p><p>
+	Sint proinde aliae res inanimatae quae possunt usu venire praedictis hominibus: ita ut Armarium, auriculare, arcus, et similia significent tibi elementum A. Baculus B. Corbis C. similiter et alia instrumenta, et armamenta, alia tibi designent elementa. Et ita tum homines plures, tum etiam plures tibi reliquas res et operationes ab hominibus contractabiles ordinabis, quibus quidem valebis eidem loco integram committere dictionem.</p><p>
+
+Par. III.</p><p>
+	Quod si dictio erit prolixior, poteris illam in duobus vel tribus locis committere et extendere, quod consulimus quando extemporanea replicanda sunt lecta vel recitata.</p><p>
+
+Par. IIII.</p><p>
+	Ubi vero tu ipse tuam tibi materiam disposueris, poteris uni loco dictionem quantumlibet prolixam committere, apponendo duos vel plures homines ordinatos: qui cum suis instrumentis et signis et nominibus propriis literas repraesentando, quamcumque tibi proferant dictionem.
+
+</p></sp><sp><speaker>	BOR.</speaker><p> Quod ad memoriam verborum pertinet: a labore in quem nos artes antiquiores impellunt, mirum in modum nos relevare videtur. Quibus licet modicum considerantibus, modicum videatur addere: melius tamen negocium perpendentibus longe aliter apparebit. Elementa enim quae per antiquorum praeceptiones, singularia tantum docebamur praesentare: nunc ad syllabarum et quarumcumque dictionum ex ipsis complexarum complementum, unico cuicumque loco integrum ipsum docemur apponere terminum. Armamenta enim et actiones, non ociosa, levia, atque vaga nunc instituuntur: neque solum ad memoriam excitandam homines hominibus adstare, resque alias aliis applicari debere perdocemur: sed omnia pluribus onusta muneribus accipere, ut quam facile commodeque quod antiquis impossibile videbatur nacti simus, non sit difficile videre. Audi quid senserit Tullius in suis ad Herennium.</p><p>
+	Scio plerosque graecos qui de memoria scripserunt fecisse ut multorum verborum imagines conscriberent, ut qui eas discere vellent, paratas haberent, ne quid inquirendo consumerent opere. Quorum rationem aliquot de causis improbamus, quarum una est quod in verborum innumerabilium multitudine, mille verborum imagines ridiculum sit comparare: quantulum enim poterunt hae valere cum ex infinita verborum copia modo unum modo aliud nos verbum meminisse oportebit?</p><p>
+	Ex quibus sane verbis manifestum est illud Tullium existimasse impossibile factu: quod non modo in se facillimum comperitur, verum etiam universo negotio facilitatem causat. Cur autem hunc in modum Graecorum illorum derideat industriam, illud est in causa quod ipsum alio pacto fieri non posse existimabat, quam singulis dictionibus singulas destinando imagines. Quod tentare ridiculum est. Nos vero tantum abest ut imaginum numerum multiplicemus: ut in singulis perficiendas atque complendas locis ad expressionem infinitorum terminorum sive significantium sive non: completas, paucas, determinatas, et celebres ordinemus imagines. Habes ergo facultatem qua tum res ipsas seu rerum intentiones in Circaeo cantu positas, tum et ipsa quibus explicantur verba, locis valeas affigere. Exerceri tui similes in istis secundis non probarem. Ad vanam quippe atque puerilem facere videntur iactantiam, quatenus enim occurrentium figurandorum terminorum necessitas exquirit: solertia unus triginta
+ configurationum succurrere poteris. In pueris autem et studiosis adolescentibus praeter brevem istam viam et alias quas Iordanus instituit nullam laudaverim, gravis. n. cura diuturnaque intentio, et abductio a seriis studiis ad quae fortasse per ipsas redduntur inhabiles (in ipsis. n. actibus expediti, atque aptissimi alioqui stupidi mihi comperti sunt) perceptione fructus qui colligi possit in tardo lentoque fine minime compensantur. Per haec autem nostra studium non impeditur, memoria naturalis non hebetescit, non languet, sed proficere potest ingenium. Interim spero futuros qui inventionis istius semina multiplicent. Porro licet haec consideratio tanta sit si cum, antiquioribus conferatur: sine praeiudicio gratiarum quas primis inventoribus et viam praemonstrantibus habere debemus: nihil tamen est aliarum respectu, quarum integer inventor apparet iste. quarum mox unam in brevibus contentam explicabo tibi. Sed haec de arte, tredecim quibusdam amicis dictata sufficiant.
+</p></sp><sp><speaker>	ALB.</speaker><p> Proferas rogo te aliam artem.
+</p></sp><sp><speaker>	BOR.</speaker><p> Libentissime.
+
+
+</p></sp></div4></div3></div2><div2><head><hi rend="italic">ARS ALIA BREVIS CERTIOR ET EXPEDITIOR AD VERBORUM MEMORIAM.</hi></head>
+
+<sp>	<p>Suppositis iis quae in complemento communis artis de ratione locorum et imaginum sunt allata: nunc in aliquorum gratiam aliam producimus artem, quae ad nostram integra pertinet inventionem. Ipsam perfecte subsequenti enunciamus aenigmate.</p>
+
+<lg><l>Bis duodena locum capiant seclusa seorsum</l><l>
+	Corpora, quae argutum finxerit efficiens.
+</l></lg><lg><l>Spiritus adstantes habeant d' hinc singula quinos.</l><l>
+	Queis sit quintuplicem promere posse sonum.
+</l></lg><lg><l>Proind'elementa duo dent consistentia quinque.</l><l>
+	Queis solers medio, quaestaque calce dabis.
+</l></lg><lg><l>Quid sit, quid faciat, quid habet, quid suscipit, et quid</l><l>
+	Adstet, proponant posita quinque tibi.
+</l></lg><lg><l>Ii sibi perpetuam firment in corpore sedem:</l><l>
+	Quos coniurator non queat eiicere.
+</l></lg><lg><l>Interea varias poterunt errare per oras.</l><l>
+	Multaque constando millibus esse locis.</l></lg>
+</sp>
+<sp><speaker>	ALB.</speaker><p> Quid credis ipsum sibi velle per hoc aenigma?
+</p></sp><sp><speaker>	BOR.</speaker><p> Dicam ut possum. Habeas ab invicem seposita
+<lb/>subiecta quatuor et viginti, quae universa non adiaceant,
+<lb/>non inhaereant, non contingant. Sed libera, et solitaria vel
+<lb/>situentur vel situata intelligantur.
+<lb/>Tuo ipsa tibi poteris eligere arbitrio, huius tamen esse
+<lb/>debent generis B. Arbor. C. Columna. D. Puteus. F. Ara. G.
+<lb/>Patibulum. H. Mensa. K. Lectus. L. Statua. M. Tribunal. N.
+<lb/>Cathedra. P. Fornax. Q. Focus. R. Incus. S. Archa. T. Saxum.
+<lb/>V. Pyramis. X. Horologium. Y. Fovea. Z. Sepulchrum. A.
+<lb/>Feretrum. E. Sacrarium. I. Ignis. O. Lapidum cumulus. U.
+<lb/>Fons. Quae quatuor et viginti tibi designent elementa.</p><p>
+	Proinde ad constituendas eorum primas combinationes
+<lb/>addicas subiectorum dictorum singulis adsistentia quinque,
+<lb/>quae duplici differentia praecedentem vel subsequentem tibi
+<lb/>notam demonstrent. Extant quinque cardinales differentiae.
+<lb/>Occidentale, Orientale, Septentrionale, Australe, et Medium.
+<lb/>Extant aliae quinque situales, prostare, flecti, sedere,
+<lb/>cubare, iacere. Extant aliae quinque locales, ante, retro,
+<lb/>sursum, deorsum, in medio. Quibus quidem trinis
+<lb/>differentiis, subiectum, insigne, et operationem
+<lb/>quintuplicare consonando valebis.</p><p>
+	Adsistentia quinque, per diversos actus ad quatuor et
+<lb/>viginti differentias multiplicatos elementum sonans atque
+<lb/>consonans addere possunt. Qui quidem differentiarum numerus,
+<lb/>in diversis compleatur generibus, ut commode veniat in usum.</p><p>
+	Pro liquidis mediantibus elementis, iis denique et aliis<lb/>
+primam combinationem ex duobus videlicet conflatam<lb/>
+consequentibus, similiter per aliquot differentias<lb/>
+providebis.</p><p>
+	Quibus ita dispositis, determinatis et menti firmiter<lb/>
+adfixis: prompte poteris ex mutuatis insigniis, caeterieque<lb/>
+olim propriis quascunque combinationes effingere.</p><p>
+	Iam vides quemadmodum signa viginti quatuor elementorum, <lb/>
+per quinarium deducantur. Quam si consideraveris industriam, <lb/>
+in alias plures poteris per temetipsum promoveri.
+</p></sp><sp><speaker>	ALB.</speaker><p> Propositum videor satis (ni decipiar) <lb/>
+intelligere. Sed rogo te, aliquid expeditius pro cantu<lb/>
+Circaeo digneris elargiri.
+</p></sp><sp><speaker>	BOR.</speaker><p> Faciam.</p>
+
+<p>APPLICATIO PRAEGNANS.</p><p>
+	Habes in Circaeo dialogo primo duas generalissimas<lb/>
+formas, alteram quae cantum, alteram quae multiplicem cantus<lb/>
+includit effectum. Harum alteram ad unum generalissimum<lb/>
+subiectum, alteram vero ad alterum referas.</p><p>
+	Secundo in prima formarum generalissima, habes septem<lb/>
+deorum ypostases. Et in secunda tria animantium genera. Illa<lb/>
+generalia sub generalissimis septem: ista ad generalia sub<lb/>
+suo supremo tria referas subiecta.</p><p>
+	Tertio habes sub singulis septem ypostaseon, tres<lb/>
+terminorum species: quarum duae sunt incomplexae, tertia<lb/>
+vero complexa est. Habes etiam, sub singulis trium<lb/>
+animantium generum, plures infimas pro commodo enumeratas<lb/>
+species. illae in specialibus subiectis illorum<lb/>
+multiplicentur in trinum. Istae vero in propriis pariter<lb/>
+subiectis deducantur.</p><p>
+	Quarto sub trium terminorum speciebus istis et illis ad<lb/>
+singulas pertinentia species habens individua, in individuis<lb/>
+pariter haec et illa subiectis situabis.</p><p>
+	Itaque generalissima forma generalissimum consequatur<lb/>
+subiectum: generalis, generale: specialis, speciale, <lb/>
+individualis, individuale. Adeo ut subiectum aliud, aliud<lb/>
+includat et contineat. Et forma alia aliam includat et<lb/>
+contineat: et memoriam facilem non modo cantus Circaei, sed<lb/>
+et omnium quae tibi memoranda proponentur adipisceris.
+</p></sp><sp><speaker>	ALB.</speaker><p> Experiar.</p></sp></div2></div1></body>
+</text></TEI.2>

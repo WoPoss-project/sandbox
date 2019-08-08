@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Statuta nova</title>
+    </titleStmt>
+    <extent>47 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001506</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Statuti pisani inediti dal 14. al 16. secolo</title>
+        <editor id="ed">Era, Antonio</editor>
+        <publisher>presso Giovanni Gallizzi</publisher>
+        <pubPlace>Sassari</pubPlace>
+        <date>1932</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>300</date>
+    </creation>
+    <langUsage><language id="codice">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Documenti</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2001-10-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Francesca Usala</name>
+        <name>CIBIT-Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2001-10-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Francesca Usala</name>
+        <name>CIBIT-Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-01-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT-Pisa</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2003-03-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<head> 1476 STATUTA NOVA</head>
+<pb n="79"/>
+<note anchored="yes">B. Testo approvato
+FONTI: A.S.P. cod. A <num>17</num>, ultimi ff. non num., carte B <num>4</num>, ff. <num>45</num> e segg., carte b<num>5</num>, ff. <num>1</num>-<num>16</num> t; cod. Ceffini, ff. <num>95</num>-<num>105</num> t e duplicato ff. <num>113</num>-<num>126</num> t; B.U.P. cod. <num>601</num>, ff. <num>209</num>-<num>226</num>, cod. <num>652</num>, ff. <num>176</num>-<num>188</num>t.</note>
+<div1 type="parte">
+<head>Prohemium.</head> <argument><p>In <name>Dei</name> nomine, Amen. Anno Domini nostri <name>Jesus</name> XPI
+<date value="14760228">millesimo quadringentesimo septuagesimo sexto, indictione decima et die XXVIII mensis februarii</date>.</p></argument>
+<p>Attendentes magnifici et excelsi domini <abbr>D.</abbr> <abbr>D.</abbr>
+Priores libertatis et Vexillifer justitiae populi florentini una cum eorum
+venerabilibus collegiis ad quasdam constitutiones seu correctiones sta-
+tutorum civitatis <name>Pisarum</name> editas secundum jussum et litteras dictorum
+<abbr>D.</abbr> <abbr>D.</abbr> per providos viros ser <name>Guasparem</name> olim ser <name>Gulielmi de Franchis</name>,
+ser <name>Petrum</name> olim <name>Antonii de Roncionibus</name>, ser <name>Matteum Johannis Fauglia</name>,
+<name>Dominicum</name> olim domini <name>Urbani de Ceuli</name>, <name>Leonardum</name> olim <name>Antonii de
+Vernagallis</name> et <name>Johannes</name> olim <name>Mattei Setarum</name>, omnes pisanos cives una
+cum spectabilibus viris Potestate et Capitaneo dictae civitatis <name>Pisarumz</name>
+et postmodum legitime confirmatas per Priores et Collegia eiusdem civi-
+tatis <name>Pisarum</name> sub die <date value="14760212">XII praesentis mensis februarii</date> vel alio veriori tem-
+pore ut constat publico instrumento exinde rogato manu ser <name>Simonis Dini</name>
+notarii publici et tunc militis socii dicti domini Capitanei nec non ad
+quamdam provisionem de dicto praesenti mense februarii editam per oppor-
+tuna consilia populi et communis <name>Florentiae</name> per quam dictis magnificis et
+excelsis dominis et Vexillifero justitiae cum dictis eorum venerabilibus Col-
+legiis et duabus partibus eorum fuit concessa plenissima auctoritas exa-
+minandi dictas constitutiones, easque corrigendi, approbandi et impro-
+bandi, ordinandi et alia fiendi de quibus et prout in dicta provisione con-
+tinetur et fit mentio, visis igitur et diligenter inspectis et examinatis dictis
+constitutionibus et ordinibus per dictos sex cives pisanos facti statutis
+et ordinatis et omnibus in eis contentis vigore dictae provisionis de qua
+superius fit mentio et omni meliori modo, via et iure quibus magis et
+melius potuerunt, facto prius inter eos solemni scruptinio et demum ob-
+tento partitu et servatis servandis secundum ordinamenta dictae civitatis
+<name>Florentiae</name> corrigendo, addendo et minuendo, approbaverunt, confirma-
+verunt, deliberaverunt, statuerunt et reduxerunt dictas constitutiones et
+omnia et singula per dictos sex cives facta, constituta et ordinata in om-
+nibus et per omnia prout infra et sub infrascripto tenore et forma, videlicet.
+</p>
+<div2 type="capitolo">
+<pb n="83"/>
+<head><num>I</num>. - <hi rend="italic">"De instantia causae principalis ordinariae et dilationibus ad pro-
+bandum per testes in ea</hi>.</head>
+<p>In primis quod potestas et quisquam alius iudicans civitatis <name>Pisa-
+rum</name> teneatur et debeat quamcumque causam litem et controversiam quae
+coram ipsis vel altero eorum verteretur, si sit principalis et ordinaria
+expedire, diffinire et terminare per sententiam diffinitivam infra terminum
+duorum mensium cum dimidio dierum utilium a die litis contestatae vel
+pro contestata habitae numerandorum, quamquidem litem statim lap-
+sis decem diebus utilibus a die decursi peremptorii pro legiptime
+contestata haberi voluerunt et in causa procedi posse et debere ad
+omnes actus perinde ac si expresse lis contestata fuisset, reservantes
+nihilominus tam actori quam reo omnes et singulas exceptiones, oppositio-
+nes ac defensiones cuique ipsorum competentes usque ad finem causae.
+In ipsa vero causa lite et eius instantia litigator qui in ea intendit suam
+intentionem per testes probare teneatur et debeat testes inducere et suam
+intentionem per testes probare infra spacium viginti dierum utilium a
+iam dicta die numerandorum salvo quod si reus voluerit aliquid per
+testes legiptime probare contra personas testium ab actore productorum
+vel dicta eorum vel etiam in casibus a iure permissis pro sua defensione
+infra terminum quinque dierum utilium a die publicationis testium nu-
+merandorum audiatur et idem in actore volente probare per testes contra
+personas et dicta testium pro parte rei inductorum infra iam dictos quin-
+que dies servetur et praedicta locum habeant in causa ordinaria principali.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>2</num>. - <hi rend="italic">De instantia causae principalis extraordinariae et dilationibus ad
+probandum per testes in ea</hi>.</head>
+<p>Si vero fuerit causa extraordinaria, tunc dictus Potestas et quislibet
+alius iudicans Pisanae civitatis teneatur et debeat ipsam causam, litem
+et controversiam expedire, finire et terminare per sententiam diffinitivam
+infra spacium duorum mensium dierum utilium a die litis contestatae vel
+pro contestata habitae numerandorum, quamquidem litem statim post
+lapsum quinque dierum utilium a die porrectae petitionis numerandorum
+pro contestata haberi decreverunt et in causa procedi posse et debere ad
+omnes actus perinde ac si lis legiptime contestata fuisset, reservantes ni-
+hilominus utrique litigantium omnes et singulas exceptiones oppositiones
+et defensiones eis et cuique ipsorum competentes usque ad finem causae.
+<pb n="84"/>
+In qua causa, lite et controversia quisque litigator qui intendit in ea
+de sua intentione vel defensione per testes probare possit, teneatur et
+debeat testes inducere et suam intentionem vel defensionem per testes pro-
+bare infra spatium decem dierum utilium a iam dicta die litis contestatae
+vel pro contestata habitae numerandorum salvo quod reus ipse volens
+legiptime per testes probare contra testes ab ipso actore inductos et dicta
+eorum et alias in casibus a iure permissis pro sua defensione infra termi-
+num trium dierum utilium a die publicationis testium computandorum
+audiatur et idem in actore volente contra personas testium pro parte rei
+inductorum vel dicta eorum legiptime probare infra iam dictos tres dies
+servetur, post lapsos vero terminos suprascriptos ad probandum per te-
+stes in causa nullus litigantium audiatur.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>3</num>. - <hi rend="italic">De poenis impositis actoribus si praedicta non servaverint</hi>.</head>
+<p>Quod si dominus <name>Potestas</name> vel alius quisque iudicans causam ipsam
+litem et controversiam infra suprascriptos terminos videlicet duorum men-
+sium cum dimidio in causa ordinaria utilium et duorum mensium utilium
+in causa extraordinaria per sententiam causam diffinientem non expedi-
+verit nec terminaverit, ex tunc instantia ipsius causae principalis ipso iure
+finita sit, et finita esse intelligatur, ipseque iudicans reum ab observatione
+iudicii absolvat et absolvere teneatur et actorem in expensis legiptimis
+in causa factis condemnet. Quas nisi prius reo restituerit vel taxatas reo
+differente recipere vel citato non comparente deposuerit mandato iudi-
+cantis, actor iterato de eodem agere non possit, his quae dicta sunt lo-
+cum habentibus in causa principali.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>4</num>. - <hi rend="italic">De instantia primae appellationis causae ordinariae et dilationibus
+ad probandum per testes</hi>.</head>
+<p>Porro si quidem fuerit primae appellationis causa eo casu iudicantes
+qui de dicta prima appellatione cognoscunt in causa ordinaria teneantur
+et debeant ipsam appellationis causam per diffinitivam sententiam diffi-
+nire et terminare infra spatium duorum mensium utilium a die decursi
+heremodicii computandorum in qua primae appellationis instantia teneatur
+et debeat uterque litigator tam appellans quam appellatus volens de sua
+intentione vel defensione per testes aliquid probare ipsos testes inducere
+<pb n="85"/>
+et per ipsos probare quidquid intendit et vult infra terminum decem die-
+rum utilium a die decursi heremodicii computandorum, quod si litigator
+aliquid ex praedictis contra testes ab altera parte in ipsa instantia induc-
+tos vel dicta eorum aliquid legiptime probare voluerit per testes, infra
+spatium trium dierum utilium a die publicationis testium numerandorum
+hoc facere possit, postea vero neuter litigantium ad probandum per te-
+stes in ipsa primae appellationis causa audiatur, et haec locum habeant
+in causa ordinaria primae appellationis.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>5</num>. - <hi rend="italic">De instantia primae appellationis in causa extraordinaria et dila-
+tionibus ad probandum per testes</hi>.</head>
+<p>Si vero fuerit causa extraordinaria primae appellationis, hoc casu
+iudicantes de ipsa causa cognoscentes teneantur et debeant ipsam appel-
+lationis causam diffinire et terminare per sententiam causam de qua agitur
+diffinientem infra unum mensem utilem a die decursi heremodicii nume-
+randum. In qua etiam causa quisque litigantium ad probandum per
+testes admittatur infra terminum sex dierum utilium a die decursi here-
+modicii numerandorum et ad opponendum et probandum legiptime per
+testes contra testes adversae partis in dicta instantia inductos et dicta
+eorum infra tres dies utiles a die ipsorum publicationis computandos au-
+diatur, postea vero ad probandum per testes nullatenus audiatur.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>6</num>. - <hi rend="italic">De poena iniuncta appellanti si praemissa non servaverit</hi>.</head>
+<p>Quod si iudicantes praefati ipsam primae appellationis causam infra
+terminos super scriptos videlicet duorum mensium utilium in causa ordi-
+naria et unius mensis utilis in causa extraordinaria per sententiam causam
+ipsam de qua agitur diffinientem non expediverint nec terminaverint ex
+tunc ipsius primae appellationis instantia ipso iure sit finita ipsaque ap-
+pellatio sit et esse intelligatur ipso iure deserta, primaque sententia rata
+et firma maneat et exinde iudicantes ipsi dictam appellationem fore
+desertam primamque sententiam ratam et firmam esse pronunciare te-
+neantur et appellantem appellato in expensis legiptimis condemnare, prae-
+dictis in causa primae appellationis locum habentibus.
+<pb n="86"/>
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>7</num>. - <hi rend="italic">De instantiis causarum nullitatis diffinitivae sententiae, restitutionis
+in integrum et reductionis ad arbitrium boni viri et dilationibus ad
+probandum per testes et poena iniuncta actoribus</hi>.</head>
+<p>Declarantes propterea quod ea quae supra dicta sunt de temporibus
+instantiae primae appellationis et dilationibus in ea dandis serventur et
+servari debeant sub distinctione praedicta causae ordinariae et extraordi-
+nariae singula singulis congrue referendo et ea omnia quae supra dicta
+sunt in capitulo posito sub rubrica de poenis impositis actoribus locum
+et vires habeant in causis nullitatis diffinitivae sententiae et restitutionis
+in integrum et reductionis ad arbitrium boni viri principaliter a diffinitiva
+sententia petitae.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>8</num>. - <hi rend="italic">De instantia secundae appellationis causae ordinariae et extraordi-
+nariae et de poena appellanti iniuncta</hi>.</head>
+<p>Statuentes insuper quod si fuerit causa secundae appellationis ordi-
+naria vel extraordinaria eo scilicet modo quo secundum iura municipalia
+Pisanae civitatis secunda appellatio est permissa eadem omnia quae su-
+perius dicta sunt de temporibus instantiae primae appellationis et dilatio-
+nibus in ea dandis et de poena iniuncta appellanti si non servaverit prae-
+missa serventur et servari debeant sub distinctione praedicta causae or-
+dinariae et extraordinariae vires et locum habeant in causa secundae ap-
+pellationis singula singulis congrue referendo.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>9</num>. - <hi rend="italic">De instantiis et dilationibus in causa appellationis ab interlocutoria
+et absolutoria</hi>.</head>
+<p>Volentes praeterea quod ea quae supradicta sunt de causa primae
+appellationis extraordinaria et dilationibus in ea dandis serventur et lo-
+cum habeant in causa appellationis interpositae a sententia interlocutoria
+eo casu tantum quo ipsa interlocutoria ferretur incidenter vel emergenter
+in causa sive ante litem contestatam vel pro contestata habitam sive post
+si ab ipsa secundum iura municipalia Pisanae civitatis potuerit appel-
+lari, et in causa appellationis interpositae ab absolutoria ab observatione
+iudicii si ab ipsa appellatio secundum iura municipalia praedicta sit per-
+missa, alias non.
+<pb n="87"/>
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>10</num>. - <hi rend="italic">De exceptione non facienda in et de causis forataneorum</hi>.</head>
+<p>Declarantes etiam quae supra dicta sunt de temporibus instantiarum
+causarum principalium et appellationum in eis et qualibet
+earum dandis et de aliis prout supra continetur et scriptum est serventur
+et servari debeant et vires et locum habeant in causa vel causis forata-
+neorum qui non sint de civitate <name>Pisarum</name> vel eius districtu ita quod pari
+modo et ordine tractentur et finiantur.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>11</num>. - <hi rend="italic">De dilationibus dandis in productione instrumentorum</hi>.</head>
+<p>Instrumenta autentica in quacumque causa instantiarum praedicta-
+rum usque ad sententiam per quemcumque litigantium produci possint,
+dum tamen per hoc non impediatur quin sententia infra dicta tempora
+suprascriptarum instantiarum feratur, nisi definitio totius causae vel ali-
+cuius articuli commissa fuerit consilio sapientis quo casu productio in-
+strumentorum fieri non possit, et productio praedictorum instrumentorum
+fiat et fieri debeat saltem per sex dies ante finem temporis instantiae
+praefixi.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>12</num>. - <hi rend="italic">De cessionibus dilationum in omnibus causis</hi>.</head>
+<p>Praefatas autem dilationes et quaslibet earum supra tam in princi-
+palibus causis quam appellationum expressas, cedere volumus ipso iure
+cuilibet litigantium etiam si nulla ipsarum per Iudicem data aut concessa
+fuisset.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>13</num>. - <hi rend="italic">De mensibus utilibus et quot dierum sint, et quae sint causae
+extraordinariae</hi>.</head>
+<p>Et quia superius fit mentio de mensibus utilibus et causis extraordi-
+nariis ad hoc ut de praedictis nulla possit dubitatio exoriri declaraverunt
+quod quilibet mensis utilis de quo superius fit mentio sit et esse intelli-
+gatur triginta dierum utilium tantum; causae vero extraordinariae sint
+et esse intelligantur omnes et singulae causae lites et controversiae in qui-
+bus non fit vera litis contestatio et etiam in quibus summariae et de plano
+<pb n="88"/>
+proceditur et iuris ordine non servato et omnes et singulae causae lites
+et controversiae in quibus agitur de quantitatae librarum centum monetae
+currentis et non maiori, vel de re valente dictas libras centum et non
+plus et ab inde infra, quo casu iudicans quisque de tali causa cognoscens
+possit procedere summarie et de plano ipsamque finire et expedire cele-
+riter veritate comperta prout viderit fore iuris, servata tamen forma supra
+in secundo capitulo tradita.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>14</num>. - <hi rend="italic">De citationibus ad respondendum positionibus</hi>.</head>
+<p>Ad respondendum autem positionibus et interrogationibus in causa
+factis sufficiat in quacumque causa etiam principali bina citatio in qua-
+rum qualibet duorum dierum utilium dilatio concedatur, die ipsius cita-
+tionis in termino computata. Quod si bis citatus personaliter vel domi
+contumax in respondendo fuerit sine iusta et evidenti causa, pro con-
+fesso habeatur de his quae in ipsis positionibus et interrogationibus con-
+tinentur.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>15</num>. - <hi rend="italic">De petitione consilii sapientis</hi>.</head>
+<p>In consiliis vero petendis et exhibendis per iudicantes ea omnia et
+singula observare decreverunt et eo modo et forma de quibus et prout
+alias in statutis Civitatis praedictae continetur et expressum est sub
+poena librarum centum sibi auferenda et communi Florentino applicanda,
+haec tamen illis adiiciendo quod dictum consilium peti debeat a quo-
+cumque litigantium ad minus per sex dies utiles ante finem instantiae
+cuiuscumque causae aliter illud petens non audiatur, ac etiam, cum in
+dandis nominibus iudicum non suspectorum a litigantibus calumniose et
+animo iudicium protelandi inderdum iuris periti non nunquam qui iura
+non noverunt, interdum doctores in sepulcris reconditi dantur et nomi-
+nantur, ideo huiusmodi abusibus et malitiis occurrentes providentur ut
+deinceps consilio sapientis concesso per iudicantes quoscumque, de ce-
+tero partes pro die sequenti iuridica monitae esse intelligantur ad no-
+mina iudicantium non suspectoram in cedulis danda, ut hactenus
+<pb n="89"/>
+consuevit, in quibus non nisi doctores iuris canonici vel civilis vel utriusque,
+viventes et cognitos inscribere debeant, quod si quis scolarem vel iurium
+imperitum aut doctorem mortuum inscripserit, iudex illum reijcere et
+non admittere teneatur: et nihilominus talis huiusmodi inscribens poe-
+nam librarum decem incurrat Camerae Comunis Florentini vice qualibet
+applicandam, quod si binis cedulis eadem die dictorum judicum datis
+partes ipase minime concordes in electione dicti consultoris inventae fue-
+rint possit teneatur et debeat dictus iudicans sub dicta poena librarum
+centum Communi Florentini applicanda, intra tres dies utiles a die petitionis
+consili eas concordiam cogere et compellere mulcta indicta et captis
+pignoribus procedendo etiam ad detemptionem personalem et alias prout
+ipsi oportunum visum fuerit. Qui consultor sic electus ea omnia et sin-
+gula exequatur ad quae per ordinamenta praedicta astrictus esse cogno-
+scatur infra illas et sub illis poenis de quibus supra fit mentio, proviso
+quo pendente termino dictis consultoribus ad reddenda eorum consilia
+per dicta ordinamenta dato, tempora instantiarum cuiuscumque causae
+interim non labantur.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>16</num>. - <hi rend="italic">De citationibus ad sententias</hi>.</head>
+<p>De citationibus ad sententias ferendas et de tenore et forma earum
+et de poenis iudicantibus et de poenis impositis notariis curiarum ut scri-
+bant dies utiles voluerunt ea omnia et singula servari quae per ordina-
+menta novissima Pisanae Civitatis de praedictis et eorum quolibet lo-
+quentia, statuta et ordinata sunt in omnibus et per omnia.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>17</num>. - <hi rend="italic">De instantiis compromissorum et coactione arbitrorum</hi>.</head>
+<p>De compromissis autem per arbitros et arbitratores expediendis, sta-
+tuerunt et praesenti firmaverunt edicto quod omnia compromissa sine
+termino facta, spatio trium mensium continuorum a die facti compromissi
+computandorum finiantur, et per lapsum dicti termini finita esse intelli-
+gantur, declarantes et condentes quod quilibet iudicans Pisanae civitatis
+ad petitionem alterius partis vel ambarum teneatur et debeat cogere ipsos
+arbitros et arbitratores realiter et personaliter ipsosque detinendo et
+<pb n="90"/>
+mulctam eis indicendo ad terminandas causas, lites quaestiones et controver-
+sias eis commissas infra terminum in compromisso contentum, vel ubi
+terminus non esset expressus in compromisso infra dictum terminum trium
+mensium sub poena florenorum centum auri camerae Comunis <name>Florentiae</name>
+applicandorum in qua ipso facto ipse iudicans incurrat nisi praedicta
+adimpleverit cum effectu ut supra dictum est.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>18</num>. - <hi rend="italic">De iudice secundarum appellationum</hi>.</head>
+<p>Insuper animadvertentes quod in civitate Pisana non est deputatus
+iudex seu iudicans secundarum appellationum et nullitatum licet olim
+iudex earum esset officium novae Curiae pupillorum quod in praesentia-
+rum vacat in Civitate praedicta et quod multae retroscriptis temporibus
+discordiae inter litigantes exortae fuere quisnam dictarum secundarum
+appellationum iudex esset, ideo ad tollendas omnes ambiguitates statue-
+runt et ordinaverunt quod Potestas Civitatis <name>Pisarum</name> qui erit pro tem-
+pore sit et esse debeat dictarum secundarum appellationum et nullitatum
+iudex competens ita quod a <abbr>D.</abbr> Capitaneo, qui est secundum alia ordi-
+namenta Civitatis <name>Pisarum</name> iudex primarum appellationum et nullitatum
+in causis a ducentis florenis infra, appelletur et appellari debeat, quo-
+tiens huiusmodi secunda appellatio interponi permissa est per statuta Ci-
+vitatis praedictae, ad dictum dominum Potestatem, dummodo non sit
+ille idem qui tulit sententiam in causa principali, quo casu appelletur et
+provocetur ad eius successorem, et interim, donec dictus successor ve-
+nerit, tempora data ad diricturam deponendam et ad heremodicium mit-
+tendum et alia tempora instantiae non currant, sed statim currere inci-
+piant ipsa die qua dictus successor officium ceperit: et praedicta vindi-
+cent sibi locum in causis futuris tantum.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>19</num>. - <hi rend="italic">De executione rei iudicatae et instrumentorum</hi>.</head>
+<p>Sententiae, lauda, arbitria et arbitramenta quae dari et ferri
+<pb n="91"/>
+contigerit in futurum auctoritate quorumcumque statutorum civitatis Pisanae
+vel alias quomodolibet in quibuscumque causis et negociis civilibus exe-
+cutioni mandentur et mandari possint et debeant summarie et de facto
+incipiendo etiam a captura personae perinde ac si talis contra quem lata
+et data fuerint esset legiptime exbannitus et in banno positus et pro-
+nuntiatus pro debito in talibus sententiis, laudis, arbitriis et arbitramentis
+contentis secundum quod per formam capituli brevi <name><abbr>Pis.</abbr></name> Communis positi
+sub <abbr>Rub.</abbr> "De capiendo homines pro debito", de tali banno disponentis
+ordinatur, post decem dies a die prolationis sententiarum talium, laudorum,
+arbitrorum et arbitramentorum proxime numerandos, vel postquam
+transiverint in rem iudicatam nisi ab eis fuerit legiptime provocatum, vel
+petita reductio ad arbitrium boni viri et eadem executio fiat et fieri possit
+et debeat de quocumque instrumento debiti, mutui depositi et accoman-
+digiae et de quolibet alio instrumento dummodo sit exequibile, clarum
+et liquidum et non exigat aliquam probationem et declarationem ipsius
+ita tamen ut dicta instrumenta et quodlibet eorum quae peterentur exe-
+cutioni mandari producantur ab illo in cuius persona loquuntur vel eius
+procuratore legiptimo vel habente iura a creditore vel ab herede vel ha-
+bente causam ab ipso creditore. Et fiat antequam detur licentia capturae
+fides iudicanti vel curiae de his quae sunt necessaria ad legiptimationem
+personae executionem petentis. Et praedicta fiant et fieri debeant etiam
+si in eis vel aliquo eorum non esset appositum pactum quod debitor
+elapso termino capi possit, ordinantes praeterea ac statuentes quod qui-
+cumque captus vigore praedictarum sententiarum, laudorum, arbitriorum
+et arbitramentorum vel quorumcumque instrumentorum aut alias quomo-
+dolibet se non legiptime captum ostenderit, aut capturam ipsam inlegip-
+timam fuisse iudicanti constiterit vigore quietationis et pacti de non pe-
+tendo, solutionis aut falsitatis, et id probaverit, possit teneatur et debeat
+dictus iudicans eum <add>aliquem</add> capi facientem dicto iniuram passo con-
+demnare de facto in solidis quadraginta sibi ab eo exsolvendis pro quolibet
+die quo sic captus et detemptus permanserit et ipsum sic inglegiptime ali-
+quem capi facientem ad dictos solidos quadraginta pro quolibet die ipsi
+capto numerandos viribus sui officii personaliter vel in bonis cogere et
+compellere possit omni tam iuris quam facti exceptione remota penitus
+et reiecta.
+</p>
+</div2>
+<div2 type="capitolo">
+<pb n="92"/>
+<head><num>20</num>. - <hi rend="italic">De causis mercantilibus et earum instantiis</hi>.</head>
+<p>Quaestiones et causae mercantiles dependentes ex facto et traffico
+mercantiae inter mercatores tantum sive inter artifices tantum vel inter
+mercatores et artifices, mercantiliter tractentur, cognoscantur et termi-
+nentur per dictum Dominum Potestatem civitatis <name><abbr>Pis.</abbr></name> ad eius solitum
+bancum iuris, qui hactenus locumtenentis consulum curiae mercatorum
+in civitate <name><abbr>Pis.</abbr></name> fuit, summariae, de plano, sine strepitu et figura iudicii,
+iuris ordine non servato, sola facti veritate comperta, diebus feriatis et
+non feriatis exceptis feriis in honorem <name>Dei</name>, nec fiat distinctio inter quos-
+cumque illa vertantur, hoc tamen modo et ordine in praemissis servato
+quod si quidem causa fuerit ponderis vel valoris librarum decem vel ab
+inde infra, dictus <abbr>D.</abbr> Potestas et locum tenens porrecta sibi tali quali pe-
+titione ab actore in scriptis reoque ad respondendum citato et visis et
+auditis iuribus utriusque partis teneatur et debeat dictam causam per eius
+diffinitivam sententiam decidere et terminare prout iuri et aequitati vi-
+derit convenire, si vero causa fuerit ponderis vel valoris a dictis libris
+decem usque in centum et a libris centum usque in quingentis et ab inde
+supra, praemissa omnia et singula serventur et servari debeant dum-
+modo in qualibet dictarum causarum in quibus ageretur de quantitatibus
+supra expressis si ab aliqua partium fuerit postulatum dictus <abbr>D.</abbr> Po-
+testas et locum tenens teneatur et debeat uti consilio mercatorum partibus
+non suspectorum videlicet in causa decem librarum usque in centum quat-
+tuor, a libris vero centum usque in quingentis sex et ab inde supra, de-
+cem. Qui mercatores modo et forma praemissis electi huiusmodi electio-
+nem acceptare teneantur causam et causas et partes audire, libros et
+scripturas diligenter examinare et super ea vel eis relationem in scriptis
+dicto <abbr>D.</abbr> Potestati et locumtenenti facere, et haec omnia infra tempus et
+terminum eis per dictum iudicantem statuendum sub poena librarum vi-
+ginti quinque pro quolibet incurrenda et Camerae Communis <name>Florentiae</name>
+applicanda. Volentes ut antequam mercatores ipsi ad praedicta exequenda
+procedant, de bene et legaliter ac omni vi odio prece premio et qualibet
+humana gratia remotis referendo, solemniter in manibus iudicantis iura-
+mentum praestent. Quam quidem praedictotum mercatorum relationem
+<abbr>D.</abbr> Potestas ipse vel locum tenens sequi teneatur et debeat et secundum
+eam diffinire et terminare talem causam infra terminum quadraginta die-
+rum currentium a die datae petitionis numerandorum. Ita et tantum qua-
+rumcumque mercantilium causarum instantiam durare voluerunt et non
+ultra, easdemque poenas tam iudicanti quam parti de quibus supra
+<pb n="93"/>
+statutum et ordinatum est impositas esse si causas ipsas non expedierit vel
+expediri fecerit decreverunt. A quibuscumque sententiis vel earum aliqua
+modo et forma praemissis latis nullatenus appellari nec remedio nullitatis
+illas aut earum aliquam infringi voluerunt, sub poena librarum ducen-
+tarum cuique contrafacenti tollenda et Camerae Communis <name>Florentiae</name> ap-
+plicanda. Et nihilominus, poena commissa vel non, talis sententia ratha
+maneat et exequi debeat prout alias per supra ordinata statutum est.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>21</num>. - <hi rend="italic">De causis vertentibus inter cives pisanos</hi>.</head>
+<p>Item considerantes quod alias per statutum et ordinamenta civitatis
+<name><abbr>Pis.</abbr></name>7 seu reformationes eiusdem in effectu statutum fuit quod praefactus
+<abbr>D.</abbr> Potestas de quaestionibus librarum quinque vel ab inde infra possit
+cognoscere et decidere de facto et de quaestionibus a libris quinque supra
+usque in libris quadraginta vertentibus inter cives pisanos teneatur et
+debeat facere et ordinare quod extrahantur tres cives pisani prout latius
+in dictis reformationibus continetur, statuerunt reformationes praedictas
+ampliando quod ubi per illas disponitur de libris quinque extendatur ad
+libras decem inclusive et ab inde infra et ubi disponitur de libris qua-
+draginta extendatur ad libras centum inclusive ut supra et procedatur
+in dictis causis eo modo et forma et prout et sicut in dictis reformationibus
+continetur.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>22</num>. - <hi rend="italic">De civibus et praestantiatis non conveniendis alibi quam in curia
+<abbr>D.</abbr> Potestatis</hi>.</head>
+<p>Insuper advertentes quod cives pisani et alii prestantiati et subeun-
+tes onera in Civitate praedicta et eius burgis et subburgis gravia et diversa
+incomoda dispendia et iacturas substinent quotidie ex eo quia passim et
+indistincte extra civitatem praedictam ad instantiam cuiuscumque per-
+sonae loci collegii societatis et universitatis officii et officialis ad iudicium
+evocantur. Et quod valde obsonum et indignum videtur cum in Civitate
+pisana sit continuo Dominus Potestas qui est iudex ordinarius et potest
+et debet de quacumque causa et lite in curia sua vertente et quae modo
+quopiam contra aliquem movetur cognoscere et terminare, quod ad alios
+<pb n="94"/>
+iudices vel magistratus contra pisanos cives vel praestantiatos in dicta
+Civitate recursus habeatur et oporteat eos non sine ipsorum gravibus
+damnis et impensis sub aliis iudicibus litigare cumque per superiora ordi-
+namenta brevitati litium sit valde consultum et celeritati consequendae
+iustitiae opportune provisum, ideo hac costitutione ad conservandam dicti
+<abbr>D.</abbr> Potestatis iurisdictionem et ad superfluas et inutiles expensas subdi-
+torum amovendas statuendum duxerunt quod de cetero nullus civis
+pisanus vel prestantiatus et subiens onera in Civitate ipsa aut in eius
+burgis et subburgis possit et debeat quoquo modo directe vel indirecte
+aut aliquo quaesito colore citari cogi conveniri aut ad iudicium trahi ad
+petitionem singulae vel publicae cuiuscumque personae loci communis col-
+legii societatis et universitatis, officii aut officialis cuiuscumque solum et
+dumtaxat pro causis et negociis civilibus nisi coram <abbr>D.</abbr> Potestate Civitatis
+praedictae et eius curia, attento maxime quod idem <abbr>D.</abbr> Potestas vigore
+sui officii unicuique breve et expeditum iustitiae complementum submi-
+nistrare potest et debet nec opus est ad alium pro commodiore et cele-
+riore iustitia consequenda quoquo modo recurri. Et quod alias intra pi-
+sanos a dictis magnificis Dominis simile decretum extitit celebratum quod
+si quis huius constitutionis trangressor extiterit poenam librarum du-
+centarum Camerae Communis <name>Florentiae</name> applicandarum ipso facto incur-
+rat et nihilominus omnia et singula acta et gesta per quemcumque contra
+praesentis constitutionis formam nulla sint ipso iure et nullam executionem
+mereantur non obstantibus quibuscumque in contrarium editis quibus per
+hac derogatum esse intelligatur etiam si de illis mentio spetialis fieri de-
+beret. Et praedicta in praesenti capitulo contenta non habeant locum in
+civibus, magistratibus et officialibus Civitatis <name>Florentiae</name>.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>23</num>. - <hi rend="italic">De donamentis mulierum et dotis confessione</hi>.</head>
+<p>Item considerantes quam plures lites, discordias et controversias an-
+nis superioribus exortas inter cives pisanos praedictos et continue vigere
+super petitionibus donamentorum mulierum eis datorum a viris vel aliis
+eorum contemplatione in domibus dictarum mulierum antequam tradu-
+cantur a viris, quae quidem donamenta secundum veterem at laudabi-
+lem <name><abbr>Pis.</abbr></name> Civitatis consuetudinem pleno iure ad ipsas mulieres vel earum
+heredes spectabant et in talibus donamentis petendis et consequendis in
+<pb n="95"/>
+bonis quondam viri vel eius heredum praecipuum ius ipsis mulieribus
+competebat, hoc vero tempore huiusmodi donamenta quia data et facta
+mulieribus ipsis a viris vel aliis eorum respectu post contractum matrimo-
+nium per verba de praesenti et sic lege prohibente minime valere et
+tenere nec mulieribus ius petendi aut consequendi illa competere nonnulli
+iurisconsulti asseruerunt. Unde cum plurima damna eisdem mulieribus
+et earum heredibus provenerunt et continuo proveniant. Ex quo illarum
+indemnitati consulere, lites amovere et pristinam dictae <name><abbr>Pis.</abbr></name> urbis con-
+suetudinem retinere cupientes, statuerunt quod omnia et singula huius-
+modi donamenta ut puta anuli, jocalia, zonae, bursae, vestes ac similia
+iam data et donata et de cetero danda et donanda a viris vel aliis eorum
+contemplatione uxoribus suis antequam traducantur ad ipsorum virorum
+domos sive sint data ante contractum matrimonium per verba de prae-
+senti sive post, rite et legittime data et donata intelligantur et sint, et
+ipsarum mulierum propria efficiantur omnino et tamquam de rebus pro-
+priis agere et disponere possint et valeant pro earum libito et ad illa
+petenda, consequenda et habenda ius ipsis mulieribus competere posse et
+debere adversus heredes in bonis quondam viri si apud eos remansisse vel
+illa alienasse aut in suam utilitatem quomodolibet convertisse quondam
+virum legiptime constiterit decreverunt. Dummodo in praedictis dona-
+mentis non intelligantur venire nec in eis comprehendi illae vestes quas
+vir mittit ad uxorem suam ut ad domum ipsius viri ornatior veniat die
+quo eam traducit, ut cioppae, cottae sericae vel purpureae et similes vestes.
+Et similiter confessionem dotis cum donatione propter nuptias factam a
+viro uxori suae constante matrimonio etiam in ultima voluntate validam
+et efficacem esse et plenam roboris firmitatem obtinere, dummodo huius-
+modi dotis promissio manu pubblici notarii facta, ipsum matrimonium
+praecedat et appareat voluerunt et ordinaverunt, non obstantibus quibus-
+cumque legibus aut statutis in contrarium disponentibus. De donamentis
+vero quae mulier portat ad virum ea serventur et servari debeant quae
+hactenus consueta sunt et per statuta ipsa antiqua dictae Civitatis dis-
+ponuntur, et idem de anulis sponsalitiis.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>24</num>. - <hi rend="italic">Quod statuta suprascripta habeant locum in Capitaneo et Po-
+testate <name>Pisarum</name></hi>.</head>
+<p>Item ordinaverunt et decreverunt quod praedicta omnia in dictis
+<pb n="96"/>
+capitulis et statutis disposita ubi et quatenus loquuntur de magistratibus
+et ius reddentibus, locum habeant tantum in Capitaneo et Potestate Ci-
+vitatis <name><abbr>Pis.</abbr></name> et non in aliis magistratibus quoquo modo.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>25</num>. - <hi rend="italic">Quod nullus notarius emat gabellam <name>Banci</name></hi>.</head>
+<p>Item deliberaverunt et ordinaverunt quod nullus notarius vel procu-
+rator causarum per se vel per alium aut pro alio possit vel valeat emere
+vel acquirere gabellam Banci Potestatis dictae Civitatis <name><abbr>Pis.</abbr></name> vel si eam
+emerit vel acquisierit aut emi vel acquiri fecerit durante emptione vel
+acquisitione praedicta non possit modo aliquo directe vel indirecte aut sub
+aliquo quaesito colore procurare vel sollicitare causas vel circa eas offi-
+cium notariatus vel procuratoris exercere sub poena florenorum viginti
+quinque largorum pro quolibet contrafaciente et qualibet vice auferenda
+et Communi <name>Florentiae</name> applicanda.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>26</num>. - <hi rend="italic">Quod contrafacientes sint suppositi conservatoribus legum</hi>.</head>
+<p>Item deliberaverunt ordinaverunt et decreverunt quod omnes et sin-
+guli contrafacientes contentis in dictis capitulis vel aliquo eorum sive es-
+sent iudices sive privati, sint et esse intelligantur suppositi cognitioni Con-
+servatorum legum Civitatis <name>Florentiae</name> et notarius dictorum Conservato-
+rum debeat copiare praedicta omnia capitula apud statuta eorum officii
+ut de praedictis possint dicti Conservatores omni tempore habere scientiam.
+</p>
+</div2>
+<div2 type="capitolo">
+<head><num>27</num>. - <hi rend="italic">Quod praesentia statuta habeant locum in causis futuris</hi>.</head>
+<p>Praesentes autem constitutiones et omnia et singula in eis et qualibet
+earum comprehensa tamquam ius novissimum continentes voluerunt et
+mandaverunt cuique dispositioni iuris communis vel municipalis ac cuique
+capitulo constituti vel brevis et alio consilio vel ordinamento pisani com-
+munis et populi et alterius cuiuscumque loci preferri et in observantia an-
+teponi, declarantes postremo quod praedicta omnia et singula in praesen-
+tibus constitutionibus contenta in futuris causarum instantiis non autem
+in pendentibus vindicent sibi locum et pendere quoad haec instantia intel-
+ligatur si fuerit lis contestata vel pro contestata habita in praedictis etiam
+<pb n="97"/>
+si de praedictis vel aliquo praedictorum foret hic vel esset facienda mentio
+specialis vel ipsorum tenor deberet hic illorum vigore de verbo ad ver-
+bum fieri descriptio.
+Et erant ita scripta.
+Ego <name>Joannes</name> olim <abbr>S.</abbr> <name>Marci</name> <name>Thomasis</name> de <name>Romena</name> <add>imperiali auctori-
+tate iudex ordinarius notariusque publicus et civis florentinus et in prae-
+sentiarum scriba magnificorum dictorum Dominorum Priorum libertatis
+et Vexilliferi iustitiae praedictis omnibus et singulis in <num>X</num> proxime praecen-
+dentibus chartis de membranis contentis interfui eaque rogatus aliis meis
+negociis occupatus scribenda et pubblicanda commisi infrascripto <name><abbr>D.</abbr> Bar-
+tolomeo de Leonibus</name> notario et coadiutore infrascripto, ideoque sub si-
+gnum meum apposui consuetum.
+Et erant ita scripta</add>.
+Ego <name>Bartolomeus olim <abbr>D.</abbr> Gabrielis Francisci de Leonibus</name> <add>civis flo-
+rentinus imperiali auctoritate iudex ordinarius notarius publicus nec non
+ad praesens coadiutor suprascripti spectabilis viri <name><abbr>D.</abbr> Joannis <abbr>D.</abbr> Marci de
+Romena</name> notarii et scribae praefatorum magnificorum Dominorum prae-
+dicta omnia et singula in praesentibus et aliis <num>X</num> proxime praecedentibus
+chartis de membranis simul sutis ex commissione mihi facta per dictum
+<name><abbr>S.</abbr> Joannem</name> de qua supra patet ex libris deliberationum et partitorum
+dictorum magnificorum Dominorum per dictum <name><abbr>D.</abbr> Joannem</name> rogatus fi-
+deliter scripsi hic transumpsi et publicavi nihil addens vel minuens quod
+sensum mutet vel variet intellectum ideoque ad fidem et robur ipsorum
+subscripsi et signum meum consuetum apposui</add>.
+Exhibita et praesentata fuerunt et sunt praefata nova statuta <name><abbr>Pis.</abbr></name> Ci-
+vitatis et eorum approbatio pro parte magnificorum Dominorum nostro-
+rum spectabilibus patribus prioribus et collegiis praefatae Civitatis <name><abbr>Pis.</abbr></name>
+et mihi <name>Joanni</name> notario infascripto Dominicae Incarnationis anno
+<date value="14780323">mille-simo quadringentesimo septuagesimo octavo, indictione X, die vero XXIII mensis martii</date>, more Civitatis <name><abbr>Pis.</abbr></name>
+Subscriptio <abbr>int.</abbr> <abbr>not.</abbr>
+Ego <name>Joannes</name> filius olim <abbr>S.</abbr> <name>Bertoli <abbr>S.</abbr> Antonii de Sancto Cassiano</name>
+<add>civis <name>Pisarum</name>, imperiali auctoritate iudex ordinarius nec non notarius et
+cancellarius praefatorum Dominorum substitorum praedictorum exhibitis
+et praesentatis interfui et inde rogatus scribere scripsi et statuta praedicta
+sumi scribi et copiari per alium mihi fidum feci ex originali publico
+<pb n="98"/>
+praedicto rafr<add>ontato</add></add> quinque proximis praecedentibus chartis membraneis
+simul sutis et ligatis in praesenti libro vocato Constituto pisano et quia
+cum originali praedicto concordare inveni nihil addito vel diminuto quod
+sensum mutet vel variet intellectum, ideo me subscripsi et signo et no-
+mine meis solitis roboravi in fidem et testimonium omnium et singulorum
+praemissorum.
+Haec est copia infrascripti capituli de praesenti nova reformatione pi-
+sanae Civitatis tenoris infrascripti:
+<pb n="99"/>
+Item providerunt et deliberaverunt quod Dominus Potestas Pisarum
+Civitatis tam cum scripturis et testibus quam sine, posita coram eo et
+eius curia reclamatione prout eiusdem discreptioni videbitur melius et
+utilius convenire de facto auditis partibus de quaestionibus et differentiis
+librarum quinque et ab inde infra coram eo vertentibus et quae quomo-
+dolibet oriri possent, possit et valeat cognoscere et decidere de facto et
+sine strepitu et figura iudicii, ita quod a declaratis cognitis et decisis nullo
+aliquo tempore appellare possit aut de nullitate dicere vel opponere (sic)
+non obstantibus aliquibus statutis legibus et ordinamentis in contrarium di-
+sponentibus et quod de et pro litibus quaestionibus et differentiis a libris
+quinque supra usque in libris quadraginta inclusive vertentibus coram eo
+et eius curia inter cives pisanos ad petitionem cuiscumque partis tam
+actoris quam rei possit teneatur et debeat <abbr>D.</abbr> Potestas facere et ordinare
+<pb n="77"/>
+quod extrahantur tres cives pisani de bursa <add>per</add> praedictos reformatores
+ordinata et alias pro tempore ordinanda dictis partibus seu alicui earum
+non suspecti sorte et fortuna et quod suspecti a qualibet dictarum par-
+tium ligantium nominare debeant et suspecti extracti habeant devetum
+et tunc remittantur in dictis bursis et in eorum loco extrahi debeant alii
+non suspecti secundum ordinamenta edita vel edenda qui tres cives sic
+extracti ex commissione dicti <abbr>D.</abbr> Potestatis habeant intelligere differentias
+dictarum partium eis commissas in temporibus et terminis eis assignandis
+per dictum <abbr>D.</abbr> Potestatem semel et pluries non maioribus uno mense
+in totum prout suae discreptioni videbitur convenire inspecta importantia
+causae et litis praedictae et dictis differentiis intellectis dicti tres cives
+seu duo partes eorum in concordia teneantur et debeant summarie deci-
+dere et terminare inter dictas partes et eorum laudum et sententiam eorum
+propriis scriptis eorum sigillo sigillatis referre et portare dicto <abbr>D.</abbr> Potestati
+seu eius vicario qui <abbr>D.</abbr> Potestas teneatur et debeat confirmare dictum lau-
+dum et sententiam et sic confirmata postea aperiri facere et pubblicare
+quae sic confirmata de iure valeat et teneat et valitura sit omni exceptione
+remota, interposita ut supra dicti <abbr>D.</abbr> Potestatis aucthoritate et sic ea exe-
+cutioni mandari possit et debeat <add>per</add> eos ad quos pertinebit nec ab ea
+appellari aut de nullitate opponi possit sub poena librarum centum cuilibet
+contrafacenti auferenda et Communi <abbr>Pis.</abbr> applicanda pro tribus partibus et
+pro reliqua quarta parte rectori et dictum laudum et sententiam facere et
+referre teneantur et debeant dicti tres cives infra tempus eius ut supra as-
+signandum sub poena librarum vigintiquinque eisdem et cuilibet eorum
+auferenda et ut supra applicanda.
+Et erant ita subscripta:
+Ego <name>Carolus <abbr>Io.</abbr> <abbr>D.</abbr> Caroli de Vecchiano</name> <abbr>pis.</abbr> civis publicus notarius
+<abbr>pis.</abbr> imperiali auctoritate et iudex ordinarius qui omnia et singula in prae-
+senti facie contenta scripsi ideo ad fidem praemissorum me subscripsi.
+Nos <name>Camillus de Parmeriis</name> senensis <abbr>I.</abbr> <abbr>U.</abbr> <abbr>D.</abbr> canonicus buconovensis
+<abbr>R.</abbr>mi <abbr>D.</abbr>ni Archiepiscopi Pisani in spiritualibus et temporalibus vicarius
+generalis fidem facimus et attestamur qualiter spectabilis et egregius vir
+<name><abbr>D.</abbr> Bartolomeus de <abbr>S.</abbr> Cassiano</name> qui suprascripta statuta publicavit et au-
+tenticavit tempore dicti facti autentici et postea fuit, prout hodie est, bo-
+nus lealis autenticus et fidedignus notarius et suis scripturis publicis et
+autenticis datur et adhibetur plena et indubitata fides in iudicio et extra.
+In cuius rei testimonium <abbr>etc.</abbr> Dominicae Incarnationis anno
+<date value="15200223">millesimo quingentesimo vigesimo indictione octava, die vero XXIII mensis februarii</date>, stilo pisano.
+Ego <name>Joannes de <abbr>Ven.</abbr></name> notarius in dicta Curia de mandato.
+Hic sigillum.
+Ego <name>Jacobus Andreae Lavaianus</name> <abbr>civ.</abbr> <name><abbr>Pis.</abbr></name> imperiali auctoritate iu-
+dex ordinarius atque notarius publicus nec non cancellarius actans ma-
+gnificorum patrum Priorum civitatis <name><abbr>Pis.</abbr></name> quia suprascripta statuta nova
+edita anno millesimo quadringentesimo septuagesimo sexto una cum ori-
+ginalibus statutis pisanae civitatis quae nunc sunt in viridi observantia au-
+scultando concordare inveni nullo addito vel diminuto quod sensum mu-
+tet vel variet intellectum, ideo subscripsi et signo et nomine meis solitis
+nec non sigillo Pisani Communis roboravi in fidem robur et testimonium
+omnium praemissorum. Dominicae Incarnationis anno <date value="15200224">MDXX indictione octava die vero vigesima quarta februari</date>, stilo pisano.
+Hic sigillum.
+Laus. </p>
+<pb n="78"/>
+     </div2>
+    </div1>
+</body>
+</text>
+</TEI.2>

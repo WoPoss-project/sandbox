@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>De architectura Lulliana</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>75 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000452</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali; Nino Aragno</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-06-29T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Daniele Masini</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-07-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1><p>PHILOTHEUS IORDANUS BRUNUS NOLANUS.</p>
+<p>DE COMPENDIOSA ARCHITECTURA,</p>
+<p>ET COMPLEMENTO ARTIS LULLII.</p></div1>
+
+<div1><p>AD ILLUSTRIS. D. D. IOANNEM MORUM PRO SERENISSIMA VENETORUM R. P. APUD CHRISTIANISSIMUM GALLORUM ET POLONORUM REGEM LEGATUM.</p></div1>
+
+<div1><p>PARISIIS,
+APUD AEGIDIUM GORBINUM, SUB INSIGNE SPEI, PROPE COLLEGIUM CAMERACENSE.</p>
+<p>MDLXXXII.</p></div1></front>
+
+<body><div1><head><hi rend="bold">ILLUSTRISSIMO D. D. IOANNI MORO PRO SERENISSIMA VENET. R. P. APUD CHRISTIANISSIMUM GALLORUM ET POLONORUM REGEM ORATORI, IORD. BRUN. NOL. S. D.</hi></head>
+
+<p>Margaritam non tantum ventris commodo, ponderis momento et mole dimensionis, quantum oculorum aspectu, propriae speciei substantia et sui generis qualitate aestimandam, non cuilibet, sed viro nobiliori donari debere quicunque non desipiens iudicabit. Lapidibus ergo et gemmis incomparabilem, tantoque preciosissimam, quanto minori librorum volumine contentam artem, non cuilibet occurrenti, sed Tibi, ut cui talis tantaeque rei iudicium convenit atque possessio (comuni patriae atque sanguinis propriaque virtutis et ingenii nobilitate illustrissime Domine) dicandam existimavimus. Tali quippe tantoque servatore, irrationale animantum genus hano sibi despectam pedibus inculcaturum non timemus. Vale.</p></div1>
+
+
+<div1><head><hi rend="bold">SECTIO PRIMA. </hi></head>
+
+
+<div2><head><hi rend="italic bold">Q. propositum. Cap. 1.</hi></head>
+
+<p>Omni sermonis ampullati vanitate reiecta, dignissimae architecturae magisteriique praesentis efficiens universale atque primum, particularem atque proximum agentem, secundum primo disponentem materialem causam, considerationis subiectum, eius denique subiecti partes, formam atque finem accipito.</p></div2>
+
+<div2><head><hi rend="italic bold">Q. efficiens primum. Cap. 2.</hi></head>
+
+<p>Caussa efficiens universalis artis Lullianae est intellectus extrinsecus agens, haud aliter ad ipsius mentis sese habens elucidationem, quam diurnum astrum (cuius adminiculo videntur omnia quae videntur) ad oculum externum. Huius opere prius facultate tantum visibilia actu redduntur talia, ut inde sensitiva protinus sollicitata facultas evigilans informetur; illius causa (qui nunquam bene intendentibus occidit ingeniis, quominus eius fulgoris radii tanquam foribus intelligentiae nostrae continuo adstantes, si puriori contemplatione reseremus animum, sine dilatione irrepant intimius) potentiaque intelligibilia in actum intelligibilitatis velut e tenebris emergant.</p></div2>
+
+<div2><head><hi rend="italic bold">Q. efficiens proximum. Cap. 3</hi></head>
+
+<p>Causa vero efficiens particularis, intellectus agens Lullianus extitit, ita sane ad species intelligibiles et proxime dictum illuminatorem comparatus et expositus, sicut ad visibiles species istumque solem sensibilem oculus cuiusque nostrum.</p></div2>
+
+<div2><head><hi rend="italic bold">Q. materia in qua. Cap. 4</hi></head>
+
+<p>Materialis causa, quam brevibus exponam, temperatior Saturnii cuiusdam habitus extitit melancholia, in qua residens spiritus, aptius se praebet animo ad opus contemplationis instrumentum, quatenus etiam nullis humani studii disciplinis excultus quidam intelligentiae (ut terra coelo dispositior) conceptis seminibus repente mirabilis evadat; sic Homero, Hesiodo, Zoroastro aliisque multis physice iudicantes accidisse credimus.</p></div2>
+
+<div2><head><hi rend="italic bold">Q. materia de qua. Cap. 5</hi></head>
+
+<p>Subiectum considerationis est universum, quod veri, intelligibilis rationabilisque rationem subire valet; adeo quippe generalia vera, necessaria atque primitiva principia praetenduntur, ut extra speculativas facultates, tanquam earumdem non coarctata limitibus, ad alias facultates morales, mechanicas et per universum operosas regulandas valeant inclinari. Nullus enim, qui principiorum istorum trutinam praeterire possit, extat habitus. Conveniens nimirum est atque possibile, ut eum in modum, quo metaphysica universum ens, quod in substantiam dividitur et accidens, sibi proponit obiectum, quaedam unica generaliorque ens rationis cum ente reali (quo tandem multitudo, cuiuscunque sit generis, ad simplicem reduci possit unitatem) complectatur.</p></div2>
+
+<div2><head><hi rend="italic bold">Dignitas subiecti cons. Cap. 6</hi></head>
+
+<p>Consideratae rei dignitas in certitudine assequutionis, in compendiosa tractationis facilitate atque sui generis sufficientia, inque eiusdem tractatae rei omnimoda nobilitate sita est. Quid enim (quamvis non ex definitis atque propriis expressius demonstrare doceat) nonne cuiuscunque facultatis nobilitatem ambit atque comprehendit?</p></div2>
+
+<div2><head><hi rend="italic bold">Q. partes facult. Cap. 7</hi></head>
+
+<p>Duae huiusce artis beneficio complentur facultates, unde duas (quas virtutales dicerent) in se continet partes, quarum altera ad inventionem, ordinem, dispositionem iudiciumque tendit, altera ad inventum, ordinatum, dispositum et iudicatum perducit.</p></div2>
+
+<div2><head><hi rend="italic bold">Q. facultatis primae partes. Cap. 8</hi></head>
+
+<p>Prima in tres partes discriminatur. Primum enim in ea portione, quam alphabetum appellat (ibi enim quasi simplicia enumerantur et determinantur elementa), intentiones rerum simplices quasi solidissima iacit fundamenta. Secundo veluti syllabicum combinationes intentionum efficiendo compingit, idque tum in prima figura, ubi extentis circumquaque lineis absolutorum praedicatorum singula et per modum abstracti et per modum concreti ad omnia referre et cum omnibus componere perdocet; tum in secunda figura, in qua praedicata respectiva cum eorumdem scala, non minus ad invicem, quam et ad absoluta praedicata referenda commonstrat. Tertio expressiorem in tertia figura combinationum, quae ex utriusque generis praedicatis constitui possunt, normam atque differentias insinuat. Ubi fere quomodo ex intentionum syllabis integrae conflentur dictiones, aperit. Ibi quomodo omni quaestionum genere formantur propositiones, in quibus de subiecto quolibet quodlibet absolutum, respectivum vel e
+ x iis compositum affirmari negarique, formari infirmarique potest, ponit ob oculos. Hunc in modum perfectam inquisitionis disciplinam complere videtur.</p></div2>
+
+<div2><head><hi rend="italic bold">Q. facultatis secundae partes. Cap. 9</hi></head>
+
+<p>Secunda in septem dissecatur partes, in quibus veluti de orationibus, post dictionarium, syllabicum et alphabetum exposita, sufficienter educendis instruit. Iis enim peractis, quae ad simplicem conceptionem simpliciumque primam secundamque compositionem faciunt, ad vere affirmandum atque negandum, et in quibus ad omne genus problematum implicita continetur argumentorum copia, item responsionum, omnis generis discursuum definitionumque facultas, ad eorum tandem explicationem et multiplicationem evacuationemque proficiscitur: primo quartam ordinans figuram, in qua velut in aureo talento multiplex moneta contractius includitur; secundo tabulam, in qua species omnes mediorum extenduntur, explicantur, numerantur; tertio evacuationem tertiae figurae, in qua propositiones in primis antecedentibus implicitae explicantur; quarto multiplicationem quartae figurae, in qua primum quidem multiplicantur ad eandem conclusionem inferendam vel impediendam rationes, deinde ordinando in medio
+  circulo medium inter subiectum et praedicatum, quae considerantur in circulis extremis, inveniuntur media ad argumentandum (mitto quod de fallaciarum notitia et de praestantia huius artis subiungitur, cum alterum sit alienum, alterum non satis arti necessarium); quinto mixtionem principiorum et quaestionum, ubi deducendo haec principia per illa, absoluta per respectiva, et utraque complexe vel incomplexe, coniunctim vel sigillatim per quaestionum multitudinem, mirum in modum ditescit inventio atque iudicium; sexto subiectorum definitionem (quam ego magis distinctam percuperem) et eorumdem, dum per diversa deducuntur, diversificationem, quatenus et ipsa et omnia, quae ad eadem tanquam in iisdem implicita reducuntur, quonam pacto cum principiis absolutis et respectivis sibi adiunctis se habeant, determinari possit, ut inde, quomodo in talis et cuiuscumque generis praedicatis (ad haec enim praedicata omnia possibilia praedicata reduci sentit Lullius) de talis et cuiuscunque ge
+ neris subiectis (ad haec enim subiecta caetera omnia subiecta reduci et in iisdem contineri sentit idem author) regi et dirigi et gubernari debeamus, elucescat (in hac sexta parte praecipuus huius artificii finis consistit, qui omnes Lullii latuit interpretes, et Lullius ipse non minus in ipsa praeceptione, quam in exemplis, minime valuit exprimere; sed si quid huic negocio suffragari licebit, pro viribus, si dabitur ocium, aliquando praestabimus); septimo applicationem, in qua principaliter intenditur (quae principalis intentio propter plurium inutilium atque vanorum admixtionem vix delitescit) quod ad novem subiecta omnia subiecta reducantur, et in ipsis includantur et implicentur, ostendere; item quomodo absoluta omnia ad absoluta novem, ad respectiva omnia praedicata novem reportentur; insuper quemadmodum omnia cognoscibilia, per implicitum et explicitum, abstractum et concretum, per figuras allatas, per definitiones, per quaestiones, per tabulam, per evacuationem tertia
+ e, per multiplicationem quartae, per mixtionem principiorum, per novem subiectorum rationes et per centum formas construantur, examinentur atque formentur.</p></div2></div1>
+
+
+<div1><head><hi rend="bold">SECTIO SECUNDA</hi></head>
+
+
+<div2><head><hi rend="italic bold">Propositum. Cap. 1</hi></head>
+
+<p>Iam non ad librum, sed ad artem (a nobis elucidandam et complendam) respicientes, artis alphabetum et eius memoriam proponimus, item primam figuram et eius imaginem, secundam figuram et eiusdem facilem et promptam conceptionem, tertiam figuram et eius ordinis rationem qua mentem non fugiat discurrentis, figuram quartam certa quam dispositione formamus, et tabulam ita se omnibus offerentem suis numeris atque ordinibus, ut alia memoriae praeceptione non indigeat, et naturali se consequentes ordine quaestiones.</p></div2>
+
+<div2><head><hi rend="italic bold">De alphabeto. Cap. 2</hi></head>
+
+<p>Quemadmodum scriptura atque lectio suis constat elementis, ita iudicium et inventio, quae per hanc aliasque plurimas artes attentantur. Artis igitur istius elementa non inconsulto per grammaticalia significantur elementa, quae novem sunt numero B, C, D, E, F, G, H, I, K. Ipsum B relinquitur primarium ab A, quod ad significandam figuram primam est occupatum. Horum elementorum singula significant primo quidem subiectum, secundo praedicatum absolutum, tertio praedicatum respectivum, quarto quaestionem. Hinc B significat Deum, bonitatem, differentiam, utrum? C significat angelum, magnitudinem, concordantiam, quid? D caelum, durationem seu aeternitem, <add>contrarietatem,</add> de quo? E significat hominem, potestatem, principium, quare? F significat imaginationem, sapientiam, medium, quantum? G sensitivum, voluntatem, finem, quale? H vegetativum, virtutem, maioritatem, quando? I elementativum significat veritatem, aequalitatem, ubi? R instrumentativum, gloriam, minoritatem, qu
+ omodo et cum quo?</p></div2>
+
+<div2><head><hi rend="italic bold">Ad alphabeti retentionem. Cap. 3</hi></head>
+
+<p>Suppositis dictis in "Cantu Circaeo", ubi de subiectorum adiectorumque ratione definivimus, cum singulis elementis quattuor convenientia significata tibi sint firmiter tenenda, naturalis autem memoria suspecta sit et haesitans, ad novem recurrito quadrata cubilia; quorum singolorum orienti A subiectum, septentrioni E praedicatum absolutum, occidenti I respectivum praedicatum, meridiei O quaestio adiiciatur, medium vero elementi illorum quattuor significativi notam contineat.</p>
+<p>Ubi vero seorsum tibi referenda sunt subiecta, angulos seu regiones orientales discurres; ubi praedicata absoluta, septentrionales; ubi respectiva, occidentales; ubi quaestiones, meridionales.</p>
+<p>At si cubilium multiplicatio minus arrideat, sit in angulorum singulis homo, actio, insigne, adstans, quae respondeant subiecto, absoluto, respectivo et quaestioni. Inde ubi seorsum examinanda sunt subiecta, intueare homines; ubi absoluta praedicata, actiones; ubi respectiva praedicata, insignia; ubi quaestiones, adstantia.</p></div2>
+
+<div2><head><hi rend="italic bold">De prima figura. Cap. 4</hi></head>
+
+<p>Prima figura, per elementum A significata, absoluta significat praedicata, et ad cuncta omnium absoluta praedicata, vel negative vel affirmative, vel in concreto vel abstracto, vel convertibiliter vel inconvertibiliter praesentanda accommodatur. In prima quidem causa convertibiliter omnia dicuntur et concretive et abstractive, affirmative tantum; ideoque lineae a singulis elementis extentae ad omnia et <add>ab</add> omnibus ad singula reflexae conversionem significant et aequalitatem; dicitur enim magnitudo de bonitate et sapientia etc., bonitas et sapientia de magnitudine etc., magnum de bono et sapiente etc., sapiens et bonum de magno etc. Id quidem in caeteris aliis est impossibile, quibus tamen eo ipso haec figura deservit, quod terminus alter per alterum adiectivatur, dum alter in abstracto sumptus alteri in concreto sumpto adiungitur. Hinc a singulis ad reliqua lineae tractae, tale singulorum ab omnibus significant adiectivari: bonitas magna, durans, potens; magnitud
+ o bona, durans, potens; potentia bona, magna, durans. Pro subiectorum conditione talis adiectivatio completur secundum compositionem vel divisionem, secundum trianguli angulum principii vel medii vel finis, maioritatis, minoritatis, aequalitatis, differentiae vel concordantiae vel contrarietatis.</p>
+<p>Pro qua generalitate notandum, terminos istos sicut et ens in iisdem implicitum nec finite significare nec infinite, nec limitatum nec illimitatum, neo factum neque infectum sibi decernere; non enim essent haec et illa, sed vel haec vel illa, quae ipsorum formationem reciperent. Ens quippe infinitum significans excludit praeter Deum universa, finitum significans Deum excludat oportet. Sit similis de bono, magno caeterisque ratio, quae quidem omnia significant iuxta rationem communem materialibus et inmaterialibus, substantiis et accidentibus, finitis et infinitis. Quod si quidam (imo et ipse Lullius) tria prima praedicata essentialia vocet, caetera vero accidentalia, illud intellig. de natura terminorum significativorum, pro qua in metaphysica et logica supponunt, non autem in hac arte generalissima, quae omnia modo suo applicari vult ad omnia, ut et in ipsa substantia substantialem magnitudinem et qualitatem rimetur etc., qui potest capere capiat.</p></div2>
+
+<div2><head><hi rend="italic bold">Ad primae figurae retentionem. Cap. 5</hi></head>
+
+<p>Suppositis quoque iis quae de ratione subiectorum et adiectorum sunt habenda, atrium quadratum novem discriminatum conceptaculis habeto, cuius anguli quattuor habeant elementa, et media laterum quatuor sequentia, ultimum vero quadrati medium. Habet ergo angulus orientis B, septentrionis C, occidentis D, meridiei E, latus orientis F, latus septentrionis G, occidentis H, meridiei I, medium K. Ibi consequenter habes fixum ordinem conversionum, denominationumque omnium per singula, et singulorum per omnia. Rotundam figuram tanquam memoriae inimicam despicimus, angularem ut eidem familiarissimam eligimus.</p></div2>
+
+<div2><head><hi rend="italic bold">De secunda figura. Cap. 6</hi></head>
+
+<p>Secunda figura per elementum T significata, quod est primum in dictione 'Triangul.', tres in ea implicatos complectitur triangulos, qui ea continent praedicata, quae hoc ipsum quod sunt aliorum esse dicuntur; principium enim principiantis, principiati, principiativi, principiabilis et principiatione dicitur; medium mediativi, mediabilis, mediantis, mediati et mediatione dicitur. Simile de caeterorum angulorum terminis est iudicium, qui sane termini omnes, sicut et praecedentis figurae termini, de omnibus dicuntur modo suo, utpote pro naturae rerum conditione.</p>
+<p>Constat non circulo, sed triangulis tribus; non enim admittunt huius figurae termini consequentiam, quam primae figurae termini dicebantur ad invicem habere. Non enim dicitur differentia concordans, contrarietas concordans, secundum omnes totque modos, licet secundum quosdam; dicitur enim principium bonum differens a magno, quia bonum et magnum diversas habent rationes, principium bonum simpliciter malo simpliciter contrarium, maioritas magna differens a gloriosa, opposita parvae. Ecce quemadmodum se invicem praedicata penetrant, quod non modo de ipsis exemptis, sed et in subiectis fundatis est intelligendum, ut cum dicitur 'bonitas magna, infinita, durans Dei', 'parva finita hominis'. Idem suo modo iudicium de caeteris.</p>
+<p>Constat item triangulis et non circulo, quandoquidem unum ordinem praesentis figurae termini non efficiunt; consideranti enim tres manifesti sunt ordines, quorum primus suo ternario constans appellatur per aequiparationem, secundus per suppositionem, tertius per excessum et diminutionem, ut Lulliani sonant termini. Hac de causa figura parem significans rationem et habitudinem eandem, minime conveniens iudicatur. Talis erat figura circularis ab omnibus circumferentiae punctis ad centrum A pariformiter aequaliterque relatas habens partes, una cum paribus aequalibusque linearum effluxibus et influxibus.</p>
+<p>Acutis tandem constat triangulis, quia primam ab omnibus angulis penetrabilem subintrant figuram. Hinc differentia est inter bonum et bonum, bonum et magnum, differentia item et contrarietas inter bonum et malum. Ubi bonum sensibile et malum intelligibile differunt tantum, bonum sensibile et malum sensibile contrariantur; sensibile vero et intelligibile, differens et concordans, et reliqua praedicata, penetrant primam figuram et se invicem complectuntur, cum aliorum triangulorum angulis, non minus in subiectis fundata quam exempta. Denominata enim per differentiam, concordantiam, contrarietatem, principium, medium, finem, maioritatem, minoritatem, aequalitatem, sunt Deus, Daemon, caelum, homo et caetera, et quae ad isthaec subiecta reducuntur. Penetrant item et complectuntur subiecta non minus denominative quam absolute sumpta, absolute inquam Deum, angelum, caelum, hominem; denominative divinum, angelicum, caeleste, humanum.</p></div2>
+
+<div2><head><hi rend="italic bold">Ad secundam fig. retin. Cap. 7</hi></head>
+
+<p>Figurae praesentis memoria facilis. Ad praesentandam tamen et retinendam ipsius cum ordine dispositionem (tum enim istius, tum et aliarum, quasi situm atque formam interni sensus oculo necessum est habere praesentem) statue tibi vel in quadrato vel in rotundo atrio triangulum tali pacto dispositum:</p>
+<p>Singuli angulorum singulas (si placeat) vivas habeant imagines, quae duas alias sibi collaterales adsumant. Deinde memoraturus procede a collaterali sinistro anguli B ad angulum B, hinc ad suum collaterale dextrum F, deinde a collaterali sinistro anguli C ad ipsum C, inde ad eius collaterale dextrum H, tandem ad collaterale sinistrum ipsius D, quod est I, ad eius collaterale dextrum K. Nisi velis aliter ordinare (utpote secundum naturalem successionem) in hac praeposita figura.</p></div2>
+
+<div2><head><hi rend="italic bold">De tertia figura. Cap. 8</hi></head>
+
+<p>Tertia figura per aliquod elementum non significatur; ipsa enim nil aliud esse videtur, praeterquam primae cum secunda complexio. Eius elementa significant quidquid significant elementa primae et elementa secundae.</p>
+<p>Notamus hanc figuram plurimos ad copiam rerum utillimos habere inflexionis modos. Quorum primus est sumpto pro subiecto termino absoluto, et pro praedicato alio absoluto, ut cum dicitur bonitas magna; secundo sumptis utrisque terminis respectivis, ut cum dicitur differentia principians, concordantia medians, contrarietas finiens; tertio sumpto pro subiecto termino absoluto, et pro praedicato termino relativo, ut dicendo bonitas differens; quarto sumpto pro subiecto termino respectivo, et pro praedicato termino absoluto, ut dicendo differentia bona. Qui quattuor modi multiplicantur: primo per adiective capi vel substantive subiectum vel praedicatum, dicendo bonitas magna, magnitudo bona, differentia principians, principium differens, bonitas differens, differentia bona; secundo utrisque substantive sumptis, bonum magnum, bonum quid differens; tertio componendo subiectum tantum, ut constet ex absoluto et respectivo, vel duobus absolutis, ut cum dicitur differentia magna est
+ bona; quarto praedicatum tantum, ut cum dicitur differentia est magnum bonum; quinto subiectum et praedicatum, ut cum dicitur concordantia principians est magnum bonum. Quae compositio dupliciter fit: vel utrisque sumptis in recto, vel altero in recto, altero in obliquo (aliud enim est differentia principians, aliud differentia principiantis); item vel utrisque in concreto sumptis, vel altero sumpto in concreto, altero vero in abstracto, vel utrisque in abstracto, ut [vel] magnum bonum, magnum boni, magnitudo boni, magnitudo bona et magnitudo bonitatis. Si dicatur magnitudo bonitas, utrisque terminis in recto, non redditur complexio subiecti vel praedicati, sed ambo possunt copulative sumpta subiectum esse vel praedicatum, ut cum dicitur, 'magnitudo et bonitas sunt principia', et cum dicitur 'principium est dictum de magnitudine et bonitate'.</p>
+<p>Animadvertendum tamen est, Lullium secundum tot tantasque latitudines quatuor modis ab universali ad particulare descendere: primo a terminis figurae primae vel secundae per terminos figurae secundae vel primae limitatis, ut differentia bona; secundo terminis iis in sua generalitate sumptis atque illimitatis ad eosdem per angulos contractos, dicendo differentia bona inter sensuale et sensuale, intellectuale et intellectuale, inter sensuale et intellectuale, similiter de concordantia et contrarietate; tertio ab angulis ita illimitatis ad eosdem per suae scalae gradus contractos, dicendo differentia bona inter sensuale quod est ignis, et sensuale quod est aqua; quarto ab angulis pene subalterne contractis ad eosdem ut specialissime contractos, dicendo bona contrarietas, quae est inter sensibile quod est ignis in pipere, et sensibile quod est aqua in cucurbita. Ecce quemadmodum, deducto duodenario praedictae latitudinis per istius altitudinis quaternarium, quadraginta et octo
+  in qualibet camera tibi reddantur propositiones, sexaginta quattuor, deducto eorum sexdenario, et longe plura, si maior maiorque numerus deducatur; qui quidem tum dictis augeri valet differentiis, tum etiam relativorum, coniugatorum et congeneorum terminorum adiectione multiplici, adeo ut propositionum numero tempus ipsum succumbere, ne sufficere possit, appareat. Hunc locum supra quam necesse, sit monstrasse volui, ut sciatis artem Lullii plus ferre momenti, quam Lullius ipse fortasse viderit; iactum quippe fundamentum excellentissime maius aedificium recipit, quam ipse struxerit.</p></div2>
+
+<div2><head><hi rend="italic bold">De figur. in. et retin. Fig. Cap. 9</hi></head>
+
+<p>Figuratio atque memoria ex triplicis progressionis consideratione delitescit, quarum prima in figura Lullii est plana, a BC ad IK, secunda perpendicularis, a BC, ad BK, tertia est transversalis, a BK ad IK. Sed ad faciliorem intellectum et nonnullam utilitatem progressum perpendicularem et transversalem mutamus in rectum atque planum, et istum in transversalem atque perpendicularem, ut in triplici sequenti coordinatione est manifestum, quarum</p></div2>
+
+<div2><head><hi rend="italic bold">De quarta figura. Cap. 10</hi></head>
+
+<p>Quarta figura, tribus constans circulis, tres praecedentes complectitur figuras, estque ad tabulae generalis constructionem ordinata, cuius ope peritus in arte solutiones et argumenta ad idem problema in innumerum multiplicare poterit.</p>
+<p>Praesens figura septem habet revolutiones, quibus deinceps septem domus constituuntur, quarum quidem prima constituitur, cum sub B circuli superioris immobilis ponitur C circuli medii et D circuli inferioris, causando septem cameras; secunda, cum sub B circuli superioris ponitur D circuli medii et E circuli interioris; tertia, cum sub B circuli superioris ponitur E circuli medii et F circuli interioris; quarta, cum sub B circuli superioris ponitur F circuli medii et G circuli inferioris; quinta, cum sub B circuli superioris ponitur G circuli medii et H interioris; sexta, cum sub B circuli superioris ponitur H circuli medii et I circuli inferioris; septima, cum sub B circuli superioris ponitur I circuli medii et K circuli interioris.</p>
+
+<p>Domus prima septem ordinibus constans habet 24 cameras.</p>
+
+<p>Domus secunda sex ordinibus constans habet 21. cameras.</p>
+
+<p>Secunda domus constituitur, cum fit revolutio duorum internorum circulorum <add>sub C</add> circuli immobilis, collocato primo sub eo D circuli medii et E circuli infimi; secundo E medii, F infimi; tertio F medii, G infimi; quarto G medii, H infimi; quinto H medii, I infimi; sexto I medii, K infimi.</p>
+
+<p>Domus tertia 5. ordinibus constans habet 15. cameras.</p>
+
+<p>Tertia domus constituitur revolutione duorum internorum circulorum sub D circuli immobilis, primo collocato sub eo E circuli medii et F infimi; secundo F medii, G infimi; tertio G medii, H infimi; quarto H medii, I infimi; quinto I medii, K infimi.</p>
+
+<p>Domus quarta quattuor ordinibus constans habet 10. cameras.</p>
+
+<p>Quarta domus fit revolutione duorum circulorum sub E circuli inmobilis, collocato primo sub eo F circuli medii et G inferioris; secundo G medii, H infimi; tertio H medii, I infimi; quarto I medii, K infimi.</p>
+
+<p>Domus quinta tribus constans ordinibus habet 6. cameras.</p>
+
+<p>Quinta domus fit, cum primo sub F circuli inmobilis collocatur G circuli medii et H infimi; secundo H medii, I infimi; tertio I medii, K infimi.</p>
+
+<p>Domus sexta duobus ordinibus constans et tribus cameris.</p>
+
+<p>Sexta domus fit primo sub G immobilis collocato H medii et I infimi; secundo I medii, K infimi.</p>
+
+<p>Domus septima unius camerae.</p>
+
+<p>Septima domus fit moto sub H circuli inmobilis I medii, K infimi.</p>
+
+<p>"Comp."</p>
+
+<p>Ex revolutione igitur circulorum quartae figurae resultant octo et viginti domus, quarum prima septem habet ordines et 24. cameras, secunda sex ordines, 21. cameras, tertia quinque ordines, cameras 15., quarta quattuor ordines, 10. cameras, quinta tres ordines, 6. cameras, sexta duos ordines, 3. cameras, septima unam cameram.</p></div2>
+
+<div2><head><hi rend="italic bold">De tabula magna. Cap. 11</hi></head>
+
+<p>Tabula magna octoginta quattuor columnis constat, iuxta totidem camerarum numerum, quae in 28. sunt ordinibus, qui sunt in septem domibus, a septem revolutionibus in quarta figura constitutis.</p>
+<p>Quaelibet autem columna ex 21. cylindris, et horum singuli quattuor constant membris. Unde quuaternarium ductum per 21. reddit 84. membra.</p>
+<p>Cylind. 21. sunt BCD. CBD. DBC. BBC. BBD. CCB. CCD. DDB. DDC. BCC. BDD. CBB. CDD. DBB. DCC. BCB. BDB. CBC. CDC. DBD. DCD.</p>
+<p>Singula cylindrorum quatruplici ipsius T situatione, quatuor membra sibi asciscunt; aut enim est ante elementum primum TBCD, aut post primum ante secundum BTCB, aut post secundum ante tertium BCTB, aut post tertium BCDT. Elementa ante T significant praedicata absoluta, elementa post T respectiva significant praedicata.</p>
+
+<p>BCD. "Columna". [BCD.]</p>
+<p rend="noindent">tbcd. diff. conc. cont.</p>
+<p rend="noindent">btcd. bon. conc. cont.</p>
+<p rend="noindent">bctd. bon. magn. cont.</p>
+<p rend="noindent">bcdt. bon. magn. dur.</p>
+<p>CBD.</p>
+<p rend="noindent">tcbd. conc. diff. cont.</p>
+<p rend="noindent">ctbd. magn. conc. cont.</p>
+<p rend="noindent">cbtd. magn. bon. cont.</p>
+<p rend="noindent">cbdt. magn. bon. dur.</p>
+<p>DBC</p>
+<p rend="noindent">tdbc. cont. diff. conc.</p>
+<p rend="noindent">dtbc. dur. diff. conc.</p>
+<p rend="noindent">dbtc. dur. bon. conc.</p>
+<p rend="noindent">dbct. dur. bon. magn.</p>
+<p>BCB.</p>
+<p rend="noindent">tbcb. *</p>
+<p rend="noindent">btcb. bon. conc. diff.</p>
+<p rend="noindent">bctb. bon. mag. diff.</p>
+<p rend="noindent">bcbt. *</p>
+<p>BDB.</p>
+<p rend="noindent">tbdb. *</p>
+<p rend="noindent">btdb. bon. cont. diff.</p>
+<p rend="noindent">bdtb. bon. dur. diff.</p>
+<p rend="noindent">bdbt. *</p>
+<p>CBC.</p>
+<p rend="noindent">tcbc. *</p>
+<p rend="noindent">ctbc. mag. diff. conc.</p>
+<p rend="noindent">cbtc. magn. bon. conc.</p>
+<p rend="noindent">cbct. *</p>
+<p>CDC.</p>
+<p rend="noindent">tcdc. *</p>
+<p rend="noindent">ctdc. magn. diff. conc.</p>
+<p rend="noindent">cdtc. magn. dur. conc.</p>
+<p rend="noindent">cdct. *</p>
+<p>DBD.</p>
+<p rend="noindent">tdbd. *</p>
+<p rend="noindent">dtbd. dur. diff. cont.</p>
+<p rend="noindent">dbtd. dur. bon. cont.</p>
+<p rend="noindent">dbdt. *</p>
+<p>DCD.</p>
+<p rend="noindent">tdcd. *</p>
+<p rend="noindent">dtcd. dur. conc. cont.</p>
+<p rend="noindent">dctd. dur. mag. cont.</p>
+<p rend="noindent">dcdt. *</p>
+<p>BBC.</p>
+<p rend="noindent">tbbc. *</p>
+<p rend="noindent">btbc. bon. diff. conc.</p>
+<p rend="noindent">bbtc. *</p>
+<p rend="noindent">bbct. *</p>
+<p>BBD.</p>
+<p rend="noindent">tbbd. *</p>
+<p rend="noindent">btbd. bon. diff. cont.</p>
+<p rend="noindent">bbtd. *</p>
+<p rend="noindent">bbdt. *</p>
+<p>CCB.</p>
+<p rend="noindent">tccb. *</p>
+<p rend="noindent">ctcb. magn. conc. diff.</p>
+<p rend="noindent">cctb. *</p>
+<p rend="noindent">ccbt. *</p>
+<p>CCD.</p>
+<p rend="noindent">tccd. *</p>
+<p rend="noindent">ctcd. magn. conc. cont.</p>
+<p rend="noindent">cctd. *</p>
+<p rend="noindent">ccdt. *</p>
+<p>DDB.</p>
+<p rend="noindent">tddb. *</p>
+<p rend="noindent">dtdb. dur. cont. diff.</p>
+<p rend="noindent">ddtb. *</p>
+<p rend="noindent">ddbt. *</p>
+<p>DDC.</p>
+<p rend="noindent">tddc. *</p>
+<p rend="noindent">dtdc. dur. cont. conc.</p>
+<p rend="noindent">ddtc. *</p>
+<p rend="noindent">ddct. *</p>
+<p>BCC.</p>
+<p rend="noindent">tbcc. *</p>
+<p rend="noindent">btcc. *</p>
+<p rend="noindent">bctc. bon. magn. conc.</p>
+<p rend="noindent">bcct. *</p>
+<p>BDD.</p>
+<p rend="noindent">tbdd. *</p>
+<p rend="noindent">btdd. *</p>
+<p rend="noindent">bdtd. bon. dur. cont.</p>
+<p rend="noindent">bddt. *</p>
+<p>CBB.</p>
+<p rend="noindent">tcbb. *</p>
+<p rend="noindent">ctbb. *</p>
+<p rend="noindent">cbtb. magn. bon. cont.</p>
+<p rend="noindent">cbbt. *</p>
+<p>CDD.</p>
+<p rend="noindent">tcdd. *</p>
+<p rend="noindent">ctdd. *</p>
+<p rend="noindent">cdtd. magn. dur. cont.</p>
+<p rend="noindent">cddt. *</p>
+<p>DBB.</p>
+<p rend="noindent">tdbb. *</p>
+<p rend="noindent">dtbb. *</p>
+<p rend="noindent">dbtb. dur. bon. diff.</p>
+<p rend="noindent">dbbt.</p>
+<p>DCC.</p>
+<p rend="noindent">tdcc. *</p>
+<p rend="noindent">dtcc. *</p>
+<p rend="noindent">dctc. dur. magn. conc.</p>
+<p rend="noindent">dcct. *</p>
+
+
+<p>De utilibus et inutilibus combinationibus.</p>
+
+<p>De septem igitur, quae habentur, istius columnae membrorum duodenariis, tria duntaxat extant utilia; ratio cuius est inde manifesta, quia frustra eiusdem praedicati signum geminatur in ipsis, quae per stellarum adiectionem sunt in columna denotata. Duodenarium primum de tribus primis cylindris extrahitur, secundum de sex sequentibus secundis, tertium de duodecim tertiis et ultimis.</p>
+<p>Haec columna 84. membrorum, cuius 36. diximus esse utilia, foecundior est quam columna Lulliana, quae 20. tantum constat membris in unico cylindro. Accidit autem nobis eam ditasse per eam rationem, qua Raymundus potuit omisisse caetera membra, quia inutilem eiusdem fieri videbat repetitionem, quandoquidem dicere BCD, id est bonitas magna durans, et dicere CBD, id est magna bonitas durans, idem est. Nos vero Raymundi ordinem et sufficientiam non improbamus, et fatemur in suo vigenario omnia tandem contineri quidem, sed caeca et ipsi Lullio fortasse etiam occulta vel minus considerata. Postquam igitur combinationes, quae ex quatuor istis elementis et ordinatis fieri possunt, extendimus, quaeque ex iis omnibus frugales extent patefactum est, discurratur columna sumendo primum elementum substantive, duo reliqua adiective, dicendo: bonitas magna durans, quae significatur in BCD. Nonne utillima et etiam pro ratione complementi discursus necessaria eorumdem elementorum alia ordin
+ atio fiet, dicendo: magnitudo bona durans, cuius signum est CBD? Non est sane eiusdem repetitio. Similiter unquam non erit eiusdem repetitio, si certa quadam lege disponantur termini tres per adiectivum et substantivum, rectum et obliquum, ut ea lege se habeat unum membrum, qua aliud; vel si omnia membra pariformiter capiantur, numquam eiusdem fiet repetitio, et non incidemus in necessarii omissionem, sicut cum posito BCD contemnitur CBD.</p>
+
+<p>Numerus legum.</p>
+
+<p>Leges vero, quibus uniformiter discurritur columna, sunt octo, quarum una est sumpto primo termino adiective, reliquis duobus substantive, 2. alia est sumpto primo termino substantive, duobus aliis adiective, 3. alia sumpto primo et secundo termino adiective, tertio substantive, 4. alia sumpto primo et secundo termino substantive, tertio adiective, 5. alia sumpto primo et tertio adiective, secundo substantive, <add>6.</add> alia sumpto primo et tertio substantive, secundo adiective, 7. alia sumptis omnibus adiective, 8. alia sumptis omnibus substantive.</p>
+
+<p>Multiplicatio legum.</p>
+
+<p>Praepositae octo leges, per variam obliqui et recti, abstracti concretique distributionem, utilissimas 38. propositionum considerationes, quibus subiectum problema potest examinari, constituunt</p>
+<p>Stante enim primo termino adiective, secundo et tertio substantive, dicitur:</p>
+
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonum magnitudinis durationis.</p>
+<p rend="no indent">Boni magnitudo durationis.</p>
+<p rend="no indent">Boni magnitudinis duratio.</p>
+
+<p>Primo substantive, secundo et tertio adiective:</p>
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonitas magna durans.</p>
+<p rend="no indent">Bonitas magni durantis.</p>
+<p rend="no indent">Bonitas magno durans.</p>
+<p rend="no indent">Bonitas magna durantis.</p>
+<p rend="no indent">Bonitatis magnum durans.</p>
+<p rend="no indent">Bonitatis magnae durans.</p>
+
+<p>Primo et secundo adiective, tertio substantive:</p>
+<p>BCDT</p>
+<p rend="no indent">Bonum magnum duratione, i. per duration.</p>
+<p rend="no indent">Bonum magnum durationis.</p>
+<p rend="no indent">Bonum magnae durationis.</p>
+<p rend="no indent">Boni magna duratio.</p>
+<p rend="no indent">Boni magni duratio.</p>
+
+
+<p>Primo et secundo substantive, tertio adiective:</p>
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonitas magnitudinis durans.</p>
+<p rend="no indent">Bonitas magnitudinis durantis, i. quae durat.</p>
+<p rend="no indent">Bonitas magnitudinis durantis, i. eius quod durat.</p>
+<p rend="no indent">Bonitatis magnitudo durans.</p>
+<p rend="no indent">Bonitatis magnitudinis durans,</p>
+<p rend="no indent">id est de bonitate magnitudinis id quod durat.</p>
+
+<p>Primo et tertio adiective, secundo substantive:</p>
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonum magnitudinis durans.</p>
+<p rend="no indent">Bonum magnitudinis durantis, i. quae durat.</p>
+<p rend="no indent">Bonum magnitudinis durantis, i. eius quod durat.</p>
+<p rend="no indent">Boni magnitudinis durans, id est de</p>
+<p rend="no indent">bono magnitudinis id quod durat.</p>
+<p rend="no indent">Boni magnitudo durans.</p>
+
+<p>Primo et tertio substantive, secundo adiective:</p>
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonitas magna duratione, i. per durationem.</p>
+<p rend="no indent">Bonitas magna durationis.</p>
+<p rend="no indent">Bonitas magnae durationis.</p>
+<p rend="no indent">Bonitatis magna duratio.</p>
+<p rend="no indent">Bonitatis magnae duratio.</p>
+
+<p>Omnibus adiective sumptis:</p>
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonum magnum durans.</p>
+<p rend="no indent">Bonum magnum durantis.</p>
+<p rend="no indent">Bonum magni durans.</p>
+<p rend="no indent">Bonum magni durantis.</p>
+<p rend="no indent">Boni magnum durans.</p>
+<p rend="no indent">Boni magni durans.</p>
+
+<p>Omnibus substantive sumptis:</p>
+<p rend="no indent">BCDT</p>
+<p rend="no indent">Bonitas magnitudinis durationis.</p>
+<p rend="no indent">Bonitatis magnitudo durationis.</p>
+<p rend="no indent">Bonitatis magnitudinis duratio.</p>
+
+
+<p>INDUCTIO.</p>
+<p>Hoc quod completum est in BCDT, quod est unum membrum primi cylindri huius columnae, intelligatur completum in BCTD, BTCD, TBCD, quae sunt reliqua eiusdem cylindri membra. Identidem fiat in aliis cylindrorum membris, tum columnae istius, tum aliarum omnium.</p>
+
+<p>Multiplex terminorum acceptio.</p>
+
+<p>Nec te praetereat, [in] quod terminus primus, hoc in loco i. in columna ista per B significatus, aliquando sumitur secundum se, ut cum quaestio est de bonitate; quandoque sumiter cum alio incomplexe sumpto, ut cum quaestio est de bonitate mundi, de bono naturae, de bono summo; aliquando sumitur cum alio complexe sumpto, ut cum quaestio est de bonitate aeternitatis mundi. Omnis enim quaestio de subiecto aliquo aut sumitur sine aliquo quod verbo adiaceat, ut: an, quid, de quo, quare etc. mundus est? aut sumitur cum uno adiacente, ut: an, quid, de quo etc. mundus est aeternus? aut sumitur cum duobus vel pluribus adiacentibus, ut: an, quid, quomodo, bonum est mundum esse in aeterna concordantia et differentia? etc. De aliis aliorum membrorum primis terminis idem est iudicium. Item sicut ipsum B, quod ponitur pro subiecto, tripliciter sumi posse dicitur; ita tripliciter posse sumi caeteros terminos (ut in hoc loco CD) intelligatur. Ipsum vero in uno demonstrasse sufficit.</p>
+<p>Hoc pacto confusam, obscuram et imperfectam tabulam distinximus, clarificavimus et perfecimus. Ipsam pauperiorem atque nugacem ditavimus, frugalemque reddidimus. Id sane illis inventis Lullianis addidisse non potuit omnibus esse facile, sed iis qui meliores experti sunt etiam eiusdem generis inventiones.</p></div2>
+
+<div2><head><hi rend="italic bold">De memoria tabulae. Cap. 12</hi></head>
+
+<p>Tabula per nos ordinata atque adaucta suum habet, qui te (si recte inspicias) non praeterire possit, ordinem. Primo in quartae figurae septem revolutionibus sub septem elementis rotae inmobilis BCDEFGH, quarum prima septem, secunda sex, tertia quinque, quarta quattuor, quinta tribus, sexta duobus, septima uno constat ordine. Qui 28. ordines cameras 84. continent, ex quibus columnae 84. extrahuntur, quarum singulas 21. cylindris constare vidimus, quorum singuli, quatuor continentes membra, 84. membris columnam constitutam reddunt, quorum 36. tantum utilia comperiuntur. Per quem quidem numerum si deducatur 38narius, qui pendet ex octo legibus, quibus octo modis uniformiter columnam discurrimus, per variam obliqui et recti, adiectivi et substantivi, concreti et abstracti distributionem, mirum in modum propositionum inventivarum numerus augebitur. Huius ultimi 38narii si quis 19rium habeat primum, facile ad 38rii complementum 19narium habebit secundum; bonitas enim et bonum si
+ milem eumdemque habent inflexionis modum.</p></div2>
+
+<div2><head><hi rend="italic bold">De quaestionibus. Cap. 13</hi></head>
+
+<p>Quaestiones decem (ad quas caeteras omnes vult reduci Lullius) enumeratae sunt, easdemque novem elementis significatas donavimus. Ipsas ea ratione se regulas appellare dicit Lullius, quia, quemadmodum omnia vocabula quinque declinationum regulis ambiuntur, ita modo suo in istis decem quaestiones omnes includuntur. Ipsae sunt quae omnia lustrant, illuminant et colorant, si omnem quaestionis trutinam considerabile debeat subire. Quarum quidem quattuor naturaliter sunt substantiales: B utrum, C quid, D de quo, E quare; septem accidentales: F quantum, G quale, H quando, I ubi, K quomodo et cum quo.</p></div2></div1>
+
+<div1><head><hi rend="bold">SECTIO TERTIA</hi></head>
+<head>DE EXTENSIONE ET MULTIPLICATIONE.</head>
+
+<div2><head><hi rend="italic bold">De ext. et mult. subiect. Cap. I</hi></head>
+
+<p>Amplificatione et multiplicatione terminorum adiuvatur ars, quam quidem primo in subiectis novem delineabimus, deinde in caeteris, quae suo ordine sequuntur.</p>
+
+<p>De primo subiecto. B.</p>
+
+<p>Primum subiectum est Deus, in quo contemplationis emensio et conceptionum multiplicatio primo fit penes substantiam et essentiam eius et absolutum esse, secundo penes eius relationes, dignitates et proprietates.</p>
+<p>Quod ad substantiam attinet, primo considerantur ab ea removenda, i. corpus, compositio materiae et formae, quidditatis et essentiae, seu naturae et subiecti, essentiae et esse, generis et differentiae, subiecti et accidentis, subiecti et subiecti; secundo considerantur per excellentiam tribuenda, simpliciter perfectio, omnium perfectionum eminentissima continentia, simplex bonum, summum bonum, per essentiam bonum, quo omnia sunt bona, unum, infinitum per essentiam et magnitudinem, inmutabile, aeternum, veritas, vita. Quod ad relationes attinet (iis omnibus, quae contra omne ratiocinium, philosophiam, aliam fidem et credulitatem solis Christicolis sunt revelata, et demonstrationem nullam habentia fidem tantum admittunt, quidquid Lullius delirando etiam contra magnorum theologorum sententiam tentarit), veritatem, vitam, amorem, ideam, cognitionem, potentiam, creationem, providentiam, conservationem, [amorem,] iustitiam, misericordiam, beatificationem et caetera, quibus ea,
+ quae sunt extra divinam substantiam, respiciuntur. Quae omnia Iudaei Cabalistae ad decem Sephiroth, et nos ad triginta, haud quidem illis addentes sed easdem explicantes, redegimus indumenta. Quod ad dignitates et proprietates spectat, colunt Hebraei nomen, quod divinae substantiae proprius appellant, quod est tetragram. 'Iehova'. Deinde explicatum in quattuor nomina ad eius effectus et proprietates in quattuor triplicis mundi cardinibus; subinde in duodecim pro ternario in cardinum singulis significato in duodecim portis civitatis, ad orientem tribus, ad meridiem tribus, ad occidentem tribus, ad aquilonem tribus; proinde in aliis numeris successive in infinitum, sutordinando nunc quidem quaternariis ternaria, nunc vero ternariis duodenaria. Sed hoc ipsi, qui videre volunt, viderint; nobis haec hactenus indicasse sufficit.</p>
+<p>Omnia quae de Deo dicuntur aut secundum rectum aut secundum obliquum, cum eadem quae Deus praedicata recipiant et pro Deo supponant, immensam tibi suppeditant considerationis materiam; cum primum praedicatum quod est bonum, et ea praedicata quae ad bonum reducuntur, item et caetera omnia praedicata, cum iis quae ad eadem reducuntur ut species, aequivalentia, partes et modi, de Deo et iis omnibus, quae Deus dicuntur et ad Deum pertinent atque reducuntur, facias praedicari, nec non secundum talem praedicationem tibi considerata contemplentur. Extenditur etiam recipiendo praedicationes (iuxta suum modum) ab omnibus sequentibus subiectis et iis quae pertinent ad illa, quorum omnium est prima causa.</p>
+
+<p>De secundo subiecto. C.</p>
+
+<p>Secundum subiectum est Angelus seu Daemon seu Dii, in quo fit contemplationis emensio et conceptionum multiplicatio, primo penes consideranda de eorum substantia, secundo penes eorum potentias seu facultates agendi et operandi.</p>
+<p>Quod ad primum attinet, [et] considerantur penes eorum distributionem in genera, quae Babylonicis, Magis, Pythagoricis et Cabalistis et sacerdotibus antiquae legis, Graecorum et Romanorum et aliarum gentium *** sequuntur rerum genera, quibus adsunt atque praesunt formatores, motores et servatores, tanquam intelligibilis mundi membra, quibus istius sensibilis mundi membra correspondeant. Quibusdam vero Christicolis, quorum quidam minus Platonici e Platonica schola prodierunt, tres extant hierarchiae, quarum singulae in tres satis vulgatos distribuuntur ordines, quatenus primo ternario ter trinum adstet, plaudat ministretque ternarium.</p>
+<p>Quod ad secundum attinet, a nostris theologis comparantur ad corpora, quibus uniantur, quae adsumant et quibus adsumptis exerceant velut opera vitae, et in quibus definitive locantur. Item considerantur quantum ad eorum intelligendi et appetendi modum, in quibus omnibus extenditur subiectum C per omnia deducendum praedicata. Extenditur quoque praesens subiectum per sequentia, in quibus habet imperium.</p>
+
+<p>De tertio subiecto. D.</p>
+
+<p>Tertium subiectum, quod est Caelum, primo extendit et multiplicat considerationem atque conceptus penes eius naturam et substantiam, de qua multa fingit Aristoteles et vulgaris philosophia; secundo penes eius magnitudinem et partium ipsius molem, numerum et species et nomina, de quibus est cosmographia in genere; tertio penes eius motus, discursus, tempora, successiones et leges in exagitatione partium ipsius, de quibus est theoria quaedam, quam peculiari vocabulo astronomiam appellant, ad quam etiam spectare, videntur ea, quae sunt ad eiusdem cognitionem isagogica, partium eius figurae, ut orbes, sphaerae, hemisphaeria, quadrantes, climata, zonae, imagines, signa, astra, stellae, nec non partium termini, puncti, centra, apogia, perigia, verticalia et iis opposita et congenea, circuli, zonae, axes, diametri, anguli, superficies; quarto penes eius potentias et influxus, qui ab erroneis et fixis et eorum coniunctionibus, oppositionibus aliisque aspectibus producuntur, de qui
+ bus ea mathematicae pars, quam astrologiam proprie dicunt. Collectio terminorum subiecti praesentis, secundum singulas considerationis species, per caetera principia sigillatim ducta, infinitam nugarum copiam subministrat. Et extenditur praesens subiectum per ea quae sequuntur, in quibus omnibus influit et ad quae quomodocunque se habet. Item per antecedentia subiecta, a quibus est productum atque motum, et quibus ut physicum archetypo respondet.</p>
+
+<p>De quarto subiecto. E.</p>
+
+<p>Quartum subiectum, quod est Homo medium substantiarum, extendit et multiplicat contemplationem et conceptus, primo penes animae essentiam, potentias et operationes, in quibus consideratur tum quantum ad proprium essendi modum, tum etiam quantum ad communionem praedicatorum omnium, proprietatum, partium et specierum rationumque omnium, quae superiora subiecta recipiunt, unde omnia, quae pertinent ad Deum, Angelum et Caelum, modo suo ad Hominem pertinent; secundo penes corporis essentias, potentias et operationes, in quibus consideratur tum quantum ad proprium essendi modum, tum etiam quantum ad communionem, quam habet cum inferioribus subiectis in partibus et proprietatibus, principiis inquam et passionibus omnibus. Quae cuncta si discurrant circumferentiam praedicatorum, consider. aeternam materiam suppeditarent.</p>
+
+<p>De quinto subiecto. F.</p>
+
+<p>Quintum subiectum, quod est Imaginativum, [quod] inter Hominem et Sensitivum a Lullio collocatur. Inter Hominem enim et alia imperfecta animantium, in quibus Imaginativum non delitescit, cuiusmodi sunt vermes et muscae et concharum nonnullae, sunt in quibus modica et prope nulla apparens est ab hominibus differentia, de quibus cum negetur Intellectivum, conceditur Imaginativum. Quod quidem subiectum imaginatur et in superioribus subiectis et in inferioribus, et extenditur hoc subiectum per superiora tanquam per causas, principia et obiecta, et per inferiora tanquam eius fundamenta, subiecta, item et obiecta. A subiecto isto multiplex ratio multiplicis artis memorativae, quam invenimus, dependet.</p>
+
+<p>De sexto subiecto. G.</p>
+
+<p>Sextum subiectum, quod est Sensitivum, dilatatur per proprias sensus species et differentias, obiecta, media et organa. Item per eius subiecta, quae sunt sensatum, vegetale, elementale et instrumentale. Huic subiecto conducit Caelum, Homo, Imaginativum, quae sunt superiora, ut principia formalia, efficientia et finalia media, subiectum primum ut efficiens primum et finale ultimum. Sensitivum ita ditatum, positum in centro circuli, si discurrat circumferentiam terminorum istius artis, innumeras tibi pariet intentiones.</p>
+
+<p>De septimo subiecto. H.</p>
+
+<p>Subiectum septimum, quod est Vegetativum, elementale tanquam eius stipitem et fundamentum complectitur; dispositionem enim elementi sequitur dispositio Vegetativi, sicut huius dispositionem dispositio Sensitivi, illam Imaginativi, illam actualiter Intellectivi. Ideo ratio subiecti superioris includit subiecti inferioris rationem vel ut compositum, vel ut informatum, vel ut participans, vel ut participatum, vel ut agens, vel ut subiectum quoddam est. Huius subiecti essentia vitalibus innititur potentiis, puta appetitivae, attractivae, retentivae, digestivae, expulsivae et similis productivae. Haec omnia atque singula ad circumferentiam quaestionum et praedicatorum, et quae consequuntur ea, pro rerum copia referantur.</p>
+
+<p>De octavo subiecto. I.</p>
+
+<p>Octavum subiectum, quod est Elementativum, complectitur Instrumentativum naturale, quod omnia lustrat, tangit et penetrat. Et hoc subiectum consideretur penes essentiam et ipsam consequentes facultates et actus. Hoc aliis fingitur quadruplex, aliis duplex, aliis in infinitum multiplex, melius autem intelligentibus simplex. Tale est apud Lullium, qui ipsum appellat Chaos, cuius compositio est ex prima materia eidemque proxima forma. Hoc Chaos implere sentit spacium, quod est sub luna diffusum, cuius proximae partes sunt 4. elementa pura, quasi rami in stipite nondum e stipite prodeuntes, unde postea quattuor sensibiles rami, haec scilicet quattuor, quae sensum afficiunt, elementa prodeunt. Horum considerando essentiam, esse, differentias, species, virtutes, actus et circumstantias, de centro circuli praedicationum, non mediocrem habebimus materiam contemplandi.</p>
+
+<p>De nono subiecto. K.</p>
+
+<p>Nonum subiectum, quod est Instrumentativum, duplex est, naturale videlicet et morale. Primum complectitur novem accidentium genera, ut reliqua omnia entia praeter octo praedicta (quae sunt in genere substantiae) comprehendantur. Instrumentale ergo subiectum sunt quantitas, qualitas, relatio et reliqua, cum suis speciebus, differentiis et propriis et communitatibus, de quibus partim logicus, partim metaphysicus. Quod quidem subiectum, licet omnium sit infimum, habet tamen excellentiam, qua omnia modo suo metiri valet; primum enim etiam subiectum habet suam magnitudinem, numerum quem faciat, activitatem, passionem quam inferat, locum supra locum, tempus supra tempus, habere supra habere, et caetera, saltem translative sumpta. Secundum amplectitur omnia quae sunt infra latitudinem iuris naturalis, quod est commune omni animantium generi, excludens inanimata; iuris gentium, quod est commune omnibus hominibus, exclusis irrationalibus; iuris civilis ethici, quod omnibus certis s
+ tatutis viventibus nationibus, exclusis iis qui libidine aguntur et agunt; iuris civilis politici, quod omnibus non barbaris nationibus est commune, singulis tamen iuxta suas conditiones aptatum, exclusis barbaris, qui etiamsi politiam alchymicam iactent, illa tamen carent quae vera est; iuris oeconomici, quod familiis pro sua ratione gubernandis est accommodatum, exclusis ignobilibus, vilibus, cauponis, vectoribus et servis aliis communibus et inertibus sine facultatibus et substantia. Instrumentativum rationale reducitur ad Hominem et Imaginativum, et non est subiectum peculiare huius artis per se. Duplex ergo propositum Instrumentativum, in centro rotae collocatum, fertilissimum reddit considerationis actum.</p>
+<p>Hic illud non est silentio praetereundum, quod respectu subiecti superioris, omnia inferiora subiecia ut Instrumentativum se habere possunt. Tu ipse super hoc considerato.</p></div2>
+
+<div2><head><hi rend="italic bold">De amplificatione et multip. figurae primae. Cap. II</hi></head>
+
+<p>Bonitas, magnitudo, duratio et reliqua de omnibus subiectis generaliter, specialiter et particulariter dicuntur affirmative vel negative; formata quoque per triangulos et angulos secundae figurae, et informia.</p>
+<p>Bonitas quoque, magnitudo et reliqua in arte ista, nec accidentalia sunt, neque substantialia; atqui supra substantiam et accidens constituta de utrisque dicuntur modo suo.</p>
+<p>Ad haec praedicata secundum Lullium omnia absoluta praedicata reducuntur affirmative vel negative, iuxta unum vel alium modum; quae si quis in ordinem digerere velit, ad horum atria ab invicem distincta reducendo digerat. In omnibus autem praedicationibus gradus scalae intellectus in memoriam revocentur, specialissimi videlicet, subalterni et generalissimi, tanquam supremi, medii et infimi, qui sunt de altitudine ipsius; item horum differentiae, proprietates et peculiares rationes appropriabiles, essentiam consequentes, quae scalae latitudinem constituunt. Quae quidem nunc quidem simpliciter accipiantur, nunc vero ad invicem et cum aliis complexe, nunc dicendo 'differentia, principium, contrarium'; nunc dicendo 'differentia contrarians, differentia principalis, principium concordans', etc. Imo et cum subiectis ipsis complecti possunt: bonitas divina, angelica, caelestis, humana et infra.</p></div2>
+
+<div2><head><hi rend="italic bold">De amplific. et numer. secundae figurae. Cap. III</hi></head>
+
+<p>Suam amplitudinem figura secunda in sua descriptione et typo patefecit. Unumquodque enim principiorum tribus se differentiis examinandum proponit. Si quippe animae differentia consideranda occurrat, spectanda est quae inter ipsam et sensibile est, inter ipsam et intelligibile, ut in angulo differentiae significatur. Idem de caeteris angulis esto iudicium. Quae differentia subinde formatur per alios figurae istius angulos, puta maioritatem, minoritatem, principium, medium et finem, una cum speciebus atque modis qui in angulorum scalis indicantur. Formatur quoque differentia per primae figurae absoluta praedicata, sumendo differentiam animae ab aliis secundum bonitatem, magnitudinem, durationem et reliqua. Similiter de concordantia, maioritate; similiter et de speciebus et modis istorum, cum generibus illis, speciebus et modis eorum. Quae cuncta ni fiant affirmative, fiant negative, secundum omnem negationis modum tentando.</p></div2>
+
+<div2><head><hi rend="italic bold">De amplificatione per tertiam figuram. Cap. IV</hi></head>
+
+<p>Primae atque secundae figurae amplitudinem tertia figura complectitur, et elementa huius figurae significant quod in alphabeto, in subiectis, in duobus praecedentibus figuris et quaestionibus est implicitum et explicitum. In B enim huius figurae significatur Deus primum subiectum, Bonum primum praedicatum absolutum, Differentia primum respectivum, Iustitia prima virtutum et Avaritia prima vitiorum, Utrum prima quaestionum. Simile iudicium de CDEFGHIK. Habent ergo singula elementorum istius figurae significata septem, et singula quadratorum quatuordecim complectuntur significata. In primo igitur quadrato, quod est BC, includuntur plura quaesita et problemata contemplanda et intentanda et ad quodcumque trahenda propositum; primo per duos terminos, quorum alter est quaestio, alter est praedicatum absolutum: 'utrum sit bonitas, quid sit bonitas', vel alterum est praedicatum respectivum: 'utrum sit differentia, quid sit differentia', et tangendo angulorum scalas: 'utrum sit dif
+ ferentia inter sensibile et intelligibile, et quid sit et quae sit ea differentia'. Secundo per tres terminos, cum dicitur: 'differentia magna bonitatis, concordantia bona divinitatis'. Tertio per quattuor terminos: 'utrum sit magna bonitas Dei, quid sit magna bonitas angeli'. Quarto per quinque terminos: 'utrum sit magna bonitas iustitiae angeli? quid est angelum esse iustum in magna bonitate?' Quinto per sex terminos: 'quid est angeli iustitiam esse in magna bonitate concordante?', Sexto per septem terminos: 'quid est angeli iustitiam non esse in magna bonitate concordante cum bonitate Dei?', Septimo per octo terminos vel plures, dicendo: 'quid angelica iustitia in magna differentia cum bonitate Dei, et concordantia cum bonitate hominis?' Qui modi, permultas recipiendo inflexiones et praedicandi modos per abstractum et concretum, obliquum et rectum, quos referre longum et taediosum est (licet umquam bene consideranti non possit esse vanum), in innumerum valent multiplicari
+ .</p>
+<p>Nec praetermittendum censeo simplicem modum multiplicationis, quem Lullius tertiae figurae evacuationem appellat, in camera BC eius evacuationis modum ostendens; primo 12. propositiones per ordinem constituens BC: 'bonitas est magna, bonitas est differens, bonitas est concordans, magnitudo est bona, magnitudo est differens, magnitudo est concordans, differentia est bona, differentia est magna, differentia est concordans, concordantia est bona, concordantia est magna, concordantia est differens'; secundo 24. quaestiones per ordinem deducendo istas propositiones per Utrum et Quid: 'utrum bonitas est magna, quid est bonitas magna', et ita de aliis; tertio afferendo definitiones terminorum, quae possunt esse media ad argumentum; quarto adferendo "ivum", "abile" et "are" quae sunt signa potentiae activae, passivae et actionis, quae pariter possunt esse media ad argumentandum (bonitas enim probatur de subiecto per bonificat"ivum" esse, bonific"abile" esse et bonific"are"); quint
+ o examinando per species quaestionum BC et ipsarum modos.</p></div2>
+
+<div2><head><hi rend="italic bold">De amplificatione per quartam figuram. Cap. V</hi></head>
+
+<p>Quartae figurae amplitudo maxima supra ostensa est in numero revolutionum, domorum, ordinum, camerarum, columnarum, cylindrorum, membrorum, legum, aliarum figurarum amplitudine, nec non subiectorum atque quaestionum.</p>
+<p>Ibi est manifestum, quomodo mediorum multiplicatio et inventio fiat in circulo mediocri, successive referendo elementa ipsius ad subiectum et praedicatum significatum per elementa aliorum.</p>
+<p>Item multae subiecti rationes atque praedicati possunt esse causa ad inferendum praedicatum de subiecto in conclusione. Quod enim mundus sit aeternus, demonstratur a philosopho per rationes mundi, quae non excludunt aeternitatem, per rationem aeternitatis, quae non abhorret mundi adiacentiam, item ex ratione boni mundi, magnitudinis mundi, item ratione boni aeternitatis, magnitudinis et caeterorum, item per observantiam partium et modum circumstantiarum, quibus omnia multiplicari ostendimus, adeo ut omnia in omnibus cum Anaxagora liceat contemplari; et non inconvenit, immo necessarium est, virtute quadam in infinitis (ut in numeris) infinita infinities implicari, quamvis idem quandoque factum iri credere stultum sit.</p></div2>
+
+<div2><head><hi rend="italic bold">De amplificatione, multiplicatione et ordine quaestionum. Cap. VI</hi></head>
+
+<p>Ratio dilatandarum quaestionum est non contrahendo ipsas ad certum facultatis modum, sed (cum ipsae ad omnia respicere modo suo debeant) iuxta adeo amplissimam acceptionem eas intelligendo, ut ad omnia et singula pro sui exigentia valeant inclinari. Hinc</p>
+
+<p>B. De quaestionis 'Utrum', amplificatione et multiplicatione.</p>
+
+<p>Quaestio 'Utrum' dilatatur et multiplicatur per assertivum, affirmativum, dubitativum et negativum; probabile, apparens, demonstrativum; creditum, ratiocinatum, intellectum. Item refertur ad omnes quaestiones de esse et essentia, et ad eas reducibiles.</p>
+<p>Dilatatur 'Utrum' sicut et aliae quaestiones dilatandae proponuntur, sumendo ipsum amplius quam apud theologos sumi consuevit. Quaerit enim philosophus an Deus sit et similia, de quibus quidem nil prorsus debet dubitare theologus, ut notat Raymundus in sua "Rhetorica". Haec enim quaestio 'Utrum' fuit in causa, ut Moses non intraret terram promissionis; punivit enim Deus illum ob eam causam, quia petram percutiendo dixit: 'estne Deus an non?'</p>
+
+<p>C. De amplificatione et mult. quaestionis 'Quid'.</p>
+
+<p>Quaestio 'Quid' dilatatur, ut sit communis demonstrativo et persuasivo. Non solum per propria rei respondet, sed et per periphrases, metaphoricas translativasque definitiones atque descriptiones per universum. Unde quaerenti 'quid est senectus?' respondetur 'portus malorum', 'quid est pulcherrimam habere uxorem?' 'compedes aureas habere', 'quid sol?' 'oculus mundi'. Dilatatur 'Quid', tentando omnem definiendi modum ex nomine, ex re, ex modo concipiendi et ex modo essendi; item per quid est in se et quid est in alio, quid habet in se et quid habet in alio.</p>
+
+<p><add>D.</add> De amplificatione et mult. quaestionis 'De quo'.</p>
+
+<p>Quaestio 'De quo' extenditur ad significanda principia essentialia, originalia, intrinseca, extrinseca, efficientia, materialia, primitiva, habita seu positiva; terminum 'a quo' et alios terminos quos iste supponit, compositionem omnem seu naturalem seu rationalem seu imaginariam complectitur. Possessiva tandem principia secundum comunem acceptionem, ut et quaestio 'cuius sit, ad quem pertineat et cuius intersit', referantur ad quaestionem 'De quo'.</p>
+
+<p>E. De amplificatione et multiplic. quaestionis 'Quare'.</p>
+
+<p>Quaestio 'Quare' per omnes amplificatur causas (licet Ray. Lull. excludat materialem, quae tamen quodammodo sumpta atque considerata habet quid efficientiae ad mutationem et ea quae mutationem consequuntur), quarum aliae sunt determinatae, aliae indeterminatae in efficiendo, aliae naturales, aliae voluntariae, aliae per se, aliae per accidens. Hinc 'quare aliquid sit', sumitur primo ex ratione efficientis Dei, fati, quod est significans eiusdem immutabile statutum, fortunae, quae significat incertam raramque causam circa ea quae per electionem agunt, et casus, cui cuncta composita subesse possunt naturalia. Secundo ex ratione efficientis naturae, sive per principia aequivoca, utpote per naturalia superiora, dum per coelum et astra generat, producit et movet inferna; sive per principia univoca, utpote per naturalia inferiora, dam simile generatur et producitur a simili et eodem in genere vel specie; sive intrinsece per rei formam, quae rationem efficientis interius admittit
+ , quae quidem alio pacto considerata, utpote ut pars rei, materiam ad certam speciem limitans, distinctum ab efficiente causae genus est. Tertio ratione efficientis voluntatis, quae distinguitur in animalem, quae duplex est (rationalis et irrationalis), et naturalem, quae verificatur in materia prima et subiecto composito respectu formae proximae et infimae, item remotae et superioris. Quarto ex ratione finis, qui distinguitur in medium et ultimum, organum et opus, directe intentum et indirecte; qui sex modi intimius consideranti sunt diversi.</p>
+
+<p>F. De amplificatione et multipl. quaestionis 'Quantum'.</p>
+
+<p>Quaestio 'Quantum' extenditur ad significandum geometrice et arithmetice, et hactenus indefinitum tertiae istis congeneae mathematicae speciei modum, utpote secundum magnitudinem, multitudinem et momentum, quae sunt mensura, numerus et pondus; item secundum omnem modum, quo aliquid potest habere rationem, similitudinem et modum mensurati, numerati et ponderati; sive quomodolibet determinatum sit sive indeterminatum, sive finitum sit sive infinitum; idque sive penes essentiam sive penes esse, sive penes potentiam sive penes posse, respectu cuiuscumque quod est ens, et de quo dici possit esse vel imaginari; quandoquidem omne quod est eiusmodi, habet suum momentum, et (ut proprius, licet etiam barbarius dicam) suam importantiam, quae per 'quantum sit' inquiri consuevit; et haec magnitudo amplior est quam quae virtualis dicitur, cum ipsam substantiae nobilitatem substantialem (ne dicam ipsam substantiam nobilem) metiri velle videatur ipsamque mensuratam adducere.</p>
+
+<p>G. De amplificatione et multiplicatione quaestionis 'Quale'.</p>
+
+<p>Quaestio 'Quale' amplificatur tum per ea quae ad praedicamentum logice spectant et metaphysice, tum et per rationem longe magis communem, complectentem et propria accidentia, quae naturam rei consequuntur, et differentias et appropriata, quae subsequuntur; omnia item adventitia, quaecunque utcunque rem qualificando atque talificando, talem qualemque denominare possunt.</p>
+
+<p>H. De amplificatione et multiplicatione quaestionis 'Quando'.</p>
+
+<p>Quaestio 'Quando' amplificatur per differentias temporis, quod est species quantitatis continuae, et per differentias, species, proprietates et modos atque communitates categoriae ab aliis novem distinctae, quae proprie 'Quando' dicitur; item per modum superiorem, quam sit categoria, et plus quam transcendentem, quo credentes quaerunt 'quando Deus creavit cum caelo tempus?' et sibi respondent 'in principio'. Quod principium nec tempus est, nec pars temporis, neque terminus, etiam secundum ipsos, nec esse intelligitur in praedicamento 'quando', neque ut quippiam, quod per caetera evagetur praedicamenta, accipitur. Non est praeteritum, nec futurum, nec praesens, quod sit eorum copulativum, nec connumerari potest cum speciebus illis, cuiusmodi sunt heri, mense praeterito, anno, olim, iam, aliquando et similibus, ut recte consideranti est manifestum. Superamplificatur haec quaestio H per species quaestionis C D et K; ibi enim est aliquid, ubi sunt eius quidditative et material
+ iter constituentia, item generaliter formantia et concomitantia.</p>
+
+<p>I. De amplific. et multip. quaestionis 'Ubi'.</p>
+
+<p>Quaestio 'Ubi' dilatatur tum per differentias loci, qui est species quantitatis continuae, tum per differentias, species, modos, propria et communia distinctae ab aliis novem categoriae, quae proprie 'Quando' dicitur, tum tandem per modum superiorem generalissimo, quo de omnibus quaeri potest 'ubi sint.' Deus enim cum neutro duorum primorum modo sit alicubi, nil tamen obest, quominus quaeratur ubi sit, ubi fuerit, antequam mundus fieret. Est, inquiunt, et fuit in se ipso, quod idem est ac si dicatur: est et fuit ipse; item ac si dicatur: est ipse; item ac si dicatur: nescio, scit ipse. Qui modus respondendi est iuxta theologiam negativam, qualis est Dionysii. Cum igitur 'alicubi' dicitur de Deo, intelligitur secundum valde aequivocum (si concedatur aequivocum quid magis atque minus dici) 'ubitatis' modum accipi. Superamplificatur quoque haec quaestio I apud Lullium per species quaestionum C D et K; tunc enim aliquid est, quando est suum principium quidditative constitutivu
+ m, tunc item, cum est suum 'cum quo', ut etiam modicum consideranti patet.</p>
+
+<p>K. De amplificatione et multiplicatione quaestionis 'Quomodo'.</p>
+
+<p>Quaestio 'Quomodo' amplificatur per omnes modos, quibus secundum propria vel appropriata res aliquo modo se habere dicitur in se vel in alio, essendo vel operando, per modificare et modificari, penes activam vel passivam facultatem. Haec sane quaestio sicut et aliae, omnia modo suo perlustrat. Nil enim impedit nostros theologos, quominus quaerant, quomodo Deus differt ab aliis entibus, immo ab entibus et quomodo intelligit se ipsum et intelligendo producit. Quas quaestiones subsequuntur aliae, quas nec ipsi intelligunt nec alii, sicut et apud ipsos est confessum. Certum tamen est, quod cum ipsum 'Quomodo' applicatur ad primum subiectum, ad nullam reduci potest praedicamentalem rationem, praeterquam secundum valde remotam (imo dissimilem, si ita me dicere permittunt) similitudinem.</p>
+<p>Hinc videre licet, quomadmodum huius facultatis latitudo complectitur amplitudinem logices et metaphysices. Ipsum enim 'quomodo, quale, quid' etc. examinant differentias inter logicalia et metaphysicalia, et decernunt in iis quae supra ens reale et rationis (quod appellant) secundum omnem modum attolluntur. Similiter et ipsa praedicata absoluta, respectiva, item et ratio combinationum, quae per ipsa constituuntur. Quod quidem licet superius fuerit indicatum, ob id tamen, quia quid magnum haec consideratio prae se ferre videtur, iterum atque iterum, ubi obtigerit, retentanda censetur.</p>
+
+<p>Quaestio 'Cum quo' dilatatur per omnia quae habent rationem medii, signi, instrumenti, concurrentis et concomitantis, idem facientis, admittentis; et dilatatur per omne in quod transmittat, a quo inmittat, unaque transmittat et una immittat; adeo ut nihil quaestionis huius lucem et colorationem effugiat.</p></div2>
+
+<div2><head><hi rend="italic bold">Quemadmodum omnes quaestiones in praedicamentis plus quam praedicamentaliter logice et metaphysice acceptis, includantur, et e contra. Cap. VII</hi></head>
+
+<p>Archytas Tarentinus et Gorgias Leontinus et alii denario eorum, quae praedicamenta appellantur, proposito, nihilo minora et pauciora proposuere quam Lullius. Quod quidem hinc te coniicere volo, quod quaestio 'Utrum' et quaestio 'Quid', quae communiter appellantur 'si est' et 'quid est', una cum quaestione 'Propter quid' (nisi velis et hanc ad duas illas reducere) applicatae decem categoriis latius acceptis, omnes tibi reddere possunt considerationis materias, indagando quid est res secundum substantiam, utrum sit secundum talem substantiam vel essentiam, propter quid sit secundum talem substantiam vel essentiam, utrum, quid et propter quid sit secundum quantitatem, qualitatem, relationem et quae sequuntur. Veruntamen profuit Lullii observantia, quia notitia categoriarum, ut ad nos per manus Aristotelis devenit, est admodum confusa, ut ad nullum finem esse videatur. Quod si quis Aristotelis authoritate motus hoc ipsum dictu nefas esse existimet, legat et consideret ea quae
+ conscientia ductus in calce capitis "De relatione" dixit Aristoteles; et ipsum quod ad eius categoriae propositum dictum est, ad caeterarum etiam categoriarum propositum dictum putet. Ab altera et meliori ratione adducenda abstineo, ne captiumculatorum et sophistarum magisterialem incurramus indignationem.</p>
+<p>Multiplicationem et extensionem, quae fit per formas, alias reformabimus, tum per id quod ad numerum, tum per id quod ad species, tum quod ad earum rationes attinet. Amore enim centenarii complendi Lullius plurimas repetivit, plurimas duplicavit et plurimas, quae ad rem non faciunt, apposuit; quod quomodo sit, aliis relinquo iudicandum. Sed haec de Lullianae sufficientia architecturae sufficiant. Quod Lullius fortasse de formis imaginatus est, omittimus.</p>
+<p>Haec sunt quae ad artem Lullii intelligendam, iudicandam et prosequendam sufficiunt iis qui periti sunt in vulgari philosophia. Hic enim integre expressum est quidquid Lullius habet in multis "Artibus", in quibus idem semper exprimere nititur; habes, inquam, quae sunt in "Arte brevi", in "Arte magna" et aliis libris, qui nomine "Arboris scientiae", "Inventionis", "Artis demonstrativae", "Mixtionis principiorum", "Auditus cabalistici", et si qui alii eiusdem generis extant, in quibus hic pauper semper idem attentabat exprimere.</p>
+<p>Et tu, lector, postquam intellexeris ista, necessario Lullium intelliges, et videbis nos multum addidisse, quantum ad facilitatem, ordinis rationem, distinctionem et sufficientiam disciplinae spectat, et aliud quid de memoria, quod non est pars istius disciplinae, sed ad ipsius retentionem est maxime necessarium. Videbis etiam nos addidisse quod est de substantia artis usque ad complementum ipsius, quod nec Lullius fecit, nec alium fecisse vidimus. Si quis vero quid amplius apud Lullium et alios (quos videre potuimus) eius interpretes habeatur inquirat, sciat esse rudes tantum et superfluas quas ita dicam exemplificationes. Sed nos noluimus in facilioribus fimbrias dilatare. Exempla qui desiderat, Lullium videat.</p></div2></div1>
+
+
+<div1><head>RAYMUNDI LULLII DE DEFINITIONE DISPUTATIONIS ET CONDITIONIBUS EIUSDEM.</head>
+
+<p>Quid sit disputatio. Cap. I.</p>
+
+<p>Disputatio est contrarietas spiritualis, quae per verbum manifestat conceptionem, quam habet unus intellectus contra alium.</p>
+
+<p>De conditionibus disputationis. Cap. II.</p>
+<p>"Conditio prima."</p>
+
+<p>Disputans primo debet habere intentionem cognoscendi et amandi veritatem, et cognoscendi et odiendi falsitatem; et propter hoc verus disputator debet concedere vera cognita, et falsa negare.</p>
+
+<p>"Conditio secunda."</p>
+
+<p>Secundo supponatur in principio, quod utraque pars quaestionis sit possibilis, scilicet affirmativa et negativa, ut intellectus in investigatione sit liber et non ligatus.</p>
+
+<p>"Conditio tertia."</p>
+
+<p>Tertio arguens probet vel improbet per aliquam speciem argumentationis, fundando argumentum super aliquam speciem demonstrationis.</p>
+
+<p>"Conditio quarta."</p>
+
+<p>Quarto inter disputantes sit communis amicitia, ut infrenetur particularis contrarietas, quam habent circa hoc de quo disputant.</p></div1>
+
+
+
+<div1><head>PHONASCUS GRANDONIUS POLICASTER</head>
+<head>I. U. D. ET PHILOS. DE REGALI, GREGALI ET FURIBUNDO QUODAM PEDE TENUS ET GRAMMATICOTERON PHILOSOPHANTE AD PH. I. B. N.</head>
+
+<lg><l>Extrudens tenebris sophiae de corpore lucem,</l>
+<l>Ne tenebris pulsis lux redeundo micet,</l></lg>
+<lg><l>Grammaticus iactans sophiam, duplicique babillo</l>
+<l>Auriculas mulcens, irrita verba boans;</l></lg>
+<lg><l>Qui graecum mandens, fastu tumefactus inani</l>
+<l>Nil solidi tractat, sed blaterare docet;</l></lg>
+<lg><l>Qui si quem norit multo meliora docentem,</l>
+<l>Hunc studet inviso carpere dente furens;</l></lg>
+<lg><l>Insequitur carpitque tuam, Iordane, Minervam,</l>
+<l>Dum das hanc tenebris quae fuit acta nigris.</l></lg></div1>
+
+
+<div1><head>PHONASCO GRANDONIO POLICASTRO</head>
+<head>I. U. D. ET THEOLOGO CELEBERRIMO RESPONDET.</head>
+
+<lg><l>Admugiat bruto, stolido plaudatque loquenti,</l>
+<l>Quod magis est stolidum congeneumque pecus.</l></lg></div1></body>
+</text></TEI.2>

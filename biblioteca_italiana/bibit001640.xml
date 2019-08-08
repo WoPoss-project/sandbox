@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Facezie</title>
+      <author>Ludovico Carbone</author>
+    </titleStmt>
+    <extent>91 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001640</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Facezie e dialogo de la partita soa</title>
+        <author>Carbone, Ludovico</author>
+        <editor id="ed">Ruozzi, Gino</editor>
+        <publisher>Commissione per i testi di lingua</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date>1989</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>858.2 - SCRITTI MISCELLANEI ITALIANI. 1375-1492</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Narrativa</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Verdianelli</name>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Verdianelli</name>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-08T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Gritti</name>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Codifica XML - Sono state controllate le codifiche, correggendone gli errori.</item>
+    </change>
+    <change>
+      <date>2003-06-22T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text><body>
+<head><hi rend="italic">Cento trenta novelle o facezie
+de
+Ludovico Carbone</hi></head>
+<div1 type="parte">
+<head>Proemio</head> 
+<pb n="133r"/>
+<p>Allo illustrissimo Principe ed excellentissimo<name> Duca Borso<lb/>
+</name>Molti odendomi ne le orazione mie tanto volentiera<lb/>
+piacevoleggiare si danno ad intendere ch'io abia una <lb/>
+natura tutta zoiosa e iocunda, onde cum suoi prieghi e<lb/>
+persuasione me hanno indutto a questo: ch'i' debba<lb/>
+componere qualche libro di facezie; e volendo compia-<lb/>
+cergli, bisogna pur che anche riguardi a l'onor mio. E<lb/>
+però me ha parso di dover eliegere la persona vostra a<lb/>
+cui sia intitolata l'opera mia, acioché la materia, per si <lb/>
+stessa tenue e legiera, sotto l'umbra de la maiestade del<lb/>
+nome vostro riceva qualche autoritade. Benché <pb n="133v"/><lb/>
+di questo non temo reprehensione alcuna, consideran-<lb/>
+do tanti excellentissimi omini essersi dilettati nel mo-<lb/>
+teggiare e in tal fatta di parlare o scrivere che facilmen-<lb/>
+te muova riso a gl'audienti o a gli leggenti. E sopra<lb/>
+tutti il nostro <name>Marco Tullio</name> fu piacevole e faceto, in<lb/>
+tanto che molte cause pericolose e di grandissima im-<lb/>
+portanzia ottenne e vinse solamente per le sue bellissi-<lb/>
+me e dolcissime piacevolezze.<lb/>
+Sì che faremo una suave mistura di facezie e anti-<lb/>
+che e moderne, secondo me occorrerano alla mente: le<lb/>
+qual forsi potranno porgere qualche recreazione all'ani-<lb/>
+mo vostro affaticato da gravissimi pensieri e<lb/>
+ <pb n="134r"/><lb/>
+altissime cogitazione. E se più vi piacerà le cosse grave <lb/>
+e severe, discorreriti un poco il mio vulgarizato Sallu-<lb/>
+stio mandato al vostro misser <name>Alberto</name>, o quell'altra <lb/>
+traduzione de l'arte militare iscritta al mio misser <lb/>
+<name>Ercule.<lb/>
+</name>Cominciaremo adonche da un religioso per aver <lb/>
+più stabile e fundato principio, acioché anche nelle <lb/>
+facezie se dimostri la nostra pura fede e vera religione.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 1</head><p>Maestro <name>Agostino</name>, cittadino nostro ferrarese de l'or-<lb/>
+dine de gli frati menori, fu gran teologo e buon predica-<lb/>
+tore, e se gli costumi suoi fossero stati simili a la dottri-<lb/>
+na <pb n="134v"/><lb/>
+non gli seria mancata mitria episcopale; ma<lb/>
+ebbe tropo del cortesano, che non si conviene a tal<lb/>
+professione.<lb/>
+Siando a <name>Roma </name>nel tempo di quel notabilissimo <lb/>
+pastore Papa <name>Nicola</name>, dal qual tutti gli valentomini con-<lb/>
+correva, per il suo dissoluto vivere e la età molto senile<lb/>
+era diventato pallido, smorto, tutto sbolzegno e mazo-<lb/>
+co e ben maturo. Dimandato dal Papa come si sentiva,<lb/>
+subito alliegramente rispose:<lb/>
+<q direct="unspecified">Beatissimo Padre, io me sento molto forte e ga-<lb/>
+gliardo.<lb/>
+</q>Il Papa ridendo si maravegliava di tal risposta:<lb/>
+<q direct="unspecified">Che é quello che vui detti, maestro <name>Agostino</name>? Mo<lb/>
+vui avetti un colore che mi par proprio quello de la<lb/>
+morte, e da l'altra parte diceti <pb n="135r"/><lb/>
+che setti cussì <lb/>
+gagliardo: come s'acorda questa loica?</q><lb/>
+Il frate replicando rispose:	<lb/>
+<q direct="unspecified">I' ve dico un'altra volta, santissimo Padre, che io<lb/>
+son più gagliardo che fosse mai, e sì ve 'l pruovo in<lb/>
+questa forma. Quando io era giovane e sano non era<lb/>
+rimedio alcuno ch'io potesse ritenere, rifrenare, castiga-<lb/>
+re, questo mio indurato, nervoso, indiavolato fratello: <lb/>
+non mi durava né tela né bindoni che non volesse dì e<lb/>
+notte sempre ussir fuor di casa. Adesso ch'i' son vechio<lb/>
+e infermo io il volgo e rivolgo di sotto e di sopra senza<lb/>
+resistenzia alcuna e facciogli il bel signo <name>Salamone</name>.<lb/>
+Vedetti vui se questa é maggior fortezza?</q>	<lb/>
+Il Papa per vergogna non <pb n="135v"/><lb/>
+s'attentava di ride-<lb/>
+re dicendo:<lb/>
+<q direct="unspecified">Avetti ragione, maestro <name>Agostino</name>, ma fatti per<lb/>
+Dio che mai più non mi ragionatti di tal cosse, perché<lb/>
+potriano conturbare il stomaco de la Santità papale</q>.</p> <lb/>
+</div1>
+<div1 type="parte">
+<head>Facezia 2</head>		<lb/>
+<p>Questo medesimo frate essendo ne la mensa cum<lb/>
+misser <name>Petro da Nuceto</name>, che era il summo secretario<lb/>
+cum il preditto Papa, vedendo che solamente a quegli<lb/>
+principali erano presentate le quaglie, fasani, perdice e<lb/>
+quest'altri giotti boconi, e a lui mai non pervenivano, si <lb/>
+deliberò cum bel motto aprire il suo disdegno e diman-<lb/>
+dò un de gli serventi a che muodo pigliavano queste<lb/>
+quaglie. Colui rispose:<lb/>
+<q direct="unspecified">A molti muodi le pigliamo, ma queste poche ave-<lb/>
+mo prese cum certo istrumento d'osso <pb n="136r"/><lb/>
+ligato <lb/>
+cum una pelle che si chiama quagliaduro</q>.<lb/>
+<q direct="unspecified">I' la 'ntendo</q>" disse il frate, e l'altro dì, venendo<lb/>
+alla mensa, portò uno di questi quagliaduri. E in quel<lb/>
+che la brigata comincia a manzare, lui comincia piana-<lb/>
+mente a sonare dando cussì un botto, puo doi, puo tri. <lb/>
+Misser <name>Petro</name>, che stava come secondo Papa, tuto turba-<lb/>
+to diceva: <q direct="unspecified">Chi é questo che suona qua?</q>.<lb/>
+Da lì a uno poco maestro <name>Agostino</name> spessega il suo-<lb/>
+no del so quagliaduro. Misser <name>Petro</name>, curozato da <lb/>
+divera:<lb/>
+<q direct="unspecified">Per certo questo é un quagliaduro: che onestà é <lb/>
+questa? Io voglio sapere chi é questo pazzo tanto <lb/>
+ardito</q>.<lb/>
+Maestro <name>Agostino</name> senza indugia rispose:<lb/>
+<q direct="unspecified">Io son quello: voleva pur vedere s'io potesse pi-<lb/>
+gliare qualcuna di <pb n="136v"/><lb/>
+queste vostre quaglie</q>.<lb/>
+Intesa la facezia, le quaglie volarono a misser lo <lb/>
+frate in grande abundanzia, e non bisognò più quaglia-<lb/>
+duro per pigliarne.<lb/>
+Disse allora il bon frate:<lb/>
+<q direct="unspecified">Sapiati, misser Petro, che tute le gole son sorelle, <lb/>
+e che gli fratti gustano meglio che gl'altri gli buoni e <lb/>
+giotti boconi perché sono usi a la cognizione del sum-<lb/>
+mo bene</q>.</p>
+</div1><div1 type="parte">
+<head>Facezia 3</head><p>Ne la terra di Cità di Castello forno dui fratelli che <lb/>
+molto se amavano insieme. L'uno era in tutto seculare, <lb/>
+intento al guadagno, dì e notte studiava come potesse <lb/>
+accumular roba, rare volte ricordandosi de l'anima soa <lb/>
+e che dovea morire. L'altro in tutto dato al spirito<gap/>.</p> <lb/>
+</div1>
+<div1 type="parte">
+<head>Facezia 4</head><pb n="137r"/><lb/>
+<p><gap/><add>buo</add>na vita, grasso, tondo, rubicundo,<lb/>
+ché a <name>Dio Bacco</name> divotamente sacrificava: per gli ochi,<lb/>
+per le guanze, per gli labri spumosi, facea ussire quel<lb/>
+santo liquore; gli vini da <name>Bragantino </name>gli faceano dolere<lb/>
+il capo, ma quegli da<name> Monferrato</name> o da <name>Forlì</name> o di can-<lb/>
+dia lo risanavano.<lb/>
+Misser <name>Tito Stroza</name>, non meno savio e onesto cava-<lb/>
+liero ca poeta zentile, rivolto a maestro <name>Ieronimo Ca-<lb/>
+stello,</name> excellentissimo filosofo e medico:<lb/>
+<q direct="unspecified">Per certo</q>, dissegli, <q direct="unspecified">maestro <name>Ieronimo</name> mio, se <lb/>
+questa é la via de acquistar o di andar al paradiso, i'<lb/>
+non voria za pigliare altro camino</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 5</head><p>Don <name>Monte</name> celebrando la messa in villa sentite<lb/>
+l'odore de certi figadetti che si cocevano, onde temen-<lb/>
+do che la massara<pb n="137v"/><lb/>
+non pigliasse il meglior bo-<lb/>
+con per lei, se affrezzò sì precipitando le parole che<lb/>
+stragualzò quella messa. Misser <name>Francesco Ariosto</name>, poe-<lb/>
+ta piacevole, se gli rivoltò dicendo:<lb/>
+<q direct="unspecified">Don <name>Monte</name> mio, se le vostre orazione non serano<lb/>
+exaudite non vi meravegliati, perché avetti auto l'ani-<lb/>
+mo più a la mensa ca a la messa</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 6</head><p>Frate <name>Francesco da Roigo </name>predicando a <name>Lendenara <lb/>
+</name>e despiacendogli le vanità di quelle done ebbe addire:<lb/>
+<q direct="unspecified">Per certo, done mie, il tocarà una volta a mi a<lb/>
+rimessedarvi a mio modo</q>.<lb/>
+Lui intese a bon fine, cioé a reprendere e castigare, <lb/>
+ma alcuni scolari che v'erano presenti lo pigliono in<lb/>
+altra parte; e anche lui dovea pure parlare più cauta-<lb/>
+mente.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 7</head><pb n="138r"/><lb/>
+<p>El Marchese di <name>Mantoa</name> cercava un capella-<lb/>
+no che dicesse messa da cavalcare. Dui se gli offerseno,<lb/>
+de li quali l'uno diceva che non si trovaria omo che la <lb/>
+dicesse più presto di lui; l'altro rispose:<lb/>
+<q direct="unspecified">Come la potresti dire più presto di me che non ne<lb/>
+dico mai la mitade?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 8</head><p>Misser <name>Nicolò da Este</name>, litteratissimo e dolcissimo <lb/>
+signore, siandogli portati per il suo sparaviero tutti gli<lb/>
+passarini de la columbara da porto e volendone tuore <lb/>
+alcuni un so famiglio:<lb/>
+<q direct="unspecified">Non fare</q>, dissegli; <q direct="unspecified">se tu gli voi comprare te li ven-<lb/>
+derò; tu sai bene che già ho parechi figlioli: il me<lb/>
+bisogna pur tegnier muodo che io gli possa far le spe-<lb/>
+se</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 9</head><p>Questo medesimo signor sentendo che <pb n="138v"/><lb/>
+un<lb/>
+dottore poco dotto avea tolta per dona una brutissima<lb/>
+femina dicendo che facea conto che la fosse soa massa-<lb/>
+ra, rispose:<lb/>
+<q direct="unspecified">Per certo, se io volesse tuore massara anche voria <lb/>
+spender meglio gli miei denari</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 10</head><p>Maestro <name>Orazio</name>, medico excellente, dimandava un<lb/>
+dì la moglie:<lb/>
+<q direct="unspecified">Che vuol dir questo, dona mia, che l'anno passato<lb/>
+facessemo poche mortadele e tutte sono buone, angua-<lb/>
+no ne avemo fatte assai e tutte son cative?</q>.	<lb/>
+La dona savia rispose:<lb/>
+<q direct="unspecified">Dittemi, maestro <name>Orazio</name>: tuti gli vostri amalati<lb/>
+guariscono egli? Dovetti pensare che ancora nui avemo<lb/>
+il capo ad altro, o a la predica o a la confessione, e non<lb/>
+possemo mettere tuto il cervello ne le mortadele, <lb/>
+<pb n="139r"/><lb/>
+come alcuna volta fatti vui, che dovendo ponere<lb/>
+ogni studio a cura de gl'infermi, stati a ragionar de le<lb/>
+guerre de' Veneziani, del Duca di Milano, de' Fiorenti-<lb/>
+ni, del Duca Ioane, del Turco</q>.<lb/>
+<q direct="unspecified">Tu hai ragione, dona mia</q> disse maestro <name>Orazio</name>. <lb/>
+<q direct="unspecified">Non parlo più</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 11</head><p>Maestro <name>Bonfrancesco da Rezo</name>, filosofo e arcidiaco-<lb/>
+no, ma non era ancor prete quando fece questa piacevo-<lb/>
+leza, perché in uno prete seria pur stato peccato alman-<lb/>
+co veniale se non mortale: essendo tra lui e maestro <lb/>
+<name>Francesco Benzo</name> una fiera e aspera concurrenzia, cadau-<lb/>
+no di loro desiderava avere uno scolaro, perché a que-<lb/>
+sto tempo non basta la scienzia ma bisogna che gli <lb/>
+dottori comprino gli scolari o per dinari o per <lb/>
+<pb n="139v"/><lb/>
+qualche gran benificio.<lb/>
+Questo scolaro avendo voglia di avere un libro chia-<lb/>
+mato <name>Zone</name> sopra <name>Verzilio </name>promesse a cadauno separata-<lb/>
+mente d'esser so scolaro se gli facea aver questo <name>Zone</name>, <lb/>
+e non era niuno che l'avesse salvo ca don <name>Bartolo</name>, <lb/>
+maestro di scuola e padre de la pedantaria. Maestro <lb/>
+<name>Francesco Benzo </name>subito se ne va da don <name>Bartolo</name> pregan-<lb/>
+dolo che di questo libro gie ne fazza servizio. El buon <lb/>
+omo, di natura serviziale e anche bisognoso di opere <lb/>
+medicinale, perché era tuto crevato e guasto e scoriato, <lb/>
+per obligarsi il medico gie l'offerse a ogni sua requisi-<lb/>
+zione. Maestro <name>Bonfrancesco</name> tira anche lui da don <name>Bar-<lb/>
+tolo </name>per avere il Zone; il maestro risponde:<lb/>
+<pb n="140r"/><lb/>
+<q direct="unspecified">Volentiera ve 'l prestaria, ma io l'ho già<lb/>
+promesso a maestro <name>Francesco Benzo</name></q>.<lb/>
+Allora maestro <name>Bonfrancesco</name> cominciò a usare de <lb/>
+la buona sofistaria, dicendo:<lb/>
+<q direct="unspecified">Non vi datti pensiero, che io il voglio per quel<lb/>
+medesimo per chi lui l'ha dimandato; tutti dui siamo<lb/>
+una medesima cossa</q>.<lb/>
+Don <name>Bartolo</name> non guardando più oltra, che non sape-<lb/>
+va pur grammatica, non voglio dire che intendesse sofi-<lb/>
+staria, glie dette o libro. Torna poi el <name>Benzo</name> e lamentas-<lb/>
+si di lui, che non gl'abia servata la promessa. Il maestro<lb/>
+si scusa:<lb/>
+<q direct="unspecified">Che voliti vu ch'io facesse? Il dice che vui setti<lb/>
+una medesima cossa</q>.	<lb/>
+<q direct="unspecified">Come diavolo una medesima cossa! Che l'é il ma-<lb/>
+zor inimico ch'i' abbia!</q> disse il <name>Benzo</name>.<lb/>
+Orsù, <pb n="140v"/><lb/>
+la sofistaria ha vinta la medicina que-<lb/>
+sta volta. E certo fu bello che il sofista dicendo il vero<lb/>
+inganasse il buon omo.</p>
+</div1>
+<div1 type="parte">	<lb/>
+<head>Facezia 12</head><p>Maestro <name>Ugo da Siena</name>, prudentissimo medico, dete<lb/>
+una volta conseglio al Marchese <name>Nicolò da Este</name> che per<lb/>
+tuto un anno se astegnesse dal vino per non ingrassar<lb/>
+tanto; e cussì fece il savio signore. Ma un dì a la mensa<lb/>
+fece portare una gran taza piena di bona malvasia.	<lb/>
+Maestro <name>Ugo</name> se la bevette lui. El Marchese rivolto a<lb/>
+Maestro <name>Ugo</name>:<lb/>
+<q direct="unspecified">Per certo</q>, disegli, <q direct="unspecified">voi setti un dolce consegliero<lb/>
+a lassiare l'aqua per mi e bevere il vino per vui</q>.<lb/>
+Rispose il medico prudente:	<lb/>
+<q direct="unspecified">Signore, l'aqua per adesso é bona per vui, e il<lb/>
+vino per mi</q>.<lb/>
+Cussì gli medici<pb n="141r"/><lb/>
+danno alcuna volta consegli<lb/>
+ad altri che non servano per loro; alle volte ragionevol-<lb/>
+mente il fanno, alle volte son pur anche loro trasportati <lb/>
+da questa naturalissima sensualitade.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 13<lb/>
+</head><p>Maestro <name>Teodosio Specia</name>, veramente amorevole e <lb/>
+dolce come specie, arciprete de la chiesa mazore, exami-<lb/>
+nando un prete che si volea ordinare, il dimandava: <lb/>
+<q direct="unspecified">Sa' tu bene l'officio de la dona?</q>.<lb/>
+Lui rispondeva:<lb/>
+<q direct="unspecified">Molto bene e d'avantazo</q>.<lb/>
+<q direct="unspecified">E qual é desso?</q> disse l'acciprete. <lb/>
+Costui diceva:<lb/>
+<q direct="unspecified">L'é quel che comincia <name>Domine</name>, labia mea</q>.<lb/>
+<q direct="unspecified">Tu non sa' niente</q> rispose maestro<name> Teodosio</name>. <lb/>
+<q direct="unspecified">L'officio de la dona si é a sapere molto ben filare e <lb/>
+cussire, e far la massaria</q>.</p></div1>
+<div1 type="parte">
+<head>Facezia 14</head><pb n="141v"/><lb/>
+<p>El medesimo arciprete vedendo uno scolaro <lb/>
+che solea esser molto dissoluto aversi fatto frate e pi-<lb/>
+gliato abito monacale, sapiando che questo non era <lb/>
+processo da buona ispirazione, perché le più volte si<lb/>
+fano fratti quegli che cognoscono aver perso il tempo e<lb/>
+non gli basta l'animo di poter vivere onestamente si<lb/>
+riducono pur a la ostaria di <name>Cristo</name>, che ha buone spalle<lb/>
+e riceve ogni carogna per la sua infinita misericordia;<lb/>
+guardando adonche costui disse maestro <name>Teodosio</name>:<lb/>
+<q direct="unspecified">Che credi tu aver fato? Tu hai mutato il vestire<lb/>
+perché il Diavolo non ti cognosca?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 15</head><p>Siando trasferito il studio di <name>Ferara</name> al castello di<lb/>
+<name>Roigo</name> per cagione de la<pb n="142r"/><lb/>
+peste, e non essendogli<lb/>
+venuti scolari, solamente v'erano gli dottori, e per la<lb/>
+incommoditade e spesa che bisognava fare fo necessa-<lb/>
+rio che inanti trato si desse le paghe, acioché si potesse-<lb/>
+mo levare e andar cussì lungi. Dimandando adonche gli<lb/>
+dottori il sallario, disse il Duca <name>Borso </name>trepando:<lb/>
+<q direct="unspecified">Non avetti coscienzia a volere mercede senza fati-<lb/>
+ca? Se gli non serà scolari non aretti briga di studiar<lb/>
+tropo</q>.<lb/>
+Maestro <name>Teodosio</name> rispose per tutti:<lb/>
+<q direct="unspecified">In verità, signor, nui averemo dopia fatica, perché <lb/>
+prima legevemo a gl'intendenti, adesso leggemo a quel-<lb/>
+le banche che hano sì duro il cervello che serà gran <lb/>
+<pb n="142v"/><lb/>
+fatica a potergli mettere o ficare lettere nel ca-<lb/>
+po</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 16</head><p>La<name> Lucia</name>, nostra carissima sposa, tuta solacevole e<lb/>
+zoiosa, mi dice un dì ricordarsi esser nevato da san<lb/>
+<name>Zorzo</name>. Mi pareva il dir suo uno miracolo, <add>che</add>a tal tempo ne<add>v</add>asse, ma considerando bene non é miracolo<lb/>
+niuno, anci ogni anno suol nevare da san <name>Zorzo</name>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 17</head><p>Trepando un'altra volta questa mia<name> Lucia</name> mi disse <lb/>
+che quando volesse mi faria andare fina a <name>Bologna</name>, o<lb/>
+anche a <name>Roma</name>, che mai non andaria per terra. Questo <lb/>
+mi parea uno stranio parlar, credendo che la fosse una <lb/>
+nigromantica, o che mi volesse dar le ale di <name>Dedalo</name>; <lb/>
+pur, meglio ripensando, mi par facil cossa e leggiera.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 18</head><pb n="143r"/><lb/>
+<p>Ancora questa madona <name>Lucia</name> me afferma <lb/>
+esser stata nuove mesi in mare, che mai non vedé <name>Sole</name> <lb/>
+né <name>Luna</name>. Non so za quando si fosse una sì grande <lb/>
+eclisse. E più forte me diceva che in quel tempo non <lb/>
+era in aque salse. E anche questo é verissimo e interve-<lb/>
+ne a cadauno che nasse.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 19</head><p>Papa <name>Giovanni</name> odendosi una volta comendare so-<lb/>
+pra la veritade da un di questi grandi oratori che fanno<lb/>
+per fama gli omini immortali e hanno nelle soe mane la<lb/>
+gloria e l'infamia di signori, e però si vuol star ben cum<lb/>
+loro; oldendo adonche Papa<name> Gianni</name> dir di lui quel che<lb/>
+non era, rispose a l'oratore:<lb/>
+<q direct="unspecified">Sazzo bene che non dici lo vero, pur me ne gab-<lb/>
+bo:<pb n="143v"/><lb/>
+non é sì buono né sì cativo che non gli<lb/>
+sapia buona questa carne de la loldolina</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 20</head><p>Questo medesimo Papa, dato più al seculo che al<lb/>
+timore di <name>Dio</name> né a la religione, vedendo certi fraticelli<lb/>
+discalci e desasiatamente abituati per l'amor divino e<lb/>
+per la speranza de la eterna gloria, non gustando lui<lb/>
+niente del spirito, se rivolse alloro dicendo:<lb/>
+<q direct="unspecified">Doh, poveri gabbadei, quanto saresti vu gabati se<lb/>
+la fede nostra non fosse vera!</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 21</head><p>Il preditto Papa<name> Gianni </name>venendo a <name>Ferara</name> e in su la<lb/>
+porta di <name>San Piero</name> presentandogli el Marchese<name> Nicolò</name><lb/>
+le chiave de la citade, rispose:<lb/>
+<q direct="unspecified">Sapiamo bene, o compatre mio, che n'avetti<lb/>
+<pb n="144r"/><lb/>
+un altro paio</q>.</p>
+</div1>
+<div1 type="parte">	<lb/>
+<head>Facezia 22</head><p>Papa <name>Eugenio</name>, magnanimo certamente e religiosissi-<lb/>
+mo pontefice, venuto anche lui a <name>Ferara</name>, dove dimorò <lb/>
+un anno e fece concilio per unire la chiesa orientale de <lb/>
+gli greci cum la romana, e presentandogli el Marchese <lb/>
+<name>Nicolò</name> gli figlioli suoi mazori, che erano tri: misser <lb/>
+<name>Miliaduce</name>, misser <name>Lionello</name>, misser <name>Borso</name>, il dimandò <lb/>
+che deliberazione avesse fatta de l'exercizio loro. Rispo-<lb/>
+se il Marchese:<lb/>
+<q direct="unspecified">Beatissimo padre, io voglio che misser Miliaduce <lb/>
+sia priete, misser Lionello signore, misser <name>Borso</name> omo <lb/>
+d'arme e capitanio</q>.<lb/>
+Papa <name>Eugenio</name> ridendo:<lb/>
+<q direct="unspecified">Per certo</q>, disegli, <q direct="unspecified">signor <name>Marchese</name>, mi pare <lb/>
+ch'abiati ordinato tuto il contrario di quello che doveva-<lb/>
+ti fare: perché<pb n="144v"/><lb/>
+misser <name>Miliaduce</name> mi pare aver <lb/>
+aiere da omo d'arme, misser <name>Lionello</name> che é tanto man-<lb/>
+sueto e litterato e religioso seria stato bon priete, mis-<lb/>
+ser <name>Borso</name> cum questo suo grazioso aspetto che a vui si <lb/>
+rasumiglia seria per certo tropo bel signore</q>.<lb/>
+Fin a quel tempo riluceva ne la facia sua apparen-<lb/>
+zia signorille, sì che quell'anima santa di Papa Eugenio <lb/>
+indivinò quel che doveva esser del Duca <name>Borso</name>. Ma se <lb/>
+al presente l'avesse visto cum questa dignissima maie-<lb/>
+stade, che per il suo continentissimo vivere ogni dì par <lb/>
+più bello, non dico di<name> Ferara</name>, ma di tutto il mondo <lb/>
+l'aria estimato convenientissimo Imperadore.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 23</head>			<lb/>
+<pb n="145r"/><lb/>
+<p>Papa <name>Pio</name>, omo dotto e molto eloquente,<lb/>
+essendo fastidito da tanti poeti che tutto il dì gli rom-<lb/>
+peano il capo cum suoi versi sperando da lui denari,<lb/>
+per motegiare, com'io credo, non per disdegno, come<lb/>
+reputano alcuni, gli rispose anche lui per versi:	<lb/>
+<q direct="unspecified">Imparati, o poeti, di aspetar da me versi per versi;<lb/>
+l'animo nostro é di render versi e non di comprare</q>.<lb/>
+Ma un nobel inzegno gli fece degna risposta:<lb/>
+<q direct="unspecified">Se a ti versi per versi avesse dato la Fortuna non<lb/>
+seria ne la testa toa sì gran corona</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 24</head><p>El signor <name>Sismondo Malatesta</name> fo molto favorevole<lb/>
+e benigno a' litterati; fra gli altri tene apresso di sé in<lb/>
+grandissimo onore un nostro compagno chiamato <name>Basi-<lb/>
+nio da Parma</name> per le littere soe<pb n="145v"/><lb/>
+e fecelo rico<lb/>
+donandogli possessione e case e degnamente maritando-<lb/>
+lo. La qual cossa vedendo uno de gli suoi soldati, mos-<lb/>
+so da invidia usò al signor tal parole:<lb/>
+<q direct="unspecified">Per certo, signor, non so che si voglia dir questo:<lb/>
+che io abia durate tante fatiche per vui e messomi tante<lb/>
+volte a pericolo di morte per vostro onor e apena ho da <lb/>
+vui ch'io possa vivere; e costui che chiamati poeta, che<lb/>
+se ne sta tuto il dì e notte in camera col pelizone, e non<lb/>
+vide mai cortello né campo, aveti sì mirabilmente<lb/>
+exaltato</q>.<lb/>
+Sismondo saviamente rispose:<lb/>
+<q direct="unspecified">Fratel mio, s'el si trovasse tanti de gli suo pari<lb/>
+quanti si truova de gli tuoi, ti prometto che a lui non<lb/>
+daria niente e tu saresti apresso di me avantagiato da <lb/>
+lui. Ma non vedi tu che omini son questi? Più rari <lb/>
+<pb n="146r"/><lb/>
+ca la fenice non vanno cussì per le cime de gli <lb/>
+arbori. Non cognosci tu quanto nui siamo obligati a <lb/>
+questi notabil inzegni? Che valeria le nostre prodezze, <lb/>
+gli nostri gran fatti, se non fosse chi ne servasse memo-<lb/>
+ria? Per costoro sapemo noi di<name> Alexandro</name>, di <name>Cesaro</name>, <lb/>
+di <name>Pompeio</name>, di <name>Achille</name> e de gli altri semidei: a loro sta <lb/>
+che li signori siano magnificati o in eterno vituperati. <lb/>
+Questi non sono di quegli dottorazi da parafi o capitola-<lb/>
+stri che pur che abiano la cintura dorata e 'l capuzo <lb/>
+pendente drieto le spalle si credeno avere la scienzia di <lb/>
+<name>Platone</name>, e non sano pur gramatica. Hanno avilupato il <lb/>
+cervello di fanfaluche e menicatarie e cautele sofistiche <lb/>
+ad inganare qualche vedoella o strassinare le eredità di<lb/>
+pupilli: <pb n="146v"/><lb/>
+che molto meglio si rezeria le citade per <lb/>
+solo <name>Tullio</name> de gli Officii ca per tanti baldazi e bartola-<lb/>
+zi. Lasciano gli antichi, che ebeno prudenzia non meno-<lb/>
+re che scienzia, e van pur drieto seguitando questi afra-<lb/>
+paturi e zarlaturi; e poi hanno tanta presunzione che <lb/>
+vogliono arrogantemente esser preposti a gli savii orato-<lb/>
+ri e santi poeti, che son quegli che prima hanno le<lb/>
+parole zentilesseme e limatissime, ornatissime, appro-<lb/>
+priatissime ad ogni materia, poi la notizia de le storie <lb/>
+di quegli valorosi antichi. Questi adonche come l'inze-<lb/>
+gno e l'animo cussì ancora il corpo hanno delicatissimo <lb/>
+e tenerissimo, e però diligentissimamente e amorevel-<lb/>
+mente si debbano trattare e tenire in pianta di mano. <lb/>
+Ne le altre facultate é tanta copia<pb n="147r"/><lb/>
+che si trovano <lb/>
+per ogni cantone, ma vedere un bon oratore o bon <lb/>
+poeta é grandissima grazia de gli cieli; e certo se cum<lb/>
+la eloquenzia s'agiunge la prudenzia e ornati costumi,<lb/>
+non potria la natura produre più mirabel frutto: perché	<lb/>
+se solo il parlar fa gli omini differenti da le bestie, oh<lb/>
+quanta excellenzia debba esser di colui che in quel<lb/>
+medesimo avanzi gli altri omini; e beati quei signori<lb/>
+ch'el sano cognosere!</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 25</head><p>Frate <name>Alberto da Sartiano</name>, che secondo il gusto e<lb/>
+iudicio nostro avanzò tutti gli predicatori che mai stati<lb/>
+siano a gli tempi nostri e di suavità de voce, e di<lb/>
+dolceza di sentenzie, e di copia di parole, e de senti-<lb/>
+menti acuti, e di profunda memoria, e di gesti accom-<lb/>
+modatissimi,<pb n="147v"/><lb/>
+e di facezie iocundissime, e per<lb/>
+dar una buona similitudine, come il nostro misser <name>Al-<lb/>
+berto</name> di belleza di corpo, di aspetto signorille, di degna<lb/>
+presenzia, avanza tutti gli altri segnoretti da <name>Este</name>, cussì<lb/>
+frate <name>Alberto</name> vinse e soperchiò tutti gli altri predicato-<lb/>
+ri. Questo frate adonche fo dimandato quagli omini<lb/>
+fossero più savii, o li picoli o li grandi. Lui, ch'era<lb/>
+picolino, tene la parte soa dicendo:<lb/>
+<q direct="unspecified">Quando un omo é sì grande non é possibile che<lb/>
+l'intelletto arrivi dal capo infina alle calcagne</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 26</head><p>Una vechia rencagnata, rempeglita, renfrignata, che<lb/>
+avea nome dona Degna, andò a la communione per<lb/>
+pigliar la sacratissima ostia e secondo l'usanza <lb/>
+<pb n="148r"/><lb/>
+dicendo il sacerdote:<lb/>
+<q direct="unspecified">Ditte, madona, queste parole: Signor i' non son <lb/>
+degna</q>, la vechia rispose:<lb/>
+<q direct="unspecified">E dico misser ch'i' son Degna</q>.<lb/>
+<q direct="unspecified">Ditte su in la buona ora</q> disse il prete <q direct="unspecified">com'io ve<lb/>
+dico: Signor i' non son degna</q>.<lb/>
+<q direct="unspecified">I' non voglio dir la bugia mi</q> rispose la dona. <lb/>
+<q direct="unspecified">Voliti pur ch'i' dica ch'io non son Degna: e dico de sì, <lb/>
+ch'i' son madona Degna</q>.<lb/>
+E pur il priete diceva:<lb/>
+<q direct="unspecified">Deh, fatti quel che vi vien comandato dal vostro <lb/>
+parochiano e padre de l'anima vostra: Signor i' non son <lb/>
+degna</q>.<lb/>
+<q direct="unspecified">Non mi ragionati di questo, ch'i' no 'l diria mai,<lb/>
+ch'el seria peccato</q>.<lb/>
+E non fu ma' rimedio che la si potesse divolzere.<lb/>
+Cussì alle volte son queste femine sì ostinate e <lb/>
+bizare che se lassariano meglio morire ca levarsi de la <lb/>
+soa fantasia.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 27</head><pb n="148v"/><lb/>
+<p>Frate <name>Ruberto da Lezo</name>, magnanimo e memo-<lb/>
+riosissimo predicatore, fu dimandato qual fosse mazor <lb/>
+merito ne la chiesa di <name>Dio</name>: o exponere la vita soa<lb/>
+contra gli infidieli per acquistar la corona del martirio, <lb/>
+o starsene pur cussì quietamente e predicare e confessa-<lb/>
+re avendo le buone spese da gli segnori e communita-<lb/>
+de. Lui rispose:<lb/>
+<q direct="unspecified">Quanto a mi elezeria piutosto d'esser confessore <lb/>
+ca martire</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 28</head><p><name>Lucio Silla</name>, poi ch'ebbe ottenuta in tuto la vittoria<lb/>
+contra gli mariani, molta roba di loro come di soa<lb/>
+preda facea vendere a gl'incanto. Un poeta da buon<lb/>
+mercato gli presentò ne so che soe versesse, dove il<lb/>
+volea lodare, se avesse saputo, dimandandogli in dono<lb/>
+parte <pb n="149r"/><lb/>
+di quella preda. <name>Silla</name>, che era intelligentis-<lb/>
+simo e valente ancora ne le littere, cognoscendo il scriver <lb/>
+di costui non esser di stima né de precio alcuno, gli<lb/>
+usò cortesia cum questa condizione: che mai più non<lb/>
+scrivesse né parlasse di lui.	<lb/>
+Il simile se voria fare adesso ad alcuni che non<lb/>
+sano una buona littera e se ardiscono di componere o<lb/>
+piutosto imbratare libri, e pur che gli adornino de velu-<lb/>
+to e de gli azuli d'arzento credeno che basti a compi-<lb/>
+mento di buona poesia. Il belo vol star dentro e non di	<lb/>
+fuora, ma gli nostri signori son tropo umani e piacevo-<lb/>
+li: lassano dire e scrivere a chi vuole, non ricordandosi<lb/>
+che <name>Alexandro</name> non volse esser depinto se non da Apel-<lb/>
+le perché era excellentissimo <pb n="149v"/><lb/>
+ne l'arte soa, né<lb/>
+intagliato se non da <name>Lisippo </name>perché tutti gli altri avanza-<lb/>
+va in quel exercizio. La eloquenzia per certo richiede<lb/>
+una sì gran lizadria che non si può narrare né exprime-<lb/>
+re cum parole, ma solamente l'inteletto la comprende.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 29<lb/>
+</head><p><name>Talete da Mileto</name>, uno de gli sette savii greci, era<lb/>
+molto dato a l'astrologia e a contemplar le stelle. Un dì<lb/>
+andando per via e risguardando pur nel cielo non s'ac-<lb/>
+corse che ficando il piede in un buso cadde in terra.<lb/>
+Una vechia ridendo e calefandolo a lui disse:<lb/>
+<q direct="unspecified">Doh, bon uomo, come credi tu di saper quel che<lb/>
+nel cielo stia che tu non vedi pur quello che inanti a gli<lb/>
+ochi abi!</q>.<lb/>
+E ben pazzi son coloro che avendo poca notizia de<lb/>
+la <pb n="150r"/><lb/>
+terra s'ardiscono a misurare il cielo.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 30</head><p>El preditto a la vechia rispose:<lb/>
+<q direct="unspecified">Di tre cosse rengrazio la natura: prima, che mi<lb/>
+fece uomo e non bestia; secondo, che mi fece nascere <lb/>
+in <name>Grecia </name>e non in Barbaria; terzo, che mi fece maschio<lb/>
+e non femina</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 31</head><p><name>Diogene</name>, filosofo cinico, cioé canino e mordente<lb/>
+perché ognuno riprendeva, getata via ogni sua roba<lb/>
+seguitò la povertade in tanto che non si riservò se non<lb/>
+una taza da bere; poi vedendo gli puti bevere al fiume<lb/>
+cum le mane zunte diss'egli: <q direct="unspecified">I' non sapeva ancora che<lb/>
+la natura de le mane m'avesse fato bichiero</q>; e cussì<lb/>
+rotta la taza bevete sempre cum le mane.<lb/>
+Abitava per casa in uno vasello rivoltandolo secon-<lb/>
+do<pb n="150v"/><lb/>
+il volger del sole.<name> Alexandro Magno</name>, trovan-<lb/>
+dolo un dì in questo vaso, il dimandò se da lui voleva<lb/>
+cossa niuna. Diogene rispose: <q direct="unspecified">Levati dinanti dal mio<lb/>
+vasello, che tu non mi togli quel sole che tu non mi<lb/>
+potresti dare</q>. Gli compagni d'<name>Alexandro</name> il dimando-<lb/>
+no: <q direct="unspecified">Che ti par di quest'omo?</q>. <q direct="unspecified">Per certo</q>, diss'egli,<lb/>
+<q direct="unspecified">se io non fosse <name>Alexandro </name>voria esser <name>Diogene</name></q>. 	<lb/>
+Andava questo buon omo alcuna volta da bel mezo<lb/>
+dì cum la candela impresa per piaza. Dicevano alcuni:<lb/>
+<q direct="unspecified">Che vuo' tu far di questa lanterna, o Diogene? L'é sì<lb/>
+bella lume de dì</q>. Lui rispondeva: <q direct="unspecified">I' vo cercando un<lb/>
+omo</q>. Loro dicevano <q direct="unspecified">Tu ne hai tanti inanti a gli <lb/>
+ochi</q>. Diogene rispondeva: <q direct="unspecified">Voi setti bestie, non<lb/>
+omini</q>.<lb/>
+<pb n="151r"/><lb/>
+Alcuna volta manzava in mezo de la piazza.<lb/>
+Dicevano alcuni: <q direct="unspecified">Non ti vergogni tu a manzare in<lb/>
+piaza?</q>. Lui rispondeva: <q direct="unspecified">Non si vergogna la fame a <lb/>
+trovarmi in piaza?</q>. Trovandolo un dì <name>Aristippo </name>filoso-<lb/>
+fo manzare de l'erbette gli disse: <q direct="unspecified">O <name>Diogene</name>, se tu<lb/>
+sapessi vivere cum gli omini non manzaresti erbe</q>. Lui<lb/>
+rispose: <q direct="unspecified">E se tu sapessi manzare de l'erbe non saresti<lb/>
+adulatore de' tiranni</q>.	<lb/>
+Erano compagni <name>Diogene</name> e <name>Democrito</name> e andando<lb/>
+per le citade come vedevano qualche vanitade o pacia<lb/>
+de gli omini <name>Diogene</name> continuamente piangeva per com-<lb/>
+passione, <name>Democrito</name> rideva avendose piacere e calefan-<lb/>
+do le bestialitade umane. Ma de<name> Democrito</name> <pb n="151v"/><lb/>
+non <lb/>
+mi maraveglio se tanto rideva, perché il ridere si po far<lb/>
+senza spesa, ma che le lagrime abundasseno tanto a<lb/>
+Diogene molto é da maravegliare. Ma se fosseno stati a<lb/>
+li tempi nostri e avesseno viste tante fuoze nove che<lb/>
+tuto il dì si fano e di berette e di calce schiapate e <lb/>
+divisate; le nostre done cornute cum tanti balci, tanti<lb/>
+zocoli, tanti frisi, tante frappe, tante zelosie, tanti reca-<lb/>
+mi, tante code, tanti chiavacuori (questo gli mancava<lb/>
+bene!); e questi todeschi cum quelle caviare bagnate,<lb/>
+cum quelle punte cussì lunghe, o gli franzosi cum que-<lb/>
+gli spalazi o lavezoli di brette: ben credo che <name>Diogene<lb/>
+</name>seria schiopato di dolore e consumatosi <pb n="152r"/><lb/>
+di lagri-<lb/>
+me, e <name>Democrito</name> se seria sbrendelato di riso.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 32</head><p>Venendo a morte <name>Diogene</name>, gli amici il dimandava-<lb/>
+no se volea ordinare qualche cossa per la sepultura. <lb/>
+Lui rispose:<lb/>
+<q direct="unspecified">Non voglio altra sepultura ca 'l cielo. Lassatime <lb/>
+star ne la via</q>.<lb/>
+Dicevano coloro: <q direct="unspecified">Veranno li cani e ocelli e sì te <lb/>
+manzarano.</q><lb/>
+<q direct="unspecified">Ben</q>, disse lui, <q direct="unspecified">metteretimi da lato un bastone <lb/>
+acciocché gli possa caciar via</q>.<lb/>
+<q direct="unspecified">Mo tu non sentirai niente</q> dicevano egli.<lb/>
+<q direct="unspecified">Se io non sentirò</q> disse <name>Diogene</name> <q direct="unspecified">a che buono <lb/>
+questa solenitade di sepultura?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 33</head><p>Disputando <name>Platone </name>cum <name>Diogene</name> e riducendo sem-<lb/>
+pre ogni parlar suo a quelle soe universale idee e<lb/>
+<pb n="152v"/><lb/>
+general forme, in luoco de la mensa diceva sem-<lb/>
+pre la mensalitade. Dicendo <name>Diogene</name>: <q direct="unspecified">Io vedo la men-<lb/>
+sa e non la mensalitade</q>, rispose <name>Platone</name>:<lb/>
+<q direct="unspecified">Non me maraveglio, perché l'ochio col qual si <lb/>
+vede la mensa tu l'hai, ma l'ochio cum che si vede la<lb/>
+ mensalitade tu non l'hai</q>.<lb/>
+Onde si po comprendere ch'el non fo intenzione de<lb/>
+<name>Platone</name> che le idee fosseno sustanzie reale existente in <lb/>
+la natura, separate da gli individui sensibili, ma che<lb/>
+l'intelletto é quelo che cum soe astrazione fa la univer-<lb/>
+salitade ne le cosse.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 34</head>	<lb/>
+<p><name>Aristippo</name> dimandava a <name>Dionisio</name>, re di <name>Sicilia</name>, che<lb/>
+gli sovegnesse di certa quantità de dinari. Rispose<lb/>
+<name>Dionisio</name>:<lb/>
+<q direct="unspecified">Gli filosofi non hanno bisogno de <pb n="153r"/><lb/>
+dinari</q>.	<lb/>
+Disse <name>Aristippo</name>:<lb/>
+<q direct="unspecified">Satisfà in prima a la dimanda mia e poi ti ri-<lb/>
+sponderò</q>.<lb/>
+<name>Dionisio</name> gli fece dare gli denari. Rispose allora <name>Ari-<lb/>
+stippo</name>:<lb/>
+<q direct="unspecified">Tu dici il vero: che non ho più di bisogno</q>.</p>
+</div1>
+<div1 type="parte">	<lb/>
+<head>Facezia 35</head><p><name>Bruto</name>, citadino romano, avendo consumato il so<lb/>
+patrimonio e fra le altre cosse venduti certi suoi bagni,<lb/>
+dicendo un dì ch'el sudava forte, <name>Crasso </name>oratore<lb/>
+rispose:<lb/>
+<q direct="unspecified">Non é meraveglia se tu sudi, perché nuovamente	<lb/>
+tu ei nessuto de gli bagni</q>: (intendendo che gli avea<lb/>
+venuti, sì che ne era ussito da divero).</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 36</head><p><name>Spurio Carvilio</name>, zopegando fortemente per una feri-<lb/>
+ta auta in bataglia per diffensione de la republica, per <lb/>
+vergogna non si attentava de venire <pb n="153v"/><lb/>
+in publico. <lb/>
+La madre gli disse:<lb/>
+<q direct="unspecified">Che bisogna che tu ti vergogni, figliol mio? Ogni <lb/>
+volta che tu farai un passo ti ricordarai de le vertù <lb/>
+toe</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 37</head><p><name>Tizio</name>, bon zugadore di bala, era suspetto che di <lb/>
+notte rompesse certe statue d'arzento riposte nelle chie-<lb/>
+se. Onde mancando un dì a lo exercizio consueto e<lb/>
+dimandandolo gli compagni, <name>Terenzio</name> mostrando di <lb/>
+scusarlo disse:<lb/>
+<q direct="unspecified">Forsi che lui ha rotto un brazo</q>.<lb/>
+Si potea intendere che lui se avesse rotto un brazo <lb/>
+zugando a la balla, o che avesse rotto un brazo di <lb/>
+qualche statua per robare.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 38</head><p><name>Quinto Fabio Maximo</name> avendo raquistato la cità di <lb/>
+<name>Taranto</name> presa da' Cartazenesi e volendossi scusare il <lb/>
+<pb n="154r"/><lb/>
+castellano dicendo: <q direct="unspecified">O <name>Fabio</name>, per mia opera tu <lb/>
+hai guadagnato <name>Taranto</name></q>, rispose <name>Fabio</name>:<lb/>
+<q direct="unspecified">Tu dici il vero: perché se tu non l'avesti perso io <lb/>
+non l'aria recuperato</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 39</head><p><name>Scipione Nassica</name> era venuto da <name>Ennio</name> poeta e di-<lb/>
+mandandolo da l'usso una schiava rispose ch'el non era<lb/>
+in casa. <name>Nassica</name> s'accorse che per comandamento del<lb/>
+missere costei avea fato tal risposta e che invero lui era<lb/>
+in casa. Da lì a pochi zorni acadette che<name> Ennio </name>venne a <lb/>
+casa di<name> Nassica </name>e dimandandolo da la porta<name> Nasicca</name> si<lb/>
+fece a la fenestra cridando: <q direct="unspecified">Io non sono in casa</q>.<lb/>
+<q direct="unspecified">Come</q>, disse <name>Ennio</name>, <q direct="unspecified">non cognosco io la voce<lb/>
+toa ? </q>.<lb/>
+Allora<name> Nasica</name> rispose: <q direct="unspecified">Che vergogna é la toa? <lb/>
+<pb n="154v"/><lb/>
+L'altro dì, quando io te dimandava, credetti a la<lb/>
+schiava toa che tu non fossi in casa: e tu non credi a mi<lb/>
+stesso?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 40</head>	<lb/>
+<p><name>Antonio</name> volendo occultamente riprendere un servo<lb/>
+ladro disse:<lb/>
+<q direct="unspecified">Costui solo é quelo a chi niente sta serrato né<lb/>
+chiavato in casa</q>.<lb/>
+Questo anche si potria dire de uno bon fameglio.</p> <lb/>
+</div1>
+<div1 type="parte">
+<head>Facezia 41</head><p>Uno dimandava <name>Crasso</name>:<lb/>
+<q direct="unspecified">Si vengo da ti inanci dì, te serò io molesto?</q>.<lb/>
+Lui rispose:<lb/>
+<q direct="unspecified">No me serai molesto</q>.<lb/>
+Questo parlar fu dubioso, come appare a chi li<lb/>
+pensa bene.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 42</head><p><name>Lucio Porzio </name>dimandato da <name>Catone</name>: <q direct="unspecified">Attu moglie <lb/>
+secondo il tuo appetito?</q>, rispose:<lb/>
+<q direct="unspecified">No ch'i' no l'ho secondo il to appetito, anci secon-<lb/>
+do il mio</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 43</head><p><name>Marco Servilio</name> dimandava <name>Marco<lb/>
+Pinario</name><pb n="155r"/>:<lb/>
+<q direct="unspecified">Se io dico contra di te, me maledira' tu come tu <lb/>
+ha' fatto gli altri?</q>.<lb/>
+Lui rispose:<lb/>
+<q direct="unspecified">Come seminerai cussì mederai</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 44</head><p>Fo una usanza apresso gli antichi che quando uno<lb/>
+moriva gli mettevano in boca uno quatrino per pagare<lb/>
+il nolo de la nave a<name> Carone </name>nuchiero de la <name>Stigia</name> palu-<lb/>
+de, la qual bisognava passare cadauna anima secondo il<lb/>
+credere loro. Uno filosofo morendo non si ricordò di <lb/>
+questo quatrino e venendo al passagio e dimandandogli<lb/>
+<name>Carone</name> il quatrino rispose:<lb/>
+<q direct="unspecified">Gli filosofi non si curano di queste cosse</q>.<lb/>
+Disse <name>Carone</name>:<lb/>
+<q direct="unspecified">Non sapevi tu l'usanza?</q>.<lb/>
+<q direct="unspecified">Ben sa' ch'io la sapeva</q>, disse il filosofo; <q direct="unspecified">ma<lb/>
+volivi tu ch'io stesse per un quatrin di morire?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 45</head><pb n="155v"/><lb/>
+<p><name>Quinto Opimio </name>consulo, che giovinetto era<lb/>
+stato infame, dicendo a uno piacevole chiamato <name>Egilio<lb/>
+</name>che pareva lascivo e non era: <q direct="unspecified">O Egilia mia, quando<lb/>
+venera' tu da mi cum la toa roca e lana?</q>, rispose:<lb/>
+<q direct="unspecified">Non me attentaria per certo, perché mia madre <lb/>
+m'insegnò che non andasse a casa di persona famosa</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 46</head><p>Uno siciliano oldendo un amico lamentarsi che la <lb/>
+dona soa s'era impicata a un figaro: <q direct="unspecified">Deh, per Dio, <lb/>
+dame qualche tagliolo di quest'arbore</q>, dissegli, <q direct="unspecified">ch'i' <lb/>
+lo pianti</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 47</head><p><name>Esopo</name>, antichissimo fabulatore greco e molto piace-<lb/>
+vole, trovando un dì una femina apicata ad una arbore <lb/>
+disse:<lb/>
+<q direct="unspecified"><name>Dio</name> volesse che tutti gl'arbori producesse tal frut-<lb/>
+ti, perché di tutti gli animali che <pb n="156r"/><lb/>
+genera la terra, <lb/>
+l'aiere, l'aqua, non é niuno pezore de la femina</q>.<lb/>
+</p></div1>
+<div1 type="parte">
+<head>Facezia 48</head><p><name>Catulo</name> dimandato da uno tristo oratore che gli pa-<lb/>
+resse de una soa orazione e se l'avea mosso misericor-<lb/>
+dia e compassione, come se richedeva in quella causa, <lb/>
+rispose:<lb/>
+<q direct="unspecified">Grande, per certo: non credo che sia stato uomo a <lb/>
+chi non sia parsa la orazione toa tuta miserabile</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 49</head><p><name>Catone</name> percosso da uno che portava una cassa, di-<lb/>
+cendo collui: <q direct="unspecified">Guarte!</q>, dissegli:<lb/>
+<q direct="unspecified">Me voristu mai ferire un'altra volta?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 50</head><p><name>Scipione</name> podestate assegnava per procuratore a uno <lb/>
+siciliano un so amico nobele ma grosso e indotto. Disse<lb/>
+il siciliano:<lb/>
+<q direct="unspecified">Deh, per<name> Dio</name>, misser lo podestate, <pb n="156v"/><lb/>
+datti<lb/>
+questo procuratore al mio avversario e a mi non ne dati <lb/>
+niuno</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 51</head><p>Siando un altro cativo avvocato per tropo cridare<lb/>
+tuto arregaito, un so amico chiamato<name> Granio</name> gli dava<lb/>
+conseglio che bevesse certo vino fredo e artificiato.<lb/>
+Dicendo lui: <q direct="unspecified">Se io il facesse perderia la voce</q>, rispose<lb/>
+<name>Granio</name>:	<lb/>
+<q direct="unspecified">Meglio seria ca perdere la causa</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 52</head><p><name>Scauro</name> essendo in odio perché possedeva li bieni<lb/>
+de uno morto senza testamento,<name> Gaio Memmio</name> accusa-<lb/>
+tore passando oltra un altro morto che si portava a la<lb/>
+sepultura rivoltato a <name>Scauro </name>dissegli:<lb/>
+<q direct="unspecified">Vette, o<name> Scauro</name>, il morto vien portato: guarda se <lb/>
+tu potessi esser suo possessore ed erede</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 53</head><p>Lamentandossi alcuni de <name>Lucio Lucullo</name> <pb n="157r"/><lb/>
+che<lb/>
+'l bestiame suo si pascolava ne gli campi altrui, <name>Appio<lb/>
+</name>mazore mostrando de difendere Lucullo disse:<lb/>
+<q direct="unspecified">Questo bestiame non é di Lucullo, vui aradigati: a <lb/>
+mi pare ch'el sia libero, perché si pascola dove gli <lb/>
+piace</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 54</head><p><name>Crasso</name> volendo calefare Sillo che diceva un testimo-<lb/>
+nio contra di lui:<lb/>
+<q direct="unspecified">Per certo</q>, disegli, <q direct="unspecified">o <name>Sillo</name>, il po essere che colui <lb/>
+da chi tu dici avere odito questo fosse curozato</q>.<lb/>
+<name>Sillo</name> consentite.<lb/>
+<q direct="unspecified">Il po anche molto bene esser</q> disse <name>Crasso</name> <q direct="unspecified">che <lb/>
+tu non habii bene inteso</q>.<lb/>
+Consentendo <name>Sillo</name> ancora a questo, disse <name>Crasso</name>:<lb/>
+<q direct="unspecified">Forsi potria essere che questo che tu dici in tuto<lb/>
+non l'avesti udito</q>.<lb/>
+Questo parlar fu sufficiente a confundere <lb/>
+<pb n="157v"/><lb/>
+quel testimonio.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 55</head><p><name>Gaio Lelio</name> dicendogli uno malamente nassuto che<lb/>
+l'era indegno de gli suoi mazori rispose:<lb/>
+<q direct="unspecified">Ma tu ei ben degno de gli tuoi</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 56</head><p><name>Marco Lepido</name> exercitandosi gli altri nel campo lui<lb/>
+si rivoltava per l'erbetta fresca dicendo:<lb/>
+<q direct="unspecified">Io voria che cussì fatta fosse la fatica</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 57</head><p><name>Lepido</name> censore avendo tolto il cavalo a uno zovene<lb/>
+per qualche soa dissoluzione e cridando gli amici suoi:<lb/>
+<q direct="unspecified">Che risponderà lui al padre per qual cagione gli sia<lb/>
+stato tolto il cavalo siando bon lavoratore, bon massa-<lb/>
+ro, modestissimo, temperatissimo?</q>, rispose:	<lb/>
+<q direct="unspecified">Ditegli che di tute queste cosse non ne credo nul-<lb/>
+la</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 58</head><p>Siando gran contesa e dubio in una <pb n="158r"/><lb/>
+brigata<lb/>
+d'omini qual cossa fosse più da desiderare, chi diceva<lb/>
+<q direct="unspecified">Io voria esser Papa</q>, chi diceva <q direct="unspecified">E mi un gran capita-<lb/>
+nio</q>, <q direct="unspecified">E mi un gran valentomo</q>: chi una cossa e chi<lb/>
+un'altra. Un puto ardito disse:<lb/>
+<q direct="unspecified">E mi voria essere un melone, perché ognuno mi<lb/>
+basaria di sotto</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 59<lb/>
+</head><p>Essendo grande ammirazione e stupore de la pru-<lb/>
+denzia e discrezione de un puto che sopra la etade <lb/>
+pareva savio, disse un vechio:<lb/>
+<q direct="unspecified">Sapiati che costui serà matto in vechieza, perché <lb/>
+la perfezione inanti il tempo fa indebilire e marcire gli <lb/>
+sentimenti</q>.<lb/>
+Il puto inzegnoso subito rispose:<lb/>
+<q direct="unspecified">Vui adonca dovevati essere molto savio in gioven-<lb/>
+tude, poiché setti sì pazo in vechieza</q>.<lb/>
+E cussì percosse l'avversario cum l'arma soa.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 60</head><p><pb n="158v"/><lb/>
+<name>Dionisio</name> siracusano, non solamente crudiele <lb/>
+ne gli omini ma ancora disprezatore de la divinitade, <lb/>
+tanti suoi sacrilegii quanti si sano cum trepevole parole <lb/>
+avea piacere di mottegiare.<lb/>
+Spogliato il tempio di <name>Proserpina a Locri</name>, ritornan-<lb/>
+do in nave per mare e avendo buon vento, ridendo <lb/>
+disse a gli compagni:<lb/>
+<q direct="unspecified">Vedeti vu come Dio presta prospera navigazione a <lb/>
+li sacrilegi?</q>.<lb/>
+Tolto ancora da la statua di Iove uno vestito d'oro <lb/>
+di gran peso, il quale gli avea offerto e donato il re<lb/>
+Ierone de le spoglie di Cartaginesi, e rimesogli un man-<lb/>
+tello di lana, disse che quel d'oro la state seria tropo<lb/>
+grieve, l'inverno tropo fredo: ma quel de lana ad ogni <lb/>
+tempo seria conveniente.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 61<lb/>
+</head><pb n="159r"/><lb/>
+<p>Siando anche in <name>Epidauro</name> comandò che fos-<lb/>
+se tolta la barba d'oro al <name>Dio Esculapio</name>, dicendo non<lb/>
+convegnersi che 'l padre <name>Apollo</name> senza barba si vedesse<lb/>
+e lui barbato si depingesse.<lb/>
+Toglieva ancora de le chiese le tavole d'arzento e <lb/>
+d'oro; e perché in quele secondo il costume de la Gre-<lb/>
+cia era scritto che fosseno de gli dei buoni, lui diceva<lb/>
+che volentiera usaria la buntade loro. Levava eziandio<lb/>
+le tace, le corone, le altre oblazione che pendevano da<lb/>
+le mane de le statue de gli dei, dicendo che li accettava <lb/>
+e non le toglieva, affermando ch'el seria gran pacia<lb/>
+pregar tuto il dì gli dei che ne desseno del bene e non<lb/>
+volere accettare <pb n="159v"/><lb/>
+quel che loro porgesseno cum<lb/>
+le soe mane.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 62</head><p>Essendo <name>Dionisio </name>odiato da tutta la terra di Siracu-<lb/>
+sa per l'asperitade de gli costumi suoi e graveze insu-<lb/>
+portabile e desiderando ognuno la morte soa, sola una<lb/>
+dona de extrema vechieza tutto il dì a' tempo del maiti-<lb/>
+no pregava <name>Dio</name> ch'el mantenesse in lunga vita.	<lb/>
+Cognoscendo il tiranno non meritare questa benivo-<lb/>
+lenzia, la fece chiamare e dimandola per qual suo meri-<lb/>
+to facesse questo. Disse la vechia:<lb/>
+<q direct="unspecified">Per bon rispetto il facio, o signor: perché mi ricor-<lb/>
+do siando puta che avevemo un rencrescevole tiranno, <lb/>
+sì che desiderava ch'el mancasse presto; morto lui, suc-<lb/>
+cesse un altro <pb n="160r"/><lb/>
+più crudiele, e cussì mi parea<lb/>
+dovere essere utile che tosto si finisse la soa signoria;<lb/>
+setti poi venuto voi pezore de gli altri, e però temendo <lb/>
+che se voi moresti non ne venisse un altro più cativo la <lb/>
+vita mia voria mettere per la vostra salute</q>.<lb/>
+Cussì faceta audacia si vergognò <name>Dionisio </name>a punir-<lb/>
+la.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 63</head><p><name>Claudio </name>imperatore ebbe molto del simplice, e fra <lb/>
+l'altre cosse sentendo che uno era stato in pericolo di <lb/>
+morte per volere ritenere la ventositade, ché non ussis-<lb/>
+se di sottovia, fece fare una crida che ognuno libera-<lb/>
+mente fosse in che noçe o conviti si volesse senza timo-<lb/>
+re di vergogna alcuna potesse rutellare, soffiare, pette-<lb/>
+giare a suo modo per sanitade del corpo<pb n="160v"/><lb/>
+e amo-<lb/>
+lare li presonieri, affermando che trentasei di cussì fat-<lb/>
+te ventositade potria generare una postema.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 64</head><p><name>Andrea da Labolico</name>, omo avarissimo, venendo un <lb/>
+dì a casa secretamente per vedere se qualche mala mas-<lb/>
+saria si facesse, trovò che la dona coceva un ovo per gli <lb/>
+putini.<name> Tuto</name> coruçato:<lb/>
+<q direct="unspecified">Orsù</q>, dissegli, <q direct="unspecified">porta qua un altro mezo ovo e<lb/>
+tri cuo' d'aio: da poi che la va a strusiare, strusiemo al <lb/>
+nome del <name>Diavolo</name></q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 65</head><p><name>Maestro Guarino</name>, utile precettore de la nostra gio-<lb/>
+ventude, passando oltra la <name>Tadia Bonlea</name>, bellissima<lb/>
+donzelina, e dicendo alcuni: <q direct="unspecified">Per certo, misser, questa<lb/>
+fantina meritaria bene qualche bel verso</q>, rispose il<lb/>
+bon vechione<pb n="161r"/><lb/>
+tutto piacevole:	<lb/>
+<q direct="unspecified">Vui ditti il vero: che la meritaria d'esser versata e<lb/>
+riversata a la pulita da qualche zentil oratore o poeta</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 66</head><p><name>Lodovico Casella</name>, referendario dignissimo, nel qual<lb/>
+erano insieme racolte tutte le vertude, aspetto grazioso,<lb/>
+eloquenzia, umanitade, modestia, scienzia, una destreza<lb/>
+tropo mirabile, il qual la natura produsse per dar exem-<lb/>
+pio de un omo compito, la cui morte ha dato gran dano<lb/>
+a gli omini litterati (o Dio, che attu voluto fare?) <gap/><lb/>
+avendo adunca in odio Lodovico queste assentazione e<lb/>
+blandizie che a questo tempo si usano nel <pb n="161v"/><lb/>
+parla-<lb/>
+re e odendo uno che tante volte gli diceva "<q direct="unspecified">la vostra<lb/>
+magnificenzia, la vostra zuca fresca</q>:	<lb/>
+<q direct="unspecified">Deh</q>, dissegli, <q direct="unspecified">riserva questo mangiar de fiche a<lb/>
+la state, perché adesso non sono abonite</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 67<lb/>
+</head><p>Trepando ancora un dì questo nostro dolcissimo <lb/>
+<name>Casella</name> cum gli altri cancellieri e ragionando de la mor-<lb/>
+te a chi prima dovesse tocare, rivolto a ser <name>Costantino <lb/>
+di Lardi</name>:<lb/>
+<q direct="unspecified">Per certo</q>, dissegli, <q direct="unspecified">padre nostro, voi setti pur il <lb/>
+più vechio: de ragione il toca a voi dar luoco a qual-<lb/>
+cheduno</q>.<lb/>
+Ser <name>Costantino</name> turbato gli rispose:<lb/>
+<q direct="unspecified">Io morirò quando <name>Dio</name> vorà; ma cussì vechio co-<lb/>
+me me vedetti voria manegiar meglio ca tuti quanti voi <lb/>
+un roncone bolegnese</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 68</head><pb n="162r"/><lb/>
+ <p>Maestro <name>Zoane</name> depintore, omo molto face-<lb/>
+to, era diventato tuto pallido e giallo e marzo. Entran-<lb/>
+do il Marchese <name>Nicolò</name> in la soa cancellaria e vedendo <lb/>
+costui in su l'usso disse:<lb/>
+"<q direct="unspecified">Che fatti vu qui, maestro <name>Zoane</name>?</q>".<lb/>
+Lui subito rispose:<lb/>
+"<q direct="unspecified">Signor, io so che a gli consegli vostri bisogna <lb/>
+omini maturi: non credo già che in <name>Ferara</name> sia il più <lb/>
+maturo omo de mi, sì che sto aparechiato</q>".<lb/>
+Siando il preditto in su il morire, gli parenti il <lb/>
+dimandavano se volesse ordinare più una cossa ca un'al-<lb/>
+tra. Disse lui:<lb/>
+<q direct="unspecified">Mai sì ch'io voglio una grazia da voi: che frate<lb/>
+<name>Zucone</name>, cum quella soa b<add>o</add>ca storta, non mi canti <lb/>
+sopra il corpo, perché il mi bisognarà star savio cum le <lb/>
+man zunte; ma se per la mala <pb n="162v"/><lb/>
+ventura questo<lb/>
+frate <name>Zucone</name> mi canterà sopra non potrò star che non<lb/>
+rida</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 69</head><p><name>Danti Aldigieri</name>, poeta fiorentino, fo molto pronto a<lb/>
+rispondere. Siando molto speculativo e contemplativo<lb/>
+un dì oldendo la messa, o ch'el facesse per esser tropo<lb/>
+astratto a qualche sottile fantasia, o forsi a studio per<lb/>
+delezare gli nemici suoi, non si inzenochiò né si levò il <lb/>
+capuzo levandosi il corpo di <name>Cristo</name>. Gli emuli, che<lb/>
+molti avea perch'era valentomo, subito corseno al<lb/>
+vescovo accusando <name>Danti</name> che era eretico e non avea<lb/>
+fatto riverenzia al sacramento. Il vescovo fece chiamare<lb/>
+misser Danti riprendendolo de l'atto suo e dimandando-<lb/>
+lo che avea fatto <pb n="163r"/><lb/>
+quando si levava l'ostia. Lui<lb/>
+rispose:<lb/>
+<q direct="unspecified">In verità io avea la mente mia sì a Dio che non mi<lb/>
+ricordo che atto facesse col corpo; ma questi cativi<lb/>
+omini che aveano l'animo e gli ochi più a mi ca a <name>Dio<lb/>
+</name>ve 'l saperiano dire. E se loro avesseno auta la mente a<lb/>
+<name>Dio</name>, non seriano stato a guardare quel che mi facesse</q>.<lb/>
+Il vescovo accettò la scusa e conoscette <name>Danti</name> per<lb/>
+savio uomo, scorgendo quegli invidiosi per bestioni.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 70</head><p>Siando anche a mensa cum misser <name>Cane da la Scal-<lb/>
+la</name>, che fo un graziosissimo signore, e volendo lui trepa-<lb/>
+re un poco cum <name>Danti</name> e incitarlo a qualche motto ordi-<lb/>
+nò cum gli servitori <pb n="163v"/><lb/>
+che assunasseno tutte le<lb/>
+osse e occultamente le ponesseno a gli piedi de Danti. <lb/>
+Levate le tavole, vedendo la brigata tante osse cussì <lb/>
+adunate a gli piedi di <name>Danti</name>, cominciono a ridere diman-<lb/>
+dandolo se fosse maestro de dati. Lui subito rispose:<lb/>
+<q direct="unspecified">Non é maraveglia se gli cani hanno manzate le <lb/>
+osse soe; ma io non son cane, però non li ho potuto<lb/>
+manzare</q>.<lb/>
+E questo disse perché quel signore avea nome mis-<lb/>
+ser<name> Cane</name>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 71</head><p>Un altro buffone per instizarlo gli disse:<lb/>
+<q direct="unspecified">Che vuol dir questo, misser <name>Danti</name>: che vui sì gran <lb/>
+valentomo e savio setti cussì povero, e io matto e igno-<lb/>
+rante son sta' fatto rico da questo mio signore?</q>.<lb/>
+Danti rispose degnamente:<lb/>
+<q direct="unspecified"><pb n="164r"/><lb/>
+Se tu ei rico non mi maraveglio, perché tu<lb/>
+hai trovato un signore simele a ti. Quando ancora io <lb/>
+troverò un signore simile a mi lui mi farà rico</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 72<lb/>
+</head><p>Un censore a <name>Roma</name> vedendo un omo d'arme esser<lb/>
+grassissimo lui e aver il cavallo magrissimo il dimandò<lb/>
+qual fosse la cagione di questa differenzia. Lui rispose:<lb/>
+<q direct="unspecified">Io me attendo a mi stesso, ma il famiglio attende<lb/>
+al cavallo</q>.<lb/>
+Per queste parole fu privato de la milizia e toltogli<lb/>
+il cavallo.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 73</head><p>El se vi fo una volta un buon omo in su el terreno<lb/>
+di <name>Fiorenza</name> che si tolse questo a fare: di volere castiga-<lb/>
+re li matti. Fece in casa una poza cava piena d'aqua <lb/>
+cum multi scallini <pb n="164v"/><lb/>
+e secondo il grado de la pacia<lb/>
+a cadauno assignava conveniente luoco. Teneva il fami-<lb/>
+glio di fuor, ché introducesse tuti gli paçi che pas-<lb/>
+sasseno.<lb/>
+Or tuto il dì andava uno ocellatore dinanti a l'usso<lb/>
+suo cum cani e falconi, chiamando, cridando e consu-<lb/>
+mando il tempo. Costui fastidito gli dice un dì:<lb/>
+<q direct="unspecified">Che exercizio é questo tuo?</q>.			<lb/>
+Lui gli narra come va discorrendo per le campagne<lb/>
+per trovare ocelli da pigliare e manda inanti gli bracchi<lb/>
+da bon naso a far reburir le quaglie e altri ocelli; e<lb/>
+come spesso gli sparvieri, non potendo pigliarli, si di-<lb/>
+sdegnano e ascendeno qualche arbore e lui sta nel sole<lb/>
+ardentissimo pur <pb n="165r"/><lb/>
+chiamando bau bau, toi toi<lb/>
+rivoltando ne so che ludro, e falo alcuna volta dispera-<lb/>
+re e biastemare.<lb/>
+Disse allora il fameglio:<lb/>
+<q direct="unspecified">Doh, fratel mio, fuggi quanto tu poi, ché se 'l mio <lb/>
+misser ti vede in su questa bestia cum quest'altra bestia <lb/>
+a mano e cum quell'altra in pugno te meterà nel fondo <lb/>
+de la soa poça come il più matto omo che mai ve-<lb/>
+desse</q>.<lb/>
+Volse dimostrare che questo exercizio non é da <lb/>
+fare se non rare volte e solamente da' signori e potenti <lb/>
+per recreazione de le soe gran fantasie; perché non par <lb/>
+si debba far stima di quegli che usano più cum le bestie <lb/>
+ca cum gli omini.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 74</head><p>Maestro <name>Biasio da Parma</name>, excellente matematico e<lb/>
+astrologo, fo singularmente <pb n="165v"/><lb/>
+trepevole. Avendo <lb/>
+in presto un libro dove trovava qualche notabele ditto, <lb/>
+in luoco de mane gli facea misser Santo <name>Priapo</name>, dicen-<lb/>
+do che quel membro era più noto ca la mane e meglio <lb/>
+reduria a memoria tutti gli notabili.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 75</head><p>Leggendo lui nel studio di <name>Pavia</name> e vedendo che per <lb/>
+la guerra del Duca de <name>Milano</name> cum Veneziani non si <lb/>
+facea il debito a gli dottori, ma a gli soldati si davano <lb/>
+le paghe inanti trato, vestitose curto cum una zornea da <lb/>
+soldati si fece scrivere per balestriero. Legendosi poi la<lb/>
+lista de gli soldati dinanti al Duca fu chiamato <name>Biasio<lb/>
+da Parma</name>. Il Duca maravegliato gli disse:<lb/>
+<q direct="unspecified">Non setti vui <pb n="166r"/><lb/>
+maestro <name>Biasio da Parma</name> che<lb/>
+é conduto a liegere nel studio mio?</q>.<lb/>
+Risposse lui:<lb/>
+<q direct="unspecified">Ben sapetti ch'i' son desso: quando si pagava li<lb/>
+dottori io legeva volentiera; adesso che si paga gli sol-<lb/>
+dati voglio esser soldato</q>.<lb/>
+Questa piaceveleza il fece contentare e cussì lassato<lb/>
+il balestro ritornò a gli libri suoi.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 76</head><p>Papa <name>Nicola</name>, fautore e amatore de le littere e ne la<lb/>
+scienzia riponendo tutto il so piacere, era incitato da<lb/>
+certe potenzie d'<name>Italia</name> che si metesse anche lui in liga<lb/>
+per fare guerra. Lui sempre rispondeva:<lb/>
+<q direct="unspecified">De guerra e de archimia niuno mi parli</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 77</head><p>A la Santitade <name>Soa</name> venendo <name>Allegrino</name>, <pb n="166v"/><lb/>
+buon<lb/>
+sonatore de la piva mocetta; e avendo fatto molti atti e<lb/>
+pacie assai dimandogli una gran quantità de denari. Il<lb/>
+Papa, disprezatore de simeli buffoni, si scusò per la<lb/>
+graveza de la Camera. Disse <name>Allegrino</name>:<lb/>
+<q direct="unspecified">Almanco, beatissimo Padre, datime una benedizio-<lb/>
+ne amplissima</q>.<lb/>
+Allora il Papa cum la mano larghissima gli fece il<lb/>
+segno de la santa croce sopra il capo, e dettegli anche<lb/>
+indulgenzia di parechie quarantine.</p>	<lb/>
+</div1>
+<div1 type="parte">
+<head>Facezia 78</head><p>Il Cardinal <name>niceno</name>, patriarca di <name>Costantinopoli</name>, chia-<lb/>
+mato <name>Bessarione</name>, omo sapientissimo, valentissimo, mo-<lb/>
+deratissimo, che per scienzia, per eloquenzia, per gran-<lb/>
+deza d'animo, per onesti costumi, mille <pb n="167r"/><lb/>
+volte ha<lb/>
+meritato il papato, se la invidia non regnasse, dicendo-<lb/>
+gli certi amici che ancora speravano di vederlo Papa,<lb/>
+rispose:<lb/>
+<q direct="unspecified">Non dite questo, perché non son de gli più tristi</q>.<lb/>
+Volse dimostrar che per le più volte quella mitria <lb/>
+di mal in peggio si travasa.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 79</head><p>Fatto che fu il Cardinale <name>greco</name>, maravegliandossi <lb/>
+gli altri che non mettese gioso la barba ma pur la <lb/>
+servasse secondo il costume de' greci, disse misser <name>An-<lb/>
+gelotto</name>, romano cardinal de <name>San Marco</name>:<lb/>
+<q direct="unspecified">Non vi maravegliati, perché tra tante capre sta<lb/>
+molto bene un beco</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 80</head><p>Misser <name>Bernabone</name>, signor di <name>Milano</name>, essendo ritro-<lb/>
+vato in un bel giardino cum una belissima damisella da<lb/>
+un <pb n="167v"/><lb/>
+religioso che sempre potea intrare a lui quan-<lb/>
+do gli piacesse, sdegnato che cussì importunamente fos-<lb/>
+se costui venuto, si pensò de pigliarlo in parole per<lb/>
+aver iusta cagione de farli male e disse:<lb/>
+"<q direct="unspecified">Dittemi, misser, se vui vi ritrovasti in uno luoco<lb/>
+secrieto e dilettevole cum cussì bella dona che faresti<lb/>
+voi? </q>.<lb/>
+Il savio frate rispose:	<lb/>
+<q direct="unspecified">Signor, i' so bene quel che doveria fare, ma quel<lb/>
+che mi facesse non so</q>.<lb/>
+E per questo parlar schifò l'ira del curozato signo-<lb/>
+re.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 81</head><p>Ragionandose ne la corte del Duca de <name>Milano </name>de la<lb/>
+facundia e bei muodi de un frate che il dì del venere<lb/>
+santo predicando avea commossa tuta la brigata e fatto<lb/>
+piangere ognuno <gap/></p>
+</div1>
+<div1 type="parte">
+<head>Facezia 82</head><pb n="167r"/><lb/>
+<p><gap/> gli servi di <name>Dio</name>. E cussì quelle benedet-<lb/>
+te brache tute ruzinente, amufate, puzolente, che sapea-<lb/>
+no da scraizo, da poeta que pars est, da mille sapori,<lb/>
+cum dupieri accesi e croce e summa riverenzia fono<lb/>
+riportate a la chiesa e riposte in luoco sacro come di-<lb/>
+gnissima reliquia.<lb/>
+O quante simile lordure e ribaldarie si commetteno<lb/>
+da questi pizocari e ipocriti, come quelo che misse<lb/>
+l'aqua nel muro dove era la figura de la Vergine <name>Maria<lb/>
+</name>depinta e dette ad intendere che la piangeva; e quel<lb/>
+altro che un osso d'aseno o di cavallo dicea esser il<lb/>
+brazo di san <name>Cristofalo</name>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 83</head><p>Una volta fo presentato un orso molto mansueto al<lb/>
+Re di <name>Persi</name>, e dicendo<pb n="167v"/><lb/>
+lui che non gli mancava <lb/>
+altro ca il saper parlare, un presuntuoso se offerse larga-<lb/>
+mente di volere insegnare di parlare a questo orso, sì<lb/>
+che in spacio di cinque anni proferiria voce umane, <lb/>
+cum questo che volea mille ducati inanti trato e poi<lb/>
+altretanti amaestrato che fosse l'orso.<lb/>
+Il signor vedendo l'ardita promessa di costui gli<lb/>
+fece dare li dinari dimandati, credendo che parlasse di<lb/>
+bon cuore e che cussì tenesse di fermo. Un amico di<lb/>
+quel temerario gravemente il riprendeva che avesse pro-<lb/>
+messo al signor cossa impossibile, di che ancora ne<lb/>
+seria malcontento. Lui rispose:<lb/>
+<q direct="unspecified">Tu mi pari un omo del quarantasei: el non po <gap/></q></p>
+</div1>
+<div1 type="parte">
+<head>Facezia 84</head><pb n="168r"/><lb/>
+<p>Un medico di poche littere, che medicava<lb/>
+cum certe soe ricette imparate da qualche vechia, avea<lb/>
+una soa usanza di guardar sempre in su la banca del<lb/>
+letto e atorno li amalati se vedea gusse o scorce di<lb/>
+frutti, acioché se pezoravano potesse dire che avessero<lb/>
+fatto disordene. E spesse volte diceva il vero, ché l'ama-<lb/>
+lato avea manzato o fiche o uva, o pere o perseche,<lb/>
+secondo che trovava le gusse per casa.<lb/>
+Pur un dì essendo l'amalato molto pegiorato e non<lb/>
+trovando niuna gussa per casa, perché la camara era<lb/>
+ben spazata e polita, voltò l'ochio sotto la lettiera e<lb/>
+vette un basto d'aseno.<lb/>
+<q direct="unspecified">Ben</q>, disegli, <q direct="unspecified">non mi maraveglio se setti pegiora-<lb/>
+to,<pb n="168v"/><lb/>
+perché avetti fatto un grandissimo di-<lb/>
+sordene</q>.<lb/>
+L'amalato, che sapeva di certo non aver mangiato<lb/>
+niuna cossa contraria, molto si maravegliò de le parole<lb/>
+del medico dicendo:<lb/>
+<q direct="unspecified">E che disordine ho io fatto?</q>.<lb/>
+Disse il medico:<lb/>
+<q direct="unspecified">Voi avetti mangiato carne d'aseno: io vedo bene il<lb/>
+basto sotto la lettiera</q>.<lb/>
+L'amalatto ebbe tanta recreazione di questo fatto<lb/>
+che tuto consolato guarrite, e sempre gli fo da ridere.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 85</head><p>Un altro amalato vedendosi ogni dì star pezo per le<lb/>
+medicine che toglieva se deliberò de non pigliarne più<lb/>
+niuna, ma lassar fare a la natura il corso suo; e quanti<lb/>
+siropi gli mandava il medico tutti li facea <pb n="169r"/><lb/>
+mette-<lb/>
+re sotto il letto, e dava ad intendere al medico che gli <lb/>
+avea beuto.<lb/>
+Ogni dì grazia de Dio andava megliorando; il medi-<lb/>
+co se tenia buono laudando le medicine soe e siando <lb/>
+colui quasi guarrito disse il medico:<lb/>
+<q direct="unspecified">Acioché più presto possiati guarire vi manderò <lb/>
+l'ultima medicina, che in tuto vi risanarà</q>.<lb/>
+L'amalato la fece pur mettere cum le altre. Torna<lb/>
+poi il medico a visitarlo e vedendolo ben guarito regra-<lb/>
+zia <name>Dio</name> e le medicine soe. Disse il buon uomo:<lb/>
+<q direct="unspecified">Per certo, missere, l'é gran forza quela de queste <lb/>
+vostre medecine, che essendo poste sotto la lettiera me <lb/>
+hano risanato. Ben credo se le avesse beute me ariano <lb/>
+<pb n="169v"/><lb/>
+fatto immortale</q>.<lb/>
+E cussì tutte adunate in uno bacile le presentò e <lb/>
+rese al medico, dicendo che se le portasse via perché <lb/>
+lui non avea più di bisogno.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 86</head><p>Uno abbate grassissimo, come soglieno essere gli <lb/>
+suo pari per tropo studiare, veniva verso <name>Ferara</name> e sopra-<lb/>
+zunzendo la sira temeva de non potere arivare a tempo. <lb/>
+Trovando un contadino il dimandò s'el potria intrare <lb/>
+dentro da la porta. Il bon uomo risguardando a la<lb/>
+grasseza soa rispose:<lb/>
+<q direct="unspecified">El ge intraria bene un carro di feno: guarda se tu<lb/>
+gl'intrarasti</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 87</head><p>Una donna tutta la notte stentata e travasata dal<lb/>
+marito come fastidita <pb n="170r"/><lb/>
+e curozata disse:<lb/>
+<q direct="unspecified">Io priego <name>Dio</name> che tu non possi mai far altro</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 88</head><p>Un dottore legista essendo amalato e vogliando il<lb/>
+medico vedere l'urina, la fantesca avendola spanta subi-<lb/>
+to gli ripose de la sua in cambio di quela del messier. Il<lb/>
+medico ridendo disse:<lb/>
+<q direct="unspecified">Questo male averà bon fine: il nostro amalato <lb/>
+parturirà presto</q> (perché la fantesca era gravida).<lb/>
+Allora il dottore turbato se rivoltò a la dona:<lb/>
+<q direct="unspecified">Io te 'l diceva bene, moglie mia: tu voi pur star<lb/>
+sempre di sopra. Vedi a che pericolo tu me hai messo:<lb/>
+ch'io sia gravedo</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 89</head><p>Un'altra fantesca avendo scozato l'urinale dove era<lb/>
+l'aqua de la madona amalata, toltone presto <pb n="170v"/><lb/>
+un<lb/>
+altro gli fece de la soa. Il medico vedendo questa urina<lb/>
+vivida e gagliarda disse:<lb/>
+<q direct="unspecified">Questo é un bon male</q>.<lb/>
+E rivolto al marito dissegli:<lb/>
+<q direct="unspecified">Questa toa dona ha più bisogno de le toe medici-<lb/>
+ne ca de le mie: ha bisogno di coito</q>.<lb/>
+Il marito compassionevole perché la dona soa gua-<lb/>
+risse presto comincia a lavorargli intorno. La bona do-<lb/>
+na, benché sul principio gli fosse rencresevole, pur gli <lb/>
+seppe sì buono e dolce che guarite subito cum la grazia <lb/>
+di <name>Dio</name>.<lb/>
+Imparati adunche, o medici, che tutti li morbi de le <lb/>
+femine una sola medicina risana.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 90</head><p><name>Cosmo di Medici</name>, che per le richeze e potenzia e <lb/>
+non minor prudenzia <pb n="171r"/><lb/>
+soa ha menato e governato <lb/>
+gran tempo la cità di <name>Fiorenza</name> come ne fosse stato bel<lb/>
+signore, fu dato per auditore e risponsore a certi ambas-<lb/>
+satori luchesi. E ordinato il luoco de l'audienzia in casa<lb/>
+soa secondo il loro costume, e siando a parlamento <lb/>
+cum quegli, un fantolino so nipote venne a lui cum <lb/>
+certe canuze e un cortelino ché gli facesse una piva. <lb/>
+<name>Cosmo </name>mostrando di lassare il parlamento attendé al<lb/>
+putino e fecegli la piva, dicendo che se andasse mo a<lb/>
+zugare.<lb/>
+Gli ambassatori sdegnati se rivoltono a <name>Cosmo</name> <lb/>
+dicendo:<lb/>
+<q direct="unspecified">Per certo, misser <name>Cosmo</name>, nui non se potemo assai<lb/>
+maravegliare de gli fatti tuoi: che siando venuti a ti <lb/>
+<pb n="171v"/><lb/>
+per parte de la nostra communitade a trattare di<lb/>
+gravissime facende lassi star noi e attendi a' fantolini</q>.<lb/>
+<name>Cosmo</name> ridendo e abracciandogli disse:<lb/>
+<q direct="unspecified">O fratelli e mazuri miei, non setti anche voi pa-<lb/>
+dri? Non sapetti che amor sia quello de' fioli e nipoti? <lb/>
+Vi datti maraveglia ch'io abia fatta la piva: bon fo che<lb/>
+non disse ch'io sonasse, che averia anche sonato</q>.<lb/>
+E replicando ciò che aveano detto gli fece intende-<lb/>
+re che avea auta la mente a' fatti suoi.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 91</head><p>Misser <name>Francesco Foscari</name>, dignissimo e magnanimo<lb/>
+Duce di<name> Vinesia</name>, dimandando certi castellani che si<lb/>
+vedesse di ragione se dovevano perdere le castelle soe,<lb/>
+rispose:<lb/>
+<q direct="unspecified">Fratelli miei, da <pb n="172r"/><lb/>
+diece millia ducati in suso <lb/>
+non si dà sentenzia in palazo da' iudici, ma ne la campa-<lb/>
+gna da' soldati</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 92</head><p><name>Francesco Sforza</name> Duca di <name>Milano</name>, che certo a li dì<lb/>
+nostri é stato un glorioso e venturato taliano, de picolo<lb/>
+stato salito a tanta signoria, dicendogli alcuni che era <lb/>
+tropo cupido in volere sempre vincere e star di sopra, <lb/>
+rispose:<lb/>
+<q direct="unspecified">Vi prometo che se io zugasse a manzar tortelli <lb/>
+voria sempre vincere</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 93</head><p>El Conte <name>Galeazo</name> suo figliolo e adesso valorosissi-<lb/>
+mo Duca di<name> Milano</name>, il qual ne la gioveneza soa cegna e <lb/>
+dimostra di volere essere un notabilissimo signor, es-<lb/>
+sendogli detto che non tropo iustamente avea pigliato <lb/>
+<name>Bresello</name>, rispose:<lb/>
+<q direct="unspecified">Io pigliaria<pb n="172v"/><lb/>
+el Paradiso s'el non fosse ben<lb/>
+guardato</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 94</head><p>El sapientissimo e dolcissimo Duca <name>Borso</name>, del qual <lb/>
+seria difficile a dire qual sia la mazor virtù perché tutte <lb/>
+insieme copiosamente gli abundano, ricomandandossi a <lb/>
+lui un poveretto ché l'aiutasse perché avea dona e figlio-<lb/>
+li e la famigliola grieve, trepando rispose:<lb/>
+<q direct="unspecified">Tu non dovevi tuor dona vedendote povero e non <lb/>
+potergli far le spese. Tu dovevi far come ho fatto io,<lb/>
+che cognoscendo di non potere suplire e satisfare a'<lb/>
+desiderii de le done piutosto me ho voluto astegniere</q>.<lb/>
+E dicendo colui aver fatto come fanno gli altri gli<lb/>
+usò la consueta cortesia soa.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 95</head><p><name>Monsignor de Fois</name>, onestissimo e mansuetissimo<lb/>
+<pb n="173r"/><lb/>
+protonotario e certo grandissimo ornamento del<lb/>
+studio nostro, invitandolo alcuni a zugare a scachi o<lb/>
+tavole, rispose:<lb/>
+<q direct="unspecified">Non mi par da perdere tempo in quelle cosse ne <lb/>
+le quale anche gli stabularii e vilissimi omini sono avan-<lb/>
+tagiati</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 96</head><p>Misser <name>Ercule da Este</name>, tuto savio e pesato signore e<lb/>
+magnanimo e prudentissimo capitanio, oldendo uno<lb/>
+omo da poco e povero che si gloriava d'esser stato fatto <lb/>
+cavaliero dal Re di <name>Napuli</name>, rispose:<lb/>
+<q direct="unspecified">Meglio seria che te avesse donato mille ducati</q>.</p> <lb/>
+</div1>
+<div1 type="parte">
+<head>Facezia 97</head><p><name>Bonvicino</name>, fattore general e amatore del so signore,<lb/>
+facendo un dì<pb n="173v"/><lb/>
+un magnifico e dignissimo presen-<lb/>
+te al Duca <name>Borso</name>, <name>Scocola</name> buffone rivolto al signore<lb/>
+disse:<lb/>
+<q direct="unspecified">Non l'acetare, signor, ch'el te costarà più ch'el non <lb/>
+vale: tu il pagarai il dopio</q>.<lb/>
+Cussì alcuni mostrando di donare vendeno caramen-<lb/>
+te.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 98</head><p>Al tempo del Marchese <name>Nicolò</name>, benigno e real si-<lb/>
+gnor, fo uno che se gli offerse a volere insegnare di <lb/>
+sparmiare e far massaria di certe superflue spese che si <lb/>
+faceano ne la corte. Il signor mostrò di darli orechie<lb/>
+dicendo che era molto contento.<lb/>
+Fece adunche costui stare il Marchese parechie not-<lb/>
+te ascoso a vedere gli furti che si faceano da la cocina,<lb/>
+da la panataria, <pb n="174r"/><lb/>
+da la caneva, da la speciaria, da <lb/>
+la spenderia, da le altre salverobe, sì che vedea portare <lb/>
+chi pane, chi vino, chi carne salata, chi castagne, chi<lb/>
+altri frutti, chi candele e cetera. Disse alora costui:<lb/>
+<q direct="unspecified">Vedeti mo, signor: non seria buono avanzare que-<lb/>
+ste spesuze? Chi azunze un poco apresso un altro poco <lb/>
+il diventa assai</q>.<lb/>
+Rispose il Marchese:<lb/>
+<q direct="unspecified">A quanto ascenderia mo questo tale avanzo?</q>.<lb/>
+Dicendo colui: <q direct="unspecified">Forsi a doe o tre millia libre</q>, <lb/>
+rispose il signor:<lb/>
+<q direct="unspecified">E tu voresti poi ch'io te le donasse a ti cum incari-<lb/>
+co de l'onor mio! Deh, lassa vivere gli poveretti sotto <lb/>
+le ale de l'aquila mia, che io ne son molto vago e <lb/>
+contento. Voria che tu me insegnassi <pb n="174v"/><lb/>
+di far <lb/>
+massaria ne le gran spese, ma questo anche non si può<lb/>
+fare perché gli siamo derotti; e bisogna pure saziare e <lb/>
+contentare questi nostri appetiti che in tuto segnoreza-<lb/>
+no a la ragione</q>.<lb/>
+E cussì il savio signore scorse costui per un moro<lb/>
+turco e saraino che volesse levar via quel che sempre <lb/>
+era usato di fare.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 99</head><p><name>Antonio Sandelo</name>, onorevole iudice de gli nostri do-<lb/>
+dece savii, litigando al so tribunale dui per una picola<lb/>
+quantitade e avendone tuto il dì gran fastidii e rompi-<lb/>
+menti di capo per non potergli accordare:<lb/>
+<q direct="unspecified">Per certo</q>, diss'egli, <q direct="unspecified">l'é molto meglio che io pa-<lb/>
+ghi questi dinari perché farò <pb n="175r"/><lb/>
+dui beni: accorda-<lb/>
+rò le parte e a mi levarò tanta molestia</q>.<lb/>
+Non so s'el facesse: disse bene che seria meglio a<lb/>
+farlo, almanco in sì picola summa; in le grande non<lb/>
+seria da usarsegli.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 100</head><p><name>Febo dal Sarasino</name> per tropo luxuriare ogni dì più<lb/>
+perdeva la vista. Finalmente siando fatto in tutto cieco<lb/>
+disse lui:<lb/>
+<q direct="unspecified">O loldato sia Dio: che io potrò spazare quanto io<lb/>
+vorò che non arò più paura di perdere gli ochi</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 101</head><p><name>Astolfo dal Campo</name> del pero, poverissimo omo, era<lb/>
+sempre andato discalzo. Pur essendo uno inverno terri-<lb/>
+bile e molto fredo se affaticò tanto che guadagnò diece<lb/>
+soldi, e mandò la dona soa ne la citade <pb n="175v"/><lb/>
+ché<lb/>
+comparasse un paro de scarpe.<lb/>
+Costei vedendo in piaça una cesta de fiche seche da<lb/>
+<name>Cesena</name> spese li dinari in fiche, e ritornando a casa<lb/>
+disse al marito:<lb/>
+<q direct="unspecified">O <name>Astolfo</name> mio, io ho fatta una buona spesa: tu sai <lb/>
+che tanto tempo avemo mangiato pan sutto; il venne <lb/>
+adesso la quaresema: non si passaressemo cussì bene <lb/>
+cum pane e scarpe come faremo cum pane e fiche. Tu <lb/>
+te ne starai a' pié del fuoco e non sentirai fredo, e<lb/>
+trastularemosse cum questo companadego</q>.<lb/>
+Cussì il buon <name>Astolfo </name>si consolò al meglio che pote-<lb/>
+te aspettando il mese di <name>Mazo</name>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 102</head><p>La <name>Zoana </name>bona avendo una madona che per avari-<lb/>
+zia non comprava mai carne <pb n="176r"/><lb/>
+fresca, mandata un <lb/>
+dì in piaza a comprare una scarana se abatete in una <lb/>
+dona che avea una oca grassa, e lassata star la scarana <lb/>
+comparò l'oca, dicendo a la madona che non gli era <lb/>
+scaranne e che bisognava pur vivere, ma senza scaran-<lb/>
+ne si potea bene sedere.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 103</head><p>Maestro A<name>gostino</name> teologo bevendo un dì di buona <lb/>
+malvasia:<lb/>
+<q direct="unspecified">Per certo</q>, diss'egli, <q direct="unspecified">il si voria tagliar le mane a<lb/>
+quegli che podano cussì fatte vigne, perché se non si<lb/>
+podasseno arivariano infina a <name>Ferara</name></q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 104</head><p><name>Demostene</name> greco dovendo orare contra un nemico<lb/>
+de la patria, essendo sta' corroto per denari e vasi<lb/>
+d'arzento, venne al conseglio cum la gola<pb n="176v"/><lb/>
+infas-<lb/>
+sata, scusandosi che non potea parlare perché era forte-<lb/>
+mente rifredato. Un altro oratore che sapea il fatto <lb/>
+rispose:<lb/>
+<q direct="unspecified">Non il fredo, ma l'arzento te ha astropata la gola</q>.<lb/>
+Demostene di questo gloriandose gli disse:<lb/>
+<q direct="unspecified">Io ho auto più per tacere ca ti per parlare</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 105</head><p><name>Tullio</name> nostro vedendo il socero suo di picola statu-<lb/>
+ra cum una gran spada a lato trepando disse:<lb/>
+<q direct="unspecified">Chi ha ligato mio socero a cussì gran cortello?</q>.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 106</head><p>Maestro <name>Cerse</name>, parabolano e cavadenti e çarlatore<lb/>
+polito, dette ad intendere a' veneziani, in quel tempo<lb/>
+che erano simplici e tropo buoni, che avea polvere da<lb/>
+far morire le pulice: ognuno corse a compararne come<lb/>
+fosse stato balsamo o cresma. Lui notando la buona<lb/>
+fede <pb n="177r"/><lb/>
+di costoro, che aveano cusito il vestito di<lb/>
+reve sempio, dissegli:<lb/>
+<q direct="unspecified">Per certo, signori veneziani, mi maraveglio di voi<lb/>
+che non vogliati sapere che muodo avetti a tenere di<lb/>
+questa polvere. Or sapiati che bisogna far cussì: piglia-<lb/>
+ti queste pulice e apritegli la boca e butatigli dentro<lb/>
+questa polvere</q>.<lb/>
+E dicendo queste parole rideva, che se gli aria cava-<lb/>
+ti li denti. Li veneziani sdegnati, intesa la socheza loro, <lb/>
+ge butono li bussoli e scartozzi nel volto; e fu in perico-<lb/>
+lo.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 107</head><p>El Re d'<name>Ingelterra</name> volendo usare certa cortesia a<lb/>
+uno valentomo ordinò al cancelliero che gli facesse <lb/>
+dare mille ducati. Questo cancelliero, maligno, perver-<lb/>
+so, invidioso, <pb n="177v"/><lb/>
+(non sono tuti simeli al nostro <lb/>
+piatosissimo e amorevelissimo <name>Casella</name>: o <name>Dio</name>, quante <lb/>
+volte se l'insuniaremeno!) volendo distuore il Re da<lb/>
+questa liberalitade disse:<lb/>
+<q direct="unspecified">Signore, se vedesti mille ducati in uno luoco assu-<lb/>
+nati vi pareria un bel numero</q>.<lb/>
+Il Re conoscendo la malignitade di costui rispose:<lb/>
+<q direct="unspecified">Deh, fa' ch'i' li vegga per toa fede</q>.<lb/>
+Portò costui li dinari e distendevali bene per tuta la<lb/>
+tavola, ché tenesseno più loco. Disse il Re:<lb/>
+<q direct="unspecified">Per certo, io credeva che mille ducati tenesseno <lb/>
+più gran posta. Or fa' che siano altretanti</q>.<lb/>
+E cussì l'invidia bevette il suo veneno.</p>
+</div1>
+<div1 type="parte">
+<head>Facezia 108</head><p>Fo scritta una lettera per parte del Duca <lb/>
+<pb n="178r"/><lb/>
+nostro ad uno podestate di <name>Carpaneto</name> in modenese<lb/>
+chiamato <name>Polo da Foiano</name>, ne la qual si conteneva che<lb/>
+dovesse pigliare un sparaviero e mandargelo ligato in<lb/>
+uno sacheto ché non fugisse. Le parole erano per lette-<lb/>
+ra in questa forma: Dilectissime noster, capias accipi-<lb/>
+trem et mitte nobis ligatum in sacculo ne aufugiat.<lb/>
+Misser lo podestà, che sapeva de la grammatica di<lb/>
+montagna, legendo questa parola accipitrem  intese che<lb/>
+significasse l'accipriete, e chiamò <name>Pavaione</name> so genero e<lb/>
+dicegli:<lb/>
+<q direct="unspecified">Il signor mi scrive ch'io pigli l'accipriete e che ge<lb/>
+'l mandi ligato in un saco ch'el non fugga: qualche<lb/>
+tradimento de' aver fatto costui</q>.<lb/>
+Lieze quela <pb n="178v"/><lb/>
+lettera <name>Pavaione</name>, che ne sapea <lb/>
+tanto de la grammatica quanto il misser. Liege e dice:<lb/>
+<q direct="unspecified">Questo é certo: che accipitrem vien a dire l'acci-<lb/>
+priete; ma non ditti niente al nodaro perché l'é so<lb/>
+parente</q>.<lb/>
+E mandono per l'acciprete dicendogli che l'era pre-<lb/>
+sone del Duca. Il buon omo innocente risponde che<lb/>
+sempre é presone del suo signore, ma che non ha fatto<lb/>
+mal niuno.<lb/>
+<q direct="unspecified">Or ben</q>, disseno coloro, <q direct="unspecified">bisogna pure obedire</q>.<lb/>
+E cussì messolo nel sacco il condusseno a <name>Ferara</name>. <lb/>
+Vanno da <name>Lodovico Casella</name> dicendo che hanno exegui-<lb/>
+to quel che gi é stato commesso. <name>Lodovico </name>risponde<lb/>
+che non sa covelle di tal commissione.<lb/>
+<q direct="unspecified">Ma avetti vu littere</q>?.<lb/>
+<q direct="unspecified">Mai sì</q> dicono costoro e mostrano la littera.<lb/>
+La qual legendo <name>Lodovico</name> se l'ebbe a piacere non é<lb/>
+da dimandare; ma per non discoprire la ignoranzia soa<lb/>
+disse ch'el seria col signore; e fogli risposto che lassas-<lb/>
+seno pur il priete, perché altro s'era deliberato. <lb/>
+E credo che d'alora in qua se son scritte le littere <lb/>
+per vulgare acioché non incontrasse più tal scandalo <lb/>
+che per sparavieri se<pb n="179r"/><lb/>
+<add>pigliasseno gli acci-<lb/>
+prieti</add>.</p>
+</div1>
+</body>
+</text>
+</TEI.2>

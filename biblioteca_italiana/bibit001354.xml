@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>De hominibus doctis</title>
+      <author>Paolo Cortesi</author>
+    </titleStmt>
+    <extent>80 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001354</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Pauli Cortesii De hominibus doctis</title>
+        <author>Cortesi, Paolo</author>
+        <editor id="ed">Ferrau, Giacomo</editor>
+        <publisher>Il Vespro</publisher>
+        <pubPlace>Palermo</pubPlace>
+        <date>1979</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="lat"/></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>878 - LETTERATURA LATINA-MISCELLANEA</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Messina</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Messina</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-12-02T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Ilenia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica con software</item>
+    </change>
+    <change>
+      <date>2004-01-20T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="dedica">
+<head>M.L. Phosphorus pontifex Signinus Paulo Cortesio s.</head>
+<p>Dii deaque, quid ego video? Quotus enim quisque est, qui 
+alterum tantum exbibeat aut praestet? Legi igitur tuum 
+dialogum elegantissimum et plane Latinum: apparet te in 
+legendo Cicerone operam non amisisse, ita eum effinxisti, 
+ipsum certe audire videor. Sed in isto libro id praecipue 
+sum admiratus, quod in iudicandis nostrorum hominum 
+ingeniis tam aequus fuisti. Nullis nec odiis nec amicitiis 
+motus, omnes vel laudas vel taxas, aliquos ita certis et 
+veris exceptionibus describens, ut ne ipsi quidem negaturi 
+sint si reviviscerent.</p>
+<p>Quare, mi suavissime Paule, perge et ede opus: nihil est 
+quod vereare. Ausim affirmare, si quid ego sum, omnes 
+istos, quos commemorasti, facile a te uno in dicendo 
+superatos.
+</p>
+</div1>
+
+<div1 type="dedica">
+<head>Angelus Politianus Paulo Cortesio s.</head>
+<p>
+Quid de tuo sentiam dialogo, vix audeo equidem sine 
+cunctatione proferre. Nam nec invidiae obicere amicum nec 
+dissimulare tamen iudicium volo: sed tamen, aut amore 
+labor, aut libello tuo nobilior est indoles quam quae 
+videri continuo temporum possit. Censuram sic agis 
+litteratorum ut, quod est arduum, candorem pariter tuum 
+probes et libertatem. Certe inest operi quaedam super 
+istius aetatis captum quasi maturitas, illa vero tempestiva 
+non praecox; stili quoque voluntas apparet optima et, ut 
+auguror, a summo non diutius <pb n="99"/>
+abfutura. Postremo, ut 
+semel dicam, Phosphori sententiae non accedo solum, sed 
+et faveo. Tuae deinceps erunt partes ut quam modeste 
+gloriam, tam fortiter invidiam feras. Vale.</p>
+</div1>
+
+<div1 type="dedica">
+<head>Paulus Cortesius Laurentio Medici s. p. d.</head>
+
+<pb n="100"/>
+<p>Cum maximis in rebus, magne Laurenti, nostronum hominum 
+praeclara ingenia soleo laudare, tum praesertim in his 
+studiis quae ex tenebris tanquam ad intuendam lucem 
+revocarunt. Nam, cum esset aliquando ex diuturna barbarorum 
+vexatione Italia liberata, tum incredibilis multitudo se 
+contulit ad omnium magnarum artium disciplinas celebrandas.</p>
+<p>Quorum studiis principes illius aetatis tantum ad 
+facultatem perquirendae doctrinae profuerunt, ut pariter 
+desertarum disciplinarum patrocinium suscepisse viderentur; 
+quo in genere avus et pater tuus, sapientissimi homines, 
+extiterunt qui, cum florerent omnibus virtutibus, hac tamen 
+laude ingenionum excitandorum longe coeteris praestiterunt. 
+Tu vero, huius gloriae praeclarus amplificator, non modo 
+extollis ingeniosorum hominum studia, sed etiam in maximis 
+occupationibus omne domesticum tempus ad artes elegantes 
+atque ingenuas confers; et cum ad naturam eximia 
+gravissimarum disciplinarum instrumenta adhibueris 
+coniunxerisqtie difficillimam societatem potestatis et 
+sapientiae, mirabile sit dictu quantum inter clarissimos 
+homines unus excellas.</p>
+<p>Nam, cum prima aetate respublica se tibi commisisset tuque 
+eam sic constituisses ut et omnium saluti consuleres et eam 
+ex flamma civilis belli atque ex acerbissima catamitate 
+eriperes cumque ille casus satis locuples fuisset vel 
+sponsor <pb n="101"/>
+rectae voluntatis vel testis clementiae tuae, 
+haud tamen erat satis cognitum plusne tibi ad salutem 
+virtus an fortuna contulisset.</p>
+<p>Nunc vero, cum tot iam annos et his temporum asperitatibus, 
+non modo rempublicam conservaveris, sed etiam eius imperii 
+fines dilataveris, nemini dubium est te ad haec 
+administranda plus a virtute quam a fortuna quaesisse 
+praesidii. Iam vero, quo unquam in homine tam diversae 
+inter se fuerunt partes virtutum maximarum? quid enim 
+longius abest quam a gravitate facilitas? quis tamen te 
+constantior? contra vero, quis clementior aut lenior? quid 
+tam mirabile quam magnitudinem istam animi humanitatis 
+condimentis temperari? quid est difficilius quam in tanta 
+nominis celebritate et gloriae ita modeste ac temperanter 
+vivere? Aequum est ut, cum secundis prudenter modereris et 
+fortissime tuleris adversas, omnem superes consilio 
+fortunam. In quo par laus est illius a te victae, tua 
+receptae: magna haec quidem, sed tamen sunt et alia his 
+fortasse non minora. Nam, cum haec bene vivendi ratio 
+disciplinarum adiumentis confirmatur, tum nescio quid 
+excellens ac perfectum fieri videmus.</p>
+<p>Habes enim plurimas artes, harum virtutum comites ac 
+ministras, quae, cum sint specie dissimiles, prudentia 
+tamen eas ad omnem usum et ad vitae iucunditatem 
+coniunxisti: quis unquam te in dicendo gravior habilis est 
+aut in omni sermone sapientior? iam poemata tua quod lumen 
+ingenii, quae ornamenta non habent? quid dicam quantum in 
+musicis, quantum in mathematicis, quantum in philosophia 
+profeceris? Itaque solus his virtutum praesidiis et isto 
+tuo mirificio sapientiae bono verae gloriae gustum sentis.</p>
+<pb n="102"/>
+<p>Ergo ex omni Italia te unum homines intuentur, te ita 
+verissimis laudibus ad omnem memoriam commendant ut nulla 
+unquam sit tuum nomen obscuratura aetas; et praeclare cum 
+illis actum, qui te commendando in societatem gloriae 
+venire coguntur.</p>
+<p>Ego vero, cum ab ineunte aetate una omnium voce laudes 
+viderem celebrari tuas, iamque adolescens, admirabili fama 
+compulsus, vehementer flagrarem signum aliquod meae erga te 
+voluntatis ostendere, id primum conari volui, cuius maxime 
+studiis deditum te esse sentirem. Sed, ut revertar ad ea 
+quae coeperam, cum saepe in mentionem incidissem eorum 
+hominum qui nobis studia doctrinae ab interitum 
+vindicarunt, dolebam equidem, cum a nobis multum summis 
+ingeniis deberetur, nos esse ad remunerandum tardiores.</p>
+<p>Itaque, cum multis saepe in locis, tum maxime nuper in 
+insula quae est in lacu Volsinensi eorum est habita 
+mentio: nam, cum ex Urbe aliquot adolescentes in insulam 
+venissemus essetque nobiscum Alexander Farnesius, 
+adolescens cum ingenuis artibus instructus, tum summa mecum 
+benevolentia coniunctus coepimus ibi sedentes inter nos 
+colloqui multis variisque de rebus propter loci amoenitatem 
+cumque quaereretur quinam essent hi, quorum ingeniis sunt 
+sopita studia excitata, rogavimus omnes Antonium quendam 
+maiorem natu, doctissimum illum quidem hominem et ingenii 
+acerrimi, ut, si ei placeret, quid de his viris sentiret, 
+explicaret. Quod, cum ipse multa de unoquoque proprie 
+gravissimeque disseruisset collegissetque eos homines uno 
+sermone usque ad hanc <pb n="103"/>
+aetatem, tantum me illa vel 
+copia vel illo orationis cursu delectavit ut decreverim eum 
+ipsum sermonem mandare litteris. Quamquam non ignoro quam 
+minus verecunde faciam, quod primum tantam rem susceperim 
+quodque mea scripta auctoritate tui potissimum nominis 
+celebrari velim, quorum alterum esse potest hominis 
+fortasse ingeniosi et studio litterarum flagrantis, alterum 
+certe nonnisi parum verecundi. Nam, quicquid litteris 
+mandatur, qualecumque sit, per se laudabile est: at homo 
+adolescens non satis instructus artibus ac doctrinis, cum 
+palam sua scripta protulerit, omnino avidior, quam par est, 
+gloriae videri potest. Tu tamen, magne Laurenti, non tam 
+meam hanc licentiam quam voluntatem metiare, ut, si semel 
+extra ripas verecundiae defluxerim, existimes me id 
+licentius fecisse spe patefaciundi mihi aditum ad amorem 
+tuum. Neque enim fas esse puto quemquam inire tuam gratiam 
+nisi per virtutem. Quod mihi erit iucundius, si meam hanc 
+voluntatem probaveris ut aliquando approbatione divini 
+ingenii tui ad maiorem laudem videar excitari. Vale.
+</p>
+</div1>
+</front>
+
+
+<body>
+
+<pb n="104"/>
+<head>De hominibus doctis</head>
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Insula quidem haec ex omni aspectu eximiam 
+habet speciem pulchritudinis. Nam, cum lacus ipse 
+perlucidus et frugiferis undique collibus cinctus 
+vehementer delectet, tum haec umbrosa saxorum altitudo et 
+hi vestitus riparum tantum voluptatis afferunt ut cum me a 
+frequentia hominum ad ocium conferre statuerim nusquam 
+potius sim; quanquam tu quidem, Alexander, qui eundem 
+gustum habes, quantum intelligere possum, huius loci 
+opportunitate libentissime uti soles.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Ego vero, cum ociosus sum; sive quid volo sine 
+interpellatoribus legere sive aliquid mecum ipse cogitare, 
+hanc potissimum amoenitatem sequor; sed est alia quoque 
+causa quae me saepius huc venire invitet atque allectet.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Quaenam est igitur ista causa?
+</p>
+</sp>
+<pb n="105"/>
+
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Quia hic multa sunt monumenta maiorum meorum: 
+nam Rhamnusius avus meus huius sacrarii fundamenta iecit, 
+quod postea patris et patrui mei studio auctum est, ut 
+vides, lautius ac magnificentius.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Iure igitur a te diligitur hic locus; et ego iam 
+non tam eius amoenitate delector quam recordatione 
+Rhamnusii, magni mehercule viri vel potius summi 
+imperatoris. Fuit enim is unus ex illo coetu et robore 
+optimorum hominum.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Gaudeo me tibi ostendisse haec monumenta laudum 
+domesticarum.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Recte tu quidem facis, Paule, quod tantopere 
+Rhamnusium laudas: videris enim mihi eum laudando 
+felicitatem illorum temporum significare; et fuerunt 
+omnino, memoria patrum, eum plerique bellicis rebus 
+praeclari viri, tum multi omni genere doctrinae floruerunt.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Ego vero, cum utrumque id genus hominum admirer, 
+hos etiam amo, quorum industria sunt nobis aditus ad 
+eloquentiam patefacti. Sed quoniam, Antoni, in hanc 
+mentionem incidisti, erit nobis pergratum si de his doctis 
+hominibus quid sentias explicabis.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quid dicit Alexander?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Mihi quidem erunt ista gratissima et sane locus 
+ipse adhortari videtur ut aliquid hic inter nos in umbra 
+colloquamur et sumus ociosi.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Recte tu quidem, Alexander; scitum est enim illud, 
+<pb n="106"/>
+opus ocii extare oportere. Ordire igitur, Antoni, 
+id quod ex te requirimus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Ego, etsi libenter hoc muneris quod mihi imponitis 
+refugerem, tamen, quoniam ita avide rogatis ut durum 
+admodum sit huic vestrae non obsequi cupiditati, exponam 
+omne meum vobis de hominibus doctis iudicium, non tam 
+ostentandi ingenii spe quam negandi verecundia.</p>
+<p>Quaeritis igitur quanti et quales in disertorum numero 
+habiti sint et qui mihi ad aliquam eloquentiae laudem 
+maxime accessisse videantur. Ego vero, si avorum memoriam 
+repetere voluero, ita reperiam eloquentiam obmutuisse ut 
+non tam calamitatem temporum deplorandam putem quam 
+gratulandum nostris hominibus, qui haec ipsa studia nobis 
+revocarunt.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Sane quidem et ego quoque his ipsis hominibus 
+plurimum me debere cogor confiteri. Sed tamen non video 
+unde tanta varietas saeculorum, tot coeli mutationes 
+innascantur, ut quarundam aetatum procurationem dii 
+immortales habuisse, quasdam omnino contempsisse videantur. 
+Nam, quot oratores uno tempore Athenae tulerunt? quanta 
+dicendi vis, quae disciplinae, quae ingenia ex uberrimis 
+illius aetatis fontibus defluxerunt? quot una aetate 
+Romae oratores floruere? quot valuere dicendo? Mitto 
+disciplinam rerum bellicarum, <pb n="107"/>
+mitto praeclara studia 
+coetararum artium. Contra vero, quid avorum memoria bonarum 
+artum egentius? quando unquam litterae diutius 
+conticuerunt? quando tantum obsolevere ingenia ut plane 
+omnia uni aetati deorum munere concesesa, alteri omnia 
+fatali quodam malo erepta esse videantur?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Assentior in hoc tibi, Alexander, quod temporum 
+varietates deorum nutu fieri censeas. Quis enim dubitet 
+cuncta a supremo illo Opifice praeclaro quodam iudicio 
+administrari? Sed omittamus istam doctorum hominum in 
+coelestium rerum investigatione scientiam: explicandae 
+nobis potius erunt hae causae quae eloquentiae studia 
+funditus ex Italia sustulerunt. Ac primum mihi quidem 
+videtur translatio illa domicilii imperii Romani ex 
+Italia in Thraciam non minimam attulisse eloquentiae 
+iacturam; qua profecto emigratione et aditus Italiae 
+patuerunt barbaricae crudelitati et Romanorum opes 
+corruerunt. Nam barbarae nationes, odio diuturnae 
+servitutis ac delendi nominis Romani cupiditate, in 
+Italiam tamquam ad certam praedam confluxernt; ex quo 
+tantae calamitates sequutae sunt ut cives suis sedibus 
+pellerentur, immanes gentes in nostrum genus infunderentur 
+et civitates everterentur et fortunatissima quondam 
+respublica dilaberetur.</p>
+<p>Nec vero solum hae nationes una tantum praeda contentae 
+fuerunt, sed etiam mille prope annorum Italiae 
+possessionem acerbissima vexatione tenuerunt. Hinc 
+colligatio affinitatis cum barbaris, hinc multis involucris 
+inquinata Latine loquendi consuetudo, hinc direpta atque 
+exusta infinita librorum copia. Quibus rebus factum est ut 
+nascentia ingenia omni ope destituta <pb n="108"/>
+et penitus in 
+barbariem immersa languerint.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Quamquam omittamus ista, Antoni, quae sine dolore 
+<pb n="109"/>
+audire non possumus; refricantur enim molestiae 
+commemoratione acceptarum calamitatum. Sed pergamus potius 
+ad ea quae coepimus de hominibus doctis, oratoribus enim 
+non ausim iam dicere.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Mihi vero, Antoni, probantur satis ea, quae modo 
+sint a te dicta; sed tamen nemo negarit has clades, haec 
+incendia varietatesque et temporum et maximarum rerum fato 
+quodam fieri aut casu aut coeli conversionibus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Quorsum ista, Alexander? Noli, quaeso, in hanc 
+disputationem Antonium revocare: sunt enim ista iam diu a 
+doctissimis illis viris disputata, quae et commodius tempus 
+et longiorem sermonem postulant.
+</p>
+</sp>
+<pb n="110"/>
+
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Nihil sane impedio.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quoniam igitur difficile admodum esset singulos 
+nominare qui aliquam eloquentiae laudem attigerunt, de his 
+tantummodo hoc loco dicendum erit quorum scripta in manibus 
+hominum versentur; et hi etiam nimirum, quos a maioribus 
+aut laudatos accepimus, aut qui poetica aliqua gloria 
+praestiterunt, in hunc sermonem referendi videntur.</p>
+<p>Nam posteaquam maximarum artium studia tam diu in sordibus 
+aegra desertaque iacuerunt, satis constat Grisoloram 
+Bisantium transmarinam illam disciplinam in Italiam 
+advexisse: quo doctore adhibito primum nostri homines 
+totius exercitationis atque artis ignari, cognitis 
+Graecis litteris, vehementer sese ad eloquentiae studia 
+excitaverunt. Et <pb n="111"/>
+quoniam, sublato usu forensi illa 
+dicendi laude carebant, <pb n="112"/>
+incredibile eorum studium 
+fuit in scribendis vertendisque ex Graecis in Latinum 
+sermonem historiis. Sed cum historia munus sit unum vel 
+maximum oratorium, attingenda ea erunt, quae in unoquoque 
+potissimum laudanda iudicabimus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Video cur a Grisolora exorsus sis, ut Dantem 
+scilicet et Franciscum Petrarcham interponeres, qui 
+ante Grisoloram aliquot annis floruerunt.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Non equidem, Alexander, a Grisolora exordium 
+coepi ut istos interponerem; sed, quoniam illis temporibus 
+erexisse se admodum eloquentia videri solet, decreveram 
+singulos nominari qui ex praeclara illa Grisolorae 
+officina defluxerunt.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Cupio sane audire de his duobus quid sentias.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Ego vero negare non ausim flagrantissimum in Dante 
+et in Petrarcha studium fuisse priscarum rerum; sed in 
+Dante tanquam in veteri pictura, detractis coloribus, 
+nonnisi lineamenta delectant. At iure eum honoravit fama: 
+praeclarum eius poema plane bene indicat incredibilem 
+ingenii magnitudinem. <pb n="113"/>
+Mirabile illud certe fuit, quod 
+res tam difficiles tamque abstrusas vulgari sermone auderet 
+explicare. Est enim in sententiis subtilis et argutus, 
+acerbus in reprehendendo, in probando nervosus; sed 
+interdum etiam rebus non satis apertis oscurus. In 
+permovendo autem et incitando non est credibile quam sit 
+concitatus et vehemens. Utinam tam bene cogitationes suas 
+Latinis litteris mandare potuisset, quam bene patrium 
+sermonem illustravit.</p>
+<p>Sed ad Petrarcham veniamus cuius de ingenio industriaque 
+ex tam multis eius libris existimari potest. Homo enim 
+interpellantium multitudinem fugiens, multa scripsit in 
+ocio. Huius sermo nec est Latinus et aliquando horridior; 
+sententiae autem multae sunt sed concisae, verba abiecta, 
+res compositae diligentius quam elengatius. Fuit in illo 
+ingenii atque memoriae tanta magnitudo ut primus ausus sit 
+eloquentiae studia in lucem revocare: nam huius ingenii 
+affluentia primum Italia exhilarata et tanquam ad studia 
+impulsa atque incensa est. Declarant eius rhytmi, qui in 
+vulgus feruntur, quantum ille vir consequi potuisset 
+ingenio, si Latini sermonis lumen et splendor attulisset; 
+sed homini in faece omnium saeculorum nato illa scribendi 
+ornamenta defuerunt. Sed, ut saluberrimae potiones non 
+suavitatis sed sanitatis causa dantur, sic ab eo non est 
+delectatio petenda sed transferenda utilitas, quanquam 
+omnia eius, nescio quo pacto, sic inornata delectant. Huic 
+ob multarum rerum doctrinam et ingenii famam honores 
+amplissimi habiti sunt.</p>
+<p>Et hisdem temporibus fuit Ioannes Boccaccius, sed 
+decennio <pb n="114"/>
+fere minor quam Petrarcha: huius etiam 
+praeclarissimi ingenii cursum fatale illud malum oppressit; 
+excurrit enim licenter multis cum salebris ac sine 
+circumscriptione ulla verborum; totum genus inconditum est 
+et claudicans et ieiunum; multa tamen videtur conari, multa 
+velle: ex quo intelligi potest naturale eius quoddam bonum 
+inquinatum esse pravissima loquendi consuetudine. Eodemque 
+modo de Ioanne Ravennate et Coluccio Salutato 
+iudicare licet, qui nunquam etiam ab orationis asperitate 
+moestitiaque abesse potuerunt.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Gratissima ista mihi fuerunt; et sane multum, ut 
+dicis, horum gloriae iniquitas temporum detraxit et quasi 
+ingeniorum acies perstrinxit.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Nunc autem octoginta fere annorum memoriam <pb n="116"/>
+hoc 
+sermone complectemur. Sed quoniam uno tempore omnes ac 
+prope aequales fuerunt multique sunt multorum aetatibus 
+implicati, dabitis veniam si minus aetatum ordines 
+servabuntur.</p>
+<p>Magistro igitur Grisolora, plerique nostrorum hominum 
+tanquam ex palaestra quadam impulsi se ad eloquentiae 
+studium contulerunt. Quorum in primis laudandus est 
+Leonardus Arretinus: hic primus inconditam scribendi 
+consuetudinem <pb n="117"/>
+ad numerosum quendam sonum inflexit et 
+attulit hominibus nostris aliquid certe splendidius. Multae 
+sunt in eo oratioriae virtutes; gravis est in toto genere 
+et prudens et, ut illis temporibus, non incultus. Historiam 
+complexus est animo aliquanto maiore: nam orationes eius 
+quae extant non aeque atque historiae probantur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Est ut dicis, Antoni; nam et ego saepe legi 
+funebres eius quasdam laudationes, quae mihi quidem non 
+satis probabantur; atque id accidisse putabam propterea 
+quod nullae extarent orationes funebres ex antiquissimis 
+illis auctoribus imitandae. Ex quo minime mirum videri 
+solebat si Leonardus ipse in eo praesertim dicendi genere 
+orator fuerit, si modo orator, copiosior quam aptior aut 
+ornatior.
+</p>
+</sp>
+<pb n="118"/>
+
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Praeclare intelligo quae dicis, Alexander. 
+Et sane mihi videtur nihil posse ornate varieque dici sine 
+exercitatione, qua optimum quemque imitando effingimus. 
+Quin etiam ipsemet multos iam saepe cognovi, qui potius in 
+quodam imitationis genere quam in disserendi praeceptis 
+operam ponendam putarint. Sed tamen non erit eloquentiae 
+vis in hunc tam angustum locum adstringenda ut, cum 
+imitatio desit, quicquam praeclarum assequi nos posse 
+diffidamus. Quis dubitet orationes omnes funebres in 
+laudationum genere versari? Quis de laudibus dicturus, si 
+nulla praesertim erit imitatio, ad artis praecepta non 
+confugerit? Ars profecto via certior est quam imitatio, qua 
+opes atque ornamenta ad disserendum suppeditantur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Dii immortales, quam iucunda ista mihi fuerunt! 
+Cupio me iam ab imitatione ad artis praecepta conferre.
+</p>
+</sp>
+<pb n="119"/>
+
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Cave, Alexander, in oratore quicquam putes 
+esse imitatione praestantius. Nec enim est aliud imitari 
+quam effingere praescriptam disserendi artem. Sed quoniam 
+sine artificio tam facile possumus vitia quam virtutes 
+imitando consectari, eam ob causam non desinam vos et 
+carissimum mihi quemque cohortari ut haec disserendi 
+praecepta toto animo complectamini. Nulli est enim tanta 
+ubertas ingenii, nulli tam diligens imitandi industria quam 
+sine huius artis ratione bene disposita ac praeclare 
+inventa possit effingere. Ex quo efficitur ut plerique bona 
+maxime probent, sed cur probent nesciant: idem nihil laudis 
+in scribendo consequuntur, nisi quando fortuitu aut natura. 
+Intelligendum est igitur, certissima quadam artis ratione, 
+quid sit ex arte scriptum, quid imitari debeamus; quando 
+alienis exemplis, quibus ornamentis oratio nostra 
+coloretur. Sed haec nimis fortasse multa.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Immo pauciora quam vellem.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Mihi vero, Antoni, tantum ista profuerunt ut nunc 
+demum aliquid imitando consequi me posse putem, antea vero 
+obducta caligine adumbratum fuisse. Sed iam iterum ad 
+Leonardum revertare.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Leonardus igitur, cum admodum adolescens in 
+Grisolorae aetatem incidisset, litteras Graecas acerrimo 
+studio complexus est. Frequenter et legens et audiens 
+tantum his studiis operae dedit ut multa celeriter ex 
+Graecis mandarit Latinis litteris. Habebat is quandam 
+eloquentiae formam animo comprehensam, quam omnino non ut 
+voluit sed ut potuit expressit. Et erat illi ingenium a 
+natura capax omnium <pb n="120"/>
+doctrinarum, quod etiam arte 
+quadam expoliverat. Historiam vero scripsit accurate: 
+conciones aliquot sunt graves consilia et bellorum initia 
+atque eventus explicantur valde prudenter. Consectatur in 
+historia quiddam Livianum, non ausim dicere 
+Ciceronianum. Sed cum historia sit rerum omnium 
+difficillima, tantum in ea imitandi industria et bonitate 
+quadam naturae consequutus est ut omnibus, mea sententia, 
+qui post eum fuerunt, facile praestiterit. Et quanquam in 
+toto genere minus plerunque lectis verbis utatur, ita tamen 
+eius oratio multis litteris ac quibusdam sententiarum 
+luminibus expolitur ut vitium potius corrupte loquendi 
+aetati illi tribuas quam ei scribendi laudem ademeris.</p>
+<p>Et ego video hunc nondum satis esse limatum nec delicatiori 
+fastidio tolerabilem Atqui <title>Dialogi</title> Ioannis 
+Ravennatis vix semel leguntur et Coluccii 
+<title>Epistolae</title>, quae tum in honore erant, non apparent; sed 
+Boccaccii <title>Deorum Genealogiam</title> legimus, utilem illam 
+quidem, sed non tamen cum Petrarchae ingenio conferendam: 
+at non videtis quantum his omnibus desit et cum in tanta 
+asperitate versetur antiquitas, quantum splendorem 
+Leonardus, quanta dicendi ornamenta attulerit? Num 
+propter quaedam inquinata et obsoleta verba eum respuemus?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Sane quidem semper Leonardum ut doctum hominem, 
+ut eloquentem, ut illius aetatis principem laudavi. Sed 
+nosti morem nostrorum hominum, qui nihil nisi excultum, 
+nisi elegans, nisi politum, nisi pictum probant.
+</p>
+</sp>
+<pb n="121"/>
+
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sit ita; sed redeamus ad nostros. Leonardi 
+igitur fere aequalis fuit Guarinus Veronensis, doctus 
+magister: is in domestica et umbratili quadam exercitatione 
+multa scripsit prudenter ac probe et docuit multos; huius 
+domus quasi officina quaedam fuit bonarum artium. Nam, cum 
+illis temporibus diuturno gravissimoque bello Italia 
+flagraret et is esset rerum status ut nemo fere adolescens 
+non sibi potius gloriam bello quam doctrina quaerendam 
+putarit, nunquam sunt ab eo instituendi ac docendi studia 
+intermissa. Erat referta domus nobilissimis adolescentibus 
+qui se in eius disciplinam tradiderant: quotidie et 
+commentabantur et declamabant ac ita diligenter Graecis 
+Latinisque litteris erudiebantur, ut omnes fere illius 
+aetatis, qui aliquam sunt scribendi laudem consequuti, sese 
+omnino faterentur ex huius hominis umbraculis, tanquam ex 
+ludo quodam honestissimarum artium, profectos.</p>
+<p>Is igitur cum scribendo tum docendo quaesivit sibi id 
+nominis quod etiam hac aetate omnium sermone ac fama 
+celebratur. Genus tamen dicendi inconcinnum admodum est 
+<pb n="122"/>
+et salebrosum: utitur (plerunque imprudens) verbis 
+poeticis, quod est maxime vitiosum, se magis est in eo 
+succus quam olor laudandus. Hunc Georgius Trapezuntius 
+exagitat ut praefractum et in compositione puerilem. 
+Memoria teneo quendam familiarem meum solitum dicere, 
+melius Guarinum eius famae consuluisse si nihil unquam 
+scripsisset; tam vehementem opinionem eius doctrinae esse 
+in animis hominum insitam ut non modo nomen eius non 
+illustretur scriptis, sed etiam in dies magis obscuretur. 
+Ego vero non ita sese rem habere existimo nec temere 
+Guarino gravitatem quandam in scribendo nec multarum 
+rerum cognitionem adimo; sed tamen non omnia in eo 
+probarim. Nunquam enim asperitas in dicendo laudatur: at 
+laudandus est ut qui multum nostris hominibus profuerit et 
+ut qui, si non perfectam eloquentiam (cuius speciem quasi 
+per caliginem quandam viderat) at aliquam in scribendo 
+laudem sit consequutus.</p>
+<p>Hisdem temporibus fuit Nicolaus Nicolus, qui magnam 
+<pb n="123"/>
+gloriam adeptus est in colendis amicitiis 
+doctissimorum hominum, et Aurispa Siculus sane doctus 
+et honoratus fuit. Eodemque in genere et Candidus 
+habebatur, sed avidior duritatis quod orationis moestitia 
+insolentius uteretur. Tum etiam constat Nicolaum 
+Euboicum memoria praestitisse, sed <pb n="124"/>
+istorum omnium 
+fuit disciplina horrida et agrestis, sine nitore 
+elegantioris industriae: nondum erat politior haec 
+scribendi ratio importata.</p>
+<p>Fuit et Nicolaus Savondinus Chalcidiensis homo 
+Graecis litteris et Latinis eruditus. Erat in dicendo 
+satis copiosus, sed parum vehemens et in affectibus viro 
+mollior, ut maxime in eo libello, quem de naufragio suo ad 
+Bessarionem Nicaenum scripsit, apparet.</p>
+<pb n="125"/>
+<p>Atque horum aetati adiuncti sunt duo fere aequales: 
+Petrus Paulus Vergerius et Sico Polentonus, 
+uterque a puero doctus, sed alter ornatior, non tamen adeo 
+cultus ut sit hac eruditiori aetate tolerabilis. Libellus 
+<title>De Adolescentia</title> quem pueri legebamus, vix comparet et 
+bene olet, ut dicitur, quod nihil olet. Alterius sunt 
+viginti ad filium libri scripti <title>De claris scriptoribus</title>, 
+utiles admodum, qui iam fere ab omnibus legi sunt desiti. 
+Est enim in iudicando parum acer, nec servit aurium 
+voluptati, cum tractat res ab aliis ante tractatas: sed hoc 
+ferendum. Illud certe molestum est, dum alienis verbis 
+sententiisque scripta infarcit et explet sua: ex quo 
+nascitur maxime vitiosum scribendi genus, cum modo lenis et 
+candidus, modo durus et asper appareat; et sic in toto 
+genere, tamquam <pb n="126"/>
+in unum agrum plura inter se 
+inimicissima sparsa semina.</p>
+<p>Inter horum aetates interiectus est Maffeus Vegius, qui 
+tum poeta numerabatur, ingeniosus ille quidem sed aliquanto 
+turgidior, necdum satis politus, quanquam aetatis illius 
+istud fuit vitium.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Audax iste quidem fuisse videtur et animi maximi 
+(utinam maioris facultatis!) qui Maroni voluerit vicarius 
+succedere.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Scitum est illud, poetarum neminem meliorem quam se 
+putare et sua cuique placere. Nam, cum poeta vi naturae 
+inflammetur, numquam desperat quod optimum est; et 
+propterea multos decipit illa <abbr>P.</abbr> Maronis blanda sui 
+conciliatrix musa, cum, dulci tantummodo sono deliniti, 
+reconditum artificium non agnoscant.</p>
+<p>Sed, ut ad rem redeam, eiusdem etiam aetatis fuit 
+Ambrosius monachus, Graecis litteris doctus. Scribebat 
+facile et naturalem quendam dicendi cursum habebat oratio, 
+sed <pb n="127"/>
+admodum incultum. Erat in hoc homine inexhaustus 
+quidam legendi amor, nullum enim patiebatur esse vacuum 
+tempus: quotidie aut scribebat aut aliquid ex Graecis 
+Latinis litteris mandabat. Plura tamen orsus est quam 
+absolverit; nemo certe plus studii quam ille ad erundos ex 
+adito priscorum libros adhibuit. Carus is fuit Cosmo 
+Medici. nam semper magnus ille vir secum habuit palam 
+doctos homines quorum in congressu et sermone, cum esset 
+publicis muneribus vacuus, tanquam in iucundo quodam animi 
+laxamento requiescebat.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Mea quidem sententia est principes illius aetatis 
+multum summis ingeniis profuisse.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Est ut dicis: aluntur profecto praemiis haec studia 
+et quasi in principum sinu pubescunt. Sed prosequare, 
+Antoni, ut coeperas.
+</p>
+</sp>
+<pb n="128"/>
+
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Tum etiam ex eo genere numerabatur Leonardus 
+Iustinianus homo per se magnus et, ut apparet ex 
+orationibus, non indisertus. Extat eius quaedam funebris 
+laudatio, bona illa quidem sed non satis splendida verbis 
+et quae magis copiam quandam quam oratorium artificium prae 
+se ferat.</p>
+<p>Nam haec aetas ponebat eloquentiam in orationis quadam 
+abundantia nec plane cognovit quid esset satis, cum magnam 
+se quisque in dicendo laudem adeptum putaret, si multa 
+acervatim complexus fuisset; quod genus scribendi spretum 
+est ac repulsum ab acrioribus ingeniis, quoniam omnis 
+oratio ita et verborum et sententiarum ornamentis 
+componenda est ut non intemperanter excurrat, sed sit ei 
+suorum finium quidam circumscriptus locus.</p>
+<p>Horum aequalis fuit Carolus Arretinus illis etiam 
+temporibus honoratus: pauca is admodum scripsit quae, 
+nescio quo pacto, iam exharuerunt vel potius non apparent. 
+Et Ioannes <pb n="129"/>
+etiam Tortelius Arretinus scriptor 
+fuit sane probabilis. Coniunctissime is vixit cum Nicolao 
+quinto pontifice maximo: nam ipsum etiam Nicolaum doctum 
+hominem ferunt et non infantem fuisse, in quo magnum 
+documentum fortunae fuit quam celeriter extollat quem semel 
+complexa sit. Is enim, biennii spatio gradibus ascendens, 
+summam est adeptus orbis terrae dignitatem idque eo 
+contigit honorificentius quo nemo esset qui illum eo honore 
+non dignum arbitraretur; et merito id <pb n="130"/>
+quidem, quando 
+et multa egit in vita praeclare at ab eo sunt docti homines 
+et opibus aucti et honoribus.</p>
+<p>Sed temporibus hisdem magnum vulnus res Latinae ex 
+direptione Bisantii, pulcherrimae atque florentissimae 
+urbis, acceperunt. Emerserat e patriis regnis Maumethes 
+spe potiundae Greciae inflammatus sibique persuaserat 
+fore, homo scientissimus rerum bellicarum ac felix, ut, 
+occupato Bisantio facultas daretur ad Graeciam 
+opprimendam. Nec enim eum fefellit opinio: nam capta ac 
+direpta urbe facillime reliquus cursus patuit. Sed malo in 
+tali re silere quam, veteres calamitates deplorando, augere 
+dolorem nostrum. Hoc tamen dicam quod ad rem pertinet: 
+magnum damnum excidio Graeciae Latinas litteras 
+fecisse, cum a Graecis multa in Italiam importarentur 
+et nostri item studiorum causam Bisantium tanquam ad 
+domum quandam doctrinae proficiscerentur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Sunt ista, Antoni. Nec enim unquam Latinis 
+rebus, ut dicis, calamitosior dies illuxit nec tetrior; sed 
+existimare debes plures post importunam illam cladem in 
+Italiam confluxisse quam unquam antea. Sed ista 
+omittamus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Tum multum eloquentiae habuisse dicitur Franciscus 
+Barbarus, cuius de ingenio doctrinaque ex eo libro quem 
+<title>De re uxoria</title> scripsit existimari potest. Huius gloriam 
+<pb n="131"/>
+illustrioribus litteris et gravioribus artibus 
+cumulavit Hermolaus nepos.</p>
+<p>Sed multum duo doctrina praestiterunt: Iannottus 
+Manettus et Baptista Albertus, quorum alter unus 
+omnium doctissimus putabatur, alter etiam in architectura 
+disertus fuit. <pb n="133"/>
+Sed in Iannotto admirabile quoddam 
+studium omnium doctrinarum fuit; sed nescio quo pacto sit 
+huius summi viri quam aliorum doctorum nomen obscurius. Ex 
+quo profecto intelligi potest plus valere ad famam et 
+celebritatem nominis unius simplicis generis virtutem 
+absolutam quam multa annexa genera virtutum non 
+perfectarum.</p>
+<p>Tum etiam ex eo genere numerabatur Pallas Stroza, quem 
+cum natura tum etiam studio doctrinae sapientem ferunt. 
+Excelluit enim is unus in omni genere virtutis: nemo domi 
+comior fuit, nemo iucundior, nemo foris constantior nec 
+gravior nec fortior.</p>
+<pb n="134"/>
+<p>Nec longo intervallo aberat Benedictus Arretinus, 
+qui bellum Asiaticum magnum atque difficile 
+diligentissime prosequutus est attulitque lumen rebus 
+involutis. Nam illis temporibus in Poggio Florentino 
+quaedam species eloquentiae apparuit, in quo si tale 
+artificium fuisset quale ingenium ad scribendum fuit, omnes 
+profecto eius aequales dicendi gloria vicisset. Is 
+orationes reliquit, quae et facundiam et mirificam ingenii 
+facilitatem ostendunt: tendebat toto animo et quotidiano 
+quodam usu ad effingendum <abbr>M.</abbr> Tullium; sed habet hoc 
+<pb n="135"/>
+dilucida illa divini hominis in dicendo copia, ut 
+existimanti se imitabilem praebeat, experienti spem 
+imitationis eripiat. Eam igitur dicendi laudem Poggius, 
+si non facultate, at certe voluntate complectebatur; 
+scripsit etiam <title>Historiam</title>, sed est magnum munus 
+historiam et, ut paulo ante dixi, omnium rerum 
+difficillimum.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Ego vero saepe soleo mirari quid sit quod, cum 
+historia tot tantarumque rerum dissimilitudinem 
+complectatur, nulla praecepta in priscorum artibus 
+tradantur, quae quo modo scribendum, quid servandum sit in 
+historia doceant. Nam, ut omittam studia disciplinarum 
+maximarum, omnium artium opifices habent sua praecepta: 
+architectus ab his non discedit, musici etiam his 
+erudiuntur quando vocum mutationes facere <pb n="136"/>
+debeant, 
+quando scilicet cantus aut inflexam aut gravem aut acutam 
+vocem postulet. Alii in lineis, alii in mensuris, alii ad 
+fingendum, alii ad pingendum certis praeceptis utuntur: ex 
+quo intelligitur nihil magnum fieri posse sine quadam artis 
+ratione. Historiam vero, tam arduum, tam difficile opus, 
+nihil habere praeceptorum non desino, hercle, satis mirari.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Ego quoque ista quae dicis, Alexander, mirabar et 
+sane angebar intimis sensibus, quod a nostris hominibus 
+historiae praecepta ignorarentur: nam priscos illos, ut ex 
+eorum historiis apparet, praeclare intelligebam huius artis 
+praecepta tenuisse, nostros autem his instrumentis omnino 
+carere atque eosdem in hoc praesertim scribendi genere 
+nihil admodum laudis consequi posse, nisi quando temere aut 
+casu.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Video plerisque visum esse historiam sine ullis 
+oratoriis ornamentis scribi oportere, quod tollerent 
+veritatem et fidem, multum referre non esse mendacem. Ego 
+vero, ut opinionem istorum non libenter laudarim ita certe 
+non repudiaverim. Et profecto magni interest, ubi 
+tantummodo rerum gestarum veritas quaeritur, mendacem et 
+fabulosum putari. Sed tamen, quid attinet vere scribere, si 
+omnia obscure perturbaveris? Ac mihi quidem, huius rei 
+principium cogitanti, ad delectationem et utilitatem 
+adinventa historia videri solet quae omnino rebus et verbis 
+continetur. Res, ut prosint, spatia et temporum ordinem 
+desiderant; verba vero nunquam voluptati inservient nisi 
+concinnitatem retineant. Repudianda erit igitur horum 
+opinio et adhibendum artificium quoddam ut prodesse pariter 
+et delectare possimus. Sed nescio quo pacto ad hoc delapsi 
+sumus, cum id vos initio minime requireretis.
+</p>
+</sp>
+<pb n="137"/>
+
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Immo ista requisivimus, Antoni, et sunt 
+sane necessaria.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Mihi vero ista iucunda fuerunt; et utinam tibi, 
+Antoni, cumulatius ista augere licuisset! Sed dabitur 
+fortasse aliquando commodius tempus huius muneris 
+amplificandi. Nunc ad institutum sermonem revertare.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Belle exigis ex me, Alexander, tam magnum locum et 
+tantum, hercle, de me polliceris ut si hoc vobis negari, 
+non tam laborem me iudicio refugisse quam vestrae voluntati 
+obsequi <pb n="138"/>
+noluisse arbitremini.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Atque nihil a te postulatur, nisi tuo commodo.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Iocaris etiam mecum, Alexander, et ego quoque in 
+hoc admodum delector et sino adulari ac irrideri me 
+interdum ab amicis.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Non est ita, Antoni: scitum est enim nihil esse in 
+amicitia perniciosius adulatione et blanditiis.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quid ergo? Credisne me modo ea ausurum dicere quae 
+sint a priscis illis viris relicta?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Ego vero non id ex te requisivi, ut omnes leges 
+quae sunt in historia servandae, quasi scholam quandam, 
+explicares; sed, si quod daretur vacuum tempus, postulabam 
+ut inter nos hoc munus augeremus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Quin tu, Alexander, omittis ista quae praeparatum 
+ocium postulant. Tu vero, Antoni, perge ut coepisti. 
+Neque enim impediendus est interpellatione iam susceptus 
+sermo
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>His igitur florescentibus proximus accedebat 
+Georgius Trapezuntius, bonus sane rhetor, qui aliquot 
+annos populo romano utilissimam operam praebuit; et docuit 
+cum multos tum etiam multa scripsit de artificio dicendi et 
+adhibuit in scribendo illa adiumenta quae habuerat a 
+Peripateticis, qui, praeter coeteros philosophos, 
+rationem dicendi latioribus quibusdam praeceptis 
+complectuntur. Qui mos erudiendae <pb n="139"/>
+iuventutis retentus 
+est a Pomponio nostro: vir enim per se magnus 
+incredibilia studia ad eloquentiam limatioremque elegantiam 
+convertit.</p>
+<p>Eodem tempore Antonius Luscus fuit, rhetor quoque non 
+contemnendus, quem etiam non indisertum dicunt fuisse; nam 
+Victorinus Feltrensis, is qui per tot annos toti 
+Galliae <pb n="140"/>
+Transpadanae tradidit praecepta dicendi, 
+hisdem fere laudibus cumulatus fuit. Nec vero Gasparinum 
+Veronensem praetereundum puto; erat is diligentissimus ac 
+prope perfectus grammaticus sed ipso orationis genere 
+exilis et tristis: nimia enim cura attenuabat orationem.</p> 
+<pb n="141"/>
+<p>Et Omniboni quoque Leoniceni in docendo cognita 
+industria est: erat in scribendo satis amplus, sed parum 
+nitens aut excultus; nullus candor est Latini sermonis 
+neque flos ullus quem in oratione requirimus.</p>
+<p>Horum aetatibus adiunctus est Laurentius Valla, 
+scriptor egregie doctus, cuius ingenii acumine constare 
+inter omnes audio Italiam esse recreatam, sed erat acer 
+et maledicus et toto genere paulo asperior, diligentissimus 
+tamen Romanarum rerum atque verborum investigator. 
+Molestus erat et stomachosus: nihil admodum alienum 
+laudabat, sua vero cum diligentia tum acri quodam iudicio 
+expendebat. Limatior hic fortasse quam coeteri, nihilo 
+tamen candidior fuit. Floruit huius domus <pb n="142"/>
+aliquandiu 
+et quasi ludus quidam fuit civium Romanorum. Verum postea 
+is, vel odio servitutis vel desperatione quadam dignitatum 
+adipiscendarum ab Urbe Neapolim ad Alphonsum 
+<pb n="143"/>
+Aragonum regem est profectus, ubi aliquot annis 
+fuit magna cum gloria ingenii et famae. Nam Alphonsus 
+ipse ad summas incredibilesque eius virtutes adiecerat 
+etiam hanc laudem, ut, non solum hominibus doctis 
+familiarissime uteretur, sed etiam haberet in convictu.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Quid ergo est causae, si tam diligenter Valla de 
+ratione verborum Latinorum scripserit, ipse non bene satis 
+loqui Latine videatur?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Non est enim, Alexander, eadem ratio scribendi 
+quam praecipiendi. Conabatur Valla vim verborum exprimere 
+et quasi vias (sed eas non rectas) tradebat ad structuram 
+orationis, in quo tamen et inquinatam dicendi consuetudinem 
+emendavit et multum acuit iuventutem. Sed est certe alia 
+scribendi ratio quae a Valla aut praetermissa est aut 
+ignorata. Florens enim ille et suavis et incorruptus 
+Latinus sermo postulat sane conglutinationem et 
+comprehensionem quandam verborum, quibus conficitur ipsa 
+concinnitas ad sonum. Sed de his alio loco commodius inter 
+nos, si vobis placebit, disputabimus. Potest enim aliud 
+vobis ac mihi videri; nunc ad reliquos pergamus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Nobis vero nihil poterit esse iucundius.
+</p>
+</sp>
+<pb n="144"/>
+
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>In aliquo igitur numero fuit Antonius 
+Panormita homo doctus et iuris bene peritus. Diligenter 
+etiam satis loquutus est et, ut esset paulo politior, 
+elegantiam sermonis Plautinam volebat imitari; sed ab eo 
+abereat illa orationis integritas ac sententiosa 
+concinnitas; itaque sunt <title>Epistolae</title> eius languidiores. 
+Fuit tamen perargutus poeta et illis temporibus non 
+contemptus: nam is primus versus ad mensuram quandam 
+numerosumque sonum revocavit (antea enim fractis 
+concisisque numeris parum admodum versus a plebeis rhytmis 
+differebant) quamquam eius fere tota poesis est obscena.</p>
+<p>Sed polite et eleganter <title>Problemata</title> Plutarchi 
+Joannes Petrus Lucensis Latinis litteris mandavit. 
+Tum etiam Latine <pb n="145"/>
+Lucianum explicaverunt 
+Rinuccius et Christophorus Romanus. Atque ego in 
+ipsis et in aliis quos enumeravimus intelligo homines 
+libentius ad interpretum munera esse conversos: sed nos 
+tamen colligimus omnes, ut appareat quam multi scribendi 
+cupiditate flagrarint, quam pauci aliquid ex suo 
+protulerint.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Cur nam erat istud, quaeso?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quia veluti tum nascentibus litteris sibi ipsi 
+diffiderant et erant tanquam anniculi infantes qui nonnisi 
+in curriculo aut praeeunte duce inambulant. Itaque, cum 
+esset facilius illud vertendi munus, bene de posteris suis 
+mereri videbantur si tam multa adiumenta ingeniis 
+suppeditarent. Sed ecce multi uno tempore fuerunt: 
+Leonardus Datus, Bartholomaeus Facius, 
+<pb n="146"/>
+Lapus Florentinus, Petrus Montopolita; 
+quamquam ex his alius alio plus habuit vel ingenii vel 
+industriae, omnes tamen ad amplitudinem nominis 
+pervenerunt. Ex his Facius <title>Commentarios</title> scripsit 
+<title>rerum ad Alphonso rege gestarum</title>.</p>
+<p>Tum etiam Gregorium Tiphernatem poetam et doctum atque 
+diligentem hominem in docendo constat fuisse. <pb n="147"/>
+Huius 
+auditor fuit Georgius Merula, quia nobilitate floruit 
+discipulorum.</p>
+<p>Et Antonius Tudertinus non tam scribendo probabilis 
+fuit quam litteris Graecis eruditus. Flavius enim 
+Blondus sine Graecis litteris prosequutus est historiam 
+diligenter sane ac probe eamque distinxit et rerum 
+varietate et copia valde prudenter. Admonere enim reliquos 
+videtur ut maiori artificio ac illustrioribus litteris 
+historiam aggrediantur. In excogitando <pb n="148"/>
+tamen quid 
+scriberet omnibus his viris, qui fuerunt fere eius aequales 
+meo quidem iudicio praestitit.</p>
+<p>Hisdem etiam temporibus Franciscus Philelphus non 
+indisertus putabatur: habebat a natura ingenium vagum 
+multiplex volubile. Extant ab eo scripta et poemata et 
+orationes, sed ut vita sic erat in toto genere varius. Fuit 
+is a puero litteris Graecis bene doctus et horum 
+studiorum causa est ab <pb n="149"/>
+eo tota pene Graecia 
+peragrata multumque etiam ei profuit Grisolora eius 
+socer, ex quo, tanquam ex dotali hereditate legatas 
+testamento, Graecas litteras accepit. Sed erat vendibilis 
+sane scriptor et is qui opes quam scribendi laudem consequi 
+malebat. Constat enim neminem principum illis temporibus in 
+Italia fuisse, quin adierit, quin cum scriptis salutaverit, 
+ut ex his pecuniam erueret. Sed ut ad quaestum diligens, 
+sic erat in largitione effusus.</p>
+<p>Huius filios Xenophontem et Marium ingeniosos et sane 
+eruditos dicunt fuisse, quorum Marium tantam habuisse 
+memoriam quanta in viro cognosceretur; horum maius omnino 
+nomen extaret, nisi pater praeclusisset eis iter gloriae.
+</p>
+</sp>
+<pb n="150"/>
+
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Mihi vero ille (patrem dico) hoc facto 
+sapiens videtur, qui ex litteris divitias quaesierit, 
+propterea quod eloquentia, quo maior est, eo hominibus 
+invisior ac suspectior.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sed quis vestrum ex maioribus natu multa de 
+Porcello non audivit, immo vero quis eius scripta non 
+legit? Is sive <pb n="151"/>
+doctrina, homo ignotus, sive ingenio 
+ad summam nominis famam pervenerat; ex quo intelligi potest 
+quanta tum fuerit ex omni numero poetarum paucitas. 
+Exametri enim eius, quos legimus, non illi quidem politi 
+sunt nec festivi nec molles, grandes tamen et graves 
+imperitis videri solent, ab eruditioribus vero respuuntur 
+quod turgeant et innati sint nihilque afferant praeter 
+aequalitatem. Caruit omnino varietate haec aetas, quanquam 
+hic quidem nonnullis visus sit distinctum illud et florens 
+Virgilianum poema praeclare effinxisse: hi tamen mea 
+sententia longissime a vero iudicio abfuerunt. Nec refert 
+alieno ornatu et quibusdam luminibus ac quasi insignibus 
+nostra scripta explere, nisi queamus id distincte apteque 
+facere. Fit enim nescio quid monstruosum, cum membra 
+cohaerentia male dissipantur. Modo enim hoc scribendi genus 
+magnificentius renovatum est et cognita primum numerorum 
+varietas a Pontano principe huius memoriae doctissimorum 
+hominum: qua sane occurritur satietati et nitidum illud 
+struitur et laetum genus ac politior illa elegantia 
+hilaritate quadam aspersa conditur.</p>
+<p>Tum etiam nec ingenium nec doctrinam Sigismundo 
+Malatestae defuisse ferunt: habuit hic, sicut saepe 
+audivisse vos arbitror, multa contraria et diversa inter se 
+naturae studia; fuit in illo magnum ingenium, fuit tanta 
+industria rei militaris quanta in homine quoquam, sed illud 
+mirabile: stare pari fastigio in utraque fortuna, multos 
+devincire consuetudine, <pb n="152"/>
+appetere inimicitias clarorum 
+hominum, modo astringere modo laxare voluptates, inter 
+ipsas minime negociorum oblivisci, minime famam aspernari, 
+minime intermittere studia doctrinae.</p>
+<p>Sed Pius secundus in primis disertus habitus est: is 
+diligentia parentum a puero eruditus, multa celeriter 
+ingenii ac doctrinae signa praebuit, post aetate progressus 
+emersit ac totus se extulit omnemque ingenii vim, quam 
+diutius inclusam continere non poterat, statim effudit. In 
+quo viro, dii immortales, quam diversa inter se studia 
+fuerunt virtutum incredibilium! Mitto hominem artibus rerum 
+gerendarum instructum, mitto pontificem maximum: quis in 
+dicendo vehementior? quis in historia pressior? quis in 
+poematis dulcior? quis in docendo copiosior? Extant eius 
+orationes amplius triginta, plenae illae quidem et 
+argumentorum et exemplorum. Idque eo fuit admirablius, quod 
+incommoda esset valetudine ac semper maximarum rerum curis 
+obrueretur. Erat in refellendo argutus, in probando 
+subtilis; tenebat memoriam rerum Christianarum, adiunxerat 
+etiam studia philosophiae quae omnia oratio referta 
+<pb n="153"/>
+sententiarum luminibus commendabat. Accedebat actio 
+liberalis gestusque et venustus et gravis. Licet enim hunc 
+prope solum oratorem ex hac acie doctorum adducere, cui 
+natura pariter et doctrina inservierit. Nihil de eius 
+consiliis, nihil de rebus gestis, nihil de animo, nihil de 
+fortuna, nihil de gloria, nihil de religione hoc loco 
+quaerimus; de eloquentia loquor. Hoc in homine unam tantum 
+Latini sermonis integritatem desiderarim.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Iure mehercle hunc laudas, Antoni!
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Prudens tum etiam et eloquens fuit Dominicus 
+pontifex Brixiensis, cuius extant orationes; ac eiusdem 
+quoque ordinis erat Ioannes Andreas Aleriensis, homo 
+plane doctus sed toto genere horridior ac praefractior: 
+ornandus est hic profecto eximiis laudibus, quod in 
+emendandis voluminibus tam multam operam posuerit.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Multum isti sane debemus, sed vereor ne dum multa 
+emendare voluerit multa depravarit. Modo ista diligentius 
+et <pb n="154"/>
+ratione certa, non coniecturis emendantur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Tum Basinius poema fecit molle et facile. 
+Robertus autem Avulturius Ariminensis in eo libro, 
+quem <title>De re militari et bellicis instrumentis</title> scripsit, 
+ostendit ille quidem satis ingenii, sed multo magis 
+diligentiae nec minimum eloquentiae. Sed veniamus aliquando 
+ad eum, quem mihi non licuit per istos nominare: traxit 
+enim me ita ordo seriesque rerum ut tanquam in visco 
+inhaeserim, non potuerim me citius explicare.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Antonium scilicet Campanum dicis.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Istum ipsum, Alexander. Hoc in viro primum 
+apparuit florentius ac splendidius quoddam orationis genus; 
+scribebat facile, sed studiorum laborem ferre non poterat, 
+quod saepe fere contigit uberrimis ingeniis habundantibus. 
+Habebat delectum illustrium verborum, erant sententiarum 
+ornamenta, sed fortasse multa interdum, et praesertim in 
+historia, in qua tam multa est sententiarum continuitas ut 
+obtundat potius animos quam delectet. Orationes autem eius 
+valde probantur: declarant enim, et ubertatem ingenii et 
+vim quandam naturalem <pb n="155"/>
+multis esse oratoriis laudibus 
+excultam. Utebatur facili et ita candido quodam scribendi 
+genere ut numeris quibusdam adstrictus fluere videatur; 
+quamquam numerus orationis abest ingeniis nostris, ita 
+tamen imitandi quadam industria orationem inflexerat ad 
+sonum ut cadat plerumque iucunde et numerose.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Sane quidem; nam istum unum de superioribus 
+vehementer probo. Sed est quaedam de numero non parva 
+dubitatio.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quae tandem?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Adhibendusne sit orationi numerus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Clarissima de re dubitas.
+</p>
+</sp>
+<pb n="156"/>
+
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Quin etiam ipsemet in multos iam saepe incidi 
+qui omnino existimarent <abbr>M.</abbr> Tullium nullo in oratione numero 
+usum fuisse, sed iudicio tantummodo aurium inservisse.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quod tam perversum est iudicium istorum hominum ut 
+in eo nullum esse numerum affirment, quem tam multa 
+praecepta de orationis numero reliquisse videant? Mea 
+quidem sententia est orationem Latinam numerosa quadam 
+structura contineri oportere quae adhuc omnino a nostris 
+hominibus ignoretur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Ego profecto assentirer tibi libenter, Antoni, si 
+quales hi sint, quid inter eos et poeticos numeros 
+intersit, cognoscerem. Neque enim ego aeque in oratione 
+atque in carminibus numerum facile perspexerim.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>In difficillimam disputationem me revocas, quae non 
+est profecto huius temporis.
+</p>
+</sp>
+<pb n="157"/>
+
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Noli quaeso, Alexander, perturbare ordinem 
+instituti sermonis; nam id quod quaeris de ratione 
+numerorum, artis est intimae et liberam quandam cessationem 
+postulat. Tu, vero, Antoni, perge ad reliquos.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sed revertamur potius ad eum ipsum Campanum. Is 
+enim meo iudicio coeteris exemplo esse potest quam parum 
+obsit ad virtutem comparandam obscuro loco nasci. Nota res 
+est: dicunt enim, cum puer ob inopiam oves pasceret, 
+abductum esse eum a patruo praedito sacerdotio ut tener 
+sacris ad rem divinam imbueretur; tulisse id permoleste 
+patrem, qui inops esset et rusticus ac iussisse statim 
+puerum ad oves reverti. Impetratum tamen precibus fuisse ne 
+pasceret atque alium a patruo in pueri locum subrogatum, 
+adolevisse apud patruum optima spe et docilem puerum 
+tantosque progressus brevi tempore effecisse ut iam 
+gravioribus artibus applicaretur. <pb n="158"/>
+Inerat profecto in 
+hoc homine ingenii celeritas quaedam ut quod semel aut 
+iterum vidisset arriperet; quod etiam indicant eius 
+epigrammata, festiva illa quidem et plenissima argutiarum. 
+In multos cavillatus est bellissime et facete: nam in omni 
+etiam sermone dulcem eum fuisse et perurbanum ferunt.</p>
+<p>Eodem in numero habitus est Nicolaus Perottus, litteris 
+Graecis doctus et Latinis. Huius in orationibus sermo 
+est non inquinatus, et multa oratoria ornamenta. Scripsit 
+etiam pleraque tolleranda. Is adversarium et obtrectatorem 
+eius laudis habuit Domitium Calderinum, qui, cum esset 
+ingenio peracri et flagranti studio, neminem secum 
+instituendi ac <pb n="159"/>
+scribendi gloria conferendum putabat 
+exagitabatque omnes in quibus aliqua maxime apparerent 
+doctrinarum signa: sed breve tempus fuit fructuum ingeniu 
+percipiendorum. Erat is in reconditis abstrusisque rebus 
+explicandis subtilis et acer et ingenio tanto ut, siquid 
+interdum falsi diceret, aut novas opiniones insereret aut 
+conaretur evellere insitas, ita quibusdam rationum 
+integumentis adumbraret ut consensu multitudinis verissime 
+dixisse putaretur. Itaque, cum sibi omnia his ingenii 
+praesidiis ascisceret, magnam diuturnamque invidiam 
+conflavit, quamquam habet pertinaces quosdam sui amatores. 
+Huius oratio elegans est et plane erudita, verborum et 
+sententiarum multa lumina: quod proposuerat ingeniose 
+imitabatur. Laudandus hic unus est, cui si vita 
+suppeditasset, maiorem omnino gloriam esset consequutus 
+quam quae ex umbratili ludo quaeri posse videatur. Is diu 
+Romae Theodoro Gazae dedit operam, <pb n="160"/>
+cum summo 
+philosopho tum gravissimo scribendi magistro.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Recte dicis, Antoni, nam Domitius, quidquid 
+habuit (quantum ego a maioribus accepi) ex Theodori 
+doctissimi hominis disciplina hauxit, cuius quidem 
+beneficii omnino immemorem dicunt fuisse.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Ego vero sic existimo Theodorum unum e multis 
+laudandum esse et in eo primum cum summa philosophia summam 
+eloquentiam coniunctam; nec erat is in eorum numero qui, 
+usurpatione disciplinae, verbis magis quam vita 
+philosophiae studia persequuntur: ut enim ei ingenii et 
+eloquentiae, sic humanitatis, innocentiae ac omnium 
+virtutum primae deferebantur. Erat in scriptis summa 
+gravitas, erat profluens sine molestia ubertas, candor 
+autem Latini sermonis et splendor tantus ut non modo 
+acuere industriam, sed etiam alere quibusdam orationis 
+nutrimentis ingenium possit. Iure <pb n="161"/>
+igitur totius 
+Italiae consensu est princeps iudicatus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Istius vero, quantum ego intelligere possum, cum 
+magna ingenii gloria magnaque doctrina qua in omnibus unus 
+excelluit tum egregie acta vita laudatur. Ex quo intelligi 
+maxime potest specimen solidae gloriae nonnisi in 
+perfectione virtutis solere existere. Me autem non tam ipsa 
+studiorum gloria quam bonae existimationis fructus 
+delectat.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Merito te iste fructus delectat. Sed colligamus 
+reliquos. Nam certe Bessario cardinalis Nicaenus plus 
+dignitatis attulit reipublicae christianae quam quod ex eo 
+speraretur. Praebuit <pb n="162"/>
+enim se magnum virum cum 
+contentiones inter Graecos et Latinos sunt diiudicatae. 
+Fuit is cum omni vita severus et gravis tum plenum et 
+grande est habitum eius Graecae orationis genus. Huius 
+domus quasi nutrix quaedam fuit omnium magnarum artium. 
+Disputabant eruditi homines totos dies maximis de rebus: 
+ipse grandis natu in utramque partem cum refellendo tum 
+probando respondebat. Nec enim tanta mens nec tanta vis 
+ingenii quotidianis quaestiunculis satiari poterat: legebat 
+ipse multum, scribebat, meditabatur. Extat ab eo liber 
+defensionum Platonis omni doctrina refertus.</p>
+<pb n="163"/>
+<p>Multum etiam gloriae est consequutus Joannes 
+Argiropolus Bisantius, prope perfectus peripateticus et 
+sane tolerabilis scriptor. Is, cum bello Bisantino domo 
+pulsus in Italiam venisset, multos docuit ex nostris 
+hominibus, qui, admirabili fama doctrinae compulsi, se in 
+eius disciplinam tradiderant.</p>
+<p>Huius auditor fuit Donatus Acciaiolus, homo non 
+indisertus et ipso orationis genere copiosus. Multae 
+fuerunt in hoc viro litterae, multa non philosophiae solum, 
+sed priscarum etiam rerum cognitio. Fuit in illo praeter 
+studium doctrinae et facilitatem naturae, summum ingenium, 
+summa ratio, consideratissima prudentia. Erat quaedam 
+orationis sanitas cum coloris bonitate, non medicamentis 
+quaesitus et fucatus candor. Doctus item ex eadem 
+disciplina Matthaeus Palmerius <pb n="164"/>
+fuit, qui 
+conservatis temporum ordinibus multorum annorum memoriam 
+breviter et accurate complexus est, sed nihil tamen ad 
+Donatum, sed potius ad antiquorum consuetudinem et 
+inscitiam.</p>
+<pb n="164"/>
+<p>Nam Bartholomaeus Platina erat cum omni victu 
+atque cultu tum oratione temperatus et lenis et, ut ita 
+dixerim, frugi atque integer.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Ita prorsus est. Memoria teneo me puerum cum ab 
+Alexandro fratre et Lucio Maffeo Phosphoro, quem 
+ego <pb n="166"/>
+secundum fratrem diligo, deducerer ad Platinam, 
+multa ab eo memoriter et sapienter dicta audire solitum 
+atque adeo eius omni sermone delectatum ut, quantum illius 
+aetatis iudicio patiebatur, non dubitarem eum unum inter 
+multos sapientissimum appellare. Erat enim is cum sermone 
+comis et perurbanus, tum magna corporis praeditus 
+dignitate; vox canora, status, incessus omnisque corporis 
+motus liberalis. Itaque, ut nobis pueris opinio fuit, 
+plurimum eum ingenio et doctrina valuisse, sic etiam 
+adolescentiores eum vehementer laudandum iudicabimus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sed iam ad inferiorem, si placet, aetatem veniamus, 
+quae certe magnam ingeniorum copiam tulit.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Tu vero, Antoni, ita ad hanc inferiorem aetatem 
+properas ut omnes iam, qui aliquam ex humanitatis studiis 
+laudem adepti sunt, collegisse videare. Sed nescio quo 
+pacto Iacobum cardinalem Papiensem et item plerosque ex 
+veteribus praeterieris.
+</p>
+</sp>
+<pb n="167"/>
+
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>O singularem memoriam tuam, Alexander! At 
+mihi iste unus in tanto numero exciderat. Nec enim ego 
+dubito multos praeteritos fuisse ex veteribus eruditos 
+homines, sed hoc accidit culpa eorum qui nihil scriptum 
+reliquerunt. Diximus autem nos a principio eos in hunc 
+sermonem relaturos, quos aut a maioribus laudatos accepimus 
+aut quorum scripta in existimantium arbitrio versentur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Prudentissime facis, Antoni. Nam isti, qui nihil 
+scribendo volunt videri sapere (nisi alioqui doctissimi 
+sint aut erudiant iuventutem) nullo modo mihi placent. 
+Odiosum sane genus hominum et inutile videtur, non solum 
+vivis, sed etiam posteris nocere, cum aliena lacerant, ipsi 
+nihil audeant scribere atque id se facere modestia et 
+conscientia ingenii commotos dicant, ingeniosiorum quidem 
+hominum studia retardant. At homines infamiae insolentes et 
+insueti calumniarum facillime a scribendo deterrentur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Merito isti nullo loco sunt numerandi, qui nihil in 
+vita effecerunt ut numerarentur. Sed revertamur ad nostros 
+et a duobus adolescentibus fere aequalibus exordiamur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Campaninum Septimuleium te puto et Aemilium 
+dicere.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Recte putas; quorum alter, quamquam decennio ante 
+mortuus est, cum alterius tamen aetate coniungebatur. Ex 
+Platina saepe sum audire solitus, qui se Campanino 
+comitem in vinculis fuisse dicebat (fuit enim tum 
+litteratis et carceris et exilii subcunda calamitas) magnam 
+cum in illo <pb n="168"/>
+iuvenili et poetico ardore spem atque 
+admirationem praebuisse. Sed Aemilius civis Romanus ad 
+amplitudinem et honores pervenisset, nisi celerius vi quam 
+suo fato concidisset. Poemata eius non illa quidem nimis 
+compta sunt nec varia, apta tamen et quae naturae viribus 
+fulta, tanquam in herbis parva adhibita cultura, ingenii 
+virilitatem, nondum fruges ostendant, ita ut in eo illustre 
+ingenium appareat, artificium mediocre.</p>
+<pb n="169"/>
+<p>Sed ne Nicolao quidem Vallensi, qui Homerum et 
+Hesiodum Latinis expressit versibus, poeticum ingenium 
+defuit. Nam, ut coeteri multorum sunt approbatione 
+contenti, sic iste videtur unius Theodori testimonio 
+aliorum iudicia requirere non debere.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Ego vero vehementer delector commemorationem civium 
+Romanorum. Nam, si verum dicimus, nos cives Romani 
+sumus et duas habemus patrias: unam naturae iuris alteram. 
+<pb n="170"/>
+Itaque cum sexaginta iam fere annos Romae 
+habitaverimus, iure nostro cives Romani haberi debemus
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Optime facis, Paule, quod urbi Romae iustissimas 
+refers gratias, in qua praesertim Antonius Cortesius, 
+pater tuus, magnam sit nominis celebritatem consequutus. 
+Fuit enim ille vir, cum princeps collegii duodecimvirum, 
+tum in illis litteris scribendis expeditus et facilis, quae 
+quanquam inquinatae sint, ita tamen in his excelluit ut 
+appareret naturale eius quoddam bonum depravatum esse vitio 
+corrupte loquendi.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Non putabam te eo sermonem producturum ut in patrem 
+meum incurreres. Sed gratissimum mihi fuit cum testimonium 
+iudicii tui tum dulcior et suavior commemoratio paternae 
+industriae.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Nec autem ab illa poetica laude aberat Ianus 
+Pannonius, quem fuisse Guarini auditorem ferunt: clarum 
+mehercule poetam quis negare potest? Nam ego sic existimo 
+hunc unum coeteris superioribus poetica gloria 
+praestitisse. Illud certe mirabile in hoc homine fuit, quod 
+externus, quod barbarus (quae gens durior ad Musas videri 
+solet) ad summam admirationem et ingenii famam pervenerit.
+<pb n="171"/>
+
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Quid tu tantum externum effers, quasi vero 
+iste, non modo nostros omni genere laudum superarit, sed 
+etiam a scribendo deterruerit? Si iocaris, belle mihi 
+videris eum laudando suffragari barbaris; sin asseveras, 
+cave ne plus quaestionis suscipias quam possis sustinere. 
+Eum laudas si ut ingeniosum ac plane doctum, prorsus 
+assentior: modo ita laudes, ne gloriam nostris praereptam 
+velis. Nuper autem ea nostri homines agnoverunt, ut paulo 
+ante dixisti, quae sunt ab eo omnino ignorata nec ipse 
+unquam suspicatus est quaenam essent numerorum varietates.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Nolo me putes ambitiose loqui. Sed Andream 
+Contrarium placuisse quibusdam scio, quod illa lumina 
+Ciceronis ingeniose admodum consectari videretur. Sed 
+aliquanto tamen abest ab optimo genere imitandi et, ut 
+scite amicus noster ait, non ille quidem ut alumnus, sed ut 
+simia effingit. Is enim <pb n="172"/>
+Francisco Lippo 
+Arretino contumeliosissime maledixit ominatusque est illi 
+id genus mortis (mirabile dictu) quod postea utrique 
+contigit. Nam Lippum Neapolim proficiscentem in itinere 
+ex equo praecipitem in terram delapsum mortuum ferunt; 
+alterum etiam ex Brutiis decedentem non multo post simili 
+prope modo cecidisse.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>O gravissimum casum duorum eruditorum hominum, 
+siquidem huius animus praesentiens futura, cum alteri male 
+esset ominatus, sibi non cavit!
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sed hae doctorum hominum contentiones de litteris 
+tantummodo inter se dissidentium multum acuerent 
+iuventutem, nisi ipsi alios aut invide vituperarent aut 
+insectarentur inimice. Utilissimum certamen convertunt ad 
+iniuriam atque omnis undique concurrit ad iudicandum 
+consentiens indoctorum turba. Sed haec, si forte ad nos, 
+nihil tamen ad institutum sermonem.
+</p>
+</sp>
+<pb n="173"/>
+
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Quid tu id ad nos, quasi vero imperitorum 
+iudicia curemus? Unus existimator bonus est mihi pro centum 
+milibus.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Atque tum etiam in aliquo numero fuit Angelus 
+Sabinus, poeta cui non satis sit non contemni, probari 
+etiam cupiat: quanquam multa sint in eo inaniora nihilque 
+varietatis adhibeat ad permulcendas aures. Mombrinus 
+Mediolanensis mediocri industria sed multa doctrina et 
+magni laboris fuit; scripsit is exametros, illos quidem 
+erudita etiam aetate tolerabiles.</p>
+<pb n="174"/>
+<p>Utinam Cola Montanus quale ingenium habuit ad 
+dicendum, talem mentem ad ocium contulisset! Sed hunc 
+ambitio absorbuit et inexhausta aviditas magnitudinis 
+falsae, dum sibi opinionis errore gloriae fore putat 
+seditionem atque discordiam serere et potentissimos homines 
+falsis criminibus in invidiam vocare; itaque malis initiis 
+orsus, perniciosissimum vitae genus tristem exitum habuit.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alez.</hi></speaker>
+<p>Quae, malum! est ista tanta ambitio, quae 
+praeclarissimum istius ingenium falsae laudis cupiditate 
+perverterit? Nihil est enim, ut opinor, incongruentius quas 
+litteras, quae aluntur ocio et usui commodoque parantur, ad 
+perniciem hominum seditionemque convertere.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sane probe dicis, Alexander, sed Andreas 
+Brentius Patavinus, Graecis litteris eruditus, 
+ostendebat fructus futuros; <pb n="175"/>
+quod si percipere ei 
+licuisset, et speratam esset gloriam consequutus: sed breve 
+vitae spatium ingenii amplificandi fuit. Hunc defunctum cum 
+Paulus Marsus laudavisset fuissetque in ea laudatione a 
+multitudine quasi explosus, propterea quod nimia 
+contentione vocis pronuntiasset, tantum animo accepit 
+dolorem ut, paucis interpositis diebus, cum ad animi 
+sollicitudinem morbus accessisset, moreretur. Is non erat 
+omnino contemnendus scriptor nec inutilis et poeta, quamvis 
+negligens, attamen laudandus ut qui multum natura ipsa 
+valuerit: meministis enim vos, ut opinor, quam magnum 
+numerum versuum sit is solitus dicere ex tempore.</p>
+<p>Sed grave vulnus nobis fuit quod nuper ex morte Flavii 
+Panthagathi ingeniosi hominis suscepimus; qui, cum semel 
+se ab inimicorum fraude vindicasset incidissetque iterum in 
+impetum furentis populi, ab ipsis inimicis est interfectus. 
+Fecerant irruptionem inimici cum armatis hominibus in eius 
+<pb n="176"/>
+domum, caedebant ianuam saxis, instabant ferro; cum 
+ille miser undique fata circumstare nec iam salutis spem 
+ullam videret, inimicorum crudelitati se praebuit 
+lacerandum. Itaque, homo eruditus, diutius si vixisset, 
+declarare potuisset id se in scribendo consequutum, quod ab 
+excellenti ingenio expectari potest. Erat is poeta acutus 
+et quibusdam aculeis facetus, erat in lacessendo et in 
+respondendo tanta ingenii celeritate quantam in ullo unquam 
+cognoverim. Is reliquit <title>Traiani Caesaris vitam</title>, 
+utilem illam quidem et nobilem.</p>
+<pb n="177"/>
+<p>Nec vero Antonio Girardino honores defuissent, 
+nisi ipse quoque in medio cursu cecidisset. Contulerat se 
+ad amicitiam Hispanorum regis, quem sibi adeo sive morum 
+suavitate sive doctrina devinxerat ut facile, homo litteris 
+instructus (si longior ei vita contigisset), a rege 
+generoso ac potente et opibus et honoribus sublevaretur.</p>
+<p>Martinus Phileticus, quanquam natura erat tardior, non 
+tamen indoctus fuit et sane utilem operam iuventuti 
+praebuit. Sed et oppidana quaedam et minus compta erat 
+oratio idque acciderat, dum se vellet et poetam et oratorem 
+putari, cum in altero laboraret, in altero parum studii 
+poneret, in neutro excellebat, quod vitium cum in omni re 
+tum potissimum in his studiis effugiendum puto. In eo 
+quoque genere numerabatur Daniel Francinus diligens et 
+bonus sane grammaticus, in <pb n="178"/>
+dicendo autem lenis et 
+fluens, sed qui plus Latinitatis quam nervorum haberet. 
+Neque enim ita facti a natura sumus ut possumus pluribus 
+simul rebus excellere: itaque in hoc arbitror sequendam 
+esse naturam ducem atque eo tantummodo <pb n="179"/>
+eundum quo ab 
+ipsa trahimur et ducimur, ut simus potius simplici in 
+genere perfecti quam nos totos variarum multipliciumque 
+artium studiis applicemus.</p>
+<p>Sed Bartholomaeus Lampridius hospes, Paule, et 
+familiaris tuus litteris Graecis doctus fuit, sed in 
+dicendo parum exercitatus totoque genere ieiunus et 
+fractus: ferebatur enim, ut scis, ita praecipiti quadam 
+dicendi cupiditate ut, cum peroraturus esset, vix trium 
+dierum spatium in meditanda componendaque oratione poneret. 
+Itaque saepe, cum inter dicendum ea quae celerrime et 
+interrupte didicerat oblivisceretur, risum audientibus 
+excitabat. Sed postquam, Paule, in mentionem incidimus 
+necessariorum tuorum, referendi nimirum in hunc sermonem 
+<pb n="180"/>
+erunt duo municipes tui, Cherubinus Quarqualius 
+et Antonius Lollius, quorum alter poema fecit festivum et 
+quibusdam <pb n="181"/>
+aspersum salibus, alter etiam ex aliquot 
+orationibus, quas Romae habuit, multum commendationis est 
+consequutus
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Amice, hercule, fecisti, Antoni, quod laudem meis 
+municipibus tribueris.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Sed de Francisco Arretino aliquid dicamus, qui 
+fuit unus doctissimonim hominum iurisconsultissimus. Nihil 
+est <pb n="182"/>
+enim litteris mandatum, nihil in artibus 
+disciplinisque omnibus traditum quod ab hoc homine non sit 
+aut cognitum aut investigatum. Memoria autem tanta erat et 
+verborum et rerum ut omnia, quae nonnunquam legerat, 
+meminisset.</p>
+<p>Bernardus autem Iustinianus, Leonardi oratoris 
+filius, natura fuit singulari ad dicendum et negligentiam 
+Latini sermonis tegebat actionis dignitate. Huius sunt 
+orationes; illa Romae habita ut in affluenti et copioso 
+genere laudabilis.</p>
+<p>Laurentius Miniatensis, qui nuper est mortuus, quoquo 
+<pb n="183"/>
+modo potuit et poemata scripsit et historiam, sed 
+hunc sublimius astronomica scientia sustulit, in quo genere 
+ita laboravi et praestitit ut esset ex tota Italia ad eum 
+concursus. Atque is primus ex omnibus Manilium poetam ex 
+adito erutum in lucem revocavit.</p>
+<p>Sed pene Poetonum et Ludovicum Carbonem 
+<pb n="184"/>
+imprudens praeterii, quorum alter cum studiosus et 
+diligens, tum bene doctus fuit; alterius nonnullae feruntur 
+orationes.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Isti quidem laudantur semper a nobis et iure 
+laudantur, quandoquidem tantarum doctrinarum scientiam sunt 
+adepti; sed vellem, postquam omnes, qui aliquam scribendi 
+laudem attigerunt, nominasti ut de his qui hodie vivunt 
+aliquid diceres.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Mihi vero nihil poterit esse iucundius, quam si 
+eorum hominum virtutes, qui nobis ex facie et ex fama 
+doctrinae noti sunt, in hoc sermone celebratas videro. 
+Delectamur enim nescio quo pacto vehementius eorum laudibus 
+quos praesentes diligimus aut admiramur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Ego profecto libenter vobis morem gererem, nisi iam 
+advesperasceret. Res sane esset novo sermone digna, sed 
+vos, ut opinor, non parum voluptatis cepistis ex 
+commemoratione summorum virorum. Quanquam tu quidem, 
+Paule, quod fortasse hac aetate illustrioribus litteris 
+eloquentiae studia aucta putes, vivorum magis laudibus 
+delecteris quam eorum qui vita excesserunt: multi tamen 
+laudandi viri quos in hunc sermonem congessimus, omni nos 
+genere doctrinae delectare possunt. Nam Leonardus 
+Arretinus, illius aetatis princeps, satis nos delectabit, 
+si in eo amplitudinem et copiam requisiverimus; nec minus 
+iucunditatis habet erudita illa Theodori Gazae et 
+sententiosa et mollis oratio. Iam vero Antonio Campano 
+quod lumen orationis, quae ornamenta desunt? Quid Poggi 
+ingeniosa in dicendo facilitas, quis coeterorum praeclara 
+ingenia? Mirum <pb n="185"/>
+est quantum in suo quisque genere 
+delectet.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Praeclare intelligo cur neminem ex his, qui hodie 
+sunt, velis ipse nominare: ne quid scilicet ad gratiam 
+diceres aut ne forte minuere eorum, quos collegisti, 
+gloriam videreris, si eos cum his qui vivunt conferres. 
+Equidem de quibusdam sic existimo: ipsos multum in omni 
+genere doctrinae esse versatos, sed nondum lumen et florem 
+Latinae orationis attigisse, quam tu negare non poteris 
+ab huius aetatis hominibus et excultam esse politius et 
+maiori artificio amplificatam.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Quorsum ista, Alexander?
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Quia ita hanc turbam doctorum hominum omni genere 
+laudum exornasti ut multos in opinionem possis inducere 
+neminem esse huius aetatis cum his viris conferendum.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Ant.</hi></speaker>
+<p>Peracute tu quidem, Alexander, hanc comparationem 
+ex me conaris elicere quam in commodiorem diem differamus. 
+Nam et ego libentissime in eo sermone versabor, in quo 
+gloriari nobis liceat, id esse nuper ab ingeniis nostrorum 
+hominum vel inventum vel illustratum quod mille iam prope 
+annos ignoratum sit. Quare illorum memoriam, quod 
+eloquentiam ex barbarorum vinculis exemerint, quantum 
+possimus, augeamus. Hos autem qui haec ipsa studia ab illis 
+accepta locupletarunt, tota mente intueamur, ut horum 
+nutrimentis educati, maiora aliquando consequi possimus. 
+Sed nunc quidem surgendum arbitror et in oppidum redeundum, 
+ne qua interim in lacu tempestas exoriatur.
+</p>
+</sp>
+
+<sp><speaker><hi rend="italic">Paul.</hi></speaker>
+<p>Sic prorsus faciundum censeo, nisi quid secus 
+Alexandro videtur.
+</p>
+</sp>
+<pb n="186"/>
+
+
+<sp><speaker><hi rend="italic">Alex.</hi></speaker>
+<p>Ego vero, etsi de his qui vivunt aliquid 
+libenter audirem, tamen quoniam tu, Antoni, hanc 
+enumerationem in commodiore diem distulisti, non pugnabo 
+tecum sed expectabo quae polliceris. Nunc in oppidum 
+revertamur.
+</p>
+</sp>
+<pb n="187"/>
+</body>
+</text>
+</TEI.2>

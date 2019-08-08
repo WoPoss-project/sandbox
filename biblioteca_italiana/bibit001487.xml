@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ragguaglio d'un'adunanza dell'Accademia de'  Pitagorici (e testi correlati)</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>141040 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit001487</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Lezioni, articoli di critica e di polemica : 1809 -1811</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Santini, Emilio</editor>
+               <publisher>F. Le Monnier</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1933</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Trattati</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06-08T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Novadata systems</name>
+            </respStmt>
+            <item>Digitalizzazione - OCR</item>
+         </change>
+         <change>
+            <date>2008-04-21T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Erica Lese</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2008-05-20T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Ilenia Sabelli</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2008-06-17T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 n="Ragguaglio d'un'adunanza dell'Accademia de'  Pitagorici">
+            <head>RAGGUAGLIO D'UN'ADUNANZA DELL'ACCADEMIA DE' PITAGORICI.</head>
+            <div2 n="Premessa">
+               <argument>
+                  <p>Frammento d'un libro inedito intitolato Ragguaglio d'un'Adunanza dell'Accademia 
+de' Pitagorici, con l'epigrafe: <quote>
+                        <foreign lang="lat">«Quod audivimus, quod vidimus 
+oculis nostris, quod perspeximus et manus nostrae contrectaverunt....testamur et annuntiamus 
+vobis». <bibl>Johannes Ap., Ep. 1</bibl>
+                        </foreign>
+                     </quote>.</p>
+               </argument>
+               <p>Alla stamperia del presente giornale s'è dato da pubblicare il libro che annunziamo. 
+Qualunque ne sia l'autore e lo scopo a cui possa tendere, noi, dopo avere con curiosità esaminato il 
+manoscritto per compiacere alla persona che lo portò allo stampatore, crediamo di poter dire che il 
+libro, in pieno, è dettato con un ridicolo nuovo forse in Italia, e con lo scopo di svelare le 
+ciarlatanerie, le imposture e le malignità letterarie, onde richiamare, se fosse possibile, gli studi 
+all'onore che loro conviene e all'utilità che gl'Italiani possono conseguire nel coltivarli. Il libro è 
+diviso in otto capi, ed il capo V contiene una digressione intorno a' ragionamenti occasionati in 
+parte da un articolo della precedente puntata de' nostri <title>Annali</title>; digressione che non 
+pertanto giova allo scopo dell'autore. Ottenuto quindi il consenso del possessore del manoscritto, 
+stampiamo il capo V suddetto come opportunissimo all'occasione. Non si possono per altro gustare 
+nè intendere tutte le allusioni letterarie di questo capo V, perchè gli antecedenti quattro capi e i tre 
+susseguenti contengono le ragioni del libro, lo stato dell'Accademia, l'interpretazione d'ogni sua 
+legge, i caratteri d'ogni accademico ec.; cose tutte necessarie al <title>Frammento</title> che 
+presentiamo.</p>
+            </div2>
+            <div2 n="Capo V">
+               <head>CAPO QUINTO</head>
+               <argument>
+                  <p>Dove s'incontra un'altra digressione in discolpa dell'Accademia.</p>
+               </argument>
+               <p>Le parole del Segretario m'hanno (mentr'io poco fa le scriveva) confermato nell'opinione 
+che l'esperienza, l'ingegno e l'ardire congiunti insieme basterebbero a creare profeti; poichè una 
+cosa occorsa più giorni dopo mostrò che il Segretario perpetuo sapea profetare.</p>
+               <p>Stavano gli accademici la sera del 15 maggio, più concordi del solito, discorrendo della 
+miseria di buone traduzioni dal greco in Italia, e si nominavano alcuni grecisti viventi che 
+saprebbero arricchire la lingua nostra, ma che per timore di critiche se la passano in pace 
+indifferentissima, quando apparve l'Araldo e intimò tre volte SILENZIO. Aveva in mano un foglio; 
+e come tutti tacquero intenti, egli nel <title>Corriere milanese</title> uscito in quel giorno lesse ad 
+altissima voce l'articolo <title>Varietà</title>. Non mi sarei disviato in un nuovo episodio; ma 
+poichè sino ad ora ho senza umani rispetti parlato dell'Accademia, mi %%sento%% anche in debito 
+di narrare un avvenimento che, sebbene succeduto più giorni dopo, assolverà i Pitagorici da una 
+imputazione de' gazzettieri.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: «<hi rend="italic">Milano, martedì 15 
+maggio. Varietà. Gli accademici pitagorici sedenti in Milano</hi> (vedi il numero IV del giornale 
+intitolato <title>Annali di scienze e lettere</title>, pag. 63) nella loro privata 
+adunanza....»</p>
+               <p>
+                  <hi rend="italic">Molti accademici</hi>. — Come?</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi>: «<hi rend="italic">nella loro privata adunanza 
+de' 10 maggio corrente</hi>....»</p>
+               <p>
+                  <hi rend="italic">Gli accademici</hi>. — Privata? E non sa tutto il mondo, e non 
+fu egli scritto appunto nel giornale letterario citato, il quale ove parla de' Pitagorici noi dichiariamo 
+esattissimo e degno della pubblica fede, non fu egli scritto e stampato che l'Accademia siede 
+PUBBLICAMENTE?</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Date dell'ignorante all'autore.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi> con colore di voce d'uomo che già sapeva 
+ogni cosa: — Non sembra ignorante.</p>
+               <p>
+                  <hi rend="italic">Un altro accademico</hi>. — Dategli del balordo.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Non è certamente balordo.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Dategli dunque dell'impostore. 
+— E molte voci rispondeano: — Può darsi. — E trattanto il Presidente ripeteva 
+le sue teorie geometricamente provate, cioè: «Che ogni compagnia d'uomini oziosi, i quali 
+vogliono vivere sotto la santa libertà delle leggi, devono parlare, ridere, lamentarsi, sillogizzare e 
+pregare Iddio sempre in pubblico per non dare sospetto a' governi, nè pretesti d'esagerazione e di 
+spionaggio a' bricconi, nè speranza a verun malcontento». E andava innanzi con le sue 
+prove; se non che il contro Presidente, rompendogli la parola, — Facciamo — gli disse 
+— il nostro dovere —.</p>
+               <p>E gli uscieri spalancando porte e finestre e chiamando (poichè l'Araldo facea da lettore) 
+tutti quei che passavano per la strada, e il contro Presidente levandosi in piedi, e gli accademici tutti 
+stando per la prima volta dopo tant'anni in religioso silenzio, il Presidente protestò: «Che 
+l'accademia de' Pitagorici non tenne, non tiene, non terrà private adunanze, quand'anche dovesse 
+andare raminga sulla superficie del globo terracqueo».</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: «.... <hi rend="italic">nella loro 
+privata adunanza de' 10 maggio corrente hanno proposto due quesiti: il primo riguarda la morale 
+pubblica ed il secondo la storia letteraria del secolo XIX</hi>».</p>
+               <p>E qui, dopo che molti accademici ebbero a torto nuovamente chiamato ignorante l'autore 
+delle <title>Varietà</title>, dopo che alcuni inesperti l'ebbero nuovamente chiamato balordo, dopo 
+che. quasi tutti l'ebbero creduto impostore, il Presidente dichiarò: «Che l'accademia de' 
+Pitagorici non solo (come si vede anche nelle sue costituzioni citate da quella gazzetta) non propone 
+quesiti; ma che anzi le importa che i quesiti filosofici e letterari non siano trattati da quegli autori 
+che scrivono per mercede o per premio».</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Quesito 1<hi rend="sup">°</hi>. Avendo i compilatori dei suddetti</hi> Annali <hi rend="italic">promesso 
+solennemente a tutte le culte ed oneste persone</hi> rispetto a chicchessia nella critica, <hi rend="italic">si domanda se fino al numero IV inclusivamente abbiano adempito alla loro 
+promessa</hi>».</p>
+               <p>
+                  <hi rend="italic">Il Presidente</hi>. — Costui in nome della morale pubblica 
+domanda l'adempimento d'una promessa di giornalista; e la domanda con una solenne impostura 
+contro una pubblica adunanza di galantuomini.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — I compilatori de' suddetti 
+<title>Annali</title> ci pensino.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Quesito 2<hi rend="sup">°</hi>. Nello stesso numero IV s'incontra alla pagina 25 un articolo sopra la traduzione 
+de' due primi canti dell'</hi>Odissea <hi rend="italic">ec. del sig. Pindemonte, compilato con un 
+ordine ammirabile d' idee e con saggia e moderata critica. Siccome la più tarda posterita sarà vaga 
+di sapere il nome del celebre autore anonimo, si propone a' suoi contemporanei di scoprirlo con le 
+note regole del confronto delle sentenze, dei giudizi della maniera di pronunciarli. — A chi 
+avrà sciolto adequatamente il primo quesito sarà dato in premio un libretto assai raro 
+intitolato</hi>: <title>
+                     <foreign lang="lat">De logomachiis eruditorum et de meteoris 
+orationis</foreign>
+                  </title>
+                  <hi rend="italic">di Samuele Verenfelsio, dottore di sacra 
+teologia</hi>».</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Ma se l'accademia non ha 
+biblioteca!</p>
+               <p>
+                  <hi rend="italic">L'accademico Bibliotecario</hi>. — Io l'ho questo libro; e non 
+è poi tanto raro: una copia per altro in membrana e un'altra intonsa...</p>
+               <p>
+                  <hi rend="italic">Il Tesoriere</hi>. — Ma se l'Accademia non ha cassa!</p>
+               <p>
+                  <hi rend="italic">Il Bibliotecario</hi>. — Nè io ve lo venderei: del rimanente 
+questo gazzettiere mi darebbe di belle notizie, perchè pare anch'ei cacciatore di libri rari.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — E' vi sono anche di quelli i quali 
+parlano di quel che non sanno per parere quel che non sono.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Per il secondo 
+quesito saranno date tutte le opere utili alla letteratura di Anton–Maria Salvini, se pure si 
+potranno radunare tutte, e quando si trovassero tutte</hi>».</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>.— Bisogna dire che 
+quest'Anton—Maria vaglia poco, da che le sue tante opere non sono state ancor radunate, e ci 
+vuole ancora tempo a conoscerle tutte.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">E per agevolare 
+agli esteri ed anche ai nazionali questo lavoro (tanto più che de' suddetti Annali se ne stampano 
+poche copie), il Segretario perpetuo ha compilato per ordine degli accademici il seguente sommario 
+delle materie contenute nel suddetto a articolo</hi>.»</p>
+               <p>E già tutti tenevano gli occhi fitti nel viso del Segretario, il quale per un pezzo rimase 
+interdetto. Finalmente, stringendo i denti, sacramentò <foreign lang="lat">in visceribus</foreign>: 
+«Ch'ei non sapeva nulla di quel libello»; e perchè egli è uomo giovane ed arditissimo, 
+dichiarò apocrifa, calunniosa ed infamatoria la narrazione; e fin qui non c'era gran male; ma 
+maledisse come meritevole della berlina l'autore, il copiatore, lo stampatore e, quasi quasi, il 
+cartaio, e chiunque fida nelle novelle de' giornalisti.</p>
+               <p>— Mancherebbero braccia a fabbricare tante berline — disse quel canuto 
+accademico della storietta da Lione a Chalon. — Ma nè l'autore di quell'articolo forse merita 
+la berlina: chi dice a noi ch'egli non abbia pigliata la notizia della nostra Accademia come scherzo 
+di fantasia?</p>
+               <p>— Eh sì! — replicò il Segretario; — quasichè dal teatro dell'Opera 
+alla nostra Accademia si dovesse venire a cavallo! e non siamo noi noti anche ai ciechi? e le nostre 
+parole non sono elle riferite qua e là fin anche da' sordi e da' muti? e non siamo noi forse mostrati a 
+dito dagli uomini gravi come precursori del finimondo? e i ruffiani dagli uomini gravi non ci hanno 
+forse trasfigurati in satirici delle giovani donne? Ma per Dio! che le donne sono più accorte di tutti 
+gli innamorati furbissimi di Susanna; e molte, e le più belle, non hanno dato retta a que' parasiti 
+d'amore. E non andiamo noi da per tutto? e non mangiamo, non beviamo, e forse ogni giorno, con 
+questi ipocriti che ci accusano di tenere adunanze segrete e che si usurpano i nostri titoli? 
+Aspettassero almeno che fossimo morti! — Ma no — continuò alteramente il 
+Segretario recitando due versi di Dante:
+
+<quote rend="block">
+                     <lg>
+                        <l>— No; Brancadoria non è morto unquanco;</l>
+                        <l>Ma mangia, e beve, e dorme, e veste panni.</l>
+                     </lg>
+                  </quote>
+
+E ch'io mi sappia fare ben altro che mangiare, bere, dormire e vestirmi e bestemmiare contro que' 
+tristi, v'è tale forse... tale che un giorno o l'altro se n'avvedrà. Ma, morto e sepolto, lo troverò 
+all'altro mondo.—</p>
+               <p>— Bella cosa è la gioventù, ma più bella assai la prudenza! — disse il 
+canuto accademico.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: «.... <hi rend="italic">il Segretario 
+perpetuo ha compilato ec., dalla pag. 25 alla 36. L'autore nota come ignoranti, deride ironicamente, 
+minaccia, insulta, attacca, investe, punge, sferza, bastona, calpesta ec. Salvini, Bacelli, il p. Soave, il 
+signor Pindemonte, il Cerati, Angelo di Costanzo, il Casa ec. ec., nominatamente ciascuno di questi 
+individui per la loro porzione</hi>....»</p>
+               <p>
+                  <hi rend="italic">L'accademico canuto</hi>. — Ho letto anch'io quell'articolo 
+sull'<title>Odissea</title> e veramente pare di penna che accatti brighe. Gran che per altro che i 
+letterati nel criticarsi si frodino come contrabbandieri! In quegli <title>Annali</title> si è detto 
+poco bene ed assai male di molti; un po' di bene a ogni modo. Ma il signor Pindemonte è trattato 
+con onore nel molto bene che il suo libro può meritare,e con gentilezza in ciò ch'egli, com'uomo, 
+può avere fatto sbagliando.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — L'Araldo prosiegua; a' duelli 
+letterari pensino Febo e Minerva.</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Ma i dotti, dovendo logorarsi più 
+d'ogni altr'uomo la sanità, si ristorano stando moltissimo in letto. E quando s'alzano devono 
+riscuotere e pagare visite, rispondere lettere a' loro dotti corrispondenti, attendere al loro ufficio se 
+sono impiegati, desinare impiegasti scaldarsi al fuoco d'inverno, scappare a qualche villeggiatura la 
+state, divertirsi un pochino tra le Grazie, e più di tutto studiar con le Muse. Or noi 
+difendendoli....</p>
+               <p>Se non che il contro Presidente, avvezzo a ostinarsi, replicò interrompendo: — 
+L'Araldo prosiegua. E se uno tocca i guanciali sprimacciati o il cuffiotto d'un letterato dormente, 
+temete voi che a lui manchino orecchie, coraggio ed armi vicine contro il nemico?
+<quote rend="block">
+                     <p>— <foreign lang="lat">Iamque faces faecesque volant; furor arma ministrat</foreign> 
+—</p>
+                  </quote>
+esclamò il Segretario. — Ma se l'olio rancido delle loro lucerne all'aria — continuò a 
+dire pieno di collera — sporcasse taluno che passa ridendo per la sua strada, possano que' 
+litiganti fare a sassate con le corna di tutti i mariti delle avventuriere.</p>
+               <space type="stacco narrativo"/>
+               <p>Io, scrittore, confesso che non si può dire di peggio; e a stento l'imprecazione può 
+perdonarsi alla collera d'un uomo giovine provocato, come fu il segretario, dall'impostura della 
+gazzetta. E ho riferito con mio rossore quelle parole per non tradire la professione di storico. Ma 
+ove taluno si dilettasse di satiriche iperboli, le cerchi ne' crocchi de' vecchi malcontenti o di tutto, e 
+delle donne ritirate piamente dal mondo; ma più che altrove da que' maestri di lettere che, non 
+avendo mai pubblicato una sillaba scritta, fecero dire ai maligni ch'essi non sapessero il loro 
+mestiere. Io nondimeno posso attestare ai dilettanti d'iperbole che i suddetti maestri maneggiano le 
+figure rettoriche egregiamente, e più nella satira verbale; e quando ei si trovano a veglia tra le pie 
+donne, le maneggiano più che mai.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: «.... <hi rend="italic">in massa poi 
+tutti i bibliotecari, bibligrafi, cherici regolari, giornalisti, accademici, grammatici, grecisti, 
+naturalisti, fisici, professori di lettere, professori di scienze ec. ec., e ciascuna classe per la loro 
+porzione</hi>.»</p>
+               <p>Intanto il Geografo ad ogni nome collettivo della litania sussurrava nel naso la parola 
+<hi rend="italic">impostori</hi>, e, ammonito dal Capo d'opposizione, rispose ch'ei non sapeva 
+d'<title>Annali</title>; ma che senza dubbio gli <title>Annali di scienze e lettere</title> avranno 
+chiaramente parlato di que' tanti impostori che per vanità, per mendicità, o per non voler fare 
+veruno de' tanti mestieri più laboriosi, si usurpano il titolo e la professione di grand'ingegni; 
+— vizio — diceva il Geografo — che ho notato nelle geografie d'ogni 
+terra.</p>
+               <p>— E forse — aggiunse il Segretario — l'autore delle 
+<title>Varietà</title> chiama tutti i suoi fratelli in aiuto.</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Alleanza fratesca.</p>
+               <p>
+                  <hi rend="italic">Dodici accademici. 1<hi rend="sup">°</hi> accad.</hi> — Oggi è il 
+dì l5 maggio.</p>
+               <p>
+                  <hi rend="italic">2<hi rend="sup">°</hi> accad.</hi> — La Chiesa d'Iddio 
+cominciò e crebbe senza cappucci.</p>
+               <p>
+                  <hi rend="italic">3<hi rend="sup">°</hi> accad.</hi> — Ma l'umanità avrà 
+sempre bisogno di cuori compassionevoli.</p>
+               <p>
+                  <hi rend="italic">4<hi rend="sup">°</hi> accad.</hi> — Bisognava dire male 
+degli abusi fino che v'erano e addossarsi le inimicizie d'ogni dannosa congregazione: chi parlò delle 
+scuole de' Chierici regolari scrisse e stampò nel mese d'aprile prima che i chierici fossero 
+riformati.</p>
+               <p>
+                  <hi rend="italic">5<hi rend="sup">°</hi> accad.</hi> — Gli abusi passano, ma 
+rimangono gli uomini; l'equità deve pietosamente fare quello che può.</p>
+               <p>
+                  <hi rend="italic">6<hi rend="sup">°</hi> accad.</hi> — Vi saranno forse tra gli 
+sfratati alcuni ostinati.</p>
+               <p>
+                  <hi rend="italic">7<hi rend="sup">°</hi> accad.</hi> — E noi li tollereremo, 
+perchè omai non possono recare gran danno.</p>
+               <p>
+                  <hi rend="italic">8<hi rend="sup">°</hi> accad.</hi> — Chi sa? ... Vi 
+saranno....</p>
+               <p>
+                  <hi rend="italic">9<hi rend="sup">°</hi> accad.</hi> — E le leggi 
+provvederanno.</p>
+               <p>
+                  <hi rend="italic">10<hi rend="sup">°</hi> accad.</hi> — — Vi saranno 
+inesperti; e noi li consiglieremo.</p>
+               <p>
+                  <hi rend="italic">11<hi rend="sup">°</hi> accad.</hi> — Vi saranno infermi, 
+vecchi e imbecilli; e i nostri cittadini cercheranno di scorrerli come infermi, vecchi e imbecilli.</p>
+               <p>
+                  <hi rend="italic">12<hi rend="sup">°</hi> accad.</hi> — E chi segue a 
+deriderli e non comincia a soccorrerli, mostrerà ch'egli odia, anzichè gli oziosissimi e inutilissimi 
+cappucci de' frati, l'uomo che può tornare utile al mondo.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Dalla pagina 36 
+alla 44 è commendato Ugo Foscolo come inventore di teorie nuove, o almeno nuovamente dettate, 
+nelle quali sta la somma ragione per ben tradurre, e si dice più temperato dalla natura a seguire 
+Pindaro e Milton che Virgilio ed Omero</hi>.»</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Modestissimi letterati!</p>
+               <p>
+                  <hi rend="italic">Un altro accademico</hi>. — Seguire vuol dire andar dietro; se 
+poi da presso o da lungi, non è spiegato.</p>
+               <p>
+                  <hi rend="italic">L'accademico canuto</hi>. — Ma si tace che negli 
+<title>Annali</title>, e in quella stessa pagina, è scritto che <hi rend="italic">l'autore temperato a 
+seguire Pindaro e Milton aveva, per opinione di molti uomini dell'arte, sbagliato di pianta nella 
+versione d'Omero</hi>. Onestissimi letterati soprattutto per l'esattezza con che citate i passi, 
+letterati onestissimi.</p>
+               <p>
+                  <hi rend="italic">Il Segretario</hi>. — A non imitare nè pure in fallo l'onestà di 
+quest'anima di ser Ciappelletto, trasmigrata per lungo ordine di velenosi animali nel corpo d' un 
+impostore, piaccia all'accademico Araldo di leggere in modo da far sentire tutti i passi scritti in 
+corsivo e in maiuscolo di cui sarà seminato il rimanente di quel libello.</p>
+               <p>A ciò l'accademico Araldo (il quale, senza avvedersene e senza intenzione di offendere 
+la Crusca, s'esprime sempre con frasi tutte sue proprie) rispose ch'egli leggerebbe con voce rotonda, 
+corsiva, maiuscola, maiuscoletta e minuscola, secondo il caso; con pausa, semipausa, puntino, punto 
+fermo e fermissimo, senza preterire una virgola.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Dalla pagina 44 
+sino alla 62 investe e processa l'abate Cesarotti, e pregia il fino giudizio d' Isabella Albrizzi. (E qui è 
+da notarsi che questa coltissima signora ha fatto con altri bellissimi ritratti quello ancora di Ugo 
+Foscolo, e per disegnarlo e colorirlo ha posto in uso l'artificio di Zeusi nel dipingere Elena). Dalla 
+pag. 53 sino alla 60 minaccia il Monti dell'imparziale sua censura; ripete con le stesse parole di Ugo 
+Foscolo che Monti non sa il greco; deride e strapazza Walckenaer, biasima il sig. 
+Pindemonte</hi>....».</p>
+               <p>
+                  <hi rend="italic">Il Presidente</hi>. — Ed ecco crescere di giorno in giorno le 
+prove di ciò che vi ho detto. Gli uomini codardi e vendicativi non ardirebbero mai cimentarsi, se 
+non avessero l'arte di sedurre e di trarre alle loro parti gli animosi ed i forti. Poi, come hanno ben 
+bene aizzati i due gladiatori, si rifuggono a passi lentissimi tra gli spettatori per vedere sbranante o 
+sbranato il loro campione. Ardendo la zuffa, ridono con gli astanti. Finita la zuffa, alzano le mani 
+per mostrarle plaudenti a chi vince. E perchè la vittoria di queste liti di penna rimane spesso 
+indecisa e tutti i superstiti ad una battaglia bramano di tornare in pace tra loro, sapete voi chi sono i 
+giudici corteggiati dalle due parti, e i benemeriti mediatori del trattato d'alleanza e di pace? Que' 
+Don Piloni medesimi che stanno tuttavia macchinando un assalto contro un nuovo nemico più forte 
+di loro.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva:« <hi rend="italic">Dalla pagina 60 
+alla pagina 69 schernisce ed infama un tipografo suo <emph>AMICO</emph>
+                  </hi>»</p>
+               <p>Assai bizzarrie intorno agli obblighi veri dell'amicizia furono discusse nell'adunanza 
+degli 8 maggio; e perchè intendo di narrare anche la fine di quell'adunanza, piaccia al lettore di 
+cercarle nel capo VIII. Frattanto, per levargli ogni scrupolo su la mia storica fedeltà, mi basta di 
+dirgli che alcune di quelle medesime bizzarrie furono a' 15 di maggio ripetute in via di commento, 
+poichè ebbe l'Araldo con voce maiuscola pronunziata la parola santissima AMICO.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Dalla pag. 69 
+all'ultima prende in aiuto Baretti per istaffilare Algarotti e con esso i gesuiti, i giornalisti, i letterati 
+esteri e nazionali, i cortigiani e i nobili del suo tempo</hi> — del suo tempo 
+—.»</p>
+               <p>Senza che voce nè cenno dicesse all'Araldo di ripetere lo quattro ultime sillabe, l'Araldo, 
+dopo averle ripetute, si ristette (quantunque non interrotto) dalla lettura, e guardò negli occhi gli 
+altri accademici, che si guardavano tutti tra loro. E senza che un sorriso solo spuntasse da tanti 
+muscoli esercitati a ridere sempre, udii deplorare l'umano accanimento, che cerca perpetuamente e 
+con tutti i modi non tanto di vincere quanto di nuocere in ogni specie di gara. Quanti avean letto gli 
+articoli degli <title>Annali</title> intorno a' traduttori d'Omero sapevano che l'autore non s'era 
+inteso di <hi rend="italic">staffilare i cortigiani e i nobili del suo tempo</hi>. Parlava 
+dell'Algarotti, al quale le sette accademiche, i letterati della corte di Prussia e il titolo di Conte gli 
+avevano tra i dotti, tra gli stranieri e tra i nobili del 1750 procacciata la fama che gl'Italiani del 1810 
+non gli concedono. Con questo esempio ha creduto di poter dire: — Autori nostri concittadini 
+(che non siamo tanto arroganti da chiamare col nome di confratelli), non siate ne' vostri libri nè 
+gesuiti, nè accademici, nè cortigiani, nè nobili, nè plebei, nè pastori, nè bifolchi Arcadi, né caprari, 
+ma cittadini. Tutte le nazioni, e più di tutte la nostra, hanno bisogno di nobili e grandi passioni e di 
+opinioni utili e giuste; ma i partiti a cui molti si legano si nutrono tutti di passioncelle e di 
+pregiudizi. La verità fu <foreign lang="lat">ab antico</foreign> sepolta, appunto quando i partiti 
+cominciarono a dividere la sciagurata nostra specie; e i partiti vanno sempre gettando terra, massi, 
+macerie di monasteri e di sinagoghe, cenci di divise e di livree d'ogni foggia e colore, urli, minaccie 
+e calunnie per otturare sempre più e maledire la fossa. Ma la verità, benchè disgraziata, è pur 
+sempre divina ed eterna, ad ha una voce ch'esce dalle viscere di sotterra; e gli autori soli possono 
+udirla e farla udire a' popoli, ed appassionarli per essa, e confortarli con essa e dirigerli. Nè il modo 
+di dirla è insegnato da' partiti, bensì dai grandissimi scrittori d'ogni tempo e paese. <hi rend="italic">Immaginate che Demostene, Socrate e Omero leggano quanto scrivete</hi>. 
+— Poichè dunque l'esortare i concittadini a coltivare generosamente e per decoro dell'Italia le 
+lettere ti frutta una pubblica chiosa nelle gazzette, che, se non fonda prove, semina pur sempre 
+indizi di colpa e tende a consecrarti allo sdegno di molte persone del <emph>tuo tempo</emph> e 
+paese alle quali tu non miravi scrivendo, confesso ch'io benedico chi non sa leggere, e gemo sopra 
+ogni linea che scrivo.</p>
+               <p>
+                  <hi rend="italic">Qui lo storico ricomincia a parlare di sè: i lettori quindi possono 
+saltare le facciate sino al punto ove l'araldo ripiglia la sua lettura</hi>.</p>
+               <p>Nè gemo per me; e che bisogno ho io di lodi carpite? e che timore d'uomini 
+ingiustamente sdegnati? e che occasione d'adombrarmi d' insidie io, che chiamando sulla faccia e 
+schiettissimamente <emph>bindolo</emph> chi mi par bindolo provato, e 
+<emph>galantuomo</emph> chi mi par galantuomo, mi sono già accomodato al titolo di pazzo, e 
+trattando le colpe, le difese e le accuse dinanzi al mondo, ho prevenute tutte le insidie dei bindoli? Il 
+padre mio mi die' nelle mani quand'io avea sett'anni, una spada; quand'io avea dieci anni, una 
+penna; ed una tromba nel giorno ch'egli morì. Nella spada era scolpito: <hi rend="italic">Difendi la 
+patria, l'onore, l'amico con ben altro che con parole</hi>. Con la penna m'insegnò a scrivere: <hi rend="italic">Sostieni le tue opinioni con la forza sol della penna e contro la sola forza dell'altrui 
+penna</hi>. Quando poi mi die' la tromba, mi disse poi con aspetto moribondo: <hi rend="italic">Dalle liti mute nascono l'odio e l'insidia: dalle liti palesi la vergogna ed i patti</hi>. 
+Conobbi poi che chi adopera la tromba è obbligato a dir vero, perchè la sua falsità gli sarebbe subito 
+rinfacciata dal popolo. Poi mi proposi di non adoperare la spada dove è bisogno di penna, nè la 
+penna dov'è bisogno di tromba. Nondimeno anche nell'adoperare questi tre doni di mio padre a 
+dovere vidi che si correvano molti pericoli. Ma dove e come non si corre pericoli? Da che, dopo 
+molti libri e forti meditazioni, non ho potuto conoscere mai <emph>perchè</emph> vivo, m' 
+importa poco del <emph>come</emph> e pochissimo del <emph>quanto</emph> vivrò. Ma ho 
+cercata l'umana felicità, e l'ho trovata, benchè mista a qualche fastidio, nell'usare pienamente e 
+liberamente delle facoltà che la natura ha dato variamente e in dose diversa a ciascuno de' suoi tanti 
+figliuoli; ed ho lodato che chiunque ha buone e belle e giovani gambe le eserciti a correre ed a 
+ballare; e biasimo chi, avendole belle e buone, non balla; e rido di chi, non avendole nè belle nè 
+buone, vuol farsi ammirar ballerino, dopo che molti gli hanno detto: <hi rend="italic">Vedi che tu 
+m'annoii; siedi invece, e fa il sarto</hi>; e abborro chiunque, con l'arte del ciarlatano ch'egli ha, sa 
+farsi dall'infinito numero de' poveri di spirito e di esperienza venerare e nutrire per l'arte ch'egli non 
+ha, con frode al mondo e con danno de' verecondi e veri maestri dell'arte. Onde, finchè gli altri non 
+si mostrino annoiati di me, userò delle mie facoltà, buone o triste che siano, senza scrupolo nè 
+timori nè pretesa veruna di pagamento; e leggo, scrivo e fantastico con l'intento nè più nè meno, con 
+che dormo, odoro i fiori e cavalco. Ho anche misurata la terra e numerati quelli che la coltivano e 
+quelle che si piacciono di popolarla; e benchè io non abbia trovato il conto preciso, mi sono confuso 
+nell'abbondanza di tanto spazio e di tanti viventi, e ho detto all'animo mio: — Eccoti infinito 
+numero di donne belle e d'uomini buoni da parlare, piangere e ridere insieme, senza bisogno di stare 
+con chi non ti piace o d'accattar con usura la maschera che non hai: eccoti terre lunghe e larghe 
+dove tu possa a ogni fortuna trovare una stanza riscaldata dal sole, una collina da parlar con la luna 
+e le stelle, e un cimiterio dove tu sia sotterrato a tuo modo, poichè non v'è luogo dove tu possa 
+fuggir dalla morte. — Ma la compassione di cui non ho per me stesso bisogno, benchè la 
+natura ne abbia data a me pure una porzioncella come facoltà da non lasciarsi inattiva, devo e voglio 
+spenderla per tant'altri. Tant'altri, avendo forse conosciuto <emph>perché vivono</emph>, tremano 
+sempre del <emph>come</emph> e del <emph>quanto</emph>: o cercano l'umana felicità dove 
+molti l'hanno infruttuosamente cercata, o credono troppo angusta la terra e scarso il numero delle 
+belle donne e degli uomini buoni. In queste ansietà lasciano invecchiare o morire le tante e sì belle 
+doti che per loro bene e degli altri aveano portate nel mondo. Però gemo scrivendo. Gemo dello 
+scoraggiamento in cui coloro che vogliono trarre usura delle facoltà che non hanno, faranno con la 
+forza del loro numero languire i pochi ingegni che le possiedono. Gemo dell'abbiezione in cui gli 
+studi, contaminati dalle male arti, dovranno un dì o l'altro inevitabilmente prostrarsi. Gemo dell'arte 
+pessima che va prevalendo ne' letterati di far sospettare come avverso alle leggi, ai principi e alla 
+religione del popolo chiunque ride delle loro opinioni scientifiche, o dice di non sentire piacere ne' 
+loro versi. Gemo della dignità de' governi avvilita da chi li ravvolge in sì puerili contese; della 
+costumatezza pubblica che con sì fatti pubblici esempi andrà ognor più corrompendosi; della rovina 
+in cui per quell'arte pessima, e la più velenosa tra quante l'umana vendetta potesse inventare, vedrò 
+forse ingoiata molta gente dabbene. E gemo perchè so che gli uomini seranno con più fiducia 
+quando e dove sappiano che i loro avversari non possano discolparsi, quando e dove non temano 
+che la voce della verità esclami dalle viscere di tanti cittadin che non potranno guardare senza 
+ribrezzo l'innocenza perseguitata e strozzata. Per quelle malìe di Megera gli uomini più saggi, più 
+giusti e più forti saranno a poco a poco sedotti a condannare con loro infamia, e col rimorso che 
+segue l'infamia, a condannare inavvedutamente i meno colpevoli tra' mortali, e sovente i loro 
+medesimi amici.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi> leggeva: « <hi rend="italic">Finalmente dopo 
+aver data qualche morsicata al Brazzuolo, traduttore d'alcuni idilli greci, si lagna</hi> di que' 
+pessimi suoi fratelli letterati i quali hanno sempre ragione, appunto perchè non danno mai torto a 
+veruno.»</p>
+               <p>Or un accademico giovinotto, che non aveva veduto l'articolo su l'<title>Odissea</title> 
+criticato nel <title>Corriere milanese</title>, s'era dal Geografo fatta prestare una delle copie degli 
+<title>Annali</title> spettanti ad alcuni accademici, e senza attendere a' discorsi de' Pitagorici 
+l'andava sotto alla lucerna leggendo. Così egli solea fare ogni sera con ogni libro che gli cadea sotto 
+l'occhio. E poichè, leggendo sempre, non poteva ascoltare gran fatto, non fu da veruno incolpato s'ei 
+parlava pochissimo. Ed era egli giunto al passo degli <title>Annali</title> citato dal gazzettiere 
+mentre appunto l'Araldo lo recitava; onde, mettendo una voce di meraviglia, — State ad 
+udire! esclamò — State tutti ad udire! E quando a Dio piacque che lo ascoltassero, lesse: 
+«S'incontrano in questo mondo certi caratteri che sembrano gli originali da cui Molière trasse 
+il <title>Misantropo</title>: sono ridicoli a un tempo e stimabili. E tra questi, quando non vanno 
+agli estremi, si può vivere più lietamente e con più fiducia che tra tutti gli altri figliuoli 
+d'Adamo.» —</p>
+               <p>— Parla di noi — dissero due o tre Pitagorici.</p>
+               <p>«Ma» continuò l'accademico giovinotto leggendo «ma i pessimi tra' 
+nostri fratelli sono que' savi circospetti che hanno sempre ragione, appunto perchè non danno mai 
+torto a veruno».</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — E questa tiritera rifritta che 
+c'entra?</p>
+               <p>
+                  <hi rend="italic">L'accademico giovinotto</hi>. — Ma perchè mai l'autore 
+dell'articolo <title>Varietà</title> levò al testo ch'ei cita le parole di <emph>savi 
+circospetti</emph>, e ci pose l'altra di <emph>letterati</emph>?</p>
+               <p>
+                  <hi rend="italic">Più Pitagorici</hi>. — Perchè l'autore delle 
+<title>Varietà</title> avrà anch'egli detto: <hi rend="italic">Parla di noi</hi>.</p>
+               <p>— Vedi! — disse l'accademico giovinotto; e seguitò a leggere.</p>
+               <p>L'accademico canuto. — Parmi che per maggior frutto o men danno di quella 
+massima, per onore o disonore di chi la scrisse, la non doveva diventar privilegio de' letterati, bensì 
+lasciarsi come stava nel testo, a tutti i fratelli in Adamo. Ma i letterati si frodano e si froderanno 
+sempre citando.</p>
+               <p>— E perchè? — domandò l'accademico giovinotto, che stava con gli occhi 
+sul libro e, talvolta, con l'orecchio al discorso ch'egli avea suscitato.</p>
+               <p>
+                  <hi rend="italic">Il Segretario</hi>. — Perchè? ... E se tu non avessi, al solito, 
+fatto il dotto qui dentro ed il filosofo in visibilio, l'avresti udito assai prima il perchè.</p>
+               <p>— Ma io — replicò scolpandosi il giovinotto — devo pure 
+affrettarmi a leggere questo <title>Giornale di scienze e lettere</title>, e badare alla meglio sul 
+modo di fare estratti di libri. Un amico mio eruditissimo, nuovo tragico, mi raccomandò di scrivere 
+un articolo pel tomo ch'egli sta pubblicando: mi diede in iscritto i punti principali dell'estratto, e mi 
+disse: «<emph>Fate voi</emph>: vi vedo giovine di belle speranze: <emph>fate 
+voi</emph>. Quando stamperete la vostra traduzione della Poetica d' Orazio, lasciate fare; ne ho già 
+parlato a persona che protegge chi si distingue: v'amo perchè vi conosco: voi riescirete un 
+grand'uomo: vi raccomando l'estratto, e mi fido di voi.»</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Lasciate dunque stare quel 
+giornale.</p>
+               <p>
+                  <hi rend="italic">L'accademico giovinotto</hi>. — E perchè?</p>
+               <p>
+                  <hi rend="italic">Alcuni accademici</hi>. — Perchè gli autori che si 
+raccomandano d'essere lodati da quel giornale perdono i passi ed il tempo. Con l'intento o il pretesto 
+di correggere i cattivi scrittori e le inezie quel giornale comincia a scoraggiare i talenti.</p>
+               <p>— Vedi! — tornò a ripetere con la sua meraviglia naturalissima il 
+giovinotto.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Leggete il <title>Giornale 
+d'incoraggiamento</title>.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Così Dio mi faccia vivere in 
+compagnia di donne graziose e di giovani allegri per altri vent'anni, come quel proverbio che <hi rend="italic">il libro del mondo è più originale e più nuovo di tutte le biblioteche del globo</hi>, è 
+proverbio vero come il vangelo! Abbiamo imparato stassera su le malizie de' mercanti di lettere più 
+di quello che il nostro accademico Bibliotecario, attempatello com'è, abbia potuto imparare da tutta 
+quella sua raccolta di <hi rend="italic">Filosofie</hi> morali e politiche.</p>
+               <p>— E perchè? — dimandò l'accademico giovinotto.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Perchè sì. Perchè sì. Perchè il 
+libro del mondo è di tante pagine quanti furono, sono e saranno i giorni dal principio sino alla fine 
+de' secoli. Perchè importa leggere le pagine degli anni passati; ma chi sa mai diciferare quelle che il 
+tempo ha corrose? E chi potrebbe mai leggere tutte le altre? Più utile dunque trovo e più comodo a 
+studiare ogni giorno quella pagina del gran libro che si scrive alla mia presenza: Il sole d'oggi non è 
+il sole di ieri; vo' dire che gli uomini furono sempre quelli, ma si vestirono ogni anno con fogge 
+diverse. E che vuoi tu ch'io, leggendo le ironie di Platone e di Montesquieu contro la venalità de' 
+sofisti e degli abatini, mi eserciti a distinguere chi mi bazzica intorno? L'impostura in Atene e in 
+Parigi faceva forse quel male che fa in Italia; ma si lisciava con belletto assai differente da quello 
+che oggi si vende alla bottega delle accademie.</p>
+               <p>Trattanto l'accademico giovinotto andava gittando occhiate al suo libro, finchè, 
+incalzato dall'insistenza con che il contro Presidente sosteneva i suoi corollari morali, guardò 
+l'oratore, ma con viso che significava di non intendere nè il principio nè la cagione di quel 
+discorso.</p>
+               <p>— Figliuolo mio — dissegli il canuto accademico, che, quantanque 
+parlasse con meno arguzia e con meno veemenza degli altri, era non pertanto, e per l'età sua e 
+fors'anche per la discrezione con che parlava, ascoltato più volentieri da tutti; — figliuolo 
+mio, lascia per poco quel libro. E se tu non lo avessi letto qui dentro, avresti udite assai cose per le 
+quali e quel libro e gli altri che potrai leggere a casa tua ti sarebbero apparsi più chiari. Avresti udito 
+dir molto male de' letterati, perchè noi abbiamo primamente distinti i veri dai falsi; poi, tanto i veri 
+che i falsi, gli abbiamo giudicati nella loro qualità d'uomini e concittadini. Ma tu che, per grazia del 
+modo presente ed antico d'educazione in Italia, non puoi discernere la buona dalla trista letteratura, 
+e che per entusiasmo d'età guardi i letterati senza curarti quanto siano uomini e cittadini, non hai 
+torto se pensi e ne dici tutto il bene che puoi. Or tu devi sapere che quanto i mortali fanno nel 
+mondo, lo fanno e per sè stessi e per gli altri, avendo la natura ordinato che l'uomo debba stare in 
+comunità; però gli die' tanti e sì gravi pesi a' quali un solo paio di spalle non può bastare. Regna in 
+noi tutti quella divinità che si chiama Io, di cui spesso e troppo un Pitagorico nostro ha parlato, 
+mostrando ch'ella è prepotente, avara e crudele. Ma è vero altresì che le sue ostili tendenze non si 
+rinforzano se non in quanto gli altri non si difendono; e la difesa fa nascere i patti d'aiuto reciproco, 
+senza del quale non v'è più società. Dove dunque i cittadini si pigliano più cura l'uno dell'altro, ivi 
+più si obbedisce al decreto della natura; e dovemeno, ivi le città sono più sciagurate. Trovansi anche 
+taluni che fanno tutto per sè, senza mai compatire la debolezza, la povertà e l'ignoranza degli altri, e 
+che nè amicizia nè desiderio nè misericordia sentirono mai de' concittadini, degli amici e de' loro 
+propri figliuoli. Onde, quando non temono la scure del manigoldo, rompono tutti que' patti, fondati 
+prima dalla difesa, e poi santificati dalla pietà e dal pudore tra gli uomini. Ma non per questo s'ha a 
+dire che così vuol la natura; perchè gl'individui de' quali parliamo, paragonati a tutto il numero de' 
+viventi, appariranno pochissimi, come appunto gli aborti che nascono ad or ad or con più capi o 
+senza le viscere degli altri animali.</p>
+               <p>La natura ha concedute a ciascheduno di noi le doti di <emph>corpo</emph>, di 
+<emph>cuore</emph> e di <emph>mente</emph>; ma con misura e con intenzione sì diseguale e 
+con tanto potere della fortuna sopra sì fatte doti, che la moltitudine non può giovare a sè medesima 
+e agli altri se non con le sole forze del corpo; altri giova con quelle del cuore, ed altri con quelle 
+della mente; e quest'ultima dote non fu mai largamente data se non a pochissimi. Chi ara, semina e 
+miete sotto le fiamme del sole; chi fabbrica le altrui case, cieco al pericolo di precipitarsi dai tetti; 
+chi per compiacere a' minimi desideri, necessari alla noiosissima vita dell'uomo ricco, cerca 
+l'America e l'Africa tra' naufragi e la fame; chi affronta le spade nemiche, vegliando sul ghiaccio e 
+dormendo sotto la pioggia; chi scava i metalli, certo quasi di rimanere sepolto vivo nelle miniere: 
+tutti questi infiniti mortali adoprano le doti del corpo; e poichè s'affaticano, bisogna ad essi dar pane 
+più o meno secondo la loro forza ed industria; e perchè i più d'essi hanno cieco e abbrutito 
+l'ingegno, devono essere consigliati dalla religione nei falli e divezzati dalle loro colpe 
+severissimamente dalla giustizia. Chi ci allatta bambini; chi ci soccorre in tante disgrazie che 
+affliggono anche la vita più breve; chi ci tollera e ci ricovera nella decrepitezza, data forse in pena 
+dal cielo a chiunque desidera di vivere troppo: tutti questi mettono in società le doti del cuore e 
+domandano amore e riconoscenza; però concedo di maledire le donne a que' soli che possono 
+dimenticarsi d'avere avuta una madre. Finalmente chi fa leggi; chi fonda popoli e religioni; chi 
+governa regni; chi guida eserciti; chi giudica i cittadini in lite tra loro; chi consiglia e persuade a 
+passioni nobili e a giuste opinioni i cittadini col sapere o con l'eloquenza: tutti questi mortali 
+spendono per sè e per gli altri le forze della loro mente, e sono degni d'obbedienza e d'onore.</p>
+               <p>Fra questi ultimi essendovi i letterati, pare ch'ei nel persuadere ed illuminare debbano 
+attendersi premio più decoroso del premio domandato dai molti che adoprano le doti del corpo. 
+Inoltre s'hanno a valere di mezzi assai diversi da quelli che sono necessari a' principi, a' capitani ed 
+a' giudici, a' quali la nazione concede l'uso delle sue forze, mentre a' letterati non deve dare se non 
+l'uso della loro opinione. E perchè la parola è l'unico mezzo assegnato dalla natura a' mortali 
+acciocchè possano intendersi e collegarsi, quanto le parole de' letterati saranno belle, maschie, 
+veraci, tanto più ecciteranno passioni nobili e governeranno buone opinioni. Che se i letterati, al 
+contrario, adornassero con le parole il vizio e la falsità aspirando a ricompense spettanti ad altri 
+mestieri, faranno due cose pessime. Primamente disvieranno le lettere dal loro istituto; poi, non 
+curandosi se non dell'apparenza di dotti, si studieranno di divenire impostori. Mostreranno di sapere 
+le dottrine ch'essi non sanno, o di praticare le virtù che non hanno. Così molti in tutti i tempi e 
+luoghi, e più a' giorni nostri, non volendo affaticare con le forze del loro corpo per sè stessi e per gli 
+altri, e conoscendo che le doti del cuore non fanno avanzi di lucro, e non potendo usurpare le 
+dignità di capitani e di principi, e avendo nel tempo stesso poche doti di mente o poca volontà 
+d'usarne con pericolo e con sudore, e aspirando pur sempre a qualche mercede nel mondo, si danno 
+a recitare la persona di letterato. E allora la letteratura diventa una maschera sotto la quale 
+s'ascondono la venalità, la menzogna, l'invidia, e sovente tutte quante le inclinazioni più turpi 
+dell'uomo.</p>
+               <p>S'hanno dunque, o figliuolo, a conoscere gli impostori e a biasimare e a punire, sì perchè 
+celano le poche verità che sono di guida a noi tutti, sì perchè truffano chi li paga, sì perchè, 
+accrescendosi in numero, perseguiteranno a morte e proditoriamente que' pochi che vorrebbero 
+smascherarli. E questo è quello ch'io ti voglio insegnare co' fatti e consigliare con le ragioni, onde tu 
+non ti mostri trasecolato a ogni censura lanciata contro i tuoi precettori di scienze, di lettere e di 
+arti.</p>
+               <p>Se tu consideri te stesso, figliuolo mio, per quanto tu sia generoso ed ingenuo, 
+t'accorgerai che, qualunque libro tu legga, tu invidii all'autore o il danaro ch'egli s'è procacciato, o la 
+fama che ottenne nel mondo, o la compiacenza secreta e libera che scrivendo sentiva dentro di sè. 
+Danaro avrai da tutte le arti, e lascia stare le Muse; e se, o per non volere o non sapere far altro, o 
+per avidità brami il poco che le Muse possono dare, apparecchiati a far da mezzano, ed a prostituirle 
+tutte nove con Pallade insieme, con Venere e con le Grazie. Queste amabili dive sogliono arrendersi 
+a' capricci mortali, e diventano meretrici, benchè sappiano che saranno vituperate da chi compera i 
+loro baci. Ma per chi, senza speranza di lucro, profonde invece libamenti ed incensi per esse, e le 
+implora vergini e splendide della bellezza eterna del cielo, le dive discendono in terra candide e 
+belle come nel cielo dove son nate.</p>
+               <p>Alla fama, ove l'intento sia magnanimo e schietto, bisogna ingegno meraviglioso, 
+infinito sudore e, più che altro, fortissima pertinacia di volontà; dote rara tra gli uomini, i quali tutti 
+sono, per lor natura e per l'incertezza della fortuna, ondeggianti. Ad ogni modo, fino a che gli anni e 
+gli esperimenti ti lascino misurare le facoltà del tuo ingegno, tenta quello che vuoi. Leggi i libri de' 
+pochi sommi scrittori, d'ogni età e d'ogni popolo, dell'arte alla quale ti appigli; e sopra ogni cosa 
+studia la vita di tutti gli illustri in ogni arte, letteratura e scienza. Le loro professioni furono, è vero, 
+diverse; ma le inique e feroci e talor giuste persecuzioni ch' essi sostennero, nacquero tutte dalle 
+medesime cause; ma i loro nemici furono sempre d'una medesima razza e sempre implacabili e 
+accorti; ma tutti ebbero necessità d'una sovrumana costanza, o s'umiliarono per placare la vendetta 
+dell'ignoranza; umiliazione che lasciò nel loro viso e nel loro animo la vergogna mentre vivevano, 
+benchè oggi l'onore risplenda sul loro sepolcro; ma molti finalmente de' letterati che aspirano alla 
+vera gloria del nome, o invecchiano disperati di non averla ottenuta, o muoiono dolorosamente 
+disingannati d'un raggiante fantasma che quanto più s'avvicina, tanto meno risplende, e resta vuoto, 
+muto ed oscuro nelle braccia di chi sa di averlo raggiunto. Che se, d'altra parte, l'intento di 
+acquistare fama fosse meschino e plebeo, e mirasse ad ottenere l'applauso e i doni degli uomini 
+ciechi d'un solo tempo e d'un solo paese anzichè la memoria degli uomini veggenti e futuri, guarda 
+dove trovi più vanagloriosi, lodali, e sarai lodato: guarda dove si affollano più oziosi e più semplici; 
+stordisci, e sarai regalato accompagnato da' lor battimani: guarda dove sono potenti che vogliono 
+animali rari per ornamento de' loro giardini e belle edizioni con dedicatorie magnifiche e dotti e 
+poeti per erudizione e passatempo de' loro conviti; piglia la pelle d'un lione, o le penne d'un cigno; 
+da che il potente non saprà o non vorrà forse avvedersene, ti loderà cigno o lione; e chi mai dei suoi 
+convitati non temerà le tue zampe e non udrà voluttuosamente il tuo canto? Quel nuovo tragico che 
+ti raccomandò di scrivere nel giornale per lui, ti sarà intercessore ed esempio. Ma bada che quella 
+lode, quei battimani, quel finto ruggito e quell'amabile candore di piume ti attireranno ad un tempo 
+le beffe di tanti che vedono e sanno, e le pubbliche accuse di quegli uomini veraci che si ridono 
+della fortuna e del mondo: bada che agli indifferenti, ne' quali sta la moltitudine de' lettori, basta 
+poc'ora a non credere come a credere, nè saranno increduli alle parole di chi ti biasima se non dopo 
+che t'avranno con molti anni di prove stimato: bada che la onnipotente fortuna, col flagello con cui 
+sferza il tuo mecenate, può un giorno o l'altro cacciarti nella fame e nel fango: bada che i potenti 
+sono talvolta meno astuti, ma più soverchiatori de' ciarlatani, ed un loro motto può insanguinarti, ed 
+una loro burla vituperarti per sempre: bada che molti potenti s'annoiano fin di sè stessi.</p>
+               <p>Ma chiunque studia e fa libri per compiacere all'animo suo vola com'aquila per le 
+solitudini sublimi dell'aria, dove sa di non essere veduta e ammirata; o si diguazza come l'anitra nel 
+suo lago, nè ha vergogna s'altri la vede sì tarda; da che l'usare delle facoltà che a noi die' la natura è 
+l'unica voluttà indipendente dal soccorso e dall'opinione degli altri. Ricordomi sempre (e sono più 
+anni ch'io non leggo più di que' libri!) della prefazione del libro di Locke. <quote>
+                     <hi rend="italic">Io</hi>
+                  </quote>, mi pare ch'ei dica, <quote>
+                     <hi rend="italic">presumendo di dire il 
+vero, disputai di metafisica con gli amici; poi, per convincerli, scrissi fuor della rissa e della acerbità 
+de' pareri una lettera di due pagine; ma volendo persuadere me stesso, le due pagine a poco a poco, 
+in più anni e nelle ore ch'io non aveva volontà di far altro, crebbero in un grosso volume, e con 
+tanto diletto dell'animo mio, che, se il lettore ne sentirà la metà, non potrà certo pentirsi de' danari e 
+dell'ozio ch'ei vi spendesse. Chi uccella allodole ha tanto piacere quanto chi insegue il cervo e il 
+cinghiale, purchè abbia più amore all'esercizio che al lucro della sua caccia. Or io non mi dorrò mai 
+degli anni e del lavoro, benchè ora forse non mi trovi arricchito di verun frutto. Ma so d'avere 
+esercitato in me l'<emph>INTELLETTO</emph>: l'anima non ha facoltà nè più sublime di questa, 
+né tale che all'esercizio congiunga maggiore e più perenne soddisfazione</hi>
+                  </quote>. E forse 
+quel sommo ingegno non prevedeva che per frutto del suo libro avrebbe patite le imprecazioni dei 
+preti e la malignità degli emuli scienziati; forse non curò nè conobbe la gloria ch'egli ebbe sì dal suo 
+libro, sì da tanti altri che con le verità dimostrate da lui illuminarono il nostro ed i secoli che 
+verranno. —</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Nè di questo libro l'Italia ha 
+potuto impetrare dopo cent'anni e più una versione: tanto i dotti e i filosofi spendono degnamente il 
+loro nome e i loro studi tra noi!</p>
+               <p>
+                  <hi rend="italic">L'accademico giovinotto</hi>.— A me per altro i professori 
+insegnarono logica e metafisica coi principj di Looke.</p>
+               <p>
+                  <hi rend="italic">L'accademico Bibliotecario</hi>. — È vero che alcuni nelle 
+nostre università si giovano come possono e sanno de' principj di Locke. Ë vero che il padre Soave 
+tradusse, con le dovute note cattoliche, il compendio che il dott. Wind fece dell'originale ad uso 
+delle donne e de' giovani inglesi. È vero che conosciamo in Italia i sistemi che Rousseau, Elvezio, 
+Condillac, Bonnet ec. desunsero da quell'autore. Ma i sommari, i compendi e i sistemi sono pur 
+sempre ruscelli, canali, torrenti e non mai quel largo, pieno, maestoso, limpido fiume di verità 
+originale. È dunque vero che noi abbiamo bisogno d' una versione che non s'è ancora ottenuta.</p>
+               <p>
+                  <hi rend="italic">Il Presidente</hi> — Nè s'otterrà mai finchè i letterati si 
+puntiglieranno nella rettorica del discorso e gli scienziati nell'aritmetica del pensiero. Gl'Inglesi 
+stimano Locke come modello di lingua, d'eloquenza e di sapientissimo raziocinio. Quando gli 
+scienziati del secolo di Luigi XIV in Francia si accorsero che quelli che scrivevano bene 
+adescavano più lettori di quanti pensavano meglio, cominciarono a parlare di giurisprudenza, di 
+fisica e metafisica, come Platone, Cicerone e Lucrezio faceano a' loro tempi, con evidenza di lingua, 
+con calore e con eleganza. E Fontenelle fu il primo a praticare nell'Accademia delle scienze questo 
+espediente, perfezionato poi da d'Alembert, da Buffon e da molti altri grandi scrittori. Ma l'alleanza 
+dell'eloquenza e delle scienze non pare conclusa in Italia. Da un lato avete chi vi scomunica con la 
+Crusca alla mano; dall'altro chi vi dà dell'ignorante perchè non l'avete inteso a dovere.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — O scienziati esattissimi, ove non 
+vi piaccia per altro d' intendervi tra voi soli, udite un po' il cristianello fuggifatica! Il latino barbaro, 
+l'italiano semibarbaro, le formule matematiche, il caos d'un libro pieno di cioè, di citazioni e di note 
+che non possono stare nè col testo nè senza il testo, sono come i carciofi vecchi: spine di sopra 
+— barbaccia irta di sotto — spicchi foglia per foglia. Chi ha fame ne sfogli un 
+migliaio. Per così poco io non uso di pigliarmi tanto fastidio.</p>
+               <p>
+                  <hi rend="italic">Il Bibliotecario</hi>. — Ma i cuochi francesi sono eccellenti a 
+condire i nostri carciofi.</p>
+               <p>
+                  <hi rend="italic">Il Presidente</hi>. — Dunque al cuoco una lira, e al giardiniere 
+un soldo al carciofo.</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Noi! Noi! Noi primi inventori delle 
+scienze! Noi ristoratori delle lettere! Noi discendenti da' Romani! Noi da' Toscani! — Dante, 
+Galileo, Michelangelo, Tasso, Maffei.... Vi acciechi il diavolo e vi turi la bocca, o millantatori, con 
+un pugno di vespe e di mosche! A che dunque non imitate que' grandi esempi? A che non usate 
+della vostra eredità con più sapienza che orgoglio? — Orgoglio? — No, per Dio vero e 
+vivo!, ma vanità dei vermi che stanno brulicando nel carcame di generosi cavalli e che si millantano 
+nepoti legittimi de' cavalli; anzi cavalli bardati ed armati. — Quanto più esalti i tuoi padri, 
+che guerregiando ti lasciarono il marchesato ed il feudo, tanto tu mostri la tua codardia, patrizietto 
+ghiottone che scioperi come servo d'anticamera tra' barattieri di ridotto e le matrone di trivio. Così si 
+canta con Orazio alla mano ai ragazzi in collegio: or uscite di collegio e udite anche me; ch'io senza 
+testo canterò a' vostri maestri. — Oh! se gli Italiani non bevessero l'ingegno nell'aria che li 
+circonda, se una terra feconda, benchè mal coltivata, non producesse pur sempre qualche buon 
+frutto, questa nostra generazione, che nelle scienze, ove tu eccettui pochi individui, si va 
+strascinando e alzando gli occhi alle glorie passate, sarebbe già istupidita, abbrutita, senza parola, 
+senza memoria, senz'occhi! — Insomma le cose che voi tutti scienziati scrivete sono elle vere 
+e utilissime? — Vere e utilissime, ma di misero pro al vostro nome, perchè altri sa farle 
+piacere ed intendere. A che dunque strillate <emph>al ladro</emph>? quand'uno, per utilità propria 
+e degli altri, le piglia dove le trova, ed ha l'arte di farle sapere a tutta l'Europa? — e forse ha 
+versato più danaro e sudore a ordinarle ed a scriverle, che non voi tutti carta ed inchiostro a 
+scarabocchiarle confusamente. — Tu non se' vero italiano. — Io? Anime di Ciceroni 
+di piazza! Porto ancora la spada, e le donne non mi vogliono più con quest'occhio solo, e bisognano 
+anche a questo gli occhiali, perchè sono italiano; e fo ancora il capitano del genio senza domandare 
+la veteranza nè la pensione del re. All'indole de' giovani, non ancora tutti snervati dall'ozio vostro, 
+basta voce ardita ed esempio. E do spesso al diavolo la prudenza, vedendomi astretto a leggere ed a 
+far leggere libri stranieri, e bestemmio voi tutti, più per eccitarvi che per palparvi, come altri fanno, 
+ne' vostri sogni. Belle armi sono quelle corazze, quelle spade e quegli elmi de' vostri padri; chi il 
+niega? — e v'è sopra l'alloro! — Lasciate star quell'alloro — volendo pulirlo 
+della sua polvere sacra, lo lascereste forse cadere da mani effeminate nell'ozio. Ma se avete ancora 
+braccia e lena di petto, pigliate quegli elmi, quelle spade, tutte quante quell'armi; ponetevi alla 
+fucina e all'incudine; sudate, convertite quell'acciaio, quel ferro, quella tempra immortale in armi 
+che si usano a' vostri giorni; e i popoli vi manderanno allori, tutti per voi, senza polvere, e tutti più 
+cari a' vostri figliuoli. Gl'Italiani che hanno voluto corone da Marte le raccolsero e ne raccolgono in 
+lontani paesi. Su, voi tutti del reggimento di Minerva e di Febo; alzatevi una volta da letto; non 
+importano viaggi, ma buoni fatti e men'albagia.—</p>
+               <p>Benchè l'uffiziale dall'occhio solo provocasse molti Pitagorici alla contesa, e il canuto 
+accademico si stesse com' uomo che, aspettando di dire le sue ragioni, udisse volentieri anche gli 
+altri, tutti nulladimeno, tornando a poco a poco nel primo silenzio, volgevano gli occhi sul vecchio, 
+compunti d'averlo interrotto. Ed ei volgendosi all'accademico giovinotto, che era tornato con gli 
+occhi al suo libro, ricominciò:</p>
+               <p>— La compiacenza dell'animo nello studio si minora e s'intorbida quanto più si 
+congiunge a' fini secondi di celebrità e di guadagno; onde avvenne assai volte che molti scrittori, 
+temendo non l'opinione, da cui la fama e i guadagni dipendono, disprezzasse le facoltà ch'essi 
+avevano, si diedero ad imitare l'ingegno degli altri e caddero inosservati o derisi; e se pure il mondo 
+s'ingannò talvolta per essi, essi non si compiacquero intimamente di un premio, troppo forse alla 
+loro pazzia, ma pochissimo a stenti sì grandi. Che se alcun artefice immaginasse tal magistero di 
+penne, che un uomo volasse com'aquila, a patto però ch'ei perdesse per lunghissimo tempo l'uso de' 
+piedi, pensi tu che molti pazzi di novità e d'ambizione non darebbero i piedi per l'ali, e che 
+moltissimi non chiamerebbero beati ed illustri que' volatori? Ma i volatori in poc'ora maledirebbero 
+e l'artefice e l'ali e l'applauso, poichè si sentirebbero impediti di quelle membra ch'essi avevano per 
+camminare e per correre con poca fatica, con nessuna superbia e con molto piacere sopra la terra. 
+Così le facoltà di corpo, di cuore e di mente ti frutteranno voluttà limpida e piena, finchè saranno 
+secondate e nei gradi, né più nè meno, del vigore che hanno naturalmente in sè stesse, e senza 
+intento d'emolumenti e di applausi. Il grande ingegno troverà pari gloria senza affannarsene, e il 
+mediocre sarà compatito, ma netto pur sempre d'ogni macchia e rimorso di venalità e d' impostura. 
+Se Montaigne avesse aspirato alla celebrità di letterato e filosofo, anzichè fantasticare 
+sapientemente chiacchierando con sè medesimo, avrebbe preveduto ed evitato che gli uomini d' 
+ingegno severo non lo accusassero d'arroganza e d'orgoglio, che i letterati non lo biasimassero di 
+stile disordinato ed incolto, che i sacerdoti non lo dannassero come eretico, che Pascal non lo 
+denigrasse, come pur fece con un tratto di penna chiamandolo sciocco ed osceno. Ma quante cure, 
+quante vigilie, quanti timori non avrebbero bisognato a schivare sì gravi, sì giuste e sì pericolose 
+censure di personaggi celebri e sommi in letteratura! E quanto minore sarebbe stata la fama d'un 
+uomo che, potendo scrivere semplicemente e filosofare a suo modo, avesse filosofato e scritto 
+pomposamente al pari d'ogni altro!</p>
+               <p>Un istinto, o figliuolo, uno spirito ingenito arcano, che ha un so che d'immortale, vive e 
+cresce e s'infiamma, quantunque nè pari nè simile, in ogni vivente. Cosa siasi, nè parola sa 
+esprimerlo, nè mente umana distinguerlo mai. Ma i fatti mostrano che, quand' è più vivo e più forte, 
+governa con certe concitazioni ritrose alla ragione ed a' calcoli gli oratori, i poeti, i pittori, i filosofi, 
+i sommi capitani, gli artefici; e tanto li signoreggia, che lascia dubitanti, affannosi, oziosi, infelici, 
+sovente insani coloro che o per timore o per casi non lo secondano. Così la natura ha creati noi tutti 
+all'amore e all'incanto della beltà femminile, e ci permette mille gioie anche solo nel vagheggiarla; e 
+ogni ostacolo ci dà lena, e ogni sazietà ci disgusta; nè la ragione giusta e severa, nè l'amicizia, nè la 
+pietà di noi stessi, né altra bellezza che scendesse dal cielo potrebbero liberarci da quella cura; e la 
+privazione forzata dei nostri piaceri, e fin anche de' nostri martirj, ci fa smarrire spesso la mente, e 
+ci mostra il sepolcro come una porta per cui si va ad aspettare in un altro luogo la persona che 
+abbiamo invano desiderata quaggiù. Di sì fatta onnipotenza di passione ardono que' pochi mortali 
+nati ad avanzare tutti gli altri nelle scienze e nelle arti. E questi appunto, essendo dotati d'acutissimo 
+ingegno, ove una volta perdessero l'illusione de' loro studi, s'accorgerebbero dell'oscurità e della 
+vanità della vita, e più per noia che per dolore la fuggirebbero. Ecco perchè gli uomini maggiori 
+dell'antichità sacrificavano sull'ara domestica al GENIO tra le ghirlande, i canti e le tazze; e Socrate 
+gli aveva, perchè era povero, consecrata un'ara nel proprio petto. Però, deridendo i retori, parlò con 
+tanta eloquenza; e confondendo gl'ipocriti ed i sofisti, morì per la verità; e bench'ei potesse fuggire 
+il supplizio, pensò agli anni da lui passati nella gioia e nello studio della virtù; vide la gioventù ch'ei 
+lasciava memore de' suoi beneficj; pensò che, se la posterità l'avesse un giorno amato piangendo, 
+alcuni forse avrebbero imitato il suo esempio; e rigettò quell'avanzo di vita che pochissimo e logoro 
+gli poteva più omai rimanere. —</p>
+               <p>Dal punto che il vecchio nominò Socrate la sua voce usciva più lenta; e dopo le ultime 
+parole chinava il capo, come per raccogliersi e riposarsi. Ma io scrittore, che gli stava vicino, 
+m'accorsi ch'egli si lasciava asciugare sugli occhi una lagrima. Ho poi saputo da molti accademici 
+ch'egli un'altra sera, ridendo del libro del dottore Akakia, bruciato dal boia in Berlino, cangiò viso 
+ad un tratto ed ammutolì, quando intese nel discorso rammemorare Tito Labieno, che, vedendo le 
+storie da lui scritte ardersi per ordine di Seiano, andò al sepolcro de' suoi maggiori e vi si fe' 
+chiudere vivo, mentre Cassio Severo gridava a' Romani: <quote>
+                     <hi rend="italic">Gettate me pure 
+nel rogo, perchè so que' libri a memoria</hi>
+                  </quote>. Onde io per accertare con molta serie di 
+esperimenti il fenomeno osservato nel vecchio, e indagarne un principio, ed applicarlo alla storia 
+universale delle Accademie che sto apparecchiando e all'influsso della stagione su gli studi ed 
+umori presenti, vado in una tabella d'Effemeridi notando d'allora in poi le specie diverse e i gradi di 
+calore e di gelo che, secondo le circostanze di ore e di luoghi, si manifestano sul viso di ciaschedun 
+letterato per tutto il tempo in cui si discorre d'uomini i quali sacrificarono pacificamente sè stessi 
+all'onore delle lor arti e alle opinioni che credevano vere ed utili al loro paese.</p>
+               <p>Per allora i Pitagorici pareano tutti commossi, chi più chi meno: unico l'accademico 
+notomista di scrigni pareva addormentato a occhi aperti; il vecchio lasciò andare sovr'esso 
+un'occhiata, e proseguì sorridendo:</p>
+               <p>— Tu vedi, o giovinetto, ch'io parlo lungamente e da vecchio; e forse chi mi ha 
+conosciuto potrà convincermi di non avere seguitati i pareri che oggi ti do per verissimi. Ma! 
+— e a me pure bisognarono molte lezioni della sventura; e a me pure tocca oggi di mettere un 
+obolo del mio nella nostra comunità; e voglio anche sbizzarrirmi del capriccio ch'io ebbi sempre di 
+dire cose antiche assai più di me, ma nuove, o figliuolo, nuovissime in tutti i luoghi dove imparasti 
+logica ed eloquenza. E spero anche che dalla mia cattedra senza onorario potrò, se non altro, 
+preservare un giovine solo da quelle altre più lunghe lezioni della sventura le quali tornano inutili a 
+chi per impararle ha bisogno di diventare canuto, buono solo a parlare come son io. Però dico che, 
+volendo tu darti all'arte di maestro o facitore di libri, hai prima a considerare il maggiore vantaggio 
+de' tuoi cittadini; poi quanto premio d'obbedienza e di fama consegue chi fa l'arte a dovere, e come, 
+volendola fare altrimenti, si guadagni danaro e si carpiscano favori ed applausi; finalmente devi 
+distinguere chi sia letterato per artificio, chi per natura, e chi l'uomo felice tra' libri e chi l'infelice. 
+Per imparare tante cose basta leggere le azioni e i costumi de' letterati a mensa, in chiesa, in piazza, 
+tra le donne, tra' preti, tra' servi e tra' ricchi de' quali i dotti sovente si fanno servi. Vedendo come i 
+maestri tuoi si comportano in occasioni e tra genti così diverse, indovineresti in che modo, quando il 
+loro conto ci stesse, ti tratterebbero, e se venderebbero o no l'amicizia che ti professano e la dignità 
+delle loro arti e dell'uomo. Sapresti qual libro è più lungamente letto dalla città; perchè la città, 
+ridendo spesso de' letterati che stima, e rispettando i potenti che talvolta non ama, vuole ad ogni 
+modo e sa dare sentenze sì fatte, che sopravvivono alle debolezze ridicole de' grandi scrittori ed al 
+favore ed alle ire de' mecenati. Non dico che la compagnia de' potenti sia sempre pericolosa o 
+disonorante; perchè, siccome il povero aiuta spesso i potenti posti dalla sorte in tale condizione da 
+non fare più bene nè male a veruno, così trovansi alcuni forti che sono i più nobili tra' mortali, 
+poichè, non usando se non al campo e sul tribunale della possanza imprestata ad essi dalla fortuna e 
+dal principe, mettono in comunità e tra gli amici le sole bellissime doti dell'uomo nè padrone nè 
+servo. Se dunque il grande, amando ed onorando le lettere, onora ed ama chi le coltiva, il debito va 
+pagato dai dotti con la stessa moneta; e la dignità del letterato sarà più bella, quanto più si 
+congiungerà alla riconoscenza, all'amicizia ed al frutto di dire il vero in luoghi ove molti temono 
+d'ascoltarlo. Ma colui che non è onorato, bensì favorito come passatempo di mense e stromento più 
+fino di adulazione, darà fortissimi indizi che egli, pagando vilissime usure, si faccia prestare lo 
+splendore ch'egli non può avere dall'arte sua. Però dove il letterato non trova nobili amici, bensì 
+mecenati fastosi, dica a sè stesso: «Se mi umiliano, corro pericolo d'umiliarli»; poi 
+ravvolgasi nel suo pallio, che, quantunque forato, manderà raggi di virtù e di sapere. —</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Un signore, pria di accettare la dedica 
+d'un libro che si umilia con le solite frasi: <hi rend="italic">la vostra Grandezza difenderà la mia 
+Picciolezza</hi>, dovrebbe misurare per lungo e per largo la propria grandezza, poi la picciolezza 
+del dedicante; e ciò gli riuscirebbe spesso difficile. Ognuno sa che il mecenate consente alla dedica; 
+ed ognuno presume ch'egli abbia letto almeno a fior d'occhio quel manoscritto che deve proteggere. 
+Or se il libro è pieno di strambotti, il mecenate avrà porzione della censura.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Alto, accademici; poichè con le 
+prove geometriche del nostro Presidente troviamo cose incredibili, troviamo anche una grandezza 
+che s'alzi tanto da difendere con l'ali e con l'ombra una picciolezza di spropositi sparsa su tutto il 
+territorio della repubblica delle lettere. Allora dedicheremo noi pure il <title>Trattato su le figure 
+solari</title>.</p>
+               <p>Imploro dal candido lettore di perdonarmi s'io non ho registrata prima d'ora la quistione 
+promossa da un accademico appunto nella sera de' 15 maggio, mentr'io stava entrando 
+nell'adunanza: — <quote>
+                     <hi rend="italic">Quali rivoluzioni patirebbe la terra, dato che il 
+sole si trasfigurasse in elissi?</hi>
+                  </quote> — Ma forse tutti quegli accademici ignorano la 
+figura presente del sole. e vogliono tutti che la terra non patisca rivoluzioni, poichè non ho udito 
+rispondere una sola parola al quesito; però me n'era dimenticato.</p>
+               <p>Mentre il contro Presidente parlava, l'accademico giovinotto chiudeva il suo libro e 
+cercava intorno il cappello; ed il vecchio, benchè forse un po' stanco, volea pur dargli gli ultimi 
+avvisi, quando il Capo d'opposizione cominciò quella sua cantilena cagnesca, tal quale si vede per 
+le note musicali da me poste sotto i versi citati al Capo secondo, e cantò:
+
+<quote rend="block">
+                     <lg>
+                        <l>— A che gracidi, o rana, e gridi a l'orbo:</l>
+                        <l>– Bada al fosso a man ritta –? Ode a man ritta</l>
+                        <l>Suonar non lunge la lusinga e il soldo.</l>
+                        <l>Stassi; drizza l'orecchio: e incontro il suono</l>
+                        <l>Con men cauto baston l'orme affrettando,</l>
+                        <l>Tende la palma, e intona <title>Ave Maria</title>,</l>
+                        <l>Fin che la terra e il beneficio e il suono</l>
+                        <l>Scappandogli d'innanzi, tra la melma</l>
+                        <l>Si dibatte. Pietoso il ladro salta;</l>
+                        <l>Aiuta il cieco; gli dà il soldo: e il cieco</l>
+                        <l>Col ladro e col baston chiede a le rane</l>
+                        <l>Il trenta soldi aggranellato in chiesa. —</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>L'accademico giovinotto si era soffermato su la porta attentissimo, e rientrando in mezzo 
+alla sala diceva che questi erano versi di stile satirico; e perch'ei desiderava notare i generi diversi di 
+stile secondo le regole, pregava che gl'insegnassero in che bottega avrebbe potuto comperarsi quel 
+libro.</p>
+               <p>L'accademico canuto gli rispose ch'ei glien'avrebbe forse un dì regalata una copia; e che 
+anzi aveva quest'altro squarcio a memoria:
+
+<quote rend="block">
+                     <lg>
+                        <l>— Scarni e nerbuti vi conobbi un tempo;</l>
+                        <l>Or pingui, alteri e gravi. A che sì gravi,</l>
+                        <l>Maestri miei? Ne' visceri le vostre</l>
+                        <l>Fibre adipose ilusion dilata;</l>
+                        <l>Però scoppiò la rana. Io voi desio</l>
+                        <l>Vivi e gagliardi per amor d'Italia;</l>
+                        <l>Nè tacerò, se ben la carta ebrea</l>
+                        <l>Parli santa parola: Il cor t'ingrasso,</l>
+                        <l>Perchè dramma non v'entri d' intelletto.</l>
+                        <l>Udite or me: forse ho tra' detti un dardo:</l>
+                        <l>Vola, va al core e manda i fumi all'aura:</l>
+                        <l>Nè forse vi dorrà, poi che mel tinse</l>
+                        <l>L'ape d'Esopo nel suo favo.... —</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>— Non ne so più — continuò quel canuto; — ma tu, o figliuolo, viti 
+lieto e va, che Dio ti protegga. Solo pregoti d'attendere un poco, e per l'amor tuo e per l'amor di noi 
+tutti allo studio delle lettere, come dianzi ti ho detto. Altrimenti, essendo allettato da que' letterati 
+che sono impostori, t'ammaestrerai di tal fatta, che non saprai più discernere la bella e virile dalla 
+meretricia e volgare letteratura. Non saprai discernere il debito verso di te stesso e la patria, nè le 
+lettere dal danaro, nè il danaro dalla gloria, nè la gloria futura dai battimani che assordano e nulla 
+più, nè l'artificio ostinato degli scrittori dappoco dalla passione ardita del Gerio, nè i pregiudizi e la 
+cecità de' credenti dal giudicio e dalla verità de' veggenti; e tutti i tuoi studi si confonderanno 
+cogl'interessi di quegl'impostori. Così, senza avvedertene, t'educherai ciarlatano. E se le buone 
+propensioni dell'uomo prevalgono in te alle cattive, logorerai ne' sonetti, nelle dissertazioni 
+accademiche, nelle risse erudite, nelle vicendevoli lodi e nelle apologie di gazzette l'ingegno e le 
+forze che potevi spendere con più onore. Ma quando mai per tua disavventura e de' tuoi cittadini tu 
+avessi sortita un' indole più trista che buona, la tristizia crescerà teco e con gli anni, e tu farai de' 
+nostri figliuoli ciò che i tuoi letterati fanno di te; e se sarai povero, nè i miei consigli, nè gli scherni 
+del mondo, nè i tuoi pentimenti gioveranno più per un uomo costretto a guadagnarsi la vita col solo 
+mestiere che avrà per le mani. Quando dunque ne' circoli udrai sparlare altamente de' letterati, non 
+imputarlo all'ignoranza e all'invidia: l'ignoranza cinguetta, ma tace presto; e l'invidia, credimi, 
+l'invidia procede più cauta. Noi compagnoni ridiamo dicendo bizzarrie, novelle e strambotti, e cose 
+vere e buone talvolta, perchè ognuno qui parla secondo le teste e gli umori che abbiamo, ma con 
+animo liberissimo dalla sete d'oro e di fama; e forse si potrebbe da molti credere agli uomini gran 
+quando dicessero che noi ridiamo per malignità umana e per ozio; e fors'anche.... —</p>
+               <p>
+                  <hi rend="italic">L'accademico dall'occhio solo</hi>.— Ridiamo perché i 
+figliuoli d' Eva e d'Adamo sono nati or a piangere ed or a ridere; perché le persone eternamente 
+composte sono spesso meno naturali delle altre: ridiamo — perdonami se interrompo 
+— ridiamo perchè le lagrime che ci hanno insegnata la verità hanno bisogno d'un sorriso che 
+la consoli: ridiamo, dicendo schietto il nostro parere a chi viene; e chi vuol contraddire sia il 
+benvenuto; e chi dice che ci raduniamo in segreto è bugiardo più di Tersite: ridiamo qui <foreign lang="lat">coram populo</foreign> perchè non sappiamo piangere e far piangere come i 
+predicatori dal pulpito, querelandoci sempre de' tempi, commiserando il prossimo e raccomandando 
+la carità per noi stessi; e taluni s'asciugano il sudore versato per sì bella fatica con un fazzoletto di 
+Fiandra: ridiamo e rideremo perchè la serietà fu sempre amica degl'impostori.</p>
+               <p>
+                  <hi rend="italic">L'accademico canuto</hi>. — Sia che può: di ciò ch'altri dice 
+di noi e noi dicessimo d'altri, non credere, o giovinetto. Non credere nè alle parole de' letterati, nè a 
+me; ma non lasciarne cadere veruna. Ascolta, nota, attendi: oggi s'è parlato, e domani vedrai molti 
+fatti da confrontarli coi detti, e da credere più a questo che a quello, e i fatti cresceranno ogni 
+giorno; tieni a mente le nostre e l'altrui maldicenze; apri gli occhi sui fatti, e potrai subito 
+esaminarli; stendi la mano, e li toccherai.</p>
+               <p>
+                  <hi rend="italic">L'accademico dall'occhio solo</hi>. — Questo voglio però che 
+tu dica a tutti: che noi, credendoci obbligati a noi stessi ed agli altri di guardarci dall'impostura, la 
+quale, perchè trama insidiosa, fu, da che mondo è mondo, per Dio! la più micidiale e la meno 
+reparabile delle pesti, noi abbiamo sparlato, sparliamo e sparleremo. Altri si duole? Parli a sua 
+posta; parli, ma non sotto voce; anzi non parli, ma faccia. Il tale letterato è impostore? — 
+L'ho detto io. — Ma oggi pubblica un libro lodato da chi deve leggerlo ed impararvi. 
+— Badate che non lo lodino i soli confratelli! — Lo lodano anche molti altri: Cristo 
+mi perdoni, perchè gli uomini già mi castigano con le beffe: io per armi non avea che parole; ma 
+quel letterato combatte a fatti. E forse ho tempestato tanto, ch'egli, per ismentirmi, sfoderò 
+finalmente la spada.</p>
+               <p>
+                  <hi rend="italic">L'accademico canuto</hi>. — Così è. Ma finchè i letterati e gli 
+scienziati si riducono a pochi degni di questo nome, mentre non s'incontrano se non professori di 
+scienze, lettere ed arti; finchè questa turba scrive pochissimo, male e nulla, nulla in Italia che 
+conforti l'uomo ed onori la patria, e trattanto suonano elogi in tutti i giornali e i licei, noi 
+continueremo a schernirla, e loderemo soltanto i pochi grandi ed utili nostri scrittori. E sopra tutto, 
+finchè vedremo che i letterati faranno da sacerdoti di Muse arcane in tempio a porte chiuse, 
+chiamando ignoranti chi non vuole accostarsi, io, se mai gli altri per timore tacessero o passassero 
+indifferenti, io solo griderò a tutti e per tutti: Non vi lasciate allettare a quel tempio; voi vi credete 
+iniziati; udite la melodia del cantico misterioso; siete già coronati; ma dentro v'è l'ara, il sacrificante, 
+il coltello: non v'è ancora la vittima.</p>
+               <p>L'accademico canuto pronunziò le ultime linee rizzandosi dalla sedia, e con occhi sì 
+arditi e con voce sì passionata, ch'ei parve a' Pitagorici un altro. A me, che con diligenza di storico 
+lo mirai più da presso, parve che la pietà per la gioventù e l'onore della sua patria, dandogli opinioni 
+che forse non sono credute vere o non piacciono, gli avessero dati ad un tempo que' risentimenti che 
+la natura aveva esauriti per lui; poichè, come tacque, le sue guance, su le quali strisciò un rossore di 
+foco, impallidirono in pochi minuti. Ma l'accademico giovinotto, che stava sempre in forse di 
+andarsene o di parlare, scorgendo la commozione dell'adunanza, rispose ch'ei non avrebbe saputo 
+difendere degnamente gli uomini dotti: ch'essi già gli avevano predetto che chiunque vuol farsi 
+luogo dirà male degli altri; e l'aveano scongiurato a lasciar dire, perchè i pareri sono innumerabili 
+come i vocaboli; però non se ne pigliasse, e non si aizzasse per amor loro, giovine com'egli era, 
+controversie e vendette le quali avrebbero malignato il suo nome nascente e la fortuna ch'ei farebbe 
+in Italia. Gli aveano anche provato che, se in Italia non erano da certa gente stimati, aveano 
+nondimeno corrispondenti ed amici in tutte le capitali d' Europa; ma niuno è profeta nella sua terra. 
+— Aggiugneva che le accademie sono tutte di persone le quali, per un verso o per l'altro, 
+conservano o promuovono le scienze, le lettere e le arti; di persone le quali tutte hanno scritto e 
+stampato, o fatti doni ragguardevoli di libri, di macchine ec.; e se ne dice male come la volpe 
+dell'uva; e si sparla de' mecenati quasi che ve ne fosse gran numero, e non avesse Orazio medesimo 
+detto che <quote>
+                     <hi rend="italic">l'aggradire agli uomini d'alto affare non è l'ultima tra le 
+lodi</hi>
+                  </quote>; bensì que' grandi che favoriscono le belle arti e gli studi tengono lontani i saputi 
+che vogliono fare da consiglieri. — Voleva il giovinotto soggiugnere molte altre ragioni, ma 
+gli mancava certa franchezza: e forse perchè s'era avvezzo a discorrere sempre a quattr'occhi, a voce 
+non lo aiutava. Se non che alcuni Pitagorici lo aiutarono, e or l'uno or l'altro sostenevano insieme 
+con lui — «che le nuove opinioni, massime negli studi, sono cercate col lumicino da 
+chi vuol farsi credere qualche cosa; ma che, a conti fatti, tendono a rovinare quello che i giovani 
+hanno imparato con tanta loro fatica e de' precettori e dispendio del governo e delle 
+famiglie»; — «che da tanti anni gli studi camminano a un modo, e, la Dio 
+grazia, non siamo al viatico, nè v'è bisogno di suonar campanelli; e se l'Italia possiede molti scrittori 
+di conto, lo mostra l'elenco dell'<hi rend="italic">Accademia italiana di Livorno</hi>; e chi dice 
+che non si studia fa vista di non sapere che tre sole università danno da settecento lauree per anno; 
+nè già per uso o per indolenza o per grazia, com'altre volte, ma dopo rigorosissimi esami»: 
+— «che certi tali vanno predicando: <hi rend="italic">fate meglio; mirate a scopo più 
+grande; dilettate il popolo; scrivete, e che i cittadini v'intendano; ridano, e non si adirino de' guai 
+della vita; piangano, e non s'indurino nell'egoismo e nell'indolenza; e ridendo e piangendo imparino 
+le cose che voi già sapete</hi>: avvisi facili a darsi; ma come si fa! I cittadini, le donne, i signori 
+non sono ancora educati a leggere con piacere; inoltre imparare e non affaticarsi è un bel 
+dire!»; — «che si allegano Inglesi, Francesi, Tedeschi; anche Tedeschi! e i 
+prossimi al ghiaccio sono di moda; e si allegano come scrittori di molti libri; or que' libri sono poi di 
+tal peso? Storie politiche, storie d'arti e scienze, biblioteca britannica, viaggi, romanzi, tutti libri che 
+corromperanno il buon gusto ed i buoni costumi»; — «che se que' libri di 
+tramontana sono tradotti, è tutto capriccio di merci forestiere e poco amore di patria; e chi li traduce 
+è corrivo e ignorante, perchè lo fa per commissioni e pochissimi scudi che gli danno i librai e gli 
+stampatori; onde chi legge arricchisce i librai, e disimpara la lingua»; — «che 
+la lingua non ha bisogno d'altro»; — «che si chiacchiera contro i sonetti, i 
+canzonieri, i poemetti e gl'idili, perchè non si sa che la poesia è tutta cosa degl'Italiani; e che ogni 
+nazione deve coltivare l'arte nella quale fa meglio; e v'è più studio a fare un bel canzoniere che un 
+bel romanzo, e il poeta ha più ingegno e merito a mille doppi del prosatore»; — 
+«che se molti letterati non sudano a scrivere libri con gli studi, le diligenze ed il tempo che ci 
+vuole, non per questo s'hanno a dire inutili al loro paese, essendo occupati ne' pubblici uffici e forse 
+con più profitto del pubblico» — «che le edizioni di libri sui quali s'è consunta 
+molta fatica, rovinano spesso gli autori; perchè siamo avvezzati a romanzi, a storielle, a bellissime 
+inezie; ma non abbiamo più stomachi per cose massicce, erudite e di vera sostanza.»</p>
+               <p>L'accademico giovinotto, rincorato da tanti aiuti, continuò finalmente a parlare da sè, e 
+con tutta schiettezza concluse: — Ho letto e imparato tanto da sostenere che i letterati non 
+devono farsi scorgere dal mondo in rissa tra loro. Vivano in pace e lascino vivere; ed io porto 
+rispetto perchè voglio rispetto. Non mi dimenticherò mai d'una massima: <quote>
+                     <hi rend="italic">Non va mai detto: il tale non sa fare — o — il tal libro è cattivo 
+—; ma sempre: — il tale può fare — e — nel tal libro vi è pure del 
+buono</hi>
+                  </quote> —: da che il gusto fu in tutti i secoli indefinito, e in tutti i libri s'impara. 
+Se i letterati si calassero la visiera, come si fa sempre qui dentro, a chi appellarsi! a che giudice? I 
+cittadini, come vi ho detto, non vogliono sapere di libri; i grandi non devono intricarsene, e il 
+popolo.... Comunque sia, domando perdono; ma dichiaro ch'io non sono uomo da lasciarmi mettere 
+paura, e non sarò nè impostore nè vittima. —</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — No, in verità; e niuno ha parlato di 
+te; e poi s'ò detto in via di discorso: figura rettorica. — Ascolta per altro; aspetta.... vedo in 
+quell'altra camera apparecchiarsi i sorbetti. Quand'io stava in Napoli nel mio reggimento, conobbi 
+un signore: faceva all'amore; era bello, giovine, ricco, cantava, ballava, e i suoi versi piacevano. Il 
+vaiuolo lo fe' più cieco d'Omero; ed ei se ne consolava con la religione e coi versi. Aveva a mensa 
+dotti d'ogni paese; ed io, non so come, mi sono un giorno veduto fra gl'invitati. Alle frutta un 
+vecchiotto in occhiali disse ad un giovine in collarino: — <hi rend="italic">Su, da par suo, 
+signor segretario, ella, che sa pur tante belle cose e che ne scrive ogni giorno, faccia sentire anche a 
+noi un po' di bella poesia</hi>. — E tutti gli altri: — <hi rend="italic">Da bravo, da 
+bravo!</hi> — Il cieco si andava scusando con gli ospiti; e m'accorsi che quello dal collarino 
+era suo segretario. — <hi rend="italic">Signor abate</hi>, dissegli il cieco, <hi rend="italic">reciti invece que' sonetti del Frugoni e que' versi sciolti del</hi>.... <hi rend="italic">del</hi>.... non mi ricordo proprio il nome. — Fatto sta che il segretario recitò 
+per più d'un'ora, e chi lodava e chi biasimava; e tutti attenti su quello del collarino. Intuonò 
+finalmente un poemetto in ottava rima; e accennò più volte con gli occhi il padrone di casa, che solo 
+non poteva intendere il cenno: — <hi rend="italic">Bella ottava!</hi> — <hi rend="italic">Che stile!</hi> — <hi rend="italic">Che forza di fantasia!</hi> — 
+dicevano molti; e davano quell'ottava or al Poliziano, or al Tasso: <hi rend="italic">no</hi>, diceva 
+qualcheduno, e taceva: gli altri citavano grandi poeti: <hi rend="italic">no</hi>; <hi rend="italic">sì</hi>; ed erano quasi in lite per quelle ottave; ma, fuori di due che dicevano 
+asciuttamente <hi rend="italic">no</hi>, e di me che non dissi parola, tutti lodavano. Il cieco s'alzò, 
+e pregò i commensali che lo favorissero la domenica seguente in campagna. Lo rividi dopo molti 
+anni; aveva già, in edizioni magnifiche di molti versi e poemi, logorata molta entrata e molta salute: 
+i giornalisti lo lodarono; tutti gli altri ridevano. Le risa erano forti e pubbliche, ed egli non poteva 
+dare de' pranzi a tutti i lettori. A dirla a modo, la sarìa lunga. Ma, mentr'io cercava di consolarlo, 
+egli prese con le sue mani magre e fredde la mia, se la strinse tutto tremante sul petto; e il cuor gli 
+batteva, vecchio e quasi morente; ma gli batteva. Alzò al cielo quegli occhi che da tanto tempo non 
+potevano più dir nulla; esausti fors'anche di pianto, perchè la lagrima, che voleva spuntare, appena 
+si fermava su le palpebre; ma dal tremito delle rughe intorno agli occhi, e dall'immobilità di tutta la 
+testa avrei giurato che domandava rassegnazione, fin al momento ch'egli potesse rivedere il cielo in 
+un mondo diverso da questo. Dissemi....</p>
+               <p>
+                  <hi rend="italic">Molti accademici in coro</hi>. — Lo sapevamo.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Lasciate dire, per Dio!, lasciate 
+finire, col vostro malanno! E per quali peccati miei son io dunque dannato nella babilonia di mille 
+dottori? Fra tante baie che voi spacciate per nuove solo perchè sono dette con nuovi spropositi e con 
+analisi ed arzigogoli, e col diavolo che ammogli voi tutti.... per questo non potrò più dire nulla di 
+buono? Mi sta bene perchè mi sono sfiatato a insegnarvelo un'altra volta. — Quel povero 
+signore cieco mi disse....</p>
+               <p>E continuava volgendosi all'accademico giovinotto che unico avrebbe potuto udire la 
+fine di quel racconto, da che gli altri tutti andavano lontani intorno a' sorbetti; ma il giovinotto gli 
+disse buona notte, e partì. Però il contro Presidente si piantò tutto nella sua scranna, strinse le 
+labbra, chinò la testa, strinse le mani e incrociò i pugni su le ginocchia, socchiuse gli occhi, e per 
+certe sue ragioni lasciò che altri si godessero la scommessa. La pagava il Presidente, il quale avea 
+più sere addietro negato <hi rend="italic">che gli Arabi, toccandosi i genitali, giurino pe' loro 
+nepoti che nasceranno</hi>; e aveva sostenuto <hi rend="italic">che gli Arabi, toccandosi la barba, 
+giurino pe' loro padri che sono morti</hi>. La lite fu, col p. <hi rend="italic">Calmet</hi> e con la 
+<title>Decade Egiziana</title> alla mano, perduta dal Presidente per un sol voto. L'Araldo, che 
+vedeva l'adunanza più seria del solito, s'era ricordato di quella scommessa, ed uscì ad ordinare i 
+sorbetti al Geografo.</p>
+               <p>Ma il contro Presidente, che per natura non poteva sostenere il silenzio, stava immobile 
+tuttavia, e tendeva l'orecchio, finchè intese uscire da un cantuccio lontano della sala la voce d'un 
+accademico, il quale, alzando la testa da un tavolino, diceva al Geografo che gli presentava il 
+sorbetto: — Dammi il caffè: tante dissertazioni sopra una gazzetta m'hanno fatto morire di 
+sonno; dammi il caffè: se ricominciano, m'addormento.</p>
+               <p>Ah ah! — disse, mandando a lui le parole, il contro Presidente. — E che 
+t'ha mai fatto il tipografo? Un giornale ha già ristampate le tue censure: sanno che tu se' Pitagorico; 
+e il <title>Corriere milanese</title> t'ha rimandata la palla.</p>
+               <p>— Conforto del galantuomo! — dicea l'accademico a mezza voce, senza 
+attendere al contro Presidente; ed assaporava; tra tanto col naso i vapori esalati dal caffè, mentre il 
+Geografo lo versava. Poi, mirando con occhi amorosi la tazza piena e fumante, tornava a dire: 
+— Conforto del galantuomo, fra poco non t'avrò più! —</p>
+               <p>Il contro Presidente andava interrogandolo che mai gli avesse fatto il tipografo. E 
+l'accademico, ad ogni interrogazione, pigliava un sorso del suo caffè.</p>
+               <p>— Rispondi una volta! — replicò per tre volte il contro Presidente 
+—. E l'accademico, posando la tazza votata, e guardandola mestamente, — Mi resterà 
+almeno — diceva — mi resterà il conforto del pover'uomo —. E traendo di 
+tasca la tabacchiera, l'aprì adagio, pigliò una presa e tornò ad esclamare sotto voce: — 
+Conforto del pover'uomo! — Poi voltò il viso al contro Presidente, che taceva indispettito, e 
+gli disse: — Il tipografo? A me non ha fatto mai nulla. —</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Tu se' in lite, e tu l'hai deriso.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — S'io fossi in lite del tuo e del mio, o 
+emulo d'onore, o rivale d'amore, non adoprerei scherni.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi> — Ma se tu dici ch'egli è tuo 
+amico?</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Vi sono sette amicizie: 1. di cuore; 
+— 2. di mente; — 3. di compagnia; — 4. di gentilezza; — 5. di 
+conoscenza; — 6. di diplomazia; — 7. di cappello; e tutte le ultime sei si combinano in 
+infinito tra loro per distruggere sempre la prima. Io non m'intendeva di divisioni e suddivisioni ma il 
+vocabolo <emph>amico</emph> è divenuto sì universale, che senza la teoria delle idee accessorie 
+ad ogni vocabolo d'ogni lingua letterata d'Europa non avrei potuto sapere come spendere l'amicizia, 
+da che devo anch'io nominarla, come usano tutti, per non essere notato di barbarismo.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Dunque?</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Tranne la specie prima d'amicizia, che 
+ho data tutta per pagare almen parte del debito a pochi, e la seconda, che senza sperarmi ricambio 
+do spesso a moltissimi morti ed a molti vivi, e la sesta, che non so dare né voglio ricevere, tu puoi 
+combinare le altre quattro specie a tuo modo, e troverai l'amicizia che ho data al tipografo in cambio 
+d'altrettanta da lui ricevuta.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Tu apri e chiudi la tabacchiera; 
+temi ch'io ti faccia morire di sonno?</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Questa è scatola regalatami dal 
+tipografo; e vi pigliai molte prese nell'ora ch'io scriveva contro di lui. Egli ne ha un'altra, che lo 
+pregai e lo prego di conservare per mia memoria.</p>
+               <p>— Sterne, Sterne! la scatola del frate! — esclamò un accademico, mentre 
+tutti gli altri tornavano dai sorbetti alle loro sedie; e mi parve la stessa voce di quell'accademico che 
+avea mosso il quesito dell'<hi rend="italic">Elissi del sole</hi>.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Se tu avessi vista com'hai memoria, non 
+saresti eco de' giornalisti che gridano sempre <emph>al ladro</emph> ed <emph>al 
+plagio</emph>. Vedresti che la natura riproduce sempre nasi e sempre accidenti co' quali la natura 
+e la fortuna distinguono ad una ad una le stesse cose nell'universo. Una tabacchiera di corno fu 
+donata a Lorenzo Sterne da un povero frate avvezzo a patire vivendo; e questa tabacchiera, che pare 
+di tartaruga, mi fu donata da un Tipografo avvezzo a seccare scrivendo. — Non so se Sterne 
+racconti il vero; ma questa scatola è vera e reale, nera, con un cerchio dorato sopra il coperchio: 
+l'altra ch'io diedi al Tipografo è simile in tutto, se non che il cerchio è formato d'una serpe che si 
+morde la coda: e chi non crede, domandine.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — A ogni modo si vede ch'egli 
+tenevati per amico.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Se tu fossi giudice, ed io fossi omicida 
+ed amico tuo, e t'avessi regalato, tu mi faresti un regalo, piangeresti, e mi manderesti al 
+supplizio.</p>
+               <p>
+                  <hi rend="italic">Molti accademici</hi>. — Che paragone!</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Alla parvità della colpa di un ciarlatano 
+letterario è debitamente proporzionata la parvità della pena d'una censura amarissima di 
+giornale.</p>
+               <p>
+                  <hi rend="italic">Il Bibliotecario</hi>. — Ma le leggi devono essere giuste, e gli 
+uomini, come dice Platone, compassionevoli ed equi.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — E però, prima di parlare in pubblico con 
+la giustizia alla mano, ho per tre anni avvisato con amore e con equità chi tenevami per amico, 
+acciocchè si ristasse dalle ciarlatanerie letterarie, e facesse lo stampatore e il mercante. Non udì; ed 
+io scrissi contro di lui la sentenza.</p>
+               <p>
+                  <hi rend="italic">Molti accademici</hi>. — Ma con che veste e con quali 
+diritti?</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Con la veste dell'arte mia e col diritto e 
+col comando della natura. Mi s'è cacciato in fantasia che ogni uomo abbia un'arte e una patria da 
+onorare con l'arte. Ho veduto che l'infamia dell'arte è prodotta da' furbi che cercan il loro interesse, 
+dagli sciocchi che non lo cercano e dai conniventi che lasciano correre. Per difendere dunque l'arte 
+mia e con essa l'onore, in ciò che posso, della mia città, non vedendo giudici contro i ciarlatani di 
+lettere, ho radunate le prove e scritta quella sentenza. Al tribunale d'appello siedono per giudici tutti 
+i cittadini. Se avrò mal giudicato, mi puniranno.</p>
+               <p>
+                  <hi rend="italic">Il Bibliotecario</hi>. — La tua, credimi, è fatica perduta. Chi 
+scrive male oggi, sarà dimenticato domani.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi> — Così sarebbe se i buoni scrittori fossero 
+cento e i cattivi trecento. Ma a contare i primi, a me bastano per tre o quattro volte le dieci dita, e 
+per gli altri bisognerebbe ch'io sapessi d'algebra; e non sono più in età da studiarla. Or se i pochi 
+lasciassero sfrenati i molti, e questi fossero onorati e pagati, la gioventù vorrà pari premio con poca 
+fatica; la ciarlataneria finalmente prevalerà; e gli stranieri, che pur cercano i nostri libri, ridiranno a 
+ragione le cose che spesso dissero a torto. Nè io avrei parlato mai del Tipografo, se un vecchio 
+letterato ch'ebbi per maestro e di cui serberò memoria finchè avrò vita, non avesse in istampa 
+lungamente e pomposamente lodato il Tipografo come prossimo alla dottrina d'Aldo e all'arte 
+mirabile del Bodoni; e se un altro, ch'io conosco per dotto, per uomo dabbene e che amo ed amerò 
+come amico, non avesse decantato in una prefazione d'un <title>Dizionario domestico</title> quel 
+Tipografo come mecenate delle belle arti. E intanto il Tipografo mi parla sempre d'<emph>illustri 
+amici</emph>. Chi ti affiderà dunque dai pazzi che non ti strozzino, poichè alcuni savi ti legano al 
+collo la corda? Ora l'amico mio, scrittore della prefazione, resti per avvisato ch'io, stimandolo. e 
+amandolo sempre, tornerò a ringraziarlo delle lodi che mi diede in quel libro; ma che s'egli 
+continuerà a dare del <emph>mecenate</emph> al Tipografo e del <emph>chiarissimo</emph> a 
+qualche altro guasta— letteratura, guasta— scienze, guasta— giovani e 
+guasta— patria, io, per debito verso l'arte mia, leggerò come utilissimo il <title>Dizionario 
+domestico</title>, ed animerò chi lo scrisse a far meglio; ma pronunzierò la sentenza contro 
+l'amico, e lascerò ch'ei mi citi al tribunale d'appello.</p>
+               <p>
+                  <hi rend="italic">L'accademico canuto</hi>. — Ma forse volevasi in te meno 
+acerbità di ridicolo.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — La pena dev'essere sempre adattata al 
+carattere del colpevole, e tanta che frutti. Il Tipografo è ridicolo quando scrive: s'io l'avessi trattato 
+più seriamente, i lettori, scoprendo i suoi falli, avrebbero invece riso di me, e il Tipografo si sarebbe 
+tenuto scrittore degno di serie censure e continuerebbe a fidarsi dell'amicizia di me non 
+<emph>illustre</emph>, ed a citare gl'<emph>illustri</emph>. A quattr'occhi gli ho parlato quasi 
+piangendo: ho dunque tentato il rimedio contrario; ho parlato forte e ridendo.</p>
+               <p>
+                  <hi rend="italic">Molti accademici</hi>. — Ma ti disdirà l'amicizia.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Mi ricorderò di questo suo dono.</p>
+               <p>
+                  <hi rend="italic">Gli accademici</hi>. — Scriverà.</p>
+               <p>
+                  <hi rend="italic">L'accademico</hi>. — Rideremo.</p>
+               <p>
+                  <hi rend="italic">Gli accademici</hi>. — Ma i nemici cresceranno ogni giorno, 
+e tu piangerai!</p>
+               <p>— Il consiglio merita gratitudine — rispose l'accademico: però con la 
+placidezza con che aveva sempre risposto, esibì a tutti in volta una presa del suo tabacco, chinò la 
+testa sul tavolino, e credo ch'ei tornasse a dormire.</p>
+               <p>Il Capo d'opposizione e il contro Presidente ascoltavano più attenti degli altri; e il primo 
+nel pigliare tabacco cantò versi con la solita musica, mentre l'altro lo interrompeva. E, o fosse che 
+tutti e due sapessero a mente que' versi, o che il contro Presidente, il quale sin da ragazzo si dilettò 
+di poesia, improvvisasse felicemente, fatto sta che nell'interrompere serbò per due volte la misura 
+del verso.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>.
+
+<quote rend="block">
+                     <lg>
+                        <l>Se dopo anni duemila e quattrocento</l>
+                        <l>Hai più reliquia; e se uman priego a Dite</l>
+                        <l>Piace per l'ombre di color che furo,</l>
+                        <l>Riposa in pace, e il Diavolo sia pio</l>
+                        <l>A te, che queste a' Greci auree parole</l>
+                        <l>Vecchio cantavi! — È all'uomo unica gioia</l>
+                        <l>Bella donna e pudica.</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>.</p>
+               <lg>
+                  <l part="F">Oh terno al lotto!</l>
+               </lg>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>.</p>
+               <lg>
+                  <l>Odi l'altra sentenza: — Ad altri mieta</l>
+                  <l>Fra schiavi l'uom che vede il furto e tace.</l>
+               </lg>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>.</p>
+               <lg>
+                  <l part="I">Angli, è qui la Guinea!</l>
+               </lg>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>.</p>
+               <lg>
+                  <l part="F">Bada alla terza: —</l>
+                  <l>Piova il cielo o non piova, havvi chi duolsi.</l>
+               </lg>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — E questa è sì vera da non dirsi in 
+poesia. In un villaggio il parroco cantava un triduo, perché quei che avevano seminato formento 
+volevano che non piovesse; e il curato ne cantava un altro nella cappella del feudatario, perchè i 
+padroni delle risaie volevano che piovesse. —</p>
+               <p>Ma già tutti erano tornati a' lor seggi, e l'Araldo tornava alla sua lettura. Fino dal tempo 
+che il canuto accademico perorava, il Segretario e molti altri, impazienti di curiosità, aveano 
+tumultuando chiamato l'Araldo perchè finisse di leggere l'articolo <title>Varietà</title>, e 
+chiedevano del Geografo, acciocchè almeno trovasse quella gazzetta. Ma l'Araldo era uscito, come 
+s'è detto, ad ordinare i sorbetti, e il Geografo gli stava apprestando. Or quando tutti ebbero 
+ringraziato il vincitore della scommessa, e conceduto per consolazione al Presidente <hi rend="italic">essere quasi geometricamente provato che i più celebri cantanti d' Italia non possono 
+giurare nè pei loro padri che sono morti, nè pei nepoti che nasceranno</hi>, il Geografo pigliò la 
+gazzetta dal manico d'una caffettiera, intorno al quale egli l'aveva ravvolta, la spiegò, la diede 
+all'Araldo, e l'Araldo leggeva: «.... <hi rend="italic">e termina</hi> — badino 
+— disse il lettore, che si parla sempre dell'autore dell'articolo su l'<title>Odissea</title> 
+— <hi rend="italic">e termina coll'assicurare (da buon fratello) che questo suo lavoro</hi> 
+non gli costa fatica, perchè la PROVVIDENZA glielo ha mandato sotto la penna.»</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — A che mi assordi con quel 
+vocione?</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi>. — Veda: la <emph>Provvidenza</emph> è 
+maiuscolata.</p>
+               <p>
+                  <hi rend="italic">Il Segretario</hi>. — Per irritare i dotti contro l'avversario il 
+gazzettiere cangiò nel testo i <emph>fratelli savi circospetti</emph> in <emph>fratelli 
+letterati</emph>. Sta a vedere che vorrebbe forse anche avvertire l'anime buone che l'avversario, 
+avendo nominata invano la Provvidenza, sia fatalista.</p>
+               <p>
+                  <hi rend="italic">Il contro Presidente</hi>. — Destino destinato 
+destinatissimo!</p>
+               <p>— E voleva nuovamente spiegare le teorie del fatalismo. I Pitagorici al Capo II di 
+questo libro ne risero; ma il lettore, spero, le avrà ponderate. Per ora il contro Presidente toccavasi il 
+polso esclamando: — La forza ed il numero delle battute di questo momento erano già 
+registrati sin dal principio de' secoli. —</p>
+               <p>
+                  <hi rend="italic">Il Presidente</hi>. — È fuori di dubbio che quanto più il 
+numero delle persone offese ristringesi in ceti diversi e in partiti, tanto il desiderio ed i mezzi della 
+vendetta sono più efficaci e più pronti.</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi>. — Ho finito.</p>
+               <p>
+                  <hi rend="italic">Il Segretario</hi>. — Non v'è soscrizione?</p>
+               <p>
+                  <hi rend="italic">L'Araldo</hi>. — Eccola: — <hi rend="italic">LU' 
+segretario dell'Accademia de' Pitagorici</hi>.</p>
+               <p>Meno male! — disse il Segretario, sorridendo com'uomo che si pentiva d essersi 
+corrucciato per poco. — M'aspettava che l'impostore si fosse anche appropriato il mio nome. 
+—</p>
+               <p>Molti accademici un po' lontani dicevano all'Araldo che leggesse un'altra volta quel 
+nome. Ond'egli, postosi nel mezzo della sala, pronunziò fortemente: — LU' —</p>
+               <p>— UH! — suonò tutta in rima l'adunanza de'Pitagorici.</p>
+               <p>L'Accademia fiorentina della Crusca decretò che la particella UH dinotasse dolore; e a 
+me pure gioverebbe sempre di conformarmi ad ogni sua legge. Ma se il tenore della voce e l'aspetto 
+ed i gesti di quei che proferiscono una parola le aggiungono, levano, cangiano tanti significati che 
+tutti i vocabolari di tutte le lingue di Babele non potrebbero mai definire, io devo invece per questa 
+volta obbedire al decreto dell'Accademia milanese de' Pitagorici. L'interiezione monosillaba in 
+rima. come fu pronunziata unanimemente dall'adunanza, avrebbe anche all'orecchie men letterate 
+significato e dolore e disprezzo e dileggio e quel noioso ribrezzo che ti piglia quando invece di 
+ragioni ti vedi rispondere una freddura.</p>
+               <p>Gli accademici per altro diceano: «che quell'articolo <title>Varietà</title> non 
+pareva di gazzettiere; tanto era scritto con garbo e con esattezza di lingua». Ma l'Araldo, 
+percorrendolo cogli occhi, sbadigliava nel mezzo della sala, e risbadigliava. Invitato dal Geografo a 
+bere il caffè, egli, fatto un inchino di ringraziamento, rispose: «ch'ei non s'intendeva di 
+contraddire a quegli accademici i quali avevano lodato lo stile dell'articolo <title>Varietà</title>; 
+ma ch'ei, rileggendolo, vi sentiva pur sempre in quelle lodi al Salvini, in quelle ambiguità di 
+discorso, in quella passione per le scuole de' Regolari, in quelle malignità letterarie, in 
+quell'amicizia co' dottori di sacra teologia e in quelle freddure da ingemmare gazzette, vi sentiva 
+dentro certi modi, certe frasi, certe opinioni, certe malignità, certe menzioni di care amicizie 
+Regolari e teologiche, certa compiacenza di freddure e d' indovinelli, udite e vedute da lui un 
+maestro di molte scienze, per le lezioni del quale egli, che non ha mai voluto studiare, s'era 
+addormentato sul banco della scuola più volte: che però pregava l'accademia de' Pitagorici a 
+perdonargli pochi sbadigli di pura reminiscenza.»</p>
+               <p>E siccome un uomo sbadigliante nel mezzo di una stanza suole muovere allo sbadiglio i 
+sedenti, il lettore, che nel principio di questo libro avrà veduto l'elenco dell'accademia e il carattere 
+più o meno svegliato di ciascheduno de' membri, potrà sapere a un dipresso come e quanti 
+accademici sbadigliavano.</p>
+               <p>Onde l'Araldo, in riparazione del male ch'egli avea fatto, cantava:
+
+<quote rend="block">
+                     <lg>
+                        <l>Dimmi tu, che pur sei mezzo algebrista,</l>
+                        <l>Come avvien questo? Tu se' mezzo critico,</l>
+                        <l>Mezzo sacro dottor, mezzo ellenista,</l>
+                        <l>Mezzo spartano, mezzo sibaritico,</l>
+                        <l>Mezzo poeta, mezzo freddurista,</l>
+                        <l>Mezzo frate, mezz'uom, mezzo politico:—</l>
+                        <l>Come, in tante metà, nulla è d'intero?</l>
+                        <l>Come, tutte sommate, fanno zero? —</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>— L'Amore ti asperga di ambrosia con un mazzetto di viole mammole quando 
+quella tua faccia rubiconda e quelle tue membra da cacciatore appariranno al corso tra le fanciulle 
+che ti vorrebbero per marito! — disse il contro Presidente all'Araldo. — Araldo mio, 
+questi versi mi ricordano una donna gentile che li intonava ridendo a quel Pitagorico, quand'ei 
+davasi a fare il susurrone di letteratura, come abbiam fatto noi tutti stassera perdendo l'ozio che ci 
+rimane a vivere un poco più allegri. E quel ciarlone si stava zitto; o parlava di cose più allegre. E 
+poi tu m'hai fatta tornare a mente l'immagine di quella giovane. Ah se il Dio d'amore invecchiasse, 
+poichè dicono che invecchia anche il sole, sono sicuro ch'ei si porrà gli occhiali per contemplare nel 
+suo quinternetto di disegni il ritratto di sì bella creatura.—</p>
+               <p>Gli accademici avrebbero badato più attenti all'anacreontica in prosa, se il contro 
+Presidente non l'avesse già recitata altre volte; onde il Segretario disse per cosa nuova: «che 
+nell'epigramma aveva notate molte varianti.»</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — E' le ci stanno a pennello.</p>
+               <p>Da queste parole i Pitagorici s'accertarono nel parere che il Capo d'opposizione sapesse 
+ogni cosa; tanto più che, costumando egli sempre (come il lettore ha veduto) d'interrompere ed 
+assordar l'adunanza con la prepotenza del suo polmone e d'avviluppare qualunque argomento nelle 
+nuvole della sua metafisica, questa volta aveva appena degnato con poche sillabe o con quella 
+cantilena enigmatica d'ingerirsi nelle lunghe quistioni su l'articolo <title>Varietà</title>. Molti 
+adunque gli andarono attorno pregando, scongiurando, schiamazzando perch'egli manifestasse il 
+nome dell'impostore. E stando egli sempre sul no parecchi accademici nominarono invano il nome e 
+i miracoli di molti illustri maligni; anzi il contro Presidente ci aggiungeva del suo la profezia fatale 
+della morte di tutti.</p>
+               <p>
+                  <hi rend="italic">Molti accademici, or l'uno or l'altro</hi>. — Gli è forse.... 
+quell'uomo vestito sempre ad un modo, corpo di marmo, faccia di bronzo.... — cuore di 
+corno — piedi di feltro — mani di spugna— testa di zucca....</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Zitto.</p>
+               <p>
+                  <hi rend="italic">Gli accademici</hi>. — Gli è desso. — Non può essere, 
+no. — Forse quell'altro che ha un occhialino dentro la testa fatto nella fucina di <hi rend="italic">Momo</hi>. — Perchè? — Perchè scopre le magagne di tutti. — 
+Dove? — Alla mensa di Trivalcione e di Sofistilla. — E a veglia. — Ma sotto 
+voce, perchè è pauroso come coniglio, miserello e spilorcio come rospo, sospettoso come la veglia 
+in amore....</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Zitto.</p>
+               <p>Un accademico bisbigliò un nome all'orecchio del Capo d'opposizione, e questi gridò: 
+— I maldicenti addottorati, siccome è questo di cui v'intendete, non adoprano l'inchiostro mai 
+con la penna. Lo versano a secchi, poi se ne tingono anch'essi tra gli altri negri, perchè niuno possa 
+conoscerli. —</p>
+               <p>
+                  <hi rend="italic">Il segretario</hi>. — V'è anche tale che non tocca inchiostro, 
+ma parla; e se tu lo intendi e lo insegui, scappa come quell'altro animale: piscia di paura per via, e 
+lascia un fetore che ti fa rimanere subito addietro.</p>
+               <p>
+                  <hi rend="italic">Gli accademici</hi>. — Forse sarà quel.... che parla forte. 
+— Anzi ha due orecchi e due occhi. — E per questo? — Non guarda che con un 
+occhio, e non empie se non una sola di quelle orecchie. — Tu di' bene; dà sempre ragione, e 
+nel bene e nel male, alla stessa persona. — È vero, è vero; non può esser altri; e avrà scritto 
+l'articolo, perch'ei fa sempre a modo di chi gli parla ultimo.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Non è.</p>
+               <p>
+                  <hi rend="italic">Molti accademici</hi>. — È: non può esser altri.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — No.</p>
+               <p>
+                  <hi rend="italic">Gli accademici</hi>. — Scommettiamo.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — No —: e gridò.</p>
+               <p>E perchè il lettore possa almeno ideare il grido del Capo d'opposizione, ricordisi il NO 
+di Tamas–Kuli–Kan a' suoi capitani che imploravano in grazia parte almeno de' 
+trecentomila Indiani ch'egli faceva scannare: si levi il feroce e il magnifico, si conservi il testardo e 
+il poetico, e si avrà forse il No rimbombato nelle sale dell'accademia.</p>
+               <p>Quando gli accademici si ridestarono dallo sbalordimento, continuavano a cercare 
+l'autore dell'articolo <title>Varietà</title>.</p>
+               <p>— Per Dio! l'ho trovato. — Chi? — Chi? — È uno che parla 
+sommesso, presto,— di tutto.... — Bravo! —.... porta un bastone da 
+pellegrino....</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — Zitto.</p>
+               <p>— Dice bene; s'ei fosse, non porterebbe bastone. — E perchè? — 
+Non ti ricordi com'ei fu flagellato a sangue da quel poeta insidiato? Corse grondante di sangue; 
+lagrimò sul flagello, e il poeta gli accordò pace.</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>, canticchiando:
+
+<quote rend="block">
+                     <lg>
+                        <l part="F">O uomo</l>
+                        <l>Placabil sempre, e non tranquillo mai!</l>
+                        <l>Fuggi questi Abner, di Satàn fratelli,</l>
+                        <l>Che il magnanimo cor t'aprono a l'odio,</l>
+                        <l>Che di sovran guerrier men che fanciullo</l>
+                        <l>Ti fanno!</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>Poi proseguì a mezza voce, e i Pitagorici stavano sempre più attenti: — Tu sei 
+generoso, e pure molti ti temono! tu se' schietto, e molti t'insidiano! tu non senti invidia, e tu ti sei di 
+volta in volta adirato e rappacificato con tutti! tu t'accorgi de' tristi, e tu perdoni i loro vituperi, 
+finchè t'abbiano nuovamente contristato e macchiato nel mondo; e tu perdonerai nuovamente! Ma 
+se tu ti compiaci d'ingrati, credi che il mondo te lo perdoni? Tu se' uomo, tu sbagli talvolta, ed 
+ascolti l'amico; ma taluno ti adula per farti sospettar dell'amico. E non sai ch'ei ti lodano per carpirti 
+lodi, beneficj e favori? Non vedi che chiunque ti biasima non teme il tuo sdegno, perchè ti ama e ti 
+stima come onore dell'arte? Se tu non lo ascolti, o dovrà tacere, o dire il vero lontano da te. Ma la 
+lode di chi dice il vero non ti frutterà forse più de' panegirici di mille uomini falsi? Non vedi che i 
+maligni parlano sottovoce? che gli invidiosi non si fanno mai scorgere?
+
+<quote rend="block">
+                     <lg>
+                        <l>Fuggi questi Abner, di Satàn fratelli!</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>Gli accademici continuavano: — Se fosse quell'impostore flagellato, non 
+porterebbe bastone. — Ma qui fu dianzi nominato uno. — Chi? — Non vo' 
+dirlo. — Parla, parla. — Ma io non lo so di certo. — Parla. — Dicono 
+che sia.... non vo' dirlo.</p>
+               <p>— Dillo piano. — Che sia.... parla rado sensato gentilmente....</p>
+               <p>— Sì, sì; ed è dotto davvero; e scrive esattissimo. — L'hanno detto anche a 
+me. — Anche a me. — E....</p>
+               <p>
+                  <hi rend="italic">Il Capo d'opposizione</hi>. — L'hanno detto, e lo vanno 
+dicendo per adirar l'uno e affliggere l'altro; e tutti voi, non volendolo, giovereste a' Creonti. Udite e 
+tenetevi a mente,e riditelo: l'uomo che vi hanno nominato que' vili può far forse la sua salute; ma 
+s'altri l'accusa di troppa prudenza, niuno potrà, senza costituirsi calunniatore, accusarlo mai di 
+malignità.</p>
+               <p>
+                  <hi rend="italic">Il Presidente</hi>. — Addison narra <hi rend="italic">che i 
+letterati inglesi erano amici di cuore in vita e in morte, e nemici d'opinione in istampa: e che i 
+francesi si odiavano cordialmente, e si lodavano a vicenda ne' loro libri</hi>. Ma gl'Italiani non 
+faranno progressi come gl'Inglesi, nè acquisteranno fama come i Francesi, se la ciurma letteraria 
+riescirà sempre a dividerli. Odiandosi nelle loro stanze per le maligne riferte de' vili, tacendo in 
+pubblico per meschini riguardi, le scienze non combatteranno più con le scienze, né le lettere con le 
+lettere onde animarsi, esercitarsi, emularsi fra loro; ma il vero combatterà contro il vero, l'onore 
+contro l'onore; i buoni cittadini ne piangeranno, gl'ignoranti si chiameranno beati nella loro 
+ignoranza, gli sciocchi ne rideranno, e il merito forse e la fama spariranno da questo cielo più 
+liberale d'ogni altro.</p>
+               <p>
+                  <hi rend="italic">Molti accademici</hi>. — Ma il nome? Certo bisogna 
+conoscere il nome dell'autore di quell'articolo <title>Varietà</title>! — L'abbiamo lodato; s'è 
+detto ch'è scritto bene. — Bene o male, s'ha a conoscere l'impostore.</p>
+               <p>
+                  <hi rend="italic">L'accademico canuto</hi>. — Ma non l'abbiamo rimeritato noi 
+forse dell'impostura? Chi sa ch'egli o mal consigliato, o comandato, o pagato, non abbia tinta la 
+penna nell'altrui fiele? Forse a quest'ora avrà paura e rimorso, da che cerca di rimanersi celato. 
+Lasciamolo stare celato; altri non lo accaparreranno per segretario, poichè sanno che l'accademia 
+non ne ha di sì fatti.</p>
+               <p>
+                  <hi rend="italic">Un accademico</hi>. — Dopo tanto, s'è trascurato quello che 
+importa. Importa di far pubblicare nella stessa gazzetta: <hi rend="italic">che l'Accademia de' 
+Pitagorici non tiene private adunanze; che dichiara apocrifo quell'articolo, e che l'impostore ha 
+usurpato il titolo di suo segretario</hi>. — E mi parve la voce che promosse il quesito su 
+l'<hi rend="italic">Elissi del sole</hi>, e fu la terza volta che in tutto il tempo dell'adunanza mi 
+venne fatto d'udirla.</p>
+               <p>L'Accademia decretò:</p>
+               <p>
+                  <hi rend="italic">Che niuno de' suoi membri possa mai scrivere in nome suo; che, 
+sedendo in pubblico sempre, il pubblico può sapere ogni cosa; e che non le importa di conoscere 
+l'impostore</hi>.</p>
+               <p>Nondimeno alcuni accademici più curiosi andavano ridomandando il <title>Corriere 
+milanese</title> all'Araldo per esaminare con più diligenza lo stile dell'articolo ed avverare 
+l'indizio. Ma l'Araldo avea sbadatamente fatta a pezzi quella gazzetta, e ne distribuiva agli 
+accademici, che andavano a casa, tanto da poter alluminare le loro lanterne; e col poco che gli 
+rimase accendea la sua pipa, perch'ei si diletta a fumare fuor della porta.</p>
+            </div2>
+         </div1>
+         <div1 n="Appendici">
+            <head>APPENDICI.</head>
+            <argument>
+               <p>I. FRAMMENTI DI ALTRI RAGGUAGLI DELL'ACCADEMIA DE' 
+PITAGORICI.</p>
+            </argument>
+            <div2 n="Capo I">
+               <head>CAPO PRIMO</head>
+               <argument>
+                  <p>dove si vede la ragione di questo ragguaglio.</p>
+               </argument>
+               <p>A un parlamento letterario privato, ch'io non devo nominare in pubblico, leggevasi certo 
+articolo sulle versioni d'Omero, stampato nel fascicolo IV del giornale che ha per titolo 
+<title>Annali di Scienze e Lettere</title>. Erano magistrali le poche censure de' dotti all'articolo; 
+ma caritatevoli le moltissime contro l'autore; e quantunque io scrittore fossi più volte di sentimento 
+contrario a que' dotti, pure, siccome minore d'anni e di fama, mi tacqui. Solamente l'accusa che 
+toccava l'ineleganza di stile e alcuni errori di lingua palmari, parvemi giusta e provata: però dissi 
+che bisognava avvertirne amichevolmente l'autore. Ma quegli uomini letterati, maestri ed amici 
+miei, mi risposero che, credendomi giovane di buone speranze, m'aveano invitato a' loro parlamenti 
+privati, e mi davano per allora il consiglio di lasciare sempre cieco ne' propri falli chiunque esamina 
+troppo gli altrui, acciocchè, quand'ei ci ferisce, a noi resti tanto da rimproverarlo pubblicamente e 
+convincerlo. Io dunque, per soddisfare alla mia coscienza, e per non disobbedire a' maestri ed amici 
+miei, presi a quattr'occhi l'autore di quell'articolo e dissi: <hi rend="italic">Badate a non più 
+scrivere in fretta</hi>; poi lasciai ch'egli indovinasse il perché. Infatti chi volesse dare dedito anche 
+de' falli di stampa agli autori, non sarebbe indiscreto; da che il pubblico, oltre il tempo e il denaro, 
+non deve perdere la pazienza a cercare l'<foreign lang="lat">errata corrige</foreign>; e sta agli 
+autori a provvedere alla spilorceria, alla povertà ed all'imperizia degli artefici stampatori. Non so se 
+i facitori di statistiche abbiano notato che, in quarantatrè stamperie di Milano, appena cinque 
+mortali si guadagnano onoratamente la vita con l'arte di correggere stampe.</p>
+               <p>Trovasi nel citato articolo di giornale a piè delle pagine 63, 64 e 65 la seguente 
+notizia:</p>
+               <p>(Qui la nota tal quale sta nel <title>Giornale</title> su l'Accademia de' Pitagorici).</p>
+               <p>Tante e così discordi ed insufficienti furono le congetture sì de' dotti, sì di molti lettori 
+intorno a questa ignota accademia, ch'io l'ho creduta o immaginaria del tutto, o un conciliabulo di 
+scioperati mormoratori; e in questa seconda opinione pendevano i dotti e le donne, mostrando ad un 
+tempo moltissima curiosità d'averne più sicure novelle. E siccome alla gravità degli uomini dotti e 
+al pudore delle donne si disdice di lasciarsi vedere con certa gente, così, per soddisfare alla loro ed 
+alla mia discreta curiosità, io, che per natura cerco ogni genia di persone più che ogni specie di libri, 
+e vivo più allegramente ove ognuno dice l'animo suo, mi sono aggregato a quell'accademia con 
+proponimento di adempiere, finchè mi piacesse di rimanervi, a' sette doveri prescritti ad ogni 
+membro. Spero che i Pitagorici troveranno occasioni a rimproverarmi di troppo zelo, ma di 
+negligenza non mai. Infatti l'obbligo di ridire da per tutto ogni cosa e di non susurrare nulla 
+all'orecchio, è da me interpretato sì religiosamente, ch'io ridico tutto stampando, quantunque non 
+senza doloroso presentimento d'essere escluso da' parlamenti privati dei dotti, i quali, cominciando a 
+crucciarsi contro la nuova accademia, m'aveano raccomandato di riferire ad essi prudentemente 
+ogni cosa udita e veduta. Ma io li prego a considerare che molto prima di essere invitato a' lor 
+parlamenti, o d'essere ascritto fra' Pitagorici, io aveva fatta professione solenne di gridar contro 
+molti, ma di non congiurar mai contro alcuno. E questo è il rimedio che Salomone, Esopo e Socrate 
+insegnano per rendere meno maligna certa inimicizia reciproca di cui la madre natura dotò ciascun 
+animale, e segnatamente l'umano. Salomone, Esopo e Socrate insegnano che, dove vi siano rancori, 
+si manifestino schiettamente, perchè dalle liti tacite nascono l'odio e l'insidia, e dalle liti palesi la 
+vergogna ed i patti; le quali ragioni furono scritte con diverse parole anche da Niccolò 
+Machiavelli.</p>
+            </div2>
+            <div2 n="Capo II">
+               <head>CAPO SECONDO</head>
+               <argument>
+                  <p>dove incomincia il ragguaglio dell'adunanza de' Pitagorici tenuta agli 8 di maggio 
+di quest'anno 1810.</p>
+               </argument>
+               <p>L'insulsa musica del teatro e la certezza che pochi <hi rend="italic">accordati</hi>, 
+stante la pioggia, sarebbero andati a fischiare dalla platea l'impresario, tennero lontani assai 
+Pitagorici dalla via della <emph>Scala</emph>, ove l'accademia si ripara tra l'ore della mezzanotte 
+e dell'alba. Malgrado lo scarso numero de' membri sedenti, la baruffa di sillogismi e di grida era 
+tanta, che niuno mi vide entrare; nè io, dopo moltissimo studio, seppi rappiccare le fila di tre 
+questioni che si agitavano contemporaneamente e promiscue a molte. questioni accessorie. 
+Finalmente, per non contravvenire alla legge capitale de' Pitagorici, mi diedi più a parlare che ad 
+ascoltare; anzi, gridando e sillogizzando, dava torto si all'una parte che all'altra, e rispondeva 
+<emph>no</emph> a chi dicevami <emph>sì</emph>, e <emph>sì</emph> a chi dicevami 
+<emph>no</emph>. Quei che s'accorgevano di questo nuovo partito di questionare, ridevano; e i 
+più accaniti cominciavano ad ostinarsi un po' meno, e ad accordarsi tra loro. Così mi fu dato di 
+discernere che le tre principali questioni trattavano di <emph>vino</emph>, di 
+<emph>duello</emph> e di <emph>donne</emph>.</p>
+               <p>Quanto al vino, fu concluso che i possidenti del Regno sono da biasimarsi perchè, 
+avendo <emph>terra e sole</emph>, non vogliono nelle vigne e le vendemmie mettere opere ed 
+industria; per mandare più lieti brindisi a mensa, mandano l'oro fuori di casa. Le prove che il Regno 
+d' Italia può generalmente produrre buon vino, si sono trovate dall'accademia ne' bicchieri di que' 
+pochi che, coltivando per lor uso e per gli ospiti poche vigne con amore e con diligenza, non hanno 
+corrispondenze co' Borgognoni e Guasconi. È vero che dando più lavoro e più tempo alle vigne, il 
+popolo non avrebbe più tanto vino con poca moneta: ma se la stessa poca moneta procacciasse ad 
+ogni artigiano tre bicchieri di buon vino invece di sei di cattivo, gli spedali avrebbero meno infermi, 
+e le prigioni meno rissosi; molti de' quali, la mattina che segue le domeniche, si svegliano senza più 
+ritrovarsi nella loro bottega, e senza ricordarsi mai del perchè. Intorno a' monopolisti e manipolatori 
+di vino, l'accademia compianse que' poveri diavoli che li pagano, e forse li pagherebbero 
+quand'anche le viti si coltivassero quanto in Borgogna; ma dichiarò che l'affare non era di sua 
+competenza. Tra tante considerazioni ed aneddoti scaturiti dalla questione sul <emph>vino</emph> 
+tre cose sole domandano di non essere dimenticate. Un accademico, la voce del quale sarebbe stata 
+soffocata da quanti gridavano con più efficacia, facevasi intendere con mille cenni diversi e delle 
+labbra e degli occhi e del suo naso generosissimo e di tutte le dieci dita; però congetturai ch'egli 
+venisse di Napoli. E meravigliandomi della deferenza che molti aveano a que' cenni, mi fu risposto 
+che s'avea sempre rispetto agli scrittori didattici; ed egli avea scritto un buon tomo sulla famiglia 
+infinita de' vini; libro inedito, che riescirà senza dubbio carissimo a' dilettanti d'agraria, i quali 
+potranno al caso non essere inutile a' nostri concittadini che viaggiano, fu il racconto d'un canuto 
+accademico. Narrava che, andando a Parigi per la via di Borgogna, si trovò nella barca da Lione a 
+Châlon con molti passeggieri, i quali tutti alla loro volta davano notizia di sé medesimi, e quasi tutti 
+erano stati impoveriti dalla rivoluzione e scorticati e trattati peggio di san Lorenzo. — E 
+perch'io — continuò l'accademico — non mi trovava sì lacrimevoli casi da raccontare, 
+mi rimasi uditore. Alcuni d'essi per altro sapeano interrogarmi sì civilmente, ch'io non avrei potuto, 
+senza taccia di villania, non dir <foreign lang="fra">qui j'étais</foreign>. E dissi ch'io era <foreign lang="fra">paillard et ivrogne jusqu'au bout des ongles, et qu'en conséquence</foreign> io andava 
+a starmi a Parigi visitando prima i borghi e le città di Borgogna. — Così io possa bere per 
+altri quarantasette anni di quel vino eccellente a buon prezzo, e poi morire della morte di prete 
+Leva, come tu rispondesti da buon pitagorico e da fedelissimo amico mio! — interruppe 
+esclamando con pronunzia gallinsubrica il Presidente; e l'accademico seguì a raccontare: — 
+A mezzo cammino sbarcai con gli altri per desinare all'albergo. Trasecolarono i commensali 
+vedendomi bevitore d'acqua purissima; e tutti a una voce mi interrogavano perchè mai non toccassi 
+la mia bottiglia, giacchè, bere o non bere, avrei dovuto pagare lo scotto. Al che risposi che, quando 
+nelle tavole rotonde io mi vedeva intorno qualche interrogatore, mi riserbava a bere nella mia stanza 
+e di notte. — Ora dirò la terza cosa da me notata: questa l'ho notata non per agricoltori nè 
+viaggiatori, bensì per me solo; e prego chi legge di saltare una pagina, come bisogna pur fare ne' 
+libri dove l'autore parla di sè. Un uomo grasso, taciturno sino a quel punto, mi s'era a passi 
+lentissimi avvicinato, e m'avea con tutta la buona creanza richiesto s'io credeva di potere ancora 
+campare per molto tempo. La domanda nacque così. Il contro Presidente voleva appellarsi alla mia 
+decisione sui vini d' Italia, perch'egli difendevali a spada tratta. Dissi ch'io non beveva mai vino. 
+Mentre il contro Presidente mi volgeva le spalle adirato, un accademico me ne domandò la cagione. 
+Narrai dunque che i miei parenti, conoscendomi avventato, caparbio, fantastico sino da ragazzino, e 
+prevedendo che queste doti sarebbero in me cresciute con gli anni e che io sarei chiamato pazzo 
+dagli uomini gravi, mi divezzarono affatto dal vino, acciocchè almeno gli uomini gravi, non 
+potendo imputare i miei ghiribizzi al padre Bacco, fossero costretti ad ascriverli tutti alla madre 
+Natura, contro la quale non vi sono se non palliativi. Così anche gli altri mortali nè prudenti nè 
+gravi, e che costituiscono l'universalità del genere umano, m'avrebbero più compianto che 
+denigrato. Infatti è secolo questo che ad ogni minimo effetto e difetto la filosofia contemplativa e 
+sociale cerca sempre e ritrova una gravissima causa.</p>
+               <p>— L'acqua dunque vi farà bene — disse a me l'accademico, il quale vedeva 
+ch'io m'avea già votate due tazze.</p>
+               <p>— Anzi — diss'io — l'acqua mi manda più fumi al cervello; e un 
+medico da me consultato congetturò che il mio ventricolo fosse composto di calce. — Però 
+quell'uomo grasso mi s'accostò per domandarmi s'io camperei molto tempo.</p>
+               <p>— E perchè ciò? — gli diss'io.</p>
+               <p>Sappia — risposemi — ch'io sto preparando per un giornale di scienze, 
+lettere ed arti due memorie sulla vescica dei pesci. La catena degli enti potendo ridursi a circolo, 
+potrebbe forse avvenire che l'anello della vescica de' pesci toccasse quello del ventricolo umano. Il 
+ventricolo straordinario di Vossignoria somministrerebbe assai luni su l'aria contenuta da qualche 
+vescica straordinaria di certi pesci. Quindi per via d'induzioni e di ripetuti esperimenti e di memorie 
+stampate negli Atti delle accademie, la storia naturale farebbe progressi, la medicina troverebbe più 
+lume per le inesplicabili malattie di ventricolo, e l'umanità sarebbe gratissima al ventricolo calcareo 
+di Vossignoria, purchè le piaccia ch'io, fisiologo ed anatomico, provveda all'incisione del suo 
+cadavere quand'ella avrà la disgrazia di non vivere più.</p>
+               <p>— Disgrazia o grazia, chi può saperlo?— diss'io fra me stesso.— 
+Ma se il cielo mi farà, com'io spero, l'unica grazia di viaggiare per l'altro mondo a mio modo, gli 
+amici miei soli sapranno il luogo della mia sepoltura! E forse potrò lasciare tanto agli eredi da 
+mantenere su la mia sepoltura un mastino per que' pochi giorni necessari alla putrefazione; 
+acciocchè nè anatomico mai nè fisiologo vada a tormentare l'avanzo di questa mia magra e 
+melanconica persona che si risente dolorosamente di tutto, anche nel punto ch'io rido. —</p>
+               <p>Il vino attirò gli accademici nella teoria del <emph>duello</emph>, e s'è concluso che 
+quello il quale provoca ingiustamente e brutalmente alla spada dev'essere infame quanto colui che 
+nega di rendere col proprio petto ragione all'uomo provocato ed offeso. Un accademico inoltre ha 
+vittoriosamente sostenuto: «essere il duello un veleno che giova d'antidoto contro a' veleni 
+più micidiali de' popoli inciviliti. I maligni, i soverchiatori, i traditori del secreto, gli sparlatori delle 
+donne, i violatori delle lettere, gli scrittori di accuse cieche a' mariti contro il rivale e la moglie, gli 
+spergiuri ec. ec., essendo la specie più pestifera e più codarda e più ben vestita a un tempo tra noi, e 
+le leggi non potendo sempre colpirla, e le prove di que' delitti essendo difficilissime e spesso più 
+vergognose agli innocenti che a' rei, l'unico freno che possa contenere sì fatta specie sarà sempre il 
+valore degli uomini generosi, i quali, se sono ardenti spesso nelle loro passioni, sono per lo più 
+schietti nelle parole e coraggiosissimi nel procedere. La vendetta è una passione di natura ignea; se 
+le darete luogo ed aria, si svapora e si spegne; se la comprimerete, andrà serpeggiando insidiosa e 
+scoppierà col delitto e col tradimento.»</p>
+               <p>Molti accademici ripetevano istantemente: — E quand' uno non sapesse 
+armeggiare? —</p>
+               <p>A ciò il Presidente rispose: — È <emph>fuori di dubbio</emph> che il duello è 
+uno di que' tanti malanni che cadono spesso tra capo e collo su' galantuomini, senza che si possano 
+prevedere nè riparare. Ma <emph>è fuori di dubbio</emph> che l'educazione deve pur fare che gli 
+uomini siano possibilmente preparati alle combinazioni più frequenti nell'istituto di vita che a 
+ciascuno tocca nel mondo. — E provò geometricamente che i signorotti di certo paese, 
+essendo educati dalle fantesche e dai preti, balleranno per lo più senza garbo, o duelleranno più 
+spesso con poca scherma e forse con poco valore.</p>
+               <p>— <emph>Destino destinato destinatissimo!</emph> — replicò un uomo 
+ancor bello, contro Presidente de' Pitagorici; e nominando i cinquantasette sonagli di Carlo Sala, 
+giurò ch'ei non sarebbe mai morto d' un colpo di pistola, quand'anche gli venisse sparata tra le due 
+ciglia. — Ove non fosse cosa ridicola di stampare sul <hi rend="italic">Fatalismo</hi>, i 
+lettori saprebbero tutte le teorie del contro Presidente intorno al soggetto; teorie ch'egli sostiene sino 
+a dire che le battute del polso d'ogni uomo in ogni minuto della sua vita sono anch'esse numerate sin 
+dal principio de' secoli; e conferma le teorie rispondendo ai <emph>perchè?</emph> de' 
+controversisti con un replicato ed asciuttissimo <emph>perchè sì</emph>. Imitatore invincibile di 
+Zenone, di Seneca, di Marc'Aurelio, di Spinosa, di Leibnitzio e degli interpreti della Scrittura 
+propugnatori della predestinazione <foreign lang="lat">ab aeterno</foreign>, e tutti scrittori 
+gravissimi, pianta per implicito argomento fondamentale le tre parole: — È PERCHÉ È 
+— Così egli persuase a sè stesso a che il <emph>fato</emph> non è <emph>caso</emph>, e 
+il <emph>caso</emph> non è <emph>causa</emph>, e la <emph>causa</emph> non può essere 
+<emph>effetto</emph>; e l'<emph>effetto</emph> non essendo <emph>causa</emph>, e la 
+<emph>causa</emph> non essendo <emph>caso</emph>, e il <emph>caso</emph> non essendo 
+<emph>fato</emph>, il <emph>fato</emph> non è <emph>caso</emph> né 
+<emph>causa</emph>, nè <emph>effetto</emph>, ma <emph>fato</emph>. Al quale argomento 
+gli accademici rispondono che il <emph>caso</emph> può essere <emph>fato</emph>, perchè 
+senza un caso l'altro caso non nasce; e che per conseguenza la onnipotenza del <emph>fato</emph> 
+sta tutta nel <emph>primo caso</emph>. Or poichè un <emph>caso</emph> presume 
+<emph>causa</emph>, il <emph>fato</emph> sta nella <emph>causa</emph>. — — 
+L'accademia nostra non avendo danaro, esorta le accademie scientifiche e letterarie d' Europa e 
+degli Stati Uniti d'America a proporre tre premii per que' (?) filosofi che scopriranno: 1<hi rend="sup">°</hi> la natura del <emph>primo caso</emph>; 2<hi rend="sup">°</hi> la priorità 
+della <emph>causa</emph>; 3<hi rend="sup">°</hi> la legittimità del <emph>fato</emph>; 
+acciocchè il <emph>fato</emph>, il <emph>caso</emph> e la <emph>causa</emph> tornino 
+nell'amicizia primitiva, e s'abbia una volta qualche idea netta, quando si pronunzia e si scrive il 
+vocabolo <emph>fatalismo</emph>.</p>
+               <p>— A che m'accusate voi dunque di fatalismo? — disse il contro Presidente, 
+poich'ebbe udito questo ripiego. — So quello ch'io so; ed ho il mio perchè. —</p>
+               <p>Nessun accademico gli rispose più sillaba; ridevano tutti, e anch'essi avevano forse il 
+loro perchè.</p>
+               <space type="stacco narrativo"/>
+               <p>Rispetto alle <emph>donne</emph>, s'è ripetuto che tanto le arrendevolissime quanto le 
+ritrosissime ammazzano spesso l'amore; le prime, di sazietà; le seconde, d'inedia.</p>
+               <p>— Ahi civette, civette! inquietudine d'ogni numerosa villeggiatura! — 
+esclamò un accademico che aveva poco pelo sul mento. L'esclamazione fu sì patetica, che molti 
+accademici, nell'impeto primo del dolore (in cui per lo più l'uomo non sa mai quello ch'ei si dica), 
+proposero per pena delle civette <emph>che gli amanti vanamente allettati potessero vantarsi de' 
+baci non ricevuti</emph>.</p>
+               <p>— Ed io invece — interrompevali un altro accademico — io prego 
+prima il signore Iddio, poi il padre delle ragazze, poi il marito d'ogni donna gentile, poi gli amanti, 
+poi tutti, fuorchè le sciocche, le brutte e le vecchie, di perdonare la civetteria alle civette. La 
+civetteria spiace a quelle che non sanno civettare, e a quelli che non hanno cervello da profittarne. 
+Io mi confesso uomo oziosissimo, perché mio padre, simile a molti padri, mi lasciò in eredità danari 
+da spendere, ma niun'arte da divertire la noia. E se le civette non mi facessero talvolta vestire, 
+rivestire, andare, tornare, scrivere, minacciare, pregare, piangere e ridere, che sarebbe di me? Le 
+dissolute mi muovono nausea e le donne savie mi leverebbero ogni speranza; così, non sapendo far 
+altro uso di questa mia gioventù, mi lascerei finalmente uccidere dalla noia. E voi mariti nobili e 
+ricchi, o date alcuna occupazione alle vostre mogli, facendole una volta padrone di casa ed 
+educatrici de' loro figliuoli, o lasciatele civettare, lasciatele, per vostro minore malanno. La donna 
+che pensa e s'affatica per allettare più amanti, non ha tempo da perdere per lasciarsi allettare da un 
+solo; e i mariti avranno, senza pagarli, dieci custodi del loro letto —</p>
+               <p>— Per Dio, tu la pensi da uomo di mondo — disse il Presidente; — 
+e te l'ho già detto altre volte: le belle inglesi pigliano tempo a civettare quando sono fanciulle, 
+perchè sanno che, come le vanno a marito, diventano madri e matrone, <emph>e chi s'è visto s'è 
+visto!</emph> —</p>
+               <p>— A monte i libretti d'opere buffe, quando parlasi di morale! — disse il 
+tesoriere, uomo amatore di laconismi e di gravità.</p>
+               <p>E chi è quell'uomo — gridò un altro accademico — che per quante ragioni 
+di vendetta ei presuma d'avere contro la giovinezza, la bellezza e le grazie, troverà giusto di punirle 
+con una calunnia? Calcoliamo:un uomo che fa il damerino, cosa ci mette? Pochissimo danno, 
+perchè una sola sconfitta è più infame per una civetta che mille sconfitte per un amante; nè la 
+civetta può decentemente proclamare le sue vittorie, mentre il damerino trova mille araldi che, se 
+potessero, le scriverebbero tra le novelle del Veladini. E chi obbliga l'uomo a seccare una donna? 
+non va egli forse a cercarla egli stesso, a piedi, a cavallo, in carrozza, al corso, al teatro ed in 
+chiesa? e poichè ci vantiamo d'animo più forte e di mente più illuminata, a che non profittiamo delle 
+nostre doti per evitare le reti che le donne volessero tenderci? Chi negli amori perde la pace 
+domestica fuorchè le donne? Chi più d'esse, se le fossero più adultere che civette, sarebbe costretto 
+a baciare tremando un bambino guardato dal marito con occhi torti? Chi più delle donne può 
+incorrere nel tradimento delle serve e de' servi, nella maldicenza delle parenti, nel compatimento 
+delle giovani amiche, nell'esecrazione delle devotissime zie?... Chi? ... —</p>
+               <p>Uno sbadiglio potente dell'archivista distrasse l'attenzione degli accademici.</p>
+               <p>Dio de' miei padri! — esclamò il Presidente.</p>
+               <p>Che diavolo! — grido l'Archivista — questo perpetuo protettore delle 
+donne ci va rifriggendo le cose che non neghiamo! Vivete e lasciate vivere; — ma tu ne hai 
+fatto morire con la tua predica, che, se fosse sparsa d'un po' d'erudizione e d'oscurità, parrebbe 
+imitata dalla prolusione <emph>su l'origine e l'ufficio della Letteratura</emph> d'un certo 
+professore di Pavia. —</p>
+               <p>— <foreign lang="lat">Lupus in fabula</foreign> — disse l'accademico 
+dal naso napolitano.</p>
+               <p>— Fatevi innanzi — gridò alzandosi quel di Pavia per scusare ch'io vi 
+strozzi in questa tanaglia: — Hai tu ricevuti i baci di cui ti vanti? sei traditore. Non li hai 
+ricevuti? sei calunniatore.</p>
+               <p>S'è finalmente parlato d'una specie di cavalieri erranti ne' i palchetti dell'<hi rend="italic">Opera</hi>, i quali credono a' racconti de' i vantatori di baci, e poi li ridicono 
+all'orecchio di tutti. A' più creduli di questi cavalieri l'accademia diede il nome 
+d'<emph>inghiottimosche</emph>; ed a' commentatori il nome di <emph>vomitavipere</emph>. 
+S'è finalmente parlato di quegl'innamorati che danno falsamente al loro rivale l'imputazione di 
+vantatore di baci; per costoro l'accademia non seppe assegnare alcun nome. Piaccia dunque alle 
+amabili donne, che sole possono provare l'odio, la vergogna e la disperazione eccitata ne' loro petti 
+da queste malignità, piaccia loro (quand'anche credano ad amanti sì vili) assegnare quel nome che 
+più ad essi conviene.</p>
+               <p>E qui devo per amor e onore del vero avvertire che gli accademici nella questione un po' 
+lunga <emph>intorno alle donne</emph> non nominarono mai né fecero allusione a veruna 
+fanciulla, ed appena citarono sottovoce tre o quattro femmine maritate. E queste tre o quattro sono 
+certamente di quelle tali che si trovano in tutte le città dell'Europa; di quelle che, avendo abborrito 
+ogni mezzo da farsi stimare, aspirano finalmente ad una infame celebrità; onde siamo sicuri che 
+anzi renderanno grazie moltissime all'accademia, e che i loro buonissimi mariti non si lagneranno 
+d'un male ch'essi potevano guarire per tempo, ed a cui si sono talmente avvezzati, che più volte se 
+ne lodano in faccia alla gente. E chi nella precedente puntata avrà letto l'obbligo sesto de' Pitagorici 
+confesserà che l'accademia tende a provvedere in tutto e per tutto all'onore delle donne, da che 
+vuole che un accademico non solo non parli del proprio amore, ma nemmeno <emph>ne faccia 
+vista</emph>; ma nemmeno <emph>faccia in pubblico da servente</emph>, perchè i maligni 
+appiccherebbero subitamente i sonagli alla dama; ma nemmeno scriva in rime alla sua innamorata, 
+perchè la vanità di poeta potrebbe, nel recitare ad altri le rime, lasciare udire il nome della bellezza 
+lodata, o farla conoscere al ritratto poetico che si suole per lo più con molti epiteti e senza alcun 
+verbo chiudere nel contorno d'una ottava o d'un sonettino. Imploro anche dal discreto lettore di 
+perdonarmi se ho scritte in compendio le tre questioni su riferite: non essendomici trovato a 
+principio, non so darne conto esattissimo. Bensì il lettore paziente ammirerà la mia religione nel 
+ragguaglio seguente delle questioni avvenute quando tutti s'avvidero ch'io dava torto a chiunque 
+giurava ch'egli aveva ragione.</p>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

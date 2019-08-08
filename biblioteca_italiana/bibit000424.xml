@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Erbolato</title>
+      <author>Ludovico Ariosto</author>
+    </titleStmt>
+    <extent>36 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000424</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tutte le opere</title>
+        <title type="part">Satire, Erbolato, Lettere</title>
+        <author>Ariosto, Ludovico</author>
+        <editor id="ed">Segre, Cesare</editor>
+        <editor id="ed2">Ronchi, Gabriella</editor>
+        <publisher>A. Mondadori</publisher>
+        <pubPlace>Milano</pubPlace>
+        <date>1984</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2000-09-19T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carlotta Lupi</name>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2000-09-19T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carlotta Lupi</name>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-04-18T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Gritti</name>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Codifica XML - Digitalizzazione e codifica sulla base del protocollo</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text><body>
+<head>Erbolato</head>
+<div1 type="capitolo"><head>Capitolo Primo</head>
+<lb/><p><pb n="93"/>Egli è credibile che a principio che il sommo Id–
+<lb/>dio fece gli animali che in queste ultime sfere, in aria,
+<lb/>in acqua et in terra versano, il nuovo uomo rivolgendosi
+<lb/>intorno, e considerando le altre specie de' viventi, si
+<lb/>attristasse e della natura si ramaricasse non poco, ve–
+<lb/>dendo alcune levarsi a volo e salir verso il cielo, altre ne
+<lb/>l'acque dal sommo all'imo nuotar sicure, altre con ce–
+<lb/>lerità scorrere ed aggirarsi per la spaziosa terra; alcune
+<lb/>di penne e di piume, alcune de diversi peli e quali di
+<lb/>setole, e quali di cuoio e di grossi peli, e quali di dure
+<lb/>croste e scaglie, e quali d'acute spine vestite, e tolerar
+<lb/>per questo di notte e di giorno il freddo e 'l caldo, e
+<lb/>senza offesa di lor corpi giacere per l'umide spelonche e
+<lb/>sopra la nuda terra al ciel scoperto; né solo de gli sensitivi
+<lb/>animali essere questa natura sollecita, ma alli alberi ancora
+<lb/>aver concesso di potersi con doppia scorza dalla state
+<lb/>e dal verno riparare: e vedere appresso alcune specie di
+<lb/>animali di pungenti corna armate, altre di fortissimi den–
+<lb/>ti, alcune di robustissimi piedi, o sì veloci, che di ogni
+<lb/>pericolo poteano levarle in un momento. Se stesso poi
+<lb/>dall'altra parte considerando, si conoscea pigro e lento
+<lb/>e più di tutti gli altri debole, né d'alcuna difesa, o per
+<lb/>resistere o per fuggire, provisto. Vedeasi solo esser creato
+<lb/>ignudo, e con pianto e con gemito nella nuda terra es–
+<lb/>sere, il dì che nasce, gittato; né alcuno aver più di sé
+<lb/>le lagrime pronte. Egli sì inetto, egli sì imbecile che nel
+<lb/>suo principio non si può se non carpone muovere, né
+<lb/>su la persona, se non con lunghezza di tempo, reggere,
+<lb/>né mutare, né firmare i passi, né articulare la voce, né
+<lb/><pb n="94"/>pure apprender di mangiare, né da sé nodrirsi. Poi si
+<lb/>vedea a grandi et innumerabili infermità più de tutti gli
+<lb/>altri soggetto. Onde, fra queste cose discorrendo, venne
+<lb/>in openione che gli fusse stato assai meglio non esser
+<lb/>nato, e che la natura facesse in lui più officio di matrigna
+<lb/>che di madre, come dice <name>Plinio</name> nel settimo. Ma la som–
+<lb/>ma bontà non vuolse ch'egli stesse lungamente in questo
+<lb/>errore et in sì grave affanno, e gli mandò una ispirazione
+<lb/>per mezzo della quale gli fece vedere che un sol dono che
+<lb/>particolarmente gli aveva concesso, oltre gli infiniti che
+<lb/>gli erano dati in commune, non pure uguale, ma lo
+<lb/>facea di gran lunga superiore a tutti gli altri animali
+<lb/>e questo era la ragione, con la quale consigliandosi sem–
+<lb/>pre, né mai da gli ottimi ricordi di lei scostandosi, era
+<lb/>atto a conseguire per sé solo tutte le grazie che fra molte e
+<lb/>diverse specie di creature avea il ciel largo compartite.
+<lb/>Avuto ch'ebbe il nuovo uomo quel lume, non più dan–
+<lb/>do, come era solito, orecchie ai sensi, ma pigliando per
+<lb/>consigliera e guida la ragione, s'avide esser stato fatto da
+<lb/>Dio Prencipe e Signore non pur degli altri animali,
+<lb/>ma de gli elementi ancora; e che tutte le cose che si
+<lb/>trovano al mondo ci erano poste per suo utile e pia–
+<lb/>cere, pur che pigliarle a tempo et a suo beneficio e
+<lb/>conservazione sua, e non a destruzione della vita, di–
+<lb/>spensar le sapesse. Che se bene egli era nudo, potrebbe
+<lb/>facendosi da gli inferiori a sé, a chi dar la lana o il pe–
+<lb/>lo, a chi levando il cuoio e la pelle coprir la sua nudezza,
+<lb/>e dal freddo e dal caldo ripararsi; e che dalla silvosa terra
+<lb/>e da gli altri elementi potrebbe aver materia da difen–
+<lb/>dersi dalle mutazioni dell'aria opportunamente; e che
+<lb/>per alleviare le sue fatiche quindi potria medesimamente
+<lb/>avere instromenti e machine, con le quali, e con opera di
+<lb/>più robusti animali, <add>ch</add>e con industria si sapria fare
+<lb/>ubbidienti, ridurrebbe i rozzi campi a cultura et a ren–
+<lb/>dergli <pb n="95"/>copiosissimi frutti. E se volesse da luogo a luogo
+<lb/>muoversi, usando ora l'agilità de' cavalli, ora il corso
+<lb/>dell'acque, e spesso aggiungendovi lo spirare de' propizii
+<lb/>venti, non averebbe né alle gambe de' cervi, né alle pen–
+<lb/>ne de gli ucelli invidia. E quantunque non gli fusse stato
+<lb/>di native armi né d'altra difesa dalla natura provisto,
+<lb/>s'avvide che molti di quelli ch'aveano i denti o l'ugne
+<lb/>si potea far ministri e satelliti, a pigliare, occidere e
+<lb/>cacciare quando questi e quando quelli che overo gli
+<lb/>paressero nocivi e molesti, overo che per cibo o per altro
+<lb/>suo commodo gli facessero di bisogno. Ebbe considera–
+<lb/>zione appresso che a tante infirmità non era sottoposto se
+<lb/>non perché l'ingegno, il quale era la prencipale e propria
+<lb/>operazione dell'anima, non si lasciasse marcire nell'ozio,
+<lb/>ma sempre avesse da cercare, per conservazion di questa
+<lb/>vita, quali cose gli fossero utili e quali dannose; e che
+<lb/>tante specie d'alberi, tante varietà di erbe, tante sorte di
+<lb/>gummi, tante differenze di liquori e tante e tant'altre
+<lb/>cose non erano dal sommo Creatore prodotte indarno,
+<lb/>le quali conoscendo, et opportunamente adoperandole,
+<lb/>potria fuggire e mantenere in lungo e ottimo stato la sua
+<lb/>vita. E così il nuovo uomo, dove prima ascoltando i
+<lb/>sensi sé avea creduto d'essere la più povera e necessitosa
+<lb/>creatura di tutte le altre, consigliandosi poi con la ragione,
+<lb/>s'avide essere di tutte la più ricca e la più agiata. Così
+<lb/>gli si offersero molte e molte cose belle et utili, che come
+<lb/>da uno eminentissimo prospetto gli fe' d'appresso e da
+<lb/>lontano vedere la ragione, e le giudicò degne ove avesse
+<lb/>a porre lungo studio e diligenza grande.</p></div1>
+<div1 type="capitolo"><head>Capitolo Secondo</head>
+<lb/><p><pb n="96"/>Ma più di tutte l'altre gli parve bella et utile e di
+<lb/>lunghissimo studio e grandissima diligenza degna quel–
+<lb/>l'arte che mostra di tenere l'uomo sano e dalla mala
+<lb/>disposizione ritirarlo alla buona, la quale si chiama me–
+<lb/>dicina; ché, senza alcun dubbio, se la vita e questo essere
+<lb/>è la più preziosa cosa che noi abbiamo, l'arte che di man–
+<lb/>tenerla in buono et ottimo stato e di prolungarla ci inse–
+<lb/>gna, conviene che sia la più nobile e la più necessaria
+<lb/>che se impari. Questa cognizione ebbero i primi uomini
+<lb/>e quelli che di età in età per molti secoli da loro succes–
+<lb/>sero; per questo non aveano in quella prima antichità
+<lb/>altro più caro né miglior studio, che di cercare, investi–
+<lb/>gare, apprendere le disposizioni e le proprietà dell'erbe,
+<lb/>delle piante e dell'altre cose a loro servigio create; né
+<lb/>più bel dono potea fare uno amico all'altro, né lasciare il
+<lb/>padre al figliuolo eredità più proficua, che qualche nuova
+<lb/>cognizione di alcuna cosa che a mantenimento e ricupe–
+<lb/>razione della sanità fusse utile. E si può credere che se a
+<lb/>quella antichissima antichità, viveano gli uomini le
+<lb/>centinaia d'anni, non fusse, dopo la grazia dell'onnipo–
+<lb/>tente Iddio, per altra causa che per la diligenza e studio
+<lb/>che a conservazione della propria vita usava ciascuno. E
+<lb/>mi conferma in questa oppenione <name>Esculapio</name>, medico
+<lb/>eccellentissimo, non nato già in quei tempi, quando gene–
+<lb/>ralmente la vita era sì lunga, ma in questi più inferiori,
+<lb/>nelli quali non si vivea più che si faccia ora. Di costui
+<lb/>si riferisce che tanto si confidò nella scienza sua che disse
+<lb/>che, se in tutto il tempo ch'egli stesse al mondo mai fusse
+<lb/>veduto infermo, non volea esser riputato medico. E be–
+<lb/>ne ottenne quanto avea promesso, imperoché senza alcun
+<lb/><pb n="97"/>dolore o molestia menò la vita sua oltre il centesimo anno;
+<lb/>il che fariano forse all'età nostra molti se la inerzia, l'ava–
+<lb/>rizia, la gola e la libidine e più la superbia non lo vetassi
+<lb/>loro. Sono pochi che vogliano la fatica dello studio, e
+<lb/>fanno più stima di ogn'altro guadagno che di quello della
+<lb/>sanità e della vita; et a molti pare abastanza di sapere
+<lb/>tanto che loro dia credito e reputazione di medico.
+<lb/>Molti altri che sanno quello che loro sia nocivo si lascia–
+<lb/>no vincere o dalla gola o d'alcuno altro dannoso appetito.
+<lb/>Ma la più parte, per superbia, non si degna di usare altro
+<lb/>parere che 'l suo. e più tosto vuole che l'infermo muoia
+<lb/>che desister da quello che, o bene o male, abbia inco–
+<lb/>minciato, o rivocar quello che abbia detto una volta.
+<lb/>E non vuole avvedersi che, essendo infinite le specie delle
+<lb/>cose, sarebbe impossibile che l'intelletto de uno uomo
+<lb/>solo fusse ad investigare sofficiente le proprietà di tutte;
+<lb/>e che per questo è fatto l'uomo sociale e conversativo,
+<lb/>e ha avuto il dono della favella meglio che niuno altro
+<lb/>animale, a ciò che, imparando costui questa cosa e colui
+<lb/>quell'altra et un altro un'altra, et indi esplicando e met–
+<lb/>tendo ogn'uno la sua in commune, si venissero, o in tut–
+<lb/>to o per la maggior parte, dilucidando e risappiendo.
+<lb/>Ma che dico io, che non sia alcuno per sé solo sofficiente
+<lb/>a sapere tutte quelle cose, quando né ancora quanti ne
+<lb/>sono in una gran città, né quanti in una gran provincia
+<lb/>siano sofficienti a saperne pure la.centesima parte? Al–
+<lb/>tre cose si sanno in <name>Grecia</name> che non si sanno in <name>Italia</name>,
+<lb/>molte in <name>India</name> che né in <name>Grecia</name> né in <name>Italia</name> si intendono,
+<lb/>e molte e molte che in diversi luoghi sono né si trovano
+<lb/>altrove se non ivi. Altre cose nascono in <name>Scithia</name> che non
+<lb/>produce l'<name>Egitto</name>, molte in <name>Egitto</name> che né in <name>Scithia</name> né
+<lb/>altrove si conoscono, e così va discorrendo; in molti luo–
+<lb/>ghi se intendono molte cose che né in un luogo né in
+<lb/>quattro si potrebbono intendere. E per questo non parve a
+<lb/><pb n="98"/><name>Platone</name>, né a <name>Pitagora</name>, né ad <name>Apollonio Thianeo</name>, né a
+<lb/>molti altri li quali nelle scienze sono stati eminentissimi,
+<lb/>di potere imparare a bastanza in una scola sola, né in una
+<lb/>città quale era <name>Atene</name>; onde andorono peregrinando e
+<lb/>volsero intendere altri pareri et altre openioni che quelle
+<lb/>de gli Accademici, de gli Stoici, de gli Peripatetici
+<lb/>e de gli Epicuri. E volsero parlare in <name>Persia</name> con gli
+<lb/>Maghi, in <name>India</name> con gli Ginnosofisti, in <name>Egitto</name> et in
+<lb/><name>Fenicia</name> con gli Profeti, in <name>Gallia</name> con gli Druidi, e
+<lb/>con gli altri che ne gli altri paesi erano riputati savi. E
+<lb/>così cercando il mondo, e parte udendo e parte vedendo
+<lb/>cose diverse, riuscirono eccellentissimi, e con il lor di–
+<lb/>sagio riportarono commodo et utile non solo alle loro
+<lb/>patrie, ma a tutta la generazione umana. Che dirò d'<name>Apol–
+<lb/>line</name>, e di <name>Chirone</name> e di molt'altri che. per aver con
+<lb/>diligenza investigato le forze e le qualità dell'erbe e por–
+<lb/>tato da diverse parti salutiferi rimedi a conservazion
+<lb/>della vita umana alle loro patrie, sono stati riveriti ed
+<lb/>adorati per Dii? Che se non si fussero mai dilungati
+<lb/>dalle paterne case, come non se ne dilungano molti me–
+<lb/>dici et i più stimati a nostra età, solo averiano delle
+<lb/>medicine che nascono ne' loro paesi, e non delle pere–
+<lb/>grine, avuto,notizia. E così tante e tante qualità di radici,
+<lb/>di legni, e di erbe, che vengono quali d'<name>India</name>, quali
+<lb/>d'<name>Etiopia</name>, quali di <name>Soria</name>, e quali de <name>Arabia</name>, non sa–
+<lb/>riano state né da <name>Galeno</name>, né da <name>Serapione</name>, né da
+<lb/><name>Dioscoride</name>, né da <name>Cornelio</name>, né da <name>Avicenna</name>, <name>Me–
+<lb/>sue</name>, né d'alcuno altro medico Greco, Latino o Barbaro,
+<lb/>conosciute.</p></div1>
+<div1 type="capitolo"><head>Capitolo Terzo</head>
+<lb/><p><pb n="99"/>Non dico questo perché io voglia derogare ad alcuno
+<lb/>né arrogare a me più del dovere, che derogare e dir
+<lb/>mal d'altri non fu, né voglio mai che sia, mia usanza;
+<lb/>anzi fu e sarà sempre di fare onore et avere in riverenza
+<lb/>ogn'uno, massimamente quelli che sono virtuosi, o che
+<lb/>di virtù abbiano qualche apparenza. Né anco il volermi
+<lb/>di me medesimo lodare non credo mi giovasse molto,
+<lb/>che, non apparendo altro che parole uscite dalla mia
+<lb/>propria bocca, più tosto starei a pericolo di acquistare
+<lb/>nota di bugiardo, che ritrovare credenza di veridico.
+<lb/>Ma lo dico per difendermi contro una falsa oppenione
+<lb/>che, per suggestione d'alcuni invidi et avari, è stata im–
+<lb/>pressa nella mente della maggior parte de gli uomini:
+<lb/>e questa è che i medici, che si veggono ire ora in una
+<lb/>terra ora in un'altra, e da questi luoghi eminenti farsi
+<lb/>vedere in publico, sieno di poco prezzo, e più tosto
+<lb/>venditori di ciance che facitori d'alcuna utile opera, e
+<lb/>che solo quelli che stanno fermi tuttavia in un luogo
+<lb/>sappiano et intendano il tutto. Alla quale oppenione ri–
+<lb/>spondendo, dico che se il medico il quale nelle scole e
+<lb/>nella prattica di una sola città si è fatto esperto e dotto
+<lb/>merita onore e credito, voi non mi dovereste negare,
+<lb/>volendomi rispondere per la verità, che assai più onore e
+<lb/>più credito debbe meritar quello che sia versato in diversi
+<lb/>studi, e sia versato in tutte le scole non pur d'<name>Italia</name> ma
+<lb/>d'oltramontani et oltra mare et in qualunque altro luogo
+<lb/>s'impari scienza; e discorrendo diverse province e diverse
+<lb/>nature e diversi costumi abbia veduto tutte l'infirmità
+<lb/>che imaginare si possano, et avutole in esperienza.
+<lb/><pb n="100"/>Ch'io sia o non sia tale, l'opere e non le parole mie il
+<lb/>dimostrino. Le quali opere se per altro tempo o in altro
+<lb/>luogo m'hanno dato lode o biasimo, ne può <add>in</add> <name>Italia</name>
+<lb/>rendere testimonio la santissima città di <name>Roma</name>, la poten–
+<lb/>tissima <name>Vinegia</name>, il popoloso <name>Melano</name> con molte altre città
+<lb/>de <name>Lombardia</name>; tutto il regno di <name>Napoli</name> con l'isola di
+<lb/><name>Sicilia</name>; e più di tutte l'antichissima <name>Mantova</name>, la nobilis–
+<lb/>sima città di <name>Ferrara</name>; ne l'una de le quali per le mirabili e
+<lb/>frequenti cure fatte per me in essa, l'illustrissimo suo si–
+<lb/>gnor Duca mi fece di sua casa, e mi donò di potere, io e
+<lb/>la progenie mia, portar l'arme sua che vedete dipinte
+<lb/>qua su; nell'altra il sapientissimo et invitissimo signor
+<lb/>duca <name>Alfonso</name>, oltre gli altri doni di che son stato da sua
+<lb/>eccellenza larghissimamente premiato, mi fece cavallieri
+<lb/>a sproni d'oro, e mi donò il titolo di conte, e volse ch'io
+<lb/>togliessi in <name>Ferrara</name> grado di dottore dell'arti e di medici–
+<lb/>na in quello suo eccellente e famosissimo collegio, come
+<lb/>ne gl'uni e ne gl'altri miei privilegi si contiene amplissi–
+<lb/>mamente. E partendomi da <name>Ferrara</name> per qualche giorno,
+<lb/>imperò ch'io vi sono per ritornar di corto, quello gra–
+<lb/>ziosissimo Signore mi fece dipinger questa bandiera in
+<lb/>testimonio di molte esperienze, parte da sua eccellenza
+<lb/>vedute, parte da essa per degni di fede testimoni intese.
+<lb/>Ora quale e quanto sia maestro <name>Antonio Faventino</name>,
+<lb/>che questo è il nome mio, sa, non meno dell'<name>Italia</name>, la
+<lb/>ingegnosa <name>Alemagna</name>, cominciando dal ducato d'<name>Austria</name>
+<lb/>sino a quello di <name>Sansonia</name> e di <name>Selesia</name>; e scendendo lun–
+<lb/>go il <name>Reno</name> per tutte le terre Franche, il sa tutta la <name>Fian–
+<lb/>dra</name> col <name>Barbante</name>, e sino ne l'isola di <name>Olanda</name>. De
+<lb/>l'opere mie son testimoni molti luoghi di <name>Francia</name> e d'<name>In–
+<lb/>ghilterra</name> e di <name>Scozia</name>, che tutto per ordine sarebbe lungo
+<lb/>a dire, e restano ancora stupefatti dell'opere mie e mira–
+<lb/>bili cure che in ogni generazione d'infermità far mi
+<lb/>videro. Ora che si volgesse verso il <name>Levante</name>, cercando
+<lb/><pb n="101"/>l'<name>Albania</name>, la <name>Bossina</name>, la <name>Romania</name>, la <name>Morea</name>, l'Arcipe–
+<lb/>lago e tutta la <name>Grecia</name> sino alla famosa città di <name>Costanti–
+<lb/>nopoli</name>, e da un altro canto discorrendo per l'isole di
+<lb/><name>Candia</name>, di <name>Rodi</name> e di <name>Cipro</name> e venendo in <name>Alessandria</name>
+<lb/>d'<name>Egitto</name> e nella grandissima e popolosa città del <name>Cairo</name>,
+<lb/>di <name>Hierusalem</name> e di <name>Damasco</name> e per tutta la <name>Soria</name> sino alla
+<lb/>radice del monte <name>Tauro</name> et alle paludi <name>Meotide</name>, udiria
+<lb/>non altrimenti esser nominato maestro <name>Antonio Faventino</name>
+<lb/>che da gli antichi Epidauri fusse <name>Esculapio</name>; e la quantità
+<lb/>de l'opre mie in tutti i connumerati paesi et in molt'altri
+<lb/>ancora, i quali per fuggire la lunghezza del parlare io
+<lb/>pretermetto, non mi basterebbe tutto questo giorno né
+<lb/>un altro appresso a raccontare. Pure n'ho fatto suso questa
+<lb/>bandiera ritrarre l'immagine d'alcune, accioché si possa
+<lb/>vedere con gli occhi quello che volendo io riferire a questo
+<lb/>et a quello che fusse curioso di saperlo, mi saria fastidioso
+<lb/>e molesto a replicare tante volte. A questo, che parte vi
+<lb/>narro a bocca e parte dimostro qua su dipinto, potrebbe
+<lb/>essere che io non ritrovarei quella credenza che merita
+<lb/>la verità che mi sia data: né me ne attristo né me ne dol–
+<lb/>go però molto, perché a me non avviene cosa che a molti
+<lb/>altri eccellenti uomini, assai maggiori di me, non sia av–
+<lb/>venuta quando sono capitati in luoghi ove non sieno stati
+<lb/>conosciuti.</p></div1>
+<div1 type="capitolo"><head>Capitolo Quarto</head>
+<lb/><p><pb n="102"/>Ma acciò che la verità non resti dalla falsa oppenione
+<lb/>soffocata, e che un'altra volta, quando io tornarò in
+<lb/>questa città, possiate conoscere e dire a chi non avea
+<lb/>di me notizia ch'io sia veridico e non mendace, ho pen–
+<lb/>sato di lasciarvi una gemma. un tesoro, una ricchezza,
+<lb/>che, se voi amate la sanità, la salute e la vita vostra,
+<lb/>vi debbe essere più cara che s'io donassi oggi a ciascuno
+<lb/>di voi diecimila scudi d'oro contanti. Che giovano l'oro e
+<lb/>l'argento ad uno infermo? che giovano ad uno morto i
+<lb/>larghi campi e le fertilissime possessioni? la perpetua
+<lb/>sanità e la vita lunga si può chiamare, et è in effetto,
+<lb/>vera et incomparabile ricchezza. Di questo prezioso et
+<lb/>inestimabile dono vi voglio oggi arricchire tutti donando–
+<lb/>vi in un picciolo vasetto, di forma picciolo ma di valor
+<lb/>grandissimo, quello eccellente medicamento, quello mi–
+<lb/>racoloso rimedio, che dal mio eccellentissimo precettore
+<lb/>e da me sempre con somma venerazione memorato, mi
+<lb/>fu insegnato e quasi per eredità lasciato, cioè da maestro
+<lb/><name>Nicolò</name> da <name>Lunigo</name>, quello sapientissimo vecchio, quella
+<lb/>inesauribile arca di scienza. Dell'amore che sopra tutti
+<lb/>gli altri suoi discepoli mi aveva portato sempre, mi fece
+<lb/>più volte chiaro segno et evidentissima dimostrazione, ma
+<lb/>più quando, pervenuto al fine della sua vita, a sé chia–
+<lb/>mommi e disse: – <name>Antonio</name> mio dilettissimo, il più cer–
+<lb/>to segno che possa di benivolenza mostrare l'uno amico
+<lb/>all'altro mi pare che sia quando venendo a morte se lo
+<lb/>lascia della maggiore o migliore parte delle sue facultà
+<lb/>erede. Io ti donarei volentieri a questo punto ciò ch'io
+<lb/>mi trovo possedere al mondo, che non mi parrebbe di
+<lb/><pb n="103"/>poterlo meglio in altra persona collocare: ma da l'una
+<lb/>parte vedendo che né di terreno, né di case hai bisogno,
+<lb/>come quello che con le tue virtù n'hai acquistato a ba–
+<lb/>stanza, e, volendo, sei per acquistarne assai più che non
+<lb/>posseggo io; da l'altra parte parendomi che di tal cosa
+<lb/>non potrei, senza mio grandissimo carico e biasimo,
+<lb/>privare della loro legittima successione gli miei propinqui
+<lb/>e stretti parenti, ti prego che tu sia contento ch'io lasci
+<lb/>questi beni di poco momento a chi n'ha più di te biso–
+<lb/>gno: anzi bisogno non ne hai tu alcuno, et essi, senza,
+<lb/>difficilmente et a fatica potrebbono vivere. E se io ti levo
+<lb/>questo, che per certo mi par di levarti tutto quello che di
+<lb/>mio non faccio tuo, a questo punto sia sicuro ch'io te ne
+<lb/>do così grande e ricca ricompensa che hai da stare tutta
+<lb/>la tua età di tal cambio contento. E questo che io ti do
+<lb/>sappi ch'egli è la scienza di fare l'incomparabile <name>Elettua–
+<lb/>rio</name> <foreign>Vitae</foreign>, prima da <name>Ippocrate</name> e poi da <name>Galeno</name> et indi
+<lb/>da molt'altri fisici eccellentissimi più tosto imaginato che
+<lb/>posto in opera. Io ultimamente per lungo studio, e più
+<lb/>per divina grazia, l'ho condotto a perfezione sì che con
+<lb/>questo, come tu sai, ho conservato in prospera valetudi–
+<lb/>ne e lunga vita molti uomini ch'erano degni d'essere
+<lb/>immortali; e fra gli altri l'illustrissimo et eccellentissimo
+<lb/>duca <name>Ercule</name>, il signor <name>Sigismondo</name>, il signor <name>Rinaldo</name>, et il
+<lb/>signor <name>Alberto</name>, tutti fratelli, e della illustrissima casa da
+<lb/><name>Este</name>. I quali con altri infiniti che sarebbe lungo a nomi–
+<lb/>narne tanti, usando, per esortazione mia, questo prezio–
+<lb/>sissimo <name>Elettuario</name>, hanno menato la lor vita oltre l'ot–
+<lb/>tuagesimo anno perpetuamente sana; e se anco l'avessero
+<lb/>meglio usato, et apunto secondo i miei precetti, sariano
+<lb/>per questo, e per la naturale sua buona valetudine, forse
+<lb/>vivi ancora. Et io, se la natura mi avesse a principio for–
+<lb/>mato di complessione più forte, era per passare con questo
+<lb/>aiuto oltre i cento e venti anni, che più termine di vita
+<lb/>non vuole Iddio ch'abbia l'uomo. Ma con tutta la debole
+<lb/><pb n="104"/>et imbecille mia disposizione sono senza febbre e dolore
+<lb/>alcuno passato il nonagesimo settimo anno. –
+<lb/>§E così dicendo l'amorevole e santo vecchio mi porse
+<lb/>un picciolo libretto, nel quale con lungo trattato si con–
+<lb/>teneva il modo di fare l'eccellentissimo <name>Elettuario</name>.</p></div1>
+<lb/><div1 type="cap"><head>Capitolo Quinto</head>
+<lb/><p><pb n="105"/>Come io avessi sì ricco e prezioso dono avete inteso.
+<lb/>Le prove ed esperimenti che con essolui ho da poi fatto,
+<lb/>sono notissimi nelle città e nei paesi sopra nominati,
+<lb/>dovunque sono ito sempre travagliandomi, <add>parte</add> per
+<lb/>soccorrere alle calamità umane, parte per acquistare e
+<lb/>fare maggiore la salutifera scienza di medicina, che né in
+<lb/>una, né in quattro, né in dieci, né in cinquanta città si
+<lb/>può avere perfetta. La prencipale virtù di questo da
+<lb/>Iddio benedetto <name>Elettuario</name> è che, pigliandone ogni mat–
+<lb/>tina nell'uscire de l'alba e poi dormirvi dietro una
+<lb/>mez'ora, cominciando a mezzo aprite infino a mezzo
+<lb/>maggio, quanto è grossa una noce, distemperato in brodo
+<lb/>di pollo. dove non sia né sale né cosa salata, ti conserva
+<lb/>tutto quello anno senza dolore o infermità alcuna. E
+<lb/>chi poi seguendo d'anno in anno al medesimo modo, et
+<lb/>in quel tempo che si piglia <add>guardandosi</add> da cose salate,
+<lb/>da cipolle, da aglio, e da gli altri cibi di simile specie, et
+<lb/>insomma da tutte quelle cose che da gli medici sono
+<lb/>proibite a chi se purga, condurrà senza febbre e dolore
+<lb/>alcuno la sua vita sino alla estrema decrepità. Ma chi
+<lb/>non l'avessi tolto in questo tempo, e che fra l'anno, o
+<lb/>di state o di verno, fusse oppresso da dolore di capo,
+<lb/>o da dolore di fianchi, da mal di pietra, escoriazione di
+<lb/>vescica, da ardore circa quelle parti, da stranguria o dis–
+<lb/>suria, che non potesse retenere l'orina, chi sentisse dolore
+<lb/>colico o matricale o di qualunque altra sorte dolore, ne
+<lb/>pigli la quantità già detta in malvasia, o vernaccia, o in
+<lb/>altro vino bianco e possente, e subito rimarrà libero e sano.
+<lb/><pb n="106"/>Similmente chi patisse il mal di <name>Giob</name> usando questo
+<lb/>non sentirà mai doglie; e giovarà ancora che più tosto
+<lb/>gli si saldaranno le broze e l'altre piaghe che vengono
+<lb/>di fuore. L'uso di questo lieva la sciatica, e pigliandone
+<lb/>una donna che sentisse, innanzi o dopo il parto, dolori,
+<lb/>restarà subito senza alcuna noia. Questo altro rimedio è
+<lb/>anco appropriato a levare le gotte, o vogliam dire podagre
+<lb/>Gli è il vero che in questa infirmità et in quella di mal
+<lb/>di corpo e flusso di sangue (perché vale a l'una et all'al–
+<lb/>tra mirabilmente) s'ha da pigliare con vino vermiglio e
+<lb/>più carico di colore che si possa ritrovare. Così chi avesse
+<lb/>doglia de denti o che se <add>li</add> sentisse crollare, col medesimo
+<lb/>vino negro facendo scaldare questo <name>Elettuario</name>, e tenendo–
+<lb/>ne in bocca, sarà sicuro che mai più non sarà per perdere
+<lb/>un dente né per sentirvi doglia. Et a levare la strettezza
+<lb/>del petto, pigliandone con acqua di mele, non è cosa
+<lb/>più mirabile. Chi fusse per perdere la vista, o per di–
+<lb/>fetto di catarratte, o di ungelle, o per oftalmia, o per
+<lb/>altro accidente, o chi se la sentisse perduta, pur che gli
+<lb/>occhi non gli fussero usciti del capo, pigli di questo
+<lb/>quanto è una noce e lo distemperi in un bicchiero, che
+<lb/>sia li dui terzi di acqua di finocchio et uno terzo di mal–
+<lb/>vasia, o vino bianco ottimo, e di quello si lavi tre volte
+<lb/>il giorno gli occhi: in pochissimi giorni ricuperarà tanto
+<lb/>della veduta che si vederà, che, seguendo per qualche
+<lb/>tempo, sarà per liberarsi in tutto. O voi che temete
+<lb/>di deventare etici o tisici, o voi altri che avete qualche
+<lb/>principio de idropisia, ecco la vostra salute se la sapete
+<lb/>ora prendere. Le diverse infirmità, alle quali il mio <name>Elet–
+<lb/>tuario</name> è prontissimo rimedio, sarebbe troppo lungo a
+<lb/>connumerarvi tutte, ma siate certissimi che chi l'usarà
+<lb/>si potrà preservare da ogni sorte de infirmità che pos–
+<lb/>sa venire in corpo umano; e chi già sarà in qualche in–
+<lb/>firmità caduto, sia di qualunque si voglia specie, usando
+<lb/><pb n="107"/>questo, o totale liberazione o sentirà mirabile giovamento.
+<lb/>E quando un'altra volta io tornarò in questa città, la
+<lb/>quale, per il bel sito e per la conversazione de gli genti–
+<lb/>luomini et ottimi cittadini che ci ho ritrovati, delibero di
+<lb/>frequentare, se Iddio mi dà la vita, così spesso quanto per
+<lb/>adietro abbi mai fatto in altro luogo d'<name>Italia</name> o d'altra
+<lb/>parte, quando io ci tornarò spero che per questo dono
+<lb/>che io vi averò fatto. non solo mi vederete e udirete vo–
+<lb/>lentieri,. ma che mi onorarete et averete in riverenza assai
+<lb/>più che non si conviene al stato d'alcuno mortale. Ora
+<lb/>eccovi il dono, eccovi la ricchezza, eccovi il miracoloso
+<lb/><name>Elettuario</name> che dar vi voglio. Questo picciolo vasetto ha
+<lb/>in sé rinchiuso la continova sanità e lunghezza della vita
+<lb/>umana, e maggiore che non può concedere la difettiva
+<lb/>natura. E se non che le leggi eterne et immutabili, per
+<lb/>colpa del nostro primo padre il vietano, questo saria
+<lb/>stato sufficiente a farci perpetui et immortali. Ho detto di
+<lb/>donarlovi e ve lo voglio donare veramente: perché dan–
+<lb/>dovi cosa di valuta grandissima per un picciolo e minimo
+<lb/>prezzo non si può dire che non si doni. Né anco questo
+<lb/>minimo e picciolo prezzo vi dimandarei se io potessi fare
+<lb/>l'<name>Elettuario</name> con mediocre spesa; ma perché gli è composto
+<lb/>di diversi simplici, nati chi in una parte chi in un'altra
+<lb/>del mondo. che non si possono avere se non con molta
+<lb/>spesa e fatica, son costretto, se finiti questi pochi bussoli
+<lb/>ne voglio fare degli altri, di dimandarvene quel prezzo.
+<lb/>E se ben vi arò da por del mio, non vi ponga però tanto
+<lb/>che per fare bene a voi io faccia male a me. Quello
+<lb/>ch'io ne dimandarò sarà tanto poco che non vi doverà
+<lb/>parer grave. Ben vi certifico che a me costa più di quello
+<lb/>ch'ora costarà a voi. Ma non mi curo di perdere al pre–
+<lb/>sente, perché spero che, conosciutane e fattane l'esperien–
+<lb/>za, <pb n="108"/>un'altra volta e sempre ch'io ritorni in questa città
+<lb/>non mi negarete prezzo ch'io ve ne dimandi. Ma bene
+<lb/>mi escusarete se allora ve ne dimandarò molto più che
+<lb/>non voglio fare ora. Allora ve lo vorrò vendere, ora
+<lb/>son contento donarlovi. Non voglio da voi più d'un gros–
+<lb/>so d'ogni bussolo. Ora chi sarà quello sì avaro, quello
+<lb/>sì misero, a cui incresca di spendere per salute e per con–
+<lb/>servazion de la sua vita sì minimo prezzo? Chi sarà
+<lb/>quello sì povero che non impegni o venda il mantello?
+<lb/>e se non l'ha che non si spogli del giuppone, e della
+<lb/>camicia ancora? che non si sforzi di stare digiuno un
+<lb/>giorno o dui fin che si avanzi un grosso col quale si
+<lb/>guadagni et acquisti questo tesoro e questa ricchezza ine–
+<lb/>stimabile? Deh, non lasciate fuggire l'occasione, che se
+<lb/>rivolge il calvo, dove ora ella vi porge la capillata fron–
+<lb/>te, non so quando altra volta sì benigna sia per ritornar–
+<lb/>vi alle mani.</p></div1>
+</body></text>
+</TEI.2>

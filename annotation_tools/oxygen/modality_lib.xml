@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="schemas/modality.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <ab></ab>
+         <fvLib>
+<!--            Markers -->
+            
+            <fs xml:id="poss_aff" type="marker">
+               <f name="archiunit">
+                  <symbol value="possibility"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="assertive_aff"/>
+               </f>
+            </fs>
+            
+            <fs xml:id="poss_neg" type="marker">
+               <f name="archiunit">
+                  <symbol value="possibility"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="negative_aff"/>
+               </f>
+            </fs>
+            
+            <fs xml:id="fut_aff" type="marker">
+               <f name="archiunit">
+                  <symbol value="futurity"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="assertive_aff"/>
+               </f>
+            </fs>
+            
+            <fs xml:id="fut_neg" type="marker">
+               <f name="archiunit">
+                  <symbol value="futurity"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="negative_aff"/>
+               </f>
+            </fs>
+
+            <fs xml:id="obl_aff" type="marker">
+               <f name="archiunit">
+                  <symbol value="obligation"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="assertive_aff"/>
+               </f>
+            </fs>
+            
+            <fs xml:id="obl_neg" type="marker">
+               <f name="archiunit">
+                  <symbol value="obligation"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="negative_aff"/>
+               </f>
+            </fs>    
+
+            <fs xml:id="nec_aff" type="marker">
+               <f name="archiunit">
+                  <symbol value="necessity"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="assertive_aff"/>
+               </f>
+            </fs>
+            
+            <fs xml:id="nec_neg" type="marker">
+               <f name="archiunit">
+                  <symbol value="necessity"/>
+               </f>
+               <f name="illocution">
+                  <symbol value="negative_aff"/>
+               </f>
+            </fs> 
+            
+            
+<!--            Scope-->
+            
+            <fs type="scope" xml:id="aff_plus_an">
+               <f name="illocution">
+                  <symbol value="assertive_aff"/>
+               </f>
+               <f name="SoA">
+                  <fs type="type">
+                     <f name="dynamic">
+                        <binary value="true"/>
+                     </f>
+                     <f name="control">
+                        <binary value="true"/>
+                     </f>
+                     <f name="participant">
+                        <symbol value="animate"/>
+                     </f>
+                  </fs>
+               </f>
+            </fs>
+            
+            
+<!--            Relation -->
+            
+            <fs type="relation" xml:id="dyn_poss_inh">
+               <f name="modality">
+                  <fs type="dynamic">
+                     <f name="subtype">
+                        <symbol value="participant-inherit"/>
+                     </f>
+                     <f name="meaning">
+                        <symbol value="possibility"/>
+                     </f>
+                  </fs>
+               </f>
+            </fs>
+            
+            <fs type="relation" xml:id="dyn_poss_sit">
+               <f name="modality">
+                  <fs type="dynamic">
+                     <f name="subtype">
+                        <symbol value="situational"/>
+                     </f>
+                     <f name="meaning">                   
+                        
+                        <symbol value="possibility"/>
+                     </f>
+                  </fs>
+               </f>
+            </fs>
+            
+            <fs type="relation" xml:id="dyn_nec_imp">
+               <f name="modality">
+                  <fs type="dynamic">
+                     <f name="subtype">
+                        <symbol value="participant-imposed"/>
+                     </f>
+                     <f name="meaning">
+                        <symbol value="necessity"/>
+                     </f>
+                  </fs>
+               </f>
+            </fs>
+            
+            <fs type="relation" xml:id="deo_int">
+               <f name="modality">
+                  <fs type="deontic">
+                     <f name="meaning">
+                        <symbol value="intention"/>
+                     </f>
+                  </fs>
+               </f>
+            </fs>
+            
+         </fvLib>
+      </body>
+  </text>
+</TEI>

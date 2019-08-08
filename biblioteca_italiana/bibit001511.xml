@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader type="text" status="new" TEIform="teiHeader">
+      <fileDesc TEIform="fileDesc">
+         <titleStmt TEIform="titleStmt">
+            <title TEIform="title">Traduzioni dall'Eneide</title>
+            <author TEIform="author">Giacomo Leopardi</author>
+         </titleStmt>
+         <extent TEIform="extent">59960 Kb in UTF-8</extent>
+         <publicationStmt TEIform="publicationStmt">
+            <publisher TEIform="publisher">Biblioteca Italiana</publisher>
+            <pubPlace TEIform="pubPlace">Roma</pubPlace>
+            <date TEIform="date">2008</date>
+            <idno TEIform="idno">bibit001511</idno>
+            <availability status="unknown" TEIform="availability">
+               <p TEIform="p">Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt TEIform="seriesStmt">
+            <title TEIform="title">Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc default="NO" TEIform="sourceDesc">
+            <bibl default="NO" TEIform="bibl">
+               <title TEIform="title">La traduzione leopardiana del secondo libro dell'«Eneide»</title>
+               <author TEIform="author">Stefani, Luigina</author>
+               <publisher TEIform="publisher">Serra, Fabrizio</publisher>
+               <pubPlace TEIform="pubPlace">Bologna</pubPlace>
+               <date TEIform="date">1975</date>
+               <note place="unspecified" anchored="yes" TEIform="note">Estratto da: Studi e problemi di critica testuale, diretta da R. Raffaele Spongano, 10 e 11, pp. 123-154 e 131-162</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc TEIform="encodingDesc">
+         <samplingDecl default="NO" TEIform="samplingDecl">
+            <p TEIform="p">Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl default="NO" TEIform="editorialDecl">
+            <correction method="silent" status="medium" default="NO" TEIform="correction">
+               <p TEIform="p">Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all" default="NO" TEIform="quotation">
+               <p TEIform="p">I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none" default="NO" TEIform="hyphenation">
+               <p TEIform="p">I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl TEIform="classDecl">
+            <taxonomy id="CGB" TEIform="taxonomy">
+               <bibl default="NO" TEIform="bibl">Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc TEIform="profileDesc">
+         <creation TEIform="creation">
+            <date TEIform="date">800</date>
+         </creation>
+         <langUsage default="NO" TEIform="langUsage">
+            <language id="ita" TEIform="language">Italiano</language>
+         </langUsage>
+         <textClass default="NO" TEIform="textClass">
+            <keywords scheme="CGB" TEIform="keywords">
+               <term TEIform="term">Commenti, traduzioni e volgarizzamenti</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc TEIform="revisionDesc">
+         <change TEIform="change">
+            <date TEIform="date">Data sconosciuta anteriore al 2000</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">LEXIS</name>
+            </respStmt>
+            <item TEIform="item">Digitalizzazione</item>
+         </change>
+         <change TEIform="change">
+            <date TEIform="date">Data sconosciuta anteriore al 2000</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">LEXIS</name>
+            </respStmt>
+            <item TEIform="item">Correzione linguistica</item>
+         </change>
+         <change TEIform="change">
+            <date TEIform="date">2004-05-21T00:00:00.000+02:00</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">Marta Zanazzi</name>
+               <name TEIform="name">BIBIT</name>
+            </respStmt>
+            <item TEIform="item">Codifica XML - Codifica manuale</item>
+         </change>
+         <change TEIform="change">
+            <date TEIform="date">2007-11-15T00:00:00.000+02:00</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">Carla Deiana</name>
+               <name TEIform="name">BIBIT</name>
+            </respStmt>
+            <item TEIform="item">Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text TEIform="text">
+      <front TEIform="front">
+         <div1 org="uniform" sample="complete" part="N" TEIform="div1">
+            <head TEIform="head">Al lettore</head>
+            <argument TEIform="argument">
+               <p TEIform="p">TRADUZIONE DEL LIBRO SECONDO DELLA ENEIDE</p>
+            </argument>
+            <p TEIform="p">Lettore! Ei mi pare non sia da inculcar soverchiamente quel precetto di Orazio,
+<quote rend="block" TEIform="quote">
+                  <lg lang="lat" rend="italic" org="uniform" sample="complete" part="N" TEIform="lg">
+                     <l part="N" TEIform="l">Versate diu quid ferre recusent</l>
+                     <l part="N" TEIform="l">Quid valeant humeri,</l>
+                  </lg>
+               </quote>
+essendochè gli uomini grandi sogliono diffidarsi molto delle loro forze, nè menerebbero per avventura mai ad effetto una grande impresa, se innanzi di porvi mano la esaminassero troppo per minuto. Se io, che pure mi sono tutt'altro che uomo grande, avessi diligentemente e particolarmente discorse le infinite altissime difficoltà che ad un traduttore di Virgilio fa mestieri sormontare, non avrei mai impresa la traduzione che ora ti presento. E come tu dirai che avresti sopportata questa disgrazia molto agevolmente, così io risponderotti che anco il Caro, se troppo fosse stato a considerare Virgilio e gli omeri suoi propri e la età sua, verisimile cosa è che non ci avrebbe mai lasciato la prima traduzione poetica che abbia avuto Italia sino al principio del secol nostro; e medesimamente molti altri grandi uomini non avrebbero forse dato pure cominciamento a molte altre loro grandi opere, se prima avessero voluto rintracciare con troppa sollecitudine tutti i luoghi <emph TEIform="emph">erti ed arti</emph> ai quali poteano avvenirsi; oltrechè il genio non soffre indugio, nè disamina. Ma perchè ora mio intendimento è parlarti di me, e non del Caro, nè di alcun altro, dirotti per quale occasione io mi sia fatto a tradurre il secondo Libro della Eneide. Sappi dunque a ciò non altri avermi mosso che il tristo consigliere di Virgilio. Perciocchè letta la Eneide (sì come sempre soglio, letta qual cosa è, o mi pare veramente bella), io andava del continuo spasimando, e cercando maniera di far mie, ove si potesse in alcuna guisa, quelle divine bellezze; nè mai ebbi pace infinchè non ebbi patteggiato con me medesimo, e non mi fui avventato al secondo Libro del sommo poema, il quale più degli altri mi avea tocco, sì che in leggerlo, senza avvedermene, lo recitava, cangiando tuono quando si convenia, e infocandomi e forse talora mandando fuori alcuna lagrima. Messomi all'impresa, so ben dirti avere io conosciuto per prova che senza esser poeta non si può tradurre un vero poeta, e meno Virgilio, e meno il secondo Libro della Eneide, caldo tutto quasi ad un modo dal principio al fine; talchè qualvolta io cominciava a mancare di ardore e di lena, tosto avvisavami che il pennello di Virgilio divenia stilo in mia mano. E sì ho tenuto sempre dietro al testo a motto a motto (perchè, quanto alla fedeltà di che posso giudicare co' miei due occhi, non temo paragone); ma la scelta dei sinonimi, il collocamento delle parole, la forza del dire, l'armonia espressiva del verso, tutto mancava, o era cattivo, come, dileguatosi il poeta, restava solo il traduttore. Le immense difficoltà che ho scontrato per via, nè puoi tu da per te stesso così bene penetrare come io che holle sperimentate, nè posso io darti al tutto ad intendere con parole. Ma che la difficilissima cosa siami stata non intoppare nel gonfio e non cascare nel basso, ma tenermi sempremai in quel divino mezzo che è il luogo di verità e di natura, e da che mai non si è dilungata un punto la celeste anima di Virgilio; questo, io penso, comprenderai agevolmente. Sporti a parte a parte, come abbia io adoperato per venire all'intendimento mio, e le leggi che mi sono parute da osservare, disutil cosa sarebbe ed anzi nocevole che no, avvenga che, se e' parratti che non indarno io siami faticato, la traduzione istessa tutto ti mostrerà, troppo meglio che non potrei qui far io; e se l'opposito addiverrà, nuocerebbemi che tu sapessi come io conoscendo il modo di ben tradurre Virgilio, l'ho poi tradotto male. Pregoti che tenga questo per certo, avere io tutto, quanto poteva, adoperato, perchè la breve ma non piccola opera fosse, quanto a cosa mia è dato, perfetta.</p>
+            <p TEIform="p">Male però avviseresti se credessi che ove a questa traduzione non incontrasse mala ventura, io avessi in animo di voltare del pari in italiano tutta l'Eneide. L'opera mia comincia dal verso:
+<quote rend="block" TEIform="quote">
+                  <lg lang="lat" rend="italic" org="uniform" sample="complete" part="N" TEIform="lg">
+                     <l part="N" TEIform="l">Conticuere omnes intentique ora tenebant,</l>
+                  </lg>
+               </quote>
+ed ha fine nell'altro:
+<quote TEIform="quote">
+                  <l rend="italic" part="N" TEIform="l">Cessi, et sublato montem genitore petivi</l>
+               </quote>; e questo perchè sarebbe da gareggiare, non già con Annibal Caro (che per avventura pensi che m'impaurisca, e male, posciachè sì come non ci ha forse Italiano che più di me ammiri quel grande scrittore, così non ce ne ha per sorte alcuno che più fermamente creda potersi anco desiderare in Italia una traduzione dell'Eneide), ma con Virgilio. Saggio di traduzione da farsi per me ho già dato io nel primo Libro dell'Odissea venuto in luce il giugno e il luglio di quest'anno nello <title TEIform="title">Spettatore</title>; e con tutto il mio inginocchiarmi innanzi ai letterati, e usare bello studio maniere un po' stravaganti, a pregarli che loro piacesse dirmi se utile o inutile cosa farei mandando l'opera innanzi, non altro ho potuto saperne, se non che quello inginocchiarmi è paruto strano (ed io avea voluto che il fosse), e che è taluno il quale non vorrebbe sentir parlare di <emph TEIform="emph">chiostra de' denti</emph>, di che agevolmente mi consolo colle parole di Omero <foreign lang="grc" TEIform="foreign">ρκος δντων</foreign> e coll'esempio del Monti e con mille altre cose: e converrà, se pure delibererò di tradur l'Odissea, che ne giudichi da me, e corra il rischio, che avrei potuto scansare, di gittar la fatica. Ma già ho scorto assai mende per entro alla traduzione di quel Libro, e certo non ridarolla al Pubblico senza molto avervi cangiato: da che io sono di tal tempra che niente mi va a gusto di quanto ho fatto due o tre mesi innanzi; e però molto più biasimo or la cattiva traduzione di Mosco data fuora medesimamente nello <title TEIform="title">Spettatore</title>, e fatta anzi che ponessi mano alla versione dell'Odissea, di qua ad un anno addietro, quando io non ne avea che diciassette. Volesse il cielo che a queste ritrovate opere tenesse dietro alcuna cosa buona, come al Rinaldo del Tasso, al Giustino del Metastasio, alla Cleopatra dell'Alfieri; che non par da sperare.</p>
+            <p TEIform="p">Lettor mio, dà un'occhiata alla mia traduzione, e se non ti piace, sì biastemmia il deturpatore dell'Eneide, che sel merita, e gettala via; se t'appaga, danne lode a Virgilio, la cui anima hammi ispirato, anzi ha parlato solo per bocca mia. Sta sano.</p>
+         </div1>
+      </front>
+      <body TEIform="body">
+         <div1 org="uniform" sample="complete" part="N" TEIform="div1">
+            <head TEIform="head">Libro II</head>
+            <epigraph TEIform="epigraph">
+               <l lang="lat" rend="italic" part="N" TEIform="l">
+Quantum mutatus ab illo!</l>
+               <bibl default="NO" TEIform="bibl">
+                  <author TEIform="author">Virg.</author>
+                  <title TEIform="title">En.</title> lib. II, v. 274</bibl>
+            </epigraph>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Tutti ammutiro e s'affisaro. Enea</l>
+               <l part="N" TEIform="l">Da l'alto seggio incominciava. Infando,</l>
+               <l part="N" TEIform="l">O Regina, è il dolor cui tu m'imponi</l>
+               <l part="N" TEIform="l">Ch'io rinnovelli. I' dovrò dir da' Greci</l>
+               <l part="N" TEIform="l">I teucri averi e il miserando regno</l>
+               <l part="N" TEIform="l">Come fosser diserti; io dire i casi</l>
+               <l part="N" TEIform="l">Tristissimi dovrò, cui vidi io stesso</l>
+               <l part="N" TEIform="l">E di che fui gran parte. E qual potrebbe</l>
+               <l part="N" TEIform="l">O Mirmidone o Dolope o seguace</l>
+               <l part="N" TEIform="l">Del fero Ulisse rattenere il pianto</l>
+               <l part="N" TEIform="l">Tai cose in ragionando? E già dal cielo</l>
+               <l part="N" TEIform="l">Precipita la notte umida, e gli astri</l>
+               <l part="N" TEIform="l">Vanno in cader persuadendo il sonno.</l>
+               <l part="N" TEIform="l">Ma se tanto desio nel cor ti siede</l>
+               <l part="N" TEIform="l">De l'ascoltar de' nostri casi e in breve</l>
+               <l part="N" TEIform="l">Udir di Troia l'ultima sciaura,</l>
+               <l part="N" TEIform="l">Benchè pur del pensiero io mi spaventi,</l>
+               <l part="N" TEIform="l">Comincerò. Dopo tant'anni infine</l>
+               <l part="N" TEIform="l">Del fato avverso e de la guerra stanchi</l>
+               <l part="N" TEIform="l">I duci degli Achei, con la divina</l>
+               <l part="N" TEIform="l">Arte palladia, di montagna in guisa</l>
+               <l part="N" TEIform="l">Dansi un cavallo a fabbricar, le vaste</l>
+               <l part="N" TEIform="l">Anche intessendo di segato abete,</l>
+               <l part="N" TEIform="l">E voto il fingon pel ritorno. Il grido</l>
+               <l part="N" TEIform="l">Così ragiona. Essi d'eletta gente</l>
+               <l part="N" TEIform="l">Traendo a sorte, nel secreto fianco</l>
+               <l part="N" TEIform="l">Ripongonla di furto e la caverna</l>
+               <l part="N" TEIform="l">Spaziosa del ventre empion d'armati.</l>
+               <l part="N" TEIform="l">Tenedo è incontro ad Ilio, isola ovunque</l>
+               <l part="N" TEIform="l">Nota per fama, e ricca, allor che scettro</l>
+               <l part="N" TEIform="l">Il Teucro avea, non altro ora che un seno</l>
+               <l part="N" TEIform="l">Ed a' navigli infida stanza. I Greci</l>
+               <l part="N" TEIform="l">Qua giunti, s'appiattàr ne l'ermo lido,</l>
+               <l part="N" TEIform="l">E noi partiti li credemmo e volti</l>
+               <l part="N" TEIform="l">Con opportuno vento inver Micene.</l>
+               <l part="N" TEIform="l">Onde il suo lungo duol Dardania tutta</l>
+               <l part="N" TEIform="l">Si disveste: spalancansi le porte:</l>
+               <l part="N" TEIform="l">Uscirne è grato, e de gli Achivi il campo</l>
+               <l part="N" TEIform="l">Mirare e i luoghi solitari e il lido</l>
+               <l part="N" TEIform="l">Abbandonato. I dolopi guerrieri</l>
+               <l part="N" TEIform="l">Ebbero qui lor tende; il fero Achille</l>
+               <l part="N" TEIform="l">S'accampava colà; qui fur le flotte;</l>
+               <l part="N" TEIform="l">Là pugnar si solea. Parte de' Teucri,</l>
+               <l part="N" TEIform="l">Attonita dintorno a l'infelice</l>
+               <l part="N" TEIform="l">Dono di Palla, l'inusata mole</l>
+               <l part="N" TEIform="l">Ammira del cavallo. Entro le mura</l>
+               <l part="N" TEIform="l">A trarlo esorta e ne la rocca a porlo</l>
+               <l part="N" TEIform="l">Timete il primo: o frode fosse, o il fato,</l>
+               <l part="N" TEIform="l">Che d'Ilio il mal già fermo avea. Ma Capi,</l>
+               <l part="N" TEIform="l">E chi meglio avvisava, il malsicuro</l>
+               <l part="N" TEIform="l">Dono de' Greci insidioso, in mare</l>
+               <l part="N" TEIform="l">Volea che si gittasse, o con sopposte</l>
+               <l part="N" TEIform="l">Fiamme s'ardesse, o le caverne occulte</l>
+               <l part="N" TEIform="l">Ad esplorar, se gli forasse il fianco.</l>
+               <l part="N" TEIform="l">Smembrasi in parti opposte il volgo incerto.</l>
+               <l part="N" TEIform="l">Innanzi a tutti allor con grande stuolo</l>
+               <l part="N" TEIform="l">Laocoonte da la somma rocca</l>
+               <l part="N" TEIform="l">Impetuoso scende, e pur da lungi</l>
+               <l part="N" TEIform="l">«O cittadini, o sventurati», esclama,</l>
+               <l part="N" TEIform="l">«Deh, qual demenza mai! Partiti i Greci</l>
+               <l part="N" TEIform="l">Dunque credete, e che non rechi inganno</l>
+               <l part="N" TEIform="l">Dono d'Achei? Così v'è noto Ulisse?</l>
+               <l part="N" TEIform="l">O questo legno alcun de' Greci occulta</l>
+               <l part="N" TEIform="l">Colà dentro appiattato; o ch'egli è questo</l>
+               <l part="N" TEIform="l">Un arnese di guerra a' danni eretto</l>
+               <l part="N" TEIform="l">De la cittade, ad esplorar le case</l>
+               <l part="N" TEIform="l">Così forse da l'alto, o forse il muro</l>
+               <l part="N" TEIform="l">Ad assalir di sopra; o certo alcuna</l>
+               <l part="N" TEIform="l">Frode v'ha loco. O cittadini, or sia</l>
+               <l part="N" TEIform="l">Quel ch'esser può, qui non aggiate fede:</l>
+               <l part="N" TEIform="l">Temo gli Achei, se recan doni ancora».</l>
+               <l part="N" TEIform="l">Ciò detto, al fianco del cavallo, in parte</l>
+               <l part="N" TEIform="l">Ove aggiunte de l'alvo eran due travi,</l>
+               <l part="N" TEIform="l">Con poderoso impulso una gagliarda</l>
+               <l part="N" TEIform="l">Asta avventò. L'asta tremando stette,</l>
+               <l part="N" TEIform="l">E rimbombàr de l'utero a la scossa</l>
+               <l part="N" TEIform="l">Le grotte cupe, e un gemito mandaro.</l>
+               <l part="N" TEIform="l">E se i destini avversi e dissennate</l>
+               <l part="N" TEIform="l">State non fosser nostre menti, indotto</l>
+               <l part="N" TEIform="l">N'avria col ferro a lacerar le occulte</l>
+               <l part="N" TEIform="l">Argoliche caverne, e tu staresti,</l>
+               <l part="N" TEIform="l">Troia, pur anco, e tu staresti adesso,</l>
+               <l part="N" TEIform="l">Alta reggia di Priamo. Ecco intrattanto</l>
+               <l part="N" TEIform="l">Stuol di teucri pastori al rege innanzi</l>
+               <l part="N" TEIform="l">Con alte grida un giovine traea,</l>
+               <l part="N" TEIform="l">Le mani al tergo avvinte. Al venir loro</l>
+               <l part="N" TEIform="l">Spontaneamente e' s'era fatto incontro</l>
+               <l part="N" TEIform="l">Non conosciuto, onde afforzar l'inganno</l>
+               <l part="N" TEIform="l">Ed Ilio a' Greci aprir, securo e pronto</l>
+               <l part="N" TEIform="l">Di core, e fermo o di compir la frode,</l>
+               <l part="N" TEIform="l">O di recarsi a certa morte. Intorno</l>
+               <l part="N" TEIform="l">Al prigionier la gioventù troiana</l>
+               <l part="N" TEIform="l">D'ogni banda precipita, bramosa</l>
+               <l part="N" TEIform="l">Di riguardarlo, e lo schernisce a gara.</l>
+               <l part="N" TEIform="l">Or de' Greci le insidie ascolta, e tutti</l>
+               <l part="N" TEIform="l">Da un sol misfatto li conosci. Inerme,</l>
+               <l part="N" TEIform="l">Turbato, in mezzo de le frigie schiere</l>
+               <l part="N" TEIform="l">Com'ei si fu fermato, e gli occhi in giro</l>
+               <l part="N" TEIform="l">Vòlti, a l'intorno l'ebbe rimirate,</l>
+               <l part="N" TEIform="l">«Ahi qual terra», esclamò, «qual mare accòrre,</l>
+               <l part="N" TEIform="l">Lasso! mi puote omai? Che più mi resta?</l>
+               <l part="N" TEIform="l">Se non ho luogo tra gli Achivi, e il sangue</l>
+               <l part="N" TEIform="l">Chiedonmi avversi in pena i Teucri ancora?».</l>
+               <l part="N" TEIform="l">Cangiò gli spirti e ogn'impeto represse</l>
+               <l part="N" TEIform="l">Quel gemer ne' Troiani. A ragionarne</l>
+               <l part="N" TEIform="l">Il confortiam di qual prosapia nato</l>
+               <l part="N" TEIform="l">Ei sia, che rechi, e prigionier che speri.</l>
+               <l part="N" TEIform="l">Così, deposta alfin la tema, ei parla:</l>
+               <l part="N" TEIform="l">«Il tutto, o rege, e il vero, e sia che puote,</l>
+               <l part="N" TEIform="l">Confesserò. Non negherommi in prima</l>
+               <l part="N" TEIform="l">Nato d'argivo genitor: non fia,</l>
+               <l part="N" TEIform="l">Se misero mi fe', che vano ancora</l>
+               <l part="N" TEIform="l">La iniqua sorte, e menzogner mi faccia.</l>
+               <l part="N" TEIform="l">Se udito mai</l>
+               <l part="N" TEIform="l">Abbi tra il ragionar di Palamede</l>
+               <l part="N" TEIform="l">Che dal sangue di Belo origin ebbe,</l>
+               <l part="N" TEIform="l">Il nome a sorte e la gloriosa fama,</l>
+               <l part="N" TEIform="l">Conto non m'è. Di tradigione apposta</l>
+               <l part="N" TEIform="l">Con accusa nefanda il trucidaro</l>
+               <l part="N" TEIform="l">Innocente gli Achei, perchè stornarli</l>
+               <l part="N" TEIform="l">Volea da guerra: il piangon morto adesso.</l>
+               <l part="N" TEIform="l">Socio a questi e parente, a l'armi il mio</l>
+               <l part="N" TEIform="l">Povero genitor da' miei prim'anni</l>
+               <l part="N" TEIform="l">Qua m'inviò. Finchè regnando illeso</l>
+               <l part="N" TEIform="l">Visse e de' re fiorio ne' parlamenti,</l>
+               <l part="N" TEIform="l">Di fama alquanto e d'onoranza anch'io</l>
+               <l part="N" TEIform="l">M'ebbi: ma poi che per livor del blando</l>
+               <l part="N" TEIform="l">Ingannatore Ulisse (ignote cose</l>
+               <l part="N" TEIform="l">Io non favello) e' fu disceso a Pluto,</l>
+               <l part="N" TEIform="l">Mesto traea fra il pianto i giorni oscuri,</l>
+               <l part="N" TEIform="l">E meco gia de l'innocente amico</l>
+               <l part="N" TEIform="l">La sciagura sdegnando. E già non seppi</l>
+               <l part="N" TEIform="l">Tacer, folle ch'i' fui: ma se da sorte</l>
+               <l part="N" TEIform="l">Stato fossi mai tratto, e vincitore</l>
+               <l part="N" TEIform="l">Tornato fossi a la mia patria in Argo,</l>
+               <l part="N" TEIform="l">Vendicarlo promisi, aspri movendo</l>
+               <l part="N" TEIform="l">Odi co' detti miei. Quindi la prima</l>
+               <l part="N" TEIform="l">Origin di mio mal; di quindi innanzi</l>
+               <l part="N" TEIform="l">Fu sempre Ulisse ad atterrirmi inteso</l>
+               <l part="N" TEIform="l">Con calunnie novelle, e ambigue voci</l>
+               <l part="N" TEIform="l">A seminar nel volgo, e in danno mio</l>
+               <l part="N" TEIform="l">Armi a cercar di suo misfatto accorto.</l>
+               <l part="N" TEIform="l">Nè mai ristette, in fin che di Calcante</l>
+               <l part="N" TEIform="l">A ministro valendosi... Ma queste</l>
+               <l part="N" TEIform="l">Spiacevoli novelle a che rimesco?</l>
+               <l part="N" TEIform="l">A che trappongo indugi? I Greci tutti</l>
+               <l part="N" TEIform="l">In un sol conto avete: udir vi basta</l>
+               <l part="N" TEIform="l">Che Greco io son: già mi punite: il brama</l>
+               <l part="N" TEIform="l">Ulisse, e molto il pagherian gli Atridi».</l>
+               <l part="N" TEIform="l">Impazienti allor, di sue sciagure</l>
+               <l part="N" TEIform="l">Il dimandiamo, il provochiam, di tanta</l>
+               <l part="N" TEIform="l">Malvagità, de l'arte greca ignari.</l>
+               <l part="N" TEIform="l">Con finto cor, pavido ei segue e dice:</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">«Spesso fuggir nascosamente e porre</l>
+               <l part="N" TEIform="l">Troia, partendo, in abbandono, i Greci,</l>
+               <l part="N" TEIform="l">Stanchi dal lungo guerreggiar, bramaro.</l>
+               <l part="N" TEIform="l">Ed oh fatto l'avessero! Li tenne</l>
+               <l part="N" TEIform="l">Spesso marina torbida procella,</l>
+               <l part="N" TEIform="l">Spesso Libeccio a dipartirsi accinti</l>
+               <l part="N" TEIform="l">Impaurogli, ed allor più che questo</l>
+               <l part="N" TEIform="l">Caval di legno stava già, tonaro</l>
+               <l part="N" TEIform="l">Per l'aria tutta i nembi. Incerti allora</l>
+               <l part="N" TEIform="l">A interrogar l'oracolo di Febo</l>
+               <l part="N" TEIform="l">Euripilo mandiam. Questi da' sacri</l>
+               <l part="N" TEIform="l">Penetrali ei riporta acerbi detti:</l>
+               <l part="N" TEIform="l">«Con sangue, o Greci, allor che giste, i venti</l>
+               <l part="N" TEIform="l">E con uccisa vergine placaste.</l>
+               <l part="N" TEIform="l">Sangue vuolsi al ritorno, e argiva un'alma</l>
+               <l part="N" TEIform="l">In sacrificio». E' fur del volgo appena</l>
+               <l part="N" TEIform="l">Giunti a gli orecchi, istupidìr gli spirti,</l>
+               <l part="N" TEIform="l">Ed agghiacciato un tremito per l'ime</l>
+               <l part="N" TEIform="l">Ossa a tutti discorse, a quale appresti</l>
+               <l part="N" TEIform="l">Morte il destin, qual chiegga Febo ignari.</l>
+               <l part="N" TEIform="l">Qui tragge Ulisse de gli Achivi in mezzo</l>
+               <l part="N" TEIform="l">Con gran tumulto l'indovin Calcante:</l>
+               <l part="N" TEIform="l">E qual disegni a dichiarir l'esorta</l>
+               <l part="N" TEIform="l">Il comando de' Numi. E a me la fera</l>
+               <l part="N" TEIform="l">Trama de l'empio autor venian già molti</l>
+               <l part="N" TEIform="l">Prenunziando, chetamente accorti</l>
+               <l part="N" TEIform="l">Di quel ch'esser dovea. Dieci dì chiuso</l>
+               <l part="N" TEIform="l">Tace Calcante, e con suo detto alcuno</l>
+               <l part="N" TEIform="l">Di scoprir nega e di dannare a morte:</l>
+               <l part="N" TEIform="l">Infin che poi da l'alte grida spinto</l>
+               <l part="N" TEIform="l">De l'Itacese, in pattovita foggia</l>
+               <l part="N" TEIform="l">Rompe il silenzio, e me destina a l'ara.</l>
+               <l part="N" TEIform="l">Fen plauso tutti, e consentìr che vòlto</l>
+               <l part="N" TEIform="l">Quel che temea per se ciascuno, al fato</l>
+               <l part="N" TEIform="l">Fosse d'un sol meschino. E già l'infando</l>
+               <l part="N" TEIform="l">Giorno era presso: a me le sacre cose</l>
+               <l part="N" TEIform="l">Apparecchiarsi e il salso farro, e il capo</l>
+               <l part="N" TEIform="l">Redimirsi di bende. I lacci io ruppi,</l>
+               <l part="N" TEIform="l">Nol niego, e a morte mi sottrassi. Occulto</l>
+               <l part="N" TEIform="l">Entro fangoso stagno in mezzo a l'ulva</l>
+               <l part="N" TEIform="l">Passai la notte, e che le vele al vento</l>
+               <l part="N" TEIform="l">Dessero i Greci, attesi, ove pur date</l>
+               <l part="N" TEIform="l">Le avesser mai. Nè già la patria antica</l>
+               <l part="N" TEIform="l">Speranza ho più di riveder, nè i dolci</l>
+               <l part="N" TEIform="l">Figliuoli miei, nè il desiato padre:</l>
+               <l part="N" TEIform="l">In chi del mio fuggir forse vendetta</l>
+               <l part="N" TEIform="l">I Pelasghi faranno e con la morte</l>
+               <l part="N" TEIform="l">De' miserelli espieran mia colpa.</l>
+               <l part="N" TEIform="l">Or te per li Celesti, or te scongiuro</l>
+               <l part="N" TEIform="l">Pe' Dei cui noto è che verace io dissi,</l>
+               <l part="N" TEIform="l">Per la incorrotta fede, ove a' mortali</l>
+               <l part="N" TEIform="l">Punto ancor ne rimanga; abbi di tante</l>
+               <l part="N" TEIform="l">Mie sciagure pietà, pietà d'un'alma</l>
+               <l part="N" TEIform="l">Senza merto infelice». A questo pianto</l>
+               <l part="N" TEIform="l">Doniam sua vita, e di per noi pietosi</l>
+               <l part="N" TEIform="l">Veniamo in lui. Che le manette e l'arte</l>
+               <l part="N" TEIform="l">Catene gli sien tolte il rege istesso</l>
+               <l part="N" TEIform="l">Primiero impone, e con amici detti</l>
+               <l part="N" TEIform="l">Sì lui favella: «I tuoi perduti Greci,</l>
+               <l part="N" TEIform="l">Chi che sii tu, da questo punto obblia:</l>
+               <l part="N" TEIform="l">Nostro sarai: Veracemente or narra</l>
+               <l part="N" TEIform="l">Quel ch'i' ti chieggio. A che tal mole han posta</l>
+               <l part="N" TEIform="l">Di smodato cavallo? Autor de l'opra,</l>
+               <l part="N" TEIform="l">Scopo qual fu? Qual sacra cosa, o quale</l>
+               <l part="N" TEIform="l">Di guerra arnese è questo?». E' detto aveva:</l>
+               <l part="N" TEIform="l">E quei, di frodi e d'arte greca istrutto,</l>
+               <l part="N" TEIform="l">Le disferrate mani al cielo ergendo,</l>
+               <l part="N" TEIform="l">«Voi», disse, «o fochi sempiterni, e il vostro</l>
+               <l part="N" TEIform="l">Inviolabil nume, e voi n'attesto,</l>
+               <l part="N" TEIform="l">Are, e voi, ch'i' fuggii, nefande scuri,</l>
+               <l part="N" TEIform="l">E voi, divine fasce, ond'ebbi cinto</l>
+               <l part="N" TEIform="l">Vittima il capo; odiar gli Achei mi lice,</l>
+               <l part="N" TEIform="l">Frangerne i sacri giuri, e al cielo esporre</l>
+               <l part="N" TEIform="l">Tutto c'han di nascoso: or me non stringe</l>
+               <l part="N" TEIform="l">Legge di patria più. Sol ch'attenghiate,</l>
+               <l part="N" TEIform="l">S'io narro il ver, se gran mercè vi rendo,</l>
+               <l part="N" TEIform="l">Vostra promessa, o Teucri, e che servati</l>
+               <l part="N" TEIform="l">La fè serviate. Ogni speranza achea</l>
+               <l part="N" TEIform="l">Del fausto de la guerra esito ognora</l>
+               <l part="N" TEIform="l">Ne l'aita di Pallade fu posta.</l>
+               <l part="N" TEIform="l">Ma poi che l'empio Diomede e Ulisse</l>
+               <l part="N" TEIform="l">L'inventor di nefande opre fur osi</l>
+               <l part="N" TEIform="l">Il Palladio fatal dal sacro tempio</l>
+               <l part="N" TEIform="l">Strappare, uccisi de la somma rocca</l>
+               <l part="N" TEIform="l">I custodi, e afferràr la santa imago,</l>
+               <l part="N" TEIform="l">E con le mani insanguinate ardiro</l>
+               <l part="N" TEIform="l">Toccar del Nume le verginee bende;</l>
+               <l part="N" TEIform="l">Caduta e volta da quel giorno, indietro</l>
+               <l part="N" TEIform="l">Scorse de' Greci la speranza, frale</l>
+               <l part="N" TEIform="l">Venne il poter, la Dea nemica. E chiari</l>
+               <l part="N" TEIform="l">Prodigi in segno ella ne diè. Nel campo</l>
+               <l part="N" TEIform="l">Locossi appena il simulacro, usciro</l>
+               <l part="N" TEIform="l">Da' torvamente spalancati lumi</l>
+               <l part="N" TEIform="l">Folgoreggianti fiamme, e per le membra</l>
+               <l part="N" TEIform="l">Salso sudor discorse: ella dal suolo</l>
+               <l part="N" TEIform="l">Balzò tre volte (maraviglia!) armata</l>
+               <l part="N" TEIform="l">De la tremula lancia e de lo scudo.</l>
+               <l part="N" TEIform="l">Tosto grida Calcante, esser la fuga</l>
+               <l part="N" TEIform="l">Da tentar sopra l'onde, e non potersi</l>
+               <l part="N" TEIform="l">Spezzar da' brandi Achei l'iliache mura,</l>
+               <l part="N" TEIform="l">S'a ricercar novelli auspici in Argo</l>
+               <l part="N" TEIform="l">Non si rivada, e qua la diva imago,</l>
+               <l part="N" TEIform="l">Cui su' concavi legni han seco addotto,</l>
+               <l part="N" TEIform="l">Poi si ritorni. E spinti ora dal vento</l>
+               <l part="N" TEIform="l">A la patria Micene, apprestan armi</l>
+               <l part="N" TEIform="l">E Dei compagni, e rivarcato il mare,</l>
+               <l part="N" TEIform="l">Qui saran d'improvviso: espon Calcante</l>
+               <l part="N" TEIform="l">Così gli auguri. Or questa imago han posta</l>
+               <l part="N" TEIform="l">Al nume offeso, e del Palladio in vece,</l>
+               <l part="N" TEIform="l">Per divino consiglio, onde il funesto</l>
+               <l part="N" TEIform="l">Sacrilegio espiar. Ma che la mole</l>
+               <l part="N" TEIform="l">Immensa fosse, e con inteste travi</l>
+               <l part="N" TEIform="l">S'ergesse al ciel, ne comandò Calcante,</l>
+               <l part="N" TEIform="l">Perchè raccoglier ne le porte, e dentro</l>
+               <l part="N" TEIform="l">Le mura trar la non si possa, immune</l>
+               <l part="N" TEIform="l">Sotto di sua religione antica,</l>
+               <l part="N" TEIform="l">Vostra gente a servar. Se violato</l>
+               <l part="N" TEIform="l">Fosse da vostra man questo a Minerva</l>
+               <l part="N" TEIform="l">Sacrato dono, ei predicea che orrendo</l>
+               <l part="N" TEIform="l">Sterminio allora (il quale augurio i Numi</l>
+               <l part="N" TEIform="l">Prima volgano in lui) su i Frigi e il vostro</l>
+               <l part="N" TEIform="l">Regno verria. Ma se salito in Ilio</l>
+               <l part="N" TEIform="l">Fosse per vostra man, con guerra immensa</l>
+               <l part="N" TEIform="l">Di Pelope a le mura Asia verrebbe</l>
+               <l part="N" TEIform="l">Di per se stessa; e che tal fato attenda</l>
+               <l part="N" TEIform="l">Nostri nipoti e' vuol». Tai frodi e l'arte</l>
+               <l part="N" TEIform="l">Di Sinone spergiuro a dar ne mosse</l>
+               <l part="N" TEIform="l">Fede al suo dir: presi da inganno e stretti</l>
+               <l part="N" TEIform="l">Di pianti noi, cui non domàr Tidide,</l>
+               <l part="N" TEIform="l">Non Achille e dieci anni e mille navi.</l>
+               <l part="N" TEIform="l">In questa, a noi meschini incontra e turba</l>
+               <l part="N" TEIform="l">L'alme improvviso altro maggiore e molto</l>
+               <l part="N" TEIform="l">Più terribile evento. A sorte eletto</l>
+               <l part="N" TEIform="l">Sacerdote a Nettun, Laocoonte</l>
+               <l part="N" TEIform="l">Innanzi a l'are con solenne pompa</l>
+               <l part="N" TEIform="l">Un gran toro svenava. Ecco due draghi</l>
+               <l part="N" TEIform="l">(Accapriccio in ridirlo) da Tenedo</l>
+               <l part="N" TEIform="l">Gettansi in mare, e immensi orbi traendo</l>
+               <l part="N" TEIform="l">Per la queta marina, inver la riva</l>
+               <l part="N" TEIform="l">S'avventano del par. Con gli erti petti</l>
+               <l part="N" TEIform="l">E le sanguigne creste sovrastanno</l>
+               <l part="N" TEIform="l">Ai flutti; e l'altra parte si trascina</l>
+               <l part="N" TEIform="l">Radendo l'acqua, e si contorce, in spire</l>
+               <l part="N" TEIform="l">Gli smisurati dorsi ripiegando.</l>
+               <l part="N" TEIform="l">Strepito sorge, spuma il mare: e' sono</l>
+               <l part="N" TEIform="l">Sul lido già, di foco e sangue infetti</l>
+               <l part="N" TEIform="l">Le roventi pupille, e con le lingue</l>
+               <l part="N" TEIform="l">Vibrate lambon le fischianti bocche.</l>
+               <l part="N" TEIform="l">Smorti fuggiamo a quella vista. I serpi</l>
+               <l part="N" TEIform="l">Ambo van dritto a Laocoonte: e i due</l>
+               <l part="N" TEIform="l">Teneri figli avviticchiati e stretti,</l>
+               <l part="N" TEIform="l">Pascono in pria le miserande membra</l>
+               <l part="N" TEIform="l">Co' morsi: e poscia assalgon lui che teli</l>
+               <l part="N" TEIform="l">Recava, accorso in lor difesa, e d'ampie</l>
+               <l part="N" TEIform="l">Spire il van ricingendo: e già due volte</l>
+               <l part="N" TEIform="l">A mezzo il corpo hanlo aggirato, e due</l>
+               <l part="N" TEIform="l">Intorno al collo le squamose terga</l>
+               <l part="N" TEIform="l">Hangli ravvolto, e sovrastangli al capo</l>
+               <l part="N" TEIform="l">Co' capi loro e gli erti colli. E' brutto</l>
+               <l part="N" TEIform="l">Di tabe e di veneno atro le bende,</l>
+               <l part="N" TEIform="l">A un tempo con le mani sgruppar tenta</l>
+               <l part="N" TEIform="l">I nodi, e orrendi al cielo ululi innalza:</l>
+               <l part="N" TEIform="l">Quai dà muggiti il toro allor che fugge</l>
+               <l part="N" TEIform="l">Piagato l'ara, e s'ha dal collo scossa</l>
+               <l part="N" TEIform="l">La mal certa bipenne. I draghi al sommo</l>
+               <l part="N" TEIform="l">Tempio de la terribile Minerva</l>
+               <l part="N" TEIform="l">Rifuggiti strisciando, ed a la rocca,</l>
+               <l part="N" TEIform="l">Sotto i piè de la Diva, e dietro a l'orbe</l>
+               <l part="N" TEIform="l">S'appiattan de lo scudo. Allor discorre</l>
+               <l part="N" TEIform="l">A tutti noi pe' palpitanti seni</l>
+               <l part="N" TEIform="l">Nuovo terror. La pena al merto uguale</l>
+               <l part="N" TEIform="l">Esser di Laocoonte; il sacro legno</l>
+               <l part="N" TEIform="l">Violato aver lui quando a la pancia</l>
+               <l part="N" TEIform="l">La scellerata cuspide avventogli;</l>
+               <l part="N" TEIform="l">Volersi in Ilio il simulacro addurre</l>
+               <l part="N" TEIform="l">E supplicar la Dea. Partiam le mura,</l>
+               <l part="N" TEIform="l">Spalanchiam la città: s'accinge a l'opra</l>
+               <l part="N" TEIform="l">Il popol tutto, e ruote a' piedi, e funi</l>
+               <l part="N" TEIform="l">Al collo adatta. A la città, d'armati</l>
+               <l part="N" TEIform="l">Pregna ascendea la fatal mole. Intorno</l>
+               <l part="N" TEIform="l">Fanciulli e verginette inni cantando,</l>
+               <l part="N" TEIform="l">A la fune la man porgono a gara.</l>
+               <l part="N" TEIform="l">Entra il cavallo, e minaccioso in mezzo</l>
+               <l part="N" TEIform="l">A la città trascorre. O patria mia,</l>
+               <l part="N" TEIform="l">Troia, di Numi albergo! o troiche mura</l>
+               <l part="N" TEIform="l">Famose in armi! In su la soglia istessa</l>
+               <l part="N" TEIform="l">Quattro volte intoppò, quattro del ventre</l>
+               <l part="N" TEIform="l">Uscì suon d'armi. E forsennati e ciechi</l>
+               <l part="N" TEIform="l">E furibondi persistiamo, e il fero</l>
+               <l part="N" TEIform="l">Mostro lochiam su la sacrata rocca.</l>
+               <l part="N" TEIform="l">Allor, volente il Dio, Cassandra il labbro</l>
+               <l part="N" TEIform="l">Non mai creduta apre al futuro: e noi</l>
+               <l part="N" TEIform="l">(Miseri cui quel giorno ultimo fora)</l>
+               <l part="N" TEIform="l">Veliam per la città con festa fronde</l>
+               <l part="N" TEIform="l">I sacri templi. Il ciel si cangia intanto,</l>
+               <l part="N" TEIform="l">E su dal mar precipita la notte,</l>
+               <l part="N" TEIform="l">In grande ombra avvolgendo e terra e polo</l>
+               <l part="N" TEIform="l">E i frodamenti Achei. Tacquero i Teucri</l>
+               <l part="N" TEIform="l">Per le lor case sparti: occupa il sonno</l>
+               <l part="N" TEIform="l">Le stanche membra. E su gli armati legni</l>
+               <l part="N" TEIform="l">Le squadre achee da Tenedo a l'amico</l>
+               <l part="N" TEIform="l">Silenzio mosse de la cheta luna,</l>
+               <l part="N" TEIform="l">Già poi che fiamme alzò la regia prora,</l>
+               <l part="N" TEIform="l">Veniano a noti lidi; e da gli avversi</l>
+               <l part="N" TEIform="l">Fati Sinon protetto ai chiusi Achivi</l>
+               <l part="N" TEIform="l">Del ventre ascosamente i pinei chiostri</l>
+               <l part="N" TEIform="l">Disserra. Disserrata a l'aria i Greci</l>
+               <l part="N" TEIform="l">Rende la Fera. Da la cava mole</l>
+               <l part="N" TEIform="l">Discendon lieti per sospesa fune</l>
+               <l part="N" TEIform="l">Macaone il primier, Toante, il diro</l>
+               <l part="N" TEIform="l">Ulisse, Menelao, d'Achille il germe</l>
+               <l part="N" TEIform="l">Neottolemo, e Stenelo e Tessandro</l>
+               <l part="N" TEIform="l">I duci, ed Acamante e del doloso</l>
+               <l part="N" TEIform="l">Cavallo ei pur l'architettore Epeo.</l>
+               <l part="N" TEIform="l">Invadon la città nel vin sepolta</l>
+               <l part="N" TEIform="l">E nel sopor: cadon le vegghie: i soci</l>
+               <l part="N" TEIform="l">Son per le porte spalancate accolti</l>
+               <l part="N" TEIform="l">Tutti, e le conscie lor caterve aggiunte.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Era il tempo che a' miseri mortali</l>
+               <l part="N" TEIform="l">Comincia il primo sonno e per le membra</l>
+               <l part="N" TEIform="l">Don celeste gratissimo serpeggia,</l>
+               <l part="N" TEIform="l">Quando nel sonno a gli occhi miei presente</l>
+               <l part="N" TEIform="l">Il mestissimo Ettorre esser mi parve,</l>
+               <l part="N" TEIform="l">Sparso di largo pianto, strascinato,</l>
+               <l part="N" TEIform="l">Qual già, dal cocchio, di sanguigna polve</l>
+               <l part="N" TEIform="l">Lordo, e passato i gonfi piè da funi.</l>
+               <l part="N" TEIform="l">Qual era ahimè, quanto da quel diverso</l>
+               <l part="N" TEIform="l">Ettor che a noi de le peliache spoglie</l>
+               <l part="N" TEIform="l">Tornò vestito, o poi che frigie fiamme</l>
+               <l part="N" TEIform="l">Scagliò su i greci legni! Era per sangue</l>
+               <l part="N" TEIform="l">Rappreso il crine, squallida la barba;</l>
+               <l part="N" TEIform="l">E' le infinite avea piaghe che intorno</l>
+               <l part="N" TEIform="l">Al patrio muro riportò. Sembrommi</l>
+               <l part="N" TEIform="l">Che primier gli parlassi, e lagrimando</l>
+               <l part="N" TEIform="l">Sì gli dicessi in mesti accenti: «O luce</l>
+               <l part="N" TEIform="l">Di Teucria, Ettor bramato, o de' Troiani</l>
+               <l part="N" TEIform="l">Fidissima speranza, e che ti strinse</l>
+               <l part="N" TEIform="l">A indugiar tanto? E da qual piaggia riedi?</l>
+               <l part="N" TEIform="l">Oh qual, fievoli ahimè, dopo cotanta</l>
+               <l part="N" TEIform="l">Strage de' tuoi, dopo sì varie pene</l>
+               <l part="N" TEIform="l">De' Teucri, d'Ilio, riveggiamti! E quale</l>
+               <l part="N" TEIform="l">Cagione indegna la serena faccia</l>
+               <l part="N" TEIform="l">Ti difformò? Perchè tai pieghe io scerno?».</l>
+               <l part="N" TEIform="l">Ei, nulla a ciò, nè di mie vane inchieste</l>
+               <l part="N" TEIform="l">Cura, ma grave dal profondo petto</l>
+               <l part="N" TEIform="l">Sospirando: «Ahi», dicea, «fuggi, t'invola,</l>
+               <l part="N" TEIform="l">Figlio di Cipri, a queste fiamme. In forza</l>
+               <l part="N" TEIform="l">De' Greci è il muro: da la somma cima</l>
+               <l part="N" TEIform="l">Ilio a terra precipita. Pugnato</l>
+               <l part="N" TEIform="l">S'è per la patria e per lo rege assai.</l>
+               <l part="N" TEIform="l">Se Pergamo campar destra potesse,</l>
+               <l part="N" TEIform="l">Questa l'avria campato. A te le sacre</l>
+               <l part="N" TEIform="l">Sue cose ed i Penati Ilio accomanda:</l>
+               <l part="N" TEIform="l">Questi in consorti adduci, e loro in traccia</l>
+               <l part="N" TEIform="l">Va di nuova città, cui dopo lungo</l>
+               <l part="N" TEIform="l">Errar pe' mari, al fine alta porrai».</l>
+               <l part="N" TEIform="l">Disse, e tratte le bende e il simulacro</l>
+               <l part="N" TEIform="l">De la possente Vesta, e il foco eterno</l>
+               <l part="N" TEIform="l">Da' penetrali, a me li fida. Intanto</l>
+               <l part="N" TEIform="l">Confuso lutto la città mescea;</l>
+               <l part="N" TEIform="l">E tuttochè rimoto luogo, ombrata</l>
+               <l part="N" TEIform="l">D'arbori, tenga la magion d'Anchise</l>
+               <l part="N" TEIform="l">Il genitor, più sempre e più distinto</l>
+               <l part="N" TEIform="l">Viene il frastuono, e inverso noi s'avventa</l>
+               <l part="N" TEIform="l">L'orror de l'armi. Io desto balzo: ascendo</l>
+               <l part="N" TEIform="l">Del tetto al sommo, e a tesi orecchi sto:</l>
+               <l part="N" TEIform="l">Come se in messe al furiar de' Noti</l>
+               <l part="N" TEIform="l">Fiamma è sospinta, o rapido torrente</l>
+               <l part="N" TEIform="l">Trabocca giù d'una montagna, e i campi</l>
+               <l part="N" TEIform="l">Diserta e i colti prosperosi, e l'opre</l>
+               <l part="N" TEIform="l">De' buoi devasta, e traggesi le selve</l>
+               <l part="N" TEIform="l">Precipitanti; del fragor l'ignaro</l>
+               <l part="N" TEIform="l">Pastor s'ammira d'erto sasso in cima.</l>
+               <l part="N" TEIform="l">Allor la greca fè, gli orditi inganni</l>
+               <l part="N" TEIform="l">Conosco. Incensa ruinò già l'ampia</l>
+               <l part="N" TEIform="l">Magion di Deifobo, arde il vicino</l>
+               <l part="N" TEIform="l">Ugalegonte, al fiammeggiar de' tetti</l>
+               <l part="N" TEIform="l">Riluce la sigea vasta marina:</l>
+               <l part="N" TEIform="l">S'odon genti ululare, e streper tube.</l>
+               <l part="N" TEIform="l">L'armi insensato afferro, e che da l'armi</l>
+               <l part="N" TEIform="l">Speri, non so, ma di pugnar commisto</l>
+               <l part="N" TEIform="l">A' combattenti, e di scagliarmi insieme</l>
+               <l part="N" TEIform="l">Co' soci su la rocca, ardo: la mente</l>
+               <l part="N" TEIform="l">Ira, furor precipita: sovviemmi</l>
+               <l part="N" TEIform="l">La bella morte che fra l'armi occorre.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Ecco da' teli achei scampato io veggio</l>
+               <l part="N" TEIform="l">Panto, l'Otriade Panto, il sacerdote</l>
+               <l part="N" TEIform="l">De la rocca e di Febo, in man recando</l>
+               <l part="N" TEIform="l">I sacri arredi e i vinti Dei, trar seco</l>
+               <l part="N" TEIform="l">Il tenero nipote, e forsennato</l>
+               <l part="N" TEIform="l">Correre al lido. «Che di Troia accade,</l>
+               <l part="N" TEIform="l">Panto? A qual rocca andiam?». Taciuto ho appena,</l>
+               <l part="N" TEIform="l">Che sclama egli gemendo: «A Teucria è giunto</l>
+               <l part="N" TEIform="l">L'estremo dì, l'inevitabil tempo.</l>
+               <l part="N" TEIform="l">Fu Troia, fummo noi Troiani e il grande</l>
+               <l part="N" TEIform="l">Onor del troico nome. Ad Argo il tutto</l>
+               <l part="N" TEIform="l">Giove crudele ha trasferito: in preda</l>
+               <l part="N" TEIform="l">È de gli Achivi Ilio ch'avvampa. Stassi</l>
+               <l part="N" TEIform="l">La Fera immane a la cittade in mezzo,</l>
+               <l part="N" TEIform="l">Armati traboccando: insulti e fiamme</l>
+               <l part="N" TEIform="l">Mesce Sinon vittorioso: ed altri,</l>
+               <l part="N" TEIform="l">Quanti mai n'inviò l'ampia Micene,</l>
+               <l part="N" TEIform="l">Entro le mura a spalancate porte</l>
+               <l part="N" TEIform="l">Sboccano a mille a mille: altri gli angusti</l>
+               <l part="N" TEIform="l">Aditi de le vie co' teli in pugno</l>
+               <l part="N" TEIform="l">Assediaro; sta siepe di spade</l>
+               <l part="N" TEIform="l">Ignude, folgoranti, a uccider preste;</l>
+               <l part="N" TEIform="l">Ed i presidii de le porte appena</l>
+               <l part="N" TEIform="l">Mescono i primi abbattimenti e in cieca</l>
+               <l part="N" TEIform="l">Zuffa resister tentano». Da questi</l>
+               <l part="N" TEIform="l">Detti di Panto e da gli Dei son tratto</l>
+               <l part="N" TEIform="l">Fra l'armi e il foco, ove l'infausta Erinni,</l>
+               <l part="N" TEIform="l">Ove il fremer m'appella e l'ululato</l>
+               <l part="N" TEIform="l">A gli astri spinto. A me Rifeo compagno</l>
+               <l part="N" TEIform="l">Dassi ed Epito in armi sommo. Incontro</l>
+               <l part="N" TEIform="l">Ipan, Dimante fanmisi a la luna,</l>
+               <l part="N" TEIform="l">E al fianco mi s'addensano, e Corebo</l>
+               <l part="N" TEIform="l">Migdonide, il garzon che di Cassandra</l>
+               <l part="N" TEIform="l">Arso da folle amore, a Troia giunto</l>
+               <l part="N" TEIform="l">Per sorte era in quei giorni, e a' Frigi aiuto</l>
+               <l part="N" TEIform="l">Dava e al suocero Re, miser, che vano</l>
+               <l part="N" TEIform="l">L'ammonir tenne de l'afflata sposa!</l>
+               <l part="N" TEIform="l">A questi, poi che ragunati e vaghi</l>
+               <l part="N" TEIform="l">Di combatter li vidi, incominciai</l>
+               <l part="N" TEIform="l">A favellar così: «Giovani, invano</l>
+               <l part="N" TEIform="l">Fortissim'alme, a che ridotta sia</l>
+               <l part="N" TEIform="l">Nostra sorte il vedete: ed are e templi</l>
+               <l part="N" TEIform="l">Gli Dei per chi stè questo imperio, tutti</l>
+               <l part="N" TEIform="l">Partendo abbandonàr. Se fermi in core</l>
+               <l part="N" TEIform="l">Siete di seguir me ch'a far l'estreme</l>
+               <l part="N" TEIform="l">Prove innanzi mi caccio, arsa cittade</l>
+               <l part="N" TEIform="l">A soccorrer venite: in mezzo a l'armi</l>
+               <l part="N" TEIform="l">Ruiniamo e moriam, sola che resti</l>
+               <l part="N" TEIform="l">Salute ai vinti è disperar salute».</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Così furor crebbe in lor alme: e quindi,</l>
+               <l part="N" TEIform="l">Come rapaci lupi in atra nebbia,</l>
+               <l part="N" TEIform="l">Cui di lor tane rabidi sbalzare</l>
+               <l part="N" TEIform="l">Fe' cruda fame, ed aspettando a secche</l>
+               <l part="N" TEIform="l">Fauci si stan gli abbandonati figli,</l>
+               <l part="N" TEIform="l">Andiam fra l'armi e gl'inimici a morte</l>
+               <l part="N" TEIform="l">Indubitata, e a la cittade in mezzo</l>
+               <l part="N" TEIform="l">Teniam nostro sentiero. Intorno vola</l>
+               <l part="N" TEIform="l">Con la cava ombra sua la nera notte.</l>
+               <l part="N" TEIform="l">E chi narrar la clade, o il duol, le morti</l>
+               <l part="N" TEIform="l">Di quella notte adeguar può col pianto?</l>
+               <l part="N" TEIform="l">Cade antica città che per molt'anni</l>
+               <l part="N" TEIform="l">Regnò. Spenti per vie, per case e templi,</l>
+               <l part="N" TEIform="l">Senza difesa oppor, son mille e mille</l>
+               <l part="N" TEIform="l">Corpi. Nè scorre sol de' Teucri il sangue:</l>
+               <l part="N" TEIform="l">Virtù riede talor de' vinti in petto;</l>
+               <l part="N" TEIform="l">Cadon gli Achei vittoriosi. Ovunque</l>
+               <l part="N" TEIform="l">È fero duol, terror, morte atteggiata</l>
+               <l part="N" TEIform="l">In mille forme. A noi primier con molta</l>
+               <l part="N" TEIform="l">Greca turba Androgeo s'avvien, che schiera</l>
+               <l part="N" TEIform="l">Congiurata ci crede, e amicamente,</l>
+               <l part="N" TEIform="l">«Su via datevi fretta, e che pigrezza»,</l>
+               <l part="N" TEIform="l">Dice, «è cotesta mai? Già gli altri a sacco</l>
+               <l part="N" TEIform="l">Metton l'arsa città, Troia n'è in preda;</l>
+               <l part="N" TEIform="l">Voi l'alte navi or dismontaste?». Appena</l>
+               <l part="N" TEIform="l">Di dir finito avea, che non udendo</l>
+               <l part="N" TEIform="l">Assai fide risposte, esser s'avvide</l>
+               <l part="N" TEIform="l">Tra nemici caduto. Il piè, la voce</l>
+               <l part="N" TEIform="l">Attonito ritrasse. A quella guisa</l>
+               <l part="N" TEIform="l">Ch'uom ch'a terra calcò fra gli aspri dumi</l>
+               <l part="N" TEIform="l">Angue non visto, immantinente il fugge</l>
+               <l part="N" TEIform="l">Trepido, che stizzoso alto si leva,</l>
+               <l part="N" TEIform="l">Gonfio il ceruleo collo; Androgeo i passi</l>
+               <l part="N" TEIform="l">Tal pavido torcea come s'accorse</l>
+               <l part="N" TEIform="l">De l'error suo. Piombiam ristretti in loro,</l>
+               <l part="N" TEIform="l">E sbigottiti e mal del luogo esperti</l>
+               <l part="N" TEIform="l">Ed accerchiati gli uccidiamo. Arride</l>
+               <l part="N" TEIform="l">Sorte a la prima impresa. E qui Corebo</l>
+               <l part="N" TEIform="l">Da virtù fatto e da ventura ardito,</l>
+               <l part="N" TEIform="l">«Soci», disse, «la vita ch'inver lo scampo</l>
+               <l part="N" TEIform="l">Sorte n'offre, teniam, per cui benigna</l>
+               <l part="N" TEIform="l">La ne si mostra al primo incontro. Targhe</l>
+               <l part="N" TEIform="l">Mutiam, vestiam le greche insegne; o frode</l>
+               <l part="N" TEIform="l">O virtù sia, chi nel nemico il cerca?</l>
+               <l part="N" TEIform="l">Armi avrem da gli Achei». Disse, e il chiomato</l>
+               <l part="N" TEIform="l">Elmo d'Androgeo, e la decora insegna</l>
+               <l part="N" TEIform="l">De lo scudo si veste, e al fianco adatta</l>
+               <l part="N" TEIform="l">L'argiva spada. Ciò Rifeo, Dimante,</l>
+               <l part="N" TEIform="l">Ciò lieta fa tutta la schiera; armato</l>
+               <l part="N" TEIform="l">Èssi ciascun de le recenti spoglie.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">A' Pelasgi commisti, andiam deserti</l>
+               <l part="N" TEIform="l">Da' nostri Numi, e per la cieca notte</l>
+               <l part="N" TEIform="l">Molte zuffe mesciam. Molti de' Greci</l>
+               <l part="N" TEIform="l">Mandiamo a Pluto. Altri a le navi in fuga</l>
+               <l part="N" TEIform="l">Vanno, o a la fida riva. Altri da turpe</l>
+               <l part="N" TEIform="l">Temenza presi, de la Fera immane</l>
+               <l part="N" TEIform="l">Son risaliti al noto ventre, e stansi</l>
+               <l part="N" TEIform="l">Quivi appiattati. Ahi, ripugnanti i Numi,</l>
+               <l part="N" TEIform="l">Indarno altri s'affida! Ecco Cassandra</l>
+               <l part="N" TEIform="l">La vergin Priamea da gl'inaccessi</l>
+               <l part="N" TEIform="l">Di Pallade sacrari strascinata</l>
+               <l part="N" TEIform="l">Era, sparte le chiome, e invano al cielo</l>
+               <l part="N" TEIform="l">Gli ardenti lumi sollevando, i lumi,</l>
+               <l part="N" TEIform="l">Che non potea, da vincoli distrette</l>
+               <l part="N" TEIform="l">Le delicate mani. A quella vista</l>
+               <l part="N" TEIform="l">Non si contenne, e a certo fin Corebo</l>
+               <l part="N" TEIform="l">Furibondo nel mezzo a la masnada</l>
+               <l part="N" TEIform="l">Piombò. Tutti il seguiamo, e in densa frotta</l>
+               <l part="N" TEIform="l">Ne gli Achei ci scagliam. Qui primamente</l>
+               <l part="N" TEIform="l">Da l'alta sommità del tempio i teli</l>
+               <l part="N" TEIform="l">Opprimonci de' nostri; e fan di noi</l>
+               <l part="N" TEIform="l">Misero scempio i Teucri in error tratti</l>
+               <l part="N" TEIform="l">Da l'armi greche e da' cimieri. E mossi</l>
+               <l part="N" TEIform="l">Dal gemer de' compagni e d'ira accesi</l>
+               <l part="N" TEIform="l">Per la ritolta vergine, gli Achivi,</l>
+               <l part="N" TEIform="l">Il terribile Aiace, ambo gli Atridi,</l>
+               <l part="N" TEIform="l">E d'ogni parte ragunate in noi</l>
+               <l part="N" TEIform="l">Dan tutte insiem le dolopi caterve.</l>
+               <l part="N" TEIform="l">Come in dirotto turbine talvolta</l>
+               <l part="N" TEIform="l">Pugnan contrari venti, Affrico e Noto</l>
+               <l part="N" TEIform="l">E de' cavalli mattutini altero</l>
+               <l part="N" TEIform="l">Euro; stridon le selve, Nereo volge</l>
+               <l part="N" TEIform="l">Spumoso da l'estremo fondo i flutti</l>
+               <l part="N" TEIform="l">Sozzopra e infuria col tridente. Allora</l>
+               <l part="N" TEIform="l">Quei che per l'ombra de l'oscura notte</l>
+               <l part="N" TEIform="l">Spersi incalzammo con le finte spoglie</l>
+               <l part="N" TEIform="l">Per tutta la città, riedono, e primi</l>
+               <l part="N" TEIform="l">Conoscon le mentite armi e gli scudi</l>
+               <l part="N" TEIform="l">E le non greche voci. A un tratto oppressi</l>
+               <l part="N" TEIform="l">Dal numero siam noi. Primier di Palla</l>
+               <l part="N" TEIform="l">Armipossente Peneleo prosterne</l>
+               <l part="N" TEIform="l">Corebo anzi a l'altar: cade Rifeo,</l>
+               <l part="N" TEIform="l">De' Troiani il più giusto ed il più fermo</l>
+               <l part="N" TEIform="l">Del dritto servator. N'ebbero i Numi</l>
+               <l part="N" TEIform="l">Altra sentenza. Ipan, Dimante a' dardi</l>
+               <l part="N" TEIform="l">Teucri fur segno. E te caduto, o Panto,</l>
+               <l part="N" TEIform="l">Non tua somma pietà, non la di Apollo</l>
+               <l part="N" TEIform="l">Benda coperse. In testimonio or voi,</l>
+               <l part="N" TEIform="l">Ceneri d'Ilio, e te n'appello, estrema</l>
+               <l part="N" TEIform="l">Fiamma de' miei, quando mia patria cadde,</l>
+               <l part="N" TEIform="l">Non a l'achivo acciar, non mi sottrassi</l>
+               <l part="N" TEIform="l">A nessun rischio, e s'era fermo in cielo</l>
+               <l part="N" TEIform="l">Ch'io vi morissi, il meritai con l'opra.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Quindi ci divelliam, Pelia ed Ifito</l>
+               <l part="N" TEIform="l">Con meco, e questi è d'anni grave, e tardo</l>
+               <l part="N" TEIform="l">Quel fa d'Ulisse un colpo. Incontanente</l>
+               <l part="N" TEIform="l">N'appellan gli urli al regio tetto. Or quivi,</l>
+               <l part="N" TEIform="l">Come battaglia altrove o morte alcuna</l>
+               <l part="N" TEIform="l">Per la città non fosse, orrenda pugna</l>
+               <l part="N" TEIform="l">Veggiam di Marte indomito. A la cima</l>
+               <l part="N" TEIform="l">Avventansi gli Achivi. Assedian altri</l>
+               <l part="N" TEIform="l">Con testuggin le porte. A le pareti</l>
+               <l part="N" TEIform="l">Altri appoggian le scale, e su ne vanno</l>
+               <l part="N" TEIform="l">Di grado in grado anzi a le porte istesse,</l>
+               <l part="N" TEIform="l">Con la sinistra incontro a' colpi schermo</l>
+               <l part="N" TEIform="l">De la targa facendosi, e le vette</l>
+               <l part="N" TEIform="l">Con la destra aggrappando. I Teucri e torri</l>
+               <l part="N" TEIform="l">Svellere e tetti (omai presso vedendo</l>
+               <l part="N" TEIform="l">L'ultimo fato, in lor difesa estrema</l>
+               <l part="N" TEIform="l">A queste armi han ricorso) e travi aurate</l>
+               <l part="N" TEIform="l">Giù traboccar, de' genitori antichi</l>
+               <l part="N" TEIform="l">Eccelsi fregi. Altri co' nudi acciari</l>
+               <l part="N" TEIform="l">A guardia stan de l'ime porte in densa</l>
+               <l part="N" TEIform="l">Mano ristretti. Da novello ardore</l>
+               <l part="N" TEIform="l">A soccorrer la reggia, e crescer forza</l>
+               <l part="N" TEIform="l">Ai vinti, e lena a' miei recar son mosso.</l>
+               <l part="N" TEIform="l">Era un andito oscuro ed una porta,</l>
+               <l part="N" TEIform="l">Onde insiem rispondean le regie case,</l>
+               <l part="N" TEIform="l">Abbandonata e a l'alte porte opposta;</l>
+               <l part="N" TEIform="l">Per cui solea, quando l'imperio stava,</l>
+               <l part="N" TEIform="l">La sventurata Andromaca sovente</l>
+               <l part="N" TEIform="l">Andar soletta a' suoceri, e menarne</l>
+               <l part="N" TEIform="l">Il pargoletto Astianatte a l'avo.</l>
+               <l part="N" TEIform="l">Non visto ascendo al sommo, onde i meschini</l>
+               <l part="N" TEIform="l">Grandinan vani teli. Era una torre</l>
+               <l part="N" TEIform="l">Slanciata al ciel dal sommo tetto a filo</l>
+               <l part="N" TEIform="l">Su la parete, ond'Ilio tutto e i greci</l>
+               <l part="N" TEIform="l">Legni vedeansi e il campo. A questa assalto</l>
+               <l part="N" TEIform="l">Moviam col ferro intorno, ove l'estremo</l>
+               <l part="N" TEIform="l">Tavolato più fievoli n'offria</l>
+               <l part="N" TEIform="l">Le congiunture, e da l'eccelsa parte</l>
+               <l part="N" TEIform="l">La dibarbiam, la trabocchiam. Fracassa</l>
+               <l part="N" TEIform="l">Improvviso la torre, e con ruina</l>
+               <l part="N" TEIform="l">E con frastuono e larga strage piomba</l>
+               <l part="N" TEIform="l">Sopra le greche schiere: invan, che schiere</l>
+               <l part="N" TEIform="l">Sottentran altre, e d'avventar fra tanto</l>
+               <l part="N" TEIform="l">E sassi ed armi d'ogni sorta, alcuno</l>
+               <l part="N" TEIform="l">Non si rimane. In su la prima soglia</l>
+               <l part="N" TEIform="l">Anzi a l'entrata istessa imbaldanzisce</l>
+               <l part="N" TEIform="l">Pirro di teli armato, e d'enea luce</l>
+               <l part="N" TEIform="l">Folgoreggiante. In simil guisa un angue</l>
+               <l part="N" TEIform="l">Cui tumido sotterra ascoso tenne</l>
+               <l part="N" TEIform="l">La fredda bruma, or di mal'erbe pasto,</l>
+               <l part="N" TEIform="l">Rinnovato e lucente e ingiovanito,</l>
+               <l part="N" TEIform="l">Cangiate spoglie, esce a la luce, e s'erge</l>
+               <l part="N" TEIform="l">Al sole e va suoi sdrucciolosi terghi</l>
+               <l part="N" TEIform="l">Divincolando, alzato il petto, e vibra</l>
+               <l part="N" TEIform="l">La tricuspide lingua luccicando.</l>
+               <l part="N" TEIform="l">Seco il gran Perifante, e il battaglioso</l>
+               <l part="N" TEIform="l">De' peliaci cavalli agitatore</l>
+               <l part="N" TEIform="l">Automedonte, e seco tutta al muro</l>
+               <l part="N" TEIform="l">La sciria gioventù sotto si caccia,</l>
+               <l part="N" TEIform="l">Fiamme ai tetti avventando. Egli tra' primi</l>
+               <l part="N" TEIform="l">Tolta dura bipenne, ha già la soglia</l>
+               <l part="N" TEIform="l">Spezzata, e già da' cardini le porte</l>
+               <l part="N" TEIform="l">Ferrate svelle, e già nel saldo legno</l>
+               <l part="N" TEIform="l">Dispaccato e partito ampia finestra</l>
+               <l part="N" TEIform="l">Ha spalancata. Appar la reggia interna</l>
+               <l part="N" TEIform="l">E gli atri lunghi e de' vetusti regi</l>
+               <l part="N" TEIform="l">E di Priamo le rimote stanze</l>
+               <l part="N" TEIform="l">E gli armati custodi in su la prima</l>
+               <l part="N" TEIform="l">Soglia starsi son visti. Empie fra tanto</l>
+               <l part="N" TEIform="l">Un miserabil gemere, un tumulto</l>
+               <l part="N" TEIform="l">La casa interior. Le cave stanze,</l>
+               <l part="N" TEIform="l">Ululan tutte al femminil lamento</l>
+               <l part="N" TEIform="l">Che l'auree stelle fiede. Per la vasta</l>
+               <l part="N" TEIform="l">Reggia le madri paurose errando</l>
+               <l part="N" TEIform="l">S'abbracciano, s'appigliano a le porte,</l>
+               <l part="N" TEIform="l">E su v'imprimon baci. Insiste armato</l>
+               <l part="N" TEIform="l">Del paterno valor, Pirro, nè vale</l>
+               <l part="N" TEIform="l">Riparo più, che de' custodi istessi</l>
+               <l part="N" TEIform="l">Ogni contesa è vana. Addoppia i colpi</l>
+               <l part="N" TEIform="l">L'ariete; già tentenna, già ruina</l>
+               <l part="N" TEIform="l">Sgangherata la porta. Apronsi i Greci</l>
+               <l part="N" TEIform="l">La strada a forza, sboccano, fan guasto</l>
+               <l part="N" TEIform="l">De' primi, e di guerrieri empion la reggia</l>
+               <l part="N" TEIform="l">In ogni lato. Non così quand'esce,</l>
+               <l part="N" TEIform="l">Fracassati i ripari e con la piena</l>
+               <l part="N" TEIform="l">Vinte le opposte moli, uno spumoso</l>
+               <l part="N" TEIform="l">Fiume, corre pe' campi e via con seco</l>
+               <l part="N" TEIform="l">Stalle, armenti strascina, infuriando</l>
+               <l part="N" TEIform="l">Pel gran cumulo d'acque. Io Pirro, io stesso</l>
+               <l part="N" TEIform="l">Il vidi furibondo intra lo scempio,</l>
+               <l part="N" TEIform="l">E su la soglia ambo gli Atridi, e scorsi</l>
+               <l part="N" TEIform="l">Ecuba e cento nuore; e Priamo i fochi</l>
+               <l part="N" TEIform="l">Ch'egli stesso sacrò, tinger di sangue</l>
+               <l part="N" TEIform="l">Vidi fra l'are. Caddero i cinquanta</l>
+               <l part="N" TEIform="l">Talami, di prosapia ahi quanta speme!</l>
+               <l part="N" TEIform="l">E le d'oro barbarico e di prede</l>
+               <l part="N" TEIform="l">Superbamente ornate porte: i luoghi</l>
+               <l part="N" TEIform="l">Ove fiamma non giunse, hanno gli Achivi.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Forse ch'il fato di Priamo ancora</l>
+               <l part="N" TEIform="l">Vaga d'intender sei. Poscia che presa</l>
+               <l part="N" TEIform="l">Ruinar Troia vide, e de la reggia</l>
+               <l part="N" TEIform="l">Svelte le porte, e l'inimico in mezzo</l>
+               <l part="N" TEIform="l">A le sue stanze, gli omeri tremanti</l>
+               <l part="N" TEIform="l">Per lunga etade invan grava de l'armi</l>
+               <l part="N" TEIform="l">Già da gran tempo disusate, e cinge</l>
+               <l part="N" TEIform="l">L'inutil ferro, ed a morir si reca</l>
+               <l part="N" TEIform="l">Fra il denso stuolo acheo. Fu sotto il nudo</l>
+               <l part="N" TEIform="l">Asse del cielo, a la magione in mezzo,</l>
+               <l part="N" TEIform="l">Una grand'ara, e soprastante a lei</l>
+               <l part="N" TEIform="l">Antichissimo lauro che con l'ombra</l>
+               <l part="N" TEIform="l">I Penati abbracciava. A questa insieme</l>
+               <l part="N" TEIform="l">Con sue figlie affollate Ecuba venne,</l>
+               <l part="N" TEIform="l">Come per atro turbine colombe</l>
+               <l part="N" TEIform="l">Precipitose, e con le braccia indarno</l>
+               <l part="N" TEIform="l">Ai divi simulacri avviticchiate</l>
+               <l part="N" TEIform="l">Sedevan tutte. Allor che Priamo scorse</l>
+               <l part="N" TEIform="l">Di giovenili armi coperto: «E quale»,</l>
+               <l part="N" TEIform="l">Ecuba disse, «a rivestir quest'armi,</l>
+               <l part="N" TEIform="l">Consorte infelicissimo, ti spinse</l>
+               <l part="N" TEIform="l">Crudo pensier? Non quest'aita al tempo</l>
+               <l part="N" TEIform="l">Vuolsi nè schermo tal; non s'anco il mio</l>
+               <l part="N" TEIform="l">Ettor qui fosse. Or t'avvicina. O tutti</l>
+               <l part="N" TEIform="l">Ne salverà quest'ara o insiem cadremo».</l>
+               <l part="N" TEIform="l">Disse, e il veglio a se trasse e ne la sacra</l>
+               <l part="N" TEIform="l">Sede locollo. Ecco scampato appena</l>
+               <l part="N" TEIform="l">Da la strage di Pirro, un de' suoi figli,</l>
+               <l part="N" TEIform="l">Polite, in mezzo a gl'inimici, a l'armi</l>
+               <l part="N" TEIform="l">Fugge pe' lunghi portici, e piagato</l>
+               <l part="N" TEIform="l">Trascorre gli atri spaziosi. Ardente</l>
+               <l part="N" TEIform="l">Con telo ostil Pirro l'incalza, e il preme</l>
+               <l part="N" TEIform="l">Già già con l'asta, e con la man l'afferra.</l>
+               <l part="N" TEIform="l">A gli occhi al fin de' genitori innanzi</l>
+               <l part="N" TEIform="l">Appena giunto e' fu, cadde, e la vita</l>
+               <l part="N" TEIform="l">Con gran sangue versò. Qui non si tenne,</l>
+               <l part="N" TEIform="l">Benchè cinto da morte, e non represse</l>
+               <l part="N" TEIform="l">Priamo i detti e l'ira: «A te gl'Iddii</l>
+               <l part="N" TEIform="l">Per quest'orror», gridò, «per questa prova</l>
+               <l part="N" TEIform="l">Nefanda, se pietà nel ciel s'alloga</l>
+               <l part="N" TEIform="l">Che di ciò curi, a te dien premio, e cambio</l>
+               <l part="N" TEIform="l">Rendan gl'Iddii qual ti si debbe, il fato</l>
+               <l part="N" TEIform="l">Del figliuol mio poi ch'a veder m'hai stretto,</l>
+               <l part="N" TEIform="l">E con suo scempio la paterna faccia</l>
+               <l part="N" TEIform="l">Hai funestata. Ma ben altro, Achille</l>
+               <l part="N" TEIform="l">Fu col nemico Re, quegli onde nato</l>
+               <l part="N" TEIform="l">Falso ti vanti. Ei me supplice accolse,</l>
+               <l part="N" TEIform="l">E rispettò mia fè, miei dritti, e al rogo</l>
+               <l part="N" TEIform="l">Rendè l'ettoreo corpo e rinviommi</l>
+               <l part="N" TEIform="l">A la mia reggia». Imbelle dardo in questa</l>
+               <l part="N" TEIform="l">Senz'impeto gittò, che risospinto</l>
+               <l part="N" TEIform="l">Dal roco bronzo immantinente, appeso</l>
+               <l part="N" TEIform="l">Invan restò del sommo scudo al mezzo.</l>
+               <l part="N" TEIform="l">Cui Pirro: «E questo al genitor Pelide</l>
+               <l part="N" TEIform="l">Messaggio apporterai: sporgli mie colpe</l>
+               <l part="N" TEIform="l">Serbati a mente e il tralignar di Pirro.</l>
+               <l part="N" TEIform="l">Or muori». E sì dicendo, a l'ara istessa</l>
+               <l part="N" TEIform="l">Lo strascinò tremante e su pel molto</l>
+               <l part="N" TEIform="l">Sangue del figlio sdrucciolante, avvolse</l>
+               <l part="N" TEIform="l">Ne' capelli la manca, erse con l'altra</l>
+               <l part="N" TEIform="l">E nel fianco la spada profondogli</l>
+               <l part="N" TEIform="l">Insino all'elsa. Il termine fu questo</l>
+               <l part="N" TEIform="l">De' fati di Priamo. Avea tal sorte</l>
+               <l part="N" TEIform="l">Al regnator de l'Asia, un dì per tante</l>
+               <l part="N" TEIform="l">Terre e popoli alter, fissa il destino.</l>
+               <l part="N" TEIform="l">Troia incensa mirar, l'iliache torri</l>
+               <l part="N" TEIform="l">Diroccate in morendo: e' vasto tronco</l>
+               <l part="N" TEIform="l">In su la riva giacesi, dal busto</l>
+               <l part="N" TEIform="l">Divelto un capo, e senza nome un corpo.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Ma primamente allora atro d'intorno</l>
+               <l part="N" TEIform="l">Orror mi si diffuse: istupidii,</l>
+               <l part="N" TEIform="l">E appresentossi al mio pensier l'imago</l>
+               <l part="N" TEIform="l">Del caro genitor, poscia ch'il rege</l>
+               <l part="N" TEIform="l">Ugual d'anni ebbi visto in fera guisa</l>
+               <l part="N" TEIform="l">Trapassato spirar. Vennemi a mente</l>
+               <l part="N" TEIform="l">La deserta Creusa, e il patrio tetto</l>
+               <l part="N" TEIform="l">Preda a' nemici, ed il periglio estremo</l>
+               <l part="N" TEIform="l">Del pargoletto Giulo. Il guardo volgo</l>
+               <l part="N" TEIform="l">Ad esplorar qual mi rimanga intorno</l>
+               <l part="N" TEIform="l">Copia di soci. Ognun lasciommi, e stanco</l>
+               <l part="N" TEIform="l">Al suol piombò d'un salto, o l'egro corpo</l>
+               <l part="N" TEIform="l">Lanciò nel foco. E già sol io restava,</l>
+               <l part="N" TEIform="l">Quando in rimota parte ascosa e cheta</l>
+               <l part="N" TEIform="l">Star del tempio di Vesta Elena vidi,</l>
+               <l part="N" TEIform="l">Mentre al fiammar del chiaro incendio, errante</l>
+               <l part="N" TEIform="l">Già tutto rimirando. I Teucri in lei</l>
+               <l part="N" TEIform="l">Da l'avvampar di Troia a sdegno mossi,</l>
+               <l part="N" TEIform="l">E le greche vendette a un tempo e l'ire</l>
+               <l part="N" TEIform="l">Del tradito consorte ella temendo,</l>
+               <l part="N" TEIform="l">Di sua patria e di noi comune Erinni,</l>
+               <l part="N" TEIform="l">Acquattata si stava, e presso a l'ara</l>
+               <l part="N" TEIform="l">Sedea non vista. Ardo di sdegno. Acceso</l>
+               <l part="N" TEIform="l">Dolor mi sprona a vendicar con l'empio</l>
+               <l part="N" TEIform="l">Sangue la sfatta patria. E questa dunque</l>
+               <l part="N" TEIform="l">Illesa a Sparta e a la natia Micene</l>
+               <l part="N" TEIform="l">Regina andrassi e trionfante? E in mezzo</l>
+               <l part="N" TEIform="l">A frigi servi ed a troiane donne</l>
+               <l part="N" TEIform="l">Marito e casa e genitori e figli</l>
+               <l part="N" TEIform="l">A veder tornerà? Spento da ferro</l>
+               <l part="N" TEIform="l">Stato Priamo sarà, Troia consunta</l>
+               <l part="N" TEIform="l">Da fiamme, e tante volte il teucro lido</l>
+               <l part="N" TEIform="l">Molle di sangue? E' non fia ver: che, avvegna</l>
+               <l part="N" TEIform="l">In femmina punir lode non aggia,</l>
+               <l part="N" TEIform="l">E senza onor sia la vittoria, estinta</l>
+               <l part="N" TEIform="l">Aver l'iniqua pur, la rea punita,</l>
+               <l part="N" TEIform="l">Pregio mi fia: godrò che di vendetta</l>
+               <l part="N" TEIform="l">L'ardente sete avrò sbramata, e paghe</l>
+               <l part="N" TEIform="l">Le ceneri de' miei. Tali volgendo</l>
+               <l part="N" TEIform="l">Pensieri in mente, dal furor son tratto:</l>
+               <l part="N" TEIform="l">Allor che lampeggiò fra le tenebre</l>
+               <l part="N" TEIform="l">E in pura luce mi s'offerse al guardo</l>
+               <l part="N" TEIform="l">L'alma mia genitrice, unque sì chiaro</l>
+               <l part="N" TEIform="l">Pria non vista da me; palese Diva,</l>
+               <l part="N" TEIform="l">E quale e quanta la si vede in cielo.</l>
+               <l part="N" TEIform="l">Per man mi prese e mi rattenne, e aprendo</l>
+               <l part="N" TEIform="l">Le rosse labbra: «O figlio», disse, «e quale</l>
+               <l part="N" TEIform="l">Fero dolor di tanta ira t'avvampa?</l>
+               <l part="N" TEIform="l">Furiar che ti giova? E questa dunque</l>
+               <l part="N" TEIform="l">Ti dai cura di noi? Che non più tosto</l>
+               <l part="N" TEIform="l">Riguardi ove lasciato abbi l'antico</l>
+               <l part="N" TEIform="l">Tuo genitor? Se in vita anco ti resti</l>
+               <l part="N" TEIform="l">La consorte Creusa e il parvo Giulo?</l>
+               <l part="N" TEIform="l">A' quali intorno d'ogni parte errando</l>
+               <l part="N" TEIform="l">Vanno le greche turbe, e che già preda</l>
+               <l part="N" TEIform="l">Foran del foco e de gli acciari ostili,</l>
+               <l part="N" TEIform="l">S'avuti in cura io non gli avessi. Il volto</l>
+               <l part="N" TEIform="l">Non già che abborri de l'argiva Elena</l>
+               <l part="N" TEIform="l">Nè l'incolpato Pari; odio de' Numi</l>
+               <l part="N" TEIform="l">Queste dovizie sperge e dirovina</l>
+               <l part="N" TEIform="l">Troia dal sommo. Or mira (il vapor tutto</l>
+               <l part="N" TEIform="l">Ch'umido intorno ti caliga, e il guardo</l>
+               <l part="N" TEIform="l">Mortal t'appanna, i' sgombrerò: tu cedi</l>
+               <l part="N" TEIform="l">Ai materni comandi, e senza tema</l>
+               <l part="N" TEIform="l">I miei detti seconda) in quella parte</l>
+               <l part="N" TEIform="l">Ove squarciate moli, e sassi miri</l>
+               <l part="N" TEIform="l">Svelti da sassi, e fluttuante un fumo</l>
+               <l part="N" TEIform="l">Misto di polve, i muri fende, e scrolla</l>
+               <l part="N" TEIform="l">Nettun le fondamenta, e la cittade</l>
+               <l part="N" TEIform="l">Con l'enorme tridente tutta sterpa</l>
+               <l part="N" TEIform="l">Da le radici. Qui di ferro armata</l>
+               <l part="N" TEIform="l">Giuno in volto ferissima si sta</l>
+               <l part="N" TEIform="l">Presso a le porte Scee primiera, e chiama</l>
+               <l part="N" TEIform="l">Orrendamente il socio stuol da' legni.</l>
+               <l part="N" TEIform="l">Già Palla tien le somme rocche. Mira</l>
+               <l part="N" TEIform="l">Qual folgoreggia ad una nube in mezzo</l>
+               <l part="N" TEIform="l">Con sua dira Gorgon. Giove pur anco</l>
+               <l part="N" TEIform="l">Valor, forza a gli Achei ministra, i Numi</l>
+               <l part="N" TEIform="l">Ne' Dardani eccitando. Ah fuggi, o nato,</l>
+               <l part="N" TEIform="l">Dà fine a tanti affanni: ove che vada,</l>
+               <l part="N" TEIform="l">Sarotti al fianco, e su la patria soglia</l>
+               <l part="N" TEIform="l">Porrotti in securtà». Disse, e fra l'ombre</l>
+               <l part="N" TEIform="l">Dense di notte sparve. Allor vedute</l>
+               <l part="N" TEIform="l">Mi si fèr le sembianze orride e i sommi</l>
+               <l part="N" TEIform="l">Numi a Troia nemici: allor nel foco</l>
+               <l part="N" TEIform="l">Tutto vidi sommerso Ilio, e divelta</l>
+               <l part="N" TEIform="l">La nettunia città da l'imo fondo.</l>
+               <l part="N" TEIform="l">Qual su d'alte montagne orno vetusto</l>
+               <l part="N" TEIform="l">Cui già con colpi spessi di bipenne</l>
+               <l part="N" TEIform="l">Hanno i villani ad atterrarlo intenti</l>
+               <l part="N" TEIform="l">Reciso a gara intorno, minacciando</l>
+               <l part="N" TEIform="l">Sta lungamente e tremulo tentenna</l>
+               <l part="N" TEIform="l">La barcollante chioma, insin che a' colpi</l>
+               <l part="N" TEIform="l">Cedendo a poco a poco, omai divelto,</l>
+               <l part="N" TEIform="l">Mette l'estremo gemito, ruina</l>
+               <l part="N" TEIform="l">Giù per lo monte, e seco sbarba e tragge</l>
+               <l part="N" TEIform="l">Parte del giogo. I' scendo e vo securo,</l>
+               <l part="N" TEIform="l">Duce la madre, intra le fiamme e l'armi:</l>
+               <l part="N" TEIform="l">Scostansi l'armi, e mi fa strada il foco.</l>
+               <l part="N" TEIform="l">Giunto a la patria soglia ed a l'antico</l>
+               <l part="N" TEIform="l">Tetto ero già, quando colui che primo</l>
+               <l part="N" TEIform="l">Portar bramava a gli alti monti, oggetto</l>
+               <l part="N" TEIform="l">Primier de le mie cure, il padre mio,</l>
+               <l part="N" TEIform="l">Sovvertito Ilion, d'irsene in bando</l>
+               <l part="N" TEIform="l">O di più viver nega. «O voi che il sangue</l>
+               <l part="N" TEIform="l">Per fresca età», dicea, «vivido e salde</l>
+               <l part="N" TEIform="l">Anco le forze e intere avete, or voi</l>
+               <l part="N" TEIform="l">Itene in fuga. A me servata i Numi</l>
+               <l part="N" TEIform="l">Avrian questa magion se fermo in cielo</l>
+               <l part="N" TEIform="l">Fosse ch'anco i' vivessi. Un'altra volta</l>
+               <l part="N" TEIform="l">Ilio strutto aver visto, e a sua ruina</l>
+               <l part="N" TEIform="l">Sopravvivuto esser cotanto, assai</l>
+               <l part="N" TEIform="l">Troppo ne fu. Qui con l'estremo addio</l>
+               <l part="N" TEIform="l">Sì composto il mio corpo, itene. A morte</l>
+               <l part="N" TEIform="l">Chi mi conduca avrò: pietosi i Greci</l>
+               <l part="N" TEIform="l">Agogneran mie spoglie: è leve cosa</l>
+               <l part="N" TEIform="l">Mancar di tomba. In ira ai Numi il tempo</l>
+               <l part="N" TEIform="l">E disutile io traggo insin da l'ora</l>
+               <l part="N" TEIform="l">Che de gli uomini il re, padre de' Numi,</l>
+               <l part="N" TEIform="l">L'aura del fulmin suo spirommi incontra,</l>
+               <l part="N" TEIform="l">E con suo foco ebbemi tocco». Ei stava</l>
+               <l part="N" TEIform="l">Così dicendo immoto e saldo. E noi</l>
+               <l part="N" TEIform="l">La consorte Creusa a un tempo e il figlio</l>
+               <l part="N" TEIform="l">Sparsi di pianto, e la magione intera</l>
+               <l part="N" TEIform="l">Il supplichiam, seco non voglia il tutto</l>
+               <l part="N" TEIform="l">Distrugger, padre, e al vicin fato offrirsi.</l>
+               <l part="N" TEIform="l">Ricusa, nè pensier cangia nè loco.</l>
+               <l part="N" TEIform="l">Misero chieggo armi di nuovo e bramo</l>
+               <l part="N" TEIform="l">Morir. Poichè da sorte o da consiglio</l>
+               <l part="N" TEIform="l">Che restava a sperar? «Dunque che porti,</l>
+               <l part="N" TEIform="l">Padre, i' potessi in abbandon credesti?</l>
+               <l part="N" TEIform="l">E tanto orror profferse il patrio labbro?</l>
+               <l part="N" TEIform="l">Se volere è del ciel che nulla avanzi</l>
+               <l part="N" TEIform="l">Di cotanta cittade, e tu se' fermo</l>
+               <l part="N" TEIform="l">A far che, Troia spenta, anco tu pera</l>
+               <l part="N" TEIform="l">E teco i tuoi, schiuso a tal fato è il varco.</l>
+               <l part="N" TEIform="l">E Pirro omai qua giungerà, del molto</l>
+               <l part="N" TEIform="l">Sangue di Priamo tinto, e' che del padre</l>
+               <l part="N" TEIform="l">Innanzi a gli occhi il figlio, e innanzi a l'are</l>
+               <l part="N" TEIform="l">Il padre svena. A questo dunque immune,</l>
+               <l part="N" TEIform="l">Alma mia genitrice, infra le fiamme</l>
+               <l part="N" TEIform="l">Infra' teli m'hai scorto, a fin che in mezzo</l>
+               <l part="N" TEIform="l">A mie stanze il nemico, a fin che Giulo</l>
+               <l part="N" TEIform="l">E il genitore e presso lor Creusa</l>
+               <l part="N" TEIform="l">Trucidar mi vedessi innanzi a gli occhi</l>
+               <l part="N" TEIform="l">L'un sul sangue de l'altro? Armi, qua l'armi.</l>
+               <l part="N" TEIform="l">Vinti a morte n'appella il giorno estremo.</l>
+               <l part="N" TEIform="l">Rendetemi a gli Achei, lasciate a nuova</l>
+               <l part="N" TEIform="l">Pugna voltarmi. Ah non fia ver che tutti</l>
+               <l part="N" TEIform="l">Oggi inulti moriamo». E già la spada</l>
+               <l part="N" TEIform="l">Ricingomi, e la targa a manca imbraccio,</l>
+               <l part="N" TEIform="l">E parto. Ecco Creusa in su la soglia</l>
+               <l part="N" TEIform="l">Attraversata i piè strigneami, e Giulo</l>
+               <l part="N" TEIform="l">Il pargoletto appresentava al padre.</l>
+               <l part="N" TEIform="l">«S'a morir vai, teco noi traggi a tutto.</l>
+               <l part="N" TEIform="l">Se speme ha pur ne l'armi, e il sai per prova,</l>
+               <l part="N" TEIform="l">Guarda in prima tua casa. Il piccol figlio</l>
+               <l part="N" TEIform="l">Cui lasci e il padre e me tua detta un tempo?».</l>
+               <l part="N" TEIform="l">Così, tutta di guai la casa empiendo,</l>
+               <l part="N" TEIform="l">Vociferava. Allor che un improvviso</l>
+               <l part="N" TEIform="l">Miracolo apparia. Poi che tra' volti</l>
+               <l part="N" TEIform="l">De gli afflitti parenti e tra le braccia</l>
+               <l part="N" TEIform="l">Ecco del capo al pargoletto il leve</l>
+               <l part="N" TEIform="l">Apice sfavillare e senza offesa</l>
+               <l part="N" TEIform="l">Circa le tempie una fiamma vagando,</l>
+               <l part="N" TEIform="l">Pascere, ed i capei molle lambire.</l>
+               <l part="N" TEIform="l">Noi pavidi tremar, l'acceso crine</l>
+               <l part="N" TEIform="l">Scuotere, ed acqua ad ammorzar la santa</l>
+               <l part="N" TEIform="l">Fiamma versar. Ma il genitore Anchise</l>
+               <l part="N" TEIform="l">Lieto le palme sollevando e gli occhi</l>
+               <l part="N" TEIform="l">Al cielo: «O», disse, «onnipotente Giove,</l>
+               <l part="N" TEIform="l">Se da prego sei mosso, or noi rimira;</l>
+               <l part="N" TEIform="l">Ciò sol ne basta, o padre, indi se il merta</l>
+               <l part="N" TEIform="l">Nostra pietà, dacci soccorso, e questo</l>
+               <l part="N" TEIform="l">Segno conferma». Di pregar non prima</l>
+               <l part="N" TEIform="l">Ebbe finito il veglio, che da manca</l>
+               <l part="N" TEIform="l">Tonò subitamente, ed una stella</l>
+               <l part="N" TEIform="l">Dal ciel sereno corse giù, traendo</l>
+               <l part="N" TEIform="l">Face e splendore assai, per mezzo a l'ombre.</l>
+               <l part="N" TEIform="l">De la magion sopra le somme vette</l>
+               <l part="N" TEIform="l">Noi passar la vedemmo, e ne l'Idea</l>
+               <l part="N" TEIform="l">Selva celarsi luminosa. Appare</l>
+               <l part="N" TEIform="l">Di suo sentier la traccia, un lungo solco</l>
+               <l part="N" TEIform="l">Splender si vede, e tutti intorno i luoghi</l>
+               <l part="N" TEIform="l">Mandan sulfureo fumo. Or vinto il padre,</l>
+               <l part="N" TEIform="l">Al ciel si volge, e con gli Dei, la santa</l>
+               <l part="N" TEIform="l">Stella adorando, favellava: «Indugio</l>
+               <l part="N" TEIform="l">Più non trametto alcun: vi seguo; vengo</l>
+               <l part="N" TEIform="l">Ove che mi meniate. O patri Numi,</l>
+               <l part="N" TEIform="l">Salva per voi sia la magion, per voi</l>
+               <l part="N" TEIform="l">Salvo il nipote. È vostro il segno; è Troia</l>
+               <l part="N" TEIform="l">In poter vostro. Io cedo, o figlio, e teco</l>
+               <l part="N" TEIform="l">Di venir non ricuso». E' detto aveva,</l>
+               <l part="N" TEIform="l">E per le mura strepitar più chiaro</l>
+               <l part="N" TEIform="l">Già l'incendio s'udia, già più da presso</l>
+               <l part="N" TEIform="l">Ne s'avventava la cocente vampa.</l>
+               <l part="N" TEIform="l">«Su dunque, o padre amato, or mi ti reca</l>
+               <l part="N" TEIform="l">Sul collo, io porterotti, e già tal peso</l>
+               <l part="N" TEIform="l">Non graverammi; e' sia che puote: un fia</l>
+               <l part="N" TEIform="l">D'ambo il periglio e la salute. Al fianco</l>
+               <l part="N" TEIform="l">Vengami il parvo Giulo; i miei vestigi</l>
+               <l part="N" TEIform="l">Calchi Creusa più lontano, e voi,</l>
+               <l part="N" TEIform="l">Servi, al mio dir ponete mente. È fuori</l>
+               <l part="N" TEIform="l">De la cittade un collicello e un tempio</l>
+               <l part="N" TEIform="l">Deserto, antico, a Cerer sacro: a cui</l>
+               <l part="N" TEIform="l">Un vetusto cipresso alzasi a canto</l>
+               <l part="N" TEIform="l">Venerato da' padri e già molt'anni</l>
+               <l part="N" TEIform="l">Servato. A questo per diverse vie</l>
+               <l part="N" TEIform="l">Tutti verrem. Tu, padre, in man ti reca</l>
+               <l part="N" TEIform="l">Le sante cose e i patri Dei. Toccarli</l>
+               <l part="N" TEIform="l">Non lice a me da tanta guerra e strage</l>
+               <l part="N" TEIform="l">Pur ora uscito, ove non prima asterso</l>
+               <l part="N" TEIform="l">Abbiami vivo fiume». In questo dire,</l>
+               <l part="N" TEIform="l">M'ho de la veste e de la fulva pelle</l>
+               <l part="N" TEIform="l">Di lion ricoperto il collo e gli ampi</l>
+               <l part="N" TEIform="l">Omeri, e al peso mi sobbarco. Ascanio</l>
+               <l part="N" TEIform="l">Il pargoletto impigliami la destra</l>
+               <l part="N" TEIform="l">E con passo inegual mi segue. Appresso</l>
+               <l part="N" TEIform="l">Viemmi Creusa. Andiam per luoghi oscuri,</l>
+               <l part="N" TEIform="l">E me, cui pria non avventati dardi</l>
+               <l part="N" TEIform="l">Non mosser greche dense opposte squadre,</l>
+               <l part="N" TEIform="l">Ora ogni aura atterrisce, ogni romore</l>
+               <l part="N" TEIform="l">Scuote ed inforsa pel compagno e il peso</l>
+               <l part="N" TEIform="l">Del par tremante. Ed a le porte omai</l>
+               <l part="N" TEIform="l">Era vicino, e aver credea già tutta</l>
+               <l part="N" TEIform="l">Superata la via, quando mi parve</l>
+               <l part="N" TEIform="l">Udir subito, spesso calpestio,</l>
+               <l part="N" TEIform="l">E per mezzo a le tenebre guardando,</l>
+               <l part="N" TEIform="l">Esclama il padre: «Figlio, figlio, fuggi,</l>
+               <l part="N" TEIform="l">Son presso, veggo il luccicar de l'armi</l>
+               <l part="N" TEIform="l">E de gli scudi». Allor non so qual Dio</l>
+               <l part="N" TEIform="l">Nemico fu che pavido, confuso</l>
+               <l part="N" TEIform="l">A me mi tolse: poi che mentre uscito</l>
+               <l part="N" TEIform="l">Fuor del noto sentiero, occulti calli</l>
+               <l part="N" TEIform="l">Seguo correndo, ahi! la consorte mia,</l>
+               <l part="N" TEIform="l">La mia Creusa i' persi; o che da fato</l>
+               <l part="N" TEIform="l">Miserando rapita, o per lassezza</l>
+               <l part="N" TEIform="l">Ristata fosse, o traviata errasse,</l>
+               <l part="N" TEIform="l">Come non so; che poscia più non parve;</l>
+               <l part="N" TEIform="l">E per mirarla io non mi volsi, e mente</l>
+               <l part="N" TEIform="l">A quel ch'era non posi infin che giunti</l>
+               <l part="N" TEIform="l">De la vetusta Cerere non fummo</l>
+               <l part="N" TEIform="l">Al sacro poggio. Quivi tutti accolti,</l>
+               <l part="N" TEIform="l">Sola manconne, ed i compagni e il figlio</l>
+               <l part="N" TEIform="l">E il consorte deluse. Allora insano</l>
+               <l part="N" TEIform="l">Qual uom, qual Dio non incolpai? Qual vidi</l>
+               <l part="N" TEIform="l">Ne la strutta città caso più diro?</l>
+               <l part="N" TEIform="l">Ascanio e il padre Anchise e i teucri Numi</l>
+               <l part="N" TEIform="l">Ai compagni accomando e ne la curva</l>
+               <l part="N" TEIform="l">Valle ripongo: inver le mura io torno</l>
+               <l part="N" TEIform="l">Ricinte l'armi corruscanti, e fermo</l>
+               <l part="N" TEIform="l">Di rinnovare ogni vicenda, e tutta</l>
+               <l part="N" TEIform="l">Troia correr di novo, ed a gli estremi</l>
+               <l part="N" TEIform="l">Perigli espormi. In pria mi volgo ai muri</l>
+               <l part="N" TEIform="l">Ed a la cieca porta ond'era uscito,</l>
+               <l part="N" TEIform="l">E seguo e cerco per la buia notte</l>
+               <l part="N" TEIform="l">Con gli occhi intenti i miei vestigi istessi</l>
+               <l part="N" TEIform="l">Già nel venir segnati. Orror dovunque,</l>
+               <l part="N" TEIform="l">Silenzio pur l'alma spaura. Io torno</l>
+               <l part="N" TEIform="l">Quindi a la casa a ricercar se fosse</l>
+               <l part="N" TEIform="l">Là per sorte venuta. Invasa e piena</l>
+               <l part="N" TEIform="l">L'avean gli Achei. L'ingorda fiamma ratto</l>
+               <l part="N" TEIform="l">Al vento s'alza tortuosa, e il sommo</l>
+               <l part="N" TEIform="l">Tetto sormonta; furiar per l'aria</l>
+               <l part="N" TEIform="l">S'ode l'incendio. Inoltromi e la rocca</l>
+               <l part="N" TEIform="l">E la reggia rivedo. E già nel tempio</l>
+               <l part="N" TEIform="l">Stavan di Giuno e ne le vote logge,</l>
+               <l part="N" TEIform="l">Custodi eletti de la preda, il fero</l>
+               <l part="N" TEIform="l">Laerziade e Fenice. Ivi ammontate</l>
+               <l part="N" TEIform="l">Son le teucre dovizie; e da gl'incensi</l>
+               <l part="N" TEIform="l">Penetrali sottratte e d'ogni banda</l>
+               <l part="N" TEIform="l">Là son le sacre mense, e i vasi addotti</l>
+               <l part="N" TEIform="l">Di solid'oro e le rapite vesti.</l>
+               <l part="N" TEIform="l">Fanciulli intorno e paurose madri</l>
+               <l part="N" TEIform="l">Stan quivi in lunga fila. Ardii pur anco</l>
+               <l part="N" TEIform="l">Gridar fra le tenebre, empiere i calli</l>
+               <l part="N" TEIform="l">Di lamentanza, e mesto in van più volte</l>
+               <l part="N" TEIform="l">Creusa ahimè! chiamai, Creusa mia.</l>
+               <l part="N" TEIform="l">Mentre la cerco, e senza fine errando</l>
+               <l part="N" TEIform="l">Vo per le case forsennato, apparmi</l>
+               <l part="N" TEIform="l">Il miserando simulacro e l'ombra</l>
+               <l part="N" TEIform="l">Di Creusa maggior che pria non era.</l>
+               <l part="N" TEIform="l">Istupidii, rizzossi il crine, stette</l>
+               <l part="N" TEIform="l">Ne le fauci la voce. Allora a dirmi</l>
+               <l part="N" TEIform="l">Pres'ella e a consolarmi: «A che ti lasci</l>
+               <l part="N" TEIform="l">Sì trasportar da folle affanno, o dolce</l>
+               <l part="N" TEIform="l">Consorte mio? Senza voler de' Numi</l>
+               <l part="N" TEIform="l">Questo già non t'avvien. Quinci Creusa</l>
+               <l part="N" TEIform="l">Portar compagna a te non lice: il vieta</l>
+               <l part="N" TEIform="l">D'Olimpo il sommo Rege. Esiglio lungo</l>
+               <l part="N" TEIform="l">Soffrir ti converrà, solcar gran mari;</l>
+               <l part="N" TEIform="l">In Esperia n'andrai dove tra genti</l>
+               <l part="N" TEIform="l">E feraci campagne il lidio Tebro</l>
+               <l part="N" TEIform="l">Volve sue placid'onde. Ivi da' Numi</l>
+               <l part="N" TEIform="l">Lieta ventura a te s'appresta e regno</l>
+               <l part="N" TEIform="l">E consorte regal. Di pianger lascia</l>
+               <l part="N" TEIform="l">La diletta Creusa. Io le superbe</l>
+               <l part="N" TEIform="l">Mirmidoni o le dolopi contrade</l>
+               <l part="N" TEIform="l">Già non vedrò. Schiava a lor donne i Greci</l>
+               <l part="N" TEIform="l">Me non trarran, dardania prole e nuora</l>
+               <l part="N" TEIform="l">A la ciprigna Dea: che mi ritiene</l>
+               <l part="N" TEIform="l">La gran madre de' Numi in queste piagge.</l>
+               <l part="N" TEIform="l">Or finalmente addio. Serba l'amore</l>
+               <l part="N" TEIform="l">Del comun figlio»: e così detto, in leve</l>
+               <l part="N" TEIform="l">Aere conversa dileguossi; e mentre</l>
+               <l part="N" TEIform="l">Piangendo i' pur volea dir cose assai,</l>
+               <l part="N" TEIform="l">Abbandonommi. Allor tre volte al collo</l>
+               <l part="N" TEIform="l">Tentai le mani avvincerle; tre volte</l>
+               <l part="N" TEIform="l">Indarno cinta mi sfuggì l'imago,</l>
+               <l part="N" TEIform="l">Pari a fugace sogno e ad aura leve.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Così la notte consumata indarno,</l>
+               <l part="N" TEIform="l">Riveggo il poggio. Ivi gran copia accolta</l>
+               <l part="N" TEIform="l">Di novelli compagni, e madri e sposi</l>
+               <l part="N" TEIform="l">Presti a l'esiglio, miserabil volgo</l>
+               <l part="N" TEIform="l">Maravigliando trovo. Eransi addotti</l>
+               <l part="N" TEIform="l">Là d'ogni banda, a seguitarmi ovunque</l>
+               <l part="N" TEIform="l">Navigar disponessi, alme e ricchezze</l>
+               <l part="N" TEIform="l">Pronte recando. E su le somme vette</l>
+               <l part="N" TEIform="l">D'Ida già l'astro mattutin sorgea,</l>
+               <l part="N" TEIform="l">E menavane il giorno. I Greci intanto</l>
+               <l part="N" TEIform="l">Custodivan le porte, e speme alcuna</l>
+               <l part="N" TEIform="l">D'aita non avea. Cèssi, e ritolto</l>
+               <l part="N" TEIform="l">Sul collo il padre, a la montagna ascesi.</l>
+            </lg>
+         </div1>
+         <div1 org="uniform" sample="complete" part="N" TEIform="div1">
+            <head TEIform="head">Libro III</head>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Poi che parve a gli Dei star d'Asia il regno</l>
+               <l part="N" TEIform="l">E 'l di Priamo immeritevol sangue,</l>
+               <l part="N" TEIform="l">Caduto Ilio superbo e da l'arena</l>
+               <l part="N" TEIform="l">La Nettunia città tutta fumante,</l>
+               <l part="N" TEIform="l">A cercar vari esigli ed erme terre</l>
+               <l part="N" TEIform="l">Ne traggono gli auguri. E noi la classe</l>
+               <l part="N" TEIform="l">Sotto le patrie Idee montagne e sotto</l>
+               <l part="N" TEIform="l">La stessa Antandro edifichiamo, incerti</l>
+               <l part="N" TEIform="l">U' ne meni il destin, qual ne dia seggio,</l>
+               <l part="N" TEIform="l">E la gente assembriamo. In sul primiero</l>
+               <l part="N" TEIform="l">Scaldar de l'anno il genitore Anchise</l>
+               <l part="N" TEIform="l">Le vele n'imponea dessimo ai fati</l>
+               <l part="N" TEIform="l">Quando i' piangendo le patrie abbandono</l>
+               <l part="N" TEIform="l">Rive ed i porti e i campi ov'Ilio fue,</l>
+               <l part="N" TEIform="l">Esule in alto mar co' soci e 'l figlio</l>
+               <l part="N" TEIform="l">Ed i penati e i magni Iddii sospinto.</l>
+            </lg>
+            <lg org="uniform" sample="complete" part="N" TEIform="lg">
+               <l part="N" TEIform="l">Lontana i vasti suoi campi distende</l>
+               <l part="N" TEIform="l">Bellicosa contrada, un tempo regno</l>
+               <l part="N" TEIform="l">Del rigido Licurgo; aranla i Traci;</l>
+               <l part="N" TEIform="l">Ospite a Troia e federata antica</l>
+               <l part="N" TEIform="l">Mentre fummo in fortuna. A questa apporto</l>
+               <l part="N" TEIform="l">E, ripugnante il fato, i primi chiusi</l>
+               <l part="N" TEIform="l">In su la curva spiaggia collocando,</l>
+               <l part="N" TEIform="l">Fea dal mio nome ai cittadini il nome</l>
+               <l part="N" TEIform="l">D'Eneadi, e 'l sacro a la Ciprigna madre</l>
+               <l part="N" TEIform="l">Rito adempieva e a gli altri auspici numi</l>
+               <l part="N" TEIform="l">De l'intrapreso, e de' Celesti a l'alto</l>
+               <l part="N" TEIform="l">Regnante un toro nitido immolava</l>
+               <l part="N" TEIform="l">In su la sponda.</l>
+            </lg>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

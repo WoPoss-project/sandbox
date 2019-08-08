@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Pontifex</title>
+      <author>Leon Battista Alberti</author>
+    </titleStmt>
+    <extent>119 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000803</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opera inedita et pauca separatim impressa</title>
+        <author>Alberti, Leon Battista</author>
+        <editor id="ed">Mancini, Girolamo</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1890</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Narrativa</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-03-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-03-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1><head>Pontifex</head>
+
+<p>Paulus Albertus pontifex, vir sanctissimus, et Albertus jurisconsultus disertissimus, Cypriani equitis nepos ex filio, hujusmodi omni memoria dignissimos inter se habuere sermones. Hos ego, quod illorum facta et dicta gravissima semper maximi  fieri <hi rend="italic">oportere</hi> censui, quodque eos sermones putavi tibi,  amantissime Carole, fore utillimos atque gratissimos, idcirco, mi frater, unum te dignissimum esse institui, ad quem mitterentur. Nam ex disputatione hac, quae de pontificibus est, pleraque ad virtutem et mores, quibus tu majorem in modum semper fuisti deditus, pertinere intelliges. Sed eos apud me viros integerrimos gravissimosque, mi frater, et, ut <hi rend="italic">novi</hi>, omnium severissimos cum perleges, non me velim existimes loqui: nam me adolescentem tantis de rebus agere haud satis convenit; quibus si pro auctoritate et dignitate fortassis erit, ut accuratius a me accommodari genus dicendi rebus desideres, in eam abs te peto partem institutum scribendi nostrum accipias, ut inprimis ipse tecum cogites studuisse me ut disputatio haec religiosissima et documentorum refertissima, quantum  id queam, tibi, atque his qui meis rebus legendis delectentur,  sit ad virtutes comparandas animis profutura, magis quam  voluptatem auribus allatura. Proxime item velim intelligas,  Carole, fretum me et materiae, ut sic loquar, elegantia, et eorum qui disputant praestantia iniisse rem ac minime veritum esse, ne illorum clarissimorum et severissimorum hominum approbatissimae sententiae non plurimum ex se, nostro  nullo eloquentiae adhibito ornamento, placeant. Eos igitur domesticos inter se, atque affines <hi rend="italic">praeterea</hi>, quodam ut decuit   dicendi modo ratiocinantes audies. Nam qua die apud Perusiam, quam urbem Italiae celeberrimam ex summi pontificis delegatione tum regebat, Albertus jurisconsultus sacrosanctum pontificatum inierat; eos inter pontifices, qui pro more inunxerant, Paulus una pontifex astiterat, peractoque sacrificio, ita exorsus est:</p>
+<sp><speaker>PAULUS.</speaker> <p>Alberte fili, cum in ceteris rebus majores nostri, tum hac mihi profecto in re prudenter instituisse videntur, ut hic solemnium caerimoniarum ritus observaretur, quo facile   vel hinc posset perspici quam maximam, qui initiatur pontifex, atque difficilem provinciam ingrediatur. Quo quidem in ministerio quam multa et quam varia rerum copia ad <hi rend="italic">sacrum officium</hi> ornandum exquiratur, num tu id perpendisti?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et ea quidem permulta, Paule pater, eam esse ad  rem coacta et necessaria ipse tum mecum admirabar, cum et calceos, et mitram, immodicosque amictus, et infinita istiusmodi ornamenta, pleraque alia omnia ad hanc ipsam esse rem comparata animadverterem, tametsi aliquando meas in manus  incidisse libellum memini, qui illarum quaeque, qua <hi rend="italic">essent</hi> de caussa instituta, pulcre edoceret.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Extat, ut ais, liber, quem ipse interdum summa perlegi cum voluptate. Et utinam inde satis, aut unde vis, esset  curae pontificibus sese ita gerere ut quid sit pontifex viderentur non ignorasse: nam multos, ni fallor, haberemus animarum et morum magistros plane atque custodes, longe quam <hi rend="italic">habemus</hi>, meliores. Tametsi et quis denique est, qui intelligat  maximum subisse onus hunc, cujus fidei et diligentiae multorum fuerit <hi rend="italic">salus</hi> commendata, maximoque in discrimine versari quemque, cui non suae modo, sed vel inprimis suorum,  ut ajunt, ratio sit villicationis reddenda; quas quidem res pontifici fore commendatas quis ignorat?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Profecto istuc sic reor sanae esse mentis neminem, qui, cum se futurum pontificem cogitet, non toto idem animo contremiscat metu certe condigno et liberali; quod ipsum, mi pater, et si nonnihil et voluntate ad virtutem et literis ad munus exequendum me munitum ut haberem, semper elaboravi, tamen accidit ut inter sacrificandum maximis Deum precibus orarem, bonam inprimis mihi confirmaret mentem: et <hi rend="italic">quidem</hi> tantum negotium incepturus ipsum esse me hominem  meminisse decuit; humanitatisque nostrae jam tum esse, non ut virtute praestemus qua ad pontificium munus administrandum  indigemus, sed ut fragilitate penitus et imbecillitate  laboremus. Equidem, mi pater, quid non est quod verear, quid non jam usque mecum pertimesco, ne quid in gerendo pontificatu, in complenda illa Apostolorum nimium veneranda sede, in sustinenda denique bonorum de me expectatione, mea quidpiam aut imprudentia aut culpa excidat quod praesenti in vita ignominiam et dedecus nobis, defunctaque peregrinatione pro male gesto officio aeternos dolores referat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Est istuc quidem hominis minime inconsiderati, Alberte,   istiusmodi omnia, atque inprimis ipsius Dei secum magis quam hominum judicium vereri; sed qui virtutes tuas ad  rem optime gerendam novi, fortassis te animi nobis praebuisses apud Deum videntis maluissem. Cave tamen existimes, vituperare me quod te dicentem pridie audieram, cupere te priusquam initiarere, nosse quid sit pontificem agere; nam cum  id bonae fuisse mentis profitear, minime de se usquam temere polliceri, tum fuit etiam ut te nimis ad sacrificium titubantem atque admodum exanimatum immodicasque lacrimas effundentem injucundius intuerer.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ah! mi pater, an non istuc decuit? Quis enim usque  adeo temerarius ipsum hoc Dei tribunal vacuus terrore aggredietur? Judicium, inquit, sibi assumit quisquis sacrificium id libarit indigne; <hi rend="italic">impiine</hi> his manibus altare Dei attrectabimus? Sed vix audeo de re ipsa proloqui, quod intelligerem  per mortales homines, inter quos etiam qui justi sunt omnino  vitio non careant, non per incorruptissimos angelos Deum deorum hoc ut fieret sacrificium instituisse; quod in sanctorum  sententia meminissem sacrificium esse medicinam animorum, quam aegrotus, modo sibi in reliquis satis constet, non  die singulo incommode suscipiat. Profecto de me ipso qui, non ut ferunt, septies pecco, sed qui assidue admodum in via  Domini pro humanitatis imbecillitate me parum, ut pontifice par est, esse constantem sentio, fortassis longius consuluissem. Quo magis fit, mi pater, pontificiam hanc ipsam rem gravissimam esse existimem; nam sacrificandi quidem munus quovis cum alio vago atque nullis gregibus praefecto sacerdote mihi esse commune intelligo, purgandae autem multitudinis a vitio, inseminandaeque virtutis ac servandi in populo decoris cura mihi, quod sentiam, commendata est. Quas quidem res, etsi literis nonnihil sim tinctus, tamen quia usum quemdam imperandi hic non minus quam peritiam bonarum artium requiri intelligam, novus ipse et inexpertus ac, prout convenit, recte inprimis agendi cupidus, quas dixi res, esse omnes supra vires meas deputo. In his tamen ita me omnibus  animi viribus praeparo ad laborem, ut putem pietatem summi animorum Patris mei precibus non defuturam, neque proinde unquam maximis precari votis desinam, ut nobis tantam ad rem divinam opem atque auxilium deferat.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Te quidem idcirco laudo, Alberte, atque majorem in modum hortor, istoc peragas animo talemque te praestes, ut qui pridem tuas virtutes et literarum peritiam vehementer fuerint admirati, in dies iidem una et religionem multa admiratione tuam prosequantur. Idque tuum esse non ultimum, Alberte, munus in memoria semper velim habeas, eo te praepositum esse, quo tui te omnes non modo magistrum vitae, sed et morum exemplar optimorum extare prospiciant. Quam tamen rem tibi haud valde fore difficilem conjecto, nam <hi rend="italic">volentibus</hi> et ad labores atque officium <hi rend="italic">paratissimis</hi> tui <hi rend="italic">similibus animis</hi> Deus fautor et coadjutor honestissimorum operum,  institutorumque optimorum director, semper aderit. Tu  proinde in dies tua industria et solertia assequere bene agendo, ut nemo ad praeclare et mirifice omnium de te expectationem  superandam quidpiam in te amplius desideret; optimique te   esse animi cupio, nam haec quae tibi grandia videntur, usu in dies ipso fient minora, praesertim apud te qui annos plurimos regendis urbibus summa sis cum gloria versatus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ita ne inquis, mi pater, et quidnam, ut sic jam tecum agam, patrisne familias negotium quod familia bene pascenda, quod vestienda, quodque arandum sit? An non dicemus grave  esse <hi rend="italic">quod</hi> et <hi rend="italic">pastorum</hi> munus qui sapiunt <hi rend="italic">non</hi> parum putant arduum, quod inter hominum coetus in quibus perfidia et fraus passim plurimumque viget, fidem atque aequitatem servare opus sit? Rem item militarem, quod in ea contra armatos hostes cura, diligentia, vigiliis, et omnibus viribus obsistendum  sit, quodque ab his insidiae praecavendae, quodque milites servandi, <hi rend="italic">quod</hi> ager a populatione liberandus sit laborum et pene intolerabilium esse aerumnarum plenam <hi rend="italic">non</hi> affirmabimus?  Regem postremo in magistratu sedere cum amplissimo tum laboriosissimo negabimus, siquidem minores omnes magistratus domique forisque sit moderaturus, ut in summa vigilantia impunitatem et nimiam armorum atque jurisdictionum libidinem coerceat, sit non defuturum quin propediem omnes regni sui vires et robur labefactatas intueatur? Quid nos igitur, mi pater, an istiusmodi, quae dixi, omnia in singulis  gravia non putabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sunt certe, non inficior.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quanta erit idcirco in hunc negotii moles rejecta cui et praetorium munus, et ducis, et regis cura, et cetera istiusmodi omnia, sint summa fide et cum virtute optima gerenda?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et quorsum haec, mi Alberte? An non religiosum esse inprimis pontificem oportet? Etenim igitur et quid aut cum  duce, aut cum rege commune habeat religio haud satis intelligo; illic arma hic pax, illic rapina hic eleemosynae, illic ferrum hic humilitas, illic perfidia hic summa fides, illic vis hic aequitas, pietas, caritas; nisi forte, ut a regio munere incipiam, regium in pontificibus esse putes, quod ad instar Babylonum luxuriosissimorum regum et effoeminatorum, muliebri praelongo amictu, parati sese ut deos adorari patiantur;  flagitium atque impudentia odiosa non eorum minus qui sibi fieri ea non longe prohibent, quam assentatorum omnium qui eadem tantis studiis ambitiosissimis exhibeant? Ducis autem illud fortassis est, quod agmine quadrato et longo ordine progrediatur, adhibitis hinc atque hinc constipatoribus, quodque pro casside et conopileum atque infulas <hi rend="italic">induti</hi> flosculis redimitas, stricto ore et torvis oculis, dura atque immota cervice,  obequitant; quod pro torace candidissimam et tenuissimam  bissinam illam supremam vestem sub toga, quam similitudine quadam, quod non dignitatis eam sed muliebre velint subapparens  esse ornamentum, belle supparum possumus appellare? Denique quod hujusmodi deliciosissimis rebus sese comptos atque ornatos efferant regesne, an duces fortassis appellabimus? Quos eosdem quoque, si quando perjuriorum, usurarum,  testamentorum, matrimoniorum, aut agrorum, aediumque sacrarum  caussas quaestus sint gratia cognituri, quis tamen veros esse praetores illos dixerit? <hi rend="italic">Quo</hi> ego, ut de me loquar, <hi rend="italic">in</hi> negotio  sanctissime exequendo, cum jurium sim non usquequaque egregie peritus, cumque, non ut plerique, ex eo juris dicendi munere quaestum aliquem concupiscerem, semper idcirco cavi, ut jurisconsultum aliquem modestissimum, abstinentissimum, atque disertissimum, quovis pretio conductum, haberem, qui, caussa cognita, ad me jura ipsa, quid velint, referret. Quam  rem item tibi etsi jurium plane omnium peritissimo esse censeo faciendam, cum ob alias res, tum quod te discutiendis versutorum et callidorum litigiis occupari parum convenit, et controversiarum invidias habere cui demandes, quo tuam commodius possis ad litem componendam adhibere auctoritatem, plurimum expedit. Patrem ac familias postremo bene gerere, an est qui apud quemque etiam privatum extare necessitatem  dubitet? Sed, cum apud pontificem grandis pro dignitate domi adsit familia, prudentis quidem et ad majora occupati est, rem huic rusticam, urbanam et domesticam alteri probo et solerti demandare, tibique majorum tantum rerum curam et diligentiam desumere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Pulcre tu quidem, mi pater, multorum mihi mores atque ipsos prope vultus exprimere visus es, rerum affluentia, lautitia et nimio luxu abutentium; qui si meminissent, quod saepe atque inprimis fertur, aurum habere <hi rend="italic">ecclesiam</hi> non ut in jumentis impinguandis atque inertissimis atque desidiosissimis pascendis scurris atque gnatonibus prodatur, sed ut pauperibus <hi rend="italic">erogetur</hi> novi quam essent plerique moderatiores.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non profecto quod pauperum est, id cubiculariis et  ministris impudentiae, spretis bonis atque egregiis viris, suppeditarent, ut jam quidem Neronem vestibus, Lucullum coenis, Sardanapalum deliciis, et flagitiosos atque impurissimos omnes omni infamia atque dedecore, mea sententia, superarint. Bonos non odissent, improbis non parerent, quamquam haud secus convenit: qui enim vitio servit, is item scelestissimis atque infimis, quorum ope ac consilio ad turpitudinem utatur, deserviat necesse est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ecquid hoc malum est, mi pater, ut cum duae inprimis res ex amplitudine fortunae, facilitate atque affluentia suppeditentur, amicorum videlicet atque virtutis, te ut possis copia atque splendore maxime munitum illustremque reddere, id tamen ferme eo constituti in gradu omnes negligant atque in postremis habeant. Sed de his alias: nunc autem, cum animi tui severitatem hac in parte approbo, sinamus eos, modo a turpitudine vita eorum abhorreat, familiae, quoad velint, splendore et pompa delectari.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sinamus id quidem ut jubes, tametsi <hi rend="italic">iidem</hi> sibi istac quid velint lautitia non satis intelligo, ac meo quidem judicio vehementer errant, si hoc pacto per servorum catervas et divitiarum ostentationem sese quod inprimis affectant haberi, aut cupiunt, aut credunt religiosos, verbis utuntur ex industria castissimis cum vita sint incestissimi, vultum et frontem praebent tristem et gravem cum animo et pectore sint levissimi et lascivissimi. Quid multa? Sola denique superstitione religiosi nomen captant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>De his te loqui arbitror, mi pater, si qui uspiam sunt, qui a vita severissima tua longe sunt alienissimi et digni sane vituperio qui ita agant. Nos autem optimos et tibi similes, mi pater, imitemur, et quod religionis Magistrum loculos ajunt habuisse, id ita interpretemur, ut datis ab ecclesia divitiis ad modestos et pro dignitate necessarios usus frueremur. Quamobrem consideremus, si placet, utrumne apud nos pontifices, quod instat, quam apud reliquos patresfamilias cura merito familiaris multo consistat acrior; quo intelligamus a nobis ne inprimis eadem desiderentur, an denique, ut ajebas, pulcre,  et sine reprehensione procuratoribus delegentur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Placet, atque erit ea quidem minime inutilis atque non injucunda perscrutatio, ut videtur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Statuemusne idcirco, mi pater, quoniam id ad dignitatem spectat, fore ut pontificem paulo habere familiam ampliorem oporteat quam <hi rend="italic">privatum</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quin et multo majorem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fortassis quidem tum ceteras ob res, tum vel maxime ob id ipsum quod ajebas, ut adsint, quibus, si opus sit, rem rusticam, et quibus rem urbanam et domesticam, si quid unquam simus rebus majoribus praepediti <hi rend="italic">curandam</hi> committamus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Prorsus ob eam istam rem: tamen etsi tanta est in  plerisque pontificibus insolentia et petulantia, ut etiam pulmentorum exquisitissimos magistros <hi rend="italic">accipitrum, struthionumque</hi> curatores, et <hi rend="italic">mimos</hi>, et histriones conductos domi alere ad decus deputent, simias denique atque aviculas, puerilia et muliebria haec, propalam in deliciis habent. Flagitium! Panem filiorum dant canibus. </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur, mi pater, inter hujusmodi pontificem, tametsi ex pontificum multitudine, modestum atque parcissimum, et privatum quemvis patremfamilias intersit non  prospicimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid igitur non quae palam atque in luce sunt prospiciam? Multa quidem dici possent, sed illud dignissimum est odio, quod suos paterfamilias ex se genitos sibi<hi rend="italic">que</hi> necessarios parsimonia sustentabit, hic intemperantissimus suos excludet, alienis profuse erogabit; atque memini nonnullos fuisse aliquando rogatos quid ita inhumaniter agerent, a quibus tale fuerit datum responsum stultissimum quidem; nam suos si  admitterent consanguineos, fieri dicerent ut illis imperia denegantibus et quasi pro haeredibus rerum suarum sese gerentibus posset rem satis nullam commode praecipere, atque idcirco odisse omnes eos quibus ex sententia et arbitrio sibi parum liceat uti.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Eos igitur, mi pater, quid tu? Laudasne?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Cave <hi rend="italic">istos</hi> existimes esse laudandos, qui, ut obscoena et turpissima tutius possint, ea re hominibus abjectissimis atque admodum servilibus gaudeant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quales igitur approbabimus? Eos ne fortassis qui suos non ut affines apud se, sed veluti ministros velint?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Eos ipsos approbo, qui suos inprimis omni officio  honestabunt.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Equidem et pontificibus opusne non est, ministros apud se aliquos <hi rend="italic">habeant</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quin et eosdem optimos ni habuerint, dedecus, atque incommodum afferet; qua in re partim negligentiam illorum vitupero, qui familiam sinant esse suam parum bene moratam et modestam: partim est ut existimem, non eos esse probos qui improbis delectentur, quique non palam oderint.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Utrumne igitur, vel hanc ipsam ob rem pontificis  quam patrisfamilias cura erit familiaris gravior; quod ille suos ex se et in suorum gremio natos et adultos, sui amantissimos fidissimosque alat; idem suos, si petant, multis possit modis percommode emendatiores reddere monendo, castigando, spem dando adimendorum legatorum atque haereditatum; tum postremo idem paterfamilias uno ex sanguine, unis in aedibus,  suis moribus institutos atque instructos, minus contumaces, patriis dictis parentes, ad laudem summa cum voluptate aget; nobis autem pontificibus contra. Cum enim primum sedem hanc inimus, quasi collectitiis hominibus augendus est servientium  numerus, fitque familia diversarum <hi rend="italic">linguarum</hi>, diversorum morum, apud diversas nationes adultorum, non tui sed lucri cupidissimorum, non dedecoris sed laborum timidissimorum, quos demum obduratos neque admonitionibus, neque praemiis facile reddas modestiores; haec ne ita esse ut dixerim,  mi pater, affirmabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ipsa ut ratio in promptu est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et quid tum, istisne alienis ministris ad res majores gerendas, ad pacem inter alios componendam, ad odia mitiganda, ad jurgia sedanda, interpretibus utemur? An potius nostrorum aliquos habebimus, quorum fides amorque erga nos ab ipsa ineunte aetate nobis sit spectata et cognita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istis ego helluonibus quidquam audeam committere quod probe actum velim?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An eisdem, de quibus loquimur, ministris aliquid rerum  tuarum communicabis, aut ut peragant committes, ni <hi rend="italic">probe</hi> temperantes frugique sint?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Vide quo sim animo, cum meorum nemo est cui mea velim omnia esse nota; tum is sum qui meos omnes ita velim esse instructos, ut cupiam domi nullos nisi virtuti deditos ac saltem non ignaros videre inter meos; ac demum non omnibus omnia, sed singulis quibus apti sint, res singulas impero.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Igitur, si recte intelligo, aut multa diligentia antequam excipiamus, probi et modesti perquirendi sunt ministri nobis, aut cum domi susceperis, edocendi.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Est jam istuc prorsus ut ais.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tu igitur hujus me rei facies certiorem, qui per aetatem multo id fuisti expertus, facile ne hujusmodi, quos cupimus familiares, <hi rend="italic">reperientur</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Oh! rem difficillimam, Alberte, inter domesticos omnes vel unum quidem tantum habere cui tute quidpiam  committas.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fortassis interdum non quid quisque valeat, facile discernimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nam et istuc quoque ad difficultatem accedit, quod plerumque callidi et versuti veteratores quidam se ad res ita venuste, quoad gratiam tuam inierint, accomodant, ut amplius nihil desideres. Obfirmata autem parumper benevolentia, multa in dies vitia in illis pullulant ante oculos, tu neque eos dimittere qui inter familiares adeo sint versati, neque eosdem potes sine dolore perpeti depravatos.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid perinde restat, mi pater, quominus affirmemus pontificem qui sibi honestam esse familiam cupiat, hunc non multo esse quam patremfamilias quavis cura oppressum graviore?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nempe quod familiam habeat ampliorem et, ut commonefecisti, moribus et institutis inter se parum convenientem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Istuc ipsum, ut asseris; tametsi aliud quidpiam erat me quod id ita ut et ipse existimarem, adducebat.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quod fortassis contumaciores sint, quodve illorum nequeas belle opera in gravioribus rebus uti, ut patres possunt.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Etenim istuc eo etiam tendit; sed cogitabam, quam multo esset pontificis res familiaris longe quam privati gravior, hac una praesertim re, quod privatus paterfamilias suis tantum habet ut praebeat, pontificis autem cum inprimis suis et suorum familiaribus  patere domum oporteat, tum et extraneos detineat, et non paucos et assiduos necesse fore  invenimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et quanta quidem istuc ut affirmem nostrorum est arrogantia, cum enim primum aliquid sumus divitiarum nacti, omnes convolant circum atque instant, dicuntque licere surripere nobis bona haec quae nullo sumus nostro cum sudore assecuti, inter seque propemodum certant, quanam astutia nos expilando ceteris nummatiores, ut ajunt, evadant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Suam igitur pontifex familiam non modo ut alat, sed  etiam ut ditet necesse est.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non, inquam, suos tantum, sed et familiares qui petere et circa aures obstrepere nunquam <hi rend="italic">cessant</hi>; omnes tum,  si auscultes, divites et locupletes reddere molestia est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hunc igitur qui et suos et extraneos alere, pascere, vestire, ac postremo divitiis donare habeat, non multo quam ceteros patresfamilias esse difficultatibus oppressum negabis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Fortassis; interdum audivi aliquos qui supini et ignavi ipsi cum essent, suos <hi rend="italic">nequibant</hi> reddere solertiores; qui item dissoluti et intemperantissimi suos aeque non valebant coercere atque modestos reddere: qui item desidiosi atque inertes negligentia sua incultas et desertas fecerant possessiones; ob id quaeri solitos et in istiusmodi sententiam adductos, ut pontificis vitam vel hanc unam ob curam familiarem multo esse omnium acerbissimam dicerent. Mihi autem, qui annum quadragesimum huic pontificio muneri praefui, quive omnes inter pontifices primus ob diutius administratum officium considens connumeror, eo nunquam fuit episcopalis haec dignitas gravis, quo familiam aut meos apud me difficiles atque molestos perferrem, nam meis quidem, si quando re ulla illos indiguisse intellexi, non petentibus, ultro semper ac large contribuendum censui. Siquidem ad caritatem id pertinere, et ad illam praesertim beneficientiam bona ecclesiae dici pauperum esse interpretabar:  nam qui ut extraneis deferat, suorum necessitati  uspiam defuerit, non ego hunc ex pietate agere dijudico. Ministris deinceps meis semper volui patere ut tenerent, quo tempore in menses et quo loci quantam quisque esset mercedis pecuniam accepturus; non enim decere arbitrabar ut qui  sese mihi parendo dicassent, nullum a me opere susciperent  praemium, et is sum qui bona ecclesiae nunquam cuiquam ita volui tradere, ut aut non apud optime merentem locarentur,  aut qui reciperet, is a me munus virtutum sibi potius quam praestitae operae praemium esse attributum non putaret. In ceteris diligentiam et solertiam omnium bene tractandorum a me nunquam volui esse alienam. Quo sum plane assecutus ut mei omnes cum me agentem et minime cessatorem viderint, ipsi quoque una mecum suam ad res peragendas operam atque vigilantiam accomodarint.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Virtuti tuae, mi pater, eam ob rem solitus sum plurimum  ipse mecum congratulari, cujus in familia nullas unquam esse discordias aut simultates senserim; quae mihi quidem  res indicio fuit, te et eligendis familiaribus fuisse prudentem et tuis tractandis esse liberalem: verum haec fortassis  ab re sunt. Illud est quod abs te quaeram, majores illas res litigiorum atque controversiarum, quae in dies ad pontifices veluti ad supremum totius multitudinis patrem, deferuntur, quibusnam committendas duces ut rem ipsam discant atque  referant, tuisne, aut domesticorum optimo et fidissimo?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Probatissimo; nam improbis quidem bonorum incolumitas et salus nunquam satis fuit commendata, sed jam intelligo, quorsum me trahas, ut fatear nisi earum rerum  peritissimis esse demandanda, eo idcirco labore jam nunc levo, atque id <hi rend="italic">quidem</hi> sic ad rem statuo; ex ultimo usque orbe terrarum, ex mediis gymnosophistis, si forte alibi parum aptissimi reperiantur, sapientissimum, abstinentissimum, temperantissimumque aliquem praemiis, donis, et omni liberalitate ad te arcessas oportet, <hi rend="italic">quicum</hi> provinciam istanc litigiorum  partiare.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quia justitiae, rerum omnium inter mortales quae sunt maximae, cura nobis habenda est maxima, neque nisi justissimis committenda.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Laudo istuc, mi pater; atque ita fieri oportere, ut arbitror, sapiens negabit nemo: sed fortassis praestat, pontificem eum esse qui in exhibenda justitia non ab aliis capere, sed pulcre dare consilium possit.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et <hi rend="italic">quis</hi> id neget?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tum et ea quidem in re episcopum quam praetorem usu et literis longe munitum esse oportet, an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In utrisque scilicet ferme aeque difficilis et laboriosa est cognitio; atque de re sic est quod statuam; nullam apud eos qui ceteris praesunt curam, quam juris tuendi expectari majorem pro observandis legibus, pro jurgiis tollendis, pro dirimendis controversiis; eos quibus cognitionis et sententiae  potestas commissa est, ceteris posthabitis rebus, ita vigiles atque paratos esse oportere censeo, ut ad eorum diligentiam atque officium amplius addi nihil possit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nimirum sententiam hanc tuam docti, ut opinor, omnes comprobabunt; tamen quod illic apud praetorem de rebus admodum caducis et fortunae subjectis disceptatio habeatur, hic apud nos de animarum salute, de religionis observantia, de sacrorum custodia, deque rebus divinis ratio inprimis et <hi rend="italic">concio</hi> teneatur, fitne ut <hi rend="italic">episcopum</hi> fore quam praetorem  in ea re diligentiorem oportere censeas? Sed haec missa faciamus; illuc redeo. Quid igitur? Has res maximas et gravissimas utrum ne illi ab extremis orbis regionibus, quem ajebas, magnis praemiis literato conducto viro committes? Id quidem haud satis novi.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et quidni?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nam qui affines, fratres, parentes, patriam et dulcia  haec, quae omnes inprimis cupiunt, aviditate lucri reliquerit, an eumdem putabimus, cum hinc atque hinc pecuniosus pollicitator aderit, in ea re satis esse abstinentem, in qua tu, ad quem prima ignominiae pars sit redundatura, fortassis fueris fiducia illius negligentior?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non istuc patiar unquam, ut majores caussas aliquas, non advocatis omnibus prudentibus, quid aequitas postulet diligentius scisciter, et neque, ut me aut assessor, aut meorum quispiam vel minima etiam in re, esse negligentem possit suspicari, commisi unquam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hanc tu parem etiam aliis in pontificibus prudentiam <hi rend="italic">non</hi> desideras?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Vel majorem etiam, fieri si possit, eam esse in omnibus cuperem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Praetorium <hi rend="italic">ergo</hi> id esse munus dicemus, an non summa diligentia cavere ut petentibus jus reddatur et ne cui injuria inferatur? Quid si quispiam contumax, protervus, insolens, audax, divinaque omnia jura et humana aspernetur, adsit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Coercebis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Cruciatibusne atque securi fortassis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Cave, Alberte mi, istiusmodi omnia non a pontifice  longe esse oportere aliena, judices: mortem, inquit, nolo peccatoris, sed ut convertatur et vivat, et saepe expertus sum, hunc esse in hominibus sensum et mentem ut facilitate quam vi, ratione quam juribus, suadendo quam imperitando ad rectum et religiosum vivendi callem reducantur. Quo magis eos vitupero, qui cum primum se in eum locum constitutos vident, <hi rend="italic">ut</hi> a multitudine atque imbecillioribus facile timeantur omnes cum de quibus aliquid suas ad aures sinistri advenerit, illico capitali odio pro hostibus prosequantur; nam decet  quidem pontificem bonos inprimis fovere et plurimum honestare, quo ceteri similibus praemiis ad virtutem <hi rend="italic">allecti</hi> excitentur, malos autem omnibus argumentis ita curare, ut, quoad  possit, emendatiores reddantur. Inter te, inquit, atque illum prius corrige, dehinc aliquot adhibe tecum <hi rend="italic">testes</hi>, postremo  die ecclesiae. Perverse igitur is qui ecclesiae personam gerens a postremo, primis admonendi praeceptis posthabitis, occeperit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hanc igitur admonendi atque emendandi provinciam cui ascribemus? Patrifamilias, praetori, duci, alicui optimo, an cujus erit muneris?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Duci fortassis; siquidem ad eum spectat militem servare incolumem et meliorem fortioremque in dies reddere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Censes istuc?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Percommode quidem: nam et in coetu Christifidelium omnes agere militiam dicimur. Sed muto sententiam; nam utilitatis gratia curam de milite habere ducem inprimis video. Nos autem pontifices, ut fidelium curam geramus, tametsi  nonnulla publica admonet utilitas, tamen ipsa inprimis cogit caritas, de qua meministi <hi rend="italic">quae</hi> apud sacras litteras attestentur, quippe cum pastores admodum esse nos animarum dicant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hoc tu etiam igitur praeter eas, quas diximus, curas, ad pontificem pastorium hoc pacto munus adjecisti?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Atqui nostrum hoc primum esse officium profiteor: nam pasce, inquit, oves meas; et pastor item bonus animam pro salute suorum exponet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si quis incorrigibilis prohibeat ne pascas, gregemque diripiat, is ne apud te erit in hostium numero?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In hunc ego aeternos ignes immittam et sacerdotali ferro prosequar.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ense fortassis atque jaculo?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Odisse isthaec, inquam, decet sacerdotem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quali idcirco ferro prosequemur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quo scilicet ab sano fidelium coetu et valenti a corpore corruptum illud abscindamus atque exterminemus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Rem ipsam teneo, excommunicabimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Equidem, atque anathemate.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hoc igitur ultimum habet pontifex, quo in hostem irruat an aliud quidquam?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sic censeo, inprimis ferro et sanguine omnino abstinebit; non enim aedificabis, inquit, templum mihi, quia vir sanguinis es.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si tandem aliqui hostes omni insidiarum et furti genere, omni populationis et vastationis impetu et ferro institerint gregem infestantes, armisne prosequemur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quas tu mihi populationes, quas vastationes, quos hostes recitas? Armisne pontifex et viribus utetur? Minime. Nae vero militum vel potius, ut comici poetae nuncupant, latrocinatorum pontifex erit dux?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quidni si opus fiet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Dic, obsecro, meliora, mi Alberte. Sint ecclesiae ad incolumitatem tutissima arma virtus et religionis cultus. Nunquam  enim ex omni historiarum memoria comperies ecclesiam, nisi summis pontificibus id volentibus et plane excitantibus, in bellum aliquod incidisse nusquam uspiam; tam fuere temerarii atque audaces hostes qui ecclesiae inferre non inprimis sint veriti; omnium sibi regum atque principum atque nationum animos infestos reddit quisquis <hi rend="italic">pacatum</hi> et religioni intentum pontificem temere lacessere aggrediatur. Denique non  te laudaro, mi Alberte, bella si velis eos gerere, qui esse pacis  auctores debeant, sique eos ad vindictas et armorum furorem animo vel pendere, qui humilitatis et aequanimitatis vestigia praebere in dies ceteris debeant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nullos ergo habebit hostes pontifex?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nullos prorsus: aut quos tu illum putas habituros,  cum neminem offenderit, cumque ita vixerit ut eum probi diligant, <hi rend="italic">improbi</hi> facile vereantur?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ita ne sit, mi pater, an secus est ut consideremus, <hi rend="italic">num</hi> fortassis adesse complures hostes infestissimos comperiemus, an idcirco ita vis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Placet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quem principio hostem appellabimus, mi pater?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Hostem ferunt in agro tum esse, cum fures coacervati in unum igne et ferro vastant ac populantur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non id interdum hac tempestate, quando evenit ut noster vel magis miles quam hostis agro et rebus nostris sit gravis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Etruscus noster ager id plane didicit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hostes idcirco erunt?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Minime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quod ea non hostili insequantur, sed petulanti potius animo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Animo igitur vel magis quam re ulla alia, hostilem vim fortassis est ut consideres?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At quo tum igitur fore hostem animo arbitrabimur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ira incenso, odiis tumido, laedendi cupido et  studioso.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Erit ergo veluti architecti coaedificare, piscatoris expiscari, musici decantare, ita et hostis munus laedere an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Inprimis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Artifex igitur laedendi hostis.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pulcre. </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid tum, laedetne is, qui bona nobis auferat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Laedet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tum et qui mala afferat, an non laedet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Laedet quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An aliter est quod cum fiat, noceat incommodisque afficiat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nequaquam aliud praeter haec ista quae <hi rend="italic">dixisti</hi> duo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Bona appellant vulgo divitias, agrum, domum, suppellectilem.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Beneque illi esse item ajunt, qui viribus corporis nervorumque atque membrorum integritate valeat, qui omni sit dolore liber, quique ad vim adversarii sustinendam sit robustus et firmus, quique agilis, velox, ad <hi rend="italic">persequendum</hi>, et si qua sunt istiusmodi.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atqui cum illo bene agi dicitur qui rationem rerum suarum bene constitutam habet, qui praecavisse novit a malis, paupertatemque atque servitutem vitasse, amicos <hi rend="italic">elegisse</hi> et cetera istiusmodi novit: adipisci quae qui dicat, ad amplitudinem  et decus spectare commode fortassis dicet.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At, contra, mala, paupertatem, imbecillitatem, aegritudinem, dolorem, ignominiam atque persimilia, an non? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Isthaec nempe mala.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Cujus igitur sit officium laedere, is adeo bona auferet, divitias, consilium, famam, dignitatem: malaque <hi rend="italic">inferet</hi>, paupertatem,  imbecillitatem, dolorem et cetera generis ejusdem?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Persuasum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid censes, utrumne noster hic laedendi artifex suo in opere veluti musicus, architectus, piscator aeque erit et bonus olim et non bonus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sequere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ut clarior nostra sit oratio, age dum, mi pater, sic inquam, utrumne arcum, ensem, jaculum et ejusmodi tum  esse bona dicimus, cum ad concidendum, <hi rend="italic">transverberandum</hi>, perscindendum, atque istiusmodi nocumenta inferenda sint firmissima?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Proxime id quidem, ut inquis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At generis quidem ejusdem si qua in opere ipso deficerent ac parum laederent, non bona?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Mala quidem, ut consentaneum est, ea plane  dicerentur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Bonus an non ea re erit inimicus qui ad nocendum promptissimus cupidissimusque sit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atque optimus qui valde, an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Inimicum igitur bonum diximus eum qui inferre mala studeat, bonaque arripere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quonam pacto igitur sese hic seu hostis seu inimicus geret, de eo loquor quem <hi rend="italic">fingimus</hi> esse inimicorum principem et omnium optimum.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Bonis privabit, malis obruet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quanam ratione et arte id conabitur? Num hic agros vastabit, amicos ut interimat nostros, utique fiant inimici maxime innitetur, utique apud nos ficti et fraudolenti sint amici curabit, per eos venena subministrabit, noctu ut requiescentes  opprimat elaborabit, famam decusque adversarii perdere fatigabit; denique moerore omni atque tristitia esse, quos oderit, refertissimos concertabit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Vidimus igitur qualis in nos futurus sit optimus inimicus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Perspicue.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Utrumne aeque is armatus, quem hostem appellant, inimico huic erit animo in nos persimili incensus, ut quibus diximus odiis atque injuriis atque crudelitate prosequatur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non facile <hi rend="italic">reperiri</hi> arbitror tanta praeditum immanitate  hominem, neque tam nocendi avidissimum, qui ut ubi etiam cuncta ad crudelitatem pro libidine suppeditent, non <hi rend="italic">ille</hi> tamen ipsa admodum humanitate et natura hominum interpelletur, ni omnino siet plane efferatus et sui penitus  oblitus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quae igitur poterit mala ultima hostis afferre, ea quominus inferat, ipsa ab humanitate interpellabitur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Humanitatis quidem erit adversus hominem se item hominem <hi rend="italic">belligerum</hi> meminisse.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fiet igitur hinc, ut hostis non penitus barbarus, qui jure belli, non furoris audacia contendat, multo is quidem quam inimicus, quid deceat, attendat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Persuadetur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Mitiorem ergo et leviorem sibi perferet hostem dux, quam inimicum?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quidni?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At utique tamen laedendi erit cupidus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Percupidus, sed non aeque. Nam hic ut vindicet atque  imperet, ille ut noceat vehementius, gravissimaque inimici aerumna ut gaudeat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Diximus denique et qualis istiusmodi optimus sit in nos futurus inimicus; an praeterea de eodem aliud restat quod dicendum putes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et quid aliud? Siquidem illum omni animo et opere accinctum ad laedendum et <hi rend="italic">mala afferendi</hi> studiosum fore diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Proxime fortassis est ut perscrutemur quid praeterea talis quispiam si instet inimicus optimus, in illum nos contra quales futuri sumus, fortunasque eripi, sanguinem, vitamque appeti facile, an non <hi rend="italic">sinemus</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Malum istoc.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur? Quales nos praestabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In promptu id quidem est, nam par, uti ajunt, pari referto, dum secus nequeas atque id liceat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non et illum, quoad possis, juvabit omni laedendi arte et jure inimicum superare?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid et illud an non aeque oportebit, noctu cum in cubiculum tete recipias, Dionysii et more omnes articulos scrutari, ostiique vectem firmare, denique ab omni vi et fraude, ab omni veneno, et ferro, et igne praecavere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tum proinde et mane surgenti, atque in publicum prodeunti an non aeque tibi erit opus fidissimos excire satellites, amicos advocare, exercitum lustrare, ne quid desit rerum optimarum, neve quid absit, aut <hi rend="italic">impendat</hi> incommodorum  praevidere.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Qui ita exequatur, optimum ne illum ducem  nuncupabis? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Plane optimum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Optimum igitur perduellionum <hi rend="italic">ducem</hi> effecimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ut nihil supra.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Crudele inter eos bellum fore suspicor.  </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Fortassis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Illius tu ducis vitam laboriosam existimabis, an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Omnium maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ea igitur ex vita ut victor evadat, an non  elaborabit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Actutum!</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quod si se imparem esse sentiat, pacem, induciasque captabit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Si quidem per inimicum <hi rend="italic">id</hi> liceat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non licebit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non semper.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In discrimen belli, <hi rend="italic">censeo</hi>, deveniet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si inimicum superarit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sedata omnia.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Occidet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Mortalem ergo contra inimicum contenderit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Plane.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si inimicum quem optimum finximus, dux  quispiam negligat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Stultissimum, infelicissimum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si, ut diximus, rem observabit, an non erit <hi rend="italic">infelix</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nam in expeditione persistere, in gravissimis periculis versari, durum et grave est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Est praeterea et aliud fortassis ab re, quod rogem, amabo; audistin quod fertur, <hi rend="italic">ad</hi> bonum aliquid inimicum   prodesse?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ajunt. Tametsi non facile id apud plerosque fit verisimile, ut assentiantur cum prodesse cujus primum sit  munus quoad possit obesse.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid tu, cum longe qui te diligentem, pervigilem, praecautumque in rebus agendis reddiderit, an non profuisse existimabis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Caussa extat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non, quem diximus, inimicus ea re proderit cum effecerit noctu diuque semper, ut sis animo ad praecavendum pervigili?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non inficior.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si illum superes fortissimum inimicum, an non grandem consequeris divitiarum cumulum, arma et spolia, atque gloriae et nominis posteritatem?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Claret.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Diximus igitur qualis sit inimicus futurus optimus, <hi rend="italic">quidve</hi> hostis ab inimico differat, quidve duci ex hoste sit futurum commodi; perscrutemur idcirco, hostesne sint in pontificem parati aliqui et ita animati ut bona eripere, malaque inferre studeant, an aliter est quod agendum ducas?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istuc dudum expectabam, atque istic sum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Diximus in bonis putari divitias.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et in bonorum numero ascribi valetudinem, vires.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Annumerantur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Item amicitias, amplitudinem, libertatem inter bona esse perpulcre <hi rend="italic">collocanda</hi>.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non injuria.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et quid haec cetera, quietem, tranquillitatem, otiumque, an non bona esse existimabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxima et primaria bona.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si quispiam infestus adsit, qui pacem otiumque inter cives disturbet, hostemne illum putabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>jam nunc te fortassis intelligam, namque boni si sumus pontifices, malos omnes in hostium esse loco habendos fortassis est quod dicas.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et de istoc quidem abs te vehementer cupio, mi pater, audire quid sentias.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Rem ut est. Equidem naturalis quaedam bonos inter atque malos, doctos inter atque indoctos, severos inter et graves atque voluptuosos et leves semper fuit inimicitia, ut neque improbi eos qui virtute et moribus clari sint aequis possint oculis conspicere. Sed hos intemperantes atque immodestos non ut hostes, sed ut filios atque ut ex commisso grege homines habendos et curandos diximus, nam emendandi quidem atque ad virtutem revocandi et bonis moribus imbuendi sunt. </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tum et de imperatore atque pontifice ita apud nos constitutum est, ut illi arma inprimis, rapinas, ferrum, perfidiam, vimque relinqueremus; nobis autem pontificibus pacem, eleemosynam, humilitatem, fidem, aequitatem, pietatem, caritatemque exciperemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p><hi rend="italic">Sum</hi> vero istuc; nam imperatoris <hi rend="italic">quidem</hi> primum est munus ferro aciem ad victoriam struere: pontificis virtute  animum ad religionem ornare.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur si aliqui aderunt, qui gregem populari, divina omnia et humana violare, vexare, perturbare, evertere contendant; pacem, otium, tranquillitatem, pietatem, caritatemque e medio tollere studeant, qui neque ecclesiae gladios, neque armatas manus, neque ullam vim bellorum vereantur, quosve neque igne, neque ferro, neque omni exercitus et armorum copia possis tollere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>An uspiam esse gentium hostes existimem quos vi et viribus nequeas conficere?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Vitiane tu putas, iracundiam, luxuriam, accidiam, et  istiusmodi, ut loquimur, igne aut ferro tolli posse? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid igitur?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quoniam, si perscrutabimur ea, non modo pro hostibus, sed tamquam optimos et supremos esse inimicos pertimescendos fortassis comperiemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Dura.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Namque quid tum multa, an unum tantum esse vitium interpretabimur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Perplurima profecto.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Utrumne doctus si quis enumeret, ea inter voluptas, ambitio, cupiditas et istiusmodi recte collocabuntur? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Perpulcre.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fortassis, adeo conducet ex omnibus unum sumere atque considerare id erga nos, quid valeat, quid machinari sit solitum. Qua re quidem cognita, quale nostrum contra sit officium futurum intelligemus, ut veluti armato illo in hoste perquisivimus, id ita <hi rend="italic">vi</hi> prosequamur, an alia ulla occurrit  via commodior?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p> Laudo istuc.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tametsi fortassis illa in pontificibus, quae dixi vitia, voluptas, ambitio et cupiditas perspicua interdum sunt, ni aliter agendum censeas, id unum excipiamus quod illi sibi <hi rend="italic">deterius</hi> putant, <hi rend="italic">quive</hi> ad unum usque ferme omnes, quantum a principio dixeras de illorum apparatu et pompis, facile quam deditissimi sint intelligimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Porro id ita agendum censeo, unum aliquod pontificibus commune et perfamiliare vitium sumamus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid, si quis dicat ambitionem inter pontifices adeo primum obtinere locum?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Mea quidem sententia, etsi difficile quidem dictu est, quale in pontificibus plerisque egregium sit scelus; tamen usque adeo quosque etsi infimos clericos ambitione tumidos video, ut ceteris vitiis, vel quae ea domi inter parietes lateant, vel quae <hi rend="italic">per</hi> ipsum ambitionis odium oculos persaepius meos perstringant, ceteris, inquam, fortassis accessionem aliquam fieri, huic omnium maximo nullam penitus posse existimem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>De ambitione igitur nobis sermo est habendus, posthac de ceteris, si videbitur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ordinem commendo tuum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hostem diximus habendum eum qui laedat, qui bona  auferat, mala inferat.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Laedat igitur ambitio ipsa, an non, consideremus: etenim ambitiosos eos, qui honoris plus satis cupidissimi sint, dicemus an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In promptu est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hos ipsos non semper ex sententia atque pro expectatione et desiderio honores assequi, ut affectant, etiam in  promptu, an non est? Siquidem neque omnes ad unum neque ad singulos, prout <hi rend="italic">exoptant</hi>, singuli honores deferuntur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ipsam rem ingredimur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur ambitiosus, an aegre feret se fore  posthabitum?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Feret.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An illis invidebit qui praeferantur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Invidia quidem afficietur, excruciabiturque.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non cupiet prae se interpellari illum, ab omnique spe, <hi rend="italic">et</hi> expectatione cadere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Cupiet atque ad id multam dabit operam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ubi de interpellando aliorum cursu ad gloriam frustratum se intelliget, an iracundia exardescere occipiet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Occipiet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An per iracundiam etiam ignominia illum concertatorem suum <hi rend="italic">afficiet</hi>.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Fortassis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid hic, <hi rend="italic">ubi</hi> cum persimili pacto in <hi rend="italic">assequenda</hi> dignitate impediatur, an non quaeret vindicandi occasionem atque in tempore ulciscetur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non equidem honore sese dignum putet, ignominia qui non usque moveatur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Paratae idcirco jam erunt simultates?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Erunt quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Facile convicia post haec?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Facile.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ad injuriam igitur et vim, atque nocendi studium res deveniet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Propere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Inimici igitur facti?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Graves quidem admodum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Inimicitias igitur et contentiones ut gerat pervicacius atque superbius, <hi rend="italic">num</hi> et amicos una exercebit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Vehementer.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ille contra <hi rend="italic">inimicos</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et suos.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nae vero ut superet contumeliis et manu, conjuratores  atque satellites hinc erit convocet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Atque eosdem non paucos.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Illos ut detineat an non multo erit opus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Multo prorsus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Multam idcirco spem atque praesidium in pecuniis <hi rend="italic">locabit</hi> an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Omnem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Rem idcirco suam familiarem summa avaritia  servabit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atque idem tamen vindicandi et laedendi libidine flagrabit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>In idque inchoatum facinus rem suam familiarem ut  profundat opus cum siet, quid aget miser, qui hinc avaritia, hinc iracundia et ceteris malis confligatur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Miseram conditionem imponis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid an non, si erit, ut diximus, ambitiosus et odiis actus rem suam prae vindicta parvifaciet atque in complices simultatum effundet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Hei mihi!</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quidnam?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Cogis tristem ut memoriam repetam, nam id ipsum non uno aut in altero tantum, sed universa praeclarissimaque in familia maximo cum dolore et commiseratione illorum calamitates accidisse vidimus, cum illorum quisque sese per ambitionem haberi principem cuperet in familia, ceterosque sibi in servorum esse loco affectaret. Sed haec sinamus, siquidem magni esse animi ajunt, mala praeterita oblivione tollere, praesentia ferre absque dolore, si possis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Oh fata! jam te intelligo quos recenseas; domestica haec nostra calamitas est, grave quidem nostra in familia malum, quod amici omnes lugeant, malorumque nostrorum vel magis quam ex Albertis plerique misericordia et pietate moveantur. Sed missa haec faciamus; ad rem redeo. Qui igitur ita per ambitionem suam rem familiarem extenuatam senserit, aliundene sibi quaesito esse opus, an non sentiet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sentiet profecto.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Amicorum, ut opinor, primum aere sese onerabit, quod in socios factionis et in pompae apparatum det.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istuc extemplo confugiet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At exhaustis et fatigatis amicis, unde vis rapere, ambitione, invidia, ira, iracundia et vindicandi libidine coactus, quid putas, erubescet? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istuc quidem consequens est, nam ex flamma denique cibum, ut ajunt, rapiet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si vel propriis viribus, vel amicorum ope et suffragiis rem ex sententia exequatur, modumne ambitioni hunc impositurum putas?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Minime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nam ambitiosus qui sit, una cum re adepta spiritus assumit et spe ad altiora spectat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Cum amici ergo, qui fuerant, huic rem paulo esse accumulatiorem factam senserint, suumne illi quod <hi rend="italic">mutuo</hi> dedere, repetent potius an negligent?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>An haec ea fortassis adeo sunt tempora, amicorum omnia ut sint communia? Atque <hi rend="italic">repetent</hi> quidem, ne cum illi prodigo et intemperanti reliquerint, utrisque desint, <hi rend="italic">probe</hi> si  <hi rend="italic">sapiant</hi>?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hic tum, qui suas spes omnes et praesidium in pecuniis locarit animoque qui ad majora pendeat, spontene referet an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Referet minime, sedne coactus quidem fortassis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Amici qui diu institerint repetendo, neganti illi, an succensebunt?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Succensebunt.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid tum hic noster aget?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Obaudiet, fabulabitur, irridebit postremo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Num amici idem qui fuerant, ob id irrisi odium  et simultatem inibunt?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Prorsus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Amicis eo pacto amissis, inter scurras et sicarios constitutus, spe captus, animo ardens, egestate laborans, an erit felix?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Aufer, potius et miserorum caput.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An in eam tandem vitam cadet, in qua multa pertentans,  plura cupiens, omnia audens, nulla quiete nullaque tranquillitate ejus animus potiatur aut gaudeat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In eam istam ipsam quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Eccam</hi> igitur ambitionem quid possit, alia excitare vitia, invidiam, iracundiam, injustitiam, rapinas, amicos amovere, ad paupertatem redigere, denique infelicissimum et penitus miserum reddere.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Est id quidem ut inquis, Alberte.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid cetera vitia, cupiditas, voluptas et hujuscemodi; an qui cupidus erit idem erit et raptor? Qui raptor idem insolens, audax? Et qui istius animi et morum idem invisus atque  exosus? Et qui odio sese omnibus sentiet, an non idem acerbum et durum <hi rend="italic">se fronte et pectore</hi> offeret, atque perinde molestum, denique gravem atque infestum, ac postremo inimicum? Parique ratione et qui voluptuosus, idem, ut sibi satisfaciat, an non erit cupidus, quoad postremo in miseriam et ultimam uterque in calamitatem cadat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Adduxisti equidem ut recte intelligam, quid vitia istaec singula et quaevis deinde alia ad perniciem atque interitum quietis, tranquillitatisque animorum valeant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur pariterne hostis officium peragunt?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pulcre.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quanto igitur acriori et <hi rend="italic">solicitiori</hi> in expeditione versetur pontifex quam dux, non prospicimus ac si id ante oculos ipso in pariete sit depictum?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quod dux belli mortales, ut ajunt, totidem ex castris animasque manusque educit: nos adversus eos bellum pro officio gerimus, qui neque arma, neque ignes, neque vim ullam metuant; cujus impetum neque fossa queas, neque vallo evitare, quod ne fidissimi quidem armati custodes, pervigiles excubiae <hi rend="italic">ex</hi> secretissima possint aula et cubiculo prohibere, a quove perditis bonis in ultimum malorum, in profundissimam infelices miseriam provolvantur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Assentior.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Boni idcirco inimici vitia vel magis quam <hi rend="italic">hostis</hi> erunt nuncupanda?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Persuadetur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Inimicos prodesse diximus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Interdum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Inimicos igitur <hi rend="italic">adeamus</hi>, consideramus quid prosint,</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ex re erit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Commodine quidpiam ex vitio redundet, mi pater, apud te an cognitum est?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ex vitio quid boni queas excerpere non intelligo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An quod dicebamus ex armato inimico, id item ex vitio, puta ex his quae recensui modo, si qua desidia aut <hi rend="italic">inertia</hi>  obstet, fietne ut <hi rend="italic">perspicaciores</hi> et solertiores ad praecavendum simus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nequaquam istuc.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ex quovis alio, stultitia, temeritate, arrogantia fortassis  fiet ut rectius nobiscum agatur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Multo id quidem minus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hac igitur una re nostri <hi rend="italic">inermes</hi> inimici optimum armatum illum inimicum exsuperant, quia ex se cum incommoda quae diximus omnia, cum <hi rend="italic">multam</hi> ferme utilitatem afferunt. Sed non hic insistamus: proxime perscrutemur; armatusne    inimicus optimus ad laedendum, an vitia ipsa sint paratiora? Et quid de utroque est quod judices, mi pater?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Utrumque a me abesse mallem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non qui ad cubiculum usque omni aedium aditu obcluso, spretisque atque neglectis custodibus, ad te opprimendum  ingrediatur; quive ex amicis inimicos reddat; qui domum tuam omnem interdum perturbet, quam armatus ille atque  vallo et fossa seclusus inimicus erit longe tibi pertimescendus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Longe.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quanto igitur nobis quam imperatori negotium sit laboriosus ut ipse tecum id cogites relinquo; nam ego quidem de re ipsa quid statuendum sit, non facile disserendo posse inveniri opinor.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Una inprimis nunc me quidem ratio inter cogitandum impulit, ut armatum inimicum quam vitium minus fore nocuum <hi rend="italic">assentiar</hi>.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Elegans fortassis et te digna, mi pater.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>At veram opinor.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tibi nunquam ingenium defuisse intellexi.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Equidem adversus iratum inimicum armis et manu concertare, quam vitium habere <hi rend="italic">quicum</hi> confligas, eo praestat, ut arbitror, quo hic fortunas, aut denique inimici caput, res mortales, appetat; vitium autem rem, corpusque, ut explicasti, ultimum adducit in discrimen, ac postremo animum ipsum,  immortalis qui sit, conficiat; nam, ut inquit, in ignem aeternum  et in sempiternam mortem detrudit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Istuc, mi pater, erat quod ex te dudum expectabam; cum igitur tenemus inimicum, quo praestantior queat uspiam inveniri nullus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Assentior istuc quidem tibi, mi Alberte, ita esse denique, ut convicisti.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur, tantone in bello succumbemus, an cedemus, an strenue potius dimicabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et cedere in bellis est praesertim ducis, et succumbere miserrimi.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Totis</hi> ergo viribus dimicabimus an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Prorsus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Grave erit certamen.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Apparet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quibus igitur militibus, quove armorum genere  utemur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istuc autem cogitemus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An eos <hi rend="italic">imitabimur</hi> qui cum sibi non satis copiae et facultates suppeditent, suos tum in hostes eos excitant atque incendunt qui prope illis extent inimici?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Percommode.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An ut dixi modo, malos bonis esse inimicos, ita etiam vitiorum inimicissimae an non erunt virtutes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Peraeque.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Iisdem igitur fortassis cum cetera suffragia et bellica instrumenta desint ad expugnanda vitia utemur, easne fortassis ut collectitios milites, censu erogato, conducemus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Utinam liceret, nam qui plurimum divitiis abundant iidem et virtute fortassis non egerent.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Virtutibus esse opus tandem, ut <hi rend="italic">conjecto</hi>, fatemur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Scilicet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Unde igitur illas exciemus, a finitimis, a vicinis nationibus, aut unde mutuo erogabimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>A nobis procul dubio.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et hoc item ad nostros labores accedit, quod ceteri duces manu et armis plurimorum utuntur, nos viribus nostris <hi rend="italic">si</hi> perfidos, et molestos, semperque, ut ajebas, assiduos atque  infestissimos hostes propulsamus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Grave bellum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid quod adversus admodum inimicos, qui intra cubiculum inserpant, animumque ipsum conficiant?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Durum certamen.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur hic agendum censes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nempe haud nunc alia jam mihi in mentem redeunt praeter unum illud, ut Deum ipsum optimum maximum, priusquam negotiorum aliquid aggrediamur, ut a tam pestifero et mortifero inimicorum numero esse nos salvos velit, summis votis precemur. Eaque re hoc de me ipso profiteor post <hi rend="italic">annum</hi> aetatis meae vigesimum, quo me a fervore juventae paulisper ad mei cognitionem integriorem atque maturiorem recepi, nulla fuit unquam dies, qua non ceteris <hi rend="italic">onustus</hi> rebus studuerim ad sacrificium interesse, atque ut <hi rend="italic">me</hi> ab adversis casibus, ab omnique malo defenderet a summo Deo deprecarer. Quod ipsum laudo apud reliquos omnes pontifices pro more fieri, ut prima illorum sit opera, concelebrandi sacrificii, idque singulis, atque inprimis ipsis pontificibus esse pernecessarium censeo, tum ceteras ob res, tum ob haec, quae ipse recensuisti, vitanda atque effugienda, tuque, mi Alberte, an non idem expedire existimas?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Maxime; sed quid si armatum illum imitaremur ducem perduellionem quem diximus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Atqui id?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Par pari, ut ajebas, qui referat, seque omni laedendi ratione esse superiorem velit.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Necdum satis quidem intelligo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid, inquam, si inimicum, qui nos omnino esse miseros studeat, omni bellorum arte et ratione tollere ac perdere emoliremur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Viri officium istuc, si queas.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ac si nequeas, num et tantumdem juvabit noctu cum te in cubile recipias, omnes angulos, omnesque, ubi latitare possit, arculas disquirere, ac mane exercitum lustrare, amicos ad consilium excire, ne quid mali impendat, ne quid commodi desit prospicere; haec, inquam, mi pater, an non et nos decent?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>De reliquis apud me satis admodum constat ut tibi <hi rend="italic">assentiar</hi>, nam animum quidem intelligo et omnes mentis recessus et latebras, sedere ubi possit vitium, mecum ipse repetam, atque expurgem, admones: laudo. Sed quos tu amicos  acciri, quem exercitum lustrari jubeas, apud me non liquet. Siquidem non aliunde nos, quam a nobis atque ab optimo Deo opem, auxiliumque adversus nostros optimos inimicos impetrare posse diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At animi virtutem item diximus adversus inimicos excitandam.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Memini.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid prope an non et ipsam optimam rerum agendarum comitem datam nobis adeo rationem, cui tam sumus cari quae nos nunquam, dum ea delectamur, deserat, a qua denique omne sumus amicitiae munus et officium suscepturi, tanta in expeditione negligemus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nequaquam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hanc igitur amicissimam expertissimamque consulendam arbitramur, an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nimirum et percommode istuc: quid enim uspiam sine ratione fieri possit rectum et laudabile?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Itaque nostros, ea comite, exercitus lustrabimus; quatuorque illos belli legatos, virtutis filios, inprimis consultabimus, justitiam in <hi rend="italic">dextero</hi> cornu, fortitudinem in sinistro,  hinc atque hinc prudentiam et temperantiam, dehinc tribunos atque praefectos militum, qui circum astent; ad phalanges admovebimus liberalitatem, humanitatem, innocentiam, amicitiam, concordiam, pietatem, religionem, verecundiam, misericordiam, intelligentiam, <hi rend="italic">ratiocinationem</hi>, circumspectionem,  praecautionem, docilitatem, acrimoniam, magnanimitatem, fiduciam, securitatem, magnificentiam, constantiam, tolerantiam,  firmitatem, patientiam, humilitatem, <hi rend="italic">et alia</hi> ejusmodi; quibus optime compositis et acie praeclare constituta, gloria et immortalitas e regione signa canant in quatuor illos hostium duces, aegritudinem, metum, voluptatem atque libidinem. Ratioque  ipsa virtutis filios dictis atque cohortationibus incendat, ut  totis viribus instent, ne invidia, desperatio, pigritia, timor, malevolentia, jactatio, ira, odium, discordia, cupiditas, aut manipularius illorum quispiam temere in nos insurgat. Neque  deerunt sacerdotes qui more majorum auspicia, tripudia, extaque praemeditentur, spes, fides et religiosissima caritas, aderuntque  architecti atque fabri illi, studium, industria, vigilantia, amor.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Oh! pulcherrimum et omnium speciosissimum exercitum,  mi Alberte, isthunc.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An quo quispiam fretus regnum audeat merito appetere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid ego regnum cupiam, cum inter hunc ipsum tuum splendidissimum, fortissimumque exercitum versemur,   quibus in castris vitam degere divina quaedam felicitas est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si et ipse rex, mi pater, <hi rend="italic">cum sis</hi>, an istoc exercitu non delectabere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quidni atque summopere: namque apud me ita adeo persuasum est, hic divinus et invictissimus immortalisque, apud quem, seu rex ille, seu privatus, sit, exercitus, non si omnes barbarae una conjuratae nationes irruant, fieri posse, ut non victor plane et triumphans supersit atque imperet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si rex quispiam ipsum hunc negligat exercitum alioque, ut solent, phalerato et armis glorioso gaudeat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Insaniat, Alberte mi, insaniat; nam virtute qui careat, stulte confidet ferro.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Hinc qui satellitum copia et armatorum audacia magis quam animi laudibus et ratione fretus atque adductus temere aliquid aggrediatur, pariterne suam esse rem bene constitutam judicamus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pessime cum illo quidem agitur; insanit. Deinde quid de eo sentiam? Do illi Xersis, Darii, Alexandrique exercitus, do item graecas atque latinas una omnes copias ut illis pro libidine utatur; sic tamen ipse mecum de homine istoc conjecto, noster hic, alter illi si defuerit exercitus, posse illum  nihil quod ad regnum spectet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tua igitur, si satis concipio, sententia ferme admodum est hujusmodi, ut rex qui sit, plurimum nostro virtutum exercitu, si sapiat, sese communitum velit.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Imo adeo istuc sic censeo; vitam ipsam, ut arma et copias et cetera generis ejusdem omittam, regi esse minus quam virtutis aciem necessariam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nobis idcirco, qui reges sumus, idem erit   pernecessarius.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pernecessarius, tametsi ipsi haud sumus reges; nam et apud privatos omnes virtus pro regno est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Negas tu, esse te regem?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quod multis praesim fortassis, eosque regam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et foris quidem certe decurio multis praeest atque regit, et domi magister ludi et scenae, an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid tum?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Reges et ipsi erunt.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid igitur?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Regem fortassis, de quo loquimur, in medium si adduxerimus apertius, de qua re sit nobis futura consideratio, facilius aperiemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Plane laudo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Age dum igitur quid si forte te esse regem plurimum desideres, quae te caussa, ut id cupias, adducet? Ut coenas fortassis plenas obsoniorum, ac toto orbe atque mari exquisitissimarum dapium copia refertissimas, musicis et <hi rend="italic">psaltriis</hi> coram applaudentibus, alea, festivitateque, et joco, inter ganimedes splendidissimos constitutus, multam in noctem protrahas?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istanc ego ganeorum vitam regibus convenire, aut  antistitis praesentiam non multo refugere arbitrer? Quid quod eos non possum perpeti pontifices, qui nisi prius stratis tapetis, explicatoque omni strato <hi rend="italic">gemmante</hi>, expositaque omni argenti copia, ad convivium sese audent conferre; apud quos saepe, cum eorum frontem, et os rubicundum, et oculos non minus crapula quam lampades et faces ipsas igne ardentes intuear, cynicum illum nescio quem philosophum desidero, qui quidem, cum in triclinio ubi esset receptus, nusquam suo judicio adesset, quo inspueret, locus vilior, in faciem inter delicias gloriantis tyranni conspuit. Itaque cynicum hunc desidero, namque et tyrannos ipsos intolerabili omnium ineptiarum genere hac tempestate exsuperant pontifices plerique, de his loquor ineptissimis, qui, si qui sunt, non fortassis pauci sunt, qui plures nisi ad crapulas quam divinum ad sacrificium ipsi faciant caerimonias, exhiberi velint odia; namque cum lavantur astantes omnes discooperire, atque ad genua procidere patiuntur, et nisi decies praegustatum sumere ad dignitatem arbitrantur monstra.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non igitur istas ob delicias et vivendi intemperantiam  atque luxum ipse affectaris regnum?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nihil minus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid an multas ut opes assequare?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Dixero, nam mihi quidem isthaec mens est, ut opes et divitias arbitrer plurimum ad virtutis laudem conferre; nunquam tamen eo fui ingenio, ut non amplitudinem interdum negligere aeque magni esse animi atque maxima affectare  existimarem. Quod si tamen amplissimum fore me cupiam, non paucae res, ut id velim, hortantur. Sed omnium primam fore velim tibi persuadeas, ut meis prodesse, bonis benefacere, denique et calamitosos possim non mediocriter juvare.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid, an non et honorari regium quiddam est?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Vide, mi Alberte, <hi rend="italic">quid</hi> sentiant philosophi de istac  re, quid velint. Mea haec sententia est, laudis et gloriae satis capere illum, a quo bonis bene sit. At quid tute pensitas tecum? Meam fortassis sententiam non approbas?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tua quidem, mi pater, apud me dicta pro oraculis sunt. Sed mecum perscrutabar, praeter, easne, quas diximus, alia uspiam honesta adesset caussa, ut regnum quispiam bene moratus cuperet. Quid censes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nullam quidem, quantum nunc mihi fit verisimile.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si quispiam eo regnum affectet, ut immortale de se posteris nomen relinquat, re militari, reque publica bene administrata?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istius omnia huc denique contendent studia, plane ut prosit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Regem fortassis idcirco non absurde statuemus eum qui suis plurimum prodesse, et bonis benefacere possit et conetur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non tanti meam facis, Alberte, ut dixti, sententiam?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Veluti inficieris non a regendo illum fore appellatum regem, idcirco creasti hunc qui magistratum nullum gerat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non audebam, mi pater, a privato illo tuo, penes quem virtutem pro regno esse dixeras, regium nomen arripere.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Cedo igitur ut lubet, modo regi id munus ne subtrahas, ut multitudinem regat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Dabo, si spondes bona illum fide, diligentia rem gesturura.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Si virtutis amantissimus sit, recusabis?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Huic</hi> ego ac perlibenter tiaram atque sceptrum delego.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Ex officio laudabere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Sed satis lusimus, non enim apud nos adhuc clare constare arbitror, ut recte quid sit rex verbis explicarimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>At ipse regem unico describam verbo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Expecto.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pater est maximae domus, rex.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Dictum pereleganter. Sed inde ne plura <hi rend="italic">istum</hi> ad regem describendum desint, nam et bonos videmus aliquos et malos nonnullos patres, tum apud nos compertumne est regem istiusmodi esse ut suis atque probis bene plurimum studeat facere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Inhumanus sit adeo, si possit vel privatus quispiam suos amplissimos reddere, qui negligat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atqui reges istuc quidem plurimum possunt.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quis neget?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tum et in rege quid esse beneficentia potest clarius atque optatius? Tua igitur sententia beneficentiam atque liberalitatem fortassis primum esse in regibus munus dicemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non quidem postremum.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Dabit ergo?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Et</hi> large?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ac libere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non igitur erit mendax beneficiorum?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Digni odio, atque Superi illos quidem perdant, maxime pontifices, si qui sunt qui non modo beneficia quae vel inviti dare ipsa ab honestate et ratione coguntur, sed et verba atque sui potentiam auro venundent.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Nos</hi> igitur <hi rend="italic">aeque ac</hi> mercenarios illos despiciamus; ad regem redeamus qui quidem in suos beneficentissimus ut siet, quid? Bona ne fortassis eripiet aliis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Hunc tu admodum esse latronem voles, et istis persimilem qui cum primum pontificatum ingrediuntur nihil apud  eos antiquius est, quam ut omnes de quibus sinistra aliqua  sit fama oborta usurarum aut jurisjurandi, testamentique neglecti,  in jus vocant ut ea licentia vexati miseri se veluti a pirata redimant.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nullos igitur lucri gratia vexabit noster rex?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid? Et vexatores cohibebit!</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Justus idcirco erit.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Justus quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Utrum qui justus, beneficus, atque liberalis, idem et benignus, et facilis et perhumanus erit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid ni?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Qui bene suis facere studeat, quique donare, juvare, opitulari, idem summa cum voluptate quasi beneficentiae materiam praebentes eos omnes qui petant auscultabit, sese illis offeret libere, ut adeant commonefaciet, voletque eo perinde pacto videri qui sit plane, atque per virtutem laudari.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An praeterea cupiet alius videri quam sit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non, si erit optimus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quippe cum id nisi in deteriorem cadere sortem possit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si sit improbus, ambitiosus? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non illum imperio dignum putabo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quoniam ab ea, in qua ambitiosos versari vidimus, miseria longe regnum alienum est.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid denique ut laudetur, fingetne quidpiam?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quasi tuto id possit is, in quem omnium sint oculi conjecti.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si idcirco possit, astrologumne, magumve, quam  artem in regibus prisci desiderarunt, sese finget?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non isthaec in regium cadere animum reor, ut non inprimis gaudeat esse quam apparere; et pusilli quidem animi est atque fraudolentis, velle is videri qui non sis, atque eos imitari, qui, obtorto collo, humeris <hi rend="italic">depressis</hi> manibusque veluti  flaccescentibus, sanctimoniam ostentant. Quid dixi sanctimoniam? Imo sentinam vitiorum illa hypocrisi obumbrant nebulones, de quibus nihil dici potuit pulchrius, quam quod pridie a te dictum memini, dum tecum nostra pro consuetudine Baptista Albertus noster disputaret, quem studiosum adolescentem mihi carissimum, abs te plurimum diligi, Alberte, gaudeo. Nam inter disputandum dixisti, eos omnes, qui quidpiam fingant, procul dubio esse fures, siquidem veritatem <hi rend="italic">e</hi> medio tollant et rectum de se judicium involent.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Diximus id quidem disputandi gratia. Sed tune, mi  pater, eam sententiam an non approbas?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quin vel <hi rend="italic">jurarim</hi> illam esse verissimam, addamque hominem neminem se bonum videri cupere, magis quam qui sit nequam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non igitur erit rex, quem probum fore affirmamus, huic persimilis; nulla enim erit ille in re levis aut mendax, sed apertus potius, facilis, promptus, benignus. An sic censes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nihil ut illo simplicius.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non ergo pollicitando verbis et fronte <hi rend="italic">erit</hi> liberalis, re autem ipsa atque opera avarus et durus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nonne diximus illum, qui ita agat, furem esse? Qua re una quid potest in principe dici turpius?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur faciet? Utrum calamitosos non audiet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quidni?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ne pietate motus quidpiam fortassis polliceatur: qua quidem in re si fidem non servarit, in infamiam provocetur furti atque perfidiae.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Utinam liceret istuc nostros praesertim apud pontifices, nam maximis et gravissimis injuriis affecti paullulum auderent proloqui; verum, o tempora, o mores! ad id jam devenit res, ut calamitosum, opemque flagitantem pontifex non modo fronte liberali non accipiat, speque et bonis dictis sublevet; sed, quae summo et, uti loquimur, sanctissimo pontifici merito debentur eadem, hic, quisque ille sit, tumidus atque oscitans cadere ad pedes, adorarique velit; cumque responsa refert <hi rend="italic">voce</hi> pressa et gravi intra pectus immurmurans verba, non secus atque mustela pullos <hi rend="italic">pascit</hi>, suasque voces ita promit, ut verba etiam audiendo laboremus. Quamquam quidem hoc leve est, eo quod tanta sunt insolentia praediti ut per interpretes veluti ad barbarum aliquem, aut per syngrapha veluti ad scelestum ultimas in insulas relegatum, adiri velint; atque his utinam omnibus, quibuscum versatur, interpretibus nostra apud eos libere liceret caussa uti, non enim nobis ii solum qui emungant ac si <hi rend="italic">plaustris</hi> ad <hi rend="italic">buculas</hi> congrediare, petendi essent. Et quid subrides?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Namque fortassis id ob exposcentium importunitatem decet.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Equidem certe adeo decet, mi Alberte, cum et ingenio barbari sint, et inter ultimos turpissimorum hominum atque morum faeces relegati jaceant, sepulti vino, epulis obruti,  et somno oppressi; atqui essent tum quidem illi plane irridendi, si rogitantium se confici taedio dicere auderent, nam  quis illos cum <hi rend="italic">longum</hi> ac vehementer exorantur, nimium insana quadam voluptate affici clare non intelligat, cum eos praesertim viderit tanto studio deditaque opera, omni arte et ratione eniti ut exposcentium numerum detineant? O mores! Heri cum posses necessitatibus calamitosi et precibus explorantis miseri satisfacere, hac iterum die juberes ut redeat; cras te autem esse occupatum, eoque pacto rem procrastinare, atque moestos complures ante aulam praestolantes conspectari, ad dignitatem ducere; barbari, pestes morum, odia: qui quidem quot illic adsint exposcentes, tot suae inhumanitatis atque injustitiae testes adesse non intelligant? Sed quidnam inter  nos erat quod diceremus?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Justum dicebamus regem fore beneficum; qui quidem cum ita sit, fortassis perquirendum videbatur, suosne, an bonos in conferendo beneficio, quem, inquam, igitur illorum  praeferet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Suos procul dubio, si probi sint.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si improbi?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Suos; ne putabit quidem ut meliores fiant?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si cum alio competant temperanti et longe probiore?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Tribuet virtuti, quo reliquos ad promerendum ardentiores reddat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Virtute igitur suos inprimis esse ornatos volet.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Volet quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid idem imperiti calamitosique si sint?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Tribuet humanitati.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid eisdem, probati cum sint, divitiasne an dignitates inprimis <hi rend="italic">conferet</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Utrumque; sed dignitatem inprimis, proxime divitias,  quibus possit personam datam a dignitate, bonorum amicitiis, et doctissimorum celebritate, per liberalitatem et munificentiam efficere excultissimam atque clarissimam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid cum suos bene locarit, alios admittet an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Imo inprimis advocabit, nam ornandorum suorum occasio et facultas illi in dies datur, alienis autem benemerentibusque quamdiu referre distulit, tamdiu fuit impius et injustus et illiberalis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Equidem et qui necessarios, improbi dum sint, alienos  putat, et qui probos expetit, probosne suorum velle habere loco videtur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ea fortassis ratione, qua dixti malos bonis esse inimicos, probi probos diligent?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si probus quispiam item sit calamitosus et opis indigens, an non vel ea re juvabit?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pietas isthaec.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An fieri potest, tuorum ut aliquis sua culpa et vitio, veluti ambitione, voluptate, inciderit in calamitatem?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Plane ac saepius.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid probus utrumne et ipse sua aliqua turpi de caussa in calamitatem incidat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Haud quidem esset probus. Sed fortunae potius injuria  aerumnam perferet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Pietatis gratia conferet calamitosis, ut dixti.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Stat sententia.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At probo et calamitoso si conferat, cui tum collatum dicemus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pietati quidem atque virtuti.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Virtuti qui praemium dat, virtutem an non videtur diligere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Videtur quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Virtutem qui diligit, vitiosumne illum an virtuti deditum dicimus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Vitiosum maxime qui non diligat.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Probos igitur qui extollet, probus videbitur an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Probum te videri magnumne an non est?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Magnum. </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Gratiam idcirco illico pro beneficio referet hoc pacto probus, qui etiam ante acceptum beneficium efficiat ut probus videare?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Accumulate quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et memor erit beneficii probus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Cum igitur inprimis merenti et gratiam referenti tribuitur, quod probo tribuitur, quid tu illum, si quando incidet ut cum aliquo tuorum competat, postponendumne putabis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Omnibus illum statuo praeferendo. </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si hinc ex tuis aliquis non malus, illinc literis  et rerum optimarum cognitione clarus et spectatus competitor quispiam instet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Longe secus se ea in re, qui sapiat, habebit atque pontifices hac aetate consueverint, qui suos ut ornent, ad res praeter aetatem, praeter prudentiam, praeterque quam ut recte  ulla ex parte possint, promovent.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur faciet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Illum sic existimo, quem ajebas, doctum et frugi, si sapiat, ornabit, ac dignitate extollet, dignumque putabit, quem huic suo adigat plane ut inculto atque imperito, <hi rend="italic">si</hi> sit morum praeceptor, virtutum instructor et literarum doctor.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si inter competitores probum ipsum et sapientiae deditum parum noverit rex, quod ipsi fierine existimas an non?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Saepe nam, ut ajunt, sordido sub pallio non raro latet sapientia.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid tum igitur, an erit ut possit errare in officio rex? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Indulgendum fortassis quod majoribus sit rebus occupatus, bello et expeditione?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quin imo maxime vituperabo, siquidem, ut diximus, ad regem spectat non gerere bella aliam ob rem nisi ut benefaciat bonis, et in ea quidem summa pacis et otii erit rex magis quam <hi rend="italic">tumultuosus</hi> et armorum percupidus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Tum etiam fortassis si veluti paterfamilias domus,  ita et rex civitatis primum caput est, qui apud se hospites sint, ignorasse dedecet.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pulcre.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur faciet rex? utrumne in sapientibus et probis disquirendis aliorum judicia perscrutabitur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Proderit id quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non tum fieri poterit, ut latens invidia, aut error aliquis, aut aemulatio ipsa virtutis fortassis ad obtrectandum atque ad laudes probi illius hospitis diminuendas rogatos moveat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et quam id superiori <hi rend="italic">bono</hi> omnium maxime invidorum enim plena sunt omnia.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fortassis hic quidem, ut ajunt, invidiam virtutis esse nebulam.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Atqui et gravem!</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Haec cum ita sint, an non consequens est ut non aliorum judicio vitam et mores cujusquam sit rex perscrutaturus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Mihi quoque istuc probatur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atqui non negligendos bonos diximus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Sua igitur prudentia rex, quam domesticorum opinionibus de vita et moribus optimorum scrutetur, erit antiquius!</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Equidem, et ad officium id arbitror pertinere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fortassis ut de ipso <hi rend="italic">tu</hi> dicebas modo, ideo ita agere quo vel minimis etiam in rebus diligens <hi rend="italic">videatur</hi>?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Imo quod modo ajebas, id ita aget rex, ne cujusquam sese judicio iri deceptum patiatur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid praeterea? Ac vide, quaeso, quid meam inciderit in mentem; jam ut <hi rend="italic">de rege</hi>, mi pater, eritne veluti quod de  pictoribus evenit, ut etiam ignari artis illius pictas res tamen  intuentes <hi rend="italic">emendatiorem</hi> praeferant; sic et rex ipso aspectu de hominis virtute sententiam prope veram ferat? An secus veluti qui musicum sit approbaturus, idem et modorum sit  non inexpertus decet, ita et in homine morum et virtutis concinnitas nisi a sapiente queat discerni?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nempe eam ob rem, ut per similitudinem aptius disquiramus, sapientemne qui velit nosse, hunc et literis et artibus eisdem doctum minimeque ignarum esse oporteat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Equidem et doctissimum fore isthunc desidero qui doctum ab indocto sit cogniturus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid tum ratione non dissimili, frugine homo meticuloso, inhumano atque stolido satis an non erit cognitus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Etenim virtus ipsa palam elucescit, lateque perspicua  est, picturae persimilis magis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atque fieri tamen interdum dixti, ut fictae virtutis simulacra in plerisque appareant ut ita sese illi ad res agendas venuste ingerant, ut nonnihil principio decipiare; sed imperitis potius accidere id arbitrabimur fortassis.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At prudentes et literis et doctrina excultos, odor et concinnitas virtutis, sapientiaeque splendor, tametsi sordido ea lateat, ut dixti, sub pallio, quid censes, fugiet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Minime uspiam.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An igitur ita consequens est, ut conjecto, posteaquam regem diximus fore cupidissimum optimorum, quo et probos et virtuti deditos et rerum praestantissimarum studiosos clarius  discernat, eo prudentem, virtutis amatorem, atque admodum esse illum sapientem oportet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quis id dubitet?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Sapientis igitur erit, ut ferunt, sapientem agnoscere.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Enimvero istuc, ut ais.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ac deinceps quidem, qualem se habebit rex in hujusmodi  probatissimis viris disquirendis, mi pater?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Sic censeo, veluti canis odoratu ipso investigabit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si et probos et <hi rend="italic">literatos</hi> investigare atque advocare jusserit, quos, cum ad se applicuerint, cognoscat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Percommode istuc.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Censes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Plane censeo: nam haberent unde virtutem sibi redderent accumulatiorem, et non deessent, qui suis studiis eorum nomen sempiterna cum gloria immortalitati commendarent.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Qui igitur in indagandis probis et studiosis curiosus futurus sit, et cani persimilis, an idem erit desidiosus, supinus, negligens, dormitans, labores omnes fugitans?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Absit, Alberte mi, non modo a rege, verum et a quovis minima etiam in dignitate constituto, et quanto aliis fortuna superior, tanto idem non sit omnibus diligentior, atque ad labores paratior.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si perdenda coena, evigilandumque in noctem pro subministranda bonis ope sit regi?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non ista modo maximi quidem faciet adeo, sed vel sanguinem atque vitam ipsam pro quovis temperante exponere audebit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Fortassis istuc, ut dicitur, quanto ceteris praestes amplitudine, tanto et ceteros virtute antecedas condecet, et quo tibi plurium opum et claritatis, eo et plus sudoris ac frigoris debetur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Huic sententiae, Alberte mi, ipsi perfacile <hi rend="italic">assentimur</hi>;  nam, ab ineunte aetate nos Alberti exules aerumna et laboribus exerciti sumus, contraque fortunam assiduum et grave bellum gessimus. Sed nostri plerique pontifices ita sunt delicatissimi, ut audiendos non putent eos qui labores imperent, satisque sibi ajunt esse negotii contemplando.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quam cuperem et nostros pontifices esse animo virili et laborum, solisque, atque, ut ajunt, pulveris toleranti. Sed nondum de pontificibus nobis sermo est, ni fortassis ab re hoc ipsum est quod dudum exquirimus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Mihi quidem, etsi quorsum tendas haud satis pateat, perjucundus tamen et pergratus est hic sermo tuus de regno ac ut prosequare hortor.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Num ita constituimus pervestigare quid sit rex, quo pontifex an non sit rex clarius intelligeremus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Memini.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>An non multa jam ex parte compertum est regem esse, tuis ut utar verbis, veluti civitatis patrem, optimorum studiosum, qui quidem et ipse sit minime voluptuosus, minime cupidus, valde justus, inprimis prudens, agens, atque ad labores perpromptus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Comperta haec sunt atque eadem dilucide.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Non igitur aberit longe fortasse quod opinor, ut intelligamus quam ad rem accomodentur omnia quae diximus. Sed unde digressi sumus redeo, ut jusseris.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Perplacet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Itaque de rege loquebamur: quid tum rexne et ipse  contemplando, ut ajebas, vitam aget otiosus atque reclusus? Sed reclusum dixti odisse.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et otiosum omnium maxime; nam apud me ita compertum est, malorum omnium veluti parentem otium esse.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At contemplari otium dicis?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non audeam istuc; tametsi plerosque admiror qui sese rebus contemplandis deditos profitentur, cum nullam ferme teneant bonarum artium et literarum notitiam; atqui spiritus ubi vult spirat. Quid tum? Neque tamen facile cerno quonam pacto divinarum rerum cognitio inserpat in hunc qui, velut cera, non doctrinae exercitio ad divinas impressiones excipiendas incaluerit?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur faciet? Lectitabit rex otium fugiens, aut hunc atque illum ratiocinantem, aut de suis laudibus libellos pronunciantem coram <hi rend="italic">audiet</hi>, ipseque <hi rend="italic">contra vicissim</hi> exordietur?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Cogis me ut rideam, Alberte mi, cum verbis tuis pontificum nostrorum ineptias succincte ac belle describis. Et vidi quidem inter coenandum aliquem qui pompae gratia puerum sacram historiam decantantem habeat in coena et cetera verba mussantem, vorans ipse, aliaque, atque alia cogitet, atque imperet; reliquam autem integram diem literas, libros et literatos omnes oderit, fabellisque, veluti pueri et vetulae, diem consumat oscitans, aut praelongissimis sermocinationibus auscultatores fatiget: odi ego istos, nam principis quidem sermonem minime impraemeditatum, sed quod vim ac speciem  habeat legis esse decet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid igitur rex ut otium isthoc effugiat?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quasi illi, quo sese exerceat, domi forisque desit; ubi  enim magistratus, ubi exercitus, ubi cetera hujuscemodi omnia?  </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et quid cum his peraget?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid agat, rogas? Ad officium in medium progredietur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Domi fortassis ut praetores, ut magistratus, domesticos, aediles et reliquos tales moderetur? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Enimvero rem narras.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Foris ut exercitum lustret in hostemque legatos et tribunos cogat invadere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pro expectatione loqueris.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Equidem, mi pater, eane adeo re te regem negabis, vel quod regas, namque pastorem esse te dixisti, ut urbis patrem, vel quod multis praesis, vel quod veluti pater sis multarum animarum, vel quod et eadem haec, quae in rege diximus, item et tua esse officia sentias; copias ductitare, hostem inimicissimum prosequi, confligere: haecne an non diximus oportere? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et apud nos item aeque nonne perplures minores magistratus subsunt?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p><hi rend="italic">Et</hi> magistratus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Nempe ac nequaquam minimi.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Mirum: sed rem teneo, eos numeras qui tribunalia  complent, assessorem et scribas?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et istos quidem etiam.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Num et alii?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At istud consideremus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Istic sum. </p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Magistratus idcirco nostro pro more principio pervestigemus qui sint.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>In promptu id quidem; nam vitam et mores aliorum qui moderentur, magistri sunt, inde magistratus dictus est, reor, ut vel <hi rend="italic">ducatum</hi> qui exerceant, a magistratu magistros nuncupari putem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Omnis eam ob rem nostra in dioecesi sacerdos, qui vitam et mores parochianorum, ut loquimur, confessione, poenitentiisque religiosis moderetur, in magistratu est.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Apte istuc, namque ut dicis.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid et <hi rend="italic">illi</hi> qui sacerdotibus praesunt, monachorum, et pauperum confratrum, et reliquorum, quos in ecclesia militare dicunt, clericorum avi, patresque, atque praefecti, an non et ipsi magistratum gerunt?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Gerunt quidem.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Me ergo beatum atque te qui reges sumus, quique exercitum omnium <hi rend="italic">fortissimum</hi> habemus, qui magistratuum apud nos numerum contineamus, quive, quod in rege esse ajebas beatissimum, facile possumus prodesse nostris, siquidem nobis ad beneficentiam atque ad <hi rend="italic">liberalitatem</hi> suppeditent multa.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Habeo tibi gratias, Alberte, qui me hoc die tantis muneribus ornasti; tu me patremfamilias optimum, praetorem optimum, ducem optimum, denique atque regem effecisti. Sed tibi quidem, qui ex omni nostro munere regnum tibi tantum vindicasti, mi Alberte, invideo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si vel una haec res, ut meis prosim, efficit, ne labores ullos velim effugere?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Laudo equidem atque de me idem ipse profiteor eas me perlubenter omnes curas subire, modo meos et dignitate et  auctoritate quamplurima in dies possim valde ornatos reddere.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Credo equidem, sed non fortassis eadem atque ego laude dignus es.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quid ita?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quippe qui omnes hos quos me effugere labores judicabas, apud te esse levissimos affirmasti.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Non id quidem, mi Alberte, quin esse illos graves intelligerem; sed ita decere arbitrabar, <hi rend="italic">nec</hi> te quem inexpertum rerum istarum fore praedicabas dehortator; tum etiam cum animo ipse mecum temporum superiorum, et bellorum difficultatibus et calamitatibus hunc, quem ingrederis, episcopatum esse exhaustum atque penitus labefactatum, repeterem, facile erat, ut vererer ne tibi inde plus laborum et dispendii quam commodi et quietis fore dijudicares; nam cum tibi sit familia grandis jam alenda, novi ut ad domesticos etiam pernecessarios usus res interdum ditissimis angusta suppeditet.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>At enim, mi pater, si, ut dixti, non facile id nisi  inertibus evenire solet, ut gravis pascendae familiae cura urgeat, de me, quem nosti minime ambitiosum et satis temperantem, quid erat quod vererer? Sed de aliis satius hoc loco est quam de nobis loqui, quorum ex vita, ut ajunt, veluti ex speculo nos ad laudem et virtutem comparemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Approbo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Ea re sic dixero ut veluti in messe, quo in horto multa hordea, frumentique copia, ac fabae, atque lupini non pauci per eum autumnum sint positi, <hi rend="italic">tamen si</hi> cicer desit, non perinde messem esse non bonam dicimus, ita et hic propter paucorum episcoporum tenuitatem <hi rend="italic">ordinem</hi> hunc nostrum satis esse locupletem non negemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Et sumus quidem nimium locupletes, plerisque ut etiam ad luxuriam opes suppeditari stomacer.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Haec</hi> igitur copia nobis si quando adsit, quanam ratione utemur, dum beneficentiam velimus laudari nostram, eamne in nostros distribuemus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Pietatis ordo.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Sic censes?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quidni si diximus ut frugi sint?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Et probos item non negligemus.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Caussae patent.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Calamitosos quoque non aspernabimur.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Impietatis istuc.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Utrumne et in calamitosorum numero egenos et mendicos, miserrimos homines, qui in horam sibi victum ostiatim quaeritant, locabimus? </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Idcirco eos laudabimus qui in vestibulo turmas pauperum pascunt, ut ferme diebus singulis episcopi omnes faciamus?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Quod pauperes quidem pascant, nequeo non laudare, tametsi plerosque errones intueare, quos mallem aliquo opere victum sibi quaerere quam per inertiam. Sed eos non possum ferre, si qui sunt simoniaci et omnibus rapinis perditi, qui  non caritatis et officii gratia, sed pompae et ambitionis caussa tumultu illo gaudeant, qui quidem ante ostium, <hi rend="italic">pane</hi> atro extremaque popina et sordido jure exsaturantur.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Abigendine?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nolim istuc a me dictum, tametsi a sapientibus plerisque tyranni cujusdam laudari leges memini de erronibus, <hi rend="italic">quibus</hi> prohibebat sua in provincia ne intra moenia erronem quempiam plus triduo commorari permitterent: de egenis autem civibus suis curandis publice curam et rationem haberi jussit.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p><hi rend="italic">Quibus</hi> igitur dives pontifex inprimis sua <hi rend="italic">beneficia</hi> maxime impertiet, utrumne, veluti de rege diximus, pontifex   quoque, qui et ipse rex est, probos virtuteque ac literis claros ceteris omnibus in dando beneficio praeferet?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Neque uspiam negliget?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Nusquam, nam ab officio esset, ut diximus.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Atque ideo bonis ut prosit, non modo facilem sese petentibus praestabit, sed diligentiam insuper atque solertiam,  ut diximus, non mediocriter adhibebit ut promerentibus bene sit.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Maxime.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quanto igitur moerore sunt ii, si qui sunt, qui cum sese reges esse et divitiis abundare intelligant, non modo proborum merita non perscrutantur, sed optimos et literis deditissimos aspernantur atque odere.</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Indigni magistratu.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid illi, qui rebus praepositi sunt non alia de caussa nisi ut condonent, aliquos tamen quos virtute et rerum optimarum studiis claros et praestantes norint, in miseria atque paupertate jacere velint, desertumque studiosum ab omnibus, omni fortuna injuria confectum, opem et misericordiam exposcentem non modo spe et bonis dictis levare, sed neque per interpretes quidem, ut ajebas, neque <hi rend="italic">per</hi> syngrapha <hi rend="italic">velint audire</hi>. </p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Hominemne adeo fore inhumanum credam?</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Quid si id vetere aliquo in petentis familiam, aut  affines odio efficiat, aut ut suis obtrectatoribus gratificetur, an regnum ab illo administrari praeclare dices?</p></sp>
+<sp><speaker>PAULUS.</speaker> <p>Omnium is quidem erit ignavissimus, siquidem et suis ministris et impietati istoc pacto serviet. Etenim qui tantam sit evectus in felicitatem, ut sese regem intelligat, mea sententia in humiles, atque infimos, inque minores omnes simultatem et odium geret turpiter; tum et prodesse qui debeat, non modo si laeserit, verum etiam ubi non juvarit, tanto Dei dono et munere sese indignum <hi rend="italic">reddet</hi>. Adde his, quod et si  fieri possit ut probum quempiam justo aliquo dolore commotus odisse ceperis, tamen odiis modum non imponere iniqui et acerbissimi est, ac dedecet quidem publico munere ad privatas animi libidines abuti.</p></sp>
+<sp><speaker>ALBERTUS.</speaker> <p>Facis, mi pater, jam meam praeter consuetudinem, ut de re quid sentiam palam profiteri audeam, si dixero neque  virginum intemeratae puritati, neque viduarum lacrimis, neque reclusorum iejuniis, neque anachoretarum ex eremo coronis, sed non ero procax, tantum a religione quantum probatis literatis deberi. <hi rend="italic">Quod</hi> ita sentiam et quibus eo adducar de caussis, alius fortassis erit enunciandi locus, nunc jam tempus est ut nos in aulam maximam conferamus, quo loci nostros quibus praesumus cives de suis rebus consulentes pro more audiemus. Itaque haec missa faciamus.</p></sp>
+<p>Finis: Deo gratias, Pater. Baptista Albertus ceperat edere hoc opusculum die dominica, hora vigesima, die xiii octobris mccccxxxvii: completum  est die Jovis, circa meridiem, die xvii ejusdem mensis, Bononiae. </p></div1></body></text></TEI.2>

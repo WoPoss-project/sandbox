@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il Gonzaga secondo overo del Giuoco</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>91 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001211</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+<p>Al molto magnifico signor Alessandro Pocaterra.</p>
+
+	<p>Questo picciolo dialogo nel quale si discorre del giuoco, operazione che tanto più artificiosamente si fa quanto meno a l'arbitrio de la fortuna soggiace, io dono assai volentieri a voi, signor Alessandro, acciò che con la vostra prudenza mi consigliate in modo ch'io niuna azione di questa vita, ch'è quasi un giuoco, a la fortuna sottoponga. Voi gradite il dono e siatemi cortese de' vostri amorevoli consegli.</p>
+	<p>Di Vostra Signoria illustrissima</p>
+<closer>
+amorevolissimo come figlio
+<signed>TORQUATO TASSO.</signed>
+</closer>
+</div1>
+<titlePage>
+<docTitle>
+<titlePart type="main"> IL GONZAGA SECONDO OVERO DEL GIUOCO</titlePart>
+</docTitle>
+</titlePage>
+
+<castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>MARGHERITA BENTIVOGLIA, </role></castItem> <castItem type="role"><role>GIULIO CESARE GONZAGA, </role></castItem> <castItem type="role"><role>ANNIBALE POCATERRA. </role></castItem></castList>
+
+
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<stage>Quel carnevale che la serenissima signora duchessa di Ferrara venne a marito, il conte Annibal Romeo doveva ragionare un giorno del giuoco in presenza sua e de le principesse di Ferrara, e s'aspettava che vi fosse il serenissimo signor principe di Mantova, il quale, benché abbia molto promesso di sé, supera nondimeno l'espettazione; quando la novella ne fu portata a la signora Margherita Bentivoglia, che rimirava il signor conte suo marito con altri cavalieri giocare a primiera e intanto cortesemente co 'l signor Giulio Cesare Gonzaga, suo parente, ragionava: ed era con lui il signor Annibale Pocaterra, figliuolo del signor Alessandro, antico servitore de la casa di Este. Al quale allora volgendosi la signora Margherita, disse:</stage>
+	<stage>O come volentieri vorrei che fossimo presenti a quel ragionamento per udir quello che cavaliere così dotto e intendente del giuoco ne ragionasse e quello che da così giudiciose ascoltatrici ne fosse giudicato. E vi pregherei che sin là n'andaste e le cose udite ne raccontaste, se non fosse che da' servigi di questo signore non voglio allontanarvi.</stage>
+	<sp><speaker>G.C.G. </speaker><p>Assai mi terrò io, signora, sempre servito e accompagnato dal signore Annibale, quando egli s'adopri in vostro servigio; onde non solo non desidero che la mia presenza ritenga lui dal servirvi, ma più tosto vorrei che la sua ne' vostri servigi mi interponesse. Se dunque a voi piace, colà potrà andarsene e udir quel che del giuoco si ragionerà: ché, per quel ch'io conosca de la libertà ferrarese, a lui, ch'è figliuolo di cortegiano, assai agevole sarà il farsi innanzi e l'ascoltare.</p></sp>
+	<sp><speaker>M.B. </speaker><p> Non istimo io sì poco il signor Annibale che voglia privare or voi de la sua servitù e me de la sua conversazione. Udirò dunque, quando che sia, quel che del giuoco avrà detto il conte Annibale da alcun altro che si ci sarà ritrovato presente; benché io non credo che voi siate meno atto a ragionarne, percioché e giuocare vi ho veduto alcuna fiata e ragionarne in modo che ben si pare che voi siate fratello del signor Scipione, da cui molto più ne' domestici ragionamenti potete avere appreso che i filosofi non sogliono da i lor libri apparare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io per me non negherò giamai di non aver molte cose dal signor Scipione imparate; pur di questa io non l'udi' giamai favellare, ch'io mi ricordi, ma da lui, se non altro, dovrei aver appreso il modo almeno d'addomandare al signor Annibale alcune cose con le quali al vostro e insieme al mio desiderio sodisfacessi: perché, s'è vero ch'egli molto ne gli studi di filosofia si sia avanzato, come da molti m'è stato detto e come a me ancora è paruto di conoscere, niuna cosa è di cui non possa un filosofo ragionar convenevolmente. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Né io negherò di studiar filosofia, se ben tanto non mi sono in quello studio avanzato quanto, vostra mercé, mostrate di riconoscere; nondimeno, se di cosa ragionassi de la quale non ho mai fatta professione, e in presenza de la signora Margherita ne ragionassi, a quel filosofo, o sofista che si fosse, sarei simile, che de l'arte de la guerra così arditamente in presenza d'Annibal ragionò. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Barattiera par che mi faccia il signor Annibale. </p></sp>
+	<sp><speaker>A.P. </speaker><p> E com'io barattiera fo la signora Margherita? Tolga Iddio. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Se voi tale riputate ch'io sia ne l'arte del giuoco, quale egli era in quella de la guerra, barattiera a un certo modo pare che mi facciate: percioché, s'egli fu maestro de le frodi militari, de gli inganni del giuoco io dovrei essere maestra parimente. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io non tanto a la professione o a l'essercizio avea riguardo, quanto al vostro giudizio, per lo quale sete atta di tutte le cose a giudicare. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma se tanto giudicio può essere in persona che d'un'arte non faccia professione, non veggio io come il giudicio d'Annibale non sia da voi riprovato, al quale non parve ch'al filosofo fosse lecito parlar de l'altrui professione; volentieri nondimeno vorrei che da voi riprovato fosse accioché niuna scusa aveste di tacere, purché, rifiutandolo, solo a' filosofi concedeste di poter de l'arti altrui ragionare, i quali indarno tanto l'arte loro loderebbono, s'ella non fosse un'arte de l'arti, la qual potesse giudicare di tutte l'altre; e 'l giudizio loro in niun modo credo io che voi ardirete di riprovare. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io non tanto il giudicio d'alcun filosofo riprovo, quanto accuso la mia inesperienza, la quale non suole esser tale in quei filosofi che de l'arte altrui sono usi di favellare, quale è in me. Né già credo io che, s'Annibale avesse udito o Senofonte o Polibio o Panezio, egli così l'avesse disprezzato, come colui ch'egli udì mostrò d'avere in disprezzo. </p></sp>
+	<sp><speaker>A.P. </speaker><p>Forse colui ch'egli udì non fu da alcun di coloro molto dissomigliante. Ma qual tanta esperienza si ricerca nel giuoco che non se ne possa per noi discorrere? E io per me, se ben sono più avezzo a volger queste carte che le socratiche, le quali voi di continuo avete per le mani, nondimeno volentieri vi terrei compagnia per piacere a la signora Margherita. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Voi convenevolmente mi sete in ogni cosa signore; ma se compagno e non avversario mi volete esser nel questionarne, io non ricuso di ragionarne. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Se vi sarà avversario nel ragionar del giuoco, più dovete desiderarlo per aversario da giuoco che per compagno da giuoco. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Né io, signora Margherita, son degno de la compagnia di questo cavaliero, né 'l vorrei per avversario, perché nel parlar del giuoco ancora potrebbe essere aspro avversario. Io ho ben voi per nemica, che mi chiamaste in questo campo, ove con sì poco onor mio v'accorgerete de la mia ignoranza. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Voi o artificiosamente rispondete o modestamente; se vi mostrate inesperto de le cose de le quali s'ha a ragionare, per trovarci sproveduti, la vostra è arte; se per non parer troppo ambizioso di quelle lodi che sarebbon convenevoli, modestia: la quale è più bella de la presunzione di molti filosofi, perch'è più lodevole l'esser dubbio del suo sapere che mostrarsi sicuro di cosa de la quale, se 'l vero n'ho udito, non può esser certezza. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Volesse Iddio che, sì come io dubbio sono del mio sapere, così voi ne lasciassi sempre in dubbio: percioché molto me ne terrei ne la vostra opinione onorato, parendomi che coloro siano in opinione di dotti a' quali niuna ignoranza può essere rimproverata. Ma temo che 'l mio ragionare non vi renda accorta del vostro per me dolce inganno: pur ragionisi di quel ch'a voi piace; che s'egli o voi sarete vaga di contendere per prendervi giuoco di me, a me sarà sempre lecito di ritirarmi da la contesa. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Meco non avete voi da contendere, né per avversario me avrete, se ben dianzi mi chiamaste nemica; ma lui avrete per quel ch'egli vorrà: ché queste condizioni, s'io posso alcuna cosa, volentieri v'impongo, né credo che da voi siano rifiutate. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Né me voglio ch'abbia per nemico, né che sospetti di alcuna difficil contesa, ma che si contenti di dirci del giuoco quel che saprà e di rispondere ancora a quel che gli chiederemo. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io lessi che grande era appresso gli antichi Greci il numero de' giuochi e antichissima l'origine. Ma quattro nondimeno erano i più celebri i quali tutti si facevano ne l'essequie. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Malanconici giochi dovevano esser questi, e più lieti sono i nostri senza fallo. </p></sp>
+	<sp><speaker>A.P. </speaker><p> In questa guisa volle forse quella antica gente temperare il dolor co 'l piacere. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma quali eran questi? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Gli Olimpici, i Nemei, gli Istmi e i Piti. Gli Olimpici erano fatti in onor di Giove per la morte di Pelope; i Nemei fur sacri a Nettuno per Archemoro: al medesimo fur consecrati gli Istmî per cagion di Melicerta; e i Piti ad Apolline per la gloria de l'ucciso dragone; e benché gli Olimpici fossero anteposti, perch'erano attribuiti al supremo de gli iddii, i Piti nondimeno andavano inanzi per antichità: perché gli Olimpici furono instituiti da Ercole e da Pelope, ed essendo poi tralasciati, furono da Ercole rinovati. Ma perch'Apolline è più antico d'Ercole e di Pelope, è ragionevole ch'i Piti siano i più antichi, avegna che gli Istmi e i Nemei furon ritrovati dopo lungo corso d'anni. Cominciam dunque da l'origine de' primi. Raccontano che, tornando Latona da Calcide da Eubea, riportava Apolline e Diana a Delfi; e, fermandosi a la spelunca di Pitone, sarebbeno stati quasi oppressi, se la madre non avesse dato ardire al fanciullo, il qual con le saette ch'egli aveva tolse dal mondo quella pestilenza. Strabone con l'autorità d'Eforo, scrittor d'istorie, afferma che questo Pitone fu un crudelissimo latrone, il quale infestava tutta quella provincia: i Delfi, liberati da quella peste, instituirono giuochi, i quali furono poi accresciuti da gli Anfizioni: e vi fu aggiunto il certame equestre e ginnico, e posto al vincitor la corona per premio e introdotti i trombetti e i sonatori di cetera senza canto. Ma io non m'accorgeva d'andarvi narrando non parte di quel che me ne sovviene, ma tutti, se non me n'avessero fatto ricordevole i nomi i quali mi conviene usare: e s'io fossi più lungo in questa narrazione, non lascerei per aventura che dire a messer Pirro. </p></sp>
+	<sp><speaker>M.B. </speaker><p> L'udrà alcun altro da messer Pirro: voi narrate a me quell'altre cose che vi sovengono. </p></sp>
+	<sp><speaker>A.P. </speaker><p> L'origine de gli Olimpici, come ho detto, s'attribuisce a Pelope, il quale, acceso de l'amor d'Ippodamia, figliuola d'Enomao, la chiese al padre, ch'ammonito da l'oracolo che da quelle nozze gli era minacciata morte, prepose la vergine per premio al vincitore nel corso de' carri tirati da due cavalli, e a' vinti la morte: e questa fu la legge de la contesa. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Fiera legge veramente. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Ma Pelope, impetrati i cavalli da Nettuno, precipitò nel mare il vinto Enomao e prese per moglie Ippodamia; e perché restasse fama eterna di questa vittoria, ordinò ch'in Pisa d'Elide si facesse questo giuoco o questa contesa, ne la quale il vincitore era coronato d'oliva silvestre. Ercole, avendo vinto Augea principe d'Elide, rinovò il giuoco con la preda ch'egli aveva fatta in onor di Giove suo padre. Nemea è una regione de gli Argivi, ne la quale, ricercando essi l'acque mentre andavano a Tebe, le ritrovarono con la scorta d'Isifile, a la quale fu ucciso da un serpente un bambino ch'aveva lasciato ne' prati; ma ritornando gli Argivi, uccisono il dragone e instituirono questa contesa funebre, ne la qual si dava pur la corona d'oliva, e si diede sino al tempo de la guerra de' Medi, in cui fu cangiata con l'apio, stimandosi che quell'infelice corona più convenisse a le morti. L'origine de gli Istmici si racconta in questo modo: Ino e Atamante ebbero due figli, Learco e Melicerta; ma Atamante, essendo per opera di Giunone divenuto furioso, uccise Learco, e Melicerta, fuggendo per lo spavento di tanta crudeltà, si precipitò da un'alta rupe nel mare e fu seguito da la madre, ch'ebbe simil destino. Le Nereide, avendogli raccolti, fecero la madre dea, ch'i Greci chiamano Leuocotea e i Latini Matuta, e 'l figliuolo quel dio ch'essi nomarono Palemone, noi Portunno; ma 'l corpo di Melicerta fu portato da l'onde del mare a l'istmo di Corinto: laonde la città fu assalita da la peste e per avertimento avuto da l'oracolo instituì que' giuochi in onor di Melicerta, e i vittoriosi erano coronati di pino. Altri giochi illustri oltre questi si celebrarono in Grecia, ne' quali erano premi de la vittoria i lavezzi, in altri pelli d'agnello: e oltre acciò v'erano le feste d'alcuni popoli, come furono Panismia e Panatenaica, in cui il fiore de l'uno e de l'altro <add>sesso</add>, prendendosi per le mani, faceva quasi un ballo; e altri ch'erano sacri. Avevano i Romani oltre questi i suoi giuochi: come i Megalensi, che si facevano a la madre de gli iddii; gli Apollinari e i Liberali, i quali furon detti scenici da le favole che si rappresentavano ne le frascate; e i Circensi, che nel circo erano dedicati a Nettuno; e i Cereali a Cerere, e i Taurî, consecrati a gli iddii de l'inferno; e i Capitolini a Giove Capitolino, e i Funebri, de' quali fu l'origine antichissima, peroch'Enea a la sepoltura di Pallante, Achille a quella di Patroclo uccise, quasi vittime, i prigioni; e i Votivi, i quali furono o inanzi la guerra introdotti <add>o</add> dopo le vittorie riportate da' nemici co' versi sibillini e con gli ammaestramenti de gli auguri e con le promesse de gli imperatori; e i Secolari, che si facevano ogni cento anni, il quale spazio di tempo fu detto secolo, e da' fanciulli e da le fanciulle co' versi e con gli inni erano celebrati in laude d'Apolline e di Diana; e Iuvenali, che furono così chiamati da l'età, percioch'<add>in</add> essi i gioveni ricreavano l'animo co 'l giuoco. Ma antichissimi oltre tutti gli altri de' Romani erano i Consuali, consecrati a Nettuno, che fu detto Conso, quasi iddio de' consigli. E varie erano le differenze de' giuochi dal fine al quale furono ordinati: perch'altri erano per l'onor de gli iddii, altri per essercizio, ne' quali si rappresentava quasi l'imagine de la guerra, altri per la gloria de' morti, altri per la sanità e per la vittoria; ma le somme differenze si riducevano a due: <emph><foreign lang="lat">statorum e non statorum</foreign></emph>. Deh, chiedete, vi prego, e chiedendo riducetemi a memoria s'altro io debba dire: perché, se non udiste quello a punto ch'aspettate d'udire, almen di quello intorno a che desiderate che si ragioni m'udrete ragionare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Per questa ragione la signora Margherita dovrebbe richiedere, al cui desiderio debbiam tutti sodisfare. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Maggior difficoltà avrei io ne l'addomandare che il signor Annibale nel rispondere: onde vi prego che prendiate questa fatica sovra di voi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io la prenderò assai volentieri, tutto che non creda che debba a me esser più leggiera ch'al signor Annibale quella del rispondere. Ma che desiderate d'udir, signora Margherita? forse se 'l giuoco è degno di biasimo o se sia lecito l'ingannare, o pur se ben creato cavaliero si debba recare a favore l'essere da la sua donna ingannato, e forse anco quale origine o qual cagione sia comune a tutti i giuochi, e qual sia più piacevole e qual meno? </p></sp>
+	<sp><speaker>M.B. </speaker><p> Di tutte queste cose vorrei che si ragionasse; ché voi alcuna non avete proposta ch'io non avessi in mente: una sola ne avete lasciata a dietro, come debba giuocare chi desidera di vincere. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma siate contenta ancor voi di dirci di qual prima di tutte queste cose volete che si ragioni. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Vorrei prima sapere se 'l giuoco fosse lodevole o no: perché indarno ricercherei se mi fosse lecito talvolta l'ingannare, se prima non sapessi se con lode o senza biasimo almeno potessi giuocare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E in qual maniera di giuochi dubitate, signora, se vi è lecito d'ingannare: ne la primiera o ne' tarocchi o pur in quella che si fa talora fra voi donne, quando una, ponendo nel grembo de la compagna la testa, si volge la mano dopo le spalle e aspetta la percossa? </p></sp>
+	<sp><speaker>M.B. </speaker><p> In questa non già, perché, quando io percuoto, vorrei sempre ingannare ed essere tenuta un'altra; né credo ch'in questo giuoco sia biasimevole l'ingannare, s'egli è pur giuoco. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Udite, signor Annibale, che dubita la signora Margherita s'egli sia giuoco o non sia. Dunque prima debbiam cercare quel che sia il giuoco? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Mi par che senza alcun dubbio prima cercare ne dobbiamo. </p></sp>
+	<sp><speaker>M.B. </speaker><p> E anco a me, se ben questo non era di quei pensieri ch'io prima aveva in mente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ditemi dunque, o signor Annibale: che cosa è giuoco? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Una contesa di fortuna e d'ingegno fra due e fra più. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Mirabil diffinizione, che in poche parole ha data il signor Annibale. Ma che mi dice la signora Margherita? </p></sp>
+	<sp><speaker>M.B. </speaker><p> A me piacerà allor che vedrò che da voi sarà approvata; ma ora non mi dispiace. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma crediam noi, o signor Annibale, che ne la corte di fortuna e d'ingegno si contenda fra' cortegiani? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Credo veramente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E ne le scuole fra i filosofanti? </p></sp>
+	<sp><speaker>A.P. </speaker><p> E ne le scuole fra' filosofanti. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E ne la guerra fra' soldati? </p></sp>
+	<sp><speaker>A.P. </speaker><p> E ne la guerra ancora. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E così in tutte l'arti e in tutte l'azioni di fortuna e d'ingegno si contende? </p></sp>
+	<sp><speaker>A.P. </speaker><p> In tutte. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque la vita è un giuoco, o signor Annibale: onde ben io dissi che mirabile era la diffinizione ne la quale la vita avevate diffinita. E se ciò è vero, più non mi pare che si possa dubitare se lodevole sia il giuoco di quel che si dubiti se 'l viver sia degno di lode. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Di troppo alto giuoco avete cominciato a ragionare; ché voglio ora rispondere per il signor Annibale, il quale o non stima questo un giuoco o non quello di cui abbiamo cominciato a ragionare. </p></sp>
+	<sp><speaker>A.P. </speaker><p> A me è avenuto, o signora, com'a coloro ch'assaliti a l'improviso, si spaventano più tosto per la novità del pericolo che per la grandezza: perché non tanto la ragion sua mi fa temere, quanto il nuovo modo co 'l quale l'ha addotta; e ringrazio voi che m'abbiate dato tempo di raccogliermi. Ma io risponderei che la vita non è contesa, percioché noi ci nasciamo non per contendere, ma per vivere in pace. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Paga dee rimanere a questa risposta la signora Margherita, e io ancora ne rimarrei, se non fossi d'ingegno assai tardo. Ma ditemi, di grazia, o signor Annibale: quando sotto le mura di Troia Alessandro con Menelao per Elena combatté, quel combattimento era contesa? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Era senza dubbio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E quello ancora nel quale Enea e Turno combattevano per Lavinia? </p></sp>
+	<sp><speaker>A.P. </speaker><p> E quello. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Contrasto similmente fu quello tra Romani e Sabini per le donne rapite? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Similmente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E con l'istesso chiamaremo quello che fu fra tre fratelli Tegeati e tre <add>Feneati</add>, o pur tra gli Orazî e i Curiazî? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non con altro nome ardirei di chiamarlo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Nondimeno avevano per fin la pace. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Avevano. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Alcuna contesa dunque ha per fine la pace: e perché la vita abbia per fine la pace, non rimarrà d'esser contesa. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io direi che 'l fine de la guerra non è la pace ma la vittoria, e che la pace è fine non de la guerra ma de la vita civile: e intendo or per fine non quello ch'ultimo è detto altramente, ma quello al quale l'altre cose son dirizzate. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Piacemi ch'abbiate addotta opinione ch'io possa più tosto approvarla che riprovare: percioché, se il fine del capitano, in quanto egli è tale, non è la pace ma la vittoria, assai ragionevole è che la guerra, la qual è operazion sua, non abbia altro fine de la vittoria, e che la pace, se pur è fine de la guerra, sia fine che non si propone il capitano ma il politico. Così mi ricordo ch'una mattina il signor Scipione mio fratello, discorrendo co 'l signor Sigismondo nostro zio, cavaliero assai esperto ne la guerra, affermava: e ora il dico assai volentieri per dimostrare al signor Annibale ch'io non niego di venir seco a l'accordo, pur ch'egli conceda a me ancora o che 'l giuoco non sia contesa o che la guerra sia giuoco. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Io mi voglio qui fraporre accioché peggio non ne segua, e prego voi, o signore Annibale, che crediate questo, che il giuoco non sia contesa: perché, se questo sostener voleste e conceder l'altro, che la guerra fosse giuoco, io non sol d'altro udirei ragionare che di quello di che desiderava che si favellasse, ma temerei anco che 'l signor conte mio marito, lasciandosi persuadere che la guerra fosse un giuoco e un trattenimento, m'abbandonasse molto più spesso di quel ch'egli suole. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Signora, s'io non potessi sostenere che 'l giuoco fosse contesa e distinto da la guerra, a ragion potreste desiderare ch'io cedessi alcuna de le parti; ma s'io il distinguerò da la guerra, aggiungendo a la diffinizione quest'altre differenze, ch'egli sia contesa fatta per diletto de la pace, non so perché debbiate constringermi a ceder le mie ragioni. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Il signor Annibale ritorna più gagliardo, e direi che risorge a guisa d'Anteo, il qual nacque ne la patria di colui di ch'egli tiene il nome, s'a me paresse d'averlo giamai abbattuto. Ma s'egli vuole che 'l giuoco sia fatto per trattenimento di pace, il torrà a' soldati, i quali ne la guerra soglion giuocare, con tanto sdegno loro che non gli basteranno peraventura quelle arme che da' suoi loici gli potrebbono esser fabricate. </p></sp>
+	<sp><speaker>A.P. </speaker><p> I soldati giuocano ne l'ozio che molte fiate si concede ne le guerre: onde, se non vi piace che si dica “per trattenimento de la pace”, potrem dire “per trattenimento de l'ozio”. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io non sono sì vago di contesa che tra l'uno e l'altro modo faccia molta differenza. Ma le bariere e i corsi de la chintana e i torneamenti non son contese fatte per diletto de la pace? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sono. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque questi ancora potrebbono giuochi essere addimandati. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io non conosco cagione per la quale non possano: perché quelli de' quali Omero e Virgilio ne l'essequie d'Anchise e di Patroclo fanno menzione, sono assai simili a questi de' quali avete fatta menzione; e se quelli fur detti giuochi, e gli altri i quali io numerai pur dianzi, questi ancora possono così chiamarsi convenevolmente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma pare a voi che sian veri contrasti o finti? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non si può negare ch'in essi non sia vera contesa, perché d'arte o di leggiadria o di pompa o d'altra sì fatta cosa si contende; nondimeno, perché l'apparenza è molto maggiore de l'effetto, ci rappresentano un non so che di più, e molte volte vera guerra o vero duello: onde si può dire ch'essi sian finti contrasti. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Finti dunque sono questi contrasti, percioché essi sono imitazione de' veri. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così pare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque sin ora, o signore Annibale, abbiam ritrovato ch'una sorte di giuochi si ritrova, la quale è imitazione de le contese, non vera contesa. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Abbiam questo senza dubbio ritrovato. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma nel giuoco del corso e de la lotta vedete voi alcuna sorte d'imitazione? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Mi pare che ne l'uno o ne l'altro si veda assai convenevole, se ne l'uno il corso d'Enea o di Turno o d'Ettore saranno imitati, ne l'altro la lotta d'Ercole e d'Anteo e quella di Ruggiero e di Rodomonte. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E nel giuoco de le carte si vede alcuna contesa, o signor Annibale? </p></sp>
+	<sp><speaker>A.P. </speaker><p> La veggio veramente dipinta di cavalieri e di re in diversi modi imitati. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma che diremo del giuoco de gli scacchi? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Mi pare ch'anch'esso sia imitazione, percioché l'ordine de l'essercito in alcun modo ci rappresenta: e si dice che Palamede, ritrovatore de l'ordinanze, il ritrovò ne la guerra di Troia. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque sin ora pare che 'l giuoco sia imitazione, poiché tutti i già detti giuochi convengono ne l'imitare; e se ne gli altri giuochi parimente la ritroveremo, non vi rimarrà quasi dubbio ch'egli non sia imitazione. Or diremo noi che la poesia sia un giuoco? </p></sp>
+	<sp><speaker>A.P. </speaker><p> La poesia mi pare che si possa chiamare studio più tosto, che ricerca la vita d'un uomo occupato, quantunque alcun, lodando il suo signore che gli aveva concesso ozio di poetare, disse ch'egli aveva permesso di scherzare di quel che voleva. Né egli solo così parlò, ma molti altri: e giuochi furono detti particolarmente molti piacevoli poemi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma fra' gravi gravissima è la tragedia; nondimeno le contese de' tragici non men di quelle de' comici eran celebrate, a le quali un becco per premio si proponeva. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Cotesto è vero, ma insieme è vero quel ch'io ho detto. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Se l'una e l'altra cosa è vera, non sono dunque contrarie. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non sono. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Può dunque esser la poesia insieme studio e giuoco per diversi rispetti. Ma consideriam se d'alcun'altra arte possa il simile avvenire. Or ditemi: l'arte del schermo credete che fosse studio o giuoco de' gladiatori? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Studio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Nondimeno le lor contese eran giuochi de' popoli, tutto che assai gravi giuochi. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Erano. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E l'istesso diremo de' corsi de' carri e de' cavalli e de gli altri de' quali abbiam già fatta menzione. </p></sp>
+	<sp><speaker>A.P. </speaker><p> L'istesso. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Niuna maraviglia è dunque che la poesia sia studio de' poeti e giuochi. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Niuna. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma la poesia è ella imitazione? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Di questo non mi pare ch'in alcun modo si possa dubitare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>In tante maniere dunque de' giuochi abbiam sin qui l'imitazion ritrovata, o signor Annibale, che possiam dire che il giuoco sia imitazione o che 'l giuoco ad un genere solo non si possa ridurre. Ma vogliam contentarci di quel che sin ora s'è detto, o pure più sottilmente ancora la verità di queste cose andar ricercando? </p></sp>
+	<sp><speaker>A.P. </speaker><p> A me pare che assai contentar ce ne dobbiamo, perché, quando il giuoco pur non fosse imitazion, com'a voi pare, sarebbe almen contesa, come io giudicava: e forse quei giuochi tutti, ch'a la imitazion non si riducono, si riducono a la contesa come a suo genere. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Già mi pare che, senza ch'io molto affaticata mi sia, voi medesimi vi siate accordati: del che non so se mi rallegri o mi doglia, e direi di dolermi che non aveste avuto bisogno de l'opera mia, s'io credessi d'essere stata atta a porvi d'accordo. Mi rallegro dunque perché la vostra concordia è argomento de la verità, la qual più tosto da due che da uno suol esser ritrovata. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io maggiormente mi rallegrerei se così ne l'opinione come nel dubbio fossimo concordi. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma ditemi, vi prego, signor Annibale: vi piace più l'opinion vostra che quella del signor Giulio Cesare? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io di niuna mia opinione mi compiaccio, e meno che d'alcun'altra di questa, la qual per vostro piacere ho manifestata. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma quand'a voi pure più la vostra opinione piacesse, siate contento ch'io vi giudichi uomo vago di contesa. </p></sp>
+	<sp><speaker>A.P. </speaker><p>Assai favorisce la signora Margherita la mia opinione con queste sue argute parole. </p></sp>
+	<sp><speaker>A.P. </speaker><p> A me sin da principio parve che la signora Margherita mi fosse anzi contraria che favorevole; non rimarrò nondimeno di dire ch'io veggio molti giuochi ne' quali alcuna imitazione non si ritrova, ma non ne veggio già alcuno in cui non si ritrovi alcun contrasto: e chiederei a voi, signor Giulio Cesare, che imita colui che giuoca a la morra o colui che giuoca al palamaglio, e se non imita, come sia vero che 'l giuoco sia imitazione. E potrei così armarmi contra la vostra diffinizione, come voi contra la mia vi siete armato. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Già non vi si toglie che la mia diffinizione non possiate impugnare; ma io non tanto vi negherei ch'alcuni giuochi fosser privi d'imitazione, quanto che quelli che ne son privi non abbian tutte quelle condizioni che nel giuoco si richieggono: ma o vi piaccia, signor Annibale, d'addimandare o di rispondere a quel ch'io in questo proposito vi chiederò. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Chiedete quel che vi piace. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Non avete voi detto che i giuochi son fatti per diletto de la pace? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Hollo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E que' giuochi ne' quali non è alcuna imitazione, se pur son giuochi, sono di maggior o di minor piacere che gli altri ne' quali alcuna cosa è imitata? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Di minor senza dubbio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Quelli dunque che più imitano più dilettano. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così pare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E il diletto loro onde nasce? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Da la imitazione. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Da la natura dunque del giuoco nasce il piacere. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così credo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E forse tanto è egli maggiore quanto l'imitazione è più espressa o meglio fatta. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così è senza dubbio: perché quelle carte ancora ne le quali i cavalieri e i fanti e i re meglio sono e con più vaghi colori imitati, più volentieri sogliono da' giuocatori essere usate. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma in quegli altri giuochi ne' quali non è alcuna imitazione, onde procede il diletto, da la natura loro o pur d'alcuna esterna cagione, come sarebbe la vincita del danaro? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Da questa più tosto. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque molti non sono dilettevoli per se stessi, né consequiscono quel fine per lo quale i giuochi furono ritrovati. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Noi torniam a ragionare de l'origine de' giuochi: e quando il signor Annibale disse che 'l giuoco de gli scacchi era stato ritrovato da Palamede, inventor de le ordinanze, volli interrompere il ragionamento, ma mi rimasi di farlo, percioché in troppo sottile investigazione vi vidi occupati. Ora che quel che cercavate, se non m'inganno, avete ritrovato, mi voglio anch'io far lecito di chiedere al signor Annibale, se 'l giuoco de gli scacchi fu ritrovato da Palamede sotto Troia, ond'avvenga che 'n esso sian figurate le Amazzoni: percioché ne l'<emph>Iliade</emph>, ch'io ho letta alcuna volta tradotta, non ritrovo menzione né di Palamede né de l'Amazzoni, ma Palamede era morto innanzi il nono anno de la guerra e l'Amazzoni vennero dapoi. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Nel giuoco di Palamede non eran peraventura l'Amazzoni, ma questo fu forse accrescimento di quei soldati ch'in Grecia il riportarono, i quali di questa novità il volsero adornare perché fosse più grato a gli occhi de' riguardanti. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma la distinzion de le schiere bianche e de le nere onde fu tolta? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Forse da' Traci che seguirono Reso e da gli altri popoli settentrionali e da quelli de l'Oriente che passarono sotto Mennone. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma se queste furono schiere d'un essercito medesimo, non par conveniente che dovessero due esserciti nemici rappresentare. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non credo che in questa imitazione, chi la trovò o l'accrebbe, tanto a la verità o a la favola abbia avuto risguardo, quanto a la vaghezza de la vista, come in molte altre osservazioni si vede osservato; ma chi volesse ch'egli al vero s'assomigliasse, potrebbe dire che le schiere bianche fosser de' Troiani e de' popoli de l'Asia, ch'erano molli e delicati e nodriti, per così dire, a l'ombra, e le nere de' Greci, che per la polvere e per il sole tali eran divenuti. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ma l'uso de gli elefanti fu ritrovamento de' Greci, o pur anco dopo fu ritrovato? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Dapoi cred'io che fosse tutta questa invenzione non solo accresciuta, ma adornata di quello ch'in ciascuna età ne l'uso del guerreggiare era stato più mirabile. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Assai resto io contenta de la risposta del signor Annibale. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E a me pare che, rispondendo de l'origine de' giuochi, ci abbia maggiormente confirmati in questa opinione, che 'l giuoco sia imitazione, perch'i re ne gli scacchi si muovan lentamente per imitar la tardità e la gravità de' regi. Ma per questa ragione tardamente si dovrebbono muover i rocchi, ch'imitano gli elefanti. </p></sp>
+	<sp><speaker>A.P. </speaker><p> La necessità e l'ordine del giuoco ha ricercato ch'essi corrano tutto lo scacchiero: oltre acciò, non essendo ordinariamente adoprati se non nel fin del giuoco, assai convenevolmente rappresentano la strage che fanno gli elefanti ne le schiere rotte e disordinate. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma forse, o signor Annibale, non dee rimaner paga la signora Margherita che l'origine di molti sia ritrovata, se l'origine de gli altri non si ritrova. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così credo; ma se noi partitamente vorrem ricercare quando ciascun avesse principio e come, cosa faremo forse altrettanto malagevole quanto oscura: percioché di molti giuochi ci converrebbe ragionare, il cui principio è forse così nascoso ne le tenebre come sono molte stirpi de gli uomini; e de gli illustri n'abbiam pochi tralasciati a dietro. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma se la tragedia e la comedia, o signor Annibale, son giuochi, come detto abbiamo, debbiam di questi ancora la cagione ricercare, o pur de la tragedia solamente, ch'è più illustre? </p></sp>
+	<sp><speaker>A.P. </speaker><p> De l'una e de l'altra ho io letto ch'ebbe origine fra i Dorici e gli Atenesi: ma fra i Dorici ne la libertà popolare, comeché de la comedia non solo fra i Dorici e gli Ateniesi, ma fra i Dorici de la Sicilia e quelli de la Morea vi sia stato contesa. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma i torneamenti e i corsi de la chintana non sono anch'essi giuochi illustri? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sono. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E questi sapreste voi dire quando avessero origine? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non saprei veramente, se da l'istorie o più tosto da le favole de la Inghilterra non la traessi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E da Spagna l'origine d'alcuni altri giuochi potreste trarre, qual è quel de le canne e de le caroselle, o da Africa più tosto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Potrei. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma per aventura la signora Margherita non sol di questi tutti vorrebbe sapere l'origine, ma di quelli ancora che fra loro donne ne le private camere sogliono esser fatti, e di quelli anco di carte e di dadi e di molti altri. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Di questi anco che da noi donne, non solo da voi altri Signori, son chiamati giuochi, vorrei saper il principio: ma se pur il signor Annibale stima che o sia molto difficile il renderlo o ch'a lungo andare dovesse essere noioso il ragionarne, io non lo gravo di maggior fatica di quella ch'a lui piaccia di prendere o di quella che creda di poter agevolmente sopportare. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io non so quel che mi possa o non possa, come colui che, per compiacere a la signora Margherita e a voi, dispiaccio a me stesso. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma peraventura né a me né a lei né a voi dispiacerete sì, come di tutti i giuochi una commune diffinizione s'è data, così tutti ad una commune cagione ridurrete, per la quale essi siano stati ritrovati. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io non so qual possa esser questa commune cagione, se forse non è il diletto per lo quale furono tutti i giuochi, se non m'inganno, ritrovati: percioché la severità de la vita attiva e de la contemplativa eziandio aveva bisogno d'alcun temperamento che la rendesse piacevole, e le fatiche de l'una e de l'altra con alcun piacere doveva esser mescolato: e questo non si poteva da alcuna cosa più convenevolmente prendersi che da' giuochi, i quali, comeché possano esser faticosi a chi gli fa, alcuni d'essi particolarmente, sono sempre nondimeno alleggiamento de le fatiche di chi gli riguarda. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E questo trattenimento può essere publico e privato? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Puote. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Onde due sorti de i giuochi diremo che si trovino: l'una fatta per publico, l'altra per privato diletto. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così mi pare che si debba dire. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma forse la signora Margherita desidera di saper che sia quel che 'l signor Annibale chiama trattenimento. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Trattenimento dico io il diletto de l'animo, del quale i giuocatori, e talora i riguardanti, ingannati, non s'accorgono del fuggir de l'ore: e trattenimento si dice perch'egli ci trattiene da l'operazioni, e fra lor si frapone accioché più volentieri ad esse, che faticose ci paiono, ritorniamo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma onde procede questo diletto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Da la vittoria, credo io: perché la vittoria è dolcissima a ciascuno, o per ingegno o per fortuna che si vinca. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma quando credete che sia più grata la vittoria, quand'ella per fortuna o per ingegno s'acquista? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Quando per ingegno. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Più grata adunque è la vittoria del giuoco de gli scacchi che di quel de le carte o d'altro in cui la fortuna con l'ingegno s'accompagni? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Più grata certo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma credete voi ch'a ciascuno o sempre più piacevole sia il giuoco de gli scacchi che quel de le carte, o pur gli altri giuochi d'ingegno piacciano più che quei di fortuna? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Alcuna fiata quelli ne' quali la fortuna con l'ingegno s'accompagna sogliono esser più piacevoli. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque altra cagione di diletto si può ritrovare ne' giuochi oltre la vittoria. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così pare per questa ragione. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ditemi appresso: il diletto si sente solamente nel fine del giuoco o pur mentre si giuoca? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Mentre ancora si giuoca, ancora si sente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma mentre si giuoca, alcuno non ha conseguito la vittoria: non procede dunque il piacer da la vittoria sola. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Molte picciole vittorie son riportate nel giuoco, in ciascuna de le quali si sente diletto, se ben l'uomo è incerto de l'ultima e, per così dire, certa e sicura vittoria. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Picciole vittorie chiama forse il signore Annibale nel giuoco de la primiera i molti resti che si tirano. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Queste chiamo picciole vittorie. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E nel giuoco de gli scacchi chiamerei picciole vittorie i molti pezzi presi. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sì certo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E in quel de la palla e del pallone le caccie guadagnate. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Queste parimente sono da me picciole vittorie nominate. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Nondimeno il giuocatore è incerto de la vittoria sin al fine, parlo de l'ultima conseguita vittoria. </p></sp>
+	<sp><speaker>A.P. </speaker><p> È veramente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma questa incertitudine mescola co 'l diletto del giuocatore alcuna molestia e alcun timore? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Si mescola senza fallo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Onde né sincero né puro diletto può esser quel del giuocatore. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non pare ch'esser possa. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma ne l'incertitudine de la vittoria fa l'ingegno del giuocatore alcuna operazione? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Fa; percioch'egli modera così i prosperi come gli infelici avvenimenti di fortuna, dirizzandogli a la vittoria. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E questa moderazione de gli accidenti de la fortuna può ella esser senza diletto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non a creder mio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque non tanto da la vittoria quanto da l'operazione del giuocatore, ch'è in lui, può nascere il diletto; e s'avviene che il giuocatore sia tale che moderi non sol gli accidenti de la fortuna ma gli affetti de l'animo eziandio, sentirà egli puro e sincero e moderato piacere. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sentirà, ov'egli sia tale. Pochi nondimeno sono sì fatti, ma la maggior parte de' giuocatori tra la speranza del guadagno e 'l dubbio del perdere e tra il diletto e tra il dolore d'alcuni guadagni e d'alcune perdite passano senza avedersene quel tempo ch'è destinato a l'ozio, ma allora se n'accorgono ch'è già trapassato. E questo è quel che propriamente si dice diletto de' giuocatori, il quale non è semplice diletto, come che il diletto sia con gli altri affetti mescolato. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma se del liberale giuocatore parleremo, diremo ch'egli senta semplice diletto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Diremo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma non abbiam noi detto, o signor Annibale, che tra' giuochi quelli meglio sono stati instituiti che fanno alcuna imitazione? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E l'imitazion non è ella in certo modo operazione? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Né solo operazione, ma dilettevole operazione. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Dilettevole è senza alcun dubbio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque, perché il giuocatore fa alcuna operazione e alcuna imitazione, giuocando, sentirà diletto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così pare per questa ragione. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma l'imitazione a coloro che la fanno solamente è piacevole, o pur a chi la rimira? </p></sp>
+	<sp><speaker>A.P. </speaker><p> A chi la rimira ancora. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>I giuochi dunque a' giuocatori e a' riguardanti per questa ragione saranno piacevoli. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Saranno; ma come ch'io non neghi che l'operazione e l'imitazione soglia apportare diletto, l'incertitudine nondimeno de la vittoria, e gli affetti ch'in questa incertitudine si sentono, dà grandissimo piacere non solo a' giuocatori, ma a' riguardanti ancora, che con alcuna animosità di parte sogliono i giuochi rimirare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Né io questo niego, né muto opinione che 'l diletto del giuocatore altrettanto ne l'operazione, ch'è in lui, quanto ne la vittoria, ch'è fuor di lui, sia riposto; ma chiedo se quelle vittorie sempre son piacevoli che sono acquistate con l'operazione de la quale il giuocatore sia signore. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così par ragionevole che dovesse essere. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Nondimeno quelle che con operazione di maggiore ingegno sono acquistate sono più faticose, come è quella del giuoco de gli scacchi e de gli altri sì fatti. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sono. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E di minor fatica sono quelle ove la fortuna ha parte, come ha ne' giuochi de le carte e in molti altri. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Di minore a parer mio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E per questo rispetto forse paiono elle più piacevoli. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così credo: perché la fatica sempre scema del diletto. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma l'ultima e sicura vittoria è congiunta con l'operazione, o pur seguita l'operazione come suo fine? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Segue l'operazione come suo fine, perché in quelle le quali con l'operazioni sono congiunte sono le picciole e incerte vittorie. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma il fine de l'operazioni più faticose è più faticoso, o pur tanto più piacevole la vittoria quanto l'operazione è stata più faticosa? </p></sp>
+	<sp><speaker>A.P. </speaker><p> I fini de l'operazioni più faticose più piacevoli sogliono essere che quelli de l'altra. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Più dilettevole dunque sarà la vittoria del giuoco de gli scacchi e de gli altri che si fanno con alcuna fatica. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così pare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma de le vittorie non sono alcune accompagnate dal danaro o da cosa che dal danaro sia misurata, alcune da niun prezzo sono accompagnate? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così avviene. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma se l'un'a l'altre paragonarete, quali più dilettevoli saranno da voi stimate? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Quelle senza alcun dubbio le quali da danaro o d'altro prezzo sono accompagnate. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Molto avari fa il signore Annibale i giuocatori, senza alcuna contesa del signor Giulio Cesare, se lor piace più quella vittoria la qual dal prezzo è accompagnata. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Avarizia sarebbe, signora, se 'l danaro fosse per sé dal giuocatore desiderato; ma desiderandolo il giuocatore come pregio de la vittoria, più tosto cupido di lode dee esser detto che avaro. E se i doni piacciono tanto a l'ambizioso quanto a l'avaro, a questo perché apportano utilità, a quello perché sono argomento d'onore, il danaro che si vince dee esser grato al vincitore come utile e orrevole parimente. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Non tanto a me dispiace la ragion che voi dite, quanto mi pare che in quei giuochi ancora ne' quali non si giuocan danari la vittoria debba esser grata per se stessa, né men grata che ne gli altri. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dovrebbe esser certo, e suole esser grata in ogni giuoco. Ma ditemi, o signora: quando alcuna donna supererà tutti quegli affetti per gli quali l'altre donne sogliono compiacere almeno d'uno sguardo chi lor rimira, non sentono piacere d'aver in ciò costantemente adoperato? </p></sp>
+	<sp><speaker>M.B. </speaker><p> Le donne amate le quali vincon gli affetti loro altrettanto diletto debbon sentire nel vincerli, quanta vergogna sentirebbono nel lasciarsi vincere. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma se 'l marito, divenendole perciò più affezionato, o monile o altra cosa le donasse, quasi pregio di quella vittoria che de le cupidità avesse riportato, non le sarebbe sì fatto pregio grato oltre modo? </p></sp>
+	<sp><speaker>M.B. </speaker><p> Le sarebbe. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque, se le donne ne l'operazioni loro volentieri ricevono il guiderdone e se 'l dottore e 'l poeta e ciascun altro brama il premio de l'opere sue, potete ben credere che 'l giuocatore desideri il pregio de la sua vittoria, la qual molte fiate è effetto de la sua fortuna, molte de la sua industria. Ma se ciò è vero, o signor Annibale (ch'a voi ora da la signora Margherita rivolgo il ragionamento), come può a l'amico esser lecito di giuocar con l'amico e di procurar guadagno? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Ciascuno nel giuoco è nemico a colui con chi giuoca, sì che, da lui procurando guadagno, procura guadagno dal nemico. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma il nemico, o signor Annibale, non è quegli che combatte co 'l nemico? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Per certo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E il giuocatore che non combatte, ma imita il combattere, procura il guadagno dal nemico da giuoco? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Procura. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Da colui dunque che fuor di quel giuoco suole essergli amico? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Assai è vero che con gli amici anzi che co' nemici soglion giuocare i giuocatori; nondimeno, se dal nemico da giuoco procura il guadagno, con quell'animo medesimo no 'l procura co 'l quale dal vero nemico il cercherebbe. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma l'avaro con qual animo il procura? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Con quello che 'l nemico dal nemico il procurarebbe. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Vero è dunque, o signor Annibale, che alcuna volta siano degni di maggior biasimo i giuocatori che i ladri? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Vero potrebbe essere in alcun modo: perché, se voi me, che amico e servitore vi sono, nel giuoco procuraste di ruinare, e io ad una donna, che crudele mi fosse anzi che no, involassi un paio di guanti o una corona o altra sì fatta cosa, minor biasimo meriterei io nel furto che voi nel giuoco. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Molto buona si fa il signor Annibale la sua ragione e molto si fa lecito il poter involare a le donne; ma perché ciò è molto agevole, poca industria dimostrerebbe chi loro alcuna cosa involasse, e indegno di quella lode mi parrebbe la quale meritarono gli Spartani. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Gli Spartani sapevano così ben ricoprire come involare, anzi d'altra scusa o d'altra lode non eran degni che di quella d'aver saputo furare senza ch'altri se ne accorgesse: onde, se fossero stati colti nel furto, come gli altri sarebbono stati biasimati. Ma ancor ch'io giudichi che non sia lecito d'involare a le donne, nondimeno avrei per minor errore il rubar talvolta un paio di guanti o un velo o altra sì fatta cosa, ch'in lor memoria potesse esser conservata, che l'avidità del vincere in giuoco tutti i danari; la quale ho talvolta conosciuta in alcuni cortegiani, che mi sono paruti più tosto buoni giuocatori che gentili trattenitori di donne. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Già s'è cominciato a ragionar d'un'altra di quelle cose de le quali io desiderava che si ragionasse, se lodevol fosse il giuocare e se lecito fosse l'ingannare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma di queste cose per aventura in un modo ne potrebbe il signor Pocaterra co' suoi compagni ragionar ne le scuole e in un altro con la signora Margherita, non perch'ella non sia atta ad intendere, ma perché a noi si conviene di parlare in modo ch'ella volentieri ne ascolti. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Io per me direi che la cupidità di guadagno dee esser moderata in tutti i giuochi, e particolarmente in quelli che con le donne si fanno. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E questa moderata cupidità di guadagno pare a voi lodevole, o signor Annibale? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sì certo: perché la moderazione di ciascuno affetto è lodevole, ed essendo la cupidità di guadagno un affetto sì come gli altri, non veggio perché il moderarlo non debba lode riportare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma l'invidia è affetto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> È. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E affetto è parimente malignità? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Parimente. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque chi modererà questi affetti ancora meriterà lode, o pure alcuni affetti sono in guisa rei che dovrebbono anzi essere estirpati? E tale è peraventura la malignità e l'invidia; ma non so già se la cupidità del guadagno tra questi debba esser riposta. </p></sp>
+	<sp><speaker>A.P. </speaker><p> E s'alcuni non la ricevono, non è tra questi la cupidità del guadagno. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io avrei creduto che la cupidità del guadagno non fosse lodevol cosa e ch'i cupidi del guadagno fosser quelli i quali cercano di guadagnar da tutte le cose, e da quelle ancora che sono degne di niuna stima. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Se 'l danno è male, il guadagno, ch'al danno è contrario, dee esser bene; onde i cupidi del guadagno sono cupidi del bene: e perché la cupidità del bene è affetto lodevole, deono esser lodati. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Questa è una di quelle ragioni che per aventura potrebbe sforzare alcuno: me nondimeno mai non persuase, avegna che non sia lodevole il desiderio di tutti i beni o di tutti i guadagni, ma de gli orrevoli solamente; e all'incontro il disprezzo de' beni utili suole apportar molto onore: onde, quando il prezzo del giuoco è il danaro o cosa misurata dal danaro, non estimo che si possa desiderar di vincere con molta lode. </p></sp>
+	<sp><speaker>A.P. </speaker><p> A me pare che si possa, pur che mediocremente si desideri la vincita: e questa mediocrità consisterà non solo in non desiderare di vincere con maggiore affetto di quel che si convenga, ma anche in non desiderar di vincere più di quel che porti la natura del giuoco; e quelli che con altro affetto giuocano sono gli avari giuocatori, i quali, come detto abbiamo, de' ladri non sono migliori. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E come questi avari giuocatori da gli altri conosceremo? </p></sp>
+	<sp><speaker>A.P. </speaker><p> A molti segni, e particolarmente al risparmio co 'l quale cavano i danari, a la cautela de l'accettar gli inviti, a la difficoltà del fare partito. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Il liberal giuocatore dunque molto caverà, e facilmente inviterà e accettarà gli inviti? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così credo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma, così facendo, sarà cagione che 'l giuoco s'ingrossi. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Sarà. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E nel giuoco grosso non è più ragionevole il guadagnar molto che nel picciolo? </p></sp>
+	<sp><speaker>A.P. </speaker><p> È senza dubbio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Se nel giuocatore dunque sarà alcun desiderio di soverchio guadagno, la sua sarà avarizia più tosto che liberalità, sì che de i tre segni proposti da voi quel di fare i partiti mi pare il più certo. E quantunque il liberal giuocatore sempre debba moderare la cupidità del guadagno; nondimeno, quando avviene ch'egli giuochi con le donne, poca volontà d'altro che di servirle e di trattenerle dee dimostrare. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Allora egli sarà cupidissimo di guadagno: perché desidererà di guadagnar la grazia di quella donna con la qual giuoca, la quale suole alcune volte esser degnissima e preziosissima e di grandissima stima: laonde conterrà il maggior guadagno che si possa fare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Se la degnità e la stima contiene i guadagni, è vero senza alcun dubbio quel che voi dite; ma non so quel che di ciò si conchiuderebbe. Io per me tanto vi ho appreso che potrei a le volte giuocar con tale che porrei la mia vittoria nel perdere e mi lascerei vincere a bell'arte; e quando io pur non mi volessi lasciar vincere, almeno assai più lentamente procederei ne la vittoria, e con maggior facilità verrei a tutti i partiti e a tutti gli accordi. E questa facilità, che con le donne è creanza, mi parrebbe alcuna volta sciocchezza con gli uomini. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Quella de gli uomini, che da voi è stimata creanza e cortesia, da me è riputato inganno e artificio; percioché gli uomini molte fiate si lascian vincere per vincer le donne in altri contrasti di maggior importanza. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Gran severità mostra la signora Margherita in non gradire quella che dal cavaliero suol esser riputata gentilezza nel trattener le dame. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Forse non ha in tutto il torto la signora Margherita; percioché anzi accortezza che severità è 'l ricusare di vincer coloro che fan troppo manifesta la lor volontà di perdere, la qual dal discreto cavaliero dee esser ricoperta. </p></sp>
+	<sp><speaker>M.B. </speaker><p> È cortesia il perder con le donne, forse perché la vittoria è lodevole solo quando ella ha contrasto; ma le donne non possono con gli uomini né d'ingegno né di fortuna contendere. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Benché ad alcuni vera potesse parer la ragion de la signora Margherita, nondimeno non ardirei di confermar che le donne d'ingegno con gli uomini non potessero contrastare, parendomi che niuno ingegno d'uomo sia tale che si debba sdegnare di venire in paragone co 'l vostro. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Questa lode non conviene a me, signor Giulio Cesare, ma converrebbe ella senza fallo a la signora Claudia Rangona, a la signora Barbara Sanseverina, a la signora Fulvia da Correggio, a la signora Felice de la Rovere e, s'è lecito, come si dice, di por la bocca in cielo, a la serenissima signora duchessa di Ferrara, che fa maravigliar ciascuno tanto de l'ingegno e de' costumi laudevoli quanto de la bellezza e de la grazia del corpo; ma non men credo ch'a voi altri signori debbano esser piaciute le nostre. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io per me non posso se non ammirare le principesse di Ferrara, e particolarmente la duchessa di Urbino, la qual ne l'età più matura conserva ancor la maggior parte di quella bellezza che ne la giovanile dicono ch'è stata senza pari. Né meno che per la bellezza del corpo è degna di maraviglia per l'accortezza, per la gravità, per la modestia, la quale la ritiene assai volte che di molte cose, che molto intende, non parli più di quel ch'a donna e a principessa s'appartenga; si ch'a me pare che più tosto di fortuna che d'ingegno voi debbiate cedere a gli uomini, poiché da la vostra non v'è conceduto molte fiate dimostrar il vostro ingegno. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Sfortunata cosa dunque è il nascer donna: perché, se ben la fortuna donna e dea si dipinge, a quelle del suo sesso nondimeno suole men favorevole che a gli uomini dimostrarsi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Non può essere in alcun modo sfortunato quel sesso nel quale la signora Margherita è nata, e tante altre valorose donne. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Questa è la consolazione che da voi altri sogliamo ricevere, di parole e d'apparenze cortesi più tosto che d'effetti; ma assai son io contenta d'ubbidire a chi debbo, né tanto mi doglio de la mia fortuna quanto di quella di molte donne, che s'avengono a chi non sa commandare. Questa fortuna nondimeno, ch'in alcun quadro io ho veduta dipinta con la fronte crinita e co' piedi alati, dea non è certo, come gli idolatri credevano. Che cosa dunque è ella, se pur non è un nome vano senza soggetto? E questo ora addimando, percioché da don Lelio padre del Giesù, di belle e scelte lettere, udi' io dire, un giorno che la signora mia suocera addolorata per la morte del marito consolava, ch'alcuni teologi avevano creduto ch'ella non fosse cosa alcuna. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io, lasciando stare quel che i teologi ne credono, l'opinioni de' quali stimo vere ma convenevoli a più gravi ragionamenti, non son dubbio s'ella si ritrovi, ma se nel giuoco si ritrovi e come; e pregherei il signor Annibale ch'al mio desiderio sodisfacesse, se non fosse che molto prima al vostro dee sodisfare. Diteci dunque, signor Annibale, quel che i vostri filosofi dicono de la fortuna. </p></sp>
+	<sp><speaker>A.P. </speaker><p> De le cagioni alcune sono per sé, alcune per accidente: e la fortuna è una di quelle che sono per accidente. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Questi vostri “per sé” e “per accidente” sono termini assai buoni, credo io, ma da me non tanto intesi quanto io vorrei. </p></sp>
+	<sp><speaker>A.P. </speaker><p> La signora Margherita s'infinge, perché buoni non gli stimerebbe se non gli intendesse: onde non tanto credo che voglia intendergli, quanto far prova come io gli sapessi dichiarare a chi poco gli intendesse. Dirò dunque che, s'alcun giuocasse in alcuna bella e nobil brigata di donne a primiera e giuocando fosse preso del piacer d'alcuna donna, due cagioni si potrebbon addurre; l'una per sé, che sarebbe la bellezza de la donna piaciutagli; per accidente l'altra, cioè il giuoco, perché non è necessaria cagione de l'amore, ma può avvenire ch'altri giuocando s'innamori e potrebbe avvenire che non s'innamorasse. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Assai convenevolmente trova occasione il signor Annibale di mescolare ragionamenti d'amore in questo proposito, forse come colui che d'alcun amor dee esser preso: e a me pare d'avere inteso assai bene quel che sia cagione per sé e quel che per accidente. Or lascerò che 'l signor Giulio Cesare in modo l'addomandi de la fortuna che non ci lasci alcun dubbio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Diteci dunque, signor Annibale, se tutte le cagioni accidentali si dicon per fortuna. </p></sp>
+	<sp><speaker>A.P. </speaker><p> La fortuna è una de le cagioni accidentali, la qual si dice propriamente esser cagione di quegli effetti i quali, fatti con alcuno umano proponimento, avvengono altramente di quello che l'uomo s'aveva presupposto. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Quegli effetti dunque i quali non avvengono oltre l'umano proponimento non si recano a la fortuna? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non pare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Non sarà dunque per fortuna la caduta d'un spiedo o d'altra arma che dal luogo, ov'è riposta, cada e ferisca un cavaliero? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Per caso più tosto, sotto il quale si riducono tutti quegli effetti de' quali può esser per sé cagione la natura. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Assai intendo io come il caso da la fortuna sia distinto, la qual distinzione a me, che pur alcuna volta soglio udire il signor Scipione mio fratello co' filosofi discorrere, non è nuova; ma credo anche che nuova non sia a gli orecchi de la signora Margherita o, quando pur nuova fosse, agevolmente credo che da lei sia stata intesa. Ma credo anco che potrebbe dubitare se colui che vince a tarocchi o a primiera vince per fortuna. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Per fortuna vince il più de le volte, tuttoché alcuna volta per ingegno possa vincere. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E anco per fortuna vince alcuna volta il cavaliero il pregio de la giostre o del torneamento. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Vince. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E per fortuna i tragici e i comici vinsero alcuna fiata le lor contese. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Vinsero. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Nondimeno né i poeti né i cavalieri né i giostratori vinsero oltre il proponimento che avevan di vincere, perché s'avevano proposta per fine la vittoria. Come dunque la vittoria loro è per fortuna? </p></sp>
+	<sp><speaker>A.P. </speaker><p> De' nomi de' filosofi avviene quel che de gli instrumenti de gli altri artefici, i quali alcuna volta in alcuni usi propri, alcuna in altri men propri sono usati. Percioché questo nome di fortuna, il quale propriamente vuole usarsi quando de l'azioni de gli uomini si ragiona, suole alcuna volta assai distendersi e a tutte quelle cagion attribuirsi le quali certe non sono né conosciute: e tale molte fiate è quella che dà la vittoria al giuocatore e a gli altri che contendono, e quella eziandio che con un stesso vento conduce una nave in porto, co 'l quale un'altra era perita. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>A me pare che 'l nome di fortuna non solo s'usi propriamente in quegli effetti che avvengono oltre l'intenzione de l'operante, ma in quelli ancora che l'uom si propone di fare quando, non potendo esser fatti con alcuna certa ragione, dipendono da ragione esterna: e peraventura chi ristrinse gli effetti di fortuna in quegli solamente ch'avengono oltre il proponimento de l'operante, troppo gli ristrinse; onde, perché nel giuoco non c'è alcuna certa ragione di vincere, può la vittoria del giuoco avvenire per fortuna, massimamente se colui che vince non vince nel modo co 'l quale di guadagnare s'aveva proposto, ma in altro modo diverso, come vincerebbe alcuno se, mentre va a primiera, aspettando carte de fiori, gli sopragiungesse di picche che gli facesse far trentasette o trentanove: percioché, quand'egli si pone a flusso con quarantanove, se con flusso vince o senza flusso, non si conosce così apertamente ch'egli vinca per fortuna, anzi può alcuna fiata parere ch'ei vinca per alcuna arte che abbia del giuoco, per la quale abbia saputo a tempo invitare o tener del resto. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Ora, se non m'inganno, è forse tempo che m'insegniate l'una di quelle cose che nel principio del ragionamento vi richiesi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Se si dia arte alcuna del giuoco? </p></sp>
+	<sp><speaker>M.B. </speaker><p> Così forse dimandareste come s'avesse a vincere: ché queste dispute de l'arte sono altrettanto difficili quanto sia quella de la fortuna; de la quale s'alcuna cosa vi rimane a dire, non vorrei perciò che fosse taciuta. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>A me non rimane che dire, ma che chieder più tosto: e chiederò il signor Annibale se così il caso come la fortuna possa nel giuoco aver parte. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Può, s'io non m'inganno, aver parte in quei giuochi ne' quali o la gravità o la leggerezza o altra qualità de' corpi naturali è cagione de' varî effetti: come nel giuoco del pallone e de la palla io recherei al caso molti balzi ch'avvengono oltre ogni aspettazione, e nel giuoco del palamaglio parimente; ne' quali da la gravità e da la leggerezza de le palle e da l'egualità o disegualità de la terra e da' concorsi, per così dire, de le palle con altri corpi mirabili effetti veggiamo avvenire. E simili a questi molti ne possono succedere nel giuoco de' dadi, ne' quali gli angoli e la superficie sono di non picciola importanza; e quando non siano eguali, sogliono fare alcuni effetti ch'al caso posson ridursi, de' quali la malizia de gli uomini ha fatto quasi un'arte. Nondimeno, perché questi instrumenti da le mani de gli uomini sono maneggiati con alcuna determinata intenzione, molto più ragionevolmente la fortuna che il caso n'è stimata la cagione. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Credete voi, signor Annibale, che questi incerti avvenimenti si possano con alcuna ragione moderare e che del giuoco si possa dare alcun'arte o si possa, come ella vuole, insegnare di vincere alla signora Margherita? </p></sp>
+	<sp><speaker>A.P. </speaker><p> L'arte si può dare in quelle cose ch'o sempre o per il più si fanno ne l'istesso modo; ma se per lo più succedono questi effetti del giuoco, i quali o tutti a la fortuna e al caso o parte posson ridursi, aspetterei d'udire da chi fosse più prattico del giuoco che non sono io. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Io peraventura posso esserne più prattico di voi; ma non abbiam già noi detto ch'in alcuni giuochi ha parte la fortuna, in altri non l'ha? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E in quelli ove la fortuna non ha parte, dubitate voi se gli effetti per il più o se pur rade volte avvengano? </p></sp>
+	<sp><speaker>A.P. </speaker><p> In quelli senza alcun dubbio gli affetti avvengono per lo più. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque d'essi si può dare arte, e si può non difficilmente insegnare a la signora Margherita di vincere, come il signor conte Annibale Romeo le insegnarebbe di vincere a scacchi? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Si può a parer mio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma in quegli altri ne' quali la fortuna signoreggia, posson gli effetti avvenir sempre o per lo più? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non possono. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque d'essi arte non si può dare? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non, propriamente ragionando; ma se voi mi concederete che de le cose che da me in un proposito sono state addotte possa in un altro valermi, dirò che, se ben l'arte si trova in quelle cose che con alcuna certa ragione son fatte, nondimeno in quelle ancora ne le quali non si dà alcuna certa ragione, si dà alcuna osservazione, la qual suole spesso esser fallace; ma forse molte fiate non è tale. E questa è l'arte di quei giuocatori tutti i quali alcuna cosa credono a la fortuna. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Mi pare che voi abbiate descritte quelle che da alcuni son chiamate arti conietturali, qual è forse quella del capitano e del navigante: perché, sì come in quelle ci sono alcune regole e alcune osservazioni, ne le quali uomo esperto suol fondarsi, così prattico giuocatore ha le sue, per le quali giudica de gli avvenimenti. Dal mormorar de l'onde e de' venti, da le nubi e dal cader de' lampi, da le macchie del sole e de la luna, dal volar de gli augelli, da l'apparir de' delfini e da altri sì fatti segni argomenta il nocchiero la tempesta e la serenità e se sia tempo di navigare o di ritrarsi in porto: parimente il giuocatore da molti segni conosce la detta e la disdetta, fallaci alcuna fiata, alcuna assai veri, sovra' quali è fondata l'arte sua. Ma che cosa direm noi che sia questa detta o disdetta, signor Annibale? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Un concorso di cagioni accidentali per le quali crediamo che così un favor di fortuna dietro l'altro debba seguire, come suol un'onda dietro l'altra seguitare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E questo, se non è in guisa securo che se ne possa il giuocator promettere vittoria, il dee assai cautamente accompagnar con quella che da voi arte conietturale o osservazione è stata addimandata, per la quale suole molte fiate esser vittorioso. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Dee a mio giudicio. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma da quale arte si può muovere il giuocatore a fidarsi più tosto de le carte di danari e di spade che di quelle di bastoni? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Da niuna, pare a me. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque solo da l'avere osservato che, così molte fiate facendo, gli è succeduto di vincere. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Da questa osservazion forse. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma tutta volta quel che ad alcuni succede non succede ad alcuni altri: e un giuocatore istesso alcuna fiata aviene che vinca più agevolmente con le carte d'un giuoco che con quelle d'un altro, alcun'altra altramente aviene. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così suole avenire. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma di questi effetti né a voi pare che se ne possa rendere alcuna ragione, né io so chi n'abbia fatta osservazione alcuna. Più tosto ella si fa de' tempi de l'invitare e de l'accettar l'invito e di quel che soglia avenire ad un ch'inviti, o pur de l'animo e de la risoluzione de gli avversarî, con la quale si muovono a fuggire o a far difesa; de le maniere de' giuochi, altre più ardite, altre più caute, altre più scarse, altre più liberali; e di quel che con ciascuna d'esse si faccia facilmente o più difficilmente. Misura oltre di ciò il giuocatore il suo resto e quel de gli avversarî; tien memoria de le carte che ha scartate e di quelle che sono nel mazzo; e da l'une e da l'altre argomenta quel che gli avversarî possono aver ne le mani, e da' sembianti e dal volto eziandio, ne' quali il timore e la speranza e la cupidità e l'allegrezza difficilmente posson ricoprirsi: e da queste osservazioni tutte farà quella che da voi arte de' giuocatori fu detta. Ma sì come alcune proprie osservazioni avrà il giuocator de le carte, così altre n'avrà quel de' dadi: e parlo ora di quei giuochi de' quali da principio intese la signora Margherita; perché se de l'armeggiare o d'alcune maniere di poesie, che giuochi da noi sono state dette, si dia arte o non si dia, da altri è stato ricercato; e sarebbe per aventura assai più malagevole impresa il ragionarne; ben vorrei, se in alcun modo possibil fosse, ch'insegnassimo a la signora Margherita di vincere, com'ella desidera. Ma forse non tanto con alcuna osservazione di congetture ciò si può fare, quanto con alcuna arte secreta, la quale, o quella sia per cui lo Scottino è tenuto in pregio da molti principi o alcun'altra, è certo degna di maraviglia; ma da me, che rade volte posi il piè nel Licio e ne l'Academia, e tanto solo quanto dal signor Scipione fratello mio ci fui accompagnato, e ne le scuole de' Pitagorici non fui giamai, alcun suo secreto non è manifesto. Ben crederei che, se qui fosse il signor Scipione, potrebbe al desiderio de la signora Margherita meglio sodisfare: ché, per quel ch'io n'udi' una volta ch'egli in casa del signor Sigismondo nostro zio ne ragionò co 'l padre Francesco Panigarola, famoso per l'eloquenza, oltre ad ogni altro assai mi parve che n'intendesse. Ma se noi non possiamo insegnare a la signora Margherita di vincere sicuramente, tentiamo almeno di insegnarle com'ella co 'l fare alcuni accordi possa aspirare a la vittoria. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Assai insidiose sono le donne per se stesse, e s'alcuno ammaestramento da noi ricevessero, peraventura con troppo nostro danno sarebbe da lor usato. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Non è tale, per quel ch'a me ne paia, la signora Margherita, né mi guardarei io giamai d'insegnarle tutto ciò ch'io sapessi. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Quelli accordi che sono più tosto dirizzati a la vittoria ch'a la pace, sono forse insidiosi; e io ho udito dire che tali furono quegli de gli Africani, da' quali voi avete tolto il nome, signor Annibale, e alcuna fiata quei de' Romani ancora, signor Giulio Cesare; e se ben io sono desiderosa di vincere anzi che no, non tanto giuocando vorrei procurar di vincere con gli accordi, quanto farli con riputazione schivando ogni perdita soverchia. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Non può esser dannosa pace quella che sia orrevole, nel giuoco particolarmente, e mi pare di poter affermare che i partiti de' giuocatori sian così simili a gli accordi che si fan ne la guerra che nulla più; ma a chi direm noi che si convenga dar le leggi de gli accordi? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Dee darle a mio giudicio chi ha il favor di fortuna, e riceverle chi non l'ha. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Chi direm noi che sia favorito da la fortuna? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Colui ch'è in vincita, il quale ha veduti di nuovo alcuni segni de la sua detta. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma se colui c'ha maggior resto innanzi, avesse perduti alcuni piccioli inviti, co' quali l'avversario avesse ingrossato il suo, devrebbe egli dare o ricever le leggi de l'accordo? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Ricever, credo io, anzi che dare, quando i segni de la fortuna inclinata non fosser dubbi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma s'avvenisse ch'egli si ritrovasse in mano il vantaggio del punto? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Allora non mi pare che senza indegnità si potesse ricever le leggi de l'accordo e che gli si convenisse di darle più tosto</p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma l'altro forse, c'ha il favor de la fortuna, non vuole riceverle. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così spesse fiate suole avvenire: perché colui che conosce il favor de la fortuna, tutto ch'abbia il disavantaggio de le carte, vuol cederle, e a l'incontro colui ch'è in disdetta, quantunque sia superiore nel punto, suol richieder partito. E se le cose grandi a le picciole si possono assomigliare, simili a' giuocatori furono Cesare e Pompeo, e prezzo de la lor vittoria era la republica; né fu chi gli potesse accordare: percioché Pompeo giudicava per la riputazion de la sua antica fortuna ch'a lui si convenisse di dar le leggi de la pace, e Cesare non pensava ch'a la riputazione de le sue nuove vittorie fosse convenevole l'accettarle. Comunque sia, colui ch'è disfavorito da la fortuna dee richieder l'accordo, come richiese Annibale a Scipione, bench'egli fosse in Africa, sua patria, e fosse di genti a Scipione superiore: altrettanto sarebbe di maravigliarsi ch'Annibal chiedesse la pace, quanto che Scipion la ricusasse, se non fosse che la prudenza d'ambeduo, ch'a l'uno il pericolo di certa perdita, a l'altro la speranza di certa vittoria dimostrava, ogni maraviglia può discacciare. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Rado dunque o non mai si farà l'accordo, se così colui c'ha il vantaggio de le carte come colui ch'è favorito da la fortuna vuol darne le leggi. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Rade certo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma quando avvenga che da l'un lato sia il vantaggio de le carte, da l'altro il favor di fortuna, ond'è ragionevole ch'elle si prendano? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Da quello, pare a me, c'ha il vantaggio: percioché colui ch'è superiore dee dar leggi, non colui che può sperare d'esser superiore; e temerità sarebbe quella di colui ch'è in detta, se più de la fortuna che de la ragione, qualunque ella sia, volesse fidarsi. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma de gli accordi, che partiti son detti da' giuocatori, può alcuna ragione ritrovarsi? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Può, credo io. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E dove la troverem noi? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Ne la proporzion, credo io: perciò che tale è il venti in rispetto del diece, quali sarebbono le due carte che posson dar la vittoria al signor Giulio Cesare in rispetto de l'una che può a me darla. E poniam caso che la signora Margherita avesse trentanove di bastoni senza speranza di nuovo punto e 'l signor Giulio Cesare trentacinque affrontate di danari o di coppe e potesse vincere con due carte, e io, andando a primiera, con una sola potessi vincere; allora, s'ottanta scudi fossero nel piatto, venti ne dovrebbe prender la signora Margherita e venti darne al signor Giulio Cesare e diece a me: e questo mi pare in vero partito giusto e convenevole molto. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma io richiederei al signor Annibale s'egli fosse fatto con l'aritmetica o con la geometrica proporzione. </p></sp>
+	<sp><speaker>A.P. </speaker><p> Anzi con l'aritmetica che con la geometrica. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Dunque con l'aritmetica giustizia più tosto che con la geometrica? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Così credo. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Ma la giustizia aritmetica considera la qualità de le persone o non la considera? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non la considera. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Non dee dunque il giuocatore in alcun modo considerare ne' partiti la qualità de le persone? </p></sp>
+	<sp><speaker>A.P. </speaker><p> Non dee. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>E l'istesso partito dee fare ad una donna, con cui giuochi, che farebbe ad un mercante, s'egli con un mercante giuocasse? </p></sp>
+	<sp><speaker>A.P. </speaker><p> L'istesso. </p></sp>
+	<sp><speaker>G.C.G. </speaker><p>Poco cortese dunque sarà, o signor Annibale, questo vostro giuocatore, e poco meritevole di giuocare con le donne gentili; ond'io direi ch'egli più tosto con la geometrica giustizia che con l'aritmetica dovesse fare i partiti. E s'io ho bene osservata la ragione de' partiti di primiera, non è in alcun modo essatta come sarebbe se fosse con l'aritmetica proporzione; ma molto pende a l'equità e a la clemenza, percioché, se l'essatta ragione si dovesse osservare, chi con tre carte può perdere e vincere con una solamente, si dovrebbe contentare di ricever diece, quando un altro c'ha il vantaggio de le carte trenta ricevesse. Nondimeno l'uso e l'equità del giuoco richiede che gli si dia quindici, conciosiacosa che, s'io avrò in mano il punto affrontato e voi andiate a primiera, trenta scudi prenderò per me e quindici ne darò a voi, ove, se l'essatta ragione volessi osservare, ve ne darei diece solamente; ma né la essatta ragione né l'uso con alcuna donna gentile osserverei, ma s'ella giuocasse in terzo e aspettasse flusso, altrettanti a lei quanti a voi ne darei. Ma già vediamo che 'l giuoco di questi signori è fornito e che 'l conte Annibale così liberalmente dona come cautamente e arditamente ha giuocato, certo presagio de la liberalità e de' costumi generosi di questo giovinetto; onde potrà anche aver fine il nostro ragionamento, se la signora Margherita de le cose da noi dette è a bastanza sodisfatta: e se più oltre de l'esquisita ragione di questi partiti desiderasse d'intendere, voi, signore Annibale, che tutto dì ne gli studi de la matematica v'affaticate, potrete al suo desiderio sodisfare. </p></sp>
+	<sp><speaker>M.B. </speaker><p> Assai da le parole del signor Giulio Cesare e del signor Annibale ho oggi apparato; e se 'l signor Annibale vorrà più sottilmente andar ricercando la ragione di questi partiti, a me sarà sempre piacere ch'egli ci faccia parte de le cose da lui ritrovate. </p></sp>
+</div1>
+</body>
+</text>
+</TEI.2>

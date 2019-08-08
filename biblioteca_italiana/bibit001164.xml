@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Dialogo morale nel quale si esamina, se siano di maggior pregio l'armi, o le lettere</title>
+      <author>Pompeo Della Barba</author>
+    </titleStmt>
+    <extent>39 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2006</date>
+      <idno>bibit001164</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>La disputa sull'eccellenza delle armi e delle lettere nel Rinascimento</title>
+        <author>Turchetta, Fulvia</author>
+        <publisher/>
+        <pubPlace/>
+        <date/>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2005-09-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2005-09-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 n="Titolo">
+<head>Due primi
+Dialoghi, di
+M. Pompeo della
+Barba da Pescia,
+nell'uno de' quali si ragiona de' segreti della Natura; nell'altro, se siano di maggior pregio l'Armi, o le Lettere.
+Con la tavola in fine.</head>
+<p>Con privilegio
+In Venegia appresso Gabriel 
+Giolito de' Ferrari</p>
+<closer>
+<dateline>M.D.LVIII.</dateline>
+</closer>
+</div1>
+<div1 n="Dedica">
+<p><hi rend="sc">AL MOLTO MAG.
+ET VIRTUOSISSIMO
+M. IACOPO SALVIATI,
+PATRON SUO SINGULARISSIMO.</hi></p>
+<p>Le molte, e 
+molto belle parti
+(virtuoss. e Mag.
+M. Iacopo) che 
+in voi sono  quasi 
+infinite, per bocca
+d'honoratissime persone di continuo predicate, fra le quali a M. Pandolfo
+Martelli vero de le vostre virtù predicatore, sì per l'accortezza del giudicio raro,
+come per la sincerità dell'animo, ho prestato, e presto indubitata fede, mi hanno, gran tempo fa, accesso un inestimabile
+desiderio di conoscervi e riverirvi. Non
+dico della nobiltà e grandezza vostra, perché siate nipote d'un Cardinale Salutati,
+cugino d'un Duca di Firenze, e figliuolo d'un padre amantissimo d'ogni virtù,
+come è Alemanno, che sono esterior' beni, ma per esser voi dotato d'un
+animo generoso e nobilissimo, ripieno di
+tutte quelle virtù, che fanno l'uomo veramente nobile come sapete, che afferma
+il nostro divin poeta Dante, anzi il vostro familiare filosofo Aristotile. E così ho preso occasione da questo mio primo
+Dialogo de' segreti de la Natura, pensando che se a voi l'indirizzo, che sete in
+queste cose giudiciosissimo (come intendo)
+e vegga esservi accetto, m'habbia a essere
+sprone, a dare animo  di farmelo accompagnare a qualch'uno altri, ch'io ho ne la
+mente (per honesto esercizio fabricati)
+considerando essere il campo dell'humano intelletto,  quasi una terra per natura
+fertile, che non esercitata dalla continua
+coltura, s'empie d'ortiche, spine, cardi,
+e d'altre herbe inutili e pungenti. Così
+l'ardire mio è troppo, assicurandomi con
+sì piccola cosa, voltarmi a oggetto si degno, scusatemi con l'essemplo di molte vil
+piante, che voltandosi a' raggi del Sole
+per gustare la virtù di tanto lume, ci mostrano con l'osservanza, ch'egli hanno,
+ch' ei non si sdegna rivoltandosili, lasciare a loro partecipare la bontà sua; e me
+ancora fanno ardito di voltarmi a voi
+con desiderio d'osservanza, se non come
+a tanto  merito converria, almeno quanto le mie deboli forze s'estendono. Baciovi
+le mani, pregandovi non vi sdegnate accettarmi fra' vostri familiari servi. Dio
+vi feliciti.</p><closer><dateline> Di Pescia, il dì XX. d'Aprile   M.D.LVII.</dateline>
+<salute>Di  V. V. S.
+Servitore</salute>
+<signed>Pompeo della Barba Medico.</signed>
+</closer>
+</div1>
+</front>
+<body>
+<div1 n="Dialogo">
+<head><hi rend="sc">DIALOGO MORALE,
+NEL QUALE SI 
+ESAMINA,
+SE SONO DI MAGGIOR PREGIO
+L'ARMI, O LE LETTERE.</hi></head>
+<sp><speaker>MESSER PAN. </speaker><p> Eccovi M.
+Domenico, che v' habbiamo 
+raccattato il Capitano Niccolò vostro cognato, et habbiamo per la via tra noi fatto un
+discorso, e una conclusione, 
+per mostrare, che noi ancora
+ci siamo per qualcosa, la quale vogliamo prima, che
+si  ceni, diffinire per via di Duello, con due altri di
+voi. Eleggietevi chi ha a pigliare la pugna, e contraddire a ciò che noi diremo, che non vogliamo altro giudice decisore de la lite, che l'armi, le quali saranno le 
+ragion nostre. Né altri, che i due da voi a vostra eletta scielti, s' intermetta in favore de l'una, o de l'altra
+parte, considerato, che tutti a una sarete per esserci 
+contra. Ma non però ci sbigottiamo, sapendo d'havere
+a fare con valorosi Cavalieri; dove non è da temere di
+soverchierie, e che le cose non habbiano a ire del pari.</p></sp> <sp><speaker>M. LOD. </speaker><p>Questa è una terribile, e brava proposta,
+e un fiero invito; da fare smarrire maggior barba,  che
+la mia. Nondimeno confidato ne le forze di questi miei
+maggiori, m'assecuro, che non tutto che così inopinatamente ci chiamate a Duello, voi non siate per torci
+niente del nostro, e se M. Ludovico, e M. Bernardo
+saranno del parer mio, vi si metteranno a petto due
+più riposati cavalieri che noi non siamo, havendo tutto di hoggi ragionato; vedendovi così arditi, e animosi; che io (per dire il vero) mi senta più da stare a
+ascoltare, che da favellare, e mal volentieri anco m'arreco a dar contro al cognato. M. Bernardo è occupato ne le nozze, e nel convito, e M. Lodovico in
+ordinare il giuoco, che dopo cena si è preso carico di
+fare, sicché (contentandos' eglino) l'impresa sarà di
+M. Benedetto Varchi, e di Giovan Batista Gello, e
+non cedendo poi l'una parte a l'altra (come suole spesso avvenire) non crederei, che voi havessi a diffidarvi
+di M. Pier Vettorio nostro, huomo di que' santi costumi, e di quella integrità, che sa ogn'uno, ( non vi dico
+niente del giudizio grande, e de le rare lettere) bisognando decisore, havendo noi dalla tua bocca tante
+volte udito, quella bella sentenza d'Aristotile, che
+avvegna ci sia, e Platone e Aristotile amico, molto
+maggior amica ci debbe esser la verità.</p></sp> <sp><speaker>M. LOD.</speaker><p>A
+me pare, che  M. Domenico dica bene, sendo egli stracco, e noi altri occupati, che l'impresa contra a due
+franchi Cavalieri, debba toccare a M. Benedetto, e al
+Gello, e che tutti s' habbiano a contentare del venerando vecchio per decisore, dove ne facesse di mistiero,
+il quale per la verità siamo certissimi, che non havrà
+risguardo ad alcuno, conoscendosi veramente Filosofo
+spogliato di tutte le passioni, ma sopra tutto, che con
+brevità si debba la cosa terminare, perché ci sarà anco
+altro da fare.</p></sp> <sp><speaker>CAP. NIC.</speaker><p> Orsù noi ne siamo contenti, quando la parte ancora non ne faccia resistenza, e
+accetti l'invito.</p></sp> <sp><speaker>GIOVAN BAT.</speaker><p> Ancora, che io
+non mi senta più gagliardo che si bisogni, per non havere altro che una gamba legitima (come sapete) non
+dimeno per la parte mia non rifiuto lo invito, confidatomi nel solito valore di M. Benedetto, poiché vi
+contentate sia nostra la pugna. </p></sp> <sp><speaker>M. BEN.</speaker><p> Pure ne
+le virtù vostre Gello, che come io credo, non s'ha a
+fare correre. Ma direi bene, fusse meglio per manco intrico, e perché la cosa più presto si termini, dare a due autorità, uno per l'una; e per l'altra parte l'altro, di diffinire tal lite, e questo sia, o in elezzione, o in sorte, o come piace a voi. </p></sp> <sp><speaker>GEL. M. </speaker><p>
+Benedetto parla benissimo, e per la parte mia scongiuro e prego lui più assai di me valoroso e gagliardo,
+che  si degni pigliare l'assunto. </p></sp> <sp><speaker>CAP. NIC.</speaker><p> Et io ancora ogni mia ragione rimetto in M. Pandolfo, pregandolo si degni accettare questo carico, e per me e
+per lui diffinirla. </p></sp> <sp><speaker>M. PAN.</speaker><p> Poiché me ne gravate,
+e che gli altri, se ne contentano, che la contesa sia fra 
+due, io farò quel tanto, che vi piaccia. Ma troppo
+grande avversario m' havete dato, e da l'altro canto 
+toltomi il rifugio del mio Capitano Niccolò. Ma voglio bene M. Benedetto questo da voi, che ne vegniate meco con  armi piacevoli, cioè non con argomenti  e 
+silogismi oscuri e sottili, ma con ragioni chiare, e con
+esempi come userò anco io, che ben veggio al disavantaggio, che mi metto, chiamando ne la sua professione un Filosofo a combattere e a disputare. Ché in vero
+debolissime al tutto sariano le parti mie, se voi con
+me quell'arte usassi e quella sottigliezza, che tra voi
+solete. Promettovi bene se mi persuadete, che la conclusione nostra non sia come ce l' habbiamo formata il
+Capitano Niccolò et io, che senz'altro decisore (con
+licenza sua però) sono per cedervi. </p></sp> <sp><speaker>M. BEN.</speaker><p>Da
+poiché 'l Gello, M. Pandolfo, e voi pure sete d'animo, che l'impresa a' da esser mia, io sono per fare tutto quello, che vi piace, e ragionare con esso voi
+familiarissimamente, e con tutti que' modi che vi satisfaccino. Proponete dunque la quistione, e con quelle ragioni e con quelli esempi, che più vi acccomodano
+l'adornate, e fortificate; et io poi risponderò; esponendo con più facilità, che potrò l'animo mio, e facendo
+chiare e piane le mie ragioni. </p></sp> <sp><speaker>M. PAN.</speaker><p> La conclusione sopra cui habbiamo il Capitano Niccolò, et io
+fatto discorso, è, che l'arte militare sia più eccellente
+e più nobile che la facultà de le lettere, con le ragioni
+che intenderete, le quali se la passione, e l'amore de la
+profession non ci inganna, ci paiono evidentissime.
+Dico adunque in questa guisa, che sendo l'arte militare una facultà, che fa ascendere gli huomini a maggiore dignità e a maggiori honori di tutte l'altre, ne segue ancora, che la sia de le altre più nobile, e più degna;
+volete vedere, che così sia, considerate quanti huomini 
+vili, e bassi di condizione, ha resi honoratissimi, e potenti. Romulo (come sapete)  guardiano di Pecore, e d' Armenti, figliuolo non si sa di chi, (se bene le favole per
+honorarlo dicono, di Marte) con l'aiuto e col favore de
+l'armi divenne Re, e dette principio a tanta grandezza, quanto fu poi quella de' Romani. Emilio Scauro
+di vita oscura, e più oscuro di genere, huomo nuovo
+fu innalzato al grado del principato. Cornelio Silla
+cavato del seno d'una meretrice, Mario e altri infiniti
+son venuti per virtù d'arme grandissimi, e potenti. Ecci poi, che l'arte militare sia più degna e più eccellente dell'altre, per essere arte principalissima, commandare a tutte, e tutte dominare e governare, essa fa temere i magistrati, rispettare e ubidire i Rettori, riverire i Principi, osservare le leggi e gli statuti , e conserva la pace, e l'amicizia fra gli huomini. </p></sp> <sp><speaker>M. BER.</speaker><p>
+Però fu chiamata da Aristotile (nel primo dell'Etica)
+Architettonica. </p></sp> <sp><speaker>M. PAN.</speaker><p> L'armi son quelle, che vendicano le ingiurie, puniscono i mal fattori, difendeno
+i buoni, e la maestà imperatoria, stabiliscono e reggono le santissime leggi, là onde chiaramente apparisce, che tutte l'arti, tutte le scienze, tutti i magistrati, tutti gli huomini et eziandio le fiere, la terra, il
+mare, e ogni cosa soggiace al loro Imperio, a tale, che
+nissuna facultà viene ad accostarsi a l'eccellenza de l'armi, né a essergli a gran pena vicina, non che le sia pari, o possa compararsele. Con l'aiuto dell'armi Cicerone difese la Republica Romana, da le insidie, e da la sedizione di Catilina, che per nessun'altra via non vi
+era modo né ordine. Le armi più volte rimesseno
+Roma in libertà, e la liberarono dalle crude tirannidi, ma che dico Roma? Italia tutta dal nimico furore
+de' Barbari. Il che non hariano mai, le lettere potuto
+conseguire. Siamoci ancora per un altro fondamento
+mossi a credere, che la milizia sia più degna che lo studio de le lettere, e questo è, che io più volte da voi altri 
+Filosofi ho inteso dire, essere più nobil facultà quella 
+che ha il subietto più nobile, se questo è vero, oh qual
+più nobil subietto si può trovare di quello dell'arte militare, che, è l'huomo, a cui ubidiscono tutte le cose 
+create. Egli le usa, le governa, le signoreggia, le 
+dispone secondo l'ordine del creatore, che le ha al suo
+Imperio sottoposte. Quando apparve in Roma la grande apertura in mezo la piazza, la quale allargandosi
+a poco a poco, si distendeva con voce horribile, che
+chiedeva la più cara cosa che havesseno i Romani. Non
+trovandosi rimedio (come sapete) ricorseno a l'oracolo, per consiglio, e fu risposto loro, che se non vi si
+gettava dentro la più nobile, più cara, e più potente 
+cosa, che havesseno, la haria inghiottito la città. Là
+onde il saggio e animoso Curcio, interpretando quella
+essere l'huomo, e l'arme, armato vi si lanciò dentro,
+empiendo lo speco.
+In mezo il foro horribilmente voto.
+Come disse il Petrarca, e quello tosto si richiuse; confermando la più rara, e più eccellente cosa che havesseno, esser gli huomini, e l'armi. Qual dunque si può
+trovar subietto più nobil  di quello de l'arte militare? E finalmente, so che non mi negherete quella arte,
+che ha il fine più degno, esser anch'ella più eccellente,
+il fine di questa nobil professione, e di questo nobile
+studio è, il salire a quel maggiore bene, e a quelli ultimi honori, che da la humana vita si posson desiderare, e questi sono l'esser signore di tutti gli huomini,
+comandare a tutte le arti, dominare la terra e 'l mare,
+e farsi simule a Dio, governando, e reggendo il tutto, e
+sì come con providenza, e giustizia lo regge e governa esso, così parimente mantenendo la giustizia, formando le leggi, e tenendo unite, e senza discordie le compagnie de gli huomini, corregendo i vizij, e castigando le ingiurie, conservar il mondo con vera, tranquilla,
+e santa pace universale. Dove si è mai veduto col mezo,
+de le lettere huomo alcuno venire Imperatore, o pure
+salire a grado a un gran pezzo vicino a  quello, che
+fanno ascendere le armi, e 'l valore degli huomini illustri che gli danno opera? Il maggior bene, che possino
+dare le lettere, sarà il fare un huomo grammatico,
+Loico, matematico, o Dottore, le qual cose, tanto hanno in loro di dignità e riputazione, quanto le sono
+apprezzate da gli huomini, e quanto gli è dato loro
+da' Principi, e da chi governa. Che saria mai stato Aristotile (tenuto nel primo luogo  fra letterati) se Alessandro Magno, che con l'armi si fece signore del mondo, non gli havesse dato credito, e fatto honore col farselo maestro, e lasciarsi insegnare da lui? Ecco la maggior grandezza, che puonno dare le lettere, e 'l favore
+che possono fare chi le segue; che dopo un lungo stentare, e assassinare il corpo e l'animo con le vigilie, con digiuni e astinenze di tutti i piaceri, habbia a essere suggetto e servo d'altri, in uffizi vilissimi di insegnare,
+e bene spesso con cattivo merito, tristo e doloroso fine;
+servendosi a Principi bestiali, come avvenne a Seneca
+maestro di Nerone Imperatore. Eh che comparazione finalmente saria quella d'uno, che volesse mettere a
+rincontro l'azzione di qual si voglia litterato a gli honorati gesti, e a' fatti eccelsi e magnifici de' Fabrizij,
+de' Cammilli, de' Lucij, de' Cincinnati, de' Fabij Massimi, de' Claudij Marcelli, de gli Scipioni, e d'infiniti altri soldati famosi, che non morranno mai, non dico
+niente de la mano, che s'abbruciò Scevola, né del ponte difeso da Orazio, né de' Trofei, de le corone, de i
+Re soggiogati, de le vittorie, de' Trionfi, delle grandezze de gli Imperij, e di tanti altri frutti honoratissimi de la milizia, che troppo lungo forse potria essere ne le cose chiare, se in queste mi allargassi. De le
+città fondate, e di tante fiere e barbare nazioni ridotte sotto leggi, e sotto il freno della giustizia in pace e
+concordia; le migliaia delle persone vivevano sotto gli
+ordini civili, e le leggi date da Alessandro Magno,
+come scrive Plutarco dove parla de la fortuna e virtù d'Alessandro, e per lo contrario pochissimi huomini con quelle di Platone. Infinite barbare nazioni domò con l'arme Alessandro a le quali facendo lasciare la
+vita, e i costumi aspri e ferini, insegnò la humanità, 
+e 'l vivere a l'huomo conveniente. Vedete se si trovino
+tante utilità nelle vostre, lettere quanto si trovano ne
+la potenza de l'armi, e in quelli, che le esercitano. </p></sp> <sp><speaker>M. BEN.</speaker><p> Parmi veramente molto maggiore essere l'errore di coloro, che ne le humane operazioni con torto 
+giudizio si propongono un fine, il quale non bene conoscendo, stimano essere buono, che non è quello di chi
+senza fine alcuno se ne va a guisa di Cieco, errando,
+e non sapendo ove si vadia; imperoché, questi facilmente si lasciano prendere per mano, e guidare per buona
+via, a un diritto, e vero fine; dove che i primi havendosi impresso nell'animo di seguire quello da loro  giudicato buono, non lasciano dal giudizio più sano rimettersi ne la via migliore, e ridursi al  vero, questo
+in vero, non dico, per il Capitano Niccolò Bernardi,
+né per M. Pandolfo Martelli. Imperoché nel parere
+de la proposta da loro opinione, sono stati inanzi altri assai; e diversi antichi Filosofi, varj, e diversi fino a l'huomo hanno proposti. Come gli Epicurei il piacere, o per dir meglio l'indolenza, vedendo ogni
+animale tosto, che è nato, nel debito fine da natura
+quasi, che indirizzato, fuggire il dolore, e seguire l'allegrezza, e come si può dire ancora  de gli Stoici, che
+ne la rigida honestà lo posero, con dire, ch 'l fin nostro era il seguire rigidamente, e senza rispetto alcuno la verità, e la giustizia, e quasi che insensati il non
+mostrare dolore, o allegrezza di cosa nissuna. Le quali opinioni insieme con alcune altre sono da Cicerone
+impugnate nel suo libro, del fine dei beni, e da Aristotile nel primo dell'Etica. In questo errore cascano quelli, che mal dinanzi agli occhi proponendosi questo fine, vogliono protervamente contendere che l'esercizio
+dell'armi sia più eccellente, e lodevole di quello de le
+lettere; e con non molta considerazione a questo anteponendo lo studio militare. Conoscendo io adunque
+(come amico della verità) quanto sia questa imaginazion falsa, volentierissimamente sottentro a questo carico di chiarire, qualmente il vero sia tutto l'opposto
+di quello che M. Pandolfo ha ragionato; al quale non
+dovrà essere discaro lo intenderlo, né grave il lasciarsi
+a le vere ragioni persuadere, né così ancora al Capitano Niccolò, come persone amiche del vero, e non proterve. E così vi dico, che il volere fare comparatione
+fra l'arte militare, e lo studio de le lettere, è come paragonare la fortuna con la virtù, conciosia cosa, che 
+tutte le grandezze, tutti gli honori, e tutti i beni finalmente, che ti danno le armi, siano beni instabili,
+fondati su la volubilità d' una ruota, che gira, la quale, venuta che sia al più alto  grado del suo girare, non
+potendo quivi fermarsi, è forza, che ruini in basso.
+E perciò Anco Marzio quarto Re de' Romani, considerato che tutto il favore de l'armi consisteva ne la
+fortuna, le fabricò un Tempio, e fecela adorare, e
+un altro ne li fece poi anco Servio Tullio nel Campidoglio, e usava dire, che là si veniva a dormire seco ogni
+notte,  tanto l'haveva ne le sue fazzioni de la guerra,  
+e  in tutte l'altre propizia. E di ciò tanti n'habbiamo
+esempi, quante sono state le grandezze, e le felicità de
+gli Imperatori, e de gli Imperij. Vadasi discorrendo
+per le grandezze de' Persi, de' Medi, de gli Assiri, de'
+Troiani, de' Greci, e finalmente de' Romani, e veggasi la lunghezza de la felicità dell'Imperio loro, acquistato con tante fatiche, con tanta arte, e favore militare quanto sia durata, e a che termine si trovi tanta
+grandezza. A gli Imperatori stessi, quelli dico, che
+per viva forza d' armi sono pervenuti a quello ultimo
+grado di felicità d'imperare, come vi sono poi potuti 
+durare, e come vi si sono stabiliti. Che si può dire che
+la grandezza di Giulio Cesare  sia stata altro, che mera fortuna? Et egli stesso lo confermò quando ne' tempi di verno, allhora che 'l mare era più in tempesta partendo Pompeo da Brindisi con gran copia d'esercito
+per mare, e seguitandolo esso con poca, in habito di
+servo si misse in una Navicella solo a benefizio di fortuna, sconosciuto e celato, dove che a la bocca del fiume per l'impeto de l'onde vedendo il Patron de la Nave fuor di speranza di salvarsi, disse, scoprendosi il
+volto , non temere, ché tu porti Cesare, lascia le vele
+in arbitrio de' venti e de la fortuna. Non possiamo dire
+niente de la felicità d'Alessandro Magno, imperoché li fu troppo la fortuna favorevole, che non volendo torgli la grandezza, che gli haveva data, né potendo per la varietà de la sua natura mantenerlo in
+quella sommità de la ruota, lo fece morire giovane,
+felicissimo, che non dubito s'egli andava per vita, non
+fusse avvenuto a lui, quello forse, che avenne a Dionisio Tiranno di Sicilia, o a Cresso Re di Lidia, e a molti altri che perderno lo Imperio, e la vita. Ecco a che
+bel fine, e a che grandezza possono le armi inalzare,
+che non si nega in vero, che non sia honorato e degno,
+ma si dice bene, che non ha a fare nulla con quello, a
+che conducono le lettere, come vedremo, conciosiacosa, che non habbia in sé stabilità o fermezza alcuna,
+ma sia in potere di chi lo  dà anco di torlo, et è grandezza Casuale, e fortuita, sono honori e dignità vane, e dannose, per chi l'acquista, imperoché quando
+pensa di essere più fermo, e più felice l' huomo, allhora è più in travagli e in maggior miserie, e manco securo da l'insidie de gli huomini, come bene dimostrò
+Dionisio a quello amico suo, che lo reputava felice
+per essere in stato regale, quando convitatolo, lo  pose nel suo luogo sotto a una spada nuda, legata con un
+sottil filo, la quale con la punta minacciava tutta volta, caderli in capo. Volendo inferire non potere essere  la felicità dove sia il continuo timore della morte. A
+la ragione che dice, l'arte militare  essere principalissima fra tutte l'altre, peroché ella mantiene la giustizia, e la maestà imperatoria, domina e governa l'altre arti, punisce i mal fattori et cetera. Si risponde, che
+ancora, che sia detta da Aristotile l'arte militare essere
+come una architettonica, ciò è, che habbia natura di
+principale, non dice assolutamente che sia principalissima, ma che è principale, perché contiene sotto di sé
+altre arti più deboli, che sono ordinate per lei. Come
+l'arte di fare i freni de' Cavalli, e del fare le Selle, e
+quella del fare le fibbie, e gli speroni, sono ordinati
+per il cavalcare, e il cavalcare per la milizia; e così
+viene l'arte militare a essere più nobile di quelle, che sono ordinate per il suo mestieri, ma non più nobile de
+l'altre tutte. A quello che voi dite; mantiene la giustizia, la maestà imperatoria, punisce i malfattori et cetera,
+dico, che questo lo fa come instrumento di una altra facultà più degna di lei, che si chiama facultà
+civile, e politica, la quale, come ben dice Aristotile nell'Etica, si dee veramente chiamare Architettonica, cioè facultà principale, per essere quella, che
+domina, governa, e comanda a tutte l'altre; ordina,
+che insegnino le scienze ne le città, che si instruischino
+i giovani, e ne le militari, e ne l'altre discipline, instituisce i magistrati, dà le leggi, e fa tutto quello,
+che a una Republica, e a una città è di bisogno. Fa l'arte militare a lei, quello che fa la medicina a la sanità.
+Il medico non fa la sanità, ma è uno strumento che prohibisce le cose, che la impediscono, e aiuta mantenerla,
+e racquistarla, così l'arte militare è lo instrumento e 'l
+mezo,  che usa la giustizia, e le leggi per mantenere la 
+pace, e la Republica, nonché la milizia le facci, o comandi loro, anzi essa le ubidisce, e sta suggetta. Narra Plutarco, che sendo Ificrate Capitano ripreso da alcuni ch'egli non era persona armigera, e che non usava
+il saettare e 'l combattere, rispose (mostrando di essere in grado più alto) ch'egli sapeva comandare a coloro, che queste cose facevano, e come era più degna cosa il saper fare ad altri queste opere esercitare, il che
+fanno le lettere. A quello che dite poi  l'arte militare
+havere soggetto più degno (e più nobile che alcuna altra cosa, si risponde essere vero che l' huomo subietto
+di essa è nobilissimo) comparato a le cose manco nobili
+di lui, et  è più eccellente e degno de le cose a lui inferiori, ma non però concediamo, che  sia subietto più
+nobile di quello de le lettere, che è l'anima. L'anima,
+che è la più degna parte dell'huomo è il subietto de le
+lettere, come dice il Filosofo, ora quanto l'anima è più
+eccellente del corpo, tanto il subietto de le lettere è più
+degno di quello de le armi. E finalmente diciamo con
+brevità a quello, che dicono il fine de le armi essere
+più nobile, perché dia a l' huomo i maggior  beni, e i
+maggiori honori che si possino  havere di questa nostra vita, che que' beni e quelli honori che sono in arbitrio de la fortuna, incerti e instabili come è il  fare
+Imperatore, o Re, non debbeno con ragione chiamarsi
+vero fine, ultimo bene humano, sendo senza quiete
+alcuna, con travagli e timore grandissimo sempre, come habbiamo con l'esempio di Dionisio mostrato, dove
+che 'l fine de le lettere è stabilissimo, quieto, securo, e
+libero dal potere de la  fortuna, il che chiaramente comprese Alessandro Magno in Diogene, quando gli parlò a Corinto, e maravigliato de la grandezza e de la
+tranquillità dell'animo di quel' huomo, e stupefatto
+del modo del suo quieto vivere (disse) se io non fussi
+Alessandro, forse sarei Diogene, cioè mi darei a le lettere e a filosofare col mezo de le lettere, perché egli
+si teneva d'essere Filosofo per pratica, e per uso. E 
+non disse, se io non fussi Imperatore, vorrei essere
+Diogene; ché conosceva bene non essere da anteporre
+a le lettere, e al sapere la fortuna. Che nocumento
+può fare ella questa, falsamente; e indegnamente reputata  Dea fortuna, a un litterato? Spoglilo nudo,
+togliali ciò che egli ha, non però lo può privare di que'
+veri beni dell'animo, con i quali può a sua posta acquistare quelle ricchezze che vuole, come si legge havere
+fatto Democrito per mostrare a gli Adderiti essere in
+potestà sua l'arricchire, e come sapete. Che diremo 
+di Aristide gettato da la fortuna del mare al lito di Siracusa spogliato, e privo di tutte le sue robe, il quale
+venuto ne lo studio Siracusano, nudo, per mezo de
+le sue lettere e del suo sapere fu rivestito subito, e donatogli molto più che il mare non gli haveva tolto. E
+simili altri esempi assai ci si potriano addurre, che per
+brevità lascio, sapendo che a voi tutti meglio che a me
+sono notissimi. Che bel fine è dunque l'essere potente e ricco, potendosi per ogni mutazione di fortuna
+perdere ogni cosa, come havete di Priamo, di Ciro,
+di Creso, e d'altri. Così anco, che fine è l'essere honorato, stando in arbitrio  d'altrui l' honorare e 'l dishonorare? Sì che conchiudiamo il vero stabile e quieto fine essere quello delle lettere, le quali danno la vera felicità humana, che è l'operazione dell'anima virtuosa. Come dichiara il Filosofo nell'Etica, e se volete
+vedere ch'elle conducono anco gli huomini a quelle
+grande honoranze regie, e a quelle altezze di dominare, leggete appresso di Platone il costume de gli
+Egizzi, ne lo eleggere i loro Re del numero de' SacerDoti, e i Sacerdoti del numero de' Filosofi, quivi non
+giovava la sorte, né il favore, ma la dottrina e i buon
+costumi. Di quivi uscì quel grandissimo Mercurio detto per eccellenza Trimegisto, cioè, tre volte grandissimo, gran Filosofo, gran Sacerdote e gran Re. Haveva Mercurio d'ingegno, e di dottrina avanzato tutti i Filosofi, e di santimonia e nel culto de le cose divine superò tutti gli altri Sacerdoti, e finalmente havuto
+il governo regale, oscurò la fama e la gloria di 
+tutti i passati Re. Allhora son felicissime le Republiche (come esclama Platone) che i Filosofi governano,
+o che i Re seguitano la filosofia, e con essa moderano i
+popoli. E questo (per non essere io lungo) basti M.
+Pandolfo per risposta, così all'improviso a le vostre ragioni acute e sottili. </p></sp> <sp><speaker>GIOV. BAT. GEL.</speaker><p>
+Perché io credo M. Pandolfo, e voi Capitano Niccolò, che con ragione conosciate, come la profession
+de l'armi sia di gran lunga inferiore a le lettere, per
+que' pochi capi, che ha tocchi M. Benedetto, e che
+non sia di mistiero, che l'huomo s' affatichi molto con
+le persone ragionevoli a persuadere la cosa vera e manifesta. Però io non sono per dirvici altro, avvegna che
+molte, e molte cose ci si potesseno dire a confermazione di ciò che è detto, se non che i fatti eccelsi e gloriosi, sono materia de le lettere, e de gli scrittori , e meritano per loro stessi lode veramente eterna, ma non
+possono però per loro stessi acquistarla, havendo bisogno di chi gli scriva, a fare che restino immortali,
+né cosa alcuna altra gli può difendere da la violenza
+de la morte, e dal consumo del tempo, se non le carte,
+e 'l benefizio de gli studi de' litterati. Sapete, che Alessandro Magno (di questo benissimo consapevole) si
+doleva non havere havuto uno Homero scrittore de'
+suoi fatti, come hebbe Achille, quando giunto alla
+sepoltura di esso, sospirando disse.</p>
+
+<lg>
+<l>O fortunato, che sì chiara Tromba</l>
+<l>Trovasti, e chi di te sì alto scrisse.</l>
+</lg>
+</sp>
+
+<sp><speaker>CAP. NIC.</speaker><p> Da poi, Gello, che sete voi stato il primo
+a rompere il patto del Duello, e la convenzione rimessa in due, potrò io ancora senza preiudizio, dire una
+parola, con tutto, che sempre, al parere di chi più 
+sa sono per rimettermi, ho inteso più volte dire a voi
+altri Filosofi, che l'uffizio del savio è, non pure il mostrare la sincera e pura verità, ma il levare via le nebbie parimenti i veli, che adombrandola possono offuscarla, sì che ancora ch'io sia per accomodarmi con
+quelli, che sanno più di me, mi sarà non dimeno caro
+più chiaramente intendere, come non possa la gloria
+de l'armi senza gli studi vostri perpetuarsi, conciosia
+cosa, che gli antichi Romani, e i Greci inalzasseno i
+fatti egregi, e tenessen vivi gli huomini famosi con le statue, che in publico gli ponevano, e sappiamo, che Giulio Cesare per se stesso, senza aiuto di voi altri, scrivendo i suoi comentari de le cose de la guerra, le ha fatte
+vivere insino ai tempi nostri, viveranno per l'avvenire
+anco immortali se non vanno in perdizione tutte le
+cose, e ch' el vero scriverle e trattarle saria cosa da soldati, sapete ciò, che disse Anibale scacciato da Cartagine e ridutto esule in Efeso, appresso d'Antioco,
+quando gli feceno udire Formione filosofo, che per
+sua consolazione discorreva sopra le cose della guerra, domandato poi quello, che di  tanto Filosofo gli
+paresse. </p></sp> <sp><speaker>M. PAN.</speaker><p> Che disse l'Africano Cap. Niccolò? </p></sp> <sp><speaker>CAP. NIC.</speaker><p> Rispose liberamente, senza troppa
+eloquenza, che haveva veduti; e uditi di molti  vecchi
+pazzi, ma nissuno più pazzo di Formione, poiché
+non havendo mai veduto né milizia né esercito, inanzi a uno, che haveva sempre contrastato del'Imperio
+del mondo con i Romani, havere havuto ardire parlare de le cose de la guerra. </p></sp> <sp><speaker>G. GELLO.</speaker><p> Molto ingegnosamente discorrete Capitan Niccolò, contro a quello,
+che  ho detto argomentando, che lo studio vostro senza aiuto, o, bisogno del nostro possa da l'oblivione
+difendersi. Al che vi dico prima rispondendo a la cosa
+delle statue, che già anticamente le statue non si facevano se non a gli Dei, di poi l'usanza passò ancora ne
+gli huomini, che per qualche generoso et illustre fatto, havesseno meritato d'essere resi imortali (come voi
+benissimo dite) ma infinite cose degne di sapersi inanzi
+a questo uso, e molti huomini grandi erano in luce,
+che se havesseno havuto per via di statue  a venire in cognizione non si saperiano, né sariano conosciuti. Imperoché accenna Plinio, che le prime statue, che mai
+fussero ad huomo alcuno state poste in publico, fusseno
+quelle, che l'anno medesimo, che furono cacciati i Re
+di Roma, posero gli Ateniesi ad Armodio et a Aristogitone, uccisori del tiranno, dove, che poi si sparse
+l'usanza di porle in publico e in privato, per le piazze, per le chiese, su per i sepolcri, e per le colonne,
+insino per le case, e facevanne di Bitume indorate,
+poi si feceno di pietra, di legno, di Marmi, d'Avorio e di varie sorti di Metalli, insino a d'argento; di
+oro sono state più rare. Non si trova, che gli antichi
+havesseno l'oro molto in uso, e così pochi essere stati
+eccellenti ne l'intagliarlo. Eglino sì nelle statue come ne'
+vasi, si dilettavano più de l'argento. Ma come l'Asia
+fu vinta da' Romani, e che le delizie, e le ricchezze
+sue cominciarno a passare in Italia, l'oro venne in pregio, e Scipione portò nel trionfo vasi d'oro di centomila libre. Non dimeno non hanno le statue la perpetuazione e 'l durare, che hanno le carte,  né quella 
+commodità di passare da luogo a luogo, e spargere la
+fama de' fatti illustri, e de gli huomini famosi.
+Che in nulla parte più saldo s'intaglia
+Per far di marmo una persona viva.
+Disse il nostro gentilissimo Poeta M. Franc. Petrarca.</p>
+
+<lg>
+<l>Credete voi, che Cesare, o Marcello</l>
+<l>o Paolo od African fussin cotali</l>
+<l>Per Incude gia mai né per martello?</l>
+<l>Pandolfo mio queste opere son frali</l>
+<l>A lungo andare, ma il nostro studio è quello</l>
+<l>Che fa per fama gli huomini immortali</l>
+</lg>
+
+<p>In quanto poi a quello, che dite di Giulio Cesare, che
+senza l'aiuto de' nostri studi de le lettere scrisse, e rese
+eterna la memoria de' suoi fatti, vi rispondo, che se
+Giulio Cesare scrisse, non come puro soldato, ma come litterato, e come quello, che ne gli studi de le lettere era non manco esercitato, che egli si fusse in quello de le armi, e del giudizio fatto da Anibale  sopra il
+discorso di Formione filosofo non replico  altro. Risolvetevi pure, che lo studio de le lettere, superi non solamente quello de le armi, ma ogni altra qual si voglia
+professione d'eccellenza e di dignità, e che le statue e
+le pitture sono opere frali, che a lungo andare si consumano, e la facultà degli scrittori veramente rende
+gli huomini  immortali,  e falli passare a secoli a venire, né hanno bisogno questi honorati studi, per fare
+eterni coloro, che gli seguono, d'alcuno altro appoggio, ma sì bene per lo contrario gli altri esercizi, e
+le altre arti, hanno di questa necessità. Gli scrittori
+son quelli, che fanno vivere gli Apelli, i Polignoti, i Lisippi, e gli altri nobili,  et eccellenti pittori, scultori,
+statuarij, e' Duchi, i Capitani, i Re e gl'Imperatori.
+I quali dopo alcun tempo mancherebbeno, e morrebbe la fama loro; vedete dunque con che ragione si
+possa anteporgli, o equiparargli al mestiero de l'armi. </p></sp> <sp><speaker>M. BER.</speaker><p> Orsù, su non più dispute,  che è a mano
+a mano hora di cena, serbate qualche cosa a Domane,
+e a domandasera, che voglio ci godiamo questi giorni
+di Carnovale allegramente, in ragionamenti piacevoli, et utili. Dateci intanto, M. LOD. un poco poco di cenno  del giuoco, che havete disegnato per dopo
+cena, acciocché compreso il modello, se bisognasse in
+alcuna cosa aiutarvi, noi  possiamo. </p></sp> <sp><speaker>M. LOD.</speaker><p> Se
+bene, io non credo, che l'aiuto vostro m'habbia a fare di mistiero, accetto non dimeno l'offerta, e brevemente vi darò saggio del giuoco da me pensato, il quale, perché possa da tutti essere inteso, ho facile ordinato. Voi sapete quanto a tutti gli huomini paia d'intendere e conoscere assai, e di esercitare ciascuno tutte
+l'azzioni sue, come rettamente s'harebbe da fare, senza ingannarsi e senza errore nissuno. E pure vediamo
+una istessa cosa posta inanzi a due diverse persone, essere diversamente trattata, e bene spesso di contrario
+parere al tutto intesa, secondo, che l'affezzione muove l'uno, e un altro. E a ciascuno pare di bene intenderla, dove chiaramente  si conosce di quanta importanza, e quanta difficultà sia quel detto de l'oracolo tanto
+celebrato, conosci te stesso, imperoché se gli huomini
+si accorgesseno di essere da gli affetti proprij, e da le
+passioni, oppressi, e accecati in modo, che non gli lascia discernere gli errori, che si cometteno non s'ingannerebbeno, e tutto perché per l'amore, che noi portiamo a noi medesimi, siamo non altrimenti, che si sia
+uno amante cieco nel soverchio amore, che porta a 
+l'amata sua, ne la quale se ben fusse alcun vizio o, alcuna macchia notabile non la scorge, ma perduto in
+quello affetto  amoroso, quasi, che inebriato la giudica tutta bella, e virtuosa; ma nel vedere i vizi e i mancamenti d'altri, habbiamo più occhi, che Argo, e di
+più sottil vista di que' di Linceo, che vedeva di là da'
+muri; e però leggiadramente ci dipingeva Esopo con
+due sacca al collo, overo due bisaccie, una dinanzi al
+petto, piena non de' nostri, ma de l'altrui vizij, l'altra dietro a le spalle piena de' nostri, li quali mai non
+veggiamo, sì come per lo contrario tegniamo sempre
+gli occhi ne gli altrui, e per lo impedimento de lo sviscerato amore, che portiamo a noi medesimi (come
+ben dichiara Platone) ci è posto il cumulo de' nostri
+difetti dietro alle spalle, in luogo, che non gli possiamo vedere, sendo noi nel proprio amore fatti ciechi.
+Proporremo adunque in questa guisa il giuoco, supposto, che ogn'uno habbia qualche difetto da lui non
+conosciuto, che debba ciascuna di quelle gentil donne,
+che quivi saranno, notare ciascun di questi gentilhuomini di un vizio, che a lei paia scorgere in lui, non
+però già, che sia nota acerbamente mordace, ma che
+con destrezza e dolcemente punga, e faccia accorto,
+là onde possa l'huomo, visto (che così sia) cavarne
+utilità di correggersi, e da l'altra parte debbe ciascun
+di questi gentilhuomini dire giudiziosamente una lode di una di loro, e perché né l'una né l'altra parte ci
+habbia a procedere con passione alcuna, ma dire sinceramente, e con giudizio il parer suo, metteremo
+gli huomini da una banda, e tutte le donne da l'altra, e
+ogn'un dirà sopra quello, o quella, che gli sarà arincontro, e chi sarà a lato a quello, o a quella, che dirà sarà giudice, se tal vizio, o tal lode data, sia con ragione
+posta, de la quale non sendo rettamente assegnata, ne verrà colui o colei punito, di quel castigo, che piacerà,
+a chi sarà a canto al notato </p></sp> <sp><speaker>M. DOM.</speaker><p> Oh si è fatto
+torto alle donne a scoprire il giuoco, perché noi haremo questo vantaggio in pensare, cioche doviamo dire,
+dove ch'esse saranno allo improviso giunte, e più facilmente potranno errare, non havendo pensato prima
+a la cosa, </p></sp> <sp><speaker>M. PAN.</speaker><p> anzi nò, che le donne, non
+sogliono dire cosa buona, se non quando al improviso caso vien lor detta </p></sp> <sp><speaker>M. LOD.</speaker><p> Non ci sarà
+vantaggio nissuno; peroché non saprà nissuno chi l'habbia a essere arincontro,
+e ciascuno in sorte harà dirimpetto, quella, che l'ordine e la
+fortuna gli metterà,
+sì che state tutti di buono,
+animo, che non ci caderà avantaggio. </p></sp> <sp><speaker>M. BER.</speaker><p> Or andiamocene dunque verso cena.</p></sp>
+</div1>
+
+<trailer>IL FINE.</trailer>
+
+
+</body>
+
+</text>
+</TEI.2>

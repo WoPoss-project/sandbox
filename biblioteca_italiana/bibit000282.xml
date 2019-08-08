@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dissertazione sopra l'origine, e i primi progressi dell'astronomia</title>
+            <author>Giacomo Leopardi</author>
+         </titleStmt>
+         <extent>94230 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit000282</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Tutte le opere</title>
+               <author>Leopardi, Giacomo</author>
+               <editor id="ed">Felici, Lucio</editor>
+               <publisher>Lexis Progetti Editoriali</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date>1998</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Trattati</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>Data sconosciuta anteriore al 2000</date>
+            <respStmt>
+               <name>LEXIS</name>
+            </respStmt>
+            <item>Digitalizzazione</item>
+         </change>
+         <change>
+            <date>Data sconosciuta anteriore al 2000</date>
+            <respStmt>
+               <name>LEXIS</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2004-06-08T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Marta Zanazzi</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML</item>
+         </change>
+         <change>
+            <date>2007-11-14T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1>
+            <head>DISSERTAZIONE SOPRA L'ORIGINE E I PRIMI PROGRESSI DELL'ASTRONOMIA</head>
+            <dateline>1814</dateline>
+            <p>Non v'ha, per mio avviso, Uomo alcuno, che all'Astronomia neghi dar luogo tra quelle scienze, che sortito hanno il nascere da noi per spazio maggiore di tempo rimoto, e che vicine sono più ch'altre d'origine all'origine istessa del Mondo. Quanto però agevol cosa si è il definire antichissima di origine essere l'Astronomia, altrettanto difficile si è il determinare presso qual Nazione una qualche regolata scienza Astronomica avuto abbia il nascimento.</p>
+            <p>Olau Rudbeck nella sua Atlantica sostiene doversi l'invenzione dell'Astronomia agli Svedesi, ma le ragioni, che egli adduce non sembrano certamente atte a persuadercelo. Gli Svedesi, egli dice, vedendo le differenti lunghezze de' loro giorni, la freddezza del lor clima, l'intemperie di quasi tutte le loro stagioni avranno naturalmente concluso, che la figura della terra è rotonda, e che eglino abitano in una delle sue estremità. Ammesso un tal principio essi saranno quindi passati a misurare la distanza del Sole, e dopo ciò l'altezza delle Stelle, e così di mano in mano saranno giunti ad avere una perfetta cognizione dell'Astronomia. Un simil raziocinio può solamente dimostrarci, che gli Svedesi poterono esser gl'inventori dell'Astronomia, non mai però, che essi lo furono in effetto. Oltreacchè è assai difficile il supporre gli Svedesi inventori dell'Astronomia, per la ragione, che essendo il loro Cielo quasi sempre offuscato dalle nubi, e l'aria ingombra dai vapori si rendeva ad essi quasi impossibile l'osservare esattamente le leggi, e le variazioni de' Fenomeni Celesti, laddove la purezza dell'aria, e la serenità del Cielo rendèvan facili ai Caldei le osservazioni Astronomiche. Per questa stessa cagione molti Scrittori attribuiron l'invenzione dell'Astronomia agli Egiziani. Varie altre ragioni contribuiscono a farci credere questi popoli inventori della scienza degli Astri. Difatto essi per le inondazioni del Nilo aveano una certa agricoltura lor propria bisognosa oltremodo dell'Astronomiche osservazioni. Si sa, che eglino chiamavano i loro magnifici Obelischi secondo Plinio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plinius</author>, <title lang="lat">Histor. Natur.</title>, lib. XXXVI, cap. 14.</bibl>
+               </note> raggi, e secondo Daviler<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Daviler</author>, <title>Diction. d'Archit.</title>, Artic. <title lang="fre">Obélisque</title>.</bibl>
+               </note> dita del Sole, dal che s'inferisce, che gli Egiziani se ne servivan come di Gnomoni, co' quali regolarono l'anno Solare, che fissarono a 365 Giorni, e quasi 6 ore, ed insegnarono sì come credesi a Platone, ed Eudosso<note resp="aut" place="foot">
+                  <bibl>V. <author>Strabonem</author>, <title lang="lat">Geograph.</title>; lib. XVII.</bibl>
+                  <bibl>
+                     <title lang="fre">Mémoires de l'Acad. des Inscript. et belles Lettres</title>
+                  </bibl>. <bibl>
+                     <author>Goguet</author>, <title lang="fre">De l'Orig. des Loix, des Arts, et des Sciences</title>, part. II, liv. 3. ch. 2, art. 2.</bibl>
+               </note>. Teodoro Gaza<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Theodorus Gaza</author>, <title lang="lat">De Mensib.</title>
+                  </bibl>
+                  <bibl lang="lat">ap. <author>Petav.</author> in <title>Uranologio.</title>
+                  </bibl>
+               </note>, Lattanzio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Lactantius</author>, <title lang="lat">Divin. Inst.</title>, lib. II, <title lang="lat">De Orig. error.</title>, cap. 14.</bibl>
+               </note> e Macrobio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Macrobius</author>, <title lang="lat">Saturnal.</title> lib. I. cap. 21.</bibl>
+               </note> seguiti da Marsham<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Marsham</author>, in <title>Canone Chronico</title>.</bibl>
+               </note> asserirono inventata l'Astronomia nell'Egitto. Attesta Diodoro Siculo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Diodorus Siculus</author>, <title lang="lat">Biblioth. Histor.</title>, lib. I.</bibl>
+               </note>, che gli Egiziani furono assai bene informati delle rivoluzioni, e stazioni dei Pianeti, dei loro influssi, e dei loro effetti, e che eran col mezzo di una lunga esperienza divenuti capaci di prevedere i tempi dell'abbondanza, e della carestia, la comparsa delle Comete, ed altre cose, il predir le quali sembra a prima vista impossibile allo Spirito Umano. A quanto abbiam detto si aggiunga ancora l'osservazione fatta da Giovanni Matteo de Chazelles, il quale esaminò la maggiore Piramide del Cairo, e dopo diligente osservazione trovò, che i quattro lati della medesima corrispondevano alle quattro principali regioni del Mondo, laddove il Picard esaminando a Uraneburgo la meridiana di Ticone trovolla in errore. Da questa osservazione, che sembrava innalzare la Astronomia degli Egiziani sopra quella degli Europei, venne a conoscersi, che le superbe piramidi di Egitto non erano monumenti soltanto dell'ambizione de' Monarchi Egiziani, come affermano generalmente gli Storici, ma destinavansi ancora a servire agli usi Astronomici<note resp="aut" place="foot">
+                  <bibl>
+                     <author>V. Proclum</author>, in <title lang="lat">Platonis Timaeum</title>.</bibl>
+               </note>. Malgrado tuttociò pensò Strabone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Strabo</author>, <title>Geograph.</title>, lib. XVI.</bibl>
+               </note> che i Fenici fossero stati Astronomi prima degli Egizi, e gli Etiopi furono chiamati inventori della Scienza del Cielo, e Maestri degli Egiziani. Molti attribuirono l'invenzione dell'Astronomia agli antichi Ebrei, a Caino, e ad Enoc, il quale è il medesimo, che Atlante, se crediamo ad Eupolemo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eupolemus</author>, ap. <title lang="lat">Euseb. Praepar. Evang.</title>, lib. IX, cap. 19.</bibl>
+               </note> e al Drusio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Drusius</author>, <title lang="lat">Dissertat. de Enoch</title>, par. 3.</bibl>
+               </note> e di cui dicesi, che fece la distinzione dei segni celesti<note resp="aut" place="foot">
+                  <bibl>V. <author>Hottinger</author>, <title>Smegma Orient</title>.</bibl>
+               </note>, che instruito dall'Angelo Uriele nelle rivoluzioni degli Astri, e degli anni riformò il calcolo di questi ultimi, i quali soleano dividersi non in mesi, ma in settimane<note resp="aut" place="foot">
+                  <bibl>V. <author>Salmasium</author>, <title lang="lat">De annis Climactericis</title>.</bibl>
+               </note>.</p>
+            <p>Origene<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Origenes</author>, Homil. 28 in Numer. et in Anaceph. et de Principe.</bibl>
+               </note> ricorda un libro attribuito ad Enoc contenente alcuni arcani, che appartenevano ai nomi delle Regioni, del Cielo, delle Stelle, e Costellazioni, opera, che dicesi serbarsi presso gli Etiopi scritta nel loro linguaggio<note resp="aut" place="foot">
+                  <bibl>V. <author>Genebrardum</author>, in <title lang="lat">Chronographia</title>.</bibl>
+               </note>, ma M. di Peiresc ha fatto invano le più accurate ricerche per averne copia<note resp="aut" place="foot">
+                  <bibl>V. <author>Herbelot</author>, Biblioth. Orient.</bibl>
+               </note>.</p>
+            <p>Se molti partigiani ebbe l'Egitto, l'Assiria, nella gara di avere data alla luce una Astronomia, che meritasse il nome di Scienza, non mancò di fautori. «<foreign lang="lat">Principio Assyrii</foreign>» dice Cicerone <quote>«<foreign lang="lat">propter planitiem, magnitudinemque regionum, quas incolebant, cum Coelum ex omni parte patens, et apertum intuerentur, traiectiones, motusque stellarum observarunt</foreign>»</quote>
+               <note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cicero</author>, <title lang="lat">De Divinatione</title>, lib. I.</bibl>
+               </note>. Erodoto, e Taziano<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Tatianus</author>, <title lang="lat">Orat. contra Graecos</title>.</bibl>
+               </note> danno ai Babilonesi il vanto della invenzione dell'Astronomia, e Luciano Samosatense<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Lucianus</author>, <title lang="lat">De Astrologia</title>.</bibl>
+               </note> asserisce, che la causa delle Fasi della Luna, e la cognizione del moto dei Pianeti furono ritrovate, e comunicate agli Egizi dagli Etiopi, per i quali giusta il Tommasini<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Tommasini</author>, <title lang="fre">Méthode d'étudier, et d'enseigner Chrétiennement les Lettres humaines. De l'Étude des Poètes</title>, Part. II, lib. I, chapit. 7, par. 13.</bibl>
+               </note> debbono intendersi gli Etiopi Orientali, ed Asiatici, cioè gli Arabi, e i Babilonesi. Vossio è stato persuaso, che ai Babilonesi si debba l'onore dell'invenzione dell'Astronomia. Il luogo, in cui Babilonia fu fabbricata, il quale nelle sacre Carte, è chiamato la Campagna di Sennaar, è quello stesso, che in Arabo appellasi Sinjar secondo vuol dimostrare il dotto Abate Renaudot nella sua Dissertazione sopra la Sfera, e questo appunto fu eletto dal Califo Almamon, e dal Sultano Salaheddin Melikschah terzo de' Seliukidi per farvi fare le osservazioni Astronomiche. Da ciò si rileva, che questo luogo fu sempre creduto il più idoneo per delle osservazioni di tal fatta. Oltreacciò i Babilonesi aveano a preferenza dell'altre nazioni una specola delle più eccellenti nel Tempio di Belo, il quale secondo S. Girolamo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>S. Hieronymus</author>, in <title lang="lat">Isaiae</title>, caput. 14.</bibl>
+               </note> ed il Bochart è lo stesso, che la torre di Babele essendo fabbricato a dire di Erodoto, di Strabone, di Diodoro Siculo, e di Arriano, di mattoni, e di bitume, sì come attestano le sacre Carte della torre sovraccennata. Questo Tempio, al riferire di alcuni autori sorpassava in altezza le più sublimi piramidi di Egitto, essendo composto di otto Torri, sopra l'ultima delle quali era una specie di vedetta, che si credè destinata dai Babilonesi ad usi Astronomici. L'altezza del tempio era secondo Adone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Ado</author>, in <title lang="lat">Chron.</title>
+                  </bibl>
+               </note> di 5000 miglia, secondo Eutichio Patriarca Alessandrino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eutychius</author>, in <title lang="lat">Annalibus</title>.</bibl>
+               </note> di 10.000 pertiche, secondo altri, dai quali già il riseppe S. Girolamo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>S. Hieronymus</author>, in <title lang="lat">Isaiae</title>, caput 14.</bibl>
+               </note>, giungeva a 4000 passi. I Rabbini però nel Libro Pirke la fanno ascendere a 70.000 passi. Ma Strabone la fissa ad uno stadio, la qual misura, tuttochè molto più considerabile ai tempi di questo Geografo, di quello lo fosse negli antichi Secoli<note resp="aut" place="foot">
+                  <bibl>V. <author>Goguet</author>, <title lang="fre">De l'Or. des Loix</title>, etc. Part. III, liv. II, chap. 1.</bibl>
+               </note>, è nondimeno di gran lunga inferiore alle altre sovraccennate. Dicesi, che Epigeno, autor grave secondo Plinio parlò di osservazioni fatte dai Babilonesi, e scolpite in pietra cotta, che abbracciavano 720 Anni. Callistene Filosofo della Corte di Alessandro inviò ad Aristotele da Babilonia, secondo Porfirio citato da Simplicio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Porphyrius</author> ap. Simplic. in Aristot. de Coelo, lib. II.</bibl>
+               </note>, delle osservazioni Celesti ritrovate in Babilonia dopo la presa fattane da Alessandro, le quali abbracciavano 1903 Anni. Mossi da simili ragioni più moderni autori attribuirono ai Babilonesi l'invenzione dell'Astronomia.</p>
+            <p>La invenzione, e l'origine dei segni dello Zodiaco merita anch'essa una particolare osservazione. L'Ariete espresso nella figura *** mostra secondo il Sig. Pluche<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Pluche</author>, <title lang="fre">Hist. du Ciel</title>, Liv. I, chap. 3, par. 3.</bibl>
+               </note> la robustezza degli agnelli, i quali al cominciare di Primavera sono ormai pronti a seguire al pascolo il montone ne' prati. Il Toro ancor'egli figurato nel segno ***, ingrossa la mandra unito ai capretti i quali secondo l'osservazione del Sig. Hyde<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Hyde</author>, <title lang="lat">Hist. Relig. veterum Persarum</title>, cap. 32.</bibl>
+               </note> occupavano nell'antico Zodiaco il luogo dei Gemelli (***). Il Cancro, o granchio, il quale cammina allo indietro, ed obbliquamente, contrassegnato nella figura ***, esprime il moto retrogrado, ed obbliquo, che fa il Sole dopo oltrepassato questo segno<note resp="aut" place="foot">
+                  <bibl>V. <author>Macrobium</author>, <title lang="lat">Saturnal.</title>, lib. I, cap. 17.</bibl>
+               </note>. La ferocia del Leone rappresentato nel segno *** simboleggia l'ardore e la forza dei raggi del Sole, allorchè egli s'innoltra verso il medesimo. La Vergine (***) che porta in mano un fascio di spighe esprime chiaramente la mietitura. Il nome Erigone dato alla Vergine, il quale significava in Oriente <emph>Color rosso</emph>, indica le spighe, le quali nella loro perfetta maturità esser denno rosseggianti, secondo attesta Virgilio <quote>
+                  <foreign lang="lat" rend="lat">Rubicunda Ceres medio succiditur aestu</foreign>
+               </quote>
+               <note resp="aut" place="foot">
+                  <bibl>
+                     <author>Vergilius</author>, <title lang="lat">Georgic.</title>, lib. I, vers. 297.</bibl>
+               </note>.</p>
+            <p>La bilancia significata nella figura *** vale a contrassegnare l'Equinozio, ed il veleno dello Scorpione (***) a dinotare le malattie autunnali. La caccia delle fiere selvaggie, che gli antichi solean fare all'approssimarsi del verno, vien simboleggiata dal Sagittario ***, ed il costume della Capra di andar per le montagne inerpicandosi in cerca del pascolo mostra evidentemente l'ascendere, che fa il Sole per lo Zodiaco dopo oltrepassato un tal segno ***. L'Acquario *** dinota le invernali pioggie, ed il segno *** dei Pesci le abbondanti pesche, che soglion farsi al declinar della fredda stagione. Il numero dodici delle parti, nelle quali vien diviso lo Zodiaco, indica i dodici giri compiti dalla Luna nel tempo di un sol giro del Sole. L'invenzione di tutti questi segni non può, riflette M. Pluche<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Pluche</author>, <title lang="fre">Hist. du Ciel</title>, liv. I, chap. I, par. 3.</bibl>
+               </note>, attribuirsi agli Egizi, poichè essendo lor necessaria per le inondazioni del Nilo una agricoltura differente da quella degli altri popoli la messe compivasi presso di essi prima del tempo contrassegnato dalla Vergine. L'Acquario similmente non poteva in modo alcuno convenire agli Egizi rarissime essendo le pioggie nel loro paese. Ma ritrovandosi ne' più antichi monumenti degli Egiziani indicati i segni tutti dello Zodiaco sembra assai naturale il credere, che essi facessero uso dell'invenzione dei loro antichi compatriotti. Questa osservazione ci guida quasi per mano, dice il Sig. Pluche<note resp="aut" place="foot">
+                  <bibl>
+                     <foreign lang="fre">Le même</foreign>. l. c.</bibl>
+               </note>, alle campagne di Sennaar, dalle quali uscirono gli Egizi, e tutte le famiglie che ripopolarono la terra. Tra i figliuoli di Noè adunati nei contorni di Babelle conviene dunque secondo il Sig. Pluche<note resp="aut" place="foot">
+                  <bibl>
+                     <foreign lang="fre">Le même</foreign>, l. c.</bibl>
+               </note> cercare il più antico uso della denominazione de' segni Celesti.</p>
+            <p>Ma l'epoca del ritrovamento dei segni dello Zodiaco stabilita dal Sig. Pluche eccitò gran controversia fra i Dotti della Francia. Il P. le Mire Gesuita volle dimostrare in una Dissertazione, che non dee l'invenzione del presente Zodiaco attribuirsi ad Uomini sì antichi, quali furono i figliuoli di Noè, ma bensì ai Greci, e che il Sig. Pluche troppo congetturalmente ritrova le relazioni, e l'analogia tra i segni Celesti, e le cose Terrestri. In difesa del sistema del Sig. Pluche accorse il Boyer, cui avendo replicato il primo Dissertatore, a questo replicò di nuovo il Boyer. Tra le altre ragioni adduce il P. le Mire quella, che non può con verisimiglianza in tempi sì vicini al Diluvio, quali furon quelli, nei quali il Sig. Pluche stabilì il primo uso della denominazione dei segni Celesti, supporsi cotanta scienza Astronomica, che dasse modo di osservare, e dividere sì esattamente il Cielo. Nota il Jablonski<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Jablonski</author>, <title>Panth. Aegypt.</title>, lib. III. cap. 2. par. 9.</bibl>
+               </note> dopo Achille Tazio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Achilles Tatius</author>, <title lang="lat">Isagoge ad Aratum apud Petavium in Uranologio</title>.</bibl>
+               </note> che le costellazioni tutt'altri nomi, e tutt'altre figure rappresentative aveano presso gli Egizi, che non ebbero presso i Greci. Il Sig. de la Nauze ebbe ancor'egli idee contrarie al Sig. Pluche, ed attribuì la invenzione del presente Zodiaco a Chirone. Il Sig. Goguet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Goguet</author>, <title lang="fre">De l'or. des Loix</title> etc., part. I, liv. 3, ch. 2, artic. 2, par. I.</bibl>
+               </note> pone la distribuzione dei segni dello Zodiaco verso l'anno 1690 avanti Gesù Cristo, e pensa<note resp="aut" place="foot">
+                  <bibl>
+                     <foreign lang="fre">Le même</foreign>, l. c. part. I, dissert. 3.</bibl>
+               </note> che nel libro di Giobbe, allora quando si nominano i ***, Mazzaroth<note resp="aut" place="foot">
+                  <bibl>
+                     <title>Iob.</title> cap. 38, vers. 32.</bibl>
+               </note> che compariscono ciascuno nel loro tempo, vengano indicati i segni dello Zodiaco. Di tal sentimento sono pure i Talmudisti, il Rabbino Salomone Isaki, il Pagnini, lo Schindeler, e l'Autore della traduzione Francese della Biblia pubblicata in Colonia nel 1739.</p>
+            <p>Fuvvi, chi la divisione dei segni Zodiacali attribuì a Pitagora, chi ad Oenopide di Chio, chi a Talete, e chi a Cleostrato. I Dotti comunemente la invenzione dello Zodiaco attribuiscono agli Egiziani, e il P. Kircher crede<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Kircher</author>, <title>Oedip. Aegypt. Astrol. Aegypt.</title>, cap. 2.</bibl>
+               </note> che questi per i dodici segni dello Zodiaco ponessero dodici Dei minori come Consiglieri del Sole, e da questi Dei egli trasse le figure, i nomi, e le significazioni dei dodici segni, quali sono da noi rappresentati. C'insegna Ermippo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Hermippus</author> ap. Hygin. in Poet. Astronom.</bibl>
+               </note> che gli Egizi sotto la figura dell'Ariete rappresentar vollero quel Montone che additò l'acqua a Bacco allora quando nell'Affrica ebbe a morire per la sete. A questa medesima Costellazione applicarono i Greci la favola di quel Montone che trasportò Frisso ed Elle nel paese dei Colchi.</p>
+            <p>Tra i vari sistemi proposti sulla invenzione dello Zodiaco, curioso è quello in cui supponsi, che i dodici segni di questo abbiano tratta origine dalla famiglia di Giacobbe. Ebbe questi dodici Figli, ed una figliuola, cioè Dina. I dodici figli fanno undeci segni giacchè Simeone e Levi non formano che un segno solo, cioè i Gemelli. Dina è il segno della Vergine. Giacobbe vicino a morte, dice l'autore del sistema, diede a ciascuno de' suoi figliuoli profetiche benedizioni, ed accennò i loro caratteri, i loro vizi, e le loro virtù<note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Genesis</title>, cap. 49.</bibl>
+               </note>. Ora questi caratteri veggonsi simbolicamente rappresentati nei dodici segni. Di Aser disse il Padre «<quote>
+                  <foreign lang="lat">Aser, pinguis panis eius, et praebebit delicias Regibus</foreign>
+               </quote>
+               <note resp="aut" place="foot">
+                  <bibl>Ibidem, vers. 20.</bibl>
+               </note>». Aser dunque riflette l'autore del Sistema può considerarsi come un Mercatante, che vende il suo pane a peso, e a libra. Per venderlo in tal modo fa d'uopo la bilancia, ecco pertanto l'origine del segno della Bilancia, o della Libbra. Neftali vien da Giacobbe rassomigliato ad un Cervo «<quote>
+                  <foreign lang="lat">Nephtali Cervus emissus, et dans eloquia pulchritudinis</foreign>
+                  <note resp="aut" place="foot">
+                     <bibl>Ibidem, vers. 21.</bibl>
+                  </note>
+               </quote>» ma, dice l'autore del sistema, la parola Ebraica può anche significar Montone, ed ecco l'origine del segno dell'Ariete. Al più però, afferma il Bochart, che se tolgansi dalla detta parola i punti vocali può significare Albero, non mai Ariete<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Bochart</author>, <title>Hierozoici</title>, part. I, lib. III, cap. 18.</bibl>
+               </note>. Issacar viene dal padre chiamato asino «<quote>
+                  <foreign lang="lat">Issachar asinus fortis accubans inter terminos</foreign>
+                  <note resp="aut" place="foot">
+                     <bibl>
+                        <title lang="lat">Genesis</title>, cap. 49, vers. 14.</bibl>
+                  </note>
+               </quote>» ma l'autore lo fa Toro. Beniamino è detto Lupo «<quote>
+                  <foreign lang="lat">Beniamin Lupus rapax</foreign>
+                  <note resp="aut" place="foot">
+                     <bibl>Ibidem, vers. 27.</bibl>
+                  </note>
+               </quote>» ma dall'autore è fatto Cancro, perchè di lui si dice «<quote>
+                  <foreign lang="lat">mane comedet praedam, et vespere dividet spolia</foreign>
+               </quote>
+               <note resp="aut" place="foot">
+                  <bibl>Ibidem, cap. 49. vers. 27.</bibl>
+               </note>» il che è quasi camminare allo indietro, sembrando doversi prima dividere, e poi divorare la preda. In tutti gli altri confronti l'autore di questo sistema ragiona quasi nella stessa guisa, quindi argomentisi con qual fondamento egli conchiuda, che nello Zodiaco vien rappresentata la Famiglia di Giacobbe. Delle analogie così incerte, e de' rapporti, pe' quali cose affatto disparate sì violentemente fra loro congiungonsi, non possono darci, che una idea affatto sfavorevole di questo sistema.</p>
+            <p>L'Astronomia nata, come dissi, tra i Babilonesi, secondo la opinione di più Autori fece dei grandi progressi presso gli Egiziani. Raccontasi che un loro Monarca sì antico, che spacciasi ricordarsi in alcuni vecchi Libri dei Copti aver'egli regnato 300 anni davanti il Diluvio, vide in sogno le stelle cadenti dal Cielo, gli Uomini rovesciati, e giacenti a terra, e il tutto posto in confusione, e scompiglio, ed avendo nell'anno vegnente avuto lo stesso sogno ne fu sì sbigottito, che adunati i più dotti Sacerdoti, e i più sapienti professori delle Scienze arcane di Egitto scongiurolli a voler dichiarargli quali cose prognosticassero tali sogni. Al che avendo quelli risposto, che la Terra stata sarebbe inondata da uno spaventoso Diluvio, deliberò egli di far costruire delle Piramidi, e di altre vaste moli, perchè a se, e ai familiari suoi servissero di ricovero, ed ai loro cadaveri di sepolcro. Oltreacchè ordinò che venissero quegli Edifizi fregiati di Geroglifici atti a spiegare le scienze tutte allora conosciute dagli Egiziani, e riputò ancora saggio consiglio l'indicare su quei monumenti la figura delle stelle, e dei segni Celesti, le loro significazioni, e i loro effetti. Non fa d'uopo avvertire il leggitore di assegnare a somigliante racconto onorifico luogo tra le favole, delle quali abbondano oltre a ogni credere le Istorie dell'antichità. Che gli Egiziani conoscessero l'Anno di 365 Giorni lo mostra il Circolo d'oro commemorato da Diodoro di Sicilia, il quale aveva 365 cubiti, ciascuno relativo ad un giorno dell'Anno con il giro delle Stelle corrispondente; circolo, che trovossi sopra la Tomba di Osimandia Re di Eliopoli, e fu rapito da Cambise circa l'anno 524 avanti Gesù Cristo. Sembra però al Carli, ed al Goguet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Goguet</author>, <title lang="fre">De l'Orig. des Loix</title>, etc., part. I, liv. III, ch. 2, artic. 2, et part. II, liv. III, chap. 2, artic. 2.</bibl>
+               </note> che più antica di questa divisione sia stata quella di 360 giorni, numero assegnato egualmente alla divisione dello Zodiaco. La posteriore divisione giusta il Carli non fu conservata mentre regnò sempre la anteriore di 360 gradi corrispondenti ad altrettanti giorni. Più ragioni di fatto al dir del citato Scrittore ci persuadono a creder così. Riferisce Diodoro, che in Acuat di là dal Nilo verso la Libia 120 stadi lontano da Menfi v'era un gran vaso, nel quale 360 Sacerdoti poneano ciascuno in un giorno un vaso di acqua del Nilo, ed altrove narra, che nell'Isola del Nilo, che è fra l'Etiopia, e l'Egitto, esisteva un tempio dedicato ad Osiride, dove vedeansi in buon ordine 360 vasi, uno dei quali per ciascun giorno veniva dai Sacerdoti riempito di latte. Lo Scaligero<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Scaliger</author>, <title lang="lat">De Emendat. Temporum</title>, lib. III.</bibl>
+               </note>, il Kircher<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Kircher</author>, <title lang="lat">Oedip. Aegypt.</title>
+                  </bibl>
+               </note>, il Martin<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Martin</author>, <title lang="lat">Explicat., de divers. monum.</title>
+                  </bibl>
+               </note>, il Newton, ed il Shuckford con Eusebio pensano, che gli Egiziani avessero per alcun tempo l'Anno di 360 giorni senza veruna aggiunta. Erodoto altresì dice, che dapprima gli Egizi divisero l'Anno in dodici mesi, ciascuno di 30 giorni, ai quali furono in seguito aggiunti altri cinque. Di più Aristotele presso Teodoro Gaza assicura, che era stato considerato dagli antichi, che la quinta parte dell'Anno fosse di 72 giorni. Evvi chi pensa, che così fosse di fatto nei tempi anteriori al Diluvio. Dubita il Carli<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Carli</author>, <title>Lettere Americane</title>, par. 2, lettera 13.</bibl>
+               </note> col Weidler che ai tempi antichissimi di 360 giorni fosse il vero Anno Solare, e che poi per una rivoluzione del Globo chiamata Diluvio dal Weidler siasi accresciuta la forza di proiezione della terra in modo che diminuendosi quella dell'attrazione del Sole l'Orbita terrestre non potesse esser percorsa che nello spazio di 365 giorni, e sei ore circa. Non so quanti seguaci ritroverà tale opinione, che dal Burnet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Burnet</author>, <title lang="lat">Archaeol. Sacr.</title>, lib. II, cap. 3.</bibl>
+               </note> e dal Shuckford viene pur favorita. Avvi chi si avvisa di dimostrare che gli Anni antidiluviani non aveano in alcun modo la lunghezza nemmen somigliante a quella, che hanno gli Anni al presente. Fondamento di tale opinione si è il numero sterminato di anni che al rapporto di Mosè formavano la vita degli Uomini antidiluviani. Leggesi in fatti in Censorino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Censorinus</author>, <title lang="lat">De die natali</title>.</bibl>
+               </note> ed in Plinio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plinius</author>, <title lang="lat">Hist. nat.</title>, lib. XI, cap. 37.</bibl>
+               </note> una osservazione degli Egiziani, che il cuore dell'Uomo cresce in ogni anno di peso dal primo suo nascere sino al cinquantesimo, ed altrettanto diminuisce da quest'epoca in poi, onde conchiudesi, che non può la vita dell'uomo progredire oltre al centesimo Anno per il mancare, che farebbe il suo cuore. Adducesi ancora in campo la inverisimiglianza che gli antidiluviani non avessero figliuoli prima del sessantesimo quinto anno, che è, dicesi, la meno avvanzata età in cui Mosè faccia padri Malaleele, ed Enoc. Finalmente si cita l'autorità di Plinio<note resp="aut" place="foot">
+                  <bibl>Idem, l. c. lib. VII. cap. 49.</bibl>
+               </note> che parlando delle grandi età attribuite agli antichi dice esser ciò perchè gli anni furono un tempo assai più brevi, di quel che ora sono, mentre alcuni li aveano di sei mesi<note resp="aut" place="foot">
+                  <bibl>V. <author>Plutarchum</author>, in <title lang="lat">Vita Numae. Solinum, Polyhist.</title>, cap. 2</bibl>. <bibl>
+                     <author>Zonaram</author>, <title lang="lat">Annal.</title>, lib. VII, cap. 5.</bibl>
+               </note> altri aveanli di tre mesi<note resp="aut" place="foot">
+                  <bibl>V. <author>Solinum</author>, et <author>Zonaram</author>, ll. cc.</bibl>
+               </note> altri gli aveano mensuali, cioè compivanli ad ogni mese<note resp="aut" place="foot">
+                  <bibl>V. <author>Zonaram</author>, l. c. <foreign lang="lat">Eudoxum ap. Proclum in Platonis Timaeum. Strobaeum, in Eclog. Physic. Geminum, in Element. Astronom. ap. Petav. in Uranol. Suidam, in Lex. artic.</foreign>
+                     <foreign lang="grc">ΗΛΙΟΣ</foreign>.</bibl>
+                  <bibl>
+                     <author>Freret</author>, <title lang="fre">Défense de la Chronologie</title>
+                  </bibl>. <bibl>
+                     <author>Goguet</author>, <title lang="fre">De l'Orig. des Loix, des Arts, et des Sciences</title>, part. I, liv. III, chap. 2, artic. 2</bibl>. <bibl>
+                     <author>De Lalande</author>, <title>Astronom.</title>, liv. II.</bibl>
+               </note> per lo che non è a meravigliarsi, soggiungono, se gli antichi contavano un numero sterminato di anni di età misurati in cotal guisa. In fatti mille anni computati per lunazioni non compongono, che circa ottantatrè dei nostri Anni. A Plinio si uniformano Vittorino, e Varrone presso Lattanzio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Varro</author>, ap. Lactant. Div. Inst., lib. II. <title lang="lat">De orig. error.</title>, cap. 13.</bibl>
+               </note>. Ma checchè sia di anni sì brevi egli è certo che Mosè<note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Genesis</title>, cap. 8, vers. 14.</bibl>
+               </note> parlando del Diluvio accenna il settimo mese dell'anno seicentesimo primo della vita di Noè, il che oltrepassa ancora l'anno semestre, che è il più lungo dei brevi anni sovraccennati, e nel luogo stesso fa ancora menzione del mese decimo<note resp="aut" place="foot">
+                  <bibl>Ibidem, vers. 5.</bibl>
+               </note>. Ed invero della singolar lunghezza della vita degli Antichi fecero testimonianza oltre Mosè Manetone, Beroso, Moco, Esticeo, e Girolamo Egiziano citati da Giuseppe Ebreo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Flavius Iosephus</author>, <title lang="lat">Antiquit. Iudaic.</title>, lib. I, cap. 4.</bibl>
+               </note>, il quale aggiunge, che Esiodo, Ecateo, Ellanico, Acusilao, Eforo, e Nicolao hanno attestato, che la vita degli antichi giungeva sino ai mille Anni. Di tali testimonianze non ci rimane, che quella di Esiodo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Hesiodus</author>, in <title lang="lat">Operibus et diebus</title> vers. 130.</bibl>
+               </note>. Alcuni presso S. Agostino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>S. Augustinus</author>, <title lang="lat">De Civitate Dei</title>, lib. XV, cap. 12.</bibl>
+               </note> pretendono, che gli anni dei Patriarchi antidiluviani fossero composti di soli 36 giorni, ma tal errore riprende il detto Padre, ed in fatti dando Mosè a Malaleele<note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Genesis</title>, cap. 5, vers. 15.</bibl>
+               </note> ed Enoc<note resp="aut" place="foot">
+                  <bibl>Ibidem, vers. 21.</bibl>
+               </note> quando generarono l'uno Iared, e l'altro Matusalem, non più che 65 anni di età, si ridurrebbon questi a sei e mezzo degli anni presenti, nella quale età è incredibile che potessero essi generar figliuoli. Quali poi fossero le cagioni per le quali giungevano gli antidiluviani a sì lunga età non è del nostro intento il ricercare. Quanto poi alla difficoltà come gli Uomini differissero cotanto in quei tempi ad aver figliuoli rispondesi, che niuno può asserire Enos a cagion d'esempio generato da Set essendo questo in età di 105 anni essere stato il primogenito non dicendolo Mosè per niun modo. Per ciò che spetta poi alla mentovata osservazione degli Egizi sul crescere, e diminuire del cuore umano, ed alla impossibilità, che vuol dedursene, di vivere oltre ai cento Anni, traesi lo scioglimento di tal difficoltà da Plinio stesso<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plinius</author>, <title lang="lat">Hist. nat.</title>, lib. VII, cap. 49.</bibl>
+               </note> da Luciano<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Lucianus</author>, in <title lang="lat">Macrobiis.</title>
+                  </bibl>
+               </note> e da Flegonte Tralliano<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Phlegon</author>, <title lang="lat">De longaevis</title>, cap. 2 et seqq.</bibl>
+               </note>, i quali annoverano non poche persone che oltrepassarono ancor di molto la età di cento anni. Nè in ciò vi ha nulla d'incredibile mentre eziandio ai nostri giorni si è veduta una Negra di cento venti anni conservar tuttavia del vigore insieme con l'uso di tutti i sensi, ed un'altra se ne è ritrovata nel Tucuman provincia dell'America Meridionale, la di cui età era per lo meno di 174 anni. Un professore di Dantzica per nome Hanorio, che si è occupato a radunare delle notizie su questi Esseri viventi, che sembrano avere arditamente calpestato i confini della vita marcati dal tempo, e dalla umana caducità, parla di alcuni vecchi pervenuti all'età di 184 anni. Egli cita Cramers medico Imperiale, che avea in Ungheria fatte più osservazioni su tale oggetto, ed avea veduti a Temeswar due fratelli, l'uno di 110, l'altro di 112 anni ambedue divenuti padri in questa età. Egli pretendea perfino di aver trovato in Valachia un uomo di 190 anni.</p>
+            <p>Ritornando agli Egiziani, dai quali per lunga digressione ci dipartimmo, noi abbiam veduto, come le piramidi e gli obelischi venivano da essi destinati agli usi Astronomici. Col loro nome vien contraddistinto un Sistema il quale venne ne' posteriori secoli imitato da Ticone Brahe, e che sebbene inammissibile merita tuttavia la preferenza sopra quello di Ptolomeo. È fama ancora che gli Egizi dubitassero del moto della terra.</p>
+            <p>Lo stesso dicesi degli Indiani, e dei Cinesi, i quali secondo molti Scrittori erano negli antichi tempi assai periti nella Astronomia. Dicesi, che eglino conoscevano la vera lunghezza dell'Anno, i mesi Solari, e Lunari, i movimenti dei Pianeti, e nelle loro Tavole Astronomiche aveano segnate quelle stelle eziandio, che senza aiuto di alcuno istrumento non possono dai nostri occhi ravvisarsi. Secondo il Sig. di Voltaire<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Voltaire</author>, <title lang="fre">Essai sur l'Histoire Universelle</title>, chap. I.</bibl>
+               </note> 230 anni prima di una Ecclissi, che avvenne, come egli assicura 2155 Anni avanti l'Era volgare, regnava nella China l'Imperatore Hiao, il quale attese moltissimo all'Astronomia, e cercò con ogni cura d'illustrarla. Ma il P. Verbiest Gesuita, e Missionario nella Cina ci assicura, che egli avendo dovuto riformare il Calendario de' Cinesi, e mostrato loro il modo di renderlo esatto, essi stentarono assai per intenderlo, e molto più per porlo in esecuzione. Magalhaens dopo molte osservazioni fatte durante il suo soggiorno nella Cina attesta, che i Cinesi non aveano per anche trovato il modo di predire una Ecclissi molto tempo prima, che ella accadesse. Credevano essi la terra quadrata, e in conformità di questa opinione dicesi, che Fou-hi fece correre una moneta rotonda al di dentro per imitare il Cielo, e quadrata al di fuori per somigliare la terra. Spacciavano, che sotto il regno di Hiao il Sole stette sull'Orizonte dieci giorni continui, il che fu creduto essere annunzio di qualche terribile incendio. Da ciò deduce il P. Martini, che la sì decantata Astronomia dei Cinesi, non è in realtà, che una chimera<note resp="aut" place="foot">
+                  <bibl>V. <author>Jaquelot</author>, <title lang="fre">Dissert. sur l'existence de Dieu. Ancienne Rélation des Indes, et de la Chine</title>
+                  </bibl>. <bibl>
+                     <author>Pluche</author>, <title lang="fre">Spectacle de la Nature</title>, tome VIII, part. I</bibl>.  <bibl>
+                     <author>Goguet</author>, <title lang="fre">De l'Orig. des Loix, des Arts et des Sciences</title>, part. III, Dissert. 3.</bibl>
+               </note>.</p>
+            <p>I Persiani ebbero anch'essi cognizione dell'Astronomia, che presso loro venne introdotta, sì come spacciasi, al tempo di re Gjem-schid, o Gjamschid, il quale dicesi che intraprese, e perfezionò la rettificazione del Calendario instituendo due anni, l'uno Civile, e l'altro Ecclesiastico, ed ordinando che nello spazio di 130 Anni avesse luogo un mese intercalare<note resp="aut" place="foot">
+                  <bibl>V. <author>Hyde</author>, <title lang="lat">Histor. Religion. veterum Persarum</title>, cap. 14.</bibl>
+               </note>. Abbiamo da Celso<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Celsus</author>, ap. <title lang="lat">Orig. contra Celsum.</title> lib. VI.</bibl>
+               </note> che i Persiani nei loro riti Mitriaci innalzavano una scala, per ascender la quale eranvi sette porte, con una ottava sulla cima. La prima era di piombo, che con il suo peso contrassegnava la lentezza del moto di Saturno, la seconda di stagno, la cui mollezza e lucentezza indicavano Venere, la terza di rame la cui solidità denotava Giove, la quarta di ferro, che atto essendo a lavori profittevoli di più specie rappresentava Mercurio, la quinta di varia e irregolare mistura, che destinata era ad esprimere le proprietà di Marte, la sesta di argento, metallo che ben dava col suo colore a divedere il color della Luna, la settima di oro, la cui non ordinaria fulgida giallezza non dissimile dal colore del Sole riputavasi acconcia a simboleggiare quest'Astro.</p>
+            <p>Gli Ebrei, se crediamo ad Eusebio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eusebius</author>, <title lang="lat">Praeparat. Evangel.</title>, lib. IX, cap. 7.</bibl>
+               </note>, non furono inabili nella scienza degli Astri. Si sa, che Salomone fu in questa, siccome nelle altre, peritissimo, dicendo egli stesso nel Libro della Sapienza «<quote>
+                  <foreign lang="lat">Ipse enim (Deus) dedit mihi horum, quae sunt scientiam veram: ut sciam dispositionem orbis terrarum: et virtutes elementorum, initium, et consummationem, et medietatem temporum, vicissitudinum permutationes, et commutationes temporum, anni cursus, et stellarum dispositiones</foreign>
+               </quote>
+               <note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Sapientiae</title>, cap. 7, vers. 17 et seqq.</bibl>
+               </note>». L'antica forma dell'Anno degli Ebrei era molto grossolana. Non era fondata sopra alcun calcolo Astronomico. Il primo Ciclo di cui si servirono fu quello di 164 Anni. Ma scopertosi, che questo Ciclo era difettoso, fu eletto il Ciclo di Metone, e la forma dell'anno dei Giudei fu fondata sopra questo Ciclo. Il primo, che travagliò per introdurre questa regola fu Rabbi Samuele Rettore della Scuola Giudaica di Sora nella Mesopotamia. Un abile Astronomo chiamato Rabbi Adda, e dopo questo Rabbi Hillel lo seguirono, e gli Ebrei hanno sempre conservata questa forma di Anno, che dicono dover durare sino alla venuta del Messia. Sopra l'Anno Giudaico sono a consultarsi Sebastiano Munster, Giuseppe Scaligero<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Scaliger</author>, <title lang="lat">De emendat. tempor. et Can. Isagog.</title>
+                  </bibl>
+               </note>, Gilberto Genebrardo, Giulio Bartolocci<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Bartoloc.</author>, Biblioth. Rabbin.</bibl>
+               </note>, Giovanni Selden<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Selden</author>, <title lang="lat">De Anno Civili veterum Iudaeorum.</title>
+                  </bibl>
+               </note> il P. D. Agostino Calmet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Calmet</author>, <title lang="fre">Dict. de la Bible</title>.</bibl>
+               </note>, Umfredo Prideaux<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Prideaux</author>, <title lang="fre">Hist. des Juifs, et des peuples voisins</title>, Préface.</bibl>
+               </note>, Niccolò Moller, Frontone Du Duc, il Carpzovio, Agostino Torniello, negli Annali del vecchio Testamento, Federico Spanheim nella Cronologia Sacra, Carlo Schulten nel Calendario Giudaico, pubblicato nel 1701, Giovanni Salp nel Calendario Ebraico da lui dato in luce nel 1697 in Vittemberga, Gio. Battista Roeschel nell'Opera sull'anno dei Patriarchi pubblicata nel 1692, Enrico Klausing nell'Opera sullo stesso argomento pubblicata nel 1716, Carlo Daniele Claver nell'opera pubblicata nell'anno stesso sulla forma Mosaico-Profetica dell'Anno Ebraico, Egidio Strauch nell'opera sul Computo Talmudico-Rabbinico, e sull'Anno Ecclesiastico degli Ebrei venuta in luce nel 1655, Giacomo Cappel nei Tematismi delle Epoche illustri con la esplicazione di alcuni luoghi scelti delle Sante Scritture pubblicati in Sedan nel 1605, Gio. Andrea Michele Nagel nell'opera sul Calendario degli antichi Ebrei, che comparve in Altdorf nel 1746, Gio. Cristoforo Fischer nell'opera sull'Anno degli Ebrei pubblicata nel 1710, Gustavo Sommel nel Trattato sull'anno Ebraico Ecclesiastico e Civile pubblicato nel 1748, il Vriemot nell'opera sul vero principio dell'Anno presso gli Ebrei pubblicata nel 1735, e nel 1740, Cristoforo Langhasen nel Trattato sul Mese Lunare degli antichi Ebrei, Goffredo Felseisen nell'Opera sul Giorno Civile Ebraico venuta in luce nel 1702 in Lipsia, Davide Nieto Giudeo nel ***, Immanuel Abobab nella Nomologia, il Gusset nei Commentarii della Lingua Ebraica alle voci *** e ***, il P. Bernardo Lamy<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Lamy</author>, <title lang="lat">De tabernac. foederis</title>. lib. VII. cap. 7.</bibl>
+               </note> e Gio. Alberto Fabricio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Fabricius</author>, <title lang="lat">De mensibus</title>.</bibl>
+               </note>.</p>
+            <p>Il nuovo Mondo ancor'esso non fu mancante di Astronomi. Il dottissimo Gian Rinaldo Carli credè gli antichi popoli dell'America discendenti in gran parte dagli antichissimi Atlantidi, e grandi, non v'ha dubbio, sono le prove di simile proposizione<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Carli</author>, <title>Lettere Americane</title>.</bibl>
+               </note>. È sorprendente la conformità, che trovasi fra l'Astronomia Americana, e quella del nostro Emisfero. Gli Americani conoscevano le Iadi, e come noi le chiamavano Tapyra Kayouba, cioè testa, o mascella di Toro. Aveano cognizione della Costellazione dell'Orsa, e le davano il nome di Mosko Pankunnaw, vale a dire Orsa. Un simile consenso tra gli abitatori dell'uno, e dell'altro Emisfero sembrò ben singolare al Carli<note resp="aut" place="foot">
+                  <bibl>Il medesimo, l. c. part. II, lett. 13.</bibl>
+               </note> e a la Condamine, e tale sembrerà forse ad ognuno. Ai Peruviani erano note le Pleiadi<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Garcillasso de la Vega</author>, <title lang="spa">Historia de los Yncas</title>, lib. II, cap. 21.</bibl>
+               </note> che distinguevano col nome di Coylur, termine molto simile a quello di Coluro, con cui son da noi chiamati quei due Circoli della Sfera, che passando per i poli si tagliano scambievolmente fra loro. Avvisa Achille Tazio, che questo nome sia derivato dall'esser essi senza coda, perchè in parte si nascondono verso l'Antartico<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Achilles Tatius</author>, <title lang="lat">Isag. ad Arat.</title>, cap. 27, ap. Petav. in Uranol.</bibl>
+               </note>. Le nazioni dell'Orenocco a testimonianza del P. Gumilla davano alle Pleiadi da loro ben conosciute il nome di Ucasu. I Peruviani assai rispettavano le Pleiadi a causa della maravigliosa disposizione di queste stelle, che loro sembravano tutte uguali l'una all'altra in grandezza. Aveano esse presso i Peruviani il loro edifizio, siccome lo aveano le altre Stelle in generale, Venere, la Luna, ed il Sole. Curiosa è la descrizione, che di somiglianti edifizi ci ha dato il famoso Garcillasso de la Vega<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Garcillasso de la Vega</author>, <title lang="spa">Historia de los Yncas</title>, lib. II, cap. 20.</bibl>
+               </note> il quale potrà consultarsi. Benchè le ridicole opinioni che i Peruviani aveano intorno alle Ecclissi<note resp="aut" place="foot">
+                  <bibl>
+                     <foreign lang="spa">Ello mesmo</foreign>, l. c., lib. II. cap. 23.</bibl>
+               </note> ed intorno al levare e tramontare del Sole, non possan darci, che una assai svantaggiosa idea della loro Astronomia, pure sappiamo, che essi conoscevano i Solstizi della Primavera, e dell'Inverno, come pure gli Equinozi, e faceano uso di alcune Colonne, le quali esercitavano l'ufficio di veri Gnomoni. Vi erano a Cuzco sedici Torri<note resp="aut" place="foot">
+                  <bibl>
+                     <foreign lang="spa">Ello mesmo</foreign>, l. c., cap. 22.</bibl>
+               </note>, otto all'Est, ed altrettante all'Ovest; esse erano ordinate quattro a quattro, e le due di mezzo erano minori delle altre. Le Torri erano distanti l'una dall'altra sino ad otto, dieci e venti piedi. I Peruviani se ne servivano per fissare il Solstizio. Collocandosi in un luogo opportuno si osservava con attenzione se il Sole si levava e tramontava tra le due piccole Torri situate all'Est, e all'Ovest, e per tal modo cercavasi di determinare i Solstizi. I Peruviani formavano l'Anno di dodici Lune, e la mediocrità delle loro cognizioni non dava loro modo di accordarle con l'Anno solare. Volendo però conoscere i Solstizi erano naturalmente obbligati a ricorrere al corso del Sole, e separavano l'un anno dall'altro servendosi del Solare, quando loro facea di mestieri seminare i proprii Campi. Alcuni Autori han detto, che ai Peruviani non era ignota l'arte di accordare i due Anni insieme ma vi ha grande apparenza, dice Garcillasso<note resp="aut" place="foot">
+                  <bibl>
+                     <foreign lang="spa">Ello mesmo</foreign>, l. c.</bibl>
+               </note>, che essi siano in errore, poichè se gl'Indiani avessero saputo fare questo calcolo avrebbono ancora indicati i Solstizi per mezzo dei giorni del Mese, e non sarebbonsi data cotanta cura di osservare il levarsi, ed il tramontare del Sole.</p>
+            <p>I Peruviani si serviano di un altro mezzo per conoscere gli Equinozi. Aveano essi innalzate nel mezzo delle Piazze, che erano avanti al Tempio del Sole alcune Colonne assai ricche e molto ben lavorate. Le piazze, dove esse erano collocate, formavano un cerchio, dal centro del quale tiravasi una linea dall'Est all'Ovest. Per mezzo dell'ombra che la colonna faceva sulla linea giudicavasi della lontananza, o della prossimità dell'Equinozio. Se dal levare del Sole persino al tramontare l'ombra vedevasi intorno alla Colonna, e se non ve n'era alcuna a Mezzodì da qualunque parte si ricercasse prendeasi questo Giorno per quello dell'Equinozio. Si adornavano quelle Colonne con fiori, ed erbe odorifere, e sopra vi si collocava il Trono del Sole, in cui dicevasi che egli veniva ad assidersi in quel giorno. A causa di questo pregiudizio le Colonne del Quito, e delle sue vicinanze erano più venerate delle altre, perchè stante che il Sole vi era sopra a piombo, e che nel Meriggio non vi si vedeva alcun'ombra, quegl'Indiani s'immaginavano, che quest'Astro non trovasse sede a lui più gradita, mentre ivi prendeva piacere di dimorarvi perpendicolarmente, laddove negli altri luoghi non si arrestava che d'accanto.</p>
+            <p>Tale era l'Astronomia dei Peruviani. Da questo popolo dell'America passiamo ad un altro popolo di questo paese, cioè a quello del Messico. Che l'Astronomia non fosse negletta in questo Regno conoscesi da molti tratti. Nezahualcojotl Principe di questa Nazione stabilì delle adunanze a guisa di Accademie per la Pittura, per la Poesia, per la Musica, per la Storia, e per l'Astronomia<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Clavigero</author>, <title>Storia antica del Messico</title>, libro IV, par. 4.</bibl>
+               </note> ed egli stesso acquistò delle cognizioni Astronomiche per mezzo delle frequenti osservazioni che facea sul corso degli Astri<note resp="aut" place="foot">
+                  <bibl>Il medesimo, l. c., par. 5.</bibl>
+               </note>. Il re Nezahualpilli allorquando dopo aver posseduto il trono per 45 Anni si ritirò nel suo Palagio di diporto in Tezcotzinco si dava nella notte alla osservazione del Cielo, ed erasi per ciò fatto fare un piccolo Osservatorio nel terrazzo del Palagio. Egli conferiva ancora con alcuni intendenti di Astronomia, lo studio della quale essendo stato sempre in pregio presso quei popoli lo fu ancor più quando ad eccitarveli contribuì l'esempio di Nezahualcojotl, e di Nezahualpilli suo successore<note resp="aut" place="foot">
+                  <bibl>Il medesimo, l. c., lib. V., par. 15.</bibl>
+               </note>. Sul Calendario dei Messicani, parte molto interessante della loro Astronomia, possono consultarsi oltre Carlo di Siguenza e di Gongora, che scrisse un Libro separato sulla Cielografia Messicana, il Carli<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Carli</author>, <title>Lettere Americane</title>.</bibl>
+               </note> il de Solis<note resp="aut" place="foot">
+                  <bibl>
+                     <author>De Solis</author>, <title lang="spa">Historia de la conquista de Mexico</title>, lib. III, cap. 17.</bibl>
+               </note> il Clavigero<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Clavigero</author>, <title>Storia antica del Messico</title>, lib. VI.</bibl>
+               </note>.</p>
+            <p>Che i Toltechi fossero abili nell'Astronomia non sembra poter dubitarsi, se crediamo a quanto dice il Cav. Boturini<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Boturini</author>, <title>Idea di una Storia generale della nuova Spagna</title>.</bibl>
+               </note> sulla fede delle Storie Antiche di questa Nazione. Osservando questi, secondo egli narra, l'eccesso di sei ore circa dell'Anno Solare sopra il Civile, che era in uso presso di loro, lo regolarono col giorno intercalare, che frapponevano ad ogni quattro Anni; ciò che essi fecero più di un secolo avanti l'Era Cristiana. Innoltre nel 660 regnando in Tula Ixtlalcuechahac un Astronomo per nome Huematzin convocò i Savii della Nazione, e dipinse con essi quel famoso Libro, che fu chiamato Tesamoxtli, cioè libro Divino, e che tra le altre conteneva la descrizione dei Cieli, dei Pianeti, delle Costellazioni, ed il Calendario Tolteco con i suoi Cieli. Aggiunge il citato Boturini, che nelle pitture dei Toltechi vedevasi notata la Ecclissi del Sole avvenuta nella morte del Redentore, e che avendo alcuni dotti Spagnuoli confrontata la Cronologia dei Toltechi colla nostra, trovarono, che quel popolo dalla Creazione del Mondo sino al tempo della nascita di Cristo contava 5199 Anni, numero, che corrisponde alla Cronologia del Calendario Romano. Ciò si narra intorno all'Astronomia Americana, alla quale per disavventura andavan congiunte presso i Messicani le superstiziose follie della Divinazione, e della Astrologia Giudiziaria<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Clavigero</author>, <title>Storia antica del Messico</title>, lib. VI, par. 27.</bibl>
+               </note>.</p>
+            <p>Il tempo fu diviso in settimane, e dedicato ai Pianeti dagli Egizi, come pensa Dione Cassio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Dio Cassius</author>, <title lang="lat">Hist. Roman.</title> lib. 37.</bibl>
+               </note>, e da questi passò poi un tale stabilimento ai Greci, e ai Romani. Ciascuno dei giorni della settimana dedicavasi ad uno dei Pianeti. Il giorno presso gli Ateniesi<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Varro</author>
+                  </bibl>, <bibl>ap. <author>Gellium</author>, <title lang="lat">Noct. Attic.</title>, lib. III, cap. 2</bibl>, e <bibl>ap. <author>Macrob.</author>, <title lang="lat">Saturnal.</title>, lib. I, cap. 3.</bibl>
+               </note> e i Giudei cominciava al tramontare del Sole; presso i Babilonesi<note resp="aut" place="foot">
+                  <bibl>Idem, ap. Gellium, l. c.</bibl>
+               </note>, i Siri e i Persiani avea principio al levare del Sole, e tra gli Ausoni, i Romani<note resp="aut" place="foot">
+                  <bibl lang="lat">Idem, ap. eundem, l. c.</bibl>
+               </note> e gli Egizi<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plinius</author>, <title lang="lat">Histor. Natur.</title>, lib. II, cap. 77.</bibl>
+               </note> cominciava a mezza notte. Varrone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Varro</author>, ap. <author>Gellium</author>, <title lang="lat">Noct. Attic.</title>, lib. III, cap. 2.</bibl>
+               </note> aggiunge, che molti nell'Umbria cominciavano il giorno dal Mezzodì. Il giorno, e la notte furono da principio divisi in quattro parti, mattina, mezzodì, sera e mezza notte. Ma ciò non era sufficiente. Siccome la misura e la cognizione del tempo fu il primo scopo delle Astronomiche fatiche, così fu pensato a dividere il tempo in parti uguali. A tale effetto furono impiegate le Clepsidre, e i Quadranti. Le Clepsidre per mezzo della caduta dell'acqua, e i Quadranti per mezzo dell'Ombra di uno stilo indicavano le ore. Questo nome dato alle diverse parti del Giorno credesi derivato da quello di Oro, che giusta Macrobio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Macrobius</author>, <title lang="lat">Saturnal.</title>, lib. I. cap. 21.</bibl>
+               </note> non è a distinguersi dal Sole. Non so qual fede meriti Vittorino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Victorinus</author>, in <title lang="lat">Rethoric. M. Tullii Cicer.</title>, lib. I.</bibl>
+               </note> il quale attribuisce la divisione del Giorno in dodici Ore ad Ermete, opinione, sulla quale è a consultarsi il Fabricio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Fabricius</author>, <title lang="lat">Biblioth. Graec.</title>, lib., cap. 12. par. 8.</bibl>
+               </note>. Ciò, che vi ha di certo si è che gli Antichi divisero il giorno in dodici ore, e lo stesso fecero della notte senza aver riguardo alla loro lunghezza, che varia secondo le Stagioni. Ciò cagionò una gran confusione in questa divisione dei tempi. Per apprestar rimedio a questo inconveniente si pensò di dividere la notte, ed il giorno in venti quattro parti eguali. Ciascuna di queste parti fu posta sotto la protezione di un Pianeta, o del Sole. La prima ora fu posta dunque sotto la protezione di Saturno, la seconda sotto quella di Giove, la terza sotto quella di Marte, la quarta sotto quella del Sole, la quinta sotto quella di Venere, la sesta sotto quella di Mercurio, e la settima sotto quella della Luna. La ottava ritornava sotto l'autorità di Saturno, la nona sotto quella di Giove, e così in seguito. Si dice, che questi medesimi Pianeti suggerirono agli Egiziani la divisione del tempo per settimane. Ciascun giorno avea il nome del Pianeta, sotto la cui protezione era la prima Ora. Pertanto il primo giorno della settimana fu detto «<foreign lang="lat">Dies Saturni</foreign>» il secondo « <foreign lang="lat">Dies Solis</foreign>» il terzo « <foreign lang="lat">Dies Lunae</foreign>» il quarto « <foreign lang="lat">Dies Martis</foreign>» il quinto «<foreign lang="lat">Dies Mercurii</foreign>» il sesto «<foreign lang="lat">Dies Iovis</foreign>» il settimo «<foreign lang="lat">Dies Veneris</foreign>
+               <note resp="aut" place="foot">
+                  <bibl>V. <author>Xylandrum</author>, <title lang="lat">Annotat. in Dion. Cassii Histor. Roman.</title> l. XXXVII.</bibl>
+               </note>».</p>
+            <p>Secondo il Sig. Pluche<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Pluche</author>, <title lang="fre">Hist. du Ciel</title>, liv. I, chap. 3, par. 8.</bibl>
+               </note> l'ordine della settimana, ed il riposo di un giorno per ciascuna settimana tanto è lungi che imitino la distribuzione de' giorni fatta in onore dei pianeti dai Pagani, che sono anzi un uso della Religione più remota, antica al pari del Mondo. Il Marsham<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Marsham</author>, <title lang="lat">Can. Chron. ad Saec. IX.</title>
+                  </bibl>
+               </note> e lo Spencer<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Spencer</author>, <title lang="lat">De Legib. Hebraeor. Ritualib.</title>, lib. I. cap. 4, sect. 11 et seq.</bibl>
+               </note> son d'avviso, che gli Egiziani fossero i primi a dividere il tempo in settimane, ma ciò vien contrastato dal Meyer<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Meyer</author>, <title lang="lat">De tempor. Sacr. Hebr.</title>, part. II, cap. 9.</bibl>
+               </note>, e dal Witsio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Witsius</author>, <title lang="lat">Aegyptiac.</title>, lib. III, cap. 9.</bibl>
+               </note>. Jurieu<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Jurieu</author>, <title lang="fre">Hist. des dogmes</title>.</bibl>
+               </note> ed Ugone Grozio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Grotius</author>, <title lang="lat">De verit. Relig. Christ.</title>, lib. I, cap. 16.</bibl>
+               </note> con Hebenstreit, Ernest, e Cherubino da S. Giuseppe tengono per fermo, che nell'Oriente l'uso delle settimane ebbe principio col Mondo, e fu un residuo di memoria della Creazione. Apparisce dagli autori che hanno fatte delle ricerche su tal materia, aver fatto uso delle settimane gli Ebrei, gli Assiri, gli Arabi, gli Indiani, e tutte le Nazioni dell'Oriente<note resp="aut" place="foot">
+                  <bibl>V. <author>Scaligerum</author>, <title lang="lat">De Emendat. temporum</title>
+                  </bibl>. <bibl>
+                     <author>Selden</author>, <title lang="lat">de iure Natur. et Gent. iuxta disciplin</title>
+                  </bibl>. <bibl lang="fre">Hebr. Mémoires de l'Académ. des Inscriptions, et Belles Lettres</bibl>. <bibl>
+                     <author>Goguet</author>, <title lang="fre">de l'Orig. des Loix, des Arts, et des Sciences</title>, part. I, lib. 3, chap. 2, artic. 2.</bibl>
+               </note>. Sulla religiosa osservanza del giorno settimo, e del numero settenario, veggansi il Marsham<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Marsham</author>, <title>Can. Chron.</title>
+                  </bibl>
+               </note>, Luigi Celio Rodigino, il Grevio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Graevius</author>, <title lang="lat">ad Lucian. Pseudologist.</title>
+                  </bibl>
+               </note>, il Meursio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Meursius</author>, <title lang="lat">Graec. Feriat.</title>, lib. III.</bibl>
+               </note>, il Jablonski<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Jablonski</author>, <title lang="lat">Panth. Aegypt</title>., Prolegom. et lib. II, cap. 7.</bibl>
+               </note>, Luigi Cappel nel Trattato del Sabato, Giacomo Syrbio nella Dissertazione sul Sabato dei Gentili, Gio. Cristoforo Wolfio ne' Commentarii a Teofilo Antiocheno, Enrico Ernstio nel Libro sugli Studii non convenevoli ai dì festivi, Teofilo Spizelio nell'Opera sugli Israeliti Americani, ed Ezechiele Spanheim nei Commentarii a Callimaco. Sul settimo giorno sacro ad Apolline leggansi Esiodo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Hesiodus</author>, in <title lang="lat">Operibus, et diebus</title>.</bibl>
+               </note>, Proclo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Proclus</author>, <foreign lang="lat">ad Hesiodi Opera, et Dies, et in Platon. Timaeum.</foreign>
+                  </bibl>
+               </note>, Plutarco<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plutarchus</author>, <title lang="lat">Symposiac.</title> quaest., lib. 8, quaest. I.</bibl>
+               </note>, Suida, ed Eustazio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eustathius</author>, <title lang="lat">ad Homeri Odyss.</title>, lib. 23.</bibl>
+               </note>. Ma egli è ormai tempo di parlare degli Astronomi, che fiorirono nei primi secoli del Mondo, e che contribuirono colle loro ricerche ai progressi della scienza degli Astri.</p>
+            <p>Giuseppe Ebreo nelle Antichità Giudaiche dice, che l'Astronomia cominciò in Adamo, e fece dei grandi progressi al tempo di Set, e dei suoi figli, i quali avendo inteso da Adamo che il Mondo perirebbe sì per acqua, che per fuoco registrarono le loro osservazioni sopra due Colonne, di mattoni l'una perchè resistesse al fuoco, di marmo l'altra, onde potesse reggere all'acqua. Avvi chi narra, che Cainan scrisse sulla Astronomia avendo rinvenuti i nomi degli Astri esposti su di una tavola di pietra da Set, e dai suoi pastori<note resp="aut" place="foot">
+                  <bibl>V. <author>Glycam</author>, <title lang="lat">Annalium</title>, part. I, et Ioelem, Chronograph. compendiar.</bibl>
+               </note>. Della scienza Celeste attribuita a Set, oltre il citato Giuseppe parlarono Teodoreto<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Theodoretus</author>, in <title lang="lat">Genesim.</title>
+                  </bibl>
+               </note> Abulfaragio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Abulpharagius</author>, <title lang="lat">Histor. Dynast.</title>
+                  </bibl>
+               </note> Giovanni Malala<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Malala</author>, in <title lang="lat">Excerpt. Chronolog.</title>
+                  </bibl>
+               </note> Costantino Manasse<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Manasses</author>, in <title lang="lat">Annalibus</title>.</bibl>
+               </note> Michele Glica<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Glyca</author>, in <title lang="lat">Annalibus</title>, part. II.</bibl>
+               </note> Cedreno<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cedrenus</author>, <title lang="lat">Histor. compend.</title>
+                  </bibl>
+               </note> Zonara<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Zonaras</author>, <title lang="lat">Annal.</title>, lib. I, cap. 3.</bibl>
+               </note> Gioele<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Joel</author>, in <title lang="lat">Chronograph. compendiar.</title>
+                  </bibl>
+               </note> e Suida<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Suidas</author>, in <title>Lex. Art.</title>
+                     <foreign lang="grc">ΣΗΘ</foreign>.</bibl>
+               </note>. Parla il Lambecio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Lambecius</author>, <title lang="lat">Commentar. de Biblioth. Vindobon.</title> lib. 7.</bibl>
+               </note> di un Manoscritto Greco della Biblioteca Cesarea di Vienna intitolato «Astronomia indicata dall'Angelo al Patriarca Set<note resp="aut" place="foot">
+                  <bibl>V. <author>Fabricium</author>, <title>Cod. Pseudepigr. veter. Testamen.</title>
+                  </bibl>
+               </note>». Che le Colonne di Set realmente abbiano esistito crederonlo Cedreno<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cedrenus</author>, <title lang="lat">Hist. Compend.</title>
+                  </bibl>
+               </note>, il grande Ticone Brahe, Freculfo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Freculfus</author>, <title>Chron.</title>, lib. I, cap. 12.</bibl>
+               </note> Niceforo nelle Egloghe inedite citato dal Bernardi<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Nicephorus</author>, in <title>Eclog. ap.</title>, Bernardi, in Not. ad Flav. Ioseph.</bibl>
+               </note> il Tacquet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Tacquet</author>, <title lang="lat">Histor. Narrat. de ortu et progressu Matheseos</title>.</bibl>
+               </note> e almeno dubbiosamente il Kortholt<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Kortholt</author>, <title lang="lat">Tract. de Orig. et progres. Philos.</title>
+                  </bibl>
+               </note>. Sembra ancora, che il chiarissimo Istorico M. Rollin<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Rollin</author>, <title lang="lat">Hist. Ancienne</title>, liv. XXVII, chap. 2, de l'Astronomie.</bibl>
+               </note> favorisca questa opinione. La contraria sentenza è tenuta dallo Strauchio dal Boecler<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Boecler</author>, <title>Dissert. Acad.</title>
+                  </bibl>
+               </note> dal Bangio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Bangius</author>, <title>Cael. Orient.</title>, exerc. I. quaest. 3.</bibl>
+               </note> dal le Moyne<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Le Moyne</author>, <title>Var. Sacr.</title>
+                  </bibl>
+               </note> da Isacco Jaquelot<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Jaquelot</author>, <title lang="fre">Dissert. sur l'existen. de Dieu.</title>
+                  </bibl>
+               </note>, e dal Simon<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Simon</author>, <title>Bibl. Crit.</title>
+                  </bibl>
+               </note>, il quale avvisa che di tal favola, come egli la crede, non sia stato primo autore Giuseppe ma bensì gli Ebrei Ellenisti di Egitto, i quali volendo fare intendere, che la invenzione delle discipline non agli Egiziani, ma ai loro maggiori era dovuta, e producendo gli Egizi molte Colonne coperte di Caratteri ne vollero ancor essi mostrare di più antiche. Lo Scaligero e il Dodwell<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Dodwell</author>, <title lang="lat">Append. ad Dissertation. Cyprianicas.</title>
+                  </bibl>
+               </note> pensano che se genuino è il luogo di Giuseppe, questi prendesse per monumenti di Set figlio di Adamo i pilastri di Egitto innalzati dal Re Seth, o Soth, detto altramente Tisone, dei quali è fatta parola da Manetone, da Plutarco<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plutarchus</author>, <title lang="lat">De Iside, et Osiride</title>.</bibl>
+               </note> e da Giulio Affricano. L'Huet è di opinione che tali Colonne esistessero, e fossero confuse dagli Antichi con quelle di Mercurio. E dicendosi presso Manetone, che le Colonne di Mercurio erano nella Seriade, ne desume egli argomento di stabilirle nella Siria. Il nome di detto Paese leggesi variamente. <foreign lang="grc">Συριαδ</foreign> Siriad, a cagione di esempio, <foreign lang="grc">Συριδα</foreign> Siride, come presso Glica, Cedreno ed altri, <foreign lang="grc">Σοριαδα</foreign> Soriade, come presso Eustazio. Il Perizon, lo Scaligero, il Simon riguardarono le parole di terra Seriadica, come assolutamente inintelligibili, il Bonfrerio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Bonfrerius</author>, <title>Onomast. Artic. SEIR.</title>
+                  </bibl>
+               </note> il Vossio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Vossius</author>, <title lang="lat">De Septuaginta Interpret. et de aetate Mundi</title>.</bibl>
+               </note> e il Marsham<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Marsham</author>, <title lang="lat">Can. Chron.</title>
+                  </bibl>
+               </note> credono essere questa terra quella Seirath, di cui parlasi nel libro dei Giudici<note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Iudicum</title>, cap. 3, vers. 26.</bibl>
+               </note> e pensano, che i Pesilim quivi nominati nel Testo Ebraico fossero le rovine della Colonna di Set, ciò, che è contrario alla Volgata, e ai Settanta, secondo i quali la voce Pesilim vale Idoli. Il Selden<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Selden</author>, <title lang="lat">De diis Syris</title>, synt. I, cap. 4.</bibl>
+               </note> il Dodwell<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Dodwell</author>, in <title lang="lat">Append. ad Dissert. Cyprian.</title>, par. 13.</bibl>
+               </note> lo Stillingfeet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Stillingfeet</author>, <title>Orig. Sacr.</title>
+                  </bibl>
+               </note> e i Letterati Inglesi autori della Storia Universale portano opinione che la Seriade abbia a ricercarsi nell'Egitto, ed il Fourmont la trova di fatto nella Provincia di Seir paese di Egitto. L'autore delle Note al Saggio del Warburton sopra i Geroglifici Egiziani osserva, che gli Egizi davano alla Canicola il nome di Nilo. Il qual fiume è chiamato nella Scrittura Scheir, o Sihor, o Sir, e da Plutarco<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plutarchus</author>, <title lang="lat">De Iside, et Osiride</title>.</bibl>
+               </note> Plinio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Plinius</author>, <title lang="lat">Hist. Nat.</title>, lib. V, cap. 9.</bibl>
+               </note> e Dionigi Periegete<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Dionysius Periegetes</author>, <title lang="lat">de Orbis situ</title>.</bibl>
+               </note> Siris, d'onde stimasi derivato il nome Syrius dato alla Canicola, il levarsi della quale ha cotanta relazione con il crescer del Nilo. Credesi pertanto verosimile, che gli Antichi chiamassero l'Egitto col nome di terra Seriadica, o terra Seriad, vale a dire terra, per cui scorre il fiume Siris, ossia il Nilo. Passa poi il citato autore delle Note saprammentovate a provare, che Manetone, ove parla di un Diluvio, non intende contrassegnare il Diluvio Universale, ma una qualche straordinaria inondazione del Nilo. Egli sospetta ancora, che Giuseppe in tutta la sua narrazione abbia seguito una tradizione degli Arabi riferita da Abulfaragio, la quale è che gli antichi Greci credeano esser Enoc chiamato Edris dagli Arabi lo stesso, che il più antico Ermes, il quale temendo, che le scienze e le arti non venissero a perdersi, fe' costruire delle piramidi, e scolpire su di esse le diverse classi di dottrina speculativa e meccanica, con gli strumenti necessarii, perchè ne pervenisse la cognizione alla posterità. Dai Sabi di Egitto fu addottata la opinione, che Enoc facesse innalzare delle Piramidi, e per loro sentimento riferisce il Greaves, che quelle piramidi sono le tombe di Set, e di Enoc, e Sabi suoi figliuoli riguardati da loro come autori della Religione. Aggiunge il Greaves, che i Sabi a quelle tombe offerivano incensi, e sacrificavano un Gallo, ed un Vitello nero. L'Herbelot<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Herbelot</author>, <title>Biblioth. Orient.</title>
+                  </bibl>
+               </note> eziandio fa menzione del grande rispetto, in cui i Sabi tenevano le piramidi di Egitto, perchè da loro credevasi, che Sabi figlio di Edris ossia Enoc, fosse sepolto nella terza di esse. Ma facendo ritorno alla Terra Seriadica, s'indussero il Cudworth<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cudworth</author>, in <title lang="eng">System. intellect.</title>
+                  </bibl>
+               </note> e M. di Valois<note resp="aut" place="foot">
+                  <bibl>
+                     <author>De Valois</author>, <title lang="lat">ad Ammian. Marcellin. Hist.</title>, lib. XXII, cap. 15.</bibl>
+               </note> a sospettare, che in luogo di <foreign lang="grc">ἐν τῇ Σηριαδικῇ γῇ</foreign> «nella terra Seriadica» nel testo di Manetone originalmente si leggesse <foreign lang="grc">ἐν τῇ Συριγγικῇ γῇ</foreign> «nella Terra Siringica, o delle Siringi», conghiettura, che ha poca apparenza di verità secondo il Fabricio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Fabricius</author>, <title lang="lat">Biblioth. Graec.</title>, lib. I, cap. II, par. 1.</bibl>
+               </note>. Da Ammiano Marcellino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Ammianus Marcellinus</author>, <title lang="lat">Hist.</title>, lib. XXII, cap. 15.</bibl>
+               </note> apprendiamo che cosa debba intendersi per le Siringi degli Egiziani. Parlarono ancora delle Siringi Pausania, Callistrato, Eliano<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Aelianus</author>, <title lang="lat">Hist. animal.</title>, lib. VI, cap. 43.</bibl>
+               </note> Eliodoro<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Heliodorus</author>, <title lang="lat">Hist. Aethiop.</title>, lib. 2.</bibl>
+               </note> e Sinesio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Synesius</author>, <title lang="lat">Epist. 104</title>.</bibl>
+               </note>. Conchiudesi, che la terra Siringica è l'Egitto, e che Giuseppe dal Testo alterato di Manetone trasse ciò che scrisse delle Colonne di Set. Avvi chi pensa, che il fiume Sere ed il Paese Seriaco debbano stabilirsi in Etiopia. Io lascierò ai Lettori il pronunziar giudizio sopra tante questioni originate dalle parole di Giuseppe, le quali però se vogliamo prestar fede al Maffei<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Maffei</author>, <title>Osservaz. Letterar.</title>
+                  </bibl>
+               </note>, non sono da considerarsi che come apocrife, e seguirò il sentiero della mia Dissertazione.</p>
+            <p>Non so quanto fondata sia l'opinione di coloro, che fanno il Patriarca Matusalem osservatore delle Stelle. Vuole il citato Giuseppe, che Abramo insegnasse agli Egiziani l'Astronomia. Della scienza Astronomica che a lui si attribuisce parlarono pure Filone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Philo</author>, <title lang="lat">De Abr. et de praemiis et poenis</title>.</bibl>
+               </note> Sincello<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Syncellus</author>, in <title lang="lat">Chronograph.</title>
+                  </bibl>
+               </note> il Pseudo-Clemente<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Pseudo-Clemens</author>, <title>Recognit.</title>, lib. I.</bibl>
+               </note> Eustazio Antiocheno<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eustathius Antiochenus</author>, in <title lang="lat">Hexaem.</title>
+                  </bibl>
+               </note> Cassiodoro, Cesario, Eupolemo presso Alessandro Poliistore citato da Eusebio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eupolemus</author>, ap. Alexand. Polyhistor. in Euseb. Praep. Ev. lib. 9, cap. 17.</bibl>
+               </note>, Teodoro Meliteniota<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Theodorus Meliteniota</author>, in <title lang="lat">Prooem. Astronom.</title>
+                  </bibl>
+               </note>, Cedreno<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cedrenus</author>, <title lang="lat">Hist. Compend.</title>
+                  </bibl>
+               </note> e Zonara<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Zonaras</author>, <title lang="lat">Annal.</title>, lib. I. cap. 6.</bibl>
+               </note>. Tra gli antichi Astronomi vengono pure annoverati Noè<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Pseudo-Berosus</author>, <title lang="lat">de Antiquitat. Ital. et totius Orbis</title>, lib. III.</bibl>
+               </note> Nauplio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Theo. Alexandrinus</author>, <title lang="lat">ad Arati Phaenom.</title>
+                  </bibl>
+                  <bibl>V. <author>Annium</author>, <title lang="lat">Commentar. in Beros</title>, l. c., lib. I.</bibl>
+               </note> Andubario<note resp="aut" place="foot">
+                  <bibl>V. <author>Cedrenum</author>, <title lang="lat">Hist. Compend.</title>, et <title lang="lat">Chronicon Paschal.</title>
+                  </bibl>
+               </note> Esculapio, Elio, Giapeto, Espero, Saturno, Titano, Cefeo, Atreo<note resp="aut" place="foot">
+                  <bibl>V. <author>Lucianum</author>, <title lang="lat">de Astrolog. Hyginum</title>, Fab. 208</bibl>. <bibl>
+                     <author>Servium</author>, <title lang="lat">ad Aeneid. Philoponum</title>, in Aristot. Meteorolog., lib. I.</bibl>
+               </note> Sasiche Iperione<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Diodorus Siculus</author>, <title lang="lat">Biblioth. Hist.</title>, lib. V cap. 15.</bibl>
+               </note> Endimione<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Alexander Aphrodisiensis</author>, <title>Problem.</title>, lib. I. Plinius, Hist. Nat., lib. II, cap. 9</bibl>. <bibl>
+                     <author>Cedrenus</author>, <title lang="lat">Historiarum compend.</title>
+                  </bibl>
+               </note> Ostane, ovvero Otane come leggesi presso Erodoto, e Teodoro Meliteniota<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Theodorus Meliteniota</author> in <title lang="lat">Prooem. Astronom.</title>
+                  </bibl>
+                  <bibl>V. <author>Suidam</author> in <title lang="lat">Lex. Artic.</title>
+                     <foreign lang="grc">ΑΣΤΡΟΝΟΜΙΑ</foreign>.</bibl>
+               </note> Astreo<note resp="aut" place="foot">
+                  <bibl>V. <author>Achillem Tatium</author>, <title lang="lat">Isagoge ad Aratum</title>, cap. I. Aratum, Phaenomen. ver. 498</bibl>. <bibl>
+                     <author>Antonium Diogenem</author> in <title lang="lat">Incredibil. de Thule Insula</title> ap. Photium in Biblioth. Cod. 166.</bibl>
+               </note> Prometeo<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Aeschylus</author>, in <title lang="lat">Prometh. vincto</title>, vers. 456 et seq.</bibl>
+               </note> Atti Rodio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Diodorus Siculus</author>, <title lang="lat">Biblioth. Hist.</title>, lib. V.</bibl>
+               </note> Sem<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Sgambat</author>, <title>Archiv. vet. Testam.</title>, lib. I</bibl>. <bibl>V. <author>Calmet</author>, <title lang="fre">Dict. de la Bible</title>, Artic. Sem.</bibl>
+               </note> Semiramide, Ippes figlia di Chirone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>S. Cyrillus Alexand.</author>
+                     <title lang="lat">Contra Iulian.</title>, lib. IV.</bibl>
+               </note> Fauno, Oe, ovvero Oanne mostro semiuomo veduto, come spacciasi, nel Mar Rosso<note resp="aut" place="foot">
+                  <bibl>V. <author>Helladium</author>, <title>Desantin. Chrestomath.</title> ap. Phot. Biblioth. Cod. 279.</bibl>
+               </note>, ed altri. Avvi ancora chi pensa, che tra gli antichi illustratori della Scienza degli Astri possano contarsi Frisso, Dedalo, Icaro, Fetonte, Tieste, e Bellerofonte<note resp="aut" place="foot">
+                  <bibl>V. <author>Lucianum</author>, <title lang="lat">de Astrologia</title>.</bibl>
+               </note>. Checchè sia di queste opinioni, un Uomo, della cui scienza Astronomica sembra abbiasi fondata notizia è Mosè, il quale essendo instruito «omni sapientia Aegyptiorum», a dire di S. Stefano negli Atti degli Apostoli<note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Actus Apostolorum</title>, cap. 7, vers. 22.</bibl>
+               </note> pare dovesse esserlo ancora nell'Astronomia, a cui quasi sempre attesero gli Egiziani, sebbene dica S. Giustino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>S. Iustinus</author>, <title lang="lat">Responsionibus ad Orthodoxos. Respons. ad quaestion.</title> XXV.</bibl>
+               </note> non essere stato Mosè istruito nell'Astronomia, perchè tal disciplina aveasi nell'Egitto a quel tempo in basso conto. Filone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Philo</author>, in <title lang="lat">Vita Mosis.</title>
+                  </bibl>
+               </note> narra avere Mosè appresa l'Astronomia dai Caldei. Marsham parla di due Mercurii, l'uno soprannomato Toth, che consideravasi come l'inventore dell'Astronomia, e l'altro chiamato Trismegisto, che vivea poco dopo Mosè. Conosciuto è ancora Mercurio sotto il nome di Ermete. Venne ad esso lui attribuita l'invenzione dell'Astronomia, e della Astrologia. Vedesi presso Platone, Diodoro Siculo, Firmico e Manilio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Manilius</author>, <title lang="lat">Astronomic.</title>, lib. I, vers. 33 et seq.</bibl>
+               </note>, che così canta:
+<quote rend="block">
+                  <lg lang="lat">
+                     <l>Tu princeps, auctorque sacri, Cyllenie, tanti,</l>
+                     <l>Per te iam Coelum in terris iam sidera nota.</l>
+                  </lg>
+               </quote>
+            </p>
+            <p>Strabone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Strabo</author>, <title>Geograph.</title>, lib. XVII.</bibl>
+               </note> parlato avendo dell'Anno, e delle Osservazioni Astronomiche, dice <quote>
+                  <foreign lang="grc">ἀνατι?έασι δὲ τῷ Ἑρμῇ πᾶσαν τὴν σοφίαν</foreign>
+               </quote> «ascrivono ad Ermete tutta cotesta sapienza». Veggansi Clemente Alessandrino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Clemens Alexandrinus</author>, <title>Stromat.</title>, lib. 6.</bibl>
+               </note> S. Cirillo Alessandrino<note resp="aut" place="foot">
+                  <bibl>
+                     <author>S. Cyrillus Alexandrinus</author>, <title lang="lat">Contra Iulian.</title>, lib. I.</bibl>
+               </note> il Kircher<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Kircher</author>, <title lang="lat">Oedip. Aegypt.</title>
+                  </bibl>
+               </note> e il Fabricio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Fabricius</author>, <title lang="lat">Biblioth. Graec.</title>, lib. I, cap. 12, par. 9.</bibl>
+               </note>. Vogliono alcuni, che un certo Zoroastro che vivea cinquecento anni avanti la guerra di Troia, fosse un grande Astronomo, e Suida parla ancora di un altro Zoroastro Astronomo egli pure vissuto al tempo di Nino Re degli Assiri. Riferisce il Laerzio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Diogenes Laert.</author>
+                     <title lang="lat">de Vit. dogm. apophtheg. Philos.</title> in Prooem.</bibl>
+               </note>, che Lino figlio di Urania e di Mercurio scrisse sopra il corso del Sole, e della Luna. Si stima che Astronomo fosse ancor Belo<note resp="aut" place="foot">
+                  <bibl>V. <author>Plinium</author>, <title lang="lat">Hist. Nat.</title>, lib. VI. cap. 26. Solinum, Polyhist. Achillem Tatium, Isag. ad Arat.</bibl>
+               </note> creduto dal Bochart lo stesso che Nemrod, il quale pretendesi che comunicasse ai Caldei l'anno di 365 giorni. Spacciano gli Orientali, che egli trasse il modello della Corona Reale, di cui ornossi il capo, da una simigliante figura osservata da lui nel Firmamento, dal che trassero i suoi partigiani occasione di dire che simil Corona eragli venuta in dono dal Cielo<note resp="aut" place="foot">
+                  <bibl>V. <author>Eutychium</author>, in <title lang="lat">Annal.</title>
+                  </bibl>
+               </note>. Parlasi ancora di Urano re degli Atlanti nell'Affrica, il quale riunì nelle Città i suoi sudditi sparsi per le Campagne; dirozzò i loro barbari costumi ed avendo con gran cura osservato il corso delle Stelle, misurò gli Anni, le Stagioni ed i mesi. I popoli attoniti nel vedere esattamente avverarsi le sue predizioni, lo crederono un Nume, e gli attribuirono onori Divini. In un frammento di Diodoro conservato da Eusebio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Diodorus Siculus</author>, ap. <title lang="lat">Euseb. Praep. Evang.</title>, lib. II, cap. 2.</bibl>
+               </note> si dice, che nell'Isola Pancaia all'Oriente dell'Affrica vedeasi registrato su d'una Colonna di Oro, che Urano era stato un uomo versatissimo nell'Astronomia. Il medesimo Istorico narra avervi nella stessa Isola una Montagna, sulla quale Urano compiaceasi di portarsi ad osservare il Cielo, e gli Astri. Atlante suo figlio re della Mauritania inventò la Sfera, secondo la opinione di alcuni<note resp="aut" place="foot">
+                  <bibl>Idem, Biblioth. Histor., lib. III</bibl>. <bibl>
+                     <author>Plinius</author>, <title lang="lat">Hist. Naturalis</title>, lib. II, cap. 8.</bibl>
+               </note>. Per la sua perizia nell'Astronomia fu creduto, che egli portasse sugli omeri il peso dell'Universo, secondo afferma Cicerone<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cicero</author>, in <title lang="lat">Tusculan. Quaest.</title>
+                  </bibl>
+                  <bibl>V. <author>Diodorum Siculum</author>, <title lang="lat">Biblioth. Hist.</title> lib. IV.</bibl>
+                  <bibl>
+                     <author>Sidonium Apollinarem</author>, in <title lang="lat">Panegyr., Aviti</title>, vers. 4</bibl>. <bibl>
+                     <author>Euripidem</author>, in <title lang="lat">Ione</title>
+                  </bibl>. <bibl>
+                     <author>Pisidem</author>, <title lang="lat">Hexaemer.</title>, vers. 116 et seq.</bibl>
+                  <bibl>
+                     <author>Cedrenum</author>, <title lang="lat">Hist. compend.</title>
+                  </bibl>
+               </note>. Questa Favola però, a dire di Aristotele, di Strabone e di Erodoto, derivò dall'altezza del Monte della Libia chiamato Atlante il quale essendo d'ordinario sulla sommità coperto di nubi fe' dire che esso sosteneva il Cielo. L'invenzione della Sfera attribuita da alcuni, come dissi, ad Atlante, venne ancora attribuita ad Ercole. Di Museo dice il Laerzio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Diogenes Laertius</author>, <title lang="lat">De vitis dogmat. Apophthegmat. Philosophorum</title> in Prooem.</bibl>
+               </note>
+               <quote>
+                  <foreign lang="grc">φασὶ πρῶτον ποιῆσαι ?εογονίαν καὶ σφαῖραν</foreign>
+               </quote>. La parola <foreign lang="grc">ποιῆσαι</foreign> è diversamente spiegata dagli Interpreti. Ambrogio Camaldolese seguìto dal Carli<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Carli</author>, <title>Della spedizione degli Argonauti</title>, lib. II. artic. 15.</bibl>
+               </note> spiega «invenisse». Il Meursio allegando una volta<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Meursius</author>, <title lang="lat">Piraei</title>, cap. 10.</bibl>
+               </note> questo passo di Laerzio addotta simigliante interpretazione non citandolo però ad oggetto di esaminare un tal punto. Marco Meibomio emendando la versione di Ambrogio Camaldolese alla parola «<foreign lang="lat">invenisse</foreign>» sostituì «<foreign lang="lat">carmine scripsisse</foreign>» ed il Menagio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Menagius</author>, <title lang="lat">Observ. et Emend. in Diog. Laert.</title>, l. c.</bibl>
+               </note> eziandio prese la parola <foreign lang="grc">ποιῆσαι</foreign> in significato di «<foreign lang="lat">scripsisse</foreign>». Il Meursio similmente nella Biblioteca Attica<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Meursius</author>, <title lang="lat">Biblioth. Attic.</title>, lib. IV.</bibl>
+               </note> annoverò la Sfera tra gli Scritti di Museo. Quindi secondo la interpretazione dei primi narrasi dal Laerzio, come alcuni asserivano avere Museo rinvenuta la Sfera, secondo quella degli altri narra il medesimo riferirsi da alcuni come Museo scrisse sopra la Sfera. A più sicuro partito si appigliò l'Aldobrandini, il quale interpretò non «<foreign lang="lat">invenisse</foreign>» nè «<foreign lang="lat">scripsisse</foreign>» ma «<foreign lang="lat">fecisse</foreign>» lasciando così al Lettore la facoltà di dare a questa parola quel senso, che più gli aggrada. Il Fabricio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Fabricius</author>, <title lang="lat">Biblioth. Graec.</title>, lib. I, cap. 16, par. 4.</bibl>
+               </note> lascia indeciso quale interpretazione merita la preferenza. In un ridicolo errore cade il grande Isacco Newton<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Newton</author>, <title lang="eng">The Chronology of ancient Kingdoms amended.</title>
+                  </bibl>
+               </note> il quale riflettendo, che Nausicaa Figlia di Alcinoo re di Corcira era tenuta dai Corcirei per l'inventrice della Sfera, pensa, che ella fosse della Sfera debitrice agli Argonauti, i quali essendo di ritorno al loro paese fecero vela a quell'Isola. Egli cita Suida alla voce Anagalli, e questo Autore dice infatti, che Anagalli Gramatica Corcirea attribuiva a Nausicaa l'invenzione «<quote>
+                  <foreign lang="grc">τῆς σφαίρας</foreign>
+               </quote>» della Sfera, e riporta la testimonianza di Ateneo. Scrive quest'ultimo, che sola fra gli altri Eroi Nausicaa è fatta da Omero giuocar colla Sfera<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Athenaeus</author>, <title lang="lat">Deipnosoph.</title> lib. I.</bibl>
+               </note>. Questo Poeta è pertanto il fonte di simil credenza. Ma curiosa è la Metamorfosi, che nella Odissea fa questa Sfera trasformandosi in una palla da giuoco. Nausicaa, mentre asciugansi i panni da lei lavati, giuoca alla palla sulla riva del Mare. Dice Omero<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Homerus</author>, <title lang="lat">Odyss.</title> lib. VI, ver. 115 et seq.</bibl>
+               </note>:
+<quote rend="block">
+                  <l>All'ancella gettò quindi la Sfera</l>
+                  <l>La Regina, ma lungi dall'ancella</l>
+                  <l>Cadde la Sfera entro a un profondo gorgo.</l>
+               </quote>
+            </p>
+            <p>Newton non pensò forse, che la voce <foreign lang="grc">σφαῖρα</foreign> può ancora significar palla, e che i Greci così chiamavano le palle da giuoco. «<foreign lang="grc">σφαῖραν εὐτρόχαλον</foreign>» disse Apollonio di Rodi<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Apollonius Rhodius</author>, <title lang="lat">Argonautic.</title>, lib. III, ver. 135.</bibl>
+               </note> parlando della palla con la quale Giove giuocava nell'antro d'Ida, ed altrove parlando di alcune Fanciulle disse «<quote>
+                  <foreign lang="grc">σφαίρῃ ἀ?ᾣύρουσι</foreign>
+               </quote>» «giuocano alla Sfera» o alla palla. È noto, che il giuoco della palla è stato sin dai tempi più antichi commune a molti popoli, che di quattro sorte di palle faceano uso i Greci e i Romani, e che non isdegnavano di esercitarsi in simil giuoco sì in pubblico che in privato gli stessi Patrizi ancora dei più rispettabili.</p>
+            <p>Ma per ritornare ad Atlante, dice Diodoro di Sicilia, che questo re fece parte ad Ercole delle sue osservazioni Astronomiche in ricompensa del beneficio fattogli da questo Eroe di liberare le sue figlie rapite da' ladri. Ercole insegnò, come dicesi, ai Greci quanto avea appreso da Atlante, e ciò fece che egli fosse considerato come l'inventore dell'Astronomia. Ma secondo il P. Petau, Ercole visse 400 Anni dopo Atlante, il quale vivea 1638 Anni avanti Gesù Cristo. Altri affermano esser egli vissuto al tempo di Noè, cioè 2400 Anni avanti Gesù Cristo. Pensa l'Huet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Huet</author>, <title lang="lat">Demonstr. Evang. propos. IV</title>, cap. 17.</bibl>
+               </note> che Atlante ed Ercole non siano che Simboli rappresentanti Mosè e Giosuè, ed Eumolpo presso Eusebio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Eumolpus</author>, ap. <title lang="lat">Euseb. Praep. Evang.</title>, lib. IV, cap. 17.</bibl>
+               </note> asserisce Atlante non essere che Enoc. Stima il Carli<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Carli</author>, <title>Lettere Americane</title>, part. II, lett. 12.</bibl>
+               </note> che intorno ai tempi di Atlante fossero notate le Pleiadi, e le Iadi riconosciute dagli Antichi per sue Figliuole. Secondo il Sig. Pluche<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Pluche</author>, <title lang="fre">Hist. du Ciel</title>, lib. I, chap. 2, par. 22.</bibl>
+               </note>, Atlante non fu in verun modo una persona reale. Si credè che Lot, il quale nel sistema del chiarissimo Fourmont è lo stesso che Atlante, coltivasse la scienza degli Astri.</p>
+            <p>Molto parlano gli Storici dei progressi, che dicesi aver fatto gli Uomini nell'Astronomia dopo la famosa spedizione degli Argonauti. Essa secondo la testimonianza di Newton, e di Frèret sembra unita allo stabilimento delle Costellazioni nella Grecia. Seneca il Filosofo, che scrivea 65 anni dopo Gesù Cristo, dice<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Seneca</author>, <title>Natural. quaest.</title>, lib. VII. cap. 25.</bibl>
+               </note> che non erano ancora passati 1500 Anni dacchè la Grecia avea contate, e nominate le Stelle; dal che si vede che egli ponea la denominazione delle Stelle 1400 Anni circa avanti l'Era volgare, e verso quel tempo alcuni credono essere avvenuta la Spedizione degli Argonauti, uno dei quali chiamato Linceo era abilissimo nell'osservare gli Astri, e nel discoprire le mine di oro, ed argento, per il che finsero i Poeti, che egli avesse la vista sì acuta, che penetrasse sino all'Inferno. Il famoso Chirone Tessalo, su cui tanto favoleggiarono i Poeti, vivea, come credesi, circa quest'Epoca, ed egli fu, che insegnò il primo agli Uomini la giustizia, il culto degli Dei, e la figura del Cielo secondo l'Autore della Titanomachia citato da Clemente Alessandrino<note resp="aut" place="foot">
+                  <bibl>
+                     <title lang="lat">Titanomachia</title>, ap. <author>Clementem Alexandr.</author>, <title>Strom.</title>, lib. I, cap. 15.</bibl>
+               </note>. Chirone, se prestiamo fede al Newton<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Newton</author>, <title lang="eng">The Chronology of Ancient Kingdoms amended.</title>
+                  </bibl>
+               </note>, formò le Costellazioni Celesti per uso degli Argonauti, e fissò i punti Solstiziali ed Equinoziali al decimo quinto grado, o alla metà delle costellazioni del Cancro, della Libra, del Capricorno, e dell'Ariete. Pensa però il Carli<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Carli</author>, <title>Della Spedizione degli Argonauti</title>, lib. II, artic. 14.</bibl>
+               </note> che Chirone nemmeno sia da annoverarsi fra gli Astronomi, fondato sulla autorità di Vitruvio che nell'enumerare gli Astronomi Greci non fa di lui parola, e Goguet<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Goguet</author>, <title lang="fre">De l'Orig. des loix</title> etc., part. II, liv. 3, chap. 3, art. 2.</bibl>
+               </note> muove sulle cognizioni Astronomiche attribuite a Chirone dei dubbi, i quali non sembrano che troppo fondati. Ad Orfeo venne attribuita un'Astronomia mentovata da Suida<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Suidas</author>, in <title>Lex.</title>, Artic. <foreign lang="grc">ΟΡΦΕΥΣ</foreign>.</bibl>
+               </note> e da Tzetze<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Tzetzes</author>, <title lang="lat">Prolegom. ad Lycophron</title>.</bibl>
+               </note> ed un «<foreign lang="grc">ποιημάτιον</foreign>» intitolato «<foreign lang="grc">Σφαῖρα</foreign>» «Sfera» di cui fu anche creduto oggetto il trattare di Lino. Così Eustazio. Di Omero attestano Crate ed Apione presso Achille Tazio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Crates</author>, et Apion, apud Achillem Tatium. Isagoge ad Aratum, cap. I, in P. Dionysii Petavii Uranolog.</bibl>
+               </note> essere stato perito nella Astronomia. Virgilio<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Vergilius</author>, <title lang="lat">Aeneid.</title>, lib. I. vers. 742 et seqq.</bibl>
+               </note> fa menzione di un certo Iopa che nel convito dato da Didone ad Enea canta più cose appartenenti all'Astronomia.</p>
+            <p>Palamede figlio di Nauplio re di Eubea è secondo molti Scrittori da annoverarsi fra gli antichi Astronomi. Narrasi, che trovandosi i Soldati Greci intimoriti per una Ecclissi del Sole egli tolse loro ogni spavento con ispiegare la cagione di questo fenomeno. Credesi, che egli fosse il primo tra i Greci a regolare l'anno secondo il corso del Sole, e i mesi secondo quello della Luna. Sopra un giuoco Astronomico, che dicesi inventato da Palamede, possono consultarsi Suida<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Suidas</author>, in <title lang="lat">Lex.</title>, artic. TABAA.</bibl>
+               </note> Cedreno<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Cedrenus</author>, <title lang="lat">Hist. compend.</title>
+                  </bibl>
+               </note> e Isacco Porfirogeneta<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Porphirogeneta</author>, <title>Paralipomen. Homeri</title>
+                  </bibl>. <bibl>V. <author>Meursium</author>, <title lang="lat">De lud. Graecor.</title>, Artic. <foreign lang="grc">ΠΕΤΤΕΙΑ</foreign>
+                  </bibl>. Xylandrum. ad Cedren Histor. comp. Goar, ad Cedreni, l. c. <bibl>
+                     <author>Fabricium</author>, <title lang="lat">Biblioth. Graec.</title>, lib. I, cap. 24, par. 3.</bibl>
+               </note>. Sopra la sua Scienza Astronomica veggasi Sofocle<note resp="aut" place="foot">
+                  <bibl>
+                     <author>Sophocles</author>, ap. <author>Achil. Tatium</author>, <title lang="lat">Isag. ad Arat.</title> cap. I in Petav. Uranol.</bibl>
+               </note>.</p>
+            <p>Sino ad ora lo stato dell'Astronomia fu un soggetto di accese dispute, la esistenza degli Astronomi un problema. Qui un raggio di luce rischiara le tenebre dell'antichità, comparisce Talete, e con lui l'Astronomia nella Grecia. Gli Scrittori si affollano intorno a noi per darcene notizia. Non ha l'accorto Critico che a consultare i più diligenti per venire col mezzo di essi in cognizione, talvolta del più verosimile, frequentemente del certo.</p>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

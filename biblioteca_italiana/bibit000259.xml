@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>La rappresentazione della purificazione</title>
+    </titleStmt>
+    <extent>32 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000259</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Nuovo corpus di sacre rappresentazioni fiorentine del Quattrocento edite e inedite tratte da manoscritti coevi o ricontrollate su di essi</title>
+        <editor id="ed">Newbigin, Nerida</editor>
+        <publisher>Commissione per i testi di lingua</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date>1983</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.2 - LETTERATURA DRAMMATICA ITALIANA.1375-1492</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-08-23T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marco Fucini e Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-09-17T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<castList>
+<head>Personaggi</head>
+<castItem><role>Un Angelo</role> <roleDesc rend="italic">che annuncia</roleDesc></castItem>
+<castItem><role>Un secondo Angelo</role> <roleDesc rend="italic">mandato a Simeone</roleDesc></castItem>
+<castItem><role>Un terzo Angelo</role> <roleDesc rend="italic">che chiama i profeti e le sibille</roleDesc></castItem>
+<castItem><role>Anna</role> <roleDesc rend="italic">profetessa</roleDesc></castItem>
+<castItem><roleDesc rend="italic">I profeti</roleDesc>
+<role>Abram</role>
+<role>Isacco</role>
+<role>Giacobbe</role>
+<role>Mosè</role>
+<role>Giosuè</role>
+<role>Giona</role>
+<role>Daniele</role>
+<role>Michea</role>
+<role>Abacuc</role>
+<role>Malachia</role>
+<role>Davide</role>
+<role>Ezechiele</role>
+<role>Geremia</role>
+<role>Isaia</role>
+<role>Osea</role>
+<role>Gioele</role>
+<role>Sofonia</role>
+<role>Aggeo</role>
+<role>Simeone</role>
+<role>San Giovanni Battista</role></castItem>
+<castItem><roleDesc rend="italic">Le sibille</roleDesc>
+<role>Egrippa</role>
+<role>Libica</role>
+<role>Frigia</role>
+</castItem>
+<castItem><role>La Vergine Maria</role></castItem>
+<castItem><role>Giuseppe</role></castItem>
+<castItem><role>Gesù Bambino</role> <roleDesc rend="italic">che non parla</roleDesc></castItem>
+</castList>
+</front>
+<body>
+<div1 n="La Rappresentazione della Purificazione">
+<argument><p rend="sc">QUI COMINCIA LA RAPPRESENTAZIONE DELLA PURIFICAZIONE, CIOÈ QUANDO LA VERGINE MARIA PRESENTÒ GESÙ CRISTO NEL TEMPIO A SIMEONE</p></argument>
+<stage rend="italic">In prima viene uno Angelo ed annunzia quello che s'intende fare dicendo le infrascritte stanze:</stage>
+<sp>
+<lg>
+<l>Dio vi salvi tutti, o frate miei</l>
+<l>e padri per età e per amore,</l>
+<l>e dievi grazia sì com'io vorrei</l>
+<l>che tutti stiate con divoto core</l>
+<l>taciti e riverenti a' detti miei</l>
+<l>ed alla festa nostra, che d'onore</l>
+<l>per certo è degna &lt;e&gt; di gran reverenza;</l>
+<l>e così facci la vostra prudenza.</l>
+</lg>
+<lg>
+<l>E contemplate i misteri santi</l>
+<l>che son negli atti che qui far vedrete,</l>
+<l>elevando le menti tutti quanti;</l>
+<l>e questo ottimamente far potrete</l>
+<l>non risguardando solamente a' canti</l>
+<l>ma alle cose grandi ivi segrete.</l>
+<l>E se volete fare assai onore</l>
+<l>quïeti state senza far romore.</l>
+</lg>
+<lg>
+<l>Vedrete adunque Anna fedelissima</l>
+<l>che di spirto profetico era piena,</l>
+<l>nel tempio orare tanto (oh bonissima!),</l>
+<l>e certo a lei non pareva pena</l>
+<l>e dì e notte stare devotissima,</l>
+<l>aspettando nel tempio la serena</l>
+<l>Madre di Dio, e 'l Figliuol con essa,</l>
+<l>secondo che da Dio &lt;ha&gt; auto promessa.</l>
+</lg>
+<lg>
+<l>Vedrete ancora i padri venerandi,</l>
+<l>patriarchi e profeti tutti quanti,</l>
+<l>che profetando disson cose grandi</l>
+<l>del buon Gesù che ci cavò di pianti.</l>
+<l>O alma bella, come non ne spandi</l>
+<l>te stessa tutta ne' dolci sembianti</l>
+<l>di questo santo e bello avenimento</l>
+<l>che te condusse al divin salvamento?</l>
+</lg>
+<lg>
+<l>Vedrete Simïon che 'I buon Gesue</l>
+<l>nel tempio aspettava con gran disio.</l>
+<l>Risguardando, vedrete in bracce sue</l>
+<l>esso Gesù, dolce Figliuol di Dio,</l>
+<l>e questo acciò che le legge amendue,</l>
+<l>vecchia e nuova, l'adempimento pio</l>
+<l>avessono, secondo ch'era suto</l>
+<l>dagli Santi Profeti preveduto.</l>
+</lg>
+<lg>
+<l>Ma con che lingua o con che sermone</l>
+<l>si potrebbe mai dire l'allegrezza</l>
+<l>che voi vedrete avere a Simione</l>
+<l>quando arà in braccio sua dolcezza?</l>
+<l>O giusto, o santo, o fedel&lt;e&gt; vecchione,</l>
+<l>quanto fu bella quella tua certezza</l>
+<l>avesti di non trapassar del mondo</l>
+<l>se non vedevi lo Dio tuo giocondo!</l>
+</lg>
+<lg>
+<l>Vedrete ancora umile Maria</l>
+<l>ch'al tempio viene con pudica faccia</l>
+<l>portando il suo Figliuolo per la via,</l>
+<l>peso dolcissimo alle caste braccia,</l>
+<l>ed a Giuseppe vecchio in compagnia;</l>
+<l>ed anche lui d'andar molto s'avaccia,</l>
+<l>portando seco dua tortorelle,</l>
+<l>offerta giusta delle poverelle.</l>
+</lg>
+<lg>
+<l>Cinque danari darà il vecchierello,</l>
+<l>&lt;in&gt; segno dell'umana redenzione.</l>
+<l>Cinque fûr le ferite dell'agnello</l>
+<l>donde ne venne nostra salvazione.</l>
+<l>Tu dirai, Simïon, che ha il coltello</l>
+<l>(e nondimen farai esultazione)</l>
+<l>che ferita darà all'alma pia</l>
+<l>della sua Madre Vergine Maria</l>
+<l>O dolce, O bella Madre, che non stai</l>
+<l>di purificazon bisogno alcuno</l>
+<l>perché <foreign lang="lat">ab eterno</foreign> Vergine tu stai,</l>
+<l>lievinsi e peccatori–ed io sia l'uno–</l>
+<l>per lo tuo amor Gesù che dato ci hai,</l>
+<l>da' lor peccati, sì che ciascheduno</l>
+<l>te segua, Madre dolce di cremenza,</l>
+<l>duca d'umiltà e d'ubbidienza.</l>
+</lg>
+</sp>
+<stage rend="italic">Secondo Angelo mandato a nunziare a Simeone la sua vita e morte:</stage>
+<sp>
+<lg>
+<l>Mandato i' son dall'angelica corte</l>
+<l>o Simeon per te annunzïare</l>
+<l>quel che post' è dalla divina sorte;</l>
+<l>cioè, che non vedrai in te gu&lt;a&gt;stare</l>
+<l>nella tua carne la corporal morte,</l>
+<l>ché prima vedrai chi ha ricomprare</l>
+<l>il popol d'Israel che vede Iddio.</l>
+<l>Adunque ti rallegra, o padre pio.</l>
+</lg>
+</sp>
+<stage rend="italic">Un altro Angelo sì va e dice queste due stanze che vengono, e dette che l'ha, sì  chiama i Profeti a uno a uno e sì dice a ogni profeta quattro versi e 'l Profeta sì risponde e dice una stanza come è ordinato qui di sotto; e poi dette che l'ha il Profeta, sì va all'altare dov'è Simione e quivi si posa e stavvi tanto che vengono tutti quanti:</stage>
+<sp>
+<lg>
+<l>Angelo son, mandato dal superno</l>
+<l>Padre celestïal di caritade</l>
+<l>ched i profeti infiammò <foreign lang="lat">ab eterno</foreign></l>
+<l>a proveder la divina pietade,</l>
+<l>come decise l'amor sempiterno</l>
+<l>mandare il suo Figliuol, ch'è veritade,</l>
+<l>per l'uomo dello inferno liberare</l>
+<l>ch'era dannato pel prevaricare.</l>
+</lg>
+<lg>
+<l>Da re adunque chiamati saranno</l>
+<l>e li ripieni di Spirito Santo</l>
+<l>qui nel mezzo di voi profeteranno,</l>
+<l>e ciaschedun col suo soave canto</l>
+<l>l'avvento del Messia sprimenteranno,</l>
+<l>e voi tutti tacete in quel tanto,</l>
+<l>stando a sedere, attenti ad ascoltare.</l>
+<l>Nel nome di Dio comincio a chiamare.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo chiama Anna profetessa:</stage>
+<sp>
+<lg>
+<l>Anna, la fede tua e divozioni</l>
+<l>fatto t'ha aspettare il Salvatore.</l>
+<l>Sta sù, ché hai nel core</l>
+<l>un vaso pien di benedizïoni.</l>
+</lg>
+</sp>
+<stage rend="italic">Anna risponde e profetizza:</stage>
+<sp>
+<lg>
+<l>Io in questo tempio per istare</l>
+<l>tanto che ci verrà il Salvatore</l>
+<l>del mondo, e questo non potra mancare,</l>
+<l>che verrà qui con grandissimo amore.</l>
+<l>Continuamente qui mi vo' fermare</l>
+<l>e adorarlo con tutto il mio core.</l>
+<l>Mai non mi partirò s'i' nollo veggio</l>
+<l>il Figliuol d'Iddio il quale i' chieggio.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Abram patriarca:</stage>
+<sp>
+<lg>
+<l>O nobil patrïarca obedientissimo,</l>
+<l>la credenza del qual giustizia fue,</l>
+<l>0 Abraam, sta sue</l>
+<l>e di' che senti di Dio benignissimo.</l>
+</lg>
+</sp>
+<stage rend="italic">Abram risponde:</stage>
+<sp>
+<lg>
+<l>O Salvatore, o Redentore di tutti</l>
+<l>quelli che vivon nelli cori umani,</l>
+<l>o ver consolator de' nostri lutti,</l>
+<l>deh, vienci a liberar dell'impie mani</l>
+<l>degl'inimici nostri tanto brutti,</l>
+<l>e non patir che più stïam profani.</l>
+<l>Fa che nel tempo di nostra milizia</l>
+<l>serviàno in santità ed in giustizia.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Isac:</stage>
+<sp>
+<lg>
+<l>O Isacche, o di Gesù figura,</l>
+<l>isciogli oramai gli spirti tuoi,</l>
+<l>e di', come tu suoi,</l>
+<l>la umiltà di divina natura.</l>
+</lg>
+</sp>
+<stage rend="italic">Isac risponde all'Angelo:</stage>
+<sp>
+<lg>
+<l>O principio divino, o conditore</l>
+<l>d'ogni terrestre e celestiale mente,</l>
+<l>o sapïente, buon disponitore</l>
+<l>o dell'universo, e sanza qual nïente</l>
+<l>sentii mai avere alcun valore,</l>
+<l>ed <foreign lang="lat">ab eterno</foreign> tutto fu presente</l>
+<l>in te: ciascuna cosa e le suo sorte.</l>
+<l>Oh, vieni e tracci dall'ombrosa morte!</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Jacob:</stage>
+<sp>
+<lg>
+<l>Vieni, o buon Jacob, che soppiantasti</l>
+<l>con divino consiglio el tuo fratello,</l>
+<l>canta del Figlio bello</l>
+<l>di Dio, come <foreign lang="lat">ab eterno</foreign> profetasti.</l>
+</lg>
+</sp>
+<stage rend="italic">Jacob risponde:</stage>
+<sp>
+<lg>
+<l>O sol nascente sanza fine, lume</l>
+<l>che col tuo razzo ogni cosa avvampi,</l>
+<l>e divampando tenebre consume</l>
+<l>e rifrigerio dài colle tue lampi</l>
+<l>per l'universo e questo gran vilume,</l>
+<l>per tuo piatà da tenebre ci scampi,</l>
+<l>fa che le tenebre sien consumate</l>
+<l>e del tuo sprender santo illuminate.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Moises:</stage>
+<sp>
+<lg>
+<l>O conditor di legge, o duca pio,</l>
+<l>o Moyses in cui fuoco splendette,</l>
+<l>deh, di' le benedette</l>
+<l>parole che tu sai del tuo Iddio.</l>
+</lg>
+</sp>
+<stage rend="italic">Moyses risponde:</stage>
+<sp>
+<lg>
+<l>O chiave di David, la qual ben serra</l>
+<l>quel che niun altro aprir potre' giammai,</l>
+<l>e quel che apri tu, nullo riserra,</l>
+<l>miseri siamo, in loco dove guai</l>
+<l>ciaschedun sente, e dove ci afferra</l>
+<l>l'ombra di morte, sì come tu sai.</l>
+<l>O vieni e tira sù noi angosciosi</l>
+<l>di questa miser carcer tenebrosi.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Josuè:</stage>
+<sp>
+<lg>
+<l>O forte capitan, pien di vittoria,</l>
+<l>o Giosuè, ch'ancora tu potasti</l>
+<l>spirito e inebriasti,</l>
+<l>vienne cantando la divina storia.</l>
+</lg>
+</sp>
+<stage rend="italic">Josuè risponde:</stage>
+<sp>
+<lg>
+<l>O Re de' Re, O Signor de' Signori,</l>
+<l>che cielo e terra reggi sempre solo,</l>
+<l>e che correggi tutti e nostri errori</l>
+<l>stando a sedere nel sublimo polo;</l>
+<l>o melodia degli angelici cori,</l>
+<l>ascolta un poco el nostro amaro duolo,</l>
+<l>e vieni e reggi noi, o Re altissimo,</l>
+<l>col tuo amor ch'è tanto benignissimo.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Jonas prima:</stage>
+<sp>
+<lg>
+<l>O predicante a Ninive dannata,</l>
+<l>che in lei convertisti ogni persona,</l>
+<l>i' dico a te, Gïona,</l>
+<l>canta come la gente fu salvata.</l>
+</lg>
+</sp>
+<stage rend="italic">Jonas risponde:</stage>
+<sp>
+<lg>
+<l>Predicar femmi lo 'mperio divino</l>
+<l>a Ninive smarrita ne' flagizi,</l>
+<l>ma convertita quella dal destino,</l>
+<l>ancor si convertì de' suo' supplizi.</l>
+<l>Tre giorni stetti in quel pesce marino,</l>
+<l>figura d'indulgenza degli vizi,</l>
+<l>ché tanto stette Cristo in sepoltura</l>
+<l>poi trionfò coll'umana natura.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Daniel:</stage>
+<sp>
+<lg>
+<l>Un altro innamorato di pietade</l>
+<l>venga apprender del dolce Figlio bello</l>
+<l>di Dio. Di', Danïello,</l>
+<l>che ti par dell'eterna caritade.</l>
+</lg>
+</sp>
+<stage rend="italic">Daniel risponde:</stage>
+<sp>
+<lg>
+<l>Pon giù, o giudaico popol, la durezza</l>
+<l>e la perfida tua ostinazione,</l>
+<l>allora dico quando l'allegrezza</l>
+<l>verrà, il Santo de' Santi in condizione</l>
+<l>umana, e cesserà ogni vostra altezza,</l>
+<l>e privati sarete d'unzïone</l>
+<l>né più arete re né sacerdoti</l>
+<l>e di profeti rimarrete vôti.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Samuel:</stage>
+<sp>
+<lg>
+<l>O padre Samuele, pien d'amore,</l>
+<l>quel che tu concepisti nel tuo petto,</l>
+<l>sta su e con diletto</l>
+<l>di' del Figliuol di Dio, sommo splendore.</l>
+</lg>
+</sp>
+<stage rend="italic">Samuel risponde:</stage>
+<sp>
+<lg>
+<l>O calor santo della luce eterna,</l>
+<l>o specchio immacolato, o isplendore</l>
+<l>di quella gloria che è sempiterna,</l>
+<l>o tu di cui procede il buon sapore</l>
+<l>per lo qual vôi che te ognun discerna,</l>
+<l>sostanza vera del divino amore,</l>
+<l>vieni e pon noi in tuo beatitudine,</l>
+<l>nel bello sguardo di tuo pulcritudine.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Michea:</stage>
+<sp>
+<lg>
+<l>Sta sù Michea, che hai conceputo</l>
+<l>una fiamma nel petto che ti cale,</l>
+<l>e dirai chi e quale</l>
+<l>fia il ben che gli alti cieli han proveduto.</l>
+</lg>
+</sp>
+<stage rend="italic">Michea risponde:</stage>
+<sp>
+<lg>
+<l>Grande Signore in umil luogo viene</l>
+<l>per gli umili guidare a sua altezza;</l>
+<l>ma tu per certo, Betelem, non sene</l>
+<l>minima, né ancor posta in bassezza</l>
+<l>nelle terre giudaiche, da chene</l>
+<l>di te nascerà duca e fortezza</l>
+<l>che d'Isdrael reggerà il popol mio</l>
+<l>e sopra gli altri dei sarà Iddio.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Abacuc:</stage>
+<sp>
+<lg>
+<l>Vieni, Abacuco, e sì spargi intorno</l>
+<l>lo spirito tuo ch'è tanto giocondo,</l>
+<l>&lt;e&gt; canta qui nel mondo</l>
+<l>la tua esultazion di Gesù adorno.</l>
+</lg>
+</sp>
+<stage rend="italic">Abacuc risponde:</stage>
+<sp>
+<lg>
+<l>Prenda chi vuoi diletto nelle cose</l>
+<l>che son create, ch'io el Creator prendo,</l>
+<l>ed il mio cor in lui vo' che si pose,</l>
+<l>in Gesù, dico, mio che io comprendo</l>
+<l>che per salute nostra innamorose</l>
+<l>Vincerci comportò, onde io m'arrendo</l>
+<l>e farò festa nel mio signor Dio</l>
+<l>con esultazïon in Gesù pio.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Malachias:</stage>
+<sp>
+<lg>
+<l>O Malachia, tu non puoi più stare</l>
+<l>il calor grande sì t'aspigne e straccia,</l>
+<l>veggoti nella faccia</l>
+<l>che del nostro Messia tu vuoi parlare.</l>
+</lg>
+</sp>
+<stage rend="italic">Malachias risponde:</stage>
+<sp>
+<lg>
+<l>Ecco che vien di tutti il Salvatore,</l>
+<l>povero ed umil sì che pare aggetto,</l>
+<l>privato di ricchezza e d'ogni onore.</l>
+<l>Vedretel d'una Vergine in sul petto</l>
+<l>che par ch'ogni superbia abbi in orrore.</l>
+<l>Dolce bambin, or sia tu benedetto!</l>
+<l>Ma qual sarà sì alto sentimento</l>
+<l>che del suo dì possa pensar l'avvento?</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a David:</stage>
+<sp>
+<lg>
+<l>O buon Davìd, che domasti Golia</l>
+<l>e di pastor fatto tu fusti Rene,</l>
+<l>canta quel ch'è in tene</l>
+<l>di Cristo Signor, nostro buon Messia.</l>
+</lg>
+</sp>
+<stage rend="italic">David risponde:</stage>
+<sp>
+<lg>
+<l>O benignità somma, o vera mente,</l>
+<l>misericordia, o Padre piatosissimo,</l>
+<l>ed in ciascuna cosa Dio clemente,</l>
+<l>o giusto d'ogni spirito dolcissimo</l>
+<l>che fuor di te gustar non voglio niente,</l>
+<l>o Padre a' tuo' figliuoli indulgentissimo,</l>
+<l>vieni e perdona a noi i nostri errori,</l>
+<l>ed empi di tua grazia i nostri cori.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Ezechiel</stage>
+<sp>
+<lg>
+<l>O Zechiele tutto infiammato,</l>
+<l>che preso in Babbillon dicesti cose</l>
+<l>astratte e luminose,</l>
+<l>dacci notizia di Cristo umanato.</l>
+</lg>
+</sp>
+<stage rend="italic">Ezechiel risponde</stage>
+<sp>
+<lg>
+<l>Quattro rote su 'n ciel con animali,</l>
+<l>e ancora quattro in quello luogo stanno</l>
+<l>dove tu, Santo Spirito, in alto sali.</l>
+<l>Se tu t'abbassi, egli a basso vanno;</l>
+<l>donde tu vôi, quindi batton l'ali.</l>
+<l>D'un trono simiglianza di sopra hanno</l>
+<l>e sopra quello è l'umano aspetto:</l>
+<l>questo torrà del mondo ogni difetto.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Jeremias:</stage>
+<sp>
+<lg>
+<l>O Geremia del divin lamento</l>
+<l>fatto sopra Gerusalem tapina</l>
+<l>e della sua reina,</l>
+<l>di' di Gesù ancor l'avvenimento.</l>
+</lg>
+</sp>
+<stage rend="italic">Jeremias risponde:</stage>
+<sp>
+<lg>
+<l>L'ardente mente del divino amore,</l>
+<l>quando infiammato vede, mai non erra.</l>
+<l>Certo quest'è el nostro buon Signore</l>
+<l>che è venuto a conversare in terra</l>
+<l>cogli uomini, e di lui niuno è maggiore.</l>
+<l>Torrà per tutto ogni noia e guerra,</l>
+<l>calcar vuole la terra per gran zelo</l>
+<l>con ritirare noi là sù in cielo.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Isaias:</stage>
+<sp>
+<lg>
+<l>Quasi un vangelista in profetare,</l>
+<l>segua ormai in questa santa via,</l>
+<l>cioè tu, Isaia</l>
+<l>per le future cose dichiarare.</l>
+</lg>
+</sp>
+<stage rend="italic">Isaias risponde:</stage>
+<sp>
+<lg>
+<l>O luminosi cieli, in vostra altura</l>
+<l>che mi pare evider d'ammirazione?</l>
+<l>Certo intendo cose che natura</l>
+<l>nol pate, né umana condizione:</l>
+<l>conceperà una vergine pura,</l>
+<l>partorirà figliuol di dilezione,</l>
+<l>e chiamato sarà Emanuello,</l>
+<l>'Iddio con noi', e sopra ogni altro bello.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Oseas:</stage>
+<sp>
+<lg>
+<l>Amor ti fe' temer, Osea, tanto</l>
+<l>e dallo spirito elevato nudo</l>
+<l>vedesti Erode crudo,</l>
+<l>di' come liberasti el Fantin santo.</l>
+</lg>
+</sp>
+<stage rend="italic">Oseas risponde:</stage>
+<sp>
+<lg>
+<l>O tenero Infantin, Figlio d'Iddio,</l>
+<l>che vieni al mondo per donargli vita,</l>
+<l>ed egli a te dar morte cerca, ond'io</l>
+<l>sento all'alma mia mortal ferita!</l>
+<l>O Erode, tiranno molto empio,</l>
+<l>pessima tua intenzion sarà fallita,</l>
+<l>imperocché in Egitto manderoe</l>
+<l>il Figliuol mio, e poi gli chiameroe.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Joel:</stage>
+<sp>
+<lg>
+<l>Dicci, Gioelle, che aspettiamo noi</l>
+<l>che siamo oppressi da' nostri nimici.</l>
+<l>Fatti un poco quici,</l>
+<l>dacci consolazion come tu puoi.</l>
+</lg>
+</sp>
+<stage rend="italic">Joel risponde:</stage>
+<sp>
+<lg>
+<l>Fate esultazïon, o tutti voi</l>
+<l>i qual desiderate la giustizia,</l>
+<l>che noi ci rallegriamo ancora noi,</l>
+<l>cantando con l'angelica milizia.</l>
+<l>I figliuoli di Sion ne' spirti suoi</l>
+<l>esultin nel Signor sanza pigrizia,</l>
+<l>perché manderà a voi con sommo amore</l>
+<l>di giustizia e bontà il gran Pastore.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Sofonias:</stage>
+<sp>
+<lg>
+<l>Di', Sofonìa, a questi la cagione</l>
+<l>donde tu hai cotanta allegrezza.</l>
+<l>Manda fuor la dolcezza</l>
+<l>che tu arrechi dal divin sermone.</l>
+</lg>
+</sp>
+<stage rend="italic">Sofonias risponde:</stage>
+<sp>
+<lg>
+<l>Nobil Gerusalem, ben puoi godere</l>
+<l>e più già non temer lamenti o guai</l>
+<l>né in eterno ancor mai più temere,</l>
+<l>da che abbracciato teco tieni ed hai</l>
+<l>il tuo Iddio. Ben lo puoi sapere,</l>
+<l>se gli occhi di tuo mente aperti arai.</l>
+<l>E' verrà presto, dico, e scioglieratti</l>
+<l>dagli tuo''lacci tutti, e salveratti.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo ad Ageos:</stage>
+<sp>
+<lg>
+<l>Che vedi tu, Ageo, di' che vedi?</l>
+<l>Che senti tu, Ageo, di' che senti?</l>
+<l>Vieni a costor presenti,</l>
+<l>deh, priegoti per Dio nel qual tu credi.</l>
+</lg>
+</sp>
+<stage rend="italic">Ageos risponde:</stage>
+<sp>
+<lg>
+<l>Gravidi sono i cieli in loro altura.</l>
+<l>Credo partoriranno prestamente</l>
+<l>Colui che salverà la creatura</l>
+<l>Desiderato egli è da ogni gente,</l>
+<l>ma chi s'asconderà da suo calura?</l>
+<l>A me vederlo pare certamente</l>
+<l>in braccio d'una vergin pia e santa,</l>
+<l>onde ogni spirto si rallegra e canta.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Simeon:</stage>
+<sp>
+<lg>
+<l>Nobile, savio e antico ed ancora</l>
+<l>sacerdote divoto Simeone,</l>
+<l>narraci la cagione</l>
+<l>perché volesti Cristo pria che mora.</l>
+</lg>
+</sp>
+<stage rend="italic">Simeon risponde:</stage>
+<sp>
+<lg>
+<l>O Pontefice sommo e buon pastore,</l>
+<l>o zelator perfetto e vero amante,</l>
+<l>che sopra a te porrai il nostro errore,</l>
+<l>o tu che solo tra le gente tante</l>
+<l>faccia redenzïon per lo tuo amore,</l>
+<l>tirando a te tutte le gente sante,</l>
+<l>vieni e pon noi sopra le tuo spalle</l>
+<l>e tracci al tuo ovil di questa valle.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo a Giovanni Battista</stage>
+<sp>
+<lg>
+<l>O precu&lt;r&gt;sor di Cristo, fanciul bello,</l>
+<l>Battista glorïoso in tua asprezza,</l>
+<l>dacci questa allegrezza:</l>
+<l>mostraci el Salvator del mondo, agnello.</l>
+</lg>
+</sp>
+<stage rend="italic">Giovanni Battista risponde:</stage>
+<sp>
+<lg>
+<l>Negli uman prati a me pare sentire</l>
+<l>un animal qual è tutto divino,</l>
+<l>e qui da presso lo sento venire</l>
+<l>che sopra tutti gli altri è molto fino.</l>
+<l>Ecco l'Agnel di Dio, ecco quel Sire,</l>
+<l>e però ginocchioni io m'inchino:</l>
+<l>ecco l'Agnel di Dio molto giocondo</l>
+<l>che i peccati toglie a tutto il mondo.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo alla Sibilla Egrippa:</stage>
+<sp>
+<lg>
+<l>Sibilla Egrippa, di' quanto tu senti</l>
+<l>della incarnazion del divin Verbo,</l>
+<l>in amore &lt;ri&gt;serbo</l>
+<l>sicché far possa gli umani contenti.</l>
+</lg>
+</sp>
+<stage rend="italic">Sibilla Egrippa risponde:</stage>
+<sp>
+<lg>
+<l>Sarà palpato l'invisibil Verbo,</l>
+<l>e poi germinerà come radice;</l>
+<l>secco sarà, come el foglio acerbo</l>
+<l>e non apparirà bello e felice;</l>
+<l>gremio materno ne farà riserbo,</l>
+<l>poi piangerà Iddio come infelice;</l>
+<l>di madre nascerà come Iddio,</l>
+<l>poi fra gli altri userà come uom rio.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo alla Sibilla Libica:</stage>
+<sp>
+<lg>
+<l>O savia Libica, magna sibilla,</l>
+<l>di' del futuro eterno Messia,</l>
+<l>che ciascun qui disia</l>
+<l>quanta divina grazia 'n te sentilla.</l>
+</lg>
+</sp>
+<stage rend="italic">Sibilla Libica risponde:</stage>
+<sp>
+<lg>
+<l>Ecco che presto ne verrà quel die</l>
+<l>che luceran le tenebre serrate</l>
+<l>e scioglieransi nodi e profezie</l>
+<l>della gran sinagoga, e relassate</l>
+<l>saran le labbra delle gente pie.</l>
+<l>Vedrassi il Re de' viventi, e palpate</l>
+<l>saran suo membra in grembo a Vergin vera,</l>
+<l>l'utero suo fia di tutte stadera.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo alla Sibilta Frigia:</stage>
+<sp>
+<lg>
+<l>Delle divote vergini, pulcella</l>
+<l>Frigia o fra l'altre nominata,</l>
+<l>a questa umil brigata,</l>
+<l>di' della nunzïante tuo favella.</l>
+</lg>
+</sp>
+<stage rend="italic">Sibilla Frigia risponde:</stage>
+<sp>
+<lg>
+<l>Batterà Dio i potenti di terra,</l>
+<l>dal sommo ciel verrà l'eccelso a noi,</l>
+<l>e fermerà il concilio sanza guerra.</l>
+<l>La Vergin ria annunzïata poi.</l>
+<l>Nelle diserto valli si disserra,</l>
+<l>e quest'è quello ch'io ne dico a voi.</l>
+<l>Però divoto intenda ciascheduno,</l>
+<l>umile e puro e di colpe digiuno.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo alla Vergine Maria e a Giuseppe:</stage>
+<sp>
+<lg>
+<l>O Maria e Giuseppe, se vi piace,</l>
+<l>venite col Figliuolo benedetto</l>
+<l>ch'avete in braccio stretto,</l>
+<l>e offritelo al Tempio della Pace.</l>
+</lg>
+</sp>
+<stage rend="italic">Maria offera il Figliuolo Gesù dicendo:</stage>
+<sp>
+<lg>
+<l>Ecco il Fantin che per la sua clemenza</l>
+<l>non obbligato a legge, quella serva</l>
+<l>per dare esempio a noi d'ubbidïenza</l>
+<l>e della umiltà la quale snerva</l>
+<l>ogni superbia e vana eccellenza</l>
+<l>e gli umili di spirito conserva.</l>
+<l>Chi vuol dunque salir all'alto Iddio</l>
+<l>appari umilità dal Figliuol mio.</l>
+</lg>
+<lg>
+<l>Ecco Colui ch'è sommo Pontificio:</l>
+<l>dallo Eterno mandato, quello apprende.</l>
+<l>Ecco chi guasta ogni malificio.</l>
+<l>Ecco chi nuovo esempio e legge estende,</l>
+<l>e dona sì per nuovo sacrificio.</l>
+<l>Ecco chi dalla morte ci difende.</l>
+<l>Ostia è, e sacerdote dritto,</l>
+<l>che viene a tôr da noi ogni delitto.</l>
+</lg>
+<lg>
+<l>Ecco la Virga, dolcezza d'onore.</l>
+<l>Ecco l'ardente e luminosa face</l>
+<l>per cui nel mondo vien questo calore.</l>
+<l>Ulivo porta in segno della pace,</l>
+<l>tempio ed arca del nostro Signore,</l>
+<l>netto vasello, colomba verace,</l>
+<l>o buon Gesù, o uliva fruttifera,</l>
+<l>unzïon santa di cosa mortifera.</l>
+<l>Ecco chi dona il suo Figliuo1 nel tempio.</l>
+<l>Venuta son, non che bisogno avessi</l>
+<l>di purificazion in questo tempio,</l>
+<l>ma acciò che del mio Figliuolo prendessi</l>
+<l>di purgazione singulare esempio,</l>
+<l>e che vostra miseria conoscessi.</l>
+<l>Chi vuole adunque entrare a salvazione,</l>
+<l>questa salute è vera purgazione.</l>
+</lg>
+<lg>
+<l>Ecco 'l gran dono ch'io, Vergine Matre,</l>
+<l>ho partorito di Spirito Santo.</l>
+<l>Ecco colui che le tenebre atre</l>
+<l>ridusse a luce e to' via ogni pianto.</l>
+<l>Ecco che in carne è l'eterno Patre.</l>
+<l>Offerir voglio all'angelico canto</l>
+<l>i suoni in terra come fa in cielo,</l>
+<l>ed empia i nostri cor di divin zelo</l>
+<l>Chi prende adunque e1 mio Figliuo1 santissimo,</l>
+<l>questo bambino che è Figliuol di Dio?</l>
+<l>Vuo 'l tu, o Simeon, vecchio giustissimo,</l>
+<l>che l'hai aspettato con tanto disio?</l>
+<l>Prendilo che tel manda quello Altissimo,</l>
+<l>e quanto e' tiene a me, tel do ancora io.</l>
+<l>Quest'è la medicina ch'io tanto amo</l>
+<l>contro al veleno che fu porto a Adamo.</l>
+</lg>
+<lg>
+<l>Le duo colombe prendi, o alto Iddio,</l>
+<l>e tolli ancora le duo tortorelle,</l>
+<l>di te figura e del Figliuolo mio,</l>
+<l>ch'altro don non può dar le poverelle.</l>
+<l>I' so ben, padre, che se' tanto pio</l>
+<l>che tu non chiederai le pecorelle,</l>
+<l>ed ammaestrera'mi di sermone</l>
+<l>se dimandata fussi da Simione.</l>
+</lg>
+</sp>
+<stage rend="italic">Simeon risponde alla Vergine Maria:</stage>
+<sp>
+<lg>
+<l>Questo Bambino che tu m'hai proferto,</l>
+<l>dàllo nelle mie braccia, il vo' tenere.</l>
+<l>Che sia Figliuol d'Iddio i' ne son certo,</l>
+<l>e ch'egli aveva qui a venire</l>
+<l>per essere nel sagro tempio offerto,</l>
+<l>ed io sapevo non dover morire</l>
+<l>se prima nol avevo nelle braccia.</l>
+<l>Egli è Colui che scioglierà le laccia.</l>
+</lg>
+<lg>
+<l>Giovane santa di sì nobil gente</l>
+<l>e di stirpe regale e generosa,</l>
+<l>o tu che arrechi sì umil presente</l>
+<l>essendo tu per certo glorïosa,</l>
+<l>come tu se' cotanto riverente,</l>
+<l>i''prendo maraviglia d'una cosa:</l>
+<l>che di poco donare a te non cale</l>
+<l>com'è costume di stirpe regale.</l>
+</lg>
+<lg>
+<l>Quest'è l'Agnel di Dio, el Salvatore.</l>
+<l>Egli è Colui che s'è tanto aspettato,</l>
+<l>egli è Colui che merita ogni onore,</l>
+<l>per lui sarà tutto 'I popol salvato.</l>
+<l>Egli è il vero lume e lo splendore,</l>
+<l>egli è Colui che toglie ogni peccato.</l>
+<l>A tutto il popolo e' darà saluto,</l>
+<l>e per salvar ciascuno egli è venuto.</l>
+</lg>
+</sp>
+<stage rend="italic">La Vergine Maria risponde:</stage>
+<sp>
+<lg>
+<l>Madre ricca non vuoi povero figlio,</l>
+<l>&lt;l&gt;a cui umilità in ogni cosa</l>
+<l>dimostrar vuol, per dare a noi consiglio,</l>
+<l>che la prendiamo per diletta sposa</l>
+<l>e che niuno a pompe dia di piglio,</l>
+<l>le quali hanno la coda velenosa.</l>
+<l>L'Agnel che credi, o Simion, quaggiue</l>
+<l>attendi che tu l'hai nelle man tue.</l>
+</lg>
+</sp>
+<stage rend="italic">Simeon a Dio Padre:</stage>
+<sp>
+<lg>
+<l>Lascia andare omai, o buon Signore,</l>
+<l>il servo tuo nella tua santa pace</l>
+<l>secondo il verbo tuo pieno d'amore,</l>
+<l>imperò che 'I Salvator tuo verace</l>
+<l>gli occhi mia han veduto, e lo splendore</l>
+<l>che tu mandasti a chi in terra giace:</l>
+<l>lume che ogni gente ha 'lluminato</l>
+<l>e la gloria al suo popolo ha donato.</l>
+</lg>
+</sp>
+<stage rend="italic">Dipoi Simeon esultando dice cantando:</stage>
+<sp>
+<lg lang="lat">
+<l>Nunc dimittis servum tuum, Domine,</l>
+<l>secundum verbum tuum in pace:</l>
+<l>Quia viderunt oculi mei salutare tuum,</l>
+<l>Quod parasti ante faciem omnium populorurn.</l>
+<l>Lumen ad revelationem gentium,</l>
+<l>et gloria plebis tuae Israel.</l>
+<l>Gloria Patri et Filio et Spiritui Santo.</l>
+<l>Sicut erat in principio et nunc et sempre</l>
+<l rend="align:right">et in secula seculorum. Amen.</l>
+</lg>
+</sp>
+<stage rend="italic">Anna profetessa con Gesù in braccio a Simeon dice così:</stage>
+<sp>
+<lg>
+<l>Benedetto sia tu, Gesù venuto,</l>
+<l>e sia laudato quel che t'ha mandato.</l>
+<l>Ringrazio te che 'n carne t'ho veduto,</l>
+<l>che molto tempo t'ho disiderato.</l>
+<l>Ciascun t'adori, ché è ben dovuto,</l>
+<l>Figliuol di Dio, <foreign lang="lat">ab eterno</foreign> ordinato,</l>
+<l>ma ben mi duole quella aspra passione</l>
+<l>che sosterrai per uman redenzione.</l>
+</lg>
+</sp>
+<stage rend="italic">Josep per ricomperare Gesù offeri in sullo altare cinque danari, dicendo a Simeon:</stage>
+<sp>
+<lg>
+<l>Cinque danari è 'l prezzo salutare</l>
+<l>del popol d'Israel ricomperato;</l>
+<l>e così voglio dare in su l'altare</l>
+<l>per cinque libri onde fu insegnato</l>
+<l>da Moises col divino parlare;</l>
+<l>e cinque fien le piaghe del mio nato,</l>
+<l>ed ancor si suprende l'avarizia</l>
+<l>della ebrea plebe e la durizia.</l>
+</lg>
+</sp>
+<stage rend="italic">Simeon rende Gesù alta Madre dicendo:</stage>
+<sp>
+<lg>
+<l>Madre, questo Figliuol ch'è tanto bello</l>
+<l>ferirà l'alma tua in sulla croce</l>
+<l>quando per figlio ti darà il fratello;</l>
+<l>onde, Madonna mia, quella voce</l>
+<l>pungerà te come mortal coltello,</l>
+<l>e questo a me ancora molto coce.</l>
+<l>Ma dopo quello riuscerà la vita:</l>
+<l>o quanto adunque fia buona ferita!</l>
+</lg>
+</sp>
+<stage rend="italic">&lt;Parla un Angelo licenziando il popolo&gt;</stage>
+<sp>
+<lg>
+<l>Divoti auditori, inteso avete</l>
+<l>il magno don della Madre di Dio,</l>
+<l>del quale per esempio porterete</l>
+<l>dover rimuovere ogni vizio rio.</l>
+<l>S'error s'è fatto cel, perdonerete,</l>
+<l>umilïati pell'amor di Dio,</l>
+<l>pregandol che lo possiamo ammendare</l>
+<l>in altra divozion che 'ntendiam fare.</l>
+</lg>
+</sp>
+<trailer lang="lat">Finis. Deo gratias.</trailer>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+    <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>La Cavaletta overo de la poesia Toscana</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>114 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001291</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+    
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+
+<p>Al molto reverendo e illustre signore
+e parente osservandissimo
+il signor  Cristofaro Tasso.</p>
+
+	<p>La poesia toscana è tanto nobile per la bellezza de la favella quanto per l'eccelenza de gli scrittori; laonde potrebbe far dubbia la palma de gli antichi Greci e Latini. Ma senza dubbio è degna d'essere imitata da gli autori de l'altre lingue ch'oggi son più famose, e posta inanzi per essempio di gravità e di leggiadria: e qualunque s'è più atta ad esprimere gli amorosi concetti e gli altri più gravi, molti ornamenti può da lei ricevere e molte ricchezze. Grandissima impresa dunque e malagevole è il trattarne, imperoché, di lei scrivendo, par che si scriva a tutte le nazioni e che l'uomo sottoponga il suo parere, quasi in un teatro, ad infiniti giudici.</p>
+	<p>Ma pur fra tutti gli altri modi estimo questo usato nel dialogo il più dilettevole e 'l meno odioso: perch'altri non v'insegna il vero con autorità di maestro, ma il ricerca a guisa di compagno; e, ricercandolo per sì fatta maniera, è più grato il ritrovarlo. E come i cacciatori mangiano più volentieri la preda ne la quale ebber parte de la fatica, così quelli ch'insieme investigaron la verità participano con maggior diletto de la commune laude, e gli altri leggono e ascoltano più volentieri una amichevole contesa d'ingegni e d'opinioni, massimamente coloro che possono darne giudicio, come Vostra Signoria molto reverenda, e metter la sua insieme con quella de gli altri. A lei dunque il mando, sapendo di non poter ritrovar né più dotto né più sincero giudice, quantunque non le s'appresenti come litigante che voglia sentenza, ma quasi dono che ricerchi benevolenza.</p>
+	<p>Di Vostra Signoria molto reverenda</p>
+<closer>
+affezionatissimo parente e servitore
+<signed>TORQUATO TASSO.</signed>
+</closer>
+
+</div1>
+<titlePage>
+<docTitle>
+<titlePart type="main"> LA CAVALETTA OVERO DE LA POESIA TOSCANA </titlePart>
+</docTitle>
+</titlePage>
+
+    <castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>ORSINA CAVALETTA,</role></castItem> <castItem type="role"><role>FORESTIERO NAPOLITANO,</role></castItem> <castItem type="role"><role>ERCOLE CAVALETTO.</role></castItem></castList>
+
+
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<sp><speaker>O.C.</speaker><p> Sete arrivato in buona occasione di por fine a le nostre contese, le quali erano di voi e per voi cominciate, e senza voi non pareva che potessero tra noi terminare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E quali contese erano queste? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Mi diceva il signor Ercole avere udita raccontare come vostra opinione che quel sonetto del Coppetta il qual comincia
+
+<quote rend="block"><lg>
+<l>Locar sopra gli abissi i fondamenti,</l>
+</lg></quote></p>
+
+<p>tanto lodato e comendato da ciascuno, a voi non pare degno di lode né di comendazione. La qual opinione a me non poteva esser persuasa come vostra: anzi mi pare tanto lontana da ogni verità quanto il vostro giudicio da ogni biasmo è securo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Vi ringrazio che giudichiate così amichevolmente del mio giudicio; ma però non v'ingannate punto in questo particolare, perché né mai parole sì fatte uscirono de la mia lingua, né io soglio ragionare de gli uomini eccelenti e de le composizioni famose o con tanto disprezzo o pur con tanta presunzione. Ma chi parlasse di questo sonetto non assolutamente, ma in comparazione di quel di monsignor de la Casa
+
+<quote rend="block"><lg>
+<l>Questa vita mortal, ch'in una o 'n due etc.,</l>
+</lg></quote></p>
+
+<p>non molto si dilungarebbe da la verità, percioché, sì come il bene minor in rispetto del maggiore è riputato male, così la minor lode in paragone de la maggiore suole aver similitudine di biasimo; e mentre io lodava quel di monsignor da la Casa, parve in alcun modo che questo altro vituperassi; ma, per se stesso considerandolo, non ho mai senza molta lode fatta menzione de la poesia o del suo poeta: e avrei peraventura schivato questo paragone come odioso, se non fossi stato provocato da le soverchie lodi che gli furono date in Bologna da monsignor Galbiato, auditor del Legato, già vescovo di Narni e ora cardinal di Cesi, il quale, lodandolo, fece quel che sogliono fare quasi tutti i lodatori ne l'aggrandire con le similitudini e con gli smoderamenti la bellezza de le cose lodate; e tanto inanzi trascorse ch'osò d'affermare che niun altro se ne legga in questa lingua d'egual perfezione; a le quali parole io, che mi trovava presente, non potei raffrenarmi, ma, ponendogli a l'incontra quello de monsignore nel qual si tratta quasi del medesimo soggetto, cioè de la creazione del mondo, mi sforzai di mostrare che la materia istessa fosse da lui trattata con maggiore artificio. </p></sp>
+	<sp><speaker>O.C.</speaker><p> La vostra opinione può essere ascoltata in queste parti senza vostro biasimo, ma non senza dispiacere de' molti belli ingegni a' quali il sonetto del Coppetta è piaciuto maravigliosamente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E se 'l vostro è un di quelli, com'io ho conosciuto a voi parimente dispiacerei. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Niuna vostra laude a me potrebbe essere dispiacevole, la quale son così amica de la vostra reputazione come voi de la verità; ma 'l sentir scemar quelle di coloro a' quali son parimente affezionata, parrebbe in qualche modo temperare quel diletto ch'io ne prenderei. Ditemi adunque che disse il Galbiato lodando, e che fosse risposto da voi a l'incontra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Già sono tanti anni passati ch'io a pena mi ricordarei d'alcune poche cose, non che di tutte, le quali non furono però molte: percioché egli fu più tosto grande che lungo lodatore, e io brevemente risposi come in quella corte parea convenirsi. Ma fra le mie risposte fu questa, che nel fine del sonetto il Coppetta diminuisce il suono il quale accresce monsignore, perché la rima del primo verso inanzi a l'ultima vocale ha due consonanti, ma quella de l'ultima è simplice, laonde a pena ferisce gli orecchi; ma da rima poco sonora comincia il suo monsignore, e 'l fornisce con due consonanti inanzi l'ultima vocale. E peraventura questa risposta fu assai giovenile: nondimeno, se non riguardiamo tanto il soggetto quanto l'artificio de lo spiegarlo, non è una de le minori considerazioni. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Qualunque ella sia, fu dal Coppetta o non avertita o non prezzata con l'essempio di tanti altri ch'inanzi a lui poetarono, e particolarmente del Petrarca, il quale in quel sonetto
+
+<quote rend="block"><lg>
+<l>Come il candido piè per l'erba fresca</l>
+</lg></quote></p>
+
+<p>indebolisce il fine:
+
+<quote rend="block"><lg>
+<l>Che son fatto un augel notturno al sole.</l>
+</lg></quote></p>
+
+<p>Ma più gli toglie di forza in quell'altro
+
+<quote rend="block"><lg>
+<l>Quando giunse a Simon l'alto concetto;</l>
+</lg></quote></p>
+
+<p>avegna che la prima rima sia molto sonora, come potete udire, ma l'ultima è di suono assai debole:
+
+<quote rend="block"><lg>
+<l>N'avesti quel che solo una i' vorrei.</l>
+</lg></quote></p>
+
+<p>E molti essempi oltre questi si potrebbono raccorre dal Petrarca; ma assai notabile è quello del sonetto
+
+<quote rend="block"><lg>
+<l>Quando giunsi per gli occhi al cor profondo;</l>
+</lg></quote></p>
+
+<p>il qual finisce:
+
+<quote rend="block"><lg>
+<l>E far qual io mi soglio in vista fare.</l>
+</lg></quote></p>
+
+<p>Né da questa imitazione si sono allontanati il Bembo e gli altri famosi scrittori di questa lingua. Ma che replicò il Galbiato a la vostra risposta? Ché questo doveva io prima ricercare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Si fondava in autorità simili a queste, con le quali cercava di provare che l'avertimento non fosse degno di molta stima. </p></sp>
+	<sp><speaker>O.C.</speaker><p> E vi condusse con queste ragioni ne la sua credenza, o pur voi, ne le vostre irrepugnabili, quasi in una rete, avolgendolo, il tiraste ne la contraria opinione? </p></sp>
+	<sp><speaker>F.N.</speaker><p> Le mie non hanno tanta forza che possano legar gli uomini, quantunque di loro io vorrei fare quel che Dedalo già soleva de le sue statue, percioché elle, da le mie ragioni legate, di mobili divenissero stabili e ferme: quasi ardirei d'affermarvi ch'alcuna potesse tosto divenir scienza, se non temessi che questa paresse soverchia presunzione di se stesso. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non può ritrovarsi soverchia presunzione ove non manca il merito. </p></sp>
+	<sp><speaker>F.N.</speaker><p> È minor senza dubbio che non sarebbe s'io mi vantassi di poter legare l'intelletto di coloro a' quali ragiono: e forse è operazione molto più lodevole, perché quella è propria del sofista o almeno gli è commune co 'l dialettico, e questa né a l'uno né a l'altro par che si convenga, essendo l'uno e l'altro vago e incostante ne le sue opinioni e amator di gloria e d'apparenza; ma chi l'ha già legate ama la costanza e la verità. Quella dunque ch'era mia opinione disciolta ed errante, ora spero di confermare con quelle ragioni che voi udirete, se vi piacerà di prender quella persona che sosteneva il Galbiato. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Io non vorrei già vestirmi di persona così grave come quella de l'auditore, perch'io non so bene s'io potessi lungamente portarla; ma se pur fa de mestieri ch'io ne prenda alcuna parte, sarò volentieri auditrice de le vostre ragioni. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Già non contesi con l'auditore di quelle cose de le quali si disputa ne le scuole fra' dottori, né di quelle per cui si litiga inanzi al tribunal de' giudici, ma co 'l Galbiato, gentiluomo di belle lettere, parlai de la toscana poesia in presenza di monsignor Francesco Caburaccio, filosofo molto eccelente e poeta parimente, e d'alcun altri. Or, se de le cose medesime vorem tra noi discorrere, vi prego ch'ascoltiate e rispondiate quando vi parrà ch'io dimandi cosa a la quale non si debba negar la risposta. Ditemi dunque: il sonetto è uniforme o multiforme? dico, d'una sola testura o di più? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Di più senza dubio: percioché quattro sono le forme de quaternari le quali io trovo nel Petrarca, e cinque quelle de' ternari. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma a ciascuna di quelle forme daremo noi una particolare forma di quelle che sono dette ancora idee o caratteri del parlare, o pur ciascuna de le forme del sonetto di tutte quelle del parlare sarà capace? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Ciascuna di tutte: perché in ciascuna d'esse diversi caratteri sono stati usati. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Forse in quella guisa che nel verso essametro de' Latini non solamente lo stile alto s'adoperò, ma il basso e 'l mediocre, o pur come ne' versi lirici gli amori de le donne e de' fanciulli sono stati cantati, ma più altamente le lodi de' re e de gli eroi. </p></sp>
+	<sp><speaker>O.C.</speaker><p> In questa guisa veramente mi pare che ciascuna de le forme del sonetto possa ricevere tutti i caratteri e gli abbia sin ora molte volte ricevuti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Pur, se non vogliamo aver tanto risguardo a quel che si possa o che si usi o che sia stato per l'adietro usato, quant'a quello che si dovrebbe usar, ciascuna forma a ciascuna forma sarà conveniente, e la nobilissima particolarmente a la nobilissima. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma le nobili son prima de l'altre o poi? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Prima. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque sarà quella nobilissima, da la quale cominciò il Petrarca quel nobilissimo sonetto
+
+<quote rend="block"><lg>
+<l>Voi ch'ascoltate in rime sparse il suono;</l>
+</lg></quote></p>
+
+<p>perch'è prima per natura e per dignità. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Il Coppetta volse eleggere questa, ne la qual si risponde co 'l primo verso del secondo ternario al primo del primo, co 'l secondo al secondo e co 'l terzo al terzo. Il qual ordine in alcune de l'altre testure suole esser perturbato; e in alcune altre, essendo le corrispondenze non di tre rime a tre rime, ma di due in tre a due in tre altri o di due in due a due in quattro versi, quanto s'acquista ne la dolcezza, tanto si perde ne la gravità. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così mi par ch'avenga. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma le cose gravi e le basse o sono le medesime o pur varie; e se sono le medesime, e le leggiere e le alte ancora sono l'istesse? Sono: percioch'il foco, il quale è altissimo tra gli elementi, è leggierissimo, e la terra, ch'è bassissima, è gravissima. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così mi par che si provi per questa ragione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque l'alto stile sarà il leggiero, e 'l grave sarà il basso. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così pare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma le cose basse sono più nobili o meno de l'alte? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Meno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Le bassissime dunque saranno le ignobilissime. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque le bassissime poesie saranno le gravissime e l'ignobilissime, e le leggierissime saranno altissime e nobilissime: e la tragedia sarà bassissima e ignobilissima, e fra le comedie quella ch'è leggierissima sarà l'altissima e la nobilissima. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così mi par che conchiuda questa vostra ragione, la qual non persuade, ma fa violenza. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Or non vorremo diffenderci, quanto potremo, per non essere sforzati? </p></sp>
+	<sp><speaker>O.C.</speaker><p>Defendiamci. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ditemi adunque: il grave in tutte le cose ha l'istesso contrario o pur diverso? E accioché meglio m'intendiate, io vi chiedo se ne la voce al grave s'oppone quel medesimo che ne' corpi, over altro. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non si dice de le voci ch'elle sian gravi e leggiere come ne' corpi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma qual nome darem noi a questa opposizione? </p></sp>
+	<sp><speaker>O.C.</speaker><p> L'uno opposto chiamerem grave e l'altro acuto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque ancora ne l'elocuzione, la qual è una specie di voce, potremo opponere altro contrario al grave che 'l leggiero: e s'al grave non è contrario il leggiero, l'altezza e la nobiltà, che ne' corpi seguitano la leggerezza, non saranno ne <add>l'</add>elocuzione ripugnante a la gravità. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non per questa ragione, la qual assai m'appaga. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Oltre di ciò quelle stesse condizioni, o qualità, che procedono o seguono la gravità ne' corpi, vi pare che si congiungano insieme ne le voci? </p></sp>
+	<sp><speaker>O.C.</speaker><p> A nissun modo, perché non diremo che la voce sia calda né fredda, né umida né secca, né rara né densa. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque nel parlar ancora non s'accompagnaranno con la gravità e con la leggerezza quelle medesime qualità le quali s'accopiano ne' corpi naturali. </p></sp>
+	<sp><speaker>O.C.</speaker><p> No certo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E la nobiltà e l'ignobiltà sarà peraventura una di quelle ch'avrà nel parlare compagnia diversa da quella c'ha ne' corpi semplici over composti. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così aviene senz'alcun fallo: anzi io stimo che sian congiugate ne lo stile al contrario modo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Direm dunque che lo stil grave sia il nobile e l'alto il gravissimo il nobilissimo e <add>l'</add>altissimo. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Diremo senza dubio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E da l'altra parte l'opposto al gravissimo sarà il bassissimo e l'ignobilissimo. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Ne lo stesso modo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E 'l nobilissimo e l'altissimo e 'l gravissimo stilo si converrà a quella testura de' sonetti ne' quali saranno le medesime condizioni. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Converrassi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Avendo il Coppetta dunque fatta elezione di nobilissimo soggetto e scelta la testura gravissima, dovea parimente quel carattere o quella forma che fosse nobilissima oltre tutti gli altri che nel sonetto potesse usarsi. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Doveva a mio giudicio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma in questa forma sarebbe sconvenevole che 'l suono e 'l numero e la gravità de' versi andasse tanto più scemando quanto più s'avicina al fine, percioché, sì come una zolla di terra o una pietra o altro corpo grave acquista gravità nel movimento quanto più s'avicina al proprio luogo, così ancora lo stilo grave dee accrescer ne l'ultimo la gravità, il numeroso il numero, il grande la grandezza. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così mi pare assai ragionevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma pur altramente fece il Coppetta; perché, avendo egli cominciato da parole piene di molta gravità e di molto suono come sono quelle:
+
+<quote rend="block"><lg>
+<l>Locar sovra gli abissi i fondamenti</l>
+<l>De l'ampia terra,</l>
+</lg></quote></p>
+
+<p>fornisce in quell'altre:
+
+<quote rend="block"><lg>
+<l>Dicalo il verbo tuo, che sol l'intese.</l>
+</lg></quote></p>
+
+<p>Le quali dal giudicio superbissimo de gli orecchi non sono egualmente prezzate, quantunque sodisfacciano a l'intelletto: laonde io stimo ch'egli abbia fatto il contrario di ciò ch'è laudevole ne l'arte del parlare o del rimare, ch'imitando la natura in tutte le forme da lei ritrovate, accresce verso il fine la qualità ch'è propria di ciascuna. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Assai è buona la similitudine. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma ditemi: l'arte del rimare stimate voi che sia simile a la musica o pur dissimile? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Simile. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Tutta volta noi sappiamo che Timoteo dispose in maniera le corde che, cominciando da la gravissima, terminava ne l'acutissima: laonde a questa simiglianza le rime gravissime dovrebbero finire ne l'acutissime. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così pare, e suole esser molto da molti lodato che l'acutezza sia riserbata ne l'ultimo, la qual punga gli animi in quella guisa che l'ago de l'api suol rimaner ne le ferite, e insieme gli unga e radolcisca. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Colui ch'è sempre ferito da sezzo, suol preveder il tempo nel quale egli è percosso: e prevedendolo, può guardarsene e non sentir la percossa per la continua usanza. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Può questo non difficilmente avenire. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Oltre di ciò le percosse improvise portano seco maggior maraviglia e maggior diletto, se c'è diletto alcuno ne le percosse sì fatte. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Ve n'è molto senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque non sempre l'acutezza dee usarsi nel medesimo luogo e tempo, ma in diversi. E si può l'auditore o 'l lettore, mentre egli si spazia per le dilettevole rime assomigliar a l'uccello, il quale, ove men teme, ivi più spesso è colto: percioché molte volte è colpito dal poeta nel principio e nel mezzo de' componimenti, ove se n'ha minor suspizione. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così pare per quest'altra ragione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E per aventura, sì come ebbe il premio nel saettare colui il quale colse la colomba già disciolta, così quel poeta il merita, il quale, non legando l'ascoltatore con le sue regole, saetta a segno incerto con maraviglia maggiore. E se ciò è vero, l'acume sempre non dee esser ne l'ultime parti; ma posto ch'egli dovesse esser, l'acutezza, la qual dolcemente ferisce gli animi di coloro che leggono le maravigliose poesie, è più tosto ne la sentenza e nel concetto che ne la voce. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Per certo. </p></sp>
+	<sp><speaker>F.N.</speaker><p>v Dunque poco importa quel che si dice in questo proposito di Timoteo; perch'egli dispose l'acuto e 'l grave secondo il suono che percote gli orecchi, e noi sogliamo considerarlo ne le cose da le voci significate. E questa considerazione è propria de l'oratore e del poeta, e l'ebbe il Casa non meno d'alcuno altro, il quale, tutto che non elegesse la testura più degna de l'altre, ma una ch'è quasi trasgressione de la prima, a guisa di buon cavaliero che salti là ove non può andar di passo, nondimeno, perché egli scelse pur una di quelle che sono più tosto acconcie a la grandezza e a la gravità ch'a la dolcezza e a la piacevolezza, molto l'avanza nel fine del sonetto con la scelta de le parole e con lumi e con gli ornamenti, e particolarmente con la pienezza de le consonanti e co 'l numero e co 'l suono de' versi. </p></sp>
+	<sp><speaker>O.C.</speaker><p> I quali non sono parimente sonori e numerosi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Quello che da molti gli sia rimproverato, che nel principio fossero usate da lui parole basse e di picciol suono come son quelle “in una o in due”, può esser riputata giudiciosa elezione; percioché queste parole meglio ci pongono inanzi gli occhi la brevità de la nostra vita mortale e la poca stima che di lei si dee fare, e le rime che poi seguono, per la differenza de l'altre che sono precedute, paiono più nobili che non parerebbono da se stesso. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così è veramente: e in questa parte non vedo che si possa replicare a le vostre ragioni. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma s'alcuna forma è contraria a questa, la qual è chiamata da gli scrittori con diversi nomi, vi pare egli convenevole ch'accresca verso il fine la gravità e l'altre qualità che sogliono insieme accompagnarsi, o pur, sì come il foco, il quale è contrario a la terra, nel fine del movimento accresce la sua leggerezza, così le forme opposte ne l'ultimo de' sonetti accrescono le qualità opposte? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questa opinione mi par che debba essere più tosto seguita. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, quando leggiamo alcune composizioni le quali forniscono in rime più dolci e men sonore che non son quelle del principio, se 'l carattere in loro impresso dal maestro è contrario a l'altro, ragionevolmente sono terminate in quel modo; anzi, s'altramente fornissero, non avrebbono quel fine che si richiede ne la sua forma. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non avrebbono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E s'alcuna forma è, la qual fra l'una e l'altra sia interposta, de l'una e de l'altra quasi temperata, dee tenere altra maniera, e se participarà più de la grave, fornire con gravità, ma non equale a quella de l'idea ch'è grave simplicemente; ma s'avrà parte maggiore de l'opposto, dovrà aver più dolce e piacevol fine, come hanno que' versi che voi poco inanzi adduceste del Petrarca, e molti altri che si potrebbono recare per essempio dal medesimo poeta, com'io stimo che vi parranno questi:
+
+	<quote rend="block"><lg>
+<l>Per mirar Policleto a prova fiso</l>
+<l>Con mille ch'ebber fama di quell'arte.</l>
+</lg></quote></p>
+
+<p>Il fine:
+
+	<quote rend="block"><lg>
+<l>Cortesia fe', né la potea far poi</l>
+<l>Che fu disceso a provar caldo e gielo,</l>
+<l>E del mortal sentiron gli occhi suoi;</l>
+</lg></quote></p>
+
+<p>nel qual egli scelse quella testura de' sonetti ch'è più acconcia a la maniera temperata. Parimente in quell'altro
+
+	<quote rend="block"><lg>
+<l>Lieti fiori, felici e ben nate erbe,</l>
+<l>Che madonna pensando premer suole,</l>
+</lg></quote></p>
+
+<p>così fornisce ne' terzetti:
+
+	<quote rend="block"><lg>
+<l>O soave contrada, o puro fiume,</l>
+<l>Che bagni il suo viso e gli occhi chiari,</l>
+<l>E prendi qualità dal vero lume,</l>
+	<l>Quanto v'invidio gli atti onesti e cari.</l>
+<l>Non fia omai scoglio in voi che per costume</l>
+<l>D'ardere con la fiamma non impari.</l>
+</lg></quote></p>
+</sp>
+	<sp><speaker>O.C.</speaker><p> Sì veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E questi altri ancora:
+
+	<quote rend="block"><lg>
+<l>Come il candido piè per l'erba fresca</l>
+<l>I dolci passi onestamente move.</l>
+</lg></quote></p>
+
+<p>I terzetti son questi:
+
+	<quote rend="block"><lg>
+<l>E con l'andare e co 'l soave sguardo</l>
+<l>S'accordan le dolcissime parole,</l>
+<l>E l'andar mansueto, umile e tardo.</l>
+	<l>Di tai quattro faville, e non già sole,</l>
+<l>Nasce il gran foco di ch'io vivo ed ardo,</l>
+<l>Che son fatto un augel notturno al sole.</l>
+</lg></quote></p>
+
+<p>E di quell'altro
+
+	<quote rend="block"><lg>
+<l>In qual parte del cielo, in qual idea</l>
+<l>Era l'essempio unde natura tolse,</l>
+</lg></quote></p>
+
+<p>udite i terzetti:
+
+	<quote rend="block"><lg>
+<l>Per divina bellezza indarno mira</l>
+<l>Chi gli occhi di costei giamai non vide,</l>
+<l>Come soavemente ella gli gira;</l>
+	<l>Non sa com'Amor sana e com'ancide,</l>
+<l>Chi non sa come dolce ella sospira,</l>
+<l>E come dolce parla e dolce ride.</l>
+</lg></quote></p>
+
+<p>I quali sonetti sono tutti de la forma temperata, e nel temperamento la dolcezza eccede la gravità; e per questa ragione hanno quel fine che più conviene a dolci componimenti.</p></sp>
+	<sp><speaker>O.C.</speaker><p> Dolcissimo oltre tutti gli altri. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma in quelli altri, ne' quali la gravità avanza la piacevolezza, hanno quello ch'è proprio de la maniera grave, come potremo conoscere in questi altri essempi ch'io recherò del medesimo poeta:
+
+<quote rend="block"><lg>
+	<l>Ben sapeva io che natural consiglio,</l>
+<l>Amor, contra di te giamai non valse;</l>
+</lg></quote></p>
+
+<p>del qual sono i ternari:
+
+	<quote rend="block"><lg>
+<l>Io fuggia le tue mani, e per camino</l>
+<l>Agitandomi i venti e 'l gielo, e l'onde, </l>
+<l>M'andava sconosciuto e peregrino; </l>
+	<l>Quando ecco i tuoi ministri (i' non so donde) </l>
+<l>Per darmi a diveder ch'al suo destino</l>
+<l>Mal chi contrasta e mal chi si nasconde. </l>
+</lg></quote></p>
+
+<p>E di quell'altro
+
+	<quote rend="block"><lg>
+<l>La sera desiar, odiar l'aurora</l>
+<l>Soglion questi tranquilli e lieti amanti; </l>
+</lg></quote></p>
+
+<p>i ternari:
+
+	<quote rend="block"><lg>
+<l>Come già fece allor ch'i primi rami</l>
+<l>Verdeggiar, che nel cor radice m'hanno, </l>
+<l>Per cui sempre altrui più che me stesso ami. </l>
+	<l>Così di me due contrarie ore fanno: </l>
+<l>E ch'io m'acqueta, è ben ragion ch'io brami, </l>
+<l>E tema ed odi chi m'adduce affanno. </l>
+</lg></quote></p>
+
+<p>E di quell'altro
+
+	<quote rend="block"><lg>
+<l>Io pur ascolto, e non odo novella</l>
+<l>De la dolce ed amata mia nemica, </l>
+</lg></quote></p>
+
+<p>ascoltate i ternari:
+
+	<quote rend="block"><lg>
+<l>Anzi un sol; e se questo è, la mia vita</l>
+<l>E i miei corti riposi e i lunghi affanni</l>
+<l>Son giunti al fine. O dura dipartita, </l>
+	<l>Perché lontan m'hai fatto de' miei danni? </l>
+<l>La mia favola breve è già compita, </l>
+<l>E fornito il riposo a mezzo gli anni. </l>
+</lg></quote></p>
+
+<p>E di quello
+
+	<quote rend="block"><lg>
+<l>È questo 'l nido in che la mia fenice</l>
+<l>Mise l'aurate e le purpuree penne? </l>
+</lg></quote></p>
+
+<p>eccovi i ternari:
+
+	<quote rend="block"><lg>
+<l>E m'ha' lassato qui misero e solo, </l>
+<l>Tal che pien di duol sempre al loco torno</l>
+<l>Che per te consecrato onoro e colo, </l>
+	<l>Veggendo a' colli oscura notte intorno, </l>
+<l>Onde prendesti al ciel l'ultimo volo</l>
+<l>E dove gli occhi tuoi solean far giorno. </l>
+</lg></quote></p>
+
+<p>E di quello
+
+	<quote rend="block"><lg>
+<l>Gli occhi di ch'io parlai sì caldamente, </l>
+<l>E le braccia e le man e i piedi e 'l viso; </l>
+</lg></quote></p>
+
+<p>i terzetti:
+
+	<quote rend="block"><lg>
+<l>Ed io pur vivo; onde mi doglio e sdegno, </l>
+<l>Rimaso senz'il lume ch'amai tanto</l>
+<l>In gran fortuna e 'n disarmato legno. </l>
+	<l>Or sia qui fine al mio amoroso canto: </l>
+<l>Secca è la vena de l'usato ingegno, </l>
+<l>E la cetera mia rivolta in pianto. </l>
+</lg></quote></p>
+</sp>
+	<sp><speaker>O.C.</speaker><p> Assai bene per questi essempi si può comprendere quel che voi dite.</p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma oltre questi molti altri potrebbono essere, in alcuni de' quali, essendo temperata la dolcezza e la gravità, supera la dolcezza: ne gli altri è superata, sì come veggiamo avenire ne gli elementi situati fra la terra e 'l foco, l'uno de' quali verso il fine del suo movimento accresce la sua gravità, l'altro la sua leggerezza. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Assai in alcune cose è simile la comparazione de gli elementi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> A l'altre similitudini mi par che si possa aggiunger questa, che, sì come niuno elemento è puro e semplice intieramente, percioché il fuoco è mescolato con l'aria e l'aria co 'l fuoco e con l'acqua e l'acqua con l'aria e con la terra, così ancora ciascuna maniera di parlare è mescolata; né solamente ne le rime già dette, ma in quelle che sono stimate gravissime c'è qualche mistione di piacevolezza. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Veramente i versi ne' quali non è qualche mescolanza sì fatta assai meno sogliono piacer de gli altri, né possono lungamente esser ascoltati senza fastidio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Le forme dunque del parlare sono in questo simili a le forme naturali, le quali, essendo raccolte nel grembo de la materia, non possono ritrovarsi a fatto pure: quinci aviene ch'in quelle testure ancora le quali noi assegniamo come proprie al carattere sublime, ci sia alcuno temperamento; ma vi sarà forse grave che questa cosa si consideri più minutamente. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Anzi niuna mi potrebbe esser tanto piacevole: però vi priego che seguitiate. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io dico che 'l carattere nobilissimo dee usarsi in due de le testure usate dal Petrarca: la prima, la qual risponde ordinariamente co 'l primo del secondo terzetto al primo del primo, co 'l secondo al secondo e co 'l terzo al terzo, com'è questa:
+
+	<quote rend="block"><lg>
+<l>E le rose vermiglie infra la neve</l>
+<l>Mover da l'ora e discovrir l'avorio, </l>
+<l>Che fa di marmo chi d'appresso il guarda; </l>
+	<l>E tutto quel, perché nel viver breve</l>
+<l>Non rincresco a me stesso, anzi mi glorio</l>
+<l>D'esser servato a la stagion più tarda. </l>
+</lg></quote></p>
+
+<p>E la seconda, che risponde co 'l primo del secondo al secondo del primo e co 'l secondo del secondo al primo del primo e co 'l terzo al terzo, com'è questa:
+
+	<quote rend="block"><lg>
+<l>E s'io 'l consento, a gran torto mi doglio: </l>
+<l>Fra sì contrari venti in frale barca</l>
+<l>Mi trovo in alto mar senza governo, </l>
+	<l>Sì leve di saper, d'error sì carca, </l>
+<l>Ch'io medesmo non so quel che mi voglio, </l>
+<l>E tremo a mezza state, ardendo il verno. </l>
+</lg></quote></p>
+
+<p>Ma altre ne daremo a la forma temperata, l'una de le quali risponde co 'l terzo del primo al primo del primo e co 'l primo del secondo al secondo del primo; e poi seguita ne gli altri versi l'ordine medesimo, com'è questo:
+
+	<quote rend="block"><lg>
+<l>Io che 'l suo ragionare intendo allora, </l>
+<l>M'agghiaccio dentro a guisa d'uom ch'ascolta</l>
+<l>Novella che di subito l'accora. </l>
+	<l>Poi torno al primo, e questo dà la volta. </l>
+<l>Qual vincerà non so: ma infino ad ora</l>
+<l>Combattuto hanno, e non pur una volta. </l>
+</lg></quote></p>
+
+<p>E l'altra, ch'è poco da questa differente, ma concorda il primo co 'l terzo e co 'l quarto e co 'l sesto, concatenando il secondo co 'l quinto in questa guisa:
+
+<quote rend="block"><lg>
+	<l>Onde Amor paventoso fugge al core, </l>
+<l>Lasciando ogni sua impresa, e piange e trema: </l>
+<l>Ivi s'asconde e non appar più fore. </l>
+	<l>Che penso far, temendo il mio signore, </l>
+<l>Se non star seco insino a l'ora estrema? </l>
+<l>Ché bel fin fa chi ben amando more. </l>
+</lg></quote></p>
+
+<p>E questo io dico de le maniere usate dal Petrarca; ma l'altre ancora mi paiono degne di considerazione, né debbono esser lasciate a dietro. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Sono state scritte con esso loro tante cose belle che non devrebbono tralasciarsi in modo alcuno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Quella usata da monsignor de la Casa in questo sonetto, dal quale abbiamo preso occasione di ragionare, è transgressione o trapasso de la prima, però la assignaremo parimente a la maniera grave; e quella che risponde co 'l primo verso del secondo ternario al secondo del primo e co 'l secondo del secondo al terzo del primo e co 'l terzo del secondo al primo del primo <add>è</add> pure un trapasso de la seconda testura. Laonde a la forma grave sarà conceduto, e n'addurrò l'essempio:
+
+<quote rend="block"><lg>
+	<l>E 'n pianto mi ripose e 'n vita acerba, </l>
+<l>Ove non fonti, ove non lauro od ombra, </l>
+<l>Ma falso d'onor segno in pregio è posto. </l>
+	<l>Or con la mente non d'invidia sgombra</l>
+<l>Te giunto miro a giogo alto e riposto, </l>
+<l>Ove non segnò pria vestigio l'erba. </l>
+</lg></quote></p>
+
+<p>E quella che risponde co 'l primo verso del secondo ternario al più vicino del primo e segue quest'ordine diritto, come la seguente:
+
+	<quote rend="block"><lg>
+<l>E questa man d'avorio tersa e bianca, </l>
+<l>E queste braccia e queste bionde chiome</l>
+<l>Fian per inanzi a te sferza e tormento. </l>
+	<l>Onde parte di duol strugger mi sento, </l>
+<l>E parte leggo in due begli occhi come</l>
+<l>Non dee mai riposar quest'alma stanca. </l>
+</lg></quote></p>
+
+<p>La qual non è nuova, ma rinovata, perché si trova fra quelle di Dante: e 'l suo trapasso è usato da Cino:
+
+	<quote rend="block"><lg>
+<l>Laonde di ciò mi struggo, e vo' morire, </l>
+<l>Chiamando morte che per mio riposo</l>
+<l>Mi toglia inanzi ched io mi disperi. </l>
+	<l>Miran là gli occhi miei sì volentieri, </l>
+<l>Che contra 'l mio voler mi fanno gire</l>
+<l>Per veder lei, cui sol guardar non oso. </l>
+</lg></quote></p>
+
+<p>Perché questa forma può acconciamente servirsi così de le testure che son fatte con ordine diretto, come di quelle che son composte con l'obliquo, le quali ho nominate trapassi e trasgressioni; e a l'altre testure, che son convenevoli ne la forma più grave, aggiungeremo quella che in ciascun de' ternari risponde co 'l terzo al primo e l'un e l'altro congiunge, quasi legando il secondo del secondo co 'l secondo del primo:
+
+	<quote rend="block"><lg>
+<l>Taccian per l'aere i venti, e caldo e gielo</l>
+<l>come pria no 'l distempre, e tutti i lumi</l>
+<l>che portan pace a noi raccende il cielo; </l>
+	<l>Alti pensieri, care, oneste voglie, </l>
+<l>Leggiadre arti, cortesi e bei costumi</l>
+<l>Rivesta il mondo e mai non se ne spoglie. </l>
+</lg></quote></p>
+
+<p>Ma a la temperata lasceremo quella ch'usò misser Cino, ne la quale al primo verso de' ternari risponde il quarto e gli altri fra loro, com'è questo:
+
+	<quote rend="block"><lg>
+<l>Per dimostrar a lei che conoscente</l>
+<l>Si faccia poscia de li mei martiri, </l>
+<l>Ma non può far pietà ch'ella vi miri. </l>
+	<l>Per che ne vivo isconsolatamente, </l>
+<l>E vo pensoso ne li mei desiri, </l>
+<l>Che son color che levano i sospiri. </l>
+</lg></quote></p>
+
+<p>E quella de Guido Cavalcante, che risponde al primo co 'l terzo e eo 'l quarto e concorda gli altri insieme:
+
+	<quote rend="block"><lg>
+<l>Io veggio a lui spirito apparire</l>
+<l>Alto e gentile e di tanto valore</l>
+<l>Che fa le sue virtù tutte fuggire. </l>
+	<l>Deh, io vi prego che deggiate dire</l>
+<l>A l'alma trista, che parla in dolore, </l>
+<l>Com'ella fu e fia sempre d'Amore. </l>
+</lg></quote></p>
+
+<p>Né de l'una e de l'altra mi ricordo aver udito essempio fra' moderni; ma io ho così lungamente ragionato che mi pare d'avervi posto adosso quella persona d'auditore che voi nel principio del vostro ragionamento mostraste di ricusare, la qual tanto vi deve parere grave quanto il ragionamento è stato più lungo. Ma nondimeno mi pare di raccogliere da' vostri sembianti ch'aspettiate ch'io aggiunga alcuna cosa a le già dette. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Io aspettava veramente, perché avete compartite in guisa tutte le testure de' sonetti che non avete lasciata alcuna al carattere umile, il qual parimente con diversi nomi è chiamato. Laonde mi pare ch'in questa guisa abbiate voluto escluderla a fatto dal sonetto, se forse non gli è rimasa quella ne la quale dopo i terzetti seguono molti ritornelli e ciascuno dietro a l'eptasillabo, o al verso di sette sillabe che vogliamo nominarlo; e in vero non mi par l'autorità del Bernia così picciola che egli non si possa contentar di quella forma che fu approvata da lui: percioché il Bernia tanto s'avanza in questo genere di poesia che per aventura non sono stati maggiori nel loro molti gravi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io non aveva riservata alcuna de le testure del sonetto a l'umile o a la bassa forma, perché non solo il Petrarca, ma Dante ancora l'avea quasi bandita dal sonetto, il quale, benché sia moltiforme, nondimeno in ciascuna forma è poco acconcio a ricever la bassezza e l'umiltà: e de l'altre quelle più gli sono convenevoli ch'abbiamo detto esser proprie de la maniera temperata, come potremo conoscere da questi luoghi di Dante ch'io recherò; e l'uno è quello
+
+	<quote rend="block"><lg>
+<l>E' non è legno di sì forti nocchi, </l>
+<l>Né anco tanto dura alcuna pietra; </l>
+</lg></quote></p>
+
+<p>il qual finisce in questi ternari:
+
+	<quote rend="block"><lg>
+<l>Deh, perché tanta virtù data fue</l>
+<l>A gli occhi d'una donna così acerba, </l>
+<l>Che suo fedel nissuno in vita serba</l>
+	<l>Ed è contra pietà tanto superba</l>
+<l>Che, s'altro muor per lei, non mira piue, </l>
+<l>Anzi gli asconde le bellezze sue. </l>
+</lg></quote></p>
+
+<p>E de l'altro
+
+	<quote rend="block"><lg>
+<l>Ahi, lasso, non credea trovar pietate</l>
+<l>Quando si fosse la mia donna accorta; </l>
+</lg></quote></p>
+
+<p>i terzetti del quale son questi:
+
+	<quote rend="block"><lg>
+<l>Però parla un pensier che mi rampogna, </l>
+<l>Com'io più vivo, non sperando mai</l>
+<l>Che tra lei e pietà pace si pogna. </l>
+	<l>Onde morir più non conviene omai; </l>
+<l>E posso dir che mal vidi Bologna</l>
+<l>E quella bella donna ch'io guardai. </l>
+</lg></quote></p>
+</sp>
+	<sp><speaker>O.C.</speaker><p> Assai umile è lo stile di questi sonetti. </p></sp>
+	 <sp><speaker>F.N.</speaker><p> Ma io lascerei i sonetti a le materie gravi e a la forma ancora; e se pur io talvolta gli abbassassi, non passarei la mediocrità, e mi parrebbe di riporli nel primo stato loro più vicino al nascimento; perché Dante e gli altri inanzi più volentieri composero il sonetto con stile mezzano: laonde egli in que' suoi libri ch'intitolò <emph>De la volgare eloquenza</emph>disse di voler trattar del sonetto nel quarto, dove dovea trattare del volgare mediocre, e, paragonando il sonetto a la ballata, affermò che 'l modo de la ballata era più nobile: da la quale opinione s'allontanò il Petrarca e 'l Bembo e 'l Casa e 'l Capello e 'l Tasso. Però mi pare che del sonetto coltivato da loro, sia avenuto quello ch'aviene d'alcune erbe, che per la coltura s'inalzano e trapassano ne la natura di piante. </p></sp>
+	<sp><speaker>O.C.</speaker><p> L'accrescimento di così artificiosi cultori senza dubio è stato maraviglioso; onde il sonetto in quella sua prima umiltà è quasi disprezzato. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma per le materie umili e per l'umili diciture è assai convenevole la forma de' madrigali, e fra' madrigali quelli ancora sono più convenienti a l'umil dicitore, i quali veggiamo ripieni d'eptasillabi, o regolari o irregolari ch'elli siano: percioché quelli altri che sono stati tenuti dal Petrarca in assai artificiose testure de' versi endecasillabi, potrebbono ad alcuno parer del carattere mediocre, quantunque da alcuni siano dette ballate; e son queste:
+
+
+<quote rend="block"><lg>
+<l>Non al suo amante più Diana piacque, </l>
+<l>Quando per tal ventura tutta ignuda</l>
+<l>La vide in mezzo de le gelide acque, </l>
+<l>Ch'a me la pastorella alpestra e cruda, </l>
+<l>Posta a bagnare un leggiadretto velo, </l>
+<l>Ch'a l'aura il biondo e vago capel chiuda; </l>
+<l>Tal che mi fece, or quando egli arde il cielo, </l>
+<l>Tutto tremar d'uno amoroso gielo. </l>
+</lg>
+	<lg>
+<l>Nova angeletta sovra l'ale accorta, </l>
+<l>Scesa dal cielo in su la fresca riva, </l>
+<l>Là ond'io passava sol per mio destino, </l>
+<l>Poi che senza compagna e senza scorta</l>
+<l>Mi vide, un laccio che di seta ordiva</l>
+</lg>
+<lg>
+<l>Tese fra l'erba ond'è verde il camino: </l>
+<l>Allor fui preso, e non mi spiacque poi, </l>
+<l>Sì dolce lume uscia de gli occhi suoi. </l>
+</lg>
+	<lg>
+<l>Or vedi, Amor, che giovenetta donna</l>
+<l>Tuo regno sprezza, e del mio mal non cura, </l>
+<l>E tra duo ta' nemici è sì sicura. </l>
+<l>Tu se' armato, ed ella in treccie e 'n gonna</l>
+<l>Si siede, e scalza in mezzo i fiori e l'erba, </l>
+<l>Ver me spietata e contra te superba. </l>
+<l>I' son prigion; ma se pietà ancor serba</l>
+<l>L'arco tuo saldo e qualcuna saetta, </l>
+<l>Fa di te e di me, signor, vendetta. </l>
+</lg></quote></p>
+
+	<p>Benché questo madrigale, se così vogliamo più tosto chiamarlo, nel Petrarca commentato dal Vellutello si legge senza il quinto verso senza alcun danno de la testura; e il quarto è:
+
+	<quote rend="block"><lg>
+<l>Perché al viso d'Amor portava insegna, </l>
+<l>Mosse una pellegrina il mio cor vano</l>
+<l>Ch'ogni altra mi parea d'onor men degna: </l>
+<l>E lei seguendo su per l'erbe verdi, </l>
+<l>Udi' dir alta voce di lontano: </l>
+<l>Ahi, quanti passi per la selva perdi. </l>
+<l>Allor mi strinsi a l'ombra d'un bel faggio</l>
+<l>Tutto pensoso; e remirando intorno, </l>
+<l>Vidi assai periglioso il mio viaggio; </l>
+<l>E tornai indietro quasi a mezzo il giorno. </l>
+</lg></quote></p>
+
+	<p>E del carattere istesso ancora paiono quelle che da tutti son dette ballate, fra le quali è la prima quella che comincia:
+
+<quote rend="block"><lg>
+<l>Lassare il velo o per sole o per ombra. </l>
+</lg></quote></p>
+
+<p>E oltre a questa sei altre si leggono nel Petrarca, parte nude, parte vestite, cioè parte di una, parte di più stanze, e in tutte si ripiglia ne gli ultimi versi la rima de' primi; ma quelle di Dante e del Boccaccio e de gli antichi s'inchinano più a l'umil forma di dire, come si può conoscere da quella:
+
+	<quote rend="block"><lg>
+<l>Io non dimando, Amore, </l>
+<l>Perché potrebbe il tuo piacer gradire: </l>
+<l>Così t'amo seguire</l>
+<l>In ciascun tempo, dolce mio signore. </l>
+	<l>E son in ciascun tempo egual d'amare</l>
+<l>Quella donna gentile, </l>
+<l>Che mi mostrasti, Amor, subitamente</l>
+<l>Un giorno che m'intrò sì ne la mente</l>
+<l>La sua sembianza umile, </l>
+<l>Veggendo te ne' suoi begli occhi stare, </l>
+<l>Che dilettare il core</l>
+<l>Da poi non s'è voluto in altra cosa, </l>
+<l>Fuor che in quella amorosa</l>
+<l>Vista ch'io vidi remembrar tuttore. </l>
+	<l>Questa membranza, Amor, tanto mi piace</l>
+<l>E sì l'ho imaginata, </l>
+<l>Ch'io veggio sempre quel ch'io vidi allora: </l>
+<l>Ma dir non lo potria, tanto m'accora; </l>
+<l>Che sol mi s'è passata</l>
+<l>Entro la mente: però mi do pace, </l>
+<l>Che 'l verace colore</l>
+<l>Chiarir non si porria per mie parole. </l>
+<l>Amor, come si vole</l>
+<l>Di' tu per me, là 'v'io son servitore. </l>
+	<l>Ben deggio sempre, Amore. </l>
+<l>Rendere a te onor, perché desire</l>
+<l>Mi desti ad ubbedire</l>
+<l>A quella donna, ch'è di tal valore. </l>
+</lg></quote></p>
+
+	<p>E alcune ballate si fanno, ne le quali si volge il parlare a la ballata, come ne le canzoni si volge a le canzoni: e ne abbiamo l'essempio in Guido Cavalcante:
+
+	<quote rend="block"><lg>
+<l>Vanne a Tolosa, ballatetta mia</l>
+<l>Ed entra quetamente a la Dorata; </l>
+<l>Ed ivi chiama, che per cortesia</l>
+<l>D'alcuna bella donna sia menata</l>
+<l>Dinanzi a quella di cui t'ho pregata. </l>
+<l>E s'ella ti riceve, </l>
+<l>Dille con voce lieve: </l>
+<l>Per mercé vegno a voi. </l>
+</lg></quote></p>
+
+	<p>E di simil natura sono, in quanto a l'umiltà del dire, quei componimenti illegitimi che si chiamano comunemente madrigali; e quantunque il Bembo ne gli <emph>Asolani</emph> chiamasse gli uni e gli altri canzone, gli chiamò co 'l nome del genere, perché tutte le composizioni in rima le quali si cantano possono esser dette canzoni. Ma ne le umili e ne le mediocri benché l'ultima rima fosse manco sonora de la prima, o per aver una sola consonante inanzi l'ultima vocale o per due vocali, non mi parrebbe che si peccasse nel convenevole, sì come non si pecca per l'istessa cagione ne la canzone elegiaca o pur ne la comica, la quale, come pare a Dante, è detta cantilena propriamente; ma ne la tragica, la qual dev'essere scritta in volgare altissimo e con altissimo stile mi par assai conveniente che l'ultime parole non siano manco risonanti de le prime o manco nobili e pellegrine. </p></sp>
+	<sp><speaker>O.C.</speaker><p> In questo ragionamento mi è avenuto quello che nel principio io non credeva, cioè ch'io ho quasi appresa l'arte del sonetto e de la ballata; ma l'arte de la canzona chi m'insegnerà? Percioché queste distinzioni che voi adducete son tali ch'io entro in grandissimo desiderio d'intenderla compiutamente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io, quando cominciai a ragionare, pensava di quello ch'a me non si conviene, ma non so come il corso del ragionamento m'ha trasportato: però quel ch'avanza potremo tutti imparare dal signor Ercole, il quale, avendo taciuto lungamente, alleggerirà di questo peso me, che son stanco di portarlo. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Questo vostro è nuovo artificio, non insegnato da Dante né sempre osservato dal Petrarca e da gli altri che poetarono doppo lui, avegna che ne' loro altissimi componimenti l'abbiano avuto; e da le cose che si fanno e non si fanno, egualmente non si dà alcun'arte: laonde io non porrei in ciò l'arte del sonetto in modo altissimo, anzi più presto direi che non ce ne fosse arte, perché que' libri ne' quali Dante ne ragiona son perduti: e s'alcun artificio è del sonetto, altrove si de' ricercare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Piacciavi dunque d'insegnarloci. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  In questa parte voi non intendereste da me alcuna cosa di nuovo, né forse la Orsina, la qual, benché sia molto studiosa del Petrarca e de gli altri poeti più novi, non disprezza gli antichi ammaestramenti. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non disprezzo veramente, ma di quello che molto apprezzo non molto intendo. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Dirò dunque per sodisfarvi, e comincerò da la definizione de la poesia data da l'Alighieri, la quale è questa: la poesia è una finzione retorica posta in musica. Ma ricercando Dante la sua nobilissima specie, dice che le cose ottime, secondo porta il dovere, sono degne de l'ottime: laonde, essendo il volgare illustre ottimo sopra gli altri volgari, l'ottime materie sono degne d'esser trattate in esso; le quali egli riduce a tre, che sono la salute e i piaceri di Venere e la virtù: e ciascuna di loro è obietto d'una de le potenze de l'anima nostra; e soggiunge che 'l modo eccelentissimo e nobilissimo co 'l quale si debbono stringere queste materie è quel de le canzoni, perché ne le canzoni si comprende tutta l'arte. E che ciò sia vero, si manifesta in questo, che tutto quello che si trova de l'arte è in esso, ma non si converte che tutto ciò ch'è in lui sia de l'arte: la quale sino a' tempi de l'Alighieri fu presa casualmente da' piccioli poeti, avenga che i poeti a caso siano differenti da' grandi. Ma Dante prima le ridusse sotto le regole di questo nobilissimo magisterio; e diffinisce la canzona una compiuta azione di colui che detta parole armonizzate e atte al canto, distinguendola in tre modi, tragico, comico ed elegiaco, e mostrando come tutta l'arte consista in tre precetti, il primo de' quali è intorno la divisione del canto, l'altra de l'abitudine de le parti, la terza del numero de' versi; ma de le rime non fece menzione, percioch'elle non sono proprie de l'arte de la canzona, essendo lecito certamente in ciascuna stanza ritrovar le rime e quelle medesime a suo piacer replicare: il che, se la rima fosse de la propria arte de la canzona, non sarebbe lecito. E cominciando da la prima parte, ch'è la divisione del canto, c'insegna ch'alcune stanze procedano sin al fine senza replicazione di modulazione e senza divisione, la qual volgarmente è detta volta, perché fa voltare da l'un modo ne l'altro, come è quella:
+
+	<quote rend="block"><lg>
+<l>Al poco giorno ed al gran cerchio d'ombra</l>
+<l>Son giunto, lasso, ed al bianchir de' colli, </l>
+<l>Quando si perde lo color ne l'erba: </l>
+<l>E 'l mio desio però non cangia il verde, </l>
+<l>Sì è barbato ne la dura pietra, </l>
+<l>Che parla e sente come <add>fosse</add> donna. </l>
+</lg></quote></p>
+
+<p>La qual communemente è detta sestina, quantunque non tutte le stanze d'una sola oda siano sestine, percioché quella ancora del Petrarca è sì fatta:
+
+	<quote rend="block"><lg>
+<l>Verdi panni, sanguigni, oscuri e persi</l>
+<l>Non vestì donna unquanco, </l>
+<l>Né d'or capelli in bionda treccia attorse</l>
+<l>Sì bella come questa, che mi spoglia</l>
+<l>D'arbitrio, e del camin di libertade</l>
+<l>Seco mi tira sì ch'io non sostegno</l>
+<l>Alcun giogo sì grave. </l>
+</lg></quote></p>
+
+<p>E questa maniera di stanze usò Arnaldo Daniello quasi in tutte le sue canzoni. Altre sono che patiscono divisione, la qual non può esser se non si fa la replicazione de l'oda, o davanti solamente o solamente doppo o da tutte due le parti. E se la repetizione de l'oda si fa davanti la divisione, si dice la stanza aver piedi: se dopo, aver i versi; se prima e poi, i piedi e i versi. Ma s'ella è senza la divisione de la prima parte, è detta fronte; ma se non ha la divisione de la seconda, è detta sirima o coda: e la fronte co' versi e i piedi con la sirima e i piedi con versi possono star insieme, ma la fronte con la coda non si congiunge insieme in una medesima testura, cioè la parte semplice con la doppia e la doppia con la semplice e la doppia con la doppia s'accoppiano, ma la semplice con la semplice non suol esser tessuta insieme. E questo in quanto al primo precetto, nel quale peraventura avreste desiderata da me brevità maggiore. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Niuna cosa è stata soverchia nel vostro ragionamento, però non possiamo dolerci de la lunghezza. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Passerò dunque al secondo precetto, il quale è de l'abitudine de le parti, ne la quale la fronte alcuna volta eccede i versi e alcuna è superata, e i piedi alcuna volta avanzano la coda, alcuna son superati; e i piedi e i versi ancora vicendevolmente vincono e sono vinti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> La brevità nulla toglie a la chiarezza.</p>
+	<p>Potrò dunque discender al terzo, nel quale attribuisce l'endecasillabo a la canzone tragica, volendo che tutte le stanze siano tessute d'endecasillabi <add>o</add> che almeno gli endecasillabi superino di numero gli eptasillabi e i pentasillabi, de' quali concede che possa essere uno solamente; ma la parte ne la quale si tesse un solo eptasillabo non può esser se non fronte o sirima, percioché ne' piedi e ne' versi è ricercata l'equalità di versi e di sillabe. E 'l verso ne l'uno significato chiamò quelli che son tessuti di versi, e ne l'altro quelli che si compongono di sillabe: laonde il numero dispari ha luogo solamente ne la fronte e ne la coda. E in questa ultima parte c'insegna ancora come le canzoni tragiche debbano prendere il principio da l'endecasillabo, percioché quelle le quali cominciano dal verso di sette non sono senza ombra d'elegia, e che l'endecasillabo e l'eptasillabo debbano essere disposti ne le diverse parti in guisa che si corrispondano ne l'abitudine: dico quel di undeci a quel di undeci e quel di sette a quel di sette. Ma forse vi parrò troppo lungo. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non temiate d'offenderci se non con la brevità. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Ultimamente, parlando de l'abitudine de le rime, dimostra ch'alcune parti non abbiano l'abitudine, altre l'abbiano, e di queste alcune accordino tutti i versi, altre ne lascino uno scompagnato, il quale è detto chiave e può esser non solo uno ma due, la desinenza de' quali è poi ripresa ne la stanza seguente: e l'abitudine de le rime può essere o de' versi che sono inanzi la divisione, o di quelli che sono inanzi e quelli che sono dopo, in modo che sia l'abitudine fra le rime de luna e l'altra parte, lodando oltre tutte le desinenze quelle che si chiudono in rime accordate: il che però è da schivar ne' piedi. E 'l primo di loro può essere di versi pari o dispari, di cadenze accompagnate o scompagnate; ma ne gli altri piedi dee servirsi l'ordine stesso, e ne versi ancora quasi sempre, quantunque avenga ch'alcuna volta non s'osservi: e si dee schivare la repetizione, l'equivocazione e l'asperità de le rime. E per conchiusione c'insegna che le cose le quali si cantano circa il destro, vadano con lunghezza convenevole verso l'estremo, e s'affrettino quelle che si cantano circa il sinistro: e chiama le cose che si cantano intorno al destro il persuadere, il rallegrarsi e 'l laudare, e quelle che si cantano verso il sinistro il dissuadere e l'infingere e 'l vituperare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Assai la signora Orsina e io abbiamo appreso de l'arte de la canzona; ma s'in lei si comprende tutta l'arte, ci sarà contenuta ancora quella del sonetto e de l'altre poesie. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Il sonetto è picciola poesia in rispetto de la canzona, e di picciolo pregio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E per questa cagione l'arte sua potrà rinchiudersi in quella di poesia così grande com'è la canzona. Ma volete trarla fuori accioché noi la conosciamo? Il signor Ercole non risponde, quasi troppo avaro di queste preziose richezze, ma io cercherò per improntitudine di trarne la risposta, e non voglio che cene partiamo senza novo guadagno. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Se così fosse come voi divisate, non sarei io troppo scarso, ma voi troppo cupido. </p></sp>
+	<sp><speaker>F.N.</speaker><p> La cupidità de le cose oneste è laudevole. Però ditemi: non avete voi detto, o più tosto Dante, con le parole del quale avete quasi parlato mostrando sì maravigliosa memoria, che tutta l'arte de la canzona consiste in tre precetti? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Così dice l'Alighieri. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma riducetevi, di grazia, a mente quali siano questi tre precetti, perché io, dopo quella mia lunga infirmità la qual ebbi in Mantova, facilmente mi dimentico di molte cose. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  L'uno è intorno a la divisione del sonetto, l'altro de le abitudini de le parti, la terza poi de le sillabe e de' versi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma 'l primo serve al sonetto parimente o non serve? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Serve. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Forse perché il sonetto si divide in molte parti come la canzona? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Per questa ragione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E però si può fare la replicazione de la modulazione. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Si può senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma l'altro de la abitudine de le parti si dee considerare nel sonetto o non si deve? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Si dee. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E vi pare che sia alcuna proporzione fra le parti del sonetto e de la canzona, cioè che tali siano i quaternari in rispetto de' ternari, quali i piedi sono e i versi? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Sì veramente; onde assai bene Antonio da Tempo divise il sonetto in piedi e in volte. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questo era quello ch'io aspettava a punto che ci dichiaraste; ma passando al terzo, non è determinato nel sonetto il numero de' versi e de le sillabe? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  È. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque egli prende questo ammaestramento ancora da la canzona. Ma de l'abitudine de le rime che diremo noi? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Le rime non sono de la propria arte de la canzona. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Nondimeno da l'ultima parte, ne la qual Dante c'insegna alcune cose de l'abitudine de le rime, possiamo raccogliere che non sia affatto inutile questa considerazione. </p></sp>
+	<sp><speaker>E.C.</speaker><p>Considerazione overo osservazione sarà peraventura la vostra, ma non arte: perché l'arte è de le cose certe, quali sono quelle che ci ha insegnate Dante nel suo magisterio, il qual sino a lui fu preso casualmente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Altramente parve forse a Dante medesimo, s'io l'ho ben inteso: percioché, se le rime non sono de la propria arte de la canzona, sì com'egli dice, sono d'alcun'arte ch'a lei non è propria; e s'egli avesse giudicato che non fossero d'alcuna arte, non avrebbe detto ch'elle non fossero de l'arte propria. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  E qual sarà quest'arte che non è propria de la canzona? </p></sp>
+	<sp><speaker>F.N.</speaker><p> L'arte del rimare, la qual non è propria de la canzona: percioché conviene al sonetto, a la ballata, al madrigale, a l'ottava, al capitolo e a l'altre poesie ancora illegitime e irregolari. </p></sp>
+	<sp><speaker>E.C.</speaker><p> E questa, se pur è arte, è solamente in quelle cose de le quali si può dar certa ragione; ma l'incerte e incostanti, le quali alcune volte si raccolgono sotto regole e alcune non si raccolgono, non ricevono eccelente magisterio né buono artificio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, se questo ch'egli ci diede è buono artificio, dovrà esser certo parimente. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Dovrà senza fallo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Or, se vi piace, consideriamo se questa certezza si trova ne le sue medesime canzoni: ché dapoi ci sarà più lecito di ricercare in quelle del Petrarca e del Casa, il quale ha dato principio al nostro ragionamento, ch'in lui non s'è potuto fermare. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questa considerazione al signor Ercole non potrà dispiacere. Ma da quale cominciarem noi? </p></sp>
+	<sp><speaker>F.N.</speaker><p> Da quella, se vi pare, la quale è la prima:
+
+	<quote rend="block"><lg>
+<l>Donne ch'avete intelletto d'amore, </l>
+<l>Io vo' con voi de la mia donna dire; </l>
+<l>Non perch'io creda sua lode finire, </l>
+<l>Ma ragionar per isfogar la mente. </l>
+<l>Io dico che, pensando al suo valore, </l>
+<l>Amor sì dolce mi si fa sentire</l>
+<l>Che, s'io allora non perdessi ardire, </l>
+<l>Farei parlando innamorar la gente: </l>
+<l>Ed io non vo' parlar sì altamente</l>
+<l>Ch'io divenissi per temenza vile; </l>
+<l>Ma tratterò del suo stato gentile</l>
+<l>A rispetto di lei leggieramente, </l>
+<l>Donne e donzelle amorose, con vui; </l>
+<l>Ché non son cose da narrarle altrui. </l>
+</lg></quote></p>
+
+<p>Ancora mi ricordo i versi, quantunque de le prose mi ho quasi <add>a</add> fatto dimenticato; ma lasciam questo che non monta niente, e ditemi fra quali canzoni la riporreste. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Questa è fra le tragice, di versi tutti endecasillabi composta di due piedi e di due versi; e l'un piede è eguale a l'altro e l'un verso a l'altro: e l'abitudine è non solamente fra le rime de l'un piede e quelle de l'altro, ma tra quelle ancora de' piedi e quelle de' versi. Laonde io non veggio che manchi alcuna cosa a la sua perfezione, s'alcuno forse non desiderasse la mescolanza del verso eptasillabo, per lo quale, come pare a Dante, insuperbisce l'endecasillabo, o se non voleste porre in considerazione ch'in tragica canzona chiuda la stanza con due rime, che per le vocali sono più tosto di suono dolce che di grande e superbo: la qual cosa tuttavia egli non fa senza molto giudicio, perché diminuisce co 'l suono il concetto, dicendo:
+
+<quote rend="block"><lg>
+<l>Ma tratterò del suo stato gentile</l>
+<l>A rispetto di lei leggieramente, </l>
+<l>Donne e donzelle amorose, con vui; </l>
+<l>Ché non son cose da parlarne altrui. </l>
+</lg></quote></p>
+</sp>
+	<sp><speaker>F.N.</speaker><p> Ma il giudicio è de le cose certe o de le incerte? dico, de le universali, de le quali si può aver certa scienza, o più tosto de le particolari, che sono sottoposte al senso? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Non si può negare che 'l giudicio non sia de le particolari. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E l'arte è de' particolari, che sono infiniti, o pur de gli universali? Voi non rispondete: in somma troppo avaro sete del sapere. Piaccia a voi, signora Orsina, di rispondere in sua vece, s'a lui par grave darmi la risposta. </p></sp>
+	<sp><speaker>O.C.</speaker><p> L'arte senza dubbio è de gli universali. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma se l'arte è de gli universali e 'l giudicio non è de gli universali, l'arte non sarà di quelle cose de le quali è il giudicio. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  A questo si può rispondere che non si può dimostrar l'arte e 'l giudicio ne le medesime cose; ma non si niega che il poeta in alcune sia artificioso, in altre giudicioso. </p></sp>
+	<sp><speaker>F.N.</speaker><p> A me basta che il poeta non in tutte le cose, né sempre, possa o debba essere artificioso: e 'l luogo che si toglie a l'arte sarà conceduto al giudicio? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  A l'inerzia più tosto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma l'inerzia, se pur è in alcuno che sia giudicioso, dee manifestarsi o star coperta e nascosa? </p></sp>
+	<sp><speaker>E.C.</speaker><p> Stare ascosa. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque dove ella si palesa non potrà dimostrarsi il giudicio, e 'l merito avrà luogo in una stessa composizione; ma il caso e la fortuna possono star insieme co 'l giudicio? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Possono; percioché egli suol discoprirsi in quelle cose medesime che sono sottoposte a la sorte: e queste io chiamo l'instabili e l'incerte. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, benché sia vero ch'i gran poeti siano differenti da quelli i quali compongono a caso, ciò si deve intendere di que' poeti che sempre o 'l più de le volte compongono in questo modo. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Di quelli. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E gli altri che sono buoni, sono simili a gli altri buoni artefici? </p></sp>
+	<sp><speaker>E.C.</speaker><p> Sono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma 'l capitano che vince molte volte per la sua prudenza vince alcuna volta per fortuna. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Vince. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E 'l nocchiero che spesso conduce la nave in porto con l'arte marinaresca ve la conduce talora per fortuna. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Per fortuna ancora. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E 'l pittor dipinge alcuna cosa per ventura. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Colui che gittò la spongia ne la tavola per disdegno e impazienza dipinse a questo modo la spuma del cavallo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque molte cose che son fatte per arte e per intelligenza son fatte ancora a caso: e quantunque non tutte l'arti participino de la fortuna egualmente, pur quasi tutte ne participano, chi più e chi meno. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo meno a Dante che a ciascun altro dovrebbe parer sconvenevole, il qual vuole che la fortuna sia una intelligenza posta al governo de la sfera umana; laonde quel che si fa per fortuna par che si faccia per intelligenza. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque l'arte sua de le canzoni non fu scompagnata da la fortuna. Ma diteci, signor Ercole: non è una de le regole di Dante che la concordanza di due rime vicine, la qual è laudevolissima ne la chiusa, si dee schivar ne' piedi? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  E certo de le sue, ch'io me ne ricordo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Tutta volta ne l'uno e ne l'altro piede di questa canzone sono accordate due rime vicine: il che fece Dante per aventura con quel medesimo giudicio ch'egli ne l'altre sue composizioni maravigliosamente ha dimostrato. Ma questo vi parrà di poca importanza, e di maggiore che si considerino in alcuna altra canzone come stiano quelle parti ch'egli chiama piede o fronte o versi o sirima. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Sì certo: percioché io potrei averle intese assai meglio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Considerando dunque co 'l signor Ercole, prendiamo quella:
+
+	<quote rend="block"><lg>
+<l>Donna pietosa e di novella etate, </l>
+<l>Adorna assai di gentilezze umane, </l>
+<l>Era là 've io chiamava spesso morte. </l>
+<l>Veggendo gli occhi miei pien di pietate</l>
+<l>Ed ascoltando le parole vane, </l>
+<l>Si mosse con paura a pianger forte: </l>
+<l>E l'altre donne, che se fur accorte</l>
+<l>Di me per quella che meco piangia, </l>
+<l>Fecer lei partir via; </l>
+<l>Ed appressarsi per farsi sentire. </l>
+<l>Qual dice: Non dormire; </l>
+<l>E qual dice: Perché sì ti sconforte? </l>
+<l>Allor lassai la nova fantasia, </l>
+<l>Chiamando il nome de la donna mia. </l>
+</lg></quote></p>
+
+<p>E dubiterà forse la signora Orsina se quella stanza sia tessuta di fronte e di versi, o di piedi o di sirima, o pur di piedi o di versi? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Di piedi e di versi non può essere secondo le regole di Dante: percioché i versi sarebbeno ineguali; né per l'istessa ragione di fronte e di versi è composta: dunque di sirima e di piedi. E non è sconvenevole che 'l sirima superi i piedi in lunghezza; perché egli c'insegna che i piedi possono avanzare il Sirima ed esser avanzati. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo aveva considerato anch'io; nondimeno, percioché allora chiamiamo l'ultima parte de la stanza sirima o ver coda, quando dopo la divisione non si fa la repetizione d'alcuna modulazione, e quando si fa, diciamo ch'ella ha versi, mi parerebbe che non dovesse esser grande il numero de' versi il qual fosse cantato senza replicazion di modulazione: percioché dove si fa il punto fermo o la pausa, ivi mi par che si possa acconciamente replicar le modulazioni. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Vorrei che ne chiedeste a messer Alfonso da la Viola, a lo Striggio, a l'Animuccio, al Lucciasco o al Fiorino o a fra Iacomo Moro o ad altro musico eccelente, dal qual udirei anch'io cantar questa canzone o alcuna in guisa ch'io sentissi inanzi la divisione la replicazione del modo e dapoi non l'udissi. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Voi sarete per aventura simile a Socrate, ch'imparò musica ne la sua vecchiezza. </p></sp>
+	<sp><speaker>F.N.</speaker><p> In questo vorrei assomigliarlo, o ne la virtù de l'animo. Ma consideriamo l'istesso in alcun'altra canzone:
+
+	<quote rend="block"><lg>
+<l>La dispietata mente, che pur mira</l>
+<l>Di dietro al tempo che se n'è andato, </l>
+<l>Da l'un de' lati mi combatte il core: </l>
+<l>E 'l desio amoroso, che mi tira</l>
+<l>Verso 'l dolce paese c'ho lasciato, </l>
+<l>Da l'altra parte è con forza d'amore. </l>
+</lg></quote></p>
+
+<p>Qui si fa, se non m'inganno, la divisione, la qual seguono questi versi:
+
+<quote rend="block"><lg>
+<l>Né dentro a lui senti' tanto valore, </l>
+<l>Che possa lungamente far difesa, </l>
+<l>Gentil madonna, se da voi non viene. </l>
+</lg></quote></p>
+
+<p>Dopo i quali stimarebbe la signora Orsina che si potesse prender riposo convenevolmente come dopo i tre primi? </p></sp>
+	<sp><speaker>E.C.</speaker><p> Si potrebbe; ma Dante non ha avuto questo riguardo, percioché a la repetizione de la modulazione si ricerca l'egualità de le parti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma ciò pare anzi cosa volontaria che necessaria: e se pur c'è ragion, ella vi prega che la ci insegnate. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Voi sapete che Dante chiama la stanza quella la quale è ricetto di tutte l'arti, per similitudine de le abitazioni ne le quali albergano gli uomini; ma sì come ne' palagi l'una stanza corrisponde a l'altra con bella proporzione, di maniera che sono eguali le parti superiori a l'inferiori e quelle che son poste a lo incontro, e 'l compartimento de le finestre parimente e de l'altre cose che sono per necessità o per ornamento, così ne la canzone debbono i piedi esser eguali a' piedi e i versi a' versi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questa ragione vera potrebbe essere in qualche modo, ma non so già s'ella sia certa: perché alcuna volta avviene altramente ne i palagi fabricati con buona architettura; laonde ne le stanze ancora, quantunque il più de le volte ciò dovesse osservarsi, alcuna fiata dovrebbe esser lecito di partirsi da questo ordine. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Sempre è assai certa quella ragione ch'è fondata sovra la proporzione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma sovra qual proporzione la fondaremo noi, sovra la geometrica o sovra l'aritmetica, o sovra la musica più tosto? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Sovra la musica. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la proporzion musica è sempre di egualità, o pur anco di maggior inegualità alcuna volta, alcuna di minore? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  De l'una <add>e</add> de l'altra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque secondo la vostra ragione le parti de le canzoni sempre non debbono essere eguali, ma qualche volta ineguali; o pur intendo poco quel che dite. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Non per poco ma per troppo intendere non m'intendete. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Perché adunque meglio v'intenda, consideriamo ancora le canzoni del Petrarca o del Casa, e prendiamo quella ch'è quasi reina fra l'altre:
+
+	<quote rend="block"><lg>
+<l>Nel dolce tempo de la prima etate, </l>
+<l>Che nascer vide ed ancor quasi in erba</l>
+<l>La fera voglia che per mio mal crebbe, </l>
+<l>Perché cantando il duol si disacerba, </l>
+<l>Canterò come vissi in libertate</l>
+<l>Fin ch'Amor nel mio albergo a sdegno s'ebbe. </l>
+<l>Poi seguirò sì come a lui n'increbbe</l>
+<l>Troppo altamente e che di ciò m'avenne; </l>
+<l>Di ch'io son fatto a molta gente essempio: </l>
+<l>Benché 'l mio duro scempio</l>
+<l>Sia scritto altrove, sì che mille penne</l>
+<l>Ne son già stanche, e quasi in ogni valle</l>
+<l>Ribomba il suon de' miei gravi sospiri, </l>
+<l>Ch'acquistan fede a la penosa vita. </l>
+<l>E se qui la memoria non m'aita, </l>
+<l>Come suol far, iscusinla i martiri, </l>
+<l>Ed un pensier che solo angoscia dàlle, </l>
+<l>Tal ch'ad ogn'altro fa voltar le spalle, </l>
+<l>E mi face obliar me stesso a forza, </l>
+<l>Che tien di me quel dentro, ed io la scorza. </l>
+</lg></quote></p>
+
+<p>Questa canzone, non dico a me, ma ad alcun altro potrebbe parer di piedi e di versi: percioché diranno ch'inanzi e dopo la divisione possa farsi la replicazione de la modulazione in guisa che siano due piedi e tre o più versi, né c'è alcuna certa ragione del compartimento: terminarei nondimeno i due primi piedi nel sesto verso; laonde mi par che ivi si possa, scrivendo e leggendo, far punto fermo e prendere convenevole riposo, quantunque nella terza trapassi co 'l sentimento sin a l'ottavo verso. E questo medesimo si potrebbe osservare in molte altre canzoni del Petrarca, per le quali cagioni è nato il dubbio. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Il dubbio è nato più tosto da l'ignoranza de' lettori che dal poco artificio del poeta. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questo potrebbe avenir facilmente: e porrò fra gli altri me stesso, che per la picciola cognizione che io ho de la musica ho di ciò altre volte dubitato. Nondimeno non mi parea picciolo artificio quel del poeta, ma incerto; laonde siasi pur grande quanto a voi pare, solo che voi a me concediate che egli non sia certo. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Grande e incerto non possono insieme stare, né parve a Dante, il qual lasciò scritte queste precise parole: “Percioché sono certamente poeti, se dirittamente la poesia consideriamo, la quale non è altro ch'una finzione rettorica e posta in musica. Nondimeno son differenti da' gran poeti, cioè da' regolati, percioché quelli hanno usato sermone e arte regolata, e questi, come s'è detto, hanno ogni cosa a caso”. </p></sp>
+	<sp><speaker>F.N.</speaker><p> I poeti grandi sono, come parve a Dante, i regolati; ma ch'i regolati usino certo artificio, non ho ancora appreso da Dante. Non però vi sia grave di rispondere a quel ch'io vi dimanderò per impararlo. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Chiedete quel che vi piace. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non vi pare che ci siano alcune cose vere che non son certe? </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Senza dubbio: percioché assai spesso avviene che la buona moglie abbia dato repulsa a l'amante, tutta volta è incerto; e vero sarà parimente ch'un ladrone abbia spogliato gli altari, ma di ciò non avremo certezza. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma fra le cose certe ce ne saranno alcune che non sian vere. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Niuna cosa è che sia certa e non vera. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque tutto quello ch'è certo è vero, ma non <emph>e converso</emph>. </p></sp>
+	<sp><speaker>E.C.</speaker><p> È come voi dite. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E se l'artificio del poeta è certo, sarà parimente vero. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Sarà. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la poesia, come Dante la diffinì, è una finzione retorica posta in musica. </p></sp>
+	<sp><speaker>E.C.</speaker><p> È veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque il vero artificio sarà artificio d'una finzione. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Non so quanto ciò sia sconvenevole; ma voi sete troppo sollecito investigatore di quel ch'importa assai poco. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Se questo non vi pare sconvenevole a bastanza, seguiamo oltre, e consideriamo la differenza che segue: la quale, essendo parte de la diffinizione, non può esser soverchia. E ditemi: l'arte oratoria, o retorica che vi piaccia nominarla, non dà precetti di quelle cose de le quali l'uomo consiglia e de le quali egli può far deliberazione? </p></sp>
+	<sp><speaker>E.C.</speaker><p> Di queste, e non d'altre. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma queste sono elle certe o di quelle che possono avvenire o non avvenire? </p></sp>
+	<sp><speaker>E.C.</speaker><p> De la seconda maniera. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque incerte. </p></sp>	<sp><speaker>E.C.</speaker><p> Incerte</p></sp>
+	<sp><speaker>F.N.</speaker><p> Il vero artificio dunque è del falso, e l'incerto del certo; la qual cosa a me par falsa o almeno incerta. </p></sp>
+	<sp><speaker>O.C.</speaker><p> E perché non usate voi chiamarla falsa certamente? </p></sp>
+	<sp><speaker>F.N.</speaker><p>Perché l'arte è abito e quasi forma, e le cose de le quali è arte sono quasi materia: e benché la materia sia incerta, non si toglie la sua certezza a la forma; il che, se vi piace, considererò con voi in questa guisa sinché al signor Ercole piacerà darci la risoluzione. Non istimate che la forma sia termine? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma il termine è certo o incerto? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Può essere certo e incerto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque il fine può essere certo e incerto. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Può. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E se 'l fine può esser certo e incerto, quel c'ha fine potrà esser certo e incerto ancora. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Può. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma quel che non ha fine è infinito ed è sempre incerto. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque il finito, in quanto egli è finito, è certo. </p></sp>
+	<sp><speaker>O.C.</speaker><p> È. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E questa certezza egli prende dal fine o dal termine: laonde io direi ch'il termine, in quanto egli è termine, fosse certo sempre, o che le cose terminate, in quanto terminate fossero certe. La forma dunque de l'arte, determinando la materia, le dà qualche certezza. Ma pur, se <add>ci</add> inganniamo, toccherà al Signor Ercole e a gli altri dotti trarci d'errore. </p></sp>
+	<sp><speaker>O.C.</speaker><p> A me così pare che segua da le cose dette. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Diremo dunque che questa certezza sia la regola. </p></sp>
+	<sp><speaker>O.C.</speaker><p> La regola, e non altra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma avete voi osservato ch'alcuna volta non potendosi la materia adattare a la regola, la regola si piega a la materia, come avveniva di quella che fu detta regola lesbia? </p></sp>
+	<sp><speaker>O.C.</speaker><p> L'ho osservato, o letto più tosto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> In questa guisa dunque la materia de le cose contingenti, la quale è molte fiate dura e malagevole da trattare, ricerca che la regola sua si torca e si pieghi secondo l'occasioni: il qual piegamento è il giudicio de l'artefice, o almeno egli non è senza il giudicio. Però io concederei assai facilmente a l'Alighieri ch'i poeti gravi siano i regolati, purché voi a me concediate che la regola non sia di queste rigide e dure che non si possano torcere in alcuna maniera, ma de l'altre che sono arrendevoli e pieghevoli di leggieri. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo vi sarà da me conceduto agevolmente accioché, se mai vi piacerà darlaci, cerchiate di scrivere l'artificio vostro al gusto de gli uomini che ci vivono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io non son tale che possa dar le regole, se non peraventura a me stesso; ma de le regole dateci da gli altri molte volte ho dubitato se fosse o non fosse convenevole osservarle intieramente. </p></sp>
+	<sp><speaker>O.C.</speaker><p> E per qual cagione? </p></sp>
+	<sp><speaker>F.N.</speaker><p> Se voleste ch'io vi manifestassi l'origine e quasi aprissi il fonte de' miei passati dubi, non saprei negare di compiacervi, particolarmente in presenza del signor Ercole. </p></sp>
+	<sp><speaker>O.C.</speaker><p> A tutti farete cosa grata oltra misura. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non abbiam già detto che la poesia è una finzione retorica posta in musica? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> La qual definizione è molto somigliante a quella che già diede l'antico Gorgia de la tragedia, cioè ch'ella fosse un inganno per lo quale gli ingannatori sono migliori di quelli che non ingannano, e gli ingannati più saggi de' non ingannati: e dico assai somigliante o più tosto in parte l'istessa, percioch'ogni finzione è inganno; ma se questa è finzione retorica, sì come parve a Dante, è inganno retorico. </p></sp>
+	<sp><speaker>O.C.</speaker><p> È senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> I retori dunque sono ingannatori. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Sono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E ingannatori eziandio gli oratori, che da loro apprendono questa arte de l'ingannare. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così credo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E questi oratori sono i poeti, e i poeti oratori simili a' medici, che, volendo che sia presa la medecina, ungano di mele i labri del vaso, e dopo che la medicina è stata presa, porgono sempre o confetto o narancio o altra cosa per la quale l'odore de la medicina non offenda l'infermo. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Molto somiglianti sono tutti questi ne gli artifici loro. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma gli ingannatori sogliono manifestare o ricoprire gli artificî? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Ricoprire. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Da gli oratori dunque e da' poeti sempre, o assai spesso, ci sarà coperto il loro artificio. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Sarà. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E ricoprendo inganneranno meno agevolmente o più facilmente? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Più facilmente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E l'ingannare più agevolmente è minor o maggior artificio? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Maggiore. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Il nasconder dunque l'inganno e, per così dire, la dissimulazione de l'arte è sommo artificio: e quello solamente ch'è stato usato da gli uomini grandi che governano i regni e le republiche e gli esserciti, qual fu Pericle, Demostene, Alcibiade, Scipione, Catone, Lelio, Cesare, Pompeo. E quantunque Marco Tullio insegnasse l'arte de l'oratore, nondimeno sprezzò tutta quella certezza, o più tosto minutezza o bassezza d'artificio, la quale da' retori s'insegnava con picciola mercede: però non solamente l'essercitò nel senato e fra' giudici a la grande e come a gran senatore pareva convenirsi, ma ne scrisse parimente come grande e sprezzatore di tutte l'esquisite diligenze. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo ch'ora dite, quantunque sia detto con ragioni assai nuove, è nondimeno conforme a l'opinione di molti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma i poeti, o siano gli istessi che gli oratori, come si raccoglie da la definizione, o pur tanto simili che molte cose de l'artificio siano communi, debbono in questo modo infingere e ricoprire l'arte per ingannare con maggior agevolezza. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così poi potranno meglio ingannare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> I poeti dunque sono simulatori, e i musici e gli istrioni: e particolarmente la scena simula l'azione de gli eroi, come dice Aristotele; e allora l'arte de' poeti sarà ne la somma eccelenza che sarà ne la somma simulazione. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non avrebbe concesso Platone questa maniera d'infingere a' poeti, i quali, come nel sonetto leggeste d'Omero, sono gli uomini sciocchi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non so quel ch'io dica d'Omero e d'Esiodo, perché sono tanto antichi che non è passata alcuna certa cognizione; tutta volta io credo ch'essi fossero i primi maestri de' costumi. Ma di Solone chi dubitarà qual egli fosse? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Niun certo, perché, parendogli picciola ogn'altra finzione, s'infinse pazzo e come pazzo volle persuader al popolo ateniese la ricuperazione d'Egina. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Di Sofocle parimente, d'Euripide e d'Agatone vi pare che si possa dubitare ch'essi non fossero uomini civili? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Di questi ancora s'ha la medesima opinione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E fra' Latini fu osservata questa maniera istessa d'infingere, per la qual Virgilio acquistò tanta riputazione che fu degno d'essere con Mecenate e Agrippa chiamato al consiglio d'Augusto, quand'egli pensava diporre la monarchia; e Orazio e quelli che seco fiorirono e quelli che furono in pregio al tempo de gli imperatori, con questo artificio de l'infingere s'aprirono la strada a molti onori. E quantunque grandi non fossero ne la republica, tutti nondimeno volsero scrivere e poetare come grandi. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così avenne. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E quinci nacque il disprezzo de le regole, per lo quale non acquistorno biasimo e vergogna alcuna, ma fama e onore. E ne la nostra lingua Dante, il quale fu non solamente poeta ma cittadino illustre, poco osservò alcuna di quelle regole ch'egli medesimo avea date. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Già questo abbiamo in parte conosciuto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Né l'osservò poi il Petrarca, il qual benché per le poesie latine volesse prender la corona de l'alloro dal buon re Roberto, ne le volgari nondimeno egli non ricercò altro onore che la grazia de la sua donna, e per questa ragione tanto solamente del magisterio ci volle discoprire, quanto a gentile amante parea convenirsi. Non l'osservò il Bembo, perché nacque gentiluom veneziano e visse ne la corte lungamente fra' grandi come grande e ultimamente fu creato cardinale; né sempre l'osservò monsignor da la Casa per le medesime cagioni; né 'l Capello, perché la sorte non gli tolse quel che gli diede il nascimento; né il Tasso, uomo di fortuna molto inferiore, ma d'ingegno eguale e di facilità e di felicità nel poetare più vicino al primo ch'al secondo. Ma percioché fra tutti questi niuno ricercò più la grandezza del signor Giovanni de la Casa, quantunque non conseguisse quel grado ch'era dovuto a' suoi meriti singolari, chiunque vorrà scrivere come conviensi a' grandi, a mio parere dovrebbe proporselo per essempio. Non vi spiaccia dunque che ci mettiamo inanzi alcuna de le sue canzoni. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo io aspettava, e mi ricordava che voi avevate promesso di farlo, e non so come ve n'eravate scordato. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Prendiam questa:
+
+	<quote rend="block"><lg>
+<l>Errai gran tempo, e del camino incerto, </l>
+<l>Misero peregrin, molt'anni andai</l>
+<l>Con dubbio piè, sentier cangiando spesso, </l>
+<l>Né posa seppi ritrovar giamai</l>
+<l>Per piano calle o per alpestro ed erto</l>
+<l>Terra cercando e mar, lunge e d'appresso. </l>
+<l>Tal ch'in ira e 'n dispregio ebbi me stesso; </l>
+<l>E tutti i miei pensier mi spiacquer poi</l>
+<l>Ch'io non potea trovar scorta o consiglio. </l>
+<l>Ahi, cieco mondo, or veggio i frutti tuoi, </l>
+<l>Come in tutto dal fior nascon diversi. </l>
+<l>Pietosa istoria a dir quel ch'io soffersi, </l>
+<l>In così lungo essiglio</l>
+<l>Peregrinando, fora; </l>
+<l>Non già ch'io scorga il dolce albergo ancora; </l>
+<l>Ma 'l mio santo Signor con novo raggio</l>
+<l>La via mi mostra; e mia colpa è s'io caggio. </l>
+</lg></quote></p>
+
+<p>Ne la quale io prego il signor Ercole che mi dica se i primi sei versi, ne' quali è terminato il sentimento, sia fronte de la canzona o piedi. Ma la dimanda potrà forse parere disdicevole a molti: percioché la fronte è la parte superiore de l'uomo e i piedi l'inferiore; laonde, se con questa proporzione dovessero considerarsi ne le stanze, l'una dovrebbe esser la parte suprema e l'altra l'infima. Nondimeno, perché Dante, il quale trovò questi nomi, diede l'uno e l'altro a la prima, io vi chiedo se questi sei versi siano fronte o piedi. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Piedi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma quelli che seguono saranno versi o sirima? </p></sp>
+	<sp><speaker>E.C.</speaker><p> Versi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma essendo questi versi composti di nove endecasillabi e due eptasillabi, saranno ineguali. </p></sp>
+	<sp><speaker>E.C.</speaker><p> Saranno. Ma io non doveva concedervi che la divisione si facesse dopo i sei primi versi. Farò dunque come i giocatori di scacchi, i quali, avendo mal giocato un pezzo, il ripigliano e 'l ritornano a giocare: percioché dirò che l'altra oda comincia nel nono verso; laonde i nove primi saranno tre piedi eguali, e gli otto ultimi o sarà sirima o pur due versi eguali. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Se così dividerete la canzone, fuggirete questa sconvenevolezza; ma ne la seconda non schiveremo quello ch'ad alcuno pare sconvenevole e a me degno di molta lode, cioè che 'l poeta trapassa da l'una a l'altra parte de la stanza senza ritegno e senza legge alcuna: percioché dal settimo passa ne l'ottavo:
+
+<quote rend="block"><lg>
+<l>Con sì fatto desio, come i' le tue</l>
+<l>Dolcezze, Amor, cercava...; </l>
+</lg></quote></p>
+
+<p>né si fermando al nono, discende al decimo senza freno a guisa di velocissimo cavallo di Partia o pur di fiume che discenda altrettanto chiaro quanto veloce. Ma ricerchiamo, se vi piace, in una de le canzoni di Dante quello che sin qui non abbiamo potuto ritrovare. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  Ricerchiamo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Or prendiam questa, ch'è de la leggiadria:
+
+<quote rend="block"><lg>
+<l>Poscia ch'Amor del tutto m'ha lasciato, </l>
+<l>Non per mio grato, </l>
+<l>Ché stato non avea tanto gioioso, </l>
+<l>Ma però che pietoso</l>
+<l>Fu tanto del mio core</l>
+<l>Che non sofferse d'ascoltar suo pianto, </l>
+<l>Io canterò... </l>
+</lg></quote></p>
+
+<p>Piacevi che questi sei primi sien fronte o piedi? </p></sp>
+	<sp><speaker>E.C.</speaker><p> Fronte, perché sono di sillabe ineguali, quantunque siano eguali i versi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questa è picciola differenza: però, se vogliamo che non si metta in considerazione, facciam come vi pare. </p></sp>
+	<sp><speaker>E.C.</speaker><p>  È tanta che basta. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque volete che sia fronte? Siasi, ma quelli che seguono sono tredeci, né possono esser sirima, percioché fronte e sirima non stanno insieme: segue dunque che siano versi. Or vedete se de' tredici versi, de' quali sette sono endecasillabi e gli altri eptasillabi, potete far versi eguali di sillabe e di versi; e se non potete o pur se non si possono, ne segue che la replicazione de la modulazione si faccia non solamente di versi eguali ma d'ineguali. </p></sp>
+	<sp><speaker>O.C.</speaker><p> A me pare che la conclusione sia tanto provata che non ci sia mestieri di prova. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Per aventura n'ha bisogno, perché alcuno difenderebbe più volentieri l'altra parte, che la fronte possa tessersi co 'l sirima. È dunque l'arte dataci da l'Alighieri vera il più de le volte: ha nondimeno alcune eccezioni per le quali mi pare che la regola si potesse accrescere e ricever le reposizioni ancora de' versi dispari; ma 'l mio parere non è fermo che alcuna volta non passi ne l'altra parte, che si può difendere similmente. Né questi solamente sono i miei dubbi, ma n'ho alcun altri maggiori che temo di palesare. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Fra noi si può dir ogni cosa assai securamente, perché tutti staranno tanto celati quanto a voi parrà. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io dirò adunque, assicurato da la vostra fede, che l'arte del rimare insegnataci dal poeta fu quella ch'egli volle insegnare publicamente, e che ce ne siano altre più secrete, che da molti non furono conosciute, da molti non rivelate a' volgari. </p></sp>
+	<sp><speaker>O.C.</speaker><p> E quali son queste, per vita del principe? </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non dico quali siano, ma quali credo ch'elle siano. Queste a mio parere sono la retorica e la dialettica: e 'l primo ch'ardisse di manifestarle dopo Dante, il qual pose la retorica per genere de la poesia o per differenza ne la definizione, fu Giulio Camillo: laonde così potea lamentarsi di lui il re Francesco, come fece Alessandro d'Aristotele, ch'avesse divolgati i libri de la <emph>Metafisica</emph>. Tutta volta egli picciola parte di questo artificio dimostrò ne' poeti, e in quella seguì anzi M. Tullio che Aristotele, ch'assai più larga dottrina ci avea lasciata scritta in otto libri de la <emph>Topica</emph> oltre i luoghi trattati ne la <emph>Retorica</emph>; e qual sia la diversità ch'è fra l'uno e l'altro, stimo che vi debba esser manifesta. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Quel ch'io ne so è poco in comparazione di quello ch'io ne posso imparare: però non vi sia grave di mostrarmi la varietà ch'è fra questi due famosi scrittori. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io la raccorrò in brievi parole, perché è cosa detta da gli altri, la qual non acquetò i miei dubbi, ma gli mosse. Dico che l'uno, cioè Aristotele, vuole ch'i luoghi de gli argomenti fossero le massime proposizioni, le quali sono in guisa credute per se stesse che non hanno bisogno di prova; e l'altro raccolse la moltitudine loro, ch'è grandissima, in poche differenze, le quali sono quasi luoghi de' luoghi, facendo l'arte, quanto più facile, tanto men copiosa: e Giulio Camillo dapoi mostrò esser usata da' poeti, e particolarmente dal Petrarca, nel formar l'elocuzione topica, che fu cavata da quelli istessi luoghi da' quali si traggono gli argomenti. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non veggio sin ora di che debbiate dubitare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Qual vi pare ne la poesia parte principale, l'elocuzione o la sentenza? </p></sp>
+	<sp><speaker>O.C.</speaker><p> L'elocuzione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Perché dunque insegna ne l'elocuzione quel che prima doveva insegnarci ne la sentenza? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Forse giudicò altramente Giulio Camillo, il quale non seguì la dottrina d'Aristotele. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E per questa cagione egli raccoglie ne la sua picciola <emph>Topica</emph> alcuni pochi luoghi e non si serve del numero così grande de le proposizioni. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Per questo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Avrebbe nondimeno potuto raccorre quelle che sono sparse ne' libri d'Omero, di Museo, d'Esiodo, di Pindaro, di Teognide, <add>di</add> Focillide, di Saffo, d'Anacreonte, d'Eschilo, d'Euripide, di Sofocle, d'Aristofane, di Teocrito, d'Appolonio, di Quinto Calabro, di Plauto, di Terenzio, di Lucrezio, di Virgilio, d'Omero, d'Ovidio, di Catullo, di Tibullo, di Properzio, di Dante e del Petrarca e di tanti altri non solo poeti, ma istorici e filosofi. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Avrebbe con l'aiuto del re di Francia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E le massime proposizioni sarebbono stati i luoghi de gli argomenti che debbono usare i poeti non solo per acquistar la benevolenza de la sua donna, ma in persuadere a principi l'unione e la pace e 'l ben publico o la guerra contra gli infedeli, come fece il Petrarca in quelle tre canzoni
+
+<quote rend="block"><lg>
+<l>Italia mia, benché 'l parlar sia indarno; </l>
+<l>Spirto gentil, che quelle membra reggi; </l>
+<l>O aspettata in ciel beata e bella; </l>
+</lg></quote></p>
+
+<p>ne le quali egli ha sì pochi imitatori, quantunque n'abbia tanti ne le materie amorose. </p></sp>
+	<sp><speaker>O.C.</speaker><p> E più n'avrà forse per l'avenire. </p></sp>
+	<sp><speaker>F.N.</speaker><p> In loro è stato usato soverchio artificio, laonde dovrebbono esser più tosto ristrette le leggi al piacere ch'allargate. </p></sp>
+	<sp><speaker>O.C.</speaker><p> L'imitazione mi par bella e grande; ma l'argomentar mi par cosa anzi da loico che d'oratore o di poeta. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Vi par dunque che 'l Petrarca non argomenti ne le canzoni già dette e ne l'altre sue e ne' sonetti; e che non argomenti assai spesso Virgilio e Omero e gli altri de' quali abbiamo ragionato? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Argomentano, ma rare volte, e spesso fanno altro che argomentare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Il che altro fanno? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Imitano o assomigliano. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E la similitudine non è una maniera d'argomento? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Or mi sovviene ch'il luogo da' simili, da' quali si traggono tanti argomenti, è quello che più conviene a' poeti e a gli oratori. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E oltre questo sapete che due sono le forme de gli argomenti usati da l'oratore, l'essempio e l'entimema, sì come è del loico l'induzione e 'l sillogismo. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Sollo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma ciascuno ch'assomiglia, non si propone qualche essempio d'assomigliare? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Senza dubbio.</p>
+    </sp>
+	<sp><speaker>F.N.</speaker><p> Dunque in qualche modo argomenta, quantunque l'argomento non sia messo in forma, ma ricoperto con quella finzione de la quale abbiam raggionato; ma quanto egli è meno manifesto, tanto egli è più acconcio a persuadere. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Veramente, leggendo i poeti, molto sono stata persuasa a l'onore, a la gloria e a la virtù: e quasi più che da' filosofi stessi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma oltre gli essempi vogliam noi credere ch'il poeta usi giamai gli entimemi? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Credo che ve ne siano a dovizia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E chiunque dimostra che 'l soggetto sia nel predicato o non sia, usa in qualche modo questo argomento. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Crediamo che 'l Petrarca l'usi mai? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Io non mi son accorta ancora di questo artificio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma riguardando forse più diligentemente, potrete per aventura riconoscere molti vestigi. </p></sp>
+	<sp><speaker>O.C.</speaker><p> E dove, o come? </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ponendo il soggetto de la canzonetta da l'una parte; e sia il soggetto madonna Laura e le cose le quali seguono o precedono overo sono aliene; e da l'altra il predicato, che sarà l'esser bella, e le cose parimente che sono precedenti a la bellezza o seguenti o pur aliene: e appariranno molti modi da congiungere il predicato al soggetto o da separarli da quelle cose che sono sconvenevoli a l'uno e a l'altro. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Non sarò tarda a riguardarci. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Né solo questo metodo mi par di riconoscere; ma ne la canzona veggio quasi una imagine o un'ombra del divisivo e nel sonetto del compositivo; percioché ne l'una si sparge e raccoglie ne l'altro, e l'una risponde a l'ode greca o latina, l'altro a l'epigramma. Ma 'l considerar queste cose più minutamente sarebbe fatica d'alcuno meno occupato. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Sarebbe veramente, né io ardirei d'impor tanto peso a chi n'ha sostenuta maggior parte di quella ch'io avrei creduta da principio che dovesse portare; ma tutto è stato vostra cortesia e nostro guadagno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Anzi pur l'acquisto è stato commune: che s'io avrò detto cosa che non vi dispiaccia, mi piacerà l'avere dubitato d'alcune cose e in altre confermata la mia opinione co 'l vostro giudicio. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Se 'l mio parere è degno d'alcuna stima, non lasciamo la musica, ch'è la dolcezza e quasi l'anima de la poesia, come poco inanzi accennaste di voler fare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma non accettaremo noi quella definizione di Dante, ne la quale concede il suo luogo a la musica? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Accettaremo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque il genere suo e quasi la materia sarà la finzione, e sue forme saranno retorica e musica. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Saranno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma, se non m'inganno, l'ultima forma fu aggiunta da lui non come essenziale ma quasi accidentale a la poesia, ne la quale sono alcuni parlari nudi e senza condimento che per se stessi sogliono esser ascoltati e letti volentieri, altri c'hanno bisogno di questo condimento; la qual differenza Dante medesimo mostrò di conoscere, dicendo che le canzoni adempiono per se stesse tutto quello che denno: il che le ballate non fanno, però hanno bisogno de' sonatori: e quinci seguita che le canzoni debbano esser stimate più nobili. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Assai in questo manifesta la sua opinione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma non tanto che non porga occasione di novi dubbi, perché, se le ballate hanno bisogno di sonatori, mi par che lo debbano aver de' ballarini ancora, a' quali mi paiono fatte più tosto. E a voi che ne pare? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo medesimo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> I sonetti dunque avranno bisogno di sonatori. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Avranno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E per questa ragione le canzoni, quantunque non abbiano bisogno di questi né di quelli, l'hanno di cantori o di cantatrici. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Sì veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Par dunque che 'l lor modo sia nobilissimo oltre tutti gli altri di questa specie e di questo genere, perché ha solo bisogno di chi le canta; ma i sonetti oltre il canto ricercano il suono, né le canzoni medesime il rifiutano, perché Aristotele dice ne' <emph>Problemi</emph> che sono udite più volentieri al suon di lira; e le ballate oltre il suono e 'l canto desiderano il ballo. Ma sovra le canzoni c'è un altro poema di un altro genere, il quale non ha bisogno d'esser cantato: e questo modo fu da lui conosciuto peraventura come si antiveggono le cose future, quando egli disse ch'alcuno sino a' suoi tempi non avea cantato de l'armi, de le quali si suol cantare e scrivere ne l'epopeia in guisa che 'l canto non toglie alcun pregio a le cose scritte, ma giunge più tosto: nondimeno sono bastevoli per se stesse, onde possono esser domandati non solo canti ma libri, ne' quali s'è usata l'ottava rima, come quella ch'essendo più uniforme, riceve minor varietà di modulazioni. </p></sp>
+	<sp><speaker>O.C.</speaker><p> in questo modo io ho già sentito cantare i versi di Virgilio a la lira. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E può meglio far senza il canto che non può alcuna de le già dette composizioni: laonde è molto più acconcia a la narrazione; percioché l'ineguale s'accommoda a la grandezza del dolore e de l'affanno, come dice Aristotele; ma a l'incontro quel ch'è eguale, come sono i versi tutti endecasillabi, è meno acconcio al pianto. Questo dunque a me pare che debba essere stimato il nobilissimo modo. E voi che ne dite? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Io lascio facilmente persuadermi. E l'altro, ch'egli chiama nobilissimo, è forse così chiamato per alcuna similitudine fra questo modo e l'eroico, il quale da lui è detto tragico, come appare in que' versi:
+
+<quote rend="block"><lg>
+<l>Euripilo ebbe nome, e così il canta</l>
+<l>L'alta mia tragedia in alcun loco. </l>
+</lg></quote></p>
+</sp>
+	<sp><speaker>F.N.</speaker><p> E in ciò seguitò il giudicio di Platone, il quale prima di lui chiama Omero poeta tragico. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Dietro a così grande autore non si può errare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Direm dunque, s'al signor Ercole <add>non</add> pare sconvenevole, che la tragedia sia un genere subalterno di quella ch'è propriamente tragedia e de la epopea e di queste picciole composizioni che participano de le passioni tragiche e de la sua nobiltà. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Tutto quello che non è negato dal signor Ercole prenderem quasi conceduto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma le canzoni hanno bisogno de la musica quasi per condimento. Ma quale cercherem noi che sia questo condimento, qual piace a' giovani lascivi fra' conviti e fra' balli de le saltatrici, o pur quello ch'a gli uomini gravi e a le donne suol convenire? </p></sp>
+	<sp><speaker>O.C.</speaker><p> Questo più tosto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque lasciarem da parte tutta quella musica la qual degenerando è divenuta molle ed effeminata, e pregheremo lo Striggio e Iacches e 'l Lucciasco e alcuno altro eccelente maestro di musica eccelente che voglia richiamarla a quella gravità da la quale traviando è spesso traboccata in parte di cui è più bello il tacere che 'l ragionare. E questo modo grave sarà simile a quello che Aristotele chiama <emph>doristí</emph>, il quale è magnifico, costante e grave e sopra tutti gli altri accomodato a la cetera. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Cotesto non mi spiace; ma pur niuna cosa scompagnata da la dolcezza può essere dilettevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io non biasimo la dolcezza e la soavità, ma ci vorrei il temperamento, perch'io stimo che la musica sia com'una de le altre arti pur nobili, ciascuna de le quali è seguita da un lusinghiero, simile ne l'apparenza, ma ne l'operazioni molto dissomigliante: e come l'arte de la cucina lusinga <add>a</add> la medicina, il calunniatore a l'oratore, il sofista al filosofo, così la musica lasciva a la temperata. </p></sp>
+	<sp><speaker>O.C.</speaker><p> Fra tanti lusinghieri sono in molto pericolo non solamente gli uomini ma l'arti medesime, e quelli e queste in gran parte contaminate. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque il nostro poeta da l'una parte si guarderà di non cadere ne le arguzie de' sofisti, le quali hanno ripiene molte composizioni che piacciono al mondo; da l'altra che 'l condimento de la musica non sia stemperato né soverchio; ma come Tirteo tra gli Spartani dovrà esser fra gli Italiani, o fra' cristiani più tosto, in queste guerre che sono tra loro e i Turchi e i Mori e gli altri c'hanno perduto il lume de la vera fede: e cantando ora circa il sinistro, ora circa il destro, si dovrà proporre come per essempio il movimento del primo cielo, che si muove da l'oriente a l'occidente o pur da la destra a la sinistra, e quelli de gli altri ancora che sono mossi diversamente; i quali duo moti assomiglia l'anima nostra con la volontà e con l'appetito. </p></sp>
+
+
+</div1>
+</body>
+</text>
+</TEI.2>

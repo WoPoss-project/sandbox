@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Cena familiaris</title>
+				<author>Leon Battista Alberti</author>
+			</titleStmt>
+			<extent>28 Kb in UTF-8</extent>
+			<publicationStmt>
+				<publisher>Biblioteca Italiana</publisher>
+				<pubPlace>Roma</pubPlace>
+				<date>2003</date>
+				<idno>bibit000003</idno>
+				<availability>
+					<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è
+						vietato</p>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Collezione BibIt</title>
+			</seriesStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Opere volgari</title>
+					<title type="part">I libri della famiglia ; Cena familiaris ; Villa</title>
+					<author>Alberti, Leon Battista</author>
+					<editor id="ed">Grayson, Cecil</editor>
+					<publisher>Laterza</publisher>
+					<pubPlace>Bari</pubPlace>
+					<date>1960</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<samplingDecl>
+				<p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità dell'autore
+					dell'opera sono stati soppressi nella versione digitale</p>
+			</samplingDecl>
+			<editorialDecl>
+				<correction method="silent" status="medium">
+					<p>Livello medio: controllo a video con collazione con edizione di riferimento</p>
+				</correction>
+				<quotation form="data" marks="all">
+					<p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati rappresentati sulla
+						versione digitale</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte</p>
+				</hyphenation>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy id="CGB">
+					<bibl>Classificazione generi BibIt</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date>400</date>
+			</creation>
+			<langUsage>
+				<language id="ita">Italiano</language>
+				<language id="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="CGB">
+					<term>Trattati</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>Data sconosciuta anteriore al 2000</date>
+				<respStmt>
+					<name>LIZ</name>
+				</respStmt>
+				<item>Digitalizzazione - OCR</item>
+			</change>
+			<change>
+				<date>Data sconosciuta anteriore al 2000</date>
+				<respStmt>
+					<name>LIZ</name>
+				</respStmt>
+				<item>Correzione linguistica</item>
+			</change>
+			<change>
+				<date>2002-11-07T00:00:00.000+02:00</date>
+				<respStmt>
+					<name>Barbara Romagnoli</name>
+					<name>BIBIT</name>
+				</respStmt>
+				<item>Codifica XML - Codifica manuale</item>
+			</change>
+			<change>
+				<date>2002-11-18T00:00:00.000+02:00</date>
+				<respStmt>
+					<name>Fabio Ciotti</name>
+					<name>BIBIT</name>
+				</respStmt>
+				<item>Validazione</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 n="Dialogo" type="dialogo">
+				<stage>[Interlocutori Battista, Francesco e Matteo Alberti]</stage>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Se mai a me parse vero, quanto si dice che el buono appetito rende la cena ottima, certo qui ora questo mi
+						pare verissimo, e così stimo affermeranno questi giovani, quali eccitorono ancora in me maggior voglia di
+						fare come loro con più alacrità e voluttà</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Contrario anzi, la affabilità e lo eccitare l’uno l’altro a festività ragionando sempre fu summo e ottimo
+						condimento del convito. Che ne dici tu, Battista?</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Pur come voi. Alle cene quello che presta molta voluttà nel cibo si è la fame. A’ nostri animi in tutta la
+						vita, come dissero alcuni dotti, niuno instrumento, niuna arte musica si trova suave quanto il ragionare
+						fatto insieme de’ cari amici. E vuolsi per satisfare al convito, prendere di ciò che vi s’appone con
+						voluttà, e recrearsi insieme con iocundità e pronta festività. E così loderò in ogni cosa secondo e’ tempi,
+						luogo e faccenda, che vi s’adoperi quanto li conseguitin le forze.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Adunque aremo da non lodarti, Battista.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Duolmi; e questo perché?</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Perché in questa nostra cena facesti ne l’uno né l’altro: quasi nulla cenasti, e meno favellasti. E piacemi
+						testé con queste parole averti eccitato a riso e ilarità. E così fà; queste tue cure litterarie, quali
+						tengono te sempre occupato, repetira’le altrove.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Come non ti ricordassero e’ costumi suoi! Battista di sua natura raro se non provocato favella, e per uso
+						lungo suole spesso intermettere ancora intero il dì senza gustar cibo. La prima ragion della sanità consiste
+						in conoscere e osservare quello che suole o nuocere o giovare, e indi moderarsi.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Niuna di queste, niuna. Ma rimirando or l’uno or l’altro di questi nostri nipoti, in me i’ ne pigliava meco
+						tacito gaudio e contentamento, riconoscendo in loro e’ liniamenti e movimenti e aria dei nostri frategli,
+						loro padri. Vedoli di presenza e aspetto abili, non immodesti, e spero saranno in ogni laude simili a’
+						nostri maggiori, e degni vero appellarsi Alberti. Vuolsi rendere grazia a Dio e laude a loro. Certo e’
+						nostri Alberti furono, — quale sia la cagione non è forse a me bene nota quanto io vorrei, e forse qui ora
+						non è luogo da riferirla, — certo furono pregiati e amati persino da chi non li conoscea se non per nome,
+						onde a noi altri ancora ne resta buona commemorazione e grazia.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Anzi in prima, e qui e in ogni presenza della nostra gioventù, sarà da investigare qualunche ragione
+						l’adirizzi a satisfare di dì in dì più a pieno alle nostre espettazioni e desiderii, quando per carità e
+						debito noi siamo loro padri e moderatori; e così loro iranno quinci da te vero convitati, cioè pieni di
+						ricordi e ammonimenti, atti a bene reggersi in vita con felicità. E per non perdere questa occasione
+						attissima al nostro offizio, mi pare di riferire qui a tutti insieme quello che a ciascuno appartiene
+						assiduo ricordarsi. Udite, giovani Alberti, udite da noi quali fussero le cagioni onde e’ nostri passati
+						furono amati e pregiati, e affermate in voi con ogni studio e diligenza imitare ogni loro instituto e
+						ragione di tradursi a buona grazia e fama. Una delle cagioni fu el numero degli uomini Alberti, la abundanza
+						delle facultà, lo assiduo acquistarsi, ben faccendo e giovando a molti, gran numero d’amici. Queste cose,
+						quali e quanto e come si trattino e governino, assai lo mostrò più fa Battista ne’ suo libri <title lang="lat">de Familia</title>. Ma quello che molto mi piaceva inne’ nostri passati, e giudico che fussi
+						ottimo aiuto a bene aversi, fu l’uso familiare e assidua conversazione e concatenata fratellanza fra loro
+						insieme piena di carità e iusto offizio; come veggo qui oggi Battista, dandoci essemplo di sé, pari vorrebbe
+						vedere da noi. E così faremo; imiteremo e’ nostri maggiori, quali niuno dì vacava che essi non convenissero
+						insieme, conferivano delle cose oneste e delle cose atte al bene della famiglia. Era fra loro el nome
+						Alberto pari a una loro repubblica; curavanla, correggevanla con ogni vigilanza e circuspezione. L’uscio di
+						qualunche di loro, l’animo, lo onore, ogni cosa era fra loro commune e quasi proprio, sì ad uso, sì a
+						governo e mantenimento. Chi amava uno, sentiva se accetto per questo a tutti gli altri; chi forse offendeva
+						qualunche <foreign lang="lat">etiam</foreign> minimo fra loro, dispiaceva a tutti, e massime a chi più
+						sapeva e valeva. Pensate voi, o figliuoli nostri; come può essere una famiglia in bene e non mal felice,
+						dove questa amorevolezza e ragione di conformarsi insieme non sia? Ove potrà una famiglia essere urtata,
+						quando questa volontà e consenso a tutti commune sarà in animo con opera e prontezza bene confirmata?</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Io spesso mi maraviglio, quando vidi in alcuna famiglia tanta, non dico solo ignoranza, ma inetta
+						ostinazione di gareggiare, massime per acumulare a sé qualche parte di peculio e levarlo da chi per molte
+						ragioni questo doveva presso di lui essere commune; onde poi asseguìta la impresa, trovorno perdita maggiore
+						che vittoria. Qualunque in ogni istoria mai volse conducere cosa alcuna degna in republica, sempre in prima
+						dede somma opera di multiplicarsi fautori e conspiratori. La natura dede alle famiglie ottimo fra loro e
+						proprio vinculo, sopra tutti fermissimo: questo fu la vera e dovuta consanguinità, onde fussero contro a’
+						casi avversi più muniti, e dalle ingiurie de’ pessimi meno offesi. Tu contenzioso preferisti uno piccolo
+						transitorio emolumento a tanta fermezza d’ogni tua fortuna e bene, e violasti la religione e santità della
+						innata fratellanza. Chi traprenderà essere a te amico, quando tu ricusi essere amato da’ tuoi, quali
+						amerebbono te, se tu amassi loro? Quale sarà fra’ cittadini sì infimo che stimi te, e non pigli ardire a
+						noiarti quando e’ ti vegga recusato e negletto da’ tuoi? E’ nati piccinini raffrenano e perturbano a’ grandi
+						l’ardente imprese contro di te de’ tuoi invidi e avversarii. Questo perché? Certo perche essi intendono che
+						la vera e natural coniunzione fra quelli che sono d’uno sangue e nome allevati insieme fa che quello che
+						duole e muove l’uno, in tempo ancora muove tutti gli altri; pàrli adonque cedere piuttosto che tirarsi
+						adosso ruina da tante parti. E così sono e’ ben collegati con vera benivolenza, non iniuria, temuti da’
+						nimici, e sono pari amati e seguiti da chi per loro spera migliorare e salvare suo stato.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Chi dubita che questa counione e naturale confederazione sempre fu utile e necessaria alle famiglie? Che
+						più? Sola la dimostrazione de essere d’uno animo tutti insieme e d’uno volere, gli fa pregiare e riverire,
+						quando bene fussero discordi. Ma spesso interviene che bisogna non fare poca stima delle sustanze sue, onde
+						facile insurgono lite. E vedemmo qualche volta alle famiglie che simulare fra loro dissidio in casi avversi
+						ne salvò parte.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>E’ mi soviene, e parmi verissimo, tra’ vicini, tra la moglie e ’l marito, tra’ frategli, mai sarà
+						dissensione, purché uno di loro sia savio. Le gravi e dannose discordie crescono quando ambo loro sono male
+						consigliati. Le contenzioni delle borse non hanno per sé forza di contaminare gli animi moderati. Chi per
+						cupidità e gara le farà capitali e convertiralle in odio, sarà stoltissimo. Consigliarei si chiamassero
+						certi amici, quali da voi intendessero e fra loro dicidessero la causa, e voi <foreign lang="lat">omnino</foreign> lungi fuggissi commutare insieme parole contenziose. Del contendere surge gara, della
+						gara ostinazione, della ostinazione ingiuria, della ingiuria iurgio e rissa e arme. E conoscesi che nello
+						uso civile sono due tempi varii, l’uno quando alla famiglia si cerca nuova amplitudine e dignità, l’altro
+						quando ella si trova fra e’ pochi ne’ primi luoghi onorata. Forse sarà non inutile fra ’l numero de’ maligni
+						per imminuire invidia, mostrarsi in ogni cosa meno potere e meno valere che tu non puoi. Ma se la città fia
+						retta da’ buoni, e più poteranno le leggi che le volontà, certo el bene fare tanto sarà più glorioso, quanti
+						più insieme concorreranno a fare pur bene.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>O Dio! che questo succedesse! Ma in quella terra se oggi ne fusse alcuna simile a quelle antiche nominate,
+						dove ogni cosa publica più era venale che le private, ove da’ primi anni e’ cittadini quasi come in una
+						scola imparorono e continuo osservorono essere varii, e in ogni cosa perseverorono dar parole fuori
+						contrarie alla volontà intima, e fare senza verecundia niuna delle cose promesse, quale omo sarà sì stolto
+						che non tema parere buono fra loro, o instituisca essere dissimile dagli altri?</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Vedi, Matteo, io sono certo che tu sempre volesti e vorrai essere più simile a’ buoni che a’ non buoni.
+						Felicissima, giocondissima commemorazione poter dire a se stessi: cognoscomi che io sono buono. E se ad
+						alcuni animali come al camello non piace bere l’acqua se prima e’ non la intorbida, sappi costui che tempo
+						l’aspetta, ove sofferirà molta e lunga sete; ma come chi navica, mutati e’ venti, mutate le vele, e seguite
+						altra dirittura se questo corso vi porta a porto, cioè a quiete e onesto ozio: dove questo non segua,
+						racogli e statti summo e sicurissimo dove tu adirizzi e’ tuoi concetti; fàtti bene volere da’ tuoi, da’
+						cittadini e da tutti con buone arti e aprovata integrità. La umanità e facilità e probità porgono scala e
+						ale a superare in cielo.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Udisti voi giovani, udisti voi?</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Dirò pure forse più che non richiede questo luogo. Di molte cose si ragiona, e non si negano a parole;
+						quali se fussero infatto meno difficili, ei! quanto sarebbe la vita e condizione de’ mortali ancora meno
+						misera. Fra’ savii e ’ pazzi, fra’ buoni e ’ mali, fra’ ricchi e ’ bisognosi, fra i tiranni e ’ subietti non
+						patisce la natura che benivolenza vi sia stabile, se fra loro non è quello che li componga e tenga insieme.
+						Bisógnavi qualche condizione per la quale minuendo all’uno e acrescendo all’altro, fra loro seguiti parità;
+						e se a me non pessimo fia necessità usare e contrattarmi con molti, dei quali tu conosci e’ loro pensieri,
+						vita e fatti, bastaramm’egli quanto che tu dici? Che può uno buono mutare di sé, se non in peggio?</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Secondo il fine che tu proponi, almeno fia mutabile la volontà, non da bene a male, ma da soffrire
+						piuttosto incomodo che turpitudine. Io persuasi a me già più tempo, che invero a’ buoni nulla possa nuocere
+						se non tanto quanto diventassino meno buoni. Più ferma e certa cosa ène la salvezza che porge Idio a’ buoni,
+						che non sono gli odii fra quegli che tu racontavi. Ma torniamo onde facemmo digressione. Dicesti, Matteo,
+						che l’uso de’ nostri familiari insieme con carità fu gran cagione a fargli pregiare; così pare anche a noi,
+						se già qui Francesco non fussi in altra sentenza.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>A me pare il simile, ma sopratutto e’ buoni costumi acquistarono loro molta grazia. Io posso affermare
+						questo; mai fu famiglia in questa nostra città più costumata, e forse per questo in prima fu ben voluta e
+						nominata.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Ben dici il vero, ed è così, e dobbiancene gloriare e proporci d’essere simili a loro. Che direte? Era per
+						Italia ridutto in proverbio; quando voleano approvare in alcuno la molta umanità e prestanza de’ lodatissimi
+						costumi, diceano: “costui è tale come se fussi nato e allevato fra gli Alberti??.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>E merito. In prima furono e’ nostri osservantissimi della religione e reverentissimi a’ loro maggiori.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Per confirmare el ditto tuo, Altobianco mio padre spesso mi referiva che per darsi quanto e’ doveva simile
+						a’ sua maggiori, mai volle essere veduto sedere in publico presente messer Antonio cavaliere suo fratello e
+						gli altri, dei quali uno è qui dottore e nel numero de’ cherici con offizii publici in degnità non ultimo;
+						mai presente, non dico alcuno padre e capo di famiglia, ma più, presente Lionardo, o Benedetto suo fratello
+						consubrino per età maggiore, mai fu veduto asedersi. E così noi tutti sempre rendemmo reverenza a’ maggiori
+						come a’ padri, e così loro amorono sempre noi come figliuoli.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Qualunque non inetto sia e bene allevato, senza dubio conosce che questo gli è debito e somma laude. Chi
+						rende onore ad altri, acquista onestamento a sé, ecco la ragione. Quello incorretto giovane non fece il
+						debito suo con degna reverenza verso el padre, quanto da lui richiedevano gli altri cittadini. Quel biasimo
+						di chi fu? Non di colui a chi non fu renduto a dignità, ma tutto e solo di chi non satisfece all’officio
+						suo. Tu, contro, contribuisti a chi meritava onore; fu pari tutto tuo, non d’altri, lo onestamento e lode.
+						Ben sapevo io che ’l mio rizzarmi, scoprirmi, ovviarli, salutarli, non portava a que’ miei alcuna cosa per
+						quale essi dovessino riferirmene merito, altroché rallegrarsi conoscendo che chi vedeva in me quella
+						osservanza e officiosità, mi riputava degno d’essere amato; e mancando in me quello che mi si richiedeva,
+						m’era dagli altri biasimo, e da me stessi rimordimento.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Que’ tuo Romani in ogni cosa mal corretti, oggi molto errano in questo; stimano e’ padri meno ch’e’ suo
+						vicini, e quinci crescono con molta lascivia e vizii.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Ben per questo costituirono que’ popoli, quali s’e’ suoi minori sino a certa età peccavano, e’ magistrati
+						punivano il padre, gastigavano e’ precettori che non li corressoro in tempo.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Questo bisognerebbe oggi in questa nostra città; sarebbono meno linguacciuti, più escogitati, meno
+						insolenti, più moderati nelle voglie loro; fuggirebbono l’assedio e corruttela de’ viziosi, da’ quali
+						depravati imparano essere ghiotti, inverecundi, giucatori, e senza alcuna riverenza o timor del biasimo. Ed
+						ècci tanta copia e sì pronta e petulante di questi seduttori, ministri e maestri di tutte l’arti pessime e
+						malificii, che per loro rari giovani crescono senza turpitudine.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Ben dici el vero. Omini pestiferi, fraudolenti, impronti, importuni, sfacciati, assediano la gioventù, e
+						più nuoceno a questi nominati uomini da bene che a’ plebei e men fortunati, quanto presso di loro trovano
+						più che rapire.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Io udiva questo che tu di’ fuori di qui; ora in presenza non vorrei vederlo, troppo mi perturberebbe. Dura
+						faccenda moderare la gioventù, vero, ma io in ogni altra cosa sarei con loro facile e indulgente, purché
+						fussero non sfrenati e simili a quelli che sdegnano e’ maggiori, e ostinati credono solo a sé, e curano solo
+						satisfare alle voglie sue. Non gli potrei riputare da bene, sendo non buoni e costumati. Chi dirò io che sia
+						da bene? Colui che merita grazia, favore, aiuto, laude e ogni bene. Chi merita ricever questo? Lo immodesto?
+						petulco? lascivo? inonesto? temerario? arrogante? temulente? scelerato? Certo no. Quello che tu concederai a
+						uno putido gaglioffo, sarà scritto alla tua umanità più che alla necessità di colui. Ma uno vizioso
+						indomito, quale solo oda, creda e diesi a quelli suoi confederati seduttori, degni d’ogni suplicio, costui
+						non merita essere guardato dalla plebe, nonché riputato fra gli omini da bene. E se vizio alcuno in
+						qualunque età e stato si trova dannoso, certo questo dagli antichi chiamato alea, come sono carte e dadi,
+						sempre fu perniziosissimo. Qual prudente non ricuserà ne’ suo traffichi uno giucatore? Pel giuoco chi
+						acquistò mai altro che nome di fraudolente e fabricator d’inganni? Del giuoco viene niuno piacere, grave
+						perdite, molestissime cure e infestissima sollecitudine, assidue perturbazioni. Tu, Francesco, alcuna volta
+						ti dilettano mie simili perquisizioni e invenzioni. Vedi, pregoti, quanto facci a proposito. Fingo che qui
+						sia uno giovane giucatore incorretto. Dimmi, figliuolo, se sul nostro ponte fussi un furioso, quale commosso
+						ad ira graffiasse, mordesse chi se gli apressò, e io dicessi: “spoglia e’ panni tuoi e io e’ miei,
+						leghia’gli insieme e stimularemo questo furioso; a cui di noi e’ farà peggio, costui torni nudo a’ suoi, e
+						restino e’ panni tutti al compagno??, — pigliaresti questo partito? Che, Matteo, se uno tale giovane qui
+						fussi, che credi risponderebbe?</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>E’ mi pare quasi scorgere da lungi dove tu intenda capitare, e risponderotti per lui. Ma prima fammi el
+						partito compiuto. Se l’uno di noi ricevessi picchiate pari all’altro?</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Ritorrebbe ciascuno e’ suoi. </p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Ben dici. Adonque rispondo, non lo pigliarei.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Perché no? E poi aresti e’ miei e insieme aresti e’ tuoi.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Anzi, tu aresti le tue picchiate e io le mie. E chi mi sicura che io torni sanza perdita, nonché con
+						guadagno?</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Prudente risposta, e se vi penseremo, troveremo che ’l giuoco, simile a uno di quelle furie poetiche,
+						ancora incende furore in chi se gli dia. E parvi poco furore? Giuocano dove a caso soviene loro, spesso su
+						qualche desco sordido e puzzulente, in luogo <foreign lang="lat">alioquin</foreign> frequentato, né si
+						curano essere veduti e biasimati da molti. E’ primi furono certi ribaldi: concorsevi numero di vilissimi
+						mercennarii: questo nostro omo da bene, nato per essere ornamento della patria, ma per corruttela degli
+						scelerati disviato e dedicato al giuoco, subito dimentica sé stessi, e vinto e tratto dalla miseria sua, non
+						si può contenere, mescolasi in quel fastidio: surgonvi altercazioni, vedesi da lunge el tumulto, odonsi voci
+						e parole pazze, odiose, bruttissime: concorre la plebe e biasima chi più erra, e sempre da’ savii e da e’
+						men savii per più rispetti in quella colluvie sarà più vituperato chi fia per el nome de’ suoi meno degno
+						d’essere veduto in tale errore fra loro. Aggiugni che dal ponte e dal furioso si partiranno subito che
+						vederanno el suo male. Questo giucatore mai si parte dal giuoco se non ultimo superato, e partirassi forse
+						dal ponte colui coll’occhio enfiato e livido, colla bocca e denti, colla gota e orecchi stracciata, col
+						petto tutto percosso, cose, non nego, dannose maisì al corpo; ma pel giuoco la parte in noi più da curarla
+						molto più patisce; perduta la recognizione del debito suo, non cura sé stessi, sotterrasi nel vituperio, non
+						vedendo quel che ne seguiti a quella brutezza, ma tumido di cupidità, livido de invidia e concusso qui e qui
+						da varie essagitazioni d’animo, ora per ricuperare quello che è perduto, ora per acrescere la vincita, — che
+						posso io dire altro? — arabbia, e così come prima precipitò sé stessi in questo male, così doppo la calamità
+						senza niuno utile urta sé stessi con acerbissimo pentimento.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Rispondi Matteo, tu che traprendesti farvi risposta. Pàrti che Battista dica el vero? Paionti diletti
+						questi nel giuoco da seguirli, o crucciamenti da fuggirli?</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>E chi ne dubita? Essecrabili, da biastemarli. Ma io potrei dire che molti in la sua gioventù pure allettati
+						parte da avarizia, parte dalle insidie e assedio de’ corruttori, cominciorono el giuoco solo per piacere, e
+						poi col tempo talora si ramendorono e liberoronsi da quella servitù.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Farannolo se in loro poterà parte alcuna di ragione e vero conoscimento. A questi bisogna solo diliberarlo,
+						e fuggire luoghi e persone e occasioni onde seguinti simili errori, e darsi ad altri onesti spassi, o a
+						quelli mestieri onde con più certezza e buona grazia e’ satisfaccino alla cupidità, acumulandosi con onestà
+						giusto peculio. Del giuoco, fra tanto numero di barattieri, non caverai uno o forse un altro, che non resti
+						mendico pel giuoco e invecchi svilito e nudo. Questo onde avvenga, non è oscuro a discernerlo. Non riesce al
+						giuoco la ’mpresa, parte per sua propria natura, parte per quello che doppo al giuoco ne seguita. Ecco,
+						tutti noi qui useremo convenire insieme a giuoco: trovansi questo dì fra noi fiorini mille: ciascuno di noi
+						propone e studia, quanto in sé sia, vincere. Dimmi, onde persuadesti tu che a te più che a me seguiti
+						vincita, se in te non sarà qualche arte fraudolente e apparecchio atto a ingannarmi? Potrò forse risistere
+						alla fraude di questo uno, ma se due o più faranno setta insieme contro me, che potrò io? Nulla. Ma e’ modi
+						con che uno solo può rubarme al giuoco, chi mai gli raconterebbe? Lasciamo adietro gli altri giuochi in
+						quali sono infinite decezioni e tradimenti (raro fu giucatore non prono e pronto a essere traditore), ma
+						diciam solo de’ dadi. In questi, circa la materia del dado, questa parte d’osso e stucco grave, quest’altra
+						lieve, giunte insieme e poste con accuratissimo artificio; certi punti posti due volte in uno dado, in un
+						altro niuna; a questi una faccia aspra o bene spianata e bene angulare, quest’altra tersa, liscia, curva
+						cogli angoli quasi tondi, onde bene posson dire, come colui giucando: “el tuo nonne el mio indugia a
+						rivenire??. Agiugni l’artificio della mano; scambiano e’ dadi, rinfondano e scemano le poste con prestezza
+						di mano e coperto furto. Insomma tutto el giuoco non ama altro che fraude, tradimento e preda. Lodasi per
+						questo quello di cui si dice che diede al figliuolo suo per ogni altro modo inemendibile, maestri
+						espertissimi, da’ quali esso imparassi e conoscessi questa arte che tanto li delettava. Seguinne che ’l
+						giovane, aperto discernendo le infinite insidie e ’ latenti lacci che s’adoperano giucando, revocò sé stessi
+						e corresse tanto errore e più non giucò. Tu, giovane male esperto, per inconsiderazione credulo, pur
+						prometti a te stessi buona e perpetua fortuna contro tante e sì artificiose falsità e tradimenti: portasti
+						più somma tu solo che tutti gli altri, e così desti in preda te stessi a’ tuoi insidiatori. Dirai, in questa
+						cosa può la fortuna; vincesi, perdesi, così passiamo tempo. Anzi perdete el tempo e voi stessi. Ma
+						concedoti; pogniamo che tu perdendo perdi poco, e vincendo vinci più. La perdita, se bene raconterai, sarà e
+						molta e spessa; la vincita, contro, rarissima. El mal tuo quale sussegue a poco a poco, tanto più nuoce
+						quanto tu meno lo senti. Ultimo te n’avedrai, quando ti troverrai sanza quella somma allora utile, ora
+						necessaria a’ bisogni tuoi, onde alienasti la possessione e resti indebitato. Non comparirai in publico, la
+						casa tua ti sarà uno carcere, contristera’ti in solitudine, gli amici e noti antichi ti rifuteranno e
+						aviliranno, e’ nimici ne saranno lieti e befferanti; tu da te stessi riceverai tormenti intollerabili,
+						repetendo in questa miseria gli spassi, gli amici, lo onore e gli altri beni perduti per tua colpa e
+						stoltizia, e forse per tedio di te stessi viverai errando per le selve, quasi come fiera per dolore furiosa.
+						O miserabile condizione! Che vita sarà la tua? Chi comunicherà teco alcuna sua amministrazione o traffico?
+						Qual de’ maggiori ti commetterà alcuna degna faccenda? Qual padre, non dico ti darà per moglie la figliuola,
+						ma quando mai patirà che ’l figliuolo suo a te sia familiare? Certo miserabile condizione, da eleggere la
+						morte per fuggirla. Ma pogniamo contro che ad alcuno di voi qualche volta la fortuna succeda in giuoco:
+						vincesti. Furono subito le torme de’ tuoi seguaci seduttori: dàcci vincita; spendi in quella e quell’altra
+						cosa superflua e lasciva. Vince domani quell’altro; pur simile fanno a lui. Non compie l’anno che, dissipata
+						tutta la somma comune, indi a niuno resta un quattrino.</p>
+				</sp>
+				<sp>
+					<speaker>FRANCESCO</speaker>
+					<p>Non basterebbe il dì a raccontare tutte le perversità e ruine che porge il gioco essecrabile! Uomini
+						vilissimi, abiettissimi i giucatori! Vuolsi odiare il giuoco e lungi fuggire chi se gli dia.</p>
+				</sp>
+				<sp>
+					<speaker>MATTEO</speaker>
+					<p>Udite, figliuoli, udite e così fate voi. Siete d’indole e presenza certo elegante, nobile, e in questo
+						simili a’ vostri maggiori; d’ingegno pronto, d’intelletto acuto e da natura proni e parati a farvi amare e
+						reputare. Donate a questa nostra età questo espettatissimo da voi e massimo gaudio e ultimo contentamento;
+						eccitate voi stessi, dedicate l’animo a virtù, amate i buoni, pigliate gloria in voi stessi dei buoni
+						costumi, imitate i vostri maggiori, da’ quali avete domestico essemplo per asseguire pari fama e nome;
+						intraprendete buoni essercizii, seguite i degni studii, date opera di bene meritare di voi stessi, della
+						famiglia vostra, della patria, faccendo come fecero i vostri maggiori, uomini religiosissimi,
+						costumatissimi, ornatissimi di molta e singolare virtù.</p>
+				</sp>
+				<sp>
+					<speaker>BATTISTA</speaker>
+					<p>Così farete, figliuoli. I buoni costumi danno dolce grazia a’ fanciulli, molta laude a’ giovani, ferma
+						autorità agli uomini maturi, onoratissima dignità a’ più attempati. Ad ogni età e stato i costumi buoni sono
+						ornamento e splendore di tutta la vita.</p>
+				</sp>
+			</div1>
+		</body>
+	</text>
+</TEI.2>

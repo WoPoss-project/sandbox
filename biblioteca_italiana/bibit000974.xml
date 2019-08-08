@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>La rappresentazione della festa de' Magi</title>
+    </titleStmt>
+    <extent>22 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000974</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Nuovo corpus di sacre rappresentazioni fiorentine del Quattrocento edite e inedite tratte da manoscritti coevi o ricontrollate su di essi</title>
+        <editor id="ed">Newbigin, Nerida</editor>
+        <publisher>Commissione per i testi di lingua</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date>1983</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.2 - LETTERATURA DRAMMATICA ITALIANA.1375-1492</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-08-23T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marco Fucini e Sonia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-09-17T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<castList n="Personaggi">
+<castItem><role>L'Angelo</role> <roleDesc rend="italic">che annuncia</roleDesc></castItem>
+<castItem><role>Baldassarre,</role> <roleDesc rend="italic">il Primo Magio</roleDesc></castItem>
+<castItem><role>Melchioro,</role> <roleDesc rend="italic">il Secondo Magio</roleDesc></castItem>
+<castItem><role>Guaspar,</role> <roleDesc rend="italic">il Terzo Magio</roleDesc></castItem>
+<castItem><role>Un Messo di Erode</role></castItem>
+<castItem><role>Erode</role></castItem>
+<castItem><role>Biancolino,</role> <roleDesc rend="italic">messo di Erode</roleDesc></castItem>
+<castItem><role>Il Sommo Pontefice</role> <roleDesc rend="italic">della Sinagoga</roleDesc></castItem>
+<castItem><role>Ruffino</role></castItem>
+<castItem><role>Satrapi, Scribi e Dottori</role></castItem>
+<castItem><role>Marignolla,</role> <roleDesc rend="italic">messo di Erode</roleDesc></castItem>
+<castItem><role>La Vergine Maria</role></castItem>
+<castItem><role>Gesù Bambino,</role> <roleDesc rend="italic">che non parla</roleDesc></castItem>
+<castItem><role>Giuseppe</role></castItem>
+<castItem><role>L'Angelo</role> <roleDesc rend="italic">che apparisce ai Magi</roleDesc></castItem>
+<castItem><role>L'Angelo</role> <roleDesc rend="italic">che licenzia il popolo</roleDesc></castItem>
+</castList>
+</front>
+<body>
+<div1 n="La rappresentazione della festa dei Magi">
+<argument><p rend="sc">QUI ANNUNZIA LA RAPPRESENTAZIONE<lb/>
+DELLA FESTA DE' MAGI</p></argument>
+<stage rend="italic">L'Angelo annunzia:</stage>
+<sp>
+<lg>
+<l> — O divote persone,</l>
+<l>per carità tutti vi vo' pregare</l>
+<l>che sanza far tenzone</l>
+<l>con gran silenzio dobbiate stare;</l>
+<l>e vedrete adorare</l>
+<l>dagli tre Magi, re dell'orïente,</l>
+<l>Cristo Gesù potente.</l>
+<l>Però attendete con divozïone.</l>
+</lg>
+</sp>
+<stage rend="italic">Gli Magi si scontrano insieme. El primo dice agli altri:</stage>
+<sp>
+<lg>
+<l> — Tutto maravigliato</l>
+<l>Sono al presente, vedendo venire</l>
+<l>sì grande e nobil stato</l>
+<l>quant'è quello di questo nobil Sire;</l>
+<l>ché non so che mi dire</l>
+<l>veder venir di qua tanta brigata.</l>
+<l><gap/>&lt;ata&gt;.</l>
+<l>Però, vi priego, dite dove andate.</l>
+</lg>
+</sp>
+<stage rend="italic">&lt;El&gt; Secondo Re dice:</stage>
+<sp>
+<lg>
+<l> — Io mi sono partito</l>
+<l>Per una stella ch'apparve nel cielo,</l>
+<l>con un splendor pulito</l>
+<l>che non credo nel mondo altro che quello</l>
+<l>esser stato sì bello,</l>
+<l>la quale espressamente m'ha narrato</l>
+<l>che nel mondo e nato</l>
+<l>el Re degli Giudei, e ch'io l'adori.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Terzo Re dice:</stage>
+<sp>
+<lg>
+<l> — Questo mirabil segno</l>
+<l>nelle mie parte vidi similmente</l>
+<l>di questo Signor degno:</l>
+<l>una gran stella apparir di presente,</l>
+<l>onde tutta mie gente</l>
+<l>feci mettere in punto per venire</l>
+<l>per ritrovar quel Sire</l>
+<l>che rappresenta questa nuova stella.</l>
+</lg>
+</sp>
+<stage rend="italic">El Primo Magio risponde agli altri:</stage>
+<sp>
+<lg>
+<l> — O Maiestate degne,</l>
+<l>io veggo già di Dio la volontade.</l>
+<l>Drizzate vostre insegne</l>
+<l>ché quel che dite si è la veritade.</l>
+<l>Io ho la nativitade</l>
+<l>di questo Re veduta per la stella</l>
+<l>che apparve a voi sì bella.</l>
+<l>Andiamo adunque dove la ci guida.</l>
+</lg>
+</sp>
+<stage rend="italic">Giunti gli Magi dove regna Erode, uno messo, per parte de Erode, dice a' Magi:</stage>
+<sp>
+<lg>
+<l> — El mio Signor Erode</l>
+<l>a voi mi manda a far questa 'basciata:</l>
+<l>che ognun di voi che m'ode</l>
+<l>veniate a lui tutti di brigata.</l>
+</lg>
+</sp>
+<stage rend="italic">El Primo Magio gli risponde:</stage>
+<sp>
+<lg>
+<l> — Sanza far più restata</l>
+<l>Andiamo con costui al suo Signore</l>
+<l>che forse sanza errore</l>
+<l>ci sapra dire ciò che noi cerchiamo.</l>
+</lg>
+</sp>
+<stage rend="italic">Gli Magi vanno a Erode, e 'l detto Erode dice:</stage>
+<sp>
+<lg>
+<l> — Che andate voi cercando</l>
+<l>Con tanta compagnia per queste parte?</l>
+<l>Credo che investigando</l>
+<l>andate questa patria con vostre arte;</l>
+<l>onde, per lo dio Marte,</l>
+<l>se non mi dite qual è la cagione</l>
+<l>che da vostre magione</l>
+<l>siate partiti, di voi arò sospetto.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Primo Magio gli risponde e dice:</stage>
+<sp>
+<lg>
+<l> — O sacra Maiestade,</l>
+<l>se vuoi saper di nostra condizione,</l>
+<l>e per queste contrade</l>
+<l>noi siam venuti qual sia la cagione,</l>
+<l>dirò senza tenzione:</l>
+<l>d'Arabia son Signore incoronato,</l>
+<l>e pel Verbo ch'è nato</l>
+<l>di là per adorarlo son venuto.</l>
+</lg>
+</sp>
+<stage rend="italic">Il secondo dice:</stage>
+<sp>
+<lg>
+<l> — Ed io, sacra Corona,</l>
+<l>son Signor natural dell'orïente.</l>
+<l>El nome mio sì suona</l>
+<l>per l'Erminìa grande, e similmente</l>
+<l>fra l'orïental gente,</l>
+<l>dove vidi una stella che mi disse</l>
+<l>che con doni venisse</l>
+<l>'dorare il Re ch'è nato de' Giudei.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Terzo Magio:</stage>
+<sp>
+<lg>
+<l> — Illustrissimo Sire,</l>
+<l>dell'India Maggiore i' son Signore;</l>
+<l>e questo ti vo' dire:</l>
+<l>che di tuo possa già non ho timore.</l>
+<l>Sappi che senza errore</l>
+<l>Il Re degli Giudei nato è per certo,</l>
+<l>come per segno aperto</l>
+<l>m'ha dimostrato Iddio per una stella.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode dice a' Magi:</stage>
+<sp>
+<lg>
+<l> — Una gran Signoria</l>
+<l>Cognosco esser la vostra in veritade.</l>
+<l>Con vostra compagnia</l>
+<l>Vo' che stiate alquanto, in la cittade</l>
+<l>ché poi con dignitade</l>
+<l>vi partirete, quando riposati</l>
+<l>sarete, ché affannati</l>
+<l>pur mi parete per lo cavalcare.</l>
+</lg>
+</sp>
+<stage rend="italic">Gli Magi vanno a uno luogo determinato. Erode manda per gli Satrapi e Scribi e dice al messo:</stage>
+<sp>
+<lg>
+<l> — Va 'n qua tu, Biancolino,</l>
+<l>presto alla Sinagoga de' Giudei,</l>
+<l>e ogni Greco o Latino</l>
+<l>che tu vi truovi, o Scribi o Farisei,</l>
+<l>e anco e Saducei,</l>
+<l>fagli venir qua sù da mia parte,</l>
+<l>e che portin le carte</l>
+<l>di lor profeti e d'ogni lor dottore.</l>
+</lg>
+</sp>
+<stage rend="italic">Biancolino si parte e vanne alla Sinagoga e dice al Sommo Pontefice:</stage>
+<sp>
+<lg>
+<l> — Iddio ti salvi e guardi,</l>
+<l>Principe sommo, con tua compagnia</l>
+<l>fa che non sia tardi,</l>
+<l>ch'è di bisogno che alla Signoria</l>
+<l>e alla Baronia</l>
+<l>del grande Erode venghi al presente,</l>
+<l>e con tutta &lt;la&gt; gente</l>
+<l>portar dobbiate tutt'i vostri libri.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo Pontefice risponde:</stage>
+<sp>
+<lg>
+<l> — Vanne pur, Biancolino,</l>
+<l>ché noi verremo tutti di brigata.</l>
+<l>Levati tu, Ruffino,</l>
+<l>e nella Sinagoga, ch'è serrata,</l>
+<l>fa che sia ragunata</l>
+<l>tutta la nostra setta, e po' torrai</l>
+<l>tutti gli libri che hai</l>
+<l>serrati nelle casse, e vanne innanzi.</l>
+</lg>
+</sp>
+<stage rend="italic">Ruffino apre le casse de' libri e mostragli al Sommo Pontefice e dice:</stage>
+<sp>
+<lg>
+<l> — Che vuo' tu più ch'io facci</l>
+<l>di questi libri che son qui trovati?</l>
+<l>Acciò che non si stracci,</l>
+<l>non stanno bene essere qui lasciati?</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo pontefice dice:</stage>
+<sp>
+<lg>
+<l> — Fa che gli sien portati</l>
+<l>alla corte de Erode immantanente,</l>
+<l>ed io con questa gente</l>
+<l>t'inseguirem, venendo passo passo.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo Pontefice con tutti gli Satrapi ne vanno a Erode e dice:</stage>
+<sp>
+<lg>
+<l> — Dio ti salvi e mantenghi,</l>
+<l>santa Corona. Un messo da tua parte</l>
+<l>m'ha detto ch'io a te venghi,</l>
+<l>e de' profeti recassi le carte</l>
+<l>e gli dottor dell'arte</l>
+<l>menassi meco, e gli altri Scribi tutti.</l>
+<l>Ecco siam venuti</l>
+<l>e ciò che comandasti abbiam portato.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode risponde:</stage>
+<sp>
+<lg>
+<l> — Voi siate e ben venuti.</l>
+<l>Ponetevi a seder ciascun di voi,</l>
+<l>e fate che condutti</l>
+<l>e libri vostri sian dinanzi a noi,</l>
+<l>e guardate sù poi</l>
+<l>se alcuno debba nascer Re giudeo</l>
+<l>che 'l vostro popul reo</l>
+<l>debba salvar per lo suo reggimento.</l>
+</lg>
+</sp>
+<stage rend="italic">E libri sono aperti e poi il Sommo Pontefice dice:</stage>
+<sp>
+<lg>
+<l> — Erode, io ho trovato</l>
+<l>nel libro qui del profeta Michea</l>
+<l>che 'l regno governato</l>
+<l>per un granduca, di cittade ebrea,</l>
+<l>Betleem di Giudea</l>
+<l>chiamata, debbe nascer un Signore,</l>
+<l>che sarà Redentore</l>
+<l>del popul d'Israel e d'ogni afflitto.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode risponde e dice:</stage>
+<sp>
+<lg>
+<l> — Io vorrei ch'e Dottori</l>
+<l>e Scribi della legge che hai menati</l>
+<l>uscissino qui fuori</l>
+<l>a dir quel ch'egli senton di tal fatti.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo Pontefice risponde a Erode così dicendo:</stage>
+<sp>
+<lg>
+<l> — E' son apparecchiati.</l>
+<l>Fatevi innanzi, e dite del Messia</l>
+<l>quel ch'è la profezia</l>
+<l>degli profeti. Canta qui ad Erode.</l>
+</lg>
+</sp>
+<stage rend="italic">Uno Satrapo si leva e dice:</stage>
+<sp>
+<lg>
+<l> — Sappi, Erode magno,</l>
+<l>che nascer debbe il Re degli Giudei.</l>
+<l>Di ciò non ti dar lagno</l>
+<l>ché questo tien e Scribi e Farisei;</l>
+<l>e anco più di sei</l>
+<l>degli profeti nostri han profetato</l>
+<l>che quando fia passato</l>
+<l>il tempo dato, nascerà 'l Messia.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode manda pel Primo Magio e dice al messo:</stage>
+<sp>
+<lg>
+<l> — Va presto a quel palazzo</l>
+<l>dove sono gli Re dell'orïente,</l>
+<l>e di' che per sollazzo</l>
+<l>chi è di lor primo, venghi a me al presente.</l>
+</lg>
+</sp>
+<stage rend="italic">Il messo risponde a Erode e dice:</stage>
+<sp>
+<lg>
+<l> — Sia fatta incontanente.</l>
+<l>Io ne vo ratto a far tua imbasciata</l>
+<l>alla nobil brigata</l>
+<l>che stan come Signori veramente.</l>
+</lg>
+</sp>
+<stage rend="italic">Il messo, giunto agli Magi, dice:</stage>
+<sp>
+<lg>
+<l> — Chi di voi è maggiore,</l>
+<l>mi manda el mio Signor che prestamente</l>
+<l>ne vadi di buon cuore,</l>
+<l>perché gli vuol parlar segretamente.</l>
+</lg>
+</sp>
+<stage rend="italic">Il primo Magio gli risponde e dice:</stage>
+<sp>
+<lg>
+<l> — Andiamo al presente,</l>
+<l>che ciò che 'l tuo Signore ha comandato</l>
+<l>per me tosto fia fatto.</l>
+<l>Muoviti presto, ch'io ti venga drieto.</l>
+</lg>
+</sp>
+<stage rend="italic">Giunto il Magio alla corte, Erode gli dice:</stage>
+<sp>
+<lg>
+<l> — I' ho per te mandato</l>
+<l>per volerti parlar qui nel segreto,</l>
+<l>che tu mi dichi a un tratto</l>
+<l>di quella stella, e di quel che tu hai detto.</l>
+<l>Quanto tempo è perfetto</l>
+<l>che la stella t'apparve in orïente</l>
+<l>per la qual con gran gente</l>
+<l>se' qui venuto con tanto triunfo?</l>
+</lg>
+</sp>
+<stage rend="italic">Il Primo Magio risponde e dice a Erode:</stage>
+<sp>
+<lg>
+<l> — Tredici dì passati</l>
+<l>sono ch'io vidi nelle mie contrade</l>
+<l>la stella che gran fatti</l>
+<l>mi dichiarò essere in tua cittade.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo Pontefice dice:</stage>
+<sp>
+<lg>
+<l> — E' dice veritade,</l>
+<l>però che molti segni sono stati,</l>
+<l>e gli pastor andati</l>
+<l>sono a 'dorarlo per divin precetto.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode manda per gli altri due Magi e dice al messo:</stage>
+<sp>
+<lg>
+<l> — Levati, Marignolla,</l>
+<l>e va per quegli Re che son rimasi,</l>
+<l>e questa volta vola,</l>
+<l>di' ch'egli venghi&lt;n&gt; qui con presti passi</l>
+<l>e ogni altra cosa lassi,</l>
+<l>perché egli è di bisogno che con loro</l>
+<l>io facci un gran dimoro.</l>
+<l>Va tosto adunche, e non far più tardanza.</l>
+</lg>
+</sp>
+<stage rend="italic">Marignolla giunge agli Magi innanzi e dice:</stage>
+<sp>
+<lg>
+<l> — Dio vi salvi, Signori.</l>
+<l>Erode re m'ha qui da voi mandato</l>
+<l>che usciate fuori</l>
+<l>di questo luogo, e poi dall'altro lato,</l>
+<l>lasciando ogni gran fatto,</l>
+<l>andate a lui sanza dimorar niente;</l>
+<l>e fate prestamente,</l>
+<l>ch'egli v'aspetta sù nel suo palazzo.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Secondo Magio risponde a Marignolla:</stage>
+<sp>
+<lg>
+<l> — Noi siamo apparecchiati</l>
+<l>a far ciò che comanda il tuo Signore;</l>
+<l>e tutti nostri fatti</l>
+<l>lasciaren stare per lo suo amore.</l>
+</lg>
+</sp>
+<stage rend="italic">Marignolla risponde:</stage>
+<sp>
+<lg>
+<l> — Adunche, di buon cuore</l>
+<l>venite meco e, per la minor via</l>
+<l>che a me possibil fia,</l>
+<l>vi menerò, perché siete Reali.</l>
+</lg>
+</sp>
+<stage rend="italic">Giunti gli Magi da Erode, Erode dice loro:</stage>
+<sp>
+<lg>
+<l> — Io v'ho fatto chiamare</l>
+<l>dinanzi a me per voler esser certo</l>
+<l>quant'è che a cavalcare</l>
+<l>voi cominciasti per aver tal merto,</l>
+<l>e quando discoperto</l>
+<l>vi fu del Re giudeo il nascimento</l>
+<l>per quel avvenimento</l>
+<l>della gran stella, e quando la v'apparve.</l>
+</lg>
+</sp>
+<stage rend="italic">Uno de' Magi risponde e dice:</stage>
+<sp>
+<lg>
+<l>Sappi, signor Erode,</l>
+<l>noi ti diren sempre la veritade,</l>
+<l>e costor che qui m'ode</l>
+<l>fien testimoni, che di mie contrade</l>
+<l>per ville e per cittade</l>
+<l>noi siam venuti in tredici giornate</l>
+<l>colle nostre brigate,</l>
+<l>veduta che noi avemo la gran stella.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Terzo Magio dice a Erode ancor lui:</stage>
+<sp>
+<lg>
+<l>Ed io similemente</l>
+<l>Mi mossi di mia patria cavalcando</l>
+<l>con tutta la mia gente,</l>
+<l>e 'n tredici giornate camminando</l>
+<l>siam venuti cercando</l>
+<l>il Re degli Giudei, perché la stella,</l>
+<l>che m'apparve sì bella,</l>
+<l>sempre mia guid a è stata pel cammino.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode si volge al Sommo Pontefice e dice:</stage>
+<sp>
+<lg>
+<l> — Se avete altra scrittura</l>
+<l>al nascimento di questo Messia,</l>
+<l>fate con buona cura</l>
+<l>la sia disposta alla presenza mia.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo pontefice risponde e dice:</stage>
+<sp>
+<lg>
+<l>E' ci è la profezia</l>
+<l>Che nel Salmista fece il gran profeta,</l>
+<l>la qual vo' che sie letta</l>
+<l>per quel Dottor della legge ebrea.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo Pontefice chiama uno Dottore:</stage>
+<sp>
+<lg>
+<l>O Dottor della legge</l>
+<l>Che diede a Moisè il grande Iddio,</l>
+<l>pella qual sì si regge</l>
+<l>dell'Israele tutto &lt;'l&gt; popul mio,</l>
+<l>odi quel che dich'io:</l>
+<l>levati su, e di' apertamente,</l>
+<l>ad Erode e sua gente,</l>
+<l>quel che 'l profeta ha detto del Messia.</l>
+</lg>
+</sp>
+<stage rend="italic">Uno Dottore si leva e dice:</stage>
+<sp>
+<lg>
+<l> — Davit profeta grande</l>
+<l>che fu ripieno di Spirito Santo,</l>
+<l>negli suo' salmi spande</l>
+<l>la gran sentenza sotto il nuovo canto;</l>
+<l>ma per non tediar tanto</l>
+<l>la tua presenza, dirò brievemente:</l>
+<l>dice che varie gente</l>
+<l>verrà con doni adorar Cristo nato.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode si volge al Sontmo Pontefice:</stage>
+<sp>
+<lg>
+<l> — Po' che così egli è scritto</l>
+<l>Che nascer debba un Re degli Giudei,</l>
+<l>bastami aver sentito:</l>
+<l>tornate indrieto cogli Farisei.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Sommo Pontefice dice a Erode:</stage>
+<sp>
+<lg>
+<l> — Questi compagni miei,</l>
+<l>ed io con loro, siamo al tuo piacere.</l>
+<l>Poiché non vuoi sapere</l>
+<l>altro da noi, fatevi con Dio.</l>
+</lg>
+</sp>
+<stage rend="italic">Erode si volge agli Magi e dice:</stage>
+<sp>
+<lg>
+<l>I' ho fatto investigare</l>
+<l>tutte le profezie e gli profeti</l>
+<l>per voler ritrovare</l>
+<l>di questo Re, come da voi udetti,</l>
+<l>e però andate lieti</l>
+<l>a ritrovar quel che disiderate;</l>
+<l>e po' da me tornate</l>
+<l>che grande onore anch'io gli vorrò fare.</l>
+</lg>
+</sp>
+<stage rend="italic">Gli Magi si partono da Erode e uno di loro dice:</stage>
+<sp>
+<lg>
+<l> — Fatti con Dio, Signore,</l>
+<l>che se ritrovereno il Verbo nato,</l>
+<l>indrieto con fervore</l>
+<l>a te ritorneren dall'altro lato,</l>
+<l>perché meglio avvisato</l>
+<l>possi esser dov'egli è, per &lt;ritrovarlo&gt;</l>
+<l>ed ancor adorarlo</l>
+<l>com'egli è degno e come debbi fare.</l>
+</lg>
+</sp>
+<stage rend="italic">La stella apparisce, partiti i Magi da Erode, e i Magi fanno allegrezza insieme dicendo:</stage>
+<sp>
+<lg>
+<l> — Ecco la nuova stella,</l>
+<l>compagni miei, ch'era da noi smarrita.</l>
+<l>Quant'ell'è fatta bella!</l>
+<l>Andiangli drieto per questa via dritta.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Secondo Magio dice:</stage>
+<sp>
+<lg>
+<l> — Già mai nella mia vita</l>
+<l>dentro al mio cor senti' simil dolcezza!</l>
+</lg>
+</sp>
+<stage rend="italic"> Il Terzo Magio dice:</stage>
+<sp>
+<lg>
+<l> — Né io mai allegrezza</l>
+<l>ho ricevuto maggior quanto questa!</l>
+</lg>
+</sp>
+<stage rend="italic">Giunti gli Magi al presepio, il Primo dice:</stage>
+<sp>
+<lg>
+<l> — Io son Re Baldassarre,</l>
+<l>e voglioti offerir questo presente,</l>
+<l>ma prima vo' adorare</l>
+<l>te, Gesu Cristo, Re onnipotente,</l>
+<l>acciò che ogni gente</l>
+<l>conosca per questo oro ch'io t'ho dato</l>
+<l>che Re incoronato</l>
+<l>se' de' Giudei e di tutto 'l mondo.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Secondo Magio dice:</stage>
+<sp>
+<lg>
+<l> — Ed io son Melchioro</l>
+<l>che adorar vengo te, Gesù beato.</l>
+<l>Il mio è piccol tesoro:</l>
+<l>cioè oncenso e questo solo ho fatto</l>
+<l>che sia significato</l>
+<l>tu solo esser sacerdote degno,</l>
+<l>che per virtù del legno</l>
+<l>assolver debba gli nostri peccati.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Terzo Magio dice:</stage>
+<sp>
+<lg>
+<l> — Guaspar son nominato,</l>
+<l>che inginocchioni ti voglio adorare.</l>
+<l>Mirra meco ho recato,</l>
+<l>che gran misterio vuol significare;</l>
+<l>e ciò vuol dimostrare</l>
+<l>che morir hai per l'umana natura,</l>
+<l>e 'l corpo in sepoltura</l>
+<l>sarà con questa mirra inviluppato.</l>
+</lg>
+</sp>
+<stage rend="italic">La Vergine Maria risponde:</stage>
+<sp>
+<lg>
+<l> — O grazïosi e degni</l>
+<l>divoti singular&lt;i&gt; del mio Figlio,</l>
+<l>quanto siete benigni</l>
+<l>a non aver temuto alcun periglio!</l>
+<l>Per questo fresco giglio</l>
+<l>siete venuti di lontan paesi</l>
+<l>con tutti vostri arnesi.</l>
+<l>Siate da me molto ringrazïati.</l>
+</lg>
+</sp>
+<stage rend="italic">Josep dice a' Magi:</stage>
+<sp>
+<lg>
+<l> — Signor miei grazïosi,</l>
+<l>io non potrei &lt;già&gt; mai rimeritare</l>
+<l>gli doni prezïosi</l>
+<l>che avete a Cristo voluto donare;</l>
+<l>ma Lui che ciò sa fare</l>
+<l>sarà Colui che nel vostro cammino,</l>
+<l>benché sia piccolino,</l>
+<l>vi scamperà di male e di fatica.</l>
+</lg>
+</sp>
+<stage rend="italic">Il Secondo Magio risponde per tutti e dice:</stage>
+<sp>
+<lg>
+<l>Noi questo abbiam fatto,</l>
+<l>perché la stella nuova che vedemo</l>
+<l>ci ha il vero dimostrato,</l>
+<l>che costui è Iddio, e però proponemo,</l>
+<l>e insieme disponemo,</l>
+<l>con questi doni venire adorare,</l>
+<l>e di poi ritornare</l>
+<l>per quel cammino ch'abbiam imparato.</l>
+</lg>
+</sp>
+<stage rend="italic">L'Angelo apparisce a' Magi:</stage>
+<sp>
+<lg>
+<l> — Iddio Signor superno</l>
+<l>per me v'avvisa che non torniate</l>
+<l>dal figliuol dello 'nferno,</l>
+<l>Erode re crudel, ma dirizzate</l>
+<l>tutte queste brigate</l>
+<l>per questo altro cammino, ch'è migliore</l>
+<l>a fuggir il furore</l>
+<l>di quel perfido Erode, can crudele.</l>
+</lg>
+</sp>
+<stage rend="italic">Partiti gli Magi, Maria dice a Josep:</stage>
+<sp>
+<lg>
+<l> — Gran maraviglia certo</l>
+<l>mi fo vedendo tanti segni e tali</l>
+<l>che già gli è discoperto</l>
+<l>pell'universo mondo fra' mortali,</l>
+<l>come fra due animali,</l>
+<l>di me, Vergine intatta, 'l Figlluol mio</l>
+<l>nato è, ch'è vero Iddio.</l>
+<l>E Magi e gli pastor l'hanno adorato.</l>
+</lg>
+</sp>
+<stage rend="italic">Risponde Josep:</stage>
+<sp>
+<lg>
+<l> — Ed io più maraviglia</l>
+<l>forse di te m'ho fatta di più cose,</l>
+<l>che con tanta famiglia</l>
+<l>questi tre Re e altre gente grosse</l>
+<l>per venir qua sien mosse,</l>
+<l>come fûr i pastor, per adorare</l>
+<l>e per magnificare</l>
+<l>questo figliuolo ch'è 'l Verbo di Dio.</l>
+</lg>
+</sp>
+<stage rend="italic">Finita la festa, l'Angiolo dice al popolo:</stage>
+<sp>
+<lg>
+<l>&lt;O&gt; popol grazïoso,</l>
+<l>compiuto è di Gesù il gran mistero</l>
+<l>del grande e prezïoso</l>
+<l>tesoro che coll'animo sincero</l>
+<l>offersono per vero</l>
+<l>dell'orïente Re&lt;gi&gt; di corona.</l>
+<l>Però ogni persona</l>
+<l>si torni a casa, c'hanno perdonanza.</l>
+</lg>
+</sp>
+<trailer rend="italic">Finita la rappresentazione de' Magi.</trailer>
+</div1>
+</body>
+</text>
+</TEI.2>

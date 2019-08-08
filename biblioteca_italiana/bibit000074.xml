@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>L'Archivio della Letteratura Italiana e la Biblioteca Nazionale Centrale di Firenze</title>
+      <author>Desiderio Chilovi</author>
+    </titleStmt>
+    <extent>67 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit000074</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>L' archivio della letteratura italiana e la Biblioteca nazionale centrale di Firenze</title>
+        <author>Chilovi, Desiderio</author>
+        <publisher>R. Bemporad</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1903</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>900</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="fre">Francese</language><language id="ger">Tedesco</language><language id="eng">Inglese</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>1999-02-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Alberto Petrucciani</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione - Digitalizzazione DBT</item>
+    </change>
+    <change>
+      <date>2004-02-12T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-02-12T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Codifica XML - Codifica XML sulla base del protocollo CIBIT</item>
+    </change>
+    <change>
+      <date>2005-05-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 type="introduzione">
+<head>AVVERTENZA</head>
+<pb n="4"/>
+<p>In questi giorni la benemerita Società Bibliografica Italiana <lb/>
+chiama i suoi soci a Congresso, qui in Firenze.<lb/>
+Sento il dovere di parlare in questa occasione succintamente della <lb/>
+nostra Biblioteca, agli egregi miei colleghi e ai cultori della bibliografia <lb/>
+in generale; tanto più perchè proprio ora, si vedono pubblicamente esposti <lb/>
+i progetti, ideati da più di quaranta architetti italiani, per dare, nelle <lb/>
+vicinanze del Panteon di S. Croce, alla Biblioteca Nazionale Centrale di <lb/>
+Firenze sede più vasta e più decorosa.<lb/>
+Ma se questa esposizione ci affida che, oramai non sarà lontano il <lb/>
+momento della edificazione del nuovo palazzo della Biblioteca, la Riunione <lb/>
+della Società Bibliografica italiana ci coglie nel punto in cui alcuni lavori <lb/>
+di ordinamento sono appena iniziati o, cosa che nelle biblioteche succede <lb/>
+troppo di frequente, non sono ancora condotti a termine.<lb/>
+Di questi lavori toccherò appena. Invece in questa breve Nota mi <lb/>
+fermerò più che altro a parlare dell'<emph>Archivio della Letteratura italiana</emph>, <lb/>
+incominciato da me nel <date>1887</date>; perchè una parte di quest'Archivio è già <lb/>
+ordinato e pronto all'esame degli studiosi. Di più mi preme di segnalare, <lb/>
+con vivo sentimento, alla riconoscenza pubblica coloro, che generosamente <lb/>
+agevolarono e aiutarono, coi loro doni, questa nuova e difficile impresa.</p>
+<closer><dateline>FIRENZE, <date>17 Ottobre 1903</date>.</dateline>
+<signed><emph>D. CHILOVI.</emph></signed></closer>
+</div1>
+</front>
+<body>
+<div1>
+<head>L'ARCHIVIO <lb/>
+DELLA <lb/>
+LETTERATURA ITALIANA <lb/>
+E <lb/>
+LA BIBLIOTECA NAZIONALE CENTRALE <lb/>
+DI <lb/>
+FIRENZE <lb/>
+</head>
+<pb n="5"/>
+<p>Quando la maggior Biblioteca di Firenze, per decreto Reale del <lb/>
+<num>28</num> Ottobre <date>1885</date>, fu dichiarata Nazionale Centrale, mi parve evidente <lb/>
+il dovere di studiare in qual modo l'istituto potesse e dovesse corri-<lb/>
+spondere al suo ufficio nuovo e supremo.<lb/>
+La Biblioteca era già la più importante d'Italia; poichè, alla <lb/>
+ricchezza e singolarità del suo contenuto letterario, raccolto da Antonio <lb/>
+Magliabechi, e successivamente accresciuto con altre cospicue librerie, <lb/>
+e con i libri provenienti dalle soppresse corporazioni religiose, fu, con <lb/>
+decreto del <num>21</num> Dicembre <date>1861</date>, dal Re Vittorio Emanuele II, provvi-<lb/>
+damente unita ad essa anche l'insigne e ricchissima Biblioteca Pala-<lb/>
+tina; biblioteca incominciata a formare da Ferdinando III di Lorena, <lb/>
+durante il suo esilio a Salisburgo.<lb/>
+Ô ben facile il giudicare quanto il decreto, che definitivamente <lb/>
+riuniva la biblioteca Magliabechiana alla Palatina, sotto il nome co-<lb/>
+mune di Biblioteca Nazionale - promosso da Atto Vannucci e pre-<lb/>
+sentato alla firma di S. M. il Re da Francesco De Sanctis - sia stato <lb/>
+un provvedimento considerabile e della massima importanza per il <lb/>
+nostro Istituto.<lb/>
+Però, la cultura italiana ebbe il suo coronamento nella nostra <lb/>
+Biblioteca quando, per opera precipua di Pasquale Villari, allora Se-<lb/>
+gretario Generale alla Pubblica Istruzione, in forza della legge sulla <lb/>
+stampa, fu decretato (<num>30</num> giugno <date>1870</date>) che un esemplare di tutte le <lb/>
+pubblicazioni fatte nel Regno, fosse in essa depositato.<lb/>
+Così a questa Biblioteca veniva perennemente assicurato l'ele-<lb/>
+mento più necessario alla sua esistenza: i libri che rispecchiano in-<lb/>
+tieramente il pensiero moderno italiano.<lb/>
+<pb n="7"/>
+E qui, senza parlare di molti e notevoli acquisti, posteriormente <lb/>
+fatti, per la Biblioteca; senza ricordare, come sento con animo rico-<lb/>
+noscentissimo, gli splendidi doni delle librerie Guicciardini, Nencini e <lb/>
+di altri cittadini degnissimi; a me basta per l'argomento che tratto, <lb/>
+porre in rilievo, che i libri vecchi e rari della Magliabechiana, uniti <lb/>
+alle costosissime e splendide opere moderne della Palatina, aggiunti <lb/>
+poi alle pubblicazioni italiane ricevute, da più di <num>30</num> anni, per diritto <lb/>
+di stampa, sono stati i tre coefficienti principali, che formarono l'im-<lb/>
+provvisa e non prevedibile ricchezza e grandezza di questa nostra <lb/>
+Biblioteca.<lb/>
+Per questa riunione di opere si acquista la certezza che la Bi-<lb/>
+blioteca Centrale di Firenze narra consecutivamente, coi suoi docu-<lb/>
+menti, e senza interruzione, l'opera sempre assidua e molte volte <lb/>
+splendida del pensiero nazionale; e che essa custodisce la più rile-<lb/>
+vante suppellettile letteraria e scientifica che abbia l'Italia.<lb/>
+Una tale propizia fortuna giustifica anche l'atto di avere affidato <lb/>
+al nostro istituto l'ufficio di Biblioteca Centrale; onde il suo benefico <lb/>
+potere intellettuale non rimanesse chiuso entro la cerchia gloriosissima <lb/>
+di Firenze, ma si estendesse su tutta Italia.</p>
+<p>*</p>
+<p>Per tale sorte la nostra Biblioteca può, e deve per istituzione, <lb/>
+soccorrere possibilmente le altre biblioteche italiane governative e <lb/>
+municipali, e generalmente tutte le fondazioni di pubblica cultura. Ed <lb/>
+è provvidenza giusta e necessaria. Ai giorni nostri non è più possi-<lb/>
+bile che ogni singola biblioteca abbia tutto quello di cui i suoi lettori <lb/>
+hanno bisogno. Esse devon pertanto vicendevolmente aiutarsi, e, al-<lb/>
+meno in una di esse, tra le maggiori, trovare quello che momentanea-<lb/>
+mente a loro manca. Solo con questo criterio si potranno compensare <lb/>
+le spese attuali, e le ancora maggiori che lo Stato dovrà fare in se-<lb/>
+guito, per la Nazionale Centrale di Firenze. Ed è pure a questo criterio <lb/>
+di essere, entro i limiti del conseguibile, utile non solo ai suoi fre-<lb/>
+quentatori e alle altre biblioteche d'Italia, ma anche a coloro che vivono <lb/>
+e studiano lontani dai centri letterari, che la Direzione della Biblio-<lb/>
+teca stessa deve sempre mirare nei suoi intendimenti e nei suoi atti.</p>
+<p>*</p>
+<p>Non è ancora, per quanto io creda, giunto il momento opportuno <lb/>
+per accennare o discorrere largamente del già fatto da noi in questi <lb/>
+anni, che chiamerei di contrasti, con l'unico proposito di rendere la <lb/>
+<pb n="8"/>
+nostra Biblioteca Centrale sempre più degna del suo grado, nono-<lb/>
+stante l'insufficienza assoluta di personale, la ristrettezza non credibile <lb/>
+dei locali, la penuria di denaro, e gli ostacoli diversissimi in ogni <lb/>
+genere, dei quali qui è bello il tacere.<lb/>
+Lasciando in disparte i provvedimenti comuni e necessari all'or-<lb/>
+dinamento di qualsiasi biblioteca - e fra questi, anche prima del <date>1886</date>, <lb/>
+il più urgente, quello cioè della unificazione dei nostri Cataloghi; <lb/>
+unificazione che non poteva essere tentata, quando da tutti indistinta-<lb/>
+mente credevasi imminente il trasporto dei nostri libri ad altra più <lb/>
+comoda e decorosa sede - toccherò solo dei provvedimenti che più pre-<lb/>
+mono a chi vive lontano dalla nostra biblioteca. Fra questi provvedi-<lb/>
+menti primeggia il <emph>Bollettino delle Pubblicazioni Italiane</emph>, destinato a <lb/>
+far conoscere in Italia, e nei principali centri letterari del mondo, quello <lb/>
+che si pensa, si escogita e si prepara da noi. Il dar notizia dei nuovi <lb/>
+libri è, io credo, il meno che il Governo possa fare per soccorrere ed <lb/>
+agevolare la nostra cultura, per dichiarare il grado di valore, non in-<lb/>
+glorioso, che va acquistando la mente italiana.<lb/>
+Questo modesto <emph>Bollettino</emph>, nato nel <date>1886</date> sotto buona stella, con-<lb/>
+seguì posto d'onore fra le altre pubblicazioni consimili, e tale, che ad <lb/>
+una esposizione fatta a Parigi nel <date>1888</date>, il nostro <emph>Bollettino</emph>, confron-<lb/>
+tato con quelli di <num>28</num> nazioni (non dico di <num>28</num> città) fa giudicato dal <lb/>
+Relatore uno dei migliori.<lb/>
+Più tardi un grande bibliografo francese, parlando del <emph>Bollettino</emph> <lb/>
+conchiudeva dicendo, che con molta giustizia si poteva affermare che <lb/>
+il <emph>Bollettino delle Pubblicazioni italiane</emph> era forse, per il modo con <lb/>
+cui era fatto, la migliore raccolta di bibliografia contemporanea che <lb/>
+vi fosse nel mondo, e terminava dicendo; «Perchè non si cerca più <lb/>
+spesso di imitarlo? (<num>1</num>)<note place="foot">Stein,<foreign lang="fra"> <emph>Manuel de Bibliographie</emph>. Paris,</foreign> <date>1898</date>, pag. <num>31</num>. </note>»<lb/>
+Ma anche per il nostro <emph>Bollettino</emph>, la di cui pubblicazione era da <lb/>
+me affidata al sottobibliotecario Gustavo Cini, come accade a tutte le <lb/>
+cose umane, dovevano venire i giorni tristi. La voce della Biblioteca non <lb/>
+fu ascoltata; e col <date>1901</date>, il <emph>Bollettino</emph>, diminuito e pubblicato una sola <lb/>
+volta al mese, principiò una <emph>Serie nuova</emph>; ben diversa dalla serie pre-<lb/>
+cedente.<lb/>
+Nè ebbe migliore fortuna la proposta da me fatta il <num>17</num> Novem-<lb/>
+bre <date>1900</date> al Ministero, di ristampare in schede i titoli delle opere più <lb/>
+importanti del nostro <emph>Bollettino</emph>, affinchè tutte le principali biblio-<lb/>
+teche d'Italia, senza alcun lavoro e senza alcuna spesa da parte loro, <lb/>
+<pb n="9"/>
+ricevessero ogni anno, per il correspettivo loro catalogo alfabetico e <lb/>
+per quello metodico, in doppio esemplare, <num>3600</num> schede stampate, vale <lb/>
+a dire i titoli delle pubblicazioni più notevoli e recenti, annunziate <lb/>
+nel nostro <emph>Bollettino</emph>.<lb/>
+Oltre servirsene, con grande economia di tempo e di spesa, per <lb/>
+i loro Cataloghi, esse avevano la sicurezza, che al bisogno, nella man-<lb/>
+canza di un dato libro, potevano, da ogni dove d'Italia, chiederlo in <lb/>
+prestito al nostro istituto.<lb/>
+A calcoli fatti, le biblioteche italiane avrebbero ricevuto in un <lb/>
+anno circa <num>216000</num> schede e a questo numero aggiungendo quello delle <lb/>
+schede da inviarsi in dono alle principali biblioteche e istituzioni <lb/>
+scientifiche straniere, per diffondere la conoscenza dell'opere italiane, <lb/>
+sarebbero ascese a circa <num>2</num> milioni. La spesa sarebbe stata inferiore al <lb/>
+terzo del contributo annuale, che l'Italia paga per la stampa del Ca-<lb/>
+talogo scientifico, che pubblica la Società Reale di Londra.<lb/>
+Questo sarebbe stato il primo avviamento ad un Catalogo coope-<lb/>
+rativo italiano: senza dubbio, il più facile, il più economico, e il più <lb/>
+immediatamente utile!<lb/>
+Chi ne avesse desiderio, potrà trovar su questo argomento maggiori <lb/>
+notizie in un altro mio scritto: <emph>A proposito di una proposta americana <lb/>
+per un Catalogo cooperativo</emph>, pubblicato l'anno scorso nella <emph>Rivista <lb/>
+delle Biblioteche e degli Archivi</emph>.<lb/>
+Più volte ho anche inutilmente tentato di ottenere i pochi mezzi <lb/>
+necessari per pubblicare un <emph>Bollettino della Musica</emph>, del quale, il ma-<lb/>
+teriale necessario era, ed è, già pronto per la stampa da alcuni anni. <lb/>
+Questo secondo <emph>Bollettino</emph>, complemento naturale del primo, avrebbe <lb/>
+giovato molto ai cultori della musica. Mi pareva che fosse, non solo <lb/>
+utile, ma bello e glorioso per l'Italia rinnovare la notorietà, nel mondo, <lb/>
+delle opere e composizioni musicali dei nostri grandi maestri del pas-<lb/>
+sato, e rendere note quelle dei viventi.<lb/>
+Ricordate queste cose, perchè attestano in qual modo la nostra Bi-<lb/>
+blioteca intendeva di svolgere la sua azione fuori di Firenze, devo qui <lb/>
+aggiungere che, se il nostro <emph>Bollettino</emph>, mentre reca a tutti notizia dei <lb/>
+nuovi libri italiani ricevuti dalla Biblioteca per diritto legale, non <lb/>
+può far menzione, come se fosse superfluo e anche inutile, di un am-<lb/>
+masso non indifferente di Fogli volanti, e di altri stampati, che da taluni <lb/>
+si giudicano degni del macero, ed ai quali essi danno anche il nome <lb/>
+spregiativo di <emph>cartaccia</emph>.<lb/>
+Non vi è dubbio che quei fogli, considerati isolatamente, o esa-<lb/>
+minati in scarso numero, apparranno inutile ingombro in qualsiasi <lb/>
+<pb n="10"/>
+biblioteca. Ma ben altra cosa è quando essi sono moltissimi, e raggrup-<lb/>
+pati per materia. La difficoltà, non piccola, per il bibliotecario sta tutta <lb/>
+nell'avere, per raggruppar le cartaccie, un concetto chiaro e pratico; <lb/>
+il quale lo capaciti in tal modo di dare, con semplicità e rapidità <lb/>
+grande, una vita organica a un affastellamento disgregato e inerte <lb/>
+di fogli stampati. Ordinandoli, si ottengono raccolte di scritti e di <lb/>
+documenti talvolta preziosi, sempre utili, e che non si trovano al-<lb/>
+trove. Per una Biblioteca Nazionale Centrale è obbligo speciale l'avere <lb/>
+e il conservare ordinate simili carte; perchè essa deve rappresentar, <lb/>
+come in un archivio, tutto ciò che si pubblica. Così pure essa ha, al <lb/>
+dire del Cutter, a differenza delle altre biblioteche, l'obbligo di <lb/>
+possedere e formare collezioni copiosissime di Opuscoli di ogni genere; <lb/>
+e il numero dei nostri opuscoli è già straordinario.<lb/>
+Per meglio persuadere il lettore su questo proposito, mi si lasci <lb/>
+citare, fra i molti, un solo esempio.<lb/>
+Cosa vi è, apparentemente, di più trascurabile che quei foglietti <lb/>
+volanti che riproducono le canzoncine che il popolo nostro canta per <lb/>
+le vie o per i campi?... Qual'è la biblioteca che raccoglie e tiene <lb/>
+conto, non solo delle locali, ma anche di quelle di tutta l'Italia?... <lb/>
+Nessuna!... è cartaccia!... si butta via!...<lb/>
+Ma, in questi foglietti si manifesta tutta la ricca e spontanea vena <lb/>
+poetica del popolo nostro, il quale non si sogna nè di scrivere, nè di <lb/>
+stampare libri, come facciamo noi...<lb/>
+In quei fogli abbiamo le dolci e gentili canzoni, i lamenti d'amore; <lb/>
+i canti patriottici che svegliarono sentimenti d'indipendenza e di li-<lb/>
+bertà in tutti noi; l'inno di guerra delle patrie battaglie; le istorie di <lb/>
+avventure romanzesche, di miracolose apparizioni, di truci delitti; le <lb/>
+critiche salaci e personali; le tradizioni del lontano passato; e le aspi-<lb/>
+razioni del presente momento!<lb/>
+Nella nostra Biblioteca di questi fogli ne conserviamo migliaia e <lb/>
+migliaia; ma ancora non mi è stato possibile di vincere le difficoltà <lb/>
+per continuare l'ordinamento, al quale, per poco tempo, attendeva <lb/>
+l'egregio Dott. Salomone Morpurgo, presentemente bibliotecario a <lb/>
+Venezia. Queste migliaia di foglietti ci faranno conoscere, meglio che <lb/>
+nei libri, l'indole del nostro popolo; saranno un giorno documento impor-<lb/>
+tantissimo per la storia delle tradizioni popolari, e una miniera ine-<lb/>
+sauribile della letteratura dialettale, che appunto in gran parte si <lb/>
+rivela in quelle pagine.<lb/>
+Può un bibliotecario, che abbia coscienza di quello che fa, man-<lb/>
+dare alla cartiera tutti quei foglietti, che egli ha ricevuti senza <lb/>
+<pb n="11"/>
+spendere un soldo? E far questo solo perchè una persona qualunque, che <lb/>
+mai, in vita sua, si è occupata dell'ordinamento e del fine che una <lb/>
+biblioteca deve avere, vedendoli ammassati, e chiacchierando per chiac-<lb/>
+chierare, crede saggio consiglio spazzarli via per far posto negli scaffali?<lb/>
+Ma dell'ordine dato a questi vari gruppi di carte volanti, e di <lb/>
+altri lavori: Collezione Dantesca; Collezione dei ritratti; Carte geo-<lb/>
+grafiche; Memorie legali, ecc.; iniziati da alcuni anni, avrò occasione <lb/>
+di discorrere prossimamente; come anche della futura Sezione delle <lb/>
+<emph>Ricerche bibliografiche</emph>. Di questa sezione, da me ideata, che com-<lb/>
+prende tutte le Opere bibliografiche, le Notizie biografiche (più di <lb/>
+<num>223000</num> sono in uso) il Poligrafo Gargani, del quale parla con molta <lb/>
+dottrina, l'egregio D.r Fortunato Pintor, ora alla Biblioteca del Se-<lb/>
+nato; della Raccolta di <num>20000</num> Cataloghi di librai; di quella degli <lb/>
+Avvisi e manifesti, e del grande Catalogo di consultazione, per il <lb/>
+quale più di <num>300,000</num> schede sono già pronte, credo che fra non molto, mi <lb/>
+si offrirà opportuna occasione di parlare.<lb/>
+Intanto, a proposito delle <emph>Ricerche bibliografiche</emph>, dirò che se il <lb/>
+Graesel, con ragione, afferma, che in genere le Biblioteche non sono <lb/>
+uffici d'informazione scientifica (<num>1</num>)<note place="foot"><foreign lang="ger"><emph>Handbuch der Bibliothekslehre</emph>, <num>2</num> Aufl., Leipzig,</foreign> <date>1903</date>, pag. <num>439</num>. </note> per chicchessia, io penso che, ai <lb/>
+giorni nostri, presso ogni nazione, una almeno delle sue grandi biblio-<lb/>
+teche, debba assumere francamente e apertamente un tale ufficio.<lb/>
+Il numero spaventevole delle pubblicazioni che, presentemente si <lb/>
+fanno da un giorno all'altro, esige provvedimenti nuovi e metodi spe-<lb/>
+ciali. La soluzione del così detto <emph>Problema bibliografico</emph> si impone; ed <lb/>
+uno dei primi passi da farsi, su questo difficile e intricato sentiero, non <lb/>
+vi ha dubbio, è quello di ordinare ad una grande biblioteca di consa-<lb/>
+crarsi e prepararsi alle <emph>Ricerche</emph> necessarie agli studiosi, e alle altre <lb/>
+biblioteche, perchè essa deve avere il personale, i libri e il materiale <lb/>
+bibliografico indispensabile, per poterle fare con sicurezza e rapidità. <lb/>
+É incredibile, e tutti lo sanno, il tempo che lo studioso perde mise-<lb/>
+ramente per la mancanza di facilitazioni sufficienti nel fare anche le <lb/>
+più semplici ricerche bibliografiche; impossibile calcolare il danno, che <lb/>
+in particolar modo può risentire uno scienziato, per non avere cono-<lb/>
+sciuta, nel momento voluto, una data pubblicazione. E finalmente, è <lb/>
+quasi incalcolabile il tempo che dannosamente si spreca nel fare, senza <lb/>
+libri e senza un ricco e buon materiale bibliografico, simili indagini <lb/>
+in piccole biblioteche.<lb/>
+<pb n="12"/>
+Le difficoltà da vincere, per conoscere i libri, sono presentemente <lb/>
+talmente grandi; il bisogno così vivamente sentito, che si formano delle <lb/>
+associazioni con l'unico fine di raccogliere indicazioni bibliografiche, <lb/>
+di spogliare e pubblicare i titoli degli scritti sparsi negli Atti Acca-<lb/>
+demici o nelle Riviste. E in tutto questo lavoro quel che sorprende <lb/>
+maggiormente è il vedere che, alla direzione del movimento, e a capo <lb/>
+delle varie associazioni, non si trova mai una biblioteca, come se si <lb/>
+trattasse di affari ad essa del tutto estranei. Invece si vede all'opera, <lb/>
+prima fra tutti, una grande Accademia, la Società Reale di Londra, <lb/>
+oppure una Associazione bibliografica come quella di Bruselle, o un <lb/>
+<foreign lang="lat"><emph>Concilium bibliographicum</emph></foreign> come quello di Berna.<lb/>
+Mi è caro il poter pubblicamente ricordare, che anche questa <lb/>
+nuova Sezione, della nostra Biblioteca, ebbe un graditissimo dono.<lb/>
+Corrado Ricci, l'insigne scrittore di storia dell'arte, chiamato in <lb/>
+questi giorni alla Direzione delle Regie Gallerie fiorentine, ci donava <lb/>
+nel marzo del <date>1901</date>, le numerose schede di una sua bibliografia di <lb/>
+Libretti d'opere teatrali, compilata con l'aiuto dell'Avv. Leonida Busi.</p>
+<p>*</p>
+<p>Ma, se per la parte che concerne gli stampati non sarebbe questo <lb/>
+il momento di parlarne, come pure non lo sarebbe per l'ordinamento <lb/>
+dei manoscritti, lo è invece per l'<emph>Archivio della Letteratura italiana</emph>.<lb/>
+É vero che mi era proposto di non parlarne per ora pubblica-<lb/>
+mente, perchè l'esperienza mi insegna che in cose di biblioteche è <lb/>
+molto facile il criticare, anche nel modo più leggiero o estroso, quando <lb/>
+le innovazioni non siano ancora giunte a un tal punto di esercizio da <lb/>
+dimostrar tutta la loro utilità, persino a coloro che chiudono volentieri <lb/>
+gli occhi per non vedere. Ora però, dopo molti anni di lavoro diligente <lb/>
+e paziente, l'ordinamento, almeno di una parte di questo Archivio, me <lb/>
+lo consente; perchè ha raggiunto tale entità ed importanza da offrir <lb/>
+ampia materia di studio ai cultori delle discipline storiche e letterarie, <lb/>
+quantunque una buona parte del lavoro fatto, non possa ancora ser-<lb/>
+vire al pubblico per mancanza di spazio. Cosa dolorosa a dirsi!...<lb/>
+Per questo sento il dovere di dirne qualche parola, non sembran-<lb/>
+domi bastevole il cenno fuggevole dato nelle Note aggiunte alla sua <lb/>
+traduzione italiana del <emph>Manuale del Bibliotecario</emph> del Graesel, dal-<lb/>
+l'egregio dott. Arnaldo Capra, bibliotecario dell'Università di Cagliari. <lb/>
+Di più credo sia per me doveroso indicare alla pubblica riconoscenza, <lb/>
+almeno i nomi di coloro che efficacemente, coi doni, mi aiutarono in <lb/>
+una impresa così nuova e ancora singolare.</p>
+<pb n="13"/>
+<p>*</p>
+<p>Tutti sanno che la nostra raccolta di Manoscritti è la più nume-<lb/>
+rosa che possegga lo Stato italiano; e che ai manoscritti vanno natu-<lb/>
+ralmente aggiunti i frammenti di scritti, gli autografi, e per i tempi a <lb/>
+noi più vicini, i chirotipi.<lb/>
+Ora il manoscritto rappresenta ordinariamente un'opera pensata, <lb/>
+meditata, e considerata dallo stesso autore, come finita; il chirotipo <lb/>
+invece, con le sue cancellature e con le sue aggiunte fatte dall'autore <lb/>
+stesso, sopra il libro già stampato, è qualche cosa di più che un libro <lb/>
+qualunque, anche con glosse marginali scritte a mano da altri; è un <lb/>
+vero e proprio manoscritto, con gli ultimi ritocchi dell'autore.<lb/>
+Accanto ai manoscritti e ai chirotipi, opere come ho detto esat-<lb/>
+tamente disegnate e finite nella mente dell'autore, si hanno i fram-<lb/>
+menti, gli abbozzi di opere ideate, gli scritti autografi di persone, <lb/>
+per una ragione o per l'altra saliti in rinomanza; e finalmente, come <lb/>
+raccolta, gli epistolari di autori illustri o notevoli nelle varie discipline.<lb/>
+I frammenti, gli abbozzi ecc. sono considerati come opere imper-<lb/>
+fette o incompiute, eppure talvolta hanno un valore grandissimo asso-<lb/>
+luto, relativo o parziale. Non così gli autografi, che, pazientemente rac-<lb/>
+colti in collezione dagli amatori, si conservano in generale più che <lb/>
+altro, come oggetto di mera curiosità. Il loro contenuto, tolta qualche <lb/>
+notevole eccezione, che può essere anche rilevantissima, ha scarso <lb/>
+valore. Essi servono più che altro a mostrare la mano di scritto e la <lb/>
+firma di un personaggio: sono come i disegni che si serbano nelle <lb/>
+cartelle. Là si trova disegnato, sia pure da mano maestra, il soave <lb/>
+contorno di un bel volto di madonna; un puttino che scherza coi <lb/>
+fiori; la gran barba fluente di un Mosè; un partito di pieghe sapien-<lb/>
+temente disposte; una mano di donzella gentile; il braccio nerboruto <lb/>
+di un ciclope; la testa o la zampa di un cavallo, vicino ad un ber-<lb/>
+rettone da granatiere, e così via dicendo.<lb/>
+Tutto ciò è vago, è curioso a vedersi! Ci offre una prova del-<lb/>
+l'estro, dell'abilità tecnica del disegnatore; ma non ci dà nesso edu-<lb/>
+cativo; non ci dà una idea della potenza completa di un artista.<lb/>
+L'utilità degli epistolari e dei carteggi in genere, è di per sè <lb/>
+stessa molto evidente; e se indubbiamente essi servono a farci meglio <lb/>
+conoscere la mente e l'animo dello scrittore, è rincrescevole il vederli <lb/>
+andare dispersi. Il che succede troppo facilmente.<lb/>
+I figli conservano con una venerazione, che se non fosse ispirata <lb/>
+da amor filiale, si direbbe talvolta esagerata, le carte, le lettere del <lb/>
+<pb n="14"/>
+padre; i tardi nepoti, le guardano già con occhio quasi indifferente, <lb/>
+e da ultimo esse finiscono per essere ammassate o in una soffitta, o <lb/>
+rinchiuse in una cassa nel granaio, quando ad esse non tocchi una <lb/>
+sorte ancora peggiore. Se poi arride loro miglior fortuna, e si deposi-<lb/>
+tano in un luogo accessibile a tutti, è sempre cosa deplorevole il vedere <lb/>
+che questi carteggi, che vicendevolmente si spiegano e si completano, <lb/>
+si trovino sparsi qua e là in qualche archivio, o in biblioteche di-<lb/>
+verse, gli uni lontani dagli altri in guisa che, così staccati, non pos-<lb/>
+sono offrire che in modo faticoso e non sempre abbastanza sicuro, una <lb/>
+larga ed esatta informazione delle vicende, delle molte cause estranee <lb/>
+e degli avvenimenti, che esercitarono notevole influenza su l'animo di <lb/>
+un grande scrittore.<lb/>
+Queste e simili considerazioni mi persuasero intimamente che in <lb/>
+una delle grandi biblioteche di una nazione si dovessero raccogliere <lb/>
+tali scritti, che ora vanno miseramente dispersi o sperduti, quan-<lb/>
+tunque potrebbero con sicurezza, gettare nuova e viva luce sugli avve-<lb/>
+nimenti che andarono compiendosi nei popoli; spiegare la via seguita <lb/>
+da essi per incivilirsi; e ricordare le grandi difficoltà incontrate e <lb/>
+vinte, dall'uomo politico, dal letterato, dallo scienziato o dall'artista <lb/>
+nella loro vita.</p>
+<p>*</p>
+<p>Dirò ora poche parole intorno all'ordinamento del nostro Ar-<lb/>
+chivio della letteratura.<lb/>
+Esso è spartito in tre Sezioni.<lb/>
+Nella prima, che naturalmente è la più numerosa, sono disposti <lb/>
+in appositi stipi, i Carteggi, le lettere, autografe o copiate, le minute <lb/>
+di lettere, che possono acquistare importanza per la letteratura, la <lb/>
+storia, le scienze e le arti; nello stesso modo che si conservano negli <lb/>
+Archivi di Stato le carte e i documenti ufficiali, riferentisi alla storia, <lb/>
+politica, amministrativa ed economica di un popolo.<lb/>
+Nella seconda, si conservano, in filze, i Frammenti manoscritti di <lb/>
+opere inedite o non finite, gli abbozzi, i documenti, gli appunti, le <lb/>
+schede ec. e tutte le altre scritture, che non hanno carattere di cor-<lb/>
+rispondenza personale. Per dare un esempio ricorderò, che abbiamo <lb/>
+dell'<emph>Arnaldo da Brescia</emph> di G. B. Niccolini il piano in prosa, e il <lb/>
+primo getto in versi dell'atto primo. Notevoli sono anche dei fram-<lb/>
+menti di Terenzio Mamiani e di molti altri, in schede e in appunti.<lb/>
+Nella terza stanno i Chirotipi, insieme coi libri che hanno molte <lb/>
+e importanti postille manoscritte, non dell'autore.<lb/>
+<pb n="15"/>
+Per ricordare qualche esempio recente dei chirotipi che abbiamo, <lb/>
+citerò il <emph>Giorno</emph> (<num>4°</num> edizione) dell'abate Parini, con molte correzioni <lb/>
+scritte di mano dell'autore. La storia del <emph>Vespro Siciliano</emph> di Michele <lb/>
+Amari, in un esemplare della quarta edizione, con correzioni sue per <lb/>
+servire alla prima edizione fiorentina. E fra i libri postillati, la <emph>Vita <lb/>
+del Barone Bettino Ricasoli</emph>, scritta da Francesco Dall'Ongaro, e <lb/>
+stampata a Torino dall'Unione Tipografica, nel <date>1860</date>. Questo libric-<lb/>
+cino, donato a noi dal compianto senatore Sansone d'Ancona, ha molte <lb/>
+postille dello stesso Barone. In una pagina il Dall'Ongaro descrive il <lb/>
+Castello di Broglio, nel Chianti, e dice (pag. <num>13</num>) «Splendono in una <lb/>
+sala le lucide armi degli avi; e non giurerei che l'ultimo Bettino <lb/>
+non abbia indossata alcuna volta, per vaghezza cavalleresca, la co-<lb/>
+razza e le gambiere del primo, pure per non perderne l'uso e per <lb/>
+non mostrarsi degenere.»<lb/>
+Di fronte a queste quattro righe si legge, in margine, di proprio <lb/>
+pugno dal Barone Bettino: <emph>Verissimo</emph>.<lb/>
+Fra i libri postillati è venuto di recente, e per acquisto, a trovar <lb/>
+posto un prezioso esemplare dei <emph>Canti</emph> del Leopardi, nell'edizione <lb/>
+del <date>1831</date>. Lo rende caro ad ogni italiano l'avere esso dinanzi, di mano <lb/>
+del poeta, quell'angosciosa prefazione, di cui non vi è lettore che ri-<lb/>
+manga non profondamente commosso. E serba l'autografo lievi, ma <lb/>
+pur avvertibili, tracce degli stadi per cui il pensiero del Poeta è pas-<lb/>
+sato, prima di giungere a quell'estrema espressione di sconforto.<lb/>
+L'ordinamento della prima Sezione che contiene i Carteggi e le <lb/>
+Lettere è quello che più ha progredito.<lb/>
+Tutte le lettere, che costituiscono un carteggio speciale, si conser-<lb/>
+vano possibilmente riunite. Quelle invece acquistate isolatamente, come <lb/>
+pure le lettere di uno stesso scrittore, che si trovano sparse in altri <lb/>
+carteggi, e collocate in stipi diversi, lo studioso potrà trovarle facil-<lb/>
+mente, seguendo le indicazioni e i rinvii degli schedari.<lb/>
+Ogni lettera, per maggior sicurezza nella consegna, e per comodità <lb/>
+di chi studia, è riposta entro una copertina o camicia, stampata, sulla <lb/>
+quale si legge il nome e cognome di chi l'ha scritta; il luogo e la <lb/>
+data di partenza riscontrati o attribuiti; il nome della persona alla <lb/>
+quale è diretta; la data d'ingresso e la provenienza in Biblioteca; e, <lb/>
+se si dà il caso, si ricorda il nome del donatore. Il posto sufficiente alle <lb/>
+indicazioni dell'argomento è lasciato, cosa questa necessaria per la spe-<lb/>
+ditezza delle ricerche, quando le lettere scambiatesi fra due persone, <lb/>
+si contano a centinaia, e, come è naturale, l'argomento di queste lettere <lb/>
+varia di frequente.<lb/>
+<pb n="16"/>
+Per dare poi più rapido ordinamento ad un così gran numero di <lb/>
+lettere entrate in breve tempo in Biblioteca, si è per ora tralasciato <lb/>
+di riassumere l'argomento; perchè il farlo impegna alla consecutiva <lb/>
+lettura completa di esse.<lb/>
+É una descrizione che si potrà dare in seguito, almeno per quelle <lb/>
+di cui emergerà più evidente la necessità.<lb/>
+Vi è intanto una bella eccezione. Il carteggio di G. P. Vieus-<lb/>
+seux (più di <num>28</num> mila lettere) dà l'argomento di ognuna; e ciò per-<lb/>
+chè la Biblioteca ebbe la fortuna di poterne affidare l'ordinamento e <lb/>
+la descrizione ad Alessandro Carraresi, già segretario particolare del <lb/>
+Marchese Gino Capponi; e poi editore delle <emph>Lettere</emph> dell'illustre pa-<lb/>
+trizio fiorentino.<lb/>
+Il Carraresi conosceva intimamente gli uomini di quei tempi, e anche <lb/>
+le cose da essi trattate; e attendendovi, con l'affetto che destano in <lb/>
+noi i ricordi più cari degli anni passati, poteva, al bisogno, spiegare <lb/>
+le allusioni di una lettera; riconoscere di chi era un'altra non firmata, <lb/>
+e con tale precisione e sicurezza, che invano si sarebbe potuto pre-<lb/>
+tendere da altri.<lb/>
+Nell'ultima pagina di ogni camicia stampata, vi è poi il posto <lb/>
+per annotare se una lettera è stata già pubblicata o copiata, e da chi; <lb/>
+come pure per fornire tutte le notizie illustrative della lettera stessa; <lb/>
+per accennare con quali altre lettere, abbia relazione, e via dicendo.<lb/>
+Di ogni lettera si fanno per i Cataloghi dell'Archivio, due schede.<lb/>
+Nella prima, che è tenuta in piedi, c'è il nome di chi l'ha scritta; <lb/>
+a chi essa è indirizzata; il luogo e la data di partenza; come pure l'in-<lb/>
+dicazione del suo collocamento negli stipi.<lb/>
+Nella seconda scheda, di dimensione eguale, ma tenuta orizzontal-<lb/>
+mente, si legge il nome di chi l'ha ricevuta, da chi fu scritta e la <lb/>
+data. Così si possono formare due indici; il primo, alfabetico, degli <lb/>
+scriventi: il secondo, pure alfabetico, delle persone che hanno ricevuto <lb/>
+le lettere.<lb/>
+E poichè, specialmente a motivo dei carteggi copiosi, moltissime <lb/>
+schede di necessità si riuniscono sotto un medesimo casato, sia perchè <lb/>
+si hanno molte lettere scritte, o molte lettere ricevute da una stessa <lb/>
+persona, le due schede portano in alto, in angolo, l'anno, il mese e <lb/>
+il giorno, in cui furono scritte.<lb/>
+In questo modo, nei due schedari, le molte lettere scritte o ri-<lb/>
+cevute da una stessa persona, si possono, volendo, con rapidità ordi-<lb/>
+nare cronologicamente.<lb/>
+Questo ordine cronologico ha non piccola importanza nelle <lb/>
+<pb n="17"/>
+ricerche fra quelle carte; perchè esso rende anche facile il rintracciare ed <lb/>
+esaminare, le varie lettere scritte nello stesso momento da persone di-<lb/>
+verse, ed avere così le loro prime impressioni, i primi loro giudizi, <lb/>
+sui dati di un argomento politico, letterario o artistico.<lb/>
+Questo ordinamento cronologico ha per me tale importanza, che ho <lb/>
+già ideata la Tavola per mostrare graficamente, quali sono le lettere <lb/>
+di persone diverse, possedute dalla biblioteca, e scritte nel mede-<lb/>
+simo tempo.<lb/>
+Esiste pure, e per il Carteggio Vieusseux è già fatta, una terza <lb/>
+scheda in carta celeste. Su questa si serba ricordo, sempre in ordine <lb/>
+alfabetico, delle persone delle quali nella corrispondenza si è parlato <lb/>
+diffusamente, o se ne è dato un giudizio serio.<lb/>
+Di questa terza scheda, che, come ho detto, per una ragione even-<lb/>
+tuale può divenire abbastanza importante, si è già provata, in via <lb/>
+di esperimento, la grande utilità. Ma per compilarla è necessario leg-<lb/>
+gere la lettera; e quindi sarà fatta allor quando si avrà un perso-<lb/>
+nale sufficiente, e agio di notare sulla copertina l'oggetto di ogni <lb/>
+singola lettera.<lb/>
+Detto questo, affinchè lo studioso sappia che cosa può ragione-<lb/>
+volmente pretendere dal nostro ordinamento, aggiungerò che le regi-<lb/>
+strazioni sommarie delle lettere, con le due schede principali già fatte, <lb/>
+sono moltissime; ma mi rincresce dover ripetere che la collocazione <lb/>
+definitiva delle lettere, è, pur troppo, da diverso tempo sospesa.<lb/>
+Attualmente, delle <num>400.000</num> lettere circa che abbiamo raccolte <lb/>
+dal <date>1887</date> in poi, sono accessibili agli studiosi le <num>28</num> mila lettere del <lb/>
+Carteggio Vieusseux, e un <num>15</num> mila lettere già collocate definitiva-<lb/>
+mente in appositi stipi. Le altre, già pronte per la collocazione riman-<lb/>
+gono ordinatamente riunite; ma per il momento, non ci è dato di <lb/>
+poterle consegnare al lettore, se non con perdita grave di tempo.<lb/>
+E qui credo mio dovere dichiarare che la Direzione della nostra <lb/>
+Biblioteca, lascia ai donatori la più ampia libertà nello stabilire le <lb/>
+condizioni, alle quali essi intendono vincolato il dono. Aggiungerò che <lb/>
+la Biblioteca osserva scrupolosamente le condizioni concordate. Per <lb/>
+l'esame di alcune lettere, qualche donatore vuole che non possa farsi <lb/>
+prima di un'epoca da lui determinata; e quindi esse non sono, per il <lb/>
+momento, ostensibili; altri donatori concedono, solo con riserva, la let-<lb/>
+tura, ma non la facoltà di copiare, almeno per ora.<lb/>
+La rigorosa osservanza delle norme convenute, deve ispirare molta <lb/>
+fiducia in tutti, ed invogliare chiunque ad affidare alla nostra Biblio-<lb/>
+teca carte preziose e pregevoli; essa deve tranquillare le famiglie vi-<lb/>
+venti, e la delicatezza dei donatori.<lb/>
+<pb n="18"/>
+L'Archivio sarà poi completato con una Raccolta di Epistolari <lb/>
+italiani a stampa, posseduti dalla Biblioteca. Così lo studioso potrà <lb/>
+più facilmente consultarli, e trovare là, molte volte stampate, le lettere <lb/>
+o le risposte a noi mancanti, oppure altre lettere che possono servire <lb/>
+alla migliore e più esatta intelligenza o interpetrazione di quelle già <lb/>
+possedute da noi.</p>
+<p>*</p>
+<p>Intanto una istituzione simile sorgeva a Berlino. Il <num>9</num> gennaio <lb/>
+<date>1889</date>, il prof. Guglielmo Dilthey, l'illustre filosofo, al quale l'Acca-<lb/>
+demia delle Scienze di quella capitale affidava la pubblicazione delle <lb/>
+Opere di Emmanuele Kant, in una pubblica conferenza, riprodotta poi <lb/>
+nella <foreign lang="ger"><emph>Deutsche Rundschau</emph></foreign>, parlava della assoluta necessità di racco-<lb/>
+gliere e conservare simili carte in un <emph>Archivio della Letteratura</emph>.<lb/>
+La necessità di una tale istituzione era di tanta evidenza, che <lb/>
+anche alla Camera prussiana se ne parlò, e, fra le altre cose, si di-<lb/>
+scusse se l'Archivio dovesse essere una istituzione autonoma, oppure <lb/>
+aggregata ad una grande Biblioteca.<lb/>
+A mio parere, non potrebbe nascere dubbio. Cotesto Archivio <lb/>
+deve far parte di una grande Biblioteca; perchè essa sola può sem-<lb/>
+pre, e sul momento, offrire coi suoi libri l'unico modo di chiarire e ri-<lb/>
+solvere le mille incertezze e dubbi, che continuamente si rinnovano <lb/>
+in chi legge lettere di tempi presenti e passati. Ma se a Berlino la <lb/>
+Camera non prese deliberazione alcuna, nell'animo di tutti era già <lb/>
+penetrata la convinzione d'essere un dovere di riconoscenza, e atto pie-<lb/>
+toso verso i grandi scrittori che onorarono la patria, quello di racco-<lb/>
+gliere e custodire le lettere e i documenti riferentisi ad essi, e di or-<lb/>
+dinarli in modo da agevolarne agli studiosi l'esame.<lb/>
+Nel <date>1891</date>, si formò a Berlino una Associazione privata, presieduta <lb/>
+da Mommsen e da K. Weinhold, il quale, per dare un nobile esempio, <lb/>
+regalò al nascente Archivio un'importante collezione di autografi. Il <lb/>
+posto di K. Weinhold è occupato ora dal chiarissimo prof. Erich Schmidt, <lb/>
+al quale, debbo la cortesia di diverse notizie.<lb/>
+La Società berlinese, con il suo Statuto del <date>1892</date>, (<num>1</num>)<note place="foot"> <foreign lang="ger"><emph>Satzungen der Litteraturarchiv-Gesellschaft zu Berlin,</emph></foreign> <date>1892</date>. </note> si propone di ac-<lb/>
+quistare, o accettare in dono, scritti di valore storico o letterario. Essa <lb/>
+accetta anche in deposito, e condizionatamente, dai proprietari i do-<lb/>
+cumenti che a loro piace di mettere a disposizione del pubblico, per-<lb/>
+chè, quantunque sia una Società privata, concede, con grande <lb/>
+<pb n="19"/>
+liberalità, a tutti gli studiosi la facoltà di consultare le carte e i documenti <lb/>
+che a lei, al suo zelo, e alla sua attività è riuscito raccogliere.<lb/>
+Dopo undici anni di vita, alla fine del <date>1902</date>, il sodalizio berlinese <lb/>
+possedeva <num>19</num> mila lettere o documenti, e <num>680</num> manoscritti. Fra le carte <lb/>
+più notevoli ed importanti vi sono quelle lasciate dallo storico Nie-<lb/>
+buhr e dal filosofo Schleiermacher.<lb/>
+L'Archivio, benchè sia, come ho detto, di proprietà privata, è <lb/>
+ora custodito nella Biblioteca Reale di Berlino, ed affidato all'egregio <lb/>
+bibliotecario D.r Meisner.<lb/>
+Fra l'Archivio della letteratura di Berlino, e quello fiorentino, <lb/>
+esiste però una notevole differenza.<lb/>
+L'illustre prof. Dilthey, proponeva che le carte ed i documenti <lb/>
+si ripartissero e si raccogliessero, non solo a Berlino, ma anche in altri <lb/>
+luoghi; per esempio, nell'Archivio di Goethe, a Weimar, tutto quello <lb/>
+che si riferiva alla grande epoca della poesia classica tedesca; nella <lb/>
+Biblioteca di Eidelberga le carte spettanti all'umanesimo ec.  Ma <lb/>
+il disegno del prof. Dilthey non poteva avere piena esecuzione se non <lb/>
+con il concorso diretto dello Stato. La Società, dovendo valersi solo <lb/>
+del modesto contributo dei soci, delle loro eventuali elargizioni, era <lb/>
+naturalmente costretta a limitarsi negli acquisti e a scegliere l'ottimo <lb/>
+fra il molto.<lb/>
+Da noi invece, stabilito l'acquisto, accettato il dono, è caso ra-<lb/>
+rissimo che si facciano degli scarti. A tal fine occorrerebbe un perso-<lb/>
+nale speciale e numeroso; e anche allora, si andrebbe incontro a <lb/>
+mille pericoli. Nei carteggi, però, è da presupporsi che la lettera ser-<lb/>
+bata per degli anni, abbia avuto, almeno per il ricevente, una relativa <lb/>
+importanza; e in questo caso nessuno, più di lui, poteva esser giudice <lb/>
+migliore di quello che lo riguardava, e che dovrebbe esser conservato.<lb/>
+D'altra parte, quale impiegato sarebbe in grado, prima di leggere, <lb/>
+e dopo molte ricerche e studi, di giudicare, non dico della importanza <lb/>
+effettiva o apparente, ma neanche eventuale di una lettera?<lb/>
+Il dire, che, in considerazione dell'estensione che potrebbe pren-<lb/>
+dere un simile Archivio, non limitandosi alle lettere ed ai documenti <lb/>
+valutabili per il loro contenuto assoluto o relativo, consiglierebbe di <lb/>
+fare una scelta rigorosa e severa, sarebbe proposta strana al pari di <lb/>
+quella, che in un Archivio di Stato si volesse, per amore di economia <lb/>
+e di spazio, fare fra le carte ufficiali e diplomatiche una epurazione, <lb/>
+coll'intendimento di conservare soltanto quelle, che si giudicassero, <lb/>
+utili ad un ricercatore qualunque, in un'epoca più o meno vicina. Que-<lb/>
+sto arbitrio non può prenderselo la Biblioteca. Essa deve presentare <lb/>
+<pb n="20"/>
+al pubblico il proprio materiale, ordinato in modo che lo studioso possa <lb/>
+facilmente consultarlo, e valersi di quello che crede di scegliere. Ma <lb/>
+nello scartare essa deve procedere molto cauta e guardinga.<lb/>
+Così, per esempio, nelle <num>28</num> mila lettere di G. P. Vieusseux, che <lb/>
+preludono il nostro risorgimento nazionale, si sapeva già, al momento <lb/>
+dell'acquisto, che l'illustre editore aveva tolte tutte le lettere pura-<lb/>
+mente commerciali o di nessuna importanza. Fatto da lui stesso quello <lb/>
+scarto, chi avrebbe osato ordinarne un secondo? Con quale criterio?<lb/>
+Devo poi ricordare che la Società berlinese stampa annualmente <lb/>
+una Relazione di quello che ha fatto e dell'incremento dell'Archivio; ma <lb/>
+la Relazione, è riservata unicamente ai suoi soci; e ciò è increscevole. <lb/>
+Un'altra importante disposizione è quella che lo statuto della Società <lb/>
+accorda alla Presidenza la facoltà di far fare il Catalogo, e al bi-<lb/>
+sogno di pubblicarlo, delle lettere di scrittori tedeschi, possedute dai <lb/>
+privati, oppure conservate in piccoli archivi, od uffici meno conosciuti.<lb/>
+Un simile provvedimento sarebbe utilissimo anche in Italia. Quanto <lb/>
+sarebbe giovevole ai nostri studi, quanto conferirebbe al maggior de-<lb/>
+coro d'Italia, avere indicazioni precise intorno alle lettere scritte dai <lb/>
+più insigni letterati del Rinascimento, che si trovano ora sparse nelle <lb/>
+nostre pubbliche biblioteche, oppure giacciono in collezioni private?</p>
+<p>*</p>
+<p>Nel <date>1887</date>, in seguito a non brevi trattative, mi si offrì l'occa-<lb/>
+sione di por mano, su larga base, all'effettuazione dell'Archivio della <lb/>
+letteratura italiana.<lb/>
+Il carteggio di Gian Pietro Vieusseux ne fu, se così posso dire, <lb/>
+la prima pietra. Trattai e ne conseguii l'acquisto, e contemporanea-<lb/>
+mente, col cortese aiuto del compianto prof. Giuseppe Domengé, chiesi <lb/>
+ed ottenni in dono dagli eredi, il carteggio dell'editore Felice Le <lb/>
+Monnier. Il possesso poi dell'archivio teatrale di Alessandro Lanari <lb/>
+accrebbe in quei giorni il primo fondo di documenti illustrativi di un <lb/>
+periodo importante del nostro risorgimento. - Così l'Archivio era <lb/>
+fondato.<lb/>
+L'importanza del carteggio Vieusseux è evidente a coloro che <lb/>
+conoscono quanta parte egli abbia avuto nel movimento letterario e <lb/>
+politico italiano. Contiene circa <num>28000</num> lettere, già ordinate e accessi-<lb/>
+bili al pubblico, scritte al Vieusseux dagli uomini più celebri o più <lb/>
+notevoli del suo tempo. A questo carteggio va unita una grandissima <lb/>
+quantità di carte e documenti, in gran parte sconosciuti, intorno agli <lb/>
+avvenimenti d'Italia dal <date>1819</date> al <date>1863</date>; e al graduale svolgimento <lb/>
+<pb n="21"/>
+del pensiero italiano in quel periodo di tempo. In questo carteggio <lb/>
+hanno grande interesse la corrispondenza che servì per la compila-<lb/>
+zione dell'<emph>Antologia</emph>, del <emph>Giornale Agrario</emph>, e dell'<emph>Archivio storico ita-<lb/>
+liano</emph>. I documenti, invece, si riferiscono alla rivoluzione del <date>1821</date>; <lb/>
+all'assedio di Venezia del <date>1848</date>; alla fondazione degli asili infantili <lb/>
+in Italia; ai Congressi degli scienziati, ec.<lb/>
+Il Carteggio di Felice Le Monnier si compone di circa <num>8,000</num> let-<lb/>
+tere autografe di illustri italiani contemporanei. Chi conosce l'impor-<lb/>
+tanza della raccolta di opere, da lui pubblicate nella sua <emph>Biblioteca <lb/>
+Nazionale</emph>, può giudicare il valore di questo carteggio per gli studi <lb/>
+letterari; e tanto più, quando si consideri che oltre le lettere suindi-<lb/>
+cate, si ebbe in dono anche il copia lettere del benemerito editore. <lb/>
+In tal modo questa corrispondenza è bilateralmente completa. <lb/>
+Dalle nobili signore Anna Protonotari Zanetti e Luisa Protono-<lb/>
+tari Campi, e dal conte Zanetti, la biblioteca ebbe, nel <date>1901</date>, in dono <lb/>
+<num>8000</num> lettere. Questo carteggio contiene la corrispondenza dei collabo-<lb/>
+ratori della <emph>Nuova Antologia</emph> coi direttori professore Francesco Pro-<lb/>
+tonotari, fondatore della Rivista, e col fratello suo, conte Giuseppe <lb/>
+Protonotari Campi, che a lui successe nel <date>1888</date>. Le lettere, come ognuno <lb/>
+sa, sono degli scrittori più rinomati che fiorirono in Italia in quegli anni.<lb/>
+Coi carteggi del Vieusseux, dei fratelli Protonotari e di Felice <lb/>
+Le Monnier, si ha dal <date>1820</date> fino a tutto il secolo scorso, una serie <lb/>
+continua di notizie non conosciute, e utilissime alla storia letteraria, <lb/>
+artistica e politica d'Italia.<lb/>
+É vero, che per avere un chiaro ed esatto quadro del movimento <lb/>
+letterario in Toscana e nel resto d'Italia, prima e durante il periodo del <lb/>
+nostro risorgimento politico, manca ancora la corrispondenza d'un altro, <lb/>
+meritissimo editore italiano, Gaspare Barbèra. Ma nell'animo mio è <lb/>
+sempre viva la speranza, che un giorno i figli vorranno che le carte <lb/>
+di lui, trovino sede onorata presso quelle di Gian Pietro Vieusseux <lb/>
+e di Felice Le Monnier.<lb/>
+L'Archivio teatrale Lanari fu acquistato il <num>31</num> luglio <date>1887</date>. Ci dà <lb/>
+notizie importanti per i teatri italiani in generale e per quello fioren-<lb/>
+tino in particolare, dal <date>1822</date> al <date>1844</date>. La celebre impresa teatrale era <lb/>
+in corrispondenza con tutti i migliori maestri di musica, artisti di <lb/>
+canto, autori ed attori drammatici.<lb/>
+Nelle <num>66</num> grosse filze, oltre una collezione ricchissima di autografi, <lb/>
+vi sono le minute della corrispondenza tenuta dallo stesso Alessandro <lb/>
+Lanari; e le carte più importanti della sua amministrazione teatrale. <lb/>
+Le liti, i litigi, i conflitti, gli accorgimenti e la diplomazia tra gli <lb/>
+<pb n="22"/>
+artisti e gli impresari interessano, specialmente in oggi, gli studiosi <lb/>
+degli uomini e dei tempi. Giulio Piccini (<emph>Jarro</emph>) ha pubblicato un brioso <lb/>
+studio sui documenti e le lettere che costituiscono l'archivio della <lb/>
+impresa teatrale Alessandro Lanari e C., col titolo «<emph>Memorie di un <lb/>
+impresario fiorentino</emph>».<lb/>
+Dagli eredi di Alessandro Ademollo si acquistarono <num>50</num> filze di do-<lb/>
+cumenti, e di studi diversi, intorno alla storia del teatro, di cui l'Ade-<lb/>
+mollo fu valente cultore, e dei quali è ottimo commentario il carteggio <lb/>
+di lui, che si aggira quasi tutto su questo prediletto suo argomento.<lb/>
+Credo di dovere subito avvertire che non parlo degli Epistolari, <lb/>
+già posseduti dalla Biblioteca nostra, prima della fondazione dell'Ar-<lb/>
+chivio della letteratura italiana; nè della ricca collezione di autografi <lb/>
+fatta dal Gonnelli. Vorrei, continuando questa sommaria enumerazione, <lb/>
+lasciare nei lettori memoria di tutto quello che potrà esser utile ai <lb/>
+loro studi.<lb/>
+Di Emmanuele Repetti l'Archivio possiede le schede adoperate per <lb/>
+la compilazione del <emph>Dizionario Geografico della Toscana</emph>. Di lui ab-<lb/>
+biamo anche le lettere scrittegli dallo storico Carlo Troya. E perchè <lb/>
+le lettere originali del Repetti al Troya ci mancavano, e si trovavano <lb/>
+nella Biblioteca Nazionale di Napoli, furono da me fatte copiare.<lb/>
+Questa corrispondenza tratta dell'origine delle famiglie italiane, <lb/>
+e in alcune lettere si parla anche dei Malaspina, e per incidenza anche <lb/>
+dell'Alighieri.<lb/>
+Di Pietro Cironi, pratese, oltre il suo carteggio, il nostro Ar-<lb/>
+chivio possiede un pregevolissimo <emph>Diario politico</emph>, che va dal <date>1836</date> <lb/>
+al <date>1862</date>, scritto in quattordici volumi, con sei altri volumi di do-<lb/>
+cumenti.<lb/>
+Argomenti di vive polemiche li troviamo anche nelle <num>1000</num> e più <lb/>
+lettere dirette a un altro patriotta, Giuseppe Guerzoni, capitano gari-<lb/>
+baldino, artista, pubblicista, deputato e, da ultimo professore di let-<lb/>
+teratura italiana, che ebbe occasione di corrispondere e frequentare <lb/>
+un gran numero di valentissimi uomini, che presero parte al nostro <lb/>
+rivolgimento. In queste lettere si parla anche della spedizione garibal-<lb/>
+dina in Polonia e di una, progettata, in Oriente.<lb/>
+Citerò poi le lettere del conte Festi e di Giovanni a Prato, <lb/>
+Trentini, sui fortunosi anni <date>1848</date>-<date value="1849">49</date>, e le lunghe e inutili pratiche <lb/>
+per conseguire al Trentino l'autonomia amministrativa; la Relazione <lb/>
+dell'illustre generale Orazio Dogliotti sulla campagna del Trentino <lb/>
+del <date>1866</date>, donataci dalla vedova signora Giuseppina Denina; e la <lb/>
+corrispondenza d'un altro illustre Trentino, di Giuseppe Canestrini, <lb/>
+<pb n="23"/>
+pregevole anche per le lettere di Adolfo Thiers; corrispondenza que-<lb/>
+sta regalataci dall'Avv. Temistocle Pampaloni.<lb/>
+Alla liberalità della egregia signorina Caprile e dei signori <lb/>
+Astraudi, eredi dell'Avvocato Tommaso Corsi, dobbiamo <num>15</num> mila lettere <lb/>
+d'insigni o notevoli personaggi, coi quali egli ebbe corrispondenza, come <lb/>
+avvocato, come grande patriotta, come deputato, e ministro.<lb/>
+Un'altro importante carteggio è quello del cav. Donato Bril-<lb/>
+landi, segretario al Ministero degli Esteri, sotto Leopoldo <num>II</num> di To-<lb/>
+scana. Sono le lettere dell'avo materno dell'egregio bibliotecario dot-<lb/>
+tor Giulio Puliti, lasciate in ricordo alla nostra Biblioteca, quando <lb/>
+fu trasferito a quella Braidense.<lb/>
+Rinnuovo i miei ringraziamenti alla signorina Aspasia Mignaty <lb/>
+per il dono fattoci nel <date>1896</date> di <num>2000</num> lettere di illustri italiani e stra-<lb/>
+nieri, scritte alla madre, la signora Margherita Albana Mignaty, nata <lb/>
+a Corfù, recatasi nell'India, e vissuta molti anni in Firenze. Se si <lb/>
+ricorda che l'illustre scrittrice corrispondeva col <foreign lang="eng"><emph>Daily-News</emph></foreign>, dal <date>1859</date> <lb/>
+al <date>1866</date>, non occorre altro commento alla loro importanza. Di lei <lb/>
+abbiamo anche la vita di Santa Caterina da Siena. Del padre della <lb/>
+signorina Mignaty, Giorgio, di Cefalonia, egregio pittore, ci donò <num>402</num> <lb/>
+lettere, direttegli da uomini illustri in onore del suo merito.<lb/>
+Un centinaio di lettere di scienziati valentissimi, ci furono regalate <lb/>
+dall'illustre Emilio Bechi, professore di chimica, con altre a lui dirette: <lb/>
+da Luigi Volpicelli, <num>350</num> lettere di astronomi, fisici, matematici italiani <lb/>
+e stranieri. Antonio Micheli, eminente botanico, descrive in alcune <lb/>
+delle sue numerose schede, con semplicità e vivezza, non poche piante; <lb/>
+e così di Giovanni, Ottaviano e Antonio Targioni Tozzetti abbiamo <lb/>
+un copioso contributo di notizie scientifiche, dal <date>1750</date> al <date>1850</date>.<lb/>
+La famiglia del compianto Alarico Carli, interprete fedele del de-<lb/>
+siderio di lui, volle che fosse depositata la sua corrispondenza col prin-<lb/>
+cipe Baldassarre Boncompagni (<date>1854</date>-<date>1890</date>), composta di circa <num>6000</num> <lb/>
+lettere, per la massima parte scritte da Enrico Narducci, bibliotecario <lb/>
+di Roma, e segretario del principe. Generosamente ci furono poi donate <lb/>
+dagli eredi del principe Boncompagni tutte le lettere scritte da Alarico <lb/>
+Carli, le quali per la massima parte trattano di bibliografia ma-<lb/>
+tematica.<lb/>
+Nella Biblioteca pistoiese, raccolta da Rossi Cassigoli, e acquistata <lb/>
+dalla nostra, lo studioso troverà <num>4500</num> lettere di illustri Pistoiesi.<lb/>
+La Biblioteca ha anche ricevuto in dono quattro grosse filze di <lb/>
+lettere dell'Ab. Francesco Fontani, bibliotecario, dal <date>1783</date> al <date>1818</date>, <lb/>
+della Riccardiana. Dottissimo latinista e grecista, tenne viva <lb/>
+<pb n="24"/>
+corrispondenza con gli eruditi del suo tempo. Fu egli che dispose l'animo <lb/>
+del granduca Ferdinando <num>III</num> ad acquistare, salvandoli da certa sper-<lb/>
+dizione, i Manoscritti Galileiani; che ora sono tesoro inestimabile della <lb/>
+nostra Biblioteca.<lb/>
+Di Giuseppe Palagi, segretario del Consiglio Provinciale di Fi-<lb/>
+renze, erudito conoscitore di cose artistiche, e accurato raccoglitore di <lb/>
+cose curiose ed apprezzabili, abbiamo numerose lettere di artisti an-<lb/>
+tichi e moderni, relative a Firenze, e molti studi, e ricerche documen-<lb/>
+tate, fatte da lui. Una lettera di Carlo <num>V</num> corona questa sua collezione.<lb/>
+Fra i benemeriti devo pure ricordare il libraio antiquario Ulisse <lb/>
+Franchi, donatore, alla biblioteca nostra, d'una parte della sua corri-<lb/>
+spondenza con illustri personaggi.<lb/>
+L'egregio prof. Raffaele Fornaciari ci porgeva, con riverenza di <lb/>
+affetto verso il padre Luigi, <num>2249</num> lettere relative quasi tutte a que-<lb/>
+stioni filologiche, scritte a lui da valorosi contemporanei.<lb/>
+Nel carteggio, acquistato, di Pietro Fraticelli, vi sono <num>580</num> lettere a <lb/>
+lui dirette da più di <num>100</num> distinti letterati del suo tempo; le quali, in <lb/>
+grandissima parte versano su cose Dantesche, e sono un bel corredo <lb/>
+alla nostra Collezione di manoscritti e stampati sull'Alighieri.<lb/>
+Il prof. Guido Mazzoni, che, anche in passato, si mostrò premuro-<lb/>
+sissimo per la nostra biblioteca ed esaminò, insieme con il prof. Emilio <lb/>
+Teza, la ricchissima Miscellanea Capretta (<num>40</num> mila opuscoli), acquistata <lb/>
+dalla nostra biblioteca, si interpose, di recente, presso le signore Mina <lb/>
+Ferrai Turazza e Eugenia Ferrai per farci avere in dono tutte le lettere e <lb/>
+i manoscritti di Fortunata Sulgher Fantastici e di Massimina Fanta-<lb/>
+stici Rosellini, lodate scrittrici: carte venute in loro possesso dopo <lb/>
+la morte degli illustri loro congiunti professori Eugenio e Luigi <lb/>
+Alberto Ferrai.<lb/>
+Di Giuseppe Bianchetti, autore dello <emph>Scrittore italiano</emph>; <emph>Dei Let-<lb/>
+tori e Parlatori</emph> e della <emph>Giulia Francardi</emph>, siamo in possesso di otto <lb/>
+volumi di lettere scritte da lui stesso, dal <date>1816</date> al <date>1871</date>, ad insigni <lb/>
+personaggi del suo tempo: al Giordani, ad Alessandro Manzoni, al <lb/>
+Tommaseo e ad altri. Queste lettere sono la copia di quelle spedite: ma <lb/>
+sono scritte dallo stesso Bianchetti.<lb/>
+Il giorno solenne della inaugurazione del monumento a Bettino <lb/>
+Ricasoli in Firenze, il degno nipote Barone Giovanni Ricasoli-Filidolfi, <lb/>
+donava al nostro Archivio le carte appartenenti all'Abate Raffaele <lb/>
+Lambruschini. Quegli scritti e quelle lettere furono salvati dalla di-<lb/>
+spersione dall'illustre Barone Bettino Ricasoli; e a nuovo onore del-<lb/>
+l'illustre avo, volle restituirli all'insegnamento pubblico. Così si potrà <lb/>
+<pb n="25"/>
+meglio conoscere e stimare l'opera dell'agricoltore, dell'economista, <lb/>
+dell'eloquente e forbito educatore del popolo. Questo carteggio fu già <lb/>
+ordinato e descritto dal cav. Giuseppe Baccini; il quale cura con <lb/>
+intelligenza e amore tutto l'Archivio, affidato all'egregio Conservatore <lb/>
+dei Manoscritti, cav. B. Podestà.<lb/>
+Quando si pensa alla attività del Conte Angelo De Gubernatis, <lb/>
+dell'autore di <emph>Fibra</emph>, e alla diversità dell'esercizio, sempre alto e ge-<lb/>
+niale, della sua vita letteraria in Italia e per tutto il mondo, è facile <lb/>
+immaginarsi l'importanza universale dei doni da lui fatti al nostro <lb/>
+Archivio.<lb/>
+Oltre le notizie dei suoi viaggi, specialmente in Ungheria e nell'In-<lb/>
+dia, ci ha donato numerosissimi autografi d'illustri italiani e stranieri, <lb/>
+ora morti, che ebbero con lui corrispondenza attiva anche dai paesi <lb/>
+più lontani. Di più egli ha ceduto alla biblioteca oltre <num>2000</num> manoscritti <lb/>
+originali di molti poeti esteri, e di non pochi appassionati cultori delle <lb/>
+dottrine dantesche, da essi inviati alla Tribuna Beatrice. L'argomento <lb/>
+che tratto non mi permette di ricordare altre sue benemerenze verso <lb/>
+la nostra biblioteca, per le quali anche Firenze gli deve riconoscenza.<lb/>
+Il nostro Archivio, oltre il carteggio, conserva gli spogli filologici <lb/>
+di Pietro Fanfani, fatti da lui nel periodo che corre dal <date>1843</date> al <date>1848</date>, <lb/>
+delle opere classiche ch'egli andava leggendo e studiando. Sono con-<lb/>
+tenuti in <num>300</num> quinterni, rilegati in sette volumi. Il primo, porta una <lb/>
+avvertenza su di essi, nella quale dichiara che fino al quinterno <num>27</num> <lb/>
+lo spoglio fu fatto «come Dio vuole!», e termina con queste parole: <lb/>
+«O dunque tutti gli altri quinterni sono un oro?... Non istò pa-<lb/>
+gatore degli errori che vi possono essere trovati... alle corte, è roba <lb/>
+non digerita, ma utile, utilissima e per me, e per chi sapesse usarla <lb/>
+anche così, senza ripulitura.» Egli, come è naturale, previde che non <lb/>
+sarebbero mancati gli spigolatori ed i ripulitori.<lb/>
+Alla Biblioteca furono dall'erudito comm. Costantino Arlia donati <lb/>
+i lavori, che ne' diversi dialetti d'Italia furono fatti dai Maestri ele-<lb/>
+mentari sul libretto di Pietro Fanfani: <emph>Una Casa fiorentina da ven-<lb/>
+dere</emph>: lavori, che dovean servire a un libro, affin di unificare il lin-<lb/>
+guaggio domestico, secondo i principii propugnati dal Manzoni nella <lb/>
+sua celebre relazione sull'<emph>Unità della lingua</emph>, e che ora possono essere <lb/>
+utili ai compilatori de' dizionarii dialettali.<lb/>
+Gli eredi di Niccolò Barabino, per cura, non mai abbastanza <lb/>
+apprezzata, dell'avv. Clearco Freccia, ci hanno arricchito dei mano-<lb/>
+scritti e di parecchie lettere dirette, al celebre pittore genovese, da <lb/>
+illustri personaggi. Vi è anche un dialogo tra artisti scritto su schede. <lb/>
+<pb n="26"/>
+Accennerò ad un episodio commovente della sua vita. Poco dopo <lb/>
+alla sua morte, avvenuta il <num>19</num> ottobre <date>1891</date>, giunse a mia notizia che <lb/>
+durante i suoi viaggi egli indirizzasse ad una gentile signorina tedesca <lb/>
+delle lettere, nelle quali erano riprodotte le impressioni artistiche di <lb/>
+cui via via era colpito. Scrissi alla signorina pregandola di voler <lb/>
+donare alla nostra Biblioteca qualcuna di quelle lettere... Ma la mia <lb/>
+lettera non ebbe risposta...<lb/>
+Passarono otto anni, e nel <date>1899</date> vidi arrivare in biblioteca una <lb/>
+persona con una scatola di truciolo in mano. Sul coperchio di essa <lb/>
+erano scritte, in italiano, con inchiostro queste parole:<lb/>
+<quote rend="block">
+<p><emph>Lettere di Niccolò Barabino <lb/>
+Professore <lb/>
+dono alla Biblioteca Nazionale <lb/>
+Centrale a Firenze <lb/>
+tutto di pugno del Compianto <lb/>
+ed illustre Artista </emph><lb/>
+<foreign lang="ger">Stuttgart</foreign> . . . . . . . . . . . . . . . . . . . . . Giulia <lb/>
+<num>4</num> Ottobre <date>1896</date>.</p>
+</quote>
+Si volle che firmassi, su di un foglio, la ricevuta di questa sca-<lb/>
+tola, per attestare così all'esecutore testamentario, che l'ultima volontà <lb/>
+di Giulia de Lienhardt, morta l'<num>11</num> Agosto <date>1899</date>, era stata adempiuta.<lb/>
+Firmai, ed aperta la scatola, con non poca sorpresa, trovai tutta <lb/>
+la corrispondenza del prof. Barabino con lei, dal <date>1875</date> al <date>1889</date>, ordi-<lb/>
+nata cronologicamente, diversi appunti e ricordi, e fra gli altri i loro <lb/>
+ritratti. L'occhio mio si posò su di un pezzo di carta scritta a ma-<lb/>
+tita, il <num>5</num> dicembre <date>1896</date>, e lessi poche parole, scritte in tedesco: «Se <lb/>
+dovessi morire improvvisamente, senza poter parlare, voglio che il <lb/>
+mio capo posi su questo guanciale, sul quale, morto, riposò Barabino.»<lb/>
+Dell'arte, io credo, che molto più di quello che si suppone, si <lb/>
+troverà nell'esplorare, mi si passi l'espressione, questa nostra miniera <lb/>
+di lettere e di documenti.<lb/>
+É naturale che in questa rapida enumerazione non ricordi molte <lb/>
+benemerite persone che di qualche lettera importante, o di qualche do-<lb/>
+cumento prezioso vollero arricchire il nostro Archivio, il quale sempre <lb/>
+più incontra il favore degli studiosi; e sempre più rapidamente au-<lb/>
+menta...<lb/>
+<pb n="27"/>
+Gli argomenti trattati dalla mente di Niccolò Tommaseo sono <lb/>
+tanto numerosi e vari3 che i loro titoli basterebbero a dare l'indice <lb/>
+a questo archivio. Per questo, e per la riverenza che sento per il <lb/>
+Grande Dalmata, chiudo questa enumerazione ricordando le carte di <lb/>
+lui, quasi compendio sinteticamente intellettuale, di quanto contiene <lb/>
+questo Archivio delle lettere, delle scienze, dell'arte e... delle proprietà <lb/>
+del cuore dell'uomo!<lb/>
+La donazione dei suoi manoscritti, delle opere complete in tutte <lb/>
+le edizioni, nelle quali videro la luce; di tutte le sue lettere e di tutti <lb/>
+i libri da lui postillati, la dobbiamo all'unica sua figlia. Il carteggio <lb/>
+copiosissimo comprende le lettere scritte a Niccolò Tommaseo, spesso <lb/>
+accompagnate dalla risposta copiata; esse ascendono a <num>56657</num>.<lb/>
+Niccolò Tommaseo dice nel suo <emph>Dizionario estetico</emph>: <lb/>
+«Non c'è scritti che io più desideri vedere stampati, delle let-<lb/>
+tere degli uomini chiari per le doti dell'animo e dell'ingegno: chè <lb/>
+quivi s'apre il campo allo studio de' tempi. In questo aspetto anche <lb/>
+le lettere mediocri acquistano morale e storico significato.»<lb/>
+Quando egli scriveva queste parole non poteva pensare che un <lb/>
+giorno la sua diletta figliuola, Suor Chiara delle figlie di San Fran-<lb/>
+cesco di Assisi, mossa da pietà filiale, avrebbe generosamente donato <lb/>
+tutta la somma delle opere di lui al nostro Archivio della Lettera-<lb/>
+tura perchè gli studiosi compulsandone la corrispondenza, applicassero <lb/>
+il suo insegnamento a scrutare l'indole degli uomini.
+</p>
+<pb n="28"/></div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2 TEIform="TEI.2">
+   <teiHeader type="text" status="new" TEIform="teiHeader">
+      <fileDesc TEIform="fileDesc">
+         <titleStmt TEIform="titleStmt">
+            <title TEIform="title">Degli effetti della fame</title>
+            <author TEIform="author">Ugo Foscolo</author>
+         </titleStmt>
+         <extent TEIform="extent">55175 Kb in UTF-8</extent>
+         <publicationStmt TEIform="publicationStmt">
+            <publisher TEIform="publisher">Biblioteca Italiana</publisher>
+            <pubPlace TEIform="pubPlace">Roma</pubPlace>
+            <date TEIform="date">2008</date>
+            <idno TEIform="idno">bibit000758</idno>
+            <availability status="unknown" TEIform="availability">
+               <p TEIform="p">Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt TEIform="seriesStmt">
+            <title TEIform="title">Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc default="NO" TEIform="sourceDesc">
+            <bibl default="NO" TEIform="bibl">
+               <title TEIform="title">Lezioni, articoli di critica e di polemica : 1809-1811</title>
+               <title type="part" TEIform="title">v.</title>
+               <author TEIform="author">Foscolo, Ugo</author>
+               <editor id="ed" role="editor" TEIform="editor">Santini, Emilio</editor>
+               <publisher TEIform="publisher">F. Le Monnier</publisher>
+               <pubPlace TEIform="pubPlace">Firenze</pubPlace>
+               <date TEIform="date">1933</date>
+               <note place="unspecified" anchored="yes" TEIform="note">Fa parte di: Edizione nazionale delle opere di Ugo Foscolo; Firenze: F. Le Monnier</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc TEIform="encodingDesc">
+         <samplingDecl default="NO" TEIform="samplingDecl">
+            <p TEIform="p">Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl default="NO" TEIform="editorialDecl">
+            <correction method="silent" status="medium" default="NO" TEIform="correction">
+               <p TEIform="p">Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all" default="NO" TEIform="quotation">
+               <p TEIform="p">I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none" default="NO" TEIform="hyphenation">
+               <p TEIform="p">I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl TEIform="classDecl">
+            <taxonomy id="CGB" TEIform="taxonomy">
+               <bibl default="NO" TEIform="bibl">Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc TEIform="profileDesc">
+         <creation TEIform="creation">
+            <date TEIform="date">800</date>
+         </creation>
+         <langUsage default="NO" TEIform="langUsage">
+            <language id="ita" TEIform="language">Italiano</language>
+         </langUsage>
+         <textClass default="NO" TEIform="textClass">
+            <keywords scheme="CGB" TEIform="keywords">
+               <term TEIform="term">Trattati</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc TEIform="revisionDesc">
+         <change TEIform="change">
+            <date TEIform="date">2007-06-08T00:00:00.000+02:00</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">Novadata systems</name>
+            </respStmt>
+            <item TEIform="item">Digitalizzazione - OCR</item>
+         </change>
+         <change TEIform="change">
+            <date TEIform="date">2007-12-11T00:00:00.000+02:00</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">BIBIT</name>
+            </respStmt>
+            <item TEIform="item">Correzione linguistica</item>
+         </change>
+         <change TEIform="change">
+            <date TEIform="date">2008-01-11T00:00:00.000+02:00</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">Marta Zanazzi</name>
+               <name TEIform="name">BIBIT</name>
+            </respStmt>
+            <item TEIform="item">Codifica XML - Codifica manuale</item>
+         </change>
+         <change TEIform="change">
+            <date TEIform="date">2008-02-07T00:00:00.000+02:00</date>
+            <respStmt TEIform="respStmt">
+               <name TEIform="name">Carla Deiana</name>
+               <name TEIform="name">BIBIT</name>
+            </respStmt>
+            <item TEIform="item">Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text TEIform="text">
+      <body TEIform="body">
+         <div1 n="Degli effetti della fame" org="uniform" sample="complete" part="N" TEIform="div1">
+            <head TEIform="head">DEGLI EFFETTI DELLA FAME E DELLA DISPERAZIONE SULL'UOMO.</head>
+            <p TEIform="p">L'autore di un <title TEIform="title">Viaggio nell'alta Pensilvania e nella nuova York</title>
+                    (libro stampato da pochi anni in Filadelfia e ristampato in Londra) descrisse
+                    nel secondo di que' tre volumi un avvenimento che era per riescire funesto tanto
+                    a lui quanto al suo compagno di viaggio, e che noi racconteremo traducendolo
+                    fedelmente, non solo perchè quell'opera inglese è poco nota in Italia, ma
+                    eziandio perchè in questo fatto si confermano alcune delle poche vere nozioni
+                    che tanti secoli di esperienza e di studio ci hanno appena potuto dare su la
+                    natura dell'uomo.</p>
+            <space type="stacco-narrativo" TEIform="space"/>
+            <p TEIform="p">«Per compiacere al mio desiderio di esaminare i monti Allegheni, il
+                    sig. Hermann (l'amicizia del quale non mi abbandonò mai in tanti anni di viaggio
+                    così penoso) s'avviò meco sul far del giorno, provvedendosi d'un battifuoco,
+                    d'una pietra focaia e di tutto il bisogno onde scoprire gli <emph TEIform="emph">alberi delle
+                        api</emph>, chiamati in paese <foreign lang="eng" TEIform="foreign">bee-tree</foreign>. Le
+                    api, recate la prima volta dagli Europei, crebbero, e si allontanarono a frotte
+                    dall'abitato. Posero i loro alveari tra i vacui d'antichi alberi, nelle valli
+                    de' monti. Gli indigeni vanno a pigliarne la cera e il mele ne' mesi d'autunno.
+                    Dura la caccia più giorni: oltre le provvisioni necessarie al vitto, portano
+                    l'acciarino, la bussola, l'oriuolo, del vermiglione ed alquanti favi. Giunti ne'
+                    luoghi coperti di altissime piante, s'accende il fuoco sopra un macigno, intorno
+                    a cui si versa alcun poco di cera e di mele; e sovra il mele si sparpaglia
+                    alquanto di quel vermiglione. Se le api sono vicine, l'odore le attrae
+                    prontamente; ma non potendosi avvicinare al mele senza che alcune particelle del
+                    vermiglione s'attacchino alla lanugine del loro corpo, è facile di osservarle
+                    mentre ritornano a' loro alveari. Allora si nota nella bussola la direzione del
+                    loro volo, ed il tempo che possono avervi speso: le si seguono e si estraggono i
+                    favi dagli alberi.</p>
+            <p TEIform="p">«Noi dunque ci siamo incamminati a questa nuova caccia, informandoci
+                    quanto più esattamente del cammino; ma con una sola parte delle provvisioni
+                    necessarie, senza portare i nostri schioppi; da che ad ogni modo era nostra
+                    intenzione di tornarcene prima di sera. In mezz'ora fummo a un burrone largo e
+                    profondo, d'onde parea che precipitassero i torrenti quando si scioglievano le
+                    nevi delle montagne. Noi non abbiamo mai veduto ne' nostri viaggi sì terribile
+                    ostacolo: parea che la natura volesse quivi rappresentare il ribrezzo e la
+                    distruzione. Da un lato si vedeano pantani d'acque morte piene di rettili e
+                    ciglioni di rupe isolati, sui quali le acque doveano piombare e rompersi
+                    violentemente. Dall'altro lato cumuli immensi di creta, di sabbia o di ghiaia,
+                    infinità d'alberi intralciati, che facevano argine a chiunque volesse passarvi;
+                    e i loro ceppi erano coperti di foglie secche, di fango, di rami imputriditi, e
+                    di tal modo che mostravano d'avere resistito anche all'impeto de' torrenti.</p>
+            <p TEIform="p">«I nostri ospiti si erano dimenticati di avvertirci di questo ostacolo,
+                    o noi abbiamo sbagliato strada, o, come novizi di sì fatte gite disastrose, non
+                    abbiamo trovato il modo di superarlo. Tuttavia ci siamo avvisati di andar sempre
+                    lungo la costa del burrone, finchè trovammo il modo di traversarlo dopo due o
+                    tre miglia di strada; ma, distratti nel discorrere fra noi, abbiamo continuato a
+                    camminare senza riflettere che potevamo perdere la linea indicata dagli ospiti
+                    nostri. Noi eravamo già inoltrati nella foresta, nè so per quanto spazio, quando
+                    il sig. Hermann, guardandosi intorno, esclamò: — Questi non sono già
+                    gli alberi di cui ci avevano parlato: noi siamo perduti. — Un lampo
+                    non iscopre più terribilmente all'occhio del viandante il precipizio sul quale
+                    le tenebre della notte lo aveano condotto. Le parole del mio compagno mi
+                    mostrarono tutto il pericolo a cui la nostra dimenticanza ci trascinava.</p>
+            <p TEIform="p">«— Ritorniamo – diss'io – ritorniamo:
+                    abbiamo avuto a sinistra quegli alberi: tenendoci a destra, rivedremo il
+                    burrone. — Ma la speranza ci deluse. La notte ci colse senza che
+                    avessimo scoperto verun indizio di ritorno. Nelle foreste e nel mare, anzi in
+                    moltissime azioni della vita, un errore conduce all'altro; e quanto maggiore è
+                    lo spazio trascorso per ritrovare la strada perduta, altrettanto si conosce poi
+                    d'essersi allontanati e smarriti.</p>
+            <p TEIform="p">«Sono trascorsi omai sette mesi, da che mi sono trovato in sì tristi
+                    frangenti; e le immagini orribili di quello stato di morte mi sono presenti, e
+                    mi destano quasi lo stesso ribrezzo come nell'ora ch'io stava per perire. La
+                    lima del tempo non cancellerà mai dalla mia memoria le funeste rimembranze del
+                    momento in cui, a traverso gli antri, la disperazione e la fame, mi vidi
+                    spalancato il sepolcro. Al sopravvenir della notte io stava cercando qua e là
+                    alcune schegge di corteccia, o germogli aridi d'alberi per accendere il fuoco,
+                    quando il sig. Hermann, che m'era poco lontano, gridò: — Che facciam
+                    noi? dove siam noi? che sarà di noi? — Io gli richiedeva le ragioni di
+                    questo nuovo terrore, nè mi rispondeva se non se con un contegno di volto nel
+                    quale si vedevano presagiti tutti i mali che la sorte ci preparava. Poi mi disse
+                    ch'egli, o camminando, o forse nell'impeto ch'egli aveva fatto saltando per
+                    traversare il burrone, aveva perduto la pietra focaia di cui s'era munito.
+                    Mancava ogni probabilità di trovarne un'altra in que' luoghi, e l'oscurità
+                    crescente aumentava la difficoltà. Invano furono con l'acciarino tentate da noi
+                    molte pietre che ci stavano intorno: appena le nostre misere speranze ci
+                    facevano travedere alcuna scintilla che non ritornava più. Così una serie di
+                    minimi e sventurati accidenti concorrono progressivamente per ridurre
+                    all'estremità le sciagure dell'uomo!</p>
+            <p TEIform="p">« — Adunque – disse con profondo dolore il mio
+                    compagno – noi dovremo rassegnarci tranquillamente alla rabbia dei
+                    lupi e delle pantere per mancanza di un po' di selce, quando quasi tutta la
+                    terra n'è lastricata, ed inutilmente forse per l'uomo! —</p>
+            <p TEIform="p">«Fra le combinazioni possibili di sciagura questa mi parve la più
+                    fatale. Da quanto poco dipende il terrore, il sommo dolore e la morte! Da una
+                    scintilla di selce deriverebbe per noi il coraggio, il lume e la vita!</p>
+            <p TEIform="p">« — E a che – rispos'io – abbandonarsi
+                    alla disperazione? E se la disperazione investe le nostre menti, siamo perduti:
+                    posiamoci a piè d'un albero; una notte non è poi così lunga. Datemi le vostre
+                    scarpe, io le collocherò con le mie non molto lontano da noi: siate sicuro che
+                    questo meschino riparo lascerà scorrere questa notte senza molto pericolo per
+                    noi; e la luce del sole ci mostrerà alcuna via da uscire del labirinto<note resp="aut" place="foot" anchored="yes" TEIform="note">Le scarpe, fra tutti i nostri vestimenti, conservano
+                        più tenacemente l'odore del corpo umano; però si dispongono a qualche
+                        distanza in tempo di notte, per allontanare i lupi e i gatti-tigri,
+                        segnatamente quando la pioggia vieta d'accendere il fuoco. Appena
+                        quell'odore giunge alle narici degli animali, s'accorgono della vicinanza
+                        dell'uomo, e fuggono urlando.</note>. —</p>
+            <p TEIform="p">«Debilitati dal bisogno e dalla fatica, oppressi dal peso delle nostre
+                    riflessioni, atterriti da lugubri presentimenti, oh come i minuti di quella
+                    notte ci parvero lunghi! Gli occhi nostri si andavano chiudendo; l'urlo più o
+                    meno lontano de' lupi, lo strido d'uccelli notturni, le querele e le minacce de'
+                        gufi<note resp="aut" place="foot" anchored="yes" TEIform="note">I gufi che vivono ne' boschi di quelle
+                        regioni sono grandissimi, ed hanno da cinque in sei piedi di lunghezza. Pare
+                        che conversino fra di loro come le streghe di Shakespeare; e le loro strida
+                        sembrano talvolta d'uomini ubbriachi, e tal altra volta non sono dissimili
+                        dalle risa violente dei pazzi. Le persone recentemente giunte d'Europa, ove
+                        non fossero avvertite, crederebbero che tra quelle tenebre si ascondessero
+                        uomini deliranti e frenetici; e gli indigeni spesso si dilettano d'indurre
+                        in questa illusione gli ospiti loro. Questi animali si moltiplicano, perchè
+                        trovano alimento nello sterminato numero di sorci che nascono in quelle
+                        foreste, e che sono esca prediletta de' gufi.</note>, ripetute dall'eco
+                    tenebroso di quelle foreste, il susurro delle foglie, il sospetto d'ogni
+                    lievissimo movimento, il gemito del vento ci atterrivano con mille congetture, e
+                    costringevano gli occhi nostri alla veglia. Il mio compagno, particolarmente
+                    dotato di più mobile fantasia, andava creando sinistri presagi, e li distruggeva
+                    ad un tratto per cercarne de' nuovi e peggiori. E da che mai derivano gli
+                    effetti della oscurità sullo spirito de' mortali<note resp="aut" place="foot" anchored="yes" TEIform="note">Da
+                        mille passi d'Omero e de' tragici greci si vede quanto più si stimasse prode
+                        il guerriero che andava ad agguati notturni contro l'inimico. L'uomo è men
+                        coraggioso quando non può scorgere e misurare i pericoli. L'ignoranza delle
+                        cose che ci stanno intorno, e che possono nuocerci non prevedute, ci tiene
+                        in continua diffidenza. Però anche l'oscurità e la cecità della mente
+                        produce ne' mortali l'incertezza, i terrori e le superstizioni (<bibl default="NO" TEIform="bibl">Il
+                            Trad.</bibl>).</note>?</p>
+            <p TEIform="p">«Frattanto io, prevalendomi della mia tempra di animo, per cui, sino
+                    dal mio nascere, ebbi non già più coraggio ma più pacatezza nelle disavventure,
+                    mi posi a ruminar nella mente ciò ch'io sapeva di men incerto sulla topografia
+                    di quelle montagne e sul corso del burrone lungo il quale s'era da noi tenuta la
+                    prima strada; e deliberai di salire sovra la cima di un grand'albero per
+                    esplorare da qual parte si leverebbe il sole, e trovare così qualche direzione
+                    al ritorno. Nel riferire questo mio accorgimento al mio compagno, m'accorsi che,
+                    invece d'infondere nel suo cuore le mie speranze, io rinfiammava la sua collera.
+                    — Voi – egli rispose – invogliandomi della caccia
+                    delle api, m'avete condotto sul precipizio! — Ma io forse non mi
+                    precipito con voi? — gli diss'io. Non rispose; ma vidi che l'amarezza
+                    ed il rancore sottentravano all'amicizia e alla fede. Mi confermai nella
+                    tristissima verità che l'uomo è una macchina passiva, nella quale le sole
+                    incalcolabili circostanze accendono, rischiarano e rintorbidano e spengono a lor
+                    grado tutti gli affetti e tutte le emozioni.</p>
+            <p TEIform="p">«Passò alfine questa notte, dalle cui tenebre a noi impazienti pareva
+                    di dover essere eternamente ravvolti. Essendomi io accertato del punto
+                    dell'orizzonte ov'io avea veduto il levare del sole, mi persuasi che noi
+                    dovessimo dirigerci verso il nord-est. E avremmo verisimilmente trovati gli orli
+                    del burrone se non fossimo stati costretti a traversare molte ed interminabili
+                    valli coverte di boscaglie, fra le quali ci siamo nuovamente smarriti. E chi mai
+                    troverebbe il sentiero a traverso di quelle foreste, quando tutti gli oggetti
+                    che si parano innanzi si rassomigliano affatto, per cui pare d'essere sempre nel
+                    medesimo luogo? Sopra quali indizi si fondano dunque gl'indigeni per viaggiare
+                    queste ampie e sconosciute foreste, da che, a percorrerle, appena basterebbe
+                    tutta la vita di un uomo longevo? Come fanno le bestie? E poichè non si
+                    smarriscono mai, si ha egli ad ascriverlo ad effetto di esperimento e
+                    d'ispirazione istantanea, o d'istinto? Parlandone io al mio compagno, egli,
+                    mettendo un profondo sospiro, rispose ch'egli si trovava avvilito del suo stato
+                    d'uomo, e che vedeva quanto vanamente gli animali i quali osano chiamarsi
+                    ragionevoli confidano nel loro criterio, da che non possono ricovrare quella
+                    salute che i capri e le vacche trovano per solo impulso d'istinto.</p>
+            <p TEIform="p">«Così noi abbiamo camminato, o più veramente abbiamo vagato, tutto quel
+                    giorno, senza vedere mai traccia che ci promettesse la vicinanza di terre
+                    coltivate o del perduto burrone; senza incontrare un solo frutto, un'unica bacca
+                    da placare per alcuni momenti la fame che ci rodeva le viscere. E quante volte
+                    nel lungo corso di questa giornata abbiamo teso l'orecchio a tutti i minimi
+                    strepiti, senza discernere se non se le strida funeree degli uccelli di rapina,
+                    e quel mormorìo confuso, indistinto di cui l'uomo in istato di calma si rallegra
+                    come della voce sacra e solenne della natura! Ed abbiamo gridato senza essere
+                    uditi che dalle rupi e dai venti; senz'altra risposta che dell'eco lontano, il
+                    quale pur sovente ci facea palpitare nell'illusione che quelle fossero voci
+                    umane. E chi oserà mai sostenere che l'uomo non sia nato più al dolore che al
+                    piacere, da che, quand'anche la somma de' piaceri fosse eguale e maggiore di
+                    quella de' dolori, quand'anche l'intensità fosse pari, la durata del dolore è
+                    pur sempre, e smisuratamente, più lunga? Il tempo ne' momenti indifferenti della
+                    vita è cosperso di noia, di quella noia che spesso persuade gli uomini più
+                    accarezzati dalla fortuna a cercare il sepolcro; ne' momenti della felicità e di
+                    sensazioni soavi fugge come l'ombra dal sole; ma nell'infortunio scorre torpido,
+                    tardo. La nostra fantasia, che noi non possiamo governare poichè non sappiamo nè
+                    come, nè quando, nè dove, nè perchè agisca, par che lo arresti ella stessa: noi
+                    assaporiamo lentamente tutto il male presente; lo accresciamo coi timori del
+                    futuro; la dolcezza c'inebbria per alcune ore, e l'amarezza ci funesta e ci
+                    atterrisce per lunghissimo spazio.</p>
+            <p TEIform="p">«Questa dolorosa seconda giornata terminò per dar luogo alla nostra
+                    seconda notte, la notte la più crudele di cui un uomo possa mai ricordarsi;
+                    poichè ci trovammo inviluppati dalle tenebre e dai terrori; circondati dalle
+                    bestie feroci; lacerati dalla fame; irritati dalla disperazione; odiandoci
+                    quasi, ed amandoci l'un l'altro senza osare mai dirlo, e vedendo che il terzo
+                    giorno di quel viaggio sarebbe apparso per noi con tutti gli auspicj
+                    dell'agonia.</p>
+            <p TEIform="p">«Il sole tornò; ma le nostre parole erano come congelate nelle nostre
+                    fauci; le nostre deboli membra incapaci quasi di movimento, e le nostre anime
+                    assorte e sommerse nella costernazione. Nondimeno noi ripigliammo a stento il
+                    cammino verso la parte che vedevamo diretta al nord-est; quando il sig. Hermann,
+                    più pronto ad illudersi parve tornato a vita, e gridò: — Eccoci salvi;
+                    non siamo discosti da una piantagione; ecco mucchi di foglie calpestati e
+                    scompigliati di fresco; devono sicuramente esservi passati i porci di qualche
+                    colono. — Così fosse! – diss'io; – ma purtroppo!
+                    vedete voi quello stormo di dindii selvatici<note resp="aut" place="foot" anchored="yes" TEIform="note">
+                  <emph TEIform="emph">Dindii selvatici</emph>; <foreign lang="lat" TEIform="foreign">meleagrus
+                        americanus</foreign>: hanno piume brune, cupe, senza tinta veruna di nero,
+                        da lontano cangianti e risplendenti. La loro sagacità, la leggerezza e
+                        rapidità del loro volo fanno un mirabile contrapposto alla stupida gravità
+                        de' dindii venuti d'Europa, che certamente, come gli asini e gli altri
+                        animali, diventando domestici, sono andati degenerando. Al cader del sole
+                        posano su le cime più alte degli alberi, e al tornare del giorno pare che se
+                        ne rallegrino, da che mandano concordemente certo canto che non manca di
+                        melodia. Si nutrono ordinariamente di ghiande, e le cercano tra le foglie
+                        aride. Pesano di 20 in 25 libbre. Raccogliendo le loro ova e facendole
+                        covare da' dindii europei, se n'è formata una terza specie, comunissima
+                        presso vari coloni. Ma la carne di questi ibridi non è del sapore de' dindii
+                        ammazzati con lo schioppo nelle foreste.</note>? Queste foreste ne sono
+                    piene, e vengono a cercare i vermi tra quelle foglie. Avessimo almeno portati i
+                    nostri fucili! — E certamente la carne di un solo di que' volatili
+                    avrebbe bastato a sostenere le nostre forze, da che la natura non aveva
+                    conceduto a que' boschi nessuna specie di frutto per l'uomo.</p>
+            <p TEIform="p">«Quasi che la cupa disperazione e gl'inesprimibili fremiti della fame
+                    non fossero bastati a colmare il calice d'amarezza per noi, anche il furore,
+                    verso la metà di quel giorno, investì tutti noi, ed agitava tutte le fibre del
+                    nostro cuore e del nostro cervello. Nè si apriva bocca se non per insultarci
+                    atrocemente l'un l'altro, ed addossarci reciprocamente la colpa del nostro
+                    viaggio.</p>
+            <p TEIform="p">«Se mai gli occhi nostri, quantunque erranti e languidi,
+                    s'incontravano, la rabbia e l'odio tornavano a rinfiammarli del loro fuoco.
+                    Questi sentimenti, che sino a quel momento non avevamo provati e che furono per
+                    avventura in tanti anni di familiarità sopiti tra noi due dalla stima e
+                    dall'amicizia, proruppero palesemente ad un tratto con tanta violenza, come se
+                    un demonio gli avesse accesi nel nostro cuore. Non v'ha dubbio: i germi di tutte
+                    le passioni sono più o meno nascosti dalla natura nelle viscere d'ogni uomo; e
+                    le circostanze li svolgono e li fanno crescere e diventare funesti. La fame e la
+                    morte imminente fecero ardere in noi le orribili passioni che forse sarebbero
+                    restate soffocate perpetuamente. E se in que' momenti noi fossimo stati armati,
+                    o ci fosse restata tanta forza da assalirci l'un l'altro, noi, nella nostra
+                    frenesia, ci saremmo vicendevolmente uccisi esecrandoci<note resp="aut" place="foot" anchored="yes" TEIform="note">Intorno al furore prodotto dalla fame i medici e i moralisti
+                        possono osservare che non solo il bisogno eccessivo, ma ben anche quello che
+                        alcuni provano giornalmente o per indigenza o per circostanze che
+                        impediscono di placarlo, produce quasi sempre sul carattere e le
+                        disposizioni di ciascheduno un cangiamento evidente; cangiamento che è
+                        maggiore o minore secondo i temperamenti e le abitudini e i principj morali.
+                        Ma non crediamo che vi possa essere uomo il quale possa resistere a una
+                        lunga inedia senza lasciar traspirare alcune ombre d'impazienza e di
+                        collera. Gli uomini più severi si vanno per lo più mitigando nel tempo della
+                        digestione. Un personaggio umano ed affabile non era intrattabile se non
+                        prima della sua colezione. Un giudice, quando vedeva provato che un furto
+                        derivava dalla miseria, ricusava di condannare il ladro; e quando i suoi
+                        colleghi erano di diversa opinione, s'asteneva, se non altro, di dare il
+                        voto. In un libretto italiano, intitolato <title TEIform="title">Manuale della
+                        povertà</title>, si avverte che le visite a' potenti e a' distributori di
+                        grazie vanno fatte dopo il desinare. L'autore del <title TEIform="title">Viaggio in
+                            Pensilvania</title> asserisce per cosa certa che gli Americani selvaggi
+                        si preparano sempre alla guerra con una rigorosa astinenza, ond'essere,
+                        com'essi dicono, più arrabbiati e inesorabili co' nemici (<bibl default="NO" TEIform="bibl">Il
+                        Trad.</bibl>).</note>.</p>
+            <p TEIform="p">«A queste burrasche, di cui non mi ricordo senza orrore, nè posso
+                    scriverne senza vergogna, sottentrò verso sera la calma dell'estrema debolezza e
+                    del prossimo annientamento. Ci adraiammo a' piedi d'un albero, e poco dopo fummo
+                    presi da una infiammazione di visceri, che ad ogni momento accresceva in noi il
+                    desiderio di bere. Così ai martirj perpetui dell'estrema inedia s'aggiunse la
+                    febbre divorante della sete, insopportabile fra quanti bisogni è l'uomo
+                    obbligato a soddisfare, quasi per prezzo dell'esistenza concedutagli dalla
+                    natura. Per fortuna un cangiamento di venti ci portò all'orecchia un rumore
+                    d'acque poco lontane. E noi siamo andati incontro a quel rumore a tentone fra le
+                    tenebre della notte che già sopraggiungeva; e gli occhi nostri non potevano più
+                    omai sostenere nemmeno quella poca luce: ma cadendo spesso, e rialzandoci l'un
+                    con l'altro, e appoggiandoci frequentemente a' tronconi degli alberi, ci venne
+                    fatto di giugnere alle sponde di un fiume, ch'io seppi dopo essere uno de' rami
+                    dell'Alleguipy, e dove, a rischio di annegare, abbiamo potuto placare la nostra
+                    sete.</p>
+            <p TEIform="p">«Il sig. Hermann passò quasi tutta questa terza notte nel più
+                    lagrimevole e tremendo delirio: malediceva il giorno che l'aveva veduto nascere,
+                    l'oceano che gli aveva dato passaggio, i suoi congiunti che non l'avevano
+                    forzato a starsi nella sua patria, e me più ch'altri, me suo compagno da tanti
+                    anni ed in tanti pericoli, e di cui diceva, fremendo, di voler contemplare, pria
+                    di morire, l'estreme agonie. Ma quantunque paresse che questa frenesia della
+                    febbre gli avesse ridate le forze, io sospettai ch'egli fosse per soggiacere per
+                    sempre ad un parossismo così violento. In me la grande quantità d'acqua bevuta
+                    produsse un effetto del tutto contrario; poichè, calmando la febbre e i dolori
+                    di cui dianzi io mi sentiva acutamente straziato, inondò per lungo tempo il mio
+                    corpo ed il viso di un sudor lento, gelato: le mie facoltà erano più intorbidite
+                    e più vacillanti di quelle del mio sciagurato compagno; e forse io nella stessa
+                    infelicità pativa assai meno. I miei occhi si chiusero, e l'ultima idea di cui
+                    io possa oggi risovvenirmi fu quella dello stato di rassegnazione a cui m'era
+                    preparato; rassegnazione proveniente delle antecedenti riflessioni, miste di
+                    dolore e di non so qual amarissima voluttà, sull'età dell'uomo, sul suo rapido
+                    termine e sulla lusinga che i dolori finiscono con la vita. Ben mi dolea di
+                    morire solo ed abbandonato a piè di un albero: il pensiero che il mio cadavere
+                    sarebbe divorato dalle fiere carnivore m'aveva per lungo tempo inorridito e
+                    confuso.</p>
+            <p TEIform="p">«Pur la natura vigilava tuttavia alla nostra preservazione. Cessando di
+                    pensare, avevamo cominciato ad assopirci. Noi abbiamo creduto di avere dormito
+                    per alcune ore; e malgrado tutte le probabilità e il sentimento de' nostri
+                    presagi, noi abbiamo cercata e veduta la luce del quarto giorno. Ma poi tutto ad
+                    un tratto, come una torcia funerea, non giovò che ad accrescere l'orrore del
+                    nostro stato ed a farci vedere in che modo gli abissi della morte si andavano
+                    spalancando per inghiottirci.</p>
+            <p TEIform="p">«Allora il mio compagno tentava di ravvicinarsi al fiume, ed io, come
+                    per dargli aiuto, mi trascinava con lui, replicandogli che la sciagura era
+                    all'estremità, donde saremmo alfin liberati o dalla morte o da qualche
+                    intermissione che ci avrebbe dato tempo e via di salute. Così io cercava
+                    d'illudere me stesso e di scemare la miseria di quel disperato con le lusinghe
+                    ch'io non vedeva se non come un lampo passeggero nell'oscurità della tempesta.
+                    — E tu ardisci – mi rispos'egli corrucciato e fremente
+                    – pensare alla speranza, ed ingannarmi e insultarmi ora che la
+                    disperazione e la morte hanno già dissipate le ultime illusioni? Spera tu,
+                    spera, poichè sei tanto codardo; ma io voglio precipitarmi dentro questo fiume,
+                    dove fuggirò la tua vista e troverò la pace ed il sonno perpetuo. E chi mai se
+                    non un'anima dannata dalla natura a soffrire vilmente l'ingiustizia della
+                    fortuna e del cielo e ad essere arsa a foco lento, preferirebbe l'inferno nel
+                    quale io mi trovo al soggiorno di tranquillità che non è se non pochi passi
+                    lontano da me? — Soffriamo ancora per questo giorno —
+                    – gli risposi; – viviamo per oggi ancora, se mai ci fosse
+                    possibile: beviamo dell'acqua, e se non potremo trovare probabilità veruna di
+                    scampo, noi prima di notte ci seppelliremo insieme dentro quel fiume.</p>
+            <p TEIform="p">« — Per chi è tormentato come io sono – diss'egli
+                    – tutto lo spazio dell'oceano divide l'ora in cui siamo dalla sera che
+                    tu mi prometti.... Ma poichè mi sei divenuto così nemico da persuadermi a
+                    prolungare i miei tormenti, uccidi il tuo cane, e dammene la mia parte, perchè
+                    io possa saziare la rabbia che mi divora qui dentro,... se non.... lasciami
+                    almeno morire. —</p>
+            <p TEIform="p">«L'idea d'uccider quell'animale, idea che malgrado sì lungo e sì
+                    insistente bisogno non m'era per anche venuta, mi richiamò tutto ad un tratto
+                    alla speranza e alla vita. Non si destò in me la voce dell'affezione e
+                    de'rimorsi alla vista di quel cane, che p[artecipava della] nostra miseria e
+                    della nostra infermità; a ma fui preso da un impeto di collera e da un ribrezzo
+                    di gioia, che si convertì subitamente in furore, come se andassi ad immolare
+                    alla mia salute una vittima esecrata. Le mie mani tremanti cercavano
+                    frettolosamente il coltello che io aveva lasciato cader tra le foglie; quando il
+                    mio compagno, rianimato dalla speranza di saziar la sua fame, mi accusò di
+                    lentezza, e fulminò contro di me bestemmie ed ingiurie. Allora il mio furore si
+                    convertì contro l'uomo; ed io aveva risoluto ch'egli perisse con me, anzi che
+                    sagrificare quell'animale alle furie che lo agitavano. Ma la natura aveva
+                    esaurito in quel disgraziato tutte le sue forze; e sdraiandosi, senza più
+                    proferire parola, si abbandonò nelle mani della morte. Io ripigliava il coltello
+                    e stava esitando; e benchè non avessi lusinga veruna che quel cane potesse
+                    nutrirci, io stava già per ucciderlo. Mentr'io cercava un luogo alquanto
+                    discosto dal fiume, acciocchò il cane, che io non aveva forza di contenere, non
+                    corresse nell'acqua ad evitare la mano fratricida del suo padrone, i miei
+                    sguardi, guidati dall'onnipotenza invisibile che presiede agli umani destini, si
+                    fissarono sopra un fusto non molto lontano di noci terrestri (<foreign lang="eng" TEIform="foreign">ground-nut</foreign>)<note resp="aut" place="foot" anchored="yes" TEIform="note">Specie di
+                        tartufo d'America, ed è più piccolo dell'europeo: ha un piccolo e
+                        debolissimo fusto. I porci di que' paesi, come i nostri, lo scavano, e ne
+                        sono ghiottissimi.</note>. — Siamo salvi – gridai al mio
+                    compagno – siamo salvi! Il suolo sul quale abbiamo passata la notte ha
+                    tanto da ridarci la vita: dove cresce una di queste piante ne crescono mille; e
+                    noi, ciechi nella disperazione, abbiamo ignorati i benefizi del cielo!
+                    — Dio mio! Dio misericordioso! – diss'egli; poi, volgendosi
+                    verso di me, aggiunse con voce di moribondo: — Non m'ingannereste voi
+                    nuovamente? — Io stava strappando una di quelle radici, e gliela
+                    porsi; ma noi eravamo sì indeboliti che, per istrapparne o scavarne tante da
+                    calmare i nostri bisogni, ebbimo quasi ad essere morti più dalla fatica che
+                    dalla fame. Ci mancava il fuoco e il mezzo di cuocere quelle radici; ma noi
+                    andavamo ricovrando più sempre la forza di masticarle e succhiarle. Nè si può
+                    esprimere l'effetto prodotto istantaneamente negli animi nostri dalla certezza
+                    che avremmo potato procacciarcene a nostro grado e prolungare la vita. Come
+                    dipingere quel sentimento tutto nuovo, quell'ineffabile fuoco improvviso che
+                    tornò alle nostre membra abbattute, raddolcì i nostri cuori e li richiamò alle
+                    celesti consolazioni della speranza? Io credo d'avere descritto il lungo stato
+                    del mio dolore come l'ho provato dentro di me; ma nè la immaginazione nè la
+                    lingua mi somministrano colori per dipingere le emozioni di piacere, che io
+                    nondimeno ho sentite più vivamente. Dalla disperazione e dalle tenebre io era
+                    passato alla speranza e alla luce.</p>
+            <p TEIform="p">«Senza dubbio nell'origine delle società umane l'antropofagia avrà
+                    avuto principio tra gli uomini dopo molti giorni di caccia infruttuosa e delusa.
+                    Nè si creda che in que' frangenti ci corra molta distanza dal sagrificio del
+                    proprio cane al sagrificio d'un uomo per saziarsi delle sue carni ed evitare la
+                    morte. Que' primi selvaggi avranno, come noi, lottato lungamente contro la fame,
+                    resistito meno di noi all'orrore del sangue; ed irritati più di noi sino alla
+                    frenesia, e mancando di cani, il più forte avrà ucciso e divorato il più debole.
+                    Fatale e deplorabile conseguenza d'una organizzazione sommessa all'impero della
+                    necessità, che impone perpetuamente ai mortali di cercare ad ogni costo la
+                    propria conservazione! In seguito, la guerra avendo fatti nascere tra' selvaggi
+                    gli stessi bisogni, il vincitore affamato divorò il vinto; la fame fu esacerbata
+                    dalla passione della vendetta; i bisogni e le passioni santificate dalle
+                    religioni sanguinose, e perpetuate dal costume, dal fanatismo, dalla
+                    superstizione e dall'ignoranza. Così oggidi tra le nazioni nell'interno del
+                    continente americano, tra quelle del Brasile e nella maggior parte de' paesi
+                    visitati da Cook l'uomo mangia la carne dell'uomo.</p>
+            <p TEIform="p">«L'antropofagia cominciò a divenire meno comune, da che si conobbe che
+                    l'uomo sotto il proprio tetto poteva domesticare, educare o moltiplicare gli
+                    animali ch'ei prima andava cercando con tante miglia e tanti sudori di caccia.
+                    Chi sa per altro quanti secoli di primitiva ed assoluta barbarie avranno
+                    preceduto questo sì felice e sì semplice ritrovato! E senza il beneficio della
+                    natura, che die' all'indole di alcuni animali di potersi accomodare coll'uomo,
+                    l'uomo non sarebbe forse tuttora antropofago? Mentr'io considero in questo
+                    momento di calma come io stava per sagrificare alla mia fame, e con assai poca
+                    speranza di soddisfarla, un cane che per più anni mi era stato fedele compagno e
+                    difensore e m'aveva seguitato in tutti i miei pericoli e mi aveva una volta
+                    salvata la vita; un compagno tutto amore per me, e soprattutto d'una sagacità e
+                    d'una tolleranza ne' mali che m'aveva fatto spesso meravigliare, non posso
+                    dissimulare a me stesso che, paragonata la mia educazione a quella de' selvaggi,
+                    io era divenuto antropofago. E confesso al lettore (e di ciò egli forse
+                    sorriderà) che la mia consolazione di non essere giunto a quella estremità è
+                    accresciuta dall'idea che quel povero cane non sappia a qual crudeltà il bisogno
+                    mi aveva indotto; e talvolta credo che quand'anche ei potesse saperlo, sarebbe
+                    sì generoso da perdonarmi.</p>
+            <p TEIform="p">«Frattanto l'alimento, la speranza e la calma procacciarono a noi
+                    alcune ore di sonno. Fu questa la quarta notte e la meno infelice del nostro
+                    viaggio. Non era ancor chiara l'alba che noi, appena desti, ci siamo inoltrati
+                    nel bosco, cercando d'accrescere, se fosse possibile, la nostra provvigione di
+                    quelle noci terrestri, quando al sig. Hermann parve di sentire il tintinnio
+                    d'uno di que'campanelli che i coloni appendono al collo del toro che guida le
+                    loro mandre. Me ne avvertì; ma il suono si dileguò per parecchi minuti; ed io
+                    l'aveva già annoverato tra le nostre illusioni, quand'io stesso udii quel
+                    medesimo tintinnio, e sì distintamente che mi sentii tutta l'anima risvegliata,
+                    ed arrampicai sopra un albero, tendendo l'orecchio verso la parte donde il suono
+                    m'era venuto. A questa rapida consolazione successero alcuni eterni minuti
+                    d'impazienza, di dubbio e d'angoscia; ed io stava per maledire il nuovo fantasma
+                    che ci aveva ingannati. Ma quando il suono tornò a farsi sentire, e si andò
+                    avvicinando e ripetendo, i nostri occhi furono inondati di lagrime, i nostri
+                    cuori erano gonfi, palpitanti, e con parole tronche l'uno diceva all'altro:
+                    — Non periremo in queste orride solitudini.... Queste montagne non ci
+                    saranno sepolcro.... Non saremo divorati dalle fiere. — Abbiamo
+                    benedetto il vento che ci portava quel suono, e l'abbiamo creduto messaggio del
+                    cielo. Eppure, andando noi sempre incontro a quel campanello e sentendolo
+                    nuovamente, ci arrestavamo con le orecchie intente e gli occhi fitti verso
+                    quella parte, dubitando di esserci ingannati, e tornando a tremare. Ma quanto
+                    più diventava vicino e frequente, tanto ci dava forza a camminare, finchè verso
+                    le cinque ore della mattina ci fu dato di scoprire a traverso le piante del
+                    bosco una mandra che pasceva poco lontano in una prateria naturale (<foreign lang="eng" TEIform="foreign">bog-meadow</foreign>). Ci siamo contemporaneamente inginocchiati
+                    appiè di un albero per ringraziare il cielo d'avere provveduto alla salute di
+                    due sventurati; ma le parole e le membra ci andavano mancando.</p>
+            <p TEIform="p">«In questa mandra noi abbiamo potuto contare quaranta bovi circa; ma
+                    non tardammo a scoprire che fra loro vi erano alcune vacche. Finalmente ne
+                    abbiamo vedute otto, disperse qua e là. E dopo molta pazienza ci riuscì
+                    d'accostarci a tre di esse, e di mungere il latte ne' nostri cappelli: quel
+                    latte ci parve nettare di paradiso, e fu il balsamo ristoratore della nostra
+                    vita; nè ci siamo dimenticati di darne la sua porzione all'umile e fedele amico
+                    che la sera innanzi volevamo sagrificare al delirio ed alla fame.</p>
+            <p TEIform="p">«Bisognava attendere che quella mandra tornasse alle stalle, perchè,
+                    senza il suo istinto e la sua sagacità, tutto il nostro umano sapere ci avrebbe
+                    forse condotti a un nuovo labirinto. E mentre noi aspettavamo con impazienza che
+                    terminasse di pascolare, il sig. Hermann, ricordandosi di ciò ch'egli m'aveva
+                    detto ne' suoi accessi di disperazione e di rabbia, mi scongiurava ch'io me ne
+                    dimenticassi. — Le rampogne e le ingiurie – gli diss'io
+                    – provenivano dal nostro deplorabile stato. Noi l'abbiamo sormontato:
+                    uscendo da questi boschi, rivedremo la luce del sole; troveremo terre coltivate
+                    e abitate dall'uomo; troveremo benefattori ed amici ignoti, che ci aiuteranno e
+                    ci ameranno, da che i loro interessi e le loro passioni non potranno lor
+                    comandare di lasciarci nell'infortunio. Le terribili circostanze che avevano
+                    esacerbati noi due l'un contro l'altro sono passate. Eccoci ritornati alla
+                    gioia; e quanto più il pericolo passerà, noi torneremo necessariamente alla
+                    fiducia e alla benevolenza, che la sola disperazione ha potuto sopire per brevi
+                    momenti. Siate sicuro, mio caro amico, che la memoria di questo avvenimento
+                    gioverà a rendere più tenace e più calda la nostra amicizia. —</p>
+            <p TEIform="p">«Dopo molte ore il toro condottiero cominciò ad avviarsi, e la mandra
+                    si levò dal pascolo, e tenne la via da noi tanto cercata, di nord-est. La
+                    seguitammo lentissimamente; e se si fosse affrettata, noi eravamo certamente
+                    perduti, perchè il nostro corpo [non] poteva reggersi che a stento. Mancavano
+                    poche ore alla notte, ed il mio compagno cominciò a temere che quelle bestie non
+                    si smarrissero, o almeno per quella notte non trovassero l'abitazione. E se
+                    quella mandra fosse stata avvezza a pascoli murati e chiusi, i suoi timori erano
+                    ragionevoli. Ma non v'è animale che, lasciato ne' boschi in propria balìa, non
+                    sappia provvedere alla sua salute con tal previdenza e sagacità da umiliare la
+                    fastosa ragione dell'uomo. Certo che il solo lume dell'istinto è minore, ma è ad
+                    ogni modo invariabile.</p>
+            <p TEIform="p">«Gli occhi nostri si volgevano impazienti sempre al lato della foresta
+                    verso il quale la mandra progrediva, finchè ci venne fatto di scorgere il primo
+                    barlume d'un campo sboscato. Sì fatti campi sono indizio di alcuna abitazione
+                    non molto lontana, e si trovano spesso al termine di quelle selve sterminate; ed
+                    allora soltanto il viaggiatore smarrito può vedere il sole, che gli veniva prima
+                    intercettato dalle piante, e tornare a meno dubbia speranza. E noi fummo colti
+                    da un'impressione così violenta, che ci soffocò quasi il cuore e ci costrinse a
+                    sedere a' piedi di un albero. Il sudore ci grondava dalla fronte; i nostri cuori
+                    battevano come ne' momenti passati del ribrezzo; e ci mancavano tutte le forze
+                    in modo da non poter sapere se avremmo potuto ricovrarle. Così la gioia e la
+                    felicità sono anch'esse piene di angoscie e di pericoli. Ma non molto dopo la
+                    calma tornò e ci fe' accorti del danno, se mai la mandra si dileguasse alla
+                    nostra vista. E non potendola raggiugnere, l'abbiamo pur sempre seguitata, ed
+                    abbiamo veduto finalmente tutto lo splendore del giorno. Se il trapassare
+                    istantaneo dall'oscurità delle selve alla luce riesce di meravigliosa
+                    consolazione a chiunque è stato lungamente fra quelle ombre fredde e taciturne,
+                    quanto più non doveva eccitare l'entusiasmo e la gratitudine in due uomini che
+                    uscivano dalla notte della tomba? Intanto l'orizzonte si dilatava, e ci corsero
+                    agli occhi alcune piante di ciliegi e di pomi. Ma non si vedeva abitazione; e
+                    già l'impazienza si faceva sentire nelle parole del mio compagno, se non ch'egli
+                    s'avvide primo di una colonna di fumo, che s'alzava perpendicolarmente poichè
+                    ogni fiato di vento era caduto col sole. La propensione che ogni uomo ha di
+                    esaminare sè stesso, segnatamente ne' casi più importanti della vita, e di
+                    paragonare le proprie sensazioni alle altrui, m'indusse ad interrogare un
+                    Americano che fu travolto da un torrente e che si salvò come per miracolo,
+                    alcuni marinai che s'erano già dati per morti nella burrasca, ed altre persone
+                    di varie condizioni che dallo stato della disperazione passarono alla gioia e
+                    alla vita. Ma mentre tutti trovavano parole per narrarmi la lunga storia de'
+                    loro patimenti, le loro espressioni nella rimembranza del piacere erano di tale
+                    rapidità e di tal confusione, ch'io non ho potuto dedurre se non se che, mentre
+                    tutti gli altri affetti dell'uomo recano molte sensazioni e lasciano alcune
+                    idee, la sola gioia, quand'è al colmo, non reca che nude e fortissime sensazioni
+                    senza lasciare veruna idea distinta e sicura.</p>
+            <p TEIform="p">«Ed era omai tempo che si trovasse da noi un'abitazione; da che, se si
+                    dovea camminare per altre due miglia, que' pochi avanzi delle nostre forze si
+                    sarebbero prostrati tra via. Stava alla porta della cascina la moglie del
+                    colono, che, avvertita dal campanello, attendea la sua mandra. — Voi
+                    troverete scemato il vostro latte – le diss'io; – le vostre
+                    vacche ci hanno data la vita; le abbiamo munte per avere poi tanto vigore da
+                    seguitarle e venire sino alla vostra casa per domandarvi ospitalità. —
+                    Ed ella chiamò due sue figlie; con esse ci diede mano ad entrare, rispondendo
+                    — che avrebbero dato soccorso anche a' nemici, se gli avessero veduti
+                    nel nostro deplorabile stato. —</p>
+            <p TEIform="p">«Il primo beneficio di quella generosa madre di famiglia si fu di
+                    profumare i letti, a noi destinati, di zucchero di acero (<foreign lang="lat" TEIform="foreign">acer</foreign>: pseudo-acacia). Poi ci recò un piatto di paste di
+                        <emph TEIform="emph">mais</emph>, che nel paese si chiamano <emph TEIform="emph">allagriches</emph>
+               <note resp="aut" place="foot" anchored="yes" TEIform="note">Fra tutte le preparazioni del <emph TEIform="emph">mais</emph>
+                        quella conosciuta sotto il nome di <emph TEIform="emph">allagriches</emph> è la più
+                        ristorante. Quando le spighe sono ancor molli, gl'indigeni le fanno seccare,
+                        e le immergono in una leggera lisciva per ispogliarle dalla pellicola.
+                        Staccati i grani, li pestano in un mortaio, aggiugnendo a quella farina
+                        altrettanta quantità di zucchero di acero. Di questa farina fanno poi varie
+                        paste, e se le portano nelle selve, perchè, mentre rifocillano lo stomaco,
+                        sono nutrienti e di pochissimo peso. Bollite col brodo, sono di squisito
+                        sapore. I grani, ove sieno semplicemente franti, somigliano al riso; anzi
+                        sotto il nome di riso i primi compagni di Penn ne mandarono in Inghilterra.
+                        Dopo l'esperienza ch'io ebbi della loro efficacia, rimango meravigliato come
+                        gl'Inglesi non ne facciano maggior uso, benchè alcuni medici mi dicano che
+                        sogliono prescriverli nelle convalescenze.</note>. Erano cotte nel brodo; nè
+                    ci permise di mangiarne che a poche per volta; e mentre noi osavamo querelarci
+                    con impazienza di sì meschine porzioni, la dolcezza della sua voce e la ragione
+                    e l'umanità del suo discorso reprimevano la nostra importunità e c'imponeano
+                    silenzio. Vegliò al nostro letto con le sue figlie finchè questo trattamento
+                    ristorante ci condusse insensibilmente a un profondissimo sonno e al riposo più
+                    salutare che la natura, nella pienezza della sua bonta, abbia mai accordato a'
+                    miseri scampati dal naufragio. Il sole del dì seguente era già a mezzo il cielo,
+                    quando noi, dopo quattordici ore di sonno, abbiamo, con occhi lagrimanti di
+                    riconoscenza, riveduta la luce.</p>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

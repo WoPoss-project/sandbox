@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il Forno overo de la Nobiltà</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>206 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000475</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+
+<p>A l'illustrissimo e reverendissimo signor
+Scipione Gonzaga,
+patriarca di Gierusalemme,
+signore e patron mio osservandissimo.</p>
+
+
+	<p>Io composi il dialogo de la nobiltà quando la signora duchessa di Ferrara venne a marito e io da Torino a questa città; ma perch'allora fu scritto tumultuariamente, come si dice, dee ora uscire in luce riformato ne le nozze de l'illustrissimo signor don Cesare d'Este e de l'illustrissima signora donna Virginia de' Medici, perch'essendo l'una simile a l'altra occasione, io vorrei mostrare in modo simile la mia riverenza. E avendo piene molte carte de le laudi de la casa d'Este e de la Gonzaga, ora che la Gonzaga con quella de' Medici e quella de' Medici con quella d'Este di nuovo s'è congiunta, non debbo lasciare vuoto ogni spazio, percioché non furono mai da' poeti annodati insieme i nodi de la discordia così maestrevolmente come son questi de la concordia per la providenza d'Iddio, il quale, avendo ornata l'Italia di queste tre famiglie potentissime oltre tutte l'altre che ci fioriscono o ci sono fiorite a' nostri tempi, congiunse insieme la potenza con la sapienza; laonde il signor don Francesco de' Medici, prudentissimo principe, ha voluto rinovar que' legami di parentado e d'amicizia che per la morte de la signora Lucrezia de' Medici e de le serenissime Barbara e Giovanna d'Austria parevano quasi rallentati fra la sua stirpe e l'altre due, che le sono simili per la dignità, non solamente vicine per lo stato. E io ancora dovrei rinovare le lodi ch'a la nobiltà e a' meriti di ciascuna son convenienti, o più tosto accrescerle, se la verità ricercasse d'essere accresciuta; ma quel ch'allora non mi fu conceduto scriver de la casa de' Medici, ora non debbo tacerlo: perché la grandezza sua m'invita, e l'umanità di questi principi m'assicura, e a l'obligo di manifestare il vero s'aggiunge quello d'onorare i padroni.</p>
+	<p>Prendendo dunque una via di mezzo tra l'uno debito e l'altro e l'una e l'altra servitù, io dico che niun essempio di grandissimo valore fu ne gli antichi eroi di cui si fa menzione in questi dialoghi, o ne' principi e cavalieri moderni, il quale non si possa ancor prendere da le magnanime azioni di Cosmo e di Lorenzo de' Medici e del duca Lorenzo e del duca Giuliano e del signor Giovanni e ultimamente del serenissimo granduca Cosmo e di questo che gli è succeduto così ne la felicità come ne la virtù, e de gli altri illustrissimi fratelli e particolarmente del cardinale, ch'è un de' primi splendori de la corte romana e una de le più salde colonne de l'ecclesiastica dignità. E perché a bastanza abbiam parlato de la nobiltà eroica e reale in quel modo che se ne poteva discorrer con filosofiche ragioni e con l'autorità de' Platonici e de' Peripatetici, non è tempo di ritrattar ne l'istesso modo questa materia oscura per l'incertitudine de le cose, ma d'illustrarla co 'l lume certissimo de la verità. Però, scegliendo fra tutte l'opinioni quella che più le s'avicina, cioè che la nobiltà sia una similitudine secondo la vera giustizia, come pare a Plutarco, se per vera giustizia intendiamo alcuno abito de' costumi, assai è vero quel che fu scritto nel dialogo per riprovarla. Ma se vogliamo intender non l'umana né altra virtù civile, ma l'essemplare, ch'è ne la mente d'Iddio, molto lodevole fu l'opinione di quel filosofo, e quasi ombra e figura de la verità, la qual c'è insegnata dal greco teologo che, parlando de la vera nobiltà, disse ch'ella è conservazione de l'imagine e configurazione de l'essemplare: né d'altra imagine debbiamo intendere che di quella de l'anima, perch'ella è divisa in tre potenze, ne l'intelletto, ne la volontà e ne la memoria ne le quali è figurato e quasi impresso il vestigio de la santissima Trinità.</p>
+	<p>E se di questa intendiamo, chi meglio la conserva del cardinal da Este, liberalissimo e religiosissimo signore; o pur di quel de' Medici ch'abbiam già nominato, o del Gonzaga, il cui nome troppo tardi si legge fra gli altri, o di voi medesimo, che di eguale onore sete meritevole, o del padre generale vostro fratello, che può accrescere dignità a le dignità medesime, o del signor Claudio, ch'è un de' principali ornamenti del Vaticano? E certo l'anime di tutti i buoni e religiosi son molto più lucide e molto più nobili de' raggi del sole, e solo inferiori a gli angeli, che sono specchio di luce intelligibile. Però leggiamo ne le sacre lettere che Iddio ha fatto l'uomo poco minore de gli angeli, a' quali diede la volontà, che non è a fatto immobile al male, ma difficilmente è mobile, perché si mosse quella di Lucifero, ch'essendo per la sua bellezza apportator di luce, divenne caligine per la superbia e in questa maniera perdè la sua prima nobiltà: e in questo modo la perdono gli uomini i quali corrompono l'imagine. Nobile dunque veramente è colui il quale conforma a l'essempio quello che procede da la virtù, e dapoi che l'ha conseguito, il custodisce; ma ignobile è quell'altro ch'il confonde con la malizia e invoca un'altra forma, cioè quella del serpente. E questo basti in quanto a la vera nobiltà de l'uomo o de l'anima ragionevole: percioché l'altra, la quale si scolpisce ne le statue o è seminata ne la generazione, è quasi falsa nobiltà e in comparazione de la prima non è di prezzo alcuno; onde non debbiamo insuperbire de' sepolcri de' maggiori né de' simulacri che vi sono scolpiti, e molto meno de le favole che sogliono raccontarsi per accrescer la fama de' trapassati.</p>
+	<p>Ma c'è ancora la nobiltà del genere, il quale è di tre sorti, come dice l'istesso san Gregorio Nazianzeno: il primo è quello che deriva dal cielo, per lo quale tutti siamo egualmente nobili, perché tutti siam fatti ad imagine d'Iddio; l'altro è quello che prende origine da la carne, quantunque, essendo soggetto a la corruzione, io non so se per lui alcuno possa chiamarsi nobile veramente; il terzo ha principio da la malizia e da la virtù, de la quale participiamo più o meno secondo che più o meno conserviamo l'imagine o la corrompiamo. E ciascuno ch'è veramente filosofo, come è Vostra Signoria illustrissima, amerà questa nobiltà e ne farà grandissima stima. Si potrebbe ancora aggiungere il quarto genere, che si prende da la Scrittura, nel quale l'arte è imitatrice de la natura: e la prudenza de gli uomini dovrebbe imitar la providenza d'Iddio, accioché la scimia non s'immascherasse con l'imagine del leone, ma fosse onorata la fede e la pietà de' soggetti con la dignità e con lo splendore de' principi.</p>
+	<p>Ma voi sete principe, e doppiamente nobile per la virtù e per lo nascimento; tutta volta non vi gloriate in terra di quel ch'è terra, quantunque Dante se ne gloriasse in cielo gridando:
+
+<quote rend="block">
+<lg>
+<l>O poca nostra nobiltà di sangue;</l>
+</lg></quote></p>
+
+
+<p>ma v'adornate di quel ch'è celeste e cercate di purgar la parte divina da questo fango de la nostra umanità e, opponendovi la splendida azione, tutto sete illustre e luminoso, e tutto risplendete de' raggi de la vostra virtù: laonde ella potrebbe far luce a le tenebre de l'antichità, se da la gloria de' vostri antecessori non fosse illuminata, come dimostrano chiaramente non solo l'arme e gli scettri, ma le mitre e i capelli purpurei che furono testimoni de la nobiltà e ornamento de la religione. Ma 'l fango dal fango ancora in qualche modo è differente. Pur questa non è occasione di lodarvi, ma di pregarvi ch'umanamente accettiate il dialogo de l'umana nobiltà o de la terrena, se così volete chiamarla, il quale sottopongo al giudizio di Vostra Signoria reverendissima, che può dirittamente giudicarne e senza animosità, quantunque ragioni particolarmente de la sua nobilissima stirpe. E le bacio le mani.</p>
+	<p>Di Vostra Signoria illustrissima e reverendissima</p>
+<closer>
+servitore
+<signed>TORQUATO TASSO.</signed>
+</closer>
+
+</div1>
+<titlePage>
+<docTitle>
+<titlePart type="main"> IL FORNO OVERO DELLA NOBILTA'</titlePart>
+</docTitle>
+</titlePage>
+
+<castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>AGOSTINO BUCCI, </role></castItem> <castItem type="role"><role>ANTONIO DEL FORNO. </role></castItem></castList>
+
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+	<sp><speaker>A.F.</speaker><p> A quai segni avete conosciuto che que' Francesi i quali sono oggi venuti a le vostre scuole siano vicini a gli Inghilesi, a' Fiaminghi?</p></sp>
+	<sp><speaker>A.B.</speaker><p> Al color de le carni e de' capelli, il quale mi par simile in coloro ch'abitano appresso l'oceano. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io non tanto da' sembianti raccolgo che sian più d'una che d'altra nazione, quanto che sian nobili, perché veramente l'aria del viso è molto gentile; e l'argomento de la bianchezza de le carni e de la biondezza de' capelli peraventura è fallace: perché non solo i Bertoni e Normandi e Piccardi ho veduti bianchissimi, ma quelli di Provenza, i quali son posti sovra il mar Mediterraneo e risguardono il mezzogiorno: laonde dovrebbono essere anzi bruni che no. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Io non voglio negare che molti Provenzali non possino esser bianchi come Bertoni; nondimeno universalmente son più bruni o, per meglio dire, men bianchi, perché 'l color bruno propriamente è quello de la nazione spagnuola e de l'italiana, ne le quali non è men grazioso che 'l bianco de' Tedeschi e de' Francesi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ma in questa regione ancora gli uomini e le donne ci nascono assai bianchi: e in ciò noi simigliamo i Galli Cisalpini e i Longombardi e gli altri popoli da' quali deriviamo; ma 'l color bruno è più ordinario in quella parte d'Italia ch'è posta oltre l'Appennino. Ma come questi argomenti sogliono spesse volte esser fallaci, così c'ingannano quelli de la bellezza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non solamente da la beltà, ma da le maniere e da l'aria, per così dire, del viso sogliam a fare argomento di nobiltà; quantunque chi ben considera, facilmente conosce questa aria del viso esser la bellezza, di cui fu detto:
+
+<quote rend="block"><lg>
+<l>E l'aria del bel viso</l>
+<l>... meno oscura.</l>
+</lg></quote></p>
+
+<p>O più tosto aria del viso è quella che da la beltà è illustrata a differenza de l'altre, come a l'aria luminosa da l'oscura: e chiamo beltà quel raggio interiore che traluce per gli occhi ne' sembianti; onde aviene rade volte che gli ignobili da' nobili a l'aria del viso non siano riconosciuti. né solo da la virtù, ma da la beltà si può argomentar la nobiltà, come fece Didone innamorata d'Enea, dicendo:
+
+<quote rend="block">
+<foreign lang="lat">Quem sese ore ferens. Quam fortis pectore et armis.</foreign>
+</quote></p>
+</sp>
+<sp><speaker>A.F.</speaker><p>	 Didone fu peraventura persuasa più da la bellezza che da la gloria de le cose fatte ch'Enea fosse figliuolo di Venere: perché più la bellezza che la fortezza parea conveniente ad un figliuolo di quella dea. Ma io non cerco quel ch'ad una donna innamorata si possa persuadere, ma quello che sia vero in se stesso, perché, se gli eloquenti fossero belli, non solamente avrebbe potuto persuadere Ulisse a Circe, ma Cicerone a la sorella di Clodio o pur il Boccaccio a la vedova da la qual fu beffato. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nulla di falso gli avrebbe persuaso, perché, sì come nel volto risplende un raggio de la beltà de l'animo, così l'altra parte si manifesta ne le parole: però di Socrate si legge ch'egli disse ad un bel giovane: “Parlami, se vuoi ch'io ti veda”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E Socrate avrebbe potuto persuadere ad Alcibiade d'esser bello? </p></sp>
+	<sp><speaker>A.B.</speaker><p> Egli in guisa gliele persuase che niuna donna prestò maggior credenza a l'amante: onde, se ben vi ricordate, Alcibiade racconta nel <emph>Convito</emph> ch'egli pregò Socrate che volesse cambiar seco bellezza; ma 'l cambio fu disprezzato dal casto filosofo per alterezza, come ad altri parve, o, com'io stimo, per vergogna e per onestà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Socrate nondimeno aveva il volto come quello che si dipinge ne' satiri e ne' sileni, e usava quelle parole che sono in bocca del calzolaio e del sartore, con le quali s'egli persuadesse Alcibiade o no, sasselo quella notte che ricoperse il lor ragionamento; ma non persuase egli al popolo ateniese. E se la medesima maniera d'eloquenza ch'egli usava fosse stata usata da Ulisse co' principi de la Grezia, non avrebbe conseguito il suo fine; ma il raccontar le cose prudentemente e con singolar fortezza in guerra adoperate, il mostrar le ferite del suo petto, il ridurre agli iddii non men la nobiltà paterna che la materna gli recarono la desiderata vittoria; ma non l'avrebbe già potuta aver al giudizio d'Elena, se con Paride avesse conteso: e se Circe avesse dopo lui veduto Aiace, così da quel novo amor sarebbe stata presa come fu poi Alcina da quel di Ruggiero. Ma io credo che Socrate e Ulisse non tanto per alcuna eloquenza persuadessero, quanto per alcuna arte incantassero, non ch'altri, l'incantatrici medesime. </p></sp>
+	<sp><speaker>A.B.</speaker><p> L'eloquenza di Socrate non fu popolare, come era quella di Gorgia e d'altri sofisti del suo tempo; e quello che voi chiamate incanto fu senza fallo l'artificio de l'eloquenza istessa. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Se gli argomenti di Socrate son buoni, Socrate non fu buono; ma se non bene argomentò, popolare fu la sua eloquenza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E qual cosa non buona insegnò? O quando egli non bene argomentò? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Argomentò da' figliuoli di Temistocle e di Pericle ch'i padri non sapessero l'arte civile o non la volessero insegnare, perché a' figliuoli lor medesimi l'avrebbono insegnata: in quella medesima guisa io contro lui argomento ch'egli o non l'intendesse o non la volesse manifestare, perch'Alcibiade, tanto da lui amato, non l'apprese. Se non la seppe insegnare, fu ignorante; se non la volle, fu invidioso e simile a Michel Angiolo, pittore e scultore maraviglioso de' nostri tempi, il quale, mentre dipingeva e scolpiva, non voleva alcuno presente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Voi lanciate l'arme socratiche con disprezzo cortigiano in guisa che, mostrando di scherzar, ferite; né so quanto mi debba esser agevole il difender Socrate. Ma pur direi che, s'alcuno ha questa scienza, conviene che desideri d'insegnarla, perch'ella non è simile a l'arti, che possono insieme star con l'invidia: onde, se l'ebbe Socrate, è necessario ch'egli volesse farne altrui parte, ma Alcibiade non la volle apprendere e da lui si partì, lasciando la sua dimestichezza. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A chi egli l'insegnò, s'ad Alcibiade non l'insegnò? </p></sp>
+	<sp><speaker>A.B.</speaker><p> A Platone e a Senefonte; l'uno de' quali, navigando lontano da la patria, ammaestrò Dione, l'altro dopo l'essiglio fu maestro o compagno ne la guerra di Ciro minore e d'Agesilao: tal che da questi discepoli si può fare argomento che l'arte di cui parliamo non fosse bene appresa da Alcibiade per sua propria imperfezione. E Platone similmente non potè insegnarla a Dionigi, perch'egli non volle impararla, né perciò dee esser riputato malvagio od ignorante. Ma Temistocle e Pericle a chi l'insegnarono? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non l'insegnarono, perché non si può; e non potendo essere insegnata, non è scienza. né Socrate peraventura disse a' suoi discepoli alcuna cosa più certa di quelle che Pericle e Temistocle dimostrassero a' figliuoli; il quale almeno insegnò al suo di cavalcare e di saettare a cavallo, laonde fu espertissimo in queste arti convenienti a cavaliero. L'altre cose non s'imparano, né si possedono per disciplina o per natura, ma per divina sorte. Laonde Socrate non l'insegnò a' suoi amici co 'l disprezzo de gli onori, perché non avrebbe Platone navigato tre volte per acquistar l'amicizia di Dionigi, né Senefonte sarebbe passato in Asia per aver domestichezza co' re stranieri. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Questi filosofi non passarono il mare per soverchia ambizione, come alcuno ha creduto, ma per giovare al mondo, non potendo far giovamento a la patria: perciò che le scienze e l'arti, che sono abiti de l'intelletto, si possono insegnare, come vuole Alcinoo, quantunque i buoni costumi s'apprendano più tosto per usanza; e alcuno di loro non volle ne la vita esser simile al zoppo contemplativo senza operare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Voi di tutta quella scienza ch'aver si può sete a bastanza fornito: laonde niuna altra cosa vi manca che l'occasione di far le belle e laudevoli azioni. Ma io quando n'avrò giamai tanto che mi basti, o da chi potrò mai impararla, se da voi non l'imparo? </p></sp>
+	<sp><speaker>A.B.</speaker><p> Chi ben vi rimira, signor Antonio, assai vi conosce disposto a tutti quelli essercizî ch'ad uomo nobile son convenienti, perché dimostrate la nobiltà ne' costumi e ne l'aspetto: onde alcuno non è desideroso di quello onore che i valorosi cavalieri sogliono apportare a' maestri, al quale non dovesse esser caro questo ufficio. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io da voi ricevo questa lode volentieri, la qual non mi credeva di meritare, e ringrazio la mia fortuna ch'io mi sia avenuto a filosofo peripatetico, perché a' platonici non do tanta fede. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ogni giudizioso filosofo, di qualunque setta egli sia, può far questo giudizio de le vostre maniere; e quando io lessi che gli Etiopi concedevano il regno al più bello, giudicai ch'essi il facessero credendo che la bellezza fosse argomento di nobiltà e di virtù: perché la nobiltà è virtù o non senza virtù, laonde l'una non è senza l'altra; tuttavolta non è ciascuno giudice conveniente de la bellezza. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Credete che gli Etiopi avessero conceduto il regno a Socrate, il qual non fu mai giudicato bello da alcuno se non da Alcibiade? </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non l'avrebbono eletto re peraventura, ma in ciò avrebbono fatto errore, perché, s'egli fu virtuoso, fu bello e ricco e nobile e re. </p></sp>
+	<sp><speaker>A.F.</speaker><p> S'egli era tale, molto più giudicioso fu Alcibiade che gli Etiopi non sarebbono stati. Ma il contrario giudicò, qual che si fosse, colui che gli lesse ne la fronte i caratteri che scrive la natura: e se pur le lettere de la natura non son fallaci, egli fu vizioso, povero, brutto e servo, perché tutte le ree condizioni seguono il vizio, come tutte le buone la virtù. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Cotesto sarebbe sconvenevole d'affermare; ma non si può ragionar di queste cose senza distinzione. E perché omai voglio discendere da l'Academia e dal Portico a le scuole de' Peripatetici, la distinzione è questa. Quando Aristotele dice nel suo libro de la <emph>Fisiognomia</emph> che l'anima patisce ne' moti del corpo e 'l corpo all'incontro in quelli de l'anima, si dee intendere de l'anima sensitiva e vegetativa, non l'intelletto, <add>che</add> vien dal cielo a guisa di peregrino, nel quale la virtù e la scienza ha la sua sede principale: il ch'egli dichiara appresso, dicendo che le passioni fatte ne l'animo, le quali non mutano i segni del corpo, non son proprie di questa arte, come sono quelli ch'avengono intorno a le opposizioni e a le scienze. Laonde la scienza di Socrate non poteva esser conosciuta da colui che riguardava i segni de la mano o del volto; e quantunque egli potesse aver tutte quelle naturali imperfezioni che la natura con le sue lettere aveva significate, se lettere sono i segni, nondimeno con la virtù e con la scienza potea correggere ed emendar tutti i difetti de la natura o de la fortuna. E bench'egli fosse quale è descritto, era altrettanto seguito da' belli quanto seguiva i belli: e li seguiva non per ricevere alcuna bellezza, ma per far parte de la sua dottrina, de la quale aveva bisogno la città d'Atena, quasi corotta. E perch'ella non era conosciuta, sostenne lungo tempo l'alterezza d'Alcibiade, per la quale da tutti gli altri era abbandonato, percioch'i nobili sono per natura sprezzatori. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Lo sprezzar quelle cose che non debbano esser disprezzate è argomento di superbia, la quale non dovrebbe star con la nobiltà, s'ella è virtù o non senza virtù, come diceste. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Niuna peggior compagnia ha la nobiltà de la superbia; pur veggiamo che per cattiva usanza s'accoppiano assai spesso. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io avrei creduto più tosto che la nobiltà non fosse virtù, percioché, non ritrovandosi al mondo la virtù, non si ritroverebbe la nobiltà. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E chi bandì mai la virtù del mondo come fate voi, il quale ne sete o ne devete essere albergo? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io dico questo con l'autorità di molti, i quali vogliono che dove è una virtù sian tutte; ma non è alcuno dotato di tutte le virtù: dunque non è alcuno fornito di virtù. E ch'elle non fossino mai tutte insieme, assai chiaramente si raccoglie da l'istorie, ne le quali d'alcun non si legge che tra le virtù non avesse mescolato qualche vizio: percioché, se vorrem risguardare Ciro, fondator de l'imperio persiano, il vedrem ripieno di molte imperfezioni; e Cambise fu tale che lasciò vergognosa memoria agli altri successori di quel regno, il qual passò più d'una volta da l'una stirpe ne l'altra: e tutti diedero larga e vera materia a' riprensori. E Alessandro, che distrusse la monarchia de' Persi, quantunque vincesse il mondo, fu vinto spesse volte da l'ira, che 'l fe' minore in parte di Filippo suo padre, e dal vino eziandio, dal quale è maggior vergogna l'esser superato. E Milciade e Cimone e Temistocle e Pericle, benché riportassero molte vittorie de' nemici, furono nondimeno soggetti a diverse riprensioni, e coruppero l'antica disciplina d'Atena; e Nicia e Alcibiade e gli altri che succeddetero, co' lor vizî fecero parer buoni que' primi. E se vorrem rivolgerci da gli uomini attivi a' contemplativi, vedremo i sette saggi, de' quali si vanta la Grecia, così discordi ne l'opinioni e ne' costumi che non si può lodar l'uno senza biasimo de l'altro; e vedrem Socrate lasciar dubbia la posterità de la sua bontà e de la dottrina, e Platone per ambizione passare e ripassare il mare, e Senefonte aver invidia di quella gloria ch'egli s'aveva con l'eloquenza acquistata, e co' morsi d'acuto dente morderla e rimorderla invidiosamente; vedrete Aristotele, ingrato discepolo, sotto falso pretesto d'amator di verità armarsi contra il suo maestro di acuti sillogismi, e le sette quinci e quindi divise, e più desiderose di contrastare che di sapere,
+
+<quote rend="block"><lg>
+<l>Urtar come leoni e come draghi.</l>
+       </lg></quote></p>
+
+<p>Né fra' Lacedemoni trovarete la virtù meno imperfetta di quel che la veggiate fra gli Ateniesi: vedrete gli uomini fieri, le donne incontinenti, Callicratide troppo sdegnoso e poco paziente in aspettar l'occasione di parlar co' grandissimi re, Cleomene spergiuro o malizioso interprete del giuramento, Lisandro non vero amator de la patria, Agesilao men de la virtù di Lisandro ch'esser non deveva. Vedrete Pausania giustamente sospetto e, non ch'altri, Licurgo non buon legislatore, perch'egli tai leggi avea fatte, con le quali non pensava di viver ne la sua patria; e fra' Tebani troppo ambizioso e troppo cupido d'imperio Epaminonda, che 'l ritenne oltre il tempo assegnato, e Pelopida più temerario che prudente. Or passiamo a' Romani. Romulo, fondator de la patria, la fondò con la morte del fratello e procurò mogli da' suoi vicini ingiustamente rapite. Numa non seppe introdur nel popolo feroce la relligione senza la pigrizia, e fece oziosi i Romani, i quali eran nati per guerreggiare; ma questo sarebbe peraventura minor fallo, s'egli non avesse usata l'arte magica, per la quale i suoi libri furono poi arsi dal senato, che si vergognò di manifestarli. E Tullo accrebbe il regno con ingiustizia, e distrusse quella città, la quale era madre di Roma, con guerra più che civile. E gli altri due che seguiro non furono di lui migliori; ma l'ultimo superò tutti d'ingiustizia e di superbia. né Bruto, che distrusse la tirannide di Tarquinio, al giudizio de' saggi, se pur alcun se ne ritrova, fu saggio, perch'egli non avrebbe vissuto lungamente come bestia, essendo meglio ch'egli prima morisse com'uomo; né Collatino né Valerio, principi, per così dire, de la libertà: e se non furon saggi, non fur buoni, perché solamente il saggio è buono. né Catone il Censorino, né quel da Utica furono securi da ogni biasimo: perch'il primo fu seguace di Fabio Massimo e l'imitò ne l'invidia, rimirando con occhi torti il maggior Scipione, e l'altro non solo a la gloria di Cesare, ma a quella di Cicerone fu invidioso. E Scipione, che fra' Romani è forse il maggiore essempio di valore, recò per ambizione la sua origine a Giove, o almeno volentieri consentì ch'altri la recasse, non si contentando d'avere per suo padre colui ch'era nato di così valorosa famiglia e morto per la patria così valorosamente. E Cesare, che fu l'altro maggiore essempio de la virtù romana, di molti vizî fu contaminato. E 'l minore Scipione e 'l suo Lelio, al qual, or me ne ricordo, s'attribuì il nome di saggio, amarono fuor del convenevole Terenzio, scrittor de le comedie. E Cesare udì trionfando rimproverarsi cose altrettanto vergognose quante vere. né i migliori imperatori furono men degni di riprensione de' migliori cittadini: peroch'Augusto di crudeltà e Vespesiano d'avarizia furono colpevoli, non che biasimati; e Tito ne la sua gioventù non diede minor sospizione ch'egli dovesse esser simile a Nerone; e Traiano, che fra' gentili imperatori fu il più giusto, fu bevitore e in altra maniera incontinente. Debbo discender più basso a gli Eliogabali, a' Galieni e agli altri mostri sì fatti, di mille brutture contaminati,
+
+<quote rend="block"><lg>
+<l>O far trapasso a' peregrini egregi,</l>
+</lg></quote></p>
+
+<p>e rimirar Anibal crudele, i Cartaginesi fraudolenti e rompitori di patto? Ma se pur alcuno fra tanti ch'abbiamo nominati meritasse d'esser riputato buono intieramente, o Milciade o Cimone o Agesilao o Platone o Senefonte o 'l suo Ciro o 'l maggiore o 'l minor Scipione o Lelio o Marcello o Tito o Vespesiano o Teodosio, che tra' cristiani fu migliore che Traiano fra' gentili imperatori, o Carlo Magno o 'l buon duca Goffrido,
+
+<quote rend="block"><lg>
+<l>Che fe' l'impresa santa e i passi giusti,</l>
+</lg></quote></p>
+
+<p>quale stirpe si troverà dotata di tutte le virtù? Troverassi l'uomo buono e per conseguente nobile, ma non la buona e nobile stirpe. E che ciò sia vero, vedete che 'l regno non continuò ne' Romani per successione. Rimirate l'imperio trapassar di schiatta in schiatta or per violenza, or per elezione; rimirate di Ciro nascer Cambise, e di Dario Serse, e del buono il reo Tarquinio, e di Vespesiano Domiziano, e Commodo di Marco Aurelio. Dunque par che si possa dubbitare che non si ritrovi questa vostra nobiltà, la qual riponete ne la virtù: e se pur si ritrova l'uomo nobile, non si ritrova la nobil progenie. </p></sp>
+	<sp><speaker>A.B.</speaker><p> A me pare che 'l vostro lungo ragionamento abbia rinovata la memoria de gli uomini grandi, i quali d'alcun vizio o d'alcuna sospizione di vizio non furono lontani, e taciuto di molti, che non diedero alcuna giusta occasione di calunnia. Quanti sono gli Spartani, de' quali non avete fatta menzione, bench'in loro il regno continovasse. Che schiera de' Fabî, che lungo ordine de' Scipioni avete lasciati a dietro. Quanti Marcelli, quanti Metelli, quanti Deci, quanti Valeri, la stirpe de' quali non si può dubitare s'ella fosse nobile, come non si dubita de la razza de' corsieri del regno o di ginetti di Spagna, quantunque alcuno soglia degenerare. Ricordatevi, o signor Antonio, che noi siamo nel mondo e fasciati di queste carni e ricoperti di questo manto d'umanità: laonde gli umani errori si debbono da noi scusare come umani, né per loro dee esser riputata ignobile quella stirpe ch'umanamente ad alcun peccato è sottoposta; che s'ella non peccasse, niuna differenza si troverebbe tra la nobiltà de gli uomini e quella de l'intelligenze. Tale è dunque la nobiltà umana quale è l'umana virtù: non è perfetta l'umana virtù, perché, s'ella perfetta fosse, non sarebbe peraventura umana; e però l'umana nobiltà non è in tutto libera da ogni colpa, e s'è perfetta virtù e perfetta nobiltà, non assolutamente è perfetta, ma con questa condizione d'umana o di morale o di civile, perché sovra questi gradi altri ne sono stati descritti. Ma non affermo che 'l vizio possa stare in compagnia de la virtù o almeno di quella virtù per la quale l'uomo assolutamente è detto buono, perciò che dove è la prudenzia conviene che sian tutte l'altre. E se Livio disse che le gran virtù d'Annibale erano aguagliate da' suoi gran vizî, intese de le virtù naturali, l'una delle quali pò esser senza l'altre, percioché non ognuno è d'ingegno attissimo a riceverle tutte. Quello dunque che si prova argomentando de la seperazion de la virtù non dee intender de le morali e perfette, ma de le naturali e imperfette: e peraventura tali furono quelle d'Alessandro e d'alcuni altri ch'abbiam nominati. Ma 'l pentimento e la vergogna distinguono quelle operazioni che son fatte per vizio da quelle altre che si fanno per incontinenza, come furono alcune del re di Macedonia: e ne l'animo istesso la forma è diversa. Non devete dunque dubitar se la nobiltà si ritrovi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> S'ella pur si ritrova, è molto rara, sì come la vera virtù e la vera gloria; ma quanto ella più di rado si manifesta fra gli uomini, più debbiam onorarla: percioché, accomunandosi, s'avilirebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Anzi, s'andrete risguardando tutta la lunghezza e la larghezza di quello ch'ente è detto da' filosofi, conoscerete ch'in ciascuno si ritrova la nobiltà. E cominciando da Iddio, primo padre di tutte le cose, egli, sì come è sovra tutti i gradi de l'esser, così è sovra tutti quelli de la nobiltà; e ne gli ordini degli angeli ne vedrete diversi gradi, e ne' corpi celesti e negli elementi e ne' misti e ne gli animali: laonde non solo i generi da' generi, ma le specie da le specie e gli individui da gli individui sono seperati. E la materia prima, la quale ha in sé la potenza di ricever tutte le forme, tanto participa ancora di nobiltà quanto di notizia, dapoi ch'ella nel suo grembo l'ha raccolte, in quella guisa che la ignobile femina, congiungendosi con uomo gentile, suol nobilitarsi nel matrimonio. Laonde, discendendo da Iddio sommo, padre d'ogni perfezione, a la materia imperfettissima, madre d'ogni imperfezione, vedrete la nobiltà per tutti i gradi di questa scala, i quali per lei sono quasi differenti; e vedrete similmente diverse l'arti, che de la natura sono imitatrici, e le scienze ancora, le quali ha ritrovate il nostro intelletto. Laonde niuna cosa è creata da Iddio, niuna generata da la natura, niuna fatta da l'artificio, niuna intesa da la mente, in cui non risplenda qualche raggio di nobiltà. Dunque la nobiltà, che non era dianzi da voi conosciuta, ora vi si dimostra in tutte le specie naturali e artificiali, e in tutte quelle ancora le quali a l'anima suole dipingere in se stessa. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ella m'appare veramente in sì diversi abiti ch'io la conosco in quel modo che nel carnevale conosciamo i mascherati; ma quanto sia incerta questa cognizione, voi il vedete, poi ch'è simile a quella de la materia, la quale suol ricoprirsi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque per averla più certa debbiamo ricercare la sua definizione; e ditemi quel ch'a voi pare ch'ella sia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A me ne dimanda il signor Agostino? </p></sp>
+	<sp><speaker>A.B.</speaker><p> A voi ne dimando, che sete così buon cortigiano e ch'avete uditi ragionar tanti filosofi: perché molti stimano che 'l ragionar de la nobiltà sia ufficio de cortigiano più tosto che di filosofo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Peraventura può esser ufficio di cortigiano non men che di filosofo, ove tale sia il cortigiano quale da alcuni è formato, e così fatto il filosofo come sono alcuni di coloro che prendono questo nome con l'abito lungo prima ch'abbiano appresa la dottrina compiutamente. Ma io tolgo voi dal numero degli altri, il qual sete dottissimo fra' dotti ed eloquentissimo fra gli eloquenti: laonde io stimo ch'a voi si convenga il ragionarne; e se pur me ne dimandate, credo che 'l facciate con quello artificio co 'l qual Socrate soleva ammaestrar i discepoli. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Socrate, dimandando, soleva ridur quelle cose ne l'altrui memoria, la cognizione de le quali, come egli credeva, l'intelletto avea portata seco dal cielo, e poi se n'era dimenticato discendendo in questo corpo, il quale è 'l nostro Lete. Ma io farò prova se con l'addimandarvi potrò intendere l'opinione de' più nobili e de' più dotti i quali in corte avete uditi ragionare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Chiedete dunque quel che vi pare, pur che <add>non</add> m'astringiate a rispondere quel che non so. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Se non volete dirmi quel che sia la nobiltà o quel che stimino ch'ella sia gli uomini nobilissimi che ne fanno professione, ditemi almeno quel che significhi questo nome “nobile”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> “Noto e conosciuto”, credo io. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Le cose note dunque per questa ragione saran le nobili, e la nobiltà sarà la notizia che s'avrà di loro. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma poi ch'abbiam così facilmente ritrovato quel che significhi il nome, ricerchiamo de la natura e de l'essenza: e ricercandone, io vi dimando perché la intelligenza del primo cielo è più nobile di quella del secondo; la qual dimanda io non vi farei, se non vi foste ritrovato presente l'altro giorno a la disputa che ne facevano il padre metafisico co 'l signore Ottavio. </p></sp>
+	<sp><speaker>A.F.</speaker><p> È più nobile, perché più s'avicina a Dio, avegnaché negli enti quello sia più nobile per lo quale è l'altro: ma gli inferiori sono per gli superiori, non a l'incontro. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma quali stimate voi più nobili, quelle la cui materia è pura potenza, o l'altre, la materia de le quali è qualche cosa in atto? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Queste senza alcun dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E queste sono le spirituali? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma come conoscerem la sua nobiltà? </p></sp>
+	<sp><speaker>A.F.</speaker><p> A l'operazioni; perché il moto de le più spirituali e de le più sublimi è peraventura più simplice: laonde assai minor varietà è nel moto del primo cielo ch'in quello de' pianeti. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque per la purità de la materia è più nobile l'una de l'altra, o più tosto per la perfezione de la forma, perché la materia in queste è in atto. Or discendiamo dal mondo superiore a l'inferiore, dal sempre sereno e tranquillo a quello ch'è sempre torbido e tempestoso, da l'eterno al corruttibile; e ditemi: perché il foco de l'aria è più nobile? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Perché la sua forma è più perfetta. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E per qual cagione l'aria è più nobile de l'acqua? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per l'istessa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E così degli altri elementi? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma tra i misti perché son più nobili quelli che son composti di tutti gli elementi? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Perché sono i più perfetti: laonde gli altri, che non <add>son</add> composti di tutti, son chiamati imperfetti, perché dal mescolamento de le qualità risulta in loro minor perfezione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Più perfetti dunque saran gli animati de gli inanimati; e fra gli animati quelli c'hanno l'anima sensitiva di quelli c'hanno la vegetativa solamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Or mi sapreste risponder quel che sia la nobiltà? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non saprei ancora. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non avete voi detto, ragionando di queste cose tutte che sono dal supremo cielo sino a la terra, che l'una è più nobile de l'altra, perché la forma è più perfetta? </p></sp>
+	<sp><speaker>A.F.</speaker><p> L'ho detto. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la nobiltà non è altro che perfezion de la forma. Peraventura, sì come vari colori ne l'aria sono cagionati secondo la differenza del raro e de lo spesso da una sola illustrazione, così per la diversità de la materia nasce in lei la diversità de le forme. È necessario nondimeno che ne le forme si trovi qualche diversità secondo l'ordine de la perfezione e de l'imperfezione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Avete buona opinione: e questa diffinizione è vostra, e io l'ho raccolta da le vostre parole. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Voi l'avete cavata da le mie parole in quella guisa che lo scultore trae dal marmo la forma di Mercurio o di Febo o d'altro iddio; la qual, benché fosse in potenza ne la pietra, si può chiamare opera del maestro: ond'ella è pur vostra, e voi prendete gioco di me e volete darmi a divedere ch'io sappia quelle cose de le quali sono poco meno ch'ignorante. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Poi che non volete che sia tutta vostra, direm che sia parte vostra e parte mia, e che la vostra mente sia madre di quella opinione la quale era nascosa nel parto de le vostre parole. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Voi sete simile al sole, il quale fa germogliare i frutti de la terra: perch'il raggio del vostro intelletto, passando nel mio, l'illustra e lo scalda; laonde nascono que' concetti ch'udite. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Troppo alta comparazione e quasi poetica ha ritrovata il signor Antonio per onorarmi; ma andiamo ricercando s'altro si dee giungere a la diffinizione, e presupognamo quel che poco dianzi diceste, che la perfezione de la forma si conosca a la operazione: da la quale cosa io raccolgo che, s'una forma non operasse, non potrebbe dimostrare la sua perfezione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non potrebbe; ma non si può trovar forma che non operi, perch'ella sarebbe stata prodotta in vano da la natura, che niuna cosa fece indarno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno sono alcune forme che non operano: come l'anima sensitiva degli animali, la qual, mentre essi dormono, riposa. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma tuttavolta queste non stanno in continova quiete, percioché non è prima desto l'animale che l'anima sensitiva comincia a far le sue operazioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così aviene. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque or sono in operazione, or cessano da l'operazione, e altre sono in continova operazione, come le celesti, de le quali Dante cantò:
+
+<quote rend="block"><lg>
+<l>Voi vigilate ne l'eterno die,</l>
+</lg></quote></p>
+
+<p>perché né stanchezza né sonno le ritarda o l'impedisce giamai; e non affaticandosi, non han bisogno di quiete né di ristoro. Ma di quali di queste forme direm che sia perfezion la nobiltà? </p></sp>
+	<sp><speaker>A.F.</speaker><p> De l'une e de l'altre. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Averroè vuole che la nobiltà de le forme separate da la materia consista in se stessa e la nobiltà de l'altre sia riposta ne l'azione. Ma quantunque ne le nobilissime forme la nobiltà non s'acquisti per l'azione, per lei nondimeno può manifestarsi in qualche modo: laonde io direi che ne le cose celesti ella fosse perfezione de la forma sempre operante, percioch'elle sono in continova operazione; ma ne le cose che sono sotto la luna è perfezione de l'atto primo o del secondo? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Se di tragedia o di comedia si ragionasse peraventura, bene intenderei senza aver bisogno di vostra dichiarazione, ma in questo soggetto, quantunque non mi siano nuovi questi nomi, i quali ho assai spesso uditi, potrei forse ingannarmi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Consideriamgli dunque nel soggetto nel quale sono appropiati, perch'in questa guisa meglio saranno intesi: io dico ne l'uomo che dorme, il quale ha l'anima; nondimeno l'anima sua, non operando, può operare quando che sia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quando ella non opera, è ne l'atto primo, ma nel secondo quando ella fa qualche operazione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Or comincio ad intendere. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E s'è vero che l'anima alcuna fiata non operi, non bene fu diffinita continuo movimento; ma s'ella è in continova operazione, assai bene la diffinirono. E bene espresse Cicerone la parola <emph>endelechia</emph>, avendo risguardo a l'anima vegetativa, la qual non cessa giamai da le sue vigilie, ma allora pare più diligente che la sorella, stanca da le fatiche del giorno, dorme e si riposa; in servigio de la quale ella riceve il cibo, e divide il buon nutrimento dal reo, e manda ciascuno al suo debito luogo, e purifica il sangue e gli spiriti acciò che possa meglio contemplare la mente, lor primogenita sorella. Bench'egli più tosto e Plutarco dopo lui intesero del movimento di questa, a la quale s'attribuisce ancora il nome di perfetto abito, fabricato da Ermolao Barbaro, dottissimo filosofo, prudentissimo senatore ed eloquentissimo oratore. Ma vogliam raccogliere quello ch'abbiamo quasi sparso ragionando? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Raccogliamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Noi dicevam che de le forme alcune sono in continova operazione, alcune non sono; e di quelle che operano sempre dicevamo esser la nobiltà de la forma operante, ne l'altre, c'hanno l'atto primo e 'l secondo, dubitavamo in qual più tosto fosse. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dubitavamo, e io già aspettava la soluzione del dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Voi medesimo ve ne disciorrete, considerando s'ella sia più tosto ne l'atto più conosciuto o nel meno. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Nel più conosciuto devrebbe a riporsi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma quale stimate il più manifesto? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Il secondo senza fallo, il quale è con l'operazione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la nobiltà in quelle forme c'hanno l'atto primo e 'l secondo è più tosto perfezione del secondo che del primo: e queste cose, signor Antonio, sono state da me propostevi, ma da voi ritrovate sì come l'altre. Ma' crediam noi ch'al filosofo si convenga di considerar non sol la natura de le cose, ma la proprietà de nomi isquisitamente? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Credo senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E noi troppo tosto ci sbrigammo da quella diffinizione che da' loici è detta <emph><foreign lang="lat">quid nominis</foreign></emph>: e ora ce n'ammonisce quel ch'abbiam detto, che la nobiltà sia riposta anzi ne l'atto secondo che nel primo, perch'egli è più conosciuto. Ditemi dunque: i nomi debbono essere conformi o dissimili a la difinizione?</p>
+    </sp>
+	<sp><speaker>A.F.</speaker><p> Conformi: perch'il nome altro non è che la diffinizione raccolta e la diffinizione il nome spiegato. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quando adunque il nome non conviene a la diffinizione, non è buon nome? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non è, perché la natura de la cosa non è significata. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quando la diffinizione non si conforma al nome, è buona? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non è per mio aviso: anzi il nome a la diffinizione e la diffinizione al nome dee convenire. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Or dunque ch'abbiamo addotto l'uno e l'altro, potrem ricercare come insieme s'accordino. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Potremo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Pur quale è ragionevole che serva a l'altro, per così dire? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La diffinizione al nome. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E perché? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Perch'il nome è più antico, ed è ragionevole per l'onor de l'età ch'i giovani servano a' vecchi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Pratico cortegiano è il signore Antonio: perché da le buone corti trasporta l'usanze lodevoli ne le scuole e ne' ragionamenti de' filosofi. Ma benché le definizioni sian date dapoi che sono posti i nomi, non è ragionevole il pensare che le forme sian nate da' nomi, ma più tosto i nomi son presi dopo le forme, come dice Ippocrate, avegna che i nomi siano posti per legge di natura; ma l'idee son quasi germe e, come altri disse, sono avanti a tutte le cose. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io son cortigiano assai nuovo, ma ora, con esso voi ragionando, supero me stesso, perché quelle cose le quali ora da un libro, ora da un altro, ora da uno, ora da un altro ragionamento avea raccolte, voi, ordinatamente dimandando, le traete fuori con ordine: laonde riconosco in gran parte da voi quel di buono ch'a voi ne le mie parole piace d'approvare, il qual con l'artificio de le vostre dimande volete onorar le mie risposte. Rispondo adunque volentieri ch'il nome è stato posto dal commune consentimento de le genti: laonde la diffinizione, ch'è nuova, non dee sdegnarsi di servirlo, e particolarmente nel nostro ragionamento quel debbiamo intendere per nobiltà che da tutte le nazioni è inteso, non quel che da pochi filosofi possa intendersi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma stimate voi che tutti i nomi siano d'una stessa maniera, o pur altri son ritrovati da la moltitudine, altri da' filosofi e da gli altri maestri de l'arte? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ce ne sono de l'una e de l'altra sorte: perché il popolo peraventura pose il nome a l'acqua e al foco e al fare e al patire, ma 'l loico e 'l grammatico ritrovarono poi il nome di sostanza e d'accidente o di nome e di verbo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Son dunque due maniere de nomi: l'una è conosciuta dal volgo, la qual significa le cose naturali o i primi concetti che si formano, l'altra fabricata dagli artefici, la quale è significatrice di secondi concetti; né sovra l'una e sovra l'altra dee aver il filosofo poi auttorità, ma forse più sovra quella che ritrova egli medesimo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E questo nome di nobile riporreste fra i primi o fra' secondi? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Fra i primi: perché la nobiltà è naturale, e 'l nome ci significa alcuna cosa esposta a gli occhi de la moltitudine. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque, se 'l nome di nobile significa cognizione, assai bene da la prima diffinizione egli è stato servito. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E già abbiamo detto che le forme che sono in continova operazione son più conosciute e sono perciò molto più nobili. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se noi abbiamo cognizione minore de l'intelligenze che del cavallo o dell'uomo, questo aviene per l'imperfezione del nostro discorso, il qual non conosce se non con la guida de' sensi; ma in se medesime le forme separate da la materia sono più conoscibili de l'altre, sì come il sole è più visibile d'una picciola facella, quantunque non possan risguardare nel suo lume alcuni animali che non escono fuori se non verso la sera e fanno schermo di luoghi tenebrosi e di ore tarde. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Niuna cosa mi par più vera di questa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quelle forme dunque son più conoscibili, le quali sono puro atto e meno participano de la potenza, e per consequente sono più nobili. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così credo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E discendendo a le forme corruttibili, ne le quali meglio si conosce la composizione d'atto e di potenza, ciascuna è conosciuta per la forma e per l'atto: e s'egli non fosse, non sarebbe conosciuto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non sarebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Onde la materia prima, la quale non ha alcuno atto, non si può conoscer per se stessa, né si può dire quel ch'ella sia, ma più tosto quel che non sia: laonde diciam ch'ella non è né 'l che né 'l quanto né 'l quale, ma in potenza ciascuna di queste cose, e la sua cognizione è così imperfetta come imperfetta è la materia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Imperfetta senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma s'in altro modo conoscer la vogliamo, non è conveniente che ricerchiamo alcuna proporzione, dicendo la materia esser quella la quale riceve così le forme naturali come il marmo o 'l metallo la forma di Minerva, d'Apollo o di Venere, o pur il cipresso e l'alloro la seggiola e la tavola. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non istimo ch'in altra maniera si possa aver di lei alcuna cognizione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> La materia dunque è conosciuta o per negazione o per proporzione, come dice Giovanni Grammatico: e le metafore usate da' filosofi ci confermano in questa opinione, come quella che da Iddio a tutte le cose è stato compartito l'essere, a queste più chiaramente, a quelle più oscuramente: percioché chiaro e oscuro significano conosciuto e non conosciuto, e dal nome di tenebre convenevolmente ci fu significata la privazion de le cose, come in que' versi:
+
+<quote rend="block"><lg>
+	<l>Anzi il dolce aer puro e questa luce</l>
+<l>Chiara, che 'l mondo agli occhi nostri scopre,</l>
+<l>Traesti tu d'abissi oscuri e misti.</l>
+	</lg>
+<lg>
+	<l>E tutto ciò ch'in terra o 'n ciel riluce</l>
+<l>Di tenebre era chiuso, e tu l'apristi,</l>
+<l>E 'l giorno e 'l sol de le tue man sono opre.</l>
+</lg></quote></p>
+
+<p>Ma peraventura a bastanza s'è ragionato per dimostrare che l'essenza e la forma de la nobiltà non è oscura, come scrisse Licofrone sofista, ma conosciuta e illustre, e 'l suo nome parimente, il quale è bello e gentile, antico e composto da buon maestro, confermato da l'uso e da l'autorità e usato da' Latini e da' Toscani egualmente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io resto così pago de la diffinizione come del nome, e vi ringrazio che l'abbiate cavata da le mie parole come filosofo socratico, non solo come peripatetico. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma perché de la nobiltà umana cominciammo a ragionare, di questa particolarmente debbiamo cercar la diffinizione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La diffinizione de la nobiltà particolare sarà men difficile da ritrovare, s'io non m'inganno, percioch'ella è data da molti; ma de l'altra non so chi ragionasse giamai. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Piacciavi dunque dirlemi tutte, o almeno le più famose, o quella almeno che vi par più vera. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non son tale che possa far giudicio de la verità; ma io vi presenterò inanzi quelle che mi ricordo, perché voi l'essaminiate a guisa di giudice: e comincerò da quella di Socrate, il quale la diffinì buona temperatura d'animo e di corpo, secondo a me pare, convenevolmente, perché la buona temperatura può esser cagione di virtù e in conseguenza di nobiltà. </p></sp>
+	<sp><speaker>A.B.</speaker><p> In questa guisa la diffinizione sarà da gli effetti: la qual non è fra quelle che gli altri han numerate; e in questo modo istesso alcun potrebbe dire che la bellezza fosse temperamento. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Potrebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E che l'animo ancora fosse la complessione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A niun modo: perché ne seguirebbe ch'ella fosse mortale, s'io n'ho inteso il vero. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Molti sono e principalissimi fra' Peripatetici, i quali difendono ch'ella sia mortale; nondimeno essi non vogliono che sia il temperamento, ma quel che da lui risulta: e in questa guisa parimente la bellezza non dovrebbe esser la temperatura, ma quel che da lei procede. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dovrebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E s'ella deriva da la temperatura, e la nobiltà parimente, sono forse l'istesse o diverse, come da la temperatura d'un pomo nasce insieme il colore e l'odore? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono diverse più tosto in questa maniera. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Sono dunque una cosa medesima nel subietto, ma diverse per ragione. E 'l bel colore e 'l buono odore s'accompagnano così di leggieri come la bellezza e la nobiltà: laonde l'una potrem chiamare il buon odore, l'altra il bel colore. Ma, se vi piace, lasciam da parte questa diffinizione, perché, non essendo composta del genere e delle differenze, non è perfetta; e vediamo s'alcun'altra se ne ritrova, la qual piaccia intieramente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io l'addurrò con quello ordine co 'l quale io me le ricordo. E prima ve n'appresento una di Diogene, che la nobiltà sia un cotal disprezzo de la ricchezza, del piacere, de la gloria e de la vita. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Stima è peraventura anzi che disprezzo, perché queste cose non meritano esser disprezzate, ma elette più tosto. E gli Stoici, i quali furono severissimi, non l'annoverarebbono fra quelle che da lor fur dette <emph>reiecta</emph>, ma fra l'altre più tosto che chiamarono <emph>praeposita</emph>. Ma lasciam da parte l'opinione di questo Cinico. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Eccovene un'altra di Simonide, ch'i nobili sian quelli che sono nati da maggiori che sono stati ricchi lungo tempo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E questa diffinizione ancora merita d'esser lasciata da parte, perch'in lei non si lascia luogo alcuno a la virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Forse vi piacerà più quella di Democrito, che la nobiltà de le bestie sia riposta nel buono e nel gagliardo abito del corpo, ma quella degli uomini ne' buoni costumi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Assai più mi piace. Ma i buoni costumi per aventura hanno bisogno de le ricchezze, con le quali si possano meglio dimostrare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dunque più quella di Plutarco, ch'ella sia ricchezza antica e vecchia gloria. </p></sp>
+	<sp><speaker>A.B.</speaker><p> S'è vera questa diffinizione, questo superbo nome di nobiltà depende da due cose aliene, alcuna de le quali non è in nostro arbitrio: e non è dissimile da quella d'Aristotele ne la <emph>Politica</emph>, ne la qual par che si conceda il primo luogo a le ricchezze e 'l secondo a la virtù; ma, s'io non m'inganno, la virtù doveva esser posta per fondamento de la nobiltà, e l'altre cose devevan considerarsi come accidenti, almeno ne la perfetta republica o nel perfetto regno, nel quale i nobili dagli ignobili son distinti per virtù. Ma peraventura Plutarco e gli altri ebbero risguardo a le città e a' regni ch'erano in que' tempi: ne le quali la virtù non sepera sempre il nobile da l'ignobile, come si conobbe particolarmente in Roma, dove i Deci, padre e figliuolo, furono de l'ordine plebeo, tuttoch'agguagliassero la gloria de' più nobili. Ma consideriam l'altra deffinizione di Plutarco. </p></sp>
+	<sp><speaker>A.F.</speaker><p> In un'altra diffinizione egli non par che voglia diffinire ogni nobiltà, ma la verissima nobiltà, la qual dice ch'è similitudine secondo la giustizia. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Bella diffinizione certo: tutta volta temo che sia nascoso qualche pericolo sotto quella voce “similitudine”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Fate ch'io il conosca, perché possa guardarmene. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Or ditemi: quel ch'assomiglia la prudenza è l'istessa prudenza o pure cosa in parte diversa? </p></sp>
+	<sp><speaker>A.F.</speaker><p> In parte diversa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quella ch'è simile a la temperanza è l'istessa o pur differente? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Differente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quella la quale ha somiglianza con la fortezza si distingue da la fortezza? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Si distingue. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la similitudine secondo la giustizia non è la verissima giustizia, ma la sua imagine più tosto? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La sua imagine senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la verissima nobiltà è l'imagine de la giustizia o più tosto la vera giustizia? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La vera giustizia per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque lasciamo queste diffinizioni, non perché sian cattive, ma perché non sono perfette, e ricerchiamo la perfetta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Qual diffinizione volete ch'io vi rechi, quella <add>che</add> alcuna <add>volta</add> udii lodare, ch'ella sia una grazia conceduta dal principe a' suoi più cari, per la quale gli distingue dagli onesti plebei? </p></sp>
+	<sp><speaker>A.B.</speaker><p> Io la riconosco, perché mi s'appresenta con quella autorità che sogliono apportar seco le cose de' leggisti: e fu di Bartolo, il quale è riputato principe de' moderni. Ma come ardirei di farmi giudice di chi può giudicar de la vita e de la morte così agevolmente? Però voi con minor pericolo ne direte il vostro parere. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non ho sovra ciò alcuna ferma opinione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Credete almeno che la nobiltà sia cosa o naturale o che dipenda in qualche parte da la natura? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Credo senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la grazia conceduta dal principe è cosa a fatto estrinseca: laonde io direi ch'avessero più tosto diffinita la dignità o altra cosa simigliante. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Oltre questa c'è quella de l'imperator Federico: “la antica possession d'avere con reggimenti belli”: e per “avere” egli intende ricchezze, perché il Boccaccio usò quel nome in, quel senso: “povertà toglie gentilezza, ma non avere”. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Già mi par che contra l'autorità de l'imperatore Federico abbiate recata quella del Boccaccio. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E che può valere l'autorità d'un Certaldese contra quella de l'imperatore Federico, che fu de la casa di Soave? </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non parlate con poco rispetto del Boccaccio, perch'egli, come delicato filosofo e molto sdegnoso, non ci vorrebbe peraventura prestar nel nostro ragionamento alcuna di quelle parole per le quali, se la fama non è vana, meritò d'essere amato da nobilissima donna; ma diamli qualche credenza e vediam quel che ne dice altrove. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Egli dice che noi tragghiamo l'animo dal cielo, dotato de le medesime potenze, e la carne d'una medesima massa, e che la virtù sola è quella che ne distingue: le quali parole egli pone in bocca de l'innamorata Ghismonda, che giudicava nobile il suo Guiscardo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Questa opinione già per se stessa non mi dispiace, ma ella par diversa alquanto da quella de l'imperatore Federico. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Diversa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se de le statue si ragionasse, a chi si dovrebbe più credere, a lo scultore o al bifolco? </p></sp>
+	<sp><speaker>A.F.</speaker><p> A lo scultore. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se de la pittura si parlasse, a chi dareste innanzi ad ogni altro credenza, al pittore o al marescalco? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Al pittore. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma favellando di pietre preziose, seguiremo l'opinione del lapidario o di colui che vende i vetri? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Del lapidario. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque è convenevole che de la nobiltà si creda più a l'imperatore Federico, uomo nobilissimo, ch'al Boccaccio: e voi da principio ragionevolmente gli prestaste maggior fede. Ma troppo apertamente ragionaste contra il Boccaccio, percioché la sua opinione non è molto diversa da quella d'Augusto, il quale per “reggimenti” intende senza fallo la virtù, e la prudenza particolarmente, a la quale s'appertiene di reggere e di governare gli affetti e le passioni e le cose esteriori eziandio: laonde in niuna cosa l'imperatore è differente da Aristotele e da Plutarco, e in poche dal Certaldese. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A me nondimeno par d'aver letta questa voce in altro significato ne la <emph>Comedia</emph> di Dante, ov'egli dice:
+
+<quote rend="block"><lg>
+<l>La doppia fera dentro vi raggiava</l>
+<l>Or con altri, or con altri reggimenti;</l>
+</lg></quote></p>
+
+<p>ove, parlando d'una cosa che stando ferma in se stessa, si mutava nondimeno ne l'idolo che risplendeva ne lo specchio, par che voglia intendere de' sembianti più tosto. </p></sp>
+	<sp><speaker>A.B.</speaker><p> I sembianti sogliono esser testimoni del core e dimostrano i costumi: laonde, se vorremo ristringere la voce a questo significato, l'imperatore volle diffinire la nobiltà stimata propria de' cortigiani, la quale è l'antica ricchezza accompagnata da buoni costumi e da belle maniere. Ma quale altra a diffinizione mi portate? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La diffinisce ultimamente il Possevino virtù di schiatta e orrevolezza de' maggiori. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma virtù e orrevolezza sono due cose diverse. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la sua diffinizione è fatta con accoppiamento di due generi? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E le diffinizioni sì fatte sono elleno perfetissime? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non credo che siano, perch'in ogni diffinizione dee bastare un sol genere, al quale s'aggiungono le differenze. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma stimate voi che ne la diffinizione de la nobiltà umana il genere debba esser quello istesso ch'è ne la diffinizione de la nobiltà universale, sì come ne l'ordine de la sostanza quel medesimo genere si pone ne la diffinizione del corpo e de l'animale? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ragionevolmente dee esser l'istesso. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Or come potrem ciò fare, se già abbiam detto che la nobiltà sia perfezion de la forma? Ma andiam meglio considerando; e ditemi: quale è la perfezione de l'occhio? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quella per la quale egli ben vede. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la virtù de l'occhio? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La medesima. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la virtù de l'orecchio quale è? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quella per la quale egli ben ode. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E così, discorrendo per gli altri sensi, vedrem che la virtù e la perfezion sarà la medesima. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E ne l'intelletto parimente la sua perfezione è la sua virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> È. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E negli elementi quale è la perfezione del fuoco? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quella de lo scaldare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la virtù? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quella similmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E così, discorrendo per gli altri elementi, troverem l'istesso: laonde potrem affermare ch'ogni virtù è perfezione del soggetto nel qual si ritrova; e quando noi dicemmo che la nobiltà era perfezione de la forma, potevam ancor dire che fosse virtù de la forma: e ora, parlando de la nobiltà umana, possiam affermare ch'ella sia virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se la virtù e la perfezione fosse una cosa istessa, come abbiamo conchiuso, ne seguirebbe che niuna virtù fosse imperfetta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Niuna sarebbe per mio aviso. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E peraventura la virtù sarebbe una sola: perché la moltitudine e la divisione de le virtù non è argomento d'alcuna perfezione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E cotesto ancora ne seguirebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tuttavolta conosciamo diverse virtù: laonde pare o ch'elle non siano propriamente virtù o la virtù e la perfezione non sia una cosa stessa. Ma qual fra queste due opinioni stimerem vera? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io non saprei riconoscere la verità fra tanta verisimiglianza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma senza dubbio è più ragionevole che l'imperfette virtù non sian virtù propriamente: laonde, quando si dice che la virtù e la perfezione siano la cosa medesima, non si dee intendere d'altra virtù che da la perfetta, come pare a Iamblico, il qual vuole ch'ella sia il compimento de la natura umana; ma l'imperfette son chiamate naturali, le quali nondimeno con la coltura de l'animo possono divenire perfette quando che sia: e quindi aviene che non siano a fatto immeritevoli di questo nome. Per molte ragioni dunque par che la virtù e la perfezione sia la medesima. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Par veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Onde, se la nobiltà è virtù, è perfezione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E parimente la nobiltà umana. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Parimente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se la nobiltà è la perfezione del soggetto, è la sua forma; percioché la forma rende perfetto quello in cui si ritrova. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Da l'altra parte si potrebbe credere che fosse più tosto quella perfezione che risulta da la forma. Ma queste considerazioni sono peraventura troppo sottili in questo proposito: laonde si potrebbono del tutto lasciare adietro, ove Dante non c'invitasse a considerarle, quando egli dice:
+
+<quote rend="block"><lg>
+<l>È nobiltate dovunque è virtute.</l>
+<l>Ma non virtù dov'ella,</l>
+<l>Sì come il raggio dovunque la stella.</l>
+</lg></quote></p>
+
+<p>Son questi versi di Dante o non sono? Ma qualche celeste musa me gli ha spirati assai simili a quelli ch'egli fece con la istessa sentenza. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non mi paiono d'altra sorte fatti ch'i suoi medesimi, perch'io ancora non gli ho a mente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Se adunque o sono suoi versi o almeno contengono la sua opinione, quanti concetti formerem de la cosa che rassomiglia, tanti ne farem de la rassomigliata. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma il primo concetto sarà quello che noi formerem de la stella, un altro ne farem de la luce e 'l terzo del raggio: così ancora da l'altro lato il primo concetto sarà de la forma, il secondo de la sua virtù, il terzo de la nobiltà, la qual risulta da la virtù, come la virtù da la forma. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai bene mi pare che corrisponda l'uno ordine di cose a l'altro. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se i raggi non sono diversi da la luce, anzi, come vogliono alcuni e Aristotele istesso, quel lor tremolare procede solamente da l'imperfezione de la nostra veduta, la nobiltà parimente non è distinta da la virtù, ma noi la distinguiamo nel modo imperfetto del nostro intendere, perché la mente nostra in comperazione degli obietti eterni è come l'occhio umano per rispetto de le stelle e del sole. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo io più di tutti gli altri: perché più di ciascuno sono abbagliato a la luce de la verità. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Chiniam dunque gli occhi a l'acqua, dove potrem risguardar la sua imagine, e ristoriam la vista interiore ne' colori de le cose terrene. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così voglio che facciamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma senza molto affaticarla potrem considerare se la diffinizione è concorde o discorde a le parole d'Aristotele. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Consideriamle. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Aristotele dice ch'ella <add>è</add> virtù di schiatta, e altrove ch'ella è orrevolezza de' maggiori overo dignità: da le quai parole non si dee raccoglier una diffinizione ch'abbia due generi, ma sceglieremo il genere più nobile, ch'è la virtù, e porrem l'altro, ch'è l'orrevolezza, per differenza che ristringa e specifichi il nome generico di virtù, quasi egli volesse dire che la nobiltà sia virtù di schiatta onorata sin ne' maggiori. Laonde, s'in ciò è alcuno errore, è del Possevino, non del maestro: perch'egli congiunse quel ch'Aristotele aveva seperato, non essendo peraventura suo proponimento il diffinire; ma l'errore è solo ne la forma del parlar estrinseco, però degno di picciola considerazione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dunque così degno di scusa è 'l Possevino in questa parte, come ne l'altre è meritevol di laude. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma ricerchiam l'altre parole d'Aristotele, le quali sono ch'ella sia degnità de' maggiori. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così traducono alcuni, perché mi soviene d'aver lette diverse traduzioni. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Le parole latine nondimeno sono <emph><foreign lang="lat">virtus generis</foreign></emph>, che noi in favella toscana trasportiam in “virtù di schiatta, o di stirpe o di progenie o di prosapia”, la qual prende qualità dal luogo; onde'appresso i Greci e i Latini <emph><foreign lang="lat">genus</foreign></emph> si dice non solamente la ragunanza di molti che sian congregati insieme per qualche rispetto verso di sé, ma quello ancora ch'è principio de la generazione di ciascuno: e questo pare che sia il generante o 'l luogo, perché 'l luogo è principio e quasi cagione materiale de la generazione; onde in questa considerazione ci si rappresenta ancora la patria. Ma perché di lei potrem ragionare in luogo più convenevole, debbiamo or cercare se la nobiltà possa esser virtù e dignità in altra guisa che 'n quella la quale abbiam già detta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> In niuna altra mi par possibile. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E altrove egli dice ch'è ricchezza e virtù antica. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dice per certo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né ricchezza né virtù può esser, se l'una non fosse genere de la diffinizione e l'altra differenza: laonde, variando la forma del parlar, si potrebbe dire che la nobiltà fosse virtù de' ricchi, come è propriamente la liberalità e la magnificenza, le quali ne l'operare han bisogno di questo instrumento; ma d'altre sue parole potrem raccogliere qual fosse la sua opinione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Potrete voi di leggieri: e se ci sarà qualche difficoltà, nascerà da l'impedimento ch'io vi darò nel ragionare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Io n'aspetto aiuto più tosto; ma vogliam noi dividerla prima che la deffiniamo? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dividiamla. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E prendiam, se vi pare, la divisione de le parole d'Aristotele ne la <emph>Rettorica</emph>, le quali son queste, e voi dovete conoscerle: “La nobiltà e virtù de la gente e de la città è s'i suoi cittadini non hanno avuto origine altronde, e se i primi de' suoi saranno stati illustri, e se molti principi e imperatori saranno nati da lei; ma la privata nobiltà dipende da gli uomini e da le donne”. Da le quai parole io raccolgo che sian due specie di nobiltà, la privata e la publica: ma, altramente considerandola, si potrebbe far tra la privata e la regia alcuna differenza, de la quale egli non trattò ne la <emph>Rettorica</emph>; ma ne la <emph>Politica </emph> mostra di conoscerla, ov'egli dice che la stirpe reale è quella in cui son molti eccelentissimi per virtù. E la conobbe Platone similmente quando Socrate dimostrò ad Alcibiade quanta diversità fosse tra la sua nobiltà e quella de' re lacedemoni e de' re persiani, e quanto egli cedesse a gli uni e a gli altri in tutte le condizioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Niuno a me pare così amatore de le cose proprie che non possa di leggieri conoscere questa differenza, la quale molte fiate si dimostra con tanto splendore di porpora, d'oro e di gemme ch'abbaglia la vista de' risguardanti. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Maggiore è la luce de la virtù, la qual risplende ne la nobiltà de' re e de gli eroi; né tanto fu risguardevole Ciro per gli ornamenti del corpo quanto per lo valor de l'animo: tutte nondimeno le specie de la nobiltà in questo convengono, ch'elle son virtù; laonde questo porrem per suo genere e l'altre differenze andremo poi investigando, anzi più tosto così il genere come le differenze raccogliamo da le parole d'Aristotele medesimo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Mi sarà grato sommamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Queste dunque prima ci si parano inanzi, che nobile è quello che consiste ne la virtù de la famiglia; da le quali io raccolgo ch'ella non sia chiarezza, non orrevolezza, ma la virtù, o un non so che più congiunto a la virtù che non è la chiarezza medesima. Ma da quell'altre parole, che la privata nobiltà sia quando i primi autori de la schiatta sono stati chiari per virtù o per ricchezza o per alcuna cosa che sia in pregio, raccorremo che la nobiltà consista in tutte queste cose, e più in quella che prima è nominata. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così è ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque ne la virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma in quelle: “o per altra cosa che sia in pregio da gli uomini” intende forse gli onori e gli imperi, de' quali altrove fa menzione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Di questi intende, e non d'altri per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E <add>i</add> domini e gli imperi accrescono particolarmente la publica nobiltà, quantunque la privata ancora possa ricever da loro accrescimento; percioché privata nobiltà è quella di coloro che depongono l'imperio co 'l magistrato, come fu quella de' consoli e de' dittatori romani, e a' tempi nostri è quella de' gentiluomini di republica. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi par senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma lasciamo da parte la privata e prendiam la publica, la quale consiste, com'egli dice, ne l'origine che non derivi da altra parte, come erano gli Ateniesi in Grecia e gli Aborigini in Italia: o sono derivate da nobilissime nazioni, come i Romani già da' Troiani furono originati e ora gli Spagnuoli da' Goti, vincitori del mondo. Si considera parimente ne gli uomini se molti di quella gente siano stati famosi e possenti ne l'arti de la guerra e ne gli studî de la pace, e s'abbiano avuto imperio sovra gli altri, e se de' beni de la fortuna siano stati abondevoli. Ne la regione si considera il sito universale o 'l sito particolare, s'ella sia orientale o occidentale, e, molto più, s'ella sottogiaccia a settentrione o a mezzogiorno: perché la differenza del caldo e del freddo, dal qual procede la diversità de le complessioni e la varietà de' costumi, non è tanto perché sian vicini a l'oriente o a l'occidente, quanto perché la provincia sia australe o settentrionale. Nel sito particolar dapoi si considera a qual parte del mondo sia volta e a quai venti esposta: percioché in tutta la costa d'Africa che riguarda verso l'Europa suole essere il caldo più temperato, perch'ella riceve i venti di tramontana, e da l'altra parte la Provenza è felicissimo paese e la riviera di Genova e di Napoli sono il paradiso d'Italia, nel quale l'animo, stanco del filosofare o vero occupato da noiosi pensieri, può discacciar tutte le noie e ristorarsi in quello piacevolissimo aspetto del cielo e de la terra e del mare. Si considera parimente se la provincia o la città sia nel monte o nel piano, maritima o lunge dal mare, s'abbia l'opportunità d'alcuni fiumi navigabili o s'ella ne sia priva: percioché più nobil è riputata quella città la qual sia atta a crescere di ricchezze e d'abitatori e farsi grande e famosa, di quella la quale non ha da la natura aiuto per insignorirsi de l'altre. Similmente le città che sono nel piano sogliono aver contado che produce in maggior abondanza le cose necessarie al vitto e sono più atte a nutrire i cavalli e a continovar l'usanza del cavalcare e del carreggiare: onde paiono più accomodate a la abitazione de' nobili e a lo splendore de la vita cavaleresca, come Napoli, Ferrara, Milano. Ma quelle che hanno i porti crescono per la mercantia e possono di leggieri aspirare a l'imperio de le nazioni straniere come Vinegia, Napoli e Genova. Ma forse io sono stato troppo lungo nel mio ragionamento. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Se 'n niuna cosa è convenevole la lunghezza e la diligenza, è ne la cura de le cose publiche: però, ragionando de la publica nobiltà, non dovete temere d'essermi venuto a noia. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Or passiamo a le parole che dice Aristotele de la privata, le quali son queste: “La nobiltà è virtù del padre e de' maggiori, la qual rende chi la possiede inchinato a sprezzar gli altri e coloro ancora che sono negli istessi onori ne' quali furono i lor maggiori; percioché le cose più lontane che vicine son degne di gloria”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Queste ancora io riconosco. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E di queste vi dovete rammentare: “Nobile si dice quel che consiste ne la virtù de la famiglia, ma generoso quel che non degenera da la virtù de' suoi maggiori: quel che per lo più aviene a' nobili, molti de' quali son d'animo vile”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E di queste mi ricordo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E dovete ricordarvi di quel che segue tra le stirpi e i campi e di quel che dice de' figliuoli di Temistocle, di Pericle e de gli altri. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Me ne ricordo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Or, ponendo per genere de la diffinizione la virtù, andiam raccogliendo da le già dette parole l'altre differenze de la diffinizione. E prima da quelle, che molti nobili sian d'animo vile, raccorrem che la nobiltà non sia virtù morale secondo l'opinione ch'egli manifesta in questo luogo, perché la virtù morale non può stare con la bassezza d'animo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non può in modo alcuno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma con la cupidità del regnare può avere albergo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Molti portano opinione che non sia possibile, perché i tiranni son privi de le virtù morali più che gli altri uomini privati; tuttavolta la cupidità del tiranno non è di ricchezze, la quale è vilissima cupidità, là dove elle non sian necessarie a la conservazione degli stati, ma è cupidigia di comandare, la quale suole esser fondata sovra la grandezza de l'animo: laonde fu magnanimo chi prima disse questa sentenza, e più chi se l'appropriò: <quote rend="block"><foreign lang="lat">Nam si violandum est ius, regnandi causa violandum est; in aliis rebus pietatem colas.</foreign></quote> </p></sp>
+	<sp><speaker>A.B.</speaker><p> Magnanimo può stimarsi, perch'egli ciò disse sotto alcuna condizione: e distruggendo quella proposizione la qual si prende primieramente, detta assunto da' Latini, si distrugge la conseguenza. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dunque Cesare non violò la ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non per mio aviso quella ch'è ragion vera, quantunque violasse alcuna legge de' Romani, percioch'era omai ragionevole ch'egli comandasse a gli altri. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Comandò nondimeno a gli eguali. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Anzi a quelli a' quali per valore e per grandezza d'animo e per gloria di cose fatte era divenuto superiore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Se non a gli eguali, comandò almeno a quelli che non erano contenti d'ubedire. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Cotesto è vero: nondimeno egli non s'avea proposto per fine la ruina del romano imperio, ma la grandezza, come dimostrò la sua clementissima vittoria, ne la quale niun morì che volesse chieder perdono; e a Catone sarebbe stato conceduto, quantunque egli no 'l chiedesse. E doveva comandare con ragione, percioché Roma non era più capace di quella forma: ed egli v'introdusse la perfetta con la perfetta scienza ch'egli aveva del regnare, la qual sarebbe stata perfettissima, s'egli avesse avuto alcune considerazioni ch'ebbe dapoi Augusto. E sì come il medico seca e cuoce alcuna volta coloro i quali ricuserebbono il ferro e 'l fuoco, così egli poteva usare alcun rimedio violento senza ingiustizia. Non fu dunque tiranno, ma giusto principe; e fu nobilissimo, perché la sua vera nobiltà fu virtù d'animo o d'intelletto più tosto, se pur non vogliam risguardare l'imagine de la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Lasciam, se vi piace, l'idee da parte e consideriam ne la città la virtù civile e la civil nobiltà. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque diremo che la nobiltà de la città e de la gente sia virtù di schiatta come l'altra: perché ella si conosce in molte stirpi diversa da quella de l'altre, come la virtù de' corsieri del regno o de' ginetti di Spagna o di corsieri di Napoli o di Mantova è diversa da quella de' Frisoni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E per questa ragione è avenuto ch'ella sia detta gentilezza da' poeti e da' prosatori di questa lingua. Ma non ci dilunghiam tanto d'Aristotele, dal qual raccorrem l'altre differenze ch'a queste si possono aggiungere; e le parole son queste, de le quali abbiamo fatta altre volte menzione: “La nobiltà è ben de' maggiori, la qual rende i nobili sprezzatori di coloro che sono ne gli istessi onori ne' quali furono i lor maggiori”, con le quali egli conferma che la nobiltà sia antica; e con quell'altre: “percioché l'istesse cose più lontane che vicine sogliono recar gloria” ci dimostra ch'ella è tanto maggiore quanto è più antica. Dunque diremo che la nobiltà sia virtù di schiatta antica. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma questo nome “antico” giungerem noi a la schiatta o a la virtù; e direm che la nobiltà sia virtù antica di schiatta o virtù di schiatta antica? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non so ch'importi più ne l'uno che ne l'altro modo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Peraventura alcuna cosa importa: perché, se direm virtù antica di schiatta, mostrerem più chiaramente che 'l primo autore sia stato illustre per valore, il quale sia passato ne la stirpe quasi per eredità; ma se direm virtù di schiatta antica, potrà parer che la schiatta derivata da uomo illustre per ricchezza abbia co 'l tempo acquistata la virtù da qualche secondo o terzo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così possono le parole esser ordinate convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma quale altra differenza a questa aggiungeremo? forse ch'ella sia chiara e illustre? </p></sp>
+	<sp><speaker>A.F.</speaker><p> O l'una o l'altra. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E l'una si raccoglie da quelle parole: “s'i primi duci saranno stati illustri” e da queste: “e se da quella stirpe son nati molti illustri uomini e donne, giovani e vecchi”; e l'altra da queste: “quando i primi autori siano stati chiari per virtù, per ricchezze o per altra cosa che sia in pregio”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> L'una e l'altra si legge espressamente in Aristotele. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Direm dunque che la nobiltà sia virtù antica di schiatta illustre o di schiatta antica e chiara, o pur ci sarà lecito di prender una parola che per ambedue possa servire, tutto che d'Aristotele non fosse usata, specialmente se tra 'l chiaro e l'illustre fosse stata introdotta alcuna differenza, e altra fosse riputata la nobiltà illustre, altra la chiara. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare, quantunque non creda che questa differenza fosse da Aristotele considerata. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non fu veramente; ma 'l filosofo civile dee aver risguardo a quel che si conviene e a quel che s'usa in que' tempi ne' quali egli scrive e ragiona; e in questi non è usato il titolo d'illustre senza distinzione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ma non è soverchio il rispiarmo, e potrebbe usarsi più di rado. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma comunque sia, niuno può essere illustre che non sia conosciuto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non può. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né chiaro senza cognizione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> né chiaro. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque, parlando de la nobiltà umana universalmente, diremo ch'ella sia virtù antica di schiatta conosciuta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Diremo sicuramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la virtù si conosce ne le dignità; e negli onori principalmente: però si disse che 'l magistrato dimostrava l'uom valoroso. Sarà dunque virtù di schiatta antica e conosciuta ne le dignità e s'ella fie conosciuta ne le maggiori, è illustre; se ne le minori, è chiara: e potremo ancora ritrovar un altro nome convenevole a tutte le maniere di nobiltà, e sarà quel d'operazione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Convenevolissimo per mio giudizio; percioché la virtù degli uomini che sono in degnità, tanto è conosciuta quanto essi operano. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma le operazioni debbono esser molte o poche, continovate o non continovate? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Molte e continovate; perch'una rondine non fa primavera, né un dì sereno fa state. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se molte e continovate non fossino, non si potrebbe argomentar la nobiltà; perché, s'ella lungo tempo dimorasse oziosa, si temerebbe ch'ella fosse mancata. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ragionevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma le ricchezze de le quali fa menzione Aristotele non deono essere lasciate a dietro. </p></sp>
+	<sp><speaker>A.F.</speaker><p> In niun modo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E molto meno la possanza, la quale è diversa da la ricchezza: perché, s'ella fosse una cosa medesima, i costumi de' ricchi e de' possenti sarebbono gli istessi; nondimeno Aristotele pone fra lor differenza, dimostrando che sian molto migliori que' de' possenti. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ve la pone senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non era dunque ragionevole ch'Aristotele lasciasse a drietro la possanza de la nobiltà: ma forse, quando egli dice “o per ricchezza o per altra cosa che sia in qualche stima de gli uomini”, accenna la possanza ancora? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La mette in un fascio con l'altre cose senza nominarla: ed ella per natura è molto sdegnosa, né sopporta volentieri d'esser con l'altre accompagnata. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque doveva farne menzione seperata? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma a noi dovrà bastare, se con una parola la possanza insieme e la richezza potremo comprendere. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E qual sarà la parola? </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quella d'operazioni: perch'elle ricercano necessariamente gli instrumenti d'operare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questa sarà opportuna più d'altra. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma per fuggire ogni dubbio, si potranno aggiungere ne la definizione, così dicendo: “virtù antica di schiatta, conosciuta per molte e continovate operazioni con abbondanza di beni esteriori”; ma forse non si schiveranno tutti i dubbi, perché la difinizione peraventura potrà offendere a la nobiltà de la quale mancano i doni de la fortuna. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quantunque nel filosofare non si debba aver altro risguardo che quel de la verità, nondimeno i rispetti non sono soverchi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Diciamo cosa che tanto monta: “con abbondanza d'instrumenti opportuni per l'operare magnificamente”. Ma poi che la vostra diffinizione è molto conforme a la opinione d'Aristotele, da le cui parole l'abbiamo quasi raccolta, consideriam partitamente ciascuna cosa per dare a questo ragionamento perfezione; e imitando il pittore che ritorna a colorire e quelle parti che prima aveva designate, consideriam più minutamente le specie de la nobiltà, le quali sono distinte da la virtù, come pare a Ghismonda: percioché tutti tragghiamo le membra d'una medesima massa di carne. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Tutti senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> È l'anima ancora dotata de le medesime potenze? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Similmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se la distinzione non si prende dal corpo né da l'animo, donde si può ella prendere? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io non saprei che rispondere, se con le parole di Ghismonda non vi rispondessi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma peraventura la risposta non appaga, perché la virtù è ne l'animo; e se ne l'animo non è alcuna diversità ne le potenze, onde nasce la diversità de le virtù, o più tosto onde procede quella de la volontà, ch'è principio de gli abiti? Debbiam forse credere che, sì come la madre natura da una sola massa informe, ch'è detta materia prima, forma gli elementi e i misti e nostri corpi medesimi di varie qualità e di complession diversa, così Iddio, ch'è dator de l'anime, co' raggi d'un solo intelletto l'illustri tutte a guisa di sole che risplenda in diversi cristalli; o pur debbiam dire che più siano e diverse per numero, le quali siano infuse in queste membra terrene? E s'uno è l'intelletto agente, onde aviene ch'altramente illustri la mente di Platone, altramente quella d'Aristotele: laonde il primo stimò di portar dal cielo la notizia di tutte le cose, l'altro solo l'attitudine a l'imparare? O pur come l'intelletto possibile, s'egli non è l'anima nostra né parte di lei, ma una sostanza seperata, si congiunge a voi o in me per li fantasmi che sono in me e in voi, in guisa ch'intendendo l'intelletto possibile, intenda l'uomo? È questa continuazione secondo la prima generazione de l'uomo o pur secondo la sua operazione? S'in quel modo, perché l'uomo, subito ch'egli è nato, non intende tutte le cose? S'in questo, come è sua propria? E s'ella si fa in quella guisa che lo specchiato si continua a l'uomo, la cui imagine resulta ne lo specchio, è manifesto che questa continuazione non basta a la continuazione de l'intelletto; anzi, come l'azione de lo specchio, ch'è il rappresentar la forma, non si può attribuir a l'uomo, così l'azione de l'intelletto possibile per sì fatto congiungimento non è propria di questo uomo, o sia Platone o Socrate o Alcibiade: e, congiungendosi in questa guisa, non so intendere com'egli intenda. Ma se l'intelletto si congiunge a l'uomo come motore in quella guisa che 'l nocchiero si congiunge a la nave, come del movente e del mosso si fa una cosa medesima? Sta egli affisso al corpo, quasi al temone? E se 'l governo de la nave non intende, bench'intenda il suo governatore, come intende il corpo a l'intender del suo intelletto? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io di tutte queste opinioni sono in guisa dubbio che non saprei qual più mi dovessi lodare, o pur qual meglio potessi intendere. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Pur quella più ci dovrà piacere che sarà più conforme a la nostra fede: perché de la nobiltà debbiamo ragionare in modo che, se mai queste opinioni si divolgheranno, non offendano gli orecchi de' religiosi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La prudenza vostra s'agguaglia a la dottrina. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Presupporem dunque che l'anime le quali discendono ne' corpi sian diverse per numero. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Presuporremo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma non porrem di loro tante specie quante sono le stelle nel cielo; né ridurremo ciascuna a demoni, come fanno alcuni Platonici. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non sarebbe lecito. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Qual differenza dunque porrem fra loro, quelle che son prese da la singular proprietà di ciascuna specie e da l'inclinazione a' corpi, o pur l'altre, che nascono da la diversità de le membra e da la varia educazione, percioch'elle son molto più conformi a la nostra credenza? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Queste più tosto, le quali avete numerate ultimamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque niuna differenza è tra loro prima che discendano, ma divengono differenti dapoi ch'elle sono entrate in questo mondo, quasi in una barca, e, come dice Plotino, collocate in ordine certo ne la sede di fortuna, se pur questa ultima particella non vogliam lasciar come ripugnante a la nostra fede. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Lasciamla; perché niuna cosa sicuramente si commette a la fortuna, la quale in tutte le parti suole esser cagione di molto pericolo, ma in barca principalmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno i poeti assegnarono questa diversità de l'ordine ancor prima ch'elle si congiungano a' corpi: come devete aver letto ne' versi di Virgilio:
+
+<quote rend="block"><lg lang="lat">
+<l>Atque huic responsum paucis ita reddidit heros:</l>
+<l>Nulli certa domus, lucis habitamus opacis</l>
+<l>Riparumque toros et prata virentia rivis</l>
+<l>Incolimus.</l>
+</lg></quote></p>
+
+<p>E in quell'altri, dove Virgilio pone l'anime seperate:
+
+<quote rend="block"><lg lang="lat">
+<l>Interea videt Aeneas in valle reducta</l>
+<l>Seclusum nemus et virgulta sonantia silvis</l>
+<l>Lethaeumque domos a placidas qui praenatat amnem:</l>
+<l>Hunc circum innumerae gentes populique volabant.</l>
+</lg></quote></p>
+
+<p>E tutto quello che poi si legge del ritorno de gli animi a la pari stella è molto conforme a la opinione di Timeo, la qual fu poi dichiarata da Dante in que' versi:
+
+<quote rend="block"><lg>
+<l>E forse sua sentenza è d'altra guisa</l>
+<l>Che la voce non suona, ed esser puote</l>
+<l>Con intenzione di non esser derisa. </l>
+<l>S'ella intende tornare a queste rote</l>
+<l>L'onor de l'influenza e 'l biasmo, forse</l>
+<l>In alcun vero il su' arco percote. </l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p> Assai apertamente mi dimostrate che l'uno e l'altro poeta togliesse molte quasi gemme da' tesori di Platone. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutta volta quel ch'essi dicono de la distinzione de' luoghi par ch'accenni che l'anime siano distinte per alcuni termini estrinseci: la qual differenza non è bastevole appresso i Platonici, percioché le differenze si debbono assignare da l'intime proprietà, sì come essi stimano, né sono eguali da principio, ma l'una è miglior de l'altra; la qual opinione non è in tutto falsa, quantunque san Cipriano dica che l'<quote rend="block"><foreign lang="lat">animae sint eiusdem rationis</foreign></quote>, se vogliamo aver considerazione a' doni gratuiti, la distribuzione de' quali non è fatta in parti eguali. Oltre di ciò quel che dicono i Platonici de' vari ordini de gli animi può ricever buona interpretazione, percioché l'anime hanno diversi protettori; ma i Principati sono custodi di quelle de' principi, le quali avanzano senza dubbio tutte l'altre di nobiltà. Ma forse in questo ragionamento io trapasso quel che si ricerca ne la filosofia: laonde, s'alcuna cosa rimane, io la vi racconterò a guisa d'un sogno. E sogno fu veramente, o visione, quella notte passata: perché, avendone vegghiata gran parte in paragonare alcuni detti d'Alessandro, di Temistocle e di Simplicio e di Filopono e d'Averroè e degli altri i quali disputano de l'immortalità de l'anime nostre, mi pareva d'esser trasportato in un loco altissimo e pieno di chiarissimo splendore: e vedeva sotto i miei piedi non solamente generarsi le brine e le rugiade e i fulmini e le comete, ma girare il sole e la luna con le stelle che son chiamate erranti. E mentre io stava tutto sospeso e pieno di maraviglia, m'apparirono l'anime d'alcuni, i quali conobbi presenzialmente al mondo overo per nova fama, con quegli abiti ch'aveva già veduti ne l'imagini loro: ed eran questi il Zimara, il Nifo, il Porzio, il Genova, il Maggio, il Locatello e con esso loro il Trissino; e mi parve di raffigurar incontinente l'aspetto di coloro ch'io <add>ho</add> veduti in questa vita. Gli altri non riconobbi così tosto, ma più tardi per una debil memoria ch'io aveva de l'effigie ritratta, già da me veduta in Roma in compagnia del signor marchese d'Este; e da questi mi pareva esser condotto dove la purissima luce d'un divino giudice risplende in bellissimi specchi, che sono di grandissimo numero; e volendo io rimirare onde uscisse quello splendore infinito, mi pareva ch'egli si nascondesse in una lucidissima caligine. Laonde io taceva e non ardiva in quell'altissimo silenzio di chiedere alcuna cosa; ma il Pico mi diede ardire, e dimostrommi una simplicissima forma uniforme ma piena di tutte le forme, la qual risplende molto più fra gli altri intelletti che non fa il sole tra le stelle; e in lei vidi una grande anima, ch'era l'essempio di tutte l'anime, dicendo: “Se mai dubitasti de la predestinazione, rivolgi gli occhi a questa luce, che può scacciar tutte le tenebre”. Ma co 'l fine si ruppe co 'l sonno la mia visione: laonde io, subito desto, andai per visitare il padre Barbavara, e con esso lui ragionai di molte cose, in comperazione de le quali le ragionate da noi sarebbon quasi faville appresso ardentissime fiamme. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Mirabil visione è stata la vostra; e se 'l ragionamento fu più maraviglioso, debbe avanzar tutte le maraviglie. Ma piacciavi che ritorniamo al nostro, il qual potrà esser inteso da me più facilmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Seguitiam dunque di ragionare in quel modo che prima avevam cominciato; e ditemi se l'un fabro operi meglio de l'altro per l'eccelenza solo de l'arte, o pur alcuna volta perch'abbia migliori instrumenti. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per l'una e per l'altra cagione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E colui che fa le navi suol operar meglio non solo per l'abito interiore, ma per gli instrumenti esteriori? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quegli ancora. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E 'l muratore e ciascuno altro artefice parimente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Parimente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque, se l'intelletto è artefice, come dicono i Platonici e i Peripatetici, per ambedue queste cagioni deve meglio operar ne l'uno che ne l'altro. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Deve senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E oltre le intrinsiche perfezioni l'instrumento farà differenza ne l'operazioni de l'intelletto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma sapete voi qual sia l'instrumento de l'inteletto? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Il corpo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> De l'animo più tosto è instrumento il corpo, come pare a Iamblico, che de l'intelletto, come stimò alcuna volta Plotino: perché l'intelletto o non ha organo o non l'ha corporeo come il senso; ma l'organo de l'intelletto è la podestà, come vuole Alessandro Afrodiseo, o pur l'instrumento de la mente è la scienza, come disse Aristotele medesimo, il quale è dopo tutti quelli de la mano. Laonde ne la vecchiezza principalmente l'intelletto fa con questo instrumento le sue operazioni nobilissime oltre tutte l'altre ch'ella faccia ne la gioventù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Peraventura, se l'animo usa il corpo per instrumento, in quella medesima guisa egli usato è da l'intelletto ne l'intendere e nel contemplare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque l'intelletto o l'animo il quale avrà più nobil corpo opererà più agevolmente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma il corpo ne 'l nostro nascimento noi il riconosciamo dal padre e da la madre. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da loro. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quinci aviene che
+
+	<quote rend="block"><lg lang="lat">
+	<l>Fortes creantur fortibus et bonis; </l>
+<l>Est in iuvencis, est in equis patrum</l>
+<l>Virtus, neque imbellem feroces</l>
+<l>Progenerant aquilae columbam; </l>
+</lg></quote></p>
+
+<p>sì come da' buoni arbori nascono i buoni frutti e da le buone terre soglion germogliar le buone biade. E de la medesima opinione fu prima Omero, il quale disse che la virtù de' padri era instillata ne' figliuoli. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così veggiamo ordinariamente avenire. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutta volta Aristotele osservò che, se la stirpe è buona, nascono in lei per alcun tempo uomini egregi e poi a poco a poco cominciano degenerare, perché quegli d'ingegno vivace divengono di costumi pazzi, come coloro che trassero l'origine da Alcibiade e dal primo Dionigi; ma coloro che sono d'ingegno mansueto sogliono passar ne la stupidità e ne la dapocagine, come i discendenti da Pericle, da Cimone e da Socrate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Cotesto non è sempre vero, né di tutte le stirpi aviene, ma alcuna volta e d'alcune, com'egli dice. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né io dico che sempre e ch'in tutte avenga; ma, avenendo, se ne dee cercar la cagione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Se ne dee senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E potremmo facilmente addurla, ricorendo a la providenza, sì come fanno i tragici ne lo scioglimento de la favola: percioché
+
+	<quote rend="block"><lg>
+	<l>Faria sempre conforme il suo camino</l>
+<l>Natura generata al generante,</l>
+<l>Se non vincesse il proveder divino. </l>
+</lg></quote></p>
+
+<p>E altrove:
+
+	<quote rend="block"><lg>
+	<l>Rade volte risorge per li rami</l>
+<l>L'umana probitate; e questo vuole</l>
+<l>Quel che la dà perché da lui la chiami. </l>
+</lg></quote></p>
+
+<p>Ma lasciaremo che 'l padre Barbavara o pur il Righino e 'l Panigarola, uomini dottissimi ed eloquentissimi, discoraranno di questa cagione; e noi, se non vi dispiace, cercherem la naturale. </p></sp>
+	<sp><speaker>A.F.</speaker><p>Niuna altra cosa mi potrebbe più piacere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>È dunque ragionevole che per l'istessa cagione si faccia questa mutazione ne le stirpi, per la quale si fa ne le terre. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ragionevol molto. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ricerchiamla dunque ne le terre, perché più agevolmente la troverem dapoi negli ingegni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ne le terre io la conosco assai di leggieri, perché le paludi seccate nel paese di Ferrara furono causa de la fertilità; e in altra parte la innondazione d'alcun fiume ha potuto cagionare la sterilità. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dal vario temperamento dunque de la umidità e della siccità. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da questo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E potrebbe ancora in alcune altre parti per gli incendi naturali, come son quelli di Pozzuolo, mutarsi il temperamento del caldo e del freddo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Potrebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque per questa cagione ancora una stirpe, mutandosi la complession degli umori, può divenir malvagia e una malvagia buona. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Può. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la virtù d'una schiatta suol trapassar nel vizio che l'è più vicino e più simile. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ma nondimeno queste mutazioni de le schiatte non sogliono farsi alcuna volta se non dopo lungo corso d'anni; e in alcun'altre, non so per qual particolar grazia, niun segno di mutazione si vede: come in quella de' nostri e de' vostri antichissimi e clementissimi principi e in quella d'altri signori d'Italia. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E questo medesimo negli antichi tempi avenne in quelli che discesero d'Eaco e d'Ercole e di Teseo, e ancora ne' Fabi e negli Scipioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questo medesimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né perché ne la schiatta loro alcuno fosse nato men valoroso del padre, come si legge ch'era il figliuolo del maggiore Scipione, si poteva conchiudere che la virtù de la stirpe fosse mancata: perché nel seme è in potenza non sol la propia di ciascuno, ma quella de' suoi maggiori. Laonde, s'ella fosse sopita nel figliuolo o per difetto d'infermità o per altra cagione, si manifesta ne' suoi nepoti: e spesso aviene che s'assomigliano a gli avi, a' quali i padri non furono somiglianti, avegna ch'i moti i quali creano si sciolgano ne' vicini, ma più o meno alcuna volta in quelli del padre, altre in quelli de l'avo o de' maggiori. Si fa ancora passaggio ne le femine: imperoché il movimento di colei la qual concepisce si solve nel movimento de la madre o 'n quello de l'avola e ne l'istesso modo ne' superiori: laonde per la maggior parte, come insegna Aristotele, i maschi sono simiglianti a' padri e le femine a le madri, e 'l movimento si fa ne l'uno e ne l'altro. Ma s'oppone il maschio a la femina e 'l padre a la madre, e la partita si fa negli oppositi: ma si supera il moto del maschio, in quanto egli è maschio, ma non in quanto è Cornelio o Camillo, o supera questo e non quello, aviene ch'i maschi abbiano somiglianza con le madri e le femine co' padri; e se 'l moto del maschio è superato, la femina s'assomiglierà a la madre. né da l'opinione d'Aristotele è diversa quella d'Ippocrate, il qual disse che l'uomo e la donna hanno il seme di maschio e di femina e che nascano le femine quando quello ch'è più valente è superato dal più debole, ch'è in maggior quantità; ma ci nascono maschi ove il più valoroso superi l'altro in cui è maggiore debolezza. Ma debbiam richiamare a memoria che de' moti altri sono in atto, altri in potenzia, e quelli che sono superati passano ne l'opposito, ma quelli che si solvono passano nel vicino: e nel più vicino, si meno si dissolvono; se più son dissoluti, nel più lontano. Al fine in guisa si confondono ch'alcuno non ci nasce simile a' suoi maggiori, ma solo si lascia questo ch'è commune a tutti, cioè l'essere uomo; ma la cagione del degenerare è 'l difetto di quella facoltà la qual cuoce e muove, o l'abondanza del freddo in quello che si cuoce e si distingue. In questa guisa suol mancar la virtù de le stirpi; e sin ch'ella dura, dura la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così estimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se, mancando la virtù, si conservi la nobiltà, è più difficil questione; e peraventura, come dopo la partita del sole rimane alcuna luce ne l'aria per alcuno spazio di tempo, così lo splendor de la virtù de' maggiori illustra coloro da' quali ella ha fatto partita. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono illustri dunque per l'altrui luce. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Sono; ma la virtù de la quale parliamo non è moral virtù né d'intelletto, ma di stirpe. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Virtù di stirpe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tuttavolta la virtù de la stirpe è cagione peraventura ch'altri sia più inclinato a l'operare, altri al contemplare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così credo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E alcuno, essercitandosi sotto la buona educazione del padre e de' parenti virtuosi ne le buone operazioni, acquista gli abiti morali, altri studiando s'adorna di quelli de la mente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai spesso veggiamo ch'i figliuoli fanno la profession del padre. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E da la perfetta virtù, o di costumi o d'intelletto ch'ella sia, nasce più perfetta distinzion ne la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma quale virtù stimarem più nobile, quelle <add>che</add> sono ornamento de la mente, la qual contempla, o quelle che sono intente a la cultura de' costumi? </p></sp>
+	<sp><speaker>A.F.</speaker><p> A me paiono più nobili le morali, percioché la vita attiva mi pare ancor più nobile de la contemplativa; ma voi filosofi volete che sia l'altra, né ciò vi basta, ma, passando più oltre, v'attribuite la nobiltà, togliendola a' principi, a' re e agli imperatori, de' quali è propria: laonde questa mi par più tosto usurpazione che legitimo acquisto. </p></sp>
+	<sp><speaker>A.B.</speaker><p> S'ella è usurpazione, deve essere irragionevole: laonde assai mi maraviglio ch'alcun filosofo abbian preso tanto ardire senza ragione, essendo propria de' filosofi l'usarla. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non senza ragione se la prende il Possevino; ma forse con miglior ragione se gli potrebbe ritorre, percioché spesse fiate, sì come l'una legge è contraria a l'altra, così è l'una a l'altra ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Debbono parer più tosto contrarie, percioché ne le buone leggi e ne le buone ragioni non è contrarietà né opposizione. Ma recate le sue perché siano da noi considerate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dice il Possevino quello che da voi è stato spesso conceduto, che la nobiltà si conosce a l'operazione e che quella operazione è più nobile la qual più s'assomiglia a l'operazione d'Iddio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E questo ancora si concede. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Soggiunge che la propria operazion d'Iddio, e la più nobile e principale, è l'intender se stesso; e quinci argomenta che l'intender ne l'uomo è più nobile operazione, e men nobile <add>l'</add>azione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutto ciò che si fonda su la somiglianza d'Iddio è così ben fondato ch'empietà sarebbe il voler gittare a terra i fondamenti. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Stiano dunque saldi; perché, s'io avessi alcuna machina per atterrarli, non mene servirei: e, si vi piace, sia più nobile l'uomo contemplativo de l'attivo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Voi assai presto concedete la conchiusione: la qual se pur si risapesse, vi potrebbe nuocer non meno che facciano le bestemmie agli empi; ma resti qui sepolta perché non l'odano i principi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Il signor duca e 'l signor principe sono d'animo così grande, così temperato, che niuna opinione di filosofo sarebbe da loro ascoltata con disprezzo o con disdegno; e più tosto io temerei de l'ira di madama marchesa e de l'altre dame, a le quali non sogliono piacer gli uomini di robba lunga. Però, signor Agostino, insegnatemi alcuna ragione ch'io possa addurre, degna di filosofo e degna di quel Socrate che richiamò la filosofia dal cielo a le città. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Se dal cielo vogliam richiamarla, ricerchiam prima quel che nel cielo sia conveniente: e cominciamo dal re <add>del</add> cielo, perché non basta il recar nuove ragioni, se non riproviamo in qualche modo quelle de gli aversari de' principi, i quali sono quasi imagini de la sua maestà. E cominciando, io dico che 'l Possevino argomenta la nobiltà de l'operazione da la proprietà, dicendo che l'intendere è propria operazione d'Iddio. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quinci argomenta senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque, se l'intendere è la più nobile operazione de l'uomo, dee esser la sua propria. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così par che seguiti. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma non è sua propia, dunque non è più nobile; ma più nobile sarà quella ch'è sua propria, la quale è l'azione. Ma peraventura l'uomo non è più nobile facendo la sua propria operazione, ma lasciandola e assomigliandosi a Dio con l'operazione ch'è propria de l'intelligenze e di lui che le creò. Dunque non da la proprietà, ma da l'eccelenza de l'operazioni egli deveva argomentar la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Doveva. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma argomentando più tosto da l'eccelenza che da la proprietà, non avrebbe provato che la nobiltà di schiatta, detta da' Greci <emph>eughèneia</emph>, fosse maggiore ne l'uomo contemplativo, ma un'altra nobiltà, che supera l'umana, de la qual ora non parliamo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Laonde la sua prova non avrebbe offesi que' principi che son gloriosi per nobiltà di progenie. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non per mio aviso. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutta volta, perch'egli con le similitudine de le cose divine ha voluta provare la sua intenzione, con queste medesime ci sforzerem di provar la nostra: diciamo adunque che, sì come è congiunta nel cielo la sapienza a la potenza, così dee esser nel mondo. Ma quelli che filosofarono, favoleggiando, aggiunsero Prometeo a Giove: e in quel modo istesso negli esserciti Nestore s'accompagna con Agamennone, e ne le vostre corti il filosofo al principe dee esser congiunto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai buona mi pare la similitudine. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutta volta quale è la più nobil persona, quella di Giove o quella di Prometeo? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quella di Giove. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque è più nobile la potenza, la quale è figurata per Giove, che la sapienza, ch'è significata per Prometeo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se la potenza di Giove si manifesta particolarmente ne la sua benificenza, quinci aviene che gli antichi drizzarono molti tempi e molti altari a Giove: e in ogni età e in ogni religione ne sono stati consecrati a Dio salvatore, ma a Dio contemplatore niuno. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Niuno veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se da l'onore s'argomenta la nobiltà, niuno maggiore n'è fatto ad Iddio di quel che gli s'attribuisce per la sua operazione, ch'è quella di giovare a gli uomini, per la quale i mortali furono chiamati dei e onorati con divini onori. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così avvenne. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma consideriam l'istesso ne l'intelligenze, de le quali senza fallo Saturno è quella a cui principalmente s'attribuisce la speculazione. Tutta volta troppo ardito filosofo sarebbe colui, o fosse Plotino o altro sì fatto, il qual volesse preporlo di nobiltà al sole, che distingue l'ore e illustra il mondo ed è padre de la generazione e de la coruzione e de la morte e de la vita ed è il maggior ministro ch'abbia la natura, o, come dice Dion Crisostomo, è dio bellisimo e illustrissimo oltre tutti gli altri; o più tosto è tale fra le cose sensibili quale è il sommo Iddio fra l'intelligibili; laonde per tutte queste ragioni si può stimare più nobile di Saturno, che che se ne dica Plotino o altro platonico filosofante. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così estimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma altri forse, sollevandosi da la mistica teologia de' gentili e lasciando a drietro tutte le favole, direbbe che ne la Trinità, dove tutte le persone sono eguali, s'attribuisce nondimeno la prima al padre, il quale è la somma potenza, e la seconda al figliuolo, ch'è la somma sapienza. Ma questo sarebbe un trapassare i termini del nostro ragionamento: però, se vi piace, restiamo fra quelli che ne prescrive la nostra filosofia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Voi potete stringerli e allargarli a vostro senno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Come filosofo dunque non mi vergogno di sostenere che l'azione è più propria de l'uomo che non è la contemplazione: e, come più giovevole, è degna ne la città di maggiore onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Già fra la contemplazione e l'azione mi pare che sia convenevolmente giudicato. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno per confermare questa nostra opinione debbiamo ricercare che cosa sia l'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> L'onore, se ben mi ramento, in tre modi è stato diffinito da Aristotele: premio di virtù ne' libri de' <emph>Costumi</emph>, ne la <emph>Republica</emph> segno d'opinione benefattiva, e ultimamente premio de la virtù e de la benificenza; ne la quale diffinizione congiunge l'altre due. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E da tutte queste diffinizioni raccorrem che l'onore più si convenga a l'uomo attivo ch'a lo speculativo, e prima da la prima: percioché 'l nome di virtù, quantunque convenga agli abiti intellettivi e a' morali, nondimeno è proprio de' morali. </p></sp>
+	<sp><speaker>A.F.</speaker><p> In questo uso pare usato più comunemente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Poi da la seconda più chiaramente, ch'Aristotele trasse da Senefonte, il quale dice che 'l tiranno è onorato per la potestà ch'egli ha di fare altrui benificio, per la quale conseguisce l'onore, dolcissimo oltre tutte le cose; e usa questo nome come egli s'usava ne' primi tempi, ne' quali non era divenuto ancora odioso, ma tanto valeva quanto quel di re: anzi, come dice s. Agostino, si dava a gli uomini forti come suo propio. Poi da la terza ciò si raccoglie non men chiaramente, ne la quale congiunge la virtù e la benificenza: quasi non ogni benificenza sia virtù, come pare al Possevino, ma ci sia alcuna benificenza diversa da la perfetta virtù, per la quale i tiranni ancora e gli uomini possenti sogliono essere onorati, quantunque non siano a fatto buoni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da tutte queste diffinizioni mi pare che si raccolga assai espressamente quel che voi dite. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma vorrem privar l'uomo contemplativo de l'onore o concedergliele minor parte ch'a l'attivo, o darli cosa maggiore che non è l'onore istesso, come è la gloria? </p></sp>
+	<sp><speaker>A.F.</speaker><p> né privar se ne dee, né de la minor parte sarebbe peraventura contento. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Anzi contentissimo, come quello che non si cura molto de le cose esteriori, ma s'appaga di se stesso e de le sue contemplazioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Adunque concediamgliene minor parte. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma peraventura due sono le specie d'onore: l'una tutta popolare, la qual consiste ne' segni esteriori, la quale si concede non solo a' benefici, ma a la speranza de' benifici: e di questa prende sempre maggior parte l'uomo attivo, perché, quantunque il contemplativo possa far molto giovamento a gli uomini, non ha tante occasioni di giovare altrui; de l'altro, che si concede a l'eccelente virtù, egli n'ha parte eguale, benché non la ricerchi, peroché è sempre conceduto a l'eccelenza, quantunque egli non operasse. Laonde que' filosofi i quali toglievano a Dio il governo del mondo non ardivano però di torgli l'onore ch'a la sua divina natura pareva conveniente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare assai convenevole, benché sarebbe stato più ragionevole ch'alcuno giamai non avesse filosofato in quella guisa: e questa senza fallo è la cagione per la quale ne le città sono più onorati i poeti e i pittori, gli scultori di molti altri artifici, i quali sono più giovevoli a la cittadinanza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Due maniere d'onore sin qui abbiam ritrovate: l'una che si dà ad eccelenza, l'altra a la beneficenza; e quantunque l'eccedenza soglia il più delle volte esser benefica e la benificenza eccelente, nondimeno, s'alcuna volta la eccelenza non giovasse o la beneficenza fosse in persona non eccelente, non se gli dovrebbe negar l'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Saprò dunque per l'avenire chi debbo onorare: e onorerò voi particolarmente, che me l'avete insegnato. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma c'è, se non m'inganno, una terza maniera d'onore, la quale non fa mestieri ch'io v'insegni, percioché l'apparaste giovinetto e ora non ve ne ricordate: anzi più tosto è in voi così naturale come sono gli altri vostri gentili desideri. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E quale è questa? </p></sp>
+	<sp><speaker>A.B.</speaker><p> L'onore che si fa a la bellezza, il quale in que' luoghi principalmente sogliam conoscere, ne' quali molte donne son ragunate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Bella maniera d'onore è questa veramente, con la quale la bellezza medesima è onorata: e se le lodi e l'onore fosser la medesima cosa, dire' che l'orazione la qual compose Isocrate in lode d'Elena, e i bellissimi versi de 'l Petrarca ne' quali è celebrata la bellezza di Laura fossero di questa maniera. </p></sp>
+	<sp><speaker>A.B.</speaker><p> L'onore e la lode sono distinti, come già da altri è stato detto, percioché l'onore è de l'operazioni e la laude degli abiti. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io avrei creduto che la laude fosse il medesimo che la gloria: percioché Elena e Laura furono gloriose per le grandissime laudi ricevute da' poeti e da gli oratori. </p></sp>
+	<sp><speaker>A.B.</speaker><p> La laude si distingue da la gloria come la cagion da l'effetto: perché molte fiate la gloria è effetto de la laude. Oltra di ciò la laude può esser ristretta tra piccioli confini di tempo e di luogo e non manifestarsi né divolgarsi, ove la gloria vaga e si distende e non è quasi da termine circonscritta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sovviemmi molte fiate aver udito che l'onore è il maggiore de' beni esterni; ma paragonandolo a le ricchezze, a la possanza od altro, s'altro è fuor di noi, non veggo come non debba di gran lunga essere anteposto. Ma dubito se l'onor sia maggior bene de la gloria. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quando Aristotele disse che l'onore era il maggior de' beni esterni, no 'l distinse peraventura da la gloria: perché, come la luce s'assomiglia a lo splendore, così pare che l'onore e la gloria siano assomiglianti e, quasi fratelli nati ad un parto, difficilmente l'uno da l'altro è conosciuto. Ma io vi dimostrerò la differenza loro negli essempi: percioché l'onor de la rotta d'Asdruballe fu di Livio Salinatore, percioch'egli trionfò, e Claudio Nerone, suo compagno nel consolato, seguì il trionfo; ma la gloria principalmente o solo fu di Claudio, perché tutti gli occhi erano rivolti in lui solamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A questo essempio a me pare senza alcun dubbio maggior la gloria: perch'io avrei voluto più tosto, come Nerone, trionfar nel cuore e ne l'opinione de gli uomini che nel Campidoglio, come fece Livio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non vi dilungate da l'opinione di Cicerone, percioch'egli vuole che la perfetta gloria di tre cose sia composta: se ci ama la moltitudine, s'in noi ha fede, e se con alcuna maraviglia ci stima degni d'onore; ne le quali parole egli aggiunge la maraviglia a l'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non è picciola giunta la maraviglia: perché, s'io n'udi' il vero, ella è di quelli effetti le cagioni de' quali sono occulte, o de quelli che, se ben procedono da manifeste cagioni, sono nondimeno grandi in guisa che superano l'intelletto; laonde le piramidi d'Egitto e la statua del Sole in Rodi e 'l sepolcro di Mausolo e l'altre fabriche somiglianti, tuttoché si sapesse ch'erano stati fatti da gli architetti e da' muratori co' danari e con la spesa di persone potentissime, nondimeno per la grandezza, ch'eccedeva l'usanza de l'altre fabriche, furono chiamati miracoli del mondo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Oltre queste condizioni c'ha la gloria sovra l'onore, n'ha de l'altre che la rendono più eccelente: perch'io direi che la gloria è perpetua, e l'onore molte fiate ha fine con quel segno co 'l quale egli è dimostrato. Laonde io direi che la gloria fosse opinione perpetua e universale de l'altrui valore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai convenevolmente mi par diffinita. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E da questa diffinizione possiam raccorre che l'onore può esser ristretto dentro a' confini di picciolo tempo e di picciol luogo, ove la gloria conviene che si distenda per molti paesi e che sia lungamente durata o che possa lungamente durare: laonde onorato sarà il consigliero o 'l mastro di casa del principe con tutte le dimostrazioni d'onore, de la virtù del quale peraventura non ha contezza alcuna né l'Inglese né 'l Polacco: e l'onore potrà fornire facilmente con la vita, ma la gloria passa a' futuri secoli. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Gran differenza è questa veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Oltre queste ve ne sono peraventura alcune altre: perché l'onore risguarda più la possanza di benificare, e la gloria più l'eccelenza: onde coloro che sono eccelenti in cosa che non sia molto giovevole, hanno maggior parte de la gloria, e maggior parte de l'onore quelli altri che possono far molto giovamento; ma i capitani di guerra e i buoni principi e valorosi cittadini ne le buone republiche sono egualmente gloriosi e onorati. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A l'opere eccelenti che non danno utilità non manca la condizion del maraviglioso, ch'è ricercata ne la gloria. Nondimeno mi pare ch'in lei si desiderino l'altre due: perch'uno artefice può esser degno di maraviglia per l'opere sue, al qual non si porti amore né si presti credenza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Marco Tullio ragionava in quel luogo non d'ogni gloria, ma de la somma e perfetta, la quale è quella de' re e de' principi ne le città libere, ne la qual son necessarie la benevolenza e la fede de la moltitudine; ma queste possono essere e non essere in quella ch'Aristotele chiamò buona stima; percioch'egli dice che la buona stima è l'esser giudicato virtuoso da ciascuno e avere alcuna cosa tale che sia desiderata da tutti, o da' più e de' buoni e de' prudenti: con le quali parole ristringe quel desiderio e quella benivolenza universale che par necessaria ne la gloria; e quinci aviene che M. Tullio non estimò che fossero l'istessa cosa. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Peraventura la buona stima è contenuta ne la gloria come il più nel meno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma dove lasciam la fama, de la quale è ragionevole che si ragioni dopo l'onore e la lode e la gloria e la buona stima? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dee andare in così buona compagnia. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno ella non è sempre buona né sempre vera come la gloria, ma fallace e rea alcuna volta. Laonde non fu annoverata fra' beni ma fra' mali da quel poeta che disse:
+
+<quote rend="block"><lg lang="lat">
+<l>Fama, malum quo non aliud velocius ullum, </l>
+<l>Mobilitate viget viresque acquirit eundo; </l>
+</lg></quote></p>
+
+<p>e poi soggiunge:
+
+<quote rend="block"><lg lang="lat">
+<l>Tam ficti pravique tenax quam nuntia veri. </l>
+</lg></quote></p>
+
+<p>Laonde, se la fama è sì fatta, perch'ella meglio da la gloria si conoscesse, aggiungerei a la diffinizione de la gloria una parola, dicendo ch'ella è vera e universale e durabile opinione del valore altrui e de l'altrui bontà; ma la fama è così vera come falsa, così buona come malvagia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo: perch'io l'ho trovata or con l'ali purpuree, or con le nere, or circondata da timori, or da speranze; né però biasimo i poeti, perché mi diletto ne la varietà. </p></sp>
+	<sp><speaker>A.B.</speaker><p> La varietà de' poeti è troppo costante, e la negligenza troppo accurata; laonde Virgilio, volendo dimostrarci ch'ella non era sempre mala, disse in un altro luogo:
+
+<quote rend="block"><lg lang="lat">
+<l>Stat sua cuique dies; breve et irreparabile tempus</l>
+<l>Omnibus est vitae; sed famam extendere factis, </l>
+<l>Hoc virtutis opus. </l>
+</lg></quote></p>
+
+<p>Perché, se la fama è operazion de la virtù, è buona: dunque, dimostrandola qui buona e altrove rea, dimostra ch'ella sia or d'una, or d'altra natura, e s'accomoda al proposito del quale ei ragiona; perché rea la chiama quando ella è cagion di morte, buona quando è causa d'immortalità. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ragionevolmente e con molto artificio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma peraventura si potrebbe provare ch'ogni fama, qualunque ella sia, è miglior del suo opposito, cioè del non esser conosciuto: percioché non solo desidera la fama Pier da le Vigne, che, perseguitato da l'invidia, morì
+
+	<quote rend="block"><lg>
+	<l>per disdegnoso gusto, </l>
+<l>Credendo co 'l morir fuggir disdegno, </l>
+</lg></quote></p>
+
+<p>e Brunetto Latini letterato e gli altri simili che nel mondo furono di grande estimazione, ma Ciacco parasito ancora, del quale non si poteva spargere altra fama che di goloso e di bevitore e di cinciglione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Certo di molta stima è l'autorità; ma quando l'autorità son contrarie, supererebbe senza fallo quella di Virgilio, se l'una fosse opposta a l'altra a per diritto. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ricerchiam dunque la ragione. La fama è quasi un'ombra de l'essere: onde, perché ciascun desidera l'essere, qualunque egli sia, perciò non è sconvenevole che desideri la fama; e s'il desiderio de l'essere è ne' dannati, è in loro quasi per conseguente questo altro: e questa sarà la prima ragione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai buona per mio aviso, s'io posso darne giudicio in modo alcuno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma ce n'è un'altra, ch'essendo l'essenza de' dannati imperfettissima, come quella ch'è spogliata di tutti i doni de la grazia e ha consummati tutti quelli de la natura, non può esser capevole di bene se non imperfettissimo: laonde desidera la fama che può facilmente conseguire, percioch'essendo ombra de l'essere, è per conseguenza ombra di bene. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La seconda ragione conferma la prima. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma poi che de la gloria e de la fama e de l'onore e de la laude s'è ragionato a bastanza, debbiamo considerar se possono in qualche modo distinguere la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La considerazione sarà bella e degna di voi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Diremo dunque ch'ogni nobiltà sia orrevole: percioché l'onore è una di quelle differenze che pone Aristotele ne la diffinizione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Securamente potremo ciò affermare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E parimente ogni nobiltà è laudevole. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Tutte, se non m'inganno, son degne di lode. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma non tutte son degne di gloria o di gloriosa laude, come estimò Licofrone sofista, il quale non pone alcuna essenzial differenza tra i nobili e gli ignobili, quasi non la faccia la virtù. Ma per mio aviso gloriosa nobiltà solamente è quella de gli eroi e de' principi e de gli uomini eccelentissimi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né tutte saranno famose, quantunque tutte siano onorate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non per mio parere, perché son molti nobili la fama de' quali è contenuta ne la città. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se le donne private son nobili ma non famose, si ritrova qualche sorte di nobiltà senza fama. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque altra nobiltà è la gloriosa, altra la famosa, altra l'onorata. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma noi abbiam diviso la nobiltà per differenze estrinsiche e accidentali, e possiam di nuovo più sottilmente dividerla per intrinsiche differenze. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Con maggior mia utilità sarà divisa senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dividiamla dunque con quelle che son prese da la virtù, e ditemi: stimate voi che sia diversa la virtù del signore da quella del servo? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E diversa ancora la virtù di coloro i quali comandano da quella di coloro ch'ubbediscono? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Diversa similmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quale è più nobile? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza dubbio quella del signore e degli altri che sono usi a comandare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma vi sono alcune virtù che comandano alternamente e ubbediscono. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questa distinzione non mi par tanto propria de le virtù quanto degli uomini, perché veggono in loro che danno le commissioni e l'esseguiscono vicendevolmente; ma no 'l veggio né 'l conosco ne le virtù de l'animo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Le città esteriori sono fatte a similitudine de le potenze interiori. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Di questo altre fiate udii favellare, e mi par molto ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque non è senza ragione che l'ufficio di commandare e d'ubbedire sia prima fra le virtù che tra gli uomini. Laonde Teage, uno de' filosofi de la Grecia, alcune d'esse chiamò principi, come la prudenza, altre inferiori e seguaci, come la fortezza, altre composte, come la giustizia, a la quale non più s'appartiene l'ubbedire che 'l commandare; e la temperanza e la fortezza ubbedisce in tutte l'occasioni, anzi, s'ella usurpasse l'imperio a la prudenza, non sarebbe fortezza ma temerità, come fu peraventura quella di Minuzio, il qual volle contendere con Fabio. </p></sp>
+	<sp><speaker>A.F.</speaker><p> In questa guisa assai convenevolmente son disposti gli uffici ne l'animo: e ora io conosco quel che non conosceva da prima. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la prudenza del re dee esser quella che conviene al re, e quella del buon soggetto dee convenire al buon soggetto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Similmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Altra dunque sarà la prudenza publica, la quale è a guisa d'architetto e, come dice Aristotele, ha cura de le leggi, altra la civile o privata, che si dimostra ne l'essecuzioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi par ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Abbiam dunque tre specie di nobiltà: la nobiltà de gli uomini contemplativi e quella de gli attivi, la quale si distingue in quella di principe e di soggetto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non potrebbe meglio seperarsi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma chiamarem principe colui solamente il quale comanda a chi vuole ubbedire, o pur ancora alcun comandamento di principe è fatto a' disobedienti? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Il comandare a coloro che non vogliono ubbedire fu da molti giudicato operazion di tiranno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno noi abbiam già detto, seguendo l'opinion di Platone, che le città debbono esser formate a simiglianza de la giustizia ch'è ne l'animo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E ne l'animo la prudenza costringe gli affetti che malvolentieri ubbediscono e ritien l'ira, se le nega ubedienza, e pon freno a l'amore; che s'ella non fosse, ci trasporterebbe fuor del diritto camino. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non si può negare che queste non siano operazioni de la prudenza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque il re e 'l buon principe può costringere chi ricusa d'ubbedire, né per questa differenza sarà distinto dal tiranno, come parve ad alcuni, ma per altra. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per altra. </p></sp>
+	<sp><speaker>A.B.</speaker><p> O per altre più tosto: perch'il principe sa comandare e comanda a chi ragionevolmente dee ubbedire, quantunque egli non volesse. Abbiam dunque ritrovata qual sia propriamente la nobiltà reale o di principe: laonde ella è senza dubbio ne la casa de' principi nostri e de' vostri, perché v'è podestà assoluta o quasi assoluta e simile a quella de' re, la quale non è nuova in alcuni di questi altissimi e gentilissimi legnaggi, ma tanto antica che la nobiltà di molte vechissime famiglie potrebbe parer nuova in questa comperazione; laonde i lor vasalli debbono volentieri ubbedire, perché si ricordano d'avere sempre ubbedito e hanno letto ch'ubedirono i maggiori per molte centinaia d'anni. Talché niuno altro segno di nobiltà maggiore posson dimostrare che la servitù co' vostri principi e l'ubbedienza e la fedeltà dimostrata, per la quale sono stati degni di tutti que' gradi e di tutti que' titoli ch'a nobilissimi cavalieri son convenienti; e vivono con splendore e con ornamento eguale a quello de' baroni de' grandissimi regni. Ma queste condizioni non si trovavano ne' soggetti de' tiranni allora che Italia n'era piena; né ora si trovano in quelli de molti principi i quali comandono legitimamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così è veramente; e oltre quelle famiglie le quali anticamente sono ferraresi e de lo stato, molte n'hanno ricevute de' principi e de' signori forestieri, che per diversi avenimenti de la fortuna sono divenuti suoi vasalli, come i Pii, i Bentivogli, i Varani, i Malatesti e i Manfredi e gli Strozzi. Molti nobilissimi baroni ancora, ch'anticamente in quegli stati medesimi prendevano l'investiture da l'imperatore, ora la prendono dal duca: e fra questi sono i Rangoni, i Montecuccoli, i Fogliani, a' quali tutti il duca, come prudentissimo principe, comparte gli onori e le grazie; e ciascun di loro, non che tutti insieme, son tali ch'adornerebbono un regno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Già io portava questa opinione: e ora mi piace che da voi mi sia confermata; ma perché l'azioni de la virtù possono esser molte oltre quelle de la prudenza, a la quale abbiamo attribuito il principato, qual porrem nel secondo luogo e qual nel terzo? </p></sp>
+	<sp><speaker>A.F.</speaker><p> I' vo pensando se mi soviene che rispondere; ma ecco Dante par che me l'insegni:
+
+<quote rend="block"><lg>
+<l>Vostra gente onorata non si sfregia</l>
+<l>Del pregio de la borsa e de la spada. </l>
+</lg></quote></p>
+
+<p>Percioché 'l pregio de la borsa e de la spada stimo che sia la nobiltà, la qual forse si manifesta ne l'operazioni de la borsa e de la spada. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E, se ben mi soviene, egli parla de la casa Malespina; e questo medesimo altrove conferma dicendo:
+
+<quote rend="block"><lg>
+<l>Di che valore e cortesia dimora. </l>
+</lg></quote></p>
+
+<p>Ma, se ben mi sovviene, l'opinione derivò da Aristotele, il qual par che conceda il primo luogo a la fortezza e a la liberalità. </p></sp>
+	<sp><speaker>A.B.</speaker><p> In ciò l'uno e l'altro si dipartì da Platone o parve che sene dipartisse: percioché il principe degli Academici attribuisce il principato a la prudenza e dopo lei ripone la giustizia, e nel terzo grado mette la temperanza, nel quarto la fortezza. Nondimeno l'uno ha maggior risguardo a la dignità di ciascuna, l'altro a gli effetti, i quali sogliono essere stimati da le città perché paiono più giovevoli: dico paiono, imperoch'ove non fosse la giustizia, non rimarebbe luogo a la liberalità e a la fortezza e a la temperanza. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La giustizia qualche volta è odiosa a molti, e la temperanza pare odiosetta anzi che no, e la nemica sua fu amata almeno negli eroi, io dico in Ercole, in Achille, in Alessandro, i quali si lasciarono vincere bene spesso da l'amore e da l'ira e dal vino; laonde io non so che mi dica de gli eroi: perché, se risguardo le cose fatte da loro, mi paiono maggiori degli altri uomini, ma ne le passioni gli stimo simili, se non peggiori. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Come l'onde de l'oceano sono maggiori di quelle del Meditarraneo, così la tempesta de le passioni negli eroi supera gli affetti umani di gran lunga. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da questa grandissima agitazione non so che si possa argomentare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma chi giudicate voi miglior nocchiero, quel che ne le maggiori fortune sa regger la nave o quel che ne le minori? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quel che ne le maggiori senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la prudenza che può regger l'animo degli eroi ne' grandissimi affetti è maggior di quella ch'è moderatrice de' piccioli movimenti. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Cotesto può esser vero; tutta volta io non veggo che gli eroi de' quali abbiam fatta menzione potesser regger l'animo o la vita a lor voglia. </p></sp>
+	<sp><speaker>A.B.</speaker><p> La potè Enea sì fattamente nel partirsi da Didone ch'egli ne fu quasi reputato crudele, come appare in que' versi:
+
+<quote rend="block"><lg lang="lat">
+<l>Mens immota manet, lacrimae volvuntur inanes; </l>
+</lg></quote></p>
+
+<p>ma negli altri poteva ritrovarsi una disposizione a la virtù eroica come a tutte l'altre virtù; e se questa disposizione a la virtù eroica si concede, così riporremo in lei la nobiltà eroica come la nobiltà non eroica ne l'altre virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> La conoscerem dunque da l'operazioni grandi, le quali avanzano l'azioni de gli altri uomini, e particolarmente da quelle le quali sono celebrate da gli antichi poeti in Ercole, in Achille, in Teseo, in Iasone: e a' nostri tempi sono stati simili ne la fortezza del corpo e de l'animo a que' primi eroi Luigi e Carlo Gonzaga; e si può con lor numerare il signor Fracasso Sanseverino e 'l signor Francesco Villa, il quale a la presenza del duca Ercole lottò con Rodomonte, e 'l signor Corneglio Bentivoglio e 'l duca di Ferrara, del qual disse il Veniero:
+
+<quote rend="block"><lg>
+<l>Moderno essempio degli antichi eroi.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p> La fama di questi cavalieri nobilissimi non altramente dovrà passare a' secoli futuri che quella de' più famosi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ercole nondimeno ubbedì ad Euristeo: laonde pare che la virtù eroica e la virtù regia non sia la medesima. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La virtù regia, se bene io mi ricordo de le cose dette, è quella con la quale si comanda: e per questa ragione non par che sia l'istessa. Ma Euristeo non era degno di comandare, né Ercole d'ubbedire. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma che diremo d'Achille? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ch'egli fosse eroe senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma era re, non solo eroe: e come re doveva saper comandare a' Mirmidoni. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Doveva senza dubbio alcuno, s'egli era buon re. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Era dunque in Achille la virtù regia, la quale era la sua prudenza; ma non era peraventura la prudenza eroica, perch'egli ad Agammenone non avrebbe dovuto ubbedire. Nondimeno da Pallade fu consegliato ch'egli cedesse, e da Nestore ripreso ch'egli contendesse. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non per mio giudizio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la fortezza d'Achille fu eroica, come si dimostrò quando egli solo pose in fuga Ettorre e spaventò il campo de' Troiani. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Fu senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque Achille aveva la fortezza eroica, ma non la prudenza: era dunque e non era eroe; come stanno queste cose che paiono contrarie? Ma peraventura non sono, perch'in Achille non era la virtù eroica perfettamente: perch'egli avrebbe avuto insieme la prudenza e la fortezza in somma perfezione; o, s'ella v'era, la virtù eroica consiste principalmente ne la fortezza e ne la magnanimità. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Abbiam dunque raccolto in questo ragionamento che si ritrovi una disposizione a la virtù eroica sì come a l'altre. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la nobiltà eroica diremo che sia questa virtù di cui s'è ragionato. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se la virtù eroica accresce la virtù reale, la nobiltà eroica per consequente accresce quella de' re, la qual si conosce particolarmente a' benifici fatti da' principi a le città e a' paesi e a' popoli e a le nazioni: perché tanto ciascuno più s'assomiglia a Dio ne l'operazioni, quanto egli più giova altrui. </p></sp>
+	<sp><speaker>A.F.</speaker><p> In niuno altro modo meglio si può manifestare che negli effetti giovevoli. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Laonde la stirpe de' vostri antichissimi principi dee esser numerata fra l'eroiche e posta in comparazione con quelle del tempo antico per le cagioni ch'abbiam già dette, per le quali Ferrara è una de le più nobili città d'Italia, e ornata di tante nobili stirpi e ricca di tanti ornamenti e forte altrettanto per l'arte quanto per la natura: e 'l suo paese, ch'era prima tutto palude, ora è colto e fecondo e pieno di belle abitazioni, e nutrisce con grande abondanza animali fieri e mansueti d'ogni maniera; e in molte parti si veggono grandissimi palagî fatti con spesa reale e con antica magnificenza da' principi d'Este. </p></sp>
+	<sp><speaker>A.F.</speaker><p> La grandezza e benificenza di questi principi non solamente s'è dimostra nel Ferrarese e in Ferrara, ma in tutto il suo stato, anzi in tutta l'Italia; e 'l signor duca ad imitazione de gli antichissimi principi, i quali edificavano le città, ha cinto un grandissimo paese di mura, là verso la marina, e sovra i monti edificata una fortezza, che dal suo nome si dice monte Alfonso. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque non solo riporrem la sua nobiltà fra l'eroiche, ma 'l suo stato ancora ne la specie ch'Aristotele chiama del regno eroico: talché la progenie è degna de lo stato e lo stato de la progenie, la qual fiorisce in Italia e in Germania similmente. E sì come ne l'Asia escono d'un fonte medesimo Eufrate e Tigre, famosissimi fiumi, così queste ebbero in Europa la medesima origine e, dividendosi, fanno belle due nobilissime provincie, ne le quali hanno avuti grandissimi stati e l'imperio medesimo. né voglio numerare gli antichi, che potrebbono stancare ogni penna e ogni lingua, ma basta ch'io vi preponga per essempio d'ogni virtù Nicolò, Ercole e Alfonso e Ippolito Primo, Ercole e Ippolito e Alfonso Secondo, figliuolo di Renata, nipote di Luigi Duodecimo re di Francia, cugino d'Enrico, marito di Barbara d'Austria, cognato di Massimigliano e genero di Ferdinando imperatore. E s'alcuna lode gli potessero accrescere quelli de la sua medesima stirpe, gliele accresce senza dubbio don Luigi d'Este, cardinale di gran valore e di laudevol prudenza congiunta con gran liberalità e con altezza di grandissime magnificenze; e 'l signor don Francesco suo zio, c'ha pochi pari ne la cognizione de le cose del mondo e ne l'esperienza de la guerra; e 'l signor don Alfonso, valoroso, accorto e cortese principe e conosciuto ne le guerre e ne le corti e amato da' popoli e da' forestieri parimente; e 'l signor marchese vostro, o nostro più tosto, de' cui meriti grandissimi basta il testimonio del duca di Savoia, che l'ellesse per genero e l'ama come figliuolo. E crescono con maravigliosa espettazione di virtù il signor don Alfonso il giovine, il signor don Cesare e 'l signor Alessandro, in ciascuno de' quali par che rinasca e si perpetui l'antica gloria de la casa d'Este e l'antica riputazione d'Italia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Voi tacete de le donne, le quali non sono men degne di lode e d'onore: percioché la duchessa di Nemorse è specchio di castità e di modestia e d'ogni nobil qualità, e ha fatta bella la Francia co' figliuoli nati di due nobilissime stirpi; e la signora duchessa d'Urbino e madama Leonora di bellezza e d'accorgimento e d'altezza d'animo e d'intelletto sono simiglianti a la sorella; e la signora donna la Marfisa, la signora Bradamante, la signora donna Leonora e la signora Ippolita meritano d'esser nate di così alto legnaggio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Io fo come il peregrino che passi per un prato, il quale coglie un fiore, ma non se n'empie le mani: percioché, s'io avessi voluto far corona de le lodi convenienti a ciascuna, non ci sarebbe avanzato tempo per ragionar de la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Il poco che se n'è detto può destar negli altri desiderio di lodarle più lungamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma voi con le lodi date a queste signore m'avete avertito che non debba essere lasciata a dietro quella parte di nobiltà la qual deriva da le donne, ne la qual si considera altrettanto la virtù feminile, quanto la virile è considerata ne l'altra parte. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non deve in modo alcuno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E s'alcuno ne dubitasse, Aristotele il può trarre di questo dubbio, e la sua opinione ha tanti seguaci quanti bastano per confermarla. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non soglion mancar seguaci ad Aristotele. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma soverchio è peraventura ricercar l'autorità, ove si può trovar la ragione: lasciam dunque quel che de la nobiltà di Drance dice Virgilio, o pur quel che nel consiglio de' Greci ragionò Ulisse, anteponendo la sua nobiltà a quella d'Aiace, percioch'egli traeva da ciascuna parte l'origine degli dei. E lasciam quel <add>che</add> disse Cesare de la nobiltà di Giulia sua zia, e consideriam se la materia soglia aggiunger alcuna nobiltà ne' composti, e prima ne le cose artificiali, in cui peraventura è più manifesto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Come a voi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Se co 'l medesimo arteficio fosse fatta una statua d'oro e un'altra d'argento, di quale fareste maggiore stima? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Di quella d'oro. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Se due statue si facessero, l'una d'argento e l'altra di rame, quale sarebbe in maggior pregio? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quella d'argento senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E ciascuna cosa parimente sarà più apprezzata, s'avrà più nobil materia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così aviene senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la materia non si dee disprezzar ne le cose artificiali? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non si dee. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma non è più ragionevole che si disprezzi ne le naturali, ne le quali si fa molto differenza fra le cose che sono di buona o di cattiva materia. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Molta da ciascuno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la madre è quella che dà la materia, sì come il padre la forma: dunque la madre dee considerarsi, non solamente il padre. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dee. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se la certezza molto aggiunge a la nobiltà, senza fallo l'accrescerà quella de la madre, percioch'ella è molto più certa del padre: laonde Telemaco, il qual non è manco famoso per la castità de la madre che per la prudenza del padre, dimandato di chi fosse figliuolo, rispose ch'egli era nato di Penelope, la quale affermava averlo generato d'Ulisse. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai cauto fu nel rispondere, e molto temeva di non ingannarsi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quinci aviene peraventura ch'alcune nazioni tolgono il cognome così dal patre come da la madre e ch'alcuni regni ereditari siano trapassati d'uno in altro legnaggio per linea di donne, e altri stati ancora, come in Italia quel del Monferrato e del Montefeltro, e udiamo volentieri esser conservato il nome di quelle due nobilissime stirpi in queste che sono succedute. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono come gli inesti, e portano i frutti d'ambe le piante. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se vogliamo aver risguardo non solamente a le cose nuove ma a l'antiche, vedremo che non meno fur chiamati eroi Enea e Achille, ch'ebber la madre dea, ch'Ercole e Sarpedone, che nacquero di padre immortale. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così avenne. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno chi dubitasse se l'una o l'altra nobiltà debba esser anteposta, richiama in dubbio se l'uomo fosse più nobile o la donna, o pur l'anima o 'l corpo, o pur ne l'anima intelletto, ch'appertiene al padre d'ammaestrare, o la parte affettuosa, de la quale si prende maggior cura la madre per introdurvi i buoni costumi. Ma di queste cose a bastanza s'è ragionato. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A bastanza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma perché, dando quasi colori al disegno, non solamente una parte debbiamo ritoccar ma l'altre, passiamo da la virtù a l'antichità, da la qual si prendeva una differenza assai principal ne la definizione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Passiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se per la virtù è distinta la nobiltà in privata e in reale, per questa si potrà dividere la stirpe in antica e nuova. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Convenevolmente: e questa distinzione, se non m'inganno, si ritrova in molte città fra quelli che sono partecipi de l'onore. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma antichissima oltre l'altre famiglie de' principi italiani è quella d'Este. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questa è l'opinione commune del Giovio, del Guicciardino, del Pigna e del Sardi e de gli altri istorici, non solamente de' poeti. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma qual famiglia chiamaremo antica, qual nuova? E se la nobiltà è degnità de gli antichi, qual si può chiamar nova nobiltà? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io non nominerò alcuno per nome, ma antichi chiamerei che gli avoli degli avoli ha avuto nobili. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma più di loro istimeremo antichi chi ne può numerar un lungo ordine, come possono i vostri principi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Bello ordine e gloriosa successione, la qual è dipinta in alcuni luoghi, ma in Copparo, palagio fuor de la città, e nel cortile del castello più ampiamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tanto nondimeno si potrebbe ascendere di grado in grado che si ridurrebbono le stirpi ad un principio, se tutte da un principio hanno avuto origine, come debbiam credere. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Cotesto è vero: nondimeno, come abbiam detto, la virtù e la fortuna degli uomini ha seperata l'una stirpe da l'altra. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma quante centinaia d'anni ricercherem per questa seperazione? Non si può dar peraventura diffinito numero, perch'egli può essere più o meno. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Forse non si può dar questa determinazione nel più, ma nel meno si può dare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> S'è vero quel che voi giudicate, aviene come de' numeri, i quali si possono multiplicare in infinito: nondimeno l'unità, ch'è il principio, non si può dividere. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sarebbe peraventura ragionevole che si stabilisse un termine ne l'antichità de le stirpi, almeno da quella parte ch'è vicina a noi, quantunque da l'altra parte non sia prescritto alcuno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Stabiliscasi come vi piace. Ma l'antichità de la qual ragioniamo è l'antichità de le stirpi umane: laonde si dee stabilire quel termine ch'è lor conveniente, percioché non è l'istessa con l'antichità degli altri animali. </p></sp>
+	<sp><speaker>A.F.</speaker><p> L'uomo vive più del cavallo e del cane e del bue, ma la cornice e 'l cervo e l'elefante vivono più de l'uomo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Quella dunque che parrà antichità de l'umane stirpi, in alcune altre generazioni d'animali non parrà similmente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né forse chiamaremo antica la schiatta di colui ch'abbia origine dal padre di colui che vive, perché molti han potuto vederlo e conoscerlo, ma porremo il principio ove non arriva la cognizione del senso, ma la memoria o quella notizia che s'ha per fama e per iscrittura. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così credo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né quel principio ch'ebbe origine dal padre di colui che viva chiamaremo antico: perché molti parimente han potuto vedere e conoscer l'avo, se pur il padre non fosse tanto vissuto che la sua grande età n'avesse privo del conoscimento; dunque a né dal padre né da l'avo si dee pigliare il principio de l'antica nobiltà, ma de la nuova stirpe lo può esser principio l'uno e l'altro. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E gli uomini famosi per valor di guerra o per lettere o per negozio ne le corti sono il più illustre principio che possa avere il nuovo legnaggio. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Il quale suole essere in minor pregio de l'antico perché l'istesse cose più lontane che vicine sono degne di gloria: laonde i nobili sprezzano ne' vivi quegli onori medesimi per li quali i maggiori sono onorati. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sempre veramente le più antiche famiglie sogliono esser in maggior venerazione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quando l'antichità s'aggiunge a la nobiltà reale, sono quasi adorate, come aviene de' principi d'Este, i quali conservano con gran riputazione quello stato che da' lor maggiori fu acquistato con gran valore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> L'acquisto fu nobilissimo e la conservazione è onoratissima. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma l'altra differenza, se non m'inganno, si prende da la cognizione. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da lei. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Perché, ove l'antichità non fosse conosciuta, forse non parebbe nobile. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se la antichità, quanto ella <add>è</add> maggiore, rende la nobiltà più risguardevole, la cognizione farà parimente questo effetto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma particolarmente stimo gloriose quelle azioni che si fanno ne la guerra, perché sono argomento di maggior nobiltà; e l'azioni ancora di Milciade e di Temistocle e di Leonida sono fra' Greci molto più conosciute per fama che le picciole vittorie di Filippomene ne le medesime istorie. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E molti peraventura argomentarebbono da la cognizione ch'elle fosser con maggior virtù adoperate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così aviene. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutta volta possono esser più famose perché furono già fatte in maggiore occasione, ne la qual consisteva la libertà e la salute e l'imperio e la gloria de la Grecia: e non è credibile ch'allora si concedesse la somma de le cose se non ad uomini di grandissima virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la sconfitta di Canne che diede Aniballe a Paulo, o quella ch'egli ebbe ne l'Africa da Scipione sono assai più note ch'alcune vittorie ch'alcuni consoli riportarono da' Latini e da' Sabini. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono a me particolarmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la battaglia che fece in Tessaglia Cesare con Pompeo, o l'altra fatta dapoi tra quelli che seguirono le parti, e la navale ne la quale fuggirono Marcantonio e Cleopatra hanno ripiene tutte le carte de' poeti e degli istorici e tutti gli animi di maraviglia. E se le moderne cose a l'antiche vorremo assomigliare, nobilissima è la giornata ne la quale sotto Ravenna la virtù di Alfonso d'Este e di monsignor di Foes si dimostrarono da la parte francese; e quella in cui Francesco re di Francia ruppe sotto Milano gli Svizzeri, i quali fecero così valorosa resistenza che può quasi esser detta la battaglia de' giganti; e quella ancora ov'egli, così valorosamente combattendo, rimase prigione per valore e per avedimento del marchese di Pescara; e quella ne la quale ottomila Svizzeri, non aspettando il soccorso che giungeva, rupper a Novara senza aiuto di cavalleria Teodoro Trivulzio, espertissimo capitano. Ma sopra tutte l'altre sono nobilissime l'azioni di Carlo Quinto, o parlisi de la sua vittoria in Africa, ove il signor Ferrante Gonzaga su gli occhi de l'essercito uccise con un colpo di lancia quel capitano moresco, e quell'altra ov'egli vinse con la pietà e con l'arme la lega de l'indomita nazion tedesca, o quella con la qual fece ritirare Solimano re de' Turchi, il quale con essercito innumerabile era passato in Ungheria. né dee esser taciuta la vittoria del signor Giampiero de' Medici, quando appresso Siena, rompendo lo Strozza, molto accrebbe la riputazione de la parte imperiale, da la quale era il signor Carlo Gonzaga, che fu l'uno de gli eroi de' nostri tempi. né deono esser passate sotto silenzio l'azioni del signor don Alfonso duca di Ferrara, fatte in servigio del re suo cugino, ne le quali si dimostrò prudentissimo principe e valorosissimo cavaliero; né la grandissima battaglia in cui dal signor duca di Savoia fu sconfitto Anna Memoransi, gran contestabile di Francia; né le vittorie del re di Francia, da lui contra i nemici de la religione così gloriosamente riportate; né quella maritima del signor don Giovanni d'Austria, ch'a tutte l'antiche de' Romani e de' Cartaginesi potrebbe agguagliarsi: né con alcuna di queste potrebbono esser paragonate le picciole e ignote cose che sono fatte fra piccioli signori per differenza de' confini o per animosità di parte. E quando la virtù non si può dimostrare ne le vittorie memorabili ch'empiono il mondo di maraviglia, assai gloriosamente si manifesta ne l'occasioni grandi, quantunque non si venga al fatto d'arme: come si appalesò quella del duca d'Alva, quando fece ritirar ne' confini del regno di Napoli il duca di Ghisa, capitano d'infinito valore, o quella del signor duca nostro in Ungheria in servigio di Massimigliano suo cognato contra Solimano re di Turchi. né con minor gloria sogliono esser conosciute l'azioni de la prudenza, come si conobbe quella del re cattolico dopo l'acquisto del regno di Granata e di Napoli, e quell'altre ch'a queste possono aguagliarsi; e lo stendere il suo nome e quello de la sua stirpe per vari paesi e per varie nazioni ora con l'arme, ora con la pace è gloriosissima e maravigliosa laude di nobiltà; laonde per questa ragione quella del re di Spagna e de' principi de la casa d'Austria ha pieno il mondo di riverenza e di maraviglia. Ma forse si dee tenere ascosa sotto il velo del silenzio, come fecero alcuni pittori quelle bellezze o quelli effetti che non si potevano esprimere. Ma vedete come, ragionando de la cognizione, io era passato a raccontar l'azioni degli uomini valorosi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non fu mai più grato passaggio di questo, perché non solo, mentre ragionavate, mi s'appresentava davanti agli occhi la virtù di coloro de' quali facevate menzione, ma quella ancora del signor Francesco Maria de la Rovere duca d'Urbino, invittissimo capitano, di Prospero e di Fabrizio Colonna, d'Anton da Leva e d'alcuni altri che son vissuti co' padri e con gli avi nostri, assai gloriosi al mondo. E de' più antichi mi rivolgea per la memoria gli Alfonsi e i Ferdinandi d'Aragona, Ercole d'Este, il signor Federico duca d'Urbino, il signor Francesco Gonzaga marchese di Mantova e 'l vecchio marchese di Pescara, che morì sventuratamente ne l'insidie moresche, e quel generoso cavaliero di casa di Capova che diede il cavallo al re suo signore, sovra <add>cui</add> egli si salvò, e molti altri de' quali volentieri soglio ricordarmi: e di niuna altra ricordanza soglio esser più contento; ma sarei, co 'l pensiero d'uno in un altro trapassando, arrivato agli antichi Romani e Greci, se voi co 'l vostro ragionare a le cose moderne non m'aveste richiamato. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Altra occasione ci sarà data di ragionare de la virtù e de la gloria: ora il nostro primo ragionamento vorrei che si continovasse. Torniam dunque a la difinizione, ne la quale dopo l'altre differenze era la parola “continovata”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questa ci si para inanzi perché la consideriamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tutti i nobili non sono generosi, ma alcuni, tralignando da la virtù del padre, il dimostrano ne l'operazioni, che son diverse da quelle de' maggiori. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così aviene. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno son nobili o son riputati. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Sono a creder mio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la continovazione de l'opere non è così necessaria come abbiam detto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non pare per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Sarebbe nondimeno <add>sconvenevole</add> ch'ella fosse in guisa interrotta che si potesse argomentare che fosse mancata la virtù del seme. </p></sp>
+	<sp><speaker>A.F.</speaker><p> È sconvenevole molto. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Debbiam dunque prender la continovazione in rispetto di tutta la stirpe, non solo d'un uomo: perché molte fiate suole avenire che la virtù, derivata dal padre in due figliuoli, nel figliuolo de l'un de' figliuoli si manifesti e nel figliuolo de l'altro si stia nascoso; e forse per quella stessa ragione per la quale vediamo in un arbore stesso alcuni rami più fruttiferi e alcuni altri meno. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per quella medesima, credo io. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E suole ancora trapassare da l'un ramo ne l'altro, e or questo, or quello far diversi frutti secondo ch'egli è diversamente disposto e rivolto al sole e al vento. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così veggiamo avenire. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né di picciola considerazione è nel nascimento degli uomini l'aspetto de' pianeti e del cielo: perché, s'egli non fosse, nulla più importerebbe nascere in Africa ch'in Germania, sol ch'altri nascesse d'un padre e d'una madre. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Certissimamente nulla rileverebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né 'l padre solamente o la madre, ma la patria è cagione di costumi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così il patre come la patria sogliono aver di ciò parte. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque non poco importa la qualità de la terra dove alcuno è nato, e del cielo sotto cui nasce. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non poco. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma sopra tutte l'altre cose l'educazione e la disciplina è di grandissima importanza, come si conobbe particolarmente nel regno de' Persi: percioché Ciro, allevato secondo le severe leggi de' Persiani in quella dura vita che descrive Senefonte, divenne valoroso e soggiogò il regno de' Medi; ma il figliuolo, cresciuto ne le ricchezze de l'imperio acquistato e corrotto ne le morbidezze de l'Asia e ne la superbia tirranica, fu, come scrive il divino Platone, dissomigliante al padre. Dario ancora, in vita privata sobriamente nutrito, dapoi ch'egli acquistò la monarchia, consentì che Serse il figliuolo crescesse in soverchie delicatezze: laonde egli fu poi simile a Cambise, come il padre era stato simigliante a Ciro. Gran cura adunque dovrebbono aver i principi in far ch'i figliuoli fossero allevati da persona ch'egualmente avesse risguardo a la dignità de lo stato reale e a l'acquisto de le virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dovrebbono senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma la dignità de la corona non si può conservare senza molte ricchezze; né lo stato ancora de' principi e de gli uomini grandi, né la vita de' cittadini e de' privati cavalieri senza ricchezze è risguardevole. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non è. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né le buone operazioni possono esser fatte senza loro, perché sono gli instrumenti co' quali opera il magnifico e 'l liberale. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma gli instrumenti del forte sono l'arme, i cavalli, gli amici, i parenti e i seguaci: e sono quelle cose per le quali alcuno si dice possente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per loro la possanza si manifesta principalmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma le ricchezze del re debbono esser proporzionate al re. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Debbono. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E quelle del privato al privato. </p></sp>
+	<sp><speaker>A.F.</speaker><p> E quelle ancora. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Altre ricchezze dunque si ricercano ne la nobiltà reale, altre ne la privata; e altra possanza ancora ne l'una e ne l'altra. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E la maggior possanza e la ricchezza maggiore sogliono esser più conosciute de le minori, sì come la virtù la qual supera è più gloriosa de la superata. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così aviene. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E per tutte queste cagioni è maggiore la nobiltà la qual si dimanda illustre. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questi titoli sono usati fra la nobiltà diversamente in diversi luoghi e per diversi rispetti. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Da qual lato dunque darem principio a la considerazione che se ne dee fare, da l'uso de le nazioni e de' tempi o pur da la ragione istessa? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da la ragion prima: e da lei, se vi pare, trapassaremo a l'usanza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Distingueremo dunque i titoli in quelli che si pongono ne' princìpi di ciascuna opera per dimostrare il soggetto del libro, e in questi che si danno per dimostrazione di virtù: e parlando de la seconda specie, diremo che 'l titolo sia un nome dato per significazione d'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi par ben diffinito. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E de' nomi sì fatti alcuni stanno per sé, come quelli di duca, di principe e di marchese, altri sono aggiunti, come serenissimo, illustrissimo ed eccelentissimo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così ricerca l'uso veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma peraventura si può ricercare se i titoli sian dati per altra condizione che per la nobiltà de la stirpe. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Si danno per altre cagioni ancora: perché spesse volte aviene che 'l nome d'eccelentissimo s'attribuisca al principe e al medico. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma perché si dà l'eccelente al medico? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per l'operazione ne la quale dimostra alcuna eccelenza, rendendo la sanità a l'infermo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E da' principi perché s'usa? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Perché governano bene i soggetti e sanno l'arte del comandare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E chi ben regge e ben comanda, agevolmente suol render la sanità a gli animi infermi de' vasalli e purgarli de' vizî: dunque convenevolmente un titolo stesso a l'uno e a l'altro si concede. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Con molta convenevolezza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E s'i principi provedessero ch'altri non divenisse vizioso, come alcuni co 'l prescriver la regola del vitto schivano l'infermità, questo titolo gli sarebbe più conveniente, perch'è più eccelente operazion di virtù il proibire il male ch'il corregerlo dapoi ch'egli è fatto. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se l'istessi titoli si danno al principe e al medico, non sarà per essi alcuna distinzione tra la virtù del principe e quella del medico. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non sarà. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se la virtù del principe è diversa, è ragionevole che sia distinta con qualche titolo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ragionevolissimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Laonde, quantunque alcuni titoli possano esser comuni fra' principi e gli altri uomini, debbiam ricercare quelli che sian propri a gli uni, e a gli altri non convenienti. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo che si debba fare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E già voi diceste che si davano per altra cagione che per la nobiltà del principe. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così dissi. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma forse, sì come la virtù del principe è diversa da la virtù del privato, così l'altre qualità son differenti. Che ve ne pare? </p></sp>
+	<sp><speaker>A.F.</speaker><p> La dimanda mi par degna di considerazione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Consideriam adunque l'altre condizioni del principe, e cominciam da la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Già abbiam detto che non sia l'istessa di specie. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né la possanza dunque sarà de la specie medesima? </p></sp>
+	<sp><speaker>A.F.</speaker><p> né la possanza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né le ricchezze. </p></sp>
+	<sp><speaker>A.F.</speaker><p> né queste. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque altro sarà l'oro che spende il principe, altro quello che spende il privato: e così diremo de l'argento e del rame e de gli altri metalli. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non è fra loro alcuna diversità. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque le ricchezze non sono diverse di specie nel principe e nel privato; e se non sono le ricchezze, non debbono esser né la possanza né la virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Voi mi volgete or a questa parte, or a quella a vostra voglia, come gli esperti cozzoni sogliono fare i cavalli. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Diciam dunque ciò che prima fu provato assai bene, che la nobiltà e la virtù del principe sia diversa per ispecie da quella del privato. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io mi volgo a quella parte ch'a voi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma non però segue necessariamente che debbano <add>esser</add> diverse di specie le ricchezze del principe di quelle del privato. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare, bench'io non sappia la ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Perché l'arte de l'orefice ancora è diversa da quella de l'armeruolo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> È veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno il martello e la lima e gli altri instrumenti ch'adopera l'uno e l'altro artefice sono diversi non per ispecie ma per grandezza. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per grandezza solamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> In questo istesso modo, quantunque la virtù del principe sia diversa da quella del privato, gli instrumenti de l'uno e de l'altro sono differenti solo per quantità: percioché le ricchezze del privato sono picciole e quelle del principe debbono esser grandi; laonde il titolo che si dà al principe, o si dia per virtù o per altre condizione, dee significar cosa diversa. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dee senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma qual titolo troverem noi diverso da quel del privato? forse quel d'illustre? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Quello particolarmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Tuttavolta, sì come l'eccelente si dà al medico e al principe, così l'illustre si suol dare al principe e al poeta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Questo forse aviene perché così gli scritti de l'uno come l'azioni de l'altro sono gloriose. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Però si legge appresso Virgilio di Iapige, ch'elesse più tosto di ricever da Febo l'arte de la medicina
+
+<quote rend="block"><lg lang="lat">
+<l>e<add>t</add> mutas agitare inglorias artes,</l>
+</lg></quote></p>
+
+<p>chiamando mute o senza gloria quell'arti che non adoprano l'eloquenza e la musica, da le quali deriva la gloria ch'illustra gli uomini e gli fa quasi perpetui. E per questa ragione la corona de l'alloro fu conceduta agli uni e agli altri; laonde è
+
+<quote rend="block"><lg>
+<l>Arbor vittoriosa e trionfale,</l>
+<l>Onor de imperatori e di poeti.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p> Mene ricordo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Già mi pare che tre sorti d'uomini abbiam ritrovate, a le quali si conviene l'illustre: e queste sono i principi, i gran capitani e i gran poeti. Ma vorrei che noi ricercassimo se ci fosse alcuna propria cagione per la quale questo più a' principi ch'a gli altri sia conveniente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ricerchiamla. </p></sp>
+	<sp><speaker>A.B.</speaker><p> I poeti, prima ch'abbian composte l'opere loro, non sono illustri. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Non sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p> né i capitani prima ch'abbiano acquistate le vittorie. </p></sp>
+	<sp><speaker>A.F.</speaker><p> né i capitani. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma i principi sono illustri prima ch'abbiano cominciato a regnare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Prima senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E subito ch'è nato il principe, se ne sparge la fama per gli suoi stati e per le vicine regioni, e 'l suo nascimento suole esser onorato da le nazioni straniere, e sogliono venire ambasciatori a rallegrarsi; e alcuna volta è celebrato con le lodi de' suoi maggiori, percioch'egli non ha fatta ancora cosa alcuna per la quale possa esser laudato. Ogni lode adunque risguarda o la memoria de gli avoli o la speranza de' suoi discendenti. Ma 'l nascimento de' privati suole essere ignoto, se non forse in quella città dove nasce il bambino: dunque per alcuna cagione particolare si dà l'illustre a' principi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E 'l nome si prende da l'effetto che fa la luce ne l'illustrare, molto simigliante a quello de la gloria. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma 'l titolo di serenissimo, co 'l quale gli imperatori e i re e i principi del sangue loro sogliono essere onorati, non è così bello né così proprio come quello del quale abbiam ragionato: perché la serenità può esser senza luce; onde assai propriamente direm serena la notte, ma non direm così propiamente ch'ella sia illustre, se non avendo risguardo a qualch'azione ch'in lei sia fatta; ma propiamente sarà detta serena e serenissima. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così usiamo di ragionare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ne' titoli nondimeno è osservato altramente: percioch'il serenissimo nulla aggiunge a l'illustrissimo. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così è piaciuto a colui che dà i titoli, il quale vedendo che 'l titolo d'illustrissimo e d'illustre, per esser troppo usato, avea perduto alquanto de la sua riputazione, gli hanno lasciati da parte e datili a' minori principi: e per loro s'è preso quel di serenissimo e per quelli che sono congiunti seco di parentado. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Non c'era però ragion convenevole per la quale il titolo d'illustre dovesse esser tralasciato, perch'egli molto più significa che “sereno”: dunque, se a l'usanza avremo risguardo, chiameremo i principi maggiori serenissimi; s'a la ragione, illustrissimi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo che debba farsi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Ma ricercando quel che ricerca l'esquisita ragione, cominciam da l'illustre, anzi più tosto da l'illustrissima nobiltà, la quale avanza tutte l'altre d'autorità, di possanza, di ricchezze, di virtù con grandissima utilità del mondo e con grandissima gloria di cose adoperate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Da la casa d'Austria dunque cominciaremo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Illustrissimo dunque sarà l'imperatore, e gli altri molti illustri e illustri: perché non mi pare che questo titolo possa usarsi più ch'in tre maniere, avegna che ciascuna lingua ascenda dal positivo al comparativo e dal comparativo al superlativo. Laonde quelle lingue che non hanno il superlativo usano alcune particelle in quella vece, dicendo “tre volte possente, tre volte ricco, tre volte libero”; e chi volesse oltre questi tre modi moltiplicare, tenterebbe di far cosa che da la ragione d'alcuna lingua non è ricevuta, e ancora chi gli ristringesse in duo, come fanno i legisti, i quali hanno i gradi di superillustre e d'illustre, e sotto loro son posti gli altri duo, “chiarissimo” e “risguardevole”. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai più convenientemente mi paiono distinti in tre gradi ch'in più o 'n meno. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma questi titoli si danno non solamente per rispetto de la nobiltà, ma de la dignità eziandio: perché molte volte con altro titolo è onorato il primogenito, con altro il secondo, quantunque non sia men nobile, ma in minore dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così aviene. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E questo argomento può conchiudere che la nobiltà e la dignità non siano a fatto l'istessa cosa. Ma lasciando a migliore occasione i titoli che si danno per la dignità e parlando di quelli ch'alla nobiltà sono conceduti, debbiam ricercar se molte possano essere le stirpi illustrissime o veramente una sola. </p></sp>
+	<sp><speaker>A.F.</speaker><p> A me pare ch'ogni regno e ogni nazione e ogni provincia possa aver la sua, la quale fra l'altre sia illustrissima, come era fra' Troiani quella di Priamo, fra gli Argivi quella d'Agamennone, e quella d'Achille fra coloro che nascevano in Tessaglia. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma se illustrissima dovesse esser detta una stirpe non in rispetto d'un popolo o d'una gente ma di tutta l'umana generazione, sarebbe quella a la quale l'imperio si concede convenevolmente: percioch'il superlativo per tutto è semplicemente e tale, come dice Aristotele; e perché la monarchia è ne la casa d'Austria, sola fra tutte l'altre è simplicemente illustrissima, e può compartire a ciascuna gli altri titoli di molto illustre e d'illustre e di chiarissimo e di risguardevole. Ma la casa d'Este, antichissima oltre tutte le nobili d'Italia c'hanno alcuno stato, è detta illustrissima ragionevolmente sovra tutte quelle che sono ne la Marca Trivigiana o ne la Romagna o ne la parte inferiore de la Lombardia; e ogni principe di questa casa può sicuramente usar questo nome. Ma la Gonzaga è illustrissima oltre tutti i Lombardi che sono ne la parte di sopra; e dapoi ch'è mancata la signoria de' Visconti e degli Sforzeschi, niuna altra si può attribuire questo nome assolutamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai mi paiono buone le vostre ragioni. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E s'elle vi paiono sì fatte, potrete agevolmente conchiudere quali siano quelle stirpi, nel rimanente d'Italia, a le quali per rispetto de la nobiltà si convenga il titolo de illustrissimo: percioch'egli, dandosi per questa cagione, si dee concedere a tutti coloro che nascono del medesimo legnaggio, e negare a tutti gli altri de l'istessa nazione; ma da coloro c'hanno risguardo a la dignità di ciascuno si dee usare altramente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi par molto ragionevole: tutta volta l'usanza è molto diversa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> I principi nondimeno debbono corregger l'uso cattivo, quanto si può, senza danno, e i supremi più de gli altri: laonde assai cortesemente hanno consentito che sia preso il titolo di serenissimo dal duca di Savoia, di Ferrara e di Mantova, che gli sono parenti. Serenissimo dunque è il signor duca vostro, illustrissimi tutti i suoi parenti e quelli a' quali sia conceduto il nome de la sua casa; illustri o molto illustri chiamarem i nobilissimi feudatari ch'agguagliano di splendor e di magnificenza e di virtù a tutti gli altri d'Europa: come sono i Bevilacqua, i Sacrati, i Turchi, i Calcagnini, i Tassoni, i Boschetti, i Condolmieri, <add>i</add> Cesi, i Sertori, i Ruggieri <add>e</add> altri del Modonese e del Reggiano; co' quali vanno in compagnia alcuni cavalieri di molta stima e di gran valore de le principali famiglie di quello stato, come il signor Camillo Gualengo, il signor Alessandro Fiasco, il signor Cesare Trotto, il signor Francesco Villa. E tutte quelle case ne le quali sono stati i primi magistrati de la città e i primi uffici de la corte sono illustri. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E oltre le <add>famiglie</add> de' quattro nominati signori io aggiungerei alcune altre, de le quali presi informazione quando ci fui per alcun mio bisogno: come sono la Costabile, la Mozzarella, la Giliola, l'Ariosta, la Rondinella, la Montecatina, la Pendaglia, quella degli Argenti e de' Castelli e de' Cati, la Romea, la Bendidia, la Macchiavella, la Guerina, la Cortile e la Coccapani e altre che sarebbe lunga cosa a raccontare. né parlo di quelle di Modena, perch'io n'ho minore informazione, quantunque io sia securo che la Molza e la Cortese e la Sadoletta e la Bertana e la vostra sono fra quelle. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io vi ringrazio de l'onore che mi fate e l'accetto così volentieri da voi come i' farei dal principe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Se dunque nobilissimo è 'l principe, nobilissimo e 'l principato, perché sono a qualche cosa: laonde sempre l'uno prende da l'altro qualità; e se nobilissimo è 'l principato, nobilissimo è 'l principe. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Cotesto è vero; nondimeno il duca per se stesso senza alcuna relazione o risguardo è nobilissimo signore, e 'l ducato, anzi più tosto i tre fiorentissimi ducati sono pieni di gentilezza. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma tempo è omai che finiamo il nostro ragionamento: nel quale prima abbiam ricercato se la nobiltà sia, e poi quel ch'ella sia, considerando due volte diligentemente il genere de la definizione e le differenze; e ultimamente abbiamo ragionato de' titoli i quali si danno per rispetto de la nobiltà. Ma nel fine mi soviene del mio sogno, nel quale mi pareva di vedere un sole ch'illustrasse tutte le specie intelligibili: a somiglianza del quale sopra ogni grado d'illustre è quell'altissimo principe che sparge lo splendore e dona le grazie e concede le dignità secondo la fede e i meriti di ciascuno. </p></sp>
+
+</div1>
+</body>
+</text>
+</TEI.2>

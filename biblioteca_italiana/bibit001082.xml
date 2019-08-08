@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il bibliotecario diretto nel formare una pubblica biblioteca</title>
+      <author>Pietro Paciaudi</author>
+    </titleStmt>
+    <extent>138 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit001082</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Il bibliotecario diretto nel formare classare e continuare una pubblica biblioteca / dal P. Paolo Paciaudi nella sua memoria intorno la R. Biblioteca parmense</title>
+        <title type="part">cap.</title>
+        <author>Paciaudi, Paolo Maria</author>
+        <editor id="ed">Galletti, Gustavo Cammillo</editor>
+        <publisher>Tipografia delle Scienze matematiche e fisiche</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>1863</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>700</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="fra">Francese</language><language id="grc">Greco antico</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2005-07-19T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2005-07-21T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1 n="Titolo">
+<p>IL BIBLIOTECARIO <lb/>
+DIRETTO <lb/>
+NEL FORMARE CLASSARE E CONTINUARE <lb/>
+UNA PUBBLICA BIBLIOTECA <lb/>
+DAL 
+P. PAOLO PACIAUDI <lb/>
+CH. R. TEATINO TORINESE <lb/>
+NELLA SUA MEMORIA INTORNO <lb/>
+LA R. BIBLIOTECA PARMENSE <lb/>
+<hi rend="italic">Corredata in questa quarta edizione</hi> <lb/>
+DI ALTRE UTILI BIBLIOGRAFICHE OSSERVAZIONI <lb/>
+E DELLE NOTIZIE DELLA VITA <lb/>
+E DELLE OPERE DELL'AUTORE <lb/>
+DALL'AVV. GUSTAVO CAMMILLO GALLETTI <lb/>
+ROMA <lb/>
+TIPOGRAFIA DELLE SCIENZE MATEMATICHE E FISICHE <lb/>
+VIA LATA NUM°. 211 A. MDCCCLXIII.</p></div1>
+
+<div1 n="Prefazione del curatore">
+<head>PREFAZIONE</head>
+<p rend="italic">Non vi è forse piccol paese, non che città distinta 
+per coltura, che non voglia oggi avere la sua Biblioteca. Qual libro più utile di quello che in via di brevità indichi le varie classi dello scibile e le migliori 
+opere indispensabili a conoscersi nei vari rami di esso?</p>
+<p>Passano per superiore disposizione in molta parte 
+d'Italia in dominio delle Comuni, acciò sien forniti 
+di questo necessario mezzo di coltura i suoi rappresentati, gli avanzi delle cospicue raccolte formate già 
+dai vari ordini Religiosi, che ne' tempi andati poteron 
+dirsi quasi sempre il refugio del sapere; non sempre 
+però le persone incaricate, sebbene in altre facoltà 
+peritissime, hanno nozioni bastanti all'uopo per riuscire nella missione loro affidata, di riunire cioè il meglio e il più opportuno al pubblico moral nutrimento. A 
+quest'oggetto è sembrato debba essere non inutile 
+raccomandare la lettura e l'accurata osservazione delle cose accennate in questo scritto.</p>
+<p rend="italic">Fino dal 1785, escì in luce in un Giornaletto di 
+Vicenza, che compilava la celebre Elisabetta Caminer, 
+e vi fu premessa la seguente lettera, non riprodotta 
+nelle ristampe. Due se ne fecero: e l'ultima in Parma, 
+Bodoni 1815, in 8°. unitavi l'orazione per l'apertura 
+della Biblioteca, detta presente Giuseppe II. nel 1776. 
+Da questa edizione fattasi dal Bodoni fin dal 1810, 
+e dalla vedova dedicata alla Colonia de' pastori della 
+Dora, apparisce che non fossero loro note le precedenti stampe, avendola tratta dai MSS. dell'Autore dal Bodoni ereditati, ed ivi è detto "parve che 
+fosse pur un peccato che non vedesse la publica luce 
+un'operetta si bella, in cui trovasi sparsa tanta copia 
+di lumi nel fatto della bibliografia, e dalla quale apparisce quanto profondo fosse il sapere, quanto estese 
+le vedute, quanto perspicace la mente di quel grande 
+uomo, e inoltre quanto operoso il suo zelo nel sostenere l'onorevole incarico a lui addossato."</p>
+<p rend="italic">"Per prudenti poi ed amichevoli riguardi" credè 
+Bodoni di sopprimere il quì appresso passo intorno 
+ai libri proibiti; quale si ha nella prima edizione.</p>
+
+<p>"Alla difesa della Religione è necessario il conoscere con quali 
+insidie sia stata combattuta: le cose principali, e anche di somma 
+rarità de' Teologi protestanti vi si conservano. Intorno all'uso de' 
+quali libri ho sempre portato opinione, che il rigorismo più severo 
+sia la norma più sicura per un Bibliotecario Italiano. Io per me, 
+avvezzo da dieci anni alla disciplina Romana, esatto nel rispettare 
+le prescrizioni della Sede Apostolica, uso a chiedere le necessarie 
+dispense in ogni dubbio caso, beneficato da due Pontefici, portai di 
+colà meco la più giusta persuasione della legittima proibizione de' 
+libri. Benchè su di ciò sia varia la disciplina in Francia, nella 
+Spagna, nella Fiandra, in Germania e in qualche paese Italiano, 
+o per forza de' Concordati, o per la non accettazione delle leggi puramente disciplinari, o per altri principj, sono persuaso, che non 
+bisogna dipartirsi da quella ricevuta in paese. Tale fu il mio giudizio in una <hi rend="italic">Consultazione</hi> esibita alla Segretaria di Stato nel 1769 
+sull'antica e recente proibizione de' libri, sul diritto in ciò inerente 
+alla Chiesa, e in quello che può avere il Principe ne' casi particolari.</p>
+<p>"In coerenza di tali massime ho introdotto l'uso di tenere sul 
+tavolino del Bibliotecario l'<hi rend="italic">Indice de' libri vietati</hi>, acciò serva di 
+guida ai ministri della Biblioteca. Seguendo poi lo stile Romano 
+che mi è assai noto, ho fatto dare i libri dannati a chi o per certa 
+scienza o per ragionevole presunzione constava a me, che potea 
+leggerli e non dovea abusarne. All'opposto gli ho negati a chi verosimilmente non poteva esser munito delle necessarie facoltà della 
+Chiesa, e ne serbo presso di me diverse giurate attestazioni.</p>
+<p>"Il permettere però talora agli studianti di consultare (il bisogno richiedendolo) qualche luogo non erroneo nè vizioso ne' libri 
+proibiti, non è seguire i dettami della morale casuistica, la quale 
+in questo articolo fa tante epicheje; egli è conoscere i confini delle 
+cose, egli è guidarsi a stretto rigore di termini colla scorta di sommi Maestri in Divinità, e colla pratica di tutti i Cattolici paesi, 
+egli è conservare invulnerata la nostra sacrosanta Ortodossia, della 
+quale non ogni privato è giudice competente. Lo è bensì il Capo 
+visibile della Chiesa, che giudica della dottrina de' Fedeli da' fatti e 
+dagli scritti loro.</p>
+<p>"Io mi glorierò sempre del venerando testimonio del regnante 
+illuminatissimo Pontefice Clemente XIV. Degnossi la S. S. di scrivermi con specialissimo breve in data delli 18 Maggio p. passato, 
+nel quale commenda come a se noto il mio zelo per la Religione, 
+l'onestà della vita, e meriti lodevoli della probità, della virtù ec. 
+Che strana opposizione? Nel momento istesso che il Vicario di 
+GESU' CRISTO riconosce ed encomia questi pregj Cristiani, si potrà immaginare che io concorressi all'infrazione delle Leggi della 
+Chiesa? <hi rend="italic">Certi racconti</hi> (dice Teofrasto ne' caratteri) <hi rend="italic">sono spesso ritratti a capriccio, come fu quello degl'infortunj di Cassandro</hi>. Ma 
+di ciò basta."</p></div1>
+<div1><head>Della Biblioteca R. di Parma</head>
+
+<argument><p>"Discorso inedito del cel. P. Paolo Paciaudi Piemontese, Teatino, già Bibliotecario di S. A. R. l'Infante Duca di Parma e riformatore di quella R. 
+Università degli Studj, per servire di risposta ad 
+una censura di quella. All'Illustre Giovandomenico 
+Bodoni da Saluzzo, dotto ed ingegnoso Tipografo 
+Letterato modesto ed erudito, Amico tenero e generoso, salute e continuazione di prosperità, e di 
+celebrità.</p></argument>
+<p>Il P. Paciaudi era vostro amico: ecco una utile e 
+bella produzione di lui, che a voi ritorna, sicura 
+di esserne bene accolta, certissima di essere ristampata da voi, dispensiere della immortalità, 
+quand'anche non v'impiegaste fuorchè gl'inimitabili vostri Caratteri, e quella vostra diligenza e 
+nitidezza, che incanta gli occhi e appaga l'intelletto di chiunque fissa lo sguardo nelle cose stampate da Voi. Sarà infinitamente gradita dal Pubblico questa nobile e modesta altrettanto, quanto discreta Apologia di uno Scrittore così lindo e 
+pulito, quale fu il Teatino Piemontese, perchè ne 
+ricaverà il doppio vantaggio di erudirsi, per mezzo 
+dell'operetta, e di conoscere fin dove per mezzo 
+vostro può andare la perfezione della Tipografia. 
+Amatemi al solito </p>
+<p>"C. G. M. e M. V. M."</p>
+
+<p><hi rend="italic">Nè il Cav. Giuseppe Lama</hi> (Vita del Cav. Bodoni. 
+Parma 1816. T. II. in 4.) <hi rend="italic">ci spiegò i nomi dei due, che si 
+celano sotto le riferite iniziali, anzi non mostrò pur 
+di conoscere essa prima Vicentina edizione, nè la 
+gradevolissima lettera, che la precede.</hi></p>
+</div1>
+<div1><head>Del P. Paolo Paciaudi e de' suoi scritti</head>
+
+<p>
+<hi rend="italic">Molto più celebrata di quello che è, sembra esser 
+dovrebbe la memoria di questo dottissimo religioso, 
+che riunendo non comune amabilità, potè meritarsi 
+di esser detto suo maestro ed amico dal difficile Vittorio Alfieri; così voglia il cielo che la esimia Cristiana Cattolica pietà ne apprendesse, ed efficacemente 
+ritenesse sino al fine.</hi></p>
+<p><hi rend="italic">Del P. Paciaudi molti e tra questi, oltre Dacier 
+nell'Accademia delle Iscrizioni a Parigi, anco il lodatissimo monsig. Angelo Fabroni,</hi> (Tomo XIV. <foreign lang="lat"><hi rend="italic">Vitae Italor. Pisis</hi></foreign> 1789) <hi rend="italic">ne scrissero la vita.</hi></p>
+<p><hi rend="italic">Primo forse (lui ancora vivente) fu il suo confratello 
+P. Anton Francesco Vezzosi, Aretino, nella sua accurata e non bastantemente nota opera intitolata: 
+</hi>I Scrittori de' Chierici Regolari detti Teatini. Roma nella 
+Stamp. di Propaganda 1780<hi rend="italic">, in 4°. vol. II. a 118, e 
+seg. del vol. II°. e da lui ne trarremo le principali 
+notizie.</hi></p>
+<p><hi rend="italic">Nato a Torino 13. Novembre 1710. studiò presso 
+i Gesuiti, professò l'istituto Teatino nel 1728., fatti gli 
+Studi Filosofici e Sacri, spiegò molto genio per quelli 
+dell'antica erudizione. Fu con molto plauso sacro oratore per ben dieci anni, finchè per infievolita salute 
+nel 1750. dovè desistere, e destinato a Roma, vi 
+passò un decennio, e acquistossi la stima di Benedetto 
+XIV. che proposelo per successore al P. Sebastiano 
+Pauli come Istoriografo dell'Ordine di Malta. Avea 
+ottenute suo malgrado anco le onorificenze della sua 
+Religione, quando da Filippo Duca di Parma venne nel 
+1761. invitato ad essere suo Antiquario e Bibliotecario, 
+avendo in animo di riparare alla perdita della Biblioteca Farnese, a Napoli allora trasferita. Passato, col 
+consenso dello stesso Duca, in Francia, a recare con 
+monsig. Lante la berretta ai nuovi cardinali Choiseul e de Rohan, ebbevi le più lusinghiere acclamazioni, specialmente dalla R. Accademia delle Iscrizioni e belle Lettere, di cui era corrispondente. 
+Tornò quindi onusto di rari libri e di codici per la 
+nuova Biblioteca, quale nel corso poi di sei anni rese 
+una delle più cospicue d'Italia. Apposevi nel 1768, 
+opportuna Iscrizione, approntò un Indice ragionato 
+in modo fin allora forse non più veduto, ricco di 
+dotte illustrazioni; una delle quali intorno al </hi>Corano<hi rend="italic"> 
+diede in luce.</hi></p>
+<p><hi rend="italic">Diresse e illustrò con eruditi suoi scritti gli scavi di 
+Velleja, inviando al Co. di Caylus, per leggersi all'Accademia, tale sua fatica. Partiti da Parma i Gesuiti, ebbe anco la presidenza degli studj, ma caduto 
+il Du Tillot, Marchese di Felino, dal posto di ministro, 
+subì il Paciaudi l'arresto nel proprio convento fino a 
+tutto il Febbrajo 1772. e dovè quindi allontanarsi da 
+Parma egli pure: Tornò onorevolmente richiamato 
+ai suoi impieghi, ma dopo due anni chiese ed ottenne 
+congedo, per istarsene a Torino. Di che è da leggersi l'Elogio del P. Andrea Mozza, scritto dal P. Pompilio Pozzetti. Carpi (1799). in 8. Dopo un triennio 
+fu al cominciare del Febbrajo 1778. da quel Sovrano 
+invitato presso di se nuovamente, e allora si decise 
+a pubblicare l'opera su i G. Maestri di Malta. Omai 
+però troppo defatigato e resosi inabile al lavoro, morì 
+di apoplessia la notte de 2. Febbrajo 1785. Così finì 
+una vita gloriosamente operosa pei doveri dello elettosi stato, e quant'altri mai per l'onore d'Italia e del 
+suo secolo; dovendosi principalmente a Lui se il Saluzzese Bodoni potè, col favore di generoso Sovrano, 
+raggiungere, se non superarne, nello splendore tipografico le altre più colte Nazioni, e sostenere la fama del Genio Italiano, anco in questo confronto.</hi></p>
+<p>Leggonsi nell'opera del P. Vezzosi annoverate fino 
+in XXXVI, le di lui produzioni; di Oratoria, di Antiquaria sacra e di Storia, sole XIV. delle quali vengon 
+riferite nell'articolo del sig. Weis nella Biografia Universale, siccome in quello bellissimo e originale che 
+se ne ha nel Dizionario Storico di Bassano.</p>
+<p>L'estensore di questo, quale credesi l'Ex-Gesuita 
+Ab. Francesco Carrara (<hi rend="italic">Bergamasco, nato nel 1737. 
+Mancato a Venezia nel 1801.</hi> V. Backer, <foreign lang="fra">Bibliothèque ecc. Liège, </foreign>.58. T. IV. p. 99.) <hi rend="italic">opportunamente, e 
+con bel garbo in tal modo si esprime:</hi> "Le più piccole 
+cose tra le mani del Paciaudi divenivano grandi e 
+interessanti. Un pozzo, un ombrello, una croce, un 
+bagno, poche lettere sopra qualche cippo o colonna, 
+non che Statue, bassirilievi, iscrizioni e medaglie, 
+divenivano per lui soggetti capaci di tutta la ricchezza dell'erudizione, e di tutti gli ornamenti della 
+eleganza. Sparsasi intanto pe' suoi scritti, non solamente per l'Italia, ma anche nella Francia, la fama 
+del suo valore fu ascritto all'Accademia delle Iscrizioni e Belle Lettere, ec. Fu allora, che il Duca Filippo lo invitò, ec."</p>
+<p><hi rend="italic">Non riuscirà sgradito averne quì il più possibilmente completo</hi>.</p>
+</div1>
+<div1><head>Catalogo delle opere stampate</head>
+
+
+<p>I. <hi rend="italic">Orazione per le lodi di S. Caterina Vastanense</hi> detta in Genova. 
+Genova 1738. e Venezia Pitteri 1741. in 4°. e nel T. IV. delle 
+Orazioni di diversi Teatini.</p>
+<p>II. <hi rend="italic">Orazione in onore di S. Tommaso d'Aquino</hi> detta in Genova nel 
+1739. Sta nella Miscellanea del Lazzaroni, Venezia 1744. 12°. T. I. 
+corredata di dotte annotazioni.</p>
+<p>III. <hi rend="italic">Orazione per le lodi de' SS. Cosimo e Damiano</hi> detta in Venezia 
+nel 1738. In Venezia 1739. 4°. Ivi Lazzaroni 1740. Ivi Pitteri 1741. 
+4°. e nel T. III. delle Orazioni dei PP. Teatini. Qui pure sono 
+copiose e dottissime note.</p>
+<p>IV. <hi rend="italic">Lezione intorno ai principj Newtoniani</hi>. Diretta al Prof. Beccari 
+nel T. IV. delle Miscellanee del Lazzaroni.</p>
+<p>V. <hi rend="italic">Delle Antichità di Ripatransone</hi>. Ad Annibale Abati Olivieri nel 
+Tomo VI. di dette Miscellanee, con XI. Tav. in Rame.</p>
+<p>VI. <hi rend="italic">Ragionamento detto in Vaticano al S. Collegio il Venerdì S.</hi> 1745. 
+Napoli 1745. 4°. Al Sig. Card. Giuseppe Spinelli.</p>
+<p>VII. <hi rend="italic">Orazione detta in Napoli ne' funerali di Filippo V.</hi> Napoli 1746. 4°.</p>
+<p>VIII. <hi rend="italic">Dissertazione intorno ad un'antica Iscrizione</hi> al Co. Gio. Rinaldo Carli. Nel T. XLII. degli Opuscoli Calogeriani.</p>
+<p>IX. <hi rend="italic">Sopra una Statuetta di Mercurio</hi> del Gabinetto del March. De 
+l'Ospital. Napoli 1747. 4°. A Monsig. Boyer Teatino, precettore 
+del R. Delfino. Se ne ha un bell'estratto nel Giornale de' Letterati 1747. Roma.</p>
+<p>X. <hi rend="italic">Osservazioni sopra alcune singolari e strane medaglie</hi>. Napoli 1748. 
+4°. Dispiaciuto al cel. Antiquario Cav. Francesco Vettori, che il 
+Paciaudi avesse posto sul frontespizio del suo opuscolo, qui di n. 
+IX. emblema che per i libri suoi avea esso adottato, non appagatosi de' buoni ufficj dal Paciaudi resili, non accettò che gli dirigesse suoi scritti; in seguito di che pubblicò questi esso volume, 
+in cui dà a certe medaglie interpretazione diversa dalla datali 
+dal Vettori, quale con due opuscoli latini difese la propria opinione.</p>
+<p>XI. <hi rend="italic">Lettera</hi> al Sig. Giuseppe Capece <hi rend="italic">intorno alle due Campane della 
+Chiesa di S. Giovanni di Capua</hi>. Leggesi premessa alla Dissertazione di esso Capece sullo stesso argomento. Napoli 1750. Vi si 
+parla dell'origine delle Campane, e nelle Novelle Letterarie del 
+1752 è molto lodata dal Lami.</p>
+<p>XII. <hi rend="italic">Lettera</hi> al Sig. Ab. Pio Enea degli Obizj <hi rend="italic">Sopra la Città di Eraclea o Ercolano</hi>. Nel tomo XXXVIII degli Opuscoli Calogeriani.</p>
+<p>XIII. <hi rend="italic">Medaglie rappresentanti gli avvenimenti del Magistero di S. A. 
+Emanuele Pinto</hi>. Napoli 1749. fol.</p>
+<p>XIV. <foreign lang="lat"><hi rend="italic">De Veteri Christi Crucifixi signo et antiquis Crucibus, quae 
+Ravennae sunt</hi> Diatribe.</foreign> Scritta a richiesta del Proposto Gori, 
+è nel tomo III delle Simbole Fiorentine a lui diretta.</p>
+<p>XV. <foreign lang="lat"><hi rend="italic">De sacris Christianorum Balneis Venetiis</hi></foreign> 1750. in 4°. ded. al 
+Card. Spinelli, <foreign lang="lat">et Romae Palearini 1758. 4. Secundis curis 
+emendatior et auctior.</foreign> Opera ridondantissima di scelta cristiana erudizione, e al parere del P. Vezzosi <hi rend="italic">la più rispettabile tra quante ha prodotte</hi> il P. Paciaudi.</p>
+<p>XVI. <foreign lang="lat"><hi rend="italic">De rebus Sebastiani Pauli</hi> Congr. M. D. Commentarius ad 
+Scip. Maffeium. Neap.</foreign> 1751. 4°. Con Ritratto del P. Pauli. 
+Nell'anno stesso fu riprodotto nel Giornale de' Lett. di Roma e per estratto nelle N. Letterarie del Lami.</p>
+<p>XVII. <foreign lang="lat"><hi rend="italic">Diatribe qua Graeci Anaglyphi interpretatio traditur</hi>. Romae </foreign>
+1751. 4°. Diretta a Mons. Nic. Oddi poi Cardinale. Rappresenta la scultura due mani aperte, distese all'insù verso il 
+Cielo, mentre così la stoltezza dei Gentili permettevasi nelle 
+sciagure di mandare imprecazioni.</p>
+<p>XVIII. <foreign lang="lat"><hi rend="italic">De umbellae gestatione Commentarius. Romae</hi></foreign> 1752. 4°. A Mons. 
+Innico Caracciolo Arciv. di Calcedonia. Ebbe la gemma del 
+frontespizio dal prefato Cav. Vettori, e altra dal Barone De 
+Stosch.</p>
+<p>XIX. <foreign lang="lat"><hi rend="italic">De Beneventano Caereris Augustae mensore. Romae</hi>.</foreign> 4°. 1783. 
+Sta nell'op. <foreign lang="lat">Thesaurus Antiquitatum Beneventanarum</foreign> del 
+Can. De Vita. <foreign lang="lat">Romae</foreign> 1754. 4°. Tomo I. Vi si trova il desiderabile intorno alle antiche misure e ai misuratori.</p>
+<p>XX. <foreign lang="lat"><hi rend="italic">De cultu S. Joannis Baptistae Commentarius. Romae</hi></foreign> 1755. 4°. 
+pag. XXVII. e 468. con fig. Dedicato a Benedetto XIV e 
+ricchissimo di erudizione sull'argomento, a gloria maggiore 
+del protettor di Firenze. Sarebbe desiderabile ne fosse fatto 
+elegante compendio in Lingua Italiana.</p>
+<p>XXI. <foreign lang="lat"><hi rend="italic">Puteus sacer agri Bononiensis commentario illustratus. Romae</hi></foreign>
+1756. 4°. A dirne il suo parere fu richiesto con Biglietto dallo 
+stesso Benedetto XIV. Il cel. P. Ab. D. Gio. Grisostomo 
+Trombelli ne diè in Lingua Italiana spiegazione molto diversa dalla sua.</p>
+<p>XXII. <foreign lang="lat">De Athletarum</foreign> <foreign lang="grc">KATBISTHSEI</foreign> in <foreign lang="lat">Palaestra Graecorum Commentariolum. Romae</foreign> 1756. 4°. fig. Al Conte di Caylus è diretto questo Commentariolo intorno ai Cubisti, specie di saltatori; del quale si ha un estratto nel Tomo del 1757 delle 
+N. Lett. del Lami.</p>
+<p>XXIII. <foreign lang="lat"><hi rend="italic">Ad Nummos Consulares II. viri M. Antonii Animadversiones 
+Philologicae</hi>. Accedit explicatio Tabulae Peloponnensis. Romae</foreign> 1757. 4°. fig. È diretto il libretto di pag. 126 al Cel. 
+Medico Co. Francesco Roncalli, che intorno ad una Medaglia 
+di M. Antonio avealo richiesto di suo parere. Bello ed 
+onorifico estratto se ne ha nel vol. del 1768 degli atti di Lipsia. 
+Nella spiegazione del bassorilievo in marmo molto s'illustra 
+la Storia de' Medici, cui in antico gl'infermi andavano a ritrovare al posto di loro residenza.</p>
+<p>XXIV. <hi rend="italic">Lettera del 1758. al Principe di Biscari col disegno di</hi> una 
+ingegnosa e dotta Medaglia. Sta nell'opera di Domenico Sestini, Descrizione del Museo ec. Firenze 1778. 8°.</p>
+<p>XXV. <foreign lang="lat"><hi rend="italic">Monumenta Peloponnesia Commentariis explicata</hi>.</foreign> Vol. I. <foreign lang="lat">Romae</foreign> 1761. 4°. pag. XLII. 274. Vol. II. <foreign lang="lat">Ib.</foreign> 1761. 4°. pag. XXV. 
+311. Vi si spiegano i monumenti Peloponnesiaci scritti e figurati del Museo Nani di Venezia. Nel Tom. I. vi è una Dissertazione su d'una Iscrizione Greca, del P. Odoardo Corsini 
+ad Annibale Abati Olivieri. L'Opera fu detta dal Lami "insigne per la mole e per la copia de' Monumenti", e fu anco 
+da due Giornalisti oltramontani inurbanamente censurata.</p>
+<p>XXVI. <hi rend="italic">Costituzione per i nuovi R. Studj</hi>. Parma 1768. 4°. - <hi rend="italic">Regolamento per le Scuole di Diritto Civile e Pontificio - Regolamento per la Collazione de' gradi Accademici. Periodus 
+Studiorum</hi>.</p>
+<p>XXVII. <foreign lang="lat"><hi rend="italic">Ara amicitiae Parmae in Foro majori</hi>.</foreign> fol. Illustrazione di 
+un Monumento marmoreo fatto innalzare sulla piazza di Parma in occasione delle nozze di Ferdinando con Amalia, sorella 
+dell'Imp. Giuseppe II.</p>
+<p>XXVIII. <hi rend="italic">Programma alle Muse Italiane</hi>. Diretto ad invitare gli scrittori di Tragedie e Commedie Italiane a concorrere al premio 
+dal Duca Ferdinando istituito.</p>
+<p>XXIX. <foreign lang="lat"><hi rend="italic">Ad praeclarissimum Alcorani Codicem R. Bibl. Parmensis Prologus</hi>. Ex R. Typ.</foreign> 1771. 8°. Codice cartaceo del 1656 trovato 
+tra le spoglie del gran Visir di Maometto IV. nel 1683. L'
+Imp. Leopoldo I. diello a sua Consorte Eleonora, questa al 
+P. Carlo Costa di Piacenza suo Confessore: e dal Co. Jacopo di lui pronipote donato nel 1767. alla Biblioteca. Se ne 
+ha distinto ragguaglio nel vol. del 1773. delle Efemeridi di 
+Roma.</p>
+<p>XXX. <foreign lang="lat"><hi rend="italic">Epitalamia exoticis linguis reddita Parmae</hi> ex R. T.</foreign> 1775. 
+fol. Precede una Dissertazione di Gio. Bernardo De' Rossi 
+sullo studio delle Lingue Orientali.</p>
+<p>XXXI. <foreign lang="lat"><hi rend="italic">In nuptiis Caroli Emanuelis Sabaudi et M. Adelaidis Borboniae Inscriptiones</hi> (IV.) ad Aedes Judeorum positae. (Parmae 
+S. D.) 4°. Lat. Hebr.</foreign></p>
+<p>XXXII. <hi rend="italic">Memorie de' G. Maestri dell'Ord. Gerosolimitano</hi>. Parma, Bodoni 1780. 3. vol. in 4°. gr. con fig. Annunziatane fin dall'
+Ottobre 1778 dal Bodoni la edizione, uscì nel 1780, e contiene notizie nuove e di grandissimo rilievo.</p>
+<p>XXXIII. <hi rend="italic">Della R. Biblioteca di Parma Discorso</hi>. Sta questa nobile 
+e modesta Apologia nel Giornale di Vicenza pel 1785., fu 
+ristampata in Parma dal Bodoni, e ora con aggiunte.</p>
+<p>XXXIV. <foreign lang="lat"><hi rend="italic">De eroticis Antiquorum</hi>.</foreign> Uscì coll'edizione: <foreign lang="lat"><hi rend="italic">Longi Pastoralia Parmae</hi></foreign> 1786. 4°. in Lipsia poi nel 1803 pubblicossi separatamente. Vi esamina i varj Romanzi pastorali antichi.</p>
+<p>XXXV. <foreign lang="lat"><hi rend="italic">Inscriptiones a Jo. Baptista Bodonio collectae</hi>. Parmae in Aed. 
+Palat.</foreign> MDCCIIC. 4° Con ritratto del Paciaudi inciso da Rosaspina. Incaricatone prima Giulio Tomitano, forse meno pronto, vennero classate e rivedute dal cel. Barnabita P. Francesco Fontana.</p>
+<p>XXXVI. <hi rend="italic">Lettere al Conte di Caylus</hi>. Parigi 1802. 8° con fig. Precede 
+un saggio sulla vita del Paciaudi composto da Sérieys. Al 
+prefato Caylus forniva il Paciaudi dotte notizie sulle antichità, 
+e ne era ricambiato con le satire che escivano in Francia 
+contro i Gesuiti, quali dicesi fossero a lui molto gradite, sopra di che è da vedersi l'Art. Paciaudi nella Biografia Universale. L'Ab. Carrara poi, ricordando il bell'elogio lapidario al Paciaudi, che leggesi nel vol. VI. delle Opere del Gesuita Guido Ferrari, nota la eccessiva discretezza di questi, 
+mentre leggesi affissa nelle pubbliche Scuole di Piacenza iscrizione dal Paciaudi stesa, coll'espressione, usata già dai Gentili contro i Cristiani, <foreign lang="lat"><hi rend="italic">Superstitione Jesuitarum deleta</hi>.</foreign></p>
+</div1>
+<div1><head>Introduzione</head>
+<p>
+Noto egli è troppo non solo ai coltissimi Italiani, 
+ma a qualsivoglia dotto viaggiatore, che uno degli ornamenti più splendidi di questa illustre Capitale è oggi 
+la Reale Biblioteca. Ricca a gran dovizia, com'ella è 
+di squisitissimi libri, di tutte le Greche, Latine e Tosche eleganze, provveduta copiosamente di quanto in 
+ogni parte del più bel sapere ha prodotto la letteratura straniera, ella ha recata sin quì ai dotti maraviglia, non che piacere. Chi dunque doveva aspettarsi che 
+venisse a taluno il rio talento di volerla far credere 
+un ammasso disavvedutamente composto, e che abbisogna di mano più sagace che la migliori, la riordini, 
+la rinnovi? Tanto sembra che intenda di persuadere 
+certo foglio vergato fuor di paese, in cui, per discreditarla più impunemente si abusa del nome di qualche 
+nazionale, e dicesi ch'ei muove altissime querele sulla 
+scelta de' libri, sulla disposizione de' medesimi, sui difetti del Catalogo, sulla scarsezza de' Manoscritti, e su di 
+che no? Cessi Dio che io pensi giammai di essere sorto 
+nell'animo di alcun nostro cittadino questo consiglio, 
+non tanto di recare a me molestia nel tempo che sono 
+lontano da quell'insigne deposito di divine ed umane 
+cognizioni, quanto di oscurare le beneficenze del migliore de' Principi. I privati affetti non hanno mai estinti 
+nel cuore di una nazione amica del vero e dell'onesto 
+i sentimenti, che devonsi al Sovrano e alla patria. Nacque sotto altro cielo questa censura, e d'altronde certamente son pervenute le contumeliose e mendaci vituperazioni della R. Parmense Biblioteca. In altro clima si ricerchi il versatile Teramene, che accusa e poi 
+mostra di ricredersi, s'innaspra e poi finge compassione, 
+ed ora col saracasmo, ora col libero parlare torce tutto
+al senso peggiore.</p>
+<p>A richiamare però la cosa a suoi veri principj, se 
+a chi è l'autore infelice di si dicace ed amara censura 
+invidia ha inspirato il disegno di togliere, come per lui 
+si poteva, a questa Capitale lo splendore di un monumento, che tanto la distingue ed onora, questa è offesa 
+all'incomparabil Sovrano, che n'è il glorioso e munificentissimo institutore. Ed in questo caso quell'eccitamento, quella fisica e morale sensibilità, che provar dee 
+un suddito fedele e a mille modi beneficato, mi fa ravvisare che sarebbe colpevole il silenzio mio, se non mi 
+studiassi di vendicarne la oltraggiata gloria. Tutte le 
+più possenti cagioni cospirano, perchè io sia sovra 
+molt'altri devotissimo al nome e alle virtù di questo 
+augusto principe: la sua intemerata religione, la giustizia, la umanità, l'amor dei popoli e delle lettere e 
+i conferitimi onorevoli impieghi. Gli Dei si onorano, diceva Aristide, colla dedicazione de' tempj e delle are: 
+gli ottimi Principi col ricordarne nei durevoli scritti le 
+insigni imprese e i pubblici beneficj.</p>
+<p>Ove poi l'autore del mentovato foglio agitato da 
+altra passione e preso oggi il sopracciglio e il crestuto 
+cimiero di Pisandro, abbia voluto significare che inetto 
+e disattento sia stato chi alla biblioteca presiede, allora tutta la invettiva ricade sopra di me. Considerato l'affare in quest'altro aspetto, i sacri dritti di natura consentono che io dia tutti i possibili rischiarimenti, 
+e rimova con l'animo il più pacato le ingiuste querele.</p>
+<p>Senofonte e Platone avrebbero pur voluto, che Socrate, 
+poichè non intendeva di entrare in contesa con alcuno, 
+avesse almeno escluse le accusazioni con una semplicissima esposizione delle cose. Questo genere di ripulsa 
+schietta e temperata, è tanto meno da trasandarsi dall'uomo onesto, e che nella Repubblica ha pur qualche 
+nome, quando il divolgato romore può forse pervertire 
+il giudizio dei buoni. Io aderirò innocuamente ad un tal 
+suggerimento, per maniera che nel trattare questa causa 
+appaia dall'un lato la sceltezza, la copia, l'ordine de' 
+libri da S. A. R. posseduti, dall'altro l'industria la 
+fatica e qualche benemerenza di chi gli ha adunati. 
+Contemplo così in una stessa apologia l'onore della 
+più luminosa e profittevole instituzione del Principe, e 
+la provvida economia delle cose che l'hanno recata a 
+tanta dignità ed eccellenza. Volendo dunque mettere 
+in apertissima veduta tutti i punti che dal censore indiscreto si vogliono controvertere: chieggo che mi si 
+conceda di ripeterne la dichiarazione da ogni fonte migliore. Non è mai soverchia quella luce che si apporta 
+per diradare la più tenue caligine, la quale può infoscare in alcun modo gli oggetti, che si voglion far riconoscere in tutti gli aspetti e per quanti lati possan eglino avere.</p></div1>
+<div1><head>I: Sceltezza e copia de' Libri</head>
+<p>
+TVCIDIDE scrittore così nella verità istorica, come ne' 
+detti e nelle sentenze gravissimo, avverte che i testimoni stranieri, siccome naturalmente meno sospetti dei 
+domestici, giovano maggiormente a render più salda e 
+sicura qualunque causa. Tutta la bieca invidia, dunque non può torre a S. A. R. la gloria di possedere 
+una Biblioteca, che sin d'oggi se non è la più numerosa, è pero sopra modo ricca di libri eletti e prestantissimi, dappoichè è tale l'unanime consentimento di 
+tanti cospicui Letterati stranieri, la fama de' quali non 
+è contesa; e dirò anche di nazioni avvezze a non maravigliare, che per cose singolari. Non lo hanno essi dissimulato nel presentarsi all'Augusto Sovrano: lo hanno 
+ripetuto in ogni luogo, lo hanno divulgato ne' loro libri. 
+Se il primo potesse essere officiosità, il secondo è una 
+non equivoca testimonianza. Quante autorevoli persone 
+potrei in ciò nominare, che hanno intese non una volta, ed hanno pure dovuto leggere stampate queste ingenue commendazioni? Più valida però nasce in noi 
+la persuasione del vero quando le cose sono partitamente descritte, e quasi agli occhi sottoposte.</p>
+<p>Della sceltezza e della copia pertanto de' libri di questa Biblioteca, amo, che ognuno giudichi ed estimi da 
+una generale enumerazione. Ma perciocchè sarebbe questa infinita, se alla particolare individuazione si discendesse, mi volgo al partito, a cui appigliossi PLVTARCO 
+nel descrivere i fatti illustri, d'imitare il Pittore, che 
+nel ritrarre un amplissimo tratto di terra abitata, rappresenta esattamente i luoghi cospicui, ed adorna leggermente i minori. Avendo noi diviso la serie de libri 
+in SEI CLASSI primarie, discorreremo per ciascheduna, e 
+da quello, che ne diremo sarà agevole vedere quel molto 
+di pregevole, che contiensi nelle subalterne.</p>
+<p>Lo studio della Rivelazione, e de Libri divinamente 
+ispirati, la ricerca di ciò che i nostri maggiori ci hanno 
+tramandato per regola di credenza e di costume, è la 
+prima, che ci si offre.</p>
+<p>Certo sta, che nella CLASSE TEOLOGICA la collezione 
+dei sacri testi in tante lingue esotiche e vive, per la copia e per la rarità, se una se ne tragga, è la più insigne d'Italia; e poche al di la de' monti ho vedute 
+che possano paragonarvisi.</p>
+<p>E quella de' migliori Interpreti, Parafrasti, Glossatori, 
+degli Apparati, delle Isagogi, Concordie, Armonie, Catene, per le scelte edizioni e per il numero non è inferiore.</p>
+<p>Come delle cose LITURGICHE trovansene che son molto 
+pellegrine e pressochè nell'Italia sconosciute, così nella 
+copiosissima CLASSE CONCILIARE è una serie di <hi rend="italic">Sinodi</hi>, 
+alcuni de' quali mancano alla stupenda collezione di Benedetto XIV. tuttochè opera di trent'anni.</p>
+<p>Le migliori edizioni duplicate e triplicate de' <hi rend="italic">Padri 
+Greci</hi>, e <hi rend="italic">Latini</hi>, e de' più rari opuscoli loro, lasciano 
+poco da desiderare.</p>
+<p>La <hi rend="italic">Filologia</hi> e la <hi rend="italic">Poligrafia Sacra</hi>, le <hi rend="italic">Antichità Cristiane</hi> ed <hi rend="italic">Ecclesiastiche</hi>, le cose <hi rend="italic">Giudaiche</hi> e Rabbiniche non si sono da me dimenticate.</p>
+<p>Fra i TEOLOGI ORTODOSSI hassi il fiore per tutto ciò 
+che riguarda il <hi rend="italic">dommatico</hi>, il <hi rend="italic">polemico</hi>, il <hi rend="italic">critico</hi>, lo 
+<hi rend="italic">storico</hi>, lo <hi rend="italic">scolastico</hi>, il <hi rend="italic">morale</hi>, il <hi rend="italic">catechistico</hi>, ed 
+anche molto intorno alle <hi rend="italic">dispute</hi>, che hanno agitato la 
+<hi rend="italic">Chiesa</hi> negli ultimi tempi, ed hanno verificato quel 
+detto di <hi rend="italic">Pachimero</hi> - <foreign lang="lat">Theologis inter se rixantibus in 
+periculo populus est</foreign>= "Quando i Teologi sono in rissa 
+tra di loro, la patria è in pericolo".</p>
+<p>Nella CLASSE NOMOLOGICA, diretta a conservare 
+tranquilla e felice la Repubblica, quanto appartiene ai 
+<hi rend="italic">Sacri canoni</hi>, al <hi rend="italic">Diritto Pontificio</hi>, all'<hi rend="italic">Ecclesiastica polizia</hi>, d'Oriente e d'Occidente, e alla <hi rend="italic">Regalia</hi> tutto sî è 
+per me imparzialmente adunato. Nulla manca a chi vuol 
+conoscere le ragioni vicendevoli delle due potestà e si 
+succedono i libri che difendono i diritti de' Principi, e 
+que' che rivendicano le prerogative della Chiesa. Quivi 
+è pure un assortimento de' dotti Canonisti Italiani, Francesi, Spagnoli, Alemanni, e di recenti comentatori delle 
+Decretali, per la intelligenza de' giudizj e delle materie 
+competenti al Foro Ecclesiastico, secondo il gius antico, nuovo e novissimo, con tutte le erudite manuduzioni a questo studio.</p>
+<p>Quello della <hi rend="italic">Ragion Civile</hi> richiede che si conosca 
+il primo fonte, da cui emanano le leggi umane, gli 
+uffizj dell'uomo e del cittadino, i diritti della maestà 
+e quei de' popoli; e questa sorgente è il <hi rend="italic">Diritto della 
+Natura e delle Genti</hi>. Chi vorrà studiarlo in tutta la 
+sua estensione, avrà nella R. Biblioteca i libri opportuni; ai quali vien dietro un ampia collezione dei Trattati di pace, di Negoziazioni, di Concordati tra' Principi, dei patti delle Nazioni: libri tanto utili per i 
+pubblici Ministeri, e per gl'interessi di Sovrani.</p>
+<p>Sarebbe poi stato vituperoso il lasciar mancare a tanti 
+studiosi giovani, che frequentavano quotidianamente la 
+R. Biblioteca i libri dei celebri ristauratori della Giurisprudenza Greca e Romana. Se questo studio è oggi 
+andato in tanto grido nelle più colte parti d'Europa, 
+non dovea negarsi ogni possibil soccorso agli ottimi ingegni Parmigiani, atti a recare un giorno lode e fama 
+alla Patria. Perciò quanto havvi di eccellente vi è copiosamente riunito. E quale n'è stato l'effetto? Ognuno 
+ha udito ripetere quelle parole di Cicerone: <foreign lang="lat"><hi rend="italic">tantum 
+semper potentiam veritas habuit, ut nullis machinis, 
+aut cuiusquam hominis ingenio aut arte subverti potuerit</hi></foreign>. "La verità ebbe sempre tanta forza da non 
+potere per macchinazioni, o ingegno, o artificio di chicchessia venir sovvertita."</p>
+<p>Ora tra quelle verità, che il tempo non oscurerà 
+mai negli animi degli onesti e sapienti cittadini, una 
+si è che nei replicati e rigorosi esami, a quali è ora 
+soggetta la gioventù, che ricerca la Laurea, si è ammirata da tutti la eleganza e la erudizione, maggiore 
+che in passato. D'onde la attinsero se non da questi 
+libri? Abbondano poi quei che nella Pratica Forense possano ammaestrare. Chiude questa classe una serie considerabile di Statuti Municipali. Se ella non è perfetta 
+è però da valutarsi assai. Ma in questa classe istessa 
+va annoverata la rarissima collezione delle Consultazioni 
+de' più celebri Avvocati di Francia. Raccolta di sommo 
+prezzo, che io ho avuta la sorte di far presentare a 
+S. A. R. in un colla seconda edizione della Bibbia Ebraica 
+del Bomberg e colla Latina, detta <foreign lang="lat"><hi rend="italic">Biblia Episcoporum</hi></foreign>.</p>
+<p>Nella vastissima CLASSE FILOSOFICA forse niuna Biblioteca agguaglia quella di Parma e dico senza esitanza 
+che la nostra collezione, più ricca d'ogni altra nelle 
+cose più recenti, considerata, veduta e riveduta 
+<quote rend="block">
+<lg><l><foreign lang="lat" rend="italic">Ter capiet magis et decies repetita placebit</foreign></l></lg>
+<p>"Vista tre volte sodisfarà sempre più e visitata anche dieci, recherà piacere."</p></quote></p>
+
+<p>Tuttociò che in questo genere l'antichità ha prodotto 
+di Greco e di Latino si offre agli occhi in isplendidissime edizioni. I libri più rari pressochè tutti vi sono, 
+trattine que' d'<hi rend="italic">Astrologia Giudiziaria</hi>, e que' che son 
+ripieni di mera empietà. Quanto le Accademie di Francia, delle Isole Britaniche, d'Italia, di Germania, e quanto 
+hanno scoperto e trattato i migliori Filosofi dopo la 
+ristaurazione delle scienze sulla Metafisica, Politica, 
+Economia, Scienza di Commercio, Fisica, Meccanica, 
+Leggi del moto, Idrografia, Idraulica, Ottica, Astronomia, 
+Aritmetica, Geometria, Algebra, dottrina del Calcolo, 
+Scienza ed Architettura Militare, non si cercherà inutilmente. Anzi tra questi libri troverassi una concatenazione, che pochi possedono. Mediterranei, come siamo, non pensai a raccorre che pochi libri di Nautica 
+più utili a dare le generali nozioni di quest'arte.</p>
+<p>Sebbene quella stessa Filosofia, che contempla e svolge i misterj e fenomeni della Natura è poi norma al 
+bene e beato vivere. Per la qual causa i libri di Greco, di Latino o di altro idioma intorno alla Moral Filosofia entrano ad arricchire questa classe. Chi ama riconoscere le discordi opinioni de' filosofanti, troveralle 
+nei libri della filosofica istoria. Chi vago d'apprendere 
+più che l'acutezza della scolastica disputazione l'arte 
+di esporre ordinatamente le sue idee, nei buoni Logici 
+potrà riscontrarla.</p>
+<p>L'ARTE SALUTARE che considera il corpo umano, 
+ora nel suo stato naturale, ora infermo, che variamente 
+si denomina quando previene i mali e quando li espugna, che ha come fide ministre tante altre facoltà ed 
+arti, le quali o le somministrano la materia de' rimedi, 
+o glieli preparano, o vengono al suo soccorso colle 
+operazioni, abbraccia non pochi e dispendiosi libri. Cominciando dai fondatori delle diverse scuole ritrovansi 
+a mano a mano i migliori e riputati autori di Medicina, Anatomia, Botanica, Chimica, Farmacia, Chirurgia.</p>
+<p>Gli scrittori di <hi rend="italic">Agricoltura</hi> vecchi e recenti giacciono appresso. Questo studio sì caro agli uomini in 
+quella età, in cui, dice Arato, erano migliori, sembra 
+oggi rinato per molti letterati stranieri, ai quali</p>
+<p>
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Tempus in agrorum cultu consumere dulce est</hi>.</foreign></l></lg>
+<lg><l>"È dolce - il tempo dar dei campi alla cultura".</l></lg></quote>
+</p>
+<p>Abbiamo pure i libri, che da essi pubblicansi tuttodì, 
+utili del pari alla società, siccome elegantemente adornati. Quali superbi e rari libri di <hi rend="italic">Storia Naturale</hi> di-
+scorrendo per li tre Regni, non vi si conservano? Devono appagare chiunque sa l'immenso prezzo de' libri di 
+Piante e di Animali colorati.</p>
+<p>Interminabile fu saggiamente chiamata la CLASSE ISTORICA, imperciocchè, come scriveva l'Imperator Basilio 
+ne' capitoli parenetici a Leone suo figlio, tutte le nazioni ebbero vizj e virtù, e dall'alternare di quelli e 
+di queste è sempre nata la trista e felice conversione 
+degl'Imperi. Quindi non è paese, che co' suoi avvenimenti non ce ne offra qualche mirabile esempio. Io 
+non mi arrogo di aver potuto andare del pari con chi 
+raccoglie libri storici da lungo tempo, o vive in città, 
+ove i librai sono facoltosi, e le vendite frequenti. Niente 
+però di meno, ciò che hassi in questa classe, non ha 
+lasciato di appagare, ed anche sorprendere molti dotti 
+forestieri. Cose io qui ripeto assai note e contestate, 
+ma non fuori di tempo.</p>
+<p>Ma la Storia, secondo Eustazio di Tessalonica, nelle 
+osservazioni alla Periegesi, deve abbracciare le quattro 
+qualità del paese che si vuol descrivere; il <hi rend="italic">Topico</hi>, il 
+<hi rend="italic">Cronico</hi>, il <hi rend="italic">Prammatico</hi>, il <hi rend="italic">Genealogico</hi>. Ora questi 
+libri, che da chiunque legge con metodo si premettono, o si accoppiano allo studio della Storia, Geografi, Cronologi, Diplomatici ecc. esistono nella R. Biblioteca abbondanti e scelti, e nell'abbondanza e sceltezza sono alcuni pezzi unici, che da qualche rinomata 
+Biblioteca non si sono mai potuti acquistare. Basterà 
+trascorrere questa classe con un dotto catalogo alla mano per riconoscerli. So che la Diplomatica dei paesi 
+del Nord è oggi cresciuta a dismisura, perchè tutto si 
+stampa. Ma in quella moltitudine di Costituzioni, di 
+Prammatiche, Privilegj, Donazioni, Fondazioni, tutte 
+scritte nella Lingua patria, quasi tutto è puramente 
+locale, e agli altri inutile. La difficoltà era scegliere 
+ciò che è più raro e giovevole; ed io spero di non 
+avere errato mercè una vecchia perizia, e molto più 
+colla scorta di dotti amici in que paesi, giacchè è questo il gran presidio prima di avventurare le compre.</p>
+<p>È naturale ad ogni studioso artefice considerare con 
+occhio sagace le opere dei suoi pari, e dalle sviste altrui trarre ammaestramento. L'amor de' libri adunque 
+mi ha fatto contemplare ovunque ho potuto, le più celebri Biblioteche, ed ho osservato che in moltissime si 
+sta bene per la <hi rend="italic">Storia Ecclesiastica generale</hi> non così 
+per la <hi rend="italic">particolare</hi>. Si adunano le cose spettanti alle 
+chiese della propria nazione, o delle vicine, pochissimo 
+delle lontane. Ho studiato di evitare questo difetto, poichè dopo avere uniti i diversi Annali dell'uno e dell'
+altro Testamento, gli Storici Greci e Latini, Italiani o 
+d'altro idioma delle due Chiese, dei Patriarcati, della 
+Sacra Gerarchia, de' Concili, degli Scismi, gli Agiografi, 
+i Menologj, i Passionarj, le Memorie e le Controversie 
+degli ordini Cenobitici ed Equestri, alle Storie particolari de' Vescovadi e delle Badìe dell'Italia nostra, vi 
+ho aggiunte le più illustri di Francia, di Germania, di 
+Spagna, d'Inghilterra, di Olanda e di altre rimote regioni.</p>
+<p>L'altra parte di Storia, che riguarda le Memorie de' 
+popoli diversi, i quali si sono contesa e divisa la terra 
+è lo specchio più fedele delle passioni umane e della 
+loro violenza. Custode de' fatti con fortuna o sgraziatamente accaduti, ella addita le cagioni fisiche e morali 
+che gli hanno prodotti. Così Polibio sensatissimo del 
+pari ne' caratteri e ne' giudizj chiama la <hi rend="italic">Storia Civile</hi> 
+quasi madre della filosofia istessa e maestra della vita. 
+Fu perciò detto che gli Storici sono forse gli scrittori 
+più benemeriti del genere umano.</p>
+<p>Convinto di questa verità fino dalla prima fondazione 
+della Biblioteca cominciai a riunire quanti libri mi era 
+permesso di acquistare in questa classe. Degli Storici 
+adunque delle antiche Monarchie e degli altri profani 
+Greci e Latini, usciti dalle stampe de' Massimi, di Aldo, 
+di Andrea Asolano, di Stefano, di Oporino, di Ervagio, 
+di Elzeviro, della Tipografia Regia, del Teatro Scheldoniano ec. possiede S. A. R. a gran dovizia replicate 
+le pregevoli e ricercate edizioni in ogni forma, e quel 
+che è più, le vecchie traduzioni delle prime Stampe: 
+libri divenuti di prezzo esorbitante. Vivono quei che 
+videro meco questa collezione far invidia al Bibliotecario di un Sovrano liberalissimo per tali acquisti. Ma 
+le instancabili ricerche, il costante desiderio di servire 
+un Principe, degnissimo di esserlo da tutti, e le buone 
+corrispondenze han procurato alla Biblioteca ciò, che 
+ricchi viaggiatori non han potuto conseguire.</p>
+<p>Se tutte le <hi rend="italic">Storie</hi> delle <hi rend="italic">Città d'Italia</hi> non si sono 
+per anco potute acquistare, poche sono quelle che mancano, e tra quelle che si hanno molte non sono obvie, e 
+molta fatica ha costato il ritrovarle ne' proprj paesi, non 
+comparendo sì facilmente in commercio. Atterrito poi 
+dirò così, nel vedere presso un coltissimo letterato una 
+sala immensa piena da capo a piè di ciò, che alla sola 
+istoria dei Celti, dei Galli, dei Normanni, dei Francesi 
+si aspetta, vidi pure che bisognava limitarsi ai libri 
+principali, che abbracciano la Storia della <hi rend="italic">Monarchia 
+Francese</hi> secondo le diverse stirpi, quella degli uffici dipendenti dalla Corona, quella della nazione in 
+generale, delle migrazioni e colonie sue, quella delle 
+province di antico e nuovo acquisto, delle limitrofe e 
+delle Metropoli o città più rinomate. Forse la Biblioteca di Parma in tal genere è meglio provveduta di 
+molte altre vicine e lontane. Nè qui mi si rimprovererà, come ad Ulisse Giovenale 
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Solus enim Ithacus nullo sine teste canebat</hi>.</foreign></l></lg>
+<lg>
+<l>"Senz'altri lo dicea l'Itaco solo."</l></lg></quote></p>
+<p>
+Più letterati istruiti nella storia loro nazionale lo hanno 
+ripetuto ai ministri della Biblioteca dopo averne vedute 
+parecchie altre.</p>
+<p>I Cataloghi delle Biblioteche del Conte di Bruhl e 
+del Conte di Bunau, trasfuse ora nella Elettorale di Dresda, 
+mostrano la stessa immensità per la <hi rend="italic">Storia Germanica</hi>. 
+Noi possiamo francamente asserire di non scarseggiare, comprendendovi anche quel che vi è di più Settentrionale, e i finitimi popoli, che parlano diverse lingue. Devesi poi alla generosità di due soggetti, che 
+hanno lungamente dimorato a questa Corte, se nella 
+<hi rend="italic">Storia Brittanica</hi>, Anglo-Sassone, Anglo-Danica e delle 
+adiacenti isole siamo forniti delle cose più squisite, e 
+de più bei monumenti sparsi, per quei paesi. Stimato 
+l'uno da varj dotti Inglesi, erede l'altro di libri comperati a Londra dal Conte di Gisors, ci hanno procurata la collezione, che gl'Inglesi stessi attestano non 
+avere l'uguale nelle pubbliche Biblioteche d'Italia.</p>
+<p>Ma questa può vantarsi di possedere la collezione 
+più ricca e più rara che sia al di qua delle Alpi; della 
+Storia Generale e particolare dei Regni delle provincie, 
+città, Famiglie della <hi rend="italic">Spagna</hi>, e delle sue nuove possessioni. Quante gemme e quanti tesori vi sono appena noti ai più dotti e consumati Bibliotecarj? Rendonsi pur pregevoli le Storie del vicino <hi rend="italic">Portogallo</hi> e 
+della Monarchia Lusitana. Se a giudizio degl'intendenti 
+furon sempre rari i libri, che venivano dalle sponde 
+del Tago, rarissimi sono fatti dopo i disastri della Capitale.</p>
+<p>In quella vastissima parte del Globo che bagnano 
+l'Idaspe, l'Indo, il Nilo e il gran fiume delle Amazoni, 
+tutto diviene singolare a risapersi e presentano oggetti 
+interessanti il suolo, il costume, la polizia, i cambiamenti del governo. Ogni curioso ha nella nostra Biblioteca come instruirsi copiosamente in tanti non 
+comuni libri in lingue diverse della Storia di popoli Fenici, Assirj, Persiani, Arabi, Saraceni, Mussulmani, 
+Tartari, Etiopi, Egizi, Abissini, Cinesi, Mogolesi, Paraguaiti ec., e di quanti abitano il nuovo Mondo e le 
+isole per l'Oceano disseminate. Sarà sempre vero che 
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Ille per ignotas qui audax erraverit urbes </l>
+<l>Qua maris extremis tellus includitur undis</l></lg>
+<lg><l>"Quei che audace vagò per città ignote </l>
+<l> la Terra dall'ultime acque è cinta".</l></lg></quote></p>
+<p>
+Si persuade facilmente di produrre mirabili scoperte. 
+Lo hanno creduto Annone e Nearco, Eudosso e Pitèa, e 
+per un principio istesso lo credettero i moderni viaggiatori. Così è nata quella gran copia di <hi rend="italic">Viaggi</hi>, quali 
+per la Storia Civile, quali per la Naturale, altri pel 
+Commercio, altri per la Letteratura, moltissimi per la 
+facilità e sicurezza della navigazione, e questi ultimi 
+sono per lo più in Inglese e Olandese. Qui pure mi è 
+sembrato di dovere scegliere i libri più riputati e ai 
+nostri studj più confacenti; e le Stampe o carte elegantissime che gli adornano ne accrescono il valore.</p>
+<p>Rimane a dire dell'ultima delle quattro proprietà da 
+Eustazio indicate.</p>
+<p>Ragioni speciali moltiplicano al di là de' monti i libri 
+<hi rend="italic">Genealogici</hi>: Noi nel cominciamento della R. B. ci siamo 
+contentati di quanto è necessario per la connessione 
+della Storia d'ogni paese con quella delle case Sovrane 
+e delle Famiglie più illustri. E in questa classe le <hi rend="italic">Vite</hi> 
+degli uomini per fatti e imprese celebrati nel mostrarci 
+partitamente esempj di politica, di valore, di ben operare, compiscono la serie istorica. Non sono poche quelle, che oggi stanno nella R. Biblioteca. </p>
+<p>Secondo la nostra sistematica partizione succede la 
+<hi rend="italic">Scienza Araldica</hi>. Ma siccome la costituzione delle 
+cose nostre fa che non sia questo uno studio per noi 
+indispensabile, così a miglior tempo aveva riserbato 
+l'accrescere il numero di tali opere. Con tale scienza 
+vuole andar congiunta la <hi rend="italic">Cavalleresca</hi>. Ma cessato omai 
+il furore della monomachia, caduto lo studio de' puntigli 
+e della barbara maniera di vendicare le offese, immaginata dai feroci Scandinavi, parea questa classe meno 
+importante. Ma poichè gl'Italiani furon sempre i padri 
+e maestri della dottrina cavalleresca, ho anco procurato di mettere nella R. Biblioteca i libri classici di 
+Duello e di Onore.</p>
+<p>Un arte liberale, che ammaestra l'uomo ad esprimere 
+in uno o più idiomi le sue idee con felicità, con nitidezza, con armonìa, che dona al suo parlare una forza 
+dominatrice sugli affetti altrui; che gli porge i lumi 
+e i colori onde abbellire ogni cosa, che sparge di grazia e di amenità gli studj austerj; che ne arricchisce 
+la mente di moltiplici nozioni; che lo fa accorto a ravvisare negli scritti altrui gli errori e atto a emendarli, 
+non è soltanto un pascolo naturale dell'ingegno e un 
+ornamento, ma un arte ella è alla società utilissima. 
+Tale è appunto la FILOLOGIA, ed amplissima senza 
+dubitazione alcuna è questa classe, che si propaga per 
+tante diramazioni. I Grammatici antichi non solo della 
+lingua del Lazio, ma delle Orientali, divenuti sì difficili a unirsi, cominciano questa serie delle lettere umane. Nè l'amor dell'antico mi ha fatto dimenticare quei 
+che delle lingue hanno scritto filosoficamente. Gli accreditati autori dell'arte <hi rend="italic">Oratoria</hi> e della <hi rend="italic">Poetica</hi> Greci, 
+Latini, Italiani, Francesi succedono in non tenue copia.</p>
+<p>La Grecia che fu madre dell'Eloquenza piena di dignità, fu poi anche ne' tempi posteriori producitrice 
+della fallace declamazione. Così gli <hi rend="italic">Oratori</hi> e i <hi rend="italic">Sofisti</hi> 
+compongono questa subdivisione. I primi uscirono dai 
+torchi nitidissimi degli Aldi, degli Stefani, dei Morelli, 
+de' Giunti dei Benenati, e nel secol nostro sono stati 
+riprodotti in Inghilterra, o in Olanda: tutti si trovano 
+nella Parmense, delle vecchie e delle recenti edizioni. I 
+secondi terminano la raccolta. Del solo Cicerone tra gli 
+oratori latini il tempo ha rispettato gli scritti. E di 
+questi è ricchissima la Biblioteca nostra di edizioni primarie e secondarie, anche in membrane eseguite. A questi vengon dietro gli oratori del Secolo Mediceo o Leoniano.</p>
+<p>Di Alcibiade si narra che entrato in non so qual liceo, 
+e chiesto che se gli recasse l'Iliade, vilipese quasi uomo 
+il più indotto il Maestro, che rispose di non averla.</p>
+<p>Ma chi amatore del padre de' poeti entrerà nella R. 
+Biblioteca, potrà bene saziarsi e con tante edizioni, che 
+vi sono e colle versioni in più idiomi, e co' commentatori, e coi Lessici Omerici e colle Omerico-gnomologie, 
+Antichità, Contese, Apologie, e con tanti altri libri che 
+concorrono a comporre la <hi rend="italic">Bibliografia Omerica</hi>.</p>
+<p>Ho pure cercato di avere le antiche e le moderne 
+stampe splendidissime di tutti gli <hi rend="italic">Epici, Lirici, Drammatici, Bucolici, Didascalici, Gnomici Epigrammatici</hi> 
+Greci. Ma i difetti stessi, che deturparono la eloquenza 
+viziarono la poesia; e avvenne, che un tempo fosse più 
+grato agli orecchi Romani l'ampolloso Antimaco, che 
+il Divino Omero. Anche i Poeti del pravo secolo si posson vedere nella R. Biblioteca, e conoscere la decadenza 
+infelice delle Muse greche. Pochi furono in questo gran 
+numero di poeti quelli, che sieno rimasi senza traduttore: 
+e questi <hi rend="italic">Volgarizzamenti</hi> fanno la corona di simil collezione.</p>
+<p>Siccome dalla Grecia vennero ai Romani le idee della 
+<hi rend="italic">Legislazione</hi>, della <hi rend="italic">Militar disciplina</hi> e dell'<hi rend="italic">Economico Governo</hi>; così quella delle Arti e delle Lettere; 
+e fu scritto sapientemente che la imitazione, la quale 
+fu il fonte d'ogni bella impresa di stato appresso i Latini, lo fu ugualmente per la poesia.</p>
+<p>In due età ho diviso i <hi rend="italic">Latini Poeti</hi>. Gli antichi ho 
+studiato di averli tutti co' loro <hi rend="italic">Volgarizzamenti</hi>, e commentarj, così delle eleganti edizioni del secolo XV. e 
+XVII, come delle magnifiche ed ornatissime del secol 
+nostro. Dove può giungere il lusso librario noi siamo 
+pervenuti.</p>
+<p>I Moderni, ch'ebber fama in Latina Poesia fra i nostri maggiori dopo il rinascimento delle polite Lettere 
+sono numerosissimi. Ai quali ho aggiunti i poemetti 
+istorici, morali, encomiastici, scientifici più celebri degli oltramontani, che hanno coltivate le Ausonie Muse.</p>
+<p>Non dirò, che siavi un intero apparato di <hi rend="italic">Rimatori 
+Italiani</hi>, tuttavia ridondano armadj dei più scelti e desiderati. Le belle edizioni dei nostri primi maestri di 
+Poesia, e de' loro interpretratori fanno una continuazione 
+considerabile, nella quale s'incontrano tratto tratto de' 
+pezzi di preclarissima rarità.</p>
+<p>Ma la nostra poesia nata grande come la Greca e 
+la Latina ebbe un periodo, che ne oscurò la natìa eleganza. Vi è una verità, una bellezza inerente alla scienza ed alle arti, che ne forma il pregio essenziale; una 
+revoluzione generale de' costumi però come varia le idee 
+in infiniti oggetti, così influisce sul giudicio della 
+Letteratura. Arti e Scienze partecipano dell'indole del secolo che volge, e divengono come la luce che si tinge 
+più di uno, che di altro colore, secondo che la scabra 
+superficie de' corpi variamente la rifrange.</p>
+<p>Fu dunque una età, in cui la poesia nostra spirò tutta 
+la deformità che aveano i costumi. Era inutile cercare 
+i poeti di quel tempo; e que' pochi soltanto abbiamo 
+stimato di conservare nella nostra Biblioteca, che meno 
+aveano contratto i vizj comuni, o da' quali può trarsi 
+qualche utile notizia.</p>
+<p>Andava pure aumentando la ben principiata e magnifica collezione de' <hi rend="italic">Poeti Francesi</hi>, e di que' castigati 
+sublimi <hi rend="italic">Drammi</hi>, che possiam bene appellare.</p>
+<p><quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">In scenam missos magno cum pondere versus</hi>.</foreign></l></lg>
+<lg><l>"Versi con molta gravità posti in iscena"</l></lg></quote></p>
+<p>
+Le altre nazioni trovano in questa non adulta Biblioteca i loro più stimati <hi rend="italic">Verseggiatori</hi>, che una sola, 
+ma privata, in questa parte d'Italia possiede. Niuna però 
+è che stia al confronto per la <hi rend="italic">Poesia Spagnola</hi>. È noto 
+che la nostra collezione è più abbondante di quella di 
+Madrid, giacchè si è a noi ricercato qualche cosa, che 
+colà mancava.</p>
+<p>In quella parte di Letteratura, che Erasmo cominciò a chiamare <hi rend="italic">Poesia Prosaica</hi>, i curiosi non troveranno 
+tutti i <hi rend="italic">Romanzieri Italiani</hi>.</p>
+<p>Saggie riflessioni mi avevano indotto a procedere lentamente nella dispendiosissima compra di libri, che per 
+la oscenità debbon poi con tanta gelosia custodirsi. Ma 
+in quella vece vi troveranno le diverse nobili stampe 
+<hi rend="italic">de' Romanzi Greci</hi> colle loro traduzioni. Meno di ripugnanza nasceva per questi, che sono per lo più produzioni di scrittori Ecclesiastici.</p>
+<p>Rinata tra' Francesi questa giocosa maniera di raccontare veri e infinti casi e avvenimenti, si propagò 
+ben presto appresso gl'Italiani. Ma fu nostro vitupero 
+che i <hi rend="italic">Novellieri</hi> nostri fossero i primi a dimenticare le 
+leggi della verecondia.</p>
+<p>Non penetrò subito la contagione negli esteri paesi, 
+e serbossi altrove per lungo tempo maggiore costumatezza nello scrivere <hi rend="italic">Romanzi</hi>, ma in fine gli altri ci 
+hanno superato nel male, con una libertà, la quale è 
+bene spesso più perniciosa, quanto che più delicata.
+Fu meritamente inviso agli uomini e al cielo chi volle 
+fare l'apologia dell'indistinta lettura de' <hi rend="italic">Romanzi</hi>. Gli 
+<hi rend="italic">erotici</hi> sono sempre d'inciampo, i <hi rend="italic">faceti</hi> pieni di frivolezze; i <hi rend="italic">Cavallereschi</hi> incredibili; i soli <hi rend="italic">morali</hi> possono essere atti a ispirare sentimenti di virtù. Se inondano oggi da ogni lato, que' che si hanno nella R. Biblioteca possono permettersi agli uomini maturi.</p>
+<p>Ricordevole io però di aver fatto avvertire al Tit. 
+VIII. e XII. della Costituzione per gli Studj <hi rend="italic">quanto 
+importi non permettere alla gioventù la lettura de' 
+libri licenziosi, capaci di depravare il cuore</hi>, non ho 
+certamente contradetto a me stesso nella direzione della 
+Biblioteca. Bisognerebbe essere dell'indole di Teocrine 
+o di Patecione, per rimproverarmi questa incoerenza di 
+massime e di azioni.</p>
+<p>Natura ci ha formato così che ognuno ha il suo studio in cui prende diletto. Io avvezzo ad aggirarmi volentieri, come il figliuol di Demeo, tra le reliquie della 
+prisca età e le pallide ombre Greche e Romane, 
+avvezzo a meditare i monumenti delle due nazioni, a interpretargli, a porne in luce moltissimi mercè le stampe 
+dovea conoscere gli <hi rend="italic">Scrittori d'Antichità</hi>, dovea desiderare di avergli sotto gli occhi, per ripigliare un dì 
+le intermesse applicazioni. La nostra suppellettile di 
+libri di questo genere, oso dire che supera molte altre.</p>
+<p>Alle raccolte de' Musei più famosi e Tesori d'Antichità, 
+di <hi rend="italic">Bassi rilievi</hi>, di <hi rend="italic">Lapidi</hi>, di <hi rend="italic">Gemme</hi>, di <hi rend="italic">Statue</hi>, di 
+<hi rend="italic">Medaglie</hi>, e di Monumenti diversi dell'Asia e dell'Europa, succede quanto di maestoso han pubblicato i 
+Francesi, gl'Inglesi, gli Olandesi in questi ultimi tempi.
+Infiniti sono i Trattati d'Antichità scritta e figurata, 
+de' costumi, de' riti de' popoli, di particolari argomenti, 
+alcuni de' quali sono compresi nelle Miscellanee, e che 
+difficilmente si troveranno venali.</p>
+<p>Non recherò quì le vaghe edizioni de' <hi rend="italic">Poligrafi Greci 
+e Latini</hi>, che nulla ci lasciano invidiare alle altre librerie, de' <hi rend="italic">Polistori</hi> di varie Nazioni, che da due Secoli 
+in qua hanno di vario argomento trattato, e che oggi 
+formano corpi voluminosi, niuno de' quali a noi manca.
+Ma dirò che a questi mi sono ingegnato di accoppiare 
+i <hi rend="italic">Critici</hi> più oculati dell'età nostra. Emendavano, commentavano gli antichi, cercavano di restituire alla loro 
+vera lezione i classici Autori, ma non sempre con sicura dottrina. In quanta maggior luce di sapere siamo 
+noi oggidì! Ciò si potrà verificare in tanti libri di 
+<hi rend="italic">emendazioni, osservazioni, lezioni</hi>, ec. che occupano 
+uno spazio rimarchevole ne' nostri scaffali.</p>
+<p>E se gli <hi rend="italic">Epistolografi</hi>, cominciando dai Greci, e 
+venendo d'età per età discorrendo d'una in altra Nazione, sono di tanta utilità per le recondite nozioni, 
+che se ne traggono, il numero di que' che ho inserito 
+nella R. B. se non è vastissimo, è però da pregiarsi, 
+poichè si estende a tutti i diversi oggetti di Letteratura.</p>
+<p>La industria degli uomini appena può emulare la 
+Natura, e questa da lievi principj ordisce le sue produzioni, e non le avanza che con maturi progressi. 
+Esamini dunque altri se ciò che alla <hi rend="italic">Storia Letteraria</hi> 
+si aspetta potesse tutto velocemente adunarsi. Le <hi rend="italic">vite 
+de' Letterati</hi>, le loro <hi rend="italic">contese</hi>, le Efemeridi erudite, i 
+<hi rend="italic">Giornali</hi>, le memorie, gli estratti, i giudizj de' libri, 
+le infinite <hi rend="italic">opere periodiche</hi> d'ogni idioma, d'ogni materia, quali costantemente continuate, quali presto interrotte, chi non sa che formano per se stesse una Biblioteca? Io ho cominciato dalle cose più interessanti 
+e al presente non è certamente scarsa questa classe.</p>
+<p>Alla medesima accrescono pregio i <hi rend="italic">Bibliografi</hi> più 
+riputati, le <hi rend="italic">Biblioteche</hi> degli scrittori delle diverse 
+nazioni, di vario instituto, di professione od arte diversa. I <hi rend="italic">Cataloghi</hi> ragionati, gl'Indici, che danno tanto lume a chi sa servirsene, sono abbondanti. Tra 
+questi libri parecchi ve ne sono, che per danaro non 
+si troveranno più, e che io ho conseguito in dono da 
+illustri persone. Le memorie <hi rend="italic">Tipografiche</hi> fanno pure 
+un'appendice pregevolissima, che con piccola aggiunta 
+può compirsi.</p>
+<p>Non è qui tempo di disputare se la pubblicazione 
+di tanti <hi rend="italic">Dizionarj</hi>, d'ogni facoltà e materia abbia recato giovamento, oppure danno alle Lettere. Se questi 
+verranno a perfezionare le nostre cognizioni; o ad accrescere il numero de' semidotti. È un sentimento generalmente ricevuto che per moltissimi studiosi possono 
+essere utili e talvolta necessarj. Per la qual cosa io ho 
+preso pensiero di unire tutti i migliori Lessici delle 
+Scienze e delle Arti, che formano una serie non indifferente. Non ho preteriti i necessarissimi delle lingue 
+dotte ed usuali, e molte rarità trovansi tra i primi.</p>
+<p>L'<hi rend="italic">ultima Classe</hi> riguarda le ARTI LIBERALI e le 
+MECCANICHE. Dopo la gloriosa instituzionc di una R. 
+Accademia che le ha fatte neccssarie in questi paesi, ed 
+ha stesa la sua fama ai più lontani, non dovea il Bibliotecario trasandare di provvedere i libri magistrali, 
+utili agli studiosi di Pittura, di Architettura, di Plastica, 
+di Statuaria. Possono i giovani trovare nella R. B. gli 
+autori teoretici e i pratici, che hanno richiamati, o stabiliti i veri principj, che la Gotica orridezza avea guasti 
+nelle tavole, negli edifizj, nelle scolte figure. Manca 
+è vero una raccolta di stampe, su cui imparare le maniere tutte delle scuole diverse e dei differenti bulini, 
+la quale accrescerebbe una decorazione a tante altre 
+che distinguono la nostra Libreria. Io holla ardentemente 
+desiderata, ma vi voleva il consenso del Principe per 
+la spesa non indifferente; ed era richiesto un conoscitore di me più esperto in quest'arte. Niente però di 
+manco si hanno sontuosi libri, ne' quali possono osservarsi 
+le opere de' più eccellenti pennelli, che adornano le gallerie, gli edifizj di varie Metropoli, le statue, i monumenti più belli, che l'arte calcografica ha resi comuni. 
+Non pochi sono i <hi rend="italic">Ritratti</hi> di uomini illustri che servono 
+al Letterato e all'Artefice. Che se molte altre sono le 
+arti che servono alla società e ai comodi della vita, per 
+tutto abbiamo abbondevolmente quel che può istruire e 
+guidare in qualsivoglia costruzione e manifattura.</p>
+<p>Formano una classe singolare gli ATLANTI. Esistono 
+primieramente i diversi corpi maggiori, la riputazione 
+dei quali nè il tempo, nè le carte migliori hanno 
+oscurata. Tra questi merita d'essere ricordato l'Atlante di 
+Bleau in lingua Spagnuola, che abbraccia principalmente 
+i paesi ove avea dominio quella corona ai tempi di Filippo II. Egli è appena conosciuto per fama, poichè si 
+ha da autentiche memorie, che dopo l'incendio della stamperia, ove fu eseguito, ne rimasero appena alcuni esemplari. Esistono per secondo alcuni atlanti moderni, tra' 
+quali i militari, cosi delicatamente forniti, moltissime 
+carte de' più classici Geografi, molte iconografie di assedj, di battaglie, accampamenti, fortificazioni e per 
+entro a queste ve ne sono delle più ricercate da' curiosi.</p>
+<p>Esistono in più e più volumi le migliori e più stimate Topografie e Corografie di Paesi e Città, quelle 
+non solo che trovansi già unite da diligenti Raccoglitori, 
+ma quelle più rare, che non si compongono insieme, 
+che a stento grandissimo.</p>
+<p>Non è questa una pittura d'immaginazione, non una 
+descrizione esagerata, non un fucato abbellimento, non 
+un trasporto d'amor proprio. Ognuno può convincere 
+se stesso dalla reale esistenza delle cose colla oculare 
+inspezione. Adunque una censura vaga, indeterminata, 
+generica, ideale e senza prove, qual si legge in quel 
+foglio straniero, null'altro dimostra, che la perversità 
+della mente e del cuore di chi lo compose. Ed io potrò pure ripetere que' noti giambi
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Si livor obtrectare curam voluerit </l>
+<l>Non tamen eripiet laudis conscientiam.</l></lg></quote>
+<quote rend="block">
+<lg>
+<l>"Se vorrà invidia biasimar la cura, </l>
+<l>"Non potrà tor coscienza a mertar lode.</l></lg></quote></p></div1>
+<div1><head>II: Diligenze nell'acquisto de' Libri</head>
+<p>FULVIO Nobiliore, imitando i Greci esempj inalzò 
+nel circo Flaminio un tempio comune ad Ercole e alle 
+Muse; e dicesi, che volle fare intendere, che il culto 
+di quelle figlie della memoria non va mai disgiunto da 
+gravi cure e fatiche. Si estende questa verità massimamente alla fondazione di una Biblioteca, che è poi 
+il primo presidio alla coltura delle Lettere, e delle mansuete Muse. Ma ogni cura diviene piacevole e lieve, 
+quando s'intraprende per secondare le magnanime idee 
+di un gran principe inteso a felicitare i sudditi. L'amor 
+del Sovrano negli animi onesti è una forza elastica, 
+che non si minora da qualsivoglia compressione, e che 
+regge ad ogni peso.</p>
+<p>Non è tuttavia questa formazione opera sì agevole, 
+nè per gli omeri di tutti, quando la collezione de' libri 
+abbia a riuscire quale è quella poc'anzi descritta; e 
+quando il Bibliotecario deve circoscrivere a se stesso 
+certi confini di tempo e di economia. È vero che il 
+genere umano ha sempre abbondato di animi confidentissimi di se stessi, i quali si reputano atti a qualunque impresa; ma spesso chi più sel crede, e più lo ridice, <foreign lang="lat"><hi rend="italic">ampullatur in arte</hi></foreign> "si gonfia vanamente" e 
+si potrebbe domandare con quel poeta del tempo di 
+Graziano:
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Emptis quod libris tibi Bibliotheca referta est </l>
+<l>Expertum, doctum jam te evasisse putabis?</l></lg></quote></p>
+<quote rend="block">
+<lg>
+<l>"Perchè di compri libri hai biblioteca </l>
+<l>"Per ciò ti crederai esperto e dotto?</l></lg></quote>
+<p>
+Basta forse un privato corredo di libri, formato Iddio 
+sa come, per render l'uomo capace di giudicare di tante 
+e diverse cose, che in questa impresa conviene maturamente esaminare?</p>
+<p>Dovendo la Biblioteca servire all'istruzione in ogni 
+genere di studj, bisognava cominciare dal formare un 
+piano esatto de' libri più interessanti e più utili in ogni 
+scienza e facoltà, scegliere in ogni classe sacra e profana ciò che veracemente è primario, notare le edizioni 
+più emendate. La unione di libri comunali e di stampe 
+volgari era assai facile, ma non rispondeva ai nobili 
+disegni del Sovrano. Bisognava conoscere previamente 
+i prezzi de' libri, cercargli più in un luogo che in altro, ove il vantaggio si rendeva più probabile. Bisognava avere in ogni luogo principale di questo commercio amici illuminati e benevoli, consultarli al bisogno, valersene per la verificazione de' prezzi. Bisognava 
+procedere con lumi certi, evitare ogni tumultuaria operazione, seguire il precetto
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Inter cuncta leges et percuntabere doctos</hi></foreign></l></lg>
+<lg><l>"Scegli tra molti, ed interroga i dotti."</l></lg></quote></p>
+<p>Certamente non intende molto nel commercio librario 
+chi consultando i cataloghi di qualche emporio, e trovandovi quel che gli bisogna, ivi si ferma, ivi provvede, e tutto alla fede de' venditori concede. La prima 
+scienza è conoscere i luoghi, ove i dati libri possono 
+essere meno dispendiosi, che in altri. Vi sono particolari cagioni, le quali siccome in altre mercanzie; così 
+per i libri fanno variare i prezzi col mutare de' paesi. 
+Questa teoria dipende da più relazioni, e la cognizione 
+di esse richiede lunga esperienza: <foreign lang="lat"><hi rend="italic">seris venit usus ab 
+annis</hi>. </foreign>"Co' molti anni pratica si ottiene". Chi ha pratica del giro dei libri, che si fa nelle fiere di Lipsia, di 
+Francfort sull'Oder, di Vienna, nelle auzioni di Olanda, 
+se ne convince agevolmente. Può mai sperarsi, che a ciò 
+basti un uomo, che non abbia passati molti anni nelle 
+più scelte librerie, che trattato non abbia co' più istruiti 
+Bibliotecarj, che per lungo uso non conosca l'indole 
+de' librai di tutte le nazioni?</p>
+<p>Che io fossi pur giunto a qualche grado di sapere 
+in quest'arte, amo che per me il ridicano le lettere 
+di moltissimi uomini per dignità e per dottrina maggiori d'ogni lode, e de' più accreditati libraj, il commercio epistolare de' quali abbraccia la serie di molti 
+anni, e delle più colte città d'Europa. Dirò in quella 
+vece che i canoni bibliografici di sopra enunciati, che 
+tolgono gli equivoci nella varietà de' prezzi, dipendente 
+dal sito, dal tempo, dalle circostanze, che insegnano 
+le cautele da premettersi alle compere, sono quelli che 
+ho invariabilmente seguiti nella formazione della R. Biblioteca. D'onde poi è derivato, che a prezzi moderatissimi siansi acquistate molte opere insigni, che i cataloghi ci attestano essersi vendute per somme assai 
+maggiori. In cosa tanto saputa e manifesta si rende inutile la individuazione. Questa industre economia però 
+e queste diligenze sembra che debbano pur costituire 
+qualche benemerenza per chi seppe usarle.</p>
+<p>Se io volessi convincerne l'autore della censura, 
+sarebbemi duopo, come disse colui presso il Comico Menandro, purgarne prima il capo, da cui tanto umore sugli 
+occhi discende, che ha formata un iride incerta, la quale 
+non gli lascia scoprire alcun oggetto nella sua naturale configurazione. Ma giudici maggiori e più equi io 
+ricerco.</p>
+<p>In effetto queste prime sistematiche operazioni pia-
+cquero sì al R. Infante D. Filippo, che degnò darne le 
+più benigne testimonianze. La Provvidenza ha degli arcani, che cambiano le disposizioni umane. Desiderava 
+quel Sovrano di vedere condotta a termine questa sua 
+gloriosa instituzione. Iddio avealo riserbato all'Augusto 
+figlio, che regna fra noi, Principe d'indole la più felice, di mente capace delle cose più grandi, educato 
+in seno alle Lettere, istruito negli studj migliori, conobbe la utilità di questa paterna munificenza, la protesse con calore e ne divenne il maggior sostegno. Accrebbe, perfezionò, abbellì l'Infante D. Ferdinando la 
+Biblioteca, che a lui deve il suo ingrandimento, e il 
+presente suo splendore. Tanto egli è vero quel detto 
+di Dione, che dal principe sapiente deve aspettarsi ogni 
+bene.</p>
+<p>Incoraggiato io pertanto vieppiù dall'amorevol patrocinio di questo giovine virtuosissimo Sovrano, e rivolgendo nell'animo il desiderio di nuovi acquisti di libri, 
+mi sentii quasi spinto da quella lusinga
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Partim ipse invenies, partim sors suggeret ipsa</hi>.</foreign></l></lg>
+<lg><l>"Trovane parte: il più farà la sorte"</l></lg></quote></p>
+<p>Per la qual cosa intrapresi alcuni viaggi senza verun aggravio delle R. Finanze, a fine di trovar libri di 
+qualche rarità ne' luoghi meno osservati, e la propizia 
+fortuna ha pur voluto che ne dissotterrassi molti a discretissimo mercato.</p>
+<p>Queste mie fortune non assomigliavano al certo ai 
+depredamenti de' libri di Paolo Emilio, di Silla e di Lucullo nella Grecia, nel Ponto e nella Macedonia, o a 
+cert'altre librarie rapine; ma hanno arricchita con facilità e risparmio la R. Biblioteca di preclarissime cose, 
+ed hanno fatto conoscere ad alcune città, che zelo maggiore non potea impiegarsi pel R. servigio. E se tutto 
+pur hassi a dire, non tacerò di aver messi a civil contribuzione quanti amici Letterati ho in Italia, in Francia, in Germania, in Inghilterra per avere in dono de' 
+libri rari: e non è passato di qua Letterato di qualche grido, a cui non siami studiato di usare ogni cortesìa e generosità per ottenere in ricambio libri inutilmente cercati. Questi non sono pochi, nè gli ultimi 
+della R. collezione. Oso dire che Tirone spinto da amore 
+verso il suo divin Cicerone non fu nè più sollecito, 
+nè più sagace nel cercar Codici, onde ornare il Licèo 
+e il Ginnasio del suo Tusculano.</p>
+<p>Avrei perduta, come uom dice, l'opera e la rete in 
+questo studio, se credessi che le rarità di una Biblioteca si possono giustamente estimare dietro la scorta del 
+Voogt: pure, giacchè al censore piace nominarlo, giova 
+avvertire che trovansi in quella di S. A. R. 367. di que' 
+libri ch'egli pose tra i rari, ma è da aggiungere che 
+esistono 1700 e più da questo bibliografo non conosciuti, 
+e che sono di ugual rarità. Il raccorli però in un ristretto periodo di tempo, e colla prefissa limitazione 
+del denaro, ha costato a me sollecitudini, ricerche, fatiche, e qualche cosa di più.</p>
+<p>Venne accresciuta la nostra collezione, benchè nè 
+di molto, nè d'insigni cose, dallo spoglio delle Biblioteche 
+de' Padri Gesuiti. Non è senza deliberato consiglio ch'io 
+faccio quì menzione di questi libri. Dalla penna istessa 
+atrabilare, da cui è caduta la censura, venne scritto 
+che questi libri erano capricciosamente malmenati. Io 
+però non ignaro, che per alcuni uomini aventi il cuore 
+formato come quello di Aristomene
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Quantulacumque adeo est occasio sufficit irae</hi></foreign></l></lg>
+<lg><l>"All'ira loro ogni occasione basta"</l></lg></quote></p>
+<p>
+presentai già tempo una Memoria in discarico di questa 
+commissione. Ed ora, sebbene persuaso, come lo era Tacito, che certe querimonie cessan dall'avere il carattere 
+di verità, quando le vedute di chi le promuove son 
+quelle della passione, piacemi tuttavolta che questo affare qui si disveli.</p>
+<p>Adottatosi da S. A. nella rimozione dei suddetti Religiosi dai suoi Stati un sistema uniforme a quello degli altri Sovrani della sua Augustissima Casa, e devolutisi al R. Fisco i loro beni stabili e mobili comuni, 
+preservando io sempre religiosamente, e fino allo scrupolo, ciò che ai particolari apparteneva, e che ad altre 
+mani, non alle mie, fu affidato, nulla estrassi dalle Biblioteche degli evacuati Collegj senza l'intervento ed 
+assistenza di uno dei Delegati della R. Camera, Giudice, o Assessore, o Ministro, o Potestà, o Notaio, e 
+niun libro ho fatto trasportare, senza lasciarne ad essi 
+le note corrispondenti, che ad ogni bisogno han servito 
+a collazionare i libri. Tutti i trasporti furon fatti con 
+cautela. Ma nel condursi su i carri della Corte que' 
+volumi che erano in S. Rocco, e più nel passarli di 
+una in altra Galleria, malgrado la mia e l'altrui vigilanza, non potè evitarsi qualche smarrimento e qualche furtivo rappressaglia di chi meno dovea lasciarsi sedurre a mancare di fedeltà. Cagione per cui mi fu mestiere custodire questi libri sotto particolare chiave e 
+negare a molti l'accesso: <foreign lang="lat"><hi rend="italic">cautus enim metui</hi></foreign> "poichè 
+cauto temei".</p>
+<p>Nella memoria di cui ho fatto parola, ho distinto 
+questo cumulo di libri in quattro classi. Pongo nella 
+<hi rend="italic">Prima</hi> que' che per essere di buone edizioni e di conservazione sufficiente, dopo qualche restaurazione e qualche adornamento sono passati nella nuova galleria; facili a riconoscersi da chi gli ha maneggiati.</p>
+<p>Pongo nella <hi rend="italic">Seconda</hi> que' che sono rimasi nella vecchia Galleria. Di questi resta ancora a fare una seconda 
+scelta di ciò che può alla Biblioteca servire o potrà 
+esitarsi, rimanendo poi que' molti scompagni e imperfetti, e que' moltissimi mal tenuti e laceri, ovvero per 
+cancellature e macchie insanabili. Calcolate le somme 
+dell'utile e dell'inutile saranno generalmente di pochissimo uso, perchè sono la massima parte o Teologi, che 
+niuno consulta, o Filosofi che non han più accesso in 
+nessuna scuola, o Ascetici, che i migliori hanno fatto 
+dimenticare, o Memorie che non interessano alcuno.</p>
+<p>Alla <hi rend="italic">Terza</hi> richiamo i libri, che si sono venduti 
+a denari contanti. Qual sia la somma ricavata si ha 
+in un registro separato, com'è notato l'impiego fatto 
+di tal denaro, o in altro libro, o nelle ricevute degli 
+operai.</p>
+<p>L'<hi rend="italic">ultima</hi> poi comprende i libri permutati o dati ai 
+legatori in pagamento con risparmio del R. Erario, e 
+che non si sarebber mai esitati in altro modo, con pari 
+facilità e vantaggio. Questi pure son notati colle attestazioni di chi gli ha ricevuti.</p>
+<p>Così ho dimostrato a chi si dovea, la diligenza, l'industria, l'accuratezza da me adoperata in parte dell'
+officio mio. Che prova dunque in questa parte la censura, se non la Punica fede di chi la scrisse? Se accenno quì tali cose già transatte, non è perchè io immagini di aver bisogno di giustificazione presso gli uomini illuminati e virtuosi. Ma il volgo di tutte le nazioni fu sempre credulo, ed ingemina le voci, come 
+la rupe, senza intenderle. Ed il termine di volgo quanta 
+parte d'uomini alle volte comprende!</p>
+<p>Fra le tante fatiche però una tuttavia ho sempre ricusata, che è quella de' pagamenti e del giro del denaro. Esibite le note de' corrispondenti, ho lasciato che 
+gli sborsi si effettuassero pienamente dai Ministri della 
+R. Azienda. Esistono di ciò i documenti nella R. Computisteria; ed io non poteva scegliere deposito più sacro per collocarli. Importa ora ch'io passi ad esaminare 
+il Terzo articolo della censura.
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Eternae ne quid labis per laevia sidat</hi>.</foreign></l></lg></quote>
+<quote rend="block">
+<lg><l>"L'altrui bruttezza </l>
+<l>"Acciò per poco tutta non si sveli".</l></lg></quote></p></div1>
+<div1><head>III: Disposizione sistematica de' Libri</head>
+<p>Ignoranza e sapere, rettitudine e improbità sono bene
+spesso appellazioni che si appropriano arbitrariamente 
+all'uomo, il quale contento della sua dottrina e della 
+sua virtù, non dee curare il giudizio dell'invidia, che 
+non sì presto oscura o quella o questa.</p>
+<p>
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Insani sapiens nomen ferat, aequus iniqui </l>
+<l>Vltra quam satis est virtutem et petat ipsam.</l></lg>
+
+<lg><l>"Di stolto il saggio soffra nome, e il giusto </l>
+<l>"Quel d'iniquo; e rinforzisi in virtude".</l></lg></quote></p>
+<p>Ma sonovi nella vita degli uomini de' momenti, ne' 
+quali una sincera e moderata lode di se diviene una 
+perdonabile necessità. Dicevalo Solone accusato, e la 
+severità degli Arconti Ateniesi non seppe disapprovare 
+ch'egli cominciasse la sua arringa dal ridire quel ch'
+era stato sino a quel dì. Le censure fatte alla disposizione della R. Biblioteca mi pongono nel caso di valermi di questo genere di difesa, che è nel morale ciò 
+che nel fisico la reazione.</p>
+<p>Mi si conceda pertanto di dire, che avvezzo da molti 
+anni agli studj migliori, non ignoto ai Letterati Italiani e agli stranieri, onorato del favor loro, ascritto 
+alle più dotte Società, fregiato di luminosi impieghi, 
+che suppongono qualche talento e qualche Letteratura, 
+i libri divennero per me una passione, le Biblioteche 
+mi tenner luogo d'ogni delizia, la corrispondenza con 
+gli uomini più versati nella bibliografia mi fu sempre 
+il più dolce sollievo! Non racconto qui i sogni di Oreste, nè le favole Milesie: all'animo ingenuo e veritiero 
+di cento illustri uomini io mi appello.</p>
+<p>L'Italia non ha avuto ai giorni miei due Letterati, 
+che nella vastissima cognizione de' libri agguagliassero 
+il Sig. Apostolo Zeno e il Sig. Cardinal Passionei. La 
+lunga intimità con ambedue, e la quotidiana frequenza 
+di molti anni nella insigne Biblioteca del secondo mi 
+fecero acquistare una non volgar perizia de' libri. Ne 
+serbo le erudite lettere, e vi leggo gli ammaestramenti 
+bibliografici con quel piacere, con cui Scipione rileggeva i politici e i militari negli scritti di Senofonte.</p>
+<p>Colla scorta di questi sommi maestri e colla diuturna esercitazione era facile imparare qual sia il più 
+sistematico rapporto che i libri hanno fra loro, e il 
+più regolare collocamento di essi in una numerosa Biblioteca. Nè questa sola utilità ci sembra di aver tratta 
+dal commercio letterario. Se Quinto Sereno Sammonico 
+dopo di essersi aggirato tanti anni fra que' suoi infiniti 
+volumi, de' quali instituì erede Gordiano Secondo, non 
+avesse scritta alcuna cosa, si sarebbe forse detto che si 
+era soltanto occupato di uno studio, che <foreign lang="lat"><hi rend="italic">de Philosopho 
+librarium facit</hi>.</foreign> "Che forma d'un Filosofo un librajo". 
+Ma gli scritti suoi fanno fede che non passeggiava la Biblioteca per mero diporto. I non pochi libri di sacra 
+e profana Filologia da me pubblicati dimostreranno, che 
+non aggiungo qui inutilmente questo esempio.</p>
+<p>Non pertanto trascelto da liberal clemenza del R. 
+Infante D. Filippo con la più onorifica invitazione a 
+dirigere la Biblioteca, che si era proposto di formare 
+in pro de' sudditi, nel tempo che pago del mio splendido impiego di Istoriografo di Malta, alla illustrazione 
+di alcuni preziosi documenti era inteso, in questa nuova 
+epoca, in questa luminosa carriera, che per se stessa 
+mi si aprì, sentii il dovere di vie maggiormente istruirmi nello studio della bibliografia. Credei essermisi data 
+la opportunità nel viaggio che quel Sovrano mi permise di fare in Francia:
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Non equidem sine mente reor, sine numine Divûm</hi></foreign></l></lg>
+<lg><l>"Certo non senza, io penso,</l> 
+<l>"Disegno e protezione degli Dii";</l></lg></quote></p>
+<p>
+giacchè non può controvertersi, che la più sistematica 
+disposizione delle Biblioteche devesi a quella Nazione.</p>
+<p>Si era conteso più volte qual sia la meglio ragionata e più utile distribuzione dei libri. Come in ogni 
+altra disputazione così in questa i pareri non sono stati 
+uniformi. Chi ignora le stravaganze, che sono state immaginate, e quelle dei loro partigiani, simili a Mevio 
+e a Suffeno? Ma non pare da dirsi che sia cosa assolutamente arbitraria, poichè è un meccanismo scien-
+tifico fondato su certi principj.</p>
+<p>Al Presidente de Thou ed al Padre Garnier devesi 
+la più adequata idea. Perfezionolla poi uno de' più eruditi Bibliotecarj, l'Abate Sallier, per opera di cui quella 
+immensa serie de' libri della Biblioteca del Re prese 
+nuova forma e simmetria.</p>
+<p>Era un suo dettato che quel <foreign lang="lat"><hi rend="italic">tamquam in tabula</hi></foreign> 
+"come un quadro a dipingere si prenda", degli antichi è la base di questo affare. Procederà sempre male, e dovrà ripigliare da capo più volte il suo lavoro quel Bibliotecario, che prima non abbia presente a un di presso la somma e la varietà de' libri 
+che vuole ordinare. Come Eratostene di Cirene conosceva tutti i volumi dell'Alessandrina, ed Igino avea 
+quasi dipinti nella sua immaginazione que' della Palatina; così dipinta a se stesso la serie de' suoi libri, 
+tenendo presente il sito ove hanno ad esser collocati, 
+segua col pensiero e poi coll'opera la distribuzione, 
+che si sarà prefisso, dividendola in classi primarie e 
+subalterne.</p>
+<p>Ma bisogna, che queste formino tra loro una catena 
+delle successive cognizioni. E giacchè le scienze e le 
+discipline nelle loro diramazioni possono avere diversi 
+rapporti, è d'uopo che il Bibliotecario fissi una volta 
+per sempre quelli che crede più naturali, e più atti 
+a costituire questa corrispondenza delle parti col tutto, 
+che avrà mentalmente architettato: nel quale affare 
+può dirsi, che ricercansi <foreign lang="lat"><hi rend="italic">curaeque catenatique labores</hi>.</foreign>
+"Cure e fatiche di costante accordo".</p>
+<p>Le idee degli uomini grandi e sperimentati sono sempre archetipi ed esemplari. Tali a me sono sembrate 
+quelle dell'Abate Sallier, e le ho seguite costantemente 
+nella nostra Biblioteca.</p>
+<p>Nell'incominciamento di una Biblioteca spesso mancano gli anelli intermedj per conservare questo rigoroso concatenamento. In questo caso il Bibliotecario non 
+deve collocare i libri immobilmente in un sito, d'onde 
+non dipartirsi più; ma deve disporli <hi rend="italic">interinalmente</hi> 
+come può, aspettando di fare i principali acquisti, dopo i quali cambiare il sito ai suoi libri e riordinarli. 
+Allora soltanto come i fogli della Sibilla Virgiliana.</p>
+<p>
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Illa manent immota locis neque ab ordine cedunt</hi>.</foreign></l></lg>
+<lg><l>"Restano immoti, e l'ordin loro è quello".</l></lg></quote></p>
+<p>Se non si appiglia ad un tal metodo nei primi anni, 
+o bisogna che gli sconvolga in appresso, o che la disposizione riesca sempre confusa ed incomoda. Parlo discretamente dicendo i primi anni, poichè è impossibile 
+che adunando a poco a poco i libri con economia, e 
+raccogliendoli da diverse parti, abbiasi tutto ad un 
+tratto la sufficiente suppellettile per la concatenazione.</p>
+<p>Io non poteva abbracciare altro sistema nella composizione di una Biblioteca, che andava crescendo a dì 
+per dì, e che co' i suoi accrescimenti ora in una classe, 
+ora in altra induceva necessariamente la mutazione dei 
+libri d'uno in altro sito. Le sopravvegnenti migliori 
+edizioni, d'ordinario più volumose, disturbavano pure 
+inevitabilmente la primiera collocazione. Chi non fa, o 
+non vuol fare queste considerazioni trova sempre il disordine nelle nascenti Biblioteche. Ma chi è giudice 
+imparziale ed equo converrà che è un disordine meditato e necessario, come lo erano nelle pitture di Agatarco que' tanti suoi pentimenti, onde poi risultava la 
+bella convenienza tra le figure.</p>
+<p>È poi abbastanza dimostrato tra i periti che la disposizione de' libri in una copiosa Biblioteca non può 
+mai essere <hi rend="italic">verticale</hi>. Essa supporrebbe ciò che non fu 
+mai in natura. Il pretendere che in ciascheduno degli 
+scaffali tutti i libri dall'imo al sommo siano d'una materia istessa, è il medesimo che il volere, che in tutte 
+le classi si trovino in ragion reciproca tanti Tomi in 
+Quarto, che comprendano un sito uguale a quello occupato dagli in Foglio; quindi tanti Tomi in Ottavo 
+e in Dodici, che nella estensione pareggino il luogo tenuto dagli in Quarto. Ciò non potrà mai accadere perchè non è classe alcuna in cui trovisi questa proporzione tra la forma de' volumi, ed in parecchie la disproporzione è grandissima. Come seguire questa immaginaria disposizione? O bisognerebbe che per ogni classe 
+gli armadj fossero di costruzione differente.</p>
+<p>Bene dunque ed avvedutamente fu istituito dai dotti, 
+che si segua la disposizione <hi rend="italic">orizzontale</hi>; cioè, che dato 
+un punto principale, le materie si seguano secondo i 
+piani in giro, e facciano l'unione gl'in Foglio con gli altri loro simili, così gl'in Quarto e gli altri minori. I 
+biglietti poi affissi ai libri dimostrano subito il passaggio dall'una all'altra materia.</p>
+<p>Ora una disposizione fissata con scientifici principj, 
+coerente alla natura delle cose, ingegnosamente combinata, ricevuta nelle più insigni Biblioteche, propagata 
+oggimai d'una in altra colta nazione, io non saprei in 
+che ella possa meritare le riprensioni del censore, quando non sia per quel principio, che Epitteto, osservator 
+diligente de' costumi degli uomini assegna, che lo spirito di contraddizione non sempre nasce dall'amore della 
+verità, ma dall'invidia dell'opera altrui. Egli forse halla 
+biasimata in fede di taluno. Ma chi glie la descrisse 
+avea assai di sperienza per giudicarne? Assai Biblioteche l'una coll'altra avea confrontate?</p>
+<p>I dettami sicuri delle arti sono sempre il prodotto 
+di replicate e diverse osservazioni. Parlava molto della 
+disposizione degli eserciti e delle militari evoluzioni 
+Pirro dopo una, o due spedizioni, e gli Epiroti meno 
+pratici di lui lo ascoltavano maravigliando. Richiesto 
+Antigono, se il credesse veramente atto in queste cose, 
+rispose: <foreign lang="lat"><hi rend="italic">si senuisset in arte</hi>.</foreign> Invecchi altri nel mestiere, come coloro che ho adoperati in maestri, e vedrà, che se in una Biblioteca non vi è sistematica coerenza delle materie, i libri vi staranno come nel Teatro 
+di Tralle stavano le colonne, le cariatidi, i centauri, 
+i veroni dipinti da Apaturio di Abdera. A questo modo 
+appunto giacciono i libri nelle Biblioteche dal Censore 
+frequentate, ma non così ove seguasi l'esposto sistema.</p>
+<p>Porrò fine a questo paragrafo con una non inutil riflessione. In poche e veracemente insigni Biblioteche ho 
+osservato ritenersi più esemplari di una edizione medesima, quando il libro non è comunale. È una spezie 
+di dovizia, di lusso, di splendore, come ne' Musei lo 
+sono le medaglie di qualche valore duplicate. Ciò che 
+altrove è lodevolmente praticato potrebbcsi mai da taluno interpretare per effetto d'inconsiderazione? Il padre dei Comici Latini lo ha pur detto:
+<quote rend="block">
+<lg><l><foreign lang="lat" rend="italic">Homine imperito nunquam quicquam iniustius.</foreign></l></lg>
+<lg><l>"Niente più ingiusto di chi non conosce"</l></lg></quote>
+
+Succeda ora l'esame del quarto de' proposti articoli.</p></div1>
+<div1><head>IV: Catalogo ragionato dei Libri</head>
+<p>
+Avvi un assai facil maniera di far vedere tutti gli 
+oggetti a rovescio, e gli uomini capovolti. Ma questa 
+illusione, che naturalmente succede quando invece di far 
+riflettere l'immagine degli oggetti da uno specchio di 
+piana superficie, un altro si sostituisca che concavo sia, 
+secondo Alcinoo il Platonico è l'artificio di coloro, i 
+quali per travolgere le azioni altrui, e rappresentarle 
+in opposto aspetto, si fanno giuoco della popolesca 
+credulità. Chiamano in soccorso i mezzi più curvi e 
+ritorti, onde niuna cosa appaia sulla sua diretta natural situazione.</p>
+<p>A vero dire è sembrato a molti che l'autore del foglio siasene prevalso massimamente in questa parte della sua Censura, che riguarda il Catalogo de' libri, nella 
+quale si è studiato di dare un più fallace aspetto alla 
+verità. Ma come è agevole il dissipare il momentaneo 
+inganno di uno specchio cavo, così lo scoprire quello 
+del Censore. La netta e semplicissima esposizione delle 
+cose farà svanire la mentita rappresentazione.</p>
+<p>Nulla è più spedito che formare uno di que' Cataloghi che soglion vedersi comunemente nelle Biblioteche 
+nostre, nel quale il nudo titolo del libro è registrato. 
+Sono que' parti facili, ma che, secondo Teocrito nell'encomio di Ptolommeo, non lascian vedere nella prole l'immagine e i lineamenti di un illustre genitore. Ma diviene 
+arduo, diuturno, complicatissimo lavoro, quando nel catalogo si vogliono sviluppare i nomi equivocamente espressi, notare la patria, la condizione degli autori, 
+quando si cerca di verificare i luoghi mentiti delle stampe; quando si prende ad accennare il pregio de' libri 
+le loro vicende, e ciò che ne fa lo specifico carattere. 
+Chi è uom di studio saper dee che è un laberinto d'inestricabili meandri, e che a ciò si può adattare il pleonasmo <foreign lang="lat"><hi rend="italic">labore laboriosius</hi>.</foreign> "Viepiù della fatica faticoso."</p>
+<p>Se io dirò che in questo sistema il Bibliotecario è 
+necessitato di consultare una infinità di libri, e che 
+spesso non bastando quello che si ha di stampato conviene ricercare per lettere nei paesi, ove gli autori ebbero i natali, oppur vissero, le accertate memorie; che 
+è d'uopo vi sacrifichi molte ore del giorno, che talora 
+rifonda ciò che ha scritto; che è opera di anni e non 
+di mesi, a corto dire, che vi si richiede <foreign lang="lat"><hi rend="italic">multa dies et 
+multa litura</hi></foreign>, "tempo e cancellature assai assai", non 
+verrò commemorando se non cose dai dotti risapute. 
+Pure facea qui luogo di commemorarle per rimuovere 
+le ingiuste prevenzioni, e di chi è ignaro del mestiere 
+nostro, o di chi non fosse verso le cose nostre ben
+animato.</p>
+<p>Considerando io dunque la preziosità dei libri raccolti, e desiderando che il Catalogo avesse, quanto per 
+me si potea, le enunciate qualità, cominciai dal richiamare alla memoria quello delle più scelte Biblioteche 
+pubbliche e private della Francia, che avea diligentemente considerate. Dopo lunga meditazione mi determinai di anteporre il metodo tra Francesi oggidì comune, e passato già ad altre studiose nazioni, benchè 
+in Italia non ancora usato, che è quello di disporlo in 
+carte, da collocarsi in caselle alfabeticamente distribuite.</p>
+<p>Nascono da questo metodo quattro insigni comodi. 
+Il <hi rend="italic">Primo</hi>, che in una Biblioteca in cui sopravvengono 
+ogni dì nuovi libri, il registrarli in grossi volumi come 
+è il costume, importa inevitabilmente infinite cancellature dei fogli, spesso la necessità di ricopiargli e poi 
+quella di trascriverli d'uno in altro indice. Ma se si 
+erra in una carta, questa sola si rifà, nè si deturpano 
+le altre, che restano nella loro perfezione, con molto 
+guadagno di tempo e risparmio di fatica.</p>
+<p>Il <hi rend="italic">Secondo</hi> è che le addizioni che si fanno ad un 
+Catalogo descritto in libro non possono mai entrare 
+tutte sufficientemente ai loro luoghi. Possono ben mettersi sotto alla lettera iniziale del nome, ma è impossibile che faccian continuazione con gli altri per le altre lettere, che dopo la iniziale entrano nella composizione del nome. Non si lasciano mai tali interstizj 
+per inserire una quantità di nomi ai luoghi opportuni. 
+Convien dunque fare giunte, appendici, supplementi, 
+che torna lo stesso che dover talora cercare un libro 
+in più luoghi separati. Nel metodo delle carte altro 
+non si ha a fare, che inserire le nuove nelle caselle, 
+come il nome dell'autore determinatamente richiede.</p>
+<p>Il <hi rend="italic">Terzo</hi> comodo mille volte sperimentato si è, che 
+l'inserviente incaricato di cercare un libro de' meno adoperati se deve consultare il Catalogo scritto in volume, 
+spesso dopo avere osservate le indicazioni, dimentica 
+la lettera o il numero, oppure per non dimenticarsene 
+deve trascriverli. Per opposito con la carta in mano il 
+ritrova speditamente.</p>
+<p>Il <hi rend="italic">Quarto</hi> comodo risulta dalle indicazioni che ad 
+ogni carta si aggiungono. Si dee premettere una SCIENTIFICA DIVISIONE de' libri: dico scientifica, poichè 
+niuno è che non conosca esservi molti libri, che di 
+primo tratto non lasciano intendere a qual classe più 
+propriamente appartengano. Ciò dunque richiede studio 
+delle diverse relazioni che possono avere, per fissare la 
+più conveniente. Questa divisione dee essere contrassegnata con le lettere dell'alfabeto, che occorrendo si 
+raddoppiano, come da me si è fatto nel foglio stampato 
+ad uso della Biblioteca. La lettera colla materia corrispondente deve apporsi la prima a piè della carta.</p>
+<p>Ma siccome è indispensabile la indicazione locale, 
+ossia del sito, ove giace precisamente il libro, questa 
+si aggiunga al di sotto, e per maggior chiarezza in <hi rend="italic">carattere Rosso</hi>, seguita da tre numeri, il primo de' quali 
+addita la scansia, il secondo il ripiano, il terzo la determinata ubicazione del libro. Per tale effetto io aveva 
+fatto infiggere negli scaffali le lettere dell'alfabeto in 
+metallo dorato, avea cominciato a fare stampare in 
+carta sbiadata i biglietti da attaccarsi ai libri; avrei 
+fatte quindi rubricare le carte contemporaneamente, 
+non potendo ciò farsi prima.</p>
+<p>Contro un tal sistema sarebbe pure mal disegnata 
+la difficoltà, che essendo più agevole il furare una carta 
+che il radere dai Registri il titolo di un libro, meglio 
+riconoscer si può la mancanza con l'uso dei Registri, 
+che con quello delle carte. La R. Biblioteca di Parigi, 
+per dirne un solo esempio, tanto alla nostra nella copia 
+de' libri superiore, ha preferite le Carte ai registri, nè 
+mai in tanti anni è venuta in capo ad alcuno la suspizione di tal furto. Abitiam forse noi un paese peggiore, o le nostre Carte son forse date in custodia a 
+ministri di quelli meno fidati?</p>
+<p>Di certo Sofista competitore del filosofo Eudamida 
+sta scritto, che era di sì limitate idee, che ignorando 
+tutto ciò che succedeva fuor delle patrie mura, pronunciava giudizj i più contrarj all'esperienza. L'Autore della censura ci prova che in tutti i tempi rinascono sofisti di questo genere.</p>
+<p>Ma perchè porre tanto avvolgimento quando vi è 
+una via compendiaria che rende questo meccanismo sì 
+facile? Anche a me appena iniziato nel nuovo sistema, 
+nacque simil dubbio, e veggendo una di quelle carte 
+dissi con quell'attore 
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Pol</hi>! <hi rend="italic">praeter Sibillam leget nemo</hi>.</foreign></l></lg>
+<lg><l>"Affè: men la Sibilla, niun vi legge!"</l></lg></quote></p>
+<p>
+Mi fu risposto dal più dotto ed erudito Bibliotecario 
+che io conosca "Appunto è bene, che la complicazione 
+delle cifre, s'intenda dai soli Editui del tempio di 
+Minerva, cioè dai ministri della Biblioteca. Ciò si è 
+sperimentato essere un preservativo dai furti, che 
+succedono più frequenti, ove il catalogo si lascia 
+sconsigliatamente alle mani di tutti, e presenta un 
+obvia intelligenza." Ben si sa che certi ammaestramenti dell'arte non s'imparano che dagli uomini consumati, e che questi non si formano che nelle grandi 
+Metropoli.</p>
+<p>Volendosi quindi fare oltre il Catalogo alfabetico l'altro che segue l'ordine delle Classi o materie, una Carta 
+istessa, mercè la doppia indicazione serve per l'uno e 
+per l'altro. Chi ha copia di amanuensi e vuole spedirsi, raddoppia le carte e pone gl'indici in caselle diversamente disposte. Anche a ciò io avea pensato, e rimane una cassetta oblonga di due soli ripiani con XXIII 
+loculi per ciascheduno, colle lettere corrispondenti alla 
+nostra <hi rend="italic">sintassi</hi>, che a tal'uso io destinava, e vi si trovano le <hi rend="italic">carte duplicate</hi>. Ma allora è d'uopo che i copisti sieno intelligenti, celeri, accurati per condurre 
+l'opra a fine in breve tempo. I nostri son bene <hi rend="italic">calligrafi</hi>, ma non già <hi rend="italic">tachigrafi</hi> perchè pingono, non intendendo per lo più quel che scrivono. Ove trovarli 
+versati e nitidi, sì che al carattere il sapere risponda? 
+Mi sarei però sempre astenuto dal fare quegl'indici volanti delle materie, simili ai Ricettarj delle Spezierie, 
+che veggonsi in qualche non pubblica Biblioteca, persuaso altamente che LA TENUE UTILITÀ, CHE RIDONDA A 
+POCHI, NON COMPENSA IL GRAVE PREGIUDIZIO CHE NASCE PER 
+LA SICUREZZA DE' LIBRI. La sperienza, del sapere maestra, 
+ha convinti i più saggi Bibliotecarj che una Libreria 
+quotidianamente frequentata dev'esser regolata con leggi 
+o massime diverse. E se un sentimento naturale abbisognasse dell'estrinseca autorità, ripeterei quel di Demostene, che in ogni arte conviene andar sull'orme di 
+chi l'ha lodevolmentc prima di se esercitata.</p>
+<p>Quante cose poi in questo affare mi abbiano legittimamente ritardato dal recare l'opra mia alla voluta perfezione, rileva presentemente che io ricordi. Sino dai 
+primi dì del mio soggiorno in questa Capitale posi mano 
+alla formazione dei necessarj registri, passandoli al copista, perchè colle carte li trascrivesse, ed in diverse, 
+quando l'argomento il comportava, non aveva lasciato 
+di aggiungervi qualche letteraria ragionata notizia. Mercè la quale giornaliera fatica era il Catalogo inoltrato 
+non poco. Così proseguii costantemente, fino a quel tempo in cui 
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Ablatum mediis opus est incudibus illud </l>
+<l>Defuit et scriptis ultima lima meis.</l></lg>
+<lg><l>"Fu tolto a un tratto alle incudi il lavoro, </l>
+<l>"E ai miei scritti mancò l'ultima lima".</l></lg></quote></p>
+<p>Un comando prestantissimo di sollecitamente allestire 
+la Biblioteca per l'arrivo di un eccelso Principe, come 
+mi obbligò a riporre allora i libri nella miglior guisa 
+che si poteva, così questo meccanismo mi tenne occupato per uno spazio di tempo considerabile, senza che 
+intanto potessi proseguire con ugual calore i miei registri e farli ricopiare. Dedicatosi questo tempo alle placide Muse, la curiosità de' nazionali e degli stranieri era 
+il primo effetto che doveva seguire. In una folla di 
+curiosi, che si succedevano, allora massimamente che 
+il più lieto e fausto avvenimento rese la Città sì popolata, essendo io il solo conoscitore di quelle letterarie 
+dovizie e della loro posizione, ha bisognato assistervi 
+quotidianamente, mostrare agli uni e agli altri ciò che 
+poteva appagarli. Nel tempo istesso conveniva 
+indirizzare i novelli inservienti, non mai usi a questo mestiere, nelle loro incombenze, e dare incamminamento 
+a questa novella instituzione con tante varie provvidenze, quante sono necessarie nella creazione di un tutto 
+meccanico e scientifico insieme. E un occupazione di 
+questa natura può ella lasciare all'uomo assai di ozio 
+per gli altri studj? Io arrossisco quasi di commemorare fatti, che interessano si poco il Pubblico; ma quando la censura tiene un po' del calunnioso, la specificazione diviene scusabile.</p>
+<p>Per la ragione istessa dirò impedimenti maggiori che 
+abbracciano un periodo di quattro anni.</p>
+<p>Una troppo vantaggiosa opinione ed una singolarissima clemenza di S. A. R. fece sì che per sua assoluta disposizione io fossi incaricato della restaurazione 
+di questa Università, della direzione delle fabbriche a 
+quella necessarie, della compilazione di diverse nuove 
+costituzioni per gli studj, della inspezione delle scuole 
+Provinciali. Non accade qui esaminare qual celebrità 
+siane venuta al nome Parmigiano. I giudizj degli uomini saranno eternamente varj, come i loro affetti. Ma 
+se in questo frattempo io non ho all'intutto terminato 
+il Catalogo ragionato: otterrò al certo compatimento 
+presso le persone imparziali e discrete, rispondendo col 
+servo Tranione nella Mostellaria, che l'uomo non può 
+ad un tempo stesso bere e zuffolare, o per dirla con 
+più dignità, mi varrò delle parole di Cicerone: <foreign lang="lat"><hi rend="italic">duas 
+res praesertim magnas non modo agere uno tempore, 
+sed ne cogitando quidem explicare homo potest</hi>.</foreign> "Due 
+cose, specialmente di momento, un uomo non può 
+trattare al tempo medesimo, ma neppure sviluppare 
+col pensiero".
+Alla sicurezza de' libri intanto erasi abbondantemente 
+provveduto con l'impetrare da S. A. l'ordine, che sta 
+affisso stampato alla porta maggiore.</p>
+<p>Che se in tutti e quanti gli stabilimenti della R. 
+Casa è invariato costume, che chi vi presiede fidi la 
+custodia delle cose anche più gelose agl'inservienti 
+di provata onestà, io non dovea dipartirmene. In tutti 
+i tempi fu vero, che le cose </p>
+<p>
+<foreign lang="lat" rend="italic">NVLLO MVNIMENTO TVTIORES SVNT QVAM 
+VIRTVTE CIVIVM.</foreign>
+<quote rend="block">
+<lg><l>
+"Difesa non avranno più sicura </l>
+<l>Che la virtù di quei, cui l'uom si affida".</l></lg></quote></p>
+<p>
+Riconosciuta in tutti pari onoratezza, ugual fedeltà, non 
+dissimile zelo nel R. servigio, ho rimesso indistintamente 
+o all'uno o all'altro le chiavi, non solo ne' giorni di 
+concorso, ma in quelli destinati a ripulire la Biblioteca. Chi oserà mai asserire che per colpa di alcuni di 
+essi potesse mancar cos'alcuna? Lungi adunque rea 
+censura, che la Biblioteca non istesse a' Ministri subalterni ben raccomandata nel tempo della mia absenza. </p>
+<p>Sarebbe al certo opposta ai saggi dettami di Focione, che dal numero de' cittadini escludeva colui, che 
+intentava cause, e le coloriva colla sola suspizione. Nè 
+alla tanto necessaria sicurezza detraeva punto il far 
+prestito di alcuni libri o ai R. Professori, o a persone 
+conosciute, lasciando queste la loro ricevuta. Ogni viaggiatore mediocremente istruito farà fede esser questo 
+il costume delle Biblioteche di Parigi, di Vienna, di 
+Oxford, di Cambrigia, di Leyden, di Lipsia, di Gottinga. Parea da seguirsi in Parma, ove per certi studj 
+gli uomini di Lettere non trovano altro soccorso che 
+nella R. Biblioteca, a cui non tutti possono ogni dì 
+venire. O si sarebbe ripetuto quel detto di Luciano, 
+che i libri divenivano un vano ornamento delle pareti, se non si communicavano a chi ne abbisognava. Ritorniamo colà d'onde per poco abbiam divertito.</p>
+<p>Apparteneva pure alla diligenza mia il prender cura 
+di un esatto, ma più semplice CATALOGO da rimettersi 
+alla R. Computisteria, onde e delle spese e delle cose 
+possedute si avesse una generale informazione. Questo 
+esiste, e comprende tutti i libri acquistati sino a tutto 
+Giugno del 1768, che è quanto dire il massimo ed importante capitale.</p>
+<p>Prematura morte tolse allora a S. A. R. un operosissimo servitore in chi erasi accinto a perfezionare questo lavoro. Fu dipoi ripigliato da altra industre mano, 
+ma nuove combinazioni destinando quest'uomo ad altri 
+R. e pubblici servigj; fecer nascere un impedimento 
+difficile a prevedersi, più ancora a superarsi.</p>
+<p>Io conosceva bene il consiglio di Esiodo, che chi 
+fabbrica, se non pone col tetto anche l'intero coronamento alla casa, corre rischio, che la Cornacchia venga 
+a gracchiarvi sopra: 
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Neque domum fabricans linquas mutilamque rudemque:</l>
+<l>Ne forte insideat cornicans garrula cornix.</l></lg>
+<lg>
+<l>"Non lasciar (fabbricando) non compiuto, </l>
+<l>"Che la cornacchia il nido non vi ponga"</l></lg></quote></p>
+<p>
+Ma a chi mancano gli operai, il tempo e il favor della 
+stagione, non può imputarsi qualche imperfezione dell'edifizio.</p>
+<p>Ora per recare le molte cose in una, e terminare 
+questo articolo, pongasi mente alla conseguenza che dalle 
+narrate verità per se stessa emerge.</p>
+<p>Se dunque al menzionato Catalogo si riuniscano le 
+quattordici mila carte nitidamente trascritte, le altre 
+già preparate, le note autentiche de' libri estratti dai 
+Collegj de' Padri Gesuiti, le liste de' libraj e degli altri 
+venditori diligentemente conservate, si fa manifesto che 
+realmente esiste un indice pienissimo di tutto l'acquistato. Se poi queste memorie non erano puranco trasfuse in un sol volume, nè ridotte a finitezza, bastavano però a me per la sicura direzione. E quando a 
+tanto non si fosse pervenuto, io non esito di provocare, che mi si additi una numerosa Biblioteca, ove 
+la perfezione del Catalogo possa dirsi contemporanea 
+alla provvista de' libri. A che mira dunque la decantata censura sulla perfezione del Catalogo?</p>
+<p>I disegni del censore eran forse quelli di Asinio Pollione, che avea preparata una concione contro Planco, 
+ma da recitarla quand'egli non potesse rispondere? In 
+questo caso dovea rammentarsi di quella sentenza di 
+Dite Candiotto:</p>
+<p><foreign lang="lat"><hi rend="italic">Iniquum videtur insimulare eum, qui absit, quum 
+fieri possit, ut si quae criminose obiecta sunt praesenti reservatione diluantur.</hi></foreign></p>
+<p>"Sembra cosa iniqua attaccare di che siasi uno assente, potendo accadere, che se alcunchè di criminoso 
+sembri poterglisi obiettare, un'avvertenza di esso, se fosse presente, lo discolpi - ".</p>
+<p>Resta ch'io dica de' libri scritti a mano.</p>
+</div1>
+<div1><head>V: Manoscritti della Biblioteca</head>
+<p>
+Nella frequenza delle Statue ond'era largamente adorna la nuova Roma dopo la traslazione dell'impero sulle 
+rive del Bosforo Tracio, quella pur vedeasi della candida <hi rend="italic">Equità</hi>. Codino, che la descrive, afferma che tra 
+gli altri simboli tenea nella sinistra un libro <foreign lang="lat"><hi rend="italic">quod probus vir recordatione opus habeat, quae per libros 
+acquiritur</hi>.</foreign> "perchè l'uomo probo abbisogna di memoria, quale si acquista per mezzo de' libri."</p>
+<p>Direbbesi che il nostro Censore ne apprezzi molto il 
+culto di questa Divinità, poichè si è dimostrato sinora, 
+che di tutto giudica con aperta passione, nè che molti 
+libri abbia versati, giacchè de' manoscritti nostri parlando, dimostra egli stesso di non avere la memoria 
+ricca di grandi notizie in simile materia. Dai quali due 
+argomenti non piaccia mai a Dio, che io ne tragga in 
+conseguenza ch'ei non sia <hi rend="italic">Uom probo</hi>, ma pare da potersi almeno asserire con incolpata coscienza, ch'ei non 
+sia di sufficiente sperienza provveduto, per riconoscere 
+o vituperare i pregj di una Biblioteca.</p>
+<p>Se io volessi adottare quel canone della Germanica 
+Bibliografia, che i libri impressi dalla invenzione della 
+stampa sino al principio del Secolo Sedicesimo, si devono valutare per altrettanti <hi rend="italic">Manoscritti</hi>, noi saremmo 
+assai doviziosi.</p>
+<p>Si ostentano in qualche Biblioteca Italiana alcune poche di quelle primitive edizioni, e credesi di avere il 
+tesoro di Callicrate. O fortuna o diligenza sia stata S. 
+A. R. ne possiede un corredo incomparabilmente maggiore: con questo divario che quelle Biblioteche contano secoli, e la nostra nasce or ora. Ma io ripudio 
+quel Canone, che travolge le idee delle cose, ed amo 
+parlare propriamente dei testi a penna.</p>
+<p>Questa non è una mercanzia, che si trovi in copia 
+presso i libraj, o che si presenti venale, massimamente 
+nei paesi scarsi di librerie e di depositi di vecchie membrane. Quando non si rilevi qualche Biblioteca che siane 
+provveduta, vi vogliono anni ed anni a raccorne certo 
+numero, cercandone or qua or là con sagacità e spesa. 
+Esclusi da chi sopravvegliava alla formazione della R. 
+Biblioteca due contratti di Manoscritti, uno per giuste 
+politiche riflessioni, l'altro per concorrenza di spese più 
+pressanti, bisognò andarli accattando come la sorte li 
+offeriva, e dotti corrispondenti me li proponevano.</p>
+<p>Qui non era da sognare, che alcuno di lontano ce 
+li recasse, come Crisolora, Lascaris e Calcondila arricchirono Firenze e Milano. Qui non erano da sperarsi 
+donazioni simili a quelle di Bessarione e di Ximenes 
+che nobilitarono le Biblioteche di Venezia e di Alcalà. 
+Qui non eravamo al caso di far passare in Oriente i 
+Thevenet, i Fourmont, i Sevin per cercare i Codici: 
+queste spedizioni sono riserbate alle grandi Monarchie. 
+Bisognava dunque contentarsi di ricerche uguali alle 
+forze e alla posizione di un'indagine economica, di 
+que' mezzi che lo zelo, l'attenzione potevano suggerire. 
+Da quello che si è raccolto ognuno potrà rilevare, che 
+questi mezzi non sono stati vani ed inefficaci.</p>
+<p>Due Armadj e mezzo contengono i nostri Manoscritti. 
+Gli Ebraici scritti in pergamena son tutti ottimi per 
+giudizio di un dotto Rabbino, che gli ha maturamente 
+esaminati, ed alcuni possono dirsi veracemente singolari. Ne' cartacei poi sonovi trattati alcuni aneddotti, 
+che potrebbono aumentare la collezione degli Scrittori 
+Giudaici. Fra i Greci ecclesiastici sempre è stata riguardata dai buoni conoscitori come stupenda cosa la 
+liturgìa di S. Giovanni Grisostomo scritta ad aurei caratteri in lunghissimo rotatile volume. L'uguale non 
+s'incontrerà così facilmente. Un Evangeliario parimente 
+membranaceo del Secolo X. o in quel torno, comecchè 
+mutilo sul principio, è interessante per la integrità dei 
+passi controversi.</p>
+<p>Tra i nostri membranacei Latini sacri e profani, tutti 
+da pregiarsi per la materia e la conservazione, sempre 
+otterrà da chi è versato, commendazione grandissima il 
+Sant'Ildefonso Toletano, sia per l'antichità, sia pel carattere, sia per le figure che largamente lo adornano. 
+Non è punto scarsa la collezione delle cose Liturgiche, tutte pure in membrane descritte; e la varietà de' 
+riti e delle preci di diverse Chiese, che vi si leggono 
+è uno degli argomenti che rendon preziosi i nostri <hi rend="italic">Messali, Breviarj, Lezionarj, Offizi</hi> ec. La ricchezza e varietà dei loro ornamenti, corrispondenti alle varie età 
+e alle maniere diverse delle nazioni, fra le quali furono scritti e dipinti, non solo rendeli più vaghi all'
+occhio, ma instruttivi de' costumi religiosi e civili di 
+que' popoli. Chi conosce le consuetudini de' secoli precedenti e l'uso de' Codici dopo Carlo Magno, apprezza 
+quei che sono stati scritti in grazia d'illustri e rinomati personaggi. Havvene alquanti con questa caratteristica, degna di osservazione.</p>
+<p>Si hanno altresì Classici Greci e Latini, che si possono consultare con profitto. Le dichiarazioni 
+interlineari ad Omero e gli Scolj marginali ad Euripide contengono sensatissime noterelle, che Clarke e Barnes avrebbero forse ricevute. I comentarj amplissimi a Varrone, che per la somiglianza della scrittura si credono 
+di Daniello Barbaro, non costituiscono un Codice elettissimo ed utilissimo per chi meditasse una nuova edizione di quell'autore? Le elaboratissime annotazioni a 
+Manilio non sono meritevoli di stampa? Le varianti del 
+più antico dei tre Lattanzi non sono forse pregevoli? 
+I due Plinj, l'uno colle note autografe del celebre vescovo di Mompellieri, quello stesso che con tanta lode 
+cita l'Harduino e l'altro in membrane con elegantissime aureo-colorate figure, non sono pur dessi stimabili, e non hanno somministrate importanti castigazioni? Ma lungo sarebbe l'individuare gli altri libri di 
+questa natura.</p>
+<p>Se quello, che è da noi per età men distante, o per 
+altre relazioni a noi più congiunto invita naturalmente 
+la curiosità nostra con forza maggiore, conviene qui 
+accennare le cose del <hi rend="italic">medio</hi> ed <hi rend="italic">infimo evo</hi> e le <hi rend="italic">patrie</hi>, 
+che abbiamo ne' nostri manoscritti.</p>
+<p>Monumenti preziosi e inediti vi sono riguardanti gli 
+studj sacri, la Storia, le umane Lettere, gli Scrittori 
+Parmigiani pressochè sconosciuti, ma meritevoli di venire in luce. Se noi pubblicassimo i Trattati, le Orazioni, le Epistole, i Poemetti, ec. che giacciono nascosi 
+per entro i nostri Codici, potremmo agguagliare molti 
+di quelli <hi rend="italic">Spicilegi, Analetti, Tesori, Aneddoti</hi>, ch'escono dalle altre Biblioteche.</p>
+<p>Io ho studiati i Manoscritti nostri e a molti ho premesse lunghe prefazioni, le quali sono forse più meditate di quelle che vediamo nelle suddette raccolte. 
+Sarebbe questa la confutazione più autentica del Censore, che senza aver veduti i Codici, osa vilipenderli, 
+non riflettendo, che nel biasimarli così, non solo si 
+dimostra ingiusto, ma insulta alla munificenza del Principe che ne è possessore.</p>
+<p>Allora, oltre all'arricchire la Repubblica di cose pellegrine, apparirebbe per tale pubblicazione che la ragion de' buoni studj, che il Petrarca trovò qui stabilita mercè gl'insegnamenti di Modio e di Gilberto, si 
+è costantemente sostenuta, che nella coltura delle Latine e Greche lettere molti Parmigiani hanno ottenuta 
+lode di sapere; le produzioni de' quali rimangono dimenticate; che se cinque nazionali hanno conseguita la 
+poetica corona, altri ve ne sono che potevano aspirare 
+a quest'onore.</p>
+<p>Ma il pubblicare i libri può esser facile ad un uomo 
+ch'entra a presiedere ad una Biblioteca già formata, 
+ove degli altrui sudori profitta, miete quel che altri ha 
+seminato, e spesso diviene come il servo di Aristofane, 
+che 
+<quote rend="block">
+<lg><l><foreign lang="lat"><hi rend="italic">Alio coquente ollam paratam sustulit</hi>.</foreign></l></lg>
+<lg><l>"Si prende la pietanza da altri cotta".</l></lg></quote></p>
+<p>
+Non così per chi è occupato nel cercare a grave fatica codici e libri, e farne il necessario adunamcnto. 
+Zenodoro, Callimaco, Apollodoro, Varrone, e gli altri 
+famosi Bibliotecarj non avrebbero scritto tanto, se avessero dovuto pensare a trovar prima i libri.</p>
+<p>Degnissime di luce sarebbero parimente le <hi rend="italic">Tavole Nautiche</hi> da S. A. R. possedute, le quali a chi le osserva 
+con occhio erudito mostrano i progressi dello spirito 
+umano in quest'arte, e le successive scoperte della 
+terra. Non emmi nascoso che altrove qualcuna se ne fa 
+vedere a' curiosi, ma non ve n'ha tanta copia di età differenti e lavorate in diversi marittimi emporj.</p>
+<p>Niuno poi havvene, che sia così pregevole per l'antichità e per la estensione come la mappa del 1367, che 
+ora è nella R. Biblioteca, di cui ha sì ben ragionato 
+l'erudito autore delle Invenzioni e degl'Inventori Veneziani. Io mi compiaccio di aver potuto offerire al R. 
+Infante questo preclarissimo ed unico Monumento nel 
+tempo che stava per passare il mare, ed arricchire un 
+rinomato Gabinetto.</p>
+<p>Ne' paesi poi a quali il commercio marittimo, o le 
+Missioni facilitano certa corrispondenza col vastissimo 
+Imperio dell'Asia, i <hi rend="italic">libri Cinesi</hi> non sono infrequenti. 
+Ma nel centro della nostra Gallia Cisalpina son essi di 
+molta rarità. Così gli otto volumetti della morale di 
+Confucio coi tre Comenti, tra gli altri accrescono qualche lustro a quegli Armadj. La prefazione accenna come 
+sien pervenuti alle mie mani, come mi pervennero le 
+lettere originali in carta di <hi rend="italic">Bambou</hi> scritta da un Vicario Apostolico, celebre per le sue dispute con potenti 
+oppositori. Ma parlando di libri esotici non posso dissimulare una importante osservazione.</p>
+<p>Si è spacciato da taluno che certo Jeromonaco Maronita, non saprei bene se dell'ordine Antoniano o se 
+di quello de' Circumcellioni, capitato mesi sono alla R. 
+Biblioteca avesse asserito che il nostro pregevolissimo 
+Alcorano sia stampato e non manoscritto. Il parlare di 
+costui è sembrato gravissimo, e a quel modo che le 
+ruote di certe macchine per un grado di calor soverchio perdon l'equabile regolato moto, il troppo ardore 
+di contraddire seco trasse il precipitato giudizio di taluni. Ritornato dipoi in paese questo Romipeta Orientale ha costantemente negato a diversi letterati essergli 
+sfuggito uno sproposito sì badiale. Nella opposizione 
+de' testimonj bisogna ricorrere al buon senso. O questo 
+girovago ha veracemente parlato così, o no. Nel primo 
+caso ei non sa nè di stampa nè di scritto, poichè se 
+avesse saputo legger l'Arabo avrebbe trovato in calce 
+il nome dello scrittore <hi rend="italic">Ben Ismael</hi>. Oltracciò abbondano di Alcorani e di libri Turcici a penna Roma, 
+Napoli, Malta, Firenze, Parigi, e basta averne veduti 
+pochi per riconoscere la insussistenza di tal giudizio, 
+da cui non può lasciarsi circonvenire, se non chi sia 
+digiuno di notizie a segno di non distinguere un codice da un libro stampato.</p>
+<p>Nel secondo caso sembra una trista e infelice invenzione per diminuire il pregio di uno dei bei monumenti da S. A. R. posseduti, come per noi si è procurato di dimostrare nel Prologo, che vi abbiamo prefisso.</p>
+<p>Apransi pur dunque confidentemente a qualunque 
+dotto forestiero gli scaffali de' nostri manoscritti 
+<quote rend="block">
+<lg lang="lat" rend="italic"><l>Expertes invidentiae Musarum fores</l></lg>
+<lg><l>"Nè invidia accoglie il Tempio delle Muse".</l></lg></quote></p>
+<p>
+Gli esempi passati ci assicurano che ognuno vi troverà 
+di che ammirare e partirne pago.</p>
+<p>Se non che questi monumenti di Letteratura dovuti 
+ad un sommo principe, protettore d'ogni bell'arte, ridiranno alla più tarda posterità, che egli le conosceva, 
+le apprezzava, che voleva favorirle in questa felice 
+dominazione, che emulando i due Monarchi di quell'avita 
+stirpe, da cui origin trae, <hi rend="italic">Carlo il Sapiente</hi> e <hi rend="italic">Francesco padre delle Lettere</hi>, amplificata la R. Biblioteca, 
+e raccolti libri d'ogni disciplina, facoltà e idioma, ne 
+ha fatto copia ai felici ingegni di quella nazione, su 
+cui soavemente impera.</p>
+<p>Queste verissime considerazioni della sua beneficenza, 
+del suo sapere, del suo luminoso esempio mi hanno impedito di sprezzare la contumeliosa censura fatta alla 
+R. B. come un tempo si vilipesero le epistole di Antonio, le Concioni di Bruto, le elegie di Bibaculo, che 
+vituperavano le più gloriose imprese di Giulio e di Augusto. La noncuranza è spesso la pena maggiore della 
+maledicenza. Pure siccome gli scrittori di quella età, 
+che avean la sorte di appartenere ai Cesari, si credettero in dovere di disingannare il popolo, facile a lasciarsi sedurre nei suoi giudizj; per un principio assai 
+analogo ho stimato di dover rivendicare la più profittevole instituzione di questo immortale Sovrano, e il 
+più illustre monumento di questa avventuratissima Capitale.</p></div1>
+<div1><head>Osservazioni</head>
+<p>
+Non poche ne occorrerebbero, ove i miglioramenti introdotti dai successivi Bibliotecarj nella Biblioteca di Parma, e i varj consigliati sistemi direttivi fors'anco, volessero porsi in mostra, quanto alla classazione 
+di una Biblioteca a livello della luce dei nostri giorni.</p>
+<p>Non avendone ora l'agio, nè il tempo, basterà accennare, che 
+dopo non pochi contrasti, a 17 Maggio dell'anno stesso 1785, in che 
+mancò il Paciaudi, il celebre P. Ireneo Affò M. O. fu nominato di 
+lui successore. Bene avventurata quella città, quale, al pari quasi 
+di Modena, ebbe di uomini di tanta dottrina e operosità, non interrotta successione. Era nato Ireneo in Busseto nel 1741, ed ivi pure 
+a 14 Maggio 1797, mancò di vita. L'Ab. Matteo Canonici, unitamente credo, o nei secondi onori, con Angelo, poi cavalier Pezzana, 
+ne occuparono il posto.</p>
+<p>E ben degnamente, in ispecie quest'ultimo, di cui nato nel 1772 
+la recentissima perdita nel dì 10 Gennaro 1862, avvenuta, tutt'ora da 
+chi ebbe la sorte di conoscerlo si compiange. Delle lodatissime Storie 
+Civile e Letteraria di Parma dall'Affò intraprese e dal Pezzana condotte a compimento, non è qui luogo a dar coscenzioso giudizio. Il 
+meritissimo Sig. Federico Odorici intendiamo essergli succeduto, e da 
+esso sperasi avremo in breve adequata monografia intorno a quello 
+stabilimento, al certo uno dei più tenuti in giorno e ben regolati che 
+vi abbia l'Italia; e ai distintissimi suoi Bibliotecarj. E ciò basti quanto 
+alla Parmense Biblioteca.</p>
+<p>Aumentando ogni giorno il prezioso patrimonio dell'umano sapere, e conseguentemente in vasta proporzione i libri, che sono il 
+mezzo per cui ai lontani e ai posteri vien trasmesso, una estesa 
+cognizione della Bibliografia (o descrizione de' libri) elevata oramai direbbesi alla dignità e grado di scienza, diviene per tutti gli studiosi 
+forse, ma per alcuni in singolar modo sempre più necessaria.</p>
+<p>Pressochè infiniti perciò sono oggi anco gli autori, che han creduto utile dare istruzioni in materia, e opera forse sempre manchevole, non che non necessaria, intraprenderebbe chi di tutti si assumesse di dar contezza.</p>
+<p>Non pochi hanno trattato della classazione di una Biblioteca, e volume dotto in proposito e pensato uscì in Firenze 1854 in 4°. per opera 
+del già Palatino Bibliotecario Francesco Palermo.</p>
+<p>Ove però una se ne avesse giusta le norme non così complicate, 
+additate dal Paciaudi e loro necessarie subalterne suddivisioni, la causa 
+degli studiosi potrebbe dirsi tutelata bastantemente.</p>
+<p>Più particolareggiata poi, anzi specificata minutamente, si ha 
+nell'ultimo volume dell'opera, quale pare credasi oggi indispensabile, e 
+a formare un discreto Bibliografo sufficiente. Del <foreign lang="fra"><hi rend="italic">Manuel</hi></foreign> di Giacomo 
+Carlo Brunet stampato prima nel 1804. e di cui dopo la ottima Quarta 
+Edizione fattasi a <foreign lang="fra"><hi rend="italic">Paris</hi></foreign> 1842, in 4°. picc. Vol. V. è in corso attualmente, 
+e sta per rimanerne compita altra assai più copiosa ristampa; ognun vede che io intendo dire.</p>
+<p>Ivi pure, in fine di detto ultimo Volume trovasi l'enumerazione, 
+la più copiosa forse, che si abbia, dei libri di Bibliografia.</p>
+
+<p>Alle SEI Classe dal Paciaudi distinte, cioè: </p>
+<p>
+I. TEOLOGICA
+II. NOMOLOGICA o LEGALE
+III. FILOSOFICA
+IV. ISTORICA
+V. FILOLOGICA
+VI. ARTI</p>
+<p>
+agevolmente posson ridursi i libri tutti, nè qui fia necessario additarne le naturali subalterne suddivisioni. Ciascuna vanta più o meno 
+trattati, o ragionate enumerazioni delle opere che ad essa si riferiscono. 
+Qui però non potendo darne relazione, come si richiederebbe distinta, 
+ci limiteremo ad accennare, come per saggio, poche opere principalissime che il Bibliotecario non può dispensarsi dal consultare.</p>
+<p>
+I. Le Long. <foreign lang="lat">Bibliotheca Sacra.</foreign> <foreign lang="fra">Paris</foreign> 1723. f°. v. II.</p>
+<p>Musch. <foreign lang="lat">Bibliotheca Sacra. Halae-Magd.</foreign> 1778-90. Vol. V. in 4°.</p>
+<p>Pagnini <foreign lang="lat">Bibliotheca Sancta.</foreign></p>
+<p><foreign lang="lat">Fabricii Jo. Alberti Biblioth. Ecclesiastica. Hamb.</foreign> 1708. f°.</p>
+<p>-- <foreign lang="lat"><hi rend="italic">Bibliotheca Graeca</hi>. Hamburgi</foreign> 1705. in 4°. Vol. XIV. ristampata ivi 1708, e 1718, parimente in XIV. volumi, poi ivi 1790-1811. 
+in 4°. XII. volumi.</p>
+<p>-- <foreign lang="lat"><hi rend="italic">Bibliotheca Latina</hi>. Venetiis</foreign> 1728, in 4°. V. II. Edizione fin 
+qui da preferirsi dopo la prima di Hamburgo 1697, e la più moderna migliorata forse da Gio. Augusto Ernesto, ma rimasta interrotta al III. volume, senza cioè gli scrittori Cristiani e i necessarii indici.</p>
+<p>-- <foreign lang="lat"><hi rend="italic">Bibliotheca Latina mediae et infimae Latinitatis a Jo. Dom. 
+Mansi correcta illustrata et aucta</hi>. Patavii</foreign> 1754. Vol. VI. in 4°.</p>
+<p>Di questa utilissima Opera, uscita prima <foreign lang="lat"><hi rend="italic">Hamburgi</hi></foreign> 1734. 36. 
+vol. VI. 8°. unica nel suo genere, e senza di cui saremmo nella 
+più assoluta oscurità quanto a gli scrittori che fiorirono nei 
+tredici primi secoli dell'Era Cristiana, fu eseguita in Firenze 
+ed è per esser pubblicata, diligente esatta ristampa con numerose, sebben tenuissime aggiunte.</p>
+<p><hi rend="italic">Arvood (Eduardo) Biblioteca degli Autori Classici sacri-profani 
+Greci e Latini</hi> supplita da Mauro Boni e B. Gamba. Venezia, 
+1793 v. II. in 12°. gr.</p>
+<p>Operetta assai stimata e forse la migliore finora che in questo
+tema si conosca. Quanto ai SS. Padri, ivi pure compresi, più 
+piena notizia può aversene nel libro.</p>
+<p>Wiest (<foreign lang="lat">P. Stephanus Cisterc.) Institutiones Patrologicae.</foreign> Ingolstad 
+1795. 8°.
+II. Fontana (Aug. <foreign lang="lat">Bibliotheca Legalis. Parmae</foreign> 1697, fol°. vol. VII. </p>
+<p><foreign lang="lat"><hi rend="italic">Lipenii (Martini) Bibliotheca Theologica</hi> Francof.</foreign> 1689. f°. vol. II.</p>
+<p>-- -- <foreign lang="lat"><hi rend="italic">Iuridica</hi>. Ibid.</foreign> 1679. f°.
+III. -- -- <foreign lang="lat"><hi rend="italic">Philosophica</hi>. Ib.</foreign> 1686. v. II. f°.</p>
+<p>-- -- <foreign lang="lat"><hi rend="italic">Medica</hi>. Ib.</foreign> 1679. f°.</p>
+<p>La <foreign lang="lat"><hi rend="italic">Bibliotheca Iuridica</hi></foreign> escì ampliata. <foreign lang="lat">Lipsiae</foreign> 1757, II. vol.
+in fol°. son poi da aversi: </p>
+<p>Scott. <foreign lang="lat">Supplementa. Lips.</foreign> 1775. f°</p>
+<p>Senkemburg, <foreign lang="lat">Supplementorum. t. secundus. Lips.</foreign> 1789. f°.</p>
+<p>Madinha, <foreign lang="lat">Supplem. vol. tertium. Vratislaviae</foreign> 1816. 20. vol. II. fol°.</p>
+<p><foreign lang="lat"><hi rend="italic">Merklini, Lindenius renovatus seu de Scriptis Medicis</hi></foreign> ec. <foreign lang="lat">Norimbergae.</foreign> 1686. 4°.</p>
+<p><foreign lang="lat"><hi rend="italic">Mangeti, Bibliotheca Medico-Practica</hi>. Genevae,</foreign> 1695. 4. v. fol. etc. </p>
+<p>Haller, <foreign lang="lat">Bibliotheca Medico-Practica. Bernae,</foreign> 1776-88. 4. v. 4°.</p>
+<p>-- -- <foreign lang="lat"><hi rend="italic">Botanica</hi>. Tiguri,</foreign> 1771-72. V. 2. 4°.</p>
+<p>-- -- <foreign lang="lat"><hi rend="italic">Anatomica</hi>. Tiguri,</foreign> 1774-77. V. 2. 4°.</p>
+<p>-- -- <foreign lang="lat"><hi rend="italic">Chirurgica</hi>. Bernae,</foreign> 1774-75. V. 2. 4°.</p>
+<p><hi rend="italic">Eloy, Dizionario Storico della Medicina</hi>. Napoli, 1764. tomi 7 in 8°.</p>
+<p>Monsig. Marini per i suoi Archiatri Pontificii mostrò di farne 
+assai conto.
+IV. <hi rend="italic">Lenglet, Metodo per studiare la Storia</hi>. Venezia. Coleti 1714. 8°. 
+v. II.</p>
+<p>Ristampato molte volte, e avente nel II°. vol. un catalogo 
+degli Storici di tutte le Nazioni nelle ultime aumentato.</p>
+<p><hi rend="italic">Fontanini (Giusto), Biblioteca Italiana</hi> con annotazioni di Apostolo 
+Zeno. Venezia 1753. 4°. v. 2. e Parma 1803. 4°. v. II. con agg.</p>
+<p><hi rend="italic">Haym, Notizia de' libri rari della Lingua Italiana</hi> (con le aggiunte di Ferd. Giandonati) Milano 1771. 4°. v. 2. e ivi 1803. 
+v. 4. 8°.</p>
+<p><hi rend="italic">Coleti, Catalogo delle Storie d'Italia</hi>. Venezia, Coleti, 1776. 4°.</p>
+<p><hi rend="italic">Morelli e Farsetti, Catalogo delle Storie d'Italia</hi>. Ven. 1776. 12°. 
+grande.</p>
+<p><hi rend="italic">Ranghiasci, Bibliografia Storica dello Stato Pontificio</hi> e Supplemento. Roma 1793. 95. 4°.</p>
+<p><hi rend="italic">Moreni, Bibliografia Storica della Toscana</hi>. Firenze 1805. 4°. v. 2.</p>
+<p><hi rend="italic">Vermiglioli, Bibliografia Perugina</hi>. Perugia 1824. 4°.</p>
+<p><hi rend="italic">Cicogna, Saggio di Bibliografia Veneziana</hi>. Venezia, 1847. 4°.</p>
+<p><hi rend="italic">Giustiniani, Biblioteca Storica del Regno di Napoli</hi>. Nap. 1793. 4°.</p>
+<p>E gli altri di ciascuna città o nazione.
+V. <hi rend="italic">Argelati, Biblioteca de' Volgarizzatori</hi>. Milano. 1767. 4°. vol. V.</p>
+<p><hi rend="italic">Paitoni, Biblioteca de' Volgarizzatori</hi>. Venezia 1767. 4°. vol. V.</p>
+<p>Questa seconda ha fama di più esatta, non si estende però, 
+siccome la precedente, agli autori tutti, che scrissero prima del 
+Secolo XVI, pregio non lieve di quella.</p>
+<p><hi rend="italic">Federici</hi> (Fortunato), <hi rend="italic">Degli Scrittori Greci e delle Italiane versioni delle loro opere. Notizie</hi>. Padova 1828. 8°.</p>
+<p>-- <hi rend="italic">Degli Scrittori Latini e delle Italiane versioni</hi> ec. Padova, 
+1840. 8°.</p>
+<p>Repertorj di qualche utilità, specialmente per comprendere 
+i tempi posteriori all'Arvood, all'Argelati e al Paitoni. Potrebbero dirsi anco compendj delle Biblioteche del Fabricio. Resta 
+ora che alcuno dia lavoro simile sulla di lui Biblioteca degli 
+Scrittori del Medio Evo. Fece sperare nella Prefaz. (del 1840) 
+il Federici che sarebbe uscita operetta consimile dell'Ab. Antonio Roncetti intorno alla Bibbia, e di altro erudito riguardo 
+ai SS. Padri, il che crediamo non siasi finquì verificato.</p>
+<p>Infinite notizie de' poeti Italiani e di altre Nazioni non altronde meglio possono attingersi, che dalle opere seguenti: </p>
+<p><hi rend="italic">Andres (Giovanni) Dell'origine e progresso d'ogni Letteratura</hi>. 
+tomi VIII. Roma 1808. in 4°. Pistoja, Vol. 27. 8°. Pisa Vol. 
+VIII. 8°. ecc. Napoli 1826. 8°. V. IX. con elogio e ritratto.</p>
+<p><hi rend="italic">Crescimbeni (Gio. M.), Storia e Comentarj della Volgar Poesia</hi>. 
+Venezia 1731. 4°. vol. VI.</p>
+<p>Per le annotazioni di Apostolo e Caterino Zeno e di altri, 
+preferibile alle prime edizioni di Roma.</p>
+<p><hi rend="italic">Quadrio (Francesco Sav.), Istoria e Ragione d'ogni Poesia</hi>. Bologna 1739, e Milano 1752. 4°. vol. VII.</p>
+<p>Opera utilissima e ricca di notizie, che difficilmente si ritroverebbero altrove.</p>
+<p><foreign lang="lat"><hi rend="italic">Placcii</hi> (Vinc.) <hi rend="italic">Theatrum Anonymorum</hi>. Hamburgi</foreign> 1780. f.</p>
+<p>-- <foreign lang="lat"><hi rend="italic">De Scriptoribus Pseudonimis</hi> Ib. </foreign>708. f.</p>
+<p><hi rend="italic">Melzi (Gaet.), Dizionario di opere Anonime e Pseudonime di Autori Italiani</hi>. Milano, 1848. 59. 4°. picc. vol. III.</p>
+<p><hi rend="italic">Lancetti (Vinc.), Pseudonimia</hi>. Milano, 1847. 8°.</p>
+<p><hi rend="italic">Gamba (Bartolommeo), Serie de' testi di Lingua</hi>. Escita prima in 
+Bassano 1805. 8°. Milano 1812. 16°. vol. II. Venezia 1829. 4°. 
+è la quarta di Venezia, <hi rend="italic">Gondoliere</hi> 1839. 4°. con ritratto, quella 
+che conviene avere. L'opera è un doviziosissimo, scelto prospetto 
+delle migliori produzioni in Lingua Italiana. Dei soli testi di 
+Lingua veramente, esistono compendj tascabili stampati in Firenze 1807. Milano 1812 (questo colle aggiunte). Lucca 1835. 
+Firenze 1851, e Trieste 1858. Oltre le due edizioni dell'Indice 
+del <hi rend="italic">Bravetti</hi>. Venezia 1775, e Verona 1798. 8°.</p>
+<p><hi rend="italic">Poggiali</hi>, Serie de' testi di Lingua da lui posseduti. Livorno 1813. 
+8°. v. 2.</p>
+<p>Necessario per conoscere tante opere Italiane da lui poste 
+innanzi, onde sieno dichiarate testi di Lingua.</p>
+<p><hi rend="italic">Gamba</hi> (B.) <hi rend="italic">De' Novellieri in prosa</hi>. Venezia 1833, 8°. e con aggiunte Firenze, Molini, 1835, 8°</p>
+<p><hi rend="italic">Henrion, Biblioteca de' Romanzi Antichi di Cavalleria</hi>. Firenze, 
+1795. 8°.</p>
+<p><hi rend="italic">Melzi (e Tosi</hi> Paolo), <hi rend="italic">Biblioteca de' Romanzi e Poemi Cavallereschi Italiani</hi>. Milano, 1838, 8°</p>
+<p>Per le edizioni poi del primo Secolo della Stampa.</p>
+<p>Audiffredi, <foreign lang="lat">Catalogus Editionum Romanarum Saec. XV. Romae, </foreign>
+1783. 4°.</p>
+<p>-- <foreign lang="lat"><hi rend="italic">Specimen Editionum Italicarum Seculi XV</hi>. Romae </foreign>794, 4°.</p>
+<p><foreign lang="lat"><hi rend="italic">Fossii</hi> (Ferd.), <hi rend="italic">Catalogus editionum Sec. XV. quae in Magliabechiana asservantur</hi>. Florentiae </foreign>793. f. v. III.</p>
+<p>PER IL TEATRO.</p>
+<p><hi rend="italic">Farsetti, Catalogo di Commedie Italiane</hi>. Venezia, 1776. 12°.</p>
+<p><hi rend="italic">Allacci</hi> (Leone), <hi rend="italic">Drammaturgia</hi> (Italiana). Roma 1666. 12°.</p>
+<p>-- La stessa (ampliata dal Biscioni e dall'Ab. Cendoni). Venezia, Pasquali, 1755. 4°.
+VI. <hi rend="italic">Comolli (Ang.), Bibliografia dell'Architettura</hi>. Roma, 1788. 92. in 
+4°. vol. IV.</p>
+<p>Bartsch (Adam), <foreign lang="fra">Le Peintre Graveur. Vienne</foreign> 1803-21. XXI. 
+vol. 8°.</p>
+<p><hi rend="italic">Cicognara, Catalogo di Libri d'Arte e di Antichità. Pisa</hi> 1821. 
+8°. vol. II.</p>
+<p>Questo specialmente è guida necessaria al raccoglitore di Opere riguardanti le Belle Arti.</p>
+<p><hi rend="italic">Lichtenthal (Pietro), Dizionario e Bibliografia della Musica</hi>. Milano, 1826. 8. t. IV.</p>
+<p>Utilissime poi a consultarsi sono tutte le Biblioteche degli 
+Scrittori dei diversi Ordini Religiosi, quelle degli Scrittori delle 
+singole città, alcune delle quali si son di sopra annoverate. Nonostante che ad esse nella prefazione ai IV. volumi della Storia 
+Letteraria della Liguria si mostri tanto avverso il celebre Gio. 
+Battista Spotorno.</p>
+<p>PER I MANOSCRITTI.</p>
+<p><hi rend="italic">Trombelli, Arte di conoscere i Codici</hi>. Bologna, 1756, 4°. e con 
+una Lettera di Girolamo Tartarotti. Roma, 1838. 4°.</p>
+<p>Montfaucon, <foreign lang="lat">Bibliotheca Bibliothecarum Manuscriptorum. Parisiis, </foreign>
+1730, f. v. II.</p>
+<p>Pasini, <foreign lang="lat">Codices MSS. Biblioth. R. Athenei. Taurinensis. Taurini, </foreign>749, f. v. II.</p>
+<p>Bandini, <foreign lang="lat">Catalogus Manuscriptor. Bibl. Mediceo Laurentianae. 
+Flor. </foreign>764. 95. f. vol. XI.</p>
+<p>Mittarelli, <foreign lang="lat">Catalogus Manuscriptor. Biblioth. S. Michaelis prope 
+Murianum. Ven. </foreign>779, fol.</p>
+<p><hi rend="italic">Morelli, Codici MSS. Volgari e Latini della Libreria Nani</hi> riferiti. Ven. 1776. 4°.</p>
+<p>-- <hi rend="italic">Biblioteca Manoscritta Farsetti</hi>. Venezia, 1771, 76. 12°. v. II.</p>
+<p><hi rend="italic">Marsand, Codici MSS. Italiani della R. Biblioteca di Parigi</hi>. 
+Parigi, 1835-38. in 4°. v. II.</p>
+<p>Paris (Paulin), <foreign lang="fra">Les Manuscripts Français de la Bibliothèque Du 
+Roi. Paris, </foreign>.36. 48. in 8°. vol. VII.</p>
+<p><hi rend="italic">Palermo, Manoscritti della Palatina di Firenze</hi>. Firenze 1853. 
+58. in 4°. vol. II.</p>
+<p>Ben più ampio e ricco di scelta erudizione può vedersi tale elenco nel recentissimo libro - <hi rend="italic">Manuale Storico-Pratico di Bibliografia 
+di Gius. M. Mira</hi>. Palermo 1862-63. 8° vol. II. opera originale, e 
+che, malgrado non poche inesattezze, che ci proponghiamo di fare 
+osservare in apposito scritto, fa onore all'Italia, proclive sempre pur 
+troppo a ispirarsi agli oracoli di oltremonte.</p>
+<p>Fra le tante osservazioni che potrebbero farsi sulle cose dette dal 
+Paciaudi in questa sua dotta, ed elegante apologia, di una non sembra dover lasciarsene al tutto priva.</p>
+<p>Encomisi pure il sistema venuto da Francia di fare i Cataloghi a 
+schede, e ammettiamo le cinque comodità, che dice derivarne 1°. Del 
+potersi aggiungere senza guastarne il rimanente. 2°. Di poter collocare 
+le Addizioni al loro vero posto. 3°. Della facilità del ritrovamento de' 
+libri con la scheda alla mano. 4°. Del potere a ciascuna scheda aggiungerne illustrazione. 5°. Di potere agevolmente dare all'Indice disposizione diversa, cioè per materie.</p>
+<p>Fatto luogo alla erudizione del fatto del Sofista competitore di 
+Eudamida, non dissimula il Paciaudi però il rilievo ESSER <hi rend="italic">più agevole 
+furare una carta, che il rader lo scritto in un indice</hi>, e DI QUI IL 
+GRAVE PREGIUDIZIO CHE NASCE PER LA SICUREZZA DE' 
+LIBRI.</p>
+<p>Cosicchè sembrerebbe saviezza non servirsi del metodo delle schede, 
+se non se per agevolare il Registro a libro, senza del quale il Catalogo non potrà dirsi essere stato formato.</p>
+<p>E ritenere, che il metodo da preferirsi sarebbe: di rispettare religiosamente i cataloghi primitivi, tenerne uno apposito per quelli che 
+sopraggiungono, e questi per alfabeto provvisoriamente non rigoroso; poi ogni tre anni, per esempio, farlo trascrivere; e ciò tanto più, 
+che i libri sopravvenienti sono per lo più moderni, e quindi ragionevolmente e senza dissesto degli Studiosi possono venir cercati per 
+mezzo di Catalogo, da quello degli antichi separato e distinto.</p></div1>
+<div1><head>Indice</head>
+<div2 n="Indice">
+<list>
+<item>Prefazione pag. III</item>
+<item>Vita del Paciaudi " VII</item>
+<item>Catalogo delle opere " X</item>
+<item>Introduzione "1</item>
+<item>I.
+Sceltezza e copia de' libri " 4</item>
+<item>II.
+Diligenza nell'acquisto de' libri " 24</item>
+<item>III.
+Disposizione sistematica de' libri " 31</item>
+<item>IV.
+Catalogo ragionato de' medesimi " 38</item>
+<item>V.
+Manoscritti della R. biblioteca " 49</item>
+<item>Osservazioni " 57</item></list></div2>
+<div2><head>Errata-Corrige</head>
+<list>
+<item>Pag. 34 lin. 16 Pallier Sallier</item>
+<item> " 35 " 14 Salnier Sallier</item>
+<item> " 37 " 25 <hi rend="italic">senuisse senuisset</hi></item>
+<item> " 58 " 21 <hi rend="italic">Paganini Pagnini</hi></item></list></div2>
+<div2 n="Reimprimatur">
+<p><foreign lang="lat">
+REIMPRIMATUR -- Fr. Hier. Gigli Ord. Praed. S. P. A. Mag.</foreign></p>
+<p>REIMPRIMATUR -- P De Villanova Castellacci Archiep. Petrae Vicesg.</p></div2></div1></body></text></TEI.2>

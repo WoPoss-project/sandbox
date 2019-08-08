@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vestigi della storia del sonetto italiano</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>57030 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit001444</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+      personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Prose politiche e letterarie, dal 1811 al 1816: Frammenti sul Machiavelli, Ipercalisse, Storia del sonetto, Discorsi sulla servitu dell'Italia, Scritti vari</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Fasso, Luigi</editor>
+               <publisher>F. Le Monnier</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1972</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+    responsabilità dell'autore dell'opera sono stati soppressi nella versione
+    digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+      riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+      sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+      ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Trattati</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06-08T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Novadata systems</name>
+            </respStmt>
+            <item>Digitalizzazione - OCR</item>
+         </change>
+         <change>
+            <date>2008-04-24T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Marta Virgilio</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2008-05-23T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Ilenia Sabelli</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2008-06-17T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 n="Dedica">
+            <opener>
+               <salute>ALLA DONNA GENTILE QUIRINA MOCENNI MAGIOTTI.</salute>
+            </opener>
+            <p rend="italic">Non vi rincresca, Donna gentile, di custodire questo libercoletto come cosa 
+mia e vostra ad un tempo. Non ch'io voglia invanire dell'essermi aiutato della memoria; tanto più 
+che m'avrà forse tradito, da ch'io vivo in paese dove i poeti italiani sono noti appena di nome; nè ho 
+libri che m'accompagnino nell'esilio. Bensì mi compiaccio di mandarvi tal cosa fatte segnatamente 
+per voi; affinchè, se per gli anni avvenire la fortuna mi contendesse di ricevere i doni vostri 
+graziosi, e di mandarvi alcuno de' miei, voi, rileggendo da ogni principio d'anno questo libretto, 
+possiate, Donna gentile, e ricordarvi e accertarvi ch'io vissi e vivrò, sino all'ultimo de' giorni miei, 
+vostro amico</p>
+            <closer>
+               <dateline>Hottingen, 1 Gennaro 1816.</dateline>
+               <signed>UGO FOSCOLO.</signed>
+            </closer>
+         </div1>
+         <div1 n="Vestigi della storia del sonetto">
+            <head>VESTIGI DELLA STORIA DEL SONETTO</head>
+            <div2 n="Guittone d'Arezzo">
+               <opener>
+                  <byline>GUITTONE D'AREZZO</byline>
+                  <argument>
+                     <p>Fioriva intorno al MCCXX.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Quanto più mi distrugge il mio pensiero</l>
+                     <l>Che la durezza altrui produsse al mondo,</l>
+                     <l>Tanto ognor, lasso! in lui più mi profondo,</l>
+                     <l>E col fuggir della speranza, spero.</l>
+                  </lg>
+                  <lg>
+                     <l>Io parlo meco, e riconosco il vero,</l>
+                     <l>Chè mancherò sotto sì grave pondo;</l>
+                     <l>Ma il mio fermo desìo tanto è giocondo</l>
+                     <l>Ch'io bramo e seguo la cagion ch'io pero.</l>
+                  </lg>
+                  <lg>
+                     <l>Ben forse alcun verrà dopo qualche anno,</l>
+                     <l>Il qual leggendo i miei sospiri in rima,</l>
+                     <l>Si dolerà della mia dura sorte:</l>
+                  </lg>
+                  <lg>
+                     <l>E chi sa, che colei che or non mi estima,</l>
+                     <l>Visto con il mio mal giunto il suo danno,</l>
+                     <l>Non deggia lagrimar della mia morte.</l>
+                  </lg>
+               </lg>
+               <p>GUITTONE. Benchè, da cento e più anni innanzi, fosse stato preceduto da molti 
+rimatori, fu il primo forse che abbia dato migliore forma alle rime. In questo suo sonetto non trovo 
+parola che oggi non s'usi. La lingua italiana, con unico esempio nella storia degl'idiomi, conserva 
+freschi per seicent'anni quasi tutti i suoi vocaboli e modi di dire. Le voci moderne l'hanno poco o 
+molto rafardellata; ma la sua schietta e nativa ricchezza sta tuttavia nelle antiche. — 
+<emph>giunto</emph>, come leggesi nel penultimo verso, si dice anche oggi ed elegantemente in 
+poesia, invece di <emph>aggiunto</emph>.</p>
+            </div2>
+            <div2 n="Guido Cavalcanti">
+               <opener>
+                  <byline>GUIDO CAVALCANTI</byline>
+                  <argument>
+                     <p>Morto intorno al MCCC.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Chi è questa che vien che ogni uom la mira</l>
+                     <l>Che fa tremar di caritate l'a're?</l>
+                     <l>E mena seco Amor, sì che parlare</l>
+                     <l>Null'uom ne puote; ma ciascun sospira?</l>
+                  </lg>
+                  <lg>
+                     <l>Ahi Dio! che sembra quando gli occhi gira!</l>
+                     <l>Dicalo Amor, ch'io nol saprei contare:</l>
+                     <l>Cotanto d'umiltà donna mi pare,</l>
+                     <l>Che ciascun'altra inver di lei chiam'ira.</l>
+                  </lg>
+                  <lg>
+                     <l>Non si poria contar la sua piacenza;</l>
+                     <l>Chè a lei s'inchina ogni gentil virtute,</l>
+                     <l>E la Beltate per sua Dea la mostra.</l>
+                  </lg>
+                  <lg>
+                     <l>Non è sì alta già la mente nostra,</l>
+                     <l>E non s'è posta in noi tanta salute, </l>
+                     <l>Che propriamente n'abbiam conoscenza.</l>
+                  </lg>
+               </lg>
+               <p>CAVALCANTI. Fiorentino; fu d'alto animo, e d'acuto ingegno; fu prode in armi; 
+amatore disinteressato della sua patria; lodato dopo la sua morte da tutti gli storici, se non che lo 
+accusano, tutti d'indole troppo altera e sdegnosa. Ma le umane virtù hanno tutte l'innesto d'un vizio. 
+E doveva pur essere dotato di predominante carattere; da che Dante, che pur era nato alterissimo fra' 
+mortali, confessa che Guido, benchè gli fosse amico confidentissimo, gl'imponeva rispetto. Amò 
+una giovane Tolosana; e morì in esilio quindici o venti anni prima di Dante. Vedendosi imminente 
+la morte, poco innanzi di chiudere gli occhi, ne diede avviso alla sua donna con que'versi 
+malinconici:
+
+<quote rend="block">
+                     <lg>
+                        <l>Perch'io non spero di tornar giammai,</l>
+                        <l>Ballatetta, in Toscana ecc.</l>
+                     </lg>
+                  </quote>
+                  <emph>Ballatetta</emph> è diminutivo di <emph>ballata</emph>, nome di, canzoni, al canto 
+delle quali guidavasi dalle giovani il ballo. — Nel sonetto qui riportato <emph>a're</emph> 
+è sincope di <emph>aere</emph> in grazia della rima: nè oggi si usurperebbe — 
+<emph>caritate</emph> vuol dir <emph>benevolenza graziosa</emph>: in questo verso il poeta 
+intendeva che la beltà della sua donna spirasse a quanto stavale intorno quel soavissimo fremito che 
+viene dalla meraviglia e dall'amore improvviso — <emph>umiltate</emph>, suona 
+<emph>dolcezza modesta</emph> — <emph>piacenza</emph>, vocabolo disusato e 
+significava <emph>amabilità</emph> — per <emph>salute</emph> intendesi 
+<emph>grazia di lume divino</emph>, necessaria a conoscere i pregi soprannaturali d'una perfetta 
+beltà corporea e morale. — Raffrontisi questo co' tre seguenti sonetti di Dante, Petrarca e 
+Giusto: trattano tutti quattro lo stesso soggetto, e quasi ad un modo.</p>
+            </div2>
+            <div2 n="Dante Alighieri">
+               <opener>
+                  <byline>DANTE ALIGHIERI</byline>
+                  <argument>
+                     <p>Morto nel MCCCXXI.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Negli occhi porta la mia donna amore,</l>
+                     <l>Perchè si fa gentil ciò ch'ella mira:</l>
+                     <l>Ov'ella passa ogni uom ver lei si gira:</l>
+                     <l>E cui saluta fa tremar lo core,</l>
+                  </lg>
+                  <lg>
+                     <l>Sì che bassando il viso tutto smuore,</l>
+                     <l>Ed ogni suo difetto allor sospira:</l>
+                     <l>Fugge dinanzi a lei superbia ed ira;</l>
+                     <l>Aiutatemi, donne, a farle onore.</l>
+                  </lg>
+                  <lg>
+                     <l>Ogni dolcezza, ogni pensiero umile</l>
+                     <l>Nasce nel core a chi parlar la sente,</l>
+                     <l>Ond'è beato chi prima la vide:</l>
+                  </lg>
+                  <lg>
+                     <l>Quel ch'ella par quando un poco sorride</l>
+                     <l>Non si può dire nè tenere a mente;</l>
+                     <l>Sì è novo miracolo e gentile!</l>
+                  </lg>
+               </lg>
+               <p>DANTE. Non fu ne' sonetti di tanta felicità di quanta nelle canzoni, per le quali, innanzi 
+di scrivere il suo poema, era salito in alto concetto. Nè credo che abbia composto sonetti fuorchè in 
+gioventù. Fu di cuore innamorativo; e ancor giovinetto sentì il dolore di veder seppellire <emph>la 
+bella angioletta</emph> ch'egli aveva amata sin da fanciullo. Vaneggiò poscia per altre donne; fra 
+le quali egli nomina una donzella di Lucca; e il Boccaccio rammemora un'alpigiana, amata da Dante 
+nell'età matura; e non di meno non cantò versi d'amore se non se per la sua Beatrice. E questo 
+sonetto è pieno di vaghi e spirituali pensieri, abbelliti poi dal Petrarca; e, se non isbaglio, fu scritto
+intorno al 1292.</p>
+            </div2>
+            <div2 n="Cino da Pistoia">
+               <opener>
+                  <byline>CINO DA PISTOIA</byline>
+                  <argument>
+                     <p>Morto nel MACCXXXVI.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Mille dubii in un dì, mille querele</l>
+                     <l>Al tribunal dell'alta imperatrice</l>
+                     <l>Amor contra me forma irato, e dice: —</l>
+                     <l>Giudica chi di noi sia più fedele:</l>
+                  </lg>
+                  <lg>
+                     <l>Questi, solo per me spiega le vele'</l>
+                     <l>Di fama al mondo ove saria infelice. —</l>
+                     <l>Anzi d'ogni mio mal sei la radice,</l>
+                     <l>Dico, e provai già del tuo dolce il fele. —</l>
+                  </lg>
+                  <lg>
+                     <l>Ed egli: — Ahi falso servo fuggitivo!</l>
+                     <l>È questo il merto che mi rendi, ingrato,</l>
+                     <l>Dandoti una a cui in terra egual non era? —</l>
+                  </lg>
+                  <lg>
+                     <l>Che val, grido, se tosto me n'hai privo? —</l>
+                     <l>Io no; risponde. — Ed ella: A sì gran piato</l>
+                     <l>Convien più tempo a dar sentenza vera.</l>
+                  </lg>
+               </lg>
+               <p>CINO. Pistoiese: era giureconsulto, e ricavò l'idea e le frasi di questo sonetto dalla 
+scienza ch'ei professava. Chiama <emph>imperatrice</emph> la <emph>Ragione</emph>, come 
+quella che impone <emph>leggi</emph> alle nostre passioni, e le assegna un 
+<emph>tribunale</emph>. — Secondo le leggi romane, rigidissime contro agli schiavi 
+domestici, un <emph>servo fuggitivo</emph> era punito capitalmente ad arbitrio del padrone. 
+— <emph>piato</emph> suona anche oggidì <emph>controversia legale</emph> davanti al 
+giudice. — Il Petrarca trasse da questo componimento quella sua egregia canzone morale che 
+comincia:
+
+<quote rend="block">
+                     <lg>
+                        <l>Quell'antico mio dolce empio Signore,</l>
+                     </lg>
+                  </quote>
+
+e conclude per l'appunto come Cino, benchè con altre parole:
+
+<quote rend="block">
+                     <lg>
+                        <l>Piacemi aver vostre ragioni udite;</l>
+                        <l>Ma più tempo bisogna a tanta lite.</l>
+                     </lg>
+                  </quote>
+
+Pianse il Petrarca la morte di Cino, con quel sonetto:
+
+<quote rend="block">
+                     <lg>
+                        <l>Piangete, donne, e con voi pianga Amore.</l>
+                     </lg>
+                  </quote>
+               </p>
+            </div2>
+            <div2 n="Francesco Petrarca">
+               <opener>
+                  <byline>FRANCESCO PETRARCA</byline>
+                  <argument>
+                     <p>Morto nel MCCCLXXIV.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>In qual parte del Cielo, in quale Idea</l>
+                     <l>Era l'esempio onde Natura tolse</l>
+                     <l>Quel bel viso leggiadro in ch'ella volse</l>
+                     <l>Mostrar quaggiù quanto lassù potea?</l>
+                  </lg>
+                  <lg>
+                     <l>Qual ninfa in fonti, in selve mai qual Dea</l>
+                     <l>Chiome d'oro sì fine all'aura sciolse?</l>
+                     <l>Quando un cor tante in sè virtuti accolse?</l>
+                     <l>Benchè la somma è di mia morte rea!</l>
+                  </lg>
+                  <lg>
+                     <l>Per divina bellezza indarno mira,</l>
+                     <l>Chi gli occhi di costei giammai non vide</l>
+                     <l>Come soavemente ella gli gira:</l>
+                  </lg>
+                  <lg>
+                     <l>Non sa come Amor sana e come ancide,</l>
+                     <l>Chi non sa come dolce ella sospira</l>
+                     <l>E come dolce parla e dolce ride.</l>
+                  </lg>
+               </lg>
+               <p>PETRARCA. Ne' poeti anteriori le fantasie dell'amore ideale sono abbozzate con estro 
+passionato, con grazia schietta ed originale: nel Petrarca sono disegnate più esattamente, dipinte con 
+tinte più calde e mirabilmente adornate. — In questo sonetto la parola <emph>Idea</emph>, 
+stando a' Platonici, significa <emph>modello primitivo</emph> sul quale Iddio e la Natura 
+formano poscia più o meno perfetti gli enti dell'universo. — L'ottavo verso è una pennellata 
+da maestro: e gitta un inimitabile chiaroscuro con quella rapida riflessione <emph>che le belle doti 
+della donna amata esacerbano la passione dell'animo innamorato</emph>: ed è vero pur troppo! 
+— Nel verso nono, in quelle parole <emph>mira per bellezza</emph> sottintendesi 
+facilmente <emph>per trovare</emph>; ed è uno de' mille modi spediti co' quali questo poeta 
+padroneggiando la lingua seppe abbreviarla, arricchirla e nobilitarla; e riesce chiarissimo sempre: 
+bensì chi vuole in questa parte imitarlo riesce oscuro; tanto può l'ingegno! — L'ultimo verso 
+è della povera Saffo, in quell'ode:
+
+<quote rend="block">
+                     <lg>
+                        <lg>
+                           <l>Colui mi sembra agli alti Dei simile</l>
+                           <l>Che teco siede, e sì soavemente</l>
+                           <l>Cantar t'ascolta, e in atto sì gentile</l>
+                           <l rend="text-align:right">Dolce ridente.</l>
+                        </lg>
+                        <lg>
+                           <l>Com'io ti veggio, palpitar mi sento</l>
+                           <l>Nel petto il core; in quel beato istante</l>
+                           <l>Non vien più suono d'amoroso accento</l>
+                           <l rend="text-align:right">Sul labbro ansante:</l>
+                        </lg>
+                        <lg>
+                           <l>Muta s'intrica la mia lingua; accensa</l>
+                           <l>Scorre ogni vena; ronza tintinnio</l>
+                           <l>Dentro gli orecchi; notte alta s'addensa</l>
+                           <l rend="text-align:right">Sul guardo mio:</l>
+                        </lg>
+                        <lg>
+                           <l>Sudor di gelo le mie guance innonda,</l>
+                           <l>Tremito assale e abbrivida ogni membro,</l>
+                           <l>E senza spirti, pallida qual fronda,</l>
+                           <l rend="text-align:right">Morta rassembro.</l>
+                        </lg>
+                     </lg>
+                  </quote>
+               </p>
+               <p>Quest'ode io tradussi, or sono vent'anni o più; e tenni il metro greco inventato da Saffo: 
+sol vi ho aggiunto le rime; né so d'averla neppur mai ricopiata: ma fidando che solamente 
+pochissimi la leggeranno, la stamperò qui (benchè senta lo stile assai giovanile), affinchè si raffronti 
+come i Greci e i nostri esprimano diversamente le passioni del cuore. Saffo dipinge ardentemente 
+gli accidenti naturali dell'amore, e il Petrarca le immaginazioni ideali. Anche Orazio chiude una ode 
+col <emph>dolce parlante, dolce ridente</emph>, che trovasi nella prima strofetta di Saffo; se non 
+che nel poeta latino la stessa idea e le stesse parole spirano più amenità che passione: tanto gli 
+scrittori, malgrado ogni loro studio, denno obbedire al cuore che detta sempre secondo gli affetti 
+ch'ei prova. Il Petrarca essendo più affettuoso d'Orazio e men sensuale di Saffo potè ritenere 
+l'eleganza latina e temprare il furor della poetessa; onde alla circostanza del <emph>dolce 
+parlare</emph> e del <emph>dolce ridere</emph> aggiunse di suo il bel verso:
+
+<quote rend="block">
+                     <lg>
+                        <l>Chi non sa come dolce ella sospira! —</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>È gran lite fra' critici se <emph>Giustina Levi Perotti</emph> da Sassoferrato, 
+contemporanea del Petrarca, abbiagli intitolato il seguente sonetto, nel quale gli propone se a donna 
+si disdica l'aspirare a fama di poetessa:
+
+
+<quote rend="block">
+                     <lg>
+                        <lg>
+                           <l>Io vorrei pur drizzar queste mie piume</l>
+                           <l>Colà, Signor, dove il desio m'invita,</l>
+                           <l>E dopo morte rimaner in vita</l>
+                           <l>Col chiaro di virtute inclito lume.</l>
+                        </lg>
+                        <lg>
+                           <l>Ma 'l volgo inerte che, dal rio costume</l>
+                           <l>Vinto, ha d'ogni suo ben la via smarrita,</l>
+                           <l>Come degna di biasmo ognor m'addita</l>
+                           <l>Ch'ir tenti d'Elicona al sacro fiume.</l>
+                        </lg>
+                        <lg>
+                           <l>All'ago, al fuso, più ch'al lauro o al mirto,</l>
+                           <l>Come che qui non sia la gloria mia,</l>
+                           <l>Vuol ch'abbia sempre questa mente intesa,</l>
+                        </lg>
+                        <lg>
+                           <l>Dimmi tu omai, che per più dritta via</l>
+                           <l>A Parnaso ten'vai, nobile spirto:</l>
+                           <l>Dovrò dunque lasciar sì degna impresa?</l>
+                        </lg>
+                     </lg>
+                  </quote>
+               </p>
+               <p>V'è certa lindura che pare posteriore a quell'età. — <emph>ir</emph>, troncatura 
+d'<emph>ire</emph>, com'è nel verso ottavo, dicesi anche oggi in poesia invece di 
+<emph>andare</emph>. — A ogni modo gli eruditi ne fanno merito alla Giustina. Certo è 
+che il sonetto:
+
+<quote rend="block">
+                     <lg>
+                        <l>La gola, il sonno, e le ozïose piume ecc.</l>
+                     </lg>
+                  </quote>
+
+fu dal Petrarca scritto per le rime in risposta a questo; e sciolse il problema da quel poeta galante 
+ch'egli era.</p>
+            </div2>
+            <div2 n="Giusto de' Conti">
+               <opener>
+                  <byline>GIUSTO DE' CONTI</byline>
+                  <argument>
+                     <p>Scriveva verso il MCCCC o poco dopo.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Chi è costei, che nostra etate adorna</l>
+                     <l>Di tante meraviglie e di valore?</l>
+                     <l>E in forma umana, in compagnia d'Amore,</l>
+                     <l>Fra noi mortali come Dea soggiorna?</l>
+                  </lg>
+                  <lg>
+                     <l>Di senno e di beltà dal ciel s'adorna,</l>
+                     <l>Qual spirto ignudo e sciolto d'ogni errore;</l>
+                     <l>E per destin la degna a tanto onore</l>
+                     <l>Natura, che a mirarla pur ritorna.</l>
+                  </lg>
+                  <lg>
+                     <l>In lei quel poco lume è tutto accolto</l>
+                     <l>E quel poco splendor che a' giorni nostri</l>
+                     <l>Sovra noi cade da benigne stelle:</l>
+                  </lg>
+                  <lg>
+                     <l>Tal che 'l Maestro de' stellati chiostri</l>
+                     <l>Si lauda, rimirando nel bel volto;</l>
+                     <l>Chè fe' già di sua man cose sì belle.</l>
+                  </lg>
+               </lg>
+               <p>DE' CONTI. Romano: Scrisse un canzoniere col titolo <title>La Bella Mano</title>: e 
+son tutte rime in lode della sua donna; ma per lo più imitazioni della poesia petrarchesca, la quale, 
+com'ebbe tocco il sommo, cominciò, per destino di tutte le umane cose, a declinare, appena morto 
+chi l'aveva perfezionata. Però in questo sonetto vedesi un bel lavoro intarsiato di pensieri alti e 
+finissimi; bel lavoro a dir vero; ma pur sempre a mosaico, senza creazione e senza unità di 
+composizione. — L'entrata del sonetto è vivace, e ricorda la Cantica di Salomone, cap. 3, vs. 
+6, <quote>
+                     <hi rend="italic">Chi è mai costei che viene dal deserto sì bella?</hi>
+                  </quote>
+ — La voce <emph>chiostro</emph> del terz'ultimo verso è frequente in tutti i nostri poeti, e 
+deriva dal latino <foreign lang="lat">claustrum</foreign>, recinto: però s'usa metaforicamente per 
+qualunque circonferenza che paia chiusa: e qui gli <emph>stellati chiostri</emph> significano il 
+cielo, incircoscritto all'umano pensiero, ma che per l'orizzonte pare circoscritto d'ogni parte a' nostri 
+occhi.</p>
+            </div2>
+            <div2 n="Leonello d'Este">
+               <opener>
+                  <byline>LEONELLO D'ESTE</byline>
+                  <argument>
+                     <p>Viveva intorno al MCCCCXL.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Amor m'ha fatto cieco; e non ha tanto</l>
+                     <l>Di carità che mi conduca in via;</l>
+                     <l>Mi lascia per dispetto in mia balìa,</l>
+                     <l>E dice: Or va, tu che presumi tanto.</l>
+                  </lg>
+                  <lg>
+                     <l>Ed io, perchè mi sento in forza alquanto,</l>
+                     <l>E spero di trovar chi man mi dia,</l>
+                     <l>Vado; ma più non so dove mi sia:</l>
+                     <l>Sicchè mi fermo ritto su d'un canto.</l>
+                  </lg>
+                  <lg>
+                     <l>Amore allora, che mi sta guatando,</l>
+                     <l>Mi mostra per disprezzo e mi ostenta,</l>
+                     <l>E mi va canzonando in alto metro;</l>
+                  </lg>
+                  <lg>
+                     <l>Né 'l dice così pian ch'io non lo senta.</l>
+                     <l>Ond'io rispondo così borbottando:</l>
+                     <l>Mostrami almen la via ch'io torni indietro.</l>
+                  </lg>
+               </lg>
+               <p>LEONELLO. Fu de' principi di Ferrara: morì giovane; scrisse assai poco, e con poca 
+celebrità; colpa della fortuna, alla quale non regge neppure l'ingegno, nè il merito degli scrittori, né 
+l'autorità de' principi. Certo che Anacreonte non ha invenzione nè più graziosa, nè più amabilmente 
+espressa di questa:
+
+<quote rend="block">
+                     <lg>
+                        <l>Amor mi ha fatto cieco.</l>
+                     </lg>
+                  </quote>
+
+E la morale che racchiude sarebbe salutarissima, a chi potesse giovarsene: se non che è più facile a 
+non incamminarsi verso le passioni, che a <emph>tornarsene indietro</emph> dal loro affannoso 
+sentiero.</p>
+            </div2>
+            <div2 n="Lorenzo de' Medici">
+               <opener>
+                  <byline>LORENZO DE' MEDICI</byline>
+                  <argument>
+                     <p>Morto nel MCDXCII.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Belle fresche purpuree vïole,</l>
+                     <l>Che quella candidissima man colse,</l>
+                     <l>Qual pioggia o qual puro aer produr volse</l>
+                     <l>Tanto più vaghi flor che far non suole?</l>
+                  </lg>
+                  <lg>
+                     <l>Qual rugiada, qual terra, ovver qual Sole</l>
+                     <l>Tante vaghe bellezze in voi raccolse?</l>
+                     <l>Onde il soave odor Natura tolse</l>
+                  </lg>
+                  <l>O il Ciel ch'a tanto ben degnar ne vuole?</l>
+                  <lg>
+                     <l>Care mie violette, quella mano</l>
+                     <l>Che v'elesse intra l'altre, ov'eri, in sorte,</l>
+                     <l>V'ha di tante eccellenze e pregio ornate;</l>
+                  </lg>
+                  <lg>
+                     <l>Quella che il cor mi tolse, e di villano</l>
+                     <l>Lo fe' gentil, a cui siate consorte;</l>
+                     <l>Quella dunque, e non altri, ringraziate.</l>
+                  </lg>
+               </lg>
+               <p>LORENZO DE' MEDICI. Nel commento scritto da esso alle proprie rime, racconta 
+come la sua bella Simonetta gli regalò tre viole vaghissime d'un vaso coltivato da lei; ed egli le 
+mandò questo sonetto tutto fragranza, tutto grazia ed amore. — Nella prima terzina 
+quell'<emph>ov'eri</emph> invece di <emph>ov'eravate</emph> è uno de' tanti fiorentinismi usati 
+appunto da' Toscani posteriori al Petrarca; e non stanno in grammatica: così, <emph>siate 
+consorte</emph> per <emph>consorti</emph>, cioè compagne al cuore. — Non so che 
+l'inglese Roscoe, eloquente e diligentissimo storico di Lorenzo, abbia fatto memoria della risposta 
+di questo grand'uomo a chi gli rinfacciava ch'ei s'innamorasse, e facesse versi d'amore. La riferirò; e 
+se non tutta, nè con le sue stesse parole, esattamente a ogni modo quanto alle idee: leggesi nel 
+proemio alle sue rime; e non solamente contiene una splendida deffinizione dell'amore, ma ben 
+anche un'ingegnosissima combinazione della passione comune a tutti i mortali con la passione 
+ideata da Socrate ed esposta da Senofonte nel <title>Convito</title>, e da Platone in alcuni suoi 
+dialoghi. Or Lorenzo de' Medici scrive: — «Sarei con giustizia dannato, quando dalla 
+natura io mi fossi di tanta eccellenza dotato che potessi operare ogni cosa perfetta; ma questa 
+altezza è stata concessa a molto pochi; ed anche a questi non sempre e sol rarissime volte nella vita 
+loro: onde; considerata l'imperfezione umana, e dovendo per più sicurezza attenerci alla condizione 
+universale di noi mortali, e alla perpetua consuetudine della terra, parmi quelle cose essere migliori 
+dalle quali in tutto nascono mali minori. — Pure l'amore non solamente non è riprensibile, 
+ma anzi è assai vero argomento di gentilezza e grandezza d'animo; e sopra tutto cagione d'invitare i 
+mortali ed eccitarli a ridurre in atto pratico quelle virtù che stanno nelle facoltà dell'anima nostra. 
+Chi cerca la vera deffinizione dell'amore, trova non essere altro che <emph>desiderio di 
+bellezza</emph>; e se è così, tutte le cose deformi e viziose rincrescono a chi degnamente ama. La 
+bellezza del volto e dell'animo della donna amata è principio e guida a cercare la bellezza delle altre 
+cose, e a salire alla virtù che è bellezza tra mortale e celeste, e giungere ultimamente a riposarsi 
+nella bellezza suprema, che è Iddio. — Le condizioni che necessariamente si convengono a 
+un vero, alto, degno amore, parmi sieno due: la prima, <emph>che si ami una persona 
+sola</emph>; la seconda, <emph>che si ami sempre</emph>. Queste condizioni non molti amanti 
+hanno sì generoso animo da poterle serbare, e assai poche donne sortirono tante virtù da stringere 
+gli uomini a non violare queste due circostanze, senza le quali amore degno non è. Perchè, oltre alle 
+naturali bellezze, conviene che nella persona amata concorrano ingegno, modi ornati, costumi 
+onesti, maniere eleganti, accoglienza graziosa, dolci parole, sensi assennati, amore, costanza e fede. 
+— Amore nasce a principio dagli occhi e dalla bellezza; ma a conservarlo sono necessarie 
+altre doti; perchè, se infermità o altre cagioni scolorissero il viso; se per età venisse meno la prima 
+bellezza, restano le doti che sono nell'anima, e però più amabili al cuore ed all'intelletto, che non la 
+bellezza alla vista, e i piaceri a' sensi: bensì i sensi aprono la porta all'amore; e tocca poi all'anima di 
+tenerselo come sacro fuoco, e raffinarlo, e a poco a poco purificarlo, e nutrirsene. E nondimeno tanti 
+pregi non sariano sufficienti, se l'uomo amante non ha gentilezza di mente e di cuore da distinguerli, 
+e altezza e generosità da stimarli: ma se in due innamorati le condizioni sovra espresse concorrono, 
+allora la donna diviene più bella d'animo, e più saggia e contenta ne'suoi affetti; e l'uomo, per 
+piacerle sempre più, bisogna di necessità che in tutte le sue azioni cerchi di farsi eccellente, 
+seguitando la virtù, ed abbellisca l'animo suo per rendersi pari alla bellezza corporea e spirituale 
+della sua donna».</p>
+            </div2>
+            <div2 n="Pietro Bembo">
+               <opener>
+                  <byline>PIETRO BEMBO</byline>
+                  <argument>
+                     <p>Sonetto scritto nel MDXXI.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Già donna, or Dea; nel cui virginal chiostro,</l>
+                     <l>Scendendo in terra a sentir caldo e gelo,</l>
+                     <l>S'armò per liberarne il Re del cielo</l>
+                     <l>Da l'empie man de l'avversario nostro.</l>
+                  </lg>
+                  <lg>
+                     <l>I pensier tutti e l'uno e l'altro inchiostro,</l>
+                     <l>Cangiata veste, e con la mente il pelo,</l>
+                     <l>A te rivolgo: e, quel che agli altri celo,</l>
+                     <l>Le interne piaghe mie ti scopro e mostro:</l>
+                  </lg>
+                  <lg>
+                     <l>Sanale; chè puoi farlo: e dammi aita</l>
+                     <l>A salvar l'alma da l'eterno danno;</l>
+                     <l>La qual, se dal cammin dritto impedità,</l>
+                  </lg>
+                  <lg>
+                     <l>Le Sirene gran tempo schernita hanno,</l>
+                     <l>Non tardar tu; ché omai della mia vita</l>
+                     <l>Si volge il terzo e cinquantesim'anno.</l>
+                  </lg>
+               </lg>
+               <p>BEMBO. Veneziano; fu rinomato in letteratura fra' maggiori uomini del secolo di Leone 
+X. Ad ogni modo è scrittore tepido; e ne' suoi versi italiani non move passo se non con piede 
+tremante dietro le orme del Petrarca. Infatti questo sonetto, che ha il pregio d'una semplice, grave e 
+religiosa compunzione, è pur imitato dalla divina canzone a Maria Vergine, l'ultima delle 
+petrarchesche. Il Bembo supplica anch'egli la Vergine che lo sciolga dalla passione d'amore; e 
+principia un po' cangiando, un po' guastando le belle idee e parole del Petrarca: non però se ne 
+scosta; stanz. 6, in fine:
+
+<quote rend="block">
+                     <lg>
+                        <l>Prese Dio, per scamparne,</l>
+                        <l>Umana carne al tuo virginal chiostro</l>
+                     </lg>
+                  </quote>
+
+disse il Petrarca. — Non mi piace il chiamar <emph>Dea</emph> la madre di Gesù; e sa di 
+gentilesimo; — <emph>Per l'uno e l'altro inchiostro</emph> intende i suoi scritti italiani e 
+latini. Eppure il Bembo pianse d'amore anche dopo avere mandato al cielo questa preghiera! Amò 
+vecchio una <emph>Morosina</emph> gentil donna veneta, che morì giovanetta verso il 1535. 
+Esso le sopravisse sino al 1547.</p>
+            </div2>
+            <div2 n="Vittoria Colonna">
+               <opener>
+                  <byline>VITTORIA COLONNA</byline>
+                  <argument>
+                     <p>Morta nel MDXLVI.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Ahi quanto fu al mio Sol contrario il fato</l>
+                     <l>Che con l'alta virtù de' raggi suoi</l>
+                     <l>Pria non v'accese; ché mill'anni e poi,</l>
+                     <l>Voi sareste più chiaro, ei più lodato!</l>
+                  </lg>
+                  <lg>
+                     <l>Il nome suo, col vostro stile ornato,</l>
+                     <l>Che fa scorno agli antichi, invidia a noi,</l>
+                     <l>A mal grado del tempo, avreste voi</l>
+                     <l>Dal secondo morir sempre guardato.</l>
+                  </lg>
+                  <lg>
+                     <l>Potess'io almen mandar nel vostro petto</l>
+                     <l>L'ardor ch'io sento, o voi nel mio l'ingegno</l>
+                     <l>Per far la rima a quel gran merto eguale!</l>
+                  </lg>
+                  <lg>
+                     <l>Chè così temo il ciel non prenda a sdegno</l>
+                     <l>Voi, perchè preso avete altro soggetto;</l>
+                     <l>Me, che ardisco parlar di un lume tale.</l>
+                  </lg>
+               </lg>
+               <p>VITTORIA COLONNA. Romana; moglie innamoratissima d'Alfonso d'Avalos, morto 
+illustre e giovine in guerra. Indirizzò questo sonetto al Bembo, dolendosi ch'ei pure non piangesse 
+in versi la morte del marito di lei, e non ne celebrasse la gloria. Ed è componimento lodatissimo 
+nelle scuole, poichè espone con frasi eleganti una serie di argomenti concatenati; eccoli: — i 
+pregi di mio marito vi furono ignoti, però non li avete celebrati; quindi voi avete perduto occasione 
+di mostrare la vostra eloquenza, ed egli ha perduto la fama che gliene sarebbe ridondata; ma s'io 
+avessi l'ingegno vostro, o voi sentiste la mia passione, non saremmo forse rei tutti e due; voi, per 
+aver taciuto le imprese d'un uomo grande; io, per essermi indegnamente accinta a esaltarle. 
+— Sì fatta guisa di sillogismi rimati erano e sono in gran voga; ma domandano piuttosto arte 
+che genio; e dove non sono immagini, non è poesia; bensì questo sonetto regge alla lettura per il 
+dolore che vi traspira. — Nel primo verso il dir <emph>Sole</emph>, per significare un 
+individuo soprannaturalmente perfetto, è metafora enfatica della quale il Petrarca abusò; e peggio i 
+suoi miseri imitatori, tanto che il pittore Salvator Rosa disse arguto in una delle sue satire:
+
+<quote rend="block">
+                     <lg>
+                        <l>Le metafore il sole han consumato.</l>
+                     </lg>
+                  </quote>
+
+Del resto non fu illustre personaggio a que' tempi che non siasi innamorato della nostra poetessa. 
+Pare ch'essa abbia serbato il cuore sempre vicino alle ceneri di suo marito; ma fra' suoi adoratori 
+Michelangelo fu, se non riamato, almen prediletto: ei stavale accanto mentr'essa moriva; e dopo 
+molti anni, e già vecchio, dolevasi perchè non s'era attentato di darle un bacio santo in quel 
+frangente dell'eterno congedo.</p>
+            </div2>
+            <div2 n="Veronica Gambara">
+               <opener>
+                  <byline>VERONICA GAMBARA</byline>
+                  <argument>
+                     <p>Morta nel MDI.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Altri boschi, altri prati ed altri monti,</l>
+                     <l>Felice e lieto Bardo, or godi e 'miri;</l>
+                     <l>Ed altre ninfe vedi in vaghi giri</l>
+                     <l>Danzar cantando intorno a fresche fonti:</l>
+                  </lg>
+                  <lg>
+                     <l>E ad altri che a mortali ora racconti</l>
+                     <l>I moderati tuoi santi desiri;</l>
+                     <l>Nè più fuor del tuo petto escon sospiri,</l>
+                     <l>Di dolor segni manifesti e conti:</l>
+                  </lg>
+                  <lg>
+                     <l>Ma beato dal ciel nascer l'aurora,</l>
+                     <l>E sotto i piedi tuoi vedi le stelle</l>
+                     <l>Produr girando i vari effetti suoi;</l>
+                  </lg>
+                  <lg>
+                     <l>E vedi che i pastor d'erbe novelle</l>
+                     <l>Sacrificio ti fanno; e dicon poi:</l>
+                     <l>Sii propizio a chi t'ama e a chi t'onora.</l>
+                  </lg>
+               </lg>
+               <p>VERONICA GAMBARA. Bresciana, accasatasi a Correggio col signore di quel paese; 
+ma, come la Colonna, serbò anch'essa il nome della casa dov'era nata. — Questo sonetto è 
+pur dissimile dal precedente. Ha un tenore spiritoso e soave, un entusiasmo graziosamente 
+femminile; e arieggia l'arte e la fantasia de' Latini: infatti imita alcuni tratti dell'egloga di Virgilio su 
+l'<title>Apoteosi di Dafni</title>. — Nell'undecimo verso il <emph>suoi</emph> sta in 
+luogo di <emph>loro</emph>, da che questo pronome in italiano grammaticalmente non s'accorda 
+se non se con la terza persona del singolare; in latino è promiscuo anche al plurale, e i poeti alle 
+volte non fanno male a giovarsi dell'esempio e dell'autorità della lingua latina. — Il sonetto, 
+se non isbaglio, fu scritto in morte del Bembo di cui questa poetessa professavasi spiritualmente 
+innamorata; e n'è fede un sonetto ch'ella gli aveva inviato:
+
+<quote rend="block">
+                     <lg>
+                        <l>All'ardente desio che il cor m'accende;</l>
+                     </lg>
+                  </quote>
+
+al quale il Bembo rispose non molto ardentemente, bench'ella avesse nome di bella; ma assai 
+letterati, in amore, seguono la natura, e in poesia l'arte: però sentono caldamente, e scrivono 
+freddi.</p>
+            </div2>
+            <div2 n="Galeazzo Di Tarsia">
+               <opener>
+                  <byline>GALEAZZO DI TARSIA</byline>
+                  <argument>
+                     <p>Morto intorno al MDLX.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Già corsi l'Alpi gelide e canute,</l>
+                     <l>Malfida siepe alle tue rive amate,</l>
+                     <l>Or sento, Italia mia, l'aure odorate</l>
+                     <l>E l'aere pien di vita e di salute.</l>
+                  </lg>
+                  <lg>
+                     <l>Quante mi deste al cor, lasso!, ferute,</l>
+                     <l>Membrando la fatal vostra beltate,</l>
+                     <l>Culti poggi, antri verdi, ed ombre grate,</l>
+                     <l>Da' ciechi figli tuoi mal conosciute!</l>
+                  </lg>
+                  <lg>
+                     <l>Oh felice colui che un breve e colto</l>
+                     <l>Terren fra voi possiede, un antro, un rivo,</l>
+                     <l>Sua cara donna, e di fortuna un volto!</l>
+                  </lg>
+                  <lg>
+                     <l>Ebbi i miei tetti e le mie paci a schivo;</l>
+                     <l>Ahi giovenil desìo fallace e stolto!</l>
+                     <l>Or vo piangendo che di lor son privo.</l>
+                  </lg>
+               </lg>
+               <p>TARSIA. Feudo di una famiglia del regno di Napoli. Galeazzo fu guerriero, e militò per 
+Francesco I di Francia. Ripatriatosi,visse ritirato; scrisse poco e per sè, e come 'uomo che non sa nè 
+vuole imitare altri, e che insieme non affetta di battere nuove strade. Amò anch'egli Vittoria 
+Colonna. — La voce <emph>siepe</emph> è un traslato invece di riparo; o artificiale, che 
+circonda una fortezza;o naturale, che difende un paese, come le Alpi fronteggiano vanamente (pur 
+troppo!) l'Italia. Se non che l'Italia è meretrice, la quale, per compiacere alle sue libidini ed alle 
+altrui, rinnega i beneficj della natura e l'amore de' suoi figliuoli. — <emph>ferute</emph> 
+per <emph>ferite</emph> non si direbbe oggi, se non da chi non si vergognasse di servire alla 
+rima; — <emph>un volto</emph>, cioè un solo sorriso di fortuna, è frase che a me par 
+nuova e felice.</p>
+            </div2>
+            <div2 n="Giovanni Della Casa">
+               <opener>
+                  <byline>GIOVANNI DELLA CASA</byline>
+                  <argument>
+                     <p>Morto nel MDLXVI.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>O sonno! o, della queta umida ombrosa</l>
+                     <l>Notte, placido figlio! o, de' mortali</l>
+                     <l>Egri, conforto; obblio dolce de' mali</l>
+                     <l>Sì gravi, ond'è la vita aspra e noiosa!</l>
+                  </lg>
+                  <lg>
+                     <l>Soccorri al core omai che langue, e posa</l>
+                     <l>Non ave; e queste membra stanche e frali</l>
+                     <l>Solleva: a me ten vieni, o sonno! e l'ali</l>
+                     <l>Tue brune sovra me distendi e posa.</l>
+                  </lg>
+                  <lg>
+                     <l>Ov'è il silenzio che il dì fugge e il lume?</l>
+                     <l>E i lievi sogni che con non secure</l>
+                     <l>Vestigia di seguirti han per costume?</l>
+                  </lg>
+                  <lg>
+                     <l>Lasso! che invan te chiamo; e queste oscure</l>
+                     <l>E gelide ombre invan lusingo. Ahi piume</l>
+                     <l>D'asprezza colme! ahi notti acerbe e dure!</l>
+                  </lg>
+               </lg>
+               <p>DELLA CASA. Nacque, credo, in Mugello, contado fiorentino, e morì arcivescovo di 
+Benevento: è fama che certi suoi versi alquanto lascivi gli abbiano tolto il cardinalato. Fu bello e 
+forte ingegno. Uscì, se non il primo, certo il più ardito, fuor della turba de' tanti Petrarchisti d'allora, 
+e si fece altro stile. Il merito della sua poesia consiste principalmente nel collocare le parole e 
+spezzare la melodia de' versi con tale ingegnosa sprezzatura da far risultare l'effetto che i maestri di 
+musica ottengono dalle dissonanze, e i pittori dalle ombre assai risentite. Nota come in 
+quest'invocazione al Sonno lo stile, sebbene retoricamente amplificato, pur non pregiudica alla 
+naturale espressione dell'uomo travagliato da' pensieri e dalla veglia; appunto quel verseggiare sì 
+rotto ti fa sentire l'angoscia. La prima terzina è bella d'immagini e di frasi degne di Virgilio. 
+— <emph>non ave</emph> per <emph>non ha</emph>, dal latino <foreign lang="lat">habet</foreign>; oggi è fuor d'uso.</p>
+            </div2>
+            <div2 n="Angelo Di Costanzo">
+               <opener>
+                  <byline>ANGELO DI COSTANZO</byline>
+                  <argument>
+                     <p>Morto verso l'anno MDXC.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Quella cetra gentil che in su la riva</l>
+                     <l>Cantò di Mincio Dafni e Melibeo,</l>
+                     <l>Sì che non so se in Menalo o in Liceo,</l>
+                     <l>In quella o in altra età, simil s'udiva;</l>
+                  </lg>
+                  <lg>
+                     <l>Poi che con voce più canora e viva</l>
+                     <l>Celebrato ebbe Pale ed Aristeo,</l>
+                     <l>E le grand'opre che in esilio feo</l>
+                     <l>Il gran figliuol d'Anchise e della Diva;</l>
+                  </lg>
+                  <lg>
+                     <l>Dal suo pastore in una quercia ombrosa</l>
+                     <l>Sacrata pende; e se la move il vento,</l>
+                     <l>Par che dica superba e disdegnosa:</l>
+                  </lg>
+                  <lg>
+                     <l>Non sia chi di toccarmi abbia ardimento;</l>
+                     <l>Che se non spero aver man sì famosa,</l>
+                     <l>Del gran Titiro mio sol mi contento.</l>
+                  </lg>
+               </lg>
+               <p>COSTANZO. Napoletano: per esso l'arte de' sillogismi in sonetti giunse alla perfezione: 
+sciaguratissima perfezione! Pur questo componimento è il solo, per avventura, nel quale il 
+Costanzo, tenendo altra via, sia riescito poeta. Pare uno de' belli epigrammi greci. È in lode di 
+Virgilio, che nell'egloghe assunse il nome di <emph>Titiro</emph>. Vedi i quattordici versi 
+concatenati spontaneamente in un solo periodo, così che tu, leggendo, stai pur sempre attento sino 
+alla fine a quella cetra appesa alla quercia. — Il <emph>Mincio</emph> è fiume del paese 
+mantovano patria di Virgilio. — <emph>Dafni</emph> e <emph>Melibeo</emph> sono 
+pastori nelle egloghe di quel poeta. — <emph>Menalo</emph> e <emph>Liceo</emph> 
+paesi greci, celebri per la poesia pastorale. — <emph>Pale</emph> e 
+<emph>Aristeo</emph>; la prima è Dea de' pastori, l'altro è Semideo che insegnò la cultura delle 
+api: alludesi alle <title>Georgiche</title> virgiliane. — Enea fu figliuolo d'Anchise e di 
+Venere; però nel settimo e ottavo verso s'allude all'<title>Eneide</title>.</p>
+            </div2>
+            <div2 n="Torquato Tasso">
+               <opener>
+                  <byline>TORQUATO TASSO</byline>
+                  <argument>
+                     <p>Morto nel MDXCV.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Amore alma è del Mondo; Amore è mente</l>
+                     <l>Che volge in Ciel per corso obliquo il Sole,</l>
+                     <l>E degli erranti Dei l'alte carole</l>
+                     <l>Rende al celeste suon veloci e lente:</l>
+                  </lg>
+                  <lg>
+                     <l>L'aria, l'acqua, la terra, il foco ardente,</l>
+                     <l>Misto a' gran membri dell'immensa mole,</l>
+                     <l>Nudre il suo spirto; e s'uom s'allegra e duole</l>
+                     <l>Ei n'è cagione, o speri anco e pavente.</l>
+                  </lg>
+                  <lg>
+                     <l>Pur, benchè tutto crei, tutto governi,</l>
+                     <l>E per tutto risplenda e in tutto spiri,</l>
+                     <l>Più spiega in noi di sua possanza Amore:</l>
+                  </lg>
+                  <lg>
+                     <l>E disdegnando i cerchi alti e superni,</l>
+                     <l>Posto ha la sede sua ne' dolci giri</l>
+                     <l>De' be' vostr'occhi, e il tempio ha nel mio core.</l>
+                  </lg>
+               </lg>
+               <p>TASSO. Espone con lucida e sublime brevità il sistema pitagorico, illustrato poi da 
+Platone: <emph>Essere l'universo in tutte le sue parti congiunto per forza d'Amore</emph>. E dove 
+qui il poeta parla dell'uomo, mira alla teoria, ch'io stimo verissima, di que' filosofi i quali insegnano 
+che tutte quante le nostre passioni le non siano se non amore travestito di mille apparenze, e variato 
+solamente di nomi. — <emph>gli erranti Dei</emph> sono i pianeti. — 
+<emph>carole</emph> significa i giri delle stelle a modo di danze; da che gli antichi immaginarono 
+che ogni cosa si mova regolarmente per leggi di musica, e che il mondo sia tutto una cetra. — 
+Questa del Tasso è davvero composizione magnifica; e forse unico quell'ingegno eminente poteva 
+attentarsi di frammischiare ilsuo amore particolare, come e' fa negli ultimi versi, senza nondimeno 
+impiccolire il soggetto che abbraccia tutto il sistema dell'universo.</p>
+               <p>Ora nelle vicende della italiana poesia, e nella mia memoria trovo una grande lacuna. 
+Per quasi cent'anni dopo la morte del Tasso, l'arte s'imbarbarì; sì perchè le armi, i costumi e la 
+letteratura spagnuola innondarono tutta Italia; sì per l'ingegno prepotente del Marino, il quale, 
+cercandosi novella via, traviò, e tirò seco gli altri a smarrirsi. Tuttavia lasciò alcuni sonetti purgati: 
+fra' quali uno su <emph>la miseria dell'uomo</emph>; e comincia:
+
+<quote rend="block">
+                     <lg>
+                        <l>Apre l'uomo infelice allor che nasce,</l>
+                     </lg>
+                  </quote>
+
+e termina
+
+<quote rend="block">
+                     <lg>
+                        <l>Dalla culla alla tomba è un breve passo,</l>
+                     </lg>
+                  </quote>
+
+ma non l'ho tutto a mente. Due felici ingegni di quell'età scansarono la universale barbarie: l'uno è il 
+Chiabrera, che ritrasse le odi al genio antico de' Greci, e ne scrisse alcune insuperabili; ma ne' 
+sonetti fu maestro mezzano; l'altro è il Tassoni; non però so che abbia lasciato sonetti, fuorchè 
+satirici.</p>
+            </div2>
+            <div2 n="Alessandro Tassoni">
+               <opener>
+                  <byline>ALESSANDRO TASSONI</byline>
+                  <argument>
+                     <p>Morto nel MDCLXXV.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Questa Mummia col fiato in cui Natura</l>
+                     <l>L'arte imitò d'un uom di carta pesta,</l>
+                     <l>Che par mover le mani e i piedi a sesta</l>
+                     <l>Per forza d'ingegnosa architettura,</l>
+                  </lg>
+                  <lg>
+                     <l>Di Filippo da Narni è la figura,</l>
+                     <l>Che non portò giammai scarpa nè vesta</l>
+                     <l>Che fosser nuove, o cappel nuovo in testa;</l>
+                     <l>E cento mila scudi ha su l'usura.</l>
+                  </lg>
+                  <lg>
+                     <l>Vedilo col mantel spelato e rotto</l>
+                     <l>Ch'ei stesso ha di fil bianco ricucito,</l>
+                     <l>E la gonnella del piovano Arlotto.</l>
+                  </lg>
+                  <lg>
+                     <l>Chi volesse saper di ch'è il vestito</l>
+                     <l>Che già quattordici anni e' porta sotto,</l>
+                     <l>Non troveria del primo drappo un dito.</l>
+                  </lg>
+               </lg>
+               <p>TASSONI. Modonese. Acre e libero ingegno; illustre per la <title>Secchia 
+rapita</title>, poema contro le ire municipali d'Italia, nel quale lo stile eroico ed il satirico fanno un 
+terzo stile tutto nuovo; di che nondimeno abbiamo il primo esemplare nella <title>Guerra delle rane 
+e de' topi</title>, poemetto omerico. Ma il Tassoni ampliò i confini di questa specie di poesia, e fu 
+secondato nobilmente dal Boileau nel <title>Lutrin</title>, e graziosamente dal Pope nel 
+<title>Riccio rapito</title>. — Qui il Tassoni dipinge in istile affatto comico un sudicio 
+avaro. — Il <emph>piovano Arlotto</emph> era un antico prete dicontado in Toscana, 
+famoso per le sue arguzie morali e per la sua povertà, come Esopo.</p>
+            </div2>
+            <div2 n="Francesco Redi">
+               <opener>
+                  <byline>FRANCESCO REDI</byline>
+                  <argument>
+                     <p>Morto nel MDCXCVIII.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Lunga è l'arte d'Amor, la vita è breve;</l>
+                     <l>Perigliosa la prova, aspro il cimento,</l>
+                     <l>Difficile il giudizio; e al par del vento</l>
+                     <l>Precipitosa l'occasione e lieve.</l>
+                  </lg>
+                  <lg>
+                     <l>Siede in la scuola il fero mastro, e greve</l>
+                     <l>Flagello impugna al crudo ufficio intento;</l>
+                     <l>Non per via del piacer, ma del tormento</l>
+                     <l>Ogni discepol suo vuol che s'allev'e.</l>
+                  </lg>
+                  <lg>
+                     <l>Mesce i premj al castigo; e sempre amari</l>
+                     <l>I premj sono, e tra le pene involti,</l>
+                     <l>E tra gli stenti, e sempre scarsi e rari.</l>
+                  </lg>
+                  <lg>
+                     <l>Eppur fiorita è l'empia scuola, e molti</l>
+                     <l>Già vi son vecchi; eppur non v'è chi impari:</l>
+                     <l>Anzi imparano tutti a farsi stolti.</l>
+                  </lg>
+               </lg>
+               <p>REDI. D'Arezzo. I primi quattro versi sono traduzione del primo aforismo d'Ippocrate. Il 
+Redi era sommo scienziato in fisica, e medico egregio; e insieme discepolo malarrivato, come noi 
+tutti, d'Amore: però applica all'arte d'Amore la sentenza che Ippocrate dettava alle scuole di 
+medicina. Vedi la postilla al sonetto di <emph>Cino</emph>.</p>
+            </div2>
+            <div2 n="Benedetto Menzini">
+               <opener>
+                  <byline>BENEDETTO MENZINI</byline>
+                  <argument>
+                     <p>Morto nel MDCCIV.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Mentr'io dormia sotto quell'elce ombrosa,</l>
+                     <l>Parvemi, disse Alcon, per l'onde chiare</l>
+                     <l>Gir navigando donde il Sole appare</l>
+                     <l>Sin dove stanco in grembo al mar si posa.</l>
+                  </lg>
+                  <lg>
+                     <l>E a me, soggiunse Elpin, nella fumosa</l>
+                     <l>Fucina di Vulcan parve d'entrare,</l>
+                     <l>E prender armi d'artificio rare,</l>
+                     <l>Grand'elmo e spada ardente e fulminosa.</l>
+                  </lg>
+                  <lg>
+                     <l>Sorrise Uranio, che per entro vede</l>
+                     <l>Gli altrui pensier col senno; e in questi accenti</l>
+                     <l>Proruppe, e s'acquistò credenza e fede:</l>
+                  </lg>
+                  <lg>
+                     <l>Siate, o pastori, a quella cura intenti</l>
+                     <l>Che giusto il Ciel dispensator vi diede,</l>
+                     <l>E sognerete sol greggi ed armenti.</l>
+                  </lg>
+               </lg>
+               <p>MENZINI. Fiorentino, parmi; ma toscano di certo; ed è uno de' begli ingegni di seconda 
+sfera nella storia dell'italiana letteratura. — Questo è un idilio morale, dettato con lo stile di 
+mezzo conveniente a sì fatta poesia; e' pare di leggere uno scrittore greco. La maestria consiste 
+principalmente nella spontaneità del dialogo, nella proporzione e varietà delle tre parti del 
+componimento, e nella unità in cui si concentra la verità morale che è l'anima di questo sonetto.</p>
+            </div2>
+            <div2 n="Alessandro Guidi">
+               <opener>
+                  <byline>ALESSANDRO GUIDI</byline>
+                  <argument>
+                     <p>Morto nel MDCCXII.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Non è costei della più bella Idea</l>
+                     <l>Che lassù splenda, a noi discesa in terra;</l>
+                     <l>Ma tutto il bel che nel suo volto serra</l>
+                     <l>Sol dal mio forte immaginar si crea.</l>
+                  </lg>
+                  <lg>
+                     <l>Io le cinsi di gloria e fatta ho Dea,</l>
+                     <l>E in guiderdon le mie speranze atterra;</l>
+                     <l>Lei posi in regno, e me rivolge in guerra,</l>
+                     <l>E di mio pianto e di mia morte è rea.</l>
+                  </lg>
+                  <lg>
+                     <l>Tal forza acquista un amoroso inganno;</l>
+                     <l>E amar conviemmi, ed odïar dovrei</l>
+                     <l>Come il popolo oppresso odia il tiranno.</l>
+                  </lg>
+                  <lg>
+                     <l>Tutta mia colpa è il crudo oprar di lei;</l>
+                     <l>Or conosco l'errore e piango il danno.</l>
+                     <l>Arte infelice è il fabbricarsi i Dei!</l>
+                  </lg>
+               </lg>
+               <p>GUIDI. Di Pavia; vissuto in Roma, dove, se non erro, morì; fu alto poeta lirico e non 
+ebbe a' suoi tempi altro competitore nelle canzoni di stile sublime, fuorchè il senatore Filicaia, 
+fiorentino; il Guidi è più immaginoso; e il Filicaia più profondo nell'arte; ma il loro stile si risente di 
+certa gonfiezza. — Questo sonetto esprime poeticamente una splendida verità, alla quale per 
+altro non può aprire gli occhi, se non chi non ha bisogno più di vederla. Vero è che l'amore induce a 
+creare idoli e ad adorarli miseramente, appunto quegli uomini che più ardentemente bramano la 
+bellezza e la virtù sulla terra: pure sì fatti animi conoscono men difficilmente l'errore, e si sdegnano 
+d'essersi umiliati davanti alla creatura ch'essi avevano deificata. Però quel versetto di Davide, se 
+non fosse divino, sarebbe tuttavia sapientissimo: <hi rend="italic">Sdegnatevi, e cesserete di 
+peccare</hi>.</p>
+            </div2>
+            <div2 n="Giovanni Battista Zappi">
+               <opener>
+                  <byline>GIOVANNI BATTISTA ZAPPI</byline>
+                  <argument>
+                     <p>Morto intorno al MDCCXX.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>In quella età ch'io misurar solea</l>
+                     <l>Me col mio capro, e il capro era maggiore,</l>
+                     <l>Io amava Clori, che insin da quell'ore</l>
+                     <l>Maraviglia, e non donna a me parea.</l>
+                  </lg>
+                  <lg>
+                     <l>Un dì le dissi: Io t'amo; e il disse il core,</l>
+                     <l>Poichè tanto la lingua non sapea;</l>
+                     <l>Ed ella un bacio diemmi, e mi dicea:</l>
+                     <l>Pargoletto, ah non sai che cosa è amore!</l>
+                  </lg>
+                  <lg>
+                     <l>Ella d'altri s'accese, altri di lei:</l>
+                     <l>Io poi giunsi all'età ch'uom s'innamora,</l>
+                     <l>L'età degl'infelici affanni miei.</l>
+                  </lg>
+                  <lg>
+                     <l>Clori or mi sprezza, io l'amo insin d'allora:</l>
+                     <l>Non si ricorda del mio amor costei;</l>
+                     <l>Io mi ricordo di quel bacio ancora.</l>
+                  </lg>
+               </lg>
+               <p>ZAPPI. Di Imola. Scrittore gentile, ma che spesso, cercando vezzi, va nel lezioso: qui 
+no; l'idea e la esposizione sono affettuosamente e correttamente graziose. Oggi si canta questo 
+sonetto in Italia, messo in musica dal maestro Asioli. Faustina Maratti, moglie dello Zappi, ottenne 
+grido di poetessa, e non senza merito; ma allora, per miseria dell'Italia, il far versi e rime riputavasi 
+gloriosissimo studio. Fiorì intorno al 1720 la scuola bolognese; il Ghedini, i due Zanotti ed 
+Eustachio Manfredi, egregio matematico e poeta più caldo degli altri. Non ho a mente veruno de' 
+loro sonetti; ma in complesso furono scrittori più corretti che animati; e volendo purgare la poesia 
+dalla gonfiezza del secolo addietro, caddero nel vizio contrario, e la dissanguarono.</p>
+            </div2>
+            <div2 n="Cornelio Bentivoglio">
+               <opener>
+                  <byline>CORNELIO BENTIVOGLIO</byline>
+                  <argument>
+                     <p>Morto nel MDCCXXXV.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Vidi, ahi memoria rea delle mie pene!</l>
+                     <l>In abito mentito io vidi Amore</l>
+                     <l>Ampio gregge guidar, fatto pastore,</l>
+                     <l>Al dolce suon delle cerate avene;</l>
+                  </lg>
+                  <lg>
+                     <l>E il riconobbi all'aspre sue catene</l>
+                     <l>Ch'usciano un poco al rozzo manto fuore;</l>
+                     <l>E l'arco vidi che il crudel signore</l>
+                     <l>Indivisibilmente al fianco tiene.</l>
+                  </lg>
+                  <lg>
+                     <l>Onde gridai: Povere greggi! ascoso</l>
+                     <l>È il lupo in vesta pastoral: fuggite,</l>
+                     <l>Pastor, fuggite il suono insidïoso.</l>
+                  </lg>
+                  <lg>
+                     <l>Allora Amor: Tu che le insidie ordite</l>
+                     <l>Scopristi, ed ami sì l'altrui riposo,</l>
+                     <l>Tutte prova in te sol le mie ferite.</l>
+                  </lg>
+               </lg>
+               <p>BENTIVOGLIO. Casato d'illustre famiglia bolognese trapiantatasi a Ferrara. — 
+Il sonetto, sì per la novità, l'ingenuità, l'invenzione, e il sentimento ilare insieme e patetico; sì per la 
+disposizione, per la scena e freschezza campestre del quadro, e pel movimento degli attori, è 
+vaghissimo. È vero: il sentire assai pietà degli innamorati, l'ascoltare i loro secreti lamenti, e il 
+volerli aiutare, induce spesso, e segnatamente le giovani donne, ad ardere della febbre che tentano 
+di guarire negli altri. — <emph>avene</emph> vuol dire <emph>canne</emph>; e più 
+cannucce diseguali commesse con della cera formano anch'oggi la sampogna de' pastorelli. 
+— <emph>al manto fuori</emph>; invece di <emph>dal</emph>, come s'usa; o di 
+<emph>del</emph>, come dovrebbesi usare: pure in questo luogo è licenza contro la grammatica, 
+non contro la poesia; anzi ha garbo.</p>
+               <p>Qui pure m'è forza a lasciare un'altra lacuna, benchè dal 1740 in poi florirono de' 
+sonettisti insigni, e non pochi; fra' quali il Frugoni, il Salandri e il Cassiani sono degni delle lodi 
+maggiori. L'ultimo, ne' pochi sonetti da lui pubblicati, ridusse questo componimento a quadro, e 
+forse con assai troppa cura; e per conseguire esattezza pittorica pregiudicò al genio poetico. Di 
+nessuno di que' sonetti io ricordomi esattamente. Chi, nel leggere questo volumetto, avesse 
+desiderio e opportunità d'ottenerli d'Italia, mi farà cosa grata s'ei li aggiungerà manoscritti a questa 
+raccolta, e riempirà la lacuna. Uno de' bei sonetti del Salandri è sul passaggio del console Flaminio 
+per le onde del Trasimeno. Uno del Frugoni è sull'esilio di Scipione,e comincia:
+
+<quote rend="block">
+                     <lg>
+                        <l>Quando il gran Scipio dall'ingrata terra.</l>
+                     </lg>
+                  </quote>
+
+Uno del Cassiani dipinge mirabilmente il ratto di Proserpina:
+
+<quote rend="block">
+                     <lg>
+                        <l>Diè un alto strido, gittò i fiori, e volta</l>
+                        <l>All'improvvisa mano che la strinse,</l>
+                        <l>Tutta in sè per la tema onde fu colta,</l>
+                        <l>La Siciliana vergine si strinse, ecc.</l>
+                     </lg>
+                  </quote>
+
+Aggiungansi i sonetti di Angelo Mazza per <emph>Santa Cecilia</emph>, e di Vincenzo Monti su 
+<emph>la morte di Giuda</emph>. Questi due poeti vivono ancora.</p>
+            </div2>
+            <div2 n="Quirico Rossi">
+               <opener>
+                  <byline>QUIRICO ROSSI</byline>
+                  <argument>
+                     <p>Morto intorno al MDCCLX.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Io nol vedrò; poichè il cangiato aspetto</l>
+                     <l>E la vita che sento venir meno,</l>
+                     <l>Mi diparte dal dolce aer sereno,</l>
+                     <l>Nè mi riserba al sanguinoso obbietto;</l>
+                  </lg>
+                  <lg>
+                     <l>Ma tu, Donna, il vedrai questo diletto</l>
+                     <l>Figlio, che stringi vezzeggiando al seno,</l>
+                     <l>D'onta, di strazi e d'amarezza pieno,</l>
+                     <l>Barbaramente lacerato il petto.</l>
+                  </lg>
+                  <lg>
+                     <l>Ché fia allor, che fia? e qual mai frutto</l>
+                     <l>Corrai dall'arbor trionfale? Oh quanto</l>
+                     <l>Si prepara per te dolore e lutto!</l>
+                  </lg>
+                  <lg>
+                     <l>Così largo versando amaro pianto</l>
+                     <l>II buon vecchio dicea. Con ciglio asciutto</l>
+                     <l>Maria si stava ad ascoltarlo intanto.</l>
+                  </lg>
+               </lg>
+               <p>Q. ROSSI. Gesuita; non so di che terra, perchè i frati non hanno patria. Il sonetto è 
+davvero profetico, e degno di qualunque poeta. Sino a tutto l'undecimo verso parla Simeone a 
+Maria, la quale presenta all'altare Gesù bambino. I tre ultimi versi hanno in sè sì schietta, e sì divina 
+e passionata bellezza, che avrebbero potuto guidare la mano di Rafaello a dipingere la 
+<title>Rassegnazione della Vergine</title>.</p>
+            </div2>
+            <div2 n="Onofrio Minzoni">
+               <opener>
+                  <byline>ONOFRIO MINZONI</byline>
+                  <argument>
+                     <p>Sonetto scritto verso il MDCCXXX.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Quando Gesù con l'ultimo lamento</l>
+                     <l>Schiuse le tombe e la montagna scosse,</l>
+                     <l>Adamo rabbuffato e sonnolento</l>
+                     <l>Levò la testa, e sovra i piè rizzosse.</l>
+                  </lg>
+                  <lg>
+                     <l>Le forbide pupille intorno mosse</l>
+                     <l>Piene di meraviglia e di spavento;</l>
+                     <l>E palpitando addimandò chi fosse</l>
+                     <l>Quei che pendeva insanguinato e spento.</l>
+                  </lg>
+                  <lg>
+                     <l>Come lo seppe, alla rugosa fronte,</l>
+                     <l>Al crin canuto ed alle guance smorte</l>
+                     <l>Con la pentita man fe' danni ed onte:</l>
+                  </lg>
+                  <lg>
+                     <l>Poi volto lagrimoso alla consorte,</l>
+                     <l>Ei gridò sì che rimbombonne il monte:</l>
+                     <l>Io per te diedi al mio Signor la morte.</l>
+                  </lg>
+               </lg>
+               <p>MINZONI. Ferrarese: seguace (quanto allo stile) del suo concittadino Ariosto; però 
+tratta i sonetti, che pur sono lavoro finissimo, a poche e grandi pennellate. Questo <emph>su la 
+morte del Redentore</emph> è stimato inarrivabile; ed è più agevole a vederne la bellezza 
+apparente che distinguerne le macchie palliate. Rileggasi il sonetto, si giudichi, poi si raffronti il 
+proprio giudizio con le seguenti osservazioni: 1<hi rend="sup">o</hi> Non so perchè Adamo, anzi 
+che presentarsi in aspetto dignitoso, esca con le chiome bruttamente arruffate; il colorito del terrore 
+ha certi confini, oltre a' quali va nell'orrore deforme. 2<hi rend="sup">o</hi> Non è atto di dolore virile, nè 
+decente al padre del genere umano, il battersi la guancia e lo scapigliarsi; aggiungi che questi tre 
+versi sono tolti di peso dall'Ariosto, ma guasti nella circostanza e finnella frase: canto XII, st. I.
+
+<quote rend="block">
+                     <lg>
+                        <l>Fatto ch'ebbe alle guance, al petto, a' crini,</l>
+                        <l>E agli occhi danno.</l>
+                     </lg>
+                  </quote>
+
+Vedi quanto più di sobrietà, di rapidità e d'eleganza! Inoltre l'Ariosto parla di Cerere disperata che 
+aveva perduto la sua figliuola. 3<hi rend="sup">o</hi> Non è generoso nè degno d'Adamo, nè spira virtù 
+quell'imputare alla moglie la colpa di cui esso pure fu complice, e a cui esso, come naturalmente più 
+forte, era più in debito di resistere.</p>
+            </div2>
+            <div2 n="Giuseppe Parini">
+               <opener>
+                  <byline>GIUSEPPE PARINI</byline>
+                  <argument>
+                     <p>Morto nel MDCCXCIX.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Quell'io che già con lungo amaro carme</l>
+                     <l>Amor derisi e il suo regno potente,</l>
+                     <l>E chiamai dietro me l'Itala gente,</l>
+                     <l>Col mio riso maligno, ad ascoltarme,</l>
+                  </lg>
+                  <lg>
+                     <l>Or sento anch'io sotto l'indomite arme,</l>
+                     <l>Fra la folla del popolo imminente,</l>
+                     <l>Dietro le rote del gran carro lente</l>
+                     <l>Dall'offeso tiranno strascinarme.</l>
+                  </lg>
+                  <lg>
+                     <l>Ognuno per veder la infame multa,</l>
+                     <l>Corre, urta, grida al suo propinquo: È quei;</l>
+                     <l>E il beffator comun beffa ed insulta.</l>
+                  </lg>
+                  <lg>
+                     <l>Io scornato abbassando gli occhi rei,</l>
+                     <l>Seguo il mio fato; e il mio nemico esulta.</l>
+                     <l>Imparate a deridere gli Dei!</l>
+                  </lg>
+               </lg>
+               <p>PARINI Unico poeta eccellente che in tanti secoli abbiano avuto i Milanesi, bench'ei sia 
+nato verso Como in riva al bel lago di Pusiano; ed era figlio di poverissimi contadini. Scrisse una 
+lunga satira di nuovo e splendido stile, intitolata il <title>Giorno</title>, nella quale deride gli 
+amori svogliati, e le altre scioperate passioni de' patrizi italiani. — Questo sonetto è 
+pittoresco a guisa di quei del Cassiani. Nel settimo verso sentesi, per arte d'armonia imitativa, lo 
+stridore d'un gran carro tardo a moversi.</p>
+            </div2>
+            <div2 n="Vittorio Alfieri">
+               <opener>
+                  <byline>VITTORIO ALFIERI</byline>
+                  <argument>
+                     <p>Morto nel MDCCCIII.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>O cameretta, che già in te chiudesti</l>
+                     <l>Quel grande alla cui fama è angusto il mondo,</l>
+                     <l>Quel gentile d'amor mastro profondo</l>
+                     <l>Per cui Laura ebbe in terra onor celesti:</l>
+                  </lg>
+                  <lg>
+                     <l>O di pensier soavemente mesti</l>
+                     <l>Solitario ricovero giocondo!</l>
+                     <l>Di che lagrime amare il petto inondo</l>
+                     <l>Nel veder che ora inonorato resti!</l>
+                  </lg>
+                  <lg>
+                     <l>Prezïoso dïaspro, agata ed oro</l>
+                     <l>Foran debito fregio, e appena degno</l>
+                     <l>Di rivestir el nobile tesoro.</l>
+                  </lg>
+                  <lg>
+                     <l>Ma no; tomba fregiar d'uom ch'ebbe regno</l>
+                     <l>Vuolsi, e por gemme ove disdice alloro:</l>
+                     <l>Qui basta il nome di quel divo ingegno.</l>
+                  </lg>
+               </lg>
+               <p>ALFIERI. Da Asti. Parecchi de' suoi molti sonetti, benchè abbiano poca musica e certa 
+trivialità di voci qua e là, possono ad ogni modo andare del pari co' più lodati in Italia; così pure le 
+sue prose: ma il mondo non vuol dare la palma ad uno scrittore se non se in un solo genere; però 
+non si fa grande stima che delle tragedie di questo poeta. — Il sonetto parla della casa del 
+Petrarca in Arquà presso Padova; e a. me pare in ogni sua parte assai bello. Il primo verso allude al 
+sonetto del Petrarca:
+
+<quote rend="block">
+                     <lg>
+                        <l>O cameretta che già fosti porto.</l>
+                     </lg>
+                  </quote>
+               </p>
+            </div2>
+            <div2 n="Ugo Foscolo">
+               <opener>
+                  <byline>UGO FOSCOLO</byline>
+                  <argument>
+                     <p>Sonetto scritto nel MDCCCII.</p>
+                  </argument>
+               </opener>
+               <lg>
+                  <lg>
+                     <l>Un di, s'io non andrò sempre fuggendo</l>
+                     <l>Di gente in gente, mi vedrai seduto</l>
+                     <l>Su la tua pietra, o fratel mio, gemendo</l>
+                     <l>Il fior de' tuoi gentili anni caduto:</l>
+                  </lg>
+                  <lg>
+                     <l>La madre or sol, suo di tardo traendo,</l>
+                     <l>Parla di me col tuo cenere muto:</l>
+                     <l>Ma io deluse a voi le palme tendo;</l>
+                     <l>E se da lunge i miei tetti saluto,</l>
+                  </lg>
+                  <lg>
+                     <l>Sento gli avversi Numi, e le secrete</l>
+                     <l>Cure che al viver tuo furon tempesta;</l>
+                     <l>E prego anch'io nel tuo porto quïete!</l>
+                  </lg>
+                  <lg>
+                     <l>Questo di tanta speme oggi mi resta!</l>
+                     <l>Straniere genti, l'ossa mie rendete</l>
+                     <l>Allora al petto della madre mesta.</l>
+                  </lg>
+               </lg>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

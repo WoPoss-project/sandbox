@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Modal classification</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Lausanne</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <fsdDecl>
+
+      <fsDecl type="relation">
+         <fDecl name="modality">
+            <vRange>
+               <vAlt>
+                  <fs type="dynamic"/>
+                  <fs type="deontic"/>
+                  <fs type="epistemic"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+         <fDecl name="relation">
+            <vRange>
+               <vColl>
+                  <fs type="direction"/>
+                  <fs type="source"/>
+                  <fs type="polarity"/>
+               </vColl>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+
+      <!-- Description of marker-->
+
+      <fsDecl type="marker">
+         <fDecl name="archiunit">
+            <vRange>
+               <vAlt>
+                  <symbol value="futurity"/>
+                  <symbol value="possibility"/>
+                  <symbol value="necessity"/>
+                  <symbol value="non-modal"/>
+                  <symbol value="permission"/>
+                  <symbol value="obligation"/>
+                  <symbol value="certainty"/>
+                  <symbol value="acceptability"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+         <fDecl name="illocution">
+            <vRange>
+               <vAlt>
+                  <symbol value="assertive_aff"/>
+                  <symbol value="assertive_neg"/>
+                  <symbol value="interrogative"/>
+                  <symbol value="exclamative"/>
+                  <symbol value="rhetoric"/>
+                  <symbol value="pragmatic"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+
+      <fsDecl type="scope">
+         <fDecl name="illocution">
+            <vRange>
+               <vAlt>
+                  <symbol value="assertive_aff"/>
+                  <symbol value="assertive_neg"/>
+                  <symbol value="interrogative"/>
+                  <symbol value="exclamative"/>
+                  <symbol value="rhetoric"/>
+                  <symbol value="pragmatic"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+         <fDecl name="SoA">
+            <vRange>
+                  <fs type="type">
+                     <f name="dynamic">
+                        <vAlt>
+                           <binary value="false"/>
+                           <binary value="true"/>
+                        </vAlt>
+                     </f>
+                     <f name="control">
+                        <vAlt>
+                           <binary value="false"/>
+                           <binary value="true"/>
+                        </vAlt>
+                     </f>
+                     <f name="type">
+                        <vAlt>
+                           <symbol value="none"/>
+                           <symbol value="inanimate"/>
+                           <symbol value="animate"/>
+                        </vAlt>
+                     </f>
+                  </fs>
+               
+            </vRange>
+
+
+         </fDecl>
+      </fsDecl>
+
+
+
+
+
+
+
+      <!-- Features to describe DYNAMIC MODALITY-->
+
+      <fsDecl type="dynamic">
+
+         <!-- Description of the property-->
+
+         <fsDescr>Dynamic modality covers the notions of possibility and necessity with reference to
+            properties that are <emph>internal</emph> to the participant who is engaged in the state
+            of affairs, or to circumnstances <emph>external</emph> to the participant, or
+               <emph>inherent</emph> in the state of affairs</fsDescr>
+
+
+         <fDecl name="subtype">
+            <fDescr>Classification of modality in regards to the state of affairs and the
+               participants</fDescr>
+
+            <!-- One of the following subtypes is mandatory-->
+            <vRange>
+               <vAlt>
+                  <symbol value="participant-inherent"/>
+                  <symbol value="participant-imposed"/>
+                  <symbol value="situational"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+
+         <fDecl name="meaning">
+            <vRange>
+               <vAlt>
+                  <symbol value="possibility"/>
+                  <symbol value="necessity"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+
+      </fsDecl>
+
+      <!-- Features to describe DEONTIC MODALITY-->
+
+      <fsDecl type="deontic">
+
+         <!-- Agent who enables or compells the participant to engage in the state of affairs-->
+
+         <fDecl name="speaker_authority">
+            <vRange>
+               <vAlt>
+                  <symbol value="obligation"/>
+                  <symbol value="recommendation"/>
+                  <symbol value="permission"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+
+         <fDecl name="scalarity">
+            <vRange>
+               <vAlt>
+                  <symbol value="absolutely_necessary"/>
+                  <symbol value="desirable"/>
+                  <symbol value="acceptable"/>
+                  <symbol value="not_desirable"/>
+                  <symbol value="unacceptable"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+
+         <fDecl name="common_ground">
+            <vRange>
+               <vAlt>
+                  <binary value="true"/>
+                  <binary value="false"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+
+         <!--         Type of source-->
+
+         <fDecl name="compelling_agent">
+            <vRange>
+               <!-- One or more of the following “agents” create the circumnstances that compell the participant-->
+               <vColl>
+                  <symbol value="person"/>
+                  <symbol value="society"/>
+                  <symbol value="religion"/>
+                  <symbol value="ethics"/>
+               </vColl>
+            </vRange>
+         </fDecl>
+
+         <fDecl name="meaning">
+            <vRange>
+               <vAlt>
+                  <symbol value="intention"/>
+                  <symbol value="volition"/>
+                  <symbol value="evaluation"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+
+
+
+      <!-- Features to describe EPISTEMIC MODALITY -->
+
+      <fsDecl type="epistemic">
+
+         <fDecl name="degree">
+            <vRange>
+               <vAlt>
+                  <symbol value="absolutely_certain"/>
+                  <symbol value="probable"/>
+                  <symbol value="possible"/>
+                  <symbol value="improbable"/>
+                  <symbol value="impossible"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+         <fDecl name="common_ground">
+            <vRange>
+               <vAlt>
+                  <binary value="true"/>
+                  <binary value="false"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+         <fDecl name="evidence">
+            <vRange>
+               <vAlt>
+                  <binary value="false"/>
+                  <fs type="evidential_justification"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+
+
+
+      <!-- Features to describe the types of evidence-->
+
+      <fsDecl type="evidential_justification">
+         <fDecl name="perception">
+            <vRange>
+               <vAlt>
+                  <fs type="direct"/>
+                  <fs type="indirect"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+
+      <!-- Direct evidential types-->
+
+      <fsDecl type="direct">
+         <fDecl name="sense">
+            <vRange>
+               <vAlt>
+                  <symbol value="hearing"/>
+                  <symbol value="sight"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+
+      <!-- Indirect evidential types-->
+
+      <fsDecl type="indirect">
+         <fDecl name="input">
+            <vRange>
+               <vAlt>
+                  <symbol value="inference"/>
+                  <symbol value="memory"/>
+                  <symbol value="report"/>
+                  <symbol value="feeling"/>
+                  <symbol value="quotation"/>
+               </vAlt>
+            </vRange>
+         </fDecl>
+      </fsDecl>
+   </fsdDecl>
+</TEI>

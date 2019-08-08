@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Canis</title>
+        <author>Leon Battista Alberti</author>
+      </titleStmt>
+      <extent>29 Kb in UTF-8</extent>
+      <publicationStmt>
+        <publisher>Biblioteca Italiana</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>2003</date>
+        <idno>bibit000317</idno>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni
+            uso commerciale è vietato</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Collezione BibIt</title>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Apologhi ed elogi</title>
+          <author>Alberti, Leon Battista</author>
+          <editor id="ed">Contarino, Rosario</editor>
+          <editor id="ed2">Malerba, Luigi</editor>
+          <publisher>Costa e Nolan</publisher>
+          <pubPlace>Genova</pubPlace>
+          <date>1984</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità
+          dell'autore dell'opera sono stati soppressi nella versione digitale</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction method="silent" status="medium">
+          <p>Livello medio: controllo a video con collazione con edizione di riferimento</p>
+        </correction>
+        <quotation form="data" marks="all">
+          <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati
+            rappresentati sulla versione digitale</p>
+        </quotation>
+        <hyphenation eol="none">
+          <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte</p>
+        </hyphenation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="CDD">
+          <bibl>Classificazione Decimale Dewey</bibl>
+        </taxonomy>
+        <taxonomy id="CGB">
+          <bibl>Classificazione generi BibIt</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>400</date>
+      </creation>
+      <langUsage>
+        <language id="lat"/>
+      </langUsage>
+      <textClass>
+        <keywords scheme="CDD">
+          <term>878 - SCRITTI MISCELLANEI LATINI</term>
+        </keywords>
+        <keywords scheme="CGB">
+          <term>Oratoria</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>Data sconosciuta anteriore al 2000</date>
+        <respStmt>
+          <name>CIBIT - Pisa</name>
+        </respStmt>
+        <item>Digitalizzazione</item>
+      </change>
+      <change>
+        <date>Data sconosciuta anteriore al 2000</date>
+        <respStmt>
+          <name>CIBIT - Pisa</name>
+        </respStmt>
+        <item>Correzione linguistica</item>
+      </change>
+      <change>
+        <date>2004-03-15T00:00:00.000+02:00</date>
+        <respStmt>
+          <name>Carla Deiana</name>
+          <name>BIBIT</name>
+        </respStmt>
+        <item>Codifica XML - Codifica manuale</item>
+      </change>
+      <change>
+        <date>2004-03-15T00:00:00.000+02:00</date>
+        <respStmt>
+          <name>Carla Deiana</name>
+          <name>BIBIT</name>
+        </respStmt>
+        <item>Validazione</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+        <head>Canis</head>
+
+        <p>Erat in more apud maiores nostros, viros omni bonarum artium cognitione et imprimis
+          disciplina morum sanctissimorum et religione prestantissimos, ut bene meritos cives
+          laudibus prosequerentur clarorumque virorum nomina litteris et, quod in se esset,
+          immortalitati summo studio omnique industria commendarent. Id illos ita consuevisse
+          possumus interpretari: partim ut referendis premiis equitate et iustitia uterentur, cui
+          virtuti penitus erant dediti; partim ut iuvenes studiosos ad virtutis cultum, quod patrie
+          utiles et celebres eo pacto apud posteros redderentur, vehementius illicerent et
+          confirmarent; partim etiam otium, quo fortassis abundabant, in eo collaudandi munere
+          omnibus grato atque accepto consumerent.</p>
+        <p>Tantumque apud eos et publice et private valuit studium concelebrande laudis hominum
+          probatissimorum, ut non in funeribus modo, quod hac etate inde accepta consuetudine fit,
+          publice laudationes haberentur, et litterarum monimentis mandarentur, verum etiam eo
+          processit res, ut non contenti humanis laudibus atque gestis, alii deos effecerint suis
+          scriptis eos qui virtute effloruissent, alii preterea ficta et nulla ex parte credendas
+          fabulas ad virtutis illecebras accomodarint. Hinc Athenis multe a rethoribus funebres acte
+          orationes. Hinc apud nostros a simili quoque per id tempus vulgata consuetudine sumptaque
+          licentia extitit, ut non modo cives optime de re publica meritos pro officio dicendo
+          ornaverint; verum etiam suos domesticos privati cives publica in contione collaudarint.
+          Etenim (ut ceteros obmittam) Marcum quidem Antonium suavi oratione collaudasse matrem in
+          funere et Fabium Maximum de filii laudibus funebrem habuisse orationem ferunt. Ab hac
+          denique consuetudine Hercules deus dictus est, addita etiam Hydra et bellua Lerne, et
+          eiusdem monstra que ab re essent et prolixum prosequi emanarunt.</p>
+        <p>At nobis per istos estivos calores et estus otiosis, cum ipsa etsi acerba occasio
+          obtulerit, ut meo mihi admodum innato aliquid continuo agendi aut scriptitandi desiderio
+          honestissime et pene coactus satisfaciam, quid iam est quod promptius exequar, quam ut in
+          ea re exercear, in qua officio et (ni fallor) minime improbando desiderio meo conferam?
+          Etenim, cum intelligam ita esse ab optima ipsa natura comparatum, ut virtute insignes et
+          eos maxime quibus cari et commendati fuerimus imprimis diligamus, propter pietatem visum
+          est, si hoc amoris officium, quod defuncto Cani meo canum omnium optimo et mei amantissimo
+          debeo, denegarim. Nam si bonos omnium consensu iuste et pie quasi virtutum suarum
+          observatores et testificatores nimirum laudamus, quanto hoc commodius et decentius a me
+          fiet, qui laudare instituerim hunc, quem apud me educatum et optimis per me disciplinis
+          instructum, ad unguem norim? Qua in re tantam cuperem quidem esse in me dicendi
+          facultatem, ut hac ipsa in funebri oratione maximas illius et incredibiles laudes pro
+          legentium expectatione satis posse recensere. Nam in ea re quam me acturum prestem, siquid
+          defecerim, ridiculus sim. Sed hoc ad scribendum audentius aggredior, quod illius virtus
+          que iam usque universis orbis terrarum gentibus explorata magna ex parte fuit et cognita
+          ex se tanta est ut, cum eloquentie ornamentis minime indigeat, tum esse illam nobis amplam
+          et rerum dignitate ac varietate elegantem ornatamque orationem sumministraturam non
+          diffidam.</p>
+        <p>Describam igitur breviter vitam et mores Canis mei, ut qui legerint neque prolixitate
+          orationis in fastidium incidant, neque nos nimium curiosos et exactos laudatores fuisse
+          iudicent; ac futurum quidem non vereor ut, cum canem ipsum laude dignissimum et in eo
+          laudando me officium secutum affirment, tum sibi ad voluptatem animi et ad mores bonos
+          plurima apud nos adinvenisse admonimenta non negent, que cum laude sequantur et condigne
+          imitentur. Etenim ortus est Canis noster parentibus nobilissimis, patre Megastomo, cuius
+          in familia vestustissima pene innumerabiles clarissimi principes extitere, ut inter ipsos
+          aliqui ob virtutem in numero sint deorum apud priscas illas sapientissimas egiptiorum
+          gentes habiti, qualem etate hac nostra medium inter astra fulgentissima ex eo genere
+          quendam vagari canem, qui siderum motus et cursus non ignorant, omnes profitentur. Matrem
+          autem habuit pietate insignem ex eadem et amplissima familia ortam que, cum virtute et
+          animi robore et prestantia atque viribus, tum fide benivolentia pietate observantiaque in
+          eos a quibus se liberalitate et benefitiis adiutos senserint, ipsos longe homines
+          exuperarunt. Ac prolixum quidem esset maiorum suorum omnium facta dictaque memoratu
+          dignissima recensere. Sed hoc iuvabit aliqua eorum gesta enumerasse, quo intelligamus hunc
+          nostrum a pristina suorum probitate et virtute minime degenerasse. Itaque inter proavos
+          familie canum memorie traditum est nonnullos tanto animo et fortitudine preditos
+          extitisse, ut neque leonem quamvis acerrimum et ferocissimum neque elephantum, maximam et
+          valentissimam beluarum, in duellum petere recusarint. Quo ex omni fortissimorum canum
+          numero ceteri plures, et imprimis duo apud Hiarotim, Indorum fluvium, orti, qui, prius sub
+          rege Albanorum mox sub Alexandro macedone meruere, celebres notissimique sunt; quos
+          ferunt, cum elephantum aut quamvis belluam morsu comprehendissent, nisi ea prius confecta,
+          neque igni neque ferro ab suscepta dimicatione et victoria nequidquam potuisse avelli.
+          Quanta autem huiusmodi fortissimorum canum extiterit copia, hinc vel maxime perspici
+          potest, quod Caramantum regem suis auspiciis et armis ab exilio in regnum restituerunt,
+          Colophoniosque et Castabalenses nullis stipendiis acceptis nullaque alia spe lucri
+          proposita, sola benivolentia ducti, primas acies agendo et hostem cedendo sepe a
+          populationibus gravissimis et imminenti servitute vindicarunt. Fuere igitur et
+          perduellionibus et structa in acie fortissimi atque quod raro hac etate evenit, ut armis
+          fidentes iustitiam et pietatem colant in hac nobili canum familia sempiterne usque ad hanc
+          diem humanitas fides et referende gratie studium viguit non minus quam fortitudo.
+          Incredibile dictu est quam illi quidem in servanda fide perpetuo fuerint religiosissimi.
+          Aratus Sycionius, vir et domi et bello clarissimus, capto Acrocorintho, fortissimo
+          provincie aditu, a quo pene omnis patrie salus pendebat, arcem eius loci non fidissimis
+          amicis magis quam canibus quinquaginta tuendam commendavit, quam illi diligentissimis diu
+          noctuque excubiis peractis servarunt; tantamque quoquo se loci receperint omnium gentium
+          in se gratiam et benivolentiam optime agendo semper assecuti sunt, ut ceteri plerique
+          atque imprimis Xantipes priscus defunctos canes qui bene essent meriti publica impensa
+          honeste humandos censuerit, cuidamque cuius fidem et amoris constantiam Salamine et in
+          omni sua expeditione esset expertus in arce apud Athenas sepulchrum quam
+          honorificentissime posuit, locumque nomini eius dicavit qui Cinotaphium nuncuparetur. Quid
+          clarissimo illi fecisset Xantipes cani, qui Sparagum puerum, cui postea Cyro nomen fuit,
+          crudeliter expositum, cum invenisset, motus pietate, ceteris suis posthabitis rebus, summa
+          sollicitudine et inextimabili quadam charitate tutatus est. Quive (quod incredibile dictu
+          est) quot et quam maximas atque atrocissimas in servando puero contra voraces lupos et
+          istiusmodi fame sevientes feras fortissime, illatis acceptisque vulneribus, dimicationes
+          inierit? Sed ne pietate quidem huic is inferior canis fuit, qui, dum a perempti amici
+          cadavere exposito volucres et feras arcendo persisteret, per sitim ac famem atque laborem
+          defecerit. Adde his et illum qui, Appio Iunio et P. Silio consulibus, Rome nulla alia
+          sanctiori necessitudine devinctus, nisi quod perdomestice convivere domumque nonnumquam ex
+          mediis nemoribus raptas ad eum cenas conferre consuesset, familiarem suum hominem quendam
+          tanto officio prosecutus est ut adversa et calamitosa in fortuna collapsum ne defunctum
+          quidem deseruerit. Nam etsi egenus canis ipse ac pro querendo sibi victu nequicquam esset
+          otiosus, tamen apud familiarem suum carcere publico detentum sese comitem habebat
+          assiduum, ab aliisque amicis rogatum, cibum ad hunc miserum hominem in dies deferebat;
+          atque cum miser ille ad penas Germanico principi a quo detineretur persolvisset, in
+          Tiberim eiectum cadaver substentando summo suo cum periculo annatavit. Verum enim siquis
+          velit canum omnium pietatem et fidem prosequi tanta et tam multa eorum virtutis exempla ab
+          optimis auctoribus memorie prodita inveniet, ut quidvis facilius eum posse existimem, quam
+          eadem omnia unum in locum collecta redigere.</p>
+        <p>Que res cum ita sint, nos brevitatis gratia maiorum huius familie laudes pretermittemus,
+          atque id quidem ita agemus, vel quod de huius nostri Canis laudibus nimium multa et
+          elegantissima ad dicendum suppeditent, vel quod non eo me ingenium preditum sentiam, ut
+          illorum superiorum preclarissima gesta pro dignitate queam recensere, vel quod fortassis
+          quibusdam qui potissimum Canis nostri egregias laudes expectant, ab re esse maiorum
+          commemoratio videatur. Preter duos igitur in amicitia singulares, qui mihi occurrunt et
+          quos ob facti admirationem minime pretermittendos duco, ceteros obmittemus. Non inter hos
+          quidem illos commemoro, quorum unus in Epiro amici sui peremptorem nulla homicide arma aut
+          minas veritus, presenti animo et acri latratu ac laniatu in cetu hominum prodidit.
+          Quorumve alter pari animi fiducia Ganictoris filios, Hesiodi occisores indicavit. Neque
+          eum qui sacrilegum ab templo Esculapii sectando obviis peregrinantibus gestu et nutu
+          monstravit. Eumque missum facio canem qui ad Romanum civem bello civili prostratum
+          adstitit contra prostrati inimicos belligerans tantis viribus, ut inimici armati non nisi
+          interfecto cane abscidere prostrati caput potuerint. Sed hos igitur missos facio eosque
+          admirabimur, quorum unus Lisimaco regi amicissimus, cum amicum e vita exisse atque in
+          rogum eius corpus delatum intueretur, pre amici desiderio ut quem in vita amplius non
+          esset conspecturus morte celebri consequeretur, sese medias inter flammas funeris iniecit.
+          Alter amici cuiusdam interfecti, cui nomen Iasoni Licio fuerat, tam acerbissime mortem
+          tulit, ut per animi dolorem cibum abhorrens inedia decesserit. Huiusmodi igitur maiores
+          avi et avorum proavi hac in familia generosissima fuere fortissimi, sanctissimi
+          piissimique. Quos profecto Canis hic noster de quo agimus omni pietatis modestieque
+          officio maxime imitatus est; nullique pro viribus fuit fortitudini et gloria secundus.</p>
+        <p>Quem cum natura pusillum et ad ferendum immanissimi et prepotentis hostis alicuius
+          impetum haud satis firmum genuisset, tamen (quod sue fuere partes) animo ad rem militarem
+          adeo fuit acri et bellicoso, ut maiores sepe belluas provocatus et iniuriis lacessitus
+          petierit. Qua in re cum semper maluerit imperatoribus laudibus quam militis virtute
+          prestare, idcirco non manus tam conserendi cupidus, sed ingentis glorie imprimis libidine
+          flagrans, quodcumque in optimis imperatoribus laudi dari animadvertisset, in se recepit. A
+          Fabio enim Maximo maturam illam et prudentissimam cunctandi et continendi militis rationem
+          et cautionem insidiarum; a Marcello et Scipionibus vim et impetum audendi et congrediendi;
+          a C. Cesare atque ab Alexandro firmitudinem et perseverantiam certandi, ab Hannibale astum
+          et fallendi hostis ingenium et perspicaciam; ac denique, ne in his longius vager, a
+          singulis probatissimis imperatoribus singulas deinceps quibus claruerint virtutes mihi,
+          hac adhibita moderatione, desumpsisse visum est, ut neque in eo laudem poneret qui
+          validissimum aliquem et efferatum hostem manu armisque neque qui perfidia et versutiis
+          fallaces et fedifragos exuperarit. Sed quod acres et feroces fortitudine ac vincendi
+          ratione et consilio antecesserit, id sibi ad officium adscribebat, suasque esse partes
+          arbitrabatur perpeti numquam ut laboris aut incommodi atque periculi metu subisse
+          turpitudinem aliquam videretur. Ac pro viribus operam dabat ut laudem et gloriam
+          clarissimis et dignissimis facinoribus promeruisse aperte iudicaretur; tantaque in ceteris
+          rebus fuit abstinentia et equitate ut nisi pro iustitia et honestate dimicandum uspiam
+          duxerit; ac pro iustitia quidem et libertate tuenda nullum umquam discrimen recusavit; pro
+          nostrisque subinde rebus servandis fures quoque armatos et quosvis advenas ignotos et
+          audaces insultare ac strenue contra infestissimos conclamitare ac dimicare numquam
+          pertimuerit. Et quod plerique militaris discipline imperiti vituperant, experti omnes
+          comprobant, nostri erat Canis institutum, inimicum sibi facere neminem quem viribus et
+          fortune suffragiis superiorem intueretur. Si qui fortassis insolentes et prepotentes ad
+          inimicitiam sese iniuriis efferebant, lenitate et placabilitate mites et mansuetos ita
+          reddebat, ut in eo nihil abiectum assentando, aut subsecundando humile aut servile fuisse
+          accuses. Denique omni in certamine ratione quam viribus, amicitia quam armis, rem
+          conficere semper studuit, hostemque ut prosequeretur, nisi fugientem nullis umquam artibus
+          adduci potuit. Ex quo fiebat ut mature consulendo semper in tuto esset, attemperate
+          irrumpendo sepe maxima cum gloria victor ovans ad me congratulatum rediret. Posteaquam
+          equos omnes, boves, hominesque omnes fugientes, Catonis precepto, magis clamoribus ac
+          vocibus, quam cedendo aut armis fugasset, tanta erat prosequendi arte et peritia ut
+          nusquam hostem abigendo certationem sibi parasse iniquam penituerit. Itaque sic a locis, a
+          temporibus, ab fortuna denique ipsa prestitam laudis et victorie occasionem negligebat
+          numquam. Ab duro autem certamine prudentia non pusillanimitate aut vecordia aliqua
+          precavebat; semperque (quod meo iudicio sapiens quisque debet) prudentiam quam vires
+          modestiamque quam ullam apud se iactantiam valere ostentabat. Tametsi quis fortitudinem
+          anteponat pietati, fidei, religioni? Quas omnes virtutes esse iustitie partes commemorant.
+          Non ingredior eam disputationem eorum qui dicunt apud quem una sit virtus, eundem omnes
+          alias habere virtutes. Quid an non iustitia sit bene merendo, ut hostes atque nos diligant
+          aut saltem nequidquam oderint. Viri strenui et bellatores, quos fortes nuncupant, in
+          castris intra armorum tumultus versantur in rapinis, in cede, si recte interpretamur,
+          consenescunt militando; qua in re una maxime fortibus istius modi locus est. Iusti in
+          laribus patriis et domesticis cum penatibus et caris civibus quietem tranquillitatemque
+          colunt. Animi audacia et viribus pacem et otium fortasse queritat miles; per equitatem
+          autem ac leges otio et pace cives bene morati fruimur.</p>
+        <p>Sed missam faciamus hanc de istiusmodi virtutibus disputationem, siquidem non manus
+          tantum, verum et imprimis ipsum pectus fortitudinis sedem atque domicilium obtinet; ac me
+          in ferro quidem quantum in animi magnitudine et firmitate fortitudini gloria collucescit.
+          Ad rem redeamus. Prudens idcirco noster fuit Canis qui ab ineunte etate, spretis armis
+          spretisque istiusmodi (ut quidam fortassis extimant) furoris et immanitatis artibus, sese
+          totum optimis et pacatissimis optimarum rerum studiis et disciplinis contulit. Nam cum me
+          plurimum litteris delectari et a numero eorum, qui hac etate mediocriter docti habentur,
+          non reici atque secludi fortassis audisset, illico, neglectis patriis et domesticis
+          delitiis, ad me animi divitias rebus caducis preferens atque ardua et rarissima appetens
+          concessit. Cuius ego indolem et decorem forme conspicatus nimirum amore erga illum affici
+          occepi. Quod ipsum Socrati, cum Alcibiadem formosissimum adolescentem esset conspicatus,
+          accidisse referunt; et negasse Socratem, quoad in se foret, passurum ut divine
+          adolescentis pulchritudini condigni sanctissimi mores et virtutes non adessent.</p>
+        <p>Erat autem Canis noster facie honesta et liberali, liniamentis iis a quibus Zeusis facile
+          omnem pingendi venustatem et gratiam ut a virginibus crotoniatibus sumpsit, excepissent;
+          ore leto et Megastomo patri persimilis. At oculis pietatem atque modestiam matris perquam
+          belle gestiebat. Pectoris quidem amplitudine et ceterorum membrorum dignitate et specie
+          maiorum suorum statuas pulcherrime representabat. Que omnia mirifice ac probe divinitus ad
+          admirabilem ingenii et animi vim, multo ut erat, maximam exprimebat. Nam eo fuit quidem
+          singulari et divino ingenio preditus ut liberales quidem apud me artes ingenuis canibus
+          dignas inextimabili quadam discendi celeritate omnes parilis etatis studiosos paucis
+          diebus exsuperans integre edidicerit. Memoria fuit maxima, ut que semel memorie
+          commendarit, numquam effluxerint, semper ex tempore atque impromptu affuerint. Neque solum
+          rerum quam in L. Lucullo fuisse maximam ferunt, sed verborum quam Hortesium amplissimam
+          habuisse aiunt, memoriam habuit. Hinc mirum illud quod ne trimatu quidem exacto latinam
+          grecamque linguam eque atque hetruscam tenebat. Ingenio preterea fuit docili et versatili
+          et ad quamvis rem apto et ita accincto ut brevi adiuncto studio, cuivis sese rei agende
+          aut arti dedisset, omnem in ea pristinam suam industriam et operam exposuisse diceres.
+          Mente fuit constanti et minime levi aut volubili, ut interdum in eo illud Catonis dictum
+          subverer, quo aiebat: odisse se puerum qui precoci esset preditus sapientia. Sed in ea
+          prematuritate nihil habebat morosi aut fastidiose grave. Ac numquam in eo erudiendo nihil
+          molestum laborem aut stomacum esse suscipiendum sensi. Vita quidem et moribus ea fuit,
+          quam omnes et bene vivendi et probitatis se propositum habere exemplar faterentur atque
+          congratularentur. Accedebat eo quod cum esset in omni gestu et sermone modestus, tum et in
+          omni reliqua vita preter ceteros ut pecunie sic voluptatum omnium minime cupidus, maxime
+          contemptor et esse et haberi studiis omnibus elaborabat, veluti qui a me sepe eruditum
+          meminisset, pecunias a vulgo intemperantium et imperitorum tantopere expeti, quod uni cui
+          sint dediti voluptati subministrent; et in quo homine longe a voluptate ad virtutem
+          pendeat animus, non in eo istas opum divitiarumque flagrantes cadere cupiditates. Fuit
+          igitur pecuniarum omnino gravis et sapiens aspernator. Una tantum vixit contentus veste.
+          Pes illi ut estate ita et bruma ad nives nudus. Somnos non delitie gratia oscitans, sed
+          requiescendi necessitate sub divo quovis dabatur loco, modo non turpi atque obsceno (cum
+          opus esset) capiebat, vini et pulmentorum abstinentissimus. Itaque in hoc nulla luxuries,
+          nulli sumptus, nullum es alienum, nulla, uti aiunt, conviviorum libido. Si quem oderat,
+          coram accusabat; in absentes minime umquam maledicus. Amicorum secreta nusquam prodidit.
+          Suo contentus, aliena appetivit numquam. In omnes mitis, affabilis; ad amicitias optimorum
+          pronus et propensus; amicitiasque ipsas obsequiis quam pollicitationibus, re quam
+          ostentatione inibat atque adaugebat. Amicitiaque esse per virtutem dignius quam per
+          emolumenta ambitionemve amari cupiebat, tamen dando quam accipiendo in amore
+          progrediebatur. Nulli gravis, nulli durus preterquam quod ab obscenis, impuris ac
+          desidiosis sese alienum et maxime segregatum volebat esse, quos quidem animi quadam
+          generositate ferre nullo modo poterat, atque imprimis eos omnes audaces qui iniuriam in
+          quempiam inferrent, Herculi similis, summo odio prosequebantur. Amicis meis omnibus
+          obsequens, festivus, officiosus, obtemperans ut omnes facile illum diligerent; et optimam
+          de eo spem susciperent. Crevit igitur una cum fama et rerum notitia annos et hominum de se
+          opinionem superans. Diem nullam otiosam preteriit agendo, omnia cognitu dignissima
+          perscrutando; difficillima, ardua et laudatissima tentando, numquam laboribus aut vigiliis
+          parcendo. Denique ut totum hoc genus laudis brevissime complectar, fuit hoc animi robore
+          atque virtute preditus, ut voluptates imprimis omnes respuendas et aspernandas duceret;
+          otio, desidie, ludis, conviviisque ingenuos labores corporis atque animi contentionem ad
+          gloriam preferret, in omnique vite cursu ea minime esse expetenda putaret que essent a
+          laude et dignitate seiuncta; seque natum arbitrabatur non ad somnum et delectationem, sed
+          ad virtutem, dignitatem, ad patrie decus et ornamentum, ad studiosorum commoda, ad bonam
+          gratiam, ad famam nominisque claritatem et posteritatem comparandam. Hec igitur illius
+          fuere studia et vite modus, que quidem quasi capita summamque gestorum suorum succincte et
+          presse duxi esse recolligenda. Namque si preclara eius omnia facinora ordine velim
+          recensere, grandis admodum foret et supra meas facultates longe mihi difficillimus
+          susceptus labor. Siquidem is omni in laude consequenda studio, industria, opera,
+          assiduitate, diligentia cuivis preclarissimorum hominum concessit numquam; quin et cum
+          integros dies ad laudem et gloriam summis laboribus et omnibus viribus contendisset, noctu
+          etiam interdum varios canendi modos auribus a concentu sperarum orbis haustos, ne musicam
+          sprevisse et omnino austerus videretur, ad Lunam exprimebat. Hocque eo studiosius agebat
+          quod me disputantem audierat a cognitione earum rerum que turpitudine vacent, modo maiora
+          et digniora studia non pretermittantur, minime abhorrere ingenui proprium esse. Namque
+          quis ingenuum se et libere educatum audeat dicere, cum in equo indecenter sedeat, aut
+          palestra turpiter labatur, aut in armis tractandis rudis atque penitus ignarus fuerit? Sed
+          de his alias.</p>
+        <p>Ad Canem nostrum redeo, qui quidem quo a digno opere nullum vel minimum hore momentum
+          vacaret, cum una mecum a cuius latere numquam discedebat, apud quem etiam omne tempus
+          perditum arbitrabatur, nisi quod discendo consumeret, ad gymnasium et studiosorum (quod
+          sepe fiebat) conventum proficiscebatur, is letus et quasi ad exspectatissimam voluptatem
+          arcessitus pretendebat. Et quo sibi aliorum vitam (ut aiunt) magistram haberet, et optimos
+          ac laudatissimos, selectis spretisque turpibus imitari commodius posset, quicquid ubique
+          digni ageretur, quid quisque obvius canis saperet doctrinarum Academiamne, Stoicos an
+          Peripateticos, an Epicureos oleret, sagaci industria scrutabatur; ad meque tantisper mores
+          et ingenium eorum quos tractasset referebat. Bonos comiter consalutabat, segnes ac
+          petulantes castigabat dictis. Denique semper etiam inter eundum erat in officio et cultu
+          virtutis. Cum autem ad gymnasia esset deventum, discendi studio intra coronam disputantium
+          equo et prono animo, cunctis eam rem ferentibus, tacitus atque attentissimus illud
+          Pythagore observans, qui taciturnitatem discipulis imperabat, sese medium continebat. Quod
+          siquem insolentem ostentatorem offendisset, illico eius ineptias maximis increpationibus
+          cohercebat. Nolebat enim eo in loco bonas illas horas male per temeritatem alicuius
+          deperdi. Quibus omnibus in rebus quam assiduus, diligens perseveransque fuerit. Quid ergo
+          hoc loco infinita eius exempla connumerem? Quo enim studio, quibus vigiliis ad disciplinas
+          incubuerit, testes sunt scole litteratorum in quibus persepius summa cum audentium
+          attentione maximis vocibus declamavit. Quo autem morum splendore, qua facilitate,
+          humanitate, affabilitate ornatus fuerit, testes sunt gratia et benivolentia qua omnes in
+          illum erant, dum vitam ageret, affecti. Testis et meror funeris, lacrime bonorum ac
+          desiderium quo illum omnium etatum omnisque fortune homines defunctum prosecuti sunt. Quam
+          postremo solida et perfecta et absoluta inter mortales virtute fuerit, quos ego testes
+          alios adducam, preter auctoritatem, famam et nominis claritatem quas magnificis et
+          innumerabilibus suis gestis vivens sibi ipse comparavit? Quod genus belli in quo non ipse
+          sit cum laude versatus? Maritimis contra anates atque anseres piratas et fures aquaticos;
+          campestribus contra locustas ortorum vastatores; murali contra lacertas alveorum et rerum
+          publicarum perturbatores. Quibus omnibus in rebus, dum corona et triumpho dignus putari
+          quam consequi studuit, omnes eos qui aut in otio litterarum aut in publico negotio cum
+          laude et auctoritate fuere versati gloria et claritate antecessit, ut cum in ceteris
+          singulis virtutes singulari aliquo vitio comite et coadiuncto fuisse comperias, in hoc uno
+          omnes fuisse virtutes accumulatas quovis ut minimo secluso vitio invenias. Non enim
+          cupidus ut Aristoteles, quem hamo aureo apud inferos pro pisce captum finxere. Non
+          lascivus ut Plato, cuius de Stella suo, amatorii versus efferuntur. Non ambitiosus ut
+          Cicero, qui, cum sese laudando pene defessus esset, alios per epistulam oravit ut de
+          laudibus suis librum conscriberent. Non crudelis ut Sulla, qui tot civium romanorum milia
+          mactari iussit. Non legum et libertatis eversor, non reipublice occupator ut Cesar. Non
+          mulierosus ut Cato, ut etiam sua ultima pene etate scribe cuiusdam filiam amore captus
+          uxorem petiit. Non cupidus ut Crassus, qui, omnium ditissimus, falsa in dies testamenta
+          adiret.</p>
+        <p>Sed quid ego istos omnes prosequar, aut istiusmodi ceteros apud istorias celebres cum
+          Cane nostro comparem? In illis maxima vitia virtuti applicata aut ad mediocrem probitatem
+          nulla rerum gestarum preclara monumenta adiecisse invenies. In Cane autem hoc nostro
+          maximas et excellentes virtutes, prestantissimum ac pene divinum ingenium omni vel minima
+          turpitudine et obscenitate vacuum fuisse quisque palam asseverat. Quid est quod in illo
+          optes, aut non longe eum maximis et illustrissimis virtute viris anteponas? Qui quidem
+          summa cum fortitudine integram iustitiam, incredibili cum animi magnitudine, singularem
+          pietatem et religionem, divina cum ingenii flexibilis et versatilis vi firmitudinem et
+          perseverantiam incohatarum et inceptarum rerum, versuta et callida cum natura et mente
+          simplicitatem, ac penitus innocuam vite rationem, egregia cum gravitate et severitate
+          mirificam humanitatem ac misericordiam, facilitatem, affabilitatem, grandique ac
+          multiplici cum rerum usu et experientia integram, solidam et absolutam sapientiam
+          religionemque coniunctam habuit. Pro meo idcirco iusto dolore possem incusare fortunam que
+          optimum illum et sanctissimum nobis acerbo fato eripuerit. Satis quidem ille vixit, non
+          nego, qui bene cum virtute ad gloriam vixit.</p>
+        <p>Cuperem tamen ab amicis illum et ab his qui suis exemplis in dies meliores et eruditiores
+          reddebantur, minus desiderari. Etenim quis non condoluerit, cum florida etate preter spem
+          et expectationem omnium ab invidis atque occultis eum inimicis veneno absumptum meminerit?
+          Quis non merore afficiatur, cum cetus studiosorum eius interitu mestos ac tristes
+          intueatur? Quis non collugeat, cum memorie repetat illius morientis amorem erga me? O
+          noster igitur Canis, nostre delitie, decus iuventutis, splendor et ornamentum familie tue,
+          qui et forma et moribus et virtute nobilissimam, vetustissimam, ornatissimamque familiam
+          tuam multo nobilitasti, ac longe celeberrimam effecisti. Qui iocus et festivitas esse
+          nostra consueveras. Quem intuentes iucundum, facetum ac lepidissimum amenitate,
+          alacritate, hilaritateque quadam afficiebantur. Tu cuius presentiam modestie, dignitatis,
+          gratie, humanitatisque refertam studiosi admirabantur; cuius ingenium, doctrinam,
+          virtutesque, spectando et animo repetendo omnes obstupescebant. Suscepto veneno, quasi a
+          complexu amici in longissimam alterius vite peregrinationem discedens, me revisum atque
+          exobsculatum moriens veneno tabidus et confertus accessisti, atque primo conspectu
+          collacrimasti. </p>
+        <p>Vale, igitur, mi Canis, atque esto (quantum in me sit), prout tua expetit virtus,
+          immortalis. </p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

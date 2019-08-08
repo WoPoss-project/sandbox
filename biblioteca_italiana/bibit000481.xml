@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>De umbris idearum</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>74 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000481</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali; Nino Aragno</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-10-06T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Gabriele Masini</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-10-27T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 n="Titolo">
+<head>IORDANUS BRUNUS NOLANUS. </head>
+<head>DE UMBRIS IDEARUM. </head>
+<lb/>
+<p>Implicantibus artem, Quaerendi, Inveniendi, Iudicandi, Ordinandi, et Applicandi:
+<lb/>
+<hi rend="italic">Ad internam scripturam, et non vulgares per memoriam<lb/>
+operationes explicatis. </hi></p>
+<lb/></div1>
+<div1 n="Dedica">
+<opener><salute>AD HENRICUM III. SERENIS. <lb/>
+Gallor. Polonorumque Regem, etc. </salute></opener>
+<p/>
+</div1>
+<div1>
+<head>PROTESTATIO</head>
+<lg><l><hi rend="italic">Umbra profunda sumus, ne nos vexetis inepti. </hi></l>
+<l><hi rend="italic">Non vos, sed doctos tam grave quaerit opus. </hi></l></lg>
+<space type="stacco-narrativo"/>
+<p>PARISIIS, <lb/>
+Apud Aegidium Gorbinum, sub insigne<lb/>
+Spei, e regione gymnasij<lb/>
+Camaracenis<lb/>
+<lb/>
+<date>MDLXXXII</date></p>
+</div1>
+
+<div1><head>PH. IORD. BR. NOL. AMICO ET STUDIOSO LECTORI.</head>
+
+	<lg><l><hi rend="italic">Est in sublimi posita
+</hi></l><l><hi rend="italic">Dianae in Chio facie,
+</hi></l><l><hi rend="italic">Quae tristis templum videtur intrantibus,
+</hi></l><l><hi rend="italic">Hilaris exeuntibus. </hi>
+	</l></lg><lg><l><hi rend="italic">Et littera Pythagorae,
+</hi></l><l><hi rend="italic">Bicorni acta discrimine,
+</hi></l><l><hi rend="italic">Quaeis trucem ostendit vultum dextri tramitis:
+</hi></l><l><hi rend="italic">Finem largitur optimum. </hi>
+	</l></lg><lg><l><hi rend="italic">Umbrarum, quae profundis
+</hi></l><l><hi rend="italic">Emersere de tenebris,
+</hi></l><l><hi rend="italic">In fine grata fiet, nunc asperior
+</hi></l><l><hi rend="italic">Et facies, et littera. </hi></l></lg>
+
+
+</div1><div1><head><hi rend="bold">HENRICO III SERENISS. GALLORUM, POLONORUMQUE REGI. PHILOTHEUS IORDANUS BRUNUS NOLANUS. S. P.</hi></head><p>
+
+	Quis ignorat (sacratissima Maiestas) principalia dona principalibus; principaliora maioribus: et maximis principalissima deberi? Nullus ergo ambigat, cur opus istud, tum nobilitate subiecti circa quod versatur; tum singularitate inventionis, cui innittitur; tum gravitate demonstrationis, qua communicatur, inter maxima numerandum: in te aegregium populorum spectaculum, virtute praestantis animi spectatissimum, celsitudine sublimis ingenii celeberrimum, ideoque clarissimorum, magnanimum, doctorumque omnium obsequio iure colendissimum respexerit. Tuum est ipsum gratioso animo acceptare, magno favore tueri, maturoque iudicio examinare: Cum eminenter generosus, potens, atque sapiens videaris.
+</p><p>VALE.
+</p>
+
+</div1><div1><head><hi rend="bold">MERLINUS ART.</hi></head>
+
+	<lg><l><hi rend="italic">Est qui depinxit gallos gallinaceos,
+</hi></l><l><hi rend="italic">Qui quoniam non est omnino imprudens:
+</hi></l><l><hi rend="italic">Quo non sic gravius deprehendi possint
+</hi></l><l><hi rend="italic">Tractus inepti, de inepto artista:
+</hi></l><l><hi rend="italic">Servulos ordinavit, et amiculos;
+</hi></l><l><hi rend="italic">Per quos vult naturales procul abigi. </hi>
+	</l></lg><lg><l><hi rend="italic">Hoc cum non ignoraveris, timeto
+</hi></l><l><hi rend="italic">Dum verus gallus in pictos appropias,
+</hi></l><l><hi rend="italic">Qui faciunt mirari auriculatos:
+</hi></l><l><hi rend="italic">Ne importuno ministro abactus, doleas. </hi></l></lg>
+
+
+</div1><div1><head><hi rend="bold">MERL. IUDICI SOBRIO.</hi></head>
+
+	<lg><l><hi rend="italic">Est fluvius in Phrygia dictus Gallus
+</hi></l><l><hi rend="italic">De quo si bibas modicum,
+</hi></l><l><hi rend="italic">Medetur malis corporis. </hi>
+	</l></lg><lg><l><hi rend="italic">Si absorpseris insobrie, t'absorbebit
+</hi></l><l><hi rend="italic">Adusque ut agas animum,
+</hi></l><l><hi rend="italic">Non bibiturus iterum.
+	</hi></l></lg><lg><l><hi rend="italic">Sic etiam literae sophiae parum tactae:
+</hi></l><l><hi rend="italic">Civilem ad vitam conferunt,
+</hi></l><l><hi rend="italic">Et condelectant plurimum.
+	</hi></l></lg><lg><l><hi rend="italic">Si nimium t'ingurgitas, te turbabunt,
+</hi></l><l><hi rend="italic">Inqu'insaniam t'adigent,
+</hi></l><l><hi rend="italic">Precipitemve gloriam.
+	</hi></l></lg><lg><l><hi rend="italic">Cum fueris igitur hactenus factus prudens,
+</hi></l><l><hi rend="italic">Ne tantum damnum incurreres,
+</hi></l><l><hi rend="italic">Magistrorum suffragio
+	</hi></l></lg><lg><l><hi rend="italic">Tantummodo sophiam placuit pitissare,
+</hi></l><l><hi rend="italic">Tantum labris attingere,
+</hi></l><l><hi rend="italic">Et naribus olfacere.
+	</hi></l></lg><lg><l><hi rend="italic">Propterea non bene facere te declaro,
+</hi></l><l><hi rend="italic">Huc dum iudex acceleras,
+</hi></l><l><hi rend="italic">Quo quasses Midae auriculas. </hi></l></lg>
+
+
+</div1><div1><head><hi rend="bold">MERL. APTO IUDICI.</hi></head>
+
+	<lg><l><hi rend="italic">Est quod canis accessit ad arandum;
+</hi></l><l><hi rend="italic">Quod scandere astra vult Camelus, est quod
+</hi></l><l><hi rend="italic">Tractante rana sorex tranat fluvuium
+</hi></l><l><hi rend="italic">Quod lenti properant ad venandum asini,
+</hi></l><l><hi rend="italic">Quod tentat cuculus lupos aucupari,
+</hi></l><l><hi rend="italic">Est quod concupiunt volare porci,
+</hi></l><l><hi rend="italic">Est aliquid natura male appositum.
+	</hi></l></lg><lg><l><hi rend="italic">Non autem est Organete hoc artis vicium,
+</hi></l><l><hi rend="italic">Vel invitantis ad effodiendum,
+</hi></l><l><hi rend="italic">Seu faciendas expiscationes,
+</hi></l><l><hi rend="italic">Sive tranandum pennis aptis aerem,
+</hi></l><l><hi rend="italic">Vel docentis venari, et aucupari.
+	</hi></l></lg><lg><l><hi rend="italic">Si vos sentitis aptos effosores,
+</hi></l><l><hi rend="italic">Et minime non optos ad volandum,
+</hi></l><l><hi rend="italic">Expiscandum, venandum, et aucupandum,
+</hi></l><l><hi rend="italic">Atque idcirco non ind'esse lamenta:
+</hi></l><l><hi rend="italic">Concaedam vobis, concaedentibus quod
+</hi></l><l><hi rend="italic">Intrastis labyrinthum sine filo. </hi></l></lg>
+</div1></front>
+<body>
+<div1><head><hi rend="bold">PHILOTHEI IORDANI BRUNI NOLANI. Dialogus praelib. Apologeticus pro umbris idaearum ad suam memoriae inventionem.</hi></head>
+
+
+<stage>INTERLOQUTORES: HERMES. PHILOTHIMUS. LOGIFER.</stage>
+
+
+	<sp><speaker>HERMES</speaker><p> — Perge liber. Neque. n. ignoras eundem solem; eamdemque artem. Idem sol huius gesta propalat in honorem, illius in contumeliam facta producit. Tristantur illo presente nocturnae striges, bufo, basiliscus, bubo: solitaria, nocturna, et Plutoni Sacra. Gestiunt autem Gallus, Phoenix, Cignus, Olor, Aquila, Linx, Aries atque Leo. Ipso oriente operatores tenebrarum congregantur in cubilia, homo vero et animalia lucis exeunt ad opus suum. Haec invitat ad laborem; trudit illa in ocium. In ipsum lupinus et Elitropia convertuntur, ab ipso vero herbae atque flores noctis avertuntur. In nebulae speciem rarefactos humores attollit, deturbat autem in terram condensatos in aquam. Aliis perennem atque continuam; aliis vicissitudinalem lucem impertitur. Hunc intellectus non errans stare docet: Sensus autem fallax suadet moveri. Hic terrae girantis parti huic expositae, oritur: occidit simul aliter dispositae. Idem orizontes quos dicunt arcticos per dif
+ ferentias dextri atque sinistri apparenter circuit: aliis vero multis supernum atque infernum perlustrare videtur arcum. Hic terrae sui circuitus altum habenti maior apparet: imum vero tenenti (ut pote ab eodem magis elongatae) minor. In aliis emicircuitum portionibus tarde; in aliis vero velociter absentatur. Hic terrae incumbenti in Austrum Borealior: in Boream vero properanti Australior efficitur. Rectum habentibus Orizonta, in lances aequales hinc inde latitudinem recipit; obliqum vero tenentibus in iniquas. Idem intra duos molis istius medios parallelos spacium incolentibus perpetuo commensuratas luci tenebras tribuit: coeteris autem tempore definito. Ipsi si diva tellus suo nos dorso enutriens, nostrum frontem obiiciat, obliquos eius radios nobis impetrabit: iis autem rectos quorum capitis verticem supposuerit. Ad ipsum quoque quaedam admota mundi corpora, (quae multi intelligunt esse animalia deosque sub uno principe secundos) ipsius ab auge vel apogio (quod appellant
+ ) lumen conceptant; coeteris habentibus ipsum in opposito, vel mediis (ut vocant) latitudinibus et intervallis. Eiusdem totius luna (quam aliam intelligunt philosophorum plurimi esse terram) in suo ad illum converso hemisphaerio liberum concipiente lumen: haec illius globi interpositione tristis umbratam ad eundem conversam, averso hemisphaerio lunae commonstrat faciem. Unus ergo idemque perpetuo Sol perseverans atque manens, aliis atque aliis; aliter atque aliter dispositis; alius efficitur atque alius. Haud secus solarem artem istam aliis, aliisque, aliam atque aliam futuram crediderimus.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Quid est Hermes quod tecum ipse loqueris? qui nam libellus est, quem prae manibus habes?
+	</p></sp><sp><speaker>HERMES</speaker><p> — De umbris Idearum ad internam scripturam contractis liber est, de quo sum anceps; an prodire debeat, an perpetuo sub eisdem, in quibus olim latuit, tenebris perseverare.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Cur hoc?
+	</p></sp><sp><speaker>HERMES</speaker><p> — In signum siquidem (ut aiunt) sese effert ipsius author in quod non unius generis armati collimant Sagittarii.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> Id quidem si omnibus esset formidandum atque precavendum, nemo unquam digna pertentasset opera: nihil unquam bonum atque egregium prodiisset in conspectum. Non cessat providentia deorum, (dixerunt Aegyptii Sacerdotes) statutis quibusquam temporibus mittere hominibus Mercurios quosdam; etiam si eosdem minime vel male receptum iri precognoscant. Nec cessat intellectus, atque sol iste sensibilis semper illuminare, ob eam causam quia nec semper, nec omnes animadvertimus.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Facile ipsis consenserim qui res eiusmodi minime vulgandas esse censerent: Philotimum audio hac de re dubium, qui si ea auribus percepisset, quae nos percepimus, certe potius haec cremanda in ignem proiiceret, quam publicanda curaret. haec n. doctori suo hactenus haud iucundam attulere messem: nunc ignoro quid nam sit quod in posterum sperare possit, praeter n. perpaucos, qui haec per se ipsos intelligere possunt, rectum de ipsis iudicium inferre minime poterunt.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Audis quae dicit iste?
+	</p></sp><sp><speaker>HERMES</speaker><p> — Audio, sed ut plus audiam, inter vos ipsos discutite.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Disceptabo igitur tecum Logifere et illud primum dixerim: dictum tuum nullius esse persuasionis quin potius tuae rationis nervus oppositam valeat firmare sententiam. Ii. n. pauci, qui huius inventionis intelligentiam fuerint assequti, de quorum numero ego Hermesque sumus: non modicis efferrent laudibus: qui vero ipsum minime intellexerint, nec laudare poterunt, nec vituperare.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Dicis quod esse debet: non quod erit, est, atque fuit. Multi cum non intelligant, ob id ipsum quod non intelligunt, insuper et ex iniquo, quo aguntur animo, multas adversus authorem ipsum et artem adglomerant calumnias. Nonne auribus tuis doctorem Bobum audisti, qui nullam dixit esse memoriae, artem: sed eam consuetudine tantum et crebra excursuum repetitione, quae fit visa multoties revidendo, auribusque percepta multoties recipiendo, comparari?
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Huic si cauda foret, cercopitecus erat.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Quid respondebis Magistro Anthoc, qui eos, qui praeter vulgares edunt memoriae operationes, putat magos vel energumenos vel eiusce generis alicuius speciei viros? Vides quantum in litteris insenuerit ille.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Hunc non dubitaverim esse nepotem illius asini qui ad conservandam speciem fuit in Archa Noe reservatus.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Et magister Roccus artium et medicinae archymagister, qui Empyricam mavult quam doctrinalem memorativam, nugas putaret ista potius, quam artificiosas praeceptiones.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Non ultra matulam.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Dixit unus ex antiquis doctoribus hanc artem omnibus esse non posse perviam preterquam iis qui memoria pollent naturali.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Depontana sententia.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Pharfacon iuris utriusque doctor et philosophus grammeus sentit hanc artem gravare potius quam relevare, nam ubi sine arte recolendae sunt res: iam cum arte obligamur recolere res, locos, et imagines plurimas, quibus nulli dubium est magis memoriam naturalem confundi et implicari.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Crysippi acumen, et sententia ferreo ingentique pectine carminanda.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Dixit doctor Berling ex istius oratione etiam doctissimos, demetere nihil posse, credo quia nil ipse demetit.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Sub illis echinis ulla ne castanea?
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Magister Maines et si omnibus placeat inquit, mihi nunquam placebit.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Nec vinum quod nunquam gustabit.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Ille, quem nosti amicum tuum, quid putas hac de re, sentiet?
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Sepiae atramentum additum lucernae facit homines Aethiopa videri; vitiata quoque livore mens turpia iudicat etiam aperte pulchra.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Excelsum quoque Magistrum Scoppet inter huius nostrae tempestatis, medicos facile principem, ferunt dixisse authori: ut suam illi memoriam ostenderet priusquam artem, quod dubium est an dedignans, an impotens ille praestare noluerit.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Si dixisset illi ostende mihi urinam tuam priusquam solidiora contempler excrementa: fortasse morem illi gessisset author noster, hospitalius enim et urbanius, et pro sua dignitate, suo officio, et arte convenientius illum excepisset.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Quid dicemus de Magistro Clyster doctore medico quem non fas est proxime dicto cedere, nihil n. differt ab eodem qui ex Aknaldo et Tiberide vult magis super obliviosum linguam upupae impositam, tenacissimam ferenti memoriam conferre.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Dixit Aristoteles. cytharizando fit cytharaedus. Si quis huic miserrimo (ipso quod habet extracto) aliud superimposuerit cerebrum, forsitan medicando fiet medicus.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Dixit quoque doctor Carpophorus ex Proculo et Sabino itacense Mentis et memoriae sedem tripliciter distinctam. Inter pup[p]im enim atque proram pinea media est: quae cum memoria quippiam repetere instamus patefacta; a prora ad puppim spiritui animali aditum praestat. Porro nunquam animalis spiritus nisi serenus, lucidus, et clarus pertransit. Hinc immodica frigid[it]ate obtusus memoriam nostram hebetem reddit atque languidam. Quae, quidem frigiditas si fuerit cum siccitate coniuncta: immodicas vigilias afferet et insomnia: si cum humiditate lethargum. Ad quae propulsanda, sunt per artem haec excogitata. Exercitium sensus revocans et excitans, et spiritus turpi vecordia, et ocio consopitos quasi expergefaciens. Moderatus coitus. Propulsata tristitia et voluptate laetitia revocata. Meatuum corporis omnium purgatio. Eburneo pectine asperoque panno capitis confricatio. Leviorum, vel lymphatorum vinorum usus, ne venae, hiantes vi
+ ni vehementia sanguinem exurant. Stomachi rebus naturaliter vel artificialiter stipticis occlusio, ne fumositas e stomacho cibi ebullitione evaporans, mentem ingeniumque obscurans somnum excitet. A frigidis humidisque cibariis ut a piscibus in genere, cerebro, atque medullis abstinentia, non minus quam ab acutis atque fumosis porris raphanis, alleis, caep[is] quae, igne non fuerint digesta. Rerum aromaticarum usus. Capitis atque pedum cum aquae decotione, in qua Melissa, Laurifolia, Foeniculi, Camomillae, Cannae similiaque ferbuerint, abstersio. Pythagorica exercitatio quae nocturno fiat crepusculo, utpote memoriae menti ingenioque maxime conferens. Haec sunt quae memoriam possunt relevare, eaque quae Democritus Archigene[s] Alexander et Andronicus Peripateticus literarum monumentis tradidere, non artes istae nugatoriae, quae nescio quibus imaginibus et figuris solidam seiactant conflare memoriam.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Alienum sermonem, ruditu proprio conclusit; Psithacum egit venerabilis doctor, et Asinum.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Dixit Magister Arnophagus iuris legumque peritus, et apprime probatus, plurimos esse doctos qui eam non habent peritiam, haberentque si qua esset.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Puella ratio non adhuc dentiens: propterea denti frangibulum non adducimus.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Artem Tullii, Thomae, Alberti, Alulidis, aliorumque obscurorum authorum se vidisse, et ex eisdem nullum se elicere potuisse succum protestatur Doctissimus Theologus et subtilissimus literarum patriarcha magister Psicoteus.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Iudicium primae tonsurae.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Et ut uno verbo tandem omnia complectar: varii varie sentiunt, diversi diversa dicunt, quot capita tot sententiae.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Et tot voces. Hinc corvi crocitant, cuculi cuculant, lupi ulalant, sues grundiunt, oves balant, mugiunt boves, hinniunt equi, rudunt asini. Turpe est dixit Aristoteles solicitum esse ad quemlibet interrogantem respondere, boves bobus admugiant; equi equis adhinniant, asinis adrudant asini; nostrum est colloquio aliquid circa istius hominis inventionem pertentare.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Recte quidem. Placeat igitur Hermeti librum apperire, ut ipsius authoris sententias consideremus.
+	</p></sp><sp><speaker>HERMES</speaker><p> — Libentissime faciam. En operis prophaemium lego.</p></sp>
+	<p><hi rend="italic">Neminem (inquit) latere existimo multas memorativas artes ab aliis editas, quarum omnes atque singulae iisdem prorsus canonibus utentes, in eadem ferme difficultate versantur: qua de re consultum fuit nobiscum, ut potius inventionis istius fruges proponeremus, quibus gravius, facilius, atque expeditius negocium adeo illustre, pro arte tam desiderabili consequenda tractaretur. Diuturnam exercitationem antiquiores institutiones perquirendo: ab earum prosecutione atque studio ingenia foeliciora importunius abigebant: minus. n. durantia et (ut rem apertius insinuem) magis impatientia, quo magis subtilia promptioraque sunt ingenia, quorum quibusdam magis omnia tangere, quam unum apprehendere consulitur. </hi></p>
+	<sp><speaker>PHILOTIMUS</speaker><p> — Illud quod mihi arridet de authore isto est quod non se facit de eorum grege qui aliorum sententias hinc inde in unum colligentes, se pro immortalitate consequenda aliorum impensa in numerum authorum pro posteritate laborantium referunt; et ut plurimum eorum se constituunt doctores, quorum nullam prorsus habent intelligentiam atque rationem: iique multoties facere non possunt: quominus (postquam pellem leonis ex aliorum inventis utcumque sibi adaptaverint) in propriam crebrius, et tandem irrumpant vocem, quando aliquid ex eorum delumbi Marte (quia facile est inventis addere) eiaculantur, vel de penuria stupidi sensus egurgitant. Illa illa sunt arietes infantiarum, tormenta errorum, bombardae ineptiarum, et tonitrua coruscationes, fulgura, et tempestates magnae ruditatum.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Non sentis, idem de carminilegis et versificatoribus nostris qui alienis inventionibus, hemiversibus et versibus, pro suis se nobis venditant poetis?
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Mille poetas. sicut. n. pro locis scimus longas regibus esse manus, ita et altae longaeque pro locis atque temporibus poetis solent esse voces.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — De versificatoribus dixi, non poetis.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Bene, pauci igitur, aut nullus pro se dictum putabit. Sed haec quid ad rem nostram? Sufficit quod in proposito authorum artis istius fuerit intellectum.
+	</p></sp><sp><speaker>LOGIFER</speaker><p> — Non de poetis.
+	</p></sp><sp><speaker>PHILOTIMUS</speaker><p> — Sed cepta prosequamur legas.
+	</p></sp><sp><speaker>HERMES</speaker><p> — Hinc (ait) cum animum meum ad obsequendum quibusdam amicis meis appulerim post diversi generis alias memorie artes, quas privatim ad diversos direximus, et iuxta vias varias aliis pro eorum dignitate atque captu communicavimus: hanc ex principiorum virtute, quae continentur in ea aliis omnibus praeferendam, et ex deductis nulli posthabendam compilavimus. In qua nimirum artificium facile et scientiam pro praxi minime laboriosam polliceor, librum vero, cum suis sententiis minime omnibus pervium, contra eorum consuetudinem qui libros de hac arte faciles, atque breves: ipsam vero difficilem, atque prolixam tradidere: istam eruditorum pauci intelligant; intelligentibus autem omnibus usu veniat: sitque quam omnes sive rudes, sive eruditi, facile scire, et exercere possint: quamque sine doctore, tantum in metaphysicis et doctrinis Platonicorum bene versati possint intelligere: habet enim illud ars ista, quia cum hoc quod complectitu
+ r terminis arduis et speculativarum facultatum prae suppositivis, poterit tamen quibuscumque (dummodo prorsus hebetis non sint ingenii) declarari, continet enim propriissimos terminos, et rebus signifficandis maxime accommodatos.</p>
+	<p>Ars ista non simplicem admemoriae artem confert: sed et ad multarum facultatum inventionem viam aperit et introducit. Propterea meminerint quibus dabitur eius interiora percipere: ut eam pro maiestate non cuicumque sine delectu communem faciant: eiusdemque canones singulis eorum quibus est communicanda pro meritorum capacitatisque facultate, intensius, atque remissius elargiantur expliciti.</p>
+	<p>Super haec noverint in quorum manus ars ista inciderit: nos eius non esse ingenii, ut determinato alienae philosophiae generi simus adstricti: neque ut per universum quamcumque philosophandi viam contemnamus. Neminem quippe eorum qui ad rerum contemplationem proprio innixi ingenio, aliquid artificiose methodiceque sunt moliti, non magnifacimus. Non abolemus Pythagoricorum mysteria: non parvifacimus Platonicorum fides: et quatenus reale sunt nacta fundamentum Peripateticorum ratiocinia non despicimus. Ipsum ea de causa dicimus: ut eorum curam attenuemus qui proprio ingenio aliena volunt ingenia metiri: Cuiusmodi est infortunatum genus illud, quod cum diutius in optimis philosophis elaboraverit: non eo usque proprium promovit animum, ne usque in finem cum proprio careat ingenio: semper utatur alieno; cui tamen magis quam iis qui propriam ignorantes paupertatem audent non audenda; compatiendum est et quadam ex parte (nisi ex incuria remaneat) est laudandus. Isti similes cum
+ fuerint Aristotelico repleti spiritu (ut iam vocales et progressivos libros liceat videre. ubi audierint vel legerint. De umbris Idearum: iam verbo haerebunt dicentes, idaeas esse somnia, vel monstra. quas esto concesserimus, quaeritur an quod rerum naturae conformatur, convenienter dicatur currere sub umbris idaearum? Rursum ubi incurrerint locum ratiocinantis animae. Iordane (inquient) iam animam texere dicis vel filare. Similiter et in aliis quibusdam buccas inflantes, per internum quendam hostem a fructus istius disciplinae participatione divertentur. Quibus hoc manifestari volumus. Nos quoque in iisdem cum minus saperemus versasse animum, tunc. n. (ut par erat) fide ad scientias captandas utebamur. Nunc vero ubi superum beneficio, acquisitis et inventis ad ulteriores proprios actus uti possumus citra contradictionis iustam notam: Si commodus est Platonicus terminus et intentio commoda: acceptatur. Si quoque Peripateticae intentiones ad maiorem rei in hac arte faciunt ex
+ pressionem; fideliter admittuntur. De aliis similiter iudicetur. Non enim reperimus unum artificem qui omnia uni necessaria proferat. Non idem, inquam, Galeam, scuthum, ensem, hastilia, vexilla, timpanum, tubam, caeteraque omnia militis armamenta conflabit, atque perficiet. Ita maiora, aliarum inventionum tentantibus opera non solius Aristotelis Platonisque solius officina sufficiet: Quandoque etiam (ipsum queraro si consuetis uti videbimur terminis:) illud ideo est non quia non consuetas per eos explicare cupimus intentiones. Per universum autem diversis variorum philosophorum studiis utimur, quatenus melius propositum inventionis nostrae insinuemus. Unde nihil est quod faciat quominus periti in istis philosophandi generibus per se ipsos facile (dummodo animum advertant) hanc, et alias artes nostras intelligere valeant.</p>
+	<p>Artem istam sub duplici forma tractamus, atque via: quarum altera est altior et generalis tum ad omnes animi operationes ordinandas, tum etiam est caput multarum methodorum, quibus tanquam diversis organis artificiosa potest pertentari et inveniri memoria: Et consistit ipsa primo in triginta intentionibus umbrarum. Secundo in triginta conceptibus idearum. Tertio in pluribus complexionibus, quae fieri possunt ex intentionibus et conceptibus per industriosam adaptationem elementorum primae rotae ad elementa secundae. Altera quae sequitur, est contractior ad certum memoriae per artificium comparandae genus.</p></sp>
+
+
+</div1><div1><head><hi rend="bold">TRIGINTA INTENTIONES UMBRARUM</hi></head>
+
+
+<div2><head><hi rend="italic"><hi rend="bold">INTENTIO PRIMA. A.</hi></hi></head><p>
+
+	Unico igitur annuente deo, propiciisque diis sub ipso altissimo principe magnis, ita incipimus.</p>
+<p>	Hominis perfectionem, et melioris quod in hoc mundo haberi possit adeptionem insinuans Hebraeorum sapientissimus; amicam suam ita loquentem introducit. SUB UMBRA ILLIUS QUEM DESIDERAVERAM SEDI. Non enim est tanta haec nostra natura ut pro sua capacitate ipsum veritatis campum incolat, dictum est enim. Vanitas homo vivens. Universa vanitas. et id quod verum est atque bonum, unicum est atque primum. Qui autem fieri potest ut ipsum cuius esse non est proprie verum, et cuius essentia non est proprie veritas; efficaciam et actum habeat veritatis? Sufficiens ergo est illi atque multum: ut sub umbra boni, verique sedeat. Non inquam sub umbra veri bonique naturalis atque rationalis (hinc enim falsum diceretur atque malum) sed Methaphysici, Idealis, et supersubstantialis: unde boni et veri pro sua facultate particeps efficitur animus, qui et si tantum non habeat ut eius imago sit; ad eius tamen est imaginem: dum ipsius animae diaphanum, corporis ipsius opacitate terminatum, experi
+ tur in hominis mente imaginis aliquid quatenus ad eam appulsum habet: in sensibus autem internis et ratione, in quibus animaliter vivendo versamur: umbram ipsam.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO SECUNDA. B.</hi></hi></head><p>
+
+	Hoc ipsum cum consideraveris: illud quoque tibi occurrat velim: ut a tenebrarum ratione seiungas umbram. Non est umbra tenebrae: sed vel tenebrarum vestigium in lumine. Vel luminis vestigium in tenebris. Vel particeps lucis et tenebrae. Vel compositum ex luce et tenebris. Vel mixtum ex luce et tenebris. Vel neutrum a luce et tenebris, et ab utrisque seiunctum. Et haec vel inde quia non sit plena lucis veritas, vel quia sit falsa lux. Vel quia nec vera nec falsa, sed eius quod vere est aut false, vestigium, etc. Habeatur autem in proposito. ut lucis vestigium, lucis particeps, lux non plena.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO TERTIA. C.</hi></hi></head><p>
+
+	Porro cum bifariam accidat intelligere lucem; et in regione substantiae, et in regione eorum quae circa substantiam, vel in substantia consistunt (unde secundum duplicem sumitur umbra oppositionem) illud te meminisse oportet; lucem quae circa substantiam est tanquam ultimum eius vestigium a luce quae primus actus dicitur proficisci. Umbram quoque quae est circa substantiam ab umbra quae ex substantia dicitur emanare. Ipsa est primum subiectum quod et materiam appellant phisici nostri: Eius omnia participia cum puram non recipiant lucem: sub umbra lucis esse et operari dicuntur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO QUARTA. D.</hi></hi></head><p>
+
+	Consequenter te non praetereat quod eum umbra habeat quid de luce, et quid de tenebris. Duplici aliquem accidit esse sub umbra. Umbra videlicet tenebrarum et (ut aiunt) mortis: quod est cum potentiae superiores emarcescunt, et ociantur, aut subserviunt inferioribus. Quatenus animus circa vitam tantum corporalem versatur, atque sensum. Et umbra lucis, quod est cum potentiae inferiores superioribus adspirantibus in aeterna eminentioraque obiecta subiiciuntur, ut accidit in coelis versanti qui spiritu irritamenta carnis inculcat. Illud est umbram incumbere in tenebras: hoc est umbram incumbere in lucem. In Orizonte quidem lucis et tenebrarum, nil aliud intelligere possumus quam umbram. Haec in orizonte boni et mali: veri et falsi. Hic est ipsum quod potest bonificari, et maleficari, falsari, et veritate formari: quodque istorsum tendens sub istius, illorsum vero sub illius umbra esse dicitur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO QUINTA. E.</hi></hi></head><p>
+
+	Umbras eas in proposito maxime consideramus quae sunt appetituum, et cognoscitivae facultatis obiecta, sub specie veri bonique concepta, quae sensim ab unitate illa supersubstantiali decedentia, per crescentem multitudinem, in infinitam multitudinem (ut Pythagoreorum more loquar) progrediuntur: quae quantum ab unitate recedunt, tantum ab ipsa quoque veritate elongantur. Fit enim ab ipso superessentiali ad essentias ab essentiis ad ipsa quae sunt, ab iis ad eorum vestigia, imagines, simulachra, et umbras excursus: tum versus materiam ut in eius sinu producantur; tum versus sensum, atque rationem ut per eorum facultatem dinoscantur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO SEXTA. F.</hi></hi></head><p>
+
+	Umbra in materia seu natura, in naturalibus ipsis, in sensu interno atque externo, ut in motu et alteratione consistit. In intellectu vero, intellectumque consequente memoria est ut in statu. Ideo sapiens ille viraginem supra naturalem et suprasensualem quasi notitiam consequutam: sub illius primi veri bonique desiderabilis umbra sedentem inducit. Quae sessio seu status quia in naturaliter degentibus non multum perseverat (mox n. atque statim sensus isti nos insiliunt atque deturbant, ipsique nostri duces phantasmata nos circumveniendo seducunt) sessio illa potius praeterito absoluto vel inchoato, quam praesenti tempore designatur. Dicit. n. sub umbra sedi, vel sedebam.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO SEPTIMA. G.</hi></hi></head><p>
+
+	Cum vero in rebus omnibus ordo sit atque connexio, ut inferiora mediis et media superioribus succedant corporibus; Composita simplicibus, simplicia simplicioribus uniantur. Materialia spiritualibus spiritualia prorsus in materialibus adhaereant. Ut unum sit universi entis corpus, unus ordo una gubernatio, unum principium, unus finis, unum primum, unum extraemum. Cumque (ut non ignoraverunt Platonicorum principes) demigratio detur continua a luce ad tenebras (cum mentium quaedam per conversionem ad materiam, et aversionem ab actu; subeunt naturam, atque fatum) nihil impedit quominus ad sonum cytharae universalis Apollinis ad superna gradatim revocentur inferna: et inferiora per media, superiorum subeant naturam: quemadmodum et sensu constat terram in aquam, aquam in aerem, aerem in ignem rarefieri: sicut ignis in aerem, aer in aquam, aqua in terram densabatur. Ita generaliter videmus in iis quae mutantur, motum statu, et statum motu semper terminari. Quod et in ipso coelo sem
+ per esse atque fieri optime Peripateticorum quidam consideravere: cum quippe ipsum habere actam admistum cum potentia dicunt (quamvis et aliae sint mixtionis istius rationes) intelligunt eius motum esse in fine ad praeteritum, et in principio ad futurum. Quidquid ergo sit de alia descensus specie de qua Theologorum prudentia decernat: illud obnixe nobis est intentandum, ut pro egregiis animi operationibus naturae schalam ante oculos habentes, semper a motu, et multitudine, ad statum et unitatem per intrinsecas operationes tendere contendamus: quod cum pro facultate praestiterimus, pro facultate quoque divinis multitudini mirabilibus operibus conformabimur. Ad ipsum rerum praesignata connexio, et connexorum consequentia nos confortet et adhortetur. Novit quidem et docuit antiquitas quomodo proficiat discursus hominis a multis individuis ad speciem, a multis speciebus ad unum genus ascendens. Insuper quomodo infima intelligentiarum per omnes formas intelligat species distincte
+ , inferioris distincte per plures atque multas formas ipsas omnes species concipiunt; superiores per pauciores, suprema per unam, et ipsum quod est supra omne non per formam aliquam. Porro si antiquitas novit quomodo proficiat memoria, a multis speciebus memorabilibus, ad unam multorum memorabilium speciem se promovendo: ipsum certe non docuit.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO OCTAVA. H.</hi></hi></head><p>
+
+	Ad proximius quidem superius proximum inferius per aliquos gradus contracta similitudine promovetur. quos certe gradus cum nactum fuerit omnes: iam non simile: sed idem cum illo dicendum erit. Quod sane quomodo fiat per ipsum edoremur ignem: qui aquam non attrahit nisi in calore et raritate adsimilitam. Per communem igitur similitudinem ab umbris datur accessus ad vestigia, a vestigiis ad speculares imagines, ab istis ad alia.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO NONA. I.</hi></hi></head><p>
+
+	Quoniam vero quod est simile simili; est etiam simile eidem similibus sive per ascensum, sive per descensum, sive per latitudinem: Hinc accidit ut (infra suos limites) natura facere possit omnia ex omnibus, et intellectus, seu ratio cognoscere omnia ex omnibus. Sicut inquam materia formis omnibus informatur ex omnibus, et passivus (quem vocant) intellectus formis omnibus informari potest ex omnibus: et memoria memorabilibus omnibus ex omnibus. quia omne simile simili fit, omne simile simili cognoscitur, omne simile simili continetur. Porro simile remotum ad suum distans, per simile medium sibique proximum tendit.
+</p><p>	Hinc herbae forma spoliata materia, non immediate formam induitur animalis istius, sed formis Chili, sanguinis, et seminis mediantibus. Hinc qui noverit apta extraemorum media: et naturaliter et rationaliter omnia poterit ex omnibus elicere.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO DECIMA. K.</hi></hi></head><p>
+
+	Coeterum. Similitudinem illam quae cum aequalitate currit; et uniformitati (quam aequiparantiam appellant) consonat: in proposito sensu alium operationum, sive ad internos, sive ad externos referantur sensus, inutilem et male officiosam habeto. Fit enim ut simili caliditate affectum nec similem, nec infra illius similitudinis gradus consistentem sentiat: sed eam quae existentem in sensitivo subiecto excellit. Hinc qualem redigere in praxim debeas similitudinem praevideto, ne quae sita ab adeptis quominus ingredi possint repellantur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO UNDEClMA. L.</hi></hi></head><p>
+
+	Considera, mundam istum corporeum partibus eius omnino similibus existentibus, formosum esse non potuisse. In variorum ergo connexione, partium pulchritudo manifestatur: et in ipsa varietate totius pulchritudo consistit. Hinc rei umbratilis visio est visionum imperfectissima: quia quod imago cum varietate demonstrat: umbra quod est infra extrinsecae figurae terminos ut plurimum etiam ementitos, quasi sine varietate profert. De umbra dixerim quatenus umbra est: non autem qua talis quam in proposito recipimus.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XII. M.</hi></hi></head><p>
+
+	Verum Anaxagoricum Chaos est sine ordine varietas. Sicut igitur in ipsa rerum varietate admirabilem concernimus ordinem. Qui supraemorum cum infimis, et infimorum cum supremis connexionem faciens: in pulcherrimam unius magni animalis (quale est mundus) faciem, universas facit conspirare partes. Cum tantum ordinem tanta diversitas: et tantam diversitatem tantus ordo requirat. Nullus enim ordo ubi nulla diversitas extat reperitur. Unde primum principium nec ordinatum, nec in ordine licet intelligere.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XIII. N.</hi></hi></head><p>
+
+	Certe si quemadmodum indissolubilis concordia fines primorum connectit principiis secundorum; et calcem eorum quae antecedunt capitibus eorum quae proxime sequntur: cathenam illam auream quae e caelo fingitur ad terram usque tensa contrectare valebis: sicut e coelo per te potest factus esse descensus, facile ad coelum per ordinatum ascensum remeare valebis. Per hanc artificiosam connexionem magnum experiri possumus memoriae relevamen: quae valet etiam nullam ad invicem per se retinentia consequentiam memoriae ordinata presentare. Ipsum manifestatur in subsequenti carmine, ubi cum intelligatur Aries agere in Taurum, huncque motum diverso actionis genere, agere in Geminos. Et inde moti varia, consequentique actione deferantur in Cancrum. similiterque deinceps in aliis: eveniet ut ex intuitu unius, alterius mox inmediateque consequentis occursum collucremur.</p>
+
+<lg><l><hi rend="italic">Dux gregis, armenti regem sublatus in iram
+</hi></l><l><hi rend="italic">	In geminosque pedes, impete fronte ferit.
+</hi></l></lg><lg><l><hi rend="italic">Vindex mente vacans hinc Taurus concitus, ictu
+</hi></l><l><hi rend="italic">	Irruit in Geminos impaciente fratres.
+</hi></l></lg><lg><l><hi rend="italic">Germanos iuvenes affines protinus undae</hi></l><l><hi rend="italic">
+	Excipiunt. Cancer rosida prata petit.
+</hi></l></lg><lg><l><hi rend="italic">Repens obliquo lympharum Cancer alumnus,
+</hi></l><l><hi rend="italic">	Villosi vultum forte Leonis adit.
+</hi></l></lg><lg><l><hi rend="italic">Percitus inde Leo crinitos surgit in harmos
+</hi></l><l><hi rend="italic">	Unde vagans rapidae visa Puella ferae est.
+</hi></l></lg><lg><l><hi rend="italic">Hanc petit: illa fugit: quae gressu insana fugaci</hi></l><l><hi rend="italic">
+	Librantem incurrit persica lance virum.
+</hi></l></lg><lg><l><hi rend="italic">Aestuat hic, cupidis quem dum complexibus haeret:
+</hi></l><l><hi rend="italic">	Attriti Vermis cuspis adunca ferit.
+</hi></l></lg><lg><l><hi rend="italic">Formidans laetum medicas dum currit ad artes
+</hi></l><l><hi rend="italic">	Pone Sagittiferum sentit adesse virum
+</hi></l></lg><lg><l><hi rend="italic">Qui modo stuprata, quam credit virgine laesus
+</hi></l><l><hi rend="italic">	Quo petit hunc iaculo, vulnerat ecce Caprum
+</hi></l></lg><lg><l><hi rend="italic">Ut primum intrusum ferrum persensit inique
+</hi></l><l><hi rend="italic">	Effugit in rapidas praecipitosus Aquas:
+</hi></l></lg><lg><l><hi rend="italic">Sic caper infoelix a gurgite tractus aquarum;
+</hi></l><l><hi rend="italic">	Insueta inclusis Piscibus esca datur. </hi></l></lg>
+
+
+</div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XIIII. O.</hi></hi></head><p>
+
+	Ascensus quidem qui fit per connexa atque concathenata, in proposito umbrarum idealium: non est per cathenam similibus constantem annulis, ratione quae concipitur ex proxime dictis, atque deinceps enunciandis. Nec huius cathenae annulus esse debet umbra sub qua intelligitur Leviathan dormire: non inquam umbra abducens a luce; sed conducens ad lucem, quae etiam si non sit veritas: est tamen a veritate, et ad veritatem, ideoque in ipsa non credas esse errorem sed veri latentiam.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XV. P.</hi></hi></head><p>
+
+	Non igitur confundens umbrarum significatum per occultam omonimyam, omnino hoc stultitiae genus incurras, ut sine delectu de umbris sentias, intelligas, et decernas, opponitur enim ea quam protegunt aliae umbrae (pro qua dicitur. Protegunt umbrae umbram eius) ei quae elevatur super corporum altitudinem in confinio intelligentiarum. Pro qua dicitur operuit montes umbra eius. A qua ea quae producunt in nobis intelligentiam et memoriam, deducuntur et emanant: Et in quam tandem scandentia versus lucem terminantur. Hanc, vel huic similem figura tam habent, qui Cabalistae dicuntur, quia velamen quod erat Typice seu figurative in facie Mosis: figurate vero in facie legis: non erat ad deceptionem; sed ad ordinate promovendos hominum oculos, in quibus accidit laesio si repente de tenebris in lucem promoveantur.
+</p><p>	Neque enim natura patitur inmediatum progressum ab uno extraemorum ad alterum: sed umbris mediantibus, adumbratoque lumine sensim. Naturalem videndi potentiam perdidere nonnulli de tenebris in repentinam lucem prodeuntes tantum abest ut perquisito potirentur obiecto. Umbra igitur visum preparat ad lucem. Umbra lucem temperat. Per umbram divinitas oculo esurientis, sitientisque animae caliganti, nuncias rerum species temperat, atque propinat. Eas igitur umbras quae non extingunt: sed servant, atque custodiunt lucem in nobis; et per quas ad intellectum, atque memoriam promovemur, atque perducimur, recognosce.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XVI. Q.</hi></hi></head><p>
+
+	In suo genere dixit Theologus nisi credideritis, non intelligetis: et in suo genere confirmant philosophi ex concessis positisque iis quorum fides esse dicitur (quae fides apud Pythagoricos erat de non demonstratis, apud Peripateticos de non demonstrabilibus, apud Platonicos de utrisque) aucupandas esse scientias: et ex iis quae in virtute, et radice, et implicatione quadam continent, ad formarum explicationem, et per naturalem, et rationalem cursum nobis est progrediendum. Natura dat involutas species, antequam tradat easdem explicatas. Similiter Deus, similiter et artes quae divinum, et naturalem ordinem pro dignitate persequntur. Si quibus vero arduum videtur in umbris exerceri, et vanitatis suspectum si per eas ad lucem non pateat accessus: norint talem defectum non esse ab umbris. Norint etiam sat expedire vel involutum tenere, quod nudum non capias.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XVII. R.</hi></hi></head><p>
+
+	De umbris physicis, sunt ex arboribus et herbis quae fugant serpentes, et mitiora fovent animantia; sunt et contrariae iis. De umbris autem idealibus (si vere sint ideales) cum omnes referantur ad intellectum et ad purgatum sensum interiorem non sunt quae maxime non conducant si per eas fiat ascensus, et non dormiatur sub eisdem.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XVIII. S.</hi></hi></head><p>
+
+	Non dormies si ab umbris physicis inspectis ad proportionalem umbrarum idealium considerationem promoveris. Si ab oculis nostris elongatum corpus ad distantem lucem accedat: minoratur illius ad oculos nostros umbra: sed ipso corpore magis a luce recedente, minor ab illo transfunditur umbra, visuique maius affertur impedimentum.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XVIIII. T.</hi></hi></head><p>
+
+	Maiora intensione lucis et densitate corporis, umbra perspicacior efficitur: expressior inquam redditur, atque formatior, quod inde est, quia in densitate, et raritate; continuitate et discontinuitate corpus imitatur. At vero talis imitatio per corpus detegitur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XX. V.</hi></hi></head><p>
+
+	Umbra motum corporis simul persequitur atque lucis. Movetur corpus? umbra movetur. Movetur lux? Umbra movetur. Movetur utrumque? umbra movetur. Contra physicas observantias idem subiectum (subiectum inquam motus) simul diversis, contrariisque subest motionibus. Quid. n? nonne necessario motum corporis ad lucem sequitur umbra? et motum lucis ad corpus sequitur umbra? numquid solvitur haec necessitas amborum concursu cum oppositis movebuntur lationibus? Porro adverte quemadmodum ad lucis motum movetur umbra quasi fugiens; ad corporis autem motum quasi sequens: unde non videtur implicari contrarietas, sed concordantia in fuga unius, et prosequtione alterius oppositi, atque contrarii. Caeterum quomodo sit in istis, et proportionaliter in aliis: tu ipse perquire et considera: per nos enim res plusquam sat est aperitur iis, qui in haec et alia animum advertent.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXI. X.</hi></hi></head><p>
+
+	Non te praetereat tandem umbrarum cum ideis similitudo tum enim umbrae, tum et ideae non sunt contrariae contrariorum. Per unam speciem cognoscitur in hoc genere pulchrum et turpe; conveniens et inconveniens; perfectum, et imperfectum, bonum et malum. Malum enim imperfectum, et turpe proprias quibus cognoscantur non habent ideas: quia tamen cognosci dicuntur et non ignorari, et quidquid cognoscitur intelligibiliter per ideas cognoscitur: in aliena specie cognoscuntur, non in propria quae nulla est. Illud enim quod est eis proprium, est non ens in ente, vel (ut apertius dicam) defectus in effecto.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXII. Y.</hi></hi></head><p>
+
+	Umbram si appellaveris accidens corporis a quo proiicitur: habes accidens unius subiecti a quo recedat, et ad quod redeat vel secundum eandem speciem: vel secundum eumdem numerum: Si volueris eam esse accidens eius in quod proiicitur; iam facies accidens ita ab uno subiecto separabile: ut idem numero diversa pererret subiecta: ut cum per motum lucis, aut equi, umbra equina quae proiiciebatur in lapidem; nunc proiicitur in lignum. Hoc est contra physicam accidentis rationem: nisi in Scyllam te transportes negando umbram esse accidens. Porro quid dicimus de idealibus umbris? ipsas nec substantias esse intelligas, nec accidentia: sed quasdam substantiarum, et accidentium notiones. Si cui placeat eas animi, rationisque accidentia dicere, imperite dicet: non enim sunt habitus, nec dispositiones, nec facultates innatae vel accedentes: sed quibus, et per quas dispositiones quaedam, habitus, facultatesque producuntur atque consistunt. Recte enim speculantibus substantia et accidens
+ non dividunt quidquid esse per universum dicitur, ut modo supponimus. Consideratio ista non modicum valet ad umbrarum rationem habendam.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXIII. Z.</hi></hi></head><p>
+
+	Umbra non subest tempori, sed istius tempori, non loco sed istius loco, non motui sed istius motui. Similiter de oppositis est intelligendum. Abstrahitur ergo ab omni veritate, sed non est sine illa. Et non reddit ineptos ad illam (si idealis sit umbra) concipere enim facit contraria et diversa, cum sit unum. Umbrae enim nihil est contrarium, preciseque nec tenebra, nec lux. Ad umbram ergo arboris scientiae confugit homo pro cognitione tenebrae, et lucis; veri, et falsi, boni, et mali, eum quaereret ab illo Deus ADAM UBI ES?
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXIIII. ψ.</hi></hi></head><p>
+
+	Illud etiam non est praetermittendum quo minus consideretur, quod unum corpus opacum duobus vel pluribus oppositum luminaribus: duas vel plures proiicit umbras. Intellige igitur quomodo, et penes quid umbra sequatur corpus: et quomodo penesque quid lucem consequatur: et considera quemadmodum umbram producit a corpore uno multiplicem lux multiplex: innumerae luces innumeras umbras, licet sensibiliter non appareant. Consequitur ergo alio modo lucem umbra, licet eam alios ratione confugere videatur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXV. A.</hi></hi></head><p>
+
+	Nec te praetereat quod ut umbra lucem fugiat corporis quantitatem mentitur: et non nisi in certa unicaque distantia, situ, et dispositione: secundum longitudinem, et latitudinem corpori aequalem, ab opposita luce producitur umbra, adeo ut ipsam lucem nihil magis fugere videatur, quam corporis quantitatem per umbram insinuare. Sol quippe quibusdam in locis numquam umbram corpori reddit aequalem, in aliis vero rarius et ad modicum temporis.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXVI. E.</hi></hi></head><p>
+
+	Si magnitudo corporis opaci lucidi corporis magnitudinem excaedat; producit umbrae conum in corpore, basim vero proiicit in infinitam seu interminatam distantiam. Si vero magnitudo lucis, corporis opaci magnitudinem excaedat: producit umbrae basim in corpore, conum vero determinabit in sua extra corpus ipsum proiectione ad talem, tantamque distantiam: quantam magnitudo corporis lucidi supra opaci corporis magnitudinem proportionalem obtinuit rationem. Hinc umbra quam lunae corpus lucidum produceret de terra in partem oppositam (posito quod sol absit ab hemisphaerio inferiori) haberet pro cono certam terrae marginem: basis vero eius extra terram quasi in infinitum crescens non esset determinabilis. Umbra vero quam solis corpus producit de terra: habet certos terrae terminos pro basi: conus autem ipsius Mercurii sphaeram non attingit. Iam simile de ideis umbrisque ipsarum iudicium facito.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXVII.</hi></hi></head><p>
+
+	Unde nota quemadmodum de luce et tenebra (tenebram enim densitatem corporis appello) nascitur umbra, cuius lux pater est, tenebra mater: et non adest nisi hac et illo praesente: atque ita sequitur lucem, ut eamdem fugiat: quasi pudeat ipsam matris speciem praesentare patri: ut pudore saltem regiam progeniem protestetur. Veluti genere nobiles qui nobilitatem ipso habitu monstrare non valentes, ipso satis proprii habitus pudore demonstrant. Hinc crescente luce attenuatur, quae illa se contrahente dilatatur: eademque totum circumplectente corpus fugit.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXVIII.</hi></hi></head><p>
+
+	Sicut ex interposito perpendiculariter super planum inter Arcton et oculum gnomone, ex umbra imaginabili lineam lucramur meridianam: et infallibiliter alias multas temporum differentias quae in nocturno polarium stellarum circuitu ad differentias partium circelli quas linea in illius tensa circumferentiam per numeros manifestat. Non minus et ideales umbrae per physica corpora ad ideas innumeras poterunt tibi rerum significare proprietates et differentias.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXVIIII.</hi></hi></head><p>
+
+	Et veluti sol sex umbrarum cardinales immittit differentias. Aliam oriens: cum proiicit umbram corporis in occasum; Aliam occidens, cum extendit illam in orientem. Aliam meridianus et in Australi latitudine versus Boream. Aliam in latitudine Septentrionali versus Austrum. Aliam si nullam admittit latitudinem. Ex cingulo (quod aiunt) caeli perpendiculares intendens radios, versus nadir suum terrae producit umbram. Ab ipso autem emisphaerii alterius opposito versus augem effundet ipso progressu attenuandam umbram. Ita nobis in orizonte naturae, et in aequilibrata rectaque eiusdem sphaera constitutis sub aequinoctiali sensus, vel intellectus aequidiali: sex sub aeternis ideis formantur umbrarum differentiae, ex quibus omnimodam ad lucem conversionem possimus accipere.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">INTENTIO XXX. A.</hi></hi></head><p>
+
+	Ut vero intelligis omnes umbrarum differentias ad sex cardinales tandem referri: non minus scire debes quod omnes tandem ad unam foecundissimam, aliarumque fontem generalissimum reduci debeant. In proposito (inquam) nostro una potest esse omnium idearum umbra, Additione, substractione, et alteratione generaliter dictis omnes alias conflans, iudicans, atque praesentans. Sicut in arte materialiter per substantivum subiectum, formaliter autem per adiectivum, quae recipiunt in se ipsis alterantia, transponentia et universaliter diversificantia: Analogiam enim quandam admittunt methaphysica, et logica, physica: seu ante naturalia, naturalia, et rationalia. Sicut verum, imago, et umbra. Caeterum idea in mente divina, est in actu toto simul te, unico. In intelligentiis sunt ideae discretis actibus. In coelo, in potentia activa multiplici et successive. In natura per vestigii modum quasi per impressionem. In intentione, et ratione per umbrae modum.
+</p><p>	Adest paradigma unius, ideae actu infinitas rerum differentias habentis, et unius umbrae in facultate infinitarum differentiarum. Linea AB iacens lineam CD perpendiculariter cadentem et duos rectos angulos constituentem excipit. Iam si linea cadens inclinetur versus B: reddet angulum acutum ex una parte, ex altera vero obtusum. Magis atque magis inclinata in F, G, H, I, K, et ita deinceps; obtusos, acutosque magis hinc inde dabit angulos.
+</p><p>	Ita patet quomodo in facultate duarum illarum rectarum linearum; sint infinitae acutorum, obtusorumque angulorum differentiae. In prima causa haec facultas non differt ab actu, quae, et in qua quidquid esse potest, est. Quandoquidem esse et posse idemtificantur in ea. Ideoque in ipso D infinitae simul; et unum sunt angulorum differentiae. In motore caelesti est in potentia activa: sicut in manu quae potest movere in punctum E, F, G, et alios innumeros: non tamen movit. In coelo sicut in mixto ex activo et passivo, sicut in linea CD quae potest moveri ad efficiendum angulum hunc et illum: secundum quippe multas rationes coelum intelligitur a Peripateticis habere actum potentiae ad mixtum. In mobilibus consequentibus atque materia, est in potentia passiva, significata per D, quod innumerabiles differentias acuti, et obtusi per modum essendi in materia, et efficiente, et modum participantem de actu, deque potentia ut patet. Hoc quod diximus de differentiis angulorum: ref
+ eras ad specierum differentias, quae dicuntur esse sicut numeri. Unde in omnibus et per omnia quaelibet posse figurari manifestum est.
+
+
+</p></div2></div1><div1><head><hi rend="bold">DE TRIGINTA IDEARUM CONCEPTIBUS.</hi></head><p>
+
+	Iam ad triginta Idearum conceptus, primo simpliciter; secundo cum intentionibus umbrarum complexe concipiendis, consequenter progrediamur.
+
+
+</p><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS PRIMUS. A</hi></hi></head><p>
+
+	Luciferos (inquit Plotinus) in facie Deus oculos fabricavit: caeterisque sensibus adhibuit instrumenta: ut inde tum naturaliter servarentur, tum etiam cognata luce aliquid contraherent. Quibus sane verbis manifestat aliquid esse praecipuum, quod de mundo intelligibili ad ipsos pertineat.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS II. B</hi></hi></head><p>
+
+	Non fas est cogitare mundum istum plures habere principes, et per consequens plures habere ordines praeter unum. Et consequenter si unum est ordinatum, membra ipsius alia membris aliis sunt adnexa et subordinata. Ita ut superiora secundum verius esse subsistant, in extensam molem, et multiplicem numerum versus materiam se exporrigentia. Unde ab eo quod est per se maxime ens; ad id quod minimum habet entitatis, et prope nihil haud temere nuncupatur fiat accessus. Quem ordinem cum suis gradibus, qui mente conceperit: similitudinem magni mundi contrahet aliam ab ea quam secundum naturam habet in se ipso. Unde quasi per naturam agens: sine difficultate peraget universa.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS III. C</hi></hi></head><p>
+
+	Quia in iis quae semper fiunt non est consultatio, et argumentatio. Si aliquid demonstratum fuerit semper idem facere: actus argumentationis tollitur ab eo, tollitur et consilium. Sed ut quadam forma se ipsam foras quasi naturaliter exprimente vel aliquid e sua natura explicante, et effundente, opera sua perficit. Ad cuius operantis similitudinem propius accedit quod idem ut plurimum et frequentissime operatur. Fiet enim ut minus, minimeque cogitans et decernens, in perfectum, exquisitumque actum prodeat. Qui ergo in loco consistens atque tempore, a loco rationes idearum absolvet atque tempore: divinis entibus in suis operibus conformabitur, sive ad intellectum pertineant, sive ad voluntates. Id fortasse faciebat is qui dixit.
+</p><p>IN CARNE CONSISTENTES NON SECUNDUM CARNEM VIVIMUS.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS IIII. D</hi></hi></head><p>
+
+	Quod si possibile est atque verum: intellectualem animan non vere insitam atque infixam, inexistentemque corpori licet apprehendere: sed vere ut adsistentem et gubernantem: ita ut perfectam a corpore seorsum pre se ferre possit speciem. Cui sententiae (sine controversia) Theologus ille adstipulatur maxime: qui perfectiori eam intitulans nomine, interiorem hominem appellavit. Quod si pro huius confirmatione, operationes sine corpore eidem possibiles exquiras: Ecce certo loco temporique non adstrictis copulatur ideis, quotiescumque mente animove solutus homo materiam destituit atque tempus.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS V. E</hi></hi></head><p>
+
+	Habet anima substantiam ita ad supernos intellectus se habentem, sicut diaphani corpus ad lumina (ut et principes Platonicorum intellexere) quod pro diaphanitate transparentiaque sua, nonnihil velut innatae luminositatis admittit, quae semper est in actu cum exuta est a corpore, tanquam regionem lucis inhabitans. In corpore vero degens tanquam cristallus cuius diaphanitas opacitate terminatur: habet species sensibiles vagas: quae per conversionem, et aversionem iuxta temporum, locorumque differentias, accedunt atque recedunt.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS VI. F</hi></hi></head><p>
+
+	Rerum formae sunt in ideis, sunt quodammodo in se ipsis; sunt in coelo; sunt in periodo caeli, sunt in causis proximis seminalibus; sunt in causis proximis efficientibus, sunt individualiter in effectu, sunt in lumine, sunt in extrinseco sensu, sunt in intrinseco: modo suo.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS VII. G</hi></hi></head><p>
+
+	Receptione formarum ideo materia non impletur (ut per aeternam novarum affectationem protestatur) quia nec veras accipit; nec vere recipit quod recipere videtur. Non enim quae vere sunt, sensibilia ipsa sunt, atque individua: ut autumat qui haec primo, principaliter, et maxime substantias appellat. Quae. n. vere sunt semper manent: quae autem generationi subiacent, atque corruptioni non vere dicuntur esse. Quod non solum rectius philosophantibus placet. Sed et Theologorum alios audimus exteriorem hominem sub hac conditione naturali vanitatem appellantes. Alii vero cuncta quae fiunt sub sole, id est quae regionem incolunt materiae universalem vanitatis notam subire volunt. Ab ideis igitur, ab ideis, conceptionum fixionem perquirat anima, si intelligis.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS VIII. H</hi></hi></head><p>
+
+	Ideam primum hominem. Animam secundum. Tertium vero quasi iam non hominem dixit Plotinus ubi de ratione multitudinis idearum edisserit. Dependet secundus a primo, tertius a secundo, dum per ordinationem, contractionem, et compositionem, ordinatur ad physicam subsistentiam. Pro methaphysico igitur conceptu tertius ascendat in secundum: secundus in primum.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS IX. I</hi></hi></head><p>
+
+	Idem, manens, et aeternum coincidunt. Idem enim quia idem, manet, et est aeternum. Aeternum quia aeternum, manet, et est idem. Manens, quia manens est idem, et aeternum. Nitaris igitur in ipsum idem oportet, vel id in quod identitatis habet rationem; ut permanenter, et perseveranter habeas. Id si capies: caput habebis quo specierum fixionem facias in anima.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS X. K</hi></hi></head><p>
+
+	Sententia haec satis digna est ut in ea mentis acies figatur. Intellectus primus lucis amphitrites: ita lucem suam effundit ab intimis ad externa, et ab extraemis attrahit: ut quidlibet ab ipso pro capacitate possit omnia contrahere, et quae libet ad ipsum pro facultate per ipsius luminis viam tendere. Hoc forte est quod quidam intellexit dicens. ATTINGIT A FINE USQUE AD FINEM. Et alius dicens. NON EST QUI SE ABSC. A CAL. EIUS. Lucem hic intelligo intelligibilitatem rerum quae sunt ab illo, et ad illum tendunt, et id quod concomitatur intelligibilitatem. Hae res cum profluunt aliae ab aliis, diversae a diversis; in innumerum multiplicantur ut eas nisi qui numerat multitudinem stellarum, non determinet: Cum vero refluunt uniuntur usque ad ipsam unitatem quae unitatum omnium fons est.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XI. L</hi></hi></head><p>
+
+	Primus intellectus faecunditate sua, modo suo propagat ideas non novas, nec noviter. Natura novas res producit in numero, non noviter tamen (modo suo) si semper eodem modo operatur. Ratio novas atque noviter in infinitum species format: componens, dividens, abstrahens, contrahens, addens, subtrahens, ordinans, deordinans.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XII. M</hi></hi></head><p>
+
+	Deformium animalium formae, formosae sunt in caelo. Metallorum in se non lucentium formae, lucent in planetis suis. Non enim homo, nec animalia, nec metalla ut hic sunt, illic existunt. Quod. n. hic discurrit illic actu viget, discursione superiori. Virtutes enim quae versus materiam explicantur: versus actum primum uniuntur: et complicantur. Unde patet quod dicunt Platonici, ideam quam libet rerum etiam non viventium, vitam esse et intelligentiam quandam. Item et in prima mente unam esse rerum omnium ideam, Illuminando igitur, vivificando, et uniendo, est quod te superioribus agentibus conformans, in conceptionem et retentionem specierum efferaris.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XIII. N</hi></hi></head><p>
+
+	Continet lumen, vita intelligentia, unitasque prima: omnes species, perfectiones veritates, numeros, rerumque gradus. Dum quae in natura sunt differentia, contraria, atque diversa: in ea sunt eadem, convenientia, et unum. Tenta igitur an possis viribus tuis identificare, concordare, et unire receptas species, et non fatigabis ingenium: mentem non turbabis, et memoriam non confundes.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XIIII. O</hi></hi></head><p>
+
+	Cum deveneris ad rationem qua conformabere coelo corpori, quod animalium inferiorum etiam vilium ratione non vili formas continet pedem ne figito, sed nitaris ad intellectualis caeli conformitatem: quod totius mundi formas, praestantiori modo possidet, quam coelesti.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XV. P</hi></hi></head><p>
+
+	Talem quidem progressum tunc te vere facere comperies, et experieris cum a confusa pluralitate, ad distinctam unitatem per te fiat accessio: id enim non est universalia logica conflare, quae ex distinctis infimis speciebus, confusas medias, exque iis confusiores supraemas captant: Sed quasi ex informibus partibus et pluribus, formatum totum et unum aptare sibi. Sicut manus brachio iuncta: pesque cruri, et oculus fronti, cum sunt composita: maiorem subeunt cognoscibilitatem, quam posita seorsum. Ita cum de partibus et universi speciebus, nil sit seorsum positum et exemptum ab ordine (qui simplicissimus, perfectissimus, et citra numerum est in prima mente) si alias aliis connectendo, et pro ratione uniendo concipimus: quid est quod non possimus intelligere memorari et agere?
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XVI. Q</hi></hi></head><p>
+
+	Unum est quod omnia definit. Unus est pulchritudinis splendor in omnibus. Unus e multitudine specierum fulgor emicat. Quod si coniicias: tale inter oculos tuos, et universaliter visibilia interpones oculare, ut nil sit quod te fugere possit omnino.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XVII. R</hi></hi></head><p>
+
+	Error nobis et oblivio accidit; quia apud nos ex forma, et infirmi viget compositio. Formatio quippe corporei mundi, forma inferior est, ex ipsius enim vestigio, et deformitate componitur. Illuc igitur ascende ubi species sunt purae, nihil informe, et omne formatum ipsa forma est.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XVIII. S</hi></hi></head><p>
+
+	Notavit Platonicorum princeps Plotinus. Quamdiu circa figuram oculis duntaxat manifestam quis intuendo versatur, non dum amore corripitur: Sed ubi primum animus se ab illa revocans, figuram in se ipso concipit non dividuam, ultraque visibilem: protinus amor oritur. Simile iudicium de obiectis intelligibilibus; ei quod est de appetibilibus. Hinc igitur investiga et contemplare quomodo species citius, vivacius, atque tenacius concipiantur.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XIX. T</hi></hi></head><p>
+
+	Septem gradibus (quibus duos addimus) constare intellexit Plotinus Schalam qua ascenditur ad principium. Quorum. Primus est animi purgatio. Secundus attentio. Tertius intentio. Quartus ordinis contemplatio. Quintus proportionalis ex ordine collatio. Sextus negatio, seu separatio. Septimus, votum. Octavus transformatio sui in rem. Nonus transformatio rei in seipsum. Ita ab umbris ad ideas patebit aditus, et accessus, et introitus.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XX. V</hi></hi></head><p>
+
+	Omne quod est, post unum; necessario multiplex est et numerosum. Praeter unum igitur atque primum omnia sunt numerus. Unde sub infimo gradu schalae naturae est infinitus numerus, seu materia: in supraemo vero infinita unitas, actusque purus. Descensus ergo, dispersio, et evagatio fit versus materiam. Ascensus, aggregatio, et determinatio fit versus actum.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXI. X</hi></hi></head><p>
+
+	Per numeros (inquiunt nonnulli) entia, se habere ad id quod vere est, seu verum ens, sicut materia per inchoationem formarum se habet ad formas.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXII. Y</hi></hi></head><p>
+
+	Triplicem considera formam. Quarum prima est a qua rem ipsam formari contingit, ut pote quae producit actum: et istam non proprie ideam, vel rerum producendarum formam appellamus. Secunda qua res ipsa formatur tanquam parte: et huic non convenit similitudinem dici eius, cuius est pars. Tertia quae aliquid terminat, et figurat tanquam inhaerens qualitas: et eiusmodi non potest recipere ideae rationem, cum ab eo cuius est forma non separetur. Quarta ad quam aliquid formatur, et quam aliquid imitatur: et haec usu loquentium consuevit nomen ideae retinere. Et haec quatrifariam dicitur. In artificialibus ipsis, ante artificiata. In intentionibus primis, ante secundas. In principiis naturae, ante naturalia. In divina mente, ante naturam et universa. In primis dicitur technica, in secundis logica, in tertiis physica, in quartis methaphysica.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXIII. Z</hi></hi></head><p>
+
+	Quaedam formae imitantur ut ex natura: veluti imago in speculo obiectae rei formam. Quaedam ex institutione: veluti figura impressa sigillum. Rursum quaedam imitantur ut per se: quemadmodum pictura quae ex intentione pictoris aliquem presentat. Quaedam medio modo inter per accidens et per se: ut si fiat pictura ad presentandum quem potest presentare. Quaedam vero ut forte obtigit: quemadmodum cum effigiem depictam accidit praeter intentionem quempiam imitari. Quaedam nec per se neque per accidens quae ad nullum prorsus referuntur nec referri possunt imitandum, si possibile est tales esse formas. In primis est ratio maior idealis. In secundis minor. In tertiis minima, in quartis nulla.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXIIII. A</hi></hi></head><p>
+
+	Agens ex natura vel a casu, non ex praescripto voluntatis, non supponit ideas. Tale si esset primus efficiens: nullae essent ideae, et agens nullum ex arbitrio operaretur. Caeterum valeat Democritus, Empedocles et Epicurus. Si habes impossibile ut agentis ratio a quocunque separetur: et importunius ipsum id omnibus rimabere ni omnia tibi reddantur possibilia, reddentur plurima.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXV. E</hi></hi></head><p>
+
+	Dixit unus de nostratibus. Exemplaris forma habet rationem finis, et ab ea accipit agens formam qua agit quod sit extra ipsum. Non est autem conveniens putare deum agere propter finem alium a se, et accipere aliunde quo sit sufficiens ad agendum: idcirco ideas non habet extra se. Nos autem oportet eas extra, et supra nos inquirere: cum umbras earum tantum in nobis habeamus.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXVI. I</hi></hi></head><p>
+
+	Per speciem quae est in intellectu: melius aliquid apprehenditur, quam per speciem quae est in physico subiecto, quia est inmaterialior. Similiter melius cognoscitur aliquid per speciem rei quae est in mente divina, quam per ipsam eius essentiam cognosci possit. Duo requiruntur ad speciem quae est medium cognoscendi: representatio rei cognitae, quae convenit secundum propinquitatem ad cognoscibile, et esse spirituale, et in materiale secundum quod habet esse in cognoscente.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXVII. O</hi></hi></head><p>
+
+	Sicut ideae sunt formae rerum principales, secundum quas formatur omne quod oritur et interit: et non solum habent respectum ad id quod generatur et corrumpitur; sed etiam ad id quod generari et interire potest. Ita tunc verum est nos in nobis idearum umbras efformasse, quando talem admittunt facultatem et contrectabilitatem: ut sint ad omnes formationes possibiles, adaptabiles. Nos similitudine quadam formavimus eas, quae consistunt in revolutione rotarum. Tu si aliam potes tentare viam tenta.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXVIII. U</hi></hi></head><p>
+
+	Accidentium ideas non posuit Plato. Cum quippe intelligeret eas esse proximas rerum causas: unde si quid praeter ideam esset proxima causa rei, illud non volebat habere ideam, ideoque in iis quae dicuntur per prius et posterius non esse voluit communem ideam: sed primum esse ideam secundi. Unde Clemens philosophus in entibus superiora volebat esse inferiorum ideas.
+</p><p>	Accidentium ideas esse volunt Theologi qui intelligunt Deum esse immediatam causam uniuscuiusque rei, licet secundos deos causasque non excludant. Et nos in proposito ideo omnium volumus esse ideas: quia ab omni conceptabili ad easdem conscendimus. De omnibus enim formamus umbras ideales. Nec propterea destruimus Platonicam doctrinam ut intelligenti patet.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXIX. A</hi></hi></head><p>
+
+	Singularium ideas non posuit Plato, sed specierum tantum. Tum quia ideare pertinent ad formarum productionem tantum, non materiae. Tum etiam quia formae principaliter sunt intentae per naturam, non autem genera et individua.
+</p><p>	Singularium ideas ponunt Theologi, quia et quantum ad materiam et quantum ad formam attinet, totalem causam asserunt esse Deum. Et nos in proposito singularium ideas volumus, quia sumimus ideati rationem secundum universalem figurati, et apprehensi similitudinem: sive illa sit ante rem, sive in re, sive res, sive post rem: atque ita sive in sensu, sive in intellectu, et hoc sive practico, sive speculativo.
+
+
+</p></div2><div2><head><hi rend="italic"><hi rend="bold">CONCEPTUS XXX.</hi></hi></head><p>
+
+	Ideas minus communes in ideis communioribus generatas quidam collocant, ac tandem omnium idearum genera in ipso ente primo, quod summum intelligibile vocant, uniunt. Tu umbras idearum minus communes in communioribus: et subiecta earum extrinseca minus communia, in comunioribus collocare memento.</p></div2>
+
+
+
+</div1><div1><head><hi rend="bold">DE COMPLEXIONE QUAE FIT CONCURSU PRIMAE ROTAE CUM SECUNDA.</hi></head><p>
+
+	Oportebit ergo volentem per se ipsum artem generalem ad habitum intellectus, voluntatis, et memoriae captare (licet eam in presentiarum ad memoriae perceptiones contrahamus): Primo callere elementarium primum cum suis significationibus. Secundo secundum. Tertio secundum deducere per primum. Prima duo nos prestitimus, quae optime pervia sunt versatis in peripateticis doctrinis et Platonicis. Tertium ipsius industriae committimus.
+</p><p>
+	Iam applicationem, et intentionis universalis contractionem, ad artem memoriae aggrediamur.</p></div1>
+</body>
+</text></TEI.2>

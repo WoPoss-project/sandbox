@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il viandante</title>
+      <author>Gabriele Zinano</author>
+    </titleStmt>
+    <extent>53 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2006</date>
+      <idno>bibit000145</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>La disputa sull'eccellenza delle armi e delle lettere nel Rinascimento</title>
+        <author>Turchetta, Fulvia</author>
+        <publisher/>
+        <pubPlace/>
+        <date/>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2005-09-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2005-09-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 n="Titolo">
+<head>Il Viandante,
+overo della
+precedenza
+dell' Armi, et
+delle Lettere.</head>
+<p><hi rend="italic">di Gabriele Zinano</hi>.
+al Sereniss. Sig. Duca
+d' Urbino.</p> 
+</div1>
+<div1 n="Dedica">
+<p><hi rend="sc">AL SERENISSIMO
+SIGNORE
+IL S. FRANCESCO MARIA
+DALLA ROVERE
+DUCA D' URBINO</hi></p>
+<p><hi rend="italic">mio signore colendissimo</hi>
+Non procura d'ornarsi
+dei fregi, et delle
+pompe de' Persiani,
+ai quali succedendo
+Alessandro nei regni, volse ancora esser herede dei loro
+ornamenti: Ma imitando V. A. Sereniss.
+più tosto il non ancor contaminato Alessandro, e i Mecenati, e gli Augusti adorna
+così l'animo, che alzandosi co'l  valore sopra
+molti prencipi, se vantar si volesse di duoi
+principati, l' uno acquistato, l'altro hereditato, potria così chiamarsi fra molti prencipi il Prencipe, come fra suoi populi gran
+Prencipe: et haver tanto più caro il primo
+prencipato, che' l secondo, quanto è più lodevole il soprastar di meriti a molti Prencipi, che sovrastar di potenza a populi minuti,
+et quanto ha più di gloria il merito, che il
+titolo di Prencipe. Il Prencipe senza proprio
+merito s' honorerà, ma con finto honore fondato su' l timore, et su gli interessi, o se pure
+con vero honore s' honorano in lui non le sue,
+ma le virtù de' maggiori: et V. A. S. sovra
+questi sarà sempre honorata, et resa gloriosa per la nobiltà non solo, et non solo per  la 
+potenza, et per gli altri hereditarij beni, ma
+sì nell'attiva, che versa intorno il governo  de' populi, et de' soldati, come nella contemplativa, che ha per oggetto la speculatione delle cose naturali, et celesti.
+per  quel proprio valore, che la fa gloriosa 
+Onde, se della pittura deve giudicare il pittore, et della musica  il musico, et d' alcuna cosa giudicar, chi n'è saggio, V. A. Sereniss. che saggia nell'una, et nell'altra facoltà risplende di gemina laude, quasi di gemina luce, sarebbe degno giudice dell'ancor non
+decisa, ma per molti anni disputata precedenza delle lettere, et dell' armi. Perché
+poi, chi vuol rettamente giudicar, bisogna,
+che oda le ragioni delle parti, ardirò io dedicarle questo mio discorso: accioché se giudicar volesse, udite, che havrà l' altissime ragioni de gli altri, possa udire ancora le bassissime mie. Ella non miri o l'eloquenza,
+o la dottrina, o le miri congionte con la devotione, ch'io porto al suo glorioso valore,
+che i lor diffetti le parranno minori. Perché cerco io arti, se in animo sì benigno non
+può cadere alcun disprezzo di chi humilissimo la riverisce? Questa sua benignità faccia, che questa mia dedicatione, et questo 
+mio ardir non offenda l'Altezza dell'animo
+suo a cui m'inchino, et inchinato le bacio
+la mano.</p>
+<closer>
+<dateline>Di Reggio alli 4. di Novembre. 1590.</dateline>
+<salute>Di V. A. Sereniss.
+Humiliss. et devotiss. servitore.</salute>
+<signed>Gabriele  Zinano.</signed>
+</closer>
+</div1>
+</front>
+<body>
+<div1 n="Il viandante">
+<p>Già con lieto canto i galli
+emuli, o contrarij alle Sirene, ricordavano al  genere humano, Dio haverlo  creato, accioché  in questo universalissimo teatro, illuminato dalle stelle, rappresenti alla presenza de gli angeli, et
+de gli altri eterni spettatori suoi, non solo verissimili, ma veri drammatici poemi. Quand' io vago di gionger presto a Roma, lasciai le
+piume, et in compagnia, anzi in servitù di
+Monsig. Francesco Pagano Gentilhuomo  di
+lettere, et di creanze a nessuno secondo, mi
+posi in viaggio lasciando Siena, bella Città di
+Toscana, Siena ricca di belle, et  honeste donne, et d' huomini valorosi, et cortesi, lasciando,
+dico, Siena, ove si era la notte alloggiato. Ma
+perché Monsig. giva con quella tardità, ch'è sì
+amica delle persone gravi, io spronando il cavallo passai innanzi dicendo. Io sarò suo foriero questa mattina. Egli occupato nelle
+sue orationi mattutine, non mi diede per risposta altro, che un amorevole riso. Io spronai il
+cavallo; et non era io ancora allontanato
+un miglio da lui, che gionsi uno, che andava tardo anch'egli, non per servar gravità, ma
+per quel, ch'io conobbi per diffetto di sproni; de' quali era così mal fornito, come del resto de gli arnesi da cavalcare; et ne gli habiti,
+et nel volto si mostrava lui essere più tosto
+amico dello studio della filosofia, che di quello
+da' cavallieri. Io lo salutai, ei mi risalutò, io
+passai oltre, et senza pensar più a lui mi occupai nel pensiero: et il suo cavallo fatto emulo 
+del mio, si pose a venire al mio pari; ond' egli
+disse. Il tuo cavallo a me sarà invece di sprone. Io il confirmai, ma tornando ad occuparmi, tacqui, et egli più su tirò il suo ragionamento, dicendo. Non è meraviglia, che l'emulatione stimoli sì gli humani, che li faccia,
+correre per lo duro sentiero della gloria, poiché alle pigre bestie aggionge lena al caminare. Ciò confirmai co' i gesti, ma inviluppato
+nei miei pensieri, fui cagione, che non si
+attaccò ragionamento durabile, se ben' egli
+con saggi ragionamenti ne prestava occasione. Ei cercò varij argomenti di sviarmi dall'estasi, né giovandoli ragionamenti  dolci, quasi
+alterato disse con importunità officiosa, et cortese. Et perché sì pensoso? Mi riscossi all' hora,
+et quasi l' error della mia mala creanza volessi
+cancellare, li dissi esser cagione di quella astrattione mia alcune meraviglie mostratemi da
+una ninfa di Pratolino. Indi tutte le cose vedute, et udite li raccontai. Egli all' hora piacevolmente. Ben vedendo le celesti Muse, ti dei
+essere della poesia innamorato. Questo no,
+risposi  io. Di cosa sì ridicola, et sì leggiera non
+è pericolo, ch'io m'innamori. Ei rise dicendo:
+Chiami ridicola, et leggiera cosa da tanti valorosi seguita? Et io. La seguano, quanto vogliano, non la seguirò io mai. Et chi, soggionse 
+egli più tosto t'eleggeresti seguire? Io risposi.
+Ogni cosa seguirei volontieri, purché poesia
+non fosse. Egli più forte rise, et alla fine co' l
+fin del riso queste parole congionse. Se ti piacesse d'udirmi, tali cose della poesia ti direi ch'
+ove adesso la biasimi, forsi la loderesti. Sempre
+risposi mi piacque d' udir cose nuove, et, perché questa tua dottrina credo sarà tra le nuove novissima, la udirò volontieri. Ma che tu 
+faccia, che tu lodi la poesia, a me pare impossibile. Il saggio viandante si ritirò in se stesso, et
+poi dopo molto  pensar  cominciò. Voglio tutti i beni humani rapresentarti per conoscere la
+tua intentione, et conosciuta, dirti il mio parere liberamente. Dei beni humani desiderabili  tre sono i generi, l'uno honesto, l'altro
+utile, il terzo misto. Le cose, che cadono sotto l' honesto si ristringono sotto il nome di 
+virtù. La virtù è habito dell'animo alla natura secondo la ragione accomodato. Le virtù
+sono, o intellettuali, o affettuose. Le intellettuali sono prudenza, arte, scienza, et sapienza. Le affettuose, prudenza, mansuetudine, fortezza, temperanza, continenza, giustizia, liberalità, et magnanimità, cui altre virtù sono
+sottoposte, delle quali altre dipendono dall' irascibile, altre dalla concupiscibile. L'utile
+overo è nel corpo, o fuori: nel corpo i campi,
+i porti, i denari, l'armate, i naviganti, et i soldati: fuori del corpo sono vago ornamento,
+grandezza eccellente, la moltitudine di varij
+beni. Nel genere misto sono la gloria, la dignità, la grandezza, et l' amicitia, la impotanza di tutte le quali cose co' i nomi si manifesta.
+Hora, s' a te queste cose, per essere elette s' appresentassero, quale di loro elegeresti? Così m' interrogò. Io dall'una banda tirato dal chiaro splendore della virtute, dall'altra banda allettato dalle mondane grandezze, et assalito dall' armi
+acute della gloria, et della dignità, non sapea
+risolvermi; pur mi risolsi, et risposi. A guisa,
+che l'ape ingenosa a questo fiore, et a quello
+leva il più dolce humore, onde il suo fave poi
+empie di desiderato mele, io nel vago giardino, ove m'hai tu condotto, cui cederieno gli
+horti d' Ammeto, et dell' Hesperidi, non coglierei con ingiurosa mano dal materno stelo il
+fior figliale, ma da quel dell'utile la potenza,
+del misto la dignità, et dell' honesto la fortezza eleggerei, et ebro di questi dolci humori,
+sperarei di mandar parti più dolci del mele.
+Si, si ripigliò egli, la vita attiva ti piace. Ma cerchi tu la potenza in terra se la terra è da i matematici figurata un indivisibil punto? Ami tu
+più la dignità, che la gloria, et di parer più tosto, che essere, et di più tosto conseguir, che
+meritare? Ti piace più tra le virtù la fortezza,
+et non sai, che non è virtù scompagnata dalla
+prudenza? Così mi diss' egli, et io replicai.
+Confermo, che la terra sia un punto in rispetto
+del cielo, non mio, et  in questo caso, ove si tratta delle cose mie, bisogna meco, et non proportionarle co' l cielo: ma se meco si fa il paragone, grande sarà la terra, et grandi le ricchezze saranno. Hor non consista nella grandezza l'eccellenza delle ricchezze, consista ne i
+frutti, ch'ella produce. Quale è più soave frutto
+di quel della liberalità? Et pur da gli huomini
+non potrebbe esser posta in atto senza le ricchezze. Qual più vago della magnificenza,
+che da quella dipende? Qual virtù è più santa
+della chiarità, di cui senza le ricchezze rari apparerieno vestigi? Et finalmente come si conosceria la giustitia, o come s' usarebbe senza
+le ricchezze? In nessuna maniera. Dunque so-
+no buone le ricchezze, et non potrieno, se cattive fossero, generar parti sì buone. Egli a queste mie parole sorrise, né per disprezzo sorrise, ma non rispondendo egli, io seguitai. È vero, 
+che la gloria è maggior della dignità, et la prudenza della fortezza, di cui l'una desidero, l'altra non spero, ma s' io la sperassi, et amassi come potrei conseguir la gloria? Con la poesia,
+mi rispose egli. Et io. Non potrei io conquistarmi la gloria con virtù maggiore? Non vi
+sono tante belle arti, non vi sono tante belle
+scienze?  Et non v'è la militia  insomma, con la 
+quale non merita già d'esser posta in bilanza la
+poesia? Hor mi sovien di Milciade, ch' essendo
+domandato, s' eleggeria più tosto d'essere il saggio Homero, overo il forte  Achille, ei chiese al 
+chieditore, s' eleggeria più tosto d'esser de giochi Olimpici vincitore, che del vincitor lodatore? Co' l quale modo di rispondere, come di
+cosa non dubiosa, estimar più l'armi, che la
+poesia dechiarò. D'altro, m' interroppe egli, era
+pur mio intento, che di ragionarti di precedenza, ma ne ragionerò poi, che a ragionarne con
+le tue parole mi tiri, et spero di mostrarti quanto alla poesia sia la militia inferiore. Hor sì, che
+io non potei far, che io non m'appassionassi, et
+ch'io non rispondessi. Tra le lettere, et l' armi per 
+tanti secoli la precedenza indecisa rimane, et
+tu vuoi, che all' armi la poesia, che delle lettere
+è parte, et sì minima parte preceda? Egli conobbe l' ira, et facendo del galante disse. Non è
+dunque decisa? Io risposi. O non decisa, o in
+favor dell' armi esser decisa l'estimo per  le ragioni vedute delle parti. Et quante, et quali
+ragioni, sorridendo  soggionse, adducono i 
+diffensori dell' armi? Molte, risposi, tre nondimeno maggiori dell' altre, et a mio giuditio atte a darle vinta la lite, n'adducono. Fingendo
+egli di non saper, le disse: et quali sono? Et io.
+Prima dicono. La cagione operante è più degna di quella, che consulta, consultano le lettere, et oprano l'armi, dunque l'armi più degne delle lettere sono. La seconda ragione è
+questa. Più laudabili sono coloro, che oprano
+bene,  che coloro, che insegnano a ben operare, il litterato insegna a ben guerreggiare, et il
+soldato guerreggia bene, dunque è più laudabile il soldato. La terza. Ogni bene publico è
+più nobile del privato, la militia è ben publico, et le lettere privato bene, dunque l'armi
+più nobili delle lettere sono. Dette queste ragioni, crollar lo vidi il capo, et poi l' udij così
+reprovarle. Potrei hor la maggiore, hor la 
+minore negare, et caminar per quelle ordinarie da i disputanti sì spesso calcate vie, ma non
+voglio, le sdegno, voglio vincere in altra maniera. Quando io ti ammetterò nella prima
+ragione, che la cagione operante sia più degna di quella, che consulta, non dovrà quindi nascere quella tua propositione particolare, consultano le lettere, et oprano l'armi, né
+resultarne la tua conclusione: perché se per
+armi intendi i soldati, et per lettere i suoi professori, non puoi tu negar, che le lettere non oprino. L' operationi nostre sono, o interne, o esterne. L' opere del soldato esterne sono quando 
+guerreggia, et, quando le cose di guerra considera, sono le sue operationi interne. L'operationi del litterato anch' elle sono o interne, o
+esterne. Interne quando contempla, esterne,
+quando insegna o in voce, o in iscritto. Ma, se
+opera il letterato, perché vuoi conlevarli il suo
+privarlo dell' operationi, et a guisa d' ingiusto soldato, arricchirti delle ingiuste rapine?
+Perché non contento di quel, che li rapisci nella prima ragione, li rapisci tanto nella seconda?
+Perché dir, che le lettere insegnano a ben' operare, et le armi oprano? Hor dimmi operò ben
+Cicerone, quando con la virtù della prudenza,
+et del dire estinse l'incendio, con cui Catilina
+arder volea i palagi, i tempi, il Campidoglio,
+et la Republica di Roma? Operò ben Socrate,
+che posto in prigione, et condannato a morte
+dell'immortalità dell'anima insegnando disputava? Operò ben Platone, operò ben Aristotile, et altri antichi, et moderni, co' l consecrare all'eternità tante scienze, tante discipline,
+et tante arti? Certo dirai: Sì, et io replicarò. 
+Le lettere dunque oprano bene, et s'oprano bene, tutta la sua ragione è destrutta. Soggiongerai, che' l ben publico è più  degno del privato? Io te' l concedo, perché il giusto domandi; ma se domandim, che io ti conceda, che l' armi sieno più publico bene,
+<hi rend="italic">Chiedi impossibil cosa, et cosa ingiusta</hi>,
+Et però da me ti sarà negata: Dimmi chi
+giovò più alle genti in quei primi tempi il più
+valoroso soldato, o pur Solomone? Chi
+giovò più alle genti Alessandro Magno, di
+cui non fu anticamente il maggior soldato, 
+overo Aristotile suo maestro? Chi giovò più
+alle genti Giulio Cesare, che vinse il Mondo,
+o Giustiniano, che
+
+<hi rend="italic">Dentro le leggi tolse il troppo, e' l vano</hi>?</p>
+
+<p>Senza che parli, sei da ragion convinto a
+dir, che le lettere sieno state ben più universali, et sieno, onde io ti dico. Se così è, perché
+cerchi per questa strada di restar vittorioso?
+Ma confutate le tue ragioni, potrei con argomenti più sicuri farti confessar, che le lettere
+sieno all'armi superiori, et dirti, che quella cosa è più degna, che ha in sé maggior perfettione, et che le scienze sono più perfette, che la
+militia, et perciò più degne: et la prima, come
+manifesta, non provarei, et così provarei la seconda. I beni dell'animo sono più perfetti,
+che quelli del corpo, le scienze sono beni dell'animo, et l'armi del corpo, et però sono più
+perfette le lettere. Né tacerei, che le cose, che
+sono più libere dal dominio di fortuna, sono
+più lodevoli, et che le lettere sono più libere,
+che l'armi, et però, che sono più lodevoli le
+lettere: et l'una, et l'altra propositione saria
+contra te sì forte, che d'altra mia ragione  non 
+havrebbe bisogno; et se quest' armi per vincerti non bastassero, soggiongerei, che le cose,
+che repugnano naturalmente alla nostra natura, sono manco degne, che quelle, onde siamo condotti alla felicità, et che l'armi sono
+della prima sorte, le lettere della seconda, et
+che perciò le lettere sono più degne; et molte
+altre ragioni direi: ma perché non è mia intentione di vincerti se non con l'insegnarti il vero,
+trarò le cose di confuso. Così parlò, et parlando sì ressoluto, mi fece star sospeso con l'animo, et giudicar costui poter' esser' alcun famoso
+filosofo, che a Roma aiutatrice delle virtuti
+se ne gisse. Egli per poco spatio taciuto, così
+poi mi ragionò. Al solito loro i nostri filosofanti, lasciando indistinte le cose, confondono
+gli ordini certi delle dispute, et sono cagioni,
+che la precedenza dell' armi, et delle lettere
+indecisa rimane. Distinguer bisogna, perché
+volendo trattar della precedenza delle lettere,
+et dell' armi, o si metterà, in campo l'arte di
+guerra, et le scienze, overo i litterati, et i guerrieri. Se l'arte di guerra, et le scienze, questa
+havrà tanti ordini, et quelle in sì varie parti
+saranno divise, et gli ordini, et le parti saranno sì differenti di dignità, che alcuni staranno di sopra, et il medesmo seguirà confondendo i letterati, et i guerrieri; onde perché
+così decider non si puote la gran questione, che
+si distingua è necessario. Ma, se queste due facoltà famose, sopra cui, quasi sopra cardini fortissimi, si posa tutta l' humana gloria, denno
+distinguersi, in quante parti si distingueranno?
+Et come?. Sarò di mio parere nella distintione, ma in guisa, che alle opinioni de gli altri mortali non sarò contrario. Io non  dividerò queste faccoltà sublimi, come altri l'ha divise, ma le lettere dividerò secondo la divisione
+degli enti, et l'armi secondo la diversità de i
+gradi. L'arte di guerra consiste di huomini, o
+che comandano, o che obidiscono, o che fanno
+l'uno, et l'altri uffitio. I primi saranno gli Imperatori d'esserciti, i secondi saranno i fanti, et i
+cavalieri privati, i terzi  saranno i capitani
+particolari. La scienza poi delle lettere, o versa circa il corpo, o circa l'animo, o circa l'uno, et l'altro. Quella del corpo diremo naturale, quella dell'animo, divina, con cui intendo di comprendere tutte le  incorporee cose,
+quella, ch'è del  corpo, et dell'animo saranno
+le leggi. Così l'arte di guerra, et le scienze divise, et io non pago della divisione, così per
+imparar gli opposti. Dove lasci nell'arte di guerra quelli, che non comandano, et non obidiscono, ma consultano? Dove le scienze matematiche, et l' historia? Et dove le virtù morali?
+Dove la dialettica? Dove la Retorica, et la gramatica? Et dove tante altre scienze lasci alle lettere pertinenti? Così dissi, et egli: Se bene, et
+largamente la mia divisione consideri, vedrai,
+che né l'una, né l'altra  cosa ho scordato. È vero
+che i consiglieri di guerra consultano; ma io ti
+domando. Chi li fa consultare? Non puoi, se
+non rispondere, che li fa consultare l'autorità
+del Duce sovrano. Io all' hora conchiuderò.
+Dunque obidiscono al general sovrano, dunque sono tra quelli, che obediscono. Ma perché il loro uffitio è di diliberar consultando,
+se le cose sono giuste, od ingiuste, accioché, se
+sono giuste, sieno esequite, se ingiuste, tralasciate, et questa è una specie di comandare, denno porsi tra quelli, che comandano, et obidiscono; onde tu puoi vedere, che niente habbiamo lasciato nella divisione dell' armi. Le
+scienze poi matematiche, et l' historia habbiamo lasciato, parendoci, che' l soldato non debba esser senza la loro cognitione. La grammatica poi, la retorica, et la dialettica mi par,
+che dall'una, et l' altre sorte di lettere, sia compresa, perché, chi sarà giamai perfetto letterato, in
+qual si voglia parte di lettere, se di loro non ha  
+cognitione? Alla Fisica poi serve l'astrologia, 
+et le morali virtuti cadono sotto le leggi, che
+castigano il vitio, et danno premio alla virtute; Sono dunque, o strettamente, o largamente
+sotto la nostra divisione tutte le scienze comprese, o pur s' alcune non sono comprese, indegne sono di questo paragone. Hora poiché,
+quasi fusor de' metalli, ho seperata l'una, et l'altra cosa, facciamo il paragone, et prima del
+Duce sovrano, et del metafisico, i quali tanto
+son maggiori de gli altri, quanto l'oro degli
+altri metalli. Ma mentre m' apparecchio a trattar della gran precedenza, dinanzi a me, quasi 
+a severo giudice, mi par, che dell' armi, et delle lettere i procurati s' appresentano, et quel 
+dell' armi mi dica. Ponno dunque co' i Duci
+sovrani i metafisici venire in paragone? Et da
+quali ragioni mossi? Concorrer  vogliono con
+quei Duci, che le cittadi, e i populi, le nationi, e i regni difendono, i metafisici? Quelli, che
+se medesimi difender non ponno, con quei Duci contendono, che difendono le leggi, la patria, et la fede? Con quei la vogliono i sempre
+obedienti metafisici, con quei Duci, che a tanti privati fanti e cavalieri, a tanti valorosi, a
+tanti principi, et nonché ad altri, lor medesimi comandano? Quei sovrani Duci, che
+hanno in lor mano il distribuir tante militari
+corone, cui s'ergono tanti riguardevoli trofei, che premono tanti empi, et di tanti potenti trionfano, saranno posposti a i metafisici privi
+d'ogni mondana gloria? A i metafisici quei Duci
+saranno posposti, il cui nome con tanta lode 
+vola dall'uno all'altro emispero, et dall'uno,
+all'altro polo? Quei Duci, che son sempre gloriosi a se stessi, et nobili a i discendenti, quei,
+che co' l petto facendosi strada per mezo l'armi, et gli horrori si fanno grandi, et potenti,
+non precederano a quei letterati, che poveri,
+che infelici non lasciano, quasi empi alla lor
+posterità, pure ombra, o vestigio di loro a i 
+mendici successori? Che precedino ogni ragion lo vuole; ma se lo vuole ragione, lo niega l'autorità? Lo niega famosa usanza, o vecchia, o nuova? No, che questa, et quella è in 
+favor de i Duci; et tutta l' antiquità, da certe nationi in fuori di poco grido, sempre i Duci a i 
+metafisici prepose; et a i tempi  nostri non dirò
+in Francia, o in Hispagna, ove le lettere non sono in sommo pregio, et non dirò, et in Germania, et in Moscovia, et in Tartaria, et in Persia,
+et non dirò sotto l'Imperio Ottomano, ma in
+Italia dirò, dove le lettere più, che in altro loco sono estimate, sono i Duci sempre a i letterati preposti: onde, se tante ragioni, et tante
+autorità in favor de i Duci parlano, chi potrà
+giamai decider questa precedenza, che in favor dell'armi non la decida? Nessun ch'io mi
+creda tanto ardirà, et tanto più vedendo i Prencipi di tutto l'universo ricercar, non nelle lettere, che le sprezzano, ma sì ben nell' armi la gloria  loro. Così parlano i fautori dell' armi, ma
+apena cessano, che li avversarij, mi par, che così
+rispondano. Contender certo non vogliono
+i metafisici co' l sovrano Duce, et volontieri
+cedono, perché altri honori, che i mondani
+si propongono; ma cedendo, maggiormente
+meritano di precedere; et trattandosi qua, non
+di chi precede, ma di chi merita precedere,
+questa lode al metafisico concederemo, che
+merita di precedere, come si farà manifesto.
+Non difendono certo i metafisici con l'armi
+feroci le cittadi, i populi; le nationi, et i regni;
+et non difendono se medesmi da i nemici armati; ma sì ben con ragioni, armi più sicure, da
+gli horrendi peccati il mondo difendono. Quai
+sono maggiori nemici, i vitij infami, anzi
+scelerati, né scelerati solo, ma detestabili, ma
+horrendi, o pure gli huomini armati? Senza
+dubbio quei vizij: hor se preceder deve, chi da
+maggiori nemici il mondo difende, perché
+preceder non denno a i Duci sovrani i metafisici?  Forsi adoprano i Duci mezi migliori? No
+certo, perché sono migliori le ragioni, che l' armi, et con le ragioni non solo lo cittadi, e i populi, le nationi, e i regni, ma ancora  le patrie,
+le leggi, et la fede difendono, et se i duci comandano a tanti fanti, et cavalieri, a tanti valorosi, et Principi, et a Metafisici istessi, i Metafisici non comandano, no, ma sì ben pregano,
+et essortano; et con le ragioni i più ostinati convincono: onde, se la preminenza si conosce non
+dal comandare, ma dall'essere obedito, chi
+non vede la preminenza de i metafisici, le cui
+preghiere, le cui esortazioni, et le cui ragioni
+sono più obedite da tutte le genti, che gli altrui imperiosi comandamenti? Che? Gli istessi Duci obedienti li sono, onde quanto è maggiore il Duce di tutti i soggetti, ponno dir i metafisici al Duce
+Tanto minor est tua gloria nostra.
+Se poi essi non comandano a gli eserciti, non
+se ne curano, ché di loro non hanno bisogno,
+et s' egli è vero quello, ch' Aristotile insegna,
+che, chi dimeno ha bisogno sia, più degno, è
+cosa certa, che i metafisici più degni saranno
+del Duce, perché niente lor manca per conseguire il fine, ove al Duce gli ori, l'armi, i soggetti, l' adherentie, et gli esserciti mancano. Adducevano in lor pro, che non che altri, ma i
+metafisici istessi, eseguivano, et servivano gli
+Imperatori d'esserciti, ragione conforme alla
+opinione della moglie di Cicerone, che da Simonide interrogata, che fosse meglio esser ricco, o savio, ella rispose. Ricco, perché le case de' ricchi sono da' savij frequentate, et non
+già quelle de' savij da i ricchi. Ma con Diogine mi piace di reprovarla dicendo, che se i ricchi conoscessero i lor bisogni, come fanno i
+savij, le case de' savij più, che quelle de' ricchi
+sarieno frequentate. Se poi i metafisici non distribuiscono le corone, et loro non sono erette statue, archi, et trofei, né in Campidoglio
+trionfano, ben poi con le lor sante opere, et
+co' i lor buoni insegnamenti di più nobili corone, che le vallari, che le civiche, che le trionfali, che l' ovanti, et che l' altre corone le tempie de' vincitori circondano, et d'altri honori,
+che di statue, et di trofei gli adornano: et se il
+Duce trionfando preme i vinti regi, e i debellati potenti, et innanzi il carro superbamente li 
+spinge, i  metafisici a i loro travagli, et alle lor
+vittorie conseguono celesti trionfi: et i vinti
+non premono, no, né premer li cercano, ma si
+ben gli inalzano, o innalzar gli cercano a i celesti trionfi. Parti che debbano credere  a i Duci? Come può altri affermar, che i Duci più di
+loro sieno famosi? Che maggior gloria a sé riserbino? Che maggior nobiltà nei discendenti trasfondino? Confesso, che per mille morti
+et per mille horrori passando intrepido il Duce,
+acquista ai suoi successori, et ricchezze, et potenze
+grandi, ma è vero ancora, che 'l metafisico con
+non disugual periglio, ove l'occasione il ricerchi, acquista a se stesso, et a tutta la  posterità, ricchezze, et potenze grandi, et immortali:
+senza, che alcuno sopra ecclesiastici gradi ascendendo, può i suoi heredi con lecite maniere render de' beni di Fortuna abbondevoli.  A quel, 
+che dicono in ultimo poi, che i prencipi attendono alla militia, et le scienze disprezzano; rispondiamo, che non sono ottimi principi quelli, che le lettere disprezzano, et che quelli, che 
+non sono ottimi, non ponno di propria autorità dar così gran sentenza. Dar l' havria potuta Alessandro il grande, E Cesare, et Giustiniano, et  altri sì fatti antichi, et altri lor simili, o
+superiori moderni, non meno delle lettere amici, che dell' armi, secondo l'occasione. Dicono,
+che fa per loro l'autorità? Si risponde di no, perché più deve valer l'autorità del sommo Sacerdote, che di tutti gli altri potentati, ma questa è in favor nostro; in favor nostro dunque
+si dia la sentenza. Tali, et sì efficaci ragioni
+mi par d'udire dall'una parte, et  dall'altra, ma
+caminano al buio, cerchiamo d' aportarli luce. Così dicendo il saggio Viandante, et con 
+ardita confidenza vantandosi di decidere la
+questione, che 'l Mondo per tanti secoli havea veduta indecisa, accommodar mi fece ad un attento silentio, et egli a questo parlar diede principio. Volendo giudicar di sì gran lite, et di
+lite, che, non dinanzi ad un picciol tribunale,
+ma dal giuditio pende di tutto l'universo, non
+bisogna arrengando pensar di vincere con circonstanze leggiere, fondar bisogna le ragioni distinte sopra cause essentiali: Non tutti sono
+eguali i Duci, né i metafisici, né tutti ad un 
+sol fine, né tutti con eguali mezi al fine si conducono, né tutti intorno ad un' istessa materia,
+né tutti partoriscono eguali effetti; però bisogna ricercar queste cause, et di loro tutti far'
+alcuna divisione. Quivi io vinto da non so
+quale affetto. Che cagioni? Che divisione?
+Il metafisico, che noi diciamo teologo, overo è
+oratore su i pergami, o maestro, o scrittore,
+overo da tutte le cose del mondo separandosi,
+vive beata vita, o ne gli eremi, o ne i  tempij,
+et sempre nel render gratie, et sempre nelle sue
+preghiere la sua bocca il nome di Dio risuona,
+et la sua mente solo il nome contempla di Dio.
+Con questo quella lingua, che qual si voglia
+guerrier paragonasse, empia sarebbe, né se il
+paragonato guerriero l' antiche sedi di Dario
+ascendesse, et gli Imperij occupasse de gli antichi Medi, et Assiri, et le corone premesse de
+gli Indi, et di Babilonia, et a lui la monarchia
+cedesse de' Macedoni, et le nuove potenze de'
+Tartari, de' Moscoviti, et d'Egitto, et  di Persia:
+et comandasse alla potente casa Ottomana, et
+alla potentissima d'Austria, et l'Italico, et il Germano valore, et la Danismarca, et la Britania,
+et tutti i populi insomma antichi, et moderni
+vittoriosi, et invitti domasse, et sotto il suo
+Impero per proprio valor restringesse. Questo
+sì fatto Duce con sì fatto teologo empio sarebbe, se pensasse d'agguagliarsi. Perché quei teologi, e le corone, e i scettri, e gli ostri, et gli ori,
+e i soggetti, e gli adherenti, come cose transitorie, non curano, né queste cose solo, ma, et
+le splendidezze, et le magnificenze, et gli ornamenti, et le lascivie estiman vili, et nel fattor
+rivolti tutte le mondane grandezze disprezzano, et beati, et santi vivono separati dal mondo quasi separate intelligenze. Però denno
+precedere. Ma, che dico precedere? Ben si
+può ancor dir, che precedano: et, se questo non
+è in quei consigli, ove di guerra, et di pace si
+tratta, et in quelle esterne dimostrationi di corte, avviene, perché quel non è il lor loco, o là
+non intervengono: ma predicando, et insegnando, ma confessando, et communicando, et
+celebrando gli uffici divini, precedono ben poi
+con molto vantagio; et se si dice, ch' altri al
+teologo s' ingenochia, et li fa altri segni d' honore, et di riverenza per rispetto di Dio, di cui
+è ministro, et noi diciamo, che il Duce è honorato, o per rispetto della pace, che desiderano gli huomini da lui conseguire, o per la vittoria, o per gli utili, et honori, o per rispetto
+d'altro principe: onde quanto tutti i rispetti cedono a quel supremo rispetto, che viene da
+Dio, tanto i Duci cedono a i teologhi. Così
+dissi, et egli soggiunse. Giusta sentenza hai data, né qui ci è bisogno di più minuta considetione; Perché non è alcuno, che non sappia,
+che 'l metafisico, (parlo del buono, ché il rio
+non può entrar' in questo arringo) ha per fine
+il servir Dio, che adopra le carità per causa efficiente da condursi al fine, che gli instromenti della carità sono orationi, digiuni, lettioni, 
+prediche, preghi, et contemplationi; le quali
+cose tutte sono i più nobili instromenti, che possino haver gli humani; et in ultimo, che versa
+intorno la salute dell' anime. Dalle quali cagioni ne nasce una formale conditione, che supera tutte l' altre conditioni. Così animosamente parlava, come di cosa non dubiosa, quand' io, non intendendo bene, li dissi, che parlasse più chiaro, et egli. La ragione di questa
+precedenza ti si farà più chiara, se darai mente
+alla più minuta diligenza, ch' io farò nell'essamine delle ragioni dell' altre precedenze. Ma
+bisogna, che entri meco nelle scuole de' Peripatetici. Così disse, io m'accommodai all' attentione, et egli cominciò. Tutte le cose, che
+sono, bisogna, che habbiamo alcuna qualità,
+per la quale sian tali. Questa qualità, overo 
+è creata, o generata, o infusa, o acquistata. Se
+creata, da Dio, se generata, dalla Natura. La
+qualità infusa da diverse cause superiori procede. L'acquistata è quella, che gli huomini
+s' acquistano; et questa si dice forma: onde si
+distinguono gli huomini l'uno dall'altro con
+le varie operationi, sì come con le varie forme
+l'uno dall'altro animale si distingue. Ma, sì come le  forme de gli animali sono da qualche 
+cosa prodotte, che si dice materia, così la forma, onde gli huomini con l' operationi l'uno
+dall'altro si distingue, come il Duce dal Metafisico, di qualche cosa è nata, et questa sarà la 
+causa materiale. Perché poi la forma da alcuna cosa è fatta, quella cosa, che farà questa
+forma si dirà esser causa efficiente. A queste tre cause si aggionge la finale: perché sì
+come tutte le cose create sono ad un fine drizzate, così tutti gli huomini nelle loro operationi hanno alcun fine, per lo quale movendosi, si dice, che quel fine sia causa finale. Questi sono i fondamenti, su i quali deve fabricar
+la sentenza, chi vuol giudicare di questa precedenza, perché è propositione famosa da tutti i
+saggi sostenuta, che quell'effetto sia più degno,
+che ha più degne cagioni. Dicendo queste cose senza provarle con ragioni, a me diede a
+credere, ch' ei mi tenesse di poco conto, ond' io
+per mostrarli, che con persona affatto materiale non ragionava, armai le mie parole di Sillogismo, et gli opposi. Io affermo, che quell'effetto sia più degno, che ha più degne cagioni; ma che le cagioni delle cose siano quelle,
+che tu mi dai, senza provarlo, ad intendere, io
+lo nego, et con queste ragioni. Perché fondar
+le prove delle precedenze su le cause delle cose
+naturali? Mi vuoi tu dar' a credere, che ancora
+alla fattura dell' operationi concorrino? T' inganni, perché io non solo estimo, che non concorrino, ma, che queste, che tu nomini cause,
+non siano cause, et odi, s' io parlo senza fondamento. La materia non è cagione, perché ogni
+causa è ente, la materia non è ente, dunque non
+è causa. Che non sia ente, è chiaro, perché (per
+dirlo secondo, che si dice nelle  scuole) fit
+quale, neque quid, neque quantum. La forma
+poi non è causa, perché quel, ch' è causa non
+è effetto, la forma è effetto, dunque non è causa, et queste cose sono sì chiare,  che non hanno
+bisogno di prove. A che poi dir, che l'efficiente sia causa? Se gli effetti non ponno esser senza
+la causa, et gli effetti ponno esser senza questa
+efficiente, perché affirmar, che l'efficiente
+sia causa? Et con chi ti pensi con chi ragionare?
+Con uno, che non habbia, né ingegno, né discorso, né mai sia stato nelle scuole? Se mi tieni tale, t'inganni: se non mi reputi poi sciocco, et del tutto ignorante, perchè affirmarmi
+esser vere queste cause? Et sopra tutte l' altre cose, perché dirmi, che il fine sia causa? Pensi,
+ch'io non sappia, che quel, che non è, non può
+esser causa, che il fine non è, et che però non
+può esser causa? Pensi, che io non sappia, che
+la causa è principio, et che il fine non è principio, cum non habeat rationem ultimi, et che
+però il fine non è causa? Pensi, ch' io non sappia,
+che, se 'l fine fosse causa, che sarebbe, o secondo
+l'esser reale, o intentionale, et che questo non è,
+et però, che il fine non è causa? Havrei più oltre proceduto, se egli non m' interrompea scherzando. Chi sarà sicuro da te, se Aristotile, ch' è cinto dall' armi di tante ragioni, è da te così gagliardamente offeso? Con questo parlare mi 
+fece arrossire, et poi seguitò, con magnanimo
+filosofico disprezzo. Non voglio reprovar le 
+tue ragioni. Assai da gli amici d' Aristotile son
+reprovate. Tu tenendo intanto i miei fondamenti per sodi, et sicuri, a tua posta potrai vedere, come il gran filosofo sia difeso. All' hor
+dissi rispondendo. Già sapeva io, che Aristotile era difeso, et vere estimava le Aristoteliche cause, ma io temea, che tu mi raputassi
+huomo, che non sapessi argomentare, insegnandomi così senza prove. Hor segui parlando della precedenza con la guida di queste
+cause, ma non mancar di assegnarmi ragioni,
+perché con persona stupida non ragioni. Accennò, che lo farebbe, et cominciò. Già, che
+habbiamo conchiuso, che 'l Duce sovrano non
+può venir' in paragone co' i metafisici, veggiamo come passa la precedenza tra' l fisico, et lui.
+Il Duce  over' è soggetto all' altrui potestà, over' è libero, onde o fa la guerra per propria elettione, o per obedire al suo Signore. La sua guerra poi, over è giusta, o ingiusta, et over ha perfine di giovar a i populi, o di giovar a se stesso, o di giovar a sé, et a gli huomini, et di gio- 
+var, o principalmente a se stesso, o in consequenza. Il fisico o per trattenimento, o per curiosità, o per altro particolare interesse usa l' arte
+sua, o per giovar a gli huomini. Se per giovar' agli huomini lo fa, o con insegnare o in 
+scritto, o in voce, o co' l medicare. I Duci
+tutti desiderano di vincere, ma non è la vittoria il loro fine, come alcuni hanno pensato, perché s' altro non sperassero gli Imperatori d' essercito, che la vittoria istessa, non guerreggiarieno. Hora, se non è la vittoria il fine del Duce, quale sarà? Non hanno un sol fine i guerrieri, ma, sì come son varij, così hanno fini varij.
+Quei Duci, che non soggetti sono, et di lor volontà guerreggiano, over' hanno per fine la gloria,
+come Alessandro il grande, il qual de gli acquisti del padre si lamentava, perché non era bramoso di regno, ma di gloria, o desiderano il 
+regno, come Cesare, che nei detti, et nell'attioni se ne mostrò avidissimo, o hanno per fine l' honore, l' honesto, il giusto, et  la pace universale, come Carlo Quinto, il qual sarà tanto maggior d'Alessandro in questo, quanto
+Alessandro sarà superiore a Cesare; et qui intendo solo di fine, perché per cose fatte non
+cede Cesare ad Alessandro, et intendendo del fine, sarà tanto maggiore la gloria del regno. I Duci,
+che hanno dipendenza da alcun suo signore,
+ponno cadere sotto la istessa divisione, pure i fini loro sogliono esser meno universali, et per
+ciò men nobili, et men nobili sono quei di quelli, che da questi dipendono. Et sì come minor lode hanno questi, ove i fini sieno buoni, et
+la guerra giusta, così, ove siano i fini  cattivi,
+et ingiusta la guerra, minor biasimo conseguiscono. Il fisico poi ha per fine di concordar
+gli humori del corpo; onde il Duce, che ha 
+per fine di giovar agli huomini, è più degno, 
+che qual si voglia fisico, perché il fisico procura la pace degli huomori del corpo, et il Duce ha per fine con la vittoria di concordar i
+populi in pace de gli animi, da cui tutte le
+terrene paci dipendono. Ma è tanto più, e
+meno superiore, quanto la sua pace è più, et
+meno universale, quanto più, et meno dipende dalla sua volontà, quanto più, et meno ci
+ha congionto il suo interesse, et quanto più, et
+meno la guerra è giusta. Anzi, che, ove la
+guerra fosse ingiusta, et ove egli eleggesse di
+farla con solo particolare interesse, egli all' hora sarebbe al fisico inferiore più, et meno secondo le circostanze. Ma perché Duce, o buon
+Duce non sarebbe senza la prudenza, diremo,
+che la prudenza sia la sua causa efficiente, senza la quale non può giongere al suo fine, onde
+il Cornazano.</p>
+
+<p><hi rend="italic">Facciasi di prudenza un'armatura
+Innanzi, che si vada al fatto d'arme,
+Ch' è miglior, che di ferro, et via più dura</hi>.</p> 
+
+<p>La qual virtù è di tanta importanza, che senza lei l'altre virtù non sarieno virtù: onde al
+Duce in questa parte non potrà paragonarsi il fisico, la cui causa efficiente sarà alcuna
+esperienza. La materia del Duce sarà la guerra, di cui è fatto Duce, et senza cui Duce non 
+sarebbe. La materia del fisico saranno le cose
+naturali. Qui il fisico sarà superiore più, et meno secondo, che più, et meno sarà giusta la
+guerra. Ma perché la causa efficiente adopra
+alcuni instromenti, diremo, che gli instromenti del Duce saranno le genti, gli ori, et l'armi,
+quelli del fisico saranno libri, unguenti, ferri,
+et simili cose: la causa formale del Duce, et del
+fisico saranno l' istesso fisico, et l' istesso Duce.
+Onde in queste cose, chi vuol veder la superiorità del Duce, imagini da una parte un Signore armato  con un poderoso essercito, fornito,
+et di cavalli, et di Cavallieri, et di fanti, et di forti, et d'armi. Ogni cosa sia fregiata, ogni cosa habbia vaghezza di colui, et sventolar si veggiano le penne, et le bandiere, et i lampi  del
+ferro, et i raggi dell'oro, et ogni cosa sia piena
+di magnificenza, di liberalità, di splendide pompe, et di grandezza. Da un'altra parte imagini
+un fisico togato, con una mula sotto, et un servitor dietro. Imagini il negotio del Duce di 
+governar tanti animi valorosi, et grandi, accordar tante liti, acquetar tante discordie, et
+tra le  discordie tener gli animi uniti, far forti,
+trincere, et usar tante arti di vincere un potente nemico, et imagini di vedere un fisico, o su
+una catedra insegnar, o in una camera studiare, o esser' intorno ad un infermo con gli arnesi da medicare, sentir' il polso, mirare orine, et
+far simili cose. Imagini del Duce i decori, gli
+honori, le dignità accettate, o distribuite, et
+gli atti eroici suoi, et imagini il fisico in qual
+maniera più li piace, che sempre al Duce in 
+queste parti sarà inferiore. Il saggio  Viandante fuggendo in questo paragone d'entrare in 
+più minuta diligenza, volea riposarsi, quand' io
+il suo riposo turbai con questo dire. Dunque
+in alcune parti saranno i Duci inferiori, et in
+alcune superiori a i fisici? Che stravaganza è
+questa? Et quali inconvenienti seguono dalle
+tue ragioni? Che ti credi, diss' egli che la precedenza si possa decidere così assolutamente
+tra queste cose miste di vitij, et di virtù, di bene,
+et di male, et sottoposte a tante varietà, et a
+tanti movimenti, come si farebbe tra cose semplici, et uniformi? Ma, dissi, se venessero in
+contrasto de i luoghi più honorevoli, come si
+potria determinar, che il primo luogo alcun
+di lor meritasse, se in alcune cose sono superiori, et in alcune  inferiori? Vuoi decidere questa precedenza, et maggiormente la confondi.
+Sei molto, mi disse il Viandante, libero, et ressoluto nel parlare, ma io non voglio altra vendetta farne, che farti arroscire, co' l mostrarti,
+che non son stato autor di confusione, ma di
+chiarezza. Se tra loro il fisico, et il Duce, o altro disputasse di precedenza, et l'un più nobil
+luogo, che l'altro desiderasse, si potria sopra la
+lor  precedenza sententiare assolutamente ponderando l'una causa, et l'altra: perché non sariano mai sì eguali nelle cause, che alcuno non
+fosse superiore. Ma, diss' io, se delle quattro cause uno n' havesse due eguali a quelle
+dell'altro, et l'altro l' altre due havesse, et così
+fossero eguali di ragioni, chi troverà sentenza
+da far, che l'uno all'altro preceda? Ei rise, et
+disse. Se l'uno non deve precedere all'altro,
+né l'altro all'uno, dunque saranno eguali, et
+fra gli eguali non occorre far nascer sentenza
+di precedenza. Qui finì il riso, et il dire, et poi
+più grave  parlò. Se ben havessero eguali favori da egual numero di cause, si potria ancora decidere. Come? Diss' io, dalla consuetudine,
+o dall'autorità? Non dalla consuetudine; ma si dall'autorità, perché trattar di precedenza, che da i 
+Prencipi è stata decisa? Egli saggio rispose. Dalle ragioni si potria far nascer sentenza, perché
+le cause non sono eguali, et gli stromenti, 
+et l' altre circostanze potriano dar' ragioni alla sentenza assoluta. Quali diss' io, saranno le
+cause superiori? Quelle, rispose, che cagioneranno maggiori effetti, ma questo altra volta
+si disputerà. Io replicai. Perché non s'ha risguardo solo alla causa finale, et sarebbe più
+facile la decisione, essendo, che quella cosa è
+più nobile, che a più nobile fine è drizzata? Et
+egli. Sicura strada sarebbe questa tra tutte le 
+cose create, et generate da Dio, et dalla natura, che così siano state create, et generate ad
+un fine, che ad altro non possino voltarsi, ma
+nel giudicar l' operationi humane è strada incerta, per l'assoluta libertà, che hanno gli huomini. Dimmi, se di duoi capitani l'uno drizzasse l' opere sue ad un fine, et l'altro a migliore,
+et il primo si disponesse al suo fine con prudenza, il secondo con imprudenza, non lauderesti
+più il primo? Certo sì. Dunque altra strada,
+se ne gli huomini, che hanno il libero Imperio di se stessi, non è sicura la causa finale, che
+nell' altre cose è sicura tanto, che sarà nel rispetto nell' altre cause? Non è buona assolutamente nessuna delle cause separate, ma tutte unite
+son bonissime da somministrar ragioni per così
+gran precedenza. Io consentij a tutto quel,
+che dicea,  et egli seguitò. Havendo noi veduto, come vada la cosa tra il Duce, et il fisico,
+veggiamo ancora, come passa tra il fisico, et gli
+altri soldati. I privati fanti, et cavallieri hanno per fine di prestare al Duce obedienza, la
+quale, perché dipende da altri, ove sia il Duce
+ingiusto, o imprudente, over' habbia altri vitij,
+può farli traviare dal vero, et honorevole sentiero, et andar contra il giusto, si conchiude, che
+questi soldati privati siano di fine inferiore a i
+fisici, et il simile nella materia, ch'è la guerra,
+materia inferiore alle cose naturali. L' efficiente del soldato sarà la fortezza, et gli instrumenti i cavalli, et l'armi, la quale efficiente, et i
+quali instromenti, se facciano forma più nobile del fisico, è vanità affermarlo; perché non
+vincono sì assolutamente il fisico, che egli nell' altre cose superiore non possa pretender il primo loco. Ma a me basta l' haverti scoperto questo nuovo sentiero, né voglio intorno queste
+minucie affaticarmi. Hora i fisici sono superiori a quelli, che comandano, et obediscono? Ma, se questi soldati sono di due nature, come potremo nel decider questa precedenza assicuraci? Le cose dette sopra ci apportino
+lume. Quando questi soldati obediscono, hanno l' istesso fine, che i privati fanti, et cavallieri, se ben le cose loro essequiscono con più decoro, onde, senza che io spenda molte parole,
+tu puoi conoscere, come vada questa precedenza. Ma che? Non sono però inferiori al
+fisico, perché questi soldati non obediscono
+mai al Duce generale, che non commandino,
+overo si dirà, che, quando obediscono, sono
+inferiori, ma con più dignità del  privato, et
+quando commandano, perché hanno l' istesse
+cause, che il Duce, se ben non con tanto decoro, né
+con tanta dipendenza da se stessi, che essi sieno al fisico  superiori; et nelle guerre ingiuste
+questi non tanto peccano, quanto il Duce, onde all' hora non sono tanto inferiori al fisico,
+quanto è il Duce. Passiamo al paragone tra
+l'armi, et le leggi, o tra i soldati, et i professori di leggi. Alcuni, et di gran nome, che hanno trattato questa materia, hanno detto, che le
+leggi sono fatture o di Dio, o di natura, che
+l'armi sono fatture de gli huomini, et, che perciò i soldati sono inferiori alli professori di leggi. Ma a questi chiedo io, s' alcuno fosse professor di teologia, ch' è maggior delle leggi, ma,
+fosse maligno, sarebbe egli superiore alle leggi? Se dicono, Sì, risponderò, che s'ingannano. Se rispondono, No, io dirò. Perché
+dunque voler dalla materia intorno che si versa, trare così gran sentenza? Alcuni hanno detto,
+che le leggi governando il cielo, et la terra, sono
+maggiori de i soldati, che dalle leggi sono governati. Che argomento è questo? Et qual
+soldato dice d' esser superiore alle leggi? Concorrono i soldati con i professori delle leggi,
+non con le leggi. Alcuni lasciando confusi i
+soldati, et i professori di leggi, hanno fatto volumi con iscrittione della precedenza dell' armi,
+et delle lettere, quasi, che non sieno altre lettere,
+che le leggi, quasi che, ove il gran Duce precede
+ogni privato fante, o arciero, o Capitano preceder debba; et quasi, che ove alcun professore
+di leggi preceda, che preceder debba ogni dottoruccio. Bisogna uscir di confusione. De i professori di leggi, altri sono legisti, altri legislatori. De i legisti, altri sono procuratori, altri
+avvocati, et altri giudici; et sotto i giudici pongo tutti quelli, che giudicano constituiti ad alcun governo. De i legislatori, altri scrivono
+leggi, o universali, o particolari: altri, quasi
+legge viva, et parlante, non le scrivono, et questi, o danno responsi, o sono arbitri o di Città, o 
+di provincie, o di precedenze, o d'altro sì fatto negotio. I procuratori, et gli avvocati hanno per 
+fine di vincere per utilità dei clienti. Il giudice
+ha per fine di essequire il giusto legale. I procuratori, gli avvocati, et i giudici hanno per materia loro le leggi, o canoniche, o civili, et tutti
+fanno la loro operatione con la peritia legale.
+Gli stromenti del procuratore sono citationi,
+libelli, et c. Quelli dell'avvocato sono allegationi, et consigli: quelli del giudice sono le sentenze. I procuratori, et gli avvocati nel fine
+sono inferiori al Duce, perché hanno per fine l' utile d'alcun principale, et il Duce ha per fine la
+pace de i populi, o l'utile più universale. 
+Il giudice, se ben' a gli altri legisti è superiore,
+non può agguagliarsi al Duce, perché non giudica, se non cose d'alcuna Cittade, che importano poco, et il Duce oltre il fin principale, sententia nel suo essercitio, et tra i populi vinti, et
+dominati di cose importanti, honori, ricchezze, stati, et dignitati. Et se si dice, che il giudice tal' hor giudica sovra le controversie de i
+regni, dico, che quelle controversie sono decise dal Papa, o dall'Imperatore, che si trappongono fra i grandi, per fine di pace universale:
+et questi sono legislatori, et non legisti. Ma
+senza che più oltre proceda, io veggio, che tu
+conosci nell' altre ragioni la precedenza del Duce, che nell'efficiente, ne gli instromenti, nella
+forma: et nel resto di  queste circostanze è tanto superiore, che è vanità il ricercar più oltre.
+Qui potrei far alcuna divisione de gli avvocati, et de i giudici, et porre i lettori in campo; ma
+lascio questa cura a chi sopra casi particolari
+di precedenza havesse da sentenziare. Et a
+questi lasciaremo ancora la cura di paragonare gli altri soldati ai legisti, havendoli noi scoperte le ragioni. Veggiamo, come passa la cosa tra i legislatori, et i Duci. Ma di longo periodo non ha bisogno, perché quanto al fine si dirà, che' l legislatore sia superiore, perché ha per fine pace più universale nel scrivere
+le sue leggi, et nell' altre sue operationi et nelle
+sue providenze in causa efficiente è superiore,
+et ne gli instromenti, che sono le ragioni, et nella materia, che sono le leggi, et nel resto. Et
+se questo non vorremo così assolutamente affirmare, diremo, che Mosé, Cecrope, Fororoneo, et Mercurio Trimegisto legislatori de gli
+Hebrei, de gli Egittij, et de' Greci fossero superiori all' hora a i Duci Hebrei, Egittij, et Greci.
+Pur ci sarà bisogno d'alcuna consideratione,
+perché Alessandro Farnese, se ben dipende da
+Filippo d'Austria, potentissimo tra i potenti,
+non cederà a quei legislatori, essendo egli nel
+suo essercitio, et ne i populi vinti legislatore.
+Ma né questi legislatori, né Saturno, né Apollo, né Cerere, né Deucalione, ch' a gli Arcadi,
+a gli Itali, et a Delfi costituiro le leggi, né con
+loro i Magi, né Zeleuco, né Zanolfi, né Caronda, che le constituiro a i Titij, a i Sciti, a i Locrensi, a i Druidi, et a i Galli; né Dracone, né
+Solone, né Licurgo, né Numa, né Falea, né
+Zoroastro, né Minosse, né Filolao, né Hipporamo, né Belo, né Eaco, né Platone, né i Ginnosofisti, né Romulo, né Fidone, né pur Giustiniano, né s' altro legislatore è stato maggiore
+tra gli antichi, potrà agguagliarsi, né ad Alessandro, né a Cesare che a Carlo Quinto, perché questi
+Duci furono liberi Principi, et Duci, et soldati,
+et legislatori universali; et tanto sopra tutti i
+legislatori, quanto son degni d'esser anteposti
+a tutti i Capitani: et Carlo Quinto non troverà,
+che lo appareggi, né tra i Romani, né tra i Greci, né tra i Barbari, et, per essere più giusto,
+et più universal legislatore, superarà non solo
+quei detti legislatori particolari, che a Roma
+non ancora cresciuta, ad Atene, a i Lacedemonij;
+che a i Cartaginesi, a i Persi, a i Battriani, a i Cretensi; che a i Tebani, a i Milesij, a i Caldei, a Magnesij, ad Egina; et che finalmente a i Corintij,
+et a gli Indi diedero le leggi; ma qual' altro legislatore; et, se troverà alcun legislatore, che lo
+superi, sarà il grande figliuolo Filippo. Ma ecco
+la strada, ch' a miei negotij mi chiama, ti lascio.
+Se t' intervien mai di dover giudicar sopra casi
+particolari, se non ti basterà quel, ch'io t'ho insegnato, accennando delle cose universali, non  mancherò d'aiutarti. Il finir di dire, il voltar il cavallo,
+e 'l  partirsi fu in un instante. Ma perendoli, ch' io potessi rimproverarlo di mala creanza, si voltò così
+andando, et disse. Non ho fatto offerte, perché l'
+huomo è nato a servir l' huomo; e chi non si sforza
+di farlo, non huomo, ma io direi, che fosse fiera.</p>
+</div1>
+
+<trailer>IL FINE.</trailer>
+
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,910 @@
+digilibLT. Biblioteca digitale di testi latini tardoantichi.
+
+Progetto diretto da Raffaella Tabacco (responsabile della
+ricerca) e Maurizio Lana
+
+______________________________________________________________________
+
+Itinerarium Gaditanum
+
+
+
+Correzione linguistica: Beatrice Strona
+
+Codifica XML: Nadia Rosso
+
+2016 digilibLT, Vercelli
+
+Fonte: Itinerarium Gaditanum. CIL (Corpus Inscriptionum
+Latinarum) XI 3281-3284 ed. Academia Litterarum Borussica,
+Leipzig/Berlin 1862-1943.
+
+Licenza Creative Commons Attribuzione - Non commerciale -
+Condividi allo stesso modo 3.0 Italia
+
+______________________________________________________________________
+
+Le formattazioni sono riprodotte dalla seguente codifica:
+
+Corsivo: {€testo€}
+
+Doppia spaziatura di caratteri: {%testo%}
+
+Grassetto: {$testo$}
+
+Testo in formato minore: {@testo@}
+
+Sottolineato: {#testo#}
+
+Figura: {Fig: didascalia}
+
+
+
+______________________________________________________________________
+
+ ITINERARIVM A GADES ROMAM  
+
+Col.1-r.1. Ad Portum XXIIII
+
+Col.1-r.2. Hastam XVI
+
+Col.1-r.3. Vgiam XXVII
+
+Col.1-r.4. Orippum XXIIII
+
+Col.1-r.5. Hispalim VIIII
+
+Col.1-r.6. Carmonem XXII
+
+Col.1-r.7. Obuclam XX
+
+Col.1-r.8. Astigim XV
+
+Col.1-r.9. Ad Aras XII
+
+Col.1-r.10. Cordubam XXIII
+
+Col.1-r.11. Ad X(10000) X
+
+Col.1-r.12. Eporam XVII
+
+Col.1-r.13. Vciesem XVIII
+
+Col.1-r.14. Ad Novlas XIII
+
+Col.1-r.15. Castulonem XIX
+
+Col.1-r.16. Ad Morum XXIIII
+
+Col.1-r.17. II(2000) Solaria XIX
+
+Col.1-r.18. Mariana XX
+
+Col.1-r.19. Mentesam XX
+
+Col.1-r.20. Libisosam XXIIII
+
+Col.1-r.21. Parietinis XXII
+
+Col.1-r.22. Saltigim XVI
+
+Col.1-r.23. Ad Palem XXXII
+
+Col.1-r.24. Ad Aras XXII
+
+Col.1-r.25. Saetabim XXVIII
+
+Col.1-r.26. Sucronem XVI
+
+Col.2-r.1. Valentiam XX
+
+Col.2-r.2. Sagyntum XVI
+
+Col.2-r.3. Ad Novlas XXIIII
+
+Col.2-r.4. Ildum XXII
+
+Col.2-r.5. Intibilim XXIIII
+
+Col.2-r.6. Dertosam XXVII
+
+Col.2-r.7. Subsaltum XXXVII
+
+Col.2-r.8. Tarraconem XXV
+
+Col.2-r.9. Palfurianam XVI
+
+Col.2-r.10. Antistianam XIII
+
+Col.2-r.11. Ad Fines XVII
+
+Col.2-r.12. Arragonem XX
+
+Col.2-r.13. Semproniana VIIII
+
+Col.2-r.14. Seterras XXIIII
+
+Col.2-r.15. Aquis Vocontis XV
+
+Col.2-r.16. Gerundam XII
+
+Col.2-r.17. Cilnianam XII
+
+Col.2-r.18. Iuncariam XV
+
+Col.2-r.19. In Pyraeneum XVI
+
+Col.2-r.20. Ruscinonem XXV
+
+Col.2-r.21. Combusta VI
+
+Col.2-r.22. Narbonem XXXII
+
+Col.2-r.23. Baeterras XVI
+
+Col.2-r.24. Cesseronem XIII
+
+Col.2-r.25. Forum Domiti XVIII
+
+Col.2-r.26. Sextantionem XV
+
+Col.3-r.1. Ambrussum XV
+
+Col.3-r.2. Nemausum XV
+
+Col.3-r.3. Vgernum XV
+
+Col.3-r.4. Arelata VIIII
+
+Col.3-r.5. Ernaginum VI
+
+Col.3-r.6. Clanum VIII
+
+Col.3-r.7. Cabellionem XII
+
+Col.3-r.8. Aptam Iuliam XII
+
+Col.3-r.9. Catuiaciam XII
+
+Col.3-r.10. Alaunium XVI
+
+Col.3-r.11. Segusteronem XXIIII
+
+Col.3-r.12. Alabontem XVI
+
+Col.3-r.13. Vappincum XVIII
+
+Col.3-r.14. Caturigomagum XII
+
+Col.3-r.15. Eburodunum XVIII
+
+Col.3-r.16. Ramam XVII
+
+Col.3-r.17. Brigantium XVIII
+
+Col.3-r.18. Druantium XI
+
+Col.3-r.19. Segusionem XXIIII
+
+Col.3-r.20. Ocelum XXVII
+
+Col.3-r.21. Taurinis XX
+
+Col.3-r.22. Quadrata XX
+
+Col.3-r.23. Rigomagum XVI
+
+Col.3-r.24. Cuttias XV
+
+Col.3-r.25. Laumellum XIII
+
+Col.3-r.26. Ticinum XXI
+
+Col.4-r.1. Pambrum XX
+
+Col.4-r.2. Placentiam XVI
+
+Col.4-r.3. Florentiam XV
+
+Col.4-r.4. Parmam XXV
+
+Col.4-r.5. Lepidum Regium XVIII
+
+Col.4-r.6. Mutinam XVII
+
+Col.4-r.7. Bononiam XXV
+
+Col.4-r.8. Claternum X
+
+Col.4-r.9. Forum Corneli XIII
+
+Col.4-r.10. Faventiam X
+
+Col.4-r.11. Forum Livi X
+
+Col.4-r.12. Cesenam XIII
+
+Col.4-r.13. Ariminum XX
+
+Col.4-r.14. Pisaurum XXIIII
+
+Col.4-r.15. Fanum Fortunae VIII
+
+Col.4-r.16. Forum Semproni XVI
+
+Col.4-r.17. Ad Calem XVIII
+
+Col.4-r.18. Hesim XIII
+
+Col.4-r.19. Helvillum X
+
+Col.4-r.20. Nuceriam XV
+
+Col.4-r.21. Mevaniam XIX
+
+Col.4-r.22. Ad Martis XVI
+
+Col.4-r.23. Narniam XVIII
+
+Col.4-r.24. Ocriclo XII
+
+Col.4-r.25. Ad XX XXIIII
+
+Col.4-r.26. Romam XX
+
+SVM MPX(1000000) ĐCCC XXXX ∞
+
+ AB GADES VSQVE ROMA ITINERARE  
+
+Col.1-r.1. Ad Portum XXIIII
+
+Col.1-r.2. Hasta XVI
+
+Col.1-r.3. Vgia XXVII
+
+Col.1-r.4. Orippo XXIIII
+
+Col.1-r.5. Hispalim IX
+
+Col.1-r.6. Carmone XXII
+
+Col.1-r.7. Obucla XX
+
+Col.1-r.8. Astigi XV
+
+Col.1-r.9. Ad Aras XII
+
+Col.1-r.10. Corduba XXIII
+
+Col.1-r.11. Ad Decumo X
+
+Col.1-r.12. Ad Lucos XVIII
+
+Col.1-r.13. Vciese XVIII
+
+Col.1-r.14. Ad Novlas XIII
+
+Col.1-r.15. Ad Aras XIX
+
+Col.1-r.16. Ad Morum XVIIII
+
+Col.1-r.17. Ad Solaria XVIIII
+
+Col.1-r.18. Mariana XX
+
+Col.1-r.19. Mentesa XX
+
+Col.1-r.20. Libisosa XXVIII
+
+Col.1-r.21. Parietinis XXII
+
+Col.1-r.22. Saltigi XVI
+
+Col.1-r.23. Ad Palen XXXII
+
+Col.1-r.24. Ad Aras XXII
+
+Col.1-r.25. Saetabi XXVIII
+
+Col.1-r.26. Sucrone XV
+
+Col.2-r.1. Vaeentia XX
+
+Col.2-r.2. Sagynto XVI
+
+Col.2-r.3. Ad Novlas XXIIII
+
+Col.2-r.4. Ildum XXII
+
+Col.2-r.5. Intibili XXIIII
+
+Col.2-r.6. Dertosa XXVII
+
+Col.2-r.7. Subsaltu XXXVII
+
+Col.2-r.8. Tarracone XXI
+
+Col.2-r.9. Palfuriana XVI
+
+Col.2-r.10. Antistiana XVI
+
+Col.2-r.11. Ad Fines XVII
+
+Col.2-r.12. Arragone XX
+
+Col.2-r.13. Praetorio XVII
+
+Col.2-r.14. Siteras XV
+
+Col.2-r.15. Aquis Voconi XV
+
+Col.2-r.16. Gerunda XII
+
+Col.2-r.17. Cilniana XI
+
+Col.2-r.18. Iuncaria XV
+
+Col.2-r.19. In Pyreneo XVI
+
+Col.2-r.20. Ruscinne XXV
+
+Col.2-r.21. Combusta VI
+
+Col.2-r.22. Narbone XXXII
+
+Col.2-r.23. Baeterras XVI
+
+Col.2-r.24. Cesserone XII
+
+Col.2-r.25. Foro Domiti XVIII
+
+Col.2-r.26. Sextantio XV
+
+Col.3-r.1. Ambrussum XV
+
+Col.3-r.2. Nemauso XV
+
+Col.3-r.3. Vgerno XVI
+
+Col.3-r.4. Ernagini VIII
+
+Col.3-r.5. Clanum VII
+
+Col.3-r.6. Cabellione XII
+
+Col.3-r.7. Ad Fines XII
+
+Col.3-r.8. Apta Iulia X
+
+Col.3-r.9. Catulacia XII
+
+Col.3-r.10. Alaunio XVI
+
+Col.3-r.11. Segusterone XXIIII
+
+Col.3-r.12. Alabonte XVI
+
+Col.3-r.13. Vappinquo XVIII
+
+Col.3-r.14. Caturigomagi XII
+
+Col.3-r.15. Eburoduno XVII
+
+Col.3-r.16. Rama XVII
+
+Col.3-r.17. Brigantio XVIII
+
+Col.3-r.18. Gruentia VI
+
+Col.3-r.19. Goesao V
+
+Col.3-r.20. Segusio XXIII
+
+Col.3-r.21. Ocelo XX
+
+Col.3-r.22. Taurinis XX
+
+Col.3-r.23. Quadratis XXIIII
+
+Col.3-r.24. Rigomagi XIII
+
+Col.3-r.25. Cuttias XXIIII
+
+Col.3-r.26. Laumellum XII
+
+Col.3-r.27. Ticinum XX
+
+Col.4-r.1. Lambrum XX
+
+Col.4-r.2. Placentia XVI
+
+Col.4-r.3. Florentia XVI
+
+Col.4-r.4. Parma XXV
+
+Col.4-r.5. Regio Lepidi XVIII
+
+Col.4-r.6. Mutina XVII
+
+Col.4-r.7. Bononia XXV
+
+Col.4-r.8. Claterno X
+
+Col.4-r.9. Foro Corneli XIII
+
+Col.4-r.10. Faventia X
+
+Col.4-r.11. Foro Livi XIII
+
+Col.4-r.12. Caesana XV
+
+Col.4-r.13. Arimino XXIIII
+
+Col.4-r.14. Pisauro XVI
+
+Col.4-r.15. Fano Fortunae IIX
+
+Col.4-r.16. Foro Semproni XVIII
+
+Col.4-r.17. Cale XIII
+
+Col.4-r.18. Haesim XIII
+
+Col.4-r.19. Helvilium XV
+
+Col.4-r.20. Nuceria XVIII
+
+Col.4-r.21. Mevania XV
+
+Col.4-r.22. Ad Martis XVII
+
+Col.4-r.23. Narnia XII
+
+Col.4-r.24. Ocriculo XII
+
+Col.4-r.25. Ad Vicesumo XXIIII
+
+Col.4-r.26. Roma XX
+
+SVMMA MILLIA PASSVS XĐCCCXXXXII
+
+ ITINERARE A GADES VSQ ROMA  
+
+Col.1-r.1. Ad Portum XXIIII
+
+Col.1-r.2. Hasta XVI
+
+Col.1-r.3. Vgia XXVII
+
+Col.1-r.4. Orippo XXIIII
+
+Col.1-r.5. Hispalim VIIII
+
+Col.1-r.6. Carmone XXII
+
+Col.1-r.7. Obucla XX
+
+Col.1-r.8. Astigi XV
+
+Col.1-r.9. Ad Aras XII
+
+Col.1-r.10. Corduba XXIII
+
+Col.1-r.11. Ad X(10000) X
+
+Col.1-r.12. Ad Lucos XVIII
+
+Col.1-r.13. Vciese XVIII
+
+Col.1-r.14. Ad Novlas XIII
+
+Col.1-r.15. Castulone XIX
+
+Col.1-r.16. Ad Morum XXIIII
+
+Col.1-r.17. II(2000) Solaria XIX
+
+Col.1-r.18. Mariana XX
+
+Col.1-r.19. Mantesa XX
+
+Col.1-r.20. Libiosa XXIIII
+
+Col.1-r.21. Parietinis XXII
+
+Col.1-r.22. Saltigi XVI
+
+Col.1-r.23. Ad Pale XXXII
+
+Col.1-r.24. At Turres XXV
+
+Col.1-r.25. Saetabi XXV
+
+Col.1-r.26. Sucrone XVI
+
+Col.1-r.27. Valentia XX
+
+Col.2-r.1. Sagunto XVI
+
+Col.2-r.2. Sebelaci XXII
+
+Col.2-r.3. Ildum XXIIII
+
+Col.2-r.4. Intilibi XXIIII
+
+Col.2-r.5. Dertosa XXVII
+
+Col.2-r.6. Tria Capita XVII
+
+Col.2-r.7. Subsaltu XX
+
+Col.2-r.8. Tarracone XXV
+
+Col.2-r.9. Palfuriana XVI
+
+Col.2-r.10. Antistiana XIII
+
+Col.2-r.11. Ad Fines XVII
+
+Col.2-r.12. Arragone XX
+
+Col.2-r.13. Praetorio XVII
+
+Col.2-r.14. Saeterras XV
+
+Col.2-r.15. Aquis Voconis XV
+
+Col.2-r.16. Gerunda XII
+
+Col.2-r.17. Cinniana XII
+
+Col.2-r.18. Iuncaria XV
+
+Col.2-r.19. In Pyrenaeo XVI
+
+Col.2-r.20. Ruscinone XXV
+
+Col.2-r.21. Combusta VI
+
+Col.2-r.22. Narbone XXXIIII
+
+Col.2-r.23. Baeterra XVI
+
+Col.2-r.24. Cesserone XIII
+
+Col.2-r.25. Foro Domiti XVIII
+
+Col.2-r.26. Sextantione XV
+
+Col.2-r.27. Ambrussum XV
+
+Col.3-r.1. Nemauso XV
+
+Col.3-r.2. Vgerno XV
+
+Col.3-r.3. Arelata VIIII
+
+Col.3-r.4. Ernagino VII
+
+Col.3-r.5. Clanum VIII
+
+Col.3-r.6. Cabellione XII
+
+Col.3-r.7. Ad Fines XII
+
+Col.3-r.8. Apta Iulia X
+
+Col.3-r.9. Catuiacia XII
+
+Col.3-r.10. Alaunio XVI
+
+Col.3-r.11. Segusterone XXIIII
+
+Col.3-r.12. Alabonte XVI
+
+Col.3-r.13. Vappinco XVIII
+
+Col.3-r.14. Caturigomago XII
+
+Col.3-r.15. Eburoduno XVII
+
+Col.3-r.16. Rama XVII
+
+Col.3-r.17. Brigantio XVIII
+
+Col.3-r.18. Summas Alpes VI
+
+Col.3-r.19. Gaesaone V
+
+Col.3-r.20. Segusione XXIIII
+
+Col.3-r.21. Ocelo XX
+
+Col.3-r.22. Taurinis XX
+
+Col.3-r.23. Quadrata XXIII
+
+Col.3-r.24. Rigomago XVI
+
+Col.3-r.25. Cuttiae XXIIII
+
+Col.3-r.26. Laumello XIII
+
+Col.3-r.27. Ticino XXI
+
+Col.4-r.1. Lambrum XX
+
+Col.4-r.2. Placentia XVI
+
+Col.4-r.3. Florentia XV
+
+Col.4-r.4. Parma XXV
+
+Col.4-r.5. Lepido Regio XVIII
+
+Col.4-r.6. Mutina XVII
+
+Col.4-r.7. Bononia XXV
+
+Col.4-r.8. Claterno X
+
+Col.4-r.9. Foro Corneli XIII
+
+Col.4-r.10. Faventia X
+
+Col.4-r.11. Foro Livi X
+
+Col.4-r.12. Caesena XIII
+
+Col.4-r.13. Arimino XX
+
+Col.4-r.14. Pisauro XXIIII
+
+Col.4-r.15. Fano Fortunae VIII
+
+Col.4-r.16. Foro Semproni XVI
+
+Col.4-r.17. Ad Cale XVIII
+
+Col.4-r.18. Hesim XIIII
+
+Col.4-r.19. Helvillu X
+
+Col.4-r.20. Nuceria XV
+
+Col.4-r.21. Maevania XIX
+
+Col.4-r.22. Ad Martis XVI
+
+Col.4-r.23. Narnia XVIII
+
+Col.4-r.24. Ocriclo XII
+
+Col.4-r.25. Ad XX(20000) XXIIII
+
+Col.4-r.26. Roma XX
+
+SVM M P X ĐCCC XXXX ∞
+
+Col.1-r.1. A GADIBVS ROMA
+
+Col.1-r.2. Ad Portu XXIIII
+
+Col.1-r.3. Hasta XVI
+
+Col.1-r.4. Vgiae XXVII
+
+Col.1-r.5. Orippo XXIIII
+
+Col.1-r.6. Hispali VIIII
+
+Col.1-r.7. AB HISPALI CORDYBAE
+
+Col.1-r.8. Carmone XXII
+
+Col.1-r.9. Obuclae XX
+
+Col.1-r.10. Astigi XV
+
+Col.1-r.11. Cordubae XXXV
+
+Col.1-r.12. AB CORDVBA TARRACONE
+
+Col.1-r.13. Ad Decumum X
+
+Col.1-r.14. Epora XVIII
+
+Col.1-r.15. Vciense XVIII
+
+Col.1-r.16. Ad Novolas XIII
+
+Col.1-r.17. Ad Aras XXIIII
+
+Col.1-r.18. Ad Morum XVIIII
+
+Col.1-r.19. Ad Duo Solaria XVIIII
+
+Col.1-r.20. Mariana XX
+
+Col.1-r.21. Mentesa XX
+
+Col.1-r.22. Libiosa XXIIII
+
+Col.1-r.23. Parietinis XXII
+
+Col.1-r.24. Saltigi XVI
+
+Col.1-r.25. Ad Palae XXXII
+
+Col.1-r.26. Turres Saetab XXV
+
+Col.1-r.27. Saetabi XXV
+
+Col.1-r.28. Sucrone XVI
+
+Col.2-r.1. Valentia XX
+
+Col.2-r.2. Sagunto XVI
+
+Col.2-r.3. Ad Nova XXIIII
+
+Col.2-r.4. Ildu XXII
+
+Col.2-r.5. Intibili XXIIII
+
+Col.2-r.6. Dertosa XXVII
+
+Col.2-r.7. Subsaltu XXXVII
+
+Col.2-r.8. Tarracone XXV
+
+Col.2-r.9. A TARRACONE NARBONE
+
+Col.2-r.10. Palfuriana XVI
+
+Col.2-r.11. Antestiana XIII
+
+Col.2-r.12. Ad Fines XVII
+
+Col.2-r.13. Abragone XX
+
+Col.2-r.14. Ad Praetorium XVII
+
+Col.2-r.15. Baeterras XVI
+
+Col.2-r.16. Aquas Voconias XV
+
+Col.2-r.17. Gerunda XII
+
+Col.2-r.18. Cinniana X
+
+Col.2-r.19. Iuncaria XII
+
+Col.2-r.20. Summo Pyrenae XVI
+
+Col.2-r.21. Ruscinone XXV
+
+Col.2-r.22. Ad Commusta VI
+
+Col.2-r.23. Narbone XXXIIII
+
+Col.2-r.24. A NARBONE TAVRINOS
+
+Col.2-r.25. Baeterras XVI
+
+Col.2-r.26. Cessirone XII
+
+Col.2-r.27. Frontiana X
+
+Col.2-r.28. Foro Domiti VIII
+
+Col.3-r.1. Sextantione XV
+
+Col.3-r.2. Ambrusio XV
+
+Col.3-r.3. Nemauso XV
+
+Col.3-r.4. Vgerno XVI
+
+Col.3-r.5. Traiectum Rhodani ∞
+
+Col.3-r.6. Clano XI
+
+Col.3-r.7. Cabellione XII
+
+Col.3-r.8. Apta Iulia XXII
+
+Col.3-r.9. Catuiacia XII
+
+Col.3-r.10. Alaunium XVI
+
+Col.3-r.11. Segusterone XXIIII
+
+Col.3-r.12. Alabonte XVI
+
+Col.3-r.13. Vappinquo XVIII
+
+Col.3-r.14. Caturigomago XII
+
+Col.3-r.15. Eboroduno XVII
+
+Col.3-r.16. Rama XVII
+
+Col.3-r.17. Brigantione XVIII
+
+Col.3-r.18. Druantio VI
+
+Col.3-r.19. Tyrio V
+
+Col.3-r.20. In Alpe Cottia XXIIII
+
+Col.3-r.21. Ad Martis XXIII
+
+Col.3-r.22. Ad Fines XXXX(40000) XVII
+
+Col.3-r.23. Augusta Taurin XXIII
+
+Col.3-r.24. Quadrata XXIII
+
+Col.3-r.25. Rigomago XIII
+
+Col.3-r.26. Cuttias XXIIII
+
+Col.4-r.1. Laumellum XII
+
+Col.4-r.2. Ticinum XXI
+
+Col.4-r.3. Lambro Flumen XX
+
+Col.4-r.4. Placentia XVII
+
+Col.4-r.5. Florentia XV
+
+Col.4-r.6. Parma XV
+
+Col.4-r.7. Regio XVIII
+
+Col.4-r.8. Mutina XVII
+
+Col.4-r.9. Bononia XXV
+
+Col.4-r.10. Claternas XI
+
+Col.4-r.11. Foro Corneli XIII
+
+Col.4-r.12. Faventia X
+
+Col.4-r.13. Foro Iuli X
+
+Col.4-r.14. Curva Caesana XIII
+
+Col.4-r.15. Arimini XX
+
+Col.4-r.16. Pisauro XXIIII
+
+Col.4-r.17. Fano Fortunae VIII
+
+Col.4-r.18. Foro Semproni XVI
+
+Col.4-r.19. At Cale XVIII
+
+Col.4-r.20. Haesim XIIII
+
+Col.4-r.21. Helvillo X
+
+Col.4-r.22. Nuceria XV
+
+Col.4-r.23. Maevania XVIIII
+
+Col.4-r.24. Martis XVI
+
+Col.4-r.25. Narnia XVIIII
+
+Col.4-r.26. Ocriclo XII
+
+Col.4-r.27. Ad XX(20000) XXIIII
+
+Col.4-r.28. Romae XX
+
+SVMMA X(1000000) ĐCCCXXXV
+

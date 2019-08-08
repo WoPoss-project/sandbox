@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Epistola latina</title>
+      <author>Giambattista Giraldi Cinzio</author>
+    </titleStmt>
+    <extent>25 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001160</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Canace e scritti in sua difesa / Sperone Speroni . Scritti contro la Canace : Giudizio ed Epistola latina / Giambattista Giraldi Cinzio</title>
+        <editor id="ed">Roaf, Christina</editor>
+        <publisher>Commissione per i testi di lingua</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date>1982</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language><language id="codice">Italiano</language><language id="grc">Greco</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>852.4 - LETTERATURA DRAMMATICA ITALIANA. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Lettere ed epistolari</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Mantovani, Matteo Maria</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Mantovani, Matteo Maria</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-07T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Gritti</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Codifica XML - Sono state controllate le codifiche, correggendone gli errori.</item>
+    </change>
+    <change>
+      <date>2003-06-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text lang="lat">
+<body><head>EPISTOLA LATINA di Giambattista Giraldi Cinzio 
+</head>
+<div1 type="dedica">
+<p>Illustrissimo Principi <lb/>
+Ut Academiae principi, ea, quae <name>Speronio</name> per consuetos tabel- <lb/>
+larios misimus, tibi quoque mittimus. Quare benigne primum <lb/>
+lege, deinde ad senatum totum refer, postremo jube ut respon- <lb/>
+deat, et rem omnibus patefacias et copia legendi detur, et prae- <lb/>
+sertim Excellentissimo <name>Januae</name>. Quod ni feceris et fecerit, <lb/>
+nosmetipsi (et non erit satis tuae authoritati congruum, ne postea <lb/>
+sociorum aures quaerimoniis impleas) inter paucos dies cunctis <lb/>
+vulgabimus et forsan imprimenda curabimus. Vale, et nos <lb/>
+ama. <lb/></p>
+<closer><dateline>Datum <name>Ferrariae</name> <date value="27-12-1558">27 Decembris 1558</date>.</dateline> <lb/>
+<signed><name>Joannes Baptista Gyraldus.</name></signed></closer>
+</div1>
+<div1 type="parte"><p>Excellentissimo <name>Speronio</name> suo S(ervo) <lb/>
+Quaesivisti a me maxima instantia, ne dicam precibus, ut de <lb/>
+tuae tragediae defensione, quam nuper luculenta quidem oratione <lb/>
+in Academia vestra explicasti, quid sentirem libere proferrem, <lb/>
+vel ut iudicio meo plus aequo tribuas, vel quasi velis, ut idem <lb/>
+accusae auctor (ita enim arbitraris) et defensionis judex appro- <lb/>
+bans existam. His ego mehercle non moveor, sed amore verita- <lb/>
+tis et antiquii hospitii iure et amicitiae ductus, quicquid de hac <lb/>
+re sentiam, libere, ingenueque, ut soleo, ante pedes ferre non <lb/>
+recusabo: sed cave postea ne maledicum appelles. Omitto igi- <lb/>
+tur ea quae, ut impii ac scelerati misericordiae et terroris affectus <lb/>
+excitare possint, quaeque de infantis umbra, et quae denique de <lb/>
+ineptissimo omnium et levissimo carminum genere, a te narrata <lb/>
+sunt: nam ut nullius penitus momenti silentio praeterire decre- <lb/>
+vi, <pb n="229"/><lb/>
+vet ad ea venio in quibus tota vis (ut tu te fateris) con- <lb/>
+sistit et fundamentum tuae defensionis. <lb/>
+Defensio et novum fabulae argumentum in communi. <lb/>
+Quidam pater habet duos filios gemellos, marem et foeminam, <lb/>
+quorum cum natalis adesset incredibili perfusus gaudio et laeti- <lb/>
+tia, maxima pompa, regioque apparatu ipsum celebrat. In medio <lb/>
+istius celebrationis sensit ex puero nuper nato fratrem cum so- <lb/>
+rore iam rem habuisse. Qua re improviso vehementer perculsus, <lb/>
+perturbatus et immanitate sceleris commotus, dat nepotem feris <lb/>
+alitibusque devorandum ac dilacerandum; filiae venenum ac pu- <lb/>
+gionem mittit, dans optionem ut eligat utram velit mortem; ipsa <lb/>
+se pugione interficit. At frater audita sororis nece sibi ipsi quoque <lb/>
+mortem consciscit. Ille vero his omnibus superstes lamentatur, <lb/>
+poenitet que nepotem insontem avibus dilaniandum dedisse, ac <lb/>
+caetera gravia perpetrasse facinora. <lb/>
+Per te igitur tota actio est natalis celebratio, ad quam omnia <lb/>
+referuntur: agnitio est cum commissum scelus infantis vagientis <lb/>
+causa detegitur: pietas et terror patris sive doli causa excitatur: <lb/>
+peripetia ex perpetrati sceleris, nefariique concubitus cognitione <lb/>
+exoritur. Et his ostendis denique et concludis mira arte ac <name>Sopho- <lb/>
+cleis</name> et <name>Peripaticis</name> legibus tragediam confectam extitisse. Uti- <lb/>
+nam res ita se haberet, ablatus enim esset nunc iste labor. Sed <lb/>
+pace tua dixerim, haec res non potest (ni fallor) negotio tragico <lb/>
+accommodari et multipliciter peccat, sed in tribus praecipue. Actio <lb/>
+enim haec ad quam omnia referuntur, non est neque tragica nec <lb/>
+una. Deinde <name>Eolus</name>iste tuus non potest nec misericordiam exci- <lb/>
+tare, nec terrorem incutere. Postremo agnitio nec pulchre, nec <lb/>
+recte explicatur. <pb n="230r"/><lb/>
+Quae omnia si probabo, ut spero, a su- <lb/>
+scepto negotio nihil desiderabitur. <lb/>
+Quod autem actio et fabulae constitutio non sit tragica, ex hoc <lb/>
+perspicue cerrere licuerit, si primo accipiemus et praeponemus <lb/>
+tragediae definitionem quam ponit <name>Aristoteles</name>ipse in libro de arte <lb/>
+poetica. Sit igitur tragedia imitatio actionis seriae et gravis abso- <lb/>
+lutae, et quae sequuntur. Quod graece <name>Aristoteles</name> spoudaías <lb/>
+nos seriam et gravem, non illustrem, ut quidam verterunt, intelli- <lb/>
+gimus. Quam vocem <name>Aristoteles</name>, ut rei maxime accommodatam, <lb/>
+accipit a praeceptore suo. Nam divinus <name>Plato</name> septimo de Legibus, <lb/>
+cum res cum tragicis poetis haberetur, inquit, <foreign lang="grc">Tôn dè spoudaíon, <lb/>
+hós fasi, tôn perì tragodían emîn poietôn</foreign> et quae sequuntur. <lb/>
+Ex hoc et ex sequentibus facile coniicere possumus hanc rem et <lb/>
+seriam gravemque et virtute gestam indicare, quemadmodum est <lb/>
+et apud <name>Xenophontem</name> in <name>Symposio</name>. His ita praepositis dica- <lb/>
+mus sic. Haec actio non est seria nec gravis, imo levi et iocosae <lb/>
+simillima: igitur non tragica. Nam sapientissimum, praepoten- <lb/>
+tem ac felicissimum regem filiorum natalem celebrare non modo <lb/>
+gravi ac seriae actioni persimile est, sed ne mediocri: imo levi- <lb/>
+tatis potius otiique ac requietis speciem prae se fert, et praeser- <lb/>
+tim in viro (ne dicam Deo) tantae expectationis, quasi genio ac <lb/>
+voluptatibus indulgente, cui gravia ac seria facinora aut perpe- <lb/>
+trare aut perpeti iure et recte conveniebat. Quis tam excors <lb/>
+unquam actionem tragicam gravemque natalis celebratione existi- <lb/>
+mabit? Oh haec non sunt audienda. At si authoritatem <name>Aristotelis</name> <lb/>
+negares, quod interdum (modo ut propositum adstruas) facere <lb/>
+non dubitasti, ut quidam <pb n="230v"/><lb/>
+detulerunt. Afferamus exempla et <lb/>
+tragicorum et celebratissimarum omnium tragediarum <name>Oedipodis <lb/>
+</name>qui tyrannus inscribitur, <name>Oedipodis</name> in 'epi' <name>Colono</name>, <name>Thyestis</name>, <name>Hyppo- <lb/>
+liti</name>, <name>Antigones </name>et huiusmodi. Hi omnes, ut tu optime scis, quia <lb/>
+gravia atque seria facinora aut patravere, aut perpessi sunt, <lb/>
+actiones merito et vere tragedia dignae existimantur. Si rursus <lb/>
+instares nixus authoritate <name>Platonis</name> optimi et gravissimi viri, - Ego <lb/>
+non primus inventor et opifex huius tragediae extiti, sed et <lb/>
+vetustissimus tragicus iam eam confecit, ut testatus est ipse 7 de <lb/>
+legibus -, huic ego duabus viis facile occurrere possem. Primo, <lb/>
+non omnis tragicus, nec omnes tragediae sunt laude et imitatione <lb/>
+dignae, ut saepe testatur <name>Aristoteles,</name> et si qua est (ni fallor) haec <lb/>
+certe non est. Deinde habes ex <name>Platone</name> hanc iam confictam fuisse, <lb/>
+concedo, fateor: sed quis author et quanam ratione conficiat, <lb/>
+constituat, ac dissolvat, minime: et non te latet (ut arbitror) <lb/>
+eandem tragediam et actionem posse vario incudi et dissolvi modo, <lb/>
+ut refert <name>Aristoteles </name>de <name>Medea</name>, nam alio modo Carcinus, alio <name>Euri- <lb/>
+pides </name>eam construxit. <name>Macareus</name> forsan inductus est errore <lb/>
+quodam et ignoratione, ut <name>Oedipus</name>, facinus perpetrare ac cum <lb/>
+sorore concumbere: qua re cognita postea, sceleris immanitate <lb/>
+commotus, se ipsum necavit. Quod mihi suadet, hoc est, quod <lb/>
+<name>Plato </name>eum simul cum <name>Oedipode</name> enumerat atque coniungit. Hac <lb/>
+ratione esset mehercle tragica actio. <lb/>
+Quod autem non sit perfecta nec una non est difficile probare. <lb/>
+Pro quo primum adnotatu dignum est, quod ea actio in tragediis <lb/>
+una dici consuevit, quae est causa efficiens misericordiae atque <lb/>
+terroris: hoc est illius causa tragedia dicitur una <pb n="231r"/><lb/>
+et fabula. <lb/>
+Nunc doctissime vir, per te actio est natalis celebratio, quia ab ea <lb/>
+incipit ac in eam desinit. Causa terroris et misericordiae est infan- <lb/>
+tis, seu nepotis interfectio. Sed haec inter se ordine, ut philosophi <lb/>
+vulgo loquuntur, non essentiali, sed accidentali connectuntur. At <lb/>
+uni plura imo fere infinita contingere possunt. <lb/>
+Non est absoluta, quia interventu infantis vagientis et morte <lb/>
+filiorum, tota natalis celebratio perturbatur atque interrumpitur. <lb/>
+Coeterum cum imitatio et poesis sit res quaedam naturalis, et <lb/>
+natura tantum in suis actionibus proponat sibi unum finem, neces- <lb/>
+sarium est ut actio, quam imitatur tragedia, sit una, quia est <lb/>
+optimum omnium et nobilissimum poeseos genus. Ex his igitur, <lb/>
+facile concludere licet, quod haec actio nec sit una, nec absoluta, <lb/>
+nec denique tragica. <lb/>
+Secundo loco ostendere proposuimus quod <name>Deus</name> iste <name>Eolus</name>, <lb/>
+sive rex bonus, non possit vera existere causa nec tragica, ut in <lb/>
+aliis misericordia atque terror excitetur. Pro quo primum acci- <lb/>
+pienda est altera pars definitionis tragediae, quam consulto supra <lb/>
+tacuimus: scilicet, per misericordiam atque terrorem perturba- <lb/>
+tiones huius modi purgans. At utrum animum a misericordia <lb/>
+et terrore liberet, vel horum auxilio ab his perturbationibus quas <lb/>
+perpessi sunt ii, qui in tragedia introducuntur, expurgentur, non <lb/>
+est nunc disputandi locus. Nam quaerimus tantum quisnam possit <lb/>
+istud, sive hoc, sive illo modo accidat, efficere. Praeterea, ut res <lb/>
+perspicue intelligatur, sunt hic proponenda duo, quae accipio ab <lb/>
+<name>Aristotele</name> loco superius allato: <pb n="231v"/><lb/>
+alterum quodnam mortalium <lb/>
+genus, et curnam, misericordiam gignere et terrorem incutere <lb/>
+possit: alterum quot genera constitutionum sint fabularum ra- <lb/>
+tione exequtionis actionum. <lb/>
+Docet <name>Aristoteles</name> mortalium genus esse huic negotio maxime ac- <lb/>
+commodatum quod nec probitate, nec malitia excellat, sed me- <lb/>
+diocre quodam hominum genus, quod magis ad virtutem et pro- <lb/>
+pius quam ad vitium accedat et ob errorem humanum ac ignora- <lb/>
+tionem quamdam scelus ipsum committat. Nam probos viros <lb/>
+huiusmodi efficere indignum videtur, et quasi naturam miseri- <lb/>
+cordiae et terroris superat: et contra Deorum immortalium pro- <lb/>
+videntiam et pietatem scelerati non commovent, nec misericordiae <lb/>
+affectus excitant, quia omnes uno ore fatentur, clamant, quod <lb/>
+factis dignas luere poenas. At illi huiusmodi munere apte fungi <lb/>
+possunt, quibus sunt plurimi mortalium persimiles, quique errore <lb/>
+quodam obtenebrati scelus commiserunt. Nam, vulgus et populus <lb/>
+est tragediarum spectator, cuius maxima pars se esse talem co- <lb/>
+gnoscit et erroris causa et ignorationis huiusmodi perpetrare pos- <lb/>
+se. Quattuor sunt, ut idem docet <name>Aristoteles</name>, ratione actionum <lb/>
+constitutionum fabularum genera: aut scelus sciens et volens, <lb/>
+aut ignorans et nolens perpetrat aut patrare conatur: et rursus <lb/>
+sciens et volens dupliciter, aut enim facinus non perpetrat, aut <lb/>
+propositum assequitur. Consimili ratione ignorans aut scelus com- <lb/>
+mittit, aut non patrat, ut inferius diffusius explicabimus. His <lb/>
+ita propositis videamus in quonam mortalium genere <name>Eolus</name> iste <lb/>
+tuus sit collocandus. Sed quid demens dico mortalium, cum sit <lb/>
+Deus <pb n="232r"/><lb/>
+immortalis? Sed faciamus et permittamus nunc esse ho- <lb/>
+minem, ex quo perspicuum erit an sit subiectum tragediis accom- <lb/>
+modatum. Per se probus ac sapientissimus vir ac Rex bonus a <lb/>
+te fingitur. Et quid mirifici et gravis agit? Nempe celebrat filio- <lb/>
+rum natalem! O scelus indignum! O res horribilis innumeros <lb/>
+edens partus misericordiae atque terroris! O quam multas tra- <lb/>
+gedias excitat homo mehercle in mediocri statu probitatis et <lb/>
+virtutis constitutus! At video te statim erubescentem et ardentem <lb/>
+contra me insurgere: clamas, - Ecquid ais, insulsissime omnium? <lb/>
+Ego dico ob nepotis caedem misericordiam atque terrorem exci- <lb/>
+tari et venenum filiae missum. - Quicquid enim attigeris ulcus <lb/>
+erit. Namque <name>Eolus</name> hic tanquam vir bonus hoc facit sceleste <lb/>
+facinus puniens, atque in impios et nefarios filios animadvertens, <lb/>
+tanquam pater et iudex aequus et iustus. Hac ratione et iudices <lb/>
+qui iustis sententiis nefarios ac sceleratos viros damnant suppliciis <lb/>
+et horribili genere mortis caedere iubent, misericordiam et terro- <lb/>
+rem gignerent. Quod valde deridiculum est. Tu quoque cum in <lb/>
+persona <name>Eoli</name> recte loqueris, his tuis versiculis rem, mirifice <lb/>
+ostendis,</p>
+<l><foreign lang="codice">Sieda in un cor reale et ivi usurpi della giustizia il loco.</foreign></l>
+<p><name>Paulo</name> post,</p>
+<l><foreign lang="codice">Da cotai armi usato a ferir la giustizia.</foreign></l>
+<p>Et <name>paulo</name> post,</p>
+<l><foreign lang="codice">Adopro e fo sentir a ciascun scelerato l'armi della giustizia.</foreign></l>
+<p>Ecce quam sapientissime et quam serie loquitur, et id exequitur <lb/>
+quod videtur dignum facinore et scelere tanto, et omnes recte <lb/>
+factum fatentur et poenas promeritas expendisse ferunt, ne dum <lb/>
+misericordia vel <pb n="232v"/><lb/>
+horrore percutiantur. Nam, ut inquit divinus <lb/>
+<name>Plato</name>, loco superius allato, huiuscemodi sceleratos homines Deos- <lb/>
+que odio persequi et turpium omnium esse rem turpissimam et <lb/>
+debitam poenam perpendisse narrant. Quod etiam confirmat <lb/>
+discipulus eius <name>Aristoteles</name> 2º <name>de Republica</name> cum <name>Socratis</name> senten- <lb/>
+tiam, quod filii et uxores sint communes refutat. Sed rursus <lb/>
+acrius instas hoc evenire asserens ob nepotis insontis caedem. <lb/>
+Hic est error; haec est terroris causa atque misericordiae. Pro- <lb/>
+fundius atque insanabilius vulnus detegis. Nam licet interdum in <lb/>
+tanta scelerum immanitate ut aliquis culpa carens poenam luat. <lb/>
+Quare etsi pravum videatur, tamen recte factum existimandum <lb/>
+est maioris evitandi mali causa, et quia omnia humana divinaque <lb/>
+iura id permittunt. Nutrietur igitur et vivet in mortalium con- <lb/>
+spectu sororis et fratris filius, ut tale monstrum infandum, hor- <lb/>
+rendum, nepharium aspiciant omnes, exemplum pessimum et <lb/>
+periculo plenum, denique humani generis infamia et vituperium? <lb/>
+Omnes uno ore clamarent non semel, sed bis, ter, quaterque, si <lb/>
+fieri posset, moriatur. Haec est iustitia, non scelus, non indignum <lb/>
+facinus, quod tu ipse pulchre et ingenue his tuis versiculis <lb/>
+declarasti:<quote rend="block"><lb/>
+<lg><l><foreign lang="codice">Vivendo vive un figlio</foreign></l>
+ <l><foreign lang="codice">di duoi fratelli, un mostro, un disonore</foreign></l>
+<l><foreign lang="codice">del secol nostro, un testimonio eterno</foreign></l>
+<l><foreign lang="codice">di scelerato amore.</foreign></l></lg> </quote></p>
+<p>Sed ponamus quod iste tuus <name>Eolus</name> hac sua, vel his actionibus <lb/>
+tragice misericordiam excitare et terrorem incutere possit, et videa- <lb/>
+mus nunc quaenam fabulae constitutio, <pb n="233r"/><lb/>
+et utrum hoc sit <lb/>
+probatum et laudatum constitutionis genus ratione actionis. Iam <lb/>
+quatuor hac de causa exposuimus esse actionum genera. Aut <lb/>
+enim sciens et volens quis scelus patrat vel patrare conatur, quod <lb/>
+duplici ratione contingit; aut id efficit, aut propositum aliqua de <lb/>
+causa non assequitur: aut ignorans committit; aut cum commissu- <lb/>
+rus est, rem agnoscit et abstinet. Ea ideo constitutio in qua scelus <lb/>
+quis sciens et volens perpetraturus est et aliqua de causa non per- <lb/>
+petrat, ut<name> Haemon </name>in <name>Antigone</name>, minime negotio tragico con- <lb/>
+sona est, cum munere suo non fungatur, nec propositum asse- <lb/>
+quatur. Affectu enim caret, nec misericordia nec terrore animos <lb/>
+spectatorum concutit. Praeter id etiam quod sceleris faciem prae <lb/>
+se fert a quo maxime tragedia abhorret: iccirco ut modus ineptus <lb/>
+est rejiciendus. Reliqui sunt tres modi, quorum optimus omnium, <lb/>
+est cum quis acturus est, ut Merope, et cognitione aliqua se <lb/>
+comprimit et abstinet. Secundo loco succedit cum quis igno- <lb/>
+rans patrat, ut <name>Oedipus.</name> Ultimo loco, et hic est pessimus <lb/>
+omnium qui tragico more efficiantur, est cum sciens et volens <lb/>
+facinus committit: quem veteres poetae usurpaverunt, quemad- <lb/>
+modum docet <name>Aristoteles</name> ut <name>Euripidis</name> <name>Medea</name> ipsa enim sciens <lb/>
+et volens filios trucidat. Itaque et tuus iste <name>Eolus</name> volens enim <lb/>
+et sciens omnia facit. Igitur est actio in pessimo omnium genere <lb/>
+et minime probato constituta. Sed audio te statim respondere, <lb/>
+ Ego rectius et magis tragice <name>Euripide</name> fabulem confeci. Nam <lb/>
+postea <name>Eolum</name> ipsum dolentem et facti poenitentem induxi his <lb/>
+versiculis: <quote rend="block"><lb/>
+<lg><l><foreign lang="codice">Or conosco, ma tardi, che nel caso</foreign></l>
+<pb n="233v"/><lb/>
+<l><foreign lang="codice">de miei figli infelici</foreign></l>
+<l><foreign lang="codice">padre né re non fui...</foreign></l></lg> </quote><lb/>
+et quae sequuntur  <lb/>
+Hem quid agis amice? Simulasne sapientissimum regem atque <lb/>
+illustrem, gravem virum, ne dicam Deum immortalem, ut ignarum, <lb/>
+ut lenem, ut inconstantem, ut dementem, non solum facti poeni- <lb/>
+tere, sed et recte facti? Imo ut homuncio, ut muliercula eiulat, <lb/>
+planget, lamentatur. O res indigna tragedia, maiestate regali et <lb/>
+tanti viro! Audias quod dicat Divinus <name>Plato</name> in tertio De Republica: <lb/>
+"...rursus <name>Homerum</name> et ceteros poetas orabimus, ne inducant <name>Achil- <lb/>
+lem</name> Deorum filium nunc in latus cubantem ... " et quae sequun- <lb/>
+tur. "...<name>Priamum </name>qui juxta Deos fuit, supplicantem et luto se <lb/>
+provolventem et singulos nominatim clamantem. Multo magis <lb/>
+<name>Homerum</name> eundem orabimus ne Deos in hunc modum plangentes <lb/>
+inducat...". Hunc imitari debemus, hunc audire. Probavimus <lb/>
+igitur ex definitione ipsius tragediae exemplo laudatorum poe- <lb/>
+tarum, duo quae primo proposuimus. Et, ut scis (optimus es <lb/>
+enim philosophus et subtilis dialecticus) definitio vim ac naturam <lb/>
+rei explicat et continet: et praesertim ea pars quae vicem formae <lb/>
+gerit, ut actio seria et gravis. Iccirco qui cam aut aufert, aut non <lb/>
+servat, iam totam rem destruit; forma enim facit ut res sit. Prae- <lb/>
+terea ex causa, ut ita loquar, finali, quae est omnium nobilissima <lb/>
+videlicet terrorem et misericordiam excitare. Hoc etiam sustuli- <lb/>
+mus, et qui tollit hanc, tollit caeteras quoque causas, nam ipsius <lb/>
+gratia sunt. Huc accedit quod naturam boni delet et praesertim <lb/>
+in rebus agendis. Sed de his hactenus. Reliquum est ut de agnitione <lb/>
+disseramus. <lb/>
+<name>Agnitio</name>, ut docet <name>Aristoteles</name> loco a nobis saepe citato, et <lb/>
+ut celebrati<pb n="234r"/><lb/>
+tragici et tragediae ostendunt, duas leges ac con- <lb/>
+ditiones praecipue sibi expetit. Videlicet quod sit alicuius personae <lb/>
+et quod illius sit, quae scelus perpetrat, vel misericordiam excitat. <lb/>
+Quod sit alicuius personae, ex hoc perspicue intelligi licet; nam <lb/>
+aut fiat ex signis, vel ingenitis, vel adventitiis, ut in <name>Thyeste</name> et in <lb/>
+<name>Ulixe</name>, vel ex quibusdam extrinsecis inditiis, ut in <name>Oreste</name> vel <lb/>
+<name>Iphigenia</name> , vel memoriae auxilio, ut <name>Ulixes</name> apud <name>Alcinoum</name> phea- <lb/>
+cum regem; vel denique syllogismo. Hi omnes personam ali- <lb/>
+quam, quae antea ignota erat, ostendunt, declarant. Quod autem <lb/>
+suo munere fungatur, in eo qui scelus commisit, ostendit, vel <lb/>
+misericordiam excitat, pulchre <name>Oedipus</name> qui Tyrannus inscribitur, <lb/>
+et <name>Ulixes</name> ostendunt: praeterea multae aliae. <name>Praeterea </name>aut <lb/>
+filii ab <name>Eolo</name> cognoscuntur, aut infans: nam praeter hos nullus. <lb/>
+Non filii quia semper noti, non infans quia dudum in lucem <lb/>
+editus. At tua agnitio, optime vir, non personam, sed scelus dete- <lb/>
+git et declarat: sed ut faciat est per accidens; non enim omnis <lb/>
+agnitio aut scelus detegit, aut peripetiam excitat. At si diceres, <lb/>
+<name>Eolus</name>postea se ipsum agnoscit cum scelus iniquum perpetrasse <lb/>
+fatetur, rectius erat tacere, et melius, quam ita pueriliter oppo- <lb/>
+nere. Ego nunquam audivi agnitionem ex se ipso et in se ipso fieri, <lb/>
+nisi in insanis et furentibus, vel quod ineptius est, post peripetiam <lb/>
+collocatam esse. O novam atque inauditam fabulae constitutionem! <lb/>
+Sed re vera, ni fallor, haec tua defensio est fuga et non responsio. <lb/>
+Nam certe actio est <name>Canaciis</name> et <name>Macharei </name>qui misericordiam et <lb/>
+terrorem incutiunt, si scelerati <pb n="234v"/><lb/>
+eo muneris fungi possunt, ut <lb/>
+et innuit <name>Plato</name>, et quod initio tuae tragediae his versiculis ipse <lb/>
+ostendis:<quote rend="block"><lb/>
+<l><foreign lang="codice">Di dui fratelli arditi et scelerati</foreign><name>Canace</name> et <name>Machareo</name></l> </quote>
+et paulo post,<quote rend="block">
+<lg><l><foreign lang="codice">Che nell'ombre meschine di coloro</foreign></l> 
+<l><foreign lang="codice">che già mille anni e mille 
+s'ucciser disperati.</foreign></l></lg></quote></p>
+<p>Sed hoc mea quidem presentia nec tentandum est sustinere, nec <lb/>
+iam canescenti congruit, cum sit contra bonos mores. Et vis tibi <lb/>
+denique, amice et hospes, ut uno verbo dicam. Hoc spectacu- <lb/>
+lum non est dignum matronis patavinis, in quibus summa gravi- <lb/>
+tas cum honestate viget. Vale et me ama. </p>
+<closer><dateline>Datum <name>Ferrarie</name> <date value="27-12-1558">27 Decembris 1558</date>.</dateline><lb/>
+<signed>Jo:  <name>Baptista Gyraldus</name>.</signed></closer>
+</div1>
+</body>
+</text>
+</TEI.2>

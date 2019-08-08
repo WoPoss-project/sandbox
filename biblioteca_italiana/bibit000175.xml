@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>I partiti anarchici in Italia</title>
+      <author>Ruggero Bonghi</author>
+    </titleStmt>
+    <extent>148 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit000175</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>I partiti anarchici in Italia</title>
+        <author>Bonghi, Ruggiero</author>
+        <publisher>Treves</publisher>
+        <pubPlace>Milano</pubPlace>
+        <date>1878</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>800</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="fre">Francese</language><language id="eng">Inglese</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Genova</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Genova</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2005-06-08T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2005-06-08T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1><head>AVVERTIMENTO.</head>
+<p>Sotto un titolo solo - <hi rend="italic">I partiti anarchici in Italia</hi> - 
+il mio amico Treves ristampa due scritti miei, vecchi l'uno 
+di cinque mesi: - <hi rend="italic">l'Italia non aspetta</hi>; l'altro di tre 
+settimane: - <hi rend="italic">La situazione morale del paese e il diritto 
+d'associazione</hi> - Pubblicati amendue nella <hi rend="italic">Nuova 
+Antologia</hi>. Essi sono stati scritti prima che il 17 
+novembre fosse attentato alla vita del Re: e prima che, 
+qualche giorno innanzi o dopo, le bombe scoppiate a 
+Firenze, a Pisa, a Livorno, le risse a Bologna, l'assalto 
+tentato di notte a una caserma in Pesaro, l'assassinio d'un 
+ufficiale di polizia a Fabriano, i cartelli affissi a Roma, gli 
+arresti preventivi che hanno solo impedito maggiori guai, e 
+molti altri indizii non attestassero, che il regicida di 
+Napoli, mandatario o no d'una setta, ha pur sempre 
+concepito l'atroce delitto non nella solitudine della sua 
+mente, ma in una comunicazione di spirito e d'intenti con 
+molti. Cotesti fatti, che io non potevo sapere, mentre 
+scrivevo è chiaro, a chi oggi mi legge, che io li presentissi. 
+Errano in un punto solo: credevo, che avrebbero indugiato 
+di più. Io prevedevo cotesto scoppio di passioni e d'ire per il 
+giorno, che il presente indirizzo di governo sarebbe stato 
+mutato in Italia; ma gli odii non hanno avuto pazienza, ed 
+hanno cessato di covare anche prima. Vuol dire, che il 
+lavoro delle sette anarchiche è maturo in Italia, ed hanno 
+<hi rend="italic">rinnovato</hi>, più presto che io non aspettavo, <hi rend="italic">le 
+gesta</hi> e <hi rend="italic">i fasti</hi>, da' quali nel luglio sembravano 
+tuttora lontani. lo dicevo allora, che si <hi rend="italic">preparavano, 
+crescevano, invigorivano le forze e disposizioni morali nei 
+partiti contrari al presente ordine di cose</hi>, le quali prima o 
+poi avrebbero turbato la serenità apparente del paese; 
+coteste forze erano già preparate, cresciute, invigorito più 
+che non si poteva congetturare, mentre stavano ancora 
+nascose quasi del tutto.</p>
+<p>Ma, si sente dire: - siano stati pur molti e 
+subitanei cotesti segni di corruttela politica; quando vi si 
+contrapponga la manifestazione maravigliosa di affetto al 
+Re e di fede alla monarchia, che hanno eccitato in tutto il 
+paese, essi perdono valore e significato insieme. Vero: ma 
+chi parla così non ragiona giusto. Un regno recente avrebbe 
+perso ogni speranza d'avvenire, se già non sentisse più che 
+nella forma monarchica assunta da esso sta il maggior suo 
+fondamento e la migliore sua. sicurezza; una società, che 
+non fosse presa tutta d'un brivido all'annuncio, che il capo 
+dello Stato ha rischiato di rimanere vittima del coltello d'un 
+assassino, si dovrebbe credere giunta all'estremo grado di 
+degenerazione e poco meno che già morta e spenta oramai. 
+Ciò che s'è fatto e detto in Italia, dopo saputo l'attentato al 
+Re, può parere poco a qualcuno: non può parere troppo a 
+nessuno. Che così gran maggioranza si sia mostrata 
+sgomenta del pericolo corso dal Re e gli abbia acclamato 
+con rinnovata lena, è naturale, e grandissimo conforto a chi 
+punto ne dubitava: ma è un fatto di maggiore importanza, 
+che in così gran convocio di applausi. e di esecrazioni 
+non solo qualche voce ha disturbato, ma qualcuno è 
+stato mosso dal sentimento suo a trovarvi persino nuova 
+occasione e stimolo di delitto. Ciò non si spiega, non a un 
+modo solo. In coteste città dove simili voci sono stato udite 
+o simili atti compiuti, le sette devono già avere viziata 
+l'atmosfera, più che non pare. Deve respirar aria molto 
+infetta, quegli nel cui animo scendono siffatti pensieri e 
+proponimenti, poiché non è soprattutto un'ingordigia o 
+rabbia privata quel che lo muove. Chi ne respira una sana e 
+buona, non può essere tratto per nessuna via e modo a 
+concepirli.</p>
+<p>è ozioso ricercare quali sette siano soprattutto il 
+crogiuolo, dove si fonde così ogni chiarezza di mente ed 
+ogni bontà di cuore. Il Passannante può essere qualcosa tra 
+un repubblicano e un socialista; ovvero più del primo o più 
+del secondo. Ma non perciò i repubblicani o i socialisti 
+insegnano tutti le dottrine dell'assassinio politico, e molto 
+meno le. praticherebbero tutti. Cotesta dottrina è il motto 
+misterioso ed ultimo di ciascuna setta, che vuole colla 
+violenza sovvertire l'ordine attuale dello Stato; e tutte, 
+contrastate un pezzo ed impedite dal raggiugnere il 
+loro fine, terminano col supporre la violenza unico mezzo di 
+raggiugnerlo. Ma l'atto dell'assassino non è un effetto, puro 
+e semplice, della dottrina; questa gli abbuja la coscienza; ma 
+non gli arma ancora la mano. Il coltello gli è appuntato dal 
+livore, dallo sdegno, dal dispetto, dal bisogno, dal vizio: da 
+tutti que' risentimenti, che ribollono nell'imo fondo di 
+ciascuna setta, dove precipita e posa la faccia, che entra 
+nella composizione ma in tanta maggiore proporzione, 
+quanto più essa è <hi rend="italic">anarchica</hi>, quanto, cioè, è più 
+ampio e difficile il sentimento politico e sociale che si 
+propone.</p>
+<p>Io non dubito che Aurelio Saffi davvero creda che 
+l'ufficio del partito repubblicano deva oggi essere soltanto 
+questo: predicare l'eccellenza del principio repubblicano, e 
+restrignersi nel <hi rend="italic">pensiero</hi>, aspettando a lanciarsi 
+nell'<hi rend="italic">azione</hi> che la <hi rend="italic">coscienza</hi> della nazione sia 
+<hi rend="italic">matura</hi>. Io non dubito che siano di buona fede quegli 
+studenti <hi rend="italic">repubblicani dell'Università e scuole 
+d'applicazione Bolognese</hi>, che, <hi rend="italic">innalzandosi in nome 
+della legge morale e dell'umanità al disopra d'ogni 
+differenza di parte</hi>, si condolgono dell'attentato 
+con Umberto di Savoja, che ha rischiato di rimanere vittima, 
+e con Benedetto Cairoli che v'è rimasto ferito. Ma è 
+evidente, che cotesti leali studenti ignorano che, uno Stato 
+monarchico, il quale lascia in una instituzione sua, come è 
+l'Università, ordinarsi liberamente, un gruppo di studenti i 
+quali si danno titolo di repubblicani, e non ha neanche cuore 
+a mostrare d'avere inteso che in un indirizzo al Presidente 
+del Consiglio, essi hanno sconosciuto il Re, è uno Stato, al 
+quale il paese comincia a temere che manchi la coscienza 
+della sua forza, e il rispetto del suo diritto; ed Aurelio Saffi 
+ignora altresì, che la sua speculativa predicazione 
+repubblicana in uno Stato, che dovrà prima o poi impedire 
+che venga all'atto, crea una condizione d'animi violenta, e 
+diventa il fomite, di organizzazioni, di combinazioni, di 
+cospirazioni, le quali gittano necessariamente intorno a sé il 
+seme dei delitti, onde l'animo suo, come il nostro, è eccitato 
+a così grande orrore.</p>
+<p>Il ministero poi, anzi, si può dire, il governo ha 
+mostrato d'ignorare così da tre anni in qua ciò che sfugge a 
+quegli studenti, come ciò a cui gli occhi del Saffi 
+non giungono. Noi abbiamo avuto per un due anni ministeri, 
+che hanno scemato credito e valore a quanto v'era nel paese 
+di più sano, di più sicuro, di più tranquillo, ed ora da meno 
+di un anno n'abbiamo uno il quale ha lasciato espandersi ed 
+affiatarsi quanto v'ha di più malsano, di più torbido e 
+mobile. I diritti supposti e immaginarli delle minoranze 
+sovvertitrici, parte coll'ajuto stesso del governo, parte da sé, 
+hanno avuto modo di sovrapporsi a diritti veri e legali della 
+maggioranza conservatrice e prevalere. Raccogliamo ora i 
+frutti di così falsa politica; e s'è tuttora lontani dall'averli 
+raccolti tutti. Stiamo anzi, a principio; ed o io non ricordo 
+nessuna storia e non ho acquistato in trent'anni di tempeste 
+nessuna esperienza, o è pur vera la triste previsione 
+dell'animo mio: che la strada nella quale siamo ci meni a un 
+precipizio. Non ci s'illuda, né in su né in mezzo né in giù; e 
+poiché tocca a tutti, ci si pensi tutti.</p>
+<closer><dateline>Napoli, 22 Novembre 1878.</dateline>
+<signed>Borghi</signed></closer></div1>
+<div1><head>L'ITALIA NON ASPETTA</head>
+<p>Sarebbe rincrescevole, davvero, se il più amabile dei 
+repubblicani - come tanti altri del resto innanzi a lui - 
+voltasse a monarchico. Pure, questa è l'impressione, che ha 
+fatto sopra parecchi un opuscolo pubblicato a questi giorni 
+da Agostino Bertani, col titolo: <hi rend="italic">L'Italia aspetta</hi>.</p>
+<p>"Adunque, il Re, dopo il Cairoli, chiamerà il Bertani". 
+Così sentivo esclamare uno cui cotesto opuscolo era venuto 
+alle mani. E di fatti, sinché i moti politici non si posano, o 
+almeno la coscienza di tutti non li senta posati, non si suole 
+intendere altro progresso, che quello vago, indeterminato, 
+illusorio, in diritta linea verso il discioglimento della forma, 
+in cui si crede abbiano fatto sosta per poco. Sicché son 
+creduti via via uomini d'avvenire gli uni rispetto agli altri 
+quelli che più son riputati in grado ed in desiderio di operare 
+cotesto dissolvimento. Chi più è tenuto atto e 
+volonteroso a ciò, è <hi rend="italic">avanzato</hi>, sta 
+<hi rend="italic">avanti</hi> a chi è meno. In cotesta preposizione avanti è 
+inclusa tutta la politica. La quale non è già più l'arte del 
+proporzionare i mezzi ai fini, dell'attagliare le istituzioni alle 
+condizioni dei popoli, del mantenere da una parte le forme 
+essenziali di una società, e trarne dall'altra i maggiori effetti 
+di coltura intellettuale, di soddisfazione morale, di utilità 
+sociale, e di prosperità economica, che i tempi comportino; 
+ma bensì l'arte di camminare a occhi chiusi verso una meta 
+oscura, pur di non guardarsi mai indietro, in una linea che 
+par retta, perché non si vede., e perché non si sa dove metta 
+capo. L'assurdità del proponimento è poi causa essa sola, 
+che non ne risulti nulla di sincero e di vero; che il paese, cui 
+non s'è promesso altro, se non che sarebbe andato avanti, 
+non avanza in realtà da nessuna parte; e la sola cosa che 
+avanzi, sono i vantaggi e le vanità degli uomini, che, pur di 
+farsi strada, l'avean cullato in così vana speranza; ragione 
+potentissima poi di disistima e corruttela pubblica.</p>
+<p>Però, il Bertani non ha, per verità, nessuna colpa, che il 
+giudizio sopra di lui e il suo libriccino, - ha 40 pagine e 
+l'autore si vede, che non giugne senza fatica a scriverne 
+tante, - si sia sommato in quelle poche parole. Sarebbe 
+maligno e falso l'affermare, che, nel suo parere, quello che 
+l'Italia propriamente aspetti, sia lui. Non s'intende davvero 
+molto chiaramente, ciò che l'Italia aspetti, ma non aspetta, a 
+quanto pare, lui. Il pensiero dell'autore è, in fin delle fini, 
+incerto molto. Talora, si direbbe, ch'egli, insomma, voglia 
+dire, che l'Italia aspetta la Repubblica, e che l'onor8 
+Cairoli ce l'avvii; talora invece, l'aspettazione è assai più 
+modesta. Quando l'Italia, parrebbe, avesse ottenuto, che i 
+Comuni non avessero più parte nell'istruzione primaria, e 
+nelle scuole elementari non s'insegnasse più religione; - 
+quando l'azione della giustizia precedresse, più spedita, e la 
+magistratura, pagata meglio, rispondesse più alla nobiltà 
+dell'ufficio suo; - quando le comunicazioni da una ad altra 
+regione fossero agevolate mediante i più recenti e facili 
+mezzi di trasporto, - l'Italia, almeno per ora, non 
+aspetterebbe altro. Succede del libro del Bertani come di 
+tante altre manifestazioni d'uomini politici in Italia, che 
+l'<foreign lang="lat"><hi rend="italic">hiatus</hi></foreign> è grande, e la parola, che poi n'esce, 
+piccola. A veder quello, non v'ha gran canto, che non si 
+creda dovere, potere venirne fuori, poi è un fil di voce, 
+quello che n'esce, appena percettibile. E le ragioni di ciò son 
+due: - aprono la bocca male; e si sono troppo scarsamente 
+nudriti. O, fuor di metafora, non muovono da un retto 
+principio, e la lor mente non è abbastanza educata da studi 
+di quel genere e maturità, che occorrerebbe. Che il Bertani, 
+per esempio, paragoni sé, quando discorre o scrive di 
+medicina o chirurgia, e quando scrive invece o discorre di 
+qualche ordinamento sociale o politico! Come la parola gli 
+sgorga limpida, e la penna gli scorre fluida e il pensiero gli 
+si affolla copioso nel primo caso; come la parola gli 
+s'impaccia, e la penna gli si congela, e il pensiero gli 
+s'incaglia nel secondo! Egli ricorda di <hi rend="italic">sé l'alta carità che 
+gli ha insegnata l'arte sanguinosa e precisa nella quale un 
+fortunato</hi> <hi rend="italic">ardimento gli conciliò qualche 
+rispetto dai colleghi suoi</hi>; bene a ragione; ma ripensi, 
+quanto la mano gli è ferma nel trattare quei dolorosi 
+istrumenti, che devono ripristinare le forze e le funzioni 
+dell'organismo in quegli stessi di cui mettono talora la vita a 
+nuovo pericolo; e quanto invece gli oscilla, allorché deve 
+non operare, ma disegnare soltanto con essa i movimenti, 
+che si devono produrre nei corpi delle società umane per 
+risanarli! Ciascuna arte vuole le preparazioni sue; e il genio, 
+supponiamo che ci sia, non basta oggi a vincer le guerre più 
+che a condurre gli Stati. Gli elementi della vita in questi, 
+come i mezzi di morte in quelle, son diventati troppi!</p>
+<p>L'onorevole Bertani è riputato il capo dei repubblicani 
+in Parlamento. Se repubblicani vi hanno ad essere, - e non si 
+può fare a meno che non ce ne sia, - e devono avere un 
+capo, nessuno ci sgomenta meno di lui. "Solo per tanti anni 
+nella Camera, e lungamente inviso, come profanatore 
+dell'arca santa, io sostenni che un partito di schietta 
+democrazia doveva manifestarsi in Parlamento, segnacolo e 
+voce di quello che senza cospirazioni e violenze, ma per 
+fatale evoluzione della coscienza nazionale, andava 
+ingrossando al di fuori". Così egli scrive di sé; e noi 
+diciamo che ha fatto bene, e l'Italia deve avergliene grado. 
+È stato nocivo, che nessun clericale, - nessun uomo cioè, 
+d'una parte politica che nega da un opposto aspetto l'ordine 
+attuale di cose, - si sia risoluto a fare il medesimo: e che i 
+clericali, i quali già erano in Parlamento, abbiano creduto, 
+una volta che questo ha preso sede in Roma, di 
+doverne uscire. Le istituzioni rappresentative non son sicure 
+di produrre tutto il frutto che se n'aspetta, non sono in grado 
+d'acquistare un moto ordinato, tranquillo, fecondo, 
+continuo, se non quando le opinioni del paese sieno 
+rappresentate tutte, e si acconcino ad essere varietà 
+d'indirizzi politici e sociali dentro la cerchia di quelle. Ché 
+se esse a principio, come è succeduto già e succede tuttora 
+ai repubblicani, persistono nell'asserire di sé che son sempre 
+le stesse, e nel pretendere di non avere rinunciato o non 
+volere rinunciare a nulla; a mano a mano, e quasi senza che 
+si accorgano e certo senza che se lo confessino, queste lor 
+presunzioni si smorzano, si spuntano, e nei contatti 
+quotidiani delle composizioni e scomposizioni delle parti 
+politiche, s'abituano a rinserrarsi nella lizza, in cui sono 
+scese a combattere, e che finisce col parer sufficiente ad 
+ogni loro gara, e non levare a nessuno la cara speranza di 
+poter continuare la sua battaglia in perpetuo.</p>
+<p>Ma la maggiore o minore importanza di un fatto, come 
+quello che l'onorevole Bertani ascrivo a sé, - cioè l'entrata 
+della parte repubblicana in Parlamento, - dipende 
+dall'assenso che trovano nel rimanente di essa coloro i quali 
+vi si son risoluti. Che se questi son pochi, o piuttosto so, 
+essendo Pochi, il maggior numero dei repubblicani li reputa 
+piuttosto traditori della parte, che rappresentanti suoi, il 
+fatto loro può avere ragioni più o meno buone, motivi più o 
+meno fondati, onorevoli, nobili, ma non ha valore oltre le 
+loro stesse  persone; non acquista un'efficacia 
+davvero politica e seria.</p>
+<p>Il caso del partito repubblicano è appunto quest'ultimo. 
+Vi hanno repubblicani in Parlamento, -e si può dirlo senza 
+ingiuria, poiché quelli che son tali, non se ne scusano, né se 
+ne infingono; -ma non si può affermare, che cotesti 
+repubblicani rappresentino tutta la loro parte. I più di 
+questa, -e tra i principalissimi, - non approvano la condotta 
+di cotesti loro fratelli un po' spurii, né riconoscono ad 
+essi maggiore autorità che in una famiglia si accorderebbe a 
+questi. I repubblicani in Parlamento, da quelli, che non solo 
+ne rimangono coi fatti, ma vogliono per convincimento 
+rimanerne fuori, son riputati cristianelli annacquati. Né tutti 
+credono che l'opera loro sia utile. Poiché nei partiti v'ha 
+sempre due opinioni: quella di coloro, i quali vedono il fine 
+del partito tanto più facile a conseguire, quanto meno si 
+accusa; e quella di coloro i quali invece stimano appunto il 
+contrario. A' primi pare, che pur di riuscire, anzi per 
+riuscire, giova sopratutto che la repubblica si umanizzi, e si 
+serva delle indulgenze del Governo <foreign lang="lat"><hi rend="italic">pro 
+tempore</hi></foreign>, per farsi strada; i secondi invece 
+immaginano che quando cotesta repubblica faccia 
+fieramente parte da sé, e, trattasi in un canto, si contenti, 
+finché l'ora sua non sia arrivata, di gridare su per i tetti 
+l'idea sua e di segnare a dito il venir meno e il fallire d'ogni 
+altra, cotesta sua ora arriverà prima che in qualunque altro 
+modo e più efficacemente, più degnamente. S'intende, che i 
+repubblicani di questa seconda maniera  non 
+consentono con quei della prima, ma nel fondo del cuore gli 
+sprezzano.</p>
+<p>Quando noi, quindi, avremo raccolto il pensiero del 
+Bertani, non dovremo già figurarci di aver raccolto quello di 
+tutta la parte politica, a cui nome egli parla. Ciò che 
+potremo dire, è di avere saputo dal Bertani, che concetto si 
+formino del valore, dell'avvenire, dell'importanza 
+dell'instituzione monarchica quelli tra i repubblicani, i quali 
+hanno creduto di poter entrare in qualche componimento 
+temporaneo con essa, e di farne così per comodo quella 
+provvisoria, illusoria, superficiale ricognizione, che implica, 
+nel parer loro, un giuramento.</p>
+<p>Ora, per vero dire, dal Bertani appare ch'egli e i suoi 
+repubblicani rosati si formano di cotesta monarchia un 
+concetto che è tanto contrario al vero, quanto al sentimento 
+di quegli ai quali essa pare un'istituzione fondamentale del 
+paese. Il che, di certo, è naturale, e si potrebbe quasi 
+sottintendere; ma è importante a notare e provare, poiché il 
+Bertani pretende che tale opinione sua deva essere, anzi sia 
+quella del ministero, a cui la monarchia ha appunto 
+commesso ora il Governo; sicché questo non si possa 
+aspettare l'appoggio di lui e della parte sua se non a patto 
+che questa opinione spicchi sempre più nell'azione e nella 
+condotta di esso, <foreign lang="lat"><hi rend="italic">Proximus ardet Ucalegon</hi></foreign>, 
+dunque; se l'illustre medico indovini la diagnosi, o piuttosto, 
+se mi pare che la indovini, dirò più in là.</p>
+<p>Or ecco che cosa intanto il Bertani vuole che la 
+monarchia sia, per aspettare, tranquillamente che la si 
+spenga.</p>
+<p>Egli nega al Re qualunque parte di sovranità 
+anzi lo contrappone al <hi rend="italic">sovrano</hi>, che è il popolo, da 
+cui il Re ha solo una delegazione d'esercizio d'una piccola 
+parte di potere pubblico. La libertà ha un <hi rend="italic">proprio nome 
+ed ideale</hi>, e questo è repubblica; la rivoluzione italiana è 
+stata schiettissimo ed unico frutto della forza e della volontà 
+popolare <hi rend="italic">vittoriosa</hi>, e quindi nasce, <hi rend="italic">natural 
+conseguenza della vittoria, il diritto della nazione 
+d'innalzare la propria coscienza al governo di sé 
+medesima</hi>. Democrazia e repubblica è tutt'uno, e la 
+<hi rend="italic">conciliazione tra gl'interessi della monarchia e quelli 
+della democrazia, iniziata un dì, per altissimi intenti, da 
+Mazzini stesso</hi>, non può essere se non 
+<hi rend="italic">temporanea</hi>. Questa conciliazione non può durare se 
+non <hi rend="italic">fin dove e fin quando la monarchia non resista ai 
+progressi della libertà, e la democrazia non s'imponga pel 
+bene d'Italia</hi>. I plebisciti furon dettati da <hi rend="italic">necessità 
+transitorie; la nuova sovranità nazionale sorge e si posa 
+calma e severa a reclamare un diritto le cui ragioni porta in 
+sé stessa costitutive, inalienabili, imprescrittibili</hi>. Dal 
+centro vitale dell'istituzione monarchica si sviluppa <hi rend="italic">ogni 
+giorno più tardo il moto, e la sua circolazione si va ogni di 
+più intorpidendo</hi>; e le va contrapposto un <hi rend="italic">giovane e 
+vigoroso organismo dalla giovinezza immortale che, 
+stringendosi in pugno il vessillo del progresso, additi un 
+nuovo primato all'Italia fra i popoli civili</hi>. Cotesto 
+organismo è vaticinato all'Italia dal suo <hi rend="italic">genio speciale, 
+dal martirologio e dagli accelerati progressi odierni</hi>. La 
+monarchia costituzionale povera, <hi rend="italic">timida</hi> creatura, 
+<hi rend="italic">ponte gettato da venti anni fra le diffidenze dell'Europa 
+dispotica ed il bisogno della
+ricostituzione nazionale</hi>, ha avuto un periodo 
+necessario, <hi rend="italic">periodo dominato dal prepotente concetto 
+dell'unità della patria. Ma, l'unità raggiunta, può la mente 
+italiana tenersi indissolubilmente unita a forme divenute più 
+che mai accessorie? Avvinta tuttora in quelle fascie che 
+protessero la sua infanzia, l'Italia, cresciuta e adulta nella vita 
+politica, ne risente già le molestie e si rende conto troppo 
+chiaro, delle contraddizioni e dei vizi costitutivi della forma 
+accettata. Un breve periodo di vita costituzionale è</hi> bastato 
+<hi rend="italic">ad imbastardire il genio italiano, a sfibrarne il carattere, a 
+deprimerne la intelligenza. Una reazione in favore dell'ideale è 
+inevitabile</hi>, e guai se questa sorprenda <hi rend="italic">gl'Italiani deboli 
+di mente e prostrati nella coscienza, disciplinati da una forma 
+politica eviratrice!</hi> La monarchia deve <hi rend="italic">spogliarsi man 
+mano dei suoi privilegi ed indietreggiare dai diritti storici e 
+dalle pretese convenzionali</hi>, se vuole che gl'Italiani 
+aspettino pazientemente la fine sua. L'autorità regia deve 
+<hi rend="italic">residuarsi a lieve cosa</hi>, e non <hi rend="italic">superare quella d'un 
+presidente di repubblica. Deve durare nell'attitudine passiva 
+che le conviene</hi>.</p>
+<p>Ora questo, come si è detto, è il concetto della 
+monarchia italiana che si formano i più temperati dei 
+repubblicani, quegli i quali non dicono di sé: Amiamo più 
+fortemente la repubblica, perché più fortemente amiamo la 
+verità. Ebbene, questo concetto è già, nel parer mio, 
+interamente falso; ed un Governo che in Italia non lo 
+ripudiasse nell'animo suo, non sarebbe in grado se non di 
+condurre il paese a rovina. Il monarca non e stato 
+<hi rend="italic">passivo</hi> nella costituzione di questa Italia nuova, né 
+può rimanere <hi rend="italic">passivo</hi> nell'opera del 
+consolidamento di essa. Affermare che l'istituzione 
+monarchica sia contraria al genio italiano e alle tradizioni o 
+leggi storiche del nostro sviluppo è vanissimo, e chi si lascia 
+tirare a siffatte affermazioni dalle reminiscenze gloriose 
+della repubblica romana, o fastidiose e turbolente delle 
+repubblichette del medio evo, mostra di ricordare la storia 
+della sua patria e poco e male. Un popolo tutto libero è un 
+fatto modernissimo; una nazione italiana che concorra 
+effettivamente tutta al governo di sé medesima è un fatto 
+nuovissimo. L'ultimo sviluppo della nostra storia recente 
+non trova in nessuno dei periodi precedenti di essa le norme 
+del suo governo. E la forma costituzionale ch'esso ha 
+assunto, per necessità di fatto assentita dalla volontà 
+nazionale, non è più forestiera che italiana nell'essenza sua; 
+è un rampollo delle condizioni proprie delle società 
+europee; e l'essersi mostrato altrove prima che qui, sicché 
+l'averlo trapiantato qui può parere imitazione, si deve a ciò 
+solo, che coteste condizioni si son maturate in altri Stati 
+prima che nel nostro, nato, nella sua forma attuale, per 
+l'ultimo.</p>
+<p>Non discutiamo, -che è quistione oziosa, - se sieno stati 
+in maggior numero repubblicani o monarchici gli uomini 
+che hanno concorso a ridestare l'Italia, a riporla in piedi ed a 
+dirle: cammina. Ammettiamo pure, se si vuole, che la più 
+parte di coloro i quali, sfidando ogni minaccia, affrontando 
+ogni pericolo, tra patimenti, tra contrasti, tra martiri infiniti, 
+concitando nell'animo proprio tutti gli ardori dell'amore 
+arrischiato d'una patria infelice, si sono affaticati a 
+redimerla, abbia vagheggiato nella sua mente un ideale di 
+Governo il più opposto a quello contro cui combatteva. Non 
+solo non sarebbe meraviglia che così fosse stato, ma sarebbe 
+meraviglia se fosse accaduto il contrario. Non sono le 
+fantasie eccitate da una lotta disuguale e crudele i giudici 
+migliori dell'assetto nel quale il lor paese poserà, una volta 
+che quella sia vinta. Riconosciamo senza paura le speranze 
+generose di quegli animi infiammati, ma non facciamo loro 
+il torto di credere che i sogni d'una giovinezza torbida 
+sarebbero stati i consigli d'una maturità sicura e calma. 
+Quelli che ora si giovano dell'esempio delle opinioni di 
+cotesti trapassati, sono così <hi rend="italic">indietro</hi> al proprio tempo 
+come essi erano <hi rend="italic">avanti</hi> al loro.</p>
+<p>Ciò che però è chiaro, è che cotesti sforzi, tentativi, 
+desideri di uomini privati, o repubblicani che fossero o 
+monarchici di sentimento, come non erano bastati in mezzo 
+secolo a sollevare l'Italia dalla misera condizione in cui era, 
+così non vi sarebbero bastati in venti altri. Chi trascura tra i 
+motori di questa risurrezione d'Italia il monarca s'affanna a 
+non intenderla. Poiché se il pensiero, non delle plebi 
+dimentiche, ma della parte intellettuale e più eletta del paese 
+l'ha preparata con una secolare pazienza, l'ha compiuta 
+l'istinto antico tradizionale d'una dinastia più che secolare, e 
+l'arte politica d'un governo, la cui esistenza legale e 
+legittima aveva avuto assai più volte, che quella forse di 
+nessun altro, la ricognizione del diritto pubblico d'Europa. 
+Qui è stato <hi rend="italic">attivo</hi> e supremamente 
+<hi rend="italic">attivo</hi>, non che il re stesso nella sua persona, - 
+e più la vita di Vittorio Emanuele sarà nota, più la parte 
+presa da lui nel risorgimento italiano apparirà grande, - ma 
+il re, come instituto giuridico e politico. Cotesta autorità 
+regia è quella che ha ordinato le forze del moto italiano, 
+anzi quella che a questo moto ideale degli spiriti ha dato la 
+forza, a questa materia, che voleva essere trasformata, ha 
+fornito la forma nuova, nella quale foggiarsi. La monarchia, 
+quindi, non è un accidente della risurrezione italiana, non è 
+una veste che questa ha indossata per un commodo 
+passaggiero; non è un'appendice, un accessorio della nostra 
+esistenza nazionale; è bensì la radice stessa, donde quella 
+restaurazione è germogliata; è il cuore donde muove e tòrna, 
+con circolo perpetuo, il sangue del nostro Stato; è il pernio 
+intorno a cui gira, la base su cui sta. Chi levasse quella di 
+mezzo, non farebbe altrimenti al nostro essere nazionale di 
+quello che a un albero chi lo schiantasse.</p>
+<p>Solo perché l'autorità regia ridava una forma allo Stato 
+nuovo, nella stessa ora che discioglieva la vecchia, è stato 
+possibile all'Italia di trovare nelle guerre che doveva 
+combattere, alleati coi quali vincerle, e nell'interno di 
+ordinare subito uno Stato capace d'un avviamento costante, 
+e non costretto a sobbalzare senza posa. Se sono venti anni 
+che duriamo, e in questi venti anni tutto un organismo, più o 
+men bene e fortunatamente, s'è formato e ha vissuto, è alla 
+monarchia solo che lo dobbiamo. La più grave questione 
+della nostra interna costituzione, l'esistenza d'un papa in 
+Roma, dobbiamo al Re lo averla sciolta. La guerra, 
+che gl'interessi molteplici connessi col Papato e sparsi per 
+tutta Europa, - interessi morali, sociali, politici, - più volte 
+secolari tutti, ci hanno fatta, anzi ci fanno tuttora, non 
+l'avremmo vinta, né le resisteremmo ora, un Re, 
+d'antichissima dinastia, non avesse sviata, distratta, confusa, 
+sgomenta così gran parte di quegl'interessi stessi. Questo, 
+che io descrivo, noto, mostro da più lati, è il carattere 
+evidente, proprio, peculiare, ideale davvero, della nostra 
+rivoluzione, ci piace darle questo nome. Qui spira, 
+l'italianità, ma un'italianità non sognata, non immaginata, 
+non indotta dalle passioni di parte o dal ghiribizzi del 
+proprio cervello, ma attinta, provata dall'esperienza del 
+fatto. E i ministri i quali, morta, Vittorio Emanuele Il, hanno 
+dato al figliuolo, distratto dal dolore, nome di Umberto I, 
+distaccandolo da quegli antenati, coi quali suo padre aveva 
+espressamente, nel suo titolo stesso, voluto nella nuova 
+fortuna affermare il vecchissimo vincolo, hanno mostrato di 
+non intendere cotesta italianità del movimento politico 
+nostro, e tentato, per quali era in loro, in una occasione 
+siffatta, di surrogare, alla monarchia antichissima dal cui 
+tronco tuttora vegeto è germogliata la recentissima Italia, 
+una monarchia nata da ieri, ancora imberbe, sovrapposta al 
+paese, e non connaturata con esso.</p>
+<p>Il Bertani afferma che cotesta <hi rend="italic">monarchia</hi> italiana 
+<hi rend="italic">divori gli uomini</hi>; anzi, non l'afferma lui, ma dice a 
+dirittura, che il <hi rend="italic">popolo italiano nel suo buon senso</hi> è 
+quello che l'asserisce. Qui certamente ha frainteso, e scrive 
+della monarchia ciò che s'è detto sempre della 
+<hi rend="italic">rivoluzione</hi>. La monarchia ha sinora in Italia rifatto 
+gli uomini. Si sono visti molti repubblicani diventare 
+monarchici; ma nessun monarchico diventare repubblicano. 
+Il Bertani confessa del Cairoli quella prima trasformazione; 
+e molti ne sono già in dubbio per lui. Ma, ciò fosse vero di 
+lui, - che non so né credo, - egli non sarebbe il secondo. La 
+vita parlamentare italiana è stata più volte testimone di 
+questa mutazione di opinione, che io non solo devo e voglio 
+credere, ma credo davvero perfettamente leale. Né le scema 
+credito, nel parer mio, che essa appar succeduta via via che 
+il Governo s'è accostato a quelli in cui il miracolo s'è 
+operato; sicché il sentimento repubblicano è svaporato, 
+appena i raggi dell'autorità regia sono stati abbastanza vicini 
+da riscaldare il cuore, nel cui <hi rend="italic">lago</hi>, a dirla con Dante, 
+era sin allora durato. Il diritto proprio del monarca, - come 
+del resto, in qualunque forma di governo, del capo del 
+potere esecutivo, - di nominare i suoi ministri, e la perfetta 
+imparzialità del Principe italiano nello sceglierli secondo 
+l'animo della maggioranza dell'assemblea, son bastati a 
+smorzare infiniti ardori contrari alla monarchia, e a farla 
+parere sopportabile a chi prima, per più anni, non l'aveva 
+riguardata senza grandi sospetti e disdegni. Né i moderati, 
+monarchici ab origine, devono avere nessuna gelosia se 
+cotesti trafugati in mezzo ad essi dal campo nemico non 
+solo non raccolgono biasimo dalla loro variazione di 
+pensiero e di condotta, ma ne hanno lode, e sono anzi visti 
+con maggior favore, paiono quasi gli aspettati delle 
+genti, le quali non si struggano d'altro desiderio se 
+non di veder subito il governo nelle mani più nuove. Poiché 
+corto non si considera che chi dopo avere lungamente 
+pensato il contrario, si risolve infine a venire nell'opinione 
+tua, mostra almeno minor acume e prudenza di chi aveva 
+tenuta sin da principio cotesta opinione stessa. I monarchici 
+si devono rallegrare d'un fatto simile, il quale vuol infine 
+dire che il paese sopra un punto solo non transige, ed è, che 
+come si sia, o prima o dopo, si sia diventati monarchici. 
+L'attrattiva che la monarchia esercita intorno a sé, è uno dei 
+suoi principali e più naturali uffici; e insomma codesto 
+piegare di tutte le persone sensato avanti ad essa, o di quelle 
+che non essendo tali da prima, diventano tali per effetto 
+d'una esperienza quotidiana ed ogni giorno più chiara, prova 
+che entra negli animi di tutti quello che forma la sostanza 
+del pensiero liberale in Italia: essere la monarchia il fulcro 
+stesso dello Stato.</p>
+<p>E la condizione intellettuale e morale del paese non si 
+può dire peggiorata durante i venti anni di regno, che serio 
+già scorsi. Chi sa dove il Bertani, che si dice 
+<hi rend="italic">ottimista</hi>, ha scoverto gl'indizi dell'imbastardirsi che 
+il carattere italiano abbia fatto in quest'intervallo di tempo? 
+Dio buono! che riputazione si sarebbe egli acquistata 
+nell'arte medica, se v'avesse usato con altrettanta leggerezza 
+raccogliere i sintomi delle sue diagnosi! Quando il carattere 
+italiano gli è parso meno bastardo di ora? Forse nel cittadino 
+turbolento, crudele, licenzioso dell'evo medio; o in quello 
+volpino e rotto ad ogni eccesso del decimoquinto 
+secolo; o nel dimentico d'ogni patria, e già affranto dal 
+dominio forestiero del secolo che segue; o nel cicisbeo e 
+nell'arcade dei due secoli successivi; o nel settario 
+infiammato da una parte, e nello sbirro sagace dall'altra del 
+principio di questo? Comparare i caratteri dei diversi popoli 
+tra di loro, o d'un popolo in diversi tempi, è cosa 
+estremamente difficile, ed aperta, per sé stessa, a' giudizi 
+i meno fondati e i più strampalati. Ma, pur riconoscendo il 
+moltissimo che resta a fare, per ridestare l'antico rigoglìo 
+della mente italiana e per rifarci gli animi, calunnia l'età sua 
+chi sconosce che e per l'una cosa e per l'altra qualcosa si è 
+fatto. La franchezza del pensare e del dire, la schietta 
+professione dei sentimenti propri, la libera difesa delle 
+opinioni e dottrine che si credono le migliori, l'assumere 
+aperto della responsabilità in cui s'incorre, la coscienza di 
+appartenere ormai ad una nazione non dispregiata nel 
+mondo, e senza il cui intervento non si concluderebbe 
+nessun negoziato di valore generale tra gli Stati di Europa, 
+son tutti germi onde il carattere nazionale nasce e si 
+sviluppa, e onde è già cominciato a rinascere il nostro. Certo 
+l'esercizio della libertà politica ha sue proprie corruttele; e, i 
+partiti, che ne sono l'istrumento e la forza motrice, hanno le 
+più volte i piedi nel brago, quando anche toccano - che è 
+raro - colla testa il cielo. Ma che i partiti vi sieno e sien tali, 
+non è colpa della monarchia: e poiché nella repubblica non 
+che continuare a persistere, s'esacerberebbero e 
+tumultuerebbero anche peggio, è ragionevole 
+aggiungere che non sarebbe colpa neanche di quella. 
+La colpa è dell'umana natura, la quale non ha nessuna cura 
+siffatta, che, sanandone alcuni mali, non ne promuova e non 
+ne ecciti altri.</p>
+<p>Una repubblica già vecchia, quella degli Stati Uniti, ed 
+una nuova, la francese, dovrebbero insegnare qualcosa ai 
+repubblicani d'Italia di buona fede. Dovrebbero insegnar 
+loro che le degenerazioni morali degli uomini politici, non 
+sono impedite dalle monarchie costituzionali, sono, si può 
+dire, piuttosto fomentate che represso dalle repubbliche. 
+Una forma di governo non è, per sé sola, in grado di 
+pronunciare contro di quelle nessuno scongiuro, di far loro 
+nessun incantesimo. E ciò poi che le aiuta sopratutto e le 
+moltiplica, è la mutabilità e l'incertezza degli ordini politici; 
+è la continua voglia del variarli, è l'aspettazione che saranno 
+altri domani, e bisognerà con altre arti, con altri aiuti 
+agevolarsi la vita, o raggiungere la meta sperata.</p>
+<p>I tempi nei quali una rivoluzione è seguita senza posa 
+da un'altra, sono stati anche i più corrotti. Le rivoluzioni 
+producono negli animi le stesse disposizioni che le pesti. Il 
+più grande storico che sia vissuto dice di quelle: "Coloro i 
+quali reggono le città, con titolo gli uni e gli altri specioso, 
+quali a nome dell'eguaglianza politica del popolo, quali a 
+quello d'un'aristocrazia savia, parte volevano premio di 
+ciascuno la cosa pubblica, ch'era a parole la sola lor cura, 
+parte, gareggiando per ogni modo a soverchiarsi l'un altro, 
+osavano le più atroci cose, e le eseguivano, non infliggendo 
+le pene a norma del giusto e dell'utile delle città, ma 
+misurandolo al piacere proprio; e possedendo il 
+potere eran pronti a vincere il loro puntiglio o colla sentenza 
+d'un voto ingiusto o colla violenza del pugno". E delle pesti: "Il morbo fu anche in 
+altre cose principio alla città di vivere licenzioso. Che più 
+facilmente osava ciascuno le cose che prima nascondeva, 
+perché non fosse visto seguirvi l'arbitrio del piacer suo: 
+riguardando la volubile mutazione della gente fortunata che 
+moriva di subito, e di quelli che non possedevan nulla 
+prima, e ad un tratto entravano nelle stanze dei morti. Onde 
+volevano i godimenti rapidi e il vivere a libito, stimando 
+effimeri del pari corpi e i denari. E ad affaticarsi a quello 
+che paresse bene non vi aveva nessuno l'animo: riputando 
+oscuro s'egli non sarebbe venuto meno innanzi di 
+raggiungerlo". Nei due casi l'incertezza del domani spezza 
+e scioglie ogni disciplina nel presente; e poiché pare che 
+non resti che l'oggi, il godere l'ora che fugge è l'unico 
+proposito che sopravvive. "E ciò, aggiunge Tucidide, è stato 
+sempre e sarà, sinché la natura umana resti la 
+medesima".</p>
+<p> Per fortuna, cotesti gridatori di rivoluzione, - mi scusi 
+il Bertani, e tutti i repubblicani più o meno fervidi fratelli o 
+cugini suoi, - sono gente antiquata. Non vorrei che paresse 
+un paradosso a nessuno una verità così evidente ed umile 
+com'è quella che io son per dire. La vita sociale di 
+Europa è in momento, nel quale nessuna delle quistioni 
+ond'essa è turbata, nessun dei problemi ond'essa è 
+impensierita o occupata, può essere risoluto da una 
+mutazione nella forma del Governo, o d una rivoluzione 
+intesa a produrla. Ciò che preme, al grado di civiltà 
+intellettuale cui le nazioni europee sono giunte, è che i loro 
+Governi riflettano e seguano la coscienza pubblica. Ora, 
+l'efficacia di questa è già tanta, che, anche quando lo Stato 
+non è ordinato in modo da lasciarle una via abituale 
+continua di manifestazione, essa ne trova una. Ma nei 
+Governi liberi, nei quali le assemblee rappresentano, in uno 
+od altro modo, immediatamente o no, la totalità dei 
+cittadini; la manifestazione dir cotesta coscienza pubblica è 
+perenne, e, per una od altra via, esercita nell'indirizzo dei 
+Governi tanta influenza, che questi sono forzati, più o meno, 
+o punto ripugnanti, a conformarvisi. E si attenda, a un fatto 
+curioso e poco osservato. Le diversità delle leggi elettorali 
+variano poco codesto effetto. Un'opinione prevalente nel 
+paese, - prevalente davvero, - finisce col prevalere 
+nell'assemblea rappresentativa di quello, o pochi o molti che 
+siano i cittadini i quali hanno titolo ad esercitare il diritto di 
+suffragio; solo, se questi sono sproporzionatamente pochi, 
+quell'opinione avrà bisogno di due o tre elezioni generali 
+per raggiungere la supremazia, che in un corpo elettorale 
+più numeroso avrebbe raggiunto alla prima; né l'indugio fa 
+sempre danno.</p>
+<p>Una vena d'acqua, che attraverso più bocche, 
+scorrerebbe tutta in pochi minuti, penerà un'ora forse, 
+se gliene è aperta soltanto una; ma anche così 
+scorrerà tutta. E d'altra parte, i modi che la coscienza 
+pubblica ha e tiene ad asserire il diritto suo, e a levare la sua 
+voce più alto di qualunque altra, sono per lo appunto i 
+medesimi in una monarchia o in una repubblica; poiché la 
+differenza sola che corre tra queste due forme, l'eleggibilità 
+e temporaneità del capo dello Stato, non influisce per nulla 
+sul valore e sull'efficacia della rappresentanza dei cittadini 
+in ciascuna.</p>
+<p>Si sa quello che i repubblicani dicono. - Nelle 
+monarchie ereditarie v'ha qualcosa che ripugna alla ragione 
+umana; v'ha la ricognizione d'un diritto, che si fonda in un 
+fatto indipendente dalla volontà della cittadinanza. 
+L'ordinamento dello Stato monarchico non è in tutto e per 
+tutto razionale; non risponde al <hi rend="italic">vero</hi>, al <hi rend="italic">reale</hi>, 
+al <hi rend="italic">certo</hi>, - son parole loro, - in ogni sua parte. Che 
+uno, per ciò solo che è figliuolo dell'altro, deva possedere 
+ed esercitare una potestà suprema, trascende ogni diritto 
+umano. Il <hi rend="italic">diritto umano</hi> è, che ciascun uomo sia 
+riputato pari all'altro; e tutti i gradi sulla scala del potere 
+pubblico sieno conferiti dalla libera scelta del popolo.</p>
+<p>Ma appunto qui è il paralogismo fondamentale. Se il 
+ragionamento è buono, non serve solo a distruggere la 
+trasmissione ereditaria della monarchia, ma qualunque fatto, 
+dal quale nella società umana provenga una disuguaglianza; 
+ed esige, che quella si ricomponga tutta, anzi persista e si 
+travagli sempre nel ricomporsi, considerando ciascun suo 
+membro, come spoglio a dirittura d'ogni diritto, che non 
+nasca dall'assenso, comunque accertato, della 
+cittadinanza. Se la vostra mento è siffatta, che vi pare 
+contrario a ragione il riconoscere Principe chi non è stato 
+creato tale dalla società stessa col suo suffragio, come non 
+vi può parere contrario del pari, che altri sia ricco, sia 
+primogenito, nasca da padre noto, anziché ignoto, o anche 
+sia bello, sia fornito d'ingegno, di per sé e per un arcano 
+ordine, anziché per il consenso e il volere della società 
+stessa? La teorica, che non vuole nella società ammettere 
+nessun fatto primigenio, e che non riconosca dal volere di 
+essa stessa la sua ragione ed origine, non si accheta se non 
+l'ha prima svelta tutta dalle radici; e i repubblicani che se ne 
+voglion servire soltanto per abbattere la monarchia e 
+sollevar la repubblica, non se ne intendono. Un'esperienza 
+pur lunga, e intelligibile ai più corti e più semplici, 
+dovrebbe averli persuasi, che essi non sono in grado di fare 
+al fuoco la parte, che sarebbe lor comodo di assegnare 
+soltanto. Il resto brucia malgrado loro. L'argomento fallace, 
+che mettono innanzi per dimostrare la razionalità assoluta 
+della repubblica, quando mancano loro tutti gli altri adatti a 
+provarne l'utilità attuale, è siffatto, che casca sul capo ad 
+essi stessi, ed evoca dottrine e partiti, a' quali tutto cotesto 
+loro affannarsi intorno a un nome pare una beffa.</p>
+<p>Poiché qui è l'error principale del Bertani e di tutti i 
+suoi più o men concordi fratelli. Essi pongono il principal 
+interesse in un punto solo della costituzione del potere 
+esecutivo, e credono che il mondo sarebbe grandemente 
+mutato in meglio, se il capo dello Stato fosse eletto a tempo, 
+anziché essere ereditario; ora, non solo questo 
+miglioramento non s'avvererebbe, ma il Governo ne 
+diventerebbe, nella società nostra, più disadatto a compiere i 
+fini che gli sono indicati. Oggi succede in verità alle società 
+più civili e prospere quel medesimo che alle città antiche 
+quando, pareggiato ogni diritto tra i cittadini antichi e le 
+plebi sopravvenute, non restò altra distinzione se non tra i 
+ricchi e i poveri, e una voglia irrefrenabile in questi di 
+partecipare alla fortuna e al benessere di quelli.</p>
+<p>Come i repubblicani mostrano di non vedere ed 
+intendere, che democrazia e repubblica non è tutt'uno, così 
+in genere non vedono neanche né intendono, che la 
+democrazia, cara alle plebi, non è più quella la quale si 
+contenta di pareggiare i diritti civili e politici tra tutte le 
+classi, ma quella bensì che aspira a pareggiare tra esso i 
+benefici sociali. Ora, la democrazia nel senso vecchio, - nel 
+senso cioè, dell'accomunare il diritto, sicché tutti sieno 
+cittadini nello Stato, tutti sieno pari davanti alla legge civile 
+e penale, e tutti, alle stesse condizioni, sieno in grado di 
+prender parte all'esercizio del potere politico, - non ha avuto 
+bisogno della repubblica in nessun periodo del suo sviluppo. 
+Così nei tempi antichi come nei moderni, le classi, alle quali 
+nelle repubbliche era venuto nelle mani il governo, sono 
+state singolarmente e tenacemente gelose di conservarlo a sé 
+stesse. Sono state le monarchie, nell'Europa moderna, 
+quelle, che, nella lor guerra contro le aristocrazie feudali, 
+hanno sopratutto sollevato e redento le plebi dalla loro 
+soggezione civile e politica.</p>
+<p>E nello stesso modo, la democrazia, nel senso 
+nuovo, nel senso davvero terribile e pauroso per l'oscurità 
+dei problemi che sveglia d'un ordinamento sociale, i cui 
+benefici si commisurino al lavoro attuale di ciascheduno, o, 
+secondo altri, al bisogno di ciascheduno, qualunque sia la 
+somma del lavoro di lui, - cotesta democrazia, oggi 
+smaniosa e a tratto a tratto feroce, che esige tanta forza e 
+prudenza nei governi che sono insieme chiamati a 
+reprimerla e a soddisfarla, - non che richiedere una forma di 
+reggimento politico, a cui la mutabilità del capo dello Stato 
+scemi stabilità, vigore e credito, ne richiede forse una, in cui 
+il potere esecutivo sia costituito ancora più fortemente, che 
+nelle monarchie parlamentari non suole essere; occorre, a 
+dirla altrimenti, a trattarla, a vincerla, a calmarla, e persino, 
+sin dove è lecito e possibile a contentarla, una monarchia 
+non ridotta a zero, come quella che intanto il Bertani ci 
+farebbe grazia di tollerare per poco, ma una monarchia, 
+potente nel giro della sua competenza politica e sociale, 
+gagliarda, fiduciosa di sé, supremamente attiva. Ci vuole un 
+imperio non usurpato; un imperio fondato in un'antica 
+tradizione di diritto, e in un attuale assenso di popolo; 
+l'impero di Germania o la monarchia d'Italia.</p>
+<p>Non paia strano, che, nel mio parere cotesta democrazia 
+sociale va non solo compressa, ma, in una certa misura, 
+contentata altresì. Però urge chiarirmi. è una quistione piena 
+d'ansietà, e non dilucidata a mio senno, abbastanza, se la 
+condizione economica e morale delle classi operaie e 
+campagnuole sia realmente migliorata da un secolo 
+in qua. La dimanda, io la formulo così: Questo classi si 
+sentono oggi soddisfatte della loro situazione più o meno di 
+quello che fossero cento anni or sono? - Giacché, è 
+certamente importante il provare, che esse hanno ora 
+maggiori diritti e più largo compenso del loro lavoro; ma 
+non basta all'assunto, non si prova altresì, che il complesso 
+delle lor circostanze è siffatto, che l'esercizio di cotesti 
+maggiori diritti e l'uso di cotesti maggiori compensi 
+producono ora nel loro animo una somma di soddisfazione 
+più grande, di quello che un'inferiore condizione giuridica e 
+minori salari producevano in passato. Se la società intorno 
+ad esse s'è così mutata, che le loro voglie sono acuite in 
+molto maggior proporzione che non sieno cresciute le loro 
+capacità di soddisfarle, e le dottrine morali e religiose, che 
+respirano ora, sono siffatte da turbare, commuovere e 
+sollevare i loro spiriti, anziché mansuefarli e raddolcirli, 
+come facevano prima; non che esservi vantaggio di sorte, vi 
+sarebbe infine grande scapito del loro benessere. Il Bertani 
+si mostra molto pensieroso di ciò. Cita una massima d'un 
+illustre professore fiorentino; <hi rend="italic">- chi più ha, e più può</hi>, 
+deve <hi rend="italic">concorrere a chi non ha e non può</hi>, e la dice 
+giusta. Davvero, <hi rend="italic">quod superest, date pauperibus</hi>, è 
+massima antica, e elle ha autore di molto più illustre. Ma 
+essa non che scioglierlo, non tocca neanche il problema. La 
+dottrina cristiana, per vero dire, mitigava questo di molto, e 
+ne rinviava in infinito la soluzione terrena; né per ora è 
+dimostrato che si possa surrogargliene un'altra con 
+miglior frutto. Ad ogni modo, il problema, come è posto 
+oggi, la trascende. Le classi infime, o quegli i quali parlan 
+per esse, non chiedono nulla alla benevolenza altrui, e 
+chiedono tutto alla presunzione del proprio diritto. Si può 
+dire che questa è falsa; e che il diritto inteso a lor modo, 
+sconvolge e perverte tutte le relazioni giuridiche le quali 
+nascono essenzialmente da quella che è la fonte d'ogni 
+diritto, la libertà di ciascuna persona morale. Ma ciò che 
+bisogna ricercare, è, se a questa falsa presunzione di diritto 
+non dieno occasione parecchie delle nostre leggi civili ed 
+economiche, le quali, muovendo appunto dalla ricognizione 
+di codesta libertà, hanno, come suole, perduto di vista i 
+limiti e vincoli e doveri, cui essa è astretta dalle necessità 
+del consorzio sociale, dalla necessità soprattutto, che l'utilità 
+di questo consorzio sia, il più che è lecito, sentita, usufruita, 
+se non in maniera uguale, il meno disugualmente che si può, 
+da tutti colori i quali v'hanno parte. Certo la società 
+moderna deve ritrovare in una nuova forma e che s'attagli al 
+suo genio, parecchie di quelle combinazioni di classi e 
+d'interessi, che sono state finite di distogliere sullo spirare 
+del secolo scorso. Le <hi rend="italic">associazioni degli operai</hi>, le 
+<hi rend="italic">società cooperative</hi>, le <hi rend="italic">banche popolari</hi> sono, 
+per mo' di esempio, ricerche, tentativi di questa fatta; ma 
+siamo a principio.</p>
+<p>Ora, appunto qui i repubblicani d'Italia hanno mostrato 
+tutta la vanità loro. Hanno lungamente esitato se dovessero 
+far causa comune cogl'<hi rend="italic">internazionalisti</hi> e co' 
+<hi rend="italic">socialisti</hi>, e si sono nell'ultimo Congresso 
+risoluti di sì, intendendo che se v'ha forza è in questi. Ma 
+ciò che preme è da una parte il tenere i <hi rend="italic">socialisti</hi> 
+lontani da ogni influenza e pro dominio nello Stato, e 
+dall'altra lo studiare amorosamente i miglioramenti possibili 
+nelle condizioni delle plebi; ora, come i repubblicani non 
+hanno saputo persistere nel primo punto, e anche hanno dato 
+il più picciolo indizio d'intendere il secondo. Dove invece il 
+partito moderato e monarchico v'ha atteso con molta cura, 
+quando per iniziativa d'alcuno dei migliori tra i suoi, quando 
+per via di disposizione governativa o di legge.</p>
+<p>Il Bertani scrive non essersi visto in tutto il tempo 
+dacché il regno d'Italia esiste, se non provvedimenti fiscali. 
+Di certo i Governi moderati si sono mostrati persuasi che la 
+prima necessità fosse equilibrare il bilancio dello Stato, 
+poiché uno Stato la: cui finanza duri disordinata, non è 
+anche costituito, è prossimo a dissolversi, ed ha dentro di sé 
+il principale fomito di rivoluzione che si possa pensare. Ma 
+erra stranamente chi affermi che nello stesso tempo una 
+gran trasformazione sociale non è stata fatta in Italia, la 
+quale non manifesta tutti gli effetti suoi, solo perché la 
+gravezza delle imposte e molte altre ragioni hanno fatto che 
+i risparmi s'accumulassero a stento, ed il capitale rimanesse 
+caro e scarso. Non è qui il luogo di esporre a parte a parte 
+gli elementi e i mezzi e i nodi di cotesta trasformazione, 
+quantunque sarebbe lavoro utile il farlo. Ma mi basta 
+ricordare le leggi sul Tavoliere di Puglia, sulla Sila di 
+Calabria, sul</p>
+<p>riscatto delle decime in terra d'Otranto, 
+sull'affrancazione dei censi, che hanno sciolta la terra, quasi 
+già del tutto in Italia, da ogni vincolo e dai, ogni dannosa 
+promiscuità di dominio; le leggi di vendita della sostanza 
+fondiaria, demaniale ed ecclesiastica e della censuazione dei 
+beni ecclesiastici di Sicilia, che devono, per il modo con cui 
+sono state fatte, avere moltiplicato, in maggiore o minore 
+misura, il numero dei proprietari della terra, ed hanno, di 
+certo, grandemente agevolato commerci e i trasferimenti di 
+questa. Il credito agrario è stato fondato dallo Stato, e se 
+nelle istituzioni che gli son proprie non è forse progredito 
+quanto era desiderabile, per qualche difetto del loro 
+organismo, le banche popolari, - una creazione quasi dovuta 
+del tutto al Luzzati, e che, in mani e con norme diverse dalle 
+sue, è andata sempre a male, - gli son venute in soccorso. 
+Ad esse attingono il credito duemila contadini tra 
+diciottomila agricoltori, piccoli proprietari, fittavoli; e il 
+moto della loro formazione è in via di sviluppo ed aumento 
+continuo, e nell'associazione ha acquistato ultimamente 
+quella forza che nasce dal cospirare dei mezzi di tutte ad un 
+fine, senza che nessuna perda di quell'autonomia e 
+spontaneità che le è necessaria ad acconciarsi al proprio 
+luogo in cui vive. Il Minghetti, quando fu ministro 
+d'agricoltura e commercio, istituì il Consiglio del lavoro e 
+della previdenza, che attese a studiare la riforma delle 
+società di mutuo soccorso e cooperative, ed i mali e rimedi 
+dell'emigrazione, che diserta le campagne; ed ora il 
+Minghetti stesso da deputato, poiché il Governo è 
+venuto nella mani di più colti, si vede, e maggiori uomini, 
+ha proposto una legge sull'emigrazione. L'istituzione delle 
+Casse di risparmio postali, il cui successo è già sicuro e 
+notevole, è dovuta al Sella. Una legge che limiti e regoli il 
+lavoro dei fanciulli nelle officine e nelle miniere vi sarebbe 
+già, se la parte moderata non fosse stata, il
+18 marzo 1876, sbalzata di seggio. La legge che protegge i
+fanciulli vagabondi dalle insidie e dalle rapine di gente 
+inumana e selvaggia, ha per autore il Guerzoni. Insomma, o 
+poco o molto si sia fatto sinora in Italia per allargare il 
+credito tra le plebi delle città e delle campagne, per volgere 
+a fini utili e diffondere l'associazione tra gli operai, per 
+ispirare la voglia e l'abitudine del risparmio, per un 
+legittimo intervento dello Stato nella protezione di quei 
+diritti che non sono capaci di difendersi da sé soli, 
+migliorare insomma le condizioni sociali delle classi tra le 
+quali la miseria e l'invidia suole accreditare dottrine che 
+sarebbero rovinose ad esso appunto per le prime, è tutto 
+dovuto alla parte moderata, liberale, monarchica o dentro 
+del Governo o fuori. La parte repubblicana non ha creduto 
+degno di sé se non un ufficio solo: infettare di passione 
+politica e volgere ad intento di cospirazione e di rivoluzione 
+tutte le istituzioni popolari, nelle quali ha posto mano. Dove 
+bisognava l'amore tra le classi, ha ispirato l'odio; dove il 
+lavoro sarebbe bastato a sanare le piaghe, ha consigliato 
+l'ozio del fantasticare rivoluzionario che le avvelena e le 
+inciprignisce; dove si grida da tutti <hi rend="italic">pace</hi>,</p>
+<p><hi rend="italic">pace</hi>, <hi rend="italic">pace</hi>, come la sola 
+invocazione atta a calmare gli sdegni che, minacciano le 
+società nostre, costoro non si sono dilettati né si dilettan che 
+di gridare guerra, non parendo loro che la salvezza sia se 
+non nel sognato assoluto predominio di talune idee e 
+persone e nella sperata assoluta servitù, anzi annientamento, 
+di altre persone ed idee. Ciò che manca loro è l'intuito vivo 
+di questa società nostra così complessa, la cui vita è la 
+varietà molteplice dei desideri, delle opinioni, delle 
+aspettative, e il cui progresso non può essere se non un 
+risultato lento, continuo, degli accordi che via via si fanno 
+tra tanti contrasti.</p>
+<p>In che questi accordi o tra tutti o tra molti o tra parecchi 
+di tali contrasti possano succedere in ciascun momento della 
+vita politica di un paese, è la dimanda a cui risponde di caso 
+in caso un programma pratico di governo, programma che i 
+diversi partiti devono e possono presentare ciascheduno alla 
+sua volta, secondo e quando par giunta l'ora che 
+l'inclinazione, l'istinto, il pensiero principale dell'uno o 
+dell'altro abbia l'indirizzo della cosa pubblica. Il libretto del 
+Bertani per piccolo che sia basta a provare che un siffatto 
+programma di governo manca a quel gruppo di 
+repubblicani, del quale egli si crede particolarmente il 
+capofila. Son già tre anni che l'Italia sta imparando che il 
+programma non manca soltanto ad essi, ma anche a tutta 
+quella sinistra colla quale sono andati in compagnia, e che 
+menava così gran vanto, prima che fosse vista all'opera ma 
+che ai fatti, per usare la molto tenue frase del Bertani 
+stesso, ha avuto troppo <hi rend="italic">inadeguato successo</hi>. La 
+ragione di questo fiasco è una sola: nelle condizioni attuali 
+della società un programma siffatto non può essere se non il 
+frutto di molta coltura e di un pensiero serio. Questa 
+necessità, anzi, costituisce ora la nobiltà dell'arte politica e 
+la dignità dell'uomo di Stato. Ora è doloroso, è pernicioso in 
+un Governo parlamentare che i partiti s'alternino al 
+Governo, senza che appaia la ragione del loro alternarsi 
+consistere in una vera e chiara diversità d'idee. Il paese 
+s'induce a credere che la loro gara non sia se non il frutto 
+d'una ambizione abbietta e sterile, e coll'abituarsi a 
+disprezzarli, si svoglia altresì di quelle forme di governo 
+nelle quali la loro azione e vicenda è efficace e necessaria.</p>
+<p>Il caso è strano davvero. La Sinistra venne al governo 
+col pretesto che la Destra in una questione speciale, donde 
+si concludeva a tutto l'indirizzo politico suo, esagerasse 
+l'ingerenza e la competenza dello Stato. Ora, in un tempo 
+breve, le cose son voltate in maniera, che la creazione del 
+terzo Ministero di sinistra ha avuto, tra molti altri motivi, di 
+certo anche questo, che nel partito si è sviluppata 
+un'opinione favorevole all'allargamento dell'ingerenza e 
+della competenza dello Stato. Il Bertani vuole che tutta 
+l'istruzione primaria sia messa nelle mani di questo e tolta 
+ai, comuni. Eppure, quando un ministro d'istruzione 
+pubblica propose, che la libertà de' comuni nelle nomine 
+dei maestri fosse soltanto ristretta e regolata così, che la 
+professione del maestro elementare diventasse 
+sicura, e desse qualche speranza di un aumento di salario 
+via via che s'inoltrava negli anni, trovò piccolo appoggio, 
+per vero dire, a destra, ma nessuno a sinistra. Un istituto, la 
+cui utilità morale può essere grande, - quello che accoglie in 
+un convitto i figliuoli dei maestri elementari poveri per 
+educarli gratuitamente, - è rimasto rattrappito e senza 
+espansione, dacché il governo è uscito fuori dalle mani della 
+parte moderata. E l'Assemblea, eletta nel novembre 
+dell'anno scorso, ha votato molte leggi concernenti, 
+l'istruzione primaria son tutti disegni già presentati prima 
+ch'essa fosse evocata da un <hi rend="italic">fiat</hi> violento del primo 
+Ministero di sinistra; disegni d legge che dall'avere aspettato 
+tanto non hanno tratto altro vantaggio se non di venir fuori 
+le deliberazioni della Camera monchi e storpi, ed incapaci 
+in buona parte di produrre gli effetti utili che ne sperano.</p>
+<p>Del rimanente, oggi la situazione è siffatta che, l'Italia 
+aspettasse qualcosa, non aspetterebbe altro se non d'uscirne 
+al più presto. Il Ministero, che, composto degli uomini, si 
+credeva, più radicali che sedessero a mancina della Camera, 
+è intanto tollerato dal Bertani, in quanto a lui pare e ne 
+spera, che prepari la fine, <hi rend="italic">senza inutili violenze</hi> a 
+tempo e luogo, della monarchia, non si reggerebbe senza 
+l'aiuto della parte moderata, che, certo, ha tutt'altro 
+intendimento e desiderio. Pure la parte moderata gli sa 
+grado di aver tratto il governo fuori di mani violente, e di 
+aver fermato quella putredine di discredito che lo corrodeva, 
+ed  umiliava insieme il paese; e non vedendo 
+possibilità di avere uomini suoi a capo dello Stato, 
+preferisce tra tutti, avversari dei quali è lecito di avere 
+stima. Se non che ciò produce due effetti: primo, che il 
+governo, retto da uomini forzati a cercare appoggio fuori 
+della parte loro propria, e che in questa stessa non ne trova 
+non a patto di fuorviare, non ha indirizzo chiaro, sicuro, 
+fecondo, ed inverte in ogni suo atto, per cansare pericoli ed 
+urti, le relazioni nelle quali l'Assemblea dovrebb'essere con 
+esso, aspettando invano d'esserne guidato anziché 
+presumere di guidarla esso; e poi, che intanto i repubblicani, 
+che possono concepire di tali speranze, quali il Bertani, il 
+più temperato di tutti, esprime, hanno la commodità, la 
+sicurezza di esser lasciati espandersi, ordinarsi, contare i lor 
+numeri, e combinare le loro forze. E ciò è il peggio: che 
+quest'aumento delle loro influenze ed attinenze, - naturale in 
+tutte le parti estreme, che non trovano vigili le opinioni 
+contrarie, - non è già un frutto di disposizioni effettive del 
+ministri o delle segrete o palesi intenzioni di essi, bensì una 
+conseguenza forzata, inevitabile, dell'aria che respirano, 
+dell'ambiente nel quale vivono. Finché rimarranno al 
+governo, forse non si vedrà nessun segno esterno del lavoro 
+sotterraneo che pure si compie, sopratutto se durano poco; 
+ma il giorno che, per qualunque cagione, dovessero uscirne, 
+e la direzione dello Stato venire in mani più risolute e 
+sicure, voi vedrete il suolo scoppiare in più luoghi. Oggi 
+l'Italia ha l'aspetto più sereno che qual sia altro paese 
+d'Europa; la politica ci sveglia così pochi odii, gare e 
+vendette, che sembriamo quasi dimentichi di noi. Ma non ci 
+illudiamo: si preparano, crescono, invigoriscono quelle 
+forze e disposizioni morali nei partiti contrari al presente 
+ordine di cose, sia perché monarchico, sia perché unitario e 
+nazionale, le quali o prima o poi turberanno, se non vi si 
+pensa a tempo, tanta serenità, e noi vedremo rinnovarsi 
+gesta e fatti, dai quali sembriamo lontanissimi ora. La 
+caduta della parte moderata, e, - come è naturale, sopratutto 
+in una parte che non è capace per sua essenza di nessun 
+vigoroso ordinamento interno proprio fuori della generalità 
+della cittadinanza e del governo, - la diminuzione della sua 
+influenza e seguito nel paese, va producendo il necessario 
+effetto suo, il gonfiare cioè delle parti radicale e clericale 
+non atte che a cozzare l'una coll'altra, e a preparare al 
+giovine Regno dolorosi giorni.</p>
+<p>Intanto, se è vero ciò che si è detto dianzi, che le 
+condizioni attuali delle classi operaie delle città e delle 
+campagne vogliono Governi di forte mano e di molta 
+iniziativa, noi, si vede, siamo appunto come non dovremmo 
+essere. Abbiamo un Governo siffattamente avviato, da 
+dovere necessariamente riuscire fiacco ed infecondo. Dove 
+la certezza dell'indirizzo politico e la copia delle idee 
+dovrebbero abbondare, l'oscillazione di quello e la penuria 
+di queste appaiono solo. Dove si dovrebbe vedere elevarsi 
+sicura e rigogliosa una politica, che, salda ed immobile nella 
+persuasione di tutti, sulla base d'una monarchia non 
+diminuita di potere né di prestigio non si lasciasse sviare, 
+nel pensiero temperato e continuo della riforma 
+efficace dello Stato, da ghiribizzi di uomini e di partiti, ma 
+ascoltasse solo la voce della coscienza pubblica, si vede, 
+invece, una politica interna, da cui ciascuno è in grado di 
+sperare le cose più opposti, ed una politica esterna, che, se 
+l'Italia non avesse ereditato dal Piemonte un posto nel 
+consorzio internazionale degli Stati di Europa, niente prova 
+che l'avrebbe acquistato oggi essa stessa. Se qualcuno ci 
+fosse di parola o di penna tanto potente da infondere 
+nell'animo de' cittadini un vivace sentimento della 
+situazione dello Stato, l'aspettazione di quelli sarebbe certo 
+questa, che il medesimo uomo trovasse la via di trarneli 
+fuori. Ma quest'uno oggi manca; e quell'ansiosa 
+aspettazione naturale che manchi anch'essa con lui. L'Italia, 
+che non aspetta la Repubblica, né, nelle condizioni presenti, 
+un Governo rispondente ai bisogni della civiltà sua, vuole 
+soltanto, che nell'intervallo i partiti estremi non l'arruffino, 
+né affievoliscano le instituzioni nelle quali ha fede.</p>
+<p>Il progredire è il desiderio di tutti, ma richiede due cose: 
+stabilità, nel punto onde sì parte; certezza a mano a mano 
+nella meta ove s'intende giungere. Dice a ragione il Mill, 
+che le forze colle quali si conserva lo Stato, son le stesse 
+che, in un diverso grado d'intensità, ne effettuarono il moto 
+e il progresso. I repubblicani vogliono invece rendere 
+mobile e scorrevole il punto di partenza; e quanto meta, ne 
+vedono una sola, il capo dello Stato elettivo ed a tempo. 
+L'Italia, si può esser sicuri anziché aspettare ciò, è 
+impensierita invece, che non prendano troppo balìa 
+quegli i quali l'aspettano. Non è contenta in ogni parte, - e 
+come lo potrebbe essere? - del suo ordinamento 
+amministrativo, finanziario, economico; ma è abbastanza 
+vecchia, matura, assennata, per intendere che questo 
+continuo vocìo che si deve ogni cosa e sempre rifare da 
+capo, questa smania di leggi, che non si votano oggi, se non 
+per dire che s'hanno a rifare domani, e rumore di ciarlatani, 
+innocenti e inconsapevoli, che stordiscono prima sè e poi 
+altrui. Essa vuol camminare, sì, ma come persona sana; non 
+già come persona ebbra o riarsa dalla febbre. Gli ultimi due 
+anni devono avere insegnato a tutti, che schermire il dolore 
+col dar volta, non lo scema; che v'ha necessità di cose, cui la 
+mutazione do ó li uomini non varia né altera punto; e che i 
+progressi veri sono cosa affatto diversa dalle promesse 
+vane. Il paese è tutt'altro che inclinato ad immaginare, che 
+una modificazione in un punto della forma esterna dello 
+Stato, migliorerebbe in nulla ciò che gli può parere 
+desiderabile d'emendare o rinforzare nella sua vita. ù troppo 
+sperimentato, per credere, che con siffatta modificazione 
+esso, come il Bertani dice, recherebbe in atto un ideale; né 
+la sua storia mostra quella vaga caccia d'ideali, che l'autore 
+nostro molto bizzarramente figura attraverso, i secoli, e 
+persin nel Papato. Sa invece, che qualunque modificazione 
+di questo genere, anzi qualunque avviamento ad essa lo 
+turberebbe profondamente, e vi susciterebbe una lotta 
+intestina che, s'anche non diventasse sanguinosa cesserebbe 
+perciò d'essere grandemente perniciosa ad ogni 
+tranquillo e fecondo avvenire. I monarchici non si devono 
+lasciar dire, ch'essi si contentano d'un ideale di Stato 
+inferiore e men bello di quello che i repubblicani agognano. 
+Né, devono parere come vergognosi dell'ideale loro, 
+accettando per patto, come s'è visto, che in un banchetto 
+politico non si cominci dal far brindisi al Re e alla Regina, o 
+in una cerimonia pubblica si dica avanti ad essi silenziosi 
+che la monarchia è un <hi rend="italic">succiamento terribile delle forze 
+vive d'una nazione</hi>; dove qui sentiamo il contrario. 
+L'inferiorità della forma monarchica è un falsissimo 
+assunto; mai quelli, che l'accettano, e si contentano di 
+difendersi coll'opportunità momentanea di non mutare, 
+preparano negli animi la distruzione della forma stessa. La 
+monarchia ha questo beneficio sopra tutti gli altri 
+ordinamenti politici, che essa sola, in una società come la 
+nostra, impedisce che questa diventi da cima in fondo il 
+ludibrio degl'intriganti politici, ed è in grado di salvarla da 
+questi, se per poco prevalgono; e mentre essa è capace di 
+tollerare ogni riforma dello Stato davvero progressiva, dà al 
+Governo la forza di aspettare, che la riforma sia davvero 
+riconosciuta tale, e voluta come tale dalla coscienza 
+generale della cittadinanza. Qui è la salvezza dell'Italia 
+avvenire; non cadere nelle mani degli sperimentatori 
+arrisicati, che proclamano per speranze sue le loro proprie. 
+Qui è la politica vera: non avventurare mutazioni nelle leggi 
+e negli organismi sostanziali dello Stato; ma, posta come 
+sua forma certa e sicura la monarchia, ricusare ogni 
+mutazione, che si annunci come il prodotto di speculazioni 
+subiettive o di vanità di persone, e insieme non ricusarne 
+nessuna la quale appaia veramente dettata da una larga, 
+matura, costante convinzione del paese.</p>
+<closer><dateline>1 luglio 1878</dateline></closer></div1>
+
+<div1><head>LA SITUAZIONE DEL PAESE E IL DIRITTO D'ASSOCIAZIONE</head>
+
+<div2><head>I</head>
+<p><quote rend="block">
+<lg><l>V'ha qualcosa di guasto nello Stato</l>
+<l>Di Danimarca.....</l></lg></quote></p>
+
+<p>dice Marcello nell'Amleto; e Orazio risponde:
+<quote rend="block"><p>Iddio provveda.</p></quote></p>
+<p>Vi sarebbe egli qualcosa di guasto in Italia? Bisogna 
+riguardarvi; e ad ogni modo, col beneplacito di Dio, 
+provvedervi noi.</p>
+<p>Io non sono sgomento; anzi, devo dire, chi fosse 
+sgomento, non mi parrebbe adatto a giudicar bene, e a 
+distinguere le magagne reali dalle fantastiche. Il ministero 
+che ci governa ora, venne su spinto sopra tutto dal 
+sentimento, eccitato dagli scritti dell'illustre letterato 
+che ne fa parte, e dagli atti e dalle parole dei più autorevoli dei 
+suoi colleghi, che le amministrazioni dello stesso suo partito 
+ond'era stato proceduto, non avessero rialzato il carattere 
+morale del paese. La sua venuta rispose al desiderio 
+generale, intanto, di respirare un'aria più schietta, più pura, 
+più libera. L'onor. presidente del Consiglio, discorrendo il 
+15 ottobre a Pavia, suggellò l'origine sua e dei suoi 
+compagni con un motto: <hi rend="italic">non saremo abili, ma onesti</hi>. 
+E nessuno può negare che questa sorta d'onestà appartenga a 
+lui e a' suoi colleghi principali in due rispetti; poiché essi 
+sono e privatamente onesti, e politicamente altresì, sin dove 
+almeno onestà politica vuoi dire fedeltà alle opinioni 
+espresso prima di giungere al Governo. Vero,</p>
+<p>che il Ministero, com'è rimasto composto sin a 
+qualche giorno dopo il discorso di Pavia non si poteva tutto 
+insieme appropriare l'onestà politica così intesa. Ma 
+appunto il discorso di Pavia l'ha disciolto; e quegli tra i suoi 
+membri, i quali non s'erano associati prima né avevano 
+potuto convenire poi nelle opinioni manifestate alla Camera 
+o seguite nella condotta del Governo dal presidente del 
+Consiglio o dal ministro dell'interno, ne sono usciti. Però il 
+presidente del Consiglio è stato autorizzato dal re a 
+scegliersi altri colleghi in luogo de' tre dei quali le 
+dimissioni sono state accettate. In questa scelta non è anche 
+riuscito né bene né in tutto; ma quando vi sarà finito di 
+riuscire e sin dove è riuscito già ora, si dovrà dire il 
+Ministero ormai è tutto d'un pezzo, ha detto quello che 
+vuole nella politica interna, nell'estera, in amministrazione, 
+in finanza; e il paese sa quale è la via per la quale deve 
+essere menato, e può misurarla. Né tra i due discorsi di 
+Pavia e d'Iseo corre maggior differenza di quella, davvero 
+grandissima, che distingue un uomo esperimentato da uno 
+punto pratico nel discorrere, soprattutto quando il primo ha 
+avuto modo di parlare avanti ad un uditorio più serio e 
+meno smanioso del secondo. I tratti del programma del 
+Governo sono, insomma, gli stessi; ed è lo stesso il senso e 
+il valore o l'effetto. Noi siamo quindi, nella migliore 
+condizione per discutere gli affari pubblici come s'addice ad 
+uomini liberi. Non abbiamo nessuna ragione o pretesto di 
+disistima vicendevole; e sappiamo, con quanta precisione è 
+possibile, la mira cui intende dirigersi o si dirige, suo 
+malgrado, il Governo.</p>
+<p>Non è mio pensiero il discutere a parte il programma 
+del Ministero. L'ha fatto l'onorevole Minghetti a Legnago, 
+colla sua chiarezza e facondia mirabile; e non mi 
+gioverebbe a nulla qui il provare che l'onorevole Zanardelli 
+non è stato in grado di rispondergli ad Iseo. Il mio disegno è 
+tutt'altro; né intendo colorirlo, ma appena accennarlo. Che 
+vuol egli dire sostanzialmente, io mi chiedo, l'avviamento 
+attuale del Governo, e quale è, rispetto ad esso, la situazione 
+morale del paese?</p>
+<p>Se devo ridurre le molto parole in poche, noi siamo a 
+questo, che la mutazione succeduta il 18 marzo del 1876,
+nella prevalenza dei partiti in Parlamento ha ormai acquistato
+un senso chiaro. Il fumo, dal quale questo era stato annebbiato, delle
+riforme amministrative e finanziarie, s'è dileguato o ha preso 
+tutt'altro colore che bigio. Se quelle eran la meta cui il paese 
+agognava, il moto in cui s'è messo per giungervi, le ha 
+oltrepassate. Se resta qualcosa del desiderio di quelle, se il 
+pensiero del Governo vi accenna tuttora, non è più 
+meramente amministrativo, non è meramente finanziario il 
+criterio che vi si applica. Il criterio è sopratutto politico. 
+Nell'amministrazione si allarga il campo del potere elettivo; 
+nella finanza, con un intento benevolo, ma non ponderato, e 
+che nei modi coi quali v'è dato effetto, non è in grado di 
+condurre se non a conseguenze appunto opposte, si ha il 
+proponimento di aggradirsi le classi popolari. La principale 
+questione è diventata per oggi la riforma della legge 
+elettorale, sicché il suffragio riesca poco meno che 
+universale, e ne resti parte esclusa, parte infinitamente 
+scemata di peso, la parte più soda, più tranquilla, più 
+conservativa, meno torbida del paese. Per aggiungere valore 
+a vigore a quella invece più mobile, più inquieta, più 
+agitata, più novatrice, è mutato persino il modo del 
+suffragio, e surrogato a quello uninominale, che abbiamo 
+ora, senza temperamento di sorta, lo scrutinio a più nomi in 
+ciascun collegio sicché s'accresce di gran lunga il bisogno 
+dell'organizzazione e della concitazione e dell'intrigo largo, 
+diffuso, corrotto, dei partiti politici. Contro questa 
+prevalenza d'un criterio meramente politico nell'azione 
+legislativa dello Stato, la coscienza del paese stesso 
+ha combattuto persino durante le due prime amministrazioni 
+di Sinistra; ma ora, come pur doveva essere, segno 
+incontestata, ed a ragione poiché s'illudevano coloro i quali 
+immaginavan che una mutazione come quella succeduta tre 
+anni or sono, potesse cansare di arrivarci. Ma è chiaro che 
+cotesta prevalenza non si fermerà qui. Il potere elettivo 
+accresciuto di valore e di estensione nelle amministrazioni 
+locali, la finanza disordinata per apparenza di beneficare le 
+classi meno agiate, il suffragio così dannosamente allargato, 
+lo scrutinio di lista, diventerebbero di per sé stessi il mezzo 
+naturale, infallibile di modificare più tardi la costituzione 
+politica dello Stato; però, in Italia non aspetteremo che 
+operi. Qui non si avrà pazienza che le riforme politiche 
+maturino lentamente nella coscienza del paese; basta che 
+spuntino nella fantasia d'un uomo di Stato, o di poco o di 
+molto credito, per diventare oggetto di deliberazione 
+legislativa. Si può stare, quindi, sicuri che proposte di 
+modificare lo Statuto ritorneranno ad apparire anche prima 
+che cotesti mezzi di più viva agitazione politica sian 
+diventati operosi, e saranno, assai probabilmente, il primo 
+pasto che si vorrà imbandire ad un'assemblea rinnovata. Già 
+uno dei principali uomini di Sinistra aveva fatto, di tali modificazioni, il punto 
+principale del suo programma di governo; e se il terzo 
+Ministero di Sinistra non ne discorre ora, niente vieta che 
+non ne discorra poi, o che un quarto Ministero non 
+ne discorra invece di esso. L'avviamento è là; e 
+s'illuderebbe stranamente chi credesse che eccitato cotesto 
+più vivace moto politico nel paese, si potrà fermarlo innanzi 
+che se ne sia visto qualche effetto nella costituzione dei 
+poteri pubblici. Invece, è da dubitare, se sarà agevole di 
+dargli una sosta, quando avrà raggiunto qualcuno degli 
+effetti soltanto previsti ed annunciati ora tra gli uomini i 
+quali, venuti da diversa parte, consentono oggi, con più o 
+meno persuasione, nell'aver fede alla monarchia. Difatti uno 
+dei fenomeni più naturali, più necessari nei moti politici è 
+questo, che in essi un <hi rend="italic">pensiero scoppia dall'altro</hi>, una 
+voglia dall'altra; e s'intende; il proprio di essi è di suscitare 
+desideri di aspettazioni, che non riesce loro poi, in nessuno 
+dei passi successivi di soddisfare. Sicché si lusingano 
+sempre, che occorra fare un passo più in là, perché quella 
+soddisfazione aspettata arrivi.</p>
+<p>Questo a me pare il carattere fondamentale nel 
+Governo, il suo intento od effetto principale: eccitare un 
+moto politico nel paese, fare che la fibra politica dentro il 
+corpo suo diventi più eccitabile e più eccitata. E qui 
+spieghiamoci; non voglio dire che esso preveda che un moto 
+siffatto deva o possa essere distruttivo delle istituzioni, o 
+che miri a questo. L'accusa delle intenzioni è la cosa più 
+contraria alle abitudini della mia mente,</p>
+<p>Ora in quali condizioni è il paese, nel quale il Governo 
+esercita un'azione siffatta?</p>
+<p>Il paese nella sua molto gran maggioranza non ha 
+nessuna voglia di una vita politica più agitata, di 
+esperimenti politici insoliti e nuovi. Si può con sicurezza 
+affermare, che esso è invece stanco di quella tanta che ha 
+avuto sinora, e chiede riposo. Però, si aggiugne, che non 
+avendo tratti dalla ricomposizione nazionale quei benefici 
+che ne aveva sopra tutto e con troppa fretta sperati, ed 
+essendo stata quella accompagnata da sacrifici non pochi e 
+di natura da non eccitare per lo più gli entusiasmi atti a 
+rendere leggieri e sopportabili i più acuti dolori, cotesta gran 
+maggioranza, svogliata da esperimenti nuovi, non si sente 
+molto alacre e risoluta a mettere da sé ostacolo valido alle 
+minoranze, che ne tentassero in un momento opportuno. La 
+cittadinanza, insomma, guardata nel suo complesso, è in 
+un'ora di sconforto, in una di quelle ore che vogliono 
+Governi seri e forti per trascorrere senza danno trabalzi e 
+pericoli. Ma minoranze turbolente ve n'ha in Italia; ve n'ha 
+di quelle, che vogliono ricondurla indietro, e di quelle non 
+più perniciose, ma più rigogliose, alle quali le 
+trasformazioni, che ha già subite, non bastano. E v'ha un 
+intervallo di tempo, nel quale cotesta, minoranze d'intenti 
+opposti cooperano allo stesso fine, cioè minano a loro 
+potere e scalzano d'accordo lo Stato; e noi siamo in questo 
+intervallo. Lasciando stare le minoranze retrive, che hanno 
+contrario il genio dei tempi e la fortuna, prendiamo quelle 
+che si chiamano e si credono progressive o radicali. Ve n'ha 
+di due sorta, repubblicano e socialiste; quelle mirano a 
+mutare la forma politica, queste, di giunta, l'assetto sociale 
+dello Stato. Camminano, però, per un pezzo 
+insieme; poiché le seconde credono di non poter 
+riuscire a mutare l'assetto sociale dello Stato, senza averne 
+innanzi mutata la forma politica. Ora, un fatto è certo, che 
+queste due minoranze in Italia esistono; e si organizzano e si 
+agitano e si diffondono ogni giorno più, se è incerto quanta 
+sia la forza rispettiva di ciascheduna. Ed un altro fatto, è 
+anche certo, che gl'internazionali non si contentano delle 
+città, e già travagliano le campagne; e se le mie 
+informazioni sono esatte e veridiche, in più d'un luogo 
+dell'Italia centrale, le relazioni tra coloni e proprietari se ne 
+risentono, ed hanno perso o vanno perdendo l'antica 
+cordialità e fiducia.</p>
+<p>Il Governo guarda con diverso occhio coteste due 
+minoranze turbolente. Non già che consenta nel disegno 
+delle une e non in quello dell'altre; le ripudia, in cuor suo, 
+amendue. Ma <hi rend="italic">nel sommo della bocca</hi> non discorre 
+della minoranza repubblicana collo stesso cipiglio e 
+disprezzo con cui discorre della minoranza socialista. In ciò 
+non discorda dal primo Ministero della stessa sua parte, 
+quantunque questo finisse per alienarsele e minacciarle 
+amendue. L'effetto di cotesta maniera di giudicare è, che la 
+minoranza repubblicana nella quale il ministero aveva già 
+grandi amici prima, non l'inimica ora; anzi, la parte di 
+quella, che ha accettato d'entrare in Parlamento, e di giurare, 
+aspettando, al re, è il partito parlamentare, sul quale, 
+sopratutto oltre al piccolo gruppetto suo, il Ministero può 
+meglio contare. Né la minoranza socialista, quantunque 
+minacciata, l'osteggia fieramente; primo punto, non vede, 
+gli effetti seguire alle minaccie; poi quel tanto di 
+favore indebito secondo noi, di libertà legittima secondo il 
+Ministero, ch'è consentito alle associazioni repubblicane 
+basta intanto alle socialiste.</p>
+<p>Né la minoranza repubblicana discuto in astratto 
+soltanto o aspetta a mani giunte. O molto, o poco, o punto 
+numerosa che la sia, essa apparecchia i due mezzi necessari 
+dell'azione sua: l'allentare, il dissolvere, il tentar di 
+corrompere la forza ordinata dello Stato, e l'organizzarne 
+una sua. I circoli, che hanno preso nome da un caporale, 
+fellone contro il re e i suoi compagni; i tiri a segno 
+repubblicani, son prova di questa doppia azione. Il 
+Ministero ha in vero tanto orrore de' primi, quanta è la 
+impotenza che sente a reprimerli; e i secondi spera di 
+dominare con una legge generale sul tiro a segno, che non 
+avrà altro effetto, se non di aggiungere forza a quelli soli. 
+È infatti assurdo credere, che il complesso dei cittadini, cui 
+non muove una passione politica, consenta a spendere il suo 
+tempo nel prendere una abitudine delle armi, dalla quale 
+non aspetta nessuno effetto.</p>
+<p>Le cose dette bastano a provare, che se la maggioranza 
+è restia all'agitazione politica, è aliena dal tuffarcisi, dal 
+continuarla, v'ha minoranze ardenti appunto a farlo esse; e 
+poiché in generale checché il Ministero dica, non sentono in 
+esso un ostacolo o neanche un nemico, la disposizione dei 
+loro animi non è quella stessa che sarebbe, sapessero al 
+governo un Ministero, che, pur rattenendosi, per ossequio 
+alla legge secondo che l'intendesse, dal molestarle, avesse e 
+presso quelle e in tutto il paese la riputazione di 
+esserne inimico risoluto e schietto. Sarebbe soverchio il 
+dire, che essa creda il Ministero consenziente, come di certo 
+non è; ma sarebbe anche falso l'asserire, ch'esse vi vedano 
+una di quelle barriere che non si saltano. La minoranza 
+repubblicana immagina che una parte non picciola di coloro 
+i quali già le appartenevano ed ora si sono dilungati da essa, 
+non dissentono però da questo concetto, che, cioè, ove la 
+repubblica deva venire per effetto d'una deliberazione del 
+paese lentamente maturata, tranquillamente effettuata, non 
+vi sia nulla a ridire. Il che sarebbe vero, un'esperienza già 
+lunga non insegnasse che deliberazione del paese vuol dire 
+volontà di pochi, imposta a molti, od a tutti; e se la 
+compagine così recente dell'Italia ricostituita potesse 
+resistere alla prova a cui la si sfida.</p>
+<p>Noi abbiamo, dunque, minoranze vogliose di disfare, 
+una maggioranza svogliata di affrontarle, ed un Governo a 
+cui quelle si affidano più che questa. D'altra parte, se noi 
+guardiamo fuori delle parti politiche, non troviamo nulla 
+che temperi il danno della situazione di quelle. L'Italia è 
+stata sorretta in tutto il suo cammino sinora da una 
+condizione di cose nel rimanente d'Europa, che l'è stata 
+favorevole in due rispetti. In primo luogo il moto nazionale 
+e liberale, che ha avuto un ripiglio fortunato in Italia nel 
+1859, si vide seguìto da moti consimili nel 
+resto d'Europa. Dopo il 1859, la libertà 
+costituzionale, accreditata presso di noi dagli eccellenti suoi 
+frutti, prese piede in Austria; l'Ungheria ritrovò un assetto 
+nazionale; il Governo dell'imperatore Napoleone 
+s'allentò, e cominciò ad accogliere alcuni de' principi e 
+norme dei regimi liberi; la Germania accelerò, confermò un 
+riordinamento nazionale più vigoroso. In secondo luogo, noi 
+non restammo mai soli; fummo prima colla Francia contro 
+l'Austria; poi contro questa stessa colla Germania; infine, 
+compimmo la nostra impresa se non con piacere di tutti, 
+senza opposizione di nessuno. Oggi, nei due rispetti, la 
+situazione è mutata. Noi non troviamo né nell'interno degli 
+Stati una condizione, un avviamento conforme a quello 
+dello Stato nostro, né nelle relazioni di nessuno degli Stati 
+forestieri un concorso, un aiuto a qualcuno dei nostri 
+interessi, senza dire che neanche di questi si vede un'idea 
+chiara e precisa, né nel Governo né nel paese. L'amicizia 
+dell'Austria, la più utile per noi, poiché nessun'altra ci 
+permette meglio di attendere con successo e quiete agli 
+affari nostri, c'è messa a pericolo e dalla sua politica 
+nell'Oriente, a cui noi non ci possiamo associare senza 
+danno, e dalla condotta del Governo italiano, che lascia ad 
+una parte politica, la quale infine mette capo a Garibaldi e si 
+collega col Ministero stesso, minacciare alcune Provincie 
+austriache, solo perché in tutto o in parte abitate da Italiani. 
+La politica interna della Germania è costretta dal socialismo 
+a pigliare un indirizzo affatto contrario a quello in cui siamo 
+noi, ed a stringere i freni, dove noi diciamo, che non ve ne 
+sia; né la sua politica estera è meno alienata dalla nostra, 
+poiché quella è tanto chiara quanto la nostra è buia; e 
+durante tutta la crisi orientale, e prima e innanzi e 
+durante il Congresso, s'è visto che i tentativi del Ministero 
+italiano di prendere a guida la Germania son sempre falliti, 
+poiché questa non intendeva fare da guida. S'aggiunge che il 
+Governo germanico non può ora essere senza qualche grave 
+sospetto verso di noi, poiché teme che tutta la nostra 
+condizione interna ci cacci verso la Francia, e ci avvicini 
+questa necessariamente. E certo è così ma in verità essa ci 
+avvicina in Francia piuttosto a u partito che non a tutto il 
+paese; e quantunque quel partito abbia ora il disopra, e 
+l'avrà per qual che tempo, la sua fortuna non è la migliore 
+àncora di salvezza per noi, anzi può diventare la maggiore 
+spinta ad una rovina precipitosa nell'intorno del nostro Stato 
+in uno di quei sussulti e sobbalzi che arrivano improvvisi, e 
+scuotono sin dalle fondamenta gli Stati, già preparati a saltar 
+da una lunga debolezza del Governo. Questa cattiva 
+situazione estera, nuova nella storia del nostro Regno, 
+concorre a schiacciare, ad intorpidire gli spiriti. Sentire di 
+essere diventati grossi e rimasti piccoli insieme, soffoca, 
+angoscia, dissolve. Un paese non respira largamente, non 
+vive prosperoso se non lo consola il pensiero ch'esso è 
+qualcosa e per qualcosa al mondo. I popoli, come le persone 
+singole, muoiono chiusi in sé medesimi. Ora, noi non 
+sappiamo dove il nostro nome oggi, dove la nostra influenza 
+arrivi ed abbia, non ch'altre, un senso. Il mondo è per noi lo 
+spazio, donde ci sentiamo, son per dire, esclusi.</p>
+<p>Non è meraviglia, che nessuna nostra operosità</p>
+<p>sia eccitata, rinfrancata da una tal condizione di 
+cose dentro e di fuori. L'agitazione politica, non consentita 
+da tutto il paese, non l'avviva, ma l'assonna; la sua fibra non 
+ne è fatta più sensibile ma più indolente. Se la sicurezza 
+degli animi è per poco scossa, e la mente pubblica è tenuta 
+sospesa da disegni vari e confusi, e delle molte vie, che le si 
+tracciano dinanzi, non gliene s'apre nessuna, e si diffonde 
+una mala soddisfazione di tutto e di tutti, e non si vede 
+uomo, nella cui mano s'abbia fede, e tutto diventa falso e 
+posticcio, lodi e biasimi, - l'effetto può essere uno solo: che 
+ciascuno aspetta e nessuno fa. Sarebbe uno studio 
+grandemente utile e d'infinito interesse l'andare additando i 
+riflessi di questa generale disposizione di spirito nei 
+commerci, nelle industrie, nelle amministrazioni dello Stato, 
+delle Provincie, dei Comuni, nelle scuole, nei libri, in tutto 
+il moto morale e intellettuale del paese, ma non è il mio 
+pensiero d'entrare qui in questo studio. Mi piace rimanere 
+nella sfera dell'azione governativa; della quale quando fosse 
+mutato l'indirizzo, io credo cotesta disposizione morale 
+degli spiriti si correggerebbe. Poiché, l'azione del Governo 
+sull'andamento d'una società non è sempre ugualmente 
+potente, nei casi, nei quali la magagna, che vizia un paese, è 
+quella che s'è detto, - una spossatezza grande della 
+maggioranza, e un'irrequietezza crescente delle minoranze, - 
+e lo Stato è recente e s'è, come il nostro, eretto su un gran 
+sentimento nazionale, dipende dalla condotta del Governo 
+poca meno che in tutto, il risanarlo e il ridargli la lena. 
+Ma ciò non possono i Governi, i quali, in luogo 
+d'assumere iniziative grandi, le schivano tutte; e in luogo di 
+esercitare sul paese i poteri che sono la tutela naturale di 
+questo, vi rinunciano. Ora, questo appunto è il caso nostro. 
+Il Ministero, sollecito di promettere e presentare leggi, che 
+stuzzicano gli appetiti malsani, intanto, raggrinza le 
+funzioni sue; ed ha aria d'un uomo che, piegato, le braccia, 
+guarda molte forze disordinate contendersi il predominio, 
+curioso di vedere quale deva prevalere infine. Questa 
+indifferenza gli pare una virtù e una dottrina; e da essa è 
+nata tutta la sua teorica dei doveri, che gl'incombono 
+rispetto alle associazioni repubblicane, le quali lascia così 
+tranquillamente ordinare e largamente diffondere.
+</p>
+</div2>
+<div2><head>II</head>
+<p>Ora, rinviando ad altre occasioni il penetrare più 
+addentro nello spirito pubblico, e il riguardarne più lati, io 
+voglio esaminare qui, se la teorica esposta e seguita dal 
+Ministero su questo punto è vera, e quali sono i pericoli 
+ch'essa possa produrre. Altri soggetti, in effetti, possono 
+essere più dilettevoli, ma nessuno più urgente.</p>
+<p>Ora, a me non pare che la dottrina del Governo sia vera, 
+né che sia a dirittura impossibile il ritrovare una dottrina 
+giusta su questo soggetto delle associazioni e il praticarla 
+con rettitudine, senza indulgenze colpevoli o violenze 
+arbitrarie.</p>
+<p>Che è lo Stato? è una associazione naturale, primigenia 
+e necessaria, nella quale le relazioni tra quelli che lo 
+compongono sono determinate dal diritto e dall'utilità, e 
+siffattamente ordinata, da potere estrinsecare tutti i poteri e 
+compiere tutte le funzioni, che sono richieste dal grado di 
+sviluppo intellettuale e morale dei suoi membri, e 
+conferiscano a mantenerlo, a migliorarlo. Ora, in cotesto 
+Stato è possibile che alcuni cittadini, più o meno, combinino 
+associazioni particolari, distinte da quella generale di cui 
+fanno parte tutti, e destinate a conseguire fini loro 
+propri e a promuovere interessi comuni, sia materiali, sia 
+ideali, i quali stiano principalmente a cuore di quei tanti che 
+s'uniscono. In che differiscono queste associazioni 
+particolari da quelle generali? In ciò, che nessuna di esse 
+mette i cittadini, che vi si combinano, in <hi rend="italic">tutte</hi> le 
+relazioni, nelle quali stanno coloro i quali formano 
+l'associazione generale; che ciascuna li mette solo in alcune 
+relazioni meramente volontarie e punto necessarie; e che 
+infine non hanno propriamente <hi rend="italic">poteri</hi>, non quando e 
+dove l'associazione generale o lo Statuto, dentro cui stanno, 
+vuole o permette che gli abbiano, e ne gli investe, e ad ogni 
+modo questi stessi poteri non gli esercitano, se non verso i 
+loro componenti o verso chi entra in una relazione giuridica 
+con esse, e a tempo e a certi precisi patti dai quali ha sempre 
+modo, più o men facile, chi vuole di disciogliersi o prima o 
+poi. Coteste associazioni particolari, adunque, sono dentro 
+lo Stato, e in tanto possono esistere, in quanto questo esiste.</p>
+<p>Par quindi chiaro che sino a che il loro fine o si 
+restringe a promuovere l'utilità de' lor propri componenti, 
+o ha anche in mira uno degl'interessi comuni dello Stato, 
+l'associazione generale dei cittadini, onde questo è 
+costituito, non ha ragione d'impedirle o d'incagliarle, e 
+farebbe danno a sé stessa, ove lo tentasse; ma quando esse 
+prendessero per loro oggetto il distruggere l'organismo dello 
+Stato nelle sue parti essenziali, l'associazione generale dei 
+cittadini o lo Stato lascierebbe ledere il diritto di tutti, non le 
+fermasse o le reprimesse. Quali sono queste parti 
+essenziali dell'organismo dello Stato, cui le associazioni 
+particolari non possono attentare? Prima, la costituzione 
+stessa dei suoi poteri pubblici; poi, i principi fondamentali 
+su cui posa la sua costituzione sociale, la proprietà, per mo' 
+d'esempio, e la famiglia: ché non intendo annoverarli tutti. 
+Se quindi volessero formarsi associazioni particolari, le 
+quali avessero per loro intento e in qualunque modo di 
+distruggere l'organismo politico o sociale dello Stato, esse 
+non sarebbero né legittime, né legali; e lo Stato, che ha 
+l'obbligo di tutelar sé medesimo, come l'instituzione nella 
+quale vivono tutte, ha per conseguenza il diritto d'impedire 
+che associazioni particolari siffatte si estendano e si 
+diffondano. In una monarchia, quindi, le associazioni 
+repubblicane non hanno diritto d'esistere, come in una 
+repubblica non hanno diritto di esistere le monarchiche: e né 
+in una repubblica, né in una monarchia, del cui assetto 
+sociale la proprietà individuale sia fondamento, hanno 
+diritto di esistere associazioni intese a negarla. Quelle, o 
+repubblicane in una monarchia, o monarchiche in una 
+repubblica, attaccano nell'essenza sua l'organismo politico 
+dello Stato; queste, il cui scopo è di non riconoscere altra 
+proprietà se non comune a tutta insieme la società in uno od 
+altro modo, ne distruggono l'assetto sociale. Tali associazioni 
+vogliono dire <hi rend="italic">rivoluzione</hi>. La rivoluzione può 
+essere un fato storico, e avere ragione in una necessità che 
+soprasta i singoli Stati, e li trascina tutti; ma nessuno Stato è 
+in grado di riconoscere alla rivoluzione il diritto di 
+rovesciarlo, o mandarlo sossopra.</p>
+<p>Se l'associazione, distruttiva dell'organismo dello Stato, 
+non può essere ammessa in nessuno Stato, invece quella 
+che, senza attentare a quell'organismo, o n'aiuta la vita, nel 
+campo intellettuale, morale o economico, o mira a 
+perfezionarla, è tale, che nessuno Stato può a dirittura 
+escluderla o vietarla in tutto e per tutto. Come istrumento, 
+insomma, obbligatorio e forzato ovvero spontaneo e libero 
+dello sviluppo intimo dell'associazione generale, le 
+associazioni particolari sono più o meno lecite; come mezzo 
+di dissolvere l'associazione generale, sono affatto illecite. E 
+dico più o meno, non avendo riguardo ad una legittimità 
+ideale; bensì a quella reale, che vien loro dall'organismo 
+reale dello Stato nel quale esistono.</p>
+<p>Quantunque molte cose si possano continuare a dire, le 
+quali s'attagliano ad ogni associazione del pari, pure è bene 
+restringere il discorso a quelle politiche: e poiché queste, le 
+quali hanno per loro oggetto gli affari pubblici, possono 
+proporsi, sia l'educazione politica delle persone che 
+ne fanno o non ne fanno parte, sia d'esercitare un'immediata 
+influenza sull'andamento dello Stato, restringiamo il 
+discorso a quest'ultime. Così, le associazioni monarchiche 
+in una repubblica o repubblicane in una monarchia, come 
+quelle che mirano ad una rivoluzione sociale, sono 
+evidentemente di questo secondo genere. Il loro fine non è 
+di <hi rend="italic">discutere</hi> sui temi ideali della monarchia, della 
+repubblica, o della proprietà; non è la <hi rend="italic">libertà</hi> della 
+discussione che esse dimandano, mettiamo, che anche 
+quando chiedessero soltanto questa, si potrebbe lor 
+concedere intera; è la libertà di aggruppare uomini e 
+d'apparecchiare mezzi a produrre un effetto pratico e 
+determinato, quello di convertire una repubblica in una 
+monarchia, una monarchia in una repubblica, ovvero una 
+società in cui ciascuno è o può essere proprietario, in una 
+nella quale non possa essere proprietaria che la società 
+stessa. Non si può affermare che un'associazione non possa 
+apparecchiare mezzi ed aggruppare uomini; si tratta soltanto 
+di sapere possa legalmente aggrupparne a questi fini. E 
+frantende chi assimila la libertà speciale, che coteste 
+associazioni chiedono, a quella della stampa o della parola 
+colla quale non ha veramente nulla a che fare. Al più la 
+libertà della stampa e della parola è uno dei mezzi di quella; 
+è uno dei modi d'esercizio di quella: ed uno de' più 
+valevoli. Si può lasciare a' cittadini libertà di scrivere 
+intorno all'utilità di surrogare la monarchia alla repubblica o 
+viceversa, o di parlarne; e pure, non lasciar loro quella di 
+associarsi a fine di produrre l'effetto del quale 
+scrivono o parlano.</p>
+<p>Io ho detto che questa libertà non si <hi rend="italic">deva</hi> 
+lasciarla loro. Devo dire di più: lo Stato non ha, non che 
+l'obbligo, neanche il diritto di lasciargliela. L'associazione 
+politica particolare, che la richiede, è in contraddizione con 
+quella generale nel cui seno e dei cui ordini vive. Né è a dire 
+che l'associazione generale è tirannica, toglie questa libertà 
+a taluni de' suoi componenti. Lo Stato non esiste perché 
+altri gli usi indulgenza o perché esso n'usi altrui; non è 
+un'instituzione che può essere o no, e che è o no, perché 
+piace o per piacere. Lo Stato è perché dev'essere, ed ha un 
+suo fondamento di diritto. Non può consentire a scalzarlo 
+colle sue mani; non può menomarne la dignità consentendo 
+che una sua parte lo neghi non solo, chieda ad esso stesso di 
+dar mano alla negazione che n'è fatta. Ma v'ha di più ancora. 
+L'associazione particolare, che si propone per iscopo la 
+distruzione dello Stato o d'una delle suo istituzioni 
+fondamentali, non si contenta di un valore proporzionato al 
+valore reale dell'idea che rappresenta e delle persone che la 
+compongono, ma n'acquista in apparenza una molto 
+maggiore. Per ciò stesso, che la sua mira è il mutare e il 
+sovvertire, tutti gli elementi mobili dello Stato sono 
+naturalmente tratti ad aggrupparlesi intorno. Essa crea una 
+falsa apparenza di forza, dirimpetto alla quale quella dello 
+Stato appare diminuita dapprima, e poi diventa davvero 
+minore che non dovrebbe, quando si riguardi alla somma 
+degl'interessi che ha in cura, o al numero dei 
+cittadini, che in realtà continuano a commetterle i propri e 
+fanno sopra essa il fondamento della lor vita. Sicché queste 
+associazioni particolari, non che giovare allo sviluppo dello 
+Stato nel suo complesso, ed esercitare in quello un'influenza 
+rispondente alla verità e schiettezza dei loro intenti, turbano 
+l'assetto morale dello Stato e lo capovolgono. 
+S'apparecchiano a creare lo Stato nuovo, del quale si 
+struggono, coll'abbuiare quello in cui vivono, coll'alterarne, 
+a dirla altrimenti, la coscienza, le sembianze e le 
+aspettazioni, ed empire di <hi rend="italic">falsi vederi</hi> la cittadinanza.</p>
+<p>Voglio di ciò che scrivo un testimone irrefragabile, 
+dopo le cui parole nessuno, credo, negherà che coteste 
+associazioni, le quali non hanno diritto di esistere, sono 
+anche estremamente nocive se son lasciate esistere.</p>
+<p>Quando Genet, il ministro cittadino, fu mandato dalla 
+Repubblica francese, nel 1793, agli Stati 
+Uniti d'America, in apparenza per ottenervi soltanto licenza 
+di armare navi di corsa contro Stati coi quali quegli erano in 
+pace e la Francia in guerra, in realtà per trarre gli Stati a 
+collegarsi con questa, portò seco le abitudini turbolente 
+della patria donde veniva, e poiché trovava Governo serio, 
+tentò d'inoculare nel popolo, di cui era ospite, le follie 
+furiose del suo. Per sua istigazione, anzi la prima in 
+Filadelfia a dirittura sotto la sua presidenza, vi si 
+cominciarono a fondare associazioni politiche, chiamate 
+<hi rend="italic">Società democratiche</hi>, sull'esempio dei <hi rend="italic">clubs</hi> 
+giacobini della Francia. Ora, si badi prima che queste non 
+erano già intese a convertire una monarchia in una 
+repubblica, bensì a influire sulla repubblica alterando 
+l'indirizzo del Governo e forse alcuni dei congegni delle 
+istituzioni; e pure, ecco come le giudicava il Washington, 
+già presidente allora per la seconda volta:</p>
+<p>"Che queste Società siano state instituite dai più 
+artificiosi ed ambiziosi dei loro membri (parecchi dei quali, 
+non ne dubito, pensano bene, ma sanno poco de' disegni 
+effettivi) principalmente per gettare tra il popolo semi di 
+gelosia e di sfiducia verso il Governo, col distruggere ogni 
+confidenza nell'amministrazione di esso, e che tali dottrine 
+d'allora in poi siano pullulate ed abbian fiorito sempre più, 
+non riesce nuovo a nessuno, il quale conosca il carattere dei 
+capi di quelle ed abbia atteso alle loro manovre.</p>
+<p>Vi può egli essere niente di più assurdo, di più 
+arrogante, di più pernicioso alla pace della società, che 
+cotesto costituirsi di corpi creati da se stessi a censori 
+permanenti, e cotesto risolvere nell'ombra della notte, in un 
+conciliabolo, che atti del Congresso, i quali hanno subìta la 
+più ponderata e solenne discussione per parte de' 
+rappresentanti del popolo, eletti appunto ed espressamente a 
+ciò, e che portan seco dalle diverse parti dell'Unione il 
+sentimento dei loro elettori, e si sforzano, sin dove la natura 
+della cosa l'ammette, a formulare la volontà di quelli in 
+leggi per il governo dell'intero paese; io dico, in circostanze 
+siffatte, un corpo permanente (perché nessuno nega il diritto 
+del popolo di riunirsi in certe occasioni per fare, petizione di 
+un atto qualsiasi della legislatura, o rimostrarvi 
+contro) creatosi da sé medesimo dovrà poter dichiarare che 
+quest'atto è incostituzionale, e che quest'atto è pieno di 
+danni, e che tutti quelli i quali votano contro i loro dommi 
+sono mossi da motivi egoisti o sottostanno ad influenze 
+forestiero, anzi meglio, son traditori del loro paese? Un tale 
+eccesso di presunzione arrogante si può egli conciliare con 
+motivi lodevoli, in ispecie quando noi vediamo la stessa 
+categoria d'uomini sforzarsi a distruggere ogni confidenza 
+nell'amministrazione, coll'accusare tutti i suoi atti, senza 
+sapere su qual fondamento o con quale informazione essa 
+proceda?"</p>
+<p>E pochi anni innanzi egli non s'era espresso altrimenti 
+rispetto ad alcune Società, elle si solevano costituire in 
+Virginia per discutere quistioni politiche, esaminare 
+provvedimenti pubblici e dare istruzioni delegati alla 
+legislatura: e aveva rimproverato un suo nipote d'averci 
+parte.</p>
+<p>E qui, si badi di nuovo, Washington non accenna punto 
+ad associazioni, le quali si proponessero di distruggere la 
+costituzione degli Stati Uniti non gli passano neanche per la 
+mente. Sono associazioni intese a vigilare l'andamento del 
+Governo e a forzarlo, coll'influenza dell'opinione, a seguire 
+vie e a lasciarsi condurre da uomini secondo il loro 
+cuore. E gli paiono pessime. Ora, a me pare altresì che sieno 
+per lo più o possano, riuscire tali; ma non le dico, queste, 
+illecite. E il Washington dice il perché gli paiono tali. 
+Createsi da sé, non sentono responsabilità verso nessuno; 
+sono <hi rend="italic">permanenti</hi> e quindi non soggette alle 
+inclinazioni diverse e mutevoli dei partiti stessi che 
+presumono di rappresentare; ignorano il complesso delle 
+condizioni dello Stato; sono naturalmente tratte a screditare 
+il Governo, ed esercitano un'influenza sproporzionata al 
+loro valore e peso, e getta a tutte le corruttele delle passioni 
+e dell'ingordigia privata. Ora, questi motivi di danno si 
+riscontrano tutti nelle associazioni che dicevo illecite; e vi 
+s'aggiunge la manifesta contraddizione del loro fine col fine 
+generale e necessario dello Stato, contraddizione la quale 
+deve avere per suo necessario effetto l'accrescere a più 
+doppi ed esacerbare quanto v'ha già di maligno in quelle 
+lecito.</p>
+<p>Uno scrittore di molto valore, il Lieber, pare che contraddica il 
+Washington, nella cui patria ha pure scritto e attinto la 
+molta sua dottrina politica. Pure, chi guardi bene, non è 
+così. Egli dice molto ragionevolmente, che connesso col 
+diritto de' cittadini di mandar petizioni al Parlamento non 
+è solo quello di riunirsi pacificamente e di prendere in 
+considerazione gli affari pubblici, ma quello altresì di 
+organizzarsi in associazioni intese a fini politici, 
+religiosi, sociali, scientifici, industriali, commerciali o di 
+cultura. L'ammetto; ma il Lieber aggiunge subito che questo 
+diritto può diventare pericoloso, e leggi sono spesso 
+necessarie a proteggere la società contro l'abuso di esso, 
+come sa perfettamente bene chiunque ha la minima 
+convinzione della condotta dei <foreign lang="eng"><hi rend="italic">clubs</hi></foreign> nella 
+prima rivoluzione di Francia. Cotesto abuso possibile non lo 
+distoglie però dall'accettarne l'uso, poiché gli pare che il 
+principio associativo sia un elemento di progresso, di 
+protezione e di attività efficace. Ma dov'entra a darne prove 
+ed esempi, ecco le associazioni che cita. Innanzi tutto cita la 
+lega contro la legge de' cereali in Inghilterra "che, con 
+isforzi giganteschi, venne infine a capo d'introdurre il libero 
+commercio dei grani contro il più forte e il più privilegiato 
+corpo di proprietari di terre che sia probabilmente esistito 
+mai, nei tempi antichi o moderni"; cita l'associazione per 
+l'Emendazione della legge", la quale già pareva a lui, nel 
+1859, avesse prodotto molti benefici effetti; 
+e per gli Stati Uniti cita la società di colonizzazione, "una 
+privata società che, fondando un nuovo Stato, sarà di grande 
+influenza nel diffondere la civiltà, una società che, 
+conforme alla dichiarazione liberiana d'indipendenza, ha 
+nobilmente ed in perfetta fede adempiuto i suoi obblighi", e 
+cita infine le associazioni ecclesiastiche, per le quali è 
+mantenuto ciascun culto da' fedeli stessi. Bene sta; non 
+una sola associazione di quelle che il Washington biasima, e 
+ci paiono pur lecite; non una sola di quelle che sono 
+intrinsecamente illecite, e che il Washington non 
+immagina neanche. E s'intende che non avendo l'occhio se 
+non ad associazioni, le quali, in un fine economico, morale 
+intellettuale, si propongono, non di distruggere lo Stato, e 
+neppure di tirarne a sé il governo, ma di svilupparne e 
+fecondarne la vita, il Lieber esca in quest'inno: "Non v'ha 
+nulla che su una persona la quale arrivi per la prima volta 
+dal continente europeo, sia negli Stati Uniti, sia in 
+Inghilterra faccia più viva impressione che gl'infiniti segni e 
+prove di uno spirito associativo, penetrante da per tutto, in 
+ogni campo d'operosità reale e pratica, dalle compagnie e 
+società commerciali, poco meno che universali, dalle 
+banche mutue degli artigiani, o d'ogni altra natura, sino a 
+quelle associazioni non officiali, ma nazionali, che s'elevano 
+a vera grandezza. Cancellate dall'Inghilterra o dall'America 
+questa fattezza o principio, e non vi vivrà più quello stesso 
+popolo fiducioso di sé, vigoroso, indomabilmente operoso. 
+Lo spirito di governo per sé stesso sarebbe ito. In Francia 
+prevale uno spirito opposto. Non solo il Governo crede di 
+dover tener ogni cosa sotto la sua mano; ma il popolo stesso 
+non s'acconcia a credere nel successo sino a che il Governo 
+non abbia fatta sua l'intrapresa". All'Inghilterra e agli Stati 
+Uniti il Lieber contrappone la Francia; ai due paesi nei quali 
+ha lodato esempi di associazione che concorrono collo Stato 
+nello sviluppo della vita nazionale, contrappone quello in 
+cui hanno sopratutto fiorito, con sì dannosa copia e tra 
+repressioni così ripetute, le associazioni, delle quali il 
+Washington si lagna, o che violano il diritto 
+pubblico nella sua fonte stessa. E di fatti, più da una parte le 
+associazioni politiche, perniciose o illegali, fioriscono, e più 
+dall'altra vengon meno, e s'insteriliscono, intristiscono la 
+associazioni della natura di quelle che il Lieber loda. Questo 
+sono il grano; quelle il loglio.</p>
+<p>Pure, corre per le bocche di tutti, a difesa di siffatte 
+associazioni, una di quelle sentenze che i politici mediocri 
+ripetono con infinita compiacenza, perché al loro piccolo 
+criterio paiono d'una evidenza perfetta, e tale da ammutolire 
+ogni avversario. Questa sentenza è che siffatte associazioni 
+giova il lasciarle formare, poiché impediscono che si 
+formino le <hi rend="italic">sette</hi>. Io dubito se persino, questo 
+vantaggio sia tale da dovere permettere che associazioni 
+contro la forma politica o l'assetto sociale dello Stato si 
+formino, con violazione del diritto dello Stato stesso; 
+giacché di quelle intese a dirigere a lor posta il governo, per 
+quanto possano riuscire rincrescevoli e corrompere in 
+qualche rispetto la vita pubblica, io non affermo che si 
+possano in tutto e per tutto vietare. Il Foscolo ha sentito che 
+"per fare l'Italia bisogna disfare le sette"; e tali associazioni, 
+raggiugnendo questo secondo effetto, ci facessero 
+conseguire il primo, qualche ragione di benedirle ci sarebbe 
+pure. Ma il vero è che ciò non succede punto. In primo 
+luogo, le associazioni contro lo Stato non sono pubbliche 
+che in apparenza. Sono <hi rend="italic">sette</hi> o <hi rend="italic">combinazioni 
+segrete</hi>, le quali non si giovano della pubblicità che loro 
+consente il Governo, se non in picciola parte e 
+superficialmente. Come il lor fine non è tale che tutti 
+i mezzi se ne possano, per quanta sia la debolezza del 
+Governo, palesemente ammannire, ciascuna di esse termina 
+e si compie con una organizzazione <hi rend="italic">settaria</hi>, che 
+diventa il suo istrumento più efficace e più valido. Se 
+sarebbe forse erroneo l'affermare che nessuna <hi rend="italic">setta</hi> 
+sia nata mai se non da un'associazione politica anarchica, la 
+quale abbia pubblicamente, alla luce del sole, lavorato per 
+maggior o minor tempo, è certamente non vero che le sette 
+non durino ed esistano insieme colle associazioni, e non 
+sopravvivano più o meno lungamente a queste quando sono 
+soppresse. Così l'esempio della Francia, durante la sua 
+prima rivoluzione, come l'esempio attuale degli Stati Uniti 
+si può pure riconoscere che l'associazione meramente 
+politica o della natura così uggiosa al Washington, affatto 
+illegale, degenera in setta necessariamente; se una siffatta 
+degenerazione si deve reputare accaduta, ogni volta che 
+l'oggetto dell'associazione cessa di essere la cura e il 
+pensiero di tutti quelli che le appartengono, e non rimane se 
+non l'oggetto di pochi, i quali, con segreti accordi e noti ad 
+essi soli, maneggiano e guidano i loro compagni, o piuttosto 
+servi. Una società, di fatti, così governata non è più 
+un'associazione politica, ma una <hi rend="italic">setta</hi>, una 
+<hi rend="italic">fazione</hi>, che non nasconde ogni cosa solo perché non 
+corre nessun pericolo se qualcosa mostra, se, rimanendo 
+arcano tutto ciò in cui sta l'azione sostanziale degli 
+associati, accenna di fuori alcuni moti de' loro 
+capi, per sé soli non significano nulla.</p>
+<p>In effettti, negli Stati Uniti, dove tutto lo Stato si fonda 
+sull'alternare dei partiti, e ciascuno di questi ha una 
+organizzazione sua propria, intesa a promuovere gl'interessi 
+e i fini, le associazioni son diventate settarie.</p>
+<p>"Alle assemblee primarie, scrive il Seaman, di ciascun partito prendono parte così 
+poche persone ch'è generalmente facile per due o tre capi di 
+chiamarvi i loro amici e di ottenere la nomina di quei 
+delegati che desiderano; e sono così ammannite 
+(<foreign lang="eng"><hi rend="italic">packed</hi></foreign>) convenzioni intese a procurare la 
+nomina di persone che non sarebbero nominate dal voto del 
+partito <hi rend="italic">lealmente espresso</hi>". Ed aggiungne, a migliore 
+intelligenza: "Non è generalmente difficile per un politico 
+astuto di chiamare a raccolta i suoi amici, mediante un largo 
+uso di denaro e l'impiego di agenti in parecchie città e rioni, 
+e procurare la nomina di un sufficiente numero di amici suoi 
+a delegati alla Convenzione della contea o del distretto, 
+quanti gli occorrono per assicurargli la nomina a 
+quell'ufficio qualsia di cui egli abbia voglia. Questo scopo è 
+spesso conseguito mediante la spesa di considerevoli 
+somme di denaro, e l'uso profuso di promesse. E il processo 
+ha un nome; si chiama: <hi rend="italic">ammannire una 
+convenzione</hi>". L'associazione politica ha così smesso 
+tutte le qualità che le si sogliono attribuire da chi immagina 
+le cose, anziché guardarle cogli occhi; e pure non si 
+tratta ancora d'un'associazione cui il fine suo di distruggere 
+lo Stato sforza a celarsi. Il risultato già negli Stati Uniti è 
+questo: "Durante gli ultimi trent'anni noi abbiamo avuto 
+organizzazioni di partiti, comitati di partiti e convegni 
+privati di partiti (<hi rend="italic">caucus</hi>), convenzioni di partiti e 
+riunioni in massa pubbliche in tutti gli Stati; 
+<foreign lang="eng"><hi rend="italic">clubs</hi></foreign> e confraternite 
+(<foreign lang="eng"><hi rend="italic">clan</hi></foreign>) I irlandesi nella più parte delle città; società e 
+confraternite tedesche in più città e distretti; ed ora abbiamo 
+club e confraternite di negri, con fratellanza negra nel 
+Mezzogiorno, come un elemento politico perturbatore di 
+più. Quale il risultato finale debba essere, non lo può dire se 
+non il tempo e l'esperienza".</p>
+<p>Sicché io concludo: le associazioni politiche, intese a 
+mutare la forma politica o l'assetto sociale dello Stato, sono 
+illecite; ma, anche se non fossero tali, dagli effetti di quelle 
+che si contentano di mirare a trarre il governo nelle loro 
+mani, si può giudicare quanto esse sieno corrotte e dannose. 
+Felice lo Stato libero i cui partiti non si organizzano, e 
+possono, senza pericolo di essere sopraffatti, cansare di 
+organizzarsi ad associazioni; infelice e dimentico di sé 
+quello che lascia organizzare nel suo seno associazioni 
+intese a dirittura a distruggerlo!
+
+</p>
+</div2>
+<div2><head>III</head>
+<p>E si aggiunga: non n v'ha Stato il quale abbia
+permesso o permetta a queste seconde associazioni di 
+esistere. Appunto - mi sento dire - gli Stati Uniti hanno 
+nella loro Costituzione un articolo, che persino vieta al 
+Governo centrale d'introdurre o sancire leggi contro di esse. 
+Davvero? Vediamo se chi m'interrompe cosi sa quello che si 
+dice. L'articolo che egli intende citare, è uno di quelli 
+formulati più tardi, quando fu chiesto al Congresso, e questo 
+assentì, di aggiugnere alla Costituzione, già votata e che 
+s'era contentata di stabilire l'organismo del governo, una 
+cotal dichiarazione di diritti; eccone il testo:</p>
+<p>"Il Congresso non farà nessuna legge concernente lo 
+stabilimento di una religione, o intesa a proibirne l'esercizio; 
+o a diminuire la libertà di parola o di stampa; o il diritto del 
+popolo di riunirsi pacificamente e di fare petizione al 
+Governo per riparo di gravami".</p>
+<p>L'articolo, come si vede, non dice punto che il 
+Congresso non possa far legge contro le associazioni, né che 
+sia diritto primigenio ed infrenabile di ciascun cittadino il 
+congiurare, associato con altri, contro lo Stato. 
+L'articolo, bensì, connette il diritto di riunione pacifica, 
+come non è necessariamente connesso presso di noi, col 
+diritto di petizione al Parlamento; ed è copiato nella sua 
+prima parte dal <foreign lang="eng"><hi rend="italic">Bill of rights</hi></foreign> del 
+1688, dove cotesto diritto di petizione, a 
+scanso di ogni equivoco e della contestazione cui era stato 
+soggetto prima della rivoluzione, fu esplicitamente 
+riconosciuto e sancito. Senza ciò sarebbe stato persino 
+inutile di dichiararlo, poiché, come scrive lo Story, "risulta 
+dalla vera natura e struttura d'un Governo repubblicano, (o 
+piuttosto libero). è impossibile il negarlo praticamente 
+insino a che lo spirito di libertà non sia scomparso del tutto, 
+ed il popolo non sia diventato così servile ed abbietto da 
+essere affatto disadatto ad esercitare qualsiasi dei privilegi 
+degli uomini liberi". Ma con questo diritto di petizione 
+s'accompagna naturalmente quello di riunione pacifica, 
+poiché l'esercizio di questo precede l'esercizio di quello, 
+giacché per chiedere in comune bisogna innanzi deliberare 
+in comune ciò che occorre chiedere. "Il diritto di far 
+petizione, dice il Lieber e ripete il Cooley, è una necessaria conseguenza del diritto di 
+libera parola e di deliberazione". Ora, intesa a questo modo, 
+ed è il modo, ch'io sappia, comune, la dichiarazione dei 
+diritti non è più larga dello Statuto nostro, che nei 
+due articoli 32 e 58 riconosce il diritto di riunione e 
+quello di petizione a parte l'uno dall'altro, e non metto il 
+primo in necessaria relazione col secondo. S'intende che se 
+l'articolo della costituzione americana non accenna ad altre 
+riunioni se non a quelle il cui fine sia muovere petizione al 
+Parlamento, non è perciò che in America non ne sia lecito e 
+non ne usino altre. Mettiamo soltanto in sodo che il limite 
+imposto al Congresso non riguarda non solo le prime; e non 
+concerne, poi, in nessuna maniera le associazioni. Se di 
+leggi contro queste se ne farà negli Stati Uniti più tardi, 
+nessuno può dire; poiché questa Repubblica è tutt'altro che 
+alla fine de' suoi esperimenti politici.</p></div2>
+
+<div2><head>IV</head>
+<p>- Ma in Inghilterra? - Me l'aspettavo 
+quest'altra interrogazione; tanto sono state false le cose elle 
+si sono scritte e che si credono tuttavia rispetto alla 
+legislazione inglese. E davvero, questa, mentre è reputata 
+semplicissima, anzi persino non esistere, è invece così 
+complessa e copiosa, come il Cox dice, su questa materia, 
+da diventarne difficile e certamente noiosa l'esposizione. 
+Pure si deve tentarla.</p>
+<p>A dirne in breve, il concetto è, questo. Per <hi rend="italic">diritto 
+comune</hi> (<foreign lang="eng"><hi rend="italic">Common law</hi></foreign>) - cioè per quel 
+diritto che non è scritto, ma deriva dalla natura stessa dello 
+Stato, da principi stessi della legge o da precedenti 
+giudiziari - ciascuna riunione 
+che porta offesa alla pace pubblica, o ciascun'associazione 
+che è pericolosa allo Stato, è illecita; ma il grado di pena, 
+colla quale devono esserne puniti i membri, le definizioni 
+del reato, gl'indizi di esso, i giudici, sono determinati dal 
+diritto statutario, <foreign lang="eng"><hi rend="italic">Statute law</hi></foreign>, dal 
+diritto, cioè, che emana dagli atti del Parlamento, ed è 
+variabile con questi.</p>
+<p>L'offesa alla pace pubblica - o reato contro questa - è 
+costituita:</p>
+<p>1° Dal riunirsi tumultuario di dodici o più persone, e 
+che non si disperdano dietro intimazione;</p>
+<p>2° Dall'<foreign lang="eng"><hi rend="italic">Affray</hi></foreign>, o venire alle mani di 
+due o più in luogo pubblico con paura del pubblico;</p>
+<p>3° Dal <foreign lang="eng"><hi rend="italic">Rout</hi></foreign>, o perturbamento 
+tumultuario della pace per parte di tre persone o più che si 
+riuniscano di lor propria autorità, coll'intento comune, di 
+assistersi l'un l'altro contro chi si sia intenda opporsi loro in 
+un'impresa di privata natura, e che di fatti l'eseguono in una 
+maniera violenta e turbolenta, con terrore del popolo, sia 
+che l'atto propostosi da loro sia per sua natura legale o 
+illegale;</p>
+<p>4° Dal <foreign lang="eng"><hi rend="italic">Rout</hi></foreign>, ovvero perturbamento 
+della pace, commesso da persone che si sono riunite 
+coll'intenzione di fare una cosa, la quale, quando fosse 
+eseguita, li renderebbe <foreign lang="eng"><hi rend="italic">Rioters</hi></foreign> (3°), e 
+che attualmente intraprendono l'eseguimento della cosa 
+stessa; 5° Dall'<foreign lang="eng"><hi rend="italic">Unlawful Assembly</hi></foreign>, o 
+radunanza illegale, ovvero da un perturbamento della pace, 
+commesso da persone che si sono meramente adunate 
+coll'intenzione di fare una cosa, che, se fosse eseguita, li 
+renderebbe <foreign lang="eng"><hi rend="italic">Rioters</hi></foreign>, ma che attualmente né 
+l'eseguono, né fanno nessun passo verso l'esecuzione di 
+essa.</p>
+<p>In queste distinzioni si sente un popolo non 
+nuovo a' pericoli della libertà, e che non crede necessario, 
+per mantenersi questa, di chiudere gli occhi a quelli. Qui 
+l'atto tumultuoso è considerato attuale o remoto; fatto già, o 
+apparecchiato soltanto; e secondo ha un fine pubblico o 
+privato. Io non dirò le leggi diverse, colle quali l'atto è stato 
+colpito, e come, secondo i tempi, la mano del legislatore si 
+sia più o meno aggravata, trasferendolo da una categoria di 
+reato all'altra, e qualificandolo quando di tradimento, 
+quando di fellonia e quando di contravvenzione, se questa è 
+la giusta traduzione della parola inglese 
+<foreign lang="eng"><hi rend="italic">Misdemeanour</hi></foreign> 
+poiché la pena, variando colla qualificazione, s è attagliata 
+alle necessità della repressione.</p>
+<p>Invece citerò le leggi che in Inghilterra tuttora vigono 
+contro le società politiche, tralasciando le molte che sono 
+abrogate, o fatte a tempo non sono state rinnovate. Coll'atto 
+37, Geor. III, c. 123 - vuol dir l'atto registrato al 
+capitolo 123 del volume degli Statuti, pubblicato l'anno 
+37 di Giorgio III, - esteso dall'atto 52, Geor. III, c. 
+104, - è dichiarato fellonia il richiedere un giuramento 
+inteso a legare le persone che lo prendono a qualsia</p>
+<p>proponimento, ribelle o sedizioso o a disturbare 
+la pubblica pace, o a formar parte di qualsia associazione, 
+società o federazione instituita a tal fine. Un altro statuto, 
+39 Geor. III, c. 79, vieta la società degli 
+<foreign lang="eng"><hi rend="italic">United Englishmen</hi></foreign>, ecc., e la 
+<foreign lang="eng"><hi rend="italic">London Corresponding Society</hi></foreign>, e altresì 
+qualunque altra società cui membri sieno richiesti di 
+prestare giuramenti illegali, o nelle quali sia tenuto segreto 
+il nome di un membro, o vi siano comitati o ufficiali segreti, 
+o <hi rend="italic">la società si componga di nuclei che operino 
+separatamente, ed abbia ufficiali o delegati distinti eletti ad 
+operare per ciascun nucleo</hi>. Si eccettuano le società le 
+quali hanno fini religiosi o caritatevoli, e le logge de' 
+Framassoni. Per l'atto 57 Geor. III, c.19 pag. 
+25, ogni società o <foreign lang="eng"><hi rend="italic">club</hi></foreign>, che elegga od 
+impieghi qualsia comitato, delegato, rappresentante o messo 
+per riunirsi o comunicare con qualunque altra società o club, 
+o con qualsia comitato di questo, o per indurre qualsia 
+persona a diventare membro, è proibita. Ed è dichiarato 
+criminoso il corrispondere con una siffatta società o il 
+sostenerla. Né è a dire che questa 
+legislazione sia antiquata e vecchia, quantunque non 
+abrogata. Mostra che si crede viva l'avere dichiarato esenti 
+da sanzioni le <foreign lang="eng"><hi rend="italic">Friendly Societies</hi></foreign> o società di 
+mutuo soccorso, per un atto del 10° anno (c. 27) 
+della regina Vittoria; e in quello stesso anno, per un altro atto 
+(c. 33), fu mutata la procedura, poiché il diritto 
+di muovere accusa contro tali società vietate fu ristretto a 
+<foreign lang="eng"><hi rend="italic">Law Officers</hi></foreign> della corona, cioè al <foreign lang="eng"><hi rend="italic">Solicitor 
+general</hi></foreign> in Inghilterra, e al <foreign lang="eng"><hi rend="italic">Lord 
+advocate</hi></foreign> in Scozia, che sono, si badi bene, due 
+impiegati non appartenenti per nessun modo all'ordine 
+giudiziario, ma al politico ed all'amministrativo sicché 
+fanno parte del Ministero e mutano con questo. La 
+restrizione del diritto di accusa in cotesti due ufficiali del 
+Governo ha accresciuto la responsabilità, e, com'è naturale, 
+la libertà del Governo rispetto alle società stesse; ma le ha 
+sciolta ciascuna dalla vigilanza della sua nemica. Io non 
+entro qui nei particolari della procedura, che questi due 
+ufficiali seguirebbero; non troveremmo raffronti possibili. è 
+vero che se le leggi esistono l'uso n'è estremamente raro; 
+anzi, dacché è stato introdotto nel sistema di procedura la 
+modificazione cennata da ultimo, non s'è dato caso d'usarle. 
+Ma, primo punto, come anche lo Gneist osserva, un potere 
+quiescente, non è perciò meno un potere; e poi, dove s'è 
+presentata l'occasione o la necessità di colpire società 
+pericolose in questo intervallo di tempo, come le 
+<foreign lang="eng"><hi rend="italic">Trade's Unions</hi></foreign> e i Feniani, gl'Inglesi, 
+secondo sogliono, hanno preferito leggi nuove speciali, e 
+bene appropriate alle nuove malattie che lor bisognava 
+curare.</p>
+<p>Poiché, si badi, essi non partecipano punto due grossi 
+pregiudizi nostri: l'uno che leggi eccezionali non se ne deva 
+né possa fare in uno Stato libero; l'altro che le leggi 
+fortemente repressivo non servono e non operano. Questi 
+son pregiudizi da gente come siamo <hi rend="italic">noi</hi> ora, nuova al 
+governo, giovanile, punto pratica, e che si lascia abbagliare 
+da' sofismi, che s'intrecciano, avviluppando generalità 
+vuote e campate in aria. Quanto il primo pregiudizio sia 
+lontano dagl'Inglesi, voglio dirlo colle parole di lord 
+Palmerston: "Mantenere, diss'egli in un suo discorso del 
+1813, che la legislatura d'un paese non 
+abbia il potere di colpire una classe qualsia della società di 
+restrizioni, ch'essa possa giudicare necessarie alla sicurezza 
+e al benessere di tutti, è tutt'uno coll'attaccare i principi 
+fondamentali su' quali riposa un Governo 
+civile". E più tardi, scrivendo a W. 
+Temple in Napoli, nel marzo del 1833, 
+chiama il <foreign lang="eng"><hi rend="italic">Coercion Bill</hi></foreign> presentato dal 
+Ministero di cui egli faceva parte, il "provvedimento più 
+vigoroso che abbia mai preso forma di legge;" ed aggiunge: 
+"ben pochi Governi assoluti potrebbero, di lor propria 
+autorità, introdurre un sistema di coercizione simile a quello 
+che i rappresentanti del popolo, liberamente eletti, sono in 
+via di mettere in questo momento alle mani del Governo di 
+questo paese". Presso di noi, si sa, è stato 
+impossibile che si procedesse, con disposizioni di gran 
+lunga meno severe, contro una verminaia d'assassini 
+indomabili ed indomati.</p>
+<p>Che poi alcune febbri morali non si possano utilmente 
+trattare con revulsivi di questa sorte, né gl'Inglesi, né 
+gli Americani lo credono; e neanche, per vero dire, i 
+Francesi e i Tedeschi. è una semplicità tutta nostra. Il 
+Raikes afferma che la legge pubblicata nel primo anno di 
+Giorgio I per comprimere gli attacchi tumultuosi del partito 
+dell'alta Chiesa contro i dissenzienti, abbia giovato non 
+meno di qualsia altra a conservare nel popolo inglese 
+l'abitudine dell'ordine nello stesso tempo che quella della 
+più libera espressione delle sue opinioni. è chiaro a tutti il 
+beneficio prodotto dalle leggi contro le <foreign lang="eng"><hi rend="italic">Trades 
+Unions</hi></foreign> e contro i <hi rend="italic">Feniani</hi> e il miglioramento 
+che n'è venuto, all'assetto pacifico dello Stato. Come lord 
+Palmerston dice in quella lettera citata più su, ogni cura 
+d'una profonda malattia sociale richiede due sorta di mezzi: 
+il reprimerne i disordini che appaiono prima, il sanarne poi 
+od insieme, quanto più e meglio possibile, le fonti e le 
+scaturigini segrete, scovrendole, ed aprendo loro una via. la 
+prima cosa senza la seconda non riesce, prima manca il 
+tempo. è il concetto al quale il partito il principe di 
+Bismarck nel presentare e nell'ostinarsi a volere la legge 
+contro i socialisti; e l'ha espresso nell'esposizione dei 
+motivi; e il concetto è vero, qualunque sia il giudizio che si 
+voglia fare della legge stessa.</p>
+<p>E concludo di nuovo. In Inghilterra associazioni 
+distruttive dello Stato non sono lecite; e se non vi si usano 
+le leggi che già hanno contro di esse, è perché se ne fanno di 
+nuove, appena la necessità si presenti, e non sono da' 
+pregiudizi nostri impediti dal farlo secondo e quali le 
+richiede la necessità pubblica.
+</p>
+</div2>
+<div2><head>V.</head>
+<p>A me parrebbe qui un'erudizione sciupata l'andar 
+esponendo le leggi che rispetto alle associazioni vigono in 
+Francia, in Germania, in Austria, e le loro vicende. Importa 
+ricercare, qual è la legislazione nostra.</p>
+<p>Il nostro Statuto è stato in gran parte copiato dal belga; 
+e l'art. 32 del nostro è la traduzione, quasi precisa del 
+19 del belga.</p>
+<p>Ci corre fra i due questo solo divario, che nel belga è 
+esplicitamente detto, che le leggi le qualisi fossero 
+potuto far poi per regolare il diritto di riunione in luogo 
+privato de' cittadini, non avrebbero potuto gettarne 
+l'esercizio ad un'autorizzazione preventiva, mentre non è 
+vietato ciò alle nostre, che ci fosse parso bene di fare più 
+tardi, ma non si sono poi fatte in nessun modo. Se non che 
+nella Costituzione belga segue all'art. 19 un ventesimo, 
+il quale nel nostro Statuto non ha riscontro; ed è questo:</p>
+<p>"20. <foreign lang="fra">Les Belges ont le droit de s'associer: ce 
+droit ne peut être soumis à aucune mesure 
+préventive.</foreign>"</p>
+<p>Per ritrovare le ragioni di coteste due disposizioni 
+introdotte nella Costituzione belga bisognerebbe risalire alle 
+restrizioni che a' due diritti erano poste dalla legislazione 
+francese; e ricordarci 
+che il divieto d'ogni autorizzazione preventiva per le 
+riunioni, e sopratutto la libertà assoluta dell'associazione, 
+erano sopratutto richieste dalla parte cattolica nel Congresso 
+belga, che voleva esser sicura, per le sue riunioni e per le 
+associazioni in ispecie, di non trovarsi soggetta a leggi, che, 
+sotto nome di liberali, le avessero circoscritto la balìa di 
+operare, ed influire ed ordinarsi, e moltiplicare a sua posta.</p>
+<p>Chi paragona ora il complesso dei due articoli belgi col 
+nostro, ne ritrae che l'autore dello Statuto italiano ha 
+davvero assai bene distinto il diritto d'associazione da 
+quello di riunione; e se non ha negato quello, non 
+l'ha voluto neanche riconoscere, dove quest'ultimo l'ha 
+riconosciuto sarebbe soverchio l'indurre dal silenzio del 
+legislatore che, nel parer suo, gl'Italiani non avrebbero 
+avuto libertà d'associarsi certo da ciò, ch'egli riproduce nello 
+Statuto nostro l'art. 19 del belga, dove ne passa e 
+trascura il ventesimo, si deve concludere, che nel suo spirito 
+i due diritti sono distinti, e dove quello di riunione è 
+guarentito contro un ripiglio di severità legislativa, che lo 
+volesse più tardi negare, quello d'associazione non ne è 
+guarentito punto.</p>
+<p>Ma coi fatti noi siamo andati in una interpretazione 
+opposta; e s'è in genere ritenuto che il diritto d'associazione 
+si comprendesse in quello di riunione del quale l'art. 32 
+parlava solo. S'è detto che questo non si limitasse alle sole 
+riunioni; poiché, se ciò fosse, "l'esercizio del diritto sarebbe 
+stato provvisorio, momentaneo, quasi casuale, in guisa che 
+non debba esser permesso ai cittadini di associarsi per uno 
+scopo determinato, di fissare a ciò per le assemblee 
+politiche anche degl'istituti permanenti". Ora, qui, davvero, senza negare
+che il diritto d'associazione ci sia, si può negare senza scrupolo, che 
+l'equiparazione sua con quello di riunione abbia ragione e 
+fondamento. è molto chiaro che l'associazione è la 
+riunione con qualcosa di più; il seguito, la durata, la 
+connessione di più riunioni insieme, la stabilità periodica di 
+ciascuna e in ispecie la preparazione lunga a raggiugnere un 
+fine pratico. Questo qualcosa di più eccede il diritto di 
+riunione, e non può essere tutt'uno con questo, poiché a 
+questo appunto manca.</p>
+<p>Uno scrittore recente in un libro molto lodato, il 
+Woolsey, distingue così bene il diritto di riunione da quello 
+dell'associazione, che dove del primo, connesso col diritto 
+di libera parola, dice, che persino in luogo pubblico le 
+riunioni non devono essere proibite, se non vi sia pericolo, 
+imminente ed indubitabile, di tumulto, ed anche allora, 
+meglio che scioglierle, convenga il guarentirsi, col 
+circondarle di molta forza, dagli effetti nocivi che ne 
+potessero nascere, delle associazioni invece scrive così: 
+"L'immenso potere che le persone acquistano col 
+combinarsi, e l'estensione della quale l'azione associata è 
+capace, se è lasciata affatto libera di sé, ne fanno un oggetto 
+di giusta paura, ch'essa possa invadere le funzioni del 
+Governo e persino i poteri dello Stato. Le leggi devono 
+difenderlo dal sospetto cui va incontro sotto questo rispetto: 
+e lo Stato deve avere qualche sindacato sopra di esso, 
+perché non diventi un <foreign lang="lat"><hi rend="italic">imperium in imperio</hi></foreign>. 
+Esso può invadere altresì i diritti individuali, e opprimere i 
+suoi competitori più deboli". Ed altrove: "è evidente, che una compagnia 
+anonima, se non è frenata, può diventare</p>
+<p>per il suo potere politico, come quella dell'India 
+orientale, o per la sua influenza sopra un Parlamento, un 
+<foreign lang="lat"><hi rend="italic">imperium in imperio</hi></foreign>: che i terrori, che le 
+fratellanze dei mestieri (<foreign lang="eng"><hi rend="italic">Trade's Unions</hi></foreign>) 
+incutono negli operai, i quali ricusano di associarvisi, sono 
+tutt'altro che una preparazione per una vita di libertà 
+politica o morale; e che i <foreign lang="eng"><hi rend="italic">clubs</hi></foreign> politici 
+possono essere ancora più tirannici. Le associazioni, quindi, 
+richiedono, oltre la protezione, il freno della legge pubblica; 
+e tanto più, in quanto persone unite in società fanno, o 
+tollerano che siano commessi delitti dei quali una persona 
+singola, che agisca sola, sentirebbe orrore". 
+Sicché i due diritti né sono identici nel concetto, né hanno lo 
+stesso valore; e l'avere molto facilmente ammesso il 
+contrario non è stata prova di molta ponderazione e di 
+accurato esame. E siffatte prove, però, bisogna convenire, 
+scarseggiano presso di noi; e si son già lasciate introdurre 
+più consuetudini e norme nell'esercizio del nostro regime 
+costituzionale, che mettono questo stesso a gran pericolo in 
+un avvenire più o meno remoto. Checché però sia di ciò, è 
+stato, certo, molto naturale, che, essendosi equiparati i due 
+diritti per parte dei cittadini, si sieno equiparati altresì i 
+poteri del Governo rispetto ad essi, i diritti, cioè, che nel 
+Governo si contrappongono a quelli; e se n'è indotto che 
+come una riunione può essere sciolta dalla polizia, così può 
+essere sciolta altresì l'associazione, che è una riunione 
+ripetuta. Un'analogia ha esteso i diritti; un'analogia 
+ha fornito il modo della repressione. Se non che lo 
+scioglimento è bensì rispetto alla riunione un mezzo 
+efficace, poiché la riunione si dilegua e non è più, dopoché 
+di buona o di mala voglia è disciolta; ma non tale rispetto 
+all'associazione. Non si può di questa disciogliere se non 
+una riunione, e sequestrare, i registri e le casse, quando ve 
+ne sia. Ma il vincolo, che stringeva gli associati, rimane ed è 
+germe, da cui l'associazione ripullula. I registri si rifanno e 
+il nome si muta; e il denaro, non si potendo sequestrare 
+senza sentenza dei Tribunali, va necessariamente restituito a 
+quelli che se ne provano i proprietari. Lo scioglimento può 
+essere il principio dell'azione repressiva, ma non può 
+esserne il fine. Ad ogni modo un effetto si ottiene pure, 
+quantunque tutto morale. Il Governo ha affermato la sua 
+opinione rispetto alla natura dell'associazione, che reprime; 
+gli associati soli messi sull'avviso, e chi s'era lasciato 
+attirare, come pur suole, per una cotal fiacchezza di animo o 
+vaghezza di nuovo si ritrae indietro; lo Stato ha affermato sé 
+medesimo; e la maggioranza del paese s'affida.</p>
+<p>Pure, un così picciolo diritto di scioglimento è negato 
+oggi al Governo; anzi, il Governo lo nega a sé stesso, senza 
+badare, ch'esso è la conseguenza naturale dell'avere 
+equiparato il diritto d'associazione a quello di riunione, e 
+così esteso a quello le leggi di polizia, che hanno valore 
+rispetto a questo. Quando nello sciogliere la riunione 
+succede di dover arrestare qualcuno, "l'arrestato è rimesso 
+all'autorità giudiziaria, che provvede a termine di 
+legge," cioè punisce, se qualche reato è stato 
+commesso. Ora, rispetto all'associazione, il Governo che si 
+nega il diritto di scioglierla, e quindi d'arrestare chi si sia, 
+perché vi appartiene, resta altresì senza modo di rimettere 
+chi si sia all'autorità giudiziaria, e di obbligarla, quindi, a 
+giudicarlo. L'associazione, quindi, diventa con così bella 
+teorica il solo reato possibile, davanti al quale il potere 
+esecutivo si trova spogliato d'ogni potere di prevenzione, e 
+d'ogni mezzo di provocare, nei modi usuali ed ordinari, 
+l'autorità giudiziaria. E pure l'associazione è un mezzo, 
+reputato potentissimo, di commettere nientemeno che il 
+reato più grosso di tutti, quello della distruzione stessa 
+dell'intero Stato nella sua costituzione politica, nel suo 
+assetto sociale. è davvero bizzarra! Il potere esecutivo, 
+quando crede che un'associazione sia rea, non può secondo 
+una così peregrina dottrina, se non avvisare l'autorità 
+giudiziaria dell'esistenza di quella, come farebbe ciascun 
+cittadino nella supposizione che l'autorità giudiziaria non 
+sia stata abbastanza vigile ed accorta per vedere da sé 
+cotest'associazione rea, quantunque pubblica!</p>
+<p>Ora, l'autorità giudiziaria, in un paese fornito d'un 
+Codice, non è in grado di applicare altre disposizioni di 
+legge, non quelle che si contengono in questo, nè di 
+sancirle con altro perle, se non quelle che vi sono indicate. 
+La <foreign lang="eng"><hi rend="italic">Common law</hi></foreign> degl'Inglesi non v'ha 
+luogo. È necessario, dunque, per sapere, se l'autorità 
+giudiziaria è in grado di far nulla, di ricercare, se dal Codice 
+è legittimata esprimere nessuna condanna.</p>
+<p>Nel Codice penale sardo v'erano quattro articoli, 
+il 483, 484, 485 e 486, i quali, come in esso 
+eran imitati dal francese, così n'avevano altri corrispondenti 
+ed analoghi nei Codici degli altri Stati italiani. Tali articoli 
+si riferivano propriamente all'associazione, e la vietavano 
+per qualunque fine senza autorizzazione. Fu bene 
+sopprimerli, come fu fatto nei primi bollori, con un 
+decreto del 26 settembre 1848; ma fu male, 
+che il legislatore, il quale aveva schivato di riconoscere 
+esplicitamente, il diritto d'associazione nello Statuto, 
+paresse poi non ricordarsi punto che associazioni anche 
+nocive ci avrebbero potute essere, e il dover suo di 
+garantirne lo Stato. Se non che in simili cose, se si smarrisce 
+il punto giusto e temperato in tempi di quiete e di pace, non 
+si ritrova più, se pure, non dopo molte tempeste. Nel 
+1862 fu tentato di formulare una legge sulle 
+associazioni; il Rattazzi la presentò; il Boncompagni no 
+riferì; ma la Camera non discusse, perciò la materia è 
+estremamente difficile, e non era anche sorto dubbio, che il 
+Governo non si credesse in dovere ed in diritto di accorrere 
+al pericolo più prossimo, e di sciogliere le associazioni, che 
+paressero illegali o minacciose e infine, i deputati erano 
+restii - e s'intende e non si biasimano - a deliberare senza 
+un'estrema necessità leggi le quali paressero recidere 
+qualche parte della libertà sin allora lasciata ai cittadini. 
+Non s'erano anche viste né associazioni palesemente 
+repubblicane, e che si confessavano tali col loro stesso 
+titolo; ne associazioni internazionali né circoli Barsanti. Al 
+Consiglio di Stato, poiché non v'era stato tuttora abuso, 
+pareva miglior partito che legge alcuna non si facesse. 
+S'intende quindi, che nel Codice penale del 
+1865 non v'ha disposizione veruna, la quale 
+concerna le associazioni, poiché si sa, che né quelle che 
+riguardano le società commerciali, né quelle che si 
+riferiscono all'associazione dei malfattori, hanno niente a 
+fare colle associazioni di cui trattiamo, qui, colle 
+associazioni intese, almeno in apparenza, a fini d'interesse 
+pubblico, secondo esse l'intendono. Sicché l'autorità 
+giudiziaria, a cui un'associazione è denunciata, comincia dal 
+non ritrovare nel Codice nessuna disposizione che vi si 
+riferisca, o che la sia pubblica, o che la sia segreta; poiché 
+anche ogni prescrizione di divieto o di punizione delle sette 
+v'è stata cancellata. Quantunque si è visto che contro queste 
+l'Inghilterra ha leggi speciali; e il Woolsey non dubita di 
+affermare ch'esse non vanno tollerate, anzi, come quelle, 
+che per effetto già dell'arcano di cui si covrono, si devono 
+ritenere inimiche, del loro paese, devono essere trattate non 
+altrimenti dello, bettole, o dei luoghi sospetti e di cattiva 
+riputazione.</p>
+<p>Poiché, dunque, in quanto associazioni ree di 
+macchinazione contro lo Stato, l'autorità giudiziaria non può 
+coglierle, né soggettarle a nessuna pena che sia appropriata 
+ad esse, come sarebbe lo scioglierle o il vietarle o il 
+confiscarne i registri e la cassa, poiché nel Codice tali pene 
+non sono indicate, appunto perché non v'è discorso 
+dell'associazione né punto né poco, non le resta, se non di 
+ricercare se qualcuno dei membri dell'associazione si è reso 
+reo di qualcuno dei reati che la legge punisce. Ora, 
+mettiamo, che cotesta reità vi sia e si provi. L'individuo è 
+punito per averla commessa; e sta bene; ma non è punito 
+punto per quella sua particolare reità che nasce dal far egli 
+parte dell'associazione colpevole. L'essersi unito a questa o 
+l'averla fondata può essere stato un reato enorme 
+contro la società in cui vive. Ma appunto questo reato è 
+escluso, nella condizione della nostra legislazione, 
+dell'animavversione dei Tribunali. Se non che la maggior 
+parte dei reati, che in un'associazione possono essere stati 
+commessi, riesce più difficile a provarsi appunto per ciò che 
+son commossi nel seno di quella o da chi vi appartiene. Tali 
+reati son descritti nel Codice penale dagli articoli 
+468-473, e consistono nella provocazione con 
+discorsi o scritti ai reati descritti negli articoli 133 e 
+seguenti, cioè all'attentato contro la sacra persona del re, o 
+contro le persone della reale famiglia, ovvero alla 
+mutazione delle forme dello Stato, o alla guerra civile, o 
+qualsiasi altro reato; consistono altresì in qualsisia altro 
+pubblico discorso o scritto o fatto, di natura "ad eccitare lo 
+sprezzo o malcontento contro la sacra persona del re, e le 
+persone della reale famiglia, o contro le istituzioni 
+costituzionali". Si badi, che qui l'associazione, di cui fa 
+parte il reo, è l'istrumento principale dell'efficacia del reato; 
+ma non è toccata. Si badi, che quanto agli scritti, cadono già 
+sotto la legge della stampa; e quanto ai discorsi, l'autorità 
+giudiziaria non riesce a punirli, nelle riunioni pubbliche, 
+poiché la polizia non crede più di dovere arrestare nessuno 
+per averne fatti. Il titolo, poi, che le associazioni prendono, 
+per chiaro che paia nei suoi intenti, non è una prova, di per 
+sé solo, che nelle associazioni che lo portano, si commetta, 
+il reato, cui si vede che quel titolo mira. Sicché il più 
+probabile è che l'autorità giudiziaria, la quale non ha modo, 
+nella legislazione nostra, che punire l'associazione, 
+non vi trovi neanche quello di punire l'associato; e che il 
+deferirle le associazioni, secondo il Governo dice di aver 
+fatto, non abbia altro effetto non di salvare il ministro d ogni 
+responsabilità, spogliandolo di ogni potere, e di scansare 
+alle associazioni distruttive dello Stato o della società ogni 
+condanna. Nello stesso tempo, l'abbandono del diritto di 
+scioglimento per parte il Governo le tutela da ogni 
+repressione più o men lontana, da ogni prevenzione più o 
+men vicina; giacché prevenzione e repressione non sono, 
+come parrebbe dall'uso che molti ne fanno, due azioni che 
+s'escludono, e delle quali l'una comincia dove l'altra finisce; 
+poiché anzi s'intrecciano l'una coll'altra; e il prevenire tardi 
+può essere tutt'uno col reprimere presto, poiché prevenzione 
+non è, se non una repressione fatta in uno degli stadi 
+anteriori allo scoppio effettivo del reat.</p>
+<p>La dottrina, che il Governo non è legittimato ad 
+agire se non quando e dove il reato è stato già commesso o è 
+così vicino a commettersi, che solo l'uso immediato di una 
+forza maggiore basti ad impedirne Il ultima consumazione, 
+è la più incivile ed illiberale. è strano che si dica e forse si 
+pensi il contrario. Ci dev'essere nascoso in un'affermazione 
+e giudizio siffatto un paralogismo o una confusione che non 
+preme di ricercare e mostrare qui. Pure i Governi che, come 
+oggi l'italiano, rinunciano al diritto di prevenire e reprimere 
+cogli scioglimenti, e mancano di quello di punire per difetto 
+di legge, non si lasciano né si mantengono altra azione se 
+non appunto quella sola di reprimere il reato colla forza 
+bruta quando scoppia. Ora, l'associazione è appunto il 
+mezzo più potente, l'istrumento più efficace, per riuscire a 
+ciò, che in quell'estremo momento manchi al Governo 
+proprio la forza che allora gli occorrerebbe. L'associazione 
+politica, distruttiva dello Stato o della società, ha per 
+principale suo fine e per principale suo effetto lo 
+sgominarla, il corromperla, il divellerla cotesta forza, il 
+minarla persino o il cariarla, sicché all'improvviso caschi, 
+nel maggior bisogno, e mentre par tutt'ora viva e vegeta.</p>
+<p>Qui dunque si risolve tutta l'azione del 
+Ministero: a creare una condizione di cose, nella 
+quale non rimanga luogo se non alla repressione sanguinosa 
+e violenta, e ad apparecchiarvisi, di giunta,, che questa 
+stessa non sia più sicuro di poterla fare.</p>
+<p>Nella Camera s'è più volto discusso in questi anni del 
+diritto delle associazioni politiche da una parte, e di quello, 
+dall'altra, del Governo a scioglierle e prevenirne gli eccessi. 
+Sì può dire che non s'è mai negato né l'un diritto né l'altro. Il 
+Mancini, uomo il cui ingegno è spesso sedotto dal desiderio 
+di andare a versi a' più e ai più rumorosi, proponendo un 
+ordine del giorno nel febbraio del 1867 
+contro il Ministero che aveva proibite alcune riunioni 
+popolari nel Veneto, se da una parte chiedeva che ogni 
+impedimento preventivo fosse tolto, dall'altra ammetteva 
+che anche il diritto di riunione cessava, quando 
+"trasmodasse in offesa alle leggi ed in colpevoli disordini". 
+L'ordine del giorno era fatto contro quello stesso Barone 
+Ricasoli, che nel febbraio del 1862 aveva 
+detto sul diritto dell'associazione le parole più liberali che si 
+potessero udire, e respingendone ogni restrizione, l'aveva 
+riconosciuto in tutta la larghezza sua. I ministri di parte 
+moderata non hanno mai ricusato al Governo il diritto di 
+sciogliere le associazioni nemiche dello Stato o minacciose; 
+un ministro di parte, come si dice, progressista, ha persin 
+sostenuto che cotesto diritto, per vero dire, il Governo non 
+lo avesse, ma fosse meritorio nel ministro l'esercitarlo, ed 
+esporsi, ove l'avesse esercitato a sproposito, all'ira e alle 
+vendette del Parlamento. In verità non s'intende urlo 
+Stato, in cui il Governo non abbia il diritto e non possa 
+assumere la responsabilità di esercitare, rispetto alle 
+associazioni politiche, distruttive dello Stato o della società, 
+qualche modo di prevenzione o repressione sia collo 
+scioglierle, sia col sospenderlo, e nel quale poi, il reato, che 
+così è stato prevenuto dal potere esecutivo, non sia deferito 
+all'autorità giudiziaria, punito o no da questa, secondo il 
+criterio che essa trae dalla sua coscienza e dalle leggi, 
+criterio il quale niente vieta che in un siffatto caso, come in 
+tanti altri, sia diverso da quello della polizia. Un Governo, il 
+quale non si riconoscesse altro diritto che quello di 
+schiacciare colla forza il reato prossimo a compiersi o 
+uccidere co' fatti il reo, sarebbe barbaro. Appunto, perché 
+ha un diritto di tutela preventiva di sé stesso, ha anche il 
+diritto di fare, quando creda, una legge che freni le 
+associazioni nemiche. Ma una legge sulle associazioni, lo 
+confesso, è estremamente difficile, e risica d'andare più in là 
+del dovere, o restare in qua. Gl'Inglesi hanno avuto ragione 
+di non fare leggi generali, ma di formularne una via via che 
+l'occasione nasce, sicché s'attagli perfettamente a questa. 
+Noi c'impacciamo nella legge generale, e siamo 
+estremamente restii alle leggi speciali e particolari. Però, 
+sino a che la legge generale e le particolari mancano, è 
+impossibile che ne manchino altresì allo Stato i poteri che 
+sono connessi coll'essenza sua e che scaturiscono 
+direttamente da questa. Il diritto di sciogliere le 
+associazioni, o poco o molto efficace che ne riesca 
+l'esercizio, è uno di questi poteri. Il ministro che 
+dichiara di non averlo, non rispetta, com'egli immagina, la 
+legge, che non esiste, ma nega lo Stato: non rispetta il diritto 
+di pochi, ma scalza, per quanto è in lui, il diritto 
+fondamentale di tutti.</p>
+<closer><dateline>15 novembre 1878.</dateline></closer></div2></div1></body></text></TEI.2>

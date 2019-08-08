@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commentario della battaglia di Marengo</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>70708 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit000326</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Scritti letterari e politici : dal 1796 al 1808</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Gambarin, Giovanni</editor>
+               <publisher>F. Le Monnier</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1972</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Commenti, traduzioni e volgarizzamenti</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06-08T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Novadata systems</name>
+            </respStmt>
+            <item>Digitalizzazione - OCR</item>
+         </change>
+         <change>
+            <date>2007-12-18T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2008-01-28T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Marta Zanazzi</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2008-02-07T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 n="Introduzione">
+            <argument>
+               <p>
+                  <foreign lang="fre">
+                     <hi rend="sc">Relation de la bataille de Marengo</hi>
+                  </foreign>, ec., ossia Comentario della Battaglia di Marengo, vinta a' 25
+                        Pratile, anno VIII da <hi rend="sc">Napoleone Bonaparte, primo consolo</hi>,
+                        comandante in persona l'esercito francese di riserva, contro gli Austriaci,
+                        condotti dal Tenente-Generale <hi rend="sc">Melas</hi>.</p>
+            </argument>
+            <p>Tale è il titolo del libro, che annunciamo, scritto dal principe di Neuchâtel.
+                    L'illustre autore fu generale in capo dell'esercito di riserva, sotto gli ordini
+                    immediati del primo Consolo. E dopo cinque anni, quando S. M. passò le Alpi a
+                    coronarsi Re d'Italia, il maresciallo Berthier, essendo Ministro della Guerra,
+                    le presentò questo <title>Comentario</title> sul campo di Marengo nel giorno
+                    anniversario della vittoria. L'edizione, che abbiamo sott'occhio; è magnifica
+                    fra quante mai l'arte tipografica e l'esattezza ed il lusso de' rami abbiano
+                    adornate a' dì nostri. Un esemplare n'esiste nella Biblioteca Reale di Milano,
+                    dono di S. M. l'Imperatore e Re.</p>
+            <p>Crediamo di far cosa utile agli uomini militari della nostra patria, dando, or
+                    per estratto; or tradotto religiosamente, il <title>Comentario</title> di sì
+                    memorabile battaglia. La vittoria di Marengo rimarrà eterna col nome dell'Eroe
+                    che la riportò; ma, nella narrazione delle cause e dei mezzi che la produssero,
+                    gli uomini nati a pensare profondamente e ad operare egregiamente potranno
+                    considerare la sapienza militare e politica, che tramandò questo libro non tanto
+                    all'ammirazione de' popoli, quanto alla fede e all'utilità della.storia.</p>
+            <p>Dopo la dedicatoria del Maresciallo Berthier a S. M:, il volume contiene in
+                    epitome il comentario delle sei campagne di Bonaparte in Italia, negli anni IV,
+                    V, VI, e quello della campagna d'Egitto e di Siria. Ognuno sa che il medesimo
+                    autore aveva già in altre opere appositamente e distesamente tessuta la storia
+                    di quelle celebri guerre. Ma questo compendio gli giovava onde dimostrare per
+                    quali gradi Napoleone abbia <emph>ridotta l'arte della guerra a scienza
+                        infallibile quando è trattata dal genio</emph>.</p>
+            <p>La narrazione dell'autore comincia ad essere circostanziata quando viene alla
+                    campagna dell'esercito di riserva. Noi lo verremo seguitando fedelmente.</p>
+         </div1>
+         <div1 n="Comentario della Battaglia di Marengo">
+            <p>Tutti i disegni di campagna di <hi rend="sc">Bonaparte</hi> hanno tale carattere
+                    proprio d'audacia e di prudenza, che non sarà mai bastantemente studiato dai
+                    militari.</p>
+            <p>Nel IV, Ve VI anno, conquistò tutta l'Italia settentrionale, sostenne con un
+                    esercito di trenta in quaranta mila uomini i maggiori sforzi dell'Austria, ed in
+                    tre anni fece sei campagne.</p>
+            <div2 n="Campagna prima">
+               <head>CAMPAGNA PRIMA</head>
+               <p>Bonaparte attira sotto Genova il generale Beaulieu, lo assale nei fianchi,
+                        gli soverchia la diritta, lo rompe a Monte-Notte, accorre alternativamente
+                        or a Dego or a Mondovì, incalza Beauleiu sul Milanese, Colli in Turino,
+                        sottomette il re di Sardegna, supera il ponte di Lodi, s'impadronisce della
+                        Lombardia, traversa il Mincio, investe Mantova, e in men di due mesi, dai
+                        monti liguri pianta le sue bandiere sui tirolesi, varca l'Italia, ed è ai
+                        confini alemanni.</p>
+               <p>Vive ancora la memoria dello stupore di cui sì splendidi fatti percossero
+                        tutta l'Europa. Le passioni delle parti in Francia, e la rabbia dei nostri
+                        nemici rappresentavano, nel Generale di ventisei anni, un giovine impetuoso
+                        che troverebbe ben presto nella sua propria audacia la sua confusione e la
+                        sua perdita.</p>
+            </div2>
+            <div2 n="Campagna seconda">
+               <head>CAMPAGNA SECONDA</head>
+               <p>Primo effetto di vittorie sì illustri fu l'Alsazia sgombrata da Wurmser,
+                        costretto a ripassare il Reno per accorrere con quarantamila uomini in aiuto
+                        del Tirolo: dopo non molto si affaccia sull'Adige con ottantamila
+                        combattenti, occupa Monte Baldo, penetra per Valsabbia, e giunge ad un tempo
+                        a Verona ed a Brescia.</p>
+               <p>Nuovo e formidabile nemico cui non possiamo opporre più di trentamila uomini.
+                        Doveansi conservare le conquiste; assediavasi Mantova, presidiata da più di
+                        ottomila uomini, già in procinto di arrendersi; in questa seconda campagna
+                            <hi rend="sc">Bonaparte</hi> appar superiore a Federigo trovatosi quasi
+                        in pari posizione. Non si ostina all'assedio di Mantova, come il re
+                        all'assedio di Praga; ma le sue risoluzioni sono rapide, e le operazioni
+                        rapidissime. L'inimico stupefatto da tanta prontezza di movimenti non
+                        trovava mai all'alba l'esercito francese dove avealo lasciato la sera.
+                        Ripiegando al numero colle marce, Bonaparte mostravasi quasi ovunque
+                        superiore al nimico. Le battaglie di Lonato e di Castiglione coronarono sì
+                        belli ed ardimentosi concetti; e Wurmser vinto, ad onta della sua numerosa
+                        cavalleria e dell'artiglieria immensa, rifuggì nelle gole del Tirolo,
+                        lasciando ai francesi gran parte del suo esercito.</p>
+               <p>In tutti questi movimenti, sorgente d'utili studi per chi attende alla
+                        milizia, <hi rend="sc">Bonaparte</hi> fece conoscere che sovente
+                        l'espediente migliore per difendersi è l'assalire, e che il genio della
+                        grande guerra posa sovranamente nell'arte di racquistare l'offesa, ove i
+                        primi vantaggi del nimico l’avessero preoccupata.</p>
+               <p>Allora la sua fama si fondò in tutta Europa; i generali francesi di ogni arma
+                        lo acclamarono loro maestro, e gli antichi commilitoni di Federigo
+                        preconizzarono l'eroe che dovea ripigliare lo scettro della guerra,
+                        inoperoso dopo la morte di lui.</p>
+            </div2>
+            <div2 n="Campagna terza">
+               <head>CAMPAGNA TERZA</head>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> avea vinto; ma si vide tratto in ardui
+                        frangenti, e n'era punto altamente. Ricordava che Wurmser avea più volte
+                        occupato il suo quartier generale, nè credea bastante vendetta l'aver
+                        dissipato i divisamenti di lui, sterminandogli parte dell'esercito; dopo sei
+                        settimane di riposo, ode che questo generale riceveva rinforzi e che levava
+                        il campo dal Tirolo verso la Brenta. <hi rend="sc">Bonaparte</hi> rimonta
+                        subito l'Adige, va a Roveredo, rompe in quell'insigne giornata mezzo
+                        l'esercito austriaco, avanza verso Lavis, fa viste di marciare a Inspruch, e
+                        repentinamente torce verso la Brenta; tutti gli accorgimenti austriaci, per
+                        opporre argine a questo torrente, riescono vani e senza pro.</p>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> combatte il nimico, lo sconfigge, lo insegue
+                        colla spada ne' fianchi, e lo ributta sull'Adige, che varca a Ronco prima di
+                        lui; e senonché s'attraversò un di que' casi che eludono tutti gli
+                        avvedimenti, Wurmser rendeva le armi; ma sciagurato nella sua ventura,
+                        questo accidente gli apre Mantova per unica ritirata, ove è forzato a
+                        rinchiudersi con diecimila cavalli, alcuni eletti reggimenti di corazzieri,
+                        tutto lo stato maggiore e la salmeria dell'esercito.</p>
+               <p>Fu sì pronta l'esecuzione di tutti i movimenti, e si solenne la sconfitta di
+                        questo terzo esercito, che la corte di Vienna ignoravane la fortuna, quando
+                        ella dalla voce pubblica seppe essere omai senza esercito in Italia, le sue
+                        frontiere senza presidi e il suo generale, chiuso colle reliquie de' suoi
+                        soldati nella sola piazza che le rimanesse.</p>
+               <p>Riesce agevole osservare che <hi rend="sc">Bonaparte</hi> nelle sue ardite
+                        operazioni non aveva nulla avventurato al caso; e quantunque le sue marce
+                        sembrino a prima vista straordinarie, meditandole apparirà che egli avea
+                        provveduto sempre alla ritirata, e combinati i rovesci ai ripieghi. I
+                        militari coglieranno con ardore le tante mirabili relazioni di questa
+                        campagna con quella dell'esercito di riserva, in ambedue delle quali
+                        vedranno <hi rend="sc">Bonaparte</hi> esercitare la sua tattica sulla linea
+                        d'operazione del nimico, porsi fra lui e i suoi magazzini, attraversargli la
+                        ritirata, e decidere con un unico colpo il destino di un esercito
+                    intero.</p>
+            </div2>
+            <div2 n="Campagna quarta">
+               <head>CAMPAGNA QUARTA</head>
+               <p>Tante avversità dovevano altamente irritare la corte di Vienna; non ignorando
+                        che <hi rend="sc">Bonaparte</hi> aveva appena una banda d'armati, divisò di
+                        non risparmiare mezzi onde trarre dal blocco il suo feldmaresciallo, lo
+                        stato maggiore di un esercito, e salvare ad un tempo la piazza di Mantova. E
+                        fu tanto lo sforzo, che Alvinzi ebbe più di cinquantamila uomini nel Friuli,
+                        mentre il suo luogotenente avevane ventimila sul Tirolese. Era impossibile
+                        al Generale francese di resistere a cotante forze, e di occupare un terreno
+                        troppo ampio alle sue: onde non cercò a principio se non d'arrestare i
+                        movimenti del nimico con vari corpi d'osservazione sulla Brenta. Alvinzi,
+                        indugiato parecchi giorni, passa la Piave; <hi rend="sc">Bonaparte</hi> è
+                        costretto a sgombrare dal paese fra la Brenta e l'Adige. Provasi a Caldiero
+                        di riguadagnarsi l'offesa; ma l'esperimento non fu in quella giornata
+                        felice; e seppe ad un punto le divisioni nimiche insignorite della sponda
+                        diritta dell'Adige, e giunte a Rivoli. L'Italia parea perduta senza riparo,
+                        e teneasi inevitabilmente levato il blocco di Mantova. Alla rassegna in
+                        Verona dopo la battaglia di Caldiero, i Francesi si trovano quindicimila,
+                        non più; e quando a notte l'esercito sfilò, correa universale parere che si
+                        continuerebbe la ritirata: aspettativa delusa. Comandasi alle schiere di
+                        seguire l'Adige, che alle ore due sull’alba traversano a Ronco, e <hi rend="sc">Bonaparte</hi> presenta l'insigne battaglia d'Arcole.
+                        Quantunque la mira principale del Capitano svanisse al principio della
+                        giornata, pure quella sapiente tattica gli giovò a cacciare dalla bella
+                        posizione di Caldiero il nimico, attirarlo in paludi, stringerlo a
+                        combattere sugli argini ove il numero superiore non lo vantaggiava. Per tre
+                        dì le divisioni nimiche rotte a mano a mano, scoraggiandosi, cedono il campo
+                        di battaglia; e tutto l'esercito, inseguito, rivarcò sbandato la Brenta.</p>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> riconducendo sempre la vittoria alle nostre
+                        insegne, fe' stimare al mondo, giudice per lo più dall'evento, che tutto
+                        fedelmente gli prosperasse. Ma i militari osservatori conosceranno quanti
+                        progetti ottimamente combinati gli si convertirono in danno: bensì non ci
+                        ebbe mai uomo più pronto nè più sperimentato a nuovi espedienti, con che
+                        imponeva alla fortuna di secondarlo.</p>
+            </div2>
+            <div2 n="Campagna quinta">
+               <head>CAMPAGNA QUINTA</head>
+               <p>Fu questa la campagna delle battaglie di Rivoli e della Favorita, donde venne
+                        la presa di Mantova. La giornata campale di Rivoli fu più gloriosa
+                        all'esercito di quella di Marengo, perchè <hi rend="sc">Bonaparte</hi> con
+                        diciottomila ne sconfisse quarantamila, ventisettemila dei quali rimasero
+                        prigioni. Inferiore di tanto, ed in un campo di battaglia di cinque leghe
+                        quadrate, il Capitano spiegò sovranamente la grande arte di apparire
+                        superiore in tutti i punti di attacco. Non previene le colonne austriache in
+                        distanza di sette in otto leghe, nè in trentasei o quarantott'ore di spazio;
+                        ma le rompe ad una ad una, sebbene non distanti fra loro se non di un'ora al
+                        più di cammino. Queste giornate sì splendide di Rivoli e della Favorita sono
+                        frutto di una piena cognizione del campo di battaglia, d'una somma
+                        avvedutezza a penetrare i disegni del nimico, e della prontezza a creare sul
+                        fatto i mezzi di eluderli.</p>
+               <p>A Rivoli la divisione nimica, destinata a cingerci alle spalle, giunge di
+                        fatto nella posizione che doveva occupare; ma giunge quando le altre
+                        divisioni austriache sono sconfitte: onde si trova avviluppata e
+                    prigione.</p>
+            </div2>
+            <div2 n="Campagna sesta">
+               <head>CAMPAGNA SESTA</head>
+               <p>
+                  <hi rend="sc">Bonaparte</hi>, padrone di Mantova, marcia con soli cinque mila
+                        combattenti a Roma; e quando l'Europa lo credea oltre gli Appennini, egli
+                        soscriveva il trattato di Tolentino. Non si lascia traviare dalla vanagloria
+                        di entrare trionfante in Campidoglio; ma torna senza perdere un'ora
+                        all'esercito sulla Piave ove principia la sesta campagna. In meno di due
+                        mesi, disfatto il principe Carlo al Tagliamento, all'Isonzo e a Tarvis,
+                        varcate le Alpi Giulie, la Drava, la Sava e la Muehr, costringe l'Austria
+                        alla pace, mentre l'esercito francese tenea Trieste e l'Istria, la Carniola,
+                        la Carinzia, la Stiria e gran parte dell'Austria anteriore.</p>
+               <p>Nel tempo in cui, venticinque leghe sotto Vienna, concedea l'armistizio a'
+                        generali Bellegarde e Meerfeld, e soscrittolo, tracciava i limiti degli
+                        eserciti, non senza lungo dibattimento, per li corpi dei generali Bernadotte
+                        e Joubert: — <emph>Ove credete voi, signori</emph> —
+                        disse <hi rend="sc">Bonaparte</hi> ai generali austriaci —
+                            <emph>che sia il generale Bernadotte</emph>? — <emph>Forse è
+                            giunto a Fiume</emph> — rispose Bellegarde. —
+                            <emph>No</emph> — soggiunse <hi rend="sc">Bonaparte</hi>
+                        — <emph>è nella mia sala, e mezza lega distante vedrete la sua
+                            divisione. Ma</emph> — proseguì egli — <emph>ove
+                            presumete voi il generale Joubert</emph>? — <emph>Forse a
+                            Inspruch</emph> — replicò Bellegarde — <emph>se pure
+                            valse a far testa alle colonne di granatieri che giunsero dall'esercito
+                            del Reno</emph>. — <emph>Anch'egli</emph> — disse
+                            <hi rend="sc">Bonaparte</hi> — <emph>è nella mia sala, e la
+                            sua divisione non è lontana due leghe</emph>. —</p>
+               <p>Queste due risposte colpirono gli Austriaci, tanto più che il loro generale
+                        aveva appunto allora spediti gagliardi distaccamenti onde sostenere la
+                        Carniola e il Tirolo, dond'ei congetturava che i generali Bernadotte e
+                        Joubert dovessero penetrare. Così, mentre i nimici si sparpagliavano,
+                        Bonaparte rammassava in un terreno di cinque in sei leghe quadrate tutte le
+                        sue forze di circa quarantaseimila uomini.</p>
+            </div2>
+            <div2 n="Campagna d’Egitto e di Siria">
+               <head>CAMPAGNA D'EGITTO E DI SIRIA</head>
+               <p>
+                  <hi rend="sc">Bonaparte</hi>, non molto dopo la pace, naviga in Egitto;
+                        presentasi a Malta: l'autorità del nome, la fiducia nell'intervento di lui,
+                        ed il vigore degli assalti da tutti i lati dell'isola, non permettendo
+                        respiro al nimico, gli dànno in potere quella formidabile piazza, che non
+                        era stata mai presa.</p>
+               <p>Sbarcato in Egitto, giudica da' primi giorni il sistema di guerra voluto dal
+                        paese e dalla specie di armati che lo difendevano, e presente la nuova
+                        tattica ch'ei dovea creare.</p>
+               <p>La battaglia delle Piramidi alle porte del Cairo, l'altra del monte Tabor nel
+                        cuor della Siria, e quella d'Aboukir, sono tutte tre variamente ideate. Si
+                        preservò d'ogni errore, ed applicò a nuove circostanze e diverse tutti gli
+                        espedienti dell'arte della guerra.</p>
+               <p>Intanto noi eravamo sconfitti a Stockach e sull'Adige. La Francia era
+                        sovrastata dalla sua rovina, temporeggiata appena per la vittoria di Zurigo;
+                        l'Italia perduta; gli eserciti disanimati, senza unità nella direzione e nei
+                        movimenti, non erano più omai di spavento ai nemici del nome francese. La
+                        guerra civile ardeva nella Francia occidentale e meridionale; la pubblica
+                        economia a soqquadro; le sètte sbranavansi, ed un governo destituto di forza
+                        cercava indarno la propria sicurezza nelle divisioni.</p>
+            </div2>
+            <div2 n="Campagna dell'esercito di riserva">
+               <head>CAMPAGNA DELL'ESERCITO DI RISERVA</head>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> approda dall'Egitto; la speranza rinasce, e a'
+                        18 brumale è giustificata: tutto si riunisce, tutto cede al genio che
+                        concepisce, alla possanza che ordina, alla moderazione che affida. Nè
+                        bastava riordinare con leggi lo stato: era pur necessario conquistargli la
+                        pace con la vittoria.</p>
+               <p>Eleggevasi primo Consolo <hi rend="sc">Bonaparte</hi>, e Cuneo intanto,
+                        estrema piazza in Italia, cadeva: i nostri posti ripiegati sulle vette
+                        dell'Alpi; nè un palmo di terreno, nè una sola piazza più nostra in Italia;
+                        tutta Alemagna sgombra; le armi nostre sulla difesa alla sinistra sponda del
+                        Reno; l'inimico dappertutto fortissimo; e se prospere imprese lo conducevano
+                        ne' Voghesi, o sulla Schelda, sarebbero risultati funestissimi effetti alla
+                        deplorabile condizione delle cose nostre.</p>
+               <p>Vide <hi rend="sc">Bonaparte</hi> che, prima di ricuperare l'Italia, era pur
+                        forza di assicurare il Belgio e i dipartimenti aggregati.</p>
+               <p>L'Imperatore di Germania poteva appigliarsi a due partiti, e in ambedue
+                        doveva provvedere a tutti gli avvenimenti: riunire le sue principali forze
+                        nella Svevia e sul Reno; presentarsi su questo fiume con cento e
+                        sessantamila uomini; e riportati i primi vantaggi, concertarsi con un
+                        esercito inglese sbarcato in Olanda o nel Belgio. Le schiere austriache in
+                        Italia, rinforzate, starsi ferme sul Po, parate a rispondere nella pianura
+                        a' Francesi, i quali non potevano scendere se non con poca cavalleria e con
+                        artiglierie male equipaggiate.</p>
+               <p>Secondo partito della corte di Vienna si era di stare nell'Alemagna sulle
+                        difese; mandare addosso a Genova un esercito potente, indi sul Varo;
+                        campeggiare la Provenza; concertare le operazioni con quindici mila Inglesi
+                        accampati da alcun tempo a Maone; e giovarsi delle sommosse degli
+                            <emph>Scioanni</emph> che nella Francia meridionale cominciavano a
+                        risentirsi.</p>
+               <p>Il primo disegno di campagna minacciava assai più: quindi <hi rend="sc">Bonaparte</hi> convocò sul Reno cento quarantamila combattenti,
+                        formando ad un tempo nella Borgogna, alle spalle di questo esercito, un
+                        altro di riserva; e lascia stanziare su' monti liguri le reliquie
+                        dell'esercito d'Italia di circa trenta mila uomini.</p>
+               <p>Da tali disposizioni apparirà che, qualunque si fosse la mente dell'inimico,
+                        la Francia si era premunita a fargli sempre fronte. Se l'Austria si
+                        appigliava al primo disegno di campagna, <hi rend="sc">Bonaparte</hi>
+                        accorreva con l'esercito di riserva verso quello del Reno che allora
+                        scendeva a cento sessantamila uomini, opponendo così le sue forze maggiori
+                        alle maggiori forze nemiche.</p>
+               <p>Se invece il gabinetto di Vienna adottava il secondo progetto di campagna, le
+                        nostre armi sul Reno diventavano superiori agli Austriaci.</p>
+               <p>Ove l'Austria avesse avanzate sul Genovesato le forze principali, <hi rend="sc">Bonaparte</hi> avrebbe varcate le Alpi con l'esercito di
+                        riserva, preoccupato il Po, per prendere il nimico alle spalle, predargli i
+                        magazzini e attraversargli la ritirata.</p>
+               <p>Di questi partiti l'Austria adotta il secondo, e porta il più forte esercito
+                        in Italia. Melas comincia le ostilità; supera la Bocchetta, e si affaccia ad
+                        un tempo a Genova ed a Savona.</p>
+               <p>L'esercito francese sul Reno si prevale della sua superiorità: generali ed
+                        uffiziali si segnalarono per valore di braccio e d'ingegno; e riportarono
+                        illustri vittorie nella Svevia.</p>
+               <p>Intanto Melas era sul Varo: tutto lo stato di Genova conquistato; la Provenza
+                        risonava di spavento; Marsiglia, Tolone stesso credevansi in repentaglio.</p>
+               <p>Ed ora appunto l'esercito di riserva sta per sormontare le Alpi del
+                        San-Bernardo, e preoccupare alle spalle tutta l'Italia; combinazioni ampie e
+                        profonde, ideate da lontano con tutta tranquillità, ed eseguite con maestria
+                        pari all'audacia.</p>
+               <p>I mezzi tutti erano già preordinati da gran tempo; due milioni di porzioni di
+                        biscotto, allestite otto settimane addietro in Lione, si vociferavano
+                        destinate per Tolone.</p>
+               <p>Tutto ciò che doveva ingannare Melas intorno ai nostri progetti, era già
+                        antiveduto.</p>
+               <p>Non si fa movimenti, non mostra di soldato, nè in Val Morienna, nè in Val
+                        Tarantese.</p>
+               <p>I confini del Delfinato non accennavano veruno apparecchio.</p>
+               <p>L'esercito di riserva, tanto preconizzato, supponeasi adunato in Digione, ove
+                            <hi rend="sc">Bonaparte</hi> si recò, seguito da molti esploratori del
+                        nemico, che pur non vedono in questa grande rassegna più di tre o quattro
+                        mila soldati; ond'è naturale che tutti i ragguagli giunti d'ogni stato
+                        intorno ai deboli armamenti de' Francesi, abbiano illuso Melas e la corte di
+                        Vienna. Sfilavano intanto i reggimenti a grandi giornate: le divisioni
+                        formavansi per viaggio, e si riunivano con marcie concertate, mentre erano
+                        raggiunte da' coscritti inviati a rifornire i corpi che le componevano; così
+                        parimente si dispongono le artiglierie e tutte le aziende di guerra; tutto
+                        con pari secreto, tutto mosso a un solo segnale. I biscotti ed i magazzini
+                        non sono trasportati a Ginevra se non nel punto che vi compariva la
+                        vanguardia.</p>
+               <p>Quando Melas investì Genova, volle, prima di estendersi verso il Varo,
+                        premunirsi di nuovo contro gli allestimenti vociferati de' Francesi. Fece
+                        investire i Monte-Cenisio; e venendogli riferito che, per quattro mesi,
+                        ogn'intrapresa ci sarebbe stata impossibile, perchè non avevamo nè
+                        magazzini, nè numero imponente di esercito, stimo di non alterare per nulla
+                        il suo progetto, ed andò a Nizza.</p>
+               <p>Avvertito pertanto che le armi francesi apparivano sulle Alpi del
+                        San-Bernardo, le credè quei tre o quattro mila comparsi alla rassegna di
+                        Digione, i quali gli s'inviassero per rimuoverlo dall'assedio di Genova,
+                        come, sei mesi addietro, un generale francese avea varcate appunto quelle
+                        Alpi per distorlo da Cuneo: stratagemma di diversioni usitatissime di
+                        guerra; onde parve a Melas di mostrare vero carattere di capitano
+                        rimanendosi immutabile ne' suoi primi divisamenti. Di fatti dovea egli
+                        presumere che <hi rend="sc">Bonaparte</hi> volesse entrare in Italia,
+                        anteponendo il Gran-San-Bernardo al Monte-Cenisio, impacciandosi in valli
+                        più ardue e destituite d'ogni sussidio, e che d'altronde potesse spianarsi a
+                        un tratto l'inciampo del forte di Bard, che doveva per più giorni indugiarlo
+                        ?</p>
+               <p>Vide <hi rend="sc">Bonaparte</hi> che la sua presenza poteva sola svelare la
+                        sua mente, e macchinò ogni cosa onde persuadere ch'ei dimorerebbe a Ginevra:
+                        visitò egli medesimo molte villeggiature; tutti gli esebivano a gara le loro
+                        case; e la Svizzera accreditava sì fatte novelle. Fece vociferare, alcuni dì
+                        dopo, che una sommossa, scoppiata in Parigi, sforzavalo a tornare alla
+                        capitale: egli intanto era oltre il Gran-San-Bernardo.</p>
+               <p>Nè qui diremo degl'ingegni operati per trasportare le artiglierie, nè
+                        dell'audacia con cui ci siamo scherniti del forte di Bard, nè della scalata
+                        a quello d'Ivrea, nè del combattimento della Chiusella: diremo soltanto che
+                        a' 7 pratile <hi rend="sc">Bonaparte</hi> era in Ivrea.</p>
+               <p>Tutti argomentarono che, valendosi della vittoria della Chiusella, avrebbe
+                        marciato per unirsi a duemila cinquecento uomini, recentemente adunati dal
+                        generale Turreau nelle città del Delfinato, e co' quali egli avea presa la
+                        volta di Susa, sforzando il passo di Cabrières, il che avria recato a <hi rend="sc">Bonaparte</hi> il vantaggio di spalleggiarsi delle piazze e
+                        delle strette di Monte-Bianco; ma egli aveva disegno più ampio e decisivo.</p>
+               <p>La divisione del generale Murat, che era retroguardia, diventa a un tratto
+                        vanguardia: passa la Sesia ed il Ticino, ed entra in Milano ove <hi rend="sc">Bonaparte</hi> giunge ai 12 pratile. E tanta era la celerità
+                        dei movimenti, che da quarantotto ore appena gli abitanti udivano parlare
+                        dell'esercito di riserva e del passaggio delle Alpi.</p>
+               <p>La vanguardia abbandona la Chiusella, passa la Dora, diventa retroguardia,
+                        traversa la Sesia, e giugne a Pavia, dove toglie al nemico un parco
+                        d'artiglieria da campo.</p>
+               <p>In questo tempo era comandato a una divisione capitanata dal generale Moncey,
+                        di tragittare il San Gottardo: giunta la sua vanguardia in Milano, il corpo
+                        del generale Murat passa il Po a Piacenza, mentre l'esercito lo varcava a
+                        Stradella, ove un grande equipaggio d'artiglierie nemiche fu per essere
+                        preso.</p>
+               <p>Intanto Melas accorreva a gran corsa a Torino; nè si dubitava più omai della
+                        esistenza dell'esercito di riserva e della presenza di <hi rend="sc">Bonaparte</hi>, ravvisato da molti uffiziali austriaci.</p>
+               <p>Il generale Massena capitolava appunto a Genova il dì 15 pratile (4 giugno
+                        1800).</p>
+               <p>E qui principalmente giova di accompagnare sulla carta lo svolgimento delle
+                        idee di <hi rend="sc">Bonaparte</hi>, ora che il risultato n'è imminente.</p>
+               <p>Non s'era egli prefisso di sconfiggere soltanto il nimico, ma di tagliargli
+                        la ritirata e di stringerlo a una capitolazione che l'obbligasse di
+                        restituire in una volta tutte le fortezze d'Italia: progetto ardito; e più
+                        assai; contro un nimico più forte in numero.</p>
+               <p>Non si tosto il corpo del generale Lannes passa il Po (17 pratile), che <hi rend="sc">Bonaparte</hi> gli ordina d'impadronirsi della posizione di
+                        Montebello, e lo fa sostenere da una divisione: si viene a un insigne fatto
+                        d'armi; il generale Ott, con diciottomila soldati vegnenti da Genova, assale
+                        il generale Lannes, che lo rimanda interamente disfatto nella giornata
+                        gloriosa di Montebello. Il generale Ott riordina a stento la metà del suo
+                        corpo sotto le mura di Tortona.</p>
+            </div2>
+            <div2 n="Relazione della battaglia di Marengo">
+               <head>RELAZIONE DELLA BATTAGLIA DI MARENGO</head>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> conservò per due giorni la posizione di
+                        Montebello; ma, meravigliato della immobilità del nimico, e sapendo che da
+                        più dì aveva raccolte le sue divisioni tornate da Nizza, congetturò che il
+                        generale austriaco macchinasse i mezzi di scampare agli ardui frangenti in
+                        cui si trovava: ove ciò fosse, dovea necessariamente appigliarsi a uno di
+                        questi tre partiti.</p>
+               <p>Primo partito si era di passare il Po (aveva a Casale una testa di ponte,
+                        tanto fortificata da' maresi e patrocinata dalla sponda sinistra, che si
+                        giudicava impossibile di espugnarla), varcare quindi il Ticino, traversare
+                        la Lombardia, congiungersi sull'Adda al generale Wukassovich. L’esercito
+                        austriaco era munito di un equipaggio di ponti, di artiglierie imponenti e
+                        di più di dodicimila cavalli da tiro.</p>
+               <p>Secondamente, potea gettarsi sul Genovesato, riunirsi ai corpi di Toscana e
+                        ad una divisione di dodicimila Inglesi; poi riguadagnare Mantova, facendo
+                        tragittare le sue artiglierie per mare, o veramente prevalersi della natura
+                        de' luoghi per far testa, finchè potesse ricevere rinforzi dalla Germania, e
+                        porre così i Francesi tra due eserciti; il che avrebbe temporeggiata la
+                        guerra, prodotti incerti avvenimenti, ed angustiato <hi rend="sc">Bonaparte</hi>, tanto più che la sua presenza diveniva necessaria a Parigi.</p>
+               <p>Finalmente il nimico avea per terzo partito di marciare addosso al generale
+                        Massena che dovea, per tutti i calcoli, essere in Acqui, avviluppargli dieci
+                        o dodici mila uomini che gli si presumevano atti ancora a combattere, e,
+                        disfattolo, aspettare nuove vicende propizie che poteano emergere dalla
+                        guerra de' posti e dalle marcie.</p>
+               <p>Per opporsi al primo partito, <hi rend="sc">Bonaparte</hi> avea lasciato sul
+                        Po un corpo d'osservazione di tre mila uomini, che dovea ritardargli il
+                        tragitto di questo fiume e della Sesia, e congiungersi poi al generale
+                        Moncey per contendere il passo del Ticino. Nè v'era a dubitare che tali
+                        ostacoli opposti a Melas non dessero campo all'esercito di rivarcare alla
+                        sinistra sponda del Po e di anticipare il nimico sul Ticino.</p>
+               <p>Rispetto agli altri due partiti rimasti agli Austriaci, parve a <hi rend="sc">Bonaparte</hi> espediente di mettere l'esercito sulle mosse e di
+                        operare secondo le congiunture.</p>
+               <p>Giungevamo presso a Tortona, quando il generale Desaix, che dall'Egitto aveva
+                        approdato a Tolone, venne, cavalcando in posta a raggiungere l'esercito; e
+                        ricevuto il comando di una divisione, fu immantinente spedito a Rivalta per
+                        fare la vanguardia, e se il nimico si avviava a Genova, serrargli i passi.</p>
+               <p>
+                  <hi rend="sc">Bonaparte</hi>, col rimanente dell'esercito, passa la notte
+                        lungo la Scrivia.</p>
+               <p>A' 24 pratile, sulle ore otto antimeridiane, se ne va a Castel-Nuovo, e fa
+                        battere la pianura di Marengo da cavaleggieri: intende che il nimico non ha
+                        posti a San Giuliano, nè per la pianura; però stima dover muovere il campo:
+                        arriva alle ore tre pomeridiane: alle quattro troviamo a Marengo i posti
+                        avanzati nimici. Comanda sul fatto l'assalto; nè la difesa fu pertinace:
+                        Marengo è preso, e il nimico addossato sulla Bormida.</p>
+               <p>E poichè il nimico, anzichè aspettarci nella pianura di Marengo, avea
+                        lasciato pigliare il villaggio, <hi rend="sc">Bonaparte</hi> si rafferma nel
+                        pensiero ch'ei si fosse prefisso di prendere uno dei tre partiti accennati.</p>
+               <p>Ordina alla vanguardia di respingere gli Austriaci oltre la Bormida, e
+                        d'arderne, s'è possibile, i ponti.</p>
+               <p>Ciò comandato, parte per Voghera, quartier generale, ove egli aspettava i
+                        riferti di tutti i posti dell'esercito e delle spie. Dagli andamenti del
+                        nimico sperava d'indovinarne il vero intento; ma, giunto appena alla Torre
+                        di Garafolla, riceve avvisi da Rivalta e dal Po; e fermasi in questa
+                        fattoria per lo rimanente della notte de' 25. Notte che il nimico passa in
+                        grandi sollecitudini. Conobbe le angustie della sua posizione, e quanto
+                        avesse gravemente errato nel lasciarsi sloggiare da Marengo; ma credendo
+                        omai tardo ogni consiglio di ritirata, ed i Francesi sí sovrastanti da non
+                        concedergli scampo nè per il Po, nè per Genova, prende la nobile risoluzione
+                        di schiudersi il passo attraverso del nostro esercito; ed in tale disegno i
+                        suoi primi sforzi doveano tendere a riguadagnare Marengo.</p>
+               <p>In fatti, alle ore sei della mattina l'esercito nimico sbocca da' suoi ponti
+                        sulla Bormida, e porta il forte della cavalleria, capitanata dal generale
+                        Elnitz, sulla sinistra; la fanteria era schierata in due linee condotte da'
+                        generali Haddick e Kaim, e un corpo di granatieri comandati dal generale
+                        Ott.</p>
+               <p>L'esercito francese trovasi disposto a scaglioni i per divisioni, l'ala
+                        sinistra innanzi; la divisione Gardanne compone lo scaglione di sinistra
+                        alla cascina Pedrabona; la divisione Chambarlhac lo scaglione secondo a
+                        Marengo, e la divisione Lannes il terzo, tenendo la destra della linea e
+                        dietro la destra della divisione Chambarlhac; le divisioni Carra-Saint-Cyr e
+                        Desaix in riserva, l'ultima delle quali era in cammino da Rivalta, d'onde,
+                        conosciuto appena l'intento del nimico, fu rivocata.</p>
+               <p>Il tenente generale Murat, comandante della cavalleria, avea postata la
+                        brigata Kellermann a sinistra, la brigata Champeaux a destra, ed il generale
+                        di brigata Rivaud, col ventunesimo di cacciatori ed il duodecimo di usseri,
+                        a Salè, perchè spiasse gli andamenti del nimico sul fianco, e fosse a un
+                        bisogno il perno della linea.</p>
+               <p>Le linee austriache, dopo alcuna scaramuccia di posti avanzati, si mossero in
+                        battaglia alle ore otto della mattina, assalirono la divisione Gardanne, la
+                        quale, poichè ebbe sostenuto, con la mezza brigata quarantesima sesta e la
+                        cinquantesima prima, una zuffa ardente e micidiale, fu costretta a ritirarsi
+                        sul villaggio di Marengo.</p>
+               <p>Allora il corpo di Kaim continua il suo movimento, guada il rio [Fontanone] e
+                        si stende a sinistra: quello di Haddick si spiegò, ma dovè combattere per
+                        prolungarsi obliquando a destra, perchè parecchi soldati leggieri della
+                        divisione Gardanne, lanciatisi con un cannone nella cascina Stortigliana,
+                        percotendolo, scompigliano gli ordini alle teste delle sue prime colonne, le
+                        quali rimontavano la Bormida per soverchiare l'ala sinistra della vanguardia
+                        francese.</p>
+               <p>Il villaggio di Marengo divien centro della battaglia: il generale Victor
+                        ebbe ordine di difenderlo quanto più lungamente poteva, ma senza tentar di
+                        riprendere la posizione dianzi occupata dalla divisione Gardanne, la quale
+                        fu situata alla destra del villaggio, spalleggiandosi del rivo e de'
+                        pantani.</p>
+               <p>La molta superiorità consentiva agli Austriaci di dar l'assalto con
+                        gagliardissime forze al villaggio, nel tempo che la diritta del generale
+                        Haddick stendevasi per soverchiare la sinistra dei Francesi, e mentre la
+                        divisione del generale Kaim attendeva a spiegarsi alla sinistra di Marengo,
+                        onde oltrepassare la nostra diritta.</p>
+               <p>In questa, il corpo del generale Oreilly, della divisione Haddick, investe la
+                        divisione Chambarlhac; la ventesima quarta mezza brigata leggiera e i due
+                        battaglioni della novantesima sesta di fanteria di battaglia ne sostengono
+                        l'impeto. Il reggimento secondo e ventesimo di cavalleria ed il sesto di
+                        dragoni caricano felicemente la prima linea nimica; ma la seconda si
+                        frappone, e Marengo è assaltato con nuovo furore, e difeso con pari
+                        intrepidità. La sola ala sinistra del generale Chambarlhac, percossa dal
+                        nerbo dei fanti d'Oreilly, rimane scompigliata.</p>
+               <p>Il generale Lannes era giunto sulla linea a livello de' primi scaglioni, e
+                        con la divisione Watrin e la brigata Mainony componeva la diritta. Assalta
+                        un corpo del generale Kaim, che, marciando sul Castel-Ceriolo, gli si fa
+                        incontro. Ma la divisione nimica spiegatasi interamente soverchia Lannes,
+                        costretto a sostenere gl'impeti acerrimi de' fanti e de' cavalli, e li
+                        respinge vigorosamente alla testa della sesta mezza brigata leggiera e della
+                        ventottesima e quarantesima di battaglia. La brigata del generale Champeaux
+                        è destinata a fiancheggiare i corpi del generale Lannes: le si comanda di
+                        rompere sul nimico per sostener la diritta: carica col reggimento primo ed
+                        ottavo dei dragoni, ed il generale Champeaux è ferito a morte.</p>
+               <p>Il generale Lannes raffrena il nimico alla Barbotta sul rio, secondando così
+                        l'egregia difesa di Marengo della divisione del generale Gardanne. Il
+                        villaggio sì accanitamente conteso era sempre nostro. Più volte gli
+                        Austriaci lo invadono, ma non possono stabilirvisi. Con prodigi di valore i
+                        nostri conservavano questo appoggio imponente [del centro] della linea.</p>
+               <p>Intanto Elnitz, capitano della cavalleria nimica, rade la Bormida, trapassa
+                        Castel-Ceriolo, soverchia tutta la nostra diritta, e spiegasi a squadroni
+                        fra la cascina di Buzana e la nostra prima linea. Si fatta evoluzione mirava
+                        evidentemente a prendere alle spalle la nostra prima linea, colpo decisivo
+                        per gli Austriaci. Ma <hi rend="sc">Bonaparte</hi> avea già inserito nel suo
+                        disegno i mezzi di eludere questa tattica perigliosa, e dalle ore dieci
+                        antimeridiane i movimenti di tutta quella giornata erano decretati nella sua
+                        mente.</p>
+               <p>Aveva comandato alla seconda linea di riserva di marciare a scaglioni, la
+                        diritta avanti. Il generale Carra-Saint-Cyr, che comandava lo scaglione
+                        destro, non si era ancor livellato alla prima linea. <hi rend="sc">Bonaparte</hi>, per frenare i movimenti del generale Elnitz, posta
+                        subitamente i granatieri consolari con le loro artiglierie, i quali, isolati
+                        trecento e più tese dalla destra della nostra linea, pareano un forte di
+                        granito in mezzo ad un'immensa pianura.</p>
+               <p>La cavalleria nemica gli accerchia: videsi allora quanto possa la fanteria
+                        eletta. Molti squadroni son rotti; quanto tempo spende la cavalleria nimica
+                        in falsi movimenti, tanto n'acquista il generale Carra-Saint-Cyr per
+                        giungere a livello de' granatieri: gli oltrepassa e va a Castel-Ceriolo,
+                        dopo di avere rispinte le cariche della cavalleria che volea impedirgli il
+                        passo di questo villaggio, ove gli riesce di stabilirsi, cacciandone i
+                        cacciatori tirolesi e quei di Loup, soccorsi infruttuosamente dai granatieri
+                        di Morzini.</p>
+               <p>Lo scaglione secondo della riserva, condotto dal generale Desaix, stava
+                        marciando per situarsi dietro la sinistra del primo, e a gran distanza, a
+                        livello di San Giuliano.</p>
+               <p>
+                  <hi rend="sc">Bonaparte</hi>, veduta la divisione Carra Saint-Cyr padrona di
+                        Castel-Ceriolo, comanda sul fatto alla prima linea la ritirata a scaglioni,
+                        la sinistra innanzi. Gli scaglioni sinistri della linea eseguiscono il
+                        movimento a passo ordinario: gli scaglioni del centro a passo tardissimo; nè
+                        muovonsi prima che quei della sinistra abbiano già conseguita la loro
+                        distanza.</p>
+               <p>Evoluzione mal valutata dal capitano nimico, il quale ci presume in tutta
+                        ritirata, quando in fatto non era se non un movimento di conversione. E con
+                        maggior fiducia cerca l'esecuzione del suo progetto, ch'era di raggirarci la
+                        sinistra e di tagliarci la via di Tortona: con tale intento dispone quella
+                        sua colonna di cinquemila granatieri, i quali si schierano sulla strada
+                        postale, per anticipare ed impedire il riordinamento dei corpi dell'armata
+                        francese ch'ei già reputava disordinati.</p>
+               <p>Ma l'esercito francese, duranti le quattro ore ch'egli spende nel suo
+                        movimento di conversione, presenta un terribile e maestoso spettacolo.</p>
+               <p>L'esercito austriaco drizzava le sue principali forze contro il nostro centro
+                        e la sinistra, seguendo il movimento di ritirata della prima linea, e
+                        lasciando la sua cavalleria intenta a soverchiare la nostra diritta di là da
+                        Castel-Ceriolo.</p>
+               <p>I nostri scaglioni si ritiravano a scacchiere per battaglioni in silenzio
+                        universale. Gli avresti veduti sotto il fuoco di ottanta cannoni, come agli
+                        esercizi, soffermarsi spesso, e presentare sempre piene le file, perchè quei
+                        prodi serravansi quando uno di loro era colpito.</p>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> vi andò più volte per dar tempo al generale
+                        Desaix di pervenire alla posizione assegnatagli. Su questo movimento di
+                        conversione, che fu veramente di ritirata per la prima linea, egli distinse
+                        sopra ogni cosa l'ordine e il sangue freddo della divisione comandata dal
+                        generale Lannes.</p>
+               <p>Frattanto gli scaglioni sinistri della prima linea giungono a livello di San
+                        Giuliano, ove il generale Desaix stava postato. Progrediscono in ritirata,
+                        e, collocatisi sulla sinistra indietro, si fermano e ripigliano lena. Tutta
+                        la nostra cavalleria e quindici cannoni stavano appiattati dietro le vigne,
+                        e collocati nell'intervallo de' reggimenti del generale Desaix, de' quali il
+                        primo e terzo battaglione erano ordinati in colonna dietro le ale del
+                        secondo spiegato in battaglia. Il combattimento fra' due eserciti ardeva
+                        sempre fierissimo.</p>
+               <p>In mezzo a movimenti sì complicati, e nel bollore di sì acre battaglia,
+                        riesciva malagevole di cogliere le relazioni delle rapide e svariate
+                        disposizioni che si eseguivano; ma la fiducia della vittoria fu sempre piena
+                        nel pensiero del capitano che la dirigeva, quantunque gli Austriaci ne
+                        paressero dal loro canto sicuri.</p>
+               <p>Tornando alla disposizione de' due eserciti, dopo queste evoluzioni, il primo
+                        scaglione della seconda linea di riserva, comandata dal generale
+                        Carra-Saint-Cyr, occupava Castel-Ceriolo, e, barricatosi nel villaggio,
+                        teneva in soggezione la cavalleria nimica che era altresì minacciata sopra
+                        la strada di Salè. I granatieri consolari stavano situati diagonalmente
+                        indietro, a sinistra di Castel-Ceriolo; lo scaglione del generale Lannes
+                        diagonalmente indietro, a sinistra dei granatieri.</p>
+               <p>Il generale Desaix era postato davanti a San Giuliano, diagonalmente
+                        indietro, a sinistra del generale Lannes, con quindici cannoni. Tutta la
+                        nostra cavalleria era ordinata in colonne negl'intervalli, onde cogliere il
+                        primo movimento propizio a operare. Il corpo del generale Victor stava
+                        diagonalmente indietro a sinistra del generale Desaix.</p>
+               <p>Erano le ore sei della sera. <hi rend="sc">Bonaparte</hi> ferma il movimento
+                        di ritirata in tutte le schiere: le percorre: mostrasi con quella fronte
+                        serena che presagisce la vittoria; parla ai soldati: <emph>Non istà a'
+                            Francesi</emph>, diss'egli, <emph>di far tanti passi indietro; ecco il
+                            momento di farne uno decisivo in avanti. Soldati, ricordivi ch'io soglio
+                            coricarmi sul campo di battaglia</emph>!</p>
+               <p>E comanda di marciare in avanti. L'artiglieria traesi d'agguato, e per dieci
+                        minuti scaglia un fuoco tremendo: il nimico sbalordito. si arresta; la
+                        carica suonando in un punto per tutta quanta la linea, l'entusiasmo che si
+                        comunica come fiamma nel cuore de' valorosi, tutto esalta in quell'istante
+                        l'ardore inspirato dalla presenza di un capitano che non promise indarno mai
+                        la gloria a' suoi guerrieri.</p>
+               <p>La divisione Desaix, che non aveva ancor combattuto, corre prima al nimico
+                        colla nobile fidanza che le infonde la brama di dar prove, alla sua volta,
+                        del generoso valore mostrato dalle altre divisioni, e va superba di seguire
+                        un generale che tenne sempre i posti del pericolo e dell'onore. Una lieve
+                        eminenza di suolo coperta di vigne celava a Desaix parte della linea nimica:
+                        impaziente, slanciasi a scoprirla. L'intrepida nona leggiera lo siegue a
+                        gran passi: investono impetuosamente il nimico; la zuffa si fa sanguinosa:
+                        molti prodi cadono, e Desaix visse; la sua suprema agonia fu un sospiro alla
+                        gloria, per la quale si dolse di non essere abbastanza vissuto.</p>
+               <p>Il dolore di <hi rend="sc">Bonaparte</hi> fu il primo tributo d'onore pagato
+                        alla sua memoria. La sua divisione (sottentratovi il generale Boudet)
+                        consecrandosi alla vendetta del suo generale, investe il nemico sì
+                        fieramente, che ad onta dell'acre sua risolutezza non può sostenere le
+                        nostre baionette: rovesciasi sulla colonna dei granatieri che lo seguitava,
+                        e ch'era già arrivata a Calcina-Grossa, ove attaccava i nostri
+                        perlustratori.</p>
+               <p>Gli Austriaci sorpresi, s'arrestano scompigliati: allora si manifestarono in
+                        tutto il loro splendore la profondità e la sapienza degli ordini
+                        precedentemente eseguiti.</p>
+               <p>Il nimico che alla nostra sinistra avea trapassata la fattoria di Vontolina,
+                        e che credeasi in procinto di tagliare la ritirata, si vede invece rigirata
+                        la sua sinistra. Le divisioni che da Castel-Ceriolo si prolungano a San
+                        Giuliano, battono le sue linee di fianco; i suoi battaglioni odono la
+                        moschetteria d'ogni lato in un punto, dinanzi, dal fianco sinistro e dalle
+                        spalle. Non si tosto la divisione Desaix caccia e mette in ritirata gli
+                        Austriaci, e questi principiano il loro movimento, intendono il tumulto del
+                        nostro fuoco, che a loro sembra scagliato da' ponti della Bormida e dal
+                        villaggio di Marengo.</p>
+               <p>Incontanente <hi rend="sc">Bonaparte</hi> comanda alla cavalleria, ch'egli
+                        avea serbata in riserva dietro la diritta della divisione Desaix, di
+                        trapassare di galoppo per gl'intervalli, e di caricare impetuosamente quella
+                        formidabile colonna di granatieri già sfasciata dalla divisione Desaix.</p>
+               <p>Evoluzione ardita, eseguita in un punto con risolutezza e con maestria. Il
+                        generale Kellermann parte di galoppo fuori delle vigne, spiegasi sul fianco
+                        sinistro della colonna nimica, e con un quarto di conversione a sinistra
+                        avventa sovr'essa la metà della sua brigata, mantenendo l'altra metà in
+                        battaglia per contenere il corpo di cavalleria nimica che aveva a fronte, e
+                        velargli l'ardito colpo che gli stava lanciando.</p>
+               <p>In questa, i granatieri e cacciatori consolari rovesciano sopra la diritta
+                        tutto quello che aveano incontro: il generale Watrin assalta con nuova
+                        audacia; il generale Carra-Saint-Cyr spicca da Castel-Ceriolo de'
+                        bersaglieri lungo il rio e i pantani sino a Marengo.</p>
+               <p>Il generale di cavalleria Rivaud, con un movimento risoluto, azzuffava già i
+                        suoi posti avanzati con quei del generale Elnitz: così il grosso della
+                        cavalleria nimica, travagliato all'estremità della nostra sinistra, lasciava
+                        senza sostegno la fanteria nella pianura.</p>
+               <p>L'esercito francese supera in cinquanta minuti l'ampio spazio ch'egli avea
+                        difeso per quattro ore.</p>
+               <p>La cavalleria austriaca, incalzata dal generale Rivaud, moschettata dalle
+                        siepi di Castel-Ceriolo, accorre in aiuto della sua fanteria: il nemico si
+                        rammassa; e, pervenuto a Marengo, sta nel proponimento di conservarsi il
+                        villaggio.</p>
+               <p>La divisione del generale Boudet, che anela alla gloria di riguadagnare
+                        Marengo, corre all'ultimo assalto eseguito col vigore che segnalò i primi.</p>
+               <p>Il corpo del generale Victor, che tornava in luoghi ove avea sì
+                        gagliardamente combattuto, la sostiene: il nimico, veggendosi forzato a
+                        rinunziare la vittoria, vuol provare che n'era degno, e manifesta in
+                        quest'ultimo combattimento quanto mai d'energia l'onore può infondere; ma la
+                        vittoria tutta quanta si lancia nelle schiere francesi: gli Austriaci,
+                        stanchi e indeboliti, rientrano insieme co'nostri in Marengo, e lo
+                        abbandonano per ritornare su' loro ponti di là dalla Bormida.</p>
+               <p>A tramontana di Marengo, il generale Lannes si azzuffava con un corpo di
+                        riserva; nè incontrava minor resistenza, sebbene non minori vantaggi, e ne
+                        riportò alcuni cannoni. Un corpo della riserva della cavalleria nimica stava
+                        per urtare la diritta della divisione Boudet, ma il generale Bessières,
+                        comandante i granatieri e cacciatori consolari a cavallo, coglie
+                        quest'occasione di gloria, ed aspirando a dare alla milizia eletta l'onore
+                        dell'ultima carica, previene questo corpo nimico, si avventa, lo fa piegare
+                        e lo caccia sbrancato sul rio; così è nudato il fianco alla fanteria,
+                        determinata la ritirata generale, e sparso il tumulto e il terrore in tutte
+                        le schiere nimiche.</p>
+               <p>Il giovine Beauharnais, facendo spiccare alla testa dei cacciatori la foga
+                        dell'età sua congiunta all'esperienza di un provetto guerriero, si manifestò
+                        fino d'allora degno delle sorti che l'attendevano.</p>
+               <p>Già la notte copria la pianura, e favoriva le reliquie dell'esercito
+                        austriaco a ripassare i ponti; e i Francesi, in mezzo ai loro trofei
+                        sanguinosi, posavano al sereno sulla posizione ch'essi occupavano prima
+                        della battaglia .</p>
+               <p>Perderono gli Austriaci in questa giornata quattromilacinquecento morti,
+                        ottomila feriti e settemila prigionieri, dodici insegne e trenta cannoni. I
+                        Francesi, mille e cento morti, tremilaseicento feriti e novecento
+                        prigioneri. Al dì seguente sull'alba, i nostri granatieri attaccano i posti
+                        avanzati, lasciati dal nimico a capo del ponte della Bormida: presentasi un
+                        parlamentario, annunziando che il generale Melas chiedeva d'inviare un
+                        uffiziale del suo stato maggiore a <hi rend="sc">Bonaparte</hi>.</p>
+               <p>Dopo la prima conferenza il generale Berthier, ricevute le istruzioni ed
+                        investito da <hi rend="sc">Bonaparte</hi> della facoltà necessaria a
+                        trattare, se ne va ad Alessandria. Alcune ore dopo, presenta alla sanzione
+                        di <hi rend="sc">Bonaparte</hi> la capitolazione seguente, sottoscritta dal
+                        generale Melas.</p>
+               <space type="stacco-narrativo"/>
+               <p>[Segue il testo dell'armistizio, che si omette per brevità.]</p>
+               <space type="stacco-narrativo"/>
+               <p>Dopo la battaglia di Marengo, il generale Saint-Julien sottoscrisse in Parigi
+                        i preliminari di pace; ma l'Imperatore d'Alemagna, governato dai consigli di
+                        un ministero compro dall'Inghilterra, ricusò di ratificarli: onde s'ebbe
+                        ricorso alle armi. L'esercito del Reno era nel cuore della Baviera; quello
+                        d'Italia sull'Adige; ambidue bene provigionati ed animati dal sentimento
+                        della vittoria.</p>
+               <p>Anche a quel tempo <hi rend="sc">Bonaparte</hi> convocò un esercito di
+                        riserva a Digione; ma la sua tattica fu diversa assai dalla prima. Lo
+                        compone di cinque divisioni, di forse ottomila fanti in tutto e di quattro
+                        reggimenti a cavallo, capitanato dal generale Macdonald con ordine di
+                        marciare al paese dei Grigioni. Il nemico computando i soldati dal numero
+                        delle divisioni, e rammentando i fatti del primo esercito di riserva, stimò
+                        questo secondo destinato a conquistare il Tirolo, nè gli parve far troppo,
+                        mandandovi alla difesa trentamila uomini; il che snervò, sull'Inn, il suo
+                        esercito, che fu poi nella giornata memorabile d'Hohenlinden solennemente
+                        rotto dal generale Moreau.</p>
+               <p>Colà pure si segnalarono i generali Richepanse e Leclerc, morti sul campo
+                        d'onore. La gloria custodirà tutti i nomi di quei che guidavano attraverso
+                        l'Alemagna le nostre schiere vittoriose. I preliminari vennero sottoscritti,
+                        e l'armistizio con l'Austria die' all'esercito del Reno di potere spaziare
+                        sino a Leoben, abbracciando a destra parte di quanto conquistò <hi rend="sc">Bonaparte</hi> nell'anno quinto. Così, con ottomila, per lo più
+                        reclute, il secondo esercito di riserva tenne a bada trentamila soldati
+                        eletti, <emph>ed in men di due anni fu due volte conclusa la pace sotto
+                            Vienna</emph>. Esempi che ammoniranno alcune potenze quanto più gravi
+                        pericoli correrebbero se ora che i nostri soldati sono più numerosi, più
+                        agguerriti e meglio provveduti, esse attendessero alle suggestioni
+                        dell'Inghilterra, o dessero fede a ministri prezzolati da questa potenza, e
+                        pronti a strascinare a una guerra perniciosa i loro sovrani. E le lagrime
+                        che per questa guerra si verserebbero sul continente, sariano sorgente di
+                        esultanza all'Inghilterra che avrebbe concitate sui popoli tante calamità, e
+                        calamità irreparabili.</p>
+               <p>
+                  <hi rend="sc">Bonaparte</hi> fe' ad un tempo passare Monte-Cenisio da
+                        diecimila uomini radunati da prima ad Amiens, indi acquartierati a Digione,
+                        e li die' a comandare al generale Murat. Questo corpo, quello del generale
+                        Macdonald e l'esercito del generale Brune in Italia, formavano una forza
+                        superiore assai alle austriache. <hi rend="sc">Bonaparte</hi> volea
+                        comandare in persona, e rinnovare la sua sesta campagna, varcare il
+                        Tagliamento, la Drava, la Sava e la Muehr e traversare la Carniola; staccare
+                        il generale Murat con ottomila cavalli, venticinquemila fanti e cinquanta
+                        cannoni. Ma non giova parlare d'un disegno di campagna che restò
+                    ineseguito.</p>
+            </div2>
+         </div1>
+         <div1 n="postfazione/conclusione">
+            <p>L'autore seguita il suo racconto fino alla pace segnata dopo la giornata di
+                    Hohenlinden. A noi giova di arrestarci alla vittoria di Marengo,<quote rend="block">
+                  <lg lang="lat">
+                     <l>per quam....</l>
+                     <l>crevere vires, famaque et imperi</l>
+                     <l>porrecta Maiestas;</l>
+                  </lg>
+               </quote> epigrafe tratta da Orazio, e che l'illustre storico pose in fronte al
+                    suo libro.</p>
+            <p>La lettura di quest'opera riuscira forse immatura a' novizi della milizia; ma i
+                    guerrieri provetti non la mediteranno senza sommo profitto. Non v'è
+                    particolarità sul numero e il genere delle armi, su le stagioni e le ore, su la
+                    natura del terreno, che non sia scrupolosamente notata. Le tavole in rame
+                    insegnano più di qualunque libro di teorie militari, le quali, come tutte le
+                    teorie, ove siano destituite d'esempi vivi e presenti, non giovano se non a far
+                    gli uomini buoni a parole e tardissimi a fatti: i disegni furono levati
+                    geometricamente dagl'ingegneri geografi, sotto la direzione del generale Sanson
+                    ispettore del Genio. Ad una carta generale, ove sono topograficamente accennate
+                    tutte le marcie, gl'incontri e combattimenti dell'esercito di riserva per lo
+                    spazio di trentatrè giorni, veggonsi aggiunte cinque altre tavole. Nella prima è
+                    levata, con ogni accidente di paese ed ogni minima piega di terreno, una
+                    superficie quadrata di dodici miglia: questa è la pianura di Alessandria; e si
+                    dimostrano tutti i movimenti fatti dagli eserciti nel principio della battaglia,
+                    dalle ore otto alle dieci della mattina. La tavola seconda rappresenta lo stesso
+                    terreno, ma diversi movimenti, vale a dire le vicende della battaglia dalle ore
+                    dieci al mezzodì. La terza è pure nello stesso terreno, dinotando i progressi
+                    dell'esercito francese e le evoluzioni degli Austriaci da mezzodì sino al cadere
+                    del sole. La quarta offre in prospettiva tutto il paese e la battaglia nel
+                    momento della vittoria: finalmente l'ultima tavola rappresenta lo stato e le
+                    posizioni de' due eserciti nel giorno susseguente alla battaglia.</p>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

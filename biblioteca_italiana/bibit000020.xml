@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Il dedalione o ver del poeta</title>
+        <author>Scipione Ammirato</author>
+      </titleStmt>
+      <extent>82 Kb in UTF-8</extent>
+      <publicationStmt>
+        <publisher>Biblioteca Italiana</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>2003</date>
+        <idno>bibit000020</idno>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni
+            uso commerciale è vietato</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Collezione BibIt</title>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Trattati di poetica e retorica del Cinquecento</title>
+          <title type="part">v.</title>
+          <editor id="ed">Weinberg, Bernard</editor>
+          <publisher>Laterza</publisher>
+          <pubPlace>Bari</pubPlace>
+          <date>1970-1974</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità
+          dell'autore dell'opera sono stati soppressi nella versione digitale</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction method="silent" status="medium">
+          <p>Livello medio: controllo a video con collazione con edizione di riferimento</p>
+        </correction>
+        <quotation form="data" marks="all">
+          <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati
+            rappresentati sulla versione digitale</p>
+        </quotation>
+        <hyphenation eol="none">
+          <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte</p>
+        </hyphenation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="CDD">
+          <bibl>Classificazione Decimale Dewey</bibl>
+        </taxonomy>
+        <taxonomy id="CGB">
+          <bibl>Classificazione generi BibIt</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>500</date>
+      </creation>
+      <langUsage>
+        <language id="ita">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="CDD">
+          <term>808.009031 - RETORICA E RACCOLTE</term>
+        </keywords>
+        <keywords scheme="CGB">
+          <term>Trattati</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>Data sconosciuta anteriore al 2000</date>
+        <respStmt>
+          <name>CIBIT-Roma</name>
+        </respStmt>
+        <item>Digitalizzazione - OCR</item>
+      </change>
+      <change>
+        <date>Data sconosciuta anteriore al 2000</date>
+        <respStmt>
+          <name>CIBIT-Roma</name>
+        </respStmt>
+        <item>Correzione linguistica</item>
+      </change>
+      <change>
+        <date>2003-03-11T00:00:00.000+02:00</date>
+        <respStmt>
+          <name>Marina Larena</name>
+          <name>BIBIT</name>
+        </respStmt>
+        <item>Codifica XML - Codifica manuale</item>
+      </change>
+      <change>
+        <date>2003-03-24T00:00:00.000+02:00</date>
+        <respStmt>
+          <name>Elena Pierazzo</name>
+          <name>BIBIT</name>
+        </respStmt>
+        <item>Validazione</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1 n="Dialogo">
+        <stage>Interlocutori: DEDALIONE e TIRESIA</stage>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Quello apunto che si racconta di Ercole io veggo ora essere in me avvenuto, Tiresia;
+            laonde vo più volte cantando que' versi di Pindaro: <quote rend="blok">
+              <lg>
+                <l>Salirò io le mura altiere e belle</l>
+                <l>De la giustizia o pur l'oblique strade</l>
+                <l>Calcarò de l'inganno e 'n questa guisa</l>
+                <l>Menarò la mia vita?</l>
+              </lg>
+            </quote></p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Che è quello che tu di', Dedalione? Vorresti forse diventarci un uomo di guerra?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Cotesto non dico io; ma trovandomi in sul principio dell'esser poeta o filosofo, sto
+            dubbioso per qual dei due sentieri io mi debba entrare.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Io non farei nessun dubbio per me tra queste due scienze, veggendosi la filosofia, come
+            madre e principio onde tutte l'altre scienze derivano, non ricever questa
+          comparazione.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Né io vo' che crediate, Tiresia, che io sia di così sciocca openione che voglia
+            aguagliar alla poetica la filosofia. Ma ragiono della filosofia di cui intendo valermi
+            per l'arte del medicare, che così parimente il poeta ha dell'aiuto della filosofia
+            mestieri.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Tra la poetica e la medicina, come parti amendue e figliuole della filosofia, può ben
+            cadere la comparazione che tu di', ma forse il guadagno ti lusingherà a studiar in
+            medicina.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non mi riputate per uomo di così basso animo, Tiresia, che la cupidigia mi inducesse a
+            seguitare una scienza ch'io stimassi meno degna d'un'altra.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Che cosa è dunque che ti fa stare con l'animo così sospeso?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non terrò a voi il mio pensiero celato. Io mi sento veramente da natura le affezione
+            molto tirate agli studi poetici e molte volte son quelle che ho posto mano a far versi,
+            ora cantando le lodi degli eroi et ora d'alcuna amorosa passione parlando; ma quante
+            volte, oltre la comune opinione che par che tenga in poco pregio i poeti, intendo che
+            infino Platone, giudicato da tutti per uomo divino, li cacci dalla sua republica, io
+            muto parere; anzi di voi molto e di Proteo soglio maravigliarmi, i quali nonostante la
+            sentenza del vostro maestro, proseguite tuttavia di spiegare in versi i vostri concetti.
+            Conciò sia che o voi dobbiate stimar che in ciò Platone s'inganni, o dicendo pur il
+            vero, vi dovreste rimanere da così fatte favole e ciance di poesia.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Non biasima i poeti Platone, anzi da lui son sommamente lodati, chiamandoli nel
+              <title>Liside</title>padri e duci della sapienza, nel <title>Convito</title> della
+            prudenza e d'ogni altra virtù progenitori, nell'<title>Ione</title> interpreti degli
+            dii, et altrove di essi dii figliuoli e profeti liberamente ardisce d'intitolarli.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Tutto ciò è vero; nondimeno dove de' poeti spezialmente ragiona, egli senza alcun
+            dubbio li dà bando dalla republica, il che, se l'autorità di tal uomo non è da
+            dispregiare, approva di più Marsilio Ficino dicendo in ogni altro luogo ove Platone ha
+            dei poeti parlato, in quanto al comune giudizio averne parlato.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>A me dispiace favellar contra gli amici; nondimeno, poiché alla verità debbe ceder ogni
+            uomo, io non so donde Marsilio si cavi questa determinazione, poiché in ciascuno degli
+            allegati luoghi ove de' poeti si ragiona, favella la persona di Socrate, il quale suole
+            esprimere le vere opinioni di esso Platone. E leggesi, oltre quel che s'è detto, Omero,
+            il quale fu sommo poeta, esser da lui nel <title>Teeteto</title> duce de' sapienti
+            chiamato; chiamalo nell'<title>Ione</title> Socrate l'ottimo et il divinissimo di tutti
+            i poeti, et in altri infiniti luoghi si veggono i suoi versi come parole dell'oracolo da
+            Platone addotti, e da lui è Esiodo, sì come poeta, avuto in gran conto.In grande
+            estimazione è Pindaro, così Focilide, così Museo et Orfeo, con infiniti altri che per
+            quelli divini dialoghi si veggono sparsi.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non vi meravigliate, Tiresia, se io vi parrò oggi da peripatetico platonico, perciò che
+            ho poi questa cagione voluto vedere quel che ne scrive questo divino filosofo. Dico,
+            adunque, che se ben Socrate ne' luoghi da voi riferiti commenda i poeti, ciò può esser
+            fatto per la sua solita ironia, come fa dove parla di Euripide il qual disse i tiranni
+            esser savi per l'usanza de' savi, proseguendo: «Non senza causa, dunque, si può dir la
+            tragedia esser sapiente artifizio, poiché Euripide lasciò uscirsi di bocca così nobil
+            sentenza». Et uscendo dell´ironia, dice appresso chiaramente: «E perciò ne perdoneranno,
+            mi persuado, i poeti tragici, sì come savi, se dalla nostra republica gli abbiamo
+            cacciati, poiché tanto commendano la tirannide». E se per ciò non è fatto, per alcuna
+            altra cagione sarà stato fatto, perché non è punto cosa verisimile che così senza niuna
+            proporzione si contradica; il che arà mosso Marsilio Ficino a dire che in altri luoghi
+            egli non abbia parlato secondo la sua opinione. Né a voi, Tiresia, bastarà addurmi i
+            luoghi ove i poeti son celebrati, se quelli ove son ributtati e cacciati non mostrarete
+            prima come s'intendano. Mirate pur bene che non è picciola cosa ora questa che noi
+            trattiamo, perciò che o vi è necessario rifiutar la poetica o biasimar Platone.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Sentir contro la poesia è sacrilegio, giudicar male di Platone è eresia; onde noi, per
+            non esser né eretici né sacrilegi, mostraremo come possano amendue queste cose star
+            insieme, senza rifiutar più l'una che l'altra; né Marsilio Ficino se n'andrà senza
+            difesa. Cavasi dunque da quell'istessi luoghi ove i poeti son dannati, come i poeti si
+            debban ricevere et onorare, e specialmente da quello ove la favola di Celio si biasima,
+            perciò che avendo detto Platone Esiodo aver mal fatto in riferir quelle cose di Saturno
+            e di suo figliuolo, sopragiunge: «Le quali cose se pur fosser vere, nondimeno non sarei
+            mai d'openione che così manifestamente si dovessero ad uomini privi di mente et a
+            giovanetti palesare, anzi più tosto occultare. E se pur così la necessità richiedesse di
+            favellare, esprimer si debbon sotto misteri da udirsi da pochi quasi occupati nel
+            sacrificio non d'un porco, ma d'una rara e preziosa vittima, acciò che a pochissimi sia
+            conceduto di penetrarli». Di modo che egli non biasma i poeti in quanto a sé, ma in
+            quanto alle persone rozze et a' fanciulli; nelle quali parole se tu intentamente porrai
+            riguardo, Dedalione, vedrai una gran similitudine con quella divina sentenza che le
+            margarite non si debbono gittar a' porci. Per la qual cosa, essendo intenzion di Platone
+            di formar una città, la qual città consiste negli uomini, i quali uomini sono stati
+            prima fanciulli, e perciò volendo gli animi de' fanciulli informare, non vuol che così
+            fatte cose si debbano lor dire, non come per loro stesse brutte, ma per non potersi in
+            quei teneri anni né intendere né penetrare. Il che non potendo negare Marsilio Ficino,
+            se ben disse altrove Platone negli altri luoghi secondo la comune openione aver
+            favellato de' poeti, nel <title>Gorgia</title> così però dice: «Veramente discaccia
+            Platone i sofisti tutti e da ogni luogo, i poeti non tutti, ma coloro che degli dii
+            brutte cose fingono e gli animi perturbati intensamente vanno imitando; né da ogni
+            luogo, ma dalla città, cioè dalla turba de' giovani et ignoranti i quali di leggeri
+            nelle perturbazioni discorrono e l'allegorico sentimento de' poeti non penetrano».
+            Vedete dunque da queste poche parole, senza andar molto vagando in soverchie et
+            ambiziose autorità, come i poeti sien discacciati da Platone dalla sua republica. Ma io
+            temerei di non incorrere contro la legge propostaci di eretico, se in alcuna parte
+            osassi di spingermi un poco più innanzi che Platone.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Dite, di grazia, Tiresia, poiché così inavedutamente ci siamo trovati discorrere
+            intorno a questa materia, quel che voi ne sentite, né così ci spaventi l'autorità di
+            questi grandi uomini purché ben diciamo, se ben Cicerone vuol più tosto acquetarsi con
+            gli errori di Platone che con la verità d'altri.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Non crediate, da quel ch'io v'ho detto, ch'io pensi né che sogni di sentir contra
+            Platone, non già che io veramente <add resp="ed">non</add>pensassi a discostarmi da lui
+            quando così il bisogno il ricercasse, ma perché qui di fermo cosa non trovo ond'io
+            discostarmene debba. Ma dicendo quel che m'occorre, mostrerò ben poi Platone non aver
+            altrimenti inteso che il vero. Dice egli dunque nella sua Republica queste parole: «Né
+            di Omero né di altro poeta debbiamo seguir l'errore scioccamente di Dio, dicendo nel
+            limitar di Giove esser due botti piene di venture, una di buone, l'altra di cattive, e
+            quando Giove d'amendue queste insieme mescolate ad alcuno fa parte, ora bene, ora mal
+            gli succeda, et a cui della cattiva dia continovamente sopra la terra sia tormentato;
+            perciò che e' non si deve in niun modo ricevere che Giove ci sia un bottigliere de' beni
+            e de' mali». Se questo vero è, che Omero così di Giove favellando, mal abbia favellato,
+            vedete che diversità sia in que' versi di David: «Questi abbassa e quelli inalza: perciò
+            che nella man del Signore è un calice di vin puro ripieno di mescolato, e di questo ha
+            versato sopra costui; nondimeno la sua feccia non è punto svanita: beranno di quella
+            tutti i peccatori della terra». Del quale calice non solo in questo luogo parlò David,
+            ma disse altrove: «Pioverà sopra de' peccatori lacciuoli; il fuoco, il solfo e lo
+            spirito delle procelle sarà la parte del calice loro». Et in un altro luogo: «Il Signore
+            è la parte dell'eredità mia e del calice mio». Dalla qual somiglianza o bisogna
+            conchiudere affermando che Omero abbia mal fatto e che così abbia mal fatto ancora
+            David, il che è cosa profana e disconvenevole; o avendo ben fatto David, bene aver fatto
+            ancora Omero e perciò di niuna riprensione dover esser degno.</p>
+          <p> Oltre di ciò vediamo che se si devono cacciare i poeti perciò che degli dii cose
+            inconvenienti trattano, per questo doversi similmente le sacre scritture rifiutare, le
+            quali dissomiglianti somiglianze di Dio vanno esplicando. Il che niuno, per pazzo et
+            empio che fosse, ardirebbe affermare. Dice Dionisio Areopagita: «Adopera la teologia per
+            discriver gli spirti che mancan di forme, i fingimenti poetici», i quali non riceverebbe
+            se buoni non fossero. Onde noi vediamo a Dio ira, penitenza et altre passioni ascriversi
+            che a Dio non convengono; agli angeli scudi, arme, varie e strane figure tuttavia
+            assegnarsi che in niun modo è lecito. Le quali cose se pur da santi scrittori date si
+            veggono, con alcuna cagione son date e ributtar non si devono.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Qual è dunque la causa, Tiresia, per la quale sia lecito, di Dio favellando, con sì
+            fatte lontane improprietà andar cercando d'esprimerlo più tosto che con le più proprie e
+            vicine?</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>È in prima la picciola capacità nostra la quale più agevolmente si muove alla
+            cognizione delle cose alte con gli esempi materiali e comuni che con gli astratti e
+            sottili. E se di Dio favellando si è verbigrazia più tosto ad una picciolissima cosa
+            assomigliato che al sole, è per avventura stato acciò che nel sole non ci fossimo
+            fermati e veramente avessimo pensato essere Dio il sole; la dove con disproporzionati
+            esempi e figure discrivendolo, et a' savi et agli ignoranti si è sodisfatto: a' savi di
+            spignerli con queste comparazioni più innanzi, agli ignoranti né con essi far fermare in
+            così vili materie. La qual cosa, dice Dionisio, è forse stato cagione che noi ci siamo
+            mossi a gir investigando sì fatte cose, avendoci a ciò commosso la disonesta faccia de'
+            fingimenti per la quale la proprietà s'esprime degli angeli, non permettendo in niun
+            modo che la mente nostra si fermasse ne' brutti fingimenti di quelle forme, ma
+            eccitandoci più tosto a rimuover del tutto i mortali affetti e profittevolmente
+            avvezzandoci per le cose che si veggono a inalzarci alle sublimi e celesti.</p>
+          <p>Bene, dunque, fece Omero il quale, secondo gli antichi e santi teologi, sotto velame di
+            cose basse andò i profondi misteri della divina filosofia nascondendo, se ben tutto ciò
+            richiedeva Platone con più segreto modo e più puro e più netto di questo, contro quel
+            che vediamo de' nostri teologi. Il che né biasimo in Platone se egli ciò dice avendo
+            rispetto a fanciulli et a ignoranti, poiché et i nostri hanno avuto questo riguardo,
+            ancor ch'esso medesimo dice esser la poesia tutta piena d'enigmati che ogni uom non
+            l'intende. E chi non sa la sapienza di Dio essere ad altri stata giudicata pazzia, ad
+            altri scandolo, e non perciò si dee dir esser mala; e se ben de' poeti alcuno sarà che
+            male abbia di Dio e delle divine cose sentito, non per questo la poetica danneremo,
+            perciò che in questa guisa il fuoco che arde le città, il ferro ch'uccide gli uomini,
+            l'acqua che allaga i poderi e le abitazioni, sarebbono da noi giudicati per cattivi e
+            per mali, ove cattività e mal veruno pensar non dobbiamo.</p>
+          <p>Quale scienza è stata di più danno cagione, mal intesa, che la sacra scrittura? E
+            tuttavia non perciò essa sagrata scrittura rimuovere dobbiamo, ma ben dar i modi e le
+            vie come sanamente s'intenda. Per la qual cagione ragionevolmente non molto si può
+            lodare Licurgo, come Plutarco racconta, il qual, vedendo molti ubbriachi, andò a troncar
+            le viti, perciò che vi dovea più tosto condur dell'acqua; onde allo 'ncontro celebriamo
+            quel medico che domandato da un lippo del rimedio, gli disse: «Figliuolo, inacqua il
+            vino e diverrai sano». Veder dunque doviamo se da sé la poetica è buona o ver cattiva e
+            se infino a quest'ora per l'autorità di Platone cattiva non appare.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Veramente, Tiresia, io m'acqueto a quel che voi avete detto in favor d'i poeti et in
+            dichiarazione di Platone, se un luoco assai chiaro (il qual fuggir non potete) non mi
+            ritenesse ancor sospeso in credere qual sia stata la vera opinione di Platone intorno ad
+            essi. Perciò che nell'<title>Apologia di Socrate</title>, ove meno che in altra parte si
+            finge, essendo quella una sua difesa ch'egli faceva al popolo ateniese, dice Socrate
+            queste parole, avendo prima parlato dell'oracolo d'Apolline dal quale egli era stato
+            chiamato savio: «Egli è necessario ch'io vi racconti i miei errori e le mie fatiche che
+            ho sostenuto per approvar l'oracolo, acciò che da niuna parte si potesse calunniare.
+            Dopo gli uomini civili io me n'andai a' poeti autori di tragedie, di ditirambi e d'altra
+            sorte di versi, quasi ch'io avessi a ritrovar cosa ne' lor libri ond'io fussi men savio
+            giudicato. Presi dunque i loro volumi ne' quali pareva ch'essi avessin grandemente
+            sudato, andai investigando i lor sentimenti intanto che alcuna cosa io ne apparai.
+            Vergognomi, o cittadini, di dirvi qui il vero (pur si dee dire): quasi tutti coloro che
+            qui sono presenti, per dirla, me' di quelle cose parlarebbono delle quali eglino i lor
+            poemi composero». Vedete come egli ad aperto viso accusa l'ignoranza de' poeti e fallo,
+            come ho detto, in quel luogo ove meno si finge, di maniera che io non vedo quel che a
+            questo si possa rispondere, massimamente che parlando de' poeti in genere vien ad
+            intender d'essa poetica.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Questo luogo a prima vista strigne assai, Dedalione, se noi con sottilissimo occhio
+            penetrando più a dentro, non accettassimo esser vero che i poeti delle cose che scrivono
+            nulla sanno e pur tuttavia esser pieni di dottrina e di sapienza.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Questa mi par una gran contradizione.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ella non ti parrà punto se udirai quel che ti dirò. Saper una cosa in due modi
+            s'intende: o per artificio o per furore. Per furore intendo qui certi semi in un istante
+            generati con la nostra natura, atti ad apprender più queste cose che quelle; il quale
+            apprendere non essendo in noi ordinario né con quelle vie apparandosi che l'altre cose
+            s'imparano, dicesi per furore, il quale senza mezzo rappresentando nella mente nostra le
+            cose, le fa subitamente conoscere e possedere. Il simile si vede nell'amore, perciò che
+            amiamo talora alcuna persona perché così abbiamo eletto d'amarla; molte volte tirati da
+            non so che segreta forza, senza preceder molto discorso, trabocchevolmente corriamo ad
+            amare altri. Il somigliante vedesi nel vaticinio, avvegna che molti profetano in virtù
+            dei segni e delle stelle, altri senza poterne causa veruna allegare che l'interno
+            movimento dell'animo loro che a così dir li sospinge. Et il medesimo vediamo nel
+            misterio; onde i quattro furori son detti.</p>
+          <p>Le quali cose così stando come abbiam detto, et al saper del poeta tornando, ti dico
+            che secondo l'arte parlando, egli veramente niuna cosa sa in quanto poeta, scrivendo e
+            trattando da divino furore commosso. Il che dalle parole che seguono a quelle da te
+            allegate puoi chiaramente vedere: «Trovai dunque nei poeti», dice egli «in breve tempo
+            che eglino veramente non con sapienza trattavano le cose che essi facevano, ma per una
+            certa natura da divina concitazion d'animo mossa, sì come coloro che da divino furore
+            gonfiati profetano». E nel <title>Fedro</title> così dice: «Colui che senza furore agli
+            usci poetichi delle muse s'appresenta confidando con studio e fatica d'arte poter
+            tornarci buon poeta, egli si perde il tempo e la sua poesia, per molta prudenza che vi
+            si ponga, di quella in fuori che da furore procede, diventa vana e di niuno momento».
+            Ove se tu mi domandi qual sia miglior sapere, la scienza che per furore s'acquista o
+            quella che si fa per l'arte, io ti risponderò quel che Socrate a Ione risponde: «Questo
+            dunque ch'è più bello da noi ti s'imputa, o Ione, cioè che tu più tosto divino che
+            artificioso lodatore d'Omero n'appari» . Di modo, Dedalione, che l'armi da te addotte in
+            danno de' poeti, più tosto in profitto et util ne tornano.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Questo non fo io per calunniar la poetica o vero i poeti, ma per ritrovar la verità,
+            sapendo voi bene, come io vi ho detto, io naturalmente alla poesia esser tirato; che se
+            vero è che sì fatta natura sia quel furore di cui voi avete detto, io mi terrò per
+            innanzi più caro et in maggior conto che non facevo prima, potendo confidare di esser in
+            me almeno alcuna scintilla di divinità. Ma nonostante tutto ciò, dispiacemi ancora che
+            nel <title>Gorgia</title> Platone il tragico all'adulatore assomigli e dica niuna altra
+            cosa esser il poema, toltone il numero et il concento, che un parlar del volgo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Et a questi et altri simili luoghi non molto malagevole è rispondere, non negando esser
+            vero che quei poeti agli adulatori s'assomiglino che il diletto hanno per fine, i quali,
+            se formar potessimo un nome a guisa che si fa di que' cattivi filosofi che dalla vera
+            filosofia torcendo, han meritato chiamarsi sofisti o vero filosofastri, con pari
+            terminazione poetisti e poetastri chiameremmo. Ma questi grammatici si sdegnerebbono con
+            esso noi che così poco vergognosamente fingessimo i nomi. Ma comunque si sia,
+            ricordiamoci di quel che disse il poeta: <quote rend="blok">
+              <lg>
+                <l>Son rari i cigni et i poeti rari,</l>
+                <l>Poeti che non sien del nome indegni.</l>
+              </lg>
+            </quote> Di maniera che ove i poeti biasima Platone, i cattivi poeti vitupera, e quando
+            dalla republica li discaccia, non per lor colpa, come si è detto, ma per l'incapacità di
+            coloro che sono per ascoltarli rimuove. E così accorderai questi con quei luoghi ove
+            egli con grandi e magnifiche lodi l'innalza.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Sodisfatto rimango, Tiresia, in quanto mi avete mostrato come queste contradizioni di
+            Platone s'accordino e come veramente i poeti biasmar non si debbano, anzi lodar
+            sommamente, il che è giovato per la grande autorità di quell'uomo.</p>
+          <p>Ma lasciati star da canto questi risguardi, vorrei ora che voi mi mostraste che bontà
+            sia questa per la quale tanto questi poeti son commendati. Perciò che il medico io veggo
+            che sana il corpo umano, ma d'un onesto piacer in fuori, per non dir cattivo, io non
+            veggo già a quel che possa valer il poeta, perciò che essendo tutte le cose che noi
+            prendiamo a fare o necessarie o utili o dilettevoli, par che il poeta s'abbia eletto la
+            parte più ignobile che è il diletto, non essendo niuno sì sfacciato lodator de' poeti
+            che accetti poter esser eglino già mai necessarii né utili in quanto poeti.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Poiché l'autorità di Platone non ci offende (ché veramente anche senza apparirvi
+            ragione, come dice Marco Tullio, è da farne gran conto), non si mancherà di rispondere
+            appresso alle tue questioni et investigare per avventura quel che sia il poeta. Ma
+            perché hai detto tutte le cose che noi ci moviamo a fare poter essere di tre condizioni,
+            o necessarie o utili o delettevoli, ti dimando primieramente quel che tu intendi per
+            necessario.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Necessario intendo quello senza cui star non possiamo, come i cibi, le vesti, le
+            abitazioni e simili.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>L'utile?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Quello che alcuna utilità e quadagno ci apporta, come l'arti meccaniche e delle scienze
+            la medicina, la legale e somiglianti.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Il dilettevole?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Quel che solo piacere e sollazzo ci arreca, come i buffoni, le meretrici, i parasiti, i
+            cuochi, che sono arti tutte adulatorie, rapresentatori di comedie et i poeti con altri
+            molti.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Miseri poeti, poiché in compagnia di così vil gente li avete riposti! Ma ritornando al
+            necessario, dimmi, ti prego, Dedalione, il pane è necessario o no?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Come se egli è necessario?</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Pon mente bene a quel che tu di': può vivere l'uomo senza del pane o no? Non credo che
+            mi dirai di no. E vediamo gli antichi senza il pane gran tempo essersi nutriti, come
+            disse il grande e magnifico Dante: <quote rend="blok">
+              <lg>
+                <l>Secolo antico com'oro fu bello</l>
+                <l>Fe' saporose con fame le ghiande.</l>
+              </lg>
+            </quote></p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Se bene senza del pane si può vivere, pure, perché incommodamente si viverebbe, dicesi
+            il pane esser delle cose necessarie.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Il vestire chiamarai tu necessario, cioè di tela, di panni e di simili cose?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Necessario.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E pur tuttavia vestir possiamo i cuoi delle capre e le pelli de' cavalli e de'
+          buoi.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Vero è; ma per la medesima cagione di sopra, perciò che incomodo sarebbe questo
+            vestito, chiamasi quel delle tele e de' panni necessario.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Mi dirai ch'io sia fastidioso, ma abbi pacienza. Dimmi un poco: l'abitar nelle case
+            fabricate per mano di buoni architettori et il ridursi sotto i tetti di tavole o di
+            canne come qui usiamo, è necessario o no?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Necessario.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E nonostante potremmo nelle grotte, e negli antri e nelle capanne ridurci senza por
+            tanta fatica et industria in edifici et in fabriche.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Cotesto non nego, ma per l'istessa ragione da me addotta di prima, si dice necessario
+            ancor l'abitare.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Tal che tu dai due necessarii infino a questa ora: uno assoluto e principale senza del
+            quale veramente vivere non possiamo, come verbigrazia l'aere in che respiriamo e l'esche
+            da vivere e simili, e l'altro secondo, avendo riguardo alle incomodità le quali
+            sarebbono sì grandi che a pena si potrebbe vivere, che chiamaremo quasi principale e
+            quasi assoluto.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Verissimo. TI. Poiché abbiamo congregato questi uomini i quali veramente per reggere la
+            lor vita di niuna altra cosa hanno di mestiere, ti domando se è necessario il principe
+            che gli regga e governi.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Sì veramente.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E così, per conseguente, dell'avocato, del notaio, del procuratore perciò che costoro
+            in quanto agli altri son necessarii et in quanto a sé utili? Così del medico, del fabro,
+            del calzolaio, del legnaiuolo e somiglianti?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>In buona maniera.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ma non già del ruffiano, del mimo, dell'adulatore, del musico, del poeta e d'altri sì
+            fatti?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non mai.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ti dommando ora, Dedalione, di che cose noi siamo composti.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Di anima e di corpo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Il corpo ha malattie?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così non l'avesse egli.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Quali sono?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Stomachi, fianchi, febri, parasismi, enfiagioni, dolori, aposteme et altri molti.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>L'anima ha ancor ella come il corpo malattie, o pur è priva di questi tormenti?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Maggiori; perciò che sì come più eccellente è l'anima del corpo, così maggiori ancora
+            sono i suoi diletti et i suoi affanni di quelli del corpo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Queste sue malattie quali sono?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Ira, superbia, avarizia, invidia e somiglianti.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Chi guarisce i morbi del corpo?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Il medico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Quelli dell'anima?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Il filosofo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Tutta quell'arte, dunque, che riguarda la sanità del corpo si chiama medicina?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così mi pare.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Questa medicina non ha molte parti sotto di sé?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Molte.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Colui che ci cava sangue non si può chiamar in alcun modo medico?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Sì bene. TI. Ma noi con particolar nome come il chiamaremo?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Cerusico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Chi ci medica le ferite e taglia le aposteme e dà il fuoco, come si chiama?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Pur cerusico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Se tutta quest'arte si chiama in comune medicina, quella che sana l'anima generalmente
+            come si chiamarà?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>. Filosofia.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Dimmi un poco, Dedalione: de' mali dell'anima non sono alcuni sanabili, alcuni
+            insanabili?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Sono.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ad alcuni non fa bisogno di legger medicina, et ad altri Di maggiore e di più
+          possente?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così giudico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Come, verbigrazia, ne' mali del corpo alcuni bisogna spegnerli con tutta quella parte
+            ove sono attaccati, alcuni purgando la parte offesa solamente e senza gittarla,
+            ritornandola nella sua primiera sanità.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Vero è.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Quando dunque i mali dell'anima sono insanabili, il soggetto ove sono non bisogna
+            spegner del tutto e buttar via?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Bisogna.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ma perché niuno può uccider l'anima, eccetto Idio, noi guardiamo al composto</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Verissimo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Qual parte dunque della filosofia, ch'è la medicina dell'anima in generale, discende a
+            far questo ufficio?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Se io non m'inganno la legge.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Di modo che ufficio della legge è sanar l'anima dell'uomo col ferro, ancor ch'ella
+            varii empiastri e medicamenti che sono i supplicii, le funi, le prigioni e diverse
+            specie di morti, usi in sanar l'anima.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Quello è desso.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Credi tu esser questa medicina così necessaria all'uomo come quella del corpo?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Molto più e senza niuna comparazione è più necessaria questa.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Dimmi un poco, Dedalione: pensi tu che il medico indistintamente medichi tanto un corpo
+            quanto un altro, ancora che il male sia il medesimo?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non credo io.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Perché?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Perciò che altrimenti si medicherà un fanciullo che un giovane, un giovane che un
+            vecchio. Similmente gran differenza è in medicar una donna da un maschio et una gravida
+            da una non gravida. Appresso non poca dissomiglianza è in medicar un contadino che un
+            nobile e non picciola avendo rispetto alle stagioni, ai corsi della luna, ai paesi et ai
+            luoghi. ancor che tutto fosse un mal di febbre.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Oltre queste cose non credi tu molto importare al chirurgo, oltre il saper le polveri e
+            gli empiastri che si pongono ad una piaga, saper ancora le diversità de' legamenti?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Anzi necessariissimo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E se il medico nelle medicine che egli ordina, per l'amaror o molta dolcezza loro,
+            quelli in guisa non temprasse che prender si potessero dagli infermi, non credi tu che
+            malagevolmente conseguirebbe il fin della sua arte?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Credo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Di modo che, si come tutti abbiam veduto con isperienza, non bisogna solamente esserci
+            ordinata la medicina, se i modi per i quali prenderla potessimo e ritenerla non ci
+            fossero dati.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così è.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Onde si vede che le pillole si ricuoprono col zuccaro et in Lombardia si soglion
+            prender con le nevole e quivi con l'ostia; et a ritener le medicine chi prepara
+            l'agresto, chi il limone, chi l'aceto e chi altra cosa. I quali apparecchi quando si
+            fanno ci rendono la medicina meno dispiacevole e conseguentemente si posson chiamare
+            certi istromenti per li quali conseguiamo la sanità.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>.Il tutto mi piace.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ritorniamo un poco a quel che di sopra lasciammo. Si disse che quella parte della
+            spirital medicina che sana con ferro, come il chirurgo, si è il legista; il quale, se
+            ben uccide il corpo dell'uomo, non perciò si dice a comparazion del chirurgo che uccide
+            lo 'nfermo, ma bene a comparazion del chirurgo che tronca un braccio o ver un piede per
+            dar la vita a tutto lo 'nfermo. Perciò che come per sanar il corpo si contenta di
+            rifiutar una parte di esso e gittarla, così per sanar il legislatore l'uomo, ne tronca
+            una parte che è il corpo; ancora che riguardando il bene universale, se ben quella
+            medicina non fosse in sanità di colui, può dirsi esser in sanità di molti i quali, a
+            colui che considera l'universalità, fa un corpo et una anima.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Benissimo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ai mali sanabili non bisogna aver egli altri riguardi?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Bisogna.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Nondimeno, perché han bisogno del ferro, pur son considerati dal legislatore. Diamo un
+            esempio: Piero ha ricevuto una ferita la qual si sana dal chirurgo con ferro senza
+            mozzar membro alcuno, ma aprendo e facendo più larga la piaga per comodità di guarirla.
+            Talora questa ferita è in modo penetrata et incancherita che necessario si è di tagliar
+            tutto un dito o una mano per non uccider l'intero uomo. Così il legislatore; oltre che
+            quando il difetto d'alcuno per esser ito tanto innanzi, uccide e spegne colui, talora il
+            male è in guisa che può ricever il tasto dello scarpello senza mozzarlo, come sono le
+            galee, le funi, le pene in danari, gli sbandeggiamenti e simili.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Di pari vanno.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Mettiamo qui avanti di noi il medico e lo 'nfermo che sia figliuol del medico: se
+            questo infermo non volesse prender la medicina, credi tu che il padre tentarebbe con
+            forza e violenza farcela pigliare, o pur con buone parole?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Con la violenza moverebbe ad ira lo 'nfermo il quale facilmente verrebbe ad aggravar
+            più nel male, di modo che io stimo che egli dovrebbe più tosto usar le buone parole.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Stimi che sia da questo molto differente il consiglio che prende il buon filosofo? Ora
+            fingiamo che qui fosse un sommo savio il quale per la sua bontà facendo con tutti
+            officio di padre, non considerando il filosofo le carnalità e le parentele, volesse de'
+            mali che abbiamo dell'anima guarirci; e noi non volessimo acconsentire al proprio ben
+            nostro, come fanno i fanciulli e certi infermi teneri e capricciosi che si lascian più
+            tosto morire che prender la medicina. Credi tu ch'egli ci lascerebbe così morire senza
+            prima ammonirci e persuaderci a prender questa medicina?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non mai.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Questa medicina, che ti dai a credere ch'ella si sia? Già non sarà ella cosa materiale,
+            avendo a medicar l'anima ch'è spiritale, dovendo la medicina esser proporzionata alla
+            malattia.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così io giudico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Che dunque t'immagini ch'ella possa essere?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Credo ch'ella sia i buoni conforti, le ragioni, gli argomenti, gli esempi et altre sì
+            fatte cose per le quali disponiamo gli animi degli uditori alle nostre volontà, essendo
+            allo spirital medico che non ha, come s'è detto, corporali e materiali medicine, non
+            tanto in luogo dei conforti del corporal medico quanto delle materiali medicine sue.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ora va' un poco discorrendo, il mio Dedalione, e vedi se una sola via si dà di dispor
+            gli animi o pur molte, perciò che se una sola se ne desse, questa sarebbe per aventura
+            l'oratoria e solo l'oratore si darebbe il vanto dell'animastica medicina.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non credo che l'oratore si spinga tanto innanzi.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Dimostrami dunque quali sono queste vie.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così prestamente non si può rispondere a così fatte dommande: nondimeno, per quanto ora
+            posso vedere, credo che le strade persuasorie sien tre.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Quali?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Il silogismo, l'entimema e l'esempio.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Vuoi tu dir altro che la logica, la retorica e la poetica? perciò che del logico è il
+            silogismo, così come dell'oratore si è l'entimema e del poeta l'esempio.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Mi pare.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Per questi tre istrumenti, dunque, lo spirital medico guarisce i mali e peccati
+            dell'anima, non escludendo già quello che è di tutt'altri il migliore, cioè la teologia;
+            perciò che quella è cosa divina e noi favelliamo umanamente. Per questo dunque
+            Aristotele di tutt'e tre volle parlare necessariamente per non lasciar niuno di que' tre
+            necessarii istrumenti per li quali fa lo spirital medico le sue divine operazioni; e sì
+            come assomiglia la retorica alla logica, così alla retorica assomigliano molti la
+            poetica, di modo che viene anco a cavarsi che la poetica si compari eziandio alla
+            logica. Di questo hanno molti diversamente dintorno alle loro precedenze conteso, tra'
+            quali era Gorgia in favor della rettorica e Socrate per la logica la quale a tutte altre
+            preponeva, come Protagora riferisce. Ma questo non fa ora per noi, purché convenghiamo
+            questi essere veramente quelli tre istrumenti de' quali si serve il divino medico a
+            guarir gli animi umani.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Come mostrerete la poetica esser l'istrumento di questo medico?</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Io ti darò un simolacro assai basso e te ne dei di ligger ricordare, se tu sei stato
+            fanciullo come tutti gli altri uomini. Non ti sovviene che molte volte quando tu eri un
+            fanciullo, che tua madre ti raccontava delle novelle per farti acquetare? E di quello
+            che non ti ricordi, ma dei aver veduto in altri, non sai che le madri cantano delle
+            canzoni a' bambini per farli dormire? Già so che tu debbi aver letto le nenie del
+            Pontano e sopra tutto que' divini versi di Dante:<quote rend="blok">
+              <lg>
+                <l>L'una vegghiava a studio de la culla</l>
+                <l>E consolando, usava l'idioma</l>
+                <l>Che pria le madri et i padri trastulla.</l>
+              </lg>
+            </quote></p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Il tutto ho letto.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Sono molti uomini, Dedalione, peggior che fanciulli, i quali a pena con altro che con
+            novelle puoi ritrar al bene, le quali novelle chiamano molti parabole o apolagi, il che
+            riguarda la poetica. Né ti maravigliare che se n'usi l'oratore perciò che, sì come molte
+            volte si accompagna la manna col reobarbaro et il reobarbaro con l'agarico, così si
+            mescola molte volte per far l'argomento maggiore, la poetica con la retorica; ma come ho
+            detto, tocca questo propriamente al poeta. Simile è quello che si racconta di
+          Stesicoro.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Raccontalo, Tiresia, ché in questo modo ci accorgeremo se vero è che sia quella
+            medicina della quale favelliamo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Volentieri. Avendo gli Imerensi eletto Fallari per loro capitano con potestà assoluta e
+            dovendo di più dargli la guardia del corpo, contro di questa impresa avendo molte volte
+            parlato Stesicoro, contò loro questa favola. «Era» disse, «un cavallo che solo si
+            pasceva in un prato; il quale, essendo quivi comparito un cervo che si mangiava la sua
+            pasciona, desiderando contra di lui vendicarsi, domandò un uomo se gli desse il cuore
+            insieme con lui di far le sue vendette contra quel cervo, e promettendogli l'uomo di
+            farlo in caso che e' si lasciasse mettere il freno e che egli su vi fosse montato co'
+            dardi in mano, essendo rimasti d'accordo, montato che l'uomo vi fu su, in cambio di far
+            le vendette contro al cervo, il cavallo diventò suggetto dell'uomo. Così voi, o
+            Imerensi» disse egli, «avertite che, mentre voi volete pigliar la vendetta de' vostri
+            nemici, non v'intervenga il medesmo che intervenne al cavallo».</p>
+          <p>Con simile esempio Menenio Agrippa rivocò la plebe sdegnata e ritiratasi sul Monte
+            Aventino agli usati esercizii suoi, mostrando che se essi non ubbidivano a' nobili,
+            arebbon fatto come i membri quando congiurarono contro il ventre, che il danno non più
+            era del nemico che loro. Vedi come con questi esempi, Dedalione, meglio che con altri sì
+            fatte persone si riducono all'ubbidienza e fannosi di ragione capaci? E che altro credi
+            tu essere stata la lira con la quale Amafione edificò Tebe, tirando gli animali e le
+            pietre al suo suono, che le dolci parole del poeta le quali allettano gli animi fieri e
+            bestiali alle congregazioni et agli ordini civili? Né cosa altra veramente bastava a
+            tirar gli uomini da quella fiera vita et agreste a questo umano e cittadinesco vivere,
+            che la poesia, se ben Cicerone, fautor dell'arte sua, attribuisca questo all'oratoria. E
+            poscia che congregati furono non mancò la poesia d'ammaestrarli con le rappresentazioni
+            delle comedie e delle tragedie, onde vediamo con tante eccessive spese aver fabricato
+            gli antichi uomini illustri e maravigliosi teatri.</p>
+          <p>E se, come i primi inventori trovando le prime cose per lo necessario uso degli uomini,
+            gli altri moderni crescendo poscia in superfluità e pazzie hanno alterato le cose, così
+            torcendo i poeti della primiera strada e fin loro si sono volti a' ridicoli imitando il
+            piggiore, come oggi quasi da tutti si vede e massimamente di coloro che non so che
+            berneschi capitoli scrivono che paion più tosto buffoni che poeti, o di quelli che nulla
+            altra cosa hanno a fare che a cicalar d'amore vano e lascivo, cotesto non è colpa né
+            diffetto della poesia; perciò che, sì come dice Aristotele della retorica, «il
+            calunniare non è vizio dell'arte, ma ben della volontà e del proponimento». Se ben i
+            ridicoli non in tutto si debban biasimare, quando però son per condimento e non per
+            cibo, come si dice degli epiteti d'Alcidamante e sì come oggi può dirsi di quelli di
+            Iacopo Sanazaro, perciò che eglino son profittevoli in quel caso, essendo quasi un
+            invitamento o, per così dire, un savoretto per farci apprendere le cose buone come il
+            medico concede talora all'ammalato la salsa, ancor ch'ella non sia punto giovevole, per
+            far ch'egli debba mangiare, e sì come vediamo la santissima Chiesa non senza grande e
+            profondo giudicio dentro il circuito di quelle sacratissime mura, in parte nobilissima
+            et in luogo sublime et alto, aver riposti gli organi per allettar gli uomini con la
+            musica a venir a udire la parola di Dio.</p>
+          <p>E siaci lecito purgatamente e con mondo cuor favellando e dagli usi volgari distaccati,
+            dir una cosa più innanzi: che altro fe' quella infinita, inesplicabile e sopraintendente
+            sapienza di Dio, col coperto e parabolico parlare sotto molte volte dolci e lusinghevoli
+            apparenze, che una continova, viva e celeste et ideal poesia? Il che, ancora che abbiam
+            rossore di dire per la viltà e bassezza nella quale gli insensati scrittori han
+            collocato quest'arte, anzi se stessi, pur mi consola l'essempio dell'amore il quale,
+            nonostante che noi impropriamente torcendo diciamo delle lascivie e delle schifezze e
+            bruttezze carnali di qua giù, nondimeno è proprio dello Spirito Santo. Ma siano con
+            tutto ciò per non dette queste parole, poiché nel mezzo de' nostri umani ragionamenti
+            ben non istanno, et a' nostri comuni costumi e terreni tornando e terrenamente
+            favellando, diciamo il poeta esserci veramente come il maestro del figliuolo del re il
+            quale, non volendo avezzare l'animo del giovanetto principe a far le cose servilmente e
+            per forza, lasciato star la sferza, usa modi più gentili e più accorti; e sì come
+            Socrate faceva, il quale, per ritrar gli animi de' giovani Ateniesi dalle dissoneste
+            pratiche e dalle stolte persuasioni che facciam tutti in que' primi anni di noi stessi,
+            con bella e destra invenzione, non potendo altrimente il suo fin conseguire, si fingeva
+            esser l'amante et il drudo della lor corporal bellezza per tirargli poscia più
+            facilmente a far delle cose onorate.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Se vero è quel che mi dite, Tiresia, quasi ch'io sono per seguitare la poetica e
+            lasciar la medicina.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Io non ti conforto più a l'una che all'altra. Dicoti bene che sì come la medicina
+            riguarda il corpo, la poetica ha l'occhio all'anima, conchiudendo che se vero è che la
+            medicina sia necessaria, che riguarda la materia nostra, non men necessaria, se non
+            vogliamo dir più, debba esser la poetica, che considera et ha per obietto la forma. Ma
+            perché, come di sopra si disse, il filosofo in genere riguarda la sanità dell'anima,
+            diciamo che quando egli discende a curarla con dolcezza, diventa poeta, a differenza
+            dell'altre curazioni, onde Orazio così disse: <quote rend="blok">
+              <lg>
+                <l>E giovare e piacer brama il poeta</l>
+              </lg>
+            </quote> Ove bisogna avvertire che il diletto non si ha da porre qui per compagno del
+            giovamento, onde s'abbiano a far due fini del poeta, ch'egli veramente sia tenuto di
+            giovare e di dilettare, ma va egli in conseguenza del giovamento; perciò che vuol
+            primieramente et assolutamente il poeta giovare, ma non potendo farlo senza la
+            congiunzione del diletto, il prende per ministro del primo.Anzi, ti dico di più, che né
+            il verso è di sostanza della poetica.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Queste son due cose che mi dànno da dubitare. Però, di grazia, fermiamoci un poco e
+            mostratemi, Tiresia, come dite che il poeta non abbia per fine il diletto
+            principalmente, ma in consequenza.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Per non invilupparti, bisogna considerar sempre che il poeta è un'istessa cosa da un
+            lato col filosofo, e perché il filosofo ha per fine il giovare, l'istesso ha il poeta:
+            perciò che non puoi considerar il poeta senza la filosofia, come né l'uomo che sia senza
+            l'anima. E se ben ti dissi che la poesia era un istromento della filosofia, intendi in
+            quel modo che il corpo è istromento dell'anima, che è in modo istromento che fanno
+            insieme un composto. Quando l'anima, dunque, intende di caminare, può ben far questo
+            senza del corpo, ma quando vuol caminare e metter in effetto alcuna operazione, questo
+            lo fa il composto. Così il filosofo può intender da sé di voler giovare, il che fa la
+            speculativa, ma quando vuol mettere in effetto la sua speculazione, bisogna che discenda
+            ad alcuna di quelle parti che mettono in effetto l'operazioni, e discendendo, non perciò
+            si lascia di dir filosofo, se ben per maggior distinzione e per l'atto particolare
+            ch'egli fa ne prende un altro; sì come il medico, ch'è medico e filosofo, nondimeno
+            dall'atto del medicare si dice medico.</p>
+          <p>Questo discendimento dell'anima al corpo non fa che l'anima abbia ad aver altro fine di
+            quel ch'ella ha, ma sì bene per conseguire quel fine gli conviene tener altre strade che
+            non terrebbe da sé sola stando. Così il filosofo che per poter giovare prende la poesia,
+            non per questo altera e cangia il suo fine, se ben piglia altro mezzo et altre vie
+            necessarie e proporzionate a quel che intende di fare, ma segue il principal suo ch'è di
+            giovare, il che non potendo senza la compagnia del dilettevole, riceve il diletto.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Voi mi considerate tanto il poeta unito col filosofo, che io non nel posso cavare sì
+            ch'io l'intenda.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Non è meraviglia; ma immaginati che sì come un'anima è quella che nutrisce e dà
+            l'aumento et il moto e la medesima è quella che dà il sentimento e l'istessa quella che
+            fa il discorso, così l'istesso filosofo è quello che contempla e quello che opera, il
+            medesimo quello che usa la retorica, la logica e la poetica, se ben in più e diversi
+            nomi si va distinguendo e partendo. E perché, sì come tutte le cose desiderano la lor
+            conservazione, tanto la vegetativa e sensitiva quanto la razionale, e non sol queste, ma
+            quelle che hanno solo l'essere se favellar potessero, ma hanno diverse vie a far questa
+            conservazione, perciò che la vita sì mantiene col cibo e la spezie col seme e l'anima
+            con le sue virtudi le quali sono gli istromenti del conservamento, così tutte le cose
+            desiderano ancora il bene e tutte le scienze s'ingegnano di giovare. Questo cerca il
+            filosofo, questo l'oratore, questo il poeta, di modo che il fine è uno, cioè giovare; ma
+            il filosofo usa il sillogismo, l'orator l'entimema, il poeta la favola, la qual favola,
+            perché partecipa più del diletto che non gli altri parlari, quindi avviene che il mezzo
+            o l'istrumento del poeta si è il diletto, ma non già il compagno; e sì come il fabro
+            senza il martello non può lavorare, così il poeta senza il diletto il qual, come puoi
+            vedere, non è fine, ma più tosto istrumento del fine.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Io vi ho inteso, Tiresia, e se ben questi discorsi han bisogno di più sottil
+            considerazione, io per ora assai m'acqueto a quel che voi avete detto. Ma non v'incresca
+            solvermi quest'altro dubbio, che dite il verso non esser di sustanza della poetica.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Poesia, Dedalione, come Platone dice nel <title>Convivio</title>, altro non vuol dir
+            che fingimento; perciò che non narra il poeta le cose fatte, ma adducendo alcune
+            similitudini talora lontane, alcune talora vicine, sotto ombra e velami narra le cose
+            che si dovrebbono aver fatte o quelle che far non si dovrebbono, nell'una delle quali si
+            versa la laude, nell'altra il biasimo; per amendue le quali o ci ammonisce a dover fare
+            le cose onorate o ci sgrida a non commetter le malvage. Questo trovato, come s'è detto,
+            fu dal poeta cercando per via del piacer trattener le genti, acciò che adescati
+            dall'apparenti dolcezze, possan sorbire gli amari al primo gusto, ma fruttuosissimi e
+            gloriosi cibi della sapienza; il che non meno per questo si è fatto quanto per velar
+            quelli divini segreti i quali profanamente a scelerati e viziosi manifestar non si
+            devono, come questi dì a dietro nel nostro convivio del primiero ascenso ci mostrò
+            Iacinto della sua favola.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Come sapete, per mia disaventura non mi vi ritrovai; però vi prego che me la diciate,
+            ché non ci disviarà in ogni modo dal nostro ragionamento, e poscia seguirete in
+            esplicarmi la richiesta, che tutto tornarà a maggior chiarezza.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Volentieri, perciò che io so molto bene ch'ella fa a nostra materia; ma non ti
+            meravigliare se io non la dirò così puntalmente com'egli la riferì, perciò che la
+            memoria non può così di leggeri ritenere i particolari. La favola, dunque, di Iacinto si
+            è questa.</p>
+          <p>Iacinto, bellissimo fanciullo, fu amato dal Sole e da Zefiro il quale, veggendo il
+            fanciullo più tosto inchinar all'amore di Apolline che al suo, dolente per gelosia, fe'
+            in modo nel giuocare che il Sole e Iacinto facevano al disco, che soffiando e
+            trasportando la pietra in altra parte che non era stata tratta, percosse nella testa il
+            fanciullo e morissi; di che doloroso Apolline il convertì nell'erba del suo fiore.</p>
+          <p>Significa Iacinto, bellissimo giovane, l'anima nostra veramente bellissima, ritenendo
+            ella in sé l'immagine del suo fattore il quale è il fonte onde tutti i belli derivano;
+            la qual anima da due amanti è amata per la sua grande bellezza: dall'uno che è il vero
+            Idio il quale non senza cagione è detto il sole, non avendo noi qui, secondo dice
+            Platone, simulacro che più ci esprima Idio che esso sole il quale in guisa ci ama che
+            tutti gli amor sopravanza; dall'altro ch'è il cattivo et inimico angelo e l'infernal
+            demone per Zefiro designato, sì come padre della leggerezza e della volubilità, onde
+            così molte vediamo nelle sacre scritture per vento esser l'abominevole et orribil peste
+            descritta; il quale Zefiro, se bene spirando s'allegrano i campi e si fanno fecondi, non
+            altrimente spirando nel nostro animo il nemico dell'uomo, in guisa il viene a
+            solleticare e commovere che di sé crudelmente l'ingravida. È l'amor dell'uno per la sua
+            salute, è quel dell'altro per lo danno e mal suo. Ma il bello si accosta al bello. Per
+            la qual cosa sdegnato il rio demone che da sé Iacinto, cioè l'anima nostra, s'allontani,
+            cerca a tutti modi di spegnerla, e così fece quando l'anima e Dio giocavano al disco.</p>
+          <p>Significa il disco, ch'è pietra rotonda, l'amore il quale scambievolmente procede
+            dall'una e dall'altra delle parti in modo di circolo, non tanto per questa cagione che
+            dall'anima in Dio e da Dio nell'anima risultava, quanto per dimostrare che in nessun
+            luogo quell'amore si veniva a terminare: non nell'anima dalla quale l'amor passa e
+            s'inalza a Dio, non in Dio dal qual l'amor cala e discende nell'anima. In questo modo
+            scherzando perciò che vuol Dio che i suoi diletti sieno coi figliuoli degli uomini, il
+            demone si framette per guastar quelle consolazioni, e col disco tirato d'Apolline cerca
+            uccider Iacinto, cioè quando l'atto dell'amore da Dio discendeva in Iacinto, in guisa
+            del suo vento servendosi et i suoi stimoli operando che da quell'amore più tosto Iacinto
+            venisse a morire, se ai suoi stimoli acconsentisse, che a vivere. Ma il disco uccise
+            Iacinto con altro modo però e fine che egli non si credeva, perciò che volea costui di
+            quel divino amore per lo vento della tentazione ch'egli soffiava, mal usarsi per
+            spegnere l'anima. Ma Idio col disco, cioè con l'amore verso Iacinto, permise che egli
+            morisse al mondo, acciò non in guisa soffiando il demone che Iacinto quell'amor
+            tradisse, a Dio morisse. Né la conversion di Iacinto nel fiore con ritener l'istesso
+            nome è senza gran misterio, ma questo troverai scritto ne' nostri segreti, che io son
+            vietato favellarne più oltre, ancor che non sia lecito, secondo Platone dice, lasciar le
+            favole mozze.</p>
+          <p>Ora questo, Dedalione, che non senza cagione si è mandato innanzi, o in prosa o in
+            verso che si facesse non portava molto, come vediamo né per lo verso tra' Greci
+            Empedocle e tra' nostri Lucrezio essere stato poeta, né per la prosa essere stato
+            Platone oratore.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Dunque, parvi che Platone si debba por fra il numero de' poeti?</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Questo non meno segue per l'autorità d'Aristotele che chiama i ragionamenti socratici
+            poetici; il che accenna ancor Cicerone non solamente di Platone, ma ancora di Democrito
+            (benché egli riguarda al parlamento et Aristotele alla sustanza ch'è l'immitazione);
+            quanto ancor per l'autorità di esso proprio Platone il quale dice poesia essere
+            fingimento, avendosi a credere tutti que' ragionamenti del <title>Convivio</title>,
+            della <title>Republica</title>, del <title>Fedro</title> e degli altri suoi dialoghi
+            essere stati più tosto finti che veri. Nondimeno, perché egli partecipò più tosto del
+            filosofo che del poeta, chiamasi filosofo, se bene l'uno e l'altro nome gli quadra. E le
+            comedie che' volgari compongono in prosa, avendo noi in questa parte rifiutato il verso,
+            non sono perciò essi altro che poemi et i romanzi scritti da Spagnuoli e le novelle del
+            Boccaccio, in quanto che fingono et immitano. Ma il benigno medico per far prender la
+            sua pillola più volentieri, aggiunse tutti quelli rimedii e tutte quelle vie le quali
+            potessero agevolar l'angoscia di prenderla, e così alla favola o vero all'esempio, per
+            maggiormente addolcirla congiunse il numero et il concento come quello che diletta per
+            conto dell'armonia che generalmente piace a tutti.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Dunque questa sola fu la cagione, Tiresia, che si ricevesse anco il verso?</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Sola non già, perciò che e' vi si aggiunse ancora per meno potersi cangiare e postpor
+            le parole essendo legate dal numero (nelle quali parole sta la sustanza della cosa) et
+            appresso per potersi meglio mandare e serbar nella memoria et anco per maggior dignità.
+            Onde vediamo et infin gli oratori ad imitazione del poeta essersi ancor volti al numero,
+            il che primieramente aver fatto si racconta d'Isocrate.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Di modo che gli è pur necessario il verso?</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Egli è di que' necessarii ultimi, come la perfezion del taglio et una diligente finezza
+            alla scure che, se ben senza tanta perfezione e finezza si possa fare, pur meglio è che
+            con essa si faccia.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Mi piace.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Puoi dunque vedere, se accetti queste cose aver in sé verità, se la poetica sia utile
+            (poiché già m'hai confessato esser dilettevole e necessaria) dove noi crederemo l'anime
+            aver malattie e quelle aver bisogno di medicine, e l'una di esse accetteremo esser la
+            poetica.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>A mio giudicio parmi tutto essere verissimo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ora a qual medicina compareremo la poetica?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Alla manna.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Al chirurgo, se io ben mi ricordo, comparossi il legista.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così fu.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>A cui compararemo il poeta?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Compariamolo al medico che noi volgarmente chiamiamo fisico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Il filosofo discende parimente all'una scienza et all'altra.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Egli è vero.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ora quivi è Alesandro iracondo e Fortunio febricitante. Qual de' due credi tu che venga
+            alla cura di Alesandro o di Fortunio?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Credo, essendo vero quel che s'è detto, che il poeta verrà alla cura dell'iracondo et
+            il medico a quella del febricitante, dico in quanto che vi vien con dolcezza, perciò che
+            può esser ancor medicato dal legista, quando così bisognasse, con rigore.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>S'io ti domando quale stimi tu delle due cure esser la più nobile, che mi rispondi?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Veramente dirovvi essere il poeta.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ma noi abbiam fatto un errore, Dedalione, perciò che, volendo far la somiglianza
+            ch'ella sia buona, avendo il che il filosofo discende, per sanar il corpo umano, al
+            medico, il qual medico è in un certo modo generale entrandovi il fisico et il chirurgo,
+            e le medicine del fisico sono molte, così ancora bisogna che questo poeta sia un nome
+            generico e che le sue siano più medicine e non una sola come è la poesia.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Il nome del poeta è generico, significando facitore.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Egli è ben vero, ma non si considerano quell'altri nomi in alcun modo come medici
+            dell'anima, perciò che il chirurgo medica il corpo et il fisico medica il corpo, ma il
+            poeta che ha nome generico di facitore medica l'anima, non però il sarto et il calzolaio
+            et il fabro et il muratore, che facitori si dicono, già mai medicano l'anima.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così mi pare.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E' bisogna dunque trovar che questa cosa risponda se vogliamo che le ragioni nostre
+            procedano, e che dimostriamo sotto che ordine si riducono queste scienze. Vediamo dunque
+            se possiam dire che il filosofo discenda da questo altro lato al morale, perciò che il
+            morale è generico come il medico, e questo morale divideremo in poeta et oratore et
+            altri che ora non accade raccontare. E così stando, sì come varie e molte sono le
+            medicine del chirurgo e del fisico, così molte sono le prove dell'oratore e del poeta;
+            perciò che usa l'oratore l'entimema, l'induzione, la dimostrazione, l'improbazione et
+            altri; il poeta l'esempio, la rapresentazione, l'accrescimento, la comparazione e
+            simili.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Avertite, Tiresia, che la medicina è ancor ella parte della morale e parmi che più
+            tosto la somiglianza debba star come prima, né porta molto che il poeta non stia a quel
+            modo che il medico, perciò che sotto la sustanza animata corporea sta l'animal razionale
+            e l'irrazionale, e comeché l'irrazionale in molte et assai specie si vada di nuovo
+            dividendo, il razional però non altro che una sola specie sotto di sé ristringe et
+            abbraccia.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Facciamoci dunque un poco più da lontano per veder di truovar la verità.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così facciamo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>La filosofia non si partisce ella in più parti? DE. Partisce.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>In quali?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Contemplativa et attiva.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Sotto quale di queste due ritroveremo la medicina o ver la poetica?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non credo sotto la contemplativa, perciò che ella si divide in naturale, sopranaturale
+            e matematica, ch'è la mezzana fra esse due, et in ciascuna di queste tre parti
+            discorrendo non credo che la vi truoveremo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Discorriamo dunque per altro capo.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>L'attiva credo che si partisca in morale, che noi primieramente chiameremo con voce
+            spagnuola «creanza», o se pur vogliamo la toscana, «costumatezza»; appresso in domestica
+            o familiare et in civile.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Forse il poeta sarà sotto la creanza.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Non credo, perciò che ella riguarda noi istessi.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Sotto la familiare?</p>
+        </sp>
+        <sp>
+          <speaker> DE.</speaker>
+          <p>Né meno: ché il poeta si distende a commune profitto di tutti e così parimente il
+            medico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Saranno dunque elle riposte sotto la civile?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così io giudico.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Se la civile riguarda il bene degli animi nostri e de' corpi, veramente ella riguarderà
+            amendue questi, cioè la poetica e la medicina; ma prendiamo la cosa più larga e diciamo
+            ch'ella riguarda equivocamente l'una e l'altra medicina dell'anima e del corpo.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Veramente che noi spiccheremo alfin questi medici, che si veggano in viso.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Ora vediamo come segua quel che primieramente si diceva. Il medico del corpo in
+            chirurgo e fisico si divide. Il medico dell'animo?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>In legista, in poeta, oratore et altri se più ve ne sono.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Dimostrammo come il chirurgo si compari al legista. Ora esaminiamo più minutamente come
+            il fisico si compari al poeta. Il fisico non opera ferro, il poeta non opera ferro; il
+            subietto della medicina è il corpo dell'uomo, quel della poetica sono l'operazioni
+            dell'uomo. Il fine della medicina è indur sanità al corpo rimovendone la malattia, il
+            fine della poetica è indur nell'anima la virtù, discacciandone il vizio. L'istrumento
+            del medico sono le medicine, del poeta sono le poesie. Con altre medicine cura il medico
+            il corpo delicato del principe e con altre il forte e robusto del cittadino; così con
+            diverse medica il poeta la persona publica e con diverse la privata, quella con le
+            tragedie e questa con le commedie. De' privati altrimente vien medicato il corpo del
+            nobile et altrimente quel dell'ignobile: così a colui il poeta porge la gravità della
+            comedia, a costui il redicolo, l'uno e l'altro però tra questo mezzo specchiandosi, per
+            le operazioni degli altri, in se stesso e nella casa sua e negli affari della città sua;
+            onde par che la sola comedia insegni l'etica, l'economica e forse ancor la politica.</p>
+          <p>Ministri delle medicine sono gli speziali, del poeta gl'istrioni. Addolciscono i medici
+            le medicine col zuccaro, col mèle e simili; i poeti con le metafore, con le figure, coi
+            colori e con gli abbellimenti del parlare. Delle medicine altre sono liquide et altre
+            son dure, così delle poesie altre sono col verso, che perciò più volentieri si
+            sorbiscono, altre con la prosa. Dànnosi gli sciloppi che accolgano e dispongano la
+            materia, prima che si prendano le medicine; innanzi che si venga alla poesia debbono i
+            fanciulli aver appreso i costumi; e come la medicina non presa con gli ordini che si dee
+            è di grandissimo danno cagione e talora di morte, così di non minor danno e pericolo è
+            causa la poesia se in quell'orecchio non presa che si conviene.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Ma non tutti han bisogno, Tiresia, delle medicine; e Platon dice ch'è mal segno di
+            quella città ove sian molti medici: dunque starà male quella città dove sien molti
+            poeti.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Non ti meravigliar di quel che hai detto, Dedalione, perciò che egli è ben vero che né
+            tutti abbian bisogno dei poeti, come né i buoni han bisogno delle leggi; e che la
+            quantità de' medici accusi la malvagità del luogo per cagion de' cittadini disordinati è
+            verissimo. Nondimeno, questo non fa però che '1 medico non vi sia necessario, come segue
+            ancor del poeta; perciò che da che l'errore è sorto, egli fa di mistieri trovar il
+            rimedio a farlo cadere. Molte altre e quasi infinite sono le somiglianze tra il poeta et
+            il medico che referire sarebbe soverchio. Tu ora da te considera la differenza fra
+          loro.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Certo, Tiresia, ch'io incomincio a fare più conto del poeta ch'io non faceva, e quando
+            fussi a prender un delle due, abbiate per costante ch'io prenderei il poeta. Ma se mi
+            verrà conceduto un dì ch'io asseguisca l'uno e l'altro e che divenga un dì medico
+            dell'animo e del corpo, felicissimo me!</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Al tuo bello ingegno non sarà niuna cosa sì faticosa ch'ella gran tempo contrasti, se
+            ben Platone non vuol che niuno possa far due arti perfettamente.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Facciamo che l'arte sia una, poscia che, sì come uno è l'uomo che d'anima e di corpo è
+            composto, uno debbe essere ancora il medico che l'animo e 'l corpo guarisca. Ma
+            nonostante tutto ciò che si è detto, mi par che alcuni ripongano la retorica e la
+            poetica altrove.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Di' pur quel che costoro ne dicono, Dedalione.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Fanno costoro la division della filosofia altramente, partendola in reale e racionale.
+            E perciò che partono la racionale nell'apprendimento dei semplici e nel componimento e
+            nel discorso, vengono poscia a partir il discorso in forma e materia. Questa materia di
+            nuovo in più parti dividono, perciò che quindi derivano le diversità de' silogismi, il
+            primiero, ch'è necessario, l'altro probabile, appresso l'entimema, l'essempio e
+            l'elenco. E perciò che vogliono che l'entimema sia trattato nella retorica e l'essempio
+            nella poetica, perciò ripongono la poetica e la retorica sotto l'ente racionale.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>In quanto la retorica tratta de l'entimema, essendo l'entimema sotto la considerazione
+            de l'ente ragionevole, non è inconveniente che vi si rinchiuda ancor la rettorica; ma
+            perché la rettorica tratta ancor dell'operazioni e degli affetti degli uomini et il suo
+            fine è di far perfetto l'animo dell'uomo, per questo si ripon dall'altro lato sotto la
+            civile; il che intendi somigliantemente del poeta, perché in tanto tratta il poeta
+            dell'essempio in quanto si serve di esso. Conciò sia che trattar la diversità
+            dell'argumentazioni, proprio veramente è del logico; onde si dice la logica di tutte
+            scienze esser istrumento et a tutte l'arti esser profettevole. E si il retore tratta
+            dell'entimema sarà ministro dell'oratore, e colui che scriverà della poetica sarà
+            ministro del poeta, ancor che non abbiam proprio nome a chiamarlo sì come il retore. Il
+            che dico per mostrarti che l'oratore et il poeta non sono se non sotto la civile la qual
+            è parte dell'attiva.</p>
+          <p>Per la qual cosa se la <title>Poetica</title> e la <title>Retorica</title> d'Aristotele
+            si porranno sotto la filosofia racionale, perciò che in amendue insegna i precetti che
+            convengono all'oratore et al poeta, non si sarebbono sotto essa però riposti i libri
+            dell'orazioni e delle poesie d'Aristotele, se fatte n'avesse. E per questa cagione né
+            Orazio nella Poetica io chiamarò poeta in quanto che scrisse della poetica perciò che
+            niuno artefice si fa l'istromento suo; e solo il logico è colui che tratta
+            degl'istrumenti di ciascuna scienza, perciò che il retore in quanto che tratta
+            dell'entimema, come si può vedere per Aristotele, è sotto il logico, e così noi diremo
+            di quel poeta che al retore si contrapone. Soglio io dunque, così stando, assomigliar il
+            logico al fabro, il qual fabro, sì come il logico considera la materia e la forma, così
+            considera ancor egli il ferro ch'è la materia e le forme che si hanno da dare a questa
+            materia e perciò fa varii istrumenti: la pialla della qual si serve il legnaiuolo, il
+            martello ch'opera il muratore, le forbici di che s'usa il sarto e la spada di che si
+            vale il cavaliere. Così il logico fa l'elenco che si prende il sofista, l'essempio che
+            riceve il poeta, l´entimema ch'abbraccia l'oratore et il silogismo che riguarda il
+            filosofo.</p>
+          <p>È dunque ver quel che noi dicevamo che la poetica così considerata sotto la civil si
+            riponga. Il che, oltre che la ragione apertamente dimostra esser vero, provasi ancora
+            con l'autorità di Aristotele nella <title>Retorica</title> il quale se ben dice da l'un
+            lato la retorica esser quasi un rampollo et una propagine della dialettica, dice ancora
+            a quell'istituzion della filosofia dell'altra banda appartenersi che degli affetti e
+            delle perturbazioni dell'animo tratta, la qual ragionevolmente civile scienza chiamiamo.
+            Onde, mi maraviglio molto che alcuni considerino il poeta e l'oratore sotto l'ente della
+            ragione, dicendo di più Aristotele nell'<title>Etica</title> che sotto la civile si
+            rinchiude l'arte militare, la familiare e l'oratoria. E se eglino dicono intender il
+            retore in questo modo, scambiamo i termini, perciò che se il retore si sta sotto l'ente
+            ragionevole, sta ancora sotto il reale, e perciò non han da attaccarsi più all'una banda
+            che all'altra. Ma l'oratore allo 'n tutto sta sotto il reale e quel che si dice
+            dell'oratore segue del poeta, il che si cava da Aristotele il quale dice Omero aver
+            immitato l'antiche republiche: nel qual verbo «immitare» sta la differenza tra la
+            poetica e la morale, perciò che questa insegna per via di narrazione e quella per via di
+            rappresentazione, sì come si fa all'uomo l'invitamento d'alcun cibo se gli è
+            rappresentato sotto la somiglianza d'alcuna cosa piacevole; e più abondevolmente si può
+            ancor questo vedere nel libro della <title>Poetica</title> ove il filosofo favella della
+            tragedia, dicendo ch'ella induce l'espurgazion degli affetti. </p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Se bene, o Tiresia, sotto la civile si ripone la poetica, non parmi però che il legista
+            si debba assomigliar al chirurgo, ma più tosto al fisico, perciò che, sì come il fisico
+            considera ancor egli le piaghe et ordina al chirurgo che venga all'incisioni, così
+            ordina a' suoi ministri il legista che faccian l'operazioni ch'egli dee fare.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>A chi dunque compararai il chirurgo?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Ai birri, al bargello, al boia.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Guardati, per l'amor di Dio, Dedalione, che questi chirurgichi non t'intendano: ché tu
+            staressi male veggendosi da te comparati ad un boia. E certo ragionevolmente si
+            dorrebbono di te, perciò che il chirurgo ha arte per sé e da sé solo può stare; anzi
+            molti dimostrano primiera di questa chiamata fisica esser stata la chirurgia, come par
+            che accenna Platone di Esculapio e de' suoi figliuoli che nella guerra di Troia
+            medicarono Menelao ferito per le mani di Pandaro, et il medesmo par che inferisca il
+            nostro giovane Omero nella cura di Angelica a Medoro.</p>
+          <p> Per la qual cosa se il fisico avanza il chirurgo, il poeta ch'è in luogo del fisico,
+            avanzarà il legista che è in luogo del chirurgo et il legista chiara cosa è che avanzi
+            il medico per la nobiltà del subietto. Chiarissimamente, dunque, segue che il poeta sia
+            più nobile del legista e del medico. E se vero è che il poeta sia un composto di
+            filosofia e di poetica et il composto è miglior della forma, potrebbesi provar per
+            avventura che il poeta sia miglior del filosofo. Ma contentiamoci ch'egli avanzi il
+            legista et il medico, perciò che il filosofo che è ancor egli sfacendato et ocioso come
+            il poeta, la prenderebbe con esso lui e vorrebbela vedere a minuto d'intorno la
+            precedenza e la dignità. Dove questi altri i quali attendono a' guadagni et ad
+            arrecchirsi, tuttavia si cureranno poco che il poeta si stia da un canton gloriando
+            della precedenza e della supremità del grado, assai paghi e sodisfatti tra loro d'aver
+            conseguito la sustanza della cosa, ch'è il danaro. Ma siasi ciò detto per ischerzo
+            perciò che io non intendo ragionar di così fatti poeti. Parti, dunque, che queste cose
+            procedano?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Che il poeta vada con la morale mi piace e così l'oratore, e che essendo amendue medici
+            dell'anima, avanzino il corporal medico non contradico; ma, ancor che le vostre ragioni
+            seguitino, non posso persuadermi che il poeta sia miglior del legista.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Accettarai il poeta esser simile all'oratore o all'oratore il poeta? Né disputiamo
+            della precedenza, perciò che essendo amici l'oratore et il poeta, non si debbe por
+            discordia fra loro.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Veramente io vel confesso, perciò che così vogliono i savi.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Quel, dunque, che conchiuderemo dell'oratore sia conchiuso del poeta.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Vel concedo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E, per conseguenza, se mostraremo l'oratore esser miglior del legista, non verrà ad
+            esser dimostrata eziandio la miglioranza del poeta?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Verissimo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Tu di' che le ragioni seguitano che il poeta sia miglior del legista, ma che non vi sei
+            ancor persuaso.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Così è.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Di modo che procedendo in più ragioni forse capitaremmo pur là et andaremmo vanamente
+            vagando. Or se io t'addurrò l'autorità di Platone non rimarrai sodisfatto?</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Sodisfattissimo.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>E così porremo fine a questo ragionamento, perciò che bastaratti aver veduto che il
+            poeta non sia inferiore al medico et al legista.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Mi piace.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Dice Platone nelle sue <title>Leggi</title>in persona del forestiero ateniese, ch'è da
+            vedersi se le leggi si hanno da scrivere così seccamente, come dir: questo fa', questo
+            non fa'; o pur cercando con alcuna persuasione d'indur gli animi umani a far quel che
+            nelle leggi vogliamo ordinare, piacevolmente. E per meglio far intendere quel ch'egli
+            vuol dire, per comparazione pone due spezie di medici: un medico di nobili il qual è
+            vero medico, l'altro di servi il quale si gira per le botteghe degli altri medici.
+            Costui, dice, «senza aver arte alcuna della diversità de' morbi e senza gir molto alle
+            qualità delle medicine guardando, come se il tutto perfettamente sapesse, superbamente
+            et a guisa di tiranno medicando, di servo in servo trasvola. Ma il medico gentile in
+            prima la natura del male investigando e dall'ammalato e dagli amici piacevolmente del
+            morbo informandosi, con sapienza ordina i rimedi, né quelli commanda se con gentilezza
+            prima a pigliarli non arà persuaso lo 'nfermo». Ora, posto questo esempio, domanda da
+            poi qual de' due medici si debba stimare il migliore e conchiude ch'è l'ultimo. Il che
+            fatto, dopo altri framettimenti di parlare dove dimostra semplice legge chiamarsi quella
+            che seccamente comanda e doppia quella che con la persuasione innanzi è stata ordinata
+            (e dànne di ciò il modello, come in quel luogo si può vedere), così dice: «Le leggi le
+            quali doppie sono state chiamate, doppie non sono simplicemente, ma certe due cose, sì
+            come è la legge e l'esordio della legge; e quella che allo 'mperio del tiranno e del
+            servil medico assomigliammo è la pura e semplice legge. Quel ch'avanti se l'ha da porre
+            ch'è persuasivo, veramente alla persuasione riguarda, ma sta in luogo d'esordio acciò
+            che con più benivolenza et amore ascoltino lo 'mperio del legislatore, ch'è la legge, e
+            perciò più volentieri i cittadini la ricevano: per questo si fanno l'orazioni innanzi
+            che per persuadere sono state ricevute». Ecco come tu vedi di essa pura e semplice legge
+            più nobile essere riputata da Platone l'oratoria; il che, come di sopra mi protestai, se
+            dell'oratoria intendi, dei ancora intender della poetica. Questo medesmo sentì Marco
+            Tullio il quale all'autorità di Platone adduce ancor quella di Zaleuco e di
+          Charanda.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Voi mi lasciate l'animo pregno di mille pensieri; ma io non vo' tenervi più a bada.</p>
+        </sp>
+        <sp>
+          <speaker>TI.</speaker>
+          <p>Domani è giorno d'academia: ivi ci rivedremo, et occorrendoti tra questo mezzo dubbio
+            veruno, ivi il disputeremo a più bell'agio. Ad Esone dirai ch'egli si ricordi del detto
+            dell'oracolo.</p>
+        </sp>
+        <sp>
+          <speaker>DE.</speaker>
+          <p>Volentieri.</p>
+        </sp>
+        <trailer>IL FINE</trailer>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

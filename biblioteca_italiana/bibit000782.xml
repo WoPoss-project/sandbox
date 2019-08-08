@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Acrotismus Camoeracensis</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>190 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000782</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali; Nino Aragno</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-10-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Domitilla Olivieri</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-10-27T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<!-- materiali paratestuali -->
+<front>
+<!-- frontespizio -->
+
+<div1 n="Titolo">
+<p>JORDANI BRUNI NOLANI</p>
+<p>CAMOERACENSIS ACROTISMUS</p>
+<p>SEU</p>
+<p>RATIONES ARTICULORUM PHYSICORUM</p>
+<p>ADVERSUS PERIPATETICOS PARISIIS PROPOSITORUM, ETC.</p>
+
+<p>VITEBERGAE</p>
+<p>Apud Zachariam Cratonem</p>
+<p>ANNO 1588.</p>
+</div1>
+
+</front>
+<body>
+<div1 n="Dedica 1">
+<head>JORDANUS BRUNUS NOLANUS PARISIENSIBUS ET ALIIS E GENEROSISSIMO GALLIARUM REGNO PHILOSOPHIS SENSATIORIS PHILOSOPHIAE DOGMATUM AMICIS, ET DEFENSORIBUS. S.</head>
+
+<p>Quamvis mihi urgentioribus aliis negociis impedito, pluribus de hac materia agere non licuerit: nihilominus tamen aliqua me ex parte expectationi vestrae satisfacere credo, ubi non adeo usque breves quibusdam articulorum adnexae, aliis vero ex dictis veluti praefixae sunt rationes, ut ipsis qui in disciplinis mediocriter sunt versati, vel natura meliore spiritu donantur, plus quam mediocriter ad veritatis obtutum exsuscitandis sufficere nequeant. Iis porro qui Talpae sunt, in aequo haec esse possunt atque meridiana lux. </p>
+<closer><salute>Valete.</salute></closer>
+</div1>
+
+<div1 n="Dedica 2">
+<head>FORMA EPISTOLAE AD REGEM HENRICO III. CHRISTIANISSIMO GALLORUM POLONORUMQUE REGI, JORDANUS BRUNUS NOLANUS. S. P.</head>
+
+	<p>Natura vociferante dictata, sensu indicante examinata, exactaque ratione definiente sancita: quae paucis altior intelligentia communicavit, quae multitudinis robustior error insectatur, quaeque in munitissima veritatis arce consistunt: ne invidioso contemptu sordescere videantur, ne amplius inaudita causa taxentur, ne qua impune authoritate iniquius supprimantur, haec in universitatum principe discutienda proponantur, per magis ad hoc militiae genus idoneos exagitentur, subque tuis (o REX potentissime) prodeant auspiciis.</p>
+ <closer><salute>Valete.</salute></closer>
+</div1>
+
+<div1 n="Dedica 3">
+<head>FORMA EPISTOLAE AD RECTOREM AMPLISSIMO, EXCELLENTISSIMOQUE DOMINO D. J. F. PARISIENSIS ACADEMIAE RECTORI JORDANUS NOLANUS. S. P.</head>
+
+<p>	Qui egregiae humanitatis actus (amplissime Domine) quid officii in extraneum philosophum impendi possibilis, est, quod pluribus abhinc annis per hujus universitatis tum rectores, tum universum professorum collegium mihi non fuerit effusissime elargitum? Dum non modo communi quadam, qua erga omnes affecti estis humanitate, verum etiam certa haud vulgari ratione me vobis devinxistis, ubi tum in pubblicis, tum et in privatis lectionibus, continua doctiorum adsistentia negocium studii mei concelebrastis, adeo ut nullus mihi de me minus, quam extranei, in hac alma literarum parente, titulus occurrere potuerit unquam. Jam ubi per alias universitates mihi peragrare animo sedet, nec possim neque debeam velut insalutato hospite iter arripere, istum articulorum numerum quasi pro memoriae pignore discutiendum proposui: ubi si mihi suadere possem vel vobis peripateticam disciplinam magis quam veram in perpetuo probari, vel plus universitatem istam Aristoteli, quam isti Aristotelem universitati debere, ab istiusmodi proponendis proculdubio abstinuissem, ne forte quod in vestri gratiam atque obsequium praestare aveo, id ipsum ausu quodam hostili atque temerario, minorique (quam decere possit) reverentia facere viderer. Cum vero obsequium nostrum (qualecumque sit ipsum) prudentiae magnanimitatique vestrae gratum futurum, vosque de omnibus aequi bonique consulturos minime diffidam, favorem super haec cum excellentiae tuae, tum universi collegii tam certe mihi sum pollicitus, quam aperte omnibus manifestum esse potest: quod si qua (vel nova) ratio nos excitet atque cogat, cuicumque liceat philosophice in philosophia libere opinari, suamque promere sententiam: quodque si per me (cujus in hac parte non nihili fieri solet authoritas aut facultas ad satis ubique terrarum, et apud vos consuetam exercitationem) veritas frustra propugnanda exagitetur, consequenterque tanto jam olim nota, confirmetur amplius, nihil certe praestabo tanta Academia indignum. Si vero (quod magis sperarim) per haec exsurgentis philosophiae primordia, aliquid quod posteritas commendare et amplecti possit atque debeat, aperiatur, ipsum sane erit hac vestra principe universitate dignissimum. </p>
+<closer><salute>Vale.</salute></closer>
+</div1>
+
+<div1>
+<head> EXCUBITOR SEU JOH. HENNEQUINI APOLOGETICA DECLAMATIO HABITA IN AUDITORIO REGIO PARISIENSIS CADEMIAE IN FEST. PENTEC. ANNO 1586 PRO NOLANI ARTICULIS.</head>
+
+<p>	Credendi consuetudinem, Illustrissimi, amplissimi, doctissimique DD., potissimam esse caussam, qua ratio humana a perceptione eorum quae sunt per se manifesta impediatur, in fine secundi de sapientia declaravit Aristoteles: ubi quantam vim haec habeat, leges (inquit) declarant, in quibus plus fabulosa atque puerilia possunt propter consuetudinem, quam ea quae sensibus expressius cognoscuntur. Sicut enim (adjicit illius Commentator Averroes) qui veneno vesci consueverunt, ea perhibentur facultate praediti, ut tum ipso tamquam proprio cibo reficiantur, tum consequenter quod caeteris est vitale, atque medicina, idipsum sibi exitiale experiantur. Porro quibus a fato meliora animo sunt elargita dona, quique omnino dormientem animam non sunt adepti, citra magnam difficultatem arduumque negocium licebit quaqueversum sese diffundens posse concipere lumen, si quando ad arcem judicii supra communis sensus atque fidei ambitum revocati et inter duas contradictionis partes constituti judices ordinarii exuti affectus caligine, tum intentius utriusque partis rationes exaudiant et diligenter examinent, et aequa lance quidquid sensibus videtur apertum, vulgatum, concessum, constans, amicum, atque domesticum, sicubi in controversiam fuerit revocatum, cum eo quod videtur absurdissimum adversario, conferant. Ita enim fiet ut tandem coram deorum hominumque judicio non temere, velut ignobile vulgus, servile, atque stupidum pecus, in profundo obscuritatis atque ignorantiae barathro, tamquam in meridiana luce et expressa veritate constituti, credidisse videantur: velut ii omnes quibus quoque persuasum esse potest divinam unquam esse posse veritatem quae sensum, vereque naturale, et humanum judicium subterfugiat atque reformidet.</p>
+<p>	Ego plane (auditores) videns, et ex animo videns, longe lateque sophisticae philosophiae tenebras titulo et existimatione lucis contra veritatis fulgorem ita grassantes, atque praesumptuosissime triumphantes, ut ab iis undique tamquam ab ipso sole veritas tamquam cymmeria caligo explodatur, exsibiletur, et ne ipsa quidem contradictione censuraque digna tandem existimetur: diu haerere, meque continere coactus sum, ne opus tam (primo tamen aspectu) arduum in caussa adeo neglecta suscipienda adorirer, quo pro viribus laborarem e cathedra sapientiae extructum aedificium, tam bene ornatam, adeoque strenue munitam Aristotelis similiumque authoritatem deturbare velle, eque fundo caliginis veluti sordescentem eruere veritatem. Porro quis in pectore accensae lucis ignem (ne erumpat in aerem) diutius occultum continebit? Iis igitur aliisque quibuscumque non obstantibus, vincat tandem (si ita superis videatur) specimen veritatis, majestas verae lucis, causae dignitas, occasionis oblatae commoditas, spesque in eo sita, quod necessarium est rerum vicissitudine fieri, ut quemadmodum alternatim diurna lux noctisque tenebrae mutuo succedunt, ita in orbe intelligentiarum veritas et error. Idipsum nostrorum etiam adversariorum testimonio comprobatur, si ei, quod asseruit Plato in Cratilo, consimile in primo de Coelo et mundo et primo Meteorologicorum Aristoteles dicit. Necesse est (inquit) neque semel, neque bis, sed infinities easdem ad nos pervenire opiniones.</p>
+<p>	Nihil igitur impediat quod novarum opinionum demum sectator, assertor, atque probator habear, si quippe accusatores mei penitius intueantur, videbunt non esse antiquam opinionem, quae aliquando nova non extiterit, sicut et haec ipsa cui nunc innitor, haud ita hoc tempore recens est et apud eos qui minus intelligunt contemptibilior, ut aliquando non habita fuerit antiqua, et apud naturae rerum peritiores probatissima. Nemo servus non ex antiquis regibus, nemo regum non ex antiquis servis, quandoquidem ita res hominum longa aetas atque fortuna permiscet. An non similiter circa obscuras, et illustres existimabimus opiniones? Hinc mihi, quantumvis in radice obscuram atque salebrosam faciem contingat inspicere, probabitur certe planta sicuti tandem nobilissimae arboris specimen, illustriumque fructuum ordo delitescet, et ubi de principiis labor extitit, de fine gloriosior fructus tanto quidem excellentior habeatur, quanto singularius quippiam in veritatis semita perpaucorum attrita pedibus molimur enixius: ut inde exoptatius emergat quod longis majoribusque tenebris oppressum fuerat atque circumventum. Quod si ita, cur nobis vitio vertetur quod augustiore lumine duce ab Aristotelis familia deficiamus, eque vulgaris philosophiae veluti turba in quandam quasi solitudinem divertamus, si quando eidem Aristoteli a veritate descivisse, atque magnis sapientiae parentibus ducibusque praestantissimis degenerasse et defecisse licuit? Quod si fallacis sensus opinionisque favore, et argutuli sophismatis industria, nec non malesuadae fidei imbecillitate ad tot, atque tantos errores intrudendos temporum injuria viam sibi stravit, et aedificium vastum magis quam robustum velutique quoddam propugnaculum apparavit: cur non credam me saniore magisque regulato sensu, vivis efficacibusque demonstrationibus et ipsiusmet sese explicantis naturae vocibus verum ingeniis nostris exorientis luminis fulgorem praenunciare, indicare, aperire: ut pateat quam probatum, verum, constans, firmumque sit quod proponimus et commendamus, quamque alienum, inconstans, et infirmum, suoque ipsius pondere ruinosum quod negamus atque despicimus, si in rerum natura nil hoc magis potest esse dissonum, illo vero nihil undique magis potest esse consonum: quantumlibet enim sub sylenis merces preciosissima occultetur, sub ipsa tamen apparenti impossibilium assertionum facie divinum illud veritatis specimen sublatescens, quod vilissima credendi consuetudo in multicurva obliquaque speculi superficie contortum intuetur, in apertum, amotis ipsis fallacibus intermediis, evadat.</p>
+<p>	Interim malo coram oculis Deorum (cum quibus me videre arbitror) sine regno gloriam, quam inglorium coram stultissima multitudine regnum: dum illud etiam possum mihi tuto polliceri, quod opinio vera durabit, inque sapientiorum ingeniis altas radices aget: fallax autem atque sophistica, licet ad modicum (quantumvis illud prolixum tempus appareat) triumpharit, levissima etiam levissimo vento tolletur, atque decidet: siquidem in arido campo satum esse credimus quod in sola opinione, cui nullius veritatis fulcra subtenduntur, est fundatum. Licet igitur serior, validior tamen aliquando exsurget veritas ipsa, quam saepe communis opinio convellit: quo enim istam arguendo altius infodit, eo fortior tandem (perversis etiam Geniis, atque misanthropis spiritibus invitis) erumpet in lucem.</p>
+<p>	Dicant igitur quicumque velint assertiones nostras similes illis esse quales apud Lucianum in libro de veris narrationibus habentur; dicant ipsam contra summorum probatissimorumque philosophorum authoritatis rapidissimum torrentem adnatare, improperent nobiscum consentientium numerum exiguum, hinc enim nihil se suo videbunt argumento consequutos esse, quo vel nos cum nostris insanire, vel se cum suis permultis sapere videantur.</p>
+<p>	Nihil certe prodest si opinione vulgi valeamus, si vere aegrotemus, nihil obest si ejusdem sententia aegrotantes habeamur, cum certe valebimus, quod tanto amplius in hoc proposito magnifacimus, quantum plus secum habet momenti animi sanitas vel aegritudo, quam corporis: quandoquidem quanto haec ab illa altius excellitur, eo dignius quaeritur, et gloriosius invenitur: etiam si communis commendatio non subsequatur, ubi plerumque magis infirmi atque stulti, se saniores atque sapientiores esse autumant.</p>
+<p>	Et ut rem velut ab alio capite iterum exordiar: esto quod ego sicut et caeteri (sive perpauci, sive extent perplurimi) decipiar et errem, decipi tamen et erroris caligine teneri non credam: quid argumenti quaeso erit, si dum ex una parte unum video Nolanum proximum, praesentem, neotericum, neque satis multitudini probatum, imo potius ingratissimum, utpote qui cum ipsa perparum propeque nihil consentiat, cui etiam aliquod testimonium dare videtur catalogus exiguus quorumdam longe a memoria hominum sepositorum (sive famam sapientiae verioris, sive sensum spectemus ipsum et authoritatem), quales sunt Chaldaei, Pythagorici, et divinorum quorundam, quorum sensus ad metaphoras a posterioribus est contractus et devolutus: ex alia vero parte tot sapientiae humanae protoplastas, cum adeo numeroso comitatu, qui de suggestibus universis, tot seculis, in tot regionibus, tam egregie musis imperitarunt: jam magis ego una cum paucis ad hanc contemptibiliorem partem inclinem, aut saltem (pro rata judicii) ex aequo inclinare possim atque ad alteram. Ab hac sententia, quae, hoc posito veluti principio atque fundamento, veluti necessario subsequitur, inferrique posse videtur, quaeso supersedete, et permittite me meum adhuc suspensum retinere judicium, quoadusque aliis in philosophorum schola probatis magis convincar rationibus et argumentis, ut tutius tandem in eam fortasse deferar sententiam quam mavultis. Moram istam aequo animo vos mihi condonaturos ea ratione confido, quia vos non ignorare arbitror quod mihi potuit esse manifestum, utpote numerosius contubernium non esse ita perpetuo securius, adeoque firmum, ut ab uno individuo interdum facile convinci nequeat et dissipari: praesertim ubi multae lites, multae confusiones, rixae multae, innumerae discordiae, nil ordinatum, nil clarum, nil munitum, et ubi praeterquam in tituli, professionis, et principii unitate, nihil conforme. Ubi, praeterquam si fuerint vel mercede conducti, vel aliquo jacturae timore compressi, omnes omnibus contradicunt, solus est quilibet, alterum nullum omnino probant singuli, et ideo omnes, omnium, praeter quam proprio judicio, stulti, quo quidem quodnam majus falsitatis caecitatisque indicium esse potest? Quid dicemus si ex hac alia parte convincatur oppositum, utpote ubi consentientium, sequacium, vel (si mavis) sectariorum supercrescente numero, simile aliquid nequeat evenire? Sordidi nimirum ingenii est cum multudine, quia multitudo est, sentire velle: siquidem vulgi opinionibus et confirmatione multorum veritas non variatur, neque ideo doctum se quispiam habere debet, quod talis habeatur. Volens ergo fallitur qui temere credit ubi temere credere non cogitur, ubi non sine ratione adstipulandum subscribendumve, ubi scientiae nostrae, nostrae conscientiae lumen non suffragatur. Illud ego considero, quod beatius est citra opinionem in rei veritate, quam citra veritatem in opinione sapere, praesertim cum nimis usuveniat illud profiteri, quod nihil ad errorem pronius (ipso etiam vulgo contestante) vulgi opinione habeatur: non obstante quod non ubi de veritate definiendum est, sed ubi leges instituendae, religionum cultus sanciendus, et eas quae ad populorum convictum faciunt deliberationes, vocem populi pro voce Dei habendam (ubi consenserit) esse censeo.</p>
+<p>	Hic igitur ubi libere conceditur opinari, longe lateque contemplari posse datur, ne frustra oculis sensus et intellectus donati videamur, quos ad libitum stultorum praestigiatorum et ignorantium occludamus, inque beneficum deum et naturam ingrati, effodiamus nobis, et abjiciamus: quasi haec dona cum aliis numinum eorumdem donis consistere nequeant, et quasi veritati veritas, veraque lux luci verae obsistere possit et adversari: potentiam illam discretivam et contemplativam, quae est de substantia, essentiaque naturae nostrae, immo nosmetipsos reformidantes refugiamus. Huc divinitatis in nobis insidentis memores, lucisque in arce animi nostri residentis, considerationis oculos advertamus, ubi si rem (ut par est) propius inspectemus, illam certe notitiam nos videbimus esse consequutos, qua nil pulchrius, nil dignius, nil veritati affinius, vel naturae conclamanti magis consonum et adversus fallacia sophismata et somniantium divinatorum credulitatem firmius invenitur.</p>
+<p>	Hinc videre licebit animum in immensum evolare potentem, ubi jam olim hoc in arctissimoque carcere detentus fuerat, unde quasi per rimas densioraque foramina ad distantissimos stellarum orbes obtusam oculorum aciem intendebat: cujus etiam alae (pro more) veluti cultro hebetis credulitatis incisae non ultra densarum nubium velamen in aspectum amplissimi universi expediebantur, quique propriae technis phantasiae fabrefactum, inter nos, invidentiumque deorum gloriam, medium plusquam aeneum et adamantinum opinabatur intercedere: jam ex illo infinitae mortalitatis, fatalis irae, plumbei judicii, incertissimae salutis, partialis amoris, Erinnyum aeternarum, adamantinorumque ostiorum atque catenarum nusquam existentium horrore solutus, aerem atque spacium tot tantorumque mundorum capacissimum, utpote infinitum subit, quibus redditus clarior caelum penetrat, stellas discurrit, transvolat ultra imaginarias mundi margines, ipsique octavae illius, nonae illius, decimae illius et aliarum, quas philosophorum caecitas mathematicorumque vanitas sibi finxit, sphaerarum moenia evanescunt. Hic coram omni sensu atque ratione, solertissimae inquisitionis clavibus, claustra veritatis reserantur, caeci illuminantur, mutorum exsolvuntur linguae, claudique pro spiritualibus, mentisque progressibus impediti solidantur, et eriguntur, ubi non minus ipsis astra praesentia, atque ipsos astris efficit praesentes altius incumbens seseque attollens ratio, quam si solis, lunae, caeterorumque astrorum per habitacula discurrerent, atque regiones: siquidem ea ipsa, quam huic quem incolimus mundo similia, quam dissimilia, quam minora pejorave, aut quam majora meliorave possint existere, apertissime videbitur. Hinc ad meliorem numinis istius atque matris (in cujus sinu producimur, enutrimur, atque recipimur) contemplationem promovemur, ne ultra, eam sine anima corpus esse existimemus, aut (uti mentiuntur) corporalium sentinam substantiarum. Manifestum quippe erit quod si orbem lunae aliarumque stellarum incoleremus, in loco vel simili vel forte pejore degeremus, ut et tam bona, atque fortasse meliora in ambitu circumferentiae visibilis inveniuntur: quemadmodum diversas perfectionum graduumque species in iis individuis, quae sunt apud nos possumus agnoscere. Hinc tot stellas, totque sidera intelligimus esse numerum numinum decies centenorum millium et ultra, contemplationi primi, universalis, infiniti, aeterni efficientis adstantium. Haud ultra ratio compedibus phantasticorum est adstricta mobilium, non ultra numini octo, novem, decemque motorum mancipatur. Noscimus enim unum coelum, aetheream regionem et immensam, in qua ut hoc magnificum astrum, quod tellurem dicimus, ita et alia infinita proprias ab invicem distantias obtinentia, ad perpetuam vitam atque lumen, propriis consistunt librata ponderibus. Haec illa sunt flammantia corpora, quae gloriam majestatis Dei et opera manuum ejus adnuntiant. Hinc ad infinitum infinitae causae effectum detegendum promovemur, et ad divinitatis contemplationem non tamquam extra, seorsum, atque longe a nobis, sed in nobis ipsis (utpote ubique integre positam) manuducimur, quia scilicet haec magis ipsa nobis, quam ipsi nobis esse possimus, intima est: si vere ea est omnium essentiarum et totius esse substantificum, essentialissimumque centrum. Unde non minus ab aliorum mundorum cultoribus apud nos, quam a nobis apud ipsos esse perquirenda ducitur. Non etenim nos minus lunae et cuicumque astro, astrum coelumque sumus, quam universa ipsa nobis esse possint. Hinc tandem e nobis unus, quantumvis solus, quantumlibet sibi musisque clamans, canens, atque sapiens, adversus generalis ignorantiae myriades triumphabit. Interim decernendi judicium non ad edita convitia, inanes somniantium authoritates, non ad lumine captorum testimonia, sed ad vim regulatioris sensus et ad illustrioris ingenii obtutum: si de lumine, deque colore vere unius videntis acquiescendum est judicio, quamvis omnium qui fuere, sunt et erunt caeci, reclamet ignorantia: sique stultorum omnium numerus unius sapientis precium atque momentum nunquam exaequabit. Haec aliaque plurima (quae dicere praetermitto) cum ita se habeant, dubitemus, inquam, dubitemus interim, quoad liberius, atque sincerius causam agere liceat. Neque obstent Aristotelis discipuli, quos quanto ipso Magistro oculatiores esse non credimus, tanto magis perperam ab hoc nostro sensu dicimus abhorrere. Minus enim proprio duce videre possunt qui (exempli gratia) vacuum ipso audito nomine contemnunt, quod Aristoteles multis refellere nititur argumentis. Infinitam universi molem et dimensionem istam ut manifeste erroneam respuunt, ubi Aristoteles quasi contra egregiam causam pro viribus armatur. Terrae quietem de qua stultos tantum dubitare stultissimi omnium existimant, multiplici fulcro, pro contra asserentium gravitate, dignam existimavit Aristoteles: ad hanc enim causam pertinet quod medietas secundi, et totus quartus de coelo et mundo liber enixe concludere contendit. Nos autem super haec credimus caussam aristotelicis pugiunculis contemptibilem, et eorum duci molestissimam, satis omnibus tandem melius considerantibus optimam futuram. Quod si hinc accidit ut Peripateticis omnibus opponar, eosdem (utpote meae causae adversarios) formidare debeam, eos maxime omnium formidabo, qui magis fide, famaque illius doctrinae, quam ejusdem intelligentia commoti, tanto plures orationes quanto pauciores rationes, effundent. Ut ut autem sit, non propterea ab incepto desistam, qui non huc me contuli, ut commender, sed ut quibus rationibus damnari possim, appareat: non importune oppositam partem negaturus, sed rationes quibus aliter sentire cogar, inquisiturus. Quamvis non ignorem maxima ex parte eos qui ad disputandum pubblice se conferunt, magis victoriam gloriamque exaucupaturos, quam veritatem studiose indagaturos prodire. Nihilominus tamen sive ex altera, sive ex utraque parte, sin minus ex neutra error sit aliquis, omnibus certe sperandum est, studium nostrum minime vanum futurum. Ex disputatione enim fiet, ut qui in principio insolentius falluntur, tandem, veritate saepius animum refricante coacti, sensim a falsitate desciscant. Quod si intelligentiae lumine non subitam messem recipimus, sed tempore ad maturitatem jacta semina profectura expectanda proponuntur, id ipsum sane non citra naturae ordinem accidit, quae non subito, sed certo temporum discursu, largitur universa. Vos igitur interea obsecro et obtestor ut (cum maximum scientiae impedimentum, imo ipsissima ignorantia sit putare se scire, unde sophista non inquirat ultra, a contradictorio aures avertens, et ingenium) ut nos in eo conveniamus principio, nempe saltem ad tempus nos nescire existimemus, supponamus, fingamus: ut hinc fortasse aliquid prudentiae luminique nostro possit accedere, dum vel adversariorum seu alienarum, vel amicorum seu propriarum tenebrarum, aut saltem incertissimae lucis perspecta veritate, aut ultro confirmemur, aut caecitatem nostram agnoscentes reformemur, latescentibus sub lucis specimine tenebris excussis. Quoadusque igitur visum sit quid quisque vere possit, communiter omnes constituti judices ut sinceriorem sententiam producamus, de contrariis assertionibus utramque existimemus esse possibilem. Vos igitur ingeniosissimos scientiarum Professores exoro, ut coram veritatis majestate ita rem gerere videamini, ut non tam iniqui et rigidi actores, quam aequiores pacatioresque judices in causa videamini, neque tam orationis fervore, quam rationum pondere atque gravitate, vel confirmare vestram, vel alienam convellere sententiam videamini.</p>
+</div1>
+
+<div1>
+<head> CATALOGUS ARTICULORUM </head>
+<list>
+<head>ARTICULI DE PHYSICO AUDITU</head>
+<item><list>
+<head>IN PRIMUM LIBRUM</head>
+<item><label>1.</label> Natura est subjectum scientiae naturalis Aristoteli.</item>
+<item><label>2.</label> Duplex cognoscendi ordo Aristoteli est in suo prooemio, physicus et metaphysicus.</item>
+<item><label>3.</label> Unum ens infinitum Xenophani, bene.</item>
+<item><label>4.</label> Sphaericum esse non tollit infinitum esse.</item>
+<item><label>5.</label> Ab hoc nil effluit, in hoc nil influit.</item>
+<item><label>6.</label> Licet secundum multas rationes ipsum accipere.</item>
+<item><label>7.</label> Non necessario simplicia sunt compositorum principium.</item>
+<item><label>8.</label> Materia prima Aristotelis magis est logica, quam physica.</item>
+<item><label>9.</label> Consideratio principii formalis currit cum suo materiali.</item>
+</list>
+<list>
+<head>IN SECUNDUM LIBRUM</head>
+<item><label>10.</label> Naturae nomine dignior est materia.</item>
+<item><label>11.</label> Vix invenies medium considerationis inter physicam et mathematicam.</item>
+<item><label>12.</label> Locus et tempus necessario sextum causae genus complent.</item>
+<item><label>13.</label> Natura non errat.</item>
+<item><label>14.</label> Natura non forte fortuna agit.</item>
+<item><label>15.</label> Necessitas naturalium aequaliter respicit omnes causas.</item>
+</list>
+<list>
+<head>IN TERTIUM LIBRUM</head>
+<item><label>16.</label> Male definitur motus: actus existentis in potentia.</item>
+<item><label>17.</label> Motus non semper est actus imperfecti, nec actus imperfectus.</item>
+<item><label>18.</label> Motus species adaequant numerum praedicamentorum, vel superant.</item>
+<item><label>19.</label> Motus melius definitur per alteritatem, inaequalitatem, non ens.</item>
+<item><label>20.</label> Motus non magis in movente, quam mobili, ab, et in utroque.</item>
+<item><label>21.</label> Argumentum infiniti ex numero indeficiente, non solvitur.</item>
+<item><label>22.</label> Non est corporis ratio, planitie terminari.</item>
+<item><label>23.</label> Optime Anaxagoras dixit: infinitum se ipsum firmare.</item>
+<item><label>25.</label> Infinitum quoque dicitur, cujus, et cui nihil est extra.</item>
+<item><label>26.</label> Impossibile est Aristoteli, et aliis, finitum universum probare.</item>
+<item><label>27.</label> Infinitum dicimus, et ut materiam, et ut actum.</item>
+</list>
+<list>
+<head> IN QUARTUM LIBRUM</head>
+<item><label>28.</label> Translatio corporum indicat locum esse spatium.</item>
+<item><label>29.</label> Loci non est continere, sed terminare.</item>
+<item><label>30.</label> Locus neque materia est, neque forma aliquo pacto.</item>
+<item><label>31.</label> Neque centrum, neque peripheria locus est sphaerae.</item>
+<item><label>32.</label> Partes sphaerae non magis mutant locum recta, quam circulo.</item>
+<item><label>33.</label> Idem est vacuum, locus, spatium, plenum, et Hesiodi Chaos.</item>
+<item><label>34.</label> Vacuum est unum infinitum.</item>
+<item><label>*</label> Aequivoce dicitur de recipiente et terminante.</item>
+<item><label>35.</label> Non potest esse motus, si non sit vacuum.</item>
+<item><label>36.</label> Idem subjecto est vacuum continens et disterminans.</item>
+<item><label>37.</label> Vacuum est a corporibus separatum, ipsis imbibitum, unum continuum.</item>
+<item><label>38.</label> Tempus non est in coelo subjective, sed potius in tellure.</item>
+<item><label>39.</label> Malo motum mensurare tempus, quam tempus motum.</item>
+</list>
+<list>
+<head>IN QUINTUM LIBRUM</head>
+<item><label>40.</label> Quiescant omnia, nihilominus erit tempus.</item>
+</list>
+<list>
+<head>IN SEXTUM LIBRUM</head>
+<item><label>42.</label> Continuum ex indivisibilibus componitur.</item>
+<item><label>43.</label> Tempus non habet continuitatem a motu vel magnitudine.</item>
+<item><label>*</label> Magnitudinis et temporis non plus caedem divisiones, quam magnitudinis et numeri.</item>
+<item><label>44.</label> Infinitas non potest eodem pacto esse in tempore et magnitudine.</item>
+</list>
+<list>
+<head>IN SEPTIMUM LIBRUM</head>
+<item><label>45.</label> Ex principiis Aristotelis motum rectum sequitur comparabilem esse motui circulari.</item>
+</list>
+<list>
+<head>IN OCTAVUM LIBRUM</head>
+<item><label>46.</label> Latio non potest ostendi aliis motibus prior.</item>
+<item><label>47.</label> Lationis continuitas pendet a continuitate alius motus.</item>
+<item><label>*</label> Cur nullum motum alium ab ea esse continuum dicit Aristoteles?</item>
+<item><label>48.</label> Est quidem primus motor, sed non in ordine orbium, vel stellarum.</item>
+<item><label>49.</label> Pueriliter dicitur circumferentia mundi praecipua sedes primi motoris.</item>
+<item><label>*</label> Primus motor extra terrae circumferentiam non est.</item>
+<item><label>*</label> Praecipua ejus sedes est in centro telluris.</item>
+<item><label>50.</label> In toto physico auditu ne una quidem adducitur demonstratio.</item>
+</list>
+</item>
+</list>
+<list>
+<head>ARTICULI DE COELO ET MUNDO.</head>
+<item>
+<list>
+<head>IN PRIMUM LIBRUM</head>
+<item><label>51.</label> Aristotelis nulla ratio concludit, universum esse perfectum.</item>
+<item><label>52.</label> Impossibile est esse Peripateticum, et probare universum esse perfectum.</item>
+<item><label>*</label> Universum nobis nec perfectum, neque imperfectum est.</item>
+<item><label>53.</label> Ridicule ex differentia dimensionum infert lationum differentiam et numerum Aristoteles.</item>
+<item><label>54.</label> Sphaerica quidem sunt astra, sed non ad geometricam amussim.</item>
+<item><label>*</label> Ex sphaericis corporibus nullum potest esse simplex.</item>
+<item><label>*</label> Latio recta est partium non bene constitutarum, et quodammodo praeter naturam.</item>
+<item><label>55.</label> Circa medium terrae multipliciter ejus circumferentia agitur.</item>
+<item><label>56.</label> Motus simplex, qualem imaginantur Peripatetici, nullus est.</item>
+<item><label>57.</label> Praeter aerem, vel atomos, non est simplex mobile.</item>
+<item><label>58.</label> Corpus compositum non movetur secundum praedominantis elementi motum.</item>
+<item><label>*</label> Immo nulla est simplicis elementi motio juxta tres illas differentias, a medio, ad medium, et circa medium definitas.</item>
+<item><label>59.</label> Nulli sphaerarum, seu astrorum, seu corporum, absolute gravitas inest aut levitas.</item>
+<item><label>60.</label> Omnia in loco suo circulariter moventur, aut manent: rectus autem motus partibus est accidentarius.</item>
+<item><label>61.</label> Ubi non est motus circularis in natura, est ejus vel similitudo, vel appetitus, vel inquisitio, et adpulsus ad ipsum.</item>
+<item><label>62.</label> Experientia non solum ex cometarum crinibus, comis, barbis, et caudis, sed etiam ex omni parte demonstrat, ignem non magis sursum, quam quoquo versum moveri.</item>
+<item><label>63.</label> Gravissimum et levissimum esse, et medias secundum rationes se habere, omnibus corporum partibus contingit.</item>
+<item><label>64.</label> Totum definit lationem partibus secundum rem, et secundum rationem, non autem partes toti.</item>
+<item><label>65.</label> Ut tellus est ingenerabilis, incorruptibilis, et inalterabilis, ita et astrorum reliqua.</item>
+<item><label>66.</label> Profundiori igitur ratione sedes incorporeorum Deorum statuenda.</item>
+<item><label>67.</label> Per aethera intelligimus astra, non ignem, non aerem, vel quintam aliquam essentiam.</item>
+<item><label>68.</label> Mundus, id est universum, est infinitum. Mundus, id est astrum, non ita.</item>
+<item><label>69.</label> Definimus ergo universum: substantiam corpoream infinitam, in spatio infinito.</item>
+<item><label>70.</label> Universum est infinitum unum continuum, seu magnitudine.</item>
+<item><label>*</label> Mundi vero sunt multitudine seu numero infiniti.</item>
+<item><label>71.</label> Ergo extra singula astrorum seu mundorum est aer et spatium infinitum, extra vero universum, nihil omnino.</item>
+<item><label>*</label> Praeter infinitatem, alia ne fingi quidem potest causa, qua extra universum nec locus, neque plenum, neque vacuum, neque tempus detur.</item>
+<item><label>72.</label> Turpiter corporeum mundum atque sensibilem incorporeo atque intelligibili mundo, secundum localem situalemque differentiam, definit Aristoteles, dicens, illud esse extra hoc, supra hoc, continens hoc.</item>
+<item><label>73.</label> Incessabilis motus non diviniora, sed infirmiora ostendit corpora.</item>
+<item><label>*</label> Nusquam idem est locus vel terminus proprie, unde incipit et ubi desinit motus.</item>
+<item><label>74.</label> Mundus necessario est genitus, et corruptibilis: Universum vero ingenerabile est et incorruptibile.</item>
+<item><label>75.</label> Quod ergo ex inordinato factum est ordinatum, mundus est.</item>
+<item><label>76.</label> Potest sane aliquid genitum esse, quod minime corrumpatur.</item>
+<item><label>77.</label> Cum hoc ergo, quod astra dissolubilia sunt, stare potest, quod non dissolvantur.</item>
+</list>
+<list>
+<head>IN SECUNDUM DE COELO.</head>
+<item><label>78.</label> Coelum, cujus motus est incessabilis, aer est.</item>
+<item><label>79.</label> Astrorum (si Dii sunt) nullus est, quem primum dicere possis.</item>
+<item><label>*</label> Primus Deus est infinitus spiritus, omnia penetrans, vivificans, comprehendens.</item>
+<item><label>80.</label> Tellus astrum est, non minus quam aliud, coelo affixa.</item>
+<item><label>81.</label> Corporum quod simplex est et incompositum, quale subsistit aer solus, (consistentibus caeteris) ipsum nullo pacto generabile vel corruptibile est.</item>
+<item><label>*</label> Atomis vero convenit non modo esse in composito, sed et componi.</item>
+<item><label>82.</label> Ab infinitudine universi non male suscipitur ratio, qua astra indifferenter undique se habentia, non ab extrinseca, sed intrinseca opportunitate certam sibi definiant lationem.</item>
+<item><label>*</label> Astra omnia ex quatuor vulgatis elementis sunt composita.</item>
+<item><label>83.</label> Horum tamen quaedam dicuntur ignes, quia per ignem sunt sensibilia, ut soles, qui scintillant, quaedam aquae super coelos, ut tellus, luna, et quae circa hunc solem sensibilia, et circa alios distantiores invisibilia.</item>
+<item><label>84.</label> Ignis purus, simplex, et absolutus nusquam est, sicut et extra humidum nutrimentum nusquam est apud nos, et potius aqua absolvitur ab igne, quam hic ab aqua.</item>
+<item><label>85.</label> Ubique igitur, sicut in hac, ubi sumus, astrorum synodo, circa solem circumcursant tellures. Sol vero vel minorem circulum describit in medio, vel manet.</item>
+<item><label>*</label> Huc pertinet considerare quodammodo, quod ignis alitur et consistit statu, aquae vero motu.</item>
+<item><label>*</label> A sole aequaliter calefiunt, et bene habent astra aquea distantiora, atque propinquiora.</item>
+<item><label>86.</label> Poeticis similes figmentis sunt rationes, quas adducit Aristoteles pro hoc: quod quaedam citius, quaedam tardius, quaedam paucioribus, quaedam pluribus agantur motibus.</item>
+<item><label>*</label> Nullius, praeter terram, astri possumus motus differentias definire, priusquam illius sicut hujus reddamur incolae.</item>
+<item><label>87.</label> Astra ultra Saturnum continue sensibilia, soles sunt.</item>
+<item><label>88.</label> Circa illos, cum sint planetae, puta tellures, non possunt esse sensibiles, sicut nec illis regionibus praeter hunc solem, qui igneus et amplissime scintillans est, aliquid est sensibile, ex iis corporibus est ignis et minus intense lucidis, quae moventur circa ipsum, puta Tellus, Mercurius, Iupiter etc.</item>
+<item><label>*</label> Ita etiam pueriliter imaginaremur illos soles per suas tellures nobis debere eclipsari, sicut et hunc solem per istas illis telluribus, quae ad illam synodum spectant.Videmus etenim hunc proximum solem nec simpliciter, neque ad totum hoc astrum eclipsari.</item>
+<item><label>89.</label> Virtute vel animae illius, efficaciter principia contraria comprimentis, seu continentis, aut infinite diffusi et insiti illius vitae spiritus, qui anima mundi dicitur, immortalia servantur astra, vel eadem eorundem astrorum substantia continue reformatur.</item>
+<item><label>*</label> Motus iis, cum sit a natura quae est anima, vel a dicto spiritu, quem velut animae omnis animam intelligimus, citra lassitudinem est atque laborem, multo magis, quam nostri motus naturales.</item>
+<item><label>90.</label> Quis sanae mentis conditionem telluris, caeterorumque astrorum, nostra deteriorem existimabit quoad corporis et animae dignitates?</item>
+<item><label>91.</label> Maxime sollicitos atque vanos oportet eos esse motores, qui adeo vasta corpora, utpote tantos mundos, in substantia adeo rarissima, subtilissima, nulla, et veluti opinariae illius quintae essentiae infixos, ab extrinseco, et alieno mediante circumver sent, et tamen minuscula et fragmenta quaedam ad ambram et magnetem per vim spiritualem, formamque insitam moveantur.</item>
+<item><label>92.</label> Circa mensuram motus illorum Geometria mentitur potius, quam metitur.</item>
+<item><label>93.</label> Potius a compositione, quam a simplici principio, motus species definitur.</item>
+<item><label>94.</label> Aut non magis aqua est supra terram, quam terra supra aquam, aut certe aqua medium astri hujus obtinebit.</item>
+<item><label>95.</label> Ergo praeter aerem nullum corpus est, alterum convexa continens superficie.</item>
+<item><label>96.</label> Manet ergo unum infinitum, immobile et informe, in quo aer juxta extrinsecae figurae modulum omnia proxime comprehendit.</item>
+<item><label>*</label> Ad motus velocitatem nobis nil confert magis, si astra sint sphaericae, quam alius cujuslibet figurae: multo et incomparabiliter minus iis qui haec infixa et inclavata orbibus imaginantur.</item>
+<item><label>97.</label> Nullum astrorum est in medio, quia universum undique aequale.</item>
+<item><label>98.</label> Ideo in quocunque astro hujusmodi inveniemus alios illi definitos polos; quandoquidem non est e fixis stella, quae alicubi polus non habeatur, hoc nostro vel exactior, vel ita, vel prope exactus.</item>
+</list>
+<list>
+<head>IN TERTIUM LIBRUM DE COELO.</head>
+<item><label>99.</label> Materia tertii libri neque convenienter continuatur secundo, nec ipsi convenienter haec, quae quarti est.</item>
+<item><label>100.</label> Ibi contra platonicas superficies evaginans gladium atque vibrans, findit sibi vultum et suam primam materiam sustollit.</item>
+</list>
+<list>
+<head>IN QUARTUM LIBRUM.</head>
+<item><label>101.</label> Grave et leve non dicuntur de corporibus naturalibus. naturaliter constitutis.</item>
+<item><label>102.</label> Heterogeneis telluris partibus universis, et partium homogeneis, motus, qui primo et per se convenit, est circularis.</item>
+<item><label>103.</label> Partium telluris nulla est aptior centro vel circumferentiae, quam alia.</item>
+<item><label>*</label> Astra omnia, quae fixa dicuntur, ultra sensibiles planetas, per se lucentia sunt, ut per se lucet hoc prope nos, puta sol.</item>
+<item><label>104.</label> Contra naturam est ergo, quod dicitur telluris omnes partes appetere definite centrum, non minus enim adpellunt vicissitudine quadam alio.</item>
+<item><label>105.</label> Est quippe et animal quoddam terra,</item>
+<item><label>106.</label> Cujus partes neque locum neque subjectum aliud agnoscunt a suo toto, cui naturaliter et individualiter congruunt.</item>
+<item><label>107.</label> Difficile igitur est videre partium naturalem aliorsum, extra suum totum, adpulsum.</item>
+<item><label>108.</label> Impossibile est sphaeram ullam perpendicularem rectumve subire motum.</item>
+<item><label>109.</label> Ex principiis peripateticis sequitur, gravissimum omnium esse aerem.</item>
+<item><label>110.</label> Grave et leve nobis est respective et rationaliter, non autem absolute et naturaliter.</item>
+<item><label>111.</label> An non omne elementi genus perpetuo obtinet superficiem semidiametrorumque omnium partes?</item>
+<item><label>*</label> Nonne quod nobis est ascendens, aliis est descendens et e converso?</item>
+<item><label>112.</label> Ex principiis peripateticis etiam sequitur, non simplex elementum obtinere centrum, sed compositum, ut metallum.</item>
+<item><label>113.</label> Praeter aerem non est elementum, quod a compositione absolvas.</item>
+<item><label>114.</label> Hunc autem hujusmodi praeterquam circa globos non agnoscimus.</item>
+<item><label>115.</label> Ab aere peregrinis impressionibus affecto male de aere philosophatur Aristoteles.</item>
+<item><label>116.</label> Non minus naturaliter e fundo emergit, quam fundo immergitur aqua.</item>
+<item><label>117.</label> Ex positis a Peripateticis concludas oportet, aliam esse naturam illius ignis, qui creditur in concavo orbis lunae, ab ipso qui est apud nos, et generatur in aere.</item>
+<item><label>118.</label> Idem appulsus partis ad locum proprium contendentis gravitas dici potest atque levitas.</item>
+<item><label>119.</label> Ad Antipodes nostros et aliarum stellarum incolas ad certum punctum aethereae regionis relationes vicissitudinales ipsius sursum atque deorsum necessario nos subire constat, quemadmodum si terram circumeas, ipse tibi oppositis pedibus ambulabis.</item>
+<item><label>120.</label> Gravius nobis est quod plures sub iisdem dimensionibus parte comprehendit.</item>
+</list>
+</item>
+</list>
+</div1>
+
+<div1>
+<head> PYTHAGORICAE, ET PLATONICAE PERIPATETICIS IMPERVIAE ASSERTIONES, QUAS PROBAMUS ET DEFENDIMUS.</head>
+<div2>
+<head rend="italic"> DE NATURA.</head>
+<p>1. Natura est sempiterna et individua essentia; 2. Divinae providentiae instrumentum; 3. Per insitam sibi sapientiam agens; 4. Quae quamvis ad certum finem omnia dirigat, nulla tamen imaginatione consultationeve ducitur; 5. Ab imperfectioribus ad perfectiora progrediens mundum efficiendo, se ipsam quodammodo efficit; 6. Indefatigabilis; 7. Nihil eorum, quae habet, sorte nacta; 8. Certis rationibus seminalibus certas necessario formas ubique explicat; 9. Quibus, tamquam principiis atque regulis, motus omnes, qui per se indeterminati sunt, certo quodam tenore definit, et librata quadam moderatione, multiforme quidem ducit ad opus uniformi tamen ordine; 10. Ipsa est ars vivens et quaedam intellectualis animae potestas, non alienam sed propriam, non extrinsecus sed intrinsecus, non electione tali, sed essentia tali, materiam perpetuo figurans: utpote non sicut statuarius externe, cum discursu, et instrumento operatur, sed perinde ut Geometra, dum vehementer quodam affectu figuras imaginatur, spiritum ejus intimum imaginatione movet atque figurat.</p>
+</div2>
+
+<div2>
+<head rend="italic"> DE UNIVERSO.</head>
+<p>1. Universum (ni velis dicere duplex corporeum et incorporeum et horum utrumque infinitum) est unum infinitum ex incorporea et corporea, sensibili insensibilique substantia consistens; 2. Omnium capacissimum et perfectissimum ens; 3. Cujus intelligibilis substantia tota semper et ubique est; 4. Quinimmo ipsa est ipsum ubique; 5. Nullam divisionem admittens; 6. A motu aliena, et consequenter supra providentiam constituta; 7. Ipsum quod est corporeum, neque moveri neque manere satis unquam commode dixeris, bene autem immobile: item quod idem permanet et movetur; 8. Ipsum infinitum cum sit, totum quoddam non est, neque ipsius aliquid est pars; 9. Omne intellectum et omne ens extra casum et rationem existens; 10. In eo tria licet contemplari: Legem, Justitiam, et Judicium. Legem in mente divina quae est ipsa rerum omnium dispositio; Iudicium in mente animae mundi ad divinae legis normam singula decernente; Justitiam in omnium adpulsu atque voluntate singula juxta animae mundi decretum exequente.</p>
+</div2>
+
+<div2>
+<head rend="italic"> DE MUNDO.</head>
+<p>1. Mundus iste sensibilis (quia finitus) respectu universi, unius, entis, infiniti, nulla est pars; 2. Ideo recte Xenophani et Parmenidi non ens; 3. Platoni in maligno positus, non tamen malus; neque (ut Gnostici volunt) male institutus, contrarietatem a se non valens expellere; 4. Interim animal est, a mente dependens, perfectissimum, propriam, sicut et nos, animam habens; 5. Deus quidam ad intelligibilis mundi productus exemplar; 6. Nec separatus ab efficiente suo, neque commixtus illi; 7. Secundum esse totum a Deo dependens, simul totus fit semper, et simul semper totus factus; 8. Ideo sive ipsum temporaneum credas, sive aeternum mentis oculis complectaris, ex nihilo a prima mente productus intelligitur aut produci; 9. Ejus materialia principia sunt Terra, seu Atomi, seu Arida, Abyssus seu Styx, seu Oceanus, Spiritus, seu aer, seu coelum, seu firmamentum; 10. Ejus prima accidentia (si tamen accidentia dici possunt) sunt tenebrae et lux, ex quibus subinde est ignis, et caligo in genere, quae nobis sunt secundaria elementa.</p>
+</div2>
+</div1>
+
+<div1>
+<head> ARTICULI DE NATURA ET MUNDO</head>
+
+<p>	A Nolano in principibus Europae Accademiis propositi: quos Joh. Hennequinus nobilis Parisiensis sub ejusdem felicibus auspiciis contra vulgaris et cujuscumque adversariae philosophiae professores triduo Pentecostes in Universitate Parisiorum defendendos evulgavit.</p>
+<p>Brevibus adjectis rationibus.</p>
+<p>	Nihil quod ad universalem fidem atque religionem infirmandam faciat, dicturus et assertive unquam definiturus, neque ad certum philosophiae genus pro ea, quae secundum humanam rationem est, veritate anteponendum statuendumque laboraturus, sed vel ad (illustrioribus philosophiae professoribus dignam) exercitationem: vel ut quanta sit adeo vulgatae atque in ore plurimorum celeberrimae Peripateticorum disciplinae firmitas, vel infirmitas elucescat: Jordanus Brunus Nolanus subsequentes universis Europae Academiis discutiendos proposuit articulos, et ego Joh. Hennequinus Parisiensis sub ejusdem clypeo in omnium litteratum parente Lutetiae universitate, publice defendendos exposui. Eos ita ipsi ordinasse placuit, ut horum series illi seriei perpetuo respondeat, quae in libris capitibus atque sententiis scientiae et historiae de natura apud Aristotelem comperitur.</p>
+
+<div2>
+<head rend="italic"> ARTICULI CIRCA PRIMUM PHYSICI AUDITUS LIBRUM. </head>
+<div3>
+<head>ARTICULUS I</head>
+
+<head>DE SUBIECTO SCIENTIAE NAURALIS.</head>
+<p>	Nusquam Aristoteli naturalia, corporea, mobiliaque entia esse subjectum scientiae non intelligunt Peripateticorum plurimi: neque Aristotelem ipsum ubique naturam exclamantem exaudiunt.</p>
+
+<p>ARTICULI PRIMI RATIO.</p>
+<p>	Hic nondum Aristotelicam, sed Aristotelicorum fere omnium notamus in propriis principiis ignorantiam. Hic illud est in memoriam revocandum, quod cum inter philosophos quaeritur, an aliquid sciatur, aliis partim, aliis vero prorsus affirmantibus vel negantibus, ad veram perpetuo respicitur scientiae rationem, quae cum illis primo posteriorum analiticorum libro definita sit, nimirum de subjecto naturalis scientiae, seu contemplationis naturalis inquirentibus, non obtrudendum est corpus, sensibile, mobile, naturale, si subjectum scientiae debet esse aeternum, immutabile, verum, constans, simplex, unum, semper ipsum, ubique ipsum. Neque etenim universum ipsum, quatenus unum, uniusque naturae, absoluta substantia concipitur: sed certe ipsa universa natura, seu substantia, scientificae (si qua est) obiicitur contemplationi. Illa inquam quae principium motus omnis est Aristoteli: illa quae est substantia eorum, quae in seipsis motionis principium admittunt: non hoc coelum, non haec astra, non aliquid certe tale, quod haud quidem scibilis, sed sensibilis, opinabilisve sibi vindicat rationem. Hinc subjectum scientiae demonstrativaeque conclusionis perpetuo specifice singulariterque sumitur, nusquam vero pluraliter atque numeraliter: siquidem de sole, secundum speciem, aut certe de solis natura, de animalis natura, deque animae natura, quandoquidem de solibus, de anima, deque coelo, historia perpetuo dicitur esse non scientia. Cur igitur contra Aristotelis morem, et omnium philosophorum dicendi consuetudinem, ens mobile, ens naturale, corpus mobile, corpus naturale et similia scientiae subjectum adstruunt? Cur ubi quaeritur, an de rebus naturalibus sit scientia, concorditer omnes in eandem feruntur affirmativam, ut postmodam contra eos ubique adeo aristotelica reclamante praeceptione, sophistarum more, ad excusationibus et glossematibus colorandam atque pingendam potius, quam ad negandam falsissimam convictamque sententiam recurrant: atque ita quod excusare nequeunt, tam bene velare contendunt, ut eorum pertinacis ignorantiae turpitudinem illi soli non videant qui nihil omnino vident? Quid enim (per Deum immortalem) aliud est dicere, de ente mobili secundum rationem formalem, universalem, communem, quoad eius essentiam, et simplicem quidditatem, non ratione qua compositum, subsistens, particulare, materiale, scientiae subjectum esse, quam docere non ens mobile, sed entis mobilis naturam esse, quae scibilis valet subire rationem? Quid, inquam, aliud est isthaec loquendi forma, quam irresolutissimi, seque ipsum destruentis et abnegantis indicium ingenii? Quid insuper aliud est, dicere de hominibus esse scientiam, secundum specificam et universalem rationem, quam dicere non de hominibus, sed de natura hominis? Nonne modificationes istae de multis faciunt unum, de plurali singulare, de naturalibus naturale, de naturali naturam? Considerate an Aristoteles docuerit unquam dicere de Socrate, de Callia, de Platone, esse scientiam, secundum quod homo, de homine esse scientiam secundum rationem specificam, quoad ejus substantiam, essentiam, naturam: an potius sint quorundam Scoticolarum voces, atque similium cucullatorum? dum verius Peripatetici dicant, nec de Socrate, nec de Platone, nec de Jove, neque de homine, neque de diis, aliud esse praeterquam historiam: sed de natura hominis, deque natura deorum, (si qua forte apud nos) tanquam de universalibus scientia dicitur. Consideretur an Peripateticorum more, scientiae significationem, per communiter, proprie, et propriissime, an captiunculatorum more distinguere consuescant. Sic illi de soccis, de cicatricibus, de preputiis: Grammatici recte diphtongandi, accentuandi, et punctuandi: caupones recte coquendi, atque sophistice propinandi scientiam dicunt. Nec minus agasones bestiae recta domum redeunti scientiam tribuere possunt. Perpendite an juxta philosophorum principum consuetudinem distinguentes dicant: particulare et mobile non primo, non immediate, sed mediate, atque secundo scientiae subjici; cum ipsius Aristotelis vestigiis insistentes animadvertere debeant, sensibile, mobile, particulare, nec primo, nec secundo, nec mediate, nec immediate, nec per se, nec per accidens, esse posse scientiae subjectum, quemadmodum quod est per se sensibile, ne per accidens quidem potest esse intelligibile, quod est per se particulare et mobile, nec per accidens potest esse universale et immobile. Unde nunquam Aristoteles in particularibus scientiae nomine usus est, neque uti docuit primo posteriorum Analiticorum libro inquiens. <hi rend="italic">Qui, quod omnis triangulus habet tres angulos, scivit, quod hic, qui est in semicirculo, est triangulus, simul inducens cognovit</hi>. Neque uti docet ubique, ubi dum aliquid demonstrative sillogizzare contendit, sive circa naturalia, sive circa divina, a physicis terminis ubique abstinens, ad mathematicos adsumendos devolvitur, quo non de subjectis, sed de subjectorum natura, contemplativam speculationem esse insinuet. Qui igitur de mobili, de corpore, de naturali, immo de mobilibus et naturalibus scientiam esse dicunt, iidem eam ajunt esse secundum quod et quatenus, ac si dicant, oblique, excusatorie, reflexive, conversive, mediate, et communiter loquendo, improprie, indirecte, secundario et per accidens: iidemque non sunt philosophi, imo nec Peripatetici, nisi secundum quid, obliqui, reciprocales, indirecti, secundarii, accidentales, et improprii, proprie autem captiunculatores, fugacissimi, et transvolae pugiunculi.</p>
+
+<p>IDEM EX CONDITIONE SUBJECTI INSINUATUR.</p>
+<p>	His ad majorem elucidationem (quando ita circa istiusmodi quaestiones fimbrias maxime dilatare consueverunt, iisdem placere mihi certe suadere possum) plures additae subjecti scientiae conditiones, quibus designati homines nobiscum Aristotelis vocem audire cogerentur. Si enim primo scientiae subjectum debet esse ens, quia non ens non est scibile: constat quod apud majorem, melioremquem philosophorum partem, naturalia (quandoquidem mobilia et inconstantia sunt) non vera, et non entia habentur et appellantur, et quod perpetuo constat atque manet, constare atque manere dicitur, est natura. Si secundo subjectum oportet esse cognoscibile, quia frustra scire quaerimus impossibile sciri, constat maxime cognoscibile (etiamsi non cognoscatur) haberi maxime verum ens, constans: talia non sunt naturalia ulla, sed natura.</p>
+<p>	Si tertio debeat esse intelligibile, quia sensibile et imaginabile, et opinabile, sensum, opinionem, atque fabulam statuunt: intelligibile nimirum non est naturale ullum, imo naturale intelligibile nihil aliud esse constat, quam ipsam naturam, ipsaque est quod tandem ex naturalibus intelligibile resultat.</p>
+<p>	Si quarto oportet esse universale, quia de particularibus scientia non est: certe quod in omnibus sit, et in omnibus verificetur et de omnibus vere dicitur, nihil aliud est quam natura. Hinc ubique natura quaeritur: sive per universale quod facit ad ejus scientiam, utpote ubi est scientificum, in quibus ipsa omnino ordinatissime se habet: sive per particulare quod facit ad ejusmodi historiam, ut in Meteorologicis, in iis quae de animalibus, de plantis, et id genus aliis, ut item ubi inordinatio est ex parte difficultatis, quae turbat ingenium cognoscentis. Unde Aristoteles circa suam de anima inquisitionem humiliter sentiens, ipsam inter historias circa naturam adnumerat.</p>
+<p>	Si quinto ipsum opus est, ut in universis artis inquisitivae partibus innotescat, vel saltem inquiratur, constat ipsum verificari, comprehendique finaliter, tum in tota speculatione, tum et in universis ejus (quaecunque et qualescunque sint) partibus. Finaliter, inquam, et objective, quia duplicem in quacunque arte subjectionem comprehendimus. Est etenim quod materiam adaequat illam, utpote quod subjicitur operationi, ultra et extra quod actio artificis non extenditur, sicut est lapis vel lignum, vel aes, vel iis omnibus commune, in arte statuaria, quod tum omnibus, tum singulis subjicitur operationibus. Est etiam quod finaliter adaequat artem, utpote quod operationi tanquam finis ejusdem objicitur, ultra et extra quod illa non intendit, sicut est in arte statuaria statua, quam totum opus, et singuli operis actus intendunt. Hic subjectum unum intentionis materialiter non est unum totale, sed juxta partium multitudinem multiplex: nisi quis <hi rend="italic">naturale</hi> non quatenus denominat (ut frequenter capiunt ii, de quibus supra dictum est) compositum ex natura quae est materia, et ex natura quae est forma, vel natura ipsum subsistens; sed quod denominat habitum scientiae, vel historiae, qui contra divinum, mathematicum, magicum, logicum, morale et naturale distinguitur: quandoquidem subjectum explicite in recto de tota physica, et de singulis ejus partibus praedicatur: subjectum autem quod finaliter est subjectum et intentionis, objectum vulgo appellitatur, quodque objective considerari dicitur, certe est ipsa natura, ut manifestat ipse Aristoteles, qui omnium tractatuum ubique reddens rationem: «quoniam (inquit) de natura est scientia, circa naturam est consideratio, ad eam quae de natura est historiam, hoc conducere videtur; quoniam methodus nobis est de natura».</p>
+<p>	Si sexto operae precium est, ut ejus passiones demonstrentur, id est quae illi circumstent, quae illud concomitentur, quae illud antecedant, quaeque consequantur, utpote caussae et principia, ex quibus est seu cognoscitur: ad naturam sane omnia spectare videbuntur, cujus ubique rationes, modi, species, circumstantiae, indicia, effectus, atque rationes patefieri volunt.</p>
+<p>	Si septimo deceat, ut eo nihil aliud proprius adsignari possit intentionis subjectum, jam quodnam magis meliusque est universale illud aeternum, immobile, semper idem, intelligibile magis, a sensibili semotum, quod in materialibus in principio intenditur, in progressu quaeritur, in fine contemplari licet, praeter ipsam naturam? Ad quid aliud historiae atque tractatus rerum naturalium advertunt?</p>
+<p>	Si octavo Peripateticis ex auctoritate eorum principis definiendum est de subjecto intentionis, si ex verbis auctoris philosophi, cujus est maxime suam aperire intentionem, propositum artis exaucupari debeant, audiant illum in principio primi de physico auditu, ubi proponens quid agendum sit circa principia hujus philosophiae, inquit: circa principia scientiae de natura: in principio tertii libri, illud ipsum repetit. Ubi tractatum de infinito adoritur «quoniam, inquit, de natura scientia est, circa magnitudines et motum, et tempus, et caetera, ideo hujus scientiae propria consideratio est de ipsa». Circa principium octavi libri, adsignans caussam pertractationis de primo motu, et de primo motore «considerationem hanc, ait, ad eam quae de natura est spectare». Audiant illum in principio primi de Coelo, et notent an aliud proponat ab eo quod in primo, tertio, et octavo physicae auscultationis proposuerit? Ibidem inquit: «scientiam de natura plurimam circa corpora, magnitudines, passiones et motus et principia talis substantiae versari, omnia propter naturam, quae in ipsis invenitur et aperitur, perlustrari». Ubi indicat se non per se corporum scientiam intendere, deque ejusmodi quae naturam habent precipue inquirere, sed undique, ubique et per se, naturam perscrutari, et ideo circa corpora et id genus alia speculari, ut naturae notitia subeat: minime mobilibus animum addixisse, sed ei quod in ipsis est substantia, et immobile motus principium. Idem in principio tertii de Coelo repetit, inquiens: «In iis quae in hac philosophia considerantur, plurima esse ad historiam de natura, magis quam ad scientiam, quia plurima contemplatio est circa corpora composita, unde quasi ex historia, non ex perfecto universali scientiam naturae persequimur». Audiant illum tandem in principio Metheororum epilogantem, notentque, quod de universis praecedentibus tractatibus, non mobile, non naturale, non compositum, non aliud hujusmodi, sed naturam et motum se inquisivisse resumit. Ejus haec extant verba: «De primis igitur causis naturae, et de omni motu naturali, de astris autem et elementis secundum quod sunt disposita secundum superiorem lationem (id est secundum quod habent principium motus, utpote naturam in seipsis) similiter de generatione et corruptione, quorum principium est natura». Audiant eundem ibidem, sequentes tractatus superioribus continuantem, indicantemque se aggredi historiam eorum, quae fiunt secundum naturam, inordinatiorem tamen. Idem ex prooemio libri de anima, quem historicum appellat, considerans elicere possit. Idem in innumeris aliis locis aperit, quos ista luce videre et considerare poteritis, ubi perpetuo accipit naturam, ut de quo est scientia, consideratio, contemplatio, historia; coelum vero, elementa, mobilia omnia, corpora universa, tanquam circa quae naturae consideratio versatur, et tanquam ex quibus naturae species intelligibilis eminet. At ubi unquam de naturalibus, de naturali, de ente mobili, de corpore mobili, vel de aliis hujuscemodi, methodum, considerationem, scientiam, vel historiam dixit?</p>
+</div3>
+<div3>
+<head> SECUNDUS ARTICULUS.</head>
+<p>	In proemio physici auditus duplicem cognoscendi rationem, quarum haec quidem physica est, illa metaphysica, ab Aristotele insinuatam non capiunt: ut tandem in speculationis istiusmodi progressu non minus extra Aristotelis eorum principis intentiones, quam ex ejusdem intentionibus fallantur atque fallant.</p>
+
+<p> RATIO.</p>
+<p>	Circa secundum articulum illud animadvertite, quod cum Aristoteles in prima prooemii parte dicit, procedendum esse ex iis, quae sunt circa principia scientiae de natura, notat ordinem quem tenere debet tractatus physici auditus inter caeteros suae naturalis philosophiae libros. Cum vero in sequenti parte dicit, innatam esse nobis viam, ex notioribus nobis, ad notiora naturae: unde ab universalibus, confusis, hoc est universis, totis, confusis, contractis, compactis, indistinctis, veluti commixtis, ad particularia, partes, simplicia, distincta, absoluta, pura, immixta, a consideratione videlicet et contemplatione per modum contractionis et impuritatis, ad contemplationem absoluti, solius, nudi, atque puri.</p>
+<p>	Ibi notat ordinem quem habet contemplatio naturae, per naturalem philosophiam, quae physica dicitur, ad contemplationem naturae per divinam philosophiam, quae Metaphysica nominatur. Quid enim? Nonne a natura quemadmodum composita, utpote secundum quod hujusmodi, nempe ut est principium rerum naturalium, ad eandem absolute capiendam, partim ex quinto Metaph. partim ex aliis ejusdem disciplinae libris: Nonne a principio, caussa et elemento rerum naturalium, ad absolute capiendum principium, caussam, et elementum, post habitam ejusdem distinctionem et multiplicem rationem ex quinto Metaph. et aliis. Nonne a materia et forma, actu et potentia hujusmodi, ad materiam et formam, potentiam et actum absolute, ex octavo et nono Metaph. praesertim? Nonne a cognitione unius materiae, unius motoris etc. ad cognitionem unius simpliciter, et incontracte, a multitudine seu pluralitate principiorum, entium, specierumque motuum, ad pluralitatem simpliciter, a differentia contrarietateque principiorum, et entium, ad rationem differentiae contrarietatisque simpliciter, ut sunt videlicet circa universaliter ens, a consideratione motus ut sequitur naturam, estque subjective in naturalibus universis, ad considerationem ejusdem absolutiorem, distinctiorem, simpliciorem, ut videlicet entis passio, atque specierum ejus differentiam constituens: a ratione finiti, contracti ad naturalia, ad ejusdem distinctam, incontractam, et absolutam rationem, ex decimo Metaph.: Nunquid non a consideratione circa substantiam mobilem in physicis, ad considerationem circa substantiam absolute, simpliciterque capiendam progreditur: a contemplatione moventium intelligentiarum ut sunt motrices, ad earundem contemplationem prout sunt: a contemplatione unius principis motoris, ad eam quae est unius principis absolute, ex duodecimo Metaph.? Quis tandem non videt, quemadmodum a speculatione naturae circa species sensibiles seu naturales, ad speculationem ejusdem circa species in seipsis, partim in tertio et quarto, partim in tertiodecimo, et quartodecimo Metaph., ubi de universalibus, de principiis, de numeris, de ideis, iisque quae sunt circa haec, examinando et disputando inquirit? Hinc proportio Physicae ad Metaphysicam concluditur esse, 1. sicut considerationis de simo, ad considerationem hinc quidem nasi secundum se, inde vero curvitatis. 2. sicut cognitio secundum nomen, ad cognitionem secundum significati definitionem, et partium ejus sensum: 3. sicut confusi mixtique conceptus ad distinctum et immixtum: 4. contracti ad absolutum: 5. concreti ad abstractum: 6. rationabilis ad intelligibile: 7. ut scientiae ad sapientiam: 8. ut intellectus speculativi ad contemplativum: 9. ut notitiae adolescentis puerorum, qua appellant omnes viros patres, et omnes feminas matres, ad notitiam adultam aliorum distinguentium unumquodque: termini enim confuse in physicis accepti, in sua significata significatorumque species distinguuntur in Metaphysicis, ut maxime patet ex quinto Metaph., ubi omnes significationes adducuntur substantiae, causae, principii, elementi, infiniti, caeterorumque quae in naturalibus, nonnisi obiter et ad modicum distinguuntur. Metaphysicus enim distinguit horum unumquodque utpote qui ens non secundum unam contractamque rationem, sed secundum omnem, absolutam, et incontractam, quam solummodo distinguendo, et in omnes rationes dividendo, Aristoteles lucrari pertentat, quod quam feliciter faciat, alias aperiemus.</p>
+</div3>
+<div3>
+<head> ARTIC. III.</head>
+<p>	Unum ens infinitum immobile bene posuit Xenophanes, et ejus discipulus Parmenides, et hujus discipulus Melissus, nec feliciter eos insectatur Aristoteles.</p>
+
+<p> RATIO.</p>
+<p>	Xenophanes ex ipsius Aristotelis verbis aeternum voluit esse, quicquid est. Si ejus quod est nihil, et non ens, non potest esse principium: si quidquid est, in nihilum labi nequeat, si omnia fiunt, nihil praeexistit: sique ei quod est aliquid accedit, iterum ex nihilo fiat oportet: quia in eo quod est paucius, non est id quod est amplius, inque minore majus esse non potest.</p>
+<p>	Ipsum quoque ens, mole infinitum sit oportet, quia sicut non habet principium temporis quando factum sit, ita neque termini unde factum sit: similiter neque temporis instans, neque magnitudinis terminum in quem desinat. Idem unum sit oportet, quia plura ad invicem necessario mutuo sese terminare oportet, invicemque aliud alii finem esse.</p>
+<p>	Simile quoque undequaque sibi, quia dissimilitudo jam proxime negata, pluralitatem statuit. Ipsum idem praedictis rationibus, aeternitatis, immensitatis, unitatis, undequaque similitudinis, immobile sit oportet. Non enim movetur, nisi quod aliquid excedit, et tale vel in plenum, vel in vacuum, quod extra infinitum esse nequit. Doloris, aegritudinis, morbique expers: tale enim sit oportet, quod neque situ transponitur, neque forma diversificatur. Alteri quoque admiscibile non erit, admixtione enim quod non est procreatur, quod erat interit: admixtio item ex multis sit oportet. Haec ille, qui ens et verum appellabat, quod mente intellectuque conprehenditur, rerum substantiam, naturam universam: caetera vero quae sensum communem et imaginationem pulsant, quaeque in vultu et facie naturae esse videntur plura, diversa, contraria, mobilia, alterabilia, admiscibilia, ille non entia, non vera appellabat. Unde Parmenides ejus socius atque discipulus, se ab intellectu ad opinionem, ab eo quod est verum ad id quod est apparens, ab entis contemplatione, ad non entis ratiocinia dixit proficisci, cum post positum unum infinitum et immobile, sicut Xenophanes, ad ponendum duo contraria principia, hinc calidum, lucidum, leve, inde frigidum, obscurum, grave converteretur. Adversus istos orthodoxa intelligentia examinatos, quid rationis habeat Aristoteles non conjicio, sed cum gravior occasio dabitur, ad singulas aristotelicae invectivae partes respondebimus.</p>
+</div3>
+<div3>
+<head> ARTIC. IV.</head>
+<p>	Ex eo quod Parmemides dixit unum undique sibi aequale, atque sphaericum, et Melissus unum asserit infinitum, minime contradictio sequitur inter illos, sed potius alter alterum exponit.</p>
+
+<p>RATIO.</p>
+<p>	Quod est finitum non est ubique aequale, sed a centro duntaxat: quod si aequalitas a centri non differente distantia vel aequidistantia rationem obtinet, undique aequale illud solummodo erit, quod ubique centrum habet, estque ex omni parte sphaericum. Sicut juxta intelligibilem modum est in Deo, in natura, in universi una substantia, juxtaque rationem propriam in hoc sensibili universo conjicitur, in quo nulla stella, nullus mundus, nullus orbis in circumferentia dicitur alteri, qui sibi non sit in centro, quia undique in universo aequalis habetur ad magnum parvumque horizontem respectus. Infinitum igitur sit oportet, quod undique aequale esse debeat.</p>
+</div3>
+<div3>
+<head> ARTIC. V.</head>
+<p>	Unum igitur infinitum ens dicimus, ex quo quidem nihil effluat proprium, et in quod nihil influat peregrinum.</p>
+
+<p> RATIO.</p>
+<p>	Particularia ea ratione corruptionem subire dicuntur, quia partium constantiam, ordinem, et symmetriam, quam ad hoc vel illud integrum constituendum quandoque nacta sunt, amittunt: ubi velut a diversis continentis mundi regionibus, diversae veluti partes in unum concorditer coalescebant: unde iterum dissidium perpessurae, ad uno ad diversas veluti regiones emigrabunt. Quod sane continue (etiam cum compositum optime consistere videtur) efficiunt: siquidem e quocumque composito (licet ubi magis appareat ubi minus) quaedam sibi cognata, propriaque effluunt, aliis influentibus peregrinis, et quoadusque haec quae ad vitae suppetentiam faciunt, extrusa non fuerint, et quae ad compositi fatale detrimentum sufficiunt intrusa non fuerint, constare, vivere, unum idemque creditur esse individuum. Universum vero infinitum, cui nihil est extra, nec certe quod peregrinum illi accedat habet, nec quo ejus domestica ab ipso recedant agnoscit.</p>
+</div3>
+<div3>
+<head> ARTIC. VI.</head>
+<p>	Ipsum certe substantialiter est immensum chaos, vel aer immensus, vel atomi infinitae: quibus ad rerum generationem atque vicissitudinem, ordinatricem, segregatricemque oportet praeesse mentem, spiritumque omnibus infusum, omnia vivificantem, exagitantem, alentem.</p>
+
+<p> RATIO.</p>
+<p>	Juxta multiformem rationem, per multiplices vias et ordines atque media, ad rerum naturalium contemplationem accedentibus, multiformis multiplexque occurrit, idemque verus atque scientificus definiendi et judicandi modus: quocirca nulla est sententia, et contemplationis via, quam non omnino indignus philosophus attulerit, quae nobis in aliquo ordine, et certa quadam ratione non probetur. In omni tamen philosophandi genere, (licet ipsum non omnes expresserint vel curarint, utpote qui magis ad aliquam praxim, vel ad definitam quandam potius, quam ad universam contemplandi rationem adspirarunt) alterum intelligimus quod rerum est substantia atque materia, alterumque quod omnium sit efficiens, director, et ordinator.</p>
+</div3>
+<div3>
+<head> ARTIC. VII.</head>
+<p>	Logice quidem definientibus aut mathematice, simplicia compositorum principia videbuntur: ita enim literae atque syllabae principia sunt dictionum, et lineae figurarum, alioqui prius natura sunt dictiones atque figurae: haud secus in natura tutius intelligemus simplicia et particularia composita ex uno, et universali chaos, exire atque segregari, quam ex hinc indeque positis simplicibus coalescere.</p>
+
+<p> RATIO.</p>
+<p>	Certe aliter literae atque syllabae extant dictionum principia, et lineae figurarum, quam vulgata elementa dicuntur et intelliguntur principia corporum: haec enim sunt veluti res, illa veluti signa quaedam. Porro sicut non physice punctus fluit in lineam, ut cujus esse possit materiale principium, neque linea in superficiem, neque superficies in corpus, sed abstractive post corporis habitum sensum, istos subire placet progressus: ita nimirum ubi non sunt eaedem vel similes naturae resolutiones, ad vera secundum naturam principia comparata, nec philosophicae sunt neque frugaliter disciplinales: quod si ita est, philosophi illi qui naturam rationi, non rationem naturae conformant et accommodant, logici sunt non physici: temerarii machinatores, non frugi abstractores mathematici, magis itidem sophistae quam philosophi.</p>
+</div3>
+<div3>
+<head> ARTIC. VIII.</head>
+<p>	Nihil jejunius fingi potest quam materia illa prima Aristoteli rerum naturalium principium, quam sane ex ipsiusmet Aristotelis decretis e medio sublatam esse comperimus, si non mathematicum, logicumque, sed naturale potissimum res naturales exigunt principium.</p>
+
+<p> RATIO.</p>
+<p>	Si petas ab Anaxagora, quid est materia? quid videlicet primum subjectum rerum naturalium? Respondebit, compactum, compositum, confusum, mixtum quoddam. Habet similiter quod afferat Empedocles, habet Melissus, Democritus, Pythagoras, Plato, habent et alii certe quid adducant. Aristoteles autem non nomine, nec ratione aliqua definit quid sit illud primum: adducit quoddam ens, quod ideo reale non dixerim, quia magis logicum quam physicum recte consideranti tandem principium apparebit. Quale enim primum subjectum, quale primum principium, quod ab esse sequentium non absolvitur, quod nullam ex se, sed omnem et aliunde habere dicitur actualitatem, esse potest? Quale quod potius aliis indignum, quam ut quo alia indigeant assumitur? Quod Aristoteles ipse ex suis fundamentis hanc materiam destruat, manifestum est ex pluribus propriae philosophiae locis, et praecise ex iis iisdem argumentis, quibus circa principium tertii libri de Coelo agit contra puncta, lineas, atque superficies platonicas: ibi nullum grave ex non gravi, nullum corpus ex non corpore fieri, vere atque constanter affirmat. Mitto nunc rationes quas in Dialogis de principio, causa et uno, et in iis quae de generatione circa materiae actualitatem adduxi.</p>
+</div3>
+<div3>
+<head> ARTIC. IX.</head>
+<p>	Cur, ubi circa naturalia consideratio instituitur, principium secundum formam ad metaphysicam considerationem prorsus referatur, nulla Aristoteli ratio est.</p>
+
+<p> RATIO.</p>
+<p>	Ejusdem artificis esse, materiam atque formam definire, nemo est qui abnuat, et pluribus in locis ipsemet Aristoteles testificatur. Cur igitur pro principii secundum formam habenda ratione, ad Metaphysicam transmittitur, cum tale principium non minus physicum sit eo quod est secundum materiam? Nunquid enim ipsum, quatenus principium est, ulla ratione, e materia queat absolvi? Nunquid quod perpetuo materiam recipit, et in materia consistit, et citra materiam non comperitur, metaphysicum esse potest Aristoteli? At, et quicquid sit de hoc, ubi in metaphysicis (per Deum) de rerum naturalium formali principio magis definit, quam in physicis de materiali? An forte tunc de principio secundum formam determinat, cum platonicas ideas, et pythagoricos numeros nititur destruere? An talibus secundum formam principiis sublatis, quippiam est quod eorum loco substitutum ab Aristotele possimus intelligere? An quemadmodum hic Aristoteles illud nobis innuit, quo omnia naturalia sunt materialiter unum, ita ibi certum aliquid, et certa aliqua definivit, quae in natura specierum faciant diversitatem, utpote unde naturalia adeo numerose secundum formam diversificentur?</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic"> CIRCA SECUNDUM LIBRUM.</head>
+
+<div3>
+<head> ART. X.</head>
+
+<p>	Naturae nomine dignius esse formam quam materiam, nusquam probare potuit Aristoteles. Privationem quoque naturae nomine insignire, nescio quam tute potuerit.</p>
+
+<p> RATIO.</p>
+<p>	Nusquam ostendit Aristoteles, ubi sit formarum naturalium constantia, cum quippe omnes particulares corrumpantur, neque communiter neque praecise rationem ejus principii, quod semper maneat oportet, habere possunt. Ipsae si e potentia materiae educuntur, et non extrinsecus ab efficiente inducuntur, in materia veriori modo sunt, et a materia actus rationem habent. Hinc quod est forma Aristoteli, aliis est non ens, qui universum actum et veritatem ad materiam referunt, quandoquidem haec formarum omnium parens est et genitrix: non est contra formarum ulla, (qualemcunque capiat Aristoteles) ipsius materiae principium. Quod vere perseverat materia est, quia non minus particularis, quae est in me et in lapide, semper manet, quam universalis: quicquid autem forma appellatur Aristoteli, (nisi ad universales faciat recursum) habet novum esse et abesse, noviter inquam in superficie materiae apparet et evanescit. Quaenam igitur forma est principium, si ulla quae sit ante et supra particularia non est Peripateticis? Quae est in particularibus, non est universalis et incorruptibilis, et quae est post particularia, intentionalis est et logica. Jactet igitur quamtumlibet Aristoteles logicam materiae et formae distinctionem, quia nunquam ut realis philosophus, reale et physicum principium adducet formam, nisi vel factus Platonicus recurrat ad ideas, vel Pythagoricus ad numeros. Porro si haec sunt in natura ex vi mentis ordinatricis, vel ex natura materiae seipsam casu exagitantis, non est quod formam constituamus principium, sed vel efficientem et materiam, vel solam materiam, sub alicujus contrarietatis conditione et moderamine. Sed de actu materiae et de existentia formarum in ea, partim diximus in dialogis de principio; partim, ubi de generatione pertractabimus, definiemus, ubi et de privatione et materiae appetitu quid nobis videatur, aperiemus.</p>
+</div3>
+<div3>
+<head> ARTIC. XI.</head>
+<p>	Astrologiam, Perspectivam, et Harmonicam tutius naturalis philosophiae partes inquies, quam inter physicam mathematicamque considerationem medias.</p>
+
+<p> RATIO.</p>
+<p>	Si Astronomiam, Perspectivam et Harmonicam physicae partes fassus esset Aristoteles, nemo illum naturalem philosophiam perfecisse existimare potuisset. Atqui cur has inter mathematicam et physicam medias appellabimus disciplinas, cum inter abstractum a materia, et cum materia conjunctum, medium imaginari nequeamus? Nonne et Aristoteli physica est linea quam Perspectivus accipit? Nonne physicos numeros Harmonicus? Nonne physicum accipit circulum, et quandoque lineam et figuram Astrologus, ubi (sive imaginata sint haec, sive realia, sive intrinseca, sive extrinseca sphaeris ipsa dicantur) semper cosmicam materiam respiciunt.</p>
+</div3>
+<div3>
+<head> ARTIC. XII.</head>
+<p>	Locum et tempus necessariae sunt rerum naturalium caussae et ad nullam positarum quatuor reducibiles: propterea tamen illas non destitit Aristoteles contra antiquorum consuetudinem sine ulla ratione praetermittere.</p>
+
+<p> RATIO.</p>
+<p>	Quis a tempore et loco, rerum naturalium productionem absolverit? quis horum quidpiam citra haec fieri vel esse dixerit? quis haec non per se causas fateatur, cum causam facti ut plurimum adducimus temporis opportunitatem atque loci: defectusque rationem loci temporisque penuriam? Quis confidat haec ad aliquod vel plura vulgatarum causarum genus referre, cum neque pars rei sint, veluti materia et forma, neque efficientis praecisam rationem habeant: sed et continentis, adstantis, circumstantis, consistentis, et conservantis: neque finis sunt rerum magis quam ad rerum finem, si non a finis ratione longe non absint. Imo neque exemplar ad formam, quae rei pars est, reducitur; neque minus finis ad efficientem reducitur, quam exemplar: et ideo non minus meretur distinctum causae genus nominari exemplar, quam finis. Aut igitur ad capita efficientem et materiam cum Platone causarum numerum reducamus, aut pari ratione ad pariter causas plares positis progrediamur.</p>
+</div3>
+<div3>
+<head> ARTIC. XIII.</head>
+<p>	Nunquam natura errat: sique interdum monstra non produceret, erraret.</p>
+
+<p> RATIO.</p>
+<p>	Non errat qui facit quantum et quale in se est, qui praestat quod melius commodiusque fieri potest, expeditque magis, et subjectum materiae opus pro subjectae materiae ratione tractat. Imo sicut intellectus atque sensus se habet ad objectum suum, quod si melius aliterque respiciat quam ipsum sit, errat: ita et natura ad proprium subjectum, in quod si aliter agat, quam ipsum aptum natumque sit pati, errat: neque igitur in universali, neque in particulari error est.</p>
+</div3>
+<div3>
+<head> ARTIC. XIV.</head>
+<p>	Natura fortuitum nihil esse potest.</p>
+
+<p> RATIO.</p>
+<p>	Quidquid sane natura facit, intendit, intendebatque facere, undique certas determinatasque habet causas, certum determinatumque finem; quod autem fortuitum dicitur, absolute a fortuna non est, sed ad hunc vel illum, cujus est incertus, insperatus, inexpectatusque eventus. Sed pro ampliore quaesiti resolutione notandum, naturam agere omnia, et non unum sine alia: omnia item unam esse substantiam, quae non fit, sed est. Cui sane enti innumerae adveniunt dispositiones, quarum hae quidem sunt finis, illae vero ad finem. Porro cum non sint ipsa rerum substantia, et id quod est, nihil est ita finis, ut ad aliud non tendat, vicissimque ad omnia tendant omnia, diversorumque respectu, et finis sunt et ad finem, et contra finem. Distinguentibus igitur naturam, in eam ex qua fit omne, et eam quae facit omne: et quatenus ipsa est omnia, ut actus potensque formare et omnia possibilitate et potens omnia fieri: apparebit quemadmodum in iis qui dicuntur agere propter finem, natura agit propter finem, et in agentibus finem, natura agit finem: et in iis quae sunt ad finem, natura est ad finem, in iis quae sunt finis, natura est finis. In iis quae a certo remota sunt fine, natura a certo fine remota est. Si etenim una est omnium rerum substantia, unum subjectum, una natura, de uno praedicata omnia certe verificantur. Si natura imaginetur extra rerum substantiam, ut quiddam per se existens, atque sepositum, rationabilius sane esset quaerere, an agere propter finem illi secundum unam, vel alteram contradictionis partem contingat. Sed ubi natura est ipsa universalis rerum substantia, et ipsum quod est, in diversis sane contrariisque habitis suppositis, diversas contrariasque adsumit denominationes et habitudines. Ejusdem quippe substantiae est, in eodemque naturae gremio dicitur contineri, cui de frigore destruente conqueri, et cui de eodem construente gaudere contingat. Ubi igitur omnia agant propter finem, natura agit propter finem: si nihil ita agit, natura non agit: ita si quaedam agunt, quaedam vero non agunt, circa unam rerum substantiam contraria contradictoriaque concurrent. Dum interim per ipsas dispositiones, et ordines in ipsis ordinibus, et in diversis subjecti partibus, aliisque dispositionibus, incompossibilitas, repugnantia, atque fuga consistit. Istud in eadem subjecta linea erit manifestum, in qua simul duo recti anguli, alter rectus alter vero curvus, alter maxime rectus alter maxime curvus, rectus pariter atque curvus exoriuntur, rectus simul et curvus intereunt. Ita una est contrariorum natura, subjectumque prorsusque eadem substantia illis subjicitur. Idem igitur principium, medium, finisque naturalium omnium natura est: eadem nempe usia ejus quod est bonum et malum, bonum et non bonum, calidum et frigidum, amicum et inimicum: idem est quod omnium horum denominationem suscipit, de eodem (inquam) omnia verificantur, atque praedicantur.</p>
+</div3>
+<div3>
+<head> ARTIC. XV.</head>
+<p>	Rerum naturalium necessitatem ad omnes causas aequaliter referimus, quia temere Aristoteles diversa causarum genera ea ratione comparat, ut ad earum aliquam necessitas magis referatur.</p>
+
+<p> RATIO.</p>
+<p>	Temere quaeritur, an prolificationis necessitas ad patrem magis conspiciat, an ad matrem, cum tam male haec sine illo, quam iste sine illa prolificare possit. Similiter an materia plus concurrat an efficiens. In omnibus item necessario circumstantibus, juxta diversum causandi genus, comparatio ulla locum non admittit. Porro in eodem causae genere consideranti, si agens unus cum alio, una materia cum alia locus unus cum alio, tempus unum cum alio conferantur, accidet sane, ut rei necessitatem non aequaliter ad hoc atque ad illud referamus.</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic"> CIRCA TERTIUM LIBRUM UBI DE MOTU.</head>
+<div3>
+<head> ARTIC. XVI.</head>
+<p>	Actus existentis in potentia secundum quod hujusmodi, non magis definitio motus est, quam multorum aliorum, quae eadem ratione facillimum est definire. Sic etenim quies est actus existentis in potentia secundum quod hujusmodi; vita est actus existentis in potentia; anima est actus existentis in potentia: quem sane definiendi modum utpote nugacem spernimus.</p>
+
+<p> RATIO.</p>
+<p>	Omnis quidem forma Aristoteli actus existentis in potentia est, sive substantialis illa sit, quam immediate suscipere dicitur prima materia, sive accidentalis, quae subjecto in actu existenti superinducatur. Ita igitur actus et potentia ad invicem referuntur, ut ubique horum alterum et sit alterius, et ad alterum sit. Hinc potentia vitam habentis entelechia anima est, vita est perfectio vivere potentis, et quies ipsa, cui motus opponitur, non minus actus existentis in potentia est. Imo et si omnis motus est propter quietem, potiori ratione haec actus ejusmodi erit, quam ille possit esse.</p>
+</div3>
+<div3>
+<head>ARTIC. XVII.</head>
+<p>	Nec tute motum actum imperfecti, neque sat vere actum imperfectum dixeris unquam, interdum enim est actus perfecti, perpetuoque actus perfectus est, si ad illud, quod ad ipsum est in potentia, secundum quod hujusmodi, respexerimus.</p>
+
+<p>RATIO.</p>
+<p>	Omni motui minime convenire constat, esse actum imperfecti, motus enim coelo ut actus perfecti convenit apud Aristotelem ipsum, et apud nos qui globis universis. Haec est ratio ejus, ut moveatur naturaliter: quod si non moveretur, non esset sane coelum Aristoteli: non enim altius neque profundius definit coelum, quam corpus circulariter mobile. Ille sane est actus perfecti, qui convenit subjecto existenti in maxime sibi naturali dispositione, et ultimum attingenti entelechiae terminum: ut ergo actus perfecti est anima, ita et motus iste naturalis qui animae praesentiam per se tanquam propria passio consequitur, imo concomitatur. Nec obest quod omnis motus est propter indigentiam, ne dicamus ipsum esse actum perfecti, quia gradus sunt in rerum speciebus, et unaquaeque suis numeris perfecta intelligitur. Porro una numeri species, quia ab alia comprehendatur, vel aliam comprehendat, imperfectum non dicitur. Hinc imperfectum non est astrum, quia coelo indiget, imperfecti non sunt soles, neque terrae, quia mutuo suffragantur, quatenus hoc est illis natura inditum, ut alia horum ordinem habeant ad alia. Quod si perfectionis ratio eousque intendatur, ut ipsum perfectum sit, quod nullo indigeat, unum erit perfectum universum, neque dicetur perfectum quasi perfecte factum, sed quatenus in eo nihil est infectum: itaque motus est actus imperfecti, quia unum duntaxat immobile quod est ens, quod est universum, sed non ad hoc respexit Aristotelis sensus. Quod subinde actum imperfectum dixerit motum, non satis videre possum, quomodo excusare possit ut universaliter valeat: quia mobilis, quatenus mobile est, quis alius actus esse posset quam motus? aedificabilis, quatenus aedificabile, quis alius actus, vel perfectio esse potest, quam aedificatio? nunquid aedificium? at aedificium non est motus, sed post motum nacta perfectio, et actus qui non convenit mobili, quatenus mobile: domus enim est actus perfectus aedificabilis, quatenus notat potentiam non ad motum, sed rem constitutam, utpote aedificium: aedificabilis autem, quatenus notat potentiam ad aedificationem, motus quidem ille actus perfectissimus est, et ultimus. Aedificabile primo modo dicit potentiam ad motum esse, et ideo domus est ejus actus perfectus, aedificabile secundo modo notat potentiam ad motum, et ideo aedificatio est ejus actus perfectus. Perpetuo igitur mobilis, quatenus mobile est, motum actum perfecti dicere debuisset Aristoteles. Mitto nunc, an motus sit definiendus, quem qui sensu non percipit, nulla unquam definitione percipiet.</p>
+</div3>
+<div3>
+<head>ARTIC. XVIII.</head>
+<p>	Motum non in quatuor, vel sex tantum, sed in omnibus reperiri praedicamentis dicere debuisset Aristoteles.</p>
+
+<p>RATIO.</p>
+<p>	Certe sicut in substantia est motus Aristoteli, quia accidens est in ea tanquam in proprio subjecto, secundum substantiam motus est Aristoteli, quia tales habentur generatio et corruptio; in quanto et secundum quantitatem est motus; in loco, et secundum locum est motus; in qualitate, et secundum qualitatem est motus. Ita in relatione, et ad relationem: quia et ipsi aliquando moventur qui fit pater, qui fit dominus, et quod modo est quod prius non erat, animo motus intelligitur; quod si in quibusdam liceat abnuere, sunt certe in quibus negari non potest: ex motu enim locali, et motu secundum generationem, et secundum quantitatem necessario sequitur motus secundum habitudinem, et relationem, qua aliquid dicitur genitum, filius, pater, dextrum, superius, majus, minus, aequale. Pariter ad actionem, et in actione, seu agere, ad passionem, seu pati, et in passione motus est, si haec ipsa motus non sunt. Similiter in situ, et ad situm, in quando et ad quando, in ubi et ad ubi, in habere, et ad habere, si quis recte judicet, videbitur esse motus, cum stans fit sedens, cum hesternum fit hodiernum, dum quod est domi, fit in foro: quod non est annulatum et uxoratum fit uxoratum et annulatum. Cur igitur motus species nunc quidem quatuor, nunc vero sex tantum faciat Aristoteles, addiscere vellem libentissime. Nunquid et totidem praedicamenta?</p>
+</div3>
+<div3>
+<head>ARTIC. XIX.</head>
+<p>	Magis definiunt motum qui ipsum alteritatem, inaequalitatem, et non ens quoddam esse dixerint, quam qui actum ejusmodi, qualem astruit Aristoteles.</p>
+
+<p>RATIO.</p>
+<p>	Non est quod Aristoteles inde urgeat, quod alteritas, inaequalitas, et non ens in iis quae non moventur, vel mota quiescunt, verificatur: quicquid est hoc, non est illud, et quicquid uni est aequale, alteri est inaequale: et nihil esse potest, quod alterum non sit ab aliquo, sive in motu, sive extra motum. Cum quippe alteritas, inaequalitas, et non ens distinguitur in absolutum intrinsecum, et ad idem subjectum, et in respectivum, extrinsecum, et ad diversa subjecta, videbitur prorsus alia ratio in moto et quiescente. Quod enim movetur in seipso, et ad seipsum, semper est alterum et inaequale, et non ipsum, idemque: siquidem per motum magis non ens datur, et in non entitate esse, quia perpetuo aliud et aliud esse recipit, aliam aliamque quantitatem, aliam aliamque qualitatem: quod vero jam est, atque quiescens, respective duntaxat non ens, inaequale et alterum dicitur.</p>
+</div3>
+<div3>
+<head>ARTIC. XX.</head>
+<p>	Motum dicere possumus magis esse in movente, quam in mobili, item magis in mobili quam in movente, nec non aequaliter in utroque, et ab utroque.</p>
+
+<p>RATIO.</p>
+<p>	Motus primo est in movente, ut in principio activo, primo, et per se: in mobili tanquam in subjectivo, et materiali: aequaliter in utroque, formaliter: aequaliter ab utroque, originaliter; ut recte consideranti manifestum. Primum et secundum facile patet, tertium, puta quod sit aequaliter in utroque formaliter, inde elucescit, quia non magis efficiens, movens dicitur, quam subjectum sit ab ipso motum: nec magis subjectum motum dicitur, quam ejus movens ille dicatur. Ideo motus est ratio aequalis ab utroque una proveniens, quia ex movente, eque moto resultat motus, sic ut ex vidente et viso, visio: operante et operis subjecto, operatio: quae ut in ipsis est, formaliter dicitur, ut autem ab ipsis provenit, originaliter; et ideo patet etiam quartum. Hic contemplari licet quatuor, nempe operantem, operabile, operationem, opus.</p>
+</div3>
+<div3>
+<head>ARTIC. XXI.</head>
+<head>UBI DE INFINITO.</head>
+
+<p>	Illud propriissimum, quod communem facit dubitationem, per id quod in cogitatione non deficit numerus, et mathematica magnitudo, nusquam diluit Aristoteles. Non enim plus debet habere imaginatio naturalis, vel naturaliter posse debet, quam natura: quinimo quid aliud crediderim esse imaginativam potentiam, praeterquam naturae umbram aemulatricem?</p>
+
+<p>RATIO.</p>
+<p>	Unde ex parte hujus potentiae naturalis est infinitum, ut imaginatio quantitatem quantitati addendo non quiescat, neque illi terminetur dimensio simpliciter, et aliquid extra mundum nequeat non fingere, sive vacuum sit illud, sive plenum. Unde etiam alicui naturali talis tantaque potentia inest non secundum naturam certa ratione illi respondentem? Nisi ambulationis gratia, natura pedes non effecisset animalibus: neque contribuit potentiam ad terminum, quem non attingat, neque decet, ut naturale quidpiam, terminum quem natura praescripsit (vel forte non exsuperat) excedere possit: unde enim hoc a natura? Si in natura nil frustra, contra naturam, citra naturam, et certe tale ultra naturae vires nunquam intendatur oportet. At inquiet quis, quod a pari possemus credere esse homines majores coelo, vel tam magnum saltem, quam coelum est, juxta anthropomorphitarum sententiam, ex eo loco, in quo Deus dicere introducitur: coelum, sedes mea; terra, scabellum pedum meorum, quodnam igitur templum aedificabitis mihi? Porro non propterea quod imaginatio illud potest, necesse est idem naturam posse, vel efficere. Ad hoc dicitur, quod nec naturae potentiae, nec rationi repugnat, ut cum unum sit ens, una substantia, unum infinitum informe, illud possis denominare quolibet modo, seu sumere sub cujuscunque formae, vel speciei ratione: quia tandem adeo non est absurdum, ut accipit Aristoteles in primo physicae auscultationis, si quis heracliteam referat propositionem, omne quod est, esse hominem unum, vel aliam aliquam hujuscemodi substantiam, licet enim species, quoad earum molem et quantitatem, et figuram, sequuntur conditionem hujus astri quod habitamus, unde magnum et minimum specierum connascentium in eo intra definitos quosdam (etsi indefinite) terminos contineantur, nulla tamen species absolute certum definitumque ratione ulla numerum habet atque molem. Hinc quaedam species animalium, quae in animalibus nascuntur, in majoribus maiores, in minoribus minores apparent. Sic majores sunt vermes, in quos corrumpitur caro equina, quam caro passeris. Quia igitur non est pars materiae, ex qua non possit esse homo, est sane in potentia naturae, ut infinitum hominem faciat, imo ut fecerit infinitum hominem, imo ut sit infinitus homo, et infinita quaelibet species. Sed ubi (inquies) unquam apparuit? Non est opus (inquam) ut appareat, quia infinitum neque terminatum est, neque figuratum. Ergo (inquies) infinitus homo, infinitus asinus, infinita ficus? Ita inquam quia infinitum est unum idemque esse, totum indifferens in una substantia, unum ens, in quo homo est vere, asinus est vere, aurum vere, et vere est quicquid est: quod vero non est infinitum, unum, immobile, sed figuratum, finitum, mutabile, non est verum, sed non ens, sensibile, opinabile. Quod igitur imaginatio quidlibet infinitam ad molem persequitur, non fallitur: sed altius naturam imitatur, et ad veritatem appellit, quam sensus, ad veritatem inquam primi intellectus, qui non potest intelligere nisi unum, neque potest intelligere nisi infinitum. Infinitum enim est quod potest, illud operatur: unum idemque est quod est, quod potest, quod agit: ideo unum est illi nomen indescriptibile, ineffabile, et omnia nomina illi convenire possunt, et nullum nomen. Ex iis, si cui aliqua videntur absurda, ipse ampliore indiget declaratione, cui non est hic locus: interim ne temere judicet.</p>
+</div3>
+<div3>
+<head>ART. XXII.</head>
+<p>	Negamus Aristoteli corporis rationem esse planitie terminatum, sicut et numeri rationem numeratum esse non concedimus: petit enim in principio philosophus iste, quotiescunque tales adsumit definitiones.</p>
+
+<p>RATIO.</p>
+<p>	Cum inquit Aristoteles: est de ratione corporis esse planitie terminatum, et ex hoc inducit, corpus infinitum non esse, suo more ex suppositione falsorum, propriorumque principiorum incedit. Supponenti vero corpus infinitum esse, superficie terminari non erit omnis corporis ratio, sed finiti tantum corporis.</p>
+</div3>
+<div3>
+
+<head>ART. XXIII.</head>
+<p>	Nulla quoque ratione fulcitus Anaxagoram arguit, infinitum seipsum firmare asserentem.</p>
+
+<p>RATIO.</p>
+<p>	Infinitum, quia infinitum, maxime non nutat, non trepidat: infinitas enim est maxima immobilitatis ratio, ideo infinitum seipsum, firmare dicitur: quia ex sua ratione habet, atque natura firmitatem. Quare (inquies) non defertur? ex intrinseca causa, respondebimus, quia infinitum est, quia non habet extra se spacium, quia non habet terminum unde et quo feratur. Seipsum firmat igitur, quia ipsum est sibi ratio firmitatis: neque enim vi, neque natura est alicubi, quia est universum et ubique.</p>
+</div3>
+<div3>
+<head>ARTIC. XXIV.</head>
+<p>	Nobis non est impossibile simul infinitum dicere corpus, et locum quemdam corporibus esse.</p>
+
+<p>RATIO.</p>
+<p>	Si non superficies, sed spacium quoddam locus est, nullum corpus, neque ulla pars corporis illocata erit, sive maximum, sive minimum, sive finitum sit ipsum, sive infinitum.</p>
+</div3>
+<div3>
+<head>ARTIC. XXV.</head>
+<p>	Infinitum et nos dicimus, cujus secundum quantitatem accipientibus semper aliquid accipere extra est. Neque abhorremus ab hac definitione. Infinitum est cujus nihil est extra: item, cui nihil est extra.</p>
+
+<p>RATIO.</p>
+<p>	Omnium particularium finitorumque compositorum aliquid est extra: quia in omnibus est semper peregrinum quod influit, et est proprium quod effluit. Omnium particularium aliquid est extra, et sphaera totius e qui participant, et ideo quod in ipsis est, erat extra. Infiniti vero nihil est, neque fuit, neque erit extra: et ideo infinito soli convenit, ut ejus nihil sit extra universaliter, hoc est neque actu, neque potestate.</p>
+</div3>
+<div3>
+<head>ARTIC. XXVI.</head>
+<p>	Finitum Aristotelis est ignotum, falsum, et impossibile: notum, verum, atque necessarium est infinitum plurium philosophorum.</p>
+
+<p>RATIO.</p>
+<p>	Omnia videmus perpetuo ad aliquid finiri, sive sensu indicante, sive imaginatione persuadente, sive ratione argumentante. Et difficilius est persequi curam probandi terminum omnium, extra quod nullum est corpus, neque vacuum, neque locus, neque spacium; hoc enim quomodo sit, nunquam potuit persuadere praeceptor Aristoteles, neque alius; et ideo finitum ipsum, et terminus universalis, est inconveniens, falsus et impossibilis, ut per alias proprias rationes indicavimus in dialogis de infinito universo. Nullum infinitum terminatur, nisi quod est privative infinitum: idest incompletum, imperfectum, mancum, finem desiderans; non autem negative, quod neque perfecte dicitur, neque imperfecte.</p>
+</div3>
+<div3>
+<head>ARTIC. XXVII.</head>
+<p>	Infinitum dicimus non solum ut materiam, sed et ut actum.</p>
+
+<p>RATIO.</p>
+<p>	Non est materia infinita sine aliqua potentia et actu, sed ubique actus, alicujusque formae particeps: non est enim vacuum sine aere vel alio corpore; sive vacuum capias ut spacium, sive ut disterminans; non est locus sine locato.</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic">CIRCA QUARTUM LIBRUM, UBI DE LOCO.</head>
+
+<div3>
+<head>ARTIC. XXVIII.</head>
+<p>	Translatio corporum indicat magis locum esse spacium, quam quidcunque aliud. Est igitur receptaculum corporum magnitudinem habentium, ad nullam quatuor causarum reducibile, sed per se quintum causae genus referens.</p>
+
+<p>RATIO.</p>
+<p>	Propter translationem (inquit Aristoteles) non solum manifestum est locum esse aliquid, sed et quandam potentiam obtinere: sed, o Aristoteles, haec potentia quinam esse potest in superficie potius quam in spacio? cur potentiam tendendi ad locum suum non prohibitum, per superficiem dicis potius, quam per spacium? Individuum secundum latitudinem, mathematicus (inquam) locus tuus, quomodo naturalem ullam vim admittere non nequeat? quae enim physica qualitas potest superficiei corporis esse propria, ut trahat, alliciatque locandum? quinam tripliciter dimensionatum una dimensio continebit? Illud sane, in quod transfertur corpus, opus est ut capiat, id vero quod capit, spacium est, non superficies: in tali enim loco, qualis est inter duos istos circulos, corpus solidum (cuius dimensiones omnes sunt aequales externo circulo) locari non potest. Quomodo ergo superficiem, externo circulo aequalem, sufficere ad loci rationem facies? Nonne corpus undique se ipso plenum requirit necessario aliud nullum corpus esse quod spacium ab extrema illa circumferentia, usque ad medium totius, vel ejus cujuscunque partis occupet? Cur enim Hesiodus citatur rebus faciundis locum, vacuum, spacium, chaosque praeponens, ubi ille non tecum (o Aristoteles) superficiem continentem, (quae, nisi corpora sint, esse non potest) sed spacium quoddam supposuit, in quo mirabilem illam potentiam prioremque omnibus esse oportet: ipsum sane est, sine quo nullum aliorum, quodque sine aliis esse posse intelligitur. Proinde quod duo corpora non sint simul, non prohibebit una corporis continentis superficies, sed differens quod utrisque debetur spacium. Hoc neque elementum est, neque ex elementis, non enim elementa corporea habet, neque incorporea: haud quidem corporea, quia non sensibile: haud incorporea, quia magnitudinem habet. Porro vacuum est, seu spacium, in quo sunt corpora magnitudinem habentia: sive elementa, sive ex elementis constantia percipias. Esse autem duas dimensionis species, alteras quidem spacii, alteras vero ejus quod in spacio, neque impossibile est, neque inconveniens, sed maxime necessarium. Neque est quod locum ad definitam aliquam quatuor causarum referre cogat Aristoteles, cum ipse nobis cum tempore sextum causae genus constituat, et Platoni exemplar addenti, septimum. Nec negamus Zenoni, quod cum locus sit, alicubi sit: est enim alicubi, ut in quo aliquid sit; non autem alicubi, quod in alio sit. Quae non translata augentur, non mutant spacium, sed amplius adsumunt spacium, si illis augmentum accedit in iis quae a solo extrinseco principio, extrinsecus additione facta, maiora fiunt.</p>
+</div3>
+<div3>
+<head>ARTIC. XXIX.</head>
+<p>	Loci nimirum continere est, minime autem terminare.</p>
+
+<p>RATIO.</p>
+<p>	Continere quidem loci est, terminare autem aljus est principii, quod tantum et tale corpus locatum constituit: certe tutius dixeris, illud, quod terminat locum, esse locatum, quam e contra; nisi loci significationem quis transferat ad vas in quo aqua vel aer continendus, ejusdem mole atque figura terminetur: alioqui ideo mihi tantus locus est in aere et in aqua, quia ego tantus sum, et ideo terrae tantus locus est in coelo sive spacio universi, quia terra tanta est.</p>
+<p>	Differentia quidem inter locum et spacium haec est, quia spacium est nomen absoluti, locus nomen respectivi: hinc spacium est locus propter locatum, et locatum majus, spacium majus exigat oportet: quod si ita est, potius locatum terminat locum, quam locus locatum: locatum enim definit contrahitque spacium ad esse locum, talem locum, tantum locum: quamvis nullum spacium sit sine corpore, sicut nullum corpus est sine eo, quod occupet, spacio. Loci porro est, ut sit alicubi in spacio: et spacii est, ut sit ubique locus, et non alicubi in loco; si bene percipiant Zeno et Aristoteles.</p>
+</div3>
+<div3>
+<head>ARTIC. XXX.</head>
+<p>Stultum est locum ad esse materiam vel formam coactare, cum possit esse, sitque aliud.</p>
+
+<p>RATIO.</p>
+<p>	Potuit sane Plato dixisse, materiam esse receptaculum quoddam, et locum quoddam receptaculum esse. Non propterea calumniae locus erat, ut, juxta Aristotelis censuram, receptaculum illi idem fuerit quod materia, et materia idem ac receptaculum.</p>
+<p>	Porro si Plato vel alius quispiam dixerit locum esse materiam, talem intelligat materiam oportet, ad qualem, et per qualem, in qua, et quae non sit rei pars, sed rei subjectum propter receptivam facultatem, et quia sicut eidem loco diversa succedunt corpora, ita diversae formae eidem subjecto permanenti similiter. Cur autem locum ad esse materiam vel formam obliget Aristoteles, non satis indicat, postquam in suis cathegoriis locum quantitatis speciem declaravit, et postquam doctor iste negat locum esse materiam vel formam, cum longe absit ab eo ut sit pars rei. Determinat tandem esse aliquid, quod neque materia, neque forma, neque compositum quid sit; sed ferme quid logicum, suo more, et nescio quale semimathematicum, ubi locum formam quandam astruit, quia, uti forma, terminus rei est: oblitus ejus rationis, quae militat contra seipsum Aristotelem, non minus bene quam contra Platonem. Quomodo enim accidentalis formae rationem obtinet respectu ejus, cui non inest ut forma? quomodo locus est locati forma, cum sit alius, nempe continentis corporis superficies? quid item ad locatum confert, et quid locato erit, si corporis contenti ideo forma, quia corporis continentis superficies est? Si porro locus non terminus, sed antiquiore et generaliore, physica et rationali magis significatione, spacium rei locatae aequale est, habet sane locus suum terminum in spacio, sicut et res, et cum re ipsa, cujus locus est: conterminatum item, nusquam rei terminativum intelligitur.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXI.</head>
+<p>	Totum fluvium non dicimus esse locum, sed spacium ipsum potius in quo fluvius est. Neque sphaerae medium aut ultimum locus esse potest, sed spacium quod implet illa, et ideo quamvis corpori non sit aliquid extra, erit nihilominus in loco.</p>
+
+<p>RATIO.</p>
+<p>	Si locus sit spacium, inquit Aristoteles, infinita erunt loca, translato enim aere et aqua, idem facerent partes omnes. At nobis non inconvenit, partes aquae esse in aqua, sicut in toto: in spacio autem sicut in loco quas sane finitas sive infinitas accipias, finita infinitaque illis debebuntur, quae repleant, spacia? Sique velis unum continuum corpus aliqua ratione indefinitum secundum partes accipere, non urgebo. Cum itaque tota aqua transfertur, et partes aquae consequenter transferuntur, non est necessarium quod locus transferatur: et consequenter loci sit locus: ut enim totum et partes transferuntur, ita totum atque partes locum mutant: dum tamen spacium, quod universi spacii pars est, immobile permaneat. Quamvis igitur partes non mutent situm in toto, locum tamen cum toto mutant, ubi in aliud spacium transmigrant. Aequivoce sane ad locum, qui est pars spacii universi, dicitur locus qualis est vas: quod cum aqua plenum, de loco in loco transferatur, locus cum locato transferri dicitur, proprie autem non minus locatum quoddam est vas, quam aqua. Ex his patet ratio, quare non totum fluvium, vel aliusmodi quidpiam dicimus esse locum, sed spacium in quo fluvius est. Non coelum est locus, nec coeli quiddam, sed spacium in quo coelum est. Non inquam medium in coelo et ultimum locus est, sed spacium id erit, quod medio et ultimo terminatur. Sic enim, non quaedam tantum corpora sunt in loco, et universum corpus, et corporis universi partes, in continuo sunt illocata, quia in loco illud sit, cui corpus aliquod est extra, continens ipsum: sed quicquid corpus est, in loco est. Talis vere locus est, qui nihil rei est, qui neque major, neque minor: superficies vero continentis, aliquid alicujus corporis, quod continere dicetur, est; quatenus item continens contento major est certissime. Talis locus est propter translationem, in translatione enim non tantum oportet esse terminum ad quem, quanto magis spacium quod deserat, per quod feratur, et in quo sistat: et ut motus sit in loco, longe magis incomparabiliter quaeritur spacium in quo quid movetur, quam intra quem terminus. Neque tantum per positionem superficiei corporis continentis, quantum perspacii positionem locatum poni necesse est. Talem oportet esse locum immobilem. Ita enim superficies corporis continentis, sicut et contenti, cum proprio moveantur subjecto, oportet. Talem quoque esse locum immediate adsistentem locato, cum semper inter duas superficies duorum corporum, aliquid mediet oportet, ipsum vero est aliud loci genus, quod vacuum interjectum disterminansque dicimus.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXII.</head>
+<p>	Minime verum est, quod recta movetur magis mutare locum, quam quod circulo torqueatur.</p>
+
+<p>RATIO.</p>
+<p>	Nihil sane mutat locum, si ad universale spacium, quod est universi corporis, quod circulo circa proprium centrum movetur, referatur. Idem totius corporis considerabo spacium, nec propterea non existimabo ipsum totum mutare locum, quia ubi circulus iste circa centrum movetur, omnes singulaeque ejus partes locum mutant; non minus quam si recta moveantur, (A/B) quia quod est spacio A fit in spacio B, et quod in spacio B fit in spacio A. Putare autem quod tantummodo partes locum mutent, toto in eodem loco consistente, accidit iis, qui tantum per extrinsecam superficiem et extremum suae molis intelligunt haec esse in loco: quia uno inconvenienti dato, plura sequuntur.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXIII.</head>
+<head>UBI DE VACUO.</head>
+
+<p>	Cur non idem vacuum, locum, spacium, plenumque dixerim: neque enim illis adstipulamur qui, ideo quia aer aliquid est, vacuum esse dicunt.</p>
+
+<p>RATIO.</p>
+<p>	Vacuum spacium utpote in quo actu nihil sit, nos non ponimus, sed spacium certe in quo modo unum, modo aliud corpus necessario contineatur, quodque primo ab aere repleri natum est. Est enim nobis ens infinitum, et nihil est, in quo aliquid non sit. Hinc nobis definitur vacuum, spacium vel terminus, in quo sunt corpora; minime vero, in quo nihil est. Cum vero vacuum, locum dicimus sine corpore, ipsum non re sed ratione a corporibus sejungimus. Sicut cum dicimus colorem pomi esse qualitatem illam visibilem in pomo, citra illud corporeum, tangibile, gustabile, odorabile, et quicquid aliud, colorem sine subjecto et concomitantibus accidentibus, non modo vere, sed etiam verum definimus, neque mentimur, atque si dicamus, colorem pomi esse sine substantia subjecta, sapore, et caeteris. Dicentibus item vacuum esse spacium sine corpore, idest spacium illud continens citra corpus contentum, non accidit sane idem esse vocem, punctum, et vacuum, quia illa spacia non sunt, in quibus aliquod corpus esse possit.</p>
+<p>	Non potest sane Aristoteles negare, esse spacium unum idemque, in quo erat aqua, et modo est cubus: quod cum neque aer, neque cubus sit, quid erit? quomodo definietur? quomodo nominabitur? quare vacuum illud non dicetur? quod nisi esset, non haberet certe corpus ubi alterius corporis loco succedat, neque locum unde recedens, alteri cedat. Nihil enim illuc movetur, ubi aliquid aliud est, sed unde cessit aliquid aliud: quia cubus iniectus in aquam non est in spacio in quo est, sed in quo erat aqua, et ubi nihil est: sed si quid aliud esset, ipsum esse non posset. Unde quidquid movetur, quanam movetur, nisi per vacuum, utpote per spacium, in quo nihil aliud est? neque enim per vacuum moveri intelligimus, vel in vacuo esse, in quo nihil est neque movetur, ne ipsum quidem, quod illic movetur, ibique est. Ubi quoque densatio fit et rarefactio, oportet, non minus quam ubi translatio fit, partem parti cedere, et consequenter corpus corpore trudi, in eodem loco; id non est possibile, nisi sit spacium a corporibus distinctum, successive unum atque alterum recipiens. In spacio vero, in quo nihil esse videtur, aer certe est, inter aerem vero atque corpus sensibilius, nihil physice mediare dicimus, licet mathematice aliquid inter duas diversorum corporum superficies semper intelligere oporteat. Quod sane medium si nominare velis, non aliter certe poteris, quam alia ratione vacuum, locum, quod non sit spatium, sed spatii terminus. Sitque revera, ubi nullum est corpus, non tamen spatium, sed spatii extremum, quod si vacuum appellare libet, vacuum corpora disterminans esse intelligatur, loci, spatii, locatique conterminum. Dicimus quoque, quod cum aqua migrat in aerem, majus subjecta materia spatium exigit, minus vero, cum in aquam transmutatur aer. Non propterea sequitur interdum alicubi vacuum esse sine corpore, natura enim ita providet, immo necessario naturaliter fit, quod terra vel sole, nunc ad unum, nunc ad alterum tropicum accedente, in hisce semper aequalis transmutatio succedat. Neque enim obest, quod plus aeris fiat ex aqua (ut ex vasibus, quae ex mutatione humidi in spiritum perfringuntur, est manifestum), quia si hinc modica aqua migrat in multum aeris, multum aeris alibi in modicam aquam mutatur, dum vitatur contrarium a contrario. Ad id autem non oportet circulum vel motum rectum definire, undique enim aucta aqua vel aere, undique totum corpus majus minusve redditur. Non enim minus tardiusve crescit totus lacus, si illi e subterraneis emergat aqua, quam si defluat e montibus, vel e coelo pluat. Ex iis omnibus manifestum est tandem idem esse locum, spatium, plenum, vacuum, et quod non est aer vacuum ipsum, sed primum, cui vacuum replere convenit. Dicitur plenum, quatenus habet molem cujus est susceptivum: vacuum, ut sine illa intelligitur: locus, ut continet.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXIV.</head>
+<p>	Vacuum est spatium, in quo tot corpora continentur. Ipsum est unum infinitum, cujus partes ibi tantum sine corpore esse intelligimus, ubi corpora corporibus continguntur et alia moventur intra alia.</p>
+
+<p>RATIO.</p>
+<p>	Vacuum est, a quo corpora recipiuntur, et in quo corpora continentur: recipiuntur autem ab eo, dum eodem spatio semper immobili permanente, (quo nihil fixius esse potest,) aer vel aliud alii in ipso cedit. Interim igitur nihil per vacuum ferri intelligitur, quasi ante ibi nihil extiterit, quia aer est, ubi nullum aliud corpus sensibile apparet; qui sane aer ipse esset locus, ipseque esset vacuum, si non moveretur, si non cederet corporibus aliis eodem succedentibus in spatio. Porro quia ubi erat aer, ibi aliud est corpus, ubi una aeris pars extiterat, alia convincitur adesse, ideo non ipse est natura loci, spatii, vacui. Hic non est, quod se torqueat Aristoteles, quod, cum cubus tantam habet magnitudinem, quantum habet vacuum, propterea eaedem sunt dimensiones cubi, atque vacui, potius quam aequales. Sicut enim differt corpus cubi ab aequali vacuo et loco, locatum videlicet a loco, ita dimensiones corporis a dimensionibus spatii seu vacui differant oportet. Neque propterea sequitur, quod eadem ratione quotlibet dimensiones in eodem erunt loco: inconvenit enim simul duplices esse locatorum dimensiones; dimensiones autem locati atque loci simul, compositasque quodammodo esse, prorsus est necessarium. Nusquam enim tantum corpus locabitur, nisi tantundem sit (quod ipsum capiat) dimensione spatium. Oportet igitur, o Aristoteles, locum facere corporibus, praeter cujusque molem, non enim aliter exceptio et collocatio fit, nisi in eodem spatio C (quod est quid aliud a duobus) in quo erat A, fiat B. Cum enim cutus transfertur, suas easdem secum habet dimensiones, ibidem iis, quae sunt spatii, perpetuo permanentibus, dum infinita in eodem successive sibi corpora cedant.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXV.</head>
+<p>	Non igitur ullus erit motus, si non sit vacuum, omne enim movetur aut e vacuo, aut ad vacuum, aut in vacuo.</p>
+
+<p>RATIO.</p>
+<p>	«Nulla necessitate (inquit Aristoteles,) si motus est, vacuum esse oportet: tum quia (contra Melissum) potest alterari plenum, tum quia in motu secundum locum corpora sibi cedant oportet». Nos ad haec concedimus et consentimus, non oportere esse spatium, quod motum faciat sine corpore, tale enim vacuum et natura respuit, et nos, ulla ratione non cogente, ponere non debemus: sed vacuum esse potest, in quo sibi cedant, succedantque corpora, si spatium idem revera est, quod jam ab aere occupatum, ab aqua nunc occupetur, postmodumque ab alio aliquo possit occupari, ab hisce omnibus distinctum consequenter. Necesse est enim aliud quid vere esse a me et ab aere spatium, in quo aer mihi, et ego aeri vicissim cedimus.</p>
+<p>	Quod item inquit Aristoteles oportere motum esse in tempore, et ideo, ut motus sit, temporalem esse oportet, cui mire obstat vacuum, quia nulla est proportio velocitatis inter id, quod per plenum movetur, et quod per vacuum; istud sane nobis non obest, quia non tale ponimus vacuum, quale alicubi vel aliquandiu immoretur sine contento aliquo corpore. Nihilominus tamen etsi illud sit, non tollit propterea motum temporalem. Non necessarium est moveri in instanti, quod movetur per vacuum. Oportet enim etiam spatium non esse indivisibile, neque corpus quod movetur: ubi vero spatium est corpus divisibile, licet nulla sit ex parte medii resistentia, quid necesse est motum in instanti fieri? Si enim ponatur quod ego per lineam A B moveri debeam a termino A ad terminum B, inter quos terminos neque aer neque aliud corpus intermediet, nunquid non propter molem meam atque distantiae A B, quae est 50 passuum, nihilominus mihi conficiendi erunt 50 passus, quam aere mediante? Procul dubio, quamvis velocitatis differentia soleat accedere etiam a dividendo medio luto, aqua, vel aere, nihilominus tamen aliae tarditatis velocitatisque rationes reliquuntur; oportet enim successive alternatimque passus extendere, et successive pars post partem recedat a termino, moveatur per medium et attingat terminum, et quodam ordine distantiae partes, etsi nihil contineant pertranseat. Neque propterea accidit, ut aliquid per nihilum moveatur: vacuum enim non est absolute nihil, sed nihil eorum, quae moventur; est tamen verum spatium locus, et necessarium omnium receptaculum, quod non minus debet esse verum et necessarium Aristoteli, ut in eo sibi diversa cedant corpora, quam eidem materiae necessario verissimeque esse oportet, in eodem diversae recipiantur formae subjecto. Quatuor igitur nobis in genere sunt velocitatis tarditatisque rationes: aut quia medii et spatii dimensio differt, facilius enim atque citius cedit aer, quam aqua: aut quia ipsum quod fertur, differt, quia velocius fertur, quod magis valet sibi locum aperire: aut differt terminus ad quem est motus sicut differt terminus minus naturalis a magis naturali, et naturalis a praeternaturali, ad quos majori vel minori sponte vel violentia feratur. In his omnibus, quod ad motum spectat, vacuum nihil conducere videtur, cui non motum vel quietem sed locum et continentiam tantum est administrare. Ut enim materia aequaliter se habet ad omnium formarum receptionem, ita spacium ad omnium locandorum continentiam indifferenter; quae quidem propria natura hinc indeque hac illaeque huc illucque versum definite moveri contingat. Quatenus aliquid feratur per id, quod erat plenum, non fertur tamen per id, quod est plenum: et id, quod movetur in orbe, movetur sane in spatio, in quo nihil, quod vero movetur motu recto, opus est, ut aliud illi cedat. In iis itidem, quae pelluntur voluntarie, et non cum ratione, dicit Aristoteles virtutem acquiri a medio aere, vel alio, cum potius ab eo impediantur; sed ipsum, quod fertur, innatam vel impressam habet virtutem, qua ad illam loci differentiam, ad quam pellitur, feratur, quae virtus impressa quandiu durat, tandiu pellit: ut ubi quis pilam sursum jaciat, illi levitati proportionale impressit; ad cujus certe lationis differentiam nihil facit medium, quamvis ad lationem simpliciter sit necessarium, quia, nisi sit spatium, per quod feratur, nulla latio esse potest. Non tamen ideo ejus est definire propter quid quod movebitur stabit alicubi.</p>
+<p>	Ex hoc igitur, quod vacuum nullam habet differentiam, non necesse est corpora in vacuo quiescere, ut videtur Aristoteli, sed per vacuum, vel a motu sibi naturaliter vel alia ratione indito non impediri, quia vacui non est, ut motum determinet, sed ut sit illud, in quo, vel per quod aliud quiescat, vel moveatur, vel ut natum est se habere, per se ipsum, vel ad alia sese habeat. Immo tale naturaliter oportet esse spatium, quale cum nullam ad motum differentiam habeat, vel faciat, non magis faveat una, quam alia ratione motis: non magis iis, quae moventur, quam iis, quae quiescunt; et ideo spatium, per quod res naturaliter moveantur, potius debet intelligi vacuum quam aer aliudve, quod resistat, vel cedere debeat. Sed decet esse, in quo haec mutuo resistant, atque cedant. Vacuum non tollit proportionalitatem motus, licet enim tollatur ratio velocitatis, quae est ab obsistente, remanet tamen ratio quae est a diversitate terminorum, ut sursum et deorsum, ratio item, quae est a qualitate spatii, ea quoque, quae est a mole mobilis, ea tandem, quae est a virtute pellentis extrinseci vel intrinseci: medium igitur nec est, nec esse potest velocitatis tarditatisque ratio. Tandem qualecunque et quodcunque sit medium, per quod res ferantur, contra rationem videtur quod dicitur ab Aristotele, mobile a medio habere quod moveatur, cum per medium alia ascendant, alia descendant, et quaquaversum deferri videmus haec quidem et illa tunc nuncque tardius, illa vero et ista nunc tuncque velocius; in quibus, quamvis quod est in medio, (quod Aristoteli medium dicitur) aliquando magis, aliquando minus resistit, ut aqua impurior, magis quam purior, haecque magis quam aer, nunquam tamen medium per sese habere vim, qua pellat, ostendi poterit.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXVI.</head>
+<p>	Vacui non solum continere, sed et disterminare est: et ideo ipsum locum sine corpore, vel spatium, in quo corpus est, esse dicimus, neque alia, quam levi quadam ratione, locum atque vacuum differre sentimus.</p>
+
+<p>RATIO.</p>
+<p>	Vacuum certe etiam oportet esse, quod disterminet: quod enim tellurem ab aere discernit, ne sint continuum, nunquid tellus ac telluris superficies? aerne an aeris superficies? Nonne disterminans aliud ab iis esse oportet? Ibi igitur ponimus vacuum sine corpore, ubi corpora corporibus contiguantur. Ibi vacuum non est sic mathematice spatium interjectum, quia est inter duo corpora necessario, et inter utriusque superficiem positum; si enim duo corpora sunt contigua, quae oppositis diversisve motibus moventur, vel quorum alterum movetur, alterum movet, vel alterum quiescit, non est quod communem habeant superficiem, sed inter utriusque proprias, aliquod spatium, vel spatii terminus esse debet, quod qualecunque sit, aliter, quam vacui nomine, inscribi non poterit, si neutrum esse potest extremorum: haud aliter quam, ubi unitas est a dualitate discreta, intermedium aliquod sit opus est, quod neque unitas sit, neque dualitas, neque numerus; ut igitur vacuum rationaliter est in numeris, atque mathematicis, ita realiter intelligatur in physicis disterminans. Non datur vacuum, spatium, sed medium contiguorum corporum: si enim esset spatium, haberet extremum distinctum ab extremo duorum corporum; et forte oporteret adhuc quaerere in infinitum, quid mediet inter illa extrema, ubi vacuum est locus secundum aliam rationem, quia est locus, qui continet, et est locus, qui terminat.</p>
+<p>	Vacuum vero spatium, in quo corpora continentur, est unum infinitum, cujus partes alicubi sine corpore esse intelligantur, nempe ubi corpora corporibus sunt contigua, ut unum continuum facere non videantur; ita tamen necesse est, inter vere continentem, sphaeramque contentam, aliquid extet intermedium. Hinc igitur quamvis vacuum in universo sit unum continuum, propter corporum distinctionem habeat, quod in insitum et comprehendens distinguatur; quemadmodum quamvis una continua lux, quae in aqua et in aere est, eam tamen, quae in aqua est, ab ea, quae in aere est, dicimus terminari, tanquam a corpore, et a quodam inter utrumque corpus medio, tanquam ab extremo. Hinc certe continentiae dimensionum specifica diversitas non obsistit, quia, ut in alio articulo dictum est, dimensiones vacui ad corporis dimensiones collocandas non sunt incompossibiles, sed sunt adeo necessariae, ut nullae aliae sine aliis esse possint, quae sicut dimensiones spatii minores corpus minus, majores corpus majus recipiunt, ita et nullae nullum. Mitto, quod non solum dimensiones vacui (quod neque substantia est, neque accidens, si peripatetice significent haec nomina) concurrunt cum corporis dimensionibus, quod est substantia quaedam; et cum dimensionibus lucis, vel coloris alicujus, quae dimensiones corporis diaphani adaequant, licet dimensiones illas non luci, sed corpori illuminato proprias dicendo persisterent Peripatetici: sed nos interim non urgebimus.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXVII.</head>
+<p>	Vacuum tum separatum quid a corporibus, tum ipsis imbibitum, tum unum continuum dicere non formidamus: id enim necesse est.</p>
+
+<p>RATIO.</p>
+<p>	Non ita vacuum corporibus insitum dicimus, ut ex pleno et vacuo corpora componantur, (quamvis forte bene dictum sit apud eos, qui vacui nomen pro aere usurpant) sed quia, cum omne corpus collocari oporteat, et spatii dimensiones, quae ipsum excipiant, exquirat, oportet ut spatii dimensiones cum corporis dimensionibus sibi ita respondeant, et se invicem adaequent, ut harum continuitas cum illarum continuitate quasi correlative mutuo se ponant. Vacuum igitur licet physice vere realiterque sit separatum, tamen a corporibus non est, sed ratione dictitante concipitur. Concipitur autem per analogiam corporum eodem in spatio succedentium. Sic materia Aristoteli logice concipitur, logice tamen ipsa quid est non intelligitur sine forma ulla, per cujus analogiam cognoscitur.</p>
+<p>	Intelligitur ergo vacuum a corporibus separatum, vel quatenus naturam refert a corporibus distinctam, vel quatenus ipsis ad eorum distinctionem interjicitur. Corporibus item dicitur insertum, imbibitum, insitum, ob dimensionum ejus cum illorum dimensionibus concursum. Continuum tandem unum infinitum dicitur, quatenus, citra habitudinem ad particularia, unum est omnia recipiens, continens, terminans, comprehendens, aliud ab universo, a particularium mole, et particularium terminus, diversas suscipiens denominationes.</p>
+<p>	Quod tandem ad totam hanc materiam spectat, occulere nihil visus est super hoc negotio Simplicius Peripateticus, magis quam suus princeps, qui post explicatam Aristotelis intentionem, melius, tandem definiens, inquit: <hi rend="italic">vacuum quidem per se spatium et corporum quoddam receptaculum, quod etiam habet aptitudinem ob diversas ipsorum differentias, forte nondum ex dictis sublatum est. Etenim in raris et densis oportet esse quendam locum et intervallum, aliud a corporibus, quod quidem comprehendit rarum. Non enim a corpore proximo fit, sed in ipso intervallo, a quo corpus proximum impulsum, vel densum excessit. Videtur etiam Plato vacuum revera, et omne corpore privatum intervallum confutare, nam vacuum hoc actu, quod evertat continuationem, et consensum universi intercidat, prorsus non est, neque quicquam confert, ut sit.</hi></p>
+</div3>
+<div3>
+<head>ARTIC. XXXVIII.</head>
+<head>UBI DE TEMPORE.</head>
+
+<p>	Tempus, quod est mensura motus, non est in coelo, sed in astris, et primus ille motus, quem concipimus, non est alibi, quam in terra subjective.</p>
+
+<p>RATIO.</p>
+<p>	Si tempus ponatur nobis, ut Aristoteli, mensura motus, non propterea ponetur in coelo, cujus non est subjective motus ille, quo omnia tempora et motus metiri dicuntur, sed certe in astro; si quippe motus ille, quo omnia velocissimo raptu circa terram exagitari videntur, in terra subjective re vera comperiatur, tot sane erunt in universo tempora, quot sunt et astra. Neque enim potest esse tale unum in universo, ut omnium motuum mensura existat: quandoquidem si nos essemus in alio astro, apertissime constaret brevissimum motum omnium esse alium ab isto, sicut in luna constat alium esse motum diurnum, ubi octo et viginti dierum spatio in sua superficie recipit, quod hoc astrum, tellus, spatio viginti quatuor horarum. Proinde cum tempus ut quid fluens imaginetur, oportet ipsum continue regulatissimeque fluens intelligere: at quinam motus iste diurnus illius potest esse mensura, quando motus super linea aequinoctiali non sit diurnus neque aequalis? si non aequaliter per regulatos duos alios motus exorbitet, quorum alter dicitur octavae, alter nonae sphaerae dicitur proprius, unde circuitus ille tum regulariter, tum et irregulate producatur? At in motu illo quas duas partes aequales accipies? ubi duos fingeres motus proportionales? An si provideas dividendo hanc mensuram unam, motum unum, et distinguendo in duobus circulis, meridiano videlicet et aequinoctiali, aliquid promovebis, ut tandem certa lex partium unius vel alterius circuli habeatur?</p>
+<p>	Porro revera omnes circuli, qui videntur et verificantur in coelo per nostros astronomos, non sunt nisi usurpato nomine circuli, neque fideliter per circuli canones judicari possunt. Regula igitur motus diurni, sive a sole capitur solo, sive a terrae tantum motu, sive ab utroque, sive ab his, sive ab aliis circuitibus, nulla est prorsus, neque esse potest geometrica: si quippe regulariter dividere lineam helicam non est possibile, et motus supra ea aequalis omnino et exacte ad rationem, non est naturalis: quonam igitur pacto se commetiri poterunt motus atque tempus? ubi enim est ista temporalis mensura? ubi est illud sibi aequum, quod aliorum aequalitatem et inaequalitatem judicet? Quia primus motus Aristoteli habebatur omnium regulatissimus, utpote cui motus octavae sphaerae hic singularis esset primus, ideo ex ipso capta est ratio temporis et mensurae durationis omnium: at quid nunc diceret, si alios motus comperiret, diurnique motus mensuram millegeminis irregulatisque commotionibus turbari videret? Jam vides, ad quot et quanta errata unius rei ignorantia atque praesumtio hominem istum adegerit! Ecce quomodo cadunt sex illae rationes, quibus motus coeli tempus asserebatur, tanquam per ipsum 1 mensuretur duratio successiva, 2 quia sit maxime famosus, 3 quia sit omnibus communis, 4 quia sit invariabilis, 5 quia sit primus omnium, 6 quia sit minimus, utpote velocissimus. Postquam de ratione mensurae est 1 ut agnoscatur per ipsam alterum quantum est, 2 ut sit unius generis cum mensurato aut simpliciter aut per easdem conditiones, alterum, vel utrumque habeat longitudinem, vel successionem, vel intensionem; 3 ut sit nota, immo notior, utpote per quam alia innotescant; 4 ut perstet eadem, ne deceptionem causet in judicio; 5 ut sit minima, ut nihil sit, quod hanc mensuram subterfugiat, minima autem non simpliciter, sed secundum sensum.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XXXIX.</head>
+<p>	Potius motus est mensura temporis, quam tempus mensura motus: verius enim per motum novimus durationem, quam e contra: quamvis enim haec mutuo se mensurari contingat, nunquam quoddam tempus mensura motus erit, ni prius quidam motus mensura temporis extiterit.</p>
+
+<p>RATIO.</p>
+<p>	Cum tempus sit duratio quaedam, quae quidem licet absolute mente capi possit et definiri, tamen a rebus absoluta non invenitur, quia relative ad durans et durantis dicitur. Sicut igitur locus unus, infinitum unum, infinitum spatium commune pro universo infinito esse oportet, ita unum tempus commune, una duratio, nec finem neque principium ullum recognoscens. Et veluti sub uno infinito spatio, continuo, communi infinita particularium loca, propriaque spatia intelliguntur, quae singulis quibusque quadrant: ita sub communi una onmium duratione, diversis diversae durationes atque tempora appropriantur. Differunt autem duratio atque spatium, quia undique, in generali, et particulari, spatium immobile manens, tempus vero velocissime fluens intelligitur in iis, quae citissime moventur, tardius in iis, quae aegrius mutantur, minime in iis, quae nullam suscipiunt alterationem, si quae horum sub tempore licet collocare, ea quidem ratione, qua non eorum, quae moventur modo, sed et omnium, quae sunt et consequenter durare intelliguntur, tempus dicimus; dum tamen sicut locum universalem, immensum spatium, ita et tempus universale aeternitatem dicimus. Sub una igitur duratione alia dicuntur aeterna, alia simpliciter temporalia, et horum alia maioris, alia minoris aetatis, et in his accidit menti accipere tempus, tum ut mensuram tum ut mensuratum; dum vicissim tum quantitatem durationis per motum, tum motus quantitatem per durationem inquirimus: interim tamen nunquam tempus est mensura motus, nisi ipsum prius ut motus definitum capiatur. Immo semper tempus alicujus revolutionis quantitas est, et propterea magis, atque per se, motus est temporis mensura, minus autem, atque per accidens, tempus est mensura motus: ita tandem, ut verius dicamus non motum per motum, quam motum metiri per tempus; dum postquam motus quandam durationem pro mensura accepimus, per ipsum alias motus durationes examinamus. Ex quo constat, nos certe cognoscere de tempore per motum potius, quam de motu per tempus. Et certe, ubi videt Aristoteles exemplo eorum septem, qui Sardibus apud heroas dormierunt, quod nulla est perceptio temporis, ob id quia nulla est perceptio motus, debebat poteratve concludere, motum esse temporis mensuram, potius quam tempus motus.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XL.</head>
+<p>	Nihilominus tempus esse dicimus, si omnia quieverint. Propterea non tempus sed temporis cognitionem motui alligare debuit Aristoteles.</p>
+
+<p>RATIO.</p>
+<p>	Certe si motus non esset et mutatio, nihil temporale diceretur, idem unumque esset omnium tempus, una eademque duratio, quae aeternitas dicitur: immo tempus quod est cujusque rei aetas, nullum esset. Esse igitur temporis juxta suas species pendet a motu.</p>
+<p>	Jam si accidat omnia quiescere, accidetne propterea haec non durare? immo durant, una eademque omnia duratione durant. Sed nullo existente motu, nulla durationis ejus erit mensura. Erit igitur motus mensura temporis, seu durationis omnino in iis, quae certam definitamque durationem admittunt, sed revera magna ex parte id olfecit Aristoteles, cui cum placuit accipere tempus mensuram motus, tempus motum diurnum esse voluit, et ideo non accepit durationis speciem absolute, sed secundum esse ad quandam motus speciem contractum. Si nusquam igitur fuisset motus, diversae non essent durationis species, sed una, et sine nomine (quod a differentia originem habet) aeternitas. Sed si ponantur omnia quiescere, cur numerus temporis a numero motus absolvi nequeat, ego non satis videre possum, nisi pro principio habeam ut temporis significatio omnino legi illius peripateticae definitionis coarctata sit, potius quam (ut fieri debet) temporis ratio tum absolute tum respective capiatur, ut tum uno tum alio modo sit; ex iis autem modis tempus non modo ut motum numerans, atque mensurans, sed ut per motum mensuratum numeratumque capiatur. Quod autem ad quietem attinet, et hanc per motum mensurari dicimus atque tempus; quod si omnia quieverint, non propterea desinet tempus esse durationis mensura, quia una erit omnium duratio, una quies. Unde sicut rebus motis, unius motum per alterius motum judicamus, ita tunc unius quietem per omnium quietem, et omnium quietem per unius quietem (nisi inaequalitatem de ratione temporis esse velis atque mensurae,) tempus judicabit: quandoquidem mensura duplex est, alia, quae sumitur a parte respectu totius, ut cum dies mensuratur per horam, alia quae sumitur a toto ad totum, et haec duplex est: adaequata videlicet, ut ubi toto pondere B quod est quinque librarum, ponderamus ponderabile C totidem librarum, vel cum ulna ligni mensuramus ulnam panni; et proportionalis, ut cum gradu coelesti gradum terrae illi correspondentem mensuramus.</p>
+<p>	Haec omnia ita definita de tempore, ubi ipsum non durationis speciem, sed ipsam durationem credimus; unde tempus perpetuum aeternitas est, finitum aetas est, secundum species innumerabiles. Si cui vero libeat, tempus pro mobilium duratione usurpare, non infitiabimur, dummodo interim, hoc habito pro principio, non impediatur a contemplatione plurium, quae modo aliasque tetigimus et determinavimus. Quam bene etiam temporis cognitio motui alligata sit, et quam feliciter, inde constare potest; hic enim sufficit nobis, monstrasse locum: quia tempus, quod aequalis et catholica mensura motus est, non potest aliter percipi, fingive, quam per motum, sive naturaliter a circuitione solis, vel lunae, vel alterius astri, sive artificialiter a fluxu aquae, vel pulveris, vel conversione punctorum, de quibus nullum non sensibiliter ab alio et a se ipso varium non concipimus. Et pro satis comperto habemus, nusquam motus quantitati et figurae geometrice aequali, physice aequalem motum, molem, atque figuram respondere.</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic">CIRCA QUINTUM LIBRUM.</head>
+<div3>
+<head>ARTIC. XLI.</head>
+<p>	Quidquid in quinto libro, ubi de divisione motus in species, de motus unitate atque pluralitate, de motuum atque quietum contrarietate habetur, postpraedicamentale, logicumque est, minime quidem physicum.</p>
+
+<p>RATIO.</p>
+<p>	Quis considerationes illas, quibus totus quintus liber physici auditus expenditur, logicas esse ignorat, praeter eum qui inter naturales et rationales considerationes distinguere nequeat? Talia quoque logica sunt ratiocinia, qualia, quid ad physicam conferre possint, vel boni addere comtemplationem, nihil certe video: judicaremque prorsus haec futilia, siquidem meum hoc negotium otio indignius esse judicarem, deque ingeniis, quibus talia sunt curae, curandum non censebo.</p>
+</div3>
+</div2>
+
+<div2>
+<head rend="italic">CIRCA SEXTUM LIBRUM.</head>
+<div3>
+<head>ARTIC. XLII.</head>
+<p>	Nunquam physico propositio vera est, continuum (quodcunque sit illud) ex indivisibilibus non componi; sicut et quod indivisibile moveri nequeat. (<hi rend="italic">vide</hi> 32, 86.)</p>
+
+<p>RATIO.</p>
+<p>	Priusquam Aristoteles supponeret, continuum in infinitum esse divisibile, dividique in semper divisibilia, indicare debuisset, quomodo totum universum aequaliter sit divisibile cum terra ista, et totus iste globus cum hoc pomo, quomodo haec, licet finita sint inaequalia, per divisionem in infinitum sunt aequalia. Sive enim aequales, sive proportionales partes intelligas, in quas fiat divisio, semper ei quod est acceptum de majori in infinitum divisibili, aequale accipi poterit de in infinitum divisibili minori: quia partes quas semel accepisti a majori majores, acceptis iterum atque iterum a minori mole minoribus, adaequabuntur necessario. Quod si ita, cur non utrumque est actu aequale totum? Quomodo non omnia continua aequalia non sunt, si ad aequales tandem constituendas magnitudines, per proportionales saltem partes devenire possunt? cur non aequale actu est in utroque, puta in magno et parvo, si ita infinitae partes elici possunt ex uno ut ex alio? quomodo aequalia sunt in potentia, actu vero inaequalia? cur aequalis ista potentia aequale aliquid, in quo fundetur, quodque aequalem constituat actum, non cognoscit? quomodo finita inaequalia sunt, infinita aequalia? Dicis aequalia in potentia: at quis est actus hujus potentiae? dicis nullum: at quaenam est haec potentia, cujus nullus est actus? Dicis hoc ferre potentiam mathematicam, minime vero physicam: at cur in infinitum divisibile accipis quantum physicum in physicis, cum nusquam natura neque naturalis ratio in infinitum dividendo progrediantur, sed in quibusdam minutis sistat oportet? Mitto quod neque mathematici accipiunt infinitam sempliciter lineam, cujus nullus usus esse potest, sed secundum quid infinitam accipiunt, quia illis infinitum est quantumcunque, et quod non definitae sumitur quantitatis, quatenus illis post acceptum semper amplius accipere liceat. Quomodo, cum linea A B duplo major sit linea B D, per duplum in infinitum divisibilis non erit? si in puncto C est illi aequalis, et aequaliter in infinitum divisibilis? Ibi si divisibilitas est duplex, quia lineae magnitudo est duplex, cur infinitas partium non erit duplex, et consequenter infinitum, quod est in linea A, sit duplum ad infinitum quod est in linea B, et infinitum in B (sive in potentia sit, sive in actu, nihil differt) sit medietas infiniti in A? Quomodo unum infinitum est majus alio in potentia vel in actu? an infinitae partes unius sunt majores infinitis partibus alterius? Atqui (ut diximus) cum liceat quotcunque accipere partes a minori, tot certe tandem licebit accipere et duplicare, ut semper partes majores adaequare possint. Partes enim lineae A B bis divisae in partes aequales, sunt aequales partibus lineae B D semel divisae et in infinita et infinities divisibilis. Non differt si toties vel quoties fiat divisio. Porro licet aequaliter utrumque sit divisibile, quia in infinito non est majus vel minus, et infiniti digiti non sunt minus, quam sunt infinitae parasangae: stabit tamen semper verum, quod duplo sunt plures partes aequales in linea A, quam in linea B; unde an in plura divisibilis sit illa, quam ista linea, et duplo majorem obtineat potentiam, viderint alii. Tandem cur non judicat Aristoteles, quod cum linea divisibilis sit in semper divisibilia in infinitum, et consequenter in infinito sint infinita adhuc in infinitum divisibilia, propterea illi non remanere locum, quare in primo physicorum tam strenue urgeat adversus Anaxagoram, ut ex cujus sententia consequatur, in infinito esse infinita infinities?</p>
+<p>	Cur non et infinities ultra infinities infinita progrediemur, ubi in infinita infinities plura divisibilis est superficies, quam linea, et corpus infinities in infinita plura, quam superficies? Aliud sane est magnitudo mathematice, aliud magnitudo physice sumpta. Est autem naturae dividenti terminus indivisibile quoddam, quod videlicet in plura alia non dividitur, cum in ipsum facta fuerit divisio; quod etiamsi ratio et mathesis citra praxin omnem et usum ad vanam tantum contemplationem velit infinite divisibile adsumere, faciat ad arbitrium. Facit certe natura divisionem, per quam consentaneum est ad illas ultimo minimas partes devenire, ad quas nullum artificium instrumento aliquo propius accedere possit; ultra quam, cum nullus actus naturae neque alterius causae progrediatur, quid rationis est, quod tam subtiliter et egregie non physicorum more sed mathematicorum ludat ingenium? Ex minimis illis corporibus omne corpus componitur, corpus inquam sensibile, quod in minima illa cum fuerit resolutum, nullam certe retinere potest compositi speciem; illa enim prima sunt, ex quibus omnia conflantur corpora, et quae propriissima fiunt omnium corporaliter subsistentium materia. In eas partes resolutum os, nullam ossis habet formam: caro nullam carnis: lapidis nullam speciem lapis, in iis os, lapis et caro non differunt, sed ex iis diversimode compositis, compactis et ordinatis, caro, lapis, os et caetera fiunt diversa. Ex horum duobus compositum in horum duo est divisibile, ex horum quatuor compactum in quatuor horum est divisibile. Et ita necessarium est, ut individuum additum individuo faciat majus, quia individua corpora physica sunt, non vanae mathematicorum species.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XLIII.</head>
+<p>	Minime omnium tempus a motu continuitatem habere dixerim, vel a magnitudine, quoadusque id melius probaverit Aristoteles; nusquam vero illud ipsi concesserim, quod ait esse manifestum, et magnitudinem a tempore continuitatem obtinere, quia magnitudinis et temporis eaedem sint divisiones. (<hi rend="italic">vide</hi> 17. 37.)</p>
+
+<p>RATIO.</p>
+<p>	Si cessante motu non desinit labi tempus, cur ab illo continuitatem habebit? cum tempus mensuret omnem motum, nulli certe motui alligabitur. Immo dum nullus motus comperiatur, nec probetur continuus regulariter, non tamen propterea durationem ipsam, tempusve ipsum irregulariter continuum dicemus. Si item omnia ad hoc spatium quiescere intelligantur, non propterea illa hora non differet a semisse, et a puncto, essetve momentum. Si rite definiatur tempus, videbitur per se illi continuitatem convenire, quia per se quantum continuum est; quod autem mensuret motum et mensuretur a motu, mensuret magnitudinem et a magnitudine mensuretur, accidit illi, adventitium illi quoddam est, et extraneum. Jam quomodo ratio ejus quod habet per se, quodammodo pendeat ab eo, quod respicit per accidens, ego non satis video.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XLIV.</head>
+<p>	Licet tempus et magnitudinem infinita concesserim atque ponam: non tamen ideo isthaec eodem pacto in magnitudine, atque tempore dixerim reperiri. (<hi rend="italic">vide</hi> 81.)</p>
+
+<p>RATIO.</p>
+<p>	Quomodo item infinitas eodem pacto sit in tempore et magnitudine, non capio, nisi quia utrumque continuum quoddam est, et utrumque mihi (non Aristoteli) immensum; an propter illam mathematicam in infinitum divisibilitatem? Porro tempus Aristoteli esse debet divisibile in infinitas partes aequales, quia aeternum est, magnitudo autem, quae convexo coeli terminatur, divisibilis est in illas proportionales et imaginarias. Tempus inquam physice, realiter et vere est infinitum, magnitudo autem geometrice et varie. Tempori item infinitas est in praxi, quia semper partem ultra partem licet accipere, magnitudini vero est in phantasia infiniti continui in semper divisibilia divisibilis.</p>
+</div3>
+</div2>
+
+<div2>
+<head rend="italic">CIRCA SEPTIMUM LIBRUM.</head>
+<div3>
+<head>ARTIC. XLV.</head>
+<p>	Ex suis principiis (velit nolit) fateri debet Aristoteles, motum circularem motui recto comparabilem esse, cum alicubi tetragonismi possibilitatem supponat et asserat.</p>
+
+<p>RATIO.</p>
+<p>	Motus sane circularis recto comparabilis est, si lineam rectam comparare circulari possibile est; sique temporis continuitas, motus corporisque mobilis continuitatem consequitur, cur non proportio erit inter velocitatem et tarditatem in motu per duas lineae species regulares? Sed de iis quae sunt circa geometrici tetragonismi possibilitatem, partim ubi de somnii interpretatione discussimus, partim aliis in locis definiemus.</p>
+</div3>
+</div2>
+
+<div2>
+<head rend="italic">CIRCA OCTAVUM LIBRUM, UBI DE PRIMO</head>
+<head rend="italic">MOTU ET MOTORE.</head>
+<div3>
+<head>ARTIC. XLVI.</head>
+<p>	Quod dicit Aristoteles lationem caeteris motibus esse priorem, non probatur nobis.</p>
+
+<p>RATIO.</p>
+<p>	Cur latio caeteris motibus prior erit, si ita se habent mobile atque motus, ut nihil moveri incipiat, postquam non movebatur, nisi certe novam aliquam dispositionem acquisiverit, quo illuc hinc deferri incipiat. Mitto quod, mundo existente aeterno, non potest prius naturaliter esse coeli motus, quam alteratio eorum, quae a coeli motu gubernantur. Nullum quippe, ita opinantibus et aliis, instans esse potest, in quo non continua rerum mutatio perseveret. Quod si ad non prius tempore vel duratione, sed ad prius natura recurrat Aristotelis mentio, nos quoque, priusquam aliquid moveatur localiter, novam natura praecedentem dispositionem, vel ab extrinseco efficiente seu movente, vel ab aliqua intrinsecus in subjecto mobili innovatione imbuisse oportere asseveravimus. Cur enim nunc moveri incipit, cum prius non moveretur, si alia novitas aliqua non illud adalterat?</p>
+</div3>
+
+<div3>
+<head>ARTIC. XLVII.</head>
+<p>	Necessarium est lationis continuitatem alius motus continuitatem consequi: cur igitur dixit praeter lationem alium motum non esse continuum? (<hi rend="italic">vide</hi> 61. 73.) Nos vero ideo continuam dicimus lationem, ut alii motus per eam continuentur.</p>
+
+<p>RATIO.</p>
+<p>	Ideo sane est motus, ut generatio, seu alterationum vicissitudo compleatur; minime autem ea ratione generatio alteratioque est, ut localis motus consequatur. Ideo est motus, ut ea, quae sunt composita, serventur; et omnino motus omnis ab indigentia aliqua derivatur. Quod enim omnicompos est, nulloque indiget, ut illi addatur accedatque, non est quod moveatur. Tale autem de corporibus subsistentibus, viventibusque nullum est. Si igitur nunquam frustra coeleste corpus movetur, nimirum motus ejus continuitatem continuitas alia perpetuo concomitatur. Porro consideravit Aristoteles in particularibus quibusdam, quae moventur ad novam generationem, ex quibus cum genitum fuerit quippiam, quiescunt; quae ad quantitatem moventur, ubi adaucta imminutaquo fuerint, non ultra progrediuntur; at ex talibus non debebat neque poterat illud inferre universale, quo assereret unam solamque lationem de motus speciebus esse continuam. Astra enim omnia, ut tellus et luna, quae praecipua mundana sunt corpora, ne instans quidem praetereunt, in quo non etiam alterentur; similiter et particularia, quae in ipsis reperiuntur, subjecta, in quibus non est quod unam, certamque motionis, alterationisve speciem spectes, sed communiter alterationem et mutationem. Ubi vero universalis propositio formanda est, non respicere debemus ad hoc compositum divisibile seu dissolubile, ad hoc individuum, sed ad ipsam subjectam physicamque materiam, quae nihilominus continuo sub alteratione fluctuat, quam globus universalis variis lationis differentiis agitetur. Licet enim in quibusdam quaedam alterationes lateant, quae in aliis evidentius sese promunt, non tamen inde abesse intelliguntur; licet etiam secundum quasdam species intendi remittique, incipere et desinere videantur, in alterationis tamen genere, non minus continenter suum cursum peragunt, quam coelum vel globi coelestes, in quibus Aristoteli motus ille continuus regulariter reperitur, perseveratque. In caeteris enim, licet continuus, irregularis tamen, trepidansque et quodam modo non continuus consequenter habetur motus, quia quod augetur, calefit, decrescit, discit, etc., non ita temporibus aequalibus, aequalem magnitudinem, calorem, mensuram et doctrinam recipit; sicut quae in circulum moventur, aequales aequalibus temporibus arcus in suo circulo describunt. Sed an talis aequalis arcuum descriptio, an geometricus iste circulus, seu geometrice regularis latio reperiatur, superfluum est amplius ambigere: multoties enim attendimus, non mathematicam sed physicam regularitatem spectandam in rebus esse, ad quam regularitatem non magis referre licet unam, quam caeteras universas motionis species, quae ita mutuo se concomitantur, ut mutuo invicem concausare videantur.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XLVIII.</head>
+<p>	Est sane primus motor, id est praecipuus, unusque universalis, a quo, et per quem omnia moventur, vegetant, vivunt: in ordine autem aethereorum corporum nullus motor aliqua ratione primus invenitur.</p>
+
+<p>RATIO.</p>
+<p>	Motus diurnus Aristoteli vulgoque philosophorum primus motus est, cui consequenter secundus, tertius, et deinceps sunt caeteri a Saturni usque ad lunarem sphaeram computati. Aliis ultra motum diurnum in fixis, vel supra fixas alios motus intuentibus, secundus, vel tertius, et ultra, motus est a sphaera fixarum. Jam qui erit hic primus motus, si ille aliique, qui generaliter in universo, quasi continuo uno circa terram devoluto, reperiuntur apparere, in terra ipsa vere esse subjective convincentur? dum primo ad diei noctisque vices circa proprium centrum ad solis gemino convertitur adspectum hemisphaerio; secundo ad annuas tempestates variandas, circa solis regionem intra certos hinc inde positos polos; tertio ad sui ipsius renovationem, velutique renascentiam, alibi, aliosque mundi cardines designat, qua certis distributa seculis, non autem perpetuo, quaedam ejus membra frigore torpeant, alia vero calore exaestuent, alia superfluentibus undis subjaceant, subque vorticibus contineant praeruptos anfractus, quaedam continuis aeris apertioris tempestatibus exponantur, nunc has, nunc vero illas proprii corporis partes justa quadam vicissitudinum distributione torridae Zonae subjacentes, aequinoctialis lineae cingulo praecingit, et caetera, quae istud consequuntur, ad tropicos atque polos accidentia in aliis subinde conceptis in propria superficie lineis atque punctis. Dumque interim pariter caetera ad solem nobis affinia moventur astra, quinam erunt orbes horum deferentes? qui motus primi? quinam secundi? Si motus ille, qui videtur universi, soli globo sit proprius, qui erit extrinsecus ille motus generalis extra omnia, cujus phantasiae pareat motus iste unicus et individuus, qui in hoc parvo, solo singularique globo convincitur? Quod discrimen est, si vel omnia circa parvam cymbam temere moveantur, fere instantaneo, rapidissimo et dispergente motu, vel frugaliter haec suum cursum peragens caeteris manentibus moveatur et convertatur? si inquam vel unus tantum motus naturalis possibilisque sit intra alia, vel impossibilis infinitorum circa unum. An non igitur hic, qui nobis videtur primus et universalis, aliis idem nullus est, sed ex uniuscujusque proprio astro alii atque alii per innumerum mundorum seu stellarum numerum appareant? dum vel ipsi orbes circa proprium centrum, ut tellus haec, convertantur, vel circa aliud conversis medium, diurnae lucis atque tenebrarum vices commutentur, ut aperte in luna apparet ob eam causam, quia nobis finitimum est astrum. Nullus ergo primus motus est generalitate quadam, si astris omnibus a propria anima propriis motibus moveri conveniat. Nusquam primus est motus, tempore caeteros, vel natura antecedens, localis, si ex astris tempore prius non reperiatur unum, neque natura patitur ignea astra sine aqueis, neque aquea sine igneis, neque spatium inane. Si ergo ex corporibus nullum est primum, neque motus ullius neque motor ullus erit: quandoquidem cujusque mobilis motor propria anima est.</p>
+</div3>
+
+<div3>
+<head>ARTIC. XLIX.</head>
+<p>	Plus quam puerilis naenia est primum motorem, tanquam in praecipua sede, in circumferentia mundi collocare. Sed quod Aristoteli et vulgo primus motor est, tamque dissitum ab iisdem cernitur, a nobis extra terrae circumferentiam non reperitur, sed in medio terrae principaliter procul dubio residet.</p>
+
+<p>RATIO.</p>
+<p>	Jam si ita se habeant, quae proxime supra dicta sunt de primo motu, quis est ei in mundi circumferentia locus? Nulla enim ratio est pro ultima circumferentia, nullus terminus, nullus finis aeris immensi, neque habet totum hoc aethereum ejusve pars, ut circa terram vertatur, neque prorsus talis ullus coeli motus esse potest: sed ipsum est in quo corpora mundana suos percurrunt circuitus, quorum quidam nobis sunt sensibiliores, quidam parum sensibiles, insensibiles alii. At esto: universum sit finitum, unum continuum, unus mundus, unum corpus sphaericum, circa centrum mobile, quod tamen ullis demonstrationibus fieri non potest verisimile.</p>
+<p>	Ratio haec multum facit ad motum terrae convincendum, item ad praesens propositum, quia cum universum non sit continuum mobile, quomodo a circumferentia et non ex omni parte agit? quod si plures concedes esse motores, cur prior, superiorque potius quam secundus et inferior? Dices quia majorem orbem movet. At an non naturaliter ita major atque minor movetur? An non multus ignis facilius movetur, quam paucus? Si dicis propter influentiam, dicis rem fictam. Mitto, quod illa nihil facit ad virtutem motoris, qua vertit, pellit, girat, movetque, quia aliud est influere et gubernare, aliud est movere, licet non influat nisi movendo. Nos enim de primo motore, qua motor est, quaerimus.</p>
+<p>	Argumentatur enim hanc dissolutionem et incontinuitatem, quod fictorum orbium deferentium diversissimis motibus omnes convertuntur; quomodo igitur possunt unum continuum corpus efficere? quomodo in unico motu concurrere possunt, qui unius tantum continui est, quod discontinui prorsus esse nequeat? quinimmo eos qui moveant primo motu, oportet esse tot motores, quot sunt coeli, orbes, epicycli, astra et omnia quae per diversum motum discontinuitatis argumenta faciunt, quo quid absurdius? vel motorem unum diversis pulsibus distractum ita omnia movere, quo quid inconvenientius? Quae causa erit, ut potius obtineat peripheriam, quam medium? cum in continuo nulla pars movetur sine totius motu, ideoque motus non magis est centri, quam circumferentiae, quia prorsus unus idemque continui totius. Neque est verum, quod pars circumferentialis velocius moveatur, quam pars centralis, quia haec pars cum illa, et illa cum ista, ut unum continuum, simul moventur. Neque verum est semper, quod velocius est illud quod aequali tempore majus spatium praeterit: talis enim comparatio locum habet in diversis mobilibus, non inter partes unius continui, ubi non minus velocitas partium circumferentialium sequitur velocitatem partium centraliorum, quam velocitas centraliorum partium sequitur circumferentialium velocitatem; ideoque proprie una eademque est omnium tarditas vel velocitas. Mitto, quod ubi motus est a natura, seu ab anima, convincitur perpetuo esse a medio, a centro, sicut experimur in nobis ipsis, et argumentamur in omnibus, tum mobilibus, tum et motus speciebus. Unde cum terra sit animal quoddam divinum, et a propria anima principium habeat, eidemque vere conveniat motus ille diurnus, qui universalis motus apparet: motorem suum potius in suo centro, quam in sua vel aliena circumferentia recognoscit.</p>
+</div3>
+
+<div3>
+<head>ARTIC. L.</head>
+<p>	In universo tandem physico auditu e multis, quos adduxit Aristoteles, syllogismis ne unum quidem attulit demonstrativum.</p>
+
+<p>RATIO.</p>
+<p>	Ubi principium, causam, naturam, motum, infinitum, locum, vacuum, tempus et reliqua considerationis subjecta male definita sunt, nihil est quod vere de iis magis quam de non ente demonstrari possit. Nonne et Aristoteli et omnibus confirmata sententia est, quod ante demonstrationem de subjecto praecognoscere oporteat, quid sit ipsum? Jam subjectum sub conceptu malae definitionis non est ipsum, non est verum: ex quo, quicquid de ipso in conclusione syllogistica praedicatur induciturque, tanquam de non ente inducitur, et remanet argumentationis forma seu species sine subjecta materia, provenitque aliquid logicum magis faciens ad ingenti juvenilis exercitium, quam physicum, quodque ad veridicam mentis pertineat formationem.</p>
+<p>	Finis in L physici auditus articulos.</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic">CIRCA PRIMUM LIBRUM DE COELO ET MUNDO.</head>
+<div3>
+<head>ARTIC. LI.</head>
+<p>	Ex ipsis, quae in principio libri de coelo praeponit Aristoteles, pueriliter admodum mundum esse perfectum inducit: quinimmo Peripatetici omnes medium ad probandam mundi perfectionem non habebunt.</p>
+<p>	Ibi potissima Aristoteli ratio est, quod, cum manifestum sit intra magnitudinis species corpus esse perfectum, patebit etiam, universum, ratione qua corpus, esse perfectum, quia per partes discretas, quarum nullam excludit, est omne: per partes continuas, quibus constat, est totum: per formam tandem suam est perfectum: itidem ratione, qua universum est, perfectum dicitur; sicut enim ideo corpus est perfectum inter magnitudines, quia non transit in alius generis magnitudinem, ita est et perfectum in genere rerum, quia non terminatur ad aliquid aliud, quod sit extra ipsum, quandoquidem extra universum nihil est, alioqui perfectum non est. Hic oportebat addere, quod extra non sit aliquid sui, et ad ipsum pertinens, quia decet esse ibi infinitum et immortale, vitam vivens sempiternam. At (o bone!) si ideo dicitur perfectum, quia nihil est ultra ipsum, eadem ratione omnia individua sunt perfecta: namque sicut haec terminantur ad aliud diversum, ita et mundus ad aliud diversum (quod est intelligibile) terminatur. Neque obest, quod in genere corporum perfectissimum est universum, quia extra ipsum non est corpus; hinc etenim nulla sequitur pro ipso ratio, nisi circularis et petens quod est in principio. Extra enim hoc finitum ab Aristotele imaginatum, nos intelligimus infinitum spatium, astraque seu mundos infinitos. Quod si ita jam Aristotelis universum perfectum est, et ejus perfectionis difficultas intacta et non improbata remanet: universum quoque, si sit infinitum, ideo etiam perfectum erit, quia extra ipsum non est, in quod fluat vel terminetur; unde aperte vana relinquitur haec perfecti definitio, et consideratio perfectionis universi, sub ratione non decidente atque discernente, sive finitum sit illud, sive infinitum, laborat sub aequivoco, utpote sub diversis genere rationibus.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LII.</head>
+<p>	Constat apud nos, sphaerica esse astra, eque sphaericis corporibus nullum esse, nec esse posse simplex. Corpus enim solidum, atque sensibile ex pluribus consistat elementis opus est: nullum quippe elementorum (ut elementi veram obtineat rationem) sensibile esse potest; et ostendemus hanc sphaericitatem astris convenientem non esse exactam geometrice, seu ad matheseos normam, sed juxta physicis corporibus convenientes differentias.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LIII.</head>
+<p>	Quam levi persuasione motus, ipse movetur et nos movere contendit Aristoteles! ubi trium suarum lationum differentias concludit ex trium magnitudinum seu dimensionum differentia. Nos enim nullum sursum vel deorsum nisi respective intelligimus, neque diceremus unquam principium, unde motus, esse rationem dextri: ad unum quippe situm quod est dextrum ad alium secundum alias loci differentias invenietur, puta sinistrum, ante, supra. Mitto quod, cum infinita sint mundana corpora et infinita mundi dimensio, nec deorsum esse poterit, neque medium, neque sursum. In corpore etenim rotundo, quale imaginamur coelum, sex differentiae concurrunt; in sphaera enim altitudo, latitudo et longitudo idem sunt, nec non motus, qui sub aequinoctio habitantibus dicitur secundum altum et imum, sub polo habitantibus dicitur secundum latitudinem: his quidem dextrorsum, illis vero sinistrorsum. At motus accessus et recessus ad polos, qui est secundum latitudinem ad dextrum sinistrumque aequinoctialibus, erit idem secundum differentias altitudinis (puta sursum atque deorsum) polaribus. Neque item est ratio, quare unus polorum dicatur sursum, alter vero deorsum, praeterquam diversorum accolarum respectu. Quod vero dicit Peripateticus esse ex natura rei distinctionem partis superioris, ubi nobilior est coeli motus, quare polus antarcticus debeat ea ratione superior appellari, quod nobiliores et nobilioris influentiae stellas contineat, quam arcticus: hac nuga, oblitus, non utitur ubi nobilior coeli pars illi sit sub zodiaco, neque persuasionem habet Aristoteles pro verbis istis, quibus illae stellae istis comparentur.</p>
+<p>	Porro nobis, quibus astra universa in aere continentur, infinitum complectente spatium, unde non minus neque alia ratione terram coelo contentam atque firmatam intelligimus, quam alia astra, perit omnis quaestio de localibus coeli differentiis.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LIV.</head>
+<p>	Nulla apud me, naturaliter se habentis, naturalis latio est praeter circularem, quam circa medium appellat Aristoteles. Porro nos non unam dicimus circa medium lationem, sed certe plures quam astra, quia terra multipliciter movetur circa proprium centrum, et non uno modo circa solem, ut pluribus alibi demonstravimus. Est porro motus circa medium duplex in specie universi: alter aqueorum astrorum, seu tellurium circa ignea astra, sive soles: alter partium cujusque astri circa totius medium (neque enim per se luna movetur circa terram, dum differentias distantiarum et relationum ad solem percurrit,) ita tamen (ut in tellure hac) ut non magis circa centrum, quam a centro et ad centrum per omnes sphaericae dimensionis differentias moveantur; circuitus enim hic non ad geometricam, sed physicam (ut alibi pluribus insinuavimus) normam perficitur.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LV.</head>
+<p>	Circa terrae centrum non est alia latio, praeterquam partium ejusdem, quae non magis circa centrum moventur, quam a centro et ad centrum secundum omnes differentias; etiam aquae, quae membrum sunt totius. Haud enim aliter flumina bene consideranti circa centrum movebuntur; motus enim, quem in superficie convexa telluris peragunt, circumferentialis est omnino, minime rectus.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LVI.</head>
+<p>	In naturalibus nullum simplicem motum verificare possunt peripatetici philosophi, neque eorum pedissequa astronomorum turba, quia nusquam natura fert geometricum circulum, ut supra innuimus, et alias pluribus demonstrabimus.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LVII.</head>
+<p>	Quid absurdius dici potest, quam quod corpora composita, secundum corpoream substantiam, in ipsis praedominantem, moveantur, si metalla, quorum substantiam aqueam profitetur Aristoteles, ad fundum aquae feruntur? sique ait idem Aristoteles esse quaedam, quae composito agantur motu, composita?</p>
+</div3>
+
+<div3>
+<head>ARTIC. LVIII.</head>
+<p>	Nullam sphaerarum motu recto agitari videmus, quia certe nulla gravis est aut levis. Frustra igitur princeps Peripateticorum corpora superiora per lationem comparat inferioribus. Dicamus igitur sentiamusque melius, omnia, cum in loco suo moveantur, circulariter moveri, dum interim partes omnium extra suum locum positae (si detur aditus) recta ad ipsum, ubicunque fuerit, transferentur: quare omnes motus naturales, naturaliumque motuum species, circulares sunt vel circularem motum quaerunt et imitantur. Nullam igitur corporum partem gravissimam dicis, quam eandem levissimam dicere non possis, itemque mediocriter se habentem, et interdum neque gravem neque levem; quandoquidem secundum sphaericae dimensionis differentias omnes, partes agitantur omnes. Interea pessime asserit Aristoteles eo ferri totum, quo pars fertur; sive enim sursum, sive deorsum, quo fertur gleba, nunquam terram ferri possibile est: sed necessarium est, eo naturaliter ferri glebam, quo, vel quorsum terra fertur.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LIX.</head>
+<p>	Non magis ingenerabilia, incorruptibilia, inaugmentabilia et inalterabilia esse caetera astra, quam tellus ista (si rem penitius intuebimur) videbuntur. Propterea non sequitur quod divina corpora tollamus e medio, locum, sedesque deorum, fortunatorumque animorum evertamus, incorporeis quippe substantiis quis corporeas pro locatione sedes necessario destinabit? Cur ergo ad aliud coeli genus, in quo, aeterno aevo frui dicuntur mentes, oculos non adtollimus? Adde igitur per eam (quae infra habebitur) corporum naturalium distributionem, quod, quemadmodam non bene Anaxagoras utitur nomine aetheris (si non mentitur de illius opinione, ut facere consuevit in omnibus, Aristoteles) pro igne, quasi omnia astra ignea sint, ita nec bene Peripateticus per aethera non astrum currens intelligit, sed orbem deferentem.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LX.</head>
+<p>	Mundum esse finitae quantitatis nusquam probat Aristoteles, nec quivis alius unquam probare poterit; nisi nomine mundi utatur pro ea, quae apud nos est, significatione, quibus idem est mundus et astrum. Dicimus ergo universum substantiam infinitam, molem infinitam in spatio infinito, sive vacuo, plenoque infinito. Unde universum unum est, mundi vero innumeri: licet enim mundana corpora singula finitae sint magnitudinis, numero tamen omnia infinita sunt: neque enim finis ullus praescribi potest spatio aetheris immenso, in quo tot astra (sicut et tellus est astrorum unum) veluti disseminata consistunt; unum itaque coelum. Mundorum vero, utpote astrorum extra quemlibet, aerem infinitum, ut unum continuum, intelligimus; extra universum autem revera nec locus, nec plenum, neque tempus datur: quod manifestius patet ex eo, quod interminatum quiddam est, quam ex alia causa, quae possit ab Aristotele produci in medium.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXI.</head>
+<p>	Hic neque ipsemet se noverit extricare, si cogatur afferre modum, quo extra mundum est aliquid non senescens, intransmutabile, inalterabile, impassibile, optimam vitam habens, per se sufficiens, totoque aevo perseverans. Quomodo enim ea, quae illi minime materialia sunt, non ideo finita et corporea intelligi possunt, cum ad certam loci, situsque differentiam revertantur? quomodo sensibile intelligi potest locali differentia ab intelligibili terminari?</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXII.</head>
+<p>	Cur item incessabilem motum ad diviniorem rationem potius referre potuit, quam ad infirmiorem, nisi quia cum vulgari, sensus perturbatione ducitur et aberrat? Cur etiam quod eundem dicit esse locum, unde incipit et in quem finit motus ejus, quod circulariter fertur, non efficit, ut recentiores astronomi adtestentur hujus hominis philosophiam in iis, quae modicae antiquorum astronomorum observantiae deerant, esse fundatam?</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXIII.</head>
+<p>	Mundus, quem antiqui philosophorum parentes genitum esse dicunt, postmodumque sempiternum, inter quos est Empedocles, non est universum, sed haec machina huicque machinae similes; de ipsa quoque et de ipsi similibus dictum intelligitur de generationis, corruptionisque vicissitudine, quam novit Anaxagoras: quorum neutrum quippiam contra naturae rationem adserere confirmamus, utrumque enim recte philosophantibus probari posse conspicimus. De universo vero quod ingenerabile sit et incorruptibile, nemo philosophorum est qui contenderit: eorum inquam qui inter universum atque mundos discrimen faciunt, quique infinitam substantiam cognoverunt. Illud ergo, quod ex inordinato factum esse ordinatum dicitur, ad particulares mundos refertur et animalia quaedam: unde in universo non sequitur generatio et corruptio, sed ejus dispositionis conditio et in ejus partibus vicissitudo et ordo. Ita et proportionaliter hoc astro, quod incolimus, uno eodemque suo modo perseverante, animalium, plantarum, aliorumque multorum vicissitudo generationis corruptionisque perficitur. Licet etiam dari nequeat ingenitum corruptible, quid impedit, quo minus esse possit genitum, quod minime corrumpitur? haec etenim astra, licet omnia genita sint, talem nihilominus nacta sunt animam et tale illis adstat efficiens primum, quale hanc velut ab extrinseco perpetuo materiam tenacissimis vinculis valeat cohibere. Perpetua igitur haec bene adtestatur Plato, ab aegyptiis et pythagoricis et siculis philosophis edoctus (quantumvis non sine potentia ad dissolutionem, exque contrariis elementis composita existant), qui primum Deum circumstantes sibi Deos alloquentem introducit: <hi rend="italic">«vos quidem dissolubiles estis, nequaquam vero dissolvemini».</hi></p>
+</div3>
+</div2>
+<div2>
+<head rend="italic">CIRCA SECUNDUM LIBRUM DE COELO ET MUNDO.</head>
+<div3>
+<head>ARTIC. LXIV.</head>
+<p>	Immortale illud coelum atque divinum, cujus motus incessabilis, neque principium habens neque finem, omnia continens, nihil aliud secundum substantiam esse dicimus, quam aerem, neque ejus alium esse motum, quam aeris. Porro aerem duplicem cognoscimus: talem videlicet, qualis est turbulentus atque tempestuosus, qui est pars substantiae telluris et ad unius globi istius constitutionem concurrens: et tranquillum alium, qualis est circa tellurem permeantibus astris undique cedens, omnia continens, universa sustinens. (<hi rend="italic">vide</hi> 2.)</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXV.</head>
+<p>	Coelum Diis antiqui atque recentiores attribuerunt, ubi illi per Deos vere astra ipsa intellexerunt, ex quibus nullum fateri possum primum Deum esse posse; licet Chaldaeis ex iis, quae sunt apud nostrum globum, sol medius inter astra haec septem, templum magnique Dei tabernaculum habeatur, et Pythagoricis Deus sit infinitus spiritus omnia penetrans, comprehendens atque vivificans (<hi rend="italic">vide</hi> 3.). Astrorum igitur unum terra est, quae non minus digno altoque coelo comprehenditur quam quodcunque ex aliis aliud. Inter haec ingenerabile, incorruptibileque est aer immensus, utpote corpus spirituale, omnia stabiliens atque firmans, qui aut est prima substantia, aut certe ex omnibus illi proximus, qui primum est efficiens, ex atomis atque spiritu solidiora spissioraque corpora (qualia sunt astra, astrorumque membra) compaginans. Ipse est figuratum firmamentum per vectorem Atlantem, omnia sine labore sustinentem, et cui lassitudinem et imbecillitatem nullum grave contranitens inducit (<hi rend="italic">vide</hi> 3.). Tellures superiores igitur non sunt graves neque leves, sicut neque terra ista, ubi mole sua in regione infinita consistit. Non minus igitur neque alia ratione, caetera astra non habent quo cadant, quam ista tellus undique ad aerem indifferens: quamobrem non aliunde motum sibi decernunt, quam ab opportunitate vitae, igneorum quidem corporum ab aquis, aqueorum vero ab ignibus, frigidorum a calidis, calidorum a frigidis, quo se mutuo foveant. Haud igitur revolutio celerior astra sustinet, ut dicit Empedocles, neque quintae illius essentiae conditio, quam somniat Aristoteles. Astrorum vero quaedam, quia in iis igneum excedere Oceanum constat, ignea intelliguntur, vel ignes sunt, puta soles qui per sese lucent: alia vero, cum in iis aqua exsuperet, et circumeant proprios, a quibus refoveantur, ignes, sunt tellures aliae, quae ex diaphana superficie, lucentibus expositae radiis, lumen emittunt infirmius.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXVI.</head>
+<p>	Hic minime nobis, aliisque rectius judicantibus credibile est purum, simplicem, immixtumque ignem alicubi subsistere nec constare posse, ubi mundus incolis vacuus et inanis, bonitati dignitatique naturae non congruit; sicut neque aquam seorsum alicubi subsistere possibile est, unde ne aquea quidem animalia nutrirentur atque vegetarent, quibus etiam aliquid mutuae voracitati praeesse oportet, ex quibus constent et ubi sistant. Necessario igitur ex astris ita constitutis quaedam circa alia moventur, quemadmodum tellures circa istum solem; quaedam vero intra alia circuunt, sicut igneus iste sol in medio aqueorum corporum. Fit autem, ut planetarum quorundam circa soles, hi quidem majores, hi vero minores circuitus conficiant, ut tarditate elongationem compensent, ut inquam aeque calefiat tardatiore motu distantius, atque velociore propinquius. Soli autem in medio sufficit, ut minorem per circuitum moveatur, aut (ut quidam judicant) maneat. Haec si ita sint, quam longe Aristoteles noster aberrat a veritatis scopo, ubi causam adducit, qua stellarum quaedam tardius, quaedam velocius, quaedam pluribus, quaedam paucioribus motibus exagitantur, cur ille pluribus innumeririsque, hi vero una tantum stella illustres torqueantur orbes.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXVII.</head>
+<p>	Astra igitur omnia, ultra Saturni distantiam, quorum nullus motus videtur, at quae scintillant, ignes sunt, sive soles: ad exiguum enim, ut iste intra terras suas, illos itidem intra terras moveri consentaneum est. Ipsorum tellures seu aquae non sunt visibiles propter distantiae momentum, et quia sunt minora corpora, utpote ita ad suos soles proportionabiles, ut istae ad unum istum, et quoniam, quae speculariter lucent, non adeo longius visibilitatis diametrum servant, ac principaliter splendentia. Hinc Saturnus, Jupiter, Mars, Venus, Mercurius et Luna, quae sunt tellures, faciem ostendunt nobis igneis astris persimilem, ob eam quam modo diximus propinquitatem: id enim ab ipsis non accideret, si a nobis tantum distarent, quantum regiones aliorum ignium ultra Saturnum. E speculo enim propinquo lumen simile apparet atque e propinqua candelae luce, sed ambobus distantiam nactis, longe incomparabiliterque citius visio specularis quam verae lucis evanescit. Quamvis igitur circa alios soles ultra istam circa nos regionem astrorumque synodum sint (ut ad communem vitam necessario sunt) aliae tellures: neque tamen ad sese ostendendum nobis, neque ad eos soles eclypsandos habent potentiam. Apud nos enim Luna Solem eclypsat, non propter eam, quam ad ipsum possit habere, propinquitatem, sed ob eam, quam ad oculos nostros adepta est.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXVIII.</head>
+<p>	Optime alicubi dictum extat ab anima cogente seu operante, aeterna servari corpora illa: haec enim unitas copulatas, ordinatasque servat animalium partes, quae anima recedente dissolvuntur. Porro anima id immediate facit atque proxime, primo autem atque principaliter causa illa, quae dicitur omnibus insitus vitae spiritus et infinite diffusa mundi anima. Nequit igitur inde negotiosam tristemque consequi vitam; non enim eadem conditio est animalibus illis atque nobis: ibi enim omnia natura et naturaliter potentissime aguntur, ubi non a continente mutuata vita et anima, sed propria est: nec aliquid extraneum atque repugnans habent, quod mota vectent trahantque; neque proximum habent, in quod commigrent, mutenturve, oppositum: sed libere contrarium evadunt, et cognatum sibi persequuntur. Sicut igitur nos absque labore sollicitudineque videmus, respiramus, dormimus, et in nobis anima opera vitae peragente humores spiritusque vitales continue circumeunt, ita praecipua illa mundi membra divinissimaque animalia sollicitum minime laborem subire decet, quibuscum convenientissime aguntur omnia. Quid igitur ab anima cogente formidat Aristoteles? (<hi rend="italic">vide</hi> 6.) Detur igitur illis ab immenso circumcirca spatio aeque facillima quaquaversum progressio, definiat illis certus vitae finis atque necessitas certos determinatosque circuitus, qui non revehentibus sphaeris (in quibus veluti clavi adfixa consistant) neque pellentibus gyrantibusve ministris remeent: sed per eam animae vim, quae tanto certius in praecipuis, integris, divinioribusque corporibus agnoscitur, quanto ignobilior nobis est conditio, quibus illa spiritum corpusque suppeditant, quique vivi ex eorundem gremio prodimus et alimur, et in haec tandem resoluti recipimur. Astra igitur sunt, quae (facilius incomparabiliter, quam aves per aerem, pennis dividendum) per aethereum spatium se transferunt: id enim non minus natura comparatum est, quam vulgares imaginari possint terrae, in medio quiescere, naturaliter convenire. Cur igitur aerem vel aere subtilius, vel spiritualissimam, vanissimamque, utpote adeo rariorem, quintam illam essentiam quaerimus, nempe quae tam vasta solidissimaque corpora rapiat potius, quam penetretur ab illis et pervadatur? (<hi rend="italic">vide</hi> 17. 56.)</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXIX.</head>
+<p>	Frustra Aristoteles horum circularem motum veluti geometrice regularem persuadere nititur. Si igitur ullam ii motus regularitatem habent, ea certe non est ad circulum, sed ad eam causae rationem, propter quam moventur. Neque bene Aristoteles ad simplex aliquod principium et elementum, motus differentias refert, quae ad ipsa integra, ex heterogeneis partibus constantia, animalia referendae erant, astra videlicet: quorum substantia ex quatuor elementis necessario conflatur. (<hi rend="italic">vide</hi> 41. 42.)</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXX.</head>
+<p>	Hinc ab omni ratione atque sensu alienum constat quod aqua circa terram, aer circa aquam, ignis circa aerem fingitur, ubi in unum corpus et unicam sphaericam superficiem ista concurrunt omnia. (<hi rend="italic">vide</hi> 30. 31.) Aut igitur non magis dicere possumus aquam supra terram, quam terram super aquam: aut, si comparare licet, verissimam Thaletis sententiam et Theologorum confirmemus, qui terram fundatam super aquas ab initio praedicarunt (<hi rend="italic">vide</hi> 78.); aqueum enim est spississimum, concretissimum et consequenter gravissimum.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXI.</head>
+<p>	Haec si ita se habeant, de praecipuis corporibus nullum est, quod convexe sphaericam superficiem habeat, praeter aerem purum seu coelum, quem si coelum denominare licet, totidem certe coeli sunt quot astra; quibus tamen, cum moveri contingat, evenit, ut modo in unum, modo in aliud sese recipiant. Quod si quis quaerat a nobis, quis tandem in hac infinitudine corporum ordo et quae perfectae universitatum regiones? regiones singulas dicimus, quae singulas ad proprium solem planetarum synodos complectuntur, ad aliam mundi significationem.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXII.</head>
+<p>	Certis ergo legibus infinita astra in immenso spatio feruntur, universo uno infinito, immobilique manente (<hi rend="italic">vide</hi> 2.); cujus sicut nulla est circumferentia, ita nec ulla forma, et in quo aetheris est finire atque terminare singula; quae non minus apta sunt ad motum (sive per se moveantur per aethereum campum, sive magis secundum deferentis lationem), si angularis, quam si sphaericae sint figurae (<hi rend="italic">vide</hi> 27. 29.). Nullum interea astrorum, quodcunque et qualecunque sit illud, sive sol, inquam, fuerit, sive tellus, in medio vel in universi circumferentia dicere possis, ubi omnium singula circumquaque infinitum spatium habere convincentur. Hinc habes, quomodo omnia dicere possis in medio, vel nulla. Apparebit autem omnibus astrorum incolis se universi medium obtinere; sicut enim et in superficie cujusque globi, hemisphaerii horizontisque centrum in quolibet, eque quolibet puncto, respectu diversorum desumi potest, ita in quacunque regione punctove aetheris immensi maneas, undique in orbem astris certis numeris intervallisque ab invicem distinctis, immensi spatii faciem prospicies. Denique dum ipsum circa propriae magnitudinis centrum revolvetur, totum immensum, universisque cum astris universum, veluti continuum unum motu rapidissimo circumvolvi videbitur. Hinc est, quod, cum tellus ad suam suorumque vitam (ne vel frigore torpeat, vel absumatur igne) ad solem, unde fomentum capiat, omniquaque convertitur, efficitur ut ejus vertiginis ignorantia fixorum deferentes orbes, stelliferumque illud omnia raptans imaginari faciat, et universam naturae in sensibus perturbatioribus ignorantiam confirmet; cum tamen, ut istis in medio quiescere videtur, ita (quale unum ex nobilissimis astris) in hac aethereae regionis parte regulate pro naturae exigentia suum spatium ad definitos polos peragrans, circa proprium centrum convertitur, atque solem.</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic">CIRCA TERTIUM LIBRUM.</head>
+<div3>
+<head>ARTIC. LXXIII.</head>
+<p>	Tertii libri intentiones sunt ejus pars considerationis, quae est in libris de generatione et corruptione, nec facit ad finem disputationis hujus de mundo, nisi fortasse Aristoteles sapiat et hanc motionem lationem quandam appellans. Ibi ratione, qua destruit generationem esse ex superficiebus, tollit suam materiam primam e medio; generationem enim elementorum non esse ex non corpore decernit.</p>
+</div3>
+</div2>
+<div2>
+<head rend="italic">CIRCA QUARTUM LIBRUM.</head>
+<div3>
+<head>ARTIC. LXXIV.</head>
+<p>	Disciplina de gravi et levi, quae est apud Aristotelem, prorsus perversa est, pro quo hasce verissimas ponimus propositiones. Grave et leve non dicuntur de corporibus naturalibus, naturaliter constitutis, nec de ipsis integris sphaeris, nec partibus earum: si terreno globo et cuicunque astro constantes in una sede conveniat habere partes. Porro partes telluris naturaliter circularem motum habent, ut patet in aquis emergentibus, quae, postquam emerserint, redeunt, sicut et in aliis ejusdem heterogeneis partibus est manifestum, dam in ea et lapides extruduntur et intruduntur; ubi non secus quam in animalibus accidit, in quibus continuo fit emissio et immissio omnium: particulae enim tum ossis, tum carnis, tum aliorum homogeneorum ad cutim transmittuntur. Effluxus igitur influxusque partium continuus est in terra, sicut et in animalibus particularibus; unde evenit ut partes centrales quandoque circumferentiales evadant, vicissimque de circumferentia centrum, aliasque locorum differentias repetant. Hinc continue facies telluris variatur, ut modo mare sit, ubi undae fuerant, modo montes appareant, ubi valles subsederant, (quodque frequentius apparet) modo vaporum exaltatio, modo pluviarum casus eveniat, modo lutosum aliquid in lapides inspissetur, modo spissi lapides in pulverem resolvantur; in quibus omnibus nullum violentum concesserim, sed naturalem prorsus omnem motum: illud enim violentum tantummodo appello, quod extra vel contra naturae opus atque finem contigerit. Contra naturam igitur est, ut omnes telluris partes centrum non obtineant, neque aliquando ad globi circumferentiam transferantur. Quodque de terra dicimus, idem in sole inque caeteris astris intelligimus, in quibus ex iisdem principiis compositio verificatur. Nihil ergo natum est ferri a medio, quod et ad medium ferri non sit (natura illud imperante) natum, quia particulae telluris non plus quiescere comperiuntur, quam cujusque animalis particulae. Longe igitur a naturali contemplatione desipit quod ait Aristoteles (<hi rend="italic">vide</hi> 22.), quod si quis transponat terram, ubi nunc est luna, non fertur partium unaquaeque ad ipsam, sed ad suum locum. Immo dicimus partes unius terrae non habere majorem potentiam, ut sint partes alterius, quam partes unius animalis, ut sint alterius animalis partes. Motus quoque rectus nulli sphaerae est naturalis, sed partibus sphaerae extra propriam regionem positis, quae in suae sphaerae corpore non recta movebuntur, sed ut dictum est supra in articulo proprio. Haec circulatio non geometrica, sed physica est.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXV.</head>
+<p>	Si gravissimum est, quod rapidissime velocissimeque tendit ad medium, gravissimum omnium aer est, post ipsum gravior est aqua, ultimo terra. Immo nullam terra simplex gravitatem habere videbitur, si ex partium consistentia gravitas est, alio quoque gravitatis sumpto principio et causa. Si gravissimum in medio debet esse, compositum id sit oportet, in quo maxime aqua praedominetur; quare purum terrae illud elementum, ejus corporis centrum obtinere impossibile est. Corpora enim spissa sunt gravia, spissioraque graviora, omnis autem spissitudo est a concretione partium seu atomorum, omnis concretio ab agglutinatione, agglutinatio omnis ab aqua.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXVI.</head>
+<p>	Seipsum apud nos accusat Aristoteles, ubi super antiquos, qui simpliciter grave simpliciterque leve non cognoverunt, se jactat. Nobis enim grave et leve respective duntaxat, minime autem simpliciter dicuntur. Qui enim absolute grave esse potest, ubi, si ignis a nobis tanquam ad sphaeram suam, ad solem ascenderet, solaribus ipsis descendere certe dicetur, sicut et ab illis ascendit ad nos descendens?</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXVII.</head>
+<p>	Nusquam natura practicat leve sursum, et grave deorsum, (quomodocunque capias sursum atque deorsum) sive eo respicias quod ubique est medium, sive quod altissimi montes et aquarum planities in convexa terrae superficie perpetuo concurrunt.</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXVIII.</head>
+<p>	Aut elementum nullum ab alio absolutum invenitur, aut si aliquod ejusmodi est, ipsum est aer; ignis enim quamvis penetrativissimus, nunquam tamen nisi ab aliquo vel in aliquo simplici, vel composito invenietur, quale est humidum, pingue, vel huic proportionale. Satis interim est, quod aer circa globos purus alicubi reperiatur, quandoquidem ad circumferentiam centrumque compositorum hujusmodi nihil potest esse simplex, praeter minima. (<hi rend="italic">vide</hi> 39. 37.)</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXIX.</head>
+<p>	Non bene inde demonstratur aer in sua sphaera gravior, quia utres aere pleni citius descendunt quam vacui; ibi enim inspissatus aer est, et plures sub minori dimensione partes obtinens, neque cum totius sphaerae motu concurrere potest, ut et aqua in cymba vel dolio non perinde movetur, atque in fluvio atque mari. Mitto quod hic, qui in utribus inspissatus deprimitur, idem calore attenuatior sursum tendere dicitur. Frustra igitur Aristoteles aliquid vere de aere vel alio elemento definire nititur, postquam ipsum a sua naturali dispositione semotum acceperit. Ad haec, cur aqua Aristoteli non est levis in regione sua, si e profundo ad superficiem terrae videatur emergere? Cur item aer ad ignis regionem illam non ascendit, ubi ignis nihil aliud praeter attritum aerem esse creditur, et sistente coelo nihil esse posse praeter aerem convincetur? (<hi rend="italic">vide</hi> 39.) Si item omnia gravitatem habent praeter ignem, certe ignis, qui in concavo coeli fingitur, aequivoce est cum eo qui apud nos est, ad quos nunquam inde descendit; a quo enim deorsum trudi potest? quid est quod ipsum pellat huc? quomodo in horum compositionem venit? quomodo (consequenter) elementi munus exequitur? (<hi rend="italic">vide</hi> 29. 39.)</p>
+</div3>
+
+<div3>
+<head>ARTIC. LXXX.</head>
+<p>	Gravitas et levitas nihil aliud est praeter appulsum partium ad locum suum, in quo vel moveantur vel quiescant, et per quod ferri debeant, pro quo quaelibet pars tum gravis tum levis esse intelligitur, quae, ubi nata est, esse degens, nec gravis est neque levis; relinquitur ergo gravis levisque ratio respectiva tantum, per absolutas enim differentias mundi locales nullum est. Quocirca bene Plato in Timaeo dicit: in coelo non esse aliud quidem sursum, aliud vero deorsum, si ex omni parte simile est et undique oppositis pedibus ambulabit unusquisque ipse sibi. Hunc frustra refricat Aristoteles, sicut etiam, cum gravius bene dicebatur in Timaeo, esse quod ex pluribus est, levius autem quod ex paucioribus.</p>
+</div3>
+</div2>
+
+<div2>
+<head rend="italic"> CONCLUSIO.</head>
+<p>	Videant igitur domini Peripatetici, an ex fide viri, exque credendi consuetudine deceptis, an firma aliqua ratione munitis, una cum eorum principe, tam torvis oculis antiquam philosophiam intuentibus, ista resurgentis veritatis semina sordescant. Nos etenim interim, postquam quorundam novas (si quas habent pro sua causa) rationes audiverimus, propositorum articulorum ampliores rationes elucidabimus.</p>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

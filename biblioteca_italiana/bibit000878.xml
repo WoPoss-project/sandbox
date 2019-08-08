@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Saggio di traduzione dell'Odissea</title>
+                <author>Giacomo Leopardi</author>
+            </titleStmt>
+            <extent>36840 Kb in UTF-8</extent>
+            <publicationStmt>
+                <publisher>Biblioteca Italiana</publisher>
+                <pubPlace>Roma</pubPlace>
+                <date>2008</date>
+                <idno>bibit000878</idno>
+                <availability>
+                    <p>Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Collezione BibIt</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Tutte le opere</title>
+                    <author>Leopardi, Giacomo</author>
+                    <editor id="ed">Felici, Lucio</editor>
+                    <publisher>Lexis Progetti Editoriali</publisher>
+                    <pubPlace>Roma</pubPlace>
+                    <date>1998</date>
+                    
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc><samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+        </samplingDecl>
+            <editorialDecl>
+                <correction method="silent" status="medium">
+                    <p>Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+                </correction>
+                <quotation form="data" marks="all">
+                    <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                </hyphenation>
+            </editorialDecl><classDecl>
+                <taxonomy id="CGB">
+                    <bibl>Classificazione generi BibIt</bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date/>
+            </creation>
+            <langUsage>
+                <language id="ita">Italiano</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="CGB">
+                    <term>Commenti, traduzioni e volgarizzamenti</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>Data sconosciuta anteriore al 2000</date>
+                <respStmt>
+                    <name>LEXIS</name>
+                </respStmt>
+                <item>Digitalizzazione</item>
+            </change>
+            <change>
+                <date>Data sconosciuta anteriore al 2000</date>
+                <respStmt>
+                    <name>LEXIS</name>
+                </respStmt>
+                <item>Correzione linguistica</item>
+            </change>
+            <change>
+                <date>2004-07-01T00:00:00.000+01:00</date>
+                <respStmt>
+                    <name>Sonia Sabelli</name>
+                    <name>BIBIT</name>
+                </respStmt>
+                <item>Codifica XML</item>
+            </change>
+            <change>
+                <date>2007-11-14T00:00:00.000+01:00</date>
+                <respStmt>
+                    <name>Carla Deiana</name>
+                    <name>BIBIT</name>
+                </respStmt>
+                <item>Validazione</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+<text>
+
+<front>
+<div1>
+<head>SAGGIO DI TRADUZIONE DELL'ODISSEA</head>
+	<p>Tradurrò l'<title>Odissea</title> se i miei compatrioti approveranno il Saggio che presento loro della mia traduzione. Non parlo dei traduttori italiani di quel poema, perchè è fama che l'Italia non ne abbia ancora una traduzione: molto meno del modo di ben tradurre, perchè ne parla più a lungo chi traduce men bene. Direi forse qualche parola sulla traduzione dei due primi Canti dell'<title>Odissea</title> pubblicati dal Pindemonte, se gli avessi letti. Chi brama sapere se io mi sia fedelmente attenuto all'originale, apra a caso il primo Canto dell'<title>Odissea</title>, e paragoni il verso che incontrerà, colla mia traduzione. Ognuno sa che per tradurre gli antichi, e primamente Omero, è mestieri dottrina, ed io ho cercato valermi della poco che posseggo. Per cagione di esempio, nel verso 50 del Canto che ho tradotto, Omero dice dell'Isola di Calisso:
+<quote rend="block">
+<lg>
+<l><foreign lang="grc">&oragr;&thgr;&igr; &tgr;' &orougr;&mgr;&phgr;&agr;&lgr;&oacugr;&sfgr; &esmogr;&sgr;&tgr;&igr; &thgr;&agr;&lgr;&aacugr;&sgr;&sgr;&eegr;&sfgr;</foreign></l>
+</lg>
+</quote>
+Altri forse avrebbe tradotto &laquo;Che è nel mezzo del mare&raquo;. Ma gli antichi aveano alcune idee particolari annesse alla parola <foreign lang="grc">&osmogr;&mgr;&phgr;&agr;&lgr;&oacugr;&sfgr;</foreign> &laquo;umbilico&raquo;, che gli eruditi conoscono, e che i non eruditi non conosceranno perchè non avranno la pazienza di consultare gli autori che io cito appiè della pagina.<note resp="aut" place="foot">Pindarus, Pyth. Od. VI, vers. 4 seg. Od. VIII, vers. 83 seg. &mdash; Euripides, Jon. vers. 223 seg., vers. 461 seg. et in Medea. &mdash; Sophocles, Oedip. tyran. vers. 488. &mdash; Auctor incertus, ap. Cic. de Divinat. Lib. I. &mdash; Strabo, Geograph. lib. IX. &mdash; Titus Livius, Hist. Rom. lib. XXXVIII, cap. 48. &mdash; Pausanias, in Phocicis lib. X, cap. 16. &mdash; Agathemerus, Compendiar. Geograph. Exposit. lib. I, cap. 1. &mdash; Plutarchus, de Orac. defectu.</note> Nel verso 241 si legge la parola <foreign lang="grc">&aragr;&rgr;&pgr;&ugr;&igr;&agr;&igr;</foreign>, che tutti gl'interpreti che io conosco, hanno creduto significare i mostri detti &laquo;arpie&raquo;. Non così io; poichè il Visconti<note resp="aut" place="foot">Visconti, Iscriz. Greche Triopee, Osservaz. sulla seconda Iscr. vers. 14; Roma, 1794, pag. 81.</note> ha fatto osservare che sì quivi, come in un altro luogo dell'<title>Odissea</title><note resp="aut" place="foot">Homerus, Odyss. lib. XIV, vers. 371.</note>, quella parola è un participio attivo femminino plurale, forse dal tema inusitato <foreign lang="grc">&aragr;&rgr;&pgr;&ohgr;</foreign>; che vale, &laquo;rapaci&raquo;, ed è un'antonomasia delle Parche. E bastino questi esempi.</p>
+	<p>Mi resta a intendere il giudizio che l'Italia pronunzierà sopra i pochi versi che ora le offro. Io non ho punto vaghezza di tradurre l'<title>Odissea</title>: odo che l'Italia brami di averla tradotta, ed io le ne darei una traduzione, se ella stimasse che io potessi a lei darla. M'inginocchio innanzi a tutti i letterati d'Italia per supplicarli a comunicarmi il loro parere sopra questo Saggio, pubblicamente o privatamente, come piacerà loro quando non mi credano affatto indegno delle loro ammonizioni. Deh! possano essi parlarmi schiettamente, e risparmiarmi una fatica inutile, se questo Saggio non può esser lodato con sincerità.</p>
+</div1>
+</front>
+<body>
+
+<div1>
+<head>Canto I</head>
+
+<lg>
+	<l>L'uom dal saggio avvisar cantami, o Diva,</l>
+<l>Che con diverso error, poi che la sacra</l>
+<l>Ilio distrusse, le città di molti</l>
+<l>Popoli vide ed i costumi apprese.</l>
+<l>In suo core egli pur di molti affanni</l>
+<l>Nel pelago soffrì, mentre cercava</l>
+<l>A sè la vita, ed ai compagni suoi</l>
+<l>Comperare il ritorno. E pur nessuno,</l>
+<l>Ben ch'il bramasse, ne salvò! Periro</l>
+<l>Tutti per lor follia, stolti! che i buoi</l>
+<l>Mangiàr del sole eccelso: ei del ritorno</l>
+<l>Lor tolse il dì. Figlia di Giove, alquanto</l>
+<l>Dinne di questi casi ancora a noi.</l>
+</lg>
+	<lg>
+<l>Gli altri, che il fato acerbo avean fuggito,</l>
+<l>Nelle lor case erano già, campati</l>
+<l>Dalla guerra e dal mar. Lui solo ancora</l>
+<l>E del ritorno e della moglie privo</l>
+<l>In cavi spechi ritenea Calisso,</l>
+<l>Inclita Ninfa e Diva che di farlo</l>
+<l>Suo sposo avea desio. Ma quando il tempo</l>
+<l>Venuto fu col volgere degli anni,</l>
+<l>In che piacque agli Dei che al patrio tetto</l>
+<l>In Itaca ei tornasse; allor finiti</l>
+<l>Non furo i suoi travagli, ancor che in mezzo</l>
+<l>A' suoi cari egli fosse. Ognun de' numi</l>
+<l>N'ebbe pietà, salvo Nettun, che fermo</l>
+<l>Nell'ira sua contro il divino Ulisse</l>
+<l>Restò, fin ch'ei non giunse al suol natio.</l>
+</lg>
+	<lg>
+<l>Agli Etiopi lontani ito era il nume,</l>
+<l>(Agli Etiopi, del mondo ultima schiatta</l>
+<l>In due partita: gli uni al Sol che cade,</l>
+<l>Gli altri sono all'aurora) onde presente</l>
+<l>Il sacrificio accor d'un'ecatombe</l>
+<l>D'agnelli e tori. Ivi al convito assiso</l>
+<l>Stavasi con piacer. Ma gli altri Dei</l>
+<l>S'eran raccolti dell'Olimpio Giove</l>
+<l>Nella vasta magione. Ad essi il padre</l>
+<l>Degli uomini e de' numi a parlar prese;</l>
+<l>Che ricordossi del preclaro Egisto,</l>
+<l>Cui morto aveva il rinomato figlio</l>
+<l>D'Agamennone, Oreste. Or lui membrando,</l>
+<l>Favellò tra gli Eterni in questi accenti:</l>
+</lg>
+	<lg>
+<l>Ci accusano i mortali, oh stolti! e danno</l>
+<l>Delle sventure lor la colpa ai Numi:</l>
+<l>E sì per lor follia soffrono affanni</l>
+<l>Non voluti dal fato. Egisto appunto</l>
+<l>Del destino a ritroso or or la moglie</l>
+<l>D'Agamennon si tolse a sposa, e lui</l>
+<l>Tornato uccise: e pur l'acerbo fine</l>
+<l>Che l'attendea, non ignorò. Spedito</l>
+<l>Gli avevamo noi già Mercurio, d'Argo</l>
+<l>Il veggente uccisor, che gli disdisse</l>
+<l>Spegner l'Atride, e tor la moglie a sposa,</l>
+<l>Ed avvisato il fe' come da Oreste</l>
+<l>Cresciuto d'anni e in bramosia venuto</l>
+<l>Delle sue terre, Agamennon vendetta</l>
+<l>Avuto avria. Così Mercurio a lui</l>
+<l>Saggiamente parlò: ma nol rimosse</l>
+<l>Dal suo pensiero. Or quegli a un tempo solo</l>
+<l>Tutto pagò del maloprare il fio.</l>
+</lg>
+	<lg>
+<l>A lui Minerva dalle azzurre luci</l>
+<l>Così poscia rispose: O nostro padre,</l>
+<l>Saturnio Dio, sommo de' Re, tal sorte</l>
+<l>Quel meritossi assai. Così perisca</l>
+<l>Chi com'egli oprerà. Ma per Ulisse</l>
+<l>Il battaglioso mi si strugge il core:</l>
+<l>Misero! che lontan da' cari suoi</l>
+<l>Da gran tempo sopporta immensi affanni</l>
+<l>In un'isola d'arbori nutrice</l>
+<l>Tutta cinta dall'acque, ove del mare</l>
+<l>È l'umbilico, e dove in sua magione</l>
+<l>Ha ricetto una Dea figlia d'Atlante</l>
+<l>Cui tutto è noto, che del mar gli abissi</l>
+<l>Tutti conosce, e che la terra e il cielo</l>
+<l>Sopra colonne altissime sorregge.</l>
+<l>La figliuola di lui ritiene a forza</l>
+<l>Il misero piangente, e ognor con dolci</l>
+<l>Molli detti il carezza, affin che il prenda</l>
+<l>D'Itaca obblio. Ma di sua terra almeno</l>
+<l>Veder bramando Ulisse alzarsi il fumo,</l>
+<l>Morir desia. Nè da pietade infine</l>
+<l>Il tuo cor sarà tocco, Olimpio Dio?</l>
+<l>Nell'ampia Troia non ti fece Ulisse</l>
+<l>Presso alle navi achee gradite offerte?</l>
+<l>E donde, o Giove, contro lui tant'ira?</l>
+</lg>
+	<lg>
+<l>Giove de' nembi adunatore a lei</l>
+<l>Rispose: O figlia mia, qual detti uscìrti</l>
+<l>Dalla chiostra de' denti? Il divo Ulisse</l>
+<l>Come obbliar potrei, ch'ogni mortale</l>
+<l>Vince in prudenza, e al par di cui non evvi</l>
+<l>Uom ch'abbia offerte agl'immortali numi</l>
+<l>Ch'abitan l'ampio ciel, vittime sacre?</l>
+<l>Ma Nettuno che il suol tutto circonda,</l>
+<l>Di terribile sdegno è sempre acceso</l>
+<l>Per il Ciclope ch'ei dell'occhio ha privo,</l>
+<l>Per Polifemo a nume ugual che avanza</l>
+<l>Tutti i Ciclopi in gagliardia. La ninfa</l>
+<l>Toosa partorillo a cui fu padre</l>
+<l>Forcine, un Dio dell'infecondo mare,</l>
+<l>A Nettuno commista in cavi spechi.</l>
+<l>Morto Ulisse non ha lo scotitore</l>
+<l>Della terra Nettun, ma da quel tempo</l>
+<l>Lungi lo tiene dalla patria sede.</l>
+<l>Cerchiam però fra noi come sia duopo</l>
+<l>Far che in Itaca ei giunga, onde al suo regno</l>
+<l>Torni quegli, e Nettun l'ira deponga;</l>
+<l>Poi che di tutti gl'Immortali ad onta</l>
+<l>Niun potere egli avrà, nè fia che sappia</l>
+<l>Solo cozzar con i contrarii Dei.</l>
+</lg>
+	<lg>
+<l>Ed a lui poscia l'occhi&ndash;glauca Diva</l>
+<l>Minerva replicò: Saturnio nume,</l>
+<l>Padre di noi, sommo de' Re, se fermo</l>
+<l>Hanno i beati Dei che al patrio tetto</l>
+<l>Ritorni Ulisse il battaglier, messaggio</l>
+<l>D'Argo l'ucciditor tosto all'Ogigia</l>
+<l>Isola si spedisca, ond'ei trascorso</l>
+<l>Velocissimamente, a quella ninfa</l>
+<l>Da' bei cincinni faccia conto il nostro</l>
+<l>Infallibil voler (torni il paziente</l>
+<l>Ulisse al suol nativo) e degli Eterni</l>
+<l>Adempiasi il decreto. Io recherommi</l>
+<l>In Itaca a destar nel figlio suo</l>
+<l>Ardimento più grande, e a porgli in core</l>
+<l>Valenteria, sì che, i chiomati Achivi</l>
+<l>Raccolti a parlamento, i Proci affronti</l>
+<l>Che sempre dense greggi, e neri buoi</l>
+<l>Uccidendo gli van di curvi piedi.</l>
+<l>A Sparta pure e all'arenosa Pilo</l>
+<l>Il manderò, perchè novelle cerchi</l>
+<l>Del ritorno del padre, ove pur sia</l>
+<l>Che alcuna udirne gli addivenga, e affine</l>
+<l>Che tra gli uomini s'abbia inclita fama.</l>
+</lg>
+	<lg>
+<l>Ciò detto, a' piè legossi i bei talari</l>
+<l>D'oro immortal, che sopra l'acque e sopra</l>
+<l>L'immensa terra la portavan ratta</l>
+<l>Come il soffio de' venti. In mano quindi</l>
+<l>Si tolse l'asta poderosa, armata</l>
+<l>D'acuto ferro, grave, salda, enorme,</l>
+<l>Con cui riversa degli Eroi le squadre,</l>
+<l>Che lei di forte Genitor figliuola</l>
+<l>Han mossa a corrucciarsi, e giù discese</l>
+<l>Precipitante dall'Olimpie vette.</l>
+<l>In Itaca fermossi, e del Palagio</l>
+<l>D'Ulisse si ristette anzi alle porte,</l>
+<l>Dell'atrio al limitare, in man tenendo</l>
+<l>L'asta di rame, e per sembiante uguale</l>
+<l>A Mente, uno stranier, de' Tafi il rege.</l>
+<l>Gli alteri Proci ritrovò che allora</l>
+<l>Contra alle porte si prendean sollazzo</l>
+<l>A' calcoli giuocando, e sulle pelli</l>
+<l>Sedevansi di buoi da lor già morti.</l>
+<l>D'intorno araldi e presti servi o l'acqua</l>
+<l>Mesceano e il vin nell'urne, o con ispugne</l>
+<l>Piene di fori detergean le mense,</l>
+<l>O le coprian di cibi, e larga copia</l>
+<l>Partivano di carni. Or lei primiero</l>
+<l>Telemaco mirò simile a nume,</l>
+<l>Poi che tristo in suo cor sedea tra i Proci</l>
+<l>Colla mente vedendo il padre illustre,</l>
+<l>E il suo ritorno rivolgea nell'alma,</l>
+<l>Se pur giammai tornato ei per la reggia</l>
+<l>Sperger doveva i Proci, e onore aversi</l>
+<l>E de' suoi beni il dritto. E mentre quivi</l>
+<l>Tenea fisso il pensier tra i Proci assiso,</l>
+<l>Di Minerva s'accorse, e drittamente</l>
+<l>Ver la soglia inviassi, a sdegno avendo</l>
+<l>Che per gran pezza un ospite si stesse</l>
+<l>Anzi alle porte. Le si fe' vicino,</l>
+<l>La destra man le prese, e l'enea lancia</l>
+<l>Si tolse, e indirizzolle alati detti:</l>
+</lg>
+	<lg>
+<l>Ospite, il ciel ti salvi; amicamente</l>
+<l>Noi ti raccoglierem: che t'abbisogni</l>
+<l>Palese ne farai dopo la cena.</l>
+</lg>
+	<lg>
+<l>Ciò detto, innanzi andò, Palla il seguia.</l>
+<l>Poi che fur dentro alla magione eccelsa,</l>
+<l>Quegli a un'alta colonna appoggiò l'asta</l>
+<l>In un polito armadio ove molt'altre</l>
+<l>N'avea d'Ulisse il paziente, e Palla</l>
+<l>Ad un seggio condusse; un vago strato</l>
+<l>D'ingegnoso lavor sopra vi stese</l>
+<l>E lei seder vi fe': sotto de' piedi</l>
+<l>Uno sgabel n'avea. Per sè lì presso</l>
+<l>Collocò poscia un variato scanno</l>
+<l>Lungi da' Proci, affin che in mezzo essendo</l>
+<l>A que' superbi, e dal tumulto offeso</l>
+<l>L'ospite a schifo non prendesse il pasto;</l>
+<l>E per chiedere a lui qualche novella</l>
+<l>Del genitor lontano. Acqua a lavarsi</l>
+<l>Da leggiadra urna d'or piovve una fante</l>
+<l>Su d'argenteo bacino, e loro innanzi</l>
+<l>Trasse polita mensa. Il pane e molti</l>
+<l>Cibi recò che allora in serbo avea,</l>
+<l>La vereconda dispensiera. Addusse</l>
+<l>Sopra i taglieri e collocò lo scalco</l>
+<l>Carni d'ogni maniera in sulla mensa</l>
+<l>Con auree tazze. Ministrando il vino</l>
+<l>Un sollecito araldo intorno giva.</l>
+</lg>
+	<lg>
+<l>Entràr gli alteri Proci, e in ordinanza</l>
+<l>Su scanni e seggi si locàr: gli araldi</l>
+<l>Dieron acqua alle mani, e ne' canestri</l>
+<l>Le ancelle il pane accumularo. Ai cibi</l>
+<l>Apparecchiati e posti loro innanzi</l>
+<l>Steser quelli le destre, e di bevanda</l>
+<l>Incoronaron l'urne i giovinetti.</l>
+<l>Poi che di bere e di mangiare i Proci</l>
+<l>Deposero il desio, d'altro lor calse,</l>
+<l>Del canto e della danza (gli ornamenti</l>
+<l>Questi son del convito), e a Femio in mano</l>
+<l>Pose un araldo la leggiadra lira.</l>
+<l>Da forza astretto egli cantava innanzi</l>
+<l>A' Proci, e dilungando il suo bel canto,</l>
+<l>In pria le corde percuotendo giva.</l>
+</lg>
+	<lg>
+<l>Ma Telemaco a Palla occhi&ndash;cilestra</l>
+<l>A parlar prese, e avvicinolle il capo</l>
+<l>Per ch'altri non l'udisse: Ospite caro,</l>
+<l>Ti muoverà quel ch'io dirotti a sdegno?</l>
+<l>Questo preme a costor, la cetra e il canto</l>
+<l>E di leggèr, chè consumando vanno</l>
+<l>Impunemente il vitto altrui, d'un uomo</l>
+<l>Di cui le candid'ossa in qualche parte</l>
+<l>O sopra il suol corrompono le piogge,</l>
+<l>O volve l'onda in mar. Che se tornato</l>
+<l>In Itaca il vedessero, più presti</l>
+<l>Vorrebbon tutti esser di piè, che ricchi</l>
+<l>Di vestimenta e d'or. Ma d'aspro fine</l>
+<l>Egli è perito, e speme a noi non resta;</l>
+<l>Comunque alcun che nella terra alberga,</l>
+<l>Dica ch'ei tornerà. Pur s'è perduto</l>
+<l>Il dì del suo ritorno. Orsù mi narra</l>
+<l>Chi sia tu mai, senza dubbiare, e donde:</l>
+<l>In qual region co' genitori tuoi</l>
+<l>Sia la tua patria, e su qual nave or giunto</l>
+<l>In Itaca ne sia. Di' pure, e come</l>
+<l>I marinai qua t'hanno scorto? ed essi</l>
+<l>Chi sono a detta lor? Certo che a piedi</l>
+<l>Qua sia venuto io non estimo. Il tutto</l>
+<l>Dimmi sinceramente, affin ch'io vegga</l>
+<l>Se nuovo or giungi, o se del padre mio</l>
+<l>Ospite ancor tu sei: quando molt'altri</l>
+<l>Alla nostra magion veniano un tempo,</l>
+<l>Chè degli uomini amico era egli pure.</l>
+</lg>
+	<lg>
+<l>A lui rispose l'occhi&ndash;glauca Dea</l>
+<l>Palla così: Tanto dirotti al certo</l>
+<l>Senza punto dubbiar. Figlio mi vanto</l>
+<l>D'Anchialo il battaglier; mentre son io</l>
+<l>Che impero a' Tafi in navigare esperti.</l>
+<l>Così con un naviglio e con compagni</l>
+<l>Il negro mare valicando giunsi.</l>
+<l>Tra gente d'altra lingua or in Temesa</l>
+<l>Rame a torre men vo, meco recando</l>
+<l>Lucido ferro. La mia nave è al campo</l>
+<l>Lungi dalla città nel porto Retro</l>
+<l>Sotto al Neìo dall'ampie selve. Invero</l>
+<l>Mutui de' padri nostri ospiti antichi</l>
+<l>Noi ci diciamo, e udir lo puoi dal vecchio</l>
+<l>Eroe Laerte, a lui n'andando. È fama</l>
+<l>Ch'ei più non venga alla città, ma soffra</l>
+<l>La doglia sua lungi dagli altri in villa,</l>
+<l>Con una vecchia fante che di cibo</l>
+<l>E di bevanda gli ministra allora</l>
+<l>Che spossatezza gli occupa le membra,</l>
+<l>Poi che per entro a una ferace vigna</l>
+<l>Strascinando s'andò. Qua dunque io venni</l>
+<l>Perchè dicean che s'era già tornato</l>
+<l>Alla sua terra il padre tuo. Ma fanno</l>
+<l>Al suo viaggio impedimento i numi:</l>
+<l>Chè non è motto il divo Ulisse ancora,</l>
+<l>Ma vivo in mezzo al vasto mare, in qualche</l>
+<l>Isola, intorno a cui s'aggira il flutto,</l>
+<l>È ritenuto, e fiera gente e rozza</l>
+<l>D'Itaca mal suo grado il tien lontano.</l>
+<l>Pur quello io predirò che gl'immortali</l>
+<l>Pongonmi nella mente, e ch'esser dee,</l>
+<l>Se mal non penso, poi che vate o sperto</l>
+<l>Interprete d'agurii io già non sono.</l>
+<l>Dal suol natio per molto tempo ancora</l>
+<l>Ei lungi non sarà. Cinto pur fosse</l>
+<l>Da ferrei lacci di tornar saprebbe</l>
+<l>Trovar la via, ch'astuto egli è. Ma dimmi</l>
+<l>Senza dubbiar, se figlio sei d'Ulisse,</l>
+<l>Tale qual ti vegg'io: che certo al capo</l>
+<l>Ed ai begli occhi lo somigli assai.</l>
+<l>Prima ch'ei gisse ad Ilio, ove molt'altri</l>
+<l>Su' concavi navigli Argivi Eroi</l>
+<l>Del pari si recàr, soventi fiate</l>
+<l>Ambo noi fummo insiem. Da quindi innanzi</l>
+<l>Veduto non l'ho più, più non m'ha visto.</l>
+</lg>
+	<lg>
+<l>E nuovamente a lei parlando, il saggio</l>
+<l>Telemaco rispose: Ospite, il vero</l>
+<l>Senza punto dubbiar dirotti. Afferma</l>
+<l>La madre mia che suo figliuolo io sono:</l>
+<l>Ma questo non m'è conto, e alcun non avvi</l>
+<l>Che il padre suo conosca. Oh stato fossi</l>
+<l>Figlio d'un uom felice cui trovato</l>
+<l>In mezzo a' beni suoi vecchiezza avesse!</l>
+<l>Ma di chi tra' mortali è il più meschino</l>
+<l>Nato mi dice ognun: poi che mel chiedi.</l>
+</lg>
+	<lg>
+<l>A lui la Diva dalle glauche luci</l>
+<l>Minerva replicò: Stirpe che deggia</l>
+<l>Restarsi ignota alle future etadi</l>
+<l>I numi non ti dier, poi che qual sei</l>
+<l>Ti partorì Penelope. Ma dimmi</l>
+<l>E palesami il ver: che cosa è mai</l>
+<l>Questo convito e questa turba? e quale</l>
+<l>Mestier n'hai tu? Forse una festa o forse</l>
+<l>Questa cena è nuzial? che certo a scotto</l>
+<l>Esser non può: sì bruttamente parmi</l>
+<l>Che banchettin costoro. Un uom di senno,</l>
+<l>Qua venuto, in mirar tanta sconcezza,</l>
+<l>Chi ch'ei si fosse, monterebbe in ira.</l>
+<l>E Telemaco il saggio a lei rispose:</l>
+<l>Ospite mio (poi che di ciò m'inchiedi),</l>
+<l>Doviziosa sempre e senza colpa</l>
+<l>Fu questa casa infin ch'ebbe ricetto</l>
+<l>Quell'uom nel patrio suolo. Ora altramente</l>
+<l>Per voler degli Dei va la bisogna,</l>
+<l>Che volti a farci danno, il padre mio</l>
+<l>Più ch'uomo alcuno han reso ignoto. E spento</l>
+<l>Nol piangerei così se stato ei fosse</l>
+<l>Con i compagni suoi da' Teucri domo,</l>
+<l>O, compiuta la guerra, tra le braccia</l>
+<l>Pur de' suoi cari fosse morto. A lui</l>
+<l>Tutti avrebbon gli Achei fatta una tomba,</l>
+<l>E immensa fama al suo figliuolo ancora</l>
+<l>Restata ne saria. Ma se l'han tolto</l>
+<l>Inonorato le rapaci Parche:</l>
+<l>Perito egli è; nullo il conosce, o n'ode</l>
+<l>Il nome; e doglia m'ha lasciato e pianto.</l>
+<l>Nè già dolente il ploro sol, che d'altri</l>
+<l>Acerbi guai m'han fabbricato i numi.</l>
+<l>Ogni prence che l'isole governa</l>
+<l>Di Dulichio, di Samo e di Zacinto</l>
+<l>Dalle molte boscaglie, e que' che impero</l>
+<l>Hanno in Itaca alpestre, a sposa ognuno</l>
+<l>Vuol la mia madre, e la magion diserta.</l>
+<l>Nè l'odiate nozze ella ricusa,</l>
+<l>Nè fin può porre al male: e quelli intanto</l>
+<l>Banchettando ruinano la casa,</l>
+<l>E me fra poco perderanno ancora.</l>
+</lg>
+	<lg>
+<l>A sdegno avendo i suoi disastri, a lui</l>
+<l>Disse Palla Minerva: O numi! in vero</l>
+<l>Grand'uopo hai tu del pellegrino Ulisse</l>
+<l>Che giunto, i Proci inverecondi assalga.</l>
+<l>Se ritornato adesso e' sulla prima</l>
+<l>Soglia ristasse celata e targa</l>
+<l>E con due lance, a quella foggia in cui</l>
+<l>Nella nostra magion la prima volta</l>
+<l>Di bere e di far festa il vidi in atto,</l>
+<l>Quando venne d'Efira e della reggia</l>
+<l>D'Ilo figliuol di Mermero (chè Ulisse</l>
+<l>Là s'era tratto su veloce legno</l>
+<l>Un veneno omicida a ricercargli</l>
+<l>Di che l'enee saette unger potesse:</l>
+<l>Ma quel non gliene diè, che tema avea</l>
+<l>De' sempiterni numi: il padre mio</l>
+<l>Donògliene però, ch'assai l'amava);</l>
+<l>Se tale a' Proci ei si mescesse, ognuno</l>
+<l>Pronto fato n'avrebbe e nozze amare.</l>
+<l>Ma se tornato, in sua magione ei debba</l>
+<l>Rivendicarsi o no, questo de' numi</l>
+<l>Si sta sulle ginocchia. Or come possi</l>
+<l>Lungi cacciar da questa reggia i Proci,</l>
+<l>Esplorar ti consiglio. Attentamente</l>
+<l>Ascolta il mio parlar. Gli Achivi Eroi</l>
+<l>Chiama domani a parlamento, e presi</l>
+<l>In testimoni i Dei, tutti gli aringa:</l>
+<l>Di girne alle lor case ordina a' Proci,</l>
+<l>Ed alla madre tua, se il cor le invase</l>
+<l>Desio di nozze, di tornarsi al tetto</l>
+<l>Del genitor possente. Ei colla madre</l>
+<l>Di sue nozze avrà cura e ricca dote</l>
+<l>Le appresterà, quale è mestier che segua</l>
+<l>La figlia sua. Ma per te stesso ancora</l>
+<l>Saggio consiglio ti darò. Se vuoi</l>
+<l>Fare a mio senno, una tua nave (e sia</l>
+<l>Questa fra tutte le miglior) di venti</l>
+<l>Rematori fornisci, e di novelle</l>
+<l>Del padre tuo che da gran tempo è lungi,</l>
+<l>In traccia vanne, ove a mortal t'avvenga</l>
+<l>Che alcuna te ne rechi, o quella voce</l>
+<l>Udir tu possi che da Giove scende</l>
+<l>E tra gli uomini adduce il più di fama.</l>
+<l>Va prima a Pilo a interrogar Nestorre</l>
+<l>Simile a nume: quindi a Sparta, al tetto</l>
+<l>Del biondo Menelao ch'ultimo venne</l>
+<l>Fra gli Achei che di rame han le corazze.</l>
+<l>Se vivo il padre ed in ritorno udrai,</l>
+<l>Benchè d'affanni oppresso un anno ancora</l>
+<l>Sosterrai d'aspettar. Se fia che intenda</l>
+<l>Com'ei s'è morto, e più non è, tornato</l>
+<l>Alla tua patria terra, un monumento</l>
+<l>Allor gl'innalza, e quali a lui si denno,</l>
+<l>Grandi esequie gli fa. Poscia a uno sposo</l>
+<l>Dà la tua madre; e ciò fornito, il modo</l>
+<l>Di trucidar nella tua reggia i Proci</l>
+<l>Con frode o alla scoperta, in cor, nell'alma</l>
+<l>Va meditando. Or da fanciul non devi</l>
+<l>Più diportarti, e già non sei piccino.</l>
+<l>E non intendi in quanta gloria venne</l>
+<l>Appo gli uomini tutti il divo Oreste,</l>
+<l>Poi ch'ebbe spento Egisto, il frodolento</l>
+<l>Ucciditor del padre suo, del padre</l>
+<l>Sì rinomato già, ch'egli avea morto?</l>
+<l>Tu pur sii prode, amico mio, (che bello</l>
+<l>Ti veggio e grande assai), perchè ti lodi</l>
+<l>Qualche postero ancora. Io torno al mio</l>
+<l>Veloce legno e a' miei compagni. Intanto</l>
+<l>Forse che loro d'aspettarmi è grave,</l>
+<l>Abbi te stesso e i miei consigli a cura.</l>
+</lg>
+	<lg>
+<l>Telemaco il prudente a lei di nuovo</l>
+<l>Rispose: Amicamente, ospite, in vero,</l>
+<l>Come padre a figliuol, porti tu m'hai</l>
+<l>Questi consigli, e non sarà ch'io sappia</l>
+<l>Unque obbliarli. Ma rimanti un poco,</l>
+<l>Benchè fretta ti dia, sì che lavarti,</l>
+<l>E ricrear ti possi il core: andrai</l>
+<l>Lieto quindi alla nave, un don recando</l>
+<l>Prezioso, bellissimo, che fia</l>
+<l>Uno de' miei più ricchi arnesi, e quale</l>
+<l>A caro ospite der l'ospite ha in uso.</l>
+</lg>
+	<lg>
+<l>E a lui Minerva, l'occhi&ndash;glauca Dea,</l>
+<l>Poscia disse così: Non rattenermi</l>
+<l>Or che vaghezza ho di partire. Il dono</l>
+<l>Che a farmi il cor ti spinge, allor che giunto</l>
+<l>Qua di nuovo sarò, mi porgi, ond'io</l>
+<l>Alla mia casa il rechi, e sia pur bello,</l>
+<l>Che di compensazion per te fia degno.</l>
+</lg>
+	<lg>
+<l>Partì, ciò detto, l'occhi&ndash;glauca Palla,</l>
+<l>Volando come augel che si dilegua,</l>
+<l>E vigore e baldanza in core a lui</l>
+<l>Pose, e del genitor più che non era</l>
+<l>Ricordevole il fe'. Seco pensando</l>
+<l>Quegli stupì, che riputolla un nume,</l>
+<l>E tosto a' Proci andò simile a Dio.</l>
+<l>Cantava innanzi a lor l'inclito vate,</l>
+<l>E sedendosi quelli, chetamente</l>
+<l>Stavanlo udendo. Egli cantava il tristo</l>
+<l>Ritorno d'Ilio degli Achei, che tale</l>
+<l>Fu per voler di Pallade. Ne intese</l>
+<l>Dalle superne stanze il divin canto</l>
+<l>L'Icaride Penelope, la casta,</l>
+<l>E giù di sua magion per l'alta scala</l>
+<l>Scese, sola non già, chè la seguiro</l>
+<l>Due fanti. Ella ristette in sulla soglia</l>
+<l>Del ben costrutto albergo, il suo bel velo</l>
+<l>Tenendo anzi alle gote; e allato avea</l>
+<l>D'ambe le parti le due fide ancelle.</l>
+<l>Al divino Cantor si volse, e disse</l>
+<l>Lacrimando così: Femio, molt'altri</l>
+<l>Canti di che diletto hanno i mortali,</l>
+<l>E molte opre sai tu d'uomini e Dei,</l>
+<l>Cui celebrano i vati. Or qui sedendo</l>
+<l>Una ne canta, mentre quelli il vino</l>
+<l>Cheti beendo van: ma questa lascia</l>
+<l>Dolorosa canzon che il core in petto</l>
+<l>Sempre m'attrista. Acerbo duol m'assalse,</l>
+<l>Me sopra tutti, ch'uomo tal desio,</l>
+<l>E che vo meco rimembrando ognora</l>
+<l>Lui che in Grecia ed in Argo ha immensa fama.</l>
+</lg>
+	<lg>
+<l>Ed a lei poscia in questi accenti il saggio</l>
+<l>Telemaco rispose: O madre mia,</l>
+<l>Perchè vuoi tu che dilettar non possa</l>
+<l>Quest'amabil cantore a suo talento?</l>
+<l>Non da' Cantori ma da Giove il male</l>
+<l>A noi deriva; ei de' mortali industri</l>
+<l>Quello a ciascuno invia, che più gli aggrada.</l>
+<l>Ma questi, se de' Greci i casi acerbi</l>
+<l>Or cantando si sta, biasmar non dessi;</l>
+<l>Chè gli uomini lodar più ch'altra mai</l>
+<l>Soglion quella canzon che a chi l'ascolta</l>
+<l>Giunge più nuova. E tu fa core e l'odi.</l>
+<l>Ulisse il sol non fu che del ritorno</l>
+<l>Perdesse in Ilio il dì: molt'altri Eroi</l>
+<l>Perirono del pari. Alle tue stanze</l>
+<l>Tu riedi, ed abbi a cor le tue faccende,</l>
+<l>La tela e il fuso: ed alle ancelle imponi</l>
+<l>Che diansi all'opre lor. Gli uomini tutti</l>
+<l>Del sermonare avran la cura, ed io</l>
+<l>Avrolla più, che la magion governo.</l>
+</lg>
+	<lg>
+<l>Meravigliando, chè del figlio in core</l>
+<l>Il favellar prudente erasi posto,</l>
+<l>Quella tornossi alle superne stanze</l>
+<l>Colle fantesche, e poi che fuvvi ascesa,</l>
+<l>Si stiè piangendo il suo consorte Ulisse</l>
+<l>In fin che alle palpebre un dolce sonno</l>
+<l>L'ebbe spedito l'occhi&ndash;glauca Palla.</l>
+</lg>
+	<lg>
+<l>Per l'ombrosa magione i Proci intanto</l>
+<l>Givan tumultuando, e ognun sui letti</l>
+<l>A lei bramava coricarsi appresso.</l>
+<l>Ma Telemaco il saggio in questi accenti</l>
+<l>A dir si fece: O della madre mia</l>
+<l>Villanissimi Proci intollerandi,</l>
+<l>Or banchettiamo a sollazzarci attesi</l>
+<l>Senza frastuon, chè bello è starsi udendo</l>
+<l>Un cantor quale è questo, che alla voce</l>
+<l>Gli Dei somiglia. A concion dimani</l>
+<l>Tutti sediamci la mattina, ond'io</l>
+<l>Franco vi parli, e di sgombrar v'ingiunga</l>
+<l>Questa magione. Ad altre mense i vostri</l>
+<l>Beni a mangiar n'andate, e l'un di voi</l>
+<l>L'altro a vicenda al proprio desco inviti.</l>
+<l>Se consiglio miglior vi sembra, il vitto</l>
+<l>Impunemente scialacquar d'un solo,</l>
+<l>Su consumate il tutto. Ai numi eterni</l>
+<l>Io sclamerò, perchè, se piaccia a Giove</l>
+<l>Che quest'opre abbian pena, in questa reggia</l>
+<l>Periate, e sia la vostra morte inulta.</l>
+</lg>
+	<lg>
+<l>Sì disse, e quelli si mordean le labbra,</l>
+<l>E stupefersi, poi ch'e' detto aveva</l>
+<l>Arditamente. Gli rispose il figlio</l>
+<l>D'Eupeìte, Antinòo: Davvero i numi,</l>
+<l>Telemaco, il parlar sublime e franco</l>
+<l>Insegnando ti van. D'Itaca cinta</l>
+<l>Tutta dal mar, deh! che il paterno impero</l>
+<l>Darti non piaccia di Saturno al figlio.</l>
+</lg>
+	<lg>
+<l>E poscia a lui si fattamente il saggio</l>
+<l>Telemaco rispose: A sdegno forse,</l>
+<l>Antinoo, prenderai quel che dirotti?</l>
+<l>Gradevolmente questo ancor, se Giove</l>
+<l>Mel consentisse, accetterei. Che? dunque</l>
+<l>Per gli uomini il peggior di tutti i mali</l>
+<l>Questo ti sembra? E non è già per nulla</l>
+<l>Dura cosa il regnar. Del re l'albergo</l>
+<l>Ricco tosto diviene, e a lui si fanno</l>
+<l>Più grandi onori. In Itaca che cinta</l>
+<l>Tutta è dal mare, hanno però molt'altri</l>
+<l>Prenci d'Achei, giovani e vecchi; e morto</l>
+<l>Il divo Ulisse, questo regno aversi</l>
+<l>Può bene alcun di lor. Ma della nostra</l>
+<l>Magione io sarò prence, e degli schiavi</l>
+<l>Di che signor m'ha fatto il divo Ulisse.</l>
+</lg>
+	<lg>
+<l>A lui rispose di Polibo il figlio</l>
+<l>Eurimaco così: Qual degli Achivi</l>
+<l>In Itaca dal mar tutta ricinta</l>
+<l>Abbia a regnar, questo de' numi è posto</l>
+<l>Sulle ginocchia. I beni tuoi possiedi</l>
+<l>E alla tua casa impera. Alcun giammai</l>
+<l>La tua sostanza a depredar non venga</l>
+<l>Contro tuo grado, in fin che abitatori</l>
+<l>In Itaca saran. Ma chieder voglio,</l>
+<l>Ottimo prence, a te, donde quell'uomo</l>
+<l>Ch'ospite qua ne venne; e di qual terra</l>
+<l>Egli si dica; in qual regione alberghi</l>
+<l>La gente di sua schiatta; e dove ei s'abbia</l>
+<l>I patrii campi. Reca forse nuova</l>
+<l>Del genitor che torna? o pagamento</l>
+<l>Di debito ricerca? Oh come sorse</l>
+<l>E dileguossi immantinente, e ch'altri</l>
+<l>Il conoscesse non sostenne! Al certo</l>
+<l>Uom nequitoso non sembrava al volto.</l>
+</lg>
+	<lg>
+<l>Telemaco il prudente a lui rispose:</l>
+<l>Eurimaco, perì del padre mio</l>
+<l>Il ritorno senz'altro; ed a novelle,</l>
+<l>Se avvien che n'oda alcuna, io più non credo;</l>
+<l>Nè, se la madre mia qualche indovino</l>
+<l>Chiama alla reggia e lo dimanda, io curo</l>
+<l>I vaticini suoi. Quegli è di Tafo,</l>
+<l>Paterno ospite mio: d'esser si pregia</l>
+<l>Mente figliuol del battaglioso Anchialo,</l>
+<l>E regge i Tafi in navigare esperti.</l>
+</lg>
+	<lg>
+<l>Egli disse così, ma ch'una Diva</l>
+<l>Immortale era quella in cor sapea.</l>
+</lg>
+	<lg>
+<l>Givansi intanto sollazzando i Proci</l>
+<l>Alle carole attesi, e al dolce canto,</l>
+<l>In aspettando ch'Espero giungesse;</l>
+<l>E mentre a sollazzarsi erano attesi,</l>
+<l>Il negro Espero giunse. Ivano allora</l>
+<l>Quei tutti a riposarsi alle lor case:</l>
+<l>E Telemaco pure ove un eccelso</l>
+<l>Talamo avea di bella corte, in luogo</l>
+<l>Cospicuo d'ogni parte, al letto andossi,</l>
+<l>Molte fra sè volgendo inquiete cure.</l>
+<l>Seco giva, recando accese faci,</l>
+<l>La pudica Euriclea d'Opi figliuola,</l>
+<l>Che figlio fu di Pisenor. L'avea</l>
+<l>Compra Laerte pubescente ancora</l>
+<l>Co' beni suoi, di venti bovi al prezzo,</l>
+<l>E in sua magione della moglie al pari</l>
+<l>Onorata l'avea: ma la consorte</l>
+<l>Per non muovere a sdegno, unqua non s'era</l>
+<l>Con lei meschiato in letto. Or ella insieme</l>
+<l>Con Telemaco gìa, (cui più di tutte</l>
+<l>L'altre fantesche amava e che fanciullo</l>
+<l>Nutrito avea) recando accese faci.</l>
+<l>Del ben costrutto talamo le porte</l>
+<l>Dischiuse tosto; e sopra il letto allora</l>
+<l>Telemaco s'assise e dispogliossi</l>
+<l>Della tunica molle; indi all'attenta</l>
+<l>Vecchia la porse. L'assettò, piegolla</l>
+<l>Essa e vicino al pertugiato letto</l>
+<l>L'appese a un cavicchiuol. Poi dalla stanza</l>
+<l>Pronta levossi, e per l'anel d'argento</l>
+<l>A sè tratta la porta, il chiavistello</l>
+<l>Giù cader fe' colla coreggia. Ascoso</l>
+<l>Sotto coltre di lana, ivi pensando</l>
+<l>Quegli si stiè tutta la notte, e seco</l>
+<l>Cercando gìa come fornir dovesse,</l>
+<l>Giusta il detto di Palla, il suo viaggio.</l>
+</lg>
+</div1>
+
+<div1>
+<head>Canto II</head>
+	<lg>
+<l>Come l'aurora al roseo dito apparve</l>
+<l>La figlia del mattin, d'Ulisse il figlio</l>
+<l>Levossi, s'ammantò, l'acuto brando</l>
+<l>A l'omero sospese, i bei calzari</l>
+<l>Legò sotto a' piè molli, e de la stanza</l>
+<l>Uscì nume a la vista. Indi a gli araldi</l>
+<l>Dal chiaro grido a parlamento i Greci</l>
+<l>Chiomati impose di recar. Vocando</l>
+<l>Venian gli Araldi e s'accogliean gli Achivi</l>
+<l>Speditamente. Quegli accolti, il figlio</l>
+<l>Venne d'Ulisse, sostenea sua destra</l>
+<l>Lancia di rame, e sol non fu che due</l>
+<l>Bianchi cani il seguir. Diva beltate</l>
+<l>Palla d'intorno gli diffuse. Tutti</l>
+<l>Stupir, cedero i vegli. Ed e' s'assise</l>
+<l>Sul patrio seggio. Cominciò l'Eroe</l>
+<l>Curvo per anni Egizio, ch'infinite</l>
+<l>Cose sapea. Al divo Ulisse il forte</l>
+<l>Antifo ei pur suo dolce figlio er'ito</l>
+<l>Su i cavi legni ad Ilion ferace</l>
+<l>Di bei puledri: e in suo profondo speco</l>
+<l>Il diro Polifemo l'avea morto</l>
+<l>Di salma Achea vivanda estrema. Al padre</l>
+<l>Avanzavan tre figli. Era de' proci</l>
+<l>L'uno Eurinomo, ed i paterni averi</l>
+<l>Curavan gli altri assiduamente. Ei giva</l>
+<l>Pur doglioso e piangea che ne la mente</l>
+<l>Gli era quel figlio. Or lagrimando, ai Greci</l>
+<l>Disse: Itacesi, udite. Unqua non ebbe</l>
+<l>Fra noi consesso o concion dal giorno</l>
+<l>Che su' concavi legni il divo Ulisse</l>
+<l>Partì. Qui dunque or chi ci aduna? e lui</l>
+<l>Giovane o veglio sia, qual tanta stringe</l>
+<l>Necessità? de le tornanti schiere</l>
+<l>Novella forse da lui primo intesa</l>
+<l>Sporracci a parte a parte? Altra diranne</l>
+<l>Forse pubblica cosa, e in parlamento</l>
+<l>Ragioneralla? Un uom d'assai l'estimo</l>
+<l>Degno ch'a ben torni sua brama. Oh meni</l>
+<l>Giove quant'ei discorra a buona uscita!</l>
+<l>Tal fu suo dir. Brillò d'Ulisse il figlio</l>
+<l>A quell'augurio. Nè rimase in seggio</l>
+<l>Ma stette in mezzo a l'adunata, ardendo</l>
+<l>Di sermonare e poi ch'in man io scettro</l>
+<l>Pisenor gli ebbe posto, Pisenorre</l>
+<l>L'accorto araldo, incominciò rivolto</l>
+<l>Da prima al veglio. Non t'è lungi, e tosto</l>
+<l>Conto ti fia quel che adunovvi. Io fui.</l>
+<l>Duol soprattutto mi vi trasse o veglio</l>
+<l>Nè del tornante esercito novella</l>
+<l>Da me primiero intesa, aggio veruna</l>
+<l>Da sporvi a parte a parte; altra nè deggio</l>
+<l>Dirvi pubblica cosa e ragionarla</l>
+<l>A concion: ma l'uopo è mio chè incolse</l>
+<l>Rea ventura mia casa, anzi pur due</l>
+<l>Quando il preclaro genitor, ch'un tempo</l>
+<l>Voi stessi voi padroneggiando apparve</l>
+<l>Dolce padre ho perduto, ed or (ch'è danno</l>
+<l>Peggior d'assai, tal che di corto appieno</l>
+<l>Sfarà la casa e darà fondo al vitto)</l>
+<l>A la mia madre ripugnante addosso</l>
+<l>Serra di proci s'aggreggiò figlioli</l>
+<l>De' miglior nostri a cui rifugge il core</l>
+<l>D'irne ad Icario il genitor, sì ch'egli</l>
+<l>Dotata, a tal che gli sia caro, o a cui</l>
+<l>Più gli talenti, dia la figlia. In volta</l>
+<l>Van tutti dì per nostra casa e buoi</l>
+<l>E pecore immolando e pingui capre</l>
+<l>A la real van convitando e il vino</l>
+<l>Nereggiante tracannano, ch'un uomo</l>
+<l>Non ho qual era Ulisse il qual ne tenga</l>
+<l>Lungi tal peste, ed io non son da tanto:</l>
+<l>Sì ch'impuniti voran tutto. E certo</l>
+<l>Anco sarò qual son, fiacco ed ignaro</l>
+<l>Di valentia. Se forza avessi, invero</l>
+<l>Da parte li terrei, che son lor opre</l>
+<l>Intollerande, e mia magion perisce</l>
+<l>Indegnamente. Or voi, voi stessa prenda</l>
+<l>Ira, e vergogna de' vicini, e tema</l>
+<l>Del cruccio de gl'Iddii, non forse abbiate</l>
+<l>Da lor mercè le triste opre indegnando,</l>
+<l>Voi per l'Olimpio prego e Voi per Temi</l>
+<l>Che le umane concioni assembra e solve,</l>
+<l>Soccorretemi amici, e allor dal diro</l>
+<l>Angor me solo macerar lasciate</l>
+<l>S'ai coturnati Achei mai nocque infesto</l>
+<l>Il padre mio, l'esimio Ulisse, allora</l>
+<l>Me persequite infesti ed aizzando</l>
+<l>Costor, men ricambiate. Avrei più caro</l>
+<l>Che consunti per voi fosser miei beni</l>
+<l>Immoti e vaghi: che ristoro forse</l>
+<l>N'avrei quando che sia.</l>
+</lg>
+</div1>
+
+</body>
+</text>
+</TEI.2>

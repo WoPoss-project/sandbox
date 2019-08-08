@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Ars reminescendi, Triginta sigilli, Sigillus sigillorum</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>191 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit001656</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali; Nino Aragno</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-10-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Domitilla Olivieri</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-10-27T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<!-- materiali paratestuali -->
+<front>
+<div1>
+<head>PHILOTHEI IORDANI BRUNI NOLANI.</head>
+
+<argument><p>EXPLICATIO TRIGINTA SIGILLORUM AD OMNIUM SCIENTIARUM ET ARTIUM INVENTIONEM DISPOSITIONEM ET MEMORIAM.</p></argument>
+
+<p>Quibus adiectus est Sigillus Sigillorum, ad omnes animi operationes comparandas et earundem rationes habendas maxime conducens. Et non temere ars artium nuncupatur; hic enim facile invenies quidquid per logicam, metaphysicam, cabalam, naturalem magiam, artes magnas atque breves theorice inquiritur.</p>
+</div1>
+</front>
+
+<body>
+<div1>
+
+<head>SIGILLO SIGILLORUM.</head>
+<lg>
+<l>	Procede, magne liber, quem non magnum</l>
+<l>Reddit conferta densitas voluminum.</l>
+<l>Nusquam contemnens pauperum tuguria</l>
+<l>Divertito ad superbas fores principum.</l>
+<l>Tu non minister cruentorum numinum</l>
+<l>Cunctis sedati fructus gerens animi,</l>
+<l>Nulli abigendus, acceptandus omnibus</l>
+<l>Praeterquam diris geniis misanthropon,</l>
+<l>Incede tutus et in oras Hesperi,</l>
+<l>Oppositique in partes perge Bosphori,</l>
+<l>Extremosque axis mundi inversi cardines.</l>
+<l>Officiosum cunctis, nulli noxium,</l>
+<l>Cum sensus lassus abiget ensiferos,</l>
+<l>Non te repellet mundus sero sapiens.</l>
+</lg>
+</div1>
+<div1 n="Dedica">
+
+<opener><salute>P. IOR. BR. NO. ILLUSTRISSIMO DOMINO MICHAELI A CASTELLO NOVO, DOMINO MAWISSERIO, EQUITI AURATO, INTER NOBILES DOMESTICOS REGIS UNI, QUINQUAGINTA EQUITUM GRAVIS ARMATURAE CAPITANEO, PRIVATI CONSILII CONSILIARIO, GUBERNATORI URBIS ET ARCIS SANCTI DESIDERII, LEGATO CHRISTIANISSIMI REGIS APUD SERENISSIMAM ANGLIAE REGINAM.</salute></opener>
+
+
+	<p>Musarum partus iste non ignobilis, in tua celeberrima aula editus, tibi illustrissime domine sacratur, ut qui mihi debent, Musis debere; qui Musis debent, et tibi earundem perpetuo fautori et protectori devinctos esse cognoscant. Ipsae etenim quibus omne solum patria, ne alicubi haberentur peregrinae seque extraneas esse comperirent, per Italum alumnum, in seposita Britannia, Gallicum, ipsumque regium, hospitium repperere. Vale, illumque satis tibi alligatum scias; cui Angliam in Italiam, Londinum in Nolam, totoque orbe seiunctam domum in domesticos lares convertisti.</p>
+
+</div1>
+<div1 n="Dedica">
+
+<opener><salute>AD EXCELLENTISSIMUM OXONIENSIS ACADEMIE PROCANCELLARIUM CLARISSIMOS DOCTORES ATQUE CELEBERRIMOS MAGISTROS</salute></opener>
+
+	<p>Philotheus Iordanus Brunus Nolanus magis laboratae theologiae doctor, purioris et innocuae sapientiae professor, in praecipuis Europae academiis notus, probatus et honorifice exceptus philosophus, nullibi praeterquam apud barbaros et ignobiles peregrinus, dormitantium animorum excubitor, praesumtuosae et recalcitrantis ignorantiae domitor, qui in actibus universis generalem philanthropiam protestatur, qui non magis Italum quam Britannum, marem quam feminam, mitratum quam coronatum, togatum quam armatum, cucullatum hominem quam sine cuculla virum, sed illum cuius pacatior, civilior, fidelior et utilior est conversatio diligit, qui non ad perunctum caput, signatum frontem, ablutas manus et circumcisum penem, sed (ubi veri hominis faciem licet intueri) ad animum ingeniique culturam maxime respicit, quem stultitiae propagatores et hypocritumculi detestantur, quem probi et studiosi diligunt, et cui nobiliora plaudunt ingenia, excellentissimo clarissimoque Oxoniensis academiae procancellario, una cum praecipuis eiusdem universitatis, salutem plurimam dicit.</p>
+
+	<p>Extant, praestantissimi domini, qui cum satis perspectum habeant, quod et nos non negamus, sapientiam huius mundi stultitiam esse apud Deum, speculativas omnes disciplinas abhorrentes, nihil student. Cum satis receptum sit apud eosdem opera iustitiae nostrae esse veluti menstruata, et per illa neminem coram Deo iustificari, nihil boni faciunt. Interea tamen ne improbi et ignorantes habeantur, repente sine studio docti efficiuntur, iuxta illud ‘Abscondisti haec a sapientibus et prudentibus, et revelasti ea parvulis’. Item sine propriis bonis actibus probi redduntur, iuxta illud ‘Tu es iustitia mea, o Domine’. Facinorissimi quoque in sanctos, mundos atque puros transformantur, iuxta illud ‘Candidi facti sunt in sanguine agni.’ Stulti tandem, ignobilissimi et infames nullum sibi praeferunt nobilitatis genus, iuxta illud ‘Vos estis genus Dei electum et regale sacerdotium.’ Tales sane parvulos, iustos, puros, candidos, electos, reges, sacerdotes et semideos, qui nostram simplicitatem ad animi centrum usque confodere valerent, magis ipsa morte formido; ideo ne eiuscemodi genus aliquo in me aequo et iure congrediatur, illud coram excellentia vestra protestor, quod dum adinventionum nostrarum fructus adferentes, utillimas omnibus animi functionibus praeceptiones adducimus, ubi pro earundem ratione atque praxi comparanda ad Pythagorae, Parmenidis, Anaxagorae meliorumque philosophorum sententias probandas vel ad proprias novasque positiones adducendas dilabi videbimur, si haec comuni probataeque fidei obstare videantur, ea ipsa a nobis non tanquam absolute vera, sed ut sensui nostraeque rationi magis consona, vel saltem minus altera contradictionis parte absona, prolata intelligant. Illudque in memoriam revocent, nos haud tantum de propria scientia praesumere, quantum commotos esse ab amore manifestandae imbecillitatis vulgatae philosophiae absolute credita tamquam demonstrative probata obtrudentis, et per discussiones nostras (si illud a Diis dabitur) appareat, quantum regulato sensui respondeant, veritatique substantiae rerum consonent, quae a plebeiorum philosophorum garriente multitudine tamquam a sensu aliena sunt improbata. Interim nolim ut quemadmodum tempore diluvii asinorum stercora malis aureis dixerunt ‘Nos quoque poma natamus’, ita nunc cuilibet stulto et asino liceat in nostras positiones hic vel alibi, hoc vel alio modo prolatas obrudere; sed si qui eius sunt tituli, dignitatis vel sufficientiae, ut nostro congressu aliqua ratione non habeantur indigni, et quibus sine conditionis nostrae dedecore respondere possimus, hominem promptissimum et paratissimum, per quem pondus virium suarum valeant experiri, comperient.</p> <closer><salute>Valete.</salute></closer>
+
+</div1>
+<div1>
+
+<head>TRIGINTA SIGILLI.</head>
+
+	<p>Habes, illustrissime et excellentissime Domine, Sigillorum 30. congeriem, quibus ad trutinam redactis inquisitio, inventio et retentio affabre succedere valeant.</p>
+
+<div2>
+<head rend="italic">DE CAMPO, qui primus est Sigillus.</head>
+	<p>Campus est primus sigillus. Hic ex illis speciebus confletur oportet, quarum simulacra in phantasticae facultatis amplissimo sinu ideo continentur, ut iacta intentionum et phantasiabilium universorum semina in exoptatam messem promoveant. Hunc etiam, quo nobis maxime subsit officiosus, in eas distributum esse voluimus partes, quae sensibiles, mediocris dimensionis, non excellentis nec diminutae perspicuitatis, diversae, differentes, ordinatae, congruentibus sepositae seiunctaeque intervallis, ad humanorum brachiorum elevatorum altitudinem et extentorum amplitudinem, adiectivatae animataeve, exquisitarum formarum numero adcommodatae, iterum iterumque lustratae existant. Non vulgari tibi praesto erit emolumento, si affabre ipsum divisionum portionibus distributum concipias. Sic Thalmutista Solymam in quattuor latera orientis, aquilonis, austri et occidentis divisam, primo eiusdem laterum singula ad duodenarium multiplicanda numerum, in tres patriarcharum nominibus insignitas portas subdividit, moxque in atria duodecim, quorum singula domorum duodenarium complectuntur, quarum singulae quattuor constant ordinibus, quorum quique duodecim ad summum referunt cubilia, quae tandem vel quattuor angulos, vel etiam in quattuor mediantibus lateribus intersituata recipiant, certo ingressum facit ordine.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE CAELO, qui secundus est Sigillus.</head>
+	<p>Quo caeli imaginum series insculpatur et ordo, sphaera primum in quattuor circumferentiales angulos rectos duobus se circulis magnis intersecantibus divisa, totidem distinctas aequales offeret portiones, quarum quaeque perquisiti, inventi atque retinendi locum situmque ponit ob oculos. Quod si quadrantum singulos in geminas libeat subsecare partes, omni procul dubio divisionis multiplicato opere fiet ut minus in proposito principaliore gravere. Ipsa quidem tribus magnis circulis se ad angulos rectos intersecantibus delineata occurrens, octo circumferentialium triangulorum spacia suppeditabit aequalia, in quibus tu postea quid ad cuiusque basim, quid ad conum, quid ad laterum quaeque positum sit, per dextri, sinistri, superni infernique differentias contemplabere.</p>
+</div2>
+<div2>
+<head rend="italic">DE CATENA, ubi tertius est Sigillus.</head>
+	<p>Ordinate quaerenti per patrem ordinem proles inventio inventique retentio suppeditatur. Ne qua vero partes dissolutione desiliant, et quo ex unius adeptione alterius proxime consequentis adeptio prodeat, ita in se se complectentes cyclos commigrabunt, ut antecedentis in cauda caput explicetur consequentis. Sit id, ut fieri potest, in elementorum consequentia manifestum: AB. BC. CD. DE. EF. FG. GH. HI. IK. KL.</p>
+</div2>
+<div2>
+<head rend="italic">DE ARBORE, ubi quartus est Sigillus.</head>
+	<p>Si ea ratione simplices conceptus aggregaris, ut in ramos, ramusculos, frondes, flores fructusque repullulent, nihil prorsus interesse videtur, si uti catenam, sive uti arboris stipitem conceperis. Eius progressum et usum coordinata, ut vides, insinuent elementa.</p>
+</div2>
+<div2>
+<head rend="italic">DE SYLVA, ubi quintus est Sigillus.</head>
+	<p>Coeunt plurimae arbores in sylvam, porro haec connexionem quidem partium retinet; homogeneam vero univocamque illarum seriem, ni transplantatae in proprios specierum distinctarum ordines digerantur, non admittit: ac. cf. fg. gm. mk. kb. bd. dh. hf. fl. li. Deinde in alia plaga aliter: bf. fk. km. Et deinceps similiter in diversis aliisque plagis diversimode et aliter (catena in arborem et arbore in silvam commigrantibus) ordinabuntur.</p>
+</div2>
+<div2>
+<head rend="italic">DE SCALA SEU GRADIBUS, ubi sextus est Sigillus.</head>
+	<p>Scala haud alio quam praesenti elementarii gradatione hactenus inspecta sit.</p>
+
+</div2>
+<div2>
+<head rend="italic">DE INSERENTE, ubi septimus est Sigillus.</head>
+	<p>Ut modo in hunc, modo in illum intendentes ordinem, hic arbori per catenam, vel catenae per arborem, per campum, perque haec caeteraque caeteris, omniaque omnibus adcurramus, rationabilis multiplexque causa nimirum efficiet. Innumerabilibus siquidem modis dum haec illis, aliaque aliis succedunt, inque certam disponuntur speciem atque continuantur, per plures universosve sigillos tua te solertia poteris ad concupita captanda promovere.</p>
+</div2>
+<div2>
+<head rend="italic">DE AGRICOLA, ubi octavus est Sigillus.</head>
+	<p>Certus agricola si campum cuius est dominus non destituat, vix unquam tua te fallet expectatio. Animam ratiocinantis perpetuo unitam proprio subiecto, pro diversarum formarum adventantium occasione diversimode se gerentem, adque specierum quarumcumque productionem convertibilem, longeque vivacius quam alibi institutum adiectivum subiectum rerum nobis subministrantem occursum, “agricolam” appello.</p>
+</div2>
+<div2>
+<head rend="italic">DE TABULA, ubi nonus est Sigillus.</head>
+	<p>Per ordinatum elementorum combinatorium tabula perfici etiam aliis consueverat, dum ab abstracto ad accusatorem, ad adversarium, ad aereum, ad afflictum, ad agglomerantem, ad aheneum, ad Ayrolanum, ad altum, ad Amblartum, ad anthropophagum, caeterosque per filum sibi succedentes, suis casibus atque gestis significatores, fieret accessio. Hic abstractus virentem complexus arborem, adversarius dolore affectus, agglomerator congregans, diversa mihi per ordinem insinuarunt accidentia.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE COMPAGINATORE, ubi X Sigillus.</head>
+	<p>Compaginator est qui distinctos campos atriave, ceu folia quaedam segregata seorsumque posita, artificioso quodam nexu consuit, quod tunc sane praestat, cum agricolam vel aliud adiectivum aliamve utcumque formam, quae subiecti communis unius erat extremum, alterius ubicumque positi (pro voto) principii indicem efficiat.</p>
+</div2>
+<div2>
+<head rend="italic">DE VEXILLO, ubi XI Sigillus.</head>
+	<p>Ideo vexillum dicimus, quia pro exigentia vocis aut rei, ad idem referendum multos paucosve, plures paucioresve valebis intelligere atque destinare. Hinc non unus tibi inserviat Plato, Aristoteles et Diogenes, neque unus adsit Pyrrhonianus, Cynicus et Epicureus, sed affines, similes proportionalesque multi.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE ZEUXI SEU PICTORE, ubi XII Sigillus.</head>
+	<p>Suis cum insigniis atque circumstantiis astrictas imagines in subiecti partibus plurimis, in quibus quippiam inscribere possit ratiocinantis animus, apposui. Sic mihi Teucri Babylonici imagines centum trium millium propositorum suppeditant lectionem.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE PHIDIA SEU SCULPTORE, ubi XIII Sigillus.</head>
+	<p>In proprias sedes subiectum commune atque totale distinxi, quae quidem easdem in sua domo perpetuo immorantes imagines quasdam retineant, quo diversorum peregrinantium attactu diversimode sonent. Ibi forma subiecto adveniens penes locales situalesque differentias, nec non per varias partes et secundum varias habitudines considerato, consistentia per subsistentia quinque multiplicare faciet elementa; vel si subsistentis ibi perstare libeat elementi notam, fiet ut elementum quintuplex per caeterorum elementorum signa formationem concupitam recipiat.</p>
+</div2>
+<div2>
+<head rend="italic">DE DAEDALO, vel XIV Sigillus.</head>
+	<p>Quod Phidias in verbis praestitit, in intentionibus perque intentiones notatis rebus Daedalus exerceat. Organa igitur utensiliaque plurima institui, quibus, in quibus, per quae, ad quae et circa quae, vel per catenam, vel per arborem, vel per campum, vel per aliud quippiam ordinibus occurrentia certis de instrumentorum centenario operum eliciat centenarium, et de eorum numero caeterorum quorumlibet numerum consequenter.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE PROPAGATORE SEU PERSONARIO. XV Sigillus.</head>
+	<p>Inspexi atria quinque, de quorum primo prodibat homo, qui in secundo de capiti adaptabilibus unum eligebat de pluribus, in tertio de indumentis corporis unum, in quarto determinatam sibi perscribebat operationem, in quinto certum de pluribus casum perpetiebatur, in sexto quemdam de multis adsistentibus hominem determinabat, in septimo puerum, foeminam vel brutum ad opus quoquo pacto concurrens sortiebatur; quae quidem omnia, vel simpliciter vel Phidiae operibus complexe capta, ad quantumlibet multipartitas atque varias referendas complexiones (et si libeat quandoque conceptus) conferunt.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE NUMERATORE, qui est XVI Sigillus.</head>
+	<p>Inter omnia, quid melius numero suppeditabit omnia? Non modo ex ipso, sed et ipse est intelligendi modus; ipse omnia includit proportionabilia; ipsum in omnibus et in ipso omnia licet contemplari; hic substantia quaedam rerumque primum exemplar est Pythagorae; hic in praesentiarum non ordinem conceptandorum retinendorumque modo, sed et (si phantasiabilis effingatur) ipsas retentas atque numeratas obiectare valebit ordinatorum formas. Adsumat igitur diversam pro decadum diversitate materiam, ut primam decadem det linum, secundam lana, tertiam corium, quartam lignum, quintam lapis, sextam crystallus, septimam ferrum, octavam aes, nonam argentum, decimam aurum. Adsumat etiam differentes (pro diversorum digitorum in decadibus diversitate) formas, ut columna unitatem, porticus dualitatem, tripes trinitatem, arca quaternitatem, sedes quinarium, mensa senarium, altare septenarium, lectus octonarium, patibulum novenarium, arbor denarium adferat. Aliis pariter pluribusque materiis atque formis, eodem similique pacto diversificatis, in innumerum numerata tibi extendere poteris subiecta.</p>
+
+<list>
+<head>TRIPES</head>
+<item>Lineus 3.</item>
+<item>Laneus 13.</item>
+<item>Coriaceus 23.</item>
+<item>Ligneus 33.</item>
+<item>Lapideus 43.</item>
+<item>Crystallinus 53.</item>
+<item>Ferreus 63.</item>
+<item>Aeneus 73.</item>
+<item>Argenteus 83.</item>
+<item>Aureus 93.</item>
+</list>
+</div2>
+<div2>
+<head rend="italic">DE CENTURIONE, qui XVII. est Sigillus.</head>
+	<p>Nolani primam, Parthenopaei secundam, tertiam Capuani, Salernitani quartam mihi centuriam conflavere; dum in primam de singulis centuriis decadem perceptos amicos, in secundam imaginatos verosve fratres, in tertiam consiliarios, in quartam servos, in quintam pueros, in sextam gubernatores, in septimam doctores, in octavam concionatores, in nonam adversarios, in decimam condiscipulos convenire conciperem. Huiuscemodi mihi rerum significandarum subiecta, nunc quidem hic, nunc vero ibi, nunc haec, nunc vero illae, dispositione, motu, actu, habitu atque circumstantiis informata (eorum me nullatenus ordine praetereunte) pro exigentia dilatandi, amplificandi, distribuendi multiplicandique propositi venere in usum.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE QUADRATO ENCYCLIO. XVIII Sigillus.</head>
+	<p>Quandoque dum ad latera quattuor stellarum primae magnitudinis, aliis secundae magnitudinis quattuor appositis, eadem forma tertiae magnitudinis quattuor accessissent, quaternarium mihi primo migrabat in duodenarium, secundo duodenarium in 48narium extendabatur, tertio 48narium in 192narium amplificatum universae descriptioni deservisset, ulteriora pari adtentassem serie.</p>
+</div2>
+<div2>
+<head rend="italic">DE BINARII CIRCULARI ENCYCLIO. XIX Sigillus.</head>
+	<p>Habet A circa se B et C, B habet D E, C habet E F, D habet G H, E habet I K, F habet L M, G habet N O, H habet P Q, I habet R S, K habet T V, L habet X Z, M habet a b, N habet c d, O habet e f, P habet g h, Q habet i k, R habet l m, S habet n o, T habet p q, V habet r s, X habet t v, Z habet x z.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE COMPOSITO ET ELEMENTO. XX Sigillus.</head>
+	<p>Epigramma vel ode denarium mihi numeratum referebat. Ipsa in proprias distincta partes, primo sectionum libros, mox librorum capita, capitum subinde portiones insinuabant, dum universa generalisque materia ratiocinativos discursus, iique suas mihi promerent propositiones atque sententias, a quibus quid impedisset quominus ad incomplexos terminos fieret adcessio? ODI itaque primi, PROFANUM secundi, VULGUS tertii, ET ARCEO quarti, in tertia ipsa divisione, capitis intentionem patefaciebat, quibus sane intentionum signis cum elementorum vel primarum ex iisdem compositionum significata accommodarentur, facillimus ingenio ad ipsarum intentionum partes patuit aditus. Odii expresso indicio operarius per O significatus odisset, odissetque per D significatus didascalus, et per I notatus iracundus, vel unus alius de notatis iracundis, quorum modo hunc, modo alium (pro iisdem in eadem prima vel secunda vel tertia combinatione importunius repetitis elementis) in usum revocabam.</p>
+	<p>Solertem hic me reddidit quandoque urgens necessitas, ut vel elementa in composita migrare atque extendi, vel haec in illa perstringi contrahique permitterem. Sic enim membrana propositae minus sufficiens scripturae aliam sibi connecti requirit, vel se nimium capacem angustari decurtarique magis.</p>
+	<p>Formarum multiplicationem ita mihi quandoque comparabam, utpote cum semel mihi elementum vel combinatum per hominem mihi propositum significarit, mox vel per eundem aliter aliterque insignitum, vel melius per operantem eiusdem nomenclaturae alium, aut foeminam aut brutum aut inanimatum quippiam (quod ad idem vel idem elementum figurandum significandumque fuerat ordinatum) ipsum subinde consequens aucupabar.</p>
+	<p>Hic iam cum res rebus connecterentur, ne quasi in confusam corporis massam membra coalescerent, capita quaeque numeris illustrando, insigniendo, veluti inter cohortes, quae non suum modo, sed et suorum ordinem efficacius referrent, prominentiora constitui.</p>
+</div2>
+<div2>
+<head rend="italic">DE ROTA FIGULI. XXI Sigillus.</head>
+<p>	Duarum praeceptionum connexione quam optime succedens artificium adipisceris. Si inquam pro centum vel mille patribus seu capitibus, cum suis natis, corporibus atque membris distinguendis, centum animata subiecta aliqua de praedictis serie in ordinem digesta praeappararis, in quibus de quo ratio est habenda prosequutum negotium intelligatur. Haec vel numeratoris numeros aut alterius cuiusque ordines percurrentia, capita in membra, membraque in proprios distribuent articulos. Quid enim? Nonne si de centum hominibus successive singuli centum diversificata lustraverint cubilia, decies tibi mille substernent intentiones, quas si duplicare cupias sola totidem cubilium additione, vel hominum multiplicatione perficies? Nonne et in ipsis, sicuti materiae materiis subordinantur, ita et hominibus homines tamquam servos vel amicos vel successores, vel similibus relationibus domos domibus, atriaque atriis subiicere valebis? Numquid non et haec ultima percepta, ut variis ordine quodam subiecta casibus, materiam tibi longe uberiorem et ad inquirendum et ad inveniendum et ad retinendum suppeditabunt?</p>
+</div2>
+<div2>
+
+<head rend="italic">DE FONTE ET SPECULO. XXII Sigillus.</head>
+<p>	Non dabitur omnibus istam adire Corinthum. Unicam in unico scientiam subiecto contemplabar. Eius enim quot fuerant praecipuae partes, totidem praecipuae ordinabantur formae, quotque secundariae partium portiones, totidem primariis secundariae formae adnectebantur. Ad instar igitur artis, quae <title>“Cabalisticus auditus”</title> intitulatur, non subiectorum, praedicatum utriusque generis et quaestionum modo, sed et actionum et passionum, organorum, comitum, principum et servorum certum mihi numerum comparabam. Haecque erant per quae successive scientiarum et aliarum facultatum particularia subiecta, tanquam per eadem afficienda deducebam. Horum quidem signa per certa, determinata inque ordinem digesta loca dum praesentarentur, eorum significata pro nostro libito, eorumque ratione meliore, ad alia atque alia conceptacula referebantur. Quod si propositis in quibusdam materiae amplitudo subiectique capacitas simplices formarum vicarias absorbuisset, nos illas invicem commixtas, combinatas ad subiecti expletionem repletionemque in innumerum etiam deduxissemus.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE EMPIRICO. XXIII Sigillus.</head>
+<p>	Ad varias domos varios referebam laborantes, eas inquam domos, in quibus horti, horrea, apothecae, hypocausta, coquinae, in quibus olera, fruges, condimenta, balnea, cibi praeparabantur atque potus. Hic etiam in angustiore pro rei exigentia spatio cuique necessaria et ad quemque conferentia promptius occurrebant. Haud tamen pro numeri mensuraeque cuiusque ratione minime dissimulanda, solertia studiosa non providente. Ibi vero seorsum ab aedibus extabat atrium, ubi malesuada fames et turpis egestas, luctus et ultrices posuere cubilia curae, quae quidem omnia ideo per hortos et pomeria physicorum, magorum circuitus et Daedaleas manuducebantur officinas ut iisdem proficua atque convenientia evellerent, decerperent, legerent, caperent atque compararent. Sic enim talibus freti muneribus, qui ripae ulterioris tenebantur amore, tristes Stygis undas transvadantes, in fortunatos incolumitatis campos appellebant.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE ALEA. XXIV Sigillus.</head>
+<p>	Siquidem aleae nullus apud empiricum, fontem, speculum, figulum caeteraque, nec in campo, nec in caelo, nec in encycliis caeterisque locus vacat, machinati sumus haec ulteriora, quae talibus valde videntur adcommodata, quae nedum moram repetendarum sedium non patiuntur, sed et in ordine proiicientium incerta, indefinita inconstantiaque existunt. Ita igitur principio providebam, ut proiectorem Pontificis, Mortis, Lemuris, Daemonis, Fortunae, mitratus ungeret, falcigera feriret, corniger pulsaret, tibicen ottunderet, rota premeret; quae omnia aliis munita functionibus in sequentibus concursibus in proiectores afficerentur. Deinde diversa diversis destinabantur conflictibus triclinia, quorum singula quattuor animata continentia subiecta, ex eorundem accidentibus quattuor colludentum proiectiones adsignificarent, dum suis vicibus hic rex sceptrum collocat, senex cubat, mors emetit, regina comprimitur. Ibi vero et alibi regina, mors, senex, rex atque caeteri similiter adventant atque aliter. Nescio an minori effectum fuerit sagacitate, ut decem vel plurium conflictuum ordine Mors primo decalvans, 2. obcaecans, 3. edentans, 4. suffocans, 5. iugulans, 6. confodiens, 7. eviscerans, 8. castrans, 9. manus amputans, 10. prosternens inducatur; Fortuna primo coronet, 2. clarificet, 3. propinet, 4. intorqueat, 5. inauret,6. palliet, 7. infarciat, 8. connubat, 9. annulet, 10. insoliet; caeterique simili propria compleant ordine denaria.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE CAELO, qui XXV est Sigillus.</head>
+<p>	Erat mundanae aeternitatis figura, circumgyrantis terrae typus, duorum sibi ultro citroque obsistentium principiorum nota, caeteraeque complexarum intentionum quamplurimae delineationes atque descriptiones. Harum cum singolas inspexissem, in campum vel centurionem vel aliud quippiam, in quo adversantum collimantium iaculis minime deperdendis obiicerentur, referebam. Adversus ergo terrae vertiginem erat quod ‘Oceanum interea surgens aurora reliquit’; pugnabat contra animae inmortalitatem, quod ‘Formosum pastor Corydon ardebat Alexin.’ Ibi “Oceanum” magnitudinis, “Interea” naturalis facultatis, “Surgens” lunaris symboli, “Aurora” veligerae remitaeque ratis, “Reliquit” indigentiae medium referebant; hic “Formosum” instabilem continuoque variabilem concipiebam, “Pastor” se mihi dissolubilem obiectabat, “Coridon” corporeo mancipatus aderat specimini, quod “Ardebat” contrariorum exprimebat concursum, “Alexin” passiva materialisque potentia obtinebat. Quandoque vero ubi iaculator idem in plures diversasque veritatis turres argumentorum tela intorqueret, iuvabat non in oppugnandorum castrorum, sed impetentium arietum et volitantium iaculorum ordinem respicere. Curabam ut in eodem campo ordinate sui ictus suos sequerentur nunc in istud, nunc vero in illud collineantes iaculatores. Hinc mundum aeternum referebat quod “Oceanum” quattuor autem adventantium telorum, primum quod “Interea”, secundum quod “Surgens”, tertium quod “Aurora”, quartum quod “Reliquit”. Iacula in animae immortalitatem caput metri succedentis consequebantur.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE CIRCAEIS CAMPIS, HORTIS ET ANTRIS. XXVI Sigillus.</head>
+<p>	Facile visa species cum figura formaque, quae circa est, sensus interioris occurrit facultati, facillime vel possumus locum certis destinare speciebus, vel certas locis species ita addicere, ut cum fuerit opus, qualitatis eiusdem ratio, de eiusdem ad determinatum locum relatione, designata prodeat. Hinc evenit, ut sensibilibus speciebus effigiatos numeros, omnibusque locis iuxta specierum pluralitatem pluribus adscriptos experimur ab opere graviore maxime naturalem relevare facultatem. Ut si in Rota, quam Fortunae appellant, Itali ad denarium, Galli ad vigenarium, Hispani ad trigenarium numerum referantur, quorum particulares certis insigniis actibusve decadum partes insinuent, etiam si non ut subsequens regulata multiplicatione quattuor numerorum constet differentiis. Circaea etenim manus, e regionibus variis varias simplicium decerpit, evellit colligitque species.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE PEREGRINO, qui XXVII Sigillus.</head>
+<p>	Decem communia subiecta potenti varietate formata quandoque institui, quorum singula 24 vel plura vel pauciora partialia complecterentur, ut haec ipsa primus perlustrans peregrinus ita occurrentibus utensilibus se gereret et afficeretur, ut me ad alicuius primi ordinis vel contemplationem vel inquisitionem vel habitum promoveret. Pariter secundi secundus, tertii tertius, et ita deinceps caeterorum caeteri, quibus ad universa opera manus admoventibus non est adeo prolixum variumque propositum, quod vel intentionum catena vel circumstantiarum appositione vel socio seu vicario succedente non attingant, exaequent vel exuperent. Hinc Aristoteles aliter in subiecta affectus quam Plato fuerit, alia vel per se vel per comitem enunciabit. Secus item Physicus, secus Logicus, secus Metaphysicus aderit. Quod si capitum significativa partialia subiecta in proprias libeat resolvere portiones, hominem taliter affectum vel agentem ad aliud subordinatarum mansionum commune subiectum referas, in quo significativas impleat functiones. Si vero et partium exigas particulas, domum domo, campum campo, theatrum theatro subordina, uti Iuris periti libri in titulos, tituli in leges, leges in parr. resolvuntur.</p>
+
+<p>	Peregrinatur Aristoteles per atrium primum.</p>
+<p>A. B. C. D. E. F. G. H. I. K.</p>
+
+<p>	A. Ipsum deducitur per atrium secundum.</p>
+<p>a. b. c. d. e. f. g. h. i. k.</p>
+
+<p>	a. ipsum commigrat per atrium tertium.</p>
+<p>I. II. III. IV. V. VI. VII. VIII. IX. X.</p>
+
+<p>	I. discurrit per atrium quartum.</p>
+<p>1. 2 .3. 4. 5. 6. 7. 8. 9. 10.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE CLAUSTRO CABALISTICO ET TEMPLO. XXVIII Sigillus.</head>
+<p>	Habes duo et viginti claustra atque templa, vice duorum et viginti elementorum, quorum singula 22 sedibus, quas recipiunt, totidem eademque dabunt eodem ordine, quae dabant elementa; a quibus, si ad 22 artes et artium singularum 22 gestus procedatur, trium quattuorve radicalium vires delitescent.</p>
+<list>
+<item><label>A</label> claustrum Regis.</item>
+<item><label>B</label> claustrum principis.</item>
+<item><label>C</label> claustrum ducis.</item>
+<item><label>D</label> claustrum comitis.</item>
+<item><label>E</label> claustrum praesidis.</item>
+<item><label>F</label> claustrum iudicis.</item>
+<item><label>G</label> claustrum consiliarii.</item>
+<item><label>H</label> claustrum senioris.</item>
+<item><label>I</label> claustrum actoris.</item>
+<item><label>K</label> claustrum secretarii</item>
+<item><label>L</label> claustrum satellitis.</item>
+<item><label>M</label> templum Pontificis.</item>
+<item><label>N</label> templum sacerdotis.</item>
+<item><label>O</label> templum prophetae.</item>
+<item><label>P</label> templum doctoris.</item>
+<item><label>Q</label> templum lectoris.</item>
+<item><label>R</label> templum cantoris.</item>
+<item><label>S</label> templum sacristae.</item>
+<item><label>T</label> templum lampadarii.</item>
+<item><label>V</label> templum corbonarii.</item>
+<item><label>X</label> templum ostiarii.</item>
+<item><label>Z</label> templum custodis.</item>
+</list>
+<p>	In claustro regis A sunt 21 reges, quorum B degradatur in principem, C in ducem, D in comitem, caeteri similiter in caeteros. In ipso degunt aurifices uno actionis genere, et 21 specialibus operibus. In claustro principis B sunt 21 principes, quorum A exaltatur in regem, G exaltatur in ducem, D degradatur in comitem, E in praesidem, caeterique in caeteros. In claustro ducis C sunt 21 duces, quorum A exaltatur in regem, B in principem, D in comitem degradatur, caeterique similiter degradantur vel mutantur. In ipso sunt impressores. In claustro comitis D sunt 21 comites, quorum alii exaltantur, alii degradantur, alii mutantur in templarios. In ipso sunt ferrarii 21 operationibus. In claustro praesidis E cum 21 praesidibus exaltatis, mutatis et degradatis sunt stabularii. Similiter in claustro iudicis, in quo milites; in claustro consiliarii, in quo fullones; in claustro senioris, in quo bibliopolae; in claustro actoris, in quo musici; in claustro secretarii, in quo barbitonsores; in claustro satellitis, in quo crepidarii. In claustro pontificis sunt 21 pontifices, quorum A mutatur in regem, B in principem, C in ducem, caeterique in caeteros. In ipso degunt cauponae cum 21 operibus. In templo sacerdotis sunt 21 sacerdotes, quorum A exaltatur in regem, B mutatur in principem, C in ducem, D in comitem, aliique in alios. In ipso sunt pincernae. In templo prophetae 21 prophetae, quorum A coronatur in regem, B in principem etc. In ipso sunt laniones. Ita modo suo cogitandum in templo doctoris, in quo pastores; in templo lectoris, in quo agricolae; in templo cantoris, in quo olitores; in templo sacristae, in quo lusores; in templo corbonarii, in quo magi; in templo lampadarii, in quo lictores; in templo ostiarii, in quo pictores; in templo custodis, in quo voluptuarii.</p>
+</div2>
+<div2>
+
+<head rend="italic">DE COMBINANTE, qui XXIX Sigillus.</head>
+<p>	Tria haec combinationum genera proponuntur, quorum primum habet consistens elementum quod alterum persistens praecedit; secundum contrario se habet ordine; tertium est, in quo inter antecedens atque consequens adsistens liquidatum, vel illiquidatum medium persistens suscipitur aliud. Nulla quidem in primi secundique formatione difficultas apparet, in tertio vero taliter instituimus, ut quintuplici situs differentia quintuplex persistens medium in sequenti combinatorio captetur.</p>
+<p>	Bb. bc. bd. be. bf. bg. bi. bk. bl. bm. bn. bns. bnt. bp. br. bs. bt. bv. bx.</p>
+<p>	Cb. cc. cd. ce. cf. cg. ci. cl. cm. cn. cns. cnt. co. cp. cr. cs. ct. cv. cx.</p>
+<p>	Simile iudicium est de caeteris elementis combinandis; in operatione quoque quintuplici operis locali differentia providendum duximus, sicut primo combinatorio differentia triplex liquescentia LRN insinuabat.</p>
+<p>	Primi generis combinatorium in imaginatis 22 fratribus perficiebatur, quibus quintuplex adveniens differentia concomitans promebat elementum. Secundi generis combinatorium in imaginatis quinque amicis 22 qualitatibus vel circumstantiis adfecti secundum combinationis notabant elementum. Tertii generis primus ordo fiat de devinctis, 2. de aegrotis, 3. de claudis, 4. de caecis, 5. de barbiferis, 6. de signatis, 7. de atris, 8. de candidis, 9. de lividis, 10. de mundis, 11. de caelebibus, 12. de rivalibus, 13. de officiosis, 14. de gloriosis, quibus habetur signum prioris in combinatione elementi. Ad secundum vero combinationis elementum promptius habendum, ad A pertineant magri, ad B oves, ad C lunatici, ad D magi, ad E invidi, ad F fures, ad G gulosi, ad I iracundi, ad L superbi, ad M simulatores, ad N mercuriales, ad O libidinosi, ad R canini, ad S serpentini, ad T homicidae, ad V ociosi, ad X castrati, ad Z tortuosi.</p>
+<p>	Combinatorium primum in negotiis hortensibus ruralibusque in quinque distributum genera versatur; aut enim circa olera, aut circa vineas, aut circa segetes, aut circa fructus, aut circa ligna perficitur; ut alia ad primum, alia ad secundum, alia ad tertium, alia ad quartum, alia ad quintum subsistens referantur.</p>
+<p>	Combinatorium secundum totidem supposita exigit pro totidem combinatoribus designandis. In quinque igitur genera distribuantur, ut haec quidem circa cibum, haec circa indumentum, ista circa ornatum, isthaec circa aedificia, illa circa aedificiorum versentur ornamenta.</p>
+<p>	Combinatorium tertium quattuordecim combinationum continet ordines, quarum prima versetur circa musicales actiones, 2. circa studiosas, 3. circa metalla, 4. in lapidem, 5. in merces, 6. in lusus, 7. in militiam, 8. in iudiciariam, 9. in sacrificia, 10. in medicinam, 11. in vecturam, 12. in latrocinia, 13. in magica, 14. in ligamenta.</p>
+<p>	Restat de duobus subsistentibus combinatorium:</p>
+<p>Aa Ea Ia Oa Ua</p>
+<p>Ae Ee Ie Oe Ue</p>
+<p>Ai Ei Ii Oi Ui</p>
+<p>Ao Eo Io Oo Uo</p>
+<p>Au Eu Iu Ou Uu</p>
+<p>	Primi combinatorii hortensia negotia Ba. Ca. Da: seminum eductio, ventilabrum, cribrum, pulvis, semen, planta, fasciculus, lapis, canistrum, lympha, ligo, iuncus, asellus, uncini, scopa, linea, testa, flores. Vinitoris gesta Be. Ce. De: Plantatio, extirpatio, collectio, calcatio, pressio, occatio, putatio, vindemia, pali, fasces, frondes, corbes, utres, vinacia, faeces, asellus, utres, dolium, vinum. Frugum conditiones Bi. Ci. Di: satio, aratio, trituratio, eventilatio, area, falx, currus, manipulus, saccus, asinus, cribrum, vomis, excussorium, stimulus, iugum, aratrum. Arborum tractatio Bo. Co. Do: extirpatio, plantatio, putatio, insitio, incisio, coniugatio, lectio, excussio, rigatio, subtensio,oneratio, exoneratio, sporta, lapis, fovea, fructus. Lignorum contrectatio Bu. Cu. Du: truncatio, sectio, decorticatio, serra, fascis, pyra, dola, securis, lectus, sedes, mensa, arca, solium, altare, columna, tabula, tabulatum.</p>
+<p>	Secundi combinatorii circa cibum sunt Ab. Ac. Ad: olla, sartago, cacabus, craticula, veru, patella, ignis, mensa, pincerna, pistor, pastillarius, vomens, frangens, comedens. Circa indumentum Eb. Ec. Ed: linum, filum, tela, vestis, tundit, mundat, filat, convolvit, orditur, texit, scindit, suit, expulverat, plicat, dilacerat, induit, exuit, cardinat. In corporis ornatum Ib. ic. id: manus, facies, caput, pedes, dorsum, barba, ungues, digiti, pecten, speculum, scopa. In aedificia Ob. Oc. Od: arena, lapis, calx, picus, marra, scalprum, scala, fulcrum, ruina, fundamentum, paries, tectum, trabs. In aedificiorum ornatum Ub. Uc. Ud: gypsum, color, frondes, tapeta, aurum, papyrus, puella.</p>
+<p>	Tertii combinatorii Musicus Bc: campana, nola, tympanum, cornu, cithara, testudo, lyra, tibia, crepitaculum, urceus, trenula. Studiosus Cb: compaginatio, scriptura, lectio, ordinatio, evolutio, mathesis, physis, grammatica, logica, rhetorica. Minerarius Db: tundit, cudit, limat, contundit, ignis, aqua, folles, folliculus, lima, incus, carbo. Lapidarius Fb: excavat, frangit, iacit, levigat, tingit, struit, concoquit, attollit, ordinat, scalpit, portat. Mercator Gb: olera, triticum, linum, pannum, vasa, oleum, cultri, panes, vina. Miles Id: lorica, hasta, ensis, pugio, catapulta, arcus, balista. Iudex Lb: apprehensio, examinatio, consilium, tortura, iudicium, manicae, compedes, flag., auricula, manus, laqueus, rota, ignis. Sacerdos Mb: orat, benedicit, accendit, lustrat, sacrificat, baptizat, exorcizat, excommunicat, communicat, caedit, offertorium, crux, idolum. Lusor Nb: paxilli, aleae, trochus, palus, saltus, lucta, pila, calculi, [saltus,] cursus. Medicus Pb: pulsus, sanguis, ignis, oleum, terra, pharmacum, extentio, cubatio, fricatio, expurgatio. Vector Qb: arca, dolium, lectus, lagena, corbis, currus, liber, senex, vetula, puer. Latro Rb: percutiens, nudans, feriens, torquens, puella, galerus, porcus, ovis, pallium, crumena. Magus Sb: signum, [thus,] nodus, holocaustum, imago, lemur, ignis, baculus, thus, lymphae lustrales, pentagonus. Pastor Tb: pera, baculus, lana, lac, lupus, ovis, canis, capra, bos, porcus. Venator Ub: caper, vulpes, cornu, aper, cervus, canis, ursus, leo.</p>
+<p>	Ad istorum numerum si tamquam semimathematicalia subiecta velis varie per artificium efformata referre, non modicum videberis lucratus. Habeat igitur musicus multiplicem arcam, studiosus tabulatum multiplex, minerarius multiformem lectum, caeterique varie efformata mensam, altare, sedem, brutum, foeminam, vas, offendiculum, obicem, caeteraque quibus appositis idem quod animata designant, consignificetur. Adde ad optimum usum sive radicalium punctorum, sive plurium caeterorum huiusmodi, istam subsistentium elementorum cum subsistentibus aliis elementis combinationem. Instituebamus enim iuxta radicalium significatores quinque adsistentium genera, quae vel 25 differentiales sibi species adsciscerent, vel de quinque materiis 25 formas educerent. Extabant igitur absoluta quinque AEIOU, quae modica differentia se magna prodere poterant aut parva; subindeque ad duplicis consequentis punctuationis expressionem duobus aliis adnectebantur singula caeterorum quattuor, sicut iisdem A primum adnexum vides.</p>
+<p>Aaa Aea Aia Aoa Aua</p>
+<p>Aae Aee Aie Aoe Aue</p>
+<p>Aai Aei Aii Aoi Aui</p>
+<p>Aao Aeo Aio Aoo Auo</p>
+<p>Aau Aeu Aiu Aou Auu. </p>
+</div2>
+<div2>
+
+<head rend="italic">DE INTERPRETE, qui XXX est Sigillus.</head>
+<p>	Interpreti primo ad elementorum numerum viros 22 sigillatim referendos decrevi; secundo illorum singulis atria vel domos 22, quas denominarent, adtribui; tertio atriorum vel domorum singula in sex cubilia, quae ordine quodam 22narium complerent tertium, distinxi, ut virum in quibuscunque cubilibus repertum, trium semper elementorum ex loco quidem praesentatorem, ex activo autem, passivo neutroque gestu significatorem efficerem et interpretem. Figuram quoque institui, in qua primo ex atrii nomine, 2. ex nomine cubilis, 3. ex nomine praesidis inspecto, tria designata inspicerem radicalia. Ipsa quidem quadrata est et 22 ordinibus in 22 partes divisis constans, in quibus notae diametraliter appositae per planum ad dextrum sinistrumque relatae ipsum quod primum in atrio supponitur elementum notant, sursum vero atque deorsum ascensu descensuque respicientes secundum quod a singulis cubilium desumitur elementum designant, singularis vero nota, quae in figurae margine cernitur adfixa, praesidem virum refert. Ibi vel a cubilis intentione ad intentionem atrii et praesidis, vel ab intentione praesidis ad intentionem atrii et cubilis, vel ab atrio ad cubile et praesidem, vel a cubili ad praesidem et atrium, vel a praeside ad cubile et atrium, vel ab atrio ad praesidem et cubile procedere volens, non modo tibi interpretem comparabis, sed et maiorum omniumque (si quos habet Cabala) mysteriorum scrutatorem contemplatoremque te poteris efficere.</p>
+<p>	Non minus exquisitam ad captandum interpretem denuo comperi rationem. Quandoquidem trecentae et septuaginta septem de primis duabus radicibus combinationes agnoscunt Cabalistae, iccirco totidem viros earundem significatores certa serie institui, iisdemque propria atria, domos et cubilia in tot partiales distributa sedes destinavi, quot ipsi pro tertia designanda radice susciperent operationes. Quod ut firmius praestarem et accuratius, talia perpetuo sedibus adieci, qualia designandum elementum referre valeant. Ad universalem autem interpretem viris, virorum insigniis, insignitorum actionibus, agentium adsistentibus atque circumstantibus, ordinatum (prout idiomatis exigit ratio) combinatorium perfeci, quibus sedulo expeditis patriam, in qua actionum supposita de primo in secundum actum prodirent, elegi; ibidemque ad locum proprium, agentem, actionem actumque contrahens, ex adiective vel substantive, antecedenter vel consequenter vel concomitanter appositis, substantiam vel accidens, rem vel intentionem, actionem vel passionem, vel aliam quamcumque referendam intentionem ob oculos apponere novi.</p>
+</div2>
+</div1>
+<div1>
+<head>TRIGINTA FORMARUM NON SENSIBILIUM DE SENSIBILIBUS DEDUCTIONES.</head>
+
+<p>	Praepositis adde quod naturales vel in naturalibus per artem effinctae formae, de externo in internum sensum irrepentes, et accurata quiditate, magnitudine, multitudine, habitu, dispositione, affectione, colore, forma, figura, habitudine ad subiectum, ad continens applicatione, activitate per omnia, motivitate in alia, mobilitate ab aliis, ordine ad alia, situatione cum aliis, nec non aliorum possessione, consistentia, circumstantia et adsistentia excogitatae, triginta modis aliae deducuntur ex aliis, quorum quindecim simplices, totidem vero conversivi existunt.</p>
+<p>	Primum quindenarium: 1. de habitu externo in internum habitum, 2. de operatione in facultatem atque potentiam, 3. de medio et finito in extremum et infinitum, 4. de insigni in insignitum, 5. de hieroglyphico in suum connotatum, 6. de metaphorico in suum naturale, 7. de instrumento in artificem, 8. de habente in possessum, 9. de locato in locum, 10. de contemporaneo in tempus, 11. de modificato in modum, 12. de specie in genus, 13. de proferente in prolatum, 14. de verificante in verificatum, 15. de accidente in substantiam.</p>
+<p>	Secundum quindenarium: 1. de propria passione in subiectum, 2. de simili in consimile, 3. de proportionale in comproportionale, 4. de relativo in correlativum, 5. de effectu in caussam, 6. de continente in contentum, 7. de parte in totum, 8. de subalternato in subalternans, 9. de contrario in contrarium, 10. de principali in reductivum, 11. de antecedente in consequens, 12. de concomitante in comitem, 13. de commutante in mutatum, 14. de invertente in inversum, 15. de capitis additione diminutioneque in corpus.</p>
+</div1>
+<div1>
+
+<head>PHILOTHEI IORDANI BRUNI NOLANI TRIGINTA SIGILLORUM EXPLICATIO</head>
+
+<p>	Omni verborum superstitiosa cura abacta, tibi a nobis ut agglomeratum implicitumque filum evolventibus et enodantibus, velutique occultam complicatamque telam educentibus et explicantibus, triginta, quos ordinavimus, sigilli aperiuntur.</p>
+<div2>
+
+<head rend="italic">Primi sigilli explicatio.</head>
+<p>	Campus erat primus sigillus, quem veluti universi operis artificiique subiectum oportet apparasse prius. Ipse est locus, qui in secunda theoriae <title>“Artis reminiscendi”</title> parte per comunis propriique differentias distinguitur et in suas species omnes distribuitur.</p>
+<p>	Hic perquiri simulacra locorum dicere maluimus, quam loca. Ea enim cum externis obiiciuntur oculis, minus sensibili praesentia movere comperimus, quam cum internis phantasticae facultatis oculis intentata perlustrantur. Hic ideo amplissimus sinus intitulatur phantasia, quia quod terminatum determinatumque a sensibus externis accepit, in immensum amplificare et in innumerum multiplicare valet.</p>
+<p>	Sinus iste, qui est in subiecto anima vel animali, alius generis efficitur subiectum, dum ea loca in genere phantasiabiliter retinenda suscipit, in quibus ea ipsa rerum signa, imagines et figurae inscribi debeant, quae in species significatorum et praesentatorum vivaciori memorativae facultatis obtutu inspiciendas promovent. Ipsorum vulgatas rationes in secunda theoriae parte protulimus. Iam ut aliquid adferatur huius disciplinae proprium, ad instar Solymae per Thalmutistam divisae, praecipimus ut generalissima forma generalissimum, generalis generale, specialis speciale, individualis individuale subiectum consequatur, haud aliter quam aliam formam ab alia comprehendi conspicimus.</p>
+</div2>
+<div2>
+
+<head rend="italic">Secundi sigilli explicatio.</head>
+<p>	Coelum dicitur secundus sigillus, quia ad eam memoriter retinendi rationem spectat, qua cosmicae vel geographicae vel alius eiuscemodi descriptionis formam habere ad sensus interioris oculum concupimus. Cum igitur sphaera mundi vel terrae in sua sit divisa hemisphaeria, quadrantes vel alia eius generis membra, cumque eadem non solum in globi simulacro, sed et in ipso globo non facile statim occurrere possint perquisita; istam excogitavimus viam, qua citra difficultatem suis numeris atque mensuris intendentis sensibus occurrant. Destinamus enim exempli gratia domum universae praesentandae sphaerae, hancque primum in duas generales dividimus partes, quarum altera sit ad partes hemisphaerii superioris, altera ad partes hemisphaerii inferioris praesentandas ordinata; dehinc utraque dictarum partium quatuor sibi cubilia seligat, ut primum referat quadrantem orientalem ab aequinoctiali ad arcticum polum, secundum occidentalem, tertium orientalem ad polum antarcticum, quartum occidentalem.</p>
+<p>	Sicut autem quadrantum singulis tribus angulis terminari, tribusque lineis accidit definiri, ita ipsorum cubilium sunt concipiendae partes, ut pro punctis hic polum, ibi angulum orientis vel occidentis, illic angulum meridiei vel merinoctii statuat; pro lineis vero hic meridiani, ibi aequinoctii vel aequidialis, ibi horizontis portionem terminantem intelligat; moxque ad partium referendarum situs et habitudines respiciens, facile omnium atque singulorum exquisitam poterit nactus esse praesentiam.</p>
+</div2>
+<div2>
+
+<head rend="italic">Catenae, quae tertius est sigillus, explicatio.</head>
+<p>	Catenae explicationem habes in intentione decimatertia libri <title>“De umbris idearum”</title>, quae quidem dupliciter usuvenire valet, utpote ad ipsum iudicium, cum per hanc rerum habeamus rationem, qua certa serie gradus entium contemplantes intelligamus veram distinctamque cuiusque essentiam veluti in centro quodam esse consistentem, ubi altera quae superior est circumferentiae parte infimum naturae proximae superioris gradum attingit, altera vero huic opposita naturae proxime inferioris supremo continuatur; secundo ad intentionum retentionem faciendam, dum caudam unius intentionis atque conceptus alterius intentionis atque conceptus caput statuimus. Quod ibi typo retinendarum signiferi partium insinuavimus. d.</p>
+<lg>
+<l>Dux gregis armenti primum sublatus in iram</l>
+<l>	In geminosque pedes impete fronte ferit.</l>
+<l>Vindex mente vacans hinc “Taurus” concitus, ictu</l>
+<l>	Irruit in fratres impatiens “Geminos”.</l>
+<l>Germanos iuvenes affines protinus undae</l>
+<l>	Excipiunt: “Cancer” rosida prata petit.</l>
+<l>Repens obliquo lympharum cancer alumnus</l>
+<l>	Villosi vultum forte “Leonis” adit.</l>
+<l>Percitus inde Leo crinitos surgit in armos:</l>
+<l>	Unde vagans rapidae visa puella ferae est.</l>
+<l>Hanc petit, illa fugit, quae gressu insana fugaci</l>
+<l>	“Librantem” incurrit persica lance virum.</l>
+<l>Aestuat hic: cupidis quem dum complexibus haeret,</l>
+<l>	Attriti “Vermis” cuspis adunca ferit.</l>
+<l>Formidans letum medicas dum currit ad artes,</l>
+<l>	Pone “Sagittiferum” sentit adesse virum.</l>
+<l>Qui modo stuprata quam credit “Virgine” laesus,</l>
+<l>	Quo petit hunc iaculo, vulnerat ecce “Caprum”.</l>
+<l>Ut primum intrusum ferrum persensit inique,</l>
+<l>	Effugit in rapidas praecipitosus “Aquas”.</l>
+<l>Sic caper infelix a gurgite tractus aquarum</l>
+<l>	Insueta inclusis “Piscibus” esca datur.</l>
+</lg>
+</div2>
+<div2>
+
+<head rend="italic">Arboris, quae quartus est sigillus, explicatio.</head>
+<p>	Arbor ad inventionem facit atque iudicium ut manifestum est in iis quae in libro <title>“Arboris scientiae”</title> perhibentur. De quocunque enim subiecto cum dicere volumus, sive ex alienis inventis colligentes, sive ex nostris meditationibus emetentes, ita facimus ut in ipsum velut in arborem respicientes, primo eius radices, puta principia originalia, causas et elementa; deinde stipitem, i. propriam essentiam et esse, mox ramos, i. potentias, facultates atque virtutes; subinde folia, puta accidentia propria et circumstantias; proinde flores, utpote actiones et operationes; tum demum fructus, qui sunt actus et opera, considerentur, ut eo pacto ordo (quo materiam disponimus) inventionem, iudicium et retentionem subministret.</p>
+<p>	Analytice quoque procedentibus, arbor materiae demonstrabilis statuatur, cuius pro radicibus sensus, imaginatio, persuasio, authoritas caeteraque id genus fidem concitantium habeantur, pro gemino stipite investigationem verificationis, alteram ex parte subiecti, alteram ex parte praedicati, et pro complicato in gemini stipitis concursu, habet integrum ex subiecto praedicatoque complexum. Si quippe quaeritur, an materia sit actu, inspiciendae sunt rationes ex parte materiae, rursum rationes ex parte actus, rationes earundem ex parte actualitatis materiei. Proportionaliter ad ramorum multitudinem mediorum admittit multitudinem, quo alia ad unum, alia ad alterum stipitis truncum, alia ad universum stipitem referuntur. Adsumit quoque pro fructibus ea, quae ex concessis mediis illis consequuntur. Pro adsistentibus atque circumstantibus, eadem diversam multigenamque recipit turbam, de qua alii invigilant, alii quiescunt, alii dubitant, alii decernunt, alii hinniunt, grunniunt alii, alii sub illius arboris umbra rudunt, flores decerpunt alii, alii fructus comedunt. His succedit constitutio doctrinae distinguendo, definiendo, dividendo, subdividendo subiectum atque praedicatum ad ultimas usque furculas, utpote distributiones, ramificando.</p>
+<p>	Arborem bonam atque malam ex ipsis fructibus dinoscere poteris; quae si primi generis existat, fovenda, nutrienda et contra inpetentium sophistarum importunitates, pro viribus et exigentia rationis, subtensionibus fulcienda. At si secundi generis illa sit, bipenne rationis examinata, mediis a radicibus et stipite desumptis, singulis positarum distinctionum membris ad singulorum contrariorum dubiorum solutionem relatis, sterilis maligenaque arbor detruncetur et igne reprobationis absumatur.</p>
+<p>	Arbor etiam facit ad memoriam et ordinatam specierum retentionem. Dorsum arboris habetur ipsa catena, ut in schemate ibi proposito ab A usque ad L facto conscensu, qui per praecipua materiae capita successive continueque discurrit; rami vero arboris sunt ipsae collaterales assumptiones, dum singulis praecipuae catenae annulis hinc inde toties totque annuli connectuntur, quoties quotque ad implendam considerationis materiam sufficere possunt.</p>
+</div2>
+<div2>
+
+<head rend="italic">Sylvae, quae quintus est sigillus, explicatio.</head>
+<p>	Sylva cum ex pluribus arboribus consita intelligatur, nihil aliud videtur addere praecedenti sigillo, nisi multitudinem et eiusdem rationis repetitionem; quo quidem pacto non solum duplicari possent et alii sigilli, sed et in innumerum frustra multiplicari. Atqui habet peculiarem sigillus iste rationem duplicem: alteram, quam licet in praesenti schemate intueri:</p>
+<list>
+<item>“Tityre” pascentes dum Mopsus colligit agnos.</item>
+<item>“Tu” quoque littoribus nostris Aeneia nutrix.</item>
+<item>“Patulae”. Quae patulae nobis poterunt arrigier aures.</item>
+<item>“Recubans”. Lanigerum te recubante pecus rapuere simulque.</item>
+<item>“Subque” umbra calami dormit humidasque lacunas.</item>
+<item>“Tegmine” decipiens ovium properatque Lycaon.</item>
+<item>“Fagi” non proferunt fructus, prope flumina crescunt.alteram, qua inventionem et iudicium amplificari comperimus, quando illud per universum, quod in omnibus arboris partibus et circumstantiis consideravimus, in singulis quae de ipso dicuntur, in ipso dicuntur, in ipso sunt, circaque ipsum consistunt, indagaverimus. Dilatatur insuper arbor in sylvam per multiplicem inventionis speciem, de qua dilatatione alius locus est.</item>
+</list>
+</div2>
+<div2>
+
+<head rend="italic">Scalae, quae sextus est sigillus, explicatio.</head>
+<p>	Per scalam tentatur inventio atque iudicium, dum accidit fieri ascensum ab inferioribus ad superiora, ob id quod ea quae dicuntur in istis pro dignitate, in superioribus maiori eminentiorique ratione verificantur, quibus eadem praedicata si non formaliter convenire possunt, ut principiis tamen effectivis sublimiorique ratione denominandis adscribentur; quae vero in superioribus a primi dignitate defectionem referunt, longe maiori ratione per quandam analogiam in iis, quae subsunt, invenientur. In iis autem, quae mediant, descensus pariter datur et ascensus, utpote quibus inferiorum perfectiones omnes, superiorumque a prima causa defectus tuto affirmare iuxta propriae essentiae definitionis limitationem debeamus. Gradus huius scalae sunt esse, vivere, sentire, imaginari, ratiocinari, intelligere, mentare. Quae omnia per gradus in inferioribus quo magis explicantur, eo magis in nihilum tendunt, quatenus perfectionem significant; quatenus vero oppositum significant, opposito hinc et inde sese habere modo necessum est.</p>
+<p>	Memoria vero per scalam suo typo designatam triplici progressus differentia per certam dispositionem perficitur; sed huius rei doctrina facile percipitur ex iis quae notavimus nono capite secundae sectionis libri <title>“De architectura artis Lullianae”</title>.</p>
+</div2>
+<div2>
+
+<head rend="italic">Inserentis, qui septimus est sigillus, explicatio.</head>
+<p>	Ex applicatione intentionis unius sigilli ad alium, unius inventionis ad aliam, unius iudicii ad aliud, unius rememorandi rationis ad aliam, insitionem fieri intelligimus. Modica nimirum, tenuia, imbecillia paucaque esse rerum semina videntur; multiplici tamen combinatione, compositione, habitudine, relatione, cohaerentia et universaliter applicatione et adaptatione innumerabilia innumerabiliumque profluunt propriae rationes. Ex elementis quatuor diversimode ordinatis, innumerabiliumque proportionum gradibus coeuntibus, innumerabilium elementatorum multitudo diducitur. Numero quatuor et viginti elementorum, omnium quae fuerunt, sunt et esse possunt infinitorum idiomatum vocabula articulataeque voces infinitae conflari possunt. Videatur ergo quomodo tentando, experiendo, conferendo, dividendo, componendo, concernendo, abstrahendo ad innumerabiles accingi valeamus inventiones. Quid enim? Nonne multoties nobis certum scopum praefigentibus aliud quaesito nobilius occurrit? Ipsum sane frequentissime alchimicis accidere experimentis non est quem lateat, quibus multoties auro perquisito longe meliora vel ex aequo desiderabilia adinvenisse accidit. Mitto quod et mala atque deterrima pro bonis optimisque sese obtrudunt; nihil enim in natura purum, bonoque nihil et affinius malo. Ut enim physica materia non unquam aliqua forma denudatur, ita naturalis forma numquam a materia seiuncta reperitur, ut aiunt.</p>
+</div2>
+<div2>
+
+<head rend="italic">Agricolae, qui octavus est sigillus, explicatio.</head>
+<p>	Aliquem perpetuo Campo praesentem instituimus, quem modo adiectivum subiectum, modo animam loci, nunc vero Agricolam appellamus. De hoc diximus in secunda theoriae <title>“Artis reminiscendi”</title> parte, cum ultimam subiectorum conditionem adduceremus in medium; differt autem quod hic nomine agricolae adducimus, ab eo quod ibi nomine loci adiectivi, tum quia, quod hic apponi praecipimus, est animatum et tale animatum, quod vel inexistenter vel inhaerenter vel adsistenter vel circumstanter omnium potest esse susceptivum et consequenter praesentativum, unde sicut mundum Dei imaginem dixere, ita et hominem mundi imaginem non temere Trimegistus appellavit; tum etiam quia agricola per sui mutationem, per susceptas actiones, passiones et alias sensibiles alterationes est id quod ea quae sunt referenda praesentat. Adiectivum vero subiectum per novae formae et pro diversis occasionibus diversae semper advenientis adiectionem tactum, alteratum, mutatum, insitum, est potius id quo haec quae sunt referenda praesentantur. Adiuvat sigillus iste nonum sigillum, imo ipsum perficit; citius enim firmiusque resident, clarius intensiusque loco sensibili apposita inspiciuntur, quam abstracta quadam occurrentia ratione.</p>
+</div2>
+<div2>
+
+<head rend="italic">Tabulae, quae nonus est sigillus, explicatio.</head>
+<p>	Hoc principium extitit, quo ad artis memorandi rationes adsequendas sum promotus. Ipsum adhuc puer ex monimentis Ravennatis expiscare potui. Hoc modica favilla fuit, quae iugi meditatione progrediens in vasti aggeris irrepsit accensionem, e cuius flammiferis ignibus plurimae hinc inde emicant favillae, quarum quae bene dispositam materiam attigerint, similia maioraque flagrantia lumina poterunt excitare.</p>
+<p>	Iuvit istum inter nostros adnumerare sigillos, ut illi, quem mihi fata primum in arte ista tradidere institutorem, ex animo litem. Eius quippe sparsum semen, quantum et qualecunque fuerit (fuit certe magnum atque dignum), nisi animae nostrae facultas concepisset, ad tantas segetum aristas (quas in huius campi area discutimus) emetendas fortasse non essemus aliunde promoti.</p>
+<p>	Quo igitur facilius certaque serie succedentia quaedam, ut alia suo succedere possint ordine, efficiant, plura sensibilia facileque memorabilia per ordinem alphabeti vel syllabici in catalogum reldacta docuit apparanda; ad quae modo has, modo illas pro rerum exigentia referentibus actionum, passionum caeterarumque circumstantiarum habitudines, facile modo haec, modo illa concupita in memoriam revocari valeant. Hinc primam intentionem referet Amphion, secundam Bootes, tertiam Cepheus, 4. Diana, 5. Aeolus, 6. Fab. Vulcanus, 7. Ganymedes, 8. Hercules, 9. Iuppiter, 10. Kiron, 11. Liber, 12. Mercurius, 13. Neptunus, 14. Oceanus, 15. Pluto, 16. Quaesitor Minos, 17. Rhadamanthus, 18. Saturnus, 19. Titan, 20. Venus, 21. Xuthus, 22. Zethus.</p>
+<p>	Ultra alphabetum, syllabicum duplex, utpote alterum in quo consona sonantem sequitur, alterum in quo consona sonantem antecedit, ordinabatur.</p>
+</div2>
+<div2>
+
+<head rend="italic">Compaginatoris, qui decimus est sigillus, explicatio.</head>
+<p>	Compaginator est qui loca locis consuit, quemadmodum explicavimus in <title>“Artis reminiscendi”</title> institutionibus, ubi conditiones subiecti quoad discretam quantitatem determinabamus. Compaginatio autem non solum, sicut ibi ostendimus, continuatione vel contiguitate, vel adpositione et consequentia locorum sensibilium ad alia sensibilia efficitur, sed et semimathematicorum ad alia semimathematicalia, verbalium ad alia verbalia, sensibilium ad semimathematica vel verbalia, verbalium ad semimathematica vel sensibilia.</p>
+<p>	Similis est ratio Compaginatoris ad locorum multiplicationem rationi Arboris, atque quorundam de sigillis aliis, ad eam quae adiectorum est. Ratio quoque Compaginatoris est similis deductionibus, quas Lullius et nos in inventivis artibus instituimus, dum ad conceptuum et contemplationum multiplicationem una figura per alias omnes deducitur, unus inveniendi modus alio inveniendi modo cohaeret.</p>
+</div2>
+<div2>
+
+<head rend="italic">Vexilli, quod undecimus est sigillus, explicatio.</head>
+<p>	Huius sigilli rationem, ubi <title>“De memoriae verborum praxi”</title> instituebamus, tetigimus. Ibi vel ex proprio vel ex appropriato nomine plures voluimus esse Aristarchos, Bacchos, Caesares, ut eodem nomine intitulemus eiusdem familiae vel institutionis vel artis plures, ut ex iis modo unum modo alium ad opera peragenda referamus.</p>
+<p>	Adiuvat iste sigillus Tabulam, quae nonus est, et mirum in modum dilatat ipsam, atque velut ad triplicis dimensionis differentias amplificat.</p>
+<p>	Ad haec si proportionaliter inspicias, non satis occultam et implicitam habes inveniendi iudicandique rationem, dum non modo Bacchos, Caesares, Dionysios in omnium hominum generibus effingas, sed in arborum omnium speciebus omnium animalium species inquiras et invenias, in omnium lapidum speciebus plantarum species, in unius speciei individuis omnium aliorum species individuaque similia. Innumeri enim diversique homines vultu, moribus et gestu innumeras et diversas animalium species referunt, et ad idem quasi vexillum referuntur. Hinc apertum est, quod omnes naturae et in natura duces in omnibus sibi definitos milites agnoscunt, quorum alii alibi magis proprios, explicatos atque plures agnoscant; unde fit ut ex superatundante domini peculiares habeantur. Id optime persensit Anaxagoras, et non attingere potuit sophisticae naturae pater Aristoteles, qui ab impossibilibus, logicis fictisque segregationibus rerum veritati non convenientibus, non est mirum si infinita valeat inconvenientia alia subinferre.</p>
+</div2>
+<div2>
+
+<head rend="italic">Pictoris, qui duodecimus est sigillus, explicatio.</head>
+<p>	‘Pictoribus atque poetis quaelibet audendi semper fuit aequa potestas.’ Primus praecipuusque pictor est phantastica virtus, praecipuus primusque poeta est in cogitativae virtutis adpulsu, vel connatus vel inditus noviter quidam enthusiasmus, quo vel divino vel huic simili quodam afflatu ad convenienter aliquid praesentandum excogitatum concitantur. Idem ad utrumque proximum est principium; ideoque philosophi sunt quodammodo pietores atque poetae, poetae pictores et philosophi, pictores philosophi et poetae, mutuoque veri poetae, veri pictores et veri philosophi se diligunt et admirantur; non est enim philosophus, nisi qui fingit et pingit, unde non temere illud: ‘intelligere est phantasmata speculari, et intellectus est vel phantasia vel non sine ipsa’; non est pictor nisi quodammodo fingat et meditetur; et sine quadam meditatione atque pictura poeta non est. Phantasiam ergo pictorem, cogitativam poetam, rationem philosophum primum intelligito, qui quidem ita ordinantur et copulantur, ut actus consequentis ab actu praecedentis non absolvatur. Quomodo haec contemplatio ad inquirendum, inveniendum, disponendum et iudicandum faciat, ipse considera. Et nos post completam praesentem explicationem hunc sigillum in iis, quae ad hebraicam institutionem et fortasse occultam quandam, quae in illius linguae mysterio latet, artem faciunt, practicabimus.</p>
+<p>	Iam ad memoriae naturalis relevamen et ad cuiusdam artificiosae institutionem, duplicem agnoscimus picturam: alteram, qua super alienis descriptionibus retinendorum imagines vel notas efformamus, cuius exemplificatio esse potest ex iis, quae in <title>“Arte Umbris idearum”</title> adnexa docuimus; alteram, qua nos ipsi pro negotii exigentia talia aedificia, hypostases monstraque confingimus sensibilia et phantasiabilia, qualia rerum non sensibilium memorandas valeant referre et praesentare species; sicut enim nihil intelligimus sine phantasmate, ita non est quod sine phantasmate recordemur. Quae igitur apprime memorata volumus, solerti conditione phantasiata statuamus.</p>
+</div2>
+<div2>
+
+<head rend="italic">Phidiae, qui tertiusdecimus est sigillus, explicatio.</head>
+<p>	Habet peculiarem modum, quo sculptor ad inventionem dispositionemque faciat, habet quo ad rerum intentionumque memoriam adsequendam conferat; expresse vero ad dictionum reminiscentiam tot individuas sedes instituit, quot quispiam cupit verborum habere memoriam.</p>
+<p>	Sedibus illis iuxta Agricolae conditiones perpetuos propriosque cultores destinat, qui diversas situum adsumentes differentias, praecedentem adsequentemve consonantis sonantem referant, et certis differentiis alias adsumere combinationes vel elementa valeant, quemadmodum per aenigma in fine <title>“Artis reminiscendi”</title> appositum denotavimus.</p>
+<p>	Est etiam Phidias formator, ut quae pictor velut ex aliis exemplariter educit, et ubi velut super alienis delineamentis elaborans invenitur, ita ibique statuarius Phidias vel quasi formatione quadam e cera effingat, vel quasi additione pluriumque lapillorum ordinatione construat, vel quasi subtractione incultum informemque lapidem figurandum sculpat.</p>
+<p>	Phantasia, quam Zeuxim Pictoremque appellavimus, eandem non iniuria Phidiae nomine in proposito intitulabimus.</p>
+<p>	Haec est statuarius ille, qui famosam Nabuchodonosoris statuam erexit, haec ordinatam fortunae regni successionem descripsit, haec tropologiarum fabricat discursus, haec formae conditiones in aliquo sensibili, circa quod et in quo pleraque metaphorice delineat, certo quodam ordine eademque qua meminisse volumus serie describit. Huius suffragio in <title>“Centum statuarum”</title> volumine conditiones virtutum atque vitiorum universas ita quandoque descripsimus, ut earum lectio delectabilior, contemplatio iucundior, distributio ordinatior, series distinctior, similitudinum comparationumque consequenter concatenabilium inventio promptior et memoria tenacior haberetur. Huius ope ad similitudinum nos facile concitavimus inventionem; quemadmodum cum in humano supposito avaritiae conditiones atque proprietates figurare volui, ad sexum, aetatem, capillos, frontem, oculos, tempora, aures, nares, os, linguam, oculos, nasum, mentum, colorem, pectus viscera, tibias, pedes, capitis indumentum, colli ornamentum, torquem, pallam, utraque manu apprehensum, domum, domus partes, cubile, lectum, vietus rationem, affectus, patrem, matrem, sorores, filias, socios, ministros, amicos, aegritudines, mortem, sepulcrum, epitaphium, famamque respexi. Eademque omnia, omniumque circumstantiae atque casus, per supposita Vexilli atque Peregrini multiplicata, inventionem causant, iudicium exacuunt et ad rerum bene dispositarum memoriam conferunt.</p>
+<p>	Ibi A tributum exigit a mortuo, B aequum laudat et nimium quaerit, C a statuis exigit, D fabas arrodit, E in pera franciscana, F Tartesiae felis simulacrum, G a veru et a sartagine rapit, H bonus pastor pecus tondet, I vorat hamum, K veluti polypus attractivus. Caeterique similiter per ordinem Tabulae vel Catenae vel Elementarii vel Combinatorii vel sensibilium, semimathematicorum verbaliumque locorum succedentes, ordinate tibi perquisitae rei membra referent.</p>
+<p>	Hic locus est adducendi principii artis figurativae, in qua illud praeaccipiendum est, quod omnia per omnia possunt figurari; cogitatio enim naturalis virtus est, quae matris naturae vestigia facile consequitur, si diligentiae auribus vocem eius intimius adclamantis exhauriat; tunc enim phantasia omnia in omnibus fingere et imaginatio omnia ex omnibus concipere valebit: concipere inquam aut per identitatis modum, si eadem genere, specie vel numero sint; adsimilabile et suum correlativum aut similitudine, si similia; aut proportione, si proportionabilia; aut ironia, si absona, ut cum ‘poenarum divitias’ ‘thesauros’ que ‘irae’ dixere, quae excogitatio non sine venustate occurrit, licet rerum desiderabilium divitiae thesaurique dici consueverint. Possumus similiter per alias oppositionis species adsimilabile ad suum referre correlativum; opponuntur enim homo et mundus, ut continens et contentum, magnum et parvum; aliisque plurimis oppositionis speciebus; dicetur igitur homo mundi incola, discurrens, parvus, speculator, mortalis, et ita deinceps. Item et qui iustitiam lucernae comparat, ita modificat, ut ad eius modum rationemque insinuandam ex differentiae consideratione ducatur ad talem eamque appellando lucernam, quae qualisque nulla vetustate absumitur. Qui temperantiam foeminae adsimilabit, dicat eius frontem, quem nulla senectutis ruga sulcavit, cuius pellem tempus ullum non contrahat. Exaggeratione quoque et adsimilatione quadam multa suis comparabilibus adcommodantur. Hinc cum per librum vellet Iob fatum describere, videretque illum per sese non sufficere ad significandum, talem appellavit librum, qui in plumbi lamina, stilo ferreo, in celte et silice, vel in inciso adamante futura referat. E contra vero cum quid plus quam ad rem propositam notandam par sit referat, ad comparandam similitudinem subtractione contractioneque quadam utimur. In omnibus tandem eo insistendum, quo affabre et melius, vel traductione, vel transmutatione, vel transpositione, vel conversione, vel antiphrasi, allusione, illusione, delusioneve quadam proposito adcommodentur; ut ubi infernus impiorum describitur anima, ‘cuius ignei flagrantis conscientiae parietes, maleolentis opprobrii sulphures, horrendarum terriculamenta specierum, suspectiones temere caecum animum concutientes depictorum tapetiorum loco, ipsis propriorum facinorum technis aedificatam nefastam domum incolunt, illam nulla temporis acies aequabit, non ulli vetustatis arietes deturbabunt, eius limitibus non alii, sed ipsi tantummodo coarctabuntur.’ A pari aliis similitudinibus, proportionibus, comparationibus ornamenta, habitus, indumenta, circumstantias caeteraque omnia, quae ad commodum et incommodum faciunt, negando affirmandoque poteris pro dignitate rei subiectae congruenter adaptare.</p>
+</div2>
+<div2>
+
+<head rend="italic">Daedali, qui decimusquartus est sigillus, explicatio.</head>
+<p>	Quemadmodum omnis artifex, qui plurimos diversosque intendit effectus, vel pluribus instrumentis vel unico diversimode multiformiterque exagitato organo ad proprias proficiscitur functiones, haud aliter hic Daedalus, cuius subiectum multiplex et multigenum esse potest, imo qui suo ordine circa omnia operari se valere confidit, diversis pro rerum varietate mediis, ad praetensum opus persequendum accingitur, dum alibi per sensibilem Campum, alibi per Catenam, alibi per Arborem, alibi per Numeratorem, alibi per Centurionem, quadratum vel circulare Encyclium, alibi per Inserentem, commodiorem videat aditum patere; quibus quidem artium actionumque per universum utensilia, per centenaria, vel certos alios numeros referentibus, ex ipsis talia confingit efformator, qualia et inquirentem importunius ad inventionem elaboratam concitent et reminiscentem ab operis molestia relevent.</p>
+<p>	In inventione quidem unum subiectum ad propriam definitionem universa contrahens, limitans, eademque per ipsam modificans, infinitas ab infinitis differentes appropriabiles suscipit rationes. Eadem enim forma per infinita supposita innumerabiliter individualibus multiplicatur variaturque differentiis et proprietatibus, eadem materia ad infinitas alias relata formas, infinitas aliasque suscipit rationes.</p>
+<p>	Huc respiciunt scalae praedicatorum absolutorum, respectivorum, quaestionum et aliarum formarum.</p>
+<p>	Ad fixionem autem collocationis faciendam artium, exercitiorum variorumque actuum, cum suis mediis catalogi referuntur; iis enim successive susceptis certo ordine quaesita invenientur et collocata praesentabuntur.</p>
+</div2>
+<div2>
+
+<head rend="italic">Personae, quae decimusquintus est sigillus, explicatio.</head>
+<p>	Sigilli istius explicatio sufficienter ex iis, quae sub aenigmate, quod est in fine <title>“Artis reminiscendi”</title>, sunt adnotata, desumitur et non minus ex dictis in secunda particula capitis, quod “praxim memoriae verborum” insinuat. Nec sigillus iste certa peculiarique inventionis formula caret.</p>
+<space type="stacco narrativo"/>
+<p>Arithmetrici, qui decimussextus est sigillus, explicatio.</p>
+<p>	Adeo sigillus iste ex iis, quae hic et secunda parte theoriae <title>“Artis reminiscendi”</title> (ubi de locis semimathematicalibus discurrimus) habentur, aperitur, ut alia explicatione non egeat. Illud tantummodo in memoriam revocari velim, quod tripus, arca, sedes caeteraque eius generis, ita sumi debeant, ut non unam rei speciem, ad quam significandam haec nomina sunt imposita, denotent, sed ex instituto plurima, quae per transpositionem, similitudinem proportionem et appropriationem, vel per se vel per aliud consequens, affine vel adiunctum denominare possunt, eadem significent.</p>
+<p>	Sicut igitur in sigillo, qui Vexillum dicitur, ad unum nomen plurimos nominandos reducere docuimus, ita hic sub uno rei significato plurima significanda intelligere, eadem ratione docuisse putemur. Quod ad formam igitur attinet, per tripodem intelligimus non solum quod tres habet unius diversorumque generum pedes, sed et omne quod sua forma, figura, aliaque de triginta formandi rationibus, triplex et ternarium valet concipi vel nominari. Quod autem ad materiam spectat, non solum lineum dicitur tale, quod vere et per se est eiusmodi, sed et quod vel secundum partem vel per aliquod quod re ipsa vel imaginatione applicatum lineum concipi dicique potest. Hinc et per clavum realiter vel imaginarie adfixum, uti ferream possum concipere columnam.</p>
+</div2>
+<div2>
+
+<head rend="italic">Centurionis, qui decimusseptimus est sigillus, explicatio.</head>
+<p>	Pro substernendis apparandisque primis mediatis, proximis immediatisque partibus intentionum generalium, vel subiectorum communium, vel formarum applicabilium, quae ad inventionem vel ad retentionem ordinabantur, difficile est melius vel simile artificium adinvenisse.</p>
+<p>	Hac arte statim de multis (quos non facile nec breviter naturali vel alius modi artificiosa facultate retinere valemus) quid, quantus, quotus, quantum, ubi et quomodo quisque referat, firmiter habebimus. Hac ratione ditatur Arithmetricus seu Numerator, qui est sigillus proxime dictus; ex ordinatis enim patriis habes ordinata centenaria, ex patriarum subordinatis variis hominum conditionibus ipsas, quae simili pacto digitos subsumunt numeros, subordinatas decades habebis, quarum tandem individuis ad opera vel inveniendorum vel retinendorum persequenda, numeris pluribus absolutis, uti valeas.</p>
+</div2>
+<div2>
+
+<head rend="italic">Quadrati Encyclii, qui duodevicesimus est sigillus, explicatio.</head>
+<p>	Duplicem habemus primum generalemque modum, per quem circa disposita ordinate inquiritur et invenitur, quique dispositis repraesentandis atque retinendis apprime est adcommodatus.</p>
+<p>	Horum primus est per quadratum in plano, quod est cubus in solido, secundus est per circulum in plano, qui est sphaera in solido; dupliciter etenim in istis proportionabilia mathematicis figuris encyclia sumi possunt, utpote vel ad unam vel ad triplicem dimensionis differentiam.</p>
+<p>	Quadratum igitur encyclium efficitur, cum quatuor super uno subiecto formantur intentiones, et supra quatuor intentionum singulas, quae modo subiecti vicem subeunt, quatuor efformantur aliae, quarum quaeque subsequentibus quatuor iterum subiacent intentionibus; et ita deinceps progrediendo, quoadusque et disponentis intentio et rei disponendae negotium patiatur.</p>
+</div2>
+<div2>
+
+<head rend="italic">Circularis Encyclii, qui undevicesimus est sigillus, explicatio.</head>
+<p>	Eadem quasi serie atque proportione in circulari, qua in quadrato encyclio, rerum rebus appositio prosequenda proponitur. Porro sicut ad diversa, saltem proxima, principia, circulus atque sphaera, quadratus atque cubus referuntur, nec non horum illorumque, haeque illaeque mensurae differant; ita diversa eorundem ponimus encyclia, quorum alterum usuvenit ad inventionem distinctionum et divisionum eiusdem, alterum vero ad inventionem multiplicium, quae sunt atque fiunt circa idem. Circularis encyclii appositio in facile figurabili circuli quadrante fiat manifesta.</p>
+</div2>
+<div2>
+
+<head rend="italic">Compositi et Elementi, quod vicesimus est sigillus, explicatio.</head>
+<p>	Hic sigillus est, quem nomine “verbalium locorum” intelligebamus, estque non solum ad retentionem faciendam, sed et ad inventionem non modicum adcommodatus. Ad memorandum quidem usuvenit, veluti quando in compositis, utpote in dictionibus ipsis, alicuius orationis partes sententiasque ordinate confingimus, ut primam referat odiens vel exosus aliquis, quem nos talem perceperimus vel fuerimus imaginati; secundam aliquis profanatus, profanans vel profanus; tertiam vulgaris, vel e vulgo disgregatus, vel divulgans quispiam, vel vulgatus; quartam arcens, quive arcetur, reportet; reliquas per ordinem, per reliquas ordinate subsequentes dictiones praesentabimus. Ad inveniendum etiam confert, quoniam ex vocibus omnibus omnes revocare possumus intentiones, exque intentionibus omnibus et quibuscumque omnes et quaecumque aliae intentiones exuscitantur et exurgunt. Et si de magnanimitate sermo sit habendus, ‘odere’ inquam ‘magnanimitate praediti ignobiles actus, vindictam de hostibus sumere, pauperes humilesque opprimere etc.; profanis ab actibus, quibus infamiae notam subire valeant, avertuntur [a] magnanimitatis habitu (haec enim nihil praeter egregias meditatur operationes); a vulgaribus trivialibusque sermonibus, curis et studiis magnanimus proripit sese abstrahiturque totus, illud in mentem revocans, quod nullus vulgi comes quicquam sapienter vel egregie sentire perficereve potest (non enim spectabile laudabileque esse valet, quod frequens est atque vulgare); arcet abigitque magnanimus ab animo ignobilium appetentiam voluptatum, arcet pellitque omnem vanam formidinem, non persequutionum mortisque timor illum a via iustitiae aequitatisque coercet.’</p>
+<p>	Ad omnes inventionis species non utilis est iste modus, sed ad eas tantum, quae persuasionem faciunt. Ut autem ad inventionem universaliter dictam conferre valeat, hoc pacto providendum, ut termini isti non sumantur pro formis, sed pro formarum subiectis adsumantur, cum in osore aliquid quod significet essentiam, in profano quod potentiam, in vulgato quod operationem, in arcente quod circumstantias referat; ut subinde pro inventionis opere primum inquiramus, quid dictum, dicendum et dici possit circa rei propositae essentiam et esse, secundo quid circa eiusdem habitus, dispositiones, facultates, passiva activaque principia, tertio quid circa effectus et operationes, quibus ipsa est et quae ab ipsa profluunt, quarto quomodo, quibus concurrentibus et concausantibus; et ita de caeteris per reliqua.</p>
+<p>	Proinde sicut oratio resolvitur in dictiones tanquam in partes proximas, nec non syllabas et elementa, velut in remotiores primasque partes, ita et inventionum signa generalia in particularia et individua resolvuntur. Habent etenim elementa quae figurent, et habent quibus figurentur; A enim plures figurat Aristoteles et Aristarchos, et plures Aristarchi Aristotelesque plures per A figurantur. Itaque et per individuorum ab elementis significatorum ordinem, et per eorum elementorum combinationibus praesentatorum eorumque quae integris denotantur dictionibus ordinem, possum ad opus faciendae retentionis et intentandae inventionis accingi. Non solum per diversos ad eandem nomenclaturam relatos, sed per eundem diversimode se habentem, operantem et collocatum, subiectorum retentionis et inventionis copiam comparare docemus, ubi dicimus quo modo quandoque formarum multiplicationem adtentabimus.</p>
+</div2>
+<div2>
+
+<head rend="italic">Rotae, quae vicesimusprimus est sigillus, explicatio.</head>
+<p>	Rotae subiectum atrium, figulo figurator, luto subiecta intentio formabilis proportionantur. Sint igitur in rota seu atrio A duodecim, viginti quatuor vel triginta officinae, ut prima sit aucupis, secunda medici, tertia militis, quarta pincernae, quinta musici, sexta scriptoris, septima agricolae, octava sutoris, nona sacerdotis, decima fullonis, undecima tonsoris, duodecima lectoris. Per quos si unus agens, vel cooperans, vel patiens feratur suis casibus, saltem duodecim; si duo, saltem viginti quatuor, si tres, triginta sex saltem dabunt intentiones. Per quam quidem praxim si velis in mathematicis exerceri, ut si velis stellarum aspectus quoad earum significationem et significationes dispositionum planetarum in signis retinere, poteris duodecim suis circumstantiis domos efformatas ita apparare, ut suis partibus atque membris talia contineant, quae ad singulas considerationes, de ipsis et in ipsis faciendas, sint adcommodatiora. Poteris insuper septem circum rotantia supposita destinare, quorum passionibus et affectibus aliis, quae in locis recipiunt, ea quae in planetis significari debent ordinate habeas. Quae quidem omnia si septem implere nequeunt, alios substituimus singulorum omniumque successores.</p>
+<p>	Ubicumque etiam erunt quatuor, quinque, septem, quae rationes et formas multiplici in invicem compositione coordinationeque multiplicant, in ipsis, sicut in Propagatore, in energumenis locis, et aliis de multiplici Elementario vel Combinatorio facere docuimus, est providendum; ad instar (inquam) illorum, iuxta combinandorum et in compositionem venientium numerum, elementaria statuas, quibus tandem figuranda figurare et ipsa figurata, ad novas integri illius figurationes inducendas, per rotam deducendo, valeas. Et nos id magna ex parte in <title>“Artis memoriae”</title>, <title>“Umbras idearum”</title> consequentis, prima secundaque “de adiectis” particula docuimus.</p>
+</div2>
+<div2>
+
+<head rend="italic">Fontis et speculi, qui vicesimussecundus est sigillus, explicatio.</head>
+<p>	Per haec docemus suppositum personamque unam unam integramque posse indicare facultatem. Hinc ad inventionem faciendam, oculo uniformiter ad omnia visibilia se habenti atque successive converso, unus fons, unum speculum praesentabit universa, unus habitus in una quadam formali serie complebitur, dum quodlibet subiectum per illam examinabitur. Hic praedicata sunt quae omnibus applicabilia pro sua ratione iudicantur, hic formae quibus cuncta modificantur, hicque circumstantiae quibus colorantur universa, ut in iisdem omnia generalia particulariaque considerabilia subiecta, distinctis propriisque rationibus inspicienda se tribuunt. Hinc ab aliis et a nobis instituta, inventa atque completa multiplex inveniendi ratio dependet. Sigilli istius applicatio ad reminiscentiam comparandam nullam admittit difficultatem per ea, quae hic alibique frequentius diximus.</p>
+</div2>
+<div2>
+
+<head rend="italic">De Empirico, qui vicesimustertius est sigillus.</head>
+<p>	Sigillus iste magis apertus est, quam ut ulla explicatione indigeat. Facile enim possumus pro hortis plura instituisse atria vel cubilia, in quorum membris perpetuo figurata maneant, et veluti adiectiva loca consistant diversa simplicium genera. Per hos hortos atriaque aegrotantes plurimi suis ordinibus succedere possunt, qui diversi diversas poterunt memorabiles formare intentiones et perquisita complere remedia, dam ipsi aut ii, qui pro ipsis designandis adsumuntur, vel a rebus, vel ad res sibi necessarias et usuvenientes aliqua ratione sunt affecti.</p>
+</div2>
+<div2>
+
+<head rend="italic">De Alea, quae vicesimusquartus est sigillus.</head>
+<p>	Per omnes quae praecesserunt quaeque sequentur figurandi praesentandique rationes, aleae memoriae, similique retinendorum ordine, minime possumus providisse; eam ob rem istam particularem propriamque excogitavimus viam, quae plus est explicata, quam ut pluribus verbis indigeat.</p>
+</div2>
+<div2>
+
+<head rend="italic">Gorgiae, qui vicesimusquintus est sigillus, explicatio.</head>
+<p>	Pro varii generis argumentis ad varias theses et disputationum subiecta, quae eorum quae defenduntur, et eorum qui oppugnant turba confusionem perplexamque chaos effigiem redderent, ad certa definitaque loca ea quam hic insinuavimus serie disposita referantur.</p>
+<p>	Diversa igitur pro axiomatum, positionum et problematum diversitate praeordinata communia loca, numero particularium locorum particulares suscipiant reddantque obiectiones: Gorgias iste (sic enim Disputatorem, cui maxime sigillus iste inservit, dici voluimus) non solum in verbalibus positivis, sed et in aliis omnibus locorum speciebus ad proprias se conferre functiones poterit. Commode enim diversimode disposita cubilia, varie effincti numeri, diversae suppositae concatenationes, numero varietatique verificationum disputandarum inservient.</p>
+<p>	In ipsis cum sit nota conclusio, et duo consequenter de tribus argumentationis terminis, medii tantummodo figuram collocasse sufficiet.</p>
+</div2>
+<div2>
+
+<head rend="italic">Circaeorum camporum, hortorum et antrorum, vicesimisexti videlicet sigilli, explicatio.</head>
+<p>	Diversas novimus esse diversorum simplicium qualitates, varios etiam plane constat qualitatum variarum, sub variis congruentibus possibilibusque combinationibus, esse gradus. Ea igitur arte, qua dictiones quascumque effigiare docuimus, ipsa rerum nomina figurata ad illum referantur hortum, campum vel antrum, in quo illarum qualitates suis numeris, ponderibus atque mensuris definitae habeantur.</p>
+<p>	Erit ergo campus primus calidi humidi, secundus calidi sicci, tertius frigidi humidi, quartus frigidi sicci.</p>
+<p>	Erunt subinde in campo, membrorum quinque vel septem, plures paucioresve, pro rei exigentia, ordines; quorum primus referat calidi primum gradum cum septem humiditatis gradibus in septem ordinis domibus, secundus calidi gradum secundum cum septem humiditatis gradibus in propriis septem istius ordinis domibus, tertius tertium calidi gradum cum septem humiditatis gradibus in unius istius ordinis domibus septem. Et ita deinceps in aliis providere poteris, ut tandem in specie ad locum generalem, particularem et individualem relata, qualitatem, qualitatis gradum et graduum compossibilitates intuearis.</p>
+<p>	Ibi Circaeus dicitur campus pro arboribus maiorumque plantarum fructibus, hortus pro herbis, floribus atque medicis radicibus, antrum pro mineralibus iisque omnibus, quae in telluris gremio generantur, eiusdemque effossae concavitatibus desumuntur.</p>
+<p>	Sigillum istum hoc in aenigmate quandoque implicavimus. Lumine de claro ne mens peregrina vagetur,</p>
+<lg>
+<l>	Nec sensus currens pone petita cadat,</l>
+<l>Utque profunda virum fallat te in tartara missum</l>
+<l>	Ardentem fugiens unda petita sitim;</l>
+<l>Coge potens Circe succos tibi in atria septem,</l>
+<l>	Quaeque sit et species in genus acta suum;</l>
+<l>Transfer in annosi campum haec scelerata parentis,</l>
+<l>	Haec habeant dominum cum Ganymede Iovem.</l>
+<l>Luminibusque minax perstans ardentibus Mavors</l>
+<l>	Hortum hunc prospectet, Mulciberumque trucem.</l>
+<l>Obtineas vasti lampas celeberrima mundi,</l>
+<l>	Prolem ubi multigenam contueare tuam.</l>
+<l>Suave Venus spirans queis cuncta viventia vincis,</l>
+<l>	Inque sequestrato diva capesse loco.</l>
+<l>Secretusque tibi credatur nuncie divum.</l>
+<l>	Foemina foemineo credite, masque mari.</l>
+<l>Sepibus abiunctas, temerentur ne tua dona,</l>
+<l>	Delia consortes iunge operosa tuas.</l>
+</lg>
+</div2>
+<div2>
+
+<head rend="italic"> Peregrini, qui vicesimusseptimus sigillus, explicatio.</head>
+
+<p>	Ditat sigillus iste Rotam figuli; non solum enim per eumdem campum multiplicat unius rei deducendae considerationes atque loca, sed campum secundum primo subordinans, efficit ut ad locorum secundi campi numerum singula primi campi membra submultiplicemus. Tertium pariter campum secundo subnectens, id praestat, ut ad locorum tertii campi numerum secundi campi membra multiplicari possint. Similiter si id propositum urgeat negotium, quartum tertio, quintum quarto eousque continuabimus, quoad materiae subiectae capacitas impleatur; formarumque extenditur multiplicandus numerus et amplitudo.</p>
+<p>	Differt igitur Peregrinus a Rota, quia hic Figulus circa unum idemque centrum suas complet revolutiones, ibi vero Peregrinus singulis veluti rotae radiis alias rotas in tertium, quartum et plures (si necesse libitumque fuerit) subalternatim succedentes ordines auspicatur, exequitur et veluti peregre proficiscens evagatur. Sigillum istum praesenti in aenigmate complicavimus. Uranie vatem sublimes duxit in aedeis,</p>
+<lg>
+<l>	Quo faceret mentis nubila pulsa suae.</l>
+<l>Ordine praegnantem, quo sunt disposta per orbem,</l>
+<l>	Indicat extenta singula quaeque manu.</l>
+<l>Leucadius regno sedet hic, tristisque senecta.</l>
+<l>	Praetulit hic degens talia regna patri.</l>
+<l>Cuspide Marsque potens rapit hinc ea, raptaque servat;</l>
+<l>	Aureus hinc Titan haec diuturna facit.</l>
+<l>Blanda Venus grato numerosa ea reddit amore;</l>
+<l>	Pacis et armorum hinc arbiter hic superis.</l>
+<l>Hinc vultu inconstans Lucina et lumine clamat,</l>
+<l>	Occubitum visent orta et adaucta suum.</l>
+<l>Ordine sunt postquam concepta palatia coeli,</l>
+<l>	Bis senas iuvat hos iam peragrare domos.</l>
+<l>Egrediare senex varios subiture locorum</l>
+<l>	Anfractus, varias insinuando notas.</l>
+<l>Huic divum succede parens, succede Gradive,</l>
+<l>	Smintheum numen, Gnidia nata mari.</l>
+<l>Atlantis succede nepos, Cyllenia proles,</l>
+<l>	Delia nec cesses coelo Ereboque potens.</l>
+</lg>
+</div2>
+<div2>
+
+<head rend="italic">Claustri cabalistici et Templi, quod vicesimusoctavus est sigillus, explicatio.</head>
+<p>	Hic duobus et viginti elementis vigintiduo claustra vel templa destinantur, quorum singula in duo et viginti personarum sub una communi arte, vel operationis genere uno, se exagitantium; receptacula distribuuntur ea, quae proprias peculiaresque operationes et actus vel sub templorum claustrorumque singulis depromunt, vel sub eodem vexillo certum in memoriae vel inventionis exercitatione opus exequuntur, ut in ipsis quatuor definita valeas elementa comtemplari, quorum primum est ex nomine atrii, secundum ex nomine sedis in atrio, tertium ex nomine artis, quartum ex nomine actus.</p>
+<p>	Ideo autem intelliguntur istorum alii degradari, alii exaltari, alii mutari, ut faciliorem viam retinendi prompteque examinandi, quid tali de singulis semel formata conceptione seu imaginatione referatur atque significetur.</p>
+<p>	Sigillus iste ad inventionem maxime usuvenire potest; per ipsum enim materiam, de qua considerandum, argumentandum et disputandum est, deducere possumus. Hoc enim ordine formis (quae considerationis sunt obiecta, et quibus omnia metiuntur, discutiuntur et examinantur) generalibus 22bus, pluribus vel paucioribus, totidem speciales, sub illarum singulis cum propriis potentiarum operationumque modis reducibiles, subordinare valebimus. Claustra igitur atque templa similia, vel claustris templisque proportionalia, ad inventionis exercitationes iudiciique actus instituas, ni iis ipsis Zeuxim vel Daedalum super pingere vel super aedificare mavis.</p>
+</div2>
+<div2>
+
+<head rend="italic">Combinantis, qui undetricesimus est sigillus, explicatio.</head>
+<p>	Infinitarum syllabarum differentium multitudinem perpaucis quam commode imaginibus figurare Combinator iste perdocet, ubi tria proponit statuenda combinatoria: primum in quo consona sonantem praecedit, secundum in quo sonans consonantem praeit, tertium in quo inter duas tresve consonas media sonans quintuplici situs differentia designatur. Nos eo aenigmate, in quo implicatur ars ad innumeras industrias viam aperiens, insinuavimus, ubi posita bestia in medio circuli vel quatranguli, vice multiplicis consonantis, ad quinque differentias multiplicem sibi sonantem adsciscit.</p>
+<lg>
+<l>Irrugit haec aliud rutilum si spectat ad ortum,</l>
+<l>	Primum ostentanda est frons ubi solis equis.</l>
+<l>Non pariter clamans, obtutum dant ubi sero</l>
+<l>	Ultima, Phoebe, tui tergora quadrupedes.</l>
+<l>Non simile est resonans, vigilem spectando Bootem</l>
+<l>	Nolano adstantem nocte dieque solo.</l>
+<l>Haud pariter versa haec ubi tellus corpore denso</l>
+<l>	Obsistens lumen occulit Ursa tibi.</l>
+<l>Diversum dictis quintum tunc intonat, in se</l>
+<l>	Non oblita sui cum fera tota sidet.</l>
+<l>At si eius vocem saxosum prenderit antrum,</l>
+<l>	Electitur unde aer restituendo sonum,</l>
+<l>Aut tibi echo resonat, vel si contenderit usus,</l>
+<l>	Eversam reddent versa elementa notam.</l>
+</lg>
+<p>	Proinde sigillum istum ad quandam inventionis speciem maxime facere est manifestum, dum in duobus, tribus, quatuor vel pluribus circulis subordinatis certumque elementorum numerum comprehendentibus, per eorundem multiformes volutationes atque dispositiones, innumerabiles possumus serie quadam certa combinationum differentias accipere. Nos perfecte, quantum fieri potest, artem combinatoriam ex duobus tribusque elementis in libro <title>“De architectura Lulliana”</title> explicavimus. Tu ad eius similitudinem atque analogiam numeris aliis complendis combinationibus poteris adaptare.</p>
+</div2>
+<div2>
+
+<head rend="italic">Interpretis, qui tricesimus est sigillus, explicatio.</head>
+<p>	Sigilli universi, qui ad dictiones referuntur, et vocabulorum formativae rationes omnes, istius supervenientis sigilli possunt esse subiectum. Ni quippe interpretationi subiecta dictio praeextiterit, qui fieri potest ut aliqua ratione interpretem instituamus? Homini affecto ex patria, loco proprio, arte, artis operatione et organo, per quae eius formationis est praesentativus, ibi quod significandum est accidere intelligatur, ubi et agens commode operetur et operatio proprius exequatur. Caetera, quae tricesimus sigillus habet, explicatione non indigent; illud tantummodo praestemus, ut tres pro paradigmate tabulas subinferamus ad hebraicum dictionarium maxima facilitate figurandum atque retinendum.</p>
+<list>
+<item><label>I</label> A. O. I. E. U rex magus fons</item>
+<item><label>II</label> B princeps pyromantus porticus</item>
+<item><label>III</label> G dux geomantus pyramis</item>
+<item><label>IV</label> D Dh comes arithmantus lucus</item>
+<item><label>V</label> H praesidens hydromantus patibulum</item>
+<item><label>VI</label> V cons. iudex aeromantus laurus</item>
+<item><label>VII</label> Z consiliarius aruspex antrum</item>
+<item><label>VIII</label> H CH senior augur sedes</item>
+<item><label>IX</label> T actor hypnomantus solium</item>
+<item><label>X</label> I cons. secretarius sortilega columna</item>
+<item><label>XI</label> C CH satelles veneficus altare</item>
+<item><label>XII</label> L pontifex stertomantus fluvius</item>
+<item><label>XIII</label> M sacerdos chiromantus navis</item>
+<item><label>XIV</label> N propheta obtalmantus falx</item>
+<item><label>XV</label> S doctor metoscopus puteus</item>
+<item><label>XVI</label> H lector energumenus lavacrum</item>
+<item><label>XVII</label> P PH cantor tinnomantus mensa</item>
+<item><label>XVIII</label> T sacrista astrologus fornax</item>
+<item><label>XIX</label> Q K corbonarius logomantus terminus</item>
+<item><label>XX</label> R lampadarius odomantus saxum</item>
+<item><label>XXI</label> SCH S ostiarius exorcista pytho. specula</item>
+<item><label>XXII</label> T TH custos necromantus sepulchrum.</item>
+</list>
+<p>	Ibi ad elementorum triplicationem regem in atrii fontis primo cubili intueberis, ut tribuat Aaa, princeps in atrii portici secundo cubili dabit Bbb, dux in atrii pyramidis tertio cubili reddet Ggg. Similis de caeteris est ratio. Ad tres autem radicales varias designandas, facies, ut cum per regem in atrii patibuli tertio cubili habes AHG, per praesidem in atrii lucis duodecimo cubili Hdl. Eadem de caeteris est ratio. Atriorum singula duas et viginti ad summum habebunt partes, quorum unumquodque eodem ordine distributas habebit sedes, dommodo prima sedes habeatur, a qua atrii denominatio desumitur, ut in atrio fluvii (quod signat L) prima sedes est fluvius, secunda fons, tertia porticus, quarta pyramis; in atrio fornacis, prima sedes est fornax, secunda fons, tertia porticus, quarta pyramis. Ita in aliis.</p>
+<p>	Ibi magus, pyromantus, geomantus et qui sequuntur, vel homines vel atria vel atriorum cubilia denominare possunt.</p>
+<p>	Tabulae isti adcommodata est figura quadrata, duobus et viginti constans ordinibus, quorum singuli totidem habent cubilia. Tu ad instar illius duas et viginti tatalas tibi substernas, in quarum capite notam unius elementi, quod praesidem significat, apponas; in cubilibus ordinum singulorum successive per diametrum ab angulo dextro superiori ad sinistrum inferiorem alterius elementi notam inscribas, quod ad ordinem denominandum instituitur; in singulis vero ordinum cubilibus illud tertio habes elementum, quod recta sursum vel deorsum, vel in ipsa sede inspicitur, ut ibi vel a praeside per singula duorum et viginti atriorum ad viginti duas domos, vel a singulis atriorum per viginti duas cuiusque domos in campum vel ad praesidem commode fiat accessio.</p>
+<list>
+<head>Secundae tabulae construendae typus.</head>
+<item><label>I</label> aurifex asinus hebes</item>
+<item><label>II</label> textor bos tardus</item>
+<item><label>III</label> impressor vulpes astutus</item>
+<item><label>IV</label> ferrarius lupus rapax</item>
+<item><label>V</label> stabularius porcus immundus</item>
+<item><label>VI</label> miles ursus ferus</item>
+<item><label>VII</label> consiliarius cervus fugax</item>
+<item><label>VIII</label> bibliopola pica loquax</item>
+<item><label>IX</label> musicus talpa caecus</item>
+<item><label>X</label> barbitonsor hircus salax</item>
+<item><label>XI</label> crepidarius canis blanditor</item>
+<item><label>XII</label> caupona leo fortis</item>
+<item><label>XIII</label> pincerna mulus sterilis</item>
+<item><label>XIV</label> lanio noctua maleficus</item>
+<item><label>XV</label> pastor serpens maledicus</item>
+<item><label>XVI</label> agricola gallus excubitor</item>
+<item><label>XVII</label> olitor felis insidiosus</item>
+<item><label>XVIII</label> aleator equus furens</item>
+<item><label>XIX</label> magus corvus divinator</item>
+<item><label>XX</label> lictor simia histrio</item>
+<item><label>XXI</label> pictor aries ferax</item>
+<item><label>XXII</label> voluptuarius taurus iracundus.</item>
+</list>
+<p>	Huic tabulae adcommodata est figura quadrata, in qua vel ab angulo superiori (in quo spacium est pro singulari elemento) per media numerata et designata ad angulum inferiorem descenditur, dum unam bestiarum per omnes qualitatum species deducentes, ita in claustris artificum affici concipimus, ut significanda significet; vel ab angulo inferiori singulariter capto per eadem media ad angulum superiorem fit ascensus, dum unicus artifex per singulas duarum et viginti affectionum, in plures vel omnes bestiarum species in suis atriis ita commigrabit, ut haec quae sunt adsignificanda, praesentet. Tu ad illius similitudinem duas et viginti figuras ordinabis, in quarum angulis superioribus vel inferioribus singula per ordinem inscribas elementa, opposito angulo existente vacuo pro iis designandis elementis pluribus, quae in tertium primo per media accipiuntur.</p>
+<list>
+<head>Tertiae tabulae construendae typus.</head>
+
+<item><label>I</label> doctrina venator laqueus, canis et XX alia</item>
+<item><label>II</label> domus olitor cribrum, asellus et XX alia</item>
+<item><label>III</label> plenitudo pistor frumentum, farina et XX alia</item>
+<item><label>IV</label> tabulatum pastor bos, ovis, sus et XIX alia</item>
+<item><label>V</label> vanitas coniux puella, lectus et alia XX</item>
+<item><label>VI</label> concordia medicus confossus aeger, oleum et alia XX</item>
+<item><label>VII</label> oblatio faber lignarius serra, securis, malleus et reliqua</item>
+<item><label>VIII</label> vita miles equus, lancea, scutum et XIX alia</item>
+<item><label>IX</label> bonum caupona olla, cacabus, veru et XIX alia</item>
+<item><label>X</label> principium pincerna cyathus, amphora et XX alia</item>
+<item><label>XI</label> manus virtus gerulus saccus, dolium et XX alia.</item>
+<item><label>XII</label> disciplina musicus tympanum, tuba, lyra et XIX alia</item>
+<item><label>XIII</label> ex quo materia scriptor liber, folia et XX alia</item>
+<item><label>XIV</label> sempiternitas fur aurum, vestis et XX alia</item>
+<item><label>XV</label> adiutorium agricola falx, iugum et XX alia</item>
+<item><label>XVI</label> fons oculus sigillator frons, arca et alia XX</item>
+<item><label>XVII</label> os faber vulc. incus, folles et alia XX</item>
+<item><label>XVIII</label> iustitia sutor acus, forceps, linea et XIX &lt;alia&gt;</item>
+<item><label>XIX</label> vocatio lanio bos, machaera, aries et al.</item>
+<item><label>XX</label> caput tonsor scyphus, sedes, speculum etc.</item>
+<item><label>XXI</label> deus piscator hamus, tridens, retia et XX alia</item>
+<item><label>XXII</label> signum sacerdos thuribulum, vitta, mitra.</item>
+</list>
+<p>	Praesenti tabulae figura quadrata adcommodatur, in qua duplex a medio singulari (pro quo est spacium designatum, ut in paratis viginti duabus figuris viginti duo valeas elementa inscribere) fit progressio, vel per notas absolutas ad ipsas numeratas, dum artifex ministerve medius vel per singula viginti duorum atriorum ad multiplex cubile proficiscitur, vel per notas numeratas ab absolutas per multiplex cubile numeratum in atrium regreditur.</p>
+<p>	Hic sunt per nomina hebraicorum elementorum designata atria, quorum singula totidem artes complectuntur et exercitia, ad quorum singula viginti duo referuntur organa vel actiones, ut trium radicalium hebraicorum terminorum signa adipiscare. Facili enim additionis atque subtractionis opere facile caeteris (quae non sunt plurima) radicibus et non radicibus adsignificandis providebis.</p>
+</div2>
+</div1>
+<div1>
+
+<head>De explicatione deductionis multiplicis formarum non sensibilium de sensibilibus.</head>
+<p>	Quot, quibus qualibusque modis formae non sensibiles per eas quae sensibus patent figurandae, notandae atque retinendae sint, non modo hic, sed et aliis in locis amplius expressimus, copiosissime autem in uno de <title>“Clavis magnae”</title> voluminibus, quod <title>“Sigillorum sigillus”</title> intitulatur; ubi non solum docemur non sensibiles de sensibilibus, sed quascunque de quibuscumque, ad omnes animi operationes, ex naturalibus, ex artificialibus et fortasse divinis quodammodo principiis, formas elicere. Ipsum plurimis gravibusque causis praesenti pertractationi continuamus.</p>
+<p>Explicationis minoris triginta sigillorum</p>
+</div1>
+<div1>
+
+<head>PHILOTEI IORDANI BRUNI NOLANI SIGILLUS SIGILLORUM AD OMNES ANIMI DISPOSITIONES COMPARANDAS HABITUSQUE PERFICIENDOS ADCOMMODATUS.</head>
+
+<p>	1. Haec mihi inter alia divinus ille spiritus, qui sordidis unquam non conquievit ingeniis, insinuavit: haesitanti tibi et ad rem ipsam penitus inflammanti, illud principio intentandum, ut ipsum a quo excitaris exterius et incitaris interius primum proximumque Deum colas, principem magnifices, numen invoces et lumen adspicias.</p>
+<p>	2. Tria subinde in arte humana omni esse debere memento: singula primo sapienter priusquam fiant excogitentur, secundo mature strenueque expediantur, tertio ea quae excogitata expromptaque sunt serventur atque viriliter defendantur.</p>
+<p>	3. Hinc tres Deos artibus omnibus praesidere tradit antiquitas: Pallada, Vulcanum et Martem. Haec est opifica quaedam numinum trinitas, Iovi summo rerum architecto semper adstans, ita ut quemadmodum trinitas tota ad Iovem, ita Vulcanus et Mars ad Palladem.</p>
+<p>	4. Horum trium in arte divina regnantium tria quoque in natura videmus esse vestigia: Palladis vestigium ordo quo res disponuntur, Vulcani velox progressus et prompta quasi ad partum properatio, Martis structura a generantibus tradita genitis.</p>
+<p>	5. Ita singula quoque a perenni fonte 1. effluunt, 2. nascuntur, 3. dum originem suam repetunt, in eundem refluunt: 1. fiunt, 2. adolescunt, 3. perficiuntur; unde idem principium, medium et finem vocavit Orpheus.</p>
+<p>	6. Ad hoc sane provocandum atque tentandum te cogit necessitas per quam in discrimine positus homo appetit attrectatque pennas (ut aiunt) diluculi, ita volente Iove, qui ne humanum torpeat ingenium vividaque illius emoriatur ***, duris rebus urgentem addidit egestatem.</p>
+<p>	7. Memento Prometheum non placuisse Diis, utpote qui Deorum thesauros spargens, in torporem genus humanum concitare videretur, aut qui promiscue dignis et indignis quiddam excellentissimum commune faceret.</p>
+<p>	8. Habeas ergo tu tecumque pauci salutaris istius nectarei liquoris gustum, quo, cum Lethaei fluminis lethargicos humores penitus expurgaveris, facile primo coelestem cum Diis coelestibus vitam, mox supracoelestem cum supercoelestibus circuitum prosequare, unde cum copia attoniti vulgi iacentes Carneadem, Cineam et Metrodorum non altius intuebere consistentes.</p>
+<p>	9. Etsi tempus Pythagoricum indocilissimum omnium atque stultissimum (quandoquidem per ipsum omnia oblivione deleantur) comprobes, Simonidis quoque tempus (cuius beneficio omnia quaeruntur, discuntur, inveniuntur, obliterata reclarescunt praecisaque repullulant) non improbabis.</p>
+<p>	10. Cunctis, pro sufficientia, exquisitas alas tribuit natura, perpauci vero admodum sunt, qui eas norint explicare ad eum aerem dividendum atque pulsandum, qui non minus pulsandus ad volatum conducit atque praestat, quam dividendus obesse videtur; postquam enim ipsum laborans dividendo commoveris, ipse non ingratus te fulciendo promovebit.</p>
+<p>	11. Obiiciuntur nobis res, signa, imagines, spectra vel phantasmata. Quorum differentiae sunt odibile quod est deforme et malum, et appetibile quod est pulchrum et bonum, et composita ex duobus vel tribus horum, amabile bonum, odibile deforme; item captu facile, quod est nec excellens nec deficiens sensibile cum abstracto intelligibili, et captu difficile, quod est remissum vel excessivum sensibile et sua natura maxime (cum sit sine abstractione) intelligibile.</p>
+<p>	12. Quibus mediantibus natura ornat sensum, concupiscentiam, intellectum et voluntatem, unde prodit videre, tangere in genere, imaginari, cogitare, primam memorari, ratiocinari et intelligere, unde nascitur secundum memoratum, quod intellectus adeptus et in habitu consuevit appellari. Quibus adiicitur formatio, cuius species sunt: opinio in genere, aporia, scrupulus, syndaeresis, fiducia et illectio in genere, quae excitat voluptatem, ambitionem, curiositatem et fiduciam, et profligatio quaedam incitans in abominationem, terrorem et horrorem. Quae omnia pariunt hinc electionem et fugam, inde assensum et dissensionem.</p>
+<p>	13. In iis est simplex apprehensio vel conceptus primus, numeratio, mensuratio, ponderatio, divisio, distributio, distinctio, ordinatio, definitio, propositio, argumentatio, intellectio, quae est simplex conceptus secundus et (quam ita placet appellare) mentatio.</p>
+<p>	14. Istis eo pacto a nobis dispositis et a te, ut intelligi debent, intellectis, illud est mente perpendendum, [quod] eorum, quae natura fiunt et quorum reddi facile possumus contemplatores, primum ideas, ad quarum exemplar universa quae sunt genera, generumque species producuntur, in primi opificis mente praexistere, moxque sub illis aut individua pro eorum incorruptibilitate speciem praeferentia integram, aut in fluctuanti materia successione et distributione quadam continuantia atque multiplicata, ordinibus quibusdam emergere in lucem. Haec inquam a prima mente primo comunicantur intellectui, per quem in naturam prodeuntia (postquam in archetypo immenso quodam praeextiterant modo) fiunt quasi margine quaedam inclusa et ita naturaliter subsistentia.</p>
+<p>	15. Hic per sensus, quasi ianuas quasdam, e metaphysicis redduntur physica, ex physicis fiunt rationalia et interioribus hominis discutienda sensibus, ubi immaterialiores perpetuanda subeunt facultates.</p>
+<p>	16. Itaque a mundo supremo, qui est fons idearum, in quo dicitur esse Deus vel qui dicitur esse in Deo, descensus est ad mundum ideatum, qui per illum et ab illo dicitur esse factus, et ab isto ad ipsum, qui utriusque praecedentis est contemplativus, quique ut est a primo per secundum, ita cognoscet primum per secundum. Unde circuitu quodam fit a primo ad tertium discursus, et a tertio recursus ad primum, vel (si mavis) reflexione quadam a primo ad tertium fit descensus, a tertio ascensus ad primum per medium.</p>
+<p>	17. Quam mirabile erit opificium tuum, si opificio utriusque naturae conformabere; si vero excors et errabundus efficiare, e contrario confusissima opplebere caligine, quam umbram mortis appellant. Sic memoria et intellectu mundi triplicis fabricam atque seriem, non sine iis quae continentur in eo, concipere valebis atque parere. Uti uterum ipsum atque matricem admirandam propaganti lumini exposueris ab hespero vel ab ortu, a merinoctio vel a meridie, ita occurrens ipsum amplecteris.</p>
+<p>	18. Illud subinde non praetereundum, quod veluti naturaliter sensus eorumque organa, facultates et actus ad unum quasi centrum reducuntur, unde proximum phantasiae atrium formis memoriae cubile per cogitativae triclinium subeuntibus colant; haud secus per bene placitum memorari cupienti oporae pretium est ordine eodem attrectare viam. Ideo enim quaedam millies visa atque audita importunius te fugiunt, et quaedam semel et obiter sensibus iisdem attacta, ubi aeternum sunt actura aevum, memoriae penetralia captant; quia haec ab ipsa phantasia obsorptum, per cogitativam digestum habent, illa vero aut neglectum in foribus dispersere, aut ullo sine pipere intrusum non minus perdidere.</p>
+<p>	19. Haud igitur temere oblivionem insensationem quandam appellavit Socrates; qui si eadem ratione et memorabilis iactum semen a memoria non conceptum insensationem similiter quandam appellasset, rem sane protundiorem explicasset.</p>
+<p>	20. Ni igitur vivacius phantasia sensibilibus pulsaverit speciebus, cogitatio non aperiet, ostiaria quoque cogitatione non aperiente, easdem indignans Musarum mater non recipiet.</p>
+<p>	21. Excitent ergo, quae comitante discursu, cogitatione fortique phantasia movent affectum, quibusque zelantes, contemnentes, amantes, odientes, maerentes, gaudentes, admirantes et ad sensuum trutinam referentes, cum zeli, contemptus, amoris, odii, maeroris, gaudii, admirationis et scrutinii speciebus, cum memorandae rei forma afficimur. Porro fortiores atque vehementiores fortius consequentia quadam atque vehementius imprimunt.</p>
+<p>	22. Hos autem si vel tua vel rei concipiendae natura non adferat, industria citet affectus. In istis enim exercitatio nedum ad optimos pessimosque mores viam aperit, sed et ad intelligentiam et (quantum per hominem fieri potest) omnium pro viribus eiusdem activitatem. Confirmatur hoc, quod populi et gentes, quibus promptior est libido et ira, sunt activiores; et ex iisdem intense odientes et amantes apprime impios, aut si se se vertant quo divinus eos agat amor atque zelus, apprime religiosos habes, ubi idem materiale principium summam ad virtutem pariter proximum esse atque ad vitium potes agnoscere.</p>
+<p>	23. Hunc amorem omnium affectuum, studiorum et effectuum parentem (qui proxime allata causa geminus est) daemonem magnum appellavit antiquitas, quem si tibi affabre conciliaveris, omni procul dubio nil tibi supererit difficile. Itaque, prout expedit, explicavimus, unde quasi per artem non solum rerum memoriam, sed et veritatem atque sapientiam per universum humanam possis assequi.</p>
+<space type="stacco narrativo"/>
+<p>Prima cautela.</p>
+<p>	24. Verum ad haec, praesertim vero ad Hesperidum genitricem, cautelas minime non necessarias explicemus. Quarum prima inde desumenda est, quod eorum quae sensibus internis (quibus formas adfigere consuevimus) praesentantur, quaedam sunt figurae, idola, imagines, simulacra, exemplaria pura vel virtute machinantis phantasiae confusa, disiuncta, compacta, ordinata; quaedam vero ex istiusmodi quasi parturientibus in sensum phantasticae facultati succedentem iniecta. Primi generis extant de sensibilibus iis, quae secum innotescendi trahunt facultatem, accidentibus indumenta subsistentium compositorum; secundi generis affectiones quaedam, quae cum non sint indumenta compositorum, minime quidem per se se, verum cum illis atque per illa in cogitationem, praesentem intellectum atque memoriam ingeruntur.</p>
+<p>	25. Phantasmatum igitur (quorum speculatio necessaria fertur) concinnare species oportet, ut felix in actibus succedentium potentiarum habeare; adaptantur autem, cum tales redduntur, quae per se ipsas valeant formas non sensibiles accire. Eiusmodi vero quomodo effingas, si nosse cupis, optimum naturae ducis consule magisterium, quae ab extrinseca lupi figura et visibilibus duntaxat delineamentis, inimicitiae apprehensionem mortisque metum internis ovis sensibus intrudit. Id considerasse est principium, quo memoria concipit et pro tempore paritura retinet, et quibusdam levibus speciebus per oculum, animi affectus varii commoventur.</p>
+<space type="stacco narrativo"/>
+<p>Secunda cautela.</p>
+<p>	26. Caveto subinde, ne corporeo organo (ut fama est) memoriam alligatam existimans, quasi ipsam in introspectum provocans, animae facultatem contrahas. Id quidem advenit iis, qui clausis oculis spiritum in caput accersentes, reminiscentiam sibi comparare et praeterlapsas revocare vel confusas discutere implicatasque excutere species autumant. Haud enim ea ipsa actio dissimulat animum inde ad suam operationem magis atque magis hebetari; quanto enim plus insistunt et urgent, tanto amplius redduntur immemores. Mitto aliorum animi affectuum suspectam et superciliosis damnabilem considerationem. Hic modo miselli manum fronti admovent, nunc occiput percutiunt, iam digito testam scalpunt, et tamen hoc ipsum continua testatur experientia, quod quae prius reminiscendi spes aderat, interimitur.</p>
+<p>	27. Et certe nescio quid sacramenti sit in manu, quae temperatius sobriusque enutrito et minime laboranti divina conciliat insomnia, concupitarum revelationum provocat aspectum, et earundem enutrit servatque memoriam; capiti vero dormientis supposita vel mox evigilanti admota, aut prorsus insomnii memoriam corrumpit, aut etiam si somniasse recordetur, quid tamen somniarit, illi non subibit; quod si tamen minor minusque tempestivus fuerit attactus, aegre recordabitur et mutilatim. Et novimus per se manifestum esse (quantumvis paucis notum) insignis stultitiae signum in iis, qui per universum a capitis non temperant contactu per propriae manus admotionem. Et vix capio mysterium de quibusdam Galilaeis, qui repente in summos evasere theologos, et alios manuum impositione in eamdem sufficientiam promovebant. Cavendum porro censeo, ne sine delectu alienae manus in caput admittantur. Sed eo, unde prolapsi sumus, redeamus.</p>
+<p>	28. Ne inquam putes per introspectum quemdam potius quam adspectum seu prospectum memoriam fieri vel comparari; effusione enim quadam provenit, qua non inquam ex oculis, sed ex innominata quadam animi facultate, quae in genere intentionis vel intendentiae cuiusdam habetur, et sepositum velutique seorsum positum intuetur. Et nimirum quod experimur rem pupillae impositam non discerni, remotiorem vero posse, tanto magis ad animam est referendum, quanto ipsam plus a materiae finibus elongatam novimus. Adhibeto igitur intervallum; quomodo enim occurret tibi (ait unus de principibus philosophis) quam magnum est caelum, cum forma intus accepta tanta esse non possit? Memento igitur, non ea quae sunt in nobis, sed res ipsas per ea quae sunt in nobis esse inspiciendas; quamvis enim animae praesens adsit imago, non tanquam ipsam, sed tamquam per ipsam aspicientes intendamus animo. Temere enim eorum, quae sensus perceperat, quasi figuram quamdam opinaberis in animo servari, ut animus inde figuretur et veluti quoddam admittat impressionis vestigium; sequens enim species ad figurandum animum accedens, necessario praecedentem alteram delesset.</p>
+<space type="stacco narrativo"/>
+<p>Tertia cautela.</p>
+<p>	29. His adde quod Eurydice, dum retro ad inferos respicit, luce privatur avita, et Orpheus ipsa; quis enim impune, quae obiere, mente repetet? Quis admovens manum ad aratrum et retrospiciens aptus est ad metam? Simpliciore singularique intentione magis, simplicissimaque maxime proficit animus, qui unitum saltem pro facultate efficit, quod unum reddere non poterat. Huc pertinet illud nostrum:</p>
+<lg>
+<l>Evadens caecam sensuum pentapolim</l>
+<l>Non apta ad superandum montis verticem</l>
+<l>Conversa retro nata Lotho in Sodomam</l>
+<l>Haesit, in insensatum versa lapidem.</l>
+</lg>
+<p>	Debilitatur Mnemosyne nostra desipitque remis non petita pariter atque velis. Ne igitur una facultate in puppim, altera vero recumbat in proram, ab alieno interim desistant opere; neque turbent, potentiae opem ferre minime valentes. Satis apertum, quam facilius accuratiusque sopitis externis sensibus interiores nobis sensus insinuent, nec ulli dubium est, quemadmodum maxime ad aliquid inspiciendum intentus eo auditu redditur hebetior. Externo quoque lumine orbatus Homerus adeo interno valuit acumine, ut in ipsum tum divinitus tum partas humanitus artes unus de principibus philosophis concurrisse asseruerit. Virtute corporea deflorescente animi virtutem florescere intellexit ille, qui virtutem in infirmitate perfici credendum proposuit.</p>
+<space type="stacco narrativo"/>
+<p>Quarta cautela.</p>
+<p>	30. A Circaeis demum veluti poculis abstinentes, caveamus ne animus a sensibilibus speciebus illectus, ita sui in ipsis fixionem faciat, ut intelligibilis vitae privetur delitiis, vinoque affectuum corporeorum et vulgaris authoritatis (quae cum pulsaverit aures sine divino vel rationis lumine, non absque aeternae vitae discrimine in nobilissimum consensus nostri triclinum introducitur) ebrius, perpetuo in praesumptuoso ignorantiae domicilio titubando pernoctet, ibidemque turbatae phantasiae velut insomniis exagitatus, amissis connatis alis intelligentiae, proruat, et Protei contemplatus vultum, nunquam concinne formatam, in qua conquiescat, speciem inveniat. Desinamus igitur, desinamus eas, quae veluti rerum sunt umbrae, a sensibus obiectas species admirari, et illud in nobis caveamus, ut ad auscultandum domestici in animo intellectus agenti saffatum regrediamur. Hic enim Deorum dapes habentur, qui iam iamque pulsantes ad ostium, ut nobiscum prandeant, convenere. Illud etiam caveamus in obiectis, ut consideremus, numquam ad amussim imagines exemplaribus respondere, eaque de causa ut minus explicatum et certe (ut esse potest alienum ens ab eo quod est entis, accidens a substantia, sonus ab eo quod resonat) diversum et aliud. Haud enim quod concipi debet de veritate rerum, ab ulla sensibili specie satis exprimi potest, sed veluti per nutum suis accidentibus se nobis essentia rerum insinuat. Eademque nos verbis nostris adhuc amplius deficientibus, veluti per notas et signa quaedam non satis exprimimus. Qua de re Pythagorici, Plato et qui negativam meditantur theologiam, omnem dictionem a divina praedicatione denominationeque abigendam existimant, ut quidquid (etiam perfecti) de rerum principe dici et cogitari potest, idem per adcursum ad eminentissimam inattingibilemque rationem proprie etiam negari debeat.</p>
+<space type="stacco narrativo"/>
+<p>DE QUINTUPLICI ET SIMPLICI</p>
+<p>PROGRESSIONIS GRADU.</p>
+<space type="stacco narrativo"/>
+<p>De primo progressionis gradu.</p>
+<p>	31. Ad haec quatruplicem potentiarum cognoscitivarum progressum ita regulare debemus, ut a sensu, qui est circa corpora, ad phantasiam, quae circa corporum simulacra versatur, ab hac ad imaginationem, quae circa simulacrorum consistit intentiones, et inde ad intellectum, qui circa singularum intentionum naturas comunes meditatur, sine errore conscendamus. In iis sensus infimum obtinet cognitionis gradum eiusmodi progressus, quia alia tantum attingendo efficitur, ideoque rectae lineae comparatur, intellectus autem circulo; omnino enim sua et circa se ipsum contemplando operatur. Ratio vero media habet actum nec pure rectum neque circularem, et ideo obliquae lineae eius progressio adsimilabitur. Ad sensum quidem pertinet, quae extra animam sunt non quidem plane cognoscere, sed potius cognoscenti nunciare; ad imaginationem vero non solum ea cognoscere, sed etiam ea quae sunt in anima, utpote sensuum actiones; ad rationem praeterea se ipsam investigare; ad intellectum autem et se ipsum cognoscere. Sensum quidem (quia sentimus semper) iudicamus esse nostrum, de intellectu vero ambigunt Platonici, et quia eo non semper utimur, et quia est separatus, separatus inquiunt, quia non ipse annuit ad nos, sed potius nos ad ipsum superne aspicientes. At fallunt et falluntur ita dicentes; magis enim convenit, ut intelligamus et ipsum ad nos et nos ad ipsum adpellere, unde et ille noster et nos illius. Nos quidem semper illius, quia nos semper illuminans perpetuo praesentes habet, quantumvis non ille nobis perpetuo praesens, et consequenter non semper ille noster, quia non semper intendimus, nec semper illuminantur. Nos igitur perfecte habemus sensum, licet eo perfecte non utamur; perfectissime habemur ab intellectu, qui sine intermissione in nos agit; mediae vero potentiae, quae ab imaginatione universaliter dicta denominantur, secundum quid nos habent et a nobis habentur. Formae rerum in mente sunt omnino essentiales; formae illinc ab aevo rationi impressae, sunt quasi essentiales; quae noviter et quotidie a mente resultant in ratione, minus adhuc essentiales iudicantur; quae in rationem ab imaginatione eduntur, sunt quasi accidentales; quae a sensibus in imaginationem, eae prorsus accidentales existunt. At illud hic non est dissimulandum, quod dupliciter dici sensus consuevit: inferior videlicet, hicque est quo non natura rei vel qualitas ulla discernitur, sed affectio quaedam dumtaxat a corporeis qualitatibus illata sentitur; et superior, qui naturam qualitatemque persentit. Primus stupidus est et veluti dormiens, plantis quoque conveniens, secundus animalium tantummodo proprius perhibetur. Est porro et tertius quidam modus, quo sensus significat. Epicurus enim cognitionem omnem appellat sensum, Democritus et Empedocles intellectum, Pythagorici mentem et spiritum altorem, ipsumque intelligunt esse in omnibus pro sua ratione. Et certe ex nostris principiis nos haec omnia in unum concurrere principium iudicamus. Mens enim, quae universi molem exagitat, est quae a centro semen figurat, tam mirabilibus ordinibus in suam hypostasim educit, adeo egregiis technis intexit, exquisitissime plantas lapidumque adhuc spiritu vitae non carentium venas characterizat et impingit, a quibus omnibus animales virtutes effluere satis est compertum iis, qui in naturalium consideratione non caecutiunt. Hic si tua contemplatio insistat, non frustra te sensu praeditum esse crediderim.</p>
+<space type="stacco narrativo"/>
+<p>De secundo progressionis gradu.</p>
+<p>	32. Duplicem subinde in nobis esse imaginationem considerato: primam quidem in anima ratiocinantem experimur, discursionis iudiciique compotem, rationique quodammodo similem; secundam vero in anima, seu vita, in nobis ratione carentem, ab hac impressam; quae quidem imaginatio non tam ratione utitur et discursione, quam fertur instinctu quodam circa corporis passiones, et tanquam communis sensus principium est sensuum reliquorum. Secundam harum dicunt Platonici et Aristotelici esse in brutis sine prima. Sed haec dictio magis voluntaria est et fidei credulitatem exigens, quam ut vera probari possit et rationem convincere. Facilius enim est carpere, quam demonstratione concludere intellectum in omnibus pro sua ratione non inditum et insitum, individuamque mentem magis intimam esse rebus quam ipsas dividuas sibi posse, eamque ita foecundam esse, ut in omnibus pro captu proprium pariat intellectum, quem libere sensum mentemve propriam vel instinctum possis appellare, dummodo bene sentias. Sicut enim nullus color est actu sine luce, licet alius magis, alius autem minus explicet se se, ita nihil sine intellectus participatione quoquo pacto cognoscit; illam enim pro rerum diversitate et multitudine specierum in omnia quadam analogica progressione descendere dicimus, sensum vero ascendere, imaginationem quoque hinc, rationem autem inde descendere pariter et ascendere, ita ut eadem virtus et cognoscendi principium idem, a diversis functionum et mediorum differentiis, diversas recipiat nomenclaturas. Hinc forte Plotinus (qui distinctione ab ista non abhorret: si non ex toto, magna tamen ex parte nobis consentire videtur) tertiam quamdam imaginationis speciem collocat in parte vegetali, eamque negat esse discursionem per formas sicut prima, et intuitum formae sicut secunda, sed formae intus vigentis in se ipsa expressionem et impressionem in materiam, ubi naturalis actio tamquam imaginatio quaedam et substantialis quidam agens esse perhibetur. Huic sententiae affinis est illa, quae vult naturam illam esse intellectum infusum et intus operantem. Et certe a non imbecilli connexione, unione et forte unitate et identitate quadam provenit, quod a facultate elementativa vegetativa perficitur, ab hac concupiscentia et sensus, ab iis ratio et imaginatio, a quibus tandem voluntas atque intellectus; ex quibus demonstrative concludi potest, quod si in sensu sit participatio intellectus, sensus erit intellectus ipse. Haec enim transfusio virtutis ab una potentia in aliam non est materiae, sed formae. Et difficile est videre, quomodo forma formae continuetur, et quomodo forma citra materiam natura vel ratione sit dividua; una igitur simplex essentia unius primae totalis et simplicis est efficaciae, quam in subiecto dividi, distingui et multiplicari necessum est, et unum idemque diversas a diversis actibus accipere denominationes, ut dicatur: sensus in se sentit tantum, in imaginatione persentit etiam se sentire; sensus quoque, qui iam quaedam imaginatio est, imaginatur in se, in ratione imaginari se percipit; sensus, qui iam ratio est, in se argumentatur, in intellectu animadvertit se argumentari; sensus, qui est iam intellectus, in se intelligit, in divina autem mente intelligentiam suam intuetur; mens autem divina in sua essentia viva possidet et invenit universa, et intellectum usque ad materiae profundum illuminat. Hic est lux, qui in densissimis tenebris, utpote in profundo materiae, lucet, et amplior quam ut a tenebris possit comprehendi et superari; in natura autem aequalitatem et proportionem quandam pro specierum capacitate servat; sicut enim tenebrae eius, ita et lumen eius. Id intelligunt cabalistae, ubi dicunt: ‘non est qui se abscondat a calore eius, attingit a fine ad finem, a radice scalae ad culmen, vel a culmine ad radicem, et tenebrae non obscuratuntur a te’, et alia plura.</p>
+<space type="stacco narrativo"/>
+<p>De tertio progressionis gradu.</p>
+<p>	33. Supra imaginationis actum, qui est circa mobilia mobilis, esse rationis actum circa inmobilia mobilem, et supra hunc circa immobilia prorsus immobilem intelligentiae actum considere, cantant Platonici. Ipsam vim stabilem esse intellectum proprium aiunt, cui comunissima certissimaque artium scientiarumque principia, ipsamque rerum opinionumque diversitatem ad urnam trutinamque revocare, et per vim intellectus, semper omnia et subito contuentis, subito convenit quippiam intueri. At inquiet alius: cur non rationem ipsum esse intellectum nunc et hic subito contuentem, tunc et ibi discursiones progressionesque argumentando fundentem dixerim? Differt nimirum servus a principe, practicus a theorico; sed quid impedit, quominus unus idemque hic serviat, ibi praecipiat, nunc speculetur, tunc operetur? Et sicut eamdem dicis essentiam, cur non eamdem dixeris essentiae vim, quae pro materiae, organorum actuumque varietate ad diversos promoveatur actus? Nonne unum idemque lumen contrariarum diversarumque qualitatum se prodit expressivum? Actu unus idemque calor, una eademque caloris vis, non solum diversa in diversis, sed et contraria in contrarie dispositis operatur. Diversamne contrariamque caloris dixeris vim, qua cera liquescit, lutum durescit; haec crescunt, illa decrescunt; intereunt haec, illa reviviscunt? Numquid genere diversis et sub eodem genere specie differentibus effectibus, genere specieque diversis actibus virtutes pariter diversas atque differentes in caloris natura collocabimus?</p>
+<p>	Cur ubi Plotinus dixit inter imaginationem et intellectum geminam primae rationis speciem, alteram speculativam surgentem ad intellectum, alteram activam ad imaginationem potius declinantem, quarum activa semotior est a mente, in labore posita et quodammodo serviens externis, speculativa autem contraria se habet ratione; cur inquam non dixerim, eamdem potentiam hic et nunc passivam, laborantem, declinantem, tunc et ibi adsurgentem, non laborantem et activam? Eadem certe naturae vis est, qua terrae pars in suo loco quiescit vel naturaliter commovetur, et qua ad suum locum seposita adnititur atque fertur; specie tamen motus alter ab altero differt. Cur ubi triplicem tangit rationem (primam summam et idealem in intellectu, quae ipse est intellectus, cuius neque esse neque actio est in materia; secundam seminalem in animae ipsius natura, cuius non tam esse quam actio sit in materia; tertiam formalem, id est substantialem corporis formam, cuius et esse et actio simul est in materia), ibi non dixit rationem simplicem tripliciter pro subiectorum varietate se habentem?</p>
+<space type="stacco narrativo"/>
+<p>De quarto progressionis gradu.</p>
+<p>	&lt;34.&gt; Supra rationis actum intellectus actum collocant, quem duplicem esse aiunt; sicut enim super animam quasi corpoream est ipsa simpliciter anima, ita et super intelligentiam animalem est ipsa simpliciter intelligentia. Quibus addimus ad unum idemque virtuale principium referri vocem, quae ab organis vocalibus formatur, ubi velut in se ipsa et sua origine est, et eam quae est in aere, et eam quae est in organis auditus; ibi est producta, ibi effusa, ibi persentita; quis ideo dicet aliam esse vim, qua procedat, aliam qua progrediatur et effundatur, aliam qua audiatur? Item innumerabiliter et infinite multiplicem secundum numerum, quia infinitis sensibus numero distinctis, si adsint, ingeritur. Ad unum idemque virtuale principium refertur lumen in  sole, ubi est velut in se ipso et velut absolutum, lumen &lt;in&gt; aere medio seu aethere, et lumen in illuminato corpore; et ideo desinit esse in corpore, si desivit esse in medio, desinit esse in medio, si desinat esse in hemisphaerico horizonte.</p>
+<p>	Unum ergo proprium subiectum unam simplicem radicem et unum virtuale principium recognoscit. Hinc fiat proportionale iudicium de intellectu primo ad alios intellectus, de primo superiorique cognitionis gradu ad alios cognitionis gradus. Una lux illuminat omnia, una vita vivificat omnia certis gradibus a superioribus ad inferna descendens, et ab infernis ad suprema conscendens; et sicut est in universo, ita est et in universi simulacris. Atque altius conscendentibus non solum conspicua erit una omnium vita, unum in omnibus lumen, una bonitas, et quod omnes sensus sunt unus sensus, omnes notitiae sunt una notitia, sed et quod omnia tandem, utpote notitia, sensus, lumen, vita, sunt una essentia, una virtus et una operatio. Essentia, potentia, actio; esse, posse et agere; ens, potens et agens est unum: ita ut omnia sint unum, ut bene novit Parmenides unum omne et ens. Principiare autem principiatum esse, facere fieri, illuminare illuminari, superius et inferius non ens sunt, sed entis, non sunt id quod unum, sed ea quae unius, vel ex uno vel de uno.</p>
+<p>	Haec non quia de istarum rerum natura hic considerandi locus habeatur, tractasse volumus, at vero ut in omni multitudine unitatem, in omni diversitate identitatem tentare, meditari et efficere doceamus. Qui enim non disponit, quaerit, intelligit et facit unum, nihil disponit, nihil quaerit, nihil intelligit, nihil facit; qui ex multiplici sensu et multiplici cognitionis gradu unum sensum simplicemque unam cognitionem non est adeptus, nullum possidet sensum, nullam cognitionem; qui tandem ipsam non cognoscit et per eam non operatur, nihil cognoscit et nihil operatur. Pro gradibus autem participatae unitatis quidam participative cognoscunt et agunt.</p>
+<space type="stacco narrativo"/>
+<p>DE MULTIPLICI CONTRACTIONE.</p>
+<space type="stacco narrativo"/>
+<p>De prima contractionis specie.</p>
+<p>	35. Ex proxime dietorum consideratione delitescit, quemadmodum multiplex a multiplici contractione virtus exoriatur. Contractione quidem loci effectum est, ut tot qui in eremi solitudines se recepere, tot artium, scientiarum, virtutum morumque fuerint inventores, magistri, duces et pastores populorum. Pythagoras decennio ab hominum frequentia liber, magnum atque veracem naturae rerum se reddidit contemplatorem. Solitudine viginti annorum in omni magia et divinatione profecit Zoroaster, ut et Xamolxis, Abbaris et alii. E deserto Oreb Moses supra illius magos Pharaoni prodiit admirabilis. Jesus Nazarenus non prius coepisse mirabilia dicere et operari fertur, quam post conflictum cum diabolo in deserto habitum. Raymundus Lullius apprime stultus et idiota ex eremo in pluribus inventionibus se profundum exhibuit. Paracelsus, qui magis eremitae quam doctoris vel magistri titulo gloriatur, novus et nulli inferior medicorum extitit princeps et author. Hinc olim Aegyptiis et Babyloniis ociosi contemplatores, Gallis Druidae, Persis Magi, Iudaeis Pharisaei, Indis Gymnosophistae, Christicolis Monachi, Babassi Mahumetanis, ut vel naturae rerum contemplatores, vel morum iuxta leges essent moderatores, optime fuerant instituti. Sed ex iis plurimos, ut humanum laborem et curas fugerent, ocii et gulae amore illectos, perpaucos vero virtutis amore, ut bonitatem et veritatem persequerentur, invenies se a negociosorum conversatione sevocasse; quod si qui tales inter eos apparuerint, iidem ab inmunda et invida multitudine obruentur. Mitto quod ex iis etiam celeberrime, ocio ad hominum necem et humanae pacis abolitionem abutentes perniciosissimi foetus emanarunt eorum doctores, qui passim in humanae et civilis conversationis interitum docent homines pro malefactis non timere, et nescio quibus sordidissimis confidere phantasiis, ad quas magis et certas (iuxta tam varia et dissepta eorum dogmata) de Cerere et Baccho credulitates, quam ad benefacta, Dii retributores respiciant, ut interim in antiquam barbariem retrudant perniciosos populos, et a fine, in quem ab omnibus legibus diriguntur, avertant. Hos sane exterminandos eque medio, tamquam seculi zizanias, erucas atque locustas, immo veluti scorpiones atque viperas, tollendos funditus, sicut illos ocio, avaritia et ambitione luxuriantes castrandos esse venefico antidotarium tempus succedens, seroque suo malo sapiens mundus iudicabit. Sed ab ista depravatae contractionis specie ad alias convertamur.</p>
+<space type="stacco narrativo"/>
+<p>De secunda contractionis specie.</p>
+<p>	36. Contractione imaginationis ad situm, per indifferentiam distantis atque proximi conceptam, nonnullos vidimus in alto arctoque culmine se se exagitasse, rectosque unico innixos pede in aere constitisse; idemque atque magis per imprudentiam, atra bile laborantibus, per alta praecipitia obambulantibus accidisse.</p>
+<space type="stacco narrativo"/>
+<p>De tertia contractionis specie.</p>
+<p>	&lt;37.&gt; Contractione quadam horizontis in centrum (de qua forte alias) a quibusdam religiose affectis maximo loci intervallo seposita per eam animi vim, quae corporeis non est adstricta terminis, veluti intelligentiarum obtutu potitis, reddita sunt ad sensum non fallentem perspicua. Sic Clazomenii animam ita errasse ferunt, ut relicto corpore veros e longinquo successus nunciaret; Cornelio quoque sacerdoti Patavium incolenti ita Thessalicum bellum fuisse praesentem ferunt, ut eiusdem ordinem et exitum ad plenum retulerit; Pius quoque pontifex nostris diebus, eodem die et hora Romano populo, quem tunc ad publicas preces convocavit, successum belli navalis ultra fines Ionii maris praesentem inspexit.</p>
+<space type="stacco narrativo"/>
+<p>De quarta contractionis specie.</p>
+<p>	&lt;38.&gt; Contractione intentionis in rei cognoscendae speciem, divinis insomniis, visionibus et revelationibus exponitur animus; ipsi quippe vere intendenti nihil est difficile.</p>
+<space type="stacco narrativo"/>
+<p>De quinta contractionis specie.</p>
+<p>	&lt;39.&gt; Contractione per affectum fidei adeo praevalere dominarique animus supra corpora creditur, ut et montibus non sine ratione nos imperare posse dicamur. Porro tunc id vere maximeque evenit, quando respondentia quaedam in principio activo cum passivo reperitur. In eos etenim, qui timoris, amoris, spei, laetitiae, tristitiae et generaliter consensus, acclives non perhibent affectus, Dii non posse mirabiles producere effectus quandoque protestati sunt; hoc de magicis medicisque principiis unum atque praecipuum esse novimus. Praepollent medici, in quibus plurimi confidunt, formidantes penetrant maleficia, quae eorundem contemptores non attingunt, superstitiosulos et rusticos vidi energumenos, cautiores vero versutulosque numquam. Excantantes quoque, ni se in vehementiorem spiritum concitent inculcandum, commovendum, exsolvendum, devinciendumque, non devincient, non exsolvent, non commovebunt, non inculcabunt spiritum. Hinc illae artificiosae fascinationes, hinc medicae adiurationes. Et certe ex naturalibus concitato affectu haec irati perficimus, quae nobis quietis atque pacatis sunt impossibilia.</p>
+<space type="stacco narrativo"/>
+<p>De sexta contractionis specie.</p>
+<p>	40. Contractione quadam a pietate erga patrem commoti affectus mutus Croesi filius ad nunquam audita (ut opinantur) verba proferenda linguam exsolvit; id autem alia ratione naturaliter esse non posse iudicamus, quam quia in eo corpore repositus animus, per vehementem affectum evigilans, ad iam notum sermonem proferendum adproperavit; quod vero Croesi inauditum nomen protulerit, minime credendum. De plurimis autem, ut de filio Pollionis et aliis, qui in infantia loquuti sunt, iudicandum, quod non talis extiterit corporis complexio, ut species ante receptas obfunderet, ideoque in eiusmodi corpore tales diutius consistere non potuisse visi sunt.</p>
+<space type="stacco narrativo"/>
+<p>De septima contractionis specie.</p>
+<p>	41. Contractione quadam a timore proveniente ego ipse, cum in fascibus essem solus, ingentis eiusdemque vetustissimi serpentis aspectu, qui e foramine domestici parietis exierat, articulate patrem in proximo cubiculo degentem appellavi, quem cum domesticis aliis adcurrentem, petentem baculum, serpentem adesse conquerentem, verba vehementius irati fundentem, sicut et alios mihi timentes non minus intelligebam loquentes, quam modo me posse intelligere credam. Haecque ipsis post plures elapsos annos, velut e somno rursus evigilans, parentibus id minime [id] omnium cogitantibus non sine eorum admiratione in memoriam revocavi. Huc spectat considerare, quantum miraculo fieri possit, ut natus surdus, et consequenter mutus, recte proprio spiritu, non autem alieno per maleficium intruso, effari valeat. Prorsus enim iudiciosis inpossibile videbitur, ut quispiam in proposito eorum proferat actum, quorum non habet habitum; ipsum etenim eumdem haec effari verba, quae non audivit unquam neque didicit, est implicita vel potius explicata contradictio, quam nostri moderatores affirmant esse non posse miraculi subiectum. Ex hoc principio non sat distincte percepto, formas rerum naturaliter animo esse insitas asserunt Platonici.</p>
+<space type="stacco narrativo"/>
+<p>De octava contractionis specie.</p>
+<p>	42. Contractione etiam, quae a subito timore ad arcem cordis aliasque internas partes spiritum contrahente vel impellente provenit, fit ut a plerisque morbis aegroti convalescant, sicut a contrariis causis enascentes contraria ratione curari credimus consequenter. Omitto quod quadam in animum bene formatum contractione facia proprium alienumque corpus servatur, sicut cecinit Zoroaster, fecit Pythagoras, Apollonius et Abb. Spiritus quoque postquam per radios ab oculo effusos sese explicaverat, si iterum a diversis obiectis imbutus diversis affectibus contrahatur, similibus certe animum inficit passionibus. Hinc quaedam solo aspectu nauseam, stuporem, dulcedinem, tremorem, similiaque et alia incitamenta conferunt; alium male affici aspicientes, ipsi dolorem eadem in parte sentimus; videntes alienum effundi sanguinem, deficimus. Id certe aliquid spirituale ab externis ad interna contractum conferre iudicandum. Idque non solum ex visu provenit, sed et ex phantasia et ex olfactu, quandoquidem ex quorundam pharmacorum et simplicium odore vim purgativam contrahimus, aliquid etiam horrendum audientes, etiam quod iudicemus fabulosum, contremiscimus, et quorumdam etiam attactu morbos contrahimus.</p>
+<space type="stacco narrativo"/>
+<p>De nona contractionis specie.</p>
+<p>	&lt;43.&gt; Contractione, quae a cupidinis fervore exoritur, ad imaginatae vel visae vel concupitae rei similitudinem diversorum generum eventus succedere novimus; quod novit et Iacob, qui obiectis ante oves et arietes decorticatis et discoloribus virgis efficiebat ne simplici colore foetus ederentur. Praegnantes quoque specie notaque rei ardentius concupitae foetum proprium inurunt.</p>
+<space type="stacco narrativo"/>
+<p>De decima contractionis specie.</p>
+<p>	&lt;44.&gt; Contractione a sensibus externis, dum a propriis actibus per somnum conquiescunt, interni sensus, veluti magis vegetantes, vivacius proprias species persentire experimur. Quo etiam pauciores sensus in eo, qui eorum natura particeps esse perhibetur, eo pollentiores esse comperiuntur. Hinc Democritus mentem a sensibus avocare percupiens, sibi oculos, a quibus impedimentum patiebatur, effodit. Non solum autem in paucioribus sensibus efficacia maior est inspicienda, quasi per numerum contractione facta, verum etiam et veluti per magnitudinis arctationem accidit eundem sensum maiori esse efficacia praeditum. In plurimis enim inducentibus patet, quemadmodum sensus, quo magis est angustus, eo perspicacior. Unde a debilitate motus ab obiecto et debilitate sensus ab organo ad oculos perstringendos compellimur, ut pupillae aciem contrahamus in angustum. Mitto quod aquilae nobis, serpentes aquilis acutius intuentur.</p>
+<space type="stacco narrativo"/>
+<p>De undecima contractionis specie.</p>
+<p>	45. His accedat miseranda quaedam contractionis species, quam in rudibus, spurcis et hypocritunculis quibusdam compleri conspicimus, quorum quidam plus atra et crassa, quam naturam deceat, bile laborantes venereas foedasque captant voluptates, alii futiles et pecudinas quasdam revelationes aucupantur, quae e porcinae eorumdem phantasiae perturbatione proficiscuntur; quae omnia quomodo prosequantur, si quis nosse desiderat, animum ad haec quae subinferimus advertat.</p>
+<p>	Ex hoc bestialium hominum genere sunt, qui crudis acutisque herbis ventosoque pasti legumine excoctique infantis adipe peruncti, moxque ad noctis silentium aere temperate frigido nudati, illud praestant, ut calore dictis circumstantiis medicato ad interna retruso recurrente, cumque attenuati adipis spiritu carnis penetrante poros, vasa libidinis facile intumescant lenteque artificioso semine compleantur. Interim in venereorum meditationem, quae a praecedente proposito praesentique stimulo concausatur, incitati, lenem quamdam horripilationem incurrunt, per quam adeo forti phantasticae cogitationis actui alligantur, ut lente per longam noctis moram libidinosam ventositatem et succum egerentibus ipsis, postquam evigilaverint, quod in iisdem vestigiis permanserint, nullus est qui suadere valeat; menti quippe fixum habent, se ad veros concupitorum virorum vel mulierum nocturnos amplexus delatos. Et certe verisimile et naturae consentaneum esse videtur, ut interim non modica afficiantur delectatione; effluxio quippe non ut in actu ordinarii coitus maturatur, sed ideo serior efficitur atque lentior, quia corpore quiescente, solo cogitationis motu, peregrina ventositas alienusque humor continua lentaque egestione per vasa libidinis emittuntur. En unam de inmundis animi contractionibus, ad quam sufficere novimus artem, quae vel naturam dirigat vel naturae operanti subministret. Suadere tamen solent (quod et tales voluptuarios sibi suadere forte necessum est) ad haec daemonum cooperatricem potentiam conferre, quod ut credibile faciant, celebribus quibusdam verbis, quae veluti sacra habeantur, aliisque pro latente significatione suspectis, sicut et sine ratione adhibitis gestis superstitiosis atque notis utuntur; quae quidem cum per sese nil prorsus addere valeant, eius tamen in animo credulorum sunt efficaciae, ut ad turbandam phantasiam (sine qua eiusmodi affectibus alienata parum aut forte nihil conferunt) maxime conducant. Physice enim fit, ut per temerarii cuiusdam timoris (quem in audaciam rusticus amor adigit) praestolationem commodius efficaciusque eorumdem turbari valeat phantasia. Plane enim constat, haec nobilioribus animis ingeniisque felicioribus et actum imaginationis supra phantasticum obiectum reflectere potentibus esse impossibilia. Haec etenim (sicut et altera proxime referenda) non ex temperatioris melancholiae divinioribus ingeniis subserviente materia, supra quam per cogitationis fortitudinem attolluntur, sed per quandam ratiocinii imbecillitatem in gremium materiae crassioris immersi supprimuntur.</p>
+<space type="stacco narrativo"/>
+<p>De duodecima contractionis specie.</p>
+<p>	&lt;46.&gt; Iam ad non magis ingeniosos apocalypticos nostros respiciamus, qui cum eiusdem pessime olentis melancholiae specie laborent, fine tamen per libidinis diversitatem differunt; hoc maxime detestamur, quandoquidem interim stulti non propriam modo, sed et aliorum ignorantum et asinorum (quibus prophetae atque revelatores pietatis apparent) turpissimam stultitiam enutriunt. Hi mage naturale nutrimentum contemnentes postquam in maciem et vitiose Saturniam complexionem fuerint adacti, quibusdam (ad phantasiam perturbandam) aptissimis praeviis (quas pias credunt) meditationibus ipsi faventem noctis umbram potiti, tristitiam quandam subeunt, ubi flagris lenius caedendo sese, ab internis calorem ad partes exteriores evocant, ut hoc interius mage remisso amplius in spiritu melancholicus tepor intendatur, et ut nulla ad extasim contrectandam desit occasio, animi excogitationem ad alicuius Adonidis mortem adpellentes, tristitiaeque suavem quamdam addentes tristitiam (haud enim et lacrimis suam deesse libidinem comperimus) altorius generis horripilationem subeunt, interimque virtute perturbati sensus facile proprii spiritus adpulsu alicui de immundis iisdemque irrisoribus spiritibus intelligentiae copulantur, cum demum nescio in quem miserorum tristiumque numinum apertum intuitum et affatum adeo promoti credantur, ut ea audiant atque percipiant, quae numquam in eorum cogitationem cadere potuissent. Quem quidem phantasiae turbatae impetum eousque in quibusdam invaluisse novimus, ut confossorum numinum, quorum speciem intensius animo contraxerant, ardentioris phantasiae fervore cicatrices in proprio corpore inustas comperirent.</p>
+<space type="stacco narrativo"/>
+<p>De decimatertia contractionis specie.</p>
+<p>	&lt;47.&gt; Ad hoc contractionis genus minime retulerim illud, quod in eminentis contemplationis viro, Aquinate Thoma, completum credimus; hic enim cum collectis animi viribus in imaginatum coelum raperetur, adeo in unum spiritus animalis sensitivus atque motivus est collectus, ut corpus a terra in aerem vacuum tolleretur; quod tametsi minus eruditi ad miraculum referant, et arcana praesumptuosaque ignorantia freti non facile credant, a naturali tamen animi potentia id provenire posse facile novimus, et multo ante Zoroaster. Nescio an ad istam contractionis speciem referri velint domini theologi raptum Pauli, quem et ipse non satis novit an in corpore an extra corpus fuerit.</p>
+<space type="stacco narrativo"/>
+<p>De decimaquarta contractionis specie.</p>
+<p>	48. Est et pessima contractio, quae a ratione contrarii victus, qui naturali complexioni diametro opponitur, quo in pessime enutritis talis congeritur in vitalibus corporis partibus humor, ut vel proprii spiritus alteratione reddantur amentes atque fanatici, vel peregrini accessione fiant energumeni. Quosdam etenim de simplicibus corporibus ad materiam sibi adcommodatam mox libentissime accedere non est difficile, sicut et e quocumque semine in bene collocato atque disposito spiritualem animalemque vitam prodire est naturale, et cuicumque conceptui bene se habenti animus velut ubique praesens statim adest. Hac ratione, addita undecima et duodecima contractionis specie, repente per artem notoriam sapientes efficiuntur simplices, creduli et superstitiose contemplativi, sed in iis sapiens spiritus non est proprius, sed proprio imperiose copulatus. Ideo furiosos, eosdemque intellectivos spiritus cum quibusdam animalium excrementis Saturnio adcommodatis temperamento, egestos frequentius experti sumus; et monachus Brixiae, me praesente ipsumque curante, qui hac arte repente propheta, magnus theologus et linguarum omnium peritus videbatur effectus, ipse, cum monachorum tantam sapientiam ad malum principium referentum consilio fuisset in carcerem detrusus, virtute acetabuli cum polypodii contusi succo temperati, humoribus melancholicis atque spiritu evacuatis, talis, qualis semper extiterat, asinus apparuit.</p>
+<space type="stacco narrativo"/>
+<p>De decimaquinta contractionis specie.</p>
+<p>	49. Ea tandem laudabilissima vere philosophis propria animi contractio est, qua crudelis Anaxarchus patiens ictus plus Nicreonta tyrannum affligebat, quam ipse torqueretur; qua et Polemon a rabidissimis canum morsibus *** ne expalluisse quidem; qua Laurentius de prunis ardentibus velut e roseo strato hostibus viriliter insultabat. Quid enim? Nonne vehementior delectatio, timor, spes, fides, indignatio reique contemptus a praesente passione sevocat? Porro tunc est perfectae philosophiae praxis, quando quis altitudine speculationis ita a corporeis affectibus semovetur, ut minime sentiat dolorem. Maiorem autem virtutem esse credimus in eo, qui hucusque devenit ut dolorem non sentiat, quam in alio, qui persentito obsistat. Haud enim vere virtuosum iudicat Epicurus, qui oppositi vitii sensum admittit. Quem alius rei magis commovet aspectus, ille mortis non patitur angustias. Quidam cum maxime ab amore divinae voluntatis (quam firmiter existimabant) exequendae traherentur, nullis minis nullaque eos aliunde sollicitante formidine movebantur. Intensumne dixerim virtutis amorem, qui rei temporaneae nequeat infirmare timorem? Ego eum, qui timet corporeis, numquam divinis fuisse coniunctum facile crediderim; vere enim sapiens et virtuosus, cum dolorem non sentiat, est perfecte (ut praesentis vitae conditio ferre potest) beatus, si rem rationis oculo velis aspicere.</p>
+<p>	50. Ex his habes contemplandi locum, quot modis frugaliter, inutiliter et perniciose spiritum contrahere, vires accire, animum intendere ad speculandum, speculata intelligendum et intellecta retinendum, novasque per temet formandum et concipiendum impressiones valeas, et in similibus per consimilia, in proportionalibus per comproportionalia, in diversis per analogicas rationes, in contrariis tandem per opposita pariter industrius habeare. Ex his ea consideratio exoritur, quae ad intelligentiam, iudicium et affectum regulandum conferat. Illud tamen importunius spectandum, ut maxime caveas, ne in phantasmata nimium incurrens, nec velut ea comprehendens, sed potius tamquam ab iisdem comprehensus (quemadmodum in Antipheronte factum ferunt) in eorum numero, qui aguntur potius quam agant, te constituas. Tales diximus, qui victus ratione, solitudine, silentio, umbra, perunctione, flagris, calore, frigore vel tepore, spiritu hinc contracto, inde abacto, vana phantasmatum meditatione perturbata phantasia, miserabilem incurrunt insensationem.</p>
+</div1>
+<div1>
+<head>SIGILLI SIGILLORUM SECUNDA PARS.</head>
+
+<p>	1. Quemadmodum festucae, paleae, pelliculae et id genus alia, in ignem proiecta, ad instar eorum quae sola sensu praedita dicuntur, quasi instantem praesentemque corruptionem fugientia contrahuntur, refugiunt seseque ut possunt inde proripiunt; ita nulli quantumlibet ad sensum neglecto et imbecilli principium naturale deest, quo melius ad praesentem statum se fulciat atque tueatur. Si quippe profundius intuebere, nihil adeo mutilum, abscisum et emortuum comperies, quod aliqua sui esse (quae et qualiscumque sit illa) intrinseca cura sit penitus destitutum. Pro animi igitur perfectionum tutela ad domesticum animi nostri magisterium instruendi convertamur; adest quippe illi a patrio lucis et intelligibili mundo exulanti tamquam in puppi praesidens naturalis facultas, qua duce veluti scintilla suam appetens sphaeram, a retardantibus cursum revocat et etiam nesciens avertitur.</p>
+<p>	Quanto autem potentior est animus supra corpora, tanto pollentiores aversiones habet, ne a propriis naturalibusque dispositionibus et actibus per materiae turbantis impulsuum vortices impediatur. Cognosce igitur, cognosce diverticula, quoque modo adversus adeo caecam caliginem depellendam e foribus sit eluctandum, videto.</p>
+<p>	Videto primum quatuor internos actuam rectores: “amorem, artem, magiam, mathesim”.</p>
+<space type="stacco narrativo"/>
+<space type="stacco narrativo"/>
+<p>DE QUATUOR RECTORIBUS.</p>
+<space type="stacco narrativo"/>
+<p>De amore.</p>
+<p>	2. Amor est cuius virtute omnia sunt producta, est in omnibus, in vigentibus vigens, quo vigentia vigent, quique ipse est vigentium vigor; frigida calefacit, obscura illustrat, torpentia excitat, mortua vivificat, inferiora divino furore ducens supercaelestem plagam peragrare facit; cuius ministerio animae corporibus detinentur, cuius ducatu in contemplationem eriguntur, cuius volatu superata naturae difficultate Deo copulantur; qui docet quae aliena, quae nostra, qui nos, qui alii; qui facit alia nobis subiici et mancipari, nosque aliis praefici et dominari; necessitas enim, quae omnibus insultat, soli paret amori. Ad hunc igitur colendum, non tria ad loca respicientes, sed ad omnia, non ter, non septies perciti, sed semper convertamur.</p>
+<space type="stacco narrativo"/>
+<p>De arte.</p>
+<p>	3. De arte autem illud nobis in mentem revocandum est, quod quanto exquisitius naturalia ad proprium finem quam artificialia diriguntur, tanto minus consultando faciunt; unde bene intellexit Aristoteles quemadmodum consultatio maior non est maioris peritiae et intelligentiae ratio. Experimur etenim in nobis absolutissimam artem nihil amplius consultare, et artem consummatam nullis rationis discursibus indigere, vel quia naturae similitudine operamur, vel quia natura nobiscum cooperatur. Tunc igitur perfecte agit ars, cum naturae agenti connectitur; ita enim comparatum est, ut connexionem habeant ars atque natura, et quia ars naturae quaedam imitatio existit, et quia, sicut impossibile est naturalia esse artis expertia, ita nec artificialia natura carere possunt. Nil enim prorsus est artificiale, quod naturae non sit innixum; unde sicut ex arte cognoscimus qualis quispiam sit ratione vel natura, ita ad naturam referendum est artis rationisque principium. Ut igitur absolutam consummatamque artem adipiscare, animae mundi te copulari cumque ipsa copulatum agere oportet, quae naturali foecunditate rationibus plena mundum rationibus similibus plenum generat. Quae quidem rationes (ut et sentit Plotinus) in seminibus fingunt formantque universa quasi exiguos quosdam mundos. Unde cum anima ubique praesens existat, illaque tota et in toto et in quacumque parte tota, ideo pro conditione materiae in quacumque re etiam exigua et abscisa mundum, nedum mundi simulacrum valeas intueri, ut non temere omnia in omnibus dicere cum Anaxagora possimus. Cum igitur aliquid ita perficitur, prout animae illius essentia ad talem materiam requirere videtur, non fit adventitia quadam sententia et exspectata consideratione (ita enim ars, quae posterior est et aemula, fabricat), sed velut ab intrinseco praesentem formam explicante natura. Vide igitur unde ars mirabilis emanet.</p>
+<space type="stacco narrativo"/>
+<p>De mathesi.</p>
+<p>	4. Mathesim quoque conferre ad opus animi omnes sapientes consensere; visibilia namque invisibilium sunt imagines. Velut enim in speculo ea, quae sunt in mundo intelligibili, praesentia fiunt in mundo sensibili. Hic sunt in motu, in varietate; ibi vero in perpetua stabilique quadam ratione consistunt.</p>
+<p>	Mathesis docens abstrahere a materia, a motu et tempore, reddit nos intellectivos et specierum intelligibilium contemplativos. Ideoque Pythagoras, Plato et omnes, qui res profundas atque difficiles nobis sunt insinuare conati, aliis quam mathematicis mediis non unquam usi sunt. Et ipse mathematicorum inimicus, logicus magis Aristoteles (qui plus arguendo quam argumentando valet), dum profundiora naturae explicare niteretur, quoties necessitate coactus ad repudiata mathemata recurrit?</p>
+<p>	Nobis sane a corporum imaginibus et umbris, quae sunt obscura sensibilia, per mathemata, quae Platoni sunt obscura intelligibilia, ad ideas, quae eidem sunt clara intelligibilia, datur accessus, sicut et illarum claritas nostrae rationi per media mathemata sese intrudit. Mitto quod inter mathematica et physica debetur locus quorumdam naturalium corporum profluviis integrum characterem ad certam intercapedinem servantibus, quibus quandoque Magi ad aliquem perdendum uti consuevere. Id sensit Heraclitus et Epicurus, Synesius et Proclus confirmavere, nos minime ignoramus, et necromantici maxime experiuntur.</p>
+<space type="stacco narrativo"/>
+<p>De magia.</p>
+<p>	5. Quid de magia, quae cum media mathesi fere in eadem ab extremis physicis atque metaphysicis aequidistantia consistit? Haecque duplicis est generis: altera, quae vel per credulitatem et fidei vim, vel per alias non laudabiles contractionis species sensum mortificat, quo propria ratio per aliquod extrinsecum penitus absorbeatur, ut natura melior in alicuius deterioris imaginem transformetur (et haec apud reprobos magos usuvenit, qui hominem vel aliud de animantium genere ad quoddam spirituum influentialium symbolum promovent, quorum virtuti vel etiam substantiae cum fuerint patratae uniones, mirabilia in corporibus, in affectibus, in artibus et in mundi partibus atque regionibus alterando, commovendo, transformando, occultando, manifestando, ligando, solvendo, educendo, inducendo vere vel apparenter operantur); altera vero est, quae per regulatam fidem et alias laudandas contractionis species tantum abest ut sensus perturbatione quandoque utatur, ut eumdem claudicantem fulciat, errantem corrigat, imbecillem et obtusum roboret et acuat. Haec cum norit, daemonis magni (qui amor est) virtute, animam per spiritum corpori copulari, magisque separatam divinamque vim spiritui per animam, et universalia omnia omnibus per media plura vel pauciora adnecti et concatenari, cumque non lateat geminam esse animam, superiorem videlicet magisque intellectualem quae in se ipsa pulchrum effingit, et inferiorem quae in alio, primam ad superiorem, secundam ad inferiorem et vulgarem Venerem referri, illamque gemini Cupidinis matrem esse, in quorum utroque naturae sensus consistit, qui per se vita dicitur, hunc in naturalibus omnibus contemplatur; ab isto etenim sensu est appetitus in partibus corporum et praecipuis mundi membris, puta magnis animalibus atque Diis, ut ad locum suum illa se conferant, et haec vitales circuitus peragant. Ni enim haec ipsa persentirent, numquam ad convenientem vel in convenienti regione moverentur. Hinc bene dixerunt (licet non bene omnes intelligant) opus naturae esse opus intelligentiae. Hoc habet naturalis magia cum superstitiosa atque divina comune principium, quod omnia intimo quodam incitamento malum pro viribus fugiunt et bonum persequuntur, et alia moventur a se, alia ab alio, et alia moventur ab intrinseco principio, quod semper est indigum vel indigentis, alia vero ab extrinseco, quae quandoque sunt quibus aliud indiget; alia quoque moventur naturaliter, alia violenter, alia non repugnanter. Hinc sympathiam et asympathiam et vim utriusque considerans, applicatione principiorum cum principiis, agentium cum patientibus, naturae cunctipotentis aemula, socia efficitur, atque quodammodo eiusdem ad proprium usum directrix et gubernatrix.</p>
+<space type="stacco narrativo"/>
+<p>De IV. obiectis.</p>
+<p>	6. Quatuor obiectorum praeterea ratio est habenda: “luminis, coloris, figurae, formae”; quae quatrupliciter iuxta quamdam analogiam, ex gradibus modi quatruplicis considerandi desumptam, capienda sunt: “metaphysice, physice, rationaliter, moraliter”.</p>
+<space type="stacco narrativo"/>
+<p>De lumine.</p>
+<p>	7. Lumen ergo concipe cum Platonicis ut ignem et coeli formam, imaginem vitae coeli (ut quod in coelesti vita intellectuale est, sit in coelesti corpore luminosum, veluti quod in mente est intentio, in voce est oratio vel verbum), accensum a Deo in sole, in quo caeterae sunt qualitates, quarum praecipuae sunt calor vitalis atque blandus, actio quaedam motrix atque formatrix omnium specierum. Est lumen intimius, quo sol per se lucet, a quo genere differens habetur lumen, quod inde velut imago solis per omnia manat. Ab isto igitur lumine, quod apud nos est accensum, ad lumen effusum quod accendit, inde ad illud unde corporaliter effunditur, proinde ad intimum quod est effusionis principium, tandem ab hoc quod est in corpore dividuo veluti dividuum ad simplicissimum atque individuum, sicut a voce scripta suisque characteribus materiae impressa ad auditam, puta per aerem effusam, inde ad prolatam, proinde ad prolationis organica principia, ad simplicem tandem vim atque individuam facultatem, cuius imperio subministrant organa, progrediamur. Lumen illud primum et initiale, si non duratione, natura tamen esse ante solem intellexit Orpheus et Aegyptii, quorum mysteria Moses suis parabolis fortasse prosequitur. Propterea antiqui Chaldaei, Aegyptii omnes, Pythagorici, Platonici caeterique naturae contemplatores optimi, hunc solem (quem Plato visibilem filium et summi Dei imaginem appellavit, cui orienti Pythagoras hymnos lyra concinebat, quem exorientem Socrates salutans in extasim rapiebatur) inter alias stellas visum auditumque habentes, memoria non carentes et preces exaudientes, ardentius adorabant; quorum non adeo damnanda est idololatria, siquidem ad viventes imagines et optima divinitatis vestigia corporeos oculos convertentes, tamquam per externum cultum (quem etiam Deus a nobis requirere videtur) interna ardentioreque animi relligione amplius intenduntur. Qui enim cognoscendo per sensibilia ad intelligibilia manuducimur, simili progressu ab incorporeis per corporea, duplici natura consistentes, divinitus afficimur. Psallentibus igitur corpore et animo, sensu et intellectu, et utraque facultate per utriusque facultatis media ad divina adpellentibus tum templa atque delubra, tum ii qui habitare in ipsis perhibentur, gemino cultu persequi debere undique natura conclamat; quae etiam ex stellis unicum ad luminis fontem respicientibus, super universos et innumerabiles deos mundi rectores, unum principem, patrem atque Deum docet adgnoscere.</p>
+<space type="stacco narrativo"/>
+<p>De colore.</p>
+<p>	8. Color post lucem qualitas esse perhibetur, quae hoc ipso differre a luce creditur, quod ipse est qualitas visibilis quae secundum superficiem extenta est, lumen vero quae nullam patitur extensionem, sed temporis puncto ubique discurrit. Hic non est visibilis nisi per lucem; nihil enim color esse videtur quam lux affecta, ad cuius similitudinem phantasmata non nisi in luce rationis sunt intelligibilia, et ita phantasmata rationi propinquiora sunt magis intelligibilia, sicut colores luci propinquiores sunt magis visibiles; sicut autem visui per se lux ingeritur, ita rationalis species intellectui, color autem oculo, sicut phantasmata rationi, praesentatur. Lumen quoque est forma universalis omnis visibilis et coloris. Lux in omnes colores pariter se diffundit, quae in varios colores migrat, dum a variis recipitur subiectis, et sicut se habet lux ad omnes colores, ut ipsi sint a materiis diversis diversimode participata lux, ita et ad sensibiles omnes luces se habet prima lux, ut ipsae illius diversimode participata luce sint luces diversae.</p>
+<space type="stacco narrativo"/>
+<p>De figura.</p>
+<p>	9. Figura vero quaedam est non sine qualitate quantitas, non sine quantitate qualitas, sed in quantitate qualitas, non lux, non color, non lucis colorisque vestigium (hanc etenim quandoque tactu iudicamus), non pura quantitas, non pura qualitas, sed ex utraque et in utraque unum. In eius tamen genere per hanc, quae visui per lucem se praesentat, maxime profundorum arcanorumque natura est revelatrix, per figuram inquam visibilem formarum nobis rationes indicat natura. Haec est ignis ille, quem Prometheus a Diis clam surreptum tribuit hominibus, haec est arbor scientiae boni atque mali; ipsa enim est similitudo formae.</p>
+<space type="stacco narrativo"/>
+<p>De forma.</p>
+<p>	10. Est una prima forma, per se et a se subsistens, simplex, impartibilis, essentiae, formationis et subsistentiae omnis principium, indiminuibiliter omnibus se comunicans, in qua omnis forma, quae comunicatur, est aeterna et una; ipsa enim est absoluta essendi forma et dans omnibus esse, unde et pater formarumque dator appellatur, ita ut non sit forma membrorum partiumque mundi vel universi totius, sed formae universi et partium ipsius absoluta forma. Estque forma infinita, quia est ita omne esse, ut non ad hoc et ad illud esse finiatur, ad hanc vel ad illam materiam vel subiectum contrahatur, sicut ex opposito infinita dicitur materia, quae non hoc vel illo esse per formam terminetur. Haec forma quibusdam gradibus dans esse omnibus dicitur descendere, ad hanc formam materia per eosdem gradus dicitur ascendere, et a differentia et alietate et diversitate participationis huius materiae et huius formae in gradibus suis differentia, alietas et diversitas entium procedit. Haec forma universalis essendi est lux infinita, se habens ad omnium formas, sicut forma lucis essentialis ad lucis participativae, luminum et colorum formas. Per hanc diversimode participatam in diversis entibus secundum diversas figuras extenditur materia.</p>
+<space type="stacco narrativo"/>
+<p>De progressu primae formae in ternarium.</p>
+<p>	11. Prima forma, quam vel hyperusiam vel nostro idiomate superessentiam dicimus, a summitate scalae naturae entium ad imum profundumque materiae sese protendens, in mundo metaphysico est fons idearum et formarum omnium elargitor et seminum in naturae gremium effusor; in physico idearum vestigia materiae dorso imprimit, velut unicam imaginem secundum speciem numero adversorum speculorum multiplicans; in rationali umbras idearum numerales ad sensum, specificas ad intellectum effingit, illius pro capacitate tenebras illuminando, rerum intentionumque colores impingendo. Formae in ipsa prima causa dicuntur entitas, bonitas, unitas; in mundo metaphysico dicuntur ens, bonum, ante multa; in mundo physico entia, bona, multa; in mundo rationali ex entibus, e bonis, e multis.</p>
+<space type="stacco narrativo"/>
+<p>De explicatione formarum per duodenarium.</p>
+<p>	&lt;12.&gt; Intrinsecae rerum naturalium formae duodecim rationibus (secundum quas duodecim sumunt denominationes) explicantur; sunt autem species, figurae, simulacra, similitudines, imagines, spectra, exemplaria, indicia, signa, notae, characteres, sigilli, quorum differentiam et distinctionem non a grammatista nec a vulgari philosopho perquiras, sed per temet ipsum meditare. Nos etenim si haec per alia nomina explicare velimus, progressum numquam terminandum adoriemur; synonymiam enim puram in nominibus nullam esse credimus. Quisque igitur pro sua facultate differentiam ad duodenarium multiplicandam pertentet.</p>
+<space type="stacco narrativo"/>
+<p>De multiplicatione duodecim indumentorum intrinsecae formae.</p>
+<p>	&lt;13.&gt; Multiplicantur haec indumenta duodecim, quatenus per se ipsa singula in recto, per caetera autem omnia in obliquo deducuntur. Haud enim tantum species, figura, simulacrum et caetera enumerata, sunt indumenta formarum essentialium, sed et dum singula per duodenarium deducuntur, ex ipsis sunt provenientia centum et quatraginta quatuor. Dicitur enim I speciei species, II figurae species, III simulacri species, IV similitudinis species, V imaginis species, VI spectri species, VII exemplaris species, usque ad sigilli speciem. Subinde I forma speciei, II forma figurae, III forma simulacri, usque ad sigilli formam. Ita deinceps caeterae indumenti species singulae per caeteras alias deducuntur.</p>
+<p>	Haec deductio significatur in ea figura, quam supposuimus, ubi singula elementa rotae intrinsecae deducuntur per omnia rotae extrinsecae, vel ea, quae sunt in recto extra circulum designata, ingrediuntur circulum per A, a quo per tensarum linearum ordinem in alia discurrunt oblique sumpta. Significat igitur A speciem, B figuram, C simulacrum, D similitudinem, E imaginem, F spectrum, G exemplar, H indicium, I signum, K notam, L characterem, M sigillum. Haec ita ordinatim sunt enumerata, ut septem prima veluti per picturam et sculpturam et speculum referri valeant, et ex iis priora posterioribus aptius, quinque sequentia per magis confusam et universaliorem positionem, tria ultima per graphicam maxime institutionem.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim vocum formis et earum deductione.</p>
+<p>	14. His consideratio duodecim formarum vocum succedit, quibus quidem tum inveniendum, tum iudicandum, tum et memorandum formamus. Sunt autem et hae duodecim originales, per duodecim elementa designatae: A significat resolutionem, B compositionem, C additionem, D diminutionem, E capitis similitudinem, F transpositionem, G abstractionem, H concretionem, I denominationem, K etymologiam, L interpretationem, M consonantiam. Quae non minus in centum quatraginta quatuor in invicem deductae multiplicantur, ita ut aliqua convenientia in deductione servetur; haec tamen confuse solo combinandi ordine servato ita insinuetur: I resolutio resolutionis, II resolutio compositionis, III resolutio additionis, IV resolutio diminutionis, V similitudinis capitis, et caeterorum ad duodenarii complementum succedentum, deinde XIII additio resolutionis, XIV additio compositionis, XV additio additionis, XVI additio diminutionis, XVII capitis similitudinis, et aliorum usque ad quatuorvicenarii complementum. Haud aliter ad totum numerum ordinate complendum de caeteris subsequentibus est agendum, ut patet in propria figura, ubi in circuli inferioris elementis significantur in recto, in elementis circuli superioris in obliquo, vel e contra. Denotantur ibi duodecim combinationes, primo duplicative per duodecim tractus linearum ab uno circulo in alterum, deinde centum quatraginta quatuor, quia postquam A circuli inferioris iunctum est ipsi A circuli superioris, dicendo: “compositio compositionis”, consequenter ab A procedit lineatim ad omnia caetera circuli superioris elementa, primo ad B, dicendo: “resolutio compositionis”, secundo ad C, dicendo: “resolutio additionis”, et ita deinceps. Par de caeteris elementis est iudicium atque praxis. In praxi vero si quaedam ex iis existant, quae nequeas per tuam industriam adcommodare, ommittas; neque enim adeo solliciti sumus, ut nihil aliorum ingeniis elaborandum relinquamus, quemadmodum non sumus adeo desides, ut in iis quae sunt necessariora defecerimus.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim rerum formis.</p>
+<p>	15. Formae vero rerum generales sunt etiam duodecim: decem puta categoriae, quibus addimus L motum, M causam. Harum formarum species in posterioribus explicabimus. Illa nimirum licet substantive sint expressa, dicendo “essentiam, subsistentiam, substantiam”, non autem “esse, subsistens, substans”, talia tamen esse recolas, qualia et per alia denominantur et alia denominant; accipiuntur enim in praxi concretive, abstractive, in potentia activa, in potentia passiva, in actu, in habitu, in efficacia, in efficientia, in effectu, imo inquam omnes implicant, quos possunt implicare modos. In essentia enim implicitum est ens, esse, entitas, essefacere, essefieri, esseposse active, esseposse passive, essededisse, esseaccepisse (et ultra per alias formarum formas, si libeat). Haec magis rudi, sed et magis expressiva et exquisitae significationis dictione dicuntur essificare, essificari, essificabile, essificativum, essificasse, essificatum. Similiter in substantia implicitum est substans, substare, substantialitas, substantificare, substantifieri, substantificativum, substantificabile, substantificans, substantificatio, quod substantificatur, substantificasse, substantificatum esse. Similiter in aliis formis est concipiendum. Usus horum maxime ad omnes operationes intellectus est adcommodatus, quod in una vel altera fiat manifestum. Argumentando enim si volumus probare aliquid esse magnum, tentandum est sumere terminos medios seu causas ex sua magnitudine, ex magnificentia, ex hoc quod facit magna, ex eo quod factum est magnum, ex hoc quod potest fieri magnum, ex eo quod potest facere magnum, magnum fecit, magnum factum est. Pariter idem aliis formationibus in magnitudine implicitis est faciendum, moxque e tabulae principio exordiendo per alios terminos, ab eius magna essentia, esse, substantia, subsistentia, mole, numero et caeteris; similiter in memoriam magnitudinis ducimur per magnum, magnificare, magnificatum et per plura et omnia, dum rite adcommodantur, ut nos per propriam artem insinuavimus. Sunt igitur ii termini sui aliorumque indumenta atque formae: sui quidem velati, reflexive atque reduplicative, dum obliquum, abstractum, substantive sumptum per idem recte, concrete et adiective sumptum formatur; aliorum vero progressive ab uno termino ad alios proficiscendo, abstractive, concretive, oblique, recte, adiective, substantive, active, vel aliusmodi sumptos. Abstractum reformat concretum et e converso, efficacia efficientiam, actus habitum, esse posse et operari, et e converso. Omnia tandem formant omnia et formantur ab omnibus, atque dum omnia per omnia formantur atque figurantur, ad inquirendum, inveniendum, iudicandum, ratiocinandum reminiscendumque de omnibus per omnia possumus promoveri.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim intentionum formis, in tres classes divisis.</p>
+<p>	16. Haud aliter in suo genere procedendum nobis est in intentionum formis duodecim, in quibus 1. A significat genus, B definitionem, C proprietatem, D accidens; 2. E oppositionem, F modalitatem, G aequipollentiam, H consequentiam; 3. I distributionem, K comparationem, L divisionem, M distinctionem.</p>
+
+<p>De duodecim morum formis, in tres ordines distributis.</p>
+<p>	17. De moralibus quoque formis 1. A significat iustitiam, B prudentiam, C fortitudinem, D temperantiam; 2. E legem naturalem, F legem divinam, G legem gentium, H legem civilem; 3. I necessarium, K honestum, L utile, M delectabile.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim formarum formis.</p>
+<p>	18. Sunt quoque duodecim formae formarum, quibus universa distinguuntur, dividuntur, contrahuntur, limitantur, definiuntur, iudicantur, quaeque omnes artificiales combinationes ingrediuntur. Ex iis A significat primario vel secundario, B absolute vel respective, C actu vel potentia, D simpliciter vel secundum quid, E intrinsece vel extrinsece, F vere vel apparenter, G per se vel per accidens, H comuniter vel proprie, I necessario vel contingenter, K mediate vel immediate, L naturaliter vel adtributive, M principaliter vel reductive.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim fundamentis formarum proximis.</p>
+<p>	19. Formarum fundamenta in duplici sunt differentia. Quaedam enim sunt proxima, quae omnibus modis considerandi proprie subsunt, alia vero sunt prima, quae non solum considerandi, sed et essendi modis universis subiiciuntur. De proximis fundamentis A significat si est, B quid est, C ex quo est, D quantum est, E quale est; F ubi est, G quando est, H quomodo est, I cum quo est, K circa quod est, L ad quid est, M quia est.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim primis formarum fundamentis.</p>
+<p>	20. De primis autem formarum fundamentis A significat divinum et superessentiale, B ideale, C intelligentiale, D cosmicum, E daemonicum, F sensitivum, G vegetativum, H primum compositum, I elementum, K morem, L ratiocinium, M sermonem. Ad haec vel similia respiciunt Magi, a quibus venati sunt Cabalistae significatum per explicationem quaternarii in duodenarium, in nomine quatuor literarum, quod in duodecim deducitur, et quatuor laterum typicae Hierusalem in duodecim portas, et quatuor cardinales spiritus in duodecim per geminos singulorum collaterales, et quatuor mundi cardines in domos distributionum duodecim, et quatuor angulos terrae in duodecim vicissitudinum principatus. Quae subinde in se ducta duodenaria migrant in subspecificata entia centum quatraginta quatuor, et ultra eadem semper proportione submultiplicando discurrendum aiunt usque ad individua innumerabilia, a generalissimis per generaliora, generalia, specialia, specialissima se superessentiali explicante monade.</p>
+<space type="stacco narrativo"/>
+<p>De duodecim artium prosecutoribus, et primo de quatuor indicibus.</p>
+<p>	21. Duodecim praeter haec sunt artium prosequutores, quorum quatuor sunt indices: “sensibile, imaginabile, rationabile, intelligibile”.</p>
+<p>	Sensibilia quippe sunt, quae tamquam picturae atque scripturae rerum species atque rationes sensibus internis per externos obiiciunt. Inter haec vero a visibilibus maxime commovemur; per ipsa enim praecipuae rerum differentiae nobis insinuantur, quandoquidem in universo per oculum obiectae species magis proprie literae, characteres atque figurae, concentum, rationem et ordinem sphaerarum obiectantes, ad mundanorum rectorum cognitionem et ad unius tandem super omnia principis (ob id quod in unum tandem diversa, varia atque contraria omnia conspirant) cognitionis nostrae obtutum valent promovere.</p>
+<p>	Imaginabiles subinde rationes sunt, quae sensibilibus externis absentibus, eorundem nobis offerunt phantasmata; ipsumque quod certis temporibus determinatisque locis offertur, semper et ubique faciunt intueri; quaeque in physicis non componuntur, non dividuntur, definitam quantitatis atque numeri metam non excedunt vel non attingunt, dividit, componit, coarctat, amplificat.</p>
+<p>	Rationabilia deinde sunt, quibus super praedicta discutimus, examinamus, argumentamur, inquirimus, invenimus, materiam abominantes ad intellectum convertimur, et ad altiora purioraque conscendimus.</p>
+<p>	Intelligibiles tandem species sunt, quibus, discursione deposita, actu uno possidemus omnia, beati vivimus, aeternam mentis intelligentiam imitamur. Postquam enim per rationalem speciem, veluti caeci manu paulatim successione, continuatione et discursione quadam attrectantes, sphaeram tactu iudicavimus, iam eamdem per intelligibilem, quasi per ocularem speciem subito citraque omnem argumentativum decursum cognoscimus. Ad ea igitur atria per intelligibiles species promovemur, in quibus plus unico attactu comprehendimus, quam innumeris actibus alibi attingeremus. Hinc illustratur illud quod dicitur: ‘Melior est dies una in atriis tuis, super annorum millia.’</p>
+<p>	Mens longe admodum super intelligibilia praesidet, in qua idem est species quod actus, actus quod potentia, potentia quod essentia; quae cum totum totaliter tota simul et perfecta possessione comprehendat, nullaque vicissitudinum obumbratione capiatur, ea ipsa est, de qua intelligendum, quod dicitur Cabalistis: ‘mille anni ante oculos tuos, tamquam dies hesterna, quae praeteriit.’</p>
+<space type="stacco narrativo"/>
+<p>Secundo de quatuor testibus.</p>
+<p>	22. Quatuor extant testes: “abstractio, contractio, numerus, mensura”, sine quibus nihil est quod probare liceat.</p>
+<p>	“Abstractio” in iis primum non modicum confert. Ad rerum etenim veritatem utile, imo necessarium est, unum sine alio (ut sphaeram sine materia) considerare, licet in pluribus malum, falsum et impossibile est, unum esse sine alio credere vel enunciare. Sine ipsa nullam nobis ingenerari posse notitiam, speculationem atque praxim, satis est perspicuum; sensibus enim non obiiciuntur ea quae vere sunt, quamtumvis eorum veluti speculum et aenigma haec, quae sentiuntur, dicantur esse signa. Haec propter universalem rerum ordinem, connexionem, correspondentiam et similitudinem, quac est ex generatione a primo amore proficiscente, sunt signum, esemplar atque figura. In ipsis igitur sensibilibus rerum non consistit veritas; quod enim vere est, semper est, constat, fuit semper et erit (unde optime illud: ‘nihil sub sole novum’), ipsum est semotum a nostris sensibus, quibus non subiecta substantia, sed quaedam eius affectiones, colores, ordines, figurae, continui motus, alterationes et id quod semper est alterum atque alterum, minime autem quod verum est simpliciter, offertur. Istud igitur per abstractionem, quasi sensibilium velamina removentem, insinuetur. Propter quod magna effectum est solertia, ut pro rerum considerandarum exemplis et unius tandem entis contemplatione mathemata introducerentur.</p>
+<p>	“Contractio” deinde nihilominus conducere intelligatur; ab hac enim multitudinis, diversitatis, contrarietatis uniformitatisque essentiarum omnium notitia, velut a vestigiis et impressionibus, exoritur; per diversas enim ipsarum in materiae gremio figurationes contrahuntur, diviniore substantia in densam obscuramque corpoream commigrante, seque quodammodo finibus eiusdem adstringente. Sic enim per concretionem intelligibile unum et verum ad nos descendit, quemadmodum necessarium est nos ad ipsum per abstractionem ascendere. Id quidem tentamus, cum infinita individua in species, innumerabiles species in plurima genera media, haecque in determinata decem vel duodecim, et ipsa in unum analogum supremum omnium colligimus, ut per ipsas intentiones quasi oppositam contractionem prosequentes, esse multiplex et infinitum particulare in esse specificum et genericum, et hoc ad esse in genere maxime universali, idque ad esse simpliciter sive essentiam contrahamus, sicut posterius in prius, effectus in causas, has partiales in communes, illasque proximas et immediatas ad remotiores atque mediatas, easque secundas ad primas, ipsasque plures ad unam. Duplici ergo existente contractione: altera, qua absoluta forma fit huius illiusque in hoc et in illo forma, sicut lux, quae est primo velut in se ipsa, postea progressu quodam huius efficitur atque illius, in hoc et in illo lumen, (dum tamen de sua substantia nihil emittat et a propria integritate non deficiat); altera contractio est, qua inferior natura per quamdam assensus et obedientiae habitudinem, tum naturali tum notionali adpulsu et multitudo particeps colligitur, et multa participantia colligit in unum. Prima contractio est, qua per essentiam infinita et absoluta forma finitur ad hanc et ad illam materiam; secunda est, qua per numerum infinita et indeterminata materia ad hanc illamque formam terminatur.</p>
+<p>	“Numero” quoque optime omnis contemplatio et animi dispositio adimpletur, sicut idem ad rerum efficientiam concurrere non temere creditur. Hunc vero absit ut intelligamus mercatorium, inque vane algebristatum subtilibus computationibus consistentem, sed in quadam combinatoria ratione situm intelligimus, a qua tractum est illud: ‘rem suis numeris absolutam cognoscere, poetas enthusiasmum induentes numerorum dictamina a Musis recipere, Apollinem vatibus numeros inspirare’, ut nil aliud numeros esse percipias, quam claras quasdam metaphysicas vel physicas vel rationales rationes, quas vel materia vel intellectus, dam ad superiorem formam vel lumen explicantur et exponuntur, per unum vel alium cognitionis modum conceptare valent.</p>
+<p>	“Mensura” etiam regulatorum omnium, in quibus veritatem atque iustitiam inquirimus, principium quoddam activum esse iudicatur. Haec non ea est, quae practicis duntaxat est nota geometris, sed qua rerum substantiae atque proprietatum momenta perpendimus, quaque fines rerum metientes congruosque terminos statuentes omnia definimus et circumscribimus. Metimur autem per effectus actus, per actus habitus, per habitus potentias, per potentias essentias, per has tandem essentiarum fontem immensum nobis esse iudicamus. Ipse est qui vere mensurat, quoniam caetera converso ordine posteriora per priora metiuntur, ipseque est “mens”, a qua denominatur apud nos mensura, et est ipsissima omnium mensura, citra quam nulla adaequata alia reperitur. In iis enim quae distinguuntur in nihilo, exquisita concordantia verificatur.</p>
+<space type="stacco narrativo"/>
+<p>Tertio de quatuor directoribus.</p>
+<p>	23. Ad omnia nimirum per “similitudinem, proportionem, ordinem, symmetriamque” dirigimur.</p>
+<p>	Simile aliud simile amat, alio simili gaudet, ad aliud simile fertur; simile simile excitat, movet atque trahit; simile simili fit, est atque cognoscitur. Similitudinibus ergo paratis omnia facimus, iisdem comparatis omnia perficimus.</p>
+<p>	“Proportione” quatuor existentibus in duplici genere terminis, sicut duobus similitudine collatis, operae pretium est uti; haud enim solum res rebus sunt similes, sed et sicut illa ad alia, pariter haec ad ista sese habere videntur. Ex proportione in rerum specie consistentia, in earum dispositione pulchritudo, gratia in sensu, delectatio in ratione, et gloria in intelligentia enascitur.</p>
+<p>	“Ordine” chaos physicum in pulchrum mundi spectaculum est digestum; ordine chaos intelligibile discussum metaphysicum mundum ab aeterno distrinxit, distinctumque praebuit; ordine chaos imaginabile in mundum tertium, utriusque mundi praecedentis simulacrum, promovemus. Hic est contra casum temeritatemque continuus reclamator.</p>
+<p>	“Symmetriae” tandem conceptione sola quodcumque compositum, complexum, copulatum, mixtum, unitum, ordinatum cognoscimus. Quantumvis enim partem post partem, membrum post membrum, speciem post speciem distincte exterius intimiusque contemplemur, non tamen nisi harmonica consonanteque collatione omnium ad omnia, vel saltem praecipuorum ad praecipua, perfecti rationem erimus adepti, nec consequenter eam, quae in quadam habitudine consistit partium, essentiam, unde optime illud: ‘qui intelligit, aut unum aut nihil intelligit.’ Velut ergo e peripheria innumerarum linearum tractus ad unum punctum conferentes, circulum videmus, plurium membrorum ad unum individuum collatione fit, ut statuae, arboris, campi, horti, aedificii et cuiuscumque compacti percipiamus figuram; ita in obiectis rebus et propositis intentionibus adepta symmetria (hac enim quae carent sive res, sive intentiones, prosequutione indignae censentur) facile ad quatuor nobilissimorum effectuum assequutionem promovebimur, qui nunc enumerabuntur:</p>
+<space type="stacco narrativo"/>
+<p>	“Quatuor exoptati effectus artis artium et sigilli sigillorum”: Inventio, Dispositio, Iudicium, Memoria.</p>
+
+</div1>
+</body>
+</text>
+</TEI.2>

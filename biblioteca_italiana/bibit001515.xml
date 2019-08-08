@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Philodoxeos fabula</title>
+      <author>Leon Battista Alberti</author>
+    </titleStmt>
+    <extent>163 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit001515</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Philodoxeos fabula</title>
+        <author>Alberti, Leon Battista</author>
+        <editor id="ed">Cesarini Martinelli, Lucia</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1978</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Letteratura teatrale</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-06-09T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Francesca Cascino</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-06-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1 n="Dedica"><opener><salute><hi rend="sc">ILLUSTRISSIMO DOMINO LEONELLO ESTENSI LEO BAPTISTA ALBERTUS</hi></salute></opener>
+
+	<p>Consuevere plerique scripta sua ad principes et viros illustres eam ob  rem dedere, quod aut gratiam inire aut suis eo pacto rebus aliquam  adicere auctoritatem studuerint. Mihi autem quam ob rem ad te  principem  illustrissimum nostram hanc fabulam deferri iuberem,  horum nihil admonuit. Nam cum fratris tui Meliadusii, viri  humanissimi et qui mihi optime semper studuerit, plane sim  amicissimus, non eram quidem tam ineptus ut confiderem te magis  fabulis moveri meis quam fratris tui amantissimi iudicio et voluntate,  neque laudis cupiditate adducebar ut alio mallem quam ipso  Meliadusio, cui sim carissimus, apud te uti interprete, tum et eorum  institutum non approbabam, qui se aliorum suffragio quam propria  virtute honestos fore cupiant: que etsi mihi virtus non tanta sit, ut non  tua nobis si accesserit auctoritas  plurimum sit adiumenti allatura.  Tamen antiquius apud me fuit, cum multi amicissimi hanc a me  fabulam peterent, unum te preferre, quem nostro dignissimum esse  munere iudicarem. Et tibi quidem spero hanc eo futuram non  ingratam, quo in dies intelliges me magis explicandi  amoris, quo sum  mirifice ob tuas virtutes in te preditus, hanc tibi misisse fabulam quam  ornandi mei. Tu igitur hanc perleges et me tuum esse voles. Vale.</p>
+</div1>
+<div1>
+<head>Commentarium Philodoxeos fabule Leonis Baptiste Alberti</head>
+
+	<p>Hec fabula pertinet ad mores: docet enim studiosum atque  industrium hominem non minus quam divitem et fortunatum posse  gloriam  adipisci.</p>
+	<p>Idcirco titulus “Philodoxeos” fabule est: namque “philo” amo,   “doxa” vero gloria dicitur. Huius Doxe soror Phemia, quam  eandem  Latini proximo vocabulo famam nuncupant; has quidem, quod  Romam omnes historie fuisse glorie domicilium testentur, merito  ambas esse matronas Romanas fingimus. Amicus amantis Phroneus,  quem eundem sapientem ac prudentem possumus appellare: nam  quisquis glorie cupidus sit, hunc non imprudentem, sed admodum in  rebus gerendis callidum esse oportet; Athenienses ambo, quod Athene  artium bonarum  et optimorum studiorum inventrices atque alumne  fuerint. Tum Philodoxo adolescenti parentes Argos et Minerva,  quorum alterum providentiam, alteram studium et industriam  interpretamur. Tychie quidem, quam eandem nos fortunam  nominamus, inconstanti et nulli coniugium servanti, quandoquidem  illa istiusmodi maxime ingeniis delectatur adoptivum temerarium  filium Thrasone et Autadia natum dedimus: Thraso autem audax et  tumidus est, Autadia insolentia arrogantiaque dicitur. Servus Fortune  Dynastes: hunc nos tyrannidem, potentiam vocamus, nam hec  presertim quidem fortune subiecta est. Doxe vicinus Aphthonus,  Tychie libertus, divitias et copias demonstrat, que proxime ad gloriam  propagandam facultatem prestent. Sed quo libertum esse illum volui  perque fallaciam edes eius ingredi, id plane docet ab industriis quoque  divitias occupari, sed esse eas primo aggressu  difficiles, tamen postea  sese faciles prebere, verum esse infidas atque a duris possessoribus  illico didicisse aufugere. Doxam inquit palam atque publico velle cum  amante colloqui: id affirmat veram gloriam fama comite affectare  celebritatem atque odisse solitudinem. Chronos tempus est, eius filia  Alethia, que apud Latinos veritas nuncupatur;  hec in tumultu presens  omnia spectavit. Doxa supremum fastigium conscenderat, quod ita  prorsus evenit iis, qui non studio et industria adiutrice, sed temere  procacitate quadam atque audacia quippiam etiam dignum gloria  exequantur: namque hi non veram gloriam, sed fortune adminiculis  famam usurpant. Alethie adservatrix Mnimia: hec est cognitio et  memoria, que et Phronei uxor est. Nam si studium cesset, memoria res  cognitu pretiosissimas denegat: idcirco antequam Doxa amanti  adiungatur, memoria studio restituitur. Denique  datur amatori  legitima uxor, dum petulans Fortuna dari filio raptam orasset, quam  sibi rem Tempus haud quidem concessit libere,  at non denegavit  tamen. Sunt et pleraque alia que salem habeant; ea brevitatis causa  pretereo. </p>
+	<p>Itaque nostra, ut docui, fabula materiam habet non  inelegantem neque quam ab adolescenti non maiori annis viginti  editam quispiam doctus minime invidus despiciat; tum et ea  eloquentia est, quam in hunc usque diem docti Latinis litteris omnes  approbarint atque usque adeo esse antiqui alicuius scriptoris  existimarint, ut fuerit nemo qui non hanc ipsam summa cum  admiratione perlegerit, multi memorie mandarint, non pauci in ea  sepius exscribenda plurimum opere consumpserint.  Hic locus  admonet ut recitem quonam pacto meam esse  ignorarint. </p>
+	<p>Mortuo Laurentio Alberto patre meo, cum ipse apud Bononiam iuri  pontificio operam darem, in ea disciplina enitebar ita proficere ut  meis essem carior et nostre domui ornamento. Fuere inter meos qui  inhumaniter nostro iam iam surgenti et pene florescenti nomini  vehementius inviderent, quos etsi iniustos et nimium duros in dies  experirer, tamen neque odisse poteram neque non diligere, quippe qui  illis omnia mecum licere arbitrarer. Tuli igitur illorum in me  inhumanitatem  animo non iniquo et magis officii et humanitatis  quam iniuriarum memori, quoad ipse plane cepi intelligere omnes  meos ad eorum gratiam et benivolentiam mihi conciliandam esse  conatus irritos  atque inutiles. </p>
+	<p>Idcirco hanc in eo quo tum eram constitutus merore incommodorum   meorum et acerbitatis illorum, quibus ut essem carior omnes boni  desiderabant, consolandi mei gratia fabulam scripsi, quam quidem  inelimatam et penitus rudem familiaris quidam mei studiosissimus  subripuit furtimque illam horis paucissimis quam celerrime  transcripsit;  ex quo factum est ut ad meas mendas scribendi quoque  istius festinatione multa vitia adicerentur. Fecit tamen eius me invito  copiam vulgo, apud quem librariorum imperitia nimirum omnino  inconcinna reddita est: que enim inepte scripta aderant, ea quisque pro  arbitrio interpretabatur. Neque defuere aliqui, nostri magis ingenii  conscii quam amatores, qui quo meam esse suspicabantur, eo multa  obscena interseruerint. Itaque puerilis et inelaborata corruptaque  fabula, dum meam esse ignorarent, tanto fuit in pretio habita, ut nemo  satis comicis  delectari putaretur cui Philodoxeos parum esset  familiaris. Quam ego fabulam cum eo placere et passim a studiosis  expeti,  quo vetusta putaretur, intelligerem, rogantibus unde illam  con essissemus  per commentum persuasimus ex vetustissimo illam  esse codice  excerptam. Facile omnes adsentiri: nam et comicum  dicendi genus et priscum quippiam redolebat neque difficile creditu  erat adolescentem pontificiis scriptis occupatum me ab omni  eloquentie laude abhorrere. Adde quod per hec tempora non eiusmodi  vigere ingenia arbitrabantur. Tamen, ne meas lucubrationes perderem,  adieci prohemium in quo et studia et etatem et reliqua hec de me  omnia aspersa esse volui, ut, siquando libuisset, nostram liquido esse –  quod fecimus – vindicaremus. </p>
+	<p>Denique annos decem vagata est, quoad e studiis pontificiis aureo  anulo et flamine donatus excessi. Cum autem ad hec studia  philosophie rediissem, hec fabula elimatior et honestior mea  emendatione facta. Quod eam quasi postliminio recuperarim, invidia  effecit ut minus placeat, et quam omnes etsi obscenam et incomptam  cupiebant, eam nunc pauci sunt qui non vituperent. O tempora! Sed  siqui sunt, qui nostrum ingenium et eloquentiam quam pridem  magnopere laudarant modo reprehendant, ii profecto aut suum  pristinum iudicium vituperant  aut declarant quam sint natura invidi  atque inconstantes. A quibus quidem, siquid leserint, satis pene ex  eorum invidie stimulis sumpsimus; sin autem lesisse nequeunt, parvi  eos possum facere, ubi me boni ob eorum improbitatem potius ament  quam redarguant. </p>
+	<p>Nunc autem, o studiosi, qui vestram operam in colenda virtute, non  in aliorum cursu interpellando ponitis, si officii est ingeniis huiusmodi   non inertibus neque desidiosis favere, vos precor atque obtestor,  vestram imploro fidem et sanctissimam litterarum religionem.  Defendite  vestrum Leonem Baptistam Albertum studiosis omnium  deditissimum;  defendite, inquam, me ab invidorum morsibus, ut, cum  per otium licuerit, bona spe et vestra approbatione confirmatus possim  pacato animo alia huiusmodi atque non invita Minerva longe in dies  maiora edere, quibus et delectari et me amare vehementius possitis.  Este felices. </p> <trailer><hi rend="sc">FINIS</hi></trailer>
+</div1>
+<div1>
+<head><hi rend="sc">Lepidi comici philodoxios fabule prologus  incipit lege feliciter</hi></head>
+
+	<p>Non diu preivit temporis postquam ebibi et nescio an abunde nimis:  sed erit vobis indicio quod debibundo exanclarim quam longe limites,   si apud vos loquar barbare. Nunc auscultate et iudicium date.  Exoratum capi venio hanc unam singularem precibus e vobis ut  impetrem  gratiam, non ad vituperium in postremis dari, si preter  vostram de nobis expectationem in negotium me ad scribundas  fabulas miserim;  quod si hoc sensero vostra pro facilitate e vobis  posse, accipiam id pro summo, ut erit, opere pretio diffundamque  quam hic suggero fabulam usque adfluat in vulgo manus.</p>
+	<p>Hanc etenim si inter vos familiarem intellexero, animo institutionem  ponam fortassis ad procreandas reliquas. Nunc sumite id vostra ex  animi humanissimitate mihique etatique mee precibusque apud vos  meis concedite, sinite ut exorem. Non quidem cupio, non peto in  laudem trahi quod hac vigesima annorum meorum etate hanc ineptius  scripserim  fabulam; verum expecto haberi apud vos hoc persuasionis,  non vacuum me scilicet, non ex undique incure meos obivisse annos.</p>
+	<p>Datisne admodum hoc gratie? Et datis, video. Ergo a me  cupitis fabulam Hercle, et bellula est: insunt qui ament, qui decipiant,  qui construant festos. Certiores vos reddo: hec est fabula, Philodoxios  hec dicitur fabula. Quid conspectatis? Quid pendetis? Fabule nomen  est. Hem, iam nunc video: amplius me vobis notum voltis. Dixero:  sum catus demens et inscitus sapiens. Hoc habetis iam nomen:  Lepidus.  Ha, ha, he, et vos lepidi estis! Ergo hanc tenete fabulam.</p>
+</div1>
+</front>
+<body>
+<div1>
+<head>I Redazione</head>
+<div2>
+<head><hi rend="sc">Fabule argumentum</hi></head>
+
+	<p>Philodoxus adolescens Doxiam Romanam civem amat perdite estque  illi fide optuma et singulari amicitia coniunctus Phrontisis, quicum  omne consiliorum congerat. Dat operam Phrontisis amici causa  Ditonum, amate coadvicinum, benivolentia sibi ut advinciat  plurimum; functoque officio, Ditonus fidem prestat rei defuturum  nunquam. Dempta vero fide ab his, cauta astutia res omnis agitur, que  ad amorem sit. Post interim Fortunius, Potentionis suasu, hanc  Doxiam cupere cum occeperit, datis legatis acceptoque repudio  abnegat omnes hymeneos; quin vel potius vi edes subit Phimiamque,  Doxie sororem unicam, vitiat. Tandem Mnimie ductu eiusque reperto  viro Phrontisi, edicto Chronos ita perfectum est ut sedatis omnibus  hanc compressam hic teneat, hanc amatam hic alter capiat.</p>
+
+</div2>
+<div2>
+<head><hi rend="italic">I</hi></head>
+
+<stage><hi rend="sc">PHILODOXIOS FABULA INCIPIT PHRONTISIS </hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et merito superis gratias habeo, qui me hoc etatis tam  libere tamque  ut volo sinunt degere. Quanto enim hoc felicior sum,  qui me huc  demisit! Non enim ullis, ut ipse omnibus, afflictor curis, quas  forte, ut assolet, nunc animo denumerat suo: «Sic scilicet debueram...  hoc fecissem... recte institueram...». Forte id dixerit: «Isthuc ipsum  erit... at nolim. .. at malim. . . dii bone vortant!». </p>
+	<p>Merito ergo diis gratias habeo, quoniam vivo ut volo, quod quidem  lubertatis est. Et profecto graviter eius causa animo afficior: video  enim quam perdite amet, quam timeat, quam affectet, quam expectet,  que omnia male animum et trudunt et scindunt et agitant suum. Curavi   maxime hoc tantum furoris a se ut exstirparem, non quivit: malum  enim hoc iam radices dedit nimias. Sed, proh deum, quid hoc monstri  est? Recte igitur mecum disceptare soleo qui maior furor sit, an is,  quem Mars agitat, an is, quem Venus inficit. Hoc etiam nunc nescio;  id iam olim scio, hunc nostrum fore [plus] magis ex amore  furibundum. </p>
+	<p>Et quam accurate, quam premeditato, quam ex opera hoc me iupsit  negotii conficere! Hec dixit: «Nosti quod te bona fide diligo et nosti  angiportum, ubi operam omnem, diem omnem meque omnem contrito  miser. Istuc ito; ibi, si quid videris, si quem transeuntem, speculator  omnia. Nosti ibi directo ad levam, quasi edibus amate coadiunctum,  ostium semifractum abesum imbri, ubi Plutonis statua superinstituta  est. Edes ille multo mihi commodo esse poterint, dum in illius  familiaritatem, qui inhabitet, nos inserpias. Est ut hominem convenias  teque amico et vite mee amicum et quasi vitam prestes. Hinc haud  commoneo quicquam necdum impero: tute sapis et frugi es. Hominem  ut agnoscas, huc advorte: est niger, subflavus barba et capillo multo,  magno indutus pellicio, claudus et quasi cecus». Hec  dixit; tum abii, huc accessi hodie, iterum atque iterum bis  quesivi hoc totum convicinie: nusquam hominem. Fessus sum, hic  ergo operiar,  dum redeat. Sed quis est, qui huc inter eundo  interloquitur? Ipsus vere ille est. </p></sp>
+</div2>
+<div2>
+<head><hi rend="italic">II</hi></head>
+
+<stage><hi rend="sc">DITONUS, PHRONTISIS </hi></stage>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Iam, ut mihi persuasi fore, ita facto evenit. Dum enim studeo  illis obsequi fenerariis, studeo iterum servitutem consequi; qui quando  suum sibi male fraudant genium sibique victum discarpiunt pexume,  quid censes aliis facturos, dum queant, fore? Non enim illis meo opere  sat est cuncta, que sint ad rem domesticam et sumptum, suppeditarier,   quin me volint iterum in servitutem redigere. Cecus sum, fateor,   claudus, fateor: hoc fateor, at non ita quin viderim et abfugerim  opportuno. </p>
+	<p>Sed quis hic sedet homo? Fortene ex his illis quispiam, me ut  intercipiat  miserum? Quis tu et qui hic? Audin? Quo te admoves?  Hoc tibi edico, fieri iniuriam libero, qui et meminerit semper, dum  mihi fiat. Audin? Ditonus sum, olim Tychie famulus: nunc eius ob  gratiam,  et quia bene de se meritus sim, quia facio omnia eius ex  voluntate  et sententia, manu me in lubertatem demissum. Audistin?  Iam liber sum et te liberior libero: ne me tetigeris! Hoc edico ut tuo  tibi caveas dorso neve ut tue confidas temeritati. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Proh deum, quam mihi provinciam delegavit! Non  enim magis cupio quam timeam rem ex sententia posse succedere.</p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Et hercle preter boni viri officium hoc est, vos mihi fore  obnoxios,  qui studeam cunctis, et presertim vobis, me in  benivolentiam subdere. Num quidnam hoc e vobis meo beneficio  commeritus sum, ergo, ac si elaborassim saxa ut liquefacerem et  lateres ut lotos redderem?  Dii, vostram fidem!</p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Volo ego te hoc. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Me? At me ne contingas, ne me comprehendas: erit hoc mihi  pro vi, iniuria et dolo.</p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> At volo, inquam.</p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> At nolo, inquam. Hem, quid manum invehis? O populares,  opem, opem afferte, ligna, perticas, fustes! Accurrite, succurrite! Sine,  inquam, sine: ne me detentes! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quin silvam aliquam apportari aut malum iubes? Ausculta  paucis: volo ego te scire me virum et tibi affectum esse quam  maxumo. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quam ob rem? Quid in te obmisi, ut me detractes, ut male hoc  mihi studeas misero? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dico me tibi optumo affectum fore animo, non secus  quam qui te ament. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Neminem habeo in quem tuto confidam. Novi ego recte et  etate et usu hominum mores: captari amicitias, ut ex amicitia quasi ex  fundo fructus vel excipiant vel expectent, verbisque emi operas et  operas vendi precibus. Non convenit te illi amicum fore, in quem  dolos fingas. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Vah, bone vir! Ego, dum tua pro gratia liceat, volo tibi  esse et honori et commodo quam plurimo. Non enim licet timere  omnia,  que dubites, nec dubitare siqua sepius incidunt: neque enim  omnia, que persepius fiunt, semper fiunt. Spondeo ego tibi hac dextra  fidem, diis testibus et tua virtute, quam quidem volim nostre amicitie  firmum et perpetuum fore vinculum. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quis tu? Nostin me? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ditonus es, amicorum amicis amicissimus. Ergo prebe  operam, obsecro, benivole te paucis ut alloquar. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Audivi semper amicos et viros optumos, qui moribus et  ingenio polleant, simplici et aperta amicitia adeundos fore; aperto  igitur loquar eo, quia te fidum et probum semper audierim.</p>
+	<p>Adolescens hanc tuam convicinam amat. Ea, ut opinor, haud egre id  fert: neque enim invenustam neque interraro se offert ceterisque in  rebus, ut coniectura valeo, utitur amantium officio. Is, eo quia plus  nimio hanc amet et quia plus satis honori inserviat suo, vellet Lares  tuos sibi fore familiares, ut inde absque plebe et fama oculos usque  adeo depasceret suos.</p>
+	<p>Hoc solum et hanc ob rem ego illum et sua et me omnem tibi dedo et  dedico, ut tuo pro iure tibi morigeri simus. Hanc facilem ob gratiam  amplam et promptam in amicitiam ius tibi prescripseris firmum et  perpetuum, unde tibi utilitatis et presidii non minimum acquiras.  Habemus etiam, superum gratia nostroque ex labore, amicosque  benivolosque  familiaresque nonnullos, quos re prospera et advorsa  nobis optumos et uti deceat experti sumus, qui pro nobis et pro qui  nos ament neque rebus neque vite parcant sue. Non erit ut in posterum  eos illos fenerarios tibi inimicos quanti facias. </p>
+	<p>Res optume interdum fatis dantur, interdum attruduntur, interdum  demonstrantur. Que monstrantur, nimio opere, nimis accurate  petimus; que truduntur, omni quasi opere abnegamus. Erit, mihi  crede, hoc tuum benificium viro non indi no et tibi amicissimo  pergratum.  Volo omnia aperto adloqui. Is non civis est Romanus, sed  Atheniensis, summa ex familia, cui parentes Argos et Minerva.  Accessit huc, ut rerum plurimarum visu fieret doctior, neque adeo ut  se indignum hisce parentibus in res dederet. Sed nescio quo fato, cum  hanc aspexit forte in ede Statoris, admiratur, collaudat, respectat,  consequitur: illico amare occepit. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Estne is quem vidi [e] hac sub angiportu sepius inoperto  capite, candidatis palliis? An vidin tecum? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ipsus. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Et bone indolis, mehercle! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et macte virtutis! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Dii bene illi faxint, ut cupio, et tibi, ut vobis volis, quoniam  digni sitis eorum gratia et meo obsequio. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ah, bone vir, da manum: hoc edepol, et non iniuria, de te  persuadebamus semper! Ergo iube ad te ut veniat, tu ut virum  agnoscas rectius ipse tibique gratis agat, ut habet, tanto pro merito. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Volim illi maiora. Sic dicito, Ditonum et edes suas et siquid  possim pro suis ut habeat. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Recte, optume, probe! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Sed estne hora ut edamus? Mecum eris in cena. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Semper sum tecum animo et ero alias corpore, ut iupseris.  Iam bone vale. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Vale. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">III</hi></head>
+
+<stage><hi rend="sc">POTENTIO SERVUS, FORTUNIUS TEMERARIUS </hi></stage>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Sic se res habet: ut videris, non poterit secus quin meam  incidas et facile in sententiam. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Estne forma? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Forma quidem et moribus, ut nihil addi, nihil optari amplius  possit, adeo ut aut formosiorem aut simillimam Veneri diiudicem:  decorum caput, venusta facies, aspectus hilaris, modestus incessus,  habitudo, motus, omnia ut et matronam et Romanam civem convenit. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Nimis ex animo cupio hanc videre. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Faxim, ad idque operam iam nunc paro. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quid ita? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Quia has propinquas, ut vides, superbas edes ea inhabitat. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et qui potero? Unde alloquar? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Hoc scias volim: mature et attemperate omnia ut fiant opus  est. Prebe te ut videat virum nec impudicum nec immundum neque  lascivum primo, tum te ut cognoscat et gestus et mores tuos, teque  primo cum lubens, tum expectato ut videat; demum loquere, enarra:  postrema hec munera ab his, qui amant, ut diiudicantur, ita sunt  maxuma, que, etsi perminima forent, non deceat ab ignoto expetere.  Curabimus igitur primo illam ut videas. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Tu hoc volim scias, stat sententia. Nolo assiduo exarare has  porticus et obtundere oculis et suspirio foresque fenestrasque  foraminaque  et omnia omnemque conviciniam. Nolo me imperio,  nolo heritudini, nolo annutui mulierum subigere. Nolo mihi animo id  tantum miserie obfirmare, quod efficere plerosque video, aut affectum  me cuiquam plus quam sim metipsi mihi. Preter viri officium est  mulieribus  et tam certatim affici, quibus tam diu sumus in gratiam,  quam  diu vel Baccho aut voluptate et ioco ad superfluum usque  explete sint; vel dum vi munerum tandem extruduntur, ut interdum  oculos in nos dimoveant suos idque perparce, pexumum genus  animantium! </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Hoc totum, quod dixti, minus nihilo est. Habemus unde tuto  conspicias et verba datatim commutes, dum lubeat. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Hem, forte id aliquid esset! </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Habeo virum qui, olim conservus ut fuit, nunc amicus est  optumus, a quo facilius queque, etsi grandia sint, impetrem. Is (viden  isthanc statuam ostiariam?) edes illas inhabitat. Hominem conveniam  et dicam velle ex eius horto... aliquid dicam. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et ego una tecum. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Minime: volo enim te magnifaciat oretque, ut in gratiam se  accipias tuam. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Lepidum caput! Ergo... </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Ergo deambulato. Ego ingrediar iam, cum fores patent. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Optume. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Heus, heus! Et quis hic est? Et quid fores patent? At  domesticus  sum, mihi semper patent: ingredior. Salvete, Lares. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">IV</hi></head>
+
+<stage><hi rend="sc">PHILODOXUS ADOLESCENS, PHRONTISIS </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hec commeatio mihi pro triumpho est, hoc totum iter meum  pre gaudio est. Non possum memet ipsum continere: quicquid video,  iubeo salvere, ac si volim omnia hoc meo gaudio impartirier. Salvete,  etsi mihi satis iniusti forte sitis, salvete Lares optumi, quibus persepe  liceat divam et videre et audire hanc. Salvete vos, superi, tuque, alme  divum pater: gratias vobis habeo. Et, mi frater, hoc tanto  numnam exultas gaudio? Tibi etiam ingentes gratias – et utinam  condignas exoptatasque! – pro tuo hoc tanto facinore referam, dum  poterim. Dixtin, certum hoc est inde eam audire ut possim? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dixi audias, videas, verba adicias, ut loco et tempore  liceat. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Proh deum, fortuna maximi te semper fecerim, si semper! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, obsecro. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Sic oportet animo ut morem suggeram, sinam pre gaudio se  ut defundat decursitetque paululum. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, tace, inquam: videre visus sum insolentem egredi,  regredi frequentarium nescio quem ex amici edibus. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, eccum hominem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Huc accede post angulum aut columnam, ne nos videant.  Auscultabimus quid consiliorum congerant. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hei mihi, quam male nostris rebus timeo! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, et Fortunium abhinc, dii, dii! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">V</hi></head>
+
+<stage><hi rend="sc">DITONUS, POTENTIO, FORTUNIUS, PHILODOXUS, PHRONTISIS</hi></stage>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Ubi ipsus est? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Iam nunc aderit. Sic vollem amicos mutuo inter se convenire,  ut liberali animo et consulerent se sibi et operas referrent, sicut nos  ipsi inter nos facimus: non potuit rectius tibi dari consilium. Sed  eccum hominem. Salve, opportune advenis. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Salvete. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Si scires quam hic cupiat se inter tibi familiares ut  accipias tuamque in benivolentiam ut constituas, iusto illi amicus  fores optumus. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Bone vos dii ament! </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Narravi parentes, ingenium, mores, virtutes, probitates  ceteraque  ut potui omnia, non minus quam se res habeat. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Dii te ament! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Enarravit omnia, sed, si lubet, dic, queso, qui vere fuere  parentes  tibi. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Thraso et Aphthadia. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Perii, ipsus est! Hic Fortunius Tychie filius est adoptivus, cui  olim Ditonus fuit servus; inde iam ex ea domo volt mihi hoc preripi   commodi. Perii! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Te dudum aspicio: nunc tua hec vox e memoria in mentem  reducit te ut agnoscam. Bone salve, an recolis, cum solebam te in sinu  e domo patris gestare ad nostram? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Centies. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quam eras fraudicolus! Semper in barbam et capillos duriter  coniciebas manum. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Semper te dilexit. Ut lepide applaudebat! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ha, ha, he. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Huc advortite animo. Numquam ego antea ex studio hanc  conspexeram convicinam: nam me domi non nisi interraro comperio  et sat negotiorum habeo quibus me exerceam – ita dii in pexumum  omnia vortant illis fenerariis, qui tanta astutia fatigant me misere in  servitutem redigere! Verum nuper, cum domum redierim comessatum,   accessit quidam exorans hanc eandem ob rem edes sibi ut paterent   mee. Spondi operam; abiit amicum accersitum, cuius causa hoc  impetravit gratie. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Quis ille? An quisquam? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Atheniensis, cui parentes Argos et Minerva. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Vidi hominem. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Post interim accessi ad turrim et parvum per foramen vidi eam  in superiori triclinio fidibus concinentem versus de laudibus Herculis  serio et divum. Volo crimen, si crimen apud vos est, incusare meum:  totum, totum me compressi interius &lt; in &gt; nervos. Dixi. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ha, ha, he. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Edepol, forma formosior Venere! Sed ad rem redeo: vos amo  et neque velim, si rediret. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Rectis habeo, caute id loqueris. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Timemusne illos, qui nihil habeant preter vitam, quam abs  cruce precario possident? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Dii te malo divitent! Functus officio es, profecto verba  blactis ut dignus es – et dignum esset cloacam aliquam tuis dictis  responsum ut dederet! –, cui nihil proprium est, nisi lingua isthec tua  fetida, pexuma, que in deterius in dies convalescit. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, in aurem conferunt. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Non timeo illos. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Nostin? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Pulchre. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quid dixti? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Dixit illos se velle verbis oppletos et spe usque adeo delibutos  abicere a se. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Perii! Nullus amplius sperandi locus nobis relictus est.  Tritum  hoc proverbium est: integra cum fide tuta spes cohabitat;  postquam fides disrupta est, spes intereat necesse est. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et tritum hoc est, quia quod tritum nimis est haud  saporem  habet. Tace, bono fac sis animo: unumquodque iter suum  habet exitum. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hei mihi! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, habeo argutam astutiam. Ha, ha, o dii, quid paro! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quid agis? Qui ineptis? Cur te deturpas tam immunde luto?  Dii testes, insanis! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hem, nunc et capitium... </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Vah, insane, cur avolvis id cruri? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ut taceas et videas; et id precor, quod si videris licere,  domum ingredi. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quo is? </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">VI </hi></head>
+
+<stage><hi rend="sc">PHRONTISIS, POTENTIO, FORTUNIUS, DITONUS, PHILODOXUS</hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hei mihi, hei, im, m! </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Quis lacrumat? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quid clamas, ߤ chir Priape? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sic opem expectabam ut dares! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ebrius, debacchatus est: non se substinet. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> O celum, o sol, o luna, o aer, o ignis! Opem, opem, hei,  hei, im, m! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Surge, ne lacruma. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Quid habes? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Habeo animam inter dentes et labia, ah, am! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Loquere, quid hoc est?</p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Scies nunc: querebam Philodoxum; dum appropinquo – hei, doleo totus pre ictu! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quid nunc animo fabricat suo? Me hic reliquit tanto  infortunio,  nugis spectator ut sim. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Quis te percussit? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dicam. In foro legati ex Africa, bone re gesta, cum pompa  nunc cum transirent, seduxi me ut viderem spectaculum invisum,  inauditum, incognitum, immeditatum, triumphum diceres  triumphissimum:  tibicines, cithariste, curricula aurata, equi rotati,  candidi, maxumi leones, panthere, simie, aquile, sturcones, bubones,  monstra, res mire et innumerabiles, que videre longe opere pretium  est. Interea accessit putus, qui caballum effrenum, magnum insedet;  hunc concutit calcibus, nescio rem ut duxerit: hoc exinde aperto novi,  crus mihi semifractum esse. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Qui legati? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Pexumi. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Ex Africa? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et sunt panthere? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Utinam sic illis foret perpetuum cordolium! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Panthere? Proh dii, quam vollem vidisse! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Nolim isthac lege, si te amo. Verum, si presto ieris, etiam  videas. Mihi tam care cordi est ea vidisse, quam constitit ibi adfuisse. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Quo me trahis? Quo properas? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ehodum pantheras, equos, tibicines, pueros, pantheras  ehodum! </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Maiori etiam in re libere animo satis obsequar tuo. I pre,  sequar. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quod nobis iter tenendum est? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Recta te hac, recta illac, ito versus forum. Nostin? Aerem  vocibus et tumultu opplent, &lt;ut&gt; rectis audias. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Sequere pantheras! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Hercle, graviter afficior tuo hoc... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ha, ha, ho, durius pertractas nimis! Perii! Credin posse me  liberari unquam, ut rectus eam? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Bono sis animo. Est hic in tonstrina Climarcus, medicus et  bobum et quadrupedum omnium et hominum etiam suo pro officio  singularis. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tibi amicus? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Magis. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid stas, tibi dicon? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Me vocas?</p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Plane, an cui? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Cui dicis? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ingredere. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Dixtin mihi? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tibi. Cur non is ad medicum? Intro, hei miser! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quid intro? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hem, introducas eum illum cum sarcinulis et unguento. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quid introivit domum? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Te precor, hominem accersito. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quis introivit hasce edes? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid introivit? Centum boves restim cum cornibus... </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Hercle, introivit: sensi dum attigit ostium. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Bone vir, falsus es: ventus, ventus! Abi etiam, quid stas?   Hei, insensate, hui! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quocum alloqueris? Mirum, ni aliquis sit. Quis tu? Heus, si  fustem sumpsero! Heus, heus, te video! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et nullus est, tibi dico. Proh deum, et non te miseret mei!  Vides quam afficiar dolore, quam cogar te ut solicitem. Abi, precor. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Eo. At credideram... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Audi, prebe fustem. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quam ob rem? Sede, sede. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Diis gratias, non credebam posse admeare! Non  ero tam miser, quam ob dolorem persuaseram. Duc me, dum calet  vulnus: nolim solum me hic. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">VII </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS ADOLESCENS, DOXIA MATRONA, PHIMIA  SOROR </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Non sine ingenio, perfidia et animo fit magnum facinus.  Mirabar  quid ineptiarum ageret Phrontisis, cum deformarit luto et  gestu se ipsum. Dii perpetuum hoc mihi faxint commodi! Dii  secundent paria! Proh dii, quam e sententia res evenit! Introivi  domum: ausculto tempto, aggredior, contemplor, revortor. Interea  visus audire sum vocem, uti erat, Doxie; obsecro operam, dum  alloquar. Negat se eo in loco solitario, abscondito id velle et, siquid  malim, iubet suas ad fores ut veniam: ibi se adfuturam. Sed quid  dicam, miser? Nescio unde exordium inceptem, hei miser! Ac quid,  sic si dixerim: «Amo, ardeo, morior. Tu id vides, tu nosti, tu cur hoc  volis nescio. Ubi pietas, ubi misericordia, ubi clementia, ubi animus  ipse insignis huic tue pulchritudini  condignus?»? Vel dixerim: «Si  unquam mihi...». At, at eccum  eam, si rectis audio. Hei mihi, quam  totum discrucior animis pre gaudio, pre cura, pre metu! </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Adsis, mi soror, dum alloquor, adsis, precor: nolim hunc qui  in me honesto affectus sit, mea causa periclitarier. Volo illi hac parva,  exigua in re morigera esse. Ergo ad me! Sed eccum adest: profecto,  ut  video, vel magis amat quam hactenus usque persuaserim. Philodoxe,  dii te ament! Accede ad nos propius. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Et dii faxint me ut ames ita ut condignum est, qui te plus se  volit omni optumo perfrui! Dii faxint me ut ames, si id liberali officio   honestoque animo opto oppetoque! </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Dii bene servent me honori meo, ut cupio et studui  semper! Cedo, quid est, quod me volis? Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Nosti quod te iam diu amarim, sed forte non, ut se res habet,  ita apud te notum est quam sollicito et quam firmo animo tibi affectus  semper fuerim. Nam, ut recte id videre potuisti, nimis honori  inserviebam  tuo et, ni fallor, eam ob rem forte persepe hoc tantum  gratie abs te commeritus sum, verba scilicet mihi misero amanti dono  ut dederes, quibus vitam hanc, que omnis inter suspiria et lacrimas  diffusa  esset, reficeres et fugitivum cor, quod quidem cura adustum  sit, vite restitueres, que quidem omnia iam olim tuam in dicionem  concesserunt.  Hec enim si cum non licuerit, tum non libuerit facere,  non est quod percuncter; verum, ut gratias agam tanto pro hoc  beneficio tantoque tuo pro merito abs teque ut exorem, dum pro mea  honestissima  affectione in te mihi aliquid unquam debeat, ut huius te  misereat  vite et, postquam meo fato sic institutum est, tuus ut sim,  malis me vivum, cum forte emolumento quantulum vobis esse possim,  quam intereptum tua, ut ita dixerim, crudelitate: quod quidem neque  laudi neque in partem commodorum tibi esse possit. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Quod me ames et vidi et cognosco idque accipio animo  neque ingrato nequedum hoc iudico pre nunc male quicquam cordi  tuo e nobis advenire potuisse.</p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hoc fateor et inde quam plurimum laudis et meriti merito  commerite estis. Et nolim hec dixisse, si dixisse tibi egre sit. Sed, si  licet pro tua liberalitate abs te ut exorem, hoc precor, videndi te ut  sepius commodum sit et potestas. </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Nescio ego quo pacto hoc vobis innatum sit amantibus, ut  nunquam sat sit, quod nimis sit. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Neque oppeto id nimis neque etiam id satis vostro sine  commodo  volim nequedum rem factu difficilem, etsi mihi amplam et  gratissimam,  e vobis petii; neque amplius quicquam dari opto, nisi ut meam  hanc voluptatem et consuetionem neque duro neque gravi feratis   animo. Sinite deambulem, sinite ut videam: hoc mihi ad voluptatem,   hoc mihi ad vitam est. Hoc mihi fore animi volui vobis dicier. </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Dixti pulchre, sed ageres rem nobis gratam, te istinc si  abduceres. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quam ob rem? </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Quia honori nostro conduceret. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Siquidem iupseris, egero: nam et tu recte id nosti, quia  honori satis semper dedi vostro idque ex animo et studio. </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Ergo abi: nam video quempiam inde ad nos. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Vale. Et tu mi vale meque memorie commendatum habe.</p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> VIII </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Equidem non inexperte hoc ipsum dici solet, cum primum  qui se ament ad loquendum coeunt, quia commutuent animas,  dediscant loqui: equidem re id nunc expertus sum. Nam cum primum  quicquam verborum volui exprimere, tum, prius siquid aderat anime,  prosiluit inter eius sinum, adeo ut et mei et verborum pene oblitus  fuerim, miser. Debueram verba optuma, verba precantia, verba  commendatoria,  non que rixam et odium, sed que benivolentiam et  amorem excitarent  nutrirentque. Sic debueram: «Ut solet aliis amor  voluptas esse, mihi, non quod amo – nam nimis ardeo –, sed quod te  amo et voluptas et felicitas est. Nam venusta es et bella es et lepida,  lepidula  et moribus et virtute insignita et ceteris in rebus singularis. Sed  quia me in tanta egritudine ob amorem constitutum video, ut mee  interdum  misere misereat vite, volui hoc e vobis gratie exorasse. Nam  et nox et dies suum pervorse in me officium peragunt; semper quidem  meos inter oculos, semper animo, semper insita in me es. Multa mea  causa volim, multo plura nolim, tue ne male afficiam honestati. Non  meus, tuus sum, tam totus quam grandis sum, et tuus volo esse meque  ut recipias precor. </p>
+	<p>Velimque, et me invito hoc velim, tibi fore pro statua lucernaria,  dum in sero stas natura naturaliter bellula absque lege et fictione, in  palliis et crinibus, tandem ut tibi essem aut commodo aut voluptati  mihique, dum te vel viderem vel audirem, essem vite mee vinculum.  O dii, aut essem cithara! quia, dum me pertractares, prorumperem in  voces amenas, canoras, suaves, quod harmoniam saltem adrideres,  interdum saltem contingeres. Proh deum, quam essem felix!».</p>
+	<p>Sed quin desino amplius ineptus esse? Quid, si isti me audissent? Et  prope sunt et profecto forte audierint et viderint omnia. Nimis  incautus sum. Vero, quid nunc rerum agendum est? Abnegandum  otium est: volo meum, omnibus postpositis rebus, fabricatorem  fraudum  convenire et enarrabo omnia, ut re, consilio et opere omni  omnia conficiat. Sed quid hi mussant? Volo hinc furtim auscultare. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> IX </hi></head>
+
+<stage><hi rend="sc">DITONUS, POTENTIO SERVUS </hi></stage>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Ego sic censeo, pro hac provincia te dignum fore legatum:  nam eius mores longam ob consuetudinem tibi ex plano patent, ut,  siquid incusaverint recusarintve, confutes omnia. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Ego secus censeo hanc tibi provinciam iure delegatam fore,  cum et facundia amplius valeas et, quia convicinus sis, tutius id  possis. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Censen? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Censeo. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Stat sententia? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Stat et veritas et optumum. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Bone dii faveant! Et quid exordiar? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Proh fabulas et muliebria: aut de ansere aut de gallo quere,  aut pro cucurbitis semen exquire, vel siquid tale. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Scin quid meditabar? priusquam verba proferrem quicquam  obsonarier. Nam digniora et multo pinguiora se efferant et, si nescias,  plus centies hanc hodiernam interrupi cenam: non possum mei  compos esse, cum ieiunus sum. </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> In amicorum causa multa solent, qui amant, perpeti et  permittere,  que sua in re non fierent. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Vacua loqueris: egomet ipse mihi notus sum. Hoc scito –  graviter  alloquar: quid peius quam ieiune et incomposito scilicet  ventre loqui? </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Bone, pulchre, probe! Sed quod nunc temporis quasi superest  optumi, convenit non vacuum nostro condigno opere  prelaxarier. Ego post te adero ut, siquid delires, quasi qui ad clavum  sedeam corrigam. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Sequere. At paululum vini... </p></sp>
+	<sp><speaker><hi rend="sc">POT.</hi></speaker><p> Ut lubet. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> I, sequor. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">X</hi></head>
+
+<stage><hi rend="sc">PHILODOXUS, PHRONTISIS </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Servitus nulla libera est et nulla libertas misera: hoc proinde  est quod dicunt fidem divam fore et liberam, quia in servo nec vera  venit ulla fides. Sed nonne sum vere bardus, vere plumbeus, qui hoc  viderim cogitatim et prescierim diu hosce res omnes meas quasi ad  ruinam seducere in proclivi neque quicquam opposuisse subtenaculi?</p>
+	<p>Oportuit sic dicier, cum alloquerer, hos fore fallaces, pexumos,  infames servos; persuadere nequid audiant, nequid credant neve quid  responsi dedant. Hec oportuit dicier: nam norant recte nimis ut  amarem,  pre me id ferebam, hei miser! Nunquam potuit hoc in  mentem incidere, ut opportune et attemperate eas certiores redderem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Eho, bone vir, de legatis quam bone se res habent? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, intermedie. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quin vel optume? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quia supervenerunt et legati et debacchati, male ut agerent  rem meam. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Qui? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Venerunt Ditonus et Potentio, interruperunt omnia,  struxerunt  in me et divam fidem multa pexuma et contraria mala.  Dum accederent, subduxi meme; ii sic discrepant inter se: «Quin tu  esto, quia facundus... quin tu, quia convicinus... muliebria oportet pro  exordio...» et reliqua. Ego sic facio coniecturam heluonem illum  Fortunium  Thrasim rivalem meum, quem si vivo, quem... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Recte ausculta paucis: condicam rem ut res est. Eram  apud Climarcum medicum, tum interim reducem se offert Fortunius,  minatur quod ludos se fecerim, advocat Ditonum, tractant consilia,  statuunt: «Sic verbis meis dicito, ut dixi, et hoc dicito... audi... rectin  habetis?». Nihil amplius ex eorum dictis potui excerpere. Illico  suspectare  incipio oculis non minus et animo. Abeunt, venio. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Ergo quid hic censes? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Censeo... sic censeo, quia censent nos censere quod male  censeant. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XI </hi></head>
+
+<stage><hi rend="sc">FORTUNIUS, PHRONTISIS, PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Profecto in hominum vita nihil adprime ߤ magis a diis  optumum  video, quam ut nobis sic succedant bona tum ut, siquid  velis, a te ipso exquiras. Bone me omnes dii amant, cum mea me  mater amat. Sum deus, cum nihil desit: habeo omnia cum diis  communia,  preter vitam; habeo voluptatem et voluntatem, ut lubet; sum et  etate ad vires apta et venusta bellitudine inter primos non postremus;  suppeditant  pecunia, benivolentia, honores et omnia, omnia; suntve  quam plurimi qui me efferant laudibus, quibus et bone possim facere  quive semper studeant quam multa meam in utilitatem et voluptatem  accumulare.  Siquidem perpetua vita sit, Apollo sim. </p>
+	<p>Non scieram, non videram, non querebam hac in convicinia  quicquam,  nunc id totum, quod insigne est, ultro offerunt. Rogant ut  et benificium hoc suum, quod quidem haud minimum quam multis  foret, dono roga t ut accipiam. Volo illis morem gerere: adibo et  quam pulchre eam recipiam Doxiam. Cum primum ingrediar domum,  iupsero:  «Afferte subsellium»; cum accesserit tandem, at paululum,  assurgam:  «Si vales et me amas bone est», dixero, «tractabo,  amplectar, morsibus cunctam insignibo, omnem ligurriam totam. Sic  volim omnes efficere amantes, hec fore munera que in amoris pignus  dederent,  que [se] illos in memoriam persepius reducerent. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> O ineptissime, quam insanis capite, quam blactis! Scin  quid volim? hunc fore illi cloacam, ut interdum illius nates labiis  adtractaret  et interdum deglutiret quicquam. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Ha, ha, he, iam! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quis hic arridet? Hercle, sum vobis an ludus? Bone vortam  in luctum, si cepero. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Favere et bona verba queso. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et quid hic stas? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quesieram hunc: hic non ambulat. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quis? Et tu hic es, furcifer? Facite ne vos in  posterum hic amplius videam. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> ߤ Romi edicta hec sunt: at faciam, si obcluseris oculos;  hoc pugno at effodiam: efficiam planule, nihil doleas. Sine hoc solo  digito, quia peracutus unguis est et quam accommodate hoc venit,  sine. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et hoc ad ludos etiam adminiculum datis; quod si me  irritaveris,  furcifer... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Irritaro caprum ebrium, dementem: hoc fecero. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p>... quod si me irritaris, faciam ut tuum illud hoc crus  putridum  et contusum in gremium recipias, ut accursites et advoles ad  Tibrim, magis etiam secus si iuraveris, lotum et nectum una, qui  fecem sudas, cunis barbare. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et quidem hoc iuro: me nunquam facies ut curram, ni te  sequar, et ob pretium dabis ingentes penas ad fessitudinem usque; et  videbor non claudus, cum voluero, et non sine maxumo tuo malo. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Proh Iupiter, cur non me in solitam iram proveho? Et  quidem non eris potis, Iupiter, quin hodie hunc mactem. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> O, ah, morare! Illuc venero ad solem, ne hic in umbra  incaute mihi oculum effodias misero: valde sum amicus hisce oculis,  quibus te videro flagrionem in pistrinum deditum. Morare! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Sum liber et nimis liberalis, non convenit verba ut accipias  mea. Habeo grandius aliquid agere. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Recte scio: habes pyram struere centicubitem. Vin  auxilium?  Vale, vale. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quis hic est? Ditone, Potentio, ubi sunt hi confedusti  bibones? Sed nullus furcifer est, heus, oh! </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XII </hi></head>
+
+<stage><hi rend="sc">MNIMIA, PHRONTISIS, PHILODOXUS, ALITHIA VIRGO </hi></stage>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Pol quidem, haud sum eo dimidie media, quo reliqui est ut  liceat loqui: obivit longe fugam animus pre timore. Dii immortales,  qui omnia vident, id frustrum anime, quod abest, ad me restituant, si  viderint. Mehercle, vel magis huius virginis quam meam ob causam id  dico, ne perdita me solam se advehat domum. Dii immortales, quod  nunquam audivi, hoc vidi nunquam: magis alioquin, mehercle, mire  hec factio miranda est. Dii, hoc crediderim, quempiam amare quod  minime viderit, aut ea in re affectum esse, quam potissimum nesciat? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid turbida es? Quid est? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Est scelus scelestissimum adhuc et ante oculos; et vos estis,  qui vos indignos humanitate tanto in facinore habuistis. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> At qui? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ut audistis tantos tumultus domesticos, ut noluistis opem  afferre, ut stetistis spectatores. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, tumultus? Qui id? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Venit Fortunius... voluit... rupit... introivit... noluit... fecit...  abiit. Nescio ego quid dicam, non sum mei recte compos neque valeo  loqui. Dic tu, mi virgo, narra ut gesta hec sunt, que rectis videris  omnia pexuma. </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Eramus in horto. Venit Ditonus propius, salvere nos  omnes iubet, reddimus vices. Premittit se habere rem facetam auditu  dignam, quam exponeret iocandi causa, dum volimus audire.  Pollicemur operas, tandem hec narrat: «Fui nunc una cum isthoc in  foro penes Fortunium.  Ibi forte aderat Gnato; cum primum nos  respectat, conicit se in pedes, adcurrit ad nos: “Maxumo vos honore  dignos, plus maxumo salvere iubeo. Quid statis tristes? Soleo semper,  cum vos video animo fronteve liberali et ampla, memet ipsum letitia  in immensum afficere. Ni curiosi alibi sitis, dixero vobis rem miram,  in quam nunc animum dederam. Mehercle, advortite huc animum.  Incredibile hoc vobis videri  sciam, ut quemque vostrum pluris  faciam, pluris diligam quam ego me ipsum. Sic res est, etenim non  mirum: causa in promptu est perplana ad unguem usque. Scitis quia  vobis semper sum lepidus et morigerus, ideo me in amorem delegistis  semper: ergo non possum non facere quin vos amen. Ego vero me  haud amo, non sum meus, nihil habeo mei quod meum sit, nihil: nam  scapulas, nates pariter et genas omnes et me omnem questui habeo ad  cenam et locavi eas pretio vapulando. Hec sit causa, nunc re ad id  periculum faciam”. Nos ambo eramus in sole, stabat una Gnato  nobiscum; erant hominum umbre prostitute ad terram, ut solet. Tum  Gnato: “Ditone, hec tua est umbra, advorte, tua est. Hanc medius  fidius apprehendam quovis in loco: ut amica est, nusquam abfugiet. Et  viden quia habeo manus iam in capillos? Quid dixeris, eam si fecero  nusquam se ut dimoveat et ponam etiam in caput pedes? Hoc vidistis,  nunc et meam conspicito:  quia me hodio habet, discedet neque me  sibi adiungi volt. Numquam  possim eam intercipere, etiam toto  oppido si recursitem: non, hercle, at mirum est”.</p>
+	<p>Fortunius noster, vir quidem optumus ut facetus, tanta inter  hominum  frequentia, quibus ad spectaculum hoc stipatus erat, cum  homine  stipulatur cenam pinguem et lautam si ut se teneat fecerit.  Stat pignus, stant testes, arbitri et concenaturi. Iubet ergo aures ut  capiat suas: “Nunc ito quo lubet, semper eam contineas”. Is aspicit  et ingenti pre letitia totum discursitat forum. Omnes adrident, omnes  ingenium collaudant viri, admirantur, ferunt sententiam deberi  Gnatonem in cenam. Fortunius, vir quidem ut facetus neque minus  liberalior, ultro remittit omnem cenam iubetque accersiri una et  colligatos et spectatores  cunctos et Gnatonem ipsum ad cenam in  crastinum, qua in cena ero aut censor triclinii, aut preses popine, aut  in hirneis imperator».</p>
+	<p>Tum nos percunctari quis iste Fortunius. Is narrat altos parentes,  profundas divitias, ingentes clientelas, multa immensa et magna  grandia,  bellitudinem hominis, probitatem, mores, ingenium, usque  nihil desit, nisi consimilis coniunx. Et quia nos omnes sic vicinas, sic  et benivolas amet – quod quidem esset in partem necessitudinis –, sua  pro virili id cupere, eum hunc nubere in Doxiam, idque volle et  daturum operam simul ut colloquantur et facturum: nam sciret optume   conventuras, quippe cum inter se mutuo ament, et voluntates et  sententias. Negat tamen se quicquam Fortunii ex verbis dicere, quin  immo illum huius rei fore inscium, sed, quia quasi id res exigat,  dixisse.</p>
+	<p>Et nos sic: «Sumus matrone, sumus Rome, sumus Romane, quarum  sit sancte divum hymeneum sequi». At is: «Hercle, volo fiat, fiet».  Nos: «Vale, consulto opus est», et abimus in domum. Paulo post  interim ingrediuntur omnes, strepunt, confringunt fores, conscendunt.  Nos disgregamur omnes; ego, quia parva, stabam intacta, omnia  videbam.  Queritant Doxiam – ea ascenderat fastigium domus; postremo  invenerunt Phimiam, unicam eius sororem, eam asportarunt secum.  Dixi. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Vos cetere valetis? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Valemus, ni hec de Phimia egre sient. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Proh dii, que hominum petulantia, qui furor, que lascivies,  que iniuria! Vollem aliqua in re huic fore pro meritis, ut meretur. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Dii, vostram fidem! Hec acta sunt, ut videtis. Nos eamus, ut  hac de re certiorem reddamus patrem, suis in edibus hoc fore. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Bone. Phrontisis, comitare has. Ego accedam ad forum ut  hominem, si viderim, domum adducam. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XIII </hi></head>
+
+<stage><hi rend="sc">MNIMIA ANCILLA, PHRONTISIS </hi></stage>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Hei mihi! Sic datur fatis, sic recipi par est. Dii sic mandant,  sic nos et volle opus est. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid stas? Cur non imus domum? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Hei! Verso quam multa meam inter memoriam, que partim  nolim, partim malim et optem. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Est hominum condicio hec, volle et nolle. Hoc volle et  hoc nolle suapte in tempore, prope sapientum est; nolle que volle  oporteat,  aut volle que possis minime, eorum est, qui sibi solis et  credant et cupiant. Olent scelesti semper suo scelere seque palam  scelus trahit, parem ut parturiat penam. Non inulto hoc ierit. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Non diffido sic futurum, ut autumas. Sed amplius meam  incuso dementiam una et viri mei, a quo iam fere annis tribus habui  discidium Athenis, quia denegavi illi anulos aureos signatos,  partos suo labore, quos apud me posuerat servandi causa. Feci ut  solent fere omnes, ut sumus, inepte mulieres, presertim si valeant  forma: volui precibus et blanditie id exposceret; postridie abiit. Nunc  nomen hoc tuum eum illum mihi in memoriam reponit, quicum, ni  hec fecissem, degerem vitam non vulgarem opulentamve neque  aberrarem, ut in dies facio. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid elegisti vite tibi ad exercitium hac in urbe? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ego semper totis viribus, ut quivi, honestam consectavi et  vitam et gentem. Audieram huc Romam meum accessisse virum. Veni  ut comperirem, et nusquam illum. Cessi domum huius patris Alithie:  huic Chronos nomen est, censor et preses excubiarum. Hanc habet  filiam, quam ample diligat; eam commendavit mee fidei et regendam   et observandam: accepi amoque illam ut filiam. He quidem matrone  huius et indole et ingenio familiarissime delectantur contraxeruntque   mea opera inter se quasi necessariam amicitiam. Sunt persepius,  stant  una, conferunt, condicunt inter se consilia; postremo omni de re  certiorem me reddunt: nimis concredunt, nimis obsequuntur mihi. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dic sodes, quid tibi nominis? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mnimia. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Voluisti potius anulos perdere, quam viro reddere? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Neque negabam redditum nequedum perdidi, sed ita ut fit  mulierum more subinsanibam. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Demum amisisti anulos et virum? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Si mihi sic foret vir, ut sunt anuli, pluris tenerem anulos quam  instituerim. Satis illum expectavi, satis sum functa meo officio; forte  huic virgini dono dedero, cum satis longe iero in moram. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et habes anulos? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Habeo, teneo servoque illos. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tu, si virum videris tuum, noris? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Quam ob rem tu id dicis? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ut comperiam illum tibi, quia te satis amo, ut digna es. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ah, mi vir, nunc te, nunc primum cognovi, cum in aciem  intendi visum! Et quam es non similis solito, quam deformis, quam  cognitu difficilis! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sic fit quando commutent mores. Neque minus tu omni in  re et durior et difficilior mihi videri solita es, quam nunc videare  facilis. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Bone gaudeo, ut optume est, nos nobis compertos esse. Da te  mihi ut amplectar. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Renube. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Cupio. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Bone est. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Bone iam fiet sacrificium diis tanto pro dedito. Mi vir,  valuistin? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Satis. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Et quid tibi cum illo hoc adolescentulo? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Optuma et aperta benivolentia, ampla et continua  familiaritas,  firma et simplex amicitia. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Et quid hic stabatis? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dicam. Is amat Doxiam hanc tuam assiduo, quam, ut  desiderat, ita ego malim illi fore coniugem et laudo coniugium, equam  quorumcumque ut contineam sortem; precorque eius voluntate, meis  verbis, cum vales coniunctione cum his, tum nitare animo et  omni opera tua sollicitudine hoc coniugii ut fiat. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi vir, salve, gero tibi morem, ut iubes. Ibimus ambo, hec  virgo et ego, curabimus rectius omnia et, ut opinor, possum bonam  tibi expectationem polliceri. Conabimur persuasione et precibus rem  ducere ut velitis. Mi vir, vale. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XIV </hi></head>
+
+<stage><hi rend="sc">PHRONTISIS, CHRONOS, PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Proh dii immortales, quantum habet virium dissuetudo,  quam est efficax ad scindundas omnes etsi firmas amicitias! Equidem  sic existimo, fieri si possit quempiam secum aliquot temporum ut  neque colloquium neque ulla in re consuefactionem habeat, effici ut  sese aut breve aut nihil diligat. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Audivi, auscultavi, habeo omnia. Mee nunc erunt partes  facere, quod iure agendum visero. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Preterea timeo filie tue fortassis non bene, quippe cum ea  domi necdum sit, quam inter eundum cum Phrontisi liquerim. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quos me audio? Hem, eccum nostros. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Agedum, quid vis fieri? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Nihil, nisi citus ut advenias, dum id queat. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Forte credideris, quia gravascellus sim depontave,  minime  quod valeam cur u. Adcurrerem, et precurro cum lubet. Nunc  sic eo: nimis expectato hoc ab me affectas opere. Viden? Iam  attigimus edes et prope iam erimus. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Volo advolare ad illos, ut hominem onustum faciam meo  partim et suo gaudio. Nam scio coniugem ut valeat dicendo et apud  hunc senem gratia et facilitate. Hoc scio, quia conficiet rem ex  sententia.  Advolo. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Nimirum deterius hoc integrascit. Dic, dic, narra: quid portas  nuntii? Quid? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Omnia que nosti mala et grandia quedam bona, que scies  et admirabere et conletabimur. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Conieceram me in pedes, cum primum videram te  accurrentem,  quia timide timebam pexuma. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ubi offendisti tam extemplo patrem hunc virginis? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Advectabat se domum. Mehercle, nunquam vidi hominem  tardiorem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Confectus etate iam est et annorum plenus. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quin immo iuniorem se velociter et cursu validum, et tam se  dimovet, quam si habeat calculos omnes ad unum usque dinumerare. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Veniet, veniet. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Et quid hoc est boni? Narra, me ut impartias tua letitia. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Scin tecum quam sepius explorarim tum fortunas, tum  ineptias meas, qui ab uxore fecerim divortium, et quam dictitabam:  «Si adesset!»? Nostin? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Bone. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Eam comperi. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, ubi ea est? Valet? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Valet estque premonstratrix eius virginis Alithie, est  assidua  illis in edibus familiarissima. Tractavi rem ut debui; ea  introivit ut fierent que iussi omnia. Bono sis animo, letare. Nunc volo  hunc conveniamus senem, postquam adsit. Salve. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quis tu? Hem, salve. Adfuistin his rebus cum forent? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Novi omnia. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Vera hec sunt, ut audio? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quidem. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Et de filia satin res valent? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Non male. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Et quis his actis causam dederit? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Nescio preter hoc aliud quicquam, sed opinor, et forte non  vano, hunc Ditonum fuisse hac in causa primarium magistrum. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Iubeo: tu illum ad nos citato et meis dictis, abi; tu iube  dispesci eas omnes mulieres huc in publicum, quia volim librare  omnia et scire rem ut fuerit. Ito presto hec ut fiant, volo: non possum  diutius assistere. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XV </hi></head>
+
+<stage><hi rend="sc">TYCHIA, CHRONOS, PHRONTISIS </hi></stage>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Me miseram, eccum senem ante edes! Iam non ero potis   quicquam ut institueram. Vortundum consilium est; ob id hominem  adibo, cum percuncter quid in nos animi paret, tum ut sedem,  siquid irarum insurgat advorsum: neque enim habeo causam omnino  iniquam neque inusitata sunt hec neque sunt indigna adolescentulo.  Non enim ea sunt graviter habenda, que etas omnis suo quasi iure  exigat et exposcit:  omni in etate multa, ut sua, preterm ttenda, multa  tolleranda  sunt. Sed hac in re, siquid est quod doleam, id solum est,  quod me inconsulta hoc fecerit, quod hercle non me invita fecisset  facinus. Volo enim animi viribus et audacia ut vehementer valeant,  quos delecto quosve admitto: hoc volo. Sed volo hominem convenire.  Salvus sis, Chronos, quid operis hic est tibi? </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quasi id nescias, aut preter voluntatem tuam hoc inciderit  mali sceleris! Sic oportuit in civem liberam? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Scilicet paucis. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Scio que gesta hic sunt, hoc fateor, que quidem si me  conscia fuissent, etiam id dicerem. Nam ulla ex parte se dederent, ut  vererer quicquam; si enim libera est, libere et liberum sibi delegit  virum, quem vult, quem teneat: sub equo et bono est. Dixi. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Pexuma es, femina es! Ergo tam liberas oportuit fieri  nuptias, scelestissima, confringere, turbare, asportare viribus et vi sic  nuptam! Volo hominem accersi iubeas illico. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Fecero, si iupseris. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Iubeo. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Ehodum, bone vir, nostin filium? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sepius. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Noveris edes meas? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tutius si monstraveris. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Recte adhibe animum: hac recta ad publicanos, tum vorte  ad levam usque ad pistrinum, demum conscende ad plateam;  ibi ad dextram videas umbonem ante edes illas appensum, ubi de  more hec inscripta sunt aureis litteris: <hi rend="sc">NISI IAM FORTE.</hi> Ille mee  sunt edes: advocato gnatum. Intellextin? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Non auscultavi neque unquam comperirem. Iube ex his  tuis unum. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Dii te perdant! </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XVI </hi></head>
+
+<stage><hi rend="sc">MNIMIA, CHRONOS, ALITHIA, TYCHIA, DOXIA </hi></stage>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Salve, mi salve Chronos. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Ubi est gnata? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Intus, iam nunc aderit. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Satin sane res sunt? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Satis. Adite huc ad nos, Chronos hic est. </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Salve, mi pater. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Acta hec sunt, ut dicunt, abrupte fores, vi pressum  et deportatum? </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Acta, mi pater. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Proh Iupiter, numquid nam edixi illum accersi iuberes  scelestissimum? Fecero hodie meritas penas fenore ut luat. Iube illum,  iube extemplo. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Quem vis accersi? </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Illum eum scelestissimum hominem. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Mea tu, hoc precor, hominem exoremus hoc gratie.  Chronos, ni viderem hec, que paras, omnia huc tendere ut his, quibus  illata videtur  iniuria, par fiat, non esset quin dubitarem tuam in  gnatum sententiam.  Verum cum et ipse cognoscas et a iuvene et ab  eo, qui grandiori  amore affectus sit, et in quem perfacile patiatur hec  acta fieri, censeo non abs tua iustitia alienum si partim pietati in nos,  partim et humanitati tue concedas. Sine te ut exorem; f ce in te  coniecturam,  finge in filiam sinistri quicquam: comprehendes quam  pervorse in te omnia redundent mala. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi Chronos, ah, redde te dignum solita et mansueta  humanitate  tua, sine te ut exoret. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quid est quod volitis fieri? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Volim mihi matri hoc ut fiat gratie, quam si feceris, feceris  rem equam pariter et his omnibus gratam. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi Chronos, sponde, obsecro. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Volo illam filio fore coniugem. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Dum ea id volit et eius que hic est soror. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Ea expectato hoc volt et eius soror annuit, hoc video.   Et  volt, hercle, volt, volt quidem rem bonam, mi bella, mi lepida!  Hoc vis, scio, dic velle! Volt, Mnimia. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Et fiat.</p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Vin fieri? </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Dum in rem nostram conducat, vel id volis. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Ergo nubat. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Dii te ament, dii perpetuum te servent! Ibo domum, ut  filium in nuptias traham. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Bone, quid ergo hic restat? Volo remeare ad forum. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> XVII </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS, PHRONTISIS, MNIMIA, CHRONOS, DOXIA </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Phrontisis, si ob meam in te singularem observantiam  commeritus  unquam sum abs te ut possim quicquam, nunc precor id  omne, non quod debes, sed quod possis, in amicissimi causa ut semper  soles exhibeas. Ego me ipsum, meme omnem tue dedico, tue relinquo  fidei. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Vah, quasi! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Non immo, quia nimis cupio, nimis ardeo. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi vir, bono sis animo. Duxi omnia et tracto ut vis et debeo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quid conloquimini tam seducte? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Hunc meum novo repertum virum alloquor. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Is ille tuus est? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Meus ipsus. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Gaudeo. Et quid est quod tractas? Siquid valeo, dicito. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Optume, dicam. Hic adolescens Atheniensis est; novi  parentes eius viros probos et primarios nostra in civitate. Is vollet mea  et tua  opera hanc Doxiam novam sibi nuptam fieri. Ea, si valeo  coniectura, non omnino id recusat. Credo, si eam advoces, nostra  persuasione perfici ut huius expectationi et desiderio satisfiat. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Ergo quin advocas? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi Doxia, huc ad nos, anime mi. Scin quid inter nos  confabellarimus?  Laudavimus de sorore coniugium et admirabamur  prudentiam  et humanissimam facilitatem tuam pro eo, quod apud te  his in rebus, que optume sint, non precibus nequedum ampla  persuasione opus sit, qui, ut omni ex parte tibi simus honori et  commodi, perpetuam  et curam et diligentiam capimus. Narravi  preterea quo in te animo Philodoxus affectus sit, quid exposcat, quid  volit nostro opere et precibus fieri. Consulebam senem quid censeret:  is approbat, collaudat  eamque ob rem huc te accersivit ut cert ores  nos redderes, quid tibi animi sit in nuptias. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Scio vos ea virtute preditos, ut possim tuto vobis et credula et  morigera esse. Ego et coniugium et reliqua omnia vostra ex voluntate   et sententia accipiam et recusabo. Vos id videte, quo me in loco  constituatis. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hei mihi, quam timeo hunc senem ne deficiat persuadendo!  Phrontisis, viden quo in periculo res nostre sint? Subice adminiculi  quicquam ut convincamus, age. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Hoc volim scias, me non ex toto approbare virginem et  bellam diu domi sedere. Quod etsi plerumque fiat, tum quod non adsit  cui digne connubat, tum quod in grandiorem familiam malint rem  suam, non tamen perinde laudarem id abs te fieri, vel quia sola restes –  quod quidem suspicione non vacuum est–, vel quia cetera omnia, que  in connubiis deliberandi causam solent afferre, longe cessent:  nam neque dos neque affines neque mores ulla ex parte se  prebent, unde merito recuses nuptias. Dixi. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Et pulchre, dii te ament! Ah mi, obsecro! </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mehercle, dixti ut res est: necesse est has fieri nuptias, volo  fiant. Da manum: hic tibi sit vir, hec tibi sit uxor. Voltis? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Volo. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Et tu id vis? Quin dic malle! Volt, hem. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Volo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Bone est. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Dii immortales, quis unquam meditato hoc dixerit? Sum  admodo beatus. Plaudite hoc meo bono, plaudite! </p></sp>
+</div2>
+</div1>
+<div1>
+
+<head><hi rend="sc">II Redazione </hi></head>
+
+<div2>
+<head><hi rend="italic">Argumentum </hi></head>
+
+	<p>Philodoxus Atheniensis adolescens Doxiam Romanam civem amat  perdite atqui habet fide optima et singulari amicitia coniunctum  Phroneum,  quicum sua consilia conferat. Dat operam Phroneus amici  causa ut Ditonum libertum, convicinum amate, benivolentia sibi  advinciat. Homo fidem prestat rebus defuturum se nunquam. At  interim Fortunius  civis, insolens adolescens, Dynastis suasu hanc  ipsam Doxiam cupere occipiens, lepidissima Phronei astutia depulsus  est, quoad amans nonnihil verbis sese commendatum fecit mulieribus.  Denique irrisus Fortunius adolescens per vim edes ingreditur,  Phimiam sororem Doxie rapit. Tandem Mnimia ancilla, cum virum  suum Phroneum comperisset,  atque Tychia, Fortunii mater, precibus  exorarunt ut Chronos, excubiarum magister, omnia componeret: ex  quo hic raptam tenuit, is vero amatam duxit.</p>
+</div2>
+<div2>
+<head><hi rend="italic"> I </hi></head>
+
+<stage><hi rend="sc">INCIPIT FABULA PHILODOXEOS LEGE FELICITER LEONIS  BAPTISTE ALBERTI PHRONEUS</hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et merito superis gratias habeo, quod me hoc etatis libere  atque ut volo sinunt degere. Quanto enim sum hoc felicior, qui me huc  dimisit!  Nullis ego, ut ipse omnibus, afflictor curis, quas forte, ut  assolet, animo nunc denumerat suo: «Enim sic debueram... hoc  fecissem... recte institueram...». Ergo id forte dixerit: «Sane isthuc  ipsum erit... at nolim... at malim... quin veto... dii bene vertant!». </p>
+	<p>Merito ergo diis gratias, quoniam vivo ut volo, quod quidem primum   libertatis est munus. Atqui profecto graviter eius causa animo afficior:  video namque ut perdite amet, ut timeat, ut expectet. Enim et quis hic  est cruciatus, qui quidem animum et trudat et scindat et agitet  hominis? Curavi, mehercle, hoc tantum furoris ab egroto animo  exstirpare, at nihil minus: malum quidem hoc iam radices dedit  nimias. Sed, proh deum, quid hoc monstri est, hominem, quod alium  amet, sibi ipsi admodum esse inimicum? Ne vero maiora procul dubio  tormenta sunt que amans ipse sibi afferat, quam que ab inimicis   deveniant! Amantis animus nunquam tristi et cura et sollicitudine   vacuus est. Recte igitur mecum disceptare soleo qui maior furor sit, an  is, quo Mars agitat, an is, quo Venus inficit. Vehemens in utramque  partem mihi et anceps ratio est; sed illud constat, hunc nostrum  in  dies magis fieri ex amore furibundum.</p>
+	<p>Et quam accurate, quam premeditato hoc me iupsit negotii conficere!   Hec dixit: «Nosti quod te diligo et nosti angiportum, ubi operam  omnem, diem omnem meque omnem contrito consumoque miserum.  Istuc ito ac, siquid videris sive quem transeuntem, speculator.  Ibi  directo ad levam, quasi edibus amate coadiunctum, ostium est  semifractum abesum imbri, ubi statua Plutonis constituta est. Edes ille  multo mihi commodo esse poterunt, dum in illius familiaritatem,  qui  inhabitat, nos inserpias. Est ut hominem convenias teque amico et vite  mee amicum ac veluti vitam prestes. Hinc haud commoneo  quicquam  necdum impero: tute sapis et frugi es. Hominem ut agnoscas, huc  adverte: est fuscus, barba et capillo prolixus, claudicans,  cesius».  Itaque ille hec dixit; tum ipse abii, huc accessi, iterum  atque iterum bis quesivi pervolitans omnes vinarias tabernas,  at nusquam hominem. Hic ergo fessus operiar, dum fortassis redeat.  Sed quis est, qui huc inter eundum interloquitur? Ipsus, enim vero  ipsus est.</p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">II </hi></head>
+
+<stage><hi rend="sc">DITONUS, PHRONEUS</hi></stage>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Iam, ut mihi persuasi fore, ita evenit. Nam quo studeo illis  obsequi fenerariis, eo iterum studeo servitutem consequi. Durum sane  genus hominum, qui quidem, ubi suum male sibi fraudent genium  sibique victum discarpiunt pexime, quid censes aliis facturos, dum  queant, fore? Neque enim illis sat est nostro opere cuncta, que sint ad  rem domesticam et sumptum, suppeditarier, quin velint me iterum in  servitutem redigere. Cecus sum, fateor, claudus, fateor: at non ita quin  et viderim et abfugerim opportune. </p>
+	<p>Sed quis hic sedet homo? Fortene ex illis quispiam, me ut intercipiat   miserum? Quis tu et qui hic? Audin? Quo te admoves? Hoc tibi edico,  fieri libero iniuriam, que fiat mihi, homini omnium memori et vindici.  Audin? Sum ipse Ditonus, fui Tychie famel: nunc eius ob gratiam, et  quia bene de se meritus sum, quia cuncta facio eius ex voluntate et  sententia, manu idcirco me in libertatem demissum. Audistin? Iam  liber sum et te liberior libero, dum hanc habeo et libertatis  patronam  et iniuriam refugium: ne me proterve tetigeris! Hoc edico ut tuo tibi  caveas dorso ac nequid tue confidas temeritati. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Proh deum, quam mihi provinciam delegavit! Non  enim magis cupio quam timeam rem ex sententia posse succedere. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Et hercle, preter viri boni officium agitis, dum ita infesti estis  in me, qui studeam cunctis, et presertim vobis, meme in  benivolentiam  subdere. Num quidnam hoc e vobis meo benificio  commeritus  sum, ac si elaborarim saxa ut liquefacerem et lateres ut  lotos redderem? Duri estis: obsequio apud vos benivolentia  dissolvitur, non iungitur. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Volo ego te. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Me? At me ne contingas, ne me comprehendas: erit hoc mihi  pro vi et iniuria. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> At volo, inquam. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> At nolo, inquam. Hem, quid manum invehis? O populares,  opem, opem afferte, accurrite, succurrite! Sine, inquam, ne me  detentes! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quin bono animo es? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quin et vos desinitis iteratis iniuriis me et timidum et  suspectum  reddere? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Aus ulta paucis: volo ego te scire me virum et tibi  affectum  esse... </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quam ob rem? Quid in te admisi, ut ita detractes, ut male hoc  mihi studeas misero? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dico me erga te optimo affectum esse animo, non secus  quam qui te unice diligunt. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Neminem habeo in quem tuto fidendum arbitrer. Novi ego  recte et etate et usu mores hominum: captari amicitias, ut ex amicitia   quasi ex fundo fructus vel excipiant vel expectent, verbisque emi  operas et operas vendi premiis. Haud quidem convenit te illi amicum  esse, in quem dolos fingas. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ah, bone vir! Ego, dum tua pro gratia liceat, volo tibi esse  honori et commodo quam plurimo. Neque enim decet palam timere   omnia, que ipse dubites, tum parum conducit semper in metu  esse rerum earum, que casu non raro evenire soleant: nam sepe  incidit ut que heri sepius ac facile feceras, eadem hodie perquam raro  possis. spondeo tibi hac dextra fidem, diis testibus ac tua virtute,  quam quidem velim fore amicitie nostre firmum perpetuumque  vinculum. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quis tu? Nostin me? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ditonus es, amicorum amicis amicissimus. Ergo prebe  operam, absecro, benivole te paucis ut alloquar. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Audivi semper amicos et viros optimos, qui moribus et  ingenio  polleant, simplici et aperta amicitia adeundos esse; itaque  aperto alloquar eo, quia te fidum et probum semper audiverim. </p>
+	<p>Adolescens hanc tuam convicinam amat Doxiam. Ea, ut opinor, haud  egre id fert: neque enim invenustam neque interraro sese offert  ceterisque in rebus, ut coniectura valeo, utitur amantium officio. Is,  quod plus nimio hanc amet quodve plus satis honori inserviat suo,  cuperet Lares tuos sibi admodum esse familiares, ut inde absque plebe  et fama oculos usque adeo depasceret suos.</p>
+	<p>Hoc solum et hanc ob rem illum et sua et meme tibi dedo et dedico,  ut tuo pro iure tibi morigeri simus. Hanc facilem ob rem amplam et  promptam in amicitiam ius tibi prescripseris firmum atque perpetuum,  unde utilitatis et presidii non minimum assequaris. Habemus namque,  superum gratia nostroque ex labore et industria, cum benivolos tum  familiares atque amicos nonnullos, quos re prospera et adversa nobis  optimos et, uti deceat, frugi experti sumus, qui pro nobis et pro qui  nos ament neque rebus neque, si deceat, vite parcant sue. Non erit ut  in posterum eos illos fenerarios tibi inimicos quanti facias.</p>
+	<p>Et cave hac in re hesites tuam erga nos facilitatem experiri. Fatis  interdum res optime dantur, interdum attruduntur mortalibus,  interdum  tantum demonstrantur. Que montrantur, nescio quo pacto ea  nimio opere, nimis accurate petimus; que vero truduntur, omni quasi  opera abnegamus. Tum erit, crede, hoc tuum benificium viro non  indigno tibique posthac amicissimo pergratum. Volo omnia aperto  alloqui. Is haud est civis Romanus, sed Atheniensis, summa ex  familia, cui parente Argos et Minerva. Accessit huc, ut rerum  plurimarum visu fieret doctior, neque id tamen adeo ut se indignum  hisce parentibus in res dederet. Sed nescio quo fato, cum hanc aspexit,  illico amare occepit. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Estne is quem vidi isthac sub angiportu sepius inoperto capite,  candido pallio? An vidin tecum? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ipsus. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Et bone indolis, mehercle! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et macte virtutis! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Dii bene illi faxint, ut cupio, et tibi, ut vobis velis, quoniam  digni estis eorum gra ia et meo obsequio. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ah, bone vir, cedo manum: hoc edepol neque iniuria de te  persuadebamus! Ergo iube ad te ut veniat, tu ut virum agnoscas ipse  tibique gratias agat, ut habet, pro tanto merito. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Velim maiora. Sic illi dicito, Ditonum, edes has et quid  possim pro suis ut habeat. Sed estne hora ut edamus? Mecum eris in  cena. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Semper sum tecum animo eroque alias corpore, ut  iupseris. Iam bene vale. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">III </hi></head>
+
+<stage><hi rend="sc">DYNASTES SERVUS, FORTUNIUS </hi></stage>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Sic se habet res: ut videris, non poterit secus quin meam in  sententiam facile incidas. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Estne forma? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Forma quidem et moribus, ut nihil addi, nihil optari amplius   possit, ut vel formosiorem aut sane simillimam hanc Veneri  diiudicem: decorum caput, venusta facies, aspectus hilaris, tum  incessus  modestus, denique habitudo, motus, verba, gestus eiusmodi  sunt, quos in matrona et cive Romana laudes. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Nimis cupio hanc ipsam videre. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Faxim, ad idque operam iam nunc paro. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quid ita? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Quia has propinquas, ut vides, superbas edes ea inhabitat.</p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et qui potero? Unde alloquar? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Hoc scias velim: maturate atque attemperate omnia ut fiant  opus est. Prebe te ut videat virum nec impudicum nec immundum nec  lascivum primo, tum ut noscat et gestus et mores tuos, teque primo  cum lubens, tum expectato ut videat; demum loquere, enarra:  postrema  hec munera ab his, qui amant, ut diiudicantur, ita sunt  maxima, que, etsi perminima esse forte quis censeat, haud deceat  tamen ea ab ignoto expetere. Curabimus igitur primo illam ut videas. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Tum hoc tu ex me non ignores velim, namque stat sententia.   Non is ipse sum, qui unquam adduci possim, ut assiduo hac porticus  exarans operam et impensam ociose perdam. DYN. Demum tu  qualem te philosophum prebes! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Profecto, quid vis? In me quam imperium femine queam  perpeti? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Non nosti, adolescens, ergo quid sit amor: tollit amor fastus  omnes ex animo atque humilem reddit. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Utrumne hoc parum novi, gravissimo in merore versari eos  qui hanc sibi amoris miseriam animo offirmant, quod facere plerosque  video, ut liberi servitutem non inviti serviant? Equidem preter viri  officium est non omnes odisse mulierculas porro, quibus tam diu  sumus  in gratiam amantes, quam diu nostra id coemunt dona, ut que  Baccho et ioco ad superfluum usque completa est, ea tandem  in nos oculos dimoveat suos atque id quidem perparce, genus  animantium peximum! </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Hoc quod dixti totum minus nihilo est. Habemus namque  unde tuto conspicias et verba datatim commutes, dum lubeat. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Hem, forte id aliquid esset! </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Habeo virum qui olim conservus fuit, nunc mihi est amicus  optimus, a quo facile queque, etsi grandia sint, impetrem. Is (viden  isthanc statuam ostiariam?) edes illas possidet. Hominem conveniam,  dicam velle ex eius horto... at aliquid dicam. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et ego una tecum. </p> </sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Minime: volo enim te magnifaciat oretque, ut in gratiam se  accipias tuam. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Lepidum caput! Ergo... </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Ergo deambulato. Ego ingrediar iam, cum fores patent. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Optume. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Heus, heus! Et quis hic est? Et quid fores patent? At  domesticus  ipse sum, mihi semper patent: ingredior. Salvete, Lares. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">IV </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS, PHRONEUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hec mihi commeatio pro triumpho est, totum iter hoc meum  pre gaudio est. Nequeo ipsum me continere: quicquid video, iubeo  salvere, ac si velim omnia hoc meo gaudio impartirier. Salvete, etsi  mihi satis iniusti forte sitis, salvete Lares optimi, quibus persepe liceat  divam et videre et audire hanc. Salvete vos, superi, tuque, alme divum  pater: gratias vobis habeo. Et, mi frater, hoc tanto numnam  exultas gaudio? Tibi etiam ingentes gratias – et utinam condignas  exoptatasque!  – pro tuo hoc tanto facinore referam. Dixtin, certum  hoc est inde eam audire ut possim? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dixi audias, videas ut loco et tempore licuerit. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Proh deum, fortuna maximi te semper fecero, si semper! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, obsecro. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Sic oportet animo morem ut suggeram meo, sinam pre  gaudio sese ut diffundat decursitetque paululum. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, tace, inquam: videre visus sum insolentem egredi ac  regredi frequentarium nescio quem ex amici edibus. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, eccum hominem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Huc accede post angulum aut columnam, ne nos videant.  Auscultabimus quid consiliorum congerant. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hei mihi, quam male illico nostris rebus timeo! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, et Fortunium abhinc, dii, dii! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">V </hi></head>
+
+<stage><hi rend="sc">DITONUS, DYNASTES, FORTUNIUS, PHILODOXUS, PHRONEUS</hi></stage>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Ubi ipsus est? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Iam nunc aderit. Sic decet amicos mutuo inter se convenire,  ut liberali animo et consulant et alternas operas referant, veluti nos  ipsi inter nos facimus: tibi nullum potuit rectius dari consilium. Sed  eccum hominem. Salve, opportune advenis. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Salvete. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Si scires quantum is cupiat se inter tibi familiares ut  accipias,  illi merito amicus fores. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Bene vos dii ament! </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Narravi parentes, mores, virtutes, probitatem ceteraque tua,  ut potui, omnia. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Dii te ament! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Enarravit omnia sed, si lubet, dic, queso, qui vere fuere  parentes  tibi. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Thraso et Aphthadia. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Perii, ipsus est! Hic Fortunius Tychie filius est adoptivus, cui  olim Ditonus fuit servus; inde iam ex ea domo mihi hoc preripietur  commodi. Perii! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Te dudum aspiciens, tandem agnovi. At salve, iamne recolis,  cum te parvulum gestabam e domo patris tui ad nostram? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Centies. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quam eras fraudicolus! Semper in barbam et capillos duriter   coniciebas manum. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Semper te unice dilexit. Ut lepide applaudebat! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ha, ha, he. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Huc advertite animo. Nunquam ego antea ex studio hanc  conspexeram convicinam: nam me domi nisi interraro comperio et sat  negotiorum habeo quibus me exerceam – ita dii in peximum omnia  vertant illis fenerariis, qui tanta astutia fatigant me miseram in  servitutem  redigere! Verum nuper, cum domum redissem  comessatum, accessit quidam exorans hanc eandem ob rem sibi edes  ut paterent mee. Spondi operam; abiit amicum accersitum, cuius  causa hoc impetravit  gratie. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Quis ille? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Atheniensis, cui parentes Argos et Minerva. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Vidi hominem. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Post hoc accessi ad turrim et parvum per foramen vidi eam in  superiori triclinio fidibus concinentem versus de laudibus Herculis  serio et divum: ea, edepol, visa mihi est forma formosior Venere. Sed  ad rem redeo: vos amo, tum nollem, si rediret. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Recte habeo, caute id loqueris. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ne vero timemus illos, qui nihil habent preter vitam, quam  abs cruce precario possident? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Dii te malo divitent! Functus officio es, tum profecto verba  blactis, ut dignus es, cui nihil proprium est, nisi lingua isthec fetida,  pexima, que in deterius in dies convalescit. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, in aurem consilia conferunt. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Minime eos metuo. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Nostin? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Pulchre. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quid dixti? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Dixit illos se velle verbis oppletos et spe usque adeo  delibutos  abicere ab se. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Perii! Nullus amplius sperandi locus nobis relictus est.  Tritum quidem proverbium: integra cum fide tuta spes  cohabitat; postea vero quam fides disrupta est, spes intereat necesse  est. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Et tritum hoc est, quia quod tritum nimis est haud  saporem  habet. Tace, bono fac sis animo: quodque iter suum habet  exitum. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hei mihi! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tace, dum habeo argutam astutiam. Ha, ha, he, o dii, quid  paro! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quid agis? Qui ineptis? Cur te deturpas tam immunde luto?  Dii testes, insanis! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hem, quidnam? At lacernam... </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Eia, insane, quid advolvis cruri? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ut taceas atque videas; quod si intelliges licere, advola. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quo is? </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> VI </hi></head>
+
+<stage><hi rend="sc">PHRONEUS, DYNASTES, FORTUNIUS, DITONUS,  PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hei mihi! </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Quis hic plorat? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quid tibi vis, ebrie? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sic opem expectabam ut dares! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Enim ut ebrius est: non se substinet. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> O celum, o dii! Opem oro, o me miserum! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Surge, ne lacrima. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Quid habes? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Habeo animam inter dentes et labia. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Porro, loquere, quid hoc est? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Scies: querebam Philodoxum; dum itaque appropinquo –  hei, doleo totus pre ictu! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Demiror quid nunc animo is fabricet suo. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Quis percussit? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dicam. Namque in foro legati ex Africa, bene re gesta,  cum pompa nunc cum transirent, seduxi me ut eam ipsam pompam  spectarem,  quam tu quidem triumphum esse diceres: nam illic  tibicines, currus, equi, leones, panthere, res denique mire atque  innumerabiles, que videre longe opere pretium est. Interea putus  caballum effrenum acriter virga et calcibus concussit. Nescio rem ut  duxerit: hoc ipse aperto novi, crus mihi semifractum esse. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> At qui legati? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Peximi. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Ex Africa? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et sunt panthere? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Utinam sic illis adsit perpetuum cordolium! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Panthere? Proh dii, quam cuperem vidisse! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Nolim isthac lege, si te amo. Verum, si presto ieris, etiam  videas. Mihi vero tam care cordi est ea vidisse, quam constitit ibi  adfuisse. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Quo me trahis? Quo properas? </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Ehodum pantheras, equos, tibicines, pantheras ehodum! </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Maiori etiam in re animo satis obsequar tuo. I pre, sequar. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quod nobis iter tenendum est? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Recta te hac, recta versus forum. Namque aerem vocibus  et tumultu opplent, ut procul audias. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Sequere pantheras! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Hercle, graviter fero tuum hunc casum. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hui, quam dure pertractas! Perii! Mihi profecto nunquam  hoc totum latus erit liberum. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Cave isthuc ita censeas, bono sis animo. Namque hic in  tonstrina est Climarcus, et bovum et quadrupedum omnium atque  hominum quoque suo pro officio medicus singularis. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Tibi amicus? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Maximus. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid stas, tibi dicon? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Men vocas? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Pol quidem! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Cui dicis? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Aggredere. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Dixtin mihi? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Enim: cur non pergis ad medicum? Intro, hei miser! </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quid intro? Nimirum homini huic ob dolorem mens delirat. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hem, introducas medicum. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quis introivit domum? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Te precor, hominem accersito. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quis introivit hasce edes? Namque sensi dum attigit ostium. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Bone vir, adsis, precor. At quin abis? </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Enimvero, quis istuc introivit? Heus, si fustem sumpsero!  Heus, heus, te video! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Denique nemo homo istic est. At non te miseret mei!  Vides quam afficiar dolore: abi, precor. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Eo sane, verum credideram... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Audi, prebe fustem. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Quam ob rem? Quin potius, reside. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Diis gratias! Non enim ero omnino miser. Ergo  duc me, dum calet vulnus: nolo hic interim solus frigescere. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> VII </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS, DOXIA, PHIMIA</hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Non sine ingenio atque audacia fit magnum facinus. Mirabar   quid ineptiarum ageret Phroneus, cum deformarat luto et gestu se  ipsum. Dii perpetuum mihi hoc servent commodi! Dii secundent  paria! Proh dii, quam e sententia res evenit! Introivi domum: ausculto,  tempto, aggredior, contemplor, revertor. Interea visus audire sum  vocem, uti erat, Doxie; adsum, obsecro operam, dum alloquar. Ea  negat illic solitario in loco atque abscondito id licere, quod, siquid  velim, iubet suas ad fores ut veniam: ibi se adfuturam. Sed quid  dicam, miser? Unde exordium dicendi capiam? Ac quid, sic si  dixerim: «Amo, ardeo, morior. Tu id vides, tu cur hoc velis nescio.  Ubi pietas, ubi misericordia, ubi animus ipse insignis huic tue  pulchritudini condignus?»?  Vel dixerim: «Si mihi unquam...». At, at  eccum eam. Hei mihi, quam totus discrucior animis pre gaudio, pre  cura, pre metu! </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Adsis, mi soror, dum alloquor, adsis precor: nolo hunc, qui  sit in me honeste affectus, mea causa periclitarier. Cupio illi hac parva  in re morigera esse: nam amanti curam levare maximam, ubi nullum  fame suscipias incommodum, nusquam, ut puto, ignominiam afferet.  Ergo hic adsis, soror! Sed eccum hominem: profecto, ut video, vel  magis amat quam hactenus persuaserim. Philodoxe, dii te ament! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Et dii faxint ut me ames, ita uti condignum est, qui te plus  velit quam se omni optimo perfrui! Dii faxint me ut ames, si id liberali  officio honestoque animo opto atque oppeto! </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Dii bene servent me honori meo, ut cupio et studui  semper! Cedo, quid est, quod me velis? Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Nosti quod te iam diu amarim, sed forte non, ut se habet res,  ita apud te notum est quam sollicito et quam firmo animo ipse erga te  affectus fuerim. Namque, ut recte id videre potuisti, nimis honori tuo  semper inserviebam et, ni fallor, eam ob rem forte persepius  hoc  tantum gratie abs te commeritus sum, verba mihi misero amanti dono  ut dederes, quibus vitam hanc meam, que iam omnis inter suspiria et  lacrimas diffusa est, reficeres et fugitivu  cor, quod cura adustum sit,  vite restitueres, que quidem omnia iam olim tuam in dicionem  concesserunt. Hec enim, si cum non licuerit, tum non libuerit facere,  non est quod percuncter; verum, ut gratias agam tanto pro hoc  benificio tantoque tuo pro merito abs teque ut exorem, dum pro mea  honestissima affectione in te mihi aliquid unquam debeat, ut huius te  misereat vite et, postquam meo fato sic institutum est, tuus ut sim,  malis me vivum, cum forte quantulum vobis emolumento esse  possum, quam interemptum tua, ut ita dixerim, crudelitate: quod  quidem neque laudi neque in partem ullam commodorum vobis  accedet. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Quod me ames vidi et cognosco idque accipio animo neque  ingrato nequedum hoc iudico pre nunc male quicquam cordi tuo e  nobis nostra culpa advenisse. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hoc fateor atque inde quam plurimum laudis et meriti merito   commerite estis. Et nolim hec dixisse, si ea tibi egre sunt. Sed, si pro  tua pietate ac mirifica, ut nobilem animum decet, facilitate hoc abs te  licet ut exorem, precor videndi te ut sepius commodum sit et potestas. </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Nescio ego quo pacto hoc vobis innatum sit amantibus, ut  nunquam sat sit, quod nimis sit. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Neque oppeto id nimis neque tum etiam id satis vestro sine  commodo velim nequedum rem factu difficilem, etsi mihi amplam  et gratissimam, e vobis petii; neque amplius quicquam dari  opto, nisi ut meam hanc voluptatem et consuetionem neque duro  neque gravi feratis animo. Sinite deambulem, sinite ut videam: hoc  mihi ad voluptatem,  hoc mihi ad vitam est. Hoc mihi esse animi volui  vobis dicier. </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Dixti pulchre, sed gratam nobis rem ageres, istinc si  abduxeris  te. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quam ob rem? </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Quia honori nostro conduceret. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Siquidem isthuc iupseris: nam et tu id recte nosti, quia  semper satis honori dedi vestro idque ex animo atque studio. </p></sp>
+	<sp><speaker><hi rend="sc">PHIM.</hi></speaker><p> Ergo abi: nam video quempiam inde ad nos. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Vale. Et tu vale meque memorie commendatum habe. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">VIII </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS</hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Equidem non inexperte hoc ipsum dici solet, cum primum  qui mutuo se inter se ament ad loquendum coeunt, quia commutuent  animas, illico dediscant loqui, siquidem id re nunc maxime expertus  sum. Nam cum primum volui quicquam verborum exprimere, tum  prius siquid aderat anime, prosiluit inter eius sinum, adeo ut et mei et  verborum pene oblitus fuerim, miser. Debueram verba optima, verba  precantia, verba collaudatoria, non que rixam aut odium, sed que  prorsus  benivolentiam et amorem excitarent atque nutrirent. Sic  debueram:  «Ut solet aliis amor voluptas esse, mihi, non quod amo –  nam nimis ardeo –, sed quod te amo voluptas et felicitas est. Nam  venusta es, bella es et moribus atque omni virtute insignita, tum  ceteris quidem  in rebus egregie singularis. Sed quia me tanta in egritudine ob  amorem constitutum video, ut mee interdum misere misereat vite,  volui hoc a vobis gratie exorasse. Nam et nox et dies suum in me  perverse officium  peragunt; semper equidem meos inter oculos,  semper animo, semper insita in meum hoc pectus ades. Multa mea  causa vellem, longe tamen plura nolo, tue ne male afficiam honestati.  Non sum meus, tuus sum, Doxia, tuus sum; tuum ergo ut recipias,  tuum ut serves etiam atque etiam precor». </p>
+	<p>Sed quin desino amplius ineptus esse? Quid, si isti, qui huc accedunt,   me audissent? Et prope sunt et forte audivere ac videre omnia. Nimis  incautus demum effectus sum, posteaquam occepi amare. Cuncta cum  expavesco, nihil metuo cumque me omnia suspiciosum reddant, fit  tamen ut nulla ex parte me non negligentem atque supinum prestem:  itaque solus amor curiosam hanc desidiam fovet. Ceterum, quid nunc  mihi rerum agendum sit, incertum est. Tamen abnegandum otium est:  ergo, postpositis rebus omnibus, nostrum fabricatorem fraudium  conveniam  Phroneum, ut narrem hec, quo tutius re, consilio et opere  que in usum veniant conficiat. Sed quid hi servi mussant? Cupio hinc  furtim auscultare. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic"> IX </hi></head>
+
+<stage><hi rend="sc">DITONUS LIBERTUS, DYNASTES SERVUS</hi></stage>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Ego sic censeo, pro hac provincia te dignum legatum: nam  tibi, quod veteranus interpres amantium sis, plane omnes mulierum  mores notissimi sunt, ut, siquid incusarint recusarintve, illico confutes  omnia. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Ego secus censeo hanc tibi provinciam iure delegatam, cum  et facundia longe plus valeas et, quia convicinus, multo id tutius  potes. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Censen? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Censeo. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Stat sententia? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Stat. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Bene dii faveant! Et quid exordiar? </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Porro fabulas et muliebria: aut de ansere aut de gallo quere,  aut pro cucurbitis semen exquire, aut denique siquid tale. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Scin quid meditabar? priusquam verba proferrem quicquam  obsonarier. Nam digniora et multo pinguiora sese efferent verba et, si  nescis, plus centies hanc hodiernam interrupi cenam: non possum mei  compos esse, ipse dum ieiunus presto. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> In amicorum causa multa solent, qui amant, perpeti atque  permittere, que suam in rem non faciunt. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Vacua loqueris: mihi admodo ipse notus sum. Hoc est, quod te  volo non ignorare: nihil in oratore magis detestandum est, quam  ieiune atque incomposito hoc est ventre loqui. Ipsi quidem calices  plenam atque proclivem orationem effundunt. </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Bene, pulchre, probe! Verum, quod nunc temporis quasi  superest optimi, convenit non vacuum nostro condigno opere  prelaxarier  Turpis desidia est exoptatam occasionem per  indiligentiam deserere. Agedum, ego post te adero, quod, siquid  delires, quasi qui ad clavum sedeam, corrigam. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> Itaque ingredior domum: sequere. At paululum vini... </p></sp>
+	<sp><speaker><hi rend="sc">DYN.</hi></speaker><p> Ut lubet. </p></sp>
+	<sp><speaker><hi rend="sc">DIT.</hi></speaker><p> I tu pre, sequor. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">X </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS, PHRONEUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Servitus nulla libera est ac nulla libertas misera. Quidni?  hinc est quod aiunt fidem esse deam atque supremi eteris incolam,  quia in genere servorum, quod quidem inter mortales infimum est,  nullam unquam comperies fidem. Atque ipse ne vero sum omnino  plumbeus, bardus, qui hoc previderim coniectatim ac prescierim hosce  res omnes meas seducere in proclivum neque quicquam opposuisse   subtenaculi! </p>
+	<p>Enim oportuit sic dicier, hos istos esse infames servos; persuadere  nequid audiant neve quid credant neve quid responsi dedant:  infamiam  esse infames non abhorrere. Hec tum oportuit dicier:  namque norant nimis ut ipse amarem, pre me id ferebam, hei mihi!  Nunquam denique hoc potuit mihi in tempore incidere in mentem, ut  eas commonefactas  redderem! Sed quid hoc malum est  n amore?  Nostrum semper, cum esset ex usu sapere, torpet ingenium, cum nihil  prodest, homo nemo amante cautior est. Tum hoc in amore  tormentum an est non maximum, quod quale amando sit nostrum  admissum vitium sentimus  nunquam, nisi cum reliquum aliud nihil  est, preterquam ut dolere atque nos ipsos acerrimis exprobrationibus  conficere multo possimus? Itaque ignarus amator continuo peccat,  gnarus perpetuo dolet. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Reviso quid agat noster Philodoxum. Sed eccum ante  edes. O eho, bone vir, de legatis quam bene se res habent? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, huc ades: intermedie. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quin vel optume? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quia supervenerunt et legati et debacchati, malam in remque  illis siet! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Qui? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Enim, dum alloquebar hic ante edes, Ditonus et alter  servus accedentes nostros sermones interrupere, ille abiere. Ego me  seduxi, auscultavi; tum sic homines discrepabant: «Quin tu, quia  convicinus... muliebria oportet pro exordio...». Ego sic facio  coniecturam heluonem illum Fortunium, quem si vivo... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Atqui ausculta paucis. Eram ipse apud Climarcum  medicum,  tum interim se reducem offert Thrasis, minatur quod ludos  se fecerim, Ditonum mox advocat, tractant consilia, statuunt: «Sic  verbis meis dicito, ut dixi... et hoc quoque tum dicito». Hec illi: nihil  vero amplius ex dictis eorum potui excerpere. Illico suspectare incipio  oculis et animo atque eosdem huc proficiscentes veluti ab insidiis  longe prosequor. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Ergo quid hic censes? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Censeo... sic censeo, quia censent nos censere quod male  censeant. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XI </hi></head>
+
+<stage><hi rend="sc">FORTUNIUS, PHRONEUS, PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Profecto in hominum vita nihil inprimis optimum a diis  video dari mortalibus, quam ut nobis sic succedant bona, ut, siquid  velis, id a te ipso exquiras. Bene me dii omnes amant, cum mea me  mater amat. Sum deus, cum nihil desit: habeo quidem omnia cum  diis communia, preter vitam; habeo voluptatem et voluntatem,  ut lubet; sum etate ad vires apta et venusta bellitudine inter primos  non postremus; suppeditant pecunie, benivolentie, honores et omnia  que virum optare fas est; adsunt preterea quam plurimi, qui me  efferant laudibus, quibus et bene possim facere quive semper student  quam multa meam in utilitatem et voluptatem congerere atque  accumulare.  Siquidem perpetua modo vita sit, ipse Apollo sum. </p>
+	<p>Enim ne videram, ne scieram, ne querebam quidem in hac convicinia   quicquam, at vero totum, quod insigne est, ultro offerunt. Adde quod  rogant delatum sane non minimum benificium dono ut accipiam.   Ergo institui morem illis gerere: adibo et quam pulchre recipiam  Doxiam. Cum primum ingrediar domum, iupsero: «Afferte  subsellium»;  cum accesserit, tandem paululum assurgam: «Si vales et  me amas», dixero, «tractabo, amplectar, morsibus cunctam insignibo».  Sic par est omnes efficere amantes: nam male agitata mulier bene  diligit. Hec sunt munera et amoris pignora que, cum dolorem servent,  tum multo in memoriam amantem reducant atque retineant. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> O ineptissime, etsi vera profers, tamen quam insanis toto  capite! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Ha, ha, he, enimvero! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Quos hic vero arridere? Hercle, an denique ita sum vobis  ludus? Bene vertam in luctum, si cepero. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Favere et bona verba queso. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et quid hic? Mene observas? Tu quoquene istic  ades? Facite ne vos hic posthac videam. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hui, severum atque durum edictum! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Sic iubeo. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> At parebitur sane, si obcluseris oculos. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Et hoc ad ludos etiam adminiculum datis; quod si me  irritaris,  furcifer... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Enim quale supercilium! </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p>... quod me si irritaris, faciam ut tuum illud crus e gremio  recipias, ut advoles ad Tibrim lotum et nectum una. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Equidem hoc iuro: nusquam facias ut curram, ni te sequar,  et videbor non claudus, cum voluero, idque non sine maximo tuo  malo. </p></sp>
+	<sp><speaker><hi rend="sc">FORT.</hi></speaker><p> Proh Iupiter, cur non me in iram solitam proveho? Et  quidem non eris potis, Iupiter, quin hodie hunc mactem. Sed quid ago  ineptus? Non convenit militem cum calone iurgari. Itaque tum ad istos  pergam. Quis hic est? Ditone, heus! At ubi sunt isti confedusti  bibones? Et nullus est: verum ingrediar. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XII </hi></head>
+
+<stage><hi rend="sc">MNIMIA, PHRONEUS, PHILODOXUS, ALITHIA </hi></stage>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Hei mihi! Vix potis sum loqui pre timore, id quidem cum  ceteras ob res, tum vel maxime huius virginis causa: nam inter  tumultus  virgo non sine pericolo aderat. Et, dii immortales, an uspiam  hoc vidit aut audivit quispiam? Mehercle, mirum atque incredibile  quempiam amare quam nunquam viderit, aut in ea re affectum esse,  quam potissimum nesciat. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Accedo ut percuncter. Quid turbida es, mulier? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ne vero vos ita erga hanc domum inhumanos habuistis! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Qui id? Nihil minus. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ut audistis tantos tumultus, ut non illico opem attulistis, ut  istic adstitistis conspectatores. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, tumultus? Dic sodes. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Venit Thrasis... </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Metuo. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p>... rupit... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Hem. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p>... introivit... </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Malum. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p>... rapuit... </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> O me infelicissimum! </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Nescio ego quid dicam, non sum mei recte compos nec valeo  proloqui. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Porro, obsecro, narra. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Narro, at sinite me paululum animum resumere. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> O diem acerbissimam! Doxiamne id monstrum rapuit, aut  proterve illam aspicere me vivente ausus est? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Minime Doxiam. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Vel id ipsum, quicquid sit, ocius explica, ne in mora  simus, siquid facto opus sit. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Breves quidem narrationes magnum non belle exponunt  malum. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p>  Bis nos excrucias, quod tristem et quod morosum nuntium  afferas. Narra, obsecro. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Narro. Doxia Doxie soror Phimiaque Alithiaque, hec virgo,  atque ego flores in horto et apium opera animi gratia spectabamus,  dum is convicinus senex suo ex hortulo proximo, qui cratibus ab  hortis Doxie conseptus est, nos quam plurime iubet salvere. «Et quid  fit?», inquit, «Nunquamne a negotiis licebit vacare? Iuvat nempe  interdum  animum a labore ad voluptates honeste transferre, quod  quidem facio ipse, qui, cum tempore et loco licet, omni studio et  opera me omnibus ridiculum prebeo. Etenim isthuc duco esse  officium prudentis, sapere inter philosophos, lascivire inter calices:  namque omni loco omnique tempore quisquis vult se gravem,  continentem ac tristem videri,  meo iudicio ipsus est semper ineptus. Me vero, quod utrumque  tempus moderari calleam, nemo in seriis rebus respuit, omnes in  iocosis admittunt socium. </p>
+<p>Eam ob rem Fortunius Thrasis, adolescens omnium pulcherrimus,  omnium liberalissimus, in sua quam hodie lautissimam apparavit  cenam iussit summopere ut adessem, in qua quidem, ni fallor, habebo  me pro censore triclinii, aut tum ero preses popine, aut in hirneis  imperabo. Sed, dii boni, quales primo calices hauriam, denique, ubi  satis fugaro sitim, quales iocosos in medium exercebo gestus! O  Thrasim adolescentem  dignum imperio, cum tanta liberalitate isthac,  cantabo laudes tuas, quem omnes amant! Dispeream, si tibi ad  integram felicitatem aliud quicquam quam moribus tuis et nobilitati  consimilis coniunx deest. Felicissima tu quidem eris mulier, que huic  bellissimo ac formosissimo  adolescenti nupseris! Vehementer cupio,  mi Doxia, hunc ipsum tibi fore coniugem, quin dabo operam ne te  recuset». </p>
+	<p>Nos illico inter nos hominem demirari cepimus. Tum ille enim:  «Thrasis, adesne?», inquit, «Ehodum, parasti convivium nuptiale: tibi  sponsa ne desit, hanc Doxiam accipias hortor coniugem». Nos  huiusmodi  verbis perculse illico: «Vale, consulto opus est», diximus  et abfugimus  in domum. Illi e vestigio abvulsis cratibus nos pavidas  et trepidas  sequuntur, confringunt, ingrediuntur, discursitant. Nos  disgregamur;  Doxia advolarat supra fastigium edium, ego procul  omnes rumores hauriebam auribus ex abdito. Ceterum dic tu reliqua  ut gesta sunt, mi Alithia, que coram omnia spectasti. </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Quidnam? Illi, rapta Phimia, abiere. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Factum pexime! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Vosne tandem cetere valetis omnes? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Pulchre, ni hoc de Phimia egre siet, at... </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Proh dii, que hominum petulantia, quis furor, que iniuria!  Quam opto huic aliqua in re esse pro meritis, ut meretur,  scelestissimo! </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Itaque acta hec sunt, ut videtis. Nos eamus, virgo, ut hac de re  certiorem reddamus patrem, hisce in edibus hoc esse admissum  scelus. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Ergo tu, Phroneus, comitabere has. Ego accedam ad forum ut  senem, si viderim, eum mox domum huc adducam. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XIII </hi></head>
+
+<stage><hi rend="sc">MNIMIA, ALITHIA, PHRONEUS </hi></stage>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Enim quod datur fatis ferendum est. Diis nolentibus, quid est  quod mortalibus liceat? </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Nosne ergo ibimus domum? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Isthuc agimus. Sed, me misera, quam modo huiusmodi in  animum redeunt multa ut, quod partim nollem, partim vellem, id  ipsum tamen frustra optem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Est hominum hec condicio, v lle et nolle. At velle hoc et  nolle in tempore quod ex usu sit, prope sapientum est; nolle autem  que velle oporteat, at velle que minime possis, eorum est, qui sibi solis  credant et cupiant. Tum olent scelesti semper suo scelere seque palam  scelus trahit, parem ut parturiat penam. Non inulto hoc deos  preterierit. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Non diffido sic futurum, ut autumas. Sed amplius meam  incuso  dementiam una et viri mei, a quo iam fere annis tribus habui  discidium Athenis, quod repetenti a me anulos et aurea  quedam signa parta suo labore, quas res apud me servandi causa  posuerat, negavi. Feci ut solent fere omnes que sumus inepte mulieres,  presertim si adsit forma. Fui enim pertinax, dum que sponte ipsa  debebam tradere, ea virum precibus et blanditiis a me frustra  exposcere gaudebam; quo factum est ut indignatus postridie abierit.  Quod ni me in eum ita duram habuissem, plane degerem vitam neque  vulgarem neque inopulentam ac minime aberrarem. Verum hec mihi  eo in memoriam rediere, quod viro quoque meo id ipsum nomen  Phroneo aderat. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quidnam tu hac in urbe tibi vite delegisti, posteaquam  virum ita repudiasti? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ego vero semper totis viribus consectata sum vitam atque  gentem, ut maxime quivi, honestissimam. Audiveram huc Romam  meum accessisse virum. Tum ipsa quid agerem relicta sola? Eo frustra  huc veni, ut fastu posito apud virum, cuicum et debeo et cupio, essem;  quem quidem ubi nusquam inveni, cessi domum huius patris Alithie,  cui nomen Chronos. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Novi sane hominem decrepitum, canum, gravem; atque  idem est princeps excubiarum, si satis memini. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ipsus est. Hanc habet filiam, quam ample diligat; hanc mee  fidei commendavit regendam atque observandam. Ee deinde matrone,  que huius virginis indole atque ingenio mirifice delectantur, mea  opera cum huius virginis familia amicitiam contraxere; ex quo  persepius una conferunt, postremo omni de re me participem faciunt:  utor utraque familia familiariter, concredunt obsequuntur mihi. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Dic sodes, quod tibi nominis? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mnimia. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ne tu ergo prius voluisti, Mnimia, perdere anulos quam  viro reddere? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Me imprudentissimam! Neque tum negabam me reddituram  nequedum perdidi, sed ita ut fit mulierum more subinsanibam. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Demum amisisti anulos et virum? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Si mihi sic esset vir, ut sunt anuli, pluris tenerem anulos  quam instituerim. Satis illum perquirens expectavi, satis sum functa  meo officio; forte illos huic virgini dono dedero, cum satis perrexero  in moram. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sane isthuc fateor esse officium femine, certare  simultate atque pervicacia adversus eos, qui se ament, et odisse  omnes, quos nimium faciles atque obsequentes offenderint. Sed isthuc  cupio audire abs te: habesne anulos et aurea eadem signa? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Habeo, teneo servoque. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> At salva omnia? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ut nihil desit. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Cedo manum: nihil est quod eque cupiam. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Ah, mi vir, desine: hosce ego digitos, hosce anulos novi! Et  quam es non similis solito, quam denique difformis! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Istuc forte, ut aiunt, novos mores novos afferre vultus. At  tu,  ue dura olim ac difficilis videri solita es, quam nunc videre  facilis! Bene edepol gaudeo et optime est nos nobis compertos esse.  Da mihi te, ut amplectar. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Gaudeo, ac fiet quidem sacrificium diis tanto pro merito. Mi  vir, valuistin satis? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Satis. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Quid tibi cum illo adolescentulo? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Optima et aperta benivolentia, ampla et continua  familiaritas,  firma et simplex amicitia. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Et quid istic hesitabatis? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sane rogas quod cupio te ut scias. Is amat Doxiam hanc  tuam perdite, quod, si utrisque consulendum est, nihil est quod magis  approbem quam inter hosce fieri coniugium: est enim adolescens  nobilis, doctus, prudens atque, ut vides, forma et indole egregia. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Prorsus amandus: omnia novi. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid? Annon Doxia hominem nonnihil diligit? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Nullam invenies usque adeo tristem atque algentem  mulierem, que bellum amantem aspernetur. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Quid si innitare? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Possum quidem prodesse. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Idcirco precor, cum vales coniunctione apud has, tum id  cures omni qua potes opera et industria, ut hoc coniugii fiat. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi vir, salve: geretur tibi mos. Ibo et virginem domi  relinquam.  Post illico conveniam Doxiam, conabor persuasione et  precibus rem ex sententia ducere atqui, ut opinor, possum tibi bonam  expectationem  polliceri. Vale. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ego Philodoxum requiram. Sed prius sub hac angiportu  sordes istas et lutum abstergam meque pulchre comptum reddam. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XIV </hi></head>
+
+<stage><hi rend="sc">PHRONEUS, CHRONOS, PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Proh dii immortales, quantum habet virium dissuetudo,  quam est efficax ad scindundas omnes bene obfirmatas vetustate  amicitias!  Equidem si fieri possit ut quispiam secum ipse aliquot  temporis neque colloquium neque ulla in re consuefactionem habeat,  fore prorsus existimo ut sese is aut breve aut nihil diligat. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Audivi, inquam, atqui omnia teneo. Mee dehinc erunt  partes facere, que iure agenda videantur: iudicem decet iuri satisfacere  inprimis, non homini. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Verum id actutum denique accurrendum censeo, ne novam  aliquam turbam scelerosi innovent. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Forte hoc tibi persuades, quod me admodum gravem et  morosum ac, veluti aiunt, depontam conspicias, ideo me cursu minime  valere. Erras isthuc si putas: nam me hac ipsa etate complures valere  cursu experti sunt. Sed ferme sic semper evenit ut, quod mature  agimus, id nimium cupidis sero evenisse doleat; hi vero, quibus eadem  res molesta  futura est, nimis properasse incusent. Viden ut iam aliud  agentes istic adsumus? Sed fessus sum, hic paululum considere  certum est. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Perplacet. Sed eccum Phroneum hac eadem sub angiportu  suas concinnantem plicas; accedam, ut hominem huc adducam. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XV </hi></head>
+
+<stage><hi rend="sc">PHRONEUS, PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Videon Philodoxus? Ipsus est. Videon senem? Ipsus est.  Advolo, ut hominem onustum meo pa tim et suo faciam gaudio. Nam,  ni me animum fallit, Mnimia rem conficiet ex sententia. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Nimirum hoc malum integrascit. Advolo ut percuncter.  Proin tu, ne vero proterve aliquid denuo attentarunt in Doxiam  petulantissimi?  Porro, dic quidnam feras mali. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Bono sis animo, letissimum tibi affero nuntium. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Mehercle, preter spem isthuc: ita meme omnia undique  extimescentem  adversa hodierna fortuna Doxie effecit. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ceterum quidem, tu vero ubinam offendisti tam extemplo  patrem hunc virginis? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Advectabat se domum suam. Me superi, nunquam vidi  hominem  tardiorem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Homo confectus etate et annorum plenus. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Quin immo se cursu validum predicat, dum se non secus  dimovet  ac si habeat calculos omnes ad unum usque pedibus  dinumerare.  Tum quidnam habes, quo me cum a metu depulisti in  letitiam statuas? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Meministin quam sepius tecum explorarim tum fortunas,  tum ineptias meas, qui tam levi indignatione actus fecerim ab uxore  mea divortium, quam dictitabam: «Si adesset!»? Nostin? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Pulchre. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Eam ipsam comperi. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Hem, at ubinam loci? Num valet? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Valet habetque anulos et signa aurea salva omnia atqui,  quo magis congratulere, ea est premonstratrix eius virginis Alithie,  huius senis filie. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> An eadem ipsa est, quam modo abiens reliqui tecum  subruffam,  litigiosam, aspero supercilio, tumidis oculis, naso gracili,  mento preacuto, pusillam? Eia, Phroneus, pulchram nactus uxorem! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Mores condecent saltim forma si abest. Tum deformis  coniunx  non facile dictu est quam sit percommoda: solum virum non  odit, cum a nullo diligatur deformis mulier, eundemque vacuum  suspicione  vigilantem facit. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Ne tu illam non noras primum? Aut quid veritus es, me  coram ne in cachinum prorumperem? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Missa hec faciamus. Hoc est, quod te letitia oppleat: uxor  suscepit negotium de Doxia illa. Spero coniuge potiere, Mnimia  interprete. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> O bellissimam ergo Mnimiam! O coniugem tibi  amandissimam! </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Postremo hunc ad nos proficiscentem adeamus senem. </p></sp>
+
+</div2>
+<div2>
+<head><hi rend="italic">XVI </hi></head>
+
+<stage><hi rend="sc">CHRONOS, PHRONEUS, PHILODOXUS </hi></stage>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Nemo in cuiusvis amicorum malis satis diu ac suis  miseretur  aut dolet. Enim is, qui modo hac una qua accersivit me cura  adolescens excruciari visus est, tam repente mutato fronte nescio quid  adveniens letissimum gestiat. Mihi prope animus languet, quod ad  gnatam pendeam meam, tametsi virgini puelle nihil eiusmodi  suspicer. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Salvere Chronon iubemus. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Et tune iis adfuisti rebus, cum fierent? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Modo audivi omnia una cum isthoc ab iis que adfuere  Mnimia et Alithia, quas tuam adduxi domum. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> At filia satin valet? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Ea domi, inquam, est tue salva. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Gaudeo. Verum quis impurus, improbus tantos tumultus  ausus concivit? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Sane isthuc ignoro, tametsi constat Fortunium, Tychie  filium, vi in edes irruisse, vi et iniuria domum affecisse. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Tu ergo illum ad nos citato lictor. Tu vero, Phroneus, iube  dispesci istic omnes que adsunt in hisce edibus mulieres huc in  publicum:  namque hic equum est capitale facinus publice disquirere.  Ego interim in hanc tabernam divertam, ut subscribam que ad  annonam  opus sunt; illico egrediar. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Abeo. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XVII </hi></head>
+
+<stage><hi rend="sc">TYCHIA</hi></stage>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Quam est omni in vita facilitas inprimis et grata is, cum  quibus vivas, et utilis his, qui isthac eadem virtute sciant uti!  Difficilem omnes et noti et ignoti odere, facilem atque indulgentem  nemo non diligit. Id quidem ipsum modo perdisci licet ex me, quod  filium comiter ac benigne observo. Idem, queque agit, ultro me facit  ut sciam: bene queque facit, palam probo et adiutrix sum; male ubi  conatur aut permittit  quicquam, illico surgenti incommodo rationem  et modum obicio, quo futura mala coherceam atque reprimam.  Magnum quodque malum  minima habet principia: hec tollas, omnia sustuleris. Itaque his  moribus  instructus filius modo ad me lacrimans accessit: «Mater»,  inquit, «peccavi: hanc rapui civem. Stulte factum fateor. Tu rebus et  fame et saluti nostre caveto». Indolui ac plura tum verbis castigassem,  sed visum est hoc tempus opportunius alio quam in iurgiis consumere.  Idcirco  ad Doxiam pergere institui nullasque conditiones recusabo,  dum invidiam sedatam reddam; postea de corrigendo filio providebo.  Sed eccum senem! Iam non ero potis quicquam, ut institueram:  mutandum consilium est. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XVIII </hi></head>
+
+<stage><hi rend="sc">CHRONOS, TYCHIA, PHRONEUS</hi></stage>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Alia me movet ratio, Caliloge, id ita ut istic  conscribendum putarem, tuum tamen ingenium et astutiam laudo.  Verum prebeto huc eosdem codicillos, ut relegam: nam summa  negligentia est que scripseris non recognoscere, priusquam obcludas. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Me miseram, quid consilii captem? Hominem adeundum  censeo pervestigandumque quid in nos animi paret, quo premature  sedem, siquid irarum insurgat adversum. Atque haud habeo quidem  causam omnino iniquam aut prorsus inusitatam: quis nescit omni in  etate multa pretermittenda et tolleranda esse? Amare ac ludere  iuvenes, questui viros et rapinis inservire, senes parcos et segniores  esse decet. Verum hac in re, siquid est quod doleam, id solum illud  est, quod me inconsulta hoc fecerit. Nam etsi cupio animi viribus et  audacia valere eos, quos delectos habeo quosve inter domesticos  admitto meos, tamen alia potius via – donis, fallacia – quam raptu suos  amores explesset mallem. Sed senem convenio, posthac ex tempore  consilium capiam. Salvus sis, Chronos, quid opere hic est tibi cum  tantis syngraphis? </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Hem, quasi id nescias, aut preter voluntatem tuam hec  acciderint! Siccine oportuit in civem liberam? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Silicet paucis. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Nimis multa tibi licent, Tychia: rapitur, vivitur  impudenter  ac superbe te annuente. Verum loquere. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Rescivi que hic gesta sint, fateor, que quidem, ubi conscia  me fuissent actitata, palam ea profiterer. Qua enim ex parte eadem se  dederent, ut sanctum et equum iudicem vererer non video: nam si  Phimia libera est, libere sane ac liberum sibi delegit virum. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Revertor, edixi. Doxia sese adornat ut egrediatur. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Pexima es, pol femina es! Ergo tam liberas oportuit fieri  nuptias, confringere, turbare, asportare viribus et vi! Enimne iupsi  hominem accersiri scelestissimum? Siccine ludificabere? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Tamen ut iupseris fecero. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Iubeo. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Ehodum, bone vir, nostin filium? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Vidi hominem. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Noveris edes meas? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Certius si mostraris. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Ergo adhibe huc animum: hac recta usque apud publicanos,  tum verte ad levam usque ad pistrinum, demum conscende ad  plateam;  ibi ad dextram e conspectu videbis umbonem ad postes  appensum,  de more ubi hec inscripta sunt aureis litteris: NISI IAM  FORTE. Ille sunt edes nostre: advocato gnatum. Intellextin? </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Non auscultavi neque unquam comperirem. Iube ex his  tuis quempiam. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Dii te perdant! Tu, Volipeda, accurre, iube Fortunium  confestim  huc advolare. Cessas? Verum, heus, cum redieris, dicito te  hominem  nusquam comperisse. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XIX </hi></head>
+
+<stage><hi rend="sc">MNIMIA, CHRONOS, ALITHIA, TYCHIA</hi></stage>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Perge, Alithia, huc mecum, ut viri mei iussa exequamur: tu  quoque nonnihil proderis. Pol quidem, perquam cupio illi modesto  adolescenti de amore suo commodi aliquid afferre! Doxiam  conveniamus,  animum qui nunc ei turbatus est primum sedabimus.  Quid? Quod hec una causa nostrum iuvabit inceptum, nequis posthac  audeat una iniuria duos, nuptam et maritum, ledere. In celibem atque  viduam prona est cupidorum audacia. Sed quid senem nostrum hic  intueor? Huc adero. Salve, Chronos. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Ubi est nata? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Eccam. Adsis, Alithia. </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Salve, pater. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Acta hec sunt, ut ferunt, abrupte fores, vi raptum? </p></sp>
+	<sp><speaker><hi rend="sc">ALITH.</hi></speaker><p> Acta, mi pater. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Proh Iupiter, scelus detestandum! </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Mea tu senem exoremus. Chronos, audi, obsecro. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quid te audiam? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Non que nos obnoxias apud te loqui, sed que te mitem et  humanissimum fas est audire. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Loquere. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Ni viderem hec, que paras, omnia huc tendere, mi Chronos,  ut his, quibus illata videtur iniuria, par fiat, non esset quin vererer  tuam in filium meum severitatem. Verum cum ipse cognoscas et ab  homine adolescente et ab eo, qui flagranti amore affectus sit, et in  eam mulierem hec esse acta, que non invita ab amato omnia hec  possit perpeti,  nonne erit abs tua iustitia alienum, ni huius unius  peccati partim pietati in nos, partim humanitati tue concedas? Sine  igitur te ut exorem;  face in te coniecturam, finge in filiam sinistri  quicquam: comprehendes  quam perverse in parentes omnia redundent  filiorum mala. Quid ais, Chronos? Tu item, Mnimia, obsecro,  persuade, age! </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Noli fodere latus hoc mihi amplius, mi Chronos! Redde te  dignum solita et mansueta humanitate tua, sine ut exoret. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quid est quod velitis fieri? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Velim mihi matri hoc ut fiat gratie, quam quidem si feceris,  equam rem pariter et his omnibus gratam feceris. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi Chronos, sponde, obsecro. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quid tum? </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Opto Phimiam filio fore coniugem meo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Dum ea id non recuset. </p></sp>
+	<sp><speaker><hi rend="sc">TYCH.</hi></speaker><p> Ergo dii te ament, dii perpetuo te conservent! Ibo domum,  filium ut in nuptias traham. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Non vitupero isthuc consilium de Phimia,  quandoquidem ea fama raptus iustis nuptiis deleatur. Quid tumne hic  aliud agimus? Redibo ad forum, ut hos tabellarios cum syngraphis  missos faciam. Tu, Mnimia, virginem commendatam habe. </p></sp>
+</div2>
+<div2>
+
+<head><hi rend="italic">XX </hi></head>
+
+<stage><hi rend="sc">PHILODOXUS, PHRONEUS, MNIMIA, CHRONOS, DOXIA</hi></stage>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Phroneus, si ob meam singularem in te observantiam  commeritus  sum abs te unquam, ut aut petere aut expectare possim  quidpiam,  nunc precor id omne, non quod debes tantum, sed quod  potes, in amicissimi causa ut semper soles exhibeas. Ego Philodoxum  tue dedico, tue commendo fidei. </p></sp>
+	<sp><speaker><hi rend="sc">PHRON.</hi></speaker><p> Vah, quasi! </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Minime. Sed quia nimis cupio, nimis ardeo, idcirco et  precando  sum nimius. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Mi vir, bono sis animo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Quid conloquimini istic seducti? An improbatis quod de  Phimia transegimus? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Minime. Verum hunc novo meum repertum virum alloquor. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Is ille tuus est? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Meus ipsus. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Gaudeo. Et quid est quod tractas? Siquid valeo, dicito. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Optime, dicam. Hic adolescens Atheniensis est; novi parentes  eius, viros probos et primarios nostra in civitate. Is vellet, mea et tua  opera, hanc Doxiam sibi novam nuptam fieri. Ea, si valeo coniectura,   nec omnino id recusat. Credo, si isthuc ceptes, nostra persuasione   perfici ut utrisque pro expectatione ac desiderio satisfiat. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> At dos convenitne? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Sat quidem secum apportat dotis huiusmodi, que modesta et  morigera est mulier. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Nusquam ad dotem hereo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Ergo quidni modo isthuc agimus, Mnimia? </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Maxime. Sed eccum Doxiam. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Phroneus properans verbis Chronos edixit ut exirem. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Huc, Doxia, anime mi, huc ad nos. Scin quid de Phimia te  absente confecerit Chronos? Prestare ratus est eam, uti res suadet,  apud Fortunium coniugem dici, quam apud te vitiatam. Idcirco petenti   Fortunio despondit. Quid ais? </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Quandoquidem in hunc locum adducta res est, ut meliora  expectare non liceat, minus quod adsit malorum eligere prudentis  duco. </p></sp>
+	<sp><speaker> <hi rend="sc">MNI.</hi></speaker><p> Non iniuria semper admirari vehementer soleo prudentiam et  humanissimam facilitatem tuam, cum cetera ob merita, tum vel  maxime  quod apud te his in rebus, que facto opus sint, nostris aut  precibus  aut longa persuasione minime indigeas, quod nosti quidem  pro tuis commodis et honore tuendis quantam et curam et diligentiam  capiamus. Narravi preterea quo in te animo Philodoxus affectus sit,  quid exposcat. Consulebam senem: is approbat sententiam, ob quam  te accersivit ut certiores nos redderes, quid tibi animi sit in nuptias. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Scio vos ea virtute preditos, ut possim tuto vobis et credula  esse et morigera. Ego coniugem et quevis omnia vestra ex voluntate  atque sententia accipiam ac recusabo, quoad vobis id gratum et  acceptum  esse intelligam. Vestre sunt partes prospicere, quo me loci  constituatis. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> O dignam laude et amari cum isthac eloquentia atque  mirifica  modestia! Sed timeo hunc senem ne deficiat persuadendo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Hoc velis scias, me non ex toto approbare virginem et  eam quidem istius forme atque etatis diu domi sedere. Quod etsi  plerumque  fiat, tum quod non adsit cui digne connubat, tum quod in  grandiorem  familiam cupiant rem suam locare patres, non tamen id  nunc abs te si fiat laudo, vel quia sola sis, quod sane est sinistra non  vacuum  suspicione, vel quia cetera omnia, que in connubiis  deliberandi tarditatem solent afferre, longe cessent: nam neque dos  neque affines neque mores ulla ex parte sese prebent, ut merito  recuses nuptias. Dotem hic nullam petit, tum qualem maritum  habitura sis spectas. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Pulcherrimum sane atqui, mehercle, dixti, Chronos, ut res est;  quantove magis magisque cogito, tanto fit ut magis approbem quod  faustum ac felix sit inter vos esse coniugium. Denique necesse  est has fieri nuptias ac volo quidem fiant. Bene agendi tempus nullum  prescriptum  est. Cedo manum, et tu manum: hic tibi sit vir, hec tibi  sit uxor. Voltis? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Volo. </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Tuque id vis? Doxia annuit, ergo volt. </p></sp>
+	<sp><speaker><hi rend="sc">DOX.</hi></speaker><p> Volo. </p></sp>
+	<sp><speaker><hi rend="sc">CHRON.</hi></speaker><p> Bene est. </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Dii immortales, gratias vobis habeo quod in me propitii  fueritis longe magis quam fuerim optare ausus. O me beatum! </p></sp>
+	<sp><speaker><hi rend="sc">MNI.</hi></speaker><p> Viden improbi alicuius peccatum quantas interdum bonis  afferat voluptas? </p></sp>
+	<sp><speaker><hi rend="sc">PHIL.</hi></speaker><p> Exulto letitia. Plaudite, spectatores, hoc meo bono, plaudite.  Tuque, tibicen, precine hymeneum: nos sequemur. Valete. </p></sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

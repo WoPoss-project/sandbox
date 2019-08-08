@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Della poetica</title>
+      <author>Bernardino Daniello</author>
+    </titleStmt>
+    <extent>192 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001158</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Trattati di poetica e retorica del Cinquecento</title>
+        <title type="part">v.</title>
+        <editor id="ed">Weinberg, Bernard</editor>
+        <publisher>Laterza</publisher>
+        <pubPlace>Roma [etc.]</pubPlace>
+        <date>1970-1974</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita"/></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>808.009031 - RETORICA. 1500-1599</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-26T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valeriano Fiori</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-07-01T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div1 type="dedica" n="Dedica"><p rend="sc">A Monsignore Messer Andrea Cornelio Eletto Vescovo Di Brescia, Suo Signore</p></div1>
+<div1 type="parte"><head>Libro primo</head>
+<p>Ebbero i passati secoli, et ha il presente nostro, molti di quegli uomini i quali fermissima openione portarono che l'uomo, collo ingegno solamente a lui per special grazia dalla natura conceduto, vaglia a perfetto et ottimo poeta divenire, senza cotanta cognizione et intelligenza di cotante arti e di cotante scienze avere. Per la qual cosa, quasi senza numero furono e sono coloro i quali, quanto questo nome di poeta e di poesia s'importi non conoscendo, al comporre et allo scrivere si diedono e dànnosi tutto dì, senz'alcun ordine o convenevolezza negli scritti e composizion loro osservare, facendosi essi forse a credere che il porre insieme in breve spazio di tempo molti versi li debbia de gran lunga rendere più riguardevoli e più stimati che coloro non sono, i quali molti anni, molta diligenzia usando, negli studi delle buone e belle lettere si sono affaticati, con pallido viso i più chiusi e secreti luoghi del bel monte dalle sante muse abitato cercando, non per altro che per lasciare di loro medesimi, a tutti quelli che dopo loro verranno, perpetua testimonianza delle loro lunghe fatiche. Et in confirmazione che quello che essi fanno stia bene e si convenga, queste (per quello che a me ne paia) assai fievoli ragioni arrecando, dicono che se noi ci vorremo con la considerazione a' principii delle cose levare, apertamente vedremo ciascun'arte e ciascuna scienzia avere suo nascimento dalla natura, generalissima madre di tutte le create cose, avuto. E più oltre ancora, che essendo essa natura dall'arte imitata e seguita, non altrimenti che si sia dal figliuolo il padre e dal discepolo il suo maestro, non vedere in che più ci possa l'arte che la natura, a quelle cose conseguire che sono vie più di quella proprie che di questa, giovare. Affermano adunque che quella forza d'ingegno che ne rende acuti ad investigare le cose et a quelle poi bene e copiosamente esprimere, dalla natura ci si concede, non essendo esse da niun'arte comprese.</p>
+<p>Ebbe nel vero l'arte — la quale, secondo la diffinizione che di lei fecero gli antichi filosofanti, non è altro che un cotal abito di fare che che sia con diritto modo e ragione — ebbe, dico (come essi ancora dicono), l'arte suo principio dalla natura. Ma bene tanto in favore di lei si può dire, che procedendo essa dalla parte nostra divina, ch'è l'intelletto, non pure imita la natura. Perché se solamente intorno a quella imitazione stesse occupata e più avanti non si stendesse, egli non è dubbio alcuno ch'ella non le fosse ancora inferiore di gran lunga ch'ella non è, per esser sempre quegli ch'alcuna cosa imita di men valore che la cosa da lui imitata. Ma ella è tale che ancora migliore e più la rende perfetta, ch'essa da se medesima esser non basta; il che in molti de' parti suoi, e specialmente in quelli che la terra produce, si può chiaramente vedere; nella quale essa, insieme con gli spini e co' triboli, le cose all'uso del vivere umano pertinenti mescolatamente ci porge. Laonde, se il diligente coltore con artificiosa mano non iscegliesse poi dalle buone erbe e feconde le sterili e le ree, assai men grano che loglio et avene si mieterebbe che non si fa. Ma leviamoci ancora alquanto più alto, dall'erbe agli arbori venendo; ora, non veggiamo noi fare il medesimo a molte di quelle piante che dal seme surgono? Certamente sì, conciò sia ch'esse il più delle volte sogliono tralignare et i frutti loro agri et insipidi produrre. Ma se elleno s'inseriscono poi con felici rampolli d'altri frutti diligentemente e maestrevolmente, dolci e saporiti divengono. Perciò che quelle dalle loro radici, per le quali la virtù et il vigore del terreno si sparge, cibo e nodrimento ricevono, il quale poi digesto (nella guisa che le nutrici il boccone di pane o d'altra cosa a' bambini porgendo soglion fare) porgono ai tronchi in esse innestati, la cui virtù per i nuovi rametti spargendosi, soavissimi frutti e preciosi fuori ne manda.</p>
+<p>Pertanto dico che niuno (a mio giudicio) fu, né è o fia già mai, di questo nome poeta vero e legittimo possessore se prima l'ingegno suo fertile non coltiverà con l'arte. Perciò che né quello senza questa, e allo 'ncontro, senza quello l'arte e gli ammaestramenti tutti, non vagliono ad un poema formare che veramente laudabile si possa chiamare; ma con la natura l'arte accompagnata sì bene, e da quella questa e questa da quella amichevolmente e vicendevolmente aiutata. La qual cosa, come fare si possa, con certi ragionamenti avuti dal mio sempre venerando signore e dottissimo precettore, Messer Trifon Gabriele, meco e con duo suoi nepoti, in Bassano l'anno di nostra salute millecinquecento e trentatre, io ora a voi, molto reverendo et illustre Signor mio, intendo di dimostrare; sì come a colui il quale fra l'altre molte doti dell'animo celesti e sempiterne che in voi a guisa d'un chiaro sole risplendono (quelle tutte che e benigna fortuna et amica natura con larga e piena mano vi diedono, sì come frali e caduche lasciando da parte stare) non pure de' poeti così greci come latini studiosissimo siete, ma di quelli eziandio che nella nostra volgare e natìa lingua scrissero. Alla quale come che non pure la città di Firenze i primi et i più onorati ma molte dell'altre d'Italia abbino già dato scrittori, Vinegia vostra, se ben si risguarda, oltra l'averle dato il gran Bembo (il quale i suoi stretti termini ampliando et allargando, le ha tanto di splendore e d'ornamento aggiunto ch'ella ne può sicuramente ricca e superba andare) via più che ciascun'altra, molti altri ancora ne le può promettere. Che dirò io del dotto Valerio? Che del gentil Brevio? Che del mio giudizioso Cappello? Del Molino? Del Grazia?. E di tanti altri diligenti coltori et osservatori di lei? Per la qual cosa io non dubito punto ch'ella non sia ogni dì più crescendo, per farsi molto maggiore e più bella di quello che noi ora essere la veggiamo; et oltre a ciò, che avendo essa chi in lei dell'arte alcuna cosa scriva, non sia ancora per avere (volgendo gli anni) copia d'ottimi e perfetti scrittori, non meno per aventura che s'avesse l'antica romana. La quale, a guisa di tenera e fanciulla verga (come ora si può dire che questa sia) non pure da dotta poetica mano, et istorica et oratoria et ultimamente di tanti altri diligenti coltori delle buone lettere nodrita, è poi in tanta altezza e bellezza cresciuta, e que' fiori e que' frutti, ha produtti che noi veggiamo, ma da molti ancora eccellenti scrittori dell'arte, che tutto dì si leggono e tengonsi per mano degli studiosi, come nelle retoriche di Marco Tullio e puossi d'Orazio nell'<title>Arte Poetica</title> manifestamente vedere. Per le quali vestigia gli uomini latini di que' tempi potevano, caminando, agevolmente ad alcun fine o ver termine d'alcun loro desiderio, che quelli di questo non fanno, pervenire. I quali, questi tali ragionamenti leggendo et in essi se non tutti que' precetti, ammaestramenti o regole dell'arte del dire, almeno i principali e più necessari ritrovando, chi sa che et essi ancora per aventura allo scrivere non solamente novelle, sonetti et amorose canzoni, ma più alti, più gravi e più gloriosi poemi, che questi non sono, non si diano? Il che se essi faranno, daranno eziandio a molti, che dopo loro verranno, materia e cagione di nuove osservazioni e nuove regole iscrivere, e più ampiamente ch'io fatto non avrò. Conciò sia cosa che molte orazioni e molti poemi si leggono ne' quali tante e tali vaghezze e bellezze vi si veggono, aggiunte dagli scrittori medesimi di quelli, che si può con verità dire l'arte avere di nuove osservazioni bisogno. E che più? Quegli eziandio che composero primieramente l'arte del dire non furono però tanto in quella essercitati che potessino tutte quelle cose minutamente vedere, che loro intorno a ciò de mestiero facevano.</p>
+<p>Dico, adunque, che essendo Messer Trifone in Bassano, luogo e per la bellezza del sito (perciò che in su la riva di Brenta, non molto dal suo fonte lontano, e fra' monti di Vicenza e quelli di Trevigi et il piano di Padova è posto) non pure a riguardar dilettevole, ma molto civile e di quelle cose le quali a sostentazione della vita umana son necessarie, abbondantissimo; et avendo esso lungo la riva del fiume preso una picciola casa, quivi insieme con duo suoi nepoti, Messer Andrea e Messer Iacopo Gabrieli, molto gentili e cortesi giovani, parte delle ore del giorno lunghissimo (perciò che di maggio era) in cantar tutto solo di colei le lode che della nostra salute fu genitrice, e parte in non meno utili che piacevoli ragionamenti con i duo sopra nomati giovani, dispensando, si stava. Nel qual luogo ritrovandomi io ancora, sì come colui che a dovervi alcun giorno dimorare da loro per lettere era stato invitato, avenne ch'entrati una matina in camera di Messer Trifone Messer Iacopo et io, e quivi per commandamento di lui a seder postici, venendomi per aventura nella destra mano di Messer Andrea veduto un libro, il quale egli di nascondere cercava, temendo non forse da me vedute fossero alcune annotazioni che nel margine di quello (sì com'io poi m'accorsi) erano, così verso lui rivolto a dire incominciai:</p>
+<p>«Cotesto, che libro è egli, Messer Andrea? Deh, se non vi è grave, lasciatemelo, vi prego, vedere».</p>
+<p>«Orazio», rispose egli; e datomelo e apertolo mi corse per aventura dinanzi agli occhi quel luogo della sua <title>Poetica</title> ov'ei dice:
+<quote rend="block"><lg><l>Fu prima questa sapienza, quella</l>
+<l>Che dal privato il publico divise;</l></lg></quote>
+il qual luogo com'io vidi, così subito il libro ricchiuso et a Messer Trifone rivolto, dissi:</p>
+<p>«O quanto mi sarebbe stato caro, Messere, che voi ancora vi foste ritrovato presente ad un ragionamento il quale non ha molti giorni che da una brigata di dotti e molto giudiciosi uomini fu fatto in Padova et in casa il dottissimo Monsignor Vescovo di Fano, ove intervennero Messer Giovan Brevio, Messer Domenico Moresini, Messer Luigi Priulli, Messer Benedetto Lampridio e molti altri . E quivi d'uno in altro ragionamento travalicando, si venne finalmente a parlare di poesia e di poeti, per le lode de' quali buona pezza s'andò spaziando Messer Lampridio, molte belle cose in favore e commendazione di quelli dicendo. Le quali poi il Moresini, non per biasimare l'arte o gli artefici suoi (sì com'io credo), ma come quegli a cui pareva che a' poeti molte di quelle cose fossero state date che a' filosofi andavano, tutte ad una ad una confutò».</p>
+<p>Allora Messer Trifone: «A me veramente rincresce» egli ancora rispose, «di non essermi ritrovato presente a cotesti ragionamenti che voi dite, Daniello, i quali si dee credere che stati bellissimi siano, quando in quel luogo e da quegli uomini che voi ci raccontate furon fatti. Ma poscia ch'allora non mi vi trovai, non vi incresca di fare che io ora mi vi ritrovi quali furon quelle cose che in favore de' poeti arrecassi Messer Lampridio e quali quelle ragioni che a lui contradicendo addusse Messer Domenico pienamente raccontandomi, se esse per aventura vi sovvengono.«</p>
+<p>«A me» risposi io incontinente, «non sovvien egli già, Messere, come o da qual altro ragionamento in questo di poesia per costoro si entrasse. Questo tanto mi ricorda egli bene, che parlandosi di questa materia diceva Messer Lampridio che se bene alla eccellenza e grandezza di quella aver si devesse risguardo, vedrebbesi chiaramente niuna altra scienza o arte più antica, più nobile o maggiore di quella essersi ritrovata già mai. E quinci poi, argomentando, affermava esser al poeta via più che ad alcun altro scrittore conceduto di potere esso non solamente tutte le cose che da tutti gli uomini si fanno, tutte quelle che sono da loro intese e conosciute, tutte quelle ch'essi contemplano, sotto certi numeri e vari ornamenti del dire, meravigliose fizioni, favolosi velami et allegorici sentimenti occultando, isprimere e narrare, ma quelle ancora di Dio e di natura. Né per altro essersi lasciato scritto nelle antiche carte il sacro interprete degli iddii, Orfeo, aver mitigato le crudelissime tigri, fatto a' superbi e feroci leoni deporre la rabbia loro, se non perché esso con la sua eloquenza poetando tolse gli uomini, rozzi e senza alcuna legge viventi, dalle occisioni e violenti rapine che tutto dì fra essi medesimi commettevano e dalle selve nelle città a civilmente e costumatamente viver ridusse. Né per altro Amfione col dolce suono della sua lira, pietra sopra pietra ponendo, averne edificata la città di Tebe.</p>
+<p>“Chi primieramente” diceva egli seguendo, “divise e seperò dalle publiche le private cose? Il poeta. Chi le sacre e divine dalle scelesti e profane? Il poeta. Chi trovò l'uso dello unirsi insieme gli uomini e le donne con irressolubil nodo, che prima a guisa che fanno gli animali bruti con cui più loro era in grado usavano, se non e' poeti? Essi co' versi loro edificarono le città, diedono alle edificate leggi, insegnarono come reggere e governare uom le devesse, come se medesimo, come la sua famiglia. Essi la tenera bocca de' fanciulli, non bene ancora dal latte rasciutta, snodano, muovono e figurano, poco dopo loro il petto formando, di buoni ammaestramenti e di fedeli consigli riempiendolo. Essi ora col pensiero riguardando quale spirito muova il cielo, onde venga la vita agli animali, quali siano delle cose le prime cagioni, ne danno sovente a divedere; il corso di quelle stelle che, per lo continuo loro torto viaggio che corrono, erranti chiamate sono, e quali di loro ora agli occhi de' mortali nascendo si dimostri, ora verso l'occaso fuggendo si nasconda, manifestamente dimostrandoci. Solo il poeta co' suoi versi risveglia altrui dal sonno corporeo alle vigilie della mente; dalle oscure e folte tenebre della ignoranza scorge nel chiaro e bello splendore del vero; richiama dalla morte alla vita, dalla oblivione delle cose celesti e divine alla rimembranza e riconoscenza di quelle, preme, stimola, infiamma e commove; altrui belle et alte operazioni con grandissima copia e con bellissime figure descrive. Finalmente si può dir che:
+<quote rend="block">Nulla al mondo è che non possino i versi”.</quote></p>
+<p>«Queste e cose altre molte, che ora non mi sovvengono, arrecò Messer Lampridio in commendazione de' poeti, e già si taceva quand'il Vescovo a Messer Luigi et al Moresini rivolto, così un pocolin sorridendo disse: “E sosterrete voi e tacendo confesserete (come si suol dire) che tutto quello che per Messer Lampridio s'è detto de' poeti sia vero, e cioè che molte di quelle cose che esso loro attribuisce, loro più proprie siano che de' filosofi? O pur in soccorso di quelli vi leverete a provar il contrario?”. Allora il Priulli: “Io non so” disse, “quando ben vi riguardo, uomo qui fra noi veder a cui più questo ufficio di mantenere le ragioni e le parti de' filosofi si richieda, di quello che si faccia a Messer Domenico nostro, sì come a colui il quale negli studi della filosofia ha più l'ingegno assotigliato e più anni speso che voi né io abbiamo. E pertanto, Monsignore, si vuole che voi a lui questo carico imponiate”. “Guardate, Messer Luigi”, rispose subitamente il Moresini, “di non esser o per adulatore, non dicendo voi il vero, o di dirlo credendo, per uomo di poco giudicio e basso tenuto da chi vi ascolta, mentre voi d'atribuire a me più di lode e d'onore che di vero non mi si conviene, v'affaticate; benché assai meglio averebbe fatto Messer Lampridio, stando esso dentro a' suoi termini e non ponendo (come si suol dire) la falce negli altrui campi, a laudare i suoi poeti senza dar loro quelle cose che loro nel vero non sono, ma de' filosofi. La qual cosa s'egli fatto avesse, a me non arebbe dato cagione ora di dire contra essi quello ch'io sono di dire sforzato, non tanto per diffendere la verità della cosa quanto per ubidire a Monsignore che lo mi impone, con la bona licenzia del quale incomincierò”.</p>
+<p>«E da capo fattosi tutto quello che detto avea prima Messer Lampridio confutando, diceva non i poeti ma bene i filosofi aver primieri della prima cagion delle cose trattato, disputato et iscritto: del movimento del cielo; come et onde venga la vita così a quelli animali che con ragion la reggono, come a quelli che con l'appetito. Et oltre a ciò che da loro, non pur (come esso dianzi affermava) da poeti, furono insegnati agli uomini i costumi e la vera via del bene e dirittamente vivere dimostrata; instituite le republiche e le leggi; né pure aver i poeti alcuna republica constituita in alcun tempo, ma non esser dai constitutori medesimi di quelle in esse stati ricevuti già mai. E ciò col testimonio di Platone affermava, dicendo che in quella ch'egli ne' suoi dialoghi s'ingegna di perfettamente formare, non vuole che essi in alcun modo abbian luogo, sì come coloro i quali con le lor favole e menzogne hanno molte cose false e bugiarde narrato degli iddii loro, cose di loro non degne attribuendo sovente, sì come sono gli affetti dell'animo, i risi, i giuochi e mille altre lascive et inconvenienti cose; et oltre a ciò con orribili e spaventevoli fizioni e tristi lamenti e pianti l'altrui menti di vano terrore ingombrate. Le quali tutte cose tanto meno dever esser ascoltate o lette da' fanciulli, o da quegli uomini che di viver liberi nelle loro republiche desiano, quanto denno essi ancora vie più la servitù temere che la morte, affermava; soggiugnendo appresso che a coloro i quali noi dobbiamo desiderare che forti e temperati cittadini siano, si convenga insin dalla puerizia loro quelle cose imitare che bastino a renderli tali, quali esser deono quegli che le città hanno a reggere et a governare, e non quelle che ad uomo non s'appartengono, sì come sono le feminili, i convitanti, i bevitori, i lascivi giuochi, e mille altri disonesti atti — atti propriamente a destar ne' casti petti de' giovani mille insanabili cure, mille illeciti desii e mille cocenti fiamme accendervi. Le quali cose esser loro spesse fiate di grandissima vergogna e talor di dolorosa morte state cagione dimostrava, sì come fu alla infelice giovane da Ravenna et al cognato di lei il legger ch'essi fecero degli amori di Lancilotto e della reina Ginevra, adducendo sopra ciò il testimonio di Dante quando esso, in persona della donna parlando, dice:
+<quote rend="block"><lg><l>‘Noi leggiavam' un giorno per diletto</l>
+<l>Di Lancilotto, com'amor lo spinse.</l>
+<l>Soli eravamo, e senz'alcun sospetto,</l></lg>
+<lg><l>Per più fiate gli occhi ci sospinse</l>
+<l>Quella lettura, e scoloroci il viso;</l>
+<l>Ma sol un punto fu quel che ci vinse.</l></lg>
+<lg><l>Quando leggemmo il desiato riso</l>
+<l>Esser basciato da cotanto amante,</l>
+<l>Questi, che mai da me non fia diviso,</l></lg>
+<lg><l>La bocca mi basciò tutto tremante’.</l></lg></quote></p>
+<p>“Vedete, vedete or voi, Messer Lampridio, di quanto utile e di quanto pro siano i vostri poeti a coloro che non effeminati e vili, ma forti e temperati cittadini esser deono, et a ciò assuefarsi, dalle loro lezioni presi, quelle cose ad imitare si pongono che più per loro fuggire si deveriano. E quinci avien poi che là onde noi attendiamo che essi Catoni, Scipioni o Fabrizii divenghino e, ci riescono e Nini Sardanapalli, o veramente tali quale dimostra Omero essere stato il troiano pastore, il quale dal suon delle trombe, ma troppo più dalla faccia degli inimici spaventato, lasciate l'arme di Malarte per quelle di Venere, dal campo in letto et in braccio a colei, che poi fu di lui, del padre, de' fratelli e finalmente di tutta l'Asia ruina, fuggendo si ricoverava. Ora, l'istesso poeta (lasciamo andare che esso molte volte, quando in persona di questa deità e quando di quella, pianga e si dolga di aver mortali figliuoli generato), non induce egli simigliantemente Giove grandissimo di tutti gli altri iddii (se si dee credere alle favole) incontinentissimo, e da focosa libidine sorpreso aversi in grembo all'amata Giunone, le cose più importanti degli iddii e quelle altresì degli uomini insieme obliate? Altri non si vergognarono introdurre Diana, che si dice esser dèa della castità, ne' teatri et in scena tutta lasciva et a guisa di forsennata furiando. Queste sono le cose, Messer Lampridio, che i vostri poeti, cui voi cotanto lodate, ci insegnano. Questo è l'utile che noi dalle loro lezioni traggiamo. Deh, quanto faresti voi meglio (lasciando da parte stare la poesia sì come vana ch'ella è e non necessaria) ad essortare i discepoli vostri agli studi della filosofia, la quale ci può sola, non pur i costumi buoni e la via del ben vivere dimostrare, ma (quello che è più) insegnarci eziandio a discerner dalle cose false le vere. Questa si dee solamente curare, questa seguire, questa prendere, e come carissima e vera madre di ciascun'altra scienza, strettissimamente abbracciare”.</p>
+<p>«Quivi Messer Lampridio: “Egli non vi si nega, Messer Domenico”, rispose, “che la poesia sia cotanto agli uomini necessaria quanto è la filosofia. Ma direm noi per ciò che le cose alla vita di loro necessarie sieno sempre e le più belle e le più nobili? Certamente no. Anzi perciò che ella necessaria non è, maggiormente si prova la bellezza e nobilità sua che non si farebbe s'ella fosse come voi diceste. Conciò sia cosa che, se ben si riguarda le cose all'uso della vita li umana necessarie, e senza le quali far non si può, veggiamo sempre (per la gran parte) esser d'assai men valore che quelle le quali non sono tanto necessarie. Veggiamolo con l'essempio. Chi non sa ch'egli è necessaria all'uomo la abitazione, il mangiare, il bere, il dormire e simili altre cose? Ma il soggiornar poi più in una picciola casa a matoni o a pietre semplicemente fabricata, che in un grandissimo palagio a marmi et ad oro, con estrema cura e diligenza messo; lo scacciare da sé la fame e lo spegner la sete con più dilicate vivande et ottimi vini, in terra et in vetro che in argento e oro; il riposarsi più ne' grossi et aspri panni che nelle morbide porpore; il ricoprir più di quelli le membra che di queste; procede più tosto da basso e povero cuore che da alto e magnifico. Ora che cosa vediamo noi tutto dì esser all'uomo <add resp="ed">più necessario</add> (quand'egli per ciò e per l'intelletto a ciascun altro animale sovrasta) che il parlare, per poter esso col mezzo di quello i suoi concetti esprimere, quelle cose chiedendo che di mestieri gli fanno? Certo, se ben si considera, niuna. Negheremo noi per questo che 'l bello e leggiadro parlare, di mille vaghi colori ornato, pieno di numerosa armonia e di sentenze gravi, sia men necessario che il rozzo et incolto? E posto ch'io non vi nieghi esser più proprio del filosofo l'insegnare che del poeta, non vi concedo però che proprio ancora di questo lo insegnare non sia.</p>
+<p>“E che 'l poeta a bene e civilmente vivere n'ammaestri e ci sia scorta alla via delle virtuose operazioni, vi potrei io col testimonio d'Orazio e quegli con l'auttorità d'Omero far chiaro. Ma ben è vero che i modi e le vie dello insegnare che essi usano di tenere son diverse. Imperciò che 'l poeta molte di quelle cose che il filosofo suole con poche e tenui parole disputando trattare, con ogni gravità e giocondità esprime. E come il discreto e saputo medico, per gli altrui deboli et infermi corpi render sani, suole spesse fiate, sotto picciola coperta di dolcezza la medicina velando, il gusto di quelli ingannare; così il poeta sotto varie fizioni e favolosi velami alcun utile ammaestramento ricoprendo, gli animi per gli orecchi alletta et a sé trae degli ascoltanti o de' leggenti. Oltra che esso ora quasi rapido e rovinoso torrente d'altissimi gioghi de' monti al piano, o come acceso folgore dal cielo scendendo l'altrui menti percuote, perturba et infiamma. Ora (come a lui piace) le mitiga, quete e tranquille rendendole; ora, non altrimenti che canoro cigno, alto le lode dell'altrui virtù portando, con soave canto da terra al cielo si leva; ora, il vizio biasmando, a basso discende; grandissimi numeri, bellissime sentenze e figure, et altri mille ornamenti del dire usando. Laonde allo 'ncontro l'orazione et il parlare del filosofo (per lo più) suol esser secco, senza niuna forza in sé, senz'alcun poetico stimolo, senz'alcuna cosa irata, crucciosa, piacevole, dolce, mirabile et astuta avere già mai”.</p>
+<p>«Già si preparava alla risposta il Moresini quando ridendo Messer Giovan Brevio verso il Vescovo rivolto “Monsignor”, disse, “egli si vuole che voi siate giudice e sopra questa questione date sentenzia finale; altrimenti io non vedo come terminare si possa questa lite”. “E bisogna prima che meglio oda il giudice le mie ragioni che egli fatto non ha”, rispose il Moresini, “la qual cosa non essendo egli a dever fare disposto e mi condanni, io sono uomo d'aiutarmene al sindacato”. “Voi non sapete ancora che uomini siano i poeti, Messer Domenico”, rispose incontinente il Brevio, “perciò che se voi li conosceste (come io fo) forse non la vorreste con esso loro, e quando bene Messer Lampridio avesse detto qualche bugia de' poeti, essendo egli poeta altresì, sì li devereste perdonare e chiamarvi per vinto. Il che se voi non farete, rendetevi certo ch'egli vi armi contro tanti endecasillabi, che tardi di non averli ceduto vi potreste per aventura pentire”. E così detto, tuttavia ridendo, et egli e gli altri tutti in piè si levarono, e, tolto dal Vescovo commiato, chi qua e chi là per le loro bisogne s'andarono».</p>
+<p>Allora Messer Trifone, che buona pezza tutto quello che io detto aveva attentissimo e cheto s'era stato ad ascoltare, disse: «Bellissimi nel vero e dottissimi ragionamenti furono cotesti che a voi ci raccontate, Daniello. Ma parmi che molte altre cose ancora s'averiano potuto dire in commendazione della poesia, oltre a quelle che disse Messer Lampridio, facendo il poeta filosofo. Conciò sia cosa che così lo chiamarono gli antichi, e la poesia prima filosofia si disse (come aver più volte in più luoghi letto mi soviene). Né si può dirittamente, senza alcuna cognizione di lei avere, alcun uomo vero e perfetto poeta chiamare, ma più tosto ignobile e di volgo. E lasciamo stare che Orfeo et Amfione facessero o no que' miracoli di trar gli uomini dalle selve e dai luoghi più inospiti e diserti alla coltura e nelle città, e che essi quelle edificassero, ché voi mi potreste rispondere e dire ch'elle sian favole. Ora, non si legge egli di Numa Pompilio, secondo re di Roma, che esso co' versi suoi in onore e commendazione degli iddii composti, e nelle solenni cerimonie e ne' publici sacrifici cantati, fece veramente quello che del figliuolo d'Apollo e di Caliope si favoleggia? E Solone, il quale fu quegli che prima diede agli Ateniesi le leggi in verso descritte, fu cagione che quella si rivocasse e del tutto via si togliesse, la quale col consentimento di tutta la città era stata constituita: e ciò era ch'a niun fosse lecito far della guerra di Salamina menzione, né a quella il popolo essortare; d'esser pazzo divenuto fingendo, que' versi i quali avea scritto in pro di quella cotale impresa, publicamente per le piazze e per le strade leggendo, fu da' suoi cittadini eletto per general capitano e duce di quella.</p>
+<p>«E non dice egli in un de' suoi dialoghi Platone, i poeti esser stati maestri, padri e duci della sapienzia? Né pur in quel luogo dimostra il medesimo averli lodati; ma in quel libro ancora ch'egli ci lasciò scritto <title>Del sommo bene</title>, l'arti e le scienze tutte, così divine come umane, in un poema d'Omero esser raccolte, et ivi non altrimenti che in lor proprio ricetto et abitacolo soggiornare, afferma. Né mi negheranno i filosofi medesimi che Platone et Aristotele tutta la loro filosofia e gli ammaestramenti che per quella ci danno, con essempi et auttorità d'Omero e d'Esiodo et altri poeti di que' tempi non confermino. Né posso non grandemente dell'ingegno e della profonda dottrina di esso Platone meravigliarmi, il quale mentre di voler biasimare i poeti s'affatica, è da ciascuno delle di lui cose intendente per sommo poeta tenuto et istimato. Niuno è de' suoi dialoghi (lasciando ora da parte que' versi ch'egli di Alexi, di Fedro, d'Agatone e di Dione Siracusano compose) nel quale egli non pur sotto favoloso velame e misterio (nella guisa che i poeti soglion fare), ma con chiarissimi e risplendenti lumi di parole e con grandissimi numeri, i suoi concetti non esprima. Il perché a me pare, quando esso vieta nella sua republica deversi i poeti ricevere, ch'a lui avenga quello che già ad un nostro cittadino avenne; il quale, avendo (come noi usiamo dire) messa et ottenuta una parte nel Senato nostro contra gli andatori con arme di notte, ritrovato non molto dopo in quella guisa nella quale vietato aveva che per alcun andar si devesse, fu dalla famiglia della Signoria preso e per quella legge medesima che imposto aveva, punito. Oltre che se noi bene que' dialoghi considerar vorremo, manifestamente si vedrà che egli non di tutti i poeti intende, ma solamente de' comici e de' tragici e d'altre simili imitazioni, per quelle ragioni che voi dite essere state da Messer Domenico allegate».</p>
+<p>Tacevasi, così detto, Messer Trifone, quando Messer Andrea Gabrielle (che il maggior era dei duo suoi nepoti) in questa maniera a favellare incominciò: «Poscia che noi, Messere, in questi ragionamenti di poesia e di poeti entrati siamo, a me sarebbe (s'a voi grave non fosse) gratissimo che voi ora di quello che già molti giorni ha, che voi ne prometteste a mio cugino et a me, e cioè di quelle tre parti delle quali ciascun poema si forma, ci ragionaste. La qual cosa, oltra che a noi due et utile e profittevole fia, sì non deverà ella ancora dispiacere al nostro Daniello, come a colui il quale ho io conosciuto sempre amicissimo de' poeti e che ne ha col suo dire dato materia di parlarne «. Allora io: «Per poco amador del nostro comun padre, di Messer Iacopo, e vostro, mi terreste voi, Messer Andrea, quando voi credeste che et a me ancora non devesse piacere tutto quello che et a loro aggrada et a voi. E vovi dir più, che io ancora di quello stesso (che voi, me da questo peso sottraggendo, avete fatto) ne lo voleva pregare, se non me ne avesse ritenuto la reverenza ch'io meritamente li porto, e parte la credenza ch'io aveva ch'egli fosse già stanco e d'udire me e di parlar egli».</p>
+<p>«Stanco non sono io già, né voi ancora, figliuoli, gravi o noiosi mi siete», rispose Messer Trifone, «e volentieri quello onde voi mi ricercate, piacendo così a colui a cui tutte le create cose vivono, se non così a pieno come voi per aventura ch'io far debbia ad intendere vi date, farò. Conciò sia cosa ch'io ami meglio esser da voi di poco sapere che di molta discortesia in ciò che per me fare si può, non compiacendovi, accusato». «Incominciate pure, Messere», rispose a queste parole Messer Iacopo, «ché noi certissimi ci rendiamo che le cose che voi ci esporrete abbino ad esser tali, che noi di avervi in così fatto ragionamento sospinto non ci pentiremo».</p>
+<p>«Adunque», seguitò egli, «devendo noi, figliuoli, del poema trattare, convenevole cosa e necessaria parmi che noi prima brevemente che cosa sia essa poetica facultà dimostriamo, che l'ufficio del poeta, che il fine, et poscia del poema e delle sue parti ragioniamo. Pertanto dico non senza grandissima ragione essere stata essa poetica dagli antichi e sapientissimi uomini alla pittura assomigliata, e detto essa pittura altro non esser che un tacito e muto poema, et allo 'ncontro pittura parlante la poesia. Perciò che come l'imitazione del dipintore si fa con stili, con pennelli, e con diversità di colori (co' quali esso poi, la natura, gli atti e la sembianza o d'uomo o d'altro animale imitando, ci rende la imagine di quello al vivo somigliante), così quella del poeta si fa con la lingua e con la penna, con numeri et armonie. L'ufficio veramente è poi lo scrivere cose atte et accommodate allo insegnamento et al diletto, il fine, per mezzo di quella scrittura insegnare e dilettare parimente; come ancora l'ufficio dell'oratore è il parlare atto e conveniente alla persuasione, il fine, attamente parlando persuadere; e del medico il curar con diligenza l'infermo, il fine, con la cura sanarlo. E tutto che sempre non persuada i giudici l'oratore, e non guarisca il febricitante il medico, nientedimeno può così l'uno come l'altro (senza alcun biasimo) contentarsi del suo fine, quegli d'aver bene et elegantemente detto, questi ottimamente curato. Ma del poeta non avien egli già così, il quale se non insegna sempre e non diletta gli ascoltanti o leggenti, non si può giudicare, né si dee, degno di cotal nome.</p>
+<p>«Né vi starò io ora a raccontare, figliuoli, quale de' poemi attivo, quale misto (o comune che dir ci piaccia), e quale narrativo si chiami; e che nel primo il poeta, ora sotto l'altrui persona e quando negli altri duo sotto la sua e l'altrui mescolatamente, e quando la sua solamente, ragioni o favelle; né come o quando o qual si fosse la cagione per la quale alla tragedia et alla comedia fossero primieramente dagli loro inventori medesimi tai nomi, le persone, i cori, i prologhi e la moltitudine degli istrioni attribuite. Le quai tutte cose lievissime e di niun momento sono, e non bene a quello che nostro intendimento è di fare, si confanno.</p>
+<p>«Lasciando, adunque, queste da parte stare e del poema in genere parlando, dico tre esser le cose principali dalle quali esso suo stato e suo esser prende: l'invenzione prima delle cose, o vogliam dire ritrovamento; la disposizione poi, o ver ordine di esse; e finalmente la forma dello scrivere ornatamente le già ritrovate e disposte, che (latinamente parlando) elocuzione si chiama e che noi volgare, leggiadro et ornato parlare chiameremo. Adunque dalla prima di queste tre parti incominciando, dico niuna materia esser (com'alcun crede) ad esso poeta determinata, anzi essergli conceduto ampia licenza (sì come ancora è al dipintore di finger molte e diverse cose diversamente) di potere di tutte quelle cose che in grado li fiano, ragionare et iscrivere. Ben è vero che egli dee sempre aver risguardo di scegliere di tutte il più bello e vago fiore, e quello poscia in maniera col vivo umore del suo chiaro ingegno coltivare, che né fredda né calda stagione né contraria ventosa pioggia vaglia a troncarlo dal suo proprio stelo, ma dall'oltraggio loro sicuro a perpetuamente conservarsi. Essendo, adunque, non solamente l'umane operazioni tutte ma le cose divine ancora allo scrittore soggetto, fa di mestieri che egli abbia eziandio cognizione se non di tutte le scienze e dottrine, almeno della maggior parte. E non essendo egli perfetto teologo e filosofo, abbia i principii almeno della sovranaturale, naturale, e morale filosofia. Conciò sia cosa che il sapere è principio e fonte dello iscriver bene e dirittamente le cose, e la filosofia sola è quella che ne può amministrar gli alti concetti e le belle invenzioni. Né pur gli antichi Latini (come io v'ho più volte con gli essempi di Virgilio dimostro, il cui divino poema è non altrimenti di ciascuna bella scienza e dottrina cosperso che si sia di vaghe e risplendenti stelle il cielo, qualora egli più lieto e ne' suoi più aperti e lucidi sereni si suol agli occhi dimostrar de' riguardanti), ma et i nostri scrittori ancora hanno negli scritti e poemi loro datone a divedere quanto fosse il conoscimento e la dottrina ch'essi avevano delle cose. Ora non è egli intendimento del nostro divino poeta Dante Alighieri di volerne in tutt'e tre le sue Cantiche dimostrare, niuna altra cosa essere il fine dell'uomo che il sommo bene, il quale solamente nella contemplazione d'Iddio, il quale è esso sommo bene, consiste? E perché, a volere alla contemplazione di esso sommo bene pervenire, bisogna che prima dal vizio ci purghiamo, né possiamo ciò fare non conoscendolo, ci mena all'Inferno, da lui per lo vizio figurato, ove egli de' vizii tutti ampiamente ragiona acciò che noi prima li conosciamo, e conosciuti poi ce ne purghiamo (non potendo prima che conosciuto il male aver cognizion del bene), ci guida al Purgatorio et indi al Paradiso, e cioè ad essa contemplazione di Iddio; alla quale non ci possiamo se non con l'ali delle virtuose operazioni e dai vizii purgati levare.</p>
+<p>«Ma lasciamo al presente Dante (per aventura maggiore e più perfetto filosofo che poeta) e veniamo al Petrarca. Ora chi crederebbe già mai quando in questa e quando in quell'altra canzone del suo lirico amoroso poema, quasi sotto le verdi fronde, nascosto il frutto della sua dottrina ritrovarsi? Vedasi in quella il cui principio è:
+<quote rend="block"><lg><l>Una donna più bella assai che 'l sole</l>
+<l>E più lucente,</l></lg></quote>
+ov'egli sotto allegoria di donna intende parlare della filosofia prima e della teologia poi. Perciò che dicendo egli,
+<quote rend="block"><lg><l>Questa in pensieri, in opre, et in parole,</l>
+<l>Però ch'è de le cose al monde rade,</l>
+<l>Questa per mille strade</l>
+<l>Sempre inanzi mi fu leggiadra altera,</l></lg></quote>
+della naturale filosofia che nella considerazione, della morale che nelle opere, e della razionale che nelle parole consiste, intende. Né senza misterio introduce esso la filosofia, mostranteli la teologia, così dicendo:
+<quote rend="block"><lg><l>Or mira, e leva gli occhi un poco</l>
+<l>In più riposto loco,</l>
+<l>Donna, ch'a pochi si mostrò già mai.</l></lg></quote>
+E perché le sostanze di qua giù vere sostanze non sono, ma imagini et apparenze di quelle, conchiude finalmente il dotto poeta altro non esser la filosofia (rispetto alla teologia) ch'una cotale ombra et imagine di lei, facendole dire:
+<quote rend="block"><lg><l>Io per me son un'ombra, et or t'ho detto</l>
+<l>Quanto per te sì breve intender puossi.</l></lg></quote>
+Stimiamo noi che quando ei disse (seco medesimo degli occhi suoi parlando)
+<quote rend="block"><lg><l>Misero me, che volli,</l>
+<l>Quando primier si fiso</l>
+<l>Gli tenni nel bel viso</l>
+<l>Per iscolpirlo imaginando in parte,</l>
+<l>Onde mai né per forza né per arte</l>
+<l>Mosso sarà, sin ch'io sia dato in preda</l>
+<l>A chi tutto diparte,</l></lg></quote>
+non parlasse, secondo la peripatetica opinione, del sùbito ritorno delle anime, scosse dal fascio gravoso delle loro membra, al cielo? Non secondo l'accademica, ch'è che esse anime, dopo la separazione fatta dalli loro corpi, non rimanghino così tosto dalle passioni che esse hanno con loro comuni libere et isciolte; anzi ne vadino segnate e impresse da quello, non altrimenti che dal suggello la cera, il quale tutto che non rimanga in essa, non è però che egli non vi lascia l'impression sua; dicendo esso:
+<quote rend="block"><lg><l>Né so ben anco che di lei mi creda ?.</l></lg></quote>
+Non vi par egli ancora che nella terza ‘<title>Sorella</title>’ volesse intendere, secondo teologo, di quel sommo bene e di quella intera felicità che qui fra noi non ha luogo, quando dice:
+<quote rend="block"><lg><l>Pace tranquilla senz'alcun affanno</l>
+<l>Simile a quella che nel cielo eterna</l>
+<l>Move da loro innamorato riso;</l>
+<l>Così vedess'io fiso</l>
+<l>Com'amor dolcemente gli governa,</l>
+<l>Sol un giorno d'appresso</l>
+<l>Senza volger già mai rota superna?</l></lg></quote></p>
+<p>«Non come natural filosofo, dell'ufficio della memoria e de' sentimenti esteriori, che son quelli ch'al comune sentimento porgono e rappresentano tutti gli oggetti, i quali poi la memoria, nobile interna potenzia dell'anima, riceve e fedelmente conserva, dicendo agli occhi della amata sua donna:
+<quote rend="block"><lg><l>Fugge al vostro apparire angoscia e noia,</l>
+<l>E nel vostro partir tornano insieme;</l>
+<l>Ma perché la memoria innamorata</l>
+<l>Chiude lor poi l'entrata,</l>
+<l>Di là non vanno da le parti estreme?</l></lg></quote>
+Così dimostrar volendo, la memoria per mezzo della virtù visiva il piacer della veduta donna dentro da se medesima ricevuto, ritenere e conservare in guisa che l'angoscia e la noia (che nel primo apparir de' begli occhi fuggite se n'erano), incontinente ritornando, non sono più da essa memoria ricevuti, ma bene dai sensi esteriori solamente, i qual del loro obbietto (ch'era quella amata vista) vengono a rimaner privi.</p>
+<p>«Non vi par egli ancora che come morale parlasse di quelle quattro perturbazioni dell'animo, che sono (come v'ho detto altre volte) due buone e due ree; buone, la gioia del presente bene e del futuro la speranza; ree, allo 'ncontro, il dolore del soprastante male e la tema ch'uomo ha di quello che li potesse incontrare; dicendo egli della sua anima:
+<quote rend="block"><lg><l>E com'amor l'envita</l>
+<l>Or ride, or piagne, or teme, or s'assecura?</l></lg></quote>
+il simigliante facendo in ciascun'altra stanza di quella canzone. Direm noi ch'egli non volesse intendere di quello amore si dice tener il mezzo fra 'l divino et il ferino non pur in tutto quel sonetto?
+<quote rend="block"><lg><l>Anima, che diverse cose tante</l>
+<l>Vedi, odi, e leggi, e parli, e scrivi, e pensi;</l>
+<l>Occhi miei vaghi, e tu fra gli altri sensi</l>
+<l>Che scorgi al cor l'alte parole sante;</l></lg></quote>
+ma in tutta quella canzone ancora?
+<quote rend="block"><lg><l>Amor, se vuoi ch'io torni al giogo antico</l></lg></quote>
+e spezialmente quando dice:
+<quote rend="block"><lg><l>E poi che l'alma è in sua ragion più forte,</l>
+<l>Rendi agli occhi, a gli orecchi il proprio obbietto,</l>
+<l>Senza 'l qual imperfetto</l>
+<l>È loro oprar, e 'l mio vivere è morte.</l></lg></quote>
+Credete voi ch'egli non devesse sapere eziandio quello che s'importasse sostanza, qualità e quantità, quando disse :
+<quote rend="block"><lg><l>Italia mia, benché 'l parlar sia indarno</l>
+<l>A le piaghe mortali</l>
+<l>Che nel bel corpo tuo sì spesse veggio,</l></lg></quote>
+ponendo ‘le piaghe’ per essa sostanza, ‘mortali’ per la qualità, e ‘sì spesse’ per la seperata quantità? Dico ‘seperata quantità’ a differenza della continua, di cui non tacque in quel verso:
+<quote rend="block"><lg><l>Pensando alla sua piaga aspra e profonda.</l></lg></quote></p>
+<p>«Direm noi ch'egli secondo astrologo in quella canzon: ‘<title>Tacer non posso</title>’ non parlasse degli aspetti delle stelle, il che furono cotanto al nascimento della sua donna seconde e benigne, in questo modo dicendo:
+<quote rend="block"><lg><l>Il dì che costei nacque, eran le stelle</l>
+<l>Che producon fra voi felici effetti</l>
+<l>In luoghi alti et eletti,</l>
+<l>L'una ver l'altra con amor converse;</l>
+<l>Venere e 'l padre con benigni aspetti</l>
+<l>Tenean le parti signorili e belle,</l>
+<l>E le luci empie e felle</l>
+<l>Quasi in tutto del ciel eran disperse?</l></lg></quote>
+Non come geografo in quella canzon al ‘<title>Papa, che la Francia</title>’, et in que' duo sonetti:
+<quote rend="block"><lg><l>O d'ardente virtute ornata e calda,</l>
+<l>Alma gentil,</l></lg></quote>
+e,
+<quote rend="block"><lg><l>Rotta è l'alta colonna e 'l verde lauro,</l></lg></quote>
+ne' quali Italia tutta e tutto il mondo per duo mari e per duo venti ne descrive? nella prima dicendo,
+<quote rend="block"><lg><l>Chiunque alberga tra Garona e 'l monte,</l>
+<l>Entra 'l Rodano e 'l Reno e l'onde salse,</l>
+<l>Le 'nsegne cristianissime accompagna;</l></lg></quote>
+nel secondo,
+<quote rend="block"><lg><l>udrallo il bel paese</l>
+<l>Ch'Appennin parte, e 'l mar circonda e l'Alpe;</l></lg></quote>
+e nel terzo,
+<quote rend="block"><lg><l>Perduto ho quel che ritrovar non spero</l>
+<l>Dal Borea a l'Austro, o dal mar Indo al Mauro.</l></lg></quote></p>
+<p>«Né basta solamente al poeta (come detto si è) lo aver cognizione di tutte queste scienze e dottrine che udito avete, s'egli non averà somigliantemente grandissima esperienza delle cose che et in terra et in mare si fanno, affine che esso possa poi (offerendosi la occasione) descrivere con acconcia maniera una guerra, armare i gran re e gli imperatori, ordinare in belle squadre gli esserciti loro, discender con esse in battaglia, assediare una città, combatterla, e prenderla finalmente; trar di que' luoghi ove si fabricano le navi, armarle, solcar con quelle i profondi pelaghi, dimostrarne come esse da' venti e dall'onde agitate siano. Conosca eziandio l'usanze et i modi del viver delle genti, i costumi, e, per dir brevemente, tutte quelle cose che d'intorno alla pratica consistono. E perché le materie et i soggetti ponno esser molte e fra sé differenti (perciò che ad alcuni sì come a' comici sogliono esser materia le più famigliari e domestiche operazioni, per non dir basse e vili; a' tragici, le morti degli alti re e le ruine de' grandi imperi; agli eroici, i più eccelsi fatti degli imperatori e di altri uomini nell'armi magnanimi e valorosi, sì come quelli d'Achille e d'Ulisse furono ad Omero, a Virgilio d'Enea; ai lirici, le lode degli iddii e  quelle degli uomini parimente, l'amorose giovenili cure, i giuochi, i conviti e le feste; altri hanno i pianti, i lamenti e le miserie, altri i campi, le selve, gli armenti, le gregge e le capanne), è da vedere che ciascuna materia ch'uomo si elegge a trattare sia semplice, cioè sola, e quella sempre dal principio insino al fine. Perché togliendo voi a ragionare di cosa che gravissima fosse, non sarebbe dicevole poi che vi spendeste molto di tempo in descrivervi che si fosse di vago. Et allo 'ncontro, nelle vaghe, quelle che del grave tengono mescolare non si deono.</p>
+<p>«Ora, come sarebbe egli possibile che voi di ridere vi poteste astenere se voi vedeste un uomo d'anni e d'auttorità grave sovra gli altri Senatori della nostra republica stimato, con una di quelle veste in dosso che essi usano di portare le cui estremità fossero poi d'oro e di seta o di diversi colori riccamente ricamate e fregiate? Certissimo mi rendo che voi in niuna maniera ritenervene potreste già mai. Sia dunque, figliuoli, quella materia che di trattar intendete (come io vi ho pur dianzi detto) quella istessa sempre dal cominciamento insino al fine, e non or grave, or vaga, or chiara et alta, or umile et oscura, acciò che noi non fingessimo poi un poema somigliante a quella monstruosa e disparata figura che nel principio dell'<title>arte</title> sua <title>poetica</title> mirabilmente ne dipigne Orazio.</p>
+<p>«Né è solamente da vedere che le parti delle materie che si prendono a trattare abbiano fra loro convenienzia, ma che quelle ancora che alle persone si mandano convenientissime, proprie et accommodate siano; et oltre a ciò, che il parlar che si dà loro sia di soavità, di mansuetudine, di gravità, d'allegrezza, di dolore, e finalmente pieno degli affetti tutti, secondo però la qualità, la degnità, l'abito, l'ufficio e l'età di ciascuna. Il che a dever far compiutamente, fa ancora mestiero che si sappia per colui che far lo dee che niun'altra cosa è più malagevole a conoscer, così in ciascuna maniera di vita come nel parlare, di quella che et a l'una et all'altro si richieda e stia bene, che quello è che i Latini ‘decoro’ e che noi ‘convenevolezza’ sogliamo chiamare. Della quale, chiunque poca o niuna cognizione avesse, non solamente nelle cose ma potrebbe eziandio errare nelle parole. E perché questa convenevolezza non è altro che un cotal abito e proprietà dell'animo, è necessario che devendosi essa a ciascuna persona attribuire, si sappia somigliantemente e si conosca la consuetudine et i costumi di ciascuna età. Perciò che altri son quelli che nella giovinezza degli uomini si scorgono, altri quelli che nella virilità, altri finalmente quelli che nella vecchiezza.</p>
+<p>«Conciò sia cosa che i primi moltissime fiate, senza sapersi essi il perché, temerariamente senza alcuna cagione averne, senz'alcun consiglio, si turbano e s'addirano, si placano e rasserenano; sono con tutti coloro che gli ammoniscono intrattabili; tardi alle utili cose provedere, e dello aver loro non pur liberali ma prodighi; superbi, alteri e disdegnosi; d'alcuna cosa che loro piacia, senza misura cupidi e desiosi, et in quella medesima (s'avien ch'essi la conseguino e possegghino) abbandonar, prestissimi e veloci. L'età virile vien poi, in ragunare e insieme porre molte ricchezze, e tutta intorno gli onori e l'ambizioni occupata. Che direm noi della canuta e matura? la quale, con lento passo procedendo, non altrimenti che 'l verno (per lo quale ella è stata da' poeti figurata), le tempeste, i venti, le piogge e le nevi, seco insieme infinita schiera di vari incommodi, di deboli e fallaci speranze, di fermi e certi timori, il tralasciar delle faccende, i desideri ardentissimi dell'intender le future cose, la malagevolezza di quelle, le poche opere, le molte parole, le lode del tempo andato, del presente il biasimo, et ultimamente tutti i mali e tutti i disagi conduce.</p>
+<p>«È, oltre tutto ciò, da considerare non pure (come detto abbiamo) l'età delle persone che ne' poemi s'introducono, ma l'ufficio, la condizione e la patria delle introdotte; come, per grazia d'essempio, se essi sono dii o uomini; se uomini, o di se medesimi o d'altrui, mercatanti o agricoltori, Italiani o Francesi, Viniziani o Fiorentini, accommodando poi a ciascuno atti e parole proprie e convenientissime; il che nel nostro idioma di poter fare a Dante et al Boccaccio felicemente successe. E perché ne' poemi si pongono persone o note (e cioè da altri iscrittori per là a dietro introdotte) o elle si fingono di novo, bisogna avertimento avere, volendone noi di quelle introdurre che altre volte sieno state da altri scrittori introdotte, di seguitare la fama et il grido di quelle, tali descrivendonele quali elle da loro state prima descritte siano.</p>
+<p>«Simigliantemente avere si dee risguardo che la favola nelle tragedie sia dirittamente composta. E per esser la tragedia imitatrice delle più terribili e misaribili cose, non lecito parmi che in essa si debbiano introdurre uomini giusti e virtuosi in viziosi et in ingiusti per adversità della fortuna cangiati, cosa più tosto scelerata che misera e spaventevole; come né allo 'ncontro ancora si deono i rei e malvagi per la prospera in buoni e giusti mutati introdurre. Né si disdice al tragico, però, di poter scender, quando che sia, con umil sermone a piagnere et a dolersi, perciò che non pare che ben si convenga ad uomo (quantunque grande e di nobil legnaggio sia), fuori della patria sua cacciato, l'usar parole gonfie e superbe nell'altrui. Né si vieta al comico alcuna fiata in parte usar della grandeza del tragico, come il padre irato verso il figliuolo, per aver esso sopra di lui imperio e potestà.</p>
+<p>«Oltre a ciò, perché o le cose in scena si soglion fare o refferirvisi le fatte, è da vedere quali fare vi si deono e quali no. Quelle che far non vi si deono sono le crudeli, l'impossibili e le disoneste; come se Medea, nel conspetto della riguardante moltitudine, i propri figliuoli uccidesse e gli uccisi poi a brano a brano stracciasse e dividesse, e Progne col marito, con la sorella e col figliuolo, dinanzi agli occhi degli aspettatori mettessero ali e diventassero uccelli; e nelle comedie i lascivi basci, gli abbracciamenti et i congiugnimenti venerei, e simili a queste cose. Che la comedia oltre il termine di cinque atti non travalichi, né di qua da quello s'arresti. Che non parlino in essa quattro persone ad un medesimo tempo, ma due o tre al più, e l'altra, da parte, tacita ad ascoltare si stia. Né vi si introduca alcuna deità, se non in quelle cose ove non è l'uomo per se medesimo bastante a poter sciogliere alcuna malagevolezza senza il favore e l'aiuto divino. Tenghino i cori nelle tragedie (quando più nelle comedie non s'usano, ma in lor vece fra l'un atto e l'altro, affine che vota non rimanga la scena, e suoni e canti e moresche e buffoni mescolatamente si sogliono introdurre), tenghino, dico, i cori nelle tragedie la parte de' giusti e de' buoni indegnamente infortunati, diano favore a quelli, agli amici consiglio, regghino gli irati, amino quegli che il peccare abborriscono, laudino la sobrietà, la giustizia, le leggi, la pace; preghino gli iddii che, sdegnando fortuna gli alti palagi e le torri superbe, il cielo con le lor sommità minaccianti, scenda a raconsolare i miseri e gli afflitti.</p>
+<p>«Né basta solamente che il poema sia grave, sia vago, sia di ciascun colore et arte ornato del dire, s'egli non averà poi seco la persuasione, nella quale tutta la virtù e grandezza del poeta è riposta. E pertanto devete affaticarvi, figliuoli, di dir sempre cose che seco l'abbino, e che dolcemente gli animi di coloro che ascoltano o leggono intenerischino e muovino; il che a voler fare, bisogna prima che voi ottimamente intendiate che cosa gli effetti siano, o vogliam dir più tosto le perturbazioni dell'animo (possentissimi mezzi a destar nell'altrui menti il pianto, il riso, l'ira e lo sdegno, e simili), e quali di questi affetti siano poi o dal piacer seguitati o dal suo contrario; et in quante guise ancora a misericordia gli animi infiammare si possino degli auditori; e come poi gli infiammati spegnere sì fattamente ch'essi s'addirino, mansuefacciansi, invidino, favorischino, disprezzino, meraviglinsi, odino, amino, disiderino, sperino, temino, allegrinsi e dolgansi. Né potrete voi ciò fare già mai se gli animi vostri non fiano dentro commossi et infiammati prima. Perciò che come niuna materia è si arida et acconcia ad ardere che vaglia da se medesima a prender fuoco (senz'esserle esso avicinato), così niuna mente è tanto per se medesima atta et apparecchiata a ricever dentro da sé la forza delle  parole del poeta, o vero dell'oratore, che accender si possa se esso poeta od oratore non le si farà incontro prima acceso et infiammato; come creder debbiamo che fosse il Boccaccio allora che egli introdusse Gismonda a fare quelle dolorose lamentanze supra l'amato e morto cuore del suo carissimo e mal aventuroso amante. Le quai leggendo, ben ha di duro smalto adamantino armato il petto colui che dentro a quello e negli occhi, i sospiri e le lagrime può ritenere. Ma come et in quante maniere essi affetti si muovino a suo luogo, Iddio concedente, ragioneremo.</p>
+<p>«Rimane ora a vedere che quelle cose le quali s'hanno a trattare et a descrivere poeticamente siano sempre di meraviglia, di soavità e giocondità piene, e che sempre sul ritrovamento nuove e magnifiche cose si vada fingendo, per gli altrui animi con simili novità dilettare. Ma siate accorti, figliuoli, di mescolar sempre con le vere le false cose, in guisa che né 'l primo dal mezzo, né il mezzo dal fine, si discordi. Dico mescolar le cose vere con le false e fitte, perché non è tenuto il poeta com'è l'istorico di descrivere le cose tali quali elle veramente state et avenute sono, ma ben quali esser devrebbono. Et in questo massimamente è egli dal poeta differente l'istorico, non per lo scriver o non scrivere in verso le cose loro (come alcuni scioccamente credono), perciò che quando bene si tradducessero in verso le  cose tutte di Tito Livio o di qualunque altro eccellente e famoso d'istoria scrittore, né più né meno si direbbe quella esser istoria in legata, che prima si fosse stata in isciolta, orazione. Et anche gli antichi sapienti chiamarono «poetica soluta» l'istoria, e ciò (se ben diligentemente si riguarda) fecero essi non senza grandissima ragione. Conciò sia cosa che molte di quelle cose ha l'istorico che sono con quelle del poeta comuni, sì come sono le descrizioni dei luoghi, de' popoli, delle nazioni, i siti, le leggi, le consuetudini, i costumi, le reprensioni de' vizii, delle virtuti e ben fatte cose le lode. Sono così dell'uno come dell'altro proprie l'amplificazioni, le digressioni, le varietà; ambo studiano in muover gli effetti, il decoro di ciascuna cosa in ciascuna cosa e materia servando; ambo insegnano, dilettano e giovano parimente; ambo le cose ne dipingono e quasi davanti agli occhi le ci pongono. Ma essi sì sono differenti in ciò, che quegli è tenuto a narrar le cose semplicemente, senza aggiungervi o menomarvi alcun'altra cosa, che quando egli ciò non facesse, non meriterebbe d'esser fra gli istorici annoverato; laonde a questi si concede amplissimo privilegio di poter finger molte cose a sua voglia, e di lasciar sempre di non pur descriverne la cosa tale quale ella è, ma di aggiungervi del suo tutte quelle cose ancora che a quello (quando ben vere non fossero) possono e grazia e vaghezza recare.</p>
+<p>«Ben è vero che egli dee sempre vedere ch'esse al vero somiglianti siano, come de' denti del dragone da Cadmo seminati si legge che uomini armati produssero. I quali se in un <add resp="ed">i</add>stante sopra la terra s'avessino veduti apparire, ciò sarebbe pur troppo fuori del verisimile stato; ma cominciando prima pian piano a muoversi le glebe della terra, et indi a poco a poco a surger fuora de' seminati solchi le lance, poscia a discoprirsi i pennacchi e le celate, e non molto dopo gli omeri, il petto e le braccia, e finalmente tutta la persona, è fatto con tanta grazia e tanta leggiadria che se la cosa dovesse esser vera, par ch'ella altramente non potesse avenire di quello ch'egli la ci dipigne. E Dante ancora, volendoci descriver lo 'nferno, si va imaginando una valle profondissima, la quale incominci dalla sommità della terra e vada insino al centro di quella, ognor più restringendosi: e ciò fa egli non senza ragione grandissima; perciò che, essendo Dio sommo bene, somma felicità e somma virtù, chiunque virtuosamente opera, opera secondo lui e vassi con le opere e con la mente ognor più ad esso avicinando; come, allo 'ncontro, chi iniquamente opera, opera diversamente da lui, e per conseguente vien sempre facendosi da lui lontano. Conobbe adunque il dottissimo e giudiciosissimo poeta che se i virtuosi erano da Dio premiati in luogo più a lui che possibile fosse vicino, doversi allo  'ncontro i viziosi punire in luogo da esso lontanissimo; e considerando esso niun luogo potersi ritrovare più distante dal cielo che 'l centro della terra, finge egli in quello tutti que' gironi e que' cerchi, ne' quali (secondo la grandezza delle loro scelleraggini) dice punirsi i viziosi. Così del monte del Purgatorio, così del Paradiso; i quali, posto che così non stessero come egli li ci discrive, quale umano ingegno, qual sì elevata mente si trovò egli già mai che così belle cose e così verisimili (come queste sono) imaginare o descrivere potesse in alcun tempo?</p>
+<p>«Ma l'avervi insin a qui della prima parte del poema, e cioè della invenzione, ragionato, vi basti. Vedete or voi se vi pare ch'alla seconda si passi e di quella si favelli». Quivi, essendogli da ciascuno risposto che s'a lui non fosse noioso, a noi gratissimo era ch'egli questo ragionamento continovasse, esso, riposatosi alquanto, a parlare così rientrò: « Dico adunque, figliuoli, che la disposizione in due guise fare si può: naturale et artificiale. Naturale disposizione è quando 'l poeta dal principio della cosa ch'egli vuol trattare incomincia ad ordire il suo poema e segue ordinatamente dal principio sino al fine, quella istessa narrando e così isponendola come stata è, l'ordine tuttavia de' tempi ne' quali esse cose che si narrano avenute sono, servando. Artificiale è poi quella, quando egli non dal principio, ma nel mezzo della cosa suol incominciar a narrare, e poscia con bel modo introdurre una terza persona che tutta quella tralasciata parte ripigliando, racconti. Ma la naturale è molto più propria dello istorico (al quale si convien seguire l'ordine delle cose fatte, dal principio sino al fine) che non è del poeta, come che noi la vediamo ancora, quando che sia, da essi poeti usata, sì come dal Petrarca nella canzone ‘<title>Nel dolce tempo de la prima etade</title>’, ove egli, dal principio facendosi, narra insino alla fine tutti i suoi amorosi avenimenti sotto le ovidiane trasfigurazioni, che perciò io piccola <emph>metamorfosi</emph> la soglio addimandare. La seconda è de' poeti solamente, i quali il più delle volte pretermettono, e nel principio e nel mezzo dell'opera stessa, di narrar alcuna cosa, quella medesima poi in più commodo luogo e più opportuno tempo differendo. Usolla nella canzon ‘<title>Tacer non posso</title>’ pur il Petrarca, ove natural ordine stato sarebbe se egli avesse prima dal nascimento di Madonna Laura incominciato e detto:
+<quote rend="block"><lg><l>Il dì che costei nacque eran le stelle,</l>
+<l>Che producon fra noi felici</l>
+<l>In luoghi alti et eletti,</l>
+<l>L'una ver l'altra con amor converse;</l></lg></quote>
+e seguitò poi come egli di lei si fosse innamorato. Ma esso l'artificiale usando, che fu:
+<quote rend="block"><lg><l>Ne la bella prigione ond'ora è sciolta,</l>
+<l>Poco era stata ancor l'alma gentile,</l>
+<l>Al tempo che di lei prima m'accorsi,</l></lg></quote>
+fa poscia dir alla fortuna quello che prima taciuto s'era; ad imitazion forse di Virgilio, il quale in persona d'Enea il successo della guerra troiana e la navigazion sua (o vogliam dir gli errori) a Didone nel secondo e terzo libro pienamente racconta.</p>
+<p>«Né mi spiacerebbe, figliuoli, ancora (per esser ciò parte pur della disposizione) che voi ne' vostri poemi rendeste alcuna volta accorti et aveduti i lettori, con alquante parole innanzi annonziatrici, e quasi per entro le nugole loro di lontano il fine determinato di quella cosa dimostranti, a che voi di condurli cercate. Perché lo scorgere o scoprire da lungi a' naviganti già stanchi per lunga fatica e travaglio, o torre di quella città o segno di quel porto ove essi abbino il loro corso indirizzato, suole del lungo viaggio render men gravoso l'affanno, onde essi poi, vie più di lena e di vigor ripigliando, spingono lieti il lor legno. Fecionlo de' nostri scrittori il Petrarca et il Boccaccio, quegli nella canzon ‘<title>Tacer non posso e temo non adopre</title>’ ove dice:
+<quote rend="block"><lg><l>Fra tanti amici lumi,</l>
+<l>Una nube lontana mi dispiacque,</l>
+<l>La qual temo che in pianto si risolve</l>
+<l>Se pietate altramente il ciel non volve,</l></lg></quote>
+accennando così a que' versi:
+<quote rend="block"><lg><l>Detto questo, a la sua volubil rota</l>
+<l>Si volse, in ch'ella fila il nostro stame,</l>
+<l>Trista e certa indivina de' miei danni</l>
+<l>Che dopo non molt'anni</l>
+<l>Quella, perch'io ho di morir tal fame,</l>
+<l>Canzon mia, spense morte acerba e rea,</l>
+<l>Che più bel corpo occider non potea;</l></lg></quote>
+e questi nella novella della donna vedova e dello scolare, dicendo: ‘<quote>Ahi cattivella, cativella, ella non sapeva ben, donne mie, che cosa è il metter in aia con gli scolari</quote>’.</p>
+<p>«E perché suol molte fiate il poeta per entro il suo poema estrinsiche persone introdurre, alcun uomo o ver alcuna cosa laudanti o vituperanti, suadenti o disuadenti, accusanti o defendenti, è a lui necessario (non meno che all'oratore si sia) l'aver piena cognizione ancora di quelle tre maniere d'orare (concedamisi per voi, figliuoli, di poter nelle cose non ancor dette e trattate in questa lingua usar parole medesimamente non più usate, sì come fecero i Greci et i Latini, dalli quali esse cose sono già state lungamente trattate) : la prima delle quali in sé il biasimo e la laude contiene, et è quella ch'appo il popolo s'usa; la seconda è quella nella quale o si persuade o si dissuade alcuna cosa, e questa nel Senato; l'altra quella è che in sé riceve l'accusazione e la defensione, e usasi di parlare in essa dinanzi ai giudici. Nella prima, adunque, di queste tre maniere d'orare lasciò scritto il Petrarca tutta quella bellissima canzone:
+<quote rend="block"><lg><l>Tacer non posso, e temo non adopre</l>
+<l>Contrario effetto la mia lingua al core,</l>
+<l>Che vorìa far onore</l>
+<l>A la sua donna,</l></lg></quote>
+nella qual canzone tutte le laudi di lei si contengono, come ancora in ‘<title>Verdi panni</title>’, ove da' beni della fortuna prima lodandola dice:
+<quote rend="block"><lg><l>Benigne stelle che compagne fersi</l>
+<l>Al fortunato fianco</l>
+<l>Quando 'l bel parto giù nel mondo scorse;</l></lg></quote>
+da quelli del corpo:
+<quote rend="block"><lg><l>Ch'è stella in terra;</l></lg></quote>
+poi finalmente quanto a quelli dell'animo:
+<quote rend="block"><lg><l>... e come in lauro foglia</l>
+<l>Conserva verde il pregio d'onestate,</l>
+<l>Ove non spira folgore, né indegno</l>
+<l>Vento mai che l'aggrave;</l></lg></quote>
+ma più ancora in questi versi:
+<quote rend="block"><lg><l>Gentilezza di sangue, e l'altre care</l>
+<l>Cose tra noi, perle, rubini et oro,</l>
+<l>Quasi vil soma egualmente dispregi.</l>
+<l>L'alta beltà ch'al mondo non ha pare</l>
+<l>Noia te, se non quanto 'l bel tesoro</l>
+<l>Di castità par ch'ella adorni e fregi.</l></lg></quote>
+Compuose e nella seconda il medesimo quella canzone al pontefice che incomincia :
+<quote rend="block"><lg><l>O aspettata in ciel beata e bella</l>
+<l>Anima.</l></lg></quote>
+Scrisse nella terza quella che noi sogliamo chiamare piato, o volete amorosa lite, il cui principio è:
+<quote rend="block"><lg><l>Quel antico mio dolce empio signore</l>
+<l>Fatto citar dinanzi a la reina,</l>
+<l>Che la parte divina</l>
+<l>Tien di nostra natura, e 'n cima siede,</l></lg></quote>
+nella qual canzone se medesimo come accusatore il poeta, amore difendente la sua parte e la ragione in vece di giudice, gentilmente introduce. Che egli sappia ancora preparare, insegnare e muovere, il che si fa proemiando, argomentando e conchiudendo così gli animi dei leggenti o vero degli ascoltanti (innanzi ch'alla esposizione della cosa si venga) ammaestrati, amichevoli et attenti rendendo; e poi ch'egli essa cosa esprima e l'approvi, confermando e benissimo fortificando gli argomenti della sua parte, quelli dell'adversa e contraria rifiutando.</p>
+<p>«Ora quanto alla prima di queste tre parti, è da vedere, figliuoli, che i proemi generali de' vostri poemi non sian gonfi e troppo alti come per aventura stato sarebbe quello della canzon che incomincia ‘<title>Nel dolce tempo</title>’, quando così avesse (come ancora si suole il testo ordinare) incominciato il poeta:
+<quote rend="block"><lg><l>Perché cantando il duol si disacerba,</l>
+<l>Canterò com'io vissi in libertade,</l>
+<l>Mentr'amor nel mi' albergo a sdegno s'ebbe,</l>
+<l>Nel dolce tempo de la prima etade</l>
+<l>Che nascer vide et ancor quasi in erba</l>
+<l>La fera voglia,</l></lg></quote>
+che non fu il dire:
+<quote rend="block"><lg><l>Nel dolce tempo de la prima etade,</l>
+<l>Che nascer vide.</l></lg></quote>
+Questo si vede che fece Virgilio nel principio dell'Eneida, in que' quattro versi poco avertentemente da Varro e Tucca levati, ove umilmente cominciando dice che uscito delle selve, era venuto alla coltura de' campi e quinci poi a cantar del suo Enea, così non il fumo dello splendore, ma del fumo la luce traendo. Ma l'avervi questo tanto intorno a' principii generali dell'opera detto, voglio che vi basti.</p>
+<p>«Ora a' particolari delle orazioni (che sparse per li poemi si leggono) discendendo, dico che l'ufficio del proemio è di renderne gli auditori benevoli, ammaestrati et attenti. Amichevoli gli auditori in tre guise aver si possono, o dalla loro persona medesima o da quella dello ascoltato, o dalla cosa istessa onde si parla. Da quella di colui che ascolta, come quando dice 'l Petrarca al sommo pontefice :
+<quote rend="block"><lg><l>O aspettata in ciel beata e bella</l>
+<l>Anima, che di nostra umanitade</l>
+<l>Vestita vai, non come l'altre carca.</l></lg></quote>
+Così nella prima ‘<title>Sorella</title>’ agli occhi di Madonna Laura (che in luogo posti sono degli ascoltanti) parlando e lodandoli, dice:
+<quote rend="block"><lg><l>Occhi leggiadri, dov'amor fa nido.</l></lg></quote>
+Così Beatrice a Virgilio, appo l'Alighieri :
+<quote rend="block"><lg><l>‘O anima cortese mantovana,</l>
+<l>Di cui la fam' ancor nel mondo dura,</l>
+<l>E durerà quanto 'l moto lontana’.</l></lg></quote>
+Da quella dello ascoltato, quanto più fare per lui si può le sue forze attenuando, come il Petrarca:
+<quote rend="block"><lg><l>A voi rivolgo il mio debile stile,</l>
+<l>Pigro da sé, ma 'l gran piacer lo sprona.</l></lg></quote>
+Dalla materia:
+<quote rend="block"><lg><l>E chi di voi ragiona,</l>
+<l>Tien dal suggetto un abito gentile</l>
+<l>Che con l'ale amorose</l>
+<l>Levando 'l parte d'ogni pensier vile.</l></lg></quote></p>
+<p>«Accorti o vero informati si averanno gli auditori se brevemente e con pochissime parole si sporrà loro la somma di quelle cose tutte che con molte e lungamente trattar intendiamo, come è:
+<quote rend="block"><lg><l>E canterò di quel secondo regno,</l>
+<l>Ove l'umano spirito si purga,</l>
+<l>E di salir al cielo diventa degno,</l></lg></quote>
+et appo il Petrarca :
+<quote rend="block"><lg><l>Qual più diversa e nuova</l>
+<l>Cosa fu mai in qualche strano clima,</l>
+<l>Quella se ben si stima</l>
+<l>Più mi rassembra; a tal son giunto, Amore.</l></lg></quote>
+Attenti, dalla novità e grandezza della cosa; Dante nel principio del Paradiso:
+<quote rend="block"><lg><l>Veramente quant'io del regno santo</l>
+<l>Ne la mia mente pote' far tesoro,</l>
+<l>Sarà ora materia del mio canto,</l></lg></quote>
+perciò che permette di trattar delle cose altissime e divine, quali creder dobbiamo che quelle siano del cielo; et il Petrarca:
+<quote rend="block"><lg><l>vengo a dir or cose</l>
+<l>Ch'ho portato nel cor gran tempo ascose.</l></lg></quote>
+Rendonsi gli ascoltanti attenti ancora invocando quella deità che più alla cosa onde parlar intendiamo par che s'appartenga; come rende il Petrarca in quella canzone nella quale le lode della beata Vergine si contengono, quando egli a lei converso dice:
+<quote rend="block"><lg><l>Ma non so 'ncominciar senza tu' aita,</l>
+<l>E di colui ch'amando in te si puose,</l></lg></quote>
+et altrove il medesimo:
+<quote rend="block"><lg><l>Come poss'io se non m'insegni, Amore,</l>
+<l>Con parole mortali agguagliar l'opre</l>
+<l>Divine?</l></lg></quote></p>
+<p>«Sèguita la divisione, la quale dagli oratori si suol far sempre dopo la narrazione, perciò che essi prima narrano che dividino la causa loro; et, allo 'ncontro, l'usa di far sempre insieme con la Proposizion generale del suo poema il poeta. Come fece il Petrarca nella canzon grande, ove dice:
+<quote rend="block"><lg><l>Perché cantando il duol si disacerba,</l>
+<l>Canterò com'io vissi in libertade,</l>
+<l>Mentr'amor nel mio albergo a sdegno s'ebbe,</l></lg></quote>
+e, subito dopo:
+<quote rend="block"><lg><l>Poi seguirò com'a lui ne 'ncrebbe</l>
+<l>Tropp'altamente,</l></lg></quote>
+soggiungendo appresso:
+<quote rend="block"><lg><l>E che di ciò m'avenne.</l></lg></quote>
+E così per ordine, come propone, seguita poi narrando. E con questi versi,
+<quote rend="block"><lg><l>I' dico che dal dì che 'l primo assalto</l>
+<l>Mi diede Amor, molt'anni eran passati,</l>
+<l>Sì ch'io cangiava il giovenile aspetto,</l></lg></quote>
+risponde alla prima parte della tripartita divisione; alla seconda con questi altri:
+<quote rend="block"><lg><l>Che sentendo il crudel di ch'io ragiono</l>
+<l>In fin allor percossa di suo strale</l>
+<l>Non essermi passato oltra la gonna,</l>
+<l>Prese in sua scorta una possente donna.</l></lg></quote>
+Quanto alla terza et ultima che fu ‘<quote>E che di ciò m'avenne</quote>’:
+<quote rend="block"><lg><l>E i duo mi trasformaro in quel ch'io sono,</l>
+<l>Facendomi d'uom vivo, un lauro verde,</l>
+<l>Che per fredda stagion foglia non perde.</l></lg></quote></p>
+<p>«Oltre a ciò bisogna che noi vediamo ancora d'esser nelle narrazion nostre brevi, aperti e probabili. Brevi saremo se quelle cose che noi stimiamo esser più necessarie toccheremo, e taceremo quelle che così necessarie non saranno, ma soverchie; aperti, quelle che prima state fatte fiano primieramente esponendo, l'ordine però de' tempi e de' luoghi servando; probabili, se noi alle persone, ai tempi, ai luoghi, quelle cose ch'esporre si deono c'ingegneremo di far che consentino, e quelle medesime con l'opinione degli uomini, con l'autorità, col costume, e saranno con la relligione congiunte. Né mi spiacerebbe che voi ne' vostri poemi alcuna volta dal principio della narrazion vostra, o dalla proposta materia deviando, v'allontanaste et andaste vagando alquanto, per esser questa una di quelle parti che più vago e più leggiadro rendono il poema e la scrittura che niuna dell'altre tutte, e che meraviglioso diletto e piacere apporta per la sua varietà a' leggenti. Ma è da vedere che chi ciò fa, non esca del tutto fuori dalla proposta materia, e massimamente ne' poemi continuati. Conciò sia cosa che il poter ciò fare solamente ai lirici quando che sia è conceduto, i quali alcuna volta tanto in alto levati con lo spirito salgono, che in altro luogo vengono a cader poi, da quello onde prima si levarono, lontani. Sì come fece il Petrarca in quella canzone ‘<title>Se 'l pensier che mi strugge</title>’, ove avendo egli incominciato a parlar del dolore, poscia pian piano viene ad entrar nella parte lieta e gioiosa, et in quella finisce. Non fece poi così in quella prima degli occhi, nella quale vedete quanto dal diritto sentiero si torce e si piega, cioè dal diletto che in lui sovente da' begli occhi della amata sua donna pioveva (e di che egli a principio proposto aveva di voler cantare), e lasciasi per lo spazio di ben venti versi dal dolor trasportare; del quale trasportamento avedutosi poi, il dolore (come speciale cagione di ciò) ripigliandone, e dicendo:
+<quote rend="block"><lg><l>Dolor, perché mi meni</l>
+<l>Fuor di camin a dir quel ch'io non voglio?</l>
+<l>Sostien, ch'io vada ov'il piacer mi spigne,</l></lg></quote>
+in guisa l'incominciata materia continua che, chi togliesse via tutti que' versi che tra quello ‘<quote>Quando agli ardenti rai neve divegno</quote>’ e questi altri sono interposti:
+<quote rend="block"><lg><l>Vedete ben quanti color dipigne</l>
+<l>Amor sovente in mezzo del mio volto,</l></lg></quote>
+non pure starebbe il sentimento, ma e l'ordine ancora. Fecelo per indegnazion Dante, il quale avendo detto di Sordello,
+<quote rend="block"><lg><l>E l'ombra tutta in sé romita</l>
+<l>Surse ver lui dal luoco ove pria stava,</l>
+<l>Dicendo: ‘O Mantovan, io son Sordello,</l>
+<l>De la tua terra’,</l></lg></quote>
+rivolge poi ad Italia le sue parole, così per indegnazion dicendole:
+<quote rend="block"><lg><l>Ahi, serva Italia e di dolore ostello,</l></lg></quote>
+e ciò che segue nel rimanente di quel canto; poi, con acconcio modo nel principio del seguente, là onde partito s'era ritornando.</p>
+<p>«È necessario eziandio che questo nostro poeta conosca e perfettamente intenda quali delle cause siano, gli stati e le costituzioni e le parti di quelle; e, conseguentemente, i luoghi tutti e le stanze ove gli argomenti dimorano, et onde si traggono; e di questi, poi, quali sieno proprii e quali communi, e perché così detti; quali steano meglio alle persone e quali steano meglio alle cose attribuiti; quali più alle laudi e quali alle persuasioni che al giudicio si confacciano; e quinci poscia argomentare non pur come negli antichi romani scrittori, così poeti come oratori, potrà aver osservato, ma e ne' nostri toscani ancora, et ispezialmente in quella canzon del Petrarca al papa (della quale io pur dianzi vi parlai); ora dalla auttorità divina, ora dal meno al più, ora dal più al meno, ora dall'onesto; quando dalla agevolezza e facilità della cosa, quando dalla occasione, quando dalle favole; dall'utile, dall'istorie, dagli essempi.</p>
+<p>Volea, questo detto, Messer Trifone passar a dir dello epilogo, quando pregato da Messer Iacopo suo minor nepote, che sì come egli di tutte le cose insino allora per lui detteci n'aveva addutti gli essempi, così ancora delle maniere d'argomentare da lui brevemente toccate, in quella canzone quello istesso far gli piacesse, così seguitò: «Argomenta, figliuolo, il poeta nostro in questa canzone primieramente dalla auttorità divina, quando ei dice:
+<quote rend="block"><lg><l>Forse i devoti e gli amorosi preghi,</l>
+<l>E le lagrime sante de' mortali,</l>
+<l>Son giunte innanzi alla pietà superna,</l>
+<l>E forse non fur mai tante né tali</l>
+<l>Che per merito lor punto si pieghi,</l>
+<l>Fuor di suo corso la giustizia eterna;</l>
+<l>Ma quel benigno re, che 'l ciel governa,</l>
+<l>Al sacro loco ove fu posto in croce</l>
+<l>Gli occhi per grazia gira;</l>
+<l>Onde nel petto al nuovo Carlo spira</l>
+<l>La vendetta, ch'a noi tardata noce</l>
+<l>Sì, che molt'anni Europa ne sospira,</l></lg></quote>
+e:
+<quote rend="block"><lg><l>Che dunque la nemica parte spera</l>
+<l>Ne l'umane diffese,</l>
+<l>Se Cristo sta da la contraria schiera?</l></lg></quote>
+Dal meno al più:
+<quote rend="block"><lg><l>Tal che sol de la voce</l>
+<l>Fa tremar Babilonia, e star pensosa;</l></lg></quote>
+perciò che se solamente con la fama fa que' popoli tremare, quanto maggiormente si dee credere che sia per far poi con gli effetti. Dall'onesto:
+<quote rend="block"><lg><l>Deh, qual amor sì licito e sì degno,</l>
+<l>Qua' figli mai, qual donne</l>
+<l>Furon materia a sì giusto disdegno?</l></lg></quote>
+Dall'agevolezza della cosa quando le nimiche forze atterrando, e quelle alzando de' fedeli, dice:
+<quote rend="block"><lg><l>Turchi, Arabi e Caldei,</l>
+<l>Con tutti quei che speran nelli dei</l>
+<l>Di qua dal mar che fa l'onde sanguigne,</l>
+<l>Quanto sian da prezzar conoscer dei,</l>
+<l>Popolo ignudo, paventoso e lento;</l>
+<l>Che ferro mai non strigne,</l>
+<l>Ma tutti i colpi suoi commette al vento.</l></lg></quote>
+Dall'utile e dalla occasione:
+<quote rend="block"><lg><l>Dunque ora è il tempo da ritrarre il collo</l>
+<l>Dal giogo antico, e da squarciar il velo</l>
+<l>Ch'è stato avolto intorno agli occhi nostri;</l>
+<l>E che 'l nobile ingegno, che dal cielo</l>
+<l>Per grazia tien' de l'immortale Appollo,</l>
+<l>E l'eloquenzia sua vertù qui mostri.</l></lg></quote>
+Dalle favole, e dal più al meno:
+<quote rend="block"><lg><l>Perché d'Orfeo leggendo e d'Amfione</l>
+<l>Se non ti meravigli,</l>
+<l>Assai men fia, ch'Italia co' suoi figli</l>
+<l>Si desti al suon del tuo chiaro sermone,</l>
+<l>Tanto che per Gesù la lancia pigli.</l></lg></quote>
+Dalla cagione:
+<quote rend="block"><lg><l>Che s'al ver mira questa antica madre,</l>
+<l>In nulla sua tenzione</l>
+<l>Fur mai cagion, sì belle e sì leggiadre.</l></lg></quote>
+Argomenta eziandio dalle istorie e dal più al meno quando dice:
+<quote rend="block"><lg><l>Tu, ch'hai per arrichir d'un bel tesauro</l>
+<l>Volte l'antiche e le moderne carte,</l>
+<l>Volando al ciel con la terrena soma,</l>
+<l>Sai da l'imperio del figliuol di Marte</l>
+<l>Al grande Augusto, che di verde lauro</l>
+<l>Tre volte triomfando ornò la chioma,</l>
+<l>Ne l'altrui ingiurie del suo sangue Roma</l>
+<l>Spesse fïate quanto fu cortese,</l>
+<l>Et or perché non fia</l>
+<l>Cortese no, ma conoscente e pia</l>
+<l>A vendicar le dispietate offese</l>
+<l>Col figliuol glorïoso di Maria?</l></lg></quote>
+Dagli essempi:
+<quote rend="block"><lg><l>Pon mente al temerario ardir di Xerse,</l>
+<l>Che fece per calcar i nostri liti</l>
+<l>Di novi ponti oltraggio a la marina;</l>
+<l>E vedrai ne la morte de' mariti,</l>
+<l>Tutte vestite a brun le donne perse</l>
+<l>E tinto in rosso il mar di Salamina;</l>
+<l>E non pur questa misera ruina</l>
+<l>Del popolo infelice d'Oriente</l>
+<l>Vittoria ten' promette;</l>
+<l>Ma Maratona e le mortali strette</l>
+<l>Che diffese il leon con poca gente,</l>
+<l>Et altre mille, ch'hai ascoltate e lette.</l></lg></quote></p>
+<p>«Né vi starò io a dir ora il termine o ver fine della orazion esser il brevemente e particularmente toccare tutte le cose, nella fronte, ne' fianchi et insomma in tutto il rimanente delle membra di lei.</p>
+<p>«Ma perciò che di quella parte che muove, della quale (come che luogo determinato non abbia nella orazione, anzi non altrimenti per ciascun membro di quella si sparge che si faccia per tutte le parti del corpo il sangue; nondimeno par che la sua propria sedia nello epilogo tenga) ancora favellato non abbiamo alcuna cosa, dicovi che in molte maniere possiamo di coloro le menti, che volentieri le cose che noi diciamo ascoltano o leggono, pietose e misericordiose avere: dalla età, così acerba come matura, dal sesso, dal tempo, dagli essempi, dalla similitudine, dalla fortuna e da l'abito; dalla fanciulezza, come il Petrarca quando ad imitazion di Virgilio disse:
+<quote rend="block"><lg><l>e 'l vulgo inerme</l>
+<l>De la tenera etade,</l></lg></quote>
+e Dante de' figliuoli del conte Ugolino:
+<quote rend="block"><lg><l>Che se 'l conte Ugolino aveva voce,</l>
+<l>D'aver tradita te de le castella</l>
+<l>Non dovei tu i figliuò porre a tal croce,</l>
+<l>Innocenti facea l'età novella,</l>
+<l>Novella Tebe, Ugguiccione e 'l Brigata</l>
+<l>E gli altri due, che 'l canto suso appella.</l></lg></quote>
+Dalla vecchiezza e debolezza, come:
+<quote rend="block"><lg><l>Muovesi il vecchierel canuto e bianco</l>
+<l>Dal dolce loco ov'ha sua età fornita,</l>
+<l>E da la famigliuola sbigotita,</l>
+<l>Che vede il caro padre venir manco;</l>
+<l>Indi traendo poi l'antico fianco</l>
+<l>Per l'estreme giornate di sua vita,</l>
+<l>Quanto più pò, col buon voler s'aita,</l>
+<l>Rotto dagli anni e dal camino stanco;</l></lg></quote>
+et altrove il medesimo:
+<quote rend="block"><lg><l>...e i vecchi stanchi,</l>
+<l>Ch'hanno sé in odio, e la soverchia vita.</l></lg></quote>
+Dal sesso e dalla etade:
+<quote rend="block"><lg><l>Veggendosi in lontan paese sola,</l>
+<l>La stanca vecchiarella pellegrina</l>
+<l>Raddoppia i passi, e più e più s'affretta,</l></lg></quote>
+perché dicendo egli non solamente ‘donna’ ma ‘vecchia, stanca, sola et in paese lontano’, la dimostra di molta più commiserazion degna che fatto non avrebbe quando ‘donna’ e ‘vecchia’ solamente avesse detto. Dal luogo:
+<quote rend="block"><lg><l>Non è questo 'l terren ch'io toccai pria ?</l>
+<l>Non è questo il mio nido</l>
+<l>Ove nutrito fui sì dolcemente?</l>
+<l>Non è questa la patria, in ch'io mi fido,</l>
+<l>Madre benigna e pia,</l>
+<l>Che cuopre l'uno e l'altro mio parente?</l></lg></quote>
+et altrove pur dal luogo, ma sacro:
+<quote rend="block"><lg><l>E fra gli altari e fra le statue ignude</l>
+<l>Ogn'impresa crudel par che si tratti.</l></lg></quote>
+Dalla fortuna, sì come è il vedersi da grande altezza in basso stato cadendo rovinare, e di prospera fortuna in adversa cangiato, non già per mancamento de' caduti o cangiati, ma per qualche gravissimo errore dagli antecessori o propinqui loro commesso, o da qual altra si voglia cagion procedente, come di Madama Beritola, del conte di Anguersa e d'altri potete avere appresso 'l Boccaccio veduto, e come appresso 'l Petrarca si legge di Roma:
+<quote rend="block"><lg><l>Passato è già più che 'l millesim'anno</l>
+<l>Che 'n lei mancar quell'anime leggiadre</l>
+<l>Che locata l'avean là dov'ell'era.</l></lg></quote>
+Dal tempo:
+<quote rend="block"><lg><l>Così venti anni (grave e lungo affanno),</l>
+<l>Pur lagrime, sospiri e dolor merco,</l>
+<l>In tale stella presi l'esca e l'amo!</l></lg></quote>
+Muovesi ancora e dallo essempio, come in tutto quel sonetto, ‘<title>Né mai pietosa madre al caro figlio</title>’. Dalla similitudine d'alcuno animale fuori della spezie dell'uomo, come in quest'altro:
+<quote rend="block"><lg><l>Quel rossignuol che sì soave piagne,</l>
+<l>Forse i suoi figli, o sua cara consorte,</l>
+<l>Di dolcezza empie il cielo e le campagne</l>
+<l>Con tante note sì pietose e scorte,</l>
+<l>E tutta notte par che m' accompagne</l>
+<l>E mi ramenti la mia dura sorte;</l></lg></quote>
+o volete più tosto:
+<quote rend="block"><lg><l>E qual cerva ferita da saetta</l>
+<l>Co 'l ferro avelenato in mezzo 'l fianco</l>
+<l>Fugge, e più dolsi quanto più s'affretta,</l>
+<l>Tal io con quello stral dal lato manco</l>
+<l>Che mi consuma, e parte mi diletta,</l>
+<l>Di duol mi struggo e di fuggir mi stanco.</l></lg></quote>
+Muovesi ancora grandemente quando della sua infelicità e miseria si fa con l'altrui allegrezza e prosperità comparazione, come è :
+<quote rend="block"><lg><l>Quand'io veggio dal ciel scender l'aurora</l>
+<l>Con la fronte di rose e co' crin d'oro,</l>
+<l>Amor m'assale, ond'io mi discoloro,</l>
+<l>E dico, sospirando: ‘ivi è Laura ora’.</l>
+<l>O felice Titon, tu sai ben l'ora</l>
+<l>Da ricovrar il tuo caro tesoro,</l>
+<l>Ma io che debbo far del dolce alloro,</l>
+<l>Che se 'l vo' riveder, conven ch'io mora?</l>
+<l>I vostri dipartir non son sì duri,</l>
+<l>Ch'almen di notte suol tornar colei</l>
+<l>Che non ha schifo le tue bianche chiome;</l>
+<l>Le mie notti fa triste, e i giorni oscuri</l>
+<l>Quella che n'ha portato i pensier miei,</l>
+<l>Né di sé m'ha lassato altro che 'l nome .</l></lg></quote>
+Così in quell'altro tutto:
+<quote rend="block"><lg><l>Zefiro torna, e 'l bel tempo rimena</l>
+<l>E i fiori e l'erbe, sua dolce famiglia.</l></lg></quote>
+E s'allora che noi sperando attendiamo alcun dolce frutto coglier delle nostre lunghe fatiche, quello ne è poi insieme con la speranza tolto, come a se medesimo essere avenuto confessa Messer Francesco ne' sonetti ‘<title>Tutta la mia fiorita e verde etade / Passava</title>’, ‘<title>Tempo era omai da trovar pace e tregua / Di tanti affanni</title>’ e ‘<title>Tranquillo porto avea mostrato amore / A la mia lunga e turbida tempesta</title>’ e ciò che segue.</p>
+<p>«Ma di molta più compassione ancora quelle cose tutte esser piene si veggono, che agli occhi nostri manifestamente si sottopongono, come sono strazii, tormenti e morti. Ciò dimostra l'Alighieri ne' figliuoli del Conte Ugolino quando che egli dice esser fra 'l quinto e sesto giorno, vinti dalla fame, davanti il padre morti caduti. Et il Petrarca a Madonna Laura di se medesimo:
+<quote rend="block"><lg><l>Mi vedete straziare a mille morti;</l>
+<l>Né lagrima però discese ancora</l>
+<l>Da' be' vostr'occhi, ma disdegno et ira.</l></lg></quote>
+E quando ancora diciamo che non pure agli amici e propinqui nostri sogliono parere indegne le nostre calamità e miserie, ma a' nemici et agli stranieri somigliantemente, come in ‘<title>Spirito gentile</title>’:
+<quote rend="block"><lg><l>E la povera gente sbigottita</l>
+<l>Ti scopre le sue piaghe a mille a mille,</l>
+<l>Ch'Anibale, non ch'altri, farian pio.</l></lg></quote>
+Così quando dimostriamo non meritare per la nostra innocenzia non pur grave et atroce pena, ma niuna quantunque picciola e leggera:
+<quote rend="block"><lg><l>Tu, che vedi i miei mali indegni et empi,</l>
+<l>Re del cielo invisibile immortale,</l>
+<l>Soccorri a l'alma;</l></lg></quote>
+et altrove:
+<quote rend="block"><lg><l>Miserere del mio non degno affanno.</l></lg></quote>
+Muovesi e dall'abito:
+<quote rend="block"><lg><l>Deposta avea l'usata leggiadria,</l>
+<l>Le perle e le ghirlande e i panni allegri,</l>
+<l>E 'l riso e 'l canto e 'l parlar dolce umano;</l></lg></quote>
+et in ‘<title>Spirito gentile</title>’ dall'abito e dall'ufficio:
+<quote rend="block"><lg><l>E i neri fraticelli, e i bigi, e i bianchi</l>
+<l>Con l'altre schiere travagliate e 'nferme</l>
+<l>Gridan: ‘o Signor nostro, aíta, aíta’.</l></lg></quote>
+E quando noi diciamo non solamente portar invidia a' miseri, come :
+<quote rend="block"><lg><l>I' mi riscuoto, e trovomi si nudo</l>
+<l>Ch'i' porto invidia ad ogni estrema sorte,</l>
+<l>Tal cordoglio e paura ho di me stesso.</l></lg></quote>
+Ma quando poi la nostra miseria è tale, che noi ancora la portiamo a coloro che già sono di questa vita passati, come:
+<quote rend="block"><lg><l>Amor, fortuna, e la mia mente schiva</l>
+<l>Di quel che vede, e nel passato volta,</l>
+<l>M'affligon sì, ch'io porto alcuna volta</l>
+<l>Invidia a quei, che son su l'altra riva;</l></lg></quote>
+e Dante :
+<quote rend="block"><lg><l>Ond'io chiamo la morte,</l>
+<l>Come soave, dolce mio riposo,</l>
+<l>E dico: Vieni a me con tanto amore,</l>
+<l>Ch'io sono astioso di chiunque muore».</l></lg></quote>
+Qui puose fine Messer Trifone alle sue parole, alle quali eravamo stati tanto intesi, che quasi d'un'ora l'ora di mangiare era (senza avedercene noi) passata, tutto che per un famigliare di Messer Iacopo ci fosse almeno due volte fatto a sapere. Ma ritornato esso ancora la terza, e datoci acqua alle mani, ci ponemmo a tavola, messo primieramente ordine di dover dopo desinare della terza parte del poema ragionare.</p></div1>
+<div1 type="parte"><head>Libro secondo</head>
+<p>Suole, reverendo et illustre Signor mio, ciascun ottimo et eccellente scultore primieramente quel marmo o quella pietra ritrovare che più capevole e più acconcia materia stima ch'ella esser debbia, a quella forma dever prendere che esso poi di darle intende, e poscia che esso ritrovata l'ha, dentro a' giusti e misurati contorni e termini di quella, quale parte di lei al capo, quale alle braccia, quale ai piedi, e così per ordine all'altre parti tutte del corpo più si confaccia, ingegnarsi di dare; et in che atto ella ha da stare, o in iscorcio, o in maiestà, o in profilo dissegnandola, in guisa partire e disporre che quella stessa pietra comincia a poco a poco a prender forma o d'uomo, o di qual altro si voglia animale, secondo la idea che il suo facitore aveva già nella sua mente conceputa. Il perché dire ancora non si può che perfetta forma ella sia, né allo 'ncontro semplice materia, sino a tanto ch'egli, con più sottili ferri et altri strumenti ch'egli abbia, le minutissime parti di quella ricercando, non le dà poi tale perfezione che, advegna ch'essa senza alcuno spirito e senza alcun sentimento sia, paia nondimeno, a tutti coloro che la mirano, che e viva e spiri.</p>
+<p>Così lo scrittore et il poeta (mercé della penna e delli inchiostri del quale, non meno appariscono espressi i costumi e l'opre eccellenti e leggiadre degli uomini per nobilità di sangue, per bellezza di corpo e per virtù e dottrina chiarissimi e gloriosi, che per opra di scarpello ne' marmi si facciano le statue) dee sempre quel soggetto cercare che esso giudichi atta e convenevole materia a quella forma ricevere, ch'esso poi di darle con lo scrivere, s'apparechia. Né basta ancora questo così fatto ritrovamento di materia, s'ella non si dispone e non s'ordina poi, e non si pulisce et orna somigliantemente con le più elette parole et artificiose, in maniera che non pure perfezione alcuna aggiugnere ma desiderar le si possa maggiore. E così, come quella statua od imagine gli occhi de' riguardanti in essa grandemente diletta, fa bisogno che questa scrittura o poema non solamente l'orecchie ma l'animo eziandio empia et appaghi de' leggenti o vero degli ascoltanti.</p>
+<p>Ora perciò che a me pare che insino a qui intorno alla prima e seconda parte (ch'è la materia et il disegno) nel primo libro bastevolmente stato ragionato si sia, ragionaremo ancora in questo secondo della terza, che la vera e perfetta forma è ch'al poema si dà. Alla quale venendo, e l'ordine incominciato de' nostri parlari seguitando, dico che già era l'ora della nona passata quando Messer Trifone, sì come quegli il quale in costume aveva di poco le notti dormire, alquanto a riposare s'andò. Messer Andrea e Messer Iacopo si puosero a giuocare a scacchi, et io per lo giardino, sotto l'ombra d'alquanti alberi (i quali incontro ai raggi del sole, che per esser egli pur allora salito a mezzo il cielo, ardentissimi erano, mi facevano schermo), sopra le ragionate cose pensando, diportando m'andai sino a tanto che levato si fu Messer Trifone; insieme col quale, posti ciascuno nel giardino a sedere, e quivi per alquanto spazio la nostra vista di quella dell'acqua, la quale via più chiara e tranquilla correva quel giorno che corresse già mai, e delle vaghe montagnuole e delle valli tutte rivestite d'erbe e di fiori, rallegrando, e parte l'animo per l'orecchie appagando delle dolci note degli usignuoli, i quali gaiamente su per le cime degli alberi cantavano, senza alcuna cosa dire ci stemmo, tutti aspettando che Messer Trifone al ragionare desse principio; il quale, tacer veggendoci, così disse:</p>
+<p>«Io non so, figliuoli, se voi per aventura doppio diletto e contento di così bella vista come questa è, e dell'udire i dolci e cari accenti di colei che ancora dell'oltraggio fattole dal marito della sorella pare che pianga e si ramarichi, prendiate sì come io fo. Alla qual cosa meco medesimo più volte pensando, tanto più in me crescer sento ad ogni ora il desiderio ch'io ho sempre avuto grandissimo di tanto più fuggir le città et amar le soletudini, quanto più di riposo e di pace m'apportano queste che quelle non fanno. La quale (acciò che io la potessi più lungamente e con maggior sicurtà godere) fu principalissima cagione di farmi refutare gli onori e le degnità che non solamente mi avrebbe potuto dare la nostra republica, ma quelli eziandio che già m'avea dato la romana corte. E se pur alcuno è che di ciò mi ripigli (che molti per aventura ne sono), cerchi di procacciar a sé quello che io ho sempre poco o nulla prezzato, e lasci me nella mia quiete contento stare, dalla quale quiete e tranquillità (senz'alcun dubbio) quella contentezza e sodisfazione d'animo mi viene che io ho sempre amata e desiata cotanto. Desiderino pur gli uomini i magistrati e gli onori tutti, et il più delle volte i lor commodi con gli altrui disagi procaccino. Cerchino nelle nobilissime città, ne' regali palagi, nelle morbide camere, e finalmente nell'oro stesso e nelle lucide porpore i non securi riposi; ché io, senz'esser ad alcun grave, non solamente d'una ignobile e povera villetta, ma dentro a' termini d'una picciola casa vivendo, avrò sempre nella mente molti uomini a' nostri tempi, e più esserne stati ne' passati secoli, che per trovar questa tranquillità d'animo, se medesimi alle faccende publiche furando, ad ociosamente vivere si diedono; fra li quali molti nobili et eccellenti filosofi si ritrovarono, che lasciate le città, non altrimenti che da un periglioso mare e dagli scogli in porto, alle solitudini rifuggirono».</p>
+<p>Aveva sin qui detto Messer Trifone, e già si taceva, quando io: «Egli sì par bene, Messere», dissi, «che tale sia la vostra vita chente voi ora divisata ci avete. Così la vi lasci Iddio lungamente e secondo l'intendimento vostro godere. Ma poscia che il giorno (lasciato già il cerchio di meriggio Apollo) incomincia ver occidente a piegare, a me parrebbe (se così ancora a voi et a quest'altri gentiluomini parimenti piacesse) che dar si devesse principio a quel ragionamento che ci rimane di fare, così a noi sodisfacendo di quello che voi ne devete, e noi allo 'ncontro dannando le vostre ragioni, interamente sodisfatti ci chiameremo». Sorrise un cotal pocolino Messer Trifone, e poi disse: «E credete voi forse, Daniello, ch'io vi voglia o debbia aver lungamente quest'obligo? E come che la somma ch'io vi debba sia grande e ponderosa, sforzerommi io bene (se del tutto non potrò) almeno d'una buona parte sodisfarvi». Quivi tutti tre rivolti gli occhi in lui, con grandissimo silenzio cominciammo ad attender quello che egli già di dirne s'apparecchiava. Il quale, poi che ci vide intenti ad ascoltare, così a favellare rincominciò:</p>
+<p>«Stamane, come ben vi rammenta, figliuoli, della prima e seconda parte del poema si ragionò, e ciò fu della invenzione prima delle cose, secondariamente dell'ordine o vogliam dire più tosto disposizione di esse. Ora, alla terza et ultima venendo, dico che ritrovato e disposto che noi averemo quella materia che di trattar intendiamo, fa di mestieri che si ritrovino ancora parole e colori da vestirla, atte e convenienti alla maiestà, gravità e bellezza di lei, onde essa poi a guisa di bellissima vergine, di preziosi vestimenti e di cari ornata, possa nella presenza comparir di ciascuno. Ma è da veder, prima che noi a questa parte veniamo, che lo scrittore ponga grandissima cura e diligenza in fare che i suoi trovati o soggetti si possino veramente suoi e privati chiamare, che d'altrui, quella forma dando loro che per lui più perfetta si possa. Ora, chi è colui che non conosca e non veggia che le guerre a' dì nostri fatte a Pavia, a Melano, a Roma, a Napoli, a Firenze e per tutto il rimanente d'Italia, sono a tutti gli scrittori di questa nostra età e publiche e comuni, non altrimenti che si fossero a' tempi de' Greci le troiane non solamente ad Omero, ma a molti altri scrittori suoi contemporanei? Nondimeno, per esser stato egli colui che di lei più altamente e più propriamente scrisse, si può con verità dire che esso quella materia, alla quale per l'adietro da alcuno altro scrittore o poeta stata ancor data propria e convenevole forma non era, informando, le cose a tutti gli altri publiche facesse a sé solo private. Così delle su dette guerre si può dir ch'avenisse, se esse si trattassero iscrivendo sì degnamente e con quella grandezza et arte ch'usare si potesse maggiore. Laonde s'allo 'ncontro bassamente e senz'alcuna gravità si trattassino, si ne potriano esse agevolmente esser furate da chi che sia, e con maggior dottrina e leggiadria (che noi fatto non averemo) iscritte, e così di nostre diverriano d'altrui; come si legge delle <title>Cento antiche novelle</title>, dal Boccaccio rinovate e con tanta eloquenza e leggiadria che di publiche e comuni (che esse prima erano) sue proprie e private divennero, avenne.</p>
+<p>«E come ancora avenne d'un sonetto che già mi ricorda aver veduto da Messer Giovanni Aurelio composto, e dal nostro dottissimo Messer Pietro Bembo con tanta felicità imitato in quella sua ballata degli Asolani, il cui principio è :
+<quote rend="block"><lg><l>Preso al primo apparir del vostro raggio</l>
+<l>Lo cor che insin quel dì nulla mi tolse,</l>
+<l>Da me partendo a seguir voi si volse,</l></lg></quote>
+che l'Augurello medesimo mi confessò più volte essere stato da lui di gran lunga superato, e che quella cosa (di che egli era stato prima inventore) si poteva ragionevolmente più tosto del Bembo che di lui medesimo chiamare. Pertanto fa di mestieri, figliuoli, che voi sappiate che tre (senza più) sono le forme o figure (che più ci piaccia di chiamarle) sotto le quali ogni maniera di parlare, che viziosa non sia, può cadere: una grave e sublime, l'altra mezzana, e la terza attenuata et umile. Grave quella è che d'ornata composizion di parole gravi, alte, magnifiche e sonore si fa; mezzana, quella poi che di voci non così gravi et alte, ma né anco delle più infime e demesse e pervulgate come l'attenuata. La prima adunque ama parole simili a lei, e cioè le più ornate e leggiadre che ritrovare si possino, o sian proprie o siano transportate, le sentenze più gravi, l'amplificazioni, e finalmente gli ornamenti tutti, così delle sentenze come delle parole, ch'abbiano gravità, delle quali a suo luogo diremo.</p>
+<p>«E di questa maniera sono nel Petrarca molte delle sue canzoni, e ispezialmente quella ‘<title>O aspettata in ciel beata e bella Anima</title>’ e ‘<title>Spirto gentil che quelle membra reggi</title>’ e que' duo sonetti ‘<title>Io vo piangendo il mio passato tempo</title>’ e ‘<title>Rotta è l'alta colonna e 'l verde lauro</title>’, che gravissimi et altissimi sono, se bene alla eccellenza e grandezza della cosa onde si parla vorremo risguardo avere. Nella seconda figura è da vedere che noi non siamo troppo alti, né molto allo 'ncontro demessi, e che scegliamo voci ancora temperate, non molto gravi e sonore né del tutto leggeri e chete. Leggesi in questa mezzana figura appo il Petrarca ‘<title>Ben mi credea passar mio tempo omai</title>’ e ‘<title>Che debb'io far, che mi consigli, Amore?</title>’ e delle altre ancora. Riceve la terza più volentieri le voci più piane, più demesse e più chete che la prima e la seconda non fanno. Et in questo sarà tutta quella canzon ch'incomincia ‘<title>Sì è debile il filo a cui s'attene / La gravosa mia vita</title>’ e quel sonetto ‘<title>Vago augelletto che cantando vai</title>’.</p>
+<p>Allora Messer Andrea: «Se cotesta canzon» disse, «è, Messere, nella più umile et attenuata figura, ove porrete voi poi questa ‘<title>S'el pensier che mi strugge</title>’ e quell'altra sua sorella ‘<title>Chiare, fresche, e dolci acque</title>’?». «Sotto la medesima», riprese egli. «Ma ben è vero che esse sono poi così vaghe, così belle e così dolci, che quella lor vaghezza, beltà e dolcezza opera in loro per sì fatta maniera che non le lascia punto basse parere. Questa differenza medesima dir si può che sia ancora tra questo (che pur ora v'allegai) ‘<title>Vago augelletto che cantando vai</title>’ e quell'altro ‘<title>Perch'io t'abbia guardato di menzogna / A mio podere, et onorato assai, / Ingrata lingua</title>’ il quale è tanto basso ch'a guisa di serpe camina sovra terra, niente da quella levandosi. Il che dell'altro non aviene, assai più bello e più vago che questo non è.</p>
+<p>«Ma per mio consiglio, figliuoli, vi guarderete sempre di fare che in queste tre figure non v'inganni la verisimilitudine, conciò sia cosa ch'alla più grave e sublime figura e più laudabile, è vicinissima quella che più si deverebbe fuggire, la quale si può più tosto gonfia che sublime chiamare; perciò che così come la gonfiezza suole imitare il perfetto abito e stato corporeo, così più grave orazione il più delle volte alla ignorante e imperita moltitudine par quella che più è gonfia et enfiata. Come è tutto quel sonetto ‘<title>Se mai foco per foco non si spense</title>’ e quell'altro ‘<title>Per mirar Policleto a prova fiso</title>’; della qual gonfiezza accortosi il poeta, ne fece poi quest'altro più bello a mio giudicio assai e più leggiadro ‘<title>Quando giunse a Simon l'alto concetto</title>’. Simigliantemente è da vedere che mentre cerchiamo d'esser ne' nostri poemi umili, bassissimi non siamo (come non ha guari ch'io vi dissi) et enervati, quelle cose seguendo che troppo polite e leggiadre sono; come è tutto il sonetto ‘<title>Amor m'ha posto come segno a strale, / Com'al sol neve, e come cera al foco</title>’. Perciò che, s'egli avesse o tutto o la maggior parte del suo poema (nella maniera che noi veggiamo aver fatto questo sonetto) composto, sarebbe senz'alcun dubio stato enervatissimo. Perché se noi questo di quelle corrispondenze e contraposizioni (di che egli è pieno) spogliassimo, egli del tutto ignudo rimarrebbe, in sé niuna sentenza avendo e niente per sé significando. Questo non credo io già ch'avenisse di quell'altro ‘<title>Rotta è l'alta colonna e 'l verde lauro</title>’. Oltre a ciò devete voi guardarvi ancora che, mentre,di apparer brevi v'affaticate, oscuri non siate; come è Dante quando dice:
+<quote rend="block"><lg><l>Così si fa la pelle bianca nera</l>
+<l>Nel primo aspetto de la bella figlia,</l>
+<l>Di quel ch'apporta mane e lassa sera.</l></lg></quote>
+E questo basti delle tre figure o forme del dire aver detto.</p>
+<p>«Passiamo ora alla division delle voci, e diciamo così: che il bello e leggiadro parlare si forma di parole e di figure; o vogliam dir più tosto, parole <emph>sole</emph> et <emph>accompagnate</emph>. Le semplici sono o proprie delle cose o trasportate e tratte per simiglianza da altre cose a cui esse proprie sono. Per le proprie quelle si prendono che l'uso comunemente riceve, come ‘cielo, sole, luna, stelle, terra, acqua, fuoco’ e simili, e l'antiche rinovate, come è ‘criò’ e ‘credia’ e ‘despitto’, ‘Che criò questo e quell'altro emispero’, e com'è in quella canzone:
+<quote rend="block"><lg><l>Nel cominciar credia</l>
+<l>Trovar, parlando, al mio ardente desire</l>
+<l>Qualche breve riposo e qualche tregua,</l></lg></quote>
+et in quel sonetto ove d'Anibale parlando, dice ch'egli:
+<quote rend="block"><lg><l>Rise fra gente lagrimosa e mesta</l>
+<l>Per isfogar il suo acerbo despitto;</l></lg></quote>
+o vero le fatte da nuovo dagli scrittori medesimi, come dal Petrarca ‘imperla, dora, inforsa, smorsa’:
+<quote rend="block"><lg><l>Vedi, quant'arte dora e 'mperla e 'nostra</l>
+<l>L'abito eletto, e mai non visto altrove;</l>
+<l>........</l>
+<l>In riso e 'n pianto, fra paura e spene</l>
+<l>Mi rota sì, ch'ogni mio stato inforsa,</l>
+<l>Se 'n breve non m'accoglie o non mi smorsa;</l></lg></quote>
+e ‘disossare’ e ‘snervare’ e ‘spolpare’ e simili. E dall'Alighieri ‘pennelleggia, imparadisa’ ‘et avalora’:
+<quote rend="block"><lg><l>Frate, diss'egli, più ridon le carte</l>
+<l>Che pennellegia Franco bolognese,</l></lg></quote>
+e di Beatrice:
+<quote rend="block"><lg><l>Quella che imparadisa la mia mente,</l></lg></quote>
+e nel <title>Paradiso</title>:
+<quote rend="block"><lg><l>Tu voi saper di quai piante s'infiora</l>
+<l>Questa ghirlanda ch'intorno vagheggia</l>
+<l>La bella donna ch'al ciel t'avalora,</l></lg></quote>
+ch'altro a dire non è se non ch'ella gli dava valore e podere di salire in cielo»</p>
+<p>Allora Messer Iacopo: «Et ‘intuare’ et ‘inmiare’ ch'ei disse pure nel <title>Paradiso</title> :
+<quote rend="block"><lg><l>S'io m'intuassi, come tu t'inmii,</l></lg></quote>
+dove lasciavate voi, Messere?». «E coteste ancora» rispose egli, «figliuolo, e ‘s'india, s'illuia’ e ‘s'insempra’. Ma la cagione perch'io di questi verbi vi tacqui, sì fu perché se ben essi son nuovi alla toscana favella, non sono però belli né da mescolar per entro le vostre scritture, ma da fuggirli e ischifarli quanto per voi fia possibile». Poi seguitò: «Né pur queste parole ch'udito avete dalle antiche rinovate e di nuovo fatte dalli scrittori si deono usare, ma tradurne ancora da altra lingua e, quasi amorevole e cortese oste, raccogliere alcuna volta le pellegrine e straniere, fra le proprie nostre ponendole; sì come delle provenzali il Petrarca e Dante fecero sovente, che ‘sovente, guiderdone, assembra, gioia’ e ‘chero’ usarono di dire, et ‘abella’ che quello stesso vale che ‘piace’:
+<quote rend="block"><lg><l>Ma così e così natura lascia</l>
+<l>Poi far a voi, secondo che vi abella,</l></lg></quote>
+e ‘mancipio, vestigia, imago, bibo, libo, spelunca, esclusa, senile, ploro, fiagro, urne, ange, infirme, molce' e 'refulse 'e delizie, plaustro, delinque, rude, concepe’ e ‘tuba e delubro’ e ‘scriba’ e ‘sperne’ e ‘festina’ e ‘longevo’ et ‘adolesce’ e molt'altre latine voci si leggono sparse per gli loro poemi.</p>
+<p>«Delle proprie sono da elegger sempre le più sonore, e delle più sonore le più civili. Dico ' le più civili ' perciò che può ben stare che delle parole molte si ritrovino sonore senza alcuna civilità in se avere; sì come si ritrova in Dante quella che egli nel suo Purgatorio puose ultima ne l'ultimo verso di quel terzetto:
+<quote rend="block"><lg><l>Ai serva Italia e di dolore ostello,</l>
+<l>Nave senza nocchiero in gran tempesta,</l>
+<l>Non donna di provincia, ma ......</l></lg></quote>
+e quello che segue e che per onestà si tace, ché alta, piena e sonora voce è, ma incivile e disonesta. Sonore chiamo quelle voci tutte che sono di maggior quantità di consonanti (dalle quali esse lor nome prendono) composte, che di vocali; come per grazia d'essempio è questa, ‘tromba’ la quale, se ben si riguarda, vedrassi non esser men chiara, men alta e sonante di quello stormento di cui essa voce è segno. E chi negherà più alto, più grave e magnifico suono non render queste parole ‘soggiorno, giorno, campo, splendore, fronda, onda, strada’ che queste altre (le quali pur in quel medesimo significato si prendono) non fanno: ‘loco, dì, piano, luce, foglia, acqua, via’? Certo ch'io creda niuno.</p>
+<p>«Ora a quelle passando che transportate si dicono, dico che come le vestimenta furono dall'umano ingegno primieramente ritrovate affine di ricoprir le membra e quelle incontro al freddo difendere, e poi per ornamento e degnità del corpo non pure di una e di due guise di colori, ma e di lucida porpora e di finissimo oro si son fatte e usate — e fannosi e usansi tutto dì et ampie e magnifiche —, così questo transportamento d'uno in altro significato ebbe suo principio e nascimento dal mancamento prima delle parole; poscia allevato dalla giocondità e dilettazion, sue nutrici, è cresciuto et ha dato e dà continuamente quello splendore et ornamento alla orazione che noi veggiamo. Et usasi di fare questo transportamento nel nome che da sé sta, et in quello che per se medesimo stare non può ma li va dietro e l'accompagna a guisa di servente; nel verbo et in quell'altra particella che gli sta sempre appresso. Usollo il Petrarca nel nome che per sé sta, quando del pastor parlando in quella canzone disse: ‘<title>Muove la schiera sua soavemente</title>’, ‘schiera’, ch'è voce propria degli esserciti, dando al pastore in luogo di ‘mandra’; quantunque egli poi dicesse altrove:
+<quote rend="block"><lg><l>Felice agnello a la penosa mandra</l>
+<l>Mi giacqui un tempo.</l></lg></quote>
+Ma ciò fece egli figuratamente, per dimorar nella metafora della voce ‘agnello’ traslatamente posta, di se stesso parlando. E fu più bello che s'egli ‘brigata d'angosciosi e miseri amanti’ (che sarebbe stato il suo proprio) avesse detto. Usollo pur nel sostantivo il medesimo nella canzon ‘Italia mia’, ove co' principi di quella parlando, dice:
+<quote rend="block"><lg><l>Voi, cui fortuna ha posto in mano il freno</l>
+<l>De le belle contrade,</l>
+<l>Di che nulla pietà par che vi stringa,</l></lg></quote>
+ponendo il ‘freno’ per il governo. Usollo Dante nel Paradiso ove dice:
+<quote rend="block"><lg><l>Surge a' mortali per diverse foci </l>
+<l>La lucerna del mondo,</l></lg></quote>
+et altrove:
+<quote rend="block"><lg><l>L'altra traendo a la rocca la chioma,</l></lg></quote>
+ponendo la ‘lucerna’ del mondo per lo sole, e per la ‘chioma’ della rocca il lino a quella involto volle che s'intendessi. Nello aggiunto il Petrarca,
+<quote rend="block"><lg><l>Con stil canuto avrei fatto parlando</l>
+<l>Romper le pietre e piagner di dolcezza,</l></lg></quote>
+dando allo stile quello che proprio era dell'età; e che diede a' monti Virgilio, nel primo libro di quell'opera che egli ad imitazion d'Esiodo, delle bisogne del contado, scrisse. Nel verbo:
+<quote rend="block"><lg><l>Cade vertù da l'infiammate corna</l>
+<l>Che veste il mondo di novel colore.</l></lg></quote>
+Fecelo medesimamente in quella voce ch'al verbo si congiunge, dicendo: ‘<quote>Or qui son, lasso, e voglio esser altrove</quote>’ ; et altrove:
+<quote rend="block"><lg><l>Canzon, qui sono et ho 'l cor via più freddo</l>
+<l>De la paura che gelata neve,</l></lg></quote>
+ove si vede questo ‘qui’ non esser del luogo a cui esso è proprio, ma della cosa; e vuol significare ‘io sono a questo, e vorrei essere ad altro partito, o ver termine’. Così sta ancora quel luogo di quella canzone:
+<quote rend="block"><lg><l>In quella parte dov'Amor mi sprona,</l>
+<l>Conven ch'io volga le dogliose rime</l>
+<l>Che son seguaci de la mente afflitta,</l></lg></quote>
+ove ‘quella parte’ è traslata e vuol dire ‘a ragionare di quella cosa della quale Amore lo persuadeva e stimolava a parlare’. Et allo 'ncontro si suol dare alcuna volta al luogo, per traslazione, quello ch'è proprio del tempo; come diede il Petrarca che disse in quel sonetto :
+<quote rend="block"><lg><l>Tutta la mia fiorita e verde etade</l>
+<l>Passava, e 'ntepidir sentia già 'l foco</l>
+<l>Ch'arse il mio cor, et era giunto al loco</l>
+<l>Ove scende la vita ch'al fin cade.</l></lg></quote></p>
+<p>«Seguitano le figure, le quali in due parti divideremo, <emph>grammaticali</emph> e <emph>retoriche</emph>; grammaticali, dico, perciò che è del grammatico ufficio il renderne la ragione. Delle quali figure quella vien prima che è quando un nome che per sé sta, si congiunge con uno che per sé non stia, et ha forza di verbo, come ‘Umida gli occhi e l'una e l'altra gota’; o volete più tosto quest'altra:
+<quote rend="block"><lg><l>Una strana Fenice, ambedue l'ale </l>
+<l>Di porpora vestita,</l></lg></quote>
+ch'altro non è a dire se non avente gli occhi umidi e le guance, e l'ali purpuree. Duo sostantivi in luogo, d'un sostantivo e d'uno aggiunto:
+<quote rend="block"><lg><l>Per mezz'i boschi inospiti e selvaggi,</l>
+<l>Ove vanno a gran rischio uomini et arme, </l>
+<l>Vo secur'io,</l></lg></quote>
+e quest'altra: ‘E fiammeggiar fra la rugiada e 'l gelo’, invece di dire ‘uomini armati’ e ‘rugiada gelata’. Il nome per l'adverbio :
+<quote rend="block"><lg><l>Chi non sa come dolce ella sospira</l>
+<l>E come dolce parla e dolce ride,</l></lg></quote>
+et altrove :
+<quote rend="block"><lg><l>Quand'amor porse (quasi a dir: ‘che pensi’)</l>
+<l>Quell'onorata man, che secondo amo;</l></lg></quote>
+‘secondo’ e cioè ‘secondariamente’, volendo così dimostrar ch'esso prima i begli occhi di Madonna Laura e secondariamente la bella mano sovra ciascun'altra cosa amava e cara teneva. L'<emph>apposizione</emph> è figura che si fa ponendo duo nomi sostantivi in un medesimo caso, de' quali l'uno venga a dichiarar l'altro, in questo modo :
+<quote rend="block"><lg><l>Zefiro torna, e 'l bel tempo rimena </l>
+<l>E i fiori e l'erbe, sua dolce famiglia.</l></lg></quote>
+Ma molto ancora più bella è quest'altra:
+<quote rend="block"><lg><l>Piacciavi porre giù l'odio e lo sdegno,</l>
+<l>Venti contrari a la vita serena.</l></lg></quote>
+Dassi alcuna volta al secondo caso, quello ch'al primo andava, fassi sostantivo quel nome che aggiunto esser doveva, così :
+<quote rend="block"><lg><l>L'industria d'alquanti uomini s'avolse</l>
+<l>Per diversi paesi,</l></lg></quote>
+e cioè ‘gli uomini industriosi’. Così Dante :
+<quote rend="block"><lg><l> ‘Quel dolce pome, che per tanti rami</l>
+<l>Cercando va la cura de' mortali’,</l></lg></quote>
+ch'altro non rileva a dire se non i mortali curiosi. Simili modi di dire nelle scritture alcuna volta spargendosi, pongono non poco di vaghezza, dal comune parlar levandoci. Vedete quanto è più bello il dire:
+<quote rend="block"><lg><l>e non men di dolcezza</l>
+<l>Del pianger prendo, che del canto presi,</l></lg></quote>
+che non sarebbe stato se in altro caso che nel secondo s'avesse posto quella parola ‘dolcezza’?</p>
+<p>«Si pone ancora quando che sia il verbo invece del gerondio, come lo pose il Petrarca quando disse in quella canzone:
+<quote rend="block"><lg><l>Vostro gentile sdegno</l>
+<l>Forse ch'allor mia indegnitade offende,</l></lg></quote>
+cioè, ‘offendendo vi rende sdegnosa’. Et allo 'ncontro si suol porre ancora esso gerondio in luogo del verbo che pate, in questo modo: ‘Gustando afflige più che non conforta’ cioè ‘mentre che egli è gustato’. È vizio fra queste figure la sovrabondanza alcuna volta delle parole, ispezialmente quando esse ne' componimenti ociose e senza alcuna cosa adoperare si stanno; come chi dicesse ‘udir con gli orecchi, parlar con la lingua e veder con gli occhi’, che disse il Petrarca :
+<quote rend="block"><lg><l>Se Virgilio et Omero avessin visto. </l>
+<l>Quel sol, il qual vegg'io con gli occhi miei.</l></lg></quote>
+Alcun'altra volta, tutto che esse non siano necessarie, ma soverchie, pur accrescono non so che di grazia e d'ornamento al dire, come ‘Orso e non furon mai fiumi né stagni’, et altrove:
+<quote rend="block"><lg><l>Tal che mi fece or quando egli arde il cielo,</l>
+<l>Tutto tremar d'un amoroso gelo.</l></lg></quote>
+Simile modo di dire è frequentatissimo appo il Boccaccio: ‘Egli no 'l saprà mai persona’, ‘Egli ci saranno mille modi’ et ‘Egli non sono ancora molt'anni passati’ e simili.</p>
+<p>«È figura grammaticale eziandio il transportare o vero interporre che si fa delle parole, come quando dice Messer Francesco:
+<quote rend="block"><lg><l>Leggiadri sdegni che le mie infiammate</l>
+<l>Voglie tempraro, or me n'accorgo e 'nsulse,</l></lg></quote>
+et altrove il medesimo:
+<quote rend="block"><lg><l>il manco piede </l>
+<l>Giovinetto pos'io nel costui regno;</l></lg></quote>
+Dante :
+<quote rend="block"><lg><l>‘Amor, ch'a null'amato amar perdona,</l>
+<l>Mi prese di costui piacer sì forte’.</l></lg></quote>
+Ma simili modi di dire vi consiglierei io, figliuoli, che voi deveste nelle vostre composizioni parcamente usare, i quali oltre che rendono il costrutto difficile, sì oscurano essi eziandio il sentimento.
+Pure sono iscusabili nel verso, per la necessità di quello e delle rime; ma deonsi ben fuggir nelle prose, ove questa cotale necessità non ha luogo. È la figura medesimamente il congiugnimento o annodamento (che dire ci piaccia) di molte parole stanti e ghiacenti sotto un medesimo sentimento, come è in quel sonetto ‘<title>Voi, ch'ascoltate in rime sparse il suono</title>’, ove dice :
+<quote rend="block"><lg><l>Ma ben veggi' or sì com'al popol tutto</l>
+<l>Favola fui gran tempo, onde sovente</l>
+<l>Di me medesmo meco mi vergogno,</l></lg></quote>
+ove nel seguente terzetto si ripiglia il primo verbo e dicesi: 'E ben veggi' or sì come vergogna e 'l pentirsi, e 'l conoscer chiaramente che ciò che piace al mondo è breve sogno, or è il frutto del mio vaneggiare'. Questo istesso fa egli ancora quasi in tutta la terza stanza della canzone ‘Nel dolce tempo de la prima etade’, ove ei dice con ammirazione :
+<quote rend="block"><lg><l>Qual mi fec'io quando primier m'accorsi</l>
+<l>De la transfigurata mia persona,</l>
+<l>E qual mi fec'io quando vidi i capei</l>
+<l>Esser fatti di quella fronde ...</l></lg></quote>
+e ciò che segue, ove sempre la copula ripiglia il verbo principale ch'è quello ‘Qual mi fec'io quando primier m'accorsi’. E tanto detto vi sia di quelle figure che grammaticali si dicono.</p>
+<p>«Ora, alle retoriche passando, a me parrebbe, figliuoli, che voi nelle vostre composizioni usaste le <emph>contrarietà</emph> (o contraposizioni che voi le vi vogliate chiamare), come è ‘Alto soggetto a le mie basse rime’ o volete ‘Ove il gran lauro fu picciola verga’. Contrarie, dico, perciò che una parola a l'altra per contrario sentimento risponde, conciò sia cosa che la voce ‘bassa’ all'altera e tal ‘gran lauro’ la ‘picciola verga’ per contrario si dia. Le <emph>corrispondenze</emph>, che sono il render ciascuna cosa alle precedenti; e queste doppiamente si fanno: ne' proprii e ne' contrari, come in quel sonetto :
+<quote rend="block"><lg><l>I pensier son saette, e 'l viso un sole,</l>
+<l>Il desir foco, e 'nsieme con quest'arme</l>
+<l>Mi punge amor, m'abbaglia e mi distrugge.</l></lg></quote>
+Eccovi come gentilmente risponde a questi tre nomi ‘saette sole e foco’, con tre verbi convenientissimi a qualunque di loro, che sono ‘punge, abbaglia e distrugge’. Trovansi ancora di questa maniera corrispondenze in molti altri luoghi, e spezialmente in tutto quel sonetto:
+<quote rend="block"><lg><l>Né mai pietosa madre al caro figlio,</l>
+<l>Né donna accesa al suo sposo diletto</l>
+<l>Diè con tanti sospir, con tal sospetto</l>
+<l>In dubbio stato sì fedel consiglio,</l>
+<l>Come a me quella, che 'l mio grave esiglio</l>
+<l>Mirando dal su' eterno alto ricetto,</l>
+<l>Spesso a me torna con l'usato affetto,</l>
+<l>E di doppia pietate ornata il ciglio,</l></lg></quote>
+rispondendo così alla madre et alla moglie; come sùbito dopo egli stesso si dichiara soggiugnendo: ‘<quote>Or di madre, or d'amante, or teme</quote>’ quanto alla madre ‘<quote>or arde D'onesto foco</quote>’, quanto poi alla sposa ‘<quote>e nel parlar mi mostra Quel che 'n questo viaggio fugga, o segua</quote>’, ch'ha rispetto a quel fedel consiglio che detto di sopra aveva. Così in quell'altro :
+<quote rend="block"><lg><l>È questo il nido in che la mia Fenice</l>
+<l>Mise l'aurate e le purpuree penne,</l></lg></quote>
+e poco dopo:
+<quote rend="block"><lg><l>Ov'è 'l bel viso onde quel lume venne;</l></lg></quote>
+poi rispondendo alla Fenice et a quel bel lume, seguita:
+<quote rend="block"><lg><l>Veggendo a' colli oscura notte intorno,</l>
+<l>Onde prendesti al ciel l'ultimo volo,</l>
+<l>E dove gli occhi tuoi solean far giorno.</l></lg></quote></p>
+<p>«Vedute adunque le corrispondenze che ne' proprii si fanno, resta che voi vediate quelle che ne' contrari s'usano di fare, come in questi versi fece il poeta :
+<quote rend="block"><lg><l>Sì che, s'io vissi in guerra et in tempesta,</l>
+<l>Mora in pace et in porto, e se la stanza</l>
+<l>Fu vana, almen sia la partita onesta;</l></lg></quote>
+et in altra parte il medesimo:
+<quote rend="block"><lg><l>O nostra vita, ch'è sì bella in vista,</l>
+<l>Com' perde agevolmente in un matino</l>
+<l>Quel che 'n molt'anni a gran pena s'acquista.</l></lg></quote>
+Dico ne' contrari; perciò che ‘acquista’ è il contrario del ‘perdere’; di ‘agevolmente’ ‘a gran pena’; ‘molt'anni’ d'un ‘matino’. E suolsi alcuna volta tanto avanti per queste contrarietà procedere andando, che non solamente nome a nome e verbo a verbo contrari si pongono, ma (quello che par più nuovo) l'aggiunto dal suo sostantivo ancora, come nella canzon di nostra donna:
+<quote rend="block"><lg><l>Santi pensieri, atti pietosi e casti, </l>
+<l>Al vero Dio sacrato e vivo tempio</l>
+<l>Fecero in tua verginità feconda,</l></lg></quote>
+et in quella medesima canzone:
+<quote rend="block"><lg><l>Che per vera et altissima umiltate</l>
+<l>Salisti al ciel.</l></lg></quote>
+Non è feconda la virginità né l'umilità altissima, ma quella sterile, e bassa quest'altra sì bene. Vorrei ancora che voi deste alle fiate sentimento a quelle cose che per sé non l'hanno; come fece Dante quando egli attribuì occhi alle piante, dicendo nell'<title>Inferno</title>:
+<quote rend="block"><lg><l>Come d'autunno si levan le foglie</l>
+<l>L'un' appresso de l'altra, infin che 'l ramo</l>
+<l>Vede a la terra tutte le sue spoglie;</l></lg></quote>
+et il Petrarca:
+<quote rend="block"><lg><l>avrei fatto parlando</l>
+<l>Romper le pietre e piagner di dolcezza,</l></lg></quote>
+et altrove :
+<quote rend="block"><lg><l>Non fia in voi scoglio omai che per costume</l>
+<l>D'arder con la mia fiamma non impari.</l></lg></quote></p>
+<p>«Che voi diceste alcuna volta per un giro di parole quella cosa che per lo proprio suo nome dir si potrebbe. E ciò si suol fare per fuggire et ischifare la sazietà, nella quale si potrebbe di leggeri incorrere, se devendo l'uomo due o più volte d'una stessa cosa parlare, la ci descrivesse sempre per lo proprio suo nome. Onde si vede che il Petrarca, devendo far due volte menzion del sole in un sonetto, lo ci descrive la prima per un giro di parole e per lo proprio nome la seconda: e ciò medesimo fa egli ancora della stagione, dicendo :
+<quote rend="block"><lg><l>Quando 'l pianeta che destingue l'ore</l>
+<l>Ad albergar col Tauro si ritorna,</l>
+<l>Cade vertù da l'infiammate corna</l>
+<l>Che veste il mondo di novel colore;</l></lg></quote>
+e nel primo terzetto:
+<quote rend="block"><lg><l>Così costei ch'è fra le donne un sole,</l>
+<l>In me movendo de' begli occhi i rai,</l></lg></quote>
+et in fine del secondo:
+<quote rend="block"><lg><l>Primavera per me pur non è mai.</l></lg></quote>
+Usasi la circuizione ancora per fuggire que' nomi i quali sono o troppo bassi o troppo volgari; onde devendo egli far menzione di quegli uccelli ch'hanno in odio il raggio solare, volle più tosto dire in quel sonetto:
+<quote rend="block"><lg><l>Altri, però che 'l gran lume gli offende,</l>
+<l>Non escon fuor, se non verso la sera,</l></lg></quote>
+che ‘civette’ e ‘vipistrelli’ e simili altri animali, dandoci così a divedere che noi sempre fuggir dobbiamo que' nomi tutti che sono o troppo popolari o non molto usati. Vedete che accadendogli a parlar del Zodiaco, disse una volta con lo spirito di Sennuccio parlando:
+<quote rend="block"><lg><l>Or vedi insieme l'un e l'altro polo,</l>
+<l>Le stelle vaghe e lor viaggio torto,</l></lg></quote>
+et altra :
+<quote rend="block"><lg><l>A pena spunta in orïente un raggio</l>
+<l>Di sol, ch'a l'altro monte</l>
+<l>De l'adverso orizonte</l>
+<l>Giunto 'l vedrai per vie lunghe e distorte;</l></lg></quote>
+et in quel sonetto :
+<quote rend="block"><lg><l>Amor, che meco al bon tempo ti stavi,</l>
+<l>........</l>
+<l>O vaghi abitador de' verdi boschi,</l></lg></quote>
+dir ‘satiri, fauni, e silvani’ volendo».</p>
+<p>Allora io: «Nel vero, Messere», dissi, «ch'io ho sempre fermissima opinione portato che in cotesto luogo, ove voi dite il Petrarca aver inteso di fauni e di silvani, degli animali e fiere selvagge, e poco più sotto de' pesci intendesse, soggiugnendo:
+<quote rend="block"><lg><l>e voi che 'l fresco erboso fondo</l>
+<l>Del liquido cristallo alberga e pasce.</l></lg></quote>
+Tuttavia, questo che voi ora ci dite punto non mi dispiace ». «Che il poeta, Daniello», rispose a queste parole il Gabrielle, «abbia in questo luogo voluto intendere più tosto delle fiere selvagge che di fauni e silvani o d'altre favolose deità le selve e le fonti abitanti, non vi niego io già; perciò che ancora nella maniera che voi dite intender si potrebbe. Ma se per un altro luogo del medesimo poeta vi si farà chiaro, che quando ei disse:
+<quote rend="block"><lg><l>O Nimfe, e voi che 'l fresco erboso fondo</l>
+<l>Del liquido cristallo alberga e pasce,</l></lg></quote>
+volle che noi di quelle nimfe che abitano i mari, i fiumi, e le fonti (che Naiade si chiamano) intendessimo, che direte voi?». «Io», ripresi incontinente, «senza che voi altro testimonio m'arrechiate, Messere, sino ad ora vi credo, così in questa come nell'altre cose tutte, al vostro sano et intero giudizio rimettendomi. Ma quale è egli cotesto luogo che voi ci dite?». E rispose egli :
+<quote rend="block"><lg><l>«Ora in forma di Nimfa o d'altra Diva,</l>
+<l>Che del più chiaro fondo di Sorga esca,</l>
+<l>E pongasi a sedere in su la riva».</l></lg></quote>
+«A questo ancora si potrebbe aggiugnere», disse Messere Andrea :
+<quote rend="block"><lg><l>«Qual Nimfa in fonti, in selve mai qual dea,</l>
+<l>Chiome d'oro sì fino a l'aura sciolse?»</l></lg></quote>
+«E cotesto che tu di', figliuolo, ancora», rispose al nepote Messer Trifone. Poscia a me rivolto seguitò: «Nondimeno io non voglio però, Daniello, che voi alle mie parole quella fede prestiate che l'antica età si scrive ch'agli oracoli prestare soleva.</p>
+<p>«Ora ritornando là ove pur dianzi ci dipartimmo, dico che come sta bene il dire alle fiate con più voci quello che con una sola dir si potria, così non mi spiacerebbe che alquanto per voi nella metafora si soggiornasse; come fece quando disse Messere Francesco nella canzon ‘<title>Italia mia</title>’:
+<quote rend="block"><lg><l>O diluvio raccolto</l>
+<l>Di che diserti strani</l>
+<l>Per inondar i nostri dolci campi,</l></lg></quote>
+e nella prima ‘<title>Sorella</title>’ delle tre :
+<quote rend="block"><lg><l>Onde s'alcun bel frutto</l>
+<l>Nasce di me, da voi vien prima il seme; </l>
+<l>Io per me son quasi un terreno asciutto</l>
+<l>Colto da voi.</l></lg></quote>
+Ma qui vi bisogna, figliuoli, avertimento avere che voi non prendeste l'<emph>allegoria</emph> in vece di transportamento, imperciò che se bene ogni allegoria è translazione, non però ogni translazione allo 'ncontro è allegoria. E rare volte aviene, anzi non mai, che nella metafora una cosa significhino le parole et altra il sentimento come volle significare il Petrarca quando disse:
+<quote rend="block"><lg><l>Muri eran d'alabastro e tetto d'oro,</l>
+<l>D'avorio uscio e finestre di zafiro;</l></lg></quote>
+vedete che una cosa suonano le parole et altra nel sentimento si comprende. Perciò che per le mura d'alabastro le guance, per il tetto d'oro i capegli, uscio d'avorio pe' denti, e per le finestre di zafiro i begli occhi di Madonna Laura volle significare. È medesimamente sotto allegoria non pur quel sonetto tutto,
+<quote rend="block"><lg><l>Passa la nave mia colma d'oblio</l>
+<l>Per aspro mare, a mezza notte, il verno,</l></lg></quote>
+ma tutta quella sestina ancora:
+<quote rend="block"><lg><l>L'aere gravato e l'importuna nebbia</l>
+<l>Compressa intorno da rabbiosi venti </l>
+<l>Tosto conven che si converta in pioggia,</l></lg></quote>
+intendendo allegoricamente per li rabbiosi venti gli sdegni di Madonna Laura, e la pioggia per le lagrime di lui; e quanto alle parole solamente dimostra esser inverno, quanto poi alla cosa, significa esser l'inverno del suo amore, essendo egli in corruccio con esso lei. Dicesi allo 'ncontro l'amante esser nella state del suo amore quando egli è poi in grazia et in piacere con l'amata. Oltre a ciò che voi usaste quando che sia la similitudine per translazione, avendo però riguardo di far che il vostro parlare finisca in quella maniera di trasportamento, onde avrà suo principio avuto la similitudine, così :
+<quote rend="block"><lg><l>Come a forza di venti</l>
+<l>Stanco nocchier di notte alza la testa</l>
+<l>A' duo lumi ch'ha sempre il nostro polo,</l>
+<l>Così nella tempesta </l>
+<l>Ch'i' sostengo d'amor, gli occhi lucenti</l>
+<l>Sono il mio segno, e 'l mio conforto solo;</l></lg></quote>
+ove la tempesta ch' era propria del nocchiero attribuisce a se medesimo il poeta, per translazione. Come fa ancora il Riogo ch'andava a' buoi, in quest'altro luogo :
+<quote rend="block"><lg><l>E perch'un poco nel parlar mi sfogo,</l>
+<l>Veggio la sera i buoi tornare sciolti </l>
+<l>Da le campagne e da' solcati colli;</l>
+<l>I miei sospiri a me perché non tolti </l>
+<l>Quando che sia? perché no 'l grave giogo?</l></lg></quote>
+La materia per la forma :
+<quote rend="block"><lg><l>Né di Lucrezia mi meravigliai, </l>
+<l>Se non com'a morir le bisognasse</l>
+<l>Ferro, e non le bastasse il dolor solo,</l></lg></quote>
+ponendo il ferro, ch'è materia, in vece del coltello ch'è la forma. Et allo 'ncontro si pone eziandio la forma per la materia, come ‘Di verde lauro una ghirlanda colse’, la ghirlanda, ch'è la forma, per lo ramo della pianta onde si fa, ch'è la materia. La parte per il tutto: ‘Non avr'albergo il sole in Tauro o 'n Pesce’, volendo di tutt'i celesti segni intendere. Il general per lo particolare: ‘L'avaro zappator l'arme riprende’. La cosa che contiene per quella ch'è contenuta:
+<quote rend="block"><lg><l>Dice che Roma ogni ora,</l>
+<l>Con gli occhi di dolor bagnati e molli, </l>
+<l>Ti chier mercé da tutti sette i colli,</l></lg></quote>
+et altrove disse ancora il medesimo:
+<quote rend="block"><lg><l>I' era amico a queste vostre Dive, </l>
+<l>Le qua' vilmente il secolo abandona,</l></lg></quote>
+ove il secolo per il mondo e per lo mondo gli uomini si prendono. Il numero del meno per quello del più :
+<quote rend="block"><lg><l>Et a cui mai di vero pregio calse</l>
+<l>Dal Pireneo a l'ultimo orizonte,</l>
+<l>Con Aragon lascerà vota Ispagna.</l></lg></quote>
+Dante nell'<title>Inferno</title>:
+<quote rend="block"><lg><l>Che ne' monti di Luni, dove ronca</l>
+<l>Lo Carrarese che di sotto alberga.</l></lg></quote></p>
+<p>«Vorrei ancora che voi non vi dimenticaste di porre alle fiate nelle vostre scritture l'<emph>effetto per la cagione</emph>, com'è: ‘<quote>E 'l ciel che del mio pianto or si fa bello</quote>’, conciò sia cosa ch'egli s'addornasse e risplendesse dal chiaro lume delle bellezze di Madonna Laura, cagione del suo pianto. E Dante disse ‘<quote>E 'l feruto restrinse insieme l'orme</quote>’, ponendo l'orme in luogo de' piedi che le stampano. Et allo 'ncontro la <emph>cagione per l'effetto</emph>, così :
+<quote rend="block"><lg><l>Torto mi face il velo</l>
+<l>E la man che sì spesso attraversa</l>
+<l>Fra 'l mio sommo diletto,</l>
+<l>E gli occhi, onde dì e notte si rinversa</l>
+<l>Il gran disio,</l></lg></quote>
+il desio (che quello è che cagiona le lagrime) per esse lagrime. Perciò che non si rinversa il disio per gli occhi, ma  le lagrime che da quello procedono. Così Dante nel <title>Purgatorio</title> :
+<quote rend="block"><lg><l>Ma voi chi sete, cui tanto destilla</l>
+<l>Quant'io veggio dolor giù per le guance?</l></lg></quote>
+Dar l'accidente di colui che patisce alla cosa che lo fa, come:
+<quote rend="block"><lg><l>E ripregando te, pallida morte, </l>
+<l>Che mi sottragghi a sì penose notti,</l></lg></quote>
+et altrove :
+<quote rend="block"><lg><l>Quando la gente di pietà dipinta</l>
+<l>Su per la riva a ringraziar s'atterra.</l></lg></quote>
+E somigliantemente l'accidente di colui che fa alla cosa che lo sostiene :
+<quote rend="block"><lg><l>Vergine, que' begli occhi</l>
+<l>Che vider tristi la spietata stampa</l>
+<l>Ne' dolci membri del tuo caro figlio,</l>
+<l>volgi al mio dubbio stato,</l></lg></quote>
+volendo per la ‘spietata stampa’ intender gli uomini spietati che la fecero. L'inventore d'alcuna cosa per essa cosa, come (per grazia d'essempio) Bacco per lo vino, Cerere per le biave, Minerva per la sapienzia, Marte non pur per la guerra, ma e per quelli che la fanno :
+<quote rend="block"><lg><l>Dolce m'è sol senz'arme esser stat'ivi,</l>
+<l>Dove armato fier Marte, e non accenna.</l></lg></quote></p>
+<p>«Che spargeste oltre a ciò per entro i vostri poemi l'<emph>agnominazione</emph> (che quello è che noi ‘bisticcio’ diciamo), ma di raro, imperciò che l'usarla spesse volte suole scemar grazia alla scrittura, laonde poco usandola la ripone. Ciò si suol fare rimanendo le consonanti con mutamento delle vocali, molto diverso fine l'una all'altra voce portando, così:
+<quote rend="block"><lg><l>Questo è colui che 'l mondo chiama Amore,</l>
+<l>Amaro come vedi.</l></lg></quote>
+Dante nel <title>Paradiso</title>:
+<quote rend="block"><lg><l>perché fur negletti</l>
+<l>Li nostri voti, e voti in alcun canto,</l></lg></quote>
+e ne l' <title>Inferno</title>: ‘<quote>Ch' io fui per ritornar più volte volto</quote>’. O si fa con l'accrescimento d'un'altra lettera in quest'altro modo:
+<quote rend="block"><lg><l>O s'infinge, o non cura, o non s'accorge </l>
+<l>Del fiorir queste innanzi tempo tempie.</l></lg></quote>
+Fecelo il medesimo ancora in tre continui versi, quando dice in quella sestina:
+<quote rend="block"><lg><l>Fuggito è 'l sonno a le mie crude notti,</l>
+<l>E 'l suono usato a le mie roche rime, </l>
+<l>Che non sanno trattar altro che morte.</l></lg></quote></p>
+<p>«E s'io credessi di non vi tener molto più che voi per aventura non vorreste, occupati, vi direi ancora che l'<emph>occupazione</emph> si fa quando altri dice di lasciar a dietro, o di non sapere, o veramente di non voler dir quello che però dice tuttavia, come :
+<quote rend="block"><lg><l>Cesare, taccio, che per ogni piaggia </l>
+<l>Fece l'erbe sanguigne</l>
+<l>Di lor vene, ov'il nostro ferro mise.</l></lg></quote>
+Et inoltre vi scoprirei molt'altri colori e modi del dire usati da questo poeta, sì come è <emph>la conversione</emph>, <emph>l'esclamazione</emph>, <emph>la correzione</emph>, <emph>l'interrogazione</emph>, e <emph>dubitazione</emph>, e <emph>dimostrazione</emph>, e <emph>diffinizione</emph>, e<emph> dissimulazione</emph>, et <emph>il salimento</emph> che si suol fare d'un in altra cosa, e <emph>sentenze</emph>, e <emph>membra</emph>, et <emph>articoli</emph> (da alcuni iscioglimenti) et i loro contrarii; e <emph>reticenza</emph>, e <emph>permissione</emph>, e <emph>raziocinazione</emph>, et <emph>espolizione</emph>, e <emph>superlazione</emph>, e <emph>ripigliamento</emph>, et altre molte a queste simiglianti, che sarebbon soverchie a raccontarvi, et ispezialmente avendole voi più volte e vedute e lette negli scritti di coloro che ne hanno dottamente e latinamente trattato».</p>
+<p>Quivi Messer Andrea: «E se noi bene avessimo queste figure e modi di dire (che voi ci dite, Messere) vedute et osservate ne' poeti latini, e negli oratori, sì non l'abbiam noi però vedute né osservate nel Petrarca. E pertanto io per parte di tutti tre vi priego che voi vogliate di queste far quello che fatto avete dell'altre, dandoci di ciascuna gli essempi». E questo detto si tacque. LaondeMesser Trifone il tralasciato ragionamento ripigliando, così seguitò: «La <emph>conversione</emph> adunque, figliuoli, è quando noi i nostri parlari rivolgiamo a persona o a cosa che lontana o vicina ci sia, come:
+<quote rend="block"><lg><l>O grandi Scipioni, o fedel Bruto, </l>
+<l>Quanto v'aggrada s'egli è ancor venuto</l>
+<l>Romor la giù del ben locato officio!</l>
+<l>........</l>
+<l>Odil tu, verde riva,</l>
+<l>E presta a' miei sospir sì largo volo,</l>
+<l>Che sempre si ridica</l>
+<l>Come tu m'eri amica.</l></lg></quote>
+L'<emph>esclamazione</emph> si fa quando in significazione ammirativa, quando in dolorosa e quando nell'una e nell'altra guisa. Alcuna volta ancora per indegnazione si suol fare, alcun'altra in laude di chi che sia. In ammirativa significazione :
+<quote rend="block"><lg><l>Qual mi feci io, quando primier m'accorsi</l>
+<l>De la trasfigurata mia persona,</l>
+<l>E i capei vidi far di quella fronde</l>
+<l>Di che sperato avea già lor corona,</l></lg></quote>
+e ciò che segue in tutto il rimanente di quella stanza. In dolorosa :
+<quote rend="block"><lg><l>O poggi, o valli, o fiumi, o selve, o campi,</l>
+<l>O testimon de la mia grave vita, </l>
+<l>Quante volte m'udiste chiamar morte!</l></lg></quote>
+e com'è tutto quel sonetto:
+<quote rend="block"><lg type="sonetto"><lg><l>O passi sparsi, o pensier vaghi e pronti,</l>
+<l>O tenace memoria, o fero ardore,</l>
+<l>O possente desire, o debil core,</l>
+<l>O occhi miei, occhi non già, ma fonti,</l></lg>
+<lg><l>O fronde, onor de le famose fronti,</l>
+<l>O sola insegna al gemino valore,</l>
+<l>O faticosa vita, o dolce errore,</l>
+<l>Che me fate ir cercando piagge e monti,</l></lg>
+<lg><l>O bel viso, ov'amor insieme pose</l>
+<l>Gli sproni e 'l fren, onde' mi punge e volve,</l>
+<l>Com' a lui piace, e calcitrar non vale,</l></lg>
+<lg><l>O anime gentili et amorose,</l>
+<l>S'alcuna ha 'l mondo, e voi, nude ombre e polve,</l>
+<l>Deh restate a veder qual è 'l mio male.</l></lg></lg></quote>
+In ammirativa e dolorosa parimente: ‘Quanto cangiata, oimè, da quel di pria’. Per indegnazione:
+<quote rend="block"><lg><l>O Invidia nemica di virtute,</l>
+<l>Ch'a bei principi volentier contrasti,</l>
+<l>Per qual sentier così tacita entrasti</l>
+<l>In quel bel petto, e con qual arte il mute?</l></lg></quote>
+E Dante :
+<quote rend="block"><lg><l>E se lecito m'è, o sommo Giove,</l>
+<l>Che fosti in terra per noi crocifisso,</l>
+<l>Son li giusti occhi tuoi rivolti altrove?</l></lg></quote>
+In laudabile significazione :
+<quote rend="block"><lg><l>O saldo scudo de l'afflitte genti</l>
+<l>Contra i colpi di morte e di fortuna,</l>
+<l>Sotto 'l qual si triomfa, non pur scampa;</l>
+<l>O refrigerio al cieco ardor ch'avampa</l>
+<l>Qui fra' mortali sciocchi.</l></lg></quote>
+La <emph>correzione</emph> :
+<quote rend="block"><lg><l>Vergine saggia, e del bel numero una</l>
+<l>De le beate vergini prudenti, </l>
+<l>Anzi la prima, e con più chiara lampa,</l></lg></quote>
+et in altro luogo, di Madonna Laura :
+<quote rend="block"><lg><l>Forse vuol Dio tal di virtute amica </l>
+<l>Tòrre a la terra, e 'n ciel farne una stella,</l>
+<l>Anzi un sole.</l></lg></quote>
+L'<emph>interrogazione</emph> a duo modi si suol fare, o con esso noi medesimi ragionando, o con altrui. Con noi medesimi, come:
+<quote rend="block"><lg><l>‘Che sai tu, lasso? forse in quella parte </l>
+<l>Or di tua lontananza si sospira’.</l></lg></quote>
+Con altrui :
+<quote rend="block"><lg><l>Liete e pensose, accompagnate e sole,</l>
+<l>Donne, che ragionando ite per via,</l>
+<l>Ov'è la vita, ov'è la morte mia? </l>
+<l>Perché non è con voi, com'ella suole?</l></lg></quote>
+Et appresso Dante, Catone :
+<quote rend="block"><lg><l>‘Chi siete voi che contra 'l cieco fiume</l>
+<l>Fuggito avete la prigion eterna?’;</l></lg></quote>
+e poco dopo:
+<quote rend="block"><lg><l>‘Chi v'ha guidati? o chi vi fu lucerna</l>
+<l>Uscendo fuor de la profonda notte,</l>
+<l>Che sempre nera fa la valle inferna?’.</l></lg></quote>
+La <emph>dubitazione</emph>: ‘Che debb'io far, che mi consigli Amore?’ ; et altrove: ‘Quai fien ultime, lasso, e qua' fien prime?’. La <emph>raziocinazione</emph> è poi quando noi stessi ci dimandiamo la ragione d'alcuna cosa, in persona d'altrui; come in quella de' prìncipi d'Italia fa il Petrarca, dimandando onde venga loro tanto danno quanto quello è ch'essi sostengono, dicendo: ‘<quote>Qual colpa, qual giudizio, o qual destino</quote>’, al che egli in cotal modo risponde:
+<quote rend="block"><lg><l>Fastidire il vicino</l>
+<l>Povero, e le fortune afflitte e sparte</l>
+<l>Perseguire, e 'n disparte</l>
+<l>Cercar gente e gradire, </l>
+<l>Che sparga 'l sangue e venda l'alma a prezzo?</l></lg></quote>
+E quest'altra :
+<quote rend="block"><lg><l>Ov'è condotto il mio amoroso stile?</l>
+<l>A parlar d'ira, a ragionar di morte.</l></lg></quote>
+E Dante della imaginativa parlando:
+<quote rend="block"><lg><l>Chi move te, se 'l senso non ti porge?</l>
+<l>Muoveti lume che nel ciel s'informa</l>
+<l>Per sé, o per voler che giù lo scorge.</l></lg></quote>
+<emph>sentenza</emph> è figura la quale quello ch'è nella vita, o ver quello ch'esser convenga, brevemente dimostra; come quando dice il Petrarca:
+<quote rend="block"><lg><l>Rade volte adivien ch'a l'alte imprese</l>
+<l>Fortuna ingiurïosa non contrasti,</l>
+<l>Ch'agli animosi fatti mal s'accorda;</l></lg></quote>
+e Dante :
+<quote rend="block"><lg><l>‘non è maggior dolore</l>
+<l>Che ricordarsi del tempo felice</l>
+<l>Ne la miseria...’</l></lg></quote>
+<emph>Membra</emph> sono:
+<quote rend="block"><lg><l>Fastidire il vicino </l>
+<l>Povero, e le fortune afflitte e sparte</l>
+<l>Perseguire, e 'n disparte</l>
+<l>Cercar gente e gradire </l>
+<l>Che sparga 'l sangue e venda l'alma a prezzo ? </l></lg></quote>
+<emph>Articoli disciolti</emph>: ‘Rhodano, Ibero, Rhen, Sena, Albia, Hera, Hebro’ e: ‘Santa, saggia, leggiadra, onesta, e bella’ <emph>Annoda e congiunti</emph>. ‘E le braccia, e le mani, e i piedi, e 'l viso’ et altrove il medesimo: ‘E temo, e spero, et ardo, e son'un ghiaccio’. Seguita la <emph>permissione</emph>, la quale non è altro che prometter di dare e porre tutto ciò che per noi si possiede in arbitrio e podestà d'altrui. L'essempio:
+<quote rend="block"><lg><l>Se dal mio stato assai miser e vile </l>
+<l>Per le tue man resurgo, </l>
+<l>Vergine, i' sacro e purgo</l>
+<l>Al tuo nome e pensieri e 'ngegno e stile,</l>
+<l>La lingua e 'l cor, le lagrime e i sospiri;</l></lg></quote>
+o volete più tosto:
+<quote rend="block"><lg><l>e le mie parti estreme,</l>
+<l>Alto Dio, a te devotamente rendo.</l></lg></quote>
+«La reticenza è quando si dice alcuna cosa nella quale (senz'altramente esprimerlovi) il verbo s'intende, così :
+<quote rend="block"><lg><l>Poi la rividi in altro abito sola,</l>
+<l>Tal ch'io non la conobbi, o senso umano!</l></lg></quote>
+Ove ‘quanto t'inganni’ , fa mestiero che s'intenda. Usolla Dante nel suo <title>Inferno</title>, ove in persona di Virgilio parlando dice :
+<quote rend="block"><lg><l>‘Pur a noi converrà vincer la punga’,</l>
+<l>Cominciò ei, ‘se non tal ne s'offerse,</l>
+<l>O quanto tarda a me ch'altri qui giunga’.</l></lg></quote>
+Usolla il Boccaccio ancora in quella novella del Marchese di Saluzzo, ove fa dire al suo fante: ‘<quote>Madonna s'io non voglio morire, a me convien fare quello che il mio Signore mi commandò. Egli m'ha commandato ch'io prenda questa vostra figliuola, e ch'io..., e non disse più</quote>’. Viene oltre a ciò la <emph>dimostrazione</emph>, che si fa quasi dinanzi agli occhi degli ascoltanti ponendo quella cosa della qual si ragiona, sì fattamente dipignendola che paia a quei cotali vederlasi rappresentare davanti tale quale ella si finge, o quale stata veramente et avenuta sia. Fallo il Petrarca nostro, il quale con parole esprime in maniera la fatica e l'affanno di quella vecchierella pellegrina caminante, ch'io non vengo mai a quella parte leggendo che la non mi paia avere dinanzi agli occhi, e di vederla caminare con quella affannosa sollecitudine ch'egli la ci descrive. Ora, non ci dipigne esso medesimamente, e quasi dinanzi agli occhi ci pone, quell'atto dolce et onesto di bella e modesta giovane che di cantar si prepari, e non solamente quel canto ma tutto ciò eziandio che dalla dolcezza di quello ne segue a lui che l'ascolta, dicendo esso:
+<quote rend="block"><lg><l>Quando Amor i begli occhi a terra inchina</l>
+<l>E i vaghi spirti in un sospiro accoglie</l>
+<l>Con le sue mani, e poi in voce gli scioglie</l>
+<l>Chiara, soave, angelica, divina;</l>
+<l>Sento far del mio cor dolce rapina,</l>
+<l>E sì dentro cangiar pensieri e voglie </l>
+<l>Ch'i' dico, ‘or fien di me l'ultime spoglie, </l>
+<l>Se 'l ciel sì onesta morte mi destina’: </l>
+<l>Ma 'l suon, che di dolcezza i sensi lega, </l>
+<l>Col gran desir d'udendo esser beata,</l>
+<l>L'anima, al dipartir presta, raffrena.</l></lg></quote></p>
+<p>«L’<emph>espolizione</emph> si fa quando di solamente una cosa si parla ma per diverse vie, come:
+<quote rend="block"><lg><l>Quando vede 'l pastor calare i raggi</l>
+<l>Del gran pianeta al nido ov'egli alberga,</l>
+<l>E'mbrunir le contrade d'oriente,</l></lg></quote>
+e come è in quella canzon ‘<title>Amor, se vuoi ch'io torni</title>’:
+<quote rend="block"><lg><l>Fammi sentir di quell'aura gentile </l>
+<l>Di fuor, sì come dentro ancor si sente,</l>
+<l>La qual era possente</l>
+<l>Cantando d'acquetar li sdegni e l'ire,</l>
+<l>Di serenar la tempestosa mente </l>
+<l>E sgombrar d'ogni nebbia oscura e vile. </l></lg></quote>
+La <emph>superlazione</emph>, così detta perciò ch'ella supera il vero, non per altra cagione che per dare accrescimento a quelle cose che noi diciamo, come:
+<quote rend="block"><lg><l>Vo con gli occhi bagnando l'erbe e 'l petto,</l>
+<l>Rompendo coi sospir l'aere da presso,</l></lg></quote>
+et in altro luogo :
+<quote rend="block"><lg><l>Sospir dal petto e dagli occhi escon onde </l>
+<l>Da bagnar l'erbe e da crollar i boschi.</l></lg></quote>
+Fassi per comparazione: ‘Più veloce che 'l vento’, et altrove
+<quote rend="block"><lg><l>Giovene donna sott'un verde lauro</l>
+<l>Vidi, più bianca e più fredda che neve</l>
+<l>Non percossa dal sol molt' e molt'anni,</l></lg></quote>
+et in quel sonetto:
+<quote rend="block"><lg><l>Un lauro verde sì, che di colore</l>
+<l>Ogni smeraldo avria ben vinto e stanco.</l></lg></quote>
+Per amplificazione:
+<quote rend="block"><lg><l>Gli occhi sereni e le stellanti ciglia,</l>
+<l>La bella bocca angelica, di perle</l>
+<l>Piena di rose e di dolci parole,</l>
+<l>Che fanno altrui tremar di meraviglia,</l>
+<l>E la fronte e le chiome, ch'a vederle</l>
+<l>Di state a mezzo dì vincono il sole.</l></lg></quote>
+Così Dante nel <title>Purgatorio</title> :
+<quote rend="block"><lg><l>Di sopra fiammeggiava il bello arnese,</l>
+<l>Più chiaro assai che luna per sereno</l>
+<l>Di mezza notte nel suo mezzo mese. </l></lg></quote>
+Vedete ancora quanto sia più bella quest'altra pur del Petrarca, che disse in quel sonetto:
+<quote rend="block"><lg><l>Onde sul trar di lagrime tal fiume </l>
+<l>Per accorciar del mio viver la tela,</l>
+<l>Che non pur ponte, o, guado, o remi, o vela,</l>
+<l>Ma scampar non potiemmi ale né piume, </l>
+<l>Sì profond'era e di sì larga vena</l>
+<l>Il pianger mio, e sì lungi la riva</l>
+<l>Ch'io v'aggiugneva col penser a pena.</l></lg></quote>
+Fassi e per diminuimento, come fece Dante quando, salito insieme con Beatrice sopra le sette spere, per essortazione di lei chinando gli occhi giù in terra, quella a comparazion del cielo ci dimostra esser non altrimenti ch'una picciola aia, dicendo esso :
+<quote rend="block"><lg><l>L'aiuola che ci fa tanto feroci,</l>
+<l>Volgendom' io con gli eterni Gemelli,</l>
+<l>Tutta m'apparve da' colli a le foci.</l></lg></quote>
+E nel <title>Purgatorio</title> di quelle ombre parlando, dice che :
+<quote rend="block"><lg><l>Negli occhi era ciascuna oscura e cava, </l>
+<l>Pallida ne la faccia e tanto scema</l>
+<l>Che da l'ossa la pelle s'informava.</l></lg></quote>
+«<emph>Diffinizione</emph> è poi questa :
+<quote rend="block"><lg><l>Veramente siam noi polvere et ombra,</l>
+<l>Veramente la voglia cieca e 'ngorda,</l>
+<l>Veramente fallace è la speranza.</l></lg></quote>
+E ne' <title>Triomfi</title>:
+<quote rend="block"><lg><l>Ben è 'l viver mortal, che sì n'aggrada,</l>
+<l>Sogno d'infermi e fola di romanzi!</l></lg></quote>
+Dante:
+<quote rend="block"><lg><l>Non è 'l mondan romor altro ch'un fiato</l>
+<l>Di vento, ch'or vien quinci et or vien quindi,</l>
+<l>E muta nome perché muta lato. </l></lg></quote>
+Quella figura poi che si fa quando per essa quasi per scala di grado in grado d'una in altra cosa si va sagliendo e sormontando è:
+<quote rend="block"><lg><l>...ch'è pura luce,</l>
+<l>Luce intellettüal piena d'amore,</l>
+<l>Amor di vero ben, pien di letizia,</l>
+<l>Letizia che trascende ogni dolzore.</l></lg></quote>
+<emph>Dissimulazione</emph>, che et <emph>ironia</emph> si suol addimandare
+<quote rend="block"><lg><l>Fiorenza mia, ben puoi esser contenta</l>
+<l>Di questa digression, che non ti tocca,</l>
+<l>Mercé del popol tuo che si argomenta,</l></lg></quote>
+e tutto quel che segue nel rimanente di quel canto. Viene ultima di tutte la <emph>repetizione</emph> (o vogliam dire <emph>ripigliamento</emph>) che si fa delle voci. Perciò che si ripiglia quel verbo o quel nome che nel principio del verso si pone, come è:
+<quote rend="block"><lg><l>E ripon le tue insegne nel bel volto.</l>
+<l>Riponi entro 'l bel viso il vivo lume,</l>
+<l>o nel fine o nel principio:</l>
+<l>Passata è la stagion, perdut'hai l'arme</l>
+<l>Di ch'io tremava, omai che puoi tu farme?</l>
+<l>L'arme tue furon gli occhi,</l></lg></quote>
+o vero in questa guisa:
+<quote rend="block"><lg><l>Quest'è la vista ch'a ben far m'induce</l>
+<l>E che mi scorge al glorïoso fine, </l>
+<l>Questa sola dal vulgo m'allontana.</l></lg></quote>
+Ma più ancora di forza quella maniera di ripigliamento si vede avere che quasi in ciascun verso si suol fare alcuna volta:
+<quote rend="block"><lg><l>Vedi ben quanta in lei dolcezza piove,</l>
+<l>Vedi lume che 'l ciel, in terra mostra,</l>
+<l>Vedi quant'arte dora, imperla, e 'nostra</l>
+<l>L'abito eletto,</l></lg></quote>
+e Dante:
+<quote rend="block"><lg><l>Questi ne porta 'l fuoco inver la luna,</l>
+<l>Questi ne' cor mortali è promotore,</l>
+<l>Questi la terra in sé strigne et aduna. </l></lg></quote>
+Fassi eziandio questo raddoppiamento nelle contraposizioni, come in queste fece il Petrarca:
+<quote rend="block"><lg><l>I' da man manca, e' tenne il camin dritto;</l>
+<l>I' tratto a forza, et e' d'amore scorto; </l>
+<l>Egli in Ierusalem, et io in Egitto.</l></lg></quote>
+Ècci un'altra maniera di ripigliamento ancora, ch'una cosa una volta solamente proposta si va reiterando, così:
+<quote rend="block"><lg><l>Amor, natura, e la bell'alma umile,</l>
+<l>Ov'ogni alta virtude alberga e regna,</l>
+<l>Contra me son giurati; amor s'ingegna </l>
+<l>Ch'i mora affatto, e 'n ciò segue suo stile.</l>
+<l>Natura ten costei d'un sì gentile</l>
+<l>Laccio, che nullo sforzo è che sostegna.</l>
+<l>Ella è si schiva, ch'abitar non degna</l>
+<l>Più nella vita faticosa e vile.</l></lg></quote>
+Né men bella dell'altre tutte è questa guisa di ripigliamento ancora:
+<quote rend="block"><lg><l>Non è sterpo né sasso in questi monti, </l>
+<l>Non ramo o fronda verde in queste piagge,</l>
+<l>Non fiori in queste valli o foglia d'erba,</l>
+<l>Stilla d'acqua non ven di queste fonti, </l>
+<l>Né fere han questi boschi sì selvagge,</l>
+<l>Che non sappian quant' è mia vita acerba.</l></lg></quote>
+Et in quest'altro modo:
+<quote rend="block"><lg><l>Meco, mi disse, meco ti consiglia</l>
+<l>........</l>
+<l>Prendi partito accortamente, prendi,</l></lg></quote>
+e Dante :
+<quote rend="block"><lg><l>Questi ch'occupa in terra il luogo mio,</l>
+<l>Il luogo mio, il luogo mio, che vaca</l>
+<l>Ne la presenza del Figliuol di Dio.</l></lg></quote></p>
+<p>«Ora questi e molti altri modi e figure del dire devete voi, figliuoli, materia non sempre et in ogni luogo de' vostri poemi, usare, secondo però la qualità della materia e la diversità degli stili; delle quali cose, se ben vi ricorda, nel principio della terza parte del poema vi ragionai. Resterebbemi ora a dirvi alcuna cosa intorno al numero, ma già l'ora è tarda et a voi l'udir tante e sì diverse cose potrebbe più tosto generare noia e rincrescimento che altro. Perciò fia buono che noi facciamo qui punto a' nostri ragionamenti d'oggi, rimettendo la cosa a dimane. E se voi intanto, con qualche onesto essercizio corporale, della noia e dell'affanno ch'io vi ho forse col mio dire apportata, voleste gli animi vostri alleggiare infino che l'ora di cena venisse, potreste farlo». Quivi dolendosi Messer Andrea di non potervisi il seguente giorno ridurre, perciò che esser gli conveniva in Vinegia per certo suo affare di non picciol momento, disse Messer Trifone: «Sodisfacciasi adunque ad Andrea, poscia che egli da mattina se ne va»; e statosi alquanto cheto, così a favellare rientrò:</p>
+<p>«Molte, nel vero, e diverse cose intorno a' numeri vi si potrebbe dire, figliuoli, che quelle non sono ch'io di dirvi al presente ho meco stesso deliberato. Perciò che essi non solamente nell'orazione e nel parlare han luogo, ma hannolo ancora in tutte quelle cose che più sono perfette, o veramente che più alla perfezione s'accostano, che quell'altre che meno a quella s'avicinano. Ma perché non sarebbe possibile — e quando pure possibile fosse, sì non fora egli dicevole a quello che nostro intendimento è di voler fare — il trattare di tutte quelle cose che in sé hanno e numeri et armonia, di quelli che solamente nelle scritture usar si deono parlando, dico il numero non esser altro che una dispari parità et armonia che risulta del parlare. E pertanto vi loderei io, figliuoli, che voi non vi deveste sdegnare d'imitare nelle vostre scritture i maestri di murare, i quali prima ch'a fabricar si ponghino (avendo la calce con la rena e con l'acqua distemperata) eleggono quelle pietre o que' matoni che loro pare che più si confacciano alla composizion del muro o vero pariete. E poi ch'essi scelte l'hanno, incominciano ad adattarle e comporle insieme l'una con l'altra, ora una grande con una picciola, ora una sottile con una grossa, ora una intera con una spezzata, quando questa per lungo, quando attraverso quell'altra, e quale in una e qual in altra guisa ponendo, insino a tanto che il muro a quella altezza che dee bello e uguale ne cresce.</p>
+<p>«Così, volendo voi fare che le vostre composizioni al giudicioso orecchio di coloro che quelle leggeranno o ver ascolteranno corrispondino, non altrimenti ch'agli occhi dello edificatore faccia quel cotal muro, è necessario che voi prima eleggiate quelle voci che più a quelle cose che voi di trattar intendete si convenghino. E fatto che voi questa scelta avrete, vengasi poi alla composizione di esse voci, ponendone quando una più sonora con una meno, e mescolandone ora un'alta e grave con una bassa e leggeri, e le tronche con l'intere. Et oltre a ciò è da vedere anco quali meglio suonino e rispondino, o nel principio o nel mezzo o nel fine, e sì fattamente porle che tornino bene, preponendo, interponendo e posponendo, e terminando ora questo nome, ora quel verbo in diverse vocali; e questo non solamente in diverse persone e numeri, ma et in diverse guise. Il che via più ch'alcun altro in questa lingua scrittore, osservò meravegliosamente il Petrarca in que' luoghi tutti del verbo ove variazione poteva cadere, come nel presente tempo: ‘Ché 'l dir m'infiamma e punge’; nelle voci che al passato si danno, ‘Coprì mai d'ombra, o disegnò col piede’; nel modo ch'altri comanda: ‘or ti consuma e piagni’; in quelle voci con le quali condizionalmente si ragiona:
+<quote rend="block"><lg><l>l'alte bellezze</l>
+<l>Pinger cantando, a ciò che l'ami e prezze.</l>
+<l>. . . . . . . . .</l>
+<l>Vuol ch' io dipinga a chi nol vide, e mostri,</l></lg></quote>
+Il medesimo si vede ancora ch'egli fece de' nomi :
+<quote rend="block"><lg><l>i pensieri, ingegno, e stile,</l>
+<l>La lingua, il cor, le lagrime, e i sospiri.</l></lg></quote></p>
+<p>«Rende eziandio nel nostro idioma e più e meno numerosa l'orazione il terminare et il non terminare delle parole. E tutto che di ciò molt'altri essempi addurre vi si potrebbono, veggiamo se più bel numero fu il dire: ‘L'aurora già di vermiglia cominciava appressandosi il sole a divenir rancia’, che stato non sarebbe se la penultima voce compiendo avesse detto: ‘L'aurora già di vermiglia cominciava appressandosi il sole a divenire rancia’; perciò che l'aggiugnere et il levar sillabe nel principio, nel mezzo e nel fine delle parole è forse più proprio di questa lingua che si sia delle altre. Veggiamo se più numeroso sarà il dire ‘raddoppia, raffrena, riscalda e distrugge’ che ‘doppia, frena, scalda e strugge’; e ‘guarrò’ e ‘morrò’ che ‘guarirò’ e ‘morirò’:
+<quote rend="block"><lg><l>Fece la piaga ond'io non guarrò mai.</l>
+<l>........</l>
+<l>E poi morrò s'io non credo al desio.</l></lg></quote>
+E ‘lasso, manco e sgombro’ che ‘lassato, mancato, sgombrato’ e simili.</p>
+<p>«Ora, perché le voci tutte o sono sdrucciolose, o comuni, o mute (sdrucciole quelle sono che hanno sempre nella loro innanzi penultima l'accento, comuni quelle che nella penultima, mute quelle che l'hanno nell'ultima), dico che a voler far grande e bel numero bisogna interporre spesse fiate fra molte voci comuni alcuna sdrucciolosa, e fra l'une e l'altre non solamente alcuna muta, ma e di quelle ancora le quali (advegna che comuni non siano) hanno però sopra la loro penultima sillaba l'accento, e queste sono le sdrucciole ma tronche». «Come le sdrucciolose» risposi io allora, «ch'è quello che voi ci dite, Messere; or non ci dicevate voi pur dianzi ch'esse nell'antepenultima l'avevano?» «Sì diceva io bene, Daniello», rispose egli. «Ma io ora delle spezzate vi parlo, e non delle sdrucciolose intere, le quali sempre nella penultima hanno l'accento; sì come questa avere si vede: ‘Crudele, acerba, inesorabil morte’. E sì avverrà alcuna volta che l'accento farà variazione, quando sopra la penultima sillaba e quando sopra quella che le sta davanti, in una stessa voce; la quale di comune, solamente per cagione del variar che fa esso accento, diverrà sdrucciolosa, come ‘Anibale’: ‘Ch'Anibale, non ch'altri, farian pio’, la qual voce, come è qui sdrucciolosa, così è poi comune in quest'altro luogo:
+<quote rend="block"><lg><l>Non fu 'l cader di subito sì strano</l>
+<l>Dopo tante vittorie ad Aniballe,</l></lg></quote>
+muta in quest'altro:
+<quote rend="block"><lg><l>Ei sa che 'l grande Atride e l'alto Acchille</l>
+<l>Et Anibal al terren nostro amaro,</l></lg></quote>
+ove comprender potete e chiaramente vedere che questo nome ‘Anibal’ è voce muta, e nulladimeno riceve in quel medesimo luogo l'accento che l'altra dettavi di sopra.</p>
+<p>«Né pur tre sillabe (sì come è comune voler di molti) per lo più sono da un solo accento ricoperte (taccio ora di quelle voci che e di quattro e di cinque sillabe si formano, come è ‘desiderano, germinano’ e simili), ma tre voci ancora d'un solo accento si trovano essere state  contente, come queste sono ‘felse’: «Che 'l cor m'avinse e proprio albergo felse , ch'altro non è a dire se non ‘fece quello a sé’. Ora, sì come detto vi ho che non pur tre e quattro sillabe, ma tre voci sogliono alcuna volta sotto un solo accento cadere, così ancora vi dico che alcun'altra volta avverrà ch'una voce sola caderà sotto duo accenti, come cade questa ‘naturalmente’, ch'è una voce sola e non più: ‘Nemica naturalmente di pace / Nasce una gente’.</p>
+<p>«Ècci un'altra parte ancora oltra gli accenti che rende non men bello e grave il poema che si facciano essi accenti; la quale suole ne' versi fare quell'ufficio che noi nelle scale degli alti palagi, a quel poco di piano e breve spazio che in capo di dieci o di quindici gradi — non per altra cagione che per ripigliar lena — quegli che per esse salgono fare sovente vediamo. E fassi questo riposamento quando quella voce in che esso si fa è comune, o su la terza sillaba, o su la quinta, o su la settima. L'essempio adunque della terza sarà nella prima voce di questo verso: ‘Anima, che di nostra umanitade’;
+<quote rend="block"><lg><l>A la dolce ombra de le belle frondi,</l>
+<l>..........</l>
+<l>Al cader d'una pianta che si svelse,</l></lg></quote>
+ne' quali due versi si vede ch'egli è su la quinta nel primo e sulla settima nel secondo, e cioè sul —<emph>bra</emph> e sul —<emph>ta</emph>. Quando son mute si suol far su la quarta o vero su la quinta sillaba; su la quarta come: ‘Ad albergar col Tauro si ritorna’, ‘Vita mortal ch'ogni animal desia’. Su la sesta, ‘Ch'io veggia per vertù degli ultim'anni’, e poco più sotto, ‘E i capei d'oro fin farsi d'argento’; perciò che gionti che noi siamo a —<emph>gar</emph> et a —<emph>tu</emph>, salendo il verso ci fermiamo e riposiamoci alquanto. Quando poi la voce è sdrucciola, noi allora ci verremo ad arrestare et a prender lena nella sesta o vero nella ottava sillaba, come in questa voce ‘inesorabile’, e cioè su quel —<emph>le</emph>, fece il Petrarca che disse: ‘<quote>Noiosa, inesorabile, e superba</quote>’. E sappiate, figliuoli, che di tal natura e vertù s'è ciascuna di queste parole che sdrucciole si chiamano, che quando in fine del verso si pongono, egli cresce sempre d'una sillaba, sì che ne vien ad aver dodici. Perciò che sì veloci e sì leggeri sono quelle due ultime sillabe, che portano quel tempo medesimo che farà una giusta e comune, come è: ‘A parole formar disconvenevole’; allo 'ncontro delle quali ne vengono le mute, le quali per esser ponderose e gravi, ritardano il verso e rendonlo d'una sillaba minore degli altri, che più di dieci aver non ne può, essendo tanto il peso della lettera a cui l'accento sovrastà che gionti che noi a quella siamo, vi ci fermiamo sopra, quello istesso spazio di tempo dandole che le sdrucciole velocemente correndo se ne portano con esso loro: ‘E con Rachele per cui tanto fe'’.</p>
+<p>«Le comuni poi sono fra l'une e l'altre di queste mezzane, et hanno sempre sopra la penultima l'accento. Le quali voci il Petrarca, osservator del bello e leggiadro parlare, volle che nelle sue rime si leggessero, come più delle altre tutte vaghe e gentili. Il perché se voi vi riguardate bene, alcun verso sdrucciolo o muto per entro il suo veramente divino amoroso lirico poema non vederete già mai». Allora io a queste parole tramettendomi, dissi: «Come non ha il Petrarca nelle sue rime alcuna sdrucciola usata, Messere ? Ora non dice egli in uno de' suoi sonetti ‘<quote>Così nascosto mi ritrova invidia</quote>?’ ove questa voce ‘invidia’ ha pur sopra la innanzi penultima sua sillaba l'accento, e ‘Numidia’ e ‘Fidia’ che le diè per compagne medesimamente». «Sono sdrucciole queste voci (come voi dite)» riprese Messer Trifone, «ma elle son ben tali che nel misurar del verso l'una di queste due ultime vocali necessariamente si leva. Onde non cresce egli d'una sillaba, come questo che pur ora vi recitai: ‘A parole formar disconvenevole’. Oltre a tutto ciò, così come noi sogliamo spesse fiate molto commendar quel fanciullo ch'alcuna maniera e costume di canuta etade in sé ritiene, et allo 'ncontro quel vecchio nel quale alcuna cosa si scorga di giovenile delicatezza, così eziandio è da grandemente commendar quel verso che tiene della prosa e conseguentemente quella prosa che numero si veda avere di verso. L'essempio di que' versi che tengono della prosa è:
+<quote rend="block"><lg><l>I' mi soglio accusare, e or mi scuso, </l>
+<l>Anzi mi pregio et tengo assai più caro,</l>
+<l>De l'onesta pregion, del dolce amaro</l>
+<l>Colpo, ch'io portai già molt'anni chiuso. </l>
+<l>Invide Parche, sì repente il fuso </l>
+<l>Troncaste, ch'attorcea soave e chiaro</l>
+<l>Starne al mio laccio, e quell'aurato e raro</l>
+<l>Strale, onde morte piacque oltra nostr'uso;</l></lg></quote>
+et altrove :
+<quote rend="block"><lg><l>O aspettata in ciel beata e bella</l>
+<l>Anima, che di nostra umanitade</l>
+<l>Vestita vai, non come l'altre carca.</l></lg></quote>
+Quello poi dell'orazione sciolta sarà questo del Boccaccio: ‘<quote>Fier materia di ragionare ne ha oggi il nostro Re data</quote>’. Perciò che s'egli così detto avesse: ‘Il Re nostro ne ha data oggi fiera materia di ragionare’ o vero ‘Il nostro Re oggi ne ha data di ragionare materia fiera’, lasso io a voi giudicare quanto men numerose, men gravi e men sonore queste voci così mutate sarebbeno, che non sono le non mutate. Et è da notar sanamente che quand'io dico ‘quella prosa che numero abbia di verso’ non intendo quella che in sé alcun verso riceve, come si legge nel Decamerone que' duo di Dante: ‘<quote>Poscia che l'accoglienze oneste e liete furo iterate tre e quattro volte</quote>’; ché chiunque ciò facesse, gli si potrebbe ragionevolmente imputare più tosto a vizio che attribuire a vertù. Ma di queste voci e dell'altre tutte, come et in qual parte de' poemi, intere o tronche, porre si debbano che più dolce suono rendino e maggior numero faccino, niuno (sì come non ha molto ch'io vi diceva) più ottimo maestro e più giudicioso che l'orecchio di chi scrive e compone si potrebbe ritrovar già mai.</p>
+<p>«Resta ora che noi delle consonanze e delle rime alcuna cosa diciamo, quelle cotante che da cotanti dette et iscritte si sono lasciando da parte stare. Dico ‘alcuna cosa’ perciò che io non istimo che nascosto vi sia la rima esser quella concordanza o vero consonanza nascente da quella parola che in fine del verso si pone, o comune o sdrucciola o muta ch'ella si sia, accordantesi medesimamente con un'altra voce ultima del secondo, o del terzo, o vero del quarto verso, quelle medesime lettere vocali e consonanti nella innanzi penultima, penultima et ultima sillaba avente che la prima. E però questo tanto vi dirò io bene che a voi si conviene avertimento avere di fare che esse ne' vostri poemi venghino attamente e volontariamente a cadere, e non ch'elleno vi siano a forza spinte o tirate (come s'usa dire) pe' capegli; come molte ne sono di quelle dello Alighieri, et ispezialmente quella quando egli, in persona di Virgilio con Catone parlando, dice nel <title>Purgatorio</title>:
+<quote rend="block"><lg><l>Ma son del cerchio ove son gli occhi casti</l>
+<l>Di Marzia tua...</l></lg></quote>
+Eccovi che la rima ‘casti’ è per sé bellissima, ma simile modo di dire non è in uso, né fu ch'io creda già mai appresso a nessuno scrittore, così volgare come latino; perciò che gli poteva bastare il dire ‘ov'è Marzia tua’. Ma egli volle più tosto lasciarsi trasportare alla rima che dire altramente di quello che disse. Non fece già così il Petrarca in quel sonetto ‘Lasso, amor mi trasporta ov'io non voglio’, ove accadendoli porre questa rima ‘barca’, essendo ella (come potete vedere) e bassa e volgare, egli per nobilitarla (affine che non paresse ch'egli ve l'avesse strascinata a forza) volle, continovando la presa metafora, alzarla: perciò che avendo detto:
+<quote rend="block"><lg><l>Né mai saggio nocchier guardò da scoglio</l>
+<l>Nave di merci preziose carca, </l>
+<l>Quant'io sempre la debile mia barca</l>
+<l>Da le percosse del suo duro orgoglio,</l></lg></quote>
+seguita poi dicendo:
+<quote rend="block"><lg><l>Ma lagrimosa pioggia e fieri venti</l>
+<l>D'infiniti sospiri or l'hanno spinta,</l>
+<l>Ch'è nel mio mar orribil notte e verno,</l>
+<l>Ov'altrui noie, a sé doglie e tormenti</l>
+<l>Porta, e non altro, già da l'onde vinta,</l>
+<l>Disarmata di vele e di governo.</l></lg></quote>
+E convenendo eziandio pur al medesimo poeta nella canzon ‘<title>Se 'l pensier che mi strugge</title>’ a questa rima ‘fiamma’ rispondere, e niuna per aventura ritrovandone più a suo proposito confacevole che ‘dramma’, per meglio ancor farvela attamente cadere l'accompagnò con questo verbo ‘lassa’, dicendo esso così:
+<quote rend="block"><lg><l>E non lassa in me dramma</l>
+<l>Che non sia foco e fiamma,</l></lg></quote>
+volendo significare che niuna menoma particella era in lui che non ardesse d'amoroso foco.</p>
+<p>«Oltre a ciò è da vedere che le rime non si raddoppino in una istessa canzone o sonetto o capitolo (che più vi piaccia di comporre), e se pur raddoppiarle voleste, abbiate cura di dar loro significato in tutto dalle prime diverso; come diede il Petrarca a tutte quelle del sonetto:
+<quote rend="block"><lg><l>Quand'io son tutto volto in quella parte</l>
+<l>Ove 'l bel viso di madonna luce.</l></lg></quote>
+Quanto fosse diligente il medesimo poeta in non ripigliar ma rima che diverso significato non avesse si può per chi vi mira ir quella canzone ‘<title>S'io 'l dissi mai ch'io venga in odio a quella</title>’ chiaramente vedere; ove tre maniere di rime solamente usò, né si vede che alcuna delle innanzi dette ripigliasse già mai. E meraviglia è che egli tante ritrovar ne potesse che bastassero a fornirla; conciò sia cosa che nelle due prime stanze una rima stessa suona in otto continui versi regolati, e nelle due seguenti quella che tiene il secondo luogo nelle prime occupa il primo nelle seconde, e quella che nella terza sede è posta delle due prime risuona prima nelle due ultime stanze; in guisa che queste tre maniere sole di rime vengono a correr tutta la detta canzone».</p>
+<p>Quivi non lasciando io più oltre seguire Messer Trifone, dissi: «E se meno eravate voi, Messere, da impedire in questo corso de' vostri ragionamenti, pure io, innanzi che voi più oltre con essi passiate, a volermi un dubbio pur ora natomi disciorre (poscia che noi in parlare de' versi e delle rime entrati siamo) vi priego. E questo dubbio è che, se per aventura mai mi cadesse nell'animo di comporre un poema eroico in questa volgar lingua, in che maniera di verso mi consigliereste voi ch'io scriver ne lo dovessi? Con ciò sia cosa che se noi vorremo diligentemente riguardare, niente ci meraviglieremo che di tanti e così nobili ingegni quanti son quelli che non solamente nella vostra città, ma e nell'altre quasi tutte d'Italia, niuno ve ne ha che allo scrivere eroicamente si dia, ma solamente sonetti e capitoli e novelle. Il che se ben si riguarda, non per altro aviene se non perché essi non hanno chi s'imitare nel verso se non il Petrarca e Dante, e nelle prose il Boccaccio; i quali, come sapete, furono i più eccellenti di tutti gli altri scrittori di questa lingua. E non avenne così a' latini uomini, perciò che essi ebbero nella loro Vergilio grandissimo di tutti i poeti, che l'arme e gli errori d'Enea in così chiaro stile e così sublime cantò; né mancarono di quegli che l'imitarono avenga che di gran lunga a lui sieno stati inferiori. Ma chi è egli colui che in questa scrivendo si debba da' nostri uomini imitare? Certo, se ben si considera, niuno. Perciò che insino a qui niuno si vede avere scritto poema il quale dirittamente si possa eroico chiamare, tutto che alcuni i versi d'undici sillabe composti e questi senza la rima abbino avuto ardimento di nominare eroico; et alcuni altri con quella, ma sì lontana ponendola che il senso dell'udire comprendere né conoscer la puote».</p>
+<p>Allora quegli: «Egli nel vero (come voi dite, Daniello) pare che noi non abbiamo chi ci imitare in questa lingua i più chiari, grandi e sublimi fatti degli uomini e le guerre scrivendo, sì come ebbero i Latini la cui lingua (come che in tutte l'altre cose sia stata felice) sì fu ella in questa spezialmente felicissima, che sì alto verso e così grave alle alte ancora e gravi cose cantare, cotanto accommodato avesse; il che questa non ebbe già mai né ha al presente. Pure, quando voi faceste pensiero di trattare d'alcuna materia eroica, a me parrebbe che col verso di undeci sillabe interzato scrivere ne la deveste. Conciò sia cosa che di così fare e Dante n'ammonisca et il Petrarca, i quali, quantunque non togliessino a trattar affermatamente le battaglie di Enea e d'Acchille o di qual altro si voglia prode e valoroso guerriero, nientedimeno essi però gravissime et altissime cose trattarono. E quai cose possono esser maggiori delle celesti e divine, delle quali hanno questi dottissimi poeti trattato et iscritto? Volle il Petrarca come giudicioso ne' <title>Triomfi</title> suoi dalle basse cose e terrene alle alte e sempiterne levarsi, ognora più di grado in grado salendo et ampliando la sua materia. Perciò che prima secondo l'Epicuro ci scrive il primo, che è quello d'amore, e da Stoico quello della castità, poi della morte che le sette e l'altre cose tutte atterra, poi della fama in che essa non ha podere. Dopo questo per bellissimo ordine viene a descriverne quello del tempo, ch'ogni cosa consuma, e finalmente quello della  divinità. Ma voi potreste forse a questo rispondermi e dire che le cose più sublimi devriano ancora in più sublime verso che possibile fosse cantarsi; il terzetto per la frequenzia della rima scemar e levar più di gravità alla cosa quanto più pone e aggiugne di vaghezza e dolcezza; et oltre a ciò esser necessario che si chiuda in ogni tre versi la sentenza, come la chiudono in due i compositori delle elegie. Al che vi rispondo e dico prima non essere sempre necessario terminar la sentenza in un terzetto, ma che essa si può continovare per lo spazio di duo e tallor di tre, come fa Dante quando dice:
+<quote rend="block"><lg><l>E già venia su per le torbid'onde</l>
+<l>Un fracasso d'un suon pien di spavento,</l>
+<l>Per cui tremavan amendue le sponde,</l>
+<l>Non altrimenti fatto che d'un vento</l>
+<l>Impetuoso per gli aversi ardori,</l>
+<l>Che fier la selva sanz'alcun rattento,</l>
+<l>Gli rami schianta, abbatte, e porta i fiori,</l>
+<l>Dinanzi polveroso va superbo,</l>
+<l>E fa fuggir le fere e gli pastori;</l></lg></quote>
+o volete più tosto il parlare che fa Virgilio con Anteo gigante, dicendogli:
+<quote rend="block"><lg><l>‘O tu, che ne la fortunata valle,</l>
+<l>Che fece Scipion di gloria ereda,</l>
+<l>Quand'Annibal co' suoi diede le spalle,</l>
+<l>Recasti già mille leon per preda,</l>
+<l>E che se fossi stato a l'alta guerra </l>
+<l>De' tuoi fratelli, ancor par che si creda</l>
+<l>Ch'avrebber vinto i figli de la terra,</l>
+<l>Mettine giuso (e non ten' venga schifo)</l>
+<l>Dove Cocito la freddura serra’.</l></lg></quote>
+Vedete or voi quanto sia questo costrutto lungo, e non toglie gravità alcuna o grandezza la rima. Et ancora che dicevole sia, e si debbiano gli alti soggetti con la più alta maniera di verso cantare, non è però che esso verso renda la materia più o men alta di quello che ella si sia; ché se ciò fosse, non avrebbe Virgilio la <title>Zenzata</title>, il <title>Moreto</title>, i <title>Pastori</title>, e gli <title>Agricoli</title> con quel medesimo verso cantato ch'ei fece l'arme e gli errori d'Enea.</p>
+<p>«Questo modo di cantar, adonque, in questo numero di versi ternarii, è senz'alcun dubbio il più eccellente et il più nobile, nel vero, che noi abbiamo, et oltre a ciò il più continovato. A differenza del quale, vedete ben che il Petrarca chiamò i suoi sonetti e le canzoni ‘rime sparse’, dicendo egli nel sonetto che in luogo di proemio si pone:
+<quote rend="block"><lg><l>Voi, ch'ascoltate in rime sparse il suono</l>
+<l>Di que' sospiri ond'io nudriva il core.</l></lg></quote>
+Non essendo, adunque (come dimostrato abbiamo), il verso quello che più o meno renda la materia sublime o grave di quello che noi esser la veggiamo, ma lo scegliere i vocaboli e le sentenze, le figure più o men gravi, et il fare che le persone (com'io vi dissi stamane) servino il decoro e la convenevolezza loro, vi consiglierei io che avendo que' primi nostri poeti cantato con questi tai numeri le gravi e sublimi cose, che voi ancora il simigliante fare deveste. Perciò che a me pare che non solamente non si debba quel verso eroico chiamare che è senza rima, ma né verso ancora, e specialmente essendo la rima un'armonia che il verso volgare ha di più che il latino. La qual cosa potrete per voi medesimo vedere ciascuna volta che voi farete a qual si voglia eccellente musico, la voce insieme col suono sciogliendo et accordando, una delle canzoni d'Orazio prima e dopo una di quelle del Petrarca cantare. Conciò sia cosa che vie più (senz'alcun dubbio) di soave armonia empierà cìascun giudicioso orecchio questa seconda, che fatto non avrà la prima. E ciò solamente averrà per la rima, la quale tanto più s'accorderà col suono e più renderà di dolcezza, quanto meno sarà dall'altra sua compagna rima lontana.</p>
+<p>«Aveste questa matina, figliuoli, dell'arte poetica, e cioè quale ella sia, qual del poeta l'ufficio, quale il fine, che la materia, che il poema. Udiste ancora quante e quali scienze e quanta esperienzia delle cose aver si convenga a colui il quale ami di ritrovar bellissimi soggetti e come,  poi ritrovati, disporre si deono; della convenevolezza che et alle cose et alle persone s'attribuisce; intendeste simigliantemente quali quelle cose sono che con gli istorici e con gli oratori hanno i poeti comuni; toccaivi brevemente delle tre guise d'orare e dell'altre parti dell'orazione; dissi poi delle voci proprie e delle trasportate; parlaivi de' modi e delle figure del dire, così grammaticali come retoriche, né vi tacqui del suono e del numero. Le quali tutte cose, da me nel vero più tosto accennate che distesamente narrate e raccontate (non per insegnarvi a divenir perfetti et ottimi poeti, che ciò mio intendimento non è, né io quando pur fosse sarei di farlo bastante, ma per alquanto gli animi vostri accendere et infiammare agli studi di quelli), se da voi prima fedelmente raccolte e ben considerate saranno, non dubito punto che voi alle vostre scritture o poemi (se alcuno per aventura ne comporrete già mai) eterna fama e grido perpetuo non acquistiate».</p>
+<p>Dimostrocci il fine di queste parole di Messer Trifone, il fine de' proposti ragionamenti esser venuto; il perché, quello ancora del giorno avicinandosi, su da sedere ci levammo, e ciascuno di noi a far quello che più ci piacque, sino attanto che l'ora della cena venne, si diede.</p></div1>
+</body>
+</text>
+</TEI.2>

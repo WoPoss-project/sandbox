@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmenta historiae pisanae pisana dialecto conscripta...</title>
+         </titleStmt>
+         <extent>0 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2003</date>
+            <idno>bibit000813</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+      personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title/>
+               <publisher/>
+               <pubPlace/>
+               <date/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+    responsabilità dell'autore dell'opera sono stati soppressi nella versione
+    digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+      riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+      sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+      ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Testi storici e storiografici</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2000-05-14T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Patricia Frosini</name>
+               <name>CIBIT - Pisa</name>
+            </respStmt>
+            <item>Digitalizzazione</item>
+         </change>
+         <change>
+            <date>2000-05-14T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Patricia Frosini</name>
+               <name>CIBIT - Pisa</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2003-01-10T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Elena Pierazzo</name>
+               <name>CIBIT - Pisa</name>
+            </respStmt>
+            <item>Codifica XML</item>
+         </change>
+         <change>
+            <date>2003-03-11T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Elena Pierazzo</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 type="prefazione" lang="lat">
+            <head>Fragmenta historiae pisanae pisana dialecto conscripta.</head>
+            <head>Praefactio </head>
+            <head>In fragmenta historiae pisanae praefactio Ludovici Antonii Muratorii.</head>
+            <p>Quamquam multa dederim in Collectione <abbr>Rer.</abbr> Ita<abbr>l.</abbr> ad nobilissimae Pisanae 
+Urbis Historiam spectantia, male tamen de illa, immo &amp; de Republica 
+Literaria meriturum me arbitrarer, si quae Fragmenta sors mihi 
+obtulit, negligerem, &amp; communia cum reliquis Historiae amatoribus 
+nollem. Commendantur ista ab antiquitate; quippe Primum, Italica 
+Lingua, sive Pisana Dialecto ab Anonymo conscriptum, monumenta illius 
+Urbis nobis exhibet ab Anno <abbr>Chr.</abbr>
+               <date> 1191</date> secundum Aeram Pisanam usque ad Annum 
+<date> 1294</date> minute alicubi literis consignata. Tum saltu facto ad Annum <date> 1328</date> 
+pergit narratio usque ad Annum <date> 1337</date>. Incertum est, an aliqua exciderint, atque 
+an unus &amp; idem Auctor singula in Commentarios retulerit. Haec autem e vetusto 
+Codice MSto, existente Florentiae in Bibliotheca nobilis viri Antonii Nicolini, 
+describenda curavit Illustrissimus Comes Albericus Archintus Mediolanensis, Abbas 
+Commendat. <abbr>S.</abbr> Mariae Braydensis, nunc in Aula Romana Praeses Consultae, ut vocant, 
+egregius juvenis, quem Literarum amor, &amp; Prudentia annos antevertens, spectatissimum 
+jam faciunt, &amp; ad sublimiora natum produnt. Codicis scriptura perquam 
+abstrusa difficultatem non mediocrem Librario creavit. Ibi duplicatae literae, ubi 
+minime opus erat; rursus vero minime duplicatae, ubi eas pronuntiationis regula 
+exigebat. Multa denique ubi occurrebat Pisanae Dialecti aerugo, quam magna ex 
+parte retinendam censui, ut quale tunc esset discrimen inter Florentinorum &amp; Pisanorum 
+loquelam, quisque eruditionis venator deprehendat. Alterum Fragmentum, 
+Latinis literis scriptum, progreditur ab Anno <abbr>Chr.</abbr>
+               <date> 1271</date>: usque ad <date> 1290</date>. Illius 
+Auctor <hi rend="italic">Guido</hi>, non uno loco Opusculi hujus satis aperte significat, se sanguinem 
+suum traxisse e generosa progenie. Nobilium <hi rend="italic">de Corvaria (et) Vallechia</hi>, qui 
+Anno vulgari <date> 1281</date> Rodulpho Cancellario Rodulphi Romanorum Regis <hi rend="italic">sacramentum 
+fidelitatis praestisterunt, (et) ipse Vicarius de Feudo eos reinvestivit</hi>. Perdurat adhuc 
+nobilis ista gens, in duos ramos divisa, scilicet in Galeffos Pisciae, &amp; Albianos Petraesanctae 
+habitantes; eorumque propago e Nobilibus de Corvaria &amp; Vallechia 
+ante paucos annos supremi Florentini Magistratus decreto comprobata legitime 
+fuit. Anno autem <date> 1271</date> secundum Pisanos, sive <date> 1270</date> secundum Aeram communem, 
+profectus ille fuit <hi rend="italic">pro Ambasciatore pro Confortibus suis ad Regem Siciliae Karulum, 
+cum erat apud Tunixium</hi>. Anno vulgari <date> 1272</date>
+               <hi rend="italic">decessit</hi>, ut ille scribit, <hi rend="italic">Domina 
+Contissa soror mea</hi>. Heic fortasse <hi rend="italic">Contissa</hi>, Italice <hi rend="italic">Contessa</hi>, pro <hi rend="italic">Comitissa</hi>. 
+Tum Anno 
+eodem discessit ipse Pisis <hi rend="italic">pro eundo in officio Judicatus Corsicae pro Communi Pisanorum 
+Ciociam</hi> uxorem suam; <hi rend="italic">Baciomeum, Bonaccursum, &amp; Landum</hi> filios, tum <hi rend="italic">Orlandum</hi> 
+fratrem commemorat. Anno vulgari <date> 1274</date> Plumbinum petiit <hi rend="italic">pro Assessore pro Communi 
+Pisarum</hi>. Ad eumdem vero Annum is addit: <hi rend="italic">Fuit ego Guido electus Judex ad Curiam 
+novam, scilicet pupillorum, per Antianos</hi>. Inde ego nomen Auctoris collegi. Ad 
+Annum vero vulgarem <date> 1278</date> idem confirmatum vidi ex hisce verbis: <hi rend="italic">Die Dominica 
+<num>XXIII</num> Octubris natus est mihi Guidoni Judici filius, qui vocatur Landus, Pisis</hi>. 
+Tamdem narrat ille, se Anno vulgari <date> 1286</date> vestem Fratrum Minorum suscepisse, 
+ex quo tamen Ordine ante professionem recessit. Verum insequenti Anno nomen 
+suum dedit Canonicis Regularibus Lucensibus Sancti Fridiani, apud quos professione 
+emissa, Anno demum <date> 1280</date>. Ordinem Sacerdotii suscepit. Quum vero quae 
+sup tempore identidem contingebant, Guido iste adnotarit, suum propterea pretium 
+futurum est hisce Fragmentis. Atque haec postrema debeo eruditissimo viro, 
+<hi rend="italic">Francisco Mariae Biscionio</hi>, <abbr>J.</abbr>
+               <abbr>U.</abbr> Doctori Florentino, &amp; celeberrimae Bibliothecae 
+<pb n="641"/>
+ Medicae Laurentianae Praefecto, qui mihi e membranaceo Codice MSto Bibliothecae 
+Strozzianae apographum describendum curavit. Erant in eodem Codice 
+alii duo Libri, ab eodem Guidone Auctore conscripti. Prior hunc titulum praeferebat: 
+<hi rend="italic">Liber primus Vassallorum, fidelium hominum, commandorum, terrarum, fictuum, 
+(et) totius redditus filiorum quondam Domini Ugolini de Vallechia, factus seu inceptus a me 
+Guidone Judice quondam dicti Domini Ugolini, sub Annis Domini <date value="1265"> MCCLXV</date>. Indictione 
+<num>VII</num>, die Veneris, <num>XII</num>, intrante Mense Martii.</hi> Alteri hic titulus erat: <hi rend="italic">Haec est memoria 
+facta a me Guidone Judice quondam Domini Ugolini de Vallechia, Instrumentorum 
+veterum, in quibus potest esse aliquid utilitatis, quae inveni in domo, (et) quae nunc habeo, 
+(et) etiam aliorum Instrumentorum (et) Contractuum a me initorum pro me, (et) meis fratribus. 
+Incepta Pisis in domo Hospitalis Carrariae Sancti Andreae in Kinsicha, Dominicae 
+Incarn. Anno <date value="1269"> MCCLXIX</date> die Veneris, <num>VII</num> die exeunte Mense Januarii.</hi> Verum haec, 
+uti privatae rei monumenta, suis tenebris dimisi.</p>
+         </div1>
+      </front>
+      <body>
+         <pb n="642"/>
+         <div1 type="parte">
+            <head>Testo</head>
+            <p>Podestà, e Rectori della Città 
+di Pisa nell' 
+Anno di Dio 
+<date value="1214"> MCCXIV</date>. 
+Messere lo 
+Conte Tedicie 
+fu primo Podestà 
+di Pisa 
+anni tre <date value="1191"> MCXCI</date>. 
+Messere Ubaldo 
+Visconte fu Podestà anni tre. Cominciaro 
+<date value="1214"> MCCXIV</date>. 
+Messere Bulfo. Messere Guido Ventriglio. Messere Ranieri Baratura. Consuli 
+mesi <num>XX</num>. cominciaro <date value="1217"> MCCXVII</date>. 
+Messere Bonaccorso Decan, e Podestà mesi 
+<num>XX</num>. <date value="1219"> MCCXIX</date>. 
+Messere Alberighetto Pandimigli anno uno. 
+Cominciaro <date value="1221"> MCCXXI</date>. 
+Messere Ubaldo Visconte. Messere Ilbrando del Sighieri. Messere Guelfo de' Porcari. Consuli 
+mesi <num>XVII</num>. cominciaro <date value="1222"> MCCXXII</date>. 
+Messere Prouvio di Melano  Podestà mesi 
+<num>XIX</num>. <date value="1224"> MCCXXIV</date>. 
+Messere Orlando Rosso da Parma Podestà 
+anno uno. <date value="1226"> MCCXXVI</date>. 
+Messere Ubaldo Vesconte Podestà anni due. 
+<date value="1226"> MCCXXVI</date>. 
+Messere Anibaudo da Roma Podestà anni 
+<num>II</num>. <date value="1229"> MCCXXIX</date>. 
+Messere Provino di Melano Podestà anno 
+uno.  <date value="1231"> MCCXXXI</date>. 
+Messere Ugo Lupo. Podestà anni <num>II</num>. <date value="1232"> MCCXXXII</date>. 
+Messere Torello da Strada anno uno. <date value="1234"> MCCXXXIV</date>. 
+<pb n="643"/>
+Messere Gatto. Messere Gualterotto. Messere Saracino. Consuli 
+anni <num>II</num>. <date value="1235"> MCCXXXV</date>. 
+Messere lo Conte Guido Podestà anno uno. 
+<date value="1237"> MCCXXXVII</date>. 
+Messere lo Conte Tegrimo Podestà anni 
+tre. <date value="1238"> MCCXXXVIII</date>. 
+In del cui tempo lo sole oscurò <date value="1239"> MCCXXXIX</date> 
+lo primo Venardì del mese di Giugnio. 
+Messere  Ugo Rosso Podestà anni <num>II</num>. <date value="1241"> MCCXLI</date>. 
+Messere Bonaccorso da Padule Podestà anni 
+tre. <date value="1243"> MCCXLIII</date>. 
+Messere Ranaudo da Macchilonia Podestà 
+anno uno. <date value="1246"> MCCXLVI</date>. 
+Messere Amico da Strada Podestà anno uno. 
+<date value="1248"> MCCXLVIII</date>. 
+In del cui tempo fuggitteno li pregioni della 
+pregione di Sancto Piero a Vinculi, li Captani 
+di Versiglia. 
+Messere Bernardo da Faenza  Podestà anno 
+uno. <date value="1249"> MCCXLIX</date>. 
+Messere Herrigo da Rivello Podestà anno 
+uno. <date value="1250"> MCCL</date>. 
+Messere lo Conte Tomazo della Cierra Podestà 
+anno uno. <date value="1251"> MCCLI</date>. 
+In del cui tempo fui l'oste del Comuno di 
+Pisa a Serraja. 
+Federigo Imperadore morì lo dì de la festa 
+di Sancta Lucia <date value="12511213"> MCCLI</date> nella Indictione 
+<num>IX</num>
+               <foreign lang="lat">Idus Deciember </foreign> a dì <num>13</num> di Diciembre. 
+Messere Alessandro da Calvoli Podestà anno 
+uno. <date value="1252"> MCCLII</date>. 
+In del cui tempo la sconfitta de i Lucchesi 
+a Ficecchio, e la sconfitta de i Pisani al 
+Pontadera. 
+Messere Fabro da Bolognia Podestà mesi 
+<num>XVIII</num>. <date value="1254"> MCCLIV</date>. 
+Messere Iacopo dello Avocati Podestà anno 
+uno. <date value="1255"> MCCLV</date>. 
+<pb n="644"/>
+In del cui tempo lo populo di Pisa si levò, 
+e pigliò la Signoria e tuossela a' Grandi. 
+Messere Jacopo Napuleone Podestà anno 
+uno. <date value="1256"> MCCLVI</date>. 
+Messere Fabro da Bolognia Podestà anno 
+uno. <date value="1257"> MCCLVII</date>. 
+In del cui tempo fue la sconfitta de i Pisani 
+à Vecchiano. 
+Messere Alamanno da la Torre Podestà mesi 
+<num>VI</num>. <date value="1258"> MCCLVIII</date>. 
+Riccardo da Villa Podestà mesi <num>XVIII</num>. 
+<date value="1259"> MCCLIX</date>. 
+Messere Malcoaudo da Umcibardi Podestà 
+anno uno <date value="1260"> MCCLX</date>. 
+Messere Atho da Perovano Podestà anno 
+uno. <date value="1261"> MCCLXI</date>. 
+In del cui tempo fue la sconfitta de' Toscani, 
+cioè de i Fiorentini, e de i Lucchezi, 
+e autri Guelfi loro seguaci a Monte Aperto 
+data loro dal Vicario del Re Manfredi, e da 
+i Tedeschi, ch'erano collui, e da i Senesi. 
+Messere Ghiberto da Giente Podestà anno 
+uno. <date value="1262"> MCCLXII</date>. 
+In del cui tempo lo Castello di Sancta Maria 
+a Monte divenne in forsa del Comuno di 
+Pisa; e allora fu l'oste del Comuno di Pisa a 
+Ficecchio del mese di Septembre, e d'Ottobre. 
+Messere Jacopo Botticiella da Papia Podestà 
+anno uno. <date value="1263"> MCCLXIII</date>. 
+Messere Jacopino da Padule Podestà anno 
+uno. <date value="1264"> MCCLXIV</date>. 
+Messere Guglielmo da Cornassano Podestà anno 
+uno. <date value="1265"> MCCLXV</date>. 
+In del cui tempo le Castella di Castiglione, 
+e di Cotone funno vincte da l'oste de i Pisani, 
+e venneno in forsa e in bailia del Comuno 
+di Pisa del mese di Luglio. E poi in 
+mezo di quelle Castelle lo Comuno di Pisa 
+fecie fare la Torre dell'Aguila col bailo. 
+Messere Jacopo Boffulo da Parma Podestà 
+anno uno. <date value="1266"> MCCLXVI</date>. 
+In del cui tempo lo Re Karlo venne ine 
+Regnio allui dato dalla Ecclesia di Roma, e 
+sconfisse lo Re Manfredi, e fu facto Sanatore 
+di Roma, poi ….. 
+Messere Alberto da Turriciella de Papia 
+Podestà anno uno. <date value="1267"> MCCLXVII</date>. 
+Messere Bartalo da Sasso Podestà anni due. 
+<date value="1268"> MCCLXVIII</date>. 
+In del cui tempo lo Re Corrado entrò in 
+Pisa <date value="1269"> MCCLXIX</date>, lo die di Sabbato Sancto, 
+che fue <num>VII</num> dì intrante lo mese d'Aprile. 
+Messere Guido Scarso da Pavia Podestà 
+anno uno. <date value="1270"> MCCLXX</date>. 
+Messere Andalò da Bolognia Podestà anno 
+uno. <date value="1271"> MCCLXXI</date> lo quale ci stecte pur mesi 
+cinque, e andossi per paura di Judici di Gallura 
+del vecchio, cioè di Judici Jovanni, e 
+suoi seguaci; e poi lo Capitano del Populo 
+fece l'officio de la Podestaria e Capitanaria. 
+Messere Nicolajo Quirini da Venetia Podestà 
+anno uno. <date value="1272"> MCCLXXII</date>. 
+Messere Petro Frularni da Bologna Podestà 
+anno uno. <date value="1273"> MCCLXXIII</date>. 
+Messere Stephano de' Rusticacci Podestà 
+anno uno. <date value="1274"> MCCLXXIV</date>. 
+Messere Giovanni da Monte Sperello Podestà 
+anno uno. <date value="1275"> MCCLXXV</date>. 
+In del cui tempo s'incominciò la guerra 
+tra 'l Comuno di Pisa, e li Comuni della 
+compagnia de' Guelfi di Toscana, cioè Luccha, 
+Pistoja, Fiorenza, e Siena, e li autri 
+della compagnia di Toscana. 
+<pb n="645"/>
+Savaragi da Villa Podestà anno uno. <date value="1276"> MCCLXXVI</date>. 
+In del cui tempo fue la sconfitta ad Asciano 
+de i Pisani data da' Lucchezi,  Pistoresi, 
+e l'isciti di Pisa, cioè lo Conte Ugolino, e 'l 
+Conte Anselmo, e Vesconti, e Upesinghi, e 
+autri isciti, e dal Vicario del Re Karlo lo 
+primo Lunedì di Septembre, e funno presi de' 
+Pisani bene <num>IV</num> mila sensa li morti. 
+Testa de i Gerardi da Pergamo Podestà 
+anno uno. <date value="1277"> MCCLXXVII</date>. 
+Tarlato d'Arezzo Podestà anno uno. <date value="1278"> MCCLXXVIII</date>. 
+In del cui tempo si fecie la pacie cho li 
+Fiorentini, Lucchezi, Senesi, Pistoresi, e li 
+autri Comuni de la Compagnia de' Guelfi di 
+Toscana, essendo a oste di fuori dal fosso a 
+Rinonichi; e feciesi in del padiglione di Fiorenza; 
+e funno Ambasciatori e Sindichi del 
+Comuno di Pisa Messere Marzucho Iscornigiano, 
+Messere Nicolò de' Benigni, e Messere 
+Guido da Vada; ed eravi uno Legato del Papa, 
+che avea nome Don Velasco. E per quella 
+pacie lo Comuno di Pisa diè al Comuno 
+di Luccha le Castella di Castiglione, e di Cotone, 
+e l'Aguila aveano avuto per furto. E 
+per servare la pacie, impegnò al Papa lo Castello 
+di Ripafacta, che vi stesseno Castellani 
+e Sergienti per lo Papa a soudo del Comuno 
+di Pisa, e in Vico uno Castellano con quattro 
+Sergienti per lo Papa, e cusì in del Castello 
+di Ponteadera, e cusì in del Castello 
+di Marti. E rimaseno stadichi <num>XX</num> de i migliori 
+pregioni Pisani, ch'erano a Luccha, e 
+funno presi a la sconficta d'Asciano; e per 
+istadichi per servare la pacie istetteno in de 
+la Roccha di Sanminiato, e poi in de la Roccha 
+di Radicofani. E lo dì che li Ambasciadori 
+di Pisa andonno a fare la pacie, quelli 
+dell'oste li nemici, ch'erano al Fosso, non 
+potendo passare, che li Pisani, che v'erano, 
+lo difendejano, quando Arno menimò, passonno 
+da cavallo, e da piè da lato a San Giovanni 
+a la Vena, e poi a Canneto da lato di 
+Vaudarno, sì che li Pisani, ch'erano al Fosso, 
+vedendoseli venire, abandononno lo Fosso, 
+e vennerone in isconficta, e furon de' 
+presi e morti di loro, e di quelli di Vaudarno; 
+e de i nemici funno in fine a San Savino, 
+e nondimeno li Ambasciadori andonno. 
+Messere Raynaudo da Riva da Mantova 
+Podestà anno uno. <date value="1278"> MCCLXXVIII</date> e <date value="1279"> LXXIX</date>. 
+lo quale fue buono Signiore, e de' più tenuti 
+Signori, che fusse anco a Pisa. 
+Messere Octulino da Mandello da Melano 
+Podestà anno uno. <date value="1280"> MCCLXXX</date>. 
+In del cui tempo si fecie la Torre honorevile, 
+e bandita mouto bella di Messere Federigo 
+delle Statee, Messere Perchino, Messere 
+Andrea, Messere Cieo, e Messere Guiccio 
+Massella, quando li fecieno Cavalieri. 
+Messere Giovanni di Luccino da Cumi Podestà 
+anno uno. <date value="1281"> MCCLXXXI</date>. 
+In del cui tempo andò la dicta Podestà con 
+oste e assedio al Castello di Caprona, che 
+v'erano Bercio da Caprona, e li fratelli, ch' 
+erano isbanditi, e autri isbanditi. 
+Messere Rainaudo da Brunforte Podestà 
+mesi sette. <date value="1282"> MCCLXXXII</date> e morì a Pisa di 
+sua morte del mese d'Agosto. 
+In del cui tempo si incominciò la guerra con 
+….. <date value="1283"> MCCLXXXIII</date> del mese di Luglio, 
+e poi compiè l'anno de la dicta Signioria. 
+Messere Guiglielmo del Sighessi da Papia 
+<pb n="646"/>
+Capitano del Populo di Pisa compio l'anno 
+della dicta Signoria, e fecie l'officio della Podestaria, 
+e Capitanaria. <date value="1283"> MCCLXXXIII</date>. 
+Lo quale Messere Guiglielmo Capitano del 
+Populo condannò Messere Ganibaudo de' Vesconti, 
+e per la dicta cagione poi Messere Jacopo 
+Villano fu privato dell'officio del Consolatico, 
+al quale era chiamato; e poi al dicte 
+officio fue chiamato Messere Cino Villano 
+suo figliuolo. 
+Messere Beutramo de' Cattani da Melano 
+Podestà anno uno, e mese uno <date value="1284"> MCCLXXXIV</date>. 
+In del cui tempo fue l'armata di Messere 
+Andreotto, de la quale fue Ammiraglio, e 
+fue presa Pianosa, e disfacta per l'armata de 
+le Galee <num>35</num> de' Gienovesi, e presi li homini 
+de la Terra, e menati a Gienova per <num>12</num> Galee. 
+E l'armata di Pisa, quando trovò Pianosa 
+presa e disfacta, fecie la via di fuora, e 
+andò in Sardignia, e fue Judice Mariano. 
+Judice d'Alborea col suo grande isforso, e 
+Messere Andreotto coll'armata puoseno l'assedio 
+a la Lighiera e preseno la Terra, e la 
+disfecieno. Le galee <num>22</num> dell'armata de' Gienovesi, 
+disfacta Pianosa, si tenneno la via 
+dentro inverso Sardignia, e trovonno, e preseno 
+le <num>V</num> navi, che veniano caricate di Sardignia 
+in carovana, e <num>VI</num> Galee ch'erano colloro 
+in guardia, che isfondonno le Galee, e 
+ricoveronno li homini delle Galee in su le 
+navi; e funno prese le navi, e menaro le navi 
+e homini a Gienova. 
+Poi incontenente li Gienovesi fecieno grande 
+armata di più di <num>50</num> Galee, e vennero a 
+Porto per iscontrare le Galee de la ditta Armata 
+de i Pisani. Essendo venuta a Porto 
+Pisano l'armata de i Gienovesi, Messere Andreotto 
+coll'armata de i Pisani, salvo che <num>15</num> 
+Galee, che la scinara per fortuna di mare non 
+si poteteno giungiere coll'autre Galee, e gironno 
+per la via di fuora, e andonno in Castello 
+di Castro. E saputo l'armata de i Gienovesi, 
+come Messere Andreotto era tornato a 
+Piombino, andò là, e tenea assediato le Galee 
+de i Pisani, che tornonno in Sardignia; 
+e le Galee de i Gienovesi si paronno loro 
+inansi in del canale di Piombino. E venendo 
+a vela le Galee de' Pisani, per forza di vento, 
+o di battaglia scamponno sotto la Roccha di 
+Piombino, salvo tre, che ne piglionno, e uno 
+Galeone. E questo fu del mese di Luglio lo 
+soprascritto anno. 
+Poi quello medesmo Anno lo Comuno di 
+Pisa fecie anco armata, della quale fue Ammiraglio 
+Messere Rosso Buzaccharini, e andò 
+del mese di Septembre coll'armata a Porto 
+Veneri. Ascieseno di quelli delle Galee alcuna 
+parte in terra, e ricievetteno danno, e 
+guastonno l'Isola di Porto Veneri, e tornonno 
+a Porto Pisano. 
+Poi compiuto l'anno del dicto Messere 
+Beutrame in fine a Calende di Giennajo, 
+perché Messere Gherardo da Castelli di Trivizio, 
+ch'era chiamato Podestà di Pisa, non 
+ potè venire a l'officio per briga che l'intervenne, 
+che fue assediato in uno suo Castello, 
+e non potè venire a l'officio: Messere Philippo 
+de Tornielli da Novaria Capitano del Populo 
+di Pisa fecie l'officio de la Podestaria 
+infine al mese di Marzo, in el quale venne lo 
+infrascripto Messere Albertino Podestà. 
+In del cui tempo lo Conte Ugolino, e 
+Messere Andreotto funno chiamati, e facti 
+<pb n="647"/>
+Capitani gienerali de la guerra di mare. 
+Messere Albertino Mauroceno da Venetia  
+Podestà mesi sei. <date value="1285"> MCCLXXXV</date>. 
+In del cui tempo Messere Giovanni Chavarchia 
+fue facto Ammiraglio di <num>14</num> Galee, 
+andonno in Sardegnia. 
+Poi lo Conte Fatio fue chiamato, e facto 
+Capitano generale di guerra in tutta l'Isula 
+di Sardignia, e andò in Sardignia in su una 
+grande Nave con molti cavalli e famigliari. 
+E Messere Guido Zaccio fue chiamato, e 
+facto Ammiraglio da i dicti Capitani di <num>24</num> 
+Galee, contate quelle <num>14</num> de le quali fue 
+Ammiraglio Messere Giovanni Chavarchia, 
+ch'erano tornate di Sardignia. 
+E perché Galee <num>22</num> di Gienovesi mosse a 
+Porto Fino passonno da Gorgona: erano andate 
+dirieto  a la Nave del Conte Fatio. 
+Le dicte Galee de i Pisani, de le quale 
+fue Ammiraglio Messere Guido Zaccio, andonno 
+di po' loro, e le Galee de i Gienovesi, 
+ch'erano andate assai inanti, trovonno, e 
+giunseno le Nave a Capo Comino, e combattenno 
+la Nave, e presonela per forsa. 
+E tornando le Galee de i Gienovesi co la 
+Nave presa, iscontrò le Galee de i Pisani; e 
+quando videno le Galee de i Pisani, misseno 
+fuoco in della Nave, e combatteteno con le 
+Galee de i Pisani ……. isconfisse, e preseno 
+de nove, e l'altre fuginno di nocte. E 
+questo fue il mese di Maggio. 
+Poi lo sopradetto Mese Albertino Podestà 
+fue facto Signore generale de la guerra di 
+mare, e fece fare la grande armata, e con 
+Galee <num>LXV</num> e <num>XI</num> Galeoni, e con punctoni 
+da farvi dificii, andò sopra Genova, ed ebbeno 
+mal tempo, e corseno a Nissa, e tornonno 
+per la via di Capo Corso a Porto, e puosenosi 
+a la Melora. 
+Li Gienovesi, essendo tornate le <num>30</num> lor 
+Galee, de le quali fue Ammiraglio Messere 
+Benedetto Zaccaria con armata di Galee <num>110</num> 
+de le quale fue Ammiraglio Messere Ruberto 
+Doria, tennero loro dirieto infine è Porto, e 
+trovonnole a la Melora la Domenica, che 'l 
+Sabbato erano tornate le Galee de i Pisani, 
+e ine combattenno colloro, e fue grande battaglia, 
+e funno sconfitte le Galee del Comuno 
+di Pisa, e prese <num>27</num> Galee, e Galeoni, presi 
+bene <num>XI</num> mila homini, morti più di <num>1285</num> e 
+fu la ditta isconfitta A<abbr>.</abbr>
+               <abbr>D.</abbr>
+               <date> 1285</date> del mese 
+d'Agosto Domenica lo die de la festa di Sancto 
+Sisto, in de la quale battaglia fue preso 
+lo stesso Messere Albertino Podestà, poi … 
+Messere Martino suo figliuolo fu suo Vicario 
+mesi tre e mezo, e quinde intorno, cioè poi 
+che andò in dell'armata del mese di Luglio 
+in fine al dì de la festa di Sancto Luca d'Octobre. 
+Et ebbe la dicta armata di Pisa mouti segni 
+riei, che cadde la Croce in su la Galea 
+de la Podestà al Ponte nuovo, quando si puse 
+lo standale; e l'armata istette in Arno a 
+Sancto Rossore die <num>18</num> che non potette uscire 
+di foce. 
+Messere Ugolino Conte di Donoratico Podestà 
+anno uno <date value="1285"> MCCLXXXV</date> e cominciò lo 
+suo officio lo dì de la festa di Sancto Luca. 
+Lo stesso anno diede a li Lucchezi del mese 
+di Febbrajo lo Castello di Ripafacta, e 'l Castello 
+di Viareggio, perché non facciesseno 
+guerra al Comuno di Pisa; e tennero le Castella, 
+e non lassonno di far la guerra. Poi 
+lo dicto anno del mese di Febrajo lo Conte 
+<pb n="648"/>
+Ugolino si fecie chiamare Podestà e Capitano 
+in termine di dieci anni. 
+E in quello Anno <date value="1286"> MCCLXXXVI</date> del mese 
+di Giugnio, e di Luglio li Lucchezi venneno 
+a oste contra li Pisani, e fecieno, e 
+puoseno assedio al Castello di Cuoza in prima, 
+e poi al Castello d'Avene, e preseno e
+rendenosi loro l'uno e l'autro. 
+E le Gienovesi fecieno grande armata in 
+quel medesmo tempo, de la qual fue Ammiraglio 
+Messere Ruberto Spinula; e venne a 
+Porto Pisano, e preseno la Torre della Lanterna, 
+uvero la scuola, che la rendé loro 
+Gainello Rosso, e li Sergienti; perché quelli 
+dell'armata de i Gienovesi, accostandosi a la 
+Torre, mostronno pietre a caucina loro, come 
+la Torre si tagliasse, e in questo modo si 
+rendenno, e in uno tempo era l'armata de i 
+Gienovesi a Porto, e l'oste de i Lucchezi a 
+Cuoza e Avene. 
+Per la compagnia, la quale aveano facta, 
+li Gienovesi co li Comuni di Fiorenza, e di 
+Luccha, la qual fecieno insieme incontenente 
+di poi a la sconfitta de la Melora, e promisseno  
+li Lucchezi, e Fiorentini di far' essere a 
+quella compagnia de i Guelfi di Toscana, e 
+fecienolo. Vero è, che se li Fiorentini fusseno 
+usciti fuore, quando l'armata de i Gienovesi 
+era a Porto, e l'oste de i Lucchezi era 
+ad Avena, e Cuoza, sarebbe abandonato e 
+perduto lo Porto. Ma per la concordia, che 
+fecieno lo Conte Ugolino, e Judici di Gallura, 
+e li Guelfi di Pisa co la parte Guelfa 
+di Fiorensa, li Fiorentini lassono, che non 
+iscitteno fuora, e 'l Porto non si perdé, se non 
+la Torre de la Lanterna. 
+E in del stesso anno Case dieci di dieci 
+grandi Cittadini di Pisa si disfeccieno per 
+parte per la promissione e confederatione, 
+che fecieno co la parte Guelfa di Fiorensa, e 
+voleano assai più di maggior quantità. E in 
+del stesso tempo Messere Andreocto Caudera 
+si fugì di Pisa per paura per uno romore che 
+fue; e andò in Arestano a Judici d'Alborea, 
+e anco lo Conte Nieri. 
+Messere lo Conte Ugolino predicto del soprascritto 
+regiemento <num>X</num> anni fu Podestà, e 
+Capitano anni <num>2</num>
+               <date value="1286"> MCCLXXXVI</date>. In fra quel 
+tempo Messere Guiglielmo de Lambertini da 
+Bolognia fu suo Vicario in offizio della Podestà 
+uno anno. 
+Poi Judicie Nino Judicie di Gallura vuose 
+(essendo cresciuto: andò allora in Sardignia 
+Signore) essere insieme col Conte Ugolino. 
+Messere Ugolino Conte di Donoratico, 
+Messere Ugolino Visconte Judicie di Gallura 
+eletti Podestà di Pisa e Capitani del populo 
+di Pisa in termine di dieci anni funno Podestà 
+e Capitani mesi <num>18</num> overo piò <date value="1288"> MCCLXXXVIII</date> 
+toccò parte <date value="1287"> LXXXVII</date>, e in 
+parte di <date value="1289"> LXXXIX</date> fine a Calende di Giugnio. 
+In fra 'l qual tempo Messere Guidoccio de i 
+Bongi da Pergamo eletto in termine d'uno 
+anno Podestà remanente, salvo l'officio del 
+dicto Signore, fue Podestà mesi cinque over 
+più, lo quale officio cominciò del mese d'Outobre 
+<date value="1288"> MCCLXXXVIII</date>. 
+In del cui tempo Judici di Gallura, e li 
+Vescovi a dispecto e a onta del Conte Ugolino, 
+e degli Upessinghi fecieno venire li 
+Guelfi da Fiorensa, e intrare nel castello del 
+Ponte adera, e pigliarlo a inganno e a tradimento, 
+e caccionno delli homini de la Terra 
+<pb n="649"/>
+per forsa, e tennenolo per la parte Guelfa di 
+Fiorensa; e furo colloro Messere Mondino 
+Paltavolo, e Messere Panocchia della Sassetta. 
+E in del stesso tempo, e ancho inansi, 
+quelli delle parte da Burti vennero più voute 
+a Pisa a pititione del stesso Conte, e Judicie; e 
+quelli de la parte di sopra s'accomandonno e 
+apogionno a Judici di Gallura; e quelli de la 
+parte di sotto s'acomandonno, e apogionno 
+al Conte Ugolino, e a li Upessinghi. E le 
+dicte parte da Buiti moute voute combattenno 
+insieme in Buiti; e Judici, e li Vesconti 
+mandavano ajuto a la parte di sopra; e lo 
+Conte Ugolino, e li Upessinghi mandavano 
+ajuto a la parte di sotto; e a ciò funno mouto 
+acciese le dicte parte, eli stessi signori; e 
+mouti omicidi e mali intervenneno intra loro. 
+Per la qual cosa perché la loro parte ne 
+istava peggio, &amp; per l'autre riffe, ch'erano 
+tra 'l Conte, e Judici, e li Upessinghi, e
+Vesconti. E perché a Brigata figliuolo ch'era 
+del Conte Guelfo, con suoi compagni ucciseno 
+Messere Gano Scornigiano, ch'era da la 
+parte di Judice, e de i Vesconti, di Lungarno 
+quando tornava a casa, un de' Judici 
+di Gallura, e i Vesconti si levonno a romore 
+contra lo Conte Ugolino, diciendo, e gridando: 
+<hi rend="italic">Muoja, chi non vuole pacie co i Gienovesi.</hi> 
+E conosciendo li Pisani, che non lo facieano 
+per parte volere, ma per confondere 
+lo Conte Ugolino, non si levonno a romore 
+per ciò, sì che Judici vedendo, che non puote 
+per quel modo disfar lo Conte Ugolino, 
+tornò a casa sua, e vuosse, che 'l Conte Ugolino, 
+che per l'officio de la Podestaria, e de 
+la Capitanaria stava al Palasso del Comuno, 
+tornasse a casa. E in ciò si tramisseno li Consuli 
+del Mare, e de i Mercanti dell'Arte 
+della Lana, e i Capitani, e i Priori delle sette 
+Arte, e pregonno lo Conte, che torni a 
+casa, e che 'l Conte, e Judicie tutto lo loro 
+officio della Podestaria, e Capitanaria comettesseno 
+in Messere Guidoccino per lo tempo 
+del suo officio, e tornasseno elli a le loro case. 
+E cusì fecieno, e tornonno a casa; e 
+Messero Guidoccino, che stava al Palasso del 
+Comuno, andò a stare al Palasso del Populo. 
+E questo fue lo soprascritto Anno del mese 
+di Diciembre. E tornati a casa, più voute le 
+loro famiglie funno ad arme, e fecieno brigha 
+insieme. 
+E lo soprascritto Anno del mese di Giennajo 
+all'ascita, le dicte parti da Buiti fecieno 
+aparecchiamento grande di combattere insieme, 
+e mandonno per ajuto da ognia parte; 
+e quelli di sopra a Judici, e a i Vesconti; e 
+quelli della parte di sotto al Conte, e all' 
+Upessinghi. E i Judici, e li Vesconti mandonno 
+a Quartigiani da Luccha, che li contavano 
+per conforti e amici, che mandasseno ajuto 
+a li amici loro de la parte di sopra da 
+Buiti; e li Quartigianivi mandonno Jacopo 
+Molarchi con homini da cavallo e da piedi in 
+grande quantitade. Incontenente che giunseno 
+a Buiti, incomincionno quelli de la parte 
+di sopra con quelli de la parte di sotto, che 
+non era anco loro giunto l'ajuto, e caccionnoli 
+fuor de la Terra; e allora li Lucchezi, 
+che vi vennero, intronno in del Castello vecchio 
+di Buiti; &amp; a inde inansi si tenne lo 
+Castello e la Terra per lo Comuno di Luccha. 
+Poi del mese di Febbrajo lo stesso Anno si 
+fecie accordio, e pacie tra 'l dicto Conte, e 
+<pb n="650"/>
+Judicie, istando ciascuno a casa sua. E del 
+mese di Marso avendo la famiglia di Messere 
+Guidoccino preso Coscio di Guido Spessalasta, 
+ch'era stato in famiglia del dicto Conte, ed 
+era in bando, perché nol vuosse lassare a pititione 
+del Conte: lo Conte Ugolino soprascritto 
+fue con Judici, avendo volontà di ritornare 
+in de la Signoria &amp;? amburo, <hi rend="italic">cioè</hi> ambidue._ amburo. E intervenuta 
+la dicta cagione, lo stesso Conte, 
+e Judici fecieno la nocte pigliare lo Palasso 
+del Comuno, e intrarvi le loro famiglie, e
+anco istare le loro famiglie aunate, e con 
+bandiere loro intorno al Palasso del Populo. 
+E la matina armati con tutti cavalieri da 
+Pisa, e Guelfi, e Ghibellini vennero al Palasso 
+del Comuno di Pisa in de la piassa di 
+Sancto Ambrogio, e ismontonno, e introno 
+amburo in Palasso in Signoria; e lo cavallo 
+di ciascuno di loro si levonno ritti malamente, 
+quando iscieseno, e 'l dicto Messere Guidoccino 
+fecieno pagare del suo salare, e miselo 
+fuora della Signoria, e mandonnolo via. 
+E andò lo Conte Ugolino a stare al Palasso 
+del Populo, e Judicie di Galura rimase, e 
+stesse al Palasso del Comuno.  
+Poi del mese Aprile Messere Guiglielmo di 
+Ricoveransa, Messere Puccio Buzaccharino, 
+Guelfo Pandolfino, e Jacopo d'Aldobrando 
+Notajo, ch'erano pregioni a Gienova per loro, 
+e per tutti li autri pregioni Pisani, ch' 
+erano in pregione a Gienova, vennero a Pisa 
+per fare la pacie tra 'l Communo di Pisa, e 'l 
+Comuno di Gienova, che aveano trattato li 
+pregioni del Comuno di Gienova. E perché 
+la pacie fusse mouto grave e impossibile, perché 
+Judici era da lato de i pregioni, e voleala 
+per confondere e disfare lo Conte Ugolino, 
+che non la volea elli, né anco tutti quelli, 
+che savi erano a Pisa, perché parea loro 
+impossibile a poterla fare: lo Conte Ugolino 
+per  non volersi recare romore e grido di Populo 
+adosso, né incontra consentire, che si 
+recasse a Consiglio maggiore in Duomo, quine 
+si fermò, e prese, che si faciesse per quello 
+trattato, ch'e' pregioni aveano fatto co i 
+Gienovesi. E fu fatto Sindico Messere Ranieri 
+Sampante, e mandato a giurarla, e andò 
+a Gienova, e giurolla, e fermolla secondo la 
+forma del dicto trattato. 
+Poi in del dicto Anno del mese di Giugnio 
+a l'ascita, Messere l'Arcivescovo Rugieri, e 
+Messere Cacciameo di Bonifatio, Messere Bonacorso 
+Guberta, e Messere Gado del Pelajo, 
+e Messere Bonacorso Piovano da Sancto 
+Casciano, e Messere Jacopo Piovano da Sovigliano, 
+e Messere Guido Priore di Nicozia, 
+e Messere Nieri di Vanni, e Messere 
+Guido Zaccio, e Messere Bacciameo, e Messere 
+Baccio da Caprona con autri capi Ghibellini 
+di Pisa, avendo fatto addunamento di 
+fanti di Collina, e di Vaudiserchio, e da 
+Ripafatta si levonno conta Judici Nino, e 
+Judici di Gallura, ch'era Podestà, e Capitano 
+in del Palasso del Comuno, per volerlo 
+cacciare de la Signoria, con saputa e volontà 
+del Conte Ugolino, ch'era Podestà, e Capitano 
+co lui, e istava al Palasso del Populo, 
+ed era allora a Septimo. Vedendo lo dicto 
+Judici, e li suoi conforti, e li autri, che tenejano 
+co lui, l'adunamento de la dicta giente, 
+lo poscajo dì del mese di Giugno, e avendo 
+mandati più messi a Septimo al Conte 
+Ugolino, che tornasse, e non tornando, lo 
+<pb n="651"/>
+dicto Judici e li suoi conforti e seguaci, deliberato 
+consiglio tra loro, lo dicto die in 
+dell'ora del mezo dì montonno armati a cavallo, 
+e escinno fuor di Pisa, e andonno a 
+Cauci. Li sopradicti capi de i Ghibellini co 
+lor giente escinno fuora, e vennero da la 
+Corte, e intrò l'Arcivescovo in del Palasso 
+del Comuno, ed ebbeno le chiave delle porte, 
+e fecieno serrare le porte de la Città. Enansi 
+che l'Arcivescovo intrasse in del Palasso, 
+andonno li dicti capi a casa del Conte 
+Ugolino, e vousseno, che Brigata nipote del 
+dicto Conte, figliuolo del Conte Guelfo, venisse, 
+e intrasse in del Palasso del Comuno; 
+e voleavi andare e intare, se non fosse, che 'l 
+Conte Gaddo figliuolo del sopradicto Conte 
+Ugolino li disse: <hi rend="italic">Non andare, Brigata: aspetta 
+lo Conte, che torni da Septimo;</hi> e perciò 
+Brigata lassò, e non v'andò entro. E da che 
+non vousse venire, l'Arcivescovo v'intrò, e 
+mandonno a Septimo per lo Conte Ugolino, 
+che tornasse. E quello medesimo die poscajo 
+di Giugnio in dell'ora del vespro lo Conte 
+Ugolino tornò a Pisa; e da che vidde, che 
+l'Arcivescovo era in Palasso, fue molto torbato, 
+e dimandò, e disse, ch'elli volea essere solo, 
+e libero Signore, come era. E l'Arcivescovo, 
+e li dicti capi de li Ghibellini disseno, che 
+voleano, che l'Arcivescovo fusse suo compagnio, 
+in dell'officio, e Signore insieme co lui. 
+E lo Conte disse, che non volea; e se non 
+fusse contento di lui, disseno, che li voleano 
+dare un'autro compagnio, che fusse Ghibellino. 
+E se non si contentasse d'autrui, che 
+fusse lo Conte Aldribandino di Santa Fiore, 
+ch'avea la nipote per moglie. E sopra queste 
+cose trattaro, e accordaro. Lo dicto Conte, 
+e l'Arcivescovo l'autro die di Calende Luglio 
+la matina funno insieme in de la Chiesa di 
+Santo Bastiano, e non s'acordonno la matina, 
+e doveanovi tornare di po' Nona. 
+Poi di po' Nona intendendo l'Arcivescovo, 
+e li dicti capi de i Ghibellini, che Brigata 
+era andato al Ponte de la Spina, e avea con 
+suoi fanti prese iscafe per volere mettere 
+dentro Messere Tieri da Bientina, ch'era 
+venuto ben con mille homini inanti del Conte, 
+temendo d'essere ingannati e traditi, ansi 
+che mettesseno dentro, levonno lo romore 
+<hi rend="italic">a l'arme, a l'arme</hi>; e apparecchionosi, e funno 
+a la battaglia l'una parte, e l'autra; e sonò 
+la Campana del Comuno da la parte de 
+l'Arcivescovo, e la Campana del Populo da 
+la parte del Conte Ugolino. E fu la battaglia 
+grande a cavallo e a piè, e di fu le Torre 
+e de le Case per la Carraja dà l'una Corte, 
+e Palasso a l'autro, e per la Carraja di 
+Sancto Frediano, e per la via di Sancto Bastiano, 
+e per l'autre vie; e fuvi morto Messere 
+Atho nipote de l'Arcivescovo, e durò la 
+battaglia quasi da di po' Nona in fine a presso 
+a di po' Vespero; e a la fine la parte del 
+Conte Ugolino perdette; e rinchiusenosi in 
+del Palasso del Populo tutta la sua giente. E 
+l'Arcivescovo, e li dicti capi de i Ghibellini, 
+e lor seguaci con fuoco, e per battaglia vinseno 
+lo Palasso del populo, e preseno Lo Conte 
+Ugolino, e li figliuoli, e li nipoti, e tenneroli 
+sostenuti, e presi; e feciono loro mettere 
+li ferri, e teneree guardare presi in del 
+Palasso del Populo più di <num>XX</num> dì, in fine 
+che fu acconcia la pregione della Torre de i 
+Gualandi da sette vie. E poi ve li fecieno 
+<pb n="652"/>
+mettere entro in de la dicta pregione, che 
+fu poi chiamata la Pregione della fame, E lo 
+sopradetto die de la battaglia lassono li Upessinghi, 
+e li autri tutti, che funno presi in del 
+Palasso del populo col Conte Ugolino, e 'l 
+venerabile Padre Messere Rogieri de Ubaldini 
+Arcivescovo pisano fu fatto e eletto Signore, 
+e Rectore, e Governatore del Comuno 
+di Pisa, per se e suo Vicario mesi cinque, 
+o più. 
+Messere Bonacorso Gubetta di Ripafatta fu 
+suo Vicario mesi tre, o in quel contorno 
+A<abbr>.</abbr>
+               <abbr>D.</abbr>
+               <date value="1284"> MCCLXXXIV</date>. Di po' questo li Upessinghi, 
+ch'erano in Pisa, si partinno incontenente 
+di Pisa; e quelli, ch'erano di fuora, 
+insieme intronno in del Castello di Caucinaja; 
+e anco di loro n'entronno in del Castello di 
+Lari, e ribellonnolo. E li Guelfi di Peccioli 
+in fine lo primo dì che fue cacciato Judici di 
+Gallura, caccionno di Peccioli tutti li Ghibellini, 
+che v'erano; sì che le Castella e Terre 
+tutte di Vaudera, salvo che Morrona, e 
+Crespina, erano perdute: che di po' la sconfitta 
+de la Meloria li Fiorentini aveano presa 
+e occupata tutta la Vaudera, exciepto che 
+Peccioli, e Morrona; e Messere Arrigo dalla 
+Toza l'avea tenuto per lo Comuno di Fiorenza; 
+e Marti teneano li Upessinghi; e Palaja, 
+e l'autre Castella guadagniate di po' la 
+sconfitta della Melora, avea prese e occupate, 
+e eranosi rendute al Vescovo di Luccha, 
+e poi non …… avute lo Comuno di Pisa 
+in del tempo della Signoria del Conte Ugolino. 
+Judici di Gallura, poiché fu cacciato, 
+e andato a Cauci, e preso lo Conte Ugolino, 
+istando a Cauci di pochi dì vennero a 
+lui li Lucchesi, e Fiorentini de i maggiori e 
+migliori de la lor Terra, e de li Ambasciadori 
+de i Comuni di Fiorensa, e di Luccha. 
+Vero è, che istette in trattato di concordia 
+co i Pisani ben <num>XV</num> dì; e da che non si potette 
+fare la concordia, li Lucchesi, e i Fiorentini 
+mandonno a Cauci a lui cavalieri e 
+pedoni in grande quantitade, e feciono lega 
+e giura co lui. E li Buitesi de la parte di sopra, 
+e Calcisani con giente di Judici piglionno 
+la Vecha, e la Torre di Caprona. E istata 
+la giente de cavalieri e pedono Lucchesi e 
+Fiorentini a Cauci alquanti dì senza alcuno 
+isfidamento di guerra fare al Comuno di Pisa, 
+e a i Pisani, lo dito Judici, e li Vesconti, 
+e li loro seguaci co li diti cavalieri e pedoni  
+Lucchesi, e Fiorentini, ed ellino co loro, 
+passonno in Vaudarno, e arseno, e misseno 
+a incendio case, e palassi; e più dì, e più 
+volte vi passonno, e arseno quasi tutte le 
+case di Vaudarno. E venneno infine a Riglione, 
+e alquanti di loro infine a Sancto 
+Marco, perché in Pisa avea pochi cavalieri; 
+e perciò li fecie lo fosso a Sancto Marco; e 
+Ghibellini dentro a furore misseno mano a 
+disfare le case de' Guelfi, e da inde inansi si 
+disfecieno; e cierti Nobili ucciseno certi populari 
+Guelfi. 
+Unde l'Arcivescovo, e cierti capi di Ghibellini, 
+che menavano la Terra, mandonno 
+per cavalieri d'ognia parte, che venisseno in 
+ajuto del Comuno di Pisa al suo soudo; e 
+venendo lo Conte di Roma figliuolo del Conte 
+da Ylci con cavalieri di Maremma, e con 
+cavalieri di Roma in quantità di <num>600</num> cavalieri 
+a Pisa in ajuto del Comuno di Pisa al 
+suo soudo per la via di Maremma, udendo 
+Messere Inghirrame Conte da Biserno la loro 
+<pb n="653"/>
+venuta, si partì da Biserno con sua famiglia, 
+da cavallo per la via di Collina, e andò a 
+Caucinaja, e passò a Montecchio, e tenne 
+per la via da Bientina, e da Buiti, e per li 
+monti di Buiti venne a la Verruca, e sciese 
+a Cauci; e fu con Judici, e li Vescovi co li 
+cavalieri, c'erano a Luccha, e di Fiorensa; 
+e disse loro l'avenimento de' ditti cavalieri 
+a Pisa, e le loro conditione, sì ché per la 
+dicta via da Calci menò tutti li cavalieri e 
+pedoni, che v'erano, e passonno a Caucinaja, 
+e inde menonno co loro li Upessinghi, che 
+v'erano, e tennero su per la Fossa nuova a 
+Vicarello. E quando funno a Colle Salvetti, 
+iscontronno li dicti cavalieri, che veniano a 
+Pisa; e lo dì della Vigilia di Sancta Maria a 
+mezzo Ogosto combattenno co loro, e isconfissenoli, 
+perché lo Conte di Roma co la 
+sua giente non ferì a la battaglia, ma fuggì, 
+e tornò indietro; e quelli non seguitteno la 
+caccia per paura de li Pisani, che traggieano, 
+e ritornonno a Caucinaja la sera. 
+Poi lo Conte di Romania, e li cavalieri, 
+che iscamponno, che funno da <num>450</num> vennero 
+a Pisa, e li Pisani incavallati, e autri cavalieri 
+accattati a soudo, sì che in Pisa avea 
+outra <num>500</num> cavalieri. Essendo li cavalieri mancati 
+a Judici, li Pisani una notte cavalconno 
+a Cauci, e non intronno in della Valle, e 
+un'autra notte poi cavalconno anco a Cauci, 
+e a la randa del die intronno in della Valle; 
+e della giente di Judici isbarattonno, e uccisono 
+da piè e da cavallo, in tra quali fue 
+morto Giovanni Ciaura da Luccha. E Judici, 
+e li Vescovi a grande corta e pena ricoveronno 
+in del Castello dell'Arcivescovo; e 
+se non fusse grandissima acqua, che allora 
+piovve, erano a grande conditione tutti di 
+scampare, e anco perché non vi pottero stare 
+per paura, che i Lucchesi non vi tragiesseno: 
+unde Judici e li Vescovi non ci confidonno 
+più di stare a cauci, e andonnone a 
+stare a Luccha. 
+Del mese di Septembre a la scita lo Comuno 
+di Luccha coll'ajuto de i Fiorentini, Senesi, 
+e Pistoresi, e Judici di Gallura, e li autri 
+isciti di Pisa, vennero a oste al Castello 
+d'Asciano, e stando ad assedio del dicto Castello 
+bene uno mese, fecieno colla stipa la 
+via per lo padule, e con le Castella di legniame, 
+e con gatti fenno sì d'intorno al Castello 
+d'Asciano, che li Capitani, e gli omini, 
+che v'erano dentro, vedendo che non si 
+poteano tenere, né difendere, rendenno lo 
+Castello al Comuno di Luccha, salve le persone 
+e l'avere del mese d'Octobre a la scita. 
+E quello medesmo die, che si perdé Asciano, 
+lo Comuno di Pisa, e i Pisani ricoveronno ed 
+ebbeno lo Castello di Vada, che in quel 
+tempo l'avea preso Messere Inghiramo da 
+Bizerno. E a quel tempo di qua da Ciecina 
+non si teneano per lo Comuno di Pisa se non 
+tre Castella, Vico, Morrona, e Crespina. 
+Poi del mese di Diciembre li Pisani cavalconno 
+a Buiti, e i Vicalesi menaro co loro, 
+avendo intendimento da alcuni Buitesi d'avere 
+la Valle, e la Terra di Buiti; e funno al 
+Castello vecchio di Buiti; lo preseno per 
+forza, che v'erano Segienti per lo Comuno 
+di Luccha, e presi ne li mandonno a Vico. 
+E preso lo Castello vecchio, li soudati del 
+Comuno di Pisa intronno in della Valle, e 
+incomincionno a rubare, unde li Buitesi trasseno 
+su per li monti e colli, gridando <hi rend="italic">a Valle,</hi>
+               <pb n="654"/>
+               <hi rend="italic">a Valle</hi>. Li pedoni n'erano cominciati a 
+partire, e non erano a schiera; li cavalieri 
+vedendo soli venire sopra a capo, e ferire, e 
+percuotere colle lancie, e sendo già li pedoni 
+in rotta, discieseno, e si reconno al piano; 
+ed essendo in del piano, e volendosi fermare 
+di fare ischiera, per lo mal tempo, ch'era 
+stato a quelli dì d'aquasione, si ficcavano li 
+cavalli: unde li Buitesi vedendo ciò, disceseno 
+in ver lo piano, e missenoli in isconfitta; 
+e ricousenosi li cavalieri su per la Fossa 
+Lucciera in ver Bientina; e li Bientinesi iscitteno 
+fuora con lancie e balestra loro adosso 
+da l'autro lato della Fossa, e per li Buitesi 
+funno morti de' cavalieri e pedoni, anco per 
+li Bientinesi, e funno presi de li omini da 
+capo presi per li Buitesi. 
+Da Messere Bonacorso Gubetta da Ripafacta, 
+Baldino da panico Nipote dell'Arcivescovo, 
+Messere Gaddo da Caprona, Nino 
+Istrambo, ch'era Ansiano, Messere Gaddo 
+Bercio, e autri più, Messere Gualtieri da 
+Brunforte Podestà fu eletto anno uno. Istette 
+nell'officio mesi sei, il quale venne a Pisa, 
+nel mese di Diciembre A<abbr>.</abbr>
+               <abbr>D.</abbr>
+               <date value="1289"> MCCLXXXIX</date>. 
+Per la quale isconfitta da Buiti lo Comuno di 
+Pisa, e li Pisani mandonno Sindico e Ambasciadore 
+al Conte Guido da Monte Feutro, 
+ch'era in Asti a confine, per averlo per Signore, 
+e andovvi Jovanni da Campiglia Sindico 
+e Ambasciadore del Comuno di Pisa, e 
+Tignioso da Campiglia Notajo co lui. E lo 
+dicto Messere lo Conte acceptò l'officio de la 
+Signoria di Pisa, libera e gienerale d'essere 
+Podestà, e Capitano del Populo, ed essere Capitano 
+gienerale di Guerra in termine di tre 
+anni a salaro di fiorini <num>X</num> mila per anno con 
+<num>50</num> cavalli d'arme, e <num>30</num> ronsini. E tanto vi 
+stetteno lo Sindico, e 'l Notajo, che ne vennero 
+co lui; e venne da Gienova in qua per 
+mare; e lo dicto Messere lo Conte Guido 
+giunse in Pisa a dì <num>13</num> di Marso, al quale fue 
+facto grandissimo honore d'armeggiare, e 
+d'autro. 
+Quando lo dicto Messere lo Conte Guido 
+giunse in Pisa, lo Conte Ugolino, e 'l Conte 
+Gaddo, e Uguccione suoi figliuoli, e Nino 
+dicto Brigata figliuolo del Conte Guelfo, e 
+Anselmuccio figliuolo del Conte Lotto suoi  
+nipoti, ch'erano in pregione in della Torre 
+de' Gualandi da sette vie, erano in distretta 
+di mangiare e di bere per la posta della moneta 
+di libre <num>V</num> mila, ch'era loro imposta, 
+che ne aveano pagate tre altre imposte. E fu 
+dicto al Conte Ugolino da Neze a Marti, 
+che se non pagasse, u pagasse, era dicto, che 
+dovesseno morire. E quando lo Conte Guido 
+giunse in Pisa, già erano morti lo Conte 
+Gaddo, e Uguccione di fame; e li autri tre 
+morinno quella medesma septimana anco per 
+distrecta di fame, perché non pagonno. E da 
+inde inansi la dicta pregione si chiamò la 
+Pregione e Torre della fame; e dissesi, e 
+credeasi, che se 'l Conte Guido fusse giunto 
+in Pisa, inansi che fusseno cominciati a morire, 
+u che fusseno così venuti meno, che 
+non aré lassato né patito, che fusseno morti 
+per quello modo, che li aré iscampati da 
+morte. 
+Messere lo Conte Guido da Monte Feutro 
+Podestà di Pisa, e Capitano del Populo, e 
+Capitano gienerale di Guerra del Comuno di 
+<pb n="655"/>
+Pisa, fu tre anni a salario di <num>X</num> mila fiorini 
+d'oro per anno, con cavalli <num>50</num> d'arme, e 
+<num>30</num> ronsini A<abbr>.</abbr>
+               <abbr>D.</abbr>
+               <date value="1290"> MCCXC</date>. E poiché venne 
+e stette a Pisa bene uno mese, furono a lui 
+giunti fiorini <num>2</num> mila per anno. Lo quale 
+venne a Pisa a dì <num>13</num> del mese di Marso 
+<date value="1289"> MCCLXXXIX</date>, e incominciò incontenente a 
+fare l'oficio del Capitaneatico de la Guerra: 
+unde Messere Gualtieri da Brunforte Podestà, 
+ch'avea a stare in dell'oficio ben <num>V</num> mesi u 
+quinde &amp;? u qnde, <hi rend="italic">cioè</hi> o incirca._ intorno, e l'oficio della Podestaria 
+e Capitania di Populo dovea incominciare 
+di po' finito l'oficio del dicto Messere Gualtieri, 
+vedendo, che al Conte era e andava tutto 
+l'oficio del mese di Luglio a la intrata si 
+concordò col Comuno di Pisa di lassar tutto 
+l'oficio al Conte Guido, e fue pagato di tutto 
+lo suo salare, e tornò a casa, e a la Terra 
+sua. 
+Quazi incontenente, u di poco che 'l dicto 
+Messere lo Conte Guido giunse a Pisa, li Ghibellini 
+di Vaudera da cavallo, e da piè, che 
+si riducievano a Morrona, co li quali fue 
+Nieri di Janni Conte da Donoratico, e Tauduccio 
+da Sanminiato, andando per la contrada, 
+si trovonno co la Masnada da cavallo 
+e da piè, ch'era in Pecioli, de i quali era 
+capo Nieri di Mainetto, a Monteculaccio, e 
+visonnosi insieme, e combatteno. Ghibellini 
+della nostra parte isconfisseno li Guelfi, che 
+erano più giente assai da piè, avegnia che nostri 
+fusseno pochi più da cavallo; e funnone 
+uccisi e morti assai de' nimici, e anco presi 
+de i pedoni, che cavalieri poco danno ebbeno, 
+che fuggino. E questo fue lo buono incominciamento 
+e principio, che fue in tempo del Conte predicto. 
+Et quazi incontenente che 'l sopradicto Messere 
+lo Conte fue a Pisa, fecie chiamare, e 
+fare in Pisa bene <num>3</num> mila balestrieri, e comperare 
+le balestra, e imparare a balestrare, 
+sì ché quasi in meno di due mesi funno diventati 
+buoni balestrieri. E la prima cavalcata, 
+che fecie fare lo dicto Messere lo Conte, 
+e Messere Sansettino suo Cavalieri co la masnada 
+da cavallo, e co li balestrieri, fue al 
+Castello di Lari, e vinseno lo dicto Castello 
+quello medesmo dì per battaglia, e forsa de 
+le balestra. 
+E da inde a pochi dì mandò, e fecio cavalvare 
+la dicta giente in Vaudera, e combatteno 
+lo Castello di Sojana, e piglionnolo, 
+e ebbenolo per battaglia; e poi ebbeno, e 
+rendennosi al Conte, e al Comuno di Pisa lo 
+Castello, e le Terra di Sancto Pietro; e in 
+quelli dì s'ebbeno, e rendennosi tutte l'autre 
+Terre d'intorno di Vaudera di sotto. Et a 
+inde sorse a tre mesi si rendé al dicto Messere 
+lo Conte, e al Comuno di Pisa lo Castello di 
+Chianni: sì che in breve termine di po' la 
+venuta del dicto Messere lo Conte Guido tutte 
+le Castella e Terre della Vaudera di sotto 
+funno e vennero a i comandamenti del dicto 
+Messere lo Conte, e del comuno di Pisa. 
+Poco tempo di po' la sua venuta a Pisa lo 
+dicto Messere lo Conte colla masnada cavalcò, 
+e co li balestrieri, e col Populo andò 
+più voute a Cauci, e prese tutti li campanili 
+e fortesse della Valle di Cauci, e tutta la 
+Valle, e fecie disfare tutti li campanili e fortesse 
+della Valle dal Castello maggiore, e  
+autre, salvo che 'l campanile de la Pieve, 
+<pb n="656"/>
+e 'l Castello dell'Arcivescovo. E anco pigliò 
+la Torre di Caprona, che si tenea per li nimici, 
+e fornilla, e fecie fornire d'omini e di 
+fornimenti. 
+Lo dicto anno poi del mese d'Agosto lo 
+Comuno di Lucca con ajuto de' Fiorentini, 
+Senesi, Pistoresi, e li autri della compagnia 
+de' Guelfi di Toscana, e li sciti di Pisa, fecieno 
+lo grande oste ed exercito, e vennero 
+per la via d'Asciano in Mezana, e in del piano 
+di Cauci; e guastonno tucta quella contrada, 
+e Caprona, e combattenno la Torre 
+di Caprona, e istettenovi a la dicta Torre ad 
+assedio dì <num>VIII</num>. E quelli della Torre la rendenno 
+loro a patti, salve le persone: unde lo 
+Conte li fecie isbandire di grave bando, perché 
+la rendenno a parti. E di quinde l'oste 
+tutta per la via di Piemonte andò a Vico, e 
+guastonno tutto Vico intorno di vignie, e 
+d'ulivi, e case, e stettenovi dì <num>VIII</num>. E tornò 
+l'oste a casa a le Terre loro incontenente di po' 
+li dicti otto die. 
+Poi lo sopradicto anno del mese di Septembre 
+a lascita Messere lo Conte Guido mandò 
+Messere Arrigo di Bretenoro suo Cavalieri, e 
+Ser Nero da Magliano suo Notajo a Piombino, 
+e ine stetteno pochi dì, e fecieno disfare 
+le case de' Guelfi di Piombino, ch'erano ribelli, 
+e istetteno ine a difensa e guardia di 
+Castiglione. E istando in Castiglione, lo dicto 
+Messere lo Conte mandò in Maremma di 
+quelli della masnada di <num>150</num> in <num>200</num> cavalieri, 
+de i quali funno Capi, e Vicarj lo Conte 
+Nieri, e Messere Bacciameo di Bonifazio dei 
+Gualandi; &amp; andonno a Castiglione. Quando 
+funno venuti in della Terra, Messere Arrigo 
+da Bretenoro sopradicto, e Messere Nero 
+fecieno armare tutti li Castiglionesi, e con li 
+dicti cavalieri, ch'erano venuti, e con li 
+Castiglionesi lassati a guardia della Terra, Ser 
+Nero sopradicto, e Bue Gatto Podestà della 
+Terra con omini vecchi tanto, la mattina 
+per tempo iscitteno di Castiglione, e con la 
+dicta giente andonno al Palasso di Grossetto, 
+ch'era su la focie di Castiglione presso a Castello 
+di Castiglione per due balestrate, che 
+si chiamava isteccho in occhio a Castiglione, 
+e combattenno lo die più voute. E quelli del 
+Palasso fenno, che li Grossetani li soccorresseno. 
+E quando venne la sera, quelli del Palasso 
+si voussero rendere salvo le persone; e 
+Messere Arrigo non li vousse ricievere: che 
+fue tenuto meno che senno, ma grande follia. 
+Li Grossetani vedendo lo fumo, e 
+avendo le novelle, con tutto loro isforso di 
+pedoni e di cavalieri trasseno la sera e la 
+notte, sì che la mattina per tempo funno 
+ischierati in del tombulo presso al Palasso. 
+Messere Arrigo vedendoli venire, con la 
+giente del Comuno di Pisa si partì dal Palasso, 
+e feciensi e andonno loro incontra, e 
+ischieronnosi in del tombulo. 
+Ed erano quelli di Grosseto bene <num>2</num> mila 
+pedoni con pavesi e giacude, più forte che 
+uno muro, ed erano bene <num>200</num> cavalieri u 
+quinde atorno. Messere Arrigo iscieuse <num>XXV</num> 
+feridori de' migliori della masnada, e fue 
+l'uno di quelli, e andò a ferire adosso a i pedoni 
+per disserrarli. Quelli di po' li pavesi
+istando, li ricevetteno in su le giaude, e uccisenoli, 
+e infilsono tutti; e fuvi morto Messere 
+Arrigo, e de i migliori della masnada, e 
+quasi quelli <num>XXV</num> funno tutti morti. E la 
+schiera de i nostri cavalieri, che dovea ferire, 
+<pb n="657"/>
+vedendo cusì cogliere a li servidori, tenne 
+outra, e non ferì, e vouse in ver Castiglione, 
+e funno in rotta; e li maggior parte di loro 
+passonno di qua la focie Frediprata, e con alquanti 
+cavalieri si ressono in su la focie. E i 
+Grossetani da piè e da cavallo usciti di 
+schiera, ed erano feriti adosso a' Castiglionesi, 
+e uccisene ben <num>XL</num>. Quelli, che avea la bandiera 
+di Messere Jovanni della Penna, ched 
+era di quelli cavalieri de i Pisani, ched erano 
+ritti su la focie salendo con la bandiera di 
+Cione da Grosseto, disse a quelli, che avea 
+la bandiera di Cione da Grosseto <hi rend="italic">bandera per 
+bandera</hi>, e ferillo con la bandiera, e gittollo 
+a terra da cavallo con la bandiera. Li cavalieri 
+de i Grossetani vedendo abattere quella 
+bandiera, quelli ch'erano via dirieto, e cavalieri 
+e pedoni incomincionno a fugire; e li 
+cavalieri de i Pisani, ch'erano su la focie, 
+ferinno adosso loro; e lia utri, ch'erano di 
+qua, ripassonno di là. E vedendo ciò, ferinno 
+anco, e misenoli in isconfitta, che non 
+resseno tratto. E funno li Grossetani tutti 
+isconfitti; e durò la caccia bene <num>V</num> miglia; 
+e funno de' Grossetani morti bene <num>600</num> e presi 
+più di <num>400</num>, e menati poi a Pisa in sur una 
+Galea per li Piombinesi. Queste cose avvennero 
+del mese d'Ottobre a la scita quasi fu 
+Ogniasanti. Del mese veramente di Gennajo 
+u di Ferrajo in del sopradicto Anno lo dicto 
+Messere lo Conte Guido mandò Messere Sanssettino, 
+e Gualtieri di Romagna suo Cavalieri 
+con la masnada da cavallo, e con grande 
+quantità di balestrieri di Pisa, e con li 
+Ghibellini di Vaudera da piè e da cavallo, al 
+Castello di Montecchio di Vaudera. Lo Castello 
+sudetto ebbenolo per forsa e battaglie, 
+e tra gli autri, che vi funno presi, vi funno 
+presi Messere Albiso de i Rossi, che 'l tenia. 
+Poi del mese di Marso, u d'Aprile, u quinde 
+apresso, a lo 'ncominciamento dell'autro 
+Anno <date value="1291"> MCCXCI</date> tre Conostabili de la masnada 
+del Comuno di Pisa, Maestro Giordano, 
+Giano da Figbini, e Sauci da Vinci con 
+quelli de le loro bandiere mandati dal dicto 
+Messere lo Conte Guido in Vaudera, cavalcando 
+per la contrada, s'iscontronno con la 
+masnada da Peccioli da cavallo; e quine si riducievano, 
+e funno assai più cavalieri li nimici 
+da Peccioli, che non erano quelli della 
+masnada del Comuno di Pisa; e combattenno 
+insieme, e funno di loro molti morti e presi, 
+intra i quali fue morto Duccio Manzuola de 
+i Vesconti, e preso Messere Mandasco Vesconte; 
+e da inde inansi launque si trovonno 
+insieme li nimici, e quelli della masnada di 
+Pisa, e li meno, e più, erano isconfitti, e 
+perdeano. 
+In del sopradicto Anno <date value="1291"> MCCXCI</date>, a la scita 
+del mese di Giugnio Messere Aymberrigo 
+di Nerbona Capitano dei cavalieri della taglia 
+di Toscana, che fue loro lassato e dato 
+dal Re Karlo Secondo, con tutti li cavalieri 
+de la taglia, e con li cavalieri di Fiorensa, 
+Luccha, Siena, Pistoja, e de li autri Comuni, 
+e Terre della Compagnia de i Guelfi di 
+Toscana, con li sciti di Pisa, che funno tra 
+tutti bene <num>2</num> mila cavalieri, con pedoni in 
+grande quantità fecieno oste, e andonno a 
+Porto Pisano per la via di Collina; e 'l Conte 
+Guido con de i Pisani de la masnada li andonno 
+a provedere al Ponte di Sacco, che 
+passonno per lo scoperto di Treggiaja; e credettesi, 
+e dissesi, che 'l Conte con la masnada 
+<pb n="658"/>
+in della via di Collina ad alcuno reducto 
+li assaglisse, e combattesse con loro; poi li 
+parve troppo grande risco. E ansi che l'oste 
+fusse giunto a Porto, e per mouti dì, ansi 
+che venisse, lo Conte fecie disfare lo fondaco 
+da Porto, e le case tutte; e anco fecie mettere 
+a fuoco e ardere tutto Livorna, perché 
+l'oste di terra non vi potesse istare in de le 
+case. 
+E l'armata de i Gienovesi, perché non era 
+potuta compiere la pacie, ch'era facta co i 
+Gienovesi (tante, e sì grande cose erano promesse, 
+sicome di sopra indel Conte Ugolino 
+si dicie) venne al Porto. Essendo l'oste de i 
+Toscani in terra, e l'armata in mare, conbattieno 
+li Gienovesi le torri del Porto, e accostonosi 
+co i gatti a la Torre Malterchiata e 
+taglionnola di sotto, e missenola in pontelli; 
+e per tutto ciò non si vousseno rendere. Misseno 
+lo fuoco in dei puntelli, e fecieno cadere, 
+la Torre, ed ebbeno quelli, che iscamponno, 
+e non morinno, pregioni. Quelli 
+dell'autra Torre del Porto vedendo ciò; e che 
+non poteano avere soccorso né ajuto da Pisa, 
+rendenno la Torre a i Gienovesi, salve le 
+persone. Avute le Torre, le disfecieno, e 
+disfecieno tutto lo Porto, e portonnone li 
+Gienovesi, e i Lucchesi le catene de le porte.  
+E istando la dicta oste de' Toscani a Porto, 
+e l'armata de i Gienovesi ine, ansi che 'l Porto 
+si prendesse, lo dicto Messere lo Conte 
+Guido con la Masnada tutta, e con i Pisani 
+da cavallo, e da piè, e balestrieri, e tutti altri 
+lassati in Pisa a guardia con omini vecchi, 
+e Judici, e Medici, e con li contadini di Vaudarno, 
+Podere, Upessinghi, Piemonte, Cauci, 
+cavalcò, e intrò per la via d'Asciano in 
+de la Valle di Massa, e arsevi Massa, e la 
+contrada; e andò la schiera dinansi in fine a 
+Ponte tetto, e la sera tornò a Pisa; e feciesi 
+quello guasto, che potette in Arno; e lassò 
+li cavalieri a la guardia del Castello d'Asciano, 
+che si tenea per li nimici. 
+E un autro die istando anco l'oste a Porto 
+andò con tutta la dicta giente lo sopradicto 
+Messere lo Conte a Buiti, e introssi in della 
+Valle, e arsesi in fine al mezzo; e se si fusse 
+entrato di sopra, bene da ognia lato sarebbe 
+arsa e messa a fuoco tutta la Valle, e presi 
+delli omini. E funnovi de i contadini, e 
+cittadini di Pisa morti bene <num>12</num> per non sapersi 
+guardare; e la sera tornò a Pisa con tutta 
+la giente. E in prima, e d poi per moute 
+cavalcate, e aguaiti, che mandò e fecie ponere 
+a Buiti, e a i Buitesi, ne funno mouti 
+presi e morti de i Buitesi; e fecieno più voute 
+appiccare, e fare grande istrasio di loro. 
+Poi del mese di Novembre lo ditto Messere 
+lo Conte Guido trattò in prima con Preite 
+Buonaguida, e Maestro Falcone, e Puccio di 
+Nuguo, e autri delli sciti di Calcinaja, poi 
+con tutta la giente di Pisa da cavallo e da 
+piè, salvo quelli, che rimaneano a la guardia, 
+e con i contadini di Vaudarno, e di Piemonte, 
+e del Podere, e con cierti da Vico, 
+e con li sciti di Buiti, cavalcò la sera per 
+tempo (che di notte andò la giente) in Vaudarno, 
+e fecie scegliere da <num>300</num> fanti, e omini 
+da vantaggio de le persone, cioè de li sciti 
+di Caucinaja, e de li omini da Vico, e de li 
+sciti di Buiti, e da Cascina; e la notte andò 
+inansi secretamente in ver Caucinaja di fuor 
+dal fosso, e puosenosi in guaito in più parte 
+<pb n="659"/>
+presso del Castello; e alquanti di loro portonno 
+uno nogulo adosso. E quando parve loro 
+ora, che dormisseno le guardie, misseno lo 
+nogulo in del fosso pianamente, e passonno lo 
+fosso, e con iscale di fune, che puoseno a le 
+mura, montonno, e saglinno in su le mura. 
+E Preite Buonaguida  fu lo primo, che vi salitte, 
+e funno di su le mura più di <num>7</num> ansi che 
+le guardie li entisseno. E quando le guardie 
+levonno lo romore, li autri, ch'erano 
+dintorno, passonno lo fosso co le scale de legnio, 
+e montonno su le mura ben <num>100</num> ansi 
+che li Upessinghi, ch'erano dentro, e cinquanta 
+Soudati, che v'erano per lo Conte 
+Guelfo, fusseno armati. E levato lo romore, 
+e fatto lo segnio, ch'era ordinato, lo 
+Conte con tutta la masnada e la giente, ch' 
+era dentro dal Fossi Arinonichi, trasse, e funno 
+d'intorno a la Terra. E quelli, ch'erano 
+in su le mura, vedendo traggiere lo Conte 
+col'autra giente, fue incontenente presa la 
+Terra, e 'l Castello di Caucinaja; e funno 
+presi li Upessinghi tutti, che dentro v'erano, 
+e Messere Gualtieri da Caucinaja morto, e 
+presi Naudo da Fojano Conestabile, e li autri 
+<num>L</num> foudati, che v'erano per lo Conte Guelfo, 
+e cierti di Caucinaja, ch'erano tenuti 
+Guelfi, e più amici de li Upessinghi; e funno 
+tutti messi in della pregione de la Torre de' 
+Gualandi da sette vie, ditta Torre della fame. 
+E fecievi fare lo Conte lo muro del bailo 
+d'intorno perch'erano meglio guardati; e li 
+autri fecie mettere in della pregione della 
+Torre dei Famiglitti da Duomo. E funnovi 
+presi mouti arnesi, e mouta robba; e tutta la 
+fecie lo stesso Messer lo Conte Guido venire 
+in comuno, e seguitonne a lo Comune di Pisa, 
+sensa l'autro, grande utilità d'avere. 
+Autro anno vegniente poi <date value="1292"> MCCXCII</date> del 
+mese di Diciembre la notte sopra la Vigilia 
+di Pascua di Natale lo stesso Messere lo Conte 
+Guido da Monte Feutro avendo facto trattato 
+inansi con Maestro Falcone da Calcinaja, 
+e lo ditto Maestro Falcone con Orso da Possale, 
+ched era in bando del Comuno di Pisa, 
+e Corso da Possale suo sio, lo quale Orso essendo 
+in bando, e mostrandosi mouto Guelfo, 
+si riduciea in del Castello di Ponteadera, 
+cavalcò, e andò la dicta notte con tutti li cavalieri, 
+ch'erano in Pisa soudati, e autri, e 
+balestrieri, e tutto l'autro populo, lassati cierti 
+vecchi, e Judici, e Medici a la guardia de 
+la Città di Pisa, dentro dal Fosso Arinonichi, 
+e cierti omini da piede asciouti in quantità 
+di <num>300</num> fanti da Vico, da Cascina, e da 
+Caucinaja, e de li sciti di Buiti mandò inanti 
+a la Terra con Maestro Falcono. E la sera 
+de i Sergienti, che istavano in del Castello di 
+Ponteadera per lo Comuno di Fiorensa, 
+n'erano isciti per andare a guadagniare da <num>50</num>. 
+Andonno al Castello di Ponteadera, e giungiendo 
+presso al Castello sentinno, come Orso 
+era su una Torre a lato al cantone di 
+ver l'era. Levò lo romore la Terra tra la 
+mezza notte e 'l mattino; e questi <num>300</num> fanti 
+funno d'intorno incontenente, e fecieno segnio 
+a la Torre di Caucinaja, e quella di Caucinaja 
+a la Torre di Rinonichi, com'era ordinato; 
+e 'l Conte colla cavallaria, e con 
+giente tutta incontenente trasse al ditto Castello 
+di Ponteadera, e fuvi d'intorno. E 
+lo sopradicto Orso, ch'era in su la Torre, 
+sentendo la giente venuta, incontenente a 
+uno, ch'era su la Torre per guardia, diede 
+<pb n="660"/>
+in su la testa, e misenelo giù per morto, e 
+chiuse lo portello della Torre, ch'era chiusa 
+dentro, come di fuora, e difesesi valentemente 
+da quelli, ch'erano in su quell'autra Torre, 
+e in su le mura. E li balestrieri Pisani 
+l'ajutonno molto per lo balestrare, che fecieno 
+a quelli dentro delle Torre, e de le mura, 
+e li difeseno. Messere lo Conte Guido fecie 
+comandare a li Ficiali suoi, che faciesseno 
+mettere de noguli in del fosso, e passonno fanti 
+da vantaggio, e con iscale di fune montonno 
+sulla Torre là v'era Orso, e non vi poteano 
+montare per quelli dell'autra Torre, 
+e delle mura, in fine che non si puoseno le 
+scale dintorno intorno, perché omini, che 
+v'erano dentro pochi, non si poteano difendere. 
+E fu preso lo ditto Castellano e avuto 
+in forsa del dicto Messer lo Conte, e del Comuno 
+di Pisa, e funnovi morti dentro mouti 
+omini per li Uberti, e autri Fiorentini, e 
+preso Messere Guido Cingarelli de i Rossi; e 
+gli autri, che iscamponno, funno messi in 
+pregione. In del sopradicto anno ansi la dicta 
+presura del Castello di Pontadera, del 
+mese d'Agosto, o di Luglio, Judicie Nino Judici 
+di Gallura con <num>500</num> homini da cavallo 
+della taglia di Toscana si reducieano, e tornavano 
+in del Castello del Ponteadera per 
+fare guerra al Comuno di Pisa, e al Contado. 
+Messere lo Conte Guido con tutti li 
+soudati, e la cavallaria tutta di Pisa una sera 
+a tardi cavalcò per la via di Collina, e fecie 
+mettere a guasto in più luoghi in dello scoperto 
+di Treggiaja, e in quelle parte fecie 
+andare cavalieri e pedoni in ver lo Ponteadera. 
+Judici, e li cavalieri, che v'erano dentro, 
+oscitteno fuora contra loro, e cacionnoli 
+via. L'aguaito uscì fuora troppo vaccio; ed 
+ellino vedendo l'aguaito, incontenente vouseno; 
+e caccionnoli infin sul fosso del Ponteadera, 
+su quale rimase Judici; e funnone morti 
+e presi, in tra' quali fue preso Messere 
+Nieri di Messere Simone Ciera di Cas'Alberti. 
+E incontenente Judici con tutti li cavalieri 
+si partinno per volontà de i Toscani del 
+Ponteadera, e non vi tornonno più. 
+Messere Galasso Conte di Monte Feutro 
+fue Podestà di Pisa, e Capitano del Popolo, 
+e Capitano gienerale di Guerra del Comuno 
+di Pisa anno uno con cavalli <num>50</num> e ronsini <num>30</num> 
+a salaro di fiorini <num>X</num> mila d'oro, anno di 
+Dio <date value="1292"> MCCXCII</date>. 
+L'officio del quale incominciò quasi ne la 
+scita del mese di Ferrajo, uvero in della 'ntrata 
+del mese di marso, ch'era chiamato, che 
+incominciasse l'officio suo l'autro dì finajo, 
+ma perché non era giunto a Pisa, incominciò 
+l'autro die, poi che fu giunto. E lo die di 
+poi, che fu finito del sopradicto Conte Guido, 
+perché non faciea officio, chi faciesse, a 
+quella baudansa Cieo Rosso de' Lanfranchi, 
+che non era anco Cavalieri, ferite Bindo 
+Triglia de' Lanfreducci per vendetta di Duccio 
+da Prarana, che 'l detto Cieo era co lui, 
+quando lo sopradicto Duccio fu ferito a Livorna 
+da cierti de' Lanfreducci. E poi lo dicto 
+Bindo de le dicte ferite moritte. Per 
+cagione del quale malificio, lo dì medesmo 
+che si fecie, lo dicto Messere lo Conte Guido 
+fu chiamato anco Signore in fine a la venuta 
+del Conte Galasso a ragione di quello salaro, 
+che avea in prima. E cusì stette 
+anco Signiore in fin che 'l Conte Galasso 
+venne. Nel tempo del quale Conte Galasso 
+<pb n="661"/>
+lo primo die di Quaresima lo dicto Conte Galasso 
+con la masnada da cavallo, e delli giandonieri 
+da piede, e con li Pisani tutti da cavallo, 
+e con li balestrieri tutti da Pisa, e l'autro 
+Populo di Pisa, e con li Vicaresi, e isciti 
+di Buiti, e con loro consiglio, e con quelli 
+di Piemonte, e da Cauci, e di Vaudarno, 
+e del Podere Upessingo, rimanendo lo Conte 
+Guido in Pisa, cavalcò a Buiti di notte, e 
+fecie la sera pigliare le poste di sopra, e da 
+lato, e da tutte le vie e parti. E 'l Conte 
+con la cavallaria e 'l populo intrò di sotto, 
+e quelli di sopra, e da lato si calonno in della 
+Valle, e arsesi quasi tutta la Valle, e uccisenosi 
+de li omini, e piglionnosi de i Buitesi 
+da <num>150</num> tra ciguli, e grandi. E in dell'ora 
+della Tersa, u quinde apresso, con tutta la 
+cavallaria, e balestrieri, e populo fu ricouto 
+in su lo colle di Culdaschine; e quando fu 
+ine, delli Lucchesi da cavallo, e da piè trasseno 
+in soccorso de' Buitesi, e aparveno in su 
+li monti in ver lo sceppato di Belloste; e lo 
+ditto Galasso con la sua giente aspettò ine 
+assai, e per grande ora, discendesseno del 
+monte, e venisseno giù a la battaglia per combattere 
+con loro. E da che non vousseno 
+venire a la battaglia, lo sopraditto Conte con 
+la sua giente tutta si ricouse a Vico, e lo die 
+medesmo ne venne a Pisa; e feciene menare li 
+pregioni, e poi mettere in pregione. E perché 
+li Lucchesi, e Fiorentini, e li autri Toscani 
+de la Compagnia loro facieano grande 
+aparecchiamento di venire con grande isforso 
+a oste contra lo Comuno di Pisa, pensonno, 
+e diliberonno li savi omini da Pisa, che Messere 
+lo Conte Guido dovesse rimanere, e istare 
+in Pisa cinque mesi, infine che 'l oste venisse, 
+e si partisse; e cusì s'ordinò, e fecie che 
+rimase, e istette cinque mesi in Pisa, in fin 
+che la ditta oste venne, e si partì; ed ebbe 
+per suo salaro del ditto tempo lo sopraditto 
+Messere lo Conte Guido fiorini cinque mila 
+dal Comuno di Pisa. 
+Poi del mese di Giugnio lo sudditto Anno 
+l'oste grandissima de' Fiorentini, Lucchesi, 
+Senesi, e tutti li autri de la Compagnia de' 
+Guelfi di Toscana, e con tutto loro isforso, 
+e aiuto di tutti li amici, che funno ben <num>4000</num> 
+cavalieri, e ben <num>10</num> mila pedoni, de la quale 
+oste sue Capitano gienerale Messere Gientile 
+de li Ordini da Roma con grande salaro, venne 
+in del Contado di Pisa, e intrò in Vaudarno, 
+e puosesi, e mutossi, e stette sempre 
+sopra Arno; e arseno, e guastonno Vaudarno 
+in fine a Riglione, e a Fagiano, e spetialmente 
+da la strada in ver Arno, che da la 
+strada in là non andavano, se non con grande 
+giente per paura delli ditti Conti, e de la 
+masnada, ch'era in Pisa, li quali più voute 
+li asaglinno, e fecieno, e tennero loro danno. 
+Li ditti Messere lo conte Guido, e Conte 
+Galasso, quando seppeno e sentinno, che la 
+dicta oste venia, mandonno <num>50</num> cavalieri, che 
+istetteno in del Castello di Caucinaja, delli 
+migliori della masnada, che vi dimorasseno 
+in fin che l'oste stesse, e si partisse. Li quali, 
+quando l'oste venne, e passò inde, e quando 
+la scorta venia e passava, spesse voute li asaglinno, 
+e preseno, e ucciseno di quelli della 
+sopraditta oste delli nimici, e per quella cagione 
+venia, e andava, e passava la scorta 
+con grandissima compagnia. 
+Istando l'oste in Vaudarno a Layano, e 
+Sambra, e per quella contrada, e passavano 
+<pb n="662"/>
+moute voute ine tra Caprona, e Campo Lupo 
+de li Uberti con in fine a <num>100</num> omini da 
+cavallo, cavalcò in fine a Campo, in tra' 
+quali funno cierti donzelli Pisani; e quando 
+vide, che di quelli dell'oste erano passati di 
+qua da lato di Caprona, iscinno, e ferinno 
+loro adosso, e ucciseno, e iscavallonno mouti, 
+e fecieno romire, e ricoussenosi sani e salvi, 
+sensa alcuno danno; e fue tenuto bello facto. 
+E istette la ditta oste in del Contado di Pisa 
+quasi per tutto lo mese di Luglio. 
+Poi del mese di Septembre lo sopraditto 
+Messere lo Conte Galasso, essendone andato 
+lo Conte Guido, fecie trattare con due Lucchesi, 
+ch'erano Sergienti in del Castello 
+d'Avene d'essere quello dì, che venisse loro 
+la guardia, in su la Torre della Rocca, e 
+fare a sapere lo die sopraditto. E lo ditto die 
+lo sopraditto Messere lo Conte con la masnada 
+da cavallo, e delli giaudonieri da piede, 
+e con cavalieri, e balestrieri, e 'l populo da 
+Pisa, e quelli di Vaudiserchio, Piemonte, 
+Cauci, Vivo, e di Vaudarno, e Podere 
+Upessingo, dovea di notte con tutta la ditta 
+giente gragere, ed essere al Castello d'Avene 
+a la randa del die, e combattere la Terra, 
+ed elli dare la Torre. E questo trattato facieano, 
+e fecieno li ditti due Sergienti con 
+Vanni dello Fornajo Notajo; e li ditti due 
+Sergienti fecieno a sapere al sopraditto Vanni 
+lo die, che doveano fare la guardia; e 'l sopraditto 
+Vanni al ditto Conte Galasso. E 'l sopraditto 
+Conte con tutta la ditta giente cavalcò, 
+e andò al castello d'Avene, e non si 
+potette avere lo ditto Castello. Si disse perché 
+Vanni del Fornajo non fue la notte a 
+quella ora, che dovea, a rispondere al segnio, 
+che dovea; siché quelli dentro del Castello 
+s'avideno, e piglionno quelli due Sergienti, 
+ch'erano in su la Torre, e funno menati 
+a Lucca, e istrascinati, e impiccati per 
+la gola. 
+Di po' questo facto del mese d'Ottobre, u 
+di Novembre lo suddetto Conte Galasso tenne 
+ed ebbe trattato con uno de i Castellani 
+d'Asciano, che venne a lui di notte più voute 
+secretamente, e prometteali di dare lo Castello 
+per grande quantità di moneta; e ordinò 
+la notte, che dovea essere, e venire al Castello 
+con la giente, che dovea fare. E fecie 
+tanto fallo Messere lo Conte, che non si fecie 
+dare stadichi dal ditto Castellano; sicome 
+lo ditto Conte ordinò co lui, cavalcò, e andò 
+con la sopraditta giente al ditto Castellano 
+d'Asciano, e presso al die fecie li segni, che 
+avea promesso; e cierti, ch'erano ordinati, 
+s'accostonno al muro del Castello da lato di 
+sopra, e quelli a calare fecie iscale di fune; e 
+quelli sicome traitore avea ordinato co' li 
+Sergienti del Castello, che quando alcuno falisse 
+su, e mettesse lo capo per lo portello 
+della Torre, ch'era aperto, li fusse dato 
+d'una massa grossa di legnio in sul capo, e 
+morto, e gittato in del fondo della Torre; 
+e cusì fecieno a sei, andando l'uno di po' 
+l'autro su per la scala. Lo septimo, che avea 
+nome Caccia Falcione giaudonieri, quando 
+fue su in capo dello scala, dicendo quelli, 
+ch'erano dentro, che intrasse dentro per lo 
+portello, disse, che volea vedere li compagni 
+suoi, e autramente non volea entrare dentro. 
+Allora quelli dentro lo volleno afferrare, e 
+quelli si gettò a terra della scala, e gridò 
+<hi rend="italic">a l'arme</hi>. La giente, ch'era presso, trasse, e 
+<pb n="663"/>
+quelli del Castello cominciò a balestrare, e 
+fue scoperto lo tradimento. Lo Conte Galasso 
+vedendo ciò, istette ine uno pesso con la 
+giente, e poi partì, e tornò a Pisa. Del 
+mese di Novembre possa Giano di Fighino 
+Conestabile con autri da <num>50</num> omini a cavallo, 
+cavalcono a le parti di Morona, e con de i 
+pedoni di Vaudera Ghibellini, che riducieano 
+in Morrona, feceno una cavalcata in ver le 
+parti di Peccioli, e si trovonno con la masnada 
+da Peccioli da cavallo e da piede, ch'era 
+iscita fuore, e conbattenno con loro, e misenoli 
+in isconfitta, e ucciseno di molti, &amp; 
+presi n'ebbeno da <num>25</num> de i quali tutti quelli, 
+ch'erano di Pisa, e del Contado, lo dicto 
+Conte Galasso condannò, e fece impiccare 
+per la gola, in tra i quali fue Marcuccio Saramento. 
+Messere lo Conte Guido da Monte Feltro 
+Podestà di Pisa, e Capitano del Populo, e 
+Capitano generale di Guerra del Comuno di 
+Pisa, fue electo in termino di tre anni, e 
+cominciò lo suo officio, finito l'officio di Messere 
+lo Conte Galasso, Anni di Dio <date value="1294"> MCCXCIV</date>. 
+E stette in del dicto officio sei mese, meno 
+alcuni dì; imperoché la pace fi fatta col Comuno 
+di Fiorensa, e di Lucca, ed autri Comuni, 
+e Compagnie di Guelfi di Toscana, e 
+con Guelfi usciti de la Città di Pisa. 
+In del tempo de la Signoria del quale sopraditto 
+Messere lo Conte Guido, Frate Franciesco 
+de Malpigli di Lucca de l'Ordine de' 
+Frati Rimitani di Sancto Agostino trattò col 
+ditto Messere lo Conte Guido, e con diecie 
+de maggiori di Lucca de i Grandi, e di Populo, 
+li quali per cagione d'una cavallata, 
+che fue inconciamente fatta in Lucca, funno 
+chiamati sopra tutti li facti de la pacie di 
+Lucca. Chiamossi poi li <num>X</num> della Pace di fare 
+pacie tra 'l Comuno di Pisa, e 'l Comuno di 
+Lucca, e l'autri, Comuni della Compagnia 
+de' Guelfi di Toscana, e con li sciti di Pisa; 
+e istando, e durando lo trattato de la pacie, 
+lo ditto Frate Franciesco, quando venia a 
+trattare, moute voute venne e andò a la 
+Calonica del Duomo a parlare in prima al 
+Piovano di Sancto Casciano, e da Sovigliano; 
+e mandavano per Messere Bacciameo di 
+Messere Bonifasio de i Gualandi, che n'aveano 
+grande volontà; e ragionava, e parlava 
+con loro, ansi che andasse al Conte. Unde 
+lo ditto Messere lo Conte Guido fue indegniato, 
+e torbato mouto contra loro. E  
+accordato lo trattato, e lo facto della pacie, 
+chiamò, e fecie chiamare Ambasciadore a 
+fare e giurare la pacie Messere Gherardo Fagiuolo, 
+Messere Lamberto, Messere Bacciameo 
+di Bonifatio, &amp; Messere Ranieri Sampante, 
+e Pardo da Coza Notajo co loro. E 
+quando lo ditto Messere lo Conte ebbe lettera, 
+che la pacie, era fatta e fermata con li 
+Sindichi e Ambasciadori de' Comuni di Fiorensa, 
+e di Lucca, e de li autri Comuni e 
+Terre della Compagnia de' Guelfi di Toscana, 
+e de li sciti di Pisa, fecie fare inquisitione 
+contra Messere Bacciameo di Bonifatio di 
+tradimento di dare la Città di Pisa a li Lucchesi, 
+e 'l più laido bando, e 'l più grave del 
+mondo de la persona, di publicamento, e 
+disfaccimento di tutti li suoi beni. E anco 
+fecie dare lo simile bando a Gadduccio Ismerlo 
+de' Gualandi, ch'era andato co lui. E tornando 
+da fare la pacie, fu ditto a la porta di 
+<pb n="664"/>
+Parlascio a Messere Bacciameo, e a Gadduccio 
+di questo bando. Iscinno fuor de la porta, 
+e andonno via, e partinnosi per non venire 
+a le mane del Conte, che si crede, che 
+arebbe fatto loro tagliare lo capo a ciascuno. 
+E dipo'l bando corso fecie lo Vicario suo la 
+condannagione, e fecie disfare li beni tutti 
+di Messere Bacciameo. E contra Messere Ranieri 
+di Bonifatio, e Messere Gaddo Gombo 
+de li Gatani, li quali lo die che fue lo Consiglio 
+de la pacie andò per Pisa a cavallo diciendo: 
+<hi rend="italic">muoja, chi non vuole pacie</hi>, fecie grave 
+prociesso contra di loro. Sostenuti, e posti 
+a la girella, e fatti confessare, funno condannati 
+messere Gaddo sopraditto libre mille, e 
+Messere Ranieri in libre <num>500</num> e se da inde a 
+<num>X</num> dì non avesseno pagato, che fusse a ciascuno 
+di loro tagliato lo capo. E funno in 
+della Piassa menati personabilemente a udire 
+leggiere le loro condanagione. E Messere lo 
+Conte sopraditto fecie ponare in su la Torre 
+di Messere Giovanni della Sassetta là u stava, 
+e faciea istare lo die e la notte li giaudonieri 
+armati, e soudati da cavallo perché niuno 
+ardisse di levarsi. E prociedere fecie contra 
+mouti, che 'l die del Consiglio, che si fermò 
+la pacie, gridonno, e feciono romore dinansi 
+la Corte del ditto Messere lo Conte, e per la 
+Città di Pisa diciendo: <hi rend="italic">muoja, chi non vuole 
+pacie</hi>. In tra li quali fue Messere Lamberto 
+de i Gatani, che corse bando, e funnoli disfatti 
+tutti li suoi beni, e Ciando di Messere 
+Matteo Briaco, e autri de i Gatani, e Vanni 
+Cascietta, Baccione Selera, e autri di Populo, 
+li quali tutti fecie pigliare, e vennero 
+inansi, e funno posti a la girella, e tormentati, 
+e fatti confessare; e poi funno condannati 
+ciascuno grossamente, e mandati a confine 
+a la lunga chi in della Marca, e chi in 
+del Ducato, e chi in Campagnia. La quale 
+pacie fu fatta e fermata a Ficiecchio per li 
+Sindichi e Ambasciadori de i Comuni di Fiorensa, 
+Lucca, Siena, Pistoja, e de li autri 
+Comuni de la Compagnia de' Guelfi di Toscana, 
+e delli sciti di Pisa dall'una parte, e 
+lo Sindaco e Ambasciadori del Comuno di 
+Pisa da l'autra parte <foreign lang="lat">Anno Domini</foreign> della 
+'ncarnassione <date value="1294"> MCCXCIV</date> del mese di Luglio. 
+In de la quale pacie fue ordinato, che lo 
+Comuno di Pisa dovesse chiamare de le Terre 
+de la Compagnia di Toscana l'un'anno Podestà, 
+e l'autro lo Capitano. Lo ditto Messere 
+lo Conte Guido, poi che fue fatta la pacie, 
+istette in Pisa infine a la scita di Septembre 
+per far fare l'executione della pacie; e fecie 
+fare ragione dell'antrata, e della scita, e inventaro 
+di tutti li beni del Comuno, e lassò 
+di mobile al Comuno di Pisa libre <num>62</num> mila; 
+e fecie anco testamanto in fatti e in ditti al 
+Comuno, e a li omini di quello, che avesseno 
+a fare delli loro fatti. E male a uopo di 
+Judici di Gallura, e delli sciti di Pisa non 
+procuronno, che 'l ditto Messere lo Conte rimanesse 
+in Pisa, e fusseno tornati sotto la sua 
+Signoria. 
+E lo dì, che Messere lo Conte si partì, e 
+escì di Pisa, e intrò Messere Conte da Colle 
+Podestà in signioria, fue in Pisa grande romore, 
+non essendo partito lo ditto Messere lo 
+Conte due miglia da Pisa per la via di Massa. 
+Messere lo Conte da Colle Valle Else Podestà 
+anno uno <date value="1294"> MCCXCIV</date> il quale officio 
+cominciò quarto Iddu d'Agosto. In del cui 
+tempo tornonno in Pisa mouti de li sciti di 
+<pb n="665"/>
+Pisa, salvo che Judici di Gallura, e cierti de' 
+Vescovi; e fenno grande contentione e dichiaramento 
+delli capituli de la pacie; e 
+mouti delli Savi e Judici di Pisa con delli 
+Savi e Judici dalla Rocca funno insieme a 
+Sancto Jacopo del Poggio, e autri alcuna 
+vouta a Pisa, e a Lucca sopra li dichiaramenti 
+de li Capituli de la pacie. E a la fine 
+di po mouti trattati, essendo istati e convenuti 
+insieme li ditti Savi del Comuno di Pisa, 
+si concordonno insieme con li Savi e Judici 
+del Comuno di Lucca, e fecie mouti dichiaramenti 
+sopra li Capituli della ditta pacie, 
+salvo che sopra uno Capitulo, che si diciea 
+che la ditta pacie non s'intendesse, se non 
+dal prossimo mare in qua, e per la parte di 
+Judici di Gallura si diciea, che quello Capitulo 
+non s'intendea, né v'era posto per lui; 
+ma era messo e posto lo ditto Capitulo in 
+della pacie, e s'intendea tanto per li eredi del 
+Conte Ugolino. E diceasi e proferiasi per lo 
+sopraditto Judici di Gallura, che volea tornare 
+e istare a confine sotto la Signoria del 
+Comuno di Pisa a Cauci, u altro, lo qual 
+piacesse al Comuno di Pisa, essendoli ristituiti 
+e renduti li suoi beni tutti di Pisa, e del 
+Contado, e di Sardignia. E per ciessare ognia 
+scandalo, di ciò erano contenti, e voleano 
+quelli, che più savi erano tenuti a Pisa, 
+cioè Messere Gherardo Fagiuolo, Banduccino 
+Bonconte, Jacopo Favuglia, Messere Ranieri 
+Sampante. E mouti autresì Ghibellini, e spetialmente 
+di Populo non voliano, e non 
+voussono, diciendo: da che 'l Capitulo de la 
+pacie dicie così, e possi difendere a ragione. 
+E lo ditto Capitulo vi fecieno mettare eglino, 
+e non lo Comuno di Pisa, avegniaché 
+dicano, che vi fu posto e messo pur per l'erede 
+del Conte Ugolino; e non vousseno, 
+che si fasse; e trassenolo lo Consiglio a partito 
+a stracquo. 
+Per la qual cosa Judici di Gallura fecie 
+venire a Pisa imbasciaria mouto grande, e 
+Ambasciadori solenni ciascuno Comuno e 
+Terra de la Compagnia de' Guelfi di Toscana; 
+e dimandonno per li Judici di Gallura 
+quello medesmo, ch'era dimandato per lui; e 
+disseno, che quello Capitulo v'era messo e 
+posto i nella pacie, e s'intendea tanto per 
+l'eredi del Conte Ugolino; e così dicieano li 
+Judici e savi de' loro Comuni, ch'era ragione; 
+e, se non fusse, che lo dimandavano per 
+gratia per parte de' loro Comuni, e per maggiore 
+conservamento de la pacie. E ogniauno 
+Ambasciadore di ciascuno delli ditti Comuni 
+disse l'ambasciata del suo Comuno in del Consiglio 
+maggiore a Duomo; e tutti disseno a 
+uno affetto a un segnio con moute paraule 
+induttive. Partinnosi li ditti Ambasciadori, e 
+rimase lo Consiglio, e ine si prese per lo Consiglio, 
+che per li Ansiani e savi omini si consigliasse, 
+e provedesse, e rispondesse a li Imbasciadori, 
+come paresse e piacesse loro. Poi 
+li Ansiani con savi omini consiglionno e provideno 
+che 'l ditto fatto non si faciesse nulla, 
+e di ciò si scusasse lo Comuno di Pisa per 
+belle e savi ragione e paraule, che non era 
+ragione, e che 'l Comuno di Pisa non era tenuto; 
+e che a li ditti Ambasciadori si rispondesse, 
+che a la loro ambasciata si sarebbe risposta 
+per lo Comuno di Pisa per li suoi Ambasciadori 
+a Fiorensa, perch'era luogo più 
+comune, e lo maggiore Comuno della Compagnia 
+di Toscana. E cusì si fecie di po' questo. 
+<pb n="666"/>
+Fatta così la risposta a li ditti Ambasciadori 
+di po' alquanti dì, poi che si partinno 
+li sopraditti Ambasciadori, funno chiamati 
+cinque Ambasciadori per lo Comuno di Pisa, 
+cioè Messere Gherardo Fagiuolo, Messere 
+Rosso, Messere Raynieri Zaccio, Messere Paganello 
+da Vico, Messere Tomazo di Tripallo, 
+e Banduccino di Bonconte, s'andonno 
+a Fiorensa, e ine fecieno la risposta a 
+l'Imbasciadori de' sopraditti Comuni, e iscusonno 
+lo Comuno di Pisa per savi e belle ragione, 
+che di ciò non era tenuto per ragione 
+di ciò. Sicché li Toscani conosciendo, ch'era 
+ragione quello, che si diciea per lo Comuno 
+di Pisa, si funno contenti, e non fecieno più 
+di ciò autro. 
+<hi lang="lat" rend="italic">Cetera desiderantur. Sebsequitur
+      additamentum.</hi>
+In del <date value="1328"> MCCCXXVIII</date> a dì <num>VII</num> di Maggio 
+la Vigilia  di Sancto Michele in sul Vespro 
+grandinò una grande tempesta di grandina 
+e d'acqua insieme mouto periculosa, e vastò 
+ben per l'andare d'un miglia; e grandinò si 
+fortemente che n'era  pieno le vie, e li tetti, 
+sicome fusse nevicato, ed erano le granelle 
+grosse come buone pallossule; e di tale ne 
+veniano, ch'erano come nocie; e sie fue grossa 
+la ditta grandina, che la mattina vegniente 
+così se ne cousse chi vousse su per li tetti, 
+come usase di cogliere la nieve. 
+Lo 'mperadore Lodovico venne con Castruccio 
+intorno a Pisa a oste intorno, in Domenica 
+a dì sei di Septembre <date value="1328"> MCCCXXVIII</date> 
+e stetteci intorno die <num>38</num> e poi v'entrò d'Ottobre 
+in Domenica mattina, e andò a Duomo. 
+Messere Tarlato da Pietramala d'Aresso fu 
+Vicario nella Città di Pisa per lo sopraditto 
+Imperadore. Poi certi Pisani levonno lo romore 
+uno Sabbato in su l'Ave Maria, che 
+fue la Vigilia di Sancto Ranieri Pisano, gridando 
+<hi rend="italic">Viva lo Populo</hi>. Erano franchi, ed 
+erano seguitati. E 'l Ponte vecchio, e 'l nuovo 
+s'asserragliò. E 'l sauto de la Spina ardea; 
+e durò questa battaglia Sabbato tutta notte; 
+e la Domenica vegniente, che fue Sancto Ranieri, 
+sì s'andò via per paura, che non potea 
+tenere la Città, e andossene sopra 'l Castello 
+di Sancto Franciesco con grande vergognia. 
+Poi lo Conte Fasio co le sue brigate, 
+e co le compagnie del Populo se n'andonno 
+al Palasso del Populo con grande alegressa, e 
+intrò in signioria, e fue loro la Terra. E allora 
+s'arseno tutti li atti della Canciellaria, e 
+d'autre Corte, ch'era allora la Canciellaria 
+in casa di quelli de la Sala. Questo fue a dì 
+<num>17</num> di Giugno <date value="1329"> MCCCXXIX</date>. 
+Lo Comuno di Pisa avendo guerra col Comuno 
+di Siena per lo fatto di Massa di Maremma, 
+che è di Pisa, si chiamò Ciupo delli 
+Scolari da Fiorenza, ch'era in Lucca Capitano 
+di guerra gienerale contra lo Comuno di 
+Siena; e poi lo Comuno di Siena fecie fare 
+una cavalcata a Massa, ne la qual cavalcata 
+Messere Dino de la Rocca era Capitano allora 
+di guerra per lo Comuno di Pisa a Massa; e 
+trovandosi fuora di Massa elli con cavalieri <num>70</num> 
+e Ciellino dal Colle con loro, combattenno 
+insieme co li Senesi: e percotendo Ciellino 
+fugitte a Massa, e lassò Messere Dino. E' cavalieri 
+combattendo funno uccisi e feriti dall' 
+una parte, e dall'autra; e della nostra parte 
+ci fu ucciso Messere Tirtimando, ch'era Conestabile; 
+<pb n="667"/>
+e Messere Gianotto di Colognoli 
+era l'autro Conestabile, levò lo dito, e non 
+vousse combattere, e arrendessi elli con cierti 
+autri, e andonnone pregione a Siena. E poi 
+fue in questa battaglia medesima preso Messere 
+Dino soprascritto, e fue menato a Siena 
+per pregione: sì che fatto tutto ciò lo sopraditto 
+Ciupo Capitano con <num>800</num> cavalieri di 
+Pisa se n'andò presso a Siena a due miglia 
+cercando, scopando, ardendo le case, e palagi, 
+e robe con bestiame insieme; e preseno 
+pregioni in quantità, e arseno uno Castello 
+di ben <num>500</num> omini, lo quale Messere Federigo 
+del Porto con cierti compagni lo preseno; e 
+la note tutta la sopraditta masnada vi stette. 
+Li Aretini mandonno ajuto a' Senesi di <num>200</num> 
+cavalieri. Eglino insieme con quelli di Siena 
+ch'erano ben mille, mandonno a Ciupo sopraditto 
+lo guanto per combattere: vouta 
+nessuna non voussono combattere a campo. E 
+stando Ciupo così apresso a Siena, continuo 
+ardeano, e guastavano, e parecchie voute 
+s'avisonno a cierti badalucchi: onde che 
+quelli d'Aresso tutti funno sconfitti, e fue 
+preso uno cavalieri, ch'era Capitano di quelli 
+d'Aresso, e uno fratello dell'Abate di Guamo, 
+e cierti autri. Poi Ciupo avendo fatto grande 
+danno e vergogna al Comuno di Siena, 
+con tutta la sua giente sano e salvo si ricousse 
+da Casuli da Volterra, e venne in Vaudera 
+a Fabrica. E quine li cavalieri suoi, e a Peccioli, 
+e per l'autre Castelle fenno la Pasqua, 
+e riposonnosi; e Ciupo la fecie al Fosso a Rinonichi. 
+La sera che Ciupo giunse a Fabrica, 
+iscrisse una lettera a questo Comuno de la 
+vittoria, che avea avuta, e come era quine 
+giunto, e di grande male, che avea fatto in 
+quelle parte, ove era stato: <hi rend="italic">Verae a voi Berto 
+de la Rocca, e diravvi lo modo tutto, come 
+abbiamo fatto</hi>. Venne Berto; andò lo bando 
+del Consiglio; grande giente venne al Consiglio 
+di grandi e di picculi a la sala del Populo; 
+e quine Berto montò su la ringhiera, 
+e disse tutto cioe, ch'era stato per ordine, e 
+grande danno, che ricievesse mai Città nessuna 
+in così breve tempo di sette die. E questo 
+fue del Mese di Marso a X dì <date value="1333"> MCCCXXXIII</date> 
+ne la Indictione Prima nel tempo di Boccaccio 
+da Petroja Conte, Podestàde i Pisani, e 
+di Branca Gientile da Cardicieto Capitano del 
+Populo di Pisa, li quali hanno a stare in Signoria 
+infine a Ogosto, che viene, se non 
+sono fermati. E morivvi lo figliuolo del sopraditto 
+Boccaccio. Per la sopraditta oste si 
+fue Messere Piero de le Statee, lo quale era 
+a confine di questo Comuno a Rasigniano, rimesso 
+in Pisa, perché vi fue in persona con 
+quattro cavalli; e allora Messere Vanni Benignio 
+era Ansiano. 
+<foreign lang="lat">Anno Domini</foreign>
+               <date value="1333"> MCCCXXXIII</date> ne la Indictione 
+Seconda del Mese di Novembre a dì <num>4</num> 
+di Novembre Giovedì a sera passato l'Ogniasanti, 
+creve tanto l'Arno in Pisa lo Giovedì 
+di giorno, che quelli di Kinsica non poteano 
+passare di là se non a cavallo o in iscala, peroché 
+l'acqua era di Lungarno, e per Borgo, 
+e per li autri chiassi, che rispondeano Lungarno, 
+e veneano la sera. Lo Giovedì sopraditto 
+creve sì l'acqua du subito, che allagò 
+tutta Kinsica gieneralmente, e li chiassi, e le 
+carraje, in qualunqua modo la via fusse stata 
+più auta, che quandi in Kinsica, quanto tenea 
+da Legatia de' furi a la Spina di Lungarno, 
+e dentro da via, fue l'acqua sì auta, ch' 
+<pb n="668"/>
+entrò per le botteghe, e inde la Loggia di 
+quelli del Grugnio, e in bottega di Nocco 
+Ciabatta, e per tutte le autre botteghe. Dunqua 
+sappiate, che in entro era troppo più 
+auta l'acqua, che li grandi paliscarmi, battelli, 
+scafe, e autri legni andavano per tutta 
+Kinsica ciercando tutte le vie gieneralmente; 
+e questo andare de' legni fue lo Venardì mattina 
+vegniente; e durò tanto questa piena, 
+che le persone istavano assediate in casa chi 
+<num>4</num> giorni, chi <num>8</num> e chi <num>6</num> tanto che chi volea 
+uscire di casa, era in bisognio, che montasse 
+in iscafa, o a cavallo: autramente non avesse 
+fatto niuno ragione d'iscire. E stenno tutto 
+lo sopraditto Venardì le porte di Pisa chiuse, 
+che non si poteano aprire. In Kinsica cadenno 
+a Sancto Paulo, a Ripa d'Arno più e più 
+case. 
+In Ponte in mezo, e in fori porta, ognia 
+casa allagato, che l'acqua era per tutta la via 
+di Sancta Maria. Etiandio intrò in Sancto Nicolò 
+da la parte di via Sancta Maria. E fue 
+questa acqua in tali luoghi, che mai per noi, 
+né per gli anticiessori si vidde. Tutto lo Vaudiserchio, 
+e 'l piano di Pisa allagò, che istavano 
+in Vaudiserchio le giente su per li albori, 
+ed era loro porto da vivere in su le 
+scafe. Mouto bestiame però annegoe. E questo 
+fue in questa nostra parte. A Fiorensa 
+l'ebbeno sì grande,  che de' quatro Ponti di 
+pietre l'Arno ne menò tre; e più di <num>40</num> case 
+di Lungarno caddeno loro, e morittenovi 
+moute persone; e arecossi questo a peggio ch' 
+una sconfitta. Essendo ellino così annegati, si 
+credeano veramente, che Pisa fusse tutta ita 
+sotto, peroché siamo più bassi di loro, stimando 
+ellino la grande acqua, ch'ebbeno. E 
+vennene in questa Terra, cioè in Pisa, lettere 
+di compagnie di Fiorensa fusse tutta annegata. 
+Veramente Pisa tutta quanta dentro arebbe 
+ricievuto grande dannaggio, se non fusse 
+che Arno ruppe nel Contado al campo a la 
+Porta di Sancto Marco, a Canneto, a Sancto 
+Lorenso, a le Corte, e a Ciellajano: sì che 
+per questo Pisa non ebbe tanto dannaggio. A 
+Caucinaja caddenno ben <num>40</num> case: Pontormo 
+di Fiorensa n'andò ben mezo: Sancta Crocie 
+di Fiorensa vi caddenno assai e grande quantità 
+di case; e andonne ben mezo co le mura 
+el Castello. Empuli vecchio n'andò tutto; 
+Empuli nuovo ben mezo. N'andò tutte le 
+mulina da Peccioli, e de la Vaudera. L'acqua 
+era poi di quà da Sancto Savino a Navacchio 
+su per la strada, e sì grande, che 
+correa come Arno; e stette bene dì <num>XV</num> che 
+niuno di Vaudera non potea venire a Pisa, se 
+non a cavallo, o in iscafa, e a mala pena; 
+così quelli di quà andare di là. E menonne 
+allora lo Ponte di Stagnio da Porto Pisano. 
+E anco l'acqua intrò in Sancto Bastiano di 
+Kinsica, e in Sancto Lorenso, coprendo quazi 
+la pietra dell'Autare, sì che nimo si faccia 
+meraviglia, che troppo fu maggior piena, ch' 
+io non o contato. Del qual tempo ci era 
+Podestà Boccaccio Conte di Petroja, Capitano 
+Branca Cavalieri da Cardicieto, Ansiani in 
+Ponte primo Baudo Gatto, Vanni d'Arena 
+Pannajuolo; in mezo Rossello Pannajuolo, 
+Vanni d'Asciano, Fabro Priore, Messere Ranieri 
+Tempanella; in Fori porta Lorenso Rosselmino, 
+Betto dal Ponte Adera Notajo, Banduccino 
+Bonconte Priore di Kinsica, Puccio 
+da Vada Priore, Nino di Nocco Ciabatto, 
+Lippo di Puccietto del Borgo. Notajo fu di 
+<pb n="669"/>
+loro Teglimo di Bindo da Vico, Cancielleri 
+Michele de Lante di Ben da Vico. 
+<foreign lang="lat">Anni Domini </foreign>
+               <date> 1314</date> del Mese di Maggio fu presa 
+Pietrasancta per li Pisani. 
+<foreign lang="lat">Anni Domini</foreign>
+               <date> 1315</date> dì <num>14</num> di Giugnio la 
+Vigilia di Sancto Vito fu Lucca per li Pisani 
+presa. 
+<foreign lang="lat">Anni Domini</foreign>
+               <date> 1316</date> die <num>29</num> d'Ogosto lo dì 
+Sancto Giovanni dicollato funno isconfitti i 
+Fiorentini a Monte Catino. 
+<foreign lang="lat">Anni Domini</foreign>
+               <date> 1317</date> die Sabbato Sancto lo 
+qual fu quatro Iddu d'Aprile, fu cacciato 
+Uguiccione de la Fagiuola de la Città di Pisa. 
+<foreign lang="lat">Anni Domini</foreign>
+               <date> 1329</date> del mese di Maggio fu 
+l'oste a Pistoja, in el quale funnone i Pisani 
+con Castriccio. 
+Anco in el sopraditto <foreign lang="lat">Anno Domini</foreign> ultima 
+die di Giuglio, e prima dì d'Ogosto non anco 
+la sopraditta oste levata, vennero i Fiorentini 
+in Vaudarno, ardendo, e predando; e Nino 
+Arloto fue guida de' sopraditti Fiorentini. 
+<foreign lang="lat">Anni Domini</foreign>
+               <date> 1332</date> del Mese di Ferrajo Vesco 
+Kene de Orlandi con mouti ribelli del Comuno 
+di Pisa vennero in Vaudiserchio, e livi 
+stetteno più dì in vengognia del Comuno di 
+Pisa. 
+Anno <date> 1337</date> ne la Indictione <num>4</num> del Mese 
+di Novembre terzo Iddu del dicto Mese Sabbato, 
+la Festa di Sancto Martino, passato Vespro, 
+lo ditto Sabbato essendo Consiglio, si 
+levò uno romore ne la Città di Pisa, sì che 
+tutti li amici di Messere lo Conte Fazio trasseno 
+a lui armati, e li amici di Messere Benedetto, 
+e di Messere Cieo, e loro seguaci trasseno 
+a loro, sì che romore fu grande. In fine 
+sonate le tre campane, lo Conte andò a Palasso 
+con sua giente, e Messere Benedetto passò 
+in Kinsica, e andoe su per lo Ponte de la 
+Spina a la Porta de le Piaggie, e quine fermò 
+con sua giente da cavallo e da piè; e fecieno 
+serragli, e quine s'afforsonno. Li Ansiani, e 'l 
+Conte, sapendo cioe, ferno dare nella campana 
+a martello, passato lo primo sonno, e 
+andò lo bando, che cierte Compagnie del Populo 
+andasseno a la Spina, e'l Conte colla sua 
+giente a cavallo con quelle Compagnie del Populo 
+andonno lae; e quine fue grande battaglia 
+di fuoco, di balestra, di pietre, e di lancie. 
+Bene fu, che Messere Benedetto avea 
+schiavate le toppe de la porta preditta, e 
+apertola, inansi che 'l Conte v'andasse, credendo 
+la giente, che avesse soccorso da Lucca: 
+unde che al dirietro la giente di Messere 
+Benedetto sì si lassonno cacciare di fuora de 
+la Porta; e funno caccaiti; e andossene la 
+sera ad Asciano, e la mattina a Lucca. A la 
+battaglia preditta fue ucciso d'uno guerrettone 
+Franciesco ditto Tondo da Sancto Martino 
+in Kinsica; Neruccio del Grugnio fue intestato, 
+e morì; e vissene <num>XV</num> dì. E uno vinajuolo 
+ferito fue ne la gamba di lancia. Messere 
+Federigo del Porco Catino del Conte 
+ebbe una pietra in su la testa e fue per morto; 
+e cierti autri feriti. Lo dì sopraditto, che 
+si levoe lo romore, a sera funno arsi libri del 
+malificio di Canciellaria del Sindico della Cabella 
+maggiore, e di quella del vino; e fue 
+tutta rubbata la Podestà di Pisa. Era Podestà 
+di Pisa Messere Federigo di Brancaleone della 
+Casa del Monte; Capitano Messere Armanno 
+di Messere Nicola delli Armanni di Perogia; 
+Ansiani erano in Ponte Ciecco de l'Agniello, 
+Salvestro da Campiglia, e uno Causulajo; in 
+mezzo Messere Ranieri Tempanella, Judici 
+<pb n="670"/>
+Bergo Ganti da Cisano, Michel Grimaldo; 
+in Fori Porta Cieo Rustichelli, Ciellino da 
+Campo, e uno Nano da la Spina; in Kinsica 
+Jacopo dell'Agniello, Franciesco da Monte 
+Fosuli, Andrea Campana. Li capi con Messere 
+Benedetto funno, Messere Cieo suo fratello, 
+Messere Giovanni Malepa, Messere Berrigo 
+Gaddubi, Cailonaco Arciprete, Bondo 
+Boudrone, Bacciameo da Monte Fosculi, Petro 
+della Sendada, Colo Bonconte, Triglio 
+da Vivajo, Ciecco da Campiglia, Messere 
+Giovanni Gallo, e fratelli, Vanni d'Appiano 
+Notajo, e i fratelli, quelli da Corvaja, 
+Vanni di Lupo, e figliuoli, Messere Cino de i 
+Sesinondi. E inansi che la sopraditta giente 
+di Messere Benedetto iscisse di Pisa, al principio 
+levaro lo romore, andonno a la pregione 
+di Pisa, e ruppela, e tutti i pregioni iscitteno 
+fuora. Poi del sopraditto Ansianatico, 
+inansi che fusse compiuto l'ofitio, mezzo die 
+vegniente, se ne tornonno a casa loro, tre de' 
+quali erano tenuti a sospetto, cioè Salvestro 
+da Campiglia, Michele Grimaudi, e Franciesco 
+da Monte Posculi. Poi di po' questo riposato, 
+e fermata la Terra, fue chiamato Signiore 
+lo Conte Fatio, sì che ordinò, che 
+tutti li confinati vecchi, che si fecieno al tempo 
+di Messere Tarlato, tornasseno in Pisa, e 
+che i ribelli di quello tempo tornasseno a 
+confine; e così fu fatto, salvo che Benven 
+…… asso, ch'era ribello, ebbe gratia di 
+ritornare in Pisa. 
+Spinetto tousse a' Pisani nel tempo de' sopraditti 
+Ansiani, Capitano, e Podestà, la Terra 
+<pb n="671"/>
+di Sarezana, e intròvi da <num>30</num> cavalieri. 
+Eravi Podestà per lo Comuno di Pisa Messere 
+Giovanni de li Orlandi, Judici Messere 
+Gherardo Carratelli. Funnovi morti sei persone; 
+Ciegna da Colle fue ferito, e pregione 
+del <date value="1336"> MCCCXXXVI</date> ne la Indictione <num>IV</num> die 
+<num>V</num> di Novembre. Poi lo sopraditto Ciegnia 
+fuggitte di pregione, e fue scapulo. 
+Poi nel sopraditto Anno di Diecembre, 
+Giennajo, Ferrajo, e appresso, si fecieno li 
+fossi del Borgo di Sancto Marco, e li palonciti, 
+e 'l ponte levatojo, rotta la strada, e le 
+mura da le Piaggie col fosso, e merli dal 
+Ponte di Sancto Marco, e quello da Pantiporto 
+di Legatia con ponte levatoio. 
+Poi <date value="1337"> MCCCXXXVII</date> Indictione <num>IV</num> die <num>XV</num> 
+di Jugno Sabbato la festa di Sancto Vito in 
+su la Terra fue uno mal tempo d'acqua e di 
+tuoni, che si fe' come a l'Ave Maria, e cadde 
+il Cantone de li Embuli, della quale caduta 
+ne moritteno sotto <num>27</num> omini, e erano 
+guasti, e iscempiati, come mangiati da lupi, 
+e da cani. 
+Lo sopraditto Anno <date value="1337"> MCCCXXXVII</date> di Jugnio 
+si fondò la Torre, ch'è in piè del Ponte 
+de la Spina da la parte di Foriporta al Cantone. 
+E la Chieza nuova di sancto Bernabè, 
+ch'è in della Carraja de' Bottai, si fondoe lo 
+dì di Sancto Bernabè lo sopraditto <foreign lang="lat">Anno Domini </foreign> 
+terza Indictione di Giugno. Poi nel sopraditto 
+Anno di Luglio lo Comune di Pisa 
+fecie istare lo Castello di Leguli di Vaudera, 
+perché no si fidava a li omini dentro, che no 
+vi mettesseno isciti di Pisa, o autre gente. 
+<pb n="672"/>
+            </p>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

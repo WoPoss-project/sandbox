@@ -1,0 +1,2463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>L'amore prigioniero</title>
+      <author>Mario Di Leo</author>
+    </titleStmt>
+    <extent>107 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000884</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>I drammi e le poesie italiane e latine / Marc'Antonio Epicuro ; aggiuntovi L'amore prigioniero di Mario Di Leo</title>
+        <author>Di Leo, Mario</author>
+        <editor id="ed">Parente , Alfredo</editor>
+        <publisher>Gius. Laterza e Figli</publisher>
+        <pubPlace>Bari</pubPlace>
+        <date>1942</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita"/></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>858 - Scritti miscellanei italiani</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Narrativa</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Alessia Scacchi</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica con software</item>
+    </change>
+    <change>
+      <date>2003-05-20T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1 type="dedica">
+
+	<p>A LA <abbr>ILL.</abbr> E VALOROSA DONNA MARIA CARDONA,
+MARCHESANA DE LA PADULA, DE L'AMORE PRIGIONIERO
+DI <abbr>M.</abbr> MARIO DI LEO</p>
+
+</div1>
+
+<div1 type="parte">
+<head>I</head>
+
+<lg type="ottava">
+<l>Le glorïose pompe, i gran trofei,</l>
+<l>gli audaci assalti e le vittorie nove,</l>
+<l>l'imprese canto ch'agli eterni dèi</l>
+<l>posero tema, e meraviglia a Giove,</l>
+<l>se gir potran tant'alto i versi miei,</l>
+<l>quanto la fama de l'eccelse prove,</l>
+<l>che soda dopo noi con quant'onore</l>
+<l>si vegga in questa et prigione Amore.</l></lg>
+<lg type="ottava">
+<l>Canto voi, Donne, e l'acquistate spoglie</l>
+<l>per cui Sebeto altier sì fatto apparmi,</l>
+<l>ch'al gran fiume latin la palma toglie</l>
+<l>d'altro sesso acquistata e con altr'armi,</l>
+<l>s'io posso col mio stil pari a le voglie</l>
+<l>dove bisogno fia volando alzarmi,</l>
+<l>o, se pur l'opre non adeguo a pieno,</l>
+<l>girmene presso di gran lunga almeno.</l></lg>
+<lg type="ottava">
+<l>Acciò ch'io adegui il verso ai gesti vostri,</l>
+<l>là dove il ciel tutta sua gloria pose;</l>
+<l>o che del lume un picciol raggio io mostri</l>
+<l>ch'in voi l'alto Motor sì grande ascose,</l>
+<l>poggiar bisogna oltra i superni chiostri,</l>
+<l>libero e sciolto da l'umane cose.</l>
+<l>Ma chi sarà ch'in ciel mi guidi e volga,</l>
+<l>e che dal mondo mi rapisca e tolga?</l></lg>
+<lg type="ottava">
+<l>Chi sarà, Donne mie, ch'ardir mi presti</l>
+<l>ch'io scioglia il nodo che per voi m'allaccia,</l>
+<l>s'io per dir l'alte prove e i chiari gesti,</l>
+<l>o per cantar di voi che sempre faccia,</l>
+<l>non penso che 'l mio cor sì sciolto resti</l>
+<l>ch'al grand'obligo mio si sodisfaccia,</l>
+<l>poi che lo stil non ha tal forza d'ale</l>
+<l>che voli il verso al gran concetto eguale?</l></lg>
+<lg type="ottava">
+<l>A la dea che con gli occhi almi e lucenti</l>
+<l>ne le tempeste mie, nei miei naufragi</l>
+<l>dava a la vela mia propizi venti,</l>
+<l>a le tenebre mie lucidi raggi,</l>
+<l>speme non ho, poi che con novi accenti</l>
+<l>canto del figlio i vergognosi oltraggi,</l>
+<l>ond'io devoto e pien d'onesto foco</l>
+<l>una invece di lei più bella invoco.</l></lg>
+<lg type="ottava">
+<l>Tu che pareggi gli animi celesti</l>
+<l>di sopruman valor, d'animo forte,</l>
+<l>donna leggiadra che sì ben sapesti</l>
+<l>legare Amore ed ingannar la morte,</l>
+<l>e di bei raggi sì t'adorni e vesti</l>
+<l>che ne farai beato il gran consorte,</l>
+<l>fa che m'impenni, onde spedito lo voli</l>
+<l>tra spirti buoni e al vulgo reo m'involi.</l></lg>
+<lg type="ottava">
+<l>Fa che 'l bel ramo le mie tempie inchiome,</l>
+<l>ch'io spregi ira di cieli e di fortuna,</l>
+<l>perché dirò di te l'invitto nome,</l>
+<l>di te che fusti del bel numer una,</l>
+<l>e ti vidd'io fra quella schiera, come</l>
+<l>fra chiare stelle in ciel candida luna,</l>
+<l>andar bella guerriera a la battaglia</l>
+<l>cinta d'altr'armi che lorica o maglia.</l></lg>
+<lg type="ottava">
+<l>Sgombrisi il mio pensier d'ogni altra cura</l>
+<l>e suoni il petto mio novelli accenti;</l>
+<l>che s'odan cose da l'età futura</l>
+<l>più non intese da l'antiche genti,</l>
+<l>da che distinse la miglior natura</l>
+<l>da la confusa massa gli elementi;</l>
+<l>e viva il verso mio fin che non prove</l>
+<l>ira di Marte, né furor di Giove.</l></lg>
+<lg type="ottava">
+<l>Cantino gli altri con più culte lingue,</l>
+<l>ch'han de l'ingegno più veloci i vanni,</l>
+<l>come divenne Amor gonfiato e pingue</l>
+<l>d'umane doglie e di celesti affanni.</l>
+<l>Io canto sol com'un momento estingue</l>
+<l>l'acquistate vittorie di tant'anni;</l>
+<l>e perché in parte il mio voler vi mostre,</l>
+<l>tesso le fila de le lodi vostre.</l></lg>
+<lg type="ottava">
+<l>E s'a la cima affaticato ed arso</l>
+<l>gir non poss'io del vostro onore immenso,</l>
+<l>là dove il ciel mi fu di forza scarso</l>
+<l>col core adempio e col voler compenso;</l>
+<l>di cui s'io ne mostrassi aperto e sparso</l>
+<l>quanto dentro ne chiudo e ne condenso,</l>
+<l>fors'or non bramerei con miglior vena</l>
+<l>canto di cigno e voce di sirena.</l></lg>
+<lg type="ottava">
+<l>Deh, paresse il cor mio per nova usanza</l>
+<l>che farlo accorto a la natura piacque,</l>
+<l>o fusse il petto vetro, e, com'è stanza</l>
+<l>di foco, fusse almen fontana d'acque,</l>
+<l>che trasparesse in lucida sembianza</l>
+<l>l'ardente voglia che nel cor mi nacque;</l>
+<l>ch'uopo non mi saria di niente infusa</l>
+<l>d'arte d'Apollo o di favor di Musa.</l></lg>
+<lg type="ottava">
+<l>Ma s'avvien che mia voce unqua non stanchi</l>
+<l>fin ch'io non paghi questa voglia interna,</l>
+<l>con etiòpi negri e sciti bianchi</l>
+<l>udranne il suono ogn'altra gente esterna;</l>
+<l>né tempo o morte potrà far che manchi</l>
+<l>de l'opre vostre la memoria eterna,</l>
+<l>e 'l nome mio (la mercé vostra) forse</l>
+<l>suonerà chiaro dal meriggio a l'orse.</l></lg>
+<lg type="ottava">
+<l>Ne l'alma età che dal furor del cielo</l>
+<l>vive sicura a l'ombra d'un bel lauro</l>
+<l>sotto colui che pien di santo zelo,</l>
+<l>mentre l'Asia minaccia e frena il Mauro,</l>
+<l>comincia a torre il rugginoso velo</l>
+<l>al macchiato splendor di quel prim'auro,</l>
+<l>chiamò l'alto Fattor nel seggio d'oro</l>
+<l>i dèi celesti, e così disse a loro:</l></lg>
+<lg type="ottava">
+<l>Quand'io produssi questo globo tondo,</l>
+<l>e col dì caldo e lungo il freddo e breve,</l>
+<l>poi che mandai la terra al basso fondo</l>
+<l>e sovra posi a lei l'acqua men greve,</l>
+<l>e che l'altro elemento nel secondo,</l>
+<l>e nel loco primier posi il più leve;</l>
+<l>pensai porre il mio seggio in quella parte</l>
+<l>che 'l mar circonda e l'Appennin diparte.</l></lg>
+<lg type="ottava">
+<l>Quivi, nel loco dove al ciel s'estoglie</l>
+<l>Vesuvio, siede una campagna aprica,</l>
+<l>in cui lasciando le caduche spoglie</l>
+<l>giace sepolta la sirena antica,</l>
+<l>che sì gradita apparve a le mie voglie,</l>
+<l>tanto mostrossi a' miei desiri amica,</l>
+<l>ch'io stimai questo loco assai giocondo</l>
+<l>per dar le prime leggi al nuovo mondo.</l></lg>
+<lg type="ottava">
+<l>Ma poi che la magion del nostro impero</l>
+<l>in più sublime stanza si traspose,</l>
+<l>per ch'io potessi con egual pensiero</l>
+<l>reggere il cielo e le terrene cose,</l>
+<l>de le mutate voglie un duol sì fero,</l>
+<l>un pensier sì mordace il cor mi rose,</l>
+<l>ch'io piovvi sempre in quei bei campi ameni</l>
+<l>felice nembo di celesti beni.</l></lg>
+<lg type="ottava">
+<l>E benché a sì bel loco io dessi il vanto</l>
+<l>de la più cara a noi del mondo parte,</l>
+<l>e l'adornassi del più ricco manto</l>
+<l>che mai vestisse altrui Minerva o Marte,</l>
+<l>non mi parve mai don di valor tanto,</l>
+<l>ch'io ne pagassi i miei desiri in parte,</l>
+<l>ché, fra quanto poss'io, cose non veggio</l>
+<l>che pagar basti a cui me stesso deggio.</l></lg>
+<lg type="ottava">
+<l>Avvenne poi che in questa etade io volsi</l>
+<l>far de le forze mie l'ultime prove,</l>
+<l>e fei le belle donne in cui raccolsi</l>
+<l>equali al mio poter bellezze nove,</l>
+<l>ne le cui vaghe e caste membra avvolsi</l>
+<l>i più bei spirti e più graditi a Giove,</l>
+<l>i quai credea serbar for d'uman velo</l>
+<l>per far più chiaro e più sereno il cielo.</l></lg>
+<lg type="ottava">
+<l>E le mandai per compensar l'onore</l>
+<l>di questo a noi diletto almo paese;</l>
+<l>e mentre smorzo un foco intorno al core,</l>
+<l>sorger mi sento nove fiamme accese,</l>
+<l>ché tosto poi contra l'eterno amore</l>
+<l>furon di queste alte querele intese,</l>
+<l>che non dovea mandarle al caldo, al gelo,</l>
+<l>se l'avea fatte per ornarne il cielo.</l></lg>
+<lg type="ottava">
+<l>Ond'a me piace, perch'al vento spinga</l>
+<l>gli sdegni e l'ire giuste di costoro,</l>
+<l>che d'un sì bel trofeo lor tempie cinga</l>
+<l>corona trïonfal di sacro alloro,</l>
+<l>che non fia mai che a tanta gloria attinga</l>
+<l>di chioma imperial corona d'oro,</l>
+<l>anzi per lor la terra abbia maggiore</l>
+<l>che 'l ciel non ha per noi fama ed onore.</l></lg>
+<lg type="ottava">
+<l>Qui pose fine e giurò l'onda inferna</l>
+<l>che bagna di Plutone i neri prati,</l>
+<l>e mentre su, ne la magion superna,</l>
+<l>volgon al subbio queste fila i fati,</l>
+<l>Amore in grembo a primavera eterna</l>
+<l>si gode in Cipro ameno i campi amati,</l>
+<l>e mentre ei giace, e giaccion le quadrella,</l>
+<l>la bella madre sua così favella:</l></lg>
+<lg type="ottava">
+<l>Amato figlio, a cui le genti fanno</l>
+<l>devote offerte degli accesi cori,</l>
+<l>a le cui fiamme i dèi celesti danno</l>
+<l>chinati in riverenza i primi onori,</l>
+<l>per cui nel tempio mio sacrano ogn'anno</l>
+<l>tanti nostri devoti i primi fiori;</l>
+<l>omai non veggo più cor freddi o saldi,</l>
+<l>che strale o fiamma tua non punga o scaldi.</l></lg>
+<lg type="ottava">
+<l>Le ninfe di Sebeto sol m'avveggio</l>
+<l>che sprezzan del tuo fuoco il santo ardore,</l>
+<l>sì vaghe e belle che fra lor non veggio</l>
+<l>od occhi o volto onde non spiri amore,</l>
+<l>perché l'ingrate in tutto il resto seggio</l>
+<l>di lor t'han dato, for che dentro al core,</l>
+<l>onde per lor beltade ancor s'estoglie</l>
+<l>l'alta possanza tua con nuove spoglie.</l></lg>
+<lg type="ottava">
+<l>Ma che mi giova che per lor si veda</l>
+<l>più grande il tuo valor, più ricco il regno,</l>
+<l>s'a le vittorie tue sì bella preda,</l>
+<l>s'a la tua gloria manca onor sì degno?</l>
+<l>Or quindi avvien ch'in me l'orgoglio ecceda</l>
+<l>la giusta meta d'ogni antico sdegno,</l>
+<l>ché non ti de' sprezzar cosa mortale,</l>
+<l>se 'l ciel s'inchina al tuo pungente strale.</l></lg>
+<lg type="ottava">
+<l>Ma sarà pur che sotto al ciel si trovi</l>
+<l>petto sì pien di ghiaccio o cor sì saldo,</l>
+<l>che degli strali tuoi l'ira non provi,</l>
+<l>o de le fiamme tue non senta il caldo?</l>
+<l>E se di ciò sent'io cordogli novi,</l>
+<l>s'io di nov'ire mi raccendo e scaldo,</l>
+<l>tu, di cui s'have a scherno il gran valore,</l>
+<l>come il consenti o nol provedi, Amore?</l></lg>
+<lg type="ottava">
+<l>Déstati omai, cingi quest'arme al fianco,</l>
+<l>non far che 'l tuo valor l'ozio corrompa,</l>
+<l>perché s'avvien ch'abbi poter sì franco,</l>
+<l>che 'l foco tuo lor freddo ghiaccio rompa,</l>
+<l>da l'alto ciel tu non portasti unquanco</l>
+<l>più bel trionfo o più superba pompa,</l>
+<l>e fra' bei lumi di tua gloria rara</l>
+<l>non fia che splenda mai luce più chiara.</l></lg>
+<lg type="ottava">
+<l>Amor, ch'aver pensava il mondo vinto.</l>
+<l>ode la madre e de l'error s'accorge,</l>
+<l>e di color vermiglio in faccia tinto,</l>
+<l>pien di vergogna, onde giacea risorge;</l>
+<l>e da molt'ira stimulato e spinto</l>
+<l>in preda tutto del furor si porge,</l>
+<l>prende l'arco, gli stral, e va con fretta</l>
+<l>per far di tant'offesa aspra vendetta.</l></lg>
+<lg type="ottava">
+<l>E de la madre sua, com'a lei piacque,</l>
+<l>la conca ritrovò sul lito estremo,</l>
+<l>e varcar volse i lochi ond'ella nacque,</l>
+<l>senza volar per lo cammin supremo,</l>
+<l>sì che l'arco riprese e sopra l'acque</l>
+<l>operar li facea vece di remo.</l>
+<l>Quella, sospinta levemente a l'ora,</l>
+<l>segava l'onde con l'adonca prora.</l></lg>
+<lg type="ottava">
+<l>Era già involto nella faccia lieta</l>
+<l>de l'alma terra il manto de la notte,</l>
+<l>e quel buon Dio che le fatiche acqueta,</l>
+<l>uscito fuor de le cimmerie grotte;</l>
+<l>lo ciel e 'l mar oltra l'usata meta</l>
+<l>pien di nubi spezzate e d'onde rotte:</l>
+<l>era egualmente ogni gran vista losca,</l>
+<l>il mar negro, il ciel bruno e l'aria fosca.</l></lg>
+<lg type="ottava">
+<l>Indi, in un punto, e cessa la fortuna</l>
+<l>ed al primo splendor l'aria ritorna;</l>
+<l>ed incomincia a fiammeggiar ciascuna</l>
+<l>lucente stella di bei raggi adorna,</l>
+<l>e per mercé d'Amor la bella luna</l>
+<l>mostrar al mondo le gelate corna.</l>
+<l>Vedesi in somma in un momento e meno</l>
+<l>il mar fatto tranquillo, il ciel sereno.</l></lg>
+<lg type="ottava">
+<l>Parve a quel lume il monte, ove s'adora</l>
+<l>la bella madre sua, cinto di mirti,</l>
+<l>e che venia dal ciel cantando a l'ora</l>
+<l>un lieto coro di celesti spirti;</l>
+<l>parve Nettuno che scorgea la prora</l>
+<l>lunge da scogli e d'arenose sirti,</l>
+<l>e compagnia facea con la sua schiera</l>
+<l>al gran signor ch'a tutto il mondo impera.</l></lg>
+<lg type="ottava">
+<l>Nettuno di se stesso altera salma</l>
+<l>sovra un carro facea superbamente;</l>
+<l>il fren volgea con la sinistra palma</l>
+<l>e tenea con la destra il gran tridente;</l>
+<l>e per lo mar ch'era in tranquilla calma</l>
+<l>giva rotando assai leggiadramente,</l>
+<l>e lo traeano in vece di destrieri</l>
+<l>quattro delfin via più che inchiostro neri.</l></lg>
+<lg type="ottava">
+<l>Givan lodando Amore e sue quadrella</l>
+<l>sopra i frenati pesci a mille a mille</l>
+<l>le ninfe ignude, e pria la ninfa bella</l>
+<l>che genitrice fu del forte Achille.</l>
+<l>Cantavan tutte e avea piacer anch'ella</l>
+<l>cantar de l'amorose sue faville,</l>
+<l>e si sentia venir da la spelonca</l>
+<l>Tritone al suon de la marina conca.</l></lg>
+<lg type="ottava">
+<l>Cantan le ninfe e dolcemente ognuna</l>
+<l>porge novo diletto al sacro nume;</l>
+<l>solcano l'onde, e al mover di ciascuna</l>
+<l>si copre il mar tutto di bianche spume.</l>
+<l>L'acque porgon splendor, ché de la luna</l>
+<l>le ripercote il tremolante lume,</l>
+<l>mentre l'altro emisperio ardendo avvampa</l>
+<l>il biondo Dio de la dïurna lampa.</l></lg>
+<lg type="ottava">
+<l>Ma, poscia che la fama del successo</l>
+<l>viene a l'orecchie del celeste auriga,</l>
+<l>par che scuotendo il fren, pungendo spesso.</l>
+<l>con furia spinga laurea sua quadriga,</l>
+<l>e, per trovarsi in que' diletti anch'esso,</l>
+<l>i suoi destrier più che l'usato affliga,</l>
+<l>acciò ch'Amor sotto più chiaro raggio</l>
+<l>abbia men faticoso il suo vïaggio.</l></lg>
+<lg type="ottava">
+<l>Amor sen va superbo e 'l dio de l'acque</l>
+<l>sen va pur seco con mill'altri dèi.</l>
+<l>Viene al loco ch'a Dio tant'anni piacque</l>
+<l>ed or accoglie in sé spirti empi e rei.</l>
+<l>Passa l'isola altera perché nacque</l>
+<l>il maggior figlio di Saturno in lei,</l>
+<l>e giunge a l'altra ove il sepolcro incise</l>
+<l>il pietoso figliolo al morto Anchise.</l></lg>
+<lg type="ottava">
+<l>Vede Vulcan che da l'estremo fondo</l>
+<l>par che fino a le stelle il foco asperga;</l>
+<l>scorge quel monte il cui gravoso pondo</l>
+<l>calca de l'arso Encelado le terga,</l>
+<l>mira il colle amenissimo e giocondo</l>
+<l>dove la madre sua sovente alberga.</l>
+<l>e quindi il corso per quell'onda spinse</l>
+<l>che da l'Italia l'isola distinse.</l></lg>
+<lg type="ottava">
+<l>E rivolgendo la sua prora a destra,</l>
+<l>varcando se ne gìa l'onda tirrena,</l>
+<l>e già di Capri la montagna alpestra</l>
+<l>lungi scopria tutta di neve piena,</l>
+<l>e vedea Sarno che per via campestra</l>
+<l>al salso mar s'en gìa con fredda vena;</l>
+<l>poi vede il gran Vesuvio, e non sa come</l>
+<l>li veggia rinfrondar l'arsicce chiome.</l></lg>
+<lg type="ottava">
+<l>Più da vicino il bel Sebeto vede</l>
+<l>ch'al mar sen va col corso umile e fiacco,</l>
+<l>e la felice terra ond'egli crede</l>
+<l>portar di ricche prede colmo il sacco.</l>
+<l>Mira il bel monte ch'a lei sopra siede</l>
+<l>amena stanza di Sileno e Bacco,</l>
+<l>e quei bei lochi i quai dirò sempr'io</l>
+<l>che per albergo suo produsse Dio.</l></lg>
+<lg type="ottava">
+<l>E, come accorto, scaltro e buon guerriero,</l>
+<l>pensa trovarsi loco ove s'accampi,</l>
+<l>perché se di fuggir abbia mestiero,</l>
+<l>trovi ricetto ove rifugga o scampi;</l>
+<l>e di farsi una rocca entra in pensiero</l>
+<l>e salda e forte ne' baiani campi,</l>
+<l>ond'uscir possa a far sue prede intorno</l>
+<l>e poi tornar di nove spoglie adorno.</l></lg>
+<lg type="ottava">
+<l>Per tal cagion, quasi radendo il lido,</l>
+<l>a man sinistra con furor si volse,</l>
+<l>e, nel varcar, con fanciullesco grido</l>
+<l>in questo suon l'irata voce sciolse:</l>
+<l>Dunque non sono omai più quel Cupido</l>
+<l>ch'al re celeste la corona tolse?</l>
+<l>Non è questo l'ardor ch'incede ancora,</l>
+<l>dove non luce sol né splende aurora?</l></lg>
+<lg type="ottava">
+<l>Non è questo lo stral veloce e presto</l>
+<l>che 'l baldanzoso dio punse in Tessaglia?</l>
+<l>E non è già per tutto manifesto</l>
+<l>quanto de l'arme mie la forza vaglia?</l>
+<l>Ed or, per farsi a le mie voglie infesto,</l>
+<l>sarà che l'uman seme in pregio saglia,</l>
+<l>e poche ninfe di Sebeto sole</l>
+<l>spregino quel che 'l mondo onora e cole?-</l></lg>
+<lg type="ottava">
+<l>E, mentre pien d'orgoglio in vista fera</l>
+<l>in questa ed altra guisa Amor si lagna,</l>
+<l>si vidde uscir Proteo da la costiera</l>
+<l>di Pausilippo, che nel mar si bagna,</l>
+<l>che diè tal grido con tal voce altera,</l>
+<l>che 'l mar ne fe' gran suono e la campagna.</l>
+<l>Amor a quella voce il remo fisse,</l>
+<l>e quel gli si rivolse e così disse:</l></lg>
+<lg type="ottava">
+<l>- Fanciullo invitto, or qual maligna insania</l>
+<l>cercar cibi ti fa ne l'altrui desco?</l>
+<l>Incauto augel ch'a l'intricata pania</l>
+<l>ti risospinge il tuo desir follesco,</l>
+<l>fuggi, fuggi le selve di Campania</l>
+<l>che serbano in bei rami occolto il vesco.</l>
+<l>E, detto ch'ebbe in questa guisa, tacque</l>
+<l>e levemente si tuffò ne l'acque.</l></lg>
+<lg type="ottava">
+<l>Di questi detti non s'annoia o punge</l>
+<l>quel che ha le stelle e tutti i cieli a scherno,</l>
+<l>ma segue il corso suo, tanto che giunge</l>
+<l>onde veder potea l'acque d'Averno.</l>
+<l>Vede i sulfurei monti e da la lunge</l>
+<l>l'arso Tifeo dal fulmine superno,</l>
+<l>e Procita e Miseno e, più vicino,</l>
+<l>vede i famosi stagni di Lucrino.</l></lg>
+<lg type="ottava">
+<l>Il bel paese di cui forsi eguale</l>
+<l>non have il mondo a meraviglia piacque,</l>
+<l>sì che tal gioia il bel fanciullo assale,</l>
+<l>ch'avvicinarsi alto desio li nacque;</l>
+<l>onde ne va mal cauto del suo male</l>
+<l>dove termina il mar con le sals'acque,</l>
+<l>quando sente fra rami d'arboscelli</l>
+<l>canti importuni di notturni augelli.</l></lg>
+<lg type="ottava">
+<l>Amor fra sé dicea: - Fortuna ria,</l>
+<l>saranno i gesti miei forse infelici?</l>
+<l>Io sento orrende strida in ogni via,</l>
+<l>di mal futuro manifesti indìci.</l>
+<l>Ma pur creder debb'io che vera sia</l>
+<l>l'arte fallace de' bugiardi auspìci,</l>
+<l>o che col canto predir sappia quello</l>
+<l>che 'l ciel dispone un vilipeso augello?</l></lg>
+<lg type="ottava">
+<l>Ma s'egli è ver che la pennata torma</l>
+<l>abbia dal ciel un così raro dono,</l>
+<l>non vaglia in me questa celeste norma,</l>
+<l>malgrado ed onta di chi regge il tuono,</l>
+<l>ch'ira mi vien farlo venire in forma</l>
+<l>di bianco cigno a darmi augurio buono,</l>
+<l>e far venir tutto il superno stuolo</l>
+<l>come colombe per quest'aure a volo. -</l></lg>
+<lg type="ottava">
+<l>Questo ed altro fra sé cheto dicea</l>
+<l>de la ciprigna dea l'altero figlio,</l>
+
+
+<l>e spesso con orgoglio al ciel volgea</l>
+<l>l'irata fronte e 'l nubiloso ciglio,</l>
+<l>e per oltraggio d'ogni stella rea</l>
+<l>d'indi mai non partir prende consiglio,</l>
+<l>e scuote l'ali e verso al ciel s'estolle,</l>
+<l>e scende poi sopr'un fiorito colle.</l></lg>
+<lg type="ottava">
+<l>Per le cui balze par che scenda e poggi</l>
+<l>di fiori carca eterna primavera:</l>
+<l>v'è lieta stanza dove par ch'alloggi</l>
+<l>de' dèi silvestri la frondosa schiera,</l>
+<l>però che a questo sol fra tanti poggi</l>
+<l>natura fe' cangiar la forma vera,</l>
+<l>e per mercé d'Amor l'aperse il grembo</l>
+<l>e di sue grazie vi consperse un nembo.</l></lg>
+<lg type="ottava">
+<l>Quivi nodose querce e dritti abeti</l>
+<l>e glorïose palme e sante olive;</l>
+<l>quinci sorgono al cielo e crespi e lieti</l>
+<l>limpidi fonti di fresc'acque vive;</l>
+<l>quindi ne van con corsi umili e cheti</l>
+<l>chiari ruscei fra dilettose rive;</l>
+<l>quivi spelonche opache ed antri foschi,</l>
+<l>ivi son selve ombrose e folti boschi.</l></lg>
+<lg type="ottava">
+<l>Qui fan grat'ombre a greggi ed a pastori</l>
+<l>alti pini, verd'olmi, ombrosi faggi,</l>
+<l>e co' rami i trïonfali allori</l>
+<l>serbano il luoco da i celesti oltraggi,</l>
+<l>ché per dar noia a' ruggiadosi fiori</l>
+<l>non vi penetra il sol coi caldi raggi,</l>
+<l>e s'odono a tutt'or per le capanne</l>
+<l>sonar sampogne e boscarecce canne.</l></lg>
+<lg type="ottava">
+<l>In quelle stanze, in quei ricetti ameni</l>
+<l>non v'è, ch'offenda mai, caldo né gelo;</l>
+<l>non nascono in quel ciel tuoni o baleni,</l>
+<l>non vi si vede nebbia o fosco velo;</l>
+<l>sempre vi sono i dì chiari e sereni</l>
+<l>sott'aria pura e temperato cielo;</l>
+<l>si gode insomma in quell'alme contrade</l>
+<l>ogni piacer della bell'aurea etade.</l></lg>
+<lg type="ottava">
+<l>Resta il fanciullo con diletto tale,</l>
+<l>ch'un mar di gioia nel suo petto abbonda;</l>
+<l>levasi in alto, e, mentre l'aria assale,</l>
+<l>rotando in giro il monticel circonda;</l>
+<l>mira ciascuna parte e va con l'ale</l>
+<l>di su, di giù, d'una in un'altra sponda;</l>
+<l>scende al sommo del colle, e, dove tocca,</l>
+<l>sorger si vede una superba rocca.</l></lg>
+<lg type="ottava">
+<l>Pensar si può che quest'opra divina,</l>
+<l>che certo avanza ogni artificio umano,</l>
+<l>si fabricò nell'infernal fucina</l>
+<l>con arte di ciclopi e di Vulcano.</l>
+<l>A tal pensier la mente mia s'inchina,</l>
+<l>perché l'Averno è poco indi lontano,</l>
+<l>onde tener si ponno orme e vestigi</l>
+<l>per gire al cupo inferno, ai regni stigi.</l></lg>
+<lg type="ottava">
+<l>Amore intanto la faretra prende,</l>
+<l>forbisce i dardi e gl'indorati strali,</l>
+<l>raccende le sue fiamme e l'arco tende</l>
+<l>per far sanguigna strage di mortali,</l>
+<l>e poi superbamente in alto ascende,</l>
+<l>per l'aria pura dibattendo l'ali,</l>
+<l>e non si vede in tormentar mai parco,</l>
+<l>ed or sparge le fiamme, or scocca l'arco.</l></lg>
+<lg type="ottava">
+<l>Scorre per tutto e fa cantar d'intorno</l>
+<l>a' mesti amanti dolorose rime,</l>
+<l>e, quando il sol nel declinar del giorno</l>
+<l>scalda le parti sotterranee ed ime,</l>
+<l>viene a l'albergo di vittorie adorno,</l>
+<l>d'onorati trofei, di spoglie opime,</l>
+<l>e poi ritorna il fanciullin malvagio</l>
+<l>quando l'aurora appar col nuovo raggio.</l></lg>
+<lg type="ottava">
+<l>Strane armonie d'alti lamenti piene</l>
+<l>s'odon per tutto, ovunque avvien ch'arrivi.</l>
+<l>A molti ruba il core, e senza spene</l>
+<l>molti fa star quasi de l'alma privi.</l>
+<l>Tutti però da lacci e da catene</l>
+<l>legati mena a la prigion cattivi</l>
+<l>e mentre quelli uccide egli rinasce</l>
+<l>e de i tormenti lor si nutre e pasce.</l></lg>
+<lg type="ottava">
+<l>Ma dove incauto trasportar mi sento,</l>
+<l>vittorïoso Amor, contra mie voglie?</l>
+<l>ché, mentre io sono a ragionar intento</l>
+<l>de' gesti tuoi le gloriose spoglie,</l>
+<l>sovviemmi, ahi lasso, del mio fier tormento,</l>
+<l>de i primi affanni e de l'estreme doglie,</l>
+<l>e già mi sento rinovar nel core</l>
+<l>l'antiche fiamme del mio primo ardore.</l></lg>
+<lg type="ottava">
+<l>Ché non poss'io senza gravosa salma</l>
+<l>mai rimembrar quella crudel contesa,</l>
+<l>perché perdei lo spirto, il core e l'alma</l>
+<l>in quell'acerba e dolorosa impresa;</l>
+<l>benché ti fui poc'onorata palma,</l>
+<l>però che mi rendei senza difesa,</l>
+<l>se poca gloria è tormentar con duolo</l>
+<l>un che si renda disarmato e solo.</l></lg>
+<lg type="ottava">
+<l>Io stava presso un picciol rio ch'avea</l>
+<l>piene di verdi erbette ambe le sponde,</l>
+<l>e lietamente senz'Amor godea</l>
+<l>ozio tranquillo tra bei fiori e fronde,</l>
+<l>mentre a l'orecchie dolce suon porgea</l>
+<l>l'aura soave e 'l mormorar de l'onde,</l>
+<l>e si sentian d'augei grati lamenti</l>
+<l>addolcir l'aere di soavi accenti.</l></lg>
+<lg type="ottava">
+<l>Ed ecco veggio intento a la vendetta</l>
+<l>l'alato predator volar per l'alto,</l>
+<l>che nel chinar non mostra la saetta</l>
+<l>a quella dura più che duro smalto,</l>
+<l>ma viene a ferir me con tanta fretta,</l>
+<l>ch'a lui mi rendo nel primiero assalto.</l>
+<l>Indi mi trasse con l'afflitta schiera</l>
+<l>a l'empia stanza, a la prigione altera.</l></lg>
+<lg type="ottava">
+<l>Non fui ratto a l'entrar, ma pria ritorsi</l>
+<l>contemplando la rocca i passi indietro.</l>
+<l>Lucea, ma di che fusse io non m'accorsi.</l>
+<l>Non trasparea, dunque non era vetro;</l>
+<l>non mi par d'oro e sto dubbioso in forsi,</l>
+<l>né pure il vero da la vista impetro.</l>
+<l>Mirai due volte, e nel mirar terzaio</l>
+<l>conobbi alfin ch'era di terso acciaio.</l></lg>
+<lg type="ottava">
+<l>E viddi scritto su la porta poi:</l>
+<l>«Quivi secca il piacer, la doglia piove»</l>
+<l>e intesi un grido che d'accenti suoi</l>
+<l>empì quel luoco fin al ciel di Giove;</l>
+<l>e disse: - O quanto meglio i passi tuoi,</l>
+<l>giovane incauto, volgeresti altrove,</l>
+<l>or ch'a privarti vai di libertade</l>
+<l>sul primo fior de la tua verde etade. -</l></lg>
+<lg type="ottava">
+<l>In questo a l'improviso mi percote</l>
+<l>una gran tema, onde mi volsi al core</l>
+<l>e gli diss'io: - Che minacciose note</l>
+<l>vedi, cor mio, che ne promette Amore!</l>
+<l>Fuggiam, ma quel fuggir che far ne pote,</l>
+<l>se pur vien nosco l'amoroso ardore?</l>
+<l>Non vo' fuggir, ché gli amorosi omei</l>
+<l>fuggir non posso, né poter vorrei. -</l></lg>
+<lg type="ottava">
+<l>Entrai, ma per non farmi augurio mesto,</l>
+<l>accorto al primo entrar mossi il piè destro.</l>
+<l>Non v'era incontro che mi fusse infesto;</l>
+<l>trovai piano il camino e non alpestro,</l>
+<l>e con stupor mirava or quello or questo</l>
+<l>degno lavor de l'infernal maestro;</l>
+<l>e nel novo mirar tant'era involto,</l>
+<l>ch'era smarrito e da me stesso tolto.</l></lg>
+<lg type="ottava">
+<l>Indi vegg'io fuor d'un vicino speco</l>
+<l>un uom che verso me ratto si stende;</l>
+<l>salutami per nome e parla meco,</l>
+<l>fammi gesti cortesi e la man prende.</l>
+<l>-Non mi conosci - disse - e nacqui teco,</l>
+<l>dove l'Aufido al mar suo dritto rende. -</l>
+<l>A l'ora e lui conobbi e 'l proprio nome</l>
+<l>ai panni, a la statura ed a le chiome.</l></lg>
+<lg type="ottava">
+<l>Corro a fargli cortesi abbracciamenti,</l>
+<l>e che non corsi pria perdon li chieggio.</l>
+<l>Dissi: - Maestro mio, tanti tormenti</l>
+<l>dar m'incomincia Amor, che ne vaneggio.</l>
+<l>Son quasi cieco e sono i lumi spenti</l>
+<l>de gli occhi miei tanto ch'a pena veggio.</l>
+<l>Ei disse: - E sentirai pena maggiore</l>
+<l>quando fia tuo com'è nostro Signore.</l></lg>
+<lg type="ottava">
+<l>Tu fai gran fallo indegno di perdono</l>
+<l>mentre, servendo Amor, agghiacci e sudi,</l>
+<l>ch'io sempre fei di te presagio buono</l>
+<l>quand'eri meco già negli anni rudi;</l>
+<l>e fora il nome tuo di qualche suono</l>
+<l>se pur seguissi que' lodati studi</l>
+<l>i quai tralasci omai, fattoti servo</l>
+<l>d'un fanciul niquitoso, empio e protervo. -</l></lg>
+<lg type="ottava">
+<l>-Saggio Taddeo - diss'io - per cui s'impingua</l>
+<l>la schiera degl'ingegni alti e sublimi,</l>
+<l>dimmi, avrò tanto duol, che se n'estingua</l>
+<l>questa caduca spoglia, e che n'estimi?</l>
+<l>E se ciò ch'io so dir con questa lingua</l>
+<l>presi da te dagli elementi primi,</l>
+<l>fa che guidato ancor da la tua verga</l>
+<l>vegga il palagio dove Amor alberga.</l></lg>
+<lg type="ottava">
+<l>E' mi rispose: -Il duol che soffrirai</l>
+<l>uopo non è ch'a dir prenda fatica,</l>
+<l>però ch'a breve andar quanto n'avrai</l>
+<l>per te stesso il saprai, senza che 'l dica;</l>
+<l>ma ben teco verrò, mentre vedrai</l>
+<l>il laberinto che gli amanti intrica,</l>
+<l>onde pensar potrai quant'ha valore</l>
+<l>questo a te novo, a me vecchio signore.</l></lg>
+<lg type="ottava">
+<l>Il bel palagio in quadro era disposto,</l>
+<l>e cento spanne era ogni faccia lunga.</l>
+<l>Non si ricorda alcun sì ben composto,</l>
+<l>che questo non l'avanzi di gran lunga.</l>
+<l>Anfiteatro di qualunque agosto</l>
+<l>non giunse a quello u' par che questi giunga,</l>
+<l>ed era poscia con bel modo adorno</l>
+<l>da quattro logge circondato intorno.</l></lg>
+<lg type="ottava">
+<l>Ch'eran di lucid'oro e stavan sopra</l>
+<l>colonne di diamanti e di piropi,</l>
+<l>e intesi che cent'anni la bell'opra</l>
+<l>fe' sudar con Vulcan tutti i ciclopi:</l>
+<l>e quando avvien che l'Ebro e l'Indo scopra,</l>
+<l>co' scitici paesi ed etiopi,</l>
+<l>gemme più rare con mirabil cura</l>
+<l>fregiavan tutte le superbe mura.</l></lg>
+<lg type="ottava">
+<l>-Ecco- mi disse la mia fida scorta,-</l>
+<l>quest'è l'albergo ove Cupido alloggia,</l>
+<l>e se 'l brami veder quest'è la porta;</l>
+<l>que' sono i gradi onde vi s'entra e poggia. -</l>
+<l>In questo saglie, io seguo, ella mi porta</l>
+<l>tanto che giunsi a la primera loggia,</l>
+<l>onde con lieto cor vedea vicina</l>
+<l>col roco mormorar l'onda marina.</l></lg>
+<lg type="ottava">
+<l>Quivi sento d'Amor grati lamenti</l>
+<l>di fauni, di silvani e di pastori,</l>
+<l>e veggo lieti in schiere a diece a venti</l>
+<l>volar per l'aria i pargoletti Amori.</l>
+<l>Chi va cantando dilettosi accenti</l>
+<l>tra verdi rami di fioriti allori,</l>
+<l>chi fa ghirlande, e chi da verdi foglie</l>
+<l>umidi fiori di rugiada coglie.</l></lg>
+<lg type="ottava">
+<l>Molti vegg'io con fanciullesche prove</l>
+<l>andar scherzando su per l'aurei palchi;</l>
+<l>chi giunge note dilettose e nove</l>
+<l>a suon d'arpe, di cetre e d'oricalchi,</l>
+<l>e chi ballando gaiamente move</l>
+<l>or tardi e saldi, or frettolosi valchi;</l>
+<l>chi tende l'arco ed empie la faretra,</l>
+<l>chi aguzza strai ne la volubil pietra.</l></lg>
+<lg type="ottava">
+<l>Questi con gran furor volgendo mena</l>
+<l>la cote che rotando arde e sfavilla;</l>
+<l>di lacrime quel poi tien l'urna piena,</l>
+<l>che sopra il sasso gocciolando stilla;</l>
+<l>e chi rete apparecchia, e chi catena</l>
+<l>che privan noi di libertà tranquilla.</l>
+<l>La più parte però quell'opra fanno</l>
+<l>che serve al nostro doloroso affanno.</l></lg>
+<lg type="ottava">
+<l>Veggio in un palco poi far soma sopra</l>
+<l>colonne di smeraldo un lucid'arco,</l>
+<l>posto con arte a ciò la porta copra</l>
+<l>ch'a la stanza d'Amor ne porge il varco.</l>
+<l>Disse il maestro mio: - Veggiam quest'opra</l>
+<l>che fu del fabro un glorioso incarco,</l>
+<l>di cui Vulcano avea con studio molto</l>
+<l>di bei diamanti fabricato il volto.</l></lg>
+<lg type="ottava">
+<l>Quel che serra il fe' d'oro, il quale abonda</l>
+<l>di perle, di zaffiri e di giacinti.</l>
+<l>La terra vi scolpio che 'l mar circonda</l>
+<l>coi ciel di stelle lucide dipinti;</l>
+<l>veri i ciel crederesti e vera l'onda,</l>
+<l>vera la terra e gli alberi non finti.</l>
+<l>Ben parve opra di quel che con tant'arte</l>
+<l>e tempra i tuoni a Giove e l'armi a Marte.</l></lg>
+<lg type="ottava">
+<l>Vera scolpito quel che 'l mondo accora</l>
+<l>sul carro trïonfal pien di trofei,</l>
+<l>coi destrier bianchi, e v'eran sculti ancora</l>
+<l>legati innanzi al carro uomini e dèi,</l>
+<l>sì mesti che pareano a l'ora a l'ora</l>
+<l>romper le voci ai dolorosi omei.</l>
+<l>V'era Saturno con la falce adonca,</l>
+<l>che le feconde membra al padre tronca.</l></lg>
+<lg type="ottava">
+<l>Caggion le tronche membra e le nasconde</l>
+<l>il mar dove ad Egeo la vita spiacque;</l>
+<l>spira zefiro vago e gonfia l'onde</l>
+<l>e nasce bianca spuma in mezzo a l'acque;</l>
+<l>il mar la spinge a l'arenose sponde,</l>
+<l>onde Venere bella al mondo nacque,</l>
+<l>e la spuma parea con bel lavoro</l>
+<l>voltarsi in vaghe membra e chiome d'oro.</l></lg>
+<lg type="ottava">
+<l>Stava la bella dea col tergo vòlto</l>
+<l>(che sì la fe' con arte il dotto fabro),</l>
+<l>però che quando fe' polito e colto</l>
+<l>scolpendo quel metal ruvido e scabro,</l>
+<l>non li bastava il cor farle il bel volto,</l>
+<l>quantunque con lei giacque a labro a labro</l>
+<l>e con lei prese altro maggior diletto,</l>
+<l>giungendo gota a gota e petto a petto.</l></lg>
+<lg type="ottava">
+<l>N'andammo dentro poi che i nostri rai</l>
+<l>stanchi già di mirar, non sazi fôro,</l>
+<l>e sculti in varie fogge vi mirai</l>
+<l>le mura e i pavimenti ch'eran d'oro.</l>
+<l>Ma la materia vinta era d'assai</l>
+<l>da la bell'opra e dal sottil lavoro.</l>
+<l>Il duca mio mi scuote e vuol ch'io loda,</l>
+<l>e poi la lingua a tal favella snoda.</l></lg>
+<lg type="ottava">
+<l>- La possanza d'Amor, l'altero nume,</l>
+<l>è tal, ch'ogni valor si lascia a dietro,</l>
+<l>e in dirla ardir saria d'uom che presume</l>
+<l>chiuder l'acque del mare in picciol vetro;</l>
+<l>onde che farò io se non ho lume</l>
+<l>che da me sgombri il velo oscuro e tetro?</l>
+<l>Ma spero in lui che tanto me ne presti</l>
+<l>ch'io scopra in parte i suoi famosi gesti.</l></lg>
+<lg type="ottava">
+<l>Quantunque il sommo Giove ancor si vanti</l>
+<l>ch'abbia scettro del ciel ed abbia il tuono,</l>
+<l>e de la vinta schiera de' giganti</l>
+<l>faccia sentire al mondo il chiaro suono,</l>
+<l>or che gli giova esser primer tra quanti</l>
+<l>là su celesti dèi raccolti sono,</l>
+<l>se contra lui ne vien con più valore</l>
+<l>questo fanciullo che l'infiamma il core?</l></lg>
+<lg type="ottava">
+<l>Vedi scolpito qui con opra bella</l>
+<l>costui, che sé movendo il mondo move,</l>
+<l>che lascia il manto, la corona e quella</l>
+<l>forma primera e che non è più Giove,</l>
+<l>che la sferza d'Amor tanto il flagella,</l>
+<l>ch'in pioggia d'oro liquefatto piove,</l>
+<l>e Danae bella in forma d'aureo nembo</l>
+<l>il fallace amator raccoglie in grembo.</l></lg>
+<lg type="ottava">
+<l>Mira una donna ignuda e mira quello</l>
+<l>candido augel che ne le braccia accoglie:</l>
+<l>Giove in cigno gentil, canoro e bello</l>
+<l>è questi, e quella è la tindarea moglie;</l>
+<l>Amor lo sprona che diventi augello</l>
+<l>e volga in piume le divine spoglie,</l>
+<l>e cangi il ciel co' fiumi e di quel tuono</l>
+<l>che già possente il fe' paventi il suono.</l></lg>
+<lg type="ottava">
+<l>Ecco che pur Amor tanto l'infesta,</l>
+<l>che bianco toro per Europa torna,</l>
+<l>e mugge tra gli armenti, e quella testa</l>
+<l>che tenne la corona or tien le corna.</l>
+<l>La figlia del buon re ne fa gran festa</l>
+<l>e di fronde e di fior tutto l'adorna.</l>
+<l>Gode l'amante e mentre il tergo abbassa,</l>
+<l>da la leggiadra man toccar si lassa.</l></lg>
+<lg type="ottava">
+<l>Montagli sopra la donzella stolta,</l>
+<l>quel entra in mare e lascia la campagna.</l>
+<l>Piang'ella; il predator poco l'ascolta,</l>
+<l>e l'onda i piedi della donna bagna.</l>
+<l>Ella se ne sgomenta e in sé raccolta</l>
+<l>stringe le cosce ed alza le calcagna,</l>
+<l>e mentre con timor si volge intorno,</l>
+<l>l'una man tiene il dorso e l'altra il corno.</l></lg>
+<lg type="ottava">
+<l>Quivi due volte in aquila si vede</l>
+<l>con negre penne che per l'aria vola;</l>
+<l>rape la bella Asteria e Ganimede</l>
+<l>ne la montagna Idea con l'unghie invola;</l>
+<l>poi per torbar quell'onorate tede</l>
+<l>prende d'Anfitrïon forma e parola,</l>
+<l>e così gode sotto falso aspetto</l>
+<l>de la tirinzia donna il casto letto.</l></lg>
+<lg type="ottava">
+<l>Or divien foco, or le divine terga</l>
+<l>prendono di serpente orrende forme;</l>
+<l>satiro appresso ne le selve alberga,</l>
+<l>e tien l'aspetto uman, caprigne l'orme;</l>
+<l>tien la sampogna in collo, in man la verga,</l>
+<l>e a guisa di pastor pasce le torme.</l>
+<l>Chi n'è cagion, chi fa lasciarli il cielo,</l>
+<l>fuor che il valor de l'amoroso telo?</l></lg>
+<lg type="ottava">
+<l>Poi vedi Apollo quanto in pregio saglia</l>
+<l>e vada altero del serpente ucciso,</l>
+<l>che spregia Amore, e, come poco vaglia,</l>
+<l>de la saetta sua fa scherno e riso,</l>
+<l>e la baldanza poi perde in Tessaglia</l>
+<l>dal dispregiato stral tutto conquiso,</l>
+<l>e mentre egli si vanta e spregia Amore,</l>
+<l>la figlia di Peneo l'impiega il core.</l></lg>
+<lg type="ottava">
+<l>Mira con quanta forza Amor possente</l>
+<l>gli acuti dardi furibondo vibra.</l>
+<l>Langue il ferito dio e già si sente</l>
+<l>suggere il sangue suo di fibra in fibra;</l>
+<l>lascia il ciel, lascia il carro e il lume ardente,</l>
+<l>né più li cal di Capricorno o Libra;</l>
+<l>alfin dal tronco che sua ninfa asconde,</l>
+<l>poi che il frutto non può, coglie le fronde.</l></lg>
+<lg type="ottava">
+<l>Vedilo appresso senza plettro e cetra</l>
+<l>cinto di pelle in una pietra assiso.</l>
+<l>Non dico allor che dal signor de l'Etra</l>
+<l>gli fu col tuono il caro figlio ucciso,</l>
+<l>quando senza saette, arco e faretra</l>
+<l>pascea gli armenti presso il fiume Anfriso,</l>
+<l>ma quando usa tal veste e questi panni,</l>
+<l>acciò la figlia di Macareo inganni.</l></lg>
+<lg type="ottava">
+<l>Lasciam doglioso il regnator di Delo,</l>
+<l>veggiam Mercurio omai con gli occhi accorti,</l>
+<l>ch'in terra sta, non già che lasci il cielo</l>
+<l>per ambasciata che del padre apporti,</l>
+<l>ma perché l'avventò l'acuto telo</l>
+<l>Amor con colpi impetüosi e forti;</l>
+<l>arde per Erse bella e premio d'auro</l>
+<l>per lei promette a la maligna Aglauro.</l></lg>
+<lg type="ottava">
+<l>Guarda Saturno poi canuto e bianco</l>
+<l>vecchio, d'anni ripien, privo di sangue,</l>
+<l>poi che il foco l'entrò nel freddo fianco,</l>
+<l>poi che gli rose il cuor quel rigid'angue,</l>
+<l>con quanta pena travagliato e stanco</l>
+<l>presso a la donna sua piangendo langue,</l>
+<l>e per timor de la gelosa moglie</l>
+<l>in forma di caval cangia le spoglie.</l></lg>
+<lg type="ottava">
+<l>Vedi cinta di rai la bella dea,</l>
+<l>ch'illustra il ciel con luminosa faccia,</l>
+<l>e tocca dal figliuol di Citerea,</l>
+<l>da l'agghiacciato petto il freddo scaccia,</l>
+<l>e per sfogar l'ardor che l'accendea,</l>
+<l>l'amato Endimïon raccoglie in braccia.</l>
+<l>Sappi che non è cor sì freddo e saldo</l>
+<l>che non s'infiammi d'amoroso caldo.</l></lg>
+<lg type="ottava">
+<l>Questo medesmo stral, pungente, acuto</l>
+<l>punse Venere bella, e con lei Marte,</l>
+<l>a cui, senza giovar maglia né scudo,</l>
+<l>passò del petto la più bella parte.</l>
+<l>Questa impresa non v'è, ché il fabbro astuto</l>
+<l>quivi intagliarla non la volse ad arte,</l>
+<l>ché le piaghe scoprir gli sapea forte,</l>
+<l>amare a lui, ma dolci a la consorte.</l></lg>
+<lg type="ottava">
+<l>Or, che speme avrem noi se non gli calse</l>
+<l>d'aver pietà di quella ond'egli nacque,</l>
+<l>se non è dio che sotto vere o false</l>
+<l>forme da' lacci suoi preso non giacque?</l>
+<l>Ecco il possente dio de l'onde salse</l>
+<l>com'arde di tal fiamma in mezzo l'acque,</l>
+<l>e quel liquor ch'estingue ogn'altra fiamma</l>
+<l>non può smorzar di questa oncia né dramma.</l></lg>
+<lg type="ottava">
+<l>Va pien d'ardor, né cosa par che trove</l>
+<l>che scemi il foco che nel cor l'abonda,</l>
+<l>e che per pianto che da gli occhi piove,</l>
+<l>non per pioggia celeste accresce l'onda.</l>
+<l>Né seco ha dio marino il qual non prove</l>
+<l>la ferita mortal, dura e profonda.</l>
+<l>Seco Proteo sospira e con suon rauco</l>
+<l>piagne Tritone, Melicerta e Glauco.</l></lg>
+<lg type="ottava">
+<l>Questo crudel che furïosi e folli</l>
+<l>sovente, ahi lasso, a sospirar c'invoglia,</l>
+<l>non pensar, figliuol mio, che si satolli</l>
+<l>perché porti del ciel l'opima spoglia,</l>
+<l>o baste il vinto dio de' regni molli</l>
+<l>a sbramar di costui l'ingorda voglia,</l>
+<l>ché vuol del resto impero, e per gir dentro</l>
+<l>passar la terra e penetrare al centro.</l></lg>
+<lg type="ottava">
+<l>Or volgi gli occhi e vedi in vista altera</l>
+<l>arder Pluton ne la tartarea foce;</l>
+<l>strano a veder, quel ch'a le fiamme impera,</l>
+<l>quello a cui tanto ardor punto non noce,</l>
+<l>or nel suo regno, in mezzo la sua schiera.</l>
+<l>poca fiamma d'Amor lo scalda e coce.</l>
+<l>Seco ha chi fu da lui, come da vento,</l>
+<l>vista, amata e rapita in un momento.</l></lg>
+<lg type="ottava">
+<l>Quella è una calca di mortali invitti,</l>
+<l>sepolti ancor ne l'amorosa tomba,</l>
+<l>e ben ch'abbian nel lembo i nomi scritti,</l>
+<l>e di lor suoni ogni famosa tromba,</l>
+<l>io pur ti mostrerò fra tanti afflitti</l>
+<l>un sol di cui più chiaro il suoi, rimbomba.</l>
+<l>Or alza gli occhi e quel vestito mira</l>
+<l>di pelle di leon, come sospira.</l></lg>
+<lg type="ottava">
+<l>Questi è l'invitto e valoroso Alcide</l>
+<l>che prima sopra 'l tergo il ciel sostiene,</l>
+<l>e tanto al suo gran cor la forza arride,</l>
+<l>che di mille trofei superbo viene;</l>
+<l>poi quella man che tanti mostri uccide</l>
+<l>aspo e conocchia tra le donne tiene,</l>
+<l>e quel libero cor, quel forte petto</l>
+<l>femina or vince e tien legato e stretto.</l></lg>
+<lg type="ottava">
+<l>Io dirti non potrei quanti ne mena</l>
+<l>a la prigion questo fanciul malvagio,</l>
+<l>onde, poi che al mio dir manca la lena,</l>
+<l>conchiudo per far breve il mio vïaggio:</l>
+<l>non è cosa celeste né terrena</l>
+<l>in cui d'Amor non splenda il chiaro raggio;</l>
+<l>né vive alcun di tanto ardir ch'afferme</l>
+<l>ch'in cor non abbia l'amoroso verme.</l></lg>
+<lg type="ottava">
+<l>E se pur vedi alcun che faccia festa</l>
+<l>che viva senz'Amor for de la torma,</l>
+<l>dico ch'Amor è in lui ma non l'infesta</l>
+<l>e par che sonnacchioso in lui si dorma;</l>
+<l>ma se dal lungo sonno egli si desta,</l>
+<l>so che vera terrà questa mia norma.</l>
+<l>Qui tacque il duca mio, né più dir volse</l>
+<l>e de la sciolta lingua il freno accolse.</l></lg>
+<lg type="ottava">
+<l>Allor vidd'io Cupido, intorno a cui</l>
+<l>stava una turba di mill'altri Amor,</l>
+<l>ch'in età gli eran pari, ma di lui</l>
+<l>nel grado e negli uffici eran minori,</l>
+<l>e mi pens'io ch'eran que' frati sui</l>
+<l>ch'a la gente plebea pungono i cori;</l>
+<l>e viddi una colonna in cui sospese</l>
+<l>stavan le spoglie de le vinte imprese.</l></lg>
+<lg type="ottava">
+<l>Ch'era d'aureo color, ma trasparente,</l>
+<l>non so se di crisolito o d'elettro.</l>
+<l>V'era di Giove il tuon, v'era il tridente</l>
+<l>del dio de l'acque e di Pluton lo scettro;</l>
+<l>di Marte vi pendea l'elmo lucente,</l>
+<l>l'arco d'Apollo e l'indorato plettro,</l>
+<l>e tra mill'altri indìci di sue prove</l>
+<l>il caduceo del messaggier di Giove.</l></lg>
+<lg type="ottava">
+<l>La scorta mi soggiunse: - Ecco l'altero</l>
+<l>tiranno che dal mondo è detto Amore.</l>
+<l>Quei son l'arco e gli stral, quest'è l'arciero</l>
+<l>che si trova la via per gli occhi al core;</l>
+<l>quest'è quel foco vïolento e fero</l>
+<l>ch'accende ogn'alma di cocente ardore.</l>
+<l>Ma déi pensar ch'esser non può sì crudo</l>
+<l>fanciul di poca età, senz'occhi e ignudo.</l></lg>
+<lg type="ottava">
+<l>Non è fanciul perché la madre il mande</l>
+<l>poc'anzi for di grembo a farne oltraggi,</l>
+<l>ch'ei nacque a l'or quand'erano le ghiande</l>
+<l>cibo de l'uom sotto le querce e i faggi;</l>
+<l>ma perché il suo valor sia così grande,</l>
+<l>che faccia rimbambire i vecchi saggi:</l>
+<l>e cieco è per cagion ch'accieca noi,</l>
+<l>a ciò ne scorga ai precipizi suoi.</l></lg>
+<lg type="ottava">
+<l>Non che non vegga ove lo stral rivolga,</l>
+<l>sì che non opri il doloroso effetto,</l>
+<l>ché, senza che dagli occhi il velo sciolga,</l>
+<l>sa ben trovar nascoso un cor nel petto;</l>
+<l>e s'ora il vedi ignudo, è che ci tolga</l>
+<l>quella vesta rea de l'intelletto,</l>
+<l>però che di ragion l'animo spoglia</l>
+<l>e ne fa preda a la sfrenata voglia.</l></lg>
+<lg type="ottava">
+<l>Ma perché del pensier spiegate l'ali</l>
+<l>ti veggo, e forse tacito contempli</l>
+<l>perché 'l chiamano dio tutti i mortali,</l>
+<l>e porgon voti ne' materni templi,</l>
+<l>s'a tanti danni e' dà cagion, de' quali</l>
+<l>recar potresti mille e mille essempli;</l>
+<l>né giustamente può chiamarsi dio</l>
+<l>chi causa effetto scelerato e rio;</l></lg>
+<lg type="ottava">
+<l>dico che 'l fanno per cagion ch'adopra</l>
+<l>cose sopra natura altere e nove,</l>
+<l>perché vincere il mondo e poggiar sopra</l>
+<l>la machina celeste e vincer Giove,</l>
+<l>è tropp'alto poter, né mi par opra</l>
+<l>che convenga a valor d'umane prove:</l>
+<l>e ben convien che per gran dio s'accetti</l>
+<l>chi crea divini e soprumani effetti.</l></lg>
+<lg type="ottava">
+<l>Perché tutt'in un tempo e ride e geme</l>
+<l>l'amante pien di gioia e di dolore,</l>
+<l>arde nel ghiaccio e grida e tace insieme,</l>
+<l>talor agghiaccia nel più caldo ardore,</l>
+<l>e vive e more spesso, ardisce e teme,</l>
+<l>e in vita si sostien senz'alma e core</l>
+<l>e s'una morte l'altrui fila incide,</l>
+<l>Amor glie ne dà mille e non l'uccide.</l></lg>
+<lg type="ottava">
+<l>La morte gli è diletto, il viver noia,</l>
+<l>e s'esce da l'affanno, entra al martìre,</l>
+<l>e brama morte, e s'avvien poi che moia,</l>
+<l>non però sente il gran dolor finire,</l>
+<l>ché, sentendo il morir, tant'è la gioia,</l>
+<l>che more, e, perché mor, non può morire;</l>
+<l>e per cosa mirabile s'addita</l>
+<l>se quel ch'ad altri toglie a lor dà vita.</l>
+</lg>
+</div1>
+
+<div1 type="parte">
+<head>II</head>
+
+<lg type="ottava">
+<l>Deh, se quel foco onde fui sempre acceso</l>
+<l>smorzava, o donne, e quelle voglie tante,</l>
+<l>quando m'avvidi ch'a soffrir gran peso</l>
+<l>sovra gli omeri miei non era Atlante,</l>
+<l>non avrei quasi il vostro onore offeso</l>
+<l>degno ch'eroica e chiara tromba il cante,</l>
+<l>né temerei che 'l cor non manchi e l'alma</l>
+<l>sotto sì bella ed onorata salma.</l></lg>
+<lg type="ottava">
+<l>Ma pur dirò di voi tanto, ch'io spero</l>
+<l>che stanco ne sarò pria che satollo,</l>
+<l>benché quando in me nacque il gran pensiero</l>
+<l>per cui fatto più ch'uomo al ciel m'estollo,</l>
+<l>spirarmisi dovea quanto mestiero</l>
+<l>m'era nel petto del furor d'Apollo,</l>
+<l>o questa bell'impresa e valor vostro</l>
+<l>esser materia a più lodato inchiostro.</l></lg>
+<lg type="ottava">
+
+
+<l>Lo ciel darvi dovea, donne leggiadre,</l>
+<l>come gran cor, così superba tromba;</l>
+<l>ma sempre a chi matrigna, a chi fu madre</l>
+<l>fortuna, a chi fu corvo, a chi colomba,</l>
+<l>come a que' primi de le greche squadre</l>
+<l>di cui l'opra non fu quanto rimbomba,</l>
+<l>ché fu più dotto assai quel che ne scrisse;</l>
+<l>che forte Achille e che sagace Ulisse.</l></lg>
+<lg type="ottava">
+<l>Natura di tal biasmo avere assalto</l>
+<l>non dee, che non produca eccelsi cori,</l>
+<l>perché ne diè Sincero che 'l gran salto</l>
+<l>al ciel fe' da le selve e da' pastore;</l>
+<l>ne diè quell'altro che cantò tant'alto</l>
+<l>le donne, i cavalier, l'armi e gli amori:</l>
+<l>vive la fama e i corpi lor fu sorte</l>
+<l>salvar da l'unghie de l'avara morte.</l></lg>
+<lg type="ottava">
+<l>Molti son vivi, oltra molt'altri spenti,</l>
+<l>che potrebbon cantar quel ch'io celebro:</l>
+<l>potrebbe il Tasso, e par che si contenti</l>
+<l>de l'ombra de l'amato suo ginebro;</l>
+<l>il grave Molza fa sonori accenti</l>
+<l>equali a que' di pria sentire al Tebro,</l>
+<l>ma questi ed altri Amor consuma in pianti,</l>
+<l>a ciò ch'alcun di voi non scriva o canti.</l></lg>
+<lg type="ottava">
+<l>perché dà lor tanti tormenti e tali,</l>
+<l>ch'ognun prende materia da sua pena:</l>
+<l>Bembo già punto da gli acuti strali</l>
+<l>pianse e cantò la sua con larga vena;</l>
+<l>or scrive istorie e volge i vecchi annali</l>
+<l>de la gran terra che Nettuno affrena.</l>
+<l>Ma che vi parlo degli strani, dove</l>
+<l>mestier non fora irne cercando altrove?</l></lg>
+<lg type="ottava">
+<l>Potrebbe farvi dopo morte dive</l>
+<l>una di voi che 'l sesso vostro onora,</l>
+<l>una che in questa età la prima vive,</l>
+<l>se non in quanto è la seconda aurora,</l>
+<l>poich'è pur donna e ne l'istesse rive</l>
+<l>di questa impresa fu gran parte ancora.</l>
+<l>Ma tanto ella si specchia al suo gran sole,</l>
+<l>che gli occhi ad altra luce aprir non vole.</l></lg>
+<lg type="ottava">
+<l>Potrebbe il Martiran, se col bel canto</l>
+<l>non fosse altrove e con l'ingegno accinto,</l>
+<l>poi che veste di Febo il sacro manto</l>
+<l>e porta de' bei rami il capo cinto;</l>
+<l>e se la mente rivolgesse alquanto</l>
+<l>da' segreti pensier di Carlo Quinto,</l>
+<l>vostr'opre udir faria dal Mauro a l'Indo</l>
+<l>e risuonar di voi Parnasso e Pindo.</l></lg>
+<lg type="ottava">
+<l>E toglier vi potria d'oscura tomba</l>
+<l>il dotto Alifio con sua voce sola,</l>
+<l>perché qual pura e candida colomba,</l>
+<l>s'in Tebro siede o se per l'Arno vola,</l>
+<l>or par che giunga al suon di quella tromba</l>
+<l>che 'l pietoso troiano a morte invola,</l>
+<l>ed or che in questa età tal canto porga</l>
+<l>qual già s'intese fra Durenza e Sorga.</l></lg>
+<lg type="ottava">
+<l>Vive il Capicio in cui son grazie infuse</l>
+<l>quante infonder ne pote il santo coro</l>
+<l>che fu nudrito dalle dotte Muse,</l>
+<l>e coronato poi di sacro alloro</l>
+<l>e per lo ciel con ali ampie e diffuse</l>
+<l>volando se ne va cigno canoro,</l>
+<l>e vedesi toccar veloce e bianco</l>
+<l>là dove uman pensier non giunge unquanco.</l></lg>
+<lg type="ottava">
+<l>E con altr'opra che di sculti sassi</l>
+<l>potria far vostre prove al mondo espresse</l>
+<l>Rotilio vostro e mio, se i maggior passi</l>
+<l>del gran Sincero suo seguir volesse</l>
+<l>in quella guisa che calcando stassi</l>
+<l>l'orme di lui che ne l'arene impresse;</l>
+<l>ma perché a l'empio ciel, donne, non piacque</l>
+<l>ch'ei cantasse di voi se con voi nacque?</l></lg>
+<lg type="ottava">
+<l>Anzi ha voluto pria ch'a i miei versi acri</l>
+<l>foste materia ed al mio angusto petto</l>
+<l>voi che fareste a mille ingegni sacri,</l>
+<l>a mille dolci stili ampio soggetto,</l>
+<l>acciò che 'l nome vostro nei lavacri</l>
+<l>di Lete fosse di ner'acque infetto;</l>
+<l>ma la virtù ch'infonde il divin mastro</l>
+<l>non teme obliquo ciel, né malign'astro.</l></lg>
+<lg type="ottava">
+<l>Che 'l vostro nome va con proprie piume</l>
+<l>senza mestier ch'altri per l'aria il porte;</l>
+<l>vostra virtù porge per sé più lume</l>
+<l>che di Titon la lucida consorte:</l>
+<l>ond'io non scrivo a ciò tal lume allume</l>
+<l>che con suoi raggi dà splendor sì forte,</l>
+<l>ma per mostrar col verso mio qualch'ombra</l>
+<l>del bosco de' pensier che 'l cor m'ingombra.</l></lg>
+<lg type="ottava">
+<l>Amor, ch'io dissi già ch'a la rivera</l>
+<l>di Baia audace e furiboado venne,</l>
+<l>e fe' la rocca e poi con forza altera</l>
+<l>del paese gentil l'imperio ottenne;</l>
+<l>e che facesse schermo alcun non era</l>
+<l>dov'e' volgea le minacciose penne;</l>
+<l>pur segue la vittoria, e dove arriva,</l>
+<l>un cor l'empie di duol, di gioia il priva.</l></lg>
+<lg type="ottava">
+<l>Scorge gli amanti ai precipizi ciechi,</l>
+<l>poi che gli ha carchi di gravose salme,</l>
+<l>né mai viene a l'albergo che non rechi</l>
+<l>mille trofei, mille onorate palme;</l>
+<l>ma, benché mille e mille amanti accechi,</l>
+<l>impiaghi mille cori, arda mill'alme,</l>
+<l>poco gli strai, poco sé stesso e poco</l>
+<l>stima la forza del suo vivo foco:</l></lg>
+<lg type="ottava">
+<l>perché non pensa al gran desio por fine,</l>
+<l>fin che non ha vittorïosa fronda</l>
+<l>de le leggiadre ninfe pellegrine</l>
+<l>del bel paese che Sebeto inonda;</l>
+<l>il qual, sentendo i furti e le rapine,</l>
+<l>par che frema di rabbia e si confonda,</l>
+<l>onde se stesso accoglie e tosto chiama</l>
+<l>le vaghe ninfe sue ch'egli tant'ama.</l></lg>
+<lg type="ottava">
+<l>In fondo al fiume sta tra sassi vivi</l>
+<l>cavata in pietra una spelonca vecchia,</l>
+<l>ond'escon limpid'acque in chiari rivi,</l>
+<l>sì che mirar sé può chi vi si specchia.</l>
+<l>Quest'è la stanza di Sebeto, e quivi</l>
+<l>ragionar con le ninfe s'apparecchia;</l>
+<l>qui siede il vecchiarel dirotto e franto</l>
+<l>con veste d'erba e limaccioso manto.</l></lg>
+<lg type="ottava">
+<l>Bianchi i capei, bianca la barba e bianca</l>
+<l>l'una e l'altra palpebra il vecchio tiene;</l>
+<l>tiene a man destra un'urna che non manca</l>
+<l>mandar acque a trovar acque terrene;</l>
+<l>un gran tronco di salce ha ne la manca</l>
+<l>che l'invecchiate membra gli sostiene,</l>
+<l>e di ghirlande di palustri fronde</l>
+<l>cinge le tempie e dà le leggi a l'onde.</l></lg>
+<lg type="ottava">
+<l>Le belle ninfe che 'l pendente danno</l>
+<l>scorgono con accorta providenza,</l>
+<l>in schiera giunte lietamente vanno</l>
+<l>a trovar di costui l'alta presenza,</l>
+<l>e con atti cortesi insieme fanno</l>
+<l>al venerando vecchio riverenza;</l>
+<l>che poi che lieto e pien d'amor l'accolse,</l>
+<l>frenò la lingua a loro, a sé la sciolse.</l></lg>
+<lg type="ottava">
+<l>- Perché dicea - di cor pudìco il vanto</l>
+<l>fra ninfe avete che pudìche sono,</l>
+<l>sappiate, figlie mie, che care tanto</l>
+<l>sete a me voi quanto a me stesso io sono;</l>
+<l>onde di voi sempre mi calse quanto</l>
+<l>conviene a padre diligente e buono,</l>
+<l>ed or per l'onor vostro ogni mio senso,</l>
+<l>ogni mia cura, ogni pensier dispenso.</l></lg>
+<lg type="ottava">
+<l>Sento ch'Amor colmo d'orgoglio e rabbia</l>
+<l>venuto sia presso Miseno e Gauro,</l>
+<l>e per ferirvi i cori e porvi in gabbia</l>
+<l>racconcia i lacci e le quadrella d'auro</l>
+<l>né lascia modo da tentar perch'abbia</l>
+<l>di voi le chiome sue cinte di lauro.</l>
+<l>È tempo omai vostra virtù raccôrre</l>
+<l>e contra lui tutte le forze opporre.</l></lg>
+<lg type="ottava">
+<l>Ecco la preda, ecco l'acquisto certo;</l>
+<l>bisogna ch'a seguirla il can si sciolga.</l>
+<l>Per dio, non selva, non loco aspro od erto</l>
+<l>da questa impresa gli animi vi tolga.</l>
+<l>Prendete di fortuna il crine offerto</l>
+<l>pria che la parte calva vi rivolga,</l>
+<l>e sarà meglio ne' confini suoi</l>
+<l>assalir lui, pria ch'egli assalti voi.</l></lg>
+<lg type="ottava">
+<l>Né però già che non sortisca effetto</l>
+<l>sarà l'andar senza mercé d'onore,</l>
+<l>ché mostrerete almeno aver nel petto</l>
+<l>animo ardito e generoso core;</l>
+<l>bench'io sia certo che legato e stretto</l>
+<l>mi porterete trïonfando Amore,</l>
+<l>e ch'esser debbia la vittoria vostra</l>
+<l>è scritto in cielo e quest'augurio il mostra.</l></lg>
+<lg type="ottava">
+<l>L'altrier, quand'io giacea nel lido nostro</l>
+<l>dal sonno vinto al suon de la marina</l>
+<l>(sallo, ché meco fu, Vesuvio vostro,</l>
+<l>Nisida, Antiniana e Mergellina),</l>
+<l>vidi un'ingordo augel ch'aveva il rostro</l>
+<l>famelico e bramoso di rapina,</l>
+<l>che mentre un stormo di colombe assale,</l>
+<l>resta prigion privo di piume e d'ale.</l></lg>
+<lg type="ottava">
+<l>Oltra ch'a quest'augurio assai mi fidi,</l>
+<l>spero, al valor che riconosco in voi,</l>
+<l>ch'ei ha prigion, se ben tutti i sussidi</l>
+<l>avesse seco de' celesti eroi.</l>
+<l>O che bei suoni, o che famosi gridi</l>
+<l>di voi s'odranno, o che dirassi poi</l>
+<l>che quel fia prigionier ne' campi miei</l>
+<l>che vinse terra e cielo, uomini e dèi!</l></lg>
+<lg type="ottava">
+<l>Ovunque mostra Febo il raggio adorno,</l>
+<l>avrete sacri tempi e sculti marmi,</l>
+<l>e vostro nome andrà celebre intorno</l>
+<l>a suon di chiare trombe e dotti carmi,</l>
+<l>onde a me par che al rinovar del giorno</l>
+<l>senza segni aspettar ciascuna s'armi. -</l>
+<l>Così disse Sebeto e qui si tacque</l>
+<l>e gran mormorio fra le ninfe nacque.</l></lg>
+<lg type="ottava">
+<l>E che 'l faran d'Amor signore e donno</l>
+<l>empiono d'una voce la caverna;</l>
+<l>e se gli altri animai racqueta il sonno</l>
+<l>per riposar da la fatica esterna,</l>
+<l>l'ardite ninfe riposar non ponno</l>
+<l>sì che non paia quella notte eterna;</l>
+<l>ché d'assalir Cupido e sfogar l'ire</l>
+<l>la pacïenza è vinta dal desire.</l></lg>
+<lg type="ottava">
+<l>Amore a punto in quella notte istessa</l>
+<l>con novi inganni il cor di Giove toglie.</l>
+<l>L'afflitto dio che vinto si confessa,</l>
+<l>lascia la maestà, lascia la moglie;</l>
+<l>Giunon gelosa, di cordoglio oppressa,</l>
+<l>si sente rinovar l'antiche doglie,</l>
+<l>e levasi sdegnosa e drizza l'orme</l>
+<l>verso l'albergo ove Bellona dorme.</l></lg>
+<lg type="ottava">
+<l>- Ahimè - dicea parti onorata lode,</l>
+<l>parti che sia cosa di Giove digna?</l>
+<l>È mio consorte e più di me si gode</l>
+<l>la scelerata adultera maligna.</l>
+<l>Meco sempre garrir, con l'altre s'ode</l>
+<l>usar favella amabile e benigna.</l>
+<l>O cieli, o fati, o testimoni miei,</l>
+<l>de la promessa fe' santi imenei!</l></lg>
+<lg type="ottava">
+<l>Per qual cagion uomini e dèi più danno</l>
+<l>onore al mio tanto spregiato nume?</l>
+<l>s'io dormo sola sempre al più fredd'anno,</l>
+<l>di lagrime spargendo un largo fiume?</l>
+<l>e l'empie donne lietamente fanno,</l>
+<l>oimè, di Giove mio calde lor piume?</l>
+<l>Ed oltra che nel ciel mi si fa guerra,</l>
+<l>contra me veggio congiurar la terra.</l></lg>
+<lg type="ottava">
+<l>Io veggio Carlo che superbo esplica</l>
+<l>le vele al vento e con le genti strane</l>
+<l>turba la gente a me più ch'altra amica,</l>
+<l>le libiche contrade e l'africane;</l>
+<l>e vi rinova quella tema antica</l>
+<l>ch'un tempo vi portâr l'arme romane;</l>
+<l>ma chi contra costui può far difesa</l>
+<l>non che vendetta di sì grave offesa,</l></lg>
+<lg type="ottava">
+<l>se vanno i gesti suoi sì fortunati,</l>
+<l>se sua virtute ogni poter confonde?</l>
+<l>ed ha propizi i ciel, benigni i fati,</l>
+<l>e per la vela sua l'aure seconde?</l>
+<l>se faustamente tien da tutti i lati</l>
+<l>sotto le leggi sue la terra e l'onde?</l>
+<l>Dunque rivolgerò tutto il furore</l>
+<l>contra l'iniquo e tradito Amore.</l></lg>
+<lg type="ottava">
+<l>Poi ch'egli è la cagion del grave affanno,</l>
+<l>ch'io mai sempre languisca e che m'affliga;</l>
+<l>poi che tante mie ninfe armate stanno</l>
+<l>ne la campagna che Sebeto irriga,</l>
+<l>e con gran cori a dargli assalto vanno,</l>
+<l>a tôrgli le saette e la quadriga;</l>
+<l>or che si tarda più, che più s'aspetta</l>
+<l>ch'omai non faccia anch'io la mia vendetta?</l></lg>
+<lg type="ottava">
+<l>Pregoti dunque clie tu sia lor duca,</l>
+<l>che tu con loro in compagnia ne vada,</l>
+<l>e benché in lor tanta virtù riluca</l>
+<l>che non fia gran mestier di nostra spada,</l>
+<l>pur vuo' ch'in vece mia tu le conduca</l>
+<l>per agevole via, per dritta strada,</l>
+<l>e farò che Diana mi conceda</l>
+<l>che venga vosco e lasci ogn'altra preda. -</l></lg>
+<lg type="ottava">
+<l>La generosa dea risposta rende</l>
+<l>che ciò faria con diligenza molta;</l>
+<l>onora assai Giunon, licenza prende,</l>
+<l>mette gli arnesi per armarsi in nolta</l>
+<l>e con furor verso la terra scende</l>
+<l>e vien per l'aria in bianca nube avvolta;</l>
+<l>e tosto ch'ella fra le ninfe venne</l>
+<l>fu ricevuta come a dea convenne.</l></lg>
+<lg type="ottava">
+<l>Par ch'ogni ninfa di desio s'avvampi,</l>
+<l>che sian l'arme d'Amor spezzate e rotte,</l>
+<l>e in quanto dura un folgorar di lampi</l>
+<l>furon le donne in ordine ridotte;</l>
+<l>e cominciaro a traversar que' campi</l>
+<l>sotto il silenzio de l'antica notte,</l>
+<l>e givan tanto in fretta a la sicura,</l>
+<l>che già parean le minacciate mura.</l></lg>
+<lg type="ottava">
+<l>A l'or che Progne fra bei rami plora,</l>
+<l>e Filomena del suo mal si lagna,</l>
+<l>e che spira tra noi Favonio, e Flora</l>
+<l>con la fresca rugiada i campi bagna,</l>
+<l>fùr viste al primo raggio de l'aurora</l>
+<l>mille insegne spiegarsi a la campagna,</l>
+<l>e far consiglio le guerriere accorte</l>
+<l>com'assalir dovean la rocca forte.</l></lg>
+<lg type="ottava">
+<l>Conchiudon che la gente si divida</l>
+<l>sì che la schiera bipartita vegna,</l>
+<l>e l'una parte a la custodia fida</l>
+<l>de l'inclita Bellona si rassegna,</l>
+<l>e l'altra poi l'alma Diana guida</l>
+<l>sotto l'invitta e glorïosa insegna,</l>
+<l>e l'una e l'altra innanzi si rispinge</l>
+<l>si che la rocca si circonda e cinge.</l></lg>
+<lg type="ottava">
+<l>E par ch'ogni guerriera arda e sfaville</l>
+<l>e tenga il core a dar l'assalto intento.</l>
+<l>Tutte stanno attendendo i segni, e mille</l>
+<l>anni lor pare ogn'ora, ogni momento.</l>
+<l>Ecco i campi rimbombano e le ville</l>
+<l>tocchi dal suon del bellico istromento;</l>
+<l>quelle ch'odono il suon de la battaglia</l>
+<l>dànno animoso assalto a la muraglia.</l></lg>
+<lg type="ottava">
+<l>Amor dal sonno a quel romor si desta,</l>
+<l>e tutto sonnacchioso a l'arme corre;</l>
+<l>movesi con destrezza agile e presta</l>
+<l>e ratto vola al sommo d'una torre;</l>
+<l>quindi vede occupata la foresta</l>
+<l>d'armate donne, e col pensier discorre</l>
+<l>onde la gente baldanzosa sia</l>
+<l>che cerca entrar per non usata via.</l></lg>
+<lg type="ottava">
+<l>Vede con quanto ardir sopra la rocca</l>
+<l>con l'appoggiate scale ognuna ascende;</l>
+<l>entra in orgoglio che sì forte il tocca,</l>
+<l>che d'ira avvampa e di furor s'accende;</l>
+<l>e tanta copia di saette scocca,</l>
+<l>che la vista del sole a lor contende,</l>
+<l>sì che pugnano a l'ombra e da gli oltraggi</l>
+<l>difese son degli apollinei raggi.</l></lg>
+<lg type="ottava">
+<l>Al trar de' strali tanta rabbia il prese,</l>
+<l>che mille insieme ne menò talotta,</l>
+<l>né fu saetta che da l'arco scese</l>
+<l>che non restasse rintuzzata e rotta.</l>
+<l>Fiamma non fu tra quante egli n'accese</l>
+<l>che spenta e morta non restasse allotta.</l>
+<l>Amor dicea:- Ché mi consumo e sfaccio</l>
+<l>se vanno armate di diamante e ghiaccio? -</l></lg>
+<lg type="ottava">
+<l>L'ardite ninfe con valor profondo</l>
+<l>già cominciaro a superar le mura;</l>
+<l>egli pien di spavento e tremebondo</l>
+<l>patir comincia insolita paura,</l>
+<l>e quel gran dio che corse e vinse il mondo</l>
+<l>con nuove tempre di fuggir procura,</l>
+<l>poi che s'accorge alfin che nulla vale</l>
+<l>usar contra costor foco né strale.</l></lg>
+<lg type="ottava">
+<l>Cresce il furor del minaccioso stuolo</l>
+<l>l'alto rumor de la superba guerra,</l>
+<l>come talor che da l'ardente polo</l>
+<l>l'irato ciel i fulmini disserra;</l>
+<l>stordisce Amor, né può tenersi a volo</l>
+<l>si che non caggia a precipizio in terra;</l>
+<l>corron le ninfe, e chi la benda straccia,</l>
+<l>chi spenna l'ale e chi le mani allaccia.</l></lg>
+<lg type="ottava">
+<l>Chi 'l batte ne le guance e chi 'l flagella</l>
+<l>con una man nel tergo e chi con ambe;</l>
+<l>non manca chi dal capo i crini svella</l>
+<l>e chi 'l tiri per braccia e chi per gambe.</l>
+<l>Egli s'ode chiamar la madre bella</l>
+<l>con rotte voci fanciullesche e bambe.</l>
+<l>Tosto il colle tremò, tosto disparve</l>
+<l>la rocca a guisa di notturne larve.</l></lg>
+<lg type="ottava">
+<l>Poscia il vidd'io con rabbuffate chiome</l>
+<l>legate in cento nodi ambo le palme,</l>
+<l>e dissi:- O di virtute eterno nome,</l>
+<l>o magnanimi cori, o ben nat'alme,</l>
+<l>fosse nel petto mio l'ingegno, come</l>
+<l>fuor che di lodar voi d'altro non calme,</l>
+<l>a ciò che potess'io nel tempo nostro</l>
+<l>donar le lode uguali al merto vostro.</l></lg>
+<lg type="ottava">
+<l>O de la nostra età salde colonne,</l>
+<l>ch'a goder tant'onore il ciel sortilla,</l>
+<l>non è splendor nato d'antiche gonne</l>
+<l>che non paia col vostro una scintilla;</l>
+<l>e se van chiare l'amazonie donne,</l>
+<l>se tra le carte ancor luce Camilla,</l>
+<l>non va lor fama fra tant'alti seggi</l>
+<l>ch'a l'alta gloria vostra si pareggi.</l></lg>
+<lg type="ottava">
+<l>E se nel tempo degli antichi eroi</l>
+<l>molte donne in battaglia illustri fôro,</l>
+<l>nulla però schermo facevan, poi</l>
+<l>che l'assaliva Amor coi dardi d'oro.</l>
+<l>Onde di maggior gloria sête voi</l>
+<l>ch'avete vinto il vincitor di loro,</l>
+<l>anzi pur quello al cui vivace foco</l>
+<l>non bastò mai la terra, il ciel fu poco. -</l></lg>
+<lg type="ottava">
+<l>E mentre afflitto e pien di scorno rio</l>
+<l>legato e preso in potestà d'altrui</l>
+<l>contemplo meco un sì possente dio</l>
+<l>(perché presente in quel conflitto io fui),</l>
+<l>per la campagna un cavalier vegg'io</l>
+<l>solo, senz'altri in compagnia di lui,</l>
+<l>andar pungendo l'uno e l'altro fianco</l>
+<l>d'un bel destrier via più che neve bianco.</l></lg>
+<lg type="ottava">
+<l>Su l'armi sue un vestimento nero</l>
+<l>d'attorti serpi ricamato siede;</l>
+<l>«Quest'è l'ultimo ardor, quest'il primiero»,</l>
+<l>dicono i serpi a chi gli scritti vede,</l>
+<l>e porta quella lettra per cimiero</l>
+<l>che tien fra gli elementi ultima sede.</l>
+<l>Io quando vidi gl'intricati globi</l>
+<l>l'armato cavalier tosto conobbi.</l></lg>
+<lg type="ottava">
+<l>Era questi un signor saggio e cortese,</l>
+<l>la cui rara virtute ogn'alma infiamma,</l>
+<l>che tal vesta portò, dal dì ch'ascese</l>
+<l>in ciel, chi fu cagion de la sua fiamma,</l>
+<l>la qual non perch'a Dio lo spirto rese</l>
+<l>scemò di quell'ardor piccola dramma,</l>
+<l>ché fu quel foco sì vivace e forte,</l>
+<l>che l'arse in vita e più l'accese in morte.</l></lg>
+<lg type="ottava">
+<l>Tosto ch'egli mi vede, sprona e giunge</l>
+<l>vicino a me con iscoperta faccia,</l>
+<l>e con la mia la destra sua congiunge</l>
+<l>e mi raccoglie a le cortesi braccia.</l>
+<l>-Per quello stral - diss'io - ch'ancor ti punge,</l>
+<l>generoso signor, deh non ti spiaccia</l>
+<l>il nome dir de l'inclite guerriere</l>
+<l>che del novo prigion van tanto altere. -</l></lg>
+<lg type="ottava">
+<l>- Dirò - rispose - il nome di ciascuna</l>
+<l>che scorgerò tra questa lieta gente,</l>
+<l>senz'ordine serbar, perch'amo ognuna</l>
+<l>d'una fe', d'un voler tutte egualmente;</l>
+<l>e se fra tante fia per sorte alcuna</l>
+<l>che del proceder mio non si contente,</l>
+<l>ché forse il nome suo nel fine esprima,</l>
+<l>che fosse degno esser mostrato prima,</l></lg>
+<lg type="ottava">
+<l>giuro per quella tanto al cielo amica,</l>
+<l>onde deriva ancor la fiamma mia,</l>
+<l>che 'l nome di colei prima s'esplica</l>
+<l>che vien veduta da quest'occhi pria;</l>
+<l>né miro a stato, né a progenie antica,</l>
+<l>né ad altro onor ch'ereditario sia,</l>
+<l>e certo il nome suo prima direi</l>
+<l>se la vedesser pria quest'occhi miei.</l></lg>
+<lg type="ottava">
+<l>Ecco mi s'appresenta il chiaro raggio</l>
+<l>de l'invitta e magnanima Isabella;</l>
+<l>ecco che 'l mar non potrà farmi oltraggio,</l>
+<l>né tema avrò di vento o di procella,</l>
+<l>poi ch'al primo varcar del mio vïaggio</l>
+<l>scorgo sì chiara e luminosa stella,</l>
+<l>de la cui viva luce una favilla</l>
+<l>può darmi in alto mar calma tranquilla.</l></lg>
+<lg type="ottava">
+<l>Ogn'alma afflitta da noiosi affanni</l>
+<l>veggendo un guardo di costei s'appaga;</l>
+<l>la sua fama real battendo i vanni</l>
+<l>vola per tutto il mondo isnella e vaga;</l>
+<l>ella fa lieti e fortunati gli anni</l>
+<l>all'inclito Ferrando di Gonzaga,</l>
+<l>che star lieto a ragion di lei si crede</l>
+<l>più che se fosse suo ciò che il sol vede</l></lg>
+<lg type="ottava">
+<l>L'altra Isabella poi, Villamarina,</l>
+<l>al volger de' begli occhi ancor discerno,</l>
+<l>in cui si scorge di beltà divina</l>
+<l>quanto aver se ne può dal ciel superno.</l>
+<l>Quando sarà costei teco vicina,</l>
+<l>generoso Ferrando di Salerno,</l>
+<l>tra voi fra gran contesa chi di voi</l>
+<l>avrà gloria maggior ne' gesti suoi.</l></lg>
+<lg type="ottava">
+<l>Ella racconterà l'eccelsa preda</l>
+<l>che porta di Cupido al vecchio padre,</l>
+<l>poi che Cesare in Africa si veda</l>
+<l>salvar di Cristo le perdute squadre;</l>
+<l>né si saprà di cui la gloria ecceda,</l>
+<l>né di cui siano l'opre più leggiadre,</l>
+<l>ma sol che la virtù, la cortesia</l>
+<l>d'ambi egualmente soprumana sia.</l></lg>
+<lg type="ottava">
+<l>Ma perché penso che la gloria e 'l vanto</l>
+<l>brami veder di questa schiera bella,</l>
+<l>però che inteso hai ragionarne tanto</l>
+<l>da tutto il mondo che di lei favella,</l>
+<l>vedi colei che sotto oscuro manto</l>
+<l>mostra sì chiara luce: or questa è quella</l>
+<l>Vittorïa Colonna che 'l consorte</l>
+<l>tolse di man de la seconda morte.</l></lg>
+<lg type="ottava">
+<l>Di cui quant'alti sono i chiari gesti,</l>
+<l>tant'è l'altezza di ciò ch'ella scrisse,</l>
+<l>che parimente loderansi questi,</l>
+<l>egli che si fe' chiaro, ella che 'l disse:</l>
+<l>ella che fa ch'incatenato resti</l>
+<l>colui ch'al mondo libertà prescrisse,</l>
+<l>egli ch'in lui tanta virtù rilusse,</l>
+<l>ch'un re prigione al suo signor condusse.</l></lg>
+<lg type="ottava">
+<l>E Maria d'Aragona è lei che tanto</l>
+<l>altera va de le medesme spoglie,</l>
+<l>la qual, poi ch'a le donne antiche il vanto</l>
+<l>d'animo casto e di bellezza toglie,</l>
+<l>fu destinata in ciel dal Motor santo</l>
+<l>del gran signor del Vasto unica moglie,</l>
+<l>a ciò che sia del seme lor fecondo</l>
+<l>chi faccia lunga età felice il mondo.</l></lg>
+<lg type="ottava">
+<l>Ne l'assalir di questa rocca forte</l>
+<l>parve l'ardir che nel suo petto regna;</l>
+<l>né men che 'l suo degnissimo consorte</l>
+<l>fu giudicata di trionfi degna,</l>
+<l>bench'egli sempre con vittoria porte</l>
+<l>per ogni parte la cesarea insegna,</l>
+<l>e tanta grazia abbia dal ciel, ch'angusto</l>
+<l>faccia parere il mondo a Carlo augusto.</l></lg>
+<lg type="ottava">
+<l>Giovanna di costei sorella, amica</l>
+<l>d'ogni virtù conosco a i ricchi fregi,</l>
+<l>ch'a più gloria si tien l'esser pudica,</l>
+<l>di cor sincero e di costumi egregi,</l>
+<l>che l'esser nata da la stirpe antica</l>
+<l>con tanti uomini illustri e tanti regi;</l>
+<l>e pensa che colui sol lume renda</l>
+<l>che di propria virtù riluca e splenda.</l></lg>
+<lg type="ottava">
+<l>E quando fia che di sua gran beltate</l>
+<l>in altra età fra gente si favelli,</l>
+<l>ognun dirà: Perché le Parche ingrate</l>
+<l>sì tardamente a noi filano i velli?</l>
+<l>Perché dati non fummo a quella etate</l>
+<l>quando Febo volgea gli anni sì belli?</l>
+<l>Felice età quando costei fioriva;</l>
+<l>felice chi la vidde e bella e viva.</l></lg>
+<lg type="ottava">
+<l>Quell'altra è la magnanima Costanza</l>
+<l>che la gonna ducal d'Amalfi veste,</l>
+<l>e ben dimostra a la real sembianza</l>
+<l>quanto in lei piove la beltà celeste;</l>
+<l>onde non mi fid'io dirne a bastanza</l>
+<l>sì che di molto a raccontar non reste.</l>
+<l>Basti saper che sia la donna bella</l>
+<l>del grand'Alfonso d'Avalo sorella.</l></lg>
+<lg type="ottava">
+<l>E i pensier gravi in fanciullesco petto</l>
+<l>di Margherita d'Austria riconosco.</l>
+<l>Oh quanta gloria di costei prometto</l>
+<l>se l'occhio del giudicio io non ho losco.</l>
+<l>Arno, io ti veggo di costei soggetto,</l>
+<l>che già fusti signor del campo tosco,</l>
+<l>e questa servitù tanto t'acqueta</l>
+<l>ch'è più che libertà gioiosa e lieta.</l></lg>
+<lg type="ottava">
+<l>Ma ecco che nel cor tutto gioisco</l>
+<l>poi che riveggo la gran Giulia Ursina.</l>
+<l>Ma che dirò di lei, s'io non ardisco</l>
+<l>dirla donna mortal più che divina?</l>
+<l>poi che per lei risorge il valor prisco,</l>
+<l>il primo onor de la virtù latina,</l>
+<l>e poi che fe' nascendo il Tebro lieto,</l>
+<l>fa, trïonfando, altero il mio Sebeto.</l></lg>
+<lg type="ottava">
+<l>E qual verrà dal ciel benigno nume</l>
+<l>che faccia la mia vista emula al sole,</l>
+<l>a ciò ch'io mostri, e non m'abbagli il lume,</l>
+<l>onde riluce la sua bella prole?</l>
+<l>O chi a l'ingegno mio doni le piume</l>
+<l>perché tant'alto sormontando vole,</l>
+<l>che giunga a l'alte lodi onde s'onora</l>
+<l>questa leggiadra e dotta Elïonora?</l></lg>
+<lg type="ottava">
+<l>O perché mostri quel divin tesoro</l>
+<l>ch'in petto serba l'immortal Clarice,</l>
+<l>che scopre a noi qual era il secol d'oro</l>
+<l>mentre a Cupido eterna guerra indìce,</l>
+<l>il cui nome real vedran coloro,</l>
+<l>ch'avranno dopo noi l'aura nutrice,</l>
+<l>tolto di mano al tempo ladro ed empio,</l>
+<l>e l'imagine sua cinta di tempio?</l></lg>
+<lg type="ottava">
+<l>Quell'altra ch'io volea poc'anzi dirti,</l>
+<l>ch'era la bella figlia di Latona,</l>
+<l>conosco ai crini inanellati ed irti</l>
+<l>aver sembianza di Maria Cardona.</l>
+<l>Oh che gioia n'avran tuoi vaghi spirti</l>
+<l>veggendo ora i begli occhi e la persona,</l>
+<l>se già la fama de le lode intese</l>
+<l>tutta di santo ardor l'alma t'accese!</l></lg>
+<lg type="ottava">
+<l>Quest'è colei per la cui bionda testa</l>
+<l>riserbata vegg'io doppia corona:</l>
+<l>l'una per mano di Sebeto intesta,</l>
+<l>che per mercé di tal vittoria dona;</l>
+<l>l'altra che fanno con diletto e festa</l>
+<l>le sante abitatrici d'Elicona,</l>
+<l>perché farà sentir di Gange a Tile</l>
+<l>la dotta voce e l'onorato stile.</l></lg>
+<lg type="ottava">
+<l>Antonia è seco che si gloria e vanta</l>
+<l>ch'Amor per sua virtù l'impresa perde;</l>
+<l>mira un cor giovanetto e pensa quanta</l>
+<l>in più matura età sua fama esser de',</l>
+<l>poi che 'l valore è tal, la gloria è tanta</l>
+<l>sul primo fiore de l'età più verde,</l>
+<l>e rende il nome suo famoso illustre,</l>
+<l>non giunta ancora ne l'età trilustre.</l></lg>
+<lg type="ottava">
+<l>Di questo ceppo generoso ancora</l>
+<l>Diana bella vincitrice torna,</l>
+<l>ch'ove si mostra, ivi la terra indora,</l>
+<l>ivi la fa di ricche gemme adorna;</l>
+<l>e malgrado di Febo e de l'Aurora,</l>
+<l>ove il bel volto mostra ivi s'aggiorna,</l>
+<l>ivi un bel sol si scopre, ivi un bel cielo</l>
+<l>qual se di nube non l'adombri velo.</l></lg>
+<lg type="ottava">
+<l>Le due che van per queste piagge apriche</l>
+<l>mostrando di virtù ricco tesoro,</l>
+<l>sì che fra tante de le storie antiche</l>
+<l>donna non è che si pareggi a loro;</l>
+<l>sono ambedue d'un seme, ambe pudiche,</l>
+<l>ambe son degne d'un medesmo alloro;</l>
+<l>l'una e l'altra è fra noi terrestre dea:</l>
+<l>Susanna di Gonzaga e Dorotea.</l></lg>
+<lg type="ottava">
+<l>Giulia è colei ne le cui lode immerso</l>
+<l>vegg'ogni stil sublime e dotto petto,</l>
+<l>né s'ode in questa età purgato verso</l>
+<l>che non s'adorni di sì bel soggetto.</l>
+<l>E dovrebbe il Signor de l'universo</l>
+<l>mandar l'ingegni antichi a quest'oggetto,</l>
+<l>poi che 'l valor di questa e la beltade</l>
+<l>ha stanchi quei de la presente etade.</l></lg>
+<lg type="ottava">
+<l>O re degli altri, imperïoso fiume,</l>
+<l>ch'Italia bagni con le rapid'acque,</l>
+<l>in cui l'auriga del celeste lume,</l>
+<l>cagion di sua follia, tutt'arso giacque;</l>
+<l>spiegato avesse in questa età le piume</l>
+<l>quel cigno altero ch'in tua riva nacque,</l>
+<l>ch'uopo non era con superbi carmi</l>
+<l>volare al Tebro a cantar l'uomo e l'armi.</l></lg>
+<lg type="ottava">
+<l>Quella donna magnanima e sovrana</l>
+<l>che fa con lor tanta gioiosa festa,</l>
+<l>è l'onorata Ippolita Pagana,</l>
+<l>bella e gentil, né men che bella onesta;</l>
+<l>l'altra che va da lei poco lontana</l>
+<l>è di sangue e d'amor congiunta a questa,</l>
+<l>di cui, per non poter, le lode or taccio</l>
+<l>da far ardere un cor nodrito in ghiaccio.</l></lg>
+<lg type="ottava">
+<l>Co' bei sembianti Napoli, e col nome</l>
+<l>nacque costei per onorar Nocera;</l>
+<l>e tu ben la conosci e ben sai come</l>
+<l>gaiamente ballò tra bella schiera;</l>
+<l>ed ora il volto, or le dorate chiome</l>
+<l>spesso lodasti, or la presenza altera.</l>
+<l>e bramasti da Dio voce sonora</l>
+<l>per cantar questa bella Elïonora.</l></lg>
+<lg type="ottava">
+<l>Ma perché scorgo nel tuo volto impresso</l>
+<l>ch'ardente voglia nel tuo petto è nata</l>
+<l>di saper quella che si vede appresso</l>
+<l>di tanti fregi da natura ornata,</l>
+<l>e va mostrando il suo valor espresso</l>
+<l>contra il foco d'Amor di ghiaccio armata,</l>
+<l>quest'è l'invitta e gloriosa donna,</l>
+<l>onor di nostra età, Porzia Colonna.</l></lg>
+<lg type="ottava">
+<l>Vanne Isabella in compagnia di queste,</l>
+<l>che la medesma insegna al vento spiega,</l>
+<l>ferma colonna e salda a le tempeste,</l>
+<l>che per scossa d'Amor punto non piega;</l>
+<l>di cui s'ascolti il ragionar celeste,</l>
+<l>saprai com'dolcemente i cori lega,</l>
+<l>né troverai chi la contempli un poco</l>
+<l>e non s'accenda in volontario foco.</l></lg>
+<lg type="ottava">
+<l>Or so ch'avrai quanta non s'ebbe mai</l>
+<l>per veder di beltà graii meraviglia;</l>
+<l>or fatti più vicino e drizza i rai</l>
+<l>de gli occhi al loco ove volgo io le ciglia,</l>
+<l>ché del signor di Leva ancor vedrai</l>
+<l>andar in schiera l'una e l'altra figlia,</l>
+<l>che van calcando i campi, i fiori e l'erbe,</l>
+<l>non men che 'l padre di trofei superbe.</l></lg>
+<lg type="ottava">
+<l>Il padre a cui sculti metalli e sassi</l>
+<l>dovrebbero adornar templi e delubri,</l>
+<l>poi che per nostra pace armato stassi</l>
+<l>ora ne l'Alpi, or ne' paesi insubri,</l>
+<l>perché novo serpente a ber non passi</l>
+<l>il sangue italïan, spenti i colubri,</l>
+<l>e il popolo di Dio non viva altrove</l>
+<l>che sotto l'ale de l'uccel di Giove.</l></lg>
+<lg type="ottava">
+<l>E Giovanna Carlina appresso mira,</l>
+<l>che l'età nostra di bei fregi inaura,</l>
+<l>e se gli occhi sereni o 'l volto gira,</l>
+<l>o se scioglie i crin d'oro a la fresc'aura,</l>
+<l>ogni piacere, ogni dolcezza spira,</l>
+<l>ogni affannato spirito ristaura,</l>
+<l>e crederò che la superna cura</l>
+<l>nascer la fe' per gloria di natura.</l></lg>
+<lg type="ottava">
+<l>Chi rapportar debbia di lei l'onore</l>
+<l>veggo in contesa Napoli e Castiglia,</l>
+<l>mentre s'adopra a far prigione Amore</l>
+<l>ella, e con lei la generosa figlia,</l>
+<l>Beatrice Loffreda, il cui valore</l>
+<l>a la virtù materna s'assomiglia,</l>
+<l>che bearà colui che da la sorte</l>
+<l>destinato sarà di lei consorte.</l></lg>
+<lg type="ottava">
+<l>Vedi l'alma Scagliona in nero velo,</l>
+<l>che più che 'l sol riscalda e più risplende,</l>
+<l>perché picciola nube e poco gelo</l>
+<l>quel fa men caldo e quasi oscuro rende,</l>
+<l>ma del bel volto lo stellato cielo</l>
+<l>da nera gonna punto non s'offende;</l>
+<l>la gran beltà che sempre si rinverde</l>
+<l>per mutar di stagion forza non perde.</l></lg>
+<lg type="ottava">
+<l>Vedi le figlie e quanto par ch'abbondi</l>
+<l>la grazia e l'onestà ne' lor bei volti,</l>
+<l>Ippolita e Faustina, una che i biondi</l>
+<l>capei senz'arte ha nelle spalle sciolti,</l>
+<l>l'altra che di bei fiori e liete frondi</l>
+<l>gli porta cinti in un bel nodo avvolti;</l>
+<l>e seguono ambedue l'invitte squadre</l>
+<l>sotto il vessillo de la bella madre.</l></lg>
+<lg type="ottava">
+<l>E quindi volgerai la vista a quella</l>
+<l>parte che la mia man t'accenna e mostra,</l>
+<l>ché vi vedrai Geronima Spinella</l>
+<l>ch'orna di sua virtù la patria nostra,</l>
+<l>e la sorella sua saggia, Isabella,</l>
+<l>che di sua gran beltà la imperla e inostra,</l>
+<l>sì che inanzi a l'invidia anco direi</l>
+<l>che bello è sol quanto assimiglia a lei.</l></lg>
+<lg type="ottava">
+<l>Vi vedrai quella di bellezza rara</l>
+<l>celebrata d'ognun, Covella Cossa,</l>
+<l>e Cornelia Torella, onde s'impara</l>
+<l>quanto natura con sue forze possa,</l>
+<l>e Vittoria Carrafa come a gara</l>
+<l>percuota Amore, ella e Vittoria Aiossa.</l>
+<l>Così nomarle a i genitori piacque</l>
+<l>ché per vittorie l'una e l'altra nacque.</l></lg>
+<lg type="ottava">
+<l>Vedrai colei che questa schiera onora,</l>
+<l>in cui la leggiadria fa bel soggiorno:</l>
+<l>Giulia Rocca gentil che i campi infiora</l>
+<l>dov'ella volge il suo bel guardo intorno,</l>
+<l>o spiega i crin ch'abbagliano l'aurora</l>
+<l>e fanno al sol di mezza state scorno,</l>
+<l>albergo d'un gran cor costante e saldo</l>
+<l>che d'empio ardor nol penetrò mai caldo.</l></lg>
+<lg type="ottava">
+<l>Quando in formarla era natura intenta,</l>
+<l>credea onorarne la città superna,</l>
+<l>ma per onor del mondo fu contenta</l>
+<l>mandarla a noi la providenza eterna.</l>
+<l>Vedrai Laodomia sua che rappresenta</l>
+<l>chiaro splendor de la beltà materna,</l>
+<l>ed Isabella, i cui divini modi</l>
+<l>stringono ogn'alma di tenaci nodi.</l></lg>
+<lg type="ottava">
+<l>Vedrai non lungi, più la vista alzando,</l>
+<l>colei che primavera ha sempre in seno:</l>
+<l>Isabella Scorziata, in cui mirando</l>
+<l>mi par quest'aere più che mai sereno.</l>
+<l>O sommo Padre, o Re de' cieli, e quando</l>
+<l>potrà la patria mia lodarti a pieno,</l>
+<l>poi che dal grembo tuo sopra lei piove</l>
+<l>grazia che tanta mai non cadde altrove?-</l></lg>
+<lg type="ottava">
+<l>E quivi io mi traposi:- O signor mio,</l>
+<l>se 'l mio parlar a troppo ardir trabocca,</l>
+<l>danne colpa a l'ardente mio desio</l>
+<l>che mi dà lingua tanto ardita in bocca.</l>
+<l>Quella vaga donzella che vegg'io</l>
+<l>tra Cornelia Torella e Giulia Rocca,</l>
+<l>ch'ancor quasi fanciulla Amor percote</l>
+<l>nel petto, ne la faccia e ne le gote,</l></lg>
+<lg type="ottava">
+<l>dimmi chi sia, ché per quant'io m'avveggia,</l>
+<l>tutte le grazie sono in lei raccolte,</l>
+<l>perché miro le guance e par che veggia</l>
+<l>rose bianche e vermiglie or ora colte;</l>
+<l>miro la chioma sua ch'al vento ondeggia</l>
+<l>e veggo fila d'oro a l'aura sciolte.-</l>
+<l>Ei mi rispose pien di cortesia:</l>
+<l>-Cornelia di Gennar, sorella mia.</l></lg>
+<lg type="ottava">
+<l>Evvi Isabella mia che vaga e bella</l>
+<l>fa per vedermi di letizia segno;</l>
+<l>ma perché, lasso, io non vi veggo quella,</l>
+<l>quella che mi lasciò sì caro pegno?</l>
+<l>Ella sen gìo dov'or lucente stella</l>
+<l>splende in più lieto e fortunato regno,</l>
+<l>e lasciò l'ombra di mia vita meco,</l>
+<l>e la parte miglior sen portò seco.</l></lg>
+<lg type="ottava">
+<l>Perché pur non vegg'io la bella e rara</l>
+<l>Antonïa del Balzo e le sue prove?</l>
+<l>Or, se la toglie a la sirena cara</l>
+<l>fortuna rea, come consenti, o Giove,</l>
+<l>che questo sol, che nacque a far più chiara</l>
+<l>la bella patria mia, risplenda altrove,</l>
+<l>ond'altri poi, contra la legge vostra,</l>
+<l>si faccia altero de la gloria nostra?</l></lg>
+<lg type="ottava">
+<l>Ma veggo pur la compagnia superba</l>
+<l>che 'l ciel benigno a tant'onor destina,</l>
+<l>Violante Sanbasil, Vittoria Ayerba,</l>
+<l>Ippolita Toralta e Caterina,</l>
+<l>e del tiranno Amor nemica acerba</l>
+<l>Antera di Gennar, Giovanna Spina,</l>
+<l>che fanno invece del prigione Amore</l>
+<l>dolce rapina d'ogni occolto core.</l></lg>
+<lg type="ottava">
+<l>Veggo Emilia Carrafa e la gran fede</l>
+<l>ond'ha l'ira d'Amor confusa e doma,</l>
+<l>e tal prudenza veggo in lei, ch'eccede</l>
+<l>quanto mai n'ebbe in quella prima Roma,</l>
+<l>e beltà forte quanta in ciel si vede</l>
+<l>da spirto sciolto di terrena soma,</l>
+<l>e un cor nemico d'ogni cosa frale</l>
+<l>a cui, fuor che d'onor, di nulla cale.</l></lg>
+<lg type="ottava">
+<l>E veggo Porzia sua fra questa gente</l>
+<l>per cui madre felice al mondo vive</l>
+<l>veggendola fanciulla alteramente</l>
+<l>gir trïonfando a le paterne rive.</l>
+<l>Mira ben che vedrai visibilmente</l>
+<l>uscir dagli occhi lor faville vive,</l>
+<l>e star ti penserai quindi diviso</l>
+<l>fra quei piacer che s'hanno in paradiso.</l></lg>
+<lg type="ottava">
+<l>Poi veggo de le belle un altro coro</l>
+<l>ch'Amor legato con molt'ira affanna;</l>
+<l>e, se la luce de' bei volti loro</l>
+<l>il lume di quest'occhi non m'appanna,</l>
+<l>vi scorgo due Cantelme a i crini d'oro,</l>
+<l>Maria divina e l'immortal Brïanna,</l>
+<l>tanto leggiadre, che di lor più belle</l>
+<l>Fidia non intagliò, né pinse Apelle.</l></lg>
+<lg type="ottava">
+<l>V'è Brïanna Carrafa a cui natura</l>
+<l>di doni suoi fu liberale e larga,</l>
+<l>e la sorella che mill'alme fura,</l>
+<l>s'avvien che i biondi crini al vento sparga,</l>
+<l>e rende il mar tranquillo e l'aria pura</l>
+<l>quand'Eolo a i feri venti il chiostro allarga,</l>
+<l>Giovanna bella. O raro don di Dio,</l>
+<l>canti Febo di lei, ché non bast'io!</l></lg>
+<lg type="ottava">
+<l>Scorgovi pure al volto ed a le chiome,</l>
+<l>a l'andar grave, onesto e pellegrino,</l>
+<l>Lucrezia Rocca, egual di gloria e nome</l>
+<l>a l'antica moglier di Collatino,</l>
+<l>onde non fu gran meraviglia come</l>
+<l>tanto infiammossi il giovane Tarquino,</l>
+<l>ch'avrebbe accesi, se quell'era tale,</l>
+<l>mille celesti dèi, non ch'un mortale.</l></lg>
+<lg type="ottava">
+<l>E scopro un'altra schiera assai gioconda,</l>
+<l>mentr'esser mi pens'io dal peso scarco.</l>
+<l>Di novi germi la selva s'infronda</l>
+<l>quando più cerco esser vicino al varco,</l>
+<l>e manca il dir, quando il soggetto abbonda,</l>
+<l>troppo agli omeri miei difforme incarco.</l>
+<l>Or chi le lodi a tanti merti agguaglie</l>
+<l>o vegga tanto lume e non s'abbaglie?</l></lg>
+<lg type="ottava">
+<l>Chi fra che lodi a pieno e mai non stanchi</l>
+<l>due Lucrezie Brancazze, una Isabella?</l>
+<l>Chi varcherà quest'onda e non s'imbianchi</l>
+<l>per tema di tempesta o di procella?</l>
+<l>Chi loderà tant'altre a cui non manchi</l>
+<l>o lume a gli occhi o voce a la favella,</l>
+<l>s'io ne vegg'una di cui sola il nome</l>
+<l>darebbe alto soggetto a mille Rome.</l></lg>
+<lg type="ottava">
+<l>E par ch'ai modi onesti, ai dati segni</l>
+<l>d'Antonia Borgia la sembianza mostri,</l>
+<l>per cui tenuti di memoria degni</l>
+<l>più ch'altra età saranno i tempi nostrì,</l>
+<l>onde le fan mestier mill'alti ingegni,</l>
+<l>mill'onorate penne e mille inchiostri,</l>
+<l>a ciò si lodi a pien la sua beltade,</l>
+<l>sì che l'ammiri la futura etade.</l></lg>
+<lg type="ottava">
+<l>E veggo te ch'a molte scorta e duce</l>
+<l>sei per la dritta via de' tuoi vestigi,</l>
+<l>Anna leggiadra, la cui chiara luce</l>
+<l>illuminar potria gli orrori stigi;</l>
+<l>e, se l'alma sorella di Polluce,</l>
+<l>che rapportò le fiamme a i campi frigi,</l>
+<l>fiorisse in questa età, saria contenta</l>
+<l>star presso a te, quasi favilla spenta.</l></lg>
+<lg type="ottava">
+<l>Onde natura il raro essempio tolse</l>
+<l>quando di membra tue bell'alma cinse?</l>
+<l>Onde i giacinti, onde le rose colse</l>
+<l>a l'or che i labbri o che le guance tinse?</l>
+<l>Penso ch'oprar tutte le forze volse,</l>
+<l>anzi se stessa in sì bell'opra vinse,</l>
+<l>e vi pose beltà quanto por valse</l>
+<l>e d'altro che di lei nulla le calse.</l></lg>
+<lg type="ottava">
+<l>Qui pien di gioia e di valor si vede</l>
+<l>mostrar Diana Cardena il suo core,</l>
+<l>con quelle sante luci onde si crede</l>
+<l>ch'Amor prendesse ardir, forza e valore.</l>
+<l>Oh quanti furti hai fatti e quante prede,</l>
+<l>quante rapine con quest'occhi, Amore!</l>
+<l>onde aggradir ti dé, se per costei</l>
+<l>per cui vincitor fusti, or prigion sei.</l></lg>
+<lg type="ottava">
+<l>Or chi fia quel così libero e sciolto</l>
+<l>di legami d'Amor, di cor sì franco,</l>
+<l>che di costei mirando il sacro volto,</l>
+<l>gli occhi vaghi e sereni, il petto bianco,</l>
+<l>non resti preso e in mille nodi avvolto,</l>
+<l>che non resti ferito al lato manco,</l>
+<l>o pur non dica: «I' lascio i pensier miei,</l>
+<l>lascio me stesso e mi trasformo in lei»?</l></lg>
+<lg type="ottava">
+<l>Poi mi si mostra in atto altero, umile</l>
+<l>d'Isabella Caracciola il sembiante,</l>
+<l>che ne produce un dilettoso aprile,</l>
+<l>dov'ella tocca con le sacre piante,</l>
+<l>e spregia il mondo come cosa vile</l>
+<l>avvolta in pensier casti e voglie sante,</l>
+<l>ond'avvien ch'a gioir tanto s'induca</l>
+<l>il gran consorte ed onorato duca.</l></lg>
+<lg type="ottava">
+<l>Pur de la stirpe illustre ed immortale</l>
+<l>tanto gradita a la bontà divina,</l>
+<l>di par bellezza ed onestate eguale,</l>
+<l>veggo un'altra Isabella a lei vicina;</l>
+<l>e voi ch'aveste il ciel sì liberale,</l>
+<l>Lucrezia, Elïonora e Faustina,</l>
+<l>che raccendete intorno ai nostri cori</l>
+<l>novelle fiamme di vivaci ardori.</l></lg>
+<lg type="ottava">
+<l>Dunque godete, o voi ch'eternamente</l>
+<l>pascete l'alme d'amoroso ardore,</l>
+<l>ch'aver potete del bel foco ardente</l>
+<l>onde si serbi in dolce vita il core,</l>
+<l>mirando i lumi loro, onde sovente</l>
+<l>prendea le fiamme il signor nostro Amore;</l>
+<l>né mancherà, bench'ei languir s'intenda,</l>
+<l>chi i nostri petti dolcemente accenda.</l></lg>
+<lg type="ottava">
+<l>Veggo la bella Aurelia Ravaschiera</l>
+<l>con due sorelle andar gioiosa e lieta,</l>
+<l>e parmi di veder la gloria vera</l>
+<l>che suso in ciel l'alme beate acqueta.</l>
+<l>Ahi lasso, e quando la mia lingua spera</l>
+<l>pagar di grazie il mio fatal pianeta,</l>
+<l>che per farmi veder tanta beltade</l>
+<l>serbar mi volse in così bella etade ?</l></lg>
+<lg type="ottava">
+<l>Veggo Giulia drizzar le voglie ardenti</l>
+<l>per tempo accorta del mondano inganno,</l>
+<l>dove senza temer pioggia né venti,</l>
+<l>varïar di stagion né volger d'anno,</l>
+<l>fia sposa al gran Fattor degli elementi</l>
+<l>se col furor di Febo io non m'inganno,</l>
+<l>e ben degno sarà poi che non sono</l>
+<l>degne cose mortal di tanto dono.</l></lg>
+<lg type="ottava">
+<l>E Porzia Tolomea par che s'adiri</l>
+<l>ch'Amor quanto vorrebbe non offenda.</l>
+<l>Vedila e dimmi chi fia quel che miri</l>
+<l>la neve del bel petto e non s'accenda,</l>
+<l>o che contempli i lieti e santi giri</l>
+<l>de gli occhi, e vinto a lei l'arme non renda,</l>
+<l>o fia sì duro a cui morir non piaccia</l>
+<l>sotto i bei nodi ond'ella i cori allaccia-</l></lg>
+<lg type="ottava">
+<l>Poscia il franco signor che quasi a l'ora</l>
+<l>parea per molto dir con poca lena,</l>
+<l>mostrommi tutte l'altre onde s'onora</l>
+<l>la fortunata ed inclita Sirena;</l>
+<l>e per me molte io ne conobbi ancora</l>
+<l>di cui port'anco la memoria piena,</l>
+<l>che cria sì bei pensier ne la mia mente</l>
+<l>che piacer più soave il cor non sente.</l></lg>
+<lg type="ottava">
+<l>Conobbi al sol del volto ed a le stelle,</l>
+<l>a le perle, a i rubini, a l'ostro, a l'oro,</l>
+<l>fra le più chiare, generose e belle,</l>
+<l>Giulia Cantelma che qual diva adoro,</l>
+<l>e dissi a l'or che la vidd'io fra quelle</l>
+<l>che più lodate in quella impresa fôro:</l>
+<l>O felice colui che sortì Dio</l>
+<l>che drizzasse tant'alto il suo desio.</l></lg>
+<lg type="ottava">
+<l>E Luigia d'Azzia l'aria serena</l>
+<l>del suo bel viso dimostrommi ancora,</l>
+<l>che quando altrove Progne o Filomena</l>
+<l>de i vecchi guai la rimembranza accora,</l>
+<l>con un soave riso a noi rimena</l>
+<l>la più bella stagion che 'l mondo infiora,</l>
+<l>che di vento crudel non teme impresa,</l>
+<l>né di caldo o di gel paventa offesa.</l></lg>
+<lg type="ottava">
+<l>E viddi voi non molto di lontano</l>
+<l>degna d'onor fra le più dotte carte,</l>
+<l>che vi mostraste buona a tôr di mano</l>
+<l>l'arme ad Amor non che la spada a Marte,</l>
+<l>con forza d'un parlar divino umano,</l>
+<l>d'una bellezza natural senz'arte,</l>
+<l>che la via d'onestate al mondo insegna,</l>
+<l>bella, saggia, cortese, alma Brisegna.</l></lg>
+<lg type="ottava">
+<l>Viddi molt'altre, e nel fin viddi quella</l>
+<l>del niquitoso Amor nemica fera,</l>
+<l>Maria, leggiadra di colei sorella,</l>
+<l>che mostra a gli occhi miei fu la primiera;</l>
+<l>viddi Cassandra e viddi Aurelia bella,</l>
+<l>e lor chiudean quell'onorata schiera;</l>
+<l>e dissi: O Dio, che vaghe stelle ho scorto</l>
+<l>prima partendo ed or giungendo in porto!</l></lg>
+<lg type="ottava">
+<l>Mentr'io mirava, incontro a gli occhi miei</l>
+<l>i suoi rivolse il cavalier cortese,</l>
+<l>e disse: - Omai che pensi? Ecco colei</l>
+<l>che vive fiamme nel tuo petto accese. -</l>
+<l>A l'or la viddi a guisa di trofei</l>
+<l>drizzar l'arme d'Amor ne l'asta appese,</l>
+<l>ma non risposi già, ché, mirand'ella,</l>
+<l>la luce ne perdei con la favella.</l></lg>
+<lg type="ottava">
+<l>Ed egli: - Or poi che son le donne accorte</l>
+<l>da lunge sì che nulla ne discerno,</l>
+<l>andiam, meco ne vien, ch'io bramo forte</l>
+<l>che miri tutto il gran trïonfo eterno;</l>
+<l>ma perché certe donne belle ho scorte</l>
+<l>quivi tra Monte Barbaro ed Averno,</l>
+<l>e non so chi son elle, avrei desio</l>
+<l>ch'altri facesse a me quel c'ho fatt'io. -</l></lg>
+<lg type="ottava">
+<l>Io gli risposi: - Quel drappel c'hai detto,</l>
+<l>Signore, il conobb'io, che meco nacque</l>
+<l>presso a l'Aufido mio, nel dirimpetto</l>
+<l>del loco ove il Gargano entra ne l'acque,</l>
+<l>e per desio d'onor che l'arse il petto,</l>
+<l>venir con questa compagnia li piacque,</l>
+<l>a ciò s'intenda più famoso il grido,</l>
+<l>più chiaro il suon del mio nativo lido.</l></lg>
+<lg type="ottava">
+<l>Il qual tempra con questo il dolor fero</l>
+<l>ch'indegnamente il ciel vuol che l'aggravi</l>
+<l>(benché, se quei che tien del mondo impero</l>
+<l>rimembra mai la fe' serbata agli avi,</l>
+<l>a venir si vedrà, né indarno spero,</l>
+<l>che forse più bel loco Adria non lavi),</l>
+<l>e vuol che sol per questo egli s'appregi,</l>
+<l>né cerca altri ornamenti od altri fregi.</l></lg>
+<lg type="ottava">
+<l>Non che del loco ha le reliquie antiche,</l>
+<l>u' stette Roma con l'imperio in forse,</l>
+<l>quando fra campi di mature spiche</l>
+<l>pien di sangue roman l'Aufido corse,</l>
+<l>né più si vanta che con voglie amiche</l>
+<l>a l'aquila smarrita albergo porse,</l>
+<l>quando, preso vigor nel nido nostro,</l>
+<l>spennacchiò l'ali al gallo e ruppe il rostro.</l></lg>
+<lg type="ottava">
+<l>E mentre il ragionar di queste e quelle</l>
+<l>n'era tra via dolcissimo trastullo,</l>
+<l>scorti da mille soli e mille stelle</l>
+<l>lasciammo a dietro i campi di Lucullo.</l>
+<l>Al fin la schiera de le donne belle</l>
+<l>con pompa trïonfal mena il fanciullo,</l>
+<l>e giunge al loco ove con grate voglie</l>
+<l>Sebeto vecchio e pien d'amor l'accoglie.</l></lg>
+<lg type="ottava">
+<l>Tosto l'invitti e generosi spirti</l>
+<l>donano al padre l'onorata preda,</l>
+<l>che pien di crini rabbuffati ed irti</l>
+<l>la vede e tocca e non può far che 'l creda,</l>
+<l>e d'ornarle di lauri, edere e mirti</l>
+<l>non è chi pago o chi contento il veda;</l>
+<l>al fin per gioia, poi che più non pote,</l>
+<l>piagne e con doppio umor bagna le gote.</l></lg>
+<lg type="ottava">
+<l>Già sparsa si sentia per ogni lido</l>
+<l>di tal vittoria la sonora voce,</l>
+<l>e già temea la madre di Cupido</l>
+<l>d'una notturna visione atroce,</l>
+<l>a l'or ch'intese di quest'opra il grido</l>
+<l>di quel che spiace messagger veloce;</l>
+<l>onde il dubbio timor ch'avea in pensiero</l>
+<l>divenne affanno certo e dolor vero.</l></lg>
+<lg type="ottava">
+<l>- Ecco sazia - dicea - quell'ira ardente</l>
+<l>de l'empio petto di Giunon crudele;</l>
+<l>dovea bastar d'Enea l'immersa gente,</l>
+<l>le rotte navi e le squarciate vele.-</l>
+<l>Scuotesi al fin poi che mancar si sente</l>
+<l>umore al pianto e voce a le querele,</l>
+<l>e col soffiar de' zefiri benigni</l>
+<l>la portano per l'aria i bianchi cigni.</l></lg>
+<lg type="ottava">
+<l>E cominciò piangendo: - Ahi fato iniquo</l>
+<l>(giunta al cospetto de i superni déi),</l>
+<l>io non son nata in selva o in fiume obliquo</l>
+<l>con satiri o con fauni semidei;</l>
+<l>dal sangue, o Giove, di Saturno antiquo</l>
+<l>anch'io racconto i genitori miei.</l>
+<l>Già prodotta non m'hanno i monti Caspi,</l>
+<l>non i monti Rifei, non gli Arimaspi.</l></lg>
+<lg type="ottava">
+<l>Ecco Sebeto fra l'armate squadre,</l>
+<l>ch'a voi l'onore, a me Cupido toglie;</l>
+<l>vedi le donne baldanzose e ladre</l>
+<l>portarsi in preda le divine spoglie;</l>
+<l>e tu come consenti, o sommo Padre,</l>
+<l>ch'umana gente il ciel di gloria spoglie?</l>
+<l>Fa che per vendicar l'offesa nova</l>
+<l>fiamma del ciel sopra lor trecce piova.</l></lg>
+<lg type="ottava">
+<l>Tu che la terra e 'l ciel tempri e correggi,</l>
+<l>provedi a' casi miei, Padre superno;</l>
+<l>piacciati per mercé ch'in questi seggi</l>
+<l>trovi pietà del mio dolor interno;</l>
+<l>o manda il fato reo con nove leggi</l>
+<l>che tronchi di mia vita il filo eterno,</l>
+<l>e pensa che sovente il mio fanciullo</l>
+<l>fu de le cure tue dolce trastullo.</l></lg>
+<lg type="ottava">
+<l>Pungavi almen del vostr'onor pensiero,</l>
+<l>se ponete in non cale i nostri affanni,</l>
+<l>perché vedrete il mortal seme altero</l>
+<l>divenir tanto al volger di poc'anni,</l>
+<l>che questo scettro vostro e questo impero</l>
+<l>non fia sicuro da gli umani inganni,</l>
+<l>e per far nova guerra a i regni vostri</l>
+<l>risorgeranno i fulminati mostri. -</l></lg>
+<lg type="ottava">
+<l>-Omai- rispose Giove - il pianto affrena,</l>
+<l>o generosa dea madre d'Amore.-</l>
+<l>E tosto diventò l'aria serena</l>
+<l>che si levò di seggio il gran Motore,</l>
+<l>e 'sciugò gli occhi, onde con larga vena</l>
+<l>correa per duo bei rivi il caldo umore;</l>
+<l>poi tutto lieto e pien d'amor basciolle</l>
+<l>la bella faccia delicata e molle.</l></lg>
+<lg type="ottava">
+<l>E manda in fretta il sempiterno amante</l>
+<l>de' suoi secreti il messaggier fedele,</l>
+<l>ch'udite a pieno l'imbasciate sante</l>
+<l>e de la mesta dea l'alte querele,</l>
+<l>adopra tanto quell'alate piante</l>
+<l>ch'in aria uso gli fan di remi e vele,</l>
+<l>che giunge al loco ove con patito e grido</l>
+<l>fra belle donne era prigion Cupido.</l></lg>
+<lg type="ottava">
+<l>E con bel dir di riverenza pieno</l>
+<l>(fatto prima per l'aere un giro tondo)</l>
+<l>a la sua dotta lingua tolto il freno,</l>
+<l>così ruppe il silenzio il dio facondo:</l>
+<l>- Quelle saluti che dal largo seno</l>
+<l>destina a pochi il gran fattor del mondo</l>
+<l>porto a voi, donne belle, e vi rivelo</l>
+<l>che 'l suon de l'opre vostre é giunto in cielo;</l></lg>
+<lg type="ottava">
+<l>e che la fama ne gli alberghi nostri</l>
+<l>canta il valor de i cori vostri invitti,</l>
+<l>e va per tutti que' stellati chiostri</l>
+<l>senz'aver meta o termini prescritti;</l>
+<l>né lascia loco ove non legga o mostri</l>
+<l>di prove vostre i sempiterni editti,</l>
+<l>e non è dio che farvi onor non brami</l>
+<l>e tutte voi non riverisca ed ami.</l></lg>
+<lg type="ottava">
+<l>Ma più ch'a gli altri al sommo Padre è caro</l>
+<l>questo in altri che in voi non visto essempio,</l>
+<l>e vuol che viva eternamente chiaro</l>
+<l>il nome vostro nel celeste tempio;</l>
+<l>né senta oltraggio reo di tempo avaro,</l>
+<l>né di morte crudel paventi scempio,</l>
+<l>e dal vostro splendor nasca una stella</l>
+<l>di cui non luca in ciel più chiara e bella.</l></lg>
+<lg type="ottava">
+<l>Onde vi priega che spedito e sciolto</l>
+<l>tornar lasciate Amor dov'egli siede,</l>
+<l>e non ha velo che li copra il volto,</l>
+<l>poi che quel che non dee forse vi chiede,</l>
+<l>dove tenace nodo il tenga avvolto</l>
+<l>di dare a' merti vostri ampia mercede:</l>
+<l>merti a cui per oprar quant'egli vale,</l>
+<l>dar non potrebbe guiderdone eguale.</l></lg>
+<lg type="ottava">
+<l>Chiedevi ancora l'arme, perché sanza</l>
+<l>le piaghe loro unqua piacer non prende,</l>
+<l>e non vi caglia che per lunga usanza</l>
+<l>al vinto il vincitor l'arme non rende,</l>
+<l>ché quest'impresa che tutt'altre avanza</l>
+<l>sotto legge mortal non si comprende,</l>
+<l>perché son l'opre vostre nove e strane</l>
+<l>sciolte da tutte qualitati umane.</l></lg>
+<lg type="ottava">
+<l>E vuol ch'invece del renduto Amore</l>
+<l>eternamente a voi la gloria resti,</l>
+<l>ch'in loco degli strali e de l'ardore,</l>
+<l>dolce tormento degli amanti mesti,</l>
+
+
+<l>avete gli occhi a penetrare un core</l>
+<l>più che l'armi d'Amor veloci e presti;</l>
+<l>ond'io già 'l provo per mirarvi un poco,</l>
+<l>ché mai non m'arse il cor più vivo foco.</l></lg>
+<lg type="ottava">
+<l>E perché nulla sue dimande accusi,</l>
+<l>di stretto nodo a voi sua fede allaccia</l>
+<l>d'oprar che contra voi l'arme non usi,</l>
+<l>né quindi vole Amor s'a voi non piaccia,</l>
+<l>e vuol l'alta bontà che non l'iscusi,</l>
+<l>perché de' fatti altrui promesse faccia,</l>
+<l>e già n'ha fatto giuramento sacro</l>
+<l>ne l'onde stigie e nel leteo lavacro. -</l></lg>
+<lg type="ottava">
+<l>E sparge alfin mill'efficaci prieghi,</l>
+<l>sì che ciascuna vuol ch'Amor si snodi</l>
+<l>quanto fia meglio che 'l furor non pieghi.</l>
+<l>Bella schiera - diss'io con queti modi,-</l>
+<l>che mentre Amor tu sciogli, allacci e leghi</l>
+<l>la libertà del mondo in mille nodi,</l>
+<l>e folgorar vegg'io da questa pace</l>
+<l>d'ardente guerra sempiterna face.</l></lg>
+<lg type="ottava">
+<l>E tosto che fu sciolto il prigioniero,</l>
+<l>di vergogna ripien quell'arme prese,</l>
+<l>ond'anco il crudo e niquitoso arciero</l>
+<l>al mondo fa Sentir più dure offese,</l>
+<l>e verso il ciel, men che l'usato altero,</l>
+<l>col fido messaggier volando ascese,</l>
+<l>lasciando il loco che l'onor li tolse,</l>
+<l>con quanta gloria fra tant'anni accolse.</l></lg>
+<lg type="ottava">
+<l>Era già corso il sol vers'occidente,</l>
+<l>scaldando al Tauro le dorate corna,</l>
+<l>e la schiera gentil gioiosamente</l>
+<l>parte dal Padre ed agli alberghi torna,</l>
+<l>e fan coi propri lumi un orïente,</l>
+<l>mentre il raggio d'Apollo altrove aggiorna;</l>
+<l>e noi n'andammo dietro, e ne fu duce</l>
+<l>de' lor bei volti la serena luce.</l></lg>
+</div1>
+</body>
+</text>
+</TEI.2>

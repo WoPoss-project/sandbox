@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Figuratio Aristotelici Physici auditus</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>130 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit001141</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali; Nino Aragno</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-06-09T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Francesca Cascino</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-06-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1>
+
+
+
+<p>IORDANI BRUNI NOLANI</p>
+
+<p>FIGURATIO ARISTOTELICI PHYSICI AUDITUS AD EIUSDEM INTELLIGENTIAM ATQUE RETENTIONEM
+PER QUINDECIM IMAGINES EXPLICANDA.</p>
+
+<p>AD ILLUSTREM ADMODUM ATQUE REVERENDUM DOMINUM D. PETRUM DALBENIUM ABBATEM BELLEVILLAE.</p>
+
+<p>PARISIIS,
+ex Typographia Petri Cheuillot,
+in vico S. Ioannis Lateranensis, sub Rosa rubra.</p>
+
+</div1>
+</front>
+
+<body>
+<div1>
+<head><hi rend="sc">IORDANUS BRUNUS NOLANUS ILLUSTRI ATQUE REVERENDISS. D. D. PETRO DALBENIO ABBATI BELLEVILLAE SAL.</hi></head>
+
+	<p>Tribus potissimum de causis hanc me adortum esse curam, ut lucem pro eorum capacitate Aristotelicis intentionibus indicerem, caeteri velim existiment. Quarum prima est, ne id et mihi contigisse videatur, quod literatoribus quibusdam universa crebris observationibus discussionibusque conspurcantibus accidit, qui temeraria ignorantia cum praecipiti quadam arrogantia coniuncta suffulti de hisce rebus, quarum prorsus rationem ullam non haberent, sibi censurae munus usurparunt; quod tanto cum studiosorum plurium detrimento factum esse censeo, quanto consultius esse videtur subtiliter cum Aristotele vel alio de sophistarum principibus errasse (quod ad ingenii conferat acumen), quam infrugalissime eum eiusce generis brutis naturalem emittere posse ruditum. Secunda quae huc me adegit ea ratio est, quod de tam copiosa eorum, qui se non modo philosophos, sed et pro maiori dignitate Peripateticos iactant, multitudine perpaucos esse video praeter eos, quibus magis per ignorantiam in fide viri laborantem, quam per sensum ex illius principiis educta ratione distinguentem, admirabilis eiusmodi habeatur disciplina. Quandoquidem (ob innatam multitudini conditionem) vulgo satius esse consuevit obscuriora velutque in tenebris efficta phantasmata prurientem perfricantia phantasiam admirari, excolere, exosculari, quam fulgidos familiarius sese ingerentis veritatis radios excipere velle. Quamobrem prius inopiae sensus (qua notabiles extant in propriis) succurrere aliqua ratione voluimus, quam id efficere ut (quales nostra ferat opinio) divitiae illis obiicerentur alienae. Tertia quae me ad idem compulit intentio est, ne qua iniuria adversum (quam ferunt) rerum profundarum maiestatem cavillator audacior, non autem ingenuus de rebus mihi (ut iure existimare videbor) apertis discussor legitimus appaream. Quidni enim? Ubi rem propositam ad numeros revoco, seriatim dispono, nihil quod ad eius veram causam faciat praetermitto, de nulla eius ratione dissimulo, nusquam quod ad eius confirmationem conducat obiter pertranseo; interdum quoque, quoad rei momentum patitur, non sine sinceritate aliquid adiicio, tandemque universa quae ad eius comprobationem conferre possunt excurro diligenter, priusquam de censorio examine iudicioque possim cogitare. Id enim non tantum mihi, sed et cuicumque accuratius faciendum puto, quantum non id modo (quod cum caeteris habeo commune) in animo et facultate est hominis tantae authoritatis sensum indagare et aperire, sed et (quod nobis Deorum munificentia proprium effecit) de eodem pro veritate consulere, decernere, definire. Hic sententias abstrusas elucidavi, sensus passim veluti disiectos aggregavi, et universum velut infiguratum ursae partum in sua membra digessi. Non sunt arcana soli Aristoteli nota, non dona duntaxat Alexandro pollicita, non opera apud multos edita tamquam non edita, si nullae hic amphibologiarum ambages, nulli scrupulorum anfractus, nusquam perplexorum aenigmatum nodi coniiciuntur. Quod si ita est, tua (vir optime) ob munus tibi a divis Musis iniunctum intererit, ut haec acri quo polles ingenio iudices, graviore qua praestas doctrina defendas, et eximia qua potes authoritate conserves.</p> <trailer><hi rend="sc">VALE.</hi></trailer>
+</div1>
+<div1>
+<head><hi rend="sc">IORDANUS BRUNUS NOLANUS DE QUINDECIM IMAGINIBUS AUDITIONIS PHYSICAE FIGURATIVIS.</hi></head>
+<div2>
+<head><hi rend="sc"> ART. I.</hi></head>
+	<p>Eadem certe ratione, qua octo Physicorum libros figurare docemus, quoscumque alios facillime figurabis. Unde non tantum praesenti negocio propriam, quantum appropriatam dicere possis artem, quam ad unum de triginta sigillis facile referre poteris, dum ex iis sive pictorem seligas seu sculptorem; quantumvis et ipsa facultate quadam peculiari non careat.</p>
+</div2>
+<div2>
+<head><hi rend="sc"> ART. II.</hi></head>
+<p>Hic primo tibi ad subiecti generalis conceptionem nota quindecim particularium subiectorum obiicitur, utpote I.</p>
+
+<list>
+<item><label>I</label> Principis.</item>
+<item><label>II</label> Principii. </item>
+<item><label>III</label> Materiae. </item>
+<item><label>IV </label>Formae et Privationis. </item>
+<item><label>V </label>Naturae. </item>
+<item><label>VI </label>Causae. </item>
+<item><label>VII</label> Fortunae et casus. </item>
+<item><label>VIII </label>Motus. </item>
+<item><label>IX </label>infiniti. </item>
+<item><label>X </label>Loci. </item>
+<item><label>XI</label> Vacui. </item>
+<item><label>XII </label>Temporis. </item>
+<item><label>XIII </label>Dicibilium de motu. </item>
+<item><label>XIV </label>Primi motus. </item>
+<item><label>XV </label>Primi motoris. </item>
+</list>
+</div2>
+<div2>
+
+<head><hi rend="sc"> ART. III.</hi></head>
+<p>Secundo eorum figurativa seliguntur, quia</p>
+<list>
+<item><label>I </label>Principem notat arbor Olympica. </item>
+<item><label>II</label> Principium Minerva. </item>
+<item><label>III</label> Materiam Thetis. </item>
+<item><label>IV</label> Formam Apollo, privationem Atropos. </item>
+<item><label>V </label>Naturam Pan superior. </item>
+<item><label>VI </label>Causam per se Fatum. </item>
+<item><label>VII</label> Causam per accidens Fortuna. </item>
+<item><label>VIII</label> Motum Cupido. </item>
+<item><label>IX</label> infinitum iuno. </item>
+<item><label>X </label>Locum Chaos. </item>
+<item><label>XI</label> Vacuum Orcus. </item>
+<item><label>XII </label>Tempus Saturnus. </item>
+<item><label>XIII</label> Quod circa motum Cupidinis arma. </item>
+<item><label>XIV</label> Primum motum Caelius. </item>
+<item><label>XV </label>Primum motorem iuppiter. </item>
+</list>
+</div2>
+<div2>
+
+
+<head><hi rend="sc"> ART. IV.</hi></head>
+<p>Tertio figurativis apposita declarantur, ubi</p>
+<list>
+<item><label>I</label> Arbori Olympicae quadrat agricola. </item>
+<item><label>II </label>Minervae domifactor. </item>
+<item><label>III</label> Thetidi nauta. </item>
+<item><label>IV</label> Apollini medicus, Atropo textor. </item>
+<item><label>V</label> Pani pictor. </item>
+<item><label>VI </label>Fato auriga. </item>
+<item><label>VII</label> Fortunae cursor. </item>
+<item><label>VIII </label>Cupidini sagittarius. </item>
+<item><label>IX </label>Iunoni auceps. </item>
+<item><label>X </label>Chaos morio. </item>
+<item><label>XI </label>Orco fossor. </item>
+<item><label>XII </label>Saturno necromantus. </item>
+<item><label>XIII</label> Cupidinis armis faber vulcanius. </item>
+<item><label>XIV </label>Caelio figulus. </item>
+<item><label>XV </label>Iovi architector. </item>
+</list>
+</div2>
+<div2>
+
+
+<head><hi rend="sc"> ART. V.</hi></head>
+<p>Quarto ad articulorum numerum, qui denarium non excedunt, decem subiectis adstantium species enucleantur, ubi</p>
+<list>
+<item>Unum indicat parens. </item>
+<item>Duo indicant Cupidines. </item>
+<item>Tria Charites. </item>
+<item>Quatuor filii. </item>
+<item>Quinque servi. </item>
+<item>Sex operarii. </item>
+<item>Septem virgines. </item>
+<item>Octo duces. </item>
+<item>Novem Musae. </item>
+<item>Decem senatores. </item>
+</list>
+</div2>
+<div2>
+
+
+<head><hi rend="sc"> ART. VI.</hi></head>
+<p>Quinto articulorum simpliciores portiones notant, quae vel in individuo sunt vel circa individuum versantur, ubi</p>
+<list>
+<item>Primam partem significat locus. </item>
+<item>Secundam habitus. </item>
+<item>Tertiam caput. </item>
+<item>Quartam dextera. </item>
+<item>Quintam sinistra. </item>
+<item>Sextam pectus. </item>
+<item>Septimam venter. </item>
+<item>Octavam foemur. </item>
+<item>Nonam genua. </item>
+<item>Decimam pedes. </item>
+</list>
+</div2>
+<div2>
+
+
+<head><hi rend="sc"> ART. VII.</hi></head>
+<p>Sesta simpliciores illae portiones ita formentur, ut</p>
+<list>
+<item>Ad locum pertineat animal. </item>
+<item>Ad habitum indumenti ratio. </item>
+<item>Ad caput armamentum eius. </item>
+<item>Ad dextram organum. </item>
+<item>Ad sinistram opus. </item>
+<item>Ad pectus insigne. </item>
+<item>Ad Venerem passio. </item>
+<item>Ad foemur actio. </item>
+<item>Ad genua officina. </item>
+<item>Ad pedes materia. </item>
+</list>
+</div2>
+</div1>
+<div1>
+
+
+<head><hi rend="sc">DIVISIO UNIVERSAE PHILOSOPHIAE.</hi></head>
+
+	<p>In tres partes contemplativa dividitur philosophia, physicam, mathematicam, metaphysicam. Prima est de rebus naturalibus, secunda de mediis, tertia de divinis. Prima est de iis quae apud nos fiunt atque sunt, secunda de eorum numero et mensura atque momento, tertia de eorumdem causis. Prima est de iis quae cum materia sunt atque considerantur, secunda de iis quae cum ipsa sunt sed non cum ipsa considerantur, tertia de iis quae sine illa tum sunt tum considerantur. Prima de subsistentibus, secunda de inexistentibus, tertia de persistentibus. Prima de natura concretis maxime, secunda de ratione abstractis, tertia de per se separatis. Prima de iis praesertim quae multa sunt, secunda de iis quae in multis, tertia de iis quae ante multa. Prima ad moralem praesertim vitam confert, secunda ad rationalem, tertia ad heroicam. Primae consideratio est veluti de simo, secundae veluti de rectitudine, tertiae veluti de intellectu. In prima facilius exercetur demonstratio causae, in secunda fere semper demonstratio simpliciter, puta quae causae pariter est atque signi, in tertia demonstratio signi. In prima et tertia distinguuntur et alia sunt nobis et naturae priora, in secunda vero eadem habentur quae primo sunt et primo cognoscuntur.</p>
+</div1>
+<div1>
+
+<head><hi rend="sc"> DIVISIO NATURALIS PHILOSOPHIAE.</hi></head>
+
+	<p>Physica Aristoteli in partes octo seriatim distribuitur, quarum prima est Auscultatio physica quae de natura et motu simpliciter speculatur. Secunda est tractatio De caelo et mundo, ubi de prima motus specie, puta de latione, et de primis mobilibus corporibus contemplatur. Tertia est consideratio De generatione et corruptione, quae est in duobus libris cum tertio qui sine causa appositus est quartus Meteorologicus, ubi de reliquis motus speciebus pertractat. Quarta de generatione, alteratione et consistentia imperfecte compositorum in tribus Meteororum libris. Quinta de generatione et consistentia perfecte compositorum, sed inanimatorum, in libro De mineralibus. Sexta de generatione et consistentia vegetantium in libro De plantis. Septima de gen. et consist. animalium in libris De generatione eorum et De ipsis. Octava de principio generationis, vitae, motus, item vegetandi, sentiendi et ratiocinandi, in libris De anima et ipsis affinibus Parvis naturalibus. Haecque ultima pars est de illa forma, quam intelligit in calce primi Physicorum esse terminum physicae speculationis et contemplationi contiguam metaphysicae. Liber vero Problematum integer propriam hic non habet sedem, cuius diversae sectiones ad diversas numeratarum partium referuntur atque spectant.</p>
+	<trailer><hi rend="italic">Divisionem phisici auditus ex eo quod principio huius libri traditur habes effusissime.</hi></trailer>
+
+</div1>
+<div1>
+
+<head><hi rend="sc">IORDANI BRUNI NOLANI DE PHYSICO AUDITU ARIST. PROPOSITUM.</hi></head>
+<div2>
+<head><hi rend="sc">DE INTENTIONE ET ORDINE OCTO LIBRORUM PHYSICAE AUSCULTATIONIS, ITEM DE EIUSDEM INTENTIONIS ET ORDINIS RATIONE.</hi></head>
+
+	<p>Quoniam igitur rerum naturalium scientiam adtentanti necessarium est primo non ignorare naturam, praeordinavit octo libros De physica auscultatione intitulatos, in quibus quae ad naturae cognitionem facere videntur exequitur. Pro cuius considerationis complemento materiam, privationem atque formam, quae naturae sunt species et a quibus maxime naturalia denominantur, causas item quae secundum ipsas naturae species dicuntur, materialem videlicet atque formalem, vel quae in ipsis aut circa ipsas naturae species versantur, efficientem atque finalem, nec non fortunam et casum agentis quandam rationem suscipientes definivit. Iis adde et motum, qui (cum naturae proximus extet effectus) si ignoretur, et ignorari naturam necesse sit, atque ideo considerationem istam cum suis speciebus, partibus atque terminis subintrat; primi motoris contemplatione non omissa, quatenus pro primi motus cognitione physicae facultatis limites, cum hoc quod et naturae efficiens esse creditur, ingreditur. Eadem quoque vel simili ratione, qua naturae notitiae notitia motus inserviens affertur, aliorum quorundam cognitionem motus cognitioni subministrantem proferre necessum est. Primo igitur ipsius infiniti ratio est investiganda, tum quia motus continuorum quoddam est, ut cui ratio congruat infiniti, tum etiam quia opinantes ipsum infinitum rerum naturalium esse principium atque naturam operae pretium est arguere. Ad haec de loco tractandum occurrit, tum quia motus omnis in loco esse perhibetur, tum etiam quia princeps motus species est localis. Proinde cognitioni de loco cognitio vacui deserviens non est praetermittenda; ipsum quippe vacuum quibusdam (quorum error non erat silentio praetereundus) locus esse videtur. Temporis demum praesentatur adsignanda descriptio, tum quia motus dicitur atque quietis mensura, tum etiam quia ad rerum omnium naturalium efficientiam maxime concurrere videtur. Ecce quemadmodum antea quam in libro De caelo de rebus naturalibus incipiat pertractare, sub titulo considerationis de natura generalia atque communia entibus naturalibus iuxta propriam viam expedisse voluit Aristoteles.</p>
+</div2>
+<div2>
+
+<head><hi rend="sc">[LIB. I] </hi></head>
+<div3>
+<head><hi rend="sc">[CAP. I.]</hi></head>
+<div4>
+<head><hi rend="sc"> ARTICULUS I </hi></head>
+<argument><p> Aristotelis propositum explicatur.</p></argument>
+
+	<p>Duplicem principio cognoscendum proponit ordinem Peripateticorum princeps: alterum habitui scientiae magis adcommodatum et opportunum, quo effecta quorum sunt principia, causae et elementa ex principiis, causis et elementis cognoscuntur; alterum nobis innatum, ad ipsum scientiae habitum capessendum, quo ab effectis ad eorum principia, causas et elementa progredi licet.</p>
+	<p>Horum primus est ab universalibus ad physica composita, quae eorum dicuntur particularia; secundus a confusis universis atque compositis ad universalia, quae eorumdem specifica principia, specificae partes specificaeque causae nuncupantur. Ad quae nimirum haec compositorum cognitio refertur, sicut ad rei notitiam in suae essentiae partibus nominis notitia et indiscreta puerorum appellatio, qua vel omnes viros vel sine delectu virum atque foeminam patres dicunt atque matres, ad propriam atque discretam determinati patris atque matris appellationem.</p>
+	<p>Cum igitur alter ordo rerum naturam, alter vero conditionem intentantium disciplinas consequatur, iam provectis nobis non quidem per innatum, sed elaboratum, licet a distinctis universalibus principiis et elementis, quae sunt natura seu naturae species, determinatam hinc accipientibus matrem materiam, inde vero seorsum patrem formam, ad composita naturalia, quae patrem matremque veluti confundentia complectuntur, proficisci.</p>
+</div4>
+<div4>
+
+<head><hi rend="sc"> ARTICULUS II </hi></head>
+<argument><p> De rerum naturalium principiis primo contra alios argumentando, deinde iuxta propriam sententiam determinando pertractaturus, opinantium praemittit diversitatem.</p></argument>
+
+	<p>Multiplicem inquit antiquorum philosophorum opinionem de principiis extare; alii quippe unum constituerunt principium, alii plura. Eorum qui unum hi quidem posuerunt ipsum immobile, ut Parmenides et Melissus; ii vero mobile, ut naturales, quorum Diogenes intellexit aerem, Thales aquam, Heraclitus ignem, Hipparchus medium inter aerem et ignem. Eorum qui plura alii posuerunt finita, alii vero infinita. Ponentium finita quidam dixerunt duo, ut Plato magnum et parvum, Parmenides calidum et frigidum, Empedocles congregationem et segregationem; quidam dixerunt tria, ut Anaximenes aerem, vel aliud unum cum calido et frigido, et Democritus cum pleno et inani atomos; quidam vero quattuor, ut et Empedocles ea quae communiter elementa dicuntur. Ponentium infinita Democritus (dum in atomos respicit) dixit differentia secundum figuram et ordinem tantum, Anaxagoras vero genere quoque ipso differre voluit. Eodem pacto de ente sicut et de principio quaerunt antiqui, si unum sit vel plura, et si finitum sit vel infinitum, cum ipsum quod est ipsa rerum substantia perpetuo manens, principium appellent.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTICULUS III </hi></head>
+<argument><p> De opinionibus curandis atque persequendis, et de negligendis atque dimittendis sententiam profert.</p></argument>
+
+	<p>Dictorum, inquit, opinantium alii innaturaliter sunt loquuti, alii vero naturaliter. Adversus primos non est pro debito disputandum propter duas causas; tum videlicet quia non conveniunt nobiscum in principiis (simili enim causa geometrae non est solutio ad argumentum Antiphontis, sed Brissonis, de quadratura circuli), tum etiam quia contra quamlibet extraneam et incongruam sententiam (qualis fuit Heracliti) sollicitari insanire est. Est tamen propter duas alias causas exempli gratia cum illis disputandum; tum quia etiam si non naturaliter loquantur, de naturalibus tamen loquuntur, tum etiam quia nonnullis considerationibus faciundis ansam tribuunt. Adversus autem secundos eorum dubitationes solvendo nobis est necessario disputandum, cum admittant vel motum vel multitudinem vel utrumque, quae quidem esse in hac scientia tanquam compertum supponitur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTICUL. IV </hi></head>
+<argument><p> Aliorum opinionibus utcumque praepositis, primo convertitur ad eos qui non naturaliter sunt loquuti.</p></argument>
+
+	<p>Ad Parmenidem ergo et Melissum, qui ens unum inmobile dicunt principium, dirigitur instantia, primo ex parte entis, secundo ex parte unius, tertio ex parte immobilis, quarto ex parte principii, quinto ex parte huius complexi “Ens est unum”, sexto ex parte argumentationis modi. Quod ergo ad primum attinet, petitur ab eis quomodo accipiunt ens. Nunquid pro significanda substantia tantum, an pro aliquo accidentium genere, an pro complexo ex substantia et accidente? Si pro substantia, num pro completa, ut homine aut equo, an pro incompleta, ut anima? Non enim esse potest unum ens, si ens significet substantiam; haec enim cum accidente (sive coniuncta, sive separata intelligatur) pluralitatem constituat oportet, et sine ipso accidente unum finitum vel infinitum non dicetur; neque si ens significet accidens, cum ipsum sine substantia nequeat subsistere; neque si complexum significet, semper enim plura sunt quae complexionem faciunt. Quod ad secundum, petitur ab eisdem quomodo dicunt unum. Continuitate? indivisibilitate? Ratione? Verbi praedicativi ablatione? An conversione verbi in denominativum? Nonne continuum est in infinitum divisibile, ideoque innumeras continens partes? Mitto quod est dicendum de alia ratione totius et partium. Nunquid non unum indivisibile nec finitum esse potest nec infinitum? Nonne ratione unum idem faciet contraria bonum et malum, contradictoria bonum et non bonum, et diversa hominem et equum, substantiam et accidens hominem et albedinem, albedinem et bicubitum? Nonne etiam si Lycophron dicat ‘homo albus’, remanet tamen diversa hominis albique ratio? Similiter et alii, qui dictionem mutantes non ‘albus est’ aiebant, sed ‘albatur’, nonne decipiuntur formidantes ne unum simul et multa dicerent? Nesciebant enim rationem distinguere in plura quod unum est subiecto, et potentia distingui in plura quae unum sunt actu. Quod ad tertium, arguuntur non distinguentes immobilitatem secundum locum ab aliis immobilitatis speciebus, cum tolli nequeant alii motus qui nomine alterationis communiter designantur. Quod ad quartum, tum quia non distinguunt principium temporis et durationis a principio magnitudinis atque molis, tum etiam quia idem dicebant principium et ens. Quod ad quintum, tum quia non invenerunt medium inter ens simpliciter atque nihil, tum etiam quia si posse definiri concedant, necessario in partes definitivas distribuant oportet. Quod ad sextum, arguuntur tum quantum ad argumentandi formam, quia paralogizant, tum etiam quantum ad materiam, quia propositiones falsas adsumunt. Sic enim Melissus argumentatus dicitur: ‘quod est factum habet principium, ergo quod non est factum non habet principium; si non principium, neque finem; ergo est infinitum, ergo est immobile, quia non habet extra quo moveatur; ergo est etiam unum, cum nil admittat extra’. Parmenidis autem istud fertur argumentum: ‘quidquid est praeter ens, est non ens; sed quod est non ens, est nihil; ergo ens est unum; si est unum, est immobile; non enim habet ad quid moveatur’. Et iste ponebat unum finitum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. V </hi></head>
+<argument><p>Secundo convertitur ad eos qui naturaliter sunt loquuti.</p></argument>
+
+	<p>Ad physicos autem respiciens primo eorum diversitatem exprimit, secundo Anaxagorae producit argumentum, tertio eius adducit improbationem. Quod ad primum attinet, alios inquit afferre unum principium formale et duo materialia, alios unum materiale et duo formalia. Primi sunt Platonici principium formale ideam habentes, materialia vero magnum atque parvum, seu excellentiam atque defectum. Secundi sunt diversi generis alii, quorum Parmenides circa unum apposuit calidum et frigidum, Anaximander rarum et densum, Democritus plenum et vacuum, Anaxagoras congregationem et segregationem iteratam, Empedocles vero semel factam. Qui quidem universi circa unum apponentes duo, de duobus alterum accipiunt ad modum excellentiae et habitus, alterum vero defectus atque privationis. Quod ad secundum, argumentatur Anaxagoras hoc pacto: ‘omne quod fit, ex ente fit, et consequenter inerat antequam fieret, ideo et extabant omnia simul; unde fieri nil aliud est quam alterari, sive sit per congregationem, ut alii volunt, sive per segregationem, ut nos; si ergo ex contrariis contraria fiunt, contraria sunt in contrariis, et omnia consequenter in omnibus’. Et adducit duplicem cautelam: prima quod propter eorum parvitatem omnium partes in omnibus non apparent, secunda quod unumquodque ab eo quod superabundat denominatur. Quod ad tertium, taxatur primo Anaxagoras, tum quia tollit scientiam principiorum, tum quia partium scientiam aufert (in via enim sua nihil erit cognoscibile); tum quia contingeret totum quantumcumque esse secundum magnitudinem et parvitatem, si partes determinatam quantitatem non admittant; tum quia si segregatio stabit, non erit quodlibet in illo residuo ex quo segregatio facta est, si vero non stabit, erunt infinita in infinitis infinities, quod est valde absurdum; tum quia vanam mentem introducit, utpote impossibilia quaerentem (nunquam enim fecisse poterit segregationem quam semel ordita est facere, et secundum quantitatem, cum non sit minima magnitudo, et secundum qualitatem, quoniam inseparabiles sunt passiones); tum tandem quia similia ex similibus semper fieri dicit, non considerans quod quamvis lutum dividatur in luta, non tamen lateres in lateres et domus in domos. Melius ergo dixit Empedocles finita constituens.</p>
+</div4>
+</div3>
+<div3>
+<head><hi rend="sc">CAP. II.</hi></head>
+<div4>
+<head><hi rend="sc">ARTICULUS I</hi></head>
+<argument><p>Cum antiquorum cribrarit sententias, de principiorum veritate determinare instituit, et primo quantum ad eorum contrarietatem spectat.</p></argument>
+
+	<p>Id vero, inquit, quod ex antiquorum sententiis elicimus, est quod omnes contrarietatem in principiis agnoscunt, ut per eorundem positiones inducendo est manifestum. Et quidem non sine ratione. Sunt enim principia prima quaecunque ita se habent ut ex aliis non fiant, ex alterutris non fiant, et ex iis omnia fiant; porro prima contraria sunt eiusmodi. Quae cum sint prima, non fiant ex aliis oportet; cum sint contraria, non fiunt de communi substantia; cumque omne quod fit ex suo fiat contrario vel medio, et omne quod corrumpitur in contrarium corrumpatur vel medium (ut tum in simplicibus, tum in compositis quae fiunt est manifestum), sequitur ut omnia tandem fiant ex his contrariis, tandemque ad prima haec contraria reducantur universa. Licet autem omnes in hoc conveniant quod contraria faciant principia, tanquam non ratione ducti, sed veritati coacti, item quia alterum sumunt ut melius, alterum ut deterius; differunt tamen quia alii priora secundum sensum, ut qui calidum et frigidum dixere (et apud istos principia sunt singularia), alii secundum intellectum priora et notiora posuere, ut qui rarum et densum, magnum et parvum, litem et amicitiam; et apud istos principia sunt universalia.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTICULUS II </hi></head>
+<argument><p>Secundo quod ad eorum numerum attinet.</p></argument>
+
+	<p>Consequens est, inquit, de eorundem numero determinare. Primo igitur non est unum principium, cum contrarietas exigatur in principiis. Secundo non sunt infinita, tum quia secundum hanc viam impeditur atque tollitur scientia, tum etiam quia melius cum principiis determinatis rerum positio salvatur per Empedoclem, quam cum infinitis per Anaxagoram. Tertio non sunt duo; contrarium enim nec producit alterum, nec producitur ex altero; neque enim discordiam concordia facit. Quarto debent esse tria; unum quippe, quod non sit contrarium, contrariis est subiiciendum; quod cum ex illis duobus non sit et ex eo cum illis sint universa, non minus iis principium est dicendum. Quinto non sunt plura tribus, idque tum ex parte contrariorum est manifestum, tum etiam ex parte subiecti. Ex parte quidem contrariorum, quia etsi sint plura contraria, non tamen omnia semper et in omnibus manent, quod maxime conducit ad hoc ut prima sint principia, sed sunt ex prioribus plurima. Dulce quippe et amarum, asperum et lene, iuxta Parmenidis sententiam ex caliditate sunt atque frigiditate. Aliud igitur duobus ipsis addere non est necesse. Ex parte etiam subiecti, quia ad omnem transmutationem naturalem suffucit unum duorum contrariorum subiectum. Istis consideratis tria esse elementa rerum videbitur, sicut et aliorum dogmata constare faciunt, licet horum prisci duo agere et unum pati, posteriores vero duo pati voluerint.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTICULUS III</hi></head>
+<argument><p>Tertio ad venandum numerum et quidditatem principiorum plurima fundamenta iacit.</p></argument>
+
+	<p>Antequam, inquit, principiorum propria speculemur, quaedam se offerunt praeponenda communia. Sint ergo quattuor divisiones et quinque illationes. Divisionum ergo prima est, quod eorum quae fiunt alia complexe fiunt, ut inmusicus homo fit musicus homo; alia incomplexe, ut homo fit musicus. Secunda: eorum quae fieri dicuntur alia manent post transmutationem, ut subiectum transmutationis, et de ipso dicitur hoc fit hoc, ut homo fit musicus, licet aliquando dicatur ex lapide fit Mercurius, non autem lapis fit Mercurius; alia non manent, ut privatio formae advenientis, et de hac dicitur ex hoc fit hoc, ut ex immusico fit musicus. Tertia: eorum quae fiunt alia fiunt per trasmutationem, ut statua ex aere; alia per appositionem, ut acervus ex lapidibus; alia per abstractionem, ut Mercurius ex lapide; alia compositione, ut domus; alia alteratione, ut quae vertuntur secundum materiam: in quibus omnibus semper est aliquod subiectum. Quarta: eorum quae fieri dicuntur alia fiunt simpliciter, ut substantia cuius est generatio et corruptio, cui factioni materia prima subiicitur; alia fiunt secundum quid, ut accidentia quibus subiicitur subiectum in actu. Illationum vero prima est, quod in omni transmutatione naturali de subiecto transmutationis dicitur hoc fit hoc,quia manet. Secunda, quod de privatione dicitur proprie ex hoc fit hoc, quia non manet. Tertia ex dictis duabus, quod privatio atque subiectum non sunt idem secundum rationem, quamvis secundum numerum. Quarta, quod in omni transmutatione naturali duo (puta subiectum atque privatio) praecedunt et duo (nempe subiectum atque forma) in re facta permanent. Quinta, quae consequitur quartam, quod duo sunt principia per se, ut puta quae in re facta permanent; tertium est per accidens, quod non perseverat. Sexta, ut principia duo, per se; tria, si connumeretur ipsum per accidens; quorum quidem subiectum est unum numero, duo ratione. Septima, quod contrariorum alterum, quod est per accidens, non est quodammodo necessarium; sufficit enim alterum contrariorum quandoque absentia sua atque praesentia mutationem efficere.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc">ARTICULUS IV </hi></head>
+<argument><p>Quarto ex conditionibus eorum infert uniuscuiusque rationem.</p></argument>
+
+	<p>Offert tandem (ut ex eius fundamentis est manifestum) definitionem materiae et privationis; et de formae, se ipsum excusat, ratione non adducta. Dicit ergo materiam: 1. primum subiectum, 2. ex quo fit aliquid primo per se et non secundum accidens, 3. cum insit, 4. cognoscibile per analogiam ad formam, 5. pars substantiae physicorum, 6. nec simpliciter ens, nec simpliciter non ens, 7. appetens formam, ut foemina marem, 8. ingenerabilis, cum ex ipsa omnia, 9. incorruptibilis, cum in ipsam omnia. Privationem dicit: 1. ex qua fit aliquid primo secundum accidens, non per se, 2. non extans in facto, 3. cognoscibile secundum negationem formae cum dispositione ad ipsam, 4. privatione non ens, 5. ratione cuius materia formam appetit, 6. terminus a quo in generatione, 7. non generabilis, quia principium, 8. non corruptibilis, quia non in principium (evanescere enim potius dicitur, seu cessare), 9. quoddam ad maleficium pertinens. Formam vero quid sit, quomodo sit, et quam multiplex, determinare spectat ad metaphysicum, praeterquam quod de corruptibilibus in posterioribus considerabitur. Haec ex Aristotele. Porro si quis formam, quae est physicum principium, ut duobus aliis respondet principiis, nosse desiderat, poterit eam sumere ex conditionibus tum oppositis tum similibus praedictorum. Est ergo principium 1. dans esse simpliciter, 2. immediate primo subiecto adveniens, 3. ex quo fit aliquid per se, 4. in re facta permanens, 5. ad cuius analogiam materia est cognoscibilis, 6. pars substantiae physicae, 7. ingenerabilis, 8. incorruptibilis, 9. quoddam divinum, optimum et appetibile.</p>
+</div4>
+</div3>
+</div2>
+<div2>
+<head><hi rend="sc">LIB. II </hi></head>
+<div3>
+<head><hi rend="sc">CAPUT I</hi></head>
+<div4>
+<head><hi rend="sc">ART. I</hi></head>
+<argument><p>Quid sit natura definit, de qua num sit quaeret insensatus.</p></argument>
+
+	<p>Cum naturae species insinuarit Arist., naturae nunc definitionem intentat. Primo igitur eorum quae sunt divisionem adducit, inquiens: alia sunt a natura, ut simplicia corpora et ex iis formata; alia ab aliis causis, puta voluntate, casu, fortuna et (si quae sunt) caeteris. Secundo affert differentiam istorum ab aliis, inquiens quae sunt a natura intrinsecum, quae vero ab aliis causis extrinsecum principium agnoscere. Tertio naturae definitionem infert, naturam inquiens esse principium et causam motus et quietis, in quo est primum, per se et non secundum accidens. Quarto naturalium definitionem, dicens: naturam habentia sunt, quae huiusmodi principium habent. Quinto ea quae secundum naturam sunt definit, haec inquiens esse et quaecunque secundum se naturalibus insunt, ut igni sursum ferri. Tale vero principium intrinsecum esse, ridiculum est ostendere, cum nihil ipso magis extet manifestum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. II </hi></head>
+<argument><p>Naturam duplicem et quodammodo triplicem esse.</p></argument>
+
+	<p>Haec, inquit, natura duplex est principium, materia videlicet atque forma. Materiam quidem esse naturam est manifestum, tum ex hoc quod primum informe subiectum maxime natura existimatur, ut ex lecto putrescente declarat Antiphon, et ex auro quod in aquam et ligno quod in terram vertitur alii; tum etiam ex antiquorum communi sententia, qui sane totam rei substantiam atque naturam (utpote unum perpetuo manens, supra quo infinitae formae variantur) materiam esse crediderunt, quos quidem per pueros patrem a matre non distinguentes figurasse possumus. Formam quoque naturam esse: primo ex hoc quod ipsa entia naturalia distinguit atque denominat, haud aliter quam artificialia denominet ars; secundo ex hoc quod a forma similitudo ab agente in passum et a producente in productum transmittitur; tertio ex eo quia si materiam, propter quam naturalia sunt in potentia, naturam dicimus, cur non maiori ratione formam, cuius merito sunt in actu? - quarto quia ideo lignum non lectulum esse natura dicebat Antiphon, quia non lectulus sed lignum per generationis actum redit. Formam igitur substantialem naturam dicimus, quandoquidem ex homine fit homo. Privationem quoque si cui naturam appellare libuerit, non satis aberrat, si forte aberret; privatio quippe forma quae abiicitur est. Porro utrum in generatione substantiarum formae substantiales contrarientur, postea videndum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTIC. III </hi></head>
+<argument><p>Ex hoc quod est determinatum quid et quotuplex sit natura, sumit ansam adducendae differentiae inter physicum et mathematicum.</p></argument>
+
+	<p>Differunt, inquit, mathematicus a physico. Physicus enim formam cum materia considerat atque motum, unde eiusdem ratio est, veluti de simo. Idque tribus manifestamus rationibus. Primo enim, sicut ars, quae naturam imitatur, domus materiam considerat atque formam, ita etiam ipsa natura, cuius est pedissequa. Secundo, quia eiusdem facultatis est finem et ea quae ad ipsum conducunt speculari. Tertio, quia eiusdem scientiae est utriusque relativorum habere rationem. Mathematicus autem (qui duplicis est generis; alter enim est non purus, alter vero purus) qui non purus est, determinat quidem formam ad materiam, sed non ad sensibilem, quatenus essentiale rei constitutivum principium existit, ut patet in perspectiva, musica et astrologia; qui vero purus est et nihil habens physicis affine, a materia prorsus abstrahit atque motu, quemadmodum in arithmetico patet et geometra. Hic tamen abstrahens, ob id ipsum quod abstrahit non est falsus; aliud enim est si hoc sine illo, aliud si hoc esse sine illo quis consideret.</p>
+</div4>
+</div3>
+<div3>
+<head><hi rend="sc">CAPUT II</hi></head>
+
+<div4>
+
+<head><hi rend="sc">ARTIC. I </hi></head>
+<argument><p>Convertitur ad causarum genera in naturalibus contemplanda.</p></argument>
+
+	<p>Hinc, inquit, ad rerum naturalium earundemque scientiae causas enumerandas definiendasque convertamur. Harum ergo consideratio est primo quantum ad earum rationes; prima namque est materialis causa, ex qua et de qua aliquid est, hoc pacto ut insit; secunda formalis et exemplaris est ratio ipsius quod quid erat esse; tertia agens est, unde principium mutationis primum; quarta finalis est, cuius causa et gratia cuius. Secundo quantum ad earum proprietates, quarum prima quod eiusdem rei sunt plures causae, secunda quod diversimode sunt diversae, tertia quod sunt sibi invicem causae, quarta quod eadem potest esse contrariorum. Tertio quantum ad earum sufficientiam, cum omnes causae ad istas reducantur; ad primam enim reducuntur elementa syllabarum, materia vasorum, elementa mixtorum, et suppositiones conclusionum etc.; ad secundam definitio, compositum, exemplar etc.; ad tertiam semen, instrumentum, vehiculum, dirigens, consilians etc.; ad quartam verum, opinatum, apparens, medium, ultimum, mediocre summumque bonum. Quarto quantum ad earundem modos seu distinctiones, quarum prima causarum alia prior, alia posterior; secunda earum alia per se, alia per accidens; tertia alia complexa, alia incomplexa; quarta alia ut potens seu virtute, alia ut operans seu actu. Sed primi sex modi per duos istos ultimos duplicati reddunt duodecim. Quinto quantum ad earum regulas, quarum prima est quod causae in actu particulares simul sunt cum suis effectibus, causae vero in potentia non sunt simul; secunda quod in scientiis speculativis summam oportet causam quaerere; tertia quod causae universales de universalibus afferendae, de particularibus vero particulares.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTIC. II</hi></head>
+<argument><p>Transit ad causas per accidens, casum atque fortunam, quae circa naturalia versantur.</p></argument>
+
+	<p>Causam efficientem occultam duplicem intelligit, fortunam videlicet atque casum, pro quarum consideratione dirigenda primo aliorum opiniones adducit. De quorum primis dicit eos dubitare sint nec ne, tum quia omnibus se determinatam adsignare causam non diffidunt, tum etiam quia de antiquorum sapientum numero nullus extat, qui talem fuerit complexus considerationem. De secundis inquit eos hanc maximam facere causam, quorum unus est ex fortuito concursu multa componens et generans Empedocles. De tertiis ait eos hanc longe maiorem facere causam; Democritus enim fortuito atomorum concursu non haec inferiora modo sed et caelum ipsum et omnia constitui vult et ordinari, imperite animalibus et plantis determinatam, divinioribus autem atque sempiternis indeterminatam [in] causam tribuens. De quartis ait eos habere fortunam causam nobis in manifestum, et en quoddam divinum atque felicius.</p>
+	<p>Secundo fortunam definit eam inquiens esse causam <num>1.</num> citra haec quae fiunt semper atque frequenter, <num>2.</num> citra haec quae gratia alicuius et per electionem, <num>3</num>. per accidens, <num>4.</num> Indefinitam, <num>5.</num> de genere infinitorum quae uni efficiendo possunt contingere, <num>6.</num> vel non intendenti vel aliud intendenti eveniens, <num>7.</num> de eorum genere quae a proposito fiunt, adeo ut circa idem mens atque fortuna versari videantur, <num>8.</num> quid extra rationem recte dictum, <num>9.</num> eufortunium vel infortunium denominans, cum magnum bonum vel malum accidat, vel modicum abfuerit ut accidant.</p>
+	<p>Tertio casum iis ipsis quibus a fortuna differre intelligitur definit. Fortuna enim in ipsis quibus actio competit, intelligitur operari; inanimata enim, bestias et pueros metaphorice fortunatos dicimus, ut Protarchus <hi rend="italic">felices lapides quibus arae diis sunt erectae.</hi> Fortuna quoque remotior est ab iis quae natura fiunt, quam ipse casus; si enim monstra et omnino quid praeter naturam naturalibus eveniat, ipsum non ad fortunam, sed ad casum referre consuevimus.</p>
+	<p>Quarto per propria principia eorum sententiam, qui hanc mundi effectricem opinati sunt, eliminat. Ait enim causam per accidens agentem non debere esse ante mentem atque naturam, quas intelligimus esse per se causas, et consequenter primas tenere debere.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ARTICULUS IV </hi></head>
+<argument><p>Ostendit naturalem omnes causas contemplari, et ex omnibus causis demonstrare.</p></argument>
+
+	<p>Physicum, inquit, nullum causae genus praetereat. Primo quia multoties tres causae, ut homine hominem generante, forma, finis et agens concurrunt in unum, et ipsae non sine subiecto conveniunt. Secundo quia physicus considerat quae mota movent, alio circa immobile, alio circa incorruptibile mobile occupato; et considerat in iis physicus quid fiat post aliquid, quid fecit primum, quid sustinuit et cuius causa. Tertio quia in naturalibus reddendum est propter quid secundum omne causae genus; quaerenti enim: propter quid hoc? dicitur: 1. quia ex hoc, 2. quia per hoc, 3. quia ab hoc, 4. quia propter hoc. Quarto quia si causae genus aliquod esset dubitabile, ipsum esset causae finalis; quidam enim ad causam materialem referentes omnia, finalem etsi quodammodo tangant, hi quidem per concordiam, ii vero per intellectum, valere tamen sinentes, e medio tollunt. Sed horum mox arguenda suscipitur sententia.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. V </hi></head>
+<argument><p>Ut intelligatur naturalem etiam causam finalem contemplari debere, naturam astruit agere propter finem.</p></argument>
+
+	<p>Impossibile, inquit, et inconveniens est ex intento non agere naturam. Primo quia secundum eam omnia fiunt ut semper atque frequentius, tamquam non ut forte fortuna quippiam obtigerit. Secundo quia omne quod natura fit, ita agitur ut agi aptum est atque natum; haud enim aliter quam si ab arte fieret, posteriora prioribus ordinando domum aedificandam construeret. Tertio quia si ars, quae ut posterius ad prius refertur ad naturam et eiusdem aemulatrix, imitatrix et aliquando perfectrix apparet, agit propter finem, cur non et illa cuius est pedissequa? Quarto quia animalia consultissime et dispositissime agunt, sicut et plantae frondes ad fructuum conservationem producunt; quae tamen non arte nec deliberatione, sed ipsa natura aguntur. Quinto quia propter formam, quae quid ultimum est atque finis, operatur. Sexto quia ubi sunt determinata media et certus ordo procedendi inspicitur, necessario operationem ad finem licet argumentari. Septimo quia quae ex determinatis migrant principiis, ad certos etiam tendunt fines; non enim ex quolibet semine quodlibet educitur, neque a quolibet efficiente proximo quilibet effectus. Octavo quia dubium de monstris, quae contingunt in iis quae a natura proficiscuntur, nullum est; quia et ars quantumvis errans per finem operatur. Nono quia dubium de deliberatione, quae non apparet in natura, vanum est; artifex etenim quanto maturior et exquisitior est, minus (ut in citharoedo est manifestum) deliberando facit. Decimo quia dubium sumptum a bovigenis, qui fuisse dicuntur, dirimitur per vitigenas, quae nec esse possunt neque fuisse.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTICULUS VI </hi></head>
+<argument><p>Infert in rebus naturalibus esse necessitatem et absolute et ex suppositione, ex necessitate videlicet materiae atque finis.</p></argument>
+
+	<p>Ad eos, inquit, qui ideo hominem aiunt habere pedes et ossa densiora inferius, caput autem et ossa spongiosa atque rariora et cavernosa superius, quia materiae necessitate gravia deorsum et levia sursum feruntur, respondendum talem dispositionem sine principiis materialibus convenienter dispositis non esse quidem, veruntamen et esse propter aliud oportet. Et ideo distinguimus necessarium ob talem materiam a necessario propter talem finem; in serra enim est necessitas materiae, quam oportet esse duram, et est necessitas propter finem, quatenus acutis dentibus formatam ad secandum esse oportet. Quam quidem necessitatem sicut in naturalibus, ita et in speculativis contemplamur, in quibus et praemissae sunt materia, ut ex ipsis fiat illatio, nec non terminorum dispositione conclusionis ipsius gratia praeconcipiuntur. Cum ergo causa materialis sit propter formam atque finem, et fini subserviat forma et formae materia (scissio namque serram et serra ferrum exquirit), ideo definitio physica cum hoc quod a materia sumitur debet et principalius a forma fineque desumi.</p>
+</div4>
+</div3>
+</div2>
+<div2>
+
+<head><hi rend="sc">LIBRI TERTII </hi></head>
+<div3>
+<head><hi rend="sc">CAP. I.</hi></head>
+<div4>
+<head><hi rend="sc"> ARTICULUS I </hi></head>
+<argument><p>Adducit rationem considerationis de motu, eiusdem genus inquirit, definitionem affert, eius convenientiam probat.</p></argument>
+
+	<p>De motu hoc ordine speculatus est. Primo ea hic ratione considerandum, inquit, de illo, quia cum natura motus sit atque quietis principium, ignorato motu ipsam quoque necessarium sit ignorari. Secundo definitionem vestigat et affert dicens, quod cum eorum quae sunt alia sint actu tantum, alia potentia tantum, alia acta simul atque potentia; et eorum quae actu alia quid, alia quale, alia ad aliquid, alia aliud designent praedicamentum; et eorum quae ad aliquid alia sunt secundum superabundantiam et defectum, alia secundum activum et passivum et omnino motivum et mobile: motus non erit praeter genera in quibus est motus, idest substantiam, quantitatem, qualitatem atque locum, neque aliquid iis commune vel ab iis extraneum esse potest; extra enim haec nullum est commune univocum accipere. Cum etiam secundum genera rerum motus dividatur, et in generibus omnibus dupliciter aliquid inveniatur, vel videlicet sicut perfectum atque forma vel sicut imperfectum atque privatio, cumque tot motus et mutationis extent species quot et entis; motum definimus esse actum existentis in potentia secundum quod huiusmodi, unde in substantia generatio est actus generabilis secundum quod generabile, in quantitate augmentatio augmentabilis secundum quod augmentabile, in qualitate alteratio est actus alterabilis secundum quod alterabile.</p>
+	<p>Tertio definitionis congruentiam manifestat, tum primum dicens motum eius esse actum in quo semper invenitur, hoc autem est existens in potentia, puta mobile (item est in ipso mobili quatenus tale, statuificatio quippe non est actus aeris quatenus aes, sed qua statuificabile); tum deinde dicens aedificabilis qua aedificabile non est actus quando est aedificium vel domus, nec antequam aedificator manus admoveat, sed cum actu aedificator aedificat; tum tandem inconvenientiam alienarum adferens definitionum, quae motum in alio quodam genere collocant. Si quippe, inquit, motus esset alteritas, inaequalitas, non ens, in quibuscumque motus reperitur, in iisdem et isthaec comperirentur; porro mutationem non magis ex iis et in iis, quam ex et in oppositis identitate, aequalitate et ente fieri convincitur.</p>
+	<p>Quarto causam difficultatis eius, quae antiquos in errorem induxit, astruit inquiens illorum inde profectum esse errorem, quoniam indeterminatum quoddam et ad alteram Pythagoricarum coordinationum pertinens apparet, quae imperfectorum privativorumque seriem continet principiorum; non enim tam esse hoc vel tale, quam fieri hoc vel tale videtur, quod ad certum quoddam pertineat genus id ipsum quod movetur. Constat enim motum neque potentia neque actu quippiam significare; nam et quod esse potest et quod iam actu quantum est, secundum quantitatem necessario non movetur, atqui omne praedicamentum per id quod est actu vel potentia dividitur. Nos vero actum in perfectum et in imperfectum distinguentes motum dicimus actum cognitu quidem difficilem, non tamen falsum seu qui nequeat esse. Neutrum igitur erit extremorum, sed medium quoddam inter actum simplicem simplicemque potentiam.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. II </hi></head>
+<argument><p>An mobilis, an moventis actus quidam sit motus.</p></argument>
+
+	<p>Quia, inquit, movens primo est in potentia et postea in actu sicut et mobile, item quia et movens cum non movet et mobile cum non movetur quiescere pariter dicuntur; ultra quia omne naturale agens quatenus naturale ita movet ut et moveatur, ita inquam movens est ut et sit mobile; motus videtur esse vel actus moventis ut ad quem principaliter, vel moventis pariter atque mobilis ut ad quos communiter spectet. Quocirca motum definimus alterius quidem tamquam accipientis atque sustinentis, alterius autem velut operantis et efficientis actum. At inquies: cum movere actio quaedam sit et moveri passio, eruntne motus iidem an diversi? Si quippe diversi, aut ambo in agente, et tunc movens omne movebitur; aut ambo in patiente, tuncque diversis idem agetur motibus; aut passio in patiente et actio in agente, et tunc (cum actio motus quidam sit) movebitur omne movens; aut passio in agente et actio in patiente, tuncque actus non reperietur in eo cuius est actus. Respondet se non intelligere idem esse actionem atque passionem, sed eumdem actionis passionisque subiectum motum, qui huius quidem est ut in quo, illius autem ut a quo; unde nec agentem pati, nec discentem docere consequens erit.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. III </hi></head>
+<argument><p>Concludit rectam atque completam esse motus definitionem.</p></argument>
+
+	<p>Recte igitur, ait tandem, motus universaliter est definitus, quandoquidem eadem forma specierum ipsius definitiones sumere liceat; ut enim motum esse actum mobilis secundum quod mobile definis, ita alterationem alterabilis, aedificationem aedificabilis, medicationem medicabilis actum secundum quod huiusmodi poteris definire.</p>
+</div4>
+</div3>
+<div3>
+
+<head><hi rend="sc">CAPUT III </hi></head>
+<argument><p>Aggreditur tractatus de iis quae motum consequuntur, et primo de infinito.</p></argument>
+
+<div4>
+<head><hi rend="sc"> ARTIC. I </hi></head>
+<argument><p>Cur physici sit agere de infinito. Item de opinantium convenientia et differentia.</p></argument>
+
+	<p>Ea, inquit, ratione, qua de motu qui in definitione naturae collocatur agendum duximus, et de iis quae motum consequuntur aeque oportere credimus. Horum autem unum est infinitum, quod pluribus de causis non praetermittere oportet; primo quia motus continuorum quoddam est, et definientibus continuum statim occurrit infinitum; secundo quia physici consideratio generaliter circa magnitudinem versatur atque motum, quorum quodlibet (quidquid sit de puncto et passione) finitum perhibetur aut infinitum; tertio quia omnes, qui de naturalibus consideravere, de infinito meminisse constat; quarto quia [quae] ex eorum sententiis quid minus bene, quid etiam consentaneum magis fuerit allatum oportet examinare. Ipsi nimirum in eo quidem conveniunt, primo quod ipsum principium quoddam ponunt eorum quae sunt; secundo quod ingenitum quid sit atque incorruptibile quale, (si principium sit) oportet esse; tertio quod dicentes extra infinitum aliam causam, utpote intellectum vel concordiam, ipsum aiunt continere atque gubernare universa; quarto quia (ut Anaximander plurimique alii dixerunt), cum immortale sit atque incorruptibile, ut divinum quoddam semper effertur. Porro in eo differunt, quod alii, quales Pythagorici fuerunt atque Plato, ipsum veluti substantiam per sese existentem intrudunt; alii vero, quales fuere Anaxagoras atque Democritus, velut accidens quoddam concepere; dum inde quidem Pythagorici in ipsis duntaxat sensibilibus ponerent infinitum, Plato vero non in sensibilibus collocaret modo, sed et in ideis. Pythagoras item in ipsis extra caelum et eiuscemodi margine incomprehensibilibus praedicavit, Plato vero extra caelum nullum esse corpus intellexit. Pythagoras quoque unum numerum parem qui ab impari comprehendatur atque finiatur astruit infinitum, Plato autem duo, magnum scilicet atque parvum, celebrat infinita. Hinc vero Anaxagoras ex infinitis similibus ipsum faceret constare corporibus, Democritus autem ex infinitis secundum figuram differentibus; Anaxagoras item ex quolibet fieri dicat, Democritus autem id neget.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>Quinque rationes quibus esse, et duae quibus non facile definibile videtur infinitum.</p></argument>
+
+	<p>Ex quinque capitibus inquit infinitum persuaderi: 1. ex tempore quod nec principium habet neque finem, 2. ex magnitudine quam in infinitum sectilem intelligunt mathematici, 3. ex infinita generationum corruptionumque vicissitudine, 4. ex eo quod omne finitum ad aliquid extra ipsum finiatur oportet, nec facile est terminum eiusmodi (quominus intentum habeatur) adducere, 5. ex eo quod intellectus numerando, dimensionando et extra caelum spacium sive vacuum sive plenum imaginando, nec non infinitos considerando mundos, contineri minime potest, nec satis rationabiliter arguetur eo respicienti, quod esse et posse non differant in perpetuis. At vero quid sit infinitum non ita est conceptu facile, tum quia dubium est an sit substantia, an per se cuidam accidens naturae, an neutro se habens modo nihilominus tamen sit; tum etiam quia quaestio multiplex est, cum plurifariam dicatur infinitum: 1. quod intransibile, 2. quod transitum habet inconsummabilem, 3. quod vix transiri queat, 4. quod aptum est habere quem non habet transitum. Ubi omne aut in appositione aut divisione aut in utroque consistit.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>Non esse infinitum separatum.</p></argument>
+
+	<p>His, inquit, qui infinitum separatum intelligunt, plures adversantur rationes: 1. haec quae non poneret ipsum substantiam, cum ipsa non sit divisibilis, praeterquam vocem quis dixerit infinitam, nec accidens poneret, quandoquidem eius subiecto magis principii conditio conveniret; 2. haec quae subiectum ipsius, magnitudinem atque numerum, non separat a sensibilibus; 3. haec cui non est possibile ipsum partibile fingere vel impartibile, si impartibile ut vox non hic quaeritur, et partibile quodcumque sit semper erit compositum, quale, sive eiusdem sive diversae rationis partibus constet, impossibile est quod infinitam admittat quantitatem, quam si alioqui mathematice capias vel metaphysice, hic, ubi de naturalibus sensibilibusque considero, non urgebo.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ART. IV </hi></head>
+<argument><p>Non esse infinitum in sensibilibus positum.</p></argument>
+
+	<p>Ad eos autem qui infinitum in sensibilibus collocant, primo sunt rationes logicae: 1. quia magnitudine infinitum quomodo esse potest, cum omne sensibile corpus superficie terminatum sit atque locatum? 2. quia quomodo erit multitudine infinitum, cum numerum non ut innumerabilem sumere oporteat? Secundo magis physicae extant rationes. Prima quia si sit actu corpus infinitum, aut simplex erit aut compositum. Atqui compositum non est; non enim ex finitis componetur (nam quomodo magnitudine finitis partibus constabit?), nec partem aliquam habere poterit infinitam, siquidem vel illa totum occupabit, vel si locum alteri concederet, ipsum tamen si sit contrarium destruet et absorbebit, quemadmodom infinitae virtuti virtus non contrastabit infinita. Haud enim evades fingens infinitum debilioris esse virtutis, ubi multiplicata proportione infinitum finiti virtutem non modo exaequabit, sed et residuo quod semper est accipere superabit. Neque etiam non frustra a qualitatibus elementorum finxeris absolutum; quomodo enim erit principium, si illud non sit in quod ea quae sunt conflata resolvantur? Qualecumque sit igitur tale medium sine contrarietate non erit, cum omnis mutatio fiat ex contrariis. Secunda quia (cum omne corpus naturale ut alicubi sit naturalem habet aptitudinem, naturalis quoque locus conveniat universis, nec non idem sit totius locus atque partis oportet) si sit sensibile corpus infinitum, vel homogeneum erit vel heterogeneum. Atqui quomodo primum? Quia si in loco erit naturali, oporteat ipsum non minus quam locatum esse infinitum, quod consequenter perpetuo quiescat et extra se locum alium non admittat; in loco autem non naturali situm ob dimensionis immensitudinem infinite a loco naturali distans non ad ipsum umquam poterit pervenire, nec in eodem quiescere consequenter. Quomodo secundum, si, vel compositum ex finitis ponatur vel ex infinitis, eadem quae supra sequentur inconvenientia? Mitto quod cum cuilibet corpori naturali locus naturalis debeatur, infinita loca sicut et infinita specie distincta corpora ponerentur. Neque dubium evitabit Anaxagoras, si dixerit eiusmodi corpus in se ipso quiescere, primo ex eo quod non valet isthaec consequentia ‘infinitum naturaliter in se ipso quiescit, quia infinitum est in se ipso’; plerumque enim aliquid violentia est alicubi, quod quidem etsi esse dicatur in se ipso, in se ipso tamen quiescere dici non poterit; secundo ex eo quod si infinitum quiescat in se ipso, id erit propter infinitatem, at vero longe aliam oportet quietis assignare rationem, siquidem eadem causa qua nunc terra quiescit, in eodem loco quiesceret si esset infinita; tertio quia omne sensibile corpus est grave vel leve, ideoque vel a medio mobile vel ad medium, at infinitum eo quod sursum et deorsum, medium et extremum est certe caret; quarto quia omne sensibile corpus est alicubi, alicubi vero et locus semper determinatum est atque finitum; quinto quia constat unicuique corpori naturali locum deberi naturalem atque proprium, quod ex istiusmodi finiatur differentiis, sursum, deorsum, ante, retro, dextrum, sinistrum, quae certe non solum nobis, sed et naturae totius sunt determinatae.</p>
+</div4>
+<div4>
+
+
+<head> <hi rend="sc">ART. V </hi></head>
+<argument><p>Ostendit quomodo sit et quomodo non sit infinitum, item quale in permanentibus et successivis, quale secundum appositionem et divisionem.</p></argument>
+
+	<p>Ut veritatem istiusmodi problematis insinuet, quinque producit sententias Aristoteles, quarum prima est: cum eorum quae sunt quaedam actu sint, quaedam vero potentia, infinitum (sive appositione sive ablatione sumatur) non actu est, sed potestate, non autem ita potestate ut nullo pacto actu, nec ita actu ut nullo pacto potestate; actu enim quiddam est ubi infinitae partes semper sunt accipiendae, potentia quoque non actu quiddam est ubi infinitae partes numquam erunt acceptae. Ita igitur est infinitum ut actum respiciat incompletum, quatenus semper post factum ad aliquid faciendum respiciatur, et ita ut actum non respiciat completum, cuius videlicet nulla sit ulterius pars accipienda. Secunda: differt infinitum in successivis ubi tempore prius acceptum cum postea accepto non habetur, ab infinito in permanentibus ubi magnitudinis divisione prius acceptum cum posterius accepto permanet; conveniunt autem quia utrobique non in accepto, sed in ipso accipere comperitur infinitum. Tertia: infinitum secundum appositionem et secundum divisionem se consequuntur, quia alteri potest apponi quod ab altera magnitudine removetur. Quarta: appositio non fit per infinitas eiusdem proportionis partes; non enim quacumque magnitudine finita data contingit esse maiorem. Quinta: cum infinito secundum appositionem oppositum sit infinitum secundum divisionem, errat Plato duo faciens infinita, magnum et parvum, quibus non utatur ubi dividens pervenit ad minimam unitatem, apponendo vero sistit in denario, in quo (ut ipse ait) numerorum species terminantur.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. VI </hi></head>
+<argument><p>Improbat aliorum formam definiendi infiniti.</p></argument>
+
+	<p>Infinitum dixerunt illud esse cuius nihil est extra accipere, quos pluribus modis arguit Arist., primo inquiens infinitum potius dici debere cuius quantitatem accipientibus semper aliquid aliud offeratur accipiendum, quod dupliciter manifestat, tum videlicet ex consueto vulgatoque accipiendi modo, ubi propter continuam partis post partem acceptionem annulos consueverunt appellare infinitos, quae sane similitudinaria, non propria est significatio; tum etiam quia eiuscemodi definitio magis toti atque perfecto, quam infinito convenire videtur. Secundo commemorans eos infinitum ut totum quoddam atque continens accipere, cum potius ut pars, ut incompletum, contentum et imperfectum intelligi debeat, ubi non actu sed in potentia divisionis et appositionis consistere videbitur. Tertio illis improperans quod (quasi infinitum ipsum vigentissimus quidam actus existat) perfectissimum sentiunt atque divinum, nec non quoddam intelligibilia sensibiliaque continens, ut Plato suspicabatur, cum potius, velut aes ad statuam, materia sit quaedam atque pars; non enim indefiniti, ignoti atque partis est aliorum haberi formativum, definitivum atque contentivum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. VII </hi></head>
+<argument><p>Declarat in quibus sit infinitum et quomodo.</p></argument>
+
+	<p>Infinitum ait primo esse in magnitudinibus secundum divisionem, quia omni data magnitudine datur minor, non autem secundum appositionem, quia omni data non datur maior; secundo infinitum in numeris esse secundum appositionem, quia semper dato numero potest dari maior, non autem quolibet potest afferri minor; tertio in motu et tempore secundum eam divisionem, quae quidem magnitudinis consequitur divisionem (quadam enim analogia motus per magnitudinem et magnitudo per motum sunt divisibilia); quarto in mathematicis, quibus interdum infinita linea infinitaque ponitur superficies, infinito apud eosdem non actu quantam, sed quantamcumque multitudinem seu magnitudinem significante; quinto in materia, quae in causarum genere rationem ottinet infiniti, 1. quia eidem privationis atque potentiae ratio congruit, 2. quia subiectum sensibile per materiam obtinet infinitum secundum divisionem, 3. quia omnes alii utuntur infinito velut materia.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. VIII </hi></head>
+<argument><p>Solvuntur in secundo articulo praepositae rationes.</p></argument>
+
+	<p>Earum (inquit) rationum, quarum aliae non necessario concludunt, aliae falsas adsumunt propositiones, ad eam, quae est de infinitis secundum successionem generationibus, dicimus quod cum ex corruptione unius alterius sequitur generatio et e converso, non oportet actu infinitum esse; ad aliam negatur quod omne per aliquid extra ipsum finiatur, et quod omne quod finitur tangat (aliquid enim est quod per suam superficiem intrinsecamque partem finiatur); ad ipsam, quae intellectum imaginantem inducit, dicitur imaginationem nil extra ponere, nec convenire ut semper intelligentiae credamus; ad illam, quae ex tempore argumentatur, dictum est ipsum potentia divisionis et accepto non permanente tendere in infinitum; ad eam, quae ex partibus magnitudinis, pariter dictum est hanc non actu, sed divisionis potentia concedi infinitam.</p>
+</div4>
+</div3>
+</div2>
+<div2>
+<head><hi rend="sc">LIBER QUARTUS </hi></head>
+<div3>
+
+<head><hi rend="sc">CAP. I </hi></head>
+<argument><p>De loco, qui secundo consideratur ex iis quae motum consequuntur.</p></argument>
+<div4>
+
+
+<head><hi rend="sc">ARTICULUS I</hi></head>
+<argument><p>Probat locum esse, et de eo naturali philosopho considerandum.</p></argument>
+
+	<p>De loco, inquit Aristoteles, ad pertractationis de motu complementum similiter est considerandum, an sit, quomodo sit quidque sit. Primo quia de quidditate loci multipliciter dubitatur, secundo etiam quia de hoc a prioribus nihil exacte dubitatum aut traditum circumfertur, tertio quia omnia quae sunt, alicubi esse existimantur; nusquam etenim esse perhibetur quod non est. Multa vero sunt quae de loco fidem faciunt quod sit. Primum, quod proxime diximus, quod omnia esse alicubi creduntur; secundum quod motuum communis maxime maximeque proprius secundum locum esse perhibetur; tertium quod translationem corporum esse constat; quartum quod ad certos simplicia corpora terminos adpellunt, quae loci partes atque species perhibentur, quae quidem sunt non tantum nobis quantum in natura determinatae differentiae illae sex; quintum quod apud multos propter loci necessitatem vacuum astruitur; sextum quod quibusdam locus non solum esse, sed et mirabilis potentia quaedam videtur ipsius, ut sit ante omnia, sine aliis, sine quo nullum; quem Hesiodus Chaos ante omnia factum appellavit.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ART. II </hi></head>
+<argument><p>Rationes quaedam quibus locum esse dubitatur.</p></argument>
+
+	<p>Habere autem inquit dubitationem illius esse. Primo quia cum sit moles quaedam aut ad huiuscemodi aliquod genus referatur, ipsum non sine longitudine, latitudine profunditateque considerabitur; quibus si corpus omne definitur idemque in loco collocatur, in eodem utique duo erunt corpora. Secundo quia non minus superficiei reliquisque terminis loca debebuntur; porro sicut inter punctum punctique locum nullum est discrimen, similiter videbitur neque inter ulla aliorum, quare nec inter locum ipsumque cuius locus est, quandoquidem praeter punctum, lineam atque superficiem locus nihil esse videtur. Tertio quia non videmus ipsum esse elementum neque ex elementis, sive corpora haec sive incorporea sumantur. Quarto quia ad nullum quatuor causarum genus pertinere videtur, ut inducenti patet. Quinto quia, ut inquit Zeno, si est, erit alicubi, ideoque in infinitum progrediendo semper videtur locus esse loci. Sexto quia si locus non deest corpori nec loco corpus, qui fiet de iis quae augentur? Ex iis patet non solum de esse, sed et de quidditate loci esse dubium.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ART. III </hi></head>
+<argument><p>Rationes quibus videtur locus esse materia vel forma, quae diluuntur.</p></argument>
+
+	<p>Locorum, inquit, cum alius quidem communis (in quo plura vel omnia corpora comprehenduntur) sit, alius vero proprius (in quo unum tantummodo continetur), primo ad utriusque rationem respicientibus terminus quidam videbitur esse locus, et per consequens species atque forma qua magnitudo et magnitudinis materia terminatur. Secundo autem locus quatenus distantia quaedam magnitudinis esse fertur, et illud quod sub forma definitur indefinitum quippiam certe ut materia iudicatur, unde in Timaeo pro eodem materia, locus et receptaculum usurpantur. Nos vero neutrum horum possibile esse inde convincimus. Primo quia locus ab eo cuius est locus separatur, ab eo vero cuius haec sunt materia atque forma minime umquam. Secundo (fere ut primo) non est forma locus quia a materia seiungitur, neque est materia quia corpus continet. Mitto quod digressionis causa dici potest ad Platonem numeros ideasque a loco facientem abhorrere, cum tamen dixerit eas a materia, vel magno atque parvo, participari. Tertio quia si locus alterum horum esset, quomodo ad locum corpora naturalia moverentur? impossibile quidem eit eius esse locum, cuius motus sursum non est neque deorsum. Quarto quia si locus forma est aut materia, haecque cum composito, locum moveri in locum locique locum esse. Quinto quia cum ex aere aqua facta est, certe corpus factum non est in eodem loco in quo corruptum corpus erat; periit ergo locus. At vero quomodo et quae est haec loci corruptio?</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. V </hi></head>
+<argument><p>Quod cum multifariam aliquid esse in aliquo dicatur, nullo tamen modo in se ipso quippiam esse dicetur. Solvitur ratio Zenonis de loco in loco.</p></argument>
+
+	<p>De eo insuper quod est in aliquo distinguens, ait esse 1. ut pars in toto, 2. ut totum in parte, 3. ut species in genere, 4. ut genus in specie, 5. ut forma in subiecto, 6. ut in primo movente, 7. ut in fine, 8. maxime ut in loco. Iam nihil erit in se ipso neque secundum se neque secundum alterum, non enim quia partes in toto et e converso, nec quia forma in subiecto, genus in specie et e converso; nec secundum alium quemdam modum, quia nihil est sui totum, pars, genus, species et caetera. Hinc facile dicitur ad Zenonem quod primus locus est in alio, non autem in se ipso velut in loco, sed sicut habitus quidam atque passio, vel alio modo dictis. Patet etiam quod, cum vas nihil sit eius quod est in ipso, locus materia non possit esse neque forma.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. VI </hi></head>
+<argument><p>Praeaccipiuntur quaedam ad manifestandum quid sit locus.</p></argument>
+
+	<p>Ut probatam inferat loci definitionem, primo sex suppositiones adducit: 1. quod locus continet locatum, 2. quod nihil est ipsius, 3. quod nec locato maior est neque minor, 4. quod locus locato non deficiat, 5. quod loco sunt ex natura rei differentiae, 6. Quod naturaliter unumquodque ad suum locum deferatur. Secundo tres connumerat ad bene definiendum conditiones: 1. ut per definitionem dubia diluantur, 2. ut per eam definiti proprietates cognoscantur, 3. ut discordiarum difficultatumque causam insinuet. Tertio tres alias suppositiones: 7. quod sit inquisitio de loco propter motum secundum ipsum, qui praesertim est latio, qua quidem alia per se, alia vero per accidens moventur, 8. dicit locum proprium proximumque, non autem communem esse locato aequalem, 9. quod in continuo eoque quod et a quo non est divisum aliquid non dicitur esse ut in loco. Quarto ex divisione genus loci inquirit, dicens locum esse aut formam aut materiam aut spacium inter extrema aut terminum. Sed non est primum, quia quamvis terminus sit atque continens, non est tamen terminus eius quod continetur, sed certe continentis. Non est secundum, quia quamvis et materia una eademque manens diversarum sit formarum susceptrix, aliud tamen est dicere ‘quod erat aqua nunc est aer’, aliud autem ‘ubi erat aqua nunc est aer’. Non tertium propter duas causas: 1. quia cum hoc pacto idem ponatur locus totius atque partium, non minus quaelibet partium erit actu in loco quam ipsum totum, unde infinita consequenter erunt loca, 2. quia unus locus alio et alius alio indigeret, siquidem tale spacium cum locatis corporibus moveri posset, atque ita loci erit locus aliaque multa simul erunt, 3. quia talis ponendus est locus, ut idem sit totius atque partis; partes enim aquae et aeris moventur in aqua vel in aere, non autem in loco qui loci totius caeli pars est. Quartum igitur erit, terminus, scilicet 1. corporis continentis, 2. immobilis, 3. primus; nam 1. contentum non est spacium, sed corpus latione mobile, 2. totus fluvius qui est immobilis dicitur esse locus navis, 3. ultimum caeli utpote convexum eius est maxime locus sursum, medium vero mundi intra eius concavum est eiusdem locus maxime deorsum. Unde patet tum 1. duos esse terminos lationum (gravis quidem deorsum, levis vero sursum), tum etiam 2. quod (quia simul cum finito sunt fines) locus simul cum ipsa re quodammodo existat.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. VII </hi></head>
+<argument><p>Inferuntur ex posita definitione conclusiones.</p></argument>
+
+	<p>Has novem tandem Aristoteles adducit conclusiones, quarum prima est quod corpus, quod habet aliud extra se, ipsum est in loco. Secunda quod universum est in loco ea qua locum mutat utpote suarum partium ratione. Tertia quod quae non sunt partes alicuius totius ipsa secundum actum sunt in loco, quae vero sunt partes possunt quidem aliquando in loco esse. Quarta quod quae deferuntur per se in loco existunt, sicut et quae augentur atque minuuntur. Caelum igitur totum non est in alio nisi per accidens, ubi in circulum pars alia aliam continet; quomodo enim erit alicubi, si non est ipsum et aliquid aliud? Atqui praeter universum nihil est. Similiter et anima non nisi per accidens est in loco. Quinta quod est caelum locus (quia omnia sunt in caelo), non quidem ipsum sed aliquid ipsius, ultimus videlicet quiescens terminus qui tangit mobile corpus; sic enim aqua terram, aer aquam, aether aerem, aethera caelum continet quod ab ullo minime continetur. Sexta quod hinc prius factae solvantur dubitationes; non enim oportet 1. locum augmentari, 2. esse locum puncti, 3. duo corpora esse simul, 4. locum esse in loco, sed 5. terminum esse in terminato. Septima quod rationabiliter locata omnia tum ad suum talem qualem posuimus locum deferuntur (quod enim non violenter est continuum, ipsum est et congeneum), tum etiam non irrationabiliter in proprio loco quiescunt. Octava quod ipsum quod continetur habet se in materiae modum, ad formae autem modum quodcumque continet. Nona quod de iis crassius et obscurius est definitum ab ipso, de eisdem quandoque subtilius clariusque determinaturo.</p>
+
+</div4>
+</div3>
+<div3>
+
+<head><hi rend="sc">CAPUT II </hi></head>
+<argument><p>De vacuo, quod est tertium motus considerationem consequens.</p></argument>
+
+
+<div4>
+
+<head><hi rend="sc">ARTICULUS I </hi></head>
+<argument><p>Quod ad naturalem spectat de vacuo tractare sicut et de loco, et quomodo multipliciter a diversis definiatur.</p></argument>
+
+	<p>Propter similem cum ea quae de loco est fidem et incredulitatem ait Aristoteles physicum debere de vacuo considerare; multis enim vacuum videtur esse locus, ut ex eius multiplici definitione patet. Primo etenim vacuum quibusdam definitur, quod non habet molem cuius est susceptivum, quod idem plenum est cum suscepit; quibus consequenter non differt plenum, vacuum atque locus. Secundo alii definiunt, quod nihil est praeter spacium. Ipsum dicebant esse aerem, quibus temere Anaxagoras obtrudit utres quae aere repletae magnum pondus sustinent, et clepsydras aqua plenas quarum superius foramen obstruitur. Tertio sunt qui definiunt ipsum, dicentes spacium in quo nullum est sensibile corpus. Quarto existimantes omne ens esse corpus, vacuum dicunt in quo omnino nihil est. Quamobrem aere plenum vacuum appellabant, contra quos non oportebat Anaxag. demonstrare aerem esse aliquid, sed quod non sit spacium aliud a corporibus. Quinto sunt describentes vacuum spacium quoddam corporibus insitum ne sint continua, ut dicunt Democritus, Leucippus et alii, tum et extra universum omnia continens. Sexto sunt qui aiunt vacuum esse in quo nihil est, ubi videlicet nullum est corpus; quibus omne corpus est in loco. Septimo consequenter proxime dicti corpus omne putantes esse tangibile, vacuum definiunt in quo non est grave quippiam aut leve; omne enim tangibile tale est. Octavo quia proxime dicti non magis videntur definire vacuum quam punctum, et quia non habent quomodo vacuum dicant spacium lucidum, coloratum et sonorum; alii ideo aliter definiunt, dicentes vacuum esse in quo non est hoc aliquid nec aliqua corporea substantia, unde et vacuum dicunt corporum materiam, quae idem sit quod corporum locus; idque non sine errore dictum esse superius ostendebatur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc">ART. II </hi></head>
+<argument><p>Rationes, quae vacuum esse astruunt, afferuntur et diluuntur.</p></argument>
+
+	<p>Rationum, inquit, quibus vacuum esse affirmant, prima est quia motus localis est, qui latio quaedam est atque augmentatio; vacuum etenim nisi sit, plura quotlibet corpora oportebit esse simul, nec non minimum quodlibet maximum quodcunque susciperet. Unde et Melissus ex eo quia vacuum non est, nec motum esse dixit universi. Secunda quia quaedam cogi constringique videntur; dolium enim tantum vini recipit cum utribus, quantum sine iis. Tertia quia per alimentum augetur corpus, non autem ab alio corpore penetratur. Quarta quia vas cineribus plenum vel farina tantam recipit aquam, quantam vacuum reciperet. Quinta quia extra caelum est spacium infinitum, idque est vacuum quod Pythagorici volunt ingredi mundum ex infinito spiritu quasi respirante caelo, atque ita corporum separari, distingui determinarique numerum. Sexta quia, ni sit vacuum, uni cedenti aliud cedere corpus oporteret; unde et corpore uno moto totus consequenter mundus moveretur. Nos vero ad primum et ultimum respondemus ubi propter motum cessio quaeritur, quod non sit necesse hanc usque ad ultimum, sed ad certum quoddam spacium atque terminum fieri; et Melissum praeteriit quod posset alterari plenum. Ad secundum, quod ad salvandam condensationem seu compressionem non necesse est esse vacuum, sed quod collisa quaedam elabantur. Ad tertium, augmentationes non solum alio ingrediente, sed et eodem quod est alterato fieri, ut ubi aqua in aerem convertitur. Ad quartum, quod et eadem ratio se ipsam tollit, si quidem ideo vacuum non esse ostenditur, quia ex omni parte corpus augeatur. Ad quintum dicimus ipsum Pythagorae authoritate, non aliqua fulciri ratione. Ad sextum sicut ad primum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>Ostenditur non esse vacuum separatum inter latera continentis.</p></argument>
+
+	<p>Bifariam ostendit vacuum separatum non esse. Primo rationibus sumptis ex parte motus. Quarum prima est, quod si oportet esse vacuum propter motum, maxime oporteret ponere propter motum localem; atqui simplicia corpora non vacuum, sed propriam naturam habent suorum motuum causam. Secunda quia vacuum non habet rationem qua quippiam potius ad unam quam ad aliam partem moveatur, nec non simili ratione contentum respicit et a contento respicitur. Tertia quia tam bene partes infinitae quam bene totum essent in loco, si vacuum est spacium separatum. Quarta quia sunt rationes allatae contra id quod locus sit spacium, quae eaedem valent contra vacuum. Quinta quia per ipsum tollitur localis motus; cum enim sit in suis partibus consimile prorsus, quomodo corpus in eo locatum magis ad unam quam ad aliam partem moveretur? Nonne hac ratione terram in medio mundi undique similiter a caeli partibus attractam quiescere dicunt? Sexta quia motus naturalis sursum fit aut deorsum, talesque differentiae in vacuo non comperiuntur infinito. Quod etiam si ponatur finitum, diversas eas naturas non admittit. Neque motus violentus (qui naturalem praesupponat oportet) in vacuo erit. Septima quia neque per antiperistasim neque per aeris pulsum in eo proiectum quippiam cum e manu prodierit feretur. Octava quia non est ratio ut hic potius quam ibi quiescat in vacuo aut moveatur; unde aut quiescet, aut in infinitum feretur consequenter. Nona quia in vacuo quaenam cessio erit? Cur undique et non quacunque similiter feretur ad omnem partem similiter se habens?</p>
+	<p>Secundo rationibus ex ipsa velocitate tarditateque desumptis. Quarum prima est, quia duabus causis aliquid velocius tardiusque movetur; alia quae est ex parte medii, quod densius est aut rarius, crassius est aut subtilius, unde magis minusque dividentibus resistat; alia quae est maior minorque gravitas levitasve, qua corpus citius vehementiusque aut tardius debiliusque dividatur penetrandum, quod maneat vel contrario motu moveatur. At si vacuum sit, motus consequetur instantaneus, non autem successivus et in tempore. Secunda contingens primam, quia si motus successivus esset in vacuo, idem mobile per spacium plenum atque vacuum aeque velociter moveretur, ut patet plenum ad quantam opus est proportionem subtilianti. Tertia, quia propter differentiam in gravitate, levitate atque figura ibi velocior tardiorque motus non accideret.</p>
+	<p>Tertio rationibus acceptis ab ipso vacuo. Quarum prima est, quod vacuum non potest localiter moveri ut alteri corpori cedat; non enim tantum est vel quantum quod cubo subingredienti, ut aqua vel aer, locum cedat. Secundum, quia vacui dimensiones cum corporis ingredientis dimensionibus simul erunt; unde non solum duo, sed et quotcumque erunt in eodem loco. Tertia, quia si ponentibus vacuum a vacui dimensionibus nihilo differant, simulve sint cum illis, quinam praeter uniuscuiusque molem corporibus locum fingere oportebit? Quarta, quia cur ponere oportet quod nusquam apparet? ita neque qui intra mundum est aer aliquid non esse videtur, sicut et piscibus, si essent ferrei, aqua nihil esse videretur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IV </hi></head>
+<argument><p>Vacuum non esse corporibus inditum.</p></argument>
+
+	<p>Ubi, inquit, raritatem densitatemque corporum vident, has per intrinsecum vacuum fieri putant, ne corpora coeant seve premant; unde tum ex parte motus localis, tum ex parte alterationis inconveniens sequeretur; uno enim moto totum universum oporteret, ut dixit Xuthus, commoveri, aut semper aequalem fieri ex aqua in aerem commutationem. Atqui sive in quolibet corpore multa vacua separata ab aliis pleni particulis intelligant, sive nusquam sit vacuum ab aliis partibus separatum, utrinque errant per id quod diximus est manifestum, ubi patet vacuum extra corpora separatum non esse, et per id quod si secundo modo putent, primo non habebunt vacuum omnis localis motus causam, sed eius qui sursum, cum iuxta eorum sensum sit causa raritatis; secundo vacui, quod est utrium quae sursum feruntur, oportebit esse vacuum in quod feratur; tertio causam qua quippiam deorsum feratur non habebunt. Qui ergo opus est vacuo quod nec feratur ipsum, et in quo neque aliud feratur?</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. V </hi></head>
+<argument><p>Rationes quaedam proxime praepositae solvuntur.</p></argument>
+
+	<p>Ubi aiunt remoto sublatoque vacuo densitatem raritatemque non esse, aut nihil moveri, aut turbari caelum, aut semper ex aequali aere aquam fieri, aut corpus inquam ultimum per inferiorum corporum depelli exuberantiam, et ad aequalitatem servandam circularem fieri transmutationem; eandem inquit magni parvique esse materiam, quae illud actu recipit quod potentia prius habebat, unde non per partium extractionem, sed per de potentia in actum reductionem maiores recipit materia diffensiones, ubi aqua vertitur in aerem et grave in leve. Patet ergo nullo pacto vacuum esse necessarium, praeterquam si cui lubeat materiam, quae gravis levisque fundamentum est, vacuum appellare. Sed rarum et densum, molle et durum potius facilis difficilisque passionis quam lationis causa dicenda sunt.</p>
+
+</div4>
+</div3>
+<div3>
+
+<head><hi rend="sc"> CAPUT III </hi></head>
+<argument><p>De tempore, quod est quartum motus considerationem consequens.</p></argument>
+
+<div4>
+<head><hi rend="sc"> ARTICULUS I </hi></head>
+<argument><p>Rationes quibus tempus esse non videtur.</p></argument>
+
+	<p>Quoniam (inquit Aristoteles) et omnis motus est in tempore, de ipso quoque consequenter est considerandum. Primum quidem a rationibus quibus esse vel non esse videtur exordientes, invenimus quosdam qui aut omnino negant tempus, aut ipsum aliquid esse dicunt quod vix et obscurius percipi queat. Primo enim inquiunt impossibile esse vel haberi compositum ex non entibus, de duobus autem, quae infinitum perpetuumque componunt, praeteritum est factum, futurum nondum est. Secundo de hoc nihil praeter nunc extare videmus, quod quidem non est ulla temporis pars, utpote quod neque componere nec mensurare possit. Tertio nihil esse debet tempus, de quo non contingit accipere praeter nunc, quod certe nihil est, cum in tempore non sit accipere aliud et aliud neque unum idemque nunc.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. II </hi></head>
+<argument><p>Quid non sit tempus et quid sit.</p></argument>
+
+	<p>Antiquorum quidam volebant tempus esse motum caeli, alii circulationem, alii sphaeram ultimam. Atqui 1. non esse circulationem patet, tum primo quia nulla pars circulationis est circulatio, temporis autem pars quaelibet est tempus; tum secundo quia ut plures sunt circulationes, plures itidem essent tempora. Quod secundo non sit sphaera caelestis inde patet, quod illius partes omnes sunt permanentes, huius autem non; in illo sunt omnia ut continente, in hoc autem ut mensurante motum. Quod tertio non sit motus patet, 1. quia motus non est ubique uti tempus, sed tantum in mobili, 2. quia omnis motus velox est vel tardus, tempus vero est quod velox definit atque tardum. Quod quarto sit cum motu patet, quia nihil est sine eo quo percepto percipitur et non percepto latet. Concluditur ergo primo tempus esse aliquid motus, quoniam motus sine tempore non percipitur, ut patet per id quod ferunt de dormientibus in Sardo apud heroas; secundo, quod tempus sine motu nec est neque cognoscitur; tertio, quod sicut quid continuum est magnitudo, ita et motus, ut sicut continuum quid est motus, ita et tempus; quarto quantitatem magnitudinis eam quae motus, hancque ipsam consequi quae temporis est (ut enim in magnitudine primum et postremum, ita prius posteriusque est in motu atque tempore); quinto, quod si anima duo nunc quorum alterum est prius alterum vero posterius percipiat, medio inter illa non percepto, neque tempus percipiet neque duo nunc, sed unum; sexto temporis infertur definitio, ut sit videlicet numerus motus atque quietis secundum prius et posterius. Numerum autem esse oportet non quidem numeratum, sed quo numeramus, cum per tempus iudicemus motum maiorem esse vel minorem.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>De nunc.</p></argument>
+
+	<p>Quattuor proposita adducit de ipso nunc ad maiorem naturae temporis manifestationem. Quorum primum est, quod nunc quodammodo idem et quodammodo aliud atque aliud in toto tempore; ita enim huius sicut et motus semper alias aliasque contingit accipere partes. Porro idem est nunc quod in toto tempore existit, idem inquam subiecto, sed ratione alterum et alterum, prius et posterius. Ut enim secundum geometras punctus motus lineam facit, et secundum sophistas Coriscus alter est in foro alter in theatro, quia aliud est esse hic aliud ibi; ita et instans quantumlibet unum subiecto, ratione, quatenus moveri imaginatur, alterum est praeteritum quam futurum. Ita quippe nunc sequitur punctum quod fertur, sicut et tempus motum. Et sicut motus per id quod movetur cognoscitur, ita et per nunc, quod est in tempore maxime notum, tempus percipitur. Secundum, quod simul sint tempus atque nunc, adeo ut unum sine alio esse non possit; nunc etenim atque tempus ut motus atque mobile sese habent, et sicut tempus est numerus motus, ita et nunc est ut quod fertur, ut unitas est numeri. Tertium, quod tempus est continuum secundum ipsum nunc, et secundum ipsum dividitur; ita enim nunc ad tempus, sicut punctus ad lineam sese habet. Quarto, quod nunc non est tempus, sed tempori ut terminus terminato accidit. Eo autem modo terminus est, ut idem diversorum esse possit, sicut idem numerus decem hominum est et decem equorum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IV </hi></head>
+<argument><p>De temporis quibusdam proprietatibus.</p></argument>
+
+	<p>Ad temporis vero respiciens proprietates, primo dicit ipsum continuum quiddam, utpote quod motum (qui est etiam continuus) mensurat; quatenus vero discrete mensurat, est discretum. Secundo quod sicut in continuo non contingit minimum assignare, ita nec in tempore. Tertio quod, quatenus continuum, longum aut breve dicitur, velox atque tardum; multum vero atque paucum, quatenus numerus. Quarto quod ita est unum omnium tempus, sicut et primus motus unus est. Quinto quod sicut unum eumdemque specie motum, ita unum idemque specie tempus iterari contingat. Sexto quod ita tempus motu, sicut et motum tempore mensuramus; quemadmodum et numeratorum ad numeri et numerum ad numerata conducit cognitio, et veluti motu magnitudinem magnitudineque motum mensuramus, ubi mutuo se commonstrant multum iter processusque multus itineris.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. V </hi></head>
+<argument><p>De iis quae in tempore sunt et circa tempus tredecim propositiones.</p></argument>
+
+	<p>Tempus, inquit, motus est mensura; sicut enim per unam magnitudinis mensuratae partem totam mensuramus magnitudinem, ita et per unam motus partem tempore mensuratorum motum mensuramus. 2. Nihil aliud est esse in tempore traeterquam tempore mensurari; aut enim ideo quid dicitur esse in tempore, quia tunc est quando est et tempus, aut ut quaedam dicimus esse in numero. Atqui non est in tempore esse quando tempus est, sicut neque in motu et loco quando motus est atque locus, ne forte hoc pacto et caelum in milio esse dicamus, quia tunc est quando milium, similiter et quodlibet existat in quolibet. 3. Quoniam in tempore esse est sicut in numero esse, semper tempus maius eo quod est acceptum erit accipere; ideoque ita quae sunt in tempore a tempore continentur, sicut quae sunt in loco a loco. 4. Ab hac temporis comprehensione fit ut quaedam ab eo patiantur, quatenus tempore tabefieri et senescere dicuntur et obliterari, non autem innovari et pulchrefieri, utpote quod causa magis videtur esse corruptionis. 5. Hinc fit ut ea quae semper sunt, quatenus semper sunt, in tempore non esse dicantur, quandoquidem a tempore quicquam non patiantur. 6. Quoniam motus mensuram tempus dicimus, nihil propterea minus quietis affirmabimus esse mensuram, licet secundum accidens; omnis etenim quies est in tempore; praeter enim illud quod aptum est moveri, nihil quiescere dicitur. 7. Quod movetur non ut quantum quoddam est intelligitur esse tempore mensurabile, sed ut motus ipsius quantus est; unde non in tempore sunt (neque etenim tempore mensurantur) illa quae non moventur neque quiescunt. 8. Quod est falsum (quemadmodum diametrum esse costae commensurabile) non est in tempore; qualis enim mensura erit? 9. Generabilia igitur et corruptibilia (quibus tempus maius est, et quorum esse excedit) proprie in tempore esse dicantur. 10. ipsum nunc temporis continuatio est, utpote praeteriti finis futurique principium; hoc etiam quatenus copulat, semper idem est; quatenus vero dividit, semper alterum est atque alterum. 11. Nunc, iam, olim, quondam, nuper, mox et aliae id genus temporis partes vel diversae ipsius nunc rationes, quid nomine indicent pro idiomatum diversitate forte dictionariorum est declarare. 12. Omnis mutatio est in tempore; sic enim velocius et tardius in omni mutatione dicatur. 13. Prius posteriusque in tempore secundum eam quae ad ipsum nunc est distantiam accipitur; in praeterito enim prius dicitur quod magis ab ipso nunc distat, posterius autem quod est propius, in futuro autem e contra.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. VI </hi></head>
+<argument><p>Quare, quomodo, qualiter et cuius tempus sit numerus.</p></argument>
+
+	<p>Inde (inquit primo) tempus est quia numerus est, ideo numerus est quia et quod numerat, id autem est anima; unde si anima non esset, non videtur esse posse tempus. Porro tempus non solum dicimus numerum, sed et alicuius numerum; ipsius vero motus est in quo prius est atque posterius. Ita (inquit secundo) uniuscuiusque motus numerus quidam est tempus, ut ad motuum mobiliumque multiplicationem tempora propterea non multiplicentur, sicut neque per denarii subiecta, homines, boves, equos, numerus denarius non multiplicatur. Primi motus (inquit tertio) tempus numerum esse intelligimus; primum quippe in unoquoque genere aliorum generis eiusdem debet esse mensura, quod item mensurat non solum cognatum, sed et regularius esse debet; ex omnibus autem motus speciebus latio regularior est, et ex lationibus circulatio regulatissima (unde tempus circulus quidam esse videtur), ex circulationibus autem prima omnium regulatior (utpote quae diurni motus est) esse videtur.</p>
+</div4>
+</div3>
+</div2>
+<div2>
+
+<head><hi rend="sc">LIBER QUINTUS </hi></head>
+<div3>
+<head><hi rend="sc">DE CAETERIS QUAE CIRCA MOTUM SUNT.</hi></head>
+
+<div4>
+
+<head><hi rend="sc"> ARTICULUS I </hi></head>
+<argument><p>Distinctio transmutationis primo. De qua transmutatione sit consideratio 2. Quae reperiantur in transmutatione 3. Quotque modis fiat 4.</p></argument>
+
+	<p>Quod transmutatur, inquit primo, et quod transmutat, aut secundum accidens aut secundum partem aut secundom totum transmutatur atque transmutat. Secundo ait transmutationem per se, non autem eam quae sub certa comprehenditur scientia, considerari. Tertio sex in omni transmutatione repperiri, movens, mobile, tempus, terminum a quo, terminum ad quem, et dispositionem secundum quam est motus a qua motus ipse denominatur. Quarto, cum transmutatio sit a quodam in quoddam, aut esse inquit a subiecto in subiectum, aut de non subiecto in subiectum, aut de subiecto in non subiectum; quarum quidem illa quae in subiectum est de non subiecto, quaeque in non subiectum de subiecto, minime motus esse dicuntur; subiectum quippe motus esse non potest quod in tota non manet permutatione, et in quo mobile ut in loco non inspicitur.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>In quibus praedicamentis est motus, quotque modis unus dicatur esse.</p></argument>
+
+	<p>Primo igitur, inquit, cum omnis motus de contrario vel medio sit in contrarium, in substantia motus non erit. Secundo, cum in iis quae ad aliquid altero mutationem subeunte contingat alterum non mutari, in ipsis non nisi per accidens erit motus. Tertio in actionis passionisque genere non est motus, siquidem non est generationis generatio nec mutationis mutatio. In qualitate igitur alteratio, in quantitate augmentum et diminutio, in ubi vero latio motus erunt, et secundum ipsa genera motus nominabitur. II. Tripliciter autem motus unus dicitur, 1 genere, 2 specie, 3 numero. Quorum motus numero unus propterea dicitur, quia 1 mobile unum, quia 2 terminus in quem unus, quia 3 tempus unum, quia 4 dispositio una. III. Motuum vero qui unus numero sunt ii maxime dicuntur, qui completum perfectumque terminum attigere, quique ita regulares existunt, ut temporis partibus aequalibus spacii portiones percurrerint aequales.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>De contrarietate motus.</p></argument>
+
+	<p>Quod ad motus atque quietis contrarietatem attinet, primo inquit motum qui est de uno contrario motui qui est ad aliud contrarium non adversari, 2. nec motus ex terminis contrariis ad unum idemque contrarium vel medium, 3. contrarietatem terminorum in quos ad motus contrarietatem non sufficere, 4. non solum motus, sed etiam quietes motibus contrariari, licet hinc privativam, inde simpliciter oppositionem inspicias, cum ipsi quod est deorsum moveri et sursum quiescere et sursum moveri contrariantur, 5. motus naturalis atque violentus, quantumvis ad eundem contendant terminum, nihilominus tamen contrariari, sicut et violentae quieti naturalis, 6. contrariatur quieti violentae in termino a quo quies in termino in quem naturalis, 7. motus naturalis unius ad unum terminum oppositum, et motus naturalis alterius ad alterum terminum oppositum, contrarii sunt penes terminos et e quibus et in quos.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>De divisione motus in partes.</p></argument>
+
+<p>Hic principium sexti Physicorum Aristotelis.</p>
+
+	<p>Ad determinandum de divisione motus in partes supponit primum nullum continuum ex indivisibilibus componi, primo quia indivisibile cum indivisibili non facit dimensionem; secundo inter duo puncta numquam linea non intermediat, tertio quia pariter oporteret ex indivisibilibus esse motum atque tempus (quod inconveniens eousque Zenonem adduxit, ut nullam magnitudinem pertransiri posse diceret), quarto quia sequeretur indivisibile divisum illi, ut patet cum et velox et duplo velocius ad quinque puncta obeunda movebuntur. Secundo in omni tempore esse nunc; id enim terminat praeteritum ut ipsius post ipsum nil accipiatur, et futurum ut nihil sit ipsius ante ipsum desumere. Tertio ipsum nunc esse indivisibile, tum 1. quia si in eo praeterita detur pars atque futura, aliorum numquam ipsius praeteriti atque futuri terminus esset, tum 2. quia uno nunc praeteriti posito atque futuri, in futuro quid praeteritum esset et in praeterito quid futurum, 3. non esset per se terminus, sed per partem, 4. in eo esset prius et posterius, et consequenter esset ipsum tempus, et unum idemque nunc non esset finis praeteriti et initium futuri. Quarto, cum omnis motus velox sit aut tardus, secundum quem quippiam velocius contingat vel tardius moveri, in ipso nunc nihil movebitur. Quinto, cum nihil in ipso nunc moveatur, et nihil unum et idem simul moveatur atque quiescat, et illud quiescere dicatur quod similiter se habet posterius atque prius, in ipso nunc nihil quiescet. Sexto, cum omne quod mutatur partim sit in termino a quo et partim in termino ad quem, divisibile nimirum esse oportet. Septimo motum dividi secundum divisionem mobilis atque temporis; totus enim motus est totius mobilis, pars motus partis mobilis, item totus motus in aliquo tempore toto, et pars motus in eiusdem temporis parte consideratur. Similiter igitur tempus, mobile, motus, moveri, spacium et dispositio, secundum quam est motus, dividuntur. Octavo, quemadmodum (inquit) mutari est deficere et separari, ita mutatum esse est defecisse et separatum esse a termino a quo. Nono mutatum esse non est in termino a quo, alioquin idem mutatum esset et non mutatum. Decimo illud in quo aliquid primo mutatum est esse oportet indivisibile, ne semper recurramus ad primum primi. Undecimo est accipere aliquid temporis in quo primo mutatum est; mutationis enim aliquam partem, quam alia pars non praecedat, haud est adsumere, si in accipiendis continui partibus non est terminus. Hinc et in eo quod mutatur non est accipere aliquid quod primo mutetur; sicut enim non est accipere primam mobilis partem et antequam non sit minor, ita nec partem mobilis quae primo moveatur, neque partem temporis in qua primo moveatur. In motu vero alterationis non ita; tempus enim et mobile sunt semper divisibilia, album vero et similia non per se, sed per accidens dividuntur. Quatenus igitur per accidens dividuntur, puta secundum magnitudinis divisionem, non est accipere primum in ipsis; ut vero secundum se actu separatae existunt considerantur, in eorum mutatione nil impedit quominus primum accipiatur. Duodecimo ante omne mutari est mutatum esse, et ante omne mutatum esse est mutari. Omne enim mutari est divisibile, et sicut punctus nominat terminum lineae, ita mutatum esse terminum motus, et ante quemlibet motum et quamcumque motus partem est aliquid mutatum esse accipere, et nullum est mutatum esse quod non antecesserit mutari.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IV </hi></head>
+<argument><p>De finitate et infinitate motus in ordine ad magnitudinem et tempus.</p></argument>
+
+	<p>Impossibile est, inquit, aliquid moveri tempore infinito per spacium finitum minime iteratum (dum enim mobile in qualibet temporis parte movebitur, pars spacii multoties accepta totum in fine reddet spacium), 2. aliquid tempore finito, sive regulariter sive irregulariter, sive versus alteram sive versus utramque partem, per spacium infinitum moveri (pars enim temporis et pars magnitudinis multoties sumptae reddent totam magnitudinem et tempus finitum, non autem infinitum), 3. mobile infinitum pertransire spacium infinitum tempore finito, ut ex aliis est manifestum, 4. mobile infinitum transire spacium finitum tempore infinito, ut viceversa patet; ubi enim iuxta alteram magnitudinem altera movebitur, eas se mutuo pertransire necessum est.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. V </hi></head>
+<argument><p>De sistere et de quiescere.</p></argument>
+
+	<p>Sistere est ad quietem tendere, et id est esse in motu, et quod sistit in tempore sistit, sicut quod movetur in tempore movetur; et manifesta sunt quae similia sunt in motu atque sistere. Quiescere vero est cessare a motu, et hoc est in tempore similiter se habere nunc atque prius. In eo non est dare in quo primo quievit, et reliqua sicut et in moveri consideranda.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. VI </hi></head>
+<argument><p>De quibusdam erratis circa quiescere et moveri.</p></argument>
+
+	<p>Tres tandem, licet nil faciant ad dicta, obiter errores eliminare contendit. Quorum primus est Zenonis nullum spacium transiri posse existimantis, primo quia mobile semper est in loco aequali sibi; secundo quia oportet venire in medium et medii medium, antequam ad extremum; tertio quia tardum quantumcunque velocissimus non attinget, quia quo ille attigit, semper alter citius transivit; quarto quia idem sibi fiet duplum, ut patet in duobus aeque velocibus, quorum alterum deferatur super spacium quiescens, alterum vero super contra e motum spacium; quinto quia erit medium inter contradictoria, si erit motus inter album et non album; sexto quia idem movebitur et quiescet, cum circumferatur et non ascendat neque descendat, ne prorsus desituatur. Ad quae argumenta respondet primo negans tempus ex nunc componi, secundo ait non pertransiri spacium secundum eiusdem proportionis partes, tertio tempus caeteris paribus non esse sibi duplum, quarto negat impartibile moveri (unde cum album sit partibile, non erit totum in extremorum neutro), quinto circulariter motum secundum partes mutare locum asserit.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. VII </hi></head>
+<argument><p>Oppugnat Democritum de motu indivisibilium.</p></argument>
+
+	<p>Secundus fertur Democriti indivisibilia per se moveri affirmantis. Contra cuius sensum indivisibilia inquit non nisi per accidens moveri, puta ad motum totius, non ut quaedam pars, sed ut sedens in navi. Totum enim indivisibile, cum movetur, non potest esse in A a quo movetur, nec in B ad quod movetur, nec partim in A partim in B. Item indivisibile prius locum sibi aequalem et minorem transeat oportet, quam maiorem; atqui non est indivisibile indivisibili proximum, nec componitur ex ipsis magnitudo quae aliquando numerasse valeat. Item indivisibili loco minorem non licet accipere, et omnis motus est in tempore, et quocumque tempore semper est accipere minus.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ART. VIII </hi></head>
+<argument><p>Arguit Heraclitum de aeterno omnium motu.</p></argument>
+
+	<p>Tertius Heracliti affirmantis omnia semper moveri, cuius sententiam ideo absurdum existimat, quia omne movetur per terminos finitos et oppositos: motus omnis e quodam est in quoddam. Eadem per ea quae octavo libro Physicae auscultationis habentur hic infirmata censeantur, ubi dixit primo non omnia semper quiescere, quia est contra sensum (neque enim sine linguae motu negari valet motus) et rationem, non solum particularem sed et universalem, non solum unius scientiae quae habet ut principium motum esse, sed et omnium; secundo non omnia semper moveri (sic enim natura principium est quietis ut et motus; neque etenim quaedam ita moventur ut motus non percipiatur, neque una dispositio ad aliam dispositionem potius quam ad oppositum esse moveri dicenda est, et ipsa docet experientia grave quousque tandem quiescat sursum vel deorsum agitari); tertio non quaedam semper moveri et alia ab eis semper quiescere (remanet enim perfecte auctum, nec amplius generatur quod est genitum); quarto non omnia aliquando moveri et aliquando quiescere; sunt enim quae numquam cessant moveri, et quae numquam movebuntur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IX </hi></head>
+<argument><p>Corollarium de distinctione eorum quae moventur atque quiescunt.</p></argument>
+
+	<p>Reliquum est igitur ut quaedam semper quiescant, quaedam semper moveantur, quaedam aliquando quiescant, aliquando moveantur. Et eorum quae moventur, alia per se alia per accidens, alia a se ipsis alia ab alio, alia naturaliter alia violenter. In iis vero haec quae violenter agitantur, moventem a se motis distinctum agnoscunt. Haec etiam quae a se ipsis moventur, non secundum idem moventur atque movent. Gravia quoque atque levia constat a se ipsis minime moveri; id enim animatorum est proprium et eorum quae per sese quiescere etiam possunt et ad plures positionum differentias moveri. Ipsa sunt quae in per se motam atque per se moventem partem dividuntur. Gravia igitur atque levia, sive in potentia propinqua sive in potentia remota considerentur, numquam sese moventia intelligenda sunt; tamquam enim in potentia remota a generante, tamquam in potentia propinqua a tollente prohibentia et obstacula dimovente aguntur.</p>
+
+</div4>
+</div3>
+</div2>
+<div2>
+
+<head><hi rend="sc"> [LIB. VI]</hi></head>
+<div3>
+<head><hi rend="sc"> CAP. I </hi></head>
+<argument><p>De comparatione motuum ad motus, motores et mobilia.</p></argument>
+
+<div4>
+
+<head><hi rend="sc"> ART. I </hi></head>
+<argument><p>Esse primum motum et primum motorem.</p></argument>
+
+	<p>Omne, inquit, quod movetur ab aliquo movetur, quod quidem in iis quae ab extrinseco moventur est manifestum, latet autem in ipsis principium motus intrinsecum habentibus. Atqui omne quod se ipsum movere videtur, si vere se ipsum moveat, in partem moventem atque motam dividatur oportet. Supponimus autem nihil indivisibile moveri; si enim quod ad alicuius quietem quiescit ab alio movetur, illud etiam quod movetur ab alio movetur. Quod si in moventibus atque motis inconveniens est abire in infinitum, erit certe aliquem primum motorem primumque motum invenire.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>Omne movens simul esse cum moto.</p></argument>
+
+	<p>Quia, inquit, omnis motus vel est latio vel alteratio vel augmentum vel diminutio, et latio vel sit a principio intrinseco quod est exagitante, vel a principio extrinseco quod est vel pellens vel trahens vel vehens vel vertens, congregans vel disgregans, spathesi vel tortesi, vel emittens vel immittens, vel attrahens vel expellens, in quibus semper movens et motum mediate applicantur vel inmediate, item alteratio omnis sit secundum qualitates sensibiles, quibus quidem movens non prius remotum corpus movet quam propinquum, appositio etiam atque subtractio omnis sit vel in moto vel a moto; consequens est ut omne movens sit simul cum moto.</p>
+	<p>At quod diximus, alterationem esse secundum sensibiles qualitates, inde est manifestum, quia secundum qualitates de quarta specie quae ad alterius acquisitionem acquiruntur, et secundum quas substantiae non recipiunt praedicationes, et quippiam perfici dicitur atque compleri, non est alteratio. Neque alteratio est secundum qualitates de prima specie, ut patet tum in habitibus corporeis qui sunt ad aliquid, tum etiam in moralibus habitibus qui perficiunt subiectum et ex quibus secundum delectationem atque tristitiam consequuntur actiones atque passiones, tum tandem in intellectualibus habitibus qui et ad aliquid dicuntur et magis per quietem ab aliis motibus et passionibus, quam per alterationem atque motum fieri intelliguntur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>De motus comparatione ad alios motus.</p></argument>
+
+	<p>Videtur, inquit, omnis motus omni motui minime comparabilis; haud enim latio recta circulari comparatur, nec latio cum alteratione commensurabilis est; e contra vero, quia tam motus circularis quam rectus velox dicitur atque tardus. At vero motus, qui penes eiusdem speciei spacia non fiunt, non sunt ad invicem comparabiles; ea quippe quae ad invicem comparanda sunt, tres sibi conditiones adsciscunt: prima ne aequivocum sit in quo comparatio est fienda, secunda ut in aliquo primo susceptivo conveniant, tertia ne secundum genus, sed secundum infimam speciem comparentur. Ad hoc igitur, ut aliqui motus sint secundum aequalem velocitatem comparabiles, non sufficit eos aequali tempore fieri; alter enim penes qualitatem, penes quantitatem alter esse potest. Nec quod duo locales aequali tempore aequalique spacio compleantur; alter enim in circulum esse potest, alter in rectum. Nec quod duo locales eadem lationis specie per idem medium; obstat enim si per diversa fiant instrumenta, ut in volatione et ambulatione patet.</p>
+	<p>Comparatur alterationi alteratio eiusdem speciei, cum aeque veloces esse possint, non obstante quod secundum eas aequale et inaequale non dicatur; habent enim ipsum ex parte temporis. Comparatur etiam generationi generatio secundum eiusdem speciei formas. Inde si numerus sit substantia rerum, secundum quantitatem maior dicetur atque minor, secundum speciem vero similis. Sed diversitas, quae accidit in maioritate et minoritate numeri substantiae, non habet impositum nomen, sicut ea quae in passionibus est consistens; dicitur enim magis et minus album, maius minusque caput, sed excellentioris substantiae non est nomen.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IV </hi></head>
+<argument><p>De motuum comparatione ad moventes.</p></argument>
+
+	<p>Praemittens quod omne movens secundum locum movet aliquod mobile in aliquo tempore per aliquod spacium, septem canones adducit. Primus quod movens aliquod mobile per aliquod spacium movebit illius mobilis medietatem per duplex spacium in tempore aequali. Secundus quod movens mobile in aliquo tempore in subduplo tempore per idem spacium illius mobilis movebit medietatem. Tertius, si virtus movet aliquod mobile per aliquod spacium in aliquo tempore, eadem virtus movebit idem mobile per medietatem eiusdem spacii in illius temporis medietate. Quartus quod medietas virtutis mobilis medietatem per idem spacium aequali tempore movebit. Quintus quod non necesse est eamdem virtutem movere duplum mobile per idem spacium in duplo tempore, vel in aequali tempore spacii medietatem. Sextus quod neque necesse est virtutis medietatem movere idem mobile in duplo tempore per aequale spacium, ut si novem in aliquo tempore navim trahant, quinque per idem spacium in duplo tempore trahere valeant. Hinc Zenonis error est manifestus, qui ideo minimam milii partem cadentem sonum facere existimavit, quia granum facit sonum et medietas minorem, et ita deinceps per medietatum medietates ad partem minimam; ideo quippe ratio non valere perspicitur, quia non quaelibet milii pars aerem dividere valet. Septimus quod si duae virtutes moventes agunt duo mobilia seorsum in certo tempore per certa spacia, eaedem virtutes copulatae copulata mobilia movere per idem spacium aequali tempore valebunt. Quae canonum ratio non ad ea quae secundum locum moventur modo spectat, sed et ad alterantia atque augmentantia secundum propriam refertur rationem.</p>
+</div4>
+</div3>
+<div3>
+<head><hi rend="sc"> CAP. II </hi></head>
+<argument><p> De aeternitate motus. </p></argument>
+<argument><p>Hinc respondet octavo Physicorum.</p></argument>
+
+<div4>
+
+<head><hi rend="sc"> ART. I </hi></head>
+<argument><p>Quod motus non incepit esse nec esse desinet.</p></argument>
+
+	<p>Dubium, inquit, an motus ita aliquando coeperit ut prius non fuerit, aut ita quandoque corrumpetur ut non futurum sit posterius. Naturalium enim ii quidem motum semper fuisse, et infinitos motus atque mundos sibi sine interruptione successisse, quorum generationes atque corruptiones sine motu fieri nequeunt. Anaxagoras vero eorum est, qui mundum quandoque coepisse asserunt. Empedocles vices dat motui per litem et quieti per amicitiam. Nos autem non incepisse dicimus, cum quilibet motus mobile et quodlibet mobile motum supponat. Et motor non est antequam sit mobile, et mobile non est antequam sit motus. Et motor nihilo impediente et nulla dispositione deficiente a dignissimo motu minime debet abstinere. Et ipse sine mutatione in ipso prius facta minime ad novum poterit motum promoveri, ex hoc quod non movebat antea; semper enim ad novum effectum producendum aliqua dispositio prius removenda censetur. Nec obstat ipsum esse motorem voluntarie agentem et nulla prorsus actum necessitate; semper enim moventem ad id quod non movebatur et postea movetur, utpote duobus subiectum contradictoriis, aliter se habere oportet atque aliter. Ad haec tempus pariter atque nunc (quod principium sequentis et praecedentis est finis) semper fuit, at ipsum sine motu et motum sine mobili non possumus imaginari. Item et nunquam defuturum probamus motum. Si quippe motus cesset, vel id fiet motore atque mobili permanentibus, vel altero, vel neutro. Si quidem maneant, cur non et modo, sicut antea, movebit? Si vero non maneant, erit adnihilatio vel alterius vel utriusque.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>Ad Anaxagorae et Empedoclis opiniones.</p></argument>
+
+	<p>Contra naturam, inquit, quae ordinem in rebus exigit, est Anaxagorica sententia, quae ideo omnem ordinem destruere videtur, quia infiniti temporis praecedentis motus non est ad finitum tempus proportio in quo motus est consequutus, nec habet rationem cur intellectus nunc potius quam prius segregari coeperit. Irrationabile quoque est quod dicit Empedocles; non enim sequitur litem et amicitiam sibi invicem succedere, ex hoc quod illa congreget, ista segreget. Et ideo suum debebat manifestare principium; licet enim in perpetuis non sit quaerenda causa demonstrationum principiis, perpetuarum tamen demonstrabilium conclusionum rationem atque causam adsignare non iniuria cogimur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>Ad rationes negantium motus perpetuitatem.</p></argument>
+
+	<p>Negant, inquit, nonnulli perpetuitatem motus, primo quia finitam inter contraria distantiam contemplamur, secundo quia quaedam quae prius non movebantur motum adoriri perspicimus, tertio quia similiter megacosmon incipere motum post quietem possumus intelligere, sicut microcosmon postquam quieverat moveri apparet. Sed ad hoc dicendum, primo non motum de contrario in contrarium, sed motum de eodem in idem esse perpetuum, secundo item nihil nisi propter motum praecedentem aliquando moveri coepisse, tertio nec homo absque praevia sui motus causa postquam quierat movetur.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IV </hi></head>
+<argument><p>Quomodo entia ad motum et quietem sese habeant.</p></argument>
+
+	<p>Quo vero pacto per mobile atque quiescibile distribuantur entia insinuaturus, dicit primo errare qui motum tollunt et omnia perpetuo quiescere dicunt, tum primo quia sensu contrarium concipimus et quaerere rationem dimittendo sensum est debilitas intellectus, tum secundo quia ita dicere non solum in uno particulari sed et in toto ente dubium facit, non contra unam scientiam modo sed et contra omnes, tum tertio quia sine motu linguae motum negare nequimus, tum quarto motum esse est unum de principiis naturalibus. Secundo decipi qui putant perpetuo moveri; nam primo isti, sicut et alii proxime dicti, principium naturale negant, secundo omnis motus est ad aliquam dispositionem qua habita mobile moveri cessabit, tertio quia lapis, quem durescere vel mollescere per longa tempora dixerunt, in fine non apparebit durior neque mollior quam in principio, quarto quia lapis non semper e loco proprio movebitur. Tertio non semper quaedam moveri et alia ab iis semper quiescere, primo quia sensu perspicuum est quaedam nunc moveri nunc eadem quiescere, secundo quia, cum perfectam attigerit quantitatem, remanet quod augetur, tertio quia non est perpetuus motus violentus, quarto quia non accidit haec semper generari, illa semper corrumpi, sed quod generatur aliquando est genitum. Quarto non omnia interdum moveri, interdum vero quiescere, pro quo refert se ad rationes tritas de sempiternitate motus et ad rationes adversus Empedoclem amicitia quietem liteque motum constituentem. Quinto reliquum esse inquit considerare moventium alia moveri atque movere per se, alia per accidens, quorum quae moventur secundum accidens sunt in iis quae moventur secundum se, eorum vero quae secundum se moventur, quaedam a se ipsis moventur ut animata, quaedam vero ab alio ut quae principium intrinsecum motus activum non admittunt. In iis item quae movent vel moventur, quaedam naturaliter, quaedam vero violenter; et eorum quae naturaliter, quaedam ab anima ut quae quocunque ad votum, quaedam vero a naturali proprietate ut ignis sursum.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. IV </hi></head>
+<argument><p> Conclusiones ex dictis inferuntur.</p></argument>
+
+	<p>Ex iis infertur primo quod quae violenter moventur moventem a se ipsis distinctum agnoscere, secundo quod quae a se ipsis moventur motorem mobileque distinctum continere, tertio quod gravia atque levia non moventur a se ipsis, idque pluribus inquit manifestum esse rationibus; primo quia illud est animatis proprium, secundo quia talia possunt etiam a se ipsis stare, tertio quia eadem ad plures se conferunt locorum differentias, quarto in partem per se moventem et partem per se motam dividantur oportet. Gravia igitur atque levia non habent principium movendi nec faciendi, sed patiendi; quare non a se, sed ab obstacula dimovente et prohibentia solvente moveri dicenda sunt.</p>
+</div4>
+</div3>
+<div3>
+
+<head><hi rend="sc"> CAP. IIIa </hi></head>
+<argument><p> De primo motu.</p></argument>
+<argument><p>Respondet parti 8. libri a tex. 54. ad 78.</p></argument>
+
+<div4>
+
+<head><hi rend="sc"> ART. I </hi></head>
+<argument><p>Motum localem esse primum motum.</p></argument>
+
+	<p>Quoniam, inquit, in moventibus et motis non est progrediendum in infinitum, consequens est videre de motibus quinam extet primus. Motusne ad substantiam? Ad quantitatem? Ad quam itatem? Ad locum?</p>
+	<p>Dicimus igitur primum augmentationem, quae conversionem alimenti in substantiam alendi per alterationem praesupponit, non esse primum motum, et longe minus diminutionem, quae augmentationem consequitur; alterationem item, quam praecedit alterans, qui per motum localem antequam alteret debet appropinquari; generationem quoque et corruptionem, de quibus antiquorum sententia est quod per rarefactionem fiunt atque condensationem, quarum utramque sine latione fieri non est possibile, primos non esse motus. Quid ergo? Motum localem primum motum multiplici ratione credimus: et quia alii non sunt sine ipso, ipse vero sine aliis, et quia secundum substantiam et perfectionem antecedit, et quia antiquior est omnibus, et quia naturaliter in perfectissimis et aeternis, quae sunt corpora caelestia, reperitur ipse aliis circa corruptibilia versantibus, et quia nihil abiicit de substantia eius quod secundum ipsum movetur, et quia primo se ipsum moventi, quem alii motus non attingunt, inest, et quia praeter motum localem nullus alius unus et idem existens continuus esse potest atque perpetuus; omnis enim mutatio praeter localem, cum inter terminos oppositos habeatur, minime continuari perpetuarive potest; semper enim quodammodo quietem mediam admittere contingit tum generationes et corruptiones, tum et caeterae mutationis species.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>Motum circularem de lationibus esse primum.</p></argument>
+
+	<p>Omnis, inquit, alius motus localis vel circularis vel rectus vel mixtus est, quorum rectus cum super spacium finitum compleatur, non potest esse perpetuus, iterum nec mixtus ex recto atque circulari ratione qua non est perpetuus rectus, nisi iterando vel reflectendo prosequatur. Porro motum ante reflexionem et post reflexionem quis dicet unum continuum? Nonne sunt contrarii motus? Nonne secundum contrarias fiunt dispositiones? Nonne mutuo sibi invicem super eadem linea obviando impediunt? Nonne inter motum reflexum et motum illo priorem quies in puncto reflexionis mediat? Nonne si mobile in termino reflexionis moveretur, ita contrariis simul ageretur motibus, ut non maiori ratione ipsum accedere quam ipsum recedere dici possit? Quis item illos motus unum audebit dicere, cum quorum uno quies alteri opposita constat, cum ascensus denominetur motus ante reflexionem, qui vero post illam descensus vere denominetur? Quis item eodem instanti albationem terminari dicet et incipere nigrationem?</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. III </hi></head>
+<argument><p>Novae rationes quibus motum circularem esse priorem astruit atque perpetuum.</p></argument>
+
+	<p>Ponentibus, inquit, motum circularem perpetuum nullum accidit impossibile; motus enim ab eodem in idem circa reflexionem nil impedit ne sit perpetuus, ut e contrario accidit motus super spacium rectum vel semicirculum vel circuli quamcunque portionem. Inter motus item locales simplex prius est composito, unde rectus praecedit mixtum, et perfectior imperfectiore prior; unde motus circularis, qui nec interruptus nec reflexus nec discontinuatus, recto simplicior est atque perfectior. Circularis item, quo ubique principium capere possis atque finem, determinatum principium non sibi statuit neque finem, ut ita semper moveri ut et semper quiescere sphaera intelligatur. Ideo enim in linea circulari non distinguitur principium, medium atque finis, quia haec ad centrum pertinent, quod aeque a circumferentia distat, a quo ad circumferentiam et ad quem de circumferentia trahuntur lineae. Ad haec mensura mensurato prior est, et motus secundum circulum reliquos omnes mensurat motus. Proinde regulare irregulari prius est, talis autem est circularis; contra vero rectus, qui si est naturalis, in fine intenditur, si violentus, in fine remittitur. His accedunt authoritates quae lationi primas tribuunt, primo Empedoclis congregatione et segregatione principiantis; secundo Anaxagorae chaos per rerum a rebus abscessum distinguentis; tertio unum ponentium materiale principium quod densitate generet ac raritate, quae a motu partium magi cohaerentium atque minus proficiscitur; quarto Platonis ipsum quod se movet eorum esse principium quae moventur asserentis, et inter haec animam esse numerum se moventem; quinto communiter loquentium, cum nil proprie moveri dicamus, nisi quod delatum mutatque locum.</p>
+</div4>
+</div3>
+<div3>
+
+<head><hi rend="sc">CAP. IIIb </hi></head>
+<argument><p>De primo motore.</p></argument>
+<argument><p>(Respondet parti 8. libri a tex. 34. ad 54. indeque usque in finem.)</p></argument>
+
+<div4>
+
+<head><hi rend="sc"> ART. I </hi></head>
+<argument><p>Quod deveniendum sit ad primum movens, quod si moveatur, a se ipso moveatur.</p></argument>
+
+	<p>Cum, inquit, dupliciter aliquid movere contingat, vel motum videlicet vel immotum, cumque inter moventia primum magis moveat quam secundum, et secundum tertio, et non convertatur, secundum item sine primo non moveat, sed e converso, in moventibus sane atque motis essentialiter ordinatis non erit processus in infinitum, unde consequatur carere primo, secundo et ultimo, immo etiam motu. Quid ergo? Ad movens primum corporeum, quod ex se moveatur, universa corporalia moventia reducantur oportet.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ART. II </hi></head>
+<argument><p>Quod non necesse sit omne movens moveri.</p></argument>
+
+	<p>At si nullum movens movere posset nisi motum, aut per se moveretur aut per accidens; sed per accidens motum per accidens et movebit, et consequenter non movere continget, quod si ipsum non moveat, nec alii motores movebunt; per se etiam motum si movebitur secundum eamdem speciem cum illa quae movet, calefacienti accidet calefieri, docenti doceri, si secundum speciem aliam ab illa, erit sane devenire ad movens immotum secundum aliam speciem motus a speciebus motuum aliorum mobilium, et consequenter immobile. Nec est quod fugias dicendo circulationem in motibus; sic enim oportebit ad motum secundum eandem speciem secundum quam movet devenire. Proinde si invenitur motum non movens, cur movens non motum non invenietur? Nonne ubi duo sibi invicem accidunt, si unum ab altero seorsum invenitur, et alterum consequenter invenietur? Tertio iis etiam Anaxagorae sententia adstipulatur, ideo quippe intellectum agentem et moventem ipsumque immixtum asserit, ut optimo iure ipsum imperare faciat. Haud igitur movens quodlibet movebitur.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc">ART. III </hi></head>
+<argument><p>Primum motorem esse immobilem.</p></argument>
+
+	<p>Hic si ab alio moveatur, non erit primus, si a se, erit in eo prius quam sit ipse, cum nihil a se ipso primo moveatur et omne se movens in per se moventem et per se motam partem dividatur, ut tandem necesse sit partem aliquam quae immota moveat primum appellare motorem; neque enim facile est fingere totum quod se moveat per se primo, nec utramque partem se invicem reciproce vicissimque moventes, neque se ipsam moventem quamlibet partem. Et non oportet esse tres vel plures partes, ut ex iis una sit quae moveat et moveatur; illa enim pars si amoveatur, adhuc totum se ipsum movebit.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ARTIC. IV </hi></head>
+<argument><p>Quomodo in movente se ipsum pars mota et movens uniuntur.</p></argument>
+
+	<p>Moventis autem se ipsum non continuas possibile est intelligere partes; quid enim ita movere potest per continuationem? Erunt igitur contactu unitae partes ipsius. In iis quoque intelligere oportet partem moventem non esse divisibilem, ne in tam parvas contingat devenire partes, ut virtutem non retineant illam quam in toto habebant, unde consequi non possit alteram medietatem ab una moventis se ipsum medietate moveri.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ARTIC. V </hi></head>
+<argument><p>Primum moventem esse incorruptibilem.</p></argument>
+
+	<p>Non ideo, inquit, primus movens perpetuus est, quia nec generabilis est nec corruptibilis (neque enim omne huiusmodi perpetuum dicimus), sed quia primus motus, qui sine motore non esse potest, est perpetuus. Patet ergo 1. esse aliquid semper immobile, ne incurratur prorsus in infinitum in moventibus, et sit quod uniformiter movendo effective continuare valeat. Patet etiam 2. aliquid esse perpetuo mobile, ut etiam subiective continuitas perpetuitasque generationis consequatur. Patet 3. esse quod interdum moveatur atque quiescat, ut generationum vicissitudo servetur atque corruptionum. Inter haec autem primum movens est quod nec per se neque per accidens movetur unquam, quod semper continuoque movetur est caelum, quod semper quiescit est terra, quae per vices quasdam moventur atque quiescunt animalia sunt et quaedam alia.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. VI </hi></head>
+<argument><p>Primum moventem esse immobilem.</p></argument>
+
+	<p>Rursum immobilem oportet esse motorem primum; si quippe moveretur, ab alio (ut ex praedictis patet) moveretur, et ideo possibile esset dispositionem ipsius variari; ipsum vero, cui aliquid non imponit necessitatem et cuius dispositio non mutatur, absque sui motatione movere necesse est. Et eiusmodi non aliter atque aliter, sed infatigabilis regulari, continuo sempiternoque motu ciet, cui mobile regulariter, continue sempiterneque consentiat; motus enim immobilitas motoris consequitur immobilitatem, si non cessare vel haesitare potest motus, nisi motore aliter atque aliter se habente.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. VII </hi></head>
+<argument><p>Primum moventem esse unum.</p></argument>
+
+	<p>Rationabilius, inquit, est finita quam infinita esse moventia. Rationabilius quoque est unum esse quam plura; ipsum enim non minus ipsis ad motus atque generationis omnis perpetuitatem est sufficiens. Motum namque proiectionis ideo non esse continuum et unum dicimus, quia non est ab eodem motore simili ordine ad ipsum mobile se habente; id quod ad propriissime dictam motus requiritur continuitatem. Unitas igitur primi motus, qui perfecte continuus est, motoris exigit continuitatem.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ARTIC. VIII </hi></head>
+<argument><p>Ut astruat primum moventem esse indivisibilem, tria primo supponenda docet.</p></argument>
+
+	<p>Tria ad primi motoris indivisibilitatem concernendam determinasse oportet, primum quod ad motum infinitum potentia requiritur infinita, secundum quod potentia infinita non potest in magnitudine finita reperiri, tertium quod in magnitudine infinita virtus nequit esse finita. Primi ratio est, quia si finita fuerit potentia id quod totum movet infinitum, potentiae medietas medietate temporis movebit infiniti medietatem; quorum quidem nullum possibile est esse infinitum. Secundi ratio est, quia alioqui aequali velocitate virtus finita moveret et infinita. Mobile enim, quod certo tempore finita potentia movet, minori poterit movere tempore potentia infinita. Quae cum non moveat in instanti (hoc enim est impossibile), sed in tempore, nimirum si centuplo maior per infinitum fiat velocitas, eam centuplam potentia finita poterit adaequare; unde accidet quod aequali tempore idem mobile per aequale spacium finita et infinita virtute moveri poterit. Tertii ratio duplex. Prima quia finita virtus in magnitudinis infinitae parte existens esset infinita, quandoquidem infinita virtus velocius quacunque finita movet; ponitur igitur (cum in instanti moveri sit impossibile) quod moveat in centuplo, nimirum finitis vicibus finita virtus multiplicata illam exaequare valebit. Innumeras igitur continget in magnitudine infinita partes accipere, quarum virtus virtuti totius (si finita esset) est aequalis, cum tamen totam non accidat accipere magnitudinem. Quinam igitur fieri potest ut tota illius magnitudinis virtus accipi possit? Secunda quia corporis infiniti potentia aequali velocitate cum corporis finiti potentia moveret; si etenim caeteris paribus maius corpus maiori praeditum est virtute, virtus tandem finita ad suppetentiam multiplicata idem mobile aequali tempore atque virtus infinita movebit.</p>
+</div4>
+<div4>
+
+
+<head><hi rend="sc"> ARTIC. IX </hi></head>
+<argument><p>Primi motoris infert impartibilitatem.</p></argument>
+
+	<p>Impartibilem igitur, inquit, oportet esse motorem, utpote nullam prorsus magnitudinem habentem. Haec enim non potest esse infinita; talem enim impossibilem plurimis commonstravimus argumentis. Neque debet esse finita; si enim per tempus moveat infinitum, infinitae sane debit esse virtutis, quam manifestum est in magnitudine finita locum non habere. Quod si neque finitam habere potest neque infinitam, nullam prorsus habebit magnitudinem.</p>
+
+</div4>
+<div4>
+
+<head><hi rend="sc"> ARTIC. X </hi></head>
+<argument><p>Primi moventis sedem constituit.</p></argument>
+
+	<p>Istum cum vel in peripheria vel in medio intelligere debeamus, convenientius esse videtur ut ipsam inhabitet circumferentiam; ibi namque velocissimus motus maiorem motoris influxum protestatur; ibi ergo propinquior, ibi praesens, ibi primum.</p>
+</div4>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

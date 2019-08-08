@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettere scritte dall'Inghilterra</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>121480 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit001197</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Prose e saggi</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Gavazzeni, Franco</editor>
+               <editor id="ed2">Terzoli, Maria Antonietta</editor>
+               <editor id="ed3">Lavezzi, Gianfranca</editor>
+               <editor id="ed4">Lombardi, Elena</editor>
+               <publisher>Einaudi-Gallimard</publisher>
+               <pubPlace>Torino</pubPlace>
+               <date>1995</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Lettere ed epistolari</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06-08T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Novadata systems</name>
+            </respStmt>
+            <item>Digitalizzazione - OCR</item>
+         </change>
+         <change>
+            <date>2008-06-23T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Sara Loddo</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2008-07-23T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Ilenia Sabelli</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2008-07-24T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 n="Al lettore">
+            <opener>
+               <salute>AL LETTORE</salute>
+            </opener>
+            <epigraph>
+               <lg>
+                  <l>Quid est aliud tollere e vita vitae societatem,</l>
+                  <l>Quam tollere amicorum colloquia absentium?</l>
+               </lg>
+               <bibl>Cicero philip. II. 2.</bibl>
+            </epigraph>
+            <p>Lettore</p>
+            <p>Queste mie sono lettere d'uomo esule il quale scrivendo per ozio agli amici suoi intorno 
+alla nazione a cui rifuggì, ripensava purtanto alla patria che gli vennero fatti de' paragoni fra 
+l'Inghilterra e l'Italia.</p>
+            <p>E tu pure guardane alcune per ozio e non leggere un po' seriamente fuorchè la sola 
+dettata con animo di pubblicarla — ed è questa: e la non è prefazione da ch'io non presumo 
+di darti un libro d'autore. Onde discorrerò teco quanto nelle altre lettere con gli amici miei; e con 
+pari sincerità. E quand'anche tu non l'accolga con pari fiducia, t'accorgerai, spero, ch'è lettera 
+d'uomo ad uomo.</p>
+            <p>I miei pareri intorno agl'Inglesi derivarono tutti da sentimenti istantanei, spassionati 
+d'astio o d'amore; ond'io li tengo per equi — ma a prometterli giusti mi bisognerebbero 
+esperimenti più cauti e più lunghi. Se non che il troppo esaminare assedia il giudizio di dubbj e 
+disanima la fantasia che quasi ispirazione ci move ad esprimere ingenuamente i sensi e i pensieri 
+destati in noi dalla presenza di cose nuove.</p>
+            <p>A quanto dico de' miei concittadini, troverò forse contradditori — non però 
+credo che nessuno mai potrà smovere nella mia mente opinioni avveratemi da molti anni di prove 
+dalle calamità dell'Italia e dal mio proprio dolore.</p>
+            <p>E appunto perchè su l'Inghilterra io scriveva, per così dir, novellando; e intanto nella mia 
+memoria risanguinavano piaghe — per le quali il forte sdegna di lasciar udire lamenti; e il 
+cittadino vorrebbe poterle palliare; nè io bramava che di sfogarmi secretamente — io allora 
+non m'intendeva, o lettore, che tu pure dovessi essere depositario delle lettere mie. Io le spediva a 
+pochi. Poi da che mi sono pure accertato come lungo il lor viaggio traversando gl'Ufficj di Polizia 
+erano disigillate e per lo più custodite da molti, piacemi che siano lette, e con diritto più onesto, da 
+tutti.</p>
+            <p>Adunque vedile tali e quali io spensieratissimo del tuo giudizio me le lasciava dettare 
+dall'anima or mesta or ilare e per lo più affettuosa e talor corrucciata, e alle volte, e n'ho vergogna, 
+un po' querula — non mai maligna; da ch'io non mi sento sì debole da odiare i mortali, nè 
+sono, nè vorrei essere sì felice da disprezzarli. Io confesso che le umane cose mi fremono spesso per 
+entro la mente con sì aspra disarmonia, e me la perturbano di immaginazioni e meditazioni sì 
+rincrescevoli, da provocarmi a sgombrarle con impazienti parole. E mentre parlando e scrivendo mi 
+disacerbo, io mi trovo convinto che noi non siamo colpevoli l'un contro l'altro che per errori di 
+calcolo — e calcolando il più delle volte interessi suggeriti dalla fatale incontentabilità 
+ingenita in noi e da cui sgorga ogni danno. Ma ad ogni danno il dolore di cui tutti siamo discepoli ci 
+avverte che abbiamo sbagliato — allora la verità e il bisogno d'ajuto vicendevole e di pietà 
+ci riconsigliano ad ascoltare l'uno per l'altro gl'impulsi del cuore i quali di necessità sono sempre più 
+d'amore che d'odio. Perchè credo che la natura non avrebbe potuto crearci essenzialmente sociali, se 
+non ci avesse muniti d'un istinto che dì e notte ci avverte di cercare la nostra nell'utilità della società 
+fuor dalla quale noi non potremmo mai vivere.</p>
+            <p>So che i seguaci di due grandi Maestri hanno esaminato l'uomo in istato di natura: e gli 
+uni affermano con giuramento ch'esso era d'innocenza angelica e che la società lo ha corrotto; però 
+ha ragione di odiarla. Gl'altri l'hanno conosciuto benissimo anch'essi e con ciffre d'algebra 
+— le quali anche nel nostro secolo matematico e spergiuratore van più credute d'un 
+giuramento — dimostrarono ch'era un tigreconiglio; però merita d'essere disprezzato e in 
+catene.</p>
+            <p>L'un Maestro era Ginevrino e per giuste ragioni si temeva di meritar l'odio altrui e per 
+riversarlo sul mondo perorava alle donne le quali non sono molto propense all'odio del genere 
+umano; — tuttavia era eloquentissimo ed autore di moda; or tanto più congetturo che 
+comincino a dimenticarsene. L'altro era Inglese, e d'anima più vigorosa; ma sgomentata 
+naturalmente da terrori panici: e consigliava de' principi i quali gli davano retta, e morirono 
+profughi; e credo che oggi anche il loro sangue sia spento sopra la terra. Un grande Monarca aveva 
+anima e forze e mente ad effettuare la teoria; incatenò, disprezzò la razza umana Europea 
+dall'oriente all'occidente e dal mezzo giorno correva con popoli e i lor principi armati da lui sotto al 
+Settentrione — vedilo sotto la zona torrida e solo.</p>
+            <p>Ma sì fatti esempi sono utili a' poeti tragici.</p>
+            <p>Per te, o lettore, sarà più grato spettacolo a guardare quell'uomo della natura che troverai nella 
+tua famiglia e nella tua città — e se tu pure non hai più nè patria nè casa —guardalo 
+ne' tuoi pellegrinaggi; è anche meco qui in questo libro, ove Italiani ed Inglesi avendo per autore e 
+rammentatore la sola Natura ripetono con idiomi e vestiarj moderni caratteri al tutto diversi, che gli 
+uni e gli altri avevano già rappresentato più secoli innanzi. Rivedrai gl'Italiani che un dì venivano 
+qui a recitare da arbitri de' popoli dell'Oceano, contentarsi oggi della parte di alzare il sipario, come 
+i Britanni ne' Teatri d'Italia. E qui, e da per tutto, tu ed io volere e non volere saremo spettatori e 
+spettacolo, e costretti a commercio di applausi, di dilegi, e di piacere, e di lagrime e di soccorsi e di 
+recriminazioni e d'amore. Troverai l'uomo della natura anche nelle terre popolate da soli selvaggi; e 
+sentirai un istinto perpetuo ad amarlo ed esserne amato — tuttavia dov'ei non ha un aratro 
+con un tribunale e un altare ti darà ragioni più forti da tremare, e da querelartene.</p>
+            <p>Pur se tu, o lettore, se' all'età mia, avrai per avventura notato in te e negl'altri che i 
+giovinetti si querelano degl'individui — e i giovani si querelano del mondo — gli 
+uomini fatti, della fortuna — e che avanzando nella virilità si querelano di sè soli — 
+e veggendosi vicini a quarant'anni, cominciano, siccome io fo, a querelarsi solamente della natura la 
+quale invero par ch'abbia decretato non solo che da' nostri piaceri sgorghino sempre i dolori, ma che 
+anche dai calcoli indispensabili a' nostri bisogni derivino inevitabili errori — forse che tu ed 
+io inoltrandoci nella vecchiaja saremo fatti sì savj da poter movere i nostri ultimi passi 
+tacitamente.</p>
+            <p>Per altro la digressione la ho fatta per te, o lettore, se tu se' giovine — e se se' 
+giovine tanto più mi sei caro — affinchè dagli altrui scritti e da' miei tu non desuma che il 
+genere umano meriti odio e disprezzo. Or non se' tu uomo? non ti senti tu misero? sarai più misero, 
+se persisterai ad effettuare sistemi contro de' quali le tue viscere esclameranno; e se gl'affetterai 
+sarai ridicolo agl'altri ed a te. Il disprezzo è un sentimento di cui rari, assai rari mortali sono 
+veramente capaci. L'odiare è meno infrequente — ma nota, che l'odio è la catena più grave 
+insieme e più abbietta con la quale l'uomo possa legarsi all'uomo, perchè le sue anella sono 
+intrecciate dalla colera e dal timore.</p>
+            <p>S'anche, o lettore, sì fatti avvisi ti sono superflui, a me importava di non tacerli. 
+Pubblicai sono oggimai sedici anni cert'altro volumetto, e non potendo per anche esporre le opinioni 
+che allora — ed ora in gran parte — mi parevano vere, le ho rinfiammate delle 
+lugubri passioni che allora m'ardevano. E temo non siano luce tristissima da funestare a' giovinetti 
+anzi tempo le vie della vita e disanimarli dall'avviarsi con allegra spensieratezza. I molti lettori ch'io 
+non mi sperava non mi sono compenso del pentimento ch'io pure non temeva; ed oggi n'ho, e n'avrò 
+anche quando quel libercolo e questo saranno dimenticati da te. Intanto potresti averne alcun frutto, 
+considerando in due età sì diverse e a traverso le fortune e le opinioni del secolo nostro il medesimo 
+umano individuo. Perchè se tu guarderai un po' attentamente e me e chiunque mortale o per vanità, 
+o per imprudenza, o per necessità si disvela dinanzi a te, forse t'avvezzerai a guardare assai meglio 
+dentro di te.</p>
+            <p>Per onor del secreto e per l'altrui quiete rimutai molte iniziali di nomi — e per 
+compiacere il men ch'io potessi a certa pettegola curiosità ch'oggi in voi lettori, e in noi scrittori 
+sottentra all'amor del sapere, sottrassi parecchi aneddoti, e vi ho lasciato lacune. Veggo che a 
+supplirle, come pure a diradare ripetizioni — a schierare i fatti dispersi — a non 
+trarti a balzar meco qua e là dietro le mie riflessioni — e a frenare l'impazienza e appianare 
+le diseguaglianze dello stile di queste lettere, mi bisognerebbe più tempo che non a rifarne di pianta 
+per te — e le verrebbero peggio: da che dovrei pure studiarmi a compilarti in via epistolare 
+una serie di dissertazioni accademiche. Or io non so d'essere d'accademia veruna, — e ove 
+anche abbracciassi con occhio filosofico un ampio orizzonte ond'esporti a grandi pennellate le intere 
+Nazioni, io mi ritrarrei sopraffato. Guardo appena gl'oggetti più prossimi, e mi tocca a rimirarli ad 
+uno per uno e sempre più addentro tanto da poter dire a me e agli amici miei quel tanto ch'io vi 
+discerno finchè la profondità me li fa parere invisibili. Inoltre l'uso e l'abuso ch'io fo della mia 
+lingua non mi consente di largheggiare nelle doti di quello stile che i nostri pittori chiamano nella 
+loro arte piazzoso.</p>
+            <p>La lingua (Italiana) ch'io scrivo, o lettore, oltre le facoltà perfezionatele o procacciatele 
+dall'età, e che tu per avventura conosci, n'ha una nata seco e di cui trecento anni d'inerzia, d'usi 
+forestieri e di servitù l'avrebbero del tutto spogliata, se non fosse facoltà ingenita ed è: un'ardente 
+diritta evidente velocità. I suoi primi scrittori ricavavano le idee dai sentimenti del loro cuore e 
+dall'esperienza della lor vita; se ne accertavano nella loro mente con sincera meditazione; però 
+poteano significarle senza vocaboli astratti: e per farle sentire e vedere anche agli altri, illuminavano 
+le loro frasi di metafore d'oggetti agevoli a sensi; e costringendo la loro sentenza in un conflato 
+d'affetti e d'immagini, la vibravano quasi saetta che senza fragore nè fiamma lasciava visibile tutto 
+il suo corso in un solco di calore e di luce e arrivava infallibile al segno. Ma quelle erano anime 
+maschie, alti intelletti, uomini liberi, amatori del vero, perchè agli applausi ed al lucro anteponevano 
+la gloria avvenire e la patria, e parlavano a popolo di repubblica, passionato, indocile, immaginoso, 
+dal quale toglievano tutte le ricchezze native dell'idioma; e bastava nobilitarlo. Poscia la mollezza 
+intiepidì le passioni; l'educazione commessa a' frati sfibrò gl'ingegni: i letterati erano arredi di corti 
+spesso straniere, le accademie pasciute dai Re, e la Inquisizione le udiva. Così anche i magnanimi 
+tacquero; e se taluno d'eta in età parlo con l'eloquenza degli avi, la nazione non era più atta ad 
+intendere e la lingua piacque ridotta a musica senza pensiero; finchè la filosofia del secolo scorso, e 
+poi la vittoria trapiantarono in Italia lo stile francese che ne sviò da' Latini e da Greci. Tuttavia 
+accrebbe le idee, e perchè imbarbariva la lingua per mezzo della tirannide, irritò l'amor patrio, e 
+taluni la depuravano anche dalla scabbia insinuatasi per vezzo d'usi stranieri da un secolo e più. Or 
+da quattr'anni ogni speranza di patria dileguasi; e gl'ingegni frementi sotto Napoleone si giacciono 
+in muta costernazione. E coloro che scrivono o per venalità o per vanità non hanno altra 
+suppellettile che di parole; e combattono tra di loro. Gli uni, ad immiserire con grammaticali 
+superstizioni la lingua — gli altri, a snaturarla con formule matematiche, o con vocaboli 
+metafisici che inorgogliscono l'intelletto e confondono l'evidenza delle idee, stile de' romanzieri de' 
+poeti e degli storici d'oggi, avvampante d'entusiasmo e di passioni artefatte.</p>
+            <p>Onde vedendo io le libere doti native della mia lingua indegnamente neglette mi sono 
+sin dalla adolescenza studiato di giovarmene, e tanto che oggimai, parmi, io n'abuso. Se non che di 
+questo argomento discorro storicamente in una lettera, e la vedrai sotto il titolo <title>Epoche della 
+lingua Italiana</title> — da che ad agevolarti a scegliere intitolai ciascheduna lettera del 
+soggetto al quale principalmente essa mira, e vi posi un'epigrafe sì perchè quella sentenza mi 
+suggerì alle volte di scrivere, e sì perchè un motto d'antico scrittore darà da pensare più utilmente. E 
+a scansare la dissonanza della varietà assai vicina, disposi le lettere più a materie che a date, in tre 
+serie: nell'una perlopiù trattasi d'<emph>Usi</emph> — nella seconda di 
+<emph>Letteratura</emph> — e nell'ultima di <emph>Politica</emph>.</p>
+            <p>Su di che, se tu se' lettore Italiano non ti dolere se non m'udrai perorare per la nostra 
+indipendenza per la quale io usciva d'ogni speranza dal dì che la gioventù nostra agguerrita alle 
+armi restò tutta quanta a cadaveri su i ghiacci di Russia. E da che dispero della mia patria tanto 
+meno presumerò d'arrogarmi diritti di cittadino e parteggiare in paese non mio dove vedo 
+religiosamente e lietamente onorati i diritti d'ospite e d'uomo. A me attonito della prosperità somma 
+di questa nazione e della estrema calamità della mia giova esplorarne le origini negli annali e ne' 
+costumi de' due popoli anzichè ne' consigli dei Ministri, nelle consulte de' parlamenti o nelle 
+controversie degli scrittori. Ad essi importano interessi presenti e provvedimenti futuri, mentr'io 
+non credo di poter ottenere la verità che nella certezza e dall'imparzialità del passato.</p>
+            <p>Odo come taluni vanno missionari di dogmi che oggi si chiamano liberali; e 
+dimostrando geometricamente la perfettibilità del genere umano, intenderebbero ch'ogni uomo anzi 
+che provvedere alle faccende della propria città s'affrettasse a promovere i diritti de' popoli e la 
+prosperità universale. Ai quali perchè so che m'incolperanno di nessun zelo per la umanità, io 
+confesserò che la filosofia a me par fatta decrepita e non possa oggimai che ciarlare. E da che essi 
+pur menano vita contemplativa e da pellegrini al pari di me, io rammenterò lor da fratello che 
+Maometto non capitò male se non perch'ei profetava con le armi alla mano.</p>
+            <p>Ad altri più attivi rincrescerà forse ch'io ascriva le origini della servitù dell'Italia al 
+diritto che nelle repubbliche del medio Evo talvolta il popolo talvolta i principi e talvolta i nobili 
+avevano di proteggere la libertà. Davvero, o lettore, io non vorrei nè da sè nè congiunte veruna di sì 
+fatte protezioni. La libertà a me par cosa più divina che umana, e l'ho veduta sì necessaria e insieme 
+funesta e sempre sì corruttibile fra mortali, ch'io non la darei da amministrare fuorchè alla Giustizia 
+la quale la governasse con leggi preordinate, immutabili, e d'inesorabile fatalità e concedesse anche 
+i fulmini in mano a' Re che ne godano come il Giove Omerico il quale non poteva operare se non se 
+per decreto del fato, nè mai rivocare il suo giuramento:</p>
+            <p>Forse che allora gli amici, gli amanti, e gli sposi, i fratelli e le madri disgiunti dalla 
+fortuna e con presentimento di non più rivedersi, non sarebbero necessitati — o di vivere 
+come se la morte si stesse fra loro — o a fidare i secreti del domestico santuario alla stampa.</p>
+            <p>Or lettore viviti lieto.</p>
+            <closer>
+               <signed>Ugo Foscolo</signed>
+               <dateline>Kensington 25 Dicembre 1817</dateline>
+            </closer>
+         </div1>
+         <div1 n="Romanzi">
+            <head>[Romanzi]</head>
+            <head>I</head>
+            <p>Da che i pittori sono oggi fatti dottori; e i dottori pittori, noi non abbiamo più quadri. 
+Due secoli fa cominciavano già a professar chirurgia, e ho letto — non so se in Vasari o in 
+Condivi — come un pittore per emulare Michelangiolo aveva fatto tante notomie sovra i 
+corpi de' morti da disgradarne sei medici; e nominava grecamente i muscoli tutti e le cartilagini e i 
+tendini — <hi rend="italic">sta bene</hi> risposegli un fiorentino; <hi rend="italic">Michelangiolo ad ogni modo sa rimpiattare sì laide cosacce a lor luogo; e non che 
+mostrare ch'ei ne abbia imparato le litanie; e' te le copre da non lasciar parere ch'ei abbia patito di 
+vederle scarne, fetide, sozze, e senza moto o calore come te le hai vedute ne' cadaveri, e le putono 
+ne' tuoi quadri</hi>.</p>
+            <p>Poscia fu ed è moda che i professori di Metafisica francesi, Inglesi, e Tedeschi 
+insegnassero belle arti. Mengs diede precetti ed esempi a dipingere metafisicamente. Le nostre 
+Academie dissertano intorno al <emph>Bello</emph>, alla <emph>Grazia</emph>, al 
+<emph>Sublime</emph>; teorie ignote all'età del Correggio e di Michelangiolo, i quali 
+contemplavano le creazioni della natura con cuore non per anche gelato dalle speculazioni, e con 
+mente vergine di sistemi. Ad essi bastava mostrare il <emph>Come</emph> sentivano e 
+immaginavano la natura bella, sublime, e graziosa; or tutti vogliono trovare il 
+<emph>Perchè</emph>.</p>
+            <p>Intanto i nostri giovani poeti svogliati delle Muse, delle Grazie, e di tutte le Deità 
+dell'Olimpo; e sdegnati anche delle fantasie romanzesche dell'Ariosto, cavalcano i destrieri nuvolosi 
+di Odino; e rompono lancie in onore della <foreign lang="fra">poesie romantique</foreign>. 
+Appunto in quest'ora, e sono le dieci della sera, ei vanno vagando fra gli avelli Teutonici e 
+arrampicano per le torri che in Italia da più di cinque cento anni eran già tutte
+
+<quote rend="block">
+                  <lg>
+                     <l>Di teschi antiqui seminate al piede,</l>
+                     <l>E upupe e gufi e mostri avversi al sole</l>
+                     <l>Svolazzavan per esse, e con ferali</l>
+                     <l>Stridi portavan miserandi auguri</l>
+                     <l>E fama è ancor che pallide fantasime</l>
+                     <l>Lungo le mura de i deserti tetti</l>
+                     <l>Spandean lungo acutissimo lamento</l>
+                     <l>Cui di lontan per entro al vasto bujo</l>
+                     <l>Le cagne rispondeano ululando.</l>
+                  </lg>
+               </quote>
+
+Il Parini che dipingea sì da maestro gli spauracchi di que' castelli aveva imparato da' latini e da' 
+greci a raccogliere dalla natura sì ammirabile e insieme sì amabile nel nostro clima, le liete 
+immagini che danno alla terra la luce eterna del cielo. Credo che il Canova senza queste 
+immaginazioni disprezzate oggi per moda tedesca in Italia, sarebbe riescito mezzano artefice. La 
+sua Psiche e l'Ebe e le sue grazie si starebbero tuttavia incarcirate nelle rupi del Carrarese. Bensì i 
+poeti che le idearono gli hanno prestato — e Fidia confessavalo — ingegno, occhio e 
+scalpello, da farle balzar da macigni per lasciare incorruttibili immagini di giovinezza e di beltà fra 
+mortali
+
+<quote rend="block">
+                  <lg>
+                     <l>Perchè Febo gli disse: Io Fidia primo</l>
+                     <l>Ed Apele guidai con la mia lira.</l>
+                  </lg>
+               </quote>
+
+Ma la Metafisica ha novellamente distribuito il reame della letteratura a due principi: Omero nel 
+mezzodì; ed Ossian a Tramontana. Noi già avvezzi alle usurpazioni settentrionali, e a cantare il ben 
+venuto a chi arriva, abbiamo bandita la corte del vecchio Re per corteggiare gli spettri del nuovo. 
+Intanto gl'Inglesi cacciano il Re bardo come impostore convinto e confesso — e non senza 
+giustizia ma forse con troppa durezza: Noi scriviamo tuttavia per provare la sua antica legittimità da 
+che la legittimità è teoria di gran moda. Certo è che ne' versi del Cesarotti è alle volte poeta 
+meraviglioso. Ad ogni modo è invenzione di uomo scozzese vestito solitamente in frack e parrucca, 
+mascheratosi da vecchissimo bardo. Il Cesarotti che aveva più sapere e più genio tentò prova più 
+ardita: protesse Ossian contra Omero; rivestì Omero mezzo da bardo e mezzo da damerino, e fe 
+dell'Iliade un poema che non è nè Italiano, nè Greco, nè nuovo nè antico, nè settentrionale nè 
+meridionale, nè divino nè umano nè dotto nè barbaro. Si giustificò con teorie e il suo esempio e la 
+sua fama allettarono la gioventù a veleggiare per l'Oceano della Metafisica. Gridano come Dante
+
+<quote rend="block">
+                  <lg>
+                     <l>L'acqua ch'io prendo giammai non si corse;</l>
+                  </lg>
+               </quote>
+
+ma esso aggiungeva
+
+<quote rend="block">
+                  <lg>
+                     <l>Minerva guida e conducemi Apollo</l>
+                     <l>E nove Muse mi dimostran l'Orse.</l>
+                  </lg>
+               </quote>
+
+e i nostri cacciano Apollo e Minerva e le Muse tutte nove, e non so che stella polare ei riguardino; 
+so ch'ei vanno approdando nell'isola della <foreign lang="fra">poesie romantique</foreign>.</p>
+            <p>S'io avessi telescopio vorrei, Donna gentile, esplorare quanti giri e quali perturbazioni 
+patiscano oggi gli asterismi poetici d'Albione. Ma io non ho potere alcuno nè diritto di dirne sillaba; 
+nè so d'avere inteso contro di loro che un unico fattarello. Un poeta pregato da Lady C* B* 
+recitavale al caminetto un poema sovra la rosa. La signorina sviò gli occhi dal poeta, e li teneva 
+attentissimi sovra il suo sottopiedi di felpa a rabeschi. L'autore se ne richiamò — <hi rend="italic">che?</hi> rispos'ella <hi rend="italic">non m'avete voi forse fatto entrare il capriccio 
+di trovare in questo mese di crudo verno una rosa? or voi me l'avete sminuzzata in tanti petali, e 
+stami e che so io; poi mandandola al tempio dell'Amore universale a celebrare le sue nozze me 
+l'avete fatta smarrire dagli occhi; e il mio capriccio di vedere una rosa non s'è smarrito — 
+però ne guardo una qui ricamata come Dio vuole su la felpa verde del mio sottopiedi</hi>.</p>
+            <p>Frattanto io loderò i nostri <emph>romantici</emph>, purchè mi lasciano dire ch'io non 
+gli intendo: e s'anche intendessi non mi crederebbero; e direi una verità che mi farebbe parere 
+arrogante e bugiardo.
+
+<quote rend="block">
+                  <lg>
+                     <l>Sempre a quel ver c'ha faccia di menzogna</l>
+                     <l>Dee l'uom chiuder le labbra quant'ei pote,</l>
+                     <l>Però che senza colpa fa vergogna</l>
+                  </lg>
+                  <lg>
+                     <l>Ma qui tacer nol posso: e per le note</l>
+                     <l>Di questa Commedia, <emph>Contin</emph> ti giuro</l>
+                     <l>S'elle non sian della tua grazia vote</l>
+                  </lg>
+                  <lg>
+                     <l>Ch'io vidi per quest'aer grosso e scuro</l>
+                     <l>Venir notando una figura in suso</l>
+                     <l>Meravigliosa ad ogni cuor sicuro.</l>
+                  </lg>
+               </quote>
+
+Veggo la Metafisica trasfigurata in poetessa laureata a' dì nostri nel Campidoglio con solennissime 
+pompe dinanzi al popolo ed a principi, senza che nè occhio di diplomatico, nè orecchio di 
+Gazzettiere abbia mai potuto avvedersene. Corre trionfante in un cocchio cantando odi italiane in 
+prosa francese e facendo analiticamente all'amore. E s'ella non avesse bandito i poeti latini, si 
+udrebbe applaudita all'uso antico romano:
+
+<quote rend="block">
+                  <lg lang="lat">
+                     <l>Quo me fama levat terra sublimis et a me</l>
+                     <l>Nata coronatis musa triumphat equis</l>
+                     <l>Et mecum in curru parvi vectantur amores</l>
+                     <l>Scriptorumque meas turba secuta rotas.</l>
+                  </lg>
+               </quote>
+
+Or se in questi versi tradotti in piane parole voi, Donna gentile, non troverete da analizzare nuove 
+verità filosofiche; vedrete a ogni modo che quantunque fantastiche non restano d'essere umane. <hi rend="italic">La Fama m'innalza sublime oltre la terra, e la Musa nata da me trionfa con cavalli 
+inghirlandati. Gli Amori e i pargoletti m'attorniano condotti meco nel cocchio; e le mie rote sono 
+seguitate dalla folla degli scrittori.</hi>
+            </p>
+            <p>La poetessa laureata, afflitta di misero amore, passa per Firenze ed entra in 
+<emph>Santa Croce</emph> a trovare conforto sovra i sepolcri de' grandi ingegni che pur troppo 
+piansero anch'essi, e forse più ch'altri per malfortunate passioni; ed ora non mi par Metafisica. Se 
+non ch'essa vede in quella chiesa la tomba del Boccaccio, ch'io ho veduta parecchie miglia fuor di 
+Firenze. Legge sovra una lapide <emph>Leonardo Bruni Aretino</emph>; non fa caso il nome e il 
+casato, bastale che sia d'Arezzo, e compatriota di <emph>Pietro Tacci Aretino</emph>. Guarda il 
+globo terraqueo e i suoi abitatori a un occhiata nell'universo; guarda gli anni confusi coi secoli 
+nell'eternità e la scienza de' tempi è per essa superflua a ottenere la scienza de' fatti: nè le importa 
+che Leonardo nascesse innanzi al 1370 e Pietro dopo il 1490. Le importa di ragionare con 
+filosofiche antitesi.</p>
+            <p>L'Aretin, cet homme qui a consacrè ses jours a la plaisanterie, et n'a rien èprouvè sur la 
+terre de serieux que la mort. Or quest'Aretino è da noi cognominato l'<emph>Infame</emph> 
+perch'era un ignorante che pasceva la plebe ed i principi di libri osceni, di laide adulazioni e 
+calunnie, ed era rimunerato di pensioni, di bastonate, di pugnalate e di satire tanto serie per lui, 
+ch'ebbe ad impazzarne e morirne di rabbia; e non ottenne se non la fossa che nessuno nega a 
+cadaveri, nessuno cerca, e nessuno sa più dove sia. L'altro Aretino cognominato lo 
+<emph>Storico</emph>, fu de' più benemeriti della letteratura Europea, illustre per ambascerie e 
+magistrature, e venerabile per antica gravità de' costumi; però giace fra Michelangiolo e 
+Galileo.</p>
+            <p>La Metafisica contaminò quelle grandi anime ch'essa voleva onorare, perchè illuse una 
+donna di bellissimo ingegno a fondare avvenimenti storici sopra la favola, e a descrivere l'Italia con 
+mille invenzioni, ricopiate di pianta pochi anni fa da un Inglese Ecclesiastico con la giunta di 
+riflessioni tutte sue sul carattere degli Italiani. E pare dotto ne' classici, ma affettò di viaggiare e di 
+scrivere per <foreign lang="fra">Bon ton</foreign>. E in Inghilterra, più che altrove, ogni specie di 
+moda scorre come elettricità dai palazzi ai tuguri e da romanzi alle Università.</p>
+            <p>La Metafisica sedusse la stessa donna a galoppare seco in carrozza, e penetrare in un 
+voltar d'occhi negli usi, nelle opinioni, nella letteratura, e nelle viscere delle nazioni. Spiana teorie 
+incomprensibili con neologismo tedesco, con entusiasmo ginevrino, con eloquenza inesauribile, 
+amabilità femminile, ardire grazioso — e molta e ricca e ardente immaginazione; se la 
+troppa fiducia di sè e della credulità de' lettori non la disviasse ad ingannare se medesima e gli altri. 
+Il mondo corre ad ammirar cose ignote, e come s'accorge che la finzione non imita la verità e non sa 
+dove trovare gli originali dipinti nel quadro s'adira dell'inganno, e deride l'artefice; e i libri non 
+sopravvivono alla prima curiosità.</p>
+         </div1>
+         <div1 n="Moda">
+            <head>MODA</head>
+            <opener>
+               <salute>Al contino C*** a Milano</salute>
+            </opener>
+            <epigraph>
+               <lg>
+                  <l>Qui l'uso de' mortali è come fronda</l>
+                  <l>In ramo che sen va e l'altra viene</l>
+               </lg>
+               <bibl>Dante <title>Parad.</title>
+               </bibl>
+            </epigraph>
+            <p>Sere scorse il B. T. venne a confessare come ei non v'aveva mai scritto certo Gazzettino 
+su le fogge et le bon ton del bel mondo di Londra. E diceva ch'ei nel partirsi di Milano ve lo aveva 
+promesso allorchè parenti e amici gli si raccomandavano addossandogli nuove noje domestiche, 
+quand'ei viaggia per patire piuttosto noje straniere. Questo richiedere e promettere leggieri è delle 
+mode d'Italia; nè parmi di quelle che qui avrebbero corso:
+
+<quote rend="block">
+                  <lg>
+                     <l>Qui ognun vuol far da sè non comandato</l>
+                     <l>Se ti raccomandi      se spacciato.</l>
+                  </lg>
+               </quote>
+
+Sono versi facili spero. Sono oggimai cinque anni, pur non mi sono dimenticato dei vostri 
+rammarichi per la lettera che vi scrissi da Firenze a Napoli mezza prosa mia e mezza versi altrui. 
+Deploratemi, io non so scrivere lettere che a Mosaico: e appena la memoria non mi suggerisce de' 
+versi pianto la penna — Ma i versi greci li traduco per tutti; i latini li volgarizzerò in 
+pianissima prosa per voi — l'Inglese già lo sapete — Francesi non me ne ricordo 
+— e degl'italiani intendete quel che potete.</p>
+            <p>Or il B. T. avrebbe potuto scrivervi il Gazzettino del bel mondo assai meglio di me. 
+Egli, il M. G. ed io — per quest'anno — siamo tre forestieri tanto quanto di moda, 
+ma il B. è qui da più lungo tempo e si è inglesato sì fattamente ch'appena gli resta il nome di 
+Milanese e non ha di continentale fuorchè il vezzo di baloccarsi per tre o quattro ore ogni mattina su 
+e giù per la stanza vestito in Giacchetta, in cuffiotto da notte e in pantoffole. Qui tutti appena usciti 
+di sotto le coltri si vestono di tutto punto innanzi colazione, e pochi non si rivestono innanzi pranzo. 
+Sappiatelo per che volendo stare alle mode Inglesi sarà bene che incominciate la mattina — 
+non per tempo; e se v'alzaste innanzi undici ore sareste plebeissimo in Londra forse più che in 
+Milano.</p>
+            <p>E non solo il B. T. avrebbe potuto, ma voleva mantenere ad ogni modo la sua promessa, 
+sopra tutto in cosa che a voi premeva assaissimo; se non che ora doveva avviarsi verso la Scozia, e 
+chi sa quando mai avrebbe agio da compilarvi quel Gazzettino — e ripetevami addio 
+senz'abbracciarmi perchè il servo veniva all'uscio a fargli lume a scendere le scale; e qui 
+l'abbracciarsi non è di moda: anzi il baciarsi fra uomini è atto nefando. Neppur le Donne si baciano 
+spesso fra loro: bensì all'occasione del buon viaggio e del ben tornato le si lasciano — non 
+so se con meno scrupolo ma certo con più disinvoltura che le nostre giovinette — baciare da 
+loro amici:
+
+<quote rend="block">
+                  <lg>
+                     <l>Nè di rossor si vedono</l>
+                     <l>Contaminar la gota</l>
+                     <l>È la vergogna inutile</l>
+                     <l>Ove la colpa è ignota.</l>
+                  </lg>
+               </quote>
+
+Ma il saluto più solito, è il toccarsi la mano. Quando le ti accolgono o le ti dicono addio, ti stendono 
+la palma con fanciullesca ingenuità quasi cercando la tua; poi vanno scuotendo il loro braccio ed il 
+tuo guardandoti amabilmente fisso negl'occhi — le amiche o le anime affettuose te la 
+porgono nuda — le semplici conoscenti o sdegnose, col guanto:
+
+<quote rend="block">
+                  <lg>
+                     <l>«con occhi parchi e gli atti in se raccolti»</l>
+                  </lg>
+               </quote>
+
+le superbe o ritrose non te la porgono in modo veruno. E pare che le t'intimino: <hi rend="italic">Forestiero tu meriti forestiera accoglienza</hi>. Onde se poi le si degnano di trattarmi 
+all'Inglese io continuo a salutarle da forestiero.
+
+<quote rend="block">
+                  <lg>
+                     <l>E a me pur piace</l>
+                     <l>Che Donna vada altera e disdegnosa</l>
+                     <l>Non superba o ritrosa,</l>
+                     <l>Amor regge il suo imperio senza spada.</l>
+                  </lg>
+               </quote>
+
+Nessuna fuori che la Regina in Pubblico presenta la mano da baciare — chi può — e 
+sa — la bacia forse alla sua innamorata in secreto. Quel baciare per complimento o rispetto 
+le belle mani in Italia mi dava pur noja! le baciavano alle spose in mia presenza i cavalieri veterani 
+serventi della suocera: le baciavano i cascamorti che non potevano aspirar ad altro: le baciavano i 
+Senatori procaci come Sileni ubbriacatisi tracannando la patria alla salute d'ogni nuovo 
+conquistatore che li pagasse: e vidi talvolta che una bella mano era baciata in un unico punto da un 
+Secretario; da un Ajo; da un Maestro di casa; da un Poeta arcade; da un Buffone; da un Maestro di 
+grammatica che qualche volta era gobbo — e quest'unico bacio collettivo usciva dalle labbra 
+d'un Prete sudicio che per lo più nelle case nobili esercita contemporaneamente tutti gl'impieghi 
+come sopra. Però l'uso è scaduto di moda: e pare che non voglia continuare per molti anni fuorchè 
+in Venezia; seppure Venezia in pochi anni non tornerà com'era quattordici secoli addietro, abituro 
+di pescatori.</p>
+            <p>Ma qui si tratta del nostro secolo di mode e di baci — e tu sì Didimo Chierico 
+amico mio! tu ne sapevi più d'Anacreonte.</p>
+            <p>Voi di certo, caro Contino, non potete conoscere l'amico mio Didimo: appena è 
+conosciuto da me e da tre o quattro altri. Poi non l'abbiamo veduto più: nè so se egli cammini 
+ancora sopra la terra: purtroppo! non ho più quasi speranza di parlargli e d'udirlo. Voi non 
+conoscete quel Chierico amico mio ed egli credo che conoscesse voi, ed i vostri parenti. Nacque nel 
+bel Colle in Inverigo tutto cipressi fra l'Adda e il Lario — ond'è mezzo vostro concittadino 
+tanto più ch'ebbe la tonsura dall'Arcivescovo di Milano.</p>
+         </div1>
+         <div1 n="Serie di Gazzettini scritti non volendo al Contino C***  Milanese">
+            <head>lsqb;Serie di Gazzettini scritti non volendo al Contino C*** Milanese]</head>
+            <argument>
+               <p>ORIGINE DELLA MODA — CHIEDERE E 
+PROMETTERE</p>
+            </argument>
+            <p>Allorchè il B *** vi scriveva ch'io mi sono uno de' rari forestieri alla moda — non vi 
+narrava che un po' più del vero. Bensì assicurandovi ch'io potrei compilarvi meglio di lui il 
+gazzettino del bon ton e degli usi e del bel mondo di Londra, e ch'ei v'aveva promesso — 
+non vi dicea tutto il vero. Ma questa è delle mode perpetue ed universali in Europa di noi gente alla 
+moda; ed indispensabile a scansare gl'inconvenienti della verità, e lo smacco della bugia — 
+non dico il rimorso, perchè è cosa di coscienza, e non s'ingerisce gran che nel bon ton — 
+non direi neppure il rossore perchè è istinto involontario della rozza onestà; —e quand'è 
+raffinata la si converte in onore, che ci obbliga a vergognare non tanto della simulazione necessaria, 
+quanto della imprudente sincerità.</p>
+            <p>Or perchè io sono costretto da una caduta di cavallo a starmene in casa — io 
+forse, ma non ve lo prometto, v'andrò per cinque o sei corrieri scrivendo delle letterine che vi 
+faranno per ora da supplemento del gazzettino, è importantissimo che voi mi concediate per 
+assioma che la <emph>Necessità</emph> è <emph>Madre legittima della Moda</emph>, come di 
+tutte le azioni di noi figliuoli della Natura uomini e bestie.</p>
+            <p>Allorchè la Necessità è maritata al Bisogno, partorisce l'industria e l'economia che ci dà 
+i pochi dolori e i pochi piaceri che si chiamano indispensabili, e perchè sono i più naturali, si 
+sentono forse meno fortemente. E l'uomo n'ha bisogno di forti e moltissimi.</p>
+            <p>Poi la Necessità si marita all'Interesse, ed è più feconda e partorisce l'avidità, la villania, 
+l'avarizia, l'inumanità, l'astuzia mercantile e molte professioni che si chiamano liberali; le quali ad 
+ogni modo ci danno molti piaceri, e forti, — ma troppo simili, e troppo modesti — E 
+noi abbiamo bisogno di varietà e di apparenza.</p>
+            <p>Allora la Necessità si divorzia dall'Interesse che le assegna una ricchissima dote, e si 
+marita al Capriccio, e lo fa padrone di tutto il suo; com'avviene alle Signore attempate che si 
+maritano co' giovinotti, — però egli n'è innamorato che quasi non li diresti marito e moglie, 
+e partoriscono la Noja, la Curiosità, la Vanità, la prodigalità finalmente la Moda — e questa 
+poi fa nascere le più diverse[?] voluttà e noje che mai possano esercitare &lt;la&gt; 
+fantasia nostra che è creata per inquietare e inquietarsi: onde vedete che sebbene questi parti 
+dell'ultimo letto si chiamino superflui, sono pur sempre figli legittimi della Necessità; e questo vi 
+sia una delle tante prove dell'insufficienza delle lingue, le quali non hanno vocaboli da significare 
+nemmen la millesima parte delle cose; così che i metafisici sono obbligati alle definizioni, ed io 
+come vedete alle allegorie.</p>
+            <p>Ora tornando all'uso necessario a chiunque è nato ed educato a vivere nel bel mondo, di 
+condire la verità d'un po di bugia, non so se prevalga qui più che da noi. N'ho qualche esempio 
+tuttavia direi che noi come servi siamo più necessitati ad industriarci con mezzi termini. Inoltre noi 
+siamo naturalmente dotati di più fantasia — la quale ci seduce a dire bugie, ma ci ispira 
+altresì a dipingere de' quadri più simili alla Natura e delle poesie men metafisiche delle inglesi 
+— le quali oggi, sono di moda, —parmi.</p>
+            <p>Il vero schietto si è che il B*** v'ha promesso il gazzettino mentre ch'ei saliva in calesse 
+per fuggire le noje domestiche, anche a patti di trovarne di peggio altrove. Ma le noje esterne sono 
+sempre più tollerabili delle interne. Or accade sempre in Italia che gli amici e i parenti col cuore 
+angosciato degli ultimi congedi si raccomandano alla memoria del viaggiatore, e gli addossano 
+commissioni, ed ei con le lagrime agl'occhi, promette. Questa Moda di richiedere e promettere da 
+leggieri la è moda più nostra che inglese:
+
+<quote rend="block">
+                  <lg>
+                     <l>Qui ognun vuol far da sè non comandato,</l>
+                     <l>Se tu ti raccomandi se' spacciato.</l>
+                  </lg>
+               </quote>
+            </p>
+            <p>La principale cagione si è, che qui tutti e anche il Re derivano il loro diritto dalle Leggi, 
+e noi dobbiamo impetrarlo dalla protezione de' Ministri forestieri: e di questo quanto al richiedere: e 
+quanto al promettere; noi come vi dissi abbiamo più fantasia, il che presuppone più rapidità di moti 
+di cuore i quali sono sempre imprudenti, e per lo più affettuosi.</p>
+            <p>Poi quando al viaggiatore si sono asciugate le lagrime, ei calcola — ed ecco 
+perchè il B*** ora s'ingegna ch'io mi pigli in sua vece l'impresa del gazzettino.</p>
+            <p>Or sommando gli effetti de' servigi scambievoli che la diversità della educazione e 
+del&lt;la&gt; indole produce in Inghilterra e in Italia, parmi che si possa distinguerli e giudicarli 
+equamente così: l'Inglese ti serve spontaneo, costante, e liberalissimo — ma se se' altero ti 
+disanima dal pregarlo, e se sei importuno ti respinge e ti disprezza. L'italiano fa più commercio di 
+minimi servigi continui che promette[?] e che legano di tenuissime fila gli animi 
+umani, tanto più grati meno importano gratitudine. Quindi gl'Inglesi hanno &lt;più&gt; durezza e 
+insieme più verecondia; gl'italiani &lt;sono&gt; più servizievoli e più importuni — io non 
+so cosa vorrei più; so che ho un che di barbaro nel mio cuore — e nè rinfaccio — nè 
+chiedo.</p>
+            <p>L'altra Moda dell'andare raminghi per noja è prepotentissima in Inghilterra più che in 
+verun altro angolo della terra; e quanto più amano ed hanno ragioni di amarla la loro terra, tanto più 
+la fuggono, — per paragonarla alle altre, e godere come Adisson del cielo d'Italia — 
+e delle messe[?] che produce, e tornare a baciare la loro terra — essi dicono 
+che questa è curiosità — ma la curiosità vien anch'essa dalla noja.</p>
+            <p>Onde non si può dire &lt;n&gt;eppur[?] che qui viaggiare è di moda, bensì 
+chi non ha viaggiato non può essere mai di moda, da qualche eccezione in fuori; ma in Italia chi ha 
+viaggiato è di moda. Però voi avete fatto benissimo a viaggiare in due mesi da Milano a Napoli, 
+— ed godere del vostro regno per quasi un anno — poi in quattro mesi andata e 
+ritorno da Milano in Iscozia, ed ora godrete son certo, — e nessuno può più di voi avere 
+bisogno del gazzettino per poter parlarne assennatamente —</p>
+         </div1>
+         <div1 n="Saggio d'un Gazzettino del bon ton inglese —  Londra deserta">
+            <head>[Saggio d'un Gazzettino del bon ton inglese — Londra deserta]</head>
+            <argument>
+               <p>
+                  <foreign lang="lat">XV Catullo iam — vagari</foreign>
+               </p>
+            </argument>
+            <p>Voi in Inghilterra ci siete già stato per tre settimane — e il conte C*** per 
+quattro — e il Marchese V*** per cinque, e altri così — fra quali a' dì scorsi il 
+Marchese C. — esaminò l'Inghilterra nell'<hi rend="italic">Hotel Sabloniere</hi>, e non 
+usciva mai che per vedere il bel mondo nel circuito di <hi rend="italic">Leicester Square</hi>; e 
+bastavagli. S'annojò; e dopo quindici giorni partì a ridire e giurare e confermare l'antica novella 
+della inospitalità degl'Inglesi. Ma voi, Contino mio, vi siete affaticato correndo a vedere il paese col 
+volo e l'occhio dell'Acquila, e avendo conversato con postiglioni e con osti, non potete parlare che 
+della ruvidità degl'Inglesi — e il Marchese C*** e voi tutti vi siete doluti della venalità di 
+tutti e di tutte.</p>
+            <p>E così va fatto, perchè è pur moda, e anche inglese. Anzi per dir giusto l'andare e tornare 
+volando è oggi in tutta l'Europa un indizio <foreign lang="fra">du supreme bon ton</foreign>. Per 
+lo più sì fatti viaggiatori portano seco fuori di casa loro tutte le virtù, eccettuata l'indulgenza perch'ei 
+se la serbano da poterla esercitare assai più utilmente con le lor Dame. E intanto vedono a Milano, a 
+Firenze e altrove le contesse A — B — C — D — sino col Z che 
+assordano &lt;l'&gt; aria e tutte le vie col fracasso e la pompa delle carrozze — e saltano da 
+Baccanti ne balli, e sfoggiando nelle veglie, e ne' palchetti in teatro dinanzi i forestieri allo 
+splendore di mille lumiere i lor vezzi invecchiati per la gioventù del paese, aspirano non 
+potend'altro alla celebrità dell'infamia. Però i forestieri tornano attoniti dell'inverecondia delle 
+Italiane. Ma scioperati! a voi bastano le lettere dell'abbiccì a registrare ne' vostri itinerari le venti o 
+le ventiquattro che fanno chiasso per mille; ma a contare le vereconde vi bisognerebbero numeri 
+— e non le trovereste mai fra quelle poche che sole ne' pochi giorni della vostra dimora 
+possono darvi nell'occhio. Le cittadine Italiane alle quali la mediocrità della fortuna concede 
+moderate passioni e modestissima vita hanno più desiderio e più agio da coltivare il loro ingegno e 
+il loro cuore, e tremerebbero d'aprire la loro stanza a sfacendati, impertinenti, curiosi, impudenti, 
+fastidiosi quali pur siete, e lasciarvisi vedere quando le stanno le lunghe ore sedute con gli occhi 
+intenti or ad un libro e or al viso del loro Bambino dormente — Ma questo di proverbiare la 
+fama delle donne forestiere era mestiero anche de' viaggiatori antichissimi; e se ne veggono indizi 
+in un frammento d'un comico greco.
+
+<quote rend="block">
+                  <lg>
+                     <l>Ospite riedi a Sparta; e di Medea</l>
+                     <l>Narra, e di Danae ingorda d'oro e d'altre</l>
+                     <l>Famose d'oggi: a te la fama taccia</l>
+                     <l>Le buone: or va: qui l'ottima è colei</l>
+                     <l>Che molto in casa e poco in piazza è nota.</l>
+                  </lg>
+               </quote>
+
+Per altro io ammiro — e in buona fede — ammiro chiunque adempia al suo scopo 
+risparmiando il più che si può le tre cose le più care alla vita — oro, tempo, e riposo. Or chi 
+viaggia per moda, non ha di mira se non il ritorno e si strugge di riaffacciarsi rinnovato di abito 
+d'usi e di fama e poter raccontare
+
+<quote rend="block">
+                  <lg>
+                     <l>Le novità vedute; e dire io fui.</l>
+                  </lg>
+               </quote>
+
+Ma voi beato! beatissimo più degli Inglesi, a quali per essere arruolati nemmen da gregarj 
+nell'esercito della &lt;Moda&gt; tocca correre almeno mezza l'Europa; nè s'attentano di troppo 
+ostentare o promovere a spada tratta usanze straniere; nè fare le cose strane delle quali 
+imbizzarriscono allorchè sono nel Continente come uno ch'io vidi ire attorno in Italia col cappellino 
+da Donna. Invece a voi, Contino mio caro, a farvi invidiare dal vostro bel mondo bastano quattro 
+mesi fra andata e ritorno; e se disprezzate gl'usi, gl'artefici e i Libri Italiani, se affettate d'impazzare 
+in casa vostra come alcuni Inglesi impazzano fuori di casa loro, voi siete esaltato Eroe della 
+moda.</p>
+            <p>Ed ecco come godete de' vostri allori pacifico mentre la disgraziata mia gamba e la 
+moda mi riducono più infelice de' più infelici Eroi della Grecia — mentre il bel mondo 
+Inglese che da mezzo Gennaro in qua godeva delle veglie, de' conviti, de' balli, dello strepito, delle 
+nebbie, del fumo e dei Clubs di Londra, è costretto a primi caldi della stagione a disperdersi, agitato 
+dalla moda che corre la città cavalcando un ronzino di Posta e scoppiettando con la frusta desta chi 
+dorme, e sferza chi non si move, e imperversa
+
+<quote rend="block">
+                  <lg>
+                     <l>Non altrimenti fatta che d'un vento</l>
+                     <l>Impetuoso per gli avversi ardori</l>
+                     <l>Che fier la selva senza alcun rattento</l>
+                     <l>I rami schianta abbatte, e porta i fiori</l>
+                     <l>Dinanzi polverosa va superba</l>
+                     <l>E fa fuggir le dame e gli amadori.</l>
+                  </lg>
+               </quote>
+
+chi rifugge alle sue ville, — chi alle altrui — chi alle locande della campagna 
+— chi a Bagni di Bath o di Cheltenham — e chi a bagnarsi lungo le spiagge 
+dell'Oceano, e Dame e donne, e bambini a sei a dodici con le nutrici, e ragazze a frotte come se le 
+fuggissero dal Monastero, ed aje e avole con i medici,
+
+<quote rend="block">
+                  <lg>
+                     <l>Movon battendo l'aure di clamori</l>
+                     <l>Quasi stormi d'augei. Così campate</l>
+                     <l>Al verno e alla rovina delle piove</l>
+                     <l>Schiamazzano le gru quando alla zuffa</l>
+                     <l>Rinfieriscon più ardite in primavera</l>
+                     <l>E dritto all'Ocean tendono l'ali</l>
+                     <l>A dar guerra a Pigmei; odi pur l'alto</l>
+                     <l>Dividersi alle strida orride l'aere.</l>
+                  </lg>
+               </quote>
+
+Dissi Dame e donne da che per le ragioni assegnatevi nel numero precedente, qui alle volte la 
+figliuola d'un Bottegajo non vuol giurare fedeltà conjugale se lo sposo Bottegajo non le promette 
+innanzi tratto ch'essa e i Signorini futuri andranno per un pajo di mesi <foreign lang="eng">to enjoi 
+the beauty of the cuntri</foreign>, e a rifarsi in salute a bagni di mare —Ridete? — 
+ma e venti anni fa le madri e le suocere patrizie in Italia non ottenevano forse che il notaro nello 
+scritto dotale rogasse che una giovinetta allevata fin allora al candore e al pudore, avrebbe avuto 
+diritto di scegliersi a genio della madre e della suocera un cavaliere servente ed un confessore? Ed 
+erano indispensabili affinchè la sposa non fosse dissimile dalla suocera e dalla madre. Il cavaliere 
+servente le faceva a un tratto smarrire la ridicola semplicità del candore — e il confessore 
+avvezzavala a poco a poco a raccontare senza pudore i suoi falli — a saldare i debiti con la 
+coscienza, ed a farne con più fiducia degli altri.</p>
+            <p>È vero che qui si tratta di Bottegaj e in Italia era affare per Patrizi — Ed intanto 
+il bel mondo inglese va al mare — Taluni ammalano e passano il mare a invocare le Najadi 
+minerali d'Acquisgrana e di Spa — chi corre in Olanda a compiacersi della bella unione de' 
+cattolici fiamminghi e di tanti Eretici d'ogni setta — chi va a Parigi a godere dello spettacolo 
+de' Gladiatori nella camera de' Deputati — chi va a venerare per cinque o sei settimane la 
+patriarcale integrità degli Svizzeri, e l'austerità magnifica della natura e arrampica per quelle 
+montagne
+
+<quote rend="block">
+                  <lg>
+                     <l>Con la moglie e l'ancella, e figli e il cane</l>
+                  </lg>
+               </quote>
+
+e poi stampa un itinerario e narra al mondo ch'ei vi è salito
+
+<quote rend="block">
+                  <lg>
+                     <l>
+                        <foreign lang="lat">Cum sociis natoque penatibus et Magnis Dis</foreign> —</l>
+                  </lg>
+               </quote>
+
+Chi per vedere la cattedrale di Colonia, innanzi che i Prussiani la lascino andare in rovina, parte di 
+Oxford o di Cambridge con cento lire, ed avendone consumate cinquanta sino ad Anversa torna 
+prudentissimo indietro; chi si contenta di bere alla salute della Moda una dozzina di Bottiglie 
+all'hotel Dessein à Calais — e chi non sa dove andare va ad ogni modo — e chi non 
+può, si rimpiatta in casa a finestre chiuse e ad orecchie incerate come i compagni d'Ulisse per non 
+udire lo scoppiettare del frustino della moda; e se l'ode rimpiattasi non so dove e le donne che n'han 
+più paura
+
+<quote rend="block">
+                  <lg>
+                     <l>Come le rane innanzi alla nemica</l>
+                     <l>Biscia per l'acqua si dileguan tutte</l>
+                  </lg>
+               </quote>
+
+Ed io? eccomi qui dannato come il povero Teseo a sedere immobilmente, e addolorare impedito 
+d'un piede e relegato in un'Isola come il povero filottete — e se potrò movermi e uscire di 
+casa, sarò come il povero Bellerofonte il quale dal giorno
+
+<quote rend="block">
+                  <lg>
+                     <l>Che fu da tutti abbandonato i numi</l>
+                     <l>Per la campagna degli Alei vagava</l>
+                     <l>Solo; e si ritraea donde mirava</l>
+                     <l>Vestigio d'uomo, e il suo cor divorava.</l>
+                  </lg>
+               </quote>
+
+Londra brulica tuttavia di un milione e più di mortali; ma guai se mi approssimassi a un di loro 
+— se non dicessi che Londra è un deserto — e se si scoprisse ch'io non son andato in 
+campagna! Noi esercito della moda abbiamo per sacramento l'obbligo di osservare e ridire se tutti 
+ed uno per uno i nostri commilitoni fanno o no il debito loro. Onde come io potrò salire in carrozza, 
+viaggierò sino ad una casuccia che ho già tolto a pigione tre miglia fuor di città tanto da poter dire 
+anch'io che sono stato in campagna.</p>
+         </div1>
+         <div1 n="Saggio d'un Gazzettino del Bel Mondo">
+            <head>SAGGIO D'UN GAZZETTINO DEL BEL MONDO</head>
+            <opener>
+               <salute>Al Contino C*** a Milano</salute>
+            </opener>
+            <div2 n="n. 1">
+               <head>N 1 Gazzettino del Bel Mondo</head>
+               <opener>
+                  <dateline>Londra Mercoledì 9 luglio 1817</dateline>
+               </opener>
+               <argument>
+                  <p>Notizie — Arte di dire la verità — Eroine teatrali e loro campioni 
+— Mezzi divorzi — Alcibiadi — Mercantesse di profumi — Vesta di 
+camera — Gambe rotte per moda — Poema dedicato alla Moda — Augurj a 
+bambini — Poeti commensali — Dedicatorie italiane — Epigrafi 
+inglesi.</p>
+               </argument>
+               <epigraph>
+                  <lg lang="lat">
+                     <l>Impransi correptus voce magistri</l>
+                  </lg>
+                  <bibl>Horat.</bibl>
+               </epigraph>
+               <p>Caro contino — Allorchè il Cavaliere P*** vi scriveva ch'io mi sono uno de' rari 
+forestieri alla moda — non vi diceva che un po' più del vero. Bensì accertandovi ch'io 
+compilerei meglio di lui il Gazzettino del <emph>Bel Mondo</emph> — e ch'ei vi aveva 
+promesso — vi diceva un po' meno del vero.</p>
+               <p>Questa appunto è delle mode universali e perpetue di noi gente alla moda, perchè riesce 
+utilissima a scansare gl'inconvenienti della verità e della bugia — non dico il rimorso che è 
+cosa di coscienza, la quale non s'ingerisce gran che nelle mode — non direi neppure il 
+rossore, che è istinto della rozza onestà, la quale quand'è ingentilita in onore ci stringe a vergognare, 
+non tanto della necessaria simulazione, quanto dell'imprudente sincerità. I Francesi ne sono maestri: 
+gli Svizzeri vanno più sempre imitandoli come orsi che ballano. Quanto agl'Inglesi non saprei dirvi, 
+n'ho degli esempi: tuttavia — e prescindendo da' diplomatici co' quali e de' quali parlo di 
+rado — gl'Inglesi non mi pajono simulatori; bensì dissimulatori e senz'arte: ascoltano e 
+tacciono. Infatti sono più liberi de' francesi, più indipendenti degli Svizzeri, e non tremano mai, 
+come noi, sotto la verga di nuovi signori; ond'hanno poca necessità d'industriarsi con sotterfugi 
+servili.</p>
+               <p>Inoltre gl'Italiani sono dotati di più fantasia, la quale se congiura con la tirannide a 
+disciplinarci a colorare la verità di bugie, congiurava altresì con la libertà del genio a insegnarci a 
+fingere meglio la natura nelle pitture, e ci dettava poesie più ad immagini che a sentenze. 
+Congiurava e dettava.</p>
+               <p>Il grande Bacone che aveva studiato — così non l'avess'egli praticato assai male 
+— il <foreign lang="fra">Bon ton</foreign> nelle Corti, notò nel suo <title>
+                     <foreign lang="eng">Essais on truth</foreign>
+                  </title>, che <hi rend="italic">un po' di tinta di bugia 
+aggiunge garbo alla verità</hi>. Or il <foreign lang="fra">Bon ton</foreign> non gira egli per tutti 
+noi su l'unico cardine d'illuderci e piacerci scambievolmente?</p>
+               <p>Comunque sia io stassera mi starò alle parole di Madonna Laura discesa una notte in 
+visione al suo innamorato già vecchio — ed ei morì appunto in quell'anno — e gli 
+disse:
+
+<quote rend="block">
+                     <lg>
+                        <l>Per finzion non cresce il ver nè scema</l>
+                     </lg>
+                  </quote>
+
+onde su la faccenda del Gazzettino, promessovi dal Cavaliere P***, il vero schietto si è, ch'ei me 
+l'ha voluta addossare — però, mescendo quel che è con quel che non è, vi ha dato una 
+risposta da cortigiano e da Metafisico.</p>
+               <p>E il fatto sta ch'egli, il Marchese L***, ed io componiamo per quest'anno il triumvirato 
+degli Italiani alla moda. Io sarò il Lepido — e il Cavaliere, se alcuna Cleopatra cantante o 
+danzante non lo seduce a correrle dietro per l'onde sul navicello di Duvre, otterrà il lungo e pacifico 
+regno d'Augusto. Ma non credo ch'ei voglia lasciar andar in disuso la moda nostra di professarci 
+cavalieri a visiera alzata, e insieme cassieri privati delle Eroine teatrali.</p>
+               <p>Qui quando risplendono da Eroine sono applaudite secondo il loro merito e la loro 
+fortuna nell'arte; ma sono anche giudicate secondo i loro portamenti domestici. Però vestono 
+modeste, vivono oneste, o cautissime; e siedono in compagnia fra le oneste o cautissime in ogni 
+casa. In Italia le matrone sole sono in diritto di imporre rispetto per le lor debolezze; e ne abusano 
+tanto, da far sospettar male delle virtù d'ogni donna; e peggio di quelle che vivono di commedie, e 
+di canto e di ballo alle quali anche le cittadine chiudono l'uscio. La femminile castità non creduta si 
+perverte in vizio sfacciato; e più che mai quando ha bellezza, gioventù, povertà, libertà, seduzioni, 
+satire, adulazioni, esempi nobili; tutte in somma quelle <emph>occasioni prossime</emph> che 
+secondo i Gesuiti fanno veniale il peccato. E dove i Duchi e i Marchesi vanno militando a spada 
+tratta per una famosa plebea, le loro consorti usurpano la prerogativa delle Regine di nobilitar 
+favoriti — per lo più forestieri, e se egli è tedesco gli danno il titolo di <title>
+                     <foreign lang="fra">Monsieur le Baron</foreign>
+                  </title> — * * * * * * * * * * eppur la è d'animo 
+nobile al pari de' suoi natali e vidi com'essa ne' giorni delle sciagure diè prova di fede generosa e 
+virile alla Vice Regina più che non lo squadrone di tutti voi ciambellani e scudieri.
+Ma nelle donne quel detto del Petrarca è pur vero!
+
+<quote rend="block">
+                     <lg>
+                        <l>Natura non può star contra il costume</l>
+                     </lg>
+                  </quote>
+
+In Inghilterra i mezzi divorzj sono rarissimi, o poco apparenti che appena appena se ne 
+bisbiglia.</p>
+               <p>Or io fo pure la figura sguajata! — appunto il Cavaliere P*** mi rispondeva un 
+giorno a Milano: <hi rend="italic">E vi par egli poco il farsi vedere in Faeton amante riamato della 
+donna ammirata dal popolo ed aspettata in tutte le città Capitali d'Europa? — Ma e il 
+ridicolo?</hi> gli diss'io — <hi rend="italic">Ma e Alcibiade</hi>, mi rispos'egli, <hi rend="italic">vestito da Spartano non sarebbe stato egli ridicolo agli Ateniesi</hi>? Io gli 
+raccomandai che se mai fosse proverbiato da suoi concittadini, vedesse di capitanare come 
+Alcibiade contro di loro un esercito. Ei borbottò non so che di Don Chisciotte, e la questione finì 
+per allora — tanto più che, da poco divario in fuori, menava io pure la bella vita; e mi sono 
+pur oggi quell'io
+
+<quote rend="block">
+                     <lg>
+                        <l>
+                           <foreign lang="lat">Quem tenues decuere togae nitidique capilli</foreign>
+                           <note place="foot">
+                              <p>
+                                 <bibl>Horat. lib. I. <title>Epist. 
+XIV</title>
+                                 </bibl>.</p>
+                           </note>
+                        </l>
+                     </lg>
+                  </quote>
+                  <hi rend="italic">a chi stavan bene gli abiti lindi e le nitide ciocche</hi> — A ogni modo ei 
+potrebbe, quanto al Gazzettino, servirvi meglio d'assai. Sebbene ei sia capitato qui dopo di me, ei 
+già conosce, e paga più di me il sartore di Corte e i calzolai di
+<hi rend="italic">Bond Street</hi>
+                  <quote rend="block">
+                     <lg>
+                        <l>E la fata che grida: acque odorose!</l>
+                        <l>Tinture! incanti contro gli anni e i nei!</l>
+                        <l>E latte fresco di Parigi e rose!</l>
+                        <l>Profumi! — e vende taciti imenei.</l>
+                     </lg>
+                  </quote>
+
+così la Moda in Europa ribiondisce ad un modo i suoi sudditi — ma con minime varietà più 
+di mille, argutissime, bizzarrissime e spesso fanciullesche; e talvolta anche innocentissime, amabili 
+e tutte proprie d'un solo paese; ed inimitabili e quasi anche inosservabili da' viaggiatori. In fatti il 
+Cavaliere P***, benchè oggimai siasi tutto quanto Inglesato, non s'è ancor divezzo dell'uso di 
+baloccarsi per tre o quattr'ore ogni mattina su e giù per la camera — e come tutti i Patrizi 
+continentali, continua a dare udienza in zimarra, in cuffiotto da notte e pianelle. Qui non è vezzo. 
+Anzi ognuno appena uscito di sotto le coltri, si veste di tutto punto e fa colazione a mani lavate; e 
+pochi non si rivestono innanzi pranzo. Sappiatelo, perchè volendo stare agli usi Inglesi, sarà bene 
+che cominciate la mattina — non troppo per tempo — in città un po' prima di mezzo 
+dì: e in villa, un po' dopo le dieci.</p>
+               <p>Anch'io, mio caro Contino, mi sto lietamente sdrajato di notte e di giorno da che mi è 
+toccato precipitarmi di cavallo, ed ho una gamba in pericolo e insieme il conforto che la mia 
+disgrazia è di moda. Qui v'è da incontrare gambe e braccia signorili storpiate più che nani e chierici 
+gobbi in Milano. Anzi mentre scrivo, Lady *** giace anch'essa sopra un soffa, e per lo stesso 
+accidente; e anche per questo viviamo di simpatia — ma la è simpatia che mi fa star assai 
+peggio:
+
+<quote rend="block">
+                     <lg>
+                        <l>Quando novelle a chiedere</l>
+                        <l>Manda l'inclita Nice</l>
+                        <l>Del piè che me costringere</l>
+                        <l>Suole al letto infelice,</l>
+                        <l>Sento repente l'intimo</l>
+                        <l>Petto agitarsi del bel nome al suon:</l>
+                     </lg>
+                     <lg>
+                        <l>Rapido il sangue fluttua</l>
+                        <l>Ne le mie vene; invade</l>
+                        <l>Acre calor le trepide</l>
+                        <l>Fibre, m'arrosso; cade</l>
+                        <l>La voce . . .</l>
+                     </lg>
+                  </quote>
+
+Così che a riavermi ripenso al Conte Alfieri ed a voi, Contino mio caro.</p>
+               <p>Non però crediate che sian versi tragici. Li scriveva il Parini vostro concittadino; ed era 
+infermo de' ginocchi fin dall'adolescenza: ma nacque anima ardente, educatasi per proprio vigore da 
+sè: nè languì per età, nè per presentimento di morte. Compose nel 1799 con estro generoso il 
+sonetto:
+
+<quote rend="block">
+                     <lg>
+                        <l>Predaro i Filistei l'arca di Dio</l>
+                        <l>Tacquero gl'inni e l'arpe de' Leviti</l>
+                     </lg>
+                  </quote>
+
+e avea settant'anni: lo dettò; e dopo un'ora e mezzo spirò.</p>
+               <p>Morì povero perch'era figlio di contadini, e non vendeva libelli nè elogi. Leopoldo II, 
+passando per la vostra città, vide un vecchio d'altero aspetto che strascinavasi sul bastone. Intese 
+ch'era lo zoppo Parini; e volle che al suo stipendio di lettore di eloquenza il comune aggiungesse 
+tanto che il vecchio s'ajutasse d'un calessetto. Ma i Luogotenenti de' Monarchi obbediscono per lo 
+più a' ricchi della provincia; e gli avi e i padri vostri ottennero ch'ei continuasse a strascinarsi 
+infermo e stramazzare nel fango e far ridere il volgo<note place="foot">
+                     <p>Vedi l'Ode del Parini 
+intitolata <title>La Caduta</title>.</p>
+                  </note>. Perchè ei deplorando i loro miseri obbrobrj, gli 
+aveva redarguiti con severità giusta di cittadino, con dignità d'uomo, e con ingegno temuto ed 
+odiato. Oggi lo celebrate come lume della vostra città.</p>
+               <p>Ei non giovò a mutar gli usi, da che alle anime irruginite bisognano armi, leggi e regno 
+lungo di Principi non forestieri. Nè voi lo intendete; perchè pare ch'ei non volesse farvi spregievoli 
+al popolo, e sperando di assuefarvi a pensare, vestì la satira di stile derivato dal genio de' sublimi 
+scrittori e dal suo. Derise usanze di quell'età quasi tutte italiane, e per lo più vostre municipali; ed è 
+arduo anche a' dotti stranieri: e riuscirà d'anno in anno più oscuro a' nostri nepoti. Infatti ei dedicò il 
+suo bel volumetto con una lettera alla <emph>Dea Moda</emph>. Ma spiò la natura com'era 
+modificata ne' cuori de' personaggi ch'ei dipingeva, e il gusto de' pochi ch'ei desiderava giudici del 
+suo quadro: lo tratteggiò con l'ardire di chi sa di potere e dovere manifestare la verità odiata da' 
+contemporanei, e desiderata da' posteri; e la abbellì degli ornamenti che hanno lode d'antichi, perchè 
+da venticinque secoli e più sono sempre splendidi e freschi. Però la <emph>Moda</emph> si 
+compiacque della Dedica; e benchè ella non sappia nè leggere quel poema nè ravvedersi de' suoi 
+capricci, lo ha favorito, e lo proteggerà; e quando nessuno si ricorderà più di noi avrà lettori ed 
+interpreti.</p>
+               <p>Studiatelo; o non foss'altro provatevi. Ha per titolo il <title>Giorno</title>, ed è 
+distribuito in quattro canti: <title>Mattino</title>; <title>Meriggio</title>; <title>Vespro</title>; 
+<title>Notte</title>: e celebra gli studj ridicoli, le oziosissime occupazioni, i vizi spregievoli, le 
+noje invidiate, e i delitti impuniti ne' quali i patrizj spendevano con perpetuo ricorso immutabile, 
+impreteribile, le venti quattr'ore delle tenebre e della luce. Vedrete le fogge, e il bel mondo milanese 
+e il <foreign lang="fra">bon ton</foreign>; e vi compiacerete che da cinquant'anni in quà il giorno 
+vostro non siasi alterato che di poche apparenze. La rivoluzione fu meteora che lo ottenebrò; ma il 
+Sole invocato da voi raggiava di sopra la tempesta — or eccola diradata; e godete e 
+splendete d'antica e novissima gloria; e il vostro poeta la aveva antiveduta.</p>
+               <p>Però che non sì tosto uno di voi nasceva a popolar gentilmente la presente generazione, 
+ei s'accostava alla vostra culla a bisbigliarvi all'orecchio:
+
+<quote rend="block">
+                     <lg>
+                        <l>Tu sarai simile</l>
+                        <l>Al tuo gran Genitore<note place="foot">
+                              <p>Vespro verso la fine.</p>
+                           </note>
+                        </l>
+                     </lg>
+                  </quote>
+
+E intanto i vostri frati maestri ed aij futuri — e poetini abatini braccieri delle vostre nonne 
+— e pastori e bifolchi Arcadi — ed accademici, vi cantavano in coro il 
+<title>
+                     <foreign lang="lat">Carmen Genetliacum</foreign>
+                  </title> vaticinando molti be' presagi 
+uditi dal buon vecchio — e questo udito, son pochi anni, da me <hi rend="italic">che voi 
+guidati dalle ombre de' cavalieri crociati, vostri antenati, navigherete a riconquistare 
+Gerusalemme</hi>. Così spiravano gratitudine e divozione, ed erano invitati ogni domenica a 
+pranzo a pagare il loro scotto recitando la parte di Sileno **********
+
+<quote rend="block">
+                     <lg>
+                        <l>— dalla cui lubrica arte</l>
+                        <l>Novella sposa vergognando parte.</l>
+                     </lg>
+                  </quote>
+
+ma il marito e gli amanti le davano baja — però tornava a sedere e imparava. E da che era 
+pur moda, il Parini aveva torto a presumere che un poeta sobrio potesse giovare a sì fatti ubbriachi. 
+Forse farò che possiate paragonare a lui un emulo suo che v'ammaestrava — e tuttavia 
+v'ammaestra — felicemente<note place="foot">
+                     <p>Vedi Gazzett N 12.</p>
+                  </note>. 
+Avendo io oramai principiato, e non potendo far altro, andrò innanzi con de' fogli e li manderò ad 
+impostare ogni martedì e venerdì, tanto che vi facciano da Gazzettino fino a che il Cavaliere P *** 
+abbia agio da liberare la sua promessa. E da che m'avete scritto ragioni e doglianze contro di lui, 
+perch'ei non v'ha per anco servito; ed io temo di dovervi servire in guisa che avrete da rammaricarvi 
+anche di me, vi farò innanzi tratto un tantino di prefazione.</p>
+               <p>Ma non posso ajutarmi da me a coricarmi in letto; e il mio infermiere si sta forse 
+languendo di sonno. Dunque domani. Per ora, affinchè non foss'altro vediate com'io per amor vostro 
+entro in un gran gineprajo, vi porrò qui la epigrafe generale de' gazzettini miei — e quando 
+mai li vorreste cucire in un volumetto, fatela ricopiare nel frontispizio:
+
+<quote rend="block">
+                     <lg lang="lat">
+                        <l>Nec me animi fallit Graiorum obscura reperta</l>
+                        <l>Difficile illustrare latinis versibus esse</l>
+                        <l>Multa novis verbis praesertim cum sit agendum</l>
+                        <l>Propter egestatem linguae; et verum novitatem</l>
+                        <l>Sed tua me virtus tamen, et spectata voluntas</l>
+                        <l>Suavis amicitiae quamvis perferre laborem</l>
+                        <l>Suadet: et inducit noctes vigilare serenas,</l>
+                        <l>Quaerentem dictis quibus, et quo carmine demum</l>
+                        <l>Clara tuae possim praepandere lumina menti</l>
+                        <l>Res quibus occultas penitus convisere possis.</l>
+                     </lg>
+                     <bibl>Lucretius. I. 130</bibl>
+                  </quote>
+
+Ora mi proverò di darvi un volgarizzamento all'uso de' gesuiti che stempravano i poeti antichi in 
+frasi moderne per comodo del Delfino di Francia.</p>
+               <p>
+                  <hi rend="italic">Non m'illudo; so quanto le invenzioni oscure de' Greci sieno 
+malagevoli da illustrarsi in versi latini: anzi, per la povertà della lingua e per la novità delle cose, 
+molte idee richiedono vocaboli nuovi. Non di meno la tua virtù e la sincerità della tua indulgente 
+amicizia mi confortano a tollerare qualunque fatica, e a vegliare le notti serene fantasticando con 
+quali elocuzioni e con che armonia io possa far prorompere i raggi del tuo lucido ingegno, sì che tu 
+veda a un tratto tante cose sì occulte.</hi>
+               </p>
+               <p>Questa essendo prosa poetica potrebbe stare per epistola dedicatoria — e se la 
+non vi dispiace, ricopiatela intitolandola del vostro nome con le seguenti varianti — invece 
+di <emph>versi latini</emph>, scrivete <emph>gazzettini Italiani</emph> — e 
+<emph>invenzioni Inglesi</emph>, invece d'<hi rend="italic">invenzioni de' greci</hi> — 
+e alle <emph>notti serene</emph> aggiungete <emph>rarissirne in Londra</emph>. Il resto quadra 
+a pennello.</p>
+               <p>Veramente la è dedicatoria che stando alla moda Italiana pecca di laconismo. Pur siete 
+compensato dalla prolissità dell'epigrafe ch'è moda degli Inglesi a' quali oggi par poco un motto 
+lungo, e l'allungano con due o tre d'idiomi e sensi diversi. Pare a me che l'epigrafe abbia da 
+annunziare quasi lampo la sostanza del libro, e la mente dello scrittore. Ma forse la loro mente 
+consiste a far sapere ch'ei sanno più lingue.</p>
+            </div2>
+            <div2 n="N. 3">
+               <head>N 3 Gazzettino del Bel Mondo</head>
+               <opener>
+                  <dateline>Londra Venerdì Luglio 1817</dateline>
+               </opener>
+               <epigraph>
+                  <lg lang="lat">
+                     <l>Atque obiter leget aut scribet vel dormiet intus.</l>
+                  </lg>
+                  <bibl>Iuvenalis: sat: III</bibl>
+               </epigraph>
+               <argument>
+                  <p>Notizie. Incomincia la Prefazione all'uso moderno che tratta principalmente del 
+<foreign lang="fra">bon ton</foreign> della Repubblica Letteraria — Lettori d'oggi 
+— Ostilità nelle Università Tedesche, e ne' Teatri d'Italia.</p>
+               </argument>
+               <p>Volendo io, Contino lettore mio, che voi possiate da' miei Gazzettini dedurre alcune 
+regole generali le men metafisiche e le più praticabili che si possa mai del bon ton; e perciò mi 
+bisognerà penetrare nell'erudizione recondita delle mode si che dagli usi de' popoli e ceti e secoli 
+diversi e principalmente della Repubblica Letteraria, la quale o drizza o storce tutte le teste europee, 
+voi dessumiate esse regole —</p>
+               <p>e volendo però compilarvi una prefazione nella quale l'antico metodo troppo breve 
+— e anche mio, — sia conciliato con la moda Italiana, Inglese, Francese etc. di 
+premettere lunghissime prefazioni —</p>
+               <p>e volendo all'uso moderno conciliare anche gl'interessi dell'autore, del librajo, 
+dell'editore, de' mecenati, de' lettori, de' critici, de' Revisori cortigiani politici e Teologici; e quindi 
+dovendo parlare di noi tutti affinchè ogni cosa sia antiveduta, caso che dopo la morte mia un 
+qualcheduno stimasse bene di pubblicare i miei gazzettini come opera postuma — vedo, 
+contino lettore mio;</p>
+               <p>che a potere effettuare tante necessarie mie volontà converrà ch'io discorra della 
+conversazione tenuta una mattina da certi gentiluomini al tempo di Vespasiano Cesare in 
+Roma.</p>
+               <p>Adunque ho riletto un dialogo intitolato <title>
+                     <foreign lang="lat">De causis corruptae 
+eloquentiae</foreign>
+                  </title> e vuol dire <emph>delle cagioni dell'eloquenza corrottasi</emph>. 
+Non ha nome d'autore; bensì chi lo scriveva asserisce — «ch'essendo giovine aveva 
+udito la conversazione di que' gentiluomini; e che poi la narrò e la pubblicò dopo molti 
+anni». Forse quand'era già in età da paragonare con l'esperienza propria le opinioni che 
+aveva ascoltato — e dopo d'avere per rispetto al mondo, a' suoi maestri, ed a sè dato lo 
+studio ed il tempo, necessarj ad esporre con facondia, con grazia e con ordine in un brevissimo 
+opuscolo lo stato dell'eloquenza forense letteraria e politica di quell'età. Vero è &lt;che&gt; il 
+leggere in villa un volume al giorno di romanzi, di viaggi, di opere scientifiche e periodiche, oltre le 
+gazzette e le lettere de' pettegoli, allora non era obbligo di moda. I lettori sapendo che l'autore aveva 
+speso cinque anni a comporre un libretto, stimavano obbligo d'equità di spendere un po' più di 
+cinque minuti ad intenderlo. Credo che anche i romani leggessero per fuggire la noja; ma forse ch'ei 
+non trovavano l'inerzia la quale intorpidisce ciascheduno di noi in una agiata poltrona
+
+<quote rend="block">
+                     <lg>
+                        <l>Come l'uom che non dorme e non è desto</l>
+                     </lg>
+                  </quote>
+
+con un libro alla mano. Fors'anche gli autori non si speravano gloria da' libri da pubblicarsi ogni 
+anno nel mese che il bel mondo torna in città — libri ottimi da scartabellarsi nella mezz'ora 
+fra la colazione e la passeggiata, per dissertarne a tavola dopo le frutta, e poi rilegarli ad addobbare 
+la sala della biblioteca — mode accolte più qui che in Italia. Tuttavia le sono meno ridicole e 
+meno, assai meno, dannose e spregievoli dei caffè di Venezia, delle visite de' firentini, e de' sbadigli 
+del casino de' nobili di Milano, — usi che con altri parecchj nella nostra patria sono celebrati 
+in ogni città dalla mattina alla sera.</p>
+               <p>Per altro gli antichi non avevano l'opportunità della stampa.</p>
+               <p>Frattanto i Tedeschi seggono con la pipa in bocca, con la bottiglia a lato e la penna in 
+mano e le Antichità di Grevio e Gronovio davanti gl'occhi a comporre e pubblicare ogni mese de' 
+volumi in latino moderno conditi di greco e di dottissime villanie onde appurare le faccende 
+dell'antichità — e questa fra l'altre: se il giovane che ascoltava quel <emph>dialogo su 
+l'eloquenza corrottasi</emph> fosse Tacito che a que' giorni aveva da quindici in sedici anni, o 
+Quintiliano che era allora intorno a' trentuno. Una signorina delle erudite di Londra, voleva stendere 
+un articolo di Giornale a provare che nè l'uno nè l'altro potea dirsi giovine. La ho dissuasa 
+dimostrandole come anzi che placare i combattenti, gli avrebbe provocati tutti contro di sè. Sapete 
+pure, Contino lettore che quando la guerra è di <foreign lang="fra">bon ton</foreign> il più 
+acconcio espediente è il ferirsi alla cieca. Però voi in platea dell'Opera e ne' palchetti unite la vostra 
+voce all'orchestra e a' cantanti; altercando con improperi e clamori in difesa della fama della vostra 
+Dama e intanto lacerate la fama del vostro avversario e la vostra e le orecchie dell'uditorio 
+— ma è lite di moda; e dovete dissimulare che il miglior partito per l'onore della vostra 
+dama è il silenzio. Su di che citerò l'autorità del cavaliere Guido Castiglione vostro concittadino il 
+quale tre anni addietro in quella sua novella famosa scriveva:
+
+<quote rend="block">
+                     <lg>
+                        <l>Noi siamo cavalieri e siam guerrieri</l>
+                        <l>E ci facciam dipingere a cavallo</l>
+                        <l>E combattiam a grida e vituperi</l>
+                        <l>Che per nostra fortuna sono veri:</l>
+                        <l>Così fuor de' pericoli di Marte</l>
+                        <l>Mangiam beviam dormiamo fuor di pene</l>
+                        <l>Ed ogni re ci lascierà da parte</l>
+                        <l>Come incapaci di servirlo bene.</l>
+                     </lg>
+                  </quote>
+
+E così ogni uomo è nato o ad affaticarsi dì e notte per vivere in pace con sè o a vivere per inquietar 
+gli altri. Tutti aspiriamo sì ardentemente al riposo appunto perchè non possiam mai 
+conseguirlo.</p>
+            </div2>
+            <div2 n="N. IV">
+               <head>Gazz IV Adulatori antichi e moderni</head>
+               <epigraph>
+                  <lg lang="lat">
+                     <l>admonitaeque tument gustato sanguine fauces</l>
+                     <l>fervet et a trepido vix abstinet ira magistro</l>
+                  </lg>
+                  <bibl>Lucani Ph. IV</bibl>
+               </epigraph>
+               <argument>
+                  <p>Notizie Gaz: Continua la Prefazione — Maestri di rettorica — 
+Adulazioni di varii secoli e popoli — Poeti laureati, Cesarei, Istoriografi 
+—</p>
+               </argument>
+               <p>Onde se taluno m'inquietasse pur tanto stringendomi a far merito quel Dialogo a Q. o ad T., 
+nominerei forse Tacito; da che vedo che in quella conversazione il guasto della eloquenza viene 
+imputato alla schiavitù del popolo, alla tirannide de' Cesari, alle adulazioni de' poeti e maestri di 
+rettorica, e a' cortigiani che a' que' giorni erano spie. Vero è che Quintiliano nel suo gran libro 
+sull'arte oratoria predica paternamente molti precetti santissimi di morale. Non di meno in quel libro 
+parlando del Padre Inquisitore carnefice Domiziano lo chiama <hi rend="italic">Censore 
+Santissimo de' costumi ed in tutto, e nelle lettere, Eminentissimo</hi>. Ed era in fatti censore 
+santissimo. Seppe come innanzi ch'ei fosse nato, Calpurnia, Vestale Massima era stata in giovinezza 
+accusata di violata verginità, ed assoluta da' giudici. Ei fece rivedere il processo, e condannarla 
+vecchia, secondo le antiche leggi, a un supplizio rarissimo in Roma. Così da censore fe' non solo 
+rinfrescare le leggi, ma andò a vederle eseguire; e vide una Vestale sepolta viva.</p>
+               <p>Queste cose, Contino lettore mio, non andrebbero dette. Sento ch'io contamino voi e me 
+e le care donne che forse un dì leggeranno i miei gazzettini. E imiterei gl'Illustratori di Quintiliano 
+che le hanno tacciute. Se non che i Frati maestri in Italia vi dicevano — e vi diranno 
+— che Quintiliano per la sua gran virtù d'insegnare rettorica — e intendevano anche 
+di sè — meritò da Flavio Domiziano Cesare il Consolato, e presiedeva in Senato a' degeneri 
+— e qui intendevano anche di voi — pronipoti de' Scipioni, de' Pompei e de' Catoni. 
+E perciò ho voluto anch'io povero d'erudizione come pur sono, mettere un obolo nel capitale delle 
+scuole d'Italia — e per notare a discolpa di Quintiliano che quegli elogi agli Imperadori 
+erano richiesti per moda decretata dal Senato Romano.</p>
+               <p>In fatti i titoli di <emph>Massimo</emph> — e di <emph>Giove</emph>, 
+— e di <emph>Astro che splendeva d'eterna luce</emph> e che i nostri poeti e professori 
+d'università davano ad usura a Napoleone, erano tolti da essi a prestito gratuito da' registri e 
+<foreign lang="lat">Senatus consulti</foreign> dei Senatori del Regno d'Italia. Questo <foreign lang="fra">bon ton</foreign> ricominciava dalla discesa di Carlo VIII, e fu poi raffinato fra noi da' 
+Padri Gesuiti, e ultimamente fu sublimato oltre ogni credere dal Senato Conservatore di Francia. Ma 
+in Francia l'adulazione pare meno affettata, perchè è abbellita dalla amenità di que' letterati e dal 
+garbo della loro lingua — inoltre è naturale e richiesta dall'indole del popolo che è 
+vivacissimo, però alla tardità della ragione, antepone la prontezza della forza e della fortuna 
+— e crede di buona fede che il più forte e il più fortunato sia per quel giorno il più savio e 
+benemerito della patria. E senza dire degli onori ottenuti con astuta violenza da Robespierre 
+abbiamo lettere da alcuni individui che gli scrivono spontanei. E ognuno, per una delle tante 
+incoerenze umane crede d'essere meritamente lodato, e intanto gode d'avere costretto gli uomini ad 
+avvilirsi ad esagerare le lodi.</p>
+               <p>In Inghilterra il carattere del popolo è assai più grave e calcolatore ed ha pazienza da 
+aspettare che la ragione cammini del pari con la forza. Da Cromwello in poi gli oratori politici e i 
+giudici furono spesso sedotti; ma nè i Parlamenti, nè i Tribunali si sono mai lasciati atterrire. Il Re 
+sceglie per lusso di corte un poeta intitolandolo <emph>laureato</emph>, — e in Vienna 
+&lt;hanno&gt; titolo di <emph>Cesareo</emph>, ed sono di nazione Italiani, e scrittor&lt;i&gt; 
+&lt;d'&gt; opere buffe da cantarsi da Eunuchi in abiti da donna; in Francia Luigi XIV che non 
+voleva adulazioni poetiche lo intitolava <emph>Istoriografo</emph>; — dato da 
+Napoleone, a dì nostri in Italia, a Vincenzo Monti perchè scrivesse il Bardo della Selva Nera 
+[...] Qui per altro i versi non fruttano dignità nè ricche pensioni. Dryden fu l'ultimo 
+celebre ingegno poeta di re e adulatore smaccato. Pope che era in tutto della scuola d'Orazio e di 
+Boileau si professava &lt;di&gt; vita &lt;e&gt; d'anima libere; e le sue adulazioni meritavano fede 
+de' lettori e gratitudine de' mecenati.</p>
+               <p>Onde è da credere ch'abbia avuto moltissimi imitatori. Young fulminava la Corte il 
+Ministero e i vizi dell'opulenza; e adulava ad uno ad uno i cortiggiani, i Ministri e gl'individui 
+ricchissimi e non fu bene accolto. Il che è prova che i Moralisti malinconici per sistema, possono 
+essere ipocriti fortunati in chiesa e con noi popolo di lettori; ma in corte bisogna maschera più 
+disinvolta. Queste notizie intorno agli scrittori Inglesi le ho per vere, da che le intesi da tale che ama 
+la patria sua e ne ha studiata la Storia: ma io non so della inglese Letteratura tanto da dire
+
+<quote rend="block">
+                     <lg>
+                        <l>
+                           <foreign lang="lat">Queaque ego miserrima vidi</foreign>
+                        </l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>Bensì <foreign lang="fra">del bon ton</foreign> adulatorio della Repubblica Letteraria, 
+e dell'ingegno e dell'animo de poeti e antichi e miei contemporanei in Italia, ho già scritto più di 
+proposito altrove. Per ora finirò questa prima parte del mio Commento sul Dialogo de' gentiluomini 
+Romani col seguente paragrafo.</p>
+               <p>Dico dunque che anche alle altere e forti anime intravvengono spesso o necessità, o 
+capricci, o incontri non prevveduti da costituirsi adulatori &lt;ed&gt; infamarsi: Lucano adulò 
+Nerone in un poema scritto contro la fortuna de' Cesari; accusò sua Madre, e poche &lt;ore&gt; 
+dopo morì da forte. L'Alfieri per moto d'istantanea vanità esibì a Papa Pio VI la dedica d'una 
+Tragedia; e fu fortunato che il Pontefice la ricusò. Su di che vedi le riflessioni leali di quel poeta 
+nella vita ch'ei scrisse di sè. E però il letterato che ha animo ed onore non deve mai per generosità 
+compiacere nemmen con parole modeste una dramma di lodi a' governi. Nè deve mai per pietà 
+compiacere al misero popolo nè querele, nè satire tali ch'ei possa applicare al suo principe. Perchè 
+mentre tu credi di dargli qualche conforto a sfogarsi, gli esacerberai le tre malattie popolari; la 
+credulità, la malignità e la calunnia. Le satire e le adulazioni ubbriacano e assetano la plebe ed i 
+principi, in guisa che n'ardono[?] sempre più, e ne chiedono maggiori, e più forti. 
+Sarai quindi odiato e sprezzato dagli uni e dagli altri — e se t'attieni a un solo dovrai 
+vendergli onore &lt;e&gt; anima. Il custode che si lasciava lambire la mano dal leone lo allettò a 
+fiutare il sapore del sangue e la fiera divorò l'uomo. Bada dunque a far l'arte tua che sta tutta a 
+destare or per mezzo del riso ed or per mezzo del pianto generose passioni negli uomini, affinchè 
+sentano d'essere mortali, e s'innamorino dell'onestà. E quanto ai meriti de' Principi e alle miserie de' 
+popoli lasciale in cura alla storia alle leggi ed al cielo.</p>
+            </div2>
+            <div2 n="N. V">
+               <head>N V</head>
+               <epigraph>
+                  <p>
+                     <foreign lang="lat">Quam multa ioca solent esse quae prolata si sint inepta esse videantur? 
+quam multa seria, neque tamen ullo modo divulganda? —, ne convivalium fabularum 
+simplicitas in crimen</foreign>
+                  </p>
+                  <bibl>Cicero Philip II. 2 Tacit. Ann. VI. 5.</bibl>
+               </epigraph>
+               <p>[...] anni — ed oltre alle poche Poesie liriche degne di quel nobile 
+ingegno, l'Editore ammassò scartafacci e minute; così in vece di due schietti pubblicò cinque grossi 
+volumi — con cura e disinteresse a dire vero; tuttavia con poca pietà verso le ceneri del 
+Parini.</p>
+               <p>Altri raccolgono le lettere, i biglietti, e i Polizzini de' morti; e irritano e svelano i secreti 
+dei vivi. Sì fatti documenti ed aneddoti non sono innocui che dopo la seconda o terza generazione 
+ed allora possono anche dar lume alla storia de' costumi cangiati col tempo. Eppur Tacito si scusa se 
+per debito d'annalista narra fatti domestici di personaggi de' quali ancora vivevano i figli o i nipoti; 
+e talor li dissimula. Aggiungete, Contino lettore che così non avremo più lettere leggibili d'uomini 
+dotti. Scritte a penna andante sono per essi come per noi facilissima cosa; e piacevole anche alla 
+posterità. Ma a studiarle bisogna più lavoro che a comporre un trattato e le riescono peggior mente 
+nojose. Perchè quando i letterati prevedono che un loro biglietto alla lor innamorata sarà per essere 
+aggiunto alla serie delle loro opere, lo scrivono appunto come Plinio e Voiture.</p>
+               <p>Pur queste le sono doglianze vanissime. Fu chi con più diritto ed autorità le faceva 
+cent'anni addietro; ma oggimai l'abuso è ridotto a moda. Onde io vorrei adattarmivi, anche per 
+cortesia verso a *** Padova e *** Mantova. Se non che avendo io rilette le poche lettere ch'io ho 
+del C*** dell'A*** e del B*** non ho mai trovato indizio che essi scrivendo a me abbiano avuto il 
+pensiero alla posterità.</p>
+            </div2>
+            <div2 n="N. VI">
+               <head>Gazzett. N VI Origine de gazzettini — scrittori pettegoli — La Harpe 
+— Giuramenti [?]</head>
+               <p>Ora dirò che dal dialogo di quei gentiluomini Romani apparisce che allora fosse <foreign lang="fra">bon ton</foreign> di scrivere a periodi rapidissimi e poco sonanti, a sentenze acute più 
+che taglienti e a ragioni più profonde che splendide; e ad antitesi come queste mie. Sono molte le 
+cause di sì fatto stile: nè so se dopo tante disquisizioni le abbiamo vedute tutte; ma la principale a 
+me pare che provenisse dalla tirannide. Gl'ingegni erano ancora Romani e volendo pure farsi 
+intendere erano necessitati a lasciare che i lettori li indovinassero. Il bisogno creò in Roma la moda 
+della brevità misteriosa e la moda precipitò come avviene pur sempre in caricatura. Cosicchè un di 
+que' gentiluomini deride le lungaggini di Cicerone. Ma chi parla al popolo non può ripetere una 
+verità tanto che basti. Però gl'inglesi d'oggi sono per lo più scrittori chiarissimi. Credo che il modo 
+di Cicerone dimandi troppo tempo a chi legge e il modo di Tacito troppo studio a chi scrive. Io gli 
+ammiro come maestri; ma volendo stare a tu per tu con amici piglio i libri de' Firentini del 1300 che 
+come Filippo di Commines dicevano le loro ragioni schiettissimi, e senza lussureggiare o condensar 
+di parole, nè sapevano ancora cosa fosse in letteratura il <foreign lang="fra">bon ton</foreign>. I 
+Greci conciliavano il <foreign lang="fra">bon ton</foreign> e la semplicità, se non che — 
+fossero o no divoti — non parlavano nè scrivevano quasi mai che non nominassero quelle 
+loro Deità. Or giacchè abbiamo ozio, poniamo che taluno d'essi di mezzo ingegno avesse pigliato a 
+scrivervi il Gazzettino, ei v'avrebbe ne' primi tre capitoli fatto una cosa sola dell'epigrafe, della 
+dedicatoria, della prefazione, incominciando, per esempio così.</p>
+               <p>Capo I. Uno de' Poeti antichissimi narra come Venere sorgendo dal Talamo di Anchise 
+sentì ch'era Dea e se ne dolse. E non tanto d'essersi fatta sposa a un mortale, quanto della vecchiaja 
+dalla quale l'amante suo sarebbe stato un dì deformato. E rimiravalo afflitta e diceva:
+
+<quote rend="block">
+                     <lg>
+                        <l>Ahi! coglierà te pur la vecchia etade</l>
+                        <l>Egra, pensosa, che con l'ali pronte</l>
+                        <l>Gli uomini incalza e in odio anche al ciel cade</l>
+                     </lg>
+                  </quote>
+
+e baciatolo sospirando, risalì al Cielo. Nè venne più al letto di Anchise. Il quale raggiunto dalla 
+velocissima età, consolavasi della immagine che avea pur sempre in cuore bellissima della Dea. 
+Adoravala ringraziandola del non essere tornata più a lui; dacchè trovandolo sì rugoso essa 
+l'avrebbe avuto a schifo e fuggitolo senza lasciargli nella memoria nè la gratitudine per que' sospiri, 
+nè la soavità dell'ultimo bacio.</p>
+               <p>Capo II. Or io rileggendo questi ed altri poeti consiglieri miei sapientissimi ed ilari, ho 
+detto a me e dirò a te pure — amico mio, e un dì compagno gratissimo della mia gioventù 
+— che oggimai siamo prossimi agli anni quaranta. Starà bene a pigliare commiato dalle 
+belle e graziose giovani, or quando nol daranno forse mal volentieri e con affettuose parole. Bensì 
+fra non molto le moveremmo a fredda pietà; poscia a riso; e per ultimo a noja. E a non essere più 
+seguitate e rattristate da noi, ci chiuderebbero a chiave come dicono che l'Aurora pur faccia ogni dì 
+con Titone decrepito:
+
+<quote rend="block">
+                     <lg>
+                        <l>Fugge, nè obblia di chiudere la soglia</l>
+                        <l>Ed ei un suon lungo lamentevol manda</l>
+                        <l>E di gioja e di vigor tutto si spoglia.</l>
+                     </lg>
+                  </quote>
+
+Or a confortare al doloroso commiato ho raccolto nella mia memoria e registrerò in questo 
+volumetto che intitolo a te, amico mio, le nuove folie care e vaghe ne' giovani, ma disdicenti all'età 
+matura appunto come le rose su la calvizie.</p>
+               <p>Capo III. Adunque innanzi d'incominciare mi traggo di capo la ghirlanda di Rose, e 
+invocherò te Venere e Amore; e voi Grazie, e le Ninfe seguaci vostre, fuggitive da' Satiri; e te Ebe 
+la giovinissima fra le Dive; — e appendo al vostro altare la Corona. Sono Rose vostre: voi 
+me le avete date a Boccioli rugiadose, ed ecco ve le rendo a fiori spiegati ma pur ancora fragranti, e 
+non foss'altro non ancor tocche da crini canuti. Fate dunque ch'io d'oggi in poi mi rallegri con la 
+ricordanza delle gioje che voi m'avete talor conceduto, ch'io rida delle folie; e ripensi alle lagrime 
+che avete accolto assai volte in sacrificio da me. Sì che io rinsavito, e perdendo i vostri io vi trovi 
+piaceri assai meno amabili ma necessari alla fredda solitudine dell'età.</p>
+               <p>Capo IV. E qui il buon greco si farebbe a narrare fattarelli e con le solite allegorie 
+predicherebbe moralità e senza mai parere filosofo. Se non che ogni Gazzettino che or empie 
+quattro facciate di questo larghissimo foglio e in questi caratteri miei minutissimi, starebbe tutto 
+chiuso nella misura di uno de' tre capitoli precedenti e per ogni capitolo avrebbe scritto per più d'un 
+mese, e parrebbe dettato in mezz'ora. Io per altro &lt;scrivo&gt; come vedete all'uso moderno e 
+prestissimo, tanto più ch'io qui tratto di mode, e continuerò per un pajo di settimane dopo le quali 
+uscirò a quanto io temo di moda.</p>
+               <p>E poi quel dar del vecchio a un amico anzi tempo non poteva essere di <foreign lang="fra">bon ton</foreign> che fra i Greci. I vecchj eleganti sono ben accolti in tutta l'Europa e 
+meglio a Parigi ove per non lasciar sedute le fanciulle che non han ballerini, ballano con brio 
+giovanile. E in Milano Don*** e Don*** etc. etc. preservano le dame dalla necessità di fidarsi a 
+servitori venali. Non so come la cosa si stia in Inghilterra; ho veduto rara volta alcuni damerini 
+sessagenarj; meno fatui de' Francesi e meno stupidi degli Italiani. Contano novellette un po' *** ed 
+un po' lunghe, e le signorine pare che s'addormentino ed ei ne ridono, e corrono in un altro canto 
+della sala a parlare di letteratura con gli uomini, nè mi sono informato più in là. Ne' paesi Svizzeri 
+non ne ho veduto che uno solo. Desinava a tavola rotonda a' Bagni di Baden d'Argovia e discorreva 
+in Tedesco per tutti noi, con parentesi d'un po' di Francese ed un po' di Tosse — 
+ragguagliando &lt;le&gt; dame &lt;di&gt; molte fresche notizie delle cose di Parigi dov'egli non 
+era mai stato, ma v'era appunto allora un suo figlio sotto ufficiale &lt;che&gt; gl'aveva mandato 
+l'ordine <foreign lang="fra">de la fleur De Lys</foreign> da parte <foreign lang="fra">de l'ancien 
+regime</foreign>. Così dicendo mostrava
+
+<quote rend="block">
+                     <lg>
+                        <l>Con mani scarne e pupillette tremule</l>
+                        <l>Tre Tabacchiere preziose e fulgide</l>
+                        <l>Fibbie ed anella e mille cose mille.</l>
+                     </lg>
+                  </quote>
+               </p>
+            </div2>
+            <div2 n="N. VII">
+               <head>N VII</head>
+               <p>Ma così chiacchierando la prefazione usurpa le materie de' gazzettini. Onde mi spiccierò a 
+darvi, Contino lettore mio, cinque o sei avvertimenti principali; e poi verrò al punto capitale; e se 
+mai me ne dimenticassi o qui o in alcuni de' seguenti numeri, come alle volte m'accade, cercatelo e 
+lo troverete sempre nell'epigrafe. Adunque avvertite</p>
+               <p>Primo. Se le mie lettere non vi capitassero, voi ricorrete per mezzo d'agenti diplomatici a 
+Governi del Continente segnatamente a * . . . . . . . . . ** Berna, da che per meno pericoli e meno 
+gravezza d'affrancatura li mando per quella strada.</p>
+            </div2>
+            <div2 n=" N. VIII">
+               <head>N VIII Il furor letterato a guerra mena. Petrarca.</head>
+               <p>Ed eccomi alla terza parte del mio discorso e alla più importante sul dialogo de' 
+gentiluomini Romani del tempo di Vespasiano. Disputavano intorno al merito degl'Oratori antichi e 
+moderni. Erano d'opinione contraria Oratori essi pure e Avvocati e peroravano in quella 
+conversazione agguerriti d'eloquenza, d'ardire, e d'ostinazione. Non di meno non si lasciano mai 
+sfuggire nè parola nè motto nè cenno, che non sia signorile; non saettano mai i difetti personali o i 
+costumi domestici o i principii politici del loro avversario; bensì le opinioni letterarie e lo stile. E si 
+offendono vicendevolmente con acuta e allegra ironia.
+
+<quote rend="block">
+                     <lg>
+                        <l>L'ironia che va all'anima condita</l>
+                        <l>D'arguto riso, e con amare lodi</l>
+                        <l>L'onesto e il vero addormentati irrita.</l>
+                     </lg>
+                  </quote>
+
+e allorchè si credono vincitori sorridono ingenuamente da far sorridere il vinto.</p>
+               <p>E tali erano le liti letterarie anche un secolo innanzi quando Attico, Cicerone e Bruto e 
+parecchi altri uomini egreggi disputavano, con opposte sentenze e con ardite risposte, intorno alla 
+Virtù, alla Giustizia, e agli Dei; ma non passavano oltre all'ironia, che fu anche l'arme di Socrate e 
+la maneggiava sì destramente da far sospettare del candore dell'anima sua. Ma egli deridendo i 
+rettori parlò con vera eloquenza; e confondendo gl'ipocriti ed i sofisti morì per la verità. Sembrami 
+che i Greci e i Romani quand'altercavano per illuminarsi l'ingegno non s'irritavano con invettive 
+colle quali quando parlavano o per la patria o per il loro partito o per il loro proprio interesse, si 
+laceravano nel Senato e nel foro. Qui nel Parlamento, a quanto io mi sappia, non s'affrontano a 
+spada dritta; ma si trafiggono obbliquamente con que' motti pungenti a' quali i Lacedemoni per 
+legge di Licurgo avvezzavansi fin da fanciulli.</p>
+               <p>Quanto agli autori, ei s'accapigliavano una volta anche qui e si scapigliavano e 
+ravvolgevano nella contesa gl'amici, i figli, e spesso la moglie e talvolta anche i parenti morti de' 
+loro avversarii. Così volendo illustrare un'iscrizione sepolcrale o una sentenza della Bibbia 
+scoprono i bassi natali o la indigenza de' loro contradditori, o le colpe de' loro congiunti — 
+Questa a me pare ferocia inumana; perchè chi sfascia negli altri sì fatte piaghe toglie a quegli 
+sfortunati la forza di tollerarle con pentimento e pudore. Per altro la è moda che da pochi anni in 
+qua va scadendo, e se pur taluni la seguono qui son cigni neri per chi ha veduto in Italia le legioni di 
+Corvi che pochi anni fa si gittavano congiurati or dalla plebe, or col Principe, or da' Patrizj e da' 
+Preti sovra le piaghe de' generosi cavalli. — Ripeto un passo da me scritto e stampato allora; 
+appunto perch'io, Contino lettore mio, qui ora la fo d'autore, e adempio al debito di citare le opere 
+mie già scritte e quanto alle altre da scriversi, io ho in pensiero di dettare quattro lettere, la prima 
+<emph>su' Duelli d'armi</emph>, la seconda <emph>su i duelli a braccia</emph>, che gl'Inglesi 
+con derivazione latina chiamano pugillisti; — la Terza, <emph>su i duelli dei 
+Galli</emph>, la quarta <emph>su i duelli di penna</emph>, e questa avrà per titolo 
+<title>Eunucomachia</title>.</p>
+               <p>Ed qui, Contino lettore, confesserò come sono stato sfidato assai volte e con fierissimi 
+assalti a duelli di penna da maestri miei concittadini e talor anche stranieri, e mi sono sempre sentito 
+vilissimo di coraggio e di forze. E però, affinchè non credessero ch'io tacendo li disprezzassi, e 
+anche per non lasciare i lettori nostri giudici in dubbio, non ho trovato ripiego se non quest'uno, di 
+far puntualmente ristampare gli stessi articoli di giornali e gazzette, epigrammi, dissertazioni, 
+censure morali e accuse politiche, pubblicate a mio lume da suddetti letterati miei concittadini o 
+stranieri e tutti maestri miei. Così ristampate senza alterare sillaba loro nè aggiungervi sillaba mia, 
+io le lasciava distribuire agli amici, nemici, a' noti ed ignoti; ed io usciva d'ogni pensiero di quella 
+faccenda. E così in nuovi incontri io farò per la gloria degli uomini dotti — per il mio dolce 
+riposo — e per amore delle vergini Muse le quali un giorno in Atene a proposito di certa 
+rissa sul merito d'Euripide e d'Eschilo dissero all'orecchio del poeta Aristofane
+
+<quote rend="block">
+                     <lg>
+                        <l>Le Fornaje son use</l>
+                        <l>a dirsi obbrobrii, e non le sante Muse.</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>Or concluderò, — e spero con equità. Considerate che que' letterati del tempo di 
+Cicerone erano Consoli, Capitani d'eserciti, Pontefici Massimi, Padri della Patria, chi uccisor di 
+Tiranni, e chi Signore del Mondo. Augusto scriveva tragedie, e non riuscendogli le bruciava; e 
+Cesare dittatore oltre a suoi commentarj pubblicò un libro di soggetti grammaticali. E quei che nel 
+Dialogo commentato fin qui disputavano intorno agli Oratori e di stile avevano per loro Clienti le 
+intere Nazioni e primeggiavano per ingegno e dignità ed opulenza. Anzi uno di loro sdegnatosi della 
+sua celebrità d'Oratore, coltivava la Poesia chiamandola la più Augusta e più santa d'ogni 
+Eloquenza. Così spesso i Romani e i greci stanchi della inutilità delle stragi e delle fatiche 
+dell'ambizione, si riparavano come ad asilo all'altare della Letteratura.
+
+<quote rend="block">
+                     <lg>
+                        <l>Ch'erba e biada in sua vita non pasce</l>
+                        <l>Ma sol d'incenso lagrime e d'amomo</l>
+                        <l>E nardo e mirra son l'ultime fasce</l>
+                     </lg>
+                  </quote>
+
+in vece dal rinascimento in qua molti autori non potendo aver nè gloria nè arte che questa 
+&lt;di&gt; scrivere e dovendo pur pascersi di Biada o d'Erba sono spesso dalla loro iniqua fortuna 
+e mal loro grado costretti a vendere satire e lodi, e guerreggiare come possono per la preda. 
+— E rarissimi sono dal Cielo dotati della magnanimità di Dante il quale dice gemendo ch'era 
+stretto dalla povertà a stendere la mano
+
+<quote rend="block">
+                     <lg>
+                        <l>E sentirsi tremar per ogni nervo.</l>
+                     </lg>
+                  </quote>
+
+E per non avvilire il suo ingegno avviliva il suo volto — E qui è tempo di finire la 
+prefazione.</p>
+            </div2>
+            <div2 n="N. II">
+               <head>N 2 Gazzettino del Bel Mondo</head>
+               <opener>
+                  <dateline>Londra Giovedì 10 luglio 1817</dateline>
+               </opener>
+               <argument>
+                  <p>Notizie — Incomincia la Prefazione e tratta principalmente del Bon ton 
+della Repubblica Letteraria — Lettori e scrittori d'oggi</p>
+               </argument>
+               <epigraph>
+                  <lg lang="lat">
+                     <l>Atque obiter leget, aut scribet, vel dormiet intus</l>
+                  </lg>
+                  <bibl>Iuvenalis Sat: III 242</bibl>
+               </epigraph>
+               <p>Volendo io, contino lettore mio, che possiate da' miei gazzettini dedurre alcune regole 
+generali le men metafisiche e le più praticabili che si possa mai del Bon ton; e perciò mi bisognerà 
+penetrare nell'erudizione recondita delle mode, si che dagli usi de' popoli, e ceti, e secoli diversi, e 
+principalmente della Repubblica Letteraria, la quale o drizza o storce tutte le teste europee, voi 
+desumiate esse regole;</p>
+               <p>e volendo però compilarvi una prefazione nella quale l'antico metodo troppo breve 
+— e anche mio — sia conciliato con la moda Italiana, Inglese, Francese etc. di 
+premettere lunghissime prefazioni;</p>
+               <p>e volendo all'uso moderno conciliare anche gl'interessi dell'autore, del librajo, dell'editore, 
+de' mecenati, de' lettori, de critici, de' revisori cortigiani, politici e teologici; e quindi dovendo 
+parlare di noi tutti, affinchè ogni cosa sia antiveduta, caso che dopo la morte mia un qualcheduno 
+stimasse ben fatto di pubblicare i miei gazzettini come opera postuma — vedo, contino 
+lettore mio;</p>
+               <p>che a potere effettuare tante necessarie mie volontà, converrà ch'io discorra della 
+conversazione tenuta una mattina da certi gentiluomini al tempo di Vespasiano Cesare in 
+Roma.</p>
+               <p>Adunque ho riletto un dialogo intitolato <title>
+                     <foreign lang="lat">De causis corruptae 
+eloquentiae</foreign>
+                  </title> e vuol dire <emph>delle cagioni dell'eloquenza corrottasi</emph>. 
+Non ha nome d'autore; bensì chi lo scrive asserisce — <hi rend="italic">ch'essendo 
+giovane, aveva udito la conversazione di que' gentiluomini; e che poi la narrò e la pubblicò dopo 
+molti anni</hi>. Forse quand'era già in età da paragonare con l'esperienza propria le opinioni che 
+aveva ascoltato — e dopo d'avere per rispetto al mondo, a' suoi maestri, ed a sè, dato lo 
+studio ed il tempo necessarj ad esporre con facondia, con grazia e con ordine in un brevissimo 
+opuscolo un quadro della eloquenza forense, letteraria, e politica di quella età.</p>
+               <p>Vero è che il leggere in villa un volume al giorno di romanzi, di viaggi, di opere 
+scientifiche e periodiche, oltre alle gazzette e alle lettere de' pettegoli, allora non era di moda. I 
+lettori sapendo che l'autore aveva speso cinque anni a comporre un libretto, stimavano obbligo 
+d'equità spendere più di cinque minuti ad intenderlo. Credo che anche i romani leggessero per 
+fuggire la noia: ma forse ch'ei non trovavano l'inerzia la quale intorpidisce ciascheduno di noi in 
+una agiata poltrona
+
+<quote rend="block">
+                     <lg>
+                        <l>Come l'huom che non dorme e non è desto</l>
+                     </lg>
+                  </quote>
+
+con un libro in mano. Fors'anche gli autori non si speravano gloria da' libri da pubblicarsi ogni anno 
+nel mese che il bel mondo torna in città — libri ottimi da scartabellarsi nella mezz'ora fra la 
+colazione e la passeggiata, per dissertarne a tavola dopo le frutta, e poi rilegarli ed addobbare la sala 
+della biblioteca; mode accolte più qui che in Italia. Tuttavia le sono meno ridicole e meno — 
+assai meno — dannose e spregievoli dei caffè di Venezia, delle visite de' fiorentini, e de' 
+sbadigli del casino de' nobili di Milano; riti che, con altri parecchi, ogni città d'Italia va celebrando 
+dalla mattina alla sera.</p>
+               <p>Per altro gli antichi non avevano l'opportunità della stampa. Inoltre descrivevano le cose 
+com'ei le vedevano, senza volerle ingrandire agli occhi de' lettori sazievoli de' quali bisogna oggi 
+adulare i capricci e la fretta. Esprimevano il senso, nè più nè meno che gli oggetti eccitavano nella 
+loro anima; ne desumevano sentenze ovvie e dirette, che sono quasi sempre le più utili e le più vere; 
+esponevano le loro idee con la sola lingua che aveano succhiata col latte; ed essendo la sola a cui 
+s'erano applicati, non potevano imbarbarirla e se ne giovavano da padroni; poi non si curavano 
+d'altro. Così diceva anche un eroe pazzo di gloria e d'amore, ma che nel resto parlava più 
+saviamente di noi<note place="foot">
+                     <p>
+                        <quote>
+                           <foreign lang="spa">Todos los Poetas 
+antiguos escrivieron en la lengua que mamaron en la leche; y no fueron a buscar las estrangeras 
+para declarar la alteza de sus conceptos</foreign>
+                        </quote> — <bibl>
+                           <title>Don 
+Quixote</title> parte II lib 5 c. 16</bibl>.</p>
+                  </note>. Oggi ogni scrittore va spaziando per la 
+storia e la letteratura di tutti i secoli scorsi, e di tutte le lingue contemporanee; la vanità mista alla 
+impossibilità ne induce a mostrare quello che non sappiamo; e gli autori studiano con noi, contino 
+lettore, le vite degli uomini grandi ne' <emph>Dizionari</emph>; le scienze, nelle 
+<emph>Enciclopedie</emph>; e la letteratura, ne' <emph>Giornali</emph> e nelle 
+<emph>Gazzette</emph> — e la è moda europea.</p>
+               <p>L'autore recente d'una storia in francese su la letteratura di varie nazioni, torna ad 
+accusare gl'Italiani come citatori di passi greci e latini <emph>da parere pedanti più degl'Inglesi e 
+poco men de' Tedeschi</emph>; e duolsi: <emph>che i Francesi non siano al tutto schietti della 
+ridicola pedanteria di citar lingue morte ne' loro libri</emph>. — Temo che nè anche quei 
+libri vogliano vivere molto. Così pur fosse che la Pedanteria facesse ridere! annoja — ma 
+l'ignoranza è pur brutta! e ove la si mariti all'Orgoglio partorisce de' mostri che movono a ribrezzo 
+ed a nausea; e hanno nome: <emph>Arroganza</emph>; <emph>Impudenza</emph>; 
+<emph>Ciarlataneria</emph> ed <emph>Impostura</emph>. Se non che la consuetudine 
+giornaliera non le lascia oggimai più distinguere dalle qualità loro contrarie, o le fa deridere come 
+accadde al vecchio Sully fra cortigiani buffoni del figlio d'Enrico IV.</p>
+               <p>Se i greci e i latini e gli scrittori d'ogni popolo antichi siano maggiori o no de' moderni, è 
+perditempo a discorrerne. Bensì ci costringono a lettura più riposata e più attenta, e però sono più 
+utili, da che avvezzano l'intelletto ad invigorire la facoltà di pensare.
+Perchè oltre alla difficoltà delle loro lingue e alla rapidità del loro stile, ogni sentenza ne' libri 
+antichi ravvolge affetti e pensieri profondi, invisibili a chi non ha occhio esercitato da rimirarli.
+
+<quote rend="block">
+                     <lg>
+                        <l>Poi anche par che la giustizia voglia,</l>
+                        <l>Dandosi il ben per premio e guiderdone</l>
+                        <l>De la fatica, che quel che n'ha voglia</l>
+                        <l>Debba esser valentuomo e non poltrone:</l>
+                        <l>Or de l'ingegno ognun la zappa pigli,</l>
+                        <l>E studi e s'affatichi e s'assotigli<note place="foot">
+                              <p>
+                                 <bibl>Berni <title>Orlando 
+Innamorato</title> lib I canto XXV st 4. 6</bibl>.</p>
+                           </note>.</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>Parmi che nel sommo della barbarie e della civiltà dei popoli, la facoltà di pensare è 
+inattiva. I barbari, per troppa intensità di passione verso pochissimi oggetti potrebbero paragonarsi 
+ai <emph>Maniaci</emph> — e noi, per troppa distrazione a infiniti capricci siam simili a 
+<emph>Fatui</emph>.</p>
+               <p>Se una donzella crea nella sua fantasia un uomo perfetto, e non vuol amar che quell'uno e lo 
+adora ne' romanzi
+
+<quote rend="block">
+                     <lg>
+                        <l>E vola sopra il ciel e giace in terra<note place="foot">
+                              <p>
+                                 <bibl>Petrarca, part. I. son 
+105</bibl>.</p>
+                           </note>
+                        </l>
+                     </lg>
+                  </quote>
+
+essa sta forse a pericolo di Mania — un'altra a cui tutti piacciono e non sa mai scegliere
+
+<quote rend="block">
+                     <lg>
+                        <l>E nulla stringe e tutto il mondo abbraccia<note place="foot">
+                              <p>
+                                 <bibl>Petrarca <hi rend="italic">ivi</hi>
+                                 </bibl>.</p>
+                           </note>
+                        </l>
+                     </lg>
+                  </quote>
+
+è un po' <emph>Fatua</emph>. Or voi crederete ch'io alluda alle graziose giovani Inglesi. 
+Guardimi il cielo! a me anzi pajono savie più che mai quand'escono d'ogni speranza di trovare 
+marito.</p>
+               <p>Notate che la <emph>Mania</emph> deriva dal troppo sentire; però è men difficile a 
+guarire; ma è malinconica. La <emph>Fatuità</emph> non ha più forze da riaversi in salute; ma 
+perchè è spensierata ed allegra piace al <emph>Bel mondo</emph>. Infatti allorchè per dismisura 
+d'incivilimento, l'incapacità di riflettere ci rimena alle sciagure della barbarie, noi siamo sì fortunati 
+da non poter avvedercene.</p>
+               <p>I selvaggi destituiti di ogni arte e tradizione non hanno riti divini. <quote>
+                     <hi rend="italic">I Fenni hanno gran ferocità, brutta povertà, non armi, non cavalli, non casa, pascono 
+erba, vestono pelli, dormono in terra</hi>
+                     <note place="foot">
+                        <p>
+                           <bibl>
+                              <foreign lang="lat">Tacit. mor Germ. sub fine</foreign>
+                           </bibl>.</p>
+                     </note>
+                  </quote> — e 
+lo storico conclude che non avevano <quote>
+                     <hi rend="italic">senso veruno di 
+religione</hi>
+                  </quote>. Noi abbiamo fin quasi l'arte del volare, e tante religioni dogmatiche, 
+filosofiche e naturali che non sappiamo oggimai a quali attenerci; viviamo ridendo e moriamo 
+tremando di tutte. Nell'età di tenebrosa ignoranza pochi violenti ed astuti tiranneggiano i molti; e 
+parimenti quando la filosofia è fatta decrepita, le sue teorie di politica perfettibilità riducono i popoli 
+a impazzare e a non poter altro che ciarlare e servire. Gli Affricani, perchè vanno celebrando la 
+Venere vaga de' bruti, vendono i loro figliuoli: in Italia il matrimonio ed il celibato sono 
+indissolubili sacramenti; e però il rafinamento della morale convertiva — e convertirà 
+— in eunuchi parecchi centinaja di fanciulli acciocchè tre o quattro d'essi riescano celebri 
+sulle scene d'Europa, cantino salmi a Dio in Vaticano, e duetti nel teatro di Roma vestiti da 
+femmine; da che in quel teatro la voce di giovani attrici sarebbe tentatrice d'amore.
+
+<quote rend="block">
+                     <lg lang="eng">
+                        <l>Some thin remains of chastity appear'd</l>
+                        <l>Ev'n under Jove, but Jove vithout a beard<note place="foot">
+                              <p>
+                                 <bibl>Dryden: ex Iuven sat. 
+VI.14</bibl>.</p>
+                           </note>.</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>È opinione comune, contino lettore, che Orfeo sia stato sbranato dalle Baccanti perchè 
+ostinavasi ad amar l'ombra della sua moglie. Ma Fanocle antico poeta, di cui non so che avanzi 
+fuorchè una bella elegia — nota a pochi e però ve ne reciterò parte — racconta come 
+Orfeo dilettavasi troppo del canto de' garzonetti, e gli sviava con la sua musica:
+
+<quote rend="block">
+                     <lg>
+                        <l>Del canto de' garzoni egli il desio</l>
+                        <l>Spirò primero alle Treicie sponde</l>
+                        <l>E i femminili amor spinse in obblio</l>
+                     </lg>
+                     <lg>
+                        <l>Perciò sol le Baccanti furibonde</l>
+                        <l>Il bel capo fer tronco e dalle estreme</l>
+                        <l>Rive il gittar agli aquiloni e all'onde</l>
+                     </lg>
+                     <lg>
+                        <l>Su la sua cetra infisso, acciò che insieme</l>
+                        <l>N'andassero amedue dalla marea</l>
+                        <l>Dispersi, e dalla azzurra onda che freme<note place="foot">
+                              <p>
+                                 <bibl>Brunch Analect. Veter. 
+poet</bibl>.</p>
+                           </note>.</l>
+                     </lg>
+                  </quote>
+
+Non me ne ricordo altro. È da dire che quella cetra e quel teschio abbiano approdato in Italia, e però
+
+<quote rend="block">
+                     <lg>
+                        <l>I sacri riti a noi prescrive Orfeo<note place="foot">
+                              <p>
+                                 <bibl>Aristoph. 
+Ranae</bibl>.</p>
+                           </note>.</l>
+                     </lg>
+                  </quote>
+
+E non si tosto viaggiamo, i forestieri che ci conoscono per popolo unicamente musico ci pregano di 
+cantare; nè pensano com'ei ci fan piangere sempre!</p>
+               <p>Meglio è parlar di letteratura. I Dervissi e i Monaci d'ogni setta i quali non hanno libro 
+se non il loro Alcorano, e parimenti i settarj d'Omero o di Dante che infuriano contro gli autori 
+d'ogni altro secolo e popolo non sono forse <emph>Maniaci</emph>? Frattanto noi correndo dietro 
+la turba tumultuosa degli scrittori viventi, combattiamo per conquistare un'infinità d'opinioni e di 
+fantasie e di novità, finchè ciascheduno di noi volendole afferrar tutte quante, si stanca s'annoja di 
+tutte e cade smemorato sul campo di battaglia del <emph>Pirronismo</emph>. Ma l'uomo ha 
+bisogno di appoggiarsi ad alcuna opinione: e chi è in istato d'imbecillità fida al soccorso de' 
+ciarlatani che allora vengono ad offerire sistemi miracolosi.</p>
+               <p>Adunque è da presumersi meno barbaro quel <emph>Bel mondo</emph> popolato da 
+scrittori e lettori i quali, studiando i pochi grandi esemplari d'ogni generazione fino alla nostra, 
+possono educarsi a pensare e quindi a scansare gli inconvenienti della <emph>Mania</emph> e 
+della <emph>Fatuità</emph>: perchè credo che imparerebbero tre cose essenziali. L'una: <hi rend="italic">le poche utili verità vedute e ripetute da tutti i grandi ingegni</hi>; e n'emergerebbe 
+l'idea generale del Vero. L'altra: <hi rend="italic">in che modi diversi ciascheduno d'essi le abbia 
+sentite meditate ed espresse</hi>; e n'emergerebbe l'idea generale del <emph>Bello</emph> 
+— Finalmente <emph>come i nostri contemporanei sappiano applicare ne' loro scritti queste 
+idee generali di filosofia e di stile</emph>; e desumerebbesi un'idea men incerta sul 
+<emph>Gusto</emph>. Pare a me che il <emph>Gusto</emph> consista nel dare a ciò che è 
+naturalmente <emph>Vero</emph> e <emph>Bello</emph> le forme accidentali confacenti a modi 
+di pensare e di vivere de' dì nostri. Questa opinione, vera o falsa che sia, l'applicherò in tutti i miei 
+gazzettini anche dove discorrerò delle <emph>Mode</emph> di farsi il cappio al fazzoletto da collo 
+e i ricci delle ciocche. Abbiatela a mente per allora:
+
+<quote rend="block">
+                     <lg>
+                        <l>Il ridir il già detto è una morte.</l>
+                     </lg>
+                  </quote>
+               </p>
+            </div2>
+            <div2 n="N">
+               <head>N Gazzettino del Bel Mondo</head>
+               <opener>Londra</opener>
+               <argument>
+                  <p>Notizie — Continua la Prefazione — Nuovo Metodo di Biografia 
+— Editori di scartafacci e di lettere postume — Origine de' Gazzettini — 
+Spie letterarie.</p>
+               </argument>
+               <epigraph>
+                  <p>
+                     <foreign lang="lat">Quam multa ioca solent esse, quae, prolata si sint, inepta esse videantur? 
+quam multa seria neque tamen ullo modo divulganda? — ne convivalium Fabularum 
+simplicitas in crimen</foreign>
+                  </p>
+                  <bibl>Cicero philip. II. 2. — Tacitus. ann. VI. 5.</bibl>
+               </epigraph>
+               <p>Or chiunque si fosse lo scrittore di quella conversazione a' tempi di Vespasiano, è pur 
+certo ch'egli era valentuomo, gentiluomo, e galantuomo. Perchè ei non riferisce se non quanto 
+importa alla questione, ed insieme a rappresentare i diversi caratteri de' disputanti. Non però tocca 
+mai faccende domestiche, sebbene que' personaggi fossero morti. Bensì per procacciarsi la fede de' 
+lettori, gli avverte: <quote>
+                     <hi rend="italic">Quegli ingegni erano de' più rinomati di Roma. Io li 
+corteggiava in pubblico e nelle loro case, ascoltandoli avidissimo d'imparare; anzi per ardor 
+giovanile io mi stava sempre in orecchi, e se altercavano o novellavano, e s'anche discorrevano 
+secretissimi</hi>
+                  </quote> — In latino ha più decoro e più grazia: <quote>
+                     <foreign lang="lat">Celeberrima tum ingenia . . . quos ego domi quoque et in publico assectabar, mira 
+studiorum cupiditate, et quodam ardore iuvenili, ut fabula quoque eorum, et disputationes et arcana 
+semotae dictionis penitus exciperem</foreign>
+                  </quote>. Ma non ne riparla.</p>
+               <p>E questa, parmi, sarebbe stata epigrafe acconcia alla vita di <emph>Johnson</emph> 
+compilata da <emph>J. Boswell</emph>. In vece ei scelse que' versi un po' troppo noti:
+
+<quote rend="block">
+                     <lg lang="lat">
+                        <l>— Quo fit ut omnis</l>
+                        <l>Votiva pateat veluti descripta tabella</l>
+                        <l>Vita senis.</l>
+                     </lg>
+                  </quote>
+                  <hi rend="italic">Così la vita del vecchio manifestasi quasi in un quadro appeso in voto</hi>. Ma il 
+vecchio Lucilio, di cui Orazio qui parla, svelava le proprie faccende da sè. Invece J. Boswell 
+piaggiando, convitando, irritando il Dr. Johnson, visitandolo a tutte ore; accompagnandolo in tutte 
+le case lo induceva a chiacchiere e registravale in un diario che poi stampò in due grossi volumi in 
+quarto; letti da tutti, e lodati da molti. Gl'Inglesi per motivi che indagherò forse altrove sono curiosi 
+di pettegolezzi stampati. Senofonte scrisse con pari metodo la vita di Socrate calunniato di avere 
+pervertito con le sue parole le menti de' giovani. Era dunque cosa utile alla verità, e necessaria alla 
+repubblica che i detti e i fatti famigliari di quel giusto fossero palesi ad ogni uomo. Non paragonerò 
+il Dr. Johnson con Socrate; imiterei il sacrilegio di San Giustino martire, che nomina il Vangelo col 
+titolo del libro di Senofonte. Bensì il diario di Boswell scioglie l'accusa data all'autore greco d'avere 
+inventati o alterati que' discorsi; perchè il tenerne esatto ricordo pare a molti cosa difficile. Per altro 
+Senofonte non riferisce se non le azioni ed i dialoghi <emph>memorabili</emph>.</p>
+               <p>Le vite degli egregi mortali pennellegiate a tratti giganteschi ed eroici, fanno parere le 
+umane virtù o non credibili o non imitabili. Dall'altra parte le arguzie i sofismi le inezie degli 
+uomini maggiori di noi ci allettano a dilettarci delle altrui e delle nostre. Onde mi pare che gli 
+antichi scrittori fossero più savj anche in questo; e mostravano i loro personaggi quanto bastava a 
+compiangerli, ad ammirarli e a darne fiducia di poterli emulare.</p>
+               <p>A chi mi volesse togliere i pochi libri di biografia moderna a me noti, e non lasciarmene 
+che uno solo, forse che mi terrei il libro di Boswell. Certo è che da tanti minimi detti e accidenti 
+della lunga vita d'un uomo celebre e degli ingegni suoi contemporanei, spremo più sostanza di 
+storia letteraria, che non da tutto il <foreign lang="fra">Bell'esprit</foreign> degli elogi di 
+Fontenelle, o dalle date e giudizj pregiudicati del Tiraboschi. Scrissi anni fa <hi rend="italic">che 
+le vite de' letterati non possono esser mai onestamente narrate da Accademici nè da Frati</hi>: a 
+quali or aggiungerò: <hi rend="italic">anche i discepoli adoratori de' loro maestri</hi>.
+
+<quote rend="block">
+                     <lg lang="lat">
+                        <l>— Vetabo qui Cereris sacrum</l>
+                        <l>Volgarit arcanae, sub iisdem</l>
+                        <l>Sit travibus fragilemve mecum</l>
+                        <l>Solvat phaselon.</l>
+                     </lg>
+                  </quote>
+
+e vuol dire <hi rend="italic">guardimi il Cielo ch'io alberghi mai sotto le stesse travi o mi fidi al 
+mare nella stessa barca con chi divolga la sacra religione del secreto</hi>.</p>
+               <p>Per altro Boswell è discolpato da che m'accerta che Johnson era consapevole di quel 
+diario. Or Boswell non fu egli fanciullesco ministro della puerile vanità d'un gran letterato? E quel 
+letterato non era egli, appunto per questo, sempre agguerrito ne' suoi dialoghi, a contrastare più per 
+la vittoria che per la verità? E il lettore, a cui si promette la pittura della vita d'un vecchio fatta con 
+tal religione da esser appesa in voto agli altari, non è egli ingannato se il libro è alle volte un 
+registro d'oracoli meditati? — ma, e gli ospiti e gli amici di Johnson e tutti gli altri che per 
+caso discorrevano seco, avevano essi dato forse licenza a Boswell di stampare le loro parole e 
+spesso anche le loro faccende, e mostrarli vinti e legati dietro al carro del dittatore? Eppure è trionfo 
+che fa deplorare quel misero eroe condotto a spettacolo dall'amico a combattere fra le mense.</p>
+               <p>La stanza d'un vecchio letterato è poco dissimile dalla corte, ove l'Invidia v'entra 
+invisibile e siede ed esplora e interroga e accusa pietosamente. Credo che Boswell fosse d'animo 
+ingenuo e forse tanto da non avvedersi che l'emulazione co' suoi condiscepoli lo rendeva alle volte 
+maligno. Johnson era religioso ma non senza superstizione, ed intolleranza contro gl'increduli, e 
+ogni discrepanza nelle massime teologiche era per lui ragione bastante d'inimicizia. Favoriva 
+Goldsmith, bellissimo ingegno in assai povero stato. Boswell per propria confessione si costituì 
+delatore — <quote>
+                     <hi rend="italic">Anno 1773. 9 Aprile venerdì santo. — fui in 
+chiesa col Dottore la mattina, e la sera; non abbiam desinato; egli digiunando lesse il Nuovo 
+Testamento — io gli dissi che giorni innanzi Goldsmith m'aveva detto; « Come io 
+piglio scarpe dal calzolajo e il mantello dal mio sartore, così piglio la mia religione dal 
+Prete»</hi>
+                  </quote> . Non so s'era giorno e occasione da ridire ad un vecchio che 
+digiunava si fatte cose. — Dante danna presso al centro dell'inferno le anime di coloro che 
+dividono con zizanie gli amici. Ma io, che avendo assai meno diritti devo avere più indulgenza, mi 
+contenterò, lettore mio, di raccomandarvi a non fidar mai nelle testimonianze degli scolari in favore 
+de' loro maestri e contro i lor condiscepoli.</p>
+               <p>Bensì da che la è moda Inglese farete egregiamente a provvedervi di sì fatti libri 
+stranieri; tanto più che in Italia, a quanto io so, non ne abbiamo. Così parlerete in conversazione non 
+solo di Metafisica e di Politica ma ben anche di Biografia; e col testo alla mano avrete il piacere di 
+mostrare la dottrina, l'ingegno e le virtù immiserite e notomizzate in guisa da movere a scherno. Pur 
+questi miei contro il libro di Boswell sono forse cavilli. Ad ogni modo gli ho scritti — e 
+spettano al <foreign lang="fra">Bon ton</foreign> della Repubblica Letteraria — onde ne 
+aggiungerò parecchi altri.</p>
+               <p>Perchè oggi è costume nostro ed Inglese che non sì tosto un uomo letterato chiude per 
+sempre gli occhi co' quali esaminava i suoi scartafacci, nè stimatili finiti, nè da pubblicarsi 
+— gli amici e gli eredi li stampano e sotterrano col morto una parte della sua fama.</p>
+               <p>Altri raccolgono le lettere, i biglietti, i polizzini dei morti, e manifestano i secreti dei 
+vivi. Sì fatti documenti non sono innocui che alla terza o quarta generazione; e allora possono anche 
+dar lume alla storia de' costumi cangiati col tempo. Tacito si scusa se per debito d'annalista tocca 
+fatti di famiglie delle quali non era ancora spenta la discendenza, e talor li dissimula. Le lettere de' 
+grandi mortali, vissuti come Cicerone, in supreme magistrature e in età di politiche agitazioni sono 
+degne di chi le scrive e necessarie a' contemporanei ed a' posteri. Plinio il giovine che in altri tempi 
+e con ben altro ingegno affettava d'imitare Cicerone, pubblicò dieci libri di lettere nelle quali a me 
+pare il più da bene e il più fatuo fra gli uomini e il più meschino fra gli scrittori Romani. Lord 
+Orrery le illustrò in guisa da farmi parere ridicolo anche il commentatore.</p>
+               <p>Del resto sta nell'arbitrio d'ogni uomo di pubblicar le sue lettere per farsi ridicolo; e da 
+che non v'è tribunale contro la violazione del secreto, io non accuserò chi stampa le altrui. 
+Rincrescemi che non avremo più lettere leggibili d'uomini dotti. Scritte a penna andante sono per 
+essi come per noi facilissima cosa; e grata anche a lettori. Ma a studiarle bisogna più lavoro che a 
+comporre un trattato, e le riescono peggiormente nojose.</p>
+               <p>Perchè quando i letterati prevvedono che un loro biglietto alla lor innamorata sarà per 
+essere aggiunto alla serie delle lor opere, lo scrivono appunto con lo stile di Plinio e di Voiture. Ma 
+da che l'abuso è ridotto a moda io vorrei pure adattarmivi; anche per cortesia verso a *** Padova e 
+*** Mantova. Se non che avendo rilette le poche lettere ch'io ho del C*** dell'A*** e del B*** non 
+ho mai trovato indizio che essi scrivendo a me, abbiano avuto pensiero alla posterità.</p>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

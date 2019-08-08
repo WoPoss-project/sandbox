@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2> 
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Breve trattato dell'oratore</title>
+      <author>Giason Denores</author>
+    </titleStmt>
+    <extent>81 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000178</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Trattati di poetica e retorica del Cinquecento</title>
+        <title type="part">v.</title>
+        <editor id="ed">Weinberg, Bernard</editor>
+        <publisher>Laterza</publisher>
+        <pubPlace>Roma [ecc.]</pubPlace>
+        <date>1970-1974</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="codice">italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>808.009031 - RETORICA E RACCOLTE</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Digitalizzazione - OCR</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-02-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Daniele Silvi</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-03-07T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader> 
+<text> 
+<front> 
+<div1 type="prefazione"> 
+<head>PROEMIO</head> 
+<p>Quantunque l'arte del dire, nobilissimi e valorosissimi giovani, grandemente
+si convenga a ciascuno, è nondimeno, per mio aviso, a coloro massimamente
+richiesta che legitimamente i populi e le città hanno occasione di regere e di
+governare. Imperò che, sì come essi procurano con ogni diligenzia d'indrizzar a
+perfettissimo fine tutti quegli che sotto la loro iurisdizione si ritrovano,
+così deono, anco più presto con persuasioni et esortazioni, quando possono, che
+con pene o con crudeltà indurgli a conseguirlo. Per la qual cosa, essendo a voi
+per divina providenzia conceduto di nascere in una così gloriosa republica e di
+avere maggioranza e signoria, vi si richiede ancora di possedere quella virtù
+che per infinite cagioni molto più a voi, che a coloro che non sono possenti di
+pervenire a così onorato grado di dignità, pare che si debbia appartenere,
+maggiormente convenendovisi di sopravanzargli nell'eloquenza che nelle ricche e
+preciose vestimenta. Perciò che quella, dirittamente esercitata, rende l'animo
+più riguardevole, e queste adornano solamente il corpo, il quale gli è tanto
+inferiore quanto sono i sudditi al loro principe, i soldati al lor capitano, et
+i sentimenti all'intelletto et alla ragione.</p> 
+<p>Avendo io dunque raccolto, distintamente procedendo, questo mio trattato
+dell'oratore con tal brevità che possa commodamente recar a memoria tutta la
+sua maggior sembianza - che ampiamente viene rafigurata nelle grandissime
+imagini fatte da' suoi più illustri scrittori - e proponendomi appresentarlo a
+chi da esso ne può trar maggior frutto e giovamento, chi negherà (quantunque
+egli si sia) non molto più alla valorosissima gioventù della nobiltà viniziana
+che ad alcun altro convenirsi donare? Voi soli ne' maneggi del vostro
+prudentissimo governo avete publicamente diverse occasioni ora di accusare e
+d'intromettere come avogadori, ora di consigliare e di disconsigliare come
+senatori, ora di congratularvi, di consolare, di ringraziare come ambasciadori,
+ora di laudare i morti prìncipi della vostra patria; là dove agli altri che
+sono in qualche stato e potestà, o non tocca forse in tutti questi ufficii, o
+non così degnamente o non così spesso adoperarsi. Or divotamente offerendovi
+io, nobilissimi giovani, cotal mio dono come a voi grandemente dovuto et
+appropriato, non vi graverà, per vostra cortesia e per natural gentilezza di
+animo, di riceverlo con quella benignità che vi si richiede di dimostrar verso
+chi procura ad ogni suo potere di giovar in qualche modo a' vostri studi, e che
+essendo vivuto ne' suoi più felici anni tra i clarissimi vostri padri e
+fratelli, come servitore, desidera di ricoverarsi ancora nelle presenti sue
+avversità con tutta la sua travagliata et abbattuta famiglia fra voi nel
+sicurissimo porto del vostro gloriosissimo Imperio.</p> 
+<p>Questo mio trattato o discorso, che lo vogliam dire, vi fia non altramente
+che vi debbia essere alcuna breve descrizione del mondo, il quale essendo quasi
+in apparenza infinito et incomprensibile, si lascia egli nondimeno rinchiuder
+tutto in picciolissima forma non senza utilità e diletto de' riguardanti. Per
+tanto, se le presenti mie fatiche saranno tali che vi possano prestar qualche
+giovamento, ne sentirò somma consolazione, pensando di non aver atteso indarno
+in quel poco che per me s'è potuto a vostro utile e beneficio. E se non saranno
+elle sì fatte come alle vostre degne qualità meritamente convenirebbe,
+attribuendo ogni mancamento parte alla debolezza del mio ingegno e parte a'
+miei gravi travagli, non pur m'iscuserete appresso di voi, ma ancora averete
+pietà della mia povera et infelice fortuna. E tutto ciò ho voluto io scrivere
+più tosto in quella lingua nella quale voi e nelle private e nelle publiche
+azioni averete da spiegare i nobilissimi concetti et i prudentissimi pensieri
+del vostro animo, che in qualunque altra in cui di rado o non mai vi occorresse
+di favellare. Ma è già tempo di dar principio a quanto mi ho proposto con
+pregare prima et esortare ardentissimamente ciascuno di voi che voglia, come
+veramente si conviene a' pari vostri, prevalersi di un così onorato esercizio
+in difesa della religione, della iustizia, della verità, per la salute de'
+vostri sudditi, per la dignità e per la conservazione della vostra republica,
+la quale piaccia alla divina clemenzia di mantenere per rifugio di tutta la
+Cristianità in queste perversità de' tempi sotto la sua santissima tutella e
+protezione.</p> 
+</div1> 
+</front> 
+<body> 
+<div1 type="discorso"> 
+<p>Essendo adunque l'oratore colui il quale in ogni occorrente materia che sia
+atta ad essere spiegata con parole possa ragionar con prudenza, con
+disposizione, con ornamento e con una grave e convenevole dignità di pronunzia,
+a fine di persuadere, fa di mestieri primieramente che egli abbia piena e
+perfetta conoscenza non solamente de' luoghi degli argumenti ma eziandio di
+tutti gli affetti dell'animo, per poter illuminar le menti degli ascoltanti
+alla intelligenza della verità e per muoverle contra i malvagi ad ira, ad odio,
+ad invidia; o vero per ritirarle da queste tali perturbazioni a mansuetudine,
+ad amore, a compassione verso gli oppressi dall'altrui potenza et iniquità; né
+deve egli sprezzare la cognizion delle leggi e della ragion civile, per poter
+alle volte parlar con iudicio, con ordine, con copia di parole de' testamenti,
+dell'eredità, delle obligazioni, delle azioni, degli omicidii, de' veleni, de'
+rubamenti publici, delle ribellioni, e di molte altre cose somiglianti che ogni
+giorno gli si parano davanti. Oltre ciò gli è necessario saper ottimamente le
+istorie accadute ne' tempi passati, le quali in sé contenendo i successi delle
+consultazioni e de' varii avvenimenti, apportano grande utilità et ornamento
+alla persona dell'oratore.</p> 
+<p>Ma che dirò io di quella parte di filosofia che aspetta alla vita et a'
+costumi? la quale essendo stata sempre sua propria, se non la possederà egli
+totalmente non potrà mai riuscir grande né degno di sì importante nome. A tutte
+queste vi si aggionge la scienzia militare e de' governi de' stati, per
+disputar egli o a difesa o ad offesa di un capitano generale e per discorrer
+intorno alle cose della republica, consultando della pace, della guerra, della
+tregua, delle munizioni de' soldati, della custodia della città. Gli si
+appartiene, finalmente, aver una certa creanza degna di uomo nobile
+accompagnata con prontezza nelle risposte e con gentile avedimento nel pungere
+e nel motteggiare. Senza tutte queste parti non potrà egli con molta
+riputazione nel senato, ne' iudizii e nelle raunanze degli uomini travagliarsi,
+né perverrà mai a lode di perfetto oratore se non avrà acquistata la dottrina
+delle cose più importanti e delle più preggiate scienze e discipline. Onde a
+gran ragione non sogliono ristringer la sua professione dentro de' certi
+termini a tal che non gli sia lecito di andar vagando ovunque gli piace. Imperò
+che tutte le altre arti da se stesse si regono e si mantengono, ma questa, la
+quale consiste nel favellar dottamente con eloquenza, non è altramente
+rinchiusa dentro di alcun fine determinato di maniera che non abbia libertà di
+trascorrer anco a quei delle altre, non potendo l'oratore essere del tutto
+perfetto se non potrà ragionar di ogni cosa propostagli copiosamente e con
+varietà.</p> 
+<p>Pertanto, sono in grandissimo errore alcuni che non vogliono che sia arte
+questa facultà di ben parlare, vedendo essi ella avere iurisdizione quasi sopra
+tutte le arti. Né dovemo dar audienza a coloro che affermano comunemente noi
+essere prodotti dalla natura et a lusingar apertamente, et ad entrar
+occultamente con umiltà nell'altrui grazia, et a spaventar gli adversarii, et a
+raccontar il successo del fatto, et a confirmar le nostre ragioni, et a
+rimprovar le contrarie, et ultimamente a conchiuder o con prieghi o con
+querelle, non considerando essi l'arte essere una certa osservazione et
+imitazione della natura, mirando noi infiniti far tutto ciò parte a caso e
+senza regola, parte sempre con ordine e con avvertimento, la qual cosa non
+dovemo per alcuna maniera pensar che possa essere eseguita senza l'aiuto
+dell'arte.</p> 
+<p>Or non essendo stata da principio conosciuta a pieno questa facultà, fu
+arrichita et illustrata poi di tempo in tempo da uomini sapientissimi con
+regole e con precetti universali, per gli quali fedelmente guidati potessimo
+caminare sicuramente e felicemente nella strada dell'eloquenza. Mettendo noi,
+dunque, insieme da' più famosi scrittori quegli amaestramenti che maggiormente
+saranno degni di esser tenuti a memoria, proveremo di disegnar più
+distintamente che ne sia possibile in un brevissimo trattato il corpo di questa
+onoratissima facultà, comminciando da quelle sue parti che per natura sono le
+prime et indi seguendo alle altre, che di grado in grado per ordine
+s'appresenterano. Per la qual cosa dovemo sapere ogni disputazione essere o
+vero intorno ad una questione di cosa universale et infinita, senza alcuna
+circonstanza di persone, di tempo e di luogo (come se egli è lecito lasciar in
+vita chi per difesa di se stesso ha ucciso altrui), o vero di cosa particolare,
+finita, e terminata da alcuna circonstanza di persone, di tempo e di luogo,
+nella maniera che sono tutte le liti e differenze che occorrono ogni giorno tra
+cittadini, o laudando e vituperando, o consigliando e disconsigliando, o
+accusando e difendendo. Ma tutte le cause particolari si possono facilmente
+rivolger alle questioni generali et universali, perciò che se noi contenderemo
+in iudicio se Milone iustamente abbia ucciso Clodio per difesa della sua
+propria vita, niente appartiene la persona di Milone agli argumenti
+dell'oratore, riducendosi la questione al genere infinito, se egli si deve
+punir chi per difesa di se stesso ha ucciso altrui.</p> 
+<p>Or delle questioni così universali come particolari sono tre maniere. L'una
+è se la cosa che viene in contesa è vera o no, nella quale si procede per via
+di conietture, onde è detta conietturale. L'altra è di che natura e condizione
+ella si sia, iusta o iniusta, onde è detta iurisdiziale o ver della qualità.
+L'ultima è con che nome ella debbia esser chiamata, onde è detta deffinitiva.
+Vi sono molte altre controversie, intorno alla trasmutazione de' iudicii,
+intorno alla trasmutazione delle persone di coloro che parlano nelle cause, et
+intorno alla trasmutazione della dimanda e della querella. Et altre che nascono
+dalla intelligenza delle scritture, quando elle possono ricever due o più
+sentimenti, quando sono contrarie, quando sono lontane e discordi
+dall'intendimento di chi le dispose et ordinò. Ma nel vero tutte queste
+differenze si possono rivolger ad alcuna delle tre predette, di maniera che non
+viene in difficultà altro che se la cosa è o non è, di che qualità ella si sia,
+e con che nome debbia ella esser chiamata. Tutte le cause criminali di maggior
+importanza, come de' veleni, de' rubamenti publici, delle ribellioni, de' casi
+pensati, le difendiamo negandole e le trattiamo per via di conietture. E quelle
+sono difese da noi come ragionevolmente fatte le quali si possono provar o come
+opportune, o come lecite, o come necessarie, o come avvenute a caso e per
+imprudenzia. Le altre finalmente, che non possiamo francamente negare né
+affermare che siano iustamente fatte, le riduciamo alla deffinizione, non già
+per levar, in tutto la pena dalla persona del reo, ma più tosto per diminuirla.
+Nella qual guisa di cause dobbiamo essere grandemente avvertiti di non andar
+dietro ad alcune ristrette deffinizioni del nome che viene in difficultà, ma di
+spiegarle e di distenderle ampiamente acciò che ripresa una parola, o aggionta,
+o levata via, non ne siano tolte di mano e non dimostrino una certa puerile
+ostentazione di dottrina, e finalmente non escano dalla memoria del iudice
+avanti che le abbia egli ben comprese.</p> 
+<p>Nella disputazione di ciascuna di queste tre guise di questioni sono
+necessarie sommamente le prove, delle quali alcune non sono altramente
+ritrovate dall'oratore ma gli sono appresentate dalla causa e da' litiganti,
+come leggi, testimoni, scritture, tormenti e giuramenti; onde sono dette
+inartificiose. Alcune sono da lui ritrovate, onde sono dette artificiose.
+Nell'una maniera gli è di mestieri solamente di considerar come possa egli
+adoperarle, nell'altra ancora in che modo possa investigarle. Nella prima deve
+sempre aver in pronto secondo le occasioni quello che si può dire in iudicio e
+per le leggi e contra le leggi, e per gli testimoni e contra i testimoni, e per
+le scritture e contra le scritture, e per gli tormenti e contra i tormenti, e
+per gli giuramenti e contra i giuramenti. Nella seconda egli attenderà con ogni
+studio e diligenza or ad amaestrar gli ascoltanti con gli argumenti e con le
+ragioni, or a rendersegli grati e benevoli con creanze di virtù e di boni
+costumi, or a concitargli ad ira, ad invidia, a malivolenza contra gli uomini
+rei e fraudolenti; o vero a rimovergli da queste tali perturbazioni di animo ad
+amore, a mansuetudine, a misericordia verso coloro che ingiustamente fossero
+perseguitati. Di queste tre parti di prove artificiose la prima, che è riposta
+nell'insegnar, richiede sottigliezza et acume; la seconda, che è posta nel
+conciliar, richiede modestia e piacevolezza; la terza, che è posta nel muover,
+richiede impeto e veemenza. Perciò che necessaria cosa è che colui che è per
+darci la sentenzia in favore o ver ciò egli faccia per dimostrazione degli
+argumenti, o vero per una certa inclinazione di bona voluntà verso di noi, o
+vero per forza de' movimenti dell'animo.</p> 
+<p>Ma perciò che la parte ove è riposta l'argumentazion della causa pare che in
+sé contenga la sostanza di questa dottrina, di lei prima ne ragionerò. Deve
+adunque l'oratore per conseguirla diligentemente considerar la natura e la
+condizione del successo, vedendo quel che stabilisce il punto della difficultà
+e quel che viene in iudicio, le quali due cose si sogliono investigar in questa
+guisa: Milone ha ucciso Clodio. Qual ragion constituisce la causa? Per aver
+egli ciò fatto per difesa della sua propria vita. Tolto via un tal fondamento è
+totalmente levata ogni disputazione. Ma gli accusatori dicevano, Clodio non
+aver assalito pensatamente Milone. Verrà dunque in iudicio qual di questi due
+abbia fatto insidie all'altro. Poscia che l'oratore averà trovato quanto si è
+detto, se non potrà dimostrar la conclusione che averà tolta a sostenere con le
+prove inartificiose delle leggi, de' testimoni, delle scritture, de' tormenti,
+de' giuramenti, vegga e consideri egli tutti i luoghi onde si traono argumenti;
+de' quali altri sono nella istessa sostanza della cosa, come sono quegli dalla
+deffinizione, dalla propria significazion del nome, dalle parole coniugate,
+dalla enumerazion delle parti. Altri sono congionti con la sostanza della cosa,
+come sono quegli dal genere, dalla specie, dalle cause, dagli effetti, dalle
+cose antecedenti, dalle conseguenti. Altri sono rimoti e lontani dalla sostanza
+della cosa, come sono quegli dal pare, dal maggiore, dal minore, dalla
+similitudine, dalla dissimilitudine, dagli aggionti, dalla repugnanzia, dalla
+contrarietà, dalle cose iudicate, dall'autorità. Dalla deffinizione argomenta
+M. Tullio <emph>Per M. Marcello</emph>: “Guardatevi di grazia molto bene,
+o Cesare, che la vostra singular virtù non sia per acquistarvi appresso i
+posteri più di maraviglia che di gloria, non essendo ella altro che una
+illustre fama difusa e sparsa per questa e per quella parte del mondo, de'
+molti et importantissimi beneficii verso la patria, verso i suoi cittadini,
+verso tutta la umana generazione”. Dalla propria significazion del nome,
+nell'ottava <emph>Filippica</emph>: “ Perciò che può essere guerra senza
+tumulto, ma non può già essere tumulto senza guerra. E che altro è tumulto che
+un sì fatto travaglio che ne dia molta temenza? onde anco è derivato il nome di
+tumulto”. Dalle parole coniugate, <emph>Contra Pisone</emph>: “
+Perciò che essendo tutta quella mia causa consulare e senatoria, ho avuto di
+bisogno dell'aiuto e del consule e del senato”. Dalla enumerazion delle
+parti, <emph>Per C. Rabirio</emph> accusato di ribellione: “E certo nella
+presente causa veggiamo che per la natura del successo una di queste tre cose
+era sommamente necessaria: o l'accostarsi con Saturnino, o l'accompagnarsi con
+gli boni, o lo starsi nascosto. Lo starsi nascosto era a guisa d'una morte
+grandemente vituperosa. L'accostarsi con Saturnino era di uomo furioso e
+scelerato. La virtù dunque e la onestà e la modestia lo astringevano ad
+accompagnarsi con gli consoli”.</p> 
+<p>Dal genere, <emph>Per Milone</emph>: “Ma se la ragione ha ciò
+prescritto a' dotti, la necessità a' barbari, il costume a tutte le genti, e la
+natura alle fiere istesse, di riparar la violenzia comunque essi potessero dal
+corpo e dalla vita loro, non potete altramente iudicar questo fatto essere
+ingiusto che non abbiate anco a iudicar che a tutti coloro che abbatterano
+nelle forze de' traditori convenga necessariamente, o per le loro arme o per le
+vostre sentenzie, di dover morire”. Dalla specie, nella prima
+<emph>Filippica</emph>: “Qual legge fu mai migliore, o più utile, o più
+spesso anco desiderata in una ottima republica, di quella che terminava le
+provincie pretorie non doversi ottener per maggiore spazio che per uno anno e
+le consulari per due? Togliendosi via la presente legge, vi pare mai che
+possiamo dire gli atti di Cesare essere servati”. Dalle cause, <emph>Per
+la legge Manilia</emph>: “Laonde, o Romani, se voi volete sostener la
+utilità della guerra e la riputazion della pace, non pur dovete guardar questa
+provincia dalla presente calamità, ma ancora dal sospetto di ogni pericoloso
+accidente che mai potesse a lei avvenire”. Dagli effetti, <emph>Per
+Ligario</emph>: “La causa che mosse la guerra da principio pareva
+alquanto dubbiosa, essendo dall'una e dall'altra parte qualche ragion colorata
+et apparente. Ora per certo dovemo iudicar quella per migliore che è stata
+favorita et esaltata dalla divina iustizia. E nel vero, a pieno conosciuta et
+esperimentata la vostra clemenzia, chi non anteporebbe quella vittoria nella
+quale non è perito alcuno, se non combattendo con le arme in mano?”.
+Dalle cose antecedenti, <emph>Per S. Roscio</emph>: “Se per concession
+delle leggi è stato ucciso Roscio, io confesso ancora per concession delle
+leggi i suoi beni essere stati venduti. Ma se egli è già manifesto ad ognuno,
+lui contra tutte le leggi non pur vecchie ma eziamdio nove essere stato ucciso,
+io dimando per qual ragione, per qual via, o per qual legge i suoi beni siano
+stati venduti?”. Dalle cose consequenti, nella settima
+<emph>Filippica</emph>: “Nondimeno ha egli ricevuto una grandissima
+piaga, come lo dimostra apertamente la cicatrice”. Dal pare, <emph>Per
+Roscio Comodo</emph>: “Nessuna differenza è tra lo spergiuro et il
+bugiardo. Perciò che colui che non ha riguardo di non dir il vero non ha anco
+rispetto di commetter giuramento falso”. Dal maggiore, <emph>Per
+Cecina</emph>: “Colui che ha mosso gli eserciti armati, non vi par egli
+che abbia potuto anco muover gli uomini riposati e lontani dall'esercizio delle
+armi?”. Dal minore, <emph>Per la legge Manilia</emph>: “I vostri
+maggiori infinite volte hanno preso le arme per gli oltragi fatti contra
+mercanti e marinari. E voi, essendo stati uccisi in un tempo et ad un sol
+nuncio tante migliaia de' cittadini romani, con che animo esser dovete?”.
+Dalla similitudine, nella ottava <emph>Filippica</emph>: Se nel corpo nostro vi
+è alcuna parte guasta e corrotta, comportiamo a conservazione del tutto che
+ella sia abbrucciata o tagliata via, acciò che non apporti danno al rimanente.
+Così nel corpo della republica, a fine che il tutto sia salvo, dovemo smembrar
+ogni parte pestifera e pericolosa”. Dalla dissimilitudine, nella terza:
+“Il giorno certo e determinato, non come ne' sacrificii, così nel ridur
+il consiglio deve essere aspettato da noi”. Dagli aggionti, o vero da'
+consentanei, <emph>Per la legge Manilia</emph>: “Questa fede e credenza
+de' danari che vanno attorno per Roma e per la piazza, sono intricate con le
+facultà di coloro che traficano in Asia; non possono andar quelle in ruina che
+non traano seco insieme insieme ancor questi altri”. Dalla repugnanzia,
+<emph>Per Milone</emph>: “Colui, dunque, che egli non ha mai voluto con
+la grazia di tutti privar di vita, averà egli voluto poi con altrui
+querelle?”. Dalla contrarietà, per l'istesso: “Qual sarebbe mai
+stata, dunque, iusta cagione di restituirmi, se non fosse iniusta di avermi
+bandito?”. Dalle cose iudicate, per l'istesso ancora: “Dicono non
+essere lecito di mirare lo splendore di questa aria a chi confessa di aver
+ucciso altrui. In qual città questi uomini imprudentissimi vogliono sostener
+una così pazza conclusione? Veramente in quella che vide il primo iudicio
+capitale di M. Orazio, uomo fortissimo, che non essendo ancor libera la città,
+fu nondimeno assolto dal popolo romano, confessando egli di aver ucciso di sua
+mano la propria sorella”. Dall'autorità, <emph>Per Archia poeta</emph>:
+“Non si trova alcuno così alieno dalle muse, il quale non consenta le sue
+laudi essere in versi commendate all'eternità. È fama Temistocle uomo
+prestantissimo nella città di Atene, essendo dimandato qual suono e qual voce
+sentisse egli più volentieri, aver risposto quella di colui dal quale fosse
+ottimamente esaltata e predicata la sua virtù”.</p> 
+<p>Ma trascorriamo all'altra maniera di prove, con la quale ci rendiamo
+benivoli gli ascoltanti. Perciò che suol valer grandemente per tirar il iudice
+e favoreggiarne, che da lui siano approvati i costumi, la vita, i fatti, la
+creanza e gli andamenti dell'oratore, e che siano riprovati quegli degli
+adversarii. Gli si rendono amorevoli e grandemente affezionati coloro che
+odono, per la gravità e per la dignità della sua persona, per le cose da lui
+virtuosamente operate, per la bona esistimazion della vita, per la
+piacevolezza, per la leggiadria, per la facilità del parlare, la liberalità,
+per la pietà, per la gratitudine e, finalmente, per la dimostrazione di una
+certa modestia nel volto e nelle parole, di maniera che se gli occorrerà di
+essere alquanto aspero contra altrui, dimostri di farlo sospinto e mal
+volentieri. Giova ancora sommamente il rappresentar i costumi di coloro che
+difendiamo, facendoli apparir per iusti, per innocenti, per religiosi, più
+tosto timidi che arroganti, umili che altieri, rispettosi che insolenti,
+pazienti che ingiuriosi. Tutte queste cose iudiciosamente e con affetto
+trattate dall'oratore, ne' proemi, nelle narrazioni, e nelle conclusioni, hanno
+tanta possanza che alle volte vagliono più che tutte le sorti degli
+argumenti.</p> 
+<p>A questa parte segue quell'altra totalmente diversa, la quale è riposta nel
+trapportar impetuosamente le voluntà degli auditori alle perturbazioni et agli
+affetti dell'animo, alla quale avanti che si lasci condur l'oratore, deve
+considerar molto bene se la natura delle cause il comporterà. Imperò che nelle
+poco importanti non si deono admetter queste ardentissime faci, né dove non si
+possa sperar che elle siano per far qualche effetto, acciò che non siamo
+giudicati per imprudenti e degni di riso e di odio, cercando cose o vero
+totalmente inconvenienti o vero totalmente impossibili. Doverà egli parimente
+investigar con ogni diligenzia a che parte sia maggiormente inclinato l'animo
+del iudice, che openion, che iudicio, che espettazion egli abbia, e fino a che
+termine paia più facilmente lasciarsi condur dall'orazione, acciò che più
+agevolmente lo possa egli sospinger ovunque gli parerà. Ma entrando poi nello
+spazioso campo degli affetti, dimostrerà con ogni artificio, e con le sentenze
+e con le parole e con il volto e con la voce, e con le proprie lagrime se
+accaderà, di tener impresse e scolpite tutte quelle passioni alle quali vorrà
+incitar altrui, essendo cosa difficile il muover a sdegno, a malivolenza, a
+misericordia, se chi parla non farà prima scorgere in se stesso manifestissimi
+segni di essere egli delle medesime fiamme tutto arso et infuriato.</p> 
+<p>Le più importanti perturbazioni che si hanno o vero ad accendere o vero ad
+estinguere nelle menti degli ascoltanti sono l'amore, l'odio, la ira, la
+invidia, la misericordia, la speranza, l'allegrezza, il timore e la mestizia.
+Acquisteremo l'altrui amore se dimostreremo di voler difender quello che sia
+per dover essere utile a coloro che saranno per iudicarne, e se parerà che noi
+ci affatichiamo in difesa degli uomini da bene o vero per quegli che ad essi
+sono di beneficio. Dovemo oltre ciò ingegnarci di far vedere nella causa che
+trattaremo essere non pur onorevolezza ma ancora utilità, e colui che
+difenderemo aver operate tutte le cose a loro sempre e non mai ad utile di se
+stesso. E tutto questo faremo accortamente con ogni modestia, acciò che mentre
+noi procuriamo di acquistargli la benivolenza di chi ascolta, esaltando
+grandemente la sua gloria e virtù, non gli acquistiamo più tosto invidia e
+malivolenza. Da' luoghi contrari procacceremo odio a' nostri nemici e lo
+rimoveremo da noi stessi. Tutte queste parti adopereremo similmente nel
+commover e nel racquettar l'iracundia. Perciò che se accresceremo qualche
+malvagia operazione degli adversari che sia dannosa e perigliosa a coloro che
+ne hanno a iudicare, allora accenderemo odio appresso loro; ma se faremo il
+medesimo delle cose fatte non contra essi ma contra i boni o contra quegli che
+non si deve o contra la republica, allora partoriremo una certa malivolenza et
+offesa di animo non molto differente da quella dell'odio e dell'iracundia. Si
+genera la temenza negli animi di chi ode o da' pericoli proprii che gli possono
+avvenire, o vero da quelli che possono avvenire communemente a tutti; ma quella
+de' pericoli particolari, essendo più intrinseca, travaglia molto maggiormente
+di quell'altra. Ma anco questa comune la dobbiamo ridure alla medesima
+condizione. L'istesse regole et avvertimenti si potranno osservar
+nell'accrescer e nel temperar la speranza, il desiderio, l'allegrezza e la
+mestizia. Perciò che la speranza et il desiderio si risveglia con l'indur gli
+uomini ad aspettar et a bramar qualche gran bene che a loro prossimamente possa
+avvenire; e l'allegrezza, con il rappresentarlo dinanzi agli occhi; e la
+mestizia, col raccontar avvenimenti pieni di miserie e di calamità.</p> 
+<p>Ma tra tutti questi movimenti dell'animo il più veemente et il più difficile
+è senza dubbio alcuno quello della invidia, così nell'accenderla come
+nell'estinguerla e nel mitigarla. E gli uomini sogliono portar invidia
+massimamente a' loro uguali, quando gli veggono essere inalzati in un tratto a
+molte grandezze e se stessi non essere riguardati né avuti in alcuna
+considerazione. Abbiamo invidia alle volte grandemente anco a' superiori, e
+spezialmente se essi ne vanno oltre modo superbi et altieri, trapassando per
+gli avuti onori e dignità i termini di ogni convenevolezza. Queste tai
+prosperità di fortuna se vorremo reccar nell'animo del iudice a quella invidia
+che possiamo maggiore, potremo dire elle non essere state mai acquistate con
+alcuna virtù, ma con inique operazioni e scelerate. E se elle saranno per
+aventura onoratamente conseguite e riputate per tali, allora aggiongeremo
+essere molto maggiore la insolenza e l'alterezza di chi le possederà di quello
+che fosse già mai alcun suo merito. Me se per lo contrario ne fia di mestieri
+di rimover la invidia e di racquettarla, affermeremo essere acquistate con gran
+fatiche e pericoli e non a proprio commodo, ma ad utilità publica e comune di
+tutti, e la gloria per esse a lui attribuita per consentimento universale non
+la stimar punto, quantunque ella meritamente se gli convenga. Cercheremo,
+dunque, ad ogni modo di render minore quella cattiva openione diseminata dagli
+adversarii, dimostrando gli avuti onori essere stati sempre mescolati con
+infinite disgrazie et adversità.</p> 
+<p>Muovesi la compassione se chi ascolta può essere indotto a considerar le
+altrui miserie et a far paragone particolarmente con quelle che a lui saranno
+infelicemente avvenute, et a ramembrar in se stesso con quanto dolore le abbia
+egli tolerate. Imperò che ascoltiamo con molta misericordia i vari accidenti
+delle umane disaventure se elle saranno specialmente raccontate con affetto e
+con voce mesta e dolente. Ma infinitamente ci muoviamo alle lagrime quando
+sentiamo l'altrui virtù e bontà essere oppressa da malvagia et inimica
+fortuna.</p> 
+<p>Or sì come quella maniera di prove che è posta nella commendazione della
+vita e de' costumi deve essere piena di una certa dolcezza e piacevolezza, così
+questa che aspetta a concitar il iudice et a travagliarlo doverà essere tutta
+altiera e veemente.</p> 
+<p>Ma tra queste due parti, fra se stesse tanto diverse, è una certa
+somiglianza indistinta et occulta; perciò che non così in un tratto si
+trappassa dall'una all'altra, ma il fine di questa ha una certa convenienza col
+principio di quella, di maniera che non si scorge differenza veruna. Onde in
+ambedue, sì come i comminciamenti sono tardi, così i finimenti deono essere
+alquanto continuati e sospesi. Per il che non dovemo salir così incontinente
+alla orazione affettuosa, e quando pur vi siamo entrati, non dobbiamo così
+subitamente partirci. Ma conducendo noi con tre cose, come abbiamo detto, chi
+che sia a favoreggiarne o insegnando o muovendo o conciliando, una di queste
+tre solamente dovemo mostrar di dover fare, cioè di non aver altro in animo che
+di insegnare; le altre due poscia deono essere sparse per tutta la orazione,
+quasi come sangue nascosto nelle vene del corpo.</p> 
+<p>Ma perciò che il riso e le facezie appartengono al gratificarci gli auditori
+et al raddolcir e mitigar le perturbazioni dell'animo, et alle volte ancora
+alla risoluzione degli argumenti, seguendo toccheremo brevissimamente ciò che
+nella presente materia ne parerà di maggior importanza. Cinque cose, dunque,
+intorno al riso si sogliono considerare, ciò che egli si sia, onde proceda, se
+aspetta all'oratore di muoverlo, fino a che termine gli si conceda di poter ciò
+fare, e quante maniere de' ridicoli si ritrovino. La prima, che va
+diligentemente investigando che cosa sia il riso, in che parte dell'anima egli
+si stia, la rimetteremo a' filosofi naturali, non essendo ella molto necessaria
+né propria a ciò che tuttavia parliamo. Ma il luogo ove sono riposti i ridicoli
+si contiene in una certa disconvenienza e deformità dell'animo, del corpo e
+delle cagioni esterne, senza altrui dolore, accompagnata da qualche novità e
+per consequente d'ammirazione: perciò che queste cose sole ci fanno
+manifestamente, ridere. E per certo il muover riso è appropriato all'oratore
+per infiniti rispetti e perché gli acquista benivolenza e perché lo rende
+appresso gli altri maraviglioso, così nel risponder agli adversari come nel
+pungerli con qualche leggiadro motto et accordo, e perché leva loro l'autorità,
+gl'impedisce, gli spaurisce, gli fa arrossire, perché dimostra una certa
+civiltà e creanza piena di un gentile accorgimento, perché tempera la severità,
+leva la mestizia, e, finalmente, perché alle volte toglie via con leggiadre
+maniere quegli argumenti che altramente con gran difficultà si potrebbono da
+noi distogliere. Nella qual considerazione dovemo però aver questo riguardo di
+non cercar di far ciò né contra malvagi e scelerati, né contra coloro che si
+ritrovano in qualche grave miseria e calamità, né contra coloro che sono
+riputati et avuti cari; perciò che quegli primi deono essere travagliati con
+maggior castigamento che non è quello delle facezie, et i secondi non meritano
+esser beffati se non quando sono per aventura tanto leggeri che vadino altieri
+e si vantino arrogantemente. Contra gli ultimi non dovemo noi, imperò che una
+sì fatta impresa ne apporterebbe più tosto grave odio che benivolenza.
+Conciteremo dunque il riso contra coloro solamente che non sono né in molto
+odio né in molta miseria né in molta autorità, nel che poi osserveremo questa
+ferma regola di non usar alcun motto freddo e senza grazia e di non muover
+soverchio riso, ma con un certo temperamento.</p> 
+<p>Delle facezie sono due maniere; l'una è riposta nella cosa, l'altra nel
+detto. La facezia è nella cosa quando raccontiamo con vaghezza qualche novella
+intiera e continuata, nella quale narrazione cerchiamo di esprimer sì
+fattamente gli andamenti, i gesti, i costumi, le parole et il volto di cui si
+favellerà, che paia agli ascoltanti il tutto allora quasi presente. La facezia
+che è nel detto e nel motto si fa con un certo leggiadro accorgimento o del
+concetto o delle parole, ma questa delle parole si toglia via, levandole noi e
+tramutandole, e quella del concetto rimane con qualunque guisa di parole sarà
+da noi spiegata. E perciò che il numero delle facezie e de' ridicoli è quasi
+infinito, ci contenteremo di quanto abbiamo fin qui brevemente trattato.</p> 
+<p>Et avendo noi già a bastanza discorso intorno alla comune materia di tutti i
+tre generi delle cause, demostrativo, deliberativo e iudiciale, perverremo a
+quella più particolare di ciascheduno, e per comminciar dal genere che consiste
+nella laude e nel vitupero, dovemo sapere che negli uomini sono alcune cose da
+desiderare et alcune altre da laudare. Desideriamo le ricchezze, la nobiltà, i
+parentadi, le amicizie, le commodità, la sanità, la bellezza, la gagliardia et
+altre somiglianti, o del corpo o forestieri che elle si siano; ma perciò che la
+virtù et il vizio si scopre oltre modo nell'usarle bene o male, quando ne
+occorrerà commendar alcuno dovremo spiegar questi tali commodi del corpo e
+della fortuna nelle nostre orazioni, a tal che se colui che prenderemo a
+commendare gli averà posseduti, dimostriamo lui avergli virtuosamente
+adoperati; e se non gli averà posseduti, non averli molto stimati; e se gli
+averà perduti, aver ciò tolerato con gran modestia e sapienzia. E per certo è
+rara gloria non divenir altieri per le dignità, non usar insolenza per
+l'abondanza delle ricchezze, non voler sovrastar agli altri per qualche
+prosperità di fortuna, acciò che le molte commodità e facultà non paiano essere
+mai state cagioni di superbia e de' sfrenati desiderii, ma sì bene di modestia
+e di cortesia. La virtù, la qual sola da se stessa è laudevole e senza la quale
+non è lodata in noi cosa alcuna, ha molte parti. Altre sono de' costumi, le
+quali essendo riposte nella nostra volontà sono chiamate volontarie, come è
+iustizia, fortezza e temperanza. Altre sono in noi generate dalla natura, le
+quali sono chiamate non volontarie, come è l'ingegno, la memoria, la prontezza
+nell'apprendere, la facilità, la prudenzia, la sapienzia, la sagacità. Da
+queste due maniere, quelle si deono spezialmente commendare le quali tendono al
+beneficio non di colui che le possiede, ma degli amici, de' parenti, della
+patria, di tutta la umana generazione. Nondimeno, congiungeremo nelle nostre
+orazioni fatte in altrui laude ambedue queste sorti di virtù, udendo gli uomini
+con somma loro sodisfazione essere in altrui esaltate non solamente quelle
+azioni che sono a loro utili ma eziandio quelle parti che sono degne di
+ammirazione. Ma perciò che ognuna di esse ha le sue particolari proprietà, nel
+provar che alcuno sia giusto spiegheremo ciò che egli averà operato iustamente,
+fedelmente, legitimamente; e così faremo in tutte le altre sue operazioni,
+riferendole secondo la loro qualità all'officio di questa e di quell'altra
+virtù; ma tra tutte sono più chiare e più illustri e fanno maggiormente fede
+dell'altrui bona volontà, quelle che sono operate dagli uomini valorosi senza
+speranza di alcun premio, anzi con molte fatiche, disturbi e difficultà,
+potendo sì fatte azioni essere celebrate con ornamento et esaltate con
+ammirazione, et essendo indicio di gran magnanimità procurar agli altri utilità
+e sicurtà con travaglio e pericolo di se stesso. È, oltre ciò, suprema lode
+comportar animosamente con molta sapienza i colpi della fortuna, non perdersi
+di animo nelle adversità, ritener una certa grandezza e dignità nelle cose
+aspere. Apportano similmente ornamento gli onori conseguiti, i premi statuiti
+all'altrui virtù per deliberazion publica, i fatti approvati per iudicio
+universale di tutti e, finalmente, la felicità, quasi iusto guiderdone per
+divina disposizion conceduto.</p> 
+<p>Doveremo, dunque, eleger tutte quelle azioni che saranno e famose et
+illustri e nove e prime e sole, perciò che le umili, le solite, le comuni non
+sogliono apparir degne di gran maraviglia.</p> 
+<p>Delle vituperazioni non diremo altro, potendosi elle prendere dalle regole
+contrarie senza molta difficultà. Onde, passeremo a quel genere di cause che è
+posto nelle consultazioni delle cose publiche; delle quali le più importanti e
+le più illustri sono quelle che aspettano all'entrate degli stati (come sono
+dacii, gabelle, tributi), quelle che aspettano alla pace et alla guerra, quelle
+che aspettano alla custodia delle provincie e delle città, quelle che aspettano
+alle vettovaglie che si conducono di fuori a noi e che si portano da' nostri
+paesi ad altre nazioni, e quelle che aspettano alla proposta delle leggi. In
+ciascuno di questi cinque capi, e d'ogni altro che occorrerà, due controversie
+vengono specialmente in deliberazione: di una e di un'altra proposta utile,
+quale sia più utile; et allora ricorreremo alla comparazione di questa e di
+quella, dimostrando ciò che noi difendiamo essere o tanto utile o più utile di
+quello che difendono gli adversari; o vero a qual più ci dobbiamo appigliare, a
+quella che averà in sé utilità o vero a quella che averà in sé onorevolezza. Le
+quai due cose, perciò che in molte occasioni pare che non siano tra se stesse
+congionte, chi difenderà la utilità racconterà i commodi che da essa ne
+provengono, i guadagni, i piaceri, le contentezze, la sicurtà e la difesa de'
+nostri stati, dicendo senza la utilità non potersi conservar né anco la dignità
+né l'autorità delle republiche; chi difenderà la onorevolezza doverà andar
+raccogliendo quegli essempi de' nostri maggiori che saranno gloriosi con
+qualche pericolo, ramemorando quante imprese totalmente dannose abbiano
+prontamente accettate per mantener la iustizia, la fede, la riputazione,
+l'onore, la dignità. Dimostrerà oltre ciò la utilità proceder sempre dalla
+onorevolezza e non essere mai discompagnata da quella. Rivolgerà la sua
+orazione ad inalzar gli animi di coloro che ne ascoltano alla gloria, alla bona
+fama, alla bona esistimazione, et a rimovergli dal dispreggio, dalla vergogna,
+dal vitupero, dalla infamia, ora con esortazioni accorte e gravi, ora con la
+commemorazion di alcun fatto glorioso et illustre, usando sentenze di tal
+maniera che siano corrispondenti alla qualità del soggetto. Onde il favellar in
+simili cause par veramente opera di persona di onoratissime condizioni, dovendo
+ella proveder con l'intelletto, provar con l'autorità, indur con la orazione
+intorno a molte importantissime deliberazioni, nelle quali consiste la
+conservazione e la felicità delle genti, de' popoli e delle republiche.</p> 
+<p>Dunque, nel consigliar la principal cosa e la più desiderabile dobbiamo
+riputar che sia veramente l'onorevolezza; e chi giudica la utilità, non mira
+già egli a che deve attender chi procura di persuadere, ma a che gli uomini
+naturalmente per il più sogliono essere inclinati. Perciò che non è alcuno,
+specialmente in una illustre città, che non sia di openione doversi apprezzar
+molto più la onorevolezza; ma alle volte vince la utilità, quando temiamo che
+senza quella non si possa conservar né anco quest'altra. Così nell'esortar
+all'una come all'altra si deve ancora alle volte considerar quello che si può
+fare e quello che non si può fare; quello che si può fare con facilità e quello
+che si fa con difficultà; quello che è necessario e quello che non è
+necessario; quello che è importante e quello che non è importante; quello che è
+opportuno e quello che non è opportuno; e spesso ancora quello che è
+dilettevole e quello che non è dilettevole; essendo molti che, avezzi a vivere
+deliziosamente e disolutamente, quasi in ogni loro consultazione prepongono il
+giocondo all'utile et all'onesto.</p> 
+<p>Ora, perciò che nelle deliberazioni publiche è somma la riputazione di
+coloro che odono e di coloro che parlano, e le cause che vi si trattano sono di
+grandissima importanza, deono ancora i concetti e le sentenze essere gravissime
+et illustri. Onde rivolgeremo la maggior parte della orazione ad eccitar gli
+animi o a speranza, o a timore, o a desiderio di gloria, et alle volte a
+rimovergli dalla temerità, dalla iracundia, dalla invidia, dalla iniuria, dalla
+crudeltà, ora con qualche esortazione, ora con la commemorazion di alcun fatto
+glorioso et illustre. Ma imperò che le forme de' governi e delle republiche
+nelle quali per aventura ci occorrerà travagliarci non sono tutte d'una
+medesima qualità né si propongono il medesimo fine, dovemo sapere quante e
+quali elle si siano, per poter accommodar la orazione a quello che ciascuno si
+proporrà. Tre sono dunque le maniere de' stati: di un solo, de' pochi e de'
+molti; se un solo signoreggia et attende al beneficio comune, si chiama re o
+ver prencipe; se all'utile proprio e particolare, si chiama tiranno; se
+governano pochi boni e virtuosi, stato degli ottimati; se pochi ricchi et a
+beneficio di se stessi, stato de' potenti; se molti a beneficio comune,
+dimocrazia; se a vivere licenziosamente, confusione sarà nominata. Pertanto, se
+parleremo o in un regno legitimo o nello stato de' pochi boni o nello stato de'
+molti boni, attenderemo ad argumentar dalla onestà, dalla iustizia e da tutte
+le altre virtù. Se favelleremo negli stati viziosi e non regolati, attenderemo
+ad argumentar dall'accrescimento delle facultà, dal guadagno e dalle
+ricchezze.</p> 
+<p>Resta a dire del genere iudiciale, che ha per suo proprio soggetto tutte
+quelle differenze, o civili o criminali, che possono venir in iudicio; in
+alcune delle quali si ricerca se l'imputazione è vera o no, in alcune si
+ricerca la iustizia e la iniustizia del fatto, in alcune si ricerca la sua
+deffinizione. Nelle contenzioni nelle quali si disputa se l'imputazione è vera
+o no, l'accusatore, argumentando, procurerà di dimostrare nel reo essere stata
+la causa che lo sospinse, la voluntà, la possibilità e gl'indici seguiti dopo
+il fatto. Per dimostrar la causa, proverà in lui odio precedente, iniurie
+ricevute, ardor di vendetta, disdegno, desiderio di onore, di gloria, di
+ricchezze, d'imperio, amore, temenza della propria vita, povertà, debiti,
+speranza di poter fare il delitto, di occultarlo, di difenderlo, o di poter
+fuggire; oltre ciò natura malvagia, crudele, furiosa, sùbita, inconsiderata,
+intolerabile, impaziente. Renderà chiara la voluntà se farà vedere che egli lo
+abbia desiderato, e che lo abbia anco già altre volte tentato, e che era
+necessario per molti rispetti che il facesse, e che si abbia già anco
+apparecchiato di farlo. La possibilità si proverà dalle amicizie, dalle
+compagnie, da' favori, dalle commodità, dalle occasioni. Il successo del fatto
+lo confermerà dagl'indici occorsi, come dalle mani, dalle vestimenta, dalle
+armi bruttate, da qualche cosa tolta dalla persona del morto, da qualche cosa
+lasciata, dalla pallidezza, dal tremar, dal non responder a proposito,
+dall'esser trovato solo in quel luogo. Se non potrà egli per aventura far
+palese il successo del fatto da' predetti segni e conietture, si fermerà nelle
+cause e nella possibilità. Perciò che chi ha avuto cagione di far alcun
+maleficio e lo ha potuto fare, si presume che lo abbia egli anco fatto, avvenga
+che non si potesse provare. Colui che difenderà, all'incontro, riproverà prima
+le cagioni, o negandole o dimostrando essere state comuni parimente ad altri né
+essere state di tanta importanza, et il reo aver potuto ciò fare assai più
+commodamente per il passato. Poi venendo alla voluntà, se la causa gli lo
+permetterà, dirà lui essere persona di una santissima et innocentissima vita, e
+sempre solita di ubbidir alle leggi et alla iustizia, né mai aver commesso,
+quantunque gli sia stata data eziamdio la cagione, cosa alcuna somigliante.</p>
+
+<p>In quanto si aspetta poi alla possibilità, ricorrerà egli a provar lui non
+essere di tanta potenza né di tante forze né di tanto ardire, e non aver mai
+avuto né luogo né tempo ad un tanto maleficio, né essere stato così imprudente
+che facesse quello che non potea mai sperar di dover nascondere, né di dover
+fuggire, né di dover diferir la pena più lungamente. Gl'indici del successo
+confuterà egli dicendo non essere tali che dimostrino l'incolpato solamente
+aver commesso quel tal delitto, anzi essere comuni con molti altri. Nelle cause
+poi nelle quali si confessa il fatto ma si difende come iusto, l'accusatore si
+sforzerà di dimostrar l'offesa essere stata contra la equità naturale, contra
+le leggi, contra le usanze, contra iustizia, provando poi essere fatta
+pensatamente, con fraude, per elezione, a fine di oltraggio, et aggravando le
+circonstanze del fatto quanto maggiormente potrà. Poscia, produrà le pene
+statuite dalle leggi e da' iudici altre volte seguiti in simili cause, onde
+finalmente dimanderà che il reo sia aspramente castigato. Il difensore,
+dall'altra parte, se averà argumenti di provarlo, risponderà essergli stato
+lecito e necessario per riparo della propria vita, dell'onore, della fama,
+della riputazione, per la republica, e non aver potuto far altramente, né aver
+operato contra la disposizion delle leggi. Per le quali ragioni ultimamente
+insterà che il suo cliente debbia essere largamente assolto per onestà e per
+iustizia. Se non potrà difenderlo per questa via, vederà egli di ricorrer
+all'errore, al caso, all'imprudenza, supplicando per qualche suo benemerito o
+de' suoi maggiori che gli sia perdonato.</p> 
+<p>Segue la contesa dell'imposizione del nome, quando confessiamo il fatto ma
+non però concediamo doversi così chiamare, come se affermando di aver tolto,
+diciamo non aver rubbato; aver percosso, ma non aver iniuriato; aver parlato
+con gli nemici, ma non aver usato tradimento; nelle quali disputazioni veniremo
+a deffinir et a descriver ciò che sia furto, iniuria, tradimento. Perciò che
+colui che toglie può non commetter furto, quando non intende di procurar danno
+ad altrui et utile iniustamente a se stesso; e chi percuote può non iniuriar,
+quando non ha animo di offender; e chi ha parlato con gli nemici può non aver
+usato tradimento, quando egli fosse condesceso a tal atto per ingannargli, per
+iscoprir i loro secreti o per beneficio della patria. Doverà dunque e
+l'accusatore et il difensore a suo utile usar la deffinizione, o la
+descrizione, o la informazione del nome; ma l'uno per fare che il reo sia
+maggiormente castigato, e l'altro per assolverlo o per diminuirgli la pena.
+Onde ciascuno attenderà ad operar talmente che la sua deffinizione sia più
+appropriata all'uso del parlar comune et alla intelligenza degli ascoltanti.
+Ora se non potrà l'oratore prevalersi di alcuna di queste tre maniere de'
+stati, vederà egli confessando liberamente la colpa del suo cliente e
+dimostrando il pentimento del fatto e rimettendolo alla clemenzia del principe,
+di ricorrer alla deprecazione, nella quale all'incontro del commesso maleficio
+rappresenterà alcun suo fatto che sia onesto, allegherà l'eccellenza di qualche
+arte o profession pregiata et utile al beneficio publico, et a paro della sua
+persona riponerà altre benemerite de' suoi più stretti amici e parenti, del
+padre, de' figliuoli, della famiglia. Ma una tal maniera di difesa, sì come ha
+luogo dinanzi un prencipe di potestà assoluta, così non ha luogo dinanzi un
+iudice ordinario, esecutor delle leggi e degli ordini della città.</p> 
+<p>Mi pare di aver detto fin qui a bastanza quanto al nostro proponimento si
+apparteneva delle dottrine più importanti che si richiedevano alla persona
+dell'oratore, delle questioni che gli si appresentavano, delle prove comuni
+così inartificiose come artificiose che gli erano necessarie per difenderle e
+per sostenerle e della materia propria di ciascun genere, demostrativo,
+deliberativo e giudiciale. Segue a ragionar brevemente della disposizione,
+senza la quale tutte le predette parti, quasi membra disunite e discompagnate
+dal loro proprio corpo, sarebbono di nessun valore. Di questa, l'una maniera è
+naturale, quando così guidati da un certo instinto primieramente cerchiamo di
+prepararci l'animo degli ascoltanti, facendogli benevoli, attenti et amaestrati
+alla futura disputazione; poscia, quando raccontiamo il fatto, constituendo la
+questione; indi, quando proviamo quella parte che torremo a sostenere,
+confermando le nostre ragioni e rimproverando le contrarie; e, finalmente,
+quando conchiudiamo, riducendo per ennumerazione a memoria del iudice gli
+argumenti addotti nella nostra confermazione, o procurando per amplificazione
+di rendergli sospetti et odiosi gli adversarii, o vero a raccomandargli con
+modestia e temperamento color che difenderemo. L'altra è artificiosa, che è in
+tutto rimessa al iudicio et alla prudenza dell'oratore, il quale ora discende
+al primo tratto alla disputazion della causa senza altro proemio, ora dopo la
+narrazione ricorre a qualche digression fuor di ciò che si avea proposto, ora
+fa il medesimo nel mezzo della confirmazione istessa e dopo la confirmazione
+ancora, accommodandosi alle occasioni che variamente gli si offeriscono et
+avendo la mira alla utilità della causa, non ubbrigandosi più a questo ordine
+che a quello.</p> 
+<p>Ma delle molte ragioni che doveremo noi usar nelle dispute, se l'una non
+dipenderà dall'altra, adopereremo a nostro arbitrio quella via di proceder che
+ne parerà, e se elle averanno una certa concatenazion fra se stesse, tal che
+l'una faccia l'adito alle altre, incominceremo da quelle dalle quali le
+sequenti derivano, avendo però sempre dinanzi agli occhi di parte in parte
+questo avvertimento: di collocar nella prima e nell'ultima schiera le più
+gagliarde et le più importanti, e nella mezzana le mediocri, acciò che queste
+ricevano autorità e possanza da quelle. Le prove che si aspettano al muover
+doveranno sempre andar dietro a quelle dell'argumentar, mal potendo concitar
+l'animo degli ascoltanti l'oratore ad alcuno effetto se egli prima non
+dimostrerà di grado in grado l'imputazione essere o vera o falsa, o questa o
+quella, o iusta o iniusta. Tra l'una e l'altra di queste due guise di prove
+alle volte saranno interposte, quasi come brievi proemii, alcune conciliazioni
+che rendano gli auditori benevoli alla nostra causa e disposti all'audienza di
+quelle parti che saranno di maggior importanza.</p> 
+<p>Dopo ben considerate e distinte nella nostra mente le questioni e le prove,
+comminceremo finalmente a pensar che proemio dobbiamo noi preponer a tutta
+l'orazione, il quale, avvenga che primo si proferisca, è però l'ultimo che si
+compone. Perciò che volendo chi parla non incorrer in alcuni principii comuni,
+vulgari e puerili, fa di mestieri che egli esamini con gran diligenza tutte le
+ragioni più principali, tutti i luoghi degli affetti, tutti gli avantaggi, onde
+possa elegersi tal esordio che sia quasi un estratto delle prove che poi
+doveranno più copiosamente seguire. Ma sì come le entrate de' tempi e delle
+case illustri deono esser conformi alla qualità di tutto l'edificio, così deono
+anco essere i proemii alle loro orazioni, ma in tal guisa però, che sempre da
+alquanto lievi e mediocri comminciamenti vadino poi inalzandosi e pigliando
+spirito di grado in grado, imitando le cose prodotte dalla natura, le quali non
+così al primo tratto ma a poco a poco crescendo pervengono alla loro debita
+perfezione. Pertanto, nelle cause di non molta importanza non accaderà che
+ricerchiamo proemio altramente, ma quando pur lo doveremo usar, lo potremo
+prender commodamente o vero dalla persona nostra, o vero dalla persona del reo,
+o vero dalla persona dell'avversario, o vero dalla cosa istessa, o vero dalla
+persona di coloro che ne ascoltano. Si piglieranno dalla persona nostra se
+scopriremo in noi stessi bontà e prudenza, e verso coloro che odono, fedeltà.
+Si piglieranno dalla persona di coloro che difendiamo se gli dimostreremo
+liberali, iusti, religiosi, oppressi da malvagia fortuna, degni di compassione,
+e non colpevoli delle imputazioni loro attribuite. Si piglieranno dalla persona
+degli avversarii da' luoghi contrarii. Si piglieranno dalla cosa istessa se
+diremo ella essere iusta, onesta, degna di essere favoreggiata da tutti i boni
+o vero se la dimostreremo crudele, orrenda, intolerabile, nova, indegna,
+contraria alla comune openione. Si piglieranno dalla persona degli ascoltanti
+se, modestamente laudandogli, procureremo di far che ne siano favorevoli e che
+abbiano bon concetto di noi e della nostra causa.</p> 
+<p>Ma la maggior parte de' principii che spettano o vero a concitar il iudice o
+vero a raddolcirlo, si potrà pigliar commodamente da quegli affetti che saranno
+più proprii della causa, però con qualche temperamento. Perciò che non dobbiamo
+fonderli così totalmente, ma in tal maniera che inducano altrui ad ascoltarci
+con amore e con benignità. Oltre ciò doverà il proemio essere talmente
+concatenato alle altre parti della orazione che sia come capo congionto con
+tutto il corpo, e non come separato dalle altre membra.</p> 
+<p>La narrazione non sempre ha luogo; imperò che se egli sarà stato narrato
+dagli avversarii sì fattamente che il iudice non abbia alcuna difficultà
+intorno al fatto, non occorrerà più che noi la usiamo, bastando solamente la
+proposizione o lo stato della difficultà. Per la qual cosa le conviene
+sommamente la brevità, essendo la disputa quasi tutta la sostanza della causa e
+questa altra solamente come una certa introduzione di lei. Le conviene la
+chiarezza, perciò che non facilmente né distintamente compresa la questione,
+non si possono ben comprender le sue proprie prove e particolari. Le conviene
+finalmente la verisimilitudine, per dar anco credenza alle ragioni et agli
+argumenti che seguiranno, i quali in essa doveranno essere diseminati con gran
+prudenza et artificio. Ora, la narrazione sarà breve se non vi ricercheremo di
+far amplificazioni né argumentazioni, ma solamente una semplice esposizione del
+successo. Averà la chiarezza se la sarà piana, facile, distinta, se commincerà
+dalle cose non molto lontane, se averà riguardo all'ordine de' tempi e delle
+cose occorse. La verisimilitudine non potendo ella acquistarsela
+dall'argumentazione, la doverà procurar dal servar le proprietà delle persone
+secondo gli affetti, secondo le virtù, secondo le età, secondo le fortune e
+secondo tutte le altre circonstanze che occorreranno. Perciò che quando ella è
+tale, oltra che sarà verisimile diletterà anco mirabilmente.</p> 
+<p>Segue la disputazion della causa, la quale è compartita nella confirmazione
+e nella confutazione, non potendo noi altramente sostener le nostre ragioni
+senza riprovar le contrarie, né potendo riprovar le contrarie senza
+confirmazion delle nostre.</p> 
+<p>Ultima è la conclusione, la quale ha tre parti: la enumerazione, per ridur a
+memoria degli ascoltanti le cose dette nella precedente disputazione;
+l'amplificazione, per muovergli ad ira, ad odio, ad invidia contra gli
+avversari, et ad amore, a misericordia verso i nostri clienti; e la
+raccomandazione e gratificazione, per dimostrar nelle nostre persone costumi e
+qualità degne di acquistarne credenza e grazia appresso gli auditori.</p> 
+<p>Or essendo composta ogni orazione di cose e di parole, et avendo noi
+brevemente trattato delle cose e della loro disposizione, segue che ragioniamo
+delle parole, e come le possiamo eleger sole e per stesse, et in che maniera le
+dobbiamo poi considerare accompagnate l'una con l'altra. Delle parole dunque
+semplici che noi usiamo per manifestar ciò che abbiamo in animo, altre sono
+fatte di novo, altre sono forestieri, altre sono proprie, altre sono
+traportate. Le parole fatte di novo sono le ritrovate primieramente da chi che
+sia, o col congiungimento di questa e di quella, come appresso Dante “
+imperlar, mostrar”; o senza congiungimento, come appresso il medesimo
+“penelegiare ”. Ambedue queste maniere non meno doveranno essere
+fuggite da noi di quel che sogliono essere gli scogli del mare da' naviganti,
+essendo e questi e quelle grandemente pericolose; perciò che se ottimamente le
+imagineremo e le componeremo, pochissima anzi, nessuna laude, se non così
+perfettamente, gravissimo biasmo, ne riporteremo. Per la qual cosa avvertiremo
+di non fingerle se non quando pur siamo astretti dalla necessità, e ciò con
+qualche riguardo e con iudicio. Forestieri sono le tolte da altre lingue, come
+dalla provenzale “ sovente, guiderdone, assembra ”, dalla latina
+“vestigia, esclusa, senile, delicie, plaustro, delinque ”, et
+infinite altre; le quali doveremo adoperar non così licenziosamente ma con
+qualche rispetto. Perciò che se l'oratore le introducesse in gran copia,
+toglierebbe lo splendore alle pure natìe toscane et italiane. Pertanto
+sceglieremo quelle che, già longo tempo usate, hanno avuto grazia di essere
+accettate universalmente da tutti, come del paese. Parole proprie sono quelle
+che in ciascuna lingua da principio sono state imposte alle cose istesse per
+significarle; delle quali avendo noi sempre la mira all'uso del parlar comune e
+degli scrittori più approvati et al consiglio delle orecchie, elegeremo le
+dolci, le chiare, le sonanti, le ricevute generalmente da tutti i boni; e
+lasceremo le dure, le difficili, le aspere, le oscure, le troppo antiche e già
+dismesse da' iudiciosi. Ci serviremo oltre ciò, in luogo di proprie, di quelle
+altre che sono termini di ciascuna arte, e che nelle città sono attribuite agli
+ufficii, a' iudicii, a' magistrati. Diremo più presto “invenzione”
+che “ritrovamento”, “elocuzione ” che
+“parlamento”, né schiferemo di dir “protesti, proclame,
+contestazion di lite, constituto del reo, produzion de' testimonii, capitoli,
+interrogatorii” et altre sì fatte.</p> 
+<p>Ma perciò che in tutte le predette maniere di parole semplici non possiamo
+far quasi altro che di guardarci dal vizio, dal che non meritiamo gran laude,
+passeremo al trattato delle traslate, nelle quali è riposta la maggior parte
+degli ornamenti della orazione e la sua propria dignità. Ebbero le parole
+traportate da principio, origine per la strettezza e per la necessità delle
+lingue, e poi furono frequentate per la dilettazione della evidenza e della
+novità che seco apportano. Imperò che, sì come le vestimenta sono state prima
+ritrovate per riparo del freddo et indi eziamdio adoperate per ornamento de'
+nostri corpi, così parimente le parole translate si comminciorono ad usar per
+mancamento delle proprie e poi si continuorono per grandezza e per maestà; onde
+“gemar le viti, ondeggiar le biade ” diciamo comunemente, non
+essendo altre voci natìe che ne rappresentino due tali effetti come fanno
+mirabilmente queste due per una certa similitudine. Sono dunque sì fatte
+traslazioni come certe prestanze, quando ci accommodiamo d'altronde ciò che non
+abbiamo da noi. Ma quelle veramente sono più illustri che usiamo non già per
+povertà ma per aggionger lume e splendore alle nostre orazioni, come sono
+“fiume di eloquenza, acceso d'ira, infiammato di desiderio ”, et
+altre tali.</p> 
+<p>Queste si prendono commodissimamente dalla similitudine, e però quelle
+saranno maggiormente commendate che da essa precedente si tolgono e si
+derivano; come è quella di Marco Tullio nella ottava <emph>Filippica</emph>:
+“Se nel corpo umano vi è alcuna parte guasta e corrotta, comportiamo che
+ella sia abbruciata e tagliata via acciò che non apporti danno al rimanente;
+così nel corpo della republica, acciò che il tutto sia salvo, dovemo smembrar
+ogni parte pestilenziosa”. Ecco, dalla similitudine precedente del corpo
+umano prese metafore e le accommodò gentilmente alla republica, attribuendole
+lo smembrar et il pestilenzioso. Sono perfettissime ancor quelle che si tolgono
+da cose che hanno tra se stesse una certa proporzione, come se attribuiremo il
+freno al nochiero et il timone al carratiero, la primavera all'età e la
+gioventù all'anno. Per il che dovemo grandemente fuggir la dissimilitudine e la
+disproporzione, non dicendo come hanno usato alcuni “ l'ombra
+dell'angustia, il diadema della mestizia ”. Ci guarderemo ancor da quelle
+che sono molto lontane, non chiamando la sapienza “ steccato dell'anima
+”.</p> 
+<p>E perciò che la maggior virtù della metafora è di proponer la cosa avanti
+agli occhi et agli altri nostri sentimenti, lasceremo ancor quelle che
+rappresentassero all'animo alcuna disonestà, non nominandola “ Italia
+bordello ”, come fece Dante, né un “ lusurioso stallone”,
+benché sia simile, né la “republica castrata” per la morte del
+principe. Rifiuteremo e le molto maggiori del convenevole, non chiamando un
+uomo di grande statura un “monte”, e parimente le molto minori del
+convenevole, non addimandando il tonar “mormorar del ciel” né il
+piovere “lagrimar dell'aria”. E se dubiteremo che le nostre
+metafore siano alquanto aspere, le mitigheremo o vero col preponer loro altre
+metafore men dure, o vero con qualche altro modo di parlare che dimostri noi
+averle per sospette; quale sarebbe “ quasi, per dir così, un certo che
+”, et altro simile; di maniera che ci paia la traslazione essere venuta
+come invitata e non come entrata per forza. Ci guarderemo adunque dalle
+dissimili, dalle lontane, dalle disoneste, dalle maggiori e dalle minori del
+convenevole e, finalmente, dalle gonfie, dalle oscure, dalle ridicole, e da
+quelle che non portano seco ornamento alcuno.</p> 
+<p>Sono certi altri modi di cangiar l'una parola con l'altra annoverati tra le
+metafore, quando riponiamo “Italia” per gl'Italiani, “
+Roma” per gli Romani, “Marte” per la battaglia, la toga per
+la pace, le arme per la guerra, il ferro per la spada, i vizii e le virtù per
+coloro in cui elle si ritrovano, il tutto per la parte, la parte per il tutto,
+per un solo molti, e per gli molti un solo; ne' quali, quantunque si cambiano
+le parole, non però si cambiano da cose molto diverse ma quasi dalle
+medesime.</p> 
+<p>Abbiamo favellato delle parole semplici e sole in se stesse considerate
+(cioè e delle nove e delle forestieri e delle proprie) e delle traslate.
+Seguiremo a parlar della loro continuazione, nella qual dovemo considerar due
+cose: la struttura et il numero. All'una si appartiene di congionger e di
+commetter insieme l'una parola con l'altra sì fattamente che né aspera né
+disunita la loro fabrica ne riesca, ma piana, uguale e continuata. All'altra si
+aspetta di aver sempre riguardo all'armonia che attendono le iudiciose
+orecchie, così nell'incomminciar la clausula come nel finirla e terminarla; nel
+che, avvenga che sia gravissimo biasmo l'incorrer in alcun verso
+imprudentemente, nondimeno doveremo usar tai cadenze e tai dimore che la
+orazione non sia né in tutto legata né in tutto sciolta e vagabonda. La prima
+regola dunque sarà che ci guardiamo da ogni sorte di verso, e massimamente
+dallo, sdrucciolo per essere molto strepitoso, dallo endecasillabo per essere
+più sonoro di tutti gli altri. E quantunque sia nostro officio di osservar il
+presente avvertimento in tutta la clausula, pur doveremo ciò fare molto più nel
+comminciamento e nel compimento di essa, come in luoghi dove il suono da ognuno
+può essere agevolmente riconosciuto. Ci ingegneremo oltre ciò di non cader
+temerariamente in parole che facciano rima con le ultime sillabe del membro
+precedente o ver subsequente, essendo ella relazione e quasi anima e forma del
+verso di questa lingua, il quale già abbiamo avvertito che si debbia
+grandemente fuggire. Schifandoci noi con iudicio da cotali errori quasi senza
+altro, renderemo dilettevole e sonora la orazione.</p> 
+<p>Si fa ella tale ancora assai spesso con la ordinanza delle parole, qualunque
+volta sono talmente accompagnate che paia il numero non essere stato ricercato
+dalla industria dell'oratore, ma che sia da se stesso naturalmente seguito;
+come avviene quando rispondiamo con due parole ad altre due, quando opponiamo
+l'un contrario all'altro, quando facciamo terminar le membra del periodo ne'
+medesimi numeri e nelle medesime parità di sillabe. Ne' principii delle
+clausule sono più commendate quelle dizioni che sono di tre sillabe e quelle di
+una sola ancora, e quasi di ogni altra quantità. Ne' finimenti ci guarderemo
+dalle parole sdrucciole, le quali però nel penultimo luogo accommodate
+acquistano grazia all'orazione. In questi poi sono grandemente numerose quelle
+di quattro o di cinque sillabe, e massimamente le troncate che finiscono in
+“-tà”, come “facilità, varietà, prosperità, umanità,
+magnanimità ”, e sopra tutte quelle de' verbi infiniti, come “
+lagrimare, terminare, travagliare, trappassare”. Negl'istessi finimenti
+sono parimente numerose le dizioni di tre sillabe, precedendo però alcuna
+monosillaba, come “si dipartì, ci generò”, et altre simili; e
+quelle ancora di due sillabe non sono da rifiutare, preponendosi loro altre due
+monosillabe, come “se ne partì, se ne tornò, vi si trovò ”. Perciò
+che e quelle di tre sillabe con una monosillaba e quelle di due sillabe con
+altre due monosillabe dinanzi vengono a far una continuanza e quasi una parola
+intiera di quattro sillabe, la quale già abbiamo detto essere grandemente
+commendata. Ma o sia la dizione terminante la clausula di quattro sillabe, o di
+tre, o di dua, o vero anco di una sola, se precederà tal parola dinanzi ad essa
+che insieme formino il fine di un verso eroico con un dattilo e con un spondeo,
+sempre renderà un numero perfettissimo e sonoro a paro di qual si voglia altro
+piede.</p> 
+<p>Onde, se alcuno vorrà forse proceder più oltre et adoperar tai numeri che
+fermamente con certe regole facciano sempre la clausula risonante con varietà,
+procuri di aver in pronto una gran copia di parole che con sillabe lunghe e
+brevi acconciamente si confacciano a' primi, agli ultimi, et a' penultimi piedi
+che ha usato nel comminciamento e nel finimento delle sue clausule Marco
+Tullio; la qual cosa non essere impossibile e primo e solo iudiciosamente ha in
+questa lingua Messer Sperone e avvertito ne' suoi privati ragionamenti et
+osservato poi nelle sue prose, le quali risplendono tanto a comparazion delle
+altre quanto fa il parlar numeroso a paro di quello che fondono alcuni senza
+misura e senza regula. Chi desidera totalmente riuscir in una così onorata
+impresa anderà poscia variando i piedi leggiadramente, non riponendo sempre i
+medesimi in ogni estremità ma ora questo ora quello, per il che fuggendo la
+sazietà e l'affettazione mirabilmente deletterà.</p> 
+<p>A tutte queste osservazioni aggiungeremo per ultima, e potentissima, il
+iudicio delle orecchie avezze ne' componimenti e nella lezione de' boni
+scrittori, le quali non sogliono totalmente ingannarsi intorno alla presente
+materia, essendo loro propria e particolare, onde il più delle volte quello che
+ne consiglieranno non sarà forse molto lontano dalla vera idea che tuttavia noi
+andiamo investigando.</p> 
+<p>Alla presente parte mi par che spettino ancora le figure del dire, come
+quelle che quasi lumi della orazione rendono le clausule, delle quali abbiamo
+prossimamente parlato, perfettamente illustri et adorne. Di queste, alcune sono
+delle sentenze, che rimangono con qualunque forma di parole saranno da noi
+spiegate; alcune sono delle parole, che si tolgono via levandole e
+tramutandole. Delle sentenze sono la interrogazione, la soggezione, la
+sospensione, la preparazione, la preoccupazione, la correzione della sentenza,
+il pentimento, la dubitazione, la comunicazione, la rappresentazione, la
+imitazione, la prosopopeia, la conversione, la interpellazione, la reticenza,
+la occupazione, la significazione, la circonlocuzione, la licenza, la
+parentesis, la concessione, la confessione, la compensazione, la permissione,
+la ironia, la irrisione, la distribuzione, la proposizione, la transizione, la
+enumerazione, la coacervazione, la ratiocinazione, la similitudine, la
+deffinizione, la commorazione, la sentenza, la conclusione, la esclamazione,
+l'admirazione, l'admonizione, l'obiurgazione, la ripprensione con villania, la
+reiezione, la digressione, il ritorno, la obsecrazione, la esecrazione, la
+desiderazione, l'asseverazione, il giuramento, la replicazione della istessa
+sentenza, la superlazione, la invocazione, la esultazione, la deplorazione, la
+comparazione. Delle parole sono la repezione, la conversione, la complessione,
+la conduplicazione, la traduzione, la varietà delle voci di un istesso
+significato, la espolizione, la gradazione, l'articolo, la disoluzione, la
+velocità, l'adiunzione, la disiunzione, l'agnominazione, la similitudine della
+cadenza, la similitudine della desinenza, la parità de' membri, la
+contraposizione, la commutazione, la correzione della parola, la dinumerazione.
+Di tutte queste figure altre sono più proprie all'argumentar, altre al
+conciliar, altre al muover questo e quell'altro affetto, altre alla forma del
+dir umile, altre alla forma del dir mediocre, altre alla forma del dir grave,
+altre al proemio, altre alla narrazione et alla introduzion della causa, altre
+alla confirmazione, altre alla confutazione, altre alla conclusione; delle quai
+cose non ci è permesso, in un così breve trattato quale ci abbiamo proposto, di
+ragionar al presente più a lungo. Altrove forse assai più commodamente a pieno
+discorreremo. Alla elocuzione segue finalmente l'azione, per venir all'ultima
+parte della facultà dell'oratore. Dovemo dunque secondo le occasioni
+differentemente accommodar la voce alla materia soggetta, et oltre ciò ancora i
+movimenti del corpo, e massimamente i volgimenti del viso e degli occhi, i
+quali più che tutte le altre parti fanno indicio delle nostre intrinseche
+passioni dell'animo. La virtù della voce è che ella sia ora alta, ora bassa,
+ora mediocre, ora grave, ora acuta, ora mezzana. Il volto, sì come non si
+dimostra il medesimo in noi dolenti et allegri, adirati e misericordi, così
+quando parleremo nelle cause non lo dovemo, disproporzionar dal soggetto che
+tratteremo. Ancor le braccia e le mani e le dita e li piedi variamente mossi in
+questa parte fanno il loro debito ufficio, per la qual cosa meritamente è stata
+deffinita l'azione essere un certo temperamento della voce e del corpo conforme
+alla qualità de' concetti e delle parole che proferiamo. Perciò che la varietà
+delle sentenze e delle forme del dire ne darà le regole alla vera pronuncia non
+altramente che faccia il suono a coloro che danzano e cantano. Altro tuono si
+richiede et altro moto quando argumentiamo, altro quando ci affatichiamo di
+renderci benivoli gli ascoltanti, altro quando procuriamo di muovergli ad ira,
+ad odio, ad invidia, a mestizia, a paura, a misericordia. Non falleremo,
+adunque, se per guida seguiremo essa natura, che è madre dell'arte, la quale
+non solamente negli uomini ma anco negli animali senza ragione ha dimostrato,
+secondo la diversità delle interior passioni dell'anima, una sì fatta mutazione
+di voce e de' movimenti del corpo.</p> 
+<p>Della memoria non abbiamo fatto menzione alcuna, per essere ella o naturale,
+e non averne di bisogno di amaestramenti, o artificiale e la medesima con la
+disposizione, essendo la orazione ben ordinata assai più atta ad essere
+ritenuta dalla memoria dell'oratore che da quella del iudice o degli
+ascoltanti.</p> 
+<p>Vi ho fin qui, nobilissimi giovani, s'io non m'inganno, brevemente descritta
+l'arte dell'oratore, avendovi distinto le sue parti più principali e lasciato
+quelle men importanti, che da' pari vostri, che avete lume d'ingegno e di
+iudicio, per una certa somiglianza si possono facilmente considerare. Or s'io
+abbia fatto cosa giovevole a' vostri studi, non lo saperei dir altramente. A me
+basta di aver tentato l'impresa e di avermi intorno a ciò grandemente
+affaticato. Onde se non acquisterò appresso di voi alcuna commendazione di
+laude, meriterò nondimeno, la vostra benivolenza, come iusto premio dovuto alla
+mia bona voluntà che ho avuto di rendervi il sentiero di questo tal esercizio e
+più facile e più ispedito; per la quale una sola e iustissima grazia, se i miei
+prieghi saranno di qualche autorità, non mi resterò di supplicarvi. E questa
+nessuna altra è se non che abbiate per raccomandate - et al presente e ne'
+vostri più maturi e felici anni et onori - quelle miserande reliquie della
+nobiltà del regno di Cipri, dalla vostra republica tanto cara avuta e sovra
+ogni altra esaltata, essendo ella o del numero di quegli istessi o del sangue
+di quegli i quali, avendo iudicato i loro meriti non si dover mai estinguere
+per alcuna lunghezza di tempo ne' vostri animi, non si sono mai stancati di
+spendere e di spargere tutti i loro beni, tutte le loro ricchezze e finalmente
+i figlioli, l'onore, la vita propria per osservar la lor fede inviolabile alla
+vostra inclita et eccelsa republica. E qual merito, qual benignità, qual pietà
+sarà mai pare alla vostra, giovani di valore e di virtù, se ancor al presente
+appresso i vostri clarissimi padri, avi e fratelli raccomanderete la iustissima
+causa della nostra fideltà, de' nostri meriti e delle nostre disaventure? Chi
+non esalterà una così pietosa vostra impresa? Chi di noi non porgerà sempre
+voti a Dio per la vostra lunga vita et esaltazione? Ma che dico io di noi?
+Quelle innocentissime anime de' nostri figlioli e nepoti, e parenti, che col
+loro sangue sparso per mantener la fede a Cristo et al lor principe, hanno
+accresciuto il numero de' beati e che assidono di continuo dinanzi la divina
+iustizia, non cesseranno mai d'intromettersi per la salute e per la
+conservazione di voi e della vostra republica.</p> 
+</div1> 
+</body> 
+</text> 
+</TEI.2>

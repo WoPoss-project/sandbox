@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il Rangone overo de la pace</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>31 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001311</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+
+<opener>A la serenissima granduchessa di Toscana,
+signora e patrona mia singularissima.</opener>
+
+
+	<p>Vostra Altezza è stata da la providenza d'Iddio collocata in una casa la quale è albergo de la religione e de la pace: percioché le varie e lunghe sedizioni da le quali fu la republica fiorentina perturbata, con la possanza e con l'auttorità di questi eccelentissimi principi sono estinte e acquetate; e quando non erano ancora in tutto sopite, non solamente si rinovarono con la morte di Lorenzo de' Medici, ma si stesero per tutte le provincie vicine di maniera che 'l fine de la sua vita fu principio de la guerra e de la servitù d'Italia. Sono stati poi gli altri i quali, governando la Toscana con l'arti medesime e con la medesima prudenza, hanno stabilita la quiete de la città e la riputazione e la grandezza del principato: e a' nostri tempi l'ultimo Cosmo fu onorato del titolo di serenissimo granduca, e Francesco suo figliuolo in questo e ne gli stati e nel valore del padre è succeduto. Al quale essendo Vostra Altezza congiunta in matrimonio, oltre le virtù che seco ha portate, v'ha ritrovata particolarmente o accresciuta quella che suol favorire gli studi de le belle lettere e de le scienze, amiche de l'ozio e de la tranquillità: laonde a niuno più che a lei ho giudicato convenirsi questo mio dialogo in cui de la pace si ragiona. E quantunque egli sia picciolo molto, i piccioli doni non furono dal gran Cosmo e dal gran Lorenzo rifiutati. Ma se Vostra Altezza avrà risguardo a le cose in lui contenute, le parranno di sorte che stimerà convenevole ardire quel ch'io mostro nel mandargliele e nel pregarla che si degni di raccorlo sotto la sua protezione. E le bacio umilissimamente le mani.</p>
+	<p>Da le mie stanze in S. Anna, il 13 di luglio 1584. </p>
+		<p>Di Vostra Altezza serenissima</p>
+<closer>
+umilissimo servitore
+<signed>TORQUATO TASSO</signed>
+</closer>
+
+</div1>
+
+
+<titlePage>
+<docTitle>
+<titlePart type="main"> IL RANGONE OVERO DE LA PACE </titlePart>
+</docTitle>
+</titlePage>
+	<castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>TORQUATO RANGONE,</role></castItem> <castItem type="role"><role>FORESTIERO NAPOLITANO.</role></castItem></castList>
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<sp><speaker>T.R.</speaker><p>Così facendo, ritorno da quella parte ne la quale si trattava la pace; quantunque non sia conchiusa, non mi pare di esserci stato indarno, perché n'ho riportata la scienza e la cognizione.</p></sp>
+	<sp><speaker> F.N. </speaker><p> E quale è questa scienza o questa cognizione, signor Torquato? Sono io degno d'impararla? </p></sp>
+	<sp><speaker>T.R.</speaker><p> D'insegnare più tosto sete meritevole che d'imparare; ma volentieri vi dirò quel ch'io n'ho appreso, e più volentieri udirò la vostra opinione in quel particolare nel quale dal gentiluomo bolognese pareva discorde il signor cavalier Gualengo: percioché ne l'altro s'accordavano facilmente. </p></sp>
+	<sp><speaker> F.N.</speaker><p> Distinguete qual fosse la concordia e qual la discordia. </p></sp>
+	<sp><speaker> T.R.</speaker><p> Ne la definizione e ne la divisione de la pace erano concordi, ma discordi ne la maniera di farla tra que' duo gentiluomini che sono venuti in contesa: perché diceva il bolognese che la pace era o naturale o interna o privata o civile o universale: e naturale egli chiamava quella de gli elementi, i quali si congiungono insieme per generare o pietra o albero o animale o altro corpo misto sotto la signoria d'alcuno, dal quale il movimento sia determinato; interna diceva quella ch'è fra gli umori nel corpo de l'uomo; privata quella ch'è fuor di lui fra lui o altra privata persona; civile quella ch'è fra tutti i cittadini i quali vivono in una cittadinanza; universale ultimamente dimandava quella ch'è fra l'una e l'altra città e l'uno e l'altro regno e l'una e l'altra nazione, come leggiamo che fu in quel tempo ch'Ottaviano Augusto, già monarca del mondo, fece descriver le genti sottoposte al suo imperio: e per genere a tutte queste paci egli assegnava l'unione, e quella particolarmente la qual è fra privato e privato diceva esser unione. Ma tutte queste cose e altre si leggono, come egli gli disse, in un libro de la <emph>Pace</emph> di nuovo stampato; le quali dal Gualengo, ch'è modestissimo cavaliero, furono volentieri laudate. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Sin ora avete narrata la concordia de le opinioni: or, se vi pare, raccontateci la discordia. </p></sp>
+	<sp><speaker>T.R.</speaker><p> La discordia fu nel modo del far la pace tra' due gentiluomini: perché, essendo stato offeso ingiustamente l'uno, il quale è molto superiore di grado, da l'altro, che gli era inferiore, pareva che da la parte de l'offeso alcuno ricercasse che l'offenditore si rimettesse; e diceva il bolognese ch'il rimettersi conforme al giusto non è cosa servile, anzi è onorata percioché è giusta. A questo rispondeva il Gualengo che 'l rimettersi, se pur è cosa onorata, non merita quello onore che si conviene ad uomo libero, ma più tosto quello che si deve al servo, il quale tanto participa de l'onore, quanto è partecipe de la virtù; e perché egli non è privo a fatto di virtù, non è convenevole che gli sia negato ogni premio d'onore o pur quello che si fa a gli altri, i quali son legitimamente sottoposti a l'altrui podestà, com'è il figliuolo, che rende ubedienza al padre, e 'l soggetto, che la presta al principe: a questi dunque il rimettersi è conveniente, e a ciascun'altra sorte di persone è disdicevole molto. Soggiungeva ancora che non tutto ciò ch'è giusto è onorato: percioché è giusto ch'il reo sia punito, pur non riceve onore con la pena che gli è data, ma vergogna più tosto, la quale è una specie di pena imposta da le severe leggi e communemente suole esser dimandata nota d'infamia; laonde conchiudeva ch'essendo giusta la remissione, non è giusto che sia fatta da l'uno ne l'altro privato, ma dal privato nel principe. Nel principe dunque doveva farsi liberamente: e s'offeriva ancora di trattar questo accordo con Sua Altezza in modo che que' duo gentiluomini dovessero rimanerne sodisfatti; la qual sodisfazione pareva che l'offeso non ricevesse volentieri, come colui che troppo di potenza e d'autorità è superiore. Laonde, veduto ch'altro non si conchiudeva, mi son partito senza quella contentezza la quale avrei se questi due gentiluomini fossero insieme pacificati, ma non senza ogni utilità, perché molte cose mi pare d'avere imparate, e particolarmente la definizione e la division de la pace, de la quale non è più nobile alcun'altra scienza. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma se questa è scienza, deve esser nel valore simile a l'altre o pur dissimile? </p></sp>
+	<sp><speaker> T.R.</speaker><p> Simile a mio parere. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma chi è simile nel valore, non è parimente simile ne la possanza: percioch'il valore e 'l potere è quasi il medesimo. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così è sempre. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la medicina non è ella possente di risanar gli infermi? </p></sp>
+	<sp><speaker>T.R.</speaker><p> È molte volte. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E l'arte del navigare è possente di ridur le navi in porto, e quella del carattiere di guidare i carri e le carette con le persone salve a l'albergo desiderato? E la scienza de l'oratore può volgere e rivolgere gli animi in quella parte dove più gli piace? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così aviene spesse volte. </p></sp>
+	<sp><speaker> F.N.</speaker><p>E quella del capitano può espugnar le città e vincer gli esserciti? </p></sp>
+	<sp><speaker>T.R.</speaker><p>Questa io stimo che sia più di tutte l'altre possente; percioché là dove ella pare sconvenevole che vinca alcuna altra cosa, nondimeno molte fiate non è in poter del capitano il riportar la vittoria, ma de la fortuna.</p>
+    </sp>
+	<sp><speaker>F.N.</speaker> <p>Ma 'l geometra può sempre descrivere il circolo o imaginarlo, il centro del quale sia egualmente lontano da la circonferenza, o 'l triangolo da tre linee rette esser contenuto? </p></sp>
+	<sp><speaker>T.R.</speaker><p>Sempre. </p></sp>
+	<sp><speaker>F.N.</speaker><p>La geometria dunque avrà maggior possanza. </p></sp>
+	<sp><speaker>T.R.</speaker><p>Avrà. </p></sp>
+	<sp><speaker>F.N.</speaker><p>E l'aritmetico in ogni tempo agevolmente può sottrarre e multiplicare. </p></sp>
+	<sp><speaker>T.R.</speaker><p>Assai facilmente. </p></sp>
+	<sp><speaker>F.N.</speaker><p>Dunque molto più de l'altre possenti sono queste scienze, perché possono sempre quel che l'altre possono alcuna volta, e però sono vere scienze. E se la scienza de la pace è vera scienza, può acquetare e pacificar gli animi. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così è ragionevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E se questa non è stata possente di placar l'ire e gli sdegni di que' duo cavalieri, non è vera scienza: perché la vera scienza non è vinta da la passione né tirata da lei a guisa di schiavo, anzi di lei niuna cosa è più forte o più valorosa. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così mi par che seguiti da le cose dette. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma veggiamo se la falsità e l'errore sia ne la divisione o ne la definizione, pur ne l'una e ne l'altra; e se fosse in ambedue, niuna maraviglia sarebbe che questa falsa scienza mostrasse tanta debolezza. E se vi piace, cominciamo da la divisione, e ditemi: avete mai veduto alcuno infermo temperante? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Io n'ho veduti alcuni e di molti ho uditi ragionare, ma di niuno con lode maggiore che de la duchessa Barbara di gloriosa memoria, de la cui reale temperanza il signor Alessandro Pocaterra, suo fedele e grato servitore, suol raccontar le maraviglie. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Mentre ella era inferma e insieme temperante, era pace o guerra nel suo nobilissimo corpo? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Guerra, percioché guerra è la mala temperanza de gli umori. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Guerra dunque era nel corpo e pace ne l'animo, se ne l'animo l'appetito obbediva a la ragione. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Sì veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma nel sano intemperante par ch'avenga il contrario, se pur v'è alcuno intemperante che sia ben sano; perché gli umori sono con buona armonia mescolati nel corpo, ma ne l'animo nondimeno la cupidigia fa resistenza a la ragione e molte volte, prendendo il freno co i denti in quella guisa che sogliono i cavalli furiosi, la trasporta fuor del camin diritto. Nel sano intemperante dunque la pace è nel corpo e la guerra ne l'animo. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> La pace interna dunque non è una sola, perché diversa è quella la quale li è ne gli umori del corpo da quella che tra loro fanno le potenze irragionevoli de l'animo, o pur da quella che suole esser tra le dette virtù e la ragione. Oltre di ciò udiste raccontare d'alcuno giamai, nel quale l'ira e la cupidità ubbedissero a la ragione umana, e la ragione umana ricusasse di sottoporsi a quella divina legge che fu mandata in terra miracolosamente? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Peraventura sono così fatti molti cavalieri, i quali par ch'abbiano l'animo sì ben composto che niuna potenza inferiore suol ripugnare a la superiore; nondimeno la superiore, cioè il nostro intelletto, nega l'ubbedienza a' divini commandamenti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E allora, benché paia che l'anima abbia pace in se medesima, nondimeno è ribella di Dio ottimo e grandissimo, e combatte contra le sue giustissime e santissime leggi: laonde questi ancora sono diversi stati de l'anima. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Diversa stimo la pace de l'anima in se stessa da quella ch'è fra l'anima e 'l creatore: tutta volta l'una senza l'altra non è vera pace. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma da queste paci interne non ha egli fatto passaggio a la pace privata, la quale è fra' cittadini? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Ha fatto senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E dove ha lasciata la pace domestica, quella, dico, la quale il padre ha co' figliuoli e 'l marito con la moglie e i fratelli e i cugini fra loro, i quali alcuna volta sotto il medesimo tetto sogliono albergare? Né già questa doveva rimanere a dietro, perch'in vano ne le piazze e ne le publiche strade sarebbe concordia fra i venditori e i compratori, e ne' luoghi assegnati a le guardie fra' soldati, e ne le sale e ne le camere de' principi fra gentiluomini e cavalieri, se dentro le mura private alloggiasse l'odio e la nemicizia: anzi dove non è la pace famigliare, non credo ch'in alcun modo possa ritrovarsi la civile. Oltre di ciò la pace ne la quale vivono le città con le città e popoli con i popoli e gli imperi co gli imperi, quantunque ci fosse la tranquillità de gli ordini de l'universo, non sarebbe la vera e perfettissima pace. Dunque non ben divise la pace colui ch'in tal maniera la divise, o almeno non annoverò tutte le sue spezie, e de le nobilissime e perfettissime par che si dimenticasse, forse perché non volle ragionarne così altamente come avrebbe saputo, ma fu contento di starsene fra que' termini che da la filosofia morale pare che siano prescritti; tra' quali restandosi, doveva nondimeno di alcuna de le già dette spezie far menzione. Ma passiamo a la definizione, e ditemi prima: non vi pare egli ragionevole che, quantunque io sin ora non abbia parlato con la dottrina de' Peripatetici, se voglio impugnar questa definizione che pare uscita da le scuole peripatetiche, non solo de la platonica sia lecito di servirmi, ma de la aristotelica, in quelle cose massimamente ne le quali non c'è discordia? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Ragionevolmente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dirò dunque che non è conveniente che si ponga nel genere quello che participa del contrario; ma la pace, che si pone ne l'unione come sua spezie, participa de la moltitudine. E ciò andremo partitamente considerando, e prima ne gli elementi, la pace de i quali consiste ne la moltitudine de le qualità ch'insieme si accompagnano, e poi ne i misti perfetti e imperfetti e ne gli animali, la concordia de' quali è riposta ne la moltitudine de gli umori ben temperati: laonde possiamo dire che queste cose siano e non siano, percioché, quanto participano de l'unione, participano de l'esser, e quanto caggiono da l'uno, caggiono da l'esser parimente. E se la unione non è opposta a la moltitudine ma più tosto la divisione in molte parti, la qual potremo dimandare con proprio nome discordia, in tutti i composti vedremo ritrovarsi la discordia con l'unione e participar l'una de l'altra: né solo ne' composti, ma in quelli ancora che son detti corpi semplici, né sono però a fatto puri e separati da ogni discordia: laonde ragionevolmente fu detto che l'amicizia e la lite son princìpi de le cose. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così stimo, e sempre molto mi piace di conoscer la convenienza la quale è fra le ragioni de gli antichi filosofi e de' Platonici e de' Peripatetici. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questa unione e questa discordia parimente trovarete nel corpo de l'uomo e ne la casa e ne la città: percioché, se non vi fosse discordia, non vi sarebbe alcuna diversità o alcuna distinzione, ma tutte le cose sarebbono confuse o più tosto una sola; ma la discordia d'una le fa molte, e le distingue e le divide e dà loro quella forma che veggiamo, e quasi con ami o con fibie in tutte si congiunge con l'unione in modo che la concordia è discorde e la discordia concorde e l'uno multiplicato e la moltitudine unita. Dunque, se la concordia o l'unione in tutte queste paci è partecipe del contrario, non istimo che sia convenevolmente assegnata per genere de la definizione. Ma vogliam ciò più minutamente considerare ne la pace che si fa tra gli uomini? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Consideriamlo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Or ditemi: volete ch'ella sia giusta o ingiusta? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Giusta. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la giustizia non divide ella fra molti quel ch'è conveniente? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Divide. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E di questa divisione partecipa ciascuna pace: percioché senza lei si viverebbe in discordia ne le città. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così stimo; tuttavolta la pace non pare che tanto s'appertenga a questa spezie di giustizia, la quale è chiamata distributiva e consiste ne la divisione de' beni e de gli onori de le città, quanto ne l'altra ch'è detta correttiva, la quale non so che participi d'alcuna divisione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma quale è l'ufficio e l'operazione di questa giustizia? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Il torre quel ch'è soverchio a l'ingiuriante e aggiungere quel che manca a l'ingiuriato. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma l'aggiungere non è una maniera d'unione? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Sì certo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque il torre, ch'è suo contrario, è divisione. Or vedete come in questa giustizia ancora l'unione e la divisione si ritrovino insieme. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Il veggo assai chiaramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Or seguitiamo oltre in quella guisa ch'abbiamo cominciato, e ditemi: non vi pare ancora conveniente che la definizione sia data non per le cose che sono dapoi, ma per quelle che sono prima? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma se prima sarà la pace de l'unione, non sarà buona la definizione. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Non a mio giudizio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma qual giudicate voi prima, l'unità o l'unione? </p></sp>
+	<sp><speaker>T.R.</speaker><p> L'unità: e peraventura l'unione, come linea da punto, deriva da l'unità. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, se la pace è unità, non è ben riposta ne l'unione. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Non è. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma s'ella sia unità o non sia, cercheremo appresso: or vorrei sapere se la definizione deve esser data per le cose inferiori o per le superiori. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Per le superiori. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, se l'unione è superiore a la pace, ella sarà per questa ragione ben data; ma s'ella è inferiore, sarà mal data. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Sì certo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Or consideriamo se l'unione sia inferiore o superiore. E non abbiam già detto che l'unione participa de la discordia? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la discordia non è sempre dove è moltitudine, come si vede discorendo non solo per le ville e per le castella e per le città e per li regni e per le nazioni, ma per gli elementi ancora e per li composti naturali? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Sempre veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque l'unione sarà sempre con la multitudine; e dove non fosse alcuna moltitudine, niuna discordia e niuna contesa ritroveremmo. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Niuna a mio giudizio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> La moltitudine dunque è madre d'ogni guerra e d'ogni sedizione. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così giudico. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la pace è sovra la multitudine o sotto? E accioché meglio intendiate, io vi chiedo se la pace ha vera essenza o non l'ha. </p></sp>
+	<sp><speaker>T.R.</speaker><p> L'ha per mio giudizio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque ella è una: perché, se fossero molte, non l'avrebbono. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così stimo che si possa conchiudere da le cose dette. </p></sp>
+	<sp><speaker> F.N.</speaker><p> Ma quel ch'è uno è sovra la multitudine o sotto? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Sovra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque sovra la multitudine è la pace: e s'ella è sovra la moltitudine, è sovra l'unione; non convenevolmente dunque per l'unione poteva esser definita. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Già assai mi pare vero quel che sin ora mi pareva assai difficile da provare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Appresso vi pare che 'l definire e 'l determinare siano una cosa medesima o pur diverse? </p></sp>
+	<sp><speaker>T.R.</speaker><p> L'istessa. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque definizione è il medesimo ch'il termine. </p></sp>
+	<sp><speaker>T.R.</speaker><p> L'istesso. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma vedeste mai alcun termine che fosse instabile e incerto? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Niuno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Stabili dunque tutti e certi; e però forse de le pietre gravissime o de' grandissimi tronchi d'alberi sogliono farsi i termini; e quelli ch'appresso gli antichi erano chiamati termini, giamai non erano mossi, se non quando la pace per la discordia de' confini era violata. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così credo ch'avenisse. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Se la definizione dunque è termine, dee essere stabile. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Dee. </p></sp>
+	<sp><speaker>F.N. </speaker><p> Ma l'unione è sempre così fatta? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Non pare: anzi l'unioni per la maggior parte sono instabili e facilmente si dissolvono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non doveva dunque la pace esser definita per l'unione, ma per cosa che fosse più stabile e certa: ultimamente, quando una cosa medesima può definirsi e al migliore e al peggiore, a quale dee più tosto definirsi? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Al miglior senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma il migliore sta egli sempre co 'l suo contrario in guerra e in contrasto, o più tosto è seperato da ogni contesa e lontano da ogni perturbazione? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Lontano a mio parere. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque non doveva esser definita da l'unione, la quale è sempre con la discordia, ma da alcuna cosa che sia remota e secura da tutte le noie ch'ella suole apportare. Dunque, sì come ne le ragunanze suole esser introdotta alcuna legge, e se la nova è migliore, toglie autorità a l'antica, così l'una dee torla a l'altra definizione. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Così par assai ragionevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E chi difinisce dee risguardare ne l'essempio, ch'altri direbbe essemplare, nel quale niuna cosa manchi e niuna soverchi di quelle che sono nel difinito. Ma dove ricercheremo questo o dove il ritrovaremo, signor Torquato? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Ne' libri forse di coloro i quali pur dianzi nominaste. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma alcuni vogliono che ne la mente divina o pur d'intorno al re de l'universo sia l'essempio di tutte le cose: percioché, dovendo egli l'esser perfetto, nissuno perfetto essempio qua giù si ritrova, e quelli che ci paiono essempi sono più tosto copie e ritratti. Laonde, ascoltando quel che voi diceste de la pace e de la definizione, imaginai Michel Angelo o qualch'altro eccelente imitatore, il quale, volendo altrui dimostrare l'uomo o il cavallo, gliele mostrasse scolpito in marmi e dipinto ne le tele o ne le carte in varie forme grandi e picciole, e, credendosi d'aver dimostrato l'uomo, non l'uomo ma la imagine avesse dimostrato: perché non definì la pace, ma figurò l'imagini de la pace, impresse in varî soggetti e con diversi modi, sì come al divino artefice è piaciuto, il qual prima ne formò l'essempio, che può dimandarsi propriamente essa pace, io dico l'idea de la pace e de la concordia, sovra la quale ancora è la divina unità e la divina pace, che supera ogni essenza e avanza ogni intelletto: e questa è custode de la proprietà di ciascuna cosa; e perch'a la giustizia s'appartiene di conservar quel ch'è proprio di ciascuno, e misura ogni egualità e definisce ogni inegualità per la quale tutte le cose sono differenti tra loro, <add>ne segue</add> che la pace e la giustizia divina siano l'istessa. Or vi pare, signor Torquato, ch'a questo modo ancora si debba congiungere nel mondo la pace e la giustizia? </p></sp>
+	<sp><speaker>T.R.</speaker><p> Sì veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma se la divina giustizia è salute di tutti, di tutti è salute la pace. </p></sp>
+	<sp><speaker>T.R.</speaker><p> A questa somiglianza ancora qua giù la giustizia e la pace dovrebbono conservarsi. </p></sp>
+	<sp><speaker>F.N.</speaker><p>  Ma da la conservazione di quel ch'è proprio di ciascuno e di quel che da gli altri il fa differente, nasce ch'ella sia principale nel placar gli animi e nel farli benevoli, di maniera che non è vera benevolenza o vero amore o vera amicizia dov'ella non si ritrovi. Questa è da tutti desiderata e riduce la moltitudine di tutte le cose ad una perfetta congiunzione; questa passa per tutto e per tutto penetra; per questa le cose ancora, le quali si muovono naturalmente e si rallegrano de la divisione e de la congiunzione, sono partecipi de la pace e nel moto istesso ritrovano la propria quiete; per questa la discordia medesima diviene amichevole e l'unione si congiunge con la divisione: ma questa è sovra l'unione e sovra l'idea, e perché di lei non si può ragionar convenevolmente, si chiama convenevolmente silenzio. Questo è quel alto, quel profondo, quel dolce, quel divino silenzio nel quale tutte le ingiurie sono taciute e tutte dimenticate; questo è quel mirabile silenzio, tanto superiore ad ogni armonia e ad ogni concento che facciano gli angioli, lodando il creatore, quanto la divina caligine è più luminosa del sole e de le stelle e d'ogni altra luce che sia nel cielo: onde a paragone di questo fu quasi ombra oscura quello che fu deliberato dal comune consentimento de gli Ateniesi. Chi dunque risguarda ne l'essempio, che non è unione, ma unità sovra ogni moltitudine e sovra ogni essenza, conoscerà qual sia la vera pace: e questa cognizione o scienza sarà così possente che non mancheranno parole a l'eloquente d'acquetar tutti gli sdegni e tutte le passioni de' cori superbi. Ma io, che balbo sono come udite, potrei per grazia d'Iddio scioglier questa lingua in così alta e 'n così canora voce che tutta Italia m'udisse e tutta se ne maravigliasse: crederò nondimeno di ricever grazia se potrò ne l'oblivione di questo divino silenzio tuffar la memoria di tutte le offese, conservando quella de' benefici ricevuti. </p></sp>
+	<sp><speaker>T.R.</speaker><p> Di laudi veramente divine avete ornata questa pace così principale nel placar gli animi; laonde più mi sarà grato il silenzio che ne seguita; e quantunque io desiderassi d'udire alcune cose appertinenti a questa materia, nondimeno sono così picciole in comperazione de l'udite che mi gioverà il tacere. </p></sp>
+</div1>
+</body>
+</text>
+</TEI.2>

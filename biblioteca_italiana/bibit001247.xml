@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Apologia in difesa della Gerusalemme liberata</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>176 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001247</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Prose</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Mazzali, Ettore</editor>
+        <publisher>R. Ricciardi</publisher>
+        <pubPlace>Milano [ecc.]</pubPlace>
+        <date>1959</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">ita</language><language id="Lat">Lat</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>851.4 - POESIA ITALIANA, 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Narrativa</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-03-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Tiziana Mancinelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-03-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div1 type="epistola" n="Dedica">
+<opener><salute>ALL'ILLUSTRISSIMO ED ECCELENTISSIMO SIGNORE
+E PATRON MIO SEMPRE OSSERVANDISSIMO
+IL SIGNOR
+D. FERRANTE GONZAGA
+PRINCIPE DI MOLFETTA E SIGNORE DI GUASTALLA.</salute></opener>
+
+
+<p><emph>Volesse Iddio, illustrissimo ed eccelentissimo principe, che il mio Poema o non fosse stato soggetto ad alcune opposizioni, o non avesse ritrovato l'oppositore; ma poi che l'una è imperfezione dell'arte umana, la qual non può far cosa perfetta; l'altra della nostra natura, la qual fa gli uomini men pronti al lodare che al biasimare, debbo ringraziarlo che, se mi son negate l'altrui lodi, non mi sian mancate le mie difese: le quali ho raccolte in questa operetta, che porta in fronte il titolo</emph> d'<title>Apologia</title>. <emph>Questa, benché sia picciola, come Vostra Eccellenza può vedere, è nondimeno gran testimonio d'affezione e d'osservanza: perciò che a lei s'appoggia la maggiore opera ch'io abbia fatta, la mia speranza, la salute e (se dirlo m'è conceduto) la fortuna. Prego dunque Vostra Eccellenza che la riceva con quella medesima volontà con la quale io gliele mando; e le dia tanto favore, quanto ella ha ragione: ch'io in tanto, con ogni debita riverenza, a Vostra Eccellenza bacio le mani. Di Ferrara, alli 20 di luglio 1585</emph>.</p>
+<p rend="italic">Di Vostra Eccellenza</p>
+<closer><salute>obligatissimo e devotissimo ser. </salute>
+<signed>TORQUATO TASSO.</signed></closer>
+</div1></front>
+<body>
+      <div1 type="parte" n="Apologia in difesa della Gerusalemme Liberata">
+<p>Io non so bene in qual guisa voi, signori ed amici, siate stati commossi dal mio oppositore; ma io da le sue opposizioni non ho preso tanto dispiacere quanta maraviglia: perciò che mi piacque sempre la città di Fiorenza, non solamente la sua lingua; e mi pare assai ragionevole d'aver molti amici, dove a molti portai affezione; e dove nissuno odiai, di non aver alcun nimico. Se, dunque, nimico non è stato l'oppositor Fiorentino, che si chiama difensor dell'Ariosto, ben che non sia questo il suo fin principale, quale affetto l'ha mosso? Dice egli: per servire a la causa. Ma se pur ciò non è altro che il far superiore la causa inferiore, questo non era necessario, non essendo il mio poema superiore al poema dell'Ariosto per giudizio universale; né per quel del Pellegrino ancora, che ne parlò con maggior lode che io non conosco di meritare; e se a la causa in questo modo non sogliono servire questi tali, ma sì non consentendo che la superiore diventi inferiore, e l'inferiore occupi contra ragione il luogo della superiore io non mi dolgo che abbiano cercato d'impedirmi questo onore che m'era fatto da gli amici, perché di nissuna cosa ragionevole mi debbo dolere: più tosto dovrei lamentarmi di coloro che, inalzandomi dove non merito di salire, non hanno risguardo al precipizio. Le mie lodi dunque, ed i biasimi, da me non debbono esser misurate co 'l piacere o co 'l dispiacere, come sogliono ordinariamente, ma con la verità e con la falsità; e se elle son vere, o lodi o riprensioni che siano, debbono piacermi; dispiacermi, se elle son false. Né mi par credibile che il SEGRETARIO d'una Academia fiorentina, o pur l'Academia tutta, scrivendo di cose di poesia e di lingua, nella quale sono molto superiori a tutte le nazioni, come pare a lor medesimi, abbiano detto il falso per ignoranza, né debbano sostenerlo per animosità o per servire a la causa; perciò che i retori servono a la causa, e l'officio dei retori è dire il vero, sì come de' giudici il diffinire il giusto; la qual persona l'oppositore si veste nel fine del libretto, e dà la sentenza conforme a la difesa che egli fa dell'Ariosto, o poco differente, concludendo che il paragone è troppo ineguale; e con queste parole non tanto biasima il mio poema, o pur me stesso, che non cercai mai d'esser paragonato in tal guisa con alcuno, quanto l'amico mio, che troppo m'aveva onorato: il quale se così bene avesse inteso o spiato gli affetti del mio cuore come gli artificii della poesia, non avrebbe fatta questa comparazione o non l'avrebbe fatta in questo tempo. Ma egli è così dotto che non dee temer di non difendere le cose dette in mia lode, o pure in commendazione dell'Ariosto: le lodi del quale ascolto più volontieri delle proprie, perché son più convenienti.</p>
+      <p>Nissuna cosa, dunque, ho letto o di colui che fa il giudizio, o dell'altro che riprende co 'l giudizio me che son giudicato e non fui citato già mai, da la quale io sia più stato offeso che da quelle che toccano mio padre: perché io gli cedo volontieri in tutte le maniere di componimenti, né potrei sostenere che in alcune di esse alcuno gli fosse anteposto. Dunque, mi deve esser lecito che io prenda la sua difesa; la quale non dirò che sia commandata da le leggi ateniesi, come disse già Socrate, o da le romane, ma da quelle della natura, che sono eterne, né possono esser mutate per volontà d'alcuno, né perdono l'autorità con la mutazione dei regni e degli imperii. E se le leggi naturali che appartengono a la sepoltura dei morti debbono essere preposte a i commandamenti dei re e dei principi, ciò si dee far più ragionevolmente in quelle che son dirizzate a la perpetuità dell'onore e della gloria, che si stima quasi la vita dei morti. E perché mio padre, il quale è morto nel sepolcro, si può dir vivo nel poema, chi cerca d'offender la sua poesia, procura dargli morte un'altra volta: e ciascuno l'offende, che lo vuol fare inferiore ad alcun altro della medesima sorte, e particolarmente al <title>Morgante</title> ed al Boiardo, a i quali è tanto superiore nell'elocuzione e nelle bellezze poetiche che in niun modo più ardito potrebbe l'oppositore fare inferiore la causa superiore. Né so ben conoscere le ragioni che 'l muovano a lodar tanto il <title>Morgante</title>; anzi mi pare che 'l Pulci non s'accorgesse d'aver fatto quasi una tragicomedia, volendo far un poema eroico: in cui non essendo parte alcuna che si convenga a quella maniera di poema, non può esser preferito o agguagliato a quel di mio padre, il qual nondimeno fece professione di cortegiano, non di poeta; e le sue proprie lodi furono quelle che egli meritava in corte: l'altre degli studi sono state accidentali, e ricercate da lui dopo la sodisfazione dei padroni che egli serviva, a i quali principalmente cercava di compiacere. E credo fermamente, amici e signori miei, che non vi sarà discara la narrazione d'una breve istoria, la qual precederà la difesa e l'illustrerà: perché ella non s'assomigli alle battaglie che si fanno di notte, le quali sogliono apportar maggior pericolo a i difensori.</p>
+<p>Sappiate, dunque, ch'essendo mio padre nella Corte di Spagna per servizio del principe di Salerno suo padrone, fu persuaso da i principali di quella Corte a ridurre in poema l'istoria favolosa dell'<title>Amadigi</title>; la quale, per giudizio di molti e mio particolarmente, è la più bella che si legga fra quelle di questo genere, e forse la più giovevole; perché nell'affetto e nel costume si lascia a dietro tutte l'altre, e nella varietà degli accidenti non cede ad alcuna che da poi o prima sia stata scritta. Avendo, dunque, accettato questo consiglio, sì come colui che ottimamente intendeva l'arte poetica, e quella particolarmente insegnataci da Aristotele, deliberò di far poema d'una sola azione, e formò la favola sopra la disperazione d'Amadigi per la gelosia d'Oriana, terminando il poema con la battaglia fra Lisuarte e Cildadano; e molte dell'altre cose più risguardevoli avvenute prima, o dopo succedute, narrava negli episodi o nelle digressioni che vogliam chiamarle. Questo fu il disegno, del quale alcun maestro dell'arte no 'l poteva far miglior, né più bello. Ma finalmente, per non perder il nome di buon cortigiano, non si curò di ritener a forza quello d'ottima poeta; e udite come.</p>
+<p>Leggeva alcuni suoi canti al principe suo padrone; e quando egli cominciò a leggere, erano le camere piene di gentiluomini ascoltatori; ma nel fine, tutti erano spariti: da la qual cosa egli prese argumento che l'unità dell'azione fosse poco dilettevole per sua natura, non per difetto d'arte che egli avesse: perciò che egli l'aveva trattata in modo che l'arte non poteva riprendersi: e di questo non s'ingannava punto. Ma forse gli sarebbe bastato quello che bastò prima ad Antimaco Colofonio, a cui Platone valeva per molti, se 'l principe non avesse aggiunto il suo commandamento a la commune persuasione: laonde convenne ubidire,
+<quote rend="block">
+<lg><l rend="italic">ma co 'l cor mesto e con turbato ciglio;</l></lg>
+</quote></p>
+<p>perciò ch'egli ben conosceva che il suo poema perdeva con l'unità della favola molto di perfezione. Non disperò nondimeno di ritenersi il nome di grande e di buon poeta, e quel che egli non aveva disperato, ricercò con molta fatica; né si spaventò per la nuova gloria dell'Ariosto, né per la grazia che egli ebbe fra principi, fra cavalieri e fra donne; la quale (come disse alcuno) poteva ascondere tutti i suoi difetti, s'egli n'aveva alcuno; ma conobbe mio padre giudiziosamente quello che in questa maniera di poemi era conveniente, e l'adempié felicemente. Perché quantunque questi, che son detti romanzi, non sian differenti di spezie da i poemi epici o eroici, come io scrissi prima di ciascuno, vivendo mio padre, al quale lessi le cose scritte; nondimeno molte sono le differenze accidentali: per le quali giudizioso poeta dee scrivere questa materia diversamente, quando egli sia pur costretto di trattarla: in quella guisa che a lo Scita ed a l'Etiope, benché siano della medesima spezie, o pure al ginetto di Spagna ed al Frisone si convengono diversi modi e vari trattamenti: della qual cosa non s'avvide peraventura l'Ariosto; però s'assomigliò a gli epici molto più degli altri che avevano scritto innanzi.</p>
+<p>Ma mio padre, vedendo che questi poemi si debbono porre fra quelli che son misurati con le misure degli estremi, e perché superano tutti gli altri di gran lunga, stimò che l'accrescimento fosse tanto più lodevole, quanto maggiore; e la grandezza tanto più risguardevole, quanto meno usata, perciò che fra' giganti ancora quelli sono più maravigliosi che superano più la commune statura; e nei colossi parimente. E questo avviene non solamente nel soverchio, ma nel defetto, avenga che dei cani gentili, che si tengono per diletto delle donne, e dei nani, il sommo è nella picciolezza.</p>
+<p>Nel mancamento, dunque, e nell'abbondanza, non solo nella mediocrità, è la propria misura, e quasi la propria perfezione; la quale mio padre, tutto che trapassasse il convenevole, ricercò convenevolmente; e s'avvide che l'esser dubbio nella spezie e nell'artifizio è d'imperfezione argumento: però scrivendo molte azioni, volle che fosse conosciuta la moltitudine; ma l'Ariosto, se è come dice l'oppositore, formò il suo poema quasi animal d'incerta natura e mezzo fra l'uno e fra l'altro: per questo, s'alcun dubita quale egli sia, condanna senza dubio l'artifizio del poeta. E perché le comparazioni allora sono più lodevoli e più acconcie a persuadere, che sono prese più d'appresso, né da parte più vicina si posson prendere comparazioni in materia di poesia che da l'istoria, da l'istoria debbono esser prese; ma fra l'istorie universali, che s'assomigliano a' poemi di molte azioni, quelle meritano maggior lode, le quali contengono maggior notizia di cose e maggior copia d'avvenimenti: dunque nei poemi, nei quali si riceve la moltitudine, si deve lodar la copia. E qual poema fu più copioso dell'<title>Amadigi</title>? qual più abondante, qual più ricco, non solo dell'invenzioni, ma dell'elocuzioni e delle figure e degli ornamenti poetici? le quali son tante che, senza impoverirne, potrebbe vestirne il <title>Morgante</title> e molti altri, che ne son quasi ignudi. Dunque il paragone fra il <title>Morgante</title> e l'<title>Amadigi</title> è molto disconvenevole: né meno ardito è chi fa questa comparazione di quel che sarebbe chi volesse paragonare alcuno assirio o ircano o caldeo con quel Ciro che acquistò il regno de' Persiani, o con quell'altro che guerreggiò co 'l fratello, il quale potrebbe dirgli: Perché tu contendi meco? Perché io son vestito riccamente, e tu poveramente; non sai che queste ricchezze sono acquistate con valore, e con virtù si difendono? e la tua povertà è certo argomento della tua picciola virtù. E s'egli fosse necessario, io rimoverei il velo così ricco e così splendido, il qual ricuopre le bellezze dell'<title>Amadigi</title>, acciò che non solo si vergognasse l'oppositore, ma l'amico, d'averlo stimato meno che non conveniva; se pure questo volle intendere, e non altro.</p>
+<p>Ma fra tutte l'opposizioni, quella certo mi pare indegna del giudizio fiorentino, la quale è scritta nel principio con queste parole: <emph>Tra Agatone e Bernardo Tasso non è conformità, perché il primo trovò da sé, il secondo copiò in tutto l'argomento e gli episodi; né altro fece che mettere questa istoria in versi e confonderla</emph>: perciò che mio padre trovò molte altre cose, oltre a quelle che scrisse il primo autore dell'<title>Amadigi</title>, e volle che le fatte da lui fossero eguali di bellezza e di numero a le prime del primo compositore, e sottopose a l'occhio, quasi in un paragone, l'une e l'altre: le quali non potriano così bene compararsi, né leggersi con tanto diletto, s'elle fossero separate. Né dee questa esser detta confusione, perché nella confusione ciascuna cosa perde la sua forma e non n'acquista alcun'altra; ma più tosto mescolanza, per la quale l'istoria ha perduto la forma dell'istoria, e presa quella della poesia, che non prenderebbe già mai, s'ella con la poesia non si mescolasse. E perché niuna cosa è più soave della mistura, il poema di mio padre è molto soave, anzi soavissimo, perché, oltra a tutte le misture è soavissima quella della favola e dell'istoria: e questa fu peraventura la cagione perché Erodoto, se pure è in qualche parte favoloso, come crede alcuno, piace oltra tutti gli altri istorici; e nomina ciascun suo libro da i nomi delle Muse.</p>
+<p>Ma quel che mio padre maravigliosamente mescolò, distinse ancora in cento canti, acciò che non fosse la mescolanza senza la distinzione, né la distinzione senza la mescolanza; ma la distinzione fosse mescolata, e la mescolanza distinta. E volle cominciare quasi in ciascun d'essi co 'l principio della descrizion dell'aurora: quel che 'l Boccaccio aveva fatto in diece giornate, per dimostrar maggior eloquenza nella maggior moltitudine delle descrizioni, le quali nel principio dei canti sono peraventura più lodevoli che i proemi morali, perché sono piene di maggior imitazione poetica: oltra di ciò, gli ammaestramenti dei costumi debbono esser brevi, secondo quel d'Orazio: «<foreign lang="Lat">Quicquid praecipies, esto brevis</foreign>»: ma l'Ariosto è longhetto anzi che no. Però mio padre non cede in questa, né forse in alcun'altra parte a l'Ariosto; e direi che sì come il supera molto di grandezza, così il superasse in alcuna altra cosa, se non fosse che a questo paragone vengo mal volontieri. E so che mio padre fu amico, mentre visse, a l'Ariosto; e le contese fra gli amici, se pur sono mai lecite, debbono esser molto diverse da quelle che si fanno tra' nimici. Nondimeno, paragonandosi una sola parte fra l'uno e l'altro poema, si potrà conoscere agevolmente quel che intorno a l'altro si potesse dimostrare. E 'l paragone sarà tra l'amor di Ruggiero e di Bradamante, e quel d'Alidoro e di Mirinda, che fu tutta invenzione di mio padre.</p>
+<p>Dico, adunque, che l'uno e l'altro amore è scambievole, come debbono essere i perfetti amori: l'uno e l'altro di guerriero e di guerriera: l'uno e l'altro di persone d'alto affare: e l'uno e l'altro ha fine e allegro e felice; ma perché in ciascuno amore di questa sorte l'amante è amato similmente, e l'amata amante, par convenevole che l'una di queste persone convenga più a l'uomo, e l'altra a la donna. E senza dubbio sarà più convenevole al maschio quella dell'amante, ed a la donna quella dell'amata, perché l'eccelenza delle donne consiste nella bellezza, la qual muove ad amare, sì come quella degli uomini è nel valore, che si dimostra nelle operazioni fatte per amore. E quantunque ciò sia conveniente in tutti gli amori fra l'uno e l'altro sesso, nondimeno questo decoro è proprio delle persone reali, oltra tutti gli altri. Convenevolmente, dunque, nell'<title>Amadigi</title> Alidoro è l'amante, e Mirinda l'amata. Ma questa convenevolezza non si ritrova nel <title>Furioso</title>, nel quale Ruggiero è amato più che amante, e Bradamante ama più che non è amata, e segue Ruggiero, e cerca di trarlo di prigione, e fa tutti quegli uffici e quelle operazioni che parrebbono più tosto convenevoli a cavaliero per acquistar l'amore della sua donna, quantunque ella fosse guerriera; là dove Ruggiero non fa cosa alcuna per guadagnarsi quello di Bradamante, ma quasi pare che la disprezzi e ne faccia poca stima: il che non sarebbe peraventura tanto sconvenevole, se il poeta non fingesse che da questo amore e da questo matrimonio dovessero derivare i principi d'Este: il qual rispetto solo doveva esser bastevole ch'egli si proponesse inanzi a gli occhi tutti i decori d'un alto e pudico amore, e tutte le convenevolezze, le quali non ci sono forse tutte, perché a la poca stima aggiunge la poca lealtà e la picciola constanza. Né solo facilmente si piega a' piaceri d'Alcina, e arde, e s'accende, come s'avesse nelle vene acceso il solfo; nella qual cosa poteva forse aver parte l'incanto, benché egli nol dica espressamente; ma delibera di godersi d'Angelica ignuda, con quelle parole ch'esprimono la sentenza tanto lodata da l'amico compositore del nuovo Dialogo. Ma Alidoro, benché sia accompagnato da Lucilla, vergine casta, figliuola di re, bellissima, ed accesa del suo amore, per cui disprezzava quello d'un re nobilissimo e valoroso, non si dimentica mai di Mirinda, né si lascia vincer da nuova bellezza o da nuovo diletto, mentre gli incanti stanno da parte. Né il decoro di Ruggiero è nell'altre cose men degno di considerazione: perciò che, essendo egli obligatissimo a Bradamante, per opera della quale era uscito due volte di prigione vergognosa, dove era in guisa ritenuto che non poteva dimostrare il suo valore, prepone a la sua donna il suo re, al quale non aveva alcuno obligo particolare; né veramente era suo principe naturale, perché egli era nato di padre cristiano, uccisogli dal padre d'Agramante; ed avendogliele proposto, non continua nel suo fermo proponimento: anzi, dopo ch'egli ebbe accettato di esser campione del suo re contra un cavaliero di Carlo, e giurato d'abbandonarlo, s'egli disturbasse la contesa, per debolezza ed inconstanza d'animo si mostra tanto inferiore a Rinaldo che i re dell'Africa ed Agramante medesimo dispera della sua vittoria, e si duole d'aver troppo creduto a Sobrino: laonde pare ch'egli tradisca la causa dell'Africa ed il suo re, del quale mostrava di far tanta stima; perché o non doveva accettar l'impresa, o accettandola doveva far tutto quel che poteva per vincer l'avversario.</p>
+<p>Dunque su 'l fatto medesimo il fedel Ruggiero, di campion publico quasi divenendo publico traditore, antepone l'amore a l'onore, e la sua donna al suo principe assediato. Tal che Agramante, conservando in ciò quel che si conviene a gli Africani, rompe il giuramento ed interrompe la contesa fra i due cavalieri, i quali combattevano. E Ruggiero di nuovo conferma il giuramento, forse perché la confirmazione accrescesse l'errore e togliesse ogni scusa d'ubbidienza, che poteva seco portare il primo fatto, inanzi il cominciamento della battaglia. Ed in questa guisa Ruggiero prepone il suo re al suo Dio, che è quello stesso che è adorato da' Cristiani, ed una apparenza di fede a la fede ed a la religione, e l'umane opinioni a le divine ragioni: perciò che il giuramento è un parlare confermato co 'l nome di Dio, o vero un parlare con venerazione divina che non riceve altra pruova: e colui pare che pecchi in estremo grado, il qual fa giuramento falso, perché, se 'l bene ed il vero si convertono, si convertono ancora il falso e 'l reo; e se quella è verità somma che è somma bontà, sarà grandissima malvagità quella che è grandissima falsità; ma sovra tutte è quella menzogna che più si dilunga da la somma verità: questa, dunque, sarà malizia estrema; ma colui più s'allontana da la divina verità, il quale inganna co 'l nome di Dio. Lo spergiuro, dunque, è peggior di nissun altro: il che si può argomentar da gli effetti parimente: perché s'alcuno non istà a' giuramenti, in quanto a lui, toglie tutte le cose e tutte le ruina; né lascia alcuna legge o commerzio alcuno fra gli inimici, fra i quali ce ne son molti: laonde niuna guerra potrebbe esser fatta giustamente, ma tutte sarebbono ingiuste, tutte barbare, tutte irragionevoli ed inumane. E si troncherebbono tutte le vie degli accordi e delle tregue, tutte quelle delle paci; ed in conclusione, rompendosi il giuramento, si guasterebbe il mondo.</p>
+<p>Deve esser dunque osservato inviolabilmente; e l'osservarono i Romani e i Greci, e tutte le nazioni le quali guerreggiarono con ragione, e con arte accrebbono l'imperio con la buona disciplina. E se gli Africani, come è fama, sono rompitori de' patti, Ruggiero non era africano, ma di sangue italiano, e figliuolo di Ruggiero di Risa: talché, essendosi co 'l primo giuramento disobligato della fede che aveva al suo re, e co 'l secondo cancellato l'obligo affatto, non per obligo alcuno di fede, ma per una vana opinione di costanza, rompe l'uno e l'altro giuramento, e l'una e l'altra fede, che era dovuta a Dio. E di novo prepone non il suo re al suo Dio, ma al suo vero Dio quello che non era più suo vero re, perché co 'l giuramento aveva ceduto ogni ragione ch'egli potesse aver sopra Ruggiero. Ma perdonisi a Ruggiero che segua l'opinione di molti cavalieri, i quali amano assai quello onore che peraventura non conoscono intieramente; e rimangasi questo rigore e questa severità fra le scuole de' filosofanti o fra l'Academie; e, se vi piace, prendiamo altri per giudice di quel che rimane, perché sotto giudice alcuno non istimo che si possa perder questa lite. A' cavalieri dunque io dimando se dee farsi maggiore stima dell'onore o della vita; e se risponderanno dell'onore, come senza dubbio risponderanno, soggiungerò che gli oblighi che s'hanno per l'onore son maggiori di quelli che s'hanno per la vita. Maggiori erano, dunque, gli oblighi che Ruggiero aveva a Bradamante, per la quale fu tratto di vita così vergognosa, che quelli che egli ebbe con Leone che lo campò di morte. E non solo erano maggiori, ma primi; e i primi sogliono togliere a gli ultimi quasi ogni forza: dunque, per l'una e per l'altra cagione l'amor di Bradamante doveva essere preposto da Ruggiero a l'amicizia di Leone, la quale aveva risguardo a l'utile ed a la propria riputazione, come si raccoglie da i versi del poeta, il qual dice:
+<quote rend="block">
+<lg>
+<l rend="italic">Non ha minor cagion di rallegrarsi</l>
+<l rend="italic">del padre il figlio, ch'oltre si spera</l>
+<l><gap desc="sequenza di punti"/></l>
+<l rend="italic">disegna anco il guerriero amico farsi</l>
+<l rend="italic">con beneficii, e seco averlo in schiera: </l>
+<l rend="italic">né Rinaldo né Orlando a Carlo Magno</l>
+<l rend="italic">ha da invidiar, se gli è costui compagno. </l>
+</lg>
+</quote></p>
+<p>Ma fu nondimeno anteposto Leone a Bradamante, ed in questa maniera tutti i debiti dimenticati, e tutti gli uffici furono perturbati nella persona di Ruggiero: perciò che prima siamo obligati a Dio; poi al re; nel terzo luogo a la moglie o a l'amante che ama di casto amore; nel quarto, a l'amico che ha per fine l'utilità e l'ambizione. Nondimeno Ruggiero prepone l'ambizioso greco a la moglie fedele; e la moglie, che non era ancor moglie, al re, che era suo re; e il re, che non era suo re, al suo Dio, che fu il Dio di Ruggier primo, di Ruggier secondo e di Ruggier terzo. Ed in quel suo maraviglioso combattimento che fa con la sua donna, armato con l'insegne di Leone, altro non cerca se non che la sua moglie sia posseduta dal suo rivale. Ma Alidoro, nella battaglia con Mirinda in Siviglia per salvare la vita al figliuolo del re di Navarra, fratello di Lucilla, non le fa torto alcuno, perché da lui non è conosciuta.</p>
+<p>Vedete in questa contesa un altro più ragionevole contrasto d'onor e d'amore, non solo fra due, ma fra quattro, dei quali duo erano rei e duo campioni; un'altra più nuova ed insolita pompa, e più lugubre, e con maggiore spavento e compassione degli spettatori, quantunque il combattere sia più ragionevole nello steccato. E precedono le meraviglie del cigno, il qual conduce la barca, e quel della selva che da loro prende il nome. Segue quella del leone che porta l'opportuna lettera, e del sogno, e della nube miracolosa. Come nel <title>Furioso</title> Melissa; nell'<title>Amadigi</title> Silvanella e la Dama del Lago fanno le maraviglie e disciogliono quei nodi che, senza l'aiuto loro, non potevano essere sviluppati. Nell'un poema ragiona l'eloquente greco a Carlo; nell'altro, al re di Siviglia l'eloquente donna, che 'l persuade a mutar la severa legge. E se la cortesia di Leone è riputata nuova ed inaudita, e lo scioglimento della favola piacevole e non aspettato, reputisi ch'io voglio con gli altri tutti maravigliarmi, e niuna malevolenza me lo impedisce: lodisi l'Ariosto, ch'io mi compiaccio delle sue lodi, purché mio padre gli sia dato per compagno nella poesia.</p>
+<p>Ecco, amici e signori miei, la difesa che la carità del padre mi ha costretto a prender contra l'oppositore: nella quale ho voluto difender l'uno difendendo la sua poesia, che non può esser ripresa senza biasimo del suo giudizio; e non offender l'altro, che peraventura porta la medesima opinione, ma serve, come egli dice, a la causa. Ma in quel che appartiene a me, non mi risolvo così facilmente, perché da l'una parte l'opposizioni d'uomini così ingegnosi e savii, come sono gli Academici fiorentini, debbono esser prese in luogo d'ammonizioni e di correggimenti; da l'altra, non mi pare che mio padre sia difeso interamente, se non sono difeso io suo figliuolo, che molto più che le sue composizioni amava, e le mie, che amava parimente; laonde sono assai certo che, se egli voleva pur esser superato, non voleva esser superato da nissun altro che da me.</p>
+<p>E qui invoco la memoria, come fanno i poeti, e colui che me la diede insieme con l'intelletto, quando il mandò ad abitare in questo corpo quasi peregrino: che negli ultimi anni della sua vita, essendo ambedue nelle stanze dategli dal duca di Mantova, mi disse che l'amor che mi portava l'aveva fatto dimenticar di quel che aveva già portato al suo poema; laonde niuna gloria del mondo, niuna perpetuità di fama poteva tanto amare quanto la mia vita, e di niuna cosa più rallegrarsi che della mia riputazione. Le quali parole furono conformi ad alcune che scrisse nella mia fanciullezza al signor Americo Sanseverino: e se 'l testimonio è vivo, non deve esserne perduta la memoria. Non dovrei dunque sostener che 'l giudizio di mio padre fosse riprovato nelle mie composizioni. Che debbo dunque fare? Consigliatemi voi, fra tutti gli altri, signor Vincenzo FANTINI, che m'avete portato il Dialogo nel quale è fatto il giudizio dell'<title>Orlando furioso</title> e della <title>Gerusalemme liberata</title>, con le chiose dell'Academia della Crusca, che sotto questo brutto nome ha voluto peraventura ricoprirsi, come sotto i Sileni, dei quali fa menzione Platone, erano l'imagini degli dei ricoperte.</p>
+<sp><speaker>VINCENZO FANTINI</speaker> <p>Le risposte son molto desiderate, e le cose desiderate non possono esser discare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque debbo rispondere.</p></sp>
+<sp><speaker>FANTINI.</speaker><p>Dovete senza fallo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma in qual modo? ringraziandolo che egli m'abbia manifestata la verità, illuminando le carte
+<quote rend="block">
+<lg><l rend="italic">ch'avean molti anni già celato il vero;</l></lg>
+</quote>
+o pur difendendomi e a torto e a dritto?</p></sp>
+<sp><speaker>FANTINI.</speaker><p>Il vostro ingegno fu sempre giudicato maraviglioso, e non si dubita che non debbiate manifestarlo nelle risposte.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma in questa età, la quale s'è molto allontanata da la fanciullezza, non debbo ricercar lode alcuna d'ingegnoso, ma più tosto di vero conoscitore de' miei difetti, il qual giudichi d'altrui e di se medesimo senza passione.</p></sp>
+<sp><speaker>FANTINI.</speaker><p>Questa sarebbe lode più conveniente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma come ardirò mai di torre questa persona di giudice a l'oppositore, la quale egli prende a fine del libretto con tanta mansuetudine e tanta umanità, quanta voi conoscete? e di vestirmene in quella guisa che suole alcuno ingiusto delle cose tolte per forza? Siate dunque voi giudice, e gli altri a i quali direte le mie ragioni; ed io parlerò non per me stesso, ma per onore degli antichi maestri della poesia e dei più nobili poeti, e per la verità medesima, la quale è di più riverenda autorità di alcun di loro; e ne parlerò come difensore, non come giudice: laonde mi sarà lecito di lasciar da parte quel che si potrebbe dire giudicando l'opinione dell'autor del Dialogo e del chiosatore; e toccherò solamente le opposizioni. A voi, Signor, piaccia di commandar al vostro SEGRETARIO che legga quelle cose che sono da me segnate con le lettere dell'alfabeto, perché egli è migliore e più spedito lettore che io non sono.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non son tutte segnate.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non tutte, ma quelle che appartengono al proposito.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dunque io comincierò da questa, che è la prima: <emph>Il poeta non è poeta</emph>.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Leggete prima alcune righe nel Dialogo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p><emph>Però, comunque si sia, non è che non si debba lodar più colui che favoleggia sopra la verità d'una istoria che colui che ritrova la favola tutta.</emph> Risposta dell'oppositore. <emph>Il poeta non è poeta senza l'invenzione. Però, scrivendo storia o sopra storia scritta da altri, perde l'essere interamente.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Quanto a la istoria, io per ora non contenderò co 'l chiosatore; anzi gli concederò assai facilmente che chi scrive istoria non sia intieramente poeta; ma quanto a l'altra parte, cioè dello scrivere sopra istoria, non sarem forse così ben conformi d'opinione. E però or mi sarà lecito di chiedere a voi quel che dimanderei a l'oppositore se fosse presente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Potete dimandar quel che vi pare: ch'io risponderò non per difender la sua opinione, ma per darvi occasione che manifestiate la vostra.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ditemi dunque: il ritrovamento, che si dice invenzione con altro nome, è delle cose che sono o di quelle che non sono?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di quelle che sono, perché quelle che non sono, non possono ritrovarsi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma le cose finte o false sono?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ho sempre udito dire per voi filosofi, che 'l falso è nulla.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E quel che è nulla, non è; dunque le cose false non sono: e l'invenzione non è delle cose false, ma delle vere che sono, ma non sono anco state ritrovate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare assai ragionevolmente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E ragionevole è parimente che, se 'l male è fondato nel bene, il falso abbia nel vero ogni fondamento: dunque la poesia dee porlo sopra l'istoria. Seguite di leggere quello che ho segnato, quantunque non vi fosse la lettera dell'alfabeto.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p><emph>L'invenzione è pur una delle parti necessarie al poeta</emph>. Risposta. <emph>L'invenzione non è parte, ma è fondamento del tutto.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Sono discordi, e però c'è inganno o da l'una parte o da l'altra o pure da l'una e da l'altra insieme.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così dubito.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>L'uno dice che l'invenzione è parte del poeta; ed io non gliele voglio negare, quantunque l'abbia udita annoverare più tosto fra quelle dell'oratore: l'altro risponde che non è parte, ma fondamento: quasi il fondamento non sia parte di quelle che fanno il tutto intiero; ma io negherei che fosse il fondamento. Volete voi provarlomi in sua vece?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non prenderei questa fatica.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque la conclusione rimarrà senza prova.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Rimarrà.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma la prova par che si desideri dal chiosatore, che non accetta cosa che non gli sia provata, come vedremo leggendo più avanti. Fra tanto ci sarà lecito di muover dubbio in questa guisa. Delle cose, alcune sono trovate, alcune non trovate; ma l'invenzione è delle non trovate, le quali sono dopo; dunque l'invenzione non è fondamento dell'altre.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assai buona mi par questa ragione, con la quale avete provato voi, senza obligo di provare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>È stato peraventura soverchio ardire; ma dove non è presente l'avversario, l'ardire non è pericoloso. Or seguite.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Anzi non ha dubbio che chi non ritrova di proprio ingegno, è al tutto indegno di questo nome. Come può star dunque che chi trova parte meriti più di colui che ritrova tutto?</emph> ATTEND. <emph>Egli è vero che l'invenzione è una delle parti principali che dee aver il poeta; ma perché l'imitazione anco è parte essenzialissima della poesia.</emph> Risposta. <emph>L'imitazione e l'invenzione sono una cosa stessa, quanto a la favola.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Abbiam già conchiuso che l'invenzione sia delle cose non trovate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Abbiamo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma l'imitazione è delle cose trovate o pur delle non trovate?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Io direi delle trovate, perché le non trovate sono e oscure e quasi da nissuno conosciute.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, l'invenzione e l'imitazione non sono l'istesso. Ma l'oppositore aggiunge, <emph>in quanto a la favola</emph>: il che non intendo. E peraventura del non intendere potrebbe esser cagione la mia ignoranza, o la sottigliezza di colui che scrisse, il quale non è ragionevole che parli senza misterio; ma pur non restiam di ricercarne. E ditemi: La favola non è quella che è formata dal poeta?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quella, non altro.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E 'l poeta, dovendo imitar nelle favole le cose non ritrovate, non imiterà l'azioni degli uomini: perché queste sono ritrovate, se non da tutti, da molti almeno, o pur da alcuno.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare senza dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Né meno gli instromenti della guerra, che non sono ancora ritrovati, perché di loro non si fa imitazione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non si fa.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E chi rassomigliasse gli arieti e le baliste e le catapulte e gli scorpioni e le testudini, che furono instromenti degli antichi, assomiglierebbe senza fallo cose ritrovate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assomiglierebbe.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Parimente, chi volesse imitar l'artiglierie e gli archibugi, come fece l'Ariosto nella persona del re Cimosco, sarebbe imitatore di cose ritrovate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di cose ritrovate.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>L'ordinanze ancora degli antichi furono ritrovate da Palamede o da Mnesteo nella guerra di Troia; Omero nondimeno l'imitò.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'imitò mirabilmente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E 'l lanciar del dardo e 'l combattere su 'l carro fu similmente usanza da quegli antichi eroi già ritrovata.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così ho letto.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma l'armi da cavaliero, che s'usano in battaglia a i tempi nostri, e le giostre e i torneamenti, non sono elle usanze ritrovate da i moderni?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Nondimeno l'Ariosto l'imitò. Quali, dunque, sono le cose non ritrovate, le quali il poeta ci rassomiglia? poiché non sono gli uomini o l'azioni; né i cavalli, né l'armi, né gli instromenti da guerra.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Se non è alcuna di queste, io non so qual altra sia.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dirà peraventura che son l'Arpie; ma queste furono già ritrovate da Calai e da Zete a la mensa del re Fineo. Più tosto sarà l'Ippogrifo, che non so da chi fosse ritrovato; o i mostri che impediscono il passo a Ruggiero nel paese d'Alcina; o quello co 'l quale s'azzuffa Baiardo mentre Rinaldo e Gradasso combattono a la fontana.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Queste a me veramente paiono quelle delle quali intende l'oppositore: perché egli è incerto se fur mai ritrovate, o certo che non fur mai ritrovate.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E l'imitazione di queste vi parrà più laudevole?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Per la ragione addotta par degna di maggior lode.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma le cose non ritrovate paiono quelle che veramente non sono: perché quelle che sono, tutte son ritrovate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sì fatte mi paion quelle delle quali abbiam ragionato.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque l'arte dell'imitare, o del far l'imagini, che vogliam chiamarla, sarà divisa in due spezie: l'una delle quali farà le imitazioni delle cose vere, che saranno vere imitazioni; l'altra farà i fantasmi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Queste due spezie ci son veramente. E ora intendo quel che disse Ronsardo, poeta famoso tra' Francesi, che la poesia dell'Ariosto era fantastica.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma fra queste spezie, per la ragione dell'oppositore, sarebbe degna di lode maggiore l'imitazione delle false imagini.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così par che seguiti, perché ella è accompagnata con maggior invenzione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tuttavolta abbiam già conchiuso che l'invenzione sia delle cose che sono, non di quelle che non sono: perché di queste non c'è invenzione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Abbiamo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma i fantasmi e le false imagini non sono; laonde pare che di loro non sia ritrovamento. Quella che prima ci pareva maggior invenzione, ora non ci pare invenzione in modo alcuno.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Se l'invenzione è delle vere cose, questa non è invenzione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Or volete che io vi racconti quel che mi sovviene?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ditelo a vostro piacere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Mi sovviene d'aver letto: quel che è e quello che non è ritrovarsi per tutte le cose congiunti insieme quasi con fibbie e con uncini: laonde di molte di quelle che diciamo non essere, non si può dire che non siano semplicemente; ma in qualche modo sono, in qualche modo non sono.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così stimo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma l'invenzione è delle cose, in quanto elle sono, non in quanto elle non sono.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A mio parere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Perché in quanto elle non sono, stanno ascose e ricoperte nelle tenebre e nella caligine di quel che non è: lì dove suol rifuggire il sofista, e circondarsi di molti argini e di molti ripari, perché sia malagevole il cavarnelo: e quivi suol ricercarle il poeta fantastico, il quale è l'istesso che 'l sofistico; ma ricercandone, è gran pericolo che perda se stesso. Però consiglierei ciascuno che più tosto dovesse cercarne nella luce e nello splendore di quel che è veramente, come ricercò Dante, poeta divino: ché questo non voglio contendere a i Fiorentini: ad imitazione del quale trattai alcune delle cose celesti; ma non così esquisitamente come aveva pensato, e come farò se mai mi sarà conceduto. Né già dico che non l'abbia fatto l'Ariosto in qualche luogo; né confermo, né ripruovo le opposizioni che gli son fatte; ma tutte le sue lodi leggo ed ascolto volontieri. Or seguite.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>E la ragione è che la favola può fingersi come altrui piace, senza tema di poter esser tacciato e convinto di menzogna; ma le cose essenziali d'una istoria vera non si possono mutar senza biasimo d'aver adulterata la verità.</emph> Risposta. <emph>Non si può far qualunque favola, ma quella che sia verisimile, ed abbia l'altre parti che si contengono nella diffinizione.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Quali chiama l'autor del Dialogo cose essenziali?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quelle peraventura che danno l'essere a l'istoria; e queste sono le principali, e le vere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E di queste si può o non si può formar la favola?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non si può; perché la favola non si forma del vero.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma la favola non è l'anima del poema?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque è la forma.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È la forma.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>La forma, dunque, del poema non sarà formata delle principali parti dell'istoria, che secondo voi si chiamano le essenziali; ma delle men principali e di quelle che non sono essenziali.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare per questa ragione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tuttavolta la favola è pure essenziale nel poema.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Essenzialissima.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ed essendo essenzialissima, è principalissima.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Senza dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Le parti, dunque, meno essenziali e men principali nell'istoria, sono le essenzialissime e le principalissime nel poema.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La conclusione nasce da le sue proposizioni.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tuttavolta parrebbe più convenevole che le principalissime nell'istoria fossero principalissime nel poema; perché la morte d'Ettore è forse principalissima così nell'istoria scritta della guerra come nel poema; e la morte di Turno parimente nelle battaglie fra Latini e Troiani, delle quali s'era scritta istoria e poema.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi par per quest'altra ragione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque la favola si formerà dal vero.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Questo pare inconveniente ad udire.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma peraventura non è tanto, a considerarlo. E consideriamlo, dunque; e ditemi che sia favola.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È stata diffinita <emph>composizione di cose</emph>, che latinamente fu detta <emph>coagmentazione</emph>, ed espression dell'azione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questa azione, qual debb'essere?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Verisimile.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E le verisimili possono essere e false e vere, né sono vere necessariamente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non sono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque le favole si tessono d'azioni così vere come false, le quali abbiano sembianza di vero.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Per mio parere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>La verisimiglianza, dunque, è necessaria nella favola; e la verità e falsità non è necessaria: ma forse l'una è più lodevole dell'altra.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così stimo; ed or mi sovviene che fra' Greci questo nome è usato nelle vere narrazioni eziandio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E 'l poeta, il quale in questa guisa tesse la favola, è più filosofo che non è l'istorico, il quale risguarda i particolari.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così parve ad Aristotele.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma il filosofo non è egli amator della verità?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non ce n'è dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma s'egli è tale, come può distruggerla ed ucciderla con la menzogna?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Par che non possa o che non debba.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Consideriamla, dunque, diligentemente; e ditemi: La verità è nei particolari solamente, o nei particolari e negli universali?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Negli uni e negli altri.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ed ambedue son considerate da l'istorico o dal filosofo, o pure l'una da l'uno e l'altra da l'altro?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quella dei particolari considera l'istorico, e quella degli universali il filosofo, il qual considera ancora il verisimile in universale, perch'appartiene a l'arte medesima.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque il poeta non guasta la verità, ma la ricerca perfetta, supponendo in luogo della verità dei particolari quella degli universali, i quali sono idee.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così debbiam credere dei filosofi divini.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E de' poeti parimente, i quali nella considerazione dell'idee sono filosofi: laonde quelli si diranno adulterar la verità che ritraggono i fantasmi, non quelli che risguardano l'idee. Né l'adulterò Senofonte, il quale così manifestamente variò nel suo Ciro la verità per formarsi un perfetto principe; né gli parendo convenevole ch'a la perfezione dovesse mancare la felicità, non scrive ch'egli fosse ucciso da Tomiri e fatto morir nel sangue; ma descrive una maniera di morte piena di fortezza e mansuetudine d'animo grave e constante, e indegna d'essere da Cesare biasimata.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assai lodevolmente formò Senofonte l'idea del perfetto principe, secondo que' tempi ne' quali scrisse; ma non così bene Omero formò quella d'Agamennone o d'Achille.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Omero fu da Platone ripreso con assai forti ragioni: a le quali assai meno è sottoposto l'Enea di Virgilio; nondimeno l'uno ebbe maggior riguardo a l'universale che si considera nell'azione; l'altro, a quello che si ritrova nel costume: e l'uno e l'altro, poetando, non volle narrare come istorico i particolari, ma come filosofo formare gli universali: la verità de' quali è molto più stabile e molto più certa. Or seguite di leggere, se vi piace.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Avendo in questa parte ogni lingua licenza di servirsi della proprietà sua, e molte volte di quella che non le regole o la ragione, ma l'uso confermato da' buoni scrittori le porta inanzi.</emph> Risposta. <emph>L'uso e l'arte bisogna che s'accordino, volendo che siano vera arte e vero uso.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Qual chiamate vero uso?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Il buono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Questo meglio intendo; e buono è quello de' buoni.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non altro.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se dunque vestiranno i buoni in una guisa, nella medesima deve l'arte facitrice dell'imagini formarle.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Nella medesima.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque Rafaello nelle sue pitture, e Michel'Angiolo nelle scolture doveva vestire l'imagini come oggi si veste, non come si vestiva al tempo de' Romani e degli Apostoli.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quest'è buon uso, perché gli uomini son buoni; ma quel fu megliore o d'uomini megliori.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E l'uno e l'altro è vero parimente, o pur l'uno è più vero dell'altro?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Più vero quello, perché 'l buono si converte co 'l vero.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque se Michel'Angelo e Rafaello vestirono le lor figure a l'antica, accordarono il vero uso con l'arte vera.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E s'essi l'accordarono, non l'accordò Tiziano, il quale vestì secondo l'usanza moderna gli uomini che ritraggeva.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non, parimente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se migliori furono gli antichi, meglior fu l'uso del fabricare e dell'armeggiare, che non è questo presente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Segue da le proposizioni.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se l'arte vera deve accordarsi co 'l vero uso, o si debbon lasciar le cose presenti, o formarle con antica maniera.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Questo par vero. Tuttavolta, s'io vedessi il ritratto d'alcun prencipe con la porpora di Cesare o di Pompeo, non piacerebbe tanto, quanto vederlo armato con la mano su l'artigliaria.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'i presenti fossero i migliori, o non bisognarebbe ritrarre le cose antiche o, ritraendole, sarebbe convenevole vestirle a la moderna.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare che sia da conchiudere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tuttavia quelle e queste sono figure; e quelle son vestite in un modo, e queste in un altro; e l'une e l'altre con buon uso, perché l'un uso e l'altro fu de' buoni; e 'l ricercar chi fosse migliore, è peraventura pericoloso.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È pericolo degli istorici e degli scrittori che fanno i paragoni, più tosto che de' poeti.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se l'uso fu buono e fu mutato, l'uso buono può mutarsi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Può.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E l'arte ancora, se deve concordarsi con l'uso.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Parimente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E mutandosi, non sarà constante; laonde quei filosofi che l'hanno difinita, non ce la diedero bene a conoscere; e noi debbiamo più tosto credere a' Fiorentini che a' Romani.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Questo non concederò facilmente, ben che fosse necessità nella conseguenza.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Io gliel'averei conceduto, per non contendere con Academia fornita d'uomini scienziati e pieni di filosofia; ma s'io concederò che l'arte non sia constante, mi parrà che non sia buona: perché l'incostanza è rea; e s'ella non è buona, non è vera. Come farem dunque per accordar sempre l'arte vera con l'uso vero?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Io non vedo il modo, e vorrei che mi fosse dimostrato.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Peraventura l'arte non si muterà; ma l'uso, mutandosi, cercherà, quanto sia possibile, di non allontanarsi da l'arte; ma questa è cosa più difficile in effetto che in apparenza. Ma leggete quel che segue.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Ma s'è vero quel che si dice, egli sprezzò il consiglio di monsignor Pietro Bembo, che l'essortò a scriver epigrammi.</emph> Risposta. <emph>Quanto a gli epigrammi, gli avrebbe dato un bel consiglio.</emph> Dialogo. <emph>O vero a comporre poema d'una sola azione.</emph> Risposta. <emph>Queste più azioni nel</emph> Furioso <emph>dell'Ariosto bisogna provarle, non presupporle.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'io non m'inganno, parla dell'istesso più di sotto. Ricercate, se vi piace, il luogo fra' notati.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Eccolo. Risposta. <emph>Queste son tutte parole, a le quali non si credeva né anco quando uscivano di bocca a Pitagora. Noi diciamo che nel</emph> Furioso <emph>è una sola azione; ed a l'Attendolo tocca provare il contrario.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Oltre a questi ci è il terzo luogo, ma non vi spiaccia che il ritroviamo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. CAR. <emph>E chi volesse negarlo?</emph> ATTEND. <emph>Non potrebbe, perché l'Ariosto istesso il conferma in più luoghi del suo poema. Dice in un luogo:</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Ma perché varie fila a varie tele</l>
+<l rend="italic">uopo mi son, che tutte ordire intendo</l>
+<l><gap desc="sequenza di punti"/></l>
+<l rend="italic">Di molte fila esser bisogno parmi</l>
+<l rend="italic">a condur la gran tela ch'io lavoro.</l>
+</lg>
+</quote></p>
+
+<p>Risposta. <emph>Le più fila non impediscono l'unità della favola, ma sì bene le più tele. Onde se l'Ariosto in ragionando del suo poema ha errato nelle parole, l'ha fatto in quelle,</emph> a varie tele:<emph> ma può salvarsi, che per tele abbia inteso episodi, che tutti insieme poi si congiungano e formino quella</emph> gran tela, <emph>ch'egli più correttamente disse nell'altro luogo.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Chi vide mai di più tele farsi una tela? Quest'è ignoranza nell'arte del tessere, la quale dovrebbe pure essere intesa da' Fiorentini. Ma se non bastano in questo luogo le parole dell'Ariosto a provare la nostra intenzione; né quelle della proposizione, nella quale assai chiaramente dice di voler cantar molte azioni; prenderemo a provarla? o pur diremo, ch'essendo la presunzione per noi, deve egli mostrare il contrario; e contenderemo seco di ragione, la quale in Fiorenza non ci sarebbe negata dal signor Ardizio?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Se l'una prova non basta o non appaga, deve esser ritrovata l'altra dal buon dialettico.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Io non son pur dialettico, non che buon dialettico: ma se convien provare, ricorrerò a l'amicizia ch'io avea co 'l Mazzone, e mi varrò delle sue prove come di cose prestatemi: perciò che in presenza di Guid'Ubaldo, duca d'Urbino di gloriosa memoria, ragionando meco, disse che due son l'azioni del <title>Furioso</title>, come due sono quelle d'Omero: e le due del primo, secondo lui, sono i duo sdegni d'Achille, l'uno con Agamennone, l'altro con Ettore; le due del secondo, le due guerre fatte, l'una intorno a Parigi, l'altra a Biserta.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sottilmente considerò questi poemi il Mazzone.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'in questo modo io proverò, nulla proverò contra l'Ariosto che non sia provato contra Omero; ma pensiamo se la verità stia in questo modo: perché non l'affetto, ma la verità ci de' muovere. E ditemi prima che cosa è sdegno.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Una passione potentissima dell'anima nostra ch'accieca la ragione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E l'azione e la passione sono una medesima cosa, o l'opposta?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'opposta.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque Omero cantando due passioni, non cantò due azioni; ma il primo sdegno d'Achille contra Agamennone fu scompagnato da ogni azione, perché egli dimorò nelle tende, né si mosse a prieghi, né si piegò a' doni portatigli da gli ambasciatori, sino a la morte di Patroclo, nella quale cominciò il secondo sdegno, ed ebbe principio l'azion d'Achille parimente. Né questo mi ricordo che dicesse il Mazzone.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La vostra distinzione mi pare assai chiara.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Quello nondimeno che egli dice delle due guerre, mi par vero; e potrebbe bastare per la prova che ricerca l'oppositore: ma vogliam per far questa prova montar su l'Ippogrifo con Astolfo? o passar il mare a nuoto con Orlando furioso? Quasi ella non si possa fare in Francia; o intorno a le mura di Parigi andar cercando queste azioni, come Rinaldo ricercò la figliuola di Galafrone.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>S'è possibile ch'ella si trovi, ricerchiamla intorno a Parigi e in ogni parte dove potesse ascondersi da gli occhi popolari.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Io dunque cominciando a ricercarne, vi chiedo se la offesa e la difesa sian diverse azioni.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Diverse.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma la guerra fatta intorno a Parigi, ora è offensiva, or difensiva; laonde pare che non sia una sola azione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E ben vi dovete ricordare che nella partita d'Orlando Carlo rimane assediato: poi, essendo rotto Agramante da l'esercito che Rinaldo conduce d'Inghilterra, Carlo gli pone l'assedio intorno; e tutta questa azione è tale che può avanzare, non che bastare ad un poema solo. Poi rotto Carlo da i sei cavalieri pagani, è di novo assediato; e torna Rinaldo a liberarlo di novo co' settecento: ch'è l'altra azione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assai chiaramente si conoscono le due azioni nell'offesa e nella difesa doppia del re pagano.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se ciò è vero, in ogni abbattimento e in ogni duello saranno due azioni, perché in ciascuno è l'offesa e la difesa: laonde pare che questo non basti; ma le due mutazioni di fortuna possono ben far le azioni, le quali sono in Francia; e per questa cagione la persona di Rinaldo potrebbe parere la maggiore fra' Cristiani: nondimeno il fine della guerra universale si riserba ad Orlando, e quel del poema termina con la vittoria di Ruggiero. Laonde si potrebbe dubitare qual fosse il Cavalier principale; ma non è sconvenevole presupporre quello che dice l'autore nella proposizione. Or ritorniamo a l'ordine tralasciato; e seguite di leggere.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Quanto a la locuzione del</emph> <title>Morgante</title>,<emph>ella si biasima a' nostri tempi da chi ne può dar giudizio quanto il cieco de' colori. E s'in quel libro si trovano de' modi e de' versi bassi, secondo l'autor del Dialogo, forse che nel</emph> Goffredo, <emph>dove il Tasso fa professione di magnifico e di gravissimo, ne ha in questo genere, e quanto a le voci e quanto al suono, de' più solenni e più spessi.</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Dell'opere notturne era qualch'una.</l>
+<l rend="italic">Terra di biade e d'animai ferace. </l>
+<l rend="italic">Così vien sospiroso, e così porta. </l>
+<l rend="italic">Son qui gli avventurieri invitti eroi. </l>
+<l rend="italic">Senza troppo indugiare ella si volse. </l>
+<l rend="italic">Soccorso a' suoi perigli altro non chere. </l>
+<l rend="italic">Della città Goffredo e del paese. </l>
+<l rend="italic">Senz'altr'indugio, e qual tu vuoi ti piglia. </l>
+<l rend="italic">E di fosse profonde e di trinciere. </l>
+<l rend="italic">Scrivansi i vostri nomi, ed in un vaso. </l>
+<l rend="italic">Ch'un cavalier, che d'appiattarsi in questo. </l>
+<l rend="italic">Gli occulti suoi principii il Nilo quivi. </l>
+<l rend="italic">Quest'è saver, quest'è felice vita. </l>
+<l rend="italic">Ponte, che qui non facil preda io resto. </l>
+<l rend="italic">Del re Britanno il buon figliuol Guglielmo. </l>
+<l rend="italic">Con que' soprani egli iterò più volte. </l>
+<l rend="italic">Ma di pietade e d'umiltà sol voci. </l>
+<l rend="italic">Su suso, o cittadini, a la dfesa. </l>
+<l rend="italic">Tutto in lor d'odio infellonissi ed arse; </l>
+</lg>
+</quote>
+<emph>dove c'è anche, per giunta a la derrata, il</emph> lor-d'odio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se l'oppositore m'avesse dimostra la bassezza de' modi, io glien'avrei molto obligo; ma confesso di non conoscerla; e s'a voi par bassa voce <emph>qualch'una</emph>, ch'è nel primo verso, e quell'altra <emph>avventurieri</emph>, ch'è nel quarto, prego che me 'l diciate liberamente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A me non paiono, e forsi perché sono usate da voi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Né a me parevano basse; ma perché l'una, quantunque sia nova, è più in bocca de' cavalieri che del volgo; e l'altra, ch'è pure usata da popolari, non fu rifiutata dal Petrarca, che l'usò tre volte: con tutto ciò l'avrei mutate, perché non mi piaceva la sede della prima, e l'altra non esprimeva così ben quel che io avrei voluto dire: né mi parrebbe ragionevole che, se le sue opposizioni non mi costringono a mutarle con alcuna ragione, mi costringessero a non mutarle, se mi paresse altramente, non avend'io massimamente stampato il mio poema.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ben deve esser lecito a voi, che non l'avete mandato in luce, quello che fu prima lecito al Bembo ed a l'Ariosto, che volontariamente publicarono l'opere loro.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma forsi la nostra considerazion è soverchia, perché egli non parla delle voci, ma de' modi: nondimeno tai modi tutti mi paiono assai nobili; e quello <emph>su su</emph>, che non è stato prima nelle scritture, è pieno di quella forza e di quella espressione che, lodata da lui negli altri, non dovrebbe essere in me biasimata. Ma che direm de' numeri?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'istesso: che tutti siano alti, perché tutti son vostri.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>A me paiono assai alti questi:
+<quote rend="block">
+<lg>
+<l rend="italic">Così vien sospiroso, e così porta. </l>
+<l rend="italic">Ch'un cavalier, che d'appiattarsi in questo. </l>
+<l rend="italic">Del re Britanno il buon figliuol Guglielmo. </l>
+<l rend="italic">Tutto in lor d'odio infellonissi ed arse. </l>
+</lg>
+</quote>
+
+Gli altri non mi paiono bassi, se non in quanto con la scorrezione della scrittura ne fanno parere alcuni così fatti. In quel che poi soggiunge, «e c'è, per giunta a la derrata, il <emph>lor-d'odio</emph>», io non conosco alcuna bruttura nella voce, né nel concetto; né so bene s'egli ci voglia qualche terza cosa, come piaceva a Brisone: e s'io avessi detto <emph>bordello</emph>, come disse l'un de' poeti da lui tanto lodati, o <emph>puttana</emph>, come disse l'altro, non mi dovrebbe punger con più mordaci parole. Ma forse le mie piaghe erano così peggiorate, che vi bisognava usare il ferro e gli unguenti che apportano dolore. Debbo ringraziar dunque la severità del medico, s'ella può recarmi giovamento. Ma vi prego che leggiate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Benché di que' suoni, oltre ad ogni altro, sia ripieno tutto quel poema.</emph>
+<quote rend="block">
+<lg><l rend="italic">Mesce lodi e rampogn'e pene e premi;</l>
+</lg>
+</quote>
+
+<emph>c'è per vantaggio la cacofonia. Com'anco in quest'altro:</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Toglie di mano al fido Alfier l'insegna. </l>
+<l rend="italic">E da' vagheggiatori ella s'invola; </l>
+</lg>
+</quote>
+
+<emph>tolto in parte dalla</emph> Beca <emph>e dalla</emph> Nencia.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se delle cose del bordello dovessi ragionare, non ve ne chiederei, ché ne sete peraventura poco informato: ma di quelle delle corti e de' nobilissimi palagi ve ne posso dimandar sicuramente. Parvi, dunque, che 'l vagheggiare s'usi in luoghi così fatti?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Senza dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non è dunque tolto da quella parte ove egli crede. Né mi spiace d'aver perturbato l'ordine e di riservar nell'ultimo quel che dice della cacofonia; la quale non è tale in questi versi che non possa apportare anzi vaghezza che no. E per cercarne esempi, non bisogna passare il primo sonetto del Petrarca:
+<quote rend="block">
+<lg><l rend="italic">di me medesmo meco mi vergogno.</l></lg>
+</quote>
+Ma non conviene ch'io vi ricordi che leggiate: sapete, che 'l sospendere delle mie parole vi è quasi un invito a leggere.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker>
+<p><quote rend="block">
+<lg><l rend="italic">Ma perché più v'indugio? itene, o miei;</l></lg>
+</quote>
+<emph>con l'</emph>indugiare <emph>in attivo significato, ch'è in tutto sua creatura.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non mi spiace che alcuna mia creatura possa aver luogo in questa lingua.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker>
+<p><quote rend="block">
+<lg><l rend="italic">Tu l'adito m'impetra al Capitano;</l></lg>
+</quote>
+
+<emph>con quel vocabolo nel fin del verso, che in questa sede avrebbe forza d'abbassare i versi che uscissero di bocca a la Musa della magnificenza</emph>.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>La Musa della magnificenza non s'abbassa strabocchevolmente, ma non cura di salir sovra i tetti: ché molte volte non ci sarebbe il convenevole.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker>
+<p><quote rend="block">
+<lg>
+<l rend="italic">Né v'è figlia d'Adamo in cui dispensi.</l>
+<l rend="italic">Degl'Infedeli espugnarem dimane.</l>
+<l rend="italic">Gildippe ed Odoardo, i casi vostri;</l>
+</lg>
+</quote>
+
+<emph>ed altri quasi senza numero dello stesso sapore.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'io gli ho conditi in qualche sapore, non gli dovrebbono parere insipidi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p><emph>Senza che non vedo perché debba essere più agevole il compilare un poema asciutto e povero, come quel del</emph> Goffredo, <emph>che un pieno e ricchissimo, come quel del</emph> Furioso; <emph>né che malagevolezza sia questa che porta seco l'unità della favola.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Or crederem noi di conoscere agevolmente quel che non conosce il SEGRETARIO dell'Academia fiorentina, da la quale tanti letterati prendono nove leggi di poesia?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non, peraventura, facilmente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma delle cose difficili non debiam spaventarci: però ditemi s'è difficoltà nella tragedia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ad alcuni par maggiore che nell'epopeia: ma quantunque non sia maggiore, è certo grande.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tuttavolta ella è sì picciola in comparazione dell'epopeia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È veramente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E nel chiudere le canzoni ècci difficoltà?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Il dimostra il picciol numero delle belle che se ne trovano.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E ne' sonetti ancora è molta difficoltà?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Per la medesima ragione si manifesta.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, la difficoltà è non solo nelle più lunghe, ma nelle più brevi composizioni.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così stimo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma peraventura non è della medesima sorte; ma l'una nasce dal sottile artifizio, l'altra da la molta fatica.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Le cagioni sono assai diverse.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma quale è più lodevole? quella ch'è necessariamente con l'arte o quella che ne può esser discompagnata?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quella che s'accompagna con l'arte.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Quella, dunque, che nasce per l'unità della favola: laonde assai convenevolmente fu detto che, tessuta la favola, l'opera era quasi finita.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Diranno i fautori dell'Ariosto che 'l suo poema è un palagio perfettissimo di modello: magnificentissimo, ricchissimo ed ornatissimo oltre ad ogni altro; e quel di Torquato Tasso, una casetta picciola, povera e sproporzionata per esser bassa e lunga oltre ogni convenevole misura; oltre di ciò, murata in su 'l vecchio, o più tosto rabberciata, non altramente che quei granari, i quali in Roma sopra le Terme superbissime di Diocleziano si veggono a questi giorni.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>O mirabil giudizio! quanto ho io perduto a non conoscer prima quest'uomo, il qual m'avesse scoperti i difetti del mio poema ad uno ad uno, i quali da tanti amici non mi furono prima dimostrati. Ma tuttavolta io il ringrazio che mi scopra l'imperfezioni mie proprie; ma di quelle che mi son communi co' lodatissimi poemi non gli debbo credere senza la ragione. E ricerchiamla fra noi, poi ch'egli è lontano; e ditemi: il grande e 'l picciolo non sono di que' nomi che son detti relativi?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di quelli.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma s'il mio poema è picciolo, è picciolo in comparazione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così stimo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E in qual comparazione: in quella di Dante o dell'<title>Eneide</title>?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non mi pare: perché dell'uno è maggiore, ed a l'altro è peraventura eguale.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque non è picciolo, ma più tosto grande in paragone de' perfetti.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La conclusione segue da le premesse.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma forsi è picciolo in differenza dell'<title>Iliade</title>, ch'è fra i perfettissimi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La differenza non è grande.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma essend'egli posto fra la maggiore e la minor quantità de' poemi, i quali si misurano con la misura del convenevole, del moderato e dell'opportuno, è nel mezzo della perfezione; e se pende verso l'una parte, pende verso la maggiore, la qual tuttavolta è misurata co 'l decoro. Adunque, né mi debbo vergognare ch'egli sia tale; e s'io volessi accrescerlo, tanto dovrei accrescerlo che agguagliasse il maggiore de' perfettissimi: ché superarlo molto non si potrebbe, se non si facesse con l'altra misura, propria di quell'arti le quali, misurando il numero, la longhezza, la larghezza e la profondità al contrario, non fuggono gli estremi, né schivano detta imperfezione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Con questa misura dismisurata, ch'è propriamente dismisura, non insegnò a misurare alcun buon geometra, né peraventura Aristotele o Platone.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non ci spiaccia dunque a lasciarla a l'oppositore, che è novo architetto; e mi par che lodi il fabricar su le menzogne. Ma che direm di quello che scrive in ultimo: che la mia casa è murata su 'l vecchio?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Che l'opposizione vi sia commune con molt'altri; e con Virgilio e con Omero; e con Virgilio principalmente: perché questi duo scrittori fondarono la sua sovra edificio molto più antico.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E quale è questo edificio?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'istoria delle guerre di Troia e 'l passaggio d'Enea in Italia.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Antichissimo certo; ma pure io dubito che l'oppositore non ci inganni, perché colui che mura su 'l vecchio non fa di novo la forma di tutto il palagio.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non suol farla, ma finisce la cominciata.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se Virgilio, dunque, ed Omero fece tutta la forma di novo, non murarono su 'l vecchio.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non si può dire con alcuna ragione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Né si dice ch'edifichi sovra 'l vecchio chi prende i marmi e i cedri e l'altra materia da alcuno antico edificio, e forma il palagio tutto di novo; ma colui solamente che fa nuove camere sovra le vecchie camere, e sovra le sale vecchie nuove sale.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare senza alcun dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>L'Ariosto, dunque, ha murato su 'l vecchio, avendo murato sovra quella parte così grande già cominciata dal Boiardo; ma io, c'ho preso parte della materia da l'istoria solamente, non ho murato su 'l vecchio, ma formato novo edificio; e la materia che n'ho presa s'invecchia meno che non fanno i marmi, e l'oro, e gli argenti, e gli altri metalli: e più del cedro e dell'aloè si conserva da la putrefazione. Non so dunque con qual sottile avvedimento abbia nel mio poema biasimato quel che, se pure era degno di biasimo, si poteva riprendere nell'Ariosto; ma nel mio non poteva in modo alcuno cader la riprensione, come non può negli altri perfetti: laonde l'oppositore fiorentino mostra d'essere tal muratore quale innanzi s'è dimostrato tessitore; o come se ne mostra intendente poco appresso, assomigliando la tela del mio poema, la quale è maggior dell'<title>Eneide</title>, ad una zacherella.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Il Tasso non ha però trovato di proprio ingegno cosa di meraviglia; e perciò pare ch'egli in questa parte abbia più tosto fuggito biasimo che acquistato loda; là dove se l'Ariosto si chiamarà vinto nell'ordimento e nella tessitura della favola...</emph> Risposta. <emph>Questo non farà egli.</emph> Dialogo. <emph>Peraventura l'avanzerà nell'invenzione.</emph> ATTEND. <emph>Intorno a ciò non dico che il Tasso sia stato ritrovatore di cose maravigliose e che in questa parte possa paragonarsi a' greci poeti.</emph> Risposta. <emph>Né anch'a molti toscani.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Mi rincresce che l'Attendolo non sia presente, ed insieme l'oppositore; da' quali peraventura impararei quali son le cose degne di meraviglia. Ma poi che voi potete sostenere la persona d'ambeduo, ditemi, vi prego: che direste o che direbbono che siano i miracoli o le meraviglie?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'insegna Orazio nella sua <title>Poetica</title>, lodando Omero:
+<quote rend="block">
+<lg><l lang="Lat" rend="italic">Cogitat, ut speciosa dehinc miracula promat,</l>
+<l lang="Lat" rend="italic">Antiphatem Scyllamque et cum Cyclope Charibdim.</l>
+</lg>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque meraviglie e miracoli chiamiamo i fantasmi; e quella parte della poesia, ch'è facitrice dell'imagini fantastiche, sarà lodata per l'invenzione delle meraviglie: della qual lode serà priva l'altra, che fa le vere similitudini.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Altro non mi pare che si possa cavare da Orazio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma i filosofi, che chiamano meraviglioso?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quello la cagion del quale è occulta.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tutte le cose, dunque, che avvengono per secreto giudizio della providenza di Dio, seran meravigliose?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Senza dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E tutte l'altre, delle quali sono occulte in qualche modo le cagioni divine ed umane?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>E quelle ancora seranno mirabili, a mio giudizio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma fra le due maniere di meraviglie, quali paion maggiori? le fantastiche o le divine?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Le fantastiche posson parer maggiori al volgo; ma non sono credute.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E la meraviglia nasce da le cose credute o da le non credute?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Niun si meraviglia di quelli effetti ch'egli non crede veri, o possibili almeno.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, delle cose o degli effetti creduti solo ci meravigliamo; e la meraviglia dell'altre cose non solo è minore, ma non è pur meraviglia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così avviene.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, tutte le cose le quali nel mio poema son governate da la providenza di Dio, sono degne di meraviglia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E s'il mio avanza in questo tutti gli altri poemi eroici, supera tutti gli altri nella meraviglia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Veramente mi pare che vi si possa concedere questa lode.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Quelle meraviglie, o siano fatte con simili similitudini o con dissimili similitudini, tutte son fatte con verissime similitudini; e s'alcun dirà che non sia trovato da l'ingegno mio lo scudo della Verità che ricoperse Raimondo, o tutte l'arme o gli instrumenti del cielo descritti più minutamente da l'Areopagita, e l'altre descrizioni dei cieli e delle cose celesti, e l'apparizione degli angeli e degli spiriti beati, non furono almen da me trovate senza l'ingegno mio: e la cristallina porta d'oriente, da la quale escono i sogni, e le visioni che Dio ci manda, è mia propria invenzione, a la quale le case del Sonno dovrebbono cedere: e mio proprio ritrovamento è 'l far le preghiere alate, che da' Gentili erano dipinte zoppe, non sapendo essi quanto tosto siano esauditi i preghi di coloro che sono infiammati da viva carità: e l'una e l'altra, s'io non m'inganno, può convenevolmente esser ricevuta da poeta cristiano, né in questa parte ho giudicato convenirsi licenza maggiore.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Nella revisione del vostro poema, e nell'accrescimento già disegnato prima che si stampasse, si aspettavano da voi cose mirabili e conformi a la dottrina delle sacre lettere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non voglio destare espettazione che io non possa facilmente sostenere. Ma che direm della parte fantastica delle imagini, nella quale la mia nova invenzione non mi pareva degna d'alcun disprezzo? perché tutti gli incanti, fatti per impedir le machine, oltre che contengono molte allegorie, possono essere creduti: perch'è possibile che sian fatti dal Mago: e son particolarmente degni di meraviglia, perché son congiunti a la favola. Non parlo delle altre cose mirabili, delle quali alcuna potrei rimovere, acciò che la meraviglia de' simulacri non fosse peraventura soverchia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Ma il Tasso ha scritto la medesima parte a punto che di più d'un autore si trova eziandio nelle stampe.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Questo può esser facilmente; ma pur mi è tanto ignoto, quanto discaro; se pur egli intende non d'istorici, ma di poeti; e quando io cominciai il mio poema, non sapea ch'alcun trattasse questa materia in versi, che gli l'avria conceduta: parendomi che dell'azioni meritevoli d'esser descritte poeticamente debba avvenir quello che avviene de' luoghi de' teatri, i quali sono ragionevolmente del primo occupante. Seppi da poi che la scriveva in versi latini il Barga, eccelentissimo poeta, ed un padre giesuita di gran merito, non solamente di molto grado; ma essendo diversa la favola, non mi parve di lasciar l'impresa: altramente non sarei stato così discortese, né così vago di contrasti. E quantunque l'usanza greca ciò concedesse a i poeti, non mi pareva cosa da' nostri tempi o da le nostre corti.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Nondimeno la proposizione del suo libro appare diversa da questo primo intento. Perché proponendo, egli dice:</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Le donne, i cavalier, l'arm'e gli amori,</l>
+<l rend="italic">le cortesie, l'audaci imprese io canto.</l>
+</lg>
+</quote></p>
+<p>Risposta. <emph>Negasi questa conseguenza. L'Ariosto nella proposta del suo poema usa quella figura che suol descrivere il tutto con l'annovero delle parti.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Questa figura suol mai tralasciar alcuna delle parti o pure numerarle tutte ad una ad una?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Numerarle tutte.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, se tutte non le numerò, non volle usare questa figura, o non bene l'usò.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La divisione è bastevole.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma quale è più ragionevole, che si creda che non l'usasse o che non l'usasse bene?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Che non l'usasse.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Seguite.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Qui potete vedere aver egli dato luogo nel suo poema a persone sceleratissime, vili, e del tutto indegne, contra gli insegnamenti d'Aristotele; il che non si può dir ch'abbia fatto il Tasso.</emph> Risposta. <emph>Il poema del Tasso è sì stretto che a pena vi potevan capir le buone.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Capì nell'<title>Eneide</title> Sinone, il Ciclope e Mezenzio; e pur era minore.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Ma sono anche in Omero i Tersìti, i Ciclopi, ed altri simili assai; e, quel ch'è peggiore, non è 'l fondamento sopra il quale è fabricata l'</emph><title>Iliade</title> <emph>tutto sceleratissimo?</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Chiama sceleraggine l'incontinenza: né si ricorda della dottrina d'Aristotele, nella <title>Filosofia de' costumi</title>, confermata dal suo divino poeta: quantunque non l'incontinenza sia il fondamento dell'<title>Iliade</title>, ma la virtù eroica.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Ma chi volesse anche vederla più fil filo, eziandio nel</emph> Goffredo, <emph>così sterile e così smunto poema, seranno di queste o di peggiori cose, senza bisogno della favola. [Ma qual può esser peggior di quella che del continuo accompagna l'argomento di quel poema]; se però poema dir si potesse l'imbrattar istoria pia con sozzure di vizi carnali, e omicidi in persone di cristiani ed amici, e sì fatti? e ad uomini celebri di santità di vita ed onorati di fama di martirio, attribuire affetti e peccati immondi, infino a lo innamorarsi di saracine, e per esse volersi uccidere, ed aver mutata religione?</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Io non so bene se l'essere sterile e smunto sia colpa del mio poema o della mia avversità; perché là dov'egli dovrebbe aver prodotto amore e benevolenza negli animi non solamente de' lodati ma de' lettori, ha forsi generato in alcuni contraria passione; ma se l'infecondità è negli altri, non debbe a lui rimanerne la vergogna. Tuttavolta m'assicura che abbia prodotto alcun parto, quello che dicono de' miei parziali: i quali potranno più longamente rispondere a questa opposizione; ma io, che volontieri (né però senza mio dolore) sostengo d'esser medicato dell'ignoranza, dirò al medico: Son infermo per la dolcezza de' cibi dell'intelletto, de' quali ho gustato soverchio nell'età giovenile, prendendo il condimento per nutrimento: nondimeno troppo spiacevoli sono questi medicamenti; e temo che non m'ingannino perch'io li prenda: nova sorte di medicare e nova maniera d'artifizio unger di fele il vaso, in cambio di mele, perché da l'infermo non sia ricusato. Ma forsi desiderate saper la cagione perch'io dica questo e perch'io parli co 'l medico, pur com'egli fosse presente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dichiarate senza metafora il vostro concetto.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Niuna sceleraggine è nel mio Goffredo o negli altri Cristiani; ma tutte incontinenze, o violenze d'incanti, le quali non sono scelerate, perché l'azioni non son volontarie semplicemente: e niuna io ne descrivo ne' cavalieri, della quale non si veda nell'istoria menzione, almeno in universale: niuna è senza costume, o senza allegoria; e questo era il mele del quale dovevano ungere la bocca del vaso perché io prendessi la medicina. E se c'è un traditor di Cristo, che solo è scelerato, è non sol verisimile che fosse, ma vero; e la verità non è forse senza qualche necessità.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Grande è sempre e necessario l'obligo del ben fare, e del ver dir parimente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma non vi pare assai convenevole che l'adunanza dell'esercito contenga i buoni e i cattivi, come li contiene la città?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Mi pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Nella città si concede luogo al traditore?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Fu sentenza de' famosi filosofi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque non è sconvenevole che si conceda nell'esercito.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non per questa ragione; né per l'esempio di Sinone, che adduceste pur dianzi; o per quel di Gano, del qual son pieni tutti i romanzatori.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma per questa altra è necessario.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>E per quale?</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Perché se c'è un contrario, è necessario che ci sia l'altro. Se ci sono i beni, è necessario che ci siano i mali; se c'è la fede, è necessario che ci sia la fraude.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Io veggio questa necessità nell'universo; e udì'già dire, o lessi, che il male è di sua perfezione. La veggio nelle città, negli eserciti; ma non la conosco ne' poemi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma i poemi sono imitazioni, o quasi imagini dell'universo, delle città e degli eserciti.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ed imagine dell'universo è il poema di Dante, che l'oppositore chiama divino, ed io volontieri gliele concedo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Imagine veramente meravigliosa.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Imagini delle città e degli eserciti sono l'<title>Iliade</title>, l'<title>Odissea</title>, l'<title>Eneide</title>, e la mia <title>Gerusalemme</title>, e l'altre sì fatte? o pur anche queste sono imagini dell'universo?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dell'universo più tosto: perché si descrive in loro il cielo e l'inferno, non solamente la terra, abitazione degli uomini, e gli altri elementi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se l'imagine dee rassomigliare l'imaginato ed esprimere il costume, è necessario che il male, ritrovandosi nel mondo, si ritrovi nel poema.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Mi par necessario.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Laonde convenevolmente disse Plotino che, se fosse alcun poema senza i peggiori, sarebbe men bello. Ma la necessità della quale parla Aristotele, è questa medesima o pur diversa?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Aristotele parla di quella necessità senza la quale non si potrebbe legare o scioglier la favola, la quale peraventura è diversa.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Diversa come l'effigie da l'effigiato o pure in altro modo?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Io credeva in altro modo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se in altra maniera fosse diversa, ne seguirebbe che tutte l'azioni degli uomini potessero condursi a fine senza la malizia: il che non è vero.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dunque in questa guisa solamente è differente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma seguite.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Lo inganno di Ricciardetto ec. Puossi sentire parlar più magnanimo, più reale, più eroico e più accompagnante il decoro, che quel d'Agramante e di Brandimarte?</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Così parlava Brandimarte, ed era</l>
+<l rend="italic">per soggiungere ancor molt'altre cose,</l></lg></quote></p>
+<p>ec.</p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Niuna lode dell'Ariosto, come ho detto più volte, mi spiace: laonde può esser lodato co 'l mio silenzio, o con la mia lode medesima, ché nel coro de' lodatori non discordarei l'armonia. Però non voglio, per vaghezza di contradire, rimproverare a l'oppositore ch'egli abbia scelto luogo sospetto: nel quale paiono anzi di predicator cristiano che di cavalier saracino quelle parole:
+<quote rend="block">
+<lg>
+
+<l rend="italic">Crederò ben, tu che ti vedi 'n preda</l>
+<l rend="italic">di quel dragon che l'anime divora,</l>
+<l rend="italic">che brami teco nel dolore eterno</l>
+<l rend="italic">tutt'il mondo poter trarre a l'inferno;</l>
+</lg>
+</quote>
+perché i Macometani non biasmano Cristo, né sogliono usare simili persuasioni o simili spaventi; ma spaventano con le morti, con gli incendi e con le ruine, ed in somma con le pene temporali.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Già s'è risposto che eroico e romanzo è tutto uno; e s'intende romanzo per uno eroico allegro, ed eroico per uno eroico noioso e spiacevole; e ci contentiamo che in noia e spiacevolezza resti il</emph> Goffredo <emph>al disopra.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Può esser tutt'uno quel che non è tutto né uno?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non può.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se questo poema non è tutto, né uno, non è possibile che sia tutto uno con l'eroico. Se tutti i romanzi sian così fatti, lascierò che sia ricercato da altri: a noi basterà che non prendiamo errore in quel che è giudicato.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Ed in questa seconda parte del costume notano alcuni il Tasso che pone in bocca d'un pastor sentenze non pur da uomo di città, ma da filosofo. Dicono ancora che non convenga ad Armida né a Tancredi, innamorati, dir ne' lamenti loro parole così colte e artificiose.</emph> Risposta. <emph>Non dee aver vedute le lettere amorose di tanti illustri autori, né 'l ragionamento del Zima e della donna del Vergelese.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma che ne credete voi di questo?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Che le abbia vedute senza fallo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E senza dubbio il non conosciuto amico dee aver veduto le tragedie di Sofocle, nelle quali gli affetti così parlano con versi coltissimi; ma quali son più colte di quelle che Virgilio pose in bocca dell'innamorata Didone?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non ce ne sono, a mio parere; ma pur l'opinione d'Aristotele par diversa.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma, s'io non m'inganno, parla ancora in diversa materia: ché 'l gir cercando i testi ora non sarebbe opportuno; e voi sapete quanto io sia smemorato e quanto liberamente soglia filosofare: il che non direi, se non fosse lecito di filosofare a quelli ancora che non sono dotti, perché la filosofia è posta in mezzo fra la scienza e l'ignoranza.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Il filosofare è simile a l'arricchire; onde sì come a poveri le ricchezze, così a gl'indotti si conviene acquistar le scienze; ma voi somigliate a quei ricchi che vogliono trarricchire, né si contentano dell'acquistato; e se questo è uno degli altri acquisti, seguiterò, per non impedirlovi. Risposta. <emph>E perché si passa alla mutola il malvagio consiglio dato da Ubaldo, indotto dal Tasso per savio e fedele amico, a Rinaldo nel dipartirsi da Armida?</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se avesse detto consiglio d'uomo poco avveduto, non avrei peraventura dato risposta per non contradire al giudizio del signor Flamminio Nobile, uomo dottissimo, che già tale nominò Ubaldo quando da prima vide il mio libro, quantunque avessi potuto; ma dicendo malvagio, si può rispondere che i malvagi consigli inducono a le cose malvagie, e questo non persuade alcuna malvagità.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Ma in questa maniera del costume, osservantissimo, s'io non m'inganno, è stato il Tasso</emph> ec. Risposta. <emph>D'alcun di questi s'è già mostro il contrario.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se le dimostrazioni sono fatte, chi prenderà le machine per gittarle a terra? poi ch'io non posso riprovarle in altro modo che in quello nel quale stimo d'averle riprovate?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>I quali furono a punto o saggi, o forti, o audaci, o arditi, conservando la verità dell'istoria.</emph> Risposta. <emph>L'audacia non fu riposta tra' buoni costumi, essendo da bestie, non da persone.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se qui fosse l'oppositore, io gli chiederei se l'audacia fosse contraria a la fortezza.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risponderebbe, se non m'inganno, ch'è contraria; quantunque si legga appresso Platone che tutti i forti sono audaci, ma non tutti gli audaci forti.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'egli con Platone rispondesse, sarebbe terminata la questione; ma con Aristotele rispondendo, io direi che i contrari sogliono essere intorno al medesimo subietto.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sogliono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, se l'una è da uomo, l'altra non è da bestia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non è da bestia; tuttavia non si ripone fra i buoni costumi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Anzi è riposta: perché l'audacia imita la fortezza in quelle cose che può, e cerca d'assomigliarla; e i simili son riposti fra' simili:
+<quote rend="block">
+<lg><l lang="Lat" rend="italic">Irim de coelo misit Saturnia Iuno
+audacem ad Rutulum.</l></lg>
+</quote></p>
+</sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Quando non se gli attribuisca a fallo l'aver finto Rinaldo, tronco di casa d'Este, figliuolo di Bertoldo, aver militato nella guerra di Gerusalemme,</emph> ec. Risposta. <emph>Benché ci abbia esempi di questo vizio, non pur ne' poeti, ma anco ne' più illustri componitori di dialoghi, non resta che non sia vizio.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Qual vizio? cupidità, falsità o altro simil vizio di costumi, o più tosto vizio dell'arte?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Se pur è vizio, è vizio dell'arte: perché i vizi dell'arte debbono esser biasimati da gli artefici, come i vizi de' costumi da i costumati.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma i vizi dell'arte sono contrari a la virtù dell'arte, non a quella de' costumi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A quella dell'arte.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E la virtù dell'arte non è una sola, ma più tosto molte, perché molte son l'arti.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Molte, senza fallo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E noi parliamo della virtù dell'arte poetica e del vizio che l'è contrario.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di quella, e non d'altro.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma la virtù dell'arte poetica fa le sue operazioni perfette, come di ciascuna arte, o pur imperfette?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Perfette, come tutte l'altre arti.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>La favola, dunque, che è una dell'opere del poeta, si farà perfetta con l'arte poetica.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Con niun'altra.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se la favola ricevesse maggior perfezione alterando l'istoria, la virtù dell'arte poetica e l'ufficio suo consisterà nel bene alterarla.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare: tuttavolta si debbono variar le circonstanze, non l'essenza dell'istoria.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E di questo ci sarebbe alcuna ragione?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'autorità d'Omero e di Virgilio e degli altri, i quali alterarono tutte le circonstanze.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E senza alterarle, non avrebbono potuto far favola, e non sarebbono peraventura stati poeti.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non, a mio parere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma quali sono le circonstanze? Ditele voi, che dovete saperle tutte a mente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sette sono, se ben mi ricordo, secondo alcuni; secondo altri, nove: ma io narrerò il numero minore. La prima circonstanza è Chi, ciò è colui che fa l'azione: la seconda è Che, ciò è l'azion fatta: la terza, Intorno a che, ciò è la materia nella qual s'adopera: la quarta, In che; e questa si divide in due, ciò è In che luogo ed In che tempo; e questa serà la quinta: la sesta, Con che, ciò è con quale instrumento: la settima, In grazia di che, ciò è 'l fine per lo qual si fa l'azione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, fra le circonstanze, è 'l tempo e la persona; e non importa se Rinaldo, il quale fu settanta o ottanta anni dopo l'impresa di Gerusalemme, sia numerato fra' principali che passarono a l'acquisto, perché l'alterazione non si fa nell'azione istessa, la quale altramente si potrebbe dir negozio, o nell'essenza sua, ma nelle circonstanze che sono attribuite al negozio o a la persona.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non par che questa ragione importi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E l'alterazione è quella che accresce perfezione a la poesia. Dunque, nel nostro caso, s'aggiungono molte di quelle parti nelle quali si divide la prima circonstanza, e tutte la posson far verisimile. Vi s'aggiunge, dico, il nome di Cavaliero; perché alcuni con quel nome stesso vi guerreggiarono: la nazione, però che fu d'Italia, e della casa d'Este, la qual diede Guelfo ancora a questa impresa: la fortuna, perché fu vittorioso, e fece grandissime azioni, e nulla se gli attribuisce di sconvenevole: lo studio, perché s'esercitò nell'armi più di ciascun altro: l'affezione, perché egli fu amator di gloria e d'onore: il consiglio, perché gli piacque sempre il guerreggiar per la giustizia: sì come si conobbe nella vittoria ch'egli ebbe contra Ezzellino. A questa aggiungerò che, accrescendo o venti o trent'anni della vita di Rinaldo, non segue alcuna cosa contra l'istoria: onde par più tosto di quelle cose che non son diffinite da gli istorici che di quelle che son determinate: però senza alcuna sconvenevolezza la sua persona poteva riceversi fra le principalissime del mio poema.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Questa inconstanza di costume non usò già il Tasso nel finger nova persona</emph> ec. Risposta. <emph>Signor no, perché in Zerbino, in Isabella, in Ariodante, ed in tanti altri che son fatture dell'Ariosto, sì come in quelli ancora che trovò fatti da l'istoria, è 'l costume in ciascuna sua qualità meglio osservato senza comparazione.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>L'amico non conosciuto prova in qualche parte quel che dice; ma l'oppositore riprova senza addurre alcuna ragione: laonde mi par ch'egli s'attribuisca questa autorità di giudice, quasi gli sia convenevole per l'età; però, tra 'l suo rispetto e la riverenza ch'io porto a l'Ariosto, non risponderò se non dove s'adduce ragione non volendo opporre autorità ad autorità, favor a favore, e grazia a grazia: e quantunque io potessi, non mi par ciò ragionevole.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Benché fosse ragionevole, non si conviene a la vostra modestia.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, mentre non si contende con gli argomenti, ma si determina con l'autorità, potranno i vecchi a lor voglia giudicare; ma quando le ragioni saranno insieme ristrette in ordinanza così folta, che somigli quella descritta da Omero e da Virgilio, in guisa che il sillogismo sia opposto al sillogismo, l'entimemma a l'entimemma, l'induzione a l'induzione, e l'esempio a l'esempio, diremo a' vecchi: padri, state da parte, non vi fraponete fra l'armi dialettiche dei combattenti; e se pur è vostro ufficio di pacificare, pacificate innanzi che sia cominciata la contesa. Or seguite.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Dice Aristotele che 'l costume reo non dee usarsi dal poeta, se non quando necessità o forza ne sia cagione; e necessità e forza s'intende fare al poeta, quando non essendo il costume tale, la sua favola venisse a guastarsi del tutto e a perderne la vaghezza.</emph> Risposta. <emph>Il poeta non ha mai necessità di far male; ed altro vuole in quel luogo dirsi da Aristotele.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questo ancora ha bisogno che mi sia provato o dichiarato; perciò che non intendo a che si riferisca <emph>altro</emph>: se a le parole dell'Attendolo o pur a quelle dell'oppositore.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'oppositore le riferisce a quelle dell'Attendolo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma che dice Aristotele, ove parla dei costumi?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ch'esempio di reo costume non necessario sia Menelao; e poi soggiunge che così ne' costumi, come nella composizione delle cose, si ricerca il necessario o 'l verisimile.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questo è diverso da quello che dice l'Attendolo?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Pare a l'oppositore, forse perché la necessità ricercata ne' costumi è diversa da quella che si ricerca nella favola; e l'una non è necessaria a l'altra, come vuole l'Attendolo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Or ditemi, la necessità nel costume è ella assoluta, o pur condizionale?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assoluta, risponderebbe forse l'oppositore.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se fosse la necessità assoluta, l'uomo sarebbe malvagio di necessità.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sarebbe.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se ciò fosse vero, non ci sarebbe la libertà della nostra volontà. Dunque, guardisi l'oppositore dal difender questa opinione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sarà dunque la necessità condizionale.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma vogliamo ritrovarne qualche esempio nei poeti, ed in Omero particolarmente?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ritroviamlo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'Agamennone doveva torre per forza Briseide ad Achille, la quale gli era stata conceduta nella distribuzione della preda, era necessario che fosse ingiusto: ma dovea torla; dunque, era necessario che fosse tale. E s'in questa guisa la necessità nel costume è condizionale, è congiunta con quella della favola, senza la quale ella del tutto si guasterebbe.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così appare senza fallo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque Aristotele non ha inteso altro di quel che dice l'Attendolo; ma altro di quel c'ha detto l'oppositore: cioè che 'l poeta non abbia mai necessità di far male.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non s'inganna dunque, ma ci ha voluti ingannare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E s'egli non s'inganna, l'imitare i peggiori, o non è necessario a' poeti, o non è male.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assai chiaramente si conchiude per le già dette ragioni.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma seguite di leggere le cose che rimangono segnate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ci rimangono delle più dispiacevoli. Risposta. <emph>L'Ariosto usa modi più poetici che non fa il Tasso, ma con tanta maestria</emph> ec. <emph>Il</emph> Goffredo <emph>a l'incontro non ha né belle parole né bei modi a mille miglia quanto il</emph> Furioso; <emph>e sono l'une e gli altri oltre ogni natural modo di favellare, e con legatura tanto distorta, aspra, sforzata e spiacevole,</emph> ec. <emph>Tra l'altre cose, buona parte delle parole paiono appiastricciate insieme, e due e tre di loro ci sembrano spesso una sola, di niuno o di lontanissimo sentimento da quel che s'aspettava da la continuazion del concetto: sì che spesso ci muove a riso, come alcuni di questi suoni che si sentono ne' suoi versi:</emph> checanuto, ordegni, tendindi, mantremante, impastacani, vibrei, rischioignoto, crinchincima, tombecuna, comprotton, incultavene, alfiancazzo; <emph>a imitazione di quel</emph> ch'Azzolino <emph>di suo padre:</emph>
+<quote rend="block">
+<lg><l rend="italic">Poi più che Nerone empio e ch'Azzolino;</l></lg>
+</quote>
+cocchio, <emph>più d'una volta</emph>; barbarobarone, <emph>ed altri, che paiono proprio di quella razza d'</emph>accocolm'io, inzacherom'io, <emph>e</emph> dogh'use. <emph>E questo sia detto per incidenza.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Mi par più tosto ricercato con molto studio. Ma di qual razza egli intende? non è certo di ginetti di Spagna o di corsieri del Regno: e se questi sono cavalli, nascono solamente in Fiorenza, e si danno forse a vettura. Ma non parliam più di questo; ma dell'artificio suo, co 'l quale vituperando senza ragione, cerca dar forza di ragione a la maledicenza. Ma se nulla prova nulla gli si risponderà; o pur niuna prova è necessaria nelle parole, e basta il senso?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Il senso dee bastare, secondo l'opinione dell'oppositore, che ripone il giudicio nel gusto.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Or ditemi: a tutti i gusti piacciono tutti i sapori egualmente?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non piacciono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Né a tutti gli occhi paion belle egualmente le cose vedute.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non paiono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E così diremo delle cose le quali sono odorate o toccate.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Parimente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E peraventura il gusto o altro sentimento, esercitandosi intorno alcuno obietto, s'ammaestra, e si fa dotto: né tutti i palati distinguono la differenza de' sapori così esquisitamente.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non distinguono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Il gusto dunque di coloro, i quali spesso han letto e riletto, approvato e riprovato, lodato e rilodato i migliori scrittori, sarà giudice della bellezza delle parole, non quello del popolo Fiorentino.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi par ragione.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E s'egli ricusa il Bembo come veneziano, o 'l Molza come modonese, e tanti Lombardi degni di stima, non dovrebbe rifiutar il Casa, che nacque in Fiorenza, e fu nello stile più simile a Veneziani che a' Fiorentini, se pur tra' Fiorentini non s'annoverasse il Petrarca, com'io sempre l'ho annoverato.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non sarebbe ragione ch'egli rifiutasse questo giudice, poi ch'a suo nipote è dirizzata l'opera.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma non essendo vivo, chi faremo giudice della bellezza delle parole, del modo del favellare e della legatura?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>I simili a lui nel giudizio dovranno giudicare, o siano in Fiorenza, o in altra parte.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ed io volontieri a questi giudici mi sottopongo, quantunque niuna lite abbia con l'Ariosto, e niuna contesa.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>I seguaci di monsignor da la Casa non sono ancora estinti: laonde, se pur doveste litigare, non vi mancherebbono giudici.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tacciamo delle parole appastricciate, perché o bastava il suono a fargliele parere spiacevoli, o non bastava.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Doveva bastare, s'erano spiacevoli.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque non era necessario congiungerle in quella guisa e confonder la scrittura.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non era.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se non bastava, perché fa parer noioso con la sua confusione quel che forse non parrebbe tale con la mia distinzione? E certo, egli in maniera l'ha confuse ch'io non le riconosco per mie; né voglio ricercarle in un poema che già dieci anni sono io non ho letto: nel quale molte cose avrei mutate, non sol mutate parole, s'io gli avessi data l'ultima perfezione. Voi, s'altro ci resta, non vi scordate del vostro ufficio.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Tuttavolta ciò fa (come nella locuzione vedremo) per dimostrarsi maestro nelle maggior difficoltà dell'arte poetica: però questa sua sentenza con locuzione laconica non viene così universalmente lodata.</emph> Risposta. <emph>Né anco particolarmente.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non so perché chiami la mia locuzione laconica.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Forse perché ci mancano molte di quelle congiunzioni, che sono quasi legami del parlare: ché per altro mi paiono i modi del vostro dire assai copiosi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Peraventura non basta questo a far che la mia elocuzione sia laconica; ma io credeva (né l'aveva creduto senza l'autorità d'Aristotele) che, aggiungendosi oltre la necessità o levandosi parte di quelle congiunzioni che son necessarie, s'accrescesse per diverse cagioni grandezza al parlare. E nell'uno e nell'altro modo stimo d'averlo ricercato; e s'ora non piace a l'universale ed al particolare, non dovrei dolermene seco, né con Demetrio Falareo: perché, quantunque egli fosse vivo, mi risponderebbe: Amico, io nacqui in Grecia; e tu vedi come questi nuovi Fiorentini sprezzano non solamente me, al quale tante statue furono dirizzate; ma 'l mio maestro Aristotele, dal quale tu prima l'apparasti, ed Omero, che l'uno e l'altro di noi ti propose quasi per esempio. Laonde io sarei costretto di rivolgermi al signor Pietro Vittorio che nella vecchiezza, simile a quella di Isocrate e di Platone, scrive con simile tranquillità d'animo simili componimenti; e gli direi: O maestro della poesia e dell'eloquenza, o più tosto padre delle belle lettere e delle Muse, perché m'ingannaste voi nella fanciullezza, ed aggiungesti a l'inganno l'autorità del signor Giovanni Casa? della quale non par che si curino questi nuovi academici, o più tosto nuovamente nominati: benché sia vivo il signor Orazio Rucellai, che è così ricco gentiluomo e così copioso di tutti i beni e di tutti i doni della fortuna e della natura? Ma, sin che vien la risposta, seguite di leggere.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>S'egli adempie quello che intende di fare, che importa che non sia chiaro?</emph> Risposta. <emph>Questo è 'l male, ch'egli nol fa, né 'l può fare senza la chiarezza.</emph> Dialogo. <emph>Dovrebbe almeno appresso il giudizio de' dotti esser lodato in questa parte più dell'Ariosto.</emph> Risposta. <emph>La chiarezza è virtù, e 'l contrario è vizio; e 'l vizio è più biasimato da' dotti che da gli ignoranti. Ma che argomento e che conseguenza è questa?</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>L'argomento è da gli effetti. È forse questa topica ancora riprovata? ed èccene alcun'altra che insegni novi argomenti e dimostri novi luoghi, da' quali possano esser cavati? perché ne sono affatto dubbio. Così mi pare che tutte l'arti antiche e tutti gli antichi magisteri siano disprezzati.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non ce n'è alcuna nuova, ch'io sappia, se forse fra le nuove non si volesse annoverare l'arte di Raimondo Lullio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Deh qual sarà per dio quel signore, quel parente, o quell'amico che me la mostri, o quel maestro che la mi dichiari? solamente acciò che in questo secolo io non viva ignorante, o fornito d'altra dottrina che di quella che si vende e si compra e si cambia fra gli uomini presenti: non perch'io desideri d'esser mercatante d'alcuna scienza; ma perché non vorrei essere escluso d'ogni commercio letterato.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>L'arte del Lullio sarà trovata e portatavi anzi che sia luglio; ma nell'arte d'Aristotele e di Marco Tullio s'aspetta che sian fatte le vostre difese, perché quella di Giulio Camillo, quantunque sia nuova in comparazione di quella di Raimondo, non mi par che piaccia molto a gli accorti Fiorentini.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Facciam fra noi dunque quasi un dialogo: perché ne fece non sol Platone e Senofonte e gli altri discepoli di Socrate, ma Aristotele medesimo; il qual seppe usare non meno artificiosamente la dimanda dialettica di quel ch'usassero l'uno e l'altro suo maestro: e dopo lui, ne fece Marco Tullio: la cui dottrina pur derivò da quel fonte. E ditemi: se la chiarezza è virtù, stimate ch'ella sia mediocrità?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È peraventura: perché le virtù e i vizi del parlare son detti a somiglianza di quei de' costumi: né ben mi ricordo se Cicerone, o altro mastro romano, la ponesse fra due estremi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque la chiarezza sarà fra l'oscurità e l'altro estremo, che non ha proprio nome, ma è soverchio nell'esser luminoso, come sarebbono alcune pitture che fossero fatte senza ombre.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E dal lato dell'oscurità porrem forse Dante, come pare che 'l ponesse monsignor da la Casa; da l'altro della soverchia luce, l'Ariosto.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non mi pare luce soverchia nell'Ariosto, quantunque la chiarezza sia grandissima.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Forse più saranno gli estremi di questa virtù, come son quelli d'alcun'altro; ma quel della soverchia facilità, quando ella è volgare anzi che no, suol generar disprezzo; perché i nomi e i verbi propri fanno il parlare assai chiaro, ma l'ornamento l'è dato da gli altri. Laonde gli uomini non sono mossi altrimente da le parole che da' peregrini: perché quel solo è venerando e degno di riverenza: e peregrino dev'esser il parlar, se dee mover maraviglia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Senza fallo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se nell'altro estremo debba riporsi l'Ariosto, altri se 'l veda: nel mezzo senza alcun dubbio riporremo il Petrarca, il Bembo, il Casa e 'l Guidiccione: e s'alcuna cosa ci si mostrerà manco luminosa, ci parrà simile a quella oscurità la quale accresce l'onore con l'orrore, non solo ne' tempii, ma nelle selve.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Assai felicemente mi par che sia difesa questa parte; ma io seguirò leggendo. Dialogo. <emph>E quinci è ch'il Tasso, ricercando troppo l'arte, anzi duretto che no a le volte par che divegna: benché si può sperare che se i cieli saranno a lui ed a l'età nostra benigni con ridurlo a la primiera sanità, che donando egli l'ultima mano a la</emph> <title>Gerusalemme</title>, <emph>rallungando ed illustrando molti luoghi, i uali ora a' leggenti mozzi ed oscuri s'offeriscono, potrà ridurre quel poema a matura perfezione.</emph> CAR. <emph>S'intende che 'l volume stampato ultimamente in Ferrara sia stato da lui riveduto.</emph> ATTEND. <emph>Io non so: ho ben inteso dal padre don Benedetto da l'Uva, che il Tasso, prima che gli fosse sopragiunta questa disgrazia, disse a lui ch'egli non aveva intera sodisfazione in questa opera...</emph> Risposta. <emph>Aveva buon giudicio.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Perché, dunque, biasima in tutto il poema, il quale non fu da me in tutto condennato?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non lo biasima interamente, se non in questa parte nella quale egli prende anzi persona d'uom che difenda che di giudice.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Prendendo la difesa, doveva difender tutto l'Ariosto, non offender tutta la <title>Gerusalemme</title>, ché non era necessario: ma s'egli ha voluto in questa difesa imitare il consiglio d'alcuni uomini di Stato, i quali vogliono che in tutto ci assicuriamo de' nemici, non doveva poi nel giudizio esporsi a pericolo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dunque né a loro né al Casa, il qual danna totalmente la ragion di Stato, ha voluto esser affatto somigliante.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma la scusa dell'Attendolo, o la difesa, è quella che saprei far io medesimo, se non in quanto v'aggiungerei che né questa opera mia né l'altre sono mai state né riviste né ricorrette né publicate da me: piaccia a Dio che mi sia conceduto di farlo! E certo, una delle maggiori speranze ch'io n'abbia è l'amicizia de' padri di Montecasino: fra' quali il padre don Benedetto da l'Uva, già da me conosciuto, è degno di tanta stima, quanta mostra di farne lo scrittore del Dialogo; ma non è solo né da pochi accompagnato; né io son men povero della grazia d'alcun'altro.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo <emph>... e che aveva in animo di mutar molti luoghi,</emph> ec. Risposta. <emph>Questo non fa forza: ad una simile nave e ad una cotal nocchiera si poteva molto ben presumere una vela indorata; ché indorata, e non d'oro, significa</emph> aurata: <emph>sì che si danna il Tasso in questo Dialogo dove nol merita, e commendasi dove nol vale.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Le difese degli oppositori sono sospette. Laonde non dovrebbe maravigliarsi s'io, seguendo in questa il consiglio degli uomini di Stato, non volessi servirmene in alcuna occasione. Ma, com'ho detto, né suspizione, né timore, né altro affetto m'induce a pigliar la difesa; ma l'amor della verità e l'affezione di mio padre, per la quale io debbo ricever in grado quel ch'è stato scritto da lo scrittor del Dialogo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Questi scherzi usati a suo luogo, e con parcità, stanno bene; ma il Tasso se n'empie tanto la bocca, e tanto gli adopera senza decoro e senza distinzione, che pare una fanciullaggine il fatto suo. Non son questi i propri ornamenti e le proprie figure dell'epopea.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Quando io sono offeso co 'l mio giudizio medesimo manifestato a molti, se voglio ribatter il colpo che viene a ferirmi, conviene che riprovi me stesso. Che dunque debbo fare, amici e signori miei? aspettar la percossa e ricever il ferro nella gola, come fecero i senatori romani quando Roma fu presa da' Francesi; o pur ogni difesa è lecita con gli avversari, vera o falsa ch'ella sia?</p></sp>
+<sp><speaker>FANTINI.</speaker><p>«<foreign lang="Lat">Dolus an virtus quis in hoste requirat?</foreign>» Vestitevi dell'arme de' Greci, come fece Enea nell'incendio di Troia, e, mescolandovi fra' nemici, dimostrate il vostro valore o la vostra dottrina più tosto; perché l'arme dei letterati sono le scienze, e voi solete le greche, non che le nostre, adoperare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Questo peraventura sarebbe malagevole anzi che no: perché, quantunque fra' Greci i poeti lirici e quegli c'hanno scritti gli epigrammi siano pieni di scherzi, Omero o non gli usa o gli usa molto di rado; e Virgilio parimente: laonde io dovrei pregar più tosto il principe di Sulmone che l'armi usate dal suo poeta mi fossero concedute, le quali non dovrebbono esser ricusate dal padrino dello avversario, avendo egli armato il suo di quelle che usarono Menandro e Terenzio, o pur Aristofane, molto meno convenienti.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non sarà dunque sconvenevole a l'epico, che somiglia l'uomo d'arme, usare alcuna saetta tolta da la faretra d'Ovidio; la qual vada a ferire in modo che la piaga porti seco il diletto accompagnato con la maraviglia.</p></sp>
+<sp><speaker>FANTINI.</speaker><p>Questi uomini d'arme saranno pur Greci, ed in parte simili a quelli de' quali parlate nel vostro poema:
+<quote rend="block">
+<lg><l rend="italic">Suonano al tergo lor faretre ed archi.</l></lg>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>E gli archi e le faretre, assai meglio degli arnesi da cucina che furno posti da Terenzio in mano a gli oppugnatori della casa di Taide, potranno esser adoperate: ma io non voglio formar niuna maniera nuova di milizia. Ma lasciando da parte i traslati e parlando propriamente, vorrei sapere se l'oppositore chiama gli scherzi le figure delle sentenze o delle parole.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Le figure delle sentenze non so che fossero mai nominate scherzi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque scherzi sono le figure delle parole, de' quali usò pur alcuni Virgilio.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Usolli.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E s'egli gli usò, gli usò come propriamente proprii, o come non propriamente proprii?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>O nell'uno o nell'altro modo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se come propriamente proprii, gli deve lodar l'avversario.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Gli deve.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se gli usò come non propriamente proprii, gli ornamenti simili possono esser talora usati: perché se i proprii propriamente doveva solo usare, non usarebbe mai l'epico le figure che usa l'oratore e l'istorico, o pur il tragico e 'l lirico.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non certo: perché queste sono communi in qualche modo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ed a voi che ne pare?</p></sp>
+<sp><speaker>FANTINI.</speaker><p>A me parimente: il quale ho preso talora in mano Platone, e mi pare ch'egli abbia trasportati nella filosofia tutti gli ornamenti degli oratori, come ha fatto ancora fra' moderni il signor Antonio Montecatino e 'l signor Flaminio Nobili. Né solo i filosofi, ma i nostri padri greci e latini hanno spogliati i gentili delle bellezze e delle ricchezze, e vestitosene assai pomposamente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque co 'l vostro consiglio, amici e signori, questi scherzi, o siano propriamente proprii, o non propriamente proprii, mi saranno conceduti senza biasimo, almeno fin tanto che potrò averne più lunga considerazione.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La considerazione sarà matura; ma non tutti i fiori son caduti quando i frutti son maturati.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non sono, né saranno; ma è stato soverchio il ricercar in questa parte il vostro consiglio, perché se gli scherzi sono figure di parole, come voi signor SEGRETARIO ci diceste, in questi che prima adduce l'oppositore,
+<quote rend="block">
+<lg>
+<l rend="italic">acque stagnanti, e mobili cristalli;</l>
+<l rend="italic">fior vari, e varie piante, erbe diverse.</l>
+<l rend="italic">L'aura, non ch'altro, è della maga effetto,</l>
+<l rend="italic">l'aura che rende gli arbori fioriti.</l>
+<l rend="italic">Co' fiori eterni, eterno il frutto dura,</l>
+<l rend="italic">e quando spunta l'un, l'altro matura;</l>
+</lg>
+</quote>
+non c'è scherzo alcuno, quantunque ci sia la figura detta da' Latini repetizione: la quale non è propriissima dell'epico, perch'è usata da gli altri; nondimeno gli è convenevolissima.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare; ma 'l concetto o la sentenza degli ultimi versi è tolta da Omero, e trasportata leggiadrissimamente da gli orti del re Alcinoo nel giardino di Armida.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Peraventura l'oppositore non se ne rammentò, o non fece stima dell'autorità d'Omero, il quale egli mostra disprezzar per altro.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>L'Ariosto:</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">E tra que' rami, con sicuri voli,</l>
+<l rend="italic">cantando se ne gìano i rosignuoli.</l>
+</lg>
+</quote>
+<emph>Il Tasso</emph>:
+<quote rend="block">
+<lg>
+<l rend="italic">Vezzosi augelli tra le verdi fronde</l>
+<l rend="italic">temprano a prova lascivette note.</l>
+</lg>
+</quote></p>
+<p rend="italic">Vedete i concetti dell'Ariosto facili, e vestiti per lo più di voci chiarissime e dolci; e quelli del Tasso per lo più di traslati e vaghi di sensi esquisiti. Vedete nel medesimo luogo la durezza e l'oscurità del Tasso:
+<quote rend="block">
+<lg>
+<l rend="italic">Stimi (sì misto il culto è co 'l negletto)</l>
+<l rend="italic">sol naturali gli ornamenti e i siti.</l>
+<l rend="italic">Di natura arte par, che per diletto</l>
+<l rend="italic">l'imitatrice sua scherzando imiti.</l>
+</lg>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Confesso di non conoscer l'oscurità, perché il concetto è tolto da luogo illustre, com'è quello d'Ovidio nelle <emph>Trasformazioni</emph>:
+<quote rend="block">
+<lg><l lang="Lat" rend="italic">Naturae ludentis opus;</l>
+</lg>
+</quote>
+né spiegato nelle tenebre. E se peraventura son duretti, rammentisi che l'Ariosto descrive il giardino d'Alcina nell'India, in parte dove la natura poteva produr quegli effetti; ed io fingo questo d'Armida sovra un'asprissima montagna cinta di neve, dov'ella non ha parte alcuna, ma tutta la bellezza nasce da l'arte.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Veggio la diversità.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque non dovete maravigliarvi che l'arte senza natura paia duretta anzi che no.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Tra tante maraviglie ci mancava questa sola, del non ci avere a meravigliare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma la durezza non è però simile a quella di Tabernic; ma tanto ammorbidita, che facilmente potrebbe divenir tenera e molle affatto. Ed io, che son cultore assai furioso, ho concio gli ultimi in questa guisa:
+<quote rend="block">
+<lg>
+<l rend="italic">Bell'arte di natura, ove a diletto</l>
+<l rend="italic">l'imitatrice sua giocando imiti.</l>
+</lg>
+</quote></p>
+<p>Ma 'l primo non ho potuto racconciare. Volete voi aiutarmi nell'opera, e prender parte della mercede: la qual non sarà d'oro né d'argento, ma di quella che piace a gli animi virtuosi?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A voi sarà più facile il far da voi stesso che a me darvi aiuto.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non voglio darvi maggior noia che vi piaccia di prendere; ma seguite.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Di questi versi aspri, saltellanti, ch'imitano le sonate del trentuno, qual è 'l primo di questi quattro, n'è pieno il libro del Tasso.</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Indi il suo manto per lo lembo prese.</l>
+<l rend="italic">E l'accompagna stuol calcato e folto.</l>
+<l rend="italic">Ch'è bruna sì, ma 'l bruno il bel non toglie.</l>
+<l rend="italic">Gli occhi di lei sereni a sé fa spegli.</l>
+<l rend="italic">I cerchi son, son gl'intimi i minori.</l>
+<l rend="italic">Invitti insin che vivo è fior di speme.</l>
+<l rend="italic">Che scettri vanta, e titoli, e corone.</l>
+</lg>
+</quote></p>
+<p><emph>Tra' quali, ne' duo ultimi è anco bella cosa la voce fiore; la quale non s'è accorto il Tasso, che in quel luogo di Dante, donde l'ha presa</emph> («Mentre che la speranza ha fior del verde»), <emph>è avverbio e val punto...</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Anzi me n'accorsi, e lessi quel libro sovra il <title>Decamerone</title>, nel quale era dichiarata questa parola; ma non veggio necessità perché quella voce ne' miei versi non possa prendersi come traslazione, trasportata dal fiore:
+<quote rend="block">
+<lg><l rend="italic">... in sin che vivo è fior di speme.</l></lg>
+</quote></p>
+<p>E questo basti per risposta a l'ultime parole: perché a le prime, non adducendo né la ragione né l'autorità, non debbo rispondere.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>... ed il</emph> vantar scettri <emph>è nuova locuzione, e di quella novità che di sopra s'è ragionato.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Della novità siam d'accordo: nel rimanente, voi sapete ch'in questo luogo non veste la persona di giudice, ma serve a la causa.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Che direm delle voci latine che il Tasso ha sparso in tutto il suo poema?</emph> Risposta. <emph>Perché non pedantesche? che tante ne sono in quella opera, che con poche più potrebbe parer dettato in lingua fidenziana, le cui pulcherrime eleganze non lascia anco tal volta di contrafare.</emph>
+<quote rend="block">
+<l rend="italic">Fidenziana. — Audace ascesi un equo conductizio.</l>
+<l rend="italic">Tasso. — Scende, ed ascende un suo cavallo in fretta.</l>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ecco lo scherzo, simile a quello,
+<quote rend="block">
+<foreign lang="Lat"><emph>via invia vivis,</emph></foreign>
+</quote>
+usato da Virgilio; ma la pedanteria ov'è? nella parola <emph>ascende</emph>?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non mi pare che sia in quella, perché si legge nel Petrarca:
+<quote rend="block">
+<lg><l rend="italic">e così n'ascendemmo in loco aprico.</l>
+</lg>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque se n'è tutta rimasa con quello <emph>equo conductizio</emph>, su 'l quale io non voglio montare.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>È meglio peregrinare a piedi che l'andar male a cavallo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma peraventura l'oppositore ha voluto con lo scherzo accennar ch'egli scherza; e la voce <foreign rend="Lat">pulcherrima</foreign> n'è buono argomento, perciò ch'ella non è mia, ma di Dante, il qual disse:
+<quote rend="block">
+<lg><l rend="italic">Mal dare e mal tenere il mondo pulcro.</l></lg>
+</quote></p>
+</sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Che altro, se non quel che dice Aristotele, che a l'epico poeta è solo concesso d'usar voci straniere? intendendosi, a lui più ch'a gli altri.</emph> Risposta. <emph>S'intende acqua, e non tempesta, ec. A picciol numero, dunque, si ristringono nel</emph> Goffredo <emph>le parole e i modi di questa lingua: perché, chi ne levasse, oltre le dette pedantesche e lombarde, alcune particolari, che vi si trovano in ogni stanza:</emph> serpere, torreggiare, scuotere, riscuotere, precipitare, la guarda, breve, trattar l'armi, matutina, notturna, vetusto, capitano, legge il cenno, vide e vinse, augusto, diadema, lance <emph>per</emph> bilance, fera, ostile, mercare, <emph>e</emph> susurrare, <emph>come che ancora buona parte di queste ripor si possa tra le primiere, leggier fatica si prenderebbe chiunque del rimanente formar volesse uno stratto.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E quali chiama le dette, pedantesche e lombarde?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Niuna n'ha detto, se non <emph>ascende.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questa non è pedantesca né lombarda.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non è.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E se l'altre simigliano a questa, né pedantesche saran giudicate, né lombarde.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così stimo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, i modi e le parole non essendo della pedantesca lingua, né della lombarda, saranno o della toscana o della latina, o pur d'alcuna nobile straniera, com'è della provenzale, o della francese, o della spagnuola.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di queste, e non d'altre.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E voi dovete ricordarvi di quel sapore, ch'egli disse, del quale non si mostrò schifo il Petrarca, il Bembo e 'l Casa.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Me ne ricordo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E queste mi paiono del medesimo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Del medesimo, e del medesimo condimento.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E s'è pur vero ch'a picciolo numero si ristringano nel <emph>Goffredo</emph> le parole e i modi di questa lingua, egli dee intendere della volgar fiorentina.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di quella, non d'altra.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E peraventura di quella che s'usa a questi tempi, non di quella la qual era usata a' tempi del Boccaccio, o pur di Dante che scrisse più fiorentinamente del Petrarca, ma non ebbe elocuzione così poetica e così pellegrina.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La lingua del Petrarca molte volte è poetica più tosto che fiorentina; e così mi par quella di alcuni moderni.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>I quali peraventura, secondo i Fiorentini,
+<quote rend="block">
+<lg><l rend="italic">a nominar perduta opra sarebbe;</l></lg>
+</quote>
+e però forse non gli nominate; ma se l'opra non vi par perduta, dite il Molza, il Bembo e gli altri che tante volte avete nominati.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Veramente la lingua di costor è poetica.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Sì, quando essi scrivono versi; ma quando fanno orazioni, la lingua è oratoria.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Oratoria.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E istorica e filosofica, quando scrivono le istorie o trattano la filosofia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Istorica e filosofica.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E così la poetica lingua di costoro, come la oratoria e l'istorica, e la filosofica non è la volgar fiorentina.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non la moderna; ma l'antica, mescolata con molte parole peregrine.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E forse delle parole è avvenuto quel che delle famiglie: perché sì come molti popolari son fatti nobili, così molte parole volgari sono divenute gentili.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Gentili e nobili come le altre.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma fra quelle ch'egli biasima nel mio poema, non sono della lingua fiorentina antica <emph>scuotere e riscuotere, breve, capitano, vide e vinse</emph>?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Son di quella senza dubbio; e tutte da loro sono state usate in versi, e dal Petrarca; eccettuatone <emph>capitano</emph>, usata dal Boccaccio e da' poeti che scrivono romanzi, necessaria negli eroici, come dimostrò il Trissino, che l'usò così spesso.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma <emph>serpere, torreggiare, precipitare, notturno, vetusto, diadema, lance, fera, ostile, mercare,</emph> son cavate da Dante e dal Petrarca, e sono de' più belli e scelti nomi, e de' più belli e scelti verbi che siano stati usati ne' retti e ne' casi loro.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, soli due modi nuovi fra questi, ch'egli enumera così confusamente, sono stati usati da me: <emph>trattar l'armi e legge il cenno</emph>, se pur è mio, che non ben me ne ricordo, non avendo io riletto il poema già son molti anni; e due o tre voci, <emph>matutino</emph> e <emph>susurrare</emph> e <emph>guarda</emph>, delle quali il secondo usò il Sannazaro, e l'ultimo par nuovo perché n'ho gittata la penultima vocale; ma più tosto è voce antica, e propria della lingua. E con sì picciolo numero non prova in modo alcuno che la lingua usata nel mio poema sia men fiorentina di quella ch'egli loda; ma io volentieri senza pruova gliele concedo, pur ch'egli a me conceda che tai modi sian degni di lode e di meraviglia ne' poeti più nobili.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Avendo sparse nel suo poema molte volte locuzioni lombarde più che toscane.</emph> Risposta. <emph>I Toscani tengono che 'l</emph> Furioso <emph>sia dettato in buon volgar fiorentino; e se pur vi ha qualche voce lombarda, sieno tanto minor numero che negli altri, e scelte con tal giudizio, che non abbian forza di torgli il nome di puro scrittor toscano. Ma queste cose, certe persone non le conoscono.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non stimo già che voi siate di quelli che non le conoscano.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Più mi concedete, per vostra cortesia, ch'io non merito.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma conoscete ancora quanto importi l'usar questo volgare più nell'uno che nell'altro modo, e come l'usavano gli antichi: nel qual modo non è quasi più volgare; ma separato affatto dal volgo e da' volgari e da quel ch'usano alcuni moderni: nella qual maniera è non sol volgar fiorentino, ma plebeo fiorentino.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Io non so quanta cognizione abbia di ciò; ma chi sottilmente considera questo nome, ha quasi mutato natura; là onde mi piacerebbe che si lasciasse da parte, e che si scrivesse in nobil lingua fiorentina, com'è quella del Petrarca: perciò che Dante alcuna volta ha più del volgare che non bisognerebbe a divino scrittore. E non so onde sia avvenuto ch'a molti nobili scrittori sia stato rimproverato l'odor del peregrino, come a Livio quel di Padova, e a Virgilio quel di Mantova, il quale parve ad alcuni che fosse men puro scrittore di Catullo: tuttavolta nel verso eroico gli concedano senza dubbio il principato. E 'l Petrarca, il qual scrisse più nobilmente di ciascun altro, a pena so che egli fosse in Fiorenza.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non più di questo, ché parrebbe che voi ancora voleste servire a la causa: e' fiorentini sono maestri della lingua; e non solamente le nobili donne, ma quelle nate nel contado potrebbono riconoscere i forastieri a la favella, come fu già conosciuto Teofrasto in Atene.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Mi ricordo d'aver letto che la bontà e virtù della locuzione primieramente consiste nel muover gli affetti ed in generar maraviglia e diletto, come avete detto, nell'animo di colui che legge, senza recargli sazietà.</emph> Risposta. <emph>La bontà e la virtù della locuzione consiste principalmente nella chiarezza, e nella brevità, e nell'efficacia.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Avete voi osservato nelle risposte quel ch'a me pare di conoscere? che 'l chiosatore si veste la persona di giudice, e riprovando senza ragione e senza autorità, dà la sentenza?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A questo pensava pur ora.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Or vogliancene appellare ad Aristotele, e vedere quel ch'egli ne dica? Ma senza ricorrere al testo, qui di nuovo invoco la memoria: ecco, son esaudito: questo è 'l concetto, se pur non fosser queste le parole: «La virtù dell'elocuzione è ch'ella sia chiara, non umile: quella, dunque, che sarà composta di propri nomi, sarà chiara, ma umile, come, per esempio, la poesia di Cleofonte e di Stenelo; l'altra, ch'usa le voci peregrine, venerabile, ch'escluderà tutto quel che c'è di plebeo». E nella <title>Retorica</title>: «Pongasi che la virtù del parlare sia lo esser chiaro; e vaglia per argomento che, s'egli non dichiara, non fa l'ufficio suo; e oltre di ciò che non sia umile, né si alzi più che non dee, ma sia convenevole: perché l'elocuzion poetica non è umile peraventura, ma non conviene a l'oratore; e i nomi chiari e i verbi rendono chiara l'orazione, ma umile; e gli altri nomi, de' quai si ragiona nella <title>Poetica</title>, ornata». Da le quali parole mi par che si raccolga chiaramente che l'altezza e l'ornamento sian proprii del parlar poetico; e 'l chiosatore l'uno e l'altro tralascia, ed aggiunge la terza condizione; la quale non so bene se pur sia quella stessa ch'Aristotele chiama atto, perché ella pone le cose sotto gli occhi, e conviene al poeta oltre tutte l'altre.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>E se ciò è vero, che importa ch'egli ciò faccia più tosto con parlar commune che con modi di dir peregrini? Anzi, è più loda d'un poeta che fa nascer la maraviglia da locuzione chiara e natia più che da altra peregrina ed oscura: poi ch'in queste daran maraviglia peraventura le frasi nuove e l'artificio ricercato; e in quella, la collocazione solamente delle voci, e il numero onde risulta l'armonia, che rapisce altrui quasi con occulto miracolo.</emph> Risposta. <emph>Questo è un mescuglio d'energie, maraviglie e armonie, ed un zibaldone tanto disordinato e confuso, e tanto fuor di proposito che non accade rispondergli.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non di risposta mi par ch'abbia bisogno, ma d'alcuna dimanda. Ditemi, dunque, perché nel giudizio s'allontana dal parlar d'Aristotele: il qual, se ben mi ricordo, vuol che così le voci come i nomi peregrini siano riguardati con maggior maraviglia? Ma, di grazia, non ci fermiamo su' testi, se non c'è conceduta commodità di rivolger le carte con lungo studio: perché altrimenti converrebbe ch'io invocassi più volte la memoria che non fanno tutt'i poeti le Muse.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Notati eziandio da' suoi partegiani.</emph> Risposta. <emph>Per ogn'una che ne sia nel Furioso, non i suoi partegiani, ma i partegiani del Tasso ne confessano cinquanta nel</emph> Goffredo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questa voce <emph>partegiano</emph> è una delle minuzie della lingua o più tosto una delle grossezze?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non intendo quel che dimandate.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se le cose agevolmente intese e conosciute sian le minute o le grosse.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Le grosse.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questa voce è facilmente intesa o con difficoltà?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Facilmente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, è anzi delle grossezze che delle minuzie della toscana lingua.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi par veramente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>A' grossi dunque, che sono intenditori delle grossezze, potrem chiedere il significato di questo nome; i quali grideranno tutti ad una voce: non è partegiano colui che confessa i falli, ma colui che gli difende a torto e a diritto. Non ha dunque partegiani il Tasso: ché s'egli partegiani avesse, non sarebbe parte de' falli suoi confessata. Ma io non me ne dolgo, perché meglio peraventura è l'esser condannato a ragione che difeso a torto. Pregherò dunque, non i partegiani, ma gli amici, che non discompagnino la mia difesa da la ragione. Ma seguite, s'altro ci rimane.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>E io dico che 'l Tasso s'avvicinò più a questo segno che l'Ariosto non fece. Risposta. E noi diciamo che l'Ariosto vi colpì quasi dentro e che 'l Tasso nol vide, non che vi s'avvicinasse.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma qual segno credete ch'intenda costui?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La perfezione o l'eccelenza di Virgilio e d'Omero.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E questi son due segni o pur uno?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Uno, com'egli crede.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque, niuna diversità dovrebbe esser fra l'artificio dell'uno e dell'altro; ma se duo sono i segni, non è la perfezione in alcuno.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ciascuno tanto s'avvicina a la perfezione quanto al segno.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque il segno non è nel poema dell'uno né dell'altro; ma, per così dire, è l'idea del poema nel quale io rimirai giovinetto; e mi parve che questi due gran maestri d'ogni scienza e d'ogni arte vi fossero andati vicino più di ciascun altro:
+<quote rend="block">
+<lg><l rend="italic">Ma qual più presso, a gran pena m'accorsi.</l></lg>
+</quote></p>
+<p>E s'io me n'accorsi in quella età, serviva a la causa a la qual in questa non debbo servire. Adunque io vidi il segno; ma s'io mi c'avvicinassi o no, fia il giudizio non dei parziali ma degli amici: a' quali chiedo questa grazia, che, s'io non ho detto cos'alcuna fuor della causa, ma tutto costretto da una necessariissima difesa, vogliano credere che non mi dispiacciono le lodi del <title>Furioso</title>, né pur le opposizioni fatte al mio poema; ma le maledicenze, delle quali non potrei guardarmi, s'io volessi parlar cosa alcuna del paragone tra 'l <title>Furioso</title> e 'l mio poema: né potrei schivar di parlar con lode delle mie cose medesime, e delle sue con rispetto minore di quel che debbo portarle: laonde passerò sotto silenzio tutta questa parte de' parangoni. Voi potete leggere alcune dell'altre cose da me segnate, che sono omai poche e poco necessarie.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>Adopra gli aggiunti con sì raro giudizio ch'è difficil cosa il ritrovarne in tutto il suo poema un solo ozioso.</emph> Risposta. <emph>Sì, non leggendolo o non ascoltandolo; e questi,</emph> <foreign lang="Lat">quae pars est</foreign>?
+<quote rend="block">
+<lg>
+<l rend="italic">Vincilao che, sì grave e saggio innante,</l>
+<l rend="italic">canuto or pargoleggia e vecchio amante.</l>
+</lg>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se le mie dimande fossero state fatte a l'avversario, peraventura non ci saremmo accordati: perché egli avrebbe voluto servire a la causa, io a la verità; ma fra noi è stata somma concordia, perché l'uno e l'altro ha voluto che l'affetto dia luogo a la ragione. Non mi spiace, dunque, che 'l ragionamento sia stato fra noi; però vi chiederò s'a voi pare quel che a me pare, ch'epiteto non ozioso sia quello che fa alcuno effetto.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Quello, non altro.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Laonde se questi fanno effetto, non saranno oziosi; e 'l fanno senza dubbio, perché il <emph>vecchio</emph> aggiunge alcuna cosa al <emph>canuto</emph>, e 'l <emph>saggio</emph> al <emph>grave</emph>: essendo molti canuti che non sono vecchi, e molti gravi che non sono saggi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare; e 'l simile di questi altri, ch'egli nota:
+<quote rend="block">
+<lg>
+<l rend="italic">E l'accompagna stuol calcato e folto.</l>
+<l rend="italic">Pensa tra la penuria e tra 'l difetto.</l>
+</lg>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma seguite di leggere più oltra.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p><emph>Taccionsi quelli epiteti che da lui s'usano impropriamente; il</emph> breve <emph>in vece di</emph> picciolo,<emph>il</emph> guardingo <emph>per</emph> avvertito, <emph>il</emph> pietoso <emph>per</emph> pio.
+<quote rend="block">
+<lg>
+<l rend="italic">E tacito e guardingo al rischio ignoto;</l>
+<l rend="italic">canto l'armi pietose e 'l Capitano;</l>
+</lg>
+</quote>
+<emph>che non sono errori del Tasso, ma del suo non intender la lingua. Ché se avesse bene intesa la sua forza, non avrebbe così ad ogni cosa addossato quel povero</emph> matutino,<emph> come fece:</emph>
+<quote rend="block">
+<lg><l rend="italic">Se parte matutino, a nona giunge;</l></lg>
+</quote>
+<emph>né tanto empiutasi la bocca della parola</emph> fabbro:
+<quote rend="block">
+<lg><l rend="italic">Gran fabbro di calunnie adorne in modi;</l></lg>
+</quote>
+<emph>voce che, per proprietà di lingua, non si lascia cavar del proprio per traslatarsi ad altro significato; né detto</emph> cittadine uscite <emph>per</emph> uscite della città; <emph>né</emph> pascer il digiuno <emph>per</emph> satollarsi; <emph>né</emph> empire il difetto <emph>per</emph> supplire al difetto; <emph>né</emph> maravigliando <emph>per</emph> ammirando; <emph>né</emph> sonare a ritratta <emph>per</emph> sonare a raccolta; <emph>né</emph> trinciere <emph>e</emph> schiniere <emph>per</emph> trincee <emph>e</emph> schinieri; <emph>né</emph> rampilli <emph>verbo per</emph> zampilli; <emph>né</emph> reca <emph>in vece di</emph> porta: <emph>né</emph> imperi <emph>invece di</emph> commandamenti; <emph>né</emph> tiranna <emph>avrebbe chiamata una donna; né d'una donna avrebbe detto</emph> figlia, partiti ratto,<emph> mutando quel nome in avverbio; né pur di pulzella parlando:</emph>
+<quote rend="block">
+<lg><l rend="italic">Parte, e con quel guerrier si ricongiunge;</l></lg>
+</quote>
+<emph>né d'uomini ragionando, usato avrebbe</emph> mostrar la verga; <emph>né si troverebbe nel libro suo,</emph>
+<quote rend="block">
+<lg><l rend="italic">E lor s'aggira dietro immensa coda;</l></lg>
+</quote>
+<emph>né l</emph>'espugnator montone, <emph>l</emph>'esercito cornuto, vendemiare e mietere a chi che sia, <emph>per</emph> provederlo di vettovaglia.</p>
+<p><quote rend="block">
+<lg><l rend="italic">Cinquanta scudi insieme, ed altrettante,</l></lg>
+</quote>
+<emph>che somma risuona a noi di danari? Né Erminia avrebbe detto spia a persona che desiava farsi benevola;</emph>
+<quote rend="block">
+<lg><l rend="italic">E se qui per ispia forsi soggiorni.</l></lg>
+</quote></p>
+<p><emph>Né al povero Dante sarebbono l'</emph> accoglienze <emph>in</emph> dimostranze <emph>state mutate; né della testa d'un giovinetto avrebbe detto,</emph> crollando il gran capo.<emph> Lasciamo star lo</emph> struggersi di furore; <emph>ché son forsi di peggior sorte che errori di linguaggio:</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Morde le labra, e di furor si strugge.</l>
+<l rend="italic">Dicea, fondar dell'Asia oggi la spene.</l>
+</lg>
+</quote></p>
+<p><emph>Né le</emph> spalle quadre, <emph>tolto da un error del Petrarca ec.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'egli affatto avesse taciuto, peraventura v'avrebbe lasciato men dubbio del mio intender la lingua; ma perché voi siate certo della mia ignoranza, non mi negate risposta: ché la medicina dell'ignoranza è l'imparare. Non vi pare che il proprio della chioma sia il dir <emph>picciola</emph>?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Mi pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Tuttavia il Petrarca dicendo <emph>breve</emph>, trasportò l'un nome al significato dell'altro.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così fece.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E parimente si dice <emph>picciola stilla</emph> e <emph>picciola tela</emph>.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dicesi nel commune uso del parlare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Nondimeno il Petrarca disse <emph>breve stilla e breve tela</emph>.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Disse senza folla; e dicendola, confuse la differenza.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>La confuse, se c'era, e io poteva farlo con tale esempio; ma s'ella c'era, doveva esserci per rispetto della quantità significata o della relazione, o pur per rispetto delle diverse misure della quantità.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Per questo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma le differenze della quantità sono l'esser continua o disgiunta.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Queste sono senza dubbio.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E 'l picciol suol darsi a la continua o a la relazione ch'è nella continua, perché diciamo <emph>picciol corpo, picciola nave, picciol cavallo</emph>.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Suol darsi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma 'l breve diamo a la disgiunta o a la continua?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A la continua parimente, perché direm <emph>breve spazio, breve tempo, breve ora</emph>.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Per questa ragione, dunque, è tolta ogni differenza.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così mi pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E 'l picciol dassi a la quantità disgiunta, e dicesi <emph>picciol numero</emph>.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dassi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Nondimeno diciamo longhe e brevi le sillabe che son parti della quantità discreta.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Diciamo.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque questa differenza non si trova tra 'l breve e 'l picciolo; o se pur si trova per alcuno uso, in quell'uso medesimo più volte è stata confusa dal Petrarca e da gli altri scrittori; ed io poteva confonderla parimente. Eccovi la mia ignoranza: la qual mi fa dubbio dell'altrui sapere, ma non m'inganna del mio, come altri del suo rimane ingannato.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>La proprietà dell'uso è grande; ma dell'uso nobile si può meglio conoscere negli scrittori che nella lingua de' popolari.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma nella voce che segue debbo parimente scoprirgli la mia ignoranza? o ricoprirla? perché non ricoprendola sarà forsi costretto a manifestarci quel ch'egli ne sa. E s'io non m'inganno, in tutti gli scrittori si trova usato in quel modo ch'è usato da me questo nome <emph>guardingo</emph>. Ma che direm del <emph>pietoso</emph> e del <emph>pio</emph>? volete ch'a voi dimandi quel medesimo?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Chiedete.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Io vi prego che traduciate in questa lingua il nome pio, il quale non è suo proprio, ma de' Latini; e avvertite di non dir <emph>pio</emph>, perché questo non sarebbe tradurre, ma usare il medesimo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Io non saprei trasportarlo in altro che in <emph>pietoso</emph>: né credo ch'egli in altro modo potesse significar questo concetto toscanamente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque non è la differenza nella cosa significata, ma sono differenti questi duo nomi: perché uno è latino, l'altro toscano; e io usando il toscano, da Toscani sono stato ripreso.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così è avvenuto senza vostra colpa.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma di quel <emph>matutino</emph>, crediam noi ch'intenda del matutino de' frati, il quale è fra que' nomi che stanno per sé?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Di quello deve intendere: perché altrimente non gli dovrebbe dispiacere che, non potendo star per sé, egli s'aggiungesse ad altri, come s'appoggiò ad Evandro o Pallante, ché non bene mi sovviene: «<foreign lang="Lat">sese matutinus agebat</foreign>».</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma perché tanto gli spiace ch'io m'empia la bocca della parola <emph>fabro</emph>?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Egli molto più se la riempie, che raddoppia la consonante.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Per fargli piacere, io me l'avrei empita a suo modo; e forsi m'ha voluto riprendere che poco me l'empia.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Odi malizia!</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Avvertimento più tosto dell'ingegnoso fiorentino. Ma per altro forse non dovrebbe riprenderlo, perché derivando da un fonte medesimo <emph>fabro</emph> e <emph>fabricatore</emph>, altrettanto doveva esser lecito il dir <emph>fabro di calunnie</emph> quanto a Virgilio <emph>fabricator d'inganno</emph>:
+<quote rend="block">
+<lg><l lang="Lat" rend="italic">doli fabricator Epeus;</l></lg>
+</quote>
+e, prima di lui, ad Omero,
+<quote rend="block">
+<lg><l lang="Lat" rend="italic">doli fabricator Ulisses.</l></lg>
+</quote></p>
+</sp>
+<sp><speaker>SEGRETARIO.</speaker><p>A me pare bellissima metafora.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Altramente pare a l'oppositore, il qual non vuole che si possa cavar la metafora dal nome proprio.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Così par ch'affermi.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque da l'improprio si trarrà; ma da l'improprio niuna se ne trasporta, anzi tutte sono trasportate dal proprio.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Falla dunque la sua regola.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma vogliam considerar l'altre cose minutamente o pur levarci dinanzi questo fastidio?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Parliam d'alcune, se vi incresce parlar di tutte.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>In alcune dice un non so che, perché <emph>trincee</emph> e <emph>schinieri</emph> sono le voci toscane; ma io servi' a la rima con picciola varietà; e si poteva concedere questa licenza a me, come tante altre ne son concedute a Dante: e nieghila, se gli pare. A l'altre cose non risponderò; ma da le già fatte risposte potrebbe comprender senza dubbio che tali serian l'altre. Solo pe 'l Petrarca si potrebbe dire ch'egli volle intender il medesimo che sogliamo intender communemente, quando per uomo quadrato, per complession quadrata, noi intendiamo uomo perfetto, complession perfetta; ma il significò in quel modo che significano alcuna volta i Latini, prendendo la parte pe 'l tutto.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Questo per sé non mi dispiace.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma se pur fu errore, fu errore non dissimile a quel di Virgilio, il qual visse nella luce di tutte le lingue; e disse <emph>Inarime</emph>, facendo un nome solo del nome greco e della preposizione. Ma questi errori, c'hanno acquistata autorità, sono stati seguiti da molti per riputazione, come avviene degli errori de' principi; né si dovrebbon seguire, se ci fosse nelle lingue altro che la riputazione. Ma s'elle non sono per natura, forsi non c'è altro. A la difesa platonica, dunque, conveniva che si ritirasse l'avversario; la quale io non fo professione di espugnare. Guardi quante armi si poteva concitar contra con l'offesa di poeti così grandi.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sarà più cauto per l'avvenire, e direi <emph>guardingo</emph>, s'io non me ne avessi a guardare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Passiamo ad altro.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Dialogo. <emph>E poi, quanto al vivo delle figure</emph>:
+<quote rend="block">
+<lg>
+<l rend="italic">Manca il parlar, di vivo altro non chiedi;</l>
+<l rend="italic">né manca questo ancor, se a gli occhi credi.</l>
+</lg>
+</quote></p>
+<p>Risposta. <emph>Il concetto era bello, ma il Tasso nella scurezza l'ha affogato nel modo del favellare</emph>.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>S'è vivo, non è affogato: e direi altro; ma non voglio che mi constringa a rispondere a le cose delle quali egli non rende ragione. Passiamo dunque tutte le maledicenze, che non offendono chi non le stima; e stimiamo ciascuna ragione quant'ella vale.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <foreign lang="Lat">Ut supra</foreign>: <emph>se non quanto c'è sopravenuto il</emph> minuti <emph>posto in vece di</emph> fini, <emph>che non da manco del</emph> breve <emph>posto in vece di</emph> picciolo: minuti crini, <emph>bello epiteto e grazioso!</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Riconoscete l'ironia?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Riconoscerei, se l'uno aggiunto non fosse del Petrarca, il qual disse <emph>breve chioma</emph>; l'altro, di Guido Cavalcante.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Cerca forsi occasione di questioni; e non proponendo, vuol ch'io risponda per ferir con maggior vantaggio; e mentre cerca di ricoprir l'artificio con l'ironia, mi par che ei manifesti l'ironia e l'artificio. E se noi siamo ingannati, egli solamente ci può trar d'errore.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Fa bene a dir non so, poiché non sa che la gravità è nemica della dolcezza. Non si ricorda costui che si favella di baci, che dolcissima cosa sono; e per ciò, in esprimerli, dolcissimi modi di favellare son richiesti.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>A me pare la gravità nimica dell'acume e della leggierezza; ed a voi che ne pare?</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Ed a me similmente.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Conviene, dunque, che 'l chiosatore ci tragga d'inganno, manifestando ancor meglio il suo giudizio: al qual è dispiaciuto ch'in poema eroico io non voglia parlar di baci sì dolcemente, come in altro componimento si farebbe.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Risposta. <emph>Perché non ha egli paragonati i luoghi principalissimi ne' quali il Tasso studiosamente entra in gaggio con l'Ariosto?</emph>
+<quote rend="block">
+<lg>
+<l rend="italic">Marfisa incominciò con grata voce:</l>
+<l rend="italic">— Eccelso, invitto e glorioso Augusto,</l>
+<l rend="italic">che dal mar Indo a la Tirinzia foce,</l>
+<l rend="italic">dal bianco Scita a l'Etiope adusto,</l></lg>
+<p>ec.</p>
+</quote></p>
+</sp>
+<sp><speaker>FORESTIERO.</speaker><p>Se noi desideriamo che ei ci tragga d'errore, non è ragionevole che lui ci lasciamo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non mi pare.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Questo, dunque, è 'l proprio inganno dell'avversario, ch'io studiosamente sia entrato in gaggio con l'Ariosto: quantunque io abbia trattati alcuni luoghi communi a tutti i poeti: del quale non potrei cavarlo, se non mostrandogli che, se ciò avessi voluto, lo avrei fatto spesso, ed in molti luoghi dove saria stato men difficile il contrasto; ma forsi questo gli pare grandissimo pericolo.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Gli doveva parere.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E 'l mio con quel d'altri, perché a me solo era pericoloso quel che non era a gli altri.</p></sp>
+<sp><speaker>FANTINI.</speaker><p>Voglio trapormi tra le vostre parole, e pregarvi che non crediate che 'l chiosatore vi stimi così poco che non vi preponga a molti.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Non multiplichiamo, vi prego, i paragoni, né pure cominciamo questo: al quale s'io volessi dar principio, direi che <emph>grata voce</emph> non è grata a gli orecchi de' più nobili scrittori; e passando a pena il secondo verso, mi fermarei nel terzo, nel quale, co 'l giudizio del Casa, che biasimò <emph rend="italic">Erculea</emph>, riprenderei <emph rend="italic">Tirinzia</emph>; e nel quinto e nel sesto direi, e nel settimo, che son desideroso di versi più numerosi: il qual desiderio mi fece mutar la mia stanza alcuni mesi prima ch'io vedessi il suo libretto; e nell'ultimo che il riposo su la quarta sillaba, e quelle parole <emph>sin qui</emph> fanno il verso men bello, benché più tosto il suono che 'l numero si poteva desiderare. Ma non più di questo; e tacciamo non sol dell'ultimo verso quel che si potrebbe dir ragionevolmente, ma di tutti gli altri, e di tutte le comparazioni, e di tutte le laudi, e di tutti i miei biasimi: i quali se non muovono più de' versi, forsi gli animi sono occupati da nemicizia, e l'uno affetto non consente il luogo a l'altro: né il mio disprezzo lo consente a l'autorità di Sofocle e di Virgilio medesimo. Ma ricercate s'altro ci avanza oltre i paragoni: ch'ormai siamo al fine.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Questo ci avanza. Risposta. <emph>Questa maschera dell'allegoria, secondo dissero i valenti uomini, ritrovarono i Greci per ricoprir l'empietà delle lor sceleratissime finzioni.</emph></p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Maschera d'empietà è l'allegoria? ed empi sono i poeti? Ma non so bene se fra gli empi numeri Dante.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Parla de' gentili, non di Dante.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Dunque non sarà maschera d'empietà.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Non maschera, ma velo è chiamato da lui.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Serà dunque velo della pietà.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Niun nome è più convenevole a le allegorie de' pii scrittori.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Ma i savi veramente sono pii sovra tutti gli altri.</p></sp>
+<sp><speaker>SEGRETARIO.</speaker><p>Sono.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>E perché alcuni di loro dicono che Gerusalemme, secondo vari sensi, ora è nome di città, ora figura dell'anima fedele, ora della Chiesa militante, ora della trionfante, non sarà stimata vana l'allegoria ch'io ne feci, a la quale posso aggiungere il senso che leva in alto: perché nella visione di Goffredo ed in altri luoghi della celeste Gerusalemme significo la Chiesa trionfante.</p></sp>
+<sp><speaker>FANTINI.</speaker><p>Convenevolmente l'occulte bellezze sono le maggiori, perché non debbono esser esposte a gli occhi de' volgari.</p></sp>
+<sp><speaker>FORESTIERO.</speaker><p>Nulla, dunque, mi rimane che rispondere a l'opposizioni, s'io non volessi parlar della sentenza. Ma perché non voglio più da l'amico di quello che mi concede, mi tacerò, pregando tutti gli altri, a' quali può convenir questo nome, ch'abbiano diligente risguardo a la sentenza di Goffredo: il quale sin da la prima orazione fatta a' principi cristiani, e da la risposta data a gli ambasciatori d'Egitto, comincia a dimostrare, a sciogliere, ad accrescere e diminuire e a preparar gli animi de' lettori, usando alcuna proposizione universale intorno a quello che si dee seguire o schifar nell'azioni: laonde senza dubbio ardisco d'affermare che la sentenza di quel Capitano sia il diritto giudizio del buon principe, e pieno di tutte le eccelenze e di tutte le perfezioni.</p></sp>
+</div1>
+</body>
+</text>
+</TEI.2>

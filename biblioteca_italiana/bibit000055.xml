@@ -1,0 +1,2966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Novellino</title>
+      </titleStmt>
+      <extent>175 Kb in UTF-8</extent>
+      <publicationStmt>
+        <publisher>Biblioteca Italiana</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>2004</date>
+        <idno>bibit000055</idno>
+        <availability>
+          <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni
+            uso commerciale è vietato</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Collezione BibIt</title>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Il Novellino</title>
+          <editor id="ed">Favati, Guido</editor>
+          <publisher>Bozzi</publisher>
+          <pubPlace>Genova</pubPlace>
+          <date>1970</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla responsabilità
+          dell'autore dell'opera sono stati soppressi nella versione digitale</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction method="silent" status="medium">
+          <p>Livello medio: controllo a video con collazione con edizione di riferimento</p>
+        </correction>
+        <quotation form="data" marks="all">
+          <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea sono stati
+            rappresentati sulla versione digitale</p>
+        </quotation>
+        <hyphenation eol="none">
+          <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole ricomposte</p>
+        </hyphenation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="CDD">
+          <bibl>Classificazione Decimale Dewey</bibl>
+        </taxonomy>
+        <taxonomy id="CGB">
+          <bibl>Classificazione generi BibIt</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>200</date>
+      </creation>
+      <langUsage>
+        <language id="ita">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="CDD">
+          <term>853.1 - NARRATIVA ITALIANA. ORIGINI-1375</term>
+        </keywords>
+        <keywords scheme="CGB">
+          <term>Narrativa</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>Data sconosciuta anteriore al 2000</date>
+        <respStmt>
+          <name>LIZ</name>
+        </respStmt>
+        <item>Digitalizzazione</item>
+      </change>
+      <change>
+        <date>Data sconosciuta anteriore al 2000</date>
+        <respStmt>
+          <name>LIZ</name>
+        </respStmt>
+        <item>Correzione linguistica</item>
+      </change>
+      <change>
+        <date>2003-01-17T00:00:00.000+02:00</date>
+        <respStmt>
+          <name>Marina Larena</name>
+          <name>BIBIT</name>
+        </respStmt>
+        <item>Codifica XML - Codifica manuale</item>
+      </change>
+      <change>
+        <date>2004-07-15T00:00:00.000+02:00</date>
+        <respStmt>
+          <name>Carla Deiana</name>
+          <name>BIBIT</name>
+        </respStmt>
+        <item>Validazione</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div1 type="prologo">
+        <head>PROLOGO</head>
+        <argument>
+          <p>Questo libro tratta d'alquanti fiori di parlare, di belle cortesie e di be' risposi e
+            di belle valentie e doni, secondo che per lo tempo passato hanno fatto molti valenti
+            uomini.</p>
+        </argument>
+        <p>Quando lo Nostro Signore Gesù Cristo parlava umanamente con noi, in fra l'altre sue
+          parole ne disse che dell'abondanza del cuore parla la lingua. Voi c'avete i cuori gentili
+          e nobili in fra li altri, acconciate le vostre menti e le vostre parole nel piacere di
+          Dio, parlando, onorando e temendo e laudando quel Signore Nostro, che n'amò prima che Elli
+          ne criasse e prima che noi medesimi ci amassimo. E se in alcuna parte, non dispiacendo a
+          lui, si può parlare per rallegrare il corpo e sovenire e sostentare, facciasi con più
+          onestade e con più cortesia che fare si puote.</p>
+        <p>Et acciò che li nobili e ' gentili sono nel parlare e nell'opere molte volte quasi
+          com'uno specchio appo i minori — acciò che il loro parlare è più gradito però che esce di
+          più dilicato stormento —, facciamo qui memoria d'alquanti fiori di parlare, di belle
+          cortesie e di belli risposi e di belle valentie, di belli donari e di belli amori, secondo
+          che per lo tempo passato hanno fatto già molti. E chi avrà cuore nobile et intelligenzia
+          sottile, si li potrà simigliare per lo tempo che verrà per innanzi et argomentare e dire e
+          raccontare (in quelle parti dove avranno luogo), a prode et a piacere di coloro che non
+          sanno e disiderano di sapere.</p>
+        <p>E se i fiori che proporremo fossero mischiati intra molte altre parole, non vi
+          dispiaccia: ché 'l nero è ornamento dell'oro, e per un frutto nobile e dilicato piace
+          talora tutto un orto, e per pochi belli fiori tutto un giardino. Non gravi a' leggitori
+          che sono stati molti che sono vivuti grande lunghezza di tempo et in vita loro hanno
+          appena tanto: un bel parlare, overo una cosa, da mettere in conto fra i buoni.</p>
+      </div1>
+      <div1 type="novella">
+        <head>I</head>
+        <argument>
+          <p>‘Della ricca ambasceria la quale fece lo Presto Giovanni al nobile imperadore
+          Federigo’</p>
+        </argument>
+        <p>Presto Giovanni, nobilissimo signore indiano, mandoe ricca e nobile ambasceria al nobile
+          e potente imperadore Federigo, a colui che veramente fu specchio del mondo in parlare et
+          in costumi et amò molto dilicato parlare et istudiò in dare savi risponsi. La forma e la
+          intenzione di quella ambasceria fu solo in due cose, per volere al postutto provare se lo
+          'mperadore fosse savio in parlare et in opere.</p>
+        <p>Mandolli per li detti ambasciadori tre pietre nobilissime e disse loro:</p>
+        <p>«Donatele allo 'mperadore e diteli dalla parte mia che vi dica qual'è la migliore cosa
+          del mondo; e le sue parole e risposte serberete, et aviserete la corte sua e ' costumi di
+          quella, e quello che inverrete raccontarete a me, sanza niuna mancanza».</p>
+        <p>Fuoro allo 'mperadore, dove erano mandati per lo loro signore, salutarlo sì come si
+          convenia per la parte della sua maestade e per la parte dello loro soprascritto signore.
+          Donarli le sopra dette pietre. Quelli le prese e non domandò di loro virtude: fecele
+          riporre, e lodolle molto di grande bellezza.</p>
+        <p>Li ambasciadori fecero la dimanda loro, e videro li costumi e la corte; poi, dopo pochi
+          giorni, adomandaro commiato.</p>
+        <p>Lo 'mperadore diede loro risposta e disse:</p>
+        <p>«Ditemi al signore vostro che la migliore cosa di questo mondo si è misura».</p>
+        <p>Andar li ambasciadori e rinunziaro e raccontaro ciò ch'aveano veduto et udito, lodando
+          molto la corte dello 'mperadore ornata di bellissimi costumi, e 'l modo de' suoi
+          cavalieri.</p>
+        <p>Il Presto Giovanni, udendo ciò che raccontaro li suoi ambasciadori, lodò lo 'mperadore e
+          disse ch'era molto savio in parole, ma non in fatti, acciò che non avea domandato della
+          virtù di cosìe care pietre. Rimandolli ambasciadori et offerseli, se li piacesse, che 'l
+          farebbe siniscalco della sua corte: e feceli contare le sue ricchezze e le diverse
+          generazioni de' sudditi suoi et il modo del suo paese.</p>
+        <p>Dopo non gran tempo, pensando il Presto Giovanni che le pietre c'avea donate allo
+          'mperadore avevano perduta loro virtude da poi che non erano per lo 'mperadore conosciute,
+          tolse uno suo carissimo lapidaro e mandollo celatamente nella corte dello 'mperadore e
+          disse:</p>
+        <p>«Al postutto metti lo 'ngegno tuo che tu quelle pietre mi rechi. Per niuno tesoro
+          rimanga».</p>
+        <p>Lo lapidaro si mosse, guernito di molte pietre di gran bellezza, e cominciò, presso alla
+          corte, a legare sue pietre. Li baroni veniano, e li cavalieri, e vedevano di suo mistiero.
+          L'uomo era molto savio: quando vedeva alcuno c'avesse luogo in corte, non vendeva, ma
+          donava: e donò anella molte, tanto che la lode di lui andò dinanzi allo 'mperadore: lo
+          quale mandò per lui e mostrogli sue pietre. Lodolle, ma non di gran vertude. Domandò se
+          avesse più care pietre. Allora lo 'mperadore fece venire le tre pietre preziose ch'elli
+          disiderava di vedere.</p>
+        <p>Allora il lapidaro si rallegrò e prese l'una pietra e miselasi in mano e disse così:</p>
+        <p>«Questa pietra, messere, vale la migliore città che voi avete».</p>
+        <p>E poi prese l'altra e disse:</p>
+        <p>«Questa, messere, vale la migliore provincia che voi avete».</p>
+        <p>E poi prese la terza e disse:</p>
+        <p>«Messere, questa vale più che tutto lo 'mperio»: e strinse il pugno con le soprascritte
+          pietre. La vertude dell'una il celò che no 'l potero vedere; e' discese giù per le
+          gradora, e tornò al suo signore Presto Giovanni, e presentolli le pietre con grande
+          allegrezza.</p>
+      </div1>
+      <div1 type="novella">
+        <head>II</head>
+        <argument>
+          <p>‘D'un savio greco, c'uno re teneva in pregione, come giudicò d'uno destriere’</p>
+        </argument>
+        <p>Nelle parti di Grecia ebbe un signore che portava corona di re et avea grande reame et
+          avea nome Filippo; e per alcuno misfatto tenea un savio greco in pregione, il quale era di
+          tanta sapienzia, ch'ê·llo intelletto suo passava oltra le stelle.</p>
+        <p>Avenne un giorno che a questo signore fu appresentato, delle parti di Spagna, un nobile
+          destriere di gran podere e di bella guisa. Adomandò lo signore mariscalchi per sapere la
+          bontà del destriere; fu·li detto che in sua pregione avea lo sovrano maestro intendente di
+          tutte le cose.</p>
+        <p>Fece menare il destriere al campo e fece trarre il greco di pregione e disseli:</p>
+        <p>«Maestro, avisa questo destriere, ché m'è fatto conto che tu se' molto saputo».</p>
+        <p>Il greco avisa lo cavallo e disse:</p>
+        <p>«Messere, elli è di bella guisa, ma cotanto vi dico: che 'l cavallo è nutricato a latte
+          d'asina».</p>
+        <p>Lo re mandò in Ispagna ad invenire come fu nodrito, et invennero che la destriera era
+          morta et il puledro fu notricato a latte d'asina. Ciò tenne il re a grande maraviglia, et
+          ordinò che li fosse dato un mezzo pane il dì alle spese della corte.</p>
+        <p>Un altro giorno avenne che lo re adunoe sue pietre preziose e rimandoe per questo
+          prigione greco e disse:</p>
+        <p>«Maestro, tu se' di grande savere, e credo che di tutte le cose t'intendi. Dimmi, se
+          t'intendi delle virtù delle pietre: qual ti sembra di più ricca valuta?».</p>
+        <p>Il greco avisò e disse:</p>
+        <p>«Messere, voi quale avete più cara?».</p>
+        <p>Lo re prese una pietra intra l'altre molto bella e disse:</p>
+        <p>«Maestro, questa mi sembra più bella e di maggiore valuta».</p>
+        <p>Il greco la prese e miselasi in pugno e strinse, e puoselasi all'orecchie, e poi disse:</p>
+        <p>«Messere, qui ha un vermine».</p>
+        <p>Lo re mandò per maestri e fecela spezzare, e trovaro nella detta pietra un vermine.
+          Allora lodò il greco d'oltremirabile senno, et istabilìo che un pane intero li fosse dato
+          per giorno, alle spese di sua corte.</p>
+        <p>Poi, dopo non molti giorni, lo re si pensò di non essere legittimo re. Mandò per questo
+          greco et ebbelo in luogo sacreto e cominciò a parlare e disse:</p>
+        <p>«Maestro, di grande scienzia ti credo, e manifestamente l'hoe veduto nelle cose in ch'io
+          t'ho domandato. Io voglio che tu mi dichi cui figliuolo io fui».</p>
+        <p>Il greco rispuose:</p>
+        <p>«Messere, che domanda mi fate voi? Voi sapete bene che foste figliuolo del cotale padre».</p>
+        <p>E lo re rispuose:</p>
+        <p>«Non mi rispondere a grado: dimmi sicuramente il vero e, se no 'l mi dirai, io ti farò di
+          villana morte morire».</p>
+        <p>Allora il greco rispuose:</p>
+        <p>«Messere, io vi dico che voi foste figliuolo d'uno pistore».</p>
+        <p>E lo re disse:</p>
+        <p>«Vogliolo sapere da mia madre»; e mandò per la madre, e constrinsela con minacce feroci.
+          La madre confessò la veritade. Allora il re si chiuse in una camera con questo greco e
+          disse:</p>
+        <p>«Maestro mio, grande prova ho veduto della tua sapienzia. Pregoti che mi dichi come
+          queste cose tu le sai».</p>
+        <p>Allora il greco rispose:</p>
+        <p>«Messere, io lo vi dirò. Il cavallo conobbi a latte d'asina esser nodrito per propio
+          senno naturale, acciò ch'io vidi che avea li orecchi chinati, e ciò non è propia natura di
+          cavallo. Il verme nella pietra conobbi però che le pietre naturalmente sono fredde, et io
+          la trovai calda. Calda non puote essere naturalmente se non per animale lo quale abbia
+          vita».</p>
+        <p>«E me come conoscesti essere figliuolo di pistore?».</p>
+        <p>Il greco rispuose:</p>
+        <p>«Messere, quando io vi dissi del cavallo cosa così maravigliosa, voi mi stabiliste dono
+          d'un mezzo pane per dì; e poi, quando della pietra vi dissi, voi mi stabiliste un pane
+          intero. Pensate che allora m'avidi cui figliuolo voi foste: ché se voi foste suto
+          figliuolo di re, vi sarebbe paruto poco di donarmi una nobile città, onde a vostra natura
+          parve assai di meritarmi di pane, sì come vostro padre facea».</p>
+        <p>Allora il re riconobbe la viltà sua e trasselo di pregione e donolli molto
+        nobilemente.</p>
+      </div1>
+      <div1 type="novella">
+        <head>III</head>
+        <argument>
+          <p>‘Come un giullare si compianse dinanzi ad Alexandro d'un cavaliere, al quale elli avea
+            donato per intenzione che 'l cavaliere li donerebbe ciò che Alexandro li donasse’</p>
+        </argument>
+        <p>Stando Alexandro alla città di Giadre con moltitudine di gente ad assedio, un nobile
+          cavaliere era fuggito di pregione; et essendo poveramente ad arnese, misesi ad andare ad
+          Alexandro, che donava larghissimamente sopra gli altri signori. Andando per lo cammino,
+          trovò uno uomo di corte nobilemente ad arnese. Domandollo dove andava. Lo cavaliere
+          rispuose:</p>
+        <p>«Io vado ad Alexandro che mi doni, acciò ch'io possa tornare in mia contrada
+          onoratamente».</p>
+        <p>Allora il giullare rispose e disse:</p>
+        <p>«Che vuoli tu ch'io ti doni — e tu mi dona ciò che Alexandro ti donarà?».</p>
+        <p>Lo cavaliere rispuose:</p>
+        <p>«Donami cavallo da cavalcare e somiere e robbe e dispendio condonevile a·rritornare in
+          mia terra».</p>
+        <p>Il giullare lile donò, et in concordia cavalcaro ad Alexandro, lo quale aspramente avea
+          combattuto la città di Giadres, era partito dalla battaglia, e faceasi sotto un padiglione
+          disarmare.</p>
+        <p>Lo cavaliere e lo giullare si trassero avanti; lo cavaliere fece la domanda sua ad
+          Alexandro umile e dolcemente. Alexandro non li fece motto, né·lli fece rispondere. Lo
+          cavaliere si partì dal giullare, e misesi per lo cammino a ritornare in sua terra.</p>
+        <p>Poco dilungato lo cavaliere, li nobili cittadini di Giadres recaro le chiavi della città
+          ad Alexandro, con pieno mandato d'ubbidire a·llui siccome a·llor signore. Alexandro allora
+          si volse inverso i suoi baroni e disse:</p>
+        <p>«Dov'è chi mi domandava ch'io li donasse?»</p>
+        <p>Allora fu tramesso per lo cavaliere ch'addomandava il dono. Lo cavaliere venne, et
+          Alexandro parlò e disse:</p>
+        <p>«Prendi, nobile cavaliere, le chiavi della nobile città di Giadres, ché la ti dono
+          volentieri».</p>
+        <p>Lo cavaliere rispuose:</p>
+        <p>«Messere, non mi donare cittade: priegoti che mi doni oro o argento o robbe, come sia tuo
+          piacero».</p>
+        <p>Allora Alexandro sorrise, e comandò che·lli fossero dati duemila marchi d'ariento: — e
+          questo si scrisse per lo minore dono che Alexandro donò mai.</p>
+        <p>Lo cavaliere prese i marchi e donolli al giullare. Il giullare fu dinanzi ad Alexandro, e
+          con grande stanzia addomandava che·lli facesse ragione; e fece tanto, che fece restare lo
+          cavaliere. E la domanda sua si era di cotale maniera, dinanzi ad Alexandro:</p>
+        <p>«Messere, io trovai costui in cammino; domanda'lo ove andava e perché. Dissemi che ad
+          Alexandro andava perché li donasse. Con lui feci patto: dona'li, et elli mi promise di
+          donare ciò che Alexandro li donasse: onde elli hae rotto il patto, c'ha rifiutata la
+          nobile città di Giadres et ha preso li marchi: perch'io dinanzi alla vostra signoria
+          addomando che mi facciate ragione e sodisfare quanto vale più la città che ' marchi».</p>
+        <p>Allora il cavaliere parlò; e primamente confessò i patti, poi disse:</p>
+        <p>«Ragionevole signore, que' che·mmi domanda è giucolare, et in cuore di giullare non puote
+          discendere signoria di cittade. Il suo pensiero fu d'argento e d'oro, e la sua intenzione
+          fu tale, et io ho pienamente fornita la sua intenzione: onde la tua signoria proveggia
+          nella mia diliveranza, secondo che piace al tuo savio consiglio».</p>
+        <p>Alexandro e ' suoi baroni prosciolsero il cavaliere, e comendarlo di grande
+        sapienzia.</p>
+      </div1>
+      <div1 type="novella">
+        <head>IV</head>
+        <argument>
+          <p>‘Come uno re commise una risposta a un suo giovane figliuolo,la quale dovea fare ad
+            ambasciadori di Grecia’</p>
+        </argument>
+        <p>Uno re fu nelle parti di Egitto, lo quale avea un suo figliuolo primogenito, lo quale
+          dovea portare la corona del reame dopo lui. Questo suo padre dalla fantilitade sì cominciò
+          e fecelo nodrire intra savi uomini di tempo, sì che anni avea quindici e giamai non avea
+          veduto niuna fanciullezza.</p>
+        <p>Un giorno avenne che·llo padre li commise una risposta ad ambasciadori di Grecia. Il
+          giovane, stando sull'aringheria per rispondere alli ambasciadori — il tempo era turbato e
+          piovea —, volse li occhi per una finestra del palagio e vide altri giovani che
+          accoglievano l'acqua piovana e facevano peschiera e mulina di paglia. Il giovane, vedendo
+          ciò, lasciò stare l'aringheria e gittossi subitamente giù per le scale del palagio et andò
+          alli altri giovani che stavano a ricevere l'acqua piovana e cominciò a fare le mulina e le
+          bambolitadi. Baroni e cavalieri lo seguirono assai e rimenarlo al palazzo; chiusero la
+          finestra, e 'l giovane diede sufficiente risposta.</p>
+        <p>Dopo il consiglio si partìo la gente. Lo padre adunò filosofi e maestri di grande
+          scienzia; propuose il presente fatto. Alcuno de' savi riputava movimento d'omori; alcuno,
+          fievolezza d'animo; chi dicea infirmità di celabro: chi dicea una e chi un'altra, secondo
+          le diversità di loro scienzie. Uno filosofo disse:</p>
+        <p>«Ditemi come lo giovane è stato nodrito».</p>
+        <p>Fu·lli contato come nodrito era stato con savi e con uomini di tempo, lungo da ogni
+          fanciullezza.</p>
+        <p>Allora lo savio rispose:</p>
+        <p>«Non vi maravigliate se·lla natura domanda ciò ch'ella ha perduto. Ragionevole cosa è
+          bamboleggiare in giovanezza, et in vecchiezza pensare».</p>
+      </div1>
+      <div1 type="novella">
+        <head>V</head>
+        <argument>
+          <p>‘Come a David re venne in pensiero di volere sapere quanti fossero i sudditi suoi’</p>
+        </argument>
+        <p>Davit re stando per la bontà di Dio, che di pecoraio l'avea fatto signore, li venne un
+          giorno in pensiero di volere al postutto sapere quanti fossero per numero i sudditi suoi:
+          e ciò fu atto di vana gloria, onde molto ne dispiacque a Dio: e mandolli l'angelo suo, e
+          feceli così dire:</p>
+        <p>«Davit, tu ha' peccato. Così ti manda a dire lo Signore tuo: o vuoli tu stare tre anni
+          infermo o tre mesi nelle mani de' nemici tuoi, o vuogli stare al giudicio delle mani del
+          tuo Signore?».</p>
+        <p>Davit rispuose:</p>
+        <p>«Nelle mani del mio Signore mi metto: faccia di me ciò che li piace».</p>
+        <p>Or che fece Iddio? Punillo secondo la colpa, ché quasi la maggior parte del populo suo li
+          tolse per morte: acciò ch'elli si vanagloriò nel grande novero, così li scemò e appicciolò
+          il novero.</p>
+        <p>Un giorno avenne che, cavalcando, Davit vide l'angelo di Dio con una spada ignuda,
+          c'andava uccidendo il popolo; e, comunque elli volle colpire uno, e Davit smontoe
+          subitamente e disse:</p>
+        <p>«Messere, mercé: non uccidete l'innocenti, ma uccidi me, cui è la colpa».</p>
+        <p>Allora, per la dibonarità di questa parola, Dio perdonò al popolo, e rimase
+        l'uccisione.</p>
+      </div1>
+      <div1 type="novella">
+        <head>VI</head>
+        <argument>
+          <p>‘Qui divisa come l'angelo di Dio parlò a Salamonee li disse che torrebbe il reame al
+            suo figliuolo per li suoi peccati’</p>
+        </argument>
+        <p>Leggesi di Salamone che fece un altro dispiacere a Dio, onde cadde in sentenzia di
+          perdere lo reame suo. L'angelo li parlò e disse così:</p>
+        <p>«Salamone, per la tua colpa tu se' degno di perdere lo reame; ma così ti manda lo Nostro
+          Signore a dire: che, per li meriti della bontà di tuo padre, elli no 'l ti torrà al tuo
+          tempo; ma, per la colpa tua, egli lo torrà al figliuolto. E così dimostra i guidardoni del
+          padre meritati nel figliuolo, e·lle colpe del padre pulite nel figliuolo».</p>
+        <p>Nota che Salamone sapientissimo studiosamente lavorò sotto 'l sole: con ingegno di sua
+          grandissima sapienzia fece grandissimo e nobile regno. Poi che l'ebbe fatto, providesi di
+          non volere che 'l possedessero aliene rede, cioè strane, fuori di suo legnaggio; et a cioè
+          tolse molte mogli e molte amiche, per avere assai rede. E Dio provide, quelli ch'è sommo
+          dispensatore, sì che tra tutte le mogli e l'amiche, ch'erano tante, non ebbe se non uno
+          figliuolo.</p>
+        <p>E allora Salamone si provide di sottoporre ed ordinare sì lo reame sotto questo suo
+          figliuolo (lo quale Roboam avea nome), ch'elli regnasse dopo lui certamente: ch'el fece
+          dalla gioventudine infino alla senettute ordinare la vita al figliuolo con molti
+          amaestramenti e con molti nodrimenti, e più fece: che tesoro li ammassoe grandissimo, e
+          miselo in luogo sicuro; e più fece: che in concordia fu con tutti li signori che marcavano
+          con lui, et in pace ordinò e dispuose sanza contenzione tutti i suoi baroni; e più fece:
+          che lo dottrinò del corso delle stelle et insegnolli avere signoria sopra i domoni. Tutte
+          queste cose fece perché Roboam regnasse dopo lui.</p>
+        <p>Quando Salamone fue morto, Roboam prese suo consiglio di gente vecchia e savia. Propose e
+          domandò consiglio in che guisa riformasse lo popolo suo.</p>
+        <p>Li vecchi l'insegnarono:</p>
+        <p>«Ragunerai il populo tuo, e con dolci parole parlerai, e dirai che tu li ami siccome te
+          medesimo e ch'elli sono la corona tua e che, se tuo padre fu loro aspro, che tu sarai loro
+          umile e benigno e, dov'egli li avesse faticati, che tu li soverrai in grande riposo; e se
+          in fare il tempio fuoro gravati, tu se' quelli che li agevolerai».</p>
+        <p>Queste parole l'insegnaro i savi vecchi del regno.</p>
+        <p>Partissi Roboam et adunò uno consiglio di giovani e fece loro simigliante proposta; e
+          quelli li adomandaro:</p>
+        <p>«Quelli con cui prima ti consigliasti, come ti consigliaro?».</p>
+        <p>E quelli il raccontò loro a motto a motto. Allora li giovani li dissero:</p>
+        <p>«Elli t'ingannano, perciò che i regni non si tengono per parole, anzi per prodezza e per
+          franchezza: onde, se tu dirai loro dolci parole, parrà che tu teme il popolo: ond'esso ti
+          soggiogherà e non ti terrà per signore, e non ti ubidiranno. Ma fae per nostro senno: noi
+          siamo tutti tuoi servi, e 'l signore può fare de' servi quello che li piace: onde di' loro
+          con vigore e con ardire ch'elli son tutti tuoi servi e, chi non ti ubidirà, che tu il
+          pulirai secondo la tua aspra legge; e, se Salamone li gravoe in fare lo tempio, e tu li
+          graverai se ti verrà in piacere. Il popolo non t'avrae per fanciullo, tutti ti temeranno,
+          e così terrai la corona e lo reame».</p>
+        <p>Lo stoltissimo Roboam si tenne al giovane consiglio: raunò il popolo e disse parole
+          feroci.</p>
+        <p>Il popolo s'adirò, i baroni si turbaro, fecero posture e leghe; giuraro insieme certi
+          baroni, sì che, in trentaquattro dì dopo la morte di Salamone, perdé delle dodici parti le
+          diece di tutto il reame suo.</p>
+      </div1>
+      <div1 type="novella">
+        <head>VII</head>
+        <argument>
+          <p>‘Qui divisa come un figliuolo d'uno re donò scalteritamente a uno re di Siria
+            scacciato’</p>
+        </argument>
+        <p>Uno signore di Grecia, lo quale possedea grandissimo reame et avea nome Aulix, avea uno
+          suo giovane figliuolo, il quale facea nodrire et insegnarli le sette liberali arti, e
+          faceali insegnare vita morale, cioè di be' costumi.</p>
+        <p>Un giorno tolse questo re molto oro e diello a questo suo figliuolo e disse:</p>
+        <p>«Dispendilo come ti piace»; e comandò a' baroni che neuno non li insegnasse spendere
+          questo oro, ma sollicitamente avisassero il suo portamento e 'l modo che e' ne tenesse.</p>
+        <p>I baroni seguitando questo giovane, un giorno stavano con lui alle finestre del palazzo.
+          Il giovane stava pensoso. Vide passare per lo cammino gente che parea assai nobile secondo
+          li arnesi e secondo le persone.</p>
+        <p>Il camino correa a piè del palagio. Comandò questo giovane che fossero tutte quelle genti
+          menate dinanzi da·llui. Fue ubbidita la sua volontade: vennero i viandanti dinanzi dal
+          giovane e da' suoi baroni. L'uno ch'avea lo cuore più ardito e la fronte più allegra si
+          fece avanti e disse:</p>
+        <p>«Messere, che ne domandi?».</p>
+        <p>Il giovane rispuose:</p>
+        <p>«Domandoti onde se' e di che condizione».</p>
+        <p>E que' rispose:</p>
+        <p>«Messere, io sono d'Italia, e mercatante sono molto ricco; e quella ricchezza ch'i' ho
+          no·ll'ho di mio patrimonio, ma tutta l'hoe guadagnata di mia sollicitudine».</p>
+        <p>E 'l giovane domandò il seguente, lo quale era di nobile fazione e stava con peritosa
+          faccia, e disseli che si facesse avanti, acciò che stava più indietro che l'altro e non sì
+          arditamente. Quelli disse:</p>
+        <p>«Messere, che mi domandi?».</p>
+        <p>Il giovane rispuose:</p>
+        <p>«Domandoti donde se' e di che condizione».</p>
+        <p>Et elli rispuose:</p>
+        <p>«Io sono di Soria e sono re; et ho sì saputo fare, che li sudditi miei m'hanno cacciato».</p>
+        <p>Allora il giovane prese tutto l'oro e diello a questo scacciato re.</p>
+        <p>Il grido andò per lo palagio. I cavalieri e li baroni e l'altra gente tutta, di boce in
+          boce, diciano:</p>
+        <p>«L'oro è dispenso!».</p>
+        <p>Chi dicea e chi domandava il come. Tutta la corte sonava solo di questo oro. Al padre
+          furono racontate tutte queste novelle, e come il suo figliuolo avea dispensato tutto
+          quello oro, e tutte le domande e tutte le risposte li furono raccontate a motto a motto.</p>
+        <p>Il re incominciò a parlare al figliuolo, udente molti baroni, e disse:</p>
+        <p>«Come dispensasti? Che pensiero ti mosse? Qual ragione ci mostri, che a colui che per sua
+          bontà aveva guadagnato non desti, e a colui che avea perduto per sua colpa e follia, tutto
+          donasti?».</p>
+        <p>E 'l giovane savio rispuose:</p>
+        <p>«Messere, non donai a chi non mi insegnoe; né a neuno donai, ma ciò ch'io feci fu
+          guiderdone, e non dono. Il mercatante non mi insegnò neente: no·lli era neente tenuto; ma
+          quelli ch'era di mia condizione, figliuolo di re, e che portava corona di re, il quale per
+          la sua follia avea sì fatto che ' sudditi suoi l'hanno cacciato, m'insegnò tanto che '
+          sudditi miei non cacceranno me: onde picciolo guiderdone diedi a·llui di così ricco
+          insegnamento».</p>
+        <p>Udita la sentenzia del giovane, il padre e·lli suoi baroni il commendaro di grande
+          sapienzia, dicendo che grande speranza ricevea della sua giovinezza, che negli anni
+          compiuti sia di grande valore.</p>
+        <p>Le lettere corsero per li paesi a' signori et a' baroni, e furonne grandi disputazioni
+          tra ' savi.</p>
+      </div1>
+      <div1 type="novella">
+        <head>VIII</head>
+        <argument>
+          <p>‘Qui si ditermina una nova quistione e sentenzia che fu data in Alexandria’</p>
+        </argument>
+        <p>In Alexandria la quale è nelle parti di Romania (acciò che sono dodici Alexandrie, le
+          quali Alexandro fece il marzo dinanzi che morisse), in quella Alexandria sono le rughe ove
+          stanno i Saracini li quali fanno i mangiari a vendere: e cerca l'uomo la ruga per li piue
+          netti mangiari e per li più dilicati, sì come l'uomo fra noi cerca de' drappi.</p>
+        <p>Un giorno di lunedì un cuoco saracino (lo quale avea nome Fabrat) stando alla fucina sua,
+          un povero saracino venne alla cucina con uno pane in mano. Danaio non avea da comperare da
+          costui: tenne il pane sopra il vasello, e ricevea il fummo che n'uscia e, innebriato il
+          pane dell'olore che n'uscia, del mangiare, e quelli lo mordea, e così il consumò di
+          mangiare, ricevendo il fumo e mordendolo.</p>
+        <p>Questo Fabrat non vendeo bene quella mattina; recolsi ad augura, et a noia prese questo
+          povero saracino e disseli:</p>
+        <p>«Pagami di ciò che tu hai preso del mio».</p>
+        <p>Il povero dicea:</p>
+        <p>«Io non ho preso del tuo mangiare altro che fummo».</p>
+        <p>«Di ciò c'hai preso mi paga» dicea Fabrat.</p>
+        <p>Tanto fu la contesa che, per la nova quistione e rozza, non mai più avenuta, n'andaro le
+          novelle al Soldano. Il Soldano per molta novissima cosa raunò ' savi e mandò per costoro.
+          Formò la questione. I savi saracini cominciaro a sottigliare, e chi riputava il fummo non
+          del cuoco, dicendo molte ragioni:</p>
+        <p>«Il fummo non si può ritenere, e torna ad alimento, e non ha sustanzia né propietade che
+          sia utile: non dee pagare».</p>
+        <p>Altri diceano:</p>
+        <p>«Lo fummo era ancora congiunto col mangiare, ed era in costui signoria, et uscia e
+          generavasi della sua propietade; e l'uomo sta per vendere, di suo mistiere; e chi ne
+          prende è usanza che paghi. Se·lla sustanza è sottile, et ha poco, poco paghi».</p>
+        <p>Molte sentenzie v'ebbe. Finalmente un savio mandò consiglio e disse:</p>
+        <p>«Poi che quelli sta per vendere, di suo mistiere, et altri per comperare, tu, giusto
+          signore, fa' che 'l facci giustamente pagare la sua derrata secondo la sua valuta. S'ê·lla
+          sua cucina (ch'e' vende dando l'utile propietade di quella) suole prendere utile moneta,
+          et ora c'ha venduto fummo (ch'è la parte sottile ch'esce della cucina), fae, signore,
+          sonare una moneta, e giudica che 'l pagamento s'intenda fatto del suono ch'esce di
+          quella».</p>
+        <p>E così giudicò il Soldano che fosse osservato.</p>
+      </div1>
+      <div1 type="novella">
+        <head>IX</head>
+        <argument>
+          <p>‘Qui divisa d'una bella sentenza che diede lo Schiavo di Barid'uno borgese e d'uno
+            pellegrino’</p>
+        </argument>
+        <p>Uno borgese di Bari andò in romeaggio e lasciò trecento bisanti a un suo amico con queste
+          condizioni e patti:</p>
+        <p>«Io andrò sì come a Dio piacerà; e s'io non rivenisse, dara'li per l'anima mia; e s'io
+          rivengo a certo termine, quello che tu vorrai mi renderai, e li altri ti terrai».</p>
+        <p>Andò il pellegrino in suo romeaggio; rivenne al termine ordinato e radomandò i bisanti
+          suoi.</p>
+        <p>L'amico rispuose:</p>
+        <p>«Conta il patto».</p>
+        <p>Lo romeo lo contò a punto.</p>
+        <p>«Ben dicesti» disse l'amico. «Te' 'diece bisanti ti voglio rendere; i dugentonovanta mi
+          tengo».</p>
+        <p>Il pellegrino cominciò ad adirarsi dicendo:</p>
+        <p>«Che fede è questa? Tu mi tolli il mio falsamente».</p>
+        <p>E l'amico rispondea soavemente:</p>
+        <p>«Io non ti fo torto; e, s'io lo ti fo, siànne dinanzi alla Signoria».</p>
+        <p>Richiamo ne fue; lo Schiavo di Bari ne fu giudice. Udìo le parti; formò la quistione onde
+          nacque questa sentenzia, e disse così a colui che ritenne i bisanti:</p>
+        <p>«Rendi ' dugentonovanta bisanti al pellegrino, e 'l pellegrino ne dea a te ' dieci che tu
+          li hai renduti, però che 'l patto fu tale: »ciò che tu vorrai mi renderai«. Onde i
+          dugentonovanta bisanti ne vuoli, rendili; e i diece, che tu non volei, prendi».</p>
+      </div1>
+      <div1 type="novella">
+        <head>X</head>
+        <argument>
+          <p>‘Qui conta come mastro Giordano fue ingannato da un suo falso discepolo’</p>
+        </argument>
+        <p>Uno medico fue, ch'ebbe nome Giordano, il quale avea uno suo falso discepolo. Infermò uno
+          figliuolo d'uno re. Il maestro v'andò e vide ch'era da guarire. Il discepolo, per torre il
+          pregio al maestro, disse al padre:</p>
+        <p>«Io veggio segni ch'elli morrà certamente»; e, contendendo col maestro, sì fece aprire la
+          bocca allo 'nfermo e, col dito stremo, li vi puose veleno, mostrando molta conoscenza in
+          sulla lingua.</p>
+        <p>L'uomo morìo. Lo maestro se n'avide: perdeo il pregio suo, e 'l discepolo il guadagnò.</p>
+        <p>Allora il maestro giurò di mai non medicare se non asini, e fece la fisica delle bestie e
+          de' vili animali.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XI</head>
+        <argument>
+          <p>‘Qui divisa dell'onore che Aminadab fece al re David, suo naturale signore’</p>
+        </argument>
+        <p>Aminadab, conduttore e mariscalco del re Davit, andò con grandissimo exercito di gente,
+          per comandamento del re Davit, a una città de' Filistei.</p>
+        <p>Udendo Aminadab che·lla città non si potea più tenere e che s'avrebbe di corto, mandò al
+          re Davit che li piacesse di venire all'oste con moltitudine di gente perché dottava del
+          campo. Il re Davit si mosse incontanente et andò nel campo.</p>
+        <p>Ad Aminadab suo mariscalco domandoe:</p>
+        <p>«Perché mi ci ha' fatto venire?».</p>
+        <p>Aminadab rispuose:</p>
+        <p>«Messere, perché la città non si può più tenere, et io volea che la vostra persona avesse
+          il pregio di così bella vittoria, anzi che l'avessi io».</p>
+        <p>Combatteo la città e vinsela; e lo pregio e l'onore n'ebbe lo re Davit.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XII</head>
+        <argument>
+          <p>‘Qui conta come Antigono, mariscalco d'Alexandro,il riprese perch'elli facea sonare una
+            cetera per suo diletto’</p>
+        </argument>
+        <p>Antigono, conducitore d'Alexandro, facendo Alexandro un giorno per suo diletto sonare — e
+          'l sonare era d'una cetera —, Antigono prese la cetera e ruppela e gittolla nel fango, e
+          disse ad Alexandro cotali parole:</p>
+        <p>«Al tuo tempo et etade si conviene regnare, e non ceterare».</p>
+        <p>E così si può dire: il corpo dell'uomo si è regno; vil cosa è la luxuria e quasi ha guisa
+          di cetera. Vergognisi dunque chi de' regnare in virtude e diletta in luxuria.</p>
+        <p>Re Poro, il quale combattè con Alexandro, a un mangiare fece tagliare le corde della
+          cetera a un ceteratore e disse queste parole:</p>
+        <p>«Meglio è tagliare che sviare: ché per dolcezza di suoni si perdono virtudi».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XIII</head>
+        <argument>
+          <p>‘Come uno re fece nodrire un suo figliuolo anni dieci in tenebrose spilonche,e come le
+            donzelle li piacquero sopra l'altre cose’</p>
+        </argument>
+        <p>A uno re nacque uno figliuolo; i savi strolagi providero che, s'elli non stesse anni
+          dieci che non vedesse il sole, che perderebbe il vedere.</p>
+        <p>Allora il re il fece guardare in tenebrose spelonche il tempo detto, poi lo fece fuori
+          trarre e dinanzi lui mettere molte gioie e cose belle e di belle donzelle, nominandole a
+          lui tutte per nome; e, dettoli le donzelle essere dimoni, poi lui domandaro qual d'esse
+          più li fosse graziosa.</p>
+        <p>Rispuose: «I domoni».</p>
+        <p>Allora lo re di ciò si maravigliò molto, dicente:</p>
+        <p>«Che cos'a tirannia è bellore di donna!»</p>
+      </div1>
+      <div1 type="novella">
+        <head>XIV</head>
+        <argument>
+          <p>‘Come uno rettore d'una terra, per osservare giustizia e misericordia,fece cavare un
+            occhio a sé et uno al figliuolo’</p>
+        </argument>
+        <p>Valerio Maximo, i·llibro sexto, narra che Calenzino, essendo rettore d'una terra, ordinò
+          che chi andasse a moglie altrui dovesse perdere li occhi.</p>
+        <p>Poco tempo passante, vi cadde uno suo figliuolo.</p>
+        <p>Lo popolo tutto li gridava misericordia; et elli, pensando che misericordia era buona
+          cosa et utile, e pensando che la giustizia non vuole perire — e l'amore de' suo' cittadini
+          che li gridavano mercé lo stringea —, providesi d'osservare l'uno e l'altro, cioè
+          giustizia e misericordia. Giudicò e sentenziò c'al figliuolo fosse cavato l'uno occhio, e
+          a·ssé medesimo l'altro.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XV</head>
+        <argument>
+          <p>‘Qui parla della gran misericordia che fece san Paulino vescovo’</p>
+        </argument>
+        <p>Beato Paulino vescovo fu tanto misericordioso che, cheggendoli una povera femina
+          misericordia per uno suo figliuolo ch'era in pregione, e Beato Paulino rispuose:</p>
+        <p>«Femmina, non ho di che ti sovenire d'altro, ma fa' così: menami alla carcere ov'è 'l tuo
+          figliuolo».</p>
+        <p>Menòlvi, ed elli si mise in pregione, in mano de' tortori, e disse:</p>
+        <p>«Rendete lo figliuolo a questa buona femina, e me ritenete per lui».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XVI</head>
+        <argument>
+          <p>‘Della grande limoxina che fece uno tavoliere per Dio’</p>
+        </argument>
+        <p>Piero tavoliere fu grande uomo d'avere; e venne tanto misericordioso, che 'mprima tutto
+          l'avere dispese a' poveri per Dio e poi, quando tutto ebbe dato, et elli si fece vendere,
+          e il prezzo diede a' poveri tutto.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XVII</head>
+        <div2 type="novella">
+          <head>(A)</head>
+          <argument>
+            <p>‘Della vendetta che Dio fece d'uno barone di Carlo Magno’</p>
+          </argument>
+          <p>Carlo Magno essendo ad oste sopra ' Saracini, venne l'ora della morte. Fece suo
+            testamento. Intra l'altre cose, giudicò suo cavallo e sue arme a' poveri, e lasciò a un
+            suo barone che·lle vendesse e desse a' poveri. Quelli le si tenne, e non ubbidìo. Carlo
+            tornò a lui e disseli così:</p>
+          <p>«Otto generazioni di pene m'hai fatte sofferire in Purgatorio per die, per lo cavallo e
+            l'arme che ritenesti. Ma, grazia del Signore mio, io ne vo purgato in cielo; e tu la
+            comperai amaramente»: che, udento centomilia genti, venne un truono da cielo; et andonne
+            con lui in abisso.</p>
+        </div2>
+        <div2 type="novella">
+          <head>(B)</head>
+          <p>Essendo Carlo Magno ad oste sopra li Saracini, ad uno suo cavaliere venne l'ora della
+            morte. Fece suo testamento. Tra l'altre cose, giudicò il suo cavallo e sue armi alli
+            poveri, e lassò a uno suo parente che ‘le’ vendesse, e dispensasse li danari a' poveri.</p>
+          <p>Lo cavaliere morìo. Quelli vendette l'arme e cavallo; li danari si ritenne. Ma, perciò
+            che la vengianza dello verace Iustiziatore è prossimana al malfaccente, si aparve il
+            difunto a colui in capo de trenta die e dissegli:</p>
+          <p>«Perciò che lo mio racomandai a dispensare i·llimosina pro anima mia, sappi che Dio
+            m'ha diliberato da tutti li miei peccati; e, perciò che mia limosina ritenesti, trenta
+            giorni m'hai fatto istare in pena. Sì ti dico che, in questo luogo ove io sono istato,
+            interai tue domane; et io mi ne voe salvo in Paradiso».</p>
+          <p>Quelli si svegliò tutto ismarito: la matina contò per l'oste ciò ch'elli avea udito.</p>
+          <p>Sì come elli parlava tra·lloro di sì grande maraviglia, et ecco venire subbitamente uno
+            gridare in ê·ll'aria, sopra lui, sì come mughiamento di leone e di lupo e d'orso: in
+            quella ora fue rapito di tra loro, tutto vivo, nell'aria.</p>
+          <p>Quattro giorni lo cerconno cavalieri e sergenti per monti e per valli, ma trovare non
+            pottono.</p>
+          <p>Dodici giorni apresso di ciò andò l'oste di Carlo Magno per la terra di Navarra, et
+            i·Navarra lo ritrovarono, lo corpo tutto freddo, in uno pietreto, presso a tre leghe del
+            mare et a quattro giornate di Baiona: qui ne aviano li diavoli gittata la carogna, e
+            l'anima nello inferno portata.</p>
+          <p>Per questo exemplo sappiamo, quelli che le limosine delli defunti ritegnono, quelli si
+            dannan perpetualemente.</p>
+        </div2>
+      </div1>
+      <div1 type="novella">
+        <head>XVIII</head>
+        <argument>
+          <p>‘Qui parla della grande liberalità e cortesia del re giovane’</p>
+        </argument>
+        <p>Leggesi della bontà del re giovane guerreggiando col padre per lo consiglio di Beltrame
+          dal Bornio: lo quale Beltrame si vantò ch'elli avea più senno che niuno altro. Di ciò
+          nacquero molte sentenzie, delle quali ne sono scritte qui alquante.</p>
+        <p>Beltrame ordinò co·llui che·ssi facesse dare al padre la sua parte di tutto lo tesoro. Lo
+          figliuolo lil domandò tanto ch'elli l'ebbe. Quelli lile fece tutto donare a gentili genti
+          et a poveri cavalieri, sì che rimase a neente, e non avea che donare.</p>
+        <p>Un uomo di corte li adomandò che li donasse; quelli rispuose ch'avea tutto donato: «ma'
+          tanto m'è rimaso ancora: ch'i' ho nella bocca un laido dente, onde mio padre ha offerti
+          duomila marchi a chi mi sa sì pregare, ch'io lo diparta dagli altri. Va' a mio padre e
+          fatti dare li marchi, e io il mi trarrò alla tua petizione».</p>
+        <p>Il giullare andò al padre e prese i marchi, et elli si trasse il dente.</p>
+        <p>E un altro giorno avenne ch'elli donava a uno gentile uomo dugento marchi, e 'l
+          siniscalco (overo tesoriere) prese que' marchi e mise uno tappeto in su la sala e
+          versollivi suso, et uno luffo di tappeto mise di sotto, perché il monte paresse maggiore.
+          Et andando il re giovane per la sala, lile mostrò il tesoriere dicendo:</p>
+        <p>«Or guardate, Messere, come donate: vedete quanti sono dugento marchi, che li avete così
+          per neente!».</p>
+        <p>E que' li avisò e disse:</p>
+        <p>«Piccola quantitade mi sembra a donare a così valente uomo! Dara'line quattrocento: ché
+          troppo credeva che fossero più i dugento marchi, che non mi sembrano a vista».</p>
+        <div2 type="novella">
+          <head>(A)</head>
+          <argument>
+            <p>‘Qui parla della grandissima liberalità e cortesia del re d'Inghilterra’</p>
+          </argument>
+          <p>Lo giovane re d'Inghilterra spendea e donava tutto. Un povero cavaliere avisò un giorno
+            un coperchio d'uno nappo d'ariento, e disse nell'animo suo:</p>
+          <p>«Se io posso nascondere quello, la masnada mia ne starà molti giorni».</p>
+          <p>Misesi il coperchio dell'argento sotto.</p>
+          <p>I siniscalchi, al levare delle tavole, riguardarono l'argento; trovarlo meno;
+            cominciarlo a metterlo in grido et a cercare i cavalieri alla porta.</p>
+          <p>Il re giovane avisò costui che l'avea e venne sanza romore a·llui e disseli
+            chetissimamente:</p>
+          <p>«Mettilo sotto a me, che non sarò cerco»; e lo cavaliere, pieno di vergognosa vergogna,
+            così fece: miselile sotto, e 'l re giovane lile rendé fuori della porta e miselile sotto
+            e poi lo fece chiamare e donogli l'altra partita.</p>
+          <p>E più di cortesia fece una notte che poveri cavalieri entrarono nella camera sua
+            credendo veramente che lo re giovane dormisse. Adunaro li arnesi e le robe a guisa di
+            furto. Quando ebero tutto furato, ebbevene uno che malvolentieri lasciava una ricca
+            coltre che 'l re avea sopra. Presela e cominciò a·ttirare.</p>
+          <p>Lo re, per non rimanere scoperto, prese la sua partita e teneva. Siccome que' tirava
+            tanto, che per fare più tosto li altri vi puosero mano, allora lo re parlò e disse:</p>
+          <p>«Questa sarebbe ruberia, e non furto, cioè a torre per forza!»</p>
+          <p>Li cavalieri fuggiro, quando l'udiro parlare, che prima credevano che dormisse.</p>
+          <p>Un giorno lo re vecchio, padre di questo re giovane, lo riprendea forte dicendo:</p>
+          <p>«Dov'è tuo tesoro?»</p>
+          <p>Et elli rispuose:</p>
+          <p>«Messere, io n'ho più che voi non n'avete».</p>
+          <p>Quivi fue il sì e 'l no. Ingaggiarsi le parti. Aggiornaro il giorno, che ciascuno
+            mostrasse suo tesoro. Lo re giovane invitò tutti i cavalieri del paese, che a cotal
+            giorno fossero in quella parte.</p>
+          <p>Il padre quello giorno fece tendere uno ricco padiglione e fece venire oro e argento in
+            piastre e vasella, et arnese assai; pietre preziose versò su·ppe' tappeti, e disse al
+            figliuolo:</p>
+          <p>«Ov'è il tuo tesoro?».</p>
+          <p>Allora il figliuolo trasse la spada del fodero. Li cavalieri adunati trassero per le
+            rughe e per le piazze: tutta la terra parea piena di cavalieri. Il re vecchio non poteo
+            riparare: il tesoro rimase alla signoria del re giovane, lo quale disse a' cavalieri:</p>
+          <p>«Prendete il tesoro vostro».</p>
+          <p>Chi prese oro, chi vasello, chi una cosa, chi un'altra, sì che di subito fu
+            distribuito.</p>
+          <p>Il padre ragunò poi suo sforzo per prenderlo; lo figliuolo si rinchiuse in uno
+            castello, e Beltrame dal Bornio con lui. Il padre vi venne ad asedio. Un giorno, per
+            troppa sicurtà, li venne un quadrello per la fronte disaventuratamente, che la contraria
+            fortuna che 'l seguitava l'uccise. Ma, innanzi ch'elli morisse, vennero a·llui tutti i
+            suoi creditori e adomandaro loro tesoro che a·llui aveano prestato.</p>
+          <p>Il re giovane rispuose:</p>
+          <p>«Signori, a mala stagione venite: ché 'l vostro tesoro è dispeso, li arnesi sono
+            donati, il corpo mio è infermo: non avreste ormai, di me, buono pegno. Ma fé venire uno
+            scrittore».</p>
+          <p>Lo scrittore fue venuto.</p>
+          <p>«Iscrivi» disse quel re cortese «ch'io obligo l'anima mia a perpetua pregione infino a
+            tanto che voi pagati siate».</p>
+          <p>Morìo. Questi, dopo la morte, andaro al padre suo e domandaro la moneta. Il padre
+            rispuose loro aspramente dicendo:</p>
+          <p>«Voi siete quelli che prestavate al mio figliuolo ond'elli mi facea guerra; et imperò,
+            sotto pena del cuore e dell'avere, vi partite di tutta mia forza!»</p>
+          <p>Allora l'uno parlò e disse:</p>
+          <p>«Messere, noi non saremo perdenti, ché noi avemo l'anima sua in pregione»;</p>
+          <p>e lo re domandò in che maniera, e quelli mostraro la carta. Allora lo padre s'umiliò e
+            disse:</p>
+          <p>«Non piaccia a Dio che l'anima di così valente uomo stea in pregione per moneta»;</p>
+          <p>e comandò che fossero pagati, e così furo.</p>
+          <p>Poi venne Beltrame dal Bornio in sua forza, e quelli lo domandò e disse:</p>
+          <p>«Tu dicesti ch'avei più senno che uomo del mondo. Or ov'è tuo senno?».</p>
+          <p>Beltrame rispuose:</p>
+          <p>«Messere, io l'ho perduto».</p>
+          <p>«E quando l'hai perduto?».</p>
+          <p>«Messere, quando nostro figliuolo morìo».</p>
+          <p>Allora lo re conobbe che 'l vanto che si dava sì era per la bontà del figliuolo:
+            perdonolli e donolli.</p>
+        </div2>
+      </div1>
+      <div1 type="novella">
+        <head>XIX</head>
+        <argument>
+          <p>‘Come tre maestri di nigromanzia vennero alla corte dello 'mperadore Federigo’</p>
+        </argument>
+        <p>Lo 'mperadore Federigo fue nobilissimo signore; e·lla gente ch'avea bontade venia a·llui
+          di tutte parti, però che l'uomo donava volentieri e mostrava belli sembianti a chi avesse
+          alcuna speziale bontà. A·llui veniano sonatori, trovatori e belli favellatori, uomini
+          d'arti, giostratori, schermitori, e d'ogni maniera gente.</p>
+        <p>Stando lo 'mperadore Federigo — e facea dare l'acqua alle mani, le tavole coverte: e non
+          era ch'entrare a tavola —, sì giunsero a·llui tre maestri di negromanzia con tre
+          schiavine. Salutarlo così di subito, et elli domandò:</p>
+        <p>«Qual'è il maestro, di voi tre?».</p>
+        <p>L'uno si fece avanti e disse:</p>
+        <p>«Messere, io sono»; e lo 'mperadore il pregò che giucasse. Cortesemente quelli gittaro
+          loro incantamenti e fecero loro arti.</p>
+        <p>Il tempo incominciò a turbare: ecco una pioggia repente e spessa, li tuoni, li folgóri e
+          ' baleni, che 'l mondo parea che fondesse; una gragnuola, che parea çopelli d'acciaio. I
+          cavalieri fuggiano per le camere, chi in una parte, chi in un'altra.</p>
+        <p>Rischiarossi il tempo. Li maestri chiesero commiato e chiesero guiderdone. Lo 'mperadore
+          disse:</p>
+        <p>«Domandate».</p>
+        <p>Que' domandaro il conte di San Bonifazio, ched era più presso allo 'mperadore, e dissero:</p>
+        <p>«Messere, comandate a costui che vegna in nostro soccorso contra li nostri nemici».</p>
+        <p>Lo 'mperadore lile comandò teneramente. Misesi il conte in via co·lloro: menarlo in una
+          bella cittade, cavalieri li mostrò di gran paraggio, bel destriere e bell'arme li
+          aprestaro, e dissero al conte:</p>
+        <p>«Questi sono a·tte ubbidire».</p>
+        <p>E mostrarogli li nimici. Vennero a la battaglia: il conte li sconfisse e francò lo paese.
+          E poi ne fece tre, delle battaglie ordinate in campo. Vinse la terra. Diederli moglie.
+          Ebbe figliuoli. Dopo, molto tempo tenne la Signoria.</p>
+        <p>Lasciarlo grandissimo tempo, poi ritornaro. Il figliuolo del conte avea già bene quaranta
+          anni; il conte era vecchio. I maestri dissono:</p>
+        <p>«Riconoscici tu? Vuo' tu ritornare a vedere lo 'mperadore e la corte?»</p>
+        <p>E 'l conte rispuose:</p>
+        <p>«Lo 'mperio fi aora più volte mutato; le genti fier ora tutte nuove: dove ritornerai?».</p>
+        <p>E ' maestri dissero:</p>
+        <p>«Noi vi ti volemo al postutto menare».</p>
+        <p>Misersi in via; camminaro gran tempo; giunsero in corte; trovaro lo 'mperadore e 'suoi
+          baroni, ch'ancor si dava l'acqua la qual si dava quando il conte n'andò co' maestri.</p>
+        <p>Lo 'mperadore li facea contare la novella; que' la contava:</p>
+        <p>«I' ho poi moglie, e figliuolo c'ha quaranta anni; tre battaglie di campo ho poi fatte.
+          Il mondo è tutto rivolto! Come va questo fatto?»</p>
+        <p>Lo 'mperadore lile fa raccontare con grandissima festa, e i baroni e ' cavalieri.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XX</head>
+        <argument>
+          <p>‘Come allo 'mperadore Federigo si fuggì uno suo astore dentro a Melano’</p>
+        </argument>
+        <p>Lo 'mperadore Federigo stando ad assedio a Melano, sì li si fuggì un suo astore e volò
+          dentro a Melano. Lo 'mperadore fece ambasciadori e rimandò per esso in Melano. La Podesta
+          ne tenne consiglio; aringatori v'ebbe assai: tutti diceano che cortesia era a rimandarlo,
+          più c'a tenerlo.</p>
+        <p>Un melanese vecchio di gran tempo consigliò alla Podesta e disse così:</p>
+        <p>«Come ci è l'astore, così ci fosse lo 'mperadore, che noi il faremmo sentire di quello
+          ch'elli fa al distretto di Melano! Perch'io consiglio che non li si mandi».</p>
+        <p>Tornaro li ambasciadori e contaro allo 'mperadore tutto sì come consiglio n'era tenuto.</p>
+        <p>Lo 'mperadore udendo ciò disse:</p>
+        <p>«Come può essere, trovarsi niuno in Melano che contradicesse alla proposta?»</p>
+        <p>Rispuosero li ambasciadori:</p>
+        <p>«Messer sì».</p>
+        <p>«E che uomo fu?».</p>
+        <p>«Messere, fu un vecchio».</p>
+        <p>«Ciò non può essere» disse lo 'mperadore, «che uomo vecchio dicesse così grande villania,
+          così ignuda di senno».</p>
+        <p>«Messer, e pur fue».</p>
+        <p>«Ditemi» disse lo 'mperadore: «di che fazione era, e di che guisa vestito?».</p>
+        <p>«Messere, elli era canuto e vestito di vergato».</p>
+        <p>«Ben può essere» disse lo 'mperadore: «dacché egli è vestito di vergato, esser può:
+          ch'egli è uno matto».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXI</head>
+        <argument>
+          <p>‘Qui parla come lo 'mperadore Federigo trovoe uno poltrone ad una fontanae chieseli
+            bere, e come lo 'mperadore li tolse suo bariglione’</p>
+        </argument>
+        <p>Andando lo 'mperadore Federigo a una caccia con veste verdi, sì com'era usato, trovò un
+          poltrone in sembianti a piè d'una fontana; — et avea distesa una tovaglia bianchissima in
+          su l'erba verde et avea suo tamerice con vino e suo mazzero molto pulito. Lo 'mperadore
+          giunse e chieseli bere; e 'l poltrone rispuose:</p>
+        <p>«Con che ti dare' io bere? A questo nappo non porrai tu bocca! Se tu hai corno del vino,
+          ti do io volentieri».</p>
+        <p>Lo 'mperadore disse così:</p>
+        <p>«Prestami tuo bariglione, et io berrò per convento che mia bocca non vi apresserà».</p>
+        <p>E 'l poltrone lile porse. Que' beve, e tenneli lo convenente; poi non lile rendeo, anzi
+          spronò il cavallo e fuggì col bariglione.</p>
+        <p>Il poltrone avisò bene, a le vestimenta da caccia, che de' cavalieri dello 'mperadore
+          fosse. L'altro giorno andò a la corte. Lo 'mperadore disse alli uscieri:</p>
+        <p>«Se ci viene un poltrone di cotal guisa, fatelmi venire dinanzi e non li mi fermate
+          porta».</p>
+        <p>Il poltrone venne; fue dinanzi a lo 'mperadore; fece suo compianto della perdita di suo
+          bariglione. Lo 'mperadore li fece contare la novella più volte, in grande sollazzo; i
+          baroni l'udiano con gran festa.</p>
+        <p>E lo 'mperadore li disse:</p>
+        <p>«Conoscerestu tuo bariglione?»</p>
+        <p>«Sì, messere».</p>
+        <p>Allora lo 'mperador lo si trasse di sotto (ché sotto l'avea), per dare a divedere ch'elli
+          era suto in persona.</p>
+        <p>Allora lo 'mperadore, per la nettezza di lui, li donò riccamente.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXII</head>
+        <argument>
+          <p>‘Come lo 'mperadore Federigo fece una questione a due suoi savie com'elli li
+            guidardonoe’</p>
+        </argument>
+        <p>Messere lo 'mperadore Federigo si avea due grandissimi savi: l'uno avea nome messere
+          Bolghero, e l'altro messere Martino. Stando lo 'mperadore un giorno tra questi due savi,
+          l'uno sì li era dalla destra parte e l'altro dalla sinestra; e lo 'mperadore fece loro una
+          quistione e disse:</p>
+        <p>«Signori, secondo la vostra legge poss'io a' sudditi miei torre a cu' io mi voglio e dare
+          ad un altro sanz'altra cagione, acciò ch'io sono signore e la legge dice che ciò che piace
+          al signore sii legge intra i sudditi suoi? Dite s'io lo posso fare, poi che mi piace».</p>
+        <p>L'uno de' due savi rispuose:</p>
+        <p>«Messere, ciò che ti piace puoi fare di quello de' sudditi tuoi, sanza neuna colpa».</p>
+        <p>L'altro rispuose e disse:</p>
+        <p>«Così, Messere, a me non pare, acciò che la legge è giustissima, e le sue condizioni si
+          vogliono giustissimamente osservare e seguitare. Quando voi togliete, si vuole sapere
+          perché, e a cui date».</p>
+        <p>Perché l'uno savio e l'altro dicea vero, e però donò ad ambendue: all'uno donò capello
+          scarlatto e palafreno bianco, e all'altro donò che facesse una legge a suo senno.</p>
+        <p>Di questo fu quistione intra ' savi: a cui avea più riccamente donato. Fue tenuto c'a
+          colui, che avea detto che poteva torre come li piacea, donò robbe e palafreno come a
+          giullare, perché l'avea lodato; a colui che seguitava la giustizia, sì diede a fare una
+          legge.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXIII</head>
+        <argument>
+          <p>‘Come il Soldano donò a uno dugento marchi e come il tesoriereli scrisse veggente lui
+            ad uscita’</p>
+        </argument>
+        <p>Saladino fu Soldano, nobilissimo signore prode e largo. Un giorno donava a uno dugento
+          marchi, ché l'avea presentato uno paniere di rose, di verno, a una stufa; e 'l tesoriere
+          suo, dinanzi da lui, li scrivea a uscita. Scorseli la penna e scrisse CCC. Disse il
+          Saladino:</p>
+        <p>«Che fai?».</p>
+        <p>Disse il tesoriere:</p>
+        <p>«Messere, errava» e volea dannare il soprapiù.</p>
+        <p>Allora il Saladino parlò:</p>
+        <p>«Non dannare: scrivi CCCC. Per mala ventura se una tua penna sarà più larga di me!».</p>
+        <p>Questo Saladino, al tempo del suo Soldanato, s'ordinò una triegua tra lui e ' Cristiani;
+          e' disse di volere vedere i nostri modi e, se·lli piacessero, diverrebbe cristiano.
+          Fermossi la triegua. Venne il Saladino in persona a vedere la costuma de' Cristiani. Vide
+          le tavole messe per mangiare con tovaglie bianchissime: lodolle molto. E vide l'ordine
+          delle tavole: ove mangiava il re di Francia, partita dall'altre: lodollo assai. Vide le
+          tavole ove mangiavano i maggiorenti: lodolle assai. Vide come li poveri mangiavano in
+          terra vilmente: questo riprese forte, e biasimò molto che li amici di lor Signore
+          mangiavano più vilmente e più basso.</p>
+        <p>Poi andaro li Cristiani a vedere la loro costuma: videro che i Saracini mangiavano in
+          terra assai laidamente.</p>
+        <p>E 'l Soldano fece tendere suo padiglione assai ricco là dove mangiavano. In terra fece
+          coprire di tappeti i quali erano tutti lavorati a croci spessissime. I Cristiani stolti
+          entrarono dentro andando con li piedi su per quelle croci, sputandovi suso siccome in
+          terra.</p>
+        <p>Allora parlò il Soldano e ripreseli forte:</p>
+        <p>«Voi predicate la Croce e spregiatela tanto? Così pare che voi amiate vostro Iddio in
+          sembianti di parole, ma non in opera. Vostra maniera e vostra guisa non mi piace».</p>
+        <p>Ruppesi la triegua e cominciossi la guerra.</p>
+        <p>Avenne che a una battaglia prese uno cavaliere francesco con altri assai, lo quale
+          francesco li venne in grande grazia tra gli altri, et amavalo sopra tutte le cose del
+          mondo. Gli altri tenea in pregione, e costui di fuori, con seco, e vestialo nobilemente:
+          e' non parea che lo Saladino sapesse stare senza lui, tanto l'amava.</p>
+        <p>Uno giorno avenne che questo cavaliere pensava fortemente fra sé medesimo. Lo Saladino si
+          n'avidde: fecelo chiamare e disse che volea sapere di che istava così pensoso; e quelli
+          non volendo dire, lo Saladino disse:</p>
+        <p>«Tu pure il dirai».</p>
+        <p>Lo cavaliere, vedendo questo, ché non potea fare altro dissegli:</p>
+        <p>«Messere, a me soviene di mia gent'e di mio paese».</p>
+        <p>E lo Saladino disse:</p>
+        <p>«Poi che tu non vuogli dimorare con meco, sì ti farò grazia e lascerotti».</p>
+        <p>Fece chiamare suo tesoriere e disse:</p>
+        <p>«Dalli CC marchi d'argento.»</p>
+        <p>‘Lo tesoriere li scrivea in escita’ ...</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXIV</head>
+        <p>Messere Amari, signore di molte terre in Proenza, avea uno suo castellano lo quale
+          spendea ismisuratamente. Passando messer Amari per la contrada, quello suo castellano se
+          li fece innanzi, il quale avea nome Beltrame: invitollo che dovesse prendere albergo
+          a·ssua magione. Messer Amari lo dimandò:</p>
+        <p>«Come hai tue di rendita l'anno?».</p>
+        <p>Beltramo rispuose:</p>
+        <p>«Messer, tanto e tanto».</p>
+        <p>«Come dispendi?».</p>
+        <p>Disse:</p>
+        <p>«Messer Amari, spendo, più che io non ho d'intrata più di dugento lire di tornesi lo
+          mese».</p>
+        <p>Allora messer Amari disse queste parole:</p>
+        <p>«Qui dispent mais que no gazagna, non pot mudar que no s'afragna».</p>
+        <p>Partìosi, e non volse rimanere con lui, et andò ad albergare con un altro suo
+        castellano.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXV</head>
+        <argument>
+          <p>‘Qui conta una novella d'un borgese di Francia’</p>
+        </argument>
+        <p>Uno borgese di Francia avea una sua moglie molto bella. Un giorno era a una festa con
+          altre donne della villa. Aveavi una molto bella donna, la quale era molto guardata dalle
+          genti; e la moglie del borgese diceva in fra sé medesima:</p>
+        <p>«S'io avesse cossì bella cotta com'ella, io sarei sguardata com'ella, perch'io sono
+          altressì bella come sia ella».</p>
+        <p>Tornò a casa al suo marito e mostrolli cruccioso sembiante. Il marito l'adomandava
+          sovente perch'ella stava crucciata, e·lla donna rispuose:</p>
+        <p>«Perch'io non sono vestita sì ch'io possa dimorare con l'altre donne: che alla cotal
+          festa l'altre donne, che non sono sì belle com'io, erano sguardate; e io no, per mia laida
+          cotta».</p>
+        <p>Allora suo marito le 'mpromise, del primo guadagno ch'e' prendesse, di farle una bella
+          cotta.</p>
+        <p>Pochi giorni dimorò, che venne a·llui un borgese e domandolli dieci marchi in prestanza
+          et offersegliene due marchi di guadagno a certo termine. Il marito rispuose:</p>
+        <p>«Io non ne farai neente, ché la mia anima ne sarebbe obligata allo 'nferno».</p>
+        <p>E la moglie rispuose:</p>
+        <p>«Ai, disleale traditore! Tu 'l fai per non farmi mia cotta!».</p>
+        <p>Allora il borgese, per le punture della moglie, prestò l'argento a due marchi di
+          guiderdone e fece la cotta a sua mogliere.</p>
+        <p>La mogliere andò al mostier con l'altre donne. In quella stagione v'era Merlino; quando
+          entrò nella chiesa, et uno parlò e disse:</p>
+        <p>«Per san Janni, quella è bellissima dama!».</p>
+        <p>E Merlino, il saggio profeta, parlò e disse:</p>
+        <p>«Veramente è bella, se i nimici dello 'nferno non avessero parte in sua cotta».</p>
+        <p>E la donna si volse e disse:</p>
+        <p>«Ditemi come i nemici d'inferno hanno parte in mia cotta».</p>
+        <p>«Dama» disse Merlino, «io lo vi dirò. Membravi voi quando voi foste alla festa dove
+          l'altre donne erano sguardate più che voi non eravate, per vostra laida cotta, e che voi
+          tornaste a vostra magione e mostraste cruccio a vostro marito, et elli impromise di farvi
+          una nuova cotta del primo guadagno che prendesse; e da ivi a pochi giorni venne un borgese
+          per dieci marchi in presto a due marchi di guadagno onde voi v'induceste vostro marito? E
+          di sì malvagio guadagno è vostra cotta! Ditemi, dama, s'io fallo di neente».</p>
+        <p>«Certo, sire, no» rispuose la dama; «e non piaccia a Dio, nostro Sire, che sì malvagia
+          cotta stea sor me»;</p>
+        <p>e, veggente tutta la gente, la si spogliò e pregò Merlino che la prendesse a diliverare
+          di sì malvagio periglio.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXVI</head>
+        <argument>
+          <p>‘Qui conta d'uno grande Moaddo a cui fu detta villania’</p>
+        </argument>
+        <p>Uno grande Moaddo andò ad Alexandria, et andava un giorno per sue bisogne per la terra;
+          et un altro li venia dietro, e dicevali molta villania e molto lo spregiava; e quelli non
+          facea niuno motto. E uno li si fece dinanzi e disse:</p>
+        <p>«O che non rispondi a colui, che tanta villania ti dice?».</p>
+        <p>E quelli, sofferente, rispuose e disse così a colui che li dicea che rispondesse:</p>
+        <p>«Io non rispondo, perch'io non odo cosa che mi piaccia».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXVII</head>
+        <argument>
+          <p>‘Qui conta della costuma ch'era nel reame di Francia’</p>
+        </argument>
+        <p>Costuma era per lo reame di Francia che l'uomo ch'era degno d'essere disonorato e
+          giustiziato si andava in su la caretta, e, se avvenisse che campasse la morte, giamai non
+          trovava chi volesse usare co·llui né stare né vederlo per niuna condizione. Lancialot,
+          quand'elli divenne forsenato per amore della reina Genevra, si andò in sulla carretta, e
+          fecesi tirare per molte luogora. E da quello giorno inanzi non si spregiò più la carretta,
+          anzi si mutò la costuma: ché le donne e le damigelle di gran paraggio, e ' cavalieri, vi
+          vanno suso a sollazzo.</p>
+        <p>Oi mondo errante e sconoscente, uomini di poca cortesia! Quanto fu maggiore il Signore
+          Nostro, che fé il cielo e la terra, che non fu Lancialotto! Lancialotto fue un cavaliere
+          di scudo, e mutò e rivolse sì grande costuma nel reame di Francia, ch'era reame altrui; e
+          Gesù Cristo Nostro Signore non poteo, perdonando a' suoi offenditori, che niuno uomo
+          perdoni: e questo volle e fece nel reame suo! Quelli che 'l puosero in croce infino alla
+          morte, a coloro perdonò, e pregò il Padre suo per loro.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXVIII</head>
+        <argument>
+          <p>‘Qui conta come i savi astrologi disputavano del cielo impireo’</p>
+        </argument>
+        <p>Grandissimi savi stavano in una scuola a Parigi e disputavano del cielo impireo e molto
+          ne parlavano disiderosamente e come stava di sopra li altri cieli. Contavano il cielo
+          dov'è Saturno, e di Giupiter e di Mars, e quel del Sole e di Venus e della Luna, e come
+          sopra tutti stava lo 'mpireo cielo; — e sopra quello sta Dio Padre <emph>in maiestate
+          sua</emph>.</p>
+        <p>Così parlando, venne un matto e disse loro:</p>
+        <p>«Signori, e sopra capo di quel Signore, che ha?».</p>
+        <p>E l'uno rispuose a gabbo:</p>
+        <p>«Havi un capello».</p>
+        <p>Il matto se n'andò, e ' savi rimasero. Disse l'uno:</p>
+        <p>«Tu credi al matto aver dato il capello, ma elli è rimaso a noi. Or diciamo sopra capo
+          che ha».</p>
+        <p>Assai cercaro loro scienzie: non trovaro neente. Allora dissero:</p>
+        <p>«Matto è colui ch'è sì ardito che la mente metta difuori dal tondo».</p>
+        <p>E via più matto e forsennato quelli che pena e pensa di sapere il suo Principio, e sanza
+          veruno senno chi vuol sapere li suo' profondissimi pensieri, quando que' molto savi non
+          potero invenire solamente quello ch'Egli sopra capo avesse.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXIX</head>
+        <argument>
+          <p>‘Qui conta d'uno cavaliere di Lombardia come dispese il suo’</p>
+        </argument>
+        <p>Uno cavaliere di Lombardia era molto amico dello 'mperadore Federigo, et avea nome messer
+          G., il quale non avea reda nulla che suo figliuolo fosse: bene avea gente di suo
+          legnaggio.</p>
+        <p>Puosesi in cuore di volere tutto dispendere alla vita sua, sicché non rimanesse il suo
+          dopo lui. Estimò quanto potesse vivere, e soprapuosesi bene anni diece; ma non si
+          soprapuose tanto: ché, dispendendo il suo e consumando e scialacquando, li anni
+          sopravennero e soperchiolli tempo. Rimase povero, ch'avea tutto dispeso.</p>
+        <p>Puosesi mente nel povero stato suo, e ricordossi dello 'mperadore Federigo, ché grande
+          amistade avea co·llui e nella sua corte molto avea dispeso e donato. Propuosesi d'andare
+          a·llui, credendo che l'accogliesse a grande onore.</p>
+        <p>Andò allo 'mperadore e fu dinanzi da lui. Domandò chi e' fosse, tuttoché bene lo
+          conoscea. Quelli li racontò suo nome. Lo 'mperadore lo domandò di suo stato. Il cavaliere
+          li contò tutto sì come si propuose, e come il tempo li era soperchiato et avea tutto
+          dispeso. Lo 'mperadore rispuose:</p>
+        <p>«Esci fuor di mia corte! E, sotto pena della vita, non venire in mia forza, perciò che tu
+          se' quelli che non volei che dopo i tuoi anni niuno avesse bene».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXX</head>
+        <argument>
+          <p>‘Qui conta d'uno novellatore ch'avea messere Azzolino’</p>
+        </argument>
+        <p>Messere Azzolino di Romano avea un suo favolatore, al quale facea favolare la notte
+          quando erano le notti grandi di verno. Una notte avenne che 'l favolatore avea grande
+          talento di dormire, et Azzolino il pregava che favolasse.</p>
+        <p>E 'l favoliere incominciò una favola d'uno villano che avea suoi cento bisanti, il quale
+          andò a uno mercato a comperare berbici, et ebbene due per bisanto. Tornando con le pecore
+          sue, uno fiume ch'avea passato era molto cresciuto per una grande pioggia che venuta era.
+          Stando alla riva, brigossi d'accivire in questo modo: che un povero pescatore avea un suo
+          piccolo burchiello (sì a dismisura piccolo, che non vi capea più che 'l villano e una
+          pecora per volta); allora il villano cominciò a passare. Il fiume era largo. Misesi con
+          una berbice nel burchiello e cominciò a vogare. Voga e passa.</p>
+        <p>E lo favolatore fue ristato, e non dicea più. Messere Azzolino disse:</p>
+        <p>«Andè oltra».</p>
+        <p>E 'l favolatore disse:</p>
+        <p>«Messere, lasciate passare le pecore, poi conteremo il fatto».</p>
+        <p>Le pecore non sarebero passate in uno anno, sicché intanto potea bene ad agio
+        dormire.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXI</head>
+        <argument>
+          <p>‘Delle belle valentie che fece Riccar lo Ghercio dell'Ila’</p>
+        </argument>
+        <p>Riccar lo Ghercio fu signore dell'Illa, e fu grande gentile uomo di Proenza, e di grande
+          ardire, e fue pro a dismisura; e quando i Saracini vennero per combattere la Spagna, sì fu
+          elli in quella battaglia che si chiamò la Spagnata, la quale fine la più perigliosa
+          battaglia che fosse, da quella de' Troiani e de' Greci in qua. Allora erano i Saracini
+          grandissima multitudine e con molte generazioni di stormenti, sicché Riccar lo Ghercio fue
+          il conduttore della prima battaglia; e, per cagione che li cavalli non si poteano mettere
+          avanti per lo spavento delli stormenti, sì comandò a tutta sua gente che volgessero le
+          groppe de' cavalli alli nemici; e tanto ricularo i cavalli, che furo tra i nemici. Poi,
+          quando fue mischiato tra nemici così riculando, et elli ebbe la battaglia davanti, venne
+          uccidendo a destra e a sinestra, sicché misero i nemici a distruzione.</p>
+        <p>E quando il conte di Tolosa si combatteo col conte di Provenza altra stagione, sì
+          dismontò del distriere Riccar lo Ghercio, e montò in su uno mulo. E 'l conte li disse:</p>
+        <p>«Che è ciò, Riccardo?».</p>
+        <p>«Messere, voglio dimostrare ch'io non ci sono né per cacciare, né per fuggire».</p>
+        <p>Qui dimostrò la sua grande franchezza, la quale era nella sua persona oltre alli altri
+          cavalieri.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXII</head>
+        <argument>
+          <p>‘Qui conta una novella di messere Imberal dal Balzo’</p>
+        </argument>
+        <p>Messere Imberal dal Balzo, grande castellano di Proenza, vivea molto ad algura a guisa
+          espagnola: — et un filosafo ch'ebbe nome Pittagora fu di Spagna, e fece una tavola per
+          istorlomia la quale, secondo i dodici segnali, v'erano molte significazioni d'animali:
+          quando li uccelli s'azzuffano, quando uomo truova la donnola nella via, quando lo fuoco
+          suona, e delle giandae e delle gazze e delle cornacchie: così di molti animali molte
+          significazioni secondo la luna.</p>
+        <p>E così messere Imberal, cavalcando un giorno con sua compagnia, andavasi prendendo
+          guardia di questi uccelli, perché si temea d'incontrare algure. Trovò una femina in uno
+          camino; domandolla e disse:</p>
+        <p>«Dimmi, donna: hai questa mattinata veduti di questi uccelli grandi, siccome corbi,
+          cornillie o gazze?»</p>
+        <p>E la femina rispuose:</p>
+        <p>«Ségner oc, ie‘u’ vi una cornacchia in su uno ceppo di salce».</p>
+        <p>«Or mi di', donna: enverso qual parte tenea volta sua coda?»</p>
+        <p>«Sua coda, ségner?» rispuose la femina. «Ella tenea sua coda volta verso 'l cul, ségner».</p>
+        <p>Allora messere Imberal temeo l'agura e disse a sua compagnia:</p>
+        <p>«Coveng a Dieu que ie‘u’ non cavalgarai ni ‘h’ui ni dema ‘e’n aquest'agura»;</p>
+        <p>e molto si contò poi la novella in Proenza, per novissima risposta ch'avea fatta, sanza
+          pensare, quella femina.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXIII</head>
+        <argument>
+          <p>‘Come due nobili cavalieri s'amavano di buono amore’</p>
+        </argument>
+        <p>Due nobili cavalieri s'amavano di grande amore. L'uno aveva nome messere G. e l'altro
+          messere S. Questi due cavalieri s'aveano lungamente amato. L'uno di questi si mise a
+          pensare e disse cossì:</p>
+        <p>«Messere G. ha uno molto bello palafreno. S'io lile cheggio, darebbel·m'egli?»</p>
+        <p>E, così pensando, facea il partito nel pensiero dicendo:</p>
+        <p>«Sì darebbe»; l'altro cuor li dicea:</p>
+        <p>«Non darebbe».</p>
+        <p>E così, tra 'l sì e 'l no, vinse il partito che non lile darebbe.</p>
+        <p>Il cavaliere fu turbato, e cominciò a venire col sembiante strano, e ingrossò contro
+          all'amico suo, e ciascuno giorno il pensare cresceva e rinnovellava il cruccio. Lasciolli
+          di parlare e volgeasi, quando elli passava, in altra parte. La gente si maravigliava, et
+          elli medesimo si maravigliava forte.</p>
+        <p>Un giorno avenne che messere G., il cavaliere c'avea il palafreno, non poteo più
+          sofferire. Andò a messere S. e disse:</p>
+        <p>«Amor mio, compagno mio, perché non mi parli tu? Perché se' tu crucciato?»</p>
+        <p>Ed e' rispuose:</p>
+        <p>«Perch'io ti chiesi lo palafreno tuo e tu lo mi negasti».</p>
+        <p>E quelli rispuose:</p>
+        <p>«Questo non fu giammai: non può essere. Lo palafreno sia tuo, e la persona: ch'io t'amo
+          come me medesimo».</p>
+        <p>Allora il cavaliere si riconciliò e ritornò in su l'amore e 'n su l'amistade usata, e
+          riconobbe che non avea ben pensato.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXIV</head>
+        <p>Fue un savio religioso, lo quale era grandissimo tra li Frati Predicatori, il quale avea
+          uno suo fratello che s'atendea di cavalcare in una oste nella quale s'aspettava ch'al
+          postutto battaglia sarebbe co' nimici. Andò aquesto suo fratello frate per ragionare
+          co·llui anzi che andasse: lo frate l'amonìo assai e disseli molte parole, in tra le quali
+          e dopo le quali disse queste parole:</p>
+        <p>«Tu andrai al nome di Dio: la battaglia è giusta per lo Comune tuo. Sie produomo e non
+          dubitare di morire, ché forsi sanz'ugni ciò ti morestu».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXV</head>
+        <argument>
+          <p>‘Qui conta del maestro Taddeo di Bologna’</p>
+        </argument>
+        <p>Maestro Taddeo, leggendo a' suoi scolari in medicina, trovò che, chi continuo mangiasse
+          nove dì di petronciani, che diverebbe matto; e provavalo secondo fisica.</p>
+        <p>Un suo scolaro, udendo quel capitolo, propuosesi di volerlo provare: prese a mangiare de'
+          petronciani, et in capo de' nove dì venne dinanzi al maestro e disse:</p>
+        <p>«Maestro, il cotale capitolo che leggeste non è vero, però ch'io l'hoe provato, e non
+          sono matto»:</p>
+        <p>e pure alzasi e mostrolli il culo.</p>
+        <p>«Iscrivete» disse il maestro «che provato è; e facciasene nuova chiosa».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXVI</head>
+        <argument>
+          <p>‘Qui conta come uno re crudele perseguitava i Cristiani’</p>
+        </argument>
+        <p>Fue uno re molto crudele, il quale perseguitava il populo di Dio; ed era, la sua,
+          grandissima forza; e niente poteva acquistare contro aquel populo, però che Dio l'amava.
+          Quel re ragionò con Balaam profeta e disse:</p>
+        <p>«Dimmi, Balaam: che è ciò, che li miei nemici sono assai meno poderosi di me, e io non
+          posso fare loro nullo danno?»</p>
+        <p>E Balaam rispuose:</p>
+        <p>«Messere, però ch'e' sono populo di Dio. Ma io farò sì che tu potrai sopra loro: ch'io
+          andrò e maladicerolli, e tu darai la battaglia e averai sopra loro vittoria».</p>
+        <p>Salìo questo Balaam in su uno asino e andò su per uno monte; e 'l popolo era quasi là giù
+          al piano, e quelli andava per maladirli di sul monte.</p>
+        <p>Allora l'angelo di Dio li si fece dinanzi, e non lo lasciava passare. Et elli pugnea
+          l'asino credendo che aombrasse, e quelli parlò:</p>
+        <p>«Non mi battere: vedi l'angelo di Dio con una spada di fuoco in mano, che non mi lascia
+          andare!».</p>
+        <p>Allora lo profeta Balaam guardò e vide l'angelo, e l'angelo parlò e disse:</p>
+        <p>«Che è ciò, che tu vai a maladire il popolo di Dio? Incontanente, se tu non vuoli morire,
+          lo benedì come tu lo volevi maladire».</p>
+        <p>Andò il profeta, e benedicea lo popolo di Dio; e lo re dicea:</p>
+        <p>«Che fai? Questo non è maladire!».</p>
+        <p>E que' rispuose:</p>
+        <p>«Non può essere altro, pero che l'angelo di Dio il mi comandò. Onde fa' così: tu hai di
+          belle femine, et elli n'hanno dischesta. To'·ne una quantità di molte belle e fa' loro
+          ricche vestimenta e poni loro da petto una nusca d'ariento o d'oro, cioè una boccola con
+          uno fibbiaglio, nella quale sia intagliata l'idola che tue adori (ché adorava la statua di
+          Mars), e dirai così loro: ch'elle non consentano a neuno, se non promettono imprima
+          d'adorare quella figura di Mars; — e 'mponi loro grande pena, c'al postutto non consentano
+          in altra guisa. E poi, quando elli avranno peccato, io avrò balìa di maladirli».</p>
+        <p>E lo re così fece: tolse di belle femine e mandolle in quel modo nel campo. Li uomini
+          n'erano vogliosi: consentivano e adoravano l'idole, e poi peccavano con esse. Allora lo
+          profeta andò e maladisse lo popolo di Dio, e Dio non li atoe; e quello re diede battaglia
+          e sconfisseli tutti, onde li giusti patiro la pena della colpa d'alquanti che peccaro.
+          Ravidersi e fecero penitenzia e cacciaro le femine e riconciliarsi con Dio, e tornaro
+          nella loro franchigia.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXVII</head>
+        <argument>
+          <p>‘Qui conta d'una battaglia che fu tra due re di Grecia’</p>
+        </argument>
+        <p>Due re furo, ch'erano delle parti di Grecia; e l'uno iera troppo più poderoso che
+          l'altro. Furo insieme a battaglia: lo più poderoso perdeo. Andonne in una sua camera, e
+          maravigliavasi, siccome avesse sognato; e al postutto non credeva avere combattuto.</p>
+        <p>In quella l'angelo di Dio venne a·llui e disse:</p>
+        <p>«Come isté? Che pensi? Tu non hai sognato, anzi combattuto; e se' isconfitto».</p>
+        <p>E lo re aguardò l'angelo e disse:</p>
+        <p>«Come può essere? Io avea tre cotanta gente di lui! Perché m'è avenuto?».</p>
+        <p>E l'angelo rispuose:</p>
+        <p>«Però che tu se' nimico di Dio».</p>
+        <p>Allora lo re disse:</p>
+        <p>«O è lo nemico mio sì amico di Dio, che però m'abbia vinto?».</p>
+        <p>«No» disse l'angelo: «che Dio fa vendetta del nimico suo col nimico suo. Va' tu coll'oste
+          tua e ripugna co·llui, e tu lo sconfiggerai com'elli ha fatto te».</p>
+        <p>Allora questi andò e ricombatté col nemico suo e sconfisselo e preselo, sì come l'angelo
+          li avea detto.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXVIII</head>
+        <argument>
+          <p>‘D'uno strologo ch'ebbe nome Melisus, che fu ripreso da una donna’</p>
+        </argument>
+        <p>Uno, lo quale ebbe nome Tale milesius, grandissimo savio in molte scienzie, e
+          specialmente in istrologia, secondo che si legge in libro <title>De civitate Dei</title>,
+          in libro sexto: dice che questo maestro albergò una notte in una casetta d'una feminella.
+          Quando andò la sera a letto disse a quella femina:</p>
+        <p>«Vedi, donna: l'uscio mi lascerai aperto istanotte, però ch'io mi sono costumato di
+          levare a provedere le stelle».</p>
+        <p>La femina lasciò l'uscio aperto. La notte piovve. Dinanzi alla casa avea una fossa.
+          Empiessi d'acqua. Quando que' si levò, caddevi dentro. Que' cominciò a gridare aiutorio.
+          La femina domandò:</p>
+        <p>«Che hai?».</p>
+        <p>Que' rispuose:</p>
+        <p>«Io sono caduto in una fossa».</p>
+        <p>«Oi cattivo!» disse la femina. «Or tu badi nel cielo, e non ti sai tener mente a'
+          piedi!».</p>
+        <p>Levossi questa femina et aiutollo che periva in una vile fossatella d'acqua per poca e
+          per cattiva provedenza.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XXXIX</head>
+        <argument>
+          <p>‘Qui conta del vescovo Aldobrandino come fu schernito da un frate’</p>
+        </argument>
+        <p>Quando il vescovo Aldobrandino vivea, mangiando al vescovado suo d'Orbivieto un giorno a
+          una tavola ov'era uno frate minore a mangiare — lo quale frate mangiava una cipolla molto
+          savorosamente e con fine apetito — il vescovo guardandolo disse a uno donzello:</p>
+        <p>«Vammi a quello frate e dilli che volentieri gli acambiarei a stomaco».</p>
+        <p>Lo donzello andò e disselile; e lo frate rispuose:</p>
+        <p>«Và, di' a messere che ben credo che volentieri m'acambierebbe a stomaco, ma non a
+          vescovado».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XL</head>
+        <argument>
+          <p>‘D'uno uomo di corte ch'avea nome Saladino’</p>
+        </argument>
+        <p>Saladino, lo quale era uomo di corte, essendo, in Cicilia, per mangiare a una tavola con
+          molti cavalieri — e davasi l'acqua — uno cavaliere disse:</p>
+        <p>«Saladino, lavati la bocca, e non le mani».</p>
+        <p>E Saladino rispuose:</p>
+        <p>«Messere, io non parlai oggi di voi».</p>
+        <p>Poi, quando piazzeggiavano, così riposando, in sul mangiare, fue domandato il Saladino
+          per un altro cavaliere così dicendo:</p>
+        <p>«Dimmi, Saladino: s'io volesse dire una mia novella, a cui la dico per lo più savio di
+          noi?».</p>
+        <p>E 'l Saladino rispuose:</p>
+        <p>«Messere, ditela a qualunqua vi pare il piue matto».</p>
+        <p>I cavalieri, mettendolo in quistione, pregarlo ch'aprisse loro sua risposta, sì che lo
+          potessero intendere; e 'l Saladino parlò e disse così:</p>
+        <p>«Ai matti ogni matto per savio per la sua somiglianza. Adunque, quando al matto sembrerà
+          uomo più matto, fie quel cotale più savio: però che 'l savere è contrario della mattezza,
+          ad ogni matto i savi paiono matti, sì come a' savi i matti paiono veramente matti».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLI</head>
+        <argument>
+          <p>‘Una novella di messer Polo Traversaro’</p>
+        </argument>
+        <p>Messer Polo Traversaro fu di Romagna, e fu lo più nobile uomo di tutta Romagna, e quasi
+          tutta Romagna signoreggiava a cheto.</p>
+        <p>Aveavi tre cavalieri molto leggiadri, e non parea loro che in Romagna avesse nessuno uomo
+          che potesse sedere con loro in quarto. E però, là ov'elli teneano corte, aveano fatta una
+          panca da tre, e più non ve ne capevano: e niuno era ardito che su vi sedesse, temendo la
+          loro leggiadria; e, tuttoché messere Polo fosse loro maggiore — et ellino nell'altre cose
+          l'ubbidiano —, ma pure in quello luogo leggiadro non ardia sedere, tutto ancora che
+          confessavano bene ch'elli era lo migliore uomo di Romagna e 'l più presso da dover essere
+          il quarto che niuno altro.</p>
+        <p>Che fecero i tre cavalieri? Vedendo che messer Polo li seguitava troppo, rimuraro mezzo
+          l'uscio d'un loro palagio perché non vi entrasse. L'uomo era molto grosso di persona: non
+          potendovi entrare, spogliossi ed entrovi in camisa. Quelli, quando il sentiro, entraro
+          nelle letta e fecersi coprire come ' malati. Messere Polo giunse che li credeva trovare a
+          tavola: trovolli nelle letta. Confortolli e domandolli di loro malavoglia, e avedeasine
+          ben; e chiese commiato, e partissi da loro.</p>
+        <p>Que' cavalieri dissero:</p>
+        <p>«Questo non è giuoco»:</p>
+        <p>andarne a una villa dell'uno (quivi avea bello castelletto con bello fosso e bel ponte
+          levatoio): posersi in cuore di fare quivi il verno.</p>
+        <p>Un die messere Polo v'andò con bella compagnia. Quando volle entrare dentro, que' levaro
+          il ponte. Assai poté dire, che non v'entrò; e ritornossi indietro.</p>
+        <p>Passato il verno, ritornaro i tre cavalieri alla città. Messere Polo, quand'elli tornaro,
+          non si levò; e que' ristettero, e l'uno disse:</p>
+        <p>«O messere, per mala ventura! che cortesie sono le vostre? Quando i forestieri giungono a
+          città, voi non vi levate per loro?».</p>
+        <p>E messere Polo rispuose:</p>
+        <p>«Perdonatemi, messere: ch'io non mi levo se non per lo ponte che si levò per me».</p>
+        <p>Allora li cavalieri ne fecero grande festa.</p>
+        <p>Morìo l'uno de' cavalieri; e quelli segaro la sua terza parte della panca ove sedeano,
+          quando il terzo fu morto, però che non trovaro in tutta Romagna neuno che fosse degno di
+          sedere in suo luogo.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLII</head>
+        <argument>
+          <p>‘Qui apresso conta una bellissima novella di Guiglielmo di Berghedan di Proenza’</p>
+        </argument>
+        <p>Guiglielmo di Berghedan fue nobile cavaliere di Proenza al tempo del conte Raymondo
+          Berlinghieri. Un giorno avenne che ' cavalieri si vantavano, e Guiglielmo si vantò che non
+          avea niuno nobile uomo in Proenza che non gli avesse fatto votare la sella e giaciuto con
+          sua mogliera: e questo disse in aldienza del conte. E 'l conte rispuose:</p>
+        <p>«Or mee?».</p>
+        <p>Guiglielmo disse:</p>
+        <p>«Voi, signor, il vi dirai».</p>
+        <p>Fece venire un suo destrier sellato e cinghiato bene; li sproni in piedi, mise il piè
+          nella streva, prese l'arcione e, quando fu così ammanato, parlò al conte e disse:</p>
+        <p>«Voi, signor, né metto né traggo»; e monta in sul destriere e sprona e va via.</p>
+        <p>Il conte s'adiroe molto. Que' non veniva a corte. Un giorno si ragunaro donne a uno
+          nobile convito: mandaro per Guiglielmo — e la contessa vi fu —, e dissero:</p>
+        <p>«Or ci di', Guiglielmo: perché hai tu così unite le nobili donne di Proenza? Cara la
+          comperai!».</p>
+        <p>Catuna avea uno mattero sotto. Quella che li parlava li disse:</p>
+        <p>«Pensa, Guiglielmo, che per la tua follia e' ti conviene morire».</p>
+        <p>E Guiglielmo, vedendo che così era sorpreso, parlò e disse:</p>
+        <p>«D'una cosa vi prego, donne, per amore della cosa che voi più amate: che inanzi ch'io
+          muoia voi mi facciate un dono».</p>
+        <p>Le donne risposero:</p>
+        <p>«Volentieri: domanda, salvo che tu non dimandi tua scampa».</p>
+        <p>Allora Guiglielmo parlò e disse:</p>
+        <p>«Donne, io vi priego per amore che quale di voi è la più putta, quella mi dea in prima».</p>
+        <p>Allora l'una riguarda l'altra: non si trovò chi prima li volesse dare, e così scampò
+          aquella volta.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLIII</head>
+        <argument>
+          <p>‘Qui conta di messer Giacopino Rangoni com'elli fece a un giullare’</p>
+        </argument>
+        <p>Messere Jacopino Rangoni, nobile cavaliere di Lombardia, stando uno giorno a una tavola,
+          avea due ingaistare di finissimo vino innanzi, bianco e vermiglio. Un giucolare stava a
+          quella tavola, e non s'ardiva di chiedere di quel vino. Avendone grandissima voglia,
+          levossi suso e prese uno muiuolo e lavollo smisuratamente bene e davantaggio e, poi che
+          l'ebbe così lavato e sciacquato molto, girò la mano e disse:</p>
+        <p>«Messere, io lavato l'hoe».</p>
+        <p>E messere Jacopino diè della mano nelle guastade e disse:</p>
+        <p>«E tu il pettinerai altrove che non qui».</p>
+        <p>Il giullare si rimase così, e non ebbe del vino.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLIV</head>
+        <argument>
+          <p>‘D'una quistione che fu posta ad un uomo di corte’</p>
+        </argument>
+        <p>Marco Lombardo fue nobile uomo di corte e fue molto savio. Fue a uno Natale a una cittade
+          dove si donavano molte robe, e non n'ebbe niuna. Trovò un altro di corte, lo qual era
+          nesciente persona appo lui, e avea avute robe. Di questo nacque una bella sentenza, ché
+          quello giullaro disse a Marco:</p>
+        <p>«Che è ciò, Marco, ch'io ho avute sette robe e tu non niuna? E sì se' tu troppo migliore
+          uomo e più savio di me! Quale è la ragione?».</p>
+        <p>E Marco rispuose:</p>
+        <p>«Non è per altro, se non che tu trovasti più de' tuoi ch'io de' miei».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLV</head>
+        <argument>
+          <p>‘Come Lancialotto si combatté uno giorno a una fontana’</p>
+        </argument>
+        <p>Messere Lancialotto si combattea un giorno a piè d'una fontana con uno cavaliere di
+          Sansogna, lo quale avea nome A.: e combattevansi aspramente alle spade, dismontati de'
+          loro cavalli. E, quando presero alena, si domandò l'uno del nome dell'altro. Allora
+          messere Lancialotto li rispuose e disse:</p>
+        <p>«Da poi che tu disideri mio nome, or sappi ch'i' ho nome Lancialotto».</p>
+        <p>Allora si ricominciò la meslea intra ' due cavalieri, e 'l cavalier parlò a Lancialotto e
+          disse:</p>
+        <p>«Più mi nuoce tuo nome che non fa la tua prodezza»: però che, saputo ch'egli era
+          Lancialotto, si cominciò il cavaliere a dottare la bontà sua.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLVI</head>
+        <argument>
+          <p>‘Qui conta come Narcis s'innamorò dell'ombra sua’</p>
+        </argument>
+        <p>Narcis fue molto bellissimo. Un giorno avenne ch'e' si riposava sopra una bella fontana.
+          Guardò nell'acqua: vide l'ombra sua ch'iera molto bellissima. Incominciò a riguardarla e
+          rallegrarsi sopra la fonte, e l'ombra sua facea il simigliante; e così credette che quella
+          fosse persona che avesse vita, che istesse nell'acqua, e non si acorgea che fosse l'ombra
+          sua. Cominciò ad amare, e inamoronne sì forte, che la volle pigliare; e l'acqua si turbò e
+          l'ombra sparìo, ond'elli incominciò a piangere sopra la fonte; e, l'acqua schiarando, vide
+          l'ombra che piangea in sembiante sì com'egli. Allora Narcis si lasciò cadere nella fonte,
+          di guisa che vi morìo e annegò.</p>
+        <p>Il tempo era di primavera; donne si veniano a diportare alla fonte; videro il bello
+          Narcis anegato. Con grandissimo pianto lo trassero della fonte, e così ritto l'appoggiaro
+          alle sponde, onde dinanzi dallo dio d'Amore andò la novella: onde lo dio d'Amore ne fece
+          un nobilissimo mandorlo, molto verde e molto bene stante: e fue il primaio albero, che
+          prima fa fiorita e rinnovella amore.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLVII</head>
+        <argument>
+          <p>‘Qui conta come uno cavaliere richiese un giorno una donna d'amore’</p>
+        </argument>
+        <p>Uno cavaliere pregava un giorno una donna d'amore e diceale intra l'altre parole com'elli
+          era gentile e ricco e bello a dismisura, «e 'l vostro marito è così laido come voi
+          sapete»; e quel cotal marito era dopo la parete della camera. Parlò e disse:</p>
+        <p>«Eh, messer, per cortesia: acconciate li fatti vostri e non isconciate li altrui».</p>
+        <p>Messer Lizio di Valbona fu il laido, e l'altro fue messer Rinieri da Calvoli.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLVIII</head>
+        <argument>
+          <p>‘Qui conta del re Currado, del padre di Curradino’</p>
+        </argument>
+        <p>Leggesi del re Currado, del padre di Curradino, che, quando era garzone, sì avea in
+          compagnia dodici garzoni di sua etade, che li faceano compagnia. Quando lo re Currado
+          fallava in neuna cosa, e ' maestri che·lli erano dati a guardia non lo battevano, ma
+          battevano questi garzoni suoi compagni per lui. E que' dicea:</p>
+        <p>«Perché battete voi costoro?»</p>
+        <p>Rispondeano li maestri:</p>
+        <p>«Per li falli tuoi».</p>
+        <p>E que' dicea:</p>
+        <p>«Perché non battete voi me, ch'è mia la colpa?»</p>
+        <p>Li maestri rispondeano:</p>
+        <p>«Perché tu se' nostro signore; ma noi battiamo costoro per te. Onde assai ti de' dolere,
+          se tu hai gentil cuore, ch'altri porti pena delle tue colpe».</p>
+        <p>E per ciò si dice che lo re Currado si guardava di fallire per la pietà di coloro.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XLIX</head>
+        <argument>
+          <p>‘Qui conta d'uno medico di Tolosa come tolse per moglieuna nepote dell'arcivescovo di
+            Tolosa’</p>
+        </argument>
+        <p>Uno medico di Tolosa tolse per mogliera una gentile donna di Tolosa, nepote
+          dell'arcivescovo. Menolla. In due mesi fece una fanciulla. Il medico non ne mostrò nullo
+          cruccio, anzi consolava la donna e mostravale ragioni secondo fisica, che ben poteva
+          essere sua di ragione: e con quelle parole e con belli sembianti fece sì che nel parto la
+          donna non la poteo traviare. Molto onoroe la donna nel parto; dopo il parto sì l'ebbe e
+          dissele:</p>
+        <p>«Madonna, io v'ho onorata quant'i' ho potuto; priegovi per amore di me che voi ritorniate
+          omai a casa del vostro padre. La vostra figliuola io terrò a grande onore».</p>
+        <p>Tanto andaro le cose innanzi, che l'arcivescovo sentì che 'l medico avea dato commiato
+          alla nepote. Mandò per lui e, acciò ch'era grande uomo, parlò sopra a lui molto grandi
+          parole, mischiate con superbia e con minacce. Quand'ebbe assai parlato, e 'l medico
+          rispuose e disse così:</p>
+        <p>«Messer, io tolsi vostra nepote per moglie credendomi della mia ricchezza potere fornire
+          e pascere mia famiglia; e fu mia intençio d'avere di lei uno figliuolo l'anno e non più,
+          onde la donna ha cominciato a fare figliuoli in due mesi: per la qual cosa io non sono sì
+          agiato, se 'l fatto dee così andare, ch'io li potesse notricare; e voi non sarebbe onore
+          che vostro lignaggio andasse a povertade: perch'io vi cheggio mercede che voi la diate a
+          uno più ricco omo ch'io non sono, che possa notricare i suoi figliuoli sì che a voi non
+          sia disinore».</p>
+      </div1>
+      <div1 type="novella">
+        <head>L</head>
+        <argument>
+          <p>‘Qui conta di maestro Francesco, figliuolo di maestro Accorso, da Bologna’</p>
+        </argument>
+        <p>Maestro Francesco, figliuolo di maestro Accorso, della città di Bologna, quando ritornò
+          d'Inghilterra, dove era stato lungamente, fece una così fatta proposta dinanzi al Comune
+          di Bologna e disse:</p>
+        <p>«Un padre d'una famiglia si partì di suo paese per povertade e lasciò i suoi figliuoli e
+          andonne in lontana provincia. Stando uno tempo, et elli vide uomini di sua terra. L'amore
+          de' figliuoli lo strinse a domandare di loro, e que li rispuosero:</p>
+        <p>«Messere, vostri figliuoli hanno guadagnato e sono molto ricchi».</p>
+        <p>Allora, udendo così, si propuose di ritornare. Tornò in sua terra; trovoe li figliuoli
+          ricchi. Adomandoe a' suoi figliuoli che 'l rimettessero in sulle possessioni sì come padre
+          e signore. I figliuoli negaro, dicendo così:</p>
+        <p>«Padre, noi il ci avemo guadagnato: non ci hai che fare!»:</p>
+        <p>sì che ne nacque piato, onde la legge volle che 'l padre fosse al postutto signore di ciò
+          che aveano guadagnato i figliuoli.</p>
+        <p>E così andomando io al Comune di Bologna che le possessioni de' miei figliuoli siano a
+          mia signoria: cioè de' miei scolari, li quali sono grandi maestri divenuti, et hanno molto
+          guadagnato poi ch'io mi parti' da·lloro. Piaccia al Comune di Bologna, poi ch'io sono
+          tornato, ch'io sia signore e padre, sì come comanda la legge che parla del padre della
+          famiglia».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LI</head>
+        <argument>
+          <p>‘Qui conta d'una Guasca come si richiamò allo re di Cipri’</p>
+        </argument>
+        <p>Era una Guasca in Cipri; un dì le fu fatta una grande onta, tale che non la potea
+          sofferire. Mossesi et andonne al re di Cipri e disse:</p>
+        <p>«Messer, a voi sono già fatti diecimilia disinori, et a me n'è fatto pur uno: priegovi
+          che voi, che n'avete tanti sofferti, m'insegniate sofferire il mio uno».</p>
+        <p>Lo re si vergognò molto e cominciò a vendicare li suoi e a non volere più sofferire.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LII</head>
+        <argument>
+          <p>‘D'una campana che s'ordinò al tempo del re Giovanni’</p>
+        </argument>
+        <p>Al tempo del re Giovanni d'Acri fue in Acri ordinata una campana che, chiunque ricevea un
+          gran torto, sì l'andava a sonare. Il re ragunava i savi a ciò ordinati, acciò che ragione
+          fosse fatta.</p>
+        <p>Avenne, ché·lla campana era molto tempo durata, che la fune per la piova era venuta meno:
+          sicché una vitalba v'era legata.</p>
+        <p>Or avenne che uno cavaliere d'Acri avea uno suo nobile destriere lo quale era invecchiato
+          sì, che sua bontà era tutta venuta meno: sicché il cavaliere, per non darli mangiare, il
+          lasciava andar per la terra. Lo cavallo, per la fame andando, trovò quella vitalba ch'era
+          posta per fune; agiunse con la bocca aquella vitalba per rodegarla. Tirando, la campana
+          sonò. Li giudici si adunaro e videro la petizione del cavallo, che parea che domandasse
+          ragione. Giudicaro che 'l cavaliere, cui elli avea servito da giovane, il pascesse da
+          vecchio. Il re il costrinse e comandò, sotto gran pena.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LIII</head>
+        <argument>
+          <p>‘Qui conta d'una grazia che lo 'mperadore fece a un suo barone’</p>
+        </argument>
+        <p>Lo 'mperadore donò una grazia a un suo barone: che qualunque uomo passasse per sua terra,
+          che·lli togliesse d'ogni magagna evidente uno danaio di passaggio. Il barone mise alla
+          porta un suo passaggere a ricogliere il passaggio. Un giorno avenne che uno ch'avea pure
+          uno piede venne alla porta.</p>
+        <p>Il pedaggere li domandò un danaio; quelli si contese, azzuffandosi con lui. Il pedaggere
+          il prese; que' difendendosi trasse fuori un suo moncolino, c'avea meno l'una mano. Allora
+          il pedaggere il vide; disse:</p>
+        <p>«Tu me ne darai due: l'uno per la mano e l'altro per lo piede».</p>
+        <p>Allora furono alla zuffa: il capello li andò di capo: quelli avea meno l'uno occhio.
+          Disse il pedaggere:</p>
+        <p>«Tu mi ne darai tre».</p>
+        <p>Pigliarsi a' capelli: lo passagger li puose mano in capo: quelli era tignoso. Disse lo
+          passagier:</p>
+        <p>«Tu mi ne darai or quattro»; e convenne, quegli che sanza lite potea passare per uno,
+          pagasse quattro.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LIV</head>
+        <argument>
+          <p>‘Qui conta come il piovano Porcellino fu accusato’</p>
+        </argument>
+        <p>Uno piovano, il quale avea nome il piovano Porcellino, al tempo del vescovo Mangiadore fu
+          acusato dinanzi dal vescovo ch'elli guidava male la pieve per cagione di femine. Il
+          vescovo, facendo sopra lui inquisizione, trovollo molto colpevole; e, stando in vescovado
+          attendendo d'essere l'altro dì disposto, la famiglia, volendoli bene, l'insegnaro campare:
+          nascoserlo la notte sotto il letto del vescovo.</p>
+        <p>E in quella notte il vescovo v'avea fatto venire una sua amica; et essendo entro il
+          letto, volendola toccare, l'amica non si lasciava, dicendo:</p>
+        <p>«Molte impromesse m'avete fatte, e non me ne attenete neente».</p>
+        <p>Il vescovo rispose:</p>
+        <p>«Vita mia, io lo ti prometto e giuro».</p>
+        <p>«Non» disse quella: «io voglio li danari in mano»; e 'l vescovo, levandosi del letto,
+          andava pe' danari, per donarli all'amica.</p>
+        <p>Il piovano uscì di sotto il letto e disse:</p>
+        <p>«Messere, a cotesto colgono ell'e me. Or chi potrebbe fare altro?»</p>
+        <p>Il vescovo si vergognò e perdonogli, ma molte minacce li fece dinanzi alli altri
+        cherici.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LV</head>
+        <argument>
+          <p>‘Qui conta una novella d'uno uomo di corte ch'avea nome Marco’</p>
+        </argument>
+        <p>Marco Lombardo, uomo di corto savissimo più che niuno di suo mistiere fosse mai, fu un dì
+          domandato da un povero orrevole uomo e leggiadro, il quale prendea danari in sagreto da
+          buona gente, ma non prendea robe. Era a guisa di morditore, et avea nome Pagolino; fece a
+          Marco una così fatta questione, credendo che Marco non vi potesse rispondere:</p>
+        <p>«Marco» disse elli, «tu se' lo più savio uomo di tutta Italia, e se' povero e disdegni lo
+          chiedere. Perché non ti provedestu sì che tu fossi sì ricco, che non ti bisognasse
+          disdegnare di chiedere?»</p>
+        <p>E Marco si volse d'intorno e poi parlò e disse così:</p>
+        <p>«Altri non vede ora noi e non ci ode. Or tu com'hai fatto?»</p>
+        <p>E 'l morditore rispuose:</p>
+        <p>«Ho fatto sì, ch'io sono povero».</p>
+        <p>E Marco disse:</p>
+        <p>«Tiello credenza tu a me, et io a te».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LVI</head>
+        <argument>
+          <p>‘Qui conta come uno della Marca andò a studiare a Bologna’</p>
+        </argument>
+        <p>Uno della Marca andoe a studiare a Bologna. Vennerli meno le spese. Piangea. Un altro il
+          vide e seppe perché piangea. Disseli così:</p>
+        <p>«Io ti fornirò lo studio, e tu mi prometterai che tu mi dara' mille livre al primo piato
+          che tue vincerai».</p>
+        <p>Lo scolaio studiò e tornò in sua terra. Quelli li tenne dietro per lo prezzo.</p>
+        <p>Lo scolaio, per paura di dare il prezzo, si stava e non avogadava, e così avea perduto
+          l'uno e l'altro: l'uno il senno e l'altro i danari.</p>
+        <p>Or che pensò quelli de' danari? Richiamossi di lui e dielli un libello de duemilia livre,
+          e disseli così:</p>
+        <p>«O vuogli perdere o vuogli vincere. Istue vinci, tu mi pagherai la promessione; e stu
+          perdi, tu m'adimpierai il libello».</p>
+        <p>Allora lo scolaio il pagò e non volle piatire con lui.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LVII</head>
+        <argument>
+          <p>‘Qui conta di madonna Agnesina di Bologna’</p>
+        </argument>
+        <p>Madonna Agnesina da Bologna, istando un giorno in una corte da sollazzo (et era donna
+          dell'altre, intra le quali aveva una sposa novella, alla quale voleano fare dire com'ella
+          fece la prima notte), cominciossi monna Agnesina alle più sfacciate, e domandò prima loro.
+          L'una dicea:</p>
+        <p>«Io il presi ad ambo mani»; e l'altra dicea in altro sfacciato modo.</p>
+        <p>Domandò la sposa novella.</p>
+        <p>«E tu come facesti?»</p>
+        <p>E quella disse molto vergognosamente, cogli occhi chinati:</p>
+        <p>«Io il presi pur colle due dita».</p>
+        <p>Allora monna Agnesina rispuose e disse:</p>
+        <p>«Deh, cagiù ti foss'ello!»</p>
+      </div1>
+      <div1 type="novella">
+        <head>LVIII</head>
+        <argument>
+          <p>‘Qui conta di messer Beriuolo cavaliere di corte’</p>
+        </argument>
+        <p>Uno cavaliere di corte, ch'ebbe nome messere Beriuolo, era in Genova. Venne a rampogne
+          con uno donzello. Quello donzello li fece la fica quasi infino all'occhio, dicendoli
+          villania.</p>
+        <p>Messere Branca Doria il vidde: seppeli reo; venne aquello cavaliere di corte e
+          confortollo che rispondesse e facesse la fica a colui che la facea lui.</p>
+        <p>«Maidio» disse quello «non farò io: ch'io non li farei una delle mie per cento delle
+          sue».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LIX</head>
+        <argument>
+          <p>‘Qui conta d'uno gran gentile uomo che lo 'mperadore fece impendere’</p>
+        </argument>
+        <p>Federigo imperadore fece impendere uno giorno un uomo di gran lignaggio per certo
+          misfatto; e, per fare più rilucere la giustizia, sì 'l facea guardare ad un gran cavaliere
+          con comandamento grande di gran pena che no·llo lasciasse spiccare, sì che, non guardando
+          bene questo cavaliere, lo 'mpiccato fu portato via; sì che, quando quelli se n'avide, sì
+          se consigliò per sé medesimo, per paura di perdere la testa. Et istando così pensoso, in
+          quella notte si mosse ad andare ad una badia ch'era ivi presso, per sapere se potesse
+          trovare alcuno corpo novellamente morto e potesselo trarre del sepolcro e metterlo alle
+          forche in colui scambio.</p>
+        <p>Giunto alla badia la notte medexima, sì vi trovò una donna in pianto, scapigliata e
+          scinta, forte lamentando, la quale era molto sconsolata e piangea uno suo caro marito lo
+          quale era morto lo giorno. Allora il cavaliere dolcemente le parlò e disse:</p>
+        <p>«Madonna, che modo è questo? E perché 'l fate?»</p>
+        <p>La donna li rispuose:</p>
+        <p>«Per ciò ch'io tanto l'amava, ch'io mai non voglio essere più consolata, ma in pianto
+          voglio finire li miei dì».</p>
+        <p>Allora il cavaliere le disse:</p>
+        <p>«Madonna, che savere è questo? Volete voi morire qui di dolore, che per pianto né per
+          lagrime non si può recare a vita il corpo morto? Onde, che mattezza è quella che voi fate?
+          Ma fate così: prendete me a marito, che non ho donna, e campatemi la persona: però ch'io
+          ne sono in periglio, e non so là dov'io mi nasconda: ché io per comandamento del mio
+          signore guardava un cavaliere impenduto per la gola; li uomini di suo lignaggio il m'hanno
+          tolto; insegnatemi campare, ché potete, et io sarò vostro marito, e terrovi
+          onorevolmente».</p>
+        <p>Allora la donna, udendo questo, innamorò di questo cavaliere e disse:</p>
+        <p>«Io farò ciò che voi mi comanderete, tant'è l'amore ch'io vi porto. Prendiamo questo mio
+          marito, e traiallo fuori della sepultura et impicchiallo in luogo di quello che v'è
+          tolto»;</p>
+        <p>e lasciò suo pianto, et atò trarre il marito del sepulcro, et atollo impendere per la
+          gola così morto.</p>
+        <p>E 'l cavaliere disse:</p>
+        <p>«Madonna, elli avea meno un dente della bocca: ond'i' ho paura, s'alcuno ci rivenisse per
+          rivederlo, ch'io non ne ricevesse grande disnore, et ancora la morte».</p>
+        <p>Quella, udendo questo, sì li ruppe un dente dinanzi; e, s'altro vi fosse bisognato a quel
+          fatto, sì l'avrebbe fatto.</p>
+        <p>Allora il cavaliere, veggendo quello che la donna ne avea fatto di suo marito, disse:</p>
+        <p>«Madonna, sì come poco v'è caluto di costui, che mostravate di tanto amarlo, così vi
+          carebbe vie meno di me».</p>
+        <p>Allora si partì da·llei, et andossi per li fatti suoi; et ella rimase co·lla
+        vergogna.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LX</head>
+        <argument>
+          <p>‘Qui conta come Carlo Magno amò per amore’</p>
+        </argument>
+        <p>Carlo, nobile re di Cicilia e di Gerusalem, quando era conte d'Angiò sì amò per amore la
+          bella contessa di Ceti, la quale amava medesimamente il conte d'Universa.</p>
+        <p>In quel tempo, il re di Francia avea difeso sotto pena del cuore e dell'avere che neuno
+          atorneasse. Il conte d'Angiò, volendo provare qual meglio valesse d'arme tra·llui e 'l
+          conte d'Universa, sì si provide, e fu con grandissime pregherie a messer Alardo di Valleri
+          e manifestolli dove elli amava e cui, e com'elli era appensato al postutto di provare in
+          campo col conte d'Universa, pregandolo per amore che accattasse parola dal re di guisa che
+          un solo torneamento fedisse con sua licenzia. Quelli domandando cagione, il conte d'Angiò
+          l'insegnò in questa guisa:</p>
+        <p>«Il re si è quasi beghino, e per la grande bontade di vostra persona elli spera di
+          prendere e di fare prendere a voi drappi di religione per avere la vostra compagnia. Onde,
+          in questa domanda, sia per voi chesto in grazia che uno solo torneamento lasci ferire, e
+          voi farete quanto che a·llui piacerà».</p>
+        <p>E messere Alardo rispuose:</p>
+        <p>«Or mi di', conte: e perderò io la compagnia de' cavalieri per uno torneamento?»</p>
+        <p>E 'l conte d'Angiò rispuose:</p>
+        <p>«Io v'imprometto lealmente ch'io ve ne deliberrò»; e sì fece elli, in tal maniera come io
+          vi conterò.</p>
+        <p>Messer Alardo se n'andò al re di Francia e disseli:</p>
+        <p>«Messere, quand'io presi arme il giorno del vostro coronamento, in quel giorno grande
+          quantitade de' migliori cavalieri del mondo portarono arme: onde io per amore di voi
+          volendo in tutto lasciare il mondo e vestirmi di drappi di religione, piaccia a voi di
+          donarmi una nobile grazia, cioè che un torniamento feggia, là ove s'armi la nobiltà de'
+          cavalieri, sì che·lle mie armi si lascino in così grande festa com'elle si presero».</p>
+        <p>Allora il re l'otroioe. Ordinossi un torniamento: dall'una parte fu il conte d'Universa e
+          dall'altra il conte d'Angioe. La reina di Francia e l'altre, contesse e dame e damigelle
+          di gran paraggio, fuoro alle logge; e la contessa di Ceti vi fue. In quel giorno portaro
+          arme li fiori de' cavalieri e da una parte e dall'altra.</p>
+        <p>Dopo molto torneare, il conte d'Angioe e 'l conte d'Universa fecero diliverare l'aringo e
+          l'uno incontra l'altro si mosse, alla forza de' poderosi destrieri, con grosse aste in
+          mano.</p>
+        <p>Or avenne che nel mezzo dell'aringo il destriere del conte d'Universa cadde con tutto lo
+          conte in un monte: onde le dame discesero delle logge e portarlone a braccia molto
+          soavemente; e la contessa di Ceti vi fue. Il conte d'Angiò si biastemava forte dicendo:</p>
+        <p>«Lasso! perché non cadde mio cavallo come quello del conte d'Universa, che la contessa mi
+          fosse tanto di presso quanto fu a·llui!»</p>
+        <p>Partito il torneamento, il conte d'Angiò fu alla reina di Francia e chiesele mercede
+          ch'ella, per amore de' nobili cavalieri di Francia, dovesse mostrare cruccio al re, e poi
+          nella pace li adomandasse un dono, e 'l dono fosse di questa maniera: che al re dovesse
+          piacere che ' giovani cavalieri di Francia non perdessero sì nobile compagnia com'era
+          quella di messere Alardo di Valleri.</p>
+        <p>La reina così fece tutto: fece cruccio col re e nella pace li adomandoe lo dono, e lo re
+          lel promise. Allora fu diliberato messer Alardo di ciò ch'avea promesso, e rimase co·lle
+          oneraveli armi colli altri prodi cavalieri del reame di Francia, torneando e facendo
+          d'arme, sì come la rinomea per lo mondo corre, sovente, di grande bontade e
+          d'oltramaravigliose prodezze.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXI</head>
+        <argument>
+          <p>‘Qui conta di Socrate filosafo come rispuose a' Greci’</p>
+        </argument>
+        <p>Socrate fue nobile filosofo di Roma; et al suo tempo mandaro i Greci grandissima e nobile
+          ambasceria a' Romani; e la forma della loro ambasciata si fu per difendere lo tributo
+          dalli Romani, che davano loro per via di ragione; e fue loro così imposto dal Soldano:</p>
+        <p>«Andrete et userete ragione; e, se vi bisogna, userete moneta».</p>
+        <p>Li ambasciadori giunsero a Roma; propuoser la forma della loro ambasciata; nel Consiglio
+          di Roma si provide, la risposta della domanda de' Greci, che si dovesse fare per Socrate
+          filosofo, sanza neuno altro tenore, riformando il Consiglio che Roma stesse a·cciò che per
+          Socrate fosse risposto.</p>
+        <p>Li ambasciadori andaro là dove Socrate abitava, molto di lungi da Roma, per opporre le
+          loro ragioni dinanzi da lui. Giunsero alla casa sua, la quale era non di gran vista;
+          trovaro lui che cogliea erbette. Avisarlo dalla lunga. L'uomo parve loro di non gran
+          parenza. Parlaro insieme. Considerante tutte le soprascritte cose, e' dissero intra loro:</p>
+        <p>«Di costui avremo noi grande mercato»: acciò che sembiava loro anzi povero che ricco.</p>
+        <p>Giunsero e salutarlo:</p>
+        <p>«Dio ti salvi, uomo di grande sapienzia: la quale non può essere piccola, poi che '
+          Romani t'hanno commessa così alta risposta!»</p>
+        <p>Mostrarli la riformagione di Roma e dissero a·llui:</p>
+        <p>«Proporremo dinanzi da te le nostre ragionevoli ragioni, le quali sono molte; e 'l senno
+          tuo provederà il nostro diritto. E sappiate che siamo a ricco signore: prenderai questi
+          perperi, i quali sono grandissima quantità (et appo 'l nostro signore è troppo piccola),
+          et a·tte può essere molto utile».</p>
+        <p>E Socrate parlò alli ambasciadori e disse:</p>
+        <p>«Voi pranzerete inanzi, e poi intenderemo alle nostre bisogne».</p>
+        <p>Tennero lo 'nvito e pranzar assai cattivamente, con non molto rilievo. Dopo 'l pranzo
+          parlò Socrate alli ambasciadori e disse:</p>
+        <p>«Segnori, quale è meglio tra una cosa o due?».</p>
+        <p>Li ambasciadori rispuosero:</p>
+        <p>«Le due».</p>
+        <p>E que' disse:</p>
+        <p>«Or andate et obedite a' Romani colle persone: ché se 'l Comune di Roma avrà le persone
+          de' Greci, bene avrà le persone e l'avere; e, s'io togliesse l'oro, i Romani perderebbero
+          la loro intenzione».</p>
+        <p>Allora i savi ambasciadori si partiro dal filosafo assai vergognosi, et ubbidiro a'
+          Romani.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXII</head>
+        <argument>
+          <p>‘Qui conta una novella di messer Ruberto’</p>
+        </argument>
+        <p>Ariminimonte si è in Borgogna; et havvi un sire che si chiama messer Ruberto; et è
+          contado grande. La contessa Antica e sue camariere sì aveano un portiere milenso, et era
+          molto grande della persona, et avea nome Baligante. L'una delle cameriere cominciò a
+          giacere co·llui, poi il manifestò a l'altra, e così andoe infino alla contessa. Sentendo
+          la contessa ch'elli era a gran misura, giacque con lui.</p>
+        <p>Il sire lo spiò; fecelo amazzare, e del cuore fe' fare una torta e presentolla alla
+          contessa; et ella e le sue camariere ne mangiarono.</p>
+        <p>Dopo il mangiare venne il sire a doneiare e domandò:</p>
+        <p>«Chente fu la torta?».</p>
+        <p>Tutte rispuosero:</p>
+        <p>«Buona».</p>
+        <p>Allora rispuose il sire:</p>
+        <p>«Ciò non è maraviglia, ché Baligante vi piacea vivo, quando v'è piaciuto alla morte».</p>
+        <p>La contessa, quand'ella intese il fatto, ella e le donne e le camariere si vergognaro e
+          videro bene ch'elle aveano perduto l'onore del mondo. Arrendérsi monache e fecero un
+          monistero che si chiama il monistero delle nonane d'Ariminimonte.</p>
+        <p>La casa crebbe assai, e divenne molto ricca; e questo si conta, in novella ch'è vera, che
+          v'è questo costume: che quando elli vi passasse alcuno gentile uomo con molti arnesi, et
+          elle il faceano invitare ad ostello e facea·lli grandissimo onore. La badessa e le suore
+          li veniano incontro in su lo donneare: «quella monaca ch'è più isguardata, quella lo serva
+          et acompagnilo a tavola et a letto». La mattina sì si levava e trovavali l'acqua e la
+          tovaglia; e, quando era lavato, et ella li aparecchiava un ago voto et un filo di seta, e
+          convenia che, s'elli si voleva affibbiare da mano, ch'elli medesimo mettesse lo filo nella
+          cruna dell'ago; e se alle tre volte ch'egli avisasse no 'l vi mettesse, sì li toglieano le
+          donne tutto suo arnese e non li rendeano neente; e se metteva il filo, alle tre, nell'ago,
+          sì li rendeano gli arnesi suoi e donavangli di belli gioelli.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXIII</head>
+        <argument>
+          <p>‘Qui conta del buono re Meliadus e del Cavaliere Sanza Paura’</p>
+        </argument>
+        <p>Il buono re Meliadus e 'l Cavaliere Sanza Paura si erano nemici mortali in campo. Andando
+          un giorno questo Cavaliere Sanza Paura a guisa d'errante cavaliere disconosciutamente,
+          trovò suoi sergenti, che molto l'amavano, ma non lo conosceano, e dissero a lui:</p>
+        <p>«Dinne, cavaliere errante, in fede di cavalleria: qual è miglior cavaliere tra 'l buon
+          Cavaliere Sanza Paura o 'l buono re Meliadus?».</p>
+        <p>E 'l cavaliere rispuose e disse:</p>
+        <p>«Se Dio mi dea buona ventura, lo re Meliadus è 'l miglior cavaliere che in sella
+          cavalchi».</p>
+        <p>Allora li sergenti, che voleano male al re Meliadus per amore di lor signore, e
+          disamavanlo mortalmente, sì sorpresero questo lor signore a tragione, sì che non si difese
+          e, così armato com'era, lo levaro da distriere e miserlo attraverso d'uno ronzino, e
+          comunemente diceano che 'l menavano a impendere.</p>
+        <p>Così tenendo lor camino, trovaro il re Meliadus ch'andava a un torneamento, altressì a
+          guisa di cavaliere errante e sue arme coverte. E' domandò questi sergenti:</p>
+        <p>«Perché menate voi a 'mpendere questo cavaliere? E chi ‘è’ elli, che cosìe lo disonorate
+          villanamente?».</p>
+        <p>Li sergenti rispuosero:</p>
+        <p>«Elli hae bene morte servita; e se voi il sapeste come ‘noi’, voi il menereste assai più
+          tosto di noi. Adomandatelo di suo misfatto!».</p>
+        <p>E 'l re Meliadus si trasse avante e disse:</p>
+        <p>«Cavaliere, che ha' tu misfatto a questi sergenti, che ti menano così laidamente?».</p>
+        <p>E 'l cavaliere rispuose:</p>
+        <p>«Niuna altra cosa hoe misfatto, se non ch'io volea mettere il vero avante».</p>
+        <p>«Come è ciò?» disse il re Meliadus. «Ciò non può essere! Contatemi pui vostro misfatto».</p>
+        <p>Et elli rispuose:</p>
+        <p>«Sire, volentieri. Io sì tenea mio cammino a guisa d'errante cavaliere. Trovai questi
+          sergenti dimandandomi in fe' di cavaleria ch'io dicesse qual era miglior cavaliere tra 'l
+          buon re Meliadus o 'l Cavaliere Sanza Paura; et io, per mettere il vero avante, dissi che
+          'l re Meliadus era migliore: e no 'l dissi più che per verità dire, ancora che 'l re
+          Meliadus sia mio mortale nemico in campo, e mortalmente il disamo. Io non volea mentire:
+          altro non ho misfatto; e però solamente mi fanno onta questi sergenti».</p>
+        <p>Allora il re Meliadus cominciò ad abattere i sergenti e fecelo disciogliere e donolli un
+          ricco cavallo co·lla transegna coperta, e pregollo che non la discoprisse insino a suo
+          ostello; e partirosi da lui.</p>
+        <p>La sera giunse lo Cavaliere Sanza Paura all'ostello; levò la coverta della sella; trovò
+          l'arme del re Meliadus, che·lli avea fatta sì bella deliberanza, e donatogli: et era suo
+          mortale nemico.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXIV</head>
+        <argument>
+          <p>‘Qui conta d'una novella che avenne in Proenza alla Corte del Po’</p>
+        </argument>
+        <p>Alla corte del Po di Nostra Dama in Proenza s'ordinoe una nobile corte quando il conte
+          Ramondo fece il figliuolo cavaliere: sì invitoe tutta la buona gente, e tanta ve ne venne
+          per amore, che le robe e l'argento fallìo, e convenne ch'e' disvestisse de' cavalieri di
+          sua terra; e donava a' cavalieri di corte. Tali rinunziaro, e tali consentiero.</p>
+        <p>In quello giorno ordinaro la festa. E poneasi uno sparviere di muda in su una asta: or
+          venia chi si sentìa sì poderoso d'avere e di coraggio, e levavasi il detto sparvier in
+          pugno; e quel cotale convenìa che fornisse la corte in quell'anno. I cavalieri e '
+          donzelli, ch'erano giulivi e gai, si faceano di belle canzoni e 'l suono e 'l motto; e
+          quattro approvatori erano stabiliti, che quelle ch'aveano valore faceano mettere in conto
+          e, l'altre, diceano a chi l'avesse fatte che le migliorasse. Or dimorarono, e diceano
+          molto bene di lor signore, et i loro figliuoli fuoro nobili cavalieri e ben costumati.</p>
+        <p>Ora avenne che uno di que' cavalieri (pognamli nome messer Alamanno), uomo di gran
+          prodezza e di grande bontade, amava una molto bella donna di Proenza, la quale avea nome
+          madonna Grigia; et amavala sì celatamente, che neuno lile potea fare palesare. Avenne che
+          ' donzelli del Po si puosero insieme d'ingannarlo e di farlone vantare. Dissero così con
+          certi baroni e cavalieri:</p>
+        <p>«Al primo torneare che si farae, vi preghiamo che voi stabiliate che la gente si vanti».</p>
+        <p>E pensaro così: «Messer cotale si è prodissimo d'arme; farae bene quel giorno del
+          torneamento e scalderassi d'allegrezza. I cavalieri si vanteranno, et elli non si potrae
+          tenere che non si vanti di sua dama».</p>
+        <p>Così ordinato, così fatto: il torneamento fue fatto; fedìo il cavaliere; ebbe il pregio
+          dell'arme; scaldossi d'allegrezza.</p>
+        <p>Nel riposare, la sera, e ' cavalieri si cominciaro a vantare, in sull'allegrezze loro,
+          chi di bella giostra, chi di bello castello, chi di bello astore, chi di ricca ventura; e
+          'l cavaliere non si poteo tenere che non si vantasse ch'amava sì bella donna.</p>
+        <p>Ora avenne ch'e' ritornò per prendere gioia di lei, sì come solea. La donna li donoe
+          commiato.</p>
+        <p>E 'l cavaliere sbigottìo tutto, e partissi da lei e dalla compagnia de' cavalieri, et
+          andonne in una foresta e rinchiusesi in uno romitaggio sì celatamente, che neuno il sapea.</p>
+        <p>Or, chi avesse veduto il cruccio de' cavalieri del Po e delle donne e delle donzelle che
+          si lamentavano sovente della perdita di così nobile cavaliere, assai n'avrebbe avuto
+          pietà.</p>
+        <p>Un giorno avenne che i donzelli del Po smarriro una caccia e capitaro a·romitaggio
+          dov'era il cavaliere rinchiuso. Domandolli se fossoro del Po, et elli dissero di sì; et
+          elli domandò di novelle, e ' donzelli li presero a contare come al Po avea laide novelle:
+          che per picciolo misfatto elli aveano perduto il fiore de' cavalieri, quello che pregio
+          avea tutto, e che sua donna li avea dato commiato, e che neuno uomo non sapea che ne fosse
+          adivenuto. Ma procianamente un torneamento era gridato, in dove sarà molta buona gente:
+          onde noi pensiamo (ch'elli hae sì gentil cuore) che, in qualunque parte elli sarae, elli
+          verrae a torneare con noi; e noi avemo guardie ordinate di gran podere e di gran
+          conoscenza, che l'arresteranno imantenente, e così speriamo di riguadagnare nostra grande
+          perdita».</p>
+        <p>Allora il romito scrisse a uno suo amico sacreto che al giorno del torneamento li
+          tramettesse arm'e cavagli secretamente, e rinvioe i donzelli.</p>
+        <p>E l'amico fornìo la sua richiesta: ché al giorno del torneamento li mandò l'arme et i
+          cavagli.</p>
+        <p>Si fue il giorno nella pressa de' cavalieri; il romito ebbe da tutte parti il pregio del
+          torneamento.</p>
+        <p>Le guardie l'ebbero veduto; avisarlo; et incontanente il levaro in palma di mano a gran
+          festa. La gente, rallegrandosi, abatterli la ventaglia dell'elmo dinanzi dal viso e
+          pregarlo per amore che cantasse; et elli rispuose:</p>
+        <p>«Io non canteroe mai s'io non ho pace da mia donna».</p>
+        <p>I nobili cavalieri si lasciarono ire alla donna e richieserle in gran pregheria che li
+          facesse perdono. La donna rispuose:</p>
+        <p>«Diteli così: ch'io non li perdonerò giamai se non mi fae gridare merzé a cento baroni et
+          a cento cavalieri et a cento donne et a cento donzelle, che tutti gridino a una boce merzé
+          e non sappiano a cui la si chiedere».</p>
+        <p>Allora il cavaliere, il quale era di grande savere, si pensò che s'aproximava la festa
+          della candellara, che si facea gran festa al Po di Nostra Dama, là ove la buona gente
+          venia al mostier. Si pensò:</p>
+        <p>«Mia dama vi sarae, e saravvi tanta della buona gente quant'ella adomanda che le chieggia
+          merzede».</p>
+        <p>Allora trovoe una molto bella canzonetta, e la mattina per tempo salìo in sue lo pergamo.
+          La gente si meraviglioe molto; e quelli cominciò questa sua canzonetta tanto soavemente
+          quanto seppe il meglio, ché molto il sapea bene fare. E la canzonetta dicea in cotal
+          maniera:</p>
+        <l>Altressì come il leofante</l>
+        <l>quando cade non si può levare</l>
+        <l>tutti li altri a lor gridare</l>
+        <l>di lor voce il levan suso,</l>
+        <l>et io voglio seguir quell'uso:</l>
+        <l>ché 'l mio misfatto è tan griev'e pesante</l>
+        <l>ch'ê·la corte del Poi n'è gran burbanza</l>
+        <l>e se 'l pregio de' leali amanti</l>
+        <l>non mi rilevan, giamai non saroe suso:</l>
+        <l>che degnasser per me chiamar merzé</l>
+        <l>là ove poggiarsi con ragion non val ren.</l>
+        <l>E s'io per li fini amanti</l>
+        <l>non posc ma gioi recobrar</l>
+        <l>per toz temps las mon chantar </l>
+        <l>que de mi mon atent plus</l>
+        <l>e viurai si con reclus,</l>
+        <l>sol, sanz solaz, car tal es mos talens</l>
+        <l>que m'invia..................................</l>
+        <l>.......... d'onor e plager...............</l>
+        <l>car ie non sui de la maniere d'ors</l>
+        <l>che qui bat non tien vil sen merzé</l>
+        <l>adonc engras e milliura oruen</l>
+        <l>Ab roth le mon sui clamtz</l>
+        <l>de mi trop parlar:</l>
+        <l>e s'ie' poghes fenis contrefar,</l>
+        <l>che non es mai c'uns,</l>
+        <l>que s'art et poi resurt sus,</l>
+        <l>ieu m'arserei, car sui tan malananz</l>
+        <l>e mis fais dig mensongier, truanz,</l>
+        <l>e sortirei con spir' e con plor</l>
+        <l>la u giovenz e bietaz e valor</l>
+        <l>es, que non deu fallir un pauc di merses</l>
+        <l>la u Dieu asis tutt'altri bon.</l>
+        <l>Mia canzon e mio lamento,</l>
+        <l>va' là dov'ieu non auso anar </l>
+        <l>né de' mie' occhi sguardar:</l>
+        <l>tanto sono forfatto e fallente,</l>
+        <l>già re no me n'escus:</l>
+        <l>né nul fu Mei–di–donna chi fu 'n dietro du' an.</l>
+        <l>Or torn'a voi doloroso e piangente</l>
+        <l>sì come 'l cerbio, c'ha fatto su' lungo cors,</l>
+        <l>torn'al morir al grido delli cacciatori:</l>
+        <l>et io così torno alla vostra mercé;</l>
+        <l>m'a voi non cal se d'amor no·u‘s’ soven.</l>
+        <p>Allora tutta la gente della chiesa gridaron mercé, e perdonolli la donna e ritornoe in
+          sua grazia, com'era di prima.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXV</head>
+        <div2 type="parte">
+          <head>A</head>
+          <argument>
+            <p>‘Qui conta della reina Ysotta e di messer Tristano di Leonis’</p>
+          </argument>
+          <p>Amando messer Tristano di Cornovaglia Ysotta la bionda, la moglie del re Marco, si
+            fecero tra loro un segnale d'amore di cotal guisa: che quando messere Tristano le volea
+            parlare, si andava ad un giardino del re Marco, nel quale avea una fontana, e
+            intorbidava il rigagnolo ch'ella facea, il quale passava per lo palazzo dove stava la
+            detta Ysotta; e quando ella vedea l'acqua torbidata, si pensava che Tristano era alla
+            fontana.</p>
+          <p>Or avenne c'uno malaventurato giardiniere se n'avide, di guisa che li due amanti neente
+            il poteano credere. Quel giardiniere andò allo re Marco, e contolli ogni cosa com'era.</p>
+          <p>Lo re Marco si diede a crederlo; sì ordinò una caccia, e partissi da' suoi cavalieri
+            siccome si smarisse da·lloro. Li cavalieri lo cercavano erranti per la foresta, e lo re
+            Marco n'andò in sul pino ch'era sopra la fontana ove messere Tristano parlava alla
+            reina.</p>
+          <p>E, dimorando la notte lo re Marco in sul pino, e messere Tristano venne alla fontana e
+            intorbidolla; e poco tardante la reina venne alla fontana, ed a ventura le venne un bel
+            pensero: che guardò il pino, e vide l'ombra più spessa che non solea. Allora la reina
+            dottò e, dottando, ristette, e parlò con Tristano in questa maniera e disse:</p>
+          <p>«Disleale cavaliere, io t'ho fatto qui venire per potermi compiagnere di tuo gran
+            misfatto: ché giamai non fu cavalier con tanta dislealtade quanta tu hai per tue parole:
+            ché m'hai unita, e lo tuo zio re Marco, che molto t'amava: ché tu se' ito parlando di me
+            intra·lli erranti cavalieri cose, che nello mio cuore non poriano mai discendere; — et
+            inanzi darei me medesima al fuoco, ch'io unisse così nobile re com'è monsignor lo re
+            Marco. Onde io ti diffido di tutta mia forza, siccome disleale cavaliere, sanza
+            niun'altro rispetto».</p>
+          <p>Tristano, udendo queste parole, dubitò forte e disse:</p>
+          <p>«Madonna, se ' malvagi cavalieri di Cornovaglia parlan di me, tutto primamente dico che
+            giamai io di queste cose non fui colpevole. Merzé, donna, per Dio: elli hanno invidia di
+            me, ch'io giamai non dissi né feci cosa che fosse disinore di voi, né del mio zio re
+            Marco. Ma, dacché vi pur piace, ubbidirò a' vostri comandamenti: andronne in altre parti
+            a finire li miei giorni. E forse, avanti ch'io mora, li malvagi cavalieri di Cornovaglia
+            avranno sofratta di me, siccome elli ebbero al tempo de l'Amoroldo, quand'io diliverai
+            loro e lor terre di vile e di laido servaggio».</p>
+          <p>Allora si dipartiro, sanza più dire; e lo re Marco, ch'era sopra loro, quando udì
+            questo, molto si rallegrò di grande allegrezza.</p>
+          <p>Quando venne la mattina, Tristano fe' sembianti di cavalcare: fe' ferrare cavalli e
+            somieri; valletti vegnono di giù e di sù: chi ponta freni e chi selle: il tremuoto era
+            grande.</p>
+          <p>Il re s'adira forte del partire di Tristano, e raunò ' baroni e ' suoi cavalieri, e
+            mandò comandando a Tristano che, sotto pena del cuore, non si partisse sanza suo
+            commiato. Tanto ordinò il re Marco, che·lla reina ordinò e mandolli a dire che non si
+            partisse: — e così rimase Tristano a quel punto, e non si partì. E non fu sorpreso né
+            ingannato per lo savio avedimento ch'ebbero intra·llor due.</p>
+        </div2>
+        <div2 type="parte">
+          <head>B</head>
+          <p>Ora venne che uno malvagio cavaliere si n'avidde e contollo a lo re Marco. Lo re diede
+            lo cuore a credere. Ordinò una caccia. Partisi dalli cavalieri, et ismarisi da loro. Li
+            cavalieri lo cercavano per la foresta. Lo re tornò: montò su·n uno pino ch'era sopra
+            quella fontana là ove messer Tristano le parlava. Essendo lo re su‘l’ pino di notte, e
+            messer Tristano venne a la fontana et intorbidò l'acqua, e riguardò al palazzo che
+            Ysotta venisse. Vidde l'ombra dello re sue lo pino; pensosi quello ch'era. Ysotta venne
+            alla finestra; Tristano li fece cenno verso lo pino; Ysotta si·nde avidde, e mesere
+            Tristano disse cosìe:</p>
+          <p>«Madonna, voi mandaste per me. Malvo‘le’ntieri ci sono venuto, per molte parole che
+            dette sono di voi e di me. Pregovi quanto posso per nostro onore che voi non mandiate
+            più per me: non perch'io rifiuti di fare cosa che onore vi sia, ma dicolo per fare
+            rimanere mentitori li malvagi, che per invidia non finano di male dire».</p>
+          <p>La reina parlò e disse:</p>
+          <p>«Malvagio cavaliere disleale, io t'hoe fatto qui venire per potermi compiagnere a te
+            medesimo dello tuo grande malfatto: ché giamai non fu cavaliere con tanta dislieltade
+            quanto tu se', che, per tuoi parole, hai unito tuo zio lo re Marco e me: ché se' ito
+            vantando tra·lli cavalieri erranti di cose, che in nel mio cuore non potréno mai
+            discendere. Onde io ti diffido di tutta mia forza, sanza alcuno altro rispetto, sì come
+            disleale cavaliere».</p>
+          <p>Allora messer Tristano disse:</p>
+          <p>«Se·lli malvagi cavalieri di Cornuaglia parlano di me in questa maniera, io vi dico che
+            giamai Tristano di ciò non fue colpevole, né mai non dissi cosa che disinore fosse di
+            mio zio né di voi. Ma, da che pure vi piace, ubidiroe lo vostro commandamento: andrò in
+            altre parte a finire ' miei giorni: forse che inanzi che io moia li malvagi cavalieri di
+            Cornuaglia aranno soffranta di me, sì come ebbero al tempo dello Amoraldo d'Irlanda,
+            quando dilivrai loro e loro terra di vile e laido servaggio».</p>
+          <p>Allora si partìo senza più dire, quasi morendo d'allegrezza.</p>
+          <p>La mattina Tristano fece sembiante di cavalcare, e fae sellare cavalli e somieri.
+            Valletti vanno di sù e di gi‘u’so, e chi aportava freni e chi selle: lo tramazzo era
+            grande.</p>
+          <p>Allo re non piacea suo dipartimento, credendo che non fosse di Tristano e d'Ysotta
+            quello che detto era. Ragunò li baroni, e mandò comandando a Tristano che non si
+            partisse, a·ppena del cuore, sanza suo comandamento.</p>
+          <p>Tristano rimase: lo re ordinò tanto, che la reina mandoe a dire a Tristano che non si
+            partisse; e così rimase Tristano, che non fue sopreso né inganato, per lo savio
+            avedimento ch'ebbeno tra loro due.</p>
+        </div2>
+      </div1>
+      <div1 type="novella">
+        <head>LXVI</head>
+        <argument>
+          <p>‘Qui parla d'uno filosafo lo quale era chiamato Diogene’</p>
+        </argument>
+        <p>Fue uno filosafo molto savio, lo quale avea nome Diogene. Questo filosafo si era un
+          giorno bagnato in una troscia d'acqua, e stavasi in una grotta al sole asciugare.
+          Alessandro di Macedonia passava con grande cavaleria; vide questo filosafo; parlò e disse:</p>
+        <p>«O divino di misera vita, chiedimi e darotti ciò che tu vorrai».</p>
+        <p>E 'l filosafo rispuose:</p>
+        <p>«Priegoti che mi ti lievi dal sole».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXVII</head>
+        <argument>
+          <p>‘Qui conta di Papirio, come il padre lo menò al Consiglio’</p>
+        </argument>
+        <p>Papirio fu romano, uomo potentissimo e savio e dilettissimo molto in battaglia; e
+          credeansi i Romani difendersi da Alexandro confidandosi nella bontade di questo Papirio.</p>
+        <p>Quando Papirio era fanciullo, il padre lo menava seco al Consiglio. Un giorno il
+          Consiglio si comandò credenza, e la sua madre lo stimulava molto, ché voleva sapere di che
+          i Romani aveano tenuto consiglio. Papirio, veggendo la volontà della madre, si pensò una
+          bella bugia e disse così:</p>
+        <p>«Li Romani tennero consiglio quale era meglio tra che li uomini avessero due mogli o le
+          femine due mariti acciò che la gente multiplicasse, perché terre si rubellavano da Roma:
+          onde il Consiglio stabilìo che meglio si potea sostenere e più convenevile era che l'uomo
+          abbia due moglie».</p>
+        <p>La madre, che·lli avea promesso di tenere credenza, il manifestò a un'altra donna: così
+          andoe d'una in altra, che tutta Roma il sentì.</p>
+        <p>Ragunarsi le donne et andarne a' Sanatori e doleansi molto, et elli temettero di maggior
+          novità. Udendo la cagione, diedero cortesemente loro commiato, e commendaro Papirio di
+          grande savere per innanzi.</p>
+        <p>E allora il Comune di Roma stabilìo che niuno padre dovesse menare suo figliuolo a
+          consiglio.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXVIII</head>
+        <argument>
+          <p>‘D'una quistione che fece un giovane ad Aristotile’</p>
+        </argument>
+        <p>Aristotile fue grande filosofo. Un giorno venne a·llui un giovane con una nuova domanda,
+          dicendo così:</p>
+        <p>«Eh, maestro: i' ho veduto cosa che molto mi dispiace all'animo mio: ch'io vidi un
+          vecchio di grandissimo tempo fare laide mattezze: onde, se la vecchiezza n'ha colpa, io
+          m'accordo di voler morire giovane anziché invecchiare e matteggiare. Onde per Dio,
+          maestro, metteteci consiglio, se essere può».</p>
+        <p>Aristotile rispuose:</p>
+        <p>«Io non posso consigliare che, invecchiando, la natura non muti in debolezza: il buono
+          calore naturale se verrae meno, la virtù ragionevole è manca. Ma per la tua bella
+          provedenza io t'aprenderò com'io potrò. Farai così: che, nella tua giovenezza, che tu
+          usarai tutte le belle et oneste cose e le piacevoli, e dal lor contrario ti guarderai al
+          postutto. Quando serai vecchio, non per natura né per ragione viverai con nettezza, ma per
+          la tua bella, piacevole e lunga usanza ch'avrai fatta».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXIX</head>
+        <argument>
+          <p>‘Qui conta della gran giustizia di Traiano imperadore’</p>
+        </argument>
+        <p>Lo 'mperadore Traiano fue molto giustissimo signore. Andando un giorno con la sua grande
+          cavalleria contra ' suoi nemici, una femina vedova li si fece dinanzi e preselo per la
+          staffa e disse:</p>
+        <p>«Messere, fammi diritto di quelli c'a torto m'hanno morto lo mio figliuolo».</p>
+        <p>E lo 'mperadore rispuose e disse:</p>
+        <p>«Io ti sodisfarò quand'io tornarò».</p>
+        <p>Et ella disse:</p>
+        <p>«Se tu non torni?».</p>
+        <p>Et elli rispuose:</p>
+        <p>«Sodisfaratti lo mio successore».</p>
+        <p>Et ella disse:</p>
+        <p>«E se 'l tuo successore mi vien meno? Tu mi·n se' debitore. E pognamo che pure mi
+          sodisfacesse: l'altrui giustizia non liberrà la tua colpa: bene averrae al tuo successore,
+          s'elli liberrae sé medesimo».</p>
+        <p>Allora lo 'mperadore smontò da cavallo e fece giustizia di coloro ch'aveano morto il
+          figliuolo di colei, e poi cavalcò e sconfisse i suoi nemici.</p>
+        <p>E dopo non molto tempo della sua morte venne il beato san Gregorio papa e, trovando la
+          sua giustizia, andò alla statua sua e con lagrime l'onorò di gran lode e fecelo
+          diseppellire: trovaro che tutto era tornato alla terra, salvo che l'ossa e la lingua; — e
+          ciò dimostrava com'era suto giustissimo uomo e giustamente avea parlato.</p>
+        <p>E santo Grigoro orò per lui a Dio, e dicesi, per evidente miracolo, che per li preghi di
+          questo santo papa l'anima di questo imperadore fu liberata dalle pene dell'inferno et
+          andonne in vita eterna: et era stato pagano.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXX</head>
+        <argument>
+          <p>‘Qui conta d'Ercules come n'andò alla foresta’</p>
+        </argument>
+        <p>Ercules fu uomo fortissimo oltre li altri uomini; et avea una sua moglie, la quale li
+          dava molta travaglia.</p>
+        <p>Partisi un dì di subito, et andonne per una gran foresta, e trovava orsi e leoni et assai
+          fiere pessime: tutte le squarciava et uccidea con la sua forza; e non trovò niuna bestia
+          sì forte, che da lui si difendesse.</p>
+        <p>E' stette in questa foresta gran tempo; poi tornò a casa alla moglie co' panni tutti
+          squarciati, con pelli di leoni a dosso. La moglie li si fece incontro con gran festa e
+          cominciò a dire:</p>
+        <p>«Ben vegnate, il signor mio: che novelle?».</p>
+        <p>Et Ercules rispuose:</p>
+        <p>«Io vegno dalla foresta, e tutte le fiere ho trovate più umili di te: ché tutte quelle
+          ch'i' ho trovate ho soggiogate, salvo che te: anzi, tu hai soggiogato me. Dunque se' tu la
+          più forte cosa che io mai trovasse: ché hai vinto colui che tutte l'altre cose ha
+        vinto».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXI</head>
+        <argument>
+          <p>‘Qui conta come Seneca consolò una donna a cui era morto uno suo figliuolo’</p>
+        </argument>
+        <p>Volendo Seneca consolare una donna a cui era morto un suo figliuolo, sì come si legge in
+          libro «Di Consolazione», disse cotali parole:</p>
+        <p>«Se tu fossi femina sì come l'altre, io non ti parlerei co m'io farò; ma però che tu·sse'
+          femina et hai intelletto d'uomo, sì ti dirò così. Due donne furo in Roma: a ciascuna morì
+          il figliuolo: l'uno era d'i cari figliuoli del mondo, e l'altro era vie più caro. L'una si
+          diede a ricevere consolazione, e piacquele essere consolata; e l'altra si mise in uno
+          canto della casa, e rifiutò ogni consolazione, e diessi tutta in pianto. Quale di queste
+          due è il meglio? Se tu dirai quella che voll'essere consolata, dirai il vero. Dunque,
+          perché piangi? Se mi di': «Piango il figliuolo mio perché la sua bontà mi facea onore»,
+          dico che non piangi lui ma piangi lo tuo danno e, piangendo lo tuo danno, piangi te
+          medesima: et assai è laida cosa piangere altri se stesso. E se tu vuoli dire: «Il cuor mio
+          piange perché tanto l'amava», non è vero che meno l'ami tu morto che quando era vivo. E se
+          per amore fosse tuo pianto: perché nol piangevi tu quand'era vivo, sappiendo che dovea
+          morire? Onde non ti scusare: to'·ti dal pianto! Se 'l tuo figliuolo è morto, altro non può
+          essere. Morto è secondo natura, dunque per convenevole modo: lo quale è di necessitade a
+          tutti».</p>
+        <p>E così consoloe colei.</p>
+        <p>Ancora si legge di Seneca ch'essendo maestro di Nerone sì·llo batteo quand'era giovane,
+          come suo scolaio; e, quando Nerone fu fatto imperadore, ricordossi di Seneca, delle
+          battiture che·lli avea date: sì·llo fece pigliare e giudicollo a morte. Ma cotanto li fece
+          di grazia, che li disse:</p>
+        <p>«Aleggiti di che morte vogli morire»; e Seneca chiese di farsi aprire tutte le vene in un
+          bagno caldo.</p>
+        <p>E la moglie sì 'l piangea e dicea:</p>
+        <p>«Deh, signor mio, che doglia m'è che tu muori sanza colpa!».</p>
+        <p>E Seneca rispuose:</p>
+        <p>«Meglio m'è ch'io moia sanza colpa che con colpa: così sarebbe dunque scusato colui che
+          m'uccide a torto».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXII</head>
+        <argument>
+          <p>‘Qui conta come Cato si lamentava contra alla Ventura’</p>
+        </argument>
+        <p>Cato filosofo, uomo grandissimo di Roma, stando in pregione e in povertade, parlava con
+          la Ventura e doleasi molto e dicea:</p>
+        <p>«Perché m'hai tanto tolto?».</p>
+        <p>E poi si rispondea in luogo della Ventura e dicea così:</p>
+        <p>«Figliuolo mio, quanto dilicatamente t'hoe allevato e nodrito! E tutto ciò che m'hai
+          chesto t'ho dato: la signoria di Roma t'ho data; signore t'ho fatto di molte dilizie, di
+          gran palazzi, di molto oro, gran cavalli, molti arnesi. O figliuolo mio, perché ti
+          ramarichi tue perch'io mi parta da te?».</p>
+        <p>E Cato rispondea:</p>
+        <p>«Sì ramarico».</p>
+        <p>E la Ventura parlava:</p>
+        <p>«Figliuolo mio, tu se' molto savio: or non pensi tu ch'i' ho figliuoli piccolini, li
+          quali mi conviene nodricare? Vo' tu che io li abandoni? Non sarebbe ragione! Oi, quanti
+          piccioli figliuoli ho a notricare! Figliuol mio, non posso star più teco. Non ti
+          ramaricare, ch'io non t'ho tolto neente: ché ciò che tu hai perduto non era tuo: però che
+          ciò che si può perdere non è propio, e ciò che non è propio non è tuo».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXIII</head>
+        <argument>
+          <p>‘Come il Soldano, avendo mestiere di moneta, volle cogliere cagione a un giudeo’</p>
+        </argument>
+        <p>Il Soldano, avendo mestiere di moneta, fo consigliato che cogliesse cagione ad uno ricco
+          giudeo ch'era in sua terra, e poi gli togliesse il mobile suo, ch'era grande oltra numero.
+          Il Soldano mandò per questo giudeo e domandollo qual fosse la migliore fede, pensando:</p>
+        <p>«S'elli dirà la giudea, io dirò ch'elli pecca contra la mia; e se dirà la saracina, et io
+          dirò: «Dunque, perché tieni la giudea?».</p>
+        <p>E'l Giudeo, udendo la domanda del signore, rispuose così:</p>
+        <p>«Messere, elli fu un padre ch'avea tre figliuoli et avea un suo anello con una pietra
+          preziosa, la migliore del mondo. Questi figliuoli, ciascuno pregava il padre ch'alla sua
+          fine li lasciasse questo anello; e il padre, vedendo che catuno il volea, mandò per un
+          fino orafo e disse:</p>
+        <p>»Maestro, fammi due anella così a punto come questo, e metti in ciascuno una pietra che
+          asomigli aquesta«.</p>
+        <p>Lo maestro fece l'anella così a punto, che niuno conoscea il fine, altro che 'l padre.
+          Mandò per li figliuoli ad uno ad uno, et a catuno diede il suo in secreto, e catuno si
+          credette avere il fine: e niuno ne sapea il vero, altri che 'l padre loro. E così è delle
+          fedi, messere: le fedi sono tre: il Padre che·lle diede sa la migliore, e li figliuoli
+          (ciò siamo noi), ciascuno la si crede avere buona».</p>
+        <p>Allora il Soldano, udendo costui così riscuotersi, non seppe che si dire di coglierli
+          cagioni: sì lo lasciò andare.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXIV</head>
+        <argument>
+          <p>‘Qui conta una novella d'uno segnore c'avea un fedele’</p>
+        </argument>
+        <p>Uno fedele d'uno signore, che tenea sua terra, essendo a una stagione i fichi novelli, il
+          signore, passando per la contrada, vidde in su la cima d'un fico un bello fico maturo.</p>
+        <p>Fecelsi cogliere. Il fedele si pensò:</p>
+        <p>«Da che li piacciono, io li guarderò per lui».</p>
+        <p>Sì·ssi pensò d'imprunarlo e di guardarli. Quando furono maturi, sì gliene portoe una
+          soma, credendo venire in sua grazia. Ma, quando li recò, la stagione era passata, che
+          n'erano tanti, che quasi si davano a' porci.</p>
+        <p>Il segnore, vedendo questi fichi, sì·ssi tenne bene scornato, e comandò a' fanti suoi che
+          'l legassero e togliessero que' fichi e tutti li gittassero a uno a uno entro il volto.</p>
+        <p>E quando il fico li venia presso all'occhio, e quelli gridava:</p>
+        <p>«Domine, te lodo».</p>
+        <p>I fanti, per la nuova cosa, l'andaro a dire al signore, et egli il domandoe e disse:</p>
+        <p>«Perché di' tu così quando il fico ci viene presso a l'occhio?».</p>
+        <p>E quelli rispose:</p>
+        <p>«Messere, perch'io fui incorato di recare pesche: che s'io l'avesse recate, io sarei ora
+          cieco».</p>
+        <p>Allora il signore incominciò a ridere e fecelo sciogliere, e vestire di nuovo, e donolli,
+          per la nuova cosa ch'avea detta.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXV</head>
+        <argument>
+          <p>‘Qui conta come Domenedio s'acompagnò con uno giullare’</p>
+        </argument>
+        <p>Domenedio s'acompagnò una volta con un giullare. Or venne un die che' si bandìe una corte
+          di nozze, e' bandìsi uno ricco uomo ch'era morto. Disse il giullare:</p>
+        <p>«Io andrò alle nozze, e tu al morto».</p>
+        <p>Domenedio andò al morto e suscitollo, e guadagnò cento bisanti; il giullare andò alle
+          nozze e satollossi. Redìo a casa, e trovò il compagno suo c'avea guadagnato. Feceli onore.</p>
+        <p>Quelli era digiuno; il giullare si fe' dare danari e comperò un grasso cavretto et
+          arostillo, et arostendolo sì ne trasse li ernioni e mangiolli.</p>
+        <p>Quando il compagno l'ebbe innanzi, domandoe delli ernioni. Il giullare rispuose:</p>
+        <p>«E' non hanno ernioni, quelli di questo paese».</p>
+        <p>Or venne un'altra volta che anche si bandìo uno paio di nozze e un altro ricco uomo
+          ch'era morto. E Iddio disse:</p>
+        <p>«Io voglio ora andare alle nozze, e tu vae al morto, et io t'insegnarò come tu il
+          risusciterai: segnera'lo e comandera'li che si levi, ed elli si leverà; ma fatti fare
+          l'impromessione dinanzi».</p>
+        <p>Disse il giullare:</p>
+        <p>«Be·llo farò».</p>
+        <p>Andò, e promise di suscitarlo. E' non si levò per suo segnare.</p>
+        <p>Il morto era figliuolo di gran signore; il padre s'adiroe veggendo che questi facea
+          beffe; mandollo ad impendere per la gola.</p>
+        <p>Domenedio li si parò dinanzi e disse:</p>
+        <p>«Non temere, ch'io lo risusciterò. Ma dimmi in tua fe': chi mangiò li ernioni del
+          cavretto?».</p>
+        <p>Il giullare rispuose:</p>
+        <p>«Per quel santo secolo dov'io debbo andare, compagno mio, ch'io non li mangiai!».</p>
+        <p>Domenedio, veggendo che non lile potea fare dire, increbbeli di lui. Andò e suscitò il
+          morto; e questi fu delibero, ed ebbe la promessione che·lli era fatta. Tornaro a casa.
+          Disse Domenedio:</p>
+        <p>«Compagno mio, io mi voglio partire da te, perché io non t'ho trovato leale com'io
+          credeva».</p>
+        <p>Quelli, vedendo ch'altro non poteva essere, disse:</p>
+        <p>«Piacemi. Dividete, et io piglierò».</p>
+        <p>Domenedio fece tre parti d'i danari. Il giullare disse:</p>
+        <p>«Che fai? Noi non semo se non due».</p>
+        <p>Disse Domenedio:</p>
+        <p>«Ben è vero; ma quest'una parte sia di colui che mangiò li ernioni e, l'altre due, sia
+          l'una tua e l'altra mia».</p>
+        <p>Allora disse il giullare:</p>
+        <p>«Per mia fede, da che tu di' così, ben ti dico che io li mangiai io: ché io sono di tanto
+          tempo, ch'io non debbo ormai dir bugia».</p>
+        <p>E così si pruovano tali cose per danari, le quali dice l'uomo che non le direbbe per
+          iscampare da morte a vita.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXVI</head>
+        <argument>
+          <p>‘Qui conta della grande uccisione che fece il re Ricciardo’</p>
+        </argument>
+        <p>Il buono re Ricciardo d'Inghilterra passò una volta oltre mare con baroni, conti e
+          cavalieri prodi e valenti; e passaro in nave, sanza cavalli; et arrivoe nelle terre del
+          Soldano. E così a piè ordinò sua battaglia: e fece d'i Saracini sì grande uccisione, che
+          le balie de' fanciulli dicono, quand'elli piangono: «Ecco il re Ricciardo», acciò che come
+          la morte fu temuto.</p>
+        <p>Dice che Saladino, veggendo fuggire la gente sua, domandò:</p>
+        <p>«Quanti cavalieri sono quelli che fanno questa uccisione?».</p>
+        <p>Fugli risposto:</p>
+        <p>«Messere, è solamente il re Ricciardo con sua gente, e sono tutti a piede».</p>
+        <p>Allora rispuose il Soldano e disse:</p>
+        <p>«Non voglia il mio Iddio che così valentre uomo sia a piede, come il re Ricciardo
+          d'Inghilterra».</p>
+        <p>Sì prese uno nobile distriere e disse ‘a uno messaggio: «Me’naglile».</p>
+        <p>Il messaggio il menò e disse:</p>
+        <p>«Messere, il Soldano vi manda questo acciò che voi non siate a piede».</p>
+        <p>Lo re fu savio: fecevi montare sù uno suo scudiere acciò che 'l provasse. Il fante così
+          fece. Il cavallo era nodrito: il fante non potendolo tenere neente, sì·ssi adirizzò verso
+          il padiglione del Soldano a sua gran forza. Il Soldano aspettava il re Ricciardo, ma non
+          li venne fatto.</p>
+        <p>E così nelli amichevoli modi de' nemici non si dee l'uomo fidare.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXVII</head>
+        <argument>
+          <p>‘Qui conta di messere Rinieri da Montenero’</p>
+        </argument>
+        <p>Messere Rinieri da Montenero, cavaliere di corte, sì passò in Sardigna, e stette col
+          donno d'Alborea; et innamorovvi d'una sarda ch'era molto bella. Giacque con lei. Il marito
+          li trovò. Non li offese, ma andossene dinanzi al donno e lamentossi forte.</p>
+        <p>Il signore amava questo sardo; mandò per messere Rinieri; disseli molte parole di gran
+          minacce. E messere Rinieri, scusandosi, disse che mandasse per la donna e domandassela se
+          ciò che fece fu altro che per amore.</p>
+        <p>Le gabbe non piacquero al signore: comandolli ch'elli sgombrasse il paese sotto pena
+          della persona. Non avendolo ancora meritato di suo stallo, messere Rinieri disse:</p>
+        <p>«Messere, piacciavi di mandare in Pisa al siniscalco vostro che mi proveggia».</p>
+        <p>Il donno disse:</p>
+        <p>«Cotesto farò io bene»: feceli una lettera e dieglile.</p>
+        <p>Or giunse in Pisa e fu al detto siniscalco et, essendo con la nobile gente a tavola,
+          contò il fatto com'era stato; poi die' questa lettera al siniscalco, la quale avea recata;
+          e quelli la lesse, e trovò che·lli dovesse donare un paio di calze line a staffetta, cioè
+          sanza peduli, e non altro. E, innanzi a tutti i cavalieri che v'erano, sì·lle volle.
+          Avendole, ebbevi gran risa e sollazzo. Di ciò non s'adirò punto, perciò ch'era molto
+          gentile cavaliere.</p>
+        <p>Or avenne ch'entrò in una barca con un suo cavallo e con un suo fante, e tornò in
+          Sardigna. Un giorno, andando il donno a sollazzo con altri cavalieri (e messere Rinieri
+          era grande della persona et avea le gambe lunghe et era su uno magro ronzino, et avea
+          queste calze line in gamba), il donno il conobbe e con adiroso animo il fe' venire dinanzi
+          da·ssé e disse:</p>
+        <p>«Che è ciò, messer Rinieri, che voi non siete partito di Sardigna?»</p>
+        <p>«Certo» disse messere Rinieri, «sì sono; ma io sono tornato per li scappini delle calze».</p>
+        <p>Stese le gambe, mostrò i piedi.</p>
+        <p>Allora il donno si rallegrò e rise e perdonolli, e donolli la roba ch'avea indosso e
+          disse:</p>
+        <p>«Messere Rinieri bene hai saputo più che io non ti insegnai».</p>
+        <p>E que' disse:</p>
+        <p>«Messere, elli è al vostro onore».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXVIII</head>
+        <argument>
+          <p>‘Qui conta d'uno filosofo il qual era molto cortese di volgarizzare la scienzia’</p>
+        </argument>
+        <p>Fue uno filosofo, lo quale era molto cortese di volgarizzare la scienzia a' signori, per
+          cortesia, e ad altre genti. Una notte li venne in visione che li parea vedere le dee della
+          scienzia a guisa di belle donne: e stavano al bordello e davansi a chi le volea. Et elli
+          vedendo questo si maravigliò molto e disse:</p>
+        <p>«Che è questo? Non siete voi le dee della scienzia?»</p>
+        <p>Et elle rispuosero:</p>
+        <p>«Certo sì».</p>
+        <p>«Com'è ciò? Voi siete al bordello?»</p>
+        <p>Et elle rispuosero:</p>
+        <p>«Ben è vero: perché tu se' quelli che vi ci fai stare!»</p>
+        <p>Isvegliossi, e pensossi che volgarizzare la scienzia si era menomare la deitade.
+          Ritràsesine e pentési fortemente. E sappiate che tutte le cose non sono licite a ogni
+          persona.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXIX</head>
+        <argument>
+          <p>‘Qui conta come un giulare adorava un signore’</p>
+        </argument>
+        <p>E' fue un signore ch'avea un giullare in sua corte, e questo giullare l'adorava sì come
+          un suo iddio, e chiamavalo Dio. Un altro giullare, vedendo questo, sì liene disse male, e
+          disse:</p>
+        <p>«Or cui chiami tu Iddio? Elli non n'è no ma' un».</p>
+        <p>E quelli, a baldanza del signore, sì 'l batteo villanamente; e quelli così tristo, non
+          potendosi difendere, andossene a richiamare al signore e disseli tutto il fatto. Il signor
+          se ne fece gabbo. Quelli si partì, e stava molto tristo intra ' poveri, però che non
+          ardiva di stare intra buone persone: sì l'avea quelli concio.</p>
+        <p>Or avenne che 'l signore fu di ciò molto ripreso, sì ch'elli propuose di dare commiato a
+          questo suo giullare a modo di confini. Et avea cotale uso in sua corte: che, cui elli
+          presentasse, sì·ssi intendea d'avere commiato da·llui e di partirsi fuori di sua corte. Or
+          tolse il signor molti danari d'oro, e feceli mettere in una torta; e, quand'ella li venne
+          dinanzi, sì·lla presentò a questo suo giullare e disse in fra sé:</p>
+        <p>«Da poi che li mi convien donare commiato, io voglio che sia ricco uomo».</p>
+        <p>Quando questo giullare vide la torta fu tristo. Pensossi e disse:</p>
+        <p>«I' ho mangiato: serberolla e darolla all'oste mia».</p>
+        <p>Andandone con essa all'albergo, trovò colui, cui elli avea così battuto, misero e
+          cattivo. Presegline pietade: andò inverso lui e dielli quella torta. Quelli la prese:
+          andossene con essa: ben fu ristorato di quello ch'ebbe da lui.</p>
+        <p>E tornando al signore per iscommiatarsi da lui, il signor disse:</p>
+        <p>«Or se' tu ancor qui? non avestu la torta?».</p>
+        <p>«Messer, sì ebbi».</p>
+        <p>«Or che ne facesti?»</p>
+        <p>«Messere, io avea allora mangiato: diedila a un povero giullare che mi diceva male
+          perch'io vi chiamava mio Iddio».</p>
+        <p>Allora disse il signore:</p>
+        <p>«Va' con la mala ventura: ché bene è miglior il suo Iddio che 'l tuo»:</p>
+        <p>e disseli il fatto della torta.</p>
+        <p>Questo giullare si tenne morto: non sapea che si fare. Partissi dal signore e non ebbe
+          nulla da·llui, et andò caendo colui a cui l'avea data. Non fu vero che mai lo
+        trovasse.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXX</head>
+        <argument>
+          <p>‘Qui conta una novella che disse messer Migliore delli Abati di Firenze’</p>
+        </argument>
+        <p>Messere Migliore delli Abati di Firenze siando in Cicilia al re Carlo per impetrare
+          grazia che sue case non fossero disfatte (il cavaliere era molto bene costumato, e ben
+          seppe cantare, e seppe il provenzale oltre misura bene proferere), cavalieri leggiadri di
+          Cicilia fecero per amor di lui un grande corredo; et egli vi fue.</p>
+        <p>Or venne che furono levate le tavole; menarolo a donneare; mostrarli loro gioelli e loro
+          camere e loro diletti, intra ' quali li mostrarono palle di rame stampate, nelle quali
+          ardeano aloe et ambra; e del fumo che n'uscia oloravano le camere loro. In questo parlò
+          messere Migliore e domandò:</p>
+        <p>«Questo che diletto vi rende? Ditelmi, per cortesia».</p>
+        <p>Fugli risposto:</p>
+        <p>«In quelle palle ardiamo ambra et aloe, onde le nostre donne e le camere sono odorifere».</p>
+        <p>Allora parlò messer Migliore e disse:</p>
+        <p>«Signori, male avete fatto: questo non è diletto».</p>
+        <p>Li cavalieri li fecero cerchio intorno domandando il perché; e, quand'elli li vide
+          affisati a udire, e que' disse:</p>
+        <p>«Signori, ogni cosa tratta della sua natura, ma' tutta è perduta».</p>
+        <p>E que' domandaro come; ed elli disse che il fumo dell'aloe e dell'ambra dà loro perduto
+          il buon odore naturale: ché la femina non vale neente, se di lei non viene come di luccio
+          passato.</p>
+        <p>Allora i cavalieri di ciò cominciaro a fare gran sollazzo e gran festa, del parlare di
+          messer Migliore.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXI</head>
+        <argument>
+          <p>‘Qui conta del consiglio che tennero i figliuoli del re Priamo di Troia’</p>
+        </argument>
+        <p>Quando i figliuoli del re Priamo ebbero rifatta Troia (ché l'aveano i Greci disfatta; et
+          avea‘n’ne menato — Talamone et Agamennon — la lor suora Esionam) e fecero li Troiani
+          ragunanza di loro grande amistade, e' parlaro così in tra·lli amici:</p>
+        <p>«Be' signori, i Greci n'hanno fatta grande onta: la gente nostra uccisero, la città
+          disfecero, nostra soro Ansionam ne menaro. E noi avemo rifatta la cittade e rafforzata;
+          l'amistà nostra è grande; del tesoro avemo raunato assai: onde mandiamo a loro che ci
+          facciano l'amenda e che ci rendano nostra soro Ansionam»: e questo parlò Parigi.</p>
+        <p>Allora il buono Hector, che passò in quel tempo di prodezza tutta la cavalleria del
+          mondo, a quello tempo parlò così:</p>
+        <p>«Signori, la guerra non mi piace e non la consiglio, perché li Greci sono più poderosi di
+          noi: e' sì hanno la prodezza, il tesoro, il sapere, sì che non siamo noi da poterci
+          guerreggiare a loro, per la loro gran potenzia. E questo ch'io dico no 'l dico per
+          viltade; ché, se la guerra sarae che non possa rimanere, io difenderò mia partita sì come
+          un altro cavaliere, e portarò il peso della battaglia».</p>
+        <p>E questo è contra li arditi cominciatori.</p>
+        <p>Or la guerra pur fue: Hector fue nella battaglia coi Troiani insieme: elli era prode come
+          un leone, et uccise di sua mano duomila cavalieri de' Greci. Hector uccidea li Greci e
+          sostenea i Troiani e scampavali da morte. Ma pure, alla perfine, fu morto Hector, e i
+          Troiani perdero ogni difensa, ché li arditi cominciatori vennero meno nelle loro
+          arditezze, e Troia fu anche disfatta da' Greci, e soprastettero loro.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXII</head>
+        <argument>
+          <p>‘Qui conta come la damigella di Scalot morì per amore di Lancialotto del Lac’</p>
+        </argument>
+        <p>Una figliuola d'un grande varvassore sì amò Lancialot del Lac oltre misura; ma elli non
+          le volle donare suo amore imperciò ch'elli l'avea donato alla reina Ginevra. Tanto amò
+          costei Lancialotto, ch'ella ne venne alla morte e comandò che, quando sua anima fosse
+          partita dal corpo, che fosse arredata una ricca navicella coperta d'uno vermiglio
+          sciamito, con uno ricco letto iv'entro con ricche e nobili coverture di seta, ornato di
+          ricche pietre preziose: e fosse il suo corpo messo in su questo letto, vestita di suoi
+          piue nobili vestimenti e con bella corona in capo, ricca di molto oro e di molte care
+          pietre, e con ricca cintura e borsa; e in quella borsa avea una lettera, che era dello
+          'nfrascritto tenore. Ma imprima diciamo di ciò che v'ha innanzi la lettera.</p>
+        <p>La damigella morì di mal d'amore, e fu fatto ciò ch'ella avea detto della navicella:
+          sanza vela e sanza remi e sanza neuno soprasagliente fue messa la detta nave colla donna
+          in mare. Il mare la guidò infino a Camelot. Alla riva ristette. Il grido fu per la corte.
+          I cavalieri e ' baroni dismontarono de' palazzi, e lo nobile re Artù vi venne: e
+          maravigliavasi forte ch'era sanza niuna guida. Il re entrò dentro: vide la damigella e
+          l'arnese. Fe' aprire la borsa; trovaro quella lettera; fecela leggere, e dicea così:</p>
+        <p>«A tutti i cavalieri della Tavola Ritonda manda salute questa damigella di Scalot, sì
+          come alla migliore gente del mondo.</p>
+        <p>E se voi volete sapere perch'io a mia fine sono venuta, si è per lo migliore cavaliere
+          del mondo e per lo più villano, cioè monsignore messer Lancialotto del Lac: ché già no 'l
+          seppi tanto pregare d'amore ch'elli avesse di me mercede. E così, lassa, sono morta per
+          ben amare, come voi potete vedere».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXIII</head>
+        <argument>
+          <p>‘Come andando Cristo co' discepoli suoi videro molto grande tesoro’</p>
+        </argument>
+        <p>Andando Cristo un giorno co' discepoli suoi per un foresto luogo, nel quale i discepoli
+          che veniano dietro videro lucere da una parte piastre d'oro fine (onde essi chiamarono
+          Cristo maravigliandosi perché non era ristato ad esso), sì li dissero:</p>
+        <p>«Signore, prendiamo quello oro: sì·nne consolerai di molte bisogne».</p>
+        <p>E Cristo si volse e ripreseli e disse:</p>
+        <p>«Voi adimandate quelle cose che toglie al nostro regno la più parte dell'anime che·ssi
+          perdono; e che ciò sia vero, alla tornata ne vedrete l'asempro».</p>
+        <p>E passaro oltre.</p>
+        <p>Poco stante, due cari compagni lo trovaro, onde furono molto lieti; et in concordia andò
+          l'uno alla più presso villa per menare uno mulo, e l'altro rimase a guardia. Ma udite
+          opere ree che ne seguiro poscia, de' pensieri rei che 'l nemico diè loro. Quelli tornò col
+          mulo e disse al compagno:</p>
+        <p>«Io ho mangiato alla villa, e tu dei aver fame. Mangia questi due pani così belli, e poi
+          caricheremo».</p>
+        <p>Rispuose quelli:</p>
+        <p>«Io non ho gran talento di mangiare ora; e però carichiamo prima».</p>
+        <p>Allora presero a caricare e, quando ebbero presso che caricato, quelli ch'andò per lo
+          mulo si chinò per legare la soma, e l'altro li corse di dietro a tradimento con uno
+          apuntato coltello e ucciselo. Poscia prese l'uno di que' pani e diello al mulo, e l'altro
+          mangiò elli. Il pane era atoscato: in pruova cadde morto elli e 'l mulo inanzi che
+          movessero di quel luogo, e l'oro rimase libero come di prima.</p>
+        <p>E 'l Nostro Signore passò indi co' suoi discepoli nel detto giorno, e mostrò loro
+          l'asempro che detto avea.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXIV</head>
+        <argument>
+          <p>‘Come messere Azzolino fece bandire grande pietanza’</p>
+        </argument>
+        <p>Messere Azzolino Romano fece una volta bandire nel suo distretto (et altrove ne fece
+          invitata) che volea fare una grande limosina: e però tutti i poveri bisognosi, uomini come
+          femine, et a certo die, fossero nel prato suo, et a catuno darebbe nuova gonnella e molto
+          da mangiare.</p>
+        <p>La novella si sparse. Trasservi d'ogni parte.</p>
+        <p>Quando fu il die della ragunanza, i siniscalchi suoi furo tra·lloro con le gonnelle e con
+          la vivanda, et a uno a uno li facea spogliare e scalzare tutto a ignudo, e poi li rivestia
+          di panni nuovi e davali mangiare. Quelli rivoleano i loro istracciati, ma neente valse:
+          ché tutti li mise in uno monte, e cacciovi entro fuoco. Poi vi trovò tanto oro e tanto
+          ariento, che valse più che tutta la spesa; e poi li rimandò con Dio.</p>
+        <p>Et al suo tempo li si richiamò un villano d'un suo vicino che·lli avea imbolato ciriege.
+          Comparìo l'accusato e disse:</p>
+        <p>«Mandate a sapere se ciò può essere: perciò che 'l ciriegio è finemente imprunato».</p>
+        <p>Allora messere Azzolino ne fece pruova, e l'accusatore condannò in quantità di moneta
+          però che si fidò più nelli pruni che nella sua signoria, e l'altro diliberò.</p>
+        <p>Per tema della sua tirannia, li portoe una vecchia femina di villa un sacco di bellissime
+          noci, alle quali non si ne trovavano simigliante. Et essendosi ella il meglio acconcia che
+          poteo, giunse nella sala dov'elli era co' suoi cavalieri e disse:</p>
+        <p>«Messer, Dio vi dea lunga vita».</p>
+        <p>Et elli sospecciò e disse:</p>
+        <p>«Perché dicesti così?».</p>
+        <p>Et ella rispuose:</p>
+        <p>«Perché se ciò sia, noi staremo in lungo riposo».</p>
+        <p>E quelli rise e fecele mettere un bel sottano, il quale le dava a ginocchio, e fecelavi
+          cignere su, e tutte le noci fece versare per lo smalto della sala e poi a una a una lile
+          facea ricogliere e rimettere nel sacco; e poi la meritò grandemente.</p>
+        <p>In Lombardia e nella Marca si chiamano le pentole «ole». La sua famiglia avevano un dì
+          preso un pentolaio per malleveria e, menandolo a giudice, messer Azzolino era nella sala.
+          Disse:</p>
+        <p>«Chi è costui?».</p>
+        <p>L'uno rispuose:</p>
+        <p>«Messer, è un olaro».</p>
+        <p>«Andà·lo ad impendere».</p>
+        <p>«Come, messere, che è un olaro!».</p>
+        <p>«Et io però dico che voi l'andiate ad impendere!».</p>
+        <p>«Messere, noi diciamo ch'egli è un olaro!».</p>
+        <p>«Et ancor dico io che voi l'andiate ad impendere!».</p>
+        <p>Allora il giudice se n'accorse: fecelne inteso, ma non valse: ché, perché l'avea detto
+          tre volte, convenne che fosse impeso.</p>
+        <p>A dire come fu temuto sarebbe gran tela: e molte persone il sanno. Ma sì rimanterrò come,
+          essendo elli un giorno con lo 'mperadore a cavallo con tutta lor gente, si ingaggiaro chi
+          avesse più bella spada. Sodo, lo 'mperadore trasse la sua del fodero, ch'era
+          maravigliosamente fornita d'oro e di pietre. Allora disse messere Azzolino:</p>
+        <p>«Molto è bella, ma la mia è assai più bella»: e trassela fuori. Allora seicento cavalieri
+          ch'erano con lui trassero tutti mano alle loro.</p>
+        <p>Quando lo 'mperadore vide le spade disse che ben era più bella.</p>
+        <p>Poi fu messer Azzolino preso in battaglia in uno luogo che si chiama Casciano; e percosse
+          tanto il capo al feristo del padiglione, ov'era legato, che s'uccise.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXV</head>
+        <argument>
+          <p>‘Qui conta d'una grande carestia che fu a un tempo in Genova’</p>
+        </argument>
+        <p>In Genova fu un tempo un gran caro, e là si trovava sempre più ribaldi che in niun'altra
+          terra. Tolsero alquante galee, e tolsero conducitori, e pagarli, e mandaro bando che tutti
+          li poveri andassero alla riva, et avrebbero del pane del Comune. Andarvene tanti, ch'è
+          maraviglia; e ciò fu perché molti che non erano bisognosi si travisaro.</p>
+        <p>E li uficiali dissero così:</p>
+        <p>«Tutti qui e' non si potrebbero cernire: ma vadano li cittadini in su quello legno, e '
+          forestieri nell'altro, e le femine co' fanciulli in quelli altri»:</p>
+        <p>sicché tutti v'andaro suso.</p>
+        <p>I conducitori furo presti: diedero de' remi in acqua et apportarli in Sardigna, e lae li
+          lasciaro, che v'era dovizia; et in Genova cessò il caro.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXVI</head>
+        <argument>
+          <p>‘Qui conta d'uno ch'era bene fornito a dismisura’</p>
+        </argument>
+        <p>Fu uno c'avea sì grande naturale, che non trovava neuno che fosse sì grande ad assai. Or
+          avenne c'un giorno si trovò con una putta che non era molto giovane e, avegna che molto
+          fosse orrevole e ricca, molti n'avea veduti e provati. Quando furo in camera, et elli lo
+          mostrò; e per grande letizia la donna rise.</p>
+        <p>Que' disse:</p>
+        <p>«Che ve ne pare?».</p>
+        <p>E·lla donna rispose:</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXVII</head>
+        <argument>
+          <p>‘Come uno s'andò a confessare’</p>
+        </argument>
+        <p>Uno s'andò a confessare al prete suo, et intra l'altre cose li disse:</p>
+        <p>«I' ho una mia cognata, e 'l mio fratello è lontano; e, quando io torno in casa, ella,
+          per grande dimestichezza, mi si pur pone a sedere in grembo. Come debbo fare?».</p>
+        <p>Rispuose il prete:</p>
+        <p>«A me il si facesse ella! Ch'io la ne pagherei bene!».</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXVIII</head>
+        <argument>
+          <p>‘Qui conta di messere Castellano da Cafferi di Mantova’</p>
+        </argument>
+        <p>Messere Castellano da Cafferi di Mantova stando Podesta di Firenze, sì nacque una
+          quistione tra messere Pepo Alamanni e messer Cante Caponsacchi, tale che ne furo a gran
+          minacce: onde la Podesta, per cessare quella briga, si mandoe a' confini: messer Pepo
+          mandò in certa parte e messer Cante, perché era grande suo amico, sì 'l mandò a Mantova, e
+          raccomandollo a' suoi. E messere Cante li ne rendeo tal guiderdone, che si giacea con la
+          moglie.</p>
+      </div1>
+      <div1 type="novella">
+        <head>LXXXIX</head>
+        <argument>
+          <p>‘Qui conta d'un uomo di corte che cominciò una novella che non venia meno’</p>
+        </argument>
+        <p>Brigata di cavalieri cenavano una sera in una gran casa fiorentina; et aveavi un uomo di
+          corte, il quale era grandissimo favellatore. Quando ebbero cenato, cominciò una novella
+          che non venia meno.</p>
+        <p>Uno donzello della casa, che servia e forse non era troppo satollo, lo chiamò per nome e
+          disse:</p>
+        <p>«Quelli che t'insegnò cotesta novella non la t'insegnò tutta».</p>
+        <p>Et elli rispuose:</p>
+        <p>«Perché no?».</p>
+        <p>E que' disse:</p>
+        <p>«Perché non t'insegnò la ristata».</p>
+        <p>Onde quelli si vergognò e ristette.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XC</head>
+        <argument>
+          <p>‘Qui conta come lo 'mperadore Federigo uccise un suo falcone’</p>
+        </argument>
+        <p>Lo 'mperadore Federigo andava una volta a falcone; et avevane uno molto sovrano, che
+          l'avea caro più c'una cittade. Lasciollo a una grua. Quella montò alta. Il falcone si mise
+          alto molto sopra lei. Videsi sotto un'aguglia giovane: percossela a terra, e tanto la
+          tenne che l'uccise.</p>
+        <p>Lo 'mperadore corse credendo che fosse una grua; trovò com'era. Allora con ira chiamò il
+          giustiziere e comandò che al falcone fosse tagliato il capo perch'avea morto lo suo
+          signore.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCI</head>
+        <argument>
+          <p>‘Come uno si confessò da un frate’</p>
+        </argument>
+        <p>Uno si confessò da un frate e disse che, essendo egli una volta alla ruba d'una casa con
+          assai gente, «il mio intendimento si era di trovare in una cassa cento fiorini d'oro, et
+          io la trovai vota: ond'io non ne credo avere peccato».</p>
+        <p>Il frate rispose:</p>
+        <p>«Certo sì hai, tale come se tu li avessi avuti».</p>
+        <p>Questi si mostrò molto crucciato e disse:</p>
+        <p>«Per Dio, consigliatemi».</p>
+        <p>E 'l frate rispuose:</p>
+        <p>«Io non ti posso prosciogliere se tue no·lli rendi».</p>
+        <p>E que' disse:</p>
+        <p>«Io il voglio fare volontieri, ma non so a cui».</p>
+        <p>E 'l frate rispuose:</p>
+        <p>«Recali a me, et io li darò per Dio».</p>
+        <p>Questi li promise e partissi; e prese tanta contezza che vi tornò l'altra mattina e,
+          ragionando co·llui, disse che 'l ghera mandato un bello storione, e che glile volea
+          mandare a disinare. Lo frate li ne rendé molte grazie.</p>
+        <p>Partisi questi, e non lile mandò, e l'altro dì tornò al frate con allegra cera. Il frate
+          li disse:</p>
+        <p>«Perché mi facesti tanto aspettare?»</p>
+        <p>E que' rispuose:</p>
+        <p>«O credevatelo voi avere?».</p>
+        <p>«Certo sì».</p>
+        <p>«E non l'aveste?»</p>
+        <p>«No».</p>
+        <p>«Dico ch'è altrettale, come se voi lo aveste avuto».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCII</head>
+        <argument>
+          <p>‘Qui conta d'una buona femina ch'avea fatta una fine crostata’</p>
+        </argument>
+        <p>Fue una buona femina, ch'avea fatta una fine crostata d'anguille, et aveala messa nella
+          madia. Poco stante, vidde entrare uno topo per la finestrella, che traeva all'odore.
+          Quella allettò la gatta e misela nella madia perché vi pigliasse entro, e turò la
+          finestrella.</p>
+        <p>Il topo si nascose tra la farina e la gatta si mangiò la crostata e, quand'ella aperse,
+          il topo ne saltò fuori e la gatta, perch'era satolla, non lo prese.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCIII</head>
+        <argument>
+          <p>‘Qui conta d'uno villano che s'andò a confessare’</p>
+        </argument>
+        <p>Un villano si andò un giorno a confessare, e pigliò dell'acqua benedetta, e vide il prete
+          che lavorava nel colto.</p>
+        <p>Chiamollo e disse:</p>
+        <p>«O sere, io mi vorrei confessare».</p>
+        <p>Rispuose il prete:</p>
+        <p>«Confessastiti tu anno?»</p>
+        <p>E que' rispose:</p>
+        <p>«Sì».</p>
+        <p>«Or metti un danaio nel colombaio, et aquella medesima ragione ti fo uguanno,
+        c'anno».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCIV</head>
+        <argument>
+          <p>‘Qui conta della volpe e del mulo’</p>
+        </argument>
+        <p>La volpe andando per un bosco sì trovò un mulo: e mai non n'avea più veduti. Ebbe grande
+          paura e fuggì; e, così fuggendo, trovoe il lupo e disse come avea trovata una novissima
+          bestia e non sapea suo nome. Il lupo disse:</p>
+        <p>«Andianvi».</p>
+        <p>Furono giunti a lui. Al lupo parve vie più nuova. La volpe il domandò di suo nome. Il
+          mulo rispuose:</p>
+        <p>«Certo io non l'ho bene a mente; ma, se tu sai leggere, io l'ho iscritto nel piè diritto
+          di dietro».</p>
+        <p>La volpe rispose:</p>
+        <p>«Lassa, ch'io non so leggere! Ché molto lo saprei volentieri».</p>
+        <p>Rispuose il lupo:</p>
+        <p>«Lascia fare a me, che molto lo so ben fare».</p>
+        <p>Il mulo sì li mostrò il piede dritto, sì che li chiovi pareano lettere. Disse il lupo:</p>
+        <p>«Io non le veggio bene».</p>
+        <p>Rispose il mulo:</p>
+        <p>«Fatti più presso, però che sono minute».</p>
+        <p>Il lupo si fece sotto e guardava fiso. Il mulo trasse e dielli un calcio tale, che
+          l'uccise. Allora la volpe se n'andò e disse:</p>
+        <p>«Ogne uomo che sa lettera non è savio».</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCV</head>
+        <argument>
+          <p>‘Qui conta d'uno martore di villa c'andava a cittade’</p>
+        </argument>
+        <p>Uno martore di villa venia a Firenze per comperare uno farsetto. Domandò a una bottega
+          ov'era il maestro. Non v'era. Uno discepolo disse:</p>
+        <p>«Io sono il maestro. Che vuoli?»</p>
+        <p>«Voglio uno farsetto».</p>
+        <p>Questi ne trovò uno. Provogliele. Furono a mercato. Questi non avea il quarto danari. Il
+          discepolo, mostrandosi d'acconciarlile da piede, sì gli apuntò la camiscia col farsetto e
+          poi disse:</p>
+        <p>«Tra'l·ti».</p>
+        <p>Quelli lo si trasse. Rimase ignudo. Li altri discepoli furo intenti con le coregge: lo
+          scoparo per tutta la contrada.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCVI</head>
+        <argument>
+          <p>‘Qui conta di Bito e di ser Frulli di Firenze da San Giorgio’</p>
+        </argument>
+        <p>Bito fue fiorentino e fue bello uomo di corte, e dimorava a San Giorgio Oltrarno. Avea un
+          vecchio c'avea nome ser Frulli, et avea un suo podere di sopra a San Giorgio, molto bello,
+          sì che quasi tutto l'anno vi dimorava con la sua famiglia; e le più mattine mandava la
+          fante sua a vendere frutta e camangiare alla piazza del Ponte Vecchio; et era sì
+          iscarsissimo e sfidato, che faceva i mazzi del camangiare colle sue mani e anoveravali
+          alla fante e faceva la ragione che pigliava. Il maggiore amonimento che le dava si era che
+          non si posasse in San Giorgio, però che v'avea femine ladre.</p>
+        <p>Una mattina passava la detta fante con uno paniere di cavoli. Bito, che prima l'avea
+          pensato, s'avea messa la più ricca roba di vaio ch'avea et, essendo in sulla panca di
+          fuori, chiamò la fante, et ella venne a·llui incontanente: e molte femine l'aveano
+          chiamata prima, non vi volle ire.</p>
+        <p>«Buona femina, come dai cotesti cavoli?».</p>
+        <p>«Messere, due mazzi a danaio».</p>
+        <p>«Certo, questa è buona derrata; ma dicoti che non ci sono se non io e la fante mia, ché
+          tutta la famiglia mia è in villa: sicché troppo mi sarebbe una derrata, et io li amo più
+          volentieri freschi».</p>
+        <p>Usavansi allora le medaglie, in Firenze, che le due valevano uno danaio piccolo. Però
+          disse Bito:</p>
+        <p>«Dammene ora una medaglia: dammi un danaio e te' una medaglia; et un'altra volta torrò
+          l'altro mazzo».</p>
+        <p>A·llei parve che dicesse bene, e così fece; e poi andoe a vendere li altri a quella
+          ragione che 'l signore li avea data; e tornò a casa e diede a ser Frulli la moneta.</p>
+        <p>Quelli, annoverando più volte, pur trovava meno un danaio, e disselo alla fante. Ella
+          rispuose:</p>
+        <p>«Non può essere».</p>
+        <p>Quelli, riscaldandosi co·llei, domandolla se s'era posata a San Giorgio. Quella volle
+          negare; ma tanto la scalzò, ch'ella disse:</p>
+        <p>«Sì posai a un bel cavaliere; e pagommi finemente. E dicovi ch'io li debbo dare ancora un
+          mazzo di cavoli».</p>
+        <p>Rispuose ser Frulli:</p>
+        <p>«Dunque, ci avrebbe ora meno un danaio in ‘uno danaio e’ mezzo».</p>
+        <p>Pensòvi suso, avidesi dello 'nganno, disse alla fante molta villania e domandolla dove
+          quelli stava. Ella lile disse a punto. Avidesi ch'era Bito, che molte beffe li avea già
+          fatte. Riscaldato d'ira, la mattina per tempo si levò e misesi sotto le pelli una spada
+          rugginosa e venne in capo del ponte; e là trovò Bito, che sedea con molta buona gente.
+          Alza questa spada: e fedito l'avrebbe, se non fosse uno che 'l tenne per lo braccio. Le
+          genti vi trassero smemorate, credendo che fosse altro, e Bito ebbe gran paura; ma poi,
+          ricordandosi come era, incominciò a sorridere.</p>
+        <p>Le genti ch'erano intorno a ser Frulli domandarlo com'era. Quelli il disse con tanta
+          ambascia, ch'a pena poteva. Bito fece cessare le genti e disse:</p>
+        <p>«Ser Frulli, io mi voglio conciare con voi. Non ci abbia più parole: rendete il danaio
+          mio e tenete la medaglia vostra, et abbiatevi il mazzo de' cavoli con la maladizione di
+          Dio».</p>
+        <p>Ser Frulli rispuose:</p>
+        <p>«Ben mi piace. E se così avessi detto in prima, tutto questo non ci sarebbe stato».</p>
+        <p>E, non accorgendosi della beffa, si·lli diè un danaio e tolse una medaglia, et andonne
+          consolato. Le risa vi furo grandissime.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCVII</head>
+        <argument>
+          <p>‘Qui conta come uno mercatante portò vino oltre mare in botti a due palcora,e come
+            l'intervenne’</p>
+        </argument>
+        <p>Un mercante portò vino oltre mare, in botti a due palcora: di sotto e di sopra avea vino
+          e nel mezzo acqua, tanto che la metà era vino e la metà acqua. Di sotto e di sopra avea
+          squilletto, e nel mezzo no. Vendero l'acqua per vino, e radoppiaro i danari sopra tutto lo
+          guadagno; e tosto che furo pagati, sì montaro in su un legno e misersi in mare con questa
+          moneta. E per sentenzia di Dio apparve nella nave un grande scimion e prese il taschetto
+          di questa moneta e andonne in cima dell'albero. Quelli, per paura ch'elli no 'l gittasse
+          in mare, andaro con esso per via di lusinghe.</p>
+        <p>Il bertuccio si puose a sedere e sciolse il taschetto con bocca e toglieva i danari
+          dell'oro ad uno ad uno: l'uno gittava in mare, e l'altro lasciava cadere nella nave; e
+          tanto fece, che l'una metà si trovò nella nave, col guadagno che far se ne dovea.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCVIII</head>
+        <argument>
+          <p>‘Qui conta d'uno mercatante che comperò berrette’</p>
+        </argument>
+        <p>Uno mercatante che recava berrette, sì li si bagnaro; e, avendole tese, sì v'apariro
+          molte scimie, e catuna se ne mise una in capo, e fuggivano su per li alberi.</p>
+        <p>A costui ne parve male: tornò indietro e comperò calzari e presele: e fecene buon
+          guadagno.</p>
+      </div1>
+      <div1 type="novella">
+        <head>XCIX</head>
+        <argument>
+          <p>‘Qui conta una bella novella d'amore’</p>
+        </argument>
+        <p>Un giovane di Firenze sì amava d'amore una gentile pulzella, la quale non amava neente
+          lui, ma amava a dismisura un altro giovane, lo quale amava anche lei, ma non tanto ad
+          assai quanto costui. E ciò si parea: ché costui n'avea lasciato ogni altra cosa, e
+          consumavasi come smemorato, e spezialmente il giorno ch'elli non la vedea.</p>
+        <p>A un suo compagno ne 'ncrebbe: fece tanto, che lo menò a un suo bellissimo luogo, e là
+          tranquillaro quindeci dì.</p>
+        <p>In quel mezzo, la fanciulla si crucciò con la madre: mandò la fante e fece parlare a
+          colui cui amava, che ne voleva andar con lui. Quelli fu molto lieto. La fante disse:</p>
+        <p>«Ella vuole che voi vegniate a cavallo già quando fia notte ferma. Ella farà vista di
+          scendere nella cella; aparecchiato sarete all'uscio, e gitteravisi in groppa: ell'è
+          leggiera e sa ben cavalcare».</p>
+        <p>Elli rispuose:</p>
+        <p>«Ben mi piace».</p>
+        <p>Quand'ebbero così ordinato, fece grandemente apparecchiare a un suo luogo: et ebbevi suoi
+          compagni a cavallo e feceli stare alla porta perché non fosse serrata, e mossesi con un
+          fine ronzone e passò dalla casa. Ella non era ancora potuta venire, perché la madre la
+          guardava troppo. Questi andò oltre per tornare a' compagni.</p>
+        <p>Ma quelli che consumato era in villa, non trovava luogo: era salito a cavallo, e 'l
+          compagno suo no 'l seppe tanto pregare, che 'l potesse ritenere; e non volle la sua
+          compagnia. Giunse quella sera alle mura. Le porte erano tutte serrate, ma tanto acerchiò,
+          che s'abatté a quella porta dov'erano coloro. Entrò dentro. Andonne inverso la magione di
+          colei, non per intendimento di trovarla né di vederla, ma solo per vedere la contrada.
+          Essendo ristato di rimpetto alla casa (di poco era passato l'altro), la fanciulla diserrò
+          l'uscio e chiamollo sottoboce e disse che acostasse il cavallo. Questi non fu lento:
+          accostossi, et ella li si gittò vistamente in groppa, et andarono via. Quando furo alla
+          porta, li compagni dell'altro non li diedero briga, ché no 'l conobbero: però che se fosse
+          stato colui cui elli aspettavano sarebbe ristato co·lloro.</p>
+        <p>Questi cavalcaro ben diece miglia, tanto che furono in un bello prato intorniato di
+          grandissimi abeti. Smontaro e legaro il cavallo a un albero: e' prese a basciarla; quella
+          il conobbe: accorsesi della disaventura. Cominciò a piangere duramente. Ma questi la prese
+          a confortare lagrimando et a renderle tanto onore, ch'ella lasciò il piagnere e preseli a
+          volere bene, veggendo che·lla ventura era pur di costui; et abbracciollo.</p>
+        <p>Quell'altro cavalcò poi più volte, tanto che udì il padre e la madre fare romore
+          nell'agio, e intese dalla fante com'ella n'era andata in cotal modo. Questi sbigottì:
+          tornò a' compagni e disselo loro. E que' rispuosero:</p>
+        <p>«Ben lo vedemmo passar co·llei, ma no 'l conoscemmo: et è tanto, che puote essere bene
+          alungato; et andarne per cotale strada».</p>
+        <p>Misersi incontanente a tenere loro dietro: cavalcaro tanto, che·lli trovaro dormire così
+          abbracciati: e miravagli per lo lume della luna ch'era apparito. Allora ne 'ncrebbe loro
+          disturbarli e dissero:</p>
+        <p>«Aspettiamo tanto ch'elli si sveglieranno, e poi faremo quello ch'avemo a fare».</p>
+        <p>E così stettero tanto che 'l sonno giunse e furo tutti adormentati.</p>
+        <p>Coloro si svegliaro in questo mezzo, e trovaro ciò ch'era.</p>
+        <p>Maravigliarsi; e disse il giovane:</p>
+        <p>«Costoro ci hanno fatta tanta cortesia, che non piaccia a Dio che noi li ofendiamo»:</p>
+        <p>ma salìo questi a cavallo, et ella si gittò in su un altro de' migliori che v'erano, e
+          poscia tutti i freni degli altri cavalli tagliaro et andarsi via.</p>
+        <p>Quelli si destaro e fecero gran corrotto, perché più non li potevano ire cercando.</p>
+      </div1>
+      <div1 type="novella">
+        <head>C</head>
+        <argument>
+          <p>‘Come lo 'mperadore Federigo andò alla montagna del Veglio’</p>
+        </argument>
+        <p>Lo 'mperadore Federigo andò una volta infino alla montagna del Veglio, e fulli fatto
+          grande onore. Il Veglio, per mostrarli com'era temuto, guardò in alti e vide in su la
+          torre due assessini. Presesi la gran barba: quelli se ne gittaro in terra e moriro.</p>
+        <p>Lo 'mperadore medesimo sì volle provare la moglie, però che li era detto che un suo
+          barone giaceva con lei. Levossi una notte et andò a·llei nella camera, e quella disse:</p>
+        <p>«Messere, voi ci foste pur ora un'altra volta».</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

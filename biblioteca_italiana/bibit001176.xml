@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il Nifo overo del Piacere</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>149 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001176</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+<opener><add>A don Ferrante Gonzaga</add>. </opener>
+
+<salute>Illustrissimo ed eccelentissimo signore
+e padron mio osservandissimo,</salute>
+
+
+	<p>Io non credo di sodisfare con la dedicazione di questo dialogo a l'obligo ch'io ho con Vostra Eccelenza, ma d'accrescerlo più tosto, perciò ch'essendo egli quasi partecipe de la mia fortuna, può di leggieri aver bisogno di gran difesa, la quale a niuno più ch'a voi è conveniente. Voi sete un de' principalissimi cavalieri di quella nobilissima città di cui si ragiona, alcuni de' quali son principi, e figliuolo d'una de le persone che favellano nel dialogo: vi prego dunque che volentieri l'accettiate. E se mostrerete che non vi sia dispiaciuto ch'io abbia rinovata la memoria del signor vostro padre giovenetto, mi porgerete ardire ch'io faccia menzione de la sua età più matura, ne la quale io l'udii parlar con tanta prudenza e con tanta eloquenza che lo stimo soggetto così degno de' più pregiati dialoghi, come il signor don Ferrante vostro avo, e de le più lodate istorie. E a Vostra Eccelenza, la quale ha congiunte insieme le virtù de l'uno e de l'altro, bacio le mani, pregando Iddio che le conceda di far l'operazioni a l'animo somiglianti.</p>
+
+</div1>
+
+<titlePage>
+<docTitle>
+<titlePart type="main"> IL NIFO OVERO DEL PIACERE </titlePart>
+</docTitle>
+</titlePage>
+
+	<castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>AGOSTIN NIFO, </role></castItem> <castItem type="role"><role>CESARE GONZAGA.</role></castItem></castList>
+
+
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<sp><speaker>A.N.</speaker><p> Che cosa nascondete sotto la cappa, signor Cesare, ma in modo che par che vogliate ch'altri s'accorga che voi la nascondiate? Non può essere se non preziosa e degna di voi, qualunque ella sia.</p></sp>
+	<sp><speaker>C.G.</speaker><p> Credereste forse che potesse esser qualche furto? </p></sp>
+	<sp><speaker>A.N.</speaker><p> E perché no? Ma s'egli è furto, dee esser forse simile a quel del guanto già fatto dal Petrarca, del quale egli non ben contento, desiderava d'aver altrettanto del velo, com'egli medesimo scrisse in que' leggiadrissimi versi:
+
+<quote rend="block"><lg>
+	<l>Così avessi io del bel velo altrettanto. </l>
+<l>O incostanza de l'umane cose, </l>
+<l>Pur questo è furto, e vien ch'i' me ne spoglie.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>C.G.</speaker><p> Piacesse a Dio che non fosse più agevole a la mia donna l'involare a me di quel che a me sia il rubare alcuna cosa a lei: perché, se così bene sapessi io guardarmi da lei com'ella sa da me, sarei fornito di sottile avedimento molto più che non sono; ma per molta industria ch'io v'abbia usata, non ho potuto, non ch'altro, averne pur uno sguardo: così ella, tutta in sé raccolta, sa guardar le sue bellezze. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque non mi sono apposto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Per mio aviso. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma se velo o se guanto non è, od altra sì fatta cosa, dee esser forse alcuna vaga canzona del Costanzo, del Rota, del Tasso o del Tansillo, in cui la bellezza d'alcuna donna sia celebrata. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non molto vi dilungate da la verità, signor Agostino, perché, se non è canzone, è almen componimento d'un di costoro ch'avete nominati, e d'un altro ancora, di cui non v'è sovvenuto: e componimento sì fatto che, s'io non m'inganno, non altramente potrà invaghirvi ch'i lor sonetti e le canzoni sogliano invaghir gli amanti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E di che può inamorarsi un vecchio canuto e gelato come son io, se non de la verità e de la onestà, bellissime fanciulle? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Vecchie più tosto, come quelle che nacquero molto prima de' nostri padri. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Vecchie, io ve 'l confesso, ma simile a l'Amor di cui ragiona Platone, il quale, tuttoché nascesse avanti che fosse fatto il mondo nel grembo del caos, si dipinge nondimeno con volto giovenile. </p></sp>
+	<sp><speaker>C.G.</speaker><p> E forse come quella donna la quale è descritta dal Petrarca in que' versi:
+
+<quote rend="block"><lg>
+<l>Una donna più bella assai del sole</l>
+<l>E più lucente e d'altrettanta etate.</l>
+</lg></quote></p>
+
+<p>Ma non vi stimo io, signore Agostino, così freddo ne le cose d'amore come pare che vogliate darmi a dividere: anzi, se io sono bene informato, una damigella de la principessa di Salerno può talvolta in voi non meno de la filosofia. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Già sono estinte, non che sopite, quelle fiamme, o signor Cesare. Ma ritornando al nostro proposito, dal quale non voglio che ci allontani vaghezza de la corte di Salerno, che componimento è cotesto, il qual tenete così celato? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Voi credete d'allontanarvi da la corte di Salerno, e questa composizione quasi vi ci riporterà, perciò che queste sono due orazioni in genere deliberativo: l'una del Martello, ne la quale egli persuade il principe che rifiuti l'ufficio de l'ambasciatore a Cesare, datogli da la città; l'altra del Tasso, ch'è di contraria opinione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> O mirabil soggetto, signor Cesare. Deh, leggiamle, per vita de l'imperatore. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non posso, signor Agostino, perché ho deliberato d'andare a la piaggia del mare o, come qui si dice, a Chiaia. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Deh, sarete così crudele che mi vogliate lasciar digiuno di quel cibo del quale avete acceso a in me tanto desiderio? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Se vogliam leggere, seguitemi, ch'io vo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Voi mi traete dietro a l'esca in quella guisa ch'i maestri de gli uccelli sogliono o astore o falcone o altro somigliante. Ma volete che vi segua ancora questa nobil brigata di gentiluomini e di paggi, la quale v'aspetta, e quella gran turba di staffieri? </p></sp>
+	<sp><speaker>C.G.</speaker><p> A tutti darem commiato, e condurrem due paggi solamente che ci menino due cavalli a mano, perché, se 'l cammino vi stancasse, possiamo cavalcare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Io, che filosofo sono, benché non abbia indurate le piante de' piedi come Socrate aveva, ma avezzatele più tosto a le pianelle e a gli agi de le scuole, volentieri soglio far essercizio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> E io, come colui c'ho del lombardo, quantunque 'n queste parti sia nato, vo alcuna volta contra l'uso de la città volentieri a piedi. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma veggo che sete ubbedito a cenni, perché tutti v'hanno abbandonato, se non questi due fanciulli che ci menano i cavalli. O come son belli e gentili. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Son nati nel regno ne la razza del signor Ferrante mio padre, ma d'uno stallone di Mantova.</p>
+    </sp>
+	<sp><speaker>A.N.</speaker><p> Ditemi, signor Cesare, qual bisogno vi conduce ora fuor de la città? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Niun altro che di goder de la conversazione di qualche letterato in alcun di questi vaghi giardini, in comparazion de' quali quelli d'Alcinoo e de l'Esperidi sarebbono di minor pregio: e piacemi d'essermi prima avenuto in voi che 'n alcuno de gli altri de' quali ho domestichezza. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma qual di questi giardini sceglierem noi fra tanti che veggiamo? Vogliamo andarcene su quel colle a quel del principe di Stigliano o pur in questo del signor don Grazia di Toledo? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'uno è troppo lontano; ne l'altro a questa ora suole alcuna volta venirci a diporto il signore don Grazia. Ma questo ch'è qui aperto è vaghissimo, e n'è signore un nobilissimo cavaliero amico mio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Conosco il padrone, ch'è il signore Ottavio Caraffa, degno veramente de la vostra amicizia. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Potremo sederci qui, e vagheggiate ch'avrem le fonti e gli alberi, disposti con sì maestrevole artificio, io comincerò a leggere, e poi ragionerem de le cose lette. Or presupponete, signor Agostino, che 'n quella guisa che Cesare, se le cose grandi deono esser paragonate con le mediocri, diede ne la secreta camera audienza a Cicerone ne la difesa di Ligario e di Deiotaro, il prencipe di Salerno la desse al Martello e al Tasso: e udite il Martello, il qual così comincia a ragionare. </p>
+
+<p>	“Io so, illustrissimo signore, che ne' consegli sempre è di molta importanza l'autorità del consigliero, perch'altrettanto i costumi de l'uomo sogliono esser considerati quanto le ragioni che da lui sono dette: laonde ne l'occasione ne la qual voi addomandate il consiglio, quella autorità che non si trova ne la mia persona o ne l'ufficio ch'io ho di vostro mastro di casa è ne la nobiltà de la patria e de la famiglia ne le quali son nato: percioch'io non sono d'una picciola e ignobil città del regno di Napoli o di Lombardia, usata di servire a la cupidigia del suo principe più a ch'a le leggi, ma d'una la qual, vivendo in libertà lungamente, ha posto il freno a le principali di Toscana: e la mia famiglia è de le sue più nobili e onorate; e posso dire d'aver in lei co 'l latte bevuta la cognizion di quelle cose ch'altri con molto studio e con molta fatica da' libri va raccogliendo. E se la mia fortuna a me non ha offerta occasione di governar la nostra republica e di trattar di cose di stato co' re e con gli imperatori, l'ha ella almen data d'intendere i secreti consegli di coloro i quali hanno avute molte fiate sì fatte occasioni. E qual sia la natura mia, credo ch'a voi sia noto per l'esperienza che di me avete, il quale, sì come non mi sono sdegnato ne le picciole cose in vostro servigio adoperarmi, così, quando a voi piaccia di commandare, non temerò ne le grandi arrischiarmi. Ma da l'azion mie principalmente voi potete de l'animo mio fare argomento, perché, s'io avessi voluto a la nuova tirannide de la casa de' Medici sottopormi, niuna grazia in Fiorenza mi sarebbe negata da' coloro i quali in apparenza principi giusti e magnanimi vogliono dimostrarsi. Ma poi che la mia fortuna non m'ha conceduto di viver com'io era usato, ho più tosto eletto di servire a voi, che da uomini nobilissimi solete esser servito, che d'inchinarmi a la fortuna de la casa de' Medici o fare azione indegna de la nobiltà de' Martelli; laonde, generoso signore, se 'l conseglio ch'io vi darò non sarà qual piacerebbe ad alcuno, a cui tanto piace la pompa de le magnifiche parole e 'l suono de' nomi gloriosi, dovrete almen credere che bassezza d'animo non m'induca a consegliarvi, perch'io non darei a voi consiglio men onesto di quel che per me io abbia saputo pigliare, ma solo il desiderio ch'io ho del bene e de l'onore di voi, mio signore, il quale così cortese e così liberale a me vi sete dimostrato. </p>
+<p>	Si propone, eccelentissimo signore, se 'n questi tempi turbulenti, ne' quali la città di Napoli ricusa di ricever l'inquisizione, che secondo il severo costume di Spagna il viceré vuole introdurvi, voi debbiate rifiutare l'ufficio d'ambasciatore a la corte cesarea, come da me sete stato prima persuaso: nel qual consiglio, quantunque io sappia che 'l fine di chi il dà non debba esser altro che l'utile del consigliato, nondimeno in guisa a l'util vostro avrò risguardo che non mi dimenticherò del debito vostro e di quel ch'è convenevole a la vostra degnità. Di tre cose dunque partitamente discorrerò: s'util vi sia rifiutare questa ambasceria; se orrevole; ultimamente s'alcun obligo o altra necessità più a l'una ch'a l'altra parte vi astringa; e perché l'animo vostro, desideroso d'onore e di grandezza, si volgerà incontinente al decoro, questo voglio prima di tutte l'altre cose porvi dinanzi a gli occhi de l'intelletto. </p>
+<p>	Non si può negare, illustrissimo signore, che l'essere ambasciatore de la sua patria in occasione di tanta importanza quanta è questa, per la quale la città va sottosopra, non sia cosa per se stessa molto orrevole. Ma altre cose ci sono in questa da considerare. Andrete solo in questa ambasceria o insieme con molti ambasciatori? Se solo, ove peraventura non poteste conseguire quel che dimandate, non avreste o testimonio de la vostra azione o compagno de la mala sodisfazione; se con molti, non parrà che la città abbia gran fede ne la vostra prudenza. Saranno nemici o amici i vostri compagni? Se nemici, qual concordia può esser fra nemici? O qual cosa lodevol si fece giamai senza concordia? S'amici, peraventura sarà più agevole che siate essauditi da l'imperatore; ma non essendo, si crederà che da voi nasca il difetto, che non abbiate voluto quel che mostravate di volere. Si congiungeranno con esso voi gli ignobili o i nobili in questo officio? Se gli ignobili, come può esser orrevole al principe di Salerno la compagnia de gli ignobili? Se nobili, vorranno esservi eguali ne l'onore e discordi ne l'opinione: laonde è malagevol cosa che l'andata non sia vana o dannosa a fatto a la città e a voi medesimo. In somma non sarebbe questo viaggio con intiera vostra sodisfazione, perché, se ben vorrete rivolger per la mente i costumi de la vostra patria e le cose de' tempi passati, vi ricorderete che così volentieri per l'alterezza d'alcuni nobili da' consegli publici vi sete allontanato, come ritirato da le visite del viceré per ischivare ogni dimostrazion di non convenevole umiltà; laonde dura cosa senza alcun dubbio vi parrebbe se vi fosse dato per compagno qualche privato cavaliero o qualche mezzo napolitano e mezzo spagnuolo, fatto nuovamente marchese o duca co' danari guadagnati in baratteria o rubati a le fatiche de gli infelici soldati, il quale con la testa alta e con superbo sembiante non consentisse ch'un passo gli poneste inanzi, e allora vi costringesse a pensar del vostro onore particolare, quando la cura del publico bene vi dovrebbe sollecitare.</p>
+	<p>Ma già parmi di conoscere, illustrissimo signore, che, pieno di nobilissimo sdegno, l'indegnità di questa ambasceria cominciate ad aborrire. Or consideriam se forse il fine de l'ambasceria potesse esser più orrevol del mezzo o del principio. È certo che, se voi poteste conseguir da l'imperatore quel che si dimanda, co 'l piacere e con l'onor del fine il fastidio e l'indegnità del mezzo sarebbe ricompensato. Ma questo negozio, per la natura sua e per quella di coloro co' quali si dee trattare, porta seco altrettanto pericolo quanta difficoltà; onde ragionevolmente dovete temere di non poter conseguir quello per che da la patria vostra sete mandato; la qual, essendo de la natura de le altre città, che vogliono da' suoi alcuna volta le cose che non son ragionevoli, alcuna quelle che possibili non sono, se tornaste senza aver impetrata la grazia, non altramente vi riceverebbe ch'Atene Alcibiade non vittorioso già raccogliesse. Perché, promettendosi molto da la vostra autorità e del vostro sapere, non recherebbe la colpa a la malagevolezza de l'azione, ma al difetto de la vostra volontà, e giudicherebbe che voi, per acquistar la grazia di Cesare, non avreste fatta stima de la benevolenza de' Napolitani: laonde, s'ella non potesse mandarvi in essilio in quel modo ch'Atene già mandò Alcibiade, almeno con premio d'ingratitudine civile così vi pagherebbe come da la sua republica fu pagato quel magnanimo Romano, il qual, per non rendere a guisa d'uomo ordinario i conti de le spese fatte, elesse più tosto di vivere in essiglio volontario.</p>
+<p>	Questo è l'onore, illustrissimo signore, che di questa ambasceria potete aspettare: però stimo che debbiate esser assai risoluto di rifiutarla. L'util poi qual debba essere, è così manifesto che non fa mestiero ch'io lungamente ne ragioni: perché voi non potete far questo viaggio a la corte di Cesare senza spender largamente, se vorrete andarci in quel modo ch'è convenevole a la vostra grandezza; né potrete trattare questo negozio, che non doniate molto a' ministri de l'imperatore e a gli altri de la corte cesarea, a' quali per lo passato non teneste mai chiuse le mani de la vostra liberalità, e ora, in occasione che tanto vi importa, non sarebbe ragionevole che voi dissimile a voi medesimo vi dimostraste. Ma ove si parla d'utile o di danno, qual maggior danno si può mettere in considerazione che quel di perder la grazia del vostro signore? Il quale, se accettate questo ufficio, difficilissimamente potrete schifare: percioch'essendo i vostri maggiori stati de la fazione angioina e poco cari a' re passati e molte volte nemici apertamente, ogni vostra azione la qual potesse opporsi a la sua volontà gli darebbe giusta cagione di sospettare. Ma forse potrete aspettare alcuna ricompensa da la vostra città? Quale la vi darà ella? Daravvi l'ufficio sovra il mattonar de le strade o sovra il nettar de' pozzi: percioché quel del contestabile e gli altri che degni di voi potrebbon parere son tutti non da la città ma dal re dispensati. Non è Ferdinando Sanseverino sì picciolo signore o di sì basso animo che la città di Napoli possa dargli premio degno de la sua grandezza: da Carlo Quinto dee aspettarli, da Carlo Quinto, il qual sol può il suo valore secondo il suo merito ricompensare.</p>
+	<p>Or rimane che, se la riputazione e l'utilità al rifiutare questa ambasceria vi persuadono egualmente, si consideri s'alcun debito o altra necessità ad alcuna de le parti vi costringa.</p>
+	<p>Se voi foste nato in una città libera, qual fu già Atene e Roma e quale ora è Vinezia e pochi anni a dietro era la mia patria, io direi che niuno obligo maggior muover vi potesse di quello ch'a lei aver dovete; ma voi sete nato in una città la qual forse non è stata libera in alcun tempo: laonde più non le dee dispiacere il servire che spiaccia la febre al leone, che gli è naturale, o, per dir meglio, il freno al cavallo, il qual, benché sia guerriero, è nondimeno avezzo a roder il morso e ad esser cavalcato. Conciò sia cosa che Napoli, vostra patria, a' tempi de la republica romana era picciola città e di picciol grido, e ubbediva senza contesa a' Romani; e quando Augusto la soggiogò, volentieri con l'altre città si sottomise al giogo de la nuova servitù e, sinché la sede de l'imperio fu in Italia, fu una del numero de l'altre e meno di molte altre per fama conosciuta; ma poi che l'imperio da Roma fu trasportato, accrebbe molto le ricchezze e la nobiltà, sì per l'opportunità del sito e de' porti, sì perché dava spesso ricetto a' ministri de l'imperatore: laonde ne' tempi che dapoi seguirono meritò d'esser fatta capo di questo regno e molte volte a' piccioli re è stata soggetta. Ma s'ella a' Carli e a' Roberti e più nuovamente a gli Alfonsi e a' Ferranti è stata sottoposta, si sdegnerà ora di sottoporsi a le voglie di Carlo Quinto, il quale non solo per legitima successione è signor di questo regno, ma per giusta elezione de gli elettori e per confermazione del pontefice imperatore? Si sdegnerà, dico, Napoli di ubbedire a le voglie di Carlo Quinto? O vorrete voi credere d'esser a la vostra patria più obligato ch'al vostro legitimo signore, a cui avete giurato fedeltà, la quale a la vostra patria non prometteste giamai? Non sapete che non è alcun legame che ci stringa più forte di quel de la fede? Non conoscete chiaramente ch'opponendovi a la volontà de l'imperatore, offendete le ragioni umane e le divine insieme, ove, per l'imperatore adoprandovi, non fate forse maggiore offesa a la patria che il cozzone al cavallo? Dunque assai più al re ch'a la patria sete obligato.</p>
+<p>	Ma se pur voi, signore, giudicate altramente, s'estimate che l'uomo non debba far violenza a la patria per alcuna cagione, se l'amor di lei è in voi più possente di ciascuno altro, riconosco la generosità del principe di Salerno, lodo l'affetto, onoro l'altezza de l'animo, quantunque non approvi l'opinione, e vi do quel consiglio ch'io stimo il migliore.</p>
+<p>	Ma lasciam l'essempio mio da parte, lasciam quello de molti miei cittadini miei pari, lasciam la memoria de le cose presenti; debbiam fare poca stima de le ragioni de' filosofi o de l'autorità de gli antichi principi, ad imitazione de' quali ritirandovi dal governo de la vostra città, sarete quasi spettatore de' tumulti, di cui lieto fine par che non si possa aspettare. Questa deliberazione potrete fare agevolmente, perché niuna forza, niuna ragione, niuna autorità hanno i Napolitani, la qual sia atta a costringervi: e questa è la somma del mio conseglio e de la opinion, de la quale fo voi giudice in quella parte ch'a la prudenza appartiene. E benché possiate parimente giudicarne ne l'altra, ch'a la benevolenza e a la fede ha risguardo, vi prego nondimeno che, riducendovi a memoria le mie passate azioni, vogliate credere che non vi possa esser dato il conseglio da più benivolo o da più fedele servitore”.</p></sp>
+
+	<sp><speaker>A.N.</speaker><p> Ho udita con molto mio diletto l'orazion del Martello. Ora aspetto d'udir la risposta del Tasso, e parlerem poi de la ragione de le cose: ché de l'artificio de le parole io non intendo di ragionare, come colui che non ne sono molto intendente. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Nondimeno molto mostraste di saperne, quando dichiaraste così bene la <emph>Retorica</emph> d'Aristotele in quella parte ancora ch'appertiene a le parole, ne la quale assai più de' Lombardi i Toscani a' Greci sono stati somiglianti: ma fra' Lombardi sì fatti certo non è il nostro Tasso, il quale è così vago de le belle e scelte parole come mai fosse alcun altro per l'adietro. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Così mi pare; ma bench'io ne l'altre lingue abbia fatto alcuno studio, a questa non attesi giamai. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Or ascoltate la sua orazione, la quale io credo che vi parrà assai simile a quelle che 'l senato e il popolo di Roma udirono ne' buoni tempi. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Io m'apparecchio ad ascoltarvi intentissimamente. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Udite. </p>
+
+<p>	“S'io ho posto ben mente, eccelentissimo signore, a l'artificio usato dal Martello, non tanto ha voluto in questo conseglio di grandissima importanza accrescer ne la sua persona autorità, quanto ne la mia diminuirla, stimando peraventura ch'a lui tolga riputazione la cura de le cose familiari, a me l'accresca l'officio di secretario e la conoscenza ch'io ho di molti principi d'Europa e di molte corti e di molti regni; la qual non credo che debba esser minore in me, illustrissimo signore, perch'io sia bergamasco ed egli fiorentino, percioché la patria mia molto meglio a chi dee ha saputo ubbedire che la sua a chi non doveva non seppe commandare. Bergamo è la mia patria, città nobile di Lombardia, piena di belle abitazioni, di convenevoli ricchezze, di buone lettere e di laudevoli costumi, d'uomini eccelentissimi ne l'arme e ne le scienze e in tutte l'arti nobili e onorate; la qual, trattando spesso de le cose publiche con la signoria di Vinezia, ha potuto da lei quella prudenza apprendere che non insegnarono a gli altri né da gli altri peraventura appararono i Fiorentini. E s'io ne la mia fanciulezza non ho uditi i Valori e i Soderini de la guerra di Pisa o d'altra co' sarti e co' pizzicaruoli ragionare e molte volte co 'l setaiuolo de la seta o co 'l tessitore de' vergati drappi quistionare, ho uditi almeno i Cornari, i Contareni, i Gradenichi, i Delfini, i Cappelli, i Giustiniani, i Barbari, i Venieri, gravissimi senatori, discorrer de le guerre e de le paci e de le leghe, da le quali dipende il buono e pacifico stato de l'universo. Dunque non si gonfi egli tanto per esser fiorentino che voglia a me rimproverar l'esser bergamasco, né si creda, quasi nuovo Temistocle, a me la mia viltà e quella de la patria rinfacciare: percioché la mia patria è così laudevole per se stessa che non ha in questa occasione bisogno del mio testimonio, e io, qualunque mi sia, non dispiaccio a me stesso, né mi vergogno de' miei progenitori; a' quali anzi vorrei far luce di gloria che, ricevendola da loro, sparger de le mie tenebre la loro onorata vittoria. Ma non posso senza menzione trapassare l'alterezza del Martello, forse non molto disdicevole a gentiluomo nato in libertà, ma poco convenevole a questi tempi, ne' quali i Catoni e i Marcelli ci nascon così di rado.</p>
+	<p>Il Martello non ha voluto sostener l'aspetto, come a lui pare, d'un tiranno, come a me pare, d'un mansuetissimo principe? Il Martello si sdegna di servire a la casa de' Medici, degna per lo propio valore del principato de la sua patria e per l'infallibile giudicio d'Iddio, il quale s'è dimostrato in due pontificati di grandezza molto maggiore; e par ch'egli non sappia che i tanti illustri gentiluomini di Lombardia e di tutta Italia non si sono sdegnati per l'adietro e ora non si sdegnano di servirla. Questa alterezza nondimeno, eccelentissimo signore, fu sempre propria de le republiche popolari: laonde non mi maraviglio ch'egli la bevesse co 'l latte de le nutrici, co 'l quale la cognizione de le cose di stato dice d'aver bevuta, la qual io confesso d'aver raccolta da' libri de' filosofi e da le corti de' principi con molta mia fatica. E se la vivacità de' fiorentini ingegni da la natura m'è stata negata, non m'è stato almen tolto il giudizio di conoscer ch'io posso imparar molte cose meglio da gli altri ch'essi non sono atti a ritrovare per se stessi: e quella favella stessa tra l'altre cose, la quale essi, così superbamente appropriandosi, così trascuratamente sogliono molte fiate usare.</p>
+<p>	Ma concedasi al Martello ciò ch'addimanda; concedaglisi, dico, che la sua autorità sia tanta quanta egli medesimo sa desiderare, solamente ch'a me non si neghi quel che non si può negare senza fare offesa al vostro giudizio, e considerinsi le nostre ragioni scompagnate da le persone: e venga in questo arringo non Fiorenza con Bergamo, no 'l Martello co 'l Tasso, no 'l mastro di casa co 'l secretario del principe di Salerno, ma l'onestà con la cupidigia, la magnanimità con l'ambizione, la verità con la simulazione. O Iddio, quanto mi spiace ch'a questo contrasto d'ingegni, a questo paragone di verità, o più tosto a questa pruova di fede, sì come è presente il signor Americo, non ci siano ancora tutti quelli di casa Sanseverina. Quanto più sonora sarebbe la mia voce, quanto le mie ragioni, o Martello, v'andrebbono con maggior forza a ferir l'animo e a tingere il volto di vergogna, s'a me non mancasse il desiderato favor de gli auditori. Ma il giudizio e la prudenza del prencipe è tale ch'egli solo de le nostre ragioni e de la mia fede potrà esser giudice e auditore conveniente; e avendone egli fatta esperienza in occasione di non minore importanza, non istimo che 'n questa come non buona debba esser riprovata o posposta a la vostra, la qual peraventura in altro non conobbe giamai che nel salario de' servitori e ne le spese de la casa: cura indegna de l'animo suo reale, ne la quale a voi sarebbe non molto malagevole l'ingannarlo, com'a lui non troppo molesto l'essere ingannato. Ma vengasi a le ragioni.</p>
+<p>	Vuole il Martello che l'ambasceria de la sua patria dal principe di Salerno debba esser rifiutata come disdicevole a la sua grandezza? Strana opinione, la quale non credo giamai ch'a que' cavalieri c'ho nominati sia ardito di confermare, né a voi medesimo, mio signore, se mai vorrà ripensare al vostro buon giudizio, molto ben da lui conosciuto. Forse si dee sdegnare il principe di Salerno d'esser napolitano? O Napoli può dargli maggior grado o 'n maggiore occasione di questa? Non è Napoli, o Martello, la vostra Fiorenza, la qual è madre de privati cittadini e de mercanti; ma principi sono, sono e' signori e cavalieri e uomini d'alto affare coloro che de gli onori suoi possono participare: e quello che l'ambasciator di Pirro, ritornando da l'ambasceria di Roma, rispose ad alcuni a i quali dimandavano che gli era paruto del senato romano, quel de' Seggi si può dire, cioè che ciascun d'essi paia un conseglio de molti re adunati insieme. Volete sapere in qual parte d'Italia sia la nobiltà d'Aragona e di Spagna? La trovarete co 'l sangue de' cavalieri napolitani mescolata dal lato del padre nel duca di Montalto e da quel di madre nel principe nostro e ne gli Avali e ne' Colonnesi loro parenti. Ricercate la progenie de' principi o quella de' Longobardi? L'una, che prima da la Scandavia ne la Lombardia e poi da la Lombardia a Napoli trapassò, risplende ancora pura e incontaminata ne' principi di Salerno e di Bisignano e in molti di casa Sanseverina; l'altra nel duca di Termoli, nel conte d'Altavilla e in quelli di Capova. Sete forse desideroso d'intendere alcuna cosa de' signori derivati da la Grezia? Trovarete ne' Castrioti la nobiltà de' principi d'Albania, e particolarmente quella del grande Alessandro, che fu l'ultimo lume del nome greco e l'ultimo riparo ch'avesse quella provincia contra l'arme turchesche. Ma se de la nobiltà francese o de la tedesca desideraste aver cognizione, credo che trovareste molte antiche stirpi che fiorirono sotto Carlo e Roberto, e molti di coloro che furono in grande stima a' tempi di Manfredi e di Federico. E se fra queste non sono quelle che si chiamano le sette case del regno o pur la Caraffa, la Caracciola e la Spinella, la Pignatella e altre somiglianti, o hanno l'origine non meno antica o non l'hanno d'altra parte che da questo nobilissimo regno: laonde sono in lui non altramente naturali che le piante ne la terra o le stelle nel cielo. Taccio de la casa Gonzaga, taccio de l'Orsina, taccio de la Colonnese, che ne l'altre parti d'Italia or sono grandi e nobilissime e in questa tengono i primi luoghi di nobiltà e di riputazione; non credo ch'ancora ne la città di Napoli ogni rampollo de l'antica nobiltà romana sia a fatto sterpato. Vedete che mescolanza è questa, o Martello. Non è quella certo, non è quella che, da' ladroni de l'essercito di Catilina i quali sopravissero a la morte del lor capitano e da' villani di Certaldo e di Signa e d'altre ville di Val d'Arno insieme raccolta, le mura de la vostra città ha riempiute. Non dee dunque il principe men prontamente accettare l'ambasceria de la sua patria che gli Appi o i Fabi accettassero quella de la patria loro.</p>
+<p>	Ma forse gli è dato questo ufficio ne la occasion d'alcuna picciola lite o 'n altra somigliante? Non vedete che qui si tratta de la quiete e de l'onore e de la salute de la città, e che 'l popolo ha preso l'arme e la nobiltà ministra al furor de la plebe il foco e le fiamme e ricusa apertamente d'ubbedire a' severi commandamenti di don Piero? Può forse la città mostrar nel principe maggior fede di quel ch'ella mostri? O può esser alcuna dimostrazion d'onore maggior che a questa, di dargli la cura de la quiete publica e del riposo universale?</p>
+<p>	Ma soggiungete: o daranno o non daranno al principe compagni? E gli daranno amici o non amici, nobili o ignobili? A queste dimande io rispondo: se non gli daranno, basta, come si legge, ch'ad un solo sia un solo ambasciatore; e la virtù del principe non ha bisogno di compagnia e, avendola, saprà usarla. Se saranno nemici, gli farà amici questo officio in guisa che non sarà necessario di riprender poi le nemicizie; s'amici, l'amicizia sarà più stabilita. Se fien tutti nobili, non sarà diversità d'opinioni o di voleri, ove sia tanta conformità di sangue; se parte nobili e parte ignobili, gli farà concordi il bene commune, né fie esclusa alcuna parte de la città, avegnach'egli fosse quasi ordinario ne l'ambasciarie ch'andasse un principale e gli altri di grado inferiore.</p>
+<p>	Ancora può avenir di leggieri che non gliele diano; ma se peraventura gli dessero un compagno così superbo come voi imaginate senza necessaria ragione e senza ragionevole argomento, potrà l'arroganza del vostro imaginato ambasciatore tenere occupato più nel pensiero de la propria ambizione che 'n quel del publico onore Ferrante Sanseverino, uomo d'animo grande, ma di giudizio non minore? Non sa egli che non è più degno colui che siede nel luogo più degno, ma che 'l più degno luogo è quello nel quale siede la persona più degna? Non sa egli, dico, che la dignità del luogo dipende da la dignità de la persona, non quella de la persona da quella del luogo? Sedeva Ciro a sinistra, e a destra ne' conviti si poneva i satrapi suoi; ivi nondimeno la sinistra era più degna perché Ciro vi sedeva; ma a destra sedevan gli Scipioni, e più onorata era la destra perché da gli Scipioni era presa e data a gli Scipioni. Sa egli parimente quel che voi ancora sapete, ma fingete forse di non sapere, che 'l magnanimo non è vago del fumo de l'ambizione ma de la luce de la gloria, non di seder più alto ma di operar più virtuosamente, non di lasciarsi gli altri a dietro per alterezza o per vanità ma di superarli di gran lunga con l'azioni nobili e onorate. Pavolo Emilio, uomo nobilissimo, non rifiutò ne gli antichi tempi, per giovar a la patria, la compagnia di Terenzio Varrone, uomo plebeo; né Fabio Massimo di partir l'autorità con Minuzio, al quale prima aveva commandato; e a' nostri tempi molti di nobilissima stirpe non ricusarono di ubbedire al Novarra e al signor Anton da Leva: e il principe nostro medesimo assai volte ha guerreggiato sotto capitano al quale per altra cagion che per servigio de l'imperatore non avrebbe ceduto. E ora, senza aver risguardo al ben de la patria, rifiuterà di vedersi non a destra, ch'a destra non gli porrebbe alcuno, ma a sinistra alcun nobile cavaliero, bench'io non nieghi ch'alcuno troppo altero se ne possa ritrovare? Laonde, per quel ch'a me ne paia, il Martello si troverà de la sua falsa estimazione oltre modo ingannato: e ciò sia detto di questo vostro decoro, del quale con sì poco decoro senza alcuna occasione avete voluto ragionare.</p>
+<p>	Or passiamo al pericolo di perder la grazia de l'imperatore; perché 'l rispetto de la spesa, la qual voi andate così minutamente considerando, sì come non potrebbe piegare a sé l'animo alto e nobile del principe di Salerno, così non voglio che possa tanto avilire la mia lingua che si degni di favellarne. Io non istimo che l'imperatore udirà le ragioni de' Napolitani più volentieri da alcun altro che da un nobilissimo principe di questo regno e a lui di stretto parentado congiunto; il quale s'è dimostrato molto più costante ne la fede ch'i principi suoi antecessori ne la ribellione: laonde non tanto da l'imperatore alcuno antico errore de gli avoli suoi quanto molti suoi nuovi meriti debbon esser considerati. Egli giovinetto con tre mila fanti pagati a sue spese e con ducento cavalli contra il duca d'Albania difese il regno; egli a la guerra di Frusolone dimostrò quella fede la qual si palesò più chiaramente con l'esclusione de gli accordi proposti da Vadamonte e con la morte del trombetta; egli, quando monsignor di Lutrecco pose l'assedio a questa città, scoprì fede e valore non minor di quella d'alcuno altro, ma con liberalità maggior di molti altri; egli ne le imprese di Francia fu seco e manifestò a gli occhi di Carlo Quinto quello che da la fama gli era stato prima apportato a gli orecchi; egli ne le guerre del Piemonte seguì il marchese del Vasto e fu compagno de le sue azioni e partecipe de le sue lodi; egli ne la perdita comune, essendo capitano de fanteria italiana, prese il capitano de la cavalleria francese e ne la comune vittoria pose così arditamente a rischio la vita, che prima avea riservata per servigio de l'imperatore; egli particolarmente riportò l'onore de la sconfitta ch'ebbe Piero Strozza; egli ne le vittorie di Tunisi fu vincitore con Carlo Quinto e con esso lui ritornò da l'Africa glorioso; egli ne' pericoli e ne' naufragi d'Algieri, sotto gli auspici de l'invitto e invincibile Augusto, co' venti e con l'onde e con la fortuna del mare intrepidamente contrastò; egli al fine si trovò seco a superare non solo l'arme potentissime de' Germani, ma il rigore de la stagione nemica e le nevi e i ghiaci quasi insuperabili di quella provinzia. E io, che 'n tutti pericoli il vidi con l'imperatore, ora ardisco d'affermarlo, ch'egli possa che che si sia senza pericolo con l'imperator ragionare.</p>
+<p>	Ma volgendo a voi il ragionamento, illustrissimo signore, se voi, come mi giova di credere, persuaderete a Cesare che compiaccia a la città ne le sue giuste dimande, niun trionfo de' Romani fu mai più glorioso di quel che sarà il vostro ritorno. Vi verranno incontra i principi, i cavalieri, i gentiluomini, i soldati, gli artefici e la plebe: non rimarranno indietro le donne, non i sacerdoti, non il clero; e la città tutta, le mura, dico, le torri, i castelli, i palagi e gli altri edifici mostreran desiderio di spiccarsi da la lor sede e di venire incontra al lor salvatore e al lor benefattore: a voi il titolo di padre de la patria sarà dato con una voce concorde, con universale sodisfazione da tutti i sessi, da tutti gli ordini e da tutte l'età. Ma ove altramenti avenga, non veggo qual danno o qual vergogna ve ne possa seguire: non merita riprension il medico il qual non sana, ma quel che non fa quel che dee per risanar l'infermo; non il nocchiero che fa naufragio o 'l capitano che perde la giornata, ma quelli a' quali per viltà o per ignoranza sono rotte le navi e sconfitti gli esserciti. Non sono molti anni passati che 'l marchese del Vasto, combattendo contra monsignor di Brisac, fu superato, e voi seco vi trovaste; ma perché l'uno e l'altro di voi non mancò a l'ufficio di prudente capitano e di valoroso guerriero, né egli né voi perdeste la grazia di Cesare o l'autorità la qual prima con la città avevate. Percioché non è la nobiltà napolitana la turba marinaresca d'Atene o pur la plebe de gli artefici fiorentini, che per ignoranza de' consigli de' principi e per inesperienza de l'arte de la guerra si lasci di leggieri volgere e rivolgere da' Cleoni e da gli Iperboli o da qualche pizzochero divoto del Savonarola; ma tale è che saprà molto ben distinguere quel che non s'impetrerà per difetto de gli ambasciatori e quel che per difficoltà de la cosa stessa non potrà esser conseguito: sì che 'ndarno vi propone il Martello gli essempi de l'ingratitudine civile, essendosi a bello studio dimenticato di tutti quelli de le a città grate a' lor cittadini.</p>
+<p>	Non vi rivolga dunque, eccelentissimo signore, vano sospetto da la vostra magnanima impresa; non sia vinto in voi desiderio d'onore da cupidigia d'avere; non crediate d'opporvi a Carlo Quinto, servendo a la città: poiché non va ambasciatore a Carlo Quinto chi Carlo Quinto cerca di contrastare. Muovavi l'obligo ch'a lui avete, al qual potete conservar la devozion di questo fedelissimo regno; muovavi quello ch'avete a la città, a la quale chi niega d'esser obligato, niega tutti gli oblighi di natura; muovanvi le sue preghiere. Udite sin qui le lacrime de le donne e de' fanciulli, le ragioni de' cavalieri e la voce e 'l consentimento di tutta la città e di tutto il regno di Napoli. Napoli elegge inanzi ad ogni altro per ambasciatore Ferrante Sanseverino, Napoli prega in così grande occasione Ferrante Sanseverino, Napoli ripone tutte le speranze de la quiete e de la salute in Ferrante Sanseverino. Però non è ragionevole, signor mio, ch'egli sia de la sua opinione ingannato o voi de la vostra gloria defraudato, per la quale non sete inferiore ad alcuno de' vostri gloriosi antecessori”. </p></sp>
+
+	<sp><speaker>A.N.</speaker><p> L'eloquenza del Tasso m'ha così rapito che, mentre avete letto, m'è paruto di vederlo e d'esser tra quelli auditori il favor de' quali egli mostrava desiderare; e niun n'udii giamai il qual movesse con maggior diletto; e se 'l suo signore non difficilmente è persuaso co 'l piacere, niuna arte più acconcia a persuadere poteva essere usata dal Tasso. Ma non m'ha dilettato e commosso egualmente l'orazion del Martello, o perch'egli vi ponesse minore studio, o perché l'animo mio fosse più inclinato al Tasso e a la causa ch'egli difende. Ma qualunque sia stata la ragione di questo rapto così piacevole, non m'è paruta l'orazion del Tasso così nuda de gli ornamenti d'Atene, percioch'alcuna volta l'ho veduta sparsa di que' lumi e di que' colori de' quali Isocrate, Demostene e gli altri mastri de l'eloquenza solevan sparger le loro orazioni. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quanto volentieri, signor Agostino, v'udrei un giorno di queste cose ragionare, de le quali Aristotele non par che tratti intieramente ne la sua <emph>Retorica</emph>; perch'io credo che ne parlereste in modo assai diverso da quello che suole essere usato da alcuni maestri del parlare, che vendono l'arte a prezzo. Ma ora in questa occasione non de' membri o de gli incisi o de' periodi o de le figure del parlare o de le sentenze desidero che discorriate, ma de le cose più tosto de le quali hanno trattato questi oratori. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ciò è più convenevol d'udire al figliuolo del signor Ferrante Gonzaga, il quale dee esser erede non solo de gli stati, ma de la virtù del padre. Ma io stimo che non tanto a noi si convenga cercare quel ch'è atto ad esser persuaso, quanto quel ch'è vero, perché, se 'l vero sarà ritrovato, si conoscerà più agevolmente quel che al vero sia somigliante; e se pure io non ritrovassi il vero, ma quel che par tale, non meno ritroveremo di quel che abbiano ritrovato molti altri: debbiam nondimeno ambeduo affaticarci per conoscer quanto più potremo la verità, la quale in queste cose particolarmente è molto incerta. Ma da qual lato cominciarem noi filosofando ad investigarla? forse da la considerazion de le ragioni c'hanno dette l'uno e l'altro oratore? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Da questa io stimo che si debba dar principio al nostro ragionamento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma voi, signor Cesare, che giovane sete e però di più fresca memoria, potete più facilmente ricordarvi di quel che i due oratori hanno detto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non perché io sia di memoria migliore, ma perché più volte ho lette l'orazioni, forse meglio me ne rammento: e a me pare che 'l Martello provi che sia orrevole e utile al principe il rifiutare l'ambasceria, e debito suo il preporre gli oblighi ch'egli ha a l'imperatore a quelli i quali ha con la città; e il Tasso rispondendo mi par che mostri che sia orrevole e debito ch'egli l'accetti, percioché può sodisfare insieme a gli oblighi ch'egli ha a Cesare e a quelli i quali ha con la patria, e de l'utile a pena par che faccia menzione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E che chiama debito il Martello, o signor Cesare? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quel che l'uom dee fare per alcun obligo, come si raccoglie da le parole che seguono. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quel che l'uom dee fare è onesto che sia fatto da lui? </p></sp>
+	<sp><speaker>C.G.</speaker><p> È senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E a l'incontra quel che onesto non è non pare che debba esser fatto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non a parer mio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque de l'onesto si disputa fra loro: e a l'uno pare onesto che 'l principe di Salerno rifiuti l'ambasceria, a l'altro non pare. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così segue da le cose dette da voi. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se l'onesto è quel che da loro è detto orrevole, è l'istesso: soverchio è l'un de' capi; ma forse non giudica il Martello che sia l'istesso. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io stimo che l'orrevole considerato dal Martello non sia quel ch'è onesto, percioch'egli considera quell'apparenza de l'orrevole il quale è obietto de l'ambizioso: ma quello per sé non è onesto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma il Tasso considera l'orrevole in questo modo o pur in diverso? </p></sp>
+	<sp><speaker>C.G.</speaker><p> In diverso, credo io: chiamando orrevole l'onesto medesimo o quel che segue l'onesto e vien dato a la virtù come suo premio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque assai meglio dal Tasso che dal Martello è considerato l'orrevole; e se quel che dee muovere i cavalieri a l'operazioni è l'orrevole in tal modo considerato, molto meglio è consegliato il principe dal Tasso che dal Martello. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Cotesto a me pare assai vero; nondimeno ne l'orazioni in genere deliberativo, ne le quali sogliono trattarsi le materie di stato, l'utile è il fine e quello per lo quale gli uomini di stato sogliono muoversi: laonde, se 'l Tasso l'ha tralasciato, non ha avuto tutto quel risguardo a quel che 'n questo genere par che convenga. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma credete, signor Cesare, che sian solamente oratori coloro che cercano di persuader molti, o pur anco coloro ch'un uomo solo vogliono persuadere? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questi ancora, percioché Cicerone non solo fu oratore quando parlò al senato, ma ancora quando ragionò davanti a Giulio Cesare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E colui che favella ad un solo dee considerare quel che può muovere un solo, come colui che ragiona a molti quel che può muover la moltitudine. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se la moltitudine è mossa principalmente da l'utile, vorrete credere che l'utile ancora principalmente muova alcun uomo particolare? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Tale potrebbe egli essere che per l'utile si moverebbe, e altri non si moverebbe per aventura. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E chi è colui che per l'utile non si muova? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'uomo magnanimo, ch'oltre tutte le cose esteriori stima l'onore e la gloria. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se tale fosse il principe di Salerno, assai bene avrebbe adempiuto il Tasso l'ufficio de l'oratore, il qual dee aver considerazione a la natura di colui co 'l quale ragiona. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai bene. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E la natura del principe di Salerno da chi meglio può esser conosciuta che dal Tasso, il qual sa tutti i secreti di quel signore: onde di lui si può dire che tenga ambe le chiavi del suo cuore e che le volga, serrando e disserrando, sì soavi che tolga ciascuno uomo del suo secreto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Da niun altro veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Onde, s'egli seco ha ragionato come co' magnanimi si ragiona, non debbiam credere che nel giudicar de la sua natura si sia ingannato. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non per quel ch'io stimo, perché tutte l'azioni di quel signore dimostrano ch'egli sia sì fatto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma chi a' magnanimi non ragionasse, dovrebbe aver l'onesto per fine de le sue persuasioni? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'onesto congiunto con l'utilità, se pur l'onesto è diverso da l'utile. Ma non estimo che si dovesse prepor l'onesto solamente, avegnaché difficilmente l'uomo che non è magnanimo sia persuaso a lasciar l'utilità per l'onore. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Se per questa ragione ciò fosse vero, non dovrebbono esser persuase le cose che sono difficili a persuadere; ma pur, quando Regolo persuase al senato romano che non riscotesse i prigioni, fra' quali era egli medesimo, par che persuadesse cosa assai malagevole. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Malagevole: nondimeno dal magnanimo a' magnanimi fu persuasa. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Stimate voi magnanima la moltitudine popolare? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non estimo, perché i magnanimi son pochi, come disse il poeta:
+
+<quote rend="block"><lg>
+<l>A' magnanimi pochi a chi il ben piace.</l>
+</lg></quote></p>
+</sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, s'in cosa difficile la moltitudine popolare è stata commossa, non pare ch'a' magnanimi sia stata persuasa. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quando Temistocle indusse il popolo de gli Ateniesi a lasciar la città e a montar su le navi, consigliava facil o difficil cosa? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Difficile. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nondimeno la persuase; e quando gli Elvezî furono persuasi da Orgetorige d'ardere le loro abitazioni e a passar ne la Gallia, malagevol cosa fu lor consigliata, nondimeno fu lor persuasa. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così avenne. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque non solo le cose agevoli, ma le male agevoli ancora possono essere consigliate, da quell'oratore massimamente che non sia popolare, come non è il nostro Tasso. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai vero or mi pare quel che dite. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma se l'oratore sì fatto parla in genere deliberativo, vi pare che possa esser chiamato con nome particolare di consigliero? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Mi pare senza alcun dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quale è il fine del buon consigliero? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Il bene di colui a chi consiglia, cioè la felicità umana e le sue parti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E fra le parti de la felicità diremo che sia principale l'onestà, o pur la potenza o alcuna de l'altre? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'onestà è tanto principale che, posta in una de le bilance, la trarrebbe seco a basso, quantunque fosse ne l'altra la signoria de la terra con tutti i suoi tesori. </p></sp>
+	<sp><speaker>A.N.</speaker><p> L'onesto dunque dee essere il fine di quell'oratore ch'insieme è consigliero, o pur l'onesto congiunto con l'utile, come dice Marco Tullio: perché coloro i quali vogliono che l'utile solamente si debba ricercare in ogni azione, distruggono quel ch'è bene per sé, come insegna Alessandro Afrodiseo, avegna che l'utile abbia sempre risguardo ad alcuna altra cosa e sia ricercato per quella; laonde chi ricercasse solamente le cose utili procederebbe in infinito: è dunque necessario che si stabilisca qualche termine o qualche estrema meta nel bene, altrimenti l'utile non rimarrebbe. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, s'era onesto ch'Augusto deponesse la monarchia, doveva Mecenate a ciò persuaderlo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Doveva. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Parimente a' nostri tempi, s'era onesto che l'imperatore rendesse al signore Francesco Sforza lo stato, doveva acciò esser consigliato. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Parimente, per quel ch'io ne creda. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se l'orrevole è onesto o 'l segue come l'ombra il corpo o 'l raggio la luce, assai buono oratore è stato il nostro Tasso, c'ha cercato con l'orrevole persuadere al principe ch'accetti l'ambasceria. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai buono veramente; né potevate trar da le mie dimande cosa alcuna che più di questa mi piacesse affermare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma oltre l'onesto, ch'è quasi l'orrevol medesimo, e l'utile ci sono altre cose da le quali si prende conseglio? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quando l'utile e l'onesto discorda, si suol dubbitare ne' consegli qual debba esser preposto, l'utile o l'onesto, e alcuna volta tra duo utili qual debba esser eletto più tosto, e fra duo onesti quale a l'altro anteposto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E oltre questi capi èccene alcuno altro, o pur questi sono a bastanza? </p></sp>
+	<sp><speaker>C.G.</speaker><p> A bastanza son veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Altramente nondimeno par che stimi il Martello, dal quale non è lasciato adietro il piacevole. Se voi sapete le parole, riditele o rileggetele. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ecco ch'io le rileggo: “Dal piacere e da l'onore del fine il fastidio e l'indegnità del mezzo potrebbe esser ricompensato”. Nondimeno io crederei che non si prendesse consiglio dal piacevole, come di quello obietto che muove subito e fa le sue operazioni a l'improviso. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma pur gli amanti prendono alcuna volta l'altrui conseglio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Voi dite il vero, e or mi ricordo che Didone prese quel d'Anna, e Carlo re di Napoli quel di Guido da Monforte. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E di qual cosa prendono conseglio gli amanti? De l'utile o de l'onesto, o de l'uno e l'altro paragonato insieme; o pur non si consegliano di sì fatte cose, ma del piacevol solo o del piacevole posto in comparazione con l'utile e con l'onesto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così stimo più tosto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E ne le vostre corti, signor Cesare, quando i vostri siniscalchi si consigliano co' cuochi quali vivande debbano più tosto porvi inanzi, prendon conseglio de l'onesto o de l'utile o pur del piacevole? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Del piacevol solo, credo io, o del piacevole posto in bilancia con alcun de gli altri. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E 'l buon padre di famiglia ne le sue fabriche si conseglia de l'utile o del piacevole ancora? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Del piacevole eziandio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se riguardarete le vaghezze di questo bellissimo giardino, conoscerete chiaramente che 'l proponimento del suo magnanimo signore non fu tanto di cavar alcuno utile de la moltitudine de gli alberi fruttiferi, quanto di ricrear l'animo affaticato di pensieri più gravi e di viver lietamente. Del piacevole dunque si prende conseglio non meno che de l'onesto: e può venire in contesa con questo e con quello. Ma talvolta ancora si suol dubbitare qual de duo piacevoli si debba sceglier più tosto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Si suole senza dubbio, onde si legge:
+
+<quote rend="block"><lg>
+	<l>Infra duo cibi, distanti e moventi</l>
+<l>D'un modo, prima si morria di fame</l>
+<l>Che libero uom le si recasse a' denti;</l>
+</lg>
+<lg>
+	<l>Sì si starebbe un agno infra due brame</l>
+<l>Di fieri lupi egualmente temendo,</l>
+<l>Sì si starebbe un cane intra due dame.</l>
+</lg></quote></p>
+
+<p>E tra due dame parimente si starebbe dubioso un cavaliero al quale l'una e l'altra piacesse egualmente, come ne le favole de gli Spagnuoli si legge ch'Amadigi di Grezia stesse fra Lucela e Arichea. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Al fine a l'una s'appigliò, lasciando l'altra. Ma ciò per questa strada ancora possiam andare investigando. Ditemi: colui ch'è avezzo di preporre il piacevole a l'altre cose ha fatto questo abito con elezione o senza? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Con elezione, percioch'ogni abito si fa con elezione, s'io il vero n'apparai. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma puossi fare elezione senza conseglio? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non si può.</p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque del piacevole ancora si fa conseglio. E 'l fece l'intemperante quando acquistò l'abito de la intemperanza. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare che senza fallo alcuno si possa conchiudere per le cose dette da voi. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Se non solamente tre, come volle Panezio, o cinque, come parve a Cicerone, ma molto più sono i capi de le cose de le quali l'uomo si consiglia seco medesimo o con gli altri, a qual debbiam ridur questo, se 'l principe di Salerno debba accettar l'ambasceria offertale da la città? </p></sp>
+	<sp><speaker>C.G.</speaker><p> A tutti mi par che si possa recare: percioché si può cercare se sia utile o se sia onesta cosa, e qual debba esser anteposta, o l'utilità di servire al re o l'onestà di servire a la patria; ed essendo utile l'una e l'altra e l'una e l'altra onesta, qual de' duo utili debba essere anteposto o qual de' duo onesti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma pur a qual d'essi più tosto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> A quello in cui si ricerca de' duo onesti, percioché di leggieri si discerne quanto sia più utile al principe di servire al re che quanto sia più onesto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quel ch'è onesto è insieme orrevole, perché, sì come detto abbiamo, l'onor segue la virtù alcuna volta non curante, alcune altre quasi a forza, come disse Claudiano:
+
+<quote rend="block"><lg lang="lat">
+<l>Ipsa quidem virtus sibimet pulcherrima merces</l>
+<l>Nil opis externae cupiens, nil indiga laudis, </l>
+<l>Divitiis animosa suis immotaque cunctis</l>
+<l>Casibus, ex alta mortalia despicit arce. </l>
+<l>Attamen invitam blande vestigat et ultro</l>
+<l>Ambit honor: docuit toties a rure profectus</l>
+<l>Lictor et in mediis consul quaesitus aratris. </l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>C.G.</speaker><p> Troppo è ch'ella non voglia l'onore, e basta ch'ella molto non se curi.</p></sp>
+	<sp><speaker>A.N.</speaker><p> A mio giudizio la virtù non segue l'onore come suo fine; ma, seguìta da lui, no 'l ricusa, anzi gli piace d'esser seguìta: laonde l'orrevole è piacevole. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Niun maggior piacere stimo che possano sentir gli animi nobili che quello de l'esser onorato. </p></sp>
+	<sp><speaker>A.N.</speaker><p> L'opinion dunque del Tasso in questa parte non è forse lontana da quella del Martello; ma non istimando egli le stesse cose orrevoli, non dee stimarle piacevoli. Ma lasciando ora ciò da canto e ricercando de l'onesto, credete ch'una cosa che sia onesta per sé possa divenire non onesta? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non istimo possibile che l'onesto possa divenir non onesto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Questa nondimeno è la cura de le cose famigliari, né sarebbe però onesto che l'uom per essa abbandonasse il governo de le cose publiche. </p></sp>
+	<sp><speaker>C.G.</speaker><p> In niun modo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E onesto è lo studio de le leggi, ma se uom per attender a le leggi lasciasse il prencipe, la più onesta cosa per la meno tralascerebbe. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E questo tralasciamento stimate voi onesto o non onesto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non onesto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, benché le cose oneste non posson divenir non oneste, nondimeno non è onesto antepor le meno oneste a le più oneste. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così estimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma ricercando quel che sia più onesto, il servire al re o a la patria, se ritroveremo l'una esser più onesta, non giudicheremo onesto che sia per l'altra tralasciata? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. Ma a me piace molto la distinzion de la patria libera e di quella ch'è serva legitimamente, e la ragione che 'l Martello adduce ne la sua orazione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Più onesto dunque stimereste di servire al re leggitimo ch'a la patria serva leggitimamente? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così stimerei, se voi pur altramente non giudicaste. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma ditemi: quali chiamate voi cose giuste? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quelle che son fatte con giustizia. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E prudenti? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quelle che con prudenza sono adoperate. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Forti ancora e magnanime chiamerete quelle in cui si dimostra la fortezza e la magnanimità? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Chiamerò. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque dite legitime quelle che son fatte con le leggi? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quelle, e non altre. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Legitimo re direte similmente colui il qual con le leggi è fatto re? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così nominerollo senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E che cosa stimate voi che sia legge? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Un ordine overo un decreto de le città o de' principi. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma gli ordini son sempre buoni, o possono esser rei alcuna volta? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Buoni e rei possono essere senza fallo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E le cose ree sono elleno giuste o ingiuste? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ingiuste. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma stimate voi che le leggi siano mai ingiuste in alcun modo, o più tosto convenevol vi par che le leggi sian sempre giuste? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questo mi pare assai più conveniente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque non è in tutto vero quello che poco anzi diceste, che le leggi siano ordini de le città, percioch'i belli e i buoni ordini solamente son leggi; e gli altri che non sono sì fatti non sono leggi in alcun modo, come c'insegna Platone nel <emph>Minosse</emph>.</p></sp>
+	<sp><speaker>C.G.</speaker><p> A così dotto maestro si può di leggieri prestar credenza. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Gli ordini dunque di molte città barbare e di molti tiranni non son leggi, quantunque sian dette leggi. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non per questa ragione, percioché non son giuste. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Stimate voi le cose giuste più preziose de l'oro e de le gemme o pur meno? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Più preziose. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E le cose preziose sono per tutto tali? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Alcune d'esse sono per tutto, altre no. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quali son più preziose, quelle che sono in alcun luogo solamente o quelle che 'n tutti? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quelle che 'n tutti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E l'oro e le gemme son di pregio in ciascun luogo, o pure in alcuno si stimano, in altro non si stimano? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'oro è di prezzo in ciascun luogo, e le gemme parimente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E in ciascun tempo ancora son preziose? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così giudico. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Se le cose giuste dunque son più preziose de l'oro e de le gemme, non una volta sola né in <add>un</add> sol luogo son preziose, ma per tutto e sempre. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così pare veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E s'alcuno, costretto da qualche necessità, facesse con alcun suo ordine che le cose ingiuste fossero ricevute come giuste, sarebbe simile a coloro i quali vogliono ch'i danari di cuoio siano spesi ne le guerre, i quali per sé nulla vagliono, ma per l'autorità di colui che commanda sono in prezzo fra coloro che debbono ubbedirlo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così pare assai verisimile. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma se tra gli Etiopi o fra' Tartari o fra quegli Indiani che nuovamente sono stati vinti da l'imperatore o da' suoi capitani, alcuno le nostre leggi rifiutasse e ardisse d'affermar che le sue fossero migliori de le nostre, come il suo detto riprovereste voi, o pur come il contrario gli provereste? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io per me niuna pruova migliore avrei che quella de l'arme, le quali sin ora assai felicemente sono state adoperate da' miei antecessori. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Felicissimamente: e particolar felicità è de la vostra nobilissima progenie l'aver sempre combattuto per la giustizia, cominciando da quel Luigi ch'estirpò la tirrannide di Passerino e fu primo tra' principi di Mantova, la cui signoria stabilì con tre gloriose vittorie. Ma noi, che filosofi vogliamo esser detti, come potrem ciò dimostrare? con l'arme nostre forse? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Con esse. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E arme nostre son le ragioni. Ma a me par ragionevol che ci siano alcune cose giuste per natura, altre per lege: e a voi che ne pare, signor Cesare? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'istesso. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E possiamo esser certi di non ingannarci, percioché questa è dottrina d'Aristotele nel libro primo de' <emph>Gran Morali</emph>.</p></sp>
+	<sp><speaker>C.G.</speaker><p> È dottrina del maestro di color che sanno. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Fu discepolo ancora di chi molto seppe e molto visse, ma più seppe che non visse: e se la vita fosse stata eguale a la dottrina, sarebbe stata più lunga di quella di Nestore e di Titone e d'Argantonio o pur di quel re de' Latini il quale, come scrisse Senofonte, visse ottocento anni. Ma non misuriam la dottrina con la misura de l'età, ma con quella de la ragione, ch'è giustissima misura. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così dee misurarsi. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Se dunque sono alcune cose giuste per natura, altre per legge, riporremo il giusto civile tra quelle che son giuste per legge, come fa Aristotele medesimo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi par convenevole. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma 'l giusto civile par che sia variabile, percioché le città assai spesso mutano gli ordini loro secondo l'occasione. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così aviene senza fallo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Da l'altro lato il naturale non si varia così agevolmente; pur, se crediamo ad Aristotele, esso ancora suol mutarsi alcuna volta, e aviene de la giustizia come de l'arte del saettare o del lanciare i dardi: perché, se tutti si sforzassero di lanciar con la sinistra, al fine diverrebbono mancini: nondimeno le destre parti per natura sono migliori de le sinistre. Così de le cose ingiuste son migliori le giuste, le quali, tuttoché sian per natura, nondimeno possono cadere: giusto dunque per natura, come pare ad Aristotele, non è quel che dura sempre, ma quel che dura lunghissimo tempo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Dunque non sarà sempre giusto il difender la patria e la fede, né sempre giusto l'onorar il padre, ma potremo avezzarci a l'essere ingiusti con l'essercitazione, come ci avezziamo ad esser mancini. </p></sp>
+	<sp><speaker>A.N.</speaker><p> La giustizia di queste cose non è ancora caduta da la sua degnità, ma è eterna come son gli ordini del cielo e de le stelle: laonde Aristotele o non iscrisse in quel luogo la sua opinione o si mutò di parere, o non intendiamo come quel ch'è giusto per natura in alcune cose suol cadere, in altre non cade giamai. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io so come sia caduto quel ch'è giusto per natura ne' matrimoni, perché, se fu lecito a' re persiani di sposar la madre o a quelli d'Alessandria e di Soria la sorella, ora a' gran re non son convenienti né quelle nozze né queste. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Altro essempio ancora non meno acconciamente si può addurre: percioch'essendo giusto che la terra nutrisca ciascuno che ci nasce, a tutti dovrebbe esser lecito cogliere i frutti ovunque siano prodotti; ma per la divisione de le terre e de' beni non è lecito, né fu giamai in alcun regno o in alcuna republica, se non forse in quella a cui diede le leggi Platone. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Né in quella ancora, se ben mi soviene, se non con molti rispetti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Di ciò non v'ingannate punto. Ma la divisione de' beni, così diseguale come noi la veggiamo, è peraventura operazione de le leggi, perché la natura tutti ci produsse nudi e poveri egualmente; o s'elle non la trovarono, almeno la confermarono con la loro riverenda autorità. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così avenne. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Quel dunque ch'era giusto per natura ora non è giusto per legge. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non per mio parere, ma è ingiusto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Tuttavia ancora è giusto per natura, benché sia ingiusto per legge. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Potrebbe esser di leggieri. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E questo, s'io non sono errato, volle intender Proclo Licio quando egli disse: “Quel ch'è per natura giusto è sempre giusto”. E la medesima opinione ebbero altri Platonici e Platone stesso, a cui non contradice Aristotele: perché l'un vuole che quel ch'è giusto per natura sia sempre giusto, l'altro che 'l giusto per natura alcuna volta caggia e divenga ingiusto per legge. E s'altro senso hanno le sue parole, gran malagevolezza porta seco la quistione: ma Plutarco mi conferma ne la mia credenza, perch'egli dice che l'esser temperato e filosofo e avere scienza d'Iddio è sempre il medesimo. Ma se non è alcuna varietà o alcuna mutazione o alcuna incostanza nel temperamento e ne la filosofia e ne la sapienza, non dee esser ne la giustizia. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Costantissima senza fallo esser dovrebbe la giustizia, ma la costanza ne l'ingiustizia è gravissimo peccato. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Le cose dunque per natura giuste saranno sempre giuste per natura, bench'alcune d'esse sian talora ingiuste per legge. Ma tutte non sono per aventura sì fatte: altrimenti la fede, ch'è il fondamento de la giustizia, potrebbe divenire ingiusta, e giusto il tradimento. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Giusto fu per aventura quel di Zopiro o di Sinone. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma il tradir la patria non è divenuto giusto, né per aventura diverrà per alcuna legge. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non si può imaginare alcuna legge così crudele e tirrannica. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E s'io chiedessi ad Aristotele se 'l barbaro, ch'è servo per natura, possa giamai signoreggiar giustamente, non so qual risposta egli mi facesse; ma se rispondesse che de' barbari non può esser per natura alcuna giusta signoria, ne seguirebbe che 'l giusto per natura fosse eterno, non solamente durevole; se difendesse l'altra opinione, minor autorità avrebbe la sua dottrina. Ma voi dovete ricordarvi ch'egli fra le spezie del regno pone tra' barbari alcune tirrannidi legitime, le quali, benché sian giuste per legge, nondimeno per natura non deono esser riputate giuste. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Me ne sovviene; ma non estimo ch'ad Aristotele potesse parer giusto assolutamente l'imperio di Serse o di Dario, tuttoch'i padri e gli avoli fossino stati grandissimi re. </p></sp>
+	<sp><speaker>A.N.</speaker><p> I barbari adunque dovrebbono sempre obbedire, né sarebbe giusto che i Tartari o gli Etiopi o gli Indiani comandassero a' migliori di loro, ove i nemici non perdessero ogni virtù ed essi a l'incontra l'acquistassero. Ma divenendo migliori, ragionevolmente potrebbono comandare, e giusto sarebbe il loro imperio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così senza dubbio mi par che si possa conchiudere. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E s'alcuna legge non sarà conforme a la giustizia naturale, non sarà giusta, né sarà veramente legge, benché sia così chiamata, ma un ordine o un decreto più tosto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Vero dite per quel ch'ora a me ne paia. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque alcuno, secondo questi decreti commandando, commanderà ingiustamente; e s'alcuno gli ubbedirà, ingiustamente gli ubbedirà. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questa conchiusione par che si tragga da le cose dette. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma s'alcuna città sarà soggetta ingiustamente, tutto che, essendo soggetta secondo alcun decreto, paia sottoposta legitimamente, dee il buon cittadino servire più tosto al signore o a la patria? </p></sp>
+	<sp><speaker>C.G.</speaker><p> A la patria. Ma Napoli e l'altre città d'Italia e di Germania non pare che sian così fatte, né stimo la signoria de' lor prencipi simile ad alcuna di quelle ch'or sono fra' barbari, o di quelle che già furono dette tirannidi legitime, ma le giudicherei più tosto somiglianti a quelle de gli Epiroti o de' Macedoni, i quali non fur numerati fra' barbari. E l'istesso direi di quelle di Spagna; e benché il re sia ora ne la grandezza eguale a quello che fu detto gran re, anzi maggiore, non gli è simile nondimeno in alcuna barbarica qualità, ma ne l'animo suo nobilissimo ha raccolte tutte le virtù ch'ornarono i greci e i romani imperatori: laonde non meritò tanta lode Traiano fra' principi gentili, o Teodosio fra' cristiani, quante egli fra tutte le nazioni, </p></sp>
+	<sp><speaker>A.N.</speaker><p> Verissimo è quel che dite de la virtù di Cesare: nondimeno, perché la ragion del Martello non è semplicemente vera, se bene non è inteso quel che sia leggitimo e come diverso da quel che pare, dee il buon re annullare ogni ordine non buono che per necessità abbia preso il nome di legge: come, passata la necessità, si sbandiscono le monete di cuoio e di carta e si battono quelle d'oro e d'argento purissimo. E s'alcuna opera è degna di Carlo Quinto, degnissima sarebbe questa di riformar le leggi de l'imperio e gli ordini del regno, accioché, avendo egli aguagliato Giustiniano ne la felicità de le vittorie e ne la moltitudine de' popoli soggiogati e ne l'ampiezza de' paesi sottoposti sotto l'uno e l'altro emispero e superatolo ne la disciplina militare e ne la prudenza del governare l'imperio e nel valor de la propria persona, in questa lode di riformar le leggi non gli sia inferiore. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Maggiore è senza fallo la virtù e la gloria di Carlo, perch'egli è stato presente ne la maggior parte de le guerre e de' pericoli, là dove Giustiniano guerreggiò per mezzo di Belisario e di Narsete e d'altri duci valorosi: laonde si può dire ch'i capitani facessero glorioso Giustiniano, ma Carlo abbia fatto gloriosi i suoi capitani. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Gran parte di questa gloria risplende ne la vostra casa, signor Cesare, e nel vostro legnaggio. Ma seguendo la nostra investigazione, stimate voi ch'ogni principe legitimo sia naturale? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non istimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E ch'ogni principe naturale sia buono? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Molto meno, perché di Vespesiano nacque Domiziano e di Marco Aurelio Commodo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma non abbiam noi detto che sono alcune cose giuste per natura? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Abbiamo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E le cose giuste per natura son giuste secondo la giustizia naturale, e quelle per legge secondo la legitima? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Parimente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E chi comanda con la giustizia è principe legitimo. Ma il principe legitimo è giustissimo, come disse Diotegeneo Pitagorico, e colui ch'è giustissimo dee esser re: perché nissun può esser re senza giustizia e nissuna giustizia senza legge, come parve al medesimo. Ma la legge è cagion facitrice de la giustizia, e 'l re è legge viva e, s'è lecito di così dir, naturale. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così estimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E per la giustizia naturale i più prudenti deono comandare a' meno. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così conchiudesti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E prudentissimo dee esser chi comanda a molti. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Oltre a ciò chi comanda con questa giustizia comanda secondo la legge de la natura, la quale è in se stesso. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Secondo quelle. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma chi comanda secondo le leggi de la natura è legitimo in qualche modo, perch'altrimenti la legge de la natura non sarebbe legge. </p></sp>
+	<sp><speaker>C.G.</speaker><p> È. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque chi comanda con la giustizia naturale è legitimo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E insieme prudentissimo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Tale. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E il prudentissimo è ottimo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ciò non si può negare per alcuno che pessimo non sia. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Quelli dunque che dianzi parevan principi per natura o naturali, non eran sì fatti. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non erano; ma tale senza dubbio è Carlo Quinto, de la cui bontà e de la cui prudenza giudicò senza animosità il marchese di Brademburgo, allora che, volendolo alcuni de gli elettori eleggere a l'imperio, il cedette volontariamente a colui che pareva nato ad esser signore. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nessun mai dopo Carlo Magno, o più tosto dopo Cesare Augusto, fu prodotto da la natura più atto a commandare a gli altri uomini di Carlo Quinto; laonde non solo prudentissimo fu il rifiuto del marchese di Brademburgo, ma giudiciosissima l'elezione de' principi elettori, quantunque s'opponesse a Carlo così alto e così degno re come per l'adietro avesse mai conteso per l'imperio. Ma le lodi de' prencipi grandi sono soggetto più tosto de' poemi e de l'orazioni de gli eccelenti scrittori che de la nostra investigazione; a la quale, se vi pare, possiam ritornar, signor Cesare. </p></sp>
+	<sp><speaker>C.G.</speaker><p> A me niuna cosa sarà più cara. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma che debbiam or ricercare? se più onesto sia di servire al principe per natura, il quale, come si disse, è buono e prudente, o di servire a la patria? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questo mi par che si debba ricercare, e non altro. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma stimate voi che sia l'istesso la patria e la città d'alcuno? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Stimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E chiamate città i castelli, le torri e tempi e i palagi e gli altri publici e i privati edifici, o pur la ragunanza de' cittadini? </p></sp>
+	<sp><speaker>C.G.</speaker><p> La ragunanza de' cittadini più tosto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E qual è più degna, la ragunanza di molti imperfetti o pur un solo principe perfetto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Un solo principe perfetto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma a chi è onesto che si serva più tosto, al più degno o al meno? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Al più degno. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque che si serva al principe perfetto più tosto ch'a la patria. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai per questa ragione è verisimile. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quale è il fine di colui che serve al principe? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'utilità e la riputazion del principe, e di colui che serve a la patria l'utile e l'onor de la patria nel medesimo modo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E l'onor e l'utile di ciascuno è suo bene? </p></sp>
+	<sp><speaker>C.G.</speaker><p> È senza fallo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma forse è impossibile che 'l ben del perfetto principe si discompagni dal ben de la patria. Laonde è vero quel che s'è conchiuso, ma per aventura è soverchio l'averne ricercato. Possiamo nondimeno ne l'istesso modo andar investigando se l'uno da l'altro possa esser separato: né sarà questa soverchia investigazione. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Anzi più tosto sommamente necessaria. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ditemi dunque: il ben di tutti coloro che per eccelenza di natura o d'artificio sono sovraposti ad alcuna ragunanza d'animali, non vi pare che consista o almen che si manifesti ne le operazioni? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ne l'operazioni più che 'n alcuna altra cosa. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E ciascuno che fa buone operazioni, è buono? </p></sp>
+	<sp><speaker>C.G.</speaker><p> È. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Or consideriamo l'operazioni de gli altri: e cominciamo dal pastore, il quale ne l'operazioni ch'egli fa come pastore mena a' buoni paschi le greggie, e s'egli ciò non facesse, non sarebbe buon pastore. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E questo stesso possiam considerare in colui ch'è sovraposto a gli armenti de' cavalli, de' quali non dovendo l'uomo nutrirsi, ma solo servirsi ne l'uso de la guerra e ne gli altri necessari a la vita umana, crudele sarebbe se gli uccidesse. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Crudele secondo il mio giudizio ancora. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E colui il quale ha cura de' cani dee aver considerazione a quel ch'è convenevole a simil natura, né solamente dar loro pane a bastanza, ma essercitarli ne la caccia e tenerli in servitù più tosto con le lusinghe che con le battiture. </p></sp>
+	<sp><speaker>C.G.</speaker><p> In tutte queste maniere d'animali io veggo che la buona operazione di colui che n'ha il governo è congiunta co 'l lor pro' in modo ch'è impossibile che sene discompagni. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque l'operazione del buon principe ancora dee esser fatta per benificio de' suoi soggetti. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così senza alcun dubbio mi par che si possa conchiudere. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E perché 'l suo bene consiste ne l'operazioni, non si può disgiungere da quel de' cittadini. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai stimo che questo sia ben provato. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se tra l'altre arti e la civile è alcuna differenza, come pare a Iamblico, sono differenti, perché ne l'arti si cerca l'utile de gli inferiori, ne la civile la comune utilità del principe e de' sudditi egualmente. Ma la signoria vuol solamente il pro' de' superiori: laonde l'imperio, il quale, come vuol san Tomaso, è un governo misto de l'una e de l'altra specie, dee volere l'uno e l'altro insieme. Dunque, se fia utile del buon imperatore ch'egli riceva alcun dono da la città e gli imponga alcun tributo, sarà parimente ben de l'imperio o de la città; e quando avenga ch'egli le metta alcuna gravezza, dee il buon cittadino sostenerla in quella guisa che 'l camelo per le stanchevoli arene sostien la soma che l'è stata posta a dosso, il quale, quando più non può, non co 'l ricalcitrare ma con l'inginocchiarsi dimostra ch'egli non è bastevole a portar maggior peso. E a l'incontra, se è pro' de' soggetti che 'l principe gli allegerisca d'alcun peso, è parimente pro' del principe: e come il mulattiere non carca mai tanto il mulo ch'egli possa cadere, e se 'l vede in alcun pericolo, accorre prontamente e con pietose mano il disgrava, così il buon principe non dee mai gravar di soverchio i cittadini, e se conosce che siano in necessità, dee esser presto a sovvenirli di conveniente aiuto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai certo mi par quel che dite. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Già a pieno abbiam provato signor Cesare, che 'l bene del prencipe non possa esser discompagnato da quel de la città, né quel de la città da quel de' prencipi. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Compiutamente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Di que' prencipi nondimeno intendiamo i quali son buoni: e se colui che legitimamente signoreggia è buono, è impossibil cosa che 'l bene de la città signoreggiata si divida dal suo in alcuna maniera. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E a l'incontra, se 'l principe non è buono, può esser disgiunto, e allora il buon cittadino dee anteporre il ben de la patria al ben di chi signoreggia ingiustamente. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma vogliam noi contentarci de le cose dette sin qui e lasciar ch'altri l'applichi al soggetto di cui si ragiona? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai facile mi par l'applicazione, percioché Napoli è una di quelle città il cui bene non sia disgiunto da quel del suo re, il quale è non sol leggitimo ma naturale e ottimo re. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Napoli dunque, prendendo precipitosamente l'arme e minacciando di morte coloro i quali dal re son posti al suo governo, non ha dirittamente giudicato del suo pro' e peraventura ha fatta operazione simile a quella d'alcuni infermi che vaneggiano per frenesia. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai simile veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E s'è giovevole a l'infermo essere sforzato e dato in mano al medeco, utile sarà parimente di questa città ch'ella sia sforzata ad ubbedire a coloro che deono commandare; e quantunque scelerato sia quel figliuolo ch'osa di por la mano ne la sua patria per farle violenza, nondimeno, se ella è perturbata da ira soverchia o da altra infermità, può esser riputato pietoso chi le fa forza, sì come ne consiglia Platone. Ma perché gli infermi, come dice Ippocrate, sono pieni di rincrescimento e di fastidio, deono esser visitati da medico amico, il quale non gli desperi, ma gli accresca la speranza, e, s'uno solo non basta, da molti, perch'in ogni copia si ritrova l'inopia: non altrimenti Napoli potrebbe esser di ciò compiaciuta. E se voi foste un di coloro, signor Cesare, le dareste tra gli altri medici il signor don Piero? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io per lo molto rispetto che porto a quel signore non l'escluderei dal governo d'alcun stato, benché mi fosse lecito di farlo, e ringrazio Iddio di non esser di coloro c'hanno alcuna parte nel governo de la città, perché da l'una parte mi sarebbe assai grave il non compiacere a le sue voglie, da l'altra poco meno mi spiacerebbe il fare alcuna cosa che potesse esser noiosa al signor don Piero. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Lasciam dunque da parte la considerazion del medico, s'a voi così piace, e parliam de la midicina. Credete voi ch'a' corpi di complession diversa o pur infermi di vario morbo sian convenevoli le medicine stesse o pur l'istessa ragion di vivere? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non: percioché molte fiate la medicina che suol risanare un corpo suole accrescer il male de l'altro, e quella ch'a l'un suol esser dannosa suol a l'altro recar giovamento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma la complessione, o la temperatura che vogliam dirla, di Napoli vi par simile a quella di Spagna o pur diversa? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Per quel ch'io so d'Ispagna, posso affermare che i cavalieri spagnuoli, e que' di Siviglia particolarmente, siano assai simili a' napolitani nel valore e ne la leggiadria, e le donne parimente ne la beltà e ne l'accortezza: laonde non so perché non fosse convenevole l'istessa medicina o l'istesso modo di vita. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Voi mi rispondete quasi sorridendo e, mostrando di non bene intendere quel ch'io dimando, rivolgete quasi in giuoco l'essempio del medico. Ma se considerarete più minutamente gli umori de la Spagna e di Napoli, assai diversi, e l'infezion de l'una di queste provincie, vedrete ch'il mio essempio è assai buono: laonde il medicamento e 'l modo de la vita dee essere in qualche parte mutato. Non vi sia grave dunque di rispondere a quel ch'io vi dimanderò. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Voi mi piacete altrettanto discorrendo quanto dimandando: però vi prego che vogliate dirmi quel che vi pare de la somiglianza de l'una e de l'altra. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Io soglio alcune volte dimandare altrui molte cose, non tanto perch'a me siano ignote, quanto per essercizio di coloro a' quali l'addomando. E s'alcuna cosa è ben ritrovata da noi o aggiunta a quelle che da gli altri sono state ritrovate, m'è caro d'aver compagno ne la fatica e ne l'onore. E ora, signor Cesare, quantunque a l'alta vostra condizione paresse più convenevole ch'io così ragionassi come è mio costume di fare a le volte per dare onesto trattenimento a' gran prencipi, nondimeno il vostro bello ingegno e l'inclinazione ch'avete a le lettere m'invitava a favellar con esso voi non altramente ch'io soglia con gli scolari e con gli amici miei. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ne l'uno e ne l'altro modo troppo m'onorate; ma io, non perché mi sia grave il rispondere, ma perch'alcuna volta non so che rispondere, volentieri udrò da voi nel cominciato proposito quel che vene paia. </p></sp>
+	<sp><speaker>A.N.</speaker><p> O sia questa la cagione o più tosto il rispetto che suol ritenere gli altri principi vostri pari, quando v'aggrada, rispondete, e tacete quando vi piace. E io ora seguirò il ragionamento con quella libertà la quale altre volte non è stata noiosa a l'imperatore, com'a colui che non era spagnuolo, ma fiamingo di nazione: e quantunque egli fosse spagnuolo, è monarca e, conoscendo che si conviene al monarca acquistare egualmente gli animi di tutte le nazioni, non meno ha giudicati degni del suo favor gli Italiani de gli Spagnuoli o de' Fiamenghi. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io m'apparecchio intentamente ad ascoltarvi; e se la libertà del parlare fu mai lecita in alcun luogo o con alcuna persona, è in questo e con la mia: laonde securamente potete usarla. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Non fu mai, signor Cesare, alcuna città bene instituita in cui la relligione e l'onor d'Iddio non fosse introdotto. Questo uso nondimeno di punir così aspramente coloro c'hanno alcuna nuova opinione ne la fede e diversa da quella che tengon i principi de le città, è moderno anzi che no; percioché ne l'antichissima relligione de gli Ebrei i prencipi del popolo seguitarono l'opinioni ch'erano approvate da' Farisei: due altre sette nondimeno eran tolerate, quella de gli Esseni e quella de' Saducei, tuttoch'i Saducei non credessero l'immortalità de l'anima e i premi e le pene de l'altra vita. Fra' Romani ancora, bench'i senatori seguitassero ne le publiche cerimonie la relligione instituita da Numa, molti nondimeno palesemente non solo difendevano l'opinioni de gli Stoici e de' Peripatetici, ma quelle d'Epicuro ancora, né però eran cacciati di Roma o dal governo de la republica. E la medesima licenza fu fra' Greci; e quantunque Pericle fosse calunniato al popolo e Socrate condannato e Aristotele per questa medesima cagione prendesse essilio volontario, nondimeno sono assai pochi in rispetto de' molti ne' quali è stata sopportata la licenza de la vita e la novità de le opinioni. Ma poi che la religione cristiana ebbe principio e accrescimento sotto l'imperio de' Romani, gravissimamente fu perseguitata non solo da gli imperatori malvagi, ma da' migliori eziandio, percioch'essi giudicavano che 'l suo accrescimento potesse portar mutazion di stato e al fine esser cagione de la ruina de l'imperio romano: e questo stesso mosse gli imperatori, dapoi che divennero cristiani, a castigar gli eretici con grandissima severità, e ultimamente Carlo Quinto ha raccolto un grande essercito per acquetar i tumulti de la Germania. Né per altra cagion che per questa debbiam credere che ne la Spagna sia essercitato l'ufficio de la inquisizion con tanto rigore: conciosia cosa ch'essendo gran parte de la Spagna stata posseduta lungamente da' re mori e vicinissima a l'Africa, da la quale è molto facile e molto breve il passaggio, era convenevole che con diligente studio e con severe dimostrazioni s'estinguessero tutti i semi de l'opinione moresche e de l'ebraiche parimente, le quali, per la gran quantità d'Ebrei mescolata co' Mori ch'era in Ispagna, avevan infettata e contaminata in alcuna parte la fede di quella nazione. Niuna severità soverchia dunque poteva essere usata in Ispagna, e 'l corpo infermo di quella provincia, voglio usar di nuovo quella similitudine che voi quasi vi prendeste a gioco, aveva bisogno di medicine gagliarde e di medico diligente. Ma un'altra provincia, altramente disposta e composta d'altra complessione e d'altri umori, non risanerebbe sotto gli istessi medici, o almen con le stesse medicine, e particolarmente il regno di Napoli, il quale non ha bisogno d'alcun rimedio sì fatto, perché 'n lui non è alcuna contaminazion eretica né alcun mescolamento di nazioni infedeli né alcuna pratica co' nemici de la fede cristiana: e s'abitarono già in lui i Saraceni di Nocera, or sono in guisa estirpati che se n'è quasi perduta la memoria, non solamente il sospetto; né può temer alcun danno da l'Africa per quelle stesse cagioni per le quali poteva temerne la Spagna. Non negherò già io che non possano ritrovarsi in lui alcuni luterani o altramente eretici; ma questi sono così pochi e di così poca autorità che non possono esser cagione d'alcuna mutazion di stato, né città è peraventura in Italia che ne sia meno sospetta. Ma perché due sogliono essere i fonti de la eresia, l'uno la natural ragione, l'altro la maligna interpretazion de la Scrittura, assai più pericoloso par questo secondo, percioch'ogni inganno procede da alcuna simiglianza; laonde, quanto maggior similitudine è ne le opinioni, tanto più agevolmente la peste de l'eresie suole appigliarsi. Queste eresie ancora son più pestifere percioché quasi sempre sogliono esser accompagnate da alcuna animosità: però è ragionevole ch'ad esse si ponga maggior cura; l'altre furono forse più pericolose in que' tempi ch'i regni e le monarchie erano in poter de' gentili, come dice Dante:
+
+<quote rend="block"><lg>
+	<l>Questo principio male intese forse</l>
+<l>Il mondo tutto, sì ch'Apollo e Giove,</l>
+<l>Mercurio e Marte a nominar trascorse.</l>
+</lg></quote></p>
+
+<p>Né solo poteva esser molto dannoso in que' tempi ne' quali l'autorità de' legislatori e 'l consentimento di molte nazioni prestò molta credenza e diede gran forza a l'idolatria, ma ancora ne' tempi di Gregorio papa, ne' quali, benché il mondo avesse ricevuta la fede di Cristo, nondimeno la pestilenza de l'idolatria non era men sospetta ch'or sia quella de l'eresia luterana. A ragion dunque quegli idoli che da la legge vecchia erano stati vietati furono da quel santissimo padre guasti e disfatti. Ma ora il mondo è in istato che non dea temer ragionevolmente d'ammorbarsi per alcuna gentilità o idolatria: s'altri non volesse aver considerazione a' paesi ritrovati di nuovo oltre la colonne d'Ercole e 'l mare Atlantico ne l'altro emisferio, ne' quali così le statue de gli iddii sarebbono oggi periculose com'erano anticamente ne le parti del mondo conosciuto. Pur l'Italia, che già poteva temerne, ora n'è sicura, e più tosto dee guardarsi dal morbo de' Luterani o de' Calvinisti: come nel verno, nel quale l'uomo s'empie di pituita, si dee guardare da' morbi pituitosi, ma ne la primavera, in cui suol crescere il sangue, ch'egli non esca soverchiamente dal naso, o pur da la difficoltà de gli intestini, e ne la state similmente; ma ne l'autunno, cominciando l'uomo a raffredarsi e 'l sangue di nuovo a diminuirsi, sogliamo purgar co' medicamenti la maninconia, la quale è potentissima in questa stagione. Oltre acciò sono, come dice Ippocrate, alcuni morbi propi de' luoghi e quasi nati con esso loro; e questo di cui parliamo non pare ch'abbia potuto fare alcuna grave infezione in Italia, e particolarmente nel regno di Napoli: laonde non ha bisogno di simil medicamento. Questa è la mia opinione, signor Cesare, detta in quel modo ch'a voi è piaciuto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> E a me non solo il modo, ma l'opinione è molto piaciuta. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma poi ch'a voi tocca di ridurmi a mente le parole de gli oratori, con quali dice il Martello che Carlo è non sol re ma imperatore? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Con queste: “Per legitima successione è signor di questo regno, ma per elezione de gli elettori e per confermazion del pontefice imperatore?” </p></sp>
+	<sp><speaker>A.N.</speaker><p> Né sono queste peraventura degne di poca considerazione, percioché, sì come al principe si conviene aver per obietto il bene de la città, così a l'imperatore dee proporsi il bene de l'imperio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così è ragionevole. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma 'l bene de l'imperio contiene in sé quel de la città, come la città medesima è contenuta da l'imperio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non altramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se questo è vero, come la natura dà morte a le cose particolari per conservazion de l'universo, così la giustizia legitima, che è imitatrice de la naturale per la conservazion de la monarchia non suole aver risguardo a quella de la città. </p></sp>
+	<sp><speaker>C.G.</speaker><p> In ciò non commette errore. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Anzi questa città stessa dovrebbe volontariamente espor la salute sua per la salute de l'imperio in quella guisa che 'l braccio alcune fiate suol ricever le ferite de la testa, ne la cui salute la sua è contenuta. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai mostrerebbe d'amar il publico bene, se ciò facesse. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nondimeno come queste cose stiano, è molto difficile da conoscere; e percioché questa città è una parte de la monarchia di Carlo, mi pare che don Piero, che n'ha la cura, si possa assomigliar a que' medici che sogliono medicare alcune solamente de le parti del corpo: e come gli infermi ne' mali più gravi, ne' quali si suole aver risguardo non solo a qualche membro particolare, ma a tutto il corpo, chiamano il fisico il quale gli purga, così stimo che Napoli in questa occasione debba richiamarsi a l'imperatore, il quale ha il governo di tutta la monarchia. Niuna cosa nondimeno in questo proposito mi pare che sia stata ben accennata dal Martello, a la quale il Tasso abbia contradetto; ma forse non si dee tanto dubitare se Napoli debba mandare ambasciatori, quanto chi debba mandare. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare, perché 'l sospetto nel quale il Martello mostra che possa essere il principe per la fazione, non è mica così picciolo che non meriti d'esser considerato. Volete che noi rileggiam le parole? </p></sp>
+	<sp><speaker>A.N.</speaker><p> Assai mi ricordo di questo punto; ma non è tanto leggiera la ragione che 'l Tasso adduce a l'incontra da' servigi fatti dal principe a l'imperatore che non possa allegerire ogni antico sospetto. Ricerchiamo, signor Cesare, se fosse altra cagione di sospetto la qual potesse render la persona dal prencipe meno atta a questo ufficio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> C'è quella de l'antiche male sodisfazioni di cui fa menzione il Martello. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Quelle stesse cose dunque, o signor Cesare, che ne la bocca d'alcun altro potrebbono esser credute, ne la sua perderebbono molto di fede, né sarebbe in alcun modo ascoltato, se volesse render sospetta la cupidità o l'ambizion di don Piero. Ma quali furono le cagioni de le male sodisfazioni tra 'l principe e 'l viceré? l'ambizion forse de l'uno e de l'altro? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Mi par che si raccolga da quelle parole del Martello ne le quali egli dice che 'l prencipe, per ischivare ogni atto di soverchia umiltà, s'è ritirato da le visite del viceré. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma se questa suspizion non è proceduta tanto oltre che ci sia nato alcun sospetto di vita, estimo che 'l prencipe assai possa allegerire ogni sospetto di nimicizia co 'l prevedere che 'l popolo non tenti alcuna cosa contra la vita del viceré, come intendo che sin ora ha fatto: e forse ogni sospetto rimoverebbe, se fosse di tanta autorità co 'l popolo che potesse far quegli effetti ch'appresso il vostro poeta fa quel gravissimo cittadino:
+
+<quote rend="block"><lg lang="lat">
+<l>Ac veluti magno in populo cum saepe coorta est</l>
+<l>Seditio saevitque animis ignobile vulgus, </l>
+<l>Tum pietate gravem ac meritis si forte virum quem</l>
+<l>Conspexere, silent arrectisque auribus adstant: </l>
+<l>Ille regit dictis animos et temperat iras. </l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>C.G.</speaker><p> E s'è alcuno ch'abbia autorità co 'l popolo, è certo il prencipe; ond'a lui più ch'a niuno altro si conviene d'adoperarla.</p></sp>
+	<sp><speaker>A.N.</speaker><p> Piaccia a Dio ch'egli l'adopri in guisa che questa città deponga l'armi, e tutte le demostrazioni sue siano pacifiche. E a questo più ch'ad alcun'altra cosa devrebbe il nostro Tasso persuaderlo: percioché, se co 'l principe suo signore andasse a la corte mentre il popolo ritien l'arme, che potrebbe egli rispondere a monsignor d'Aras o a don Luigi d'Avila o a Consalvo Pers, s'in questo modo gli favellasse? Per ch'è venuto, o signor Tasso, il vostro padrone? O come oserà per quella città ragionare, la qual armata minaccia al viceré? Onde gli vien questo ardire, da l'autorità ch'egli ha con la città o pur da quella la qual ha con Cesare? Se da la prima, perché non l'ha mostrata in servigio del suo re? Se da l'altra, ditemi ancora: ond'è proceduta questa autorità, da' meriti de' suoi antecessori o da' suoi propri? Da quelli nascer non può in alcun modo: percioché, quantunque i suoi maggiori fosser signori di molto valore, il dimostrarono assai più spesso contra la casa d'Aragona che per lei; da questi non negherò mai ch'ella non possa esser nata; nondimeno niun merito avrebbe con l'imperatore se prima il re cattolico con reale clemenza a non gli avesse perdonati i difetti da gli avoli suoi e per grazia ricevutolo nel numero de' più fedeli servitori e parenti. S'in quella stessa clemenza confida, ragionevolmente confida; ma qual altra grazia gli pare che meritin da l'imperatore <add>i</add> Napolitani, ribelli e sediziosi, di quella che meritò la città di Guanto, sua patria? Pensi dunque, o signor Tasso, il principe vostro molto bene quel ch'a lui si convenga di chiedere a l'imperatore in questa occasione. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io non so quel che 'l Tasso ragionevolmente a queste parole potesse rispondere. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, signor Cesare, se non potesse il principe persuadere a la città ch'ella deponesse l'arme, non dovrebbe il Tasso al principe persuadere ch'egli da lei accettasse l'ambasceria.</p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai prudente mi pare il vostro conseglio, e tra quel del Tasso e del Martello temperato: e quantunque più amiate l'uno de l'altro, non mi pare che per affetto siate mosso a giudicar de le loro opinioni. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Amico è l'uno e l'altro, ma più la verità, la qual vorrei che dal principe fosse ben conosciuta. Ma s'avenisse ch'egli ricusasse questa ambasceria, dee nel ricusarla proporsi l'util proprio o quel de la patria? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questo più tosto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se l'util de la patria può esser congiunto con quel del re, come dicemmo, dee il prencipe in modo ricusar l'ambasceria ch'egli il manifesti, che per utilità de la patria la ricusa, proponendo altri più atto, co 'l mezzo de' quali potesse più agevolmente esser essaudita? </p></sp>
+	<sp><speaker>C.G.</speaker><p> In tal a modo, credo io, e non in alcun altro. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E in questa occasione non mancheranno al prencipe parole illustri, con le quali possa dimostrare l'amor ch'egli porta a la patria e la prontezza con la quale esporrebbe la vita per lei, se fosse necessario. E vorrei che fosse qui ora il Tasso o 'l Martello, il quale queste parole c'insegnasse; ma poi che né l'uno né l'altro ci si ritrova, che debbiam fare, o signor Cesare? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Seguir il nostro ragionamento, se non pur vi piace con quelle stesse parole qui ragionare, con le quali credete che 'l principe fosse udito più volentieri. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Né 'l prencipe con le mie parole piacerebbe forse a' Napolitani, né io con l'altrui a me medesimo: laonde a me parrebbe che queste cose che si sono dette del principe e di Napoli e del viceré e de l'imperatore, assai incerte per l'incertitudine del soggetto del qual si ragiona, né meno periculose, devessero esser ridotte a gli universali, ne' quali considerandole, non solamente sarà più facil la determinazione, ma ancora senza offesa d'alcun particolare. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Aspetto d'udirla. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Brevemente l'intenderete: ché al paragone di duo onesti ridur si dee la quistione “se 'l buon cittadino debba servir più tosto a la patria ch'al suo re naturale”; nel qual paragone se sceglierà la più onesta de le parti come dee, sceglierà insieme quel ch'è più orrevole e piacevole. Ma impossibile è che, servendo al re, non serva a la patria insieme, perché 'l bene del buon re da quel de la patria non può esser disgiunto in alcun modo; e se 'l re è buono, è insieme legitimo e naturale. Né questo si dee intendere più d'un re che d'un altro o più in uno che 'n uno altro tempo o più in uno che 'n un altro luogo: percioché senza alcuna circonstanza di tempo e di luogo è buono il re che per sé è buono, e parimente naturale e legitimo secondo le leggi de la natura, per le quali i più prudenti commandano a' meno prudenti. Laonde, conoscendo quel ch'è per sé giusto e leggitimo, cercherà che sia esseguito; e le cose de le quali per l'incertitudine del soggetto non si può render sempre l'istessa ragione, governerà con la sua prudenza, come deono esser governate a beneficio de' soggetti. E s'egli sarà non solo re ma monarca, posporrà sempre il bene particolare d'alcuna città o d'alcun regno al bene universale di tutto l'imperio. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io ho udito la determinazione, la qual benché mi sia molto piaciuta, come quella che s'è quasi alzata da l'incertitudine de' particulari a la certezza de gli universali e ritirata dal pericolo ch'è nel parlar de gli uni a la sicurezza con la quale si favella de gli altri, mi spiace nondimeno che 'l vostro ragionamento abbia sì tosto fine: percioché, quantunque io non sappia se parte alcuna ci manchi, nondimeno sono ancor vago d'intendere alcuna cosa: come stia il piacevole con l'onesto e con l'orrevole; percioch'il Martello accenna che sia un de' fini che posson muover il principe a l'ambasceria, e potrebbon muover altri parimente. E l'intendere è con mio grandissimo piacere: e questo diletto da molti altri è accompagnato, da quelli, dico, che a ha seco il luogo stesso, il quale è molto piacevole e c'invita a seguire il ragionamento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Il mormorio di quella fontana risuona un non so che d'estivo e di canoro e fa così dolce concento con quel de le fronde de gli alberi e co 'l canto de gli ucelli che ben si pare che la natura è miglior maestra de la musica che non è l'arte umana; e oltre a ciò è così vago a riguardare che niuno altro obietto più grato può appresentarsi a la vista. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Molto m'è caro, signore Agostino, che le bellezze di questo giardino tanto vi piacciano: e a me piacciono egualmente. Ma nondimeno niun altro piacere e mi par che possa esser agguagliato con quel del vostro ragionamento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quando voi udiste l'orazion del Martello, sentiste ancora gran diletto? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Grande. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E grande ancora il sentite quando la vostra fortuna vi concede che possiate ragionar con la vostra donna? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Senza alcun dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma qual fra tutti è maggiore? O pur è sciocchezza la mia, ch'io voglia far alcun paragone con quel ch'avete ragionando con l'idolo del vostro cuore? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Certo io non voglio negare ch'egli maggior non sia de gli altri; nondimeno è assai malagevole il far paragone fra le cose che non sono d'una specie stessa, come non mi paiono questi piaceri: percioché, quando io sono con la mia donna, mi sento sempre commosso e agitato, né senza grandissimo movimento ho udite le orazioni, e quella del Tasso particolarmente; ma mentre voi avete ragionato, io non ho sentito alcuna perturbazione. Onde, se quel diletto è maggiore il quale ha maggior forza, gli altri saranno maggiori; ma se quel si dee più stimar ch'è più puro e più semplice e senza amaritudine, niun altro può esser agguagliato con quel del nostro ragionamento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Vi pare che 'l nostro parlare abbia acquetati alcuni di que' moti che l'orazion de gli altri aveva commossi? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Mi par veramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E chi può quetare i movimenti d'un altro è men possente di quello i movimenti del quale acqueta? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non è ragionevole ch'egli sia men possente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Non dee esser dunque giudicato men possente il piacere che v'acqueta l'animo di quegli altri che ve l'hanno commosso? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non per questa ragione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma credete che 'l mio ragionamento potesse acquetare in voi i movimenti che da la vostra donna sono in voi cagionati? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Peraventura potrebbe; ma tanto quelli sono più dolci de gli altri che la quiete m'apporterebbe noia e rincrescimento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nuova cosa odo da voi veramente, percioché ciascuno ch'è in moto desidera il riposo e si muove per riposarsi, quando che sia, e voi solo ne' vostri amorosi muovimenti non desiderate d'acquetarvi. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Forse i moti de l'anima mia son simili a quelli del cielo, onde debbiam credere ch'ella sia discesa: però non è maraviglia ch'ella, sempre movendosi, sempre desideri di muoversi, e sia quasi la sua quiete nel movimento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Tuttavolta il cielo in guisa si muove che possiam dire ch'egli sia sempre in se stesso, né cerchi alcuna cosa fuor di sé. Ma l'anima vostra, movendosi, non pare che resti in voi, ma cerca la vostra donna ch'è fuor di voi. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Anzi io la ricerco pure in me stesso, perché non è in alcun'altra parte meglio impressa, e in me vorrei ritrovarla in guisa ch'io ne sentissi perfetto piacere. E comeché ciò non mi sia conceduto di fare, non si muove mai l'appetito mio verso lei, ch'io non senta in quel movimento alcun piacere. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma vogliam cercar la natura del piacere ne l'altre cose acciò che possiam conoscere quel ch'egli sia, perché, se prima si ricercasse quale egli sia, si confonderebbe l'ordine; o pur cominciar da la prima questione, s'egli sia? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ordinate, come vi pare, il ragionamento, bench'il ricercar s'egli sia mi par soverchio, perché è noto sino a' fanciulli e a le mute bestie, le quali, non potendo manifestarlo con la voce, l'accennano come possan meglio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Questo medesimo prova che egli sia; perché, desiderandolo tutte le cose, non può esser alcun dubbio ch'egli non sia. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Per certo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quel ch'è desiderato da tutti, conviene non solamente ch'egli sia, ma che sia qualche bene o ch'almeno paia a quelli ch'il desiderano. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Se da tutti è desiderato, a tutti parrà bene o sarà più tosto: perché non mi par ragionevole che tutti possano ingannarsi nel desiderare il bene, ove alcun pur s'ingannasse. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Per questa ragione provava Eudosso non solamente ch'egli fosse bene, ma che fosse il sommo bene, avegnaché sia eligibile e da tutti eletto per sé, e l'altre cose siano elette per lo piacere; ma egli non s'elegge per alcuna altra, né fu mai dimandato ad alcuno a che fine si dia buon tempo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Nessun dubbio mi pare in quel che voi dite. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Tutta volta chi dice ch'il piacer è quello che da tutti è desiderato o da tutti eletto o eletto per sé, non ci manifesta ancora quel ch'egli sia; ma queste deffinizioni son date communemente a la felicità, la quale è quella che tutti desiderano, ed è quasi un segno a cui son dirizzati tutti i nostri pensieri e quasi una meta la quale è preposta al corso di ciascuno. Laonde ancora non sappiamo niuna cosa più distintamente de la natura del piacere, e cercheremmo troppo frettolosamente s'ogni piacere sia buono, come vogliono Aristippo, Eudosso, Epicuro, Metrodoro e i Cirenaici, o perch'egli sia contrario al dolore, ch'è reo, o perché faccia perfetta ogni nostra operazione, o perch'accresca la bontà di tutte l'altre azioni o per qual si voglia altra ragione, o pur s'ogni piacer sia reo, come mostrò di credere Platone, o s'alcun piacere sia buono, altro malvagio, come c'insegna Aristotele. Ricerchiam dunque prima quel ch'egli sia. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ricerchiamne. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Onde aviene che, bevendo o traendoci la sete, noi sentiamo piacere? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Perché sentiamo riempire un cotal quasi mancamento il quale è in noi, e ci par quasi di ritornare ne l'esser nostro naturale. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E per questa medesima ragione ci par di sentir piacer quando ci satolliamo. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Per questa. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque direste che 'l piacere del mangiare e del bere sia un riempimento d'alcun difetto o un ritorno ne lo stato naturale, come disse Platone. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Direi senza fallo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E perch'ogni ritorno è movimento, il piacere ancora di sì fatte cose è movimento. </p></sp>
+	<sp><speaker>C.G.</speaker><p> È a parer mio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Buona dunque ancora è la definizione che di lui diede Epicuro, ch'egli fosse un movimento piacevole ne' sensi. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma 'l piacer che si prende de la lode e de la buona fama direm che sia riempimento, o pur quel che prendete parlando con la donna vostra? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Per alcuna cagione mi par che si possa dire: perché l'animo è sempre digiuno di quel cibo del qual, ragionando con esso lei, pasco gli spiriti miei famelici. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E molto più agevolmente mi concederete ch'egli possa esser detto un piacevol movimento. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non solo da un moto, ma da molti in quel punto sono agitato: perché da l'una parte mi tira a sé il desiderio de la sua bellezza, da l'altra mi ritrae quasi in contrario il rispetto di non offenderla; e mille altri affetti sono ne l'animo mio in quel tempo medesimo, i quali tutti son movimenti e quasi contrari fra loro, e commuovono in guisa l'anima che, non potendo la ragion frenarli a sua voglia, appaiono segni manifestissimi de l'interna agitazione e, per così dire, de la tempesta e de la battaglia del cuore. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma questo diletto così vario e così mescolato vi fa egli qual solete esser nel vostro stato naturale o pur diverso? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Diverso assai. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Adunque non par vero ch'ogni piacere sia un ritorno ne lo stato naturale? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non per questa ragione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E quando voi sentite quel vostro mescolato diletto, gli affetti sogliono ripugnare a la ragione? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Sogliono, perch'io non sono più savio degli altri o men combattuto da le passioni. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque egli sarà più tosto un moto contrario a la natura ch'un movimento verso la natura, e una partita da se medesimo, non un ritorno a se stesso. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io non sono più atto a resistere a le vostre ragioni ch'a l'amorose passioni: laonde a questa volta voi medesimo vi risponderete, o elleno si rimarranno senza risposta. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Forse debbiam concedere che ci sia una potenza superiore a la ragione, a la quale il piacere amoroso non ripugna; e se da lui sarem rapiti in quel modo che s'accenna in que' versi:
+
+<quote rend="block"><lg>
+<l>Rapto per man d'Amor, né so ben dove,</l>
+<l>Doppia dolcezza in un volto delibo,</l>
+</lg></quote></p>
+
+<p>non ci porterà egli contra la natura, ma sovra lei: perché, sì come il foco, movendosi verso il mezzo del mondo, si muove a forza contra la sua propria inclinazione, che l'inalza a l'estremo, ma, girando a torno co 'l cielo, non fa moto violento né contrario a la natura, ma sopranaturale, così l'appetito ragionevole, essendo tirato a basso dal concupiscibile, è quasi sforzato; ma s'egli è rapito con la somma parte de l'intelletto, divien quasi divino: laonde divegnamo simiglianti a l'intelligenze. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questa opinione assai più mi piace, perché tutte l'operazioni de l'umana ragione sono assai più basse di quelle che fa l'intelletto rapito da bellezza. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nondimeno è gran dubbio se questa potenza si debba concedere o se, concedendosi, alcun piacere amoroso sia nel rapto o segua dopo da lui; ma ad altro tempo riserberemo questa quistione o la concordia di queste cose, ove in alcun modo possano accordarsi. Or, se vi piace, signor Cesare, per una altra strada piana e acconcia al nostro proponimento andremo investigando la natura del piacere. Ditemi adunque, mio signore: il movimento è di quelle cose che si fanno in tempo, o de l'altre più tosto che son fatte subito? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Di quelle che si fanno in tempo senza alcun dubbio: perché, se ben mi ramento de le cose udite, il tempo è misura del movimento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Il piacere vi pare di quelle che si fanno in tempo, o più tosto simigliante a la vista, la quale in ciascun tempo è perfetta, e niente le manca? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Spesso mi pare a questa simigliante. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Tutti nondimeno confessiamo ch'il piacere in alcuni è maggiore, in altri è minore; e s'egli è sì fatto, o è movimento o si fa co 'l movimento: laonde debbiam dire che due sian le generazioni, l'una del composto, il quale per sua perfezione ha bisogno di molte cose dissimili, come l'edificio di qualche tempio o di qualche palagio; l'altra, che nel suo esser perfetto non richiede cose di specie dissomigliante, come la generazione del lume e de la vista. E se 'l piacere è generazione, è sì fatta generazione. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Al lume dunque e a la vista è simile il piacere. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Senza fallo; ma ditemi ancora: credete voi che ci sia alcuna vista che diletti senza perturbazione? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Le viste de' laghi e de' fiumi e de' monti e de le selve e del mare ci danno piacere senza perturbarci, e la vista d'un cavaliero armato, o di molti, e d'uno essercito e d'un popolo sogliono alcuna <add>volta</add> dilettarci senza spavento. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Il diletto dunque che di sì fatte viste prendete non sarà movimento. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non sarà. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Né quello che sentite per lo mormorar de l'aure e de l'acque e per lo canto degli ucelli. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Né quello. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E questo piacere avrà la sua perfezione per l'oggetto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma per la potenza ancora dee esser perfetto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così estimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se l'occhio di colui che rimira non fosse sano, sentirebbe dolore e fatica nel rimirare anzi che no: e l'istesso diremo de l'operazioni degli altri sensi, ove siano offesi gli instrumenti. </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'istesso senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se l'operazioni si facessero intorno ad obietti spiacevoli come è il rimirar infermi e cadaveri o fiere orribili e spaventose o come quelli descritti da Dante:
+
+<quote rend="block"><lg>
+<l>	Lingue diverse, orribili favelle,</l>
+<l>Parole di dolore, accenti d'ira,</l>
+<l>Voci alte e fioche e suon di man con elle,</l>
+</lg></quote></p>
+
+<p>sarebbono similmente spiacevoli.</p></sp>
+	<sp><speaker>C.G.</speaker><p> Spiacevoli senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque in quelle operazioni solamente diremo che sia gran piacere, le quali si fanno senza impedimento e hanno obietto piacevole. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se l'intelletto ha la sua propia operazione, è assai ragionevole ch'abbia il proprio piacere. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ragionevolissimo: e già v'ho detto che 'l vostro ragionare m'apporta grandissimo diletto, del quale s'alcuno è più veemente, niuno è più sincero. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Il piacer puro è simile a quello d'Iddio e de l'intelligenze, al quale non è mescolato alcun dolore; ma perfettissimo piacer, così per rispetto de la potenza come de l'obietto, è quello de la nostra mente, ove ella si rivolga a gli obietti eterni. Ma voi peraventura non minor piacere sentireste se vi si porgesse occasione d'operare simile a quella a la quale il prencipe dal Tasso è persuaso, o a quelle altre le quali gli uomini forti e magnanimi prendono così volentieri. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non minor per certo; ma tanto forse maggiore quanto l'operazioni sì fatte più si convengono a cavaliero. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Se 'l piacer dunque si sente sempre ch'alcuna potenza si volge ad obietto piacevole senza impedimento, che direm ch'egli sia? L'operazione stessa non impedita; o più tosto, in quel modo che da la giovinezza germoglia, per così dire, il fior de la bellezza, così da l'operazion non impedita nasce il piacere che la fa perfetta, il quale è forma de l'operazione non come abito intrinseco ch'appertenga a la sua essenza, ma come forma, la qual sopragiunga di fuori, e come suo fine. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Se quel che dite è vero, come io stimo, piacerà a Dio ch'io sempre operi con tanto piacere con quanto ora v'odo ragionare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Questo vostro udire anch'esso è una operazione, quantunque non sia forse di quelle che maggiormente son desiderate da l'animo vostro generoso. Ma lasciando ciò da parte, de' duo modi co' quali abbiam del piacer ragionato, quale debbiam creder che miglior sia, quello di Platone, che 'l pone nel ritorno a lo stato naturale, o questo, tenuto da Aristotele, che 'l mette ne l'operazione non impedita? </p></sp>
+	<sp><speaker>C.G.</speaker><p> L'uno e l'altro m'è piaciuto molto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, se quel che prima ne discorremmo è stato ben detto si può concordare in qualche modo con quello che poi è stato conchiuso. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così è ragionevole. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E forse in questo modo debbono, signor Cesare, le cose esser conosciute com'elle sono o pur come non sono? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Come sono senza alcun dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, se perfette sono, non possono esser conosciute se non come perfette; e a l'incontro, s'elle sono imperfette, non altramente si conoscono. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Assai vero mi pare cotesto che voi dite. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E la cognizion de le cose perfette sarà perfetta, e imperfetta quella de l'imperfette: laonde, se la diffinizion ci fa conoscer le cose, ci dee far conoscer l'une e l'altre come sono. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Buona sarà la diffinizione sì fatta a mio parere. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Quella dunque che si dà al piacere imperfetto ce 'l dee manifestare quale egli è. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Tale, e non altramente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma il piacer de le cose che non sono ne lo stato loro perfetto è più tosto imperfetto, com'è il piacer de gli assetati, che per soverchio di sete sempre desideran di bere. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Senza alcun dubbio imperfetto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se gli amanti sono infermi, come si legge ne' vostri poeti:
+
+<quote rend="block"><lg>
+<l>Lasso ben femmi, e assetato e 'nfermo,</l>
+<l>Febre amorosa, e un pensier nudrilla</l>
+<l>Che, gioia imaginando, ebbe martiro,</l>
+</lg></quote></p>
+
+<p>il piacere è parimente imperfetto e quasi medicina de l'amore; e medicina ancora sono i cibi e beveraggi, gli uni de la fame e gli altri de la sete. Ma questi non son gli ottimi piaceri: laonde a gran torto Aristippo ed Epicuro e Metrodoro e i Cirenaici posero in loro l'umana felicità. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Degli altri non parlo, quantunque siano eletti per se stessi e desiderati da ciascuno; ma il piacere amoroso è tale che molti amanti si reputano felici. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Gli amanti sono infermi; però hanno il giudicio corrotto e non possono giudicare intieramente de la beatitudine: parlo di quelli amanti ch'amano le bellezze del corpo o sole o principalmente. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Se gli amanti sono ammalati come voi dite, lor si conviene più ch'a ciascuno altro di far ritorno nel suo stato naturale. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Sia di ciò quel che vi pare, basta ch'in ogni ritorno è un cotal moto o una cotal mutazione. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma questa medesima definizione non converrebbe al piacer de le cose che sono ne lo stato loro perfetto, sì come a quelle che son nel movimento non è convenevol l'altra: percioché 'l piacere è quello che rende perfette l'operazioni non impedite, o siano del senso o de l'intelletto o d'altra potenza, e non ogni piacere, come estimavano Eudosso ed Epicuro, ma 'l propio solamente; percioché 'l piacere strano <add>è</add> più tosto impedimento de l'operazioni, come quello del suono de' leuti o d'altri instrumenti impedisce quel de' ragionamenti. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Ciò è molto ragionevole. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ogni potenza adunque, operando, fa perfette l'operazioni co 'l piacere. Ma le potenze son distinte in quelle che conoscono e in quelle ch'appetiscono; e se le potenze le quali conoscono hanno le sue proprie operazioni, deono averle ancora quelle ch'appetiscono: dunque non solo l'intendere le cose vere o 'l veder le belle o l'udir le soavi, ma 'l desiderar le piacevoli e l'adirarsi son forse dilettevoli operazioni; anzi, come disse prima Omero e dapoi confermò Aristotele, l'ira è più dolce del mele. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Tali a me paiono senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nondimeno ne le potenze le quali conoscono il piacere è altrimenti ch'in quelle ch'appetiscono: perché ne le prime è puro e semplice, e s'alcuno instrumento non è offeso, non suole esser perturbato da dolore o da altra passione; ma ne le seconde è mescolato con dolore e con altro affetto. Laonde, quando porremo il piacer nel movimento, avremo risguardo a quel de l'operazioni imperfette a, se pur operazioni vorrem chiamarle, e non più tosto mutazioni o generazioni; quando ne lo stato, a quel de le perfette. Ma ne l'un modo e ne l'altro secondo diversi rispetti bene è stato diffinito, e assai abbiamo de la sua natura conosciuto, più tosto dichiarato quel che da altri prima fu conosciuto; percioché Cicerone ancora e altri antichi filosofi conobbero due specie di piacere, l'una nel movimento, ch'è nota sino alle bestie, l'altra ne lo stato e ne la quiete, che da loro fu detta indolenzia. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Io non intesi mai di lui tanto, comech'io non nieghi d'averne altre volte sentito più. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Se la natura del piacere molto meglio s'intende che non si sente, assai vi dee piacer, signor Cesare, d'averne oggi inteso tanto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Cotesto puote esser vero; nondimeno par che ripugni ad una voce quasi universale de la natura, la qual con maravigliosa armonia esce da i fonti e da l'onde del mare e da' fioriti rami de gli alberi e da le spelunche coperte d'edera, e da tutte le cose sensibili risuona dolcemente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Già non niego che non vi possa parer di sentir questa voce, perch'a molti altri parve di sentirla, e a me similmente, tutto che sia così vecchio, mormorando da questi rami e da queste fontane. Nondimeno, intendendo quel ch'a l'incontra se ne ragiona a l'intelletto, potete richiamar voi stesso da l'operazioni esteriori a l'interiori: e vi consigliarei quasi che vi turaste gli orecchi, come fece Ulisse al canto de le sirene, se ora il giudicassi così pericoloso come quando ragionate con la vostra donna. Ma perché questo mormorio non impedisce che la mente possa far sue operazioni, si può ricercar la verità di quel c'ho detto. Ditemi dunque: che può esser meglio conosciuto, quel ch'è più perfetto o quel ch'è meno? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Quel ch'è più perfetto. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma quale stimate più perfetto piacere, quello che fa perfette l'operazioni de l'intelletto o pur quello che rende perfette l'operazioni del senso? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Senza alcun dubbio il primo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque molto meglio può esser conosciuto. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così è ragionevole. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma come si conosce egli, intendendo o sentendo? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Intendendo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque, intendendo meglio che sentendo, possiam conoscer la natura del piacere, la qual tale è quale dimostrato abbiamo ne l'operazioni de l'intelletto e in quelle del senso; e percioché l'azioni che si propongono a' principi sono fatte con quella parte de l'intelletto ne la quale è la prudenza, queste ancora come l'altre possono esser congiunte co 'l piacere. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Possono a mio giudicio; e saranno tanto più felici quanto elle da maggior piacer si troveranno accompagnate: laonde non mi pare sconvenevole quel che 'l Martello, quasi di passaggio, tocca del piacer del fine. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Non certo; tuttavolta egli il tocca di nascosto, come si sogliono le cose non lecite, quasi egli stimi che l'azione debba esser non sol piacevole, ma fatta per lo piacere: per quel, dico, che sogliono aver gli domini cupidi d'onore, d'essere onorati, il quale da Senefonte fu assomigliato a quel che sentono gli iddii. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così potrebbe parer ad alcuno; e s'egli intende di quel piacere che si trae dal vero onore, il quale è ragionevole e moderato, assai buona estimo la sua opinione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma credete voi che ci sia alcuna scienza de l'onore per la qual si possa sapere s'egli sia l'istesso che l'onesto o pur diverso? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Credo che ci sia senza dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E parimente che ci sia alcuna scienza d'operar le cose oneste o non oneste? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Parimente. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma presuppognam, signor Cesare, che 'l piacere da le buone operazioni possa separarsi, e consideriamo s'egli per sé possa esser quel bene al quale tutte l'operazioni sono dirizzate. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Consideriamo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Istimate che 'l sommo bene sia quello il quale di niuna cosa ha bisogno, ma contiene in se stesso quel ch'è bastevole a pieno? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma se noi prenderemo la scienza o 'l piacer separato, qual d'essi direm che sia per sé bastevole? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Nessuno. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque niun d'essi è il sommo bene? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Non per questa ragione. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma qual credete che sia più partecipe di quel ch'è sommo bene? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Più la scienza. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Dunque elegereste più tosto di sapere quel ch'Anassagora sapeva o pur quel che da lui Pericle suo discepolo n'imparò, che di vivere in tutti que' piaceri ne' quali visse Sardanapalo? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Senza alcun dubbio. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E se 'l sapere fosse fra' tormenti d'Anassarco, giudichereste che dovesse esser più stimato de tutti i piaceri che si sentisser mai ne le cene de' re de la Media o pur ne le camare de le lor concubine? </p></sp>
+	<sp><speaker>C.G.</speaker><p> Giudicherei senza fallo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E amareste meglio aver quella ch'insegnò a Muzio d'arder la mano e ad Orazio di guardare il ponte, ch'i piaceri i quali sentì Clodio nel tempio d'Iside o Marc'Antonio ne la regia di Cleopatra; e preporeste i dolori artetici del marchese Francesco avolo vostro paterno, sopportati con sì forte e con sì grande animo tra i pericoli de la guerra e de la prigionia, pur quel d'Ercole vostro avo materno, il quale
+
+<quote rend="block"><lg>
+<l>Co 'l piè mezzo arso al suo vicin rinfaccia</l>
+<l>Che 'l campo volto a Budrio gli fermassi,</l>
+</lg></quote></p>
+
+<p>a' diletti di qualunque vivesse giamai più delicatamente. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Devrei preporlo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> E la morte ancora di Pelopida, d'Epaminonda, di due Deci, di Pavolo Emilio e di Marcello o pur di quel di Davalo, che morì parimente per l'insidie africane, a la vita di molti che vissero lungamente con piacere. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Per fermo. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma a l'uom forte son moleste le ferite e la morte, e le sopporta suo malgrado; benché, s'onesto fosse, le soffrirebbe volentieri e a la morte sarebbe apparecchiato, come già furono tanti altri a' tempi nostri e de' nostri padri, la memoria de' quali da' principi e da le republiche grate con ogni maniera d'onore fu celebrata. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Questo animo senza alcun dubbio è convenevole a la stirpe di cui son nato: e credo ch'egli mi potrà mancar più tosto l'occasione ch'egli mi venga meno giamai. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Nondimeno più si desidera la fortezza con la felicità accompagnata, la qual si conobbe nel marchese Francesco a la giornata del Taro, quando egli s'oppose al re Carlo Nono, vincitor de l'Italia, e 'l costrinse a lassar gli impedimenti e a passar il fiume quasi fuggitivo; ma più chiaramente si manifestò in Federico suo figliuolo, il qual, essendo capitan general de la Chiesa, restituì a la Sede apostolica Parma e Piacenza, occupate da' Francesi, e dapoi, passando il Po, ruppe l'essercito de' Viniziani e costrinse i Milanesi a ricever Francesco Sforza dentro le mura. Che dirò del signor don Ferrante vostro padre, che sotto Tunisi passò un capitan de' Mori con un colpo di lancia da l'una a l'altra parte, ed egli non ebbe offesa alcuna? che del signor Gonzaga, il quale in tante battaglie dove è stato vittorioso non ha perduta stilla di sangue? che di tanti altri del sangue vostro, antichi e moderni? </p></sp>
+	<sp><speaker>C.G.</speaker><p> La fortezza ne l'aversa fortuna porge peraventura maggior maraviglia, ma con la prospera più si desidera e più tosto s'elegerebbe, se fosse così in nostro poter l'esser fortunati come forti. </p></sp>
+	<sp><speaker>A.N.</speaker><p> Ma s'ella per sé non è bastevole, assai felice è colui che co 'l piacere la può mescolare: la qual mescolanza è molto convenevole a la natura de l'uomo, percioché ella ancora non è semplice, ma composta. Ecco, io v'ho mostro i fonti, l'uno quasi di mele e l'altro d'acqua purissima, a' quali potrete trarvi la sete in modo che nulla v'avanzerà da desiderare. Voi l'umor de l'uno con quel de l'altro mescolate in quel modo ch'i vostri felici antecessori hanno fatto; ma v'avertisco che prima caviate l'acqua da quel del sapere, perch'altramente molto pericolosa sarebbe la mescolanza. E se 'l Martello o 'l Tasso in altro modo che 'n questo volesse persuadere il principe, male il persuaderebbe. Ma certo l'orazion del Tasso mi pare che volentieri debba esser letta e ascoltata ne le città bene instituite; e s'alcun oratore verrà giamai, il quale, facendo questa mescolanza, tragga dal fonte del sapere la prima e la maggior parte, assai dovrà essere prezzato: e piaccia a Dio ch'a' cavalieri napolitani non manchino oratori e orazioni sì fatte, i quali lor persuadono a le buone operazioni e a quel piacere che da esse e da la gloria suol derivare. E qui abbia fine, s'a voi pare, il nostro ragionamento, perché il sole, omai vicino al tramontare, raccoglie i raggi che sovra la terra aveva seminati. </p></sp>
+	<sp><speaker>C.G.</speaker><p> Così voglio che facciamo; e molto mi piace d'avere spesa con voi gran parte di questa giornata, così e grave e piacevol ragionamento, il quale, se da me ad alcuno sarà raccontato, credo ch'il farà pronto a le laudevoli azioni. </p></sp>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il Cataneo overo de gli idoli</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>68 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000296</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="fre">Francese</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+
+
+<p>Al molto illustre signor Paolo Grillo
+mio signore osservandissimo.</p>
+
+
+<p>Molto illustre signor mio,</p>
+
+	<p>Nè speranza di premio desiderato nè gratitudine di ricevuto dono possono più movermi de la vostra nobiltà e de la virtù per la quale io vi ho stimato meritevole di onore e di laude; laonde ora vi dedico questo mio dialogo de gli idoli, quasi un certissimo segno de l'opinione ch'io porto, acciochè, leggendolo, veggiate in qual guisa più convenevole si possano lodare i padri e gli avoli de' principi e de gli uomini illustri ne la republica, ne la quale il valor de' vostri maggiori è stato risguardevole molte centinaia d'anni, risplendendo come oro finissimo, che non patisce alcuna ruggine per l'antichità. Piacciavi dunque, signor mio, d'accettarlo in vece di statua, perch'egli sia tanto più durevole d'ogni opera che facciano gli scoltori, quanto meglio si conserva la memoria ne le scritture che ne' marmi o ne' metalli. E vivete felice.</p>
+	<p>Di Vostra Signoria molto illustre</p>
+<closer>
+affezionatissimo servitore
+
+<signed>TORQUATO TASSO.</signed>
+</closer>
+</div1>
+
+
+
+<titlePage>
+<docTitle>
+<titlePart type="main"> IL CATANEO OVERO DE GLI IDOLI
+
+</titlePart>
+</docTitle>
+</titlePage>
+
+<castList n="Interlocutori"><head><emph>Interlocutori</emph>:</head> <castItem type="role"><role>IL SIGNOR MAURIZIO CATANEO,</role></castItem> <castItem type="role"><role>FORESTIERO NAPOLITANO,</role></castItem> <castItem type="role"><role>IL SIGNOR ALESSANDRO VITELLI. </role></castItem></castList>
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<sp><speaker>M.C.</speaker><p>Questa fonte, quantunque non sia quella maravigliosa di Tivoli, nè alcuna altra la quale o per artificio de la natura o per natura de l'arte divenga più famosa a' tempi nostri, amici di novità, può nondimeno co 'l mormorio de l'acque invitar le vostre Muse a cantar sotto l'ombre degli alberi, che son già rivestiti.</p></sp>
+	<sp><speaker>F.N.</speaker><p> Anzi più tosto addormentarle con la dolcezza del suono, se pur con altro più dolce elle non furono prima addormentate. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Profondo fu veramente il sonno, poi che no 'l ruppe il romor di tamburi e di trombe e lo strepito de l'armi e l'annitrir confuso con la voce de' soldati, e 'l mormorar de' venti e de l'onde percosse da' remi e aperte con le prore de le navi già vittoriose, e 'l rimbombo de l'artigliarie che turbava l'aspetto del mare e 'l facea parer più fiero e più spaventoso. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io son Tasso, e però non è maraviglia ch'oppresso dal mio sonno naturale, non oda i piccioli strepiti; ma quel fu così grande che l'udirono quelli ancora i quali abitano oltre le colonne d'Ercole e oltre gli altari d'Alessandro, nè pesce è fra' più secreti scogli o de l'Adriatico o del Tirreno, nè augello fra i rami de gli alberi nè fiera ne le spelonche, e quasi non è corpo morto ne la sepoltura ch'egli non l'abbia risvegliato: e se mi fosse lecito d'accrescer, quanto par che si ricerchi, la grandezza di quella azione, direi che l'anime de' greci imperatori e de gli altri gloriosi i quali esposero la vita per liberar la Grezia, siano state commosse quasi da angelica tromba ed aspettino co 'l fine di così ingiusta e così miserabil servitù che l'aquile, ritornando a que' nidi antichi da' quali prima spiegarono il volo, ricoprano con l'ombra de l'ali non sol Costantinopoli, ma l'uno e l'altro imperio e l'uno e l'altro emispero. Rimango nondimeno stordito dal soverchio suono come gli abitatori de l'Egitto là dove cade il Nilo d'alto precipizio: e se pur è picciola questa comperazione, e' conviene ch'io mi levi di terra per trovar similitudine che le si convenga. L'armonia che fanno i corpi celesti, movendosi, non riempie i sensi altramente di quel ch'abbia fatto quella di tanti versi e di tante prose in tante lingue, con tanti stili e con tanta felicità de' lodati e de' lodatori, con tanta gloria de' celebrati e de' celebratori. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Voi dunque solo pareste muto ne l'armonia del mondo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Muto no, perchè fui tra' primi che pregassero Iddio per la vittoria de' cristiani, nè poi rimasi fra gli ultimi che 'l ringraziassero; ma dubitai di scriver le sue laudi e le sue grazie. </p></sp>
+	<sp><speaker>A.V.</speaker><p> La vostra voce dunque si disperse ne' venti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non si disperde cosa che non si perda, nè si perdono quelle voci che portano a Dio le nostre preghiere; ma suspicai che le carte non fosser come l'arene del mare, le quali picciol tempo ritengono i vestigi impressi, o di non iscrivere in fogli somiglianti a le foglie di Sibilla, perchè niuna stabilità hanno le scritture che non sian fondate su la scienza di coloro che scrivono; e l'altre se ne vanno come piume a l'aure del favor popolare e a la grazia de' principi, che passa come fior di primavera. </p></sp>
+	<sp><speaker>M.C.</speaker><p> I fiori de la poesia sogliono essere perpetui; però, qualunque si fosse quel poeta de' vostri il qual chiamò Omero sempre fiorito, usò bella e convenevole traslazione: e bene e convenevolmente, senza dilungarsi molto da questa imitazione, disse il Caro di tesserne corona a' Valesi e a' Farnesi. E fo di lui volentieri menzione: perchè, s'egli fosse vivo, a' gran fatti de' principi grandi non mancherebbe grande e maraviglioso commendatore. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Così dicono molti, i quali non vogliono ch'alcuna canzona fatta ne le nuove imprese e ne le moderne vittorie si possa agguagliare a quella ne la quale è celebrato Enrico re di Francia. </p></sp>
+	<sp><speaker>F.N.</speaker><p>Se la vostra opinione è simile al parer di costoro, non ardisco di riprovarla, quantunque giudicasse altramente il Castelvetro: perch'a' nobili si dee credere ne le laudi de' nobili. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Non il mio giudizio, ma quel di molti principi, da' quali fu molto onorato, il poteva far sicuro da tutti biasimi e da tutte l'opposizioni: fra cui non si stima tanto alcuna, quanto il paragone del buon poeta francese che loda similmente i reali di Francia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Grande incontro gli diede il Castelvetro, e sentenza finale. </p></sp>
+	<sp><speaker>A.V.</speaker><p>Tutta volta non è andata inanzi: i litiganti, di lingue diversi e nati sotto vari principi, non sono stati ancora giudicati al tribunale medesimo, o più tosto con la diversità de' favori non fu riconosciuta più l'eccelenza del primo che del secondo; nè so quando sarà fatto questo giudizio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Cene starem dunque fratanto al parer del Castelvetro, o pur il richiamaremo in dubbio, maravigliandoci che l'uomo acuto il quale avea tanto biasimato il Caro perchè avea chiamati idoli i Valesi e i Farnesi, non s'accorgesse che tutta la canzona o più tosto amendue le canzoni de l'uno e de l'altro poeta altro quasi non contenessero che 'l paragone fra le famiglie di questi signori e gli idoli antichi, se pur idoli vorrem chiamare gli dei de' gentili: perch'idoli son propriamente l'imagini ne le quali erano adorati dal volgo sciocco, che non s'accorgeva de l'inganno e attribuiva a la creatura quel ch'è proprio del creatore. Ma comunque si chiamino, le composizioni sì fatte non accrescono grandezza a le cose laudate, ma più tosto par che lor tolgano autorità e riputazione: e se pur fanno qualche onore, il fanno di quella sorte ch'è meno conveniente. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Niuna cosa peraventura ha fatto il Caro che non l'abbian fatta altri poeti famosi e altri più venerandi scrittori che non sono i poeti, perchè a' tempi antichi Gregorio, cognominato il teologo, in una orazione sovra la morte di Basilio Magno suo compagno fa comperazione fra la sua stirpe e quella de' figliuoli di Pelope, di Cecrope, d'Alcmeone e d'Eaco e d'Ercole, le quali si credeva che discendessero da Giove: laonde non è molto dissimile in questa parte al poeta francese e al toscano, ch'agguaglia i figliuoli di Francesco a' discendenti di Saturno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> A me non dispiace che si faccia la similitudine, mal ch'ella sia fatta nel modo usato da' due poeti e approvato dal giudice loro: perchè la grandissima laude ne le famiglie reali è congiunta con quella degli idoli o non discompagnata almeno dal lor vitupero, come si può conoscere in molti luoghi, e in quel particolarmente:
+
+<quote rend="block"><lg>
+<l>Di questa madre generosa e chiara, </l>
+<l>Madre ancor essa di celesti eroi, </l>
+<l>Regnano oggi fra noi</l>
+<l>D'altri Giovi altre figlie e altre suore; </l>
+<l>E via più degni ancor d'incenso e d'ara</l>
+<l>Che non fur già, vecchio Saturno, i tuoi. </l>
+<l>Ma ciascun gli onor suoi</l>
+<l>Ripon ne l'umiltate e nel timore</l>
+<l>Del maggior Dio. </l>
+</lg></quote></p>
+
+<p>Perchè, se non m'inganno, ci sono due sconvenevolezze: l'uno, che stimi l'onor d'incenso e d'altare, che son propri del vero Iddio, conveniente a gli uomini non santificati; l'altro, che, chiamandoli più degni de' figliuoli di Saturno, presupponga che quelli ne fossero degni. Nè posson le parole seguenti toglier lo sconvenevole, perchè, dicendo il maggior Dio, è necessario che stimi gli altri dei minori.</p>
+    </sp>
+	<sp><speaker>M.C.</speaker><p> Questo è nome non di natura ma di podestà: e perciò fu detto che Mosè era dato per Dio a quelli d'Egitto; laonde, essendo conceduta a' grandissimi e cristianissimi re di Francia podestà quasi divina e confermata co' miracoli, non parve al Caro disdicevole ch'in questa guisa fossero onorati.</p>
+    </sp>
+	<sp><speaker>F.N.</speaker><p> S'egli pur non accrebbe, non diminuì l'errore: e doveva diminuirlo, o 'n altra maniera dimostrar la vanità e la malvagità de gli dei gentili, come dimostrò Gregorio, nel qual si legge che Giove fosse mago. Ma non è degno di minor considerazione quello altro luogo:
+
+<quote rend="block"><lg>
+<l>Vera Minerva e veramente nata</l>
+<l>Di Giove stesso e del suo senno, è quella</l>
+<l>Ch'ora è figlia e sorella</l>
+<l>De' regi illustri, e ne fia madre e sposa. </l>
+</lg></quote></p>
+
+<p>Perchè non gli basta che 'l re Francesco a Giove sia simigliante, ma vuol che sia l'istesso e che sia vero Giove, e vera Minerva madama Margherita, la qual, dovendo prender marito e generar figliuoli e aver grande e fortunata successione, non poteva convenevolmente esser assimigliata a Minerva, che secondo le favole de' gentili visse casta e vergine sempre.</p></sp>
+	<sp><speaker>A.V.</speaker><p> Era così povero il regno degli dei che quel di Francia, il quale è ricchissimo, non trovò più convenevol paragone di questo a madama Margherita. E ciò dimostra il Ronzardo ancora, che vi pone i Marti a centinaia: e doveva mettervi a migliaia le Veneri, come parve ch'accennasse il Caro. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Forse in ciò fu l'uno più verace che l'altro discreto. Ma vogliam considerar quel che dica il poeta francese? </p></sp>
+	<sp><speaker>A.V.</speaker><p> Consideriamlo. </p></sp>
+	<sp><speaker>F.N.</speaker><p>
+
+<quote rend="block"><lg lang="fre">
+<l>Mais quoy? ou ie me trompe, ou pour le seur ie croy</l>
+<l>Que Iupiter a fait partage avec mon roi. </l>
+<l>Il n'a pour lui sans plus retenu que de nues, </l>
+<l>Des cometes, de vents et des gresles menues, </l>
+<l>Des neiges, des frimatz et des pluies de l'air</l>
+<l>Et ie ne scai quel bruit, entourné d'un esclair, </l>
+<l>Et d'un boulet de feu, qu'on appelle tonerre. </l>
+</lg></quote></p>
+
+<p>Ne' quai versi par che non scemi solamente, ma quasi rivolga in gioco la possanza di Giove, e specialmente in quelli:
+
+<quote rend="block"><lg>
+<l>Egli non ha più ritenuto per sè ch'un romore intorniato d'un baleno</l>
+<l>E una ballotta di fuoco che si chiama tuono. </l>
+</lg></quote></p>
+
+<p>Là dove il Caro accresce la simiglianza mirabilmente in quegli altri:
+
+<quote rend="block"><lg>
+<l>Udite come tuona</l>
+<l>Sovra de' Licaoni e de' Giganti. </l>
+<l>Quanti n'ha morti e quanti</l>
+<l>Ne percote e n'accenna; e con che possa</l>
+<l>Scote d'Olimpo e d'Ossa</l>
+<l>Gli svelti monti, e 'ncontra il cielo imposti. </l>
+<l>O qual fia, spento poi Tifeo l'audace, </l>
+<l>E i folgori deposti? </l>
+<l>Quanta il mondo n'avrà letizia e pace. </l>
+</lg></quote></p>
+
+<p>Ma forse il poeta francese non toccò questa parte, giudicando ch'al tempo d'Enrico la Francia non fosse piena d'empi e di rubelli, i quali si possono assomigliare a' giganti, o che, se pur ve n'era alcuno, non essendosi armato contra 'l suo re, fosse più convenevole passarlo sotto silenzio. E veramente questa ultima parte de la canzona si converrebbe al figliuolo, non al padre, il qual non ebbe alcuna guerra co' nemici del nome cristiano. Or passiamo a gli altri, e diciamli con le parole toscane: perchè molti non aman le francesi:
+
+<quote rend="block"><lg>
+<l>E non hai tu a punto altresì una Minerva saggia, </l>
+<l>Tua propria unica suora, ammaestrata da giovane età</l>
+<l>In tutte l'arti virtuose, la qual porta in suo scudo, </l>
+<l>Io dico dentro al suo core de' vizî invitto, </l>
+<l>Come l'altra Pallade la testa di Medusa, </l>
+<l>Che trasforma in sasso l'ignorante persona</l>
+<l>Ch'osa d'appressarlesi e vuol lodare il suo nome? </l>
+<l>E non hai tu a punto in luogo d'una Giunone</l>
+<l>La reina tua sposa, de bei figli feconda? </l>
+<l>Il che non ha punto l'altra; perch'ella è disutile</l>
+<l>Al letto di Giove, e senza più <add>non</add> ha conceputo</l>
+<l>Ch'un Marte e ch'<add>un</add> Vulcano; e l'uno ch'è tutto gobbo, </l>
+<l>Zoppo e sciancato, e l'altro tutto colera, </l>
+<l>Il qual vuol per lo più far guerra a suo padre. </l>
+<l>Ma quelli che tua sposa ha conceputi in abbondanza, </l>
+<l>Son belli, diritti, ben nati, i quali sin da sua giovane fanciulezza</l>
+<l>Sono ammaestrati di renderti un'umile ubedienza. </l>
+</lg></quote></p></sp>
+
+	<sp><speaker>A.V.</speaker><p> Belli son i concetti senza dubbio; ma le parole non m'empiono gli orecchi di quel suono ch'io sento ne le rime del Caro, per lo quale è piacevolissimo al giudizio del senso quel che per altro potesse dispiacere a l'intelletto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> De' versi avien quello che suol avenir del fior de la gioventù, ne la quale non è bellezza, che trapassa e sfiorisce con gli anni simili a la primavera; perchè, se non sono belli, mutandosi le parole e disciogliendosi il numero, perdono ogni grazia con la mutazione; ma in questi, tuttochè sian trasportati d'una in altra lingua, rimane la bellezza de le sentenze e quel convenevole che mi pare molto osservato ne le debite lodi che si danno a tante persone reali, e particolarmente a Margherita, la qual poteva esser detta Minerva da chi non sapeva che dovesse aver marito e figliuoli. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Vince dunque il francese nel giudizio; ma l'altro ne la divinità o ne la divinazione, se così vogliam chiamare il pronostico ch'egli fa de l'avenire. </p></sp>
+	<sp><speaker>F.N.</speaker><p> È certo grande ardir quel de' poeti, che voglian predir le cose future che possono succedere e non succedere, se no 'l fanno con quella prudenza che supera quasi l'umano avvedimento e rimira di lontano, quasi d'alta parte, i fortunosi avenimenti: laonde sarebbe più securo consiglio non dire alcuna cosa che 'l successo possa riprovare come falsa. Però si dee lodare la felicità de l'un poeta e l'accorgimento de l'altro, che disse quel che poteva esser detto e tacque similmente quel che doveva esser taciuto. Ma che direm del paragone tra i figliuoli di Giove e di Giunone e quelli d'Enrico e di Caterina? Non vi pare ch'egli sia fatto con quell'artificio, o poetico o politico o cristiano ch'egli sia, co 'l quale, onorandosi le cose de' principi fedeli, debbono esser disprezzate quelle de' gentili? </p></sp>
+	<sp><speaker>A.V.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Nondimeno, quand'egli dice:
+
+<quote rend="block"><lg>
+<l>Questo Giove si tenga dunque ad alto</l>
+<l>Con tutti i suoi dei; perciochè certo egli non fa mestiero</l>
+<l>Che si paragoni a te, il qual ne mostri a vista</l>
+<l>Di qual possanza è la tua maestà proveduta; </l>
+</lg></quote></p>
+
+<p>par che rimanga in alcune parole l'odore de la gentilità; laonde il fine è conveniente a poeta di secoli passati, ma non forse a' nostri tempi a la nostra religione e a quel regno di nobilissimo re, difensore de la fede e de la pietà cristiana. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Altra maniera dunque debbiamo usar per onorarle. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Debbiamo, s'io non m'inganno. </p></sp>
+	<sp><speaker>A.V.</speaker><p> A me non dispiace quello ch'avete detto: perchè l'opinione che s'aveva de gli dei gentili già fece traviar da la via de la verità tutti i poli e tutte le nazioni; e benchè or non ci sia questo pericolo, nondimeno, riempendosi de l'antiche favole, posson perdere con la gravità e con la riputazione la fede ancora. Ma de' principi gentili non mi par che si possa affermare il medesimo: perchè molti ne furono giusti, valorosi e prudenti, e co 'l lume naturale indrizzarono tutte le loro operazioni; onde chi gli rifiuta per argomento di poesia, par che ricusi i doni de la natura. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non vi piacerebbe dunque che l'istoria de' gentili fosse riprovata per questo uso come le favole. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Non mi potrebbe in modo alcuno piacere, s'io non volessi insieme lodare chi dicesse il medesimo di questo fiume e di questi colli pieni di tanti gloriosi vestigi e di tante antiche memorie, e di questo cielo che spira ancora un non so che di magnanimo e di venerando non solo ne gli animi de' cittadini ma de gli abitatori. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non già chiamate voi istorie de' gentili quelle de' Romani solamente, ma quelle de' Greci e degli Assiri e de' Medi e de' Persi e de gli Africani. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Tutte le dico istorie de' gentili. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E se ne le istorie si trattano le cose vere, vero stimarete non sol ciò che scrive Dionigi d'Allicarnasso, narrandoci l'antichità di Roma, ma quel che ci racconta Diodoro Siciliano d'Anubi e d'Osiri e d'Iside, dei de l'Egitto, o di Giove e di Giunone o d'Ercole e di Bacco, adorati da' Greci. </p></sp>
+	<sp><speaker>A.V.</speaker><p> L'estreme parti de l'istorie antiche sono ascose ne le favole come l'estremità de' corpi umani nel velo o 'n altro che ci soglia ricoprire. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma non essendo vere, sono almen verisimili? </p></sp>
+	<sp><speaker>A.V.</speaker><p> Io stimo che questi fossero uomini amici de la patria, liberatori de la Grecia guastata da le fiere e da' mostri ed oppressa da' tiranni: i quali soggiogarono i paesi estrani e trionfarono de le barbare nazioni con pompa maravigliosa, ma dissimile a quella che fu veduta in Campidoglio intorno agli Scipioni e a gli Augusti: e de l'uno e de l'altro ho veduta la statua in Roma, la quale a poco a poco se ne spoglia con dolor di tutti noi che ci abitiamo. E mai non sento ragionar di questa materia ch'io non mi commova: laonde ora mi s'appresenta l'imagine di ciascuno, e mi par ch'in questa maniera difendano la sua causa: “Noi fummo uomini valorosi, creduti dei per lo nostro valore e per lo giovamento fatto a' miseri mortali, che da varie calamità erano circondati; e mentre fiorirono le città de la Grezia ed ebbero quasi l'imperio del mare e passaro con gli esserciti ne l'Asia, ponendo il freno a potentissimi re e a popoli numerosi, fiorì parimente la nostra gloria, e ci furono drizzati i tempi e consecrati gli altari in tutti i regni de l'oriente e del mezzogiorno, e ne l'occidente ancora, dove l'un di noi vinse Gerione, e nel settentrione s'adorava il nostro nome; e prima che Roma cominciasse a sorgere, furono a l'uno di noi ne l'Aventino instituiti i sacrifici, e a l'altro, dapoi che fu accresciuta la città la qual divenne regina del mondo. Però nulla scemò de la nostra fama, bench'ella soggiogasse la Grezia e tutte l'altre provincie, e facesse tributari tutti i re e tutti i tetrarchi de la terra; ma crebbe e si distese co' larghissimi confini del potentissimo imperio, e fummo adorati in questa nobilissima città con Marte e con Quirino, dal quale erano derivati i Romani, vincitori di tutte le genti. E quantunque con la mutazione de' tempi gli dei bugiardi abbiano ceduto al vero Dio la sede altissima de la religione, le nostre antiche statue sono ancora conservate, e siamo onorati ne' versi de' poeti e ne l'orazioni degli uomini illustri: e ne le rime ancora di questa nuova lingua ci pare che la nostra fama ringiovenisca; ne la quale ci piace d'esser rassomigliati a' nuovi Cesari e a' nuovi Ottavi e a' nuovi Alessandri, come già fummo con gli antichi in quelle altre lingue che son lette ne' libri di Vaticano. E 'n Vaticano siamo onorati e gloriosi, non solo in Campidoglio: così è piaciuto a l'infinita providenza di colui che non lascia alcuna buona opera senza giusto premio, creatore di tutte le cose e donatore di tutti i beni, del quale non avemmo vera cognizione; ma, indirizzati dal lume de la natura, vivemmo come forti e costanti e magnanimamente operammo: laonde in questa regia del mondo, che sempre raccolse il valor de' peregrini, è conveniente che risuoni la nostra gloria, la qual non ci contenta perchè non è la vera, ma pur ci consola, perchè le nostre umane virtù non hanno altro guiderdone che quel de l'onorata fama. Chi sarà dunque il severo giudice de' poeti e de' pittori e de gli scultori, che di nuovo ci condanni ad eterna oblivione? O chi prenderà la difesa de' Valeri, de' Camilli, de' Fabi e de' Cincinnati, di Serrani, di Fabrici, di Curi, di Leli e de gli Scipioni, che non la prenda per noi similmente? Non ci possiamo raccomandare a' Greci, che son divenuti servi de' barbari e hanno con l'imperio perduta ogni autorità; ma ci raccomandiamo a' Romani, pieni ancora degli antichi spiriti e del primo valore e de la generosa prudenza, i quali prenderan di noi quella deliberazione che degli altri nati in questo paese. E se le statue debbono esser conservate, non debbono essere condannate l'istorie e le poesie: nè questa nuova calamità dee accrescer il dolore ch'abbiamo per la ruina di tante città e per la servitù di tanti popoli che vissero in libertà; a la quale sarebbe più convenevole il pensare ch'a la nostra distruzione, acciochè sotto Roma trionfante risorgesse Argo, Tebe, Corinto, Atene e 'l Licio e l'Academia, e di nuovo i lauri di Parnaso verdeggiasser e 'l platano facesse ombra a' filosofanti, e l'Ilisso con onde più quete e più trasparenti udisse un'altra volta un altro Socrate, più casto e più religioso, rivelare altri più maravigliosi e più santi misteri de la divina filosofia”. Questo è quello ch'io parlo fra me stesso alcune volte quando penso a' poeti e a la poesia, e quel che mi pare che tra' romani cavalieri se ne potesse ragionare: e stimo che s'aspetti la sentenza non de le composizioni, ma se convenga negare i premi del valore umano. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Veramente ne la causa de' nobili e valorosi antichi un nobile e valoroso giovane, che trae l'origine di quel sangue, ha parlato con tanta eloquenza che può muovere, non che dilettare, i più severi; nè fra noi si contende se gli uomini somiglianti sian meritevoli di gloria, ma se vogliamo onorarli come divini: e mi pare che la deificazione, de la qual si parla nel commento, s'assomigli a quella podestà maravigliosa de gli idolatri d'Egitto, con la quale gli uomini facean gli dei, e ch'i miracoli de la poesia non sian minori di quelli de l'arte magica. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Quanto son maggiori, tanto meno sene dee contendere, benchè Varrone stimasse utile a le città che gli uomini mentissero, fingendosi figliuoli degli dei, perchè l'animo umano con questa fede c'ha ne la divina stirpe più facilmente ardisce di far le cose grandi e porge ancora maggiore ardire a gli altri; però, quando Alessandro visitò il tempio di Giove Ammone, volle nudrire questa credenza ne l'essercito: e poi Scipione parimente, adorandolo con tanto silenzio e con tanta divozione in Campidoglio. Ma questo artificio, se fu mai lodevole o lodato, fu tra' gentili solamente, i quali non conobbero la vera lode perchè non ebbero contezza del vero bene; ma tra' cristiani è degno di biasimo, nè solo falso e utile, come giudicò Varrone, ma falso e dannoso, come parve forse a s. Augustino, quantunque egli non diterminasse la quistione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Puossi fingere alcuna cosa non inutilmente, la qual sia falsa insieme e giovevole? </p></sp>
+	<sp><speaker>M.C.</speaker><p> S'ella sarà di quelle che significa, non sarà falsa, perchè falso non è quel che significa. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Come la chiamerem dunque, finta o composta, o fatta di nuovo e formata da l'ingegno del poeta? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Più tosto con alcuni di questi nomi, e più volentieri co' meno sospetti: perchè 'l finto, se non è il medesimo co 'l falso, è molto simile. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la menzogna è una finzione e una falsità? </p></sp>
+	<sp><speaker>M.C.</speaker><p> È senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Tutta volta alcune menzogne sono utili e si possono dir con giovamento altrui: e furono assomigliate a le medicine. </p></sp>
+	<sp><speaker>M.C.</speaker><p> I filosofi già fecero questa similitudine: e parlando con filosofiche ragioni, peraventura non ce n'è dubbio; ma in questa parte è diversa l'opinione de' teologi santi: e sicuramente ci possiamo attenere a quella che scaccia ogni falsità e ogni bugia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> La scaccia quistionando o pur operando per edificazione de la chiesa di Cristo; ma noi parliam del poeta, il quale è simile a colui che forma le parabole, e dee meritar loda a' nostri tempi e ne la nostra religione: e s'a lui non sarà lecito il fingere, non sarà lecito il poetare; ma s'è conceduto il parlar di cose non fatte, quasi fatte, che possono esser fatte, è senza dubbio conceduto il poetare. </p></sp>
+	<sp><speaker>M.C.</speaker><p>Se gli conceda, ma finga significando: ch'altro non saprei dire di quel c'ho già detto. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma se pur chi significa non è falso, chi significa non finge: non potrà dunque significar fingendo, ma significare assomigliando più tosto; e se a voi par lite de' nomi, a me par l'un nome poco men sospetto de l'altro. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Non segue però dal parlar in questo modo cosa che sia disconvenevole nel ragionare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma forse nasce alcuna difficoltà ne l'operare. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Se non ci fossero molte difficoltà, l'ingegno del poeta non avrebbe dove mostrarsi, nè che superare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque con l'ingegno dee superar la difficoltà. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Con l'ingegno e co 'l giudicio e con l'arte. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E noi parliamo ora particolarmente de l'artificio del lodare. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Di quello, e non d'altro. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Nel quale abbiam già conchiuso che non è convenevole che si prenda alcuna similitudine degli dei gentili, nè se ne faccia alcuna menzione, se non come fece Gregorio in morte del gran Basilio, manifestando la vanità e la falsità loro. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Niuno essempio migliore poteva ammaestrarci. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma possiam fare i paragoni con gli uomini valorosi, quantunque fossero gentili. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Non perviene a la vera laude chiunque schifa il biasimo: laonde parve a s. Augustino che Platone non potesse compararsi a niuno angelo del sommo Iddio, a niun profeta, a niuno apostolo, e in somma a niun cristiano, benchè debba essere anteposto, se non a Romolo e ad Ercole, almeno a Priapo e a Cinocefalo, o vero a la dea Febre: i quali dei peregrini furono da' Romani come suoi consecrati. E noi, mossi da la sua reverenda autorità, possiamo affermare che niun semideo, niuno eroe, niun re de' gentili debba essere agguagliato con alcun principe cristiano. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque si dee lasciar le comperazione sì fatte; e se pur elle si fanno in modo alcuno, i principi debbono essere anteposti a' gentili? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma facendosi il paragone, si farà ne le virtù de' costumi come sono la fortezza o la magnanimità o la temperanza: perchè ne le teologiche non c'è comperazione. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Non veramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E s'in quelle fosse stato maggior il principe gentile del cristiano, qual dovrebbe esser l'artificio del nostro poeta, d'aggrandire la virtù del lodato in guisa ch'ella paresse eguale o maggior de l'antica, o pur di mostrarla simile al vero? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Questo artificio è più conveniente: e non ci mancano principi i quali in molte azioni hanno superati gli antichi. Così volessero superarli in tutte: perchè niuna virtù mai dovrebbe esser discompagnata da l'altre; nè solamente la fortezza o la magnanimità porge materia di vera laude, ma la clemenza e la mansuetudine e la liberalità e l'affabilità e la modestia, che, tacendo, invita i lodatori e gli costringe co 'l silenzio a favellare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> S'egli dunque è più convenevole, i poeti moderni debbono assomigliarsi a que' pittori che ritraggono gli uomini come sono a punto. </p></sp>
+	<sp><speaker>M.C.</speaker><p> A quelli, e non a gli altri. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E poetando senza lusingare la superbia di coloro che ci vivono, si dee parlar de la nobiltà come del valore? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Si dee, perchè la nobiltà è 'l più bello ornamento ch'abbia la virtù. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma la nobiltà non si può lodare, che non si lodi parimente l'antica virtù. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Ella non è altro che questo, e chi di lei non ragionasse, ma de la ricchezza o de la possanza, non loderebbe peraventura la nobiltà, ma quelle cose che l'adornano e l'accompagnano: e se pur sono parti, sono parti accidentali. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, lodando la nobiltà circondata da così larga schiera e da così lunga pompa, com'è quella condotta da le due compagne, ogni lode sarà parimente maravigliosa. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Sarà: perchè la ricchezza del parlare e la copia de l'eloquenza non è inferiore ad alcun'altra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma gli uomini antichi, condotti da la virtù e accompagnati da così nobile compagnia, saran dipinti com'essi furono, o maggiori, come sogliono ritrarsi quelle cose che debbono esser risguardate di lontano? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Gli antichi sono lontani da' nostri tempi, e per questa ragione altramente dovrebbono esser ritratti di quelli che ci sono vicini e presenti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, se le virtù d'alcuno posson convenevolmente esser con molte lodi accresciute, son quelle de' morti: perchè elle giovano più de l'altre a' figliuoli, a' nipoti, a' successori e a tutti quelli che prendono essempio da' trapassati; e tanto più s'infiammano a l'operazioni virtuose quanto più l'azioni lodate sono grandi e maravigliose. E se questi non sono di que' ritratti i quali convengono a la chiesa, dove a piè de' santi, anzi piccioli che no, sogliono esser depinti per umiltà, converranno almeno a le morbide camere e a' palagi reali: e saran rimirati con diletto e con maraviglia de' risguardanti. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Così dovrebbe avenir senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E sì come altri pittori accrescono gli ornamenti degli altari e de' tempii, altri quelli de' teatri e de' luoghi publici ne' quali per diporto si raccoglie la moltitudine e la nobiltà, così altri poeti saran riserbati per le sacre narrazioni, altri per le civili e per le militari: e saran tolerati negli uni alcune cose che negli altri non sarebbon peraventura convenienti. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Così mi pare assai ragionevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma forse i poeti non sono in ciò più simili a' pittori ch'agli ornati parlatori: perchè, sì come non son approvati i medesimi oratori dal governo popolare e da quel de' pochi buoni e da quel de l'ottimo principe, ma tra 'l popolo signoreggia chi muove e diletta gli animi, e appresso gli altri sono in pregio maggiore que' che provano con le ragioni, così dovrebbe similmente avenir de' poeti: perch'a' maggiori dovrebbono esser più grati que' che danno migliori ammaestramenti. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Dovrebbono senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Distingueremo dunque le spezie de la poesia e compartiremo i poeti secondo le varie maniere de' governi. </p></sp>
+	<sp><speaker>M.C.</speaker><p> In questa guisa parrà la distinzione assai buona. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma distinguendo, chi seguiremo, Platone, che ne descrive cinque forme, l'una perfettissima, l'altra ambiziosa, la terza avara, licenziosa e popolare la quarta, e l'ultima tirrannica, o pur Aristotele, che tre buone da l'una parte e da l'altra pone le tre malvagie? </p></sp>
+	<sp><speaker>M.C.</speaker><p> In qual più vi piace, perchè v'è maggior diversità ne le parole che ne l'opinione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma in qualunque d'essi distinguiamo, lasciarem da parte la tirannide e la possanza de' pochi e la sfrenata licenza popolare, che ne l'ingiustizia molto assomiglia al tiranno: perchè tutte le non buone devrebbono essere sterpate; e s'alcuna cene è rimasa, non fa mestiero che di lei si ragioni. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Parliam de l'altre. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, volgendo il ragionamento a le migliori forme del governo, a quel di molti assegnarem la comedia come sua propria; a quella de' pochi valorosi e de' prudenti la tragedia; e al principato d'un solo i poemi eroici e l'altre composizioni ne le quali si celebrano l'operazioni de' principi e de' cavalieri. </p></sp>
+	<sp><speaker>M.C.</speaker><p> In questo modo sono assai convenevolmente disposte. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma forse a' principi alcune volte non spiacerà ridersi de le sciocchezze del volgo, e a' plebei sarà buono ammaestramento o vista maravigliosa il risguardar l'azioni de' grandi: comunque sia, a' principi saran convenienti più di tutti gli altri i poemi eroici e quelli ne' quali si canta de gli eroi. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Così stimo: e le canzoni come quelle del Caro e del Ronzardo mi paiono eroiche oltre tutte l'altre; onde più volentieri le chiamerei con questo nome che tragiche, come usò di chiamarle Dante. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dante le chiamò con quel nome che le parve assai proprio de' componimenti affettuosi, come son le canzoni ne <add>le</add> quali descrive la morte de la sua donna: perchè queste han quella simiglianza con la tragedia che le altre, ne <add>le</add> quali son lodate l'azioni de' valorosi, co 'l poema eroico. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Dunque tragiche ed eroiche possono esser dette le canzoni. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Sotto l'un genere l'altro peraventura si contiene come specie; ma quali chiamate eroiche, quelle in cui son descritte le soprane lodi de gli eroi? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Quelle. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E direm che siano eroi i figliuoli degli dei, o pur l'anime separate dal corpo che divengono demoni, come da' Platonici s'afferma? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Nè di questi soglio intendere nè di quelli, quando fra noi cortegiani se ne ragiona; ma fra' letterati non so quel che se ne questioni, fra' quali crederei che la falsa scienza in questa parte fosse disprezzata: e se pur si prezzasse, mi parrebbe che 'l poeta il qual ne componesse canzoni sarebbe soggetto a quelle medesime opposizioni ch'abbiam fatte al Caro. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Nè men chiamate eroi i retori e gli eloquenti, che che sene dica Platone in quel dialogo in cui si ricerca la ragione di questo nome e di molti altri: se forse alcuno ne la sua estrema vecchiezza non volesse persuadere alcuna opera eroica o pur contendere con gli eroi con le operazioni medesime. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Bel contrasto sarebbe veramente, perchè niuno è più bel trofeo di quel non sanguinoso che drizza l'eloquenza. </p></sp>
+	<sp><speaker>F.N.</speaker><p>Pur le canzoni eroiche in lodando i retori non sono ancora state fatte, e 'l farle in questo soggetto sarebbe gran difficoltà. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Ma senza dubbio, quando ragioniam de gli eroi, non intendiam di loro. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Di chi dunque intendete, di quelli che somigliano Codro, il qual volle morir per la patria e s'acquistò fama immortale, e Brasida e Milciade e Cimone e Temistocle e Alessandro e Muzio e Orazio ed Epaminonda e Agesilao e Pirro e Camillo e Scipione e Cesare, la virtù de' quai parve che di gran lunga trapassasse l'umana condizione? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Di questi intenderei: pur non di questi soli, ma de' martiri di Cristo ancora, a' quali s'attribuì questo nome; e certo, s'egli deriva d'amore, come si dice, a niuno è tanto convenevole, perchè niuno amore fu così ardente come quello che gli spinse a la morte. Laonde il vostro poeta congiunse queste cose dicendo:
+
+
+<quote rend="block"><lg><l>Che fece Muzio a la sua man feroce, </l>
+<l>o che tenne Lorenzo in su la grata. </l>
+</lg></quote></p></sp>
+
+	<sp><speaker>F.N.</speaker><p> La carità dunque per questa ragione sarà virtù degli eroi. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E se la virtù degli eroi è l'eroica, la carità è l'eroica. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Eroica senza fallo, ma d'altri eroi e in altro modo più maraviglioso e divino che non conobbero le nazioni gentili. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Pur questi eroi non son parte d'alcuna republica o d'altra maniera di governo. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Nè questi nè quelli de' quali abbiam ragionato, perchè la virtù loro supera quella de gli altri senza proporzione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E noi, distinguendo le maniere de la poesia secondo le forme del governo, non ci accorgemmo ch'essi non capivano in alcuna. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Quantunque non vi capissero gli eroi, vi capiva la poesia eroica, la qual è non solamente letta da loro, ma dagli altri: e più volentieri da coloro che son più simili ne la nobiltà e nel valore. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque per questa ragione non debbiamo far nuova distinzione; ma, essendosi ritrovata una maniera propria di poesia a ciascuna forma di governo, a questa nuova republica de' sacerdoti e a questo sacro regno che diciam pontificato, non conosciuto da Aristotele nè da Platone, si dee conceder una specie di poesia così differente da tutte l'altre, com'egli è diverso da tutti gli altri principati e dagli altri imperi. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Assai mi pare convenevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E peraventura è già ritrovata: e sono i salmi e gli inni i quali canta la Chiesa romana. Ma de l'azioni di Costantino si potrebbono ancora fare i poemi per questa corte: i quali nondimeno sarebbono eroici, quantunque fosse preso l'argomento da l'istoria ecclesiastica; ma gli eroi sono d'altra maniera? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Sono a mio parere. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque farem questa conclusione, che de l'istorie ecclesiastiche si possa formar que' poemi eroici, sì che saranno più convenienti in questa corte ecclesiastica. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Mi par che si possa fare senza dubbio, e che non v'abbia luogo ingegno di sofista per contradire. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma l'altre corti e gli altri regni a' quali scriviam poemi son parimente de' cristiani? </p></sp>
+	<sp><speaker>M.C.</speaker><p> Sono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E niuno scrive a' Turchi e a' Giudei per acquistar benevolenza; ma sì come gli Ebrei scrissero a gli Ebrei, i Greci a' Greci e i Romani a' Romani, così i nostri debbono scrivere a quelli de la nostra lingua e de la nostra relligione. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Debbono. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E s'Omero fu letto più volentieri da' Greci perchè celebrò le vittorie de' loro antecessori contra barbari, fra noi dovranno esser in maggior pregio que' poemi ne' quali saran cantate le imprese de' principi cattolici contra gli infedeli. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E Vergilio ancora dimostrò quanto importi, ne la battaglia fra Cesare e Marcantonio ne la quale pone gli dei romani incontra quelli d'Egitto; nè sarebbe convenevole ch'i gentili avessero maggior risguardo a la religione ch'<add>i</add> cristiani. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Non sarebbe. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Da l'istorie de' cristiani dunque, e non d'altre, debbono esser presi gli argomenti de' poemi, non lasciando gli altri rispetti de la favella e de la nazione o de' regni o de' re che 'l poeta vuol celebrare: e chi le tolse da' pagani, o seguì la fama de l'azioni favolose o fece errore ne l'arte e cosa men giovevole e men grata a' principi e a le republiche. Perchè, s'al fine del politico si debbono dirizzar i fini di tutte l'arti, chi non risguarda in questo segno commune non è buono artefice: e, non vedendolo per imperfezione di giudicio, non dee mancar chi gliele dimostri. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Questo sarà legislatore o riformator di leggi, o interprete ch'avrà risguardo a le regole ancora di poesia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma le istorie cristiane per la maggior parte non sono ecclesiastiche: da l'ecchiesiastiche dunque prenderanno i soggetti convenevoli per le corti ecclesiastiche, e da l'altre quelle ch'a l'altre converranno. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque non si può lodare il Caro che de' principi cristiani, anzi cristianissimi, poetasse non altramente di quel che sarebbe stato lodevole a' tempi d'Alessandro e d'Augusto. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Niuna lode io gli negherei volentieri; ma non mi par che si debba contradire a la ragione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Direm dunque: amico il Caro, amico il Castelvetro, ma più amica la verità; de la qual ci faremo scudo contra gli oppositori, perchè noi ragioniamo per ver dire,
+
+<quote rend="block"><lg>
+<l>Non per odio d'altrui nè per disprezzo. </l>
+</lg></quote></p></sp>
+
+	<sp><speaker>M.C.</speaker><p> Il ragionar in questa guisa può recar giovamento più tosto che mala sodisfazione. </p></sp>
+	<sp><speaker>A.V.</speaker><p> S'a me si dee giovare, il qual sono il più giovane e quello c'ho minor esperienza degli altri, vorrei che mi fosse detto in qual forma di governo o 'n qual corte si concederà luogo a le poesie amorose. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non certo ne le ecclesiastiche; de l'altre non ardisco di palesarvi il mio parere, perchè da ciascun lato mi par di conoscere molto pericolo. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Tutti i ragionamenti e tutte le cose può far sicura l'amicizia: però dovete parlar sicuramente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Perchè qui si discorre non per riformare il mondo ma per altra cagione, farò quanto commandate: e dico che, se 'l poeta simile a l'idolatra non si dee lodar ne le corti de' sacerdoti, per la medesima cagione non par che meriti lode ne l'altre cristiane. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Spesse volte si loda l'ingegno e l'artificio del poeta, quantunque la cosa descritta non convenga intieramente: laonde mi par che debba avenire de le poesie de' gentili quello ch'aviene de le statue degli eroi o pur de le pitture degli dei, le quali si conservano per ornamento de le camere de' principi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io non sarei così crudele ch'avessi condannata al fuoco la Venere d'Apelle, s'in questo secolo si fosse ritrovata, o altra simigliante per artificio; ma se Tiziano o 'l Salviato avesse voluta dipinger alcuna donna antica, lo avrei consigliato che dipingesse Artemisia o Clelia,
+
+<quote rend="block"><lg>
+<l>O Porzia, o la Vestal vergine pia</l>
+<l>Che riportò dal fiume acqua co 'l cribro; </l>
+</lg></quote></p>
+
+<p>e l'avrei stimato più convenevol ornamento de' palagi reali. </p></sp>
+	<sp><speaker>A.V.</speaker><p> E forse questa men volentieri: perchè nel miracolo ebbe alcuna parte la falsa deità de gli antichi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Più volentieri: così mi piacerebbe che gli idoli e gli idolatri fossero schivati. E a voi che ne pare? </p></sp>
+	<sp><speaker>A.V.</speaker><p> L'istesso. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma se debbiam schivar gli idolatri, fuggirem gli amanti: perchè ciascuno amore lascivo è specie d'idolatria. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Certo l'amante ne l'adorar la sua donna è simile a l'idolatra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E 'n tutti i versi degli amorosi poeti le donne son chiamate idoli. </p></sp>
+	<sp><speaker>A.V.</speaker><p> In tutti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E 'n tutti si descrivono i miracoli d'amore e le maraviglie de l'amata bellezza. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Così aviene senza dubbio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Dunque, sì come i cibi che si toglievan da' sacrifici de gli idoli, non dovevano esser mangiati in quel tempo ch'a gli idoli si sacrificava, così in questo i versi e le rime, essendo consecrati ad un nome vano del quale il poeta si faccia l'idolo, non dovrebbono esser letti da' giovani particolarmente, i quali soglion gustarli come dilicatissimo cibo de l'inteletto. </p></sp>
+	<sp><speaker>A.V.</speaker><p> La poesia dunque lasciva non sarà conceduta a ciascuno. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Non a mio parere; ma s'userà come i veleni de' quali è composta la teriaca o pur altro rimedio: e l'adoprarla in questa guisa non s'appertiene a ciascuno, ma solamente a' medici degli animi, i quali conoscono quanto facilmente si bea il dolce veleno amoroso: e senza licenza non dovrebbon legger quelli che sono infermi o possono agevolmente infermare. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Intendete forse de' fanciulli e de le giovani donne, a cui non dovrebbe esser conceduta così piacevol lezione così tosto: non de quelli de la mia età, i quali tutto il giorno vanno a le comedie; nè so che possa lor nuocere il Petrarca e gli altri poeti somiglianti, più tosto amorosi che lascivi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questa a punto è quella età ne la quale più facilmente s'apprende l'amore; laonde a niuno altro il leggerlo è così pericoloso: del ch'egli avedendosi, volle dal principio avertire il lettore in que' versi:
+
+	<quote rend="block"><lg>
+<l>E ben veggio or sì come al popol tutto</l>
+<l>Favola fui gran tempo, onde sovente</l>
+<l>Di me medesmo meco mi vergogno. </l>
+	<l>E del mio vanneggiar vergogna è 'l frutto, </l>
+<l>E 'l pentirsi e 'l conoscer chiaramente</l>
+<l>Che quanto piace al mondo è breve sogno. </l>
+</lg></quote></p>
+
+<p>Laonde, s'alcuno il leggerà con questo avedimento e con quelli altri che insegna Plutarco in quella operetta ch'egli compose <emph>Del modo co 'l quale debbono esser letti i poeti</emph>, potrà schivar il danno e trarne il giovamento; ma pochi il leggono con questo fine e con queste considerazioni. E s'io volessi ragionarne, sarei peraventura schernito da gli amanti e da' poeti perchè gli uni e gli altri hanno bisogno di freno: e si dovrebbono dar non solamente regole a la poesia, ma leggi a le corti. Ma volete ch'io parli di questa materia, ne la quale son troppo odioso? </p></sp>
+	<sp><speaker>A.V.</speaker><p> Seguite quanto vi piace, ch'a me piace l'ascoltare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Abbiam conchiuso che gli amanti e i poeti i quali cantano d'amore sono quasi idolatri e formatori de gli idoli, come già confessò il Petrarca medesimo dicendo:
+
+<quote rend="block"><lg>
+<l>L'idolo mio scolpito in vivo lauro. </l>
+</lg></quote></p></sp>
+
+	<sp><speaker>A.V.</speaker><p> Dura conclusione: ma poi ch'è vostra, convien che piaccia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E gli avari son parimente idolatri, i quali fanno suo dio il suo tesoro. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Parimente. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E idolatra è similmente l'ambizioso, che si fa idolo de l'onore. </p></sp>
+	<sp><speaker>A.V.</speaker><p> L'ambizioso ancora. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E ciascun di questi appetiti, i' dico l'amore, la cupidità d'avere e l'ambizione, si divide in molti altri: e tutti si volgono ad un obietto particolare il qual s'imprime ne la fantasia; dunque l'anima affettuosa è quasi un tempio d'idolatria: e la nostra imaginazione è la pittura ne la quale sono impressi gli idoli e adorati non altramente che fosser dei terreni. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Novi simolacri son questi, e novo tempio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Anzi pur antichissimo: nè ce ne fu mai ne l'Egitto alcuno in cui s'adorasse tanta varietà de mostri e con sì diverse forme, come son quelle de l'animo nostro; ma niuno altro vano e falso iddio vi si riverisce più de l'Amore, a' quali non so ch'in Menfi fosse dirizzato alcuno altare. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Ben mi sovviene d'aver letto quel cuore consecrato su l'altar d'Amore: onde conosco che voi ancora foste un tempo idolatra. </p></sp>
+	<sp><speaker>F.N.</speaker><p> No 'l niego: e la vittima fu quella che voi diceste, Amore il sacerdote, la fiamma quella de' miei desideri; e l'imagine de la mia donna, simile a quella di Minerva, solo mi pareva che mi potesse salvar di pericolo e di morte. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Però più spesso dovevate invocarla ne le vostre rime. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ella non fu così bene espressa e colorita ne' miei versi come ne la memoria: nè so quel che negli altri possa avenire. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Ciascuno accresce le sue passioni. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma chi purgasse l'animo con la filosofia, quello ch'a me non fu conceduto di fare, la purgazione s'assomiglierebbe a la consecrazione che s'è fatta d'alcuni tempii in questa città, ne la quale è l'albergo de la religione: perchè, quantunque in loro sian cessati que' profani sacrifici che s'usavano tra' gentili, e s'adori il vero Iddio con vera pietà e divozione, uno ha ritenuto il nome di Minerva, un altro quel de la Pace, nomi che le furono imposti da' primi fondatori; nè così bene ci suol purgar la filosofia che non ci lasci il nome de la Sapienza de' gentili e di quella Concordia che fu da lor conosciuta. E s'altro c'è migliore e più santo modo co 'l qual si purghino gli animi nostri, ci sarà mostrato dal signor Maurizio: ed egli sarà il medico; o pur l'udremo a le prediche del padre Tolledo. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Fra tanto non vi sia grave ch'io sappia quel che filosoficamente se ne può ragionare. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Il principio del purgar gli animi è l'assomigliarsi a Dio. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Tutti gli altri princìpi sarebbon cattivi in sua comparazione. </p></sp>
+	<sp><speaker>F.N.</speaker><p> E l'assomigliarsi si fa con la fuga del vizio, il quale è com'una bestia di molti capi: e tutti possono avelenarci l'animo; però bisognerebbe conoscerli tutti: e conoscendosi la natura del male, saran più facili i medicamenti. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Fate dunque che li conosciamo. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Il primo che ci s'appresenta ne l'età giovenile è 'l desiderio del piacevole, il quale è detto Amore,
+
+<quote rend="block"><lg>
+<l>Fatto signore e dio da gente vana; </l>
+</lg></quote></p>
+
+<p>che non è solo, ma accompagnato da tanti Amoretti quanti son quelli che vide la notte un de' famosi poeti. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Gli Amori son descritti molto belli e non paiono le teste de l'idra, come furono da voi chiamate. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Voi sapete ch'Amore è mago, o l'udiste almen ricordare; laonde non dovete maravigliarvi di queste trasformazioni: e se vogliam purgarcene, no 'l risguardiamo in quello aspetto che suole allettarci, ma ne l'altro ch'è solito di spaventarci. E se con questa considerazione risguardarem gli altri Amoretti, ci parranno tutti serpentelli de l'anima selvaggia. </p></sp>
+	<sp><speaker>A.V.</speaker><p> A così fiera vista ciascuno dovrà ritrarsi. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma lasciam l'amore e rimiriamo il desiderio de l'avere, che si divide similmente in molti desideri, quasi in molti capi: perch'altri desidera i cani da seguire le damme, i cervi e i caprioli, e quelli che ardiscono d'assalir i cinghiali ne le cacce; altri i cavalli su' quali possa correr ne l'arringo e combatter ne' torneamenti; altri gli ucelli da rapina; altri i giardini e i palagi sovra i fiumi correnti e sovra fioriti colli; altri i cari vestimenti e i maravigliosi odori che nascono in Arabia, e le preziose pietre che son portate da l'Oriente, e l'argento e l'oro impresso di varie imagini, ciascuna de le quali somiglia quasi un dio de l'anima non sazievole: e questi raccoglie con ogni studio e 'n questi pensa il giorno, di questi sogna le notti e per questi si consuma, accrescendo il desiderio quanto multiplica la facoltà. Or lasciamo questo e rivolgiamci a l'altro che ci rimane. </p></sp>
+	<sp><speaker>A.V.</speaker><p> S'io ben me ne ricordo, è quel de l'onore. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Quel de l'onore smoderato, e 'ntorno al quale germogliano molti altri: perchè 'n varie guise l'uom vorrebbe esser onorato; nè ci basta ch'altri porti opinione de la nostra bontà, se non vi s'aggiunge quella del valore e de la prudenza. Dunque altri vuole esser tenuto buon cavaliero e odia mortalmente colui che non mostra di stimarlo, altri buon medico e buon teologo, altri gran dottor di leggi, molti ne la scoltura e ne la pittura e negli altri men nobili artifici sono ambiziosi; ma la vanità d'alcuni poeti supera tutte l'altre. </p></sp>
+	<sp><speaker>A.V.</speaker><p> L'ambizione de' poeti può forse essere smisurata; ma perchè non è dannosa, ma reca diletto e giovamento, par che più tosto debba esser nutrita co' favori e con quelli altri modi che sogliono accrescer le buone arti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Comunque sia, ogni desiderio de l'anima nostra dee moderarsi; ma più di tutti quello ch'entra negli animi de' cortigiani e de' principi stessi, i quali perturbano il mondo con l'ambizione: come fece Lodovico il Moro, che volle turbare il buono e pacifico stato d'Italia, e diede principio a que' movimenti che volsero tanti regni sossopra e disfecero tanti esserciti, e privarono tante nobili stirpi di natural successione. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Ci rimane altro da conoscere ne le nostre infermità? </p></sp>
+	<sp><speaker>F.N.</speaker><p> Oltre l'idra, la quale alcun pittore non ritrasse giamai in guisa ch'al vero l'assomigliasse, ne l'animo nostro è il leone: è questa la parte che s'adira, fiera e superba e quasi indomita per sua natura, nondimeno assai men rea de l'altra: laonde, s'aviene ch'ella sia domata, è molto utile a la ragione, e, non avendo alcun veleno in se stesso, si purga più facilmente. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Dee almeno aver la febre come hanno i leoni. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Superba febre è quella de l'animo che facilmente si sdegna; onde gentili e delicati conviene che siano i medicamenti: altramente ella ricuserebbe di prenderli. Ma sì fatti non possono esser dati se non da la prudenza, ch'è quasi il protomedico: e tutte l'altre virtù son quasi purgazioni de l'anima, la quale facilmente può risanarsi ne la giovanezza, perchè non ha fatti gli abiti nel vizio nè disposizioni così stabili come son quelle de l'età matura. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Noi altri giovani dunque abbiam questo vantaggio. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Avete senza dubbio; ma perchè la virtù che s'affatica nel purgare è imperfetta, io direi che ne cercassimo altre di maggior perfezione, s'io non temessi che 'l mio ragionare venisse a noia. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Anzi temete del contrario, che 'l troncar del ragionamento debba parer rincrescevole. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io dico adunque ch'oltre le virtù civili, le quali diffiniscono l'animo e lo ripongono oltre l'indefinito e troncano i secondi movimenti, ci sono le purgatorie, che non sol troncano, ma estirpano i secondi moti: e sovra queste son quelle de l'animo già purgato, le quali han già domati i secondi e sogliono dibarbicare i primi e almeno moderarli: e sovra tutte son l'essemplari, ad imitazione de le quali ha l'anima ragionevole alcune forme; e in questo modo, se non m'inganno, l'animo, ch'era tempio d'idolatria, sarà purgato, quanto si può conoscere per filosofica ragione. E s'inanzi la purgazione furono gittati per terra e sparsi gli idoli fallaci che v'erano adorati, dapoi si debbono drizzar nuove e più sante imagini: chè già non vogliamo seguir l'error di coloro i quali sogliono lor negare ogni onore e ogni riverenza. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Niuno tempio senza imagine par che possa muover devozione e inalzar l'animo a le cose celesti. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Oltre quelle dunque che son ne la parte superiore, porremo ne la irragionevole alcune imagini de la virtù, la qual non è dea ma dono d'Iddio, nè dee esser adorata ma onorata: e lor si volgerà l'animo primieramente, e da queste s'inalzerà con la contemplazione a le forme più simplici, le quali avrà dipinto l'intelletto agente, ch'è quasi il pittore e 'l poeta de l'anima, illustrandole tutti i fantasmi co 'l suo lume immortale: nè fermandosi in queste, si leverà a la contemplazione d'Iddio con la fede e con la religione, che stanno ne la sommità de la mente; e allora l'umana virtù sarà nel supremo grado e più vicina a la divina, de la quale è ricevitrice. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Maravigliosa purgazione è questa senza dubbio, e tale che par ci sia bisogno di celeste medico. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Ma con quelli idoli i quali nel cominciar de la purga furono ruinati e disfatti, non cadde peraventura l'idolo de l'anima. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Di lui sentii ragionare alcuna cosa, e lessi che 'l simulacro d'Ercole era ne l'inferno e l'anima in cielo; ma non so qual misterio ci sia nascoso. </p></sp>
+	<sp><speaker>F.N.</speaker><p> S'Ercole fosse stato uomo contemplativo, sarebbe riposto fra gli dei tutto intiero: perchè la contemplazione fa lor simili; ma si dice che l'idolo suo è ne l'inferno per l'azione, la qual è cagione che l'intelletto si converta a le cose inferiori. E voi sapete che la fantasia è quasi uno specchio: però, quando l'anima contemplando si volge tutta al cielo, non lascia alcun simolacro ne la imaginazione, la quale è di sotto, ma, piegandosi a le cose terrene, è forza che vi rimanga. Questo dunque de l'umana azione è l'ultimo simolacro che resti nel mondo fra l'altre imagini de l'anima valorosa, la quale se 'l porta in parte migliore, dove si fa l'ultima purgazione, e di là si passa a l'eterna felicità. Ma tanto sia di ciò quanto piace a' teologi. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Dunque quanto piace al signor Maurizio, che dee esser un di quelli, e non si manifesta. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Questo vostro lungo studiar non si può tener celato: ma niun teologo potrem ritrovare più amico de l'azione, per la quale è così caro al suo padrone e così stimato da la corte e da me così riverito. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Vorrei che l'azion mia vi potesse tanto giovare quanto la vostra contemplazione potrà onorarvi; ma non tronchiamo il ragionamento. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Già, se non m'inganno, abbiam purgato il tempio come per noi si poteva: e 'l poeta interiore ha scritto nel libro de la mente i suoi versi, a simiglianza de' quali dee scriver l'esterior ne le corti, che son varie: e però diversamente dee poetare. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Quantunque siamo in Roma, cerchiam quel che si convenga ne le lodi de' principi e de' cavalieri: perchè la canzona del Caro mi risuona ne la mente, e, pensando a l'armonia de le sue parole, mi par quasi impossibile ch'in altro modo si possa lodevolmente poetare in questa materia. </p></sp>
+	<sp><speaker>F.N.</speaker><p> Io come gli altri ho poetato: però non potrei dirvi per esperienza quanta difficoltà ci sia di fare altramente; ma la ragione par che me l'insegni. </p></sp>
+	<sp><speaker>A.V.</speaker><p> Peraventura ciò si farebbe con minor vaghezza di concetti e di parole, e forse con aggrandir le cose assai meno: laonde si torrebbe molto di quello che la fa così cara e così dilettevole poesia; e s'alcun volesse inalzar a principi moderni e a' grandissimi re quasi una colonna consecrata a memoria immortale, come fu quella di Traiano, vi potrebbe scolpire ne le parti inferiori Bacco ed Ercole e Teseo e Alessandro e quelli altri che furono prima chiamati eroi. </p></sp>
+	<sp><speaker>M.C.</speaker><p> Sarebbe lecita l'imitazione de' gentili, almeno di Salamone, il qual nel mirabile artificio del tempio e del tabernacolo volle che si figurassero alcune imagini, tutto ch'elle fossero proibite da le sue leggi: e a la sapienza di quel re par ch'ogni cosa debba concedersi, sì come non si potè negare al valore d'Erode che non v'inalzasse l'aquile de' Romani, co' quali era stato partecipe de le perdite e de le vittorie. Ma quantunque non si debban trattar queste materie severamente, si dee scrivere non quel che sia convenevole a difendere, ma quel che sia necessario di lodare. </p></sp>
+
+</div1>
+</body>
+</text>
+</TEI.2>

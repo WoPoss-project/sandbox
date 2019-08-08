@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Capitoli</title>
+      <author>Giovanni Della Casa</author>
+    </titleStmt>
+    <extent>32 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000156</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere di Baldassare Castiglione, Giovanni Della Casa, Benvenuto Cellini</title>
+        <editor id="ed">Cordie , Carlo</editor>
+        <publisher>R. Ricciardi</publisher>
+        <pubPlace>Milano [ecc.]</pubPlace>
+        <date>1960</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita"/><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.3 - NARRATIVA ITALIANA. 1492-1542</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Narrativa</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-06-08T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marta Zanazzi</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2004-06-14T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>Cristina Spadaro</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Revisione linguistica</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<front>
+<div1>
+<head>Dedica al Principe Federico II di Montefeltro della Rovere</head>
+<opener>
+<salute>SERENISSIMO PRINCIPE</salute>
+</opener>
+<p>In molti discorsi, che V.A. si degna di far meco di varie cose, che appartengono ad un Principe suo pari, mi sono accorto, che con molto suo gusto ragiona tal volta dell'Imprese, e de gli Emblemi, materia degna di Cavaliero, c'havendo havuto diletto nei libri Etici, e Politici de i più ingegnosi Filosofi, con la lettione de i quali si trattiene così volentieri, quasi in un bel quadro  voglia poi veder dipinto in figure significatrici di tutta la Moral Filosofia tutto ciò, che può in un medesimo tempo pascere l'intelletto, e dilettar l'occhio, che vagamente rimiri espresso quello, che con qualche  oscurità fù da gli scrittori esplicato. Che perciò hò voluto ridurre al nostro Idioma gli Emblemi di Andrea Alciato, il quale con questo genere di scrittura hà dato splendore alla sua professione delle Leggi, tanto giovano i lumi delle belle lettere a tutte le professioni; sicuro, che congiunti con quel c'hò scritto dell'Imprese, daranno qualche sodisfattione a V.A. quando disoccupato da gli esercitij cavagliereschi si degnarà favorirli, leggendoli con occhio grato verso un Servidore di tanta affettione, e così obligato alla sua  Serenissima Casa, dalla quale, con la benignità, con che sempre hà favorito gli Huomini Virtuosi, ricevo ogni giorno gratie, che sono oltre a i meriti miei; tanto più, che procedono dalla generosità del Sereniss. Sig. suo Padre, esemplare de' Principi, Specchio di bontà, e di religione, &amp; Erario del sapere, col quale tutti gli Huomini dell'età nostra con infinita lode, e testimonio di tutto'l Mondo sopravanza. Degnisi V. A. di ricever questo picciol segno dell'obligo mio, &amp; aggradirlo con la generosa grandezza propria di tutti gli Avoli suoi Serenissimi; ch'io trà tanto pregarò sua Divina Maestà, che conservi V.A. nel colmo di tutte le desiderate felicità.</p>
+<closer>
+<dateline>Da Casteldurante a' 20. di Novemb. 1619.</dateline>
+<salute>Di V.A. Serenissima<pb/>Humilissimo Creato</salute>
+<signed>Giulio Cesare Capaccio.</signed>
+</closer>
+</div1>
+<div1>
+<head>A I LETTORI</head>
+<p>GLI antichi Egittii, e Caldei, (come scrive Clemente Alessandrino) volendo, che le lor cose sacre, e gli occolti misterii della religione come cose rimote dall'humano sapere, fussero cognite solamente a i loro Sacerdoti, percioche, come scrive Platone, non conveniva, che alle cose pure si accostassero huomini impuri, ne che i secreti arcani fussero comuni col volgo, ritrovarono un secreto modo per non essere intesi, e nei principii, che sogliono esser bassi in tutte le cose, da vilissime materie cavarono i loro pensieri, infino da Sporchi Scarabei, e Topi, e Lucertole; ò vili Ucelli, Nottole, e Sportiglioni ; ò vili Herbe, Pulegio, Gramigna, e simili, che poi scolpiti in Pietre, in Obelischi, in Lamine di varii metalli, rimanessero quasi vivi testimonii della sapienza loro; e questa maniera di esplicar concetto chiamarono IEROGLIFICO, che scoltura sacra significa.</p>
+<p>Divenuto poi il mondo più accorto , e gli ingegni fatti più nobili, e perspicaci, gli stessi cominciarono ad ingrandir l'opinione del lor sapere, non ritogliendo in tutto la viltà di quei primi principii: caminarono più innanzi, à dichiarare i misterii loro, e con Pianeti, e con segni Celesti; e né volatili giunsero à gli Sparavieri, all'Aquile, a gli Avoltoi; e ne' quadrupedi, a i Leoni, a i Cavalli, a gli Ongari, et ingrandendo le Lucertole, ferono, che diventassero Crocodili; oltre, che nelle piante diedero tanta nobiltà ad alcuni arbori, che le quercie poi furono riverita in Dodone, la Palma in Delfo, e tante altre vanità credute nella Magia. Per questo occulto sapere soggiunsero i Greci, i quali non potendo già conseguire quel fastidioso modo di Sapienza, con altre invenzioni ferono insorgere, Enigmi, allegorie, et alcuni Segni, ò Figure, che chiamarono SIMBOLI i quali significano quelle cose, che noi ci andamo congetturando, e conoscemo: onde finsero molte chimere, e particolarmente la Chimera diedero à Bellorofonte, ad Anfiarao il Dracone, a Capaneo l'Hidra, a Polinice la Sfinge, ad Agamennone il Leone, ad Hippomedonte Tifone, a Perseo Medusa, et il Serpe ad Alessandro: Onde i Romani invaghiti anch'essi di questo modo di sapere presero il fieno nell'espedition della guerra, e mani, et aquile, e torri, e labar: ornamenti dell'esercito: e de gl'Imperadori, chi portò scolpito il leone nell'anello come Pompeo, chi la sfinge nel sugello, come Augusto, chi la Rana come Mecenate, e chi l'ancora col Delfino come Tito.</p>
+<p>Invecchiando poi il Mondo, e'l sapere, havendo desiderio l'Huomo di conoscer le cose occulte, ma non essendogli concesso, si diede à più chiari Simboli delle cose, per poter mandar fuori il parto dell'intelletto, e con altro modo, che chiamarono IMPRESA, diedero nobiltà a Quadrupedi, a Volateli, a Serpenti, a piante, a tutte le cose in somma, che produce la Natura, con le quali potessero esplicar i concetti loro; onde per le piante, e fiori, Margherita Regina di Navarra levò l'Elitropio, Carlo di Lorena l'Hedera, Prospero Colonna la Palma, e'l Cipresso, Francesco I. di Francia tre Gigli; per animali quadrupedi, Francesco Sforza il Cane, Fedrico di Montefeltro l'Armellino, Ré Alfonso il Bue, per pietre Carlo V. due Colonne, Guid'Ubaldo della Rovere tre Piramidi, per non dir tante altre cose, che mi farebbono troppo lungo. Anzi per far più manifesto il lor pensiero, a tutti i sopradetti Simboli aggiunsero parole, ò motti, che chiamano, perche han voluto, che sia già misterioso quel, che esplicar vogliono, ma che vi sia il modo, col quale possa asseguirsi l'intentione.</p>
+<p>Hor tutte queste maniere di IEROGLIFICI, di SIMBOLI, ed'IMPRESE, han qualche affinità con quell'altro genere di esplicar concetti, à cui han dato nome di EMBLEMA, il qual diremo propriamente, che sia quella pittura, ò scoltura, ò altro ornamento, non solo di pareti, e di pavimenti, come costumavano gli antichi con quelle picciole pietrucce indorate, e colorite, che poi chiamarono opra Musiva, ò di Musaico, che nella nostra età è rimasto con tanto splendore, e con tanta gloria della Serenissima Republica Veneta nell'ammirabil Tempio di S. Marco, una delle cose più illustri, che si veggano in Italia; ma tutto ciò ancora, che, ò si scolpisce in vasi di oro, e di argento, et in pietre pretiose; overo si dipinge in mura di tempii, e di palaggi, come de i portici Napolitani racconta Filostrato, e come de gli altri luoghi scrivono Pausania, or Apuleio: et è questo modo di compositione detto EMBLEMA, dalla Grece voce ***, che significa, esser fraposto, ò tramezzato, come si frapongono i lavori grotteschi, che con tante vaghe maniere porgono diletto. Talche EMBLEMA sarà una pittura, ma cavata dalla favola, dall'historia, e dalle cose naturali, per rappresentare la Moralità, il Governo, la Civiltà, e tutto il corso dell'humana vita, descritta à pennello da tanti significati, che in quello, come in un prontuario della Filosofia, si ritrovano; ove havendo faticato nobilissimi ingegni, con assai nobili inventioni, pur al fin riconoscono il premio delle lor fatiche dal dottissimo Alciato, che primo fu, che introdusse questa scrittura tra gl'Italiani. Scrittura ingegnosa a i Letterati giudiziosi, i quali conoscono, quanta utilità recar ponno queste bellezze, le quali da huomini, che non sanno, non potranno mai esser capite.</p>
+</div1>
+<div1>
+<head>BAREZZO BAREZZI a chi legge.</head>
+<p>LI mesi passati ( amorevole lettore ) diedi alla Luce del Mondo gli Apologi del Signor Giulio Cesare Capaccio, ne' quali havrai havuto occasione di apprendere molti precetti degni d'ogni più studioso petto; hora ti porgo il Principe dello stesso Virtuosissimo Gentilhuomo tratto da gli Emblemi dell'Alciato, dove potrai con non men gusto, che frutto empir l'animo tuo con quella Politica, che tanto è lodevole anco ne' bassi, quanto necessaria ne' più sublimi. Aspetta fra poco li Dialoghi da lui composti di cose così curiose, dotte, e vaghe, che non sò, se più ò potrai, ò saprai desiderare: doppo i quali verranno le sue Imprese talmente accresciute, &amp; abbellite, che ne caverai gran profitto, e sommo contento. Vivi lieto, e prega il Signor Iddio, che mi dia forze di poterti ( come faccio ) cotidianamente giovare.</p>
+</div1>
+<div1>
+<head lang="lat">APPROBATIO.</head>
+<p><foreign lang="lat">Opus inscriptum Il Principe del Sig. Giulio Cesare  Capaccio, tratto da gli Emblemi dell'Alciato attente legi, nihil in eo, quod Catholicae Fidei, vel bovis moribus adversetur, comperi; quare, ut in lucem prodeat, dignum censui, cum sit mira eruditione refertum, et Principibus, et cuiusuis conditionis viris ad virtutes capescendas magno adiumento esse possit. Venetijs ex Domo S. Nicol. Tolent. VII. Id. Martij. MDCXIX</foreign>.</p>
+<p><foreign lang="lat">D.Io.BaptistaMagnavaccaTheologusCler.Regul</foreign>.</p>
+<p><foreign lang="lat">Conceditur typis, attenta supra scripta approbatione, etc. Ita, etc. Fr. Ioan. Domin. Vignutius de Ravenna Sac. Theol. Magister Inquisitor Generalis</foreign>.</p>
+</div1>
+</front>
+<body>
+<div1>
+<head>CAPITOLO SOPRA IL FORNO</head>
+<lg>
+<l>S'io mi levassi un'ora innanzi giorno</l>
+<l>E ragionassi insino a mezza notte,</l>
+<l>Ancor non loderei ben bene il forno.</l>
+<l>Questa è materia da persone dotte:</l>
+<l>Chi non ha 'n capo del cervello a macco</l>
+<l>Vadi a sentir lodar le pere cotte.</l>
+<l>E perch'io voglio scior la bocca al sacco,</l>
+<l>Voi, ch'a questi signor rodete il basto,</l>
+<l>Venitemi aiutar, quand'io mi stracco.</l>
+<l>D'ogni ben fare il mondo s'è rimasto.</l>
+<l>Soleva esser già'l forno un'arte santa,</l>
+<l>Ora il mestiero è poco men che guasto.</l>
+<l>Perch'oggidì quest'avarizia è tanta,</l>
+<l>C'h'ognun vorrebbe infornare a credenza,</l>
+<l>E che è, che non è, qualcun ti pianta</l>
+<l>Mi fanno rinnegar la pazienza</l>
+<l>Certi, ch'al primo hanno la pala in mano,</l>
+<l>Venga chi vuole o con danari, o senza.</l>
+<l>Questo non è mestier da farlo invano:</l>
+<l>Chi ha danari, inforni quanto vuole;</l>
+<l>E chi non ha, dite ch' e' vadi sano.</l>
+<l>Tennero il forno già le donne sole,</l>
+<l>Oggi mi par, che certi garzonacci</l>
+<l>L 'abbin mandato poco men ch'al sole.</l>
+<l>Spazzinlo a posta lor, nessun non vacci:</l>
+<l>Dican pur ch'egli è umido e mal netto,</l>
+<l>E sonne ben cagion questi fratacci,</l>
+<l>Io per me rade volte altrove il metto,</l>
+<l>Con tutto ch'il mio pan sia pur piccino,</l>
+<l>E 'l forno delle donne un po'grandetto.</l>
+<l>Benché chi fa questo mestier divino,</l>
+<l>Sa ben trovar, dove l'hanno nascosto</l>
+<l>Colà dirieto un certo fornellino,</l>
+<l>Ch'è troppo buon da far le cose arrosto:</l>
+<l>Cuocere, come a dir, pasticci e torte,</l>
+<l>Non si può dir, quanto fa bene e tosto.</l>
+<l>E puossi almanco infornar piano e forte</l>
+<l>Pur ch' e' non è sì vetriolo e mezzo,</l>
+<l>Come questi altri, ch'è proprio una morte.</l>
+<l>Come tu 'l tocchi, se ne leva il pezzo:</l>
+<l>Ad ogni poco il fornaio dice, ohi!</l>
+<l>Voi non potete mai informare a mezzo.</l>
+<l>Ma pure a questo pensateci voi:</l>
+<l>Perch'egli è chi si mangia anche il pan crudo:</l>
+<l>Ognun faccia a suo modo i fatti suoi.</l>
+<l>Ch'inforna, doverebbe stare ignudo;</l>
+<l>Benché vestito anche infornar si possa,</l>
+<l>E per una infornata anch'io non sudo.</l>
+<l>La pala poi vuol esser corta e grossa,</l>
+<l>Dice la gente ignorante; ma io</l>
+<l>Non trovo che ragion se l'abbi mossa;</l>
+<l>E bench'io dica or contra'l fatto mio,</l>
+<l>Perché Soranzo, a non vi dir bugia,</l>
+<l>La pala mia non è gran lavorio;</l>
+<l>Io credo che bisogni, ch'ella sia</l>
+<l>Grande e profonda e grossa e larga e lunga,</l>
+<l>E s'altro nome ha la geometria:</l>
+<l>Perch'io veggio il fornaio che si prolunga,</l>
+<l>Per accostarla del forno alle mura,</l>
+<l>E Dio vogli anco poi, ch'ella v'aggiunga.</l>
+<l>Ma sopra tutto la vuol esser dura,</l>
+<l>E chi l'adopra gagliardo di schiena,</l>
+<l>Che la sappi tener ritta e sicura.</l>
+<l>Or io v'ho dato la dottrina piena:</l>
+<l>Restami a dir, come s'inforna il pane,</l>
+<l>Come si fa a levar, come si mena.</l>
+<l>Se ti bisogna adoperar le mane</l>
+<l>A stropicciarlo e rinvenirlo a stento;</l>
+<l>Ti so dir io, tu infornerai domane:</l>
+<l>Che quando il pane a lievitarsi è lento;</l>
+<l>Scalda e riscalda a tua posta, non basta:</l>
+<l>Perché ci è, diciam noi, poco fermento.</l>
+<l>E per contrario s'egli è buona pasta,</l>
+<l>Al primo tratto è lievito e gonfiato,</l>
+<l>Portalo alla fornaia, che si guasta.</l>
+<l>Ma se pur fusse qualche sciagurato,</l>
+<l>Che levitasse il pane a stento o tedio,</l>
+<l>E non avesse fermento né fiato,</l>
+<l>Ad ogni cosa si trova rimedio.</l>
+<l>Un certo vescovaccio ha la ricetta,</l>
+<l>Ch'amore e crudeltà gli han posto assedio.</l>
+<l>E perché vuol del pan tal volta in fretta,</l>
+<l>M'è stato detto, che l'ha sempre drieto,</l>
+<l>E tienla il suo garzon nella brachetta:</l>
+<l>E benché in casa sia molto segreto,</l>
+<l>Io sento dire un non so che di pesche:</l>
+<l>Ma di grazia, Soranzo, state cheto.</l>
+<l>Le fornaie non voglion queste tresche,</l>
+<l>Che se l'avessero aspettar gl'incanti</l>
+<l>Per infornar, per Dio, le starien fresche.</l>
+<l>Molti di questi giovani galanti</l>
+<l>Tenner già il forno in qualche bella posta,</l>
+<l>E si pagava in quel tempo a contanti.</l>
+<l>O forno da signor! Fornai a posta!</l>
+<l>Ti so dir, che gli offici allor volavano</l>
+<l>Con l'espedizion bella e composta,</l>
+<l>E pensioni, e scudi che fumavano:</l>
+<l>Prometton or, finché 'l lor pan si faccia;</l>
+<l>E se ne ridon poi come ne 'l càvano.</l>
+<l>E ciascheduno strazia, e mena a caccia</l>
+<l>Il veltro giovinetto a suon di corno;</l>
+<l>E com'un che gl'invecchia, a fiume il caccia.</l>
+<l>Ma lasciam questo, e ritorniamo al forno:</l>
+<l>Diciam, come lo spazzan le maestre</l>
+<l>E di sotto e di sopra, intorno intorno.</l>
+<l>Ell'hanno a posta le belle canestre</l>
+<l>Di cenci e pezze, tutte arsiccie e rosse,</l>
+<l>A tal servigio apparecchiate e destre.</l>
+<l>E vo' mostrare a queste genti grosse,</l>
+<l>Con quanto studio se lo tien asciutto</l>
+<l>Una, che'1pane a questi dì mi cosse.</l>
+<l>La lo lava ben bene, e spazza tutto</l>
+<l>Sera e mattina per un ordinario;</l>
+<l>E vuol ch'e' non le puta sopra tutto.</l>
+<l>E poi si reca in mano il calendario,</l>
+<l>E guarda molto ben la volta e 'l tondo,</l>
+<l>Che 'l corso della luna è sempre vario.</l>
+<l>Va ricercando dalla cima al fondo</l>
+<l>Perché quel forno, dove piove o fiocca,</l>
+<l>Non lo terrebbe asciutto tutto il mondo.</l>
+<l>Tiengli la notte e 'l dì chiusa la bocca,</l>
+<l>Se la dovesse ben tor del capecchio,</l>
+<l>E spesso alla camicia anche l'accocca:</l>
+<l>Sì che con tale e sì fatto apparecchio</l>
+<l>La tien quel forno bianco di bucato,</l>
+<l>Netto come un bacin, come uno specchio;</l>
+<l>Dove che l'altre l'han sempre muffato,</l>
+<l>Che gli strapiove loro in venti lati,</l>
+<l>Affumicato, arsiccio e ismattonato.</l>
+<l>Hanno certi fornacci smisurati,</l>
+<l>Che si potrebbon domandar fornace</l>
+<l>Da cuocervi una regola di frati.</l>
+<l>È ver che il forno è sempre mai capace,</l>
+<l>Ma pur s'intende acqua e non tempesta:</l>
+<l>Perch' alla fine ogni troppo dispiace.</l>
+<l>S'io mi ricordo bene, a dir mi resta,</l>
+<l>Come si mena pe 'l forno la pala,</l>
+<l>E poi vi mando a casa, e dovvi festa.</l>
+<l>Inforni pian chi lo vuol far con gala:</l>
+<l>Perché quando un attende a frugacchiare,</l>
+<l>Su 'l buon appunto la furia gli cala.</l>
+<l>Non è sì facil cosa l'infornare;</l>
+<l>E benché il mondo lo stimi una baia,</l>
+<l>Gli ha più manifattura ch'e' non pare.</l>
+<l>Ed ecci tal, ch'ha cotto alle migliaia,</l>
+<l>E non par che ancor ben là vi si assetti;</l>
+<l>Ma benedetta sia la mia fornaia:</l>
+<l>La non vuol mai che chi 'nforna s'affretti:</l>
+<l>E perch'ella ha da far talvolta anch'ella,</l>
+<l>Vuol ch'io fermi la pala e ch'io l'aspetti;</l>
+<l>E sempre mai si dimena e favella.</l>
+<l>Inver quello infornar fatto alla muta</l>
+<l>M'è sempre parso una strana novella.</l>
+<l>Poi quando l'opra è presso che compiuta,</l>
+<l>Acciò che 'l forno non si raffreddassi,</l>
+<l>Grida a tutta la casa, aiuta, aiuta:</l>
+<l>E se la pala in forno s'imbrattassi,</l>
+<l>La ne la cava, e di sua man la netta,</l>
+<l>Così 'l mestier pulitamente fassi:</l>
+<l>Ed or si torce, or alza la gambetta,</l>
+<l>Perché l'aggiunga meglio in ogni canto:</l>
+<l>Che siate un'altra volta benedetta.</l>
+<l>Voi, che per infornar piacete tanto,</l>
+<l>Che gli altri servidor restano in bianco,</l>
+<l>Dite qual cosa di quel mestier santo:</l>
+<l>Ch'io non ho detto nulla, e sono stanco.</l></lg>
+</div1>
+<div1>
+<head>CAPITOLO DEL BACIO</head>
+<lg>
+<l>Io stetti già per creder, che 'l popone</l>
+<l>Fussi dinanzi un gran pezzo di via</l>
+<l>A tutte quante l'altre cose buone,</l>
+<l>Massime col salame in compagnia:</l>
+<l>Perché quel dar così perfetto bere</l>
+<l>M'andava molto per la fantasia.</l>
+<l>E 'l cacio con le fave e con le pere</l>
+<l>Anch'ebbe un tempo assai della mia grazia;</l>
+<l>Ma de' poponi e' non se ne può avere:</l>
+<l>Perché n'è buon di mille un per disgrazia;</l>
+<l>E perché costan sempre tanto cari,</l>
+<l>Sol qualche buona borsa se ne sazia.</l>
+<l>Il cacio è cosa più da nostri pari,</l>
+<l>Se non fosse viscoso e poco sano,</l>
+<l>Perché non costa mai molti denari.</l>
+<l>Ma sia del nostro, o sia del parmigiano.</l>
+<l>Come tu t'avviluppi seco punto,</l>
+<l>Ti fa doler la testa a mano a mano.</l>
+<l>E poi quei dì, che non si mangia d'unto,</l>
+<l>Come son le vigilie comandate,</l>
+<l>Quando egli è necessario appunto appunto,</l>
+<l>Il parrocchian non vuol che l'assaggiate:</l>
+<l>Ch'è segno pur, ch'egli ha in sé qualche pecca,</l>
+<l>Come hanno tutte le cose vietate.</l>
+<l>Ha questo male ancor la carne secca,</l>
+<l>La Quaresima tutta intera intera,</l>
+<l>Sabati e venerdì non se ne becca.</l>
+<l>Sì che 'l popone e 'l cacio con la pera,</l>
+<l>A mio giudicio, ed il prosciutto ancora</l>
+<l>Non hanno in sè la somma bontà vera.</l>
+<l>Io cercai ben di lei drento e di fuora,</l>
+<l>Otri, volte, spezial, cucine e letti,</l>
+<l>E dove la trovai, lo vo' dir ora.</l>
+<l>La volta, la cucina, i suoi diletti,</l>
+<l>E tutti infin gli spassi della gola</l>
+<l>Han per una virtù cento difetti.</l>
+<l>Così quel che si fa tra le lenzuola,</l>
+<l>Ti riempie, ti sazia e ti rincresce,</l>
+<l>Come tu 'l fai pur una volta sola.</l>
+<l>Alla fin una cosa mi riesce,</l>
+<l>E questa è sola la virtù de' baci,</l>
+<l>Che non iscema mai, ma sempre cresce.</l>
+<l>Questi come i popon, non son fallaci:</l>
+<l>Puossene aver a desinare e a cena:</l>
+<l>Or vadinsi a impiccar presciutti e caci.</l>
+<l>Forse che ti debilitan la schiena?</l>
+<l>O che ti guastan la complessione?</l>
+<l>Non ci va qui tanto mena e rimena.</l>
+<l>Se tu baciassi il dì cento persone,</l>
+<l>Vi ti puoi mantener con poca spesa,</l>
+<l>E lo puoi fare in dì di passione,</l>
+<l>Perché nol proibisce mai la chiesa,</l>
+<l>Anzi fin su l'altar ci aspetta il prete,</l>
+<l>Che l'andiam a baciar, con la man tesa.</l>
+<l>In tutti i quei paesi, ove voi siete,</l>
+<l>In ogni etade, in tutte le stagioni</l>
+<l>Voi potete baciar, se voi volete.</l>
+<l>E non avete a dislacciar calzoni,</l>
+<l>Nuova manifattura stravagante,</l>
+<l>Che chi gli ritrovò, Dio gliel perdoni.</l>
+<l>Baciansi le parenti tutte quante,</l>
+<l>Perché il bacio in effetto par capace</l>
+<l>Fin de gli altar, fin delle cose sante.</l>
+<l>Esso fa 'l parentado, esso la pace,</l>
+<l>Esso de l'oprar suo mai non si pente:</l>
+<l>Bene ha perduto il gusto a chi non piace.</l>
+<l>E se tu trovi chi dica altrimente,</l>
+<l>E vuol preporgli il zucchero e le torte,</l>
+<l>Digli da parte mia, che se ne mente.</l>
+<l>Trovansi baci al mondo di due sorte,</l>
+<l>Parte ne sono asciutti e parte molli:</l>
+<l>I primi s'usan volentier in corte.</l>
+<l>Se noi vogliam ch'un prete ci satolli,</l>
+<l>Noi gli diciam: Signore, io ve la bacio,</l>
+<l>Piegate le ginocchia e torti i colli.</l>
+<l>Venere segue poi quell'altro bacio,</l>
+<l>La quale in ver senza di lui sarebbe,</l>
+<l>Come son le lasagne senza cacio.</l>
+<l>Credo ogni valentuom si straccherebbe,</l>
+<l>Che volessi contar le sue maniere,</l>
+<l>E poi forse anco non le conterebbe.</l>
+<l>Basti accennarvi sol le cose vere;</l>
+<l>Però dico, che un savio in varie vie</l>
+<l>Vi bacerà le notti intere intere.</l>
+<l>Né bisogna mangiar sei porcherie,</l>
+<l>E riscaldarsi il fegato e le rene,</l>
+<l>Per dirizzare a ciò le fantasie.</l>
+<l>E sempre è netto il vaso, e sempre tiene,</l>
+<l>E puossi il bacio usar disteso e 'n piede,</l>
+<l>Faccia la Luna quando ben le viene.</l>
+<l>Non ha dinanzi il bacio la sua sede</l>
+<l>Più che di drieto: è lecito e concesso</l>
+<l>Di poterci baciar dal capo al piede.</l>
+<l>Non è più proprio all'un, ch'all'altro sesso:</l>
+<l>E quel, che fa, patisce in questo caso;</l>
+<l>E colui, ch'è baciato, bacia anch'esso.</l>
+<l>E perché paia ch'io non parli a caso.</l>
+<l>Dico che'l bacio si può male usare</l>
+<l>Dalle persone ch'hanno lungo il naso.</l>
+<l>Ma né per questo gli vo' biasimare,</l>
+<l>Perché nel vero non ci han colpa avuto,</l>
+<l>Se la natura gli volse stroppiare.</l>
+<l>Ristorinsi costor dunque col fiuto,</l>
+<l>E con lo intonar bene i contrabbassi,</l>
+<l>E 'l bacio resti a chi non è nasuto.</l>
+<l>Ora io v'ho tocco de' galanti passi,</l>
+<l>Senza far troppo lunga diceria:</l>
+<l>Perché così cogl'intendenti fassi.</l>
+<l>Bacio la man di vostra Signoria.</l></lg>
+</div1>
+<div1>
+<head>CAPITOLO SOPRA IL NOME SUO</head>
+<lg>
+<l>S'io avessi manco quindici o vent'anni,</l>
+<l>Messer Gandolfo, i' mi sbattezzerei,</l>
+<l>Per non aver mai più nome Giovanni;</l>
+<l>Perch'io non posso andar pe' fatti miei.</l>
+<l>Né partirmi di qui, per ir sì presso,</l>
+<l>Ch'io nol senta chiamar da cinque o sei.</l>
+<l>E s'io mi volto, io non son poi quel desso;</l>
+<l>E par che n'escan fuor oggi dì tanti,</l>
+<l>Ch'in buona fede è un vituperio espresso.</l>
+<l>I cappellani, i notai, i pedanti</l>
+<l>(Vi so dir io, non ne va uno in fallo)</l>
+<l>Gli hanno nome Giovanni tutti quanti.</l>
+<l>Così qualche intelletto di cavallo,</l>
+<l>Barbier o castra porci o cava denti</l>
+<l>Sempre han viso d'aver quel nome, ed hallo.</l>
+<l>Credo che 'l primo che mostrò alle genti,</l>
+<l>Come dir mele cotte o macaroni,</l>
+<l>Non ebbe nome gran fatto altrimenti.</l>
+<l>Anche chi 'nsegnò far lessi i marroni,</l>
+<l>Chi trovò i citrioli e 'l cacio fresco,</l>
+<l>Credo che fosse un Giovanni, e de' buoni.</l>
+<l>Per Dio, ch'io vorrei 'nanzi esser tedesco,</l>
+<l>E poco manco ch'i non dissi ebreo,</l>
+<l>E verbi grazia aver nome Francesco.</l>
+<l>Più tosto accettarei Bartolomeo,</l>
+<l>Più tosto mi farei chiamar Simone,</l>
+<l>E presso ch'io non dissi anco Matteo.</l>
+<l>E però chi battezza le persone,</l>
+<l>Doverebbe tener la briglia in mano,</l>
+<l>E non lo metter senza discrezione.</l>
+<l>Voi e questi altri, che m'amate sano,</l>
+<l>Non mi chiamate, di grazia, Giovanni:</l>
+<l>Pur.chi mi vuol chiamar, mi chiami piano.</l>
+<l>Vo' più tosto tirato esser pe' panni,</l>
+<l>Chiamato a grido, come un sparviere,</l>
+<l>O con un fischio, come un barbagianni.</l>
+<l>Perché mi par tuttavia di vedere,</l>
+<l>Che nessun non si voglia impacciar meco,</l>
+<l>Che nessun voglia ber al mio bicchiere.</l>
+<l>Va che si possi derivar dal Greco,</l>
+<l>Come certi altri nomi, e rassettarlo,</l>
+<l>E mettergli un cognome bravo seco.</l>
+<l>Giann'Anton, Gian Maria, Gian Pier, Gian Carlo,</l>
+<l>Infin a Gian Bernardo e Gian Martino</l>
+<l>Odi, se gli è chi voglia accompagnarlo.</l>
+<l>Non si può dir nè in volgar nè in latino:</l>
+<l>Cavine pur chi vuol lettere, o metta,</l>
+<l>Che nol racconcieria santo Agostino.</l>
+<l>Svergognerebbe ogni bella operetta:</l>
+<l>Perché chi vede il nome de l'autore,</l>
+<l>Fa subito pensier d'averla letta;</l>
+<l>Sì che mio padre si fé un bell'onore</l>
+<l>A ritrovar questa poltroneria</l>
+<l>Da battezzare un suo figliuol maggiore,</l>
+<l>Acciò che si mi parla chi che sia,</l>
+<l>Che mi voglia contar le sue ragioni,</l>
+<l>Mi dica al primo tratto villania.</l>
+<l>Sanza che monitori e citazioni</l>
+<l>Comincian per Giovanni d'otto e sette,</l>
+<l>E quel che più m'increscie, e' cedoloni,</l>
+<l>Che m'han dato a miei dì di grandi strette</l>
+<l>Quando io leggo così nel primo aspetto,</l>
+<l>Anzi ch'io sappia che cognome ei mette.</l>
+<l>E' m'è venuto alle volte sospetto</l>
+<l>Di non ne aver a ir fra gente e gente</l>
+<l>Rinvolto nella cappa stretto stretto.</l>
+<l>Nome che spiace a chi 'l dice, a chi 'l sente:</l>
+<l>Che non è uom, che lo volesse avere</l>
+<l>Né per amico, né per conoscente.</l>
+<l>Non gli sta ben né signor né messere,</l>
+<l>Ma calzerebbe ben per eccellenza,</l>
+<l>Se voi gli deste un maestro o un sere,</l>
+<l>E s'un non ha più che buona presenza,</l>
+<l>Non lo confessi, e non lo dica mai,</l>
+<l>S'egli ha bisogno di robe a credenza.</l>
+<l>Mutalo e sminuiscil, se tu sai:</l>
+<l>O Nanni o Gianni o Giannino o Giannozzo,</l>
+<l>Come più tu lo tocchi, peggio fai,</l>
+<l>Che gli è cattivo intero, e peggior mozzo.</l></lg>
+</div1>
+<div1>
+<head>CAPITOLO DEL MARTELLO</head>
+<lg>
+<l>Tutte le infirmità d'un ospitale,</l>
+<l>Contandovi il francioso e la moria,</l>
+<l>Quanto il martel d'amor, non fanno male.</l>
+<l>Non è chi sappia dir quel che si sia;</l>
+<l>Ma vienti voglia mille volte all'ora</l>
+<l>Di disperarti e di gittarti via.</l>
+<l>Purché ti guardi torto la signora,</l>
+<l>Parti aver le budelle in un canestro,</l>
+<l>Vatti pur, e confessa allora allora.</l>
+<l>Passeggia a santo Gianni, a san Silvestro;</l>
+<l>Rodesi i guanti un, quand'egli ha martello;</l>
+<l>Fermasi or sul piè manco ed or sul destro;</l>
+<l>Crucciasi or col compagno, or col fratello;</l>
+<l>Fugge gli amici, e sta bizzarro e strano,</l>
+<l>Ed è per far del resto del cervello.</l>
+<l>Ogni altro ragionar è breve e vano,</l>
+<l>Sol del suo amor si mette la giornea:</l>
+<l>Iddio ne guardi ogni fedel cristiano.</l>
+<l>Chiamala or furfantella, or ninfa, or dea:</l>
+<l>Corre di qua, di là, suda e s'ammazza</l>
+<l>Per trovarle la mula o la chinea.</l>
+<l>In somma questa è una cosa pazza,</l>
+<l>Ed io per me l'ho già più volte detto,</l>
+<l>Che chi non ha martello, in vero sguazza.</l>
+<l>Quando altri per dormir è ito al letto,</l>
+<l>Comincia i suoi sospiri a ritrovare,</l>
+<l>E beccasi il cervello a bel diletto.</l>
+<l>Non lo farebbe 'l sonno addormentare;</l>
+<l>E chi contasse allora i suoi pensieri,</l>
+<l>Potrebbe annoverar l'onde del mare.</l>
+<l>Va racconciando insieme i falsi e i veri:</l>
+<l>La ragionò col tal, l'andò, la stette:</l>
+<l>Quest'è, ch'io non la vidi oggi né ieri.</l>
+<l>Ma sopra tutte l'altre acerbe strette</l>
+<l>È quando giostra teco un prete, e cozza:</l>
+<l>Questo, cred'io, n'ha morti più di sette.</l>
+<l>In sì strana fortuna ambi n'accozza,</l>
+<l>Frate, ch'abbiam piagato ambi il polmone</l>
+<l>D'una sol man, così foss'ella mozza.</l>
+<l>Cavaci la bambagia del giubbone,</l>
+<l>Ed a contemplazion d'una puttana</l>
+<l>Ci toglie amor l'aver e le persone.</l>
+<l>Facci aspettar tutt'una settimana,</l>
+<l>A disagio impiccati per la gola,</l>
+<l>Una vecchia, una balia, una roffiana;</l>
+<l>Che per averle detto una parola,</l>
+<l>Non chiede, ma comanda, e vuol ch'altrui</l>
+<l>Mariti or la nipote, or la figliuola.</l>
+<l>Sempre ti butta in occhio: – io feci, io fui;</l>
+<l>Ben si può dir, Pandolfo mio gentile,</l>
+<l>Chi s'innamora, o poveretto lui.</l>
+<l>So che sapete del ladro sottile,</l>
+<l>Che a Giove fé la barba già di stoppa</l>
+<l>Quando gli beccò su l'esca e 'l focile.</l>
+<l>Come caval da spron tocco galoppa,</l>
+<l>Così si crucciò lui quel mariuolo,</l>
+<l>Che non era uso di portar in groppa.</l>
+<l>Non era ancor la pentola e 'l paiuolo,</l>
+<l>Ma crude si mangiavan le vivande:</l>
+<l>Tant'avea il padre allor, quanto il figliuolo.</l>
+<l>Dicono alcun, che si vivea di ghiande;</l>
+<l>Facciam pur conto ch'elle fosser pere,</l>
+<l>Per non voler or far la cosa grande.</l>
+<l>Basta, ch'essi attendevano a godere,</l>
+<l>E vivean sempre lieti a la carlona;</l>
+<l>Quando gli avean mangiato, volean bere.</l>
+<l>Non si stava in quel tempo con persona,</l>
+<l>Non era né creanza né respetto,</l>
+<l>Che la vita non lascian saper buona.</l>
+<l>Speranza, sanità, gioia e diletto</l>
+<l>Si levavano teco la mattina,</l>
+<l>E tornavan la sera teco al letto.</l>
+<l>Non era né sorella né cugina;</l>
+<l>Si facca d'ogni cosa un guazzabuglio;</l>
+<l>Ogni stanza era camera e cucina.</l>
+<l>Poi che quel trafurel fece garbuglio,</l>
+<l>Quel Dio lassù ci mandò freddo e caldo,</l>
+<l>E conciò tutti i mali in un mescuglio.</l>
+<l>E per fargli più forti, quel ribaldo</l>
+<l>In un vasetto tutti gli ripose,</l>
+<l>Che d'ogni 'ntorno era serrato e saldo.</l>
+<l>Gotte, gomme, dolor, doglie franciose,</l>
+<l>Mal di fianco e di stomaco, e la peste,</l>
+<l>E la quartana fur le prime cose.</l>
+<l>La star con altri poi poser con queste,</l>
+<l>Non dico già del nostro cardinale,</l>
+<l>Ma con altre persone disoneste.</l>
+<l>Affaticarti ben, ed aver male</l>
+<l>E non aver un ladro d'un quattrino,</l>
+<l>E guardar in cagnesco l'ospitale,</l>
+<l>Litigar col parente o col vicino,</l>
+<l>Partir il patrimonio co' i fratelli,</l>
+<l>E mancarti or il pane ed or il vino.</l>
+<l>Mastri di casa e mastri di tinelli,</l>
+<l>E scrivere e far guardie e cavalcare,</l>
+<l>E tagliar delle barbe e dei capelli.</l>
+<l>Di queste e di mill'altre cose rare</l>
+<l>Fu pieno il vaso, come tu dicessi,</l>
+<l>Non far piatto la sera, o digiunare,</l>
+<l>Non servar cosa che tu promettessi,</l>
+<l>E mill'altre cosette e zaccherelle,</l>
+<l>Che faria noia altrui, s'io le scrivessi.</l>
+<l>Poter aver più tosto delle stelle,</l>
+<l>Che un beneficiol ben sciagurato,</l>
+<l>E gire a stare a suon di campanelle.</l>
+<l>Fu il vaso molto ben chiuso e serrato,</l>
+<l>E per una saccente messaggiera</l>
+<l>Mandato al truffator da Giove irato.</l>
+<l>Disse, che un lattovaro dentro v'era:</l>
+<l>Com'ei l'aperse, uscir dell'albarello</l>
+<l>Infermità, dispetto e doglie a schiera;</l>
+<l>Ma il peggior mal di tutti fu il martello.</l></lg>
+</div1>
+<div1>
+<head>CAPITOLO DELLA STIZZA</head>
+<lg>
+<l>Tutti i poeti e tutte le persone,</l>
+<l>Ognun infin di celebrarvi è roco:</l>
+<l>Sì son le vostre cose belle e buone.</l>
+<l>Ed io per me, se non ch'io temo un poco</l>
+<l>Di costor, che ragionano in sul saldo,</l>
+<l>Crederei dir di voi cose di foco.</l>
+<l>Non ch'io mi senta però tanto caldo,</l>
+<l>Ch'io voglia dir, ch'io vi lodasse a pieno,</l>
+<l>Ch'io mi vergognerei com'un ribaldo.</l>
+<l>Ma s'io scrivessi ben qualcosa meno,</l>
+<l>Dico, che quando ell'è netta farina,</l>
+<l>Se non è colmo il sacco, e' basta pieno.</l>
+<l>È ben ver, ch'una donna sì divina</l>
+<l>Non istà bene in bocca ad un par mio,</l>
+<l>Che sono un poetuzzo di dozzina.</l>
+<l>Ma pur di questo, al nome sia di Dio,</l>
+<l>Che se gli altri mi parlan, e ch'io gli odo,</l>
+<l>Debbo pur poter dir qualcosa anch'io.</l>
+<l>Io dico dunque, e dicolo in sul sodo,</l>
+<l>Che la natura si stillò 'l cervello,</l>
+<l>Per fare un tratto una donna a suo modo.</l>
+<l>Ciò che voi fate par fatto a pennello;</l>
+<l>Ciò che voi avete o dirieto o dinanzi,</l>
+<l>A giudicio d'ognuno è buono e bello.</l>
+<l>Ma delle vostre lodi una m'avanzi,</l>
+<l>L'altre le lascio a poeti migliori,</l>
+<l>Per quel rispetto ch'io vi dissi dianzi:</l>
+<l>Che in ver le vostre lodi e i vostri onori</l>
+<l>Non gli conteria tutti uno abbachista,</l>
+<l>Sì ch'io le lascio lor da una in fuori,</l>
+<l>La qual dell'altre par men bella in vista</l>
+<l>Ma chi con discrezion l'occhio dirizza,</l>
+<l>La porrà sempre in capo della lista.</l>
+<l>Quest'è,che quando l'uom punto v'attizza</l>
+<l>Voi v'adirate com'un bel soldato:</l>
+<l>Dirò dunque le lode della Stizza,</l>
+<l>Senza la qual in vero da ogni lato</l>
+<l>Ci sarian fatte il dì cento vergogne,</l>
+<l>E non ci rimarria roba né fiato.</l>
+<l>Ch'i collerici fan le lor bisogne</l>
+<l>Nette e spedite, dove un paziente</l>
+<l>Ha sempre mille intrichi e mille rogne.</l>
+<l>Non si riscoterebbe giammai niente,</l>
+<l>E terrebbeci ognun l'entrate indreto,</l>
+<l>Se non fussi che l'uom pur si risente,</l>
+<l>Che tal mangia la sapa cheto cheto,</l>
+<l>Perch'ella è dolce, ch'andrebbe più adagio</l>
+<l>Con la mostarda forte e con l'aceto.</l>
+<l>S'egli è nessun ch'abbia stare a disagio,</l>
+<l>Tuttavia tocca al più dolce di sale,</l>
+<l>O sia quaggiù per Roma, o sia 'n palagio.</l>
+<l>Gli fanno insino a votar l'orinale</l>
+<l>Se fussi camerier forse d'un prete,</l>
+<l>Ognun, con ch'e' s'impaccia, gli fa male.</l>
+<l>Non vuol la stizza aver cose segrete,</l>
+<l>Perché se vi montasse il moscherino,</l>
+<l>La vi faria mostrar ciò che vo' avete:</l>
+<l>Ell'è dunque uno spirito divino</l>
+<l>Dappoich'ella vi mostra i cori aperti,</l>
+<l>E necessaria, più che 'l pane e 'l vino;</l>
+<l>Nemica proprio capital di certi</l>
+<l>Golponi cortigian fatti all'antica,</l>
+<l>Che vorrebbono star sempre coperti.</l>
+<l>Però ch'un tutto l'anno s'affatica</l>
+<l>Per istar cheto, e poi s'ella gli monta,</l>
+<l>Bisogna, s'e' crepassi, ch'e' lo dica.</l>
+<l>Ha la stizza la lingua e la man pronta</l>
+<l>E' veritiera, e com'io dicev'ora,</l>
+<l>Non vi dà mai dirieto, ma v'affronta.</l>
+<l>La lingua del stizzoso taglia e fora,</l>
+<l>E la mano fa sempre al primo tratto</l>
+<l>Quel, dove un altro stenterebbe un'ora.</l>
+<l>Questo ha pronti il cervello e 'l corpo adatto;</l>
+<l>Mena sempre le man com'un barbieri:</l>
+<l>Quando un altro comincia, questo ha fatto.</l>
+<l>Le vespe e certi mosconacci neri</l>
+<l>S'un non s'adira, gli cavano gli occhi.</l>
+<l>E mangianli la carne in su 'l taglieri.</l>
+<l>Però, cred'io, vi piacciono i ranocchi</l>
+<l>Che par ch'e' monti lor la bizzarria</l>
+<l>Al primo, e saltan, come tu gli tocchi.</l>
+<l>Non voglio entrar in la filosofia.</l>
+<l>Che sarebbe un andar per l'infinito,</l>
+<l>E potrevi anche dir qualche pazzia.</l>
+<l>Ma dico ben, ch'ella fa l'uomo ardito</l>
+<l>Come quando un s'adira, e fa del resto,</l>
+<l>Che a sangue freddo non terria l'invito.</l>
+<l>Vuol che si dian le carte presto presto,</l>
+<l>E 'nvitavi alla bella condannata,</l>
+<l>E giuoca in su la fede, e toglie impresto.</l>
+<l>Non l'ha sì tosto in man, che l'ha guardata</l>
+<l>Che quel vedere adagio è uno stento,</l>
+<l>Un far rinnegar Cristo alla brigata.</l>
+<l>Dove un di questi freddi invita lento,</l>
+<l>Non si punge gioca sempre stretto,</l>
+<l>E se vol aver mille, ha mille e cento.</l>
+<l>Dio ti fé di sua mano umor perfetto</l>
+<l>Per farci schietti, arditi e liberali:</l>
+<l>Che sia tu mille volte benedetto.</l>
+<l>E poi metton costor ne' serviziali</l>
+<l>La scamonea, e 'l mal, che Dio dia loro,</l>
+<l>Per cavarla de' corpi de' mortali.</l>
+<l>Che saria da comprarla a peso d'oro:</l>
+<l>Perché un cervel ch'ha poca levatura,</l>
+<l>Vò morir io, se non val un tesoro.</l>
+<l>O fortunata voi, che la natura</l>
+<l>Fé con le seste e le bilance in mano,</l>
+<l>Così tornate a peso e a misura,</l>
+<l>Che avete il viso bello e 'l capo sano</l>
+<l>Che sete solo il caffo e l'eccellenza</l>
+<l>Di quante donne son presso e lontano,</l>
+<l>E nemica mortal di pazienza.</l></lg>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Dell'arte poetica</title>
+      <author>Girolamo Muzio</author>
+    </titleStmt>
+    <extent>77 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001407</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Trattati di poetica e retorica del Cinquecento</title>
+        <title type="part">v.</title>
+        <editor id="ed">Weinberg, Bernard</editor>
+        <publisher>Laterza</publisher>
+        <pubPlace>Roma [etc.]</pubPlace>
+        <date>1970-1974</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>808.009031 - RETORICA. 1500-1599</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-03-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marina Larena</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-03-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body><div1 type="poesia">
+<head>LIBRO PRIMO</head>
+<lg type="endecasillabo-sciolto"><l>S'egli avvien mai che ne l'aperta luce</l>
+<l>Mi conduca a spiegar l'util lavoro</l>
+<l>Che chiuso ordisco, acciò che se ne fregi</l>
+<l>La buona gioventù, che l'alme accesa</l>
+<l>D'alto disire e pallida e pensosa</l>
+<l>Notte e giorno sospira ad Aganippe,</l>
+<l>Forse alcun fia de la mal sana greggia</l>
+<l>Che vegghiando o dormendo unqua non vide</l>
+<l>Pur l'estreme pendici d'Elicona</l>
+<l>E da se stessa l'orgogliose tempie</l>
+<l>Si va cingendo d'edere e d'allori,</l>
+<l>Forse (dico) alcun fia ch'a pena letto</l>
+<l>Il titol che dà ´l nome a questi fogli,</l>
+<l>Torcendo il capo altero e sogghignando,</l>
+<l>Schernirà ´l nostro studio e dirà: «L'arte</l>
+<l>Del poetar è che di mano in mano</l>
+<l>A le prime parole si risponda</l>
+<l>Con le seguenti drittamente a pieno,</l>
+<l>Sì che d'un sol metallo una catena</l>
+<l>Da cima a fondo insieme bene accoppi,</l>
+<l>O sia stanza, o sonetto, o mandriale;</l>
+<l>Poi come una parola posta avremo,</l>
+<l>Dovrem con ogni studio aver risguardo</l>
+<l>Ch'a quella non si faccia più ritorno.</l>
+<l>Quest'è del poetar la vera norma».</l>
+</lg>
+<lg type="endecasillabo-sciolto">
+<l>Ciò non biasm'io; ma sì com'io non biasmo</l>
+<l>Cotal dottrina, così ciò non basta</l>
+<l>A formare un poeta immantenente.</l>
+<l>Anz'io, s'alcuno una e un'altra volta</l>
+<l>Contravenir si trova a queste leggi,</l>
+<l>Pur ch'a le maggior leggi ei sottogiaccia,</l>
+<l>Bando non gli darò de la mia scuola;</l>
+<l>Che già non ritrov'io ch'i primi auttori</l>
+<l>Di questa lingua, o gli scrittor latini</l>
+<l>O que' che grecamente poetaro,</l>
+<l>Sian ne le carte lor tanto severi.</l>
+<l>Il render il suo detto a ciascuno detto</l>
+<l>E ´l dare ad un suggetto varie voci</l>
+<l>Veste leggiadramente un bel poema;</l>
+<l>Ma ci vuole altro a fare altrui poeta.</l>
+<l>E chi di ciò contento s'invaghisce</l>
+<l>De le sue rime, a costui dir potrassi:</l>
+<l>«Questa tavola, frate, è una pittura</l>
+<l>Fatta in sul Ren, che per colori allegri</l>
+<l>Alletta il vulgo, e dice il Tiziano</l>
+<l>Che disegno non v'ha, non ombre o lumi».</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>O voi cui punge ´l core alto disire</l>
+<l>Di ritrar l'opre rare, i bei consigli,</l>
+<l>Le diverse nature e i vari affetti,</l>
+<l>Drizzate gli occhi con la mente intenta</l>
+<l>Ai chiari esempii che d'ingegno e d'arte</l>
+<l>V'ha sì ben coloriti il secol prisco.</l>
+<l>Gli scrittori d'Atene e quei di Roma</l>
+<l>Daranno al vostro dir materia e forma.</l>
+<l>Da lor s'hanno i principi e le ragioni</l>
+<l>De le cose create, i movimenti</l>
+<l>De le rote superne, e qual virtute</l>
+<l>Come scenda qua giù di cerchio in cerchio,</l>
+<l>E che da noi si segua, e che si fugga.</l>
+<l>Da lor s'impara con qual via si dica</l>
+<l>Ciascuna cosa, e che prima, che dopo,</l>
+<l>E con quai voci, e con quali ornamenti.</l>
+<l>Non ha voltate ancor le ricche zolle</l>
+<l>De' grassi campi la vezzosa figlia</l>
+<l>De l'onorata lingua de' Latini,</l>
+<l>Ma come quella ch'ancor pargoleggia</l>
+<l>Si sta sedendo tra i fioretti e l'erbe.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Così convien che d'umil nascimento</l>
+<l>Abbia principio ogni levata cima.</l>
+<l>Non surse a un punto la città del Tebro,</l>
+<l>Donna del mondo; anzi di poche porte</l>
+<l>Il romano arator coi tori aggiunti</l>
+<l>Se n'usciva a solcar Celio e Quirino,</l>
+<l>E i saltanti cantori il dotto fabro</l>
+<l>Gìan celebrando con mal culti versi.</l>
+<l>Poi che fur derivati i grechi fonti</l>
+<l>A le piagge latine, incominciaro</l>
+<l>Col Tebro insieme il Po, l'Adige e ´l Mencio</l>
+<l>E di sentenze e d'arte e di parole</l>
+<l>Udir note sonar alte e soavi.</l>
+<l>Così già poetando il grande Omero</l>
+<l>E di molt'altri avean le discipline</l>
+<l>Da l'Egitto apportate e dagli Assiri.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Né giovi altrui di dir che le sue rime</l>
+<l>Son da l'ingegno suo senza dottrina:</l>
+<l>Ché gli scritti ne fan tropp'ampia fede.</l>
+<l>Dirammi alcuno: «È pur antico detto,</l>
+<l>L'arte fa l'orator, nasce ´l poeta».</l>
+<l>De l'orator i' lascerò l'impaccio</l>
+<l>A quel d'Arpino, e dico che natura</l>
+<l>Suol far l'opre sue rozze, e tra le mani</l>
+<l>Lasciarle a l'arte, che le adorni e limi.</l>
+<l>Felice pianta in solitaria riva</l>
+<l>Produce i frutti suoi rari et acerbi;</l>
+<l>Ma s'egli avvien ch'esperto villanello</l>
+<l>La cultura v'aggiunga, i novi pomi</l>
+<l>Piegano i rami e rendon dolce succo.</l>
+<l>Destrier, quantunque sia di buona razza,</l>
+<l>Non si leva da terra e non s'aggira,</l>
+<l>Se non fischia la verga e no ´l tien desto</l>
+<l>L'acuto spron e no ´l raccoglie il freno.</l>
+<l>E ´l garzoncel, ch'ha ´l libro inanzi e teme</l>
+<l>La voce del maestro, e tuttavia</l>
+<l>Con le tenere dita non s'arresta</l>
+<l>Di formar molli imagini, s'avviene</l>
+<l>Che ´l padre accorto il rimetta al governo</l>
+<l>Di chi gli regga in man scarpello e marmi,</l>
+<l>Surgerà un Fidia; ma se s'affatica</l>
+<l>Presso a quel studio senza alcuna scorta,</l>
+<l>Si rimarrà tra le sue prime cere.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Se ne l'opre minor natura è manca,</l>
+<l>A l'alta degnità del gran lavoro</l>
+<l>Come supplirà a pien? Spirito e vena</l>
+<l>Può ben dare al tuo dir, ma saper dei</l>
+<l>Che pover rimarrai con queste doti</l>
+<l>Se l'essercizio e l'arte non le accresce.</l>
+<l>Legger convienti assai, talor far prova</l>
+<l>Di trar ne la tua lingua i luoghi eletti</l>
+<l>D'altri chiari scrittor, scriver sovente,</l>
+<l>E mandare a memoria i libri interi.</l>
+<l>Fra buoni auttori usando, quando poi</l>
+<l>Prendi con mano il calamo e distendi</l>
+<l>In carte i tuoi pensier, la tua scrittura</l>
+<l>Spira il già quindi conceputo odore</l>
+<l>Come vesta serbata infra le rose.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Le voci non cred'io ch'uom d'intelletto</l>
+<l>Ardisca mai di dir, che senza scelta</l>
+<l>Di mezzo ´l vulgo tratte e d'oltre i monti,</l>
+<l>Sian da riporre in ben vergate carte.</l>
+<l>Il Mantovan così faceto e molle,</l>
+<l>Così puro e latin, fuggir non pote</l>
+<l>Nome di Mantovan, e noi di lauro</l>
+<l>Ne vorremo adornare avendo involto</l>
+<l>Piemonti, Lombardia, Puglia e Toscana?</l>
+<l>Chi non sa quai sian tosche e quali strane,</l>
+<l>Quai proprie e monde e quai chiare e sonanti,</l>
+<l>Levi la man dai ben purgati inchiostri,</l>
+<l>Né studi di tirare i nuovi ingegni</l>
+<l>Nel vizio suo per ricoprir se stesso,</l>
+<l>Cercando di mischiar Durenza et Arno.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Né di molti di lor ch'han pianto in fasce</l>
+<l>In riva al fiume che Toscana infiora,</l>
+<l>Lodo la openion. Fra lor non manca</l>
+<l>Chi si crede d'aver col primo latte</l>
+<l>Bevuti d'eloquenza i chiari fonti;</l>
+<l>E forse van però talor men culti.</l>
+<l>Sì come a Greci e sì come a Latini</l>
+<l>Nascer assai non fu Greci o Latini,</l>
+<l>Così non basta il nascimento tosco.</l>
+<l>La beltà, la nettezza de le lingue</l>
+<l>Si conserva tra i libri, e da' scrittori</l>
+<l>Scriver s'impara, non da vulgo errante.</l>
+<l>Quel che cantò i pastor, le ville e l'arme,</l>
+<l>Colui che scrisse l'arte ch'ora io scrivo</l>
+<l>E gli amanti di Lesbia e di Corinna,</l>
+<l>Non fur Romani, e la lingua di Roma</l>
+<l>Illustrar più ch'i cittadini del Tebro.</l>
+<l>E per tacer degli altri, qual Latino</l>
+<l>È più latin di chi col falso Eunuco</l>
+<l>Fe' la beffa a l'amica di Trasone?</l>
+<l>E chi ne diè costui? Non latin suolo,</l>
+<l>Non italica piaggia e non Europa,</l>
+<l>Ma l'orgoglioso Bagrada, e la terra</l>
+<l>Dal mar e dal voler da noi divisa.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Or de le voci la propria natura,</l>
+<l>E de le per sé stanti e de le aggiunte,</l>
+<l>E la via d'accoppiarle aver potremo</l>
+<l>Da le carte dei nostri. E non son'io</l>
+<l>Sì rigido censor che s'io ritrovo</l>
+<l>Tra dotte rime alcuna particella</l>
+<l>Del moderno sermon, che nei sospiri</l>
+<l>De l'amante di Laura non risoni,</l>
+<l>Così in un punto senz'altro risguardo</l>
+<l>Le corra addosso con irato stilo.</l>
+<l>Non ragunò colui tutta la messe</l>
+<l>Da le campagne; anzi quel sol ne colse</l>
+<l>Che bastò a sostentar la sua famiglia.</l>
+<l>Dinanzi a lui chiuse ´l gastaldo ingordo</l>
+<l>Col gran dentro ´l granaio, l'avena e ´l loglio.</l>
+<l>Puossi ancor spigolar tra le culture</l>
+<l>D'altri antichi cultori, et oltre agli altri</l>
+<l>Di belle biade è ricco il Certaldese.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Fu ´l Petrarca scrittor puro e leggiadro</l>
+<l>Sopra ad ogn'altro, e forse meno ardito</l>
+<l>Che convenga a poeta. Un picciol neo</l>
+<l>Fatt'ha più volte più gradito un volto.</l>
+<l>Di soverchio fu audace l'Aldighieri,</l>
+<l>Né da lasciar così prenderne il cibo</l>
+<l>A fanciul tolto da le prime poppe.</l>
+<l>E gli altri antichi e più rozzi scrittori,</l>
+<l>Pur legga ancor qual ha giudizio saldo.</l>
+<l>Dal prosator poeta tanta selva</l>
+<l>Avremo al dir quant'a più gran suggetti</l>
+<l>Può bastar ad altrui. Costoro adunque</l>
+<l>Faran le rime nostre ricche e belle,</l>
+<l>Se studiosa mano a sceglier pronta</l>
+<l>Le lor scritture avrà volte e rivolte.</l>
+<l>E quel che già detto ho, dico e ridico:</l>
+<l>S'al mio dir si conface una parola</l>
+<l>Posta leggiadramente entro le rime</l>
+<l>Di Dante o d'altro antico, i' non rifiuto</l>
+<l>D'accattarla da lor. Se di mestieri</l>
+<l>N'avrò d'un'altra, e che fra' miei quaderni</l>
+<l>Non ne truovi registro, per le ville</l>
+<l>Di tutta Italia, e prima di Toscana,</l>
+<l>Cercherò suon ch'a le mie orecchie aggradi.</l>
+<l>D'altra lingua trarrollo. Avrò pensiero</l>
+<l>Di compor, di formar novella voce,</l>
+<l>Ma cautamente sì che la sembianza</l>
+<l>Tenga del casto italico idioma.</l>
+<l>Così fer copiosa i maggior nostri</l>
+<l>La lingua lor. Se dunque Ennio e Catone</l>
+<l>Non così dotti andar per questa strada,</l>
+<l>Perché non s'avvalora il Molza e ´l Bembo</l>
+<l>A seguir loro e 'ngrandir questa ancora?</l>
+<l>I' ti mostro, lettor, qual è ´l camino</l>
+<l>Ch'hai da tener; e me per quel camino</l>
+<l>Mover vedrai, se noti i miei vestigi.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Alcuni son, che forse troppo amanti</l>
+<l>D'ogni cosa d'altrui, lor rime nove</l>
+<l>Chiaman con gli stranieri antichi nomi:</l>
+<l>Ode, epigrammi, et inni, et elegie.</l>
+<l>Io, pur che la virtù latina e greca</l>
+<l>Viva nel mio legnaggio, non mi curo</l>
+<l>Che vestendo si vada dei lor panni.</l>
+<l>I titoli onorati alti concetti</l>
+<l>Crian ne le menti altrui, donde poi viene</l>
+<l>Ch'a la speranza l'opra non risponde.</l>
+<l>E se ´l popol roman per cittadini</l>
+<l>Prese i nomi medesmi, e fu ben dritto</l>
+<l>Ch'egli ebbe ancor le lor sillabe e i versi.</l>
+<l>Noi se vorrem sotto le voci strane</l>
+<l>Far dei suggetti lor propria conserva,</l>
+<l>Che rimarrà ai sonetti, a le canzoni?</l>
+<l>Ai mandriali, ai ghiomeri, et al ballo?</l>
+<l>Et a le terze rime et a le ottave ?</l>
+<l>E per Dio, chi dice «oda», che dice egli</l>
+<l>Se non dice «canzone»? In questa rima</l>
+<l>Chiuse ´l Petrarca il suon de' suoi sospiri,</l>
+<l>A la virtute i gentil cori accese,</l>
+<l>E cantò de la dea l'eterne lode</l>
+<l>Così soave e così alteramente</l>
+<l>Che ben dovrebbon gli intelletti sani</l>
+<l>Non sentir voglia di straniero cibo.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>Ecco apparir chi vuole in lingua tosca</l>
+<l>Far risonare e dattili e spondei -</l>
+<l>E dattili non forma né spondei.</l>
+<l>Che quai leggi son queste? e quai misur</l>
+<l>Son queste da servar? se senza legge,</l>
+<l>Senza misura corron vostri piedi.</l>
+<l>Se volete seguir Greci e Latini</l>
+<l>In formar vostri versi, usar conviene</l>
+<l>Le regole dei Greci e dei Latini.</l>
+<l>Gli scrittori d'Eurota e que' del Tebro</l>
+<l>Con certi tempi e con servata norma</l>
+<l>Movono i passi lor. Voi sempre incerti,</l>
+<l>Or frettolosi, or pigri i piè movete,</l>
+<l>E come agevolezza vi consiglia,</l>
+<l>Così lasciate correr o gir tarda</l>
+<l>Ne' vostri versi una medesma voce.</l>
+<l>Non puote orecchia aver giudicio saldo</l>
+<l>Di quantità e di tempo, ove la lingua</l>
+<l>De l'accento conviene esser seguace.</l>
+<l>E pur senza ´l mio dir vi de' esser noto</l>
+<l>Che ne' versi de' tempi al tempo dee</l>
+<l>Ceder l'accento, e voi presso agli accenti</l>
+<l>Vi mettete ad andar con passi torti.</l>
+<l>Così scrisser color che poetando</l>
+<l>Lo speziale cantaro e la massara;</l>
+<l>Così ´l gran libro suo scrisse ´l Coccai.</l>
+<l>Voi, se volete ancor scherzare in carte</l>
+<l>Con esso loro in così fatti versi,</l>
+<l>Tutto di ciò ne lascio a voi l'impaccio.</l>
+<l>Ma ben vi dico ch'i gentili spirti</l>
+<l>Non dovete tentar di trarvi appresso</l>
+<l>Per sentier che disvia dal sacro monte</l>
+<l>Col fioco suon de' vostri zoppi carmi.</l>
+<l>E se volete pur acquistar fama</l>
+<l>Col farvi auttori de le cose nove,</l>
+<l>Fatevi d'altra novitate auttori.</l>
+<l>Bastano assai, bastano i nostri versi</l>
+<l>A sostentar leggiadri, alti suggetti.</l>
+<l>Se spirto è in voi divin, s'è in voi dottrina</l>
+<l>Da colmar gli altri cor di meraviglia,</l>
+<l>In nove carte e ne le usate rime</l>
+<l>Lo spirito mostrate e la dottrina.</l>
+<l>E non è ´l verso, no, quel ch'altrui faccia</l>
+<l>Degno di lauro; che per sciorre i versi</l>
+<l>Del Mantovan non però l'alme Muse</l>
+<l>Si rimarran d'accorlo entro al lor grembo.</l>
+<l>E se del Padovan le lunge righe</l>
+<l>Stringerò in certi tempi, Euterpe e Clio</l>
+<l>Non però andranno a far con lui soggiorno.</l>
+<l>Quel ch'in versi condusse armate in campo</l>
+<l>E quinci e quindi le romane squadre,</l>
+<l>Istorico fra i versi si rimase.</l>
+<l>E ´l Certaldese molte volte sciolto</l>
+<l>Da' numeri di rime è più poeta</l>
+<l>Che quando a poetar si mette in rima.</l>
+<l>Cercate adunque che materia et arte</l>
+<l>E leggiadria di dir v'orni le tempie</l>
+<l>D'eterno onore - e non sillabe nove.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>La materia d'amore è con tal pregio</l>
+<l>Fra noi trattata, che s'ogni altra impresa</l>
+<l>Di poetar con questa andasse a paro,</l>
+<l>Gli scrittor nostri avrian la prima palma.</l>
+<l>La nova lingua intorno i novi affetti</l>
+<l>Fatt'ha soggiorno, e se per li teatri</l>
+<l>Pur si dimostra, le più volte avviene</l>
+<l>Che mal condita e senza leggiadria</l>
+<l>Pasce del vulgo le mal culte orecchie.</l>
+<l>Non è pura nel dir. È intenta al riso</l>
+<l>Più ch'ai costumi, oltra che poi non serva</l>
+<l>Di parlatori numero né legge.</l>
+<l>Né in prosa sciolta né legata in rima</l>
+<l>Non dee per mio giudicio entrare in scena.</l>
+<l>A me piace lo stil del Ferrarese</l>
+<l>In ch'egli scrisse l'ultime comedie.</l>
+<l>Il mio Vergerio già felicemente</l>
+<l>Con una sola favola due notti</l>
+<l>Tenne lo spettator più volte intento.</l>
+<l>Chiudean cinque e cinque atti gli accidenti</l>
+<l>Di due giornate, e ´l quinto ch'era in prima.</l>
+<l>Poi ch'avea ´l caso e gli animi sospesi,</l>
+<l>Chiudea la scena et ammorzava i lumi.</l>
+<l>Il popolo infiammato dal diletto</l>
+<l>Ne stava il giorno che veniva appresso</l>
+<l>Bramando ´l foco dei secondi torchi.</l>
+<l>Quindi correa la calca a tutti i seggi,</l>
+<l>Vaga del fine, et a pena soffriva</l>
+<l>D'aspettar ch'altri ne levasse i veli.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>De lo scrittore è la comedia tutta;</l>
+<l>Non così la tragedia. Perché in quella</l>
+<l>Verisimilemente basta altrui</l>
+<l>Mostrar che fare e che non farsi debbia;</l>
+<l>In questa, in cui si scopron di fortuna</l>
+<l>Gli esempii miserabili e orrendi,</l>
+<l>Convien fortuna averne la sua parte.</l>
+<l>Finga ´l comico adunque, e 'ntorno al vero</l>
+<l>Vada ´l maggior poeta poetando.</l>
+<l>Questa legge ch'io scrivo aprì la porta</l>
+<l>Così liberamente a l'umil socco,</l>
+<l>Perché de' begli ingegni i be' concetti</l>
+<l>Surgono ognor, non così i fieri esempi.</l>
+<l>E quindi avvien che la tragedia suole</l>
+<l>Far agli usati titoli ritorno</l>
+<l>E rimanersi fra poche famiglie.</l>
+<l>Non usa di montar gli alti coturni</l>
+<l>La nostra etate, e però a pena tocchi</l>
+<l>Gli hanno i nostri poeti. Per le selve</l>
+<l>Rade suonan le canne, e i nostri campi</l>
+<l>Non han sentito ancora il duro aratro,</l>
+<l>Se non quanto a la stiva ha posto mano</l>
+<l>Novellamente il cultor Alamani,</l>
+<l>Cui rimesso ha Silvano e Ciparisso,</l>
+<l>La vezzosa Pomona e ´l padre Bacco,</l>
+<l>Il dio d'Arcadia e Cerere e Vertunno</l>
+<l>E piante e viti e gregge e biade et orti.</l>
+<l>Né infino ad ora a la tromba di Marte</l>
+<l>Post'ha la bocca alcun con pieno spirto,</l>
+<l>E chiunque de' nostri al suon de l'arme</l>
+<l>Volto ha la mente, parmi essere intento</l>
+<l>Al dilettar le femine e la plebe.</l>
+<l>Ma di ciò avrem da dire in altro luogo,</l>
+<l>Perch'or è buon parlar de le maniere</l>
+<l>Di que' componimenti che fra noi</l>
+<l>Si sono usati in ragionar d'amore.</l>
+</lg><lg type="endecasillabo-sciolto">
+<l>È dura legge quella a cui si lega</l>
+<l>Chi si mette a legar rima con rima</l>
+<l>Non per la rima sol, ma perch'ancora</l>
+<l>A l'altrui dire il termine è prescritto.</l>
+<l>La catena di Dante ognuno intende,</l>
+<l>Che leggiadra non è se non fa punto</l>
+<l>Con la terza sua rima, e che ´l sonetto</l>
+<l>Di quattro in quattro e di tre in tre vien chiuso</l>
+<l>Di chi che sia che ponga mano a penna.</l>
+<l>Non così le ballate e le canzoni</l>
+<l>Son comprese da ognun. Pur che risponda</l>
+<l>La rima a tempo, ad altro altri non mira.</l>
+<l>Ma chi ben volgerà l'antiche carte</l>
+<l>E le carte migliori, agevolmente</l>
+<l>Scorger potrà quant'ei sia in grande errore.</l>
+<l>Le forme de le rime, che pur dianzi</l>
+<l>Ho nominate, esser dee manifesto</l>
+<l>Che fatte son per accordarle al canto,</l>
+<l>E che s'ha ´l canto d'accordare al suono,</l>
+<l>E ch'al canto et al suon s'accorda il ballo.</l>
+<l>E s'altrui forse par questo ch'io dico</l>
+<l>Cosa volgar, non però l'abbia a scherno,</l>
+<l>Ch'altro mistero v'è dentro riposto</l>
+<l>Ch'altri non pensa. I buoni padri antichi,</l>
+<l>Render volendo onore al primo mastro</l>
+<l>De l'universo, andaro imaginando</l>
+<l>Come potesser far che l'uomo intero</l>
+<l>Dio celebrasse con intera lode.</l>
+<l>E conoscendo lui motor supremo,</l>
+<l>Et intendendo che la creatura</l>
+<l>Col movimento il creatore onora,</l>
+<l>Cotal concento a tal fine ordinaro,</l>
+<l>Perché col destro e regolato moto</l>
+<l>De le piante l'uom tutto si movesse,</l>
+<l>E la lingua cantando i be' concetti</l>
+<l>De l'alme nostre, quelle in dolci giri</l>
+<l>Degli intelletti lor battesser l'ali;</l>
+<l>E perché con la voce il corpo tutto</l>
+<l>Avesse a far gratissima armonia,</l>
+<l>S'aggiunse il suono, appresso le cui note</l>
+<l>Se n'andasse la voce e i piedi insieme.</l>
+<l>E perché ´l movimento in maggior pregio</l>
+<l>Fosse del Creator, quel fu ordinato</l>
+<l>A la sembianza del corso dei cieli.</l>
+<l>E i cieli avendo due diversi corsi,</l>
+<l>L'un che porta le stelle da oriente</l>
+<l>A bagnarsi di là da le colonne</l>
+<l>Ne l'onde salse, e l'altro che di quindi</l>
+<l>Si move in là donde l'aurora sorge,</l>
+<l>E quello e questo in giro essendo volti,</l>
+<l>Questi rivolgimenti nei lor balli</l>
+<l>Fur da lor figurati. E i primi passi</l>
+<l>Givano innanzi dando rimembranza</l>
+<l>Del camin de la spera ch'è dipinta;</l>
+<l>Tornavan gli altri per ritrar la strada</l>
+<l>De le sette ch'a noi son più vicine,</l>
+<l>E dopo questi si volgeano in cerchio</l>
+<l>Perché ´l corso de' cieli è volto in rota;</l>
+<l>E del andare e del tornare eguale</l>
+<l>Era lo spazio, non così del giro.</l>
+<l>È da sapere ancor che fra i secondi</l>
+<l>E i primi passi, e fra i secondi e i terzi,</l>
+<l>Si facea posa, e 'n gir e 'n riposarsi</l>
+<l>S'accordava la voce e ´l ballo e ´l suono,</l>
+<l>E se posava il suono, il piede, e ´l canto,</l>
+<l>Ragion è bene ancor che le parole</l>
+<l>Fosser tra lor d'alcun punto divise;</l>
+<l>E questi erano in somma i movimenti</l>
+<l>Di que' religiosi antichi balli,</l>
+<l>Ancor ch'altri potesse o ritornando</l>
+<l>O intorno andando cominciar la festa.</l>
+<l>E fu questa armonia di ch'io favello</l>
+<l>Fatta non solamente a Giove e Marte,</l>
+<l>Ma prima a lui che fece Giove e Marte;</l>
+<l>Che ´l re famoso, il qual già profetando</l>
+<l>Cantò a la lira i sacri, eterni versi,</l>
+<l>Non ebbe a schifo esser avuto a scherno</l>
+<l>Danzando inanzi l'arca del Signore;</l>
+<l>Et avea già Maria con le compagne</l>
+<l>Ballando al suon del cembalo al Mar Rosso</l>
+<l>A Dio cantato i gloriosi versi.</l>
+<l>Quinci dunque hanno avuto l'ordimento</l>
+<l>Le ballate, i sonetti, e le canzoni,</l>
+<l>Se ben delle ballate è proprio il ballo;</l>
+<l>Perch'avrem da notar che questa forma</l>
+<l>Rimane ancor ne le buone testure.</l>
+<l>Disse colui: «Perché la vita è breve</l>
+<l>E lo ingegno paventa a l'alta impresa,</l>
+<l>Né di lui né di lei molto mi fido»;</l>
+<l>E dopo ´l terzo verso fermò ´l passo;</l>
+<l>Ché questa è quella parte de la danza</l>
+<l>Che prima move per diritta via</l>
+<l>Verso occidente. A questa si risponde</l>
+<l>Con passi pari ritornando a dietro.</l>
+<l>Però seguiò: «Ma spero che sia intesa</l>
+<l>Là dov'io bramo e là dov'esser deve</l>
+<l>La doglia mia, la qual tacendo i' grido»</l>
+<l>E qui fermato ´l corso, poi ritorna</l>
+<l>A prender il camin girando intorno,</l>
+<l>E quel finito è giunto a fine il ballo;</l>
+<l>Poscia con l'altre stanze si rinfresca</l>
+<l>Per le pedate del primiero canto.</l>
+<l>E ´l medesmo dich'io di quelle stanze</l>
+<l>Ch'han lor principii di due versi in due,</l>
+<l>O dove ci rispondon quattro a quattro;</l>
+<l>Ch'i più versi o i men versi altro non fanno</l>
+<l>Che dar più o men fatica agli altrui piedi.</l>
+<l>E può la danza aver ancor duo' giri,</l>
+<l>Al manco l'uno e l'altro al destro fianco,</l>
+<l>E cotai movimenti avrà ´l sonetto,</l>
+<l>Ché fieno i quaternarii compartiti</l>
+<l>Nel gire innanzi e ne la ritornata,</l>
+<l>E faranno i ternarii le due volte.</l>
+<l>E potria chi volesse dire ancora</l>
+<l>Che questo ballo avesse un'altra forma,</l>
+<l>Cominciando dai quattro a fare i cerchi</l>
+<l>E i tre cantando al gir et al ritorno.</l>
+<l>De la ballata ho ben io per conchiuso</l>
+<l>Che nel principio suo l'umane piante</l>
+<l>Forman la rota, ché ´l suo primo canto</l>
+<l>Risponde al fin de la sua forma intera.</l>
+<l>Perch'ella è tal che quel che è capo in lei</l>
+<l>Nel formar la canzon si volge in coda,</l>
+<l>Distinguendole i nomi; ché nel nome</l>
+<l>De la canzon il canto si comprende,</l>
+<l>E che del ballo propria è la ballata</l>
+<l>Come detto dal suono fu il sonetto;</l>
+<l>Bench'ancor sia compreso dagli antichi</l>
+<l>Nel nome di canzon ciascuna rima,</l>
+<l>O sia sonetto o ballata o canzone.</l>
+<l>Lettor, tu intendi e la ragion e l'arte</l>
+<l>Di tai componimenti, et io vo' dirti</l>
+<l>Ancor ch'in quelle rime che rotonda</l>
+<l>Detto ho ne la canzon che fan la danza,</l>
+<l>Poi notar de le pose, e brievemente</l>
+<l>Io te ne mostrerò la dritta legge.</l>
+<l>Quandunque fia che da voci simili</l>
+<l>Vengan duo' versi terminati e giunti,</l>
+<l>Se partirai ´l tuo dir con tal misura</l>
+<l>Che con la vecchia rima la sentenza</l>
+<l>Nova incominci, andrà ´l tuo dir leggiadro.</l>
+<l>E veramente dee scrittor gentile</l>
+<l>Aver gran cura a far che si distingua</l>
+<l>Sempre la sua canzon con punti eguali</l>
+<l>Di stanza in stanza. E se ben non si balla,</l>
+<l>Come già si ballava a suon di rime</l>
+<l>(Et al suon de le rime ancor si danza,</l>
+<l>Se non in ogni luogo, in molte parti),</l>
+<l>Non si riman però che non s'accoppi</l>
+<l>La rima al canto; e per comune avviso</l>
+<l>La scrittura cui ´l canto s'accompagna</l>
+<l>Non dee lasciar la compagnia del canto.</l>
+<l>Quel che le note a le parole aggiunge</l>
+<l>Parte la stanza, ai simiglianti versi</l>
+<l>Rende ´l canto primiero, e i suoi riposi</l>
+<l>Forma tra questi e quelli; e non conviensi</l>
+<l>Che ´l canto cessi e la sentenza corra.</l>
+<l>Or che dirò ch'un canto si conforma</l>
+<l>A l'intera canzon di stanza in stanza?</l>
+<l>E che quel ch'a la prima ben s'adagia</l>
+<l>Non ben s'adagia a l'altre, se non servi</l>
+<l>La legge ch'io ti mostro; e la ti mostro</l>
+<l>Per vera, ferma, e inevitabil legge.</l>
+<l>Da questa norma ancor non s'allontani</l>
+<l>Chi d'otto in otto versi empie le carte.</l>
+<l>L'ottava rima è rima cui la lira</l>
+<l>Canta d'intorno, e fra due versi e due</l>
+<l>L'arco parla e le corde, e ´l canto tace.</l>
+<l>Perché fra pari versi il fin del verso</l>
+<l>Hai da segnar, scrittor, con alcun punto,</l>
+<l>Se non voi ch'al tuo dir si torca il grifo.</l>
+<l>E quest'ancor dirò pria che mi parta</l>
+<l>Dal parlar de le rime: che qualora</l>
+<l>Scriver vorrò canzon, come una rima</l>
+<l>Usata avrò, non più tornerò a quella;</l>
+<l>Ma quante fien le rime e le lor coppie,</l>
+<l>Tante farò sentir diverse note,</l>
+<l>Salvo s'a bello studio e con vaghezza</l>
+<l>Non vi ritornerò per ogni stanza.</l>
+<l>Questa legge han servata i più leggiadri</l>
+<l>Nostri scrittori; e quel le cui canzoni</l>
+<l>Vinser gli altri e lui stesso, intentamente</l>
+<l>Si guardò da tal vizio, sì ch'a pena</l>
+<l>Trovar potrai ch'ei rompa questa legge.</l>
+</lg></div1><div1 type="poesia">
+<head>LIBRO SECONDO</head>
+<lg type="endecasillabo"><l>Scrittor, se brami che ´l tuo nome viva</l>
+<l>Per la tua penna, fa ch'abbi risguardo</l>
+<l>A l'età, al sesso, al grado, a la fortuna,</l>
+<l>Agli affetti, al paese, e ch'a ciascuno</l>
+<l>Si convengano e l'opre e le parole.</l>
+<l>Implacabil sia Turno, a l'arme corra,</l>
+<l>E scuota l'asta e gridi e si dia vanto</l>
+<l>Di solo vendicar il comun fallo</l>
+<l>Con mano armata. Il vecchio re Latino</l>
+<l>Al giovenil furor s'opponga, e saggio</l>
+<l>Tema e discorra intorno i casi adversi.</l>
+<l>L'onesta giovinetta al mirar fiso</l>
+<l>De l'acceso amador, il viso tinga</l>
+<l>Di purpureo color e gli occhi atterri.</l>
+<l>Il bello Iulio in mezzo l'ampie valli</l>
+<l>Del gagliardo destrier giosca, e ardito</l>
+<l>Nel corso or questi et or quegli altri avanzi.</l>
+<l>Con così fatti esempii e con tai norme</l>
+<l>Farai nelle tue carte i tuoi ritratti.</l>
+<l>Empio sia ´l re toscano, il Troian pio,</l>
+<l>Pallante audace, Andromaca dolente.</l>
+<l>S'oda dir Mopso: «Mentre la rugiada</l>
+<l>Pasceran le cicale e l'api il timo,</l>
+<l>Sempre vivrà ´l tuo onore e le tue lode».</l>
+<l>«Mentre ch'al mar discenderanno i fiumi»,</l>
+<l>Dica ´l figliuol de l'amorosa diva.</l>
+<l>Ardendo Coridon, l'inculta vite</l>
+<l>Penda dal fronduto olmo; ardendo Dido,</l>
+<l>Non sorgan più l'incominciate torri.</l>
+<l>Sia ´l vincitor superbo, umile il vinto;</l>
+<l>Il robusto Tedesco in mezzo i campi</l>
+<l>Armato s'appresenti, entro i ripari</l>
+<l>Lo Spagniuol paziente si rinchiuda.</l>
+<l>Né però ad un medesmo ognor conviensi</l>
+<l>La medesma maniera; anzi l'affetto</l>
+<l>Cangia ´l volto, la voce, e i movimenti.</l>
+<l>Perché s'uom fai temer, dubbia et umile</l>
+<l>Sia la sua lingua; se gli infiammi il core,</l>
+<l>Rompi et affretti ´l dir; soave e molle</l>
+<l>Parli se dentro ´l cor dolcezza chiude.</l>
+<l>Di questi e d'altri affetti i veri segni</l>
+<l>Ti daran le scritture e i vivi esempi.</l></lg><lg type="endecasillabo-sciolto"><l>Or che sian del parlar tre le maniere,</l>
+<l>La sovrana, la umile, e tra le due</l>
+<l>Quella che d'una e d'altra è ne' confini,</l>
+<l>E ch'in quelle trattando usar convegna</l>
+<l>La gravitate e l'acutezza e i fiori,</l>
+<l>Ne risonan le scuole in ogni parte.</l>
+<l>Perch'io, ch'entrar non voglio in tal camin</l>
+<l>Volgendo i passi per diversa strada il</l>
+<l>Dico che ´l primo onor da l'alme muse</l>
+<l>Riporterà chi con più leggiadria</l>
+<l>Vestirà d'umiltate alti concetti,</l>
+<l>Et agli umili aggiungerà splendore.</l>
+<l>Né senza gran cagione il gran poeta</l>
+<l>Ne lasciò scritto ch'era grande impresa</l>
+<l>A' poveri suggetti aggiunger pregio,</l>
+<l>E cantando le selve si fe' udire</l>
+<l>Che volea che le selve fosser degne</l>
+<l>Del maestrato dai superbi fasci.</l>
+<l>E perché molti molto studiosi</l>
+<l>De le greche scritture maggior grido</l>
+<l>Danno a colui che senza velo alcuno</l>
+<l>Introdusse a parlare Epolo e Tirse</l>
+<l>Ch'al buon scrittor che la famosa Roma</l>
+<l>Celebrò sotto nome d'Amarilli,</l>
+<l>Nel lor giudicio col giudicio mio</l>
+<l>Non so se con ragion fermar mi debbia.</l>
+<l>Non dee parere altrui gran meraviglia</l>
+<l>Bassamente cantar basso suggetto;</l>
+<l>Ma coprir d'umil vesta alti pensieri</l>
+<l>Leggiadramente et onoratamente,</l>
+<l>Dir si può ben che sia fatica degna</l>
+<l>Di pregio eterno e d'immortal corona.</l>
+<l>E se forse la lingua di colui</l>
+<l>E le materie umil più si conface</l>
+<l>Che la lingua del nostro, questo onore</l>
+<l>Non è de l'uom, anzi è de l'idioma.</l>
+<l>E per mostrare il grande avvedimento</l>
+<l>Del poeta latin, notar si vuole li</l>
+<l>Che volend'ei cantar quella dottrina</l>
+<l>Ch'ei da Sciron avea con Varro appresa,</l>
+<l>Come fosse creato l'universo,</l>
+<l>Tenne nel suo cantar cotal maniera:</l>
+<l>Che in ragionar di Chromi e di Nasilo,</l>
+<l>De la spelonca e de la bella Nimfa,</l>
+<l>Di Sileno ebbro e del sanguigno gelso,</l>
+<l>E dei legami fatti di ghirlande,</l>
+<l>Il gran suggetto fe' caper ne' boschi.</l>
+<l>Ma nota ben, lettor, che volendo egli</l>
+<l>Ad ogni parte aver degno risguardo,</l>
+<l>Perch'intende a cantar di cose degne</l>
+<l>D'altero stile, un dio ne fece auttore;</l>
+<l>E perché da ascoltarle avean le valli,</l>
+<l>Cantar le fece ad un silvestre dio.</l>
+<l>Non vo' tacer ch'in ragionar di Gallo,</l>
+<l>Mostrar volendo altrui che le sue labbra</l>
+<l>Eran disposte a calami et a trombe,</l>
+<l>Disse che per dolor de' suoi dolori</l>
+<l>Pianser gli allori e pianser le mirice,</l>
+<l>Per quelli dimostrando il suon soprano</l>
+<l>E per queste ´l tenor de la zampogna.</l>
+<l>Nota, nota, lettor, lo ingegno e l'arte</l>
+<l>Del buon poeta, e quinci paragona</l>
+<l>Questo con quello e poi dà la sentenza.</l></lg><lg type="endecasillabo-sciolto"><l>Ma non per avventura minor lode</l>
+<l>Al nostro si convien nel dar grandezza</l>
+<l>Ale cose minute ch'abbassando</l>
+<l>Le cose eccelse. A noi sia per esempio</l>
+<l>La materia de l'api; e qui vedremo il</l>
+<l>Quant'egli aggiunga lor di vero onore.</l>
+<l>Eperché ne lo stil, che ´l primo seggio</l>
+<l>Tien sopra gli altri, ei con colui contende</l>
+<l>Che pugnar fece i topi con le rane,</l>
+<l>L'un suggetto mettiamo a l'altro a paro.</l>
+<l>Opra di buon poeta è sotto i sensi</l>
+<l>Locar le cose che porgan diletto</l>
+<l>A chi prenderà in mano il suo poema,</l>
+<l>E non che dai lettor s'abbiano a schifo.</l>
+<l>Ne le carte del Greco s'appresenta</l>
+<l>A la tua mente una sozza figura</l>
+<l>D'un animal dannoso e fastidioso,</l>
+<l>Per cui conviene in casa aver la gatta</l>
+<l>Se non vòi che ti roda libri e panni.</l>
+<l>Da l'altra parte poi veder ti pare</l>
+<l>In mezzo al puzzo d'alcuna palude</l>
+<l>Una odiosa forma, che s'attufa</l>
+<l>Con le natiche aperte, e girle appresso</l>
+<l>Vedi un povero scalzo con la zucca;</l>
+<l>Cose ch'in ripensando il cor le aborre.</l>
+<l>Quest'è ´l novo piacer che ti prepara</l>
+<l>Il grande Omero. Or ti rivolgi un poco</l>
+<l>A le piagge latine, e vederai</l>
+<l>Liete campagne d'ogn'intorno cinte</l>
+<l>Di care ombrette e di rivi correnti,</l>
+<l>E ´l verde smalto ornato degli onori</l>
+<l>De la lucida flora; e d'ogni parte</l>
+<l>Soavissimo odor, dolce conforto</l>
+<l>Prenderà il tuo sentire. Intorno sparsi</l>
+<l>Vedrai volare aurati animaletti</l>
+<l>E fabricar dolce odorato umore.</l>
+<l>Vedi quanto diletto ti appresenta</l>
+<l>Il gran scrittore. E in queste cose umi</l>
+<l>Quanta è quella grandezza ov'ei sormon</l>
+<l>In dir di re, di squadre, e di battaglie?</l>
+<l>Così dunque, così leggiadramente</l>
+<l>Le gran materie al suon de la zampogna</l>
+<l>Trattar si ponno, e così a suon di tromba</l>
+<l>Far si può ribombar suggetto umile.</l>
+<l>E qual scrittor vorrà per tutti i gradi</l>
+<l>Salir di gloria, le sovrane cose</l>
+<l>Dirà altra volta con sovrano stilo</l>
+<l>E le dimesse con dimessa voce;</l>
+<l>Altra queste alzerà, quelle abbassando.</l></lg><lg type="endecasillabo-sciolto"><l>Il poema sovrano è una pittura</l>
+<l>De l'universo, e però in sé comprende</l>
+<l>Ogni stilo, ogni forma, ogni ritratto.</l>
+<l>Perché spesso lasciando l'alte imprese</l>
+<l>Discende a l'opre umili, e da la selce</l>
+<l>Tragge ´l foco ne l'esca e ne le frasche;</l>
+<l>Mette la mensa e dà l'acqua a le mani.</l>
+<l>Non così si conviene a la zampogna</l>
+<l>Liberamente e senza alcuna scusa</l>
+<l>Tentar l'altero suono; e ciò ne insegna</l>
+<l>La maestra natura e i buon costumi.</l>
+<l>Non è vietato al re lasciar lo scettro</l>
+<l>E mischiarsi fra ´l vulgo; è ben disdetto</l>
+<l>A la plebe sedere in real seggio.</l></lg><lg type="endecasillabo-sciolto"><l>Inducendo a parlar Menalca o Dido,</l>
+<l>Cremete o Filli, io lodo ch'oltra il vero</l>
+<l>Facci sapere ognun. Ma questa legge</l>
+<l>Ti do a serbar, che se conduci in scena</l>
+<l>Filli e Cremete, dia tanto più senno</l>
+<l>Al parlar di costui quanto conviensi</l>
+<l>Che sia Cremete più saggio che Filli.</l>
+<l>La poesia, che senza meraviglia</l>
+<l>Non può lode acquistar, non sta contenta</l>
+<l>Ai semplici ritratti, anzi a la norma</l>
+<l>Degli artefici illustri s'avvantaggia.</l>
+<l>Veder potrai nei marmi e nei metalli</l>
+<l>Degli antichi maestri un caval sorto</l>
+<l>Sovra ogni vero esempio, e una donzella</l>
+<l>Crescer dal piede al fianco oltra misura.</l>
+<l>Questo, perché? Non già che la dottrina</l>
+<l>Mancasse in loro; anzi la lor dottrina</l>
+<l>Era seguir quel che più a l'occhio aggrada.</l>
+<l>Non altramente noi con cose elette</l>
+<l>Dovrem porger diletto a l'altrui menti.</l></lg><lg type="endecasillabo-sciolto"><l>S'io fo che ne' miei fogli alcuni favelli,</l>
+<l>Non mi piace occupar margini e tergo</l>
+<l>De' suoi discorsi; anzi le cose rade</l>
+<l>Scelgo a mia possa, e in ciò seguir mi piace</l>
+<l>Via più colui che nacque in riva al Mencio</l>
+<l>Che lui che scrisse le diverse forme</l>
+<l>O ´l Greco che cantò l'ira d'Achille.</l>
+<l>Ma da colui la vera arte s'impara</l>
+<l>Del poetar, in questi si comprende</l>
+<l>Quanto fosse feconda in lor natura.</l></lg><lg type="endecasillabo-sciolto"><l>Non mi par da passar coi piedi asciutti</l>
+<l>Un varco non minore, od io m'abbaglio</l>
+<l>Od altramente ho da parlar d'altrui,</l>
+<l>Altramente di me. D'altrui parlando,</l>
+<l>Dirò le forti braccia e ´l dolce viso;</l>
+<l>Di me basterà dir le braccia e ´l viso,</l>
+<l>Se non son glorioso o non mi tira</l>
+<l>Forza di passion. Al vantatore</l>
+<l>Raccontar si convien le sue battaglie,</l>
+<l>Quelle inalzando fin sovra le stelle,</l>
+<l>E non voler dar luogo al grande Achille</l>
+<l>E voler sovra gli altri da ciascuno</l>
+<l>Esser tenuto ben parlante e saggio.</l>
+<l>Similemente a giovinetta donna</l>
+<l>Che morto ha inanzi il suo fedele amante</l>
+<l>Non fia disdetto dir fra' suoi sospiri:</l>
+<l>«A cui si serban più le mie bellezze?»</l>
+<l>Ma non so come bene ad altra lingua</l>
+<l>O in altro caso assai dicevol fosse</l>
+<l>Cotal modo di dir, essendo in parte</l>
+<l>Ov'altri sia che conoscenza n'abbia.</l>
+<l>Né mi risponda alcun che ´l gran poeta</l>
+<l>Fece dire ad Enea, «Le large spalle</l>
+<l>Col cuoio del leone i' mi ricopro»;</l>
+<l>Ch'a lui ´l perdono, ché l'ultima mano</l>
+<l>Non pose a quel lavor, anzi a l'estremo,</l>
+<l>Come di sé non degno, il dannò al fuoco</l>
+<l>E tal vizio nel Greco ancor si nota,</l>
+<l>Che scrivend'ei d'Ulisse a dir l'induce;</l>
+<l>«Con mie gagliarde man premea la cera»,</l>
+<l>E 'n altro luogo: «Et io farò mie' avvisi,</l>
+<l>Nel valoroso mio cor ripensando».</l>
+<l>Io, se vorrò ch'altri di sé favelli,</l>
+<l>Altro no ´l farò dir se non «le spalle</l>
+<l>Col cuoi del leone i' mi ricopro»</l>
+<l>E «la cera premea con le mie mani»</l>
+<l>E «fra me ripensando nel mio core».</l>
+<l>Questa legge ch'io scrivo e questi esempi</l>
+<l>Sian, lettore, al tuo dir perpetua norma.</l></lg><lg type="endecasillabo-sciolto"><l>Non dei nel cominciar aprir la bocca</l>
+<l>Fin dal petto profondo, anzi esser dee</l>
+<l>Tale il principio che seguendo sorga.</l>
+<l>Poi nel tuo cominciar la tua proposta</l>
+<l>Prometta un'opra sola, et in quell'opra</l>
+<l>Procura di trovar diverse vie</l>
+<l>A le digressioni; indi le carte</l>
+<l>Puoi gire empiendo e davanti e da tergo.</l>
+<l>Colui che, cieco, più d'ogni altro vide,</l>
+<l>Vide questo camin, ch'a dir di Troia</l>
+<l>Altro non chiese che l'ira d'Achille.</l>
+<l>L'altra fatica sua fu degli errori</l>
+<l>Del figliuol di Laerte. Or vedi come</l>
+<l>Crebber di breve tema i suoi volumi.</l>
+<l>Altri ci son che se ben d'una in una</l>
+<l>Non propongon le donne, i cavalieri,</l>
+<l>L'arme, gli amori, e tutte l'altre cose</l>
+<l>Di che intendon trattar per tutti i libri,</l>
+<l>Non sembra lor dover scriver poema.</l>
+<l>Ma gli occhi apra ciascuno, apra gli orecchi</l>
+<l>A quel ch'io mostro loro, a quel ch'io scrivo,</l>
+<l>Se non voglion cadere in su la soglia.</l></lg><lg type="endecasillabo-sciolto"><l>E perché ´l poetar è una figura</l>
+<l>Di nostra vita, deve il buon poeta,</l>
+<l>Scrivendo l'opre altrui, non solamente</l>
+<l>Ir d'altrui disegnando le vere opre</l>
+<l>Ma dimostrarle o qual ragion comporta,</l>
+<l>O quai necessità stringer potrebbe,</l>
+<l>Pur che si notin simiglianti al vero.</l>
+<l>Lascia ´l vero a l'istoria, e ne' tuoi versi</l>
+<l>Sotto i nomi privati a l'universo</l>
+<l>Mostra che fare e che non far si debbia.</l>
+<l>Quinci prender dovrai suggetto antico,</l>
+<l>Onde favoleggiar senza contrasto</l>
+<l>Possa tua penna, e trar di cielo in terra</l>
+<l>Giove e Minerva e dire i lor consigli.</l>
+<l>Ché ´l poema è divin, né senza i dèi</l>
+<l>Poetar si conviene; ond'a l'entrata</l>
+<l>S'odon pur richiamar quelle donzelle</l>
+<l>Cui spira la virtute il santo Apollo,</l>
+<l>Che nel petto di lui ´l gran padre ispira.</l>
+<l>Né ne la sola entrata, anzi qual volta</l>
+<l>Cosa ci incontra grande, oscura, o nova,</l>
+<l>I lor nomi iterar non si disdice.</l></lg><lg type="endecasillabo-sciolto"><l>L'ordine del contar è ch'abbandoni</l>
+<l>Il diritto principio, e poi interrotto</l>
+<l>Il già preso camin, ti volga a dietro,</l>
+<l>Quindi riprenda il cominciato corso.</l>
+<l>Questo scrivere obliquo assai diletta</l>
+<l>Gli animi dei lettori et ha sembianza</l>
+<l>Con quella image che ´l pennel ritorce;</l>
+<l>Per questa via ne vanno i buon poeti,</l>
+<l>E chi vuole, in contrario senta o scriva.</l></lg><lg type="endecasillabo-sciolto"><l>Or a quel che dett'ho, questo anco arroge,</l>
+<l>Che la digression tal esser vuole</l>
+<l>Che ´l dir secondi e non sia tratta a forza,</l>
+<l>E se cosa hai che sia nobile o rara,</l>
+<l>Non dei però voler pur attaccarla</l>
+<l>In ogni modo a che che sia che scrivi</l>
+<l>S'udir non voi: «questo non era il loco»;</l>
+<l>Ché cosa per sé bella, non ben posta,</l>
+<l>Non al suo luogo posta, si fa sozza.</l>
+<l>Fu tralasciando il tuo primiero filo,</l>
+<l>Pensa d'ordire il tuo novo lavoro</l>
+<l>Con modo tal ch'altrui possa parere</l>
+<l>Che senza quel l'opra imperfetta fora.</l></lg><lg type="endecasillabo-sciolto"><l>Sappi ancor, tu che leggi, che ´l poema</l>
+<l>Ch'al giovamento et al piacere intende,</l>
+<l>Non per altro sentier più prontamente</l>
+<l>Al diletto i nostri animi conduce</l>
+<l>Che col ben variar la sua pittura.</l>
+<l>E quindi avvien ch'or chiuse in un bel tempio</l>
+<l>Vedi le greche e le troiane squadre</l>
+<l>Con dubbiosa fortuna aver rivolte</l>
+<l>A´ nimici or le spalle et ora il volto.</l>
+<l>Altrove odi lo strazio e la vendetta</l>
+<l>Di lor cui fu sepolcro il fier Ciclope.</l>
+<l>Ecco ´l sangue del miser Polidoro</l>
+<l>Cui stillan con orror gli acuti dardi.</l>
+<l>Che dirò del tenere i cori intenti</l>
+<l>Al mover de le navi? ai cesti? al corso?</l>
+<l>A le saette ? al giro de' cavalli?</l>
+<l>Volgi in qua gli occhi e vedi la Sibilla</l>
+<l>Condur l'armato Enea pei regni stigi.</l>
+<l>Apri gli orecchi e odi il padre Anchise</l>
+<l>Favoleggiare intorno a l'alme ignude.</l>
+<l>Qui freme Alcide intorno a la spelonca</l>
+<l>Del fiero Caco, e quivi a suon di tromba</l>
+<l>Si raccolgon le genti d'ambe parti,</l>
+<l>Varie di lingue, d'arme e de le gonne.</l>
+<l>Veder si ponno ancor Sterope e Bronte</l>
+<l>Come fan sospirar l'alta fucina</l>
+<l>A vicenda movendo i gran martelli</l>
+<l>Nel fabricar de l'arme, in cui mirando</l>
+<l>Il gran guerrier ammira, e non intende</l>
+<l>Del suo legnaggio l'onorate imprese.</l>
+<l>Or queste son le vie; con simili orme</l>
+<l>Trovar si pon le vie donde ´l piè vago</l>
+<l>Mova pei fior dei variati campi.</l></lg><lg type="endecasillabo-sciolto"><l>Non poco farà belli i tuoi disegni</l>
+<l>Il figurar talora Olimpo, Atlante,</l>
+<l>Mongibello, Ischia, l'acque d'Aretusa,</l>
+<l>L'ircane selve e ´l gran fiume d'Egitto.</l>
+<l>Quivi s'aggiungan le stagioni e l'ore,</l>
+<l>Il freddo verno, l'aurea primavera,</l>
+<l>L'ardor di iulio e i pomi de l'autunno,</l>
+<l>La rugiadosa aurora, il sol ch'in alto</l>
+<l>Asceso i raggi con più forza vibra;</l>
+<l>Il tempo che fa l'ombre esser maggiori,</l>
+<l>E ´l silenzio, e ´l riposo de la notte.</l>
+<l>Di così fatte cose, dico, e d'altre</l>
+<l>Sia la tua poesia varia e dipinta.</l>
+<l>Et a ciò fia mestier d'aver rivolto</l>
+<l>Anch'altre carte che Persio e Tibullo.</l>
+<l>E si vuol non avere il cor digiuno</l>
+<l>Del camin de le stelle; veder vuolsi</l>
+<l>De l'ampia terra il circoscritto giro,</l>
+<l>Non solo in libri e in tavole dipinto,</l>
+<l>Ma gir talor solcando il salso suolo</l>
+<l>E traversando le campagne e i monti,</l>
+<l>Vedere i re, vedere insieme accolte</l>
+<l>L'alte corone, e de l'armate schiere</l>
+<l>Veder e udir e gli ordini e le insegne,</l>
+<l>E ´l nitrir de' cavallì e ´l suon de l'arme.</l>
+<l>Ché sì come pittor a far ritratto</l>
+<l>Di te, convien ch'in te la vista affisi,</l>
+<l>Così di quel che dentro a la tua mente</l>
+<l>Segnato avrà ´l pennel degli occhi tuoi,</l>
+<l>Render meglio potrai nova figura.</l></lg><lg type="endecasillabo-sciolto"><l>Molte cose si mostran, molte chiuse</l>
+<l>Si dimostran di fuor, e molte involte</l>
+<l>Nel velo del silenzio n'appresenta</l>
+<l>Quel che poi segue. Or nota il bel consiglio</l>
+<l>Del figliuol de le muse. A lui non piacque</l>
+<l>Dir come la reina in se converse</l>
+<l>La spada del Troiano; a le compagne</l>
+<l>Veder la fa riversa, e ´l ferro ignudo</l>
+<l>Del suo sangue spumante e le man sparte.</l>
+<l>Non potea meglio il doloroso fine</l>
+<l>Mostrar col dir che col tacer l'espresse.</l></lg><lg type="endecasillabo-sciolto"><l>Spesso onestà è cagion ch'altri ricopra</l>
+<l>Con velo o con silenzio quel che fora</l>
+<l>Brutto a narrar e pur dir si conviene.</l>
+<l>Ché spesso avvien che gli amorosi affetti</l>
+<l>Dan suggetto a chi scrive, e spesso incontra</l>
+<l>Dir ch'altri arriva al fin de' suoi disiri.</l>
+<l>Per che ´l saggio scrittor ch'i caldi amori</l>
+<l>Canta di lei ch'edificò Cartago,</l>
+<l>Sola col caro amante alla spelonca</l>
+<l>La fece entrare, e ne fa dar segnale</l>
+<l>Da la terra e da l'aere e urlar le nimfe,</l>
+<l>Altrui lasciando intender quel che segue.</l>
+<l>Né fu forse men bello avvedimento</l>
+<l>Quel di colui ch'induce a dir la figlia</l>
+<l>Del signor di Polenta, che leggendo</l>
+<l>«Di Lancilotto, come amor lo strinse»,</l>
+<l>La baciò il suo cognato, e poi soggiunge:</l>
+<l>«Galeotto fu ´l libro e chi lo scrisse.</l>
+<l>Quel giorno più non vi leggemmo avante»</l>
+<l>Ché ´l lasciar la lettura altrui dimostra</l>
+<l>L´effetto degli affetti lor conformi.</l>
+<l>O quanto ci conviene essere accorti</l>
+<l>In quel che si convenga e si disdica</l>
+<l>Chiuder e aprir! Il bel lavor di Clio</l>
+<l>Con prudenza convien che s'accompagni</l>
+<l>E s'accordi con sé, ché ben sovente</l>
+<l>Tratto dal primo bel che s'appresenta,</l>
+<l>Uom si lascia condur là 've si trova,</l>
+<l>Che dal diritto e da sé si discorda;</l>
+<l>E vizio è questo di felici ingegni.</l>
+<l>E però che la gloria di chi scrive</l>
+<l>Vien dal giudicio e da la conoscenza</l>
+<l>De la virtù e del vizio, che si coglie</l>
+<l>Dagli altrui scritti; avendo a la mia scuola</l>
+<l>Mostre molte virtù, mostrare intendo</l>
+<l>Ancor de' vizii degli altrui poemi,</l>
+<l>Acciò che con gli esempii meglio impari</l>
+<l>E seguir e fuggir e quelle e questi.</l>
+<l>Scrive ´l gentil poeta sulmonese</l>
+<l>Ch'ardendo ´l mondo, era già dato il bando</l>
+<l>Dal gran padre Oceàno a quelle stelle</l>
+<l>Che locate son presso al nostro polo.</l>
+<l>E quindi fa che visitando Giove</l>
+<l>Il ciel dopo lo 'ncendio, s'innamora</l>
+<l>Di quella bella che fu volta in orsa,</l>
+<l>E che Giunon ricorre al dio dell'acque</l>
+<l>Pregando lui ch'a lei ´l suo umor divieti,</l>
+<l>Il che dee dirsi vizio manifesto.</l>
+<l>Ché se dopo l'ardor furon sbandite,</l>
+<l>Innanzi al tempo del crudel decreto</l>
+<l>Scacciar non le dovea dal salso regno.</l>
+<l>Scrive egli ancor che ´l gran filosofante,</l>
+<l>Lo qual passò da Samo ai nostri lidi,</l>
+<l>Trattando il mutamento de le forme</l>
+<l>S'ode dir che surgendo in riva al Tebro</l>
+<l>La giovinetta Roma, Atene e Sparta</l>
+<l>Erano ignudi nomi; e pur sappiamo</l>
+<l>Che quelle alme città, nascendo Roma,</l>
+<l>Cresceano e fur con Roma un tempo illustri.</l>
+<l>Nel tempo ch'ei scrivea pur potea dirsi</l>
+<l>Che fosser tali, e quanto dir si pote</l>
+<l>Ch'a lui (quand'ei scrivea) cotali esempi</l>
+<l>Potesser convenirsi, tant'a lui</l>
+<l>Ch'egli induce a parlar mal si confanno.</l>
+<l>Ritrovo ancor che ´l padre dei poeti</l>
+<l>Ne le sue guerre infra straniere genti</l>
+<l>E fra  genti non note scrive Enea</l>
+<l>Dardi avventar e adoprar la spada.</l>
+<l>E quivi fa ch'ei mostra aver contezza</l>
+<l>Degli aspetti, dei nomi, e dei legnaggi</l>
+<l>Di lor ch'ei non avea già mai veduti;</l>
+<l>Il che non lodo ch'altri abbia a seguire.</l>
+<l>E certo son che se l'avare Parche</l>
+<l>Non troncavan sì tosto l'aureo filo</l>
+<l>Di quella cara e preziosa vita,</l>
+<l>Avria quella battaglia un'altra forma.</l>
+<l>Quando ´l poeta conta i fatti d'arme</l>
+<l>A lui sta bene il dir e d'uno e d'altro</l>
+<l>Il nascimento, il nome, e la fortuna,</l>
+<l>Perch'egli ha già chiamato il sacro coro</l>
+<l>Ch´a lui racconti le passate cose;</l>
+<l>Il che dir non si può del cavaliero,</l>
+<l>Ch´ei non ha seco né Talia né Febo.</l>
+<l>Ma nel gran Greco, a la cu' oscura stirpe</l>
+<l>Cercan sette città di dar radice,</l>
+<l>Soglio spesso bramar maggior prudenza.</l>
+<l>E qui basterà a dir di quel decoro,</l>
+<l>Che sembra a me che da lui mal si serbi.</l>
+<l>Ei si propon per onorato oggetto</l>
+<l>Di formare in Achille un cavaliero</l>
+<l>Prode oltra ogni altro, e per primiero pregio</l>
+<l>Del gran Troian la morte a lui riserva.</l>
+<l>Poi di colui parlando, bene spesso</l>
+<l>Lo fa temer, lo fa fuggir, lo face</l>
+<l>Ferito d'altrui mano, e ne ´l dimostra</l>
+<l>Codardo e vile in più ch'in un sol loco.</l>
+<l>E se l'onor del vincitor depende</l>
+<l>Da la gloria del vinto, non vegg'io</l>
+<l>Che corona aver debbia quel famoso</l>
+<l>Nè trovarsi aver vinto uom non valente.</l></lg><lg type="endecasillabo-sciolto"><l>Tu vedi ben, lettor, con qua' nocchieri</l>
+<l>Pel mar di poesia ti metto in barca,</l>
+<l>A te mostrando i perigliosi scogli</l>
+<l>Ove percoton spesso i miglior legni.</l>
+<l>Perch'hai ben da adoprare e studio e arte,</l>
+<l>Che non si franga la tua navicella.</l>
+<l>E per solcar ancor di questi mari,</l>
+<l>S'io parlerò de l'isola famosa</l>
+<l>Per lo furto del tauro ne' miei versi,</l>
+<l>Non ti farò sentir lupi né volpi;</l>
+<l>E s'in Africa altrui menerò a caccia,</l>
+<l>Non lo farò veder cerbiatti od orsi.</l>
+<l>Armerò i cervi di ramose corna</l>
+<l>E le femine lor lascerò inermi.</l>
+<l>Né farò risonar ne le mie rime</l>
+<l>Ch'una candida cerva sopra l'erba</l>
+<l>Verde m'apparve con due corna d'oro.</l>
+<l>Non farò ch'altri altrui chiami con nome</l>
+<l>Ch'a quella etate ben non si convenga</l>
+<l>Che s'induce colui che parla e ch'ode;</l>
+<l>Come chi fa chiamare altrui «marrano»</l>
+<l>Anzi che fosse mai quel nome in uso.</l>
+<l>E 'n somma in ogni detto avrò risguardo</l>
+<l>Che benigno lettor non s'affatichi</l>
+<l>In pensar come i miei scritti difenda.</l>
+<l>E tu, lettor, se le scritture tue</l>
+<l>Regolerai con questi avvedimenti,</l>
+<l>Dir ti potrai scrittor grave e leggiadro.</l></lg></div1>
+<div1 type="poesia"><head>LIBRO TERZO</head>
+<lg type="endecasillabo-sciolto"><l>Chi stringer vuol la libertà natìa</l>
+<l>De' gran suggetti in circoscritto giro,</l>
+<l>S'io non m'inganno, è fuor del buon camino.</l>
+<l>Il cavalier ch'amore armato in piazza</l>
+<l>Conduce per mostrare il suo valore</l>
+<l>A la sua bella donna a pari incontri,</l>
+<l>Ben è che sia rinchiuso entro le sbarre.</l>
+<l>Ma quel che per la patria e per la vita</l>
+<l>Rota la spada fra ´l nimico stuolo,</l>
+<l>Vuole aver le campagne intorno aperte.</l>
+<l>Più sono atti a la lira che a la tromba</l>
+<l>I ternarii e le stanze; in quelli e in queste</l>
+<l>Chiuder conviemmi in numerati versi</l>
+<l>La mia sentenza, e chiuderla conviemmi</l>
+<l>Nel fin del verso o perdo ogni vaghezza.</l>
+<l>Se tra quel spazio ho da fermare il carro</l>
+<l>Del grande Achille, con le mani inermi</l>
+<l>Volto ´l vedremo a la palma d'Alfeo.</l>
+<l>Perch'a voler che senza alcuno intoppo</l>
+<l>Corra lo stil continuo, in quella vece</l>
+<l>Che già gli antichi usar le sei misure,</l>
+<l>Porrem le rime senza rime; queste</l>
+<l>Sono oltra l'altre chiare, pure, et alte,</l>
+<l>E chi non v'ha l'orecchie in tutto nove,</l>
+<l>Altra lettura, altro cantar non vole.</l>
+<l>Ma bene ha da notar chiunque scrive</l>
+<l>Sciolto di rime, che di rima alcuna</l>
+<l>Sentir non lasci ´l suon ne le sue carte,</l>
+<l>Sì da vicin chiudendo i versi suoi</l>
+<l>Ch'in sentendolo orecchia si riscuota,</l>
+<l>Salvo sed ei d'una parola e d'altra</l>
+<l>Le medesme iterando non s'adorna.</l></lg><lg type="endecasillabo-sciolto"><l>E per dir de le rime senza rima,</l>
+<l>Vo' che sappi, lettor, che d'altro verso</l>
+<l>Forma alcuna non ha donde ´l tuo stilo</l>
+<l>Meglio si possa fare alto e soave.</l>
+<l>Mentre se' intento a far che sia conforme</l>
+<l>Questo e quel fin, convien che molte volte</l>
+<l>Tu venga a usare or una or altra voce</l>
+<l>Umilemente posta od aspramente;</l>
+<l>Et in quelle umiltati e in quelle asprezze</l>
+<l>Uom che s'avvezza mal se ne rileva.</l>
+<l>Libero da legar suono con suono,</l>
+<l>Nulla cosa ti sforza o ti ritiene</l>
+<l>Che ´l più soave e ´l più sovrano e chiaro</l>
+<l>Sceglier non possa e farne il tuo poema.</l>
+<l>E così con lungo uso stil si face</l>
+<l>E leggiadro e sonante. E se ben poi</l>
+<l>Ti disponi a legar qualche catena,</l>
+<l>La dolcezza e l'onor non ti si toglie.</l></lg><lg type="endecasillabo-sciolto"><l>Molti si son veduti molte volte</l>
+<l>Ch'in sul giovenil fior nova vaghezza</l>
+<l>Preso han d'oggetto ch'ai lor sensi aggrada.</l>
+<l>E perché poi cosa più bella e cara</l>
+<l>Lor si sia appresentata innanzi agli occhi,</l>
+<l>Non han perciò già mai cangiato affetto.</l>
+<l>E tale avvezze a le palustri canne</l>
+<l>Ha sì l'orecchie, che ´l silvestre suono</l>
+<l>Vuole anzi udir che l'apollinea cetra.</l>
+<l>Di che n'avvenne già che ´l re mal saggio</l>
+<l>Mutò l'orecchie sue con quel ronzino</l>
+<l>Che suol sovente cavalcar Sileno.</l>
+<l>E quanti son che da tenera etade</l>
+<l>Usi tra grosse e povere vivande,</l>
+<l>Quelle aman più ch'ogni cibo più raro?</l>
+<l>Né men potrem veder chi da prim'anni</l>
+<l>Col cor rivolto a' giovenili studi</l>
+<l>Di poeti e d'amor, coi bianchi crini</l>
+<l>Altro sentire, altro parlar non vuole.</l>
+<l>Troppo puote il costume, e tanto puote</l>
+<l>Che natura non può contra ´l costume.</l>
+<l>Questo dico per dir che similmente</l>
+<l>Avviene a quale è intento alla vaghezza</l>
+<l>Che ne porta il risponder rima a rima,</l>
+<l>Ch'ei senza quella ogni lettura aborre.</l>
+<l>Ma questo sente ancor chi in questa lingua</l>
+<l>Suol gir presso a' capitoli e sonetti</l>
+<l>E ´l fil de le canzoni non intende,</l>
+<l>Ch'egli la lor testura prende a schifo.</l>
+<l>E fra Latini chi per alcun tempo</l>
+<l>S'è dato al dolce suon de le elegie,</l>
+<l>Altra forma di verso non gli aggrada.</l>
+<l>Non altramente anch'è da dir di quelli</l>
+<l>Ch'a le rime legate han volti i cori,</l>
+<l>Ch'usanza in loro è conversa in natura.</l>
+<l>E se vorran dal lusinghevol suono</l>
+<l>Ritrarsi alquanto e a quel dolce inganno</l>
+<l>Trurar l'orecchie, aprendo i sensi interni</l>
+<l>A la virtù che ne le rime sciolte</l>
+<l>L´alma sente caper, fia loro aperto;</l>
+<l>Ché quale è grave e riverenda donna</l>
+<l>D´onesti panni e di santi costumi</l>
+<l>Vestita e adorna, presso a una fanciulla</l>
+<l>Che tutta inghirlandata scherzi e giuochi,</l>
+<l>Tali son queste presso a l'altre rime.</l></lg><lg type="endecasillabo-sciolto"><l>Ma però che non mancan di coloro</l>
+<l>Che dannan tal scrittura, e soglion dire</l>
+<l>Che questo breve verso non risponde</l>
+<l>Di degnitate ai nobili suggetti,</l>
+<l>E ch'in assai più lungo l'altre lingue</l>
+<l>Trattan le cose gravi e le battaglie,</l>
+<l>Risponderò che i Greci e che i Romani</l>
+<l>In un medesmo verso trattate hanno</l>
+<l>L'umil materie, le mezzane, e l'alte.</l>
+<l>Lo scrittor d'Aretusa si conforma</l>
+<l>Col dottor d'Ascra e questi al grande Omero;</l>
+<l>E Virgilio cantò le selve e i campi,</l>
+<l>L'umor di Bacco e le pecore e l'api,</l>
+<l>E le guerre d'Enea con verso pari.</l>
+<l>E in un medesmo verso varii stili</l>
+<l>Sentir si fan, però che la virtute</l>
+<l>De la grandezza, non da la misura</l>
+<l>Nascer si vede, ma da quello spirto</l>
+<l>Cui ´l parlar veste, e questa è la matera,</l>
+<l>E dal vestir quel spirto con parole</l>
+<l>Degne di ciò che sotto lor si copre.</l></lg>
+<lg type="endecasillabo-sciolto"><l>Come l'onor d'un valoroso core</l>
+<l>Dona grandezza a l'uom, così le rime</l>
+<l>Grandi e altere forma il gran suggetto.</l>
+<l>E come il murator, di quelle pietre</l>
+<l>Ond'ei fabricar suole i bassi tetti,</l>
+<l>Leverà a l'aere alte superbe torri,</l>
+<l>Così scrittor de le medesme voci,</l>
+<l>Col mutar lor figura, stato e forma,</l>
+<l>In simil versi fa diverso stile.</l>
+<l>E se ben la tragedia in alto surge,</l>
+<l>E se ben la comedia a terra serpe,</l>
+<l>Non però vediam noi Greci o Latini</l>
+<l>Con allungare od accorciare i versi</l>
+<l>Far quella altera né quest'altra umile;</l>
+<l>Poi ´l verso breve ch'è dato a la lira</l>
+<l>Dal Tebro e da l'Eurota assai più s'alza</l>
+<l>Che ´l lungo di chi canta alle pasture.</l>
+<l>«Chi è fermato di menar sua vita</l>
+<l>Su per l'onde fallaci e per gli scogli</l>
+<l>Sevro da morte con un picciol legno,</l>
+<l>Non può molto lontano esser dal fine.</l>
+<l>Però sarebbe da ritrarsi in porto</l>
+<l>Mentr'al governo ancor crede la vela» :</l>
+<l>Pur queste altre non son che rime sciolte,</l>
+<l>E s'onoratamente e gravemente</l>
+<l>Dette non son, la mia sentenza è nulla.</l>
+<l>Et è la mia sentenza che l'imprese</l>
+<l>Alte e superbe senza suon di rima</l>
+<l>Debbian trattarsi, e se sì fatti versi</l>
+<l>Avranno spirto di suggetto altero,</l>
+<l>E fien composti di parole scelte</l>
+<l>E colorati di vezzosi fiori</l>
+<l>Da giudicio e prudenza accompagnati,</l>
+<l>Non fia (per quel ch'io creda) uom senza affetto</l>
+<l>Ch'abbia in quelli a bramar maggior lunghezza.</l></lg><lg type="endecasillabo-sciolto"><l>Or che dirò ch'a buon scrittor non basta</l>
+<l>L'alto suggetto, l'ordine e ´l decoro,</l>
+<l>Et il verso bastante a l'alta impresa,</l>
+<l>Se vaghezza di dir non l'accompagna?</l>
+<l>Non credo che sia alcun che pur le labbra</l>
+<l>Tinga del santo umor, cui non sia aperto</l>
+<l>Che ´l poetar a semplici parole</l>
+<l>Non sta contento, anzi girando intorno</l>
+<l>Con vago stil le cose circoscrive.</l>
+<l>Questo modo di dire assai distingue</l>
+<l>Gli scrittori e gli scritti, onde sovente</l>
+<l>Di poesia troviam le prose piene.</l>
+<l>Non però voglio dir ch'a buon poeta</l>
+<l>Per li lor proprii nomi si disdica</l>
+<l>Poter mostrar or questa cosa, or quella;</l>
+<l>Anzi, puote egli e deve or questa legge</l>
+<l>Servar, or quella, e variar scrittura.</l>
+<l>Il che bene avverrà s'or proprie voci,</l>
+<l>Or tralate, or novelle et or antiche</l>
+<l>Userà con giudicio, e se tal volta</l>
+<l>Farà sì ch'a l'improprio il proprio ceda.</l>
+<l>Ma l'improprie, l'antiche e le novelle</l>
+<l>Voci userà men spesso, a le tralate</l>
+<l>Tornerà più sovente. Or è ´l lor uso</l>
+<l>O necessario o per esprimer meglio</l>
+<l>Nostri concetti, o per solo ornamento.</l>
+<l>Ché la villa darà gli occhi a la vite;</l>
+<l>Dirò d'un ch'ama ch'è di foco acceso;</l>
+<l>E d'una pianta, ch'agli estivi raggi</l>
+<l>Faccia de le sue braccia a se stessa ombra.</l>
+<l>Ma perché quest'è mover le parole</l>
+<l>D'un senso in altro, esser ben deve accorto</l>
+<l>Chiunque scrive che talor non desti</l>
+<l>L'altrui pensiero a cosa men ch'onesta.</l>
+<l>V'aggiungo ancor ch'in gir continuando</l>
+<l>Tralazion, l'enigma ha la sua forma.</l>
+<l>Per che è ben da guardar che non si caggia</l>
+<l>In questo vizio, che fia vizio espresso</l>
+<l>L'enigma, s'a bel studio non dimostri</l>
+<l>Di far che con gli enigmi altri contenda.</l>
+<l>È bel modo di dir che Roma teme,</l>
+<l>Intendendo i Roman; e poppa, e prora,</l>
+<l>E legno, e trave, e abete, e carina</l>
+<l>Mostran tutta una nave. I' dirò Marte,</l>
+<l>Arme dirò volendo dir la guerra.</l>
+<l>Lauro suona triomfo, oliva pace,</l>
+<l>Cerere e Bacco fien la biada e ´l vino.</l>
+<l>E Nettuno fia ´l mar. Dirò la morte</l>
+<l>Pallida e i morbi, e sollecito amore,</l>
+<l>Ché producono in noi cotali effetti.</l>
+<l>E l'un numero a l'altro molte volte</l>
+<l>Dà luogo ne' buon versi, e vi rimembri</l>
+<l>Voi cui rispondon le nove sorelle</l>
+<l>Felicemente, che se ´l vostro canto</l>
+<l>Tengon ristretto numeri e misure,</l>
+<l>Le penne vostre hanno ampi privilegi</l>
+<l>D'ardir via più che tutte l'altre penne;</l>
+<l>Ché quasi un'altra lingua si concede</l>
+<l>A' scrittori di versi. Et è ben dritto,</l>
+<l>Ché son sacri i poeti e i lor poemi;</l>
+<l>Per che dal vulgo è buon farsi lontani.</l>
+<l>Dunque se ben la villa e la cittade</l>
+<l>Dirà in parole, e negli scritti sciolti</l>
+<l>Che notturna fantasma intorno vada,</l>
+<l>Dirà «notturno» il mio gentil poeta.</l>
+<l>Dirà ´l cuoco la gru; scrivendo versi</l>
+<l>Dirò ch'i gru vari cantando lor lai.</l>
+<l>«Un degli arbor», dirò, «del paradiso»,</l>
+<l>Col vulgo e con le prose, e dirò ancora</l>
+<l>«Arbor vittoriosa e triomfale».</l>
+<l>Figurerò ´l mio dir in variando</l>
+<l>I generi talor. Quindi si legge:</l>
+<l>«La voglia e la ragion combattut'hanno</l>
+<l>Sette e sett'anni, e vincerà ´l migliore».</l>
+<l>E «s'Omero e Virgilio avessin visto</l>
+<l>Quel sol ch'io veggio, in dar fama a costei</l>
+<l>Avrien posto ogni studio». E qui s'aggiunga</l>
+<l>Che nel numero forse men non lice.</l>
+<l>«E natura e pietate il corso tenne»,</l>
+<l>Dirò sicuramente; e s'è ancor detto</l>
+<l>«Che bisogna al morir ben altre scorte».</l>
+<l>Trovo date ad un verbo due maniere</l>
+<l>Di dir insieme. «Me sol ad un nodo</l>
+<l>Legar potei, che ´l ciel di più non volse».</l>
+<l>«I' da man manca, e' tenne il camin dritto».</l>
+<l>«E come suol pigro animal per verga,</l>
+<l>Così destaro in me l'anima grave».</l>
+<l>Contrario esempio a questo è quel che segue:</l>
+<l>«Né mai più dolce fiamma in duo cori arse,</l>
+<l>Né sarà, credo». E quel verso non varco,</l>
+<l>«Ch'i avrei volut'ir per altra strada»,</l>
+<l>Per dir «i sarei». E trovo similmente</l>
+<l>«Perché per ira hai volut'esser nulla,</l>
+<l>Ancisa t'hai per non perder Lavina»,</l>
+<l>Verbi un per altro. Aver bisogna intenti,</l>
+<l>Studioso lettor, non gli occhi soli</l>
+<l>Ma la mente via più, se coglier frutto</l>
+<l>Vòi de la tua lettura. Molte carte</l>
+<l>Poco giova voltar se molte volte</l>
+<l>Le carte volte a volger non ritorni.</l>
+<l>Leggi dunque e rileggi, e troverai:</l>
+<l>«Fuggit'è ´l sonno a le mie crude notti,</l>
+<l>E ´l suono usato a le mie roche rime»,</l>
+<l>Per dir «da le mie notti e da le rime».</l>
+<l>E ritroverai Lete al fondo bibo,</l>
+<l>«E quel che fe' dal mal de le Sabine</l>
+<l>Al dolor di Lucrezia in sette regi»;</l>
+<l>«E di doppia pietate ornata il ciglio»,</l>
+<l>Forme tirate d'una in altra lingua;</l>
+<l>Ché di tutte raccor non intend'io,</l>
+<l>Ché lungo fora. E poi bastar ti dee</l>
+<l>S'io ti mostro ´l sentier, le piante e i pomi.</l>
+<l>Non sia del dir una sola sembianza,</l>
+<l>Ma nova e varia; or dritto e or obliquo</l>
+<l>Vuole esser il parlar. Dubitar vuolsi,</l>
+<l>Negar, interrogar, chiamar altrui,</l>
+<l>Dal lungo circoito or stia sospeso</l>
+<l>L'animo del lettor mirando al fine.</l>
+<l>Or chiuda un verso intera una sentenza,</l>
+<l>Or coi punti e col senso in duo si parta.</l>
+<l>Qui nel principio e quivi al fin vicino</l>
+<l>Si freni ´l dir, ché col mutar le forme</l>
+<l>Si fanno i versi numerosi e vaghi.</l>
+<l>Né s'inganni verun se ciò ch'io dico</l>
+<l>Mostra contrario a ciò che su mostrai</l>
+<l>Parlando de le rime astrette in rima.</l>
+<l>Chi col suon del suo fin cerca vaghezza,</l>
+<l>La rima e la sentenza chiuda insieme,</l>
+<l>E quanto può più formi i versi interi.</l>
+<l>Ma s'alcun vuol con risonante tromba</l>
+<l>Libero uscir a le campagne aperte,</l>
+<l>Vada per questa via; ché questa è quella</l>
+<l>Per cui camina ogni maggior poeta.</l>
+<l>E qui s'aggiunga ancor un'altra via</l>
+<l>Di variar. Or copioso, or breve</l>
+<l>Sarà ´l mio dir; qui la mia penna adorna</l>
+<l>Vedrai di fiori, e quivi tutta ignuda.</l>
+<l>E non creder che sian d'una maniera</l>
+<l>Tutti i fior nostri, ma tra lor diversi</l>
+<l>Color veder potrai, diversi odori</l>
+<l>Potrai sentir, e ´l senso e l'intelletto</l>
+<l>Pascer fra lor di vaghezza e di spirto.</l>
+<l>E tu, lettor, se ten' voi far ghirlanda,</l>
+<l>Mettiti per gli aperti e ricchi prati</l>
+<l>Di chi scrive e di chi scriver insegna.</l>
+<l>Or io per non partir con le man vote</l>
+<l>Dalle piagge fiorite, vo' pur dirti</l>
+<l>Ch'io non so s'altra cosa meglio adorni</l>
+<l>Scrittura altrui che ´l comparar leggiadro.</l>
+<l>Quale il color che da maestra mano</l>
+<l>Giunto al disegno le figure avviva,</l>
+<l>Cotal quinci di spirto e di virtute</l>
+<l>S'empion le carte delle sante muse;</l>
+<l>Ché non con altro mezzo me' s'esprime</l>
+<l>Concetto alcuno, e non con altro mezzo</l>
+<l>Cosa meglio s'abbassa, adegua o inalza.</l>
+<l>Per che veder si può che d'altro lume</l>
+<l>Non più chiaro risplende alcun poema.</l>
+<l>Come poteva il vergognoso aspetto</l>
+<l>De la vergine amata ? il fero core</l>
+<l>Del giovine amador? i gran sembianti</l>
+<l>Del forte Enea? lo studio e le fatiche</l>
+<l>Di que' di Tiro e del popol di Troia?</l>
+<l>E l'altre cose assai ch´i non rimembro,</l>
+<l>Meglio mostrarci il gran figliuol di Manto</l>
+<l>Che con l'ostro sanguigno e con le rose,</l>
+<l>Col ferito leon, con gli alti monti,</l>
+<l>Col dir de l'api, e de la schiera bruna,</l>
+<l>E con l'altre sembianze onde superbo</l>
+<l>Va sopra ogni altro il suo superbo stilo?</l>
+<l>Camini adunque per sì bei vestigi</l>
+<l>Chi salir brama l'onorato giogo.</l></lg><lg type="endecasillabo-sciolto"><l>Non vo' tacer che se scrivendo cerchi</l>
+<l>Di comparar una ad una altra cosa,</l>
+<l>L'esempio ch'hai d'addur convien che sia</l>
+<l>Da la natura o ver da cosa tale</l>
+<l>Che conosciuta sia per comun uso.</l>
+<l>Né ti mova se ben il gran poeta</l>
+<l>Di terra tosca nel profondo buco</l>
+<l>Assimigliò al chinato della torre</l>
+<l>Ch'è presso al nostro Reno, il grande Anteo.</l>
+<l>E disse ch'era il volto di Nembrotto</l>
+<l>«Come la pina di San Pietro a Roma»;</l>
+<l>Quel ch'a tutti si scrive a tutti deve</l>
+<l>Esser palese, e se l'esempio prendi</l>
+<l>Per ben chiarir altrui di che che sia,</l>
+<l>Tal lo dei prender che possa far chiaro</l>
+<l>Il tuo concetto, e non in cieca notte</l>
+<l>Ir le menti involvendo dei lettori;</l>
+<l>Come ´l dottor che per sembianza adduce</l>
+<l>La carrucola che egli in casa avea.</l>
+<l>Il mantovan poeta ad un tal varco</l>
+<l>Già cadde, e rilevossi immantenente:</l>
+<l>Che parlando dell'occhio del Ciclope</l>
+<l>Paragonollo ad uno scudo greco,</l>
+<l>Poi si volse alla forma della lampa</l>
+<l>Di colei ch'è sorella al chiaro Apollo.</l>
+<l>Vide e s'avvide ben di questo luogo</l>
+<l>Il dotto Ovidio, e di quel stesso lume</l>
+<l>Ne fece paragone ad un gran scudo;</l>
+<l>Dal grande scudo ognun prende figura</l>
+<l>Ne la sua mente, ma del greco ognuno</l>
+<l>Non sa qual sia ´l diametro né il cerchio.</l>
+<l>Ma quanto lodo il buon figliuol del Mencio</l>
+<l>Del corretto suo error, tanto a me sembra</l>
+<l>Che da rider ci porga il grande Omero,</l>
+<l>Ch'avendo scritto come ´l forte Aiace</l>
+<l>Quasi fero leon superbamente</l>
+<l>Si ritirasse da l'arme nemiche,</l>
+<l>V'aggiunse poi l'esempio vergognoso</l>
+<l>De l'asino cacciato dai bastoni,</l>
+<l>Senza ´l qual meglio stava il suo poema.</l>
+<l>A questo luogo par che si rassembri</l>
+<l>Quel di colui che la sua bella donna</l>
+<l>Mostrar volendo altrui, cantando disse:</l>
+<l>«Altera in guisa va d'un bel pavone»,</l>
+<l>E non so con qual spirto poi soggiunse:</l>
+<l>«Diritta sovra sé com'una grua».</l>
+<l>Impara or tu che leggi a l'altrui spese.</l></lg><lg type="endecasillabo-sciolto"><l>Forse parrà ad altrui strano ardimento</l>
+<l>Questa mia nova e libera censura</l>
+<l>Di sindicar i più chiari scrittori</l>
+<l>Or di questa, or di quella, or d'altra lingua;</l>
+<l>Ma ti prego, lettor, che la fatica</l>
+<l>Ch'io prendo rivoltando giorno e notte</l>
+<l>Le miglior carte e riponendo in carte</l>
+<l>Quel ch'esser possa a te di giovamento,</l>
+<l>Non noccia a me, né mi si ponga a biasmo</l>
+<l>Quel ch'a te forse ha da portar onore.</l>
+<l>Altra più breve, altra più certa strada</l>
+<l>Trovar non so da farti manifesti</l>
+<l>Del poetar i vizii e le virtuti</l>
+<l>Che per gli esempi de l'altrui scritture.</l>
+<l>E sì come di quel ch'hai da seguire</l>
+<l>La via ti mostro de' miglior auttori,</l>
+<l>Così per dimostrarti quanto sia</l>
+<l>Erta la strada del sacrato monte,</l>
+<l>Ti scopro ancor nel malagevol calle</l>
+<l>Com'inciampino spesso i più avveduti;</l>
+<l>Ché s'io ti recitassi ov'è caduto</l>
+<l>Lo scrittor di Morgante e de l'Ancroia,</l>
+<l>Potresti dir ch'io fossi poco accorto</l>
+<l>O ch'io ti riputassi in tutto cieco,</l>
+<l>Volendoti ammonir che ti guardassi</l>
+<l>Da traboccar in così aperti fossi.</l>
+<l>Io t'ho voluto adunque con tal mezzo</l>
+<l>Dar a veder quanto studio e quanta arte</l>
+<l>Usar a te convenga in scriver versi,</l>
+<l>Vedendo come spesso i cari figli</l>
+<l>De l'alme muse in seguitar le muse</l>
+<l>Abbagliati smarriscano il sentiero.</l></lg><lg type="endecasillabo-sciolto"><l>E tornando a trattar di quel ch'io scrivo,</l>
+<l>Non sia de lo scrittor l'ultima cura</l>
+<l>D'accompagnar ai fatti le parole,</l>
+<l>Sì che la vera, propria, e viva image</l>
+<l>Scorga et oda ´l lettor di quel ch'ei legge.</l>
+<l>Ecco che qui di man del vecchio Entello</l>
+<l>Cadendo il bue percosso a terra va.</l>
+<l>Quinci lunge del sal suonano i sassi,</l>
+<l>Qui si veggon tremar tepide membra</l>
+<l>Sotto ai fier denti, indi lontan si sente</l>
+<l>L'orribil suon de la canora tromba.</l>
+<l>Ma vòi veder, lettor, novo ritratto?</l>
+<l>Nova figura, nova, viva, e vera?</l>
+<l>Va', vedi Dido sbigottita e cruda</l>
+<l>Con sanguigni occhi e con tremanti gote,</l>
+<l>Di pallor e di macchie il viso tinta,</l>
+<l>Da furor tratta sopra l'alta stipa</l>
+<l>Stringer l'amata spada, e, ne la vista</l>
+<l>De le spoglie troiane, il duol rinchiuso</l>
+<l>Al doloroso umor negar il corso.</l>
+<l>Va', vedi e odi, e nota a parte a parte</l>
+<l>Il bel disegno; e di' ch'altro che scriva</l>
+<l>Di' che pittor ti renda egual sembianza</l>
+<l>Di' che natura meglio ti dimostri</l>
+<l>Gli effetti suoi ched ei gli spiega in versi.</l></lg><lg type="endecasillabo-sciolto"><l>Or a voler ritrar i vivi affetti</l>
+<l>Non ponga mano a cui l'alme de' cieli</l>
+<l>Non spargon lor virtù con larga mano.</l>
+<l>Non ponga mano alcuno a tutte l'ore</l>
+<l>Al calamo e al foglio, ché conviene</l>
+<l>Aspettar la virtù che dal ciel scende.</l>
+<l>Aspettar si convien, seguir conviensi</l>
+<l>La divina virtù quand'ella move</l>
+<l>L'anima tua; ch'altro non è ´l poeta</l>
+<l>Ch'un stormento di Febo, e s'ei le corde</l>
+<l>Non comincia toccar, la lira tace.</l>
+<l>Colui che dice le cose future</l>
+<l>Senz'i dèi non le dice, e senz'i dèi</l>
+<l>Cantar non dee cantor di versi eterni;</l>
+<l>Ché celeste furor è quello e questo.</l>
+<l>Né sol dir ti convien quando t'ispira</l>
+<l>L'alta virtù, ma quel ch'ella t'ispira.</l>
+<l>Siano i suggetti tuoi; quello u' s'inchina</l>
+<l>La tua mente da sé sia ´l tuo suggetto.</l>
+<l>Ch'Apollo è quel che la tua mente inclina.</l></lg><lg type="endecasillabo-sciolto"><l>Non ponete, scrittor, mano a le penne</l>
+<l>Per poetar, perché tutti i quaderni</l>
+<l>Rivolti abbiate d'una lingua e d'altra,</l>
+<l>Ché non vi gioverà dottrina od arte</l>
+<l>Se non v'elegge ´l ciel, se ´l petto pieno</l>
+<l>Non vi sentite di calor ch'accenda</l>
+<l>Ne' vostri cor foco altro che mortale.</l>
+<l>Perché senza tal foco i vostri versi</l>
+<l>Rimarran senza spirto e senza vita.</l></lg><lg type="endecasillabo-sciolto"><l>Scrivi nel tuo furor quel che ti ditta</l>
+<l>Il superno valor. Poi quando l'alma</l>
+<l>Ti senti sgombra de l'ardor di Clio,</l>
+<l>Vòto d'affetto e con giudicio sano,</l>
+<l>Volgiti a dietro; al tuo novello parto</l>
+<l>Affisa gli occhi e quasi in parto altrui</l>
+<l>Nota ciascun suo membro, e d'uno in uno</l>
+<l>Fa che ben gli rivegghi e gli corregghi;</l>
+<l>E sia ´l tuo studio tal che non perdoni</l>
+<l>A te di quel che negli altri condanni.</l></lg><lg type="endecasillabo-sciolto"><l>Con tutto ciò non vo' che tu t'appaghi</l>
+<l>Del tuo giudicio, ché ragion non vole</l>
+<l>Ch'altri prenda di sé l'ultima cura.</l>
+<l>Se d'alcun scritto mio farò pensiero</l>
+<l>Ch'egli abbia a faticar de l'altrui lingue,</l>
+<l>I' farò anche pensier, prima che ´l vegga</l>
+<l>Libraio o stampador, che ´l mio Acciaiuoli</l>
+<l>V'adopri il suo martello e la sua incude.</l>
+<l>Pregherò ´l dotto Celio che tralasci</l>
+<l>Gli alti suoi studi et a me porga orecchia.</l>
+<l>N'andrò a trovar il mio caro maestro,</l>
+<l>Il reverendo Egnazio, e dirò: «Padre,</l>
+<l>Deh, per Dio, vedi i parti del tuo figlio».</l>
+<l>Non lascerò di gir al picciol Reno</l>
+<l>A trovar il gran Romulo, oltre l'Alpi</l>
+<l>A cercar manderò Giulio Camillo.</l>
+<l>Ricorrerò ai maestri de la lingua,</l>
+<l>Al buon Trifon Gabriello, al sacro Bembo</l>
+<l>Andrò in Toscana al Varchi, al Tolomei.</l>
+<l>E correrò a Vinegia al buon Veniero.</l>
+<l>Né dovendo temer di mille grifi,</l>
+<l>Starò mai queto ad un giudicio solo.</l>
+<l>Grand'impresa è tentar coi versi suoi</l>
+<l>Di dover sodisfar a tanti ingegni,</l>
+<l>A tanti, a sì diversi, a sì perversi.</l>
+<l>Per che qual por si vuole a cotal rischio,</l>
+<l>Convien che tutto svolto d'altro oggetto,</l>
+<l>A questo solo sia rivolto e intento;</l>
+<l>E gli antichi scrittor volva e rivolva</l>
+<l>La notte e ´l giorno; e scriva, e scriva</l>
+<l>E verghi e squarci et arda mille carte</l>
+<l>E con devoto cor, con casti preghi</l>
+<l>Chiami ´l favor dagli stellanti chiostri.</l></lg>
+<lg type="endecasillabo-sciolto">
+<l>Poi non si metta alcuno ai sacri studi</l>
+<l>Tratto d'altro pensier che dal disio</l>
+<l>Di parlar con le nimfe e con gli amori,</l>
+<l>Di gioirsi con lor tra l'ombre e i fonti,</l>
+<l>Seco scherzando, e graziosi balli</l>
+<l>Tessendo insieme, ornandosi le tempie</l>
+<l>Di verdi rami e di perpetua lode.</l>
+<l>Qual del suo faticar degna mercede</l>
+<l>Spirto gentil istima tal mercede,</l>
+<l>Rivolga lieto i gloriosi passi</l>
+<l>A salir il bel giogo d'Elicona,</l>
+<l>Né d'altro pensi chi del suo pensiero</l>
+<l>Non vuol che pentimento al fin risurga.</l>
+<l>Chi voleva altro premio a la sua penna</l>
+<l>Che ´l solo onor, a più beata etade</l>
+<l>Nascer doveva. E chi in seguir le muse</l>
+<l>Non sta contento de le muse ignude,</l>
+<l>Lasci le muse e prenda altro camino.</l>
+<l>Ma qual uom fia di sì maligno ingegno</l>
+<l>Ch'a lor volga le piante, l'alma acceso</l>
+<l>D'altro disio che de la lor vaghezza?</l></lg>
+<lg type="endecasillabo-sciolto">
+<l>O sante donne, o gloriose dive,</l>
+<l>Cingetemi pur voi d'un ramoscello</l>
+<l>D'edera il crin, che d'altra man non curo</l>
+<l>Che ´l mi venga a impedir corona d'auro.</l></lg></div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Discorso dell'arte del dialogo</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>32 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000426</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Prose</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Mazzali, Ettore</editor>
+        <publisher>Ricciardi</publisher>
+        <pubPlace>Milano [ecc.]</pubPlace>
+        <date>1959</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="codice">Italiano</language><language id="grc">Greco</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>851.4 - POESIA ITALIANA, 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2003-05-25T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Chiara Saletti</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2003-05-25T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Chiara Saletti</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-06-05T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valentina Gritti</name>
+        <name>CIBIT - Ferrara</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div1 type="dedica" n="Dedica"><head><hi rend="sc">AL MOLTO REVERENDO PADRE
+IL PADRE DON ANGELO GRILLO</hi></head>
+<p>Voi mi pregate, Padre molto reverendo, nelle vostre lettere, ch' io vo<lb/>
+glia darvi alcun ammaestramento; e 'l chiedete, se non m'inganno,<lb/>
+de lo scrivere i dialogi, perché son quelle medesime ne le quali m'avisate <lb/>
+<pb n="332"/><lb/>
+d'aver ricevuti quel della Poesia toscana e della Pace. E se propria<lb/>
+mente ragionate, io non posso compiacervi, perché tanto a me disdi<lb/>
+cevol sarebbe la persona di maestro, quanto a voi quella di scola<lb/>
+re: né rifiutandola io temo di poterne esser biasimato, come Giotto,<lb/>
+perch'egli ricusò convenevole onore, io non accetto ufficio non conve<lb/>
+niente. Ma se volete onorarmi con questo nome, ed ammaestramento <lb/>
+chiamate l'opinione, io la scriverò, perché niuna cosa debbo tenervi <lb/>
+celata, la qual possa giovar a gli altri o pur a me stesso; ed allora sti<lb/>
+merò buone le mie ragioni che dal vostro giudizio saran confermate.<lb/>
+E se delle regole aviene quel che delle leggi, sì come altre leggi hanno i <lb/>
+Genovesi, diverse da quelle de' Viniziani o de' Ragusei; così potreb<lb/>
+bono avere altri precetti nell'artificio del bene scrivere. Ma io non gli <lb/>
+voglio dar questo nome, né voi gliele scrivete in fronte; perciò che io <lb/>
+l'ho raccolte in una operetta assai breve per assomigliar alcuni dottori <lb/>
+cortegiani, i quali non potendo sostener persona così grave, vestono di<lb/>
+<pb n="333"/><lb/>
+corto. E s'in quest'abito potranno esser vedute dagli amici e parenti <lb/>
+vostri, che sono usati non solamente d'udire, ma di scrivere e di far <lb/>
+nobilissime azioni, non v'incresca di leggerle.</p>
+</div1>
+<div1 type="parte">
+<p>Nell'imitazione o s'imitano l'azioni degli uomini o i ragiona<lb/>
+menti: e quantunque poche operazioni si facciano a la mutola,<lb/>
+e pochi discorsi senza operazione, almeno dell'intelletto, nondi<lb/>
+meno assai diverse giudico quelle da questi; e degli speculativi è <lb/>
+proprio il discorrere, sì come degli attivi l'operare. Due saran,<lb/>
+dunque, i primi generi dell'imitazione: l'un dell'azione, nel qual <lb/>
+son rassomigliati gli operanti; l'altro delle parole, nel quale sono in<lb/>
+trodotti i ragionanti. E 'l primo genere si divide in altri, che sono <lb/>
+la tragedia e la comedia, ciascun delle quali patisce alcune divi<lb/>
+sioni; e 'l secondo si può divider parimente. Ed <name>Aristide</name>, un de' <lb/>
+più famosi greci i quali scrissero e non parlorono, così parve che gli <lb/>
+dividesse, dicendo che <name>Platone</name> avea comicamente rappresentato <lb/>
+<name>Ippia</name>, <name>Prodico</name>, <name>Protagora</name>, <name>Gorgia</name>, <name>Eutedemo</name>, <name>Bonisidoro</name>, <name>Aga<lb/>
+tone</name>, <name>Cinesia</name> e gli altri; e ch'egli medesimo chiama le sue leggi <lb/>
+Tragedia, e si confessa ottimo tragico. Ma tra' moderni v'è chi <lb/>
+gli divide altramente, facendone tre spezie. L'una delle quali può <lb/>
+montare in palco, e si può nominar rappresentativa, perciò ch'in<lb/>
+essa vi siano persone introdotte a ragionare: cioè in alto, com'è<lb/>
+usanza di farsi nelle comedie e nelle tragedie; e simil maniera è <lb/>
+tenuta da <name>Platone</name> ne' suoi Ragionamenti e da Luciano ne' suoi.<lb/>
+<pb n="334"/><lb/>
+Ma un'altra ce n'è che non può montare in palco, perciò che, <lb/>
+conservando l'autore la sua persona, come istorico narra quel che <lb/>
+disse il tale e 'l cotale. E questi due ragionamenti si possono do<lb/>
+mandare istorici o narrativi; e tali sono, per lo più, quelli di <name>Cice<lb/>
+rone</name>. E c'è ancora la terza maniera: ed è di quelli che son mesco<lb/>
+lati della prima e della seconda maniera, conservando l'autore la <lb/>
+sua prima persona e narrando come istorico; e poi introducendo a <lb/>
+favellar <foreign lang="grc">dramatikõs</foreign>, come s'usa di far nelle tragedie e nelle come<lb/>
+die; e può, e non, montare in palco: ciò è non può montarvi, in <lb/>
+quanto l'autore conserva la sua persona, ed è come l'istorico; e può <lb/>
+montarvi, in quanto s'introducono le persone rappresentativamente <lb/>
+a favellare: e <name>Cicerone</name> fece alcuni ragionamenti sì fatti. E quantun<lb/>
+que questa divisione sia tolta da gli antichi e paia diversa da l'altra, <lb/>
+nondimeno l'intenzione forse è l'istessa: perché la tragedia si di<lb/>
+vide in quella che si dice tragedia propriamente e nell'altra nella <lb/>
+qual parla il poeta; e tragedia si fatta compose <name>Omero</name>. E questa <lb/>
+<pb n="335"/><lb/>
+divisione, perché è fatta in due membri, è più perfetta: nondimeno <lb/>
+i dialoghi sono stati detti tragici e comici per similitudine, perché <lb/>
+le tragedie e le comedie propriamente sono l'imitazioni dell'azioni;<lb/>
+ma 'l dialogo è imitazione di ragionamento: e tanto partecipa del <lb/>
+tragico e del comico, quanto in lui si scrive dell'azione: però tra<lb/>
+gici si posson chiamar sopra tutti gli altri il <title>Critone</title> e 'l <title>Fedone</title>:<lb/>
+nell'un de' quali <name>Socrate</name>, condannato a la morte, ricusa di fuggir<lb/>
+sene con gli amici; nell'altro, dopo lunga disputazione dell'immor<lb/>
+talità dell'animo, bee il veleno. E comico è il <title>convito</title>, nel quale <lb/>
+Aristofane è impedito dal rutto nel favellare, ed Alcibiade ubriaco <lb/>
+si mescola fra' convitati. Ma 'l <title>menesseno</title> par misto di queste due <lb/>
+specie: perciò che <name>Socrate</name>, battuto da la maestra <name>Aspasia</name>, è persona <lb/>
+comica; ma lodando i morti Ateniesi, inalza il dialogo a l'altezza <lb/>
+della tragedia. Pur questi medesimi dialogi non son vere tragedie <lb/>
+o vero comedie: perché nell'une e nell'altre le quistioni e i ragiona<lb/>
+menti son descritti per l'azione; ma ne' dialogi l'azione è quasi <lb/>
+giunta de' ragionamenti; e s'altri la rimovesse, il dialogo non per<lb/>
+derebbe la sua forma. Dunque in lui queste differenze sono acci<lb/>
+dentali più tosto ch'altramente; ma le proprie si torranno dal ragio<lb/>
+namento istesso e da' problemi in lui contenuti, ciò è da le cose <lb/>
+ragionate, non sol dal modo di ragionare. Perch'i ragionamenti sono <lb/>
+o di cose ch'appartengono a la contemplazione, o pur di quelle che <lb/>
+son convenevoli a l'azione: e negli uni sono i problemi intenti a <lb/>
+l'elezione ed a la fuga; negli altri, quelli che risguardano la scienza <lb/>
+e la verità: laonde alcuni dialogi debbono esser detti civili e costu<lb/>
+mati, altri speculativi. E 'l soggetto degli uni e degli altri o sarà la <lb/>
+quistione infinita: come la virtù si possa insegnare; o la finita,<lb/>
+che debba far <name>Socrate</name> condennato a la morte. E perciò che gran <lb/>
+<pb n="336"/><lb/>
+parte de' platonici dialogi sono speculativi, e quasi in tutti la qui<lb/>
+stione è infinita, non pare che lor si convenga la scena in modo <lb/>
+alcuno, né meno a gli altri che son de' costumi, perché son pieni <lb/>
+d'altissime speculazioni. Anzi più tosto non si conviene ad alcun <lb/>
+dialogo, se non forse per rispetto dell'elocuzione, la quale alcuna <lb/>
+volta pare istrionica, sì come disse il <name>Falereo</name>, avenga che nella <lb/>
+scena si rappresenti l'azione o atto, dal quale son denominate le <lb/>
+favole e le rappresentazioni drammatiche. Ma nel dialogo princi<lb/>
+palmente s'imita il ragionamento, il qual non ha bisogno di palco:<lb/>
+e quantunque vi fosse recitato qualche dialogo di <name>Platone</name>, l'usanza <lb/>
+fu ritrovata dopo lui senza necessità. Perché s'in alcuni luoghi l'elo<lb/>
+cuzione pare accommodata a l'istrione, come nell'<title>Eutidemo</title>, può <lb/>
+leggersi da lo scrittore medesimo ed aiutarsi con la pronuncia.<lb/>
+Né gli conviene ancora il verso, come hanno detto, ma la prosa;<lb/>
+perciò che la prosa è parlar conveniente a lo speculativo ed a l'uomo <lb/>
+civile, il qual ragioni degli uffici e delle virtù. E i sillogismi e l'in<lb/>
+duzioni e gli entimemi e gli esempi non potrebbono esser convene<lb/>
+volmente fatti in versi. E se leggiamo alcun dialogo in versi, come <lb/>
+è l'<title>Amicizia bandita </title>di Ciro prudentissimo, non stimerem lode<lb/>
+vole per questa cagione, ma per altra; e direm che 'l dialogo sia <lb/>
+imitazione di ragionamento scritto in prosa, senza rappresentazione,<lb/>
+per giovamento degli uomini civili e speculativi: e ne porrem due <lb/>
+<pb n="337"/><lb/>
+spezie: l'una contemplativa e l'altra costumata: e 'l soggetto nella <lb/>
+prima spezie sarà la quistione infinita; nella seconda può esser l'in<lb/>
+finita o la finita: e quale è la favola nel poema, tale è nel dialogo la <lb/>
+quistione; e dico la sua forma e quasi l'anima. Però s'una è la <lb/>
+favola, uno dovrebbe esser il soggetto del quale si propongono i <lb/>
+problemi. E nel dialogo sono, oltre di ciò, l'altre parti, ciò è la <lb/>
+sentenza e 'l costume e l'elocuzione; ma trattiam prima della <lb/>
+prima.</p>
+<p>Dico, adunque, ch'in ogni questione si concede alcuna cosa e <lb/>
+d'alcuna si dubita; e intorno a quella di cui si dubita nasce la di<lb/>
+sputa, la qual si forma della dimanda e della risposta; e perché <lb/>
+'l dimandare s'appartiene particolarmente al dialettico, par che <lb/>
+lo scrivere il dialogo sia impresa di lui; ma 'l dialettico non dee <lb/>
+richieder più cose d'uno, o pur una cosa di molti: perché s'altri <lb/>
+rispondesse, non sarebbe una l'affirmazione o la negazione.<lb/>
+E non chiamo una cosa quella c'ha un nome solo, se non si <lb/>
+fa una cosa di quelle: come, l'uomo è animal con due piedi e <lb/>
+mansueto; ma di tutte queste si fa una sola cosa: ma dell'esser <lb/>
+bianco e dell'essere uomo e del caminare, come dice <name>Aristotele</name>,<lb/>
+non se ne fa uno: però, s'alcuno affermasse qualche cosa, non <lb/>
+sarebbe una affermazione; ma una voce, e molte l'affermazioni.<lb/>
+Se dunque l'interrogazione dialettica è una dimanda della risposta,<lb/>
+o vero della proposizione, o vero dell'altra parte della contradi<lb/>
+zione; e la proposizione è una parte della contradizione; a queste <lb/>
+cose non sarà una risposta né una dimanda. Ma s'al dimostrativo <lb/>
+non s'appertiene il dimandare, a lui non converrà di scriver dia<lb/>
+logo. E par ch'<name>Aristotele</name> assai chiaramente faccia questa differenza <lb/>
+nel primo delle <title>Prime resoluzioni</title> fra la proposizion dimostrativa<lb/>
+<pb n="338"/><lb/>
+e la dialettica, dicendo che la demonstrativa prende l'altra parte <lb/>
+della contradizione: perciò che colui il qual dimostra, non dimanda,<lb/>
+ma piglia; ma la dialettica è dimanda della contradizione. Nondi<lb/>
+meno nel primo delle <title>posteriori</title> egli dice che. s'è il medesimo l'in<lb/>
+terrogazione sillogistica e la proposizione, e le proposizioni si <lb/>
+fanno in ciascuna scienza, in ciascuna scienza ancora si posson fare <lb/>
+le dimande. Laonde io raccolgo che si posson fare i dialogi nel<lb/>
+l'aritmetica, nella geometria, nella musica e nell'astronomia, e nella <lb/>
+morale e nella naturale e nella divina filosofia; ed in tutte l'arti ed in <lb/>
+tutte le scienze si posson far le richieste e conseguentemente i <lb/>
+dialogi. E s'oggi fossero in luce i dialogi scritti d'<name>Aristotele</name>, non ce <lb/>
+ne sarebbe peraventura dubbio alcuno. Ma leggendo que' di P<name>la<lb/>
+tone</name>, i quali son pieni di proposizioni appertenenti a tutte le scien<lb/>
+ze, potremo chiaramente conoscere l'istesso: nondimeno, sì come <lb/>
+il dimandare è proprio al dialettico, così a lui si conviene il dialogo <lb/>
+più ch'a tutti gli altri. Laonde <name>Aristotele</name>, nel capitolo seguente,<lb/>
+pare che faccia differenza fra le matematiche e i dialogi, dicendo <lb/>
+che se fosse impossibile mostrar dal falso il vero, sarebbe facile il <lb/>
+risolvere, perché si convertirebbono di necessità; ma si convertono <lb/>
+più quelle che son nelle matematiche, perché non ricevono al<lb/>
+cuno accidente; e 'n ciò son differenti da quelle che son ne' dialo<lb/>
+gi: e dialogi chiama i parlari dialettici, i quali son composti della <lb/>
+dimanda e della risposta. Al dialettico, dunque, converrà princi<lb/>
+palmente di scrivere il dialogo, o a colui che vuol rassomigliarlo.<lb/>
+E 'l dialogo sarà imitazione d'una disputa dialettica. Ma perché <lb/>
+<pb n="339"/><lb/>
+quattro sono i generi delle dispute: il dottrinale, il dialettico, il ten<lb/>
+tativo e 'l contenzioso; l'altre dispute ancora si possono imitare ne' <lb/>
+dialogi; e forse in quelli d'<name>Aristotele</name> erano tutt'e quattro; ma in <lb/>
+quelli di <name>Platone</name> si troverebbono similmente: perché <name>Socrate</name> per <lb/>
+via d'ammaestramento e d'esortazione parla con Alcibiade, con Fe<lb/>
+dro e con Fedone; e come dialettico disputa con Zenone e con <lb/>
+Parmenide; e come tale riprova <name>Ippia</name>, <name>Gorgia</name>, Trasimaco e gli <lb/>
+altri Sofisti, e talora gli tenta; ma i Sofisti son cotenziosi e vaghi <lb/>
+di gloria, come appare nell'<title>Eutidemo</title>, detto altramente il Litigioso.<lb/>
+Nondimeno questi quattro generi non sono così partitamente <lb/>
+distinti da gli interpreti di <name>Platone</name>, i quali pongono tre maniere di <lb/>
+dialogi: l'una, nella quale <name>Socrate</name> esorta i giovanetti;nell'altra ri<lb/>
+prova i Sofisti; la terza è mescolata dell'una e dell'altra: la qual <lb/>
+senza dubbio è più soave per la mescolanza. Ma chi volesse <lb/>
+scriver dialogi secondo la dottrina d'<name>Aristotele</name> ed arricchir di <lb/>
+questo ornamento le scuole peripatetiche, potrebbe scriverli in <lb/>
+tutt'e quattro le maniere. Ma principalmente son lodevoli le due <lb/>
+prime, la dottrinale e la dialettica: l'artificio della quale consiste <lb/>
+principalmente nella dimanda usata con mòto artificio da <name>Socrate</name> <lb/>
+ne' libri di <name>Platone</name>, come appare nel primo dialogo nel quale So<lb/>
+crate richiede ad Ipparco quel che sia la cupidigia del guadagno;<lb/>
+e 'n tutti gli altri simiglianti, non eccettuando quelli ne' quali,<lb/>
+sotto la persona di Forestiero ateniese, dà le nuove leggi d'una <lb/>
+città; e 'n quelli di <name>Senofonte</name> ancora, con arte molto simile,<lb/>
+<name>Socrate</name> chiede a <name>Critobulo</name> se l'economia è nome di scienza, come <lb/>
+la medicina e l'architettura; e nel <title>Tiranno</title>, Simonide ad Ierone, che <lb/>
+<pb n="340"/><lb/>
+differenza sia fra la vita reale e la privata: e da la risposta ch'è fatta <lb/>
+prendono occasione d'insegnare. Ma da questo artificio si dipartì <lb/>
+<name>Marco Tullio</name>, il quale nelle <title>Partizioni oratorie</title> pone la dimanda in <lb/>
+bocca non di quel ch'insegna, ma di colui ch'impara; ed egli me<lb/>
+desimo ci dimostra la diversità fra i Greci e i Latini in quelle pa<lb/>
+role di <name>Cicerone</name> figliuolo: Vuoi dunque ch'io ti dimandi scam<lb/>
+bievolmente in lingua latina di quelle cose medesime delle quali <lb/>
+tu mi suoli addomandare nella greca ordinatamente? Laonde pare <lb/>
+che la dimanda fatta dal discepolo sia derivata da <name>Cicerone</name>, e l'ar<lb/>
+tificio sia proprio de' Romani, il quale s'usò dal Possevino e da altri <lb/>
+nella dottrina peripatetica, perché forse è più facile; ma è non <lb/>
+così lodevole; né fu, ch'io mi ricordi, usata da gli antichi. E per <lb/>
+questa ragione <name>Marco Tullio</name> nelle <title>Quistioni tusculane</title> più s'avvicina <lb/>
+a l'arte de' Greci: percìò ch'egli commandava ch'alcun de' suoi fa<lb/>
+migliari ponesse quel che gli pareva, ed egli contradiceva a la con<lb/>
+clusione in questo modo. <q>«<title>auditore</title>. La morte mi pare esser male.<lb/>
+Ma quelli che son morti o a quelli c'han da morire?»</q> La quale <lb/>
+è vecchia e socratica ragione di disputar contra l'altrui opinione.<lb/>
+Tuttavolta il por la conclusione ha dello scolastico: e però dice <lb/>
+d'aver poste ne' cinque libri le scuole de' cinque giorni. Tanto <lb/>
+poté l'amor della filosofia in un vecchio senator romano, padre della <lb/>
+patria, il qual quistionava secondo il costume de' Greci, forse per <lb/>
+ingannar se stesso in questo modo e consolarsi nella servitù <lb/>
+<pb n="341"/><lb/>
+Ma non si dimenticò ne' libri dell'<title>Oratore</title> di quel ch'era convene<lb/>
+vole a' romani senatori; laonde Crasso ed Antonio in altra maniera <lb/>
+introduce a favellare. Ma fra tutt'i dialogi greci, lodevolissimi son <lb/>
+que' di <name>Platone</name>; perciò che superano gli altri d'arte, di sottilità,<lb/>
+d'acume, d'eleganza e di varietà di concetti e d'ornamento di pa<lb/>
+role. E nel secondo luogo son que' di <name>Senofonte</name>; e que' di Lu<lb/>
+ciano nel terzo. Ma <name>Cicerone</name> è primo fra' Latini, il quale volle <lb/>
+forse assomigliarsi a <name>Platone</name>: nondimeno, nelle quistioni e nelle <lb/>
+dispute, alcuna volta è più simile a gli oratori ch'a' dialettici;<lb/>
+ma nel secondo luogo non so chi se gli avicini o chi si possa para<lb/>
+gonare a' Greci. E nella nostra lingua, coloro c'hanno scritto <lb/>
+dialogi, per la maggior parte hanno seguita la maniera men arti<lb/>
+ficiosa: nella qual dimanda quel che vuole imparare, non quel che <lb/>
+ripruova. E s'alcuno s'è dipartito da questo modo di scrivere,<lb/>
+merita lode maggiore. E tanto basti della prima parte, ch'è la quistione.</p>
+<p>Ma perché, come abbiam detto, il dialogo è imitazione del ragio<lb/>
+namento, e 'l dialogo dialettico imitazione della disputa, è neces<lb/>
+sario ch'i ragionanti e i disputanti abbiano qualche opinione delle <lb/>
+cose disputate e qualche costume, il qual si manifesta alcuna volta <lb/>
+nel disputare; e quanti derivano l'altre due parti del dialogo: io <lb/>
+dico la sentenza e 'l costume; e lo scrittore del dialogo deve imitar <lb/>
+non altramente che faccia il poeta, perch'egli è quasi mezzo fra 'l <lb/>
+poeta e 'l dialettico. E niun meglio l'imitò e meglio l'espresse di <lb/>
+<pb n="342"/><lb/>
+<name>Platone</name>, che descrisse nella persona di <name>Socrate</name> il costume d'un <lb/>
+uomo da bene ch'ammaestra la gioventù, e risveglia gli ingegni <lb/>
+tardi, e raffrena i precipitosi, e richiama gli erranti, e riprova la <lb/>
+falsità de' Sofisti, e confonde l'insolenza e la vanità; amator del <lb/>
+giusto e del vero; magnanimo non che mansueto nel tolerar l'ingiu<lb/>
+rie, intrepido nella guerra, costante nella morte. Ma in quella <lb/>
+d'<name>Ippia</name> e di <title>Gorgia</title> e d'Eutidemo e degli altri sì fatti si descrivono <lb/>
+gli avari e ambiziosi e amatori di gloria, i quali non hanno vera <lb/>
+scienza d'alcuna cosa, ma parlano per opinione. In quella di Me<lb/>
+none e di Critone descrive il buon padre e 'l buon amico; e 'n <lb/>
+quella d'Alcibiade, di Fedro e di Carmide, i costumi de' nobili <lb/>
+giovani son descritti maravigliosamente. Oltra queste parti del dia<lb/>
+logo, ci sono le digressioni, come nel poema gli episodi. E tale è <lb/>
+quella d'<name>Eaco</name> e di <name>Minos</name> e di <name>Radamanto</name> nel <name>Gorgia</name>, e quella di <lb/>
+Theuth demone degli Egizi nel <title>Fedro</title>, d'Ero <name>Panfilio</name> ne' dialogi <lb/>
+della <title>Republica </title>Ma perch'a bastanza s'è ragionato del soggetto <lb/>
+del dialogo e della sentenza e de' costumi di coloro che sono intro<lb/>
+dotti a favellare, resta che parliamo dell'ultima parte, la quale <lb/>
+è l'elocuzione: e se crediamo ad Artemone, che ricopiò l'epistole <lb/>
+d'<name>Aristotele</name>, bisogna scriver co 'l medesimo stilo il dialogo e <pb n="343"/><lb/>
+l'epi<lb/>
+stola, perch'il dialogo è quasi una sua parte. Ma <name>Demetrio Fa<lb/>
+lereo</name> dice ch'il dialogo è imitazione del ragionare a l'improviso;<lb/>
+ma l'epistola si scrive, e si manda in dono in qualche modo:<lb/>
+però dee esser fatta e polita con maggiore studio. Tuttavolta né <lb/>
+<name>Platone</name> né <name>Marco Tullio</name> par che sempre avessero questa considera<lb/>
+zione: perché ne' dialogi l'elocuzione dell'uno e dell'altro non è <lb/>
+meno ornata che quella dell'epistole: e 'n tutti gli altri ornamenti <lb/>
+i dialogi paiono superiori. E ciò non par fatto senza molta ragione,<lb/>
+conciosiacosa che i dialogi di <name>Platone</name> e di <name>Marco Tullio</name> sono imita<lb/>
+zione de' migliori: e nell'imitazioni sì fatte, le persone e le cose <lb/>
+imitate debbono più tosto accrescere che diminuire, come ci inse<lb/>
+gna Demetrio medesimo, il qual vuol che la magnificenza sia nelle <lb/>
+cose, s'il parlare è del cielo o della terra. Oltre di ciò, là dove egli <lb/>
+parla del periodo, ne fa tre generi: il primo, istorico; il secondo,<lb/>
+dialogico; il terzo, oratorio: e vuol che l'istorico sia nel mezzo del<lb/>
+l'uno e dell'altro, non molto ritondo né molto rimesso. Ma la forma <lb/>
+dell'oratorio sia contorta e circolarie; e quella del dialogico più <lb/>
+semplice dell'istorico, in guisa ch'a pena dimostri d'esser periodo. I <lb/>
+quali ammaestramenti sono stati meglio osservati da' Greci che da <lb/>
+<name>Marco Tullio</name>, ch'imitò <name>Platone</name> solamente: perch'egli così nel periodo,<lb/>
+com'in ciascun'altra parte, ricercò la grandezza più di <name>Senofonte</name> <lb/>
+e degli altri. Laonde usa le metafore pericolosamente in luogo delle <lb/>
+imagini, che sono usate da <name>Senofonte</name>: e somiglia colui il quale ca<lb/>
+mina in luogo dove è pericolo di sdrucciolare, compiacendo a se <lb/>
+medesimo, ed avendo molto ardire, sì come è proprio delle nature <lb/>
+sublimi talché fu detto di lui ch'egli molto s'inalzava sovra il <pb n="344"/><lb/>
+par<lb/>
+lar pedestre; e ch'il suo parlare non era in tutto simile al verso,<lb/>
+né 'n tutto simile a la prosa; e ch'egli usava l'ingegno non altra<lb/>
+mente ch'i re facciano la podestà; ed in somma, niun ornamento <lb/>
+di parole, niun color retorico, niun lume d'oratore par che sia ri<lb/>
+fiutato da <name>Platone</name>. Ma s'in alcuna parte del dialogo debbiamo aver<lb/>
+risguardo a gli avertimenti di Demetrio, è in quella nella qual si <lb/>
+disputa, perch'in lei si conviene la purità e la simplicità dell'elo<lb/>
+cuzione; e 'l soverchio ornamento par ch'impedisca gli argomenti e <lb/>
+che rintuzzi, per così dire, l'acume e la sottilità. Ma l'altre parti <lb/>
+debbono esser ornate con maggiore diligenza; e dovendo lo scrit<lb/>
+tor del dialogo assomigliare i poeti nell'espressione e nel por le <lb/>
+cose inanzi a gli occhi, <name>Platone</name> meglio di ciascuno ce le fa quasi <lb/>
+vedere: il qual nel <title>Protagora</title>, parlando d'Ippocrate che s'era arros<lb/>
+sito essendo ancora di notte, soggiunge: «Già appariva la luce,<lb/>
+onde il color poteva esser veduto» E la chiarezza, ch'evidenza è <lb/>
+chiamata da' Latini, nasce da la cura usata nel parlare e da l'es<lb/>
+sersi ricordato ch'Ippocrate era a lui veduto di notte. E nel mede<lb/>
+simo dialogo leggiamo con maraviglioso diletto che l'Eunuco por<lb/>
+tinaio, perché i Sofisti gli erano venuti a noia, serra con ambe <lb/>
+le mani la porta a <name>Socrate</name> ed al compagno; ed a pena l'apre, uden<lb/>
+do che non erano di loro. E ci piace il passeggiar di <name>Protagora</name> e <lb/>
+degli altri che, passeggiando con tanto ordine, ascoltavano il ra<lb/>
+gionare: e ci par di vedere <name>Ippia</name> seder nel trono e <name>Prodico</name> giacere <lb/>
+avviluppato. E con piacer incredibile leggiamo similmente che due <lb/>
+giovanetti appoggiati sovra il gombito descrivessero cerchi e altre <lb/>
+inchinazioni della sfera: e che <name>Socrate</name> pur col gombito dimandasse <lb/>
+di che ragionavano. Né con minor espressione ci pone inanzi a gli <lb/>
+<pb n="345"/><lb/>
+occhi <name>Carmide</name> e gli amici: e quasi veggiamo gli estremi, che sede<lb/>
+vano da questa parte e da quella, l'uno cadere e l'altro esser co<lb/>
+stretto a levarsi. Ma sopra tutte le cose c'empie di compassione e <lb/>
+di maraviglia il venir di <name>Carmide</name> a la prigione inanzi al giorno, e <lb/>
+l'aspettar che si destasse <name>Socrate</name> condannato a la morte: e poi <lb/>
+ch'il medesimo raccoglia la gamba, la quale era stata legata, e <lb/>
+grattandosi discorra del dolore e del piacere, la estremità de' quali <lb/>
+son congiunte insieme: e distendendosi, e postosi a sedere sovra la <lb/>
+lettiera, dia principio a maggiore e più alta contemplazione. E <lb/>
+nel medesimo dialogo tempera il dolore, quando scherza con le belle <lb/>
+chiome di Fedone, le quali dovevano il giorno tagliarsi; e nella <lb/>
+descrizione parimente è maraviglioso. E se leggiamo i ragionamenti <lb/>
+di <name>Socrate</name> sotto il platano, e quelli del Forestiero ateniese a l'om<lb/>
+bra degli alberi frondosi, mentre co 'l Lacedemonio e co 'l <name>Can<lb/>
+diano</name> vanno a l'antro di <name>Giove</name>, ci par di vedere ed ascoltare quel che <lb/>
+leggiamo. Queste son le perfezioni di <name>Platone</name>, veramente maravi<lb/>
+gliose: le quali, se ben saranno considerate, non ci rimarrà dubbio <lb/>
+alcuno che lo scrittor del dialogo non sia imitatore, o quasi mezzo <lb/>
+fra 'l poeta e 'l dialettico. Abbiam, dunque, che 'l dialogo sia imita<lb/>
+zione di ragionamento, fatto in prosa per giovamento degli uomini <lb/>
+civili e speculativi, per la qual cagione egli non ha bisogno di <lb/>
+scena o di palco; e che due sian le specie: l'una nel soggetto, della <lb/>
+quale sono i problemi che risguardano l'elezione e la fuga; l'altra <lb/>
+speculativa, la qual prende per subietto quistione ch'appertiene <lb/>
+a la verità e a la scienza; e nell'una e nell'altra non imita solamente<lb/>
+<pb n="346"/><lb/>
+la disputa, ma il costume di coloro che disputano, con elocuzioni <lb/>
+in alcune parti piene di ornamento, in altre di purità, come par <lb/>
+che si convenga a la materia.</p>
+</div1>
+</body>
+</text>
+</TEI.2>

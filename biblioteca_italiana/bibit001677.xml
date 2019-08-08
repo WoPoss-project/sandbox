@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Le Considerazioni sulle tre Canzoni di m. G.Battista Pigna intitolate Le tre Sorelle</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>73 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2007</date>
+      <idno>bibit001677</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Tutte le opere</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Quondam, Amedeo</editor>
+        <publisher>Lexis Progetti Editoriali</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>1997</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione - OCR</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2007-03-27T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Valeriano Fiori</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2007-04-19T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1 type="dedica" n="Dedica">
+<opener><salute>ALL’ILLUSTRISSIMA ED ECCELLENTISSIMA  MADAMA LEONORA D’ESTE.</salute></opener>
+<p>Fu già tempo, illustrissima ed eccellentissima Madama, ch’io osai di celebrare la bellezza ed il valore della signora Lucrezia Bendidio; ma conoscendo poi per lunga esperienza, che mal poteva esser espresso da la lingua ciò che non era compreso da l’intelletto, di temerario non pur cauto ma timido divenuto, posi freno non solo a le rime ma a’ pensieri ancora; i quali per lungo riposo fatti altrettanto pigri quanto paurosi, sarebbono giaciuti in un ozio perpetuo, se finalmente i comandamenti ed i conforti dell’Eccellenza Vostra non gli avessero eccitati ed inanimiti. Con tutto ciò essendo io consapevole a me stesso della debolezza del mio ingegno, al quale le eccellenze della signora Lucrezia sono oggetto troppo sproporzionato, non ardirei mai d’impiegarlo immediatamente nelle lodi di lei e nelle contemplazioni delle sue virtù. Ma sì come i mortali considerano Iddio non nella sua pura e simplice divinità (chè a questo non sariano essi bastanti), ma nel magistero dell’opere sue; o pur come sogliamo remirare il Sole, non in se stesso ma nella sua imagine ch’è ripercossa da l’acqua; così io parimente sono deliberato di fare, cioè di contemplare e di celebrare, per quanto in me sarà, questa gloriosa Signora negli effetti suoi: de’ quali tutto che molti, e molto grandi e notabili, ve ne siano; nissuno però ve n’ha che superi o che pareggi di dignità le rime amorose, non so se io debba chiamarle del secretario Pigna o della signora Lucrezia: perciò che da la mente dell’uno furono partorite, e da l’altra, discese quel valore che le informò. Ma perdonimi il signor Pigna, se io defraudo lui di questa gloria: le dirò pur rime della signora Lucrezia; perciò che tante e sì diverse poesie, in brevissimo spazio composte, in tante e sì diverse materie, con tanto e sì diverso artificio, fra le occupazioni di negoci importantissimi, e fra le speculazioni d’una lettura continua, non si debbono giudicare simplicemente fatture d’arte o di dottrina, che ciascuno conosce nel Pigna; ma opere e creature d’amore più tosto. Intraprenderò, dunque, per soggetto delle mie <title>Considerazioni</title> tre Canzoni, che sono picciola ma nobil parte però delle molte rime che si leggono in deificazione della signora Lucrezia; nelle quali <title>tre Sorelle</title> si tratta dell’Amor divino in paragone del lascivo: e peraventura da queste Canzoni si trasfonderà in me tanto di quello spirito di che esse son piene, ch’io in virtù della signora Lucrezia scriverò dell’artificio dell’imagine sua non indegnamente. Ma qualunque sia per essere questa mia scrittura, piaccia a l’Eccellenza vostra di riguardarla con quella benignità con la quale in ogni occasione è solita così prontamente di favorirmi.</p>
+<closer>Di Vostra Eccellenza umilissimo ed obbligatissimo servitore
+<signed>TORQUATO TASSO.</signed></closer></div1>
+<div1 type="capitolo" n="Introduzione">
+<head>LE CONSIDERAZIONI SOPRA TRE CANZONI  DI M. GIO. BATTISTA PIGNA  INTITOLATE LE TRE SORELLE.</head>
+<p>Tuttociò che piace, ed è sotto forma di bello da qualche potenza conoscitiva appreso, altro non è che splendore della Divinità; il quale penetra e risplende per l’universo, in una parte più, e meno in un’altra. Ed assai con questo principio si confà quella vulgatissima proposizione d’Aristotele, ch’a tutti gli enti è compartito l’essere; a questi più chiaramente, e più oscuramente a quegli altri. Anzi peraventura niuna differenza ha fra loro: perciò che, sì come l’essere ed il bene sono termini convertibili, così parimente ciò ch’è buono è bello; e volgendo l’ordine, ciò ch’è bello è buono: onde in consequenza ne seguita, che ciascuna cosa, in quanto ella ha essenza, abbia parimenti bellezza; e che quanto ha più chiaro, e più espresso l’essere, abbia parimente bellezza più nobile e più lucida. Quelle cose, adunque, in cui l’essere ed il bello più puro e più immisto si ritrova, maggiormente participano della Divinità, e questo più o meno participante. Stando dunque questo fondamento, andrò secondo la diversità dell’essere distinguendo i gradi della bellezza. E quanto appartiene al presente proposito, le cose in due modi hanno l’essere: alcune composto, e sensibile; alcune intelligibile, e senza alcuna composizione di materia e di forma. Dunque due ordini parimente di bellezza par che si trovino: l’uno compreso da i sensi; l’altro, obietto di quella parte di noi, che discorre ed intende: ed ancorachè in ciascun di questi ordini diversi gradi ritrovar si potessino, e che altrimenti discenda il raggio della Divinità nelle menti angeliche, ed altrimente nelle umane; e che in altra maniera si manifesti ne’ corpi animati che negli inanimati, e ne’ colori che nelle voci e ne’ suoni; nondimeno, perchè queste minute distinzioni non sono al nostro proposito necessarie, si lascieranno da parte; e procedendo più oltre, dirò che sempre è proporzione e corrispondenza fra l’oggetto e la potenza che di quello oggetto è cognoscitrice. Onde è ragionevole che la corporea bellezza sia conosciuta dal senso, virtù similmente congiunta ad instromenti materiali: o che la bellezza immortale, e separata, si comprenda da l’intelletto, che solo in noi mortali è divino ed eterno, e simile a colui che ne fu donatore. Ma la maestra natura al senso ed a l’intelletto, che sono le due potenze con le quali conosciamo e giudichiamo tutte le cose, congiunse e quasi inestò i due appetiti: uno de’ quali segue i giudicii del senso, e però sensitivo si chiama; l’altro quelli della mente, e con proprio nome è detto volontà. E questo fece, acciò che ciascuna cosa, avendo inclinazione a la sua beatitudine, si movesse per conseguirla; chè altrimente le cose tutte pigre e neghittose se ne starebbono, non procurando di giungere a quella perfezione di che la natura loro è capace. Di qui avviene che non prima il senso o l’intelletto spiega dentro a se stesso alcuna imagine come bella, e tale giudicandola se ne compiace, che si sveglia l’appetito, o la volontà; e si move verso l’oggetto piaciuto, più o meno, secondo che maggiore o minore è il compiacimento. E questo moto dell’appetito verso l’oggetto, per compiacimento della bellezza compresa in lui, è amore, il quale ora divino, ora sensuale vien nominato; sì come o di sensibile o d’intelligibil bellezza è desiderio. Ma per lascivo che sia l’amore, buona sempre e divina è la cagione. Ed ancorachè gli amanti ciechi non se ne aveggiano, niente altro bramano che di fruire la luce della Divinità. E ciò da Dante in due luoghi ci è dinotato: l’uno nel <title>Paradiso</title>, dove Beatrice così parla:
+<quote rend="block"><lg><l>Io veggio ben, sì come già risplende</l>
+<l>Nell’intelletto tuo l’eterna luce,</l>
+<l>Che vista sola, sempre amore accende:</l></lg>
+<lg><l>E s’altra cosa nostr’amor seduce,</l>
+<l>Non è se non di quella alcun vestigio</l>
+<l>Mal conosciuto, che ’l mondo seduce.</l></lg></quote>
+L’altro è nel <title>Purgatorio</title>; dove, da poi che in persona di Virgilio ha dichiarato la natura d’amore, così soggiunge:
+<quote rend="block"><lg><l>Or ti puote apparir quanto è nascosa</l>
+<l>La verità a la gente, che avvera</l>
+<l>Ciascuno amore in sè laudabil cosa:</l></lg>
+<lg><l>Perciò che sempre appar la sua matera</l>
+<l>Sempre esser buona, ma non ciascun segno</l>
+<l>È buono, ancorchè buona sia la cera.</l></lg></quote>
+E chiama qui Dante materia, cioè cagion materiale, la bellezza, ch’è oggetto generante l’amore; perchè, se bene, secondo i Peripatetici, l’oggetto è cagione producitrice, nondimeno è dottrina de’ Platonici, a i quali peraventura Dante ebbe in questo luogo alcun riguardo, che l’anima sia cagione effettiva di quegli atti ch’ella intorno a l’oggetto, quasi in sua materia, produce. Ma perchè il saper, come da divina cagione effetto non del tutto buono possa derivare, pertiene particolarmente a la intelligenza delle Canzoni, sopra questo punto alquanto mi dilaterò.</p>
+<p>Non è dubbio che l’amore non segua la cognizione e non sia in alcun modo effetto di quella; onde il bello, quanto è più conosciuto, tanto è più amato, e meno, quanto meno: e ciò Dante nel luogo allegato ci dechiara.
+<quote rend="block"><lg><l>S’io ti fiammeggio nel caldo d’amore</l>
+<l>Di là del modo che in terra si vede,</l>
+<l>Sì che degli occhi tuoi vinco il valore,</l></lg>
+<lg><l>Non ti meravigliar; chè ciò procede</l>
+<l>Da perfetto veder, che, come apprende,</l>
+<l>Così nel bene appreso move il piede.</l></lg></quote>
+Se dunque questo è vero, e vero è parimente ch’ogni nostra cognizione abbia origine da i sensi; e che da la notizia delle cose sensibili pervegnano al conoscimento delle insensibili e intelligibili; ne seguita, che quando bella e valorosa donna ci s’appresenta, prima siano amate le bellezze del corpo che quelle dell’animo, come quelle che prima sono conosciute; non potendo la beltà dell’animo, se non per lungo uso, esserne manifesta. E se noi fermatici nella contemplazione e nel desiderio della bellezza corporale, non passiamo più oltre; o se passando a l’interne bellezze, per qualche accidente ricaggiamo nel primo desiderio; questo desiderio è quello, ch’amore sensuale e vulgare vien nominato. Con tutto ciò, coloro che sono sì fattamente inamorati, altro però non amano che il raggio della Divinità, il quale risplende in questa massa caduca e corruttibile de’ nostri corpi; e da divina cagione procede in alcun modo l’effetto delle loro sensuali cupidità; colpa non già della bellezza, ma delle sentimenta più tosto, la cognizione de’ quali poco lontano stendendosi, giudica l’origine di quella luce non peregrina e discesa del Cielo, come è veramente, ma nata insieme con le membra mortali, e risultante dalla proporzione e componimento loro. E per questo cercano a la sete de’ loro affetti la bellezza, non ne’ fonti copiosi e perpetui della Divinità, ma ne’ rigagni quasi secchi e torbidi per la mistura della materia.</p>
+<p>Or che ho dichiarato le cagioni dell’amore e la natura della bellezza; e come ella, quantunque nobile e divina, porge nondimeno occasione di desiderii lascivi e terreni; resta che io, facendomi alquanto più d’appresso, venga più particolarmente al soggetto delle Canzoni. Dico adunque che l’Autore, essendo omai liberamente passato da l’amor lascivo a l’onesto, e da l’amor delle bellezze sensibili a quello delle intelligibili, invoca lo spirito della sua donna, acciò che possa degnamente cantare i pensieri nobili e gli affetti di questo novo amore. E cominciando da remoto principio la sua narrazione, descrive le cagioni ed il tempo del suo primo inamoramento; ed il precipizio suo nell’amor lascivo, ed il trapasso ultimamente fatto nell’amore onesto. Quindi, per dimostrare quanto giudiciosamente sia stato fatto questo trapasso, digredisce nelle imperfezioni dei primi amori, e degli amanti che così fattamente amano: e tocca quasi di transito la perfezione dell’amore celeste, e la concordia de’ veri amanti; ma non contento ancora del nobile e pacifico stato in che si ritrova, si rivolge a gli occhi della sua donna, acciò che l’inalzi ad amore di maggiore perfezione: e questo è, parlando sommariamente e per capi, il contenuto della prima Canzone. Ma discendendo al resto, più particolarmente queste cose si ritratteranno, e dichiarerassi insieme l’artificio con che sono state trattate dal Poeta. Sia dunque qui principio a nuovo ragionamento.</p>
+<p>La Canzone pare differente dal Poema epico, non solo come il picciolo dal grande; ma anche come l’imperfetto dal perfetto. Con tutto ciò potrebbe alcuno stimare ch’ella devesse avere le sue parti, se non esattamente perfette, come le epiche, almeno ch’a proporzione corrispondessero a quelle dell’Epopeia, in quella guisa che alcuni minuti animaletti, se ben non hanno nè core nè sangue, si trova però non so che in vece di core e di sangue. Essendo, adunque, che in ogni poema epico si propona prima, e s’invochi, e poi si narri; pare che la canzone ancora debba avere queste tre parti: cioè proposizione, invocazione, e narrazione; ma ciò non è semplicemente necessario, ma si verifica peraventura in quelle, le quali contenendo alcuna continuazione d’argomento, quasi imagine di favola, s’accostano a la natura dell’Epopeia; ch’alcune ve ne sono nelle quali nulla si narra, ma si diffondono solamente in querele amorose, o cose sì fatte: e queste tali, poco simili a l’Epopeia, e poco perfette di loro natura, delle già nominate parti non sono capaci: in quelle poi che, contenendo alcuna testura d’avenimento, più s’assomigliano al poema eroico, si ricerca la proposizione, non già egualmente l’invocazione, come parte che non è tanto essenziale quanto la prima. E le canzoni del Petrarca per la maggior parte sono senza queste parti; perciò che non volendosi in esse imagine alcuna di favola, non n’aveano bisogno: pur ve ne sono alcune, che essendo in loro un argomento continuato, or con narrazione, or con imitazione, si possono quasi chiamare piccioli poemi epici. Tali sono:
+<quote rend="block"><l>Quell’antico mio dolce empio Signore.</l>
+<l>Standomi un giorno solo alla finestra.</l>
+<l>Una donna più bella assai che il Sole.</l>
+<l>Nel dolce tempo della prima etade.</l>
+<l>Tacer non posso, e temo non adopre.</l></quote>
+Nelle tre prime, qual ne sia la cagione, non propone e non invoca; nella quarta propone:
+<quote rend="block"><l>Canterò come dissi in libertade;...</l>
+<l>Poi seguirò;</l></quote>
+ma non invoca. Nell’ultima propone ed invoca; ma fa l’uno e l’altro insieme, come è costume d’Omero.
+<quote rend="block"><l>Come poss’io, se non m’insegni, Amore,</l>
+<l>Con parole mortali agguagliar l’opre</l>
+<l>Divine, e quel che copre</l>
+<l>Alta umiltade in se stessa raccolta?</l></quote>
+Il modo però del proporre e dell’invocare è obliquo ed alquanto coperto. A questo ultimo esempio di proporre ed invocare s’è voluto attenere il nostro Poeta: il fa nondimeno più apertamente; e certo era ciò a lui convenevole molto, perchè essendo questa non una canzone, ma un composto di tre canzoni, con argomento continuato e poetico, il quale a guisa che par costume degli Epici, conclude nella vittoria riportata dell’amor lascivo, e nel trofeo inalzato delle sue spoglie, doveva anco in questa parte a gli Epici assomigliarsi.</p></div1>
+<div1 type="capitolo"><head>Canzone 1</head>
+<div2 type="paragrafo"><head>Stanza 1</head>
+<lg><l>Non più le forze tue crudeli e false,</l>
+<l>Che, note a gli occhi miei, dal cor son dome:</l>
+<l>Non più quel foco oscuro ed aspro tanto,</l>
+<l>Dond’arse l’orgoglioso ardir, dond’alse</l>
+<l>La scacciata ragion; non più quel canto,</l>
+<l>Che si cangiava in pianto,</l>
+<l>E l’effetto perdea serbando il nome,</l>
+<l>I’ cheggio, Amor; ma se già mai mi calse</l>
+<l>Delle tue insegne, or franco i’ le abbandono:</l>
+<l>E di Madonna l’alma,</l>
+<l>Che tien di te la palma,</l>
+<l>Rivolgo i sensi e le parole e il sono:</l>
+<l>Co ’l suo spirto, ch’è luce, e ben di Dio,</l>
+<l>Sì raccendendo il mio,</l>
+<l>Che novo pellegrin voler sublime</l>
+<l>I’ diffonda in concetti e in voci e in rime.</l></lg>
+<p>Il parlar prima è volto a l’amor lascivo, quasi d’uomo già vincitore, e che, nulla temendo, rifiuti quell’aiuto sotto il quale ha ricevuto altre volte inganno e tradimento. E dice: <emph>Amore, io non chieggio le forze tue crudeli e false, che note agli occhi miei, dal cor son dome</emph>. Versi pienissimi, in vero, e misteriosissimi. Con due modi siamo superati da l’inimico; con violenza, e con fraude. E questi ambedue ristringe il Poeta in due parole, <emph>forze false</emph>; chè nella forza è espressa la violenza, e nella voce <emph>false</emph> si dinota la fraude. E l’aggiunto di <emph>crudeli</emph>, aggiunge un non so che di efficacia a l’una ed a l’altra. Ma la fraude si vince co ’l prevederla, e la violenza co ’l reprimerla: ed il prevedere pertiene senza alcun dubbio a la virtù nostra ragionevole, cioè a l’intelletto, di cui è abito la prudenza; il reprimere è atto di guerra, e per questo si può attribuire a l’irascibile; la quale talora, come ci insegna Platone nei libri della Republica, è ministra e guerriera della ragione contra la cupidigia. Ecco con che bella arte tutto questo è tocco nel secondo verso,
+<quote rend="block"><l>Che, note a gli occhi miei, dal cor son dome.</l></quote>
+La mente nell’animo fa l’istessa operazione che gli occhi nel corpo: e secondo il traslato di proporzione, può il nome degli uni a l’altra essere traportato. Vince dunque la mente la fraude conoscendola: <emph>dal cor son dome</emph>, da la virtù irascibile, ponendo il luogo in vece del locato; perchè, se ai Platonici crediamo, il cuore è sede dell’ira, come il capo della ragione, ed il fegato della cupidità. E che il Poeta per il cuore intenda quella parte di noi feroce e robusta, che si sdegna e combatte, ce lo accenna nella chiusa della canzone, ove dice:
+<quote rend="block"><l>Canzon, lo sdegno accresco, e non infiammo;</l></quote>
+nel qual luogo si dichiara contra se stesso e contra gli errori suoi fieramente sdegnato. Assai simile è quel luogo del Petrarca:
+<quote rend="block"><l>Un leggiadro disdegno, aspro e severo,</l>
+<l>Tira in mezzo a la fronte, ov’altri il vede;</l>
+<l>Chè mortal cosa amar con quella fede</l>
+<l>Che solo a Dio per debito conviensi,</l>
+<l>Più si disdice a chi più pregio brama.</l></quote>
+E quivi medesimamente si costituisce l’irascibile per ministra della ragione. <emph>Foco oscuro ed aspro tanto</emph>; cupidigia oscura, che non distingue, nè conosce. <emph>Aspro</emph>; che molesta e tormenta, e fa l’uomo temerario e poco ragionevole.
+<quote rend="block"><l>.... Non più quel canto,</l>
+<l>Che si cangiava in pianto,</l>
+<l>E l’effetto perdea serbando il nome:</l></quote>
+dilatato leggiadrissimamente quel che fu in poche scorte parole raccolto dal Petrarca: <emph>Canzon mia, no, ma pianto. E di Madonna a l’alma</emph>. Rivolge quasi per riverenza obliquamente il parlare alla sua donna. E qui è l’invocazione sino al verso:
+<quote rend="block"><l>Che novo pellegrin voler sublime.</l></quote>
+Egli segue la proposizione, e dice di cantar <emph>voler</emph>, cioè amor, o desiderio: il quale essendo tale, come è poi descritto, fa mestieri che abbia il suo albergo nella volontà, ch’è l’appetito della mente; onde per separarlo da la cupidità, il chiama <emph>voler novo</emph>; o avendo rispetto a se stesso, e a gli amori altrui: <emph>sublime</emph>; alto, nobile: <emph>pellegrino</emph>; cioè, che vien di fuori, ed è infuso da la sua donna in quella guisa che l’intelletto agente, scesoci dal grembo di Dio, peregrino si nomina. <emph>Diffonda</emph>, non semplicemente cantare; ma cantando manifestare, e divulgare <emph>in voci e rime</emph>, in voci rimate; figura usata dal Petrarca in quel verso:
+<quote rend="block"><l>Ove vanno a gran rischio uomini ed armi.</l></quote></p></div2>
+<div2 type="paragrafo"><head>Stanza 2</head>
+<lg><l>Fu divina cagion ch’a lei mi trasse,</l>
+<l>Quando ella, a i gran tremor che diè la terra,</l>
+<l>Formava da’ begli occhi e dal bel petto</l>
+<l>Sì pietoso dolor, che se mandasse</l>
+<l>In faccia il Ciel di sè simile effetto,</l>
+<l>Tai sariano a l’aspetto</l>
+<l>Le lagrime e i sospir che il Ciel disserra.</l>
+<l>I’ perchè dunque a voglie ed opre basse</l>
+<l>Precipitai da sì alto principio?</l>
+<l>Se spazioso amore,</l>
+<l>Che mai non s’ange o more,</l>
+<l>Sciolto mi volse, perchè fui mancipio</l>
+<l>Dell’empio Amor, che a un palmo sol di vista</l>
+<l>Sì ne stringe e contrista?</l>
+<l>Or dopo mezzo rio con fin tranquillo</l>
+<l>Il primo santo ardor giungo e sigillo.</l></lg>
+<p>Descrive la cagione ed alcune circostanze del suo inamoramento; e procede dal confuso al distinto, e dal generale al particolare: perchè prima dice solamente, che la cagione del suo inamoramento fu divino; e questo è un parlare in universale e confuso, che nulla determina, potendo questo aggiunto <emph>divino</emph> a molte cose attribuirsi: poi discende alle cagioni più particolari; dolci lagrime e dolci sospiri, di begli occhi e di bel petto. E questa strada di cominciar dal confuso e pervenire al distinto, è usata quasi perpetuamente da Aristotele e da Virgilio. Aristotele l’usa giudicando che la via del nostro apprendere fosse da le cose più note a le meno. Virgilio proponendoci le cose in confuso, in parte ce le dichiara, in parte no. E questo è un artificio per allettare l’auditore a voler sapere più oltre: e per renderlo sempre avido di nuova lezione: il che non farebbe, se le cose a prima vista chiare e manifeste ci appresentasse; perchè il lettore, contento di questa intera notizia, più oltre peraventura non si curarebbe di leggere. Non senza esempio adunque, nè senza altissima ragione, procede il Poeta sì fattamente nell’assegnare le cagioni del suo amore. Accenna poi le circostanze del luogo e del tempo, e la cagione del dolor della sua donna in quel verso:
+<quote rend="block"><l>Quando ella, a i gran tremor che diè la terra,</l>
+<l>Formava da’ begli occhi e dal bel petto</l>
+<l>Sì pietoso dolor, che se mandasse</l>
+<l>In faccia il Ciel di sè simile effetto,</l>
+<l>Tai sariano a l’aspetto</l>
+<l>Le lagrime e i sospir che il Ciel disserra.</l></quote>
+Quivi il Poeta a caso ed a bell’arte ha giudiciosa ed arditamente gareggiato con quei versi del Petrarca:
+<quote rend="block"><l>Non vidi mai dopo notturna pioggia</l>
+<l>Gir per l’aere sereno stelle erranti,</l>
+<l>E fiammeggiar fra la rugiada e il gelo,</l>
+<l>Ch’io non avessi i begli occhi davanti.</l></quote>
+Ma ove sia il vantaggio, difficile è il giudicare: dirò bene che in tanta similitudine ci è molta dissimilitudine; contuttociò nella diversità ancora sono conformi di giudicio, avendo ciascuno eletto quello che a la sua canzone era più convenevole. Trattava il Petrarca di bellezze visibili, e d’amore sensuale; e per questo doveva rappresentare la cosa, e porla in atto, ed innanti a gli occhi, quanto fosse possibile più: e questo fa mirabilmente assimigliando il pianto di Madonna Laura ad uno effetto che molte fiate siamo usi di vedere, cioè a quella umidità rugiadosa che rimane dopo la pioggia, nelle serenità del cielo, a lo splendore delle stelle. Il nostro Poeta parla a l’incontra dell’amore divino, e vuole ascendere a le bellezze intelligibili; e per questo non è obligato a rappresentare quell’atto dell’aere con tanta energia a gli occhi corporali, ma ci rapisce ad un’altissima e novissima imaginazione. Che se il Cielo così bello e lucido, come è, fosse soggetto a le nostre passioni, e piangesse, e sospirasse; il pianto ed i sospiri suoi sarriano somiglianti a quelli della sua donna. E non è dubbio, che il senso non comprende nella rugiada, che appare d’intorno a le stelle, tanta bellezza, di quanta bellezza forma l’imagine un concetto delle lagrime del Cielo.
+<quote rend="block"><l>I’ perchè dunque a voglie ed opre basse</l>
+<l>Precipitai da sì alto principio?</l></quote>
+Come per divina cagione s’intenda la bellezza, la quale, quantunque si ritrovi e riceva ne’ corpi caduchi e non corruttibili, è nondimeno immortale; e come <emph>da sì alto principio</emph>, cioè da sì alta cagione, si possa precipitare ne’ desiderii dell’amor lascivo e vulgare, è stato sopra assai a bastanza dichiarato.
+<quote rend="block"><l>Se spazioso amore,</l>
+<l>Che mai non s’ange o more,</l>
+<l>Sciolto mi volse, perchè fui mancipio</l>
+<l>Dell’empio Amor, che a un palmo sol di vista</l>
+<l>Sì ne stringe e contrista?</l></quote>
+Continua interrogativamente, quasi ammirando; e il senso in somma è tale: s’io poteva amare d’amor celeste, perchè amai lascivamente? Amore spazioso, amore di bellezze intelligibili ed immortali, che non sono ristrette dentro i termini nè di luogo nè di tempo nè di materia; le quali circostanze circonscrivono e rinchiudono dentro a i loro cancelli tutte le sostanze corporee e mortali; onde meritamente l’amore di così fatta bellezza si può chiamare spazioso, prendendo la voce <emph>spazioso</emph> non in quanto denota spazio di luogo, ma metaforicamente, in senso che distenda cosa di cui si parla, fuor d’ogni confine e d’ogni circonscrizione. Ed in questa guisa si è usato di dire la lunghezza dell’eternità; convenendo propriamente questa voce di <emph>lunghezza</emph> a le cose misurabili.
+<quote rend="block"><l>Che mai non s’ange o more.</l></quote>
+Descrive l’amor divino per due altre sue proprietà: l’una, ch’egli non sia cagione di tormenti; l’altra, che sia immortale. E veramente stabilissimo e perpetuo è l’amore dell’onestà, come dichiarano i Morali.
+<quote rend="block"><l>Dell’empio Amor, che a un palmo sol di vista</l>
+<l>Sì ne stringe e contrista?</l></quote>
+Descrive l’amor lascivo per due condizioni, opposte a due delle tre primiere; e lascia l’ultima, come egli tosto s’estingua, ma o come resultante da le prime, o come notissima: le quali sono; e ch’egli sia ristretto dentro a i confini della materia e del luogo; e ch’egli sia cagion di pene: e dice, <emph>a un palmo</emph>; per avvilire e diminuire la cosa quanto possa più. Sì come con arte diversa, per aggrandire le sue meraviglie, fu usato il medesimo termine dal Petrarca:
+<quote rend="block"><lg><l>Allor insieme in men d’un palmo appare</l>
+<l>Visibilmente, quanto in questa vita</l>
+<l>Arte, ingegno e natura e ’l Ciel può fare.</l></lg></quote>
+<emph>Vista</emph>, talor si prende per la virtù visiva:
+<quote rend="block"><l>Noi siam come colui, c’ha mala vista;</l></quote>
+talora per l’atto del vedere; come si dice, <emph>in una vista</emph>, quasi <emph>in una occhiata</emph>: talora per l’oggetto veduto, come qui:
+<quote rend="block"><l>Or dopo mezzo rio con fin tranquillo</l>
+<l>Il primo santo ardor giungo e sigillo.</l></quote>
+Accenna, che se ben precipitò poi nell’amor lascivo, il principio nondimeno non fosse tale. E si può intendere, che nel principio del suo amore non bramasse altro che appagar gli occhi e l’udito, delle parole e della vista della sua donna; il qual desiderio, se ben è amore di oggetto sensibile, è amore onesto: ma poi ch’essendo caduto nella cupidigia di sodisfare a i sensi più materiali, finalmente ritorni e giunga al suo desiderio, ed il sigilli; cioè passi più oltre, ed arrivi a l’amore dell’anima, il quale deve essere termine dell’amore onesto naturale.</p></div2>
+<div2 type="paragrafo"><head>Stanza 3</head>
+<lg><l>Se non s’uniscon mai color diversi</l>
+<l>Nel regno, anzi prigion, dei ciechi amanti,</l>
+<l>Qual nodo accoppierà due cor difformi;</l>
+<l>Poichè sì rade volte ambi confersi,</l>
+<l>Ancorchè in van desio fatti conformi,</l>
+<l>Un stesso amor gli informi?</l>
+<l>Spesse fiate l’un lieti ha i sembianti;</l>
+<l>L’altro gli ha di pallor per doglia aspersi.</l>
+<l>Se gela l’un, l’altro arde. Or qui sospetti,</l>
+<l>E là querele atroci;</l>
+<l>Or qui spietate voci,</l>
+<l>E là taciti, chiusi, alti dispetti.</l>
+<l>Quinci dolci umiltà, dolci preghiere;</l>
+<l>Quindi ripulse fiere.</l>
+<l>E se ugual fiamma un dì li tiranneggia,</l>
+<l>Mille amari un tal dolce non pareggia.</l></lg>
+<p>L’intendimento del Poeta in questa e nella seguente stanza è di mostrare l’imperfezione dell’amore sensuale; acciò che quindi si conosca quanto giudiciosa sia stata la sua elezione d’abbandonarlo. E se ben ciò era stato tocco nella stanza precedente; più chiaramente nondimeno e con più forti argomenti il prova in quelle che seguitano. È notissimo, che la perfezione di ciascuna cosa consiste nell’acquisto del suo fine: quelle cose, dunque, le quali nè conseguiscono nè possono conseguire il lor fine, imperfettissime sono fra tutte le altre. Tale senza alcun dubbio è l’amor lascivo; perciò che, non essendo l’amore altro che desiderio d’unione per compiacimento di bellezza; ne seguita che il fine e la felicità amorosa altro non sia, che l’unione degli amanti: dico unione degli animi e della volontà, a cui l’unione dei corpi, o non è necessaria, o si desidera accessoriamente, e come segno del primiero congiungimento. Chi dunque non asseguirà questa unione degli animi, non asseguirà la beatitudine degli amanti. E che gli amatori lascivi non possano pervenirvi, il prova nella prima stanza con questa ragione: Se è impossibile che negli amanti simili s’accordino le apparenze esteriori, il che è assai meno; quanto più ragionevolmente debbiamo stimare impossibile che s’uniscano le volontà? Ed è luogo topico dal meno al più.
+<quote rend="block"><l>Se non s’uniscon mai color diversi.</l></quote>
+Per <emph>colore</emph> intende non semplicemente il colore, ma ciascuna apparenza esteriore.
+<quote rend="block"><l>Nel regno, anzi prigion, dei ciechi amanti;</l></quote>
+buona correzione; perchè il regno si deve attribuire a l’amore, e la prigione a gli amanti.
+<quote rend="block"><l>Un stesso amor gli informi?</l></quote>
+Altissimo senso si rinchiude in questa vaga forma di dire; però che quella è la forma di ciascuno, da cui procedono le sue operazioni; ma derivando le operazioni dell’animo innamorato da amore, ragionevolmente amore si dee stimare forma di lui.
+<quote rend="block"><l>Spesse fiate l’un lieti ha i sembianti.</l></quote>
+I seguenti versi sono dolci, e di poetica leggiadrìa ornati; e particolarmente leggiadrissimo e nobilissimo è quello:
+<quote rend="block"><l>E là taciti, chiusi, alti dispetti.</l></quote>
+Ma sono essi puri e chiari tanto, che non fa loro mestieri di sposizione.</p></div2>
+<div2 type="paragrafo"><head>Stanza 4</head>
+<lg><l>Da perversi pensier, da voglie ardenti</l>
+<l>L’alma si sface pria che si componga.</l>
+<l>E chi da se medesmo ognor discorda,</l>
+<l>E raggirato è da contrari venti,</l>
+<l>Come con altri mai stretto s’accorda?</l>
+<l>Lume orbo, e orecchia sorda,</l>
+<l>A veder, ad udir non si disponga.</l>
+<l>Come, chi sè non ama, altrui contenti</l>
+<l>Mirar potrà, non che bramar già mai?</l>
+<l>E se tu il mondo fuggi,</l>
+<l>E solingo ti struggi,</l>
+<l>Quando al mio scampo la man pronta avrai?</l>
+<l>Due candide, fedeli anime pari,</l>
+<l>Con spirti infusi e chiari,</l>
+<l>Sorte e virtù commune e propria fansi,</l>
+<l>Nè in disvoler punto di noia dansi.</l></lg>
+<p>Seguita a provare il medesimo, ma con più forte e con più robusto argomento; il quale è tale: L’animo, che non è concorde in se stesso, non potrà concordarsi con altri; l’animo acceso d’amore lascivo, non concorda in se medesimo; adunque, ec. Ed è fondata la virtù di questo argomento sopra una verissima proposizione, che la concordia esteriore proceda da la concordia interna. Or che l’anima sottoposta al lascivo appetito non sia concorde, assai è noto per se stesso. Perciò che, oltre che le cupidità sono infinite, e contrarie tra se stesse; quando non è giustizia nell’animo, non vi può esser concordia fra la parte ragionevole e l’appetito concupiscibile. Dico essere giustizia nell’animo allora che comanda chi dee comandare, ed obedisce chi dee obedire: ma la parte ragionevole è nata in sua natura per signoreggiare con imperio civile l’uno e l’altro appetito, che segue i giudici delle sentimenta. Onde il Petrarca:
+<quote rend="block"><l>Quell’antico mio dolce empio signore</l>
+<l>Fatto citar dinanzi a la Regina.</l>
+<l>E raggirato è da contrari venti;</l></quote>
+da gli affetti, che sono contrari anco fra se stessi: ed allude a quel del Petrarca:
+<quote rend="block"><l>Venti contrari a la vita serena.</l>
+<l>Lume orbo, e orecchia sorda.</l></quote>
+Per introdurre la forma, non basta che l’agente sia atto ad operare, se il paziente non è idoneo a ricevere l’impressione. E per ciò, ancora che l’oggetto sia presente, lumi orbi ed orecchie sorde nulla veggono e nulla odono. Rimette al giudicio del lettore, che argomentando dal simile concluda, l’anima incapace della felicità amorosa; tuttochè se le appresentino molte cagioni di diletto, non gustarle, e non conoscerle però intieramente. E sopra ciò leggi Lucrezio, della guerra de’ sentimenti e degli affetti.
+<quote rend="block"><l>E se tu il mondo fuggi,</l>
+<l>E solingo li struggi.</l></quote>
+Forma di dire, rivolgendo il parlare in seconda persona: e restringendo l’universale ad un particolare assai efficace, e che pone la cosa più inanzi a gli occhi, che dicendo:
+<quote rend="block"><l>E s’altri il mondo fugge.</l></quote>
+Usolla il Bembo nelle sue stanze:
+<quote rend="block"><l>Che s’io sostenni te, mentre cadevi,</l>
+<l>Ben deggio poscia aver che me rilevi.</l></quote>
+Non intendendo in altro, che di concludere questo universale, che l’aiutato dee riaiutare.
+<quote rend="block"><l>Due candide, fedeli anime pari.</l></quote>
+Da poi che egli ha dimostrato che l’unione delle volontà non può essere nell’amore lascivo, conclude che sia nell’onesto, o divino. Ed in questo verso dinota, che nell’unione degli animi perfetta, non basta ch’essi siano onesti e fedeli; ma fa mestieri ch’amore adegui ogni disuguaglianza, e li riduca a parità, per unirli perfettamente, e fare non unione, ma unità. Che se bene si trova l’amicizia in sopraeccellenza, di cui a pieno tratta il Filosofo nell’Etica; non è peraventura quella che cagiona questo perfetto concordamento.
+<quote rend="block"><l>Con spirti infusi e chiari.</l></quote>
+Accenna forse in questa parola il platonico scambiamento dell’anime, che ciascuno abbia lo spirito non suo proprio, ma infuso in lui da l’amante, e vive con l’anima d’altri; e forse per <emph>infusi</emph> intende purgati.
+<quote rend="block"><l>Sorte e virtù commune e propria fansi.</l></quote>
+Non si poteva dire nè più pienamente, nè più breve, nè meglio. Abbraccia tutte le cose, per dire <emph>sorte e virtù</emph>. Dice <emph>commune</emph>, in quanto ciascuno di questi amanti perfetti accommuna i suoi beni con l’altro. Dice <emph>propria</emph>, perchè ciascuno reputa suo proprio quello ch’è d’altrui proprio.</p></div2>
+<div2 type="paragrafo"><head>Stanza 5</head>
+<lg><l>Questi, che il volgo ignaro estolle, e appella</l>
+<l>Veri e afflitti amator saldi e celati,</l>
+<l>Son falsi e stolti; e sono infermi e aperti</l>
+<l>Nimici in ogni parte al ben rubella.</l>
+<l>Onde per far miei dì sereni, e certi,</l>
+<l>E d’alma gloria esperti,</l>
+<l>Specchi eterni del ciel, vivi e beati,</l>
+<l>Dei giri vostri a l’una e a l’altra stella</l>
+<l>Ricorro, e a l’altre angeliche bellezze;</l>
+<l>Che se affrenar mio corso,</l>
+<l>A strazi e a morte corso,</l>
+<l>Quando le luci mie furon sì avezze</l>
+<l>Nell’esterno splendor, ch’anco le abbaglia,</l>
+<l>Se improviso m’assaglia;</l>
+<l>Or che cede al divin la frale scorza,</l>
+<l>Di sollevarmi a Dio quanto avran forza!</l></lg>
+<p>Dilata ed esagera in questa stanza la conclusione fatta nella precedente stanza dell’amor lascivo: poi rivolgendosi a gli occhi della sua donna, gli invoca per aiuto a salire a più alto amore.
+<quote rend="block"><l>Specchi eterni del ciel, vivi e beati.</l></quote>
+Nobilissimo e vaghissimo verso.
+<quote rend="block"><l>Dei giri vostri a l’una e a l’altra stella</l>
+<l>Ricorro.</l></quote>
+Per <emph>giro</emph> intende, non l’atto del girare, ma tutta la circonferenza dell’occhio: per <emph>l’una e l’altra stella</emph>, le pupille degli occhi; e ragionevolmente, avendo assomigliati gli occhi al cielo; chè tanto è a dire specchi del cielo, quanto simili al cielo, ed in cui il cielo vede le sue sembianze. Ora paragona le pupille a le stelle: perchè, sì come la stella è la più nobile e la più lucida parte del cielo, e da cui principalmente piovono le influenze; così la pupilla è la più degna parte dell’occhio, e quella ch’è ministra della luce, o da cui scendono le influenze amorose.
+<quote rend="block"><l>Che se affrenar mio corso.</l></quote>
+Il senso de’ seguenti versi è tale: che se poteste affrenare il corso precipitoso del mio sensuale appetito, allora ch’io non esercitava altro che le operazioni del senso intorno a gli oggetti della bellezza esterna; quanto più facilmente ora potrete inalzarmi a l’amor di Dio, ch’io son, vostra mercè, divenuto amatore di bellezze spirituali? È questo argomento dal maggiore al minore, il quale, acciò che paia valido, si dee presupporre che maggiore e più difficile trapasso sia da l’amor del corpo a l’amor dell’anima; e da l’amor dell’anima a l’amor di Dio. Ma perchè i gradi platonici dell’amore sono vulgatissimi, non replicherò cose tante volte ricantate. Dirò solo, che se ben queste canzoni portano il titolo dell’amore divino; non s’intende però di quell’ultimo grado di perfettissimo amore, quando il nostro intelletto, levatosi di sembianza in sembianza, si riposa finalmente e felicita se medesimo in Dio. Perchè se bene quell’amor solo può essere detto veramente divino; nondimeno gli altri de’ gradi inferiori, fuor che il naturale, possono chiamarsi divini per participazione: in quella guisa che chiamiamo divina la mente umana e l’angelica, perchè in esse è impresso il vestigio e l’imagine nella Divinità. E vi s’aggiunge <emph>divino</emph>, o <emph>dell’amicizia</emph>, per distinguerlo da quello ch’è simplicemente divino; che già è noto per la dottrina del Filosofo nell’Etica, che fra gli uomini e Dio non può essere amicizia, se non men che propriamente parlando. Ben è vero, che in quel verso
+<quote rend="block"><l>Di sollevarmi a Dio quanto avran forza!</l></quote>
+il Poeta accenna che desidera di passare più oltre, o d’ascendere per la scala platonica a l’ultimo grado dell’amorosa perfezione. Ma di ciò non si ragiona in queste tre Sorelle. E tanto basti aver detto intorno a la prima; perciò che nella chiusa non vi è cosa che o non sia dichiarata, o che per se stessa non si dichiari.</p></div2></div1>
+<div1 type="capitolo"><head>Canzone 2</head>
+<div2 type="paragrafo"><head>Stanza 1</head>
+<lg><l>Spirto divin, che a gli occhi, a le parole,</l>
+<l>Al canto, a gli atti, a l’opre, ed a i costumi</l>
+<l>Splendi d’intorno con lucente raggio,</l>
+<l>E tra noi spieghi il ben del sommo Sole;</l>
+<l>Co ’l guardo tuo, di pietà santo e saggio,</l>
+<l>Mira l’aspro passaggio</l>
+<l>Ch’io fei con privi di lor vista lumi;</l>
+<l>Sì ch’or gli afflige il cor, ch’anco sen dole;</l>
+<l>Quando li volsi da la parte diva</l>
+<l>A le caduche spoglie,</l>
+<l>Infiammando le voglie</l>
+<l>Con tal’esca e focil da terra viva,</l>
+<l>Che nero foco porse e viva morte:</l>
+<l>La trapassata sorte</l>
+<l>E il desir mio di te racceso mira:</l>
+<l>Indi nel petto novi accenti inspira.</l></lg>
+<p>Continua questa seconda canzone a mostrare l’imperfezione dell’amor lascivo, e la perfezione dell’altro. Ma discende molto più a i particolari, che nella prima fatto non avea: e ciò con molto magistero, per servare quel progresso di cui sopra abbiamo ragionato, ch’è dal confuso al distinto. L’ordine che serba in questa canzone è tale, che da l’oggetto dell’uno e dell’altro amore cerca di pervenire a la cognizione delle opere loro. E dell’opere prima considera le imperfette, poi le perfette; e da queste finalmente raccoglie la natura e l’essenza di ciascuno di questi due amori. La quale trovata, si volge di nuovo a biasmare l’amore lascivo: e a ciò fare prende due argomenti, uno delle perturbazioni, l’altro delle lascivie. E conclude finalmente, che il lascivo è nella contemplazione di quel viso, che gli puote essere guida a la beatitudine. Ed in quanto pertiene a questo ordine, tale a punto è quello che adopra Aristotele ne’ libri dell’Anima; perchè volendo egli spiare la natura e l’essenza dell’anima nostra, la quale è in guisa occulta e celata, che nulla più; non poteva per altra strada pervenire al conoscimento di lei, che per quella delle operazioni: nè delle operazioni poteva aver distinta notizia, salvo che conosciuti prima e distinti gli oggetti. Cominciando, dunque, da i colori e da’ suoni, trapassa a gli atti del vedere e dell’udire, e quinci a le potenze ed a la natura dell’anima sensitiva, e così di ciascun’altra. E tanto basti aver detto, per mostrare da qual maestro ed in quali scuole abbia appreso il Poeta la maniera del suo procedere. Sogliono poi i poeti, non contenti di quella invocazione che han fatto nel principio dell’opera, invocare di nuovo qualora o cresce la grandezza del soggetto, o cosa nuova e non più trattata se gli appresenta. E vagliaci per mille un esempio di Dante, il quale dopo aver prima detto:
+<quote rend="block"><lg><l>O Muse, o alto ingegno, or m’aiutate;</l>
+<l>O mente, che scrivesti ciò ch’io vidi,</l>
+<l>Qui si parrà la tua nobilitate;</l></lg></quote>
+poi volendo descrivere l’ultimo cerchio, ove sono puniti i traditori, ritorna di nuovo a l’invocazione:
+<quote rend="block"><lg><l>Or quelle Donne aiutino il mio verso,</l>
+<l>Ch’aiutâro Anfione a chiuder Tebe,</l>
+<l>Sì che dal fatto il dir loro sia diverso.</l></lg></quote>
+Però il Poeta crescendo la difficoltà del soggetto, perchè è maggior difficultà il distinguer le cose che il dirle in confuso, invoca di nuovo:
+<quote rend="block"><l>Indi nel petto novi accenti inspira.</l></quote>
+Nè ricerca per soccorso altro, che l’essere guardato dalla sua donna: ed in questo esprime mirabilmente la divinità degli occhi suoi, perchè l’inspirazione degli accenti dipende poi da questo, come da propria cagione.
+<quote rend="block"><l>....che a gli occhi, a le parole,</l>
+<l>Al canto, a gli atti, a l’opre, ed a i costumi</l>
+<l>Splendi d’intorno con lucente raggio,</l>
+<l>E tra noi spieghi il ben del sommo Sole.</l></quote>
+<emph>Opre</emph> e <emph>costumi</emph>, hanno principalmente riguardo a le bellezze interiori: <emph>occhi</emph>, <emph>canto</emph>, <emph>parole</emph>, <emph>atti</emph>, a l’esteriori. Con tutto ciò, dicendo <emph>d’intorno</emph>,
+<quote rend="block"><l>Splendi d’intorno con lucente raggio,</l></quote>
+mostra tutte queste cose essere esteriori: perchè ripugna l’essere intorno e nella superficie, e l’essere intrinseco; e ripugna ancora a la natura del raggio, il quale non è altro che spargimento della luce. <emph>Opre e costumi</emph>, dunque, si diranno esteriori in rispetto della vista di cui essi sono effetti, la quale veramente è intrinseca: e per <emph>costumi</emph> non debbiamo intendere gli abiti morali dell’anima, perciò che questi altro non sono che virtù; ma quelle che creanze si chiamano, e che consistono in alcuni atti esteriori; e convenevolmente accenna, che le bellezze esteriori siano raggio e splendore dell’anima; perciò che i Platonici negano che la grazia e bellezza del corpo consista e resulti da la proporzione delle membra o da la vaghezza dei colori: anzi provano il contrario per molte ragioni, concludendo, che la beltà del corpo altro non sia che lo splendore dell’anima che traluce fuori per questa massa terrena delle membra. E di qui aviene che in alcuni volti, non del tutto proporzionati, veggiamo un non so che di grazioso e di piacevole, che ci alletta, ci rapisce e ci signoreggia. Ed a l’incontra alcuni altri, con ogni altra misura proporzionatissimi, insipidi e mal graziosi ci paiono; perocchè in quelli più bell’anima è nascosa che in questi, che con maggior luce di divinità traspare, ed illustra il corpo che la circonda.
+<quote rend="block"><l>E tra noi spieghi il ben del sommo Sole.</l></quote>
+Leggiadrissima ed efficacissima forma di dire, perciò che la divinità, che in se stessa è raccolta, veramente si può dire che si spieghi nelle opere sue. Onde san Tomaso dice, che Dio creò le cose perchè in loro si diffondesse e si manifestasse la sua bontà.
+<quote rend="block"><l>Mira l’aspro passaggio</l>
+<l>Ch’io fei con privi di lor vista lumi;...</l>
+<l>Quando li volsi da la parte diva</l>
+<l>A le caduche spoglie,</l>
+<l>Infiammando le voglie</l>
+<l>Con tal’esca e focil da terra viva.</l></quote>
+Da l’<emph>esca</emph> e dal <emph>focil</emph> delle <emph>spoglie caduche</emph>, cioè dell’allettamento delle bellezze terrene.
+<quote rend="block"><l>Che nero foco porse e viva morte.</l></quote>
+<emph>Nero foco</emph>; cioè, appetito concupiscibile, torbido ed oscuro. <emph>Viva morte</emph>: la morte è privazione di ogni bene; ma nella morte non vi è sentimento del bene, di che s’è privato. Questa morte è viva, perchè oltre la privazione de’ beni, è anche il senso ed il conoscimento d’altri; il che è grandissimo tormento. E questo è brevemente, ma con grandissima efficacia, espresso da la parola <emph>viva</emph>.</p></div2>
+<div2 type="paragrafo"><head>Stanza 2</head>
+<lg><l>Quel seren, che veder qui non si possa</l>
+<l>Perch’è tolto da nebbie e nubi e piogge,</l>
+<l>Da i folgori, dal verno e da la notte,</l>
+<l>Turba la mente di là su rimossa,</l>
+<l>Per le luci qua giù fosche e interrotte:</l>
+<l>Cagion, che il dì s’annotte,</l>
+<l>E in alto l’occhio in van contenda e pogge;</l>
+<l>Così del vago manto affisso a l’ossa</l>
+<l>I casi son sdegni, martìri e pianti,</l>
+<l>L’ire, l’inferma etade,</l>
+<l>E la morte; onde accade,</l>
+<l>Ch’amor terren gran tempo non si vanti</l>
+<l>Di terrena beltà; ma amor celeste</l>
+<l>Sempre i suoi lumi veste</l>
+<l>Dell’eterno splendor che in donna alberga,</l>
+<l>Senza che tempo o duol mai li disperga.</l></lg>
+<p>In questa stanza dimostra l’imperfezione dell’amore da l’imperfezione dell’oggetto, come dicemmo, assomigliando gli impedimenti che turbano la bellezza corporale, a quelli che turbano la serenità del cielo: nè si poteva trovare paragone che più da una parte aggrandisse la bellezza del corpo della sua donna, da l’altra più dimostrasse qui come transitoria e facilmente mutabile sia questa bellezza mortale. E qui si noti l’arte del Poeta, che essendo astretto di provare qualche imperfezione nella sua donna in quella parte di lei ch’è caduca e terrena, fa ciò con tanta destrezza, e con un modo così obliquo, che prima ci appresenta la lode, per la cosa a chi è paragonata, che il difetto: ed accommuna questo difetto, il quale è proprio delle cose mortali, al cielo, il quale in se stesso è sempre sereno e sempre tranquillo, se ben dal senso talora è giudicato altrimente. Onde Dante nelle sue canzoni dice, che
+<quote rend="block"><l>.... il Ciel sempre è lucente e chiaro,</l>
+<l>E quanto in sè non si turba già mai.</l>
+<l>Ma gli occhi nostri, per cagioni assai,</l>
+<l>Chiaman la stella talor tenebrosa.</l>
+<l>Così del vago manto affisso a l’ossa.</l></quote>
+Come i casi, cioè gli accidenti, che turbano la serenità del cielo, sono nubi, nebbie, piogge, folgori, vento, notte; <emph>così</emph> casi <emph>del vago manto affisso a l’ossa</emph>, del bel corpo congiunto a l’ossa, sono sdegni, martìri e pianti.
+<quote rend="block"><l>....ma amor celeste.</l></quote>
+Mostra la perfezione dell’amor celeste similmente da la perfezione dell’oggetto per la bellezza dell’intelletto è non solo immortale, ma anche sicura e libera delle passioni: e l’uno seguita a l’altra come necessario; perchè, sì come tutto ciò ch’è sottoposto a patire, è sottoposto a morte; così anche ciò ch’è impassibile, è incorruttibile. E queste due condizioni esprime ove dice:
+<quote rend="block"><l>Senza che tempo o duol mai li disperga.</l>
+<l>Sempre i suoi lumi veste</l>
+<l>Dell’eterno splendor.</l></quote>
+<emph>Vestir di splendore</emph> è translato scelto, e rare volte usato; ma vaghissimo e leggiadrissimo; però l’usò Dante nel suo <title>Inferno</title>:
+<quote rend="block"><l>Vestito già dei raggi del pianeta;</l></quote>
+e Virgilio prima di lui.</p></div2>
+<div2 type="paragrafo"><head>Stanza 3</head>
+<lg><l>Or ella con chi parla, or di chi pensa?</l>
+<l>Che fa, che ascolta, dove i passi volge?</l>
+<l>Forse del tuo languir sospira seco:</l>
+<l>Forse non scende sua virtute immensa</l>
+<l>Sì basso, e co ’l pensier non è mai teco.</l>
+<l>Così l’insano e cieco</l>
+<l>Dice tra sè piangendo; e in sè rivolge</l>
+<l>Chi resta altrove; e ad altro il cor dispensa:</l>
+<l>E di queste ragion, di questi affanni,</l>
+<l>Di questo amor si ride.</l>
+<l>Giunto dove ella asside,</l>
+<l>Da i guardi suoi, ma più da i propri inganni</l>
+<l>Legato ivi riman senz’altra fune.</l>
+<l>E par che così imbrune</l>
+<l>La vista, e il viso imbianchi, e infiga i piedi,</l>
+<l>che senza lingua e fuor di senso il vedi.</l></lg>
+<p>Seguita a mostrare il medesimo da l’imperfezione dell’opera, mostrando le operazioni dell’animo innamorato non sono altro che vanità. E nel principio di questa stanza imita il Petrarca in quella parte:
+<quote rend="block"><l>Della tua lontananza or si sospira.</l></quote>
+E in un altro luogo:
+<quote rend="block"><l>Forse, o ch’io spero, il mio tardar le duole.</l></quote>
+Ma quel che seguita è meravigliosa correzione; nè poteva meglio esprimere l’altezza e l’alterezza della donna sua, e l’umiltà sua, che con queste parole:
+<quote rend="block"><l>Forse non scende sua virtute immensa</l>
+<l>Sì basso, e co ’l pensier non è mai teco.</l></quote>
+Ciascuna delle quali voci per se stessa è da considerare, o tutte insieme fanno una perfettissima armonia.
+<quote rend="block"><l>Così l’insano e cieco.</l></quote>
+Ben accoppia queste parole, per dimostrare imperfezione di mente e di senso: e l’una a l’altra corrisponde mirabilmente, non essendo altro l’insania, che cecità della mente.
+<quote rend="block"><l>Dice tra sè piangendo....</l></quote>
+I seguenti versi sono così chiari, e così senza alcun dubbio belli, che non fa lor mestieri nè lode nè sposizione.</p></div2>
+<div2 type="paragrafo"><head>Stanza 4</head>
+<lg><l>O infelice lui! quanto è giocondo,</l>
+<l>Nell’oggetto lontan viver interno,</l>
+<l>E di sua vera fè non aver tema!</l>
+<l>Quanto giova dinanzi a un capel biondo,</l>
+<l>A un pertugio di lume, a un’aura estrema</l>
+<l>Di lieve fiato, scema</l>
+<l>Non dimostrar la mente; e il bel superno</l>
+<l>Godersi in cara faccia, ove il rio pondo</l>
+<l>Fa men greve fortuna, e il piacer cresce</l>
+<l>Delle fiorite imprese!</l>
+<l>Quanto giova che accese</l>
+<l>Sian l’alme, se un sol fin tra lor si mesce;</l>
+<l>E l’un altro non voglia, altro non chiami,</l>
+<l>Che quel, che l’altra brami!</l>
+<l>In questa guisa le trasforma e regge</l>
+<l>Perfetto amor sotto una istessa legge.</l></lg>
+<p>Seguita in questa quarta stanza di dichiarare maggiormente questa imperfezione dell’operazioni dell’amor lascivo co ’l paragone del suo contrario; perciò che perfettissimi sono gli atti dell’animo innamorato divinamente; il quale amando le bellezze intelligibili, che, come dicemmo di sopra, non sono contenute dal corpo; può nella lontananza del corpo, non manco bene contemplarle ed internarsi in loro, che quando il corpo è vicino. Oltre di ciò, essendo la gelosia e l’invidia passioni, che solo si ritrovano nell’amor concupiscibile; le opere dell’amor divino non sono da questi tali affetti punto perturbate. <emph>Infelice lui</emph>: infelice qui non lo chiama per le pene positive, delle quali prima a bastanza ha ragionato; ma infelice, perchè è privo di quella felicità ch’è propria dell’amor onesto, la quale è <emph>nell’oggetto lontan viver interno</emph>, e quel che segue.
+<quote rend="block"><l>Quanto giova dinanzi a un capel biondo,</l>
+<l>A un pertugio di lume...</l></quote>
+Con maravigliosa arte diminuisce ed avvilisce le bellezze corporali; perciò che non nomina le chiome nel numero del più, ma nel numero del meno: <emph>a un capello</emph>. E gli occhi, i quali sono chiamati da Lattanzio Firmiano, e da altri, finestre dell’animo, chiama egli non finestre dello splendore interiore, ma <emph>pertugio</emph>; vocabolo in se stesso assai umile, e picciola cosa dinotante. E continuando nella cominciata figura di diminuire, chiama la voce <emph>aura di lieve fiato</emph>.
+<quote rend="block"><l>... e il bel superno</l>
+<l>Godersi in cara faccia, ove il rio pondo</l>
+<l>Fa men greve fortuna.</l></quote>
+Nei seguenti versi dimostra pienamente la beatitudine dell’amor divino; la quale, come di sopra si è detto, consiste nella reciprocazione della benevolenza e nell’unità degli animi, di maniera che si possa dire che ciascuno degli amanti viva non con l’anima sua, ma con l’anima dell’amato. E tutto l’altro, che piace in amore, piace o come grado a questa ultima beatitudine, o come segno di essa.</p></div2>
+<div2 type="paragrafo"><head>Stanza 5</head>
+<lg><l>Squallide gote, cave luci e tempie,</l>
+<l>Arsi sospiri, e voi, tremor di ghiaccio,</l>
+<l>D’amoroso morir nunzi crudeli:</l>
+<l>Ozio, piume, diletti, a chi gli adempie</l>
+<l>Venen, vane armonie, fughe da i geli</l>
+<l>Al foco, e a ombrosi cieli</l>
+<l>Da i Soli, e a i giochi da ogni illustre impaccio,</l>
+<l>D’amoroso gioir fasce e poppe empie.</l>
+<l>Cesare e Scipio, come vostro fue,</l>
+<l>Se l’un poco v’apprezza,</l>
+<l>E l’altro vi disprezza,</l>
+<l>E della guerra son fulmini due?</l>
+<l>Come fur vostri i due sì saggi vegli,</l>
+<l>ch’a l’alme avean gli spegli?</l>
+<l>Itene: e me lasciate a quel bel viso,</l>
+<l>Che grado esser mi pote al paradiso.</l></lg>
+<p>Conclude finalmente in questa, ultima stanza, che le proprietà dell’amor vulgare siano lunge da lui: e queste proprietà si dividono in due schiere; l’una delle perturbazioni, l’altra delle lascivie. Significa le perturbazioni per gli effetti, che esse sono solite di cagionare nel corpo, in quei versi:
+<quote rend="block"><l>Squallide gote, cave luci e tempie,</l>
+<l>Arsi sospiri, o voi, tremor di ghiaccio,</l>
+<l>D’amoroso morir nunzi crudeli.</l></quote>
+Nè senza molto magistero ci dà a divedere le perturbazioni per gli effetti; perchè la malvagità loro principalmente si conosce dal mal governo ch’elle fanno del corpo. Le lascivie sono espresse in questi altri versi:
+<quote rend="block"><l>Ozio, piume, diletti, a chi gli adempie</l>
+<l>Venen, vane armonie, fughe da i geli</l>
+<l>Al foco, e a ombrosi cieli</l>
+<l>Da i Soli, e a i giochi da ogni illustre impaccio.</l></quote>
+Ma a questi due mali, cioè degli affetti e delle lascivie, pare che generalmente siano sottoposte due maniere di persone; gli uomini militari ed i contemplanti: i militari, perciò che la natura loro feroce e sanguigna è facilmente accensibile; onde i poeti fingono che Marte, dio di guerra, sia fra tutti gli altri Dei particolarmente innamorato di Venere: i contemplanti, perchè vivono lontani da le azioni e dai disturbi civili, e concupiscibili: conciossia che
+<quote rend="block"><l>Ei nacque d’odio e di lascivia umana.</l></quote>
+Occorre, dunque, il Poeta quasi tacitamente a questa obiezione; dicendo, che se i due primi guerrieri, e i due primi saggi schivaro le concupiscenze, egli con l’esempio loro deve parimente schivarle. I guerrieri furo Scipione e Cesare, de’ quali il primo disprezzò, l’altro poco apprezzò l’amore. Ed allude a quel verso del Petrarca:
+<quote rend="block"><l>L’un di virtude, e non d’amor mancipio;</l>
+<l>L’altro d’entrambi.</l></quote>
+I <emph>saggi vegli</emph>, intende per Platone ed Aristotele. <emph>Ch’a l’alme avean gli spegli</emph>; cioè, posero in opra quel detto dell’oracolo d’Apolline, <emph>Nosce te ipsum</emph>; e che conobbero la essenza e la natura dell’anima umana: o vero accenna a quella opinione Platonica, che l’anima nostra porti in sè, quando scende nel corpo, la notizia di tutte le cose; e che l’imparare sia non contemplar le cose esteriori, ma il riflettere il guardo dell’anima in se stessa.
+<quote rend="block"><l>Itene: e me lasciate a quel bel viso,</l>
+<l>Che grado esser mi pote al paradiso;</l></quote>
+dichiarati di sopra assai a bastanza.
+<quote rend="block"><l>Non mi sazio, Canzone...</l></quote>
+Chiusa assai chiara per sè; ove cita la terza, ed accenna con poetica leggiadria che la terza fosse prima composta, che le due precedenti.</p></div2></div1>
+<div1 type="capitolo"><head>Canzone 3</head>
+<div2 type="paragrafo"><head>Stanza 1</head>
+<lg><l>Se l’un per l’altro incendio avampa o sorge,</l>
+<l>E da due lumi più vigor si spande,</l>
+<l>Come amor per amor s’è in me distrutto?</l>
+<l>Il dirò, se la cetra sua mi porge</l>
+<l>Chi d’amara erba trasse un dolce frutto,</l>
+<l>E in pro volse il mio lutto.</l>
+<l>Amor verace, luminoso e grande,</l>
+<l>Per cui l’error si fugge, e pria si scorge:</l>
+<l>Amor real, non di furtive braccia,</l>
+<l>Come il fratel tiranno,</l>
+<l>Prodotto a l’altrui danno:</l>
+<l>Amor, del ciel parto e armonia, ti piaccia</l>
+<l>Temprar le corde tue vive e sonore,</l>
+<l>Sì ch’io canti il tuo ardore;</l>
+<l>E l’altro falso iniquo e rio dispregi,</l>
+<l>Ch’empie fiamme e rapine ha per suoi pregi.</l></lg>
+<p>Questa è l’ultima delle tre canzoni; nella quale, come già dicemmo, si parla de’ suoi effetti, molto più particolarmente che nelle altre non si fa; e perciò avrà minor bisogno di sposizione, perchè le cose particolareggiate quasi per se stesse si dechiarano: ove a quelle che universalmente sono proferite, e sotto brevità, ed indeterminazione di parole, molte distinzioni e molte dichiarazioni sono necessarie. Ma se questa canzone cede in alcuna parte a l’altre di pienezza e copia, le avanza nondimeno molto di vaghezza e d’ornamenti. Ora venendo a la sposizione, la somma del contenuto di lei è tale. Maravigliandosi il Poeta, come l’uno amore possa estinguere l’altro, sendo che ogni simile vien nutrito e conservato dal suo simile; invoca l’amore celeste in suo aiuto, accennando ch’egli per se stesso non è atto a palesare cantando il misterio di sì maravigliosa operazione. Quinci quasi esaudito, rientra nella narrazione del precipizio suo nell’amor lascivo, e delle pene ch’egli avea sofferto in quello stato. Conclude finalmente, che la divinità della sua donna per grazia l’avea liberato da quella vita di miseria, mostrandogli con la sua luce, che il fine degli amanti non è riposto nel corpo; il quale, per bello e per amoroso che sia, suole nella vecchiaia divenir brutto, e ritornare terra finalmente: ma che la felicità dell’amore, la quale egli, alludendo al nome della sua donna, chiama <emph>Ben di Dio</emph>, è collocata nell’anima, semplice ed eterna come colui che la creò. Da questa cognizione, che gli è infusa per grazia della sua donna, ne seguita che intiepidendosi in lui l’amor vulgare, che ha per oggetto il corpo, incontanente si accende dell’amor dell’animo. Nè questa subita mutazione degli amori è impossibile; perciò che, se noi vogliamo attenerci a l’opinione di Platone, sì come ogni vizio procede da ignoranza, così ancora ciascuna virtù altro non è, che scienza di quelle cose, intorno a le quali ella versa; onde a l’acquisto della scienza viene in conseguenza l’acquisto della virtù. Oltrechè, recando la cagione di questo affetto a la sua donna, si può stimar più tosto divina che naturale: e gli effetti del suo bene amare si debbono anzi giudicare opere di amoroso divino furore, che di virtù morale. Ultimamente, in segno della sicura e gloriosa vittoria, forma il Poeta un trofeo dell’armi dell’amor lascivo, e lo forma sopra un pino, avendo forse riguardo al nome suo medesimo. Ma considerinsi le parole.
+<quote rend="block"><l>Se l’un per l’altro incendio avampa e sorge,</l>
+<l>E da due lumi più vigor si spande,</l>
+<l>Come amor per amor s’è in me distrutto?</l></quote>
+Luogo similissimo a quel del Petrarca:
+<quote rend="block"><l>Se mai fiamma per fiamma non si spense,</l>
+<l>Nè lume fu già mai secco per pioggia.</l>
+<l>Amor verace, luminoso e grande,</l>
+<l>Per cui l’error si fugge, e pria si scorge:</l>
+<l>Amor real, non di furtive braccia,</l>
+<l>Come il fratel tiranno:</l>
+<l>Amor, del ciel parto e armonia, ti piaccia, ec.</l></quote>
+Distingue l’amor celeste dal volgare per molte condizioni. <emph>Verace</emph> chiama l’amor celeste, perchè l’altro non è vero amore, potendo essere scompagnato da lo benevolenza: <emph>luminoso</emph>, a differenza dell’altro, che chiamo nella prima canzone <emph>foco oscuro</emph>; e poco appresso, <emph>nero foco</emph>: ed ivi si dichiarò il significato di questi aggiunti. <emph>Grande</emph> il dice, o avendo riguardo a la potenza, o pur grande, perchè trovando l’amore onesto sempre il contracambio, è necessario ch’egli cresca e sia sempre grande: il che del lascivo non addiviene; il quale, se non gli è corrisposto, come spesso incontra, picciolo se ne rimane. E questo ci diedero a divedere gli antichi sotto il velame di cotal favola; cioè, che Venere per consiglio di Temi, acciò che Cupidine suo figliuolo, il quale non cresceva, pervenisse a debita grandezza, partorì l’Anterote, cioè la corrispondenza dell’amore.
+<quote rend="block"><l>Come il fratel tiranno.</l></quote>
+Tiranno è colui che comanda a più degni di sè, o a gli uguali, ed a coloro che non vogliono obedire. Questo condizioni si ritrovano nell’amor lascivo, perchè ivi l’appetito comanda a la volontà, virtù più nobile, e che ricusa di obedire a potenza inferiore di sè; onde è costretta a questa soggezione con impeto e con forza di tormenti.
+<quote rend="block"><l>Amor, del ciel parto e armonia, ti piaccia</l>
+<l>Temprar le corde tue vive e sonore.</l></quote>
+Amore, come prova appresso Platone Erisimaco, è medico e musico: non senza cagione, adunque, l’invita a temprar la lira, ed a cantar seco. E per tempramento delle corde si può comprendere allegoricamente il tempramento degli affetti, dal quale risulta maravigliosa armonia di virtù e di operazioni. <emph>Amor, del ciel parto e armonia</emph>: chiama amore parto del cielo, riguardando forse pur a l’opinione di Erisimaco, il quale chiama l’amor celeste figliuolo di Urania musa, che così dal cielo è denominata; sì come l’amor vulgare, figliuolo di Polimnia, <emph>armonia</emph>; però che amore si può stimare cagione della consonanza dei moti dei cieli, e dette qualità degli elementi. Ed a questo avendo riguardo Empedocle, il ripose tra i primi principii delle cose.</p></div2>
+<div2 type="paragrafo"><head>Stanza 2</head>
+<lg><l>Quando con l’alma desiosa e pura</l>
+<l>Legato fui da una divina benda,</l>
+<l>Ove al ciel sormontando i’ dovea sciorre</l>
+<l>Ogni terrestre fascio e mortal cura,</l>
+<l>E qua giù amando giusta meta porre;</l>
+<l>Da grave soma accorre</l>
+<l>Lasciaimi, onde dipoi di faccia orrenda</l>
+<l>Ebbi le notti, e i dì di nube oscura;</l>
+<l>I piè fuor d’orma, e fuor d’obietto gli occhi;</l>
+<l>E gelida, tremante</l>
+<l>Dinanzi a quel sembiante</l>
+<l>Lingua tal, che sospir, non voce scocchi.</l>
+<l>Così cinto di ghiaccio, e dentro foco,</l>
+<l>Impallidiva, e roco</l>
+<l>Era in chieder pietà, senza mai ch’io</l>
+<l>Le labbia aprissi, o ’l chiuso petto mio.</l></lg>
+<p>Questa, e la seguente stanza, stanze altrettanto chiare quanto leggiadre, altro non contengono che la descrizione del suo primo stato infelice.</p></div2>
+<div2 type="paragrafo"><head>Stanza 3</head>
+<lg><l>Di pungenti desir, tra sè nimici,</l>
+<l>L’anima armata in viso i’ discopriva,</l>
+<l>Sforzati sdegni, gelosie mentite,</l>
+<l>Ire improvise, sguardi acri e mendici:</l>
+<l>Dolci paci in languir, voglie pentite,</l>
+<l>Le guerre mie gradite</l>
+<l>Rendeano, e la speranza or morta, or viva;</l>
+<l>La qual sempre tremò da le radici.</l>
+<l>E se mai, benchè oppressa, non la svelse</l>
+<l>Colpo di sorte indegno,</l>
+<l>Fu l’ostinato ingegno,</l>
+<l>Non mia virtù, che fieramente scielse</l>
+<l>Pria, di crudele strazio, oimè! morire,</l>
+<l>Ch’ogni duol non soffrire:</l>
+<l>Sì cieco era il mio lume, e sì sommerso</l>
+<l>Nel profondo del cor crudo e perverso.</l></lg></div2>
+<div2 type="paragrafo"><head>Stanza 4</head>
+<lg><l>Or che il chiaro splendor del mio bel Sole</l>
+<l>Scorger mi fa, ch’è ben di Dio nell’alma,</l>
+<l>Simile al suo Fattor simplice eterna;</l>
+<l>E che ogni scorza amorosetta sole</l>
+<l>Ritornar terra, e increspar quando verna;</l>
+<l>Tempo è ch’io pur discerna,</l>
+<l>Che se il fin dell’amor non è la salma,</l>
+<l>Convien che la ragion libera vole.</l>
+<l>Onde il pensier s’è da’ miei nodi scosso,</l>
+<l>Sol da faville preso,</l>
+<l>Che l’han d’onore acceso;</l>
+<l>E per Madonna a leggiadre opre mosso.</l>
+<l>Se sto, se vo, se veggio, o parlo o penso,</l>
+<l>Non mi sospinge il senso;</l>
+<l>Nè bramo il ben che schifo, o il mal che seguo,</l>
+<l>Nè a la morte d’amor gli spirti spiego.</l></lg>
+<p>In questa stanza d’altro non si ragiona che della mutazione del suo amore di lascivo in onesto, e della cagione di essa mutazione: ma di ciò è stato a bastanza detto di sopra. Son però da notar quelle parole:
+<quote rend="block"><l>Onde il pensier s’è da’ miei nodi scosso,</l>
+<l>Sol da faville preso.</l></quote>
+Qui dinota che nell’amor celeste non vi è alcuna servitù, come nel vulgare: e se pur vi è alcun ritegno, come appare in quelle parole, <emph>Sol da faville preso</emph>; questo ritegno non è punto corporeo o materiale; perciò che il fuoco, fra tutte le cose composte, meno partecipa della materia che ciascun’altra, ed è purissimo e simplicissimo. Attribuisce, adunque, a le faville questo effetto di prendere, il quale non pare punto lor proprio, per dimostrare che questa presura non è mica della maniera che sono l’altre ordinarie e materiali.</p></div2>
+<div2 type="paragrafo"><head>Stanza 5</head>
+<lg><l>Cieco ignudo garzon, pon giù li strali,</l>
+<l>E la faretra, e le facelle ardenti;</l>
+<l>Pon giù le reti, e i lacci, e gli ami, e l’esca,</l>
+<l>E raffrenati i corsi, or spunta l’ali:</l>
+<l>E di queste tue spoglie non t’incresca,</l>
+<l>Che il mio più s’orni e cresca;</l>
+<l>Tal che chi passa il miri, e non paventi</l>
+<l>Più dell’arme vittrici, or vinte e frali:</l>
+<l>Non fuggir a quei crini, e accenti, e lumi,</l>
+<l>Con che ogni cor tu sforze,</l>
+<l>Per ricovrar le forze</l>
+<l>Dal tuo bel nido, e far ch’io mi consumi.</l>
+<l>Non più lagrime dolci, e acerbo riso</l>
+<l>Prendo dal vago viso;</l>
+<l>Ma sereno piacer, tranquilla vita,</l>
+<l>E luce, che più amor, più gioia invita.</l></lg>
+<lg><l>Altra luce, altro amore, ed altra gioia,</l>
+<l>Con altre bende, e faci, ed altri dardi,</l>
+<l>Canzon, se ben riguardi,</l>
+<l>Nascer vedi or d’un glorioso aspetto</l>
+<l>Dal ciel, per allumar la terra, eletto.</l></lg>
+<p>Il senso di questa stanza e della chiusa, per le cose dette, è assai manifesto; ma non sarà forse disconvenevole in supplimento della brevità di questa ultima parte delle nostre sposizioni, acciò che ancora nella misura della grandezza corrisponda a l’altre, il considerare queste canzoni, o più tosto questo canzoniero non in sè simplicemente, ma in rispetto di alcun altro. Ed a cui si deve paragonare più tosto, che a quello del Petrarca? essendo gli altri degli altri autori, o molto inferiori di grandezza, di volume, e di copia di cose; o per nissun modo simili di qualità. Questi due canzonieri, dunque, del Petrarca e del Pigna, sì come sono quasi eguali di numero, così sono non molto differenti di perfezione e di varietà. Maggiore diversità di soggetti giudicherà peraventura alcuno nel Petrarca; però che egli non simplicemente loda Madonna Laura viva, ma la piange ancor morta. Ma questo è segno non di fecondità d’ingegno, ma di mutazione di fortuna: ove a l’incontra chi prenderà la parte di quel canzoniero scritta in vita di Laura, non vi troverà per entro così copiosa descrizione di vari avenimenti, come in quella del Pigna. È più cauto il Petrarca nella scielta della materia nuda (così la chiamano i Retori), però che egli non elegge se non quelle materie ch’in sua natura giudicò attissime a poter ricevere l’ornamento e lo splendore poetico. Ma da l’altra parte il Pigna impugna con l’arte ogni difficoltà della materia, e quasi violentando la natura delle cose, spiega le forze del suo vivacissimo ingegno ne’ soggetti ancora sterili, e per sè stessi poco capaci di leggiadrìa; non in guisa però, che lasci gli altri, i quali sono atti ad essere vestiti più splendidamente; dimanierachè chi leggerà attentamente le sue composizioni, se ne vedrà alcuna più perfetta, alcuna meno, conoscerà però egual’arte, ed eguale spirito in non eguale perfezione; sì come talora non meno ammiriamo l’eccellenza di alcuno artifice nel piombo e nella creta, che nell’oro e nel bronzo. Nell’uso poi delle lingue e delle forme nuove di dire, più parco è quegli, più ardito questi, come avido di grandezza e di maestà; le quali difficilmente conseguisce lo scrittore, se non innova molto, e ardisce molto. Quegli dilata più i concetti, questi ordinatamente gli raccoglie in più breve giro di parole; avendo l’uno maggior riguardo a la floridezza, l’altro al nerbo, ed a la forza dello stilo: benchè costui, quando vuole, dilati con tanta vaghezza, con quanta efficacia restringe. Quegli è sempre chiaro; questi alcuna volta oscuretto, ma ad arte e graziosamente oscuro: nè procede l’oscurità da mala espressione, ma da profondità di pensieri, e giunge un non so che di maestà a lo stile, come scrivono i greci Retori di Tucidide; in quella guisa, che veggiamo che le tenebre rendono più venerabili i luoghi, ed inducono maggior divozione. L’uno è più dilicato nella composizione delle parole, e dei numeri: l’altro più pieno, e più rotondo; nè schiva il concorso delle vocali <emph>ea</emph>, <emph>eo</emph>, <emph>eu</emph>, <emph>ou</emph>, <emph>oo</emph>, come schivò il Petrarca, e con maggior religione il Casa ed il Bembo, e come fra gli antichi schivò Isocrate; ricordandosi che Isocrate per questa accuratezza, o superstiziosa o lodevole che sia, fu schernito da molti maestri di dire; e che Demetrio Falereo approva il concorso delle vocali nello stile magnifico: ma nella cognizione delle cose, e nella varietà de’ concetti derivati da’ più intimi fonti delle scienze, molto superiore si mostra; ed il moderno sostiene colla cetra il peso non dell’armi, come disse Quintiliano di Stesicoro, ma dei misteri della filosofia; cose molto più gravi dell’armi. E potranno forse le sue poesie assomigliarsi ad alcune pitture, che guardate da presso dilettano maggiormente chi le rimira.</p></div2></div1>
+</body>
+</text>
+</TEI.2>

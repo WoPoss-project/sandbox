@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Liber Abaci</title>
+      <author>Leonardo Fibonacci</author>
+    </titleStmt>
+    <extent>102 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000951</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Il liber abbaci di Leonardo Pisano / pubblicato secondo la lezione del Codice Magliabechiano C. 1., 2616, Badia fiorentina, n. 73 da Baldassarre Boncompagni</title>
+        <author>Fibonacci, Leonardo</author>
+        <editor id="ed">Boncompagni, Baldassarre</editor>
+        <publisher>tipografia delle scienze matematiche</publisher>
+        <pubPlace>Roma</pubPlace>
+        <date>1857</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>200</date>
+    </creation>
+    <langUsage><language id="codice">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2001-11-22T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Giulia Bennati</name>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2001-11-22T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Giulia Bennati</name>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-02-05T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2003-03-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text lang="lat">
+<front>
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">LIBER ABBACI</titlePart>
+    </docTitle>
+   </titlePage>
+<div1 type="prefazione">
+<head>Prologus</head>
+<head>Incipit liber Abaci Compositus a leonardo filio Bonacij Pisano</head>
+<p>In Anno <date value=" 1202">MCCII</date>.
+Scripsistis mihi domine mi magister Michael Scotte, summe philosophe, ut librum de
+numero, quem dudum composui, vobis transcriberem: unde vestrae obsecundans po-
+stulationi, ipsum subtiliori perscrutans Indagine ad vestrum honorem et aliorum mul-
+torum utilitatem correxi. In cuius correctione quedam necessaria addidi, et quedam su-
+perflua resecavi. In quo plenam numerorum doctrinam edidi, iuxta modum indorum,
+quem modum in ipsa scientia prestantiorem elegi. Et que arismetrica et geometria 
+scientia sunt connexe, et suffragatorie sibi ad invicem, non potest de numero plena
+tradi doctrina, nisi intersecantur geometrica quedam, vel ad geometriam spectantia, que
+hic tantum iuxta modum numeri operantur; qui modus est sumptus ex multis proba-
+tionibus et demonstrationibus, que figuris geometricis fiunt. Verum in alio libro, quem
+de practica Geometrie composui, ea que ad Geometriam pertinent et alia plura copiosis
+explicavi, singula subiectis approbationibus geometricis demonstrando. Sane hic liber ma-
+gis ad theoricam spectat quam ad praticam. Unde qui per eum huius scientie prac-
+ticam bene scire voluerint, oportet eos continue usu et exercitio diuturno in eius pra-
+ticis perstudere: quod scientia per practicam versa in habitum, memoria et intellectus
+adeo concordent cum manibus et figuris, quod quasi uno impulsu et anelitu in uno
+et eodem instanti circa idem per omnia naturaliter consonent: et tunc cum fuerit di-
+scipulus habitudinem consecutus, gradatim poterit ad perfectionem huius facile perve-
+nire. Et ut facilior pateret doctrina, hunc librum per XV distinxi capitula: ut quicquid
+de his lector voluerit, possit levius invenire. Porro si in hoc opere reperitur insufficientia
+vel defectus, illud emendationi vestre subicio.
+Cum genitor meus a patria publicus scriba in duana bugee pro pisanis mercatoribus
+ad eam confluentibus constitutus preesset, me in pueritia mea ad se venire faciens,
+inspecta utilitate et commoditate futura, ibi me studio abbaci per aliquot dies stare
+voluit et doceri. Ubi ex mirabili magisterio in arte per novem figuras indorum intro-
+ductus, scientia artis in tantum mihi pre ceteris placuit, et intellexi ad illam, quod
+quicquid studebatur ex ea apud egyptum, syriam, greciam, siciliam et provinciam cum
+suis variis modis, ad que loca negotiationis tam postea peragravi per multum studium
+et disputationis didici conflictum. Sed hoc totum etiam et algorismum atque arcus picta-
+gore quasi errorem computavi respectu modi indorum. Quare amplectens strictius ipsum
+modum indorum, et attentius studens in eo, ex proprio sensu quedam addens, et quedam
+etiam ex subtilitatibus euclidis geometrice artis apponens, summam huius libri, quam in-
+telligibilius potui, in XV capitulis distinctam componere laboravi, fere omnia que in-
+serui, certa probatione ostendens, ut extra, perfecto pre ceteris modo, hanc scientiam ap-
+petentes instruantur, et gens latina de cetero, sicut hactenus, absque illa minime inve-
+niatur. Si quid forte minus aut plus iusto vel necessario intermisi, mihi deprecor
+indulgeatur; cum nemo sit qui vitio careat, et in omnibus undique sit circumspectus.</p>
+</div1>
+<div1 type="indice">
+<head>Capitula</head>
+<pb n="1"/>
+<head> Explicit prologus. Incipiunt capitula.</head>
+<p>De cognitione novem figurarum yndorum, et qualiter cum eis omnis numerus scribatur;
+et qui numeri, et qualiter retineri debeant in manibus, et de introductionibus ab-
+baci.
+De multiplicatione integrorum numerorum.
+De additione ipsorum ad invicem.
+De extractione minorum numerorum ex maioribus.
+De divisione integrarum  numerorum per integros.
+De multiplicatione integrarum  numerorum cum ruptis atque ruptorum sine sanis.
+De additione ac extractione et divisione numerorum integrarum cum ruptis atque par-
+tium numerorum in singulis partibus reductione.
+De emptione et venditione rerum venalium et similium.
+De baractis rerum venalium et de emptione bolsonalie, et quibusdam regulis similibus.
+De societatibus factis inter consocios.
+De consolamine monetarum atque eorum regulis, que ad consolamen pertinent.
+De solutionibus multarum positarum questionum quas erraticas appellamus.
+De regula elcataym qualiter per ipsam fere omnes erratice questiones solvantur.
+De reperiendis radicibus quadratis et cubitis ex multiplicatione et divisione seu extra-
+ctione earum in se, et de tractatu binomiorum et recisorum et eorum radicum.
+De regulis proportionibus geometrie pertinentibus: de questionibus aliebre et almuchabale.</p>
+</div1>
+  </front>
+<body>
+<div1 type="capitolo"><head>Cap. I</head>
+<head> Incipit primum capitulum.</head>
+<p>Novem figure indorum he sunt <num>9 8 7 6 5 4 3 2 1</num>
+Cum his itaque novem figuris, et cum hoc signo <num>0</num>, quod arabice zephirum appellatur,
+scribitur quilibet numerus, ut inferius demonstratur. Nam numerus est unitatum per-
+fusa collectio sive congregatio unitatum, que per suos in infinitum ascendit gradus.
+Ex quibus primus ex unitatibus, que sunt ab uno usque in decem, constat. Secundus ex
+decenis, que sunt a decem usque in centum, fit. Tertius fit ex centenis que sunt a centum
+usque in mille. Quartus fit ex millenis que sunt a mille usque in decem milia, et sic
+sequentium graduum in infinitum, quilibet ex decuplo sui antecedentis constat. Primus
+gradus in descriptione numerorum incipit a destera. Secundus vero versus sinistram sequi-
+tur primum. Tertius secundum sequitur. Quartus tertium, et quintus quartum, et semper
+sic versus sinistram gradus gradum sequitur. Figura itaque que in primo reperitur gradu
+se ipsam representat, hoc est: si in primo gradu fuerit figura unitatis, unum representat;
+si binarii, duo; si ternarij, tria, et ita per ordinem que secuntur, usque si novenarij:
+novem figure quidem que in secundo gradu fuerit, tot decenas representant, quot in
+primo unitates; hoc est si figura unitatis secundum occupat gradum, denotat decem;
+si binarij, viginti; si ternarij, triginta; si novenarij, nonaginta.
+Figura namque que in tertio fuerit gradu, tot centenas denotat, quot in secundo de-
+cenas, vel in primo unitates, ut si figura unitatis centum; si binarij, ducenta; si
+<pb n="2"/>
+ternarij, trecenta, et novenarij, nongenta. Ipsa igitur que fuerit in quarto gradu tot mil-
+lenas quot in tertio centenas, aut in secundo decenas, vel in primo unitates denotat;
+et sic semper mutando gradum, numerus decuplando ascendit. Et ut hoc quod dictum
+est lucidius declarescat, ipsum cum figuris ostendatur. Si figura septenarij fuerit in primo
+gradu, et ternarij in secundo, ambe insimul <num>37</num> denotant; vel econtra:: figura ternarij
+in primo, et septenarij in secundo, <num>73</num> denotabunt. Item si figura quaternarij fuerit in
+primo, et unitatis in secundo sic <num>14</num>, nimirum XIIII denotabunt: vel si figura unitatis
+fuerit in primo, et quaternarij in secundo sic <num>41</num>, denotabunt XLI. Rursus in primo <num>72</num>, et
+in secundo faciunt <num>27</num>; contrarium enim facit <num>72</num>. Si autem septuaginta tantum scribere
+voluerit, ponat in primo gradu <num>0</num>, et post ipsum ponat figuram septenarii, sic <num>70</num>; si octua-
+ginta sequatur zephirum figuram octonarij sic <num>80</num>: hac itaque demonstratione quemlibet
+numerum a decem usque in centum cum duabus figuris scribere potes. Cum tribus
+vero a centum scribitur usque in mille; ut si figura octonarii fuerit in primo, et qui-
+narii in secundo, et unitatis in tertio <num>158</num>, centum quinquaginta octo denotabunt; et
+econverso: si figura unitatis fuerit in primo, et quinarii in secundo, et octonarii in
+tertio <num>851</num>, octigenta et quinquaginta unum denotabunt; vel econtra: si figura octo-
+narii fuerit in primo, et unitatis in secundo, et quinarii in tertio, denotabunt <num>518</num>.
+Item si permutatim figura quinarii fuerit in primo, octonarii in secundo, et unitatis
+in tertio, denotabunt <num>185</num>. Item si figura unitatis fuerit in primo, octonarii in secundo,
+et quinarii in tertio, nimirum denotabunt <num>581</num>: tres vero unitates sic <num>111</num>, centum unde-
+cim faciunt. Verum si quinquaginta tantum scribere volueris, in primo et in secundo
+gradu ponas zephyra, et in tertio figuram quinarii hoc modo <num>500</num>; et sic cum duobus
+zephyris quemlibet centenariorum numerum scribere poteris. Et si centenaria cum de-
+cenis sive unitatibus scribere volueris, ponas in primo gradu zephyrum, in secundo de-
+cenas, et in tertio centenas quas volueris. Verbi gratia: si in primo gradu fiat zephyrum,
+et in secundo figura novenarii, et in tertio binarii, denotabunt <num>290</num>. Si autem absque de-
+cenis centenaria cum unitatibus scribere volueris, pones in secundo gradu, scilicet
+in loco decenarii zephyrum, et in primo numerum unitatum quem voluerit, et in tertio
+centenariorum: ut si in primo fuerit figura novenarii, et in secundo zephyrum, et in tertio
+binarii <num>209</num>; et sic secundum supradictam demonstrationem qualem volueris, numerus a
+centum usque in mille scribes cum tribus figuris. Cum quattuor namque a mille usque
+in decem milia, ut in sequenti cum figuris numeris super notatis ostenditur.
+MI  <num>1001</num>
+MMXXIII  <num>2023</num>
+MMMXXII  <num>3022</num>
+MMMXX  <num>3020</num>
+MMMMMDC  <num>5600</num>
+MMM  <num>3000</num>
+MCXI  <num>1111</num>
+MCCXXXIIII  <num>1234</num>
+MMMMCCCXXI  <num>4321</num>
+Et sic in reliquis numeris est procedendum. Cum quinque namque figuris scribuntur
+omnes numeri, incipiendo a decem milia usque ad centum milia. Cum sex vero, a cen-
+tum milibus usque in mille milia, et sic deinceps, addendo figuram figuris, numerus
+gradatim in decuplum ascendit. Unde si contigerit quod aliquem numerum multarum
+figurarum propter multitudinem figurarum, quis legere vel intelligere nequeat, quali-
+ter legere et intelligere ipsum debeat, ostendere procurabo.
+<pb n="3"/>
+De prima itaque figura, hoc est de figura primi gradus, dicat unum.
+De secunda que est in secundo gradu, dicat decem.
+De tertia que erit in tertio gradu, dicat centum, et adcentet eam in superiori parte.
+De quarta namque figura eiusdem numeri, dicat mille, et adcentet eam in inferiori parte.
+De quinta vero dicat decem milia.
+De sexta itaque centum milia, et adcentet eam in superiori parte.
+De septima dicat mille milia, et adcentet eam rursum in inferiori parte.
+De octava dicat decem milia milium.
+De nona dicat centum milia milium, et adcentet eam in superiori parte.
+De decima dicat mille milia milium, et adcentet eam in inferiori parte; et sic sem-
+per per hos tres numeros, scilicet per millenos, et decem millenos, et centum mille-
+nos et adcentando millenos in inferiori parte, et centum millenos in superiori, usque
+ad ultimum gradum numeri studeat adcentare. Et inde incipiat legere numerum ab
+ultimo gradu ipsius per acenta predicta, dicendo semper de inferioribus adcentis tot
+milia milium quot adcenta fuerint ante ipsa in inferiori parte versus primum gradum,
+et de superioribus adcentis, dicens tot centum milia, quot adcenta fuerint ante ipsam
+in inferiori parte similiter versus primum gradum numeri; et de figuris que non fuerint
+adcentate post quartum gradum numeri dicet tot decem millenas, quot adcenta fue-
+rint ante ipsas in inferiori parte; et sic poterit cognoscere et legere qualem voluerit
+numerum multarum figurarum. Et ut hoc melius intelligatur, quendam numerum octo
+figurarum proponamus <num>87654321</num>. De uno namque qui est in primo gradu, dicet unum;
+de binario <num>2</num>, que sunt in secundo, dicet decem; de ternario <num>3</num>, qui sunt in tertio, dicet
+centum que adcententur in superiori parte. De quaternario est <num>4</num>, qui sunt in quarto
+gradu, dicet mille, que adcententur in inferiori parte, ut in prescripto numero ostendi-
+tur. De quinario <num>5</num> qui est in quinto gradu, dicet decem milia; de senario <num>6</num> qui sunt
+in sexto gradu, dicet centum milia, que adcententur in superiori parte; de septenario <num>7</num>
+que est in septimo gradu, dicet mille milia que adcententur in inferiori parte; de octo-
+nario qui est in ultimo gradu, dicet decem milia: ergo habetur in supradicto numero
+octuaginta septem milia milium, propter duo inferiora adcenta, quorum unum est sub
+<num>7</num> et aliud sub <num>4</num>, et insuper sexcenta quinquaginta quattuor miliaria, et insuper
+CCCXXI. Item proponamus alium numerum de novem figuris <num>257604813</num>, que pro or-
+dine adcentato cognoscitur quod continetur in ipso ducenta quinquaginta septem
+milia miliaria, et sexcenta quattuor miliaria, et octingenta tredecim. Item alius numerus
+de tredecim figuris proponatur <num>1007543289081</num>, pro cuius adcentis cognoscitur ipsum esse
+mille, septem milia milia miliaria, et quingenta quadraginta tria milia miliaria, et du-
+centa octuaginta novem miliaria, et insuper octuaginta unum. Possumus enim aliam tra-
+dere regulam leviam que  poteris citissime legere numerum plurium figurarum. Verbi
+gratia: proponamus numerum <num>15</num> figcurarum <num>678935784105296</num>, dimissis tribus primis figuris,
+scilicet <num>296</num>, super quibuslibet aliis tribus protrahe virgulam in modum arcus ut in pre-
+misso exemplo; et pro qualibet virgula dices; et illas tres figuras, quas in principio
+dimisistis, leges sicut stant; et sic dices sexcenta septuaginta octo milia milia milia mi-
+lium, cum quattuor sint virgule, et noningenta et triginta quinque milia milia milium,
+cum super sint tantum tres virgule et septingenta octuaginta quattuor milia milium, cum
+<pb n="4"/>
+due super sint linee et <num>105</num> milia, cum una tantum sit virgula, et <num>296</num> pro illis tribus
+quas in principio dimisisti: et si per ultimum cum remanent una figura vel due, pone
+ipsas sub ultima virgula, et leges eas omnes IIIIor vel omnes quinque simul, et sic po-
+teris legere numerum quot cumque poteris figurarum.
+Predictis figuris earumque gradibus secundum materiam superius descriptam cum fre-
+quenti usu bene cognitis, opportet eos qui arte abbaci uti voluerint, ut subtiliores et inge-
+niores appareant scire computum per figuram manuum, secundum magistrorum abbaci usum
+antiquitus sapientissime inventam. Que signa sunt hec. Curvatio auricularis digiti sinistre
+manus super medium vole <num>1</num> palme manus notat unum. Curvatio quidem eiusdem cum
+anulari similiter super mediam volam duo, cum quibus curvatur medius tria. Cur-
+vatio autem anularis et medis <num>4</num> super mediam volam. Curvatio vero medii tantum <num>5</num>.
+Anulari <num>6</num>. Positio quippe auricularis sursum super volam <num>7</num>, super quem locum cum po-
+nitur auricularis et anularis notantur <num>8</num>: positio quidem eorumdem cum medio super eun-
+dem locum <num>9</num>. Cum ab extremitate indicis et pollice fit circulus in nodo pollicis, de-
+notant <num>10</num>. Cum pollex et index sunt extensi et tangunt se <num>20</num>. Cum ab extremitate eo-
+rumdem sit circulus <num>30</num>. Cum ponitur pollex super indicem in exteriori parte indicis <num>40</num>.
+Curvatio pollicis super principium indicis <num>50</num>. Curvatio indicis super curvatum pollicem
+<num>60</num>. Curvatio indicis super extremitatem extensi pollicis <num>70</num>. Curvatio itaque indicis super
+virgulam extensi pollicis <num>80</num>. Item curvatio totius indicis in se <num>90</num>. Centenaria quoque
+et miliaria fiunt in dextera manu eodem ordine, scilicet signum unitatis facit <num>100</num> in
+dextera manu; binarii quidem <num>200</num>; decenarii autem mille, et signum nonagesimum facit
+<num>9000</num>, ut in sequenti pagina picttis  manibus demonstratur. Componuntur itaque in
+manibus cum his signis omnes reliqui numeri qui sunt a decem usque in decem milia hoc
+modo: ex signo vigenarii, et ex signo ternarii componuntur <num>23</num>; et ex signo trium milium
+et ex signo quingentarum componuntur in dextera manu tria milia quingenta, et sic in-
+telligas in reliquis.
+    </p>
+   </div1>
+<div1 type="capitolo"><head><add>Esempi di divisioni</add></head>
+<p>
+<pb n="5"/>
+<hi rend="italic"> Divisio</hi> <num>1346</num> <hi rend="italic">per</hi> <num>4</num>.
+Item si voluerit quis dividere <num>1346</num> per <num>4</num>, ponat <num>4</num> sub <num>6</num> et dividat <num>13</num> per <num>4</num>, cum non
+possit dividere <num>1</num>, quod est in ultimo gradu numeri, exibunt <num>3</num> et remanet <num>1</num>: ponat
+<num>3</num> sub <num>3</num> et remanens <num>1</num> ponat sub eadem <num>3</num>, et copulet ipsum <num>1</num> cum <num>4</num> que antecedunt
+<num>3</num> in numero, erunt <num>14</num>: sumat quartam de <num>14</num> que est <num>3</num> et remanent <num>2</num>: ponat <num>3</num> inferius
+sub <num>4</num> et remanentia <num>2</num> superius, quibus copulatis cum <num>6</num>, faciunt <num>26</num>; que dividat per <num>4</num>,
+exibunt <num>6</num> et remanent <num>2</num>: ponat <num>6</num> sub <num>6</num> et remanentia <num>2</num> ponat sub virgula de <num>4</num> ex
+parte servata que notant duas quartas unius integri, que equales sunt medietati unius
+integri; et ante ipsas ponat numerum exeuntem ex divisione, scilicet <num>336</num>; et sic ha-
+bebuntur <num>1/2 336</num> pro quesita divisione. Verbi gratia: divisimus primum <num>13</num> per <num>4</num>, que <num>13</num>
+terminantur in tertio gradu. Quare ipsa esse centenaria cognoscimus, cum tertius gra-
+dus sit centenariorum. Divisis ergo tredecim centenariis per <num>4</num>, veniunt centenaria tria
+et remanet unum centenarium indivisibile. Quare posuimus <num>3</num> in tertio gradu, scilicet
+in loco centenariorum et <num>1</num>, quod fuit superfluum, posuimus super <num>6</num> et est denotans
+centum; et copulavimus ipsum <num>1</num> cum <num>4</num>, fecerunt <num>14</num> que terminantur in secundo gradu,
+scilicet in loco decenarum. Quare denotant centenas decenas <num>14</num>, quas divisimus per <num>4</num>,
+venerunt tres decene, et duedecene remanserunt indivisibiles: quare posuimus <num>3</num> sub <num>4</num>
+et <num>2</num> super <num>4</num> in loco, videlicet decenarum, et copulavimus ipsa <num>2</num> cum <num>6</num> primi gradus.
+Ex quorum copulatione habuimus <num>26</num> unitates; cum ipsa copulatio terminet in primo
+gradu; et divisimus ipsas <num>26</num> unitates per <num>4</num>, et venerunt unitates <num>6</num>, et remanserunt <num>2</num>.
+Quare posuimus <num>6</num> in loco unitatum, et duo posuimus super virgam de <num>4</num>; et sic intel-
+ligatur de reliquis similibus divisionibus.
+<hi rend="italic"> Divisio</hi> <num>5439</num> <hi rend="italic">per</hi> <num>5</num>.
+Item si voluerit dividere <num>5439</num> per <num>5</num>, ponat <num>5</num> sub <num>9</num> et dicat <num>1/5</num> de <num>5</num> est <num>1</num>, quod po-
+nat sub <num>5</num> et <num>1/5</num> de <num>4</num> est <num>0</num>, et remanent <num>4</num>: ponat <num>0</num> sub <num>4</num>, et pro remanentibus <num>4</num> co-
+pulet ipsa <num>4</num> cum <num>3</num> et dicat: <num>1/5</num> de <num>43</num> sunt <num>8</num> et remanent ipsa <num>3</num>: ponat <num>8</num> sub <num>3</num> et ac-
+cipiat quintam de ipsis <num>3</num> copulatis cum <num>9</num>, scilicet de <num>39</num>, exibunt <num>7</num> et remanent <num>4</num>:
+ponat <num>7</num> sub <num>9</num> et <num>4</num> super virgulam de <num>5</num> ex parte servatis et ante ponat numerum
+exeuntem ex divisione.
+<hi rend="italic"> Divisio</hi> <num>9000</num> <hi rend="italic">per</hi> <num>7</num>.
+Item si voluerit dividere <num>9000</num> per <num>7</num>, ponat <num>7</num> sub primo zephyro, et dividat <num>9</num> per
+<num>7</num>, exibit <num>1</num> et remanent <num>2</num>: ponat ergo <num>1</num> sub <num>9</num> et <num>2</num> desuper, quibus copulatis cum <num>0</num>,
+quod est secus <num>9</num>, faciunt <num>20</num> que dividat per <num>7</num>, exibunt <num>2</num> et remanent <num>6</num>: ponat <num>2</num>
+sub illo zephyro, et <num>6</num> desuper, quibus copulatis cum sequenti zephyro, faciunt <num>60</num> que
+dividat per <num>7</num>, exibunt <num>8</num> et remanent <num>4</num>: ponat <num>8</num> sub illo zephyro <num>0</num>, et desuper ponat
+<num>4</num>, quibus copulatis cum zephyro primi gradus, faciunt <num>40</num>, que dividat per <num>7</num>, exibunt
+<num>5</num>, et remanent <num>5</num>: ponat <num>5</num> sub ipso <num>0</num> et remanentia <num>5</num> ponat super virgulam de <num>7</num> ex
+parte descripta, et ante ipsam ponat numerum exeuntem ex divisione.
+<hi rend="italic"> Divisio</hi> <num>10000</num><hi rend="italic"> per</hi> <num>8</num>.
+Item si voluerit dividere <num>10000</num> per <num>8</num>, ponat <num>8</num> sub <num>0</num> primi gradus et dicat: <num>1/8</num> de <num>10</num>
+<pb n="28"/>
+est <num>1</num> et remanent <num>2</num>: ponat <num>1</num> sub <num>0</num> tertii gradus, et desuper ponat <num>4</num> et accipiat <num>1/8</num> de
+<num>40</num> que est <num>5</num> que ponat sub secundo gradu; et ut expleatur ordo graduum exeuntis nu-
+meri, ponendum est <num>0</num> sub <num>0</num> primi gradus, ut in hac descriptione cernitur.
+<hi rend="italic"> Divisio</hi> <num>120037</num> <hi rend="italic">per </hi> <num>9</num>.
+Item si <num>120037</num> per <num>9</num> dividere voluerit, describat <num>9</num> sub <num>7</num> et dicat: <num>1/9</num> de <num>12</num> est <num>1</num> et
+remanent <num>3</num>: ponat <num>1</num> sub <num>2</num> et superius <num>3</num>, et <num>1/9</num> de <num>30</num> est <num>3</num> et remanent <num>3</num>: ponat <num>3</num>
+sub <num>0</num> quarti gradus, et desuper ponat <num>3</num>; et iterum accipiat <num>9</num> de <num>30</num> quod est <num>3</num> et
+remanent <num>3</num>: ponat <num>3</num> sub <num>0</num> tertii gradus et <num>3</num> ponat super ipsum <num>0</num>: iterum et <num>1/9</num> de <num>33</num>
+est <num>3</num> et remanent <num>6</num>: ponat <num>3</num> sub <num>3</num> et superius <num>6</num> et <num>1/9</num> de <num>67</num> est <num>7</num> et remanent <num>4</num>: ponat
+<num>7</num> sub <num>7</num> et remanentia <num>4</num> ponat super virgulam de <num>9</num> ex parte descripta. Et ita si secundum
+prescriptum dividendi ordinem dividere sciverit in aliquibus similibus divisionibus nun-
+quam poterit deviare: etiam per eundem modum omnes numeri dividi possunt per <num>11</num>
+et per <num>13</num>: tamen oportet primum scire introductiones ipsorum ordinum aliorum suprascri-
+ptorum ut in tabulis divisionum superius continentur. Nam introductio de <num>11</num> ascendit
+ab uno usque in decies <num>11</num>, scilicet in <num>110</num>. Et introductio de <num>13</num> ascendit ab <num>1</num> usque in de-
+cies <num>13</num>, scilicet <num>130</num>.
+<hi rend="italic"> Divisione numerorum per </hi> <num>11</num>.
+Notis quidem dictis introductionibus, et voluerit quis dividere <num>12532</num> per <num>11</num>, ponat <num>11</num>
+sub <num>32</num>. Et accipiat <num>1/11</num> de <num>12</num>, que sunt in capite dividendi numeri quod est <num>1</num>, et
+remanet <num>1</num>. Ideo quia <num>1/11</num> de <num>11</num> est <num>1</num> sicut in suprascriptis tabulis ostenditur; ergo <num>1/11</num>
+de <num>12</num> est <num>1</num> et remanet <num>1</num>. Pone itaque <num>1</num> sub <num>2</num> de ipsis <num>2</num> et remanens <num>1</num> ponat super
+<num>2</num>, et copulet ipsum <num>1</num> cum antecedente figura, scilicet cum <num>5</num>, facient <num>15</num>, de quibus accipiat
+<num>1/11</num> que est <num>1</num> et remanet <num>4</num> dicta ratione; et ponat <num>7</num> sub <num>5</num> et remanentia <num>4</num> super <num>5</num> que
+copulet cum antecedente figura, scilicet cum <num>3</num>, facient <num>43</num>: de quibus iterum accipiat
+<num>1/11</num> que est <num>3</num> et remanent <num>10</num>: ideo quia <num>1/11</num> de <num>33</num> est <num>3</num>, a quibus usque in <num>43</num> sunt <num>10</num>: ergo
+<num>1/11</num> de <num>43</num> est <num>3</num> et remanent <num>10</num> ut diximus: ponat ergo <num>3</num> sub <num>3</num>, et <num>10</num> ponat super <num>43</num>,
+hoc est ponat <num>1</num> super <num>4</num>, que posita fuerunt super <num>5</num> et <num>0</num> ponet super <num>3</num>, et copulet rursus
+ipsa <num>10</num> cum antecedente figura, scilicet cum <num>2</num> que sunt in primo gradu, erunt <num>102</num>, de
+quibus iterum accipiet <num>1/11</num>, erunt <num>9</num> et remanent <num>3</num>: ponat <num>9</num> sub dictis <num>2</num> et remanentia
+<num>3</num> ponat super virgulam de <num>11</num> ex parte servata, et habebit pro quesita divisione <num>3/11 1139</num>.
+<hi rend="italic"> Divisio de</hi>
+Item si voluerit dividere <num>123586</num> per <num>13</num>, positis <num>13</num> sub <num>86</num>, dividat <num>123</num> per <num>13</num>; cum
+<num>12</num> minus sit de <num>13</num>, exibunt <num>9</num> et remanent <num>6</num>. Nam tertia decima de <num>117</num> est <num>9</num>, a quibus
+usque in <num>123</num> desunt <num>6</num>: ponat <num>9</num> sub <num>3</num> de ipsis <num>123</num> et remanentia <num>6</num> ponat super eisdem
+<num>3</num> et copulabit ea cum <num>5</num>, erunt <num>65</num>, quorum <num>1/13</num> est <num>5</num>: quare ponat <num>5</num> sub <num>5</num> et sub <num>8</num> ponat
+<num>0</num> cum <num>8</num> minus sint de <num>13</num>, et copulabit ipsa <num>8</num> cum <num>6</num> que sunt in primo gradu, erunt <num>86</num>,
+quorum <num>1/13</num> cum sit <num>6</num> et remanent <num>8</num>: ponet <num>6</num> in primo gradu exeuntis numeri, et <num>8</num> super
+virgam de <num>13</num>, et habebit pro quesita divisione <num>8/13 9506</num>: per hunc etiam modum possunt
+dividi numeri per <num>17</num> et per <num>19</num>; tamen oportet scire introductiones ipsorum ordine aliorum
+suprascriptorum numerorum. Sed cum grave videatur ipsorum introductiones cordetenus
+posse retineri, qualiter per alium modum numeri dividantur per <num>17</num> et per <num>19</num>, etiam et
+per alios numeros duarum figurarum, in suo loco demostrabimus.</p>
+</div1>
+<div1 type="capitolo"><head><add>Esempi di problemi aritmetici.</add></head>
+<p>
+<pb n="29"/>
+<hi rend="italic"> De iuvenis vita reperienda</hi>
+Quidam iuvenis vixit per aliquot tempus; qui si vixisset quantum vixit, et iterum
+tantum, et <num>1/4 1/3</num> ex eo quod vixerat, et amplius unum annum, <num>100</num> annos vixisset. Que-
+ritur quantum vixerat. Hec enim positio similis est regule arboris, super quam si
+addideris bis longitudinem eiusdem arboris, et insuper <num>1/4 1/3</num> et <num>1</num>, fient <num>100</num>: quod sic
+faciendum est: extrahe <num>1</num> de <num>100</num>, scilicet ipsum, qui superadditur annis, remanent <num>99</num>:
+postea pone, iuvenis vixisset annos <num>12</num>; qui si vixisset tantum quantum vixit, et iterum
+tantum, et <num>1/4 1/3</num> tanti, haberet annos <num>43</num>. Ergo dices: pro annis <num>12</num>, quos pono ut iuvenis
+vixisset, veniunt in summa anni <num>43</num>: quid ponam, ut veniant in summa anni <num>99</num>: mul-
+tiplica <num>12</num> per <num>99</num>, erunt <num>1188</num>; que divide per <num>43</num>, exibunt anni <num>27/43 27</num>; et tantum vixit
+iuvenis ille. Illud idem est dividere <num>99</num> per <num>1/4 1/3 3</num>.
+<hi rend="italic"> De leone qui erat in puteo</hi>.
+Quidam leo est in quodam puteo, cuius profunditas est palmis <num>50</num>; et ascendit co-
+tidie <num>1/7</num> unius palmi, et descendit <num>1/9</num>. Queritur in quot diebus exierit de puteo. Pone,
+ut exiret extra puteum in diebus <num>63</num>; ideo quia in <num>63</num> invenitur et <num>1/9 1/7</num>: et vide quantum
+ascenderit leo ille, si descendendo in illis <num>63</num> diebus, ascendit enim septimas <num>63</num> unius
+palmi, que sunt palmi <num>9</num>; et descendit novenas <num>63</num>, que sunt palmi <num>7</num>: quos extrahe de
+<num>9</num>, remanent palmi <num>2</num>; et tot ascendit amplius quam descendat in diebus <num>63</num>. Unde dices:
+pro diebus <num>63</num>, quos pono, ascendit palmos <num>2</num>; quid ponam, ut ascendat palmos <num>50</num>: mul-
+tiplica <num>63</num> per <num>50</num>, et divide per <num>2</num>, exibunt dies <num>1575</num>; et in tot diebus leo exiet de puteo.
+<hi rend="italic"> De duobus serpentibus</hi>.
+Item est serpens in plano cuiusdam turris, que est alta palmis <num>100</num>; et ascendat co-
+tidie <num>1/3</num> unius palmi, et descendit cotidie <num>1/4</num>. In summitate vero turris est aliud serpens,
+qui descendit cotidie <num>1/5</num>, et ascendit <num>1/6</num>: queritur in quot diebus. Infra turrim coniun-
+gentur: pone ut coniungantur in diebus <num>60</num>. Ideo quia in <num>60</num> reperiuntur <num>1/6 1/5 1/4 1/3</num>: vide
+ergo quantum se serpentes appropinquant in illis diebus <num>60</num>. Inferior vero serpens
+ascendit in illis diebus <num>60</num> magis quam descendit palmis <num>5</num>. Superior vero descendit
+magis quam ascendit palmis <num>2</num>. Ergo appropinquantur palmi <num>7</num>. Quare dicendum est:
+pro diebus <num>60</num>, quos pono, appropinquantur serpentes palmi <num>7</num> quid ponam, ut
+<pb n="177"/>
+appropinquantur palmi <num>100</num>: multiplica <num>60</num> per <num>100</num>, erunt <num>6000</num>; que divide per <num>7</num>, exibunt
+dies <num>1/7 857</num>; et in tantum temporis coniungentur se. Nam si quesieris, in qua parte tur-
+ris se coniungerint, sic facies: multiplica <num>5</num>, scilicet ascensionem inferioris serpentis,
+per <num>100</num>, erunt <num>500</num>; que divide per <num>7</num>, exibunt palmi <num>3/7 71</num>; et tot ascendit inferior ser-
+pens. Et si descensionem superioris serpentis, scilicet <num>2</num>, per eundem <num>100</num> multiplicaveris,
+et summam per <num>7</num> diviseris, exibunt palmi <num>4/7 28</num> pro loco coniunctionis ipsorum a superiori
+parte.
+<hi rend="italic"> De petiis quatuor panni</hi>
+Quidam emit panni petias <num>4</num> pro bizantiis <num>80</num>. Quarum primam emit aliquid; alteram
+emit <num>2/3</num> pretii illius prime. Tertiam vero emit <num>3/4</num> pretii secunde. Quartam autem emit
+<num>4/5</num> pretii tertie. Queritur quantum valuit unaqueque petia. Pone, ut prima valeret bi-
+zantios <num>60</num>; ideo quia in <num>60</num> reperiuntur <num>1/5 1/4 1/3</num>. Ergo si prima valuit <num>60</num>; secunda, cum
+valeret <num>2/3</num> ipsius, valuit bizantios <num>40</num>; et tertia valuit bizantios <num>30</num>, hoc est <num>3/4</num> pretii se-
+cunde. Quarta vero valuit bizantios <num>24</num>, cum sint <num>4/5</num> de <num>30</num>. Postea adde <num>60</num>, et <num>40</num>, et <num>30</num>,
+et <num>24</num>, scilicet posita pretii supradictarum quattuor petiarum, erunt <num>154</num>; que cum velint
+esse <num>80</num>, dic: pro <num>60</num>, que pono pro pretio prime petie, veniunt in summa emptionis quat-
+tuor petiarum bizantii <num>154</num>; quid ponam, ut veniant tantum in earundem summam <num>80</num>.
+Multiplica <num>60</num> per <num>80</num>, erunt <num>4800</num>; que divide per regulam de <num>154</num>, que est <num>1/2 0/7 0/11</num>, exi-
+bunt bizantii <num>6/7 1/11 31</num>. Et tot valuit prima petia. Item ut habeas pretium secunde.
+Multiplica <num>40</num> per <num>80</num>, et divide iterum per <num>1/2 0/7 0/11</num>, exibunt bizantii <num>4/7 8/11 20</num> pro pretio
+secunde petie. Item ut scias pretium tertie, multiplica <num>30</num> per <num>80</num>, et divide <num>1/2 0/7 0/11</num>,
+exibunt pro ipsius pretio bizantii <num>3/7 6/11 15</num>: demum ut scias pretium quarte, multiplica
+<num>24</num> per <num>80</num>, et divide in <num>1/2 0/7 0/11</num>, exibunt pro pretio ipsius bizantii <num>1/7 5/11 15</num>: et scias quod
+in unaquaque suprascriptarum quattuor multiplicatio ei evitanda est <num>1/2</num>.
+<hi rend="italic"> Aliter de eodem</hi>.
+Aliter ut redigatur hec questio ad regulam societatum, describe minuta per ordinem
+sic <num>4/5 3/4 2/3 1</num>, et multiplica per <num>3</num>; que per <num>4</num>; que per <num>5</num>, que sunt sub virgis, erunt <num>60</num>,
+que serva. Item multiplica <num>2</num>, que sunt super <num>3</num>, per <num>4</num>, que sunt sub <num>3</num>, erunt <num>8</num>; que
+per <num>5</num>, erunt <num>40</num>, que serva. Rursus multiplca <num>2</num>, que sunt super <num>3</num> per <num>3</num>, que sunt
+super <num>4</num>, erunt <num>6</num>; que per <num>5</num>, erunt <num>30</num>, que serva. Et adhuc multiplica <num>2</num>, que sunt
+super <num>3</num>, per <num>3</num>, que sunt super <num>4</num>, erunt <num>6</num>; que multiplica per <num>4</num>, que sunt super <num>5</num>, erunt
+<num>24</num>: adde itaque quattuor servantes numeros insimul, scilicet <num>60</num>, et <num>40</num>, et <num>30</num>, et <num>24</num>,
+erunt <num>154</num>. Et invenias regulam ipsorum, que est <num>1/2 0/7 0/11</num>; et multiplica singulariter unum-
+quemque prescriptorum quattuor numerorum; et divide unamquamque multiplicationem
+per <num>1/2 0/7 0/11</num>, et habebis pretium uniuscuiusque petie, hoc est per medietatem de <num>154</num>.
+<hi rend="italic"> De tertia unius numeri ex quarta, cuius numeri sit quinta</hi>.
+Si queratur de tertius unius integri, de cuius numeri quarta sit quinta pars; pone
+igitur ut numerus ille sit <num>60</num>; de quibus summe <num>1/4</num>, que est <num>15</num>; de quibus accipe <num>1/5</num>,
+que est <num>3</num>; que cum vellent esse tantum <num>1/3</num>. Multiplica <num>60</num> per <num>1/3</num>, erunt <num>2</num>; que divide
+per <num>3</num>, exibunt <num>2/3 6</num> pro numero illo.
+Aliter describe per ordinem: sit <num>1/5 1/4 1/3</num>; deinde multiplica unum, quod est super <num>3</num>
+per <num>4</num>; que per <num>5</num>, erunt <num>20</num>; que divide per multiplicationem de <num>1</num>, quod est super <num>5</num>
+in <num>1</num>, quod est super <num>4</num>; que in <num>3</num>; que multiplicatio est <num>3</num>, exibunt similiter <num>2/3 6</num>.
+<pb n="178"/>
+<hi rend="italic"> De ovis</hi>.
+Quidam emit ova <num>7</num> pro numero uno, et vendidit ova <num>5</num> pro denario; et lucratus
+fuit denarios <num>19</num>: queritur quot ipse in ovis investiverat: pone ut investiret denarios
+<num>5</num>, pro quibus habuit ova <num>35</num>, que vendidit denarios <num>7</num>: ergo lucratus fuit denarios <num>2</num>
+in illis denariis <num>5</num>: qui denarii <num>2</num> vellent esse <num>19</num> denarii. Multiplica <num>19</num> per <num>5</num>, et di-
+vide per <num>2</num>, exibunt denarii <num>1/2 47</num>; et tot investivit homo ille. Nam materiam inveniendi
+hanc regulam est hec. Ut discas a <num>5</num> usque in <num>7</num>, desunt <num>2</num>; in quibus divide multi-
+plicationem de <num>5</num> in <num>19</num>, ut supra diximus.
+<hi rend="italic"> De eisdem ovis</hi>.
+Item si dixerit, quod emit ova <num>7</num> pro denariis <num>2</num>, et vendidit ova <num>19</num> pro denariis <num>6</num>;
+et lucratus est denarii <num>21</num>; queritur quot investivit: scribe questionem sic; et multi-
+plica <num>7</num> per <num>6</num>, erunt <num>42</num>, que pone super <num>7</num>; et multiplica <num>19</num> per <num>2</num>, erunt <num>38</num>, que pone
+super <num>19</num>: post hec extrahe <num>38</num> de <num>42</num>, remanent <num>4</num>; multiplica <num>38</num> per <num>21</num>, erunt <num>789</num>;
+que divide per <num>4</num>, exibunt denarii <num>1/2 199</num>; et tot investivit. Et si proponatur, quod in-
+vestiret denarios <num>1/2 199</num>, et queratur lucrum ipsius; multiplicabis <num>1/2 199</num> per <num>4</num>, et divides
+per <num>38</num>; et habebis pro lucro <num>21</num>.
+<hi rend="italic"> De rotulis secundum regula ovorum</hi>.
+Verum, si proposuerit, quod pro denariis <num>1/7 1/2 4</num> rotulos <num>13/28 11</num> haberet, venderet rotulos
+<num>2/9 1/5 17</num> pro denariis <num>7/10 7</num>; et esset lucratus denarios <num>27</num>: describe questionem secundum
+quod in hac pagina descriptam cerneris; et multiplica Rotulos <num>11</num> per <num>8</num> de sua virgula,
+et desuper adde <num>3</num>, erunt <num>91</num>; que per <num>2</num>, et adde unum, erunt <num>183</num>, que pone super
+<num>13/28 11</num>. Item multiplica denarios <num>4</num>, per <num>2</num>, et adde <num>1</num>, erunt <num>9</num>; que per <num>7</num> de altera sua
+virgula, erunt <num>63</num>: super que adde multiplicationem de <num>1</num>, quod est super <num>7</num> in <num>2</num>, erunt
+<num>65</num>, que pone super <num>1/7 1/2 4</num>. Rursus multiplica Rotulos <num>17</num> per <num>5</num>, et super adde <num>1</num>; que
+per <num>9</num>, et adde multiplicationem de <num>2</num>, que sunt super <num>9</num> in <num>5</num>, erunt <num>784</num>, que pone
+super <num>2/9 1/5 17</num>. Iterum multiplica denarios <num>7</num> per <num>10</num>, et adde <num>7</num>, erunt <num>77</num>, que pone super
+<num>7/10 7</num>: post hec multiplica numerum positum super <num>2/9 1/5 17</num>, scilicet <num>784</num> per numerum po-
+situm super <num>1/7 1/2 4</num>, idest per <num>95</num>, erunt <num>50960</num>, que pone super <num>784</num>. Item multiplica positum
+numerum super <num>13/28 11</num>, scilicet <num>183</num> per positum numerum super <num>7/10 7</num>, idest per <num>77</num>,
+erunt <num>14091</num>, que pone super <num>183</num>: postea oportet multiplicari <num>50960</num> per minuta, que
+sunt sub virgulis de <num>11</num>, et de <num>7</num>, scilicet per <num>2</num>, et per <num>8</num>, et per <num>10</num>: et adhuc oportet
+multiplicari <num>14091</num> per minuta, que sunt sub virgulis de <num>17</num>, de <num>4</num>, scilicet per <num>5</num>, et per
+<num>9</num>, et per <num>2</num>, et per <num>7</num>; unde multiplicentur tantum <num>5960</num> per <num>2</num>, et per <num>8</num>, idest per <num>16</num>,
+erunt <num>815360</num>; et relinquantur quod non multiplicentur per <num>10</num>; quia relinquemus mul-
+tiplicare <num>14091</num> per <num>5</num>, et per <num>2</num>, in quibus ipsa multiplicare oportuerat; et multipli-
+cabitur tantum per <num>7</num>, et per <num>9</num>, idest per <num>63</num>, erunt <num>877733</num>; de quibus extrahe <num>815360</num>,
+remanent <num>72373</num>; quibus studeas reperire regulam, que est <num>1/7 0/7 0/7 0/211</num>; in qua divide per
+multiplicationem de <num>815360</num> in <num>27</num>, scilicet in lucrum; que multiplicatio est <num>22014720</num>,
+exibunt denarii <num>0/7 0/7 6/7 2/2 8/11 3041</num>; et tot investivit in illis Rotulis.
+Aliter divide <num>13/28 11</num> per <num>1/7 1/2 4</num>, exibunt <num>1/4 0/10 6/13 2</num>. Item divide <num>21/95 17</num> per <num>7/10 7</num>, exibunt
+<num>8/9 2/11 2</num>; que extrahe de <num>1/4 0/10 6/13 2</num>; et in hoc remanserit, divide multiplicationes de <num>8/9 2/11 2</num>
+in <num>27</num>; et habebis propositum.
+<hi rend="italic"> De cane et vulpe</hi>.
+Item si queratur de vulpe, que est ante canem pasus <num>50</num>, et pasus <num>9</num> fugientis vulpis,
+<pb n="179"/>
+sunt passus <num>6</num> sequentis canis; queritur in quantum ea consequetur. Hec enim questio
+eandem retinet regulam ovorum: videlicet ut extrahas <num>6</num> de <num>9</num>, remanent <num>3</num>; in quibus
+divide multiplicationem de <num>6</num> in <num>50</num>, exibunt passus <num>100</num>; et in tot diebus canis fuit
+cum vulpe in uno puncto. Verum si distantiam eorum ignoraveris; et preponatur, quod
+canis vulpem adiungat in passibus <num>100</num>; multiplicabis <num>3</num> per <num>100</num>, et divides per predicta <num>6</num>.
+<hi rend="italic"> De eo qui misit filium in Alexandriam</hi>.
+Quidam misit filium suum in alexandriam; deditque ei bizantios <num>100</num>, precipiens, ut
+emeret ex eis piper, atque berzi. Cantare quidem piperis pro bizantiis <num>50</num>, et cantare
+berzi pro bizantiis <num>30</num>; et pondus quod ponderat piper esset <num>2/9 3/7</num> ponderis berzi. Queritur,
+quot emit de pipere, et quantum de berzi. Pone ut emeret de berzi cantaria <num>63</num>; ideo
+quia in <num>63</num> reperiuntur <num>2/9 3/7</num>; et vide quantum valent cantaria illa <num>63</num>: valent enim bizantios
+<num>1890</num>: quo facto accipe <num>2/9 3/7</num> de <num>63</num>, que sunt <num>41</num>; et tot cantaria pone, quod emisset ex pipere,
+que valent bizantios <num>2050</num>; cum quibus adde bizantios <num>1890</num>, erunt bizantii <num>3940</num>. Quare di-
+ces: pro cantariis <num>63</num>, que posui ut emeret de berzi, veniunt in summa bizantii <num>3940</num>; quid
+ponam ut veniat in summa bizantii <num>100</num>: multiplica <num>63</num> per <num>100</num>, et divide per <num>3940</num>; quorum
+regula est <num>1/2 0/10 0/197</num>: multiplicatio autem de cantariis <num>63</num> in <num>100</num> surgit in cantariis <num>6300</num>,
+que sunt Rotuli <num>630000</num>; quos divide per <num>1/2 0/10 0/197</num>, exibunt Rotuli <num>177/197 159</num>; et tot emit
+ipse de berzi. Item multiplica cantaria <num>41</num> per <num>100</num>, erunt Rotuli <num>410000</num>; quos divide
+per <num>1/2 0/10 0/197</num>, exibunt Rotuli <num>0/2 0/10 12/197 104</num>; et tantum emit de pipere. Si autem scire
+volueris, quot bizantios valeat piper, et quot berzi; multiplica <num>2050</num> per <num>100</num>, et divide
+per <num>1/2 0/10 0/197</num>, et habebis pro pretio piperis bizantios <num>6/197 52</num>. Item multiplica <num>1890</num> per
+<num>100</num> et divide per <num>100/210197</num>, exibunt pro pretio berzi <num>191/197 47</num>.
+Et si suprascriptus pater precepisset filio, ut <num>3/7</num> ex pondere piperis esset <num>2/9</num> ex pon-
+dere berzi; invenies primum duos numeros, ex quibus <num>3/7</num> unius sint <num>2/9</num> alterius, erunt <num>14</num>
+et <num>27</num>. Nam <num>3/7</num> de <num>14</num> faciunt quantum <num>2/9</num> de <num>27</num>: quare pones, ut ipse emeret de pipere
+cantaria <num>14</num>, et de berzi cantaria <num>27</num>; et operaberis secundum quod superius fecimus;
+et invenies quantitates utriusque mercis.
+Item <num>1/4 1/3</num> ex pondere piperis sit <num>1/5 1/4</num> ex pondere berzi, invenies quod duos numeros,
+ex quibus <num>1/4 1/3</num> unius sint <num>1/5 1/4</num> alterius, erunt <num>27</num>, et <num>35</num>. Nam <num>1/4 1/3</num> de <num>27</num> sunt <num>1/4</num> et <num>1/5</num> de
+<num>35</num>: quare pones, ut ipse emeret de pipere cantaria <num>27</num>, de berzi cantaria <num>35</num>; et opera-
+beris secundum suprascriptum modum.
+Rursus si proponatur, quod ipse emisset ex suprascriptis bizantiis <num>100</num> piper ad ra-
+tionem de bizantiis <num>50</num>; et lac ad rationem de bizantiis <num>40</num>; et de berzi ad rationem
+de bizantiis <num>30</num>; et linum ad rationem de bizantiis <num>20</num>. Et <num>2/3</num> ex pondere piperis esset
+<num>4/5</num> ex pondere lacce. Et <num>6/7</num> ex pondere berzi, et <num>8/9</num> ex pondere lini. Inveniendi sunt
+primum quattuor numeri, ex quibus <num>2/3</num> primi numeri sint <num>4/5</num> secundi, et <num>6/7</num> tertii, et <num>8/9</num>
+quarti; et habebis pro primo numero <num>36</num>; pro secundo <num>30</num>; pro tertio <num>28</num>; pro quarto
+<num>27</num>: quare pones, ut ipse emeret ex pipere cantaria <num>36</num>, que valeret bizantios <num>1800</num>. Et
+de lacca cantaria <num>30</num>, que valent bizantios <num>1200</num>; et de berzi cantaria <num>28</num>, que valent
+bizantios <num>840</num>; et de lino cantaria <num>27</num>, que valent bizantios <num>540</num>: quibus bizantiis quat-
+tuor mertium in unum coniunctis, faciunt bizantios <num>4380</num>, que vellent esse bizantios <num>100</num>:
+quare singulariter cantaria <num>36</num> piperis, scilicet Rotuli <num>3600</num>. Et cantaria <num>30</num> lacca, scilicet
+Rotuli <num>3000</num>. Et cantaria <num>28</num> berzi, scilicet Rotuli <num>2800</num>; et cantaria <num>27</num> lini, scilicet Ro-
+<pb n="180"/>
+ tulos <num>2700</num> multiplicabis per bizantios <num>100</num>, et divides summam uniuscuiusque multipli-
+cationis per regulam de <num>4380</num>, que est <num>1/6 0/10 0/73</num>; et habebis pro pondere piperis Rotulos
+<num>14/73 82</num>; et pro pondere lacce Rotulos <num>36/73 68</num>; et pro pondere berzi Rotulos <num>467/673 63</num>; et pro
+pondere lini Rotulos <num>47/73 61</num>; et sic possemus huiusmodi varias proponere questiones,
+que solventur suprascripto ordine.
+<hi rend="italic"> De divisione de</hi> <num>10</num> <hi rend="italic">in tribus partibus inequales</hi>
+<hi rend="italic">secundum continuam proportionem.</hi>
+Si opponatur ut divides <num>10</num> in tres inequales partes, quarum multiplicata minorem
+in maiorem, faciat quantum secunda multiplicata in se ipsam; sic facies: pone ut prima
+pars sit aliquis, numerus, ut <num>1</num>; deinde pone, ut secunda pars sit alius quislibet nu-
+merus, ut dicamus <num>2</num>; que multiplica in se, faciunt <num>4</num>; que divide per <num>1</num>, venient <num>4</num>.
+Modo habes tres numeros, scilicet <num>1</num>, et <num>2</num>, et <num>4</num>; ex quibus multiplicatis primo per
+tertium, scilicet <num>1</num> per <num>4</num>, facit tantum quantum secundus in se ipsum, scilicet <num>2</num> per <num>2</num>.
+Unde colligas <num>1</num>, et <num>2</num>, et <num>4</num>, faciunt <num>7</num>; que cum vellent esse <num>10</num>, dices: pro <num>1</num>, quod
+pono pro prima illarum trium partium, pervenit <num>7</num> in earum summa: quid ponam pro
+eadem, ut perveniat in summam <num>10</num>. Multiplicabis itaque <num>1</num> per <num>10</num>; que divides per <num>7</num>,
+exibit pro quantitate prime partis <num>3/7 1</num>. Item multiplicabis eademque ratione secundam
+partem, scilicet <num>2</num> per <num>10</num>, erunt <num>20</num>: que divides iterum per <num>7</num>, exibunt <num>6/7 2</num>; et tantum
+est secunda pars. Rursum multiplicabis <num>4</num>, que sunt tertia pars, per <num>10</num>, erunt <num>40</num>; que
+divides per <num>7</num>, exibunt pro tertia parte <num>5/7 5</num>. Multiplicatio igitur de <num>3/7 1</num> in <num>5/7 5</num>, est
+quantum. Multiplicatio de <num>6/7 2</num> in se; et <num>3/7 1</num>, et <num>6/7 2</num>, et <num>5/7 5</num> insimul iunctis, faciunt <num>10</num>,
+ut querebatur. Potest enim <num>10</num>, secundum prescriptam conditionem, in infinitas tres
+et variis partes dividere: quare si alios in principio in continua proportione poneremus
+numeros preter quod <num>1</num>, et <num>2</num>, et <num>4</num> in alias partes <num>10</num>, redderent divisa; quarum semper
+prima multiplicata in tertiam, faciet quantum secunda multiplicata in se.
+<hi rend="italic"> De eodem in IIIIor partes.</hi>
+Item si <num>10</num> in quattuor partes dividere volueris, ita quod multiplicata prima in quar-
+tam faciat quantum secunda in tertiam. Et rursum multiplicata prima in tertiam faciat
+quantum secunda in se ipsam. Et iterum multiplicata secunda in quartam faciat quan-
+tum tertia in se ipsam. Hanc enim divisionem in infinitas variasque partes possumus in-
+venire. Quare unam demonstrationem pro multis ostendamus: ponas ut prima pars sit 
+unum. Secunda bis tantum, scilicet <num>2</num>. Tertia bis tantum secunde, scilicet <num>4</num>. Quarta bis
+tantum tertie, scilicet <num>8</num>: Hii quattuor numeri sunt in continua proportione. Unde coa-
+dunatis his quatuor partibus, scilicet <num>1</num>, et <num>2</num>, et <num>4</num>, et <num>8</num>, faciunt <num>15</num>, que vellent esse
+<num>10</num>. Unde dices: pro <num>1</num>, quod pono prima parte, perveniunt <num>15</num> in summa eorum quattuor
+partium; quid ponam pro eadem parte, ut veniant in <num>10</num> in earum summa. Multiplicabis
+enim unum per <num>10</num>, et divides per <num>15</num>, exibunt <num>2/3</num> unius integri pro prima parte. Item multi-
+plicabis singulariter <num>2</num>, et <num>4</num>, et <num>8</num> per <num>10</num>; et singulariter divides per <num>15</num>, et habebis pro se-
+cunda parte <num>1/2 1</num>; pro tertia <num>2/3 2</num>, et pro quarta <num>1/3 5</num>: vel habita prima parte, duplicabis eam,
+et habebis secundam; qua duplicata, habebis tertiam; qua duplicata, habebis quartam.
+Vel quia <num>10</num> sunt <num>2/3</num> de <num>15</num>, accipe <num>2/3</num> prescriptorum quattuor numerorum, et habebis quesitas.
+<hi rend="italic"> De eodem in quinque</hi>.
+Rursum si <num>10</num> in plures partes quam quattuor, ut in <num>5</num>, secundum continuam proportio-
+<pb n="181"/>
+nalitatem, dividere volueris; hoc est, quod multiplicata prima in quinta, faciat quantum
+secunda in quartam, et quantum tertia in se ipsam. Et iterum prime in quartam faciat
+quantum secunda in tertiam. Et iterum prima in tertiam, quantum secunda in se ipsam.
+Et iterum secunda in quintam, quantum tertia in quartam. Et adhuc tertia in quintam,
+quantum quarta in se ipsam. Pones itaque secundum quod superius fecisti pro prima
+parte <num>1</num>; pro secunda <num>2</num>; pro tertia <num>4</num>; pro quarta <num>8</num>; pro quinta <num>16</num>: adde ergo <num>1</num>, et <num>2</num>, et
+<num>4</num>, et <num>8</num>, et <num>16</num>, erunt <num>31</num>; que cum velint esse <num>10</num>. Multiplicabis<num>1</num> per <num>10</num>, et divides per
+<num>31</num>, exibunt <num>10/31</num> pro quantitate prime partis: deinde multiplicabis <num>2</num> per <num>10</num>, et divides per
+<num>31</num>, exibunt <num>20/31</num> pro secunda parte; et sic facies de reliquis tribus partibus pro tertia <num>40/31</num>,
+hoc est <num>9/31 1</num>. Et pro quarta <num>80/31</num>, hoc est <num>18/31 2</num>; et pro quinta <num>160/31</num>, hoc est <num>5/31 5</num>; quibus
+insimul iunctis, faciunt <num>10</num>, ut querebatur.
+<hi rend="italic"> De Leone et leopardo et urso</hi>.
+Quidam leo comedabat unam ovem in horis IIIIor; et leopardus in horis <num>5</num>. Et ursus in
+horis <num>6</num>: queritur, si inter eos ovis una eiecta fuerit, in quantis horis eam devoraverunt.
+Sic facies: pro quattuor horis, in quibus leo ovem comedit. Pone <num>1/4</num>; et pro horis <num>5</num> leopardi
+pone <num>1/5</num>; et pro horis <num>6</num> ursi, pone <num>1/6</num>: et quia <num>1/6 1/5 1/4</num> reperiuntur in <num>60</num>. Pone ut in horis <num>60</num>
+ipsi devorarent ovem illam. Considera itaque, quot oves leo comederet il illis horis <num>60</num>:
+cum in quattuor oris unam devoret ovem, est manifestum, quod ipse devoraret oves <num>15</num>
+in illis <num>60</num> horis; et leopardus devoraret oves <num>12</num> per quintum de <num>60</num>, que est <num>12</num>. Similiter
+et ursus devoraret oves <num>10</num>; cum <num>10</num> sint <num>1/6</num> de <num>60</num>. Ergo in horis <num>60</num> comederent ipsi
+oves <num>15</num>, et <num>12</num>, et <num>10</num>, hoc est <num>37</num>. Quare dices: pro horis <num>60</num>, quas pono, comedunt ipsi oves
+<num>37</num>. Quid ponam ut tantum comedent ovem unam. Multiplica itaque unum per <num>60</num>, et di-
+vide <num>37</num>, exibit hora <num>23/37 1</num>. Et in tot ipsi ipsam ovem devoraverunt.
+<hi rend="italic"> De duabus formicis quarum una imittatur aliam</hi>.
+Formice <num>2</num> distabant in plano passibus <num>100</num>; et tendebant ad unum locum: prima
+quarum ibat cotidie <num>1/3</num> passus, revertebat retro <num>1/4</num>; alia ibat <num>1/5</num>, et revertebatur <num>1/6</num>: queritur,
+in quot diebus erunt coniuncte: pone dies <num>60</num>, in quibus prima iret tertiis <num>60</num> unius
+passus, scilicet passibus <num>20</num>; et reverteretur retro passibus <num>15</num>, scilicet <num>1/4</num> de <num>60</num>; et sic in
+diebus <num>60</num> iret plus de sua reversione passibus <num>5</num>; et aliam eisdem diebus <num>60</num> iret <num>1/5</num> de
+<num>60</num>, scilicet <num>12</num>; et reverteretur retro <num>1/6</num>, scilicet passibus <num>10</num>; et sic iret passibus <num>2</num> magis
+de sua reversione: quibus extractis de passibus <num>5</num>, remanent passus <num>3</num>; et tot appropin-
+quantur ipse in dies <num>60</num>: que cum velint esse <num>100</num>. Multiplicabis <num>1/3</num> de <num>60</num> per <num>100</num>; et habebis
+dies <num>2000</num> pro eorum coniunctione.
+<hi rend="italic"> De duabus navibus se se invicem coniungentibus</hi>.
+Naves due distabant ad invicem per aliquod spatium; quod iter prima navis explebat
+in diebus <num>5</num>; alia in diebus <num>7</num>: queritur si ceperint iter in eadem hora, in quot diebus erunt
+coniuncte. Multiplica <num>5</num> per <num>7</num>, erunt <num>35</num>; et tot dies pone, in quibus prima navis faciet iter
+suum septies. Alia vero quinquies: quare adde <num>7</num> cum <num>5</num>, erunt <num>12</num>; et quia inter utramque
+navem debebant facere tantum semel illud iter. Multiplica <num>1</num> per <num>35</num>, et divide per <num>12</num>,
+exibunt <num>11/12 2</num>; et in tot diebus erunt coniuncte: et si vis scire, in qua parte; divide <num>7</num>,
+et <num>5</num> per <num>12</num>, venient <num>7/12</num> totius itineris ex parte prime navis, et <num>5/12</num> ex parte secunde.
+Et si proponeretur primam navem ire septies ad locum alterius navis, et aliam redire
+quinquies in una die, divide semel <num>1</num> per <num>12</num>, exibit hora una pro earum coniunctione;
+que coniunctio erit in parte predicta.
+<pb n="182"/>
+<hi rend="italic"> De tina que habet quatuor foramina in fundo.</hi>
+Est tina, que habet quattuor foramina, per primum quorum evacuatur in die <num>1</num>; per
+secundum in <num>2</num>; per tertium in <num>3</num>; per quartum in <num>4</num>; queritur quot horis evacuabitur,
+si dicta quattuor foramina simul aperiantur: pone dies <num>12</num> pro ipsius evacuatione. In
+quibus per primum foramen tina evacuaretur duodecies; cum dies <num>12</num> sint duodecuplum
+unius diei: similiter in illis positis <num>12</num> diebus per secundum foramen evacuaretur tina
+septies; per tertium quater; per quartum ter; et sic in diebus <num>12</num> tina evacuaretur
+vigies quinquies; hoc est, quod in diebus <num>12</num> evacuantur tine <num>25</num>: et queritur, in quot
+evacuabitur tina <num>1</num>. Multiplica ergo extremos, scilicet <num>12</num> per <num>1</num>, et divide per medium,
+exibunt <num>12/25</num> unius diei: de quibus si vis horas facere, Multiplica <num>12</num>, que sunt super
+virgam, per horas unius diei, scilicet per <num>12</num>, erunt <num>144</num>; que divide per <num>25</num>, exibunt
+hore <num>43/55 5</num> pro tine evacuatione.
+<hi rend="italic"> De eadem tina cum super ipsam sint canales IIIIor.</hi>
+Et si proponatur, quod super ipsa tina erunt canales <num>4</num> evacuantes aquam; per pri-
+mum quorum tina impleatur in horis <num>6</num>; per secundum in <num>9</num>; per tertium in <num>24</num>; per
+quartum in <num>27</num>; queritur si tina fuerit vacua, et per ipsas canales simul fluat aqua
+vicina, et foramina sint aperta; in quot horis implebitur tina: pone etiam, ut impleatur
+in dies <num>12</num>, in quibus per ipsa foramina evacuantur tine <num>25</num>: deinde fac horas ex ipsis
+diebus <num>12</num>, erunt hore <num>144</num>; quas divide per horas primi canalis, scilicet per <num>6</num>, exibunt
+<num>24</num>; et tot tine implentur per primum canalem: quia quam multiplices sunt hore <num>144</num>
+ex horis <num>6</num>, tam multiplices sunt tine <num>24</num> ex tina <num>1</num>: quare eadem ratione divides horas <num>144</num>
+per horas reliquorum canalium, scilicet <num>9</num>, et per <num>24</num>, et per <num>27</num>, exibunt tine <num>16</num>, et <num>6</num>, et
+<num>1/3 5</num>: quibus additis cum tinis <num>24</num> primi canalis tine <num>1/3 51</num>; et tot tine implentur ab ipsis
+canalibus <num>4</num> in positis diebus <num>12</num>: a quibus eiectis tinis <num>25</num>, que evacuantur per fora-
+mina, remanent tine <num>1/3 26</num>, que vellent esse tina <num>1</num>. Quare multiplica horas <num>12</num> diei, sci-
+licet <num>144</num> per <num>1</num>; et divide per secundum numerum, scilicet per <num>1/3 26</num>, exibunt hore <num>37/79 5</num>;
+et in tot implebitur tina illa.
+<hi rend="italic"> De bute que habet IIIIor foramina unum super aliud.</hi>
+Item buctis habens <num>4</num> foramina unum super aliud in quarto retenimento buctis con-
+stituta; ex quibus si aperiens primum foramen <num>.1.</num> superius , evacuatur quarta pars
+buctis in <num>1</num> die; qua evacuata, si aperieris secundum, evacuabitur buctis a primo usque
+ad secundum, scilicet alia quarta pars in duobus diebus. Rursum, evacuatis duabus
+quartis, si aperieris tertium, evacuatur de bucte alia quarta pars a secundo foramine
+usque ad se in tribus diebus. Iterum si aperieris quartum evacuatur de bucte alia
+quarta pars in diebus <num>4</num>. Queritur si omnia quattuor foramina pariter aperta fuerint,
+in quantum tota buctis evacuabitur. Quia evacuato aliquo ipsorum nullum iuvamen
+aliis prebere posse preponitur. Necessarium est ut evacuationem uniuscuiusque fora-
+minis singulariter reperiamus. Primum quidem ponamus, quod buctis teneat bariles quot-
+libet, ut dicamus <num>48</num>. Quarum quarta pars accepta, que est <num>12</num>, habeatur pro tenimento
+uniuscuiusque foraminis: deinde accedamus ad evacuationem primi, id est superioris
+foraminis: ponamus, ut inter omnia <num>4</num> illa foramina evacuetur de bucte usque ad su-
+perius foramen in una die, scilicet in horis <num>12</num>: deinde videamus quot bariles in illis
+<num>12</num> horis per unumquodque foramen evacuarentur: per primum quidem evacuarentur
+<pb n="183"/>
+bariles <num>12</num> in illis horis <num>12</num>. Ideo quia preponitur in positione, quod per ipsum evacuatur
+quarta pars titius buctis in una die. Et quia per secundum alia quarta pars in duobus
+diebus evacuatur. Ergo in illis <num>12</num> horis evacuarentur per ipsum bariles <num>6</num>: eademque
+rationem per tertium foramen evacuabitur bariles <num>4</num> in illis <num>12</num> horis. Et per quartum
+evacuarentur bariles <num>3</num>. Iunctis itaque barilibus <num>12</num>, et <num>6</num>, et <num>4</num>, et <num>3</num> faciunt <num>25</num>; et tot
+bariles evacuarentur per ipsa quattuor foramina in illis <num>12</num> horis. Quare multiplica <num>12</num>
+per <num>12</num>, faciunt <num>144</num>; que divide per <num>25</num>, exibunt hore <num>4/5 3/5 5</num>; et in tot horis evacuabi-
+tur buctis usque ad superius foramen: deinde accedamus ad evacuationem secunde,
+quarte: et pone iterum, ut evacuetur ipsa similiter in aliis <num>12</num> horis. In quibus, ut
+prediximus, per secundum evacuantur bariles <num>6</num>; per tertium quoque bariles <num>4</num>; per
+quartum vero bariles <num>3</num>. Quare per ipsa tria foramina evacuantur bariles <num>13</num>; pro quibus
+multiplicabis <num>12</num> per <num>12</num>, et divide per <num>13</num>, exibunt hore <num>1/13 11</num> pro evacuatione eiusdem
+secunde partis: deinde pone, ut tertia quarta evacuetur iterum in horis <num>12</num>, in quibus
+per tertium foramen evacuantur bariles <num>4</num>; per quartum <num>3</num>, hoc est per utrumque eva-
+cuantur bariles <num>7</num>. Quare multiplica <num>12</num> iterum per <num>12</num>, et divides per <num>7</num>, exibunt hore
+<num>4/7 20</num> pro evacuatione tertie quarte; per quartum vero foramen evacuatur reliqua quarta
+in quattuor diebus. Quare adde dies <num>4</num>, et horas <num>4/5 3/5 5</num>, et horas <num>1/13 11</num>, nec non et horas
+<num>4/7 20</num>, erunt dies <num>7</num>, et horas <num>4/5 0/5 2/7 5/13 1</num>; et in tantum evacuabitur buctis illa.
+<hi rend="italic"> Aliter de bute.</hi>
+Et si dixeris, quod per unum quodque foramen tota buctis evacuetur usque ad se
+ipsam in prepositis diebus; pone similiter, ut buctis teneat bariles <num>48</num>: deinde vide in
+quantum evacuabitur buctis usque ad primum foramen. Apertis videlicet omnibus fo-
+raminibus. Pone ergo ut evacuetur in horis <num>12</num>, in quibus per primum evacuantur ba-
+riles <num>12</num>: per secundum vero totidem evacuantur; cum in duobus diebus bariles <num>24</num> eva-
+cuentur in horis <num>12</num>: per tertium quoque in positis horis <num>12</num> evacuarentur alios bariles <num>12</num>;
+cum in tribus diebus per ipsam evacuarentur bariles <num>36</num>: per quartum autem in illis
+<num>12</num> horis alios bariles <num>12</num> evacuantur: quibus iunctis cum barilibus evacuationum trium
+reliquorum foraminum, erunt <num>48</num>, que vellent esse <num>12</num>. Ergo multiplica <num>12</num> per <num>12</num>, et di-
+vide per <num>48</num>, exibunt hore <num>3</num>; et in tot evacuatur usque ad primum foramen. Item si
+posueris pro evacuatione secunde quarte alias horas <num>12</num>, reperies quod per reliqua tria
+foramina evacuabuntur bariles <num>36</num>: quare multiplicabis <num>12</num> per <num>12</num>, et divides per <num>36</num>,
+exibunt hore <num>4</num>; et in tantum evacuabitur secunda quarta. Item si posueris horas <num>12</num> pro
+evacuatione tertii quarte, quod reperies utrumque foramen evacuarentur bariles <num>24</num>. Quare
+multiplica <num>12</num> per <num>12</num>, et divide per <num>24</num>, exibunt hore <num>6</num> pro tertie quarte evacuatione.
+De quarto foramine nil dicendum est; cum manifestum sit, quod per ipsum in horis <num>12</num>
+evacuetur totum residuum, scilicet bariles <num>12</num>. Quare addas horas evacuationum quattuor
+dictorum quartarum, scilicet <num>3</num>, et <num>4</num>, et <num>6</num>, et <num>12</num>, erunt hore <num>25</num>; et in tantum evacua-
+bitur buctis illa.
+<hi rend="italic"> Aliter de bute.</hi>
+Et si proponatur, quod a summo buctis usque ad superius foramen sit <num>1/3</num> totius te-
+nimenti buctis: ab ipso foramine usque ad secundum, sit <num>1/4</num> eiusdem tenimenti. Et ab
+ipso usque ad tertium sit <num>1/5</num>. Ab ipso usque ad inferius foramen sit residuum teni-
+menti buctis; et per superius foramen evacuetur buctis usque ad ipsum in <num>1</num> die. Per
+<pb n="184"/>
+secundum ab ipso superiori usque ad ipsum secundum in <num>2</num>. Per tertium a secundo
+usque ad ipsum tertium in <num>3</num>. Per inferius evacuetur buctis a tertio usque ad ipsum
+in dies <num>4</num>. Pone, ut buctis teneat bariles <num>60</num>; quare usque ad superius foramen sunt ba-
+riles <num>20</num>, scilicet tertium de <num>60</num>. Et a secundo foramine usque ad superius sunt bariles
+<num>15</num>, scilicet quartam de <num>60</num>. Et a tertio usque ad secundum sunt bariles <num>12</num>, scilicet
+quintam de <num>20</num>. Quibus barilibus <num>12</num> et <num>15</num>, et <num>20</num> in unum coniunctis, reddunt bariles
+<num>47</num> pro tenimento buctis usque ad tertium foramen: a quibus <num>47</num> usque in <num>60</num> sunt ba-
+riles <num>13</num> ab inferiori foramine usque ad tertium: deinde pone diem <num>1</num> in evacuatione
+buctis usque ad superius foramen, in quo posito die per primum foramen evacuantur
+bariles <num>20</num>; per secundum <num>1/2 7</num>, scilicet <num>1/2</num> de <num>15</num>; per tertium <num>4</num>, scilicet tertia de <num>12</num>; per
+quartum <num>1/4 3</num>, scilicet quartam de <num>13</num>: ergo per quattuor foramina evacuantur in <num>1</num> die
+bariles <num>20</num>, et <num>1/2 7</num>, et <num>4</num>, et <num>1/4 3</num>, hoc est in summa bariles <num>3/4 34</num>, que vellent esse <num>20</num>,
+scilicet tenimentum superioris foraminis: quare multiplicabis diem <num>1</num> per bariles <num>20</num>, et
+divides per <num>3/4 34</num>, exibunt <num>80/139</num> unius diei pro evacuatione superius foraminis. Item pone
+unum diem in evacuatione barilium <num>15</num> secundi foraminis, in quo per secundum eva-
+cuantur, ut prediximus, bariles <num>1/2 7</num>; per tertium <num>4</num>; per inferius <num>1/4 3</num>, hoc est in summa
+<num>3/4 14</num>, que vellent esse <num>15</num>: quare multiplicabis <num>1</num> per <num>15</num>, et divides per <num>3/4 14</num>, exibit
+dies <num>1/59 1</num> pro evacuatione barilium <num>15</num>. Rursum pone unum diem in evacuatione barilium
+<num>12</num> tertii foraminis, in quo die per ipsum foramen evacuantur bariles <num>4</num>; per inferius <num>1/4 3</num>,
+hoc est per utrumque <num>1/4 7</num>, qui vellent esse <num>12</num>: quare multiplica <num>1</num> per <num>12</num>, et divide
+per <num>1/4 7</num>, exibit dies <num>19/29 1</num> pro evacuatione tertii foraminis. Per inferius vero foramen
+evacuatur residuum in dies <num>4</num>, ut propositum est. Quare addes dies <num>4</num>, et <num>19/29 1</num>, et <num>1/59 1</num>,
+et <num>80/139</num>, et habebis dies <num>7</num>, et horas <num>24/29 5/59 135/139 2</num> pro evacuatione totius buctis.
+<hi rend="italic"> Modus alius de bucte.</hi>
+Et si per unumquodque foramen usque ad ipsum, totam buctem evacuare propo-
+natur in prepositis diebus, pones similiter, ut buctis teneat bariles <num>60</num>: quare per primum
+evacuantur bariles <num>20</num> in uno die. Per secundum <num>20</num> et <num>15</num>, scilicet <num>35</num> in duobus diebus.
+Per tertium <num>20</num>, et <num>15</num>, et <num>12</num>, scilicet <num>47</num> in diebus <num>3</num>. Per inferius evacuantur bariles <num>60</num>, scilicet tota buctis in diebus <num>4</num>. Quare pones in evacuatione barilium <num>20</num> superioris fo-
+raminis diem <num>1</num>. In quo per primum evacuantur bariles <num>20</num>; per secundum <num>1/2 17</num>, scilicet
+dimidium de <num>35</num>; Per tertium <num>2/3 15</num>, scilicet <num>1/3</num> de <num>47</num>. Per inferius <num>15</num>, scilicet quartam
+de <num>60</num>; et sic sunt in summa bariles <num>1/6 68</num>, qui vellent esse <num>20</num>: quare multiplica <num>1</num> per <num>20</num>,
+et divide per <num>1/6 68</num>, exibunt <num>120/409</num> unius diei. Item pro evacuatione barilium <num>15</num> secundi fo-
+raminis pone diem <num>1</num>, in quo per secundum evacuantur bariles <num>1/2 17</num>; per tertium <num>2/3 15</num>;
+per quartum <num>15</num>, hoc est in summa bariles <num>1/6 48</num>, qui vellent esse <num>15</num>: quare multipli-
+cabis <num>1</num> per <num>15</num>, et divide per <num>1/6 48</num>, exibunt <num>90/289</num> unius diei. Rursum pro evacuatione ba-
+rilium <num>12</num> tertii foraminis pone <num>1</num> diem, in quo per ipsum evacuantur bariles <num>2/3 15</num>; per
+ultimum <num>15</num>, hoc est per utrumque <num>2/3 30</num>, qui vellent esse <num>12</num>: quare multiplica <num>1</num> per
+<num>12</num>, et divide per <num>2/3 30</num>, exibunt <num>9/23</num> unius diei. Item pone in evacuatione bariles <num>13</num>
+inferioris foraminis diem <num>1</num>, in quo evacuantur bariles <num>15</num>, qui vellent esse <num>13</num>: quare
+multiplica <num>1</num> per <num>13</num>, et divide per <num>15</num>, exibunt <num>13/15</num> unius diei; quibus iunctis cum <num>9/23</num>,
+et cum <num>120/409</num>, reddunt pro summa diem <num>1</num>, et horas <num>1/5 13/17 16/17 12/23 144/409 10</num> pro evacuatione to-
+tius buctis.
+<pb n="185"/>
+Item est buctis habens inferius foramina <num>10</num>, que per primum evacuatur in <num>1</num> die;
+per secundum in <num>1/2</num> unius diei. Per tertium in <num>1/3</num>, per quartum in <num>1/4</num>, et sic deinceps
+per ordinem, usque quod per decimum foramen evacuatur buctis in <num>1/10</num> unius diei. Que-
+ritur: si foramina insimul aperta fuerint, in quanta diei parte buctis tota erit evacuata.
+Pone, ut buctis evacuetur in una die, in quo per primum foramen evacuatur buctis
+semel; per secundum bis, cum in dimidio diei evacuetur ipsa: quare per tertium eva-
+cuatur ter; per quartum quater; per quintum quinquies, hoc est buctes <num>5</num>; per sextum
+evacuantur buctes <num>6</num>; per septimum <num>7</num>; per octavum <num>8</num>; per nonum <num>9</num>; per decimum <num>10</num>:
+ergo in die <num>1</num> per omnia foramina evacuantur tot buctes, quot sunt in collectione nu-
+merorum, qui sunt ab <num>1</num> usque in <num>10</num>, scilicet <num>55</num>: quare dices: pro die <num>1</num>, qui pono,
+evacuantur buctes <num>55</num>; quid ponam, ut evacuetur buctis <num>1</num>: multiplica <num>1</num> per <num>1</num>, et di-
+vide per <num>55</num>, exibit <num>1/55</num> unius diei pro evacuatione totius buctis.
+<hi rend="italic"> De quatuor hominibus navem locantibus.</hi>
+Quattuor homines naulegiaverunt navem ad honerandum de frumento; et unusquis-
+que eorum quartam honeravit: et primus erat daturus domino navis pro naulo <num>1/3</num> sui
+frumenti; secundus <num>1/4</num>; tertius <num>1/5</num>; Quartus <num>1/6</num>; a quibus habuit dominus navis pro eorum
+naulo modia <num>1000</num>: quare quantitas totius carici navis: pone ut caricum <num>4</num>te partis totius
+navis, scilicet portio uniuscuiusque, sit modia <num>60</num>; quare caricum totius navis erit
+modia <num>240</num>. Et quia primus dedit <num>1/3</num> sui carici; et secundus <num>1/4</num>; tertius <num>1/5</num>; quartus <num>1/6</num>,
+accipe <num>1/6 1/5 1/4 1/3</num> de <num>60</num>, erunt modia <num>57</num>, que vellent esse <num>1000</num>. Quare dices: pro modiis
+<num>240</num>, que pono in carico totius navis, veniunt Nauclerio modia <num>57</num>; quid ponam, ut ve-
+niant ei modia <num>1000</num>: multiplica <num>240</num> per <num>1000</num>, et divide per <num>57</num>, exibunt modia <num>10/19 4210</num>
+pro carico totius navis.
+<hi rend="italic"> De eodem.</hi>
+Et si proponatur, quod dato naulo domino navis, remansisset ei modia <num>1000</num>. Extrahes
+<num>57</num> de <num>240</num>, remanent ei modia <num>183</num>, que vellent esse <num>1000</num>: quare multiplica <num>240</num> per <num>1000</num>,
+et divide per <num>183</num>, exibunt modia <num>29/61 1311</num> pro carico totius navis.
+<hi rend="italic"> De homine retento in obsequio.</hi>
+Quidam retinuit quendam hominem in obsequium. Cui erat daturus in mense nu-
+meros tres, quorum secundus erat denariis <num>2</num> maior primo; et tertius denariis <num>2</num> maior
+secundo, hoc est denariis <num>4</num> maior primo. Et insuper erat ei daturus denarios <num>10</num>. Con-
+tingit autem, quod ipse laboravit dies <num>6</num>, pro quibus dominus operis dedit ei medietatem
+primi numeri. Et tertiam secundi. Et quartam tertii numeri; et fuit persolutus secundum
+quod ei contigit pro hoc, quod laboraverat. Queritur qui fuerunt numeri illi. Quia
+dies <num>6</num>, in quibus laboravit, sunt quinta mensis; scilicet ex diebus <num>30</num> debuit ipse pro
+suo labore recipere <num>1/5</num> omnium trium numerorum dictorum; et de denariis <num>10</num>, pro qua
+<num>1/5</num> dedit eius dominus medietatem primi numeri. Et tertiam secundi. Et quartam tertii. Et
+manifestum est, quod si de secundo numero extrahantur <num>2</num>, et de tertio <num>4</num>, uterque eo-
+rum erunt equales primo numero. Unde extractis <num>2</num> de secundo, et <num>4</num> de tertio; si
+acceperimus medietatem primi, et tertiam secundi, et quartam tertii; ideo accepimus
+<num>1/4 1/3 1/2</num> tantum de primo numero: ergo ut accipiamus <num>1/3</num> de denariis <num>2</num>, in quibus se-
+cundus excedit primum; et <num>1/4</num> de <num>4</num>, in quibus tertius excedit primum, erunt <num>2/3 1</num>: ergo
+dedit ei dominus <num>1/4 1/3 1/2</num> primi numeri, et insuper denarium <num>2/3 1</num>; et fuit tamquam si
+<pb n="186"/>
+dedisset ei <num>1/5</num> omnium trium numerorum, et de <num>10</num>: nam extractis iterum <num>2</num> de secundo
+numero, et <num>4</num> de tertio; et accepto <num>1/5</num> primi numeri, et secundi, et tertii; tantum est
+quantum si acceperimus tantum <num>3/5</num> de primi numeri: deinde remanet, ut accipiatur <num>1/5</num>
+de denariis <num>2</num> prescriptis, qui extracti fuerunt de secundo numero; et de <num>4</num>, qui extracti
+fuerunt de tertio; et de <num>10</num>, hoc est de <num>16</num>, erunt <num>1/5 3</num>: ergo operarius erat recepturus
+<num>3/5</num> primi numeri, et insuper denarios <num>1/5 3</num>; pro quibus recepit <num>1/4 1/3 1/2</num> eiusdem primi nu-
+meri, et insuper denarium <num>2/3 1</num>: quare extrahas <num>2/3 1</num> de <num>1/5 3</num>, remanent <num>8/15 1</num>: ergo <num>1/4 1/3 1/2</num>
+ipsius numeri primi sunt plus <num>8/15 1</num> de <num>3/5</num> eiusdem numeri. Unde inveniendum est nu-
+merus, cuius <num>3/5</num> extractis de <num>1/4 1/3 1/2</num> eiusdem numeri, remaneat <num>8/15 1</num>. Pone, ut numerus
+ille sit <num>60</num>, cuius <num>3/5</num> acceptis, que sunt <num>36</num>; et extractis de <num>1/4 1/3 1/2</num> de <num>60</num>, scilicet de <num>65</num>, re-
+manent <num>29</num>, que vellent esse <num>8/15 1</num>: multiplicabis itaque <num>60</num> per <num>8/15 1</num>, erunt <num>92</num>; que di-
+vide per <num>29</num>, exibunt <num>5/29 3</num> pro quantitate primi numeri: quibus additis <num>2</num>, habebis <num>5/29 5</num>
+pro secundo numero; quibus iterum additis <num>2</num>, habebis <num>5/29 7</num> pro tertio numero.
+<hi rend="italic"> De numero cui super additur</hi> <num>1/4 1/3</num> <hi rend="italic">et</hi> <num>12</num>, <hi rend="italic">et a quo extrahitur</hi> <num>1/6 2/5</num> <hi rend="italic">et</hi> <num>12</num>,
+<hi rend="italic">et nil remanet.</hi>
+Est numerus, super quem si addideris <num>1/4 1/3</num> et <num>12</num>; et de collecta quantitate abstuleris
+<num>1/6 2/5</num> et <num>12</num>, nichil remanebit. Queritur quid sit numerus ille: primum querendum est,
+quis sit numerus, de quo si extraxeris <num>1/6 2/5</num> et <num>12</num>, nichil remaneat. Pro quo pone <num>30</num>, de
+quibus extrahe <num>1/6 2/5</num>, scilicet <num>17</num>, remanent <num>13</num>. Que cum velint esse <num>12</num>; Multiplica <num>12</num>
+per <num>30</num>, erunt <num>360</num>; que divide per <num>13</num>, exibunt <num>9/13 27</num>: pro quibus iterum dices: est nu-
+merus, super quem si addideris <num>1/4 1/3</num> et <num>12</num>, facient <num>9/13 27</num>: quare extrahe <num>12</num> de <num>9/13 27</num>, re-
+manebunt <num>9/13 15</num>: deinde pone, ut ipse numerus sit <num>12</num>, super quem adde <num>1/4 1/3</num> ipsius,
+erunt <num>19</num>; que cum vellent esse <num>9/13 15</num>, Multiplicabis itaque <num>12</num> per <num>9/13 15</num>, et divides per
+<num>19</num>, exibunt <num>4/13 17/19  9</num>; et tot erit numerus ille. Verbi gratia: Accipe <num>1/4 1/3</num> de <num>4/13 17/19 9</num>;
+quas sic accipere eas demonstramus: videlicet ut multiplices <num>9</num> per <num>19</num>, et adde <num>17</num>; que
+per <num>13</num>, et adde <num>4</num>, erunt <num>2448</num>; super que adde <num>1/4 1/3</num> ipsorum, que sunt <num>1428</num>, erunt <num>3876</num>;
+que divide per <num>1/19 0/13</num>. Et ideo primus per <num>19</num>, quam per <num>13</num>; quia <num>3876</num> integraliter di-
+vidantur per <num>19</num>, exibunt <num>9/13 15</num>; super que adde <num>12</num>, erunt <num>9/13 27</num>; de quibus extrahe
+<num>1/6 2/5</num>, que sunt <num>9/13 15</num>, remanent <num>12</num>; que non abieceris, nichil remanebit, ut prepositum est.
+<hi rend="italic"> De numero cui super additur</hi> <num>1/9 3/7</num> <hi rend="italic">et</hi> <num>60</num>.
+Item est numerus, super quem si addideris <num>1/9 3/7</num>, et denarios <num>60</num>; et de collecta summa
+extraxeris <num>1/8 1/5 1/3</num>, et denarios <num>60</num>, nichil remanebit: invenies numerum, de quo extracta
+<num>1/8 1/5 1/3</num>, remaneant <num>60</num>: erit numerus ille <num>25/41 175</num>; de quibus extrahe <num>60</num>, remanent <num>25/41 115</num>;
+pro quibus inveniendus est numerus, super quem si addatur <num>1/9 3/7</num>, faciant <num>25/41 115</num>, quem
+sic invenies. Pone igitur, ut ipse sit <num>63</num>; de quibus accipe <num>3/7</num>, que sunt <num>27</num>. Et <num>1/9</num>, que est
+<num>7</num>, erunt <num>34</num>; que adde cum <num>63</num>, erunt <num>97</num>, que vellent esse <num>25/41 115</num>. Unde multiplicanda
+sunt <num>63</num> per <num>25/41 115</num>, et dividenda per <num>97</num>, exibunt <num>17/41 8/97 75</num> pro quesiti numeri quantitate.
+<hi rend="italic"> Item alia cum similis.</hi>
+Item est numerus, super quem si addideris <num>4/9 3/7 2/5</num> ipsius numeri, et insuper alios
+duos numeros equales quoscumque volueris, et <num>1/5 1/3</num> unius ipsorum numerorum; et de
+collecta quantitate extraxeris <num>3/11 2/9 2/7</num>, et tres numeros tales, quales fuerint ipsi duo,
+quos primum iunxeris, et <num>1/9 1/5</num> unius ipsorum numerorum, nichil remanebit: primum qui-
+dem inveniendi sunt, qui sunt numeri illi, qui debent addi in principio, et extrahi in
+<pb n="187"/>
+ fine; quos sic invenies: videbis quis sit numerus, in quo reperiantur <num>1/5 1/3</num>, et <num>1/9 1/5</num>: qui
+numerus est <num>45</num>; et tot pone pro numero illo. Et quia proponitur in finem, quod extra-
+ctis tribus numeris illis, et <num>1/9 1/5</num> unius illorum, multiplicabis <num>45</num> per <num>3</num>, erunt <num>135</num>; super
+que adde <num>1/9 1/5</num> de <num>45</num>, scilicet <num>14</num>, erunt <num>149</num>: deinde invenias per regulam secundi arboris,
+quis sit numerus, de quo extractis <num>3/11 2/9 2/7</num>, remanent <num>149</num>: que si secundum considera-
+tionem ipsius arboris regulam invenire sciveris, ipsum esse <num>16/819 679</num> invenies: de quibus
+extrahe duplum de <num>45</num>, et insuper <num>1/5 1/3</num> de <num>45</num>, hoc est <num>114</num>, remanebunt <num>16/819 565</num>: pro quibus
+vide per regulam tertie arboris, qualis est numerus, super quem si addideris <num>4/9 3/7 2/5</num>;
+et fiant <num>16/819 165</num>; eritque numerus ille <num>3/4 4/8 2/19 27/179 248</num>: et sic omnes regulas huiusmodi
+operaberis.
+<hi rend="italic"> Questio proposita a quodam constantinopolitano magistro</hi> <num>1/9 1/3</num>.
+Summe <num>1/9 1/3</num> unius numeri, et inde extrahe <num>1/9 1/3</num>; et quod remanet divide in duas tales
+partes, ut multiplices unam partem per <num>1/7 1/2</num>, et aliam per <num>4/9 1/2</num>, et fiant equales. Sic
+facies: pone numerum talem, quod de <num>1/9 1/3</num> ipsius possis <num>1/9 1/3</num> integraliter extrahere; eritque
+numerus ille <num>81</num>: de quo accipe <num>1/9 1/3</num>, scilicet <num>36</num>; et extrahe inde <num>1/9 1/3</num>, scilicet <num>16</num>, rema-
+nebunt <num>20</num>; que oportet dividere in duas tales partes, quod multiplicata una illarum
+per <num>4/9 1/2</num>, faciat tantum, quantum multiplicata alia per <num>1/7 1/2</num>. Quare ut in hac positione
+regulam arborum immitetur, pone quod una partium sit <num>18</num>; que multiplica per <num>4/9 1/2</num>,
+faciunt <num>17</num>: deinde videas per regulam primi arboris qualis est numerus, de quo <num>17</num> sit
+<num>1/7 1/2</num>; eritque numerus ille <num>4/9 26</num>; que adde cum <num>18</num>, erunt <num>4/9 44</num>, qui numerus vellet esse
+<num>20</num>. Multiplicabis igitur <num>18</num> per <num>20</num>, et divides per <num>4/9 44</num>, exibunt <num>1/10 8</num> pro quantitate unius
+partis; a quibus usque in <num>20</num> desunt <num>9/10 11</num>, que sunt alia pars.
+<hi rend="italic"> De cuppa cuius fundus est tertia pars totius cuppe Cupercruum est quarta.</hi>
+Quendam cuppa est, de qua fundus ponderat tertiam totius cuppe; cuperclium vero
+ponderat quartum; residuum vero ponderat libras <num>15</num>: queritur pondus totius cuppe:
+que positio similis est arboris, de quo <num>1/4 1/3</num> latet sub terra; et super terram est palmi
+<num>15</num>. Verbi gratia: cum fundus cuppe sit <num>1/3</num>; et cuperclium sit <num>1/4</num> totius cuppe. Ergo inter
+fundum, et cuperclium sunt <num>1/4 1/3</num> totius cuppe. Et hoc quod remanet ponderat libre <num>15</num>.
+Quare cum de quantitate totius cuppe queratur; ponendum est, secundum eiusdem
+arboris regulam, ut ipsa ponderat aliquem numerum talem, videlicet ut in ipso repe-
+riantur minuta positionis, scilicet <num>1/4 1/3</num>; qui numerus erit <num>12</num>. Quare pone, ut cuppa ponderat
+libre <num>12</num>; qua ratione, fundus cum sit tertiam, cuppa ponderat libre <num>4</num>; et cuperclium, cum
+sit <num>1/4</num>, ponderat libre <num>3</num>. Ergo inter fundum, et cuperclium ponderat libre <num>7</num>: a quibus usque
+in <num>12</num> de sunt libre <num>5</num> pro quantitate residui cuppe, que vellent esse libre <num>15</num>: que cum
+non sint. Multiplicabis <num>12</num> per <num>15</num>, et divides per <num>5</num>; et sic perveniunt <num>36</num> pro pondere
+totius cuppe.
+<hi rend="italic"> Aliter de cuppa.</hi>
+Nam si dixeris, quod fundus ponderet <num>1/3</num> tantum medii et cuperclii. Et coperclium
+ponderet quantum medii, et fundi; medium vero ponderet <num>15</num>: quam positionem, si ad re-
+gulam eiusdem arboris redigere volueris, sic facies: cum fundus ponderet <num>1/3</num> medii, et co-
+perclii. Et si inter coperclium, et medium ponderat <num>3</num>, fundus ponderat <num>1</num>; ergo fundus
+est <num>1/4</num> totius cuppe. Eademque ratione cum coperclium est <num>1/4</num> medii, et fundi; si inter me-
+dium, et fundum ponderant <num>4</num>, coperclium ponderat <num>1</num>: ergo coperclium est <num>1/5</num> totius
+<pb n="188"/>
+cuppe; et ita inter fundum et coperclium sunt <num>1/5 1/4</num> totius cuppe: quare inveniendus
+est numerus, de quo reperiatur <num>1/5 1/4</num>, eritque <num>20</num>, qui exiit ex multiplicatione de <num>4</num> in
+<num>5</num>: de quibus extrahes <num>1/5 1/4</num>, scilicet <num>9</num>, remanent <num>11</num>. Quare multiplica <num>20</num> per <num>15</num>,
+erunt <num>300</num>; que divide per <num>11</num>, exibunt <num>3/11 27</num> pro pondere totius cuppe. Verum si
+unamquamque ipsarum partium reperire volueris, cum fundus sit <num>1/4</num> totus cuppe, sume
+<num>1/4</num> de <num>20</num>, quod est <num>5</num>; que multiplica per <num>15</num>, erunt <num>75</num>; que divide per <num>11</num>, exibunt
+pro pondere fundi libre <num>9/11 6</num>. Item cum coperclium sit <num>1/5</num> totius cuppe. Accipe <num>1/5</num> de <num>20</num>,
+que est <num>4</num>; que multiplica per <num>15</num>, erunt <num>60</num>; que divide per <num>11</num>, exibunt pro pondere
+coperclii libre <num>5/11 5</num>.
+<hi rend="italic"> Item de cuppa.</hi>
+Item est cuppa, cuius fundus est <num>1/4 1/3</num> cuperclii, et medii. Coperclium vero est <num>1/6 1/5</num>
+medii et fundi. Medianus cuppe ponderat libre <num>6</num>. Queritur pondus fundi, et coperclii;
+quia fundus est <num>1/4 1/3</num> residui: ergo si residuum ponderat libre <num>12</num>, et fundus ponderat
+libre <num>7</num>; ergo tota cuppa ponderet libre <num>19</num>: quare fundus ponderat <num>7/19</num> totius cuppe;
+propter eandem rationem coperclium cum sit residui <num>1/6 1/5</num>, erit <num>11/41</num> totius cuppe. Unde
+describe in ordinem <num>11/41 7/19</num>; et multiplicabis <num>7</num>, que sunt super <num>19</num>, per <num>41</num>, erunt <num>287</num>.
+Item multiplicabis <num>11</num>, que sunt super <num>41</num>, per <num>19</num>, erunt <num>209</num>; que adde cum <num>287</num>, erunt
+<num>496</num>: et multiplicabis <num>19</num> per <num>41</num>, erunt <num>779</num>; de quibus extrahe <num>496</num>, remanent <num>283</num>: mul-
+tiplica <num>779</num> per <num>6</num>, erunt <num>4674</num>; que divide per <num>283</num>, exibunt <num>146/283 16</num> pro quantitate pon-
+deris totius cuppe: et si multiplicaveris <num>287</num> per <num>6</num>, et diviseris per <num>283</num>, reperies <num>24/283 6</num>
+pro quantitate fundi. Iterum si multiplicaveris <num>209</num> per <num>6</num>, et diviseris per <num>283</num>, reperies
+libras <num>123/283 4</num> pro pondere coperclii.
+<hi rend="italic"> De IIIIor hominibus denarios habentibus.</hi>
+Quattuor homines habent denarios. Denarii autem primi erant <num>1/4 1/3</num> denariorum alio-
+rum trium: denarii autem secundi erant <num>1/6 1/5</num> aliorum trium: tertii autem erant <num>1/8 1/7</num> alio-
+rum trium. Denarii autem quarti erant <num>27</num>. Queritur quot denarios unusquisque reli-
+quorum habebat: hec questio eandem retinent regulam cuppe sic: quod cum denarii
+primi hominis sint <num>1/4 1/3</num> denariorum reliquorum trium hominum; ergo habet ipse <num>7/19</num> to-
+tius summe eorum quattuor. Propter eadem et secundus habet <num>11/41</num> eiusdem summe.
+Et cum tertius habeat <num>1/8 1/7</num> reliquorum: ergo si ipsi tres habent denarios <num>56</num>, et ipse
+habet <num>1/8 1/7</num> illorum, hoc est <num>15</num>; ergo inter omnes habent denarios <num>71</num>; de quibus ipse
+habet <num>15/71</num>: ergo assimilatur hec questio arboris, vel numero; de quo, extractis <num>15/71 11/41 7/19</num>,
+remanent <num>27</num>: quod sic facias: multiplica <num>7</num>, que sunt super <num>19</num>, per <num>41</num>; que per <num>71</num>,
+erunt <num>20377</num>, que pone super <num>7/19</num>. Iterum multiplica <num>11</num>, que sunt super <num>41</num>, per <num>71</num>; que
+per <num>19</num>, erunt <num>14839</num>, que pone super <num>11/40</num>. Rursus multiplica <num>15</num>, que sunt super <num>71</num>, per
+<num>41</num>; que per <num>19</num>, erunt <num>11685</num>, que pone super <num>15/71</num>: adde itaque <num>20377</num> cum <num>14839</num>, et cum
+<num>11685</num>, erunt <num>46901</num>; que extrahe ex multiplicatione de <num>19</num> in <num>41</num>, et in <num>71</num>, scilicet de
+<num>55309</num>, remanebunt <num>8408</num>; quibus reperies regulam que est <num>1/8 0/1051</num>. Et multiplica <num>20377</num> per
+<num>27</num>, erunt <num>550179</num>; que divide per <num>1/8 0/1051</num>. Et multiplica <num>20377</num> per <num>27</num>, erunt <num>550179</num>; que di-
+vide per <num>1/8 0/1051</num>, exibunt denarii <num>3/8 4/10 57/51 65</num>; et tot habuit primus homo. Item multiplica
+<num>14839</num> per <num>27</num>, erunt <num>400653</num>; que divide per <num>1/8 0/1521</num>, exibunt denarii <num>5/8 684/1051 47</num>; et tot habuit
+secundus. Item multiplica <num>11685</num> per <num>27</num>, erunt <num>315495</num>; que divide per <num>1/8 0/1051</num>, exibunt de-
+narii <num>7/8 6/10 49/51 37</num>; et tot habuit tertius.
+<pb n="189"/>
+<hi rend="italic">Questio nobis proposita a peritissimo magistro musco constantinopolitano
+in constantinopoli.</hi>
+Item quinque homines bizantios habentes navem emere voluerunt; quorum primus
+petit <num>1/5 2/3</num> reliquis IIIIor ipsorum bizantiorum. Secundus petit <num>1/480 1/6 2/3</num>; tercius petit re-
+liquis <num>1/638 1/6 2/3</num>; quartus petit <num>1/420 1/7 2/3</num>. Quintus petit reliquis <num>1/810 1/27 1/10 2/3</num>. Quam questionem
+ita ad suprascriptam regulam reducere studui. Quia primus petijt <num>1/5 2/3</num> , ipsas duas vir-
+gulas in unam virgulam reduxi sic quod vidi de <num>1/5 2/3</num>, in quo numero reperirentur, vi-
+delicet in <num>15</num>; et accepi de <num>2/3</num> de <num>15</num>, que sunt <num>10</num>, et <num>1/5</num> de <num>15</num>, que est <num>3</num>; et iunxi in-
+simul, et fuerunt <num>13/15</num>. Item eademque ratione de <num>1/480 1/6 2/3</num>, que petijt secundus, feci aliam
+vergulam, que est <num>401/480</num>. Iterum de <num>1/638 1/6 2/3</num> feci aliam virgulam, scilicet in <num>341/420</num>. Adhuc redigi
+minuta petitionis quinti hominis, scilicet <num>1/810 1/27 1/10 2/3</num> in aliam virgulam, scilicet in <num>326/405</num>,
+et posui per ordinem <num>326/405 341/420 799/957 401/480 13/15</num>; et habui eos pro prima positione. Deinde extraxi
+<num>13</num> de <num>15</num>, remanserunt <num>2</num>; super que posui <num>13</num> cum virgula sic : <num>13/2</num>, quamvis non sit
+maior numerus super virgulam ponendus. Item extraxi <num>401</num> de <num>480</num>, remanent <num>79</num>; super
+que posui <num>401</num> cum virgula sic: <num>401/79</num>. Item extraxi <num>799</num> de <num>957</num>, remanserunt <num>158</num>; super
+<pb n="249"/>
+quem posui <num>799</num> cum virgula <num>779/158</num>. Rursus minui <num>341</num> de <num>420</num>, remanserunt <num>79</num>; super
+que posui <num>341</num> sic: <num>341/79</num>. Adhuc extraxi <num>326</num> de <num>405</num>, remanserunt <num>79</num>; super que posui <num>326</num>
+sic <num>326/79</num>. Postea posui ex parte sub prima positione <num>326/79 341/79 779/158 401/79 13/2</num>. Et habui eas
+pro secunda positione, ut hic ostenditur. Deinde inveni <num>158</num>, in quibus reperiuntur
+omnes rupti secunde positionis; et multiplicavi ipsa <num>158</num> per <num>13</num> prime positionis, et
+divisi per <num>2</num>, que sunt sub prima virgula secunde positionis, exierunt <num>1185</num>: adhuc
+multiplicavi <num>158</num> per <num>480</num>, et divisi per <num>79</num>, hoc est duplicavi <num>480</num>, et habui <num>960</num>. Item
+multiplicavi prescripta <num>158</num> per <num>957</num> prime, et divisi per <num>158</num>, exierunt inde <num>957</num>. Rursus
+multiplicavi eadem <num>158</num> per <num>420</num>, et divisi per <num>79</num>, que sunt sub <num>341</num>, exierunt <num>840</num>. Et
+adhuc multiplicavi <num>158</num> per <num>405</num> prime positionis, et divisi per <num>79</num> que sunt sub <num>326</num>
+secunde, exierunt <num>810</num>: cum quibus iunxi <num>1185</num>, et <num>960</num>, et <num>957</num>, et <num>840</num> modo inventis,
+fuerunt <num>4752</num>; que cum debui habere pro summa cunctorum bizantiorum illorum quinque
+hominum, et multiplicare <num>158</num> per numerum hominum, uno inde extracto, scilicet per
+<num>4</num>, reliqui quod non multiplicavi <num>158</num> per <num>4</num>, sed servavi ea pro residuo, quod remanet
+semper IIIIor hominibus. Post emptionem navis, ideo quia bizantij <num>4752</num> integraliter
+per prescripta <num>4</num> dividi possunt. Unde divisi <num>4752</num> per <num>4</num>, exierunt bizantij <num>1188</num>, quos
+habuimus pro summa illorum quinque hominum; ex quibus extraxi servatuum residuum,
+scilicet <num>158</num>, remanserunt pro pretio navis bizantij <num>1030</num>: deinde ut haberem bizantios
+primi hominis, accepi <num>13/2</num> de <num>158</num>, hoc est quod multiplicavi <num>158</num> per <num>13</num>, et divisi per
+<num>2</num>, exierunt <num>1027</num>; que extraxi de pretio navis, scilicet de <num>1030</num>, remanserunt bizantij
+<num>3</num>; et tot habuit primus. Deinde ut haberem bizantios secundi, multiplicavi <num>158</num> per
+<num>401</num>, que sunt super <num>79</num>, et divisi per ipsum <num>79</num>; et hoc est quod accepi <num>401/79</num> de <num>158</num>,
+que sunt <num>802</num>, que extraxi de <num>1030</num>, remanserunt bizantij <num>228</num>; et tot habuit secundus.
+Item ut haberem bizantios tercij hominis, accepi <num>799/158</num> de <num>158</num>, videlicet de prescripto
+residuo, fuerunt itaque <num>799</num>; que extraxi de <num>1030</num>, remanserunt bizantij <num>231</num>; et tot
+habuit tercius. Iterum accepi <num>341/79</num> de <num>158</num> sic quod divisi <num>158</num> per <num>79</num>, exierunt <num>2</num>; que
+multiplicavi per <num>341</num>, et habui <num>682</num>; que extraxi de <num>1030</num> predictis, remanserunt <num>348</num>; et
+tot habuit quartus. Similiter accepi <num>326/79</num>, scilicet quintam virgulam secunde positionis
+de <num>158</num>, et fuerunt <num>652</num>; que extraxi de <num>1030</num>, remanserunt <num>378</num>; et tot habuit quintus.</p>
+
+</div1>
+<div1 type="capitolo"><head><add>Esempi di calcolo degli interessi.</add></head>
+<p>
+<pb n="250"/>
+<hi rend="italic"> De duobus hominibus, qui habuerunt societatem in constantinopoli.</hi>
+Duo homines pariter in constantinopolim habuerunt insimul societatem; quorum unus
+perrexit alexandriam negotiandi causa, et tulit secum de comuni hentica quantum libuit;
+stetitque ibi annis <num>5</num>, et diebus <num>70</num>, et lucrabatur quintam sui capitalis in uno quoque
+anno, et inde expendebat per annum bizantios <num>25</num>. Alius qui remanserat constantino-
+polim lucrabatur in uno quoque anno septimam sui capitalis; et inde expendebat bizan-
+tios <num>37</num>. In fine autem dictorum <num>5</num> annorum, et <num>70</num> dierum, cum socijs  eius fuisset
+reversus, nil ei remansit; et socius eius lucratus fuit in suprascripto termino quantum
+a principio socio suo remanserat. Queritur, quantum unusquisque habuit de eorum
+hentica comuni. In hac questione due viagiorum regule, vel domus competenter possunt
+intelligi: prima quidem de ipso, qui constantinopolim remanserat, cum in unoquoque
+anno septimum sui capitalis lucraretur, talis est ac si diceretur, quod de <num>7</num> faciebat
+<num>8</num>; pro <num>5</num> enim annis, et diebus <num>70</num>, viagij <num>5</num>, et <num>70/360</num> unius viagij intelligitur. Et expen-
+dium unius cuiusque anni, quod faciebat, scilicet bizantij <num>37</num>, est tantum, quantum si
+diceres, quod in uno quoque viagio ipsos expenderet; vel quod in uno quoque anno ex-
+computabat ipsos pro pensione domus: et cum ei nil remansisse proponatur, inci-
+piendum est, secundum regulam domus, ab illis <num>70</num> diebus, videlicet ut invenias de
+quanto capitali potuit facere expendium, quod in illis <num>70</num> diebus fecerat; quod sic
+<pb n="274"/>
+invenire per regulam domus docuimus: scilicet quia cum in anno de <num>7</num> facit <num>8</num>; ergo
+in diebus <num>70</num> de <num>7</num> facit <num>7/30 7</num> unius bizantij, cum ipsi <num>70</num> dies sint <num>7/36</num> unius anni: ergo
+de <num>252</num> facit <num>259</num>, hoc est quod de <num>36</num> facit <num>37</num>. Quare describendi sunt <num>36/37</num>; deinde videas
+quantum expendium accidit illis diebus <num>70</num>. Multiplica enim expendium anni, scilicet
+<num>37</num> per dies <num>70</num>; et divide per <num>360</num>, exibunt bizanti <num>3/4 1/9 7</num>; et tantum est expendium <num>70</num>
+dierum; quod multiplica per <num>36</num>, que sunt super <num>37</num>; et divide per ipsa <num>37</num>, exibunt
+bizanti <num>7</num>; et tantum habuit ipse post moram quinque annorum. Deinde ex anno in
+annum usque quod ad caput primi anni devenies, sicuti in domus regula fecimus, stu-
+deas operari; videlicet ut cum repertis modo septem bizanthijs addas expendium quinti
+anni, scilicet <num>37</num>, erunt <num>44</num>; que multiplica per <num>7</num>, et divide per <num>8</num>; ideo quia de <num>7</num> facit
+<num>8</num>, exibunt <num>1/2 38</num>; et tantum remanserat ei, cum iam IIIIor transierant anni: super quos
+adde expendium quarti anni, scilicet <num>37</num>, erunt bizantij <num>1/2 75</num>; que multiplica per <num>7</num>,
+et divide per <num>8</num>, exibunt bizantij <num>10/28 66</num>; et tantum remansit ei post triennium: cum
+quibus adde expendium tercij anni, videlicet <num>37</num>, erunt <num>10/28 103</num>; que multiplica per <num>7</num>,
+et divide per <num>8</num>, exibunt bizantij <num>1/2 3/8 1/8 90</num>; et tantum remansit ei post biennium:
+cum quibus additis bizantijs <num>37</num>, quos expenderat in secundo anno, erunt <num>1/2 3/8 1/8 125</num>;
+que multiplica per <num>7</num>, et divide per <num>8</num>, exibunt bizantij <num>1/2 0/8 2/8 2/8 111</num>; et hoc est quod
+remanserat ei post expendium primi: cum quibus additis bizantijs <num>37</num>, scilicet ipsius
+anni expendium, erant bizantij <num>1/2 0/8 2/8 2/8 148</num>; quos multiplica per <num>7</num>, et divide per <num>8</num>;
+que multiplicatio sic fit: protrahes virgam, sub qua sint <num>2</num>, et <num>8</num>, et <num>8</num>, et <num>8</num>, sicuti sunt
+sub virga numeri, quem multiplicare vis per <num>7</num>; sub qua etiam ex parte dextra pones
+<num>8</num>, scilicet divisorem, et multiplicabis <num>7</num> per <num>1</num>, quod est super <num>2</num>, et erunt <num>7</num>; que di-
+vides per eadem <num>2</num>, exibunt <num>3</num>, et remanet <num>1</num>: pone remanens <num>1</num> super <num>2</num>, et <num>3</num> serva
+in manu; et multiplica <num>7</num> per <num>0</num>, quod est super <num>8</num>, veniet <num>0</num>, quod adde cum <num>3</num> ser-
+vatis, erunt <num>3</num>; que divides per <num>8</num>, qui inter divisores octonarios est primus divisor,
+exibit <num>0</num>, et remanent <num>3</num>: pone <num>3</num> super ipsa <num>8</num>, et multiplica <num>7</num> per <num>2</num>, que sunt super
+secundum octonarium, erunt <num>14</num>; quibus divisis per eadem <num>8</num>, exijt <num>1</num>, et remanent <num>6</num>:
+pone <num>6</num> super <num>8</num>, qui inter divisores octonarios est secundus, et reserva <num>1</num>; et multi-
+plica <num>7</num> per <num>2</num>, que sunt super <num>8</num> in ultimo virge, erunt <num>14</num>; cum quibus adde unum
+servatum, erunt <num>15</num>; que divide per penultima <num>8</num> virge servate, exibit <num>1</num>, et remanent
+<num>7</num>: pone <num>7</num> super ipsa <num>8</num>, et serva <num>1</num>; quod adde multiplicationi de <num>7</num> in <num>148</num>, erunt <num>1037</num>;
+que divide per <num>8</num>, que sunt ultima sub virga protracta, exibunt bizantij <num>1/2 3/8 6/8 7/8 5/8 129</num>;
+et tantum habuit de comuni hentica ipse, qui constantinopolim remanserat. Deinde ac-
+cedendum est ad eum, qui alexandriam perrexerat; quod secundum viagiorum vel do-
+mus regulam oportet operari, scilicet per eam, in qua preponitur de ipso, qui tenuerat
+domum annis <num>5</num>, et diebus <num>70</num>; et super ipsius capitale lucratus fuit in finem bizantios
+<num>1/2 3/8 6/8 7/8 5/8 129</num>, videlicet eos, qui remanserunt ei, qui constantinopolim permanserat: que
+sic superius esse operanda demonstravimus, videlicet ut primum inveniatur de quantis
+bizanthijs potest tantum proficuum habere, unde possit de proficuo facere expendium;
+et ipsi in finem non comminuantur; qui sic invenientur. Accipe bizantios <num>25</num>, qui sunt
+expendium, et multiplica eos per <num>5</num>. Ideo quia lucrabatur <num>1/5</num> sui capitalis, erunt <num>125</num>;
+de quorum lucro potes facere expendium; et in fine non comminuentur. Deinde quia
+de <num>5</num> facit <num>6</num>, scribende sunt <num>5/6</num> quinquies propter annos <num>5</num> sic: <num>5/6 5/6 5/6 5/6 5/6</num>. Rursum
+<pb n="275"/>
+quoniam in uno quoque anno de <num>5</num> facit <num>6</num>; ergo in diebus <num>70</num> de <num>5</num> facit <num>7/36 5</num>, hoc est,
+quod de <num>180</num> facit <num>187</num>: quare ponenda sunt <num>180</num> super <num>187</num>, et describenda in ordine cum
+alijs <num>5/6</num> sic: <num>180/187 5/6 5/6 5/6 5/6 5/6</num>: deinde multiplica omnes numeros, qui sunt super virgulis,
+erunt <num>562500</num>, que habeantur loco capitalis; que extrahe ex multiplicatione numerorum,
+qui sunt sub virgulis, que est <num>1454112</num>, que habentur loco capitalis, et lucri, remanent
+<num>897612</num> pro lucro: in quorum regula divide multiplicationem de <num>5625</num> in <num>1/2 3/8 6/8 7/8 5/8 129</num>, sci-
+licet in capitale ipsius, qui constantinopolim remanserat, exibunt bizanti <num>171402169/2888824767 81</num>,
+qui sunt bizantij; cum quibus ipse absque expendio lucratus fuerit bizantios, qui re-
+manserunt, qui constantinopolim remanserat: cum quibus adde <num>125</num>, cum quibus totum
+expendium lucrabatur, erunt bizantij <num>1714021169/2888824767 206</num>; et tantum portavit de co-
+muni hentica ipse, qui in alexandriam perrexerat.</p>
+<pb n="276"/>
+</div1>
+</body>
+</text>
+</TEI.2>

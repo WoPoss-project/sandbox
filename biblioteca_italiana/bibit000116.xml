@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Il Costante overo de la Clemenza</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>62 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000116</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="grc">Greco antico</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+<p>Al serenissimo signor Ferrante de' Medici,
+granduca di Toscana.</p>
+
+	<p>Le virtù, serenissimo principe, sono collegate fra se medesime come le scienze, in guisa che non è alcun altro nodo più saldo o altra catena più forte, quantunque fosse di ferro o d'acciaio o d'altra più dura materia; nondimeno per imperfezione e per ignoranza de gli uomini si veggono le più volte divise e separate: laonde chi d'una e chi d'una altra virtù è lodato, e di rado aviene ch'alcuno di tutte possa esser commendato. Ma fra que' pochi fu il gran Cosimo, padre di Vostra Altezza; anzi i duo gran Cosimi e gli altri suoi antecessori, per opera de' quali le virtù disgiunte si ricongiunsero ne' medesimi soggetti e si ristrinse quella catena che per la malvagità o per la perversa cognizione era disciolta, o più tosto spezzata; però di niuna amistà, di niuna lega, di niuna unione meritarono maggior gloria che di questa, per la quale non solamente acquistarono, ma conservarono e accrebbero il principato di Toscana. Ne l'altre unioni ebbero parte gli amici, i ministri, i principi italiani e stranieri, gli esserciti, le congregazioni de' cittadini, il favor de la fortuna medesima; ma in questa o niuno altro fu partecipe de la gloria o non n'ebbero parte maggiore. </p>
+	<p>Gloriosissima adunque oltre tutte l'operazioni e oltre tutte l'imprese de la casa de' Medici è l'avere imposto fine a la discordia de le virtù e congiunta in amicizia la fortezza e la mansuetudine, la magnanimità e la modestia, la liberalità e la magnificenza, la severità e la piacevolezza, la giustizia e la clemenza e tutte l'altre ne l'istesso modo Onde ciascuna opera fatta da loro par compiuta con tutte insieme; e così è malagevole il distinguer di qual virtù sia propria, come è il discerner le voci ne l'armonia di molti cantori e di vari istrumenti, o gli odori ne la mistione de' fiori e d'altre cose odorate, o i raggi ne la multitudine d'infiniti lumi e de le stelle medesime, perché da tutte insieme esce quello splendore che fa la virtù de la casa de' Medici lucente e luminosa in Italia e in ciascuna parte d'Europa e del mondo. </p>
+	<p>Ma del granduca suo padre si può affermare particolarmente che dopo sì lungo corso d'anni e di secoli e dopo tante mutazioni di regni e di provinzie niuno nascesse più somigliante ad Augusto o ne l'altezza de l'animo o ne la sapienza civile, anzi regia, o ne l'arti d'acquistare e di conservar l'imperio, o ne la prosperità de la fortuna o nel favore del cielo, maravigliosamente dimostrato, e ne la disposizione de le stelle e de' pianeti; ma non tanto ha ceduto il granduca ad Ottaviano ne la grandezza de l'imperio, quanto l'ha superato ne la felicità de' successori, avendo lasciato il granduca Francesco e Vostra Altezza eredi non solo de gli stati ma de la gloria e de la virtù, che sono i veri fondamenti de' regni e de gli imperi. Però da niuno altro più volentieri deono esser lette le cose scritte, lodando il padre, che da' figliuoli c'hanno saputo imitarlo e potuto agguagliarlo. Fu similissimo, come scrivono, il gran Cosimo ad Augusto ne la clemenza, dimostrata in molte occasioni e specialmente in un bando co 'l quale restituì tutti i suoi cittadini a la patria, da la quale con la severità de gli altri editti sogliono esser discacciati; e s'i Fiorentini sono simili a l'api, che si spargono per varie parti nel raccogliere il mele, come è stato scritto, parimente il granduca poteva esser chiamato quasi il re de l'api, ch'essendo armato da la natura, non adopera l'aculeo. Fu dunque in ciò eguale a Ciro, ad Alessandro, ad Ottavio e a gli altri ottimi imperatori: laonde tutto ciò ch'io scrissi de la clemenza, o de la clemenza d'Augusto, si conviene al granduca Cosimo come sua propria lode e particolare perfezione; e Vostra Altezza, come erede e imitatore de la virtù e de la grandezza del padre, non dee disprezzar questo dono, qualunque egli sia: ma senza dubbio è di quella sorte ch'a' principi può essere appresentato senza riprensione di chi dona e con laude di chi riceve. </p>
+	<p>Ma Vostra Altezza, ch'in tutte le vite e in tutte l'altre virtù è lodatissima, in questa de la clemenza non ha peraventura avuta altra occasione di manifestarla per la tranquillità de' suoi tempi e per la benevolenza di Toscana e d'Italia tutta, da lei meritata; onde la sua felicità può aver questo obligo a la mia infelicità, di mostrar, dico, questa oltre molte sue nobilissime virtù prima conosciute e d'accomunar con gli altri principi questo dono, ch'è suo proprio, persuadendoli co 'l suo essempio ad usar meco quegli atti di clemenza che sono quasi dovuti a le lunghe fatiche durate da me ne gli studi, a l'intenzione che io ho avuta di celebrargli ne' miei componimenti, e a le mie tante e sì gravi e sì continue avversità. E a Vostra Altezza serenissima fo umilissima riverenza. </p>
+
+</div1>
+<titlePage>
+<docTitle>
+<titlePart type="main"> IL COSTANTE OVERO DE LA CLEMENZA</titlePart>
+</docTitle>
+</titlePage>
+
+<castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>ANTONINO COSTANTE, </role></castItem> <castItem type="role"><role>TORQUATO TASSO. </role></castItem></castList>
+
+
+
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<stage>Io era per molte occupazioni sollecito e per varie sollecitudini occupato, quando, sopragiungendomi quasi a l'improviso il signor Antonino Costante, gentiluomo di belle lettere, mi vide con un libro chiuso davanti non in guisa d'uomo il quale sia intento a la contemplazione, ma quasi entrato in fiera e spiacevol maninconia, e mi disse:</stage>
+	<stage>Non so se questa mia visita sarà importuna, portando alcuno impedimento al vostro studio. </stage>
+	<sp><speaker>T.T.</speaker><p> Non è studio il mio, ma altro pensiero, come potrete comprendere dal libro serrato.</p></sp>
+	<sp><speaker>A.C.</speaker><p> Voi studiate più contemplando che leggendo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>Io soleva contemplar molto e legger poco, mentre la mia giovanezza fu tutta sottoposta a l'amorose leggi; ma ne l'età matura, sperimentata negli affanni, molto lessi e poco io contemplai. Ora né di leggere ho talento né di contemplare, ma de le cose lette e de le contemplate conservo quella medesima imaginazione ch'il vecchio muro già cadendo i colori, suol ritener de le pitture scolorite e affumicate; e se talora leggo alcuna cosa, il fo per debito o, come dicono, per creanza: né per altra cagione ho trascorso questo libro <emph>De le virtù de' costumi</emph>, il quale è opera del signor Francesco Piccolomini, che fu già in Padova mio dottore, ma non de la moral filosofia. De la naturale molte cose appresi da lui ne le publiche scuole, le quali non ritengo più fermamente ne la memoria: e s'è lecito il dir la verità, ne la grandissima copia di questo dottissimo filosofo ho riconosciute alcune considerazioni de la mia fanciulezza, ch'a lui non ebbi ardimento di palesare, non altrimenti che l'acque del fiume si conoscano al colore e al sapore in mezzo a quelle del mare: perché mare veramente e oceano d'ogni scienza sono i suoi scritti; i miei somigliano un picciol rivo o un ruscello chiuso intorno di verdissimi aranci e di cedri o simile a quelli che, coperti da l'ombre degli alberi frondosi, dividono i campi de la vostra Lombardia. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Nostra devevate dir più tosto. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Io son tutto di questo paese ov'io nacqui, intanto che non lascio parte alcuna di me a quella che fu stimata mia patria, non ch'al paese o a le nazioni straniere. Laonde a queste acque debbo trarmi la sete la quale non ho potuto estinguer ne' fonti de l'oceano. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Di qual sete e di quai fonti volete ch'io intenda? </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Chiamo sete l'amor del sapere:
+
+	<quote rend="block"><lg>
+<l>che m'ha sì acceso</l>
+<l>Che l'opra è ritardata dal desio.</l>
+</lg></quote></p>
+
+<p>E siami lecito usar insieme le parole di due eccelentissimi poeti; ma fonti de l'oceano i' chiamava i libri del Piccolomini e gli altri, ne' quali non ho mai imparato quel che sia la clemenza, come non imparai in que' d'Aristotele: intendo de' <emph>Morali</emph>, perché negli altri, dove s'insegna a disputare, io non appresi di vivere, ma di questionare. Ora assai mi doglio che nel vivere e nel litigare ho la medesima difficoltà: e mi lamento che da questi libri sia bandita la clemenza, come da quelli di Stobeo l'amicizia; però, altro Ciro, estimava necessario ch'in quella medesima guisa introducesse la clemenza errante a rammaricarsi del suo essilio. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Se l'equità e la clemenza sono l'istessa, non è la clemenza bandita da' libri d'Aristotele. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ne' latini almeno letti da me o non si legge il suo nome o non in tutte le traduzioni; ma io ora non considero se vagliono l'istesso appresso Greci il nome <emph><foreign lang="grc">praótis</foreign></emph> e l'altro <emph><foreign lang="grc">epieíkeia</foreign></emph> o pur <emph><foreign lang="grc">omalóteta</foreign></emph>, o s'altri sono che significhino il medesimo e siano, come si dice, sinonimi; ma più tosto vo considerando s'Aristotele abbia attribuito l'istessa o diversa materia a queste virtù. Io dico a la mansuetudine, a l'equità e a la clemenza; perché la prima pare occupata nel moderar l'ira, la quale è passione interna degli animi nostri, la seconda è intenta a diminuire il rigor de la legge scritta e de le pene, che sono cosa esteriore: laonde paiono più tosto conformi nel modo che ne la materia; ma la clemenza par quasi composta di queste due, sì come quella che dentro e di fuori fa le sue operazioni e non par contenta d'uno di questi offici solamente. Oltre acciò, s'io ben considero, a l'equità s'appertiene aver riguardo a l'intenzione del legislatore ne le cose de le quali è scritta alcuna legge, non a le parole di quella; ma la clemenza, come alcuno estima ammollisce, gli animi di coloro c'hanno podestà di punire, con qualche tenerezza d'affetto: e, s'io non m'inganno, in quelle cose ancora de le quali non è scritta legge alcuna; perché si volge intorno al medesimo subietto con la severità almen di lontano considerando ambeduo le pene, ma questa l'intiere, quella le menomate. Ma la severità senza fallo apparisce negli avenimenti de' quali non furono scritte leggi, come nel commandamento di Torquato, che niuno combattesse contra i nemici, e in quello di Domizio, il quale, avendo in Sicilia proibiti gli spiedi perch'erano arme de latroni, crucifisse un pastore che con l'istesso ferro aveva ucciso un grandissimo cinghiale e presentatogliele; o ne la morte di Manlio, precipitato, dal Campidoglio, dal quale aveva cacciati i Sennoni, dando occasione a la legge la qual dapoi fu scritta, ch'a niun patricio fosse lecito d'abitare in Campidoglio. Nel medesimo accidente nondimeno, prima che si scrivesse alcuna legge, poteva manifestarsi la clemenza: e più agevolmente ne l'infelice dono di quel misero pastore o nel giovenile ardimento di Torquato. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Di tutte le cose oggi son fatte le leggi, e de le caccie ancora sono in vece di leggi i publici bandi; e bench'i particolari siano infiniti, tutte le materie nondimeno si riducono o si possono ridurre a capi. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Se ciò è fatto o se fosse possibile a farsi, de le nostre leggi si farebbe un'arte o una scienza, come par che disegnasse Crasso ne le dispute de l'<emph>Oratore</emph>. Ma non concedendomi voi che la clemenza sia ancora de le cose non iscritte mi concederete almeno che questa virtù non sia più antica de la legge scritta. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Di leggieri ciò vi fia conceduto. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Fu dunque prima la legge scritta, dapoi entrò nel mondo la disobedienza o 'l peccato; ultimamente la clemenza per temperar il soverchio rigore de la scritta legge, almeno in que' particolari che non potevano esser proveduti perché sono infiniti. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così pare assai ragionevole. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Non è dunque la clemenza una antica virtù come la giustizia: perché la giustizia è ne le potenze de l'animo assai prima che si scrivesse la legge, come stimò Platone. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Per questa ragione assai più giovane è la clemenza, e per consequente men rigorosa: laonde l'una si potrebbe dipingere con aspetto di vecchia severa e terribile, l'altra con piacevoli sembianti, come si dipinge la giovanezza. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Se cotesto fosse vero, la clemenza sarebbe umana virtù, non divina, perché tutte le cose degli uomini hanno avuto principio di tempo, qual prima, qual poi. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Umana, anzi umanissima virtù è la clemenza, come stimò Seneca, il qual disse che niuna virtù era più umana di lei. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Forse l'affermò avendo riguardo a la nostra infermità e debilezza, da le quali procede la misericordia similmente. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Questa ragione non molto mi spiace. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma se ciò fosse vero, i più deboli sarebbono i più clementi, come i vecchi e le donne e i fanciulli; Seneca nondimeno vuoi che la clemenza convenga a' re oltre tutti gli altri a' quali parimente conviene la fortezza. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Questa fu senza fallo la sua opinione. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma i grandissimi re s'assomigliano al re de' regi e ne le virtù cercano d'assomigliarlo, perch'in terra sono quasi simolacri de la divinità: laonde io avrei creduto più tosto che questa virtù fosse divina e senza alcuna passione de l'animo. E mi confermava in questa credenza un mirabil silenzio d'Aristotele, il qual di lei non volle ragionare in que' libri dove egli c'insegnò le virtù morali e civili, e dove fa tante distinzioni de la giustizia universale, particolare, propia e per similitudine, naturale e legitima, distributiva e correttiva; ma non par che tra queste conceda il suo luogo a la clemenza, quasi ella non sia virtù degli uomini, ma degli iddii più tosto: ma ne la <emph>Topica</emph> afferma che 'l forte e 'l clemente non hanno passione. In questo errore similmente m'indusse Plutarco, grandissimo filosofo fra' Peripatetici, percioch'in quella operetta ch'egli scrisse, <emph>De la tarda vendetta d'Iddio</emph>, si legge che la mansuetudine e la toleranza de l'ingiurie è una parte de la divina virtù, con la quale Iddio ci dimostra come con la pena de pochi molti s'amendino e dal tardo castigo molti sian corretti e molti n'abbiano giovamento. Una altra parte ancora, sa non l'istessa, io credeva che fosse la clemenza: la qual, s'umana fosse, s'annoverarebbe peraventura fra' costumi ch'i Greci chiamano <emph><foreign lang="grc">tórpus</foreign></emph>, per la mutazione; come si legge di Cecrope, che da gli antichi fu detto biforme, non perché di buon re divenisse tiranno crudele, imitando la natura del dragone, ma per esser prima stato terribile e di perversa natura, e poi dimostratosi umano nel ragno. All'incontro Nerone di clemente principe negli ultimi anni de l'imperio diventò, o almeno si manifestò, inclementissimo tiranno. </p></sp>
+	<sp><speaker>A.C.</speaker><p> È senza dubbio mutazione ne' costumi de' principi, e alcuna volta in meglio, cioè da la ferità ne la clemenza. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Devrebbe farsi avanti gli abiti confermati; ma se ciò avenisse, si potrebbe conchiudere ch'ella fossa umana virtù: ma io sono assai dubbio di questa conchiusione, e 'l dubbio nasce ancora per le cose ultimamente dette da noi, cioè che la mutazione si faccia da la ferità ne la clemenza; perché, s'io non sono errato, le mutazioni tutte si fanno ne' contrari. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così insegna Aristotele. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Dovendosi adunque far la mutazione da la ferità ne la clemenza, ne segue che l'una sia a l'altra contraria. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Non mi pare inconveniente. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Dunque la clemenza è anzi divina virtù, perch'a le cose ferine non s'oppongono l'umane, ma le divine più tosto, e l'umane paiono poste in mezzo fra l'une e l'altre e quasi participar degli estremi: però l'uomo da' greci teologi fu assomigliato al centauro, sì come colui ch'avendo insieme la ragione e 'l sentimento, par che congiunga la natura divina con quella de le fiere. Aristotele ancora oppose a la ferità la virtù eroica, la quale egli chiama divina. Siamo adunque sin ora dubbi per molte ragioni se la clemenza sia divina o umana virtù; e s'ella è divina solamente, è scusato Aristotele perché di lei non facesse menzione, lasciandola fra l'altre forme che sono ne la mente divina e poco giovano a l'umane operazioni, com'egli questionando volle provare; ma se per participazione o per imitazione de le virtù divine l'uomo può divenir virtuoso, può divenir clemente senza fallo. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così debbiam credere più tosto. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Alcuno per mio aviso divenne giusto, imitando la divina giustizia o di lei participando; altri forte, altri tolerante, altri temperante, altri, come dicemmo, mansueto, altri con l'istesso modo de' suoi doni e de' suoi guiderdoni abbondantissimo donatore. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così avenne senza fallo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Dunque ne l'istessa guisa altri è divenuto o potrebbe divenir clemente; ma se la clemenza è si fatta, debbiam porre in Dio le virtù essemplari, come posero fra i Platonici Plotino e Macrobio e fra i nostri teologi il lume e lo splendor de la gloria latina e gli altri che da' raggi de la sua dottrina furono illustrati: perché, se le civili virtù sono imagini de le divine, questa ancora sarà una de l'altre, e tanto l'imagine sarà più bella quanto fie più simile a l'idea, o a l'essempio che vogliam chiamarla. Presupognamo adunque che sia civil e moral virtù, imparata per imitazione de le divine, come vuol Plutarco e prima Giuseppe Ebreo. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Come vi pare. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma facendola civile e umana virtù, fa mestieri che se gli opponga un vizio che sia parimente umano, come la crudeltà, sì veramente che l'uomo per vizio non paia aver mutata natura né convertito in fiera, come si legge d'Ezzellino e d'altri tiranni. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Intendo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Abbiamo adunque sin ora trovato ch'ella sia umana virtù: cerchiamo l'altre quasi forme di questo genere; e voi, che sapete tutte le cose a mente, dite quel che vi sovviene. </p></sp>
+	<sp><speaker>A.C.</speaker><p> La diffinì, se ben mi rammento, Marco Tullio prima e Seneca dapoi. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Cominciam da la prima definizione. </p></sp>
+	<sp><speaker>A.C.</speaker><p> “La clemenza è virtù per la quale l'animo, concitato ne l'odio, da l'altrui benignità è ritenuto”. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Se l'animo è concitato, la virtù non ha moderate le sue passioni. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Il concedo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Dunque non è virtù confermata, ma continenza più tosto. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Né questo niego. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Concedetemi adunque che s'ingannasse Aristotele, a cui non piacque che la continenza fosse genere de la clemenza, o Marco Tullio. </p></sp>
+	<sp><speaker>A.C.</speaker><p> È verisimile che Marco Tullio più tosto prendesse errore. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma consideriam la cosa stessa senza l'autorità; consideriamo, dico, se l'odio conviene a ciascuno che sia clemente: se non può essere clemenza senza odio né senza concitazione, per così dire, non fu clemente Pisistrato, il quale non solo non odiò, ma non fece segno d'adirarsi; non Licurgo, il quale, accecato dal bastone, non si mosse ad alcuno sdegno; né clementi sono i padri o i mariti, se prima non sono commossi ad odio. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Questa è definizione che diede Cicerone come retore. Forse più vi piaceranno l'altre di Seneca, che ne ragiona come filosofo; e questa fra le sue è la prima: “La clemenza è una temperanza de l'animo ne la podestà del vendicarsi, o vero una piacevolezza del superiore verso l'inferiore nel constituir le pene”. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Meglio disse chi la chiamò temperanza: ma Seneca nondimeno parve dubio del <emph><foreign lang="lat">quid est</foreign></emph>, poich'una volta l'assegnò per genere la temperanza, l'altra la piacevolezza, quantunque la prima abbia per soggetto il piacere, l'altra i piacevoli ragionamenti. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Non volle forse intendere de la particolar temperanza, la quale ha particolar soggetto, ma de l'universale di cui parla Platone. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Di leggieri il vi concedo; ma non vi concederei egualmente che due generi dovesser addursi d'una sola definizione. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Udite quel ch'egli soggiunga: “È più secura cosa mettervi davanti molte definizioni, perch'una sola definizione non la comprenderebbe intieramente: laonde può esser detta una inclinazione de l'animo a la piacevolezza nel riscuoter le pene”. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Di cosa certa e stabile, come è la clemenza, incerta e mutabile è l'ultima definizione: laonde Seneca mi par quasi pentito di chiamarla virtù e d'averle fatto tanto onore; però dubita s'ella sia tale, come dubitò san Tomaso. Ma l'inclinazioni precedono gli abiti, e l'inclinazioni sono naturali e gli abiti sono morali: e fra questi io riporrei più tosto la clemenza, perché ne l'uomo si ricerca il costume confermato, ne le fiere sogliamo cercar l'inclinazioni o gli instinti; come ne' leoni e negli elefanti, de la cui clemenza Plinio scrive molte cose, e particolarmente che ne le solitudini insegnano la strada agli uomini che loro si fanno a l'incontro. Laonde non altrimenti questi medesimi animali per timore de l'insidie si fermano a considerare il vestigio umano impresso ne l'arena e rivolgano indietro tutta la schiera, ch'io mi fermi a considerare il vestigio de la ragione impresso nel sentimento; né vorrei ingannarmi, ma, per quel ch'a me ne paia, questa impressione è così ferma che non può esser detta inclinazione. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Seneca pone molte definizioni perché da tutte apprendiamo quel che sia la clemenza. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Quasi non basti una sola. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Ha forse diversi rispetti ora al fine, ora a la materia, ora a la forma. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Poteva nondimeno raccogliere tutte le cause in una sola definizione, come fanno coloro che non si contentono di quella la qual <quote rend="block"><foreign lang="lat">constat ex genere et differentiis</foreign></quote>; ma al logico peraventura basta ch'ella sia tale; il fisico vi cerca la materia appresso; il morale, s'io non m'inganno, ha principal riguardo a la forma e al fine, del quale io sono più sollecito che di niuna altra cagione: perché mi sovviene d'aver letto in Aristotele che la definizione deve esser dirizzata a l'ottimo. Consideriamo adunque qual sia in queste definizione la causa finale, per ragionare in quel modo ch'i nostri filosofi sono usi di favellare. </p></sp>
+	<sp><speaker>A.C.</speaker><p> In queste ultime tre io veggio il medesimo fine, cioè di costituir la pena o di riscuoter la pena. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma questo fine pare a voi ottimo, signor Costante? </p></sp>
+	<sp><speaker>A.C.</speaker><p> Ottima cosa è che gli scelerati abbiano il supplicio, gli infelici per men grave errore men gravemente sian puniti. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Non ottima è per mio parere, ma necessaria: l'ottima cercherem poi, come abbiam considerate tutte le definizioni; èccene alcuna altra? </p></sp>
+	<sp><speaker>A.C.</speaker><p> Questa: “La clemenza è moderazione che rilascia alcuna cosa de la debita pena”, la qual par condannata da lui medesimo, perché fa meno del debito. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Se la pena era debita, la virtù dee riscuoter questo debito intieramente. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così par che voglia conchiudere; ma tutti intendono quel che soggiunge il medesimo autore: “La clemenza è quella che si piega intorno a ciò che meritamente può constituirsi”. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Io credeva che questa clemenza degli Stoici fosse più rigida e simile al collo de' leoni e a quel de le statue, il quale non può in modo alcuno piegarsi; ma poich'ella si torce in qualche modo, è somigliante a quella regola di Lesbo de la qual parla Aristotele ne la sua <emph>Etica</emph>. Ma ricerchiamo se ne l'altre cose Aristotele a Seneca sia conforme. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Già avete detto ch'Aristotele non fa menzione de la clemenza ne le <emph>Morali</emph>. </p></sp>
+	<sp><speaker>T.T.</speaker><p> Non sotto questo nome, ma sotto l'altro d'equità. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Sono adunque l'istessa. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Acciò pensarem poi; ora udite quel ch'egli scriva de l'equità: “L'equità e l'uomo in cui sia questa virtù è colui il quale diminuisce le cose giuste descritte da le leggi, ma non tutte le cose giuste: perché non diminuisce quelle che son giuste veramente per natura, ma le tralasciate dal legislatore, che non può essaminare intieramente tutti i particolari”. Da le quali parole io comprendo che l'equità diminuisce le pene: ché pene sono le cose giuste imposte dal legislatore, che non ha potuto antivedere tutti i casi che fanno degno di perdono il trasgressore de le sue leggi. A questo fine adunque riguarda questa virtù, al quale non ha potuto giunger l'acuta vista del legislatore: e in ciò non sono Aristotele e Seneca molto differenti. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Se duo gran maestri sono concordi, non possiamo errare. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma concorda seco Aristotele ne la <emph>Topica</emph>, dicendo ch'ella è diminuzione de le cose giuste e de l'utili, cioè de le pene imposte dal legislatore, com'interpretò san Tomaso, dicendo che la clemenza è moderatrice de le pene, la mansuetudine è moderatrice de l'ira. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Da' suoi detti si può ritrarre non solo quel che sia la clemenza, ma in quel che sia diversa da la mansuetudine. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Non è questa sola differenza, se vogliamo con gli scolastici filosofare: ma vi s'aggiunge che la clemenza è del superiore a l'inferiore, la mansuetudine di ciascuno verso ciascuno. Ma non è così agevole il distinguere tra la clemenza e l'equità, anzi alcuni degli interpreti l'hanno usate come voce sinonime: e io porto la medesima opinione, fondata, quasi in saldissima pietra, in quella notissima proposizione la qual non ha bisogno di prova, ma serve a provar l'altre. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Aspetto d'udirla. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  È questa: le cose le quali son medesime ad un terzo son le medesime fra loro. Il terzo è la diminuzione de le pene; le cose le quali sono l'istesso co 'l terzo sono l'equità e la clemenza: laonde in questa guisa si potrebbe far la demostrazione. La clemenza è diminuzion de le pene, la diminuzion de le pene è l'equità: adunque la clemenza è l'equità. Volete contradire? </p></sp>
+	<sp><speaker>A.C.</speaker><p> Io contradirei con l'autorità de' teologi, s'ella fosse contraria a la vostra ragione. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  A le machine de l'autorità sacra non possono star saldi i fondamenti de l'umana ragione; ma non ci mettiamo a questo pericolo, potendo trattar di pace; e la pace fie questa: che siano il medesimo non di numero né di specie (parlo de le specialissime), ma di genere e di proporzione. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Mi par d'intendere i capitoli de l'accordo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma s'ella fie l'istessa di genere, fa mestieri che noi troviam la differenza o le differenze per le quali sian diverse l'equità e la clemenza. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Senza fallo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma temo ch'i Peripatetici non se ne richiamino ad Aristotele, s'io dirò che la clemenza sia con dolcezza d'affetto, e l'equità senza questa tenerezza. Peroché non vuole Aristotele che nel clemente sia alcuna passione, come abbiamo detto; e s'ella pur vi fosse, converrebbe la dolcezza de l'affetto al clemente più tosto per accidente ch'in altra guisa. Diremo adunque come dicemmo, o più tosto che siano l'istessa virtù per analogia o proporzione, come è definito; perché tale è la clemenza verso la severità, quale verso la giustizia legitima si dimostra l'equità. Ma torniamo a' Peripatetici e a gli Stoici, co' quali ne le contese letterate possiamo adoperare il nostro ingegno, provando e riprovando, e consentendo d'essere approvati e riprovati. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Torniamo senza indugio. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  La giustizia è virtù conveniente al legislatore ne l'imponere le pene e i premi. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma l'equità non tanto gli appertiene, né la clemenza, s'è la medesima. </p></sp>
+	<sp><speaker>A.C.</speaker><p> E questo ancora vi concedo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  A chi dunque s'appertiene? </p></sp>
+	<sp><speaker>A.C.</speaker><p> Al re, come dice Seneca: e ciò volse insegnar la natura, fingendo il re de l'api senza aculeo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma se l'equità è una virtù che sta sovra la giustizia, come suona il nome greco epieíkeia, il re ancora devrebbe esser sovraposto al legislatore: nondimeno i re e i legislatori furono i medesimi. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Alcuna volta sono stati i medesimi, come negli antichissimi secoli Minos, Licurgo, Numa e a tempi men remoti Giustiniano e i re longobardi; alcuna volta i legislatori non sono stati re, come non fu Mosè, Solone, Caronda e Paulo e Servio e Muzio e gli altri antichi iuresconsulti, i quali a guisa d'oracoli davano le risposte. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Possono dunque esser distinti questi offici e queste persone di re e di legislatore. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Possono senza fallo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Sarebbe adunque ragionevole che le virtù ancora fossino distinte, e che l'una non fosse come parte de l'altra, ma come una regola superiore che dirizzasse le nostre umane azioni, e quelle de' re principalmente. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Distinguetele, se vi pare, e assegnatele come giudicate il meglio. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Dirò dunque che la giustizia è virtù propia del legislatore, e l'equità è virtù propia del re e del giudice quasi una miglior giustizia; o più tosto che la giustizia è virtù comune, perché ciascuno di lei partecipa, come de la vergogna: ma la clemenza è virtù propria del re e del principe. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così mi par più ragionevole. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma s'ella è virtù del principe, non devrebbe esser men alta o inferiore a l'altra, la quale abbiam già detto esser virtù commune. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Non per questa ragione. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma sarebbe la clemenza virtù inferiore e men nobile e generosa, s'a lei si convenisse diminuir solamente la rigidezza de le pene, e la giustizia sola dovesse concedere i premi. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  E oltre acciò sarebbe men libera ne l'operazioni, peroché l'operazion del premiare è volontaria, ma quella del punire non procede assolutamente da la volontà, ma quasi è necessaria, e dovrebbe più tosto essere il contrario: perché la clemenza, come dice Seneca, ha il libero arbitrio, il qual dee più tosto usare nel guiderdone che nel castigo. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Tutto quel che voi dite stimo assai vero e assai ragionevole, e basta che voi l'abbiate detto. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Coloro adunque c'hanno attribuito a' principi l'operazione solamente del punire e a' legislatori e a' giudici quella del premiare, non hanno avuto molto risguardo al decoro de' principi e a la natura de le cose. Che ne dite, signor Antonino? </p></sp>
+	<sp><speaker>A.C.</speaker><p> L'istesso. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Consideriamo adunque di nuovo la cosa medesima. La clemenza è virtù propia di principe. </p></sp>
+	<sp><speaker>A.C.</speaker><p> È senza dubbio. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  E a' principi più conviene il dare i premi che le pene, com'insegnò Aristotele medesimo ne la <emph>Politica</emph> e come disse il consigliero in quei versi del mio <emph>Torrismondo</emph>. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Furono parole di savio consigliero. </p></sp>
+	<sp><speaker>T.T.</speaker><p> A la clemenza dunque più s'appertiene l'accrescer i premi che lo sminuir le pene. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>T.T.</speaker><p> E s'io non avrò ardimento d'affirmare ch'ella sia una migliore giustizia, come l'equità, o superiore a la giustizia, almeno non dubiterò d'esser riprovato, dicendo ch'ella sia virtù secondo alcuna considerazione principalissima o, come dicono, <emph><foreign lang="lat">secundum quid</foreign></emph>: perché niuna altra fa l'operazioni de' principi più grate e più accettevoli a quel soprano principe al quale obbediscono tutte le podestà, e niuna gli fa a lui più simiglianti e niuna più stabilisce l'altissima sedia reale. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Credo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Sarà dunque la clemenza definita in uno altro modo, non co 'l genere peggiore ma co 'l più nobile, come insegna Aristotele ne la <emph>Topica</emph>. La clemenza è uno accrescimento de le cose utili e giuste, cioè de' doni e del guiderdone e de la mercede meritata; perciò che, potendo ella far l'uno e l'altro effetto, da questo principalmente devrebbe esser determinata. E ciò non mi concedete? </p></sp>
+	<sp><speaker>A.C.</speaker><p> Similmente. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma temo che la clemenza non vi paia virtù: percioché la virtù è ne la mediocrità, ma l'accrescimento e la diminuzione è co l'eccesso e col difetto. </p></sp>
+	<sp><speaker>A.C.</speaker><p> L'una e l'altro è congiunta co 'l vizio. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Tutta volta la cosa sta altrimenti: perché questa virtù, accrescendo il poco e scemando il soverchio, la riduce a mediocrità. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Bella in vero e nuova è la definizione e, se non sono errato, molto vera né meno ingegnosa. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma se fosse lecito d'addur molte definizioni o di raccogliere in questa tutte le cagioni, si potrebbe dire che la clemenza fosse una magnanimità del perdonar l'ingiurie, o vero un'altezza d'animo dimostrata nel perdono, con la quale i principi, accrescendo i premi e i doni, s'acquistano la benevolenza. E questo è l'ottimo fine. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Nulla conosco che manchi a questa definizione, se non l'autorità de' principi ch'abbiano con l'essempio dimostrata esser questa la vera clemenza. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Non è maraviglia che gli essempi sian rari, poiché rara è la virtù; ma di quella altra che si può dire ordinaria, e quasi da giudice, molti sene troverebbono. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Or ragioniamo de la real clemenza e di coloro che regiamente sono clementi, de' quali si potrebbe dire:
+
+	<quote rend="block"><lg>
+<l>Pochi eran, perché rara è vera gloria,</l>
+<l>Ma ciascuno per sé parea ben degno</l>
+<l>Di poema degnissimo e d'istoria.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>T.T.</speaker><p>  Non furono a Patroclo tanto convenevoli l'arme e gli ornamenti d'Achille e i cavalli e 'l carro, quanto a' clementi la gloria di questi leggiadrissimi versi; ma ricerchiamo quai sono: e fra i primi ci si fa incontro Filippo. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Bello e reale incontro veramente. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Scrivesi di Filippo che, veggendo nel suo regno di Macedonia Arcadio, il quale aspramente il malediceva, benché gli altri il consigliassero a castigarlo, egli volse che riportasse in vece del supplicio i doni del forestiere o, come dicono, ospitali. Facendo poi ricercare qual fama spargesse fra' Greci, tutti fecero testimonianza che di lui era divenuto mirabil laudatore; laonde disse agli amici: “Io sono miglior medico di questa infermità”. Potrei riporre fra' doni de la clemenza quelli mandati da Maga a Filemone il comico, se 'l dono d'una palla e d'alcuni dadi non convenissero a' fanciulli più tosto ch'a poeta; e dogliomi che dopo Filippo io non rincontri Alessandro suo figliuolo, il quale a Calistene e a Clito crudele si dimostrò vie più ch'a magnanimo re non era conveniente: ma la umanità usata a Poro re degli Indiani, trattandolo regiamente, si può annoverare fra l'azioni di clemenza, perché tutte le cose ne' trattamenti reali sono contenute. La medesima altezza d'animo recò a simil benignità Filippo Maria Visconte ne la prigionia d'Alfonso d'Aragona, e Carlo Quinto imperatore in quella di Francesco re di Francia; il contrario essempio de la barbara ferità usata ne' re prigionieri dimostrò il Tamerlane vittorioso ne la persona del gran Turco, la cui crudeltà fu da la giustizia del cielo rigidamente vendicata. Ma torniamo ad Alessandro, di cui l'ira diminuì la gloria
+
+<quote rend="block"><lg>
+<l>E fe' 'l minore in parte che Filippo,</l>
+</lg></quote></p>
+
+<p>quasi trasportandolo fuor di sua natura benigna: però fu clemenza degli scrittori il diminuir quella infamia che per la morte d'un filosofo, quasi debita pena, gli era dovuta. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Al magnanimo re peraventura fu lunghissima pena d'un breve furore il dolor de la penitenza. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Or passiamo a' Romani, e consideriamo insieme la liberalità, la quale devrebbe esser compagna de la clemenza, come dice Valerio Massimo. Paulo Emilio sollevò Persa e l'onorò ad una istessa mensa; Pompeio ripose il diadema a Tigrane; Cesare donò molti regni, ma alcuni con diminuzione, come quello che restituì a Deiotaro: e bench'egli il titolo di clementissimo meritasse e verso molti si mostrasse di pietosa liberalità pieno, in questa sua azione nondimeno la sua clemenza non fu peraventura perfetta. Perfetta in ciascuna parte fu quella d'Augusto verso Erode re de' Giudei, il quale aveva seguito Antonio ne la battaglia navale, perché l'altezza d'animo dimostrata dal re ne la sua orazione fu quasi eguale a quella d'Augusto ne la restituzione del regno con accrescimento di podestà e d'onore, come racconta Gioseppe Ebreo; ma non fu allora solamente maravigliosa la clemenza d'Augusto. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Bastava forse questo essempio a dimostrar la sua clemenza. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Memorabilissimo nondimeno oltre tutti gli altri è quello che narra Seneca, bench'egli fosse mosso da l'onesto consiglio di Livia sua moglie. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Le donne adunque ebbero gran parte ne la suprema laude di Cesare. </p></sp>
+	<sp><speaker>T.T.</speaker><p> Così avenne: laonde possiam conoscere quanta sia falsa l'opinione di coloro che biasimano i consigli de le donne. Ma le circostanze de l'azione voi le sapete: però è soverchio il narrarle; nondimeno la grandezza del fatto m'invaghisce in un certo modo e mi trasporta a ragionarne. Era L. Cinna sospetto d'aver congiurato contra Cesare, già maturo d'età, già solo ne l'imperio, già imperatore del mondo placato e da lui conservato; percioché tutto il sangue civile fu sparso mentre la potenza era divisa fra tre principi, ma poi che fu congiunta in Ottavio, non contaminò stilla di sangue l'altissima fama e la clemenza del glorioso imperatore: laonde, quanto parea maggiore la pazzia del giovene inconsiderato e quasi convinto, tanto fu più laudevole l'azione d'Augusto. Dato dunque a ciascuno licenza da la sua camera, fece chiamar Cinna solamente e comandò che gli fosse data un'altra sedia. “Questo, disse, dimando prima a te, che non interrompa le mie parole e che non gridi in mezzo al mio ragionamento, perché avrai altro tempo libero da ragionare. Io, Cinna, avendoti ritrovato ne l'essercito e negli alloggiamenti degli avversari, non sol fatto mio nemico ma nato, ti salvai, concedendoti tutto il patrimonio. Oggi sei tanto ricco e tanto felice ch'i vincitori portano invidia al vinto. Ti diedi il sacerdozio che mi dimandavi, preponendoti a molti, i padri de' quali avevano già sotto me militato. Essendo io così di te benemerito, deliberasti d'uccidermi”. Gridando Cinna a questa voce ch'egli non era così pazzo: “Non m'osservi, disse, la fede, o Cinna, perché siam rimasi d'accordo che non mi disturberai nel ragionare. Ti vai apparecchiando per darmi la morte”. Aggiunse il loco, i compagni, il dì, l'ordine de l'insidie e la persona a cui aveva confidate l'arme: e vedendolo trafitto e omai tacito non per patto solamente ma per conscienza, soggiunse: “Con quale animo il fai? per esser tu principe? La republica sta male, s'io solo ti sono impedimento al signoreggiare: non puoi difender la propia casa; dianzi fosti superato nel giudizio dal favor d'un uomo ignobile e nato d'un servo: in guisa stimi facil cosa l'esser avvocato contra Cesare, di cui non puoi farne alcuna altra più agevolmente? Cedo, s'io solo impedisco le tue speranze. Paulo e i Fabi Massimi e i Cossi e i Servili ti sopporteranno, e tanta schiera de nobili che non si mettono avanti i titoli e i nomi vani, ma sono ornamento e onore a l'imagini de' suoi maggiori?”. In questo modo, com'è scritto, ragionò seco più di due ore, prolungando co 'l ragionare questa pena de la quale era solo contento: “Ti do Cinna la vita: e te la do, disse, una altra volta, prima al nemico, ora a l'insidiatore e al paricida. Cominci da questo giorno fra noi l'amicizia; contendiamo di fede, io nel darti la fede e tu ne l'esser di lei debitore”. Dapoi spontaneamente gli diede il consolato, lamentandosi che non avesse ardimento di chiederlo, e l'ebbe sempre amicissimo e fedelissimo; egli fu solo erede, né più da alcuno altro fu insidiato. Ecco il fine de la clemenza. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Maraviglioso avenimento avete narrato, e con maravigliose parole postomi quasi avanti gli occhi Cesare e Cinna, e vi lamentate di non aver memoria. </p></sp>
+	<sp><speaker>T.T.</speaker><p> È maraviglia ancora ch'io di queste poche parole di Seneca, a le quali spesso vo ripensando, mi sia ricordato: e quanto più vi ripenso, tanto trovo maggiore occasione di dubbitare. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Io credeva che la clemenza d'Augusto potesse scacciare ogni dubbio e confermar la vostra opinione; perché da le cose già dette si può conchiudere che Cesare scemò la pena debita a Cinna, almeno di timore, potendolo tener dubbio de la vita un anno o un mese o un giorno, e si contentò di due ore solamente, con tanto favore di colui ch'in questa guisa era punito con la vergogna d'ascoltare la sua colpa da la bocca de l'imperatore: accrebbe ancora la clemenza, dandogli il consolato e, molto più, ricevendolo ne l'amicizia. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Cotesto è vero senza fallo, e per vostra cortesia detto in confermazione del mio parere: ma, se ben mi soviene, noi dicemmo che per autorità d'Aristotele la clemenza era diminuimento de le cose giuste e utili: per la nostra deveva esser più tosto accrescimento de le cose giuste che ne l'utili sono comprese. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Così fu conchiuso. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Egli per la diminuzione de le cose giuste intendeva le pene pecuniarie imposte da la legge, io intesi de l'accrescimento de la mercede o vero del dono. Ma ora non so ritrovare quai premi da le leggi sian proposti a la nobiltà, perch'in Cinna oltre la gentilezza del sangue non so quel che si potesse lodare. In Erode senza dubio si poteva commendare il valore e la costanza d'aver seguito Antonio sino a la morte, e l'altezza de l'animo similmente nel manifestare al vincitore l'affezione portata al vinto suo nemico: laonde giudiciosa clemenza parve quella d'Augusto ne l'accrescer l'onor d'Erode; ma quella ch'usò con Cinna per consiglio de la moglie, fu più tosto fortunata, poi che pose fine a le discordie civili e a l'insidie de' suoi nemici. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Discreto fu per mio aviso il consiglio de la moglie, e giudiciosa, non sol magnanima, la deliberazione d'Augusto: perché gli animi de' nobili con niuno altro artificio sono presi più agevolmente che con questo d'accrescer l'onore e la degnità. </p></sp>
+	<sp><speaker>T.T.</speaker><p> Dunque la clemenza è uno artificio usato dal principe per farsi benevolo il popolo e la nobiltà. </p></sp>
+	<sp><speaker>A.C.</speaker><p> E quale sconvenevolezza sarebbe? </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Niuna peraventura, se l'un genere da l'altro fosse contenuto: perché la clemenza è virtù e la virtù è, come dicono alcuni filosofi, un'arte de la vita, e l'arte in certo modo è scienza. Ma bello e mirabile e leggiadro e magnanimo e glorioso artificio è questo del perdonare a' nemici e di vincer gli animi loro e di soggiogarli co' benefici e con le grazie; e miglior principe è colui il quale è miglior artefice. Però più lodiam l'imperio d'Augusto che quel di Cesare suo padre, o almen più felice fu la clemenza del figliuolo: e se Cesare nel restituire il regno al buon re Deiotaro l'avesse restituito non con diminuzione ma con augumento, come il restituì Augusto ad Erode, avrebbe avuto peraventura miglior consigliere e più fedele amico. Ma non si legge in Svetonio che Giulio Cesare nel rendere i regni de' vinti ampiasse i confini d'alcuno, benché gli restringesse de molti. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Questa fu sapienza del figliuolo. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Ma sua fortuna fu che fosse più felice ne l'amicizia di Cinna che Giulio in quella di Bruto. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Furono adunque congiunte nel figliuolo la sapienza e la fortuna. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Così estimo; ma a quale arte assomigliarem noi quella de la clemenza? a l'arte forse del medicare? Ricordianci le parole e il consiglio di Livia, che, se ben mi rammento, fu questo: “Fa, disse al marito, quel che sogliono i medici, i quali, dove non giovino i rimedi usati, tentano i contrari; nulla t'è sino ora giovata la severità: Salvidieno da Lepido fu seguito, Lepido da Murena, Murena da Cepione, Cepione da Egnazio, per tacer degli altri, i quali è gran vergogna ch'avessero ardimento. Or tenta come ti riesca la clemenza: perdona a Cinna, il quale è colto in fallo veramente, né può omai più nuocere a la tua vita, perch'è scoperto, ma giovare a la tua fama”. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Savio e clemente consiglio fu questo, ma di moglie al marito non sospetta, o almeno in ciò non sospetta. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Non aveva forse Ottavio ancora cagione di suspicare. Filippo appresso Plutarco assomiglia il clemente al medico, poich'il maldicente Arcadio co' suoi doni era divenuto lodatore de la virtù: “Io, disse agli amici, sono assai miglior medico di voi, avendo guarito costui de l'infermità”; e intendeva de la maladicenza o de la pazzia de l'ingiuriare i principi: perch'in altra guisa non poteva peraventura risanare. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Il donare è medicina certissima a tanto male; ma clementi e misericordiosi furono i medici, e fortunato chi da le mani de' grandissimi principi poté esser medicato. </p></sp>
+	<sp><speaker>T.T.</speaker><p> Ciò debbiam peraventura considerare, dico se la clemenza sia misericordia e l'arte de l'usar clemenza simile a quella del medico misericordioso: perché si legge nel medesimo autore che la medicina de gli animi è la giustizia, arte oltre tutte l'altre grandissima per testimonio di Pindaro e di mille famosi scrittori: e ci risana dal vizio con le pene, non altrimente ch'il medico severo soglia adoperare il ferro e il fuoco per salute de l'infermo. Ma il clemente co' doni o con la mercede è simile al medico ch'usa i lenitivi e l'odorifere unzioni: e di ciò per mio parer non è dubbio; dubbitar si potrebbe se 'l clemente sia miserevole, se già Seneca non avesse determinato il contrario, dimostrando che la misericordia è una infermità de l'animo e vicina a la miseria, e che 'l savio non ha misericordia. Ma se noi vogliamo starcene a le decisioni di Seneca, acqueterem l'animo ne l'opinioni d'uno Stoico. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Severa fu la dottrina degli Stoici, e però alcuna volta par nemica de la misericordia. </p></sp>
+	<sp><speaker>T.T.</speaker><p> Non solo severa ma falsa: perché la indignazione è più tosto contraria a la misericordia, come volle Aristotele. Ma degno è di maggior considerazione ch'egli biasimi quelli affetti o quelle passioni che ne l'animo sono degni di laude, fra' quali è lo sdegno e la misericordia, con durezza veramente da stoico. Laonde fra loro e le statue a pena ch'io conoscessi differenza: peroch'il non lagrimare ne la morte degli amici, il non commoversi nel pericolo de gli innocenti, il non risentersi per la temerità de gli scelerati, il non intenerirsi a' preghi de' supplichevoli, il non piegarsi a l'infelicità di coloro ch'immeritamente sono infelici, è durezza simile a quella de le colonne del marmo: ma si dee biasimar questa durezza fra' giudici o ne' tribunali, benché sia laudevole ne le morbide piume degli ampissimi letti, dove la dimostrò uno di questi filosofi a Frine cortigiana; e di lui disse il Petrarca:
+
+<quote rend="block"><lg>
+<l>E Senocrate via più duro ch'un sasso.</l>
+</lg></quote></p>
+
+<p>Ma non sarebbe peraventura stato così immobile ne la causa di Socrate o in quella d'Aristide o di Temistocle o di Focione: ma se ben ho considerate tutte le parole di Seneca, egli non è costante ne la sua costantissima o più tosto rigidissima filosofia. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Alcuna volta peraventura si dimenticò d'esser filosofo, ricordandosi d'essere oratore; ma quai son le parole dov'egli dimostrò l'instabilità de l'opinione? </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Quelle ch'adduceste dianzi ne la definizione, dicendo che la clemenza è quella che si piega intorno a ciò che meritamente può constituirsi: però che non si può piegare che non si muova; laonde chi biasima il movimento biasima il piegarsi, e chi condanna il piegarsi condanna la clemenza, la quale, come a lui parve, è pieghevole virtù. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Peraventura egli non vitupera ogni movimento de l'animo, ma solamente i torbidi e veementi. </p></sp>
+	<sp><speaker>T.T.</speaker><p>In ciò non sarebbe molto differente da' Peripatetici, i quali insegnano come le virtù morali, collocate ne la parte sensitiva e affettuosa, possano raffrenare l'impeto de le passioni, le quali altro non sono che movimento de l'anima sensuale con opinione d'alcun bene o d'alcun male. </p></sp>
+	<sp><speaker>A.C.</speaker><p> La differenza adunque è più tosto de' nomi che de le cose. </p></sp>
+	<sp><speaker>T.T.</speaker><p> Così stimo, come quella fra <emph><foreign lang="lat">ignoscere</foreign></emph> e <emph><foreign lang="lat">parcere</foreign></emph>; perché Seneca non concede ch'il savio <quote rend="block"><foreign lang="lat">debeat ignoscere</foreign></quote>, vuol nondimeno che <quote rend="block"><foreign lang="lat">possit parcere</foreign></quote>; ma noi, come disse quel poeta de la sua medesima in rispetto de la greca, <quote rend="block"><foreign lang="lat">propter egestatem linguae et rerum novitatem</foreign></quote> non abbiamo tante parole, e siamo vinti da' Latini ne la copia e ne le ricchezze de la favella. Però diremo ch'al savio si convenga il perdonare e il rimettere egualmente, benché del rimettersi potesse farsi altra considerazione. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Si concederà dunque al saggio il rimettere. </p></sp>
+	<sp><speaker>T.T.</speaker><p> O si concederà al saggio il perdonare, o si negherà a l'uomo l'umanità. Ma noi cerchiamo qual sia questo saggio modo o questo artificio o questa prudenza di perdonare, perché non è dubbio alcuno ch'egli vi sia; e forse da Plutarco fu meglio conosciuto che da alcuno altro: peroch'egli disse che la dottrina di punire bene e a tempo e con utilità non impedisce la pena. Ma qual fosse questo utile o questo decoro, Plutarco avrebbe meglio dichiarato, sì come colui che ne le virtù politiche fu maestro di Traiano, ottimo imperatore, e più dotto o più fortunato almeno di Seneca, di cui fu discepolo Nerone. Però ben disse il Petrarca:
+
+<quote rend="block"><lg>
+<l>Ed in suoi magisteri assai dispari</l>
+<l>Quintiliano, e Seneca, e Plutarco.</l>
+</lg></quote></p>
+
+<p>E, se non m'inganno, avrebbe distinti i modi, i tempi e l'occasioni di perdonare e le persone a le quali si conviene concedere il perdono o di negarlo. Perché gloriosa azione è il perdonare ad un filosofo, ad un poeta e a ciascuno altro che per eccelenza d'ingegno e di lettere o di valore e d'esperienza è degno di stima e può giovare al mondo, al principe, a la patria; ma non merita lode il perdonare a' ladroni, a' micidiali, a' venefici e a gli altri uomini di male affare, o non sempre; perché la cortesia usata da Ghin di Tacco a l'abate di Clugnì meritò perdono. E se già Seneca lodò Nerone, che nel sottoscriver la sentenza contra un ladrone disse: <quote rend="block"><foreign lang="lat">vellem nescire literas</foreign></quote>, il lodò, quasi lusingandolo o quasi pungendolo, perch'egli s'avedesse de l'errore. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Non era necessario men sottile avedimento con quello imperatore. </p></sp>
+	<sp><speaker>T.T.</speaker><p>Il medesimo artificio usò dicendo: <quote rend="block"><foreign lang="lat">ex clementia omnes idem sperant</foreign></quote>: tutti speriamo il medesimo da la clemenza; imperoch'ella dee distinguere tra le persone e tra i meriti e le colpe non meno che tra i premi e le pene: altrimenti ella sarebbe indiscreta o men discreta de la giustizia, che non approva la pena del talione o del contrapasso. Non deveva adunque lo scherano e 'l filosofo sperar il medesimo da la clemenza da principe giudicioso, né le colpe de la volontà e de la fortuna devevano esser pesate con la medesima bilancia popolare, peroch'alcuna volta la fortuna è in vece di colpa: laonde negli innocenti ancora può aver luogo la clemenza. Conchiudiamo adunque il ragionamento con l'opinione de' teologi, che la clemenza nel moderar le pene adoperi una diritta ragione: perché non ogni apparenza di questa virtù è vera clemenza, né quella di Saul o d'Acabo piacque a Dio. </p></sp>
+	<sp><speaker>A.C.</speaker><p> Nel fine del ragionamento tutti sono stati concordi, Stoici e Peripatetici e teologi e filosofi, e le ragioni umane con le divine si sono collegate. </p></sp>
+	<sp><speaker>T.T.</speaker><p>  Questa concordia è sempre ne le cose vere. Ma piaccia a Dio che ne l'ottimo principe si manifesti la scienza o la prudenza del perdonare, e quella del premiar similmente e d'onorar la virtù co' suoi doni. Fra tanto vorrei che le mie parole a guisa di trombe facessero risonare ne gli orecchi e ne gli animi di ciascuno quella sentenza: “Niuna cosa è che meriti maggior gloria del principe senza pena ingiuriato”. </p></sp>
+
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+	<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>De la Dignità</title>
+      <author>Torquato Tasso</author>
+    </titleStmt>
+    <extent>126 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001142</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Dialoghi</title>
+        <author>Tasso, Torquato</author>
+        <editor id="ed">Raimondi, Ezio</editor>
+        <publisher>Sansoni</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1958</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="grc">Greco antico</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>853.4 - Letteratura narrativa italiana. 1542-1585</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LIZ</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-05-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Simona Casciano</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-06-03T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+	
+<text>
+<front>
+<div1 type="dedica" n="Dedica">
+
+<p>A l'illustrissimo e reverendissimo signor
+Scipione Gonzaga,
+patriarca di Gierusalemme,
+signore e patron mio osservandissimo.</p>
+
+	<p>La dignità de la città vien dal principe e a l'altre fu accresciuta da' principi del mondo; ma solo a Gierusalemme l'accrebbe Cristo medesimo e in lei volle esser coronato di spine e trionfar de la morte. E se niuno dopo san Pietro ebbe maggior dignità di san Iacomo il giusto, il quale fu non solamente fra' dodici eletti, ma de' tre più cari discepoli del vero figliuolo d'Iddio ch'ascesero seco nel monte e videro la sua gloria, al nostro tempo ancora quelli che succedono al santo figliuolo di Gioseppe debbono essere onorati dopo il successore di Pietro e vicario di Cristo sovra tutti gli altri vescovi e patriarchi; laonde, avendo Sua Beatitudine, che non lascia alcuna buona opera e alcuna virtù senza premio, essaltata Vostra Signoria illustrissima a sì alta dignità, l'ha posta nel sommo grado de la riputazione che si conveniva a la sua prudenza, al sapere, a la nobiltà e a la servitù di molti anni, e datoli gran parte di quel pensiero che si conviene a' vescovi, di riunire questo gran vescovado, il quale è uno, com'una è la Chiesa. E benché molti siano i rivi de l'operazioni e molti i rami pieni de' suoi fatti e molti i raggi ch'ella semina de la sua dottrina, uno è nondimeno il fonte, uno il tronco fondato sovra tenacissima radice, uno il sole che sparge la chiarissima luce: e l'unità si conserva ne l'origine, e un capo solamente regge molte membra, parte de le quali sono divise da questo corpo per l'eretica pravità, altre per l'ottomanna tirannide, la quale usurpa le più belle parti de l'Oriente e del Mezzogiorno. Ma Vostra Signoria reverendissima con gli altri può considerare i mezzi co' quali si possono ricongiungere, accioché uno sia l'ovile e uno il pastore, sì come una è la fede e uno il battesmo. E se la qualità de' tempi porta alcuno impedimento ne l'azione, niuno almeno può impedire ch'ella non contempla i misteri altissimi de la celeste Gierusalemme, ch'è l'idea de la Chiesa. Talché l'opere mie a gran pena ardirebbono d'appresentarsele, ove la cortesia da me conosciuta non mi assicurasse al modo usato, dal quale tutti gli altri debbono prendere essempio. Le mando adunque il mio nuovo dialogo de la dignità a rallegrarsi de la sua nuova dignità, e le bacio le mani.</p>
+	<p>Di Vostra Signoria illustrissima e reverendissima</p>
+<closer> servitor
+<signed>
+TORQUATO TASSO</signed>.
+</closer>
+</div1>
+<titlePage>
+<docTitle>
+<titlePart type="main"> DE LA DIGNITÀ </titlePart>
+</docTitle>
+</titlePage>
+	<castList n="Interlocutori"><head><emph>Interlocutori:</emph></head> <castItem type="role"><role>AGOSTINO BUCCI, </role></castItem> <castItem type="role"><role>ANTONIO FORNI. </role></castItem></castList>
+
+</front>
+<body>
+<div1 type="dialogo" n="Dialogo">
+
+	<sp><speaker>A.B.</speaker><p> Vogliamo sedere o passeggiare, signor Antonio? Ché ne l'uno e ne l'altro modo mi par si possa fornire il ragionamento de la dignità.</p></sp>
+	<sp><speaker>A.F.</speaker><p>  Se voi platonico sete e insieme peripatetico, or come platonico sedendo, or come peripatetico passeggiando, e in qual modo più vi piacerà, potrete ragionare: ch'io volentieri v'ascoltarò in quella maniera che più vi sarà a grado. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  L'altro giorno fui da voi ricercato se la nobiltà fosse, e quel che fosse; e ora, se non m'inganno, ci rimane da ricercare se la dignità sia l'istessa che la nobiltà, o quel ch'ella sia. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così determinammo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma soverebbevi d'alcuna ragione per la quale poteste richiamare in dubbio se la dignità si ritrovasse, come già dubitaste se la nobiltà si ritrovaria? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Nulla mi rimane che dubitare, perché, sciogliendo i primi dubbi, avete tolta ogni occasione ch'io ne muova de' somiglianti. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se la nobiltà fu ritrovata da noi in tutte le cose, è ragionevole che de la dignità si ricerchi in tutte. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ragionevole senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque ricerchiamne con ordine contrario a quel che fu da noi usato ne l'altro ragionamento: e cominciando da le cose inanimate, che son riposte ne l'infimo luogo de la dignità, da quelle, quasi per grado, ce n'anderemo ascendendo sino al cielo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Cominciate a montare per quella scala, ch'io vi seguirò quanto posso. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ne le cose naturali, che non hanno l'animo, e ne l'artificiali parimente si ritrova la dignità: perché noi diciamo ch'elle son degne di chi le possiede o di chi le dona, sì come aviene d'uno smeraldo o d'un bel rubino posseduto da nobil gentiluomo, il qual diremo che sia degno del padrone, e del prezioso monile, con molto artificio lavorato e degno dono co 'l quale s'onori l'altrui virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E le piante, ne le quali è l'anima vegetativa, dimostrano l'ombra de la dignità in quelli ordini in cui sono compartite: percioché molte fiate le prime sono maggiori de l'altre, e spesse volte quelle che stanno in mezzo par che siano superiori. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così aviene sovente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E chi ben conosce la dignità de le piante sa (come disse Platone) in qual tempo e in qual regione debbano esser piantate; né buono agricoltore è colui che vuol cavar guadagno da quell'arbore la quale è indegna de la coltura. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Or montiamo al terzo grado, il qual è la dignità de gli animali irragionevoli. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Montiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ella è primieramente manifestissima ne' tori, percioché uno di loro sempre è quasi duce de gli altri, e sogliono contendere de l'imperio; onde si legge:
+
+<quote rend="block"><lg lang="lat">
+<l>Quis pecori imperitet, quem tota armenta sequuntur?</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p>  Manifestamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E ne le pecchie ancora, ne le quali nasce il re per natura, perché essi sogliono espor la vita non altramente ch'i valorosi cavalieri; laonde è scritto:
+
+<quote rend="block"><lg lang="lat">
+<l>...Pulchramque petunt per vulnera mortem.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p>  Maravigliosa istoria è quella de l'api senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E ne le gru, quando in ordinanza passano da l'una a l'altra regione, e ne' cervi, che dal lito calavrese a quel di Sicilia soglion trapassare, e ne gli elefanti, passando i fiumi, suol manifestarsi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Chiaramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E alcuni animali irragionevoli hanno gli ornamenti reali, come il pico, di cui fe' menzione il Petrarca:
+
+	<quote rend="block"><lg>
+	<l>Canente e Pico, un già de' nostri regi,</l>
+<l>Or vago augello; e chi di stato il mosse</l>
+<l>Lasciògli il nome e 'l real manto e fregi.</l>
+</lg></quote></p>
+
+<p>E la fenice, sotto la cui somiglianza il poeta celebra la sua donna:
+
+	<quote rend="block"><lg>
+	<l>Questa fenice da l'aurata piuma</l>
+<l>Al suo bel collo candido e gentile</l>
+<l>Forma senz'arte un sì caro monile</l>
+<l>Ch'ogni core addolcisce e 'l mio consuma:</l>
+</lg>
+<lg>
+	<l>Forma un diadema natural ch'alluma.</l>
+</lg></quote></p>
+
+<p>E 'l leone ancora ha gli ornamenti che son detti giube; e l'aquila si chiama reina de gli uccelli; e 'l reatino, che tanto significa quanto picciolo re, ha quel medesimo nome fra' Latini il qual si concede a' baroni de' regni. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Quell'istesso. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Sovra gli animali senza ragione troviam gli uomini, fra' quali senza dubbio si ritrova la dignità compartita in molti gradi, perché tra loro sono imperatori, re, duchi, a somiglianza de' quali le fiere e gli uccelli son chiamati con questi nomi istessi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ne gli uomini è non solo più manifesta che ne gli altri, ma occupa molti gradi. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma sovra gli uomini chi porremo? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Nel cielo conviene ascendere per mio giudicio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Nel cielo, se vogliamo lasciare i demoni da parte e l'opinion di coloro che gli ponevano quasi mezzi fra l'anime ragionevoli e gli intelletti divini. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Lasciamoli, se vi piace, o discendiamo sotterra e ritroviamo ancora la dignità ne l'inferno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ne l'inferno non è altra dignità che quella per la quale alcuno è degno de le pene; ma questa non è propriamente dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Dunque cerchiamo la propria. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Per cercarla conviene che seguitiamo il nostro viaggio, ascendendo da l'imo al sommo, come dal sommo a l'imo discendemmo. E s'è vero quel che da gli astrologi è scritto, che nel cielo siano alcune stelle principali fra l'altre, è ragionevole che l'avanzino in dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E chi crede al senso, il sole tanto supera tutte l'altre di grandezza ch'è detto convenevolmente il principe de' pianeti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Con molta convenevolezza: e se l'imagine è senso, soglio imaginar assai spesso la dignità leggendo i poeti, perché ho quasi veduti a consiglio, quando per commandamento di Giove son congregati da la giustizia, non solamente gli dei maritimi, ma quelli de' fiumi e de le selve; e in altri luoghi mi pareva che Giove risguardasse la battaglia fra Greci e Troiani, e in altri ch'egli si querelasse de l'ingiuria che da Licanio avea ricevuta. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  In tutti questi facilmente la riconoscerete, se vi lasciate guidar da l'imaginazione; ma è più ragionevole che vi conduca la ragione de' filosofi, fra' quali Plotino co 'l re di tutte le cose pone altri re, quasi compagni de la dignità, ch'insieme con lui tutte le governano, o più tosto, superando la ragione istessa, crediate a la santa rivelazione de' teologi, i quali intorno al re de' re e signor de' signori pongono tre ordini d'angioli, e ciascun ordine in tre altri ordini è da loro diviso. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così debbo far senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Ma se la dignità si ritrova in tutte le cose come la nobiltà, debbiam dire che sia l'istessa o pure diversa? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Se pur sono diverse, sono molto somiglianti. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Consideriamle dunque diligentemente: e prima, se la nobiltà è dignità de' maggiori, par ch'ella sia dignità; pur non assolutamente, ma con quella giunta “de' maggiori”. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Molti ancora, ereditando la nobiltà de l'avo o del padre, sono detti figliuoli degni e degni nepoti; laonde i nobili e i degni pare che siano gli istessi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Nondimeno non sono eredi sempre de l'istesse dignità, perché quella di marchese, di conte e di cavaliere si ritrovò spesso nel padre, né si ritrova nel figliuolo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così aviene ch'il signor Alfonso Villa, nobilissimo cavaliero e insieme valorosissimo, nacque di padre che fu maestro di campo generale ne la guerra di Siena e poi governator di Modena ed ebbe l'ordine di san Michele e ha lasciato erede il figliuolo del valore e de la nobiltà, ma non de le dignità, quantunque d'ambedue si mostri degno ne gli anni giovenili. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma consideriamo la differenza di nuovo. Appresso i Romani era distinto l'ordine de' plebei da quello de' padri; e l'uno era de' nobili, l'altro de gli ignobili. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Tuttavolta a molti de gli ignobili si concedeva il consolato, ch'era dignità de' nobili, né però trapassavano da l'un ordine a l'altro; laonde si conosce che non sono a fatto l'istesse. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Da le vostre parole io raccolgo che non siano a fatto diverse né in tutto l'istesse, ma in parte le medesime e in parte differenti. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Bene avete raccolto, ma forse le cose che furono dette da noi nel ragionamento de la nobiltà furono provate con filosofiche ragioni; ma de l'istesse l'uom civile potrà con maggior persuasione ragionare in questa guisa. Ditemi, signor Antonio: conoscete la virtù in niun'altra cosa meglio che ne l'operazione? </p></sp>
+	<sp><speaker>A.F.</speaker><p> A niun'altra. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Ma quando l'operazioni son tali che possano lasciare altrui dubbio s'elle son fatte con vizio o con virtù, possiamo accertarci s'elle son buone o ree co 'l prestar fede al giudicio del volgo? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Molto fallace suole essere il giudicio del volgo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque nel regno al giudicio del principe più tosto ne crederemo, e da que' pochi che dal principe son eletti per ministri del governo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare convenevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E ne gli esserciti, de l'azioni de' soldati, a chi debbiam più credere, al giudicio del generale e de gli altri capitani, o pur a quello de la moltitudine, ch'alcuna fiata raccolta tumultuatamente, sa appena adoperar l'armi?. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Al giudicio del generale e de gli altri capitani. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E ne le republiche de gli ottimati quali stimeremo azioni giuste o quali ingiuste, quelle che parranno sì fatte a coloro che son partecipi del governo, o pur ci atterremo al parer de la plebe? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ci appigliaremo sempre sicuramente al giudicio de' pochi prudenti. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma s'alcuna republica è popolare, in quella stessa a chi darem maggior fede, al giudicio di coloro che governano o a l'opinione de gli altri che ne sono esclusi? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ne le republiche popolari molte fiate quei che governano sono ingiusti estimatori de l'azioni de gli uomini. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque non sarem sicuri s'elle sian buone o ree. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non saremo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E solamente ci parrà d'essere certi ch'elle sian virtuose o viziose, se da giusti estimatori saranno estimate; e quanta certezza avremo de la bontà de l'operazioni, tanta n'avremo de la virtù de' cittadini. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma s'i principi e i generali e gli ottimati son dritti estimatori de la virtù e de l'azioni de gli uomini, sono ancora giudici convenevoli de la nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma da loro si concede questo nome a' valorosi, a' quali danno gli onori e le dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così aviene. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E s'oltre i valorosi alcuni da loro ne sono onorati, ordinariamente son quelli i quali derivano dal padre e da gli avi che furono uomini di valore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma per aventura molti di questi non parran nobili al filosofo, il quale è più severo giudice de la nobiltà; ma s'egli dovrà esser tenuto in pregio, conviene ch'abbia molto risguardo a l'opinione de gli uomini civili, com'ebbe Aristotele particolarmente in que' libri ch'egli scrisse de l'<emph>Arte retorica</emph> e ne' <emph>Politici</emph>. Laonde egli si sforzerà di mostrare che la diffinizione de la nobiltà ch'egli avea data prima sempre convenga a la nobiltà de tutti gli uomini ch'in alcun modo son nobili, e chiederà a voi, che da le ragioni de l'uomo politico vedrà molto persuaso: Credete ch'al filosofo si appertenga parlar de la nobiltà solamente de' principi e de le republiche e de' gentiluomini d'Italia, o pur de la nobiltà universalmente? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Generalmente de la nobiltà. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque sarà da lui considerata quella ancora de' Turchi e de' Tartari e de' Persiani, non pur quella de' Germani e de gli Spagnuoli. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sarà per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se fra gli Indiani di nuovo ritrovati è qualche popolo il qual viva come già viveva la gente di Saturno, de la sua nobiltà potrà similmente ragionare il nostro filosofo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Se fra loro dunque fosse alcuna stirpe che, lontana da negozî simili, vivesse de' frutti de le sue terre, secondo i costumi de' suoi paesi liberalmente, e in tutte l'operazioni si dimostrasse non solo liberale ma temperante e forte e giusta, credereste voi che fosse nobile? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Crederei. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Né, perché fosse senza titolo e senza l'altre civili dignità, vi parrebbe ignobile. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non mi parrebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E s'alcuno legnaggio sì fatto or non si trovasse, ma si fosse ritrovato in quei primi tempi de' primi re e de le prime republiche, non dovrebbe ancora esser considerato dal filosofo? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Dovrebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque assai bene è stata diffinita che la nobiltà sia virtù di schiatta conosciuta per molte e continovate operazioni. Ma nondimeno, poi che 'l filosofo avrà considerato universalmente la nobiltà, potrà considerar particolarmente quella de' regni e de le città le quali con maggior lode di religione e di prudenza son governate, e aver non altramente risguardo a queste maniere di governo ch'oggi sono in uso, ch'Aristotele avesse que' de' suoi tempi; e se conoscerà che a quelle non sia alcuna stirpe giudicata nobile, la cui virtù non sia stata manifesta ne le dignità, potrà convenevolmente dire che la nobiltà sia virtù di schiatta antica e ne le dignità conosciuta. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E assai facilmente potrà avedersene s'andrà risguardando le stirpi giudicate nobili, de le quali son poche che ne l'arme non abbian l'insegne d'alcuna dignità; e altre ne vedrà con la corona imperiale, altre con la reale, altre con la ducale, altre co 'l cerchio, altre co 'l capello, altre con la mitra, altre con cimiero e altre senza. Tutti questi ornamenti de la dignità ho veduti ne l'arme di coloro che sono stimati nobili; e l'armi istesse, quantunque siano senza ornamento, furono prese da coloro ch'ebbero alcuna dignità overo alcun onore militare, e lasciate a' successori. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E gli scudi de' cavalieri e l'altre insegne appese ne' tempi son certi argomenti di nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Certo per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E più certo i trofei, le corone e li scettri e le insegne de' generalati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Più certo, anzi certissimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Debbiamo dunque riprovare il giudicio di coloro i quali, rimirando gli altrui maggiori con gli occhi de l'invidia e de la malignità, cercano di scemar la gloria de' morti, la qual per util de la città deve più tosto essere accresciuta che in alcuna parte diminuita: percioché in quelle republiche e 'n que' regni e 'n quelli stati ne' quali la virtù de' morti non riceve grande onore, si porge a' vivi minore occasione di bene operare. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai stimo ch'un filosofo sì fatto sarà non solo grazioso ma utile al principe, come fu Platone a Dionigi o pur al comico Dione, che più gli credeva, Senofonte a Ciro, Aristotele ad Alessandro e Plutarco a Traiano. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma s'alcuno è il quale sia fatto nobile dal principe, non deve esser riputato ignobile da gli altri, perché ci sono due sorti di nobiltà, l'una detta naturale, l'altra civile, o tre più tosto, perché alcuni ci aggiungano la teologica: ed essendo il principe, che legitimamente comanda a le città, ministro de la divina prudenza, sarebbe assai pericoloso a ciascuno di riprovare i suoi giudìci. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma questa nobiltà civile direm che sia l'istessa che la dignità o pur diversa? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Io non so riconoscere l'una da l'altra, e se ci è distinzione, da voi conviene ch'io l'impari. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Se la nobiltà civile si ritrovasse in alcuno nel quale non fosse alcuna dignità, sarebbono diverse. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sarebbono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se si ritrova in colui il quale è fatto leggitimo percioché di padre illegitimamente era nato, avrà la natural nobiltà senza la civile. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Avrà per mia opinione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma con la nobiltà civile non acquista sempre la dignità di conte e di cavaliero ch'era nel padre. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Suole acquistarla alcune volte, altre non acquistarla. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E così quella di marchese e di principe. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Nel modo istesso. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se 'l padre e gli altri suoi maggiori non avessero avuto altra dignità che quella del dottorato ed egli non fosse insieme fatto legitimo e dottore, acquistarebbe la nobiltà civile, ma non la dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  L'una senza l'altra acquistarebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque la nobiltà civile non è la istessa cosa in tutto, che è la dignità. Or consideriamo l'istesso ne l'adottazione; e ditemi se quegli ignobili che da nobili sono adottati acquistano la civil nobiltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Acquistano veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma sogliono sempre acquistare insieme la dignità de' padri adottivi? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non sempre, perché l'uno può esser adottato da un dottore, l'altro da un capitano: nondimeno né l'uno né l'altro avrà la dignità del dottore o del capitano. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque sin ora abbiamo due specie di nobiltà civile, la quale non è l'istessa che la dignità, ma simile assai: quella che per legitimazione e quella che per adottazione si guadagna. Ma oltre queste si ritrova un'altra specie di coloro che sono albergati e fatti, per privilegio, d'un'altra famiglia; comunque sia, la civil nobiltà molto accresce la naturale, come la coltura aggiunge bellezza a le piante, o pur gli inesti, per cui gli alberi sono carichi di nuovi frutti e di nove frondi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma crediamo che la nobiltà naturale si possa perdere e che la perdessero que' nobili ch'a' plebei si diedero in adottazione per ricever i magistrati popolari, come fece Clodio? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non credo che si possa perdere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Forse perché l'adottato come cittadino passa ne l'altrui famiglia, ma come uomo riman figliuolo di colui del quale è nato. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questa ragione mi pare assai nuova. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Se la nobiltà naturale può stare insieme con l'ignobiltà civile, la stirpe di coloro, che, rimanendo ne l'ordine plebeo, si dimostrò sempre valorosa ne le dignità principali, diremo che per l'un rispetto sia nobile, per l'altro ignobile. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È nobil per natura, ma ignobil secondo le leggi e i costumi de la città. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma le leggi per aventura non eran buone, perché i primi magistrati de la città non debbano esser conceduti se non a nobili; e per questa cagione forse avenne che la forma di quella republica fece tante mutazioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Per questa.</p>
+    </sp>
+	<sp><speaker>A.B.</speaker><p>  E ne le mutazion de le nove republiche quelle famiglie illustri, a' meriti de le quali non si negava alcuna dignità, furono convenevolmente ricevute ne l'ordine de' nobili. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma de la nobiltà naturale e civile a bastanza abbiam ragionato, dimostrando come l'una e l'altra sia diversa: or cerchiamo più minutamente quel che sia la dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>Come vi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Il suo nome ce 'l dimostra in qualche parte, percioché ella deriva da “degno”: laonde ella è quella cosa per la quale altri è degno. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma colui che ne la guerra abbandona gli ordini è degno di pena. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Degno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E di pena degno parimente chi rende la fortezza la quale si può lungamente tenere. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Similmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E chi gitta lo scudo, similmente è degno di castigo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È certamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E tutti costoro son degni di biasimo eziandio. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  È degno di vituperio l'intemperante e l'avaro e colui che de' malvagi dadi è mettitor solenne. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non si può negare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Se dunque la dignità è nel degno, sarà nel bevitore e lussurioso, nel vile e nel falso giocatore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così par che seguiti da questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma tutti costoro de' quali abbiamo fatto menzione sono indegni d'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque la dignità sarà non solamente nel degno, ma ne l'indegno. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sarà. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E s'ella è ne l'indegno, è indegnità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È, se dritto <add>si</add> stima. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque la dignità è indignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È,o par che sia, ma le ragioni loro ci sono molte fiate simili a quelli specchi i quali mostrano le cose diverse da la vera somiglianza. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Prenderem dunque sempre più tosto questo nome in buona parte, e diremo che la dignità sia in coloro che son degni de le cose buone e desiderate da' buoni: laonde convenevolmente fu detto da Dante che la dignità fosse il termine de' meriti, perch'ella è quasi meta a la quale è drizzato il corso de la virtù. Né men convenevolmente fu chiamato effetto, però che da i meriti soglion nascer le dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se vogliam spiarne l'opinione de gli altri, trovarem che Licurgo legislatore mise una dignità ne le ricchezze, per la quale prestiamo più volentieri, e l'altra ne' costumi, per cui crediamo più facilmente: da queste par che s'involga che dignità non sia altro che quello che fa l'uomo degno di fede. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Assai buona diffinizione è questa veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma Aristotele dice che non è stimata l'istessa da ciascuno, perché al popolo par che la dignità sia la libertà, al potente le ricchezze, a' buoni la virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ciascuno potrebbe addur qualche ragione del suo parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Potrebbe veramente, ma 'l popolo, che è libero, è superior a' servi ne la libertà. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E i ricchi a' poveri sono superiori ne le ricchezze. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E più manifestamente i buoni a' rei son superiori ne la virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Manifestissimamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Dunque in tutti costoro par ch'ella sia superiorità: e più chiaramente potremo conoscerlo, risguardando in tutte le specie di quelle ch'a' nostri tempi sono chiamate dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  S'ella tra gli antichi fu superiorità e tra' moderni è parimente, non ci resta alcun dubbio quel ch'ella sia. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma consideriamo diligentemente le specie de le moderne dignità; e prima, quando voi sete ove si ritrovi il principe con gli altri, vedrete che da tutti gli è dato il luogo superiore, e quella superiorità non solo si conosce ne l'apparenza, ma ne gli effetti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Apertamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Adunque la dignità del principe è superiorità; ma quando ne la chiesa vi trovate co 'l vescovo e con l'abbate, conoscete che l'uno e l'altro abbia superiorità sovra i monaci e sovra i preti? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai chiaramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque la dignità del vescovo e de l'abbate ancora è superiorità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È parimente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E ne le scuole il dottore a gli scolari e ne gli esserciti il capitano è superiore a' soldati. Sin ora abbiamo detto ch'ogni dignità è superiorità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Abbiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma in qual cosa stimate che 'l principe a gli altri sia superiore? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ne l'onore del luogo, ne le richezze e ne la podestà, per le quali è posto di sopra. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E 'l vescovo a' sacerdoti? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ne le medesime cose. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E 'l rettore a gli scolari, e 'l capitano a' soldati? </p></sp>
+	<sp><speaker>A.F.</speaker><p> I rettori sono spesse volte men ricchi d'alcuno scolare, e 'l capitano di qualche soldato. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Non è dunque sempre la dignità superiorità conceduta per ricchezze. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma s'alcuna moltitudine non onesta fosse a gli altri superiore ne la podestà, la qual si conosce nel compartir le prede, sarebbe parimente superiore ne l'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non conosco qual sia l'onor de' corsari e de' ladroni. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque in loro non è dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque non vi pare che ogni superiorità sia dignità, ma quella conceduta per onore solamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma dobbiamo stimar per aventura onore quel che è giudicato da le leggi de la città, e se ne' corsari e ne' ladroni se ne vede alcuna simiglianza, è perché osservano le proprie leggi, senza le quali alcuna compagnia non potrebbe conservarsi; tutta volta non è vero onore né vera dignità, la quale si ritrova in quelle ragunanze dove è vera virtù e in quelli che vivono secondo le leggi e non contra le leggi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così credo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E perché ne le congregazioni de' cittadini e de' soldati e de' scolari e de' sacerdoti istessi si vive in questa maniera, ella vi si ritrova. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio alcuno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E per aventura divideremo assai bene le specie de le dignità, s'elle saran divise secondo le vite de gli uomini, le quali sono contemplativa overo attiva. Ma la contemplazione è de le cose rivelate, le quali si credono per fede, e di quelle che si possono conoscere co 'l lume naturale; dunque due saranno ancora le vite contemplative: l'una de' sacerdoti che attendono a' sacrifici e al culto de la religione, l'altra de gli scolari e de' dottori. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E in ciascuna d'esse si potrà ritrovare una specie de la dignità, de le quali l'una chiamaremo ecclesiastica o sacerdotale, l'altra scolastica. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Ma la vita attiva ancora divideremo in quella ch'attende a' negozi civili e ne l'altra che s'essercita ne la guerra: e in loro trovaremo due altre specie de la dignità, l'una civile, l'altra militare. Quattro dunque sono le specie: la sacerdotale, la scolastica, la civile e la militare, e ciascuna è superiorità consecuta per onore e per merito. Ma alcune sono con podestà, alcune senza, e la podestà d'alcune è dipendente, d'altre independente, se pur non volessimo dire ch'ella dependa da Dio, perché <quote rend="block"><foreign lang="lat">omnis potestas desuper est</foreign></quote>. </p></sp>
+	<sp><speaker>A.F.</speaker><p>Così credo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma in ciascuna de le quattro dignità ne trovaremo molte specie, e potremo ordinare l'una sotto l'altra, come ne' predicamenti de' cristiani le specie subalternate per diversi rispetti sono specie e generi. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E in ciascuno ordine quella dignità che non avrà superiore paragonaremo al genere generalissimo, quella che non ha inferiore a la specie specialissima, e l'altre tutte a' generi e a le specie subalterne, ch'in nostra lingua possiam dire sottordinate. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma si può ricercare se di questi ordini l'uno si possa ordinar sotto l'altro in guisa ch'in tutti sia un sommo, o pur se ciascuno d'essi abbia il sovrano. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Io conosco assai bene come dal privato capitano si ascende al colonnello, e dal colonnello al generale de la cavalleria o de la fanteria, e da loro a quel di tutto l'essercito, e da lui finalmente al principe. Laonde so come le militari dignità si potrebbono ordinare sotto le civili, se fra loro parimente ancora annoverate quella de' principi; ma non so come le sacerdotali possano esser disposte sotto le civili, e non intendo se le scolastiche debbono collocarsi sotto le medesime o sotto l'ecclesiastiche. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Noi abbiamo già detto che alcune dignità sono congiunte con la podestà, altre non sono, e che la podestà alcuna volta è dipendente e altra non dipendente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Abbiamo, o più tosto avete, perch'io parlo con la mia lingua, ma con la vostra ragione: laonde, s'io ho parte nel dire, il ragionamento nondimeno è tutto vostro. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma dove è somma dignità conviene che sia somma podestà, perché colui il quale è sommamente degno è degno ancora de la somma podestà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E nel papa è somma dignità: dunque è somma podestà. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Certamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E se nel papa non fosse la somma podestà, ne sarebbe indegno; ma dove è somma dignità non può esser alcuna indignità: impossibile è dunque non solo che nel papa, nel quale è la somma dignità, non sia la somma podestà e ch'ella sia in altri. Oltre di ciò così la dignità come la potenza è tanto più perfetta quanto più s'unisce, e tanto ha maggiore imperfezione quanto più si divide. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque tutte le dignità le quali possono esser divise e multiplicate sono imperfette in comparazione del papato, che non si può dividere né multiplicare. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma l'altre dignità e tutte le podestà possono multiplicarsi, come quella di conte, di marchese, di duca e di re, di vescovo, d'arcivescovo, di patriarca e di cardinale; e quanto elle sono più perfette, tanto meno sogliono multiplicarsi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così aviene senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Solo, oltre quella del papa, alcun potrebbe dubitare se l'imperiale potria dividersi o multiplicare; nondimeno l'imperio fu già diviso in orientale e occidentale per salute del mondo, e Galerio e Costanzo Augusti furono i primi che lo partirono: e spesse volte si ritrovò in quelli di sangue medesimo, come dapoi in Arcadio e in Onorio, figliuoli del buon Teodosio; laonde l'essempio non è nuovo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così è succeduto veramente assai spesso. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque la dignità imperiale ancora è men perfetta de la papale, la quale senza pestifero scisma non patisce divisione. E la dignità del papa è somma e sovrana in tutti gli ordini, dal quale tutte l'altre dipendono; e doppo segue la imperiale, più perfetta di tutte le altre perché assai meno può esser divisa e multiplicata. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così credo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  La dignità del papa ancora, la quale è principalissima perché è una di numero, contiene in sé tutte l'altre e tutte può darle e torle, come ella tolse l'imperio a' Greci e 'l pose ne l'Occidente, e come trasportò da l'una a l'altra stirpe il regno di Francia. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  La verità è così certa che non ricerca molti argomenti. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se de l'altre cose abbiam ragionato come filosofo, debbiamo parimente parlar ne l'istesso modo di quelle che rimangono, percioché questa considerazione trapassa i termini prescritti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  In tutti i modi il vostro parlare è giovevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Quel filosofo il qual scrive de le leggi e de' regni e de le republiche, può trattare de la religione e de' sacerdoti eziandio, e <add>ad</add> altri non s'appartiene di considerare la religione cristiana o l'ebrea, o 'l cristiano o l'ebreo sacerdozio, ma universalmente ogni sacerdozio e ogni religione, sì veramente ch'egli sottometta l'umano al divino giudicio: percioché niuna ragunanza fu giamai instituita senza religione, né senza religione si conservò. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E avrà quella opinione de l'auttorità de' principi che si dee avere di cosa instituita per divina o per umana ragione: perché da loro dipendono tutti gli ordini e tutte le leggi de la città, e molte fiate sono stati insieme re e legislatori, come si legge di Minos e d'Eaco, di Numa Pompilio e, più vicino a' nostri tempi, di Giustiniano, il quale riformò le romane leggi, che per aventura han bisogno di nuova riforma. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così credono alcuni. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Laonde assai felici saranno quelli stati ch'avranno i principi filosofi, i quali non debbono solamente ricever le dignità militari e le scolastiche, ma le sacerdotali ancora in quel modo che da le divine leggi e da le pontificali sono ordinate; e lascerà che i pontefici e sacerdoti possan determinare quel che debba esser creduto d'Iddio e de gli angeli e de' santi e de l'immortalità de le anime nostre e de la providenza e de la predestinazione e de' sacrifici e de la cura de' morti e de l'onor de la sepoltura e de le pene e de' premi de l'altra vita, e porgerà favore e aiuto e consigli, o siano particolari overo universali. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  In questa guisa la filosofia e la religione saranno congiunte. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  In questa guisa certo: e tutti gli ordini, eccettuandone il sacerdotale, dipenderanno dal principe, e tutti potranno ridursi al civile, come rami pieni di frutti e di verdi fronde si riducono al suo tronco. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Tutti veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quando noi diciamo civil dignità, <add>non</add> intendiamo quella de' giudici e de gli altri magistrati solamente, ma quella del re, del duca, del prencipe e del marchese, le quali, benché siano diverse di titolo, si raccogliono sotto una specie e sotto un genere medesimo, perché ciascuna di loro è governo d'un solo in una città e in molte. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ragionevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma come stanno queste cose, o signor Antonio? E chi l'ha disposte in questa maniera, alcuna ragione o pur il voler de gli uomini? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Io per me non conosco la ragione, perché ciascuno ha quel titolo e quella dignità che gli è conceduta dal superiore e dal soprano. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E questi istessi titoli e queste medesime dignità furon sempre nel mondo, o pur novamente son cominciate? E con qual ragione vogliam noi ricercarla e rinovar la memoria de' secoli passati e de gli onori c'hanno ricevuti vari nomi in diversi tempi? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  A me certo sarà grato sopramodo e a voi non molto difficile. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma onde cominciaremo il nostro ragionamento, dal principio del mondo o pur dal diluvio grandissimo di Noè, o pur da quel d'Ogige, dal quale cominciò Varone, o pur da l'altro di Deucalione, assai minore, di cui tante e così fatte cose favoleggiarono i greci e i latini poeti, o da qualch'altra naturale inondazione e incendio, come a' filosofi par conveniente? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Da qual più vi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Presuppognam dunque che nel mondo, per alcuna di queste cagioni voto d'abitatori, alcuno uomo giusto con la moglie sua fosse rimaso vivo: non vi par convenevole ch'egli con industria cercasse di riparar la casa rovinata e di raccor i frutti de la terra per sostegno de la vita? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Convenevol molto. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se di lui nacquero figliuoli e se prima erano nati e poi crebbero, il buon padre di famiglia dovea reggere la sua casa con prudenza e con amore, e in lui si vedeva una imagine de la real dignità; percioché, non essendo alcuna legge al mondo, egli medesimo era a' suoi legge viva e animata. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai è ragionevole come voi divisate. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma nascendo poi figliuoli di figliuoli e multiplicando la generazione, non dovrian tutti capir nel medesimo albergo e sotto l'istesso tetto. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questo ancora è ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Onde molte case si doveano ragunare d'intorno: e in questo modo doppo la casa ebbe origine la villa, la quale è una ragunanza d'uomini e di abitazioni con le cose necessarie a la vita, ma non forse per la vita contadinesca e de le città, come ebbe poi la città. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Le ville ancora di questo secolo non hanno intieramente quel che bisogna. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma crescendo poi non solamente gli uomini ma l'industria, e ritrovandosi l'arti in maggior numero, così quelle che furono a la necessità come quelle che furono per culto e per ornamento, la villa debbe divenire una città finalmente. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare verisimile. </p></sp>
+	<sp><speaker>A.B.</speaker><p>E per aventura, se le prime abitazioni non erano in luogo opportuno, per consentimento de gli abitatori debbe esser mutato luogo a la città; e se nel principio furono edificate ne' monti <add>per cagione</add> del diluvio, cessando quel timore, cominciarono a fabricare ne' piani o su le rive de' fiumi o sovra il lito del mare. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così poté facilmente avenire, quantunque molte antiche città furono murate in modo che s'ebbe più tosto risguardo al commodo che a l'ornamento. Tutta volta queste, che noi chiamiamo antiche, novissime sono, se quel tempo vogliamo considerare del qual voi ragionate. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma per aventura se fosse edificata a caso o con artificio, non è di molta importanza; ma comunque ella cominciasse o crescesse, allora fu veramente città ch'ebbe tutte le cose necessarie al vivere e al ben vivere. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se la vorrem diffinire, direm che fosse una ragunanza d'uomini che avesse le cose necessarie al ben vivere. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai mi pare che la città in questo modo sia bene diffinita. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma doppo che la città fu edificata o mentre ancor si edificava, nacquer molte differenze tra' cittadini, le quali avean bisogno di chi le determinasse. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E per aventura ne le deliberazioni alcuni erano d'un parere, altri d'un altro; laonde elessero un prudentissimo che fosse degno di commandare, al cui giudicio ne credeano ne le cose publiche e ne le private: e a costoro con l'auttorità nel deliberare e nel commandare diedero i cittadini il nome di re di commune consentimento, e allora ebbe principio la dignità reale, de la quale nel padre di famiglia era stata alcuna similitudine. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Tutta volta ne gli antichissimi tempi que' medesimi ch'eran detti re eran detti tiranni, ma 'l nome di tiranno allora non fu preso in mala parte, come si conosce in quel verso nel qual si ragiona del buon re Latino:
+
+<quote rend="block"><lg lang="lat">
+<l>Pars mihi pacis erit dextram tetigisse tyranni.</l>
+</lg></quote></p>
+
+<p>Ma si cominciò forse a distinguere dapoi che furono fatte le leggi: percioché re fu detto colui che l'osservava e tiranno quel che le disprezzava, come si può raccogliere da quell'altro verso, in cui, favellandosi de la gente latina, dice:
+
+<quote rend="block"><lg lang="lat">
+<l>Sponte sua, non vinclis aut legibus aequa.</l>
+</lg></quote></p>
+
+<p>Quantunque, chi considera le cose d'Italia in paragone di quelle de l'Asia, furono assai nuove, percioché Pico, il primo re de' Latini, regnò <add>al tempo</add> di Lampare, vigesimoterzio fra gli Assiri; ma, comunque sia, doppo le nuove leggi molte altre dignità e onori ebbero origine, come i giudici e gli altri magistrati de la città. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È verisimile assai. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E s'alcuna legge fu data del culto de li dei e de' sacerdoti, allora forse le dignità sacerdotali ebber principio; ma in quel tempo eran le città cresciute e multiplicate in grandissimo numero, e dal primo padre molti erano passati ad abitare ne' paesi vicini, e molti ne' remoti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  E questo ancora è ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma dapoi che le città furon multiplicate, così tra' finitimi cominciarono le discordie de' confini come prima tra' cittadini erano cominciate le private differenze; onde a le città de' soldati fece mestiero e le dignità militari ebbero principio; ed essendo cominciate le guerre, molte mutazioni debbono avenire, perché altre città si congiunsero in lega e altre furon soggiogate da' più possenti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È molto conforme a la ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E peraventura alcuna di queste ch'in lega si congiunsero, così elessero un re di commun parere come i cittadini prima l'avevano eletto: e così i regni ne le mutazioni furono constituiti come prima ne le città dinanzi erano ordinati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Gran conformità veramente è quella di una lingua e d'un paese, per la quale possono raccorsi sotto un re medesimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma possiamo sicuramente parlar di que' tempi ne' quali l'istoria de' gentili cominciò ad avere certezza maggiore: perché ogni istoria umana è ordinata da Nino re de gli Assiri, al tempo del quale Abramo nacque tra' Caldei. Né quel regno dal principato di Belo contiene più che mille e trecento anni ne le istorie de' Greci, quantunque ne le narrazioni d'un sacerdote d'Egitto, di cui fa menzione santo Agostino, egli passasse cinque mila anni; ma quelle sono fallacissime lettere: e con l'istessa varietà s'attribuisce più d'otto mila anni al regno de' Persi e de' Macedoni sino ad Alessandro, il quale secondo i Greci non durò più che quattrocento ottantacinque anni. Seguiamo dunque l'istoria di costoro, la quale è più conforme a la sacra scrittura: perché l'una verità deve concordare con l'altra. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Niuna più bella armonia. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  La prima dunque delle monarchie ebbe origine per unione di molti regni sotto un re solo, perché Nino, figliuolo di Belo primo, soggiogò l'Asia, la quale è 'l terzo del mondo nel numero de le parti, ma la metà ne la grandezza, e solo gli Indiani non furono da lui signoreggiati ne l'Oriente, li quali domò poi Semiramis sua moglie. Laonde avenne che tutti i popoli di quelle terre ubbidirono a la signoria de gli Assiri e fecero il loro commandamento. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così avenne senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dapoi è noto a ciascuno come in Sardanapalo avesse fine quel regno e cominciasse quel de' Medi: e a ciascuno è noto parimente come succedesse quel de' Persi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ne son piene molte istorie. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E si legge similmente la divisione che Ciro fece in satrapi, ch'eran governi soggetti al gran re, e come dopo la morte d'Alessandro la monarchia de' Macedoni in molti regni si dividesse. E de' regni de la Grecia e de le republiche e de' magistrati loro s'ha piena cognizione; e maggior s'ha de' Romani, de' quali gli amici erano onorati co 'l titolo di re, e alcuni di loro avevano sotto di sé molti reguli, non altramente ch'ora sotto i moderni siano molti baroni; e si legge de' re nati e de' tetrarchi, e come altri per accrescimento di stato divenissero re, altri per diminuzione, di re ch'eran prima, ritornassero tetrarchi. Ma doppo tutti i regni e tutte le monarchie la nuova dignità de l'imperio tutte le superò, la quale <add>fu</add> confirmata da le arme de gli imperatori con auttorità molto diversa da quella che soleva esser conceduta al tempo de la republica, in cui gli imperatori altro non erano che capitani generali. E doppo la declinazione de l'imperio ebbero origine le dignità di duca, di conte e di marchese, come si vede ne le nostre istorie: e particolarmente nel regno de' Lombardi prima fur quattro ducati, e dapoi il regno in trenta ducati fu diviso. E ne l'imperio de' Germani, sotto il quale ora si governa gran parte del mondo, queste dignità furono confirmate ed ebbero principio quelle di cavaliero e di dottore, le quali peraventura non furono tra gli antichi. Ma, ritrovata l'origine ne le istorie, ricerchiamo quel che se ne possa discorrere con alcuna ragione. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questo è forse officio anzi di filosofo che d'istorie: però v'ascolto più volentieri. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Or ditemi: credete che da noi fosse ben diffinita la città? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi parve. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Nondimeno, se la diffinizione dee esser perfetta <add>e</add> conveniente a le città de' nostri tempi, si dee giunger questa differenza, ch'ella sia governata da le leggi. Dunque, s'è qualche ragunanza d'uomini la quale non abbia le cose necessarie al ben vivere o non abbia leggi, non sarà città. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non per quel che me ne paia. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E non essendo città, vi par che debba aver il re? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Il re, se non m'inganno, deve esser signore d'una moltitudine che basti a se stessa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Le ville dunque e i castelli che non hanno tutto ciò che loro fa mestiero non saran degne d'avere il re, ma i signori de' luoghi sì fatti con altri titoli e con altri nomi debbono esser chiamati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così a me pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Ma che direm noi d'Ulisse, signore d'Itaca, isola picciola e montuosa, e d'Evandro, padron d'un picciol borgo nel Lazio, i quali furono chiamati re? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Se que' luoghi non erano forniti di ciò ch'è bastevole a la buona vita, non furono convenevolmente chiamati. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma forse la congregazione de gli uomini, la quale è propriamente città, è meritevole d'avere il suo re, o pur non basta che sia tale per se stessa, se non ha le altre cose necessarie? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non mi par che basti. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque Enea, capitano d'una moltitudine d'uomini cacciati da la piazza, non fu propriamente re, quantunque dicesse Ilioneo:
+
+<quote rend="block"><lg lang="lat">
+<l>Rex erat Aeneas nobis, quo iustior alter.</l>
+</lg></quote></p>
+
+<p>Ma Ulisse ed Evandro furono, perché gli abitatori di que' luochi non dovevan patir diffetto d'alcuna cosa, e da' tuguri pastorali e da le ville ch'erano intorno ci potevan raccoglier le vittuaglie e portarle a i luoghi vicini, che non erano ancora cresciuti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questo convenevolmente è detto di Palantìo, ma in Itaca, dove abitavano gli amanti di Penelope, era abbondanza di tutte le cose. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Ma le terre d'una città e de l'altra erano picciole per la difesa, e non avrebbono potuto contrastare a' nemici: e picciole molto erano quelle d'Evandro, come appare da gli aiuti ch'egli diede ad Enea ne la guerra de' Latini, a la quale non poté dare altro che quattrocento cavalli; e s'egli pure in alcun modo si diffendeva, lo faceva più tosto con la fortezza del sito e con le mura che con l'arme e con gli esserciti, come appare in que' versi:
+
+<quote rend="block"><lg lang="lat">
+<l>Nobis ad belli auxilium pro nomine tanto</l>
+<l>Exiguae vires; hinc Tusco claudimur amni,</l>
+<l>Hinc Rutulus premit et murum circumsonat armis.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p>  Così mi pare che si possa raccogliere da questi versi.</p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma quella moltitudine la qual con l'arme non può far difesa non è bastevole a se medesima, perché la difesa è una di quelle cose che son necessarie a la vita civile; laonde gli Spartani elessero più tosto che la città fosse guardata con petti de gli uomini che con ripari de la muraglia. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  L'elezione fu d'uomini valorosi. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Nel regno dunque dee esser una moltitudine d'uomini che possa diffendersi e che basti intieramente a se stessa non solo ne la pace, ma ne la guerra. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Però molto convenevolmente fu detto re Evandro, se non forse per speranza de la futura grandezza, ma più giustamente si chiamò re quel de' Toscani, dove si legge:
+
+<quote rend="block"><lg lang="lat">
+<l>Gens, bello praeclara, iugis insedit Etruscis;</l>
+<l>Hanc multis florentem annis rex deinde superbo</l>
+<l>Imperio et saevis tenuit Mezentius armis.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p>Più giustamente senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Né Ulisse, il quale con dodeci navi andò a la guerra di Troia, aveva per aventura forze bastevoli, né armò le navi con la gente d'Itaca solamente, ma con quelle di Nerito, di Croazia e d'Egipila, di Iacinto e di Scione; onde, s'egli pur meritava titolo di re, dovea più tosto esser detto re de' Cefaleni che d'Itaca solamente, perché, s'egli da un re vicino fosse stato assalito, non avrebbe potuto diffendersi senza le forze di tutti i Cefaleni, de' quali nondimeno difficilmente avrebbe potuto raccogliere maggior moltitudine di mille e quattrocento o mille e cinquecento uomini. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai difficilmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E molto più facilmente avrebbono potuto diffendersi gli Ateniesi, tutto che d'una città sola fossero abitatori, i quali con quaranta navi sotto Mnesteo loro capitano andarono a la guerra di Troia, ne le quali non dovea esser meno di quattro o cinque mila uomini da combattere. Ma per aventura né questi né quelli andarono a la guerra offensiva con tutte le genti le quali avrebbono potuto raccogliere per la difesa; nondimeno assai bene si può argomentare ch'essi fossero stati bastevoli a diffendersi da l'ingiurie de' nemici: e se de gli Ateniesi non vi è chi ne dubbiti, convenevolmente Mnesteo potea esser detto re. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma Evandro e Ulisse non per questa, ma per un'altra ragione furono chiamati re, perché erano soli nel comandare, e la signoria d'un solo de gli antichi era detto regno e monarchia a differenza de' governi in cui molti avevano parte. Ma quantunque questa ragione non fosse rea, nondimeno il regno doveva esser bastevole ne la sua difesa: laonde più convenientemente a' tempi meno remoti regni furono detti quelli ch'aveano forze a bastanza. Diffiniremo dunque: il regno è una moltitudine d'uomini e di città governate da le leggi, che viva sotto un solo principe, il quale abbia quel che basta a ben vivere e a diffendersi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Buona mi pare la diffinizione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Ma le forze bastevoli si potran conoscere da gli esserciti: e se convenevol essercito è quello di trentamila fanti, il regno di Sparta aveva giusta possanza per diffendersi, se crediamo ad Aristotele. Né con maggior numero di fantaria Alessandro passò a l'acquisto de l'Asia, ma oltre trentamila fanti ebbe quattromila cavalli, come vogliono alcuni; ma altri vogliono che egli passasse con quarantamila fanti e cinquemila e cinquecento cavalli, come si legge in Plutarco: e questa opinione è quella di coloro che gli diedero maggiore essercito. Dunque siamo assai chiari quali esserciti eran quelli ch'i re de la Grecia potevano raccogliere, i quali erano atti non solamente a diffendersi, ma ancora ad assalire; laonde convenevolmente molti furono detti re. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Molto convenevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Nondimeno, se fosse stato rotto uno essercito, credete voi che così di leggiero n'avesse potuto raccogliere un altro? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non così agevolmente, perché il regno distrutto cadde sotto la prima percossa. </p></sp>
+	<sp><speaker>A.B.</speaker><p> E per quella ragione que' re che molti esserciti potevano raccogliere e ritrovar il primo doppo il secondo, non solo re ma gran re furono chiamati ne le sacre lettere e ne le gentili, e ancora perché erano signori di molti regni e di molte provincie. E quelli stessi che fur detti gran re si chiamarono monarchi, e 'l nome di monarchia, che s'era conceduto ad un solo, s'attribuì solamente a quella signoria che si distende per molti paesi e per molte regioni. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così avenne, e non irragionevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>Noi debbiamo nondimeno ricercarne la ragione. Dico adunque che la signoria d'un re dee esser giusta. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Dee, perch'ella altramente sarebbe più tosto tirannide che regno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quella del gran re dee esser giusta per la medesima ragione. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se giusta non fosse, sarebbe anzi tirannide che gran regno. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sarebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Laonde quella del Turco è gran tirannide, ma quella di Spagna e de l'isole di Maiorica e di Minorica e di Sardigna e di Sicilia e di Napoli e del ducato di Milano e di Brabante, d'Olanda, di Fiandria, di Gheldria e d'Eronia può dar nome di gran re al suo possessore. Ma consideriam questo medesimo ne gli antichi, ne' quali senza alcuna passione si può conoscere; e ditemi: credete che quel di Ciro fosse tirannide o giusta signoria? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Giusta signoria più tosto. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma il giusto signore comanda a coloro che volentieri ubidiscono o a quelli che servono contra lor volontà per violenza? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  A' volontari più tosto. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E i Persiani a Ciro volontariamente ubedivano? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Volontariamente senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma i Medi e gli altri popoli de l'Asia volentieri o contra loro volontà ubbedivano? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Io credo che ubbedissero contra volontà, perché ubbedivano a re straniero, il quale aveva trasportato in Persia quella monarchia la qual era prima in Media. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque la signoria di Ciro era parte giusta, parte ingiusta, perché parte era de volontari, parte d'involontarî. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così forse per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma tra' volontari e gli involontari, a' quali Ciro commandava, credete forse che fosse necessario il comercio? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Credo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E fra le nazioni fra le quali è comercio sogliono nascere molte liti e molte differenze, come ne la città fra' cittadini. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sogliono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E de le lor discordie fu ragionevole che fosse giudice alcuno il quale sarebbe stato giusto, se non più a' Persi che a gli Assiri o a quelli di Lidia fosse stato favorevole. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Né senza lui le contese si sarebbono terminate. Dunque un supremo giudice si doveva ritrovare, il quale giudicasse fra que' popoli fra' quali è contenzione</p></sp>
+	<sp><speaker>A.F.</speaker><p>  Si doveva per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma il giudice dee aver podestà di constringere a chi niega d'ubbedire: e questa podestà ne le città è data da le leggi civili; ma fra i popoli, i quali non si raccolgono in una cittadinanza, non si può dare da l'istesse. Ma oltre le leggi de le città ci sono quelle de le genti e de la natura. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Né l'une né l'altre ci sono indarno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma per natura i valorosi e i prudenti sono re de gli altri, come il re de le api, il quale ne le battaglie è circondato da le squadre de' fideli guerrieri: e tale fu Ciro, che meritò di commandare a tutti i popoli de l'Asia. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Fu dunque Ciro re per natura? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Non fu dunque ingiusto, perché non sono ingiuste le leggi de la natura, ma giusto re, quantunque commandasse a gli stranieri e a gli involontari. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Fu per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma per aventura egli non commandò sempre a gli involontari, ma solo nel principio de la signoria, perché quelli che domò dal principio con l'arme e con le forze, poi si fece benevoli con la prudenza e con la clemenza e con la mansuetudine. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così debbono fare i buoni re. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E s'egli signoreggiava a' soggetti con utilità loro, quantunque gli avesse soggiogati per forza, non era ingiusto, anzi doveva soggiogarli: perché i popoli i quali non conoscevano il lor bene dovevano prima esser constretti con l'arme, e poi con la legge e con la disciplina ammaestrati. Dunque possiam di Ciro affermare ch'egli fosse non solamente giusto re, ma giusto gran re e giusto monarca. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Possiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E Alessandro ancora fu sì fatto, percioché egli non credeva d'esser nato più a' Greci che a gli altri uomini valorosi, né stimò ch'i Greci da' barbari dovessero tanto esser distinti per l'ornamento o per l'armatura del corpo, quanto per la virtù de l'animo; laonde quelli di Grecia con quelli di Asia ne' matrimoni congiunse, e gli Asiani con le greche leggi ammaestrò e con gentili costumi di quella nazione, ed egli medesimo si lasciò vedere alcuna volta ne l'abito de' Medi e di Persiani per dimostrare che non era particolar re de' Macedoni, ma universale a tutte le genti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così avenne. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque l'uno e l'altro fu giusto gran re per le leggi de le genti per le quali i vinti son ragionevolmente soggetti a' vincitori de la guerra, che dee con l'istesse leggi esser guerreggiata; e s'ella non fosse fatta in questa guisa, ma le tregue si rompessero inanzi tempo e le convenzioni e gli accordi non fossero osservati, né gli ambasciatori potessero venir e tornar sicuramente, e contra la data fede si tentasse alcuna cosa, non sarebbe giusta in modo alcuno, né potrebbe apportar lode né gloria a' vincitori. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E coloro i quali fosser vinti con guerra ingiusta non sarebbono giustamente soggetti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Né d'Alessandro v'è dubbio alcuno ch'egli con buone arti non guerreggiasse; e i Romani guerreggiarono nel modo istesso: laonde per le leggi de le genti furono legitimamente signori, quel che non si potrebbe affermar de' Cartaginesi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ne' Cartaginesi i vizî con le virtù furono mescolati. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma per le leggi de la natura i Romani doveano parimente signoreggiare, ed eran nati per questo; laonde, quantunque fosser dimandati barbari da' Greci, i quali chiamarono con questo nome tutte l'altre nazioni, nondimeno essi non ritennero cosa alcuna di barbaro ne le lettere e ne' costumi o ne la disciplina de la guerra; e per questa cagione Pirro re de gli Epiroti disse aver veduto un essercito de barbari non punto barbaro, e 'l suo legato, ritornando di Roma, assomigliò il romano ad un senato di re. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  I Romani furono primi doppo Greci a separarsi da le barbare nazioni, da le quali oggi, se non m'inganno, sono separati molti altri popoli de l'Europa, a' quali si dava prima questo nome. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma perché crediamo ch'i Greci dessero questo nome a Romani? </p></sp>
+	<sp><speaker>A.F.</speaker><p> Per altera opinione di se stessi, per <add>la</add> quale <add>lo</add> giudicavano convenevole a tutti gli altri. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se barbaro significa estrano, né solamente estrano, ma quasi estrano da l'umana ragione, non dovevano esser detti barbari i Romani, che l'usavano in tutte le cose e ne la guerra ancora, ne la quale par ch'abbia minor luogo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non doveano. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Oltre di ciò quel popolo fu ne le buone lettere ammaestrato, e più ne gli studi de l'eloquenza. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questo avenne, s'io non m'inganno, gli ultimi tempi, ne' quali la disciplina cominciò a corrompersi; laonde Giustino istorico disse di loro giustamente che più avea giovato a gli Sciti l'ignoranza del vizio ch'a' Romani la cognizione de la virtù. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Anzi più tosto <add>ne'</add> princìpi del regno, percioché Numa fu creduto discepolo di Pitagora e Tarquino Primo fu senza dubbio greco d'origine, se pur gli altri Romani ancora non derivarono da' Greci, come Dionigi d'Alicarnasso porta opinione; e ne la prima età de la republica non potea esser giudicato barbaro quel popolo il quale difendeva innanzi a' giudici la vita con la lingua, che ne le sanguinose battaglie sicuramente avrebbe difeso co 'l ferro. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non poteva ragionevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E tutta quella parte d'Italia ancora la quale risguarda la Grecia fu piena de la dottrina di quelli, anzi in lei da Pitagora cominciò la setta de' filosofi italiani, sì come da Talete ne l'Asia quella de' ionici filosofanti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così avenne senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E la Sicilia e le altre isole del mare Ionio e la riviera de l'Asia ch'è posta contra la Grecia fu abitata da greci abitatori e ornata de l'arti de' Greci; laonde non pare che i Romani dovessero lor commandare come fecero a gli altri popoli barbari. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non pare per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E i Greci, che i barbari non erano, come barbari non doveano ubbedire; laonde il buon Tito Flaminio volle che uscissero liberi con le sue leggi, riservando a' Romani quell'auttorità che per la maestà de l'imperio gli era conveniente. E oggi ne l'istesso modo l'imperatore, nel quale risplendono le virtù de gli antecessori e particolarmente la grandezza de l'animo e la giustizia e la clemenza, concede la libertà a' Genovesi e a' Luchesi che gli sono raccomandati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Bella concessione, per la quale chi la concede non perde la podestà, ma acquista la benivolenza. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Bella, anzi bellissima, degna, anzi dignissima di Cesare; ma se questa fu la signoria de' Romani mentre ella era republica, non men giusta debbe esser dopo ch'ella si transmutò nel principato di un solo. Tale fu dunque l'imperator romano qual erano stati prima i gran re de l'Asia e di Macedonia, anzi molto maggiore e pieno di molto maggior umanità. L'umanità, come la clemenza, fu nel padre e nel figliuolo, ma vinse l'accorgimento d'Augusto, per lo quale egli fu così caro a' suoi cittadini e avezzò gli animi liberi a la nuova signoria e stabilì con la prudenza quell'impero ch'il padre avea cominciato a fondar con l'arme, ed estinse tutte le guerre con la pace universale. In essi non volle prendere il nome di re, ch'era peraventura odioso a gli uomini, usati a la dolce libertà, ma prese quel d'imperatore, il qual in alcun modo la conservava, e poi fu salutato co 'l nome d'Augusto quel giorno che, ritornando vincitore da Oriente, entrò in Roma con triplicato trionfo e serrò le porte di Giano. Ma quel di divo, il qual vivendo rifiutò, gli fu dato dopo la morte; nondimeno egli vide ancora vivendo i maggiori re del mondo deporre i diademi per riverenza sotto la sua statua e poté nominare re chi gli piacque e altri privar del regno: onde la sua dignità divenne tanto maggiore de la reale che la reale da la sua cominciò a dipendere, e quel nome di divino, che da lui fu rifiutato, fu dapoi usato da' successori. E benché alcuno non volesse esserne onorato in vita, nondimeno i morti imperatori furono con questo nome adorati, e in progresso di tempo furono usati gli ornamenti reali da quelli che seguirono, i quali i primi aveano lasciato, e la potenza loro tanto s'accrebbe ch'aveano quasi cinto il mondo con gli esserciti, come le città de gli altri re sogliono essere circondate di mura. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Quando io leggo e ascolto queste cose, mi sento riempire di maraviglia; laonde stimo poco tutte l'altre monarchie, le quali mi paiono non solo picciole ma brevi, perché furono avanzate ne la grandezza de l'imperio e nel numero de gli anni superate. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ragionevolmente è cagione di maraviglia a chi la considera, perch'ella fu ordinata non solo per umana ma per divina ragione, e 'l nascimento di Cristo, che volle nascere sotto Augusto, e la descrizione de' popoli sono certissimi argomenti ch'al vero Iddio piacesse più quell'imperio ch'a Catone non era piaciuta la causa de' vinti; e ne gli accrescimenti, non solo ne' fondamenti, de la monarchia romana apparve un non so che maggiore d'ogni umana virtù. Laonde un buon poeta fu costretto gridare:
+
+<quote rend="block"><lg lang="lat">
+<l>O nimium dilecte deo, cui militat aether,</l>
+<l>Et coniurati veniunt <add>ad</add> classica venti.</l>
+</lg></quote></p>
+</sp>
+
+	<sp><speaker>A.F.</speaker><p>  Queste omai non son maraviglie de' gentili, ma più tosto miracoli fatti a' cristiani. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Son veramente. Ma lasciam da parte l'una e l'altra; e poich'abbiam non solamente ritrovata l'origine, ma ricercata la ragione del regno e de la monarchia per la quale è giusta e leggitima, ricerchiamola de l'altre dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Nel ricercare vostra sarà la fatica e mio il giovamento. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  De le dignità molte hanno relazione al sovrano, altre l'hanno al soggetto: percioché la dignità di conte, che latinamente è detto <emph><foreign lang="lat">comes</foreign></emph> e tanto significa quanto “compagno”, risguarda l'accompagnato, e l'accompagnato ne' primi tempi fu l'imperatore, il quale diede queste dignità a Belissario e a Narsete, che fecero l'Italia libera da la servitù de' Goti, e alcuna volta la diede a' suoi compagni con le provincie, altre senza le provincie e senza altro stato; come ne l'età nostra è data spesse volte a quelli che son detti conti palatini, fra' quali è il signor Ippolito Gianluca, gentiluomo ferrarese e meritevole di quest'onore per lunga e fedel servitù ch'egli ha fatta al duca Alfonso, cognato di Massimiliano imperatore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Voi nominate gli amici miei per farmi piacere, quantunque poteste prendergli da questi paesi. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Fra le dignità c'hanno relazione al sovrano mi pare che si possa annoverare quella d'ambasciatore, quantunque non si dica a convertenza se non si forma alcun nome di nuovo, ma quel che manda l'ambasciata è mandante, al quale ha relazione il mandato. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare: e questa dignità stimo non men risguardevole d'alcun'altra, percioché rappresenta la persona del principe. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma fra le dignità c'hanno relazione al soggetto è quella di duca, che l'ha al ducato, e quella di principe, che l'ha al principato, e quella di marchese, che si riferisce a la marca, e quella di cavaliero, che si dice del cavallo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questa dignità non mi par come l'altra cominciata dopo la declinazione de l'imperio, ma ch'ella fosse sino al tempo de la republica. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  A quel tempo fu più tosto nome di ordine ne la città che d'alcuna dignità o maggioranza, percioché l'ordine de' cavalieri sia differente da quel de' padri; ma ora son fatti cavalieri molti di quelli istessi che sono de l'ordine senatorio; e perché i principi e i re grandissimi sono cavalieri e chi è degno di questo nome d'ogn'altro onore è stimato meritevole, senza fallo oggi è in grandissimo pregio la cavaleria; de' quali alcuni portano al petto la croce per segno che siano cavalieri cristiani: con quel segno di vittoria hanno ricevute molte memorabili vittorie contra Turchi e contra Mori; il quale è di tre colori, o bianco per dimostrar la fede, o verde per significar la speranza, o vermiglio per manifestar la carità. In questa guisa da lor sono dimostrate per segni le virtù teologiche, le quali sono così proprie de' cavalieri cristiani come le morali erano de' gentili. Ma chi possede quelle tre sacre virtù non è senza l'altre: percioché da la prudenza, da la giustizia, da la temperanza e da la fortezza sono accompagnati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Bella compagnia, e degna veramente del cavaliero. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma noi siam trapassati, quasi non se n'accorgendo, da le dignità civili a le militari; tutta volta molte ne son rimase adietro, de le quali non potrebbe alcun partitamente ragionarne, che non considerasse i magistrati di tutte le città: che non sono gli istessi in ogni luogo né chiamati co 'l medesimo nome, ma altramente il regno chiama i suoi, altramente la republica, e l'uno da l'altro regno e l'una da l'altra republica suol nominarli diversamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così per fortuna è avenuto o per ragione osservato. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma di loro abbiamo ragionato a bastanza, poiché tanti e sì diversi particolari son raccolti sotto l'universale, lasciando altrui la cura di ricercarne particolarmente. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Dunque passiamo a le dignità sacerdotali e a le scolastiche. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Se mi soviene de le cose lette ne' libri de' gentili, la dignità reale fu congiunta con la sacerdotale, come si vede in que' versi:
+
+<quote rend="block"><lg lang="lat">
+<l>Rex Anius, rex idem hominum Phoebique sacerdos.</l>
+</lg></quote></p>
+
+<p>E fra' Romani e fra' Greci eleggevano un re de' sacrifici, ch'era detto <emph><foreign lang="lat">rex sacrorum</foreign></emph> o <emph><foreign lang="lat">rex sacrificulus</foreign></emph>. E fra' Macomettani ancora la dignità sacerdotale è stata con la regia ne' califfi d'Egitto. Ma ora mi accorgo che, dicendo queste cose, ho fatto come coloro che nel corso passano inanzi a la guida, onde raffrenerò il cavallo perché voi possiate condurmi a buon albergo.</p></sp>
+	<sp><speaker>A.B.</speaker><p>  I sacerdoti de' gentili possono forse esser introdotti in scena come dei favolosi, ma ne la nostra vita (e chiamo nostra quella che noi formiamo ragionando o pensando) ritrovano a pena luogo ne le scuole e ne' ragionamenti de' filosofi, fra' quali si potrebbe peraventura concedere parte a' soldani e parte a' califfi, a' quali fu simile il grand'Alessandro ne l'adorare il vero Dio insieme co i falsi; ma noi debbiamo più tosto desiderare principe simigliante al gran Carlo o pur a' due gran Carli e a Costantino lor predecessore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Forse l'abbiam sì fatto come si desidera. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma lasciam, se vi piace, da parte il tempo d'Iside o pur Mercurio Trimegisto, che fu insieme grandissimo re, grandissimo filosofo e grandissimo sacerdote, e parliam del sacerdozio de gli Ebrei, il quale fu disgiunto non solo da la persona reale ma da la stirpe, avegna che l'un fosse ne la tribù di Levi e l'altro in quella di Giuda. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così avenne senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma la nostra religione congiunse per maggior perfezione quel ch'era disgiunto ne l'ebrea e fece vero quel ch'era falso ne la gentile; percioché Cristo fu re vero e vero sacerdote; laonde il papa, ch'è suo vicario, sostiene veramente l'una e l'altra persona ed è adorato per l'una e per l'altra dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ragionevolmente, né per umana, ma per divina ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma perché il pontefice è primo ne l'ecclesiastica ierarchia, la quale è fatta a simiglianza de la celeste, è convenevole che di loro diciamo alcune cose. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Niuna cosa udirei più volentieri. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  La ierarchia è ordine sacro, e 'l suo fine è l'imitazione d'Iddio, e, quanto ella può, dimostra la divina azione; ma la ierarchia del cielo è de gli angioli, il qual nome è commune ancora a le somme nature, quantunque i teologi chiamino angeli propriamente quelli che chiudono gli ordini celesti: e questa si divide in tre ordini, come altre volte abbiam detto. E ne la prima, più vicina a Dio, sono i Troni, i Cherubini e Serafini, c'hanno molti occhi e molt'ale; la seconda è quella che riempiono le Podestà, le Signorie e le Virtù; e ne la terza sono gli estremi, cioè gli Angioli e gli Arcangioli e i Principati. Ma la sovrana è sovraposta più oscuramente a la seconda, e la seconda più chiaramente de la prima e più occultamente de la terza; tutta volta il primo ordine per diversi rispetti è purgato, illustrato e fatto perfetto con più chiaro e con più oscuro lume de la divinità: con più oscuro, perché è più spiritale e semplice e può meglio unire; con più chiaro, perché è dato prima e prima risplende ed è più diffuso e sparso in quel ordine il quale traluce più chiaramente. E i sommi spiriti contengono le proprietà de gli inferiori, ma gli ultimi non ricevono scambievolmente quelle de' supremi, ma n'hanno solamente la parte che si conviene a la capacità loro: non l'hanno però nel modo istesso, ma in un modo inferiore. Ma Iddio è solo principio ch'illustra quelle nature che sono illuminate; e doppo lui è principe de' sacrifici un serafino, il qual ci purga per un angelo, quasi per un ministro e sacerdote. Eccovi, signor Antonio, quasi una picciola imagine de la celeste ierarchia, la quale chi volesse ritrarre intieramente, non bastarebbe per tavola il mondo co 'l cielo ancora e co 'l sole e con le stelle: perciò ch'ella senza proporzione supera più questa gran sfera visibile ch'ella non fa le palle dipinte de vari colori, e sola è convenevolmente espressa ne la mente di colui che la forma così maravigliosa. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Piaccia a Dio ch'ivi possiam contemplarla. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ora parliam de la nostra ierarchia, cioè de l'ecclesiastica, la quale è una ragione che contiene tutti i sacrificî ed è parte celeste e parte legale, avendo con l'una commune le spirituali contemplazioni e con l'altra i segni che muovono i sensi, e si divide come la celeste in tre ordini: in quel de' pontefici, il quale ha forma di far perfetto, in quel de' sacerdoti, c'ha virtù d'illustrare, e ne l'altro de' ministri, a' quali si conviene di purgare. Ma percioché non dee farsi duce de gli altri chi non è simile a Dio, il nostro pontefice mostra in terra la divina simiglianza ed è chiamato angelo perch'egli interpreta i divini giudìci e ha somma auttorità di legare e di sciogliere. Però fu detto a Pietro da Cristo: “Tutto ciò che legarai sovra la terra sarà legato, e tutto quello che discioglierai sopra la terra sarà disciolto nel cielo”; quasi egli e ogni pontefice a lui somigliante, a guisa d'interprete e di passatore per le cose che gli son rivelate da la divina giustizia, possa raccogliere quelli che son cari a Dio ed escludere gli empi, perch'egli ha somma auttorità di separar coloro che son giudicati da lui secondo il merito di ciascuno. Ma perciò ch'il fine de la gierarchia è la congiunzione con la similitudine con Dio, egli cerca d'unire tutti insieme e farli partecipi d'una stessa pace: il che principalmente fa co 'l sacrificio ch'alluoga il simile nel simile del sacramento de l'illustrazione, ch'altramente è detto battesimo; né gli altri possono esser perfetti senza quel de la communione, perch'il fine di ciascuno è la comunanza: laonde la sapienza del pontefice non dee sdegnarsi con quelli che sono in qualch'errore, ma più tosto benignamente illustrarli. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così voglia tutti illustrarci. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Diremo dunque che il pontificato sia un ordine dotato di virtù, la qual fa perfetto, ed essequisce separatamente gli uffici de la gierarchia e interpreta la disciplina de' sacramenti e insegna il santo e convenevole stato e la forza di ciascuno; e 'l sacerdozio così ordina che mena a la luce e introduce a' divini misteri soggetti al pontificato, co 'l quale essequisce i propri uffici: e l'ordine de' ministri è quello che separa e purga i dissimili prima che vengano a' sacrifici de' sacerdoti, e gli fa degni de la vista de' sacri misteri. Queste sono le diffinizioni di ciascun ordine ecclesiastico, le quali non son mie, ma del divino Dionigi Areopagita. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Divinamente furon diffiniti da l'uomo divino. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma oltre questi tre ordini fa menzione di tre altri soggetti a' sacerdoti, i quali son di coloro che debbon esser ordinati ne le cose sacre, e de l'ordine monacale, ora illustrato e molto accresciuto e nobilitato: e oltre tutti gli altri quel di san Benedetto, c'ha dato molti papa a la santa Chiesa e ricevuti molti imperatori, reverendissimo per la santità de la vita e per la dottrina e per l'antichità de la religione, e potentissimo di lettere polite e di ingegni eccelenti e di studi umani e divini. Ma a' nostri tempi gli imperatori e tutti i re e i principi cristiani sono divenuti parte dal sacro ordine, il qual si conserva ne le cerimonie de le chiese, e i principali son consecrati e unti come s'usava fra gli Ebrei. Ma nel pontefice è somma podestà d'eleggere e di consecrare i re e gli imperatori. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così credo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E tutta quella c'hanno gli elettori di Germania fu loro conceduta da Gregorio, papa di quella nazione? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma vogliam noi passare a le dignità scolastiche, de le quali ci manca solamente a ragionare? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Come vi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  In questo passaggio averrà come a coloro i quali hanno rimirato il sole e, riguardando le altre cose, lor paiono oscure; perché dopo la dignità del vicario di Cristo e de gli altri principi le scolastiche ci paiano tenebrose, se non quanto da quella luce si parte qualche raggio che l'illustra. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ragionando di loro, caminiamo quasi a l'ombra. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma per aventura noi non siam così certi de l'origine de le scolastiche dignità come di quelle sacerdotali: e quantunque si legga fra gli antichi il nome di gimnasiarca, non ho letto dove cominciasse, se pur egli non fu instituito da Solone. Ma forse dovea esser quale è 'l rettore fra gli scolari. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Tale per mio parere. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma ne gli antichi secoli a ciascuno era lecito, se non m'inganno, d'aprir le scuole e di leggere e d'insegnar, e non erano instituite le ragunanze de gli uomini scienziati, che son detti collegi, i quali concedessero altrui questa autorità; né si legge ch'in Grecia, ne la quale furono tante scuole e tante e così varie sette di filosofanti, alcuno prendesse l'insegne de la dignità con le cerimonie che oggi sono in uso, né tra' Romani ancora furono giamai. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È nuovo costume senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma dapoi che l'imperio fu trasportato ne le parti occidentali, furono edificate scuole e collegi e confermate con l'auttorità de gli imperatori e di re; e la dignità di dottore e di mastro fu data a coloro ch'aveano fatto alcuna esperienza de la dottrina loro. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così è avenuto veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma crediam noi ch'in tutte le scienze e arti liberali quella dignità fosse conceduta a gli uomini dotti, o pure in alcuna di loro fosse data, in altra non fosse? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così credo più tosto. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Né conoscete alcun eccelente ne la geometria o ne l'aritmetica che de la dignità di maestro e di dottore sia publicamente onorato? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non conosco. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma in quelle scienze che sotto queste sono ordinate, come l'astrologia e la musica, ebbe mai alcuno questa dignità? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non, ch'io sappia. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E molto meno ne la prospetiva e ne la stereometria. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Molto meno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Né congregazioni de uomini famosi in questa professione furono instituiti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non furono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E ne la cognizione de l'istoria e ne l'arte de' poeti e de gli oratori non ebbe alcuno simil dignità, o non l'ebbe con modo simile né con le medesime cerimonie. Ma si legge pur che Francesco Petrarca fu coronato dal popolo romano, e forse Claudiano ebbe prima la corona de l'alloro. E queste academie che si raccolgono a' nostri tempi sono simiglianti a' collegi de' dottori, fra' quali non senza autorità del papa, com'io stimo, il cardinal Borromeo aperse quella in Vaticano, ne la quale il cavaliero Sperone e 'l conte Bartolomeo da Porzia e l'abbate Ruggiero e 'l signor Curzio Gonzaga e 'l baron Sfondrato e l'Amalteo e altri uomini illustri ed eccelenti solevano leggere e disputare; e dal medesimo pontefice fu con molti privilegî onorata quella de gli Invaghiti, di cui fu protettore il signor Cesare Gonzaga, principe d'alto ingegno e di maturo giudicio e di somma prudenza e di molta cognizione di lettere, amatore de' letterati e de' poeti grandissimo, a' quali porgeva non solo materia, ma commodità di scrivere e di poetare. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Niuna più lodevole protezione possono prendere i principi che quella de' letterati e de' belli ingegni. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Le dignità nondimeno che si danno di dottore sogliono essere date a quelli che sono eccelenti ne la teologia e ne le sacre leggi e ne le civili e ne la filosofia e ne la medicina. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  A questi solamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E la cagione è forse presa da l'utilità o da la sicurezza publica come da suo fine, percioché la scienza di coloro a' quali la salute de l'anime si dovea credere doveva esser confermata. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È ragionevolmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Non senza molto pericolo si poteva commettere altrui la sanità de gli uomini: laonde per la medesima cagione doveva esser procurata. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quelli ancora che de la vita e de la morte dovevan giudicare avevano bisogno di simil confirmazione. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Avevano. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque in coloro si ricerca solamente, i quali drizzano la contemplazione a l'altitudine per giovamento de gli uomini. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così estimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma 'l filosofo, che non ha per fine alcuna operazione, non vuol dimandarla, ma la richiedono solamente quelli che congiungano la filosofia con la teologia e con la medicina: e s'alcuna scienza è che, male intesa, non faccia alcuno publico danno o non così grave almeno, non si danno di lei l'insegne del dottorato. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così è avenuto. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E altra ragione miglior di questa non si può ritrovare, per la quale gli uomini eccelenti ne le matematiche e ne l'arti liberali non escano adottorati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Niuna ce n'è migliore per mio giudicio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Assai convenevolmente dunque, o signor Antonio, abbiam ricercata la ragione che proponemmo d'investigare. E già sin ora abbiam ritrovato quel che sia la nobiltà, e come si distingua e come ella sia da la dignità diversa, e quel che sia la dignità e la sua specie e l'origine loro e la natura e l'uso e la ragione di ciascuna; e la cognizione di queste cose, che per se stessa è molto nobile, sarà di molto giovamento a l'uomo civile: gli ignobili da' nobili e gli degni da gli indegni conoscendo, saprà qual più, qual meno debba onorare. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Il saprà senza inganno. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma non abbiam conceduto ch'alcun nobile possa tralignare da la virtù de' maggiori? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Abbiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E de gli uomini nuovi sono alcuni che, non assomigliandosi a' loro antichi, hanno l'ornamento di ogni virtù e di ogni valore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Hanno veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E i nobili che tralignano o i popolari valorosi doveano da l'uom civile essere più onorati? Voi tacete. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Il mio silenzio nasce da irresoluzione de la risposta, perché alcuna volta mi pare ch'i più valorosi debbano esser onorati, alcuna gli figliuoli de gli illustri mi paiono degni di maggior onore. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se l'onore è premio de la virtù, come abbiam detto, dee concedersi a coloro ne' quali la virtù risplende, quantunque non abbiano avuto gli avoli gloriosi; né i nobili che degenerano son meritevoli del medesimo premio. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma s'alcuno con niuna operazione avesse mostrato d'allontanarsi da la bontà de i maggiori, nondimeno niuna prova avesse fatto del suo proprio valore, dee esser costui meno onorato? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questo è quello di ch'io dubito. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ricerchiamne dunque in quest'altra guisa. La virtù de gli uomini è degna di premio non solo in loro medesimi, ma ne' figliuoli e ne' suoi nepoti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E la felicità de' successori appartiene in qualche modo a' morti; e se non appartenesse, nondimeno, mentre che vissero al mondo, furono desiderosi che la memoria del nome loro si perpetuasse: e al desiderio le città e i principi grati debbono sodisfare, percioché gli essempi de la gratitudine son quelli ch'oltre le altre cose invitano gli uomini ad operar valorosamente. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque la virtù de' morti dee esser onorata ne' successori non solo perché è onesto, ma perché è utile a la città. E sì come colui che porta il lume non suole illustrar se stesso, ma gli altri che seguono, così quel ch'è principio de la nobiltà illustra più i descendenti che se medesimo; laonde niuno onore e niuna dignità deve lor esser negata, sì veramente ch'al padre e a l'avo non siano dissomiglianti, e gli errori devono più facilmente a questi che a gli altri esser perdonati, dove regna gratitudine e dove alberga la clemenza. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Oltre di ciò, se ne la città libera l'ordine de' nobili non fosse distinto da quel de' plebei, non si potrebbono concedere a gli uni gli onori de gli altri senza mutar le leggi, le quali non possono agevolmente esser mutate: e la mutazion de le leggi e de le antiche usanze potrebbe esser tale che ne seguisse mutazion ne la forma del governo; ma le città che l'hanno buona non debbon cambiarla in guisa che si corrompa. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non debbono per giudizio universale. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque in Venezia, in Genova e in Lucca, ne le quali i sommi magistrati non sono conceduti a gli ignobili, essi in ogni occasione a' nobili cederanno; e s'alcun regno è con buone leggi governato, il nobile a l'ignobile dee esser superiore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Tutta volta ne' regni e ne gli altri stati che dipendono dal voler d'un solo, il giudizio del principe può sicuramente onorar la virtù e chiamarla a' primi gradi senza pericolo. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Può con sua riputazione, e suole molte fiate. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma il nobile dee cedere al magistrato. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Tale potrebbe essere il magistrato che senza dubbio dovrebbe proporse. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque non è preferito a tutti i nobili ciascuno ch'è in dignità. Ma ricerchiam quali sian quelle dignità ne le quali l'uomo nuovo dee precedere al nobile. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Come vi piace. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Non abbiam già detto che la dignità è superiorità conceduta per merito e per onore? Ma ciascuna superiorità suol esser conceduta sovra gli inferiori, come quella del generale, la qual si dà sovra tutti i soldati. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Il generale dunque deve esser sovra tutti gli altri onorati ne l'essercito; e ne' tempi antichi Narsete eunuco fu da Giustiniano anteposto a tutti quei nobili che in Italia guerreggiarono. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Fu senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E a' nostri tempi si potrebbono addurre simili essempi, ma gli passo per brevità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Molti ce ne sono veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E l'istesso si dee osservare ne l'altre dignità; e s'alcuna republica si ritrova, ne la quale il magistrato supremo si conceda a' plebei, come si concedeva il consolato ne la romana, gli si concede per consequente la superiorità d'onore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Giustamente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma chi può nomare ignobile il padre e il figliuolo che fece il fiero voto per la republica senza vergognarsi del suo giudicio e de le leggi de la città, che son contrarie a quelle de la natura? </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Niuno, perché ne l'uno <add>e</add> ne l'altro l'animo fu nobilissimo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma in qualunque modo debbano esser nominati gli uomini sì fatti, se 'l principe concede la dignità a' nuovi debbono cedergli quelli di stirpe antica sovra' quali è conceduta, né dee richiamarsi in dubbio il giudicio del signore. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così è ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se le dignità si posson concedere a' nuovi, nondimeno per altra cagione non debbono essere date che per merito di virtù. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non per altra. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quantunque la nobiltà e la dignità sian cose molto somiglianti e rare volte o non mai separate, come vediamo in tutti i principi d'Italia, in ciascun de' quali ambo son congiunte. La voce è data a gli uomini per natura, e tutti l'hanno in ciascun luogo, e, subito che son nati, possono adoperarla: ma non è conceduto a ciascuno similmente il parlare, né tutti nascono con la favella; ma con la disposizione al ragionare nasce ciascuno e comincia a favellare quando ode altrui e può formar le voci a quella similitudine: e s'alcuno fosse nato sordo per qualche difetto naturale o non avesse chi imitare, non ragionarebbe. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così stimo senza fallo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E in quel modo ciascuno impara a favellare nel quale ascolta, non in altro; quantunque in altro ragionasse il padre e l'avo, non portan seco naturale inclinazione a favellare più in un modo che ne l'altro: dunque il parlare più in questa che in quella maniera non procede da la natura, ma totalmente da l'uso o da la disciplina; percioché, usando fra Lombardi e da lombardi maestri ammaestrato, favellarà lombardo, e altro, fra Toscan allevato, ragionarà toscanamente, bench'egli fosse nato sotto altro cielo e d'altri parenti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così veggiamo avenire. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma quel che non si fa per alcuna naturale inclinazione, ma per uso o per disciplina, non è naturale. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non è certo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque il favellare più ne l'una che ne l'altra guisa non è operazione de la natura. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai buona è la conclusione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Oltre di ciò quel ch'è giusto per natura in Europa è giusto ne l'Asia. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quel ch'è ragionevole ne l'Oriente è anco ragionevole ne l'Occidente. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quello ch'è bello per natura è bello presso tutte le nazioni, e tutto ciò che sarà per natura tale appresso tutte le nazioni sarà tale. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma que' nomi che son belli fra' Germani o fra gli Ongheri o fra gli Schiavoni, non sono d'equal bellezza fra gli Italiani o fra gli Spagnuoli o tra' Francesi.</p>
+    </sp>
+	<sp><speaker>A.F.</speaker><p>  Non sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Non direm dunque che sian belli per natura; e molte voci ancora parranno dolci e sonore a gli orecchi de gli Italiani, che non parranno sì fatte a quegli de' Francesi e de' Spagnuoli, e molte a l'incontro piaceranno a loro, che saranno forse noiose a' nostri. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non è dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E molti saran lodati fra' Toscani, che tra' Lombardi non trovaranno lode. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non forse tra quei Lombardi i quali con Toscani non sono usi di conversare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Dunque non tanto per natura quanto per uso le parole ci paion belle e dolci e d'altra qualità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai è manifesto per la vostra ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma quel che s'è considerato de' nomi in universale applichiamo particolarmente a' titoli, che sono una specie de' nomi: e dico che, se 'l titolo di duca o di principe o di marchese o di conte fosse per natura tale, appresso tutte le nazioni sarebbe l'istesso. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Appresso tutte. </p></sp>
+	<sp><speaker>A.B.</speaker><p>E quel ch'in una parte fosse più degno d'onore sarebbe parimente ne l'altra. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così averrebbe. </p></sp>
+	<sp><speaker>A.B.</speaker><p> Ma il titolo di duca tra molte genti è più degno d'onore, tra l'altre quello di principe. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così ho inteso; percioché in Napoli onorano i principi sovra i duca, ma in Lombardia il signor Scipione Gonzaga e i fratelli cedano al duca, ma debbono precedere a gli altri. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Non è dunque l'uno per natura più degno de l'altro. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Non per questa ragione. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Il titolo di duca alcune fiate è onorato più di quel di marchese, altre meno, come si vede per essempio che molti duchi cedono al marchese di Pescara. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Questo è l'uno de' molti che si potrebbono addurre. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se i titoli non sono per natura, sono per compiacimento. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Sono. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ed essendo così fatti, possono dal voler de gli uomini esser mutati; onde hanno tanta auttorità quanta piace ad un commune consentimento o pur al parer di coloro che sogliono esser cagione de l'opinione universale, come sono i principi e i legislatori: percioché gli altri approvano facilmente quel che da loro è ricevuto. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Ciascuno segue il giudicio di chi governa il mondo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma se tutti gli altri instromenti son formati con qualche ragione, dee parimente ritrovarsi una diritta ragione del nome, <add>il</add> quale è uno instromento ch'insegna a discerner la sostanza de le cose. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E se è vera l'orazione, le parti debbono esser vere; laonde vero dee esser il nome, ch'è una de le sue parti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  È ragionevole. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E quei nomi che son composti con questa ragione saranno ben composti, e gli altri non bene: e quel che bene gli comporrà sarà buon mastro, come fu Arnaldo Daniello. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così fu giudicato da Dante. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma o sia il fabro de' nomi il poeta o 'l dialettico o pur il legislatore, percioché la legge par che gli abbia statuiti, egli deve usarsi alcuna dritta ragione, e particolarmente de' titoli, che sono risguardevolissimi e onorevolissimi oltre tutti gli altri nomi. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  In loro più che ne gli altri par ch'ella si ricerchi. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma peraventura quelli che son formati son tanti e tali che non fa mestiero comporne alcuno di nuovo, e potrem bene usarli senz'alcuna difficoltà. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai facilmente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma perché i titoli sono o per sé stanti o aggiunti, gli aggiunti debbono accompagnarsi convenevolmente con quelli che stanno per sé. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Mettiamo dunque da l'un de' lati il papa, il cardinale, il patriarca, l'arcivescovo, il vescovo, l'abbate, l'arciprete, l'archidiacono, il prevosto; da l'altro l'imperatore, il re, il duca, il principe, il marchese, il conte, il capitano e 'l cataneo; e consideriam con qual ragione fossero formati questi titoli, quantunque d'alcun d'essi sia stato detto alcuna cosa. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Le cose buone piacciano replicate diece volte ancora come disse quel giudicioso poeta. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma ricercando la ragione de' nomi, ricercaremo la natura, percioché il nome non è altro che un ricercamento di quel ch'è: e d'alcuni sarà facile il ritrovarla, in altri più difficile, come in questo di “papa”, il quale forse si deriva da la particella <emph><foreign lang="lat">pape</foreign></emph>, che s'interpone per maraviglia, percioché il papa con molta maraviglia suol esser risguardato e con molta riverenza ancora adorato. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Da tutti e in tutti i luoghi. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  O più tosto viene dal nome greco <emph><foreign lang="grc">páppas</foreign></emph>, nome di venerazione tratto da' Siracusani, il qual significa “padre”. E 'l “cardinale” è nome derivato da “cardine”, percioché essi sono quasi cardini de la Chiesa; ma “patriarca” da' due nomi greci <emph><foreign lang="grc">patér</foreign></emph> e <emph><foreign lang="grc">archón</foreign></emph>, che significa “primo padre” o “principio di padre”, e fu nome d'Abram, di Isac, di Iacob e di Giuseppe, che furono i primi padri del popolo ebreo. E quel del vescovo trae l'origine da la greca lingua e si forma dal verbo <emph><foreign lang="grc">episkopéo</foreign></emph> e tanto vale quanto “custode”, “curatore” o “speculatore”; e l'“arcivescovo” è nome composto con la particella <emph><foreign lang="grc">arché</foreign></emph>, che significa “principio”; ma <emph>abbas</emph> è forse nome ebreo e significa “padre” similmente. E l'“arciprete” deriva dal nome <emph><foreign lang="grc">presbúteros</foreign></emph>, a cui si prepone la medesima particella <emph><foreign lang="grc">arché</foreign></emph>, e ha la medesima significazione che <emph><foreign lang="lat">senior</foreign></emph> fra' Latini; onde sogliono onorare gli istessi sacerdoti co 'l nome di “don”, che vale quanto “signore”; e “diacono” vien dal verbo <emph><foreign lang="grc">diakonéo</foreign></emph>, il qual in lingua greca ha significato di ministro, e si compone “arcidiacono” a l'istesso modo; e “preposto” è derivato dal verbo latino <emph><foreign lang="lat">praepono</foreign></emph>. Or passiamo, se vi piace, a l'altro lato, dove sono i titoli de l'altre dignità. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Passiamo. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  “Imperatore” vien dal verbo <emph><foreign lang="lat">imperare</foreign></emph>, che significa “comandare”; il “re” da <emph><foreign lang="lat">rego</foreign></emph>, che vuol dire in nostra lingua “reggo” e “governo”; e dal verbo latino <emph><foreign lang="lat">ducere</foreign></emph> è detto il “duca”, e “prencipe” da “principio”. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi pare senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma da “marca” deriva “marchese”, ch'era nome di provincia posta ne' confini; e da <emph><foreign lang="lat">comes</foreign></emph> si dice “conte”, e “capitano” da “capo”: e per accurtamento si dice “cataneo”. E a bastanza avem detto per aventura de' titoli che stanno per sé: or parliamo de gli aggiunti. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Di loro aspetto che ragioniate. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Al papa s'aggiunge il titolo di santissimo, il qual deriva da <emph><foreign lang="lat">sanctio</foreign></emph>, che significa “stabilire” e “confermare”, percioché la dignità fu da Cristo stabilita e confermata. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così credo senza dubbio. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma a l'imperatore s'aggiungono come suoi titoli quel d'augusto, che si forma dal latino <emph><foreign lang="lat">augeo</foreign></emph>, perché egli accrebbe la maestà de l'imperio, e l'altro di divo, di manifesta significazione; e da' legislatori è dato quel di superillustre, a cui l'“illustrissimo” ha vigore eguale, percioché gli illustrissimi sono sopra gli illustri. </p></sp>
+	<sp><speaker>A.F.</speaker><p> Così mi pare. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma quel di serenissimo, usato da' fratelli, si deriva peraventura dal nome greco <emph><foreign lang="grc">sélas</foreign></emph>, che significa “lume”, da cui si vien <emph><foreign lang="lat">seléne</foreign></emph>, ch'è la luna, mutando il <add>lambda</add> nel <add>rho</add>.</p></sp>
+	<sp><speaker>A.F.</speaker><p>  Assai nuova è la formazione di questo nome, ma nondimeno mi par molto vera. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma l'“illustre” e 'l “molto illustre” son titoli che si danno a l'altre dignità civili e militari. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Tale è il costume. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  E a le sacerdotali è convenevole quel di reverendissimo e di reverendo, nome formato dal verbo latino <emph><foreign lang="lat">vereor</foreign></emph> e da la particella la qual si usa in composizione: percioché riverenzia altro non è che timor de' maggiori, dal qual nasce, come da suo fonte, la mestizia per diffetto di gloria. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  E questa derivazione ancora è nova, e vera quanto nova. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma 'l titolo d'eccelentissimo e d'eccelente vien da “eccelso”, e si conviene non solamente a' principi, ma a' letterati grandi: laonde si può ripor fra gli altri de le scolastiche dignità. E “magnifico” è formato da <emph><foreign lang="lat">magno</foreign></emph>, nome, e <emph><foreign lang="lat">facio</foreign></emph>, verbo latino, e s'appertiene a quelli che son facitori de le cose grandi: onde dal Boccaccio fu dato a' soldati ancora e a' re, e tale è la sua dignità che da niuno dovrebbe esser sdegnato. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Da niuno veramente. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Quel di chiarissimo ancora è di chiarissima significazione, e quel di spettabile vien dal verbo latino <emph><foreign lang="lat">specto</foreign></emph>, e si direbbe “risguardevole” in nostra lingua: e sono usati senza distinzione da le dignità sacerdotali, civili, scolastiche e militari. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  Così mi par d'aver osservato alcune volte. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Ma quel di maestà e d'altezza e d'eccelenza e di signoria son nomi che si danno in vece del “voi” toscano e del <emph><foreign lang="lat">tu</foreign></emph> latino. </p></sp>
+	<sp><speaker>A.F.</speaker><p>  In quella vece, ma con maggior riverenza di chi gli dà e con maggior riputazione di chi gli riceve. </p></sp>
+	<sp><speaker>A.B.</speaker><p>  Altro per aventura non rimane a fornire il nostro ragionamento, perché, se volessimo ridurlo ancora a più alto principio, ritrovaremo che potenza più eccelente de l'umano ha compartiti i primi nomi. Laonde in molti di loro è collocata maravigliosa virtù, con la quale soglion esser fatti i miracoli; ma queste cose debbon esser coperte con quel divino silenzio del quale sono a pena interpreti gli angeli. </p></sp>
+
+</div1>
+</body>
+</text>
+</TEI.2>

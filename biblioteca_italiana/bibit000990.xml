@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Dell'imitazion poetica. Libro primo</title>
+      <author>Bernardino Partenio</author>
+    </titleStmt>
+    <extent>86 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit000990</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Trattati di poetica e retorica del Cinquecento</title>
+        <title type="part">v.</title>
+        <editor id="ed">Weinberg, Bernard</editor>
+        <publisher>Laterza</publisher>
+        <pubPlace>Roma [etc]</pubPlace>
+        <date>1970-1974</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CDD"><bibl>Classificazione Decimale Dewey</bibl></taxonomy><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="gre">Greco</language></langUsage>
+    <textClass>
+      <keywords scheme="CDD">
+        <term>808.009031 - RETORICA. 1500-1599</term>
+      </keywords>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT-Roma</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-03-11T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Marina Larena</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2003-03-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div1 type="capitolo">
+<opener><salute>AL MOLTO REVERENDO ET ILLUSTRE MONSIGNOR MELCHIOR BIGLIA.</salute></opener>
+
+<head>Libro primo</head>
+
+      <p>Tra le cose per le quali la vita umana illustrata ne viene, istimo io (e così senza contradizione si crede) esser le arti le quali si comprendono sotto la scienza delle lettere. Queste tanto più di riputazione e di dignità seco apportano, quanto più degne di tutte le altre cose sono per esser date agl'uomini da Dio in dono, onde niuna invidia della fortuna di quello privare ci può. Vediamo di quanta gloria sia stata a Socrate, a Platone, ad Aristotele la filosofia, a Tolomeo le matematiche, a Demostene et a Cicerone l'arte del dire. Onde negare non si può che essendo state queste facultà così perfette in quelli altissimi soggetti, non solamente il nome loro ma il mondo ancora adornato non fosse. Onde non debbiamo maravigliarci se tanto pregiati vissero che oggidì ancora non come uomini ma come dèi sono reputati; oltra che quanto di lume e di dottrina abbiamo, tanto da quelli riconosciamo. Ma comeché queste arti siano state e siano di tanto ornamento nondimeno considerando queste discipline e misurandole con la poesia, non solamente, a ciascuna di quelle l'agguaglio, ma senza dubbio a tutte la preferisco. Conciò sia che queste dottrine sono comprese da questa arte, anzi da quella apprese et imparate pare che siano. Per la qual cosa tra tutte le arti a guisa di principessa e di regina si sta.</p>
+      <p>Quale scienza è li cui semi non si veggano sparsi in Omero, dai quali come ruscelli da fonti derivati sono questi fiumi, questi pelaghi di scienzie? Da quel poeta, come scrisse Massimo Tirio filosofo, ne fu illustrata la filosofia antica, nella quale fu principe e mastro di tutti, et ancora di Platone tutto che dissimuli e mostri il contrario; nondimeno egli non può nascondere i vestigi della dottrina appresa da lui. Onde affermano che Platone non fu men simile ad Omero che a Socrate, dichiarando ch'infino le parole e le voci di Platone così da Omero erano venute come la Palude Meotica dall'Oceano et il Ponto dalla palude, e dal Ponto l'Ellesponto, e da questo l'altro mare era derivato. Et in effetto pare che la poesia non sia altro che filosofia antica per l'età, la quale con i suoi modi e sentenze coperte di veli di favole, di versi e d'armonia mosse quegli animi degli antichi e gli trasse all'instituzione con la piacevolezza. Onde fu detto che alcuni de' poeti col canto fabricavano città, e che alcuni dai monti e dalle selve erano seguitati. Così fosse il poeta conosciuto per la virtù, come per il piacere è favorito dal popolo (per il che si dee credere) secondo il giudicio del di sopra nominato filosofo che i poeti non cedono di sapienza e di dottrina ad alcuno di quelli che furono autori nel mondo di tante e sì diverse cose, e sì dotte. E chiunque si persuade che Omero o vero Esiodo o Orfeo sia inferiore ad Aristotele, a Crisippo, a Clitomaco, o ad altri simili, dire si può ch'abbia qualche maledizione per la quale porti sì rovescia e del tutto sì strana openione.</p><p>
+      Chi desidera in quel poeta cognizione di stelle, disposizioni di siti, di luoghi, governi di famiglia, di republiche, dell'arte della guerra, del navigare? Che più? Fino le mecaniche apprendiamo da quello. Che dirò io della instituzione della vita civile, della morale? Donde meglio e più evidentemente veggiamo espressi i costumi degli uomini quali esser deono? Come ciascuno regger si debba in ogni caso, in ogni fortuna, in ogni occasione? Qual de' filosofi meglio ci insegna qual prudenza, qual fortezza, qual discrizione abbiamo da usare in ciascuna minima azione, che nei suoi poemi? Questo ci fa saggi, prudenti, modesti, forti, pazienti, costanti, giusti, buoni, religiosi e santi. Il che avendoci insegnato i filosofi, da quelli fonti pieni e ricchi hanno potuto cavare. Chi ha mostrata la via agli oratori dell'esporre le cose, dei principii, delle confermazioni, dell'amplificazioni? Chi meglio puote mostrare gli affetti d'ogni maniera, et ardenti e rimessi? Qual mastro più eccellente fu dell'abbellire le sentenze? Onde veramente detto fu che sì come dall'Oceano tutti i fiumi et i mari derivano, così vediamo da questo poeta tutte le cose dette aver l'origine et il principio.</p>
+      <p>Oltre di ciò, per qual cagione non dobbiamo anteporre questa divina facultà a tutte l'altre per l'antiquità, e per essere stata in uso innanzi che fosse il nome della filosofia e che la prosa si essercitasse? Della quale essendo stati in Grecia primi inventori Ferecide, Cadmo et Ecateo, si vede per li tempi Orfeo e Museo molto innanzi essere stati. Non leggiamo in Plinio ch'Apolline Pitio fu autore del verso eroico? Et altrove che Orfeo e Lino furono giudicati mastri di Ercole? Chi dubita che innanzi a Omero et Esiodo non siano stati altri poeti? Non fanno fede di questa nobiltà Anfione, Tamiri, Filemone? E se più oltre si vorrà cercare l'origine di questa lode, onde meriti di esser preferita, rivoltiamoci agl'inventori, quali furono gli dèi. Perciò che chi ciò attribuisce all'oracolo di Delfo, chi a Bacco il quale fu oracolo innanzi Apolline; chi l'assegna a Femonoe figliuola d'esso Apolline, la quale essercitò gli oracoli in Delfo. E sì come la poesia è invenzione degli dèi, così si sono dilettati dei poeti da loro volendo esser celebrati, riputando quelli soli esser degni di cantare la potenzia loro, a quelli il fiato inspirando della loro divinità, con che levandosi da terra et alzandosi fino al cielo, trascorrono per tutti i segreti di quella beata parte della natura, cantando de' principii delle cose, della teologia, de' misterii a loro soli revelati. Onde essendo partecipi delli segreti di Dio, chi loro negherà non esser divini e non esser generazione sopraumana?</p>
+      <p>E se vogliamo conoscere che Dio solo sapientissimo e solo prudentissimo ama la poesia, comprendiamolo dalla armonia o vero di quelli beatissimi cori celesti i quali con quella ineffabile dolcezza addolciscono il cielo e la mente divina; o vero dal concento che sappiamo nascer da l'ordinatissimo movimento delle sfere del cielo, le quali la sapienza divina volle che con numeri e con ragione poetica temperate fossero tra loro accordandosi in creare tal armonia che in noi la virtù del sentire addormenta. Et avenga che da infinite cose si possa inalzar quest'arte, nondimeno per ischifar il tedio che suol apportare la lunghezza, le trapasseremo, non toccando punto dell'utilità e del diletto ch'ella ci reca, né delli favori di prìncipi e d'imperatori fattili in ogni età. Se dunque la poesia per l'antiquità è sì nobile, se tanto pregiata per la eccellenza, se tanto desiderabile per la utilità e per il piacere, se tanto veneranda per i segreti e per i misterii, se tanto dolce per l'armonia, se per gl'inventori tanto reverenda, se per l'inspirazione tanto ammirabile, qual fia sì addormentato o morto in se stesso che non s'accenda e non arda di desiderio di sapere così divina facultà, et insieme non si disponga apprender quelle vie, quei ricordi, quei precetti, dai quali come da una certa guida possa pervenire alla eccellenza della poesia con qualche laude?</p><p>
+      Questa maraviglia in me destò il desiderio di scrivere e di trattare di questa, e, riputando niuna altra cosa potere essermi appresentata né più degna né più onorata nelle lettere, venni in openione che niun'altra cosa s'agguagliasse alla eccellenza dello scriver bene poeticamente, e però tanto più cara istimai che ai gentili spirti fosse per essere questa mia fatica. Appresso, giudicai esser cosa umana, non che lodevole, porger aiuto agli studiosi di quest'arte, alla quale dandosi tuttavia, ma abbandonati dall'arte, difficilmente a quel sommo pervenire potevano al quale aspiravano. Non si nega ch'Aristotele non abbia sodisfatto quanto alla tragedia et alla epopeia s'appartiene, et Orazio altresì, il quale pare aver tenuti i piedi fissi negli istessi vestigi d'esso Aristotele. Ma ad altro fine risguardarono, conciò sia che si proposero solamente di mostrare come constituire si deve la favola et ordinare il corpo di essa e come s'ha da imitare i costumi. In questo affare più oltre desiderare non si può in quelli. Ma perché oltra questa cura altre cose si ricercano a compire l'arte della poesia, avendosi da isprimere e da representare leggiadramente lo stilo d'un poeta ch'a noi piaccia, il che con quei precetti soli niuno conseguirebbe già mai — e ciò facendosi con le parole, con i modi di dire, con le sentenze particolari, cose non toccate da questo filosofo né da Orazio fa di mestiero trovar vie che ci conduchino a questa laude, onde non solamente i nostri poemi prudentemente ordinati e costumati appaiano ma che abbiano ornamento e grazia per virtù delle buone parole e forme di dire ornate et artificiose, dai quali il corpo e tutti i membri minuti dei poemi di bel sangue e di vivo colore adornati ne venghino. Non basta che 'l corpo sia ben proporzionato e disposto, e che non sia mostro, ma che abbia vaghezza e che ne l'aspetto sia leggiadro e grazioso.</p>
+      <p>Questo è insomma quello che mi parrebbe di ricordare presso alcune altre parti a questo fatto pertinenti, delle quali partitamente si tratterà. Dunque, hommi proposto, per quel poco che si stenderà il mio potere, di dire in questi libri dell'imitazione, ch'al poeta s'aspetta per cagione degli ornamenti che consistono nelle parole e nelle particolar sentenze, rinovando la memoria d'un certo ragionamento fatto da alcuni uomini chiari intorno a questa materia, acciò che s'intenda quale fosse l'opinione di quelli intorno a tutta la facultà dell'imitazione poetica. E perché in queste due cose sole dette non consiste né la bellezza né la eccellenza d'un poema, dirassi di alcune altre parti, come delle materie universali e come s'abbiano a torre da un altro; medesimamente, delle invenzioni che si tolgono dai luoghi topici. Ma primieramente si tratterà delle forme della locuzione poetica nate dalli istessi luoghi, delle assonzioni, delli commenti o ver finzioni poetiche, dell'ordine, dei modi di arricchire et ampliare ogni sentenza, e finalmente l'orazione; degl'affetti, degl'epiteti, accommodando i precetti così ai poeti volgari come ai latini. Non vorrei però ch'alcuno s'imaginasse ch'io m'avessi voluto presumere di raccôrre tutti i precetti che potessero cadere in quest'arte, e che di maniera fossero certi ch'altri più certi trovare non si potessero. Anzi, ch'io mi sia mosso a questa impresa sperando che poscia ch'io avessi proposte queste mie cose minute e leggeri, altri cose molto più sottili e gravi trovare devessero. Nella quale mia sposizione di cose, se paressi men ordinato che non s'averebbe desiderato, s'incolperà la varietà, la quale bene spesso genera confusione.</p>
+      <p>Ma per venire a quello che mi ho proposto di fare, essendomi accaduto gli anni passati esser in Venezia, dove elessi confirmare il tempo delle vacanzie, sciolto dal carico publico di leggere, avenne che 'l secondo dì che vi gionsi me n'andai a casa della onoratissima memoria di Messer Trifone Gabrieli per salutarlo. Fummi detto che era restato in barca con Messer Giovan Giorgio, Trissino e che se n'erano iti a Murano. Et essendomi partito con animo di farmi portare là, per non lasciare sì bella occasione di godere due sì grandi e famosi uomini, per poco m'era scostato che mi veggo innanzi Messer Francesco Luvigini, il quale mi parve che da un qualche dio mandato mi fosse. Egli non sì tosto mi vidde che con la sua naturale e niente finta amorevolezza mi corse ad abbracciare, et io lui. «E che buon vento» disse «vi ha portato qua, Partenio?». «Il desiderio ch'aveva di vedervi» risposi «essendomi paruto quest'anno un secolo per non vi avere goduto al solito».
+«Per Dio», soggiunse, «donde venite ora?». «Da Messer Trifone», diss'io «che non essendo in casa ma essendosi fatto gettare a Murano col Trissino, mi ha fatto crescer la voglia d'andarvi». Et ad un tempo rivoltatosi ai compagni con chi era: «Signori», disse «a Dio, ch'io me ne vo per miei affari di qua, s'io non vi offendo». E tolta licenzia: «Non faccia Dio», disse «che godiate oggi il fresco di Murano e compagnia sì onorata senza di me, massimamente intendendo che da questi due uomini pregiati, s'ha da ragionare di alcune cose intorno alla poesia, in che e l'uno e l'altro è sì chiaro come ognun sa; e che alquanti gentiluomini di questa città e scolari forastieri, di ciò sapendo, gli hanno seguitati. Ma se si potesse ottenere che Messer Paolo Manuzio, lassate le sue occupazioni, si contentasse di venirci, reputarei in tutto compiuta la cosa».</p>
+<p>Et essendomi piaciuto il ricordo, incontanente passammo alla Giudecca ove egli dimorava, et espostoli il fatto, per occupato che si fosse, non ricusò, per esser di gentil natura come si sa. Laonde ci imbarcammo. E giunti a Murano entrammo in un giardino dove si erano ridotti et agiati i due onorati vecchi sotto un pergolato di viti foltissime, attorniato di spessi gelsomini sì che 'l sole percuotere non li poteva. E spirava un'aura piacevolissima e fresca assai. Intrati e riconosciutici, disse il Trissino verso il Manuzio: «A tal ora entrano i valorosi combattenti nel campo». Come soggiunse egli: «Hassi da far facende onde ci abbiamo da pentire dell'esser venuti troppo a tempo?». «A punto» rispose il Trissino.
+«Dunque», disse 'l Manuzio, «meglio stato sarebbe esser venuti dopo 'l conflitto per ischifare il pericolo». «Non dite così, Messer Paolo», soggiunse Messer Trifone «né dissimulate già; ché conosciamo quanto sete valoroso. Ma, se vi aggrada, sedete con la compagnia». Allora tutti ci mettemmo a sedere in cerchio in un momento, essendo portate le sedie da servitori. E già ciascuno agiato s'era quando Messer Trifone verso il Trissino: «Non vorrei» cominciò «che tenessimo questi gioveni nobilissimi sospesi, ma che ci rivoltassimo a dire ciò che ciascuno di noi sente intorno all'imitazione del poeta, di che intendiamo di ragionare oggi. E perché non per altra cagione ci siamo qui ridotti, mi parrebbe tempo di dirne». «Come a voi piace» rispose il Trissino. «Però vi piacerà, essendo norma et essempio a noi altri, senza che multiplichiamo in cerimonie, di esser quello che dia principio al ragionamento».</p>
+<p>«Io non vi posso negare» rispose Messer Trifone. «Ben vorrei che tal in me fossero le forze e la facultà quale forse è la espettazione di questa nobilissima compagnia. Nondimeno, chi fa ciò che puote adempie le leggi. Fu tempo che l'imitazione fu in gran pregio, conciò sia che gl'ingegni oltra modo di quella se ne valevano, poscia che per esperienza conobbero le ampie commodità che di là cavavano. Onde l'indrizzo di questa, come stella sicura e certa, seguirono. Videro l'ingegno e la natura, la quale di se stessa si confida, spesso strabocchevolmente esser trasportata dalla confidenza. E veramente non mi può cadere nell'animo che alcuno mai riputasse o prudente o di sano giudicio chiunque in tanta varietà di scrittori et in tanta diversità di stili non si proponesse alcuno al quale non volesse assomigliarsi. Conciò sia che chi bene non si assuefà, sprezzando l'essempio, di necessità invano si affatica, restando ogni suo sforzo impedito e rotto. A costui quello istesso aviene in tanta dissomiglianza d'essempi che a quelli i quali, essendo in una fortuna di mare travagliati e qua e là portati, non conoscendo qual porto prender si debba, lontani da terra errando sen vanno.</p>
+<p>«Per il che, non riputaremo del tutto, non dirò sciocchi, ma furiosi quelli che s'armarono contra questa commodità e posero ogni industria in levarle la dignità, scrivendole contra e vituperandola, contendendo che è una nuova sorte di lepra e di pazzia, allegando l'ingiuria d'Orazio detta agl'imitatori? Aggiungendo che a Virgilio più tosto nociuto avea l'aver imitato che giovato? Vero è che alcuni con più prudenza e con miglior consiglio dissero che nello scrivere si doveva imitar più tosto quella certa forza o vero facultà la quale portiamo nell'animo, che chiamano idea. Finalmente infinite altre cose trovate furono per espugnare quella rocca contra la quale ogni forza fu vana. Queste opinioni un tempo mi tennero in forse; e perché minor fatica vedeva essere il far da se stesso ch'imitar l'altrui diligenza con tanto studio e cura, a quelli cedeva che di minor travaglio m'erano cagione.</p>
+<p>«Nondimeno, procedendo et avedutomi dell'inganno, mi ritrassi, sforzandomi come poteva meglio di assomigliarmi ad alcuno — miglior proposito parendomi seguir altri, che bene fatto avessero, che continovare in quel pericolo di esser simile a me solo; il che mi piacque di fare, parendomi quelle opinioni repugnanti agl'instituti degli antiqui et all'esperienza de' moderni, avendo veduto col tempo tutte le sorti di scrittori aver imitato alcuno, così oratori et istorici come poeti. Oltra che alla giornata mi risolveva non esser possibile che altramente arrivare si potesse ad alcuno segno onorato nell'eloquenza senza questo studio, e facendo in ciascuna arte mestiero di guida. A chi non pare cosa inettissima che Virgilio più danno che utile ricevuto avesse da questa facultà? in caso che non ci paia lecito spogliare questo poeta della sua propria laude del giudicio in mirar Ennio, Lucrezio, Vario, Catullo. Se Orazio villaneggiò gl'imitatori, gli ignoranti et inetti villaneggiò che non la virtù ma il vizio seguivano. Per il che in quell'istesso luogo di questi intendendo dice che se egli per qualche accidente si avesse impallidito, questi tali per assomigliarseli averebbono voluto bere il comino per divenir pallidi. Nel qual vizio molti incorrono, non essendo cosa alcuna più leggera che imitare il vizio, come si dice di Fusio imitatore di Fimbria. Onde ragionevolmente contra questi s'adirava, sì che male averanno intesa la ingiuria di quel poeta contra gl'imitatori. Quelli che del tutto levandola affermavano che era una peste, ciascuno può giudicare e discernere quanto essi, sendo infettati, di qual medicina avessero bisogno.</p>
+<p>«Molto ragionevole per il contrario pare che sia quello che 'l Pico, uomo risolutamente dotto, scritto lasciò, impugnando questa causa più riservatamente, conciò sia che affermi che più tosto la idea seguire si devesse. La quale opinione però, tutto che sia verisimile e sopra tutto ingeniosa e dotta e da altri trattata — massimamente da Platone — nondimeno a quel sublime ingegno rispondendo nella materia di questa causa sola dell'imitazione, più oltre non mi stendendo, non giudico che in tutto sia da accettare. Conciò sia che, per esporre quello che ho nel pensiero, la nostra idea o buona è o men buona. Se è buona, parvi che sia vizio procacciar via di farla megliore, di adornarla, di illuminarla con la contemplazione e con lo specchio di quelle idee che più delle nostre saranno state perfette? Chi crederà che la bellezza della idea sola basti et abbia tanta virtù che possa quasi per necessità far sì che gli scrittori o con la lingua o con gl'inchiostri così bene la esprimano come nell'animo dipinta se l'hanno? e che tutti gl'ornamenti che nella materia si ricercano, pronti e facili se li offeriscano? Perciò che, quale è colui che possa esprimere con tanta dignità della perfezione della sua idea i suoi concetti, che a quella s'agguagli? e che in quella non siano stati più belli e perfetti che nella voce o nella penna? Io sono di questo animo, che molto più perfetto e divino stato fosse quello che nella mente conceputo avea Demostene e Cicerone che quello che ci hanno lasciato nelle carte; altramente né come rancido sarebbe stato Demostene, e meglio averebbe empiute le orecchie di Cicerone. E Cicerone istesso molto più al suo Bruto et ad altri sodisfatto averebbe che fare non poté, ancora che giudichiamo niuna cosa più consumata e più perfetta delli costoro scritti.</p>
+<p>«Chi può imaginarsi che un Apelle, un Protogene, o qualsivoglia dei pittori antichi o de' nostri s'avessero acquetati solamente nelle loro menti, senza aversi fissati nelle imagini d'altri nobilissimi artefici? Sovengaci di Zeusi, il quale nel fare della sua Venere, conoscendo manifestamente che non gli bastava la forma che nell'animo riteneva di bellezza, si rivoltò alla contemplazione di molte leggiadrissime vergini, prudentemente concludendo seco che più felicemente l'opra succedere gli potesse pigliando dall'altrui perfezione e di quella aggiugnendo per adornare la sua, che se nella sua sola acquetato si fosse. E se concediamo che le forme, nell'animo ricevute dalla natura, comeché buone siano, hanno bisogno di questa cura, che diremo qual volta men buona e perfetta è la idea? Non doverassi con tanto maggiore studio ricorrere alle megliori e più perfette? Conchiudiamo, dunque, che niuno è tanto instrutto di queste forme che delle sue sole possa di maniera contentarsi, che non abbia bisogno d'alcuna altra per aiutare le sue. Anzi più direi, se non fosse per indur maraviglia in alcuni, che ad un certo modo l'altrui forme et idee negli animi nostri ricever possiamo qual volta ci siamo fatti ben famigliari e domestichi dei pensieri e vie di alcuno; onde, quando ci poniamo a scrivere e pigliamo a esprimer qualche concetto, in un certo modo nella mente ci s'appresentano alcuni tratti et andamenti tali quali avrebbono per aventura potuto sovenire a colui, essendoci restata nella mente una certa aria proceduta dalla lunga pratica della sua natura, la quale negli scritti espressa in gran parte si vede; sì che chiunque è sottilmente in quelli versato, si può dire aver appresa in un certo modo, come dico, la idea di quello scrittore. Niuna mala persuasione dunque ci richiami da questa via, della quale nessun'altra più spedita troveremo per venire alla laude perfetta degli stili. Né perché sia vituperata da Platone però si deve scacciare come bandita. E se bene intenderemo il fine di quel filosofo, non lo pigliaremo in così mala parte come alcuni lo pigliarono. Egli non intende dell'imitazione né di sentenze né di parole né di quelle parti che noi intendiamo di toccare, ma di quella solamente che esprime gli affetti e le perturbazioni, dalle quali come filosofo vuole che la sua republica sia libera; non essendo quelle altro che inducitrici di quelli movimenti che contaminano l'animo, anzi l'uccidono, sì come le infermità i corpi distruggono, ch'altro gli affetti non sono che peste e morbi di esso animo.</p>
+<p>«E perché i poeti, imitando le perturbazioni ora dell'ira, ora del dolore, ora del piacere, ora della libidine, ora di questa cupidità, ora di quella, alcuna volta sciogliendo il riso, spesso inducendo 'l pianto, lasciano e per meglio dire imprimono negli ascoltanti tutti questi affetti onde e temono e sperano, piangono e ridono, s'adirano, appetiscono, amano, hanno in odio, in modo alcuno né temperanti né constanti né quieti possono essere; nelle quali condizioni consiste la sanità degli animi. E per questa cagione egli sentì male della imitazione e de' poeti che così usata la avessero, avendo poco rispetto ad Omero. Ma noi non abbiamo in considerazione né tanto buoni costumi, né animi corrotti o sinceri, ma solamente riguardiamo la bellezza, la maraviglia e la grandezza del poeta; e quello che per gran vizio reputa Platone, noi a grandissima e suprema virtù attribuimo. E se 'l nostro poeta non eccita di questi vizii, egli viziosissimo vien riputato, onde né si legge, né si ascolta, e meno s'accetta, spento e cacciato da ciascuno. Oltre che in questo cediamo alla nostra natura, la quale ci fa pigliar dilettazione dalle cose ben imitate; di maniera che infino le cose terribili et orrende, che vere ci spaventano, molto di piacere e di diletto ci recano. Come vedere un bruttissimo serpente o altra sorte di mostro, qualche nuova e strana sorte di tormento fatto di mano di un artefice eccellente, non è dubbio che ci diletterebbe; et a punto perché diletta si giudica che l'imitazione sia naturale, anzi che per questa siamo alle bestie preferiti. La nostra imitazione dunque non soggiace al bando o vero alla sentenza di questo divino filosofo.</p>
+<p>«Questa fa che non confusamente s'accetta ogni sorte di parole che dalla lezione sola apportate, ci appaiono inanzi; fa il buono abito, et aumentandolo lo conserva. È una delle tre virtù che s'apartengono a chi vuole trattare una materia, che sono la elocuzione, la imitazione e la diligenza dello scrivere. In questa gran parte dell'arte consiste, e fu sempre riputato lodevole seguir l'altrui cose bene e prudentemente trovate e dette, essendo che la natura rade volte ci fa somiglianti ad un altro e l'imitazione bene spesso. Essorto, dunque, questi figliuoli a porre ogni suo studio in questa sì utile cura della imitazione, della quale, per non vi tenere in tempo, mi apparecchio di ricordare non quello che meriti esser lodato da voi, o che io conosca esser degno di questa sì onorata audienza, ma quello che le mie forze deboli mi concederanno. Dirò dunque, poscia che così vi piace, non mi fermando in esplicar la difinizione della imitazione (la qual non è altro, come difinisce Cicerone, che una facoltà col cui mezzo ci sforziamo con ragione esquisita di esser simili altrui nel dire), che avendosi nell'imitare, o se imita tutta una materia, o le sentenze particolari, o le parole. Come questi tre officii si fanno bene, credere si può che bene ne riesca l'opera e l'imitazione, conciò sia che in esse il tutto consiste. E pare che oltra queste quasi non vi resti altro, non essendo l'orazione d'altro fabricata che di questa materia.</p>
+<p>«Ma per venir a questa commodità, fa di mestiero trovare strada che ci conduca. Io come potrò (ché gran cosa prometter non vi posso) vi esplicherò quello che a me parrebbe che osservare si devesse, finché vedessimo meglio esserci d'alcun altro ricordato. E questo è quello che ne' miei bisogni soglio considerare. Avendosi dunque da imitare tutta una intera materia, mi pare che le si debba dare altro sesto e forma; il che si farà col disponer, col dilatare, col ristringere, col mutare, con i contrarii, con i simili, e tali se altri ne sono. Onde, per principali fondamenti pigliaremo la disposizione o vero ordine, la dilatazione, il ristringimento, la mutazione, e quelli due ultimi. La disposizione sarà una distribuzione di luoghi e di sentenze tale che sia differente da quella onde pigliamo. Dilatazione diremo esser un ampliare e stendere quello che ristrettamente detto troveremo, restringimento per il contrario un modo di ritrar sotto brevità quello che copiosamente dilatato e diffusa da un altro fosse. Mutazione è una trasformazione che rivolta la cosa e le dà altra apparenza. Contrario sarà un mezzo di variar con una cosa diversa, simile un istrumento di dire quell'istesso con sentenze o con parole equivalenti.</p>
+<p>«E per dimostrarvi questo, m'aveggo che niun altro più espediente essempio appresentare vi si può che quello di Orazio, il quale di recarvi mi apparecchio, dimostrando come egli si portò in trattar l'altrui sentenza. Il qual essempio per esser in un breve poema, più volentieri e più agevolmente considerando l'andremo e per la brevità più speditamente mostrare si potrà e meglio attendersi, che se si proponesse un essempio lungo. Veramente con maravigliosa grazia questo poeta fa l'altrui materia tutta sua dal principio al fine, levandola da Virgilio, distribuendo, disponendo variamente il tolto, quando in uno e quando in un altro modo scostandosi da l'ordine di Virgilio, ora ristrignendosi in quello che da lui era ampiamente diffuso, ora ampliando quello che egli ristretto avea; fece conoscer la perfezione di quest'aviso e del suo giudicio et appresso la perizia dell'imitazione. La oda è la seconda negli epodi, nella quale non si vede quasi una minima sentenzietta che non sia tolta da quel luogo bellissimo di Virgilio dove loda la vita rustica. Però per cortesia attendasi un poco; così comincia Orazio:</p>
+<quote rend="blok">
+<lg lang="lat">
+<l>Beatus ille qui procul negociis,</l>
+<l>Ut prisca gens mortalium,</l>
+<l>Paterna rura bobus exercet suis,</l>
+<l>Solutus omni foenore.</l>
+</lg></quote>
+<p rend="noindent">In questi versi se ne servì della sentenzia di questi:</p>
+<quote rend="blok"><lg lang="lat">
+<l>O fortunatos nimium, sua si bona norunt</l>
+<l>Agricolas, quibus ipsa procul discordibus armis</l>
+<l>Fundit humo facilera victum iustissima tellus.</l>
+</lg></quote>
+<p rend="noindent">Séguita l'istesso poeta:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Neque excitatur classico miles truci</l>
+<l>Neque horret iratum mare,</l>
+</lg></quote>
+<p rend="noindent">avendo così cantato Virgilio:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Illum non populi fasces, non purpura regum</l>
+<l>Flexit, et infidos agitans discordia fratres,</l>
+<l>Aut coniurato decedens Dacus ab Istro,</l>
+<l>Non res Romanae, perituraque regna.</l>
+</lg>
+</quote>
+<p rend="noindent">Tutto ciò che vedete esser detto da Virgilio in questi versi, Orazio in sì poco lo comprese et abbracciò. Onde si può come da una regola infallibile e ferma apprendere il modo del trasformare e variare le sentenze, come poc' anzi si diceva.</p><p>
+«Ma continovando Orazio la sua ode, così soggiunge:</p>
+<quote rend="blok">
+<lg lang="lat">
+<l>Forumque vita, et superbia civium</l>
+<l>Potentiorum limina,</l>
+</lg>
+</quote>
+<p rend="noindent">avendo avuto l'occhio a questi versi di Virgilio:</p><quote rend="blok"><lg lang="lat">
+<l>.... nec ferrea iura,</l>
+<l>Insanumque forum, aut populi tabularia vidit</l>
+<l>Solicitant alii remis freta caeca,</l>
+</lg>
+</quote>
+<p rend="noindent">il qual verso fece che Orazio cantò quello di sopra,</p><quote rend="blok">
+<lg lang="lat">
+<l>Neque horret iratum mare,</l>
+</lg>
+</quote>
+<p rend="noindent">e seguì:</p>
+<quote rend="blok"><lg lang="lat">
+<l part="I">..... ruuntque</l>
+<l>In ferrum, penetrant aulas, et limina regum,</l>
+</lg></quote>
+<p rend="noindent">
+
+dove Orazio non ischifò di usar infino le parole di Virgilio. Séguita poi in questa maniera:</p>
+<quote rend="blok"><lg lang="lat">
+<l>
+Ergo aut adulta vitium propagine</l>
+<l>Atlas maritat populos.</l>
+<l>Aut in reducta valle mugientium</l>
+<l>Prospectat errantes greges.</l>
+<l>Inutilesque falce ramos amputans,</l>
+<l>Feliciores inserit.</l>
+<l>Aut pressa puris mella condit amphoris,</l>
+<l>Aut tondet infirmas oves;</l></lg></quote>
+<p rend="noindent">nel qual luogo ha voluto ampliare quello che tolse da Virgilio, nel quale egli fece menzione d'un solo artificio rustico, cioè dell'arare, così dicendo:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Agricola incurvo terram molitus aratro.</l>
+</lg></quote>
+<p rend="noindent">Il qual verso fu cagione di far nascere questi otto leggiadrissimi, e per finirlavi Orazio séguita in questa guisa:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Vel cum decorum mitibus pomis caput</l>
+<l>Autumnus arvis intulit,</l>
+<l>Ut gaudet insitiva decerpens pira,</l>
+<l>Certantem, et uvam purpura,</l>
+</lg></quote>
+<p rend="noindent">avendo così detto Virgilio:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Et varios ponit foetus autumnus, et alte</l>
+<l>Mitis in apricis coquitur vindemia saxis.</l>
+</lg></quote>
+<p rend="noindent">Quello ch'uno disse per il genere, che è «foetus», l'altro pigliando le specie più ampiamente lo spiegò; della qual sorte di imitazione forse accaderà far menzione.</p>
+<p>«E séguita:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Qua muneretur te Priape, te pater</l>
+<l>Sylvane tutor finium.</l>
+</lg></quote>
+<p rend="noindent">Il che aveva detto Virgilio così, ma a fine alquanto diverso:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Fortunatus et ille, deos qui novit agrestes.</l>
+<l>Panaque, sylvanumque senem, nymphasque sorores».</l>
+</lg></quote>
+<p>«A questo modo» disse il Manuzio «pare quasi che Orazio avesse giurato non porvi cosa, alcuna del suo, altro che l'artificio et il giudicio di variare e nascondere il tolto, e che avesse voluto far esperienza di se stesso et insegnare a' posteri come s'avessero a portare nell'officio del tôr l'altrui».</p><p>
+«Ma seguitiamo» disse Messer Trifone «e vediamo come con i simili rivoltò la faccia d'un'altra sentenza di Virgilio:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Libet iacere modo sub antiqua ilice,</l>
+<l>Modo in tenaci gramine</l>
+<l>Labuntur altis interim ripis aquae,</l>
+<l>Queruntur in sylvis aves,</l>
+<l>Fontesque lymphis obstrepunt manantibus,</l>
+<l>Somnos quod invitet leves.</l>
+</lg></quote>
+<p rend="noindent">E così aveva fatto Virgilio:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Speluncae, vivique lacus, et frigida tempe</l>
+<l>Mugitusque bovum, mollesque sub arbore somni».</l>
+</lg></quote>
+<p>«Questi a me paiono centoni (come alcuni sogliono chiamare)» disse il Trissino «et io vorrei saperne fare di cotali. Di questi bisognarebbe che fossero tutte quelle composizioni ch'oggidì veggiamo con tanta disgrazia imbrattare e macchiar le misere e mal nate carti per i costoro inchiostri. Che direte di quell'altra sentenzia?».</p><p>
+Seguì Messer Trifone: «Io per me più mi confermo, come diceva il Manuzio, che questo poeta così avesse voluto fare per aprir gli occhi altrui, così dunque scrisse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Aut cum tonantis annus hibernus Iovis</l>
+<l>Imbres, nivesque comparat.</l></lg></quote>
+<p rend="noindent">Virgilio così prima fatto aveva:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Venit hyems, teritur Sicyonia bacca trapetis.</l>
+</lg></quote>
+
+<p rend="noindent">Vedete con quanta grazia dilatò quella parola sola hyems» in Virgilio, ammonito senza dubbio dal ricordo di Aristotele e di Cicerone, i quali avendo noi da dilatare ci avertiscono la parola stendersi e ridursi alla diffinizione; di che si dirà al suo luogo. Et in effetto chi volesse difinir o descriver il verno, accommodatamente così lo difinirebbe come fece Orazio, dicendo che è una età dell'anno che mena pioggie e nevi. Quello che in Orazio séguita delli essercizii che i contadini fanno il verno, più tosto anzi senza dubbio diremo da quel luogo di Virgilio esser tolto nel primo della <title>Georgica</title> dove numera queste sorti di essercizii mentre così dice:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Sed tamen et quernas glandes tum stringere tempus,</l>
+<l>Et lauri baccas, oleamque cruentaque myrta,</l>
+<l>Tum gruibus pedicas, et retia ponere cervis,</l>
+<l>Auritosque sequi lepores, tum figere damas,</l>
+<l>Stupea torquentem balearis verbera fundae.</l>
+<l>Cum nix alta iacet, glaciem cum flumina trudunt.</l></lg></quote>
+<p rend="noindent">Il che Orazio così fece:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Aut trudit artes hinc, et hinc multa cane</l>
+<l>Apros in obstantes plagas.</l>
+<l>Aut amite levi rara tendit retia</l>
+<l>Turdis edacibus dolos.</l>
+<l>Pavidumque leporem, aut advenani laqueo gruem</l>
+<l>Iucunda captat praemia,</l></lg></quote>
+<p rend="noindent">non solamente contentandosi dell'aver tolta la sentenzia istessa, ma continuando ancora nella medesima via di Virgilio nel dilatare la cosa, lasciando il genere e ritirandosi alle specie, con i simili si procacciò. E (tralasciando due soli versi) così séguita:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Quid si pudica mulier in partem iuvet</l>
+<l>Domum, atque dulces liberos,</l>
+<l>Sabina qualis, aut perusta solibus</l>
+<l>Pernicis uxor Appuli.</l>
+<l>Sacrum vetustis extruat lignis focum,</l>
+<l>Lassi sub adventum viri?</l>
+<l>Claudensque textis cratibus laetum pecus</l>
+<l>Distenta siccet ubera</l>
+<l>Et horne dulci vina promens dolio</l>
+<l>Dapes inemptas apparet?</l></lg></quote>
+<p rend="noindent">Questo che da Orazio così espresso fu con varie assonzioni, così fatto aveva Virgilio:</p><quote rend="blok"><lg lang="lat">
+<l>Interea pendent dulces circum ubera nati,</l>
+<l>Casta pudicitiam servat domus.</l>
+</lg></quote>
+<p rend="noindent">E quello che Virgilio aveva detto,</p>
+<quote rend="blok"><lg lang="lat">
+<l>Illum non populi fasces, non purpura regum</l>
+<l>Flexit,</l></lg></quote>
+<p rend="noindent">Orazio, accostandosi alli simili con bellissimo giudicio, invece delle porpora e degli onori elesse questi altri diletti, dai quali dice non poter essere sviato sì che più li piacciano quelle delicatezze di vivere che la simplicità e la fragilità rustica, dicendo così:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Non me lucrina iuverint conchilia,</l>
+<l>Magisve Rhombus, aut scari:</l>
+<l>Siquos Eois intonata fluctibus</l>
+<l>Hyems ad hoc vertat mare.</l></lg></quote>
+<p rend="noindent">Con quei versi che seguono finalmente, fino a quello che è il secondo dell'oda, non volse che fosse senza 'l lume di Virgilio, qual è «ut prisca gens mortalium» quello che più diffusamente trattò egli in questi:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Hanc olim veteres vitam coluere Sabini,</l>
+<l>Hanc Remus et frater.</l>
+</lg></quote>
+<p rend="noindent">E poi sùbito soggiunse:</p><quote rend="blok"><lg lang="lat"><l>
+Aureus hane vitam in terris Saturnus agebat;</l></lg></quote>
+<p rend="noindent">e quell'altro: «Dapes inemptas apparet» con un conforme e simile modo di dire a quel di Virgilio, non fu egli tolto anco di là ove disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>.... dapibus mensas oneraret inemptis»?</l>
+</lg></quote>
+<p>«Chi desidera essempio più chiaro?» disse il Trissino. «E qual sarà sì ruvido e rozzo che non sia chiaro? Che non confessi questa essere stata la via degli antichi et il loro costume, quando fatto lor venne di prevalersene con sì leggiadri e divini modi nelle loro eterne composizioni? Avendo veduto tutta la materia delle lodi, della vita rustica trattata da Virgilio essere stata espressa da Orazio e col vario e diverso ordine del tutto, e delle parti, e le parti istesse, cioè le minute e particolari sentenze variamente revoltate, ad un medesimo tempo si averà sodisfatto e servito alla via e cura di quelle sentenze che sì spesso chiamiamo ora minute, ora particolari. Onde, senza altro più proprio trattamento, di esse appagare forse ci possiamo».</p><p>
+      «Così a me pare» disse il Manuzio «che avendo voi, Messer Trifone, sì gentilmente dichiarata e scoperta l'arte di questa oda, senza altri avisi per aventura ciascun buon ingegno potrebbe pigliar di qui in gran parte il modo e la via dell'imitazione. Né so ciò che si possa o debba far altro, imitandosi la sentenza intera o le minute, che quello che si vede esser fatto da Orazio. Senza dubbio è stato essempio maraviglioso e sottilmente atteso da voi, Signor mio, sì come solete fare in tutte le altre cose de' poeti».</p><p>
+      «Io so» rispose egli «che meglio s'avrebbe potuto versare in questa considerazione. Nondimeno, bastimi aver destata questa cosa così come ho potuto. Questo istesso fu fatto et osservato da Ovidio in Virgilio et in Catullo, quello che prima in Catullo Virgilio fatto aveva: cioè che della universale sentenza e delle particolari accommodarsi gli piacque, la ingratitudine di Enea e di Teseo, e la querela di Ariadna e di Didone pigliando, e quella nel torto di Minos e nel pianto di Scylla rappresentando e trattando con quelle medesime sentenze et affetti. Il che in modo conseguirono col favore di questa via che la sua par propria di ciascuno. Chi essaminasse gli scritti dei poeti volgari troverebbe questo istesso essere stato fatto da loro. Ben mi soviene che Monsignor Bembo, onorata e gioconda memoria, non si sdegnò di pigliare tutti gli interi, soggetti di alcuni sonetti e canzoni del Petrarca, e che 'l Petrarca istesso li suoi proprii pigliandosi variamente li trattò, che da non molti tanti argomenti fatti e riusciti ne vogliamo».</p><p>
+      Tacevasi Messer Trifone fin qui pervenuto, quando il Trissino prese a dire: «A me ancora pare, magnifico Messer Trifone, insomma, che le sentenze e le materie d'un altro intere nostre fare si possono. E so che ad alcuni parrà strania e forsi nuova cosa; nondimeno, così convien confessare che sia, mercé del trattamento, dell'ordine, della disposizione, della elocuzione, le quali fanno questo effetto che mutati i luochi, diversa ci si rappresenta la cosa».</p><p>
+«Dite benissimo» sùbito soggiunse Messer Trifone «e di questo a punto intese Orazio nella sua Poetica quando disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Publica materies privati iuris erit, si</l>
+<l>Nec circa vilem, patulumque moraberis orbem;</l>
+<l>Nec verbum verbo curabis reddere fidus</l>
+<l part="M">Interpres...,</l></lg></quote>
+<p rend="noindent">dove ci ammaestra come debbiamo imitare. E quella esser eccellente e bella imitazione quando, avendosi alcuno proposto un argomento trattato da un altro, talmente lo rivolta che quasi lo trasforma, ora mutando, ora aggiungendo et alle volte tralasciando delle cose, avendo sempre all'ordine et alla elocuzione riguardo; il che del tutto sia diverso da quello di colui che ci abbiamo proposto da imitare. E questo farà che l'altrui materia nostra propria diverrà, ch'altramente non si riuscirebbe, cioè se i poeti si obligassero a legge tale che pensassero non esser lecito partirsi pur tanto da colui che vogliono seguire. Questo volse insegnare Aristotele nella sua <title>Poetica</title> dove, doppo l'aver ragionato degli episodii, viene a dir e dello scioglimento e del nodo, i quali due officii s'hanno da far bene da chi vuole imitar l'altrui, e sopra tutto da chi primo si mette a trattar l'altrui materia. E benché queste due cose siano state avertite per li primi autori d'un soggetto, come d'una tragedia, perché sappiamo fin dove si dee arrivare e quando ritrarsi verso 'l fine della favola, nondimeno s'appartiene ancora a questo officio ch'io vi dico.</p>
+<p>«E credo che Orazio (dipartendomi dalle varie opinioni
+     d'altri, alle quali niuno talmente dee obligarsi che non ardisca
+     seguitarne un'altra ch'al suo giudicio appaia megliore o
+     sì buona, essendo ancora che bene spesso non si disdice
+     lasciar le sue proprie opinioni) per <foreign lang="lat">orbem</foreign> intendesse l'ordine, per l'ordine lo scioglimento et il nodo, seguendo 'l parere del dottissimo Messer Vicenzo Maggio, il quale sì profondamente penetrò nei segreti della <title>Poetica</title> d'Aristotele sopra quella scrivendo, che i dotti hanno oggimai conosciuto non solamente non aversi bisogno dell'altrui aiuto, ma ogn'altro essere soverchio e vano. Col mezzo di queste due parti ciascun nobile ingegno può usurparsi l'altrui, variandole, dico, e mutandole. Né è altra via che faccia discernere se una favola è quella istessa o diversa al giudicio di questo filosofo, il quale così scrive: <foreign lang="grc">Δικαιιν δε και τραγοδιαν αλλην και την αυτην λεγειν αυδενι ωσ τω μυθω τουτο δε ων η αυτη πλοκη και λυσισ</foreign>. Cioè: ‘Non è ragionevole che per la favola la tragedia sia chiamata la medesima o diversa, ma questa differenza dee pigliarsi dal nodo e dallo scioglimento’. Perché se la favola sarà diversa e che queste due cose nell'una e nell'altra appaiano quelle istesse, si dirà che siano una cosa istessa. Per il contrario, se una favola sarà quella istessa che 'l nodo e lo scioglimento diversi siano, senza dubbio diverse dirassi esser le favole. Di qui nasce che molte tragedie antiche d'uno istesso argomento da diversi poeti trattate furono, le quali però per essere state variamente ordinate e disposte, non sono giudicate quelle istesse. Onde mi pare che sia molto al proposito dei poeti questo aviso. Questo è quello onde Terenzio si difese contra, quelli che lo rimproveravano dell'aver rubato le comedie da' Greci, come l'<title>Andria</title>, l'<title>Eunuco</title> et altre, apertamente dichiarando che la <title>Eautontimorumenos</title> era da lui tolta intera da Menandro. Il che s'intende non che solamente le avesse recate di greche nella lingua latina, ma che avesse pigliato tutto l'argomento e rivoltato e ridotto in altra forma e maniera. Però nell'<title>Andria</title> così si difende:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Menander fecit Andriam e Perinthiamjjjj</l>
+<l>Qui utramvis recte norit, ambas noverit,</l>
+<l>Non ita dissimili sunt argumento factae. Sed tamen</l>
+<l>Dissimili oratione sunt faetae, ac stilo,</l></lg></quote>
+<p rend="noindent">dimostrando che d'uno istesso argomento sono ma di parole e di andare e di ordine diverso. Però soggiunse, notando l'ignoranza di coloro che non intendevano questa varietà, per la quale la favola piglia un'altra, et appare et è in effetto un'altra:</p><quote rend="blok"><lg lang="lat"><l>
+Faciunt ne intelligendo, ut nihil intelligant;</l></lg></quote>
+<p rend="noindent">come sono questi che volendo mostrare di saper troppo, scuoprono la loro ignoranza.</p><p>
+      «Ma volendo alcuno vedere questa mutazione di ordine in una brevissima composizione (per ischifare la essaminazione d'un poema lungo) nel quale si può ad un tratto l'argomento, le sentenze tutte pigliate, diversamente disposte e collocate vedere — onde non parrà menzogna quello che io dico — rivolgetevi, figliuoli, a considerare l'oda d'Orazio ch'io poco anzi essaminai: d'indi sùbito si verrà in cognizione di questa verità. Et avenga che questo aviso sia stato dal filosofo dato per servire a quelli che pigliano a trattare una favola intera d'un altro, nondimeno, perché medesimamente ci può soccorrere et illuminare nelle fatiche e nell'imprese minori, non ho voluto fare ch'io non lo vi ricordi. Se dunque alcuno pigliarà una sentenza d'un altro e la tratterà con questo giudicio, che si giudicherà di costui? Questo istesso si può far conoscere ne' poeti volgari, il che quello a cui toccherà questa parte (perché si vegga i nostri volgari aver caminato per questa via) non deverà trapassare senza dimostrarlo. E si vederà che tutti i poeti, e latini e volgari et antichi e moderni, spesso han fatte le altrui materie sue con questa osservazione ».</p><p>
+      «Buono fia», disse il Manuzio «perché si mostri la eccellenza de' volgari, e che non senza cagione appaia che questa lingua, ch'ogni dì più s'inalza e cresce, allargando i suoi confini, è molto adoperata a questi tempi e nel parlar bene e nello scriver meglio».</p><p>
+      Ma quivi, sendosi alquanto riposato Messer Trifone, disse il Trissino: «Ancora che, magnifico Messer Trifone, abbiate a bastanza mostrato delle intere e delle minute sentenze, venendomi in mente non so che essempi di Virgilio di alcune imitazioni di certe sentenziette particolari levate da Lucrezio, se vi piace, volentieri in grazia di questi gentilissimi spirti le recherò così grossamente come io soglio».</p><p>
+      «Di grazia», rispose Messer Trifone «piacciavi rendercene qualche conto, che per grandissimo favore se lo riputaranno».</p><p>
+      «Ciascuno sa» cominciò il Trissino «che Virgilio prese da Lucrezio la generale sentenza della mortalità degli animali. Nondimeno, in quella istessa si volse servire anco delle ben minute. Però quello che Lucrezio così aveva detto,</p><quote rend="blok"><lg lang="lat">
+<l>Sudabant etiam. fauces intrinsecus atrae</l>
+<l>Sanguine, et ulceribus vocis via septa coibat,</l>
+<l>Atque animi interpres manabat lingua cruore,</l>
+</lg></quote>
+<p rend="noindent">Virgilio così rivoltandolo suo lo fece, più la sua sentenza ristringendo,</p><quote rend="blok"><lg lang="lat">
+<l part="F">.... it naribus ater</l>
+<l>Sanguis, et obsessas fauces premit aspera lingua.</l>
+</lg></quote>
+<p rend="noindent">Quest'altro così lasciò Lucrezio:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Nec tamen omnino temere illis sedibus ultra</l>
+<l>Comparebat avis, nec tristia scela ferarum</l>
+<l>Exibant sylvis, languebant pleraque morbo;</l></lg></quote>
+<p rend="noindent">a Virgilio così piacque di fare col ristringersi :</p><quote rend="blok"><lg lang="lat">
+<l>Ipsis est aer avibus non aequus, et illae</l>
+<l>Praecipites alta vitam sub nube relinquunt.</l></lg></quote>
+<p rend="noindent">Et Lucrezio:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Nec ratio remedi communis certa dabatur,</l>
+</lg>
+</quote>
+<p rend="noindent">il che Virgilio, ampliando alquanto e dilatando, suo fece:</p><quote rend="blok"><lg lang="lat">
+<l>Quesitaeque nocent artes, cessere magistri</l>
+<l>Phyllirides Chyron Amythaoniusque Melampus.</l></lg></quote>
+<p rend="noindent">Et oltre di ciò Lucrezio così scrisse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Atque ita acervatim mors accumulabat;</l></lg></quote>
+<p rend="noindent">
+Virgilio così lo torse:</p><quote rend="blok"><lg lang="lat">
+<l>Iamque catervatim dat stragem, atque aggerat ipsis</l>
+<l>In stabulis turpi dilapsa cadavera tabo».</l>
+</lg></quote>
+<p>«Dunque», disse Messer Trifone «in buona parte con quel modo che s'usa di tenere nelle universali procederemo nelle particolari, per quanto da' vostri essempi comprender si può».</p><p>
+      «Così è» rispose il Trissino. «Ma di più veggiamo una parola per un'altra, un modo di dire per un altro usarsi in luogo di quello la cui forza esprimer vogliamo, un traslato cangiarsi in un proprio, un proprio mettersi nel luogo d'un traslato, un figurato per uno non figurato; e per il contrario, un simile, un equivalente spesso pigliandosi un contrario. Come se un poeta avesse detto ‘la primavera comparire conducendo seco schiere di rose e di fiori, riducendo le aure et i zefiri’ alcuno per aventura potrebbe dire ch'ella ritornasse ‘scacciando il gelo e gli aspri e furiosi venti che uccidono i fiori e l'erbe’. Medesimamente, se la sentenza è per una figura detta, trattarla e rivoltarla per un'altra. Insomma, mi pare quello che interviene agli artefici accadere ancora alli poeti et ad altri scrittori, che con l'altrui metallo fanno opere che sono tutte loro, e non di chi loro ha data la materia. Chi dirà del dolfino che sarà fatto col vostro argento, sia opra più tosto vostra che dell'artefice? o l'edificio con i vostri marmi e colonne fabricato, vostro e non dell'architetto sia che l'ha così ridotto con la sua arte e disposizione?»</p><p>
+      «Io lodo» disse Messer Trifone al Trissino. «Ma avertite che diranno per aventura che ben è vero, che l'altrui sentenze proprie fare si possano, ma che le parole et i modi di dire siano nostri e trovati da noi».</p><p>
+      «Ciascuno può ben considerare da se stesso» rispose il Trissino «che se io intendessi di persuadere che con le sentenze si devesse pigliar le istesse parole e forme di dire con le quali è stata trattata et espressa la sentenza, sarebbe cosa sciocchissima. Ma intendo di dire ch'una sentenza debba esser variata con diverse maniere di commutazioni, col prudente trattamento, e che le parole d'una materia si possano spesso applicare ad un'altra.</p><p>
+Vorrei sapere, Signor mio, da voi» seguì il Trissino «come intendete ‘parole trovate da noi’. Quelle forse che formiamo da per noi? O quelle che, imparate dagli scrittori per lungo uso et essercitazione, abbiamo fatte come nostre? Non credo che intendiate di quelle che noi di nostra industria facciamo, atteso che bisognerebbe ad ogni parola voltarsi alle analogie, o ai simili, o alle imitazioni, o vero alle composizioni; onde oltra la difficultà, ridicola ne riuscirebbe la orazione».</p><p>
+      «Quest'è chiaro» rispose Messer Trifone. «Di queste non pensate ch'io intenda; ma di quelle, come dite, che da fanciulli abbiamo fatte nostre con la lezione e con la pratica de' letterati. Le quali se sono semplici, essendo poste in mezzo et essendo communi a tutti, come le voci proprie delle cose, sono più facili e più sicure da usare. Dove le forme o ver modi di dire, per esser propri di quelli che prima usate li averanno, né così facili né così securi pare ad alcuni che siano; de' quali chi formare ne volesse, a pena fare lo potrebbe senza pericolo. Il che mi pare verissimo, conciò sia che veggiamo alcune composizioni in prosa di alcuni che da se stessi avendo ardimento di formare di questi modi senza giudicio, sono riusciti barbari et inetti; per il che bisogna esser circonspetti. Ma tutto che siano pericolosi quando da altri li pigliamo» disse Messer Trifone «non accade dubitare né temere di usarli, come veggiamo essere stato fatto da alcuni bene intendenti la via dello scriver latino; tanto più che né Cicerone né Virgilio han temuto di usurpare gli altrui modi di dire, comeché più che noi altri tenuti fossero di aver questo riguardo, per esser in tempo che la lingua era nel suo più bel fiore che fosse mai. Onde non mi pare che noi mettiamo questa usanza in questione. Per la qual cosa non piglieremo altra fatica per ora, ma diremo non solamente esserci lecito ciò fare, ma esser ancora obligati usar parole e modi di dire degli eccellenti scrittori. Altramente senza fondamento alcuno si averebbe dagli antichi posta tanta cura in ammonirci che ci proponiamo inanzi agli occhi l'essemplare di uno che imitiamo, dal qual caviamo la selva delle buone parole.</p><p>
+      «Ma prima che si dica quello che mi ho proposto, vorrei che alcuno mi dicesse: dovendo noi scrivere o prosa o verso latino, come s'avesse a fare senza l'appoggio di Cicerone e di simili, e senza Virgilio e tali? Chi dubita che, non imitandoli e non si seguendo questo stile, gli scritti riuscirebbono ogni altra cosa salvo che ciceroniani e virgiliani? Veggiamo con l'essempio come sono riusciti quelli che sono stati in questo umore di volersi procacciar gloria nello scriver seguendo se stessi e la sua lingua sola, non quella degli antiqui usando. Conciò sia che sono simili a se stessi riusciti, cioè inetti, digiuni e barbari, più tosto che latini. Riputaremo latini e ciceroniani i Marziani, gli Apulei, i Beroaldi? Per il contrario, chi non riputerà Messer Paolo Manuzio nostro ciceronianissimo? perché camina per i suoi sentieri, et appresso la erudizione parla e scrive meglio latino ch'uomo che sia sotto le stelle».</p><p>
+      «Troppo vi allargate in dir di me, magnifico Messer Trifone», soggiunse il Manuzio. «Ma voglio attribuire questa laude più tosto alla singolar vostra gentilezza che al mio valore».</p><p>
+      «Questo» rispose egli «che tutti ad una voce constantemente confermano, non vi spiaccia, Messer Paolo, che vi si dica e che io ancora confessi. Ma, per star nel proposito, non basta parlare o scrivere sì che si schifi il biasimo, ma in maniera che la lode et oltre di ciò la maraviglia ne segua. Et essendo necessario all'oratore et al poeta l'uso e la copia delle buone parole, che sono il suolo et il fondamento della eloquenza, non ci essendo lecito col latte come agli antichi dalle nutrici apprenderle, dovendosi scrivere o parlar latino, qual sarà sì trascurato che contradica, negando doversi tôrre dagli orator; o dai poeti latini? Ma per dirvi delle parole e dei modi poetici, sappiamo che molto diversi sono degli oratori e civili. Questi deono esser tali che dal popolo possano esser intesi et esser tratti dalla communanza, quello che i comici e gli oratori hanno fatto. Quelli hanno da essere ingeniosissimi e quasi che non dissi bizarri, e del tutto estratti dalla consuetudine».</p><p>
+      «Buona e sopra ogni altra cosa utile giudicherei» disse il Manuzio «se si esplicasse in che consistono e donde nascono queste vie fantastiche de' poeti».</p><p>
+      «Io vi dirò» rispose Messer Trifone. «Voi sapete quali sono quei fonti onde si traggono le probazioni e gli argomenti».</p><p>
+      «Questi sono i luoghi che chiamano topici», disse 'l Manuzio, «senza dubbio».</p><p>
+      «A punto» rispose Messer Trifone. «Da questi istessi tutta la maraviglia di quei modi poetici tratta esser si vede. Il che Messer Giulio Camillo solo avertì, nessuno altro mai, salvo per aventura quelli che da lui sono stati avertiti. Questa invenzione è stata tale che chi l'intende da se stesso può, come hanno fatto gli antichi e Greci e Latini, formar altri modi approbatissimi e divini di dire. I quali modi ora si tolgono dagli aggiunti, ora dai conseguenti e concomitanti, ora dagli antecedenti per il più, e da alcuni altri».</p><p>
+Fin qui pervenuto Messer Trifone, soggiunse il Manuzio: «Se non temessi di parer poco cortese e di poco rispetto in darvi noia, Messer Trifone, vi pregherei che a diletto et utile di questi nobilissimi gioveni foste contento spiegar loro il segreto e l'uso di questi luoghi con essempi di poeti o latini o volgari, come più vi aggrada, perché maggior frutto ne segua di questo nuovo e dotto vostro ragionamento».</p><p>
+      «Niuna fatica o noia, anzi sommo diletto mi fia» subito rispose egli «di adoperarmi, purché mi sovengano essempi bastevoli a ciò fare. Ma prima mi parrebbe che s'intendesse la natura di ciascuno di essi luoghi, se non così minutamente che è mostrata da' dialettici, almeno sì che gli essempi meglio ne vengano intesi. Poniamo, dunque, che gli aggiunti, da' Latini per varii nomi chiamati, siano quelli che dimostrano la cosa di che s'intende essere stata o essere o vero dovere essere per le corrispondenze di quelle che vicine li sono, sì che s'una di quelle è stata, pare che l'altra ne segua o sia seguita o sia per seguirne. In che sì come ne gli antecedenti e ne' consequenti la forza della natura s'attende, così i tre tempi si considerano; o quello che precede, come l'amor al concùbito, l'ira all'ingiuria; o quello che è nel far della cosa, onde l'una e l'altra è insieme, come la pallidezza e la paura; o quello che viene dopo, come dopo l'ira l'omicidio. Di questi tali è la natura che si possono separare, ma l'uno però l'altro scopre e dimostra. Può stare che né colui che è stato adirato abbia ucciso, e che quello che amava non abbia usata vergogna alla vergine. E sono di maniera che possono essere e non essere così.</p><p>
+      «Ma essendo aggiunti quelli ancora che si chiamano antecedenti e conseguenti, s'ha da avertire che sono molto tra loro differenti, conciò sia cosa che gli aggiunti non portano necessità, come negli essempi ora dettivi si può vedere. Perciò che antecedono e seguono e si congiungono di maniera che niuna necessità dell'antecedere o del seguire o dell'esser congiunti dimostrano. Gli antecedenti et i conseguenti, se si dee credere a Cicerone, sempre hanno necessità. Aggiunti di antecedenti paiono aver questi essempi di Catullo, che avendo a dire ‘non prima morirò’ formando un modo di dire divino così accommodossi:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Non tamen ante mihi languescent lumina morte,</l>
+</lg></quote>
+<p rend="noindent">e:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Nec prius a fesso secedent corpore sensus,</l>
+</lg></quote>
+<p rend="noindent">essendo necessità che prima che si moia gli occhi languidi divengano e che i sensi mancando il corpo, si dipartano; conciò sia che non si more prima che queste cose non precedano. Così Virgilio, seguendo quest'aviso, et in questo et in altri luoghi infiniti derivò maniere di locuzioni poetice leggiadrissime. Egli avendo ad esprimere questo concetto, «ritornata la state» ricorse a considerare qual cosa antecedeva onde ne seguisse poi la sua venuta. Così disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>... ubi pulsam hyemem sol aureus egit</l>
+<l part="I">Sub terras,</l>
+</lg></quote>
+<p rend="noindent">altramente esser non può che la state ritorni se prima il verno non si rimove, e:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Et iam olim seras posuit cum vinca frondes,</l>
+<l>Frigidus et sylvis Aquilo decussit honorem,</l>
+</lg></quote>
+<p rend="noindent">avendo da dire ‘venuto il verno’ si ridusse alla considerazione di alcune cose che gli precedono, che inanzi la sua venuta i campi si spogliano delle fronde per i venti.</p>
+<p>«Che diremo del Petrarca, il quale intendendo tutte queste vie bellissime, se alcuno altro le intese mai, volendo esprimer questo pensiero, cioè ‘venendo la notte’ trovò alcuni antecedenti, a giudicio d'ognuno molto vaghi, in questi versi:</p>
+<quote rend="blok"><lg>
+<l>Nella stagion che 'l ciel rapido inchina</l>
+<l>Verso Oriente, e che 'l dì nostro vola</l>
+<l>A gente che di là forse l'aspetta.</l></lg></quote>
+<p rend="noindent">Et avendo da dire quello istesso, così li piacque di fare:</p>
+<quote rend="blok"><lg>
+<l>Ma lasso ogni dolor che 'l dì m'adduce</l>
+<l>Cresce, qualor s'invia</l>
+<l>Per partirsi da noi l'eterna luce.</l></lg></quote>
+<p rend="noindent">Et in quella istessa canzone:</p>
+<quote rend="blok"><lg>
+<l>Come 'l Sol volge l'infiammate rote</l>
+<l>Per dar luogo alla notte,</l></lg></quote>
+<p rend="noindent">e:</p><quote rend="blok"><lg>
+<l>Quando vede 'l pastor calar i raggi</l>
+<l>Del gran pianeta al nido ov'egli alberga,</l>
+<l>E 'mbrunir le contrade d'Orïente.</l></lg></quote>
+<p rend="noindent">Et in questo:</p><quote rend="blok"><lg>
+<l>Poi che 'l Sol s'asconde,</l></lg></quote>
+<p rend="noindent">e:</p>
+<quote rend="blok"><lg>
+<l>Ma io perché s'attuffi in mezzo l'onde</l>
+<l>E lasci Ispagna dietro a le sue spalle,</l>
+<l>E Granata e Marocco e le Colonne.</l></lg></quote>
+<p rend="noindent">Chi non vede di necessità inanzi la notte il sole inchinare verso Oriente? et allora partirsi da noi l'eterna luce, e 'l sol volger l'infiammate rote, et i raggi di esso calare, et attuffarsi nel mare?».</p><p>
+      «A me pare» disse il Manuzio «ch'ogni basso intelletto et addormentato potrebbe inalzarsi e svegliarsi, aprendo gli occhi destato da questi avisi. Ciò che si può considerare de' buoni ingegni lascio ad altri considerare. Ma per non ritardarvi da così bel corso, piacciavi per cortesia, Messer Trifone magnifico, continovare, ché tutti noi ne godiamo a maraviglia di questi bellissimi segreti ch'oggi ci scoprite, da pochissimi intesi, dal resto non sentiti più mai, salvo, come diceva, che da Messer Giulio Camillo».</p><p>
+      Ma continovando il suo ragionamento Messer Trifone, né punto ritardandosi, seguì dicendo: «A me parrebbe, quanto a questa prima parte, che per instruzione di questi gioveni questo devesse bastare, essendo di spirti prontissimi. Però seguiremo il rimanente. Gli aggiunti de' consequenti necessarii tali saranno quali in questi essempi si veggono. Virgilio volendo dire che ne' Rifei sempre vi sono ombre e di mezzodì e di sera, così disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Tum sol pallentes haud unquam discutit umbras,</l>
+<l>Nec cum invectus equis altum petit ethera, nec cum</l>
+<l>Praecipitem Oceani rubro lavit aequore currus,</l></lg></quote>
+<p rend="noindent">nella qual, ora chiaro è che 'l sole s'inalza verso le più sublime parti del cielo, e caminando verso l'occaso, cali; il qual calare sequendo l'openione de' poeti, che spesso l'accommodano al creder del volgo, descrive con dire che egli si attuffi nell'oceano. Al qual essempio simigliante è questo altro, che proponendosi di esprimere la sera, nel qual tempo ricorda le pecore ritornar ne' pascoli, disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l part="F">...cum frigidus aera vesper</l>
+<l>Temperat, et saltus reficit iam roscida luna.</l>
+</lg></quote>
+<p rend="noindent">Non si nega che allora non rinfreschi l'aria e che l'erbe non ripiglino virtù e cresceno, umettate dall'umido della vicina notte.</p>
+<p>E devendo dire degli uccelli che morti cadevano a terra, così li piacque di dire:</p>
+<quote rend="blok"><lg lang="lat">
+<l part="F">... et illae</l>
+<l>Praecipites alta vitara sub nube relinquunt,</l>
+</lg></quote>
+<p rend="noindent">il che ciascuno conviene che confessi, sendo che chiunque more abbandona la vita, anzi morire altro non è che dipartirsi da questa vita. Simigliante dirassi che sia quest'altro:</p>
+<quote rend="blok"><lg lang="lat">
+<l>... sed enim gelidus tardante senecta</l>
+<l>Sanguis hebet, frigentque effetae in corpore vires,</l></lg></quote>
+<p rend="noindent">essendo cosa naturale e però necessaria che 'l sangue ne' vecchi si raffreddi, onde le forze debilitate ne rimangono».</p><p>
+      «A me pare» disse traponendosi il Manuzio «che tutte le maraviglie de' poeti dipendano da questa via, e chi non la intende, mal sicuramente possa arrischiarsi di scriver versi e trattar poesie. Oltra che questa cognizione a quelli che leggono i poeti di due cose n'è cagione: che in loro cessa la maraviglia di quelli concetti tanto divinamente espressi, poscia che nell'animo ne viene una certa dolcezza dal conoscere que' segreti, così a punto come colui che usati gli averà. E di qui nasce che i dotti godono più leggendo i buoni che non fanno gl'ignoranti».</p><p>
+      «Tal contento dee essere il vostro, Messer Paolo», rispose Messer Trifone «quando siete col vostro Cicerone; ché ‘vostro’ dire si può. Ma per rispondervi, non m'inganno che mal si consiglia chiunque si mette a trattar poesia senza quest'arte. A questi tali solamente o qualche buona natura può soccorrere, o per aventura il caso, delle quali due cose ciascuna è pericolosa. A chi si assicura nella sola natura spesso suole avenire che così può mandar fuori il male come 'l buono, come veggiamo nelle buone terre che con le buone erbe di men buone ancora, anzi del tutto cattive, ne producono. Però è stato conchiuso che l'arte, comeché dalla natura ne venga, sia guida più ferma e più sicura che la natura, con la quale bene spesso falliamo; e con l'arte a pena si può errare. Del caso, quanto dubbioso sia chi ne dubita? Ma per seguire l'incominciato corso, non vi pare ben intesa questa via in quest'altro essempio? col quale volendo Virgilio significare il mare esser divenuto tranquillo (il che segue dal cessar de' venti), ciò considerando si rivolse alli conseguenti di questa natura. Però disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Pleadi straverunt aequora venti,</l></lg></quote>
+<p rend="noindent">non potendo esser altramente che, cessati sùbito, non ne segua la tranquillità la quale si conosce dalla equalità dell'acque. Al qual luogo simigliante si potrà dire esser questo:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Et anne omne tibi stratura silet acquor, et omnes</l>
+<l>Aspice ventosi ceciderunt murrauris aurae.</l></lg></quote>
+<p rend="noindent">Quello istesso avendo a dire il poeta, ebbe inanzi agli occhi tre conseguenti: l'uno che 'l mare tranquillo tutto è eguale, né vi si vede gonfiamento di onde; poscia, che non si sentono per i romori di venti mormori o fremiti; finalmente che mancano i venti nell'acquetarsi; i quali conseguenti di necessità seguono dopo la procella».</p><p>
+      Dunque traponendosi Messer Francesco Luvisini: «Quest'altro luogo» disse «tra alcuni altri che mi sovengono, sarà fatto e riuscito sì vago per questa cagione:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Candidus insuetum miratur limen olympi,</l>
+<l>Sub pedibusque videt nubes et sidera Daphnis.</l>
+</lg></quote>
+<p rend="noindent">Il che fu poi così espresso dal Petrarca:</p>
+<quote rend="blok"><lg>
+<l>Or vedi insieme l'un e l'altro polo,</l>
+<l>Le stelle vaghe e il lor viaggio torto».</l></lg></quote>
+<p>«A punto» rispose Messer Trifone; «ché volendo esprimer questo concetto, cioè che quel pastore fosse salito in cielo e fatto immortale, a quest'aviso s'appigliò; e non può egli altramente stare, che essendo uno in cielo non veda sotto di sé le stelle e le altre cose soggette. Ma di tali forme ne veggiamo spesso nelle vostre leggiadrissime composizioni, Luvisini, sì che dimostrate non solamente averne gusto, ma di esserne maestro. E se ora che siete tenera pianta e giovinetta date tal saggio de' vostri frutti, che deveremo aspettare da voi allora che arete il tronco più robusto e fermo»?</p><p>
+      «Piacesse a Dio» soggiunse il Luvisini «che tale fosse questa pianta ch'a qualche tempo fiorisse e mandasse fuori frutti degni del vostro terreno, in cui per sua ventura un tempo ne è stata. Pur se indi mai cosa che buona fosse ne venisse, sarebe per esser stata coltivata da voi, ch'altramente male sperare si potrebbe, avendo le radici come a Dio piace. Anzi tali sono elle quali il Petrarca pare che divisasse quando disse:</p>
+<quote rend="blok"><lg>
+<l>Fama, onor, e virtute, e leggiadria</l>
+<l>.............</l>
+<l>Son le radici della nobil pianta».</l></lg></quote>
+<p>Tacque il valoroso giovene arrossitosi, quando l'onorato vecchio seguì il suo ragionamento, soggiugnendo: «Che vi pare di quest'altro luogo col quale Virgilio, volendo dire ‘farsi sera’ si mise inanzi gli occhi quello che accadeva nel farsi della sera e vide che l'ombre si raddoppiano e maggiori divengono? E però pigliato quel conseguente, così disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Et sol crescentes decedens duplicat umbras,</l>
+</lg></quote>
+<p rend="noindent">Il che espresse in quell'altro:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Maioresque cadunt altis de montibus umbrae.</l></lg></quote>
+<p rend="noindent">E così quel concetto che è trito e comune, leggiadro e raro divenne con questa forma e maniera né comune né popularesca di dire. Di tali, infiniti avertire si possono negli eccellenti poeti. Questa invenzione fa parere la differenza del buono e del men buono poeta. Questo non sa dar lume alli concetti bassi e meno inalzarli. Quello agevolmente può recarli dignità e splendore, et adornandoli levarli dalla bassezza e quell'ingrandire et illuminare; in che pare che consista la vera via e laude del poetteggiare. Veggiamo in tutti i poeti concetti e pensieri bassissimi e vilissimi, i quali se fossero senza giudicio espressi, rozzi et isconci riuscirebbono scritti. Ma perché sono con tali e simili vie trattati, maravigliosi appaiono.</p><p>
+Chi non vede esser stata aggionta vaghezza da Virgilio a questo concetto ‘vedrai regnar venti’ quando disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Et claro cernes sylvas aquilone moveri?</l>
+</lg></quote>
+<p rend="noindent">E quando volse dire che gli alberi che nascono di seme tardi crescono, considerando quello che di necessità ne seguiva, che è l'ombra, cresciuti che sono, li piacque così fare:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Nam quae seminibus iactis se sustulit arbor,</l>
+<l>Tarda venit, tardis factura nepotibus umbram.</l>
+</lg></quote>
+<p rend="noindent">Poco diverso da quello concetto ne formò uno il Fracastoro, aggiungendogli riputazione; ché se ignudamente espresso l'avesse, non così fatto venuto gli sarebbe. Così fece:</p>
+<quote rend="blok"><lg lang="lat">
+<l part="F">... hinc collige primos</l>
+<l>Asparagos, albae asparagos hinc collige vitis,</l>
+<l>Cum nondum explicuit ramosi umbracula, nondum</l>
+<l>Texuit, et virides iussit pendere corymbos.</l></lg></quote>
+<p rend="noindent">E qual concetto si può trovar più trito e cotidiano che dir ‘innestare’? Nondimeno, con questo mezzo l'adornò; imperò che avendo a dire che l'orno s'innesta sul pero, considerando che avendo da riuscire il nesto, nel fiorire di necessità getta i fiori bianchi, disse:</p>
+<quote rend="blok"><lg lang="lat">
+<l part="F">....ornusque incanuit albo</l>
+<l part="I">Flore piri».</l>
+</lg></quote>
+<p>«La cosa in che consiste questa bellezza» tramettendosi il Manuzio «pare oggimai» disse «che sia fatta in modo piana e facile che non faccia di mestiero andarsi rivolgendo fra tanti essempi per illustrarla. Nondimeno, se voi faceste vedere a questi gioveni che questa via fosse stata ben intesa dal Petrarca con qualche suo esempio, so che ne riceverebbono sommo diletto e contento, essendo eglino affezionatissimi di questo poeta e dilettandosi di scrivere in questa nostra lingua».</p><p>
+«Questo a punto aveva in animo» rispose Messer Trifone. «E senza dubbio qualora considero la felicità di questa lingua, conchìudo che tutte le bellezze che possono cadere nell'altre commodissimamente in ella caggiano. E se non fosse che non voglio che 'l ragionamento proceda in infinito, potrei con tanta copia e varietà di essempi ciò approvarvi, che non è alcuno che non rimanesse più che in persuaso. Ma per ispedir questo luogo cominciato, dico, figliuoli, che 'l Petrarca intese tutti que' profondi e reconditi segreti che bastano per abbellire un componimento. E per non vi trar in lungo, vedete come in questo espresse divinamente l'aviso di che ora trattavamo:</p>
+<quote rend="blok"><lg>
+<l>Ma poi che 'l ciel accende le sue stelle,</l>
+<l>Qual torna a casa e qual s'annida in selva,</l></lg></quote>
+<p rend="noindent">dove volse notare il venir della notte. E volendo onorare quel concetto, si mise inanzi quello che di necessità segue la venuta di essa notte, che è l'apparire delle stelle; il che non vediamo prima che la notte si faccia, la quale per giudicio d'ognuno può parere essere stata bella e ben considerata imaginazione. Questo istesso aviso gli sovenne per il contrario quando, avendo egli a dire come comincia a rischiararsi il giorno, così fece:</p>
+<quote rend="blok"><lg>
+<l>Et io da che comincia la bell'alba</l>
+<l>A scuoter l'ombra intorno della terra,</l>
+<l>Svegliando gli animali in ogni selva,</l>
+<l>Non ho mai tregua di sospir col sole.</l>
+</lg></quote>
+<p rend="noindent">Ogni trascurato e grosso intelletto se n'accorgerebbe da questo istesso fonte derivar questo luogo, considerando che prima spunta l'alba e che sùbito ne segue il dipartir dell'ombre, nonostante che ad alcuno paresse che ad uno istesso tempo ciò avenisse.</p>
+<p>«Somigliante è quest'altro in quella istessa sestina:</p>
+<quote rend="blok"><lg>
+<l>Quando la sera scaccia il chiaro giorno</l>
+<l>E le tenebre nostre altrui fann'alba,</l></lg></quote>
+<p rend="noindent">ché alla venuta della sera succede la partita del giorno, e gli antipodi cominciarono a veder l'alba precedenti le tenebre della nostra notte. Da questa non pare che diverso sia quando l'istesso poeta, volendo disegnare la primavera esser venuta, con questa vaga maniera adornando il concetto cantò:</p>
+<quote rend="blok"><lg>
+<l>E disgombrava già di neve i poggi</l>
+<l>L'aura amorosa che rinova il tempo.</l></lg></quote>
+<p rend="noindent">Questo accidente mi pare che venga dietro alla primavera, la quale primieramente a poco a poco dimostrandosi ne viene riscaldata la terra, onde vediamo il liquefar delle nevi ne' monti; il che Virgilio così aveva espresso:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Vere novo gelidus, canis cum montibus humor</l>
+<l>Liquitur, et zephyro putris se gleba resolvit.</l></lg></quote>
+<p rend="noindent">Non men vago a questo poeta riuscì questo luoghetto che gli altri detti, mentre che volendo dire ch'era ritornato il verno, pigliando una di quelle cose che séguita il principio di esso che è il cader delle foglie, così fece:</p>
+<quote rend="blok"><lg>
+<l>E quando a terra son sparte le frondi,</l></lg></quote>
+<p rend="noindent">il che così fu espresso dal Bembo:</p>
+<quote rend="blok"><lg>
+<l part="F">...che se 'l dì breve sfronda</l>
+<l>I boschi, o se le piagge il lungo accende,</l>
+<l part="I">Mi bagna riva...</l></lg></quote>
+<p rend="noindent">Et incontanente avendo pur da dire ‘quando ritorna la primavera’, considerato quello istesso che riscaldati dal nuovo sole i colli rinverdiscono, disse:</p>
+<quote rend="blok"><lg>
+<l>E quando il sol fa verdeggiar i poggi.</l>
+</lg></quote>
+<p rend="noindent">Non è alcun dubbio che la venuta di quella stagione antecede, e poi quello che ci dice comincia a seguire, cioè che la terra inamorata spiega le sue ricchezze et i suoi onori, adornandosi e ripigliando il bel manto d'erbe e di fiori.</p>
+<p>«Non vi pare questo consiglio essere stato di questo poeta quando, volendo dire Madonna Laura esser morta, elesse di dire:</p>
+<quote rend="blok"><lg>
+<l>Oimè, terra è fatto il suo bel viso,</l>
+</lg></quote>
+<p rend="noindent">di necessità seguendo a chiunque more risolversi in terra. E quando ebbe da esprimere quell'istesso, cioè che s'averebbe data la morte, così gli piacque di dire:</p>
+<quote rend="blok"><lg>
+<l>Quel ch'Amor meco parla</l>
+<l>Sol mi ritien ch'io non recida il nodo,</l></lg></quote>
+<p rend="noindent">il che fatto da lui, sarebbe seguito che morto restato ne fosse, la qual cosa aviene necessariamente qualora il vincolo si discioglie con che l'anima col corpo è unita e legata. Questo altrove così aveva fatto:</p>
+<quote rend="blok"><lg>
+<l>Ma lasso or veggio che la carne sciolta</l>
+<l>Fia di quel nodo ond'è il sito maggior pregio.</l></lg></quote>
+<p rend="noindent">Alla qual maniera questo altro è del tutto conforme:</p>
+<quote rend="blok"><lg><l>Dal dì che la mammella</l>
+<l>Lasciai, fin che si svella</l>
+<l>Da me l'alma,</l></lg></quote>
+<p rend="noindent">come ancora Virgilio aveva fatto di prima:</p>
+<quote rend="blok"><lg lang="lat">
+<l>Nec cum frigida mors anima seduxerit artus.</l>
+</lg></quote>
+<p rend="noindent">Quello che al Bembo piacque di renderci in questa maniera, esprimendo il contrario:</p><quote rend="blok"><lg>
+<l>Mentre da questa carne non mi sciolgo.</l></lg></quote>
+<p rend="noindent">Quest'altro non vi parrà men giudiciosamente fatto, con che volse il poeta dichiarare non prima poter esser libero e sicuro dall'amore che non invecchiasse, considerando che alla vecchiezza succede la canutezza, essendo bisogno naturalmente che prima si pervenga a quella età e poi imbianchino gli uomini; ricorse dal conseguente onde ne trasse questa bella forma quando disse:</p>
+<quote rend="blok"><lg>
+<l>Se bianche non son prima ambe le tempie</l>
+<l>Ch'a poc' a poco par che 'l tempo mischi,</l>
+<l>Securo non sarò;</l></lg></quote>
+<p rend="noindent">quello che attese in quest'altro luogo:</p>
+<quote rend="blok"><lg>
+<l>E per far mie dolcezze amare et empie</l>
+<l>O s'infinge, o non cura, o non s'accorge</l>
+<l>Del fiorir queste inanzi tempo tempie.</l></lg></quote>
+<p rend="noindent">Per il qual essempio non accade disputare se la canutezza viene di necessità o no, tutto che alcuni di quelli che stando sul pungere et attender gli altrui falli, non vedendo i suoi a tutto il mondo chiari e manifesti fino ai ciechi oggimai, armati più di veleno che di dottrina, potrebbono mover alcuna delle sue solite et ociose questioni».</p><p>
+      «Di questi» disse il Manuzio «non dobbiamo tener conto alcuno come di abbaiatori. E per dire di questi essempi, né più chiari né più proprii si averebbono potuto scegliere. Ma a me pare che sì come infinita è la vostra bontà in non risparmiarsi dove conosca di giovare e di aiutare gli studii della gioventù, così poca discrezione fosse il non aver rispetto all'età vostra, lasciandovi continovare in sì lungo ragionamento senza riposarvi. Però meglio fia che cessiate e che fino che 'l caldo si rimetta, ch'ora s'infiamma e cresce fieramente, vi riposiate insieme col Trissino levandovi». Il che da tutti lodato, comeché imperfetto ne restasse il ragionamento, si levarono i due saggi et illustri vecchi, et in una caminata fin all'ora del vespro si riposarono con promissione di seguire l'incominciato.</p><p>
+      Intanto il Manuzio, che dolcissimo è e più d'ogn'altro cortese, insieme con Messer Francesco Luvisini, giovene senza comparazione più chiaro per lettere e per la gentilezza di costumi ch'altro che si conosca a nostri tempi, tale che comincia a oscurare la gloria de' vecchi, con quelli nobilissimi spirti veneziani si diportarono, sendosi ritratti all'ombra in una altra parte del giardino più fresca, di varie e recondite cose ragionando. Tra' quali vi fu Messer Aloigi Balbi, che in quella età sendosi rivolto tutto alle buone discipline et alli studii dell'eloquenza, tanto in quelli gli suoi eguali avanzava quanto ora i molto più di lui maturi e vecchi felicemente trapassa. La maniera del cui dire è soave nell'esporre e chiara, efficace e sottile nelle contenzioni, aperta nelle disposizioni, ne' discorsi ornata e vaga, ardente negli affetti, non solamente movendo gli animi con la sorte dell'orazione, che è piena di sincerità, ma in quelli signoreggiando con la dignità dell'aspetto e con la fronte dipinta di modestia, a ciascuno caro e grazioso si rende. Del qual ingegno tali accrescimenti vediamo che torto si farebbe al suo valore se si ponesse più tosto nel secondo luogo che nel primo di quelli che per il dritto sentiero dell'eloquenza con grandi et onorati passi caminano nella nostra città.</p>
+</div1>
+</body>
+</text>
+</TEI.2>

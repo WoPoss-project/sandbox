@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//BIBIT//DTD BibIt L1 TEI Document Type//EN" "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dell'origine e dell'ufficio della letteratura</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>103460 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit000729</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+            personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Prose e saggi</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Gavazzeni, Franco</editor>
+               <editor id="ed2">Lombardi, Maria Maddalena</editor>
+               <editor id="ed3">Longoni, Franco</editor>
+               <publisher>Enaudi-Gallimard</publisher>
+               <pubPlace>Torino</pubPlace>
+               <date>1994-1995</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+        responsabilità dell'autore dell'opera sono stati soppressi nella versione
+        digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+            riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+            sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+            ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Oratoria</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>Data sconosciuta anteriore al 2000</date>
+            <respStmt>
+               <name>CIBIT-Pavia</name>
+            </respStmt>
+            <item>Digitalizzazione</item>
+         </change>
+         <change>
+            <date>Data sconosciuta anteriore al 2000</date>
+            <respStmt>
+               <name>CIBIT-Pavia</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2004-03-19T00:00:00.000+01:00</date>
+            <respStmt>
+               <name>Gabriele Masini</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2008-02-11T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>DELL'ORIGINE E DELL'UFFICIO DELLA LETTERATURA</head>
+         <div1 type="epigrafe">
+            <p>
+               <foreign lang="grc">Ἣ οὑκ
+            ἑντεθύμησαι,
+            ὄτι ὄσα τε
+            νόμῳ
+            μεμαθήκαμεν
+            κάλλιστα
+            ὅντα, δι' ὦν
+            γε ζῆν
+            ἑπιστάμεθα,
+            ταῦτα
+            πάντα διὰ
+            λόγου
+            ἑμάθομεν;</foreign>
+            </p>
+            <bibl>
+               <foreign lang="grc">Σωκράτης
+            παρὰ
+          Ξενοφ.</foreign>
+            </bibl>
+         </div1>
+         <div1 n="Epigrafe">
+            <p>
+               <hi rend="italic">O non hai teco pensato mai che quante cose sappiamo per legge essere
+            ottime, e dalle quali abbiamo norme alla vita, tutte le abbiamo imparate con l'aiuto
+            della parola?</hi>
+            </p>
+            <bibl>
+               <hi rend="sc"> Socrate</hi> presso Senofonte memorab. lib. <hi rend="sc">III</hi>.
+          cap. 3.</bibl>
+         </div1>
+         <div1 type="Orazione inaugurale">
+            <p>
+               <hi rend="sc">i.</hi> Solenne principio agli studi sogliono essere le laudi degli studi;
+          ma furono soggetto sì frequente all'eloquenza de' professori e al profitto
+          degl' ingegni, che il ritesserle in quest'aula parrebbe consiglio ardito ed inopportuno.
+          Né io, che per istituto devo oggi inaugurare tutti gli studi agli uomini dotti
+          che li professano e ai giovani che gl'intraprendono, saprei dipartirmi dalle arti che
+          chiamansi letterarie, le sole che la natura mi comandò di coltivare con lungo e
+          generoso amore, ma dalle quali la fortuna e la giovenile imprudenza mi distoglieano di
+          tanto, ch'io mi confesso più devoto che avventurato loro cultore.
+          Bensì reputai sempre che le lettere siano annesse a tutto l'umano sapere come
+          le forme alla materia; e considerando quanto siasi trascurata o conseguita la loro
+          applicazione, mi avvidi che, se difficile è l'acquistarle, difficilissimo
+          è il farle fruttare utilmente. Sciagura comune a tanti altri beni e prerogative
+          di cui la natura dotò la vita dell'uomo per consolarla della
+          brevità, dell'inquietudine e della fatale inimicizia reciproca della nostra
+          specie; beni e prerogative che spesso si veggono posseduti, benché raro assai,
+          da chi sappia o valersene o non abusarne. Gli annali letterari e le scuole contemporanee
+          ci porgono documenti di città e di uomini doviziosi d'ogni materia atta a
+          giovevoli e nobili istituzioni di scienze e di lettere, ma sì poveri dell'arte
+          di usarne, e sì incuriosi dello scopo a cui tendono, che o le lasciano
+          immiserire con timida ed infeconda avarizia, o le profondono con disordinata
+          prodigalità. Onde opportuno a tutte le discipline, e necessario alle letterarie
+          credo il divisamento di parlare dinanzi a voi, Reggente magnifico, Professori egregi e
+          benemeriti delle scienze, ingenui giovani che confortate di speranze questa patria, la
+          quale, ad onta delle avverse fortune, fu sempre nudrice ed ospite delle muse, di parlare
+          oggi dinanzi a voi tutti, gentili uditori, <title>
+                  <emph>dell'Origine e dell'Ufficio della Letteratura</emph>
+               </title>.</p>
+            <p>
+               <hi rend="sc">ii.</hi> Però ch'io stimo che le origini delle cose, ove si
+          riesca a vederle, palesino a quali uffici ogni cosa fu a principio ordinata nella economia
+          dell'universo, e quanto le vicende de' tempi e delle opinioni n'abbiano accresciuto l'uso
+          e l'abuso. Onde sembrami necessario d'investigare nelle facoltà e ne' bisogni
+          dell'uomo l'origine delle lettere, e di paragonare se l'uso primitivo differisca in meglio
+          o in peggio dagli usi posteriori, e quindi scoprire, per quanto si può, come
+          nella applicazione delle arti letterarie s'abbia a rispondere all'intento della natura.
+          All'intento della natura; ch'ella e non dà mai facoltà senza
+          bisogni, né bisogni senza facoltà, né mezzi senza scopo;
+          e non dissimula talvolta l'ingratitudine e i capricci degli uomini, se non se per ritrarli
+          a pentimento, scemando loro l'utile e la voluttà nelle cose che l'orgoglio di
+          que' miseri si arroga a correggere. E stimo inoltre che non ad altro uomo i pregi e i
+          frutti di un'arte evidentemente appariscano, se non a chi sappia quali ne sieno i doveri,
+          e quanto richieggasi ad adempierli virilmente, e come influiscano alla propagazione
+          dell'universo sapere, e in che tempi e in che modi giovino alla vita civile. Allora
+          gl'ingegni si accosteranno alle scuole non tanto con inconsiderato fervore, quanto con
+          previdenza delle difficoltà, degli obblighi e dei pericoli; allora l'ardire
+          magnanimo sarà affidato dalla prudenza che misura le proprie forze; allora le
+          forze non saranno consunte in pomposi esperimenti, ma dirizzate a volo determinato e
+          sicuro; allora, o giovani, conoscerete che il guiderdone agli studi, la
+          celebrità del nome e l'utilità della vostra patria sono connesse
+          alla dignità ed a' progressi dell'arte da voi coltivata. Ma se di egregio
+          profitto è il soddisfare agli uffici delle arti, l'inculcarli sarà
+          sempre e di sommo pericolo e d'incertissimo evento; e più assai se, come
+          avviene nella letteratura, la dimenticanza e la impunità vietino che sieno
+          riconosciuti e obbediti. E a chi tenta di rivendicarli è pur forza d'affrontare
+          molte celebrate opinioni ed usanze santificate dal tempo, e fazioni di antiche scuole e
+          l'autorità di que' tanti che, senza essersi sdebitati degli obblighi delle
+          lettere, si presumono illustri e sicuri perché le posseggono.</p>
+            <p>
+               <hi rend="sc">iii.</hi> Te dunque invoco, o Amore del vero! tu dinanzi all'
+          intelletto che a te si consacra, spogli di molte ingannatrici apparenze le cose che
+          furono, che sono e che saranno; tu animi di fiducia chi ti sente; nobiliti la voce di chi
+          ti palesa; diradi con puro lume e perpetuo la barbarie, l'ignoranza e le superstizioni;
+          te, senza di cui indarno vantano utilità le fatiche degli scrittori, indarno
+          sperano eternità gli elogi dei principi ed i fasti delle nazioni, te invoco, o
+          Amore del vero! Armami di generoso ardimento, e sgombra ad un tempo l'errore di
+          cui le passioni dell'uomo o i pregiudizi del mio secolo m'avessero preoccupato l'animo. Fa
+          che s'alzi la mia parola libera di servitù e di speranze, ma scevra
+          altresì di licenza, d'ira, di presunzione e d'insania di parti. La tua
+          inspirazione, diffondendosi dalla mente mia nella mente di quanti mi ascoltano,
+          farà sì che molti mirino più addentro e con
+          più sicurezza ciò ch'io non potrò forse se non se veder
+          da lontano, ed incertamente additare. Che s'io, seguendo te solo, non potrò dir
+          cosa nuova, perché tu se' antico e coevo della natura, la quale tu vai sempre
+          più disvelando al guardo mortale, mostrami almeno la più schietta
+          delle sue forme; moltiplici forme, che, or velate d'oscurità, or cinte di
+          splendore, sconfortano spesso ed abbagliano chi le mira.</p>
+            <space type="stacco narrativo"/>
+            <p>
+               <hi rend="sc">iv. Ogni</hi> uomo sa che la parola è mezzo di rappresentare il
+          pensiero; ma pochi si accorgono che la progressione, l'abbondanza e l'economia del
+          pensiero sono effetti della parola. E questa facoltà di articolare la voce,
+          applicandone i suoni agli oggetti, è ingenita in noi e contemporanea alla
+          formazione de' sensi esterni e delle potenze mentali, e quindi anteriore alle idee
+          acquistate da' sensi e raccolte dalla mente; onde quanto più i sensi
+          s'invigoriscono alle impressioni, e le interne potenze si esercitano a concepire, tanto
+          gli organi della parola si vanno più distintamente snodando. Ché le
+          passioni e le immagini nate dal sentire e dal concepire o si rimarrebbero tutte indistinte
+          e tumultuanti, mancando di segni che nell'assenza degli oggetti reali le rappresentassero,
+          o svanirebbero in gran parte per lasciar vive soltanto le pochissime idee connesse
+          all'istinto della propria conservazione, ed accennabili appena dall'azione o dalla voce
+          inarticolata. Il che si osserva negli uomini muti, i quali non conseguono né
+          ricchezza né ordine di pensieri che non siano richiesti dalle supreme
+          necessità della vita, se non quando ai segni della parola articolata riescano a
+          supplire co' segni della parola scritta. E un segno solo della parola fa rivivere
+          l'immagine tramandata altre volte da' sensi e trascurata per lunga età nella
+          mente; un segno solo eccita la memoria a ragionare d'uomini, di cose, di tempi che pareano
+          sepolti nella notte ove tace il passato. Il cuore domanda sempre o che i suoi piaceri
+          siano accresciuti, o che i suoi dolori siano compianti; domanda di agitarsi e di agitare,
+          perché sente che il moto sta nella vita e la tranquillità nella
+          morte; e trova unico aiuto nella parola, e la riscalda de' suoi desideri, e la adorna
+          delle sue speranze, e fa che altri tremi al suo timore e pianga alle sue lagrime, affetti
+          tutti che senza questo sfogo proromperebbero in moti ferini e in gemito disperato. E la
+          fantasia del mortale, irrequieto e credulo alle lusinghe di una felicità ch'ei
+          segue accostandosi di passo in passo al sepolcro, la fantasia, traendo dai secreti della
+          memoria le larve degli oggetti, e rianimandole con le passioni del cuore, abbellisce le
+          cose che si sono ammirate ed amate; rappresenta piaceri perduti che si sospirano; offre
+          alla speranza e alla previdenza i beni e i mali trasparenti nell' avvenire; moltiplica ad
+          un tempo le sembianze e le forme che la natura consente alla imitazione dell'uomo; tenta
+          di mirare oltre il velo che ravvolge il creato; e quasi per compensare l'umano genere dei
+          destini che lo condannano servo perpetuo ai prestigi dell'opinione ed alla clava della
+          forza, crea le deità del bello, del vero, del giusto, e le adora; crea le
+          grazie, e le accarezza; elude le leggi della morte, e la interroga e interpreta il suo
+          freddo silenzio; precorre le ali del tempo e al fuggitivo attimo presente congiunge lo
+          spazio di secoli e secoli ed aspira all'eternità; sdegna la terra, vola oltre
+          le dighe dell'oceano, oltre le fiamme del sole, edifica regioni celesti, e vi colloca
+          l'uomo e gli dice: <emph>Tu passeggerai sovra le stelle</emph>: così lo illude,
+          e gli fa obbliare che la vita fugge affannosa, e che le tenebre eterne della morte gli si
+          addensano intorno; e lo illude sempre con l'armonia e con l'incantesimo della parola. La
+          ragione, che, avvertita continuamente dalle alterne oscillazioni del piacere e del dolore,
+          equilibra e dirige per mezzo del paragone e della esperienza tutte le potenze della vita,
+          ove fosse destituta della parola, non sarebbe prerogativa dell'uomo; ma, come negli altri
+          animali, ridurrebbesi all'istinto di misurare i beni e i mali imminenti con la norma delle
+          sensazioni. Fuggono ai sensi le forme reali e le sostanze degli oggetti; né si
+          discernerebbe il vero dal falso, né si bilancerebbe il vantaggio apparente col
+          danno nascosto, se non si oltrepassassero l'esterne sembianze, le sole ad ogni modo che i
+          sensi possono imprimere nella mente. Quindi la ragione al difetto d'immagini acquisite
+          provvide co' segni della voce, inventati ne' primi bisogni dall'arbitrio dell'analogia,
+          poi migliorati dall'esperienza e sanciti dalla utilità. Così,
+          poiché furono idoleggiate con simboli e con immagini molte serie di fatti, si
+          desunsero le idee del <emph>dovere</emph> e del <emph>diritto</emph>; ma come raffigurarle
+          in tanto tumulto di reminiscenze, di passioni e di fantasmi annessi a quei fatti? come
+          astraerle e preservarle se non con un segno stabile ed arrendevole alle astrazioni? e qual
+          altro segno se non la parola? Tesoro di suoni, di colori e di combinazioni per cui
+          l'intelletto, dopo d'avere percepite e denotate le forme sensibili delle cose,
+          può congetturarne e concepirne le più recondite, e denominarle, e
+          scomporle in minime parti, e considerarle in tutti i loro accidenti, e ricomporle
+          nell'armonia che dianzi non intendeva; onde spesso se ne vede le cause e talvolta lo
+          scopo, e resta men attonito e più convinto dell'arcana ragione dell'universo:
+          dell'incomprensibile universo, dell'esistenza di cui mancherebbe perfino la semplice idea,
+          se, come l'uomo non può comprenderlo, così non potesse nemmen
+          nominarlo.</p>
+            <p>
+               <hi rend="sc">v.</hi> Or questo bisogno di comunicare il pensiero è inerente
+          alla natura dell'uomo, animale essenzialmente usurpatore, essenzialmente sociale:
+          però ch'ei tende progressivamente ad arrogarsi e quanto gli giova e quanto
+          potrebbe giovargli; all' uso presente aggiunge l'uso futuro e perpetuo, quindi la
+          proprietà e la disuguaglianza: né vi poteva a principio essere
+          proprietà perpetua di cose utili agli altri, senza usurpazione; né
+          progresso d'usurpazione, senza violenza ed offesa; né difesa contro a pochi
+          forti, senza società di molti deboli; né lunga concordia di
+          società, senza precisa comunicazione d'idee. E finché l'umano genere
+          associavasi in famiglie e in sole tribù, angusti termini somministrava la
+          terra, angustissimi il tempo alle sue conquiste e a' suoi patti, e poche articolazioni di
+          voce bastavano all'uso ed alla memoria. Frattanto la forza col suo mal dissimulato diritto
+          e col perenne suo moto agl'ingegni audaci per vigore aggregava gl'ingegni timidi per
+          debolezza, e col numero dei vinti rinforzava la possanza del vincitore; le
+          tribù cresceano in nazioni, e si collegavano sempre più onde
+          accertare per mezzo dello stato di società e di proprietà gli
+          effetti dello stato di guerra e di usurpazioni; e il commercio si andò
+          propagando, e nel permutare da popolo a popolo le messi, le arti e le ricchezze,
+          accumulò i vizi, le virtù, gli usi, le religioni, le lingue degli
+          uni con quelle degli altri, disingannò il timore reciproco, destò la
+          curiosità d'ignote regioni, ed alimentò così la noia e
+          l'avidità, due vigili istigatrici del genere umano; l'una esagerando il
+          fastidio del presente, l'altra le speranze dell'avvenire, trassero le genti dalle antiche
+          sedi natie attraverso delle infecondità delle solitudini e delle tempeste dei
+          mari a cercare nuovi regni, nuovi schiavi, e ad agitare con nuove stragi, con nuove
+          superstizioni, con nuove favelle la terra. Questo urtarsi, complicarsi e diffondersi di
+          forze, d'indoli e d'idiomi, occupando più moltitudine d'uomini, più
+          diuturnità di fatiche, più ampio spazio di terra, e quindi
+          più numero d'anni, moltiplicò non solo le idee e le passioni che ne
+          risultano, ma variò all'infinito i loro aspetti e le loro combinazioni, ed
+          aumentò la progressione del loro moto, che non poteva essere più
+          omai secondato dal suono fuggitivo della parola.</p>
+            <p>
+               <hi rend="sc">vi.</hi> Le forze parziali di una società, incorporate dagli
+          effetti della guerra, tendeano sempre a' primi contrasi per cui non avrebbero potuto
+          assalire le forze più concordi d'altra nazione; ogn' individuo dunque,
+          rinunziando col fatto l'uso delle sue forze al valore del più prode o al senno
+          de' più avveduti, videsi punito quando le ridimandò o le ritolse;
+          quindi l'origine delle leggi: così la giustizia eresse carceri, tribunali e
+          patiboli in mezzo ad un popolo per conservargli la forza, e quindi il diritto di
+          combattere un altro. Ma perché le passioni de' soggetti poteano rivendicare le
+          loro forze dalla giustizia o dall'arbitrio di chi ne usava, i pastori de' popoli, compresi
+          anch'essi dal sentimento dell'esistenza d'una mente infinita, attiva, incomprensibile al
+          pari dell'universo, si valsero di questo sentimento che vive in tutti &lt;ogni
+          uomo&gt;, e confederandosi al cielo minacciarono di difendersi co' suoi fulmini; le
+          menti, affascinate dal terrore di peggior male e dalla speranza di futuro compenso,
+          s'assopirono sul danno presente; il mistero accrebbe il silenzio, e il silenzio la
+          venerazione; le leggi furono santificate, e deificati i legislatori; quindi dal mistero i
+          riti &lt;l'origine de' riti&gt;. Finalmente i principi per eternare la loro fama e
+          la loro possanza ne' lor successori, e i popoli per disanimare le altre nazioni che
+          l'alterno moto della forza trarrebbe ad imporre o a pagare tributo, vollero narrare alla
+          posterità e alle lontane regioni le loro glorie, e l'onnipotenza de' loro numi;
+          quindi le tradizioni. Dalle leggi, dalle religioni e dalle tradizioni progredì
+          ogni umano sapere; ché se non pertanto continuavano a commettersi al suono
+          delle parole, non poetano propagarsi che a poche generazioni; da che l'età
+          rende inferma la memoria, ambigue le lingue, ed infedeli le tradizioni. Ma il vincitore,
+          troncando con le scuri grondanti di sangue e rotolando sovra i cadaveri de' vinti i
+          ciglioni delle montagne, lascia un monumento che attesti agli uomini che vivono e che
+          vivranno in futuro il campo della vittoria. I cedri verdeggianti sovra le sepolture,
+          effigiati dalla spada in simulacri d'uomo, sorgono da lontano custodi della memoria
+          d'egregi mortali; e a' tronchi corrosi dalle stagioni sottentrano ruvidi marmi, ove nel
+          busto informe dell'eroe sono scolpite imitazioni di fiere e di piante, a ciascheduna delle
+          quali e alle loro combinazioni sono consegnate più serie d'idee che tramandano
+          il nome di lui, le conquiste, le leggi date alla patria, il culto istituito agli iddii,
+          gli avvenimenti, le epoche, le sentenze e l'apoteosi che l'associò al coro de'
+          beati: così prime are degl'immortali furono i sepolcri.<note place="foot" n="1" resp="aut">
+                  <p>Vedi <bibl>
+                        <hi rend="sc">Zoega</hi>, <foreign lang="lat">
+                           <emph>De origine et usu obeliscorum</emph>
+                        </foreign>.</bibl>
+                  </p>
+               </note> Se non che, oltre alle guerre e alle pesti che, lasciando solitudine e scheletri
+          nelle città, distruggevano e abbandonavano alla dimenticanza que' monumenti, la
+          natura innondò parte del globo e sommerse genti e trofei; anzi ardendo le
+          viscere della terra, e la terra fremendo orribilmente e agitandosi, vomitò
+          fiamme e si squarciò, e i laghi ondeggiarono sulle ceneri delle foreste, e le
+          montagne spalancarono abissi, e i fiumi precipitarono ove dianzi l'aquila ergeva il suo
+          volo, e l'isole disparvero e, svelti i continenti, furono cinti dalle procelle e
+          dagl'intentati spazii del mare. Ma l'uomo restava. Dalle reliquie dei suoi monumenti
+          desunse esempio di accrescerli e di premunirli; ed avvedutosi che la terra anch'essa era
+          obbediente e mortale, li confidò al cielo che sembravagli eterno. Pria che
+            Teuto<note place="foot" n="2" resp="aut">
+                  <p>Assegno a Teuto l'invenzione del calcolo astronomico su la testimonianza degli
+              Egizii, i quali dissero a Socrate: <emph>che</emph>
+                     <foreign lang="grc">Θεύθ</foreign>
+              (<emph>Theut</emph>) <emph>era nume etiope, e che primo aveva inventati numeri e
+                computi e geometria ed astronomia</emph>. <bibl>Platone, nel
+              <emph>Fedro</emph>.</bibl>
+                  </p>
+                  <p>Da questo passo derivano e si concatenano le prove di tre nostre opinioni:
+              1.º Che le leggi fossero incorporate ai dogmi e alle storie, come appare
+              nella Genesi, e che i principi fossero capitani e sacerdoti ed artefici ad un tempo, e
+              i primi tra loro deificati: 2.º Che i popoli nell'emigrazioni e nelle guerre
+              si portassero reciprocamente le loro religioni, e che ampliandosi quindi le idee, si
+              ampliasse il significato de' nomi: così <foreign lang="grc">Θεύθ, </foreign>
+                     <emph>Teuto</emph>, nome
+              individuale degli Etiopi, si convertì in
+              <foreign lang="grc">Ζεύς</foreign>, <emph>Giove</emph>, nume supremo, poi in
+              <foreign lang="grc">θεός</foreign>, nome solenne d'ogni dio, finalmente in
+                <foreign lang="lat">
+                        <emph>deus</emph>
+                     </foreign> e <emph>dio</emph>, voce universale ed incomprensibile: 3.º Quindi
+              confermasi che senza parole non si danno astrazioni.</p>
+               </note> esplorasse l'ordine delle stelle, e che l'osservazione, congiuntasi per cinquanta
+          e più secoli al calcolo, assegnasse le distanze non solo tra i pianeti del
+          nostro emisfero, ma le forze e le perturbazioni de' loro moti, il pastore, salutando col
+          canto l'apparire di quel pianeta bellissimo tra gli astri, che segue tardo il sole
+          all'occaso e lo precede vigile nell'oriente, avvertiva i momenti delle tenebre e della
+          luce; l'immobilità della stella polare guidava tra l'ombre la vela del
+          navigante; la luna col perpetuo ricorso d'una notte più consolata dal suo lume
+          distinse i mesi, e rinfrangendosi ne' vapori e nell'aura, presagiva le meteore maligne e
+          propizie; e il sole, abbreviando l'oscurità che assiderava la terra, e
+          rallegrando con raggi più liberali l'amor nei viventi e la beltà
+          nelle cose, die' con l'equinozio di primavera i primi auspicii alle serie degli anni. Al
+          cielo dunque, che col moto perenne dei suoi mondi dispensava il tempo alle umane fatiche e
+          promettevalo eterno, fu raccomandata la tradizione delle leggi, de' riti, delle conquiste
+          e la fama de' primi artefici e dei principi fortunati. I pensieri del mortale, ch'ebbero
+          dalla parola propagazione e virtù, trovandosi incerti nella memoria di lui, e
+          caduchi nei monumenti terreni, conseguirono perpetuità nel vario splendore, nel
+          giro diverso, negli orti e negli occasi degli astri, e nelle infinite apparenze con cui le
+          stelle tutte quante errano ordinate e distinte nel firmamento; e la scienza dei tempi
+          ordinò la scienza de' fatti. Assai nomi ed avvenimenti scritti nelle
+          costellazioni, benché trapassassero per densissima oscurità di
+          tempi, sopravvivono forse ad imperi meno antichi, i quali, per non avere lasciato il loro
+          nome se non sulla terra, diedero al silenzio anche il luogo delle loro rovine.
+          Sapientemente dunque fu detto: <emph>Essere il globo celeste il libro più
+            antico di letteratura</emph>.<note place="foot" n="3" resp="aut">
+                  <p>
+                     <emph> E certamente possiamo affermare che i due globi celeste e terrestre siano i
+                due più antichi libri della profana letteratura; perciocché il
+                terrestre ne' varii nomi delle province e de' mari conserva un catalogo assai fedele
+                di varie nazioni che le abitarono, e di molti principi che le ressero: ed il celeste
+                nelle immagini antichissime disegnatevi sopra, avanti all'età di Omero e
+                di Esiodo, è un monumento chiarissimo di imprese e di capitani, di arti e
+                d'artefici, tramandati alla cognizione dei posteri</emph>. <bibl>Bianchini,
+                  <emph>Istor. univ.</emph> Introd. cap. 3.</bibl>
+                  </p>
+               </note>
+            </p>
+            <p>
+               <hi rend="sc">vii.</hi> Oh quanti mi si presentano i campi fecondati da un unico
+          germe! e come nel percorrerli ammiro i principj del creato che procedono
+          acquistando sempre propagazione ed aspetti, né si propagano senza tenore
+          d'armonia che li ricongiunga, né si trasformano senza serbare vestigi delle
+          origini antiche! Perdono le scienze i loro calcoli per numerare con quanti anni
+          di sudore, con quanta prepotenza d'oro e di imperio, con quanta moltitudine di mortali la
+          piramide di Ceope<note place="foot" n="4" resp="aut">
+                  <p>La prima o la maggior piramide fu eretta da <emph>Chemi</emph>, secondo <bibl>Diod.
+                lib. I, 64;</bibl> o da <emph>Ceope</emph>, secondo <bibl>Erodoto l. 2,
+            126.</bibl>
+                  </p>
+               </note> sorgesse quasi insulto all'ambizione e di Cambise e d'Alessandro e
+          dell'astutissimo Augusto, e del più ferocemente magnanimo tra i discendenti
+          d'Otomano, e di quanti trionfarono e trionferanno l'Egitto:<note place="foot" n="5" resp="aut">
+                  <p>L'Egitto fu sempre insanguinato dalle guerre straniere, cittadinesche e servili; ma
+              la storia ci presenta tre celebri conquistatori, Cambise che desolò ed
+              imbarbarì tutto l'Egitto mediterraneo, Alessandro che fabbricando la
+              capitale nell'Egitto marittimo, ridusse quel paese all'antica prosperità, e
+              riunendo la delicatezza greca all'acutezza africana, lo fece scuola delle scienze e
+              delle arti: finalmente Selim I, che lo tolse ai Circassi; su di che vedi
+                <bibl>Demetrio Cantemir, <emph>Storia della casa ottomanna</emph> vol.
+            II.</bibl>
+                  </p>
+               </note> i Romani e l'Oriente videro ed adorarono in Grecia le sembianze immortali di Giove
+          trasferite dall'Olimpo in terra da Fidia: Michelangiolo e Rafaele astraendo dalla commista
+          ed inquieta materia le forme più nobili e le più venuste apparenze,
+          ed animandole e perpetuandole nelle tele e ne' marmi, consecrarono in Italia un'ara alla
+          bellezza celebrata dalle offerte di tutta l'Europa; e l'innalzamento delle piramidi e la
+          divina ispirazione di Fidia e il genio delle arti belle ebbero principio da que' rudi
+          massi, da quegl'informi simulacri, da quei disegni ineleganti de' geroglifici, che pur non
+          tendevano se non a far permanenti i suoni della parola. Ma e la religione più
+          solenne nel mondo e la più arcana sapienza e la più bella poesia
+          ebbero principio da questo nedesimo intento. Però che il firmamento istoriato
+          dalle memorie de' mortali, fatti abitatori degli astri, non era più omai
+          spettacolo di muto stupore; ma, quasi sentisse gli affetti dell'uomo, ripercotea nelle
+          menti mille immagini, le quali animate dal timore e dalla speranza popolarono di numi, di
+          ninfe e di geni la terra. Perché le conquiste e le colonie accomunando a'
+          popoli le religioni, veniva ogni nume invocato in più lingue, assumeva
+          differenti attributi, e moltiplicavasi in più deità diverse tra
+          loro. Onde la luna, emula del sole nelle prime adorazioni degli uomini, era Astarte a'
+            Fenici,<note place="foot" n="6" resp="aut">
+                  <p>
+                     <bibl>Antonio Conti, <emph>Sogno nel globo di Venere</emph>.</bibl>
+                  </p>
+               </note> e Dione agli Assiri,<note place="foot" n="7" resp="aut">
+                  <p> Vedi il <bibl>cardinale Noris, <emph>Epoche de' Siromacedoni</emph>, diss. V, c.
+              4.</bibl>
+                  </p>
+               </note> ed Iside e Bubaste agli Egizi;<note place="foot" n="8" resp="aut">
+                  <p> L'Iside egizia è le più volte rappresentata or con la luna
+              falcata sul capo, or con la luna piena sul petto.</p>
+               </note> poi, di regina celeste degl'imperi, ottenne in Grecia e nel Lazio tanti nomi e
+          riti ed altari quant'erano le umane necessità. Le vedove sedenti sul sepolcro
+          de' figli offerivano alla luna corone di papaveri e lagrime, placandola col nome di
+            Ecate;<note place="foot" n="9" resp="aut">
+                  <p>
+                     <bibl>Virgilio, <emph>Georg</emph>. lib. IV. vers. 502.</bibl>
+                  </p>
+               </note> a lei, chiamandola Trivia, ululavano nelle orrende evocazioni le pallide
+            incantatrici;<note place="foot" n="10" resp="aut">
+                  <p>
+                     <bibl>Orazio, <emph>Epodi</emph>, Ode 5, vers. 52, <emph>Od</emph>. 12, vers.
+              3.</bibl>
+                  </p>
+               </note> a lei, chiamandola Latmia, si volgeano le preci del pellegrino notturno e del
+          romito esploratore degli astri;<note place="foot" n="11" resp="aut">
+                  <p>
+                     <bibl>Ateneo, l. <hi rend="sc">xiii</hi>
+                     </bibl> ove narra <emph>che 'l Sonno, ottimo
+                fra gl'iddii, addormentasse Endimione, ma con le palpebre dischiuse</emph>,
+              perch'egli nella tranquillità fissasse gli sguardi perpetuamente ne' moti
+              celesti.</p>
+               </note> a lei gli occhi verecondi e il desiderio della vergine innamorata;<note place="foot" n="12" resp="aut">
+                  <p>
+                     <bibl>Teocrito, <emph>Idilio</emph> 2</bibl>, segnatamente verso la fine.</p>
+               </note> a lei, che rompea col suo raggio le nuvole, fu dato il nome di Artemide;<note place="foot" n="13" resp="aut">
+                  <p> Dalle voci <foreign lang="grc">ἁέρα
+                τέμνω, </foreign>
+                     <foreign lang="lat">
+                        <emph>aere rompere</emph>
+                     </foreign>.</p>
+               </note> e i primi nocchieri appendeano nel suo tempio dopo la burrasca il timone,
+          cantandola Diana dea de' porti e delle isole mediterranee, cantandola Delia guidatrice
+          delle vergini oceanine;<note place="foot" n="14" resp="aut">
+                  <p>
+                     <bibl> Callimaco, <emph>Inno a Diana</emph>.</bibl>
+                  </p>
+               </note> a lei sull'ara di Dittinna votavano i cacciatori l'arco, la preda e la gioia delle
+            danze;<note place="foot" n="15" resp="aut">
+                  <p>
+                     <bibl>Omero, <emph>Inno a Venere</emph>, vers. 19.</bibl>
+                  </p>
+               </note> e l'inno di Pindaro la salutò Fluviale;<note place="foot" n="16" resp="aut">
+                  <p>
+                     <bibl>
+                        <emph> Pitica</emph> II, vers. 12.</bibl>
+                  </p>
+               </note> la seguiano le Parche, ministre dell'umana vita;<note place="foot" n="17" resp="aut">
+                  <p> Vedi gli espositori de' monumenti etruschi.</p>
+               </note> la seguiano le Grazie quando scendeva agli auspicj dei talami;<note place="foot" n="18" resp="aut">
+                  <p>
+                     <bibl> Orazio, <emph>Carm. seculare</emph>, vers. 25.</bibl>
+                  </p>
+               </note> e dalle spose fu invocata Gamelia, e Ilitia dalle madri,<note place="foot" n="19" resp="aut">
+                  <p> Platone parla d'un tempio di Diana ilitia aperto alle incinte: <bibl>
+                        <emph>Delle
+                  leggi</emph>, lib. VI.</bibl>
+                  </p>
+               </note> e Opi,<note place="foot" n="20" resp="aut">
+                  <p>
+                     <bibl> Tesoro Gruteriano XLI, 8. </bibl>
+                     <foreign lang="grc">Ὅπις </foreign> suona
+                <emph>provvidenza</emph>. </p>
+               </note> e Lucifera,<note place="foot" n="21" resp="aut">
+                  <p> In molte medaglie Diana rappresentasi con una face. </p>
+               </note> e Diana madre,<note place="foot" n="22" resp="aut">
+                  <p>
+                     <bibl>Tesoro Gruteriano XLI, 4</bibl>, ove Diana è chiamata <foreign lang="lat">
+                        <emph>mater</emph>
+                     </foreign>. </p>
+               </note> e Natura.<note place="foot" n="23" resp="aut">
+                  <p>
+                     <bibl>Visconti, <emph>Museo Pio-Clementino</emph>.</bibl>
+                  </p>
+               </note> Videro i saggi che la tutela degl' iddii su tutti gli oggetti del creato, e la
+          consuetudine col cielo ammansava nell'uomo la ferina indole e l'insania di guerra, e lo
+          ritraeva all'equità de' civili istituti; onde ampliarono la religione con
+          l'eloquenza, e la mantennero col mistero. Però le arti della divinazione e
+          dell'allegoria furono sì celebrate in tutta l'antichità, e tanti a
+          noi tramandarono testimoni ne' poemi e negli annali e ne' monumenti, che da quelle arti
+          soltanto la critica, dopo d'avere interpretato con induzioni il silenzio delle
+          età primitive, potrà progredire con più fiducia
+          nell'istoria letteraria de' secoli che seguirono. Imperciocché o sia che i
+          Babilonesi fossero dagli Etiopi iniziati negli arcani della astronomia teologica, quando
+          l'alterno dominio d'ogni nazione sul mondo die' all'Africa di popolare l'Asia di sacerdoti
+          e di eserciti; o sia che que' riti fossero istituzioni di Zoroastro desunte dagli Sciti o
+          dalla magia de' Caldei, e propagatesi poi con la possanza di Nino; o più
+          veramente emanassero dal limpido cielo e dall'ingegno acuto degli Egizi mediterranei, e
+          quindi venissero con Inaco in Grecia e con Pitagora nei templi d'Italia; certo
+          è che le storie de' popoli i quali nibilitarono gran parte del nostro emisfero,
+          mentre pur vanno magnificando i propri numi quasi coevi del mondo e primi benefattori del
+          genere umano, tutte non pertanto palesano le loro città fondate da re pontefici
+          e persuase alla umanità dagli studi de' poeti filosofi.<note place="foot" n="24" resp="aut">
+                  <p> Questa verità sui principii di tutte le nazioni fu veduta dal Vico, e noi
+              ci siamo studiati di dimostrarla e di applicare le sue conseguenze alla storia de'
+              nostri tempi. Vedi il nostro discorso su le <title>
+                        <emph>Deificazioni</emph>
+                     </title>, nella <title>
+                        <emph>Chioma di Berenice</emph>.</title>
+                  </p>
+               </note> Da que' popoli e da quegl'istituti, per lungo ordine d'usi, d'idiomi e d'imperi,
+          sovente degenerando e più sovente a torto accusate, le lettere si propagarono
+          sino a noi.</p>
+            <p>
+               <hi rend="sc">viii.</hi> Ed ecco omai manifestato che senza la facoltà della
+          parola le potenze mentali dell'uomo giacerebbero inerti e mortificate, ed egli, privo di
+          mezzi di comunicazione necessari allo stato progressivo di guerra e di società,
+          confonderebbesi con le fiere. Donde è poi risultato che non vi sarebbero
+          società di nazioni senza forza, né forza senza concordia,
+          né stabilità di concordia senza leggi convalidate dalla religione,
+          né lunga utilità di riti e di leggi senza tradizione, né
+          certezza di tradizione senza simboli dai quali il significato della parola impetrasse
+          lunghissima vita. E poiché l'esperienza delle pesti, de' diluvi, de' vulcani e
+          de' terremoti fe' che i simboli consegnati a' tumuli, a' simulacri ed a' geroglifici
+          fossero trasferiti alle apparenze degli asterismi, noi abbiamo veduta riprodursi dal cielo
+          la religione dei grandi popoli dell'antichità, e fondarsi la teologia politica
+          per mezzo della divinazione e dell'allegoria. Le quali arti, esercitate da' principi, da'
+          sacerdoti e da' poeti, diedero origine all'uso e all'ufficio della letteratura.</p>
+            <space type="stacco narrativo"/>
+            <p>
+               <hi rend="sc">ix. Quali</hi> sieno i principj e i fini eterni dell'universo, a noi mortali
+          non è dato di conoscerli né d'indagarli: ma gli effetti loro ci si
+          palesano sempre certi, sempre continui; e se possiamo talor querelarcene, troviamo sovente
+          nella nostra esperienza compensi di consolazione. L'umano genere turba coi timori la
+          voluttà dell'ora che fugge, o la disprezza per le speranze che ingannano; si
+          duole della vita, e teme di perderla, e anela di perpetuarla morendo: ondeggiamento
+          perenne di speranze e di timori, agitato ognor più dall'impeto del desiderio e
+          dagli allettamenti della immaginazione. Così piacque alla natura che
+          assegnò l'inquietudine alla esistenza dell'uomo, il quale aspira sempre al
+          riposo appunto perché non può mai conseguirlo; però,
+          languendo le passioni, ritardasi il moto delle potenze vitali; cessato il moto, cessa la
+          vita; ed ogni nostra tranquillità non è che preludio del supremo e
+          perpetuo silenzio. E ben possono starsi, e stanno (purtroppo!) nei forsennati
+          passioni senza ragione; ma la ragione senza affetti e fantasmi sarebbe facoltà
+          inoperosa; e ogni filosofia riescirà sublime contemplazione a chi pensa, utile
+          applicazione a chi può volgerla in pro de' mortali, ma inintelligibile e
+          ingiusta a chi sente le passioni che si vorranno correggere. Aggiungi che come non a tutti
+          la natura fu equa dispensatrice di forze, così non gli armò con pari
+          vigor di ragione;<note place="foot" n="25" resp="aut">
+                  <p> Renato Cartesio pianta per assioma <quote>
+                        <emph>Che la natura abbia dotati gli uomini di pari facoltà di
+                ragionare</emph>
+                     </quote> (<bibl>
+                        <emph>Dissertatio de methodo</emph> num. I</bibl>): Giangiacomo
+              Rousseau incomincia il contratto sociale con questa sentenza: <quote>
+                        <emph>L'uomo nasce libero</emph>
+                     </quote>: errori ambedue funestissimi sempre alla filosofia delle lettere e del
+              governo.</p>
+               </note> e senza sì fatta disuguaglianza e cecità di giudizio, qual
+          bene reale indurrebbe gli uomini a legarsi in società per combattersi? a
+          insanguinarsi scambievolmente per possedere la terra abbondantissima a tutti? e qual bene
+          più caro della pacifica libertà? Ma per decreti immutabili
+          l'universalità de' mortali non può essere né quieta
+          né libera. Incontentabile ne' desideri, cieca nei modi, dispari nelle
+          facoltà, dubbiosa sempre e le più volte sciagurata negli eventi, non
+          potea se non eleggere il minor danno, rinunziando la guida delle sue passioni alla mente
+          de' saggi o all'imperio del forte. Quindi il genere umano dividesi in molti servi che
+          tanto più perdono l'arbitrio delle loro forze, quanto men sanno rivolgerle a
+          proprio vantaggio, ed in pochi signori che fomentando co' timori e co' premi della
+          giustizia terrena, e con le promesse e le minacce del cielo le passioni degli altri, hanno
+          arte e potere di promuoverle a pubblica utilità.</p>
+            <p>
+               <hi rend="sc">x.</hi> Elementi dunque della società furono, sono e saranno
+          perpetuamente il principato e la religione; e il freno non può essere moderato
+          se non dalla parola che sola svolge ed esercita i pensieri e gli affetti dell'uomo. Ma
+          perché quei che amministrano i frutti delle altrui passioni sono uomini
+          anch'essi, e quindi talvolta non veggono la propria nella pubblica prosperità,
+          la natura dotò ad un tempo alcuni mortali dell'amore del vero, della
+          proprietà di distinguerne i vantaggi e gl'inconvenienti, e più
+          ancora dell'arte di rappresentarlo in modo che non affronti indarno né irriti
+          le passioni dei potenti e dei deboli, né sciolga inumanamente l'incanto di
+          quelle illusioni che velano i mali e la vanità della vita. Ufficio dunque delle
+          arti letterarie dev'essere e di rianimare il sentimento e l'uso delle passioni, e di
+          abbellire le opinioni giovevoli alla civile concordia, e di snudare con generoso coraggio
+          l'abuso e la deformità di tante altre che, adulando l'arbitrio de' pochi o la
+          licenza della moltitudine, roderebbero i nodi sociali e abbandonerebbero gli Stati al
+          terror del carnefice, alla congiura degli arditi, alle gare cruente degli ambiziosi e alla
+          invasione degli stranieri. E appunto nell'origine della letteratura, quando ella emanava
+          dalla divinazione e dall' allegoria, vediamo contemporanee al potere dello scettro e degli
+          oracoli la filosofia che esplora tacita il vero, la ragione politica che intende a
+          valersene sapientemente, e la poesia che lo riscalda cogli affetti modulati dalla parola,
+          che lo idoleggia coi fantasmi coloriti dalla parola, e che lo insinua con la musica della
+          parola. Cantavano Lino ed Orfeo che i monarchi erano immagine in terra di Giove
+          fulminatore, ma che doveano osservare anch'essi le leggi, poiché il padre degli
+          uomini e de' celesti obbediva all'eterna onnipotenza de' Fati. Cantavano la vendetta
+          contro Atteone e Tiresia che mirarono ignude le membra immortali di Diana e di Pallade nei
+          lavacri, per atterrire chi s'attentasse di violare gli arcani del tempio; ma distoglieano
+          ad un tempo dai terrori superstiziosi le genti, rammentando nelle supplicazioni agli iddii
+          che anch'essi pur furono un tempo e padri ed amanti ed amici, e che soccorressero alle
+          umane necessità, da che aveano anch'essi pianto e sudato nel loro viaggio
+          terreno. Tutte le nazioni esaltando il loro Ercole patrio ripeteano con quante fatiche
+          egli avesse protetti dagl' insulti delle umane belve, ancor vagabonde per la grande selva
+          della terra, que' primi mortali che la certezza della prole, delle sepolture e dei campi,
+          e lo spavento delle folgori e delle leggi aveano finalmente rappacificati; e quegl'inni
+          accendeano i condottieri alla gloria e i combattenti al valore. Fumavano le viscere
+          palpitanti delle vergini e dei giovanetti su l'are, perché i popoli nella prima
+          barbarie libano al cielo col sangue innocente e coi teschi; ma i simulati consigli
+          d'Egeria al pio successore di Romolo, e la frode della cerva immolata sotto le sembianze
+          d'Ifigenia placarono ne' templi della Grecia e del Lazio il desiderio di vittime umane.
+          Sovente ancora la metafisica delle scienze si ornò dell'allegoria per
+          idoleggiare le idee che, non arrendendosi ai sensi, rifuggono dall'ntelletto. Credevano i
+          savi antichissimi che l'attrazione della materia avesse a principio combinate e propagasse
+          in perpetuo le forme ed il moto degli enti; e narrarono che nel caos e nella notte
+          nascesse Amore, figlio e ministro di Venere, di quella deità ch'era simbolo
+          della natura. Credevano che l'acqua, il fuoco, l'aere, la terra fossero elementi del
+          creato; e i poeti cantarono Venere nata dall'onde, voluttà di Vulcano,
+          abitatrice dell'etere, animatrice di tutta la terra. Ma poiché le allegorie
+          vennero adulterate dall'orgoglio de' potenti, dalla ignoranza del volgo, dalla
+          venalità dei letterati, le scienze si vergognarono della poesia, e si
+          ravvolsero tra i misteri dei loro numeri; e Venere fu meretrice e plebea, sposa di quanti
+          tiranni vollero essere numi, genitrice di quanti numi abbisognavano a' sacerdoti, ministra
+          di quante immaginazioni conferivano alle laide allusioni degli artefici e dei cantori, ed
+          esempio di quanti vizi effeminavano le repubbliche. E voi trattanto, o retori, ricantate
+          boriosamente le favole, unica suppellettile delle vostre scuole, senza discernere mai le
+          loro severe significazioni; e i nostri Catoni le attestano per esercitare la loro censura
+          contro le lettere; e gli scienziati ne ridono come di sogni e d'ambagi; e i più
+          discreti compiangono quel misero fasto di fantasmi e di suoni. Ma pur nel sommo splendore
+          della greca filosofia Platone vide tra quelle favole i principj del mondo civile.<note place="foot" n="26" resp="aut">
+                  <p> Segnatamente nel <title>
+                        <emph>Cratilo</emph>
+                     </title> e nel <title>
+                        <emph>Convito</emph>
+                     </title>.</p>
+               </note> E mentre il genio de' Tolomei richiamava in Egitto le scienze e le lettere onde
+          restituirle alla Grecia spaventata da' trionfi d'Alessandro, Maneto, pontefice egizio ed
+          astronomo insigne, fondò su quelle favole la teologia naturale.<note place="foot" n="27" resp="aut">
+                  <p>
+                     <bibl>Bailly, <emph>Storia della astronomia</emph>.</bibl>
+                  </p>
+               </note> E Varrone, maestro de' più dotti Romani, diseppelliva da quelle favole
+          gli annali obbliati d'Italia.<note place="foot" n="28" resp="aut">
+                  <p>
+                     <bibl>Cicerone nelle <emph>Filosofiche, passim</emph>, e il Vico nel libro <foreign lang="lat">
+                           <emph>De antiquissima Italorum sapientia</emph>
+                        </foreign>.</bibl>
+                  </p>
+               </note> E Bacone di Verulamio, meditando di rivendicare alla filosofia l'umano sapere
+          manomesso dall'arguzia degli scolastici, chiese norme alla natura, e le trovò
+          in quelle favole pregne della sapienza morale e politica de' primi filosofi.<note place="foot" n="29" resp="aut">
+                  <p>
+                     <bibl>Vedi il suo libro <foreign lang="lat">
+                           <emph>De sapientia veterum</emph>
+                        </foreign>.</bibl>
+                  </p>
+               </note> Per esse il Vico piantò vestigi verso le sorgenti dell'universa
+          giurisprudenza, ed acquistava primo la meta, se la contemplazione del mondo ideale non
+          l'avesse talor soffermato, e se la povertà, compagna spesso de' grand' ingegni,
+          non precideva il suo corso.<note place="foot" n="30" resp="aut">
+                  <p>
+                     <bibl>
+                        <emph>Principj d'una scienza nuova</emph> ecc.</bibl>
+                  </p>
+               </note> Per esse e dai loro simboli fu dal Bianchini desunta un'istoria universale, di cui
+          l'Italia non seppe in cent'anni né profittare né gloriarsene;<note place="foot" n="31" resp="aut">
+                  <p>
+                     <bibl>
+                        <emph> Istoria universale espressa con monumenti e figurata con simboli degli
+                  antichi</emph>, di monsign. Francesco Bianchini veronese.</bibl>
+                  </p>
+               </note> ma che fu seme in terra straniera all'istoria filosofica delle religioni, egregio
+          libro, quantunque alla ragione di quei principj bastasse men pertinacia di sistema, ed
+          eloquenza più riposata e più parca.<note place="foot" n="32" resp="aut">
+                  <p>
+                     <bibl> Dupuis, <foreign lang="fre">
+                           <emph>Origine de tous les cultes</emph>
+                        </foreign>.</bibl>
+                  </p>
+               </note>
+            </p>
+            <p>
+               <hi rend="sc">xi.</hi> Odo rispondere che la teologia legislatrice e la poesia storica si
+          dileguarono con le opinioni e con l'età per cui nacquero, e che le scienze
+          essendosi rivendicato il diritto d'illuminare la mente, alle arti letterarie non resta che
+          l'ufficio di dilettarla. E' vero: il tempo trasforma il creato; ma il tempo non
+          può distruggere né un atomo dell'universo: e voi tutti che derivate
+          le vostre sentenze dalle mutazioni degli anni ed i vostri diritti dalle distinzioni dei
+          nomi, avvertite che l'essenza delle cose non muore se non con esse, e che se talvolta
+          possono sembrare impedite, non perciò sono sviate dalle loro tendenze. Non vive
+          più forse nell'uomo il bisogno di rendere con le parole facile all'intelletto
+          ed amabile al cuore la verità? qual taciturna contemplazione può
+          apprendere ed insegnare questo nostro sapere, che ci fa sempre più superbi e
+          più molli? le nostre passioni hanno forse cessato d'agire, o le nostre potenze
+          vitali hanno cangiata natura? e le scienze morali e politiche, che prime ed uniche forse
+          influiscono nella vita civile perché sole possono prudentemente giovarsi delle
+          scienze speculative e delle arti, a che pro tornerebbero se ci ammaestrassero sempre co'
+          sillogismi e coi calcoli? L'uomo non sa di vivere, non pensa, non ragiona, non calcola se
+          non perché sente; non sente continuamente se non perché immagina; e
+          non può né sentire, né immaginare senza passioni,
+          illusioni ed errori. La filosofia non cambia che l'oggetto delle passioni; e il piacere e
+          il dolore sono i minimi termini d'ogni ragionamento. Quindi la verità,
+          quantunque d'un aspetto solo ed eterno, appare multiforme e indistinta al nostro
+          intelletto, perché noi dovendo incominciare a concepirla coi sensi e a
+          giudicarla con l'interesse della sola nostra ragione, la vestiamo di tante e sì
+          diverse sembianze, e le sembianze di tanti accidenti quante sono le disparità
+          de' climi, de' governi, dell'educazioni, e de' nostri individuali caratteri; onde anche le
+          cose men dubbie sono assai volte mirate dai saggi con mente perplessa, e dagli altri tutti
+          con occhio incredulo ed abbagliato. E nondimeno il mortale non s'affanna d'errore in
+          errore se non perché travede in essi la verità ch'ei cerca
+          ansiosamente, conoscendo che le tenebre ingannano e che la luce sola lo guida; ma la
+          natura, mentre gli concesse tanto lume d'esperienza bastante alla propria conservazione,
+          fomentò la curiosità e limitò l'acume della sua mente,
+          ond'ei tra le crudelità ed i sospetti eserciti il moto della esistenza,
+          sospirando pur sempre di vedere tutto lo splendore del vero: misero s'ei lo
+          vedesse! non troverebbe più forse ragioni di vivere. Or per me stimo
+          non potersi mai volgere l'intelletto degli uomini verso le cose meno incerte e per
+          continuo esperimento giovevoli alla loro vita, prima di correggere le passioni dannose del
+          loro cuore, e di distruggere le false opinioni; il che non può farsi se non
+          eccitando col sentimento del piacere e del dolore nuove passioni, e con la speranza
+          dell'utilità fecondando di migliori opinioni la lor fantasia. Se dunque
+          l'eloquenza è facoltà di persuadere, come mai potrà
+          dipartirsi dalle umane passioni, e come la ragione e la verità staranno
+          disgiunte dall'eloquenza? Però questa distinzione d'illuminare e di dilettare
+          fu a principio pretesto di scienziati che non sapeano rendere amabile la parola, e di
+          letterati che non sapeano pensare. La filosofia morale e politica ha rinunziata la sua
+          preponderanza su la prosperità degli Stati da che, abbandonando l'eloquenza, si
+          smarrì nella metafisica; e l'eloquenza ha perduta la sua virtù e la
+          sua dignità da che fu abbandonata dalla filosofia e manomessa dai retori.
+          Sciagurati! si professarono architetti di un'arte senza posseder la materia;
+          fantasticarono limiti alle forze intellettuali dell'uomo; s'eressero dittatori de' grand'
+          ingegni; ambirono di magnificare le minime cose, e di trasformare il falso nel vero e il
+          vero nel falso; l'ozio, la vanità, l'avidità accrebbero la
+          moltitudine degli scrittori; invano la natura esclamava: <emph>Io non ti elessi al
+            ministero di ammaestrare i tuoi concittadini</emph>; l'arte lusingava, insegnando a non
+          errare, perché giudicava gli scritti derivati dalle passioni degli altri; ma
+          l'arte non parlò più alle passioni, perché non le
+          sentiva; la fantasia, destituta dalle fiamme del cuore, si ritirò fredda nella
+          memoria; destituta dal criterio, inventò mostri e chimere; e la
+          facoltà della parola si ridusse a musica senza pensiero.</p>
+            <p>
+               <hi rend="sc">xii.</hi> Poiché i suoni e i significati degl' idiomi si
+          trasfusero nelle combinazioni degli alfabeti, questo ritrovato perfezionò la
+          facoltà di pensare e i mezzi di abbellire e di perpetuare il pensiero. Le norme
+          dello stile germogliarono spontanee da quelle della favella, perchè hanno
+          radice negli organi intellettuali dell' uomo, mentre le regole accidentali secondavano la
+          tempra d'ogni lingua e l'ingegno degli scrittori, finché l'uso e il sonsenso
+          valsero a convalidarle. Intanto il tempo e le vicende, svelando molti arcani della
+          legislazione teologica, dileguarono le prime illusioni; però la poesia
+          seguì a confortare con l'entusiasmo, con la pittura e con l'armonia le utili
+          passioni degli uomini, ma concesse agli storici d'illuminarle con l'osservazione degli
+          avvenimenti, ed agli oratori di persuaderle col calore della poesia, con l'esperienza
+          della storia e con l'evidenza della ragione. Ne' poeti dunque, negli storici e negli
+          oratori contiensi la letteratura delle nazioni, la quale tanto è più
+          pregna di bella eloquenza, quant'è più derivata dai sentimenti del
+          cuore, dalle ricchezze della fantasia, dal nerbo del raziocinio e dalla convinzione del
+          vero. Quindi la greca letteratura fu sorgente ed esempio agli studi di tutta l'Europa,
+          perché niun popolo trapassò veloce al pari degli Ateniesi dalla
+          fierezza della barbarie alla raffinatissima civiltà; e niuno poté
+          riunire, quant'essi, le passioni e il criterio, che pur sogliono preponderare ad
+          età differenti negl' individui, ne' popoli e nelle lingue. Solone
+          meditò di scrivere in versi e fra le cerimonie de' sacerdoti e gli oracoli le
+          leggi d'una città ove già i metafisici contendeano l'Eliso a'
+          mortali e l'onnipotenza agl' iddii; ove le virtù della libertà
+          regnavano ad ora ad ora con l'insania della licenza, e la tirannide anch'essa era
+          costretta ad essere moderata e magnanima. Un popolo che sapeva e ragionare ed illudersi, e
+          coronare la virtù ed esiliarla, che trucidava i tiranni, debellava le armi di
+          tutta l'Asia, dava norme di giustizia a' Romani, e non sapea godere né la
+          giustizia né la libertà né la pace, un sì
+          fatto popolo doveva esercitare la sagacità de' prudenti, il valore de' forti,
+          la virtù de' savi e il vigor degl' ingegni; dovea congiungere ne' loro pensieri
+          l'entusiasmo ed il calcolo, e nella loro lingua il colorito, la musica e tutto il disegno
+          ad un tempo e la filosofica precisione.<note place="foot" n="33" resp="aut">
+                  <p> E questa a me pare in gran parte la causa della originalità e della
+              fecondità dell'italiana letteratura in Firenze, ove, a' tempi di Dante, lo
+              stato popolare e la libertà eccitavano le passioni de' cittadini e
+              l'ingegno degli scrittori; mentre le altre città d'Italia ridotte a feudi
+              imperiali dalle vittorie di Federigo I e di Federigo II contro la Chiesa, continuavano
+              nella barbarie, e le Muse si stavano nelle corti tra' giocolari, o nelle celle tra'
+              monaci. </p>
+               </note> Ma la Grecia non potendo tramandarci tutte le cause della sua felicità
+          nelle lettere, ne die' invece tutte quelle arti che le corrompono.</p>
+            <p>
+               <hi rend="sc">xiii.</hi> Finché la filosofia s'attenne all'utile
+          verità della pratica morale e politica, e che l'eloquenza s'attenne alla
+          filosofia, la città fu retta da quegli ambiziosi che la natura destina alla
+          prosperità delle repubbliche, da che gli ha dotati d'animo generoso e di
+          egregia prepotenza d'ingegno. E come i principi degli Ateniesi non doveano mostrarsi
+          ardenti, prodi, avveduti, se dalla loro virtù pendeva la loro patria, e dalla
+          patra la loro gloria e la loro possanza? come la loro voce si sarebbe mai dipartita dalla
+          passione e dal vero, se l'eloquenza sola svolgeva le anime fervide e liberissime de' loro
+          concittadini? Ma poiché il furore d'imperio, di ricchezze e di fama
+          è più vile e più cieco quanto più vive negli
+          uomini meno degni, e l'eloquenza signoreggiava in Atene i teatri, i licei, i parlamenti e
+          gli eserciti; tutti i faziosi che la natura non avea creati facondi, s'argomentarono di
+          aiutarsi dell'arte. Se non che il pensiero e il modo di rappresentarlo risultando dalla
+          tempra e dall'accordo del cuore, dell'immaginazione e del raziocinio, l'eloquenza non
+          è frutto di verun' arte; ché se la natura non forma vigorose,
+          arrendevoli e bilanciate in un uomo queste potenze, qual occhio mai saprà
+          indagarne i difetti, qual mano applicarvi i rimedi? E non pertanto, mentre la civile
+          filosofia fu adulterata dall'arte dialettica, l'eloquenza cominciò ad essere
+          manomessa dalla rettorica. Già la metafisica, allettando gl' ingegni
+          più nobili alle sublimi contemplazioni, facea sì ch' ei sdegnassero
+          di dar utili esempi alla loro patria per aspirare ad ammaestrarla su le leggi del globo,
+          del sole, dei cieli, dell'etere, del caos, dell'eternità, dell' universo;
+          grandi nomi, incomprensibili idee, e quindi involute in voci mirabili al volgo. Con questo
+          esempio si coacervarono in un vocabolo solo molte idee morali che già nell'uso
+          erano determinate e sicure, ma che riunite in una diveniano indistinte e parvero astratte;
+          indi, sotto colore di dilucidarle, furono tanto divise, che le loro fila facendosi
+          impercettibili, anche le loro parti sembrarono opposte tra loro, e bisognarono nuovi
+          termini, astrusi anch'essi, perché applicati a nozioni ignote all'uso ed
+          all'esperienza: così gli ingegni, sviandosi nel labirinto delle speculazioni,
+          armandosi di termini universali in cui si presumea d'indicare l'essenza, le
+          qualità, le quantità, gli accidenti, i caratteri, le differenze e le
+          coerenze di tutte le cose, e schermendosi o con distinzioni, inesatte sempre
+          perché le parole erano indefinite ed ambigue, o con definizioni che
+          promettevano di accertare la natura degli enti, ma che sviavano dalla certezza del loro
+          uso, s'imparò ad insidiare la ragione e a far sospetta la verità:
+          quindi la moltitudine de' sofisti, l'indifferenza del vero ch'essi non sapeano difendere,
+          l'irriverenza al giusto ed al bello che poteano negare, l'amore del paradosso da cui solo
+          attendeano trionfi, l'infinito numero delle quistioni, la libidine eterna di controversie,
+          l'arte dialettica insomma. Su queste trame fu tessuta l'arte rettorica da quei letterati
+          venali che, promettendo di far eloquenti gl' ingegni vani e le lingue più
+          invereconde, ebbero le cattedre affollate di demagoghi e di pubblicani che già
+          con le speranze invadeano gli onori, le leggi e l'erario della repubblica. Primo Gorgia,
+          che non poteva amare una città ov'egli era mercenario e straniero,
+          insegnò in Atene a blandire i vizi e l'ignoranza del popolo, ammaliandogli
+          l'intelletto con la pompa delle figure, chiudendogli il cuore alla voce degli affetti e
+          del vero, lusingandogli i sensi con l'azione teatrale e con la cadenza di periodi aculeati
+          e sonanti.<note place="foot" n="34" resp="aut">
+                  <p>
+                     <bibl>Platone, <foreign lang="lat">Hipp. mai.</foreign> Cicerone, <foreign lang="lat">Orator.</foreign> c. 49. Dionisio Alicarnas. Epistola ad Amm. cap. 2.</bibl>
+                  </p>
+               </note> Salì sul teatro e si proferì parato a qualunque argomento; e
+          mostrò che si può declamare con lode senza meditazione.<note place="foot" n="35" resp="aut">
+                  <p>
+                     <bibl>Platone, in Gorgia. Cicerone, <foreign lang="lat">De finibus</foreign>, lib. 2,
+                cap. I</bibl>, ed altri.</p>
+               </note> Foggiò canoni d'eloquenza e di stile, e fu padre della turba clamorosa,
+          implacabile de' grammatici, intenti sempre ad angariare gli scrittori obbedienti e a
+          scomunicare i magnanimi. Insegnò antitesi a chi non avea nervi e spiriti nel
+            pensiero,<note place="foot" n="36" resp="aut">
+                  <p> Ecco un passo di Gorgia recato da Plutarco, e da noi tradotto letteralmente. <quote>
+                        <emph>La tragedia è un inganno nel quale colui che inganna, diviene
+                  più giusto del non ingannante, e l'ingannato più saggio del
+                  non ingannato</emph>
+                     </quote>. Vedi l'opuscolo <bibl>
+                        <foreign lang="lat">
+                           <emph>De audiendis poetis</emph>
+                        </foreign>
+                     </bibl>.</p>
+               </note> luoghi comuni a chi non sapea le materie,<note place="foot" n="37" resp="aut">
+                  <p> Corace siracusano mandò primo in Grecia un libro rettorico tessuto su le
+              fallacie dialettiche: vedi i <bibl>
+                        <emph>Prolegomeni ad Ermogene</emph>
+                     </bibl> presso i rettorici antichi; ed <bibl>Aristotile, <emph>Ret.</emph> lib. 2,
+                cap. 24.</bibl> Quindi Protagora, discepolo di Democrito, scrisse il libro <bibl>
+                        <emph>Dei luoghi comuni</emph>
+                     </bibl>: <bibl>Arist. <emph>ib</emph>. lib. I, cap. 2, e Cicerone,
+              <emph>Topic</emph>.</bibl>
+                  </p>
+               </note> descrizioni ed amplificazioni a chiunque mancava di fantasia pronta e pittrice,
+          lenocinio di declamazione a chi non avea dignità di aspetto e di voce, lascivia
+          d'idioma a chi cercava le grazie, superstizioni per le regole inanimate a chi non ha senno
+          da considerarle calde e parlanti nei sommi scrittori, l'arte, insomma, che nel petto de'
+          letterati fa sottentrare all'emulazione l'invidia, all'ardore di fama la vanità
+          degli applausi, all'esempio l'imitazione, al sapere l'erudizione, l'arte, o giovani, che
+          moltiplica i precettori, che nella prima educazione snerva le fibre de' più
+          forti intelletti, che per tanti secoli fe' ricca d' inezie l'italiana letteratura. Almeno
+          la letteratura fosse divenuta disutile, senza divenire scellerata ed infame! Ma
+          quel Gorgia stesso, ravviluppando nelle fallacie dell' arte dialettica anche le
+          verità concedute al senso e alla mente degl' idioti, celebrò in
+          Atene un mestiero che valeva a coronare il delitto,<note place="foot" n="38" resp="aut">
+                  <p>
+                     <bibl>Gorgia, presso Cic. <foreign lang="lat">
+                           <emph>De claris oratoribus</emph>
+                        </foreign>, c. 12.</bibl>
+                  </p>
+               </note> a insanguinar l'innocenza, ad esaltare le usurpazioni degli opulenti, a
+          santificare le libidini della democrazia e le carnificine della tirannide, a tradire la
+          patria, a vendere l'anima, a contaminare di fiele e di sangue la vecchiaia di Socrate.</p>
+            <p>
+               <hi rend="sc">xiv.</hi> E Socrate, che non ambiva né gloria di scienziato,
+          né emolumenti di retore, né dignità di capitano e di
+          pritano, ma che vedeva quanto le virtù cittadine scadeano con la vera eloquenza
+          e con esse l'onore e la libertà della patria, ripetea que' consigli che tanti
+          scrittori hanno serbati a noi posteri. Ed io li leggeva per emenda della mia vita; ma
+          oggi, poiché nelle poetiche e ne' trattati non so discernere aiuti all'istituto
+          di professore, ordinerò que' consigli di Socrate per unica norma alle lezioni
+          ch'io potrò scrivere; e piaccia a voi pure di udirli. Uditeli:
+          benché forse il mio stile, non certamente l'arbitrio de' miei pensieri,
+          potrà violare il discorso di quel giustissimo tra i mortali: O Ateniesi,
+          adorate Dio, e non aspirate a conoscerlo: amate il paese ove la natura vi ha fatto
+          nascere, e seconderete le leggi dell'universo: non disputate sull'anima, ma dirigete le
+          vostre passioni verso le cose che giovarono a' nostri padri. O miei concittadini, non a
+          tutti è dato di essere oratore o poeta: coltivate i vostri poderi, permutate i
+          frutti e le merci, poiché tutti abbiamo necessità della terra e a
+          pochi manca l'industria: tutti i padri possono educare i loro figliuoli a venerare
+          gl'iddii, ad obbedire alle leggi, ad amare la patria, e tutti i giovani possono difenderla
+          co' loro petti; ma in ogni studio ascoltate il proprio Genio, e sarete onorati e
+          benemeriti cittadini. Sì, Ateniesi, un Genio parla nel petto a ciascheduno di
+          noi; però l'oracolo, consultato da' miei genitori, rispose: Che facessero voti
+          a Giove padre e alle Muse, e che mi abbandonassero in tutto al mio Genio;<note place="foot" n="39" resp="aut">
+                  <p>
+                     <bibl>Plutarco, <foreign lang="lat">
+                           <emph>De Genio Socratis</emph>
+                        </foreign>
+                     </bibl>. Tutti i pensieri e gli argomenti di questo discorso furono da noi
+              religiosamente ricavati da molti scrittori antichi, e segnatamente dai <bibl>
+                        <emph>Memorabili</emph>
+                     </bibl> e dal <bibl>
+                        <emph>Convito</emph> di Senofonte</bibl>, e dalla
+                  <bibl>
+                        <emph>Apologia</emph> di Platone</bibl>. </p>
+               </note> il quale, interrogato da me, esortavami di studiare ciò che poteva
+          essere utile a me stesso ed agli altri. Onde imparai musica da Damone, e volli vedere cosa
+          fosse poetica, rettorica e geometria, e considerai le arti e gli artefici, ed ascoltai
+          filososofia universale dal vecchio Anassagora, e fui prediletto discepolo di Archelao, e
+          volli anche da Diotima, donna d'elegantissimo ingegno, apprendere dottrine d'amore.<note place="foot" n="40" resp="aut">
+                  <p> Di tutti questi studii di Socrate vedi il <bibl>Bruckero, <foreign lang="lat">
+                           <emph>Historia philosophiae</emph>
+                        </foreign>, tom. I, part. 2, lib. 2, cap. 2, <foreign lang="lat">
+                           <emph>De schola socratica</emph>
+                        </foreign>
+                     </bibl>. </p>
+               </note> Or benché fossi da' precettori stimato di felice intelletto, niuna
+          verità m'avvenia d'imparare sì certamente ch'io potessi ridirla
+          senza timor di mentire e di nuocere. Anzi il Genio mi comandava ognor più di
+          rinunziare all'onore ed al lucro di quegli studi, ed anche all'arte della scultura
+          insegnatami dal padre mio, e che unica omai potea camparmi da povertà, per
+          vivere invece tra gli uomini, e considerare e dire le cose che li fanno disgraziati o
+          felici. Da indi in qua mi vedete nelle vie più frequenti, e tra le gioie e le
+          querele degli uomini, e nelle tende e nelle officine, sì che chiunque a cui
+          piaccia mi risponda e m'ascolti; e dopo avere udita e considerata ogni cosa, paleso,
+          com'io so, quelle sole verità che vedo chiarissime nella mente e che sento nel
+          petto profondo, e che taciute mi fariano colpevole e disonesto dinanzi al mio Genio. Ma la
+          verità che mi è da tanti anni manifestata dalla condizione della
+          patria, e che mi fa ognor più colpevole ed importuno in Atene, è
+          questa ch'io voglio ripetervi, perché mi si è fitta più
+          tenacemente nell'animo. O Ateniesi, massima impostura e pubblica calamità si
+          è l'accostarsi ad un'arte senza ingegno, studio e coraggio convenienti ad
+          esercitarla. Ché né io, tuttoché figliuolo e discepolo di
+          scultore, avrei potuto emulare le statue di Fidia; né Fidia cessò di
+          fare il simulacro di Pallade, quantunque ei prevedesse che per quel lavoro sarebbe morto
+          in prigione.<note place="foot" n="41" resp="aut">
+                  <p>
+                     <bibl>Diodoro Siculo, lib. 12. Plutarco <emph>in Pericle</emph>
+                     </bibl>. </p>
+               </note> Se dunque l'amore di un'arte vi conforta contro la povertà e
+          l'ingiustizia, voi sarete miseri forse nell'opinione degli altri, ma compianti dagli
+          uomini buoni, e gloriosi in futuro, e, quel che è più, soddisfatti
+          nel vostro cuore. Ma se studiate eloquenza e poesia non per altro che per vivere
+          mollemente, voi non seconderete lo scopo di queste arti, le profanerete con mercimonio
+          servile, e lascerete quelle che potriano farvi più avventurati e più
+          onesti. Però il divino Omero cantò che la Musa gli avea rapito il
+          caro lume degli occhi, ma che l'avea pur compensato di tanta disavventura, concedendogli
+          l'amabile canto.<note place="foot" n="42" resp="aut">
+                  <p>
+                     <bibl>Omero, <emph>Odissea</emph>, cant. VIII, vers. 61, 64</bibl>.</p>
+               </note> E in vero la poesia è una divina concitazione del Genio e certa
+          sapienza ispirata; e non è molto che udimmo l'oracolo di Delfo, interrogato da
+          Cherefonte, rispondere<emph>ch'Euripide e Sofocle erano sapienti tra gli
+            uomini</emph>.<note place="foot" n="43" resp="aut">
+                  <p> Vedi i due celebri versi di quest'oracolo e l'interpretazione di Svida, all'articolo
+              <foreign lang="grc">σοφός.</foreign>
+                  </p>
+               </note> Or chi non reputa eminentissima la facoltà di persuadere?
+          ché senz' essa né poeti né storici acquisterebbero grazia
+          e credenza; e vedo che quante discipline s'insegnano, tutte s'insegnano col discorso; e so
+          che per essa Temistocle ed altri forti salvarono la repubblica, e la fecero gloriosa e
+          possente, tuttoché arringassero nell'assemblea ravvolti, all'uso di Pericle,
+          nella clamide e senza gesti né melodia.<note place="foot" n="44" resp="aut">
+                  <p>
+                     <bibl>Eschine in <emph>Timarco</emph>
+                     </bibl>. Ed è memorabile il passo di
+              Plutarco nella vita di Nicia: <quote>
+                        <emph>Cleone levò la decenza e il decoro che si convengono al tribunale e
+                  alla bigoncia, e avendo egli il primo cominciato a gridar forte nel concionare, ad
+                  aprirsi la veste, a battersi sulla coscia e a scorrere qua e là
+                  nell'atto stesso che pur favellava, insinuò quindi in coloro che il
+                  maneggio avevano della repubblica, quella libertà licenziosa e quella
+                  trascuranza dell'onesto e del convenevole, dalle quali poco dopo messi furono in
+                  iscompiglio tutti gli affari.</emph>
+                     </quote>
+                  </p>
+               </note> Però chi tiene quest'arte e può compartirla per oro, come
+          s'usa da Gorgia Leontino e da Polo, è da stimarsi cittadino benefico e
+          beatissimo tra' mortali. Ch'ei senza dubbio deve insegnare che questi facitori di
+          ditirambi agguaglino Alceo, senza avere liberata la patria; e mentre pur vegliano
+          all'altrui cena motteggiando piacevolmente, scrivano i cori d'Euripide nostro che avea
+          sembiante verecondo e severo, e che nell'ilarità de' conviti ospitali cantava
+          agli amici:<emph>Abborriamo coloro che celebrando motteggi fanno gli uomini più
+            maligni</emph>:<note place="foot" n="45" resp="aut">
+                  <p>
+                     <bibl>Eliano, <emph>Varia istor.</emph> lib. 8, c. 13. Eurip. <emph>in Melan</emph>.
+                presso Ateneo l. 19</bibl>. </p>
+               </note> anzi deve insegnare a' nuovi poeti, i quali si vanno insidiando con invidia
+          mortale, ad emulare le tragedie di Sofocle; e pure Sofocle, benché contendesse
+          ad Euripide la corona, non però cessò d'onorarlo; e quando Euripide
+          morì, egli comparve in veste lugubre, e pianse con tutta la città
+          che quel nobile capo giacesse in tomba straniera, né patì che gli
+          attori a que' giorni rappresentassero coronati l'Edipo.<note place="foot" n="46" resp="aut">
+                  <p>
+                     <bibl>Thom. Mag. <foreign lang="lat">
+                           <emph>In vita Euripid</emph>
+                        </foreign>. Svida in <foreign lang="grc">Σοφοκλ.</foreign>
+                     </bibl>
+                  </p>
+               </note> Inoltre Gorgia deve negli oratori politici infondere giustizia per discernere
+          l'utilità delle leggi, e temperanza per amministrare l'erario, e prudenza per
+          non irritare le tribù negli scandali, e gravità per sedarli, e
+          fortezza per dissipar le fazioni, e desterità co' nemici e cogli alleati, e
+          lealtà in parlamento, e valore nel campo, perché le sentenze non
+          siano smentite dai fatti. Come si possa insegnar tutto questo non saprei dire; e mi pare
+          potenza maggiore dell'umana. Vedo bensì giudici ed oratoroi sorgere giovani da
+          quelle scuole; e voi vedete a che termini siano gli ordini e i costumi della repubblica.
+          Ché se quell'arte non tende che ad accattare regali dagli ambiziosi e voti dal
+          popolo, non dubito ch'ella sia facilissima, da che basta piaggiare i più
+          prodighi, e decretando i tre oboli a' poveri sì che v'intervengano, far ozioso
+          teatro dell'assemblea per proverbiare i più saggi. Or tutti voi ricordate che i
+          trenta tiranni pubblicarono legge perch'io solo non fossi oratore; e quella legge mi
+          significò che nell'amor della patria spira certo fuoco divino, e nella
+          verità una bealtà incorruttibile a cui non giunge il discorso
+          impetuoso e ripulito de' retori; e ch'io dovea tenermi veracemente oratore,
+          poiché a me solo e non ai maestri vien dato di non far peggiore con l'eloquenza
+          veruno di voi, anzi giovai per alcuni ad innamorarvi dell'onestà. Ma come
+          stiasi la cosa, certo è che il Genio mi consentì questa
+          proprietà di oratore; perché né quando mi opposi solo
+          alle crudeltà dell'oligarchia, né quando in democrazia per non
+          violare il pubblico giuramento negai d'approvare nel senato una sentenza che mi pareva non
+          giusta, né adesso né mai avrei detto parola se la voce del Genio
+          m'avesse, come suole talvolta, disanimato. Or, poiché quei trenta si sono
+          cangiati, ma non i modi della città, io mi vedo assai vicino alla morte. E
+          veramente Omero attribuì ad alcuni nella fine della loro vita certa prescienza
+          dell'avvenire; e piace anche a me di emettere un vaticinio: <emph>Io morrò
+            ingiustamente</emph>. Se il vivere o il morire sia miglior cosa, è a tutti
+          incerto fuoroi che a Dio; questo so che di me faranno testimonianza il tempo passato e il
+          futuro. E morì; e un retore ordì la calunnia, e un ricco fazioso
+          pagò lo spergiuro de' testimoni e de' giudici, e un poeta d'inette tragedie
+          perorò contro Socrate, e trecento Ateniesi lo condannarono, e la sapienza
+          fuggì dal governo, e l'eloquenza ammutì, e Atene fu serva de'
+          retori, che fecero esiliare tutti i filosofi;<note place="foot" n="47" resp="aut">
+                  <p> Vedi <bibl>Bruckero <emph>Storia filosof</emph>. alla vita di Teofrasto</bibl>; e
+                l'<bibl>Enciclopedia, articolo <foreign lang="fre">
+                           <emph>Aristotélisme</emph>
+                        </foreign>
+                     </bibl>.</p>
+               </note> e Italia pure li vide espulsi quando Domiziano insigniva un retore del
+            consolato,<note place="foot" n="48" resp="aut">
+                  <p>
+                     <bibl>Tacito, <emph>Vita d'Agricola</emph> sul principio; Svetonio <emph>in
+                Domiziano</emph>: ed Enrico Dodwello <foreign lang="lat">
+                           <emph>Annales Quintilianei</emph>
+                        </foreign>.</bibl>
+                  </p>
+               </note> il retore Quintiliano, che nelle <title>
+                  <emph>Istituzioni</emph>
+               </title> ov'ei prèdica la lealtà indispensabile agli oratori,
+          parlando di Domiziano, di quell'ingrato insidiatore di Tito, di quell'invido tiranno
+          d'ogni virtù, di quel carnefice industrioso, lo chiama<emph>censore santissimo
+            de' costumi, e in tutto e nelle lettere eminentissimo</emph>.<note place="foot" n="49" resp="aut">
+                  <p>
+                     <bibl>
+                        <foreign lang="lat">
+                           <emph>Institut. Orat</emph>
+                        </foreign>. lib. 4, nel proemio.</bibl>
+                  </p>
+               </note>
+            </p>
+            <p>
+               <hi rend="sc">xv.</hi> Così l'arte andò deturpando sino a'
+          dì nostri le lettere: non però valse ad annientare il decreto della
+          natura che le destinò ministre delle immagini, degli affetti e della ragione
+          dell'uomo. E mentre Isocrate pronunziava dopo dieci anni di squisitissima industria un
+          panegirico della repubblica, ove intendendo di esaltarla con l'eloquenza vituperavala col
+            raziocinio;<note place="foot" n="50" resp="aut">
+                  <p> In quell'orazione Isocrate piantò per assioma che l'eloquenza debba
+              magnificare le minime cose, ed impicciolire le grandi; e procede esaltando i
+              benemeriti degli Ateniesi. Vedi <bibl>Longino, <emph>Del sublime</emph>, cap.
+              38</bibl>, che da quell'assioma desume il vituperio d'Atene.</p>
+               </note> e mentre verseggiatori e sofisti trafficavano l'ingegno e le muse, Tucidide,
+          Demostene e Senofonte apparechhiavano esempi immortali d'elevata, di maschia e di
+          affettuosa eloquenza. La storia di Plinio e i versi di Giovenale e di Persio insegnarono
+          a' declamatori e a' poeti di Roma come le lettere giovino alle scienze, e consacrino gli
+          adulatori ed i vizi all'infamia. Anzi Tacito impose sì fattamente rispetto a
+          quei retori, che, non attentandosi di nominarlo, lasciarono scritto ne' loro libri:
+            <emph>Che l'alto spirito e la verità perigliosa degli annali d'un loro
+            contemporaneo, benché meritevoli della memoria de' secoli, non
+            conseguirebbero imitatori</emph>.<note place="foot" n="51" resp="aut">
+                  <p>
+                     <bibl>Quintiliano, <emph>Istituz</emph>. lib. X, cap. I.</bibl>
+                  </p>
+               </note> Dai mezzi con che gli egregi letterati di tutte le età ottennero fama
+          ed amore nel mondo, ppare omai l'ufficio della letteratura; appare che la natura, creando
+          alcuni ingegni alle lettere, li confida all'esperienza delle passioni, all' inestinguibile
+          desiderio del vero, allo studio dei sommi esemplari, all'amor della gloria, alla
+          indipendenza dalla fortuna ed alla santa carità della patria. Qualunque manchi
+          di queste proprietà negli uomini letterati, niun'arte mai, niun istituto
+          d'università o d'accademia, niuna munificenza di principe farà che
+          le lettere non declinino, e che anzi non cadano nell'abbiezione ove tutte o in gran parte
+          mancassero queste doti. O Italiani! qual popolo più di noi
+          può lodarsi de' benefizi della natura? ma chi più di noi
+          (né dissimulerò ciò che sembrami vero, quando l'occasione
+          mi comanda di palesarlo), chi più di noi trascura o profonde que' benefizi? A
+          che vi querelate se i germi dell'italiano sapere sono coltivati dagli stranieri che ve gli
+            usurpano?<note place="foot" n="52" resp="aut">
+                  <p> Leggi l'orazione inaugurale <bibl>
+                        <emph>Intorno al debito di onorare i primi
+                  scopritori del vero</emph>, di Vincenzo Monti</bibl>, che in questa cattedra
+              nell'università di Pavia fu mio predecessore. </p>
+               </note> meritamente ne colgono il frutto: la letteratura che illumina il vero fa sovente
+          obbliare gli scopritori e lodare con gratitudine chiunque sa renderlo amabile a chi lo
+          cerca. Pochi, è vero, in Italia levarono altissimo grido, non perché
+          soli filosofassero egregiamente, ma perché egregiamente scrivevano le loro
+          meditazioni, e perché, amando la loro patria, si emanciparono dall'ambizioso
+          costume di dettare le scienze in latino, ed onorarono il materno idioma: quindi le opere
+          del Machiavelli e di Galileo risplendono ancora tra i pochi esemplari di faconda
+          filosofia; e lo stile assoluto e sicuro del libro De' delitti e delle pene, e l'elegante
+          trattato del Galiani Su le monete vivranno nobile ed eterno retaggio tra noi; e mille
+          Italiani sanno difenderlo dalla usurpazione e dalla calunnia. Ma poiché oggi
+          gli scienziati non degnano di promuovere i loro studi con eloquenza, poiché non
+          si valgono delle attrattive della loro lingua per farli proprietà cara e comune
+          agl' ingegni concittadini, non sono essi soli colpevoli se pochi si curano, se pochissimi
+          possono vendicare la loro fama, e se tutti corrono a dissetarsi ne' fonti, i quali, se non
+          sono più salutari, sembrano almeno più limpidi? Quanti dotti non
+          serbano ancora in Italia con sudori e con zelo la riverenza e l'amore alla lingua e alle
+          opere greche? e chi di loro non ci esalta Tucidide che fu esempio al sommo degli oratori e
+          alla velocità di Sallustio e alla fede di Tacito? chi non ci esalta Senofonte,
+          pregno di socratica virtù e di passione e di storia e di militare scienza e di
+          soavissimo stile? e Polibio, insigne maestro di governo e di guerra? ma chi mai dotto di
+          greco diffonde le loro ricchezze? chi li traduce con amore uguale alla loro fama?
+          Giacciono que' solenni scrittori nell'obblio de' volgarizzatori imprudenti e venali dei
+          secoli scorsi, e ad ogni italiano educato è pur forza di studiarli in lingua
+          straniera e comperare a gran prezzo i barbarismi che vanno ognor più deturpando
+          la nostra. Io vedo cinquanta versioni delle lascivie di Anacreonte, e non una de' libri
+          filosofici di Plutarco, non una degna di palesar que' tesori di tutta la filosofia degli
+          antichi. Volgetevi alle vostre biblioteche. Eccovi annali e commentari e biografi ed elogi
+          accademici, e il Crescimbeni ed il Tiraboschi ed il Quadrio; ma dov'è un libro
+          che discerna le vere cause della decadenza dell'utile letteratura, che riponga l'onore
+          italiano più nel merito che nel numero degli scrittori, che vi nutra di maschia
+          e spregiudicata filosofia, e che col potere dell'eloquenza vi accenda all'emulazione degli
+          uomini grandi? Ah le virtù, le sventure e gli errori degli uomini grandi non
+          possono scriversi nelle arcadie e nei chiostri! Eccovi da altra parte e cronache
+          e genealogie e memorie municipali, e le congerie del benemerito Muratori, ed edizioni
+          obbliate di storici di ciascheduna città d'Italia; ma dov'è una
+          storia d' Italia? E come oserete lodare senza rossore gli esempi di Livio e di
+          Niccolò Machiavelli, se voi potete e non volete seguirli? Come ricambierete le
+          vigilie de' nostri padri, se non profittate de' documenti che vi apprestarono? E' vero;
+          niuno rammemora senza lagrime le liberalità della famiglia de' Medici verso le
+          arti belle e le lettere; ma si aspettò che un Inglese, disotterrando i tesori
+          de' nostri archivi, rimeritasse i principi italiani d'un esempio che illuminò
+          la barbarie dell'Europa: si aspettò che la storia de' secoli di Lorenzo il
+          Magnifico e di Leone X ci venisse &lt;venissero&gt; di là dall'oceano.
+          O Italiani, io vi esorto alle storie, perché niun popolo più di voi
+          può mostrare né più calamità da compiangere,
+          né più errori da evitare, né più
+          virtù che vi facciano rispettare, né più grandi anime
+          degne di essere liberate dalla obblivione da chiunque di noi sa che si deve amare e
+          difendere ed onorare la terra che fu nutrice ai nostri padri ed a noi, e che
+          darà pace e memoria alle nostre ceneri. Io vi esorto alle storie,
+          perché angusta è l'arena degli oratori; e chi omai può
+          contendervi la poetica palma? Ma nelle storie tutta si spiega la nobiltà dello
+          stile, tutti gli affetti delle virtù, tutto l'incanto della poesia, tutti i
+          precetti della sapienza, tutti i progressi e i benemeriti dell'italiano sapere. Chi di noi
+          non ha figlio, fratello od amico che spenda il sangue e la gioventù nelle
+          guerre? e che speranze, che ricompense gli apparecchiate? e come nell'agonia della morte
+          lo consolerà il pensiero di rivivere almeno nel petto de' suoi cittadini, se
+          vede che la storia in Italia non tramandi i nobili fatti alla fede delle venture
+          generazioni? Forse la sola poesia e la magnificenza del panegirico potranno rimunerar
+          degnamente il principe che vi dà leggi e milizia e compiacenza del nome
+          italiano? Oh come all' esaltazioni con che Plinio Secondo si studia di celebrare Traiano,
+          oh come il saggio sorride! ma quando legge le poche sentenze di Tacito, adora la
+          sublime anima di Traiano, e giustifica quelle vittorie che assoggettarono i popoli
+          all'impero del più magnanimo tra i successori di Cesare.<note place="foot" n="53" resp="aut">
+                  <p> E che dirò io di quegli scrittori che senza celebrità
+              letteraria, senza onore domestico, senza amore agli studii e alla patria s'accostano a
+              celebrare le glorie del principe? Infami in perpetuo, se la loro penna potesse almeno
+              aspirare ad una infame immortalità! Ma vili e ignoranti ad un tempo hanno
+              per principio e fine d'ogni linea che scrivono, il prezzo della dedicatoria.
+              Sapientemente Ottaviano che era in necessità di alimentare le lettere e di
+              rispettare gl'ingegni, spediva decreti perché gli scrittori d'ignobile fama
+              non lo lodassero: <quote>
+                        <foreign lang="lat">
+                           <emph>Ingenia seculi sui omnibus modis Augustus fovit. Recitantes et benigne et
+                    patienter audivit: nec tantum carmina et historias, sed et orationes et
+                    dialogos. Componi tamen aliquid de se, nisi et serio et a praestantissimis
+                    offendebatur; admonebatque praetores, ne paterentur nomen suum commissionibus
+                    absolefieri</emph>
+                        </foreign>.</quote>
+                     <bibl> Sveton. lib. 2, c. III.</bibl>
+                  </p>
+               </note> Quali passioni frattanto la nostra letteratura alimenta, quali opinioni governa
+          nelle famiglie? Come influisce in que' cittadini collocati dalla fortuna tra l'idiota ed
+          il letterato, tra la ragione di Stato che non può guardare se non la pubblica
+          utilità, e la misera plebe che ciecamente obbedisce alle supreme
+          necessità della vita, in que' cittadini che soli devono e possono prosperare la
+          patria, perché hanno e tetti e campi ed autorità di nome e certezza
+          di eredità, e che, quando possedono virtù civili e domestiche, hanno
+          mezzi e vigore d'insinuarle tra il popolo e di parteciparle allo Stato? L'alta letteratura
+          riserbasi a pochi, atti a sentire e ad intendere profondamente; ma que' moltissimi che per
+          educazione, per agi e per l'umano bisogno di occupare il cuore e la mente sono adescati
+          dal diletto e dall' ozio tra' libri, denno ricorrere a' giornali, alle novelle, alle rime;
+          così si vanno imbevendo dell' ignorante malignità degli uni, delle
+          stravaganze degli altri, del vaniloquio de' verseggiatori; così inavvedutamente
+          si nutrono di sciocchezze e di vizi, ed imparano a disprezzare le lettere. Ma indarno la
+          Ciropedia e il Telemaco, tramandatici da due mortali cospicui nelle loro patrie per
+          dignità e per costumi, ne ammoniscono che la sapienza detta anch'essa romanzi
+          alla Musa e alla Storia; indarno il Viaggio d'Anacarsi ci porge luminosissimo specchio
+          quanto possa un romanzo senza taccia di menzogna iniziare i men dotti nel santuario della
+          storica filosofia; indarno e i Germani e gl' Inglesi ci dicono che la gioventù
+          non vive che d' illusioni e di sentimenti, e che la bellezza non è immune dalle
+          insidie del mondo; e che, poiché la natura e i costumi non concedono di
+          preservare la gioventù e la bellezza dalle passioni, la letteratura deve, se
+          non altro, nutrire le meno nocive, dipingere le opinioni, gli usi e le sembianze de'
+          giorni presenti, ed ammaestrare con la storia delle famiglie. Secondate i cuori palpitanti
+          de' giovinetti e delle fanciulle, assuefateli, finché sono &lt;son&gt;
+          creduli ed innocenti, a compiangere gli uomini, a conoscere i loro difetti ne' libri, a
+          cercare il bello ed il vero morale: le illusioni de' vostri racconti svaniranno dalla
+          fantasia con l'età; ma il calore con cui cominciarono ad istruire,
+          spirerà continuo ne' petti. Offerite spontanei que' libri che, se non saranno
+          procacciati utilmente da voi, il bisogno, l'esempio, la seduzione li procacceranno in
+          secreto. Già i sogni e le ipocrite virtù di mille romanzi inondano
+          le nostre case; gli allettamenti del loro stile fanno quasi abborrire come pedantesca ed
+          inetta la nostra lingua; la oscenità di mille altri sfiora negli adolescenti il
+          più gentile ornamento de' loro labbri, il pudore. E trattanto chi de' nostri
+          contemporanei va fingendo novelle su gli usi, lo stile e le fogge dell'età del
+          Boccaccio; chi segue a rimare sonetti; né l'ingegno eminente né la
+          sublime poesia di que' pochi che custodiscono la riputazione degli stati e dei principi
+          basta per avventura a serbare inviolato il Palladio della patria letteratura. Ah!
+          vi sono pure in tutte le città d' Italia uomini prediletti dalla natura,
+          educati dalla filosofia, d' incolpabile vita, e dolenti della corruzione e della
+          venalità delle lettere; ma che non osando affrontare l' insidie del volgo dei
+          letterati e le minacce della fortuna, vivono e gemono verecondi e romiti. O miei
+          concittadini! quanto è scarsa la consolazione d'essere puro ed
+          illuminato senza preservare la nostra patria dagl' ignoranti e dai vili! Amate
+          palesemente e generosamente le lettere e la vostra nazione, e potrete alfine conoscervi
+          tra di voi, ed assumerete il coraggio della concordia; né la fortuna
+          né la calunnia potranno opprimervi mai, quando la coscienza del sapere e dell'
+          onestà v' arma del desiderio della vera ed utile fama. Osservate negli altri le
+          passioni che voi sentite, dipingetele, destate la pietà che parla in voi
+          stessi, quella unica virtù disinteressata negli uomini; abbellite la vostra
+          lingua della evidenza, dell'energia e della luce delle vostre idee, amate la vostra arte,
+          e disprezzerete le leggi delle accademie grammaticali ed arricchirete lo stile; amate la
+          vostra patria, e non contaminerete con merci straniere la purità e le ricchezze
+          e le grazie natie del nostro idioma. La verità e le passioni faranno
+          più esatti, men inetti e più doviziosi i vostri vocabolari; le
+          scienze avranno veste italiana, e l'affettazione de' modi non raffredderà i
+          vostri pensieri. Visitate l' Italia! o amabile terra! o tempio di Venere
+          e delle Muse! e come ti dipingonpo i viaggiatori che ostentano di
+          celebrarti! come t'umiliano gli stranieri che presumono d' ammaestrarti!
+          Ma chi può meglio descrtiverti di chi è nato per vedere, fino ch'ei
+          vive, la tua beltà? chi può parlarti con più ferventi e
+          con più candide esortazioni di chiunque non è onorato né
+          amato se non ti onora e non t'ama? Né la barbarie de' Goti, né le
+          animosità provinciali, né le devastazioni di tanti eserciti,
+          né le folgori de' teologi, né gli studi usurpati da' monaci,
+          spensero in quest' aure quel fuoco immortale che animò gli Etruschi e i Latini,
+          che animò Dante nelle calamità dell'esilio, e il Machiavelli nelle
+          angosce della tortura, e Galileo nel terrore della inquisizione, e Torquato nella vita
+          raminga, nella persecuzione de' retori, nel lungo amore infelice, nella ingratitudine
+          delle corti, e &lt;né&gt; tutti questi, e &lt;né&gt;
+          tant'altri grandissimi ingegni nella domestica povertà. Prostratevi su' loro
+          sepolcri, interrogateli come furono grandi e infelici, e come l'amor della patria, della
+          gloria e del vero accrebbe la costanza del loro cuore, la forza del loro ingegno e i loro
+          beneficj verso di noi.</p>
+            <p>
+               <hi rend="sc">xvi.</hi> Queste cose (considerando, come ho saputo, la natura dell'uomo e
+          le storie) ho meditate e scritte intorno all'origine e all'ufficio della letteratura.
+          Ché se le giudicherete di vostro profitto, io l'ascriverò alla
+          efficacia meravigliosa del vero, il quale, benché taciuto per lunghissima
+          età ed acremente impugnato dagli uomini, si vendica per sé stesso
+          dell'obblivione de' tempi e della pertinacia delle opinioni. Se non ch'io pure non
+          avrò forse difesa che la mia propria opinione; ma tolga il cielo che quanto io
+          scrivo possa riescire mai di alcun danno alle lettere ed all'Italia.</p>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

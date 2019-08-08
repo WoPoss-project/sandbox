@@ -1,0 +1,3883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Cronica del Convento di Santa Caterina secoli XIV-XV</title>
+    </titleStmt>
+    <extent>167 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2003</date>
+      <idno>bibit001690</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Istorie pisane di Raffaello Roncioni e cronache varie pisane</title>
+        <author>Roncioni, Raffaello</author>
+        <editor id="ed">Bonaini, Francesco</editor>
+        <publisher>presso G.P. Vieusseux</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1844-1848</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>300</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Testi storici e storiografici</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>2001-08-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Giulia Bennati</name>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>2001-08-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Giulia Bennati</name>
+        <name>CIBIT-Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2003-01-15T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Codifica XML</item>
+    </change>
+    <change>
+      <date>2003-02-28T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text lang="lat">
+<front>
+   <titlePage>
+    <docTitle>
+<titlePart type="princ">CHRONICA ANTIQUA CONVENTUS SANCTAE CATHARINAE DE PISIS</titlePart>
+<titlePart type="sub">Incipit Chronica Conventus antiqua Sanctae Katha-
+rinae de Pisis, Ordinis Praedicatorum.</titlePart></docTitle></titlePage>
+<div1 type="prefazione">
+<head>Prologus.</head>
+<p><hi rend="italic">Interroga generationem pristinam, et diligenter investiga
+patrum memoriam</hi>: verba ista sunt Job, <num>VIII</num> capitulo. Quam-
+vis nulla sit cura iustis de caduca temporali memoria, cum
+sint in aeterna, secundum divina promissa, <hi rend="italic">etenim erunt iusti
+in memoria aeterna</hi>, prout in. Psalmo clarius et expressum;
+ubi de reprobis, e contra, <hi rend="italic">quoniam periit eorum memoria cum
+sonitu</hi>; est tamen nobis in via militantibus, <num>I</num> delectabile,
+<num>II</num> utile, <num>III</num> honestum et iustum, praecedentium patrum in-
+vestigare memorias, prout Spiritus Sanctus, in verbo Job, al-
+legare, consulere et mandare proponit. Primo equidem delecta-
+bile nobis fore, probatur pro eo quod ea quae sequuntur ex no-
+biliori principio, nobiliora merito judicantur; artificiata quidem,
+minus sunt nobiliora naturalibus artibus: quoniam natura habet
+nobilissimum principium, scilicet Domini artificium; nec habent
+pro sua causa et exordio, a qua derivantur, naturam, in qua
+tamquam in speculo contuentur. Hoc est quod Aristoteles in quarto
+<pb n="399"/>
+<hi rend="italic">Rethoricorum</hi> docet, quod nobiles viri tanto se existimant
+clariores, quanto progenitores habuerunt dignos et probos.
+Unde Virgilius laudes Octaviani more amplificans poetarum,
+ab Aenea ipsum et suos originem habuisse describit. Secundo:
+utile etiam atque conferens comperietur, certum prosequi facta
+priorum merito recolenda, ex hoc quidem quod magis movent
+exempla quam verba, ut concitemur ad illa opera virtuosa
+quae habentes faciunt bonos. Sicuti narrat Valerius, libro se-
+cundo, Romani senes in coenis canebant sonando gesta et acta
+majorum, ut ad paria d majora juvenes concitarent. Et si
+parum tibi videtur exemplum eorum qui pro temporalibus la-
+borabant, legenda sunt facta nostrorum. Audiamus Mathatiam
+primo Machabeorum, secundo: <hi rend="italic">Mementote</hi> (inquit) <hi rend="italic">operum
+patrum, quae fecerunt in generationibus suis, et accipietis
+gloriam magnam et nomen aeternum</hi>; et ibidem Abraham,
+Joseph, Finees, Jhesum, Caleph, David, Elyam, Danielem,
+Azariam, Ananiam, Misael et alios nominat, ut filios impel-
+leret ad virtutes. Tertio: aequum et justum esse decernimus
+recolere cum laudibus facta priorum memoratu digna, quia
+justitia exigit ut quod suum est, unicuique tribuatur. Virtuti
+vero, in hominibus virtuosis, cum nil reddi melius possit et
+majus honore, ut Sapiens manifestat; debitum est, iis qui vir-
+tuose et in finem usque durantes dixerunt in bonum dies suos,
+honorem demus, ipsorum memorias recolendo, quorum memo-
+ria in benedictione est. Et ut securius haec agamus, attendamus
+ad promissa Domini Salvatoris, discipulis largo sinu conferta.
+<hi rend="italic">Gaudete</hi> (inquit), <hi rend="italic">quoniam nomina vestra scripta sunt in coelis</hi>:
+sic et nos, quod possumus, id agomus, ut nomina eorum
+scribamus in terra, quorum nomina de libro vitae in perpetuum
+non delentur. Eodem modo beatus praesbiter Hyeronimus no-
+mina a facta virorum scripsit illustrium; quem est Gennadius,
+ad scribendos alios, imitatus. Quapropter, ego frater Dominicus
+de Peccioli, humilis scriptor hujus libri, sacrae Theologiae ma-
+<pb n="400"/>
+gister, nomina et facta probata et proba Fratrum istius Pisani
+Conventus scribere et notare curavi, ut iis qui succedent, et
+delectabile sit audire eorum nobile fundamentum, et utile pro-
+sequendo, et se in talibus secundum modulum se viriliter exer-
+citando, et debitum exsolvendo: quae primo a Fratre Bartho-
+lomaeo de Sancto Concordio breviter ejus manus scripta cognovi;
+deinde a Fratre Hugolino Ser Novi, qui scripsit post dictum
+Fratrem Bartholomaeum. Succedentes, stylo latiori, notabiles
+ergo Fratres quos ego visu conspexi, nominando cum laudibus
+dignis; quaedam etiam ad patres scriptos addendo commen-
+danda, quae in chronicis et in actis Capitulorum legi de ipsis,
+quae illis scribere curae non fuit. Quod hoc ordine prosequar,
+Domino concedente. Primo de dignitate Conventus Pisani antiqua.
+Primo de Praedicatoribus. In Capitulo Urbisveteris <date value="12500000">MCCL</date>.
+<hi rend="italic">Volumus quod ad praedicationes Romae solemnes, sicut Flo-
+rentiae et Pisis, non mittantur nisi famosi Fratres</hi>.
+Secundo de Lectoribus. Romae in Sancta Sabina <date value="12820000">MCCLXXXII</date>.
+<hi rend="italic">Ordinamus, quod nullus lector legat nisi unam lectionem in
+die, exceptis Pisano et Neapolitano, qui possint legere duas;
+unam de textu Bibliae, alteram de Sententiis; et quod nullus
+bachalarius sedeat in cathedra lectorum, nisi Pisanus et Nea-
+politanus</hi>.
+Tertio de provisionibus. In Capitulo Senensi <date value="12510000">MCCLI</date>. <hi rend="italic">Quod
+Fratribus Aretinis provideat Conventus Pisanus in tribus tunicis,
+Florentinis in tribus, Senensibus in tribus, et Lucanis in
+duabus</hi>. Item in Capitulo Ananiae, <date value="12650000">MCCLXV</date>, pro studentibus
+Parisinis et pro debitis provinciae, soli Pisano Conventui fuit
+injunctum ut <num>XXVI</num> solidos Turonensium daret.
+</p>
+</div1>
+  </front>
+<body>
+<div1 type="sezione">
+<head>I.</head>
+<p><pb n="401"/>
+I. Primus igitur Frater Pisani Conventus, et etiam Ro-
+manae provinciae, fuit Frater Huguiccio Sardus. Hunc mater
+sua, cum de Sardinea remearet, quam tunc Pisani regebant,
+in navi peperit, et perveniens Pisas, amore materno nutri-
+vit. Qui cum ad discretionis pervenisset aetatem, considerans
+praesentis vitae fallaciam, audiens tunc temporis beati Domi-
+nici famam, tam in fervore perfectissimae charitatis quam
+in ostensione signorum, ad ipsum celeri gradu confugit, et
+ab ipso habitu religionis devote suscepto, in ejus sacratissimis
+manibus professionem secura fiducia fecit. Post ea, directus
+ab eo Pisas, et ipse beatus Dominicus pergens Florentiam atque
+Senas, ibidem conventum accepit; et eodem anno, idem Frater
+Huguiccio erexit domum in civitate Pisana: data namque
+sibi fuit ecclesia quaedam parva in Sanctae Katharinae memo-
+riam consecrata, sita ubi modo est nostra sacristia; parvis
+casis ex parte posteriori et hortulo circumdata, sed ex anteriori
+nobilibus pluribus et popularibus sotiata: ibi Comites, ibi Or-
+landi, ibi Verchionenses, ibi Lanfranchi et Cortinghi, Gualandi
+et Parlascinghi, atqtue nobiles de Caprona, et alii venerabiles
+cives, quibus tunc civitas tota florebat. Cuius ecclesiae sibi col-
+latae populum, cum curam animarum externa conscientia
+fugiebat, divisit in partes; quarum unam Sancto Simoni de
+Parlascio, alteram applicavit Sancto Laurentio de Rivolta.
+Habitantem domo, se dedit Frater praefatus Huguiccio praedica-
+tioni et exercitationi populi Pisanorum, et in tantum fama ejus
+sanctitatis excrevit, ut plurimi ejus vestigia sequerentur. Corrunt,
+ruuntque populi exemplis et verbis ejus, redolentibus longe, late-
+que diffusis: atque diu opere sibi credito consummato, cum mul-
+tos discipulos congregasset, signis non parvis neque paucis mani-
+feste corruscans, filiis et fratribus vale faciens, animam refertam
+operibus bonis Altissimo reddidit, gloriosissime laureandam; et
+concursu populorum undique prementium, ubertimque ploran-
+tium,	tanto honorificientis quanto humilius fuit, venerabiliter
+tumulatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>II.</head>
+<p><pb n="402"/>
+II. Frater Henricus de Cornazano Vallis Sercli, discipulus
+Fratris Huguiccionis superius nominati. Hic crevit post illum
+famosissimae sanctitatis. Verbum Dei praedicando, multos con-
+vertens ad Dominum, divertit a mundo. Hic vir fuit de primis
+nostri Conventus fundatoribus, zelo Ordinis totus accensus;
+et post virtutum collecta mella, fuit Pisis rebus humanis exem-
+ptus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>III.</head>
+<p>III. Frater Hugolinus de Silvalonga. Iste se rexit, gratia
+verbi mirabiliter adeo dotatus, ut totam civitatem, in ejus au-
+ditum converteret. Cuius exemplis et sermonibus catervatim po-
+puli ad lamenta poenitentiae sunt conversi. Post diurnos la-
+bores et nocturnas orationes et lacrymas et opera digna, Deo
+animam in coelesti palatio collocavit, raptus de hujus mundi
+sylva foresti.
+</p>
+</div1>
+<div1 type="sezione">
+<head>IV.</head>
+<p>IV. Frater Nicholaus de Scherlino. Hic fuit probus homo
+valde in vita et literis, et sensatus in omnibus: namque fuit coe-
+taneus cum beato Fratre Jacobo de Mevanea, atque cum ipso
+factus praedicator generalis Lucae in Capitulo provincia-
+li <date value="12670000">MCCLXVII</date>. Fuit in Urbeveteri Prior. Tandem, post multos
+agones, devictis carnis illecebris, cum propter exemplarem vitam
+<pb n="409"/>
+et scientiam magnam positus esset, in Reate Prior (adhuc emim
+erat Conventus ille novellus), idem de mortali mundo devotus
+obiit, et abiit ad aeternum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>V.</head>
+<p>V. Frater Leo de Sancto Sixto. Hic fuit capax plurium
+literarum: crevit enim fama ejus scientiae illis temporibus su-
+pra modum; unde fuit circa lectiones et studium sedulo occupa-
+tus. De magistris et primis lectoribus nostri Conventus, post
+lectionum et doctrinae effusam gratiam, diffusae per omnes cla-
+ritatem accepit contemplationis aeternae: sed corpusculum fuit in
+Pisis magno cum honore sepultum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>VI.</head>
+<p>VI. Frater Benvenutus, conversus, fuit homo valde devotus,
+humilis supra modum, obsequiosus omnibus et utilis, in procu-
+randis sollicitus; qui fuit de primis qui Conventum, aedificare
+laboriosus adiuvit: post quod Pisis beata pace quievit, benevenu-
+tus in coelo.
+</p>
+</div1>
+<div1 type="sezione">
+<head>VII.</head>
+<p>VII. Frater Gerardus de Raù: familia est antiqua popularium
+Pisanorum. Hic fuit vir maximae gravitatis, et de primis
+qui erexerunt Ordinem, in civitate Pisana, verbis et exemplis
+<pb n="410"/>
+et laboribus indefessis. Hic mirabili opinione sanctitatis in hac
+civitate apud omnes emicuit; qui, quanto alienus a mundo dum
+vixit in tempore, tanto familiarius Deo creditur colligatus. Et
+corpus, quod fuit organum tantae virtutis, repositum Pisis
+fuit, magna cum devotione omnium Pisanorum: et fuit testis
+et sotius Fratris Provini.
+</p>
+</div1>
+<div1 type="sezione">
+<head>VIII.</head>
+<p>VIII. Frater Jacobus de Silvalunga, conversus, persona fuit
+plusquam mediocris industriae. Hic fuit sacrista peroptimus, de-
+ditque formam sacrario Pisani Conventus, ut multa eius pro-
+curatione in illa primaeva Conventus origine provenirent; con-
+summatoque non parvo labore, maxima mercede beatur in sylva
+salva coelorum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>IX.</head>
+<p>IX. Frater Philippus de Calci, clericus literatus, scivit enim
+Bibliam pro magna parte mente; et sic studio, sed praecipue
+Bibliae, insudavit, ut per excellentiam Frater Philippus Biblia
+vocaretur. Fuit exemplaris et magnus lector inter ommes Roma-
+nae provinciae: propter quod, in Conventu Pistoriensi, primo
+anno quo fuit acceptus, hic Pater fuit lector principalior desti-
+natus. Iste, post spem acquisitam ex tanto studio Paginae Sacro-
+sanctae quam legit in saeculo, in aeternitate feliciter contuetur,
+et Pisis honorifice sepelitur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>X.</head>
+<p><pb n="411"/>
+X. Frater Proynus, filius domini Orlandini de Fabro, quae
+nunc familia est extincta. Hic fuit de singularibus Patribus no-
+stris, qui fundaverunt Conventum Pisanum. Iste fuit vir maxi-
+mae utique gravitatis in moribus, sanctitatis in vita, capacitatis
+in literis; cujus probitatem obtinuit Ordo in exordio sui. Cum enim
+esset coetaneus sancti Thomae, meruit adscribi in sodalitio pro-
+vinciam gubernantium: quare fuit diffinitor Capituli provincialis,
+et cum sancto Thoma factus praedicator generalis Neapolim in
+Capitulo <date value="12600000">MCCLX</date>; et solum quatuor facti fuerunt. Et pater ejus,
+scilicet Orlandinus, dictum filium multis libris praedotavit; quos
+ipse Conventui dedit: ut patet per chartam rogatam a Ray-
+nerio Bonacolti de Calcinaria notario; et quod non possint
+alienari, vel pignorari, aut de Conventu extrai quovis modo.
+Sunt autem isti libri, scilicet:
+<num>1</num>. Decretum.
+<num>2</num>. Decretalis cum apparatu.
+<num>3</num>. Casus Decretalium.
+<pb n="412"/>
+<num>4</num>. Summa Azonis super Codicem.
+<num>5</num>. Libri Sententiarum textus.
+<num>6</num>. Summa tota Alexandri, in quatuor voluminibus.
+<num>7</num>. Primus et Secundus Sancti Thomae, in uno volumine.
+<num>8</num>. Tertius ejusdem.
+<num>9</num>. Quartus ejusdem.
+<num>10</num>. Liber Sancti Thomae contra Magistros Parisienses.
+<num>11</num>. Correctiones Bibliae.
+Expositio prologorum Bibliae
+Postillae super Penthatheucym. (in uno volumine).
+<num>12</num>. Postillae super Proverbia, Canticam, Ecclesiastem, Sa-
+pientiam et Ecclesiasticum, in uno.
+<num>13</num>. Postillae super <num>XII</num> Prophetas, in uno.
+<num>14</num>. Postillae super Job, Thobiam, Judith et Hester, in uno.
+<num>15</num>. Mathaeus, Johannes et Lucas, glosati et postillati, in uno
+volumine.
+<num>16</num>. Postillae super Marcum, et Quaestiones super Johannem,
+in uno volumine.
+<num>17</num>. Postillae super totum Paulum, in uno volumine.
+<num>18</num>. Paulus glosatus et postillatus, in uno.
+<num>19</num>. Postillae super Epistolas Canonicas, Acta Apostolorum
+et Apocalipsin, in uno.
+<num>20</num>. Libri Dyonisii de Coelesti Hierarchia, de Divinis Nomi-
+nibus, de Mistica Theologia, Duodecim Epistolae ejusdem, Me-
+taphisica, de Animalibus et de Intellectu, in uno volumine.
+<num>21</num>. Opus Alberti super Dyonisium, super Ethicam, et quae-
+dam Quaestiones, in uno.
+<num>22</num>. Libri Naturales et Metaphisica Aristotelis, in uno vo-
+lumine.
+<num>23</num>. Metaphisica, in alio volumine.
+<num>21</num>. Libri Naturales Avicennae et Alphagrani, in uno.
+<num>25</num>. Libri Naturates Majores, in uno.
+<pb n="413"/>
+<num>26</num>. Postillae super libros Naturales, in uno.
+<num>27</num>. Metaphisica Avicennae, Comentus super libros Phisi-
+corum, et super quartum Mathematicorum, in uno.
+<num>28</num>. Libri Magni Alberti de Coelo et Mundo, Mathematico-
+rum, de Anima, de Mineralibus, de Vegotabilibus et Plantis,
+in uno volumine.
+<num>29</num>. Regulae Alani, Libri Anselmi, Boetii, Agustini, et
+Compotus Lunae, et quaedam compilatio quorundam tractatuum,
+in uno.
+<num>30</num>. Originalia Agustini, in uno.
+<num>31</num>. Cantica Bernardi, et alia originalia ejusdem, in uno.
+<num>32</num>. Summa Magistri Raymundi et Gothfredi, in uno.
+<num>33</num>. Summa Magistri Monetae, et duae aliae, in uno volumine.
+<num>34</num>. Summa contra hereticos, in uno.
+<num>35</num>. Rethorica, in uno volumine.
+<num>36</num>. Priscianus Major, in uno volumine.
+<num>37</num>. Glossae super Priscianum Majorem, in uno, et quaedam
+aliae glossae.
+<num>38</num>. Bricto, in uno volumine.
+<num>39</num>. Papias, in uno volumine.
+<num>40</num>. Liber Huguiccionis Pisani, in uno volumine.
+<num>41</num>. Postillae super Loycam, in uno.
+<num>42</num>. Libri Loycales et Ethicales, in uno.
+<num>43</num>. Postillae super omnes libros Loycales, in uno.
+<num>44</num>. Distinctiones Mauritii, in uno.
+<num>45</num>. Tractatus Magistri Petri Yspani Loycales.
+<num>46</num>. Opus Magni Alberti super libros Ethices.
+<num>47</num>. Duodecim volumina, in quibus continetur tota Biblia,
+cum glossis autenticis et continuatis, supra modum admiranda,
+tam pulcritudine licterae, quam nobilitate chartarum et prae-
+tiositate omnis ornatus; ut pulcrior Biblia, consideratis omni-
+bus, nesciatur.
+<pb n="414"/>
+Lege, lector, quantum huic reverendissimae memoriae no-
+stra successio obligetur; ut tunc iste Conventus esset tot librorum
+voluminibus praemunitus, quam quanto nunc alii armaria libro-
+rum habere potuissent. Hic igitur Pater, tot bonis et tantis ope-
+ribus consumatis et eleemosynis distributis, coelos ascendit, ubi
+metit feliciter qui hic tam largiter seminavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XI.</head>
+<p>XI. Frater Bondie, conversus. Hic fuit sancta persona, et
+utillimus servitor omnium Fratrum. Sartor doctissimus, et in
+omni sacrista strenuus fuit; nam suis manibus paramenta multa
+paravit: et sicut inter sancta fuit reverentissime conversatus, ita
+bono et interminabili die fuit in sancta sanctorum finaliter collo-
+catus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XII.</head>
+<p>XII. Frater Hermannus de Sancto Miniate: illud enim mu-
+nicipium fuit de praedicationis terminis nostri Conventus, et ideo
+<pb n="415"/>
+illi ad nostrum Conventum omnes originaliter pertinebant. Hic
+vir bonitatis magnae, et sensatus homo, se dulcis Pater, fuit
+Supprior in Conventu Pisano; ubi cum mgna devotione mi-
+gravit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XIII.</head>
+<p>XIII. Frater Hubaldus de Vallechia, de nobilibus de Val-
+lechia, quae est ultra castrum Pietresanctae: aliqui facti
+sunt ex eis Pisani cives, de quibus hic Pater fuit. Nobilis corpore,
+et mente amplius, namque licteris valde polluit et virtute: tan-
+dem de valle praesentis miseriae vocatus, dies in Domini pace
+finivit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XIV.</head>
+<p><pb n="416"/>
+XIV. Frater Paulus Sardus Pullinus, Pisanus. Hic fuit
+religiosus valde; in se austerus, aliis compatiens erat. Extitit
+pulcherrimus scriptor et cantor. Ultimo viam universae carnis
+intravit, per quam ad terminum adiit gloriosum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XV.</head>
+<p>XV. Frater Guido de Canneto. Hic fuit honore duplici di-
+gnus: religiosus perfectus, et supra humanum modum excellen-
+tissimus cantor; quare fuit illi injunctum, per Capitulum Senis
+celebratum <date value="12600000">MCCLX</date>, quod iret Bononiam ad corrigendum libros
+cantus: quod et obedientissime fecit. Postremo, postquam in ec-
+clesia militanti sategit se triumphanti in Dei laudibus confor-
+mare, in coelesti curia modulatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XVI.</head>
+<p>XVI. Frater Gerardus de Buzanello, bonus et carus Dei
+servitor, aedificatorius homo fuit; et usque ad gradum sacerdotii
+provectus, non diu post de hac vita recessit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XVII.</head>
+<p><pb n="417"/>
+XVII. Frater Henricus de Massa, excessit in spiritu et in
+omni bonitate spirituali. Magister sollicitissimus novitiorum et
+Prior vigilantissimus, fuit exemplum omni clero et populo san-
+ctitatis; et completo felicissimo cursu, coronam accepit diutius
+repromissam, aggregatus in massa sanctorum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XVIII.</head>
+<p>XVIII. Frater Vitalis de Calci, exemplaris valde, et cae-
+rimoniosus multum, officiosissimus magister novitiorum; quos
+non solum in Ordinis disciplina docebat, sed in cantu diligentis-
+sime instruebat: erat enim excellenter doctus in cantu, et in
+omnibus quae Ordo requirit. Postremo, laborum suorum mer-
+cede potitus, obdormivit in Domino.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XIX.</head>
+<p>XIX. Frater Guido de Sancto Ylario, compositae vitae fuit
+et sanctae. Virtutibus insudavit; quibus plenarie acquisitis, ad
+extremam horam vitae praesentis perveniens, aeterna dulcedine
+perpetualiter satiatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XX.</head>
+<p><pb n="418"/>
+XX. Frater Jacobus Mugnarius, licet modico tempore vixis-
+set, in Ordine tamen sacerdotii digne functus officio, ad aeternam
+laetitiam convolavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXI.</head>
+<p>XXI. Frater Lanfrancus, conversus, industrius procurator
+et consolator Fratrum fuit; et post multos labores, in beata
+requie fuit perenniter collocatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXII.</head>
+<p>XXII. Frater Guillelmus de Palaria, juvenis in omnibus
+gratiosus, et usque ad diaconatus officium, et non ultra, per-
+venit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXIII.</head>
+<p>XXIII. Frater Bectus, de via Sanctae Mariae, quietissimus
+juvenis valde fuit; et obiit subdiaconus in devotione non parva,
+et per viam Sanctae Mariae pervenit ad patriam.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXIV.</head>
+<p><pb n="419"/>
+XXIV. Frater Johannes, nepos reverendi Patris Fratris
+Proyni, de quo superius fecimus mentionem. Hic vere quasi
+filius ei fuisset, nisi praeventus a fato comuni: namque sub-
+tractus est, cum adhuc subdiaconus esset, et in statu positus
+certiori.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXV.</head>
+<p>XXV. Frater Odimundus Mascha: hic nobilis homo fuit de
+domo illa Maschorum. Fuit in saeculo disertissimus advocatus,
+et juris civilis maxime peritus et doctor: sed omnia derelin-
+quens, intravit Ordinem, ubi religiosam agens vitam et in finem
+usque perdurans, optatum bravium meruit obtinere, utpote odiens
+mundum fallacem atque caducum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXVI.</head>
+<p>XXVI. Frater Bernardus de Curtibus, devotione conspicuus,
+multis fuit causa salutis, quos odore suae sanctitatis attraxit;
+<pb n="420"/>
+et sic de hac vita recessit, perveniens ad aeternam curiam de
+curtibus hujus vitae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXVII.</head>
+<p>XXVII. Frater Mathaeus de Kintica, diaconus, studentis-
+simus juvenis et licteris mancipatus; et juvenilibus annis exple-
+tis, diaconii arce suscepta, festinavit ad coelum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXVIII.</head>
+<p>XXVIII. Frater Guido de Vada, homo quietus et bonus, ad
+sacerdotium usque perveniens, inter sacros coelestes ordines,
+Dei gratia faciente, meruit collocari. Vade, inquit, anima de
+vado vitae currentis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXIX.</head>
+<p>XXIX. Frater Bonagiunta Razese, de nobili prosapia ortus,
+fuit homo valde pacificus et modestus. Diu enim in Ordine, in
+bonis moribus et vita sancta probatus, senio confectus, civis
+<pb n="421"/>
+supernae patriae, ibidem perenniter consolatur, bene junctus
+agminibus sanctorum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXX.</head>
+<p>XXX. Frater Philippus de Spina, verecondissimus juvenis,
+amatorque studii, ad coelum citius praecucurrit: non enim ultra
+diaconatum protraxit terminum vitae suae, et de Spina in aeter-
+nali viridario collocatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXI.</head>
+<p>XXXI. Frater Raynerius Piccolinus, de Comitibus de Bol-
+gari, de domo Comitum Gherardeschae; nobilissimus carne, in-
+genuus magis mente. Hic fuit magnae praerogativae, quia gra-
+tiosissime praedicabat. Conversabat honeste, vivebat pure, et ad
+magna paratus fuit. Ab hoc saeculo immature subtractus, sed
+in extremo gaudio aeternaliter stabilitus, piccolinus in sublime
+levatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXII.</head>
+<p>XXXII. Frater Tancredus, conversus, utilis valde Conven-
+tui; et inter caetera, officium longo tempore canapae, omni post-
+posita negligentia, gratiose et fidelissime fecit: et sic, in sancta
+simplicitate, sicut vixit, ita decessit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXIII.</head>
+<p><pb n="422"/>
+XXXIII. Frater Leo, de Via Sanctae Mariae, nondum pro-
+fessus pervenit ad coelum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXIV.</head>
+<p>XXXIV. Frater Philippus de Peccis: Peccii fuerunt magna
+et antiqua familia Pisanae civitatis. Hic fuit persona non
+parvi valoris, Conventui utilis et civibus valde carus. Scripsit
+antiqua antiphonaria nostri Conventus. Excessit in cantu, et
+aliis probitatibus copiosus. Decessit de mundo, adepto gaudio
+sempiterno.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXV.</head>
+<p>XXXV. Frater Boninsegna, coriarii arte, bene in bono
+signatus, laudabilis juvenis, applicatus studio et morum venu-
+state insignis, inter signatos a Deo meruit purissimus nume-
+rari.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXVI.</head>
+<p>XXXVI. Frater Cyandus, filius Stampatoris, aeque com-
+mendandus juvenis. Nam fuit studio vehementer intentus; et vitae
+sanctae apicem in brevi adeptus, longam, immo interminabi-
+lem adeptus est pacem.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXVII.</head>
+<p><pb n="423"/>
+XXXVII. Frater Albertus Pultae: domus fuit nobilium in
+civitate Pisana, vocata domus Alberti, de quorum stirpe iste
+Pater extitit oriundus. Hujus memoriam debemus devotissime
+revereri: tantae fuit vir iste virtutis, sani et providi consilii.
+Maximae licteraturae; gratiosissimus, tam licteraliter quam
+vulgariter, praedicator; Deo in sanctitatis culmine copulatus,
+hominibus valde dilectus; et in toto clero et populo, non tantum
+Pisis sed ubique, summae reverentiae fuit. De primis Ordinis
+fundatoribus et Patribus constitutus, octo vel decem vicibus
+provincialis Capituli diffinitor: tunc enim, in nostri Ordinis ori-
+gine, semper iidem fiebant diffinitores, ut experti, facilius et
+cautius provincias gubernarent; et mortuo uno, alium admit-
+tebant. Item fuit diffinitor Capituli generalis; item fuit Prior
+quasi in omnibus Conventibus nostrae provinciae: verum est
+quod Conventuum numerus erat minor. Majorem partem Pisani
+Conventus ipse fundavit atque construxit; et ut lumen, in vita
+et sapientia et scientia, clarissime corruscavit; atque, post multa
+optima opera, transivit de mundo: cujus corpus, maximo cum
+honore et gemitu Fratrum et totius populi concurrentis, fuit
+traditum sepulturae, et spiritus ille mundus fuit beatorum coe-
+tibus aggregatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXVIII.</head>
+<p><pb n="424"/>
+XXXVIII. Frater Hildebrandus, conversus, fuit utilis valde
+Conventui. Hic primo nauta fuerat; atque, ad artis suae ima-
+ginem, de tempestatibus mundi sapientius emergens ad portum
+religionis, Spiritu Sancto ductus, et in hoc saeculo et in alio
+quievit in pace.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XXXIX.</head>
+<p>XXXIX. Frater Synibaldus de Alma, quae villa est in Pi-
+sana Marictima. Hic fuit mgnus provinciae Pater, Prior dis-
+cretissimus: primo emim singillatim in omnibus Conventibus
+Prior fuit, deinde diffinitor octies provincialis Capituli; et tan-
+tum crevit ejus claritas sanctitatis, et vitae licterarum gratia
+copiosae, ut provinciam gubernaret: fuit namque provincialis
+provinciae Romanae circiter decem annis. De isto Patre audivi
+miranda ab antiquis Patribus non parvae gravitatis: quod cae-
+rimonias Ordinis indefesse servavit, nec jota unum aut ullus
+apex periit ab ipso, donec omnia in lege Domini et nostris
+constitutionibus contenta, perfectissime consumaret; et ne multa
+dicendo sim legentibus taediosus, unum mirabile stylo breviori
+narrabo. Omnium enim ore recitari audivi, quod non fregerit
+silentium, loco vel tempore, toto tempore vitae suae; quod in
+Chronica Provincialium Romanae Provinciae, quae inter secreta
+scripta provinciae reservatur, sic me legisse recordor: - Frater
+Synibaldus de Alma, qui nunquam silentium, postquam fuit
+in Ordine, fregit. Nam Corradino, filio Imperatoris Frederici,
+Pisas cum maximo apparatu procerum adveniente, et audita
+fama hujus recollendissimae memoriae Patris, voluit sibi loqui;
+occurritque ei frater Synibaldus in claustro, nec sibi locutus
+verbo, nec salutatus ab ipso, dictum principem resalutare prae-
+<pb n="426"/>
+sumpsit: sed cum infra capitulum extra claustrum intrasset,
+cum Baronum maxima comitiva, tunc causam dixit sibi, quare
+eum sic muta lingua recepisset. In claustro, inquit, non est
+fas, vetante regula, mihi loqui -. Stupe lector, dole rector,
+ut nullius nunc observantiae vestigium videatur. Ultimo, cum
+officia vitae suae et Ordinis fuisset laudabiliter functus, defun-
+ctus fuit Florentiae, ac juxta sacristiam in Ecclesia nostra
+sepultus, spiritu petente superna, ubi cum beatis feliciter glo-
+riatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XL.</head>
+<p>XL. Frater Gualterius, dulcis ed benignus, quasi nutrix
+Fratribus erat; approbatus confessor. Fuit Supprior continuis
+septem annis, nec volebant eum Fratres absolvi. Qui sicut sua-
+vis fuit in via, ita suavitate potitur aeterna.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLI.</head>
+<p><pb n="427"/>
+XLI. Frater Guido de Sancto Donato, magnus confessor,
+conversatione tractabilis, in observantiis nostrae religionis au-
+sterus, succubuit morte; sed in immensa mensa coelestis coenae
+aeterna satietate discumbit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLII.</head>
+<p>XLII. Frater Bonacursus de Calci, devota persona fuit et
+simplex.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLIII.</head>
+<p>XLIII. Frater Lambertus de Gambassi, religione valde dev-
+otus, omnibus tam Fratribus quam laicis exempla sancte vi-
+vendi dimisit; et ideo, ut vir ex omni aetate probatus, confessor
+fuit monialium Fossebandi: tunc enim temporis paucissimi ele-
+cti fuere qui monasteria visitarent. Tandem vocatus de hoc
+mundo, transivit ad Dominum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLIV.</head>
+<p><pb n="428"/>
+XLIV. Frater Lotheringus de Buiti, utilis valde Frater, et in
+confessionibus audiendis plurimis indefessus. Sequebatur comunia
+sine interpellatione, et chorum nullatenus dimittebat; et continua-
+tis successibus in bonum, secessit in optimum sempiternum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLV.</head>
+<p>XLV. Frater Ildebrandinus de Visignano (de quo fecit men-
+tionem Frater Synibaldus, in libro qui dicitur <hi rend="italic">Susa</hi>), persona
+fuit utilitatis plurimae: nam Conventui bona temporalia plurima
+procuravit; Conventumque etiam ardentissime diligens, Supprior
+longo tempore fuit. Confessor insuper supra modum laudabilis,
+finem obtinuit concupitum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLVI.</head>
+<p>XLVI. Frater Jacobus de Mercato, inter omnes clericos, ut
+stella matutina, refulxit; utpote qui de largissimo fonte doctri-
+<pb n="429"/>
+nae Sancti Thomae Neapolim satiatus, de maximis provin-
+ciae lectoribus in multis Conventibus, clarae scientiae luce re-
+fulxit. Praedicator etiam generalis, <date value="12770000">MCCLXXVII</date>, Perusii in
+Capitulo factus fuit. Post omnia clarissima fama completa ad
+praesens collecta, Deum et divina clarius intuetur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLVII.</head>
+<p>XLVII. Frater Petrus de Buiti, persona valoris plus quam
+mediocris, est merito recolendus. Cantor perfectus, in secretis te-
+nendis clausus omnimo, scriptor magnus, velox et scius. Complu-
+rium provincialium priorum sotius fuit; et completo vitae prae-
+cipitis cursu, inter coelestes collegas scribitur et beatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLVIII.</head>
+<p>XLVIII. Frater Guido de Silvalonga, conversus, non fuit
+in quaerendo segnis, nec in procurando piger, nec in custo-
+diendo somnolentus; sed in Conventu semper ad omnia paratus
+obsequia, ad vitam quae labore privatur, adivit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XLIX.</head>
+<p>XLIX. Frater Aegidius de Barba, homo fuit Plurimum gratio-
+sus. Et videns quod in civitate plurimi erant operarii in segete
+ecclesiae campi, ad Marittimam se convertit; ubi pluribus annis
+<pb n="430"/>
+continuis fructum fecit maximum animarum: ita ut fructum
+centenarium reportaret, in horreo Patris Altissimi collocatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>L.</head>
+<p>L. Frater Leo de Carcajuola, aptissimus inter ecclesiasticos
+viros, plenus licteris et virtute; cum per caetera Ordinis studia
+circuisset, et docuisset sine invidia multa de plurimis quae scie-
+bat; missus Parisius, cum, completo cursu laudabili, redire
+deberet, idem moriens, ad coelestis Regis aulam, ubi semper
+vivitur, fuit misericorditer sublimatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LI.</head>
+<p>LI. Frater Andreas de Perignano, vir fuit singularis devo-
+tionis. Nam, zelo fidei accensus, imbutus licteris in studio Pa-
+risiensi, ad partes se contulit infideles; et in ultramare diu
+perdurans in bello fidei, cum multos ad unitatem fidei convir-
+tisset, ad patriam coelestem ducitur peroptatam.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LII.</head>
+<p><pb n="431"/>
+LII. Frater Raynaldus, conversus magnae sanctitatis, et ora-
+bat sedulo fluentibus lacrymis, ex interiori calore spiritus reso-
+lutis: propter quae Pisanae dominae eum miro venerabantur
+affectu. Et sic, nullo momento tepescens, eo ivit quo semper
+ejus tendebat aspectus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LIII.</head>
+<p>LIII. Frater Bindus, Porcus nomine, sed moribus plus
+quam homo: nam, cum jam provectus, et peritus valde in gra-
+mathicae disciplina, Ordinem fuisset ingressus, sollicitus fuit
+<pb n="432"/>
+multoties novitiorum magister; quos in magna devotione nutriebat
+lacte religionis, ut mater. Quapropter, post diutinam hujus
+officii exercendi solertiam, consolatur ipse finaliter sine fine.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LIV.</head>
+<p>LIV. Frater Lazarinus, aptissimus juvenis, sed morte prae-
+ventus, in virum perfectum est cum Christo celeriter consuma-
+tus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LV.</head>
+<p>LV. Frater Henricus Pelliccia, eodom modo juvenculus pa-
+ratus ad magna, vitae festino termino consumato, intermina-
+biliter requievit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LVI.</head>
+<p>LVI. Frater Raynuccius de Sancto Miniate, subdiaconus,
+studiosus et reverentissimus erat puer. Secutus priores sotios,
+cum ipsis in aeternis pascuis joculatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LVII.</head>
+<p>LVII. Frater Philippus de Sancto Miniate, jam medicinae
+in arte peritus, cum aliis scientiis, ingressus ex magna devo-
+tione Ordimem nostrum, brevi tempore in omni probitate profecit.
+<pb n="433"/>
+Tandem, non diu in hac luce persistens, incorruptibili se sede
+locavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LVIII.</head>
+<p>LVIII. Frater Bernardus Cappellarius, utilis conversus, et
+quaestuarius valde sollicitus el laboriosus, cappellum electionis
+divinae meruit obtinere.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LIX.</head>
+<p>LIX. Frater Emanuel Corsus, homo Deo devotus, scivit re-
+probare malum mundanae deceptionis, et eligere bonum sanctae
+religionis; et functo digne sacerdotii gradu, fuit cum Domino,
+sicut in vita, ita etiam in aeternum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LX.</head>
+<p>LX. Frater Albertus de Pratuscello, praetiosus religiosus fuit.
+Exemplaris populo valde; celebrabat semper; in choro et aliis
+comunibus semper assiduus. Antiquatus valde in Dei servitio,
+de pratuscello minimo mundi ad pratum latissimum Dei gratia
+meruit permutari.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXI.</head>
+<p><pb n="434"/>
+LXI. Frater Raynerius Longus de Pecciis, civibus antiquis,
+homo fuit magni valoris, prudentiae maximae et religionis
+eximiae; multoties Prior nostri Pisani Conventus, vir Deum
+amans et timens. Audi, lector, mirabile quam rarum quod tibi
+narrabo: nam fuit electus in Archiepiscopum Kallaritanum, quod
+regnum tunc Pisana civitas possidebat. Postulationi renuntiavit
+ex corde, eligens potius secure subesse, quam aliis periculose
+praesse. Tandem, longum in Dei servitio permensus spatium,
+dierum infinita longitudine fuit divina miseratione repletus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXII.</head>
+<p>LXII. Frater Nicholaus de Vicecomitibus: haec fuit domus
+alta nobilium Pisanorum, numero virorum, et valitudine for-
+titudinis, et amplitudine potestatis: domini quidem Gallurae
+Judicatus, et in Pisis consulatum obtinuerunt tempore multo. In-
+ter quos iste, accinctus militia, innumeris potitus honoribus,
+videns, praecipiti via omnia mundana defluere, tactus instinctu
+divino, se nostri Ordinis collocavit in portu securo, nec
+clericorum se habitum dignum gestare, ut humilis, extimavit.
+Quare petivit habitum conversorum; et, ut inter illo mini-
+mus, officia diligentissima cura peregit; atque in hujusmodi
+<pb n="435"/>
+se exercens, antiquatus in Ordine, recte vices Apostolorum
+Christi comitum in sua paupertate tenuit indefesse: et sic, se-
+mota vice obtentaque dignitate, cum Christi comitibus in beatis-
+sima fruitione locatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXIII.</head>
+<p>LXIII. Frater Stephanus de Vico, probus et prudens fuit
+Prior Panormi Siciliae (tunc enim provincia illa Regni nostrae
+erat unita); Supprior in Pisis, propter solertiam suam. Tan-
+dem in Sardinea diem clausit extremum, in gremio Sanctae
+Annae; idest in domo quam Fratres Pisani Conventus fun-
+ditus erexerunt, et auctoritate Sedis Apostolicae et Ordinis facto
+Conventu, Prior Pisanus ibi de Priore et Fratribus provide-
+bat.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXIV.</head>
+<p>LXIV. Frater Petrus de Vico, fuit de Patribus Conventus
+antiquis, inter alios singularis. Religione conspicuus, consilio
+providus, conversatione suavis, licteris pollens, acceptus civibus,
+<pb n="436"/>
+clero reverendus, et morum compositione maturus; ideoque Prior
+in Urbeveteri et in Pisis pluries, et praedicator generalis in
+Capitulo Neapolim celebrato <date value="12790000">MCCLXXVIIII</date>. Postea quam an-
+nosus fuisset, vitae multum virtuosae praemium accepit aeter-
+num.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXV.</head>
+<p>LXV. Frater Bartholomaeus de Nobilibus de Caprona, homo
+fuit admodum diligendus, quum utilis Conventui studuit esse
+toto tempore vitae suae: Supprior gratiosus, et confessor maxi-
+mus peccatorum. Se ipsum autem saepe considerans, non est
+secutus gregem caprarum, scilicet vitiorum; sed quasi agnus
+mansuetus, pastorem Christum per ardua virtutum usque ad
+vitam est infatigabiliter imitatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXVI.</head>
+<p>LXVI. Frater Martinus Corsus, conversus fuit laudabilis
+simplicitatis; obsequiis promptus, ad quaestum semper pro Con-
+<pb n="437"/>
+veniu paratus, officia sibi commissa sollicitissime faciebat: et
+sic in optimo proposito perseverans, animam devote reddidit
+Creatori.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXVII.</head>
+<p>LXVII. Frater Gaddus de Verchionibus, nobili Pisanorum
+progenie natus, quae nunc omnino defecit, Frater fuit con-
+versus ad exemplum Fratris Nicholai de Vicecomitibus supra
+nominati. Magnae fuit humilitatis. Tam in Ordinis ingressu,
+utpote nobilis, ita se Dei amore dejecit, ut vellet Dei servito-
+ribus famulari; quam etiam in progressu, ut servitia domus,
+hilari semper vultu, omnia indefessa, quantumcumque vilia,
+sibi imponerentur, et etiam alia suo proprio instinctu, ductus
+a Spiritu, suaviter exercebat. Cujus humilitatem respiciens de
+altissimo Deus, ad superiores sedes feliciter exaltavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXVIII.</head>
+<p>LXVIII. Frater Hubaldus de Peccioli, vir utique religione
+praeclarus, licteratus egregie, compositus excessive fut, con-
+sulta valde persona, zelator fervidus Ordinis et Conventus,
+Prior Pisanus dulcis et rigidus. Post multa opera devote finita,
+infinita mercede, dimisso in terris corpusculo, praemiatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXIX.</head>
+<p><pb n="438"/>
+LXIX. Frater Jacobus Bergi, plus quam satis industrius
+in omnibus peragendis. Homo fuit praerogativae non parvae.
+Prior fuit Ananiae ; in Pisis Supprior. Ex multis actibus bonis,
+feliei jocunditate laetatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXX.</head>
+<p>LXX. Frater Bartholomeus de via Sanctae Mariae, pro-
+bitatibus locupletus, scriptor perfectus, et cantor, et continua-
+tor cellae; ita quod alibi nisi ibi, aut in choro, sive in refe-
+ctione inveniri non posset: Supprior Conventus; et per viam
+Sanctae Mariae humili devotione procedens, excessit in coe-
+lum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXI.</head>
+<p><pb n="439"/>
+LXXI. Frater Hugolinus de Lapida. Hic fuit de magnis
+praedicatoribus maximus. Vir indubie singularis in bonis, scien-
+tia multa praeditus, vitae suae a vitiis excubator invictus,
+populo gratus, Conventui salutaris, Ordini praetiosus. Factus
+praedicator generalis Neapolim <date value="12790000">MCCLXXVIIII</date>; et ideo, ut
+lapis solidus et virtuosus, in coelestium haedificium fuit ele-
+ctus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXII.</head>
+<p>LXXII. Frater Gualfredus, conversus sollicitissimus et in-
+dustrius procurator, multum fuit Conventui utilis quando vixit.
+Sic sibi, quando ipsum de tanto Deus labore vocavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXIII.</head>
+<p>LXXIII. Frater Blasius de Peccioli, fuit clericus specta-
+bilis valde: namque scientificus multum, et lector, et etiam fa-
+mosissimus praedicator; ita ut cuncti utriusque sexus populi,
+ejus fervidis sermonibus traherentur: et ipse, consummato opere
+praedicandi et vivendi, fuit coelitus a carnis onere leviatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXIV.</head>
+<p><pb n="440"/>
+LXXIV. Frater Johannes Boccadoro, recte secutus est nomen.
+Non solum in ore fuit aureus, sed tota vita sua auro puris-
+simo similis erat. Unde ommibus erat plurimum gratiosus; et sic
+impressam sibi imaginem Creatoris nullatenus obumbravit. Quare
+in coelestes thronos eum manus angelicae portaverunt.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXV.</head>
+<p>LXXV. Frater Bectus de Camugliano, reverenda persona,
+doctus in grammatica, et in <hi rend="italic">Biblia</hi>, ac etiam in <hi rend="italic">Glossis</hi>; et ideo
+continuus erat corrector mensae et magister juvenum, et in-
+structor, tam in moribus quam, in licteris, studiosus. Et ideo
+dexteram Dei sibi propitiam, consumpto corpore, provocavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXVI.</head>
+<p>LXXVI. Frater Bonajuncta de Vico, conversus, fuit vir
+bonus, homo pacificus, humilis et fidelis in officiis sibi commis-
+sis; et ideo stipendia vitae beatae a Domino reportavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXVII.</head>
+<p>LXXVII. Frater Benedictus de Plumbino, studiosus et in-
+tellectu aptissimus clericus, fuit non exiguae probitatis: nam-
+que vita aedificatorius, in agendis providus, et acceptissimus
+praedicator. Hic cum aliis benedictis fuit ad coelorum regna
+vocatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXVIII.</head>
+<p><pb n="441"/>
+LXXVIII. Frater Benedictus de Sismundis: nobilis domus
+est, et ingenua parentela. Hic, sicut nobiliter natus, ita no-
+bilius conversatus, devotione quidem humilis valde fuit. Clericus
+scientificus, prudens et providus in commissis, mansuetus in re-
+sponsis, impiger in officiis, pro Conventu ardebat quasi facula.
+Prior fuit Pisanus, discretus et planus. Ad ultimum audivit, con-
+sumpto mortali cursu: ad coelestem ingredere benedictionem.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXIX.</head>
+<p>LXXIX. Frater Galganus de Calcinaria, caerimoniosus
+Frater et utilis, obiit juvenis, sed jam praesbiter ordinatus;
+et collocatus in regali sacerdotio Paradisi.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXX.</head>
+<p>LXXX. Frater Michael de Gota, fuit dilectissimus Frater:
+un enim quae potuit facere, praetermisit, utilia pro Conventu.
+Nam, praeter quae in ecclesia, ad divinum cultum pertinentia
+et honorem, librorum, qui sunt in armario, sollicitissimam et
+diutissimam curam egit, in ornando, custodiendo et sine di-
+minutione conservando. Ad extremum, ab illo qui aperit li-
+brum et solvit signacula in libro vitae, fuit indelebiter adno-
+tatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXI.</head>
+<p><pb n="442"/>
+LXXXI. Frater Hugolinus de Vico, multum religioni studuit
+omni tempore vitae suae; sequens indefesse comunia obedientiae,
+verae humilitatis et patientiae, oratinum et disciplinarum, in
+quibus lacrymas effundebat. Optimus magister novitiorum, et
+confessor monasterii Sanctae Crucis: cujus arboris, consummato
+cursu, fructus dulcissimos apprehendit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXII.</head>
+<p>LXXXII. Frater Hugolinus de Canneto: quasi benedictus
+a Domino. Non sine causa sic scriptum reperii in gestis anti-
+quis; quum omni beneditione et gratia repletus, humilis et de-
+votus, et vixit diu et sine tempore praemiatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXIII.</head>
+<p>LXXXIII. Frater Guillelmus de Cascina, religiosus multum,
+et observavit indesinenter illa quae in professione promisit. Sa-
+cerdos, cum omni devotione celebrabat. Quae ministeria hic di-
+ligenter in tempore exercuit, in alia sine tempore vita clarius
+contemplatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXIV.</head>
+<p>LXXXIV. Frater Gaddus de Comitibus de Donoratico, quae
+fuit progenies inclita, et in tota Italia satis clara. Quantus
+fuit ejus mirabilis accessus ad tantae Ordinem paupertatis, ita
+fuit processus vitae venerabilis et stupendus. Delitiis nutritus;
+<pb n="443"/>
+ad gloriam mundi undique provocatus; ad regimen etiam Pi-
+sanae civitatis, ut caeteri de sua domo, propinquus; dimissis
+omnibus, humilis et dejectus, humilitatis coelestem satorem
+Christum, ut se lucrifaceret, est secutus. Nulla in ipso pompa
+vel fastus, nulla procacitas, nulla propriae voluntatis executio,
+nulla repetendi saeculi cura fuit. Manum aratro confixam nulla
+vis potuit extorquere. Nullae mundi blanditiae retro vultum, ad
+Dominum. erectum atque directum, evolvere potuerunt. Ut apis
+argumentosa, religionis et scientiae a floribus Ordinis colligere
+et mella conficere viriliter satagebat. Studia hinc inde perlu-
+strans, nulli labori vel vigiliis parcens, tandem rediens de studio
+Parisiensi, jam factus praedicator generalis et lector Pisani Con-
+ventus, non sine magno Ordinis detrimento, ad magna sibi
+bona paratus, cessit vitae mortali; quam Deus, non dono er-
+ratico sed aeterno et copioso, praemiat in excelsis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXV.</head>
+<p>LXXXV. Frater Philippus Bursa, non est oblivioni tradendus:
+probitas enim sua ipsum multis argumentis reddidit utique me-
+morandum. Bibliam scivit ex toto, tam textum quam Glossas;
+circa quam addiscendam dedit operam efficacem: excellentissi-
+mus cantor, et in aliis bonitatibus excessive foecundus: et sicut
+sacrarum licterarum fuit hic amplissima bursa, ita fuit recon-
+ditus in aeterna.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXVI.</head>
+<p>LXXXVI. Frater Johannes de Cantone, vir profecto Dei, sine
+quocumque defectu: fuit enim simplicis fidei, utpote qui Deo sine
+malitia serviebat. Ordinem sacerdotii humiliter valde suscepit;
+unde inter coelestes ordines sors illius merito sublevatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXVII.</head>
+<p><pb n="444"/>
+LXXXVII. Frater Cecchus Nasus, electus Dei atque dilectus.
+Inter alias multas virtutes, quas illum gratia divina dotaverat,
+haec in illo viguit excessive: scilicet quod infirmis vultu semper
+hilari serviebat, non solum illis necessaria ministrando, sive
+cibaria sive medicinalia propinando, sed etiam illis indigentibus
+elemosynas procurando. Quibus sanctis exercitiis devoto et per-
+severanti corde consummatis, Christum, pro quo se exhibuit,
+habuit pro mercede.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXVIII.</head>
+<p>LXXXVIII. Frater Justus, homo perutilis, sufficientis licte-
+raturae, religionis, compositae conversationis et bonae, valde
+gratus in verbo divino. Sic, re justus et nomine, inter justos et
+sanctos fuit ejus spiritui data societas, vocato de corpore in
+Civitate Castelli, dum ibi prioratus officio fungeretur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>LXXXIX.</head>
+<p>LXXXIX. Frater Leonardus de Vico, conversus, bonus et
+humilis atque devotus, laboriosus satis: unde illi qui vicit leonem
+de tribu Juda merito gratiosus, inter victores fuit finaliter
+exaltatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XC.</head>
+<p><pb n="445"/>
+XC. Frater Mathaeus de Morrona, magnae scientiae cle-
+ricus; lector honorificus Pisis et alibi; praedicator excellentis-
+simus in Pisano Conventu, ubi tunc famosissimi ponebantur;
+offert gloriose praedicandum hominibus quem Deus in terra im-
+plevit gratia, et in coelis gloria aeterna coronat.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCI.</head>
+<p>XCI. Frater Leo de Sancto Sixto, religiosus plurimum
+commendandus, fuit cantor arte et usu perfectus, vitae nitore
+mundus, praedicatione praeclarus, in divino cultu sollicitus.
+Meruit in aeternis laudibus perenniter, insatiabiliter refoveri.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCII.</head>
+<p>XCII. Frater Johannes Fortis non est secundum corpus
+sed secundum spiritum nominandus: semper enim in carne de-
+bilis a languidus fuit, sed spiritu fortis et constans. Nullatenus
+fuit in patientia fractus: non enim est parvi nunquam ab infir-
+mitate obtinere libertatem, et in animo non servituti submicti.
+Et sic fortis factus in bello, postquam legiptime usque ad ul-
+timum decertavit, coronam immarcescibilem victor accepit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCIII.</head>
+<p>XCIII. Frater Philippus de Sancto Luca, scriptor pul-
+cherrimus, cantor peritus et placidus; in serviendo robustus;
+infirmis benignus et pius, non solum compassionis affectu, sed
+<pb n="446"/>
+obsequiorum effectu: ideo, quia in hac vita industrius otio non
+vacavit, otio quietatur aeterno.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCIV.</head>
+<p>XCIV. Frater Hubaldus de Carfagnana, multum bonus
+conversus, sacrista excellentissimus, industrius, sollicitus in
+procurandis necessariis sacristiae: quare, diligenter officio vitae
+peracto, spiritus in alta conscendit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCV.</head>
+<p>XCV. Frater Leonardus de Spina, inter viros laude dignis-
+simos non est immerito conscribendus. Nam, exemplaris in sae-
+culo, exortatione sua in Ordine plurimos juvenes collocavit:
+deinde, Ordinis habitu devote suscepto, non segniter incepta
+perfecit. Honeste quidem et munde vitam in austeritate poeni-
+tentiae agens, fuit pluries novitiorum magister; et sic vitam
+temporalem in aeternam, felici commercio, commutavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCVI.</head>
+<p>XCVI. Frater Henricus de Plumbino, juvenis ad studium
+valde aptus, dimissis defectibilibus scholis in terris, ad coelestes
+se transtulit visiones.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCVII.</head>
+<p><pb n="447"/>
+XCVII. Frater Claruccius, adhuc subdiaconus, in coelesti
+hierarchia fuit ab animarum bono episcopo collocatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCVIII.</head>
+<p>XCVIII. Frater Jacobus de Sancto Cosma, studiosus pluri-
+mum juvenis, totus pacificus et suavis, in societate laetatur
+pacis aeternae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>XCIX.</head>
+<p>XCIX. Frater Bectus de Vacca: familia fuit satit antiqua
+civium Pisanorum, et omnes istum Conventum plurimum di-
+lexerunt; etenim ecclesiam Sanctae Katharinae unus ex eis
+promovit in altum, cum operarius ipse fuit. Hic Frater, licet
+ignarus grammaticae Ordinem fuisset ingressus, in brevi didicit
+primam artem; et multa ulterius didicisset, nisi misericordia
+Dei, ut aeterna tribueret, praesentis vitae sibi terminos rese-
+casset.
+</p>
+</div1>
+<div1 type="sezione">
+<head>C.</head>
+<p><pb n="448"/>
+C. Frater Gadduccius de Sismundis (de cujus genere fe-
+cimus superius mentionem), juvenis fuit valde sensatus: et
+ideo, si praesentia cernimus, magnum damnum secutum est
+Conventui nostro cum mors eum nimis cito delevit; licet spi-
+ritum Deus cum praecedentibus juvenculis rapuisset in coe-
+lum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CI.</head>
+<p>CI. Frater Benedictus Guerrigi, aptus ad studium, usque
+ad sacerdotium perductus, jam magister artium acutus, et in
+alias scientias valde paratus; vitae modestae et religiosae culmen
+aspiciens, ut finaliter perveniret, tulit eum Deus sine tempore
+praemiandum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CII.</head>
+<p>CII. Frater Dominicus de Sancto Paulo, conversus valde
+utilis. Hic primus qui fuit vocatus nomine Patris Nostri; cujus
+internentu eum Deus super aethera collocavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CIII.</head>
+<p>CIII. Frater Guido de Murciis: Murcii est popularium
+Pisanae civitatis domus egregia. Hic etiam juvenis, ad omnia
+quae religio immaculata requirit, dispositus excessive, cum in
+artibus in Pistorio magister existeret; idem, completo citissimo
+cursu, praesenti visu gloriae delectatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CIV.</head>
+<p><pb n="449"/>
+CIV. Frater Deodatus, peritus in legibus, et in foro causi-
+dico eloquentissimus advocatus, intravit Ordinem, Dei amore
+compunctus; in quo sic regularem tenuit disciplinam, ut esset
+omnibus in exemplum: et post multa annorum curricula, adhaesit
+ejus anima immobiliter motori superno.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CV.</head>
+<p>CV. Frater Johannes, carpentarius, conversus. Cito ejus
+laboribus Deus posuit finem bonum; cum ad se ipsum, dum esset
+novitius, conjunxit in coelo.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CVI.</head>
+<p>CVI. Frater Johannes Gattarelli, cum sancto profitendi pro-
+posito adhuc novitius, fuit ad alta praemissus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CVII.</head>
+<p><pb n="450"/>
+CVII. Frater Jordanis. De hoc nec dictamen ingenii
+nec nota licterae poterit sine diminutione narrare, quia de
+ejus memoria incredibilia, et scripta a prioribus reperii, et a Pa-
+tribus magnae auctoritatis audivi: quae nisi forent, scribere
+nullatenus praesumpsissem. <hi rend="italic">Breviarum</hi>, <hi rend="italic">Missale</hi>, majorem partem
+<hi rend="italic">Bibliae</hi> cum <hi rend="italic">Glossis</hi>, <hi rend="italic">Secundam</hi> Sancti Thomae, et multa alia
+comprehensa memoria retinebat. Sanctae vitae, ita ut, credebatur,
+miraculis corruscavit. Dum enim innumerabili populo praedi-
+caret, crux rubra in ejus fronte, cunctis videntibus et
+mirantibus, impressa semel, ostendit ejus testimonium sancti-
+tatis. Licteris, quas liberales vocant, funditus apprehensis, et
+doctis studiis Bononiense et Parisino discursis, li-
+brum <hi rend="italic">Sententiarum</hi> theologicum legit eleganter Florentiae in
+studio generali: deinde ibidem tribus annis lector principalis
+existens, ut stella candida corruscavit. Diffinitor etiam
+Capituli provincialis, et praedicator generalis, et lector Pi-
+sis et alibi. Sed qualis fuerit sermonum divinissimus
+seminator, adhuc qui recollecti reperiuntur, ad astra subtollunt.
+Sicut enim olim quando Deus pluit manna de coelo, sic Flo-
+rentiae et Pisis et omnibi, ubi ejus verba resonabant, collige-
+bantur, servabantur, vulgariter scribebantur: erant enim plena
+sapientiae. Virtutum sigillo muniebat, spiritu calefiebat, et
+spiritu radiabat. Viri, ejus oratione eloquentissima corde com-
+punti (quos infatigabiliter, quater et saepe in die quiniquies,
+praedicando emolliebat duros), inimicitias in amicitias
+convertebant; ed mulli, dimissis omnibus vitiis, in ipso
+Jordane se ipsos lacrymis baptizantes, vitam in melius commu-
+tabant. Mulieres (quarum genus in lavaturis et vestibus
+et jocalibus consuevit involvi), rejectis cunctis lascivis usibus,
+honestius procedebant. Disciplinatos in Pisis primus in-
+<pb n="451"/>
+venit, quorum initium fuit bonum: et Sotietas Salvatoris per
+eum inventa fuit prima in civitate Pisana. Quid ultra
+dicam? Non praeteribo quod mihi Frater Taddeus Dini, vir
+excellentiae magnae, narravit. Dixit, namque, se audivisse ab
+uno de Patribus majoribus nostrae provinciae: <hi rend="italic">plura</hi> (inquit)
+<hi rend="italic">scit Frater Jordanis solus, quam omnes Fratres provinciae si-
+mul</hi>. Et sic, dum totam nostram civitatem ad aureum
+saeculum perduxisset, vocatus per obedientiam a Fratre
+Americo de Placentia, nostri Ordinis tunc magistro, ut iret
+Parisios ad legendum, et deberet magistralibus infulis insigniri;
+in Placentia, inter manus dicti magistri et aliorum proborum,
+cum summa devotione emisit spiritum, choris apostolicis sotian-
+dum, ubi gaudet aevo perenni. Cujus corpus per cives Pisanos
+Pisas adductum, innumeris populis sociatum, clamantibus simul
+et flentibus ac suspirantibus, fuit in ecclesia Sanctae Katharinae
+in mausoleo collocatum; quod etiam, nunc sub sepulcro mar-
+moreo Archispiscopi Simonis clare monstratur: ad quod
+etiam ejus lapideum reposticulum vidi ego multas cereas pen-
+dentes imagines, positas ab iis qui gratias a Deo ejus oratione
+et meritis acceperunt; quas tolli oportuit in positione tumuli
+Archiepiscopi supradicti. Vixit in Ordine hic Pater an-
+nis <num>XXXI</num>: cujus felicissimus transitus fuit <date value="13110000">MCCCXI</date>, de
+mense augusti, infra octavas Sanctae Mariae Matris Dei et
+Virginis gloriosae; cujus officium indesinenter in dormitorio
+ita fervide, tam alte, sic clare, tamque devote incipiebat, ut
+omnes ad simile concitaret. Haec sunt exempla tenenda priorum;
+haec fundamenta et aedificia quibus adhuc nostra vilis debilitas
+substentatur, quorum adhuc calore nostra frigiditas recalescit:
+quae si pro parte sequeremur, essemus Deo magis accepti, et
+populis in praetio cariori.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CVIII.</head>
+<p><pb n="452"/>
+CVIII. Frater Guilielmus, conversus, magister in sculptura
+peritus, multum laboravit in augmentando Conventum. Hic,
+cum beati Dominici corpus sanctissimum in solemniori tumulo
+levaretur, quem sculpserat magister Nichole de Pisis, Poli-
+cretior manu, sociatus dicto architectori, clam unam de costis
+sanctissimis de latere ejus extorsit; non memoria magistri Or-
+dinis, cum excomunicatione lata, praecepti, qui tunc cum
+generali Capitulo Bononiae praesens erat; dictamque costam
+portavit Pisis, et in altari sanctae Mariae Magdalenae reverenter
+abscondit: quam in morte, petendo veniam de innocenti, ut sic
+loquar, culpa, lacrimabiliter revelavit. Quam invenientes Fra-
+tres ubi ipse praedixerat, in sacristia venerabiliter posuere.
+Obiit, postquam vixit in Ordine <num>LVI</num> annis, quae fuit aetas
+completa; cujus spiritus sine tempore in sinu Abrahae feliciter
+requiescit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CIX.</head>
+<p><pb n="467"/>
+CIX. Frater Oddo Theuthonicus, natus in Pisis patre Theu-
+thonico, fuit valde devotus et exemplaris; et tam Latinis quam
+Germanis, propter utriusque linguae peritiam, gratus et acce-
+ptus: de cujus devotione quidam meus avunculus mira dicebat
+in castro de Peccioli; namque devotus illius familiae satis erat.
+Cantor fuit placidus el peritus. De insula Sardineae ad firmam
+terram viventium navigavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CX.</head>
+<p><pb n="474"/>
+CX. Frater Hubaldus de Cantone (hii fuerunt cives honoris),
+fuit homo valde probus, et sufficientis scientiae clericus; persona
+quieta et plana, et in Ordine satis antiquus. Amplitudinem obti-
+nuit vitae perennis <date value="13120000">MCCCXII</date>, de mense decembris.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXI.</head>
+<p>CXI. Frater Raynerius de Sancto Ambrosio, conversus, cal-
+cifex doctus, et in aliis nullatenus otiosus. <date value="13130000">MCCCXIII</date> obiit Sa-
+rezanae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXII.</head>
+<p><pb n="574"/>
+CXII. Frater Mathaeus Capannetta, duodennis oblatus a pa-
+tre, per quatuor annos innocentissime vixit, ut inter milia inno-
+centium numerari sit dignus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXIII.</head>
+<p>CXIII. Frater Alexander de Spina, vir modestus et bonus,
+quae vidit oculis facta, scivit et facere. Ocularia ab alio primo
+<pb n="476"/>
+facta, communicare nolente, ipse fecit, et omnibus communicavit
+corde hilari et volente. Cantare, scribere, miniare, et omnia scivit
+quae manus mechanicae valent. Ingeniosus in choralibus, in
+domo Regis aeterni fecit suo ingenio mansionem.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXIV.</head>
+<p><pb n="477"/>
+CXIV. Frater Johannes de Sancto Sixto, sacerdos jam in Or-
+dine factus, bonus et quietus veniens de Sardinea, sistitit gra-
+dum in termino qui numquam in perpetuum terminatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXV.</head>
+<p>CXV. Frater Johannes de Calcinaria, de familia et filius ma-
+gistri Falconis, pstruus domini Bonajunctae cui noster Conven-
+<pb n="478"/>
+tus, ob magna beneficia et in vita nobis et in morte collata, plu-
+rimum obligatur. Hic Frater fuit valde sensatus, pluries vicem
+Prioris gessit in nostro Pisano Conventu. Zelavit fervide, vixit
+honeste, procuravit sollicite; magnus in ecclesia et alibi, et acce-
+ptus ubique confessator. Postea, peractis in Dei servitio an-
+nis <num>XLIII</num>, super astra lucifera praemisit animam, corpore in
+terris dimisso, venerabiliter tumulato <date value="13130000">MCCCXIII</date>, de mense
+martii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXVI.</head>
+<p>CXVI. Frater Bonaccursus de Lanfranchis, latere Malepw
+(quae domus est Pisis nobilitate numerosa), juvenis omnibus
+Fratribus gratiosus, moribus compositus, reverendus et reverens
+bonae spei et magnae expectationts apud omnes, tam Fratres
+quam etiam consanguineos et consortes. Primo anno sacerdotii,
+dum esset Senis juvenis studiosus, cui non segniter intendebat,
+beandum semper spiritum, exhalavit <date value="13150000">MCCCXV</date>, kalendis octo-
+bris.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXVII.</head>
+<p><pb n="479"/>
+CXVII. Frater Johannes, conversus, continuatis temporibus
+discretus portarius et impiger; maturus non solum tempore, sed
+et vita; pauperibus valde pius: unde advenientes reficiebat, quan-
+tum sibi posse conferebat, facie semper laeta. Post diurna et con-
+tinuata opera, misericordiam ultimam consecutus, dies aeternos
+meruit adipisci.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXVIII.</head>
+<p>CXVIII. Frater Leo de Pecciis (tertius de illa clara familia
+Pecciorum), fuit vir probus et bonus, scriptor et cantor excellens,
+et clericus intelligens valde. Vitam duxit nullatenus otiosam; et
+in Capitulo Aretino <date value="13160000">MCCCXVI</date>, ubi erat pro Conventu Castelli
+Castri procurator et sotius, in conspectu venerabilium Fratrum
+vocatus a Deo, est in immobili requie collocatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXIX.</head>
+<p><pb n="480"/>
+CXIX. Frater Bartholomaeus de nobilibus de Vallechia, sed
+etiam plus virtutibus generosus; clericus intelligens et studiosus,
+praedicator valens et copiosus, religiosae fuit vitae et caerimoniosus.
+Numquam extra refectorium comedebat. A choro non deficiebat
+tam de die quam de nocte, el in omnibus horis. Orationis sedulae
+contemplatione plurimum elevatus, sensatus et cordatus homo. Bis
+Prior nostri Conventus, rexit provide, legit abunde. Post indesi-
+nentia bona opera, vallatus caterva virtutum, conjunctus est agmi-
+nibus Angelorum, <date value="13130000">MCCCXIII</date>, de mense junii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXX.</head>
+<p><pb n="481"/>
+CXX. Frater de Rivoalto Vallisherae Johannes, consangui
+neus Fratris Jordanis, homo fuit dotatus, scriptor venustus et ve-
+lox, cantor doctus et placens. Primam missam in aurora ommi
+mane dicebat. Sotius fuit magistri Ordinis, et plurium provincia-
+lium; et cum diu in hac miseria rivulum potasset gratiarum, fa-
+ctus est in eo fons aquae salientis in vitam aeternam.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXI.</head>
+<p>CXXI. Frater Mathaeus, conversus, de Asciano, cum renun-
+tiasset uxori ducendae et aliis mundi pompis, novitius animam
+Deo dedit perpetuo consolandam.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXII.</head>
+<p>CXXII. Frater Fredericus Sardus, optimus homo et lictera-
+tus, Supprior Pisanus. Tandem exaltatus fuit ad cathedralem ec-
+clesiam Sanctae Justae in Sardinea, juxta Arestanum; ubi digne
+infula episcopali potitus, inter viros coelicolas adunatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXIII.</head>
+<p><pb n="482"/>
+CXXIII. Frater Johannes de Scorno: villa fuit in Pisis. Acta-
+men ipse civis non solum in terrena civitate, sed potius in libera
+Hierusalem possessor aeternus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXIV.</head>
+<p>CXXIV. Frater Raynerius Maturus, a familia sua sic dictus;
+et vere maturus in omni morali et spirituali virtute; Ordinis disci-
+plinam indefectibiliter observabat. Fervebat zelo, procurabat pro
+Conventu sollicite. Adprobatus ab Ordine multum, expletis sine
+crimine in sancta religione sexaginta annis et octo, fructus matu-
+ritate suavissimos collegit felicitatis aeternae, <date value="13180000">MCCCXVIII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXV.</head>
+<p>CXXV. Frater Johannes Mascha (nobilis erat domus), totus
+piuis et simplex, in tantum quod erat Fratribus omnibus solatium
+ipsius simplicissima vita. Hic vidit aeternos dies, quinquaginta
+octo annis in Ordine consummatis, <date value="13280000">MCCCXXVIII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXVI.</head>
+<p><pb n="483"/>
+CXXVI. Frater Thomas de Sciortis: hii fuerunt in Pisis di-
+tissimi mercatores: fecerunt pingi Capitulum nostrum. Iste Frater
+fuit valde devotus et utilis, saecularibus valde gratus confessor
+et cantor, et licteris non privatus. Vixit in Ordine triginta annis,
+et postea aeternaliter requievit, <date value="13200000">MCCCXX</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXVII.</head>
+<p>CXXVII. Frater Jacobus Sostegni, conversus, diligentissimus
+infirmorum servitor, et humilis; diu vixit, ut aeternam mortem
+vitaret in saeculo sempiterno.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXVIII.</head>
+<p>CXXVIII. Frater Bernardinus, conversus bonus et utilis, in
+Sardorum insula migravit ad Christum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXIX.</head>
+<p>CXXIX. Frater Gaddus, de famosis Conventus nostri con-
+versis; nocte orationibus insistebat; diem impendebat procurationi
+Conventus. Sacrista peroptimus, in saeculo aurifex fuerat. Vixit
+in Ordine <num>XXX</num> annis maxima laude; sed majori, immo infinita,
+exultat in coelis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXX.</head>
+<p><pb n="484"/>
+CXXX. Frater Marinus de Cascina, cum esset valde religio-
+sus, suavis et planus, sex vicibus Supprior fuit in Pisis. Pater
+pius et dulcis, et sequens comunia, sine omni defectu. Prior Ser-
+zanae, et in Sardinea bis; ubi, deficiente mortali et brevi vita,
+potitur aeterna, de mense februarii <date value="13220000">MCCCXXII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXI.</head>
+<p>CXXXI. Frater Gregorius de Vico, verissimus Dei servus,
+sensatus, prudens, discretione modestus, zelabat ardentissime
+pro Ordinis et Conventus augmento; unde magister novitiorum
+fuit pluries, et multorum: inter quos et ego vidi quamplures
+qui fuerunt discipuli ejus, quibus non solum doctrinam sancti-
+tatis el vitae perfectae ministrabat, sed etiam temporalia pro-
+curabat. Hic, cum in agro dominico diutius laborasset, colle-
+ctus ad praesens, in vera pace quievit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXII.</head>
+<p>CXXXII. Frater Gaddus de Sancto Fridiano, fuit Frater
+plurimum studiosus; sermocinator gratus, in latino pariter et
+vulgari; cantor doctus et expertus. De mense julii fuit superius
+elevatus, <date value="13240000">MCCCXXIV</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXIII.</head>
+<p><pb n="485"/>
+CXXXIII. Frater Corradus Nuccii, ultra quam scribi possit
+valde devotus: ob quam causam, Hierosolymam transfretavit, et
+in loco juxta Sacrosancti Sepulcri mansit clausus pluribus
+annis. Post omnia devote completa, ad supernam Hierusalem
+sursus est, et (ad) libera liberrimus evolavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXIV.</head>
+<p>CXXXIV. Frater Johannes de Sancta Viviana, conversus
+sollicitus fuit valde; et praecipue infirmis hilariter serviebat,
+cibos parabat et humaniter porrigebat. Quare, immensa dona
+nactus, in mensa Domini saturatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXV.</head>
+<p>CXXXV. Frater Raynerius, conversus, dle Sancto Sixto,
+calcifex expertus; pro Conventu procurator importunus; cu-
+stos rerum minime somnolentus; multum religiosus et carus;
+antiquus obiit, sed spiritu inrevocabiliter juvenescit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXVI.</head>
+<p>CXXXVI. Frater Laurentius Sardus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXVII.</head>
+<p><pb n="486"/>
+CXXXVII. Frater Jacobus Donati. Hujus opera ipsum usque
+ad astra substollunt. Licteratus magnus, utpote qui studuit in
+primis scientiis, et exinde in theologia Parisius: unde rediens,
+fuit multoties lector in Pisis a Perusio. Religiosus plurimum,
+praedicator excellens, pluries Prior nostri Conventus; omnibus
+principibus et populis gratiosus. Unde illustrissimus rex Rober-
+tus, contra Pisanos odio et furore turbolentus, placari eis non
+potuit nisi verbis istius, dulcissimis et sapientissimis, primo re-
+ceptis. Nam Pisanorum ad ipsum regem ambaxiator directus et
+missus, ita eumdem ad concordiam inclinavit, ut, ipso volente,
+cives legati ad ipsum pacem firmissimam impetrarunt. A quo
+rege, eum secum pro consiliario nitente tenere, repudiavit, …
+potius in humilitate vivere, quam in fastidioso fastigio saeculi
+remanere. Praedicator fuit generalis, et pluries diffinitor provin-
+cialis Capituli. Ita mentes civium cujuscumque conditionis sua
+prudentia et solertia tenebat inclusas, ut quidquid petebat, sive
+in communi sive in particulari, indefectibiliter obtinebat. Ipse
+enim, de pecunia procurata, ecclesiae Sanctae Katharinae fa-
+ciem (opus marmoreum admirandum) incepit atque complevit.
+Iste fuit qui dimisit Conventui anniversaria, non parva nec
+pauca. De istius etiam pecunia latus claustri, quod est ex parte
+hospitii et infirmitorii veteris, fuit laudabili sculptura perfectus.
+Habuit etiam libraria nostra communis, de suis, librorum volu-
+mina multa. Quapropter est, de Patribus praecipuis nostri Con-
+ventus, tenaci memoria recolendus: licet, ob haec et alia, quae
+scribi non possunt, laetetur in aeternum coelestibus armo-
+niis, <date value="13270000">MCCCXXVII</date> septembris.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXVIII.</head>
+<p><pb n="487"/>
+CXXXVIII. Frater Fredericus de Sancto Paulo ad Hortum,
+juvenis verecundus et bonus, mundus corpore et mente, devotus
+diaconus, in hortis irriguis coelestis patriae delectatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXXIX.</head>
+<p>CXXXIX. Frater Oddo de Sala: familia fuit populi de
+nostrae senioribus civitatis: habitatio eorum fuit ubi nunc est
+Anthianorum platea. Hic fuit clericus omnino completus: primo,
+in corpore, de pulcrioribus et magis formosis hominibus cujus-
+cumque status, qui suo tempore sunt inventi; deinde, magni
+consilii. Licteratus, et Parisius studens, et lector Pisis, et prae-
+dicator acceptus, sensatus, et Prior Pisis; quoniam, ut meis au-
+ribus ego percepi a domino Raynerio Damiani, consultissimo
+<pb n="488"/>
+viro, excessit in prudentia clericos universos; habuitque plu-
+rimas dignitates.
+Fuit:
+<num>1.</num> Episcopus Terralbensis.
+<num>2.</num> Polensis.
+<num>3.</num> Archiepiscopus Arborensis.
+<num>4.</num> Archiepiscopus Pisanus.
+<num>5.</num> Patriarcha Alexandrinus.
+Postea, omnibus ecclesiis audacissime et virilissime gubernatis,
+sui laboris praemium accepit felicitatis aeternae, de mense
+maji <date value="13240000">MCCCXXIV</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXL.</head>
+<p><pb n="489"/>
+CXL. Frater Robertus Del Drago: fuerunt cives antiqui.
+Hic fuit homo mirabiliter virtuosus, et exemplaris religiosus.
+Fuit Episcopus Usellensis, et multa dimisit Conventui bona:
+<pb n="491"/>
+inter alia, pictantiam in Coena Domini, ad quam invitantur
+illi del Tignoso de Sancto Martino, qui fuerunt consanguinei
+sui. Jacet ejus venerabile corpus in ecclesia nostra coram altari
+majori; cujus spiritus cum coelestibus jocundatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLI.</head>
+<p><pb n="492"/>
+CXLI. Frater Orlandus de Soana, persona valoris in Ordine;
+sed postea factus est episcopus Doliensis. Bene se gessit; et
+tandem suaviter vocatus e corpore, non cessat divina fruitione
+repleri. Omnes isti episcopi, defuncti sunt <date value="13200000">MCCCXX</date>; sed hic
+<pb n="493"/>
+sunt positi oblivione scribentium: credo enim, et ita comperii,
+quod multi Fratres fuerunt, qui ab isto libello antiquitus ne-
+glecti fuerunt.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLII.</head>
+<p>CXLII. Frater Bartholomaeus de Cantone: fuerunt cives satis
+antiqui, de quibus aliquos ego vidi. Fuit vir quorum merita
+invitant ipsum laudibus non parvis efferre. Fuit enim religiosae
+valde conversationis et gratae, magnae scientiae et multae peritiae;
+propter quae, officia praelationis obtinuit. Prior Pisani Conventus,
+ubi rexit provide valde; lector etiam Conventus nostri famosus.
+Iste incepit componere nostri claustri Pisani marmorei admiran-
+dum omnibus opus, et ecclesiam et refectorium monasterii Sanctae
+Crucis. Tandem, vitae cursu laudabiliter consummato, aeterni-
+tate interminabili requiescit, <date value="13280000">MCCCXXVIII</date> octubris.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLIII.</head>
+<p><pb n="494"/>
+CXLIII. Frater Henricus de Balneo: qui fuerunt mercatores
+magni et cives antiqui, in capite Vici Majoris. Hic, valde devotus
+et prudens atque discretus, de quo multa magnalia sperabantur
+(ut mihi quidam narravit Frater antiquus), novitius, relicto
+cadenti saeculo, meruit habitacula coeli.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLIV.</head>
+<p>CXLIV. Frater Guido de Fraxis, in Sancto Paulo ad Hor-
+tum: antiquissimi cives. Hic fuit utilis, et exemplaris omnibus
+valde. Fuit Supprior Pisis; tunc enim temporis erat supprio-
+ratus officium Fratrum venerabilium, non ut modo: et diebus non
+paucis in religione bene consumptis, gaudet cum Christo in saecula
+sempiterna.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLV.</head>
+<p>CXLV. Frater Huguiccio de Ucellis: fuit in Pisis, de anti-
+quis, honesta valde familia. Germanus sororis Katharinae de
+Ucellis (quam senio ego vidi confectam), et Supprior Pisanus, fuit
+omni ex parte probatus et bonus. Tandem. dimissa gravi carne,
+ad coelorum alta volavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLVI.</head>
+<p><pb n="496"/>
+CXLVI. Frater Bonacursus de Septimo, devotionis magnae
+fuit; et sic bonum cursum consummavit in brevi, ut, adepto sacer-
+dotii gradu, sic ut comprehenderet, feliciter praecucurrit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLVII.</head>
+<p>CXLVII. Frater Oddo de Pace: fuerunt illi antiquissimi cives:
+non remansit ex illis nisi nomen; scilicet Porta Pacis. Hic fuit
+religiosus memoriter digne colendus; utpote qui, instructus et
+operosus indefesse regularibus disciplinis, odoris exemplaris Fra-
+tribus, et civibus universis suavusimae conversationis, ut quinque
+vicibus esset Supprior in Pisis; et ultimo portam, pacis aeternae
+intrare promeruit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLVIII.</head>
+<p>CXLVIII. Frater Masinus de Mancis: isti etiam fuerunt cives
+electi. Hic fuit bonus cantor et confessor, et sensata et religiosa
+persona; et carus fuit et praetiosus Frater, inter omnes sui
+temporis Fratres. Supprior Pisanus, a Christo vocatus, inter
+spiritus sidereos collocatur. Iste Frater Masinus fuit operarius
+primi claustri Conventus Pisani.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXLIX.</head>
+<p><pb n="498"/>
+CXLIX. Frater Bartholomaeus de Cinquinis: adhuc sunt cives
+clari, sed magis fuere per prius. Hic fuit Frater cum duobus ger-
+manis carnalibus, de quibus infra suo loco dicetur. Iste fuit so-
+lemnis religiosus, licteratus, et Parisinus lector et Pisanus
+fuit: etiam sensatus homo in omnibus peragendis. Fuit Prior
+in Pisis, et diffinitor provincialis Capituli, et praedicator gene-
+ralis: inflexibilis a vero proposito. In nocte Nativitatis Domini,
+luminibus inferius et superius radiatus, cum coelestibus agmi-
+nibus cantavit Gloria in excelsis, <date value="13330000">MCCCXXXIII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CL.</head>
+<p>CL. Frater Fatius de Comitibus, germanus fratris Gaddi,
+superius nominati. Hic fuit nobilissima persona, tam corpore
+quam spiritu; et continentissimae vitae fuit; etiam valde sensatus.
+Tandem fuit promotus in episcopum Kironensem, et in commendam
+habuit ecclesiam Sancti Petri ad Vincula: et postquam vixit usque
+ad senium cum optima gratia, sedes supernas obtinuit incor-
+ruptas.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLI.</head>
+<p><pb n="499"/>
+CLI. Frater Bernardinus de Peccioli, eloquentissimus licte-
+ratus, praedicavit egregie, legit abunde. Prior in pluribus Con-
+ventibus, apud papam Bonifatium valde fuit acceptus, et tempore
+suo in Romana curia Ordinis procurator: et, ut mihi dixit
+quidam Frater antiquus, non fuit aliquis Frater saecularibus, ut
+ipse, gratiosus. Diffinitor Capituli provincialis; et post multos la-
+bores, quos, induratus, animo grandi substinuit, transivit in pa-
+triam quietis aeternae. Hunc Fratrem dixit Frater Hugolinus
+fuisse primum quem mori videret cum tantis lacrimis, ut nun-
+quam sic alium transivisse conspexerit, <date value="13340000">MCCCXXXIV</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLII.</head>
+<p>CLII. Frater Gaddus de Curtibus, fuit magnus cantor, et prae-
+dicator validus, et gratiosus et intelligens multum. Diu vixit in
+Ordine. Omni anno, adhuc senex, in nocte Epiphaniae evange-
+lium cantare voluit; et sic, cum illis Magis, fuit Deo ejus spiritus
+praesentatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLIII.</head>
+<p>CLIII. Frater Petrus, conversus, sacrista superexcellens, multa
+sacristiae nostrae paramenta paravit. Tabulam praetiosam procu-
+ravit fieri majoris altaris. Transivit Bononiae de hac vita, vadens
+Venetias, ut fieri faceret crucem magnam de lapide cristal-
+lino.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLIV.</head>
+<p><pb n="500"/>
+CLIV. Frater Bartholomaeus de Lambardis, de Libbiano Val-
+lisherae, sed de Calcinaria dictus, quum ibi aliqui stare venerunt,
+fuit intelligens Frater. Zelabat pro Conventu. Rediens de Neopoli
+a studio, Pisis infirmus, diem ibi clausit extremum; dieque poti-
+tus, qui numquam videt occasum, <date value="13360000">MCCCXXXVI</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLV.</head>
+<p>CLV. Frater Nicholaus Abbatis, magnus praedicator, et li-
+benter continuabat missas, et bene cantabat. Adhuc obediens juve-
+nis, de Sancto Miniate aevo perpetuo consolatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLVI.</head>
+<p>CLVI. Frater Jacobus Carfagni: isti fuerunt in Pisis cives
+honoris. Hic fuit magnae praerogativae clericus: fuit enim prae-
+dicator pollentissimus in tota provincia nostra, et Pisis novem
+continuis annis acceptus, in tantum ut ultimo plusquam primo
+populus sua verba sitiret. Lector in Pisis et Prior; diffinitor pro-
+vincialis Capituli, et generalis praedicator, civibus plusquam me-
+diocriter gratiosus; et fuit unus de maximis temporis nostri
+praedicator, et religiosus in omnibus praetiosus. In cujus tran-
+situ Archiepiscopus Pisanus, dominus Frater Simon, fecit of-
+<pb n="501"/>
+ficium sepulturae; et dominus Frater Guillelmus Dulcini,
+Episcopus Lucanus, sollemniter praedicavit: sed, quod plus
+est, suorum laborum metit fructum aeternaliter gloriosum,
+<date value="13380000">MCCCXXXVIII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLVII.</head>
+<p>CLVII. Frater Jacobus Huguiccionis, fuit completus religiosus,
+quietam et pacificam agens vitam. Supprior Pisanus, et antiquus
+dierum, perseverantis operis mercedem obtinuit repromissam.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLVIII.</head>
+<p>CLVIII. Frater Jacobus Cuchi, vir fuit probitatis et scientiae
+plus quam magnae. Episcopus fuit Sanctae Justae, et Conven-
+<pb n="502"/>
+tui nostro multa bona dimisit: cui sumus multipliciter et perpetuo
+plurimum obligati. Post multos annos, morte mediante, in thronis
+collocatur excelsis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLIX.</head>
+<p><pb n="503"/>
+CLIX. Frater Orlandus de Castilione Pischariae, con-
+versus bonus, ibidem alibique quaestuarius fuit. Calcifex pe-
+ritus, quietus in vita, in conversatione modestissimus fuit: et
+terminato hoc tempore, quod volat ad mortem, aeternae recepit
+stipendia vitae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLX.</head>
+<p>CLX. Frater Fatius, conversus, magister sculpturae, fuit
+devotus homo, et valde discretus. Longo tempore fuit portarius
+Conventus; et bene illud, caeteraque officia sollicite et obedienter
+implevit: et plenus aetate, dimisso carnis ergastulo, cum electis
+Dei sine tempore delectatur, <date value="13400000">MCCCXL</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXI.</head>
+<p>CLXI. Frater Thomas de Canneto, humilis et obediens atque
+pacificus juvenis; in hac vita non processit ulterius, a Christo
+in beatitudine perfecta vocatus, <date value="13400000">MCCCXL</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXII.</head>
+<p><pb n="504"/>
+CLXII. Frater Bartholomaeus Ciaffi: qui fuerunt nominatissimi
+cives ad Sanctum Clementem. Hic, studio completo provinciae,
+ivit in Angliam ad Oxoniam, deinde Parisius. Fuit iste de
+Patribus Conventus antiquis; licteris, scientiis naturalibus, et
+sententiis, fuit lector in multis Conventibus magnus; et Pisis lector
+et praedicator, et pluries Prior Pisanus, diffinitor Capituli provin-
+cialis, praedicator generalis in Capitulo pisano, <date value="12980000">MCCXCVIII</date>.
+De isto mirabilis fama fuit: nam religiosus fuit ita compositus,
+ita regularis, tam honestus, tam laudabilis, ut inter Fratres
+qui eum cognoverunt, audivi ipsum in sanctitate vitae omnes
+alios excessisse. Assiduus in oratione, lacrimas saepius effun-
+debat; nec suspiria et altos rugitus, pro fervore spiritus, po-
+terat reprimere, quin etiam longius audiretur. Quid plura?
+Dum vixit, fuit speculum sanctitatis et norma, et custos in
+Conventu indissolubilis disciplinae. Hic, suis expensis et solli-
+citudine, fecit fieri <hi rend="italic">Bibliam</hi> quae legitur in mensa, in lietera
+excellentissime pulcra, in quinque voluminibus; qua in Ordine
+nulla pulcrior invenitur. Expletis diebus, quibus diu in hac vita
+virtuosissime vixit, in coelo plena felicitate laetatur, <date value="13400000">MCCCXL</date>:
+cujus odor vitae perfectae adhuc in nostris memoriis perseve-
+rat.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXIII.</head>
+<p><pb n="505"/>
+CLXIII. Frater Jacobus de Avena, fuit intelligens clericus, et
+persona valoris. Voluit non esse advena terrae, sed incola pa-
+radisi.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXIV.</head>
+<p>CLXIV. Frater Angelus de Lanfreducciis: nobilis fuit domus.
+Hic fuit bonae conversationis et gratae, scientiae intendens; pro
+qua, dum in studio generali esset Florentiae, transivit ad flores
+et fructus amoenitatis aeternae, <date value="13410000">MCCCXLI</date>, aprilis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXV.</head>
+<p>CLXV. Frater Petrus Gallus: Galli sunt de domo nobili
+Ley. Hic fuit probus et bonus, non piger studio, et moribus
+compositus, licet esset juvenis: et sic parvo dierum in hac vita
+completo numero, alta tam gloriose quam virtuose conscen-
+dit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXVI.</head>
+<p><pb n="506"/>
+CLXVI. Frater Franciscus de Vico, domini Mensis, fuit
+persona non modicum proba: bene enim intendit studio, et vitae
+religiosae; et, completo studio provinciae, Neapolim peragravit.
+Et constitutus baccellarius Perusinus, ubi tunc studium vigebat,
+obiit ibi; translatus ad summa, ubi descensus nullatenus habet
+locum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXVII.</head>
+<p><pb n="507"/>
+CLXVII. Frater Dominicus de Vallesercli. Hic fuit dilectis-
+simus omnibus, obsequiosus et bonus, pacis et mansuetudinis
+excessivae, fortissimus robore; et infirmis serviebat hilariter et
+devote, et bajulabat debilibus et portabat. Supprior Pisanus;
+et, tam laudabiliter vita completa, emisit spiritum, super sidera
+manibus angelicis bajulatum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXVIII.</head>
+<p>CLXVIII. Frater Dominicus Cavalca, de Vico.
+Hic fuit reputationis ut sanctus, nec immerito; quoniam vitam
+religiosam indefectibiliter egit. Non otiosus, multos libros ad
+vulgare reduxit: multa opera in vulgari composuit pro personis
+Deo devotis; quae adhuc cum magna devotione leguntur: ut est
+libellus de <hi rend="italic">Patientia</hi>, utilis valde. Item <hi rend="italic">Disciplina spiri-
+tualium super epistolam Si spiritu vivimus</hi>. Item <hi rend="italic">Stultitiae spi-
+ritualium</hi>, prosa et metro compositae. Item <hi rend="italic">Speculum
+Crucis</hi>, et plura alia. Omnes infirmos, tam pauperes, quam
+alios, infatigabiliter visitando confortabat: omnibus indi-
+gentibus civitatis necessaria procurabat ferventissime, et sae-
+pissime praedicabat: captivis et hospitalium pauperibus,
+omni die dominico, verbum Domini proponebat. Monasterium de
+Misericordia, ipse, sua industria et sollicitudine, redegit ad locum
+ubi modo morantur (<hi rend="italic">Moniales</hi>). Eis, et Conventui, multa
+bona temporalia procurabat; nam omni anno quaestuam fru-
+menti pro Conventu, faciebat. Et post multos labores odore re-
+<pb n="508"/>
+fertos, carne solutus, vultum Divinae Majestatis aeternaliter
+contemplatur. In cujus sepultura convenerunt populi Pisanae
+civitatis, et pauperes et afflicti, amissionem sui patris inconso-
+labiliter lamentantes, <date value="13420000">MCCCXLII</date>, de mense octobris. Hic con-
+vertit meretrices, et ex eis fundovit monasterium Sanctae Mar-
+thae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXIX.</head>
+<p><pb n="509"/>
+CLXIX. Frater Hugo, de nobili domo Capronensium, homo
+fuit sensatus et bonus, compositus moribus, probitatibus co-
+piosus. Cantavit optime, scripsit pulcherrime. Confessor et prae-
+dicator plus quam mediocris; Supprior pisanus; consumpto
+languore corpore, dexteram Dei sensit, divitiis et gloria co-
+piosam.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXX.</head>
+<p>CLXX. Frater Loth, conversus de iis qui nunquam aut
+raro fuerunt: nutricius fuit Conventus et Fratrum, triginta
+annis, indefessus temporalium procurator; magnae reverentiae
+civibus universis: et completis officiis et laboribus cum diebus,
+post multas orationes denarium mercedis aeternae a summo Pa-
+trefamilias accepit repromissam. Propter excellentiam bonitatis
+cognominabatur <hi rend="italic">Lotho buon frate</hi>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXI.</head>
+<p><pb n="515"/>
+CLXXI. Frater Jacobus de Sancto Laurentio, Frater plu-
+rimum commendandus. Hic excessit in gratia cantus et vocis,
+nam placide cantavit, discantavitque. Requisitus valde confessor,
+compositus et sensatus; Supprior Pisanus; reddidit spiritum
+omnium Conditori, <date value="13430000">MCCCXLIII</date>, januarii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXII.</head>
+<p>CLXXII. Frater Raynerius Segalorzo, de Cascina. Hic fuit
+nimis veneranda persona; semper Deo in simplici puritate de-
+votus; juvenis compositus, utpote qui ab ipsa primaeva sua pue-
+ritia in austeritate Ordinis induratus. Senuit multum; in quo
+senio sic erat mundus et mente et corpore, ut nullus esset qui
+non libenter cum ipso loqueretur. Prior in Sardinea, et Sup-
+prior Pisanus, septuaginta et tribus annis in Ordine laudabili
+vita completis, collectus est ad praesens ubi exultat gloriae ma-
+nipulis recollectis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXIII.</head>
+<p><pb n="516"/>
+CLXXIII. Frater Johannes de Balneo Aquarum, piissimus
+fuit, et consolator miserabilium personarum. Bonus et devotus
+homo, omni mane communiter celebrabat. Totus jucundus et gra-
+tus, et anticuus Frater, super aquas coelestes empireis sedibus
+quietatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXIV.</head>
+<p>CLXXIV. Frater Andreas, conversus, dictus Bellay, robu-
+stus corpore, indefessus sacrista: omni quidem nocte in ecclesia
+dormiebat in pancas. Gratiosus dominabus, et honestae vitae a
+civibus reputatus; officia humiliter et hilariter faciebat, et prae-
+cipue pro infirmis. Quare, poenitentia corpore fortissimo mace-
+rato, animam suam in aeterna felicitate, per Dei misericordiam,
+custodivit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXV.</head>
+<p>CLXXV. Frater Petrus de Ciprianis, nobilis juvenis, ivit ad
+gloriam, thisi cito consumptus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXVI.</head>
+<p><pb n="518"/>
+CLXXVI. Frater Leonardus Orlandi. Hic juvenis semper
+devotitsime Deo servivit, in puritate conscientiae et munditia
+vitae, cum honestate et probitate: nam cantor et scriptor et ad
+licteras bene paratus, pluries magister novitiorum fuit, com-
+mendandus et valde. Tandem, thisi percussus, cum maxima pa-
+tientia, ubi incorruptibiliter vivitur spiritum collocavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXVII.</head>
+<p>CLXXVII. Frater Marcus de Roncionibus, domus no-
+bilis antiquae, vere est merito collaudandus: namque,
+spreta saeculi vanitate, sic adhaesit Ordinis disciplinae, ut juvenis
+annis, senex moribus videretur; et transcursis licteris et scientiis
+et officiis juvenilis aetatis, pro theologiae gratia Bononiam tran-
+sivit atque Parisius; et, un segniter ibi studio consummato, re-
+versus magister, lector fuit, deinde Prior. Hic inter omnes no-
+stri temporis exarsit solo augmentandi Conventum, tam in
+receptione juvenum, quam in educatione morum, et procura-
+tione rerum, et promotione honorum; et in omni quo potuit,
+Conventum plurimum exaltavit: sic etiam in se placidus,
+modestus, ut omnium, tam Fratrum quam saecularium, gra-
+tiam exhauriret. Item, secunda vice Prior, vacante sede Pisana
+passtore, fuit in Pisanum Archiepiscopum unanimiter postulatus;
+sed praeventus ab alio, a Papa Clemente factus est Episcopus
+Urbinas. Et accedens, compositis rebus, ibidem, ad curiam iterum
+peragravit; et cum inde remearet, submersus marino periculo,
+de profundo pelagi ejus animam super aethera, misericordia di-
+vina transvexit. Hic fuit in Ordine pluries diffinitor Capituli
+provincialis, praedicator generalis, vicarius provinciae; et ad
+multa alia officia, ejus probitate requirente, ipsum Ordo eme-
+ritum exaltavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXVIII.</head>
+<p><pb n="519"/>
+CLXXVIII. Frater Laurentius, conversus excessive bonus,
+sotius dicti Fratris Marci, cum rediret adepto habitu clericali;
+quemadmodum ipse, aequoreis fluctibus involutus, ad liberrimas
+<pb n="520"/>
+habitationes transivit, in maris tempestatibus corpore dere-
+licto.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXIX.</head>
+<p>CLXXIX. Frater Jacobus de Spina, juvenis aptus ad stu-
+dium, praedicabat et cantabat bene. Jam studens Florentiae
+studio generali, cessit vitae temporali, obtenta, quam concupivit,
+aeterna.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXX.</head>
+<p>CLXXX. Frater Bartholomaeus de Sancto Concordio.
+Hujus venerabilis Patris memoriam haec offerunt perpetuo re-
+colendam, et inde commendandam:
+<num>1.</num> Forma vivendi,
+<num>2.</num> Actus studendi,
+<num>3.</num> Habitus sciendi,
+<num>4.</num> Dignitas docendi,
+<num>5.</num> Auctoritas arguendi,
+<num>6.</num> Peritia componendi,
+<num>7.</num> Zelus construendi.
+<pb n="521"/>
+De forma vivendi. Fuit vir quietus, nulli unquam molestus,
+austerus in vita, rigorosus in disciplina, vestibus et cubili abie-
+ctus, cibo parcissimus, ut semper in die fuerit una sola refectione
+contentus; dapes abnuens delicatas, parvo et pauco cibo et
+grosso, jus nec ymitans, utebatur.
+De actu studendi. Infra provinciam studiis perlustratis,
+Bononiam et Parisius peragravit. Numquam aliis, nisi
+auditui et lectioni, animum mancipavit.
+De habitu sciendi dicam, si lingua vel penna sufficiat. Gra-
+maticam, loycam, phisicam, rethoricam, arithmeticam, geome-
+triam, astrologiam et artem musicae, et quidquid ad theologiam
+vel moralia pertinet, aut historialia, sive etiam poeticas disci-
+plinas; totum funditus, nullo praeterunte jota, cognovit. Quid-
+quid scripserunt doctores Augustinus, Ambrosius, Hieronymus,
+Gregorius, Bernardus, Dyonisius, Tthomas de Aquino, aut
+Magnus Albertus, et caeteri nostrae fidei instructores, scivit ad
+plenum. Erat quaedam arcula scientiae, ut rem tibi, lector, in-
+credibilem sed veram referam. Non est auctor apud nos, sive
+saecularis sive ecclesiasticae disciplinae, quem non sciverit, et
+(ut ita loquar ) esset ejus memoria et intellectus quasi quoddam
+armarium scripturarum. Leges vidit civiles, sed canonicas fa-
+miliarius apprehendit: et nisi quia plerumque dicere verum,
+faciem jactationis ostendit, dicerem, quod apud nos scriptum non
+est, quod istum, contigerit ignorare.
+Quarto, gratia docendi, quia voluit et scivit instruere: sic
+enim animo libenti docebat, ut nullum magnum sperneret aut par-
+vum; immo stimulis, ut discerent, juvenes incitabat. In locutorio
+et alibi, ubi fas est socundum Ordinem loqui, semper de scien-
+tificis cum adstansibus conferebat; ut diceret: <hi rend="italic">Quod sine fictione
+didici, sine invidia comunico, et honestatem illius non abscondo</hi>.
+<pb n="522"/>
+Modo etiam faciliori tradebat, ut nullus tantae ruditatis esset,
+quin ingeniosum et eruditissimum reddidisset: super quo Fratres
+eum audivi ultra caeteros commendantes.
+Quinto, auctoritas monendi: fuit enim excellentissimusd prae-
+dicator, tam in arte inveniendi, quam in copia eloquendi. Post
+enim Fratrem Jordanem, ita grate praedicavit, ut ab omni po-
+pulo extimaretur paulo minus ut ipse; stylo enim brevi et grata
+facundia, sequentibus signis virtutum, verba Dei serebat: et
+audivi a quodam fide digno Fratre antiquo, quod cum esset
+sibi discipulus, cum aliis multis, in Luca, super quolibet di-
+verso themate a singulis sibi dato, statim ibi et faciebat exor-
+dium, et dividebat propositum, et procedebat ut velles. Idem a
+saecularibus audivi Pisanis, quorum multos de auctoribus et poetis
+instruxit.
+Sexto, peritia et copia componendi, quia etiam voluit semper
+futuros de utilibus informare. Namque, <hi rend="italic">Summam</hi> perutilem ni-
+mis <hi rend="italic">de Casibus conscientiae</hi> composuit, breviter copiosam, ut in
+tali materia nullus utilior illo nunc temporis liber habeatur;
+quae et quaeritur sollicite, et legitur sitibunde; et experientia
+docet, quia in omnem terram, et in fines orbis terrae, jam pro-
+latam fuisse cognovi, et appellatur ab universitate legentium <hi rend="italic">Pi-
+sanella</hi>: nullus enim religiosus cujusvis ordinis, vel alius saecu-
+laris, se clericum reputat sine illa. Item scripsit tractatum
+de <hi rend="italic">Documentis antiquorum</hi>, per distinctiones et capitula divisum,
+utilitate affectandum et brevitate placentem. Item, <hi rend="italic">Opu-
+scula auctoritatum</hi>, quae intitulavit per licteras alphabeti, ut lu-
+bellus A, libellus B, etc. Item, de <hi rend="italic">Arte metrica</hi> superfundere
+proposuit, et de <hi rend="italic">Arte ortographica</hi> scribendi. Commentavit Vi-
+rgilium, et glossavit Senecae Tragoedias. Recollegit auctoritates
+<hi rend="italic">Bibliae</hi> et philosoophorum, a beato Thoma expositas per omnia
+opera sua. Doctrinam dicti Doctoris, quam totam quasi
+mente tenebat, defendit ab impugnantibus magna cura; et multa
+alia fecit utilia, quae scribere longum esset. Et, ut breviter
+<pb n="523"/>
+de ipso concludam, nullus talis adhuc in nostro Conventu se
+rexit illo utilior in actu sciendi atque docendi: namque vixit
+in Ordine circa septuaginta annos, numquam otiosus usque ad
+ultimum diem, quin vel studeret, vel doceret, aut etiam prae-
+dicaret; defecitque sibi tempus, ubi aliis tempora plurimum defe-
+cerunt.
+Ultimo, dat eum commendandum nobis zelus construendi.
+Fuit enim sibi cura sollicita ut fieret domus pro armario, sive
+libraria Conventus, quam ipse fieri a civibus procuravit.
+Et sic, juste vivendo, semper studendo, indesinenter docendo,
+gratiose monendo, copiose inveniendo, affectuose construendo,
+quae hic in speculo et per enigmata scivit ex parte, totum facie
+ad faciem feliciter intuetur; corpusculo in terra, maxima cum
+veneratione civium, tumulato, quorum omnium lumen fuit et
+pater. Obiit <date value="13470000">MCCCXLVII</date>, <num>XI</num> julii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXI.</head>
+<p><pb n="524"/>
+CLXXXI. Frater Paulus Raynaldi, quorum germani sunt
+sepulti ad altare Sanctae Ceciliae, cantavit tam bene et discan-
+tavit, ut nullus tunc melius eo. Obiit juvenis ut cum Angelis
+perpetuo moduletur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXII.</head>
+<p>CLXXXII. Frater Jacobus Orlandi. Hic fuit primus qui obiit
+in anno maximae pestis, <date value="13480000">MCCCXLVIII</date>, quae pene totum delevit
+orbem. Hoc anno defuncti sunt in Pisis plus quam quadraginta
+Fratres: de saecularibus turba, quam nemo dinumerare valeret.
+Post istam mortalitatem diram et crudelissimam, nunquam mores
+Ordinis, et rligionis disciplina potuit ad pristina restaurari. Hic
+primus fuit Frater quem ego viderim mori, postquam Ordinem
+sum ingressus. Fuit iste intelligens Frater et magnae religionis;
+bonus et devotus valde praedicator; exemplaris valde, et com-
+positae vitae nimis; utilis Conventui in confessionibus et cantu;
+magister novitiorum sollicitus, et Supprior pisanus. De mense
+martii requievit in pace.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXIII.</head>
+<p><pb n="530"/>
+CLXXXIII. Frater Philippus Puccini. Hic paululum post
+professionem suam, raptus fuit a Deo. Pulcher corpore, pulcrior
+virtute, scribebat bene; apttssimus ad omnia bona, jam zelo Con-
+ventus ardebat, jam se disponebat ad studium, jam cantum, jam
+quaeque bona optimo ingenio, solerti cura, capessere satagebat.
+Fuit mihi socius in novitiatu, et eodem anno et eadem peste, se-
+<pb n="531"/>
+cundus post primum extinctus de mundo, in coelo perenniter re-
+viviscit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXIV.</head>
+<p>CLXXXIV. Frater Jacobus de Ceuli, quae villa est in Val-
+dicascina, fuit vir parvus in corpore, animo et virtute et probi-
+tate magnus et potens. Fuit post caetera studia missus Parisius;
+et reversus, lector sufficiens et acutus fuit in pluribus Conventibus,
+et Pisis. Homo sensatus et argutus, et sollicitus pro Conventu, hic
+faciebat pictantiam in festo Sanctae Mariae Magdalenae, famo-
+sam in toto Ordine nostro, et volebat semper negligentissimos
+servitores, qui et adhuc servitores Magdalenae in Ordine nomi-
+nantur: et cum esset parcus, ut putabatur, satis, hac die
+semper totus erat effusus in copia epularum, in varietate et bo-
+nitate vinorum, in fractione vasorum, et aliis die illa plurimum
+exultabat. Jam antiquus Prior, et secunda vice Supprior, illa
+acerbissima peste vitam bonam integro sensu consummavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXV.</head>
+<p>CLXXXV. Frater Jacobus de Cinquinis de Pisis, germanus
+Fratris Bartholomaei superius nominati. Hic fuit sincerus homo
+multum et perutilis: namque rubricas Ordinis et statuta optime
+scivit. Cantor excellens; unde officium cantoriae indefectibiliter
+usque ad finem suae vitae peregit; omni die unum totum psal-
+terium, longo tempore, cum officio mortuorum dixit; a choro
+numquam vel raro defecit: nec contentus officii in choro cantati,
+iterum repetebat, ita quod vel secum, vel in choro, vel cum sotio
+(quia invitabag quemlibet ut officium dicendo juvaret), semper
+<pb n="532"/>
+in psalmodia fuit intentus, nisi cum comederet vel dormiret. Pa-
+tiens in aegritudine, et in omnibus placidus Fratribus et sae-
+cularibus fuit. Tandem, post longa exercitia laudabiliter expleta,
+inter sanctorum agmina requievit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXVI.</head>
+<p>CLXXXVI. Frater Jacobus, conversus bonus et obsequiosus,
+et in offitiis sibi impositis promptus, juvenis erat a Fratribus
+amatus. Calcifex erat. Obiit dicto anno.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXVII.</head>
+<p>CLXXXVII. Frater Johannes Fridiani, inter omnes quos
+ego vidi Fratres et Patres, actu, habitu, gestu magis compo-
+situs fuit. Religiosus valde et mundissimae vitae; rigidus in obser-
+vantiis Ordinis; intelligens Frater, bonus grammaticus, congruus
+rethoricus, optimus cantor; et cum sonora et levissima voce,
+chorum et refectorium, sine defectu, sequendo continue; scripsit
+supra modum bene. Supprior fuit et Prior Pisanus, et in Sar-
+<pb n="533"/>
+dinea; confessor acceptus et praedicator; missas continue et de-
+vote celebrabat; zelator Ordinis fervidus et Conventus. Tandem,
+jam ad senium inclinatus, Palariae obiit anno praedicto, et in
+plebe dicti castri maxima fuit cum devotione tumulatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXVIII.</head>
+<p>CLXXXVIII. Frater Martinus, conversus provectus in Or-
+dine, satis officia Conventus et scivit facere, et voluntarie semper
+exercuit. Procurator sollers, et in cunctis sollicitus, indesinenter
+studuit exercere. Obiit, ut primi, morbo quo alii, dicto
+anno.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CLXXXIX.</head>
+<p>CLXXXIX. Frater Johannes de Sancta Cocilia, adhuc juvenis,
+bene compositus et devotus, magister novitiorum fuit et meus,
+cum adhuc novitius essem, mortuo nostro magistro primo. Hic
+cantabat valde placibiliter et bene, cum voce duttili multum;
+scribebat egregie: et valde devote dies, in conspectu nostro, fini-
+vit morbo praedicto.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXC.</head>
+<p>CXC. Frater Georgius novitius, sed aetate annorum circa
+quatuordecim, fuit mihi sotius. Hic si vixisset, fuisset insignis
+<pb n="534"/>
+cantor in mundo; namque, adhuc puer, quidquid erat in arte
+musicae circa matrialia, etiam difficillima, decantabat: cujus
+vox suavissima, et ars nota, et modus aptissimmus, sotiis sua-
+vissimae et dulcissimae conversationis fuit. Tandem, etiam can-
+tando recedens, obiit. Angelorum agmina cum ipso modulantia
+praesentialiter adfuere. Cujus funus flendo dedimus sepultu-
+rae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCI.</head>
+<p>CXCI. Frater Gerardus Buzacharinus, filius domini Guidonis
+militis, de domo Sismundorum, nobilium Pisanae civitatis. Hic
+oblatus Ordini a parentibus, devotione magna non segnis fuit
+parvo tempore quo vixit. Hujus attractu, quia in saeculo era-
+mus individui sotii, intravi hunc Ordinem, impellente Domino.
+Sed, cum <hi rend="italic">Officium</hi> et <hi rend="italic">Bibliam</hi> didicisset, devotus in oratione
+etiam lacrimando, compositus quasi senex, sensatus plus quam
+juvenis, post professionem paululum vixit, pestiferi morbi vul-
+nere sauciatus: sed integro intellectu, cum beatis feliciter re-
+quievit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCII.</head>
+<p>CXCII. Frater Petrus Guidonis, subdiaconus, patiens homo
+fuit; et inter alios quos vidi devotissime mori dicto anno, mi-
+gravit ad Dominum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCIII.</head>
+<p><pb n="535"/>
+CXCIII. Frater Petrus, de Petra vocatus, qui sculptor lapidum
+erat, conversus sollicitus et robustus, et officia sibi commissa
+zelanter valde perfecit. Juvenis homo, de hac luce migravit anno
+praefato.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCIV.</head>
+<p>CXCIV. Frater Petrus de Rinonico, diaconus, cantavit bene,
+et erat bene paratus. Obiit ut supra.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCV.</head>
+<p>CXCV. Frater Jacobus Upezini, juvenis de parvo tempore
+professus, consotius meus, quia nondum a novitiis revocatus.
+Hic fuisset compositissimus Frater, quasi per excellentiam. Habuit
+oculos graves, gressus maturos; et gestus omnes sui, oculos
+omnium provocabant. Migravit a saeculo, victurus cum felicibus
+vita perenni, ut supra.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCVI.</head>
+<p><pb n="536"/>
+CXCVI. Frater Mathaeus Marraffi, sacerdos, sed juvenis
+homo, studens adhuc in primaevo tempore, transivit ad peren-
+nia ut supra.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCVII.</head>
+<p>CXCVII. Frater Roggerius Bambagia. Hic erat antiquior
+Frater Conventus: semper fuerat optimus religiosus, et studens
+intelligens in juventute sua. Pluries fuit Supprior Pisanus. Fuit
+Prior in Serzana. Confessor acceptus, reverenda valde persona,
+custos longo tempore monialium Sanctae Crucis, ubi continue
+morabatur; et ibi dimisit corpus, animaque ad superna, Deo vo-
+cante, volavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCVIII.</head>
+<p>CXCVIII. Frater Dominicus De Parlascio, fuit de illa nobili
+domo quae dicitur De Parlascio, quae hodie totaliter est extincta.
+Hic bigamus in saeculo, conversus ad Deum, intravit Ordinem
+in habitu clericali; sed ita fuit Conventui utilis et obsequiosus,
+ut difficile scribi possit. Omni tempore custos dormitorii; ibi
+lampades, et in capitulo, et lavabat et accendebat et indefecti-
+biliter refovebat. Tabellam praedicatorum discretissime omnibus
+suis diebus notavit. Crucifixum refectorii super mensam Prioris
+pingi fecit suis expensis. Rigorosus religiosus valde fuit. Erat
+quasi una custodia invicta Conventus. Scripsit bene, et juvenibus
+Fratribus et Sororibus orationes plurimas distribuebat. Obiit,
+plenus dierum, anno praedicto.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXCIX.</head>
+<p><pb n="537"/>
+CXCIX. Frater Johannes Scornetti, fuit scientificus satis, et
+per studia generalia insudando discurrit. Baccellarius Pisis, et
+Perusii philosophiam legit et docuit. Lector pluries et visitator
+provinciae, confessor indefessus, et praedicator sufficiens erat.
+Plures sepulturas suis conversationibus Conventui acquisivit. De-
+cessit anno quo caeteri, mortali peste gravatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CC.</head>
+<p>CC. Frater Dominicus Sardus, de Pollinis Kallaritanis,
+fuit valde gratiosus et probus. Suavissimae conversationis, can-
+tabat bene, scribebat pulcre, et fenestras vitreas operabatur
+optime. Praedicabat etiam gratiose. Tandem, Supprior Pisanus
+tempore pestis, integro aspectu et spiritu usque ad finem, ut
+<pb n="538"/>
+nobiscum in laetaniis clare responderet cum suae animae fieret a
+Fratribus commendatio, tunc orando migravit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCI.</head>
+<p>CCI. Frater Cristiphorus de Campilia, juvenis, sed valde de-
+votus et bonus, et omnibus gratiosus erat. Magister novitiorum
+fuit; et anno mortiferae pestis, cum Lucae esset magister loycae,
+in Pisis obiit, in coelo victurus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCII.</head>
+<p>CCII. Frater Fatius de nobili domo Gualandorum, antiquus
+Pater fuit. Nunquam extra refectorium comedit; ut etiam solus,
+pestis tempore, toto Conventu extra refectorium comedente, ipse
+ibidem remansit. Chorum indefesse sequens, confectus senio transi-
+vit ad patres.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCIII.</head>
+<p>CCIII. Frater Michael dominae Pinae, dictus Pisanus, fuit
+antiquus Pater, cellicola continuus. Fuit perfectus magister in
+arte vitrorum; ita ut fenestram Pistoriensis Conventus faceret
+<pb n="539"/>
+in ecclesia, et in refectorio nostro; et quidquid in Conventu
+reficiendum videbat, promptissime resarcire curabat. Migravit ut
+supra.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCIV.</head>
+<p>CCIV. Frater Franciscus Gerardini, fuit sufficiens in lictera-
+tura, fuissetque magnus si studuisset; namque se dedit devotioni,
+et fuit devotus valde Frater. Prior in Serzana, Pisis Supprior,
+confessor acceptus et praedicator, dimisit post se a se factum ca-
+licem pulcherrimum et magnum, pro usu altaris Conventus: sed
+postea quidam Prior, quem ego vidi, fecit ibi pingi arma illorum
+de Benettis, quando altare in nostra ecclesia construxerunt. Obiit,
+peste urente ut supra, antiquus Pater.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCV.</head>
+<p><pb n="540"/>
+CCV. Frater Jacobus de Ripa Arni, sufficiens lector, et prae-
+dicator, atque confessor, mortuus est in Sancto Miniate, tempore
+mortalitatis acerbae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCVI.</head>
+<p>CCVI. Frater Franciscus De Cinquinis, germanus Fratrum
+Bartholomei et Jacobi supradictorum. Hic sanctitate resplenduit;
+et accensus zelo fidei, adhuc juvenis, transfretavit ad partes ultra-
+marinas, et ibi utillime profecit: quia omnes Fratres ibi inter In-
+fideles praedicantes, juvabat, in libris, pecuniis et vestibus refo-
+vendo; diuque perdurans, fuit factus Episcopus in maxima civitate
+Thaurisii. Et post longa temporum intervalla, rediit Pisas; ubi
+exemplis suis in vita purissima, in orationibus assiduis, in la-
+crimis ac gemitibus, chorum et refectorium semper sequens, multos
+in spirituali vita instruxit et auxit. Tandem, pestiferae mortali-
+tatis anno, Pisis pauperes et divites in infirmitatibus, sine qua-
+cumque custodia, visitans, eleemosynas omnes sibi datas, Con-
+ventui statim tribuens, devenit ad finem: et in illa mortalitate ego
+astiti sibi serviendo. Dum fuit infirmus, semper officium, integro
+spiritu et intellectu, dicendo; et tamquam vere sanctus, mortali
+functus vita, ad aeterna est translatus, ut putavimus, manibus
+Angelorum. Et indubie, nisi quia vacuata erat civitas gentibus,
+tanta fuisset multitudo venientium, ut sepelliri in biduo minime
+potuisset: tantae fuit opinionis et famae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCVII.</head>
+<p><pb n="541"/>
+CCVII. Frater Huguiccio, De Monte dictus. Hic fuit bonus
+cantor, et praedicator laetus et hilaris. Melius dixit et praedicavit
+historias, quam alius aetatis suae: unde in omnibus festis invi-
+tabatur, ut Sanctorum legendas plenarie praedicaret.Mortuus
+est anno praedicto.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCVIII.</head>
+<p>CCVIII. Frater Thomas de Cascina, juvenis valde robustus,
+obiit in anno mortiferae pestis, ut caeteri.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCIX.</head>
+<p><pb n="542"/>
+CCIX. Frater Rainerius Jordanis de Rivalto, nepos
+Fratis Jordanis. Ric fuit Frater primo bonorum morum,
+valde compositus, deditus scientiae, et maxime licteratus; et
+peragratis studiis, ivit Parisius; et rediens, legit Pisis <hi rend="italic">Sen-
+tentias</hi>, et in pluribus majoribus nostrae provinciae Conventibus.
+Fuit deinde lector Pisis, et alibi pluries. Honestae conver-
+sationis multum, et clarae famae; ita quod in nostra civitate
+celebris habebatur: confessor acceptus, et praedicator infatiga-
+bilis. Hic studiosissimus fuit, ita ut libros magno sudore
+componeret in tribus voluminibus; ubi valde diffuse loquitur, et
+probat sua dicta per allegata Sancti Thomae et aliorum doctorum,
+et scripsit propria manu: <hi rend="italic">Liber est plurimum copiosus et bo-
+nus, judicio omnium qui viderunt</hi>. Tandem, post multos
+<pb n="543"/>
+labores, post officia Ordinis magna cum laude completa, anno
+pestis praefato, cum hora mortis incumberet, de lecto descendens,
+super pavimentum se devote prostravit, dicens: <hi rend="italic">non debere servum
+in lecto mori, cujus Dominus fuerit in cruce suspensus</hi>; et sic
+tradidit spiritum, in superioribus collocandum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCX.</head>
+<p><pb n="544"/>
+CCX. Frater Nicholuccius, conversus calcifex, religiosus Fra-
+ter et devotus fuit, et diu in Ordine antiquatus. Erat de custodi-
+bus monoterii Sanctae Crucis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXI.</head>
+<p>CCXI. Frater Gerardus Moriconis, studens in pluribus ge-
+neralibus studiis, baccellarius Pisis et lector in provincia plu-
+ries, cantor optimus et scriptor pulcherrimus, compositus et
+modestus, Supprior in Pisis. De ejus pecunia fuit factum refe-
+ctorii nostri tectum ita pulcrum, etiam dum viveret ipse. Tan-
+dem decessit ad patres anno praedicto.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXII.</head>
+<p>CCXII. Frater Gerardus De Gufo, aptus ad studium; et
+post liberales scientias acquisitas et doctas, dum de Neapoli re-
+diret, ubi fuerat studens, remansit Senis, morte praeventus anno
+praefato.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXIII.</head>
+<p><pb n="546"/>
+CCXIII. Frater Gerardus De Spina, aptus ad licteras, immo
+jam probus; post loycales a philosophicas disciplinas adeptas et
+lectas; post diversa generalia studia peragrata, Mediolanensi et
+Florentino; laetis in Pisis <hi rend="italic">Sententiis</hi>, ubi fuit baccellarius; prae-
+dicator gratiosus et cantor, dulcis conversationis atque suavis;
+dum de Urbeveteri remearet, obiit in Montepolitiano, ut su-
+pra.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CXXIV.</head>
+<p><pb n="547"/>
+CCXIV. Frater Guido Del Vescovo (familia de qua modo
+nullus existit), fuit Frater omnibus amabilis valde, quia ex
+toto sincerus. Studuit Tholosae pluribus annis. Deinde, cum
+esset Bononiae pro studio Sacrae Paginae, ibidem obiit, resur-
+recturus cum beato Dominico patre nostro, anno pestis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXV.</head>
+<p>CCXV. Frater Lapus, conversus sutor, et bonus vestiarius et
+utilis pro Conventu, obiit Perusii anno dirissimae pestis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXVI.</head>
+<p>CCXVI. Frater Gerardus de Canneto, diligentissimus stu-
+dens, et intelligens valde, et plurimum licteratus homo, et bac-
+cellarius in multis magnis provinciae conventibus, et lector et
+praedicator excellentissime gratiosus; de Prato, ubi lector erat,
+transivit, mediante morte, ad requiem et prata virentia felicitatis
+aeternae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXVII.</head>
+<p>CCXVII. Frater Bartholomaeus Bardini, adhuc juvenculus
+optime ad scientiam praeparatus, obiit Pistorii anno prae-
+ditco.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXVIII.</head>
+<p><pb n="548"/>
+CCXVIII. Frater Johannes Clerici: fuit familia Pisis satis
+clara in Forisporta. Hic fuit in vitae honestate famosus; com-
+munia Ordinis, chorum et refectorium, indefectibiliter sequens,
+in victu et lecto et vestitu ordinem tenens. Licteratus et studen-
+tissimus fuit. Post studia, post officia, post lectas in Pisis <hi rend="italic">Sen-
+tentias</hi>, lector in Pisis et alibi gratiosissimus fuit; cantor opti-
+mus, praedicator acceptus, confessor discretus, lector Senensis
+et Perusinus. Tandem in Episcopum Lunensem postulatus, non
+obtinuit confirmari. Deinde, dum Prior acceptissimus est in
+Conventu Sancti Miniatis, veniens Pisas, inibi prostratus ad
+lectum, infirmitatem diutius magna cum patientia toleravit.
+Postremo, in die Animarum, in conspectu Fratrum optimo
+fine quievit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXIX.</head>
+<p>CCXIX. Frater Michael de Vico, fuit vir non paucis laudibus
+extollendus: namque, quantum ad vitam, semper honestus et
+mundus, ordinem sequens in omnibus; quantum ad licteras
+capax nimis et acutus valde. Namque, loycalibus et philoso-
+phicis ad perfectum adeptis et doctis in pluribus locis, ivit
+Bononiam; ubi tunc (quod mirum fuit) factus magister stu-
+dentium, quia nimium caeteris praepollebat. Exinde reversus,
+factus baccellarius Pisanus et Perusinus, expletis lectionibus
+<hi rend="italic">Sententiarum</hi>, et actibus famose completis, transivit Parisius:
+ubi supramodum proficiens, rediit ad provinciam; et tunc in
+Studio Florentino baccellarius, et postea magister studentium,
+<pb n="549"/>
+sic argute dusserebat, ut in disputationibus pauci vel nullus posset
+subsistere contra eum. Exinde lector Pisanus, Senensis, Peru-
+sinus et tandem Florentinus, ubique splendebat celebre nomen
+ejus: nec tunc temporis magistri in theologia ubique fiebant,
+nec quilibet; sed solummodo Parisiis, ut paucissimi in partibus
+Italiae et alibi viderentur; unde, quando Ordinem sum ingressus,
+in tota Italia tres reperii in theologia magistros. Haec dico ne
+tu qui legis mireris si iste, vel caeteri probissimi de quibus feci
+superius mentionem, non fuerint magisterio infulati. Demum,
+hic Pater Prior Pisanus fuit, ubi zelo ardentissimo et humili
+more gubernavit. Fuit ex hoc Ordinis officiis et gradibus redi-
+mitus; praedicator generalis, diffinitor Capituli provincialis,
+sotius diffinitoris Capituli generalis, visitator provinciae in Pisis;
+quasi pater patriae in consiliis conscientiae et in caeteris habe-
+batur. Ultimo, cum annum quinquagesimum attigisset, inhia-
+liter affectabat Romae recipere finem vitae; quod pluries ab eo
+ego auribus meis audivi: <hi rend="italic">Oh utinam Romae finiam dies meos,
+ut inter Sanctos mea caro requiescat</hi>! Quam unam petitionem
+Dominus piissimus exaudivit; quum, anno magno Jubilaei, Romam
+pergens, in via infirmitate gravi correptus, pervenit Romam;
+ibique post paululum, receptis devote ecclesiasticis sacramentis,
+coram multitudine Fratrum (quorum tunc ibi concurrentium
+numerus magnus erat), tradidit spiritum superna petentem,
+relicta in sanctorum corporum coetu sua carne, quod tot su-
+spiriis et precibus impetravit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXX.</head>
+<p><pb n="550"/>
+CCXX. Frater Johannes De Canneto: isti fuerunt boni cives.
+Hic jam magnus Ordinem ingressus, profecit scientia quam
+studiis, in Bononia et Parisiis. Fuit lector Pisanus et Viterbiensis.
+Optime scripsit et plura, quae in armario nostro habentur. Fuit
+etiam exemplaris et honestae valde vitae, et sentatus. Fuit dif-
+finitor Capituli provincialis, et praedicator generalis; visitator
+provinciae, Prior Pisanus pluribus annis. Hic fundavit infir-
+mitorii domum novam, sed non complevit deficiente pecunia:
+quam ego postea complevi, ut potui. Fuit etiam Prior in Tu-
+derto, et tandem Pisis devote viam universae carnis intravit.
+Sub manibus istius ego qui scribo fui receptus ad Ordinem, et
+sub eo nostrum Ordinem sum professus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXI.</head>
+<p>CCXXI. Frater Johannes Buttari, de nobili domo Lei, fuit
+aptissimus ad scientiam; namque in juvenilibus annis rationales
+scientias plene didicit, et laudabiliter et officiose docebat. Accepte
+multum praedicabat, tam vulgari quam latino sermone. Retho-
+ricus sufficiens, et in arithmetica, bene peritus; tandem, adhuc
+juvenis, ad magna paratus, ivit Parisias; et dum summe pro-
+ficeret, cecidit in aegritudinem, de qua et propter quam ibi
+transivit ad patres.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXII.</head>
+<p>CCXXII. Frater Stephanus Bonajuti de Spina: hos ego vidi
+magnos et plurimos cives. Hic puer ingressus Ordinem, totus
+<pb n="551"/>
+aptus, cum sic bonae spei proficeret, pater, cum amicis carna-
+libus, de Ordine rapere voluerunt; sed bona constantia constitit,
+ut ab Ordine nec blanditiis nec minis nec violentia corporali
+posset avelli: et sic, de bono in melius, optime et plene in loy-
+cis et philosophicis eruditus, meruit extolli ad dictarum magi-
+steria doctrinarum. Tandem, completis minoribus studiis, ad
+theologiae culmen intendit per studia Florentiae et Bononiae,
+colligens mella Paginae Sacrosanctae. Et inde rediens, Pisis et
+Senis baccellarius, quae illud officium requirit, famosissime
+cuncta perfecit. Proinde Parisias missus, et diu perdurans,
+post reditum factus in Florentia baccellarius et magister stu-
+dentium, altiori fama perluxit; et nondum triginta completis
+solaribus annis, lector Senensis et Pisanus, non contentus theo-
+logiam docere, sed juvenes provinciae aptos, a provincia sibi com-
+missos, de doctrinis philosophicis imbuebat; et cum sic doctrina
+polleret, factus est diffinitor Capituli provincialis, et praedicator
+generalis, Prior Lucanus et Pisanus, cum adhuc juvenis homo
+esset. Postremo, phtisi percussus, optimo fine quievit. Huius
+linguam sic in arguendo, sermocinando, vulgariter vel latine,
+disertam, in nullo vel in paucis audivi.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXIII.</head>
+<p>CCXXIII. Frater Franciscus de Cascina, religiosus bonus
+valde, sensatus homo, pius pauperibus Fratribus, quibus sae-
+pius de propria pecunia providebat, Supprior bis Pisis, Prior
+Serzanae at etiam Lucae, vicarius domini Guillelmi Episcopi
+Lucani in spiritualibus. Confessor dominarum nimis acceptus,
+totus suavis et dulcis, antiquus Pater nostri Conventus, in senio
+suo de pecuniis a se procuratis fecit fieri cameram in claustro
+<pb n="552"/>
+secundo, quae omnibus patet; quae camera honorifica, est pro
+magistro Ordinis et provinciali nostrae provinciae deputata.
+Plenus dierum et bonorum operum, quia quotidie celebrabat,
+Deo animam reddidit conditori.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXIV.</head>
+<p>CCXXIV. Frater Jacobus Leoni de Sancta Cristina, fuit
+valde bonus religiosus et honestae conversationis; magister no-
+vitiorum in pluribus Conventibus; nulli molestus, omnibus obse-
+quiosus; in operibus manualibus ingeniosus. Semper operosus,
+libros armarii Conventus sollicitissime reparabat: et cum multa
+utilia Fratres de ipso certitudinaliter expectarent, quia intel-
+ligens erat et communia devote sequebatur, fuit, Domino pro-
+vidente de sua requie, sublatus ab eis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXV.</head>
+<p><pb n="553"/>
+CCXXV. Frater Thomas De Paule, filius Ser Nuccii. Hic
+jam provectus ingressus Ordinem, fuit placibilis conversationis,
+et totaliter omnibus liberalis. Pro Conventu laborabat valde li-
+benter; et inter alia bona sibi divinitus data, hoc singulariter
+habuit, quod infirmis omnibus, sine acceptatione personae, miro
+servitio assistebat, ut nihil dimitteret quod pro ipsorum suble-
+vamine suppetere cognovisset. In quorum obsequio cum diu mi-
+sericorditer laborasset, diem mercedis recepit optatum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXVI.</head>
+<p>CCXXVI. Frater Stephanus De Pandolphinis: familia fuit
+popularis antiqua. Hic modestus et compositus juvenis valde fuit.
+Subdiaconus fuit, et nimis cito subtractus a mundo.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXVII e CCXXVIII.</head>
+<p>CCXXVII - CCXXVIII. Frater Gregorius et Frater Romanus
+germani oblati a matre domina Angela, domina
+status mediocris, pueruli quasi Angeli, rapti sunt a nequita
+praesentis exilii in secunda mortalitate <date value="13630000">MCCCLXIII</date>, quae ite-
+rum genus humanum invasit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXIX.</head>
+<p>CCXXIX. Frater Stephanus, conversus, De Pungelupis de
+Spina, vestiarius bonus valde, sacristiam mundissime guber-
+navit; taliter ut post eum nunquam parata, et caetera quae in
+Pisano sacrario et ecclesia continentur, fuerint ita munda.
+<pb n="554"/>
+Multa paramenta et bona procuravit, et suis manibus incidit et
+suit. In aliis officiis curiosus et sollicitus fuit. Multo zelo Con-
+ventus ardebat. Antiquatus etiam valde, et ita mundus erat, ut
+in corpore aut veste nihil foetoris, nihil horroris videre potusisset:
+et dixit mihi pluries ore suo, quod numquam remansit a ma-
+tutinis, nec primum signum primae ipsum invenit in lecto, donec
+scilicet viguit sanitate. Nunquam spuens, nunquam molestia
+senilis corporis aliquem laesit. Tandem, integro aspectu atque
+auditu, et omni sensu et memoria, inter manus Fratrum, senio
+confectus, migravit ad Christum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXX.</head>
+<p>CCXXX. Frater Hugolinus, quondam Novi Mercatoris, de
+populari (domo) quae dicitur Cavalosari. Huius bonitates
+expertus, brevi non potero sermone narrare. Primo enim de
+scientia, quando ad primam puerulus scilicet gramaticam im-
+bibit ex toto. Secundo, arismethicam scivit abunde. Tertio, mu-
+sicam, et in cantu et discantu et in organis, habuit plene:
+unde non solum in choro Dei laudibus insistebat, sed et igna-
+ros omni aestivo tempore instruebat. Quarto, loycam, phisi-
+cam studuit, et docuit tam Fratres quam etiam saeculares: theo-
+logiam sacram annis pluribus, tam in particularibus quam ge-
+neralibus, Florentino et Bononiensi studiis insudavit. Pisis
+baccellarius, et lector gratiosissimus fuit, et in multis aliis
+provinciae Conventibus legit et docuit. Praedicator eximius, fa-
+<pb n="555"/>
+cundus et scientificus, qualiter in nostra civitate non fuit alius
+tempore suo: nam ubicumque verbum Dei, et in Pisis et alibi,
+praedicavit, totus convenit populus civitatis. In sermonibus
+latinis disertissimus, supra modum consiliis conscientiae expli-
+candis et dandis conspicuus et discretus: ut omnes ipse, prae
+omnibus nostrae civitatis religiosis, solveret et tractaret. Dicta-
+vit summe, et pulcherrime scripsit. Pro Conventu zelator accen-
+sus, procurando et conservando ejus honores et bona. Dimisit
+etiam Conventui annualem pictantiam Magdalenae. Conventum
+Pisanum, ut Supprior et vicarius, rexit. Hic, ut concludam bre-
+viter, famosissimus homo fuit; et cum esset visitator, et ad
+majora dirponeret eum Ordo, Florentiae decessit, continua febre
+correptus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXI.</head>
+<p>CCXXXI. Frater Rainuccius De Upezinghis: quae domus
+nobilis valde, et potentia multa praefulsit. Hic religiosus ca-
+rissimus fuit, licteratus valde, arismethicus quomodo (ut audivi)
+non erant tres dum vixit in Italia meliores. Astrologiam novit;
+<pb n="556"/>
+unde et tractatum <hi rend="italic">Spherae</hi> composuit curiosum, et docuit multos
+Fratres: sed et librum copiosum, quem <hi rend="italic">Paschalem</hi> vocavit, edidit
+non parvo studio et labore; ubi corripit, inter multa quae
+tractat, defectum Ecclesiae in notata lunarii. Theologus et philo-
+sophus completus fuit. Studuit Florentiae et Neapoli, studiis
+generalibus Ordinis nostri. Baccellarius Pisanus et lector, et
+in aliis pluribus Conventibus, et famose et bene complevit. In
+Pisis Supprior, et in Prato et Lucae Prior, provide guber-
+navit. Historias sine numero scivit, et diserte narravit. Robustus
+in corpore, tandem in aegritudinem decidit, quam patientis-
+sime et hilariter tulit; ita etiam ut se et alios de illa aegritu-
+dine gravi ad risum plures provocaret. Ultimo, senio completo
+laudabiliter, mortale saeculum victor evasit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXII.</head>
+<p><pb n="557"/>
+CCXXXII. Frater Petrus, Rodulphi filius, et frater Fratris
+Jacobi Rodulphi. Hic fuit juvenis mirae sanctitatis. Optime jam
+cantabat, et chorum in cantu tenebat. Dilectus ab omnibus,
+utpote quia suavis et mitis, tandem, devotione commotus ut se-
+pulcrum Jesu Christi Domini Nostri visitaret, cum adhuc dia-
+coni fungeretur officio, transfretavit in Cyprum; et inde, post
+parvum temporis cursum, solutus carne, animam cum beatis
+et electis spiritibus collocavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXIII.</head>
+<p>CCXXXIII. Frater Nicolaus de Sancto Martino. Quis ejus
+laudes explicet, nescio. Inferioribus parentibus natus, moribus,
+vita, scientia et viriutibus ad alta conscendit. Hujus ego in
+officio et missa, dum fui puer, extiti continuus minister et
+sotius. Fuit irreprehensibilis quanto ad vitam, ut nihil inho-
+nestum aut incompositum, verbo vel actu, in ipso vidisses. In
+locutorio rarus; sed et hoc de se pluries mihi dixit, quod ibi
+nunquam sedendo se aliquo modo locavit. Raro vel nunquam in
+lecto remansit vigilando. Longissimo tempore nunquam, matu-
+tinis dictis, ad stratum rediit, sive lectum. Carnes ab extra
+cujusvis generis sibi a saecularibus missas, nunquam recepit:
+quod expertus loquor. Habuit scientiam Ordinis clare atque
+perfecte: imbibitis namque ad totum liberalibus disciplinis, et
+naturalibus atque moralibus philosophiae documentis, ipsa per
+Conventus provinciae docuit plures Fratres. Bononiae fuit stu-
+dens, et Pisis baccellarius; nec dum sacerdos, lector in Prato.
+Exinde missus Parisius, tam eleganter studuit et refulxit, ut a
+magistris nimio diligeretur affectu. Reversus et factus baccellarius
+Florentiae, in Studio generali eodem anno factus est lector
+ibidem: quod de nullo fuit auditum. Tam diserte, tam scienti-
+fice, tamque magistraliter legebat, ut, judicio omnium, omnes in
+<pb n="558"/>
+lectionibus excedere videretur. Postea in Pisis lector fuit, et
+gratus. Quid dicam de sermonibus in latino, cum prae omnibus
+in iis clara fama fulgeret? Verbum autem Dei, Florentiae,
+pluribus annis, et Pisis, ita facunde, ita gratiose vulgariter
+praedicavit, ut nemo in civitatibus remaneret, si fieri poterat,
+quin sitibunde ad audiendum ipsum celerrime festinaret. Di-
+cam tibi rem veram: quod in verbo tanta fuit sibi gratia dif-
+fusa de superis, ut quicumque Fratrem Nicolaum audivit, in
+comparatione ejus sibi desiperet omnis alius postea praedicator.
+Unus similabat ipsum Paulo; alius Demostheni; alter Platoni:
+tanta erat ejus fama praeclara. Cum mulieribus nunquam vel
+rarissime loquebatur, et tunc etiam senex verecundus erat ut
+puer. Gratissimae conversationis fuit, ut sive docendo, sive
+sermocinando, sive praedicando aut communiter loquendo, di-
+ctum fuerit ab omnibus id verbum, quod de vero magistro sacrum
+Evangelium dicit: <hi rend="italic">Nunquam sic locutus est homo</hi>. Fecit ser-
+mones dominicales, et quadragesimales septemplices; qui postea,
+incuria sua et remanentium post ipsum, non sunt in usum et
+in debitam formam redacti. Adhuc tibi addam unum incredibile
+verum: quod cum multis et multis temporibus praedicasset,
+nunquam sententiam vel historiam vel phantasiam aliquando
+iterum repetivit. Veniam nunc ad honores quibus eum Ordo
+plurimum exaltavit. Fuit Prior Pistoriensis et Pisanus, diffinitor
+Capituli provincialis, praedicator generalis, vicarius magistri
+Ordinis in natione Dalmatiae. Postmodum senex, postutalus in
+Archiepiscopum Pisanum, sed data ecclesia Pisana domino
+Johanni Scharlacto, in Episcopum Lucanum, unanimiter postu-
+latur. Sed contradicentibus Florentinis, propter castra Lucani
+episcopatus quae tenent, impeditus de Lucana ecclesia, Rac-
+channetensi et Maceratensi praeficitur in episcopum et pastorem;
+ubi, ut jubar solare, refulsit, exemplis et verbis populum at
+trahendo. Et postquam diu praedictam rexit ecclesiam, beato
+fine in sua sede quievit, sed potitus aeterna.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXIV.</head>
+<p><pb n="559"/>
+CCXXXIV. Frater Andreas de Nichio, de nobili Orlando-
+rum parentela progenitus, ingenuus carne, sed magis spiritu,
+fuit: nam puer, cum solus haeres divitiarum paternarum exi-
+steret, libenter et plenariter contempsit omnia, ut Christum, in
+nostra religione, pauperem sequeretur. In Ordine vero, licet
+parvo tempore, vixit innocue; tamen et suaviter in nostra
+societate convixit. Multa proponebat pro Conventu facere, pro
+quo totus ardebat; sed immatura morte percussus, et ipse
+praeventus et nos a nostra expectatione remansimus defraudati:
+nam, adhuc valde juvenis, jam tamen sacerdos et Pisis Sup-
+prior, de mense septembris emisit spiritum, ad gloriam tran-
+siens felicitatis aeternae, tanto Fratrum et saecularium gemitu
+atque ploratu, ut non sufficeret aliquis enarrare. Cujus gra-
+tia habet Conventus Pisanus copiosas et largissimas eleemosynas
+annuatim; unde ejus memoria semper debet esse praesens in
+mentibus nostris, atque pro eo et suis preces fundere omni cura
+tenemur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXV.</head>
+<p><pb n="562"/>
+CCXXXV. Frater Jacobus Christiani, conversus. Hic fuit
+mihi familiaris et sotius, dum fui novitius. Arte calcifex valde
+peritus, in qua arte longo tempore Fratres fideliter servivit et
+prompte; sacrista sollicitus, et procurabat multa bona pro sa-
+cristia, et etiam pro Conventu; et vere commendabilis fuit ejus
+vita, integra et fidelis. In ecclesia dominabus deliciter respon-
+debat. Suavis et constans et exemplaris plurimum, de mense
+octubris fuit de carnis onere liberatus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXVI.</head>
+<p>CCXXXVI. Frater Jacobus de Gualterottis, de stirpe no-
+bili Lanfrancorum, intravit Ordinem satis puer, et restitit
+belle quampluribus ad exitum Ordinis provocantibus eum; et
+facta professione, studio intentus, loycam et phisicam ap-
+prehendit. Infra provinciam, theologiam scire sategit: sed, ut
+animum melius ad divinam scientiam applicaret, in Angliam
+(ad) Oxoniense studium, et Parisius peragravit. In Florentia
+magister studentium fuit; in Pisis baccellarius; et alibi et
+ibidem pluries lector; ac etiam Senis, et Perusii, et in loco
+Curiae, et quasi in tota provincia lector fuit. Praedicator ge-
+neralis, et lector magistri Ordinis, et vices procuratoris Or-
+dinis gessit in Curia. Tandem ab Urbano Papa <num>V</num> in theologia
+obtinuit cathedram, et infulas magistrales: quare fuit primus,
+post dicti Papae adventum, in Romana Curia magistratus.
+Deinde post, a Gregorio Papa bonae memoriae, fuit electus in
+Archiepiscopum Turritanum in insula magna Sardorum; ad
+quam accedens pro exercendo officio pastorali, turres possessit,
+aeternas, temporalibus relegatis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXVII.</head>
+<p><pb n="563"/>
+CCXXXVII. Frater Jacobus Petri de Pisis, humiliter natus,
+ita compositae vitae fuit, ut de magna prosapia judicasses eum-
+dem. Oculos graves, incessus raros, sermones compositos, au-
+divisses et vidisses in illo. Fuit, propter ejus spiritum, bene
+consultus Prior bis Pisis et Supprior, et Lucanus diffinitor
+provincialis capituli, et generalis praedicator. Tandem, domi-
+norum procuratione Pisanorum, fuit factus Archiepiscopus in
+Turribus Sardineae. Tamen ad locum corpore non accessit, sed
+febrili infirmitate percussus, in turri fortitudinis se locavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXVIII.</head>
+<p>CCXXXVIII. Frater Bartholomaeus Rossi. Hic fuit homo
+valoris, in licteris bene intelligens. Studuit in provincia in pri-
+mitivis et naturalibus scientiis, loycis et phisicis; et theologicae
+scientiae studens, Mediolani et Neapolim atque Parisius: le-
+ctor Pisis, et in aliis pluribus Conventibus provinciae. Fuit
+satis bonus astrologus: cantavit et praedicavit sufficienter: sen-
+<pb n="564"/>
+sata persona et bonae conversationis. Prior in Tuderto. Fuit
+etiam diffinitor Capituli generalis, et diffinivit in Capitulo Bran-
+diburgensi. Tunc mortuo fratre Nicholao de Corneto, provin-
+ciali nostrae provinciae, bonae memoriae, ipse rediit generalis
+vicarius nostrae provinciae; et ibidem, in dicto Capitulo generali,
+fuit provincialis Terrae Sanctae institutus. Et cum per plures
+annos in Cypro fuisset, rediit Pisas, et febri post (tempore
+mortali), correptus, optimo sensu et intelligens exiens, transiit
+de hac vita <date value="13750000">MCCCLXXV</date>, de mense martii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXXXIX.</head>
+<p>CCXXXIX. Frater Nicholaus de Cascina, filius ser Bindi.
+De hoc parum dicam, cum merces ejus a nobis invalida foret.
+Hic licteris saecularibus spretis, ita se divinis penitus manci-
+pavit, ut solummodo <hi rend="italic">Bibliam</hi>, et <hi rend="italic">Summas Conscientiae</hi>, et <hi rend="italic">Origi-
+naria sanctorum</hi>, et <hi rend="italic">Legendas martyrum</hi>, et <hi rend="italic">Patrum Collationes</hi>
+et <hi rend="italic">Vitas</hi>, studendo videret. Semper in psalmis, semper in choro,
+semper in missis intendens. Pernoctabat in ecclesia, disciplinis
+macerans carnem suam. Munde et pure vivendo, obedientiae prom-
+ptus erat. Tantae humilitatis et tanti timoris fuit, ut aliquando
+limites pertransiret; nec recordor adhuc religiosum, vel paucos,
+in illa sua dejectione profunda. Tantae charitatis, ut nunquam
+aliquis infirmus in Conventu ubi praesentialiter esset, posset in
+necessariis deficere, vel servitii carentia ullo modo perire. Suavis
+et multae dulcedinis Supprior Pisanus, ita laetus ex hac mi-
+seriae valle transivit, ut intelligere plene daret, sibi adesse
+agmina spirituum beatorum. Obiit ergo feliciter Pisis, flentibus
+universis, ipso solo gaudente, in vigilia Pentecosten, cum Spi-
+<pb n="565"/>
+ritus Sancti festum, consolatoris moestorum, ab Ecclesia cele-
+bratur. Hujus corpus post plurimos menses inventum fuit inte-
+grum, ab aliquo qui sepulcrum in quo jacebat aperuit. Parco
+pluribus, ne longus existam. <date value="13780000">MCCCLXXVIII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXL.</head>
+<p>CCXL. Frater Johannes de Treggiaria, fuit magnus con-
+fessor in ecclesia. Scivit praedicare, et convenienter cantare.
+Fuit sequens communia multum bene, chorum et refectorium.
+Fuit diffinitor Capituli provincialis. Fuit Prior in Eugubio, et
+postea in Pisis; in quo prioratu cessit humanis <date value="13780000">MCCCLXXVIII</date>,
+de mense septembris.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLI.</head>
+<p>CCXLI. Fratrer Petrus de Cascina, conversus. Hic fuit
+devotus homo, et ex devotione sua ivit ad visitandum sepul-
+chrum Domini Nostri Jesu Christi. Prius autem et postea,
+fuit sacrista bene sollicitus et continuus: multis annis domina-
+bus in ecclesia bene respondit. Quaestuarius fuit bonus, maxime
+in quaestu frumenti; infirmarius etiam pius et solers, nec in
+servitiis infirmorum sibi parcebat. Post multa tempora completa
+bona et exemplari vita, in pace quievit <date value="13800000">MCCCLXXX</date>, in
+martio mense.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLII.</head>
+<p><pb n="566"/>
+CCXLII. Frater Cerbonius de Campilia, individuus so-
+tius praefati Fratris Nicolai de Cascina. Hunc describendo,
+deficiam ab hiis de quibus commendari potest homo tam bonus.
+Si licteras quaeris, <hi rend="italic">Bibliam</hi> et <hi rend="italic">Glossas</hi> completissime scivit, et
+docuit juvenes, non parvo tempore, sollicite valde. Si de choro
+interrogas, bonus valde cantor, fecit annis pluribus cantoriam.
+Nunquam defecit die noctuque: missas quotidie celebrabat. Pul-
+savit organa in divinis laudibus solus; rofectorium, et alia
+communia, nullatenus praetermittens. Pluries magister novitio-
+rum, quos, ut nutrix, tenerrime bajulabat. Tam suavis et pius,
+ut pluries Supprior esset; tantae obedientiae, ut nulli mandato
+aliquando etiam mente contrairet. Ita saecularibus reverendus
+et carus, ut quasi pater omnium qui eum cognoscerent, puta-
+retur. Zelans pro Conventu et Ordine, ut in nullo labori par-
+ceret quovis modo. Pauper et humilis, et omnibus semper in-
+tentus, divinis meditationibus insistebat: ita patiens et sufferens,
+ut nunquam de aliquo reclamaret: ita dilectus Deo et homini-
+bus, ut de ipso vel ipsi (quod est mirabile etiam cogitare) sibi
+nullus unquam, detraxit, vel aliqua querela de aliqua re mur-
+muraret, vel malediceret quovis modo. Lector Lucanus, Prior
+Serzanae, diffinitor Capituli provincialis, praedicator generalis,
+bis Prior Pisani Conventus in secundo prioratu; ut vere sanctus,
+longam, patiens aegritudinem patienter et sine lamentis, diem la-
+boris in aeternam beatitudinem commutavit, extrema paupertate,
+ut filius beati Dominici: quod sibi nec unum quidem denarium,
+nec pecuniam, nec libros, nec vestes, nisi et vix cum quibus se-
+pelliretur, invenimus. Cum inconsolabili omnium Fratrum gemitu
+et ejulatu ac in dolore, in integro spiritu et intellectu, eum
+igitur ad requiem perpetuam, ut credimus, Angeli detulerunt.
+Est sepultus Pisis in octavis Assumptionis Virginis gloriosae,
+non siccis oculis civium, virorum ac etiam mulierum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLIII.</head>
+<p><pb n="567"/>
+CCXLIII. Frater Petrus Dominae Frischae, juvenis ob-
+sequiosus, valde aptus ad mechanica, praecipue in arte pingendi,
+obiit eodem anno; scilicet de mense septembris <date value="13800000">MCCCLXXX</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLIV.</head>
+<p>CCXLIV. Frater Jacobus Casini De Seta, fuit homo
+valde sensatus, et licteratus satis. Praedicavit et legit: fuit
+etenim lector Lucanus, et in pluribus Conventibus. Studuerat
+per prius Neapolim. Dum fuit fortis, per quadraginta annos
+non remansit numquam a matutinis. Cum appropinquavit ad
+senium, morbo podagrae quolibet anno vexabatur, et patienter
+valde tulit. Fuit expertus in praticis multum, et gratae con-
+versationis. Prior fuit in Sancto Miniate et in Serzana, et in
+Pisis Prior et Supprior: et cum senuit, omni die, longo anno-
+rum tractu, post officium, de quo sollicitus semper fuit, glo-
+riosam Mariam Virginem mille vicibus salutabat: et sic senio
+defecit anno predicto.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLV.</head>
+<p><pb n="568"/>
+CCXLV. Frater Nicholaus, magister in sacra pagina.
+Hic fuit de Bolsingis de Prato: nobilis erat parentela; et inde
+expulsi, cives Pisani fuerunt. Hic Frater fuit valde commen-
+dandus, et est procul dubio memorandus; quia compositus in
+moribus, verecundus in actibus, honestus in vita, licteris ornatus.
+Quare, studens juvenis in naturalibus disciplinis et in eisdem
+magister, theologiam sitiens toto corde, per studia sollicite con-
+quisivit. Baccellarius Pisanus et Perusinus, lector Pisanus et
+Perusinus, et in multis Conventibus gratus, sonore et artificiose
+cantavit. Praedicavit optime, legit egregie, disputavit acerrime,
+sermocinabatur plurimum, gratiose. Tandem, in Florentia lectis
+pro forma <hi rend="italic">Sententiis</hi> et <hi rend="italic">Biblia</hi>, et completis famose quae ab ipso et
+similibus requiruntur, meruit magistri gradum; et factus magi-
+ster, remansit ibi, Studii Florentini doctor et regens; et postea
+fuit regens in Studio Paduano pluribus annis. Fuit Prior Pi-
+storii et Sanctae Mariae super Minervam, diffinitor Capituli
+provincialis, et praedicator generalis. Ultimo, vocatus a Deo, ter-
+tia die februarii, ima dimisit, spiritu ad superna volante.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLVI.</head>
+<p><pb n="569"/>
+CCXLVI. Frater Guido, dictus de Ponte Herae, tamen
+fuit de Lombardis de Libbiano Vallisherae; sed pater ejus ex
+causa habitandi permutavit. Hic, juvenis sacerdos, zelabat
+ardentissime pro honore Ordinis et Conventus: laeti convictus
+erat, et obsequiosus plurimum et amicabilis valde. Ivit Cyprum
+cum provinciali provinciae Terrae Sanctae, ubi fuit diffinitor
+Capituli provincialis in illa provincia. Tandem Episcopus in
+Graecia factus, pro servitio suae ecclesiae fuit laboribus exces-
+sivis extinctus, prout ab iis qui sciverant curiosus audivi.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLVII.</head>
+<p>CCXLVII. Frater Bartholomaeus Franchi, juvenculus valde
+gratus et dulcis, totus obsequiosus et bonus, et a Fra-
+tribus valde dilectus, et bene paratus ad bona; in Florentia
+pestilentiae morbo percussus, ut suaviter vixit in ac vita, ita
+in manibus patris et matris et Fratrum, suaviter ad vitam feli-
+cissimam pertransivit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLVIII.</head>
+<p>CCXLVIII. Frater Simon, conversus, de Panicalia, dum
+in Pisis faceret artes de coopertoriis, et aliis quae ad lectos co-
+muniter requiruntur, intravit devoto animo Ordinem, et animo
+diu vixit simplici et sincere, nulli nocens verbo vel facto, pacis
+amator. Quaestuarius optimus, et maxime panis; sacrista fidelis,
+et canaparius liberalis et dulcis; utilis Conventui in mataratiis
+reficiendis et etiam faciendis; <date value="13830000">MCCCLXXXIII</date>, de mense se-
+ptmbris, obiit Serazanae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCXLIX.</head>
+<p><pb n="570"/>
+CCXLIX. Frater Colus, conversus antiquus. Hic notus ab omni-
+bus Pisanis, omnia officia sibi commissa summa sollicitudine fecit.
+Pauca enim excepta sunt ministeria Conventus, quae sibi curanda
+data non fuerint; sed praecipue talis horti cultor et custos, ut
+ei similis in horticultura Pisis reperiri non posset: pro quo ze-
+labat nimis ardenter, ut personarum acceptor judicari nequiret.
+Sic super laesores forti voce clamabat, ut quilibet pertimesceret
+ejus vultum. Tandem, longa pulmonis infirmitate consumptus,
+coram Capituli provincialis, Pisis tunc celebrandi, multitudine
+Fratrum, suorum laborum, praemium reportavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCL.</head>
+<p>CCL. Frater Dominicus Duccii, fuit conversus circa Con-
+ventum maximi zeli: fuit enim longo tempore Conventus conti-
+nuus et providus procurator, pauper, beatum sequens Dominicum,
+patrem suum. Longo senio confectus, podagra diu vexatus,
+tandem senectute decrepita visu oculorum orbatus, omnes lan-
+guores substinuit patienter, quousque per mortem fuit suis la-
+boribus datus finis, <date value="13810000">MCCCLXXXI</date>, vigesimaoctava martii. Hic
+fuit patruus Fratris Philippi Puccini supra nominati.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLI.</head>
+<p>CCLI. Frater Humbertus, natus de Lusanna, conversus
+ad Dominum et Ordinem, sollicitus quaestuarius fuit, et obse-
+quiosus Frater omnibus rogantibus eum. Receptus Pisis, et ibi
+Deo spiritum reddidit, devotione non parva.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLII.</head>
+<p><pb n="571"/>
+CCLII. Frater Proinus De Vico, filius domini Vannis domini
+Becti De Vico, judicum: et fuit familia copiosa multorum in
+jure peritorum. Hic intravit Ordinem adolescens. In gramati-
+calibus introductus, et exinde in brevi in vita honesta et moribus
+proficiens, ac studio naturalium facultatum, ut mereretur ad
+divinam scientiam se transferre; ut audito et lecto pluries libro
+<hi rend="italic">Sententiarum</hi>, in quo summa theologiae continetur, <hi rend="italic">Sententias</hi>
+et philosophiam in principalibus Conventibus nostrae provinciae
+docuit quampluribus annis. Quibus expletis, missus est ad Stu-
+dium Parisiense; unde post annos rediens, fuit lector in Senis,
+in Roma, in Pisis, et in multis Conventibus nostrae provinciae,
+multis annis. Postremo, de licentia Urbani <num>V</num> Summi Pontificis.
+fuit ad theologiae magisterium, sublimatus, et fuit primus com-
+pletus magister nostri Conventus. Hic fuit gratiosus in verbo
+Dei, et copiosus in praedicationibus. Ubicumque praedicavit,
+et populo excessive complacebat: nam, quia diu vixit in Ordine,
+ultra sexaginta annorum tempore, quasi in omnibus Conven-
+tibus provinciae praedicavit; Januae insuper et Saonae. Fuit
+etiam diffinitor Capituli provincialis, et praedicator generalis
+in nostra provincia, et Prior in Piperno. Tandem, peractis
+in Ordine annis fere octoginta, in Conversione sancti Pauli
+Apostoli, in Pisis, fuit a laboribus humanis exemptus, et ho-
+norifice traditus sepulturae, anno Domini <date value="13850000">MCCCLXXXV</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLIII.</head>
+<p>CCLIII. Frater Raynerius, de Sancta Christina nominaius,
+pro eo quod, quando intravit Ordinem nostrum, erat curatus
+sacerdos ibidem; scilicet in ecclesia Sanctae Christinae de Pisis.
+Fuerat autem per prius capellanus in aliis ecclesiis nostrae Pi-
+<pb n="572"/>
+sanae civitatis; et cum magna devotione, in die sancti Thomae
+nostri doctoris, induit habitum sancti Dominici. Assiduus erat
+in officio divino, et bene et cum bona voce cantavit. Confessor,
+in ecclesia, peritus et acceptus et infatigabilis erat. Fuit Sup-
+prior in Pivis, laeti convictus : et ultimo, transactis quinqua-
+ginta annis, et in Ordine decimoquarto anno, in die sancti
+Thomae De Aquino, quo intravit Ordinem, magno cum honore
+fuit traditus ecclesiasticae sepulturae.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLIV.</head>
+<p>CCLIV. Frater Deodatus Piccini, de Castagnechio olim;
+postea in Ceuli Valliscascinae residentiam fecerunt. Avus suus
+fuit notarius, et vocabatur ser Datus de Cappella sancti Fri-
+diani. Hic intravit Ordinem pubes, et parum in grammaticalibus
+introductus: deinde, semota omni pigritia, et grammaticam et
+loycam apprehendit, et philosophiam et theologiam solerter
+discere sategit et plene; unde baccellarius Pisis fuit et Senis.
+Praedicabat gratiose, legebat copiose. Tandem, adhuc juvenis
+homo, lector Pisanus existens, factus est Episcopus Buzensis
+in ultramarinis; deinde vicarius Episcopi Suessani; et postremo
+in Conchis, provinciae Regni, prope Neapolim. Deo dedit spi-
+ritum, a gravi corporali onere, fato cogente, et missum pariter
+et exemptum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLV.</head>
+<p><pb n="573"/>
+CCLV. Frater Stephanus de Peccioli, filius Pauli Pieri
+Peruccii, puer immaculatus et bonae indolis novitius: attamen,
+cantandi peritia introductus, et officium ecclesiae jam adeptus in
+corde, peste invadente, translatus fuit ad superos <date value="13820000">MCCCLXXXII</date>,
+octavo mensis augusti.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLVI.</head>
+<p>CCLVI. Frater Bernardus conversus, fuit bonus canaparius,
+et procurator, et quaesitor eleemosynarum pro Conventu solli-
+citus.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLVII.</head>
+<p>CCLVII. Frater Lucas, filius Del Messo. Hic profecit in
+scientia valde bene. Praedicabat gratiose satis et copiose. Fuit
+Supprior in Conventu Pisano. Tandem Episcopus in partibus
+ultramarinis, migravit ad Christum in diocesi Lunensi.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLVIII.</head>
+<p>CCLVIII. Frater Stephanus, de Hispainia venit ad partes
+Italiae et Romam: tandem, ex magna devotione, intravit ad Or-
+<pb n="574"/>
+dinem, et perseveravit assidue in officio divino, et continue in
+ecclesia orationibus insistebat, nocte dieque. Ultimo, post paucos
+annos ab introitu suo, cum profunda humilitate, tam in vita
+quam in morte, ad exempla sanctissime alios provocabat; et
+sic in sancta pace quievit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLIX.</head>
+<p>CCLIX. Frater Franciscus, filius dominae Lisae, quae est
+domina humiliter nata. De patre autem ejus adhuc nescivi.
+Usque ad sacerdotium provectus, fuit bonus cantor. In Sicilia
+adhuc juvenis, transivit ad patres.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLX.</head>
+<p>CCLX. Frater Guilielmus de Castilione, Benintese vocatus
+in saeculo. Hic juvenculus, zelo suae vitae, scilicet aeternae,
+succensus, instantissime ingressum Ordinis appetens, et in illo
+servire Deo, affectu incredibili, sitiens; cum aliquibus sotiis
+intravit religionem beati Dominici: quam ut attentius obser-
+varet, migravit Venetias, et sibi mutavit nomen ob devotionem
+sancti Guilielmi, cujus corpus jacet in monasterio circa Casti-
+lionem de Pescaria; ubi resplenduit vita, et crebris miraculis
+carere non cessat. In Conventu autem Veneto dictus devotus
+juvenis innocentissimam vitam peragens, nihil de observantiis
+praetermittens, perseverantissime austeritatem Ordinis tenens,
+tam in victu a carnalibus epulis abstinens, vilibus utens continue
+vestimentis, austero cubiculo, indefesso silentio, assiduo sem-
+per studio et promptissima obedientia, in choro laetus officium
+angelico modulamine cantans, curae discendi licteras intentus; in
+illa mortalitate quae fuit Venetiis anno <date value="13980000">MCCCLXXXXVIII</date>,
+<pb n="575"/>
+raptus est in coelum ad gloriam sempiternam; et sicut bene et
+intense intendit Jesu Christo servire, sic intense et extense mer-
+cede infinita beatur.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXI.</head>
+<p>CCLXI. Frater Thomas Bernardi Ajutamicristo: quae qui-
+dem familia temporibus nostris fuit in magno statu regiminis
+Pisanae comunitatis, numerosa viris, locupleta divitiis, ma-
+gnifica domibus, a rerum apparatibus valde clara. Hic juven-
+culus, in theloneo considens corpore solum, in mundo mundum
+se preservavit ab illo; mente coelo familiaris insedit. Tandem,
+haerenti in salo naviculae fune praeciso, Praedicatorum Ordini
+se dedit; in totum, animo, corpore, habitu, conversatione,
+studio, obedientia, et omni quo potuit nisu se beato Dominico
+mancipavit: cujus innocuae vitae pro magno tempore testis in-
+dividuus fui. Sufficientem licteraturam, studiis omnium scien-
+tiarum, tam rationalis quam naturalis philosophiae, et ultimo
+sacrae theologiae, annosis laboribus insudans, juvante Christo
+fuit adeptus; unde <hi rend="italic">Sententias</hi> pluribus docuit annis. Tandem,
+lector principalis in majoribus Conventibus fuit. Gratae conver-
+sationis in quacumque aetate, maturae laetitiae, inoffensibilis
+vitae, cantans in arte supremus in choro, assidua utilitate,
+continuus orationibus pernoctans, et cunctis horis Christo va-
+cabat et suspiriis inhiabat ad coelum; scriptor nimis excellens.
+Postulationem Pisani archiepiscopatus de sua persona factam,
+humili devotione renuens, in Ordine securius egenus vivere
+praeelegit. Prior tamen in Senis et Perusio, Prato, Luca et
+Sancto Miniate, grata praelatione praefuit et profecit. In Pisis
+autem Supprior, et vicarius in primaeva sua vita factus, tan-
+quam omnium servus peregit officia. Diffinitor provincialis Ca-
+pituli, et praedicator fuit Romanae nostrae provinciae generalis:
+<pb n="576"/>
+nam et legebat utiliter et praedicavit eleganter. Episcopus Lu-
+canus electus, non obtinuit; equidem non sua culpa contradi-
+cente, sed quia ille qui tunc dominabatur in Pisis, summo
+Pontifici non placebat. Ultimo se contulit Venetias in Conventu
+sancti Dominici, et ibi Prior extitit pluribus annis. Deinde
+fuit Prior in Conventu sanctorum Johannis et Pauli, ubi
+multis fulxit annis; et post multos labores, in dicto Conventu
+obiit ad Christum, a quo adjutus, dextera illius deductus ad
+premium.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXII.</head>
+<p>CCLXII. Frater Thomas ser Michaelis de Nodica, notarii.
+Hic intravit Ordinem tredecim annorum, cum bona voce, et
+proficit bene. Cum sino grammatica Ordinem fuisset ingressus
+ivit Papiam ad studim. Deinde reversus, fuit factus in Con-
+veniu Pisano Supprior. Erat valde zolam pro Conventu, et ad
+receptiionem novitiorum valde intentus. Postea, cum adhuc
+valde juvenis esset, factus est Pior in Serzana; in quo Con-
+ventu pluimum laboravit, quare ille Conventiculus est existi-
+matus, et transeuntes stipendiarii de Tuscia in Lombardiam, et
+e converso plurima damna saepius intulerunt: quapropter ad
+restaurandum maxima fuit sollicitudo, opportuna pariter et
+expensa. In secundo vero anno, commotus ab Perpidanis, qui
+<pb n="577"/>
+se primum in Tuscia dealbaverunt, duxit copiam utriusque sexus
+maxima cum devotione in Lucam, cum consensu et mandato
+reverendissimi domini Episcopi Lunensis; et illi Lucani provo-
+cati ad poenitentiam, fecerunt processiones per Tusciam. Frater
+Thomas autem cum suis Serezanensibus accessit ad Sanctum
+Miniatem; et ibi lucrificatis multis qui etiam se fecerunt Albos,
+ipse ivit Pisas; et quantum fructum fecerint ibi, (ex hoc ap-
+paruit quod) pacem fecerunt omnes, et universi ad lamenta poe-
+nitentiae sunt conversi; et copiis multis ordinatis, iverunt Se-
+nas: et sic Frater Thomas fuit radix et principium Tusciae circa
+tot bona. Tandem rediens Serezanam, multum pro reparatione il-
+lius Conventus substinuit; et alia aestate revoluta, enodavit
+laqueos hujus vitae, et sic itinere libero transivit ad coelum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXIII.</head>
+<p><pb n="578"/>
+CCLXIII. Frater Bartholomaeus Venturae intravit Ordinem
+satis puer, et profecit in cantu. Continue in choro, die noctu-
+que, indefesse cantans, fuit sacerdos, et ut plurimum omni die
+celebrabat. Pacificus in conversatione, infirmatus est Lucae de
+peste, anno Domini <date value="13980000">MCCCLXXXXVIII</date>, et rediit Pisas infir-
+mus; et ibi cum esset in domo materna, quam tenerrime dile-
+xit, eum ad ventura praemia gratia divina perduxit de mense
+junii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXIV.</head>
+<p>CCLXIV. Frater Guillelmus, filius Antonii, dictus Del Corso
+(spetiarius fuit pater), intravit Ordinem, magna cum devotione,
+puer, et stetit Lucao novitius; ubi optime et divote convixit.
+Tandem, facta professione, rediit Pisas ad Conventum Fratrum.
+Optime et sollicite frequentans officium ecclesiae, cantavit bene,
+et fecit diu, cum esset juvenis, cantoriam. Erat dilectus a Fra-
+tribus et saecularibus. Pervenit usque diaconatum inclusive.
+Tandem, in peste praedicta, raptus est ante quam sacerdotio
+fungeretur, et non sine ploratu Fratrum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXV.</head>
+<p>CCLXV. Frater Nicholaus de Abbatia Maritimae, prope
+Castilionem de Pescaria Maritimae Pisanae, iniravit Ordinem ju-
+venilis adolescentiae. Bonus et perfectus grammaticus, in saeculo
+vocabatur Antonius. Magnae memoriae fuit, et studiosus. Ivit
+Mediolanum, et deinde Paduam: et cum esset jam valde intel-
+<pb n="590"/>
+ligens, factus est baccellarius in Conventu Pisano; et inde cum
+ivisset ad domum paternam, ibi in praefata mortalitate defun-
+ctus est.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXVI.</head>
+<p>CCLXVI. Frater Michael, filius Ludovici Michaelis De Tosis
+(ii fuerunt, quos ego vidi, mercatores in Pisis valde dilecti, et
+divitiis locupletes, et fideles et egregii cives). Hic Michael cum
+crevisset, post apprehensionem grammaticae, fuit, ultra quam dici
+potest, juvenis valde dissolutus, et nullius bonae indolis adolescens;
+lusor, matri non reverens, suis majoribus non obediens; ma-
+gnus et pulcher in corpore, sed parvus in virtute, et vitiorum
+dedecore turpis. Tandem, audiens sermones Dei ab ore Fratris
+Johannis Dominici de Florentia, quos, Dei gratia, scienter et
+ferventer et multipliciter proferebat, conteritus digitus Dei, con-
+vertit ad suae conversionis effectum. Mutavit vitam simul et
+habitum: unde Ordinem nostrum Praedicatorum, maxima cum
+devotione, intravit; ibique tam vero corde Dea servire coepit,
+ut admirari cogeret omnes qui cum eo vivebant: et tale testimo-
+nium idem Frater Johannes mihi narravit, quod nunquam vidit
+in humili et prompta obedientia, in paupertate voluntaria, in
+continentia pura, talem similem sibi. Tandem, in peste praedicta,
+cum esset Cortoni missus cum quibusdam Fratribus, charitate
+omnes infirmos visitans et supportans, et servitiis hilariter
+consolans universos et singulos, adhuc novitius perennem vitam
+praesentem feliciori commercio commutavit.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXVII.</head>
+<p><pb n="581"/>
+CCLXVII. Frater Jacobus de Sardinea, ductus a matre Pisas;
+quae paupercula sed bona puta, quod serviendo panem suum
+lucrabatur et victum. Hunc puerum decem vel undecim annorum
+dedit Ordini nutriendum; qui, officium cum didicisset totum, et
+completum diceret, adhuc subdiaconus, in illa dicta peste, mi-
+gravit ad Christum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>1%Hic Incipit …</head>
+<p>Hic incipit Chronicam prosequi magister Simon de Cascina,
+anno <date value="14110000">MCCCCXI</date>, existentibus observantiis in Conventu
+Sanctae Katarinae de Pisis, et aliqui istorum mortui
+erant ante.
+Primus qui se meo calamo obtulit, fuit:
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXVIII.</head>
+<p>CCLXVIII. Frater Thomas de Vico, qui a memoria prae-
+decessoris scribentis <hi rend="italic">Chronicam</hi> decidit. Hic in saeculo scriba
+et notarius publicus extitit. Patri unicus, ab eo summe dilectus,
+in tantum ut, quando intravit Ordinem, pater pro dolore
+quasi mortuus est. In Ordine vixit valde religiose. Scientia
+pollebat plurima. Ivit Parisius, et ad varia studia extra
+provinciam. Fuit praedicator generalis, et diffinitor Capituli
+provincialis; gratiose praedicavit in Conventibus pluribus, et
+in majori Pisana ecclesia pluries. Eleemosynarius erat: nam
+elemosynas habitas, pro magna parte Fratribus pauperibus dis-
+<pb n="582"/>
+pergebat. Magistratus in theologia fuit Pisis, a me recipiens
+infulam doctoratus. Fuit Prior Pisanus et in Sancto Miniate.
+Ultra alias letorias, fuit lector Florentinus et Venetus. De-
+mum, compulsus a dmino Jacobo de Appiano, qui ad ipsum
+Fratrem habebat devotionem magnam, est factus dominnus Ho-
+spitalis Novi Pisis: sieque ab Archiepiscopo, auctoritate bulla-
+rum Papae, accipiens vestes alias, mutavit habitum cum fletu
+permaximo, in praesentia Fratrum motrorum, et multorum
+Minorum. In quo Hospitali, pie quanto ad infirmos, et lauda-
+biliter quanto ad omnes, vivens, post breve tempus, in peste
+quae fuit in anno <date value="14000000">MCCCC</date>, tempore Alborum, transivit ad
+patres. Srvivit Ordini prope quinquaginta annis.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXIX.</head>
+<p><pb n="583"/>
+CCLXIX. Frater Jacobus Ridulphi, in aetate florida, suppe-
+ditavit viscosa mundana, primo Fraticellorum habitum induens;
+cum quibus vestibus aliquanto tempore in nemorum cellulis,
+Deo serviens, solitariam vitam duxit. At aliquando ad civitatem
+veniens, suasu cujusdam sui germani, qui erat Frater Praedi-
+cator, inter nos effectus conversus; fuit tam sollicitus, tam utilis,
+iam quaestuarius optimus, quod carus et dilectus ab omnibus
+habebatur. Romae, instigantibus aliquibus, accepit clericorum
+habitum, et ad sacerdotium, transegit; tantaeque devotionis fuit,
+quod raro Conventum exiens, sequensque comunia, erat in choro
+assidue pernoctans post matutinas in ecclesia, ubi molestias et
+illusiones a malignis spiritibus plurimas passus est. Hic fuit
+Supprior Pisanus et Prior Serezanensis; et accensus devotionis
+fervore, bis visitavit sepulcrum Domini, pluries limina aposto-
+lorum Petri et Pauli, arcam beatissimi nostri Patris Dominici,
+corpus apostoli Jacobi. Demum, in senectute bona, in Arimi-
+nensi Conventu, transiens viam universae carnis, est a Deo sibi
+requies ultima condonata, anno <date value="14070000">MCCCCVII</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXX.</head>
+<p>CCLXX. Frater Andreas Del Fornajo, filius domini Jacobi,
+solemnissimi judicis et honorabilis civis, fuit tantae aptitudinis,
+tantae velocitatis, tantae perspicacitatis ad omnia opera, quod a
+patre plus caeteris amabatur. Quo intrante Ordinem, et eunte
+Venetias, ubi erant Observantiae, pater, impatienter portans,
+secutus est eum, non parcens expensis; multasque molestias filio
+<pb n="584"/>
+et Fratribus intulit. Hic existens coram dominio Veneto, in
+patris praesentia dominio reverentiam exibebat permaximam
+patri humilitalem et benignitatem permaximam: unde Fratribus
+redditus, dedit se scientifico studio, dedit se virtutum et caere-
+moniarium Ordinis studio; in tantum ut sermocinator et prae-
+dicator factus, bonorum praedicatorum et sermocinatorum sotius,
+per Capitulum generale celebratum Bononiae anno <date value="14080000">MCCCCVIII</date>,
+fuit habilitatus ad magisterii gradum, eratque magna spes no-
+stri Pisani Conventus. Verum, existens juventute florida, factus
+est Archiepiscopus Thebanus; dumque iret ad suam ecclesiam,
+rapuit eum mors tam spei quam dignitati, cujuslibet inimica,
+anno <date value="14090000">MCCCCIX</date>.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXXI.</head>
+<p>CCLXXI. Frater Nicolaus Gittalebraccia (cujus attinentes
+et consanguinei fuerunt valde magni, potentes, honorati et di-
+vites, tempore domini Petri de Gambacurtis) recepit habitum
+Fratrum Praedicatorum, primo, in loco Nichosiae, in Valle Calci
+prope Pisas, a Fratre Johanne Dominici; deinde in Florentia,
+ad abundantiorem cautelam, a Priore Florentiae; missusque est
+ad Conventum Castellanum, ubi vigebant Observantiae, factusque
+est licteratus juvenis. Devotus et obediens, abdicavit temporalia;
+dedit partem sibi contingentem, quantum sua interfuit, mona-
+sterio sancti Dominici de Pisis: nam fuit de intimis filiis So-
+roris Clarae De Gambacurtis; licet praedictum monasterium
+habuerit parum vel nihil. Hic erat affectuosus ad religionem
+<pb n="585"/>
+plurimum, anhelabatque ardentissimo desiderio videre Observan-
+tias in Conventu pisano. Verum, existens juvenis et gratiosus
+praedicator in Conventu Clusiae prope Venetias, anno <date value="14100000">MCCCCX</date>,
+diem clausit extremum.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXXII.</head>
+<p>CCLXXII. Frater Andreas De Bigulia, fuit inter Fratres
+quos videram, de singularissimis nostrae religionis. Hic in
+scholis grammaticae reputabatur a suo magistro in apprehen
+dendo, retinendo et studendo, scholaris supremus. Fecit ser-
+monem, existens quasi puerulus, in praesentia domini Petri
+De Gambacurtis et multorum honorabilium civium, coram suo
+magistro et scolaribus omnibus. Postea effectus Frater, missus
+est Lucam pro majori custodia; ubi cum magna obedientia
+officium peroptime didicit. Post vero professionem, devotionem
+non deserens, submisit jugo studii taliter colla, quod auditis
+<hi rend="italic">Artibus</hi> a docentibus pluribus, legit eas solemniter in Conven-
+tibus variis. Deinde factus est Supprior in Conventu Pisano. Qui
+timens ne sui studii fervidi esset obstaculum, ivit Angliam,
+supprioratu dimisso; ubi stetit per duos annos continuos. Ad
+provinciam rediens, effundere coepit doctrinam in sibi injunctis
+officiis, et gratus coepit esse in verbo. Post haec, ex fervore
+accensae devotionis, visitavit Sepulcrum; et in reversione, prae-
+dicavit in insula Candiae, cum maxima concitatione populi.
+Reversus ad Conventum Pisanum, auctoritate Papae factus est
+in theologia magister. Fuit Prior Pisanus bis. Fuit Prior Lu-
+<pb n="586"/>
+canus; ubi de assensu magistri Thomae de Firmo, tunc Gene-
+ralis, caerimonias Ordinis observari fecit: nam erat in reverentia
+omnium, tamquam scientificus doctor, valens praedicator, vir
+honestissimorum morum et sanctae religionis. Hujus procura-
+tione facta est infirmaria in Conventu Lucano. Fuit lector
+in multis Conventibus. Praedicavit in majori Pisana ecclesia, in
+Conventu Senensi et Lucano, cum maxima gratia. Fuit assi-
+gnatus, per generale Capitulum celebratum Erefordiae, lector
+Florentinus; sed ire non potuit: quare secunda vice factus est
+Prior in Luca. His conjecturare poteris ejus perspicacem spi-
+ritum ac affabilem eloquentiam: nam a domino Lucano
+factus est ambaxiator ad Papam Gregorium. Fuit causa quod
+Papa veniret ad civitatem Lucanam. Hic posuit et manu-
+tenuit Observantias in Conventu Sancti Romani usque ad finem
+vitae, cum tanta fama saecularium, cum tanto honore Ordinis,
+quod odor famae laudabilis effusus est non solum per Ordinem,
+verum etiam per provincias et contratas remotas. Fuit praedi-
+cator generalis, et diffinitor Capituli provincialis. Fuit vicarius
+provincialis in natione Romana, et alias in natione Tusciae.
+Amabat videre Observantias et religionis bona in suo Pisano
+Conventu. Verum, adeveniens finis vitae et irrecuperabilis mortis
+necessitas, tam Fratres quam cives frustrati sunt a desiderio
+suo. Infirmatus namque gravissime, patienter et humiliter poenas
+substinuit. Obedienter cibum et medicinas assumpsit; devotissime
+et cum lacrimis pluries in infirmitate confessus est generaliter;
+sacram comunionem accepit multoties: fuit enim longa aegritudo,
+et semper vitae tantum minabatur. Dum scribo, cadentes la-
+crimae rigant ora, cum exemplaris juvenis poterat adhuc ser-
+vire Ordini annis viginti. Postremo, extrema perunctione pe-
+racta, emittens spiritum, a cantantibus choris angelicis est
+praesentatus suo clementissimo Creatori, anno <date value="14080000">MCCCCVIII</date>,
+de mense decembris.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXXIIII.</head>
+<p><pb n="587"/>
+CCLXXIII. Frater Dominicus de Peccioli, in saeculo
+vocatus Salvator, intravit Ordinem solemnis grammaticus. In
+novitiatu et in adolescentia ostendit accensam devotionem; unde
+magister novitiorum est factus. Sed vocabant eum et expectabant
+majora officia. Ideo, Artibus tronscursis et lectis, dimissis figmentis
+poeticis quibus erat imbutus, tamquam zelator animarum ad
+theologiam et nostrorum doctorum scientiam totum se contulit,
+ac ferventissimis praedicationibus corda audientium amovebat a
+vitiis. Sibi famam conquisivit celebrem; Ordini et Conventui,
+proprio honore, ingentem. Hic fuit studiosus valde. Scripsit super
+Epistolas Senecae ad Lucillum. Praedicavit grate in Viterbio
+et Florentia; in Pisis, in Prato, in Luca, et ubicumque prae-
+dicavit. Honoratus est multum in Ordine: nam extitit vicepro-
+curator Ordinis; vicarius provinciae fuit multoties; extitit
+provincialis in Romana provincia, tempore quo unitus erat Ordo,
+nec scissa ecclesia. Composuit multos sermones praedica-
+biles: incoepit scribere super Augustinum <hi rend="italic">De Civitate Dei</hi>.
+Fuit saepius missus ambaxiator: fuit bis Prior in Lu-
+ca, et tribus vicibus in Conventu Pisano. Erat
+saecularibus multum affabilis. Sollicitudine a procuratione ejus
+cooperta est infirmaria, et factae sunt ibi camerae; ex una
+parte omnes, ex parte alia una: factus est chorus novus etiam
+hujus procuratione. Fuit praedicator generalis, diffinitor
+Capituli provincialis pluries. Diffinivit tamquam provincialis Ro-
+manus in Capitulo generali Bononiae celebrato, schismate in
+ecclesia iam incoepto; et inde electus est in magistrum, cum
+<pb n="588"/>
+magister Raymundus de Capua fuit vicarius in provincia Lom-
+bardiae superioris. Recepit infulam magistralem in Pisis, aucto-
+ritate Urbani <num>VI</num>. Hic erat in tantum dilector provinciae et
+civitatis propriae, quod propter melanconiam ejusdem civilttis
+infirmatus gravissime, dimissis honoribus, laboribus et scribendi
+sollicitudine omnino positis, suum spiritum reddidit Creatori,
+anno <date value="14080000">MCCCCVIII</date>, de mense decembris: mortuus est enim
+quinta die post magistrum Andream de Bigulia.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXXIV.</head>
+<p><pb n="589"/>
+CCLXXIV. Frater Raynerius De Spina, puerulus intrans
+Ordinem, fuit confessor et bonus scriptor. Fuit Prior Sereza-
+nensis et Ananinus; Supprior et vicarius multoties in Conventu
+Pisano; ac etiam in Conventu Sanctae Mariae super Minervam,
+fuit Supprior. Positus est multoties visitator, et visitavit; factus-
+que est capellanus domini Papae: tamen in obedientia Ordinis
+residebat. Hic complevit in Ordine quinquaginta annos, et plu-
+res. In senectute fuit devotus valde, et omni die, ultra officium,
+dicebat psalterium. Anhelavit plurimum, quod in Conventu Pisano
+Observantiae ponerentur, sed non potuit: cum, anno <date value="14090000">MCCCCIX</date>,
+confectus senio, ecclesiasticis sacramentis cum devotione eum ju-
+rantibus, transvolavit ad coelum de mense martii.
+</p>
+</div1>
+<div1 type="sezione">
+<head>CCLXXV.</head>
+<p>CCLXXV. Frater Andreas De Boncontibus, intravit Ordinem
+valde juvenis, et bonus grammaticus. Fuit studiosus assiduus,
+historiographus et poeta. Peragravit per diversa studia, tam
+per provinciam quam extra. Fuit baccalarius et lector, legitque
+<hi rend="italic">Artes</hi> in variis provinciae Conventibus. Fuit semel Prior Pisanus
+et multoties Supprior fuerat. Praedicavit grate in pluribus
+<pb n="592"/>
+Conventibus. Demum legit in Conventu Pisano <hi rend="italic">Sententias</hi> pro
+suo magisterio; fuissetque magister, cum ejus probitas mere-
+batur. Verum, veniente Urbano <num>VI</num> Lucam, procuravit mitram,
+et factus est Episcopus quasi titularis; unde ivit Siciliam, ubi
+erat ejus germanus dives. Ultimo stetit aliquanto tempore cum
+Archiepiscopo Marsiliensi; et propter suam scientiam et probi-
+tatem, fuit sibi provisum peroptime usque ad terminum suae
+vitae.</p><pb n="593"/>
+</div1>
+</body>
+</text>
+</TEI.2>

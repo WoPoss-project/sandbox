@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>De specierum scrutinio</title>
+      <author>Giordano Bruno</author>
+    </titleStmt>
+    <extent>27 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000924</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Opere complete</title>
+        <author>Bruno, Giordano</author>
+        <editor id="ed">Ordine, Nuccio</editor>
+        <publisher>Lexis Progetti Editoriali</publisher>
+        <pubPlace>Roma; Torino</pubPlace>
+        <date>1999</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>500</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>LEXIS</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-05-24T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Chiodi</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica con software</item>
+    </change>
+    <change>
+      <date>2004-05-27T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+  <text>
+    <front>
+      <head>IORDANUS BRUNUS NOLANUS.<lb/> DE SPECIERUM SCRUTINIO ET LAMPADE COMBINATORIA RAYMUNDI
+        <lb/> LULLII DOCTORIS EREMITAE OMNISCII PROPEMODUMQUE DIVINI.</head>
+
+      <head>PRAGAE. <lb/> EXCUDEBAT GEORGIUS NIGRINUS, <lb/> ANNO MDLXXXVIII</head>
+
+    </front>
+    <body>
+      <div1 n="Dedica">
+        <opener>
+          <salute>ILLUSTRISSIMO EXCELLENTISSIMOQUE D. DON GUILHELMO A. S. CLEMENTE EQUITI ORDINIS S.
+            IACOBI DE ESPATA SERENISSIMI HISPANIARUM REGIS CATHOLICI A CONSILIIS EIUSDEMQUE AD
+            CAESAREAM RODOLPHI II. IMPERATORIS MAIESTATEM LEGATO IOR. BRUNUS NOL. S. D.</salute>
+        </opener>
+
+        <p>Quemadmodum animalia muta, quamvis laudatis orta parentibus, non ullus generosa
+          existimabit, nisi fortia, ita homines appellari nobiles iure nequeunt, nisi propria
+          extiterint virtute commendati. Ideo tribus a Platone enumeratis sub nobilitatis genere
+          speciebus: prima, quae a sapientibus, probis derivat atque iustis; secunda, quae ab
+          heroibus et principibus; tertia, quae ab iis qui vel bellica negocia praeclare gesserunt,
+          vel certaminum coronas reportarunt, in posteros effunditur; quarta tandem illa species ab
+          eodem omnium praestantissima iudicatur, qua quis per se animi magnitudine multitudinem
+          antecellit; secus etenim disposito, si quando cum suis maioribus conferatur, haud iniuria
+          Persianum illud auribus inculcabitur <quote rend="block">
+            <lg>
+              <l>Hic petit Euphratem iuvenis, domitique Batavi</l>
+              <l>Custodes aquilas, armis industrius: at tu</l>
+              <l>Nil nisi Cecropides truncoque simillimus Hermae;</l>
+              <l>Nullo quippe alio vincis discrimine, quam quod</l>
+              <l>Illi marmoreum caput est, tua vivit imago —</l>
+            </lg>
+          </quote> illud optime cavisti, generosissime admodumque magnanime Domine, ne solo
+          hereditario maiorum tuorum splendore clarus, minus propria, in te exorta et a te ipso
+          comparata omnis generis claritate tot rationibus enitesceres atque numeris, quot certe tum
+          quia manifesti sunt, tum quia maiores quam huic loco congruente compendio et orationis
+          stylo tractari possint atque debeant, recensere praetermittam. Ea ipsa sunt in causa, ut
+          cum principi huic Lulliano ingenio meisque circa eundem studiis patronum, qui tum iudicio
+          tum authoritate polleret, explorarem, usque adeo illustris Excellentia potissime omnium
+          exoptanda visa est, ut cuius patrocinio sublimis huiusce artis studia committerem, ne
+          forte cuipiam surdo fabulam narrare, caeco speculum praesentare, vel Thersiti ducis
+          Achillis arma offerre conspicerer. Ad heroicum ergo genium et ingenium vester hic
+          vestrasque Lullius confugiens ita (mihi certe persuadeo) suscipietur, quemadmodum ipsi ad
+          vestros tanquam ad proprios lares hilariore spiritu contigit adventare; ubi non minus
+          compertum esse video me super illius adinventionem excolendam elaborasse, cuius
+          intelligentiae divinitatem summi philosophorum principes, ut olim consuevere, ita et in
+          posterum admirari, persequi et imitari perpetuo debebunt; a quo quanto diviniora atque
+          profundiora, tanto paucioribus pervia minusque nota ingenia, mysteriorum, quae in
+          multiplici doctrinae torrente delitescunt, fontes hausisse fatentur. A cuius sufficientia
+          ebibita nomen atque gloriam plurimi sibi comparare studuerunt, qui propriis super haec
+          commentariis non tam Lullium declarare, quam vel per adtentatum Lullium nomen proprium
+          illustrare elaborarunt. Iam quid tandem ego super ipso praestiterim, vestrum et aliorum,
+          qui intelligentiae lumine non sunt orbati, esto iudicium. Sub duobus nempe hisce
+          “Lampadis” et “Scrutinii” titulis ea certe
+          complectimur, quae ad artes omnes Lullii inquirendas, intelligendas, nec sine iudicio
+          prosequendas sufficere iis facile possunt, qui vel medio criter in significationibus
+          terminorum vulgaris philosophiae fuerint versati. Hic namque integre expressisse videmur,
+          quidquid praestantissimus author iste in multis complectitur artibus, in quibus idem
+          inventum, nunc per unam, ut ipse loquitur, viam, nunc per aliam nititur aperire; in istam
+          quippe compendium contraxisse credimur, quicquid idem pluribus ad divinae combinatoriae
+          artis complementum insinuat, in “Artibus brevi, magna, inventiva, demonstrativa,
+          mixtionis principiorum, Auditus cabalistici, Arboris scientiae” et aliis, si
+          quae aliae (ut certe extare debent) extant eiusdem argumenti plurimae. His addam aliquid
+          permagni momenti, quod sub praedictis inscriptionibus “Auditus
+          cabalistici” et “Septemplicis arboris” divinus vir iste
+          occuluit et obsignavit, quae propediem (volente Deo) sub titulo “Lampadis
+          cabalisticae” huic cognatae arti subnectendae in lucem producam, quo sub eodem
+          illustrissimae Excellentiae tuae praesidio atque favore queant tutissi me consistere.
+          Accipiat interim a me quidquid hoc operis est, quod hoc principio Eam voluntatis et
+          observantiae erga se meae admoneat. Deum omnipotentem precor, ut Eiusdem vitam et actiones
+          in dies magis atque magis ad suam gloriam et Reipub. salutem fortunando promoveat. Pragae
+          X. Iunii MDLXXXVIII.</p>
+      </div1>
+
+      <div1>
+        <head>Cap. I Propositum.</head>
+        <p>Penitius inspicienti constat omnem artem omnemque disciplinam, ob id quod vel naturam
+          imitatur vel hanc exorbitantem corrigit aut adversam impedit, primo principia quaedam et
+          elementa suscipit, secundo eadem in simpliciores combinationes adcopulat, ultimo magis
+          multiplices atque varias e simplicibus educit complexiones, e quibus certe specificae
+          suboriuntur rerum differentiae, quales numeris huiusce generis comparantur.</p>
+        <p>Horum certe omnium artificiosa comprehensio in huiusmodi scrutinii dispositione, quam
+          Lullius primo delineando et inumbrando invenit, a nobis tandem propriis coloribus
+          inspicienda obiicitur.</p>
+      </div1>
+      <div1>
+        <head>Cap. II De artis elementis.</head>
+        <p>Artis huius alphabetum novem dumtaxat complectitur elementa, quorum singula vicibus
+          quatruplicis significati subministrant.</p>
+      </div1>
+      <div1>
+        <head>Cap. III De prima figura.</head>
+        <p>Figura prima, quae A elemento notatur, absoluta complectitur praedicata, quae de subiecto
+          quocunque affirmata vel negata quiditative vel denominative, in concreto vel in abstracto,
+          convertibiliter vel inconvertibiliter, in recto vel in obliquo enunciantur. Ipsum notatur
+          in figura per lineas a punctis circumferentiae singulorum elementorum ad omnia; quod
+          videlicet haec non modo de aliis omnibus extra figuram, sed etiam singula de caeteris
+          universis in figura constitutis praedicantur.</p>
+      </div1>
+      <div1>
+        <head>Cap. IV De secunda figura.</head>
+        <p>Secunda figura per T elementum notatur, utpote quae ex trium complicatorum triangulorum
+          ordine conflatur, ad quorum angulorum terminos termini omnes relativi velut ad propria
+          capita referuntur, quam sane relationem contemplari possumus.</p>
+        <list>
+          <item>in</item>
+          <item>ivo</item>
+          <item>abili</item>
+          <item>ante</item>
+          <item>are</item>
+          <item>ato</item>
+          <item>ando</item>
+          <item>utpote</item>
+          <item>principiativo.</item>
+          <item>principiabili.</item>
+          <item>principiante.</item>
+          <item>principiare.</item>
+          <item>principiato.</item>
+          <item>principiando.</item>
+          <item>Quae sunt</item>
+          <item>forma seu principium formale.</item>
+          <item>subiectum seu materiale principium.</item>
+          <item>efficiens seu agens.</item>
+          <item>actio seu operatio.</item>
+          <item>actus seu effectus.</item>
+          <item>agendum seu finis.</item>
+        </list>
+      </div1>
+      <div1>
+        <head>Cap. V De tertia figura.</head>
+        <p>Proprium sui significativum tertia figura non habet elementum. Ipsa quippe syllabicum in
+          hac arte et primum combinationis genus exprimit, quatenus ex duorum elementorum coitu
+          plurimi intentionum foetus propagantur, ubi sumitur vel absolutum cum absoluto, vel
+          absolutum cum respectivo, vel respectivum cum respectivo, vel respectivum cum absoluto; et
+          haec vel adiective vel substantive, et ita vel ex parte unius vel ex parte alterius
+          termini, qui sumuntur vel in recto vel in obliquo, aut utrique aut horum alter,
+          significando vel concretive vel abstractive, idque vel simpliciter vel contractive, et
+          figura vel prima vel secunda.</p>
+      </div1>
+      <div1>
+        <head>Cap. VI De quarta figura.</head>
+        <p>Figura quarta tribus concentricis efformata circulis foecundissima est tabulae generalis
+          mater.</p>
+        <p>Haec, ut expressimus in libro “De architectura”, septem admittit
+          revolutiones pro totidem domorum fabrefactione.</p>
+        <p>Prima constituitur, cum sub B circuli superioris immobilis ponitur C circuli medii et D
+          circuli inferioris, causando septem cameras; secunda, cum sub B circuli superioris ponitur
+          D circuli medii et E circuli interioris; tertia, cum sub B circuli superioris ponitur E
+          circuli medii et F circuli interioris; quarta, cum sub B circuli superioris ponitur F
+          circuli medii et G circuli inferioris; quinta, cum sub B circuli superioris ponitur G
+          circuli medii et H interioris; sexta, cum sub B circuli superioris ponitur H circuli medii
+          et I circuli inferioris; septima, cum sub B circuli superioris ponitur I circuli medii et
+          K circuli interioris.</p>
+
+        <p>Domus prima septem ordinibus constans habet 24. cameras.</p>
+        <list>
+          <item>7. 6. 5. 4. 3. 2. 1.</item>
+          <item>bcd. bce. bcf. bcg. bch. bci. bck.</item>
+          <item>bde. bdf. bdg. bdh. bdi. bdk.</item>
+          <item>bef. beg. beh. bei. bek.</item>
+          <item>bfg. bfh. bfi. bfk.</item>
+          <item>bgh. bgi. bgk.</item>
+          <item>bhi. bhk.</item>
+          <item>bik.</item>
+        </list>
+        <p>Domus secunda sex ordinibus constans habet 21. cameras.</p>
+        <p>Secunda domus constituitur, cum fit revolutio duorum internorum circulorum &lt;sub
+          C&gt; circuli immobilis, collocato primo sub eo D circuli medii et E circuli infimi;
+          secundo E medii, F infimi; tertio F medii, G infimi; quarto G medii, H infimi; quinto H
+          medii, I infimi; sexto I medii, K infimi.</p>
+        <list>
+          <item>6. 5. 4. 3. 2. 1.</item>
+          <item>cde. cdf. cdg. cdh. cdi. cdk.</item>
+          <item>cef. ceg. ceh. cei. cek.</item>
+          <item>cfg. cfh. cfi. cfk.</item>
+          <item>cgh. cgi. cgk.</item>
+          <item>chi. chk.</item>
+          <item>cik.</item>
+        </list>
+        <p>Domus tertia 5. ordinibus constans habet 15. cameras.</p>
+        <p>Tertia domus constituitur revolutione duorum internorum circulorum sub D circuli
+          immobilis, primo collocato sub eo E circuli medii et F infimi; secundo F medii, G infimi;
+          tertio G medii, H infimi; quarto H medii, I infimi; quinto I medii, K infimi.</p>
+        <list>
+          <item>5. 4. 3. 2. 1.</item>
+          <item>def. deg. deh. dei. dek.</item>
+          <item>dfg. dfh. dfi. dfk.</item>
+          <item>dgh. dgi. dgk.</item>
+          <item>dhi. dhk.</item>
+          <item>dik.</item>
+        </list>
+
+        <p>Domus quarta quatuor ordinibus constans habet 10. cameras.</p>
+        <p>Quarta domus fit revolutione duorum circulorum sub E circuli immobilis, collocato primo
+          sub eo F circuli medii et G inferioris; secundo G medii, H infimi; tertio H medii, I
+          infimi; quarto I medii, K infimi.</p>
+        <list>
+          <item>4. 3. 2. 1.</item>
+          <item>efg. efh. efi. efk.</item>
+          <item>egh. egi. egk.</item>
+          <item>ehi. ehk.</item>
+          <item>eik.</item>
+        </list>
+        <p>Domus quinta tribus constans ordinibus habet 6. cameras.</p>
+        <p>Quinta domus fit, cum primo sub F circuli immobilis collocatur G circuli medii et H
+          infimi; secundo H medii, I infimi; tertio I medii, K infimi.</p>
+        <list>
+          <item>&lt;3.&gt; &lt;2.&gt; &lt;1.&gt;</item>
+          <item>fgh. fgi. fgk.</item>
+          <item>fhi. fhk.</item>
+          <item>fik.</item>
+        </list>
+        <p>Domus sexta duobus ordinibus constans et tribus cameris.</p>
+        <p>Sexta domus fit primo sub G immobilis collocato H medii et I infimi; secundo I medii, K
+          infimi.</p>
+        <list>
+          <item>1.2.</item>
+          <item>ghi. ghk.</item>
+          <item>gik.</item>
+        </list>
+        <p>Domus septima unius camerae.</p>
+        <p>Septima domus fit moto sub H circuli immobilis I medii, K infimi.</p>
+        <list>
+          <item>1.</item>
+          <item>hik.</item>
+          <item>“Comp.”</item>
+        </list>
+
+        <p>Ex revolutione igitur circulorum quartae figurae resultant octo et viginti domus, quarum
+          prima septem habet ordines et 24. cameras; secunda sex ordines, 21. cameras; tertia
+          quinque ordines, 15. cameras; quarta quatuor ordines, 10. cameras; quinta tres ordines, 6.
+          cameras; sexta duos ordines, 3. cameras; septima unam cameram.</p>
+      </div1>
+      <div1>
+        <head>Cap. VII De tabula magna.</head>
+        <p>Tabula magna octoginta quatuor columnis constat, iuxta totidem camerarum numerum, quae in
+          28. sunt ordinibus, qui sunt in septem domibus, a septem revolutionibus in quarta figura
+          constitutis.</p>
+        <p>Quaelibet autem columna ex 24. cylindris, et horum singuli quattuor constant membris.
+          Unde quaternarium ductum per 24. reddit 96. membra.</p>
+        <p>Cylind. XXIV. sunt BCD. CBD. DBC. BDC. CDB. DCB. BBC. BBD. CCB. CCD. DDB. DDC. BCC. BDD.
+          CBB. CDD. DBB. DCC. BCB. BDB. CBC. CDC. DBD. DCD.</p>
+        <p>Singula cylindrorum quatruplici ipsius T situatione, quatuor membra sibi asciscunt; aut
+          enim est ante elementum primum TBCD, aut post primum ante secundum BTCD, aut post secundum
+          ante tertium BCTD, aut post tertium BCDT. Elementa ante T significant praedicata absoluta,
+          elementa post T respectiva significant praedicata. Ordo est ut T primo sit primum, secundo
+          secundum, tertio tertium, quarto quartum.</p>
+        <list>
+          <item>BCD. “Columna.” <list>
+              <item>tbcd. diff. conc. cont.</item>
+              <item>btcd. bon. conc. cont</item>
+              <item>bctd. bon. mag. cont.</item>
+              <item>bcdt. bon. magn. dur.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CBD. <list>
+              <item>tcbd. conc. diff. cont.</item>
+              <item>ctbd. magn. bon. cont.</item>
+              <item>cbtd. magn. bon. cont.</item>
+              <item>cbdt. magn. bon. dur.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DBC <list>
+              <item>tdbc. cont. diff. conc.</item>
+              <item>dtbc. dur. diff. conc.</item>
+              <item>dbtc. dur. bon. conc.</item>
+              <item>dbct. dur. bon. magn</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BDC. <list>
+              <item>tbdc. diff. cont. conc.</item>
+              <item>btdc. bon. cont. conc.</item>
+              <item>bdtc. bon. dur. conc.</item>
+              <item>bdct. bon. dur. conc.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CDB. <list>
+              <item>tcdb. conc. cont. diff.</item>
+              <item>ctdb. mag. cont. diff.</item>
+              <item>cdtb. magn. dur. diff.</item>
+              <item>cdbt. magn. dur. bon.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DCB. <list>
+              <item>tdcb. cont. conc. diff.</item>
+              <item>dtcb. dur. conc. diff.</item>
+              <item>dctb. dur. mag. diff.</item>
+              <item>dcbt. dur. mag. bon.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BCB. <list>
+              <item>tbcb. *</item>
+              <item>btcb. bon. conc. diff.</item>
+              <item>bctb. bon. mag. diff.</item>
+              <item>bcbt.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BDB. <list>
+              <item>tbdb. *</item>
+              <item>btdb. bon. cont. diff.</item>
+              <item>bdtb. bon. dur. diff.</item>
+              <item>bdbt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CBC. <list>
+              <item>tcbc. *</item>
+              <item>ctbc. mag. diff. conc.</item>
+              <item>cbtc. magn. bon. conc.</item>
+              <item>cbct. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CDC. <list>
+              <item>tcdc. *</item>
+              <item>ctdc. mag. diff. conc.</item>
+              <item>cdtc. magn. dur. conc.</item>
+              <item>cdct. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DBD. <list>
+              <item>tdbd. *</item>
+              <item>dtbd. dur. diff. cont.</item>
+              <item>dbtd. dur. bon. cont.</item>
+              <item>dbdt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DCD. <list>
+              <item>tdcd. *</item>
+              <item>dtcd. dur. conc. cont.</item>
+              <item>dctd. dur. mag. cont.</item>
+              <item>dcdt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BBC. <list>
+              <item>tbbc.</item>
+              <item>btbc. bon. diff. conc.</item>
+              <item>bbtc. *</item>
+              <item>bbct. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BBD. <list>
+              <item>tbbd. *</item>
+              <item>btbd. bon. diff. cont.</item>
+              <item>bbtd. *</item>
+              <item>bbdt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CCB. <list>
+              <item>tccb. *</item>
+              <item>ctcb. magn. conc. diff.</item>
+              <item>cctb. *</item>
+              <item>ccbt.</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CCD. <list>
+              <item>tccd. *</item>
+              <item>ctcd. magn. conc. cont.</item>
+              <item>cctd. *</item>
+              <item>ccdt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DDB. <list>
+              <item>tddb. *</item>
+              <item>dtdb. dur. cont. diff.</item>
+              <item>ddtb. *</item>
+              <item>ddbt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DDC. <list>
+              <item>tddc. *</item>
+              <item>dtdc. dur. cont. conc.</item>
+              <item>ddtc. *</item>
+              <item>ddct. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BCC. <list>
+              <item>tbcc. *</item>
+              <item>btcc. *</item>
+              <item>bctc. bon. magn. conc.</item>
+              <item>bcct. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>BDD. <list>
+              <item>tbdd. *</item>
+              <item>btdd. *</item>
+              <item>bdtd. bon. dur. cont.</item>
+              <item>bddt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CBB. <list>
+              <item>tcbb. *</item>
+              <item>ctbb. *</item>
+              <item>cbtb. magn. bon. cont.</item>
+              <item>cbbt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>CDD. <list>
+              <item>tcdd. *</item>
+              <item>ctdd. *</item>
+              <item>cdtd. magn. dur. cont.</item>
+              <item>cddt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DBB. <list>
+              <item>tdbb. *</item>
+              <item>dtbb. *</item>
+              <item>dbtb. dur. bon. diff.</item>
+              <item>dbbt. *</item>
+            </list></item>
+        </list>
+        <list>
+          <item>DCC. <list>
+              <item>tdcc. *</item>
+              <item>dtcc. *</item>
+              <item>dctc. dur. mag. conc.</item>
+              <item>dcct. *</item>
+            </list></item>
+        </list>
+        <p>Hic vanam intelligimus combinationem, ubi T non mediat inter geminatas literas.</p>
+        <p>De utilibus et inutilibus combinationibus.</p>
+        <p>De octo igitur, quae habentur, istius columnae membrorum duodenariis, quatuor duntaxat
+          extant utilia; ratio cuius est inde manifesta, quia frustra eiusdem praedicati signum
+          geminatur in ipsis, quae per stellarum adiectionem sunt in columna denotata. Duodenarium
+          primum ex tribus primis cylindris extrahitur, secundum de sex sequentibus secundis,
+          tertium de duodecim tertiis et ultimis.</p>
+        <p>Haec columna 100. membrorum, cuius 48. diximus esse utilia, foecundior est quam columna
+          Lulliana, quae 20. tantum constat membris in unico cylindro. Accidit autem nobis eam
+          ditasse extra eam rationem, qua Raymundus potuit omisisse caetera membra, quia inutilem
+          eiusdem fieri videbat repetitionem, quandoquidem dicere BCD, id est bonitas magna durans,
+          et dicere CBD, id est magna bonitas durans, idem est. Nos vero Raymundi ordinem et
+          sufficientiam non improbamus, et fatemur in suo vigenario omnia tandem contineri quidem,
+          sed caeca et ipsi Lullio fortasse etiam occulta vel minus considerata. Postquam igitur
+          combinationes, quae ex quatuor istis elementis et ordinatis fieri possunt, extendimus,
+          quaeque ex iis omnibus frugales extent patefactum est, discurratur columna sumendo primum
+          elementum substantive, duo reliqua adiective, dicendo: bonitas magna durans, quae
+          significatur in BCD. Nonne utillima et etiam pro ratione complementi discursus necessaria
+          eorundem elementorum alia o rdinatio fiet, dicendo: magnitudo bona durans, cuius signum
+          est CBD? Non est sane eiusdem repetitio. Similiter unquam non erit eiusdem repetitio, si
+          certa quadam lege disponantur termini tres per adiectivum et substantivum, rectum et
+          obliquum, ut ea lege se habeat unum membrum, qua aliud; vel si omnia membra pariformiter
+          capiantur, numquam eiusdem fiet repetitio, et non incidemus in necessarii omissionem,
+          sicut cum posito BCD contemnitur CBD.</p>
+        <p>Numerus legum.</p>
+        <p>Leges vero, quibus uniformiter discurritur columna, sunt octo, quarum una est sumpto
+          primo termino adiective, reliquis duobus substantive, 2. alia est sumpto primo termino
+          substantive, duobus aliis adiective, 3. alia sumpto primo et secundo &lt;adiective,
+          tertio substantive, 4. alia sumpto primo et secundo&gt; termino substantive, tertio
+          adiective, 5. alia sumpto primo et tertio adiective, secundo substantive, 6. alia sumpto
+          primo et tertio substantive, secundo adiective, 7. alia sumptis omnibus adiective, 8. alia
+          sumptis omnibus substantive.</p>
+        <p>Multiplicatio legum.</p>
+        <p>Praepositae octo leges, per variam obliqui et recti, abstracti concretique
+          distributionem, utilissimas 64. propositionum considerationes quibus subiectum problema
+          potest examinari, constituunt.</p>
+
+        <p>Stante enim primo termino adiective, secundo et tertio substantive, dicitur:</p>
+        <list>
+          <item>BCDT <list>
+              <item>Bonum magnitudinis durationis.</item>
+              <item>Bonum magnitudine durationis.</item>
+              <item>Bono magnitudinis duratio.</item>
+              <item>Bonum magnitudinis duratione.</item>
+              <item>Boni magnitudo durationis.</item>
+              <item>Boni magnitudinis duratio.</item>
+            </list></item>
+        </list>
+        <p>Primo substantive, secundo et tertio adiective:</p>
+        <list>
+          <item>Bonitate magna durans.</item>
+          <item>Bonitate magnum durans.</item>
+          <item>Bonitate magni durans.</item>
+          <item>Bonitas magna durans.</item>
+          <item>Bonitas magni durantis.</item>
+          <item>Bonitas magno durans.</item>
+          <item>Bonitas magna durantis.</item>
+          <item>Bonitatis magnum durans.</item>
+          <item>Bonitatis magnae durans.</item>
+        </list>
+        <p>Primo et secundo adiective, tertio substantive:</p>
+        <list>
+          <item>Bonum magni duratione.</item>
+          <item>Bono magna duratio.</item>
+          <item>Bono magni duratio.</item>
+          <item>Bonum magnum duratione, i. per duration.</item>
+          <item>Bonum magnum durationis.</item>
+          <item>Bonum magnae durationis.</item>
+          <item>Boni magna duratio.</item>
+          <item>Boni magni duratio.</item>
+        </list>
+        <p>Primo et secundo substantive, tertio adiective:</p>
+        <list>
+          <item>Bonitas magnitudine durans.</item>
+          <item>Bonitate magnitudo durans.</item>
+          <item>Bonitate magnitudinis durans.</item>
+          <item>Bonitas magnitudinis durans.</item>
+          <item>Bonitas magnitudinis durantis, i. quae durat.</item>
+          <item>Bonitas magnitudinis durantis, i. eius quod durat.</item>
+          <item>Bonitatis magnitudo durans.</item>
+          <item>Bonitatis magnitudine durans.</item>
+          <item>Bonitatis magnitudinis durans, id est de bonitate magnitudinis id quod durat.</item>
+        </list>
+        <p>Primo et tertio adiective, secundo substantive:</p>
+        <list>
+          <item>Bonum magnitudine durantis.</item>
+          <item>Bono magnitudo durans.</item>
+          <item>Bono magnitudinis durans.</item>
+          <item>Bonum magnitudinis durans.</item>
+          <item>Bonum magnitudinis durantis, i. quae durat.</item>
+          <item>Bonum magnitudinis durantis, i. eius quod durat.</item>
+          <item>Boni magnitudinis durans, id est de bono magnitudinis id quod durat.</item>
+          <item>Boni magnitudo durans.</item>
+        </list>
+        <p>Primo et tertio substantive, secundo adiective:</p>
+        <list>
+          <item>Bonitas magna duratione.</item>
+          <item>Bonitas magna durationis.</item>
+          <item>Bonitas magni duratione.</item>
+          <item>Bonitas magnae durationis</item>
+          <item>Bonitatis magna duratio.</item>
+          <item>Bonitatis magni duratio.</item>
+          <item>Bonitatis magnae duratio.</item>
+          <item>Bonitate magna duratio.</item>
+          <item>Bonitate magni duratio.</item>
+        </list>
+        <p>Omnibus adiective sumptis:</p>
+        <list>
+          <item>Bonum magnum durans.</item>
+          <item>Bonum magnum durantis.</item>
+          <item>Bonum magni durans.</item>
+          <item>Bonum magni durantis.</item>
+          <item>Boni magnum durans.</item>
+          <item>Boni magni durans.</item>
+          <item>Bono magnum durans.</item>
+          <item>Bono magno durans.</item>
+          <item>Bono magni durans.</item>
+        </list>
+        <p>Omnibus substantive sumptis:</p>
+        <list>
+          <item>Bonitas magnitudinis durationis.</item>
+          <item>Bonitas magnitudine durationis.</item>
+          <item>Bonitatis magnitudinis duratio.</item>
+          <item>Bonitatis magnitudine duratio.</item>
+          <item>Bonitatis magnitudo durationis.</item>
+          <item>Bonitate magnitudinis duratio.</item>
+        </list>
+        <p>INDUCTIO.</p>
+        <p>Hoc quod completum est in BCDT, quod est unum membrum primi cylindri huius columnae,
+          intelligant completum in BCTD, BTCD, TBCD, quae sunt reliqua eiusdem cylindri membra.
+          Identidem fiat in aliis cylindrorum membris, tum columnae istius, tum aliarum omnium. Ubi
+          illud perpetuo advertendum, ut e tribus terminis unus in recto capiatur; et ideo tres
+          termini pluribus modis 64. nunc positis non inflectuntur facile.</p>
+        <p>Multiplex terminorum acceptio.</p>
+        <p>Nec te praetereat, quod terminus primus, hoc in loco i. in columna ista per B
+          significatus, aliquando sumitur secundum se, ut cum quaestio est de bonitate; quandoque
+          sumiter cum alio incomplexe sumpto, ut cum quaestio est de bonitate mundi, de bono
+          naturae, de bono summo; aliquando sumitur cum alio complexe sumpto, ut cum quaestio est de
+          bonitate aeternitatis mundi. Omnis enim quaestio de subiecto aliquo aut sumitur sine
+          aliquo quod verbo adiaceat, ut: an, quid, de quo, quare etc. mundus est? aut sumitur cum
+          uno adiacente, ut: an, quid, de quo etc. mundus est aeternus? aut sumitur cum duobus vel
+          pluribus adiacentibus, ut: an, quid, quomodo, bonum est mundum esse in aeterna
+          concordantia et differentia? etc. De aliorum membrorum primis terminis idem est iudicium.
+          Item sicut ipsum B, quod ponitur pro subiecto, tripliciter sumi posse dicitur, ita
+          tripliciter posse sumi caeteros terminos (ut in hoc loco CD) intelligatur. Ipsum vero in
+          uno demonstrasse sufficit.</p>
+        <p>Hoc pacto veluti confusam, obscuram et imperfectam tabulam distinximus, clarificavimus et
+          perfecimus.</p>
+      </div1>
+      <div1>
+        <head>Cap. &lt;VIII&gt; De terminorum artis formatione.</head>
+        <p>Quoniam vero artis huius usus absque terminorum alphabeti prompta et ordinata
+          comprehensione difficillimus est, ob eam causam hosce figurationis canones instituimus.</p>
+        <p>&lt;I.&gt; Novem ex facie bene notos homines adsciscito, quorum singula nomina
+          vel propria vel tua institutione appropriata a singulis horum elementorum initium sumant,
+          ut pro B Brutus, pro C Caesar, quatenus prompte eodem, quo haec occurrunt, occurrere
+          possint ordine.</p>
+        <p>II. His pro novem subiectorum significatione novem sigillatim adtribuantur dignitates, ut
+          B Deum significet Brutus sacerdos, C Angelum Caesar nuncius.</p>
+        <p>III. Iisdem ad significanda absoluta praedicata totidem cognata sint instrumenta, ut B
+          lux significet bonitatem, C globus significet magnitudinem.</p>
+        <p>IV. Iidem pro notandis respectivis praedicatis totidem proprias intelligantur suscipere
+          operationes, ut B differentiam significet disputans, C concordantiam placans.</p>
+        <p>V. Illis etiam pro quaestionibus notandis adstent res, ut pro B utrum? utres, pro C quid?
+          latibulum.</p>
+        <p>VI. Simili ratione providendum, ubi simplex vel multiplex virtutum et vitiorum et
+          aliorum, quae sub instrumentativo continentur, alphabeta cupias multiplicare. Adstent enim
+          singulis dictorum vitiorum, pro his pueri novem, pro aliis puellae novem, pro iis senes
+          novem, pro aliis tot bruta vel tot alius generis alia.</p>
+        <p>VII. Omnia tum quo promptius et expeditius oculis obiiciantur, tum etiam quo tabulam
+          felicius valeas explicare, in novem locis comunibus situata intelligas, quorum mox singula
+          in quatuor particulares sedes distribuantur, ut ita per haec columnarum partes deducantur,
+          et varia ipsius T situatio operantem non interturbet aliquando.</p>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

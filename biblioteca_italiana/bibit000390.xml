@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>De viris illustribus</title>
+      <author>Bartolomeo Facio</author>
+    </titleStmt>
+    <extent>92 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2004</date>
+      <idno>bibit000390</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Bartholomaei Facii De viris illustribus liber nunc primum ex ms. cod. in lucem erutus. Recensuit, praefationem, vitamque auctoris addidit Laurentius Mehus qui nonnullas Facii, aliorumque ad ipsum epistolas adjecit</title>
+        <author>Facio, Bartolomeo</author>
+        <publisher>ex typographio Joannis Pauli Giovannelli : prostant apud Cajetanum Tanzini bibliopolam florentinum</publisher>
+        <pubPlace>Florentiae</pubPlace>
+        <date>1745</date>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>400</date>
+    </creation>
+    <langUsage><language id="lat">Latino</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Memorialistica</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione</item>
+    </change>
+    <change>
+      <date>Data sconosciuta anteriore al 2000</date>
+      <respStmt>
+        <name>CIBIT - Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-07-16T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Ilenia Sabelli</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Codifica XML - Codifica manuale</item>
+    </change>
+    <change>
+      <date>2004-07-22T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+
+<front>
+
+<div1>
+<head>Prologo</head>
+
+<p>Cum ab historiae componendae diuturnis laboribus aliquando requiescerem absolutis libris decem Alphonsi Regis, nec possem pro ingenio meo nihil agere, ne desidiae reprehensionem incurrerem, aliquid hoc tempore scribere institui, quod et fastidium levaret, et nostri seculi hominibus probari posse videretur. Ex multis autem, quae mihi occurrebant digna, quae posteritati mandarentur, illud prae caeteris iucundum fore existimavi, si de illustribus viris aetatis, memoriaeque nostrae scriberem. In quo illud saltem assequi me posse arbitratus sum, quod in eiusmodi viris celebrandis multorum mihi mortalium gratiam compararem. Habet enim in se non parum voluptatis, ac fructus clarorum hominum cognitio, quorum exempla animos natura bene constitutos, quasi stimuli quidam ad decus, ad honestatem, ad gloriam concitant. Nam cum illorum nomen immortale factum alienis scriptis vident, et ipsi toto studio ac nixu virtuti incumbunt, quo immortalem gloriam consequantur. Accedit eodem, quod cum nobis veterum exempla proponimus, subit animus desperatio quaedam, ne eorum gloriam adaequare valeamus, cum plane illos veluti Numina quaedam habeamus, atque admiremur: usque adeo a scriptoribus celebrati, atque illustrati sunt. Praesentes autem, etiamsi excellentes, magnificique fuerint, quoniam in oculis nostris obversantur, nobis non omnino auferre spem videntur, quin iis vel virtute, vel gloria pares esse valeamus. Admirari autem soleo, cur ex tot seculis tam pauci de illustribus viris scripserint, cum quidem singulis aetatibus aliqui scriptores extitisse debuerint, qui eos viros, qui sua aetate in aliqua arte, aut studio excelluerunt, literarum monumentis commendarent, ut singularum aetatum praestantissimos quosque viros scire possemus. Neque vero unquam ulla aetas adeo inculta, atque virtutum expers fuit, quin aliqui praeclari, atque praestantes viri in ea extiterint. Sed quoniam caruerunt disertorum hominum praeconio, propterea illorum nomen una cum vita finitum est. Meum vero institutum fuit de cuiusque facultatis, atque ordinis viris claris memorare, qui tempestate mea claruerunt. Quod si fortasse quempiam per oblivionem, vel per inscientiam omisero, ne sit quaeso, qui mihi succenseat. Post enim, ubi commeminero, vel admonitus fuero, in alterum librum conferetur. Ego tamen neque dignitatem, neque excellentiam hominum in suo genere in iis commemorandis observabo, sed ut quisque mihi prior occurrerit, ita a me literis mandabitur. Unum illud curae fuerit, ut de singulis quibusque ordinibus, ac generibus seorsim scribam. Sic enim res, ut opinor, fiet cognitu iucundior. A poetis vero, quoniam ii antiquissimi, et ante oratores fuisse traduntur, scribere ordiar. Deinceps ad oratores, ac caeteros ordines veniam.</p>
+</div1>
+</front>
+<body>
+
+<div1 n="De Poetis">
+<div2>
+<head>ANTONIUS LUSCUS VICENTINUS</head>
+
+<p>Antonius Luscus Vicentinus heroico versu epistolas atque epigrammata complura edidit, quae postea collecta filius et ipse doctissimus in octo libros digessit. Soluta quoque oratione adornata eloquentiae operam dedit. Scripsit in undecim Ciceronis orationes opus utile, ac vel doctis probatum. Scripsit item exempla quaedam, et veluti formulas, quibus romana curia in scribendo uteretur, quae etiam ab eruditissimis viris in usum recepta sunt. Romam profectus in magna sui  expectatione a Gregorio P. M. in Secretariorum Collegium admissus est. Ad multam senectutem vixit, nec unquam a poeticae studio cessavit.</p>
+</div2>
+
+<div2>
+<head>ANTONIUS PANORMITA</head>
+
+<p>Antonius Panormita in hoc genere clarus habetur. Allectus ab adolescentia poeticae, atque oratoriae suavitate, omissis legibus, illarum rerum studiis incubuit. In utro magis excelluerit, non facile iudices. Res gestas omnes antiquitatis memoria tenet. Lusit in Hermaphrodito Virgilii exemplo. Eodem ferme tempore scripsit in Antonium Raudensem ab eo lacessitus libellum elegiaco versu, quem inscripsit Rhodum, et item poematum, ac prosarum libros duos. Epigrammata quoque multa, et epistolas versu pulcherrimas edidit. Elegiam, quae perdiu iacuerat, rursus in lucem excitavit. A Sigismundo imperatore in Italiam profecto poeta comprobatus laurea corona veteri more repetito donatus est. Non temere alius quispiam aliena in dicendo vitia, aut virtutes acrius animadvertit, quod ei aliquando a Leonardo Arretino doctissimo viro in praecipuam laudem tributum est. Alphonsi regis, qui eo doctore perdiu usus est, atque utitur, dicta, factaque memoratu digna quatuor libris explicuit. Permagnum librorum numerum ex omni bonarum artium facultate congessit. Legationibus, ac summis honoribus regis functus, quibuscumque viris doctis, et probis potest, enixissime semper favit, ac favet.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS PHILELPHUS TOLENTINAS</head>
+
+<p>Franciscus Philelphus tolentinas latinis, et graecis literis eruditus satyras centum scripsit, dedicavitque Alphonso regi, a quo ob eam rem et multa pecunia, et equestri dignitate donatus est. Lyricorum quoque versuum grande opus magno impetu aggressus. A Francisco Sfortia Mediolanensium principe conductus res ab eo gestas heroico carmine complexus est. Scripsit etiam prosa oratione symposium quoddam, ac de exilio libros tres. Orationes praeterea invectivas plerasque. Lacedaemoniorum rempublicam ex Xenophonte, Numae Pompilii, ac Licurgi vitas, et Apophtegmata ex Plutarcho in latinam linguam convertit.</p>
+</div2>
+
+<div2>
+<head>MARRASIUS SICULUS</head>
+
+<p>Marrasius quoque Siculus nonnulla ingeniosi poetae indicia edidit. Angelinetum poema amatorium elegiaco versu composuit. Leonardi  Arretini laudes carmine cecinit, fuissetque in hoc genere maior evasurus, si poeticae studia persecutus esset. Sed medicinae deditus, ac deinde sacerdos factus ab eo studio discessit.</p>
+</div2>
+
+<div2>
+<head>TITUS STROCIUS FLORENTINUS</head>
+
+<p>Titi quoque Strozae florentini nobilis adolescentis initia singularem quemdam poetam nobis pollicentur. Cum ad prosam, et carmen natura aptus esset, elego carmine delectatus epistolarum librum de re amatoria elegantem composuit. Epigrammata quoque multa edidit, quae ab eruditis viris laudantur.</p>
+</div2>
+
+<div2>
+<head>JOVIANUS PONTANUS</head>
+
+<p>Succrescit aetati nostrae Jovianus Pontanus ex ea familia ortus, quae prope omnis ad poeticam nata est. Literarum latinarum doctissimus soluta oratione, sed magis carmine commendatur. Lyrico versu Catullum imitatus epigrammata quaedam praeclare conscripsit. Astrologiam opus multi laboris, atque ingenii hexametris versibus exorsus est. Ab adolescentibus quibusdam humanitatis studia ingredi cupientibus rogatus ludum aperuit. Propter doctrinae, ac virtutis opinionem ab Alphonso rege in Johannis nepotis sui Navarrae regis filii permagnae spei adolescentuli praeceptorem adscitus est.</p>
+</div2>
+</div1>
+
+<div1>
+<head>DE ORATORIBUS</head>
+
+<div2 n="Introduzione">
+
+<p>A poetis ad oratores transgrediar. His enim maxime cum poetis illa cognatio, atque affinitas est, quod utrique circa vim, ac proprietatem verborum prope aeque desudant, et quod poeta, nisi dicendi rationem teneat, jejunus, atque ineptus in concionibus videatur. Saepe enim in poemateorationes incidunt necessariae vel ad concitandos, vel ad deprimendos animorum motus, ut ad varios affectus permovendos, quibus in rebus, quanta sit vis oratoris, dignoscitur. Sed oratorum semper utique maior numerus, quam poetarum fuit, quod liberioribus adstricta numeris illorum dictio est, atque ideo contextu facilior. Quamquam si tria genera causarum persequeremur, quae antiqui oratores tractare consueverunt, fortasse non minus admirandus orator, quam poeta videretur. Sed ex tribus generibus unum modo oratoribus nostris relictum est. Nam ex iudiciale totum iureconsultorum est, et deliberativum omisimus. Neque enim amplius in Senatu, aut apud principes eo utimur, sed vulgari sermone aut suadere, aut dissuadere aliquid nitimur. Caeterum omissa longiori disputatione de iis auctoribus, qui temporibus nostris floruerunt, scribere persequar.</p>
+</div2>
+
+<div2>
+<head>MANUEL CHRYSOLORA CONSTANTINOPOLITANUS</head>
+
+<p>Manuel Chrysolora constantinopolitanus literas graecas, quae iam supra septingentos ferme annos in Italia obsoleverant, primus ad latinos ex Graecia reportavit. Venetiis, Romae, Florentiae graecis literis quamplures erudivit litterarum quoque latinarum non ignarus. Platonis Politicorum libros, ut potuit, primus latinos fecit, quo divini illius philosophi sapientiam nostris ostenderet. Magnam apud italicos auctoritatem propter sapientiae famam adeptus, et ob id ad Constantiense Concilium a Joanne, qui tum erat Pontifex Maximus, a quo diligebatur, evocatus, in morbum incidit, quo affectus iam grandis natu mortem obiit.</p>
+</div2>
+
+<div2>
+<head>PETRUS PAULUS VERGERIUS</head>
+
+<p>Petrus Paulus Vergerius iustinopolitanus iuris civilis in primis peritus fuit. Philosophiam quoque, et Mathematicas artes tenuit. Eloquentiam summo studio secutus in ea re excelluit. Graecas quoque literas attigit. Scripsit de ingenuis moribus librum unum valde laudatum tum rebus, tum ipso nitore verborum. Sigismundi imperatoris, ut ipse scribit, rogatu Arrianum, qui res gestas Alexandri graece scripsit, e graeco in latinum vertit nulla tamen elegantiae cura adhibita, idque de industria, ut  scribit, ne Sigismundus, qui parum latine sciret, interpretis opera legens indigeret. Carolum Malatestam invectus, Virgilii statua, quam ille Mantuae in foro everterat, quoniam gentilis fuisset, ut ibidem restitueretur, effecit. Sub extremum vitae tempus mente captus est, ita tamen, ut nonnumquam respiceret. Apud hungaros vitam finiit dignus et perpetua animi sanitate, et qui totam in Italia vitam scribens exegisset.</p>
+</div2>
+
+<div2>
+<head>JACOBUS ANGELUS FLORENTINUS</head>
+
+<p>Jacobus Angelus florentinus ex Chrysolorae schola utriusque linguae peritus fuit. Ptolomaeum cosmographum e graeco in latinum traduxit. Pompeii, ac Bruti vitas a Plutarcho scriptas latinas reddidit. Alia putatur fuisse scripturus, vel traducturus, nisi eum in ipso iuventae flore immatura mors oppressisset.</p>
+</div2>
+
+<div2>
+<head>LEONARDUS ARRETINUS</head>
+
+<p>Leonardus Arretinus graecis, ac latinis literis in primis eruditus, nec iuris quoque civilis expers fuit. Caeteras artes non aspernatus eloquentiae sese dedit. Poetarum quoque amator fuit. In graecis literis Chrysolorae auditor multa scripsit, plura etiam graeca latina fecit,  nec fere alius quisquam nostri temporis aeque multa monumenta industriae suae reliquit. Prima enim traductio Basilius fuit, quem Colucio Salutato studiorum suorum adiutori dicavit, ex quo magnam sibi laudem eloquentiae peperit. Ex Demosthene orationes duas pro Corona, et alias octo in latinum transtulit. Rerum florentinarum libros decem scripsit valde probatos. Scripsit et in hypocritas, et item de bello italico, de origine urbis Mantuae, de militia, de laudibus urbis Florentiae. Orationem quandam etiam pro se ipso scriptam reliquit. Aristotelis Ethicorum, Politicorum, et Oeconomicorum libros denuo traduxit, ac latinos, cum prius semibarbari essent, reddidit. Marci Antonii, Caii Sertorii, Marci Catonis Uticensis, Tiberii, et Caii Gracchorum, Pirri regis, Demosthenis, ac Pauli Aemilii vitas ex Plutarcho in latinum convertit. Aristotelis, et Marci Ciceronis vitas ex variis auctoribus sumptas composuit. Ex Platone Critonem, Phaedonem, Gorgiam, et epistolas nonnullas transtulit. Scripsit de literis, ac studiis ad Baptistam Malatestam matronam nobilem: Isagogicon moralis disciplinae, de recta interpretatione. Eiusdem est oratio in nebulonem maledicum; Laudatio Joannis Strozae florentini, ac Dialogorum liber. Apud Pontifices Maximos diu Romae magno in honore fuit. Demum in cancellarium Reipublicae a florentinis receptus eum honorem, dum vixit, perpetuo gessit.</p>
+</div2>
+
+<div2>
+<head>AMBROSIUS MONACHUS FLORENTINUS</head>
+
+<p>Ambrosius Monachus florentinus eloquentia claruit. Literarum graecarum doctus Chrysostomum in vituperatores vitae monasticae, et alia quaedam eiusdem opera latina reddidit. Diogenem Laertium philosophorum quamplurium vitas, et egregia dicta memorantem e graeco in latinum convertit. In Basileensi Concilio, quo aliquando profectus est superioris iussu, aliquot graves orationes habuit, ex quibus magnam laudem adeptus est. Ob haec, sed vel maxime propter vitae puritatem totius ordinis sui praeses creatus est.</p>
+</div2>
+
+<div2>
+<head>NICOLAUS NICOLUS FLORENTINUS</head>
+
+<p>Nicolaus Nicolus florentinus et ipse Chrysolorae auditor in huiuscemodi virorum notis referendus est. Graecae, et latinae linguae, omnisque antiquitatis studiosus picturam, statuariam, ac veterem elementorum formam, caeterasque artes nobiles, quae vel ingenio, vel manu artificium commendantur, quae iamdiu apud nos consenuerant, in usum revocavit. Librorum quoque exornandorum inventor, operum Ciceronis, et aliorum illustrium auctorum diligentissimus inquisitor fuit. Librorum magnam copiam tum graecorum, tum latinorum cuiuscumque artis, et doctrinae comparavit. Nihil tamen latine, aut graece scripsit scriptis veterum contentus. Moriens bibliothecae, quae erat in Marci evangelistae templo, quam Cosmus Medices effecerat, libros suos, ut mortuus etiam viventibus prodesset, dedicavit.</p>
+</div2>
+
+<div2>
+<head>AROLUS ARRETINUS</head>
+
+<p>Carolus Arretinus latinae, ac graecae linguae doctissimus artem rhetoricam pluribus annis Florentiae professus est, plusque temporis in docendo, quam in scribendo posuit. Carmen etiam adamavit. Homeri Myobatrachomachiam traduxit versu hexametro. Epistolas paucas admodum reliquit. Ob scientiae opinionem a florentinis cancellarius factus eum honorem gessit, quoad in vita fuit.</p>
+</div2>
+
+<div2>
+<head>LEONARDUS IUSTINIANUS</head>
+
+<p>Leonardus Iustinianus venetus in hoc numero honestissimum locum tenuit. Epistolas multas, et orationes, in quibus unam illam nobilem in Caroli Zeni funere a se habitam, scriptas reliquit. Philosophorum quoque amator graecorum veterum more studiis suis musicam addidit, nonnullisque cantilenis amatoriis, ratione quoque cantus tradita, in iuventa primum editis, eam scientiam iam senior ad Mariae Virginis laudes totam retulit. Amplissimos in Republica honores consecutus, quotiens ei in senatu dicendum fuit, (tanta erat ei in rebus, ac verbis  copia, tanta in pronunciando dignitas) sine fastidio prolixitatis audiebatur. Ex Plutarcho Ciceronis, et Luculli vitas in latinum transtulit. Divi Nicolai vitam ex graeco sumptam magna diligentia latinam fecit.</p>
+</div2>
+
+<div2>
+<head>BAPTISTA ALBERTUS FLORENTINUS</head>
+
+<p>Baptista Albertus florentinus non eloquens modo, verum et ad omnes reliquas liberales artes natus videtur. Eloquentiae, ac philosophiae mathematicas addidit. Picturae studiosus, ac doctus de artis ipsius principiis librum unum edidit. Scripsit et de architectura libros duos, quos intercoenales inscripsit. Inter philosophos tamen magis, quam inter oratores numerandus.</p>
+</div2>
+
+<div2>
+<head>VICTORINUS FELTRENSIS</head>
+
+<p>Victorinus Feltrensis nobis inter huiusmodi viros celebrandus est. Latinae simul, et graecae linguae doctus philosophiam amplexus est. Hisce artibus mathematicas adiunxit. Ad docendos adolescentes conversus rhetoricae professor multos erudivit, qui in claros viros evasere. Hac gloria contentus omne studium suum ad docendum, quam ad scribendum contulit. A Ioanne Francisco Gonzaga mantuanorum principe accersitus eius liberos erudivit, atque instituit.</p>
+</div2>
+
+<div2>
+<head>NICOLAUS PEROTTUS FANENSIS</head>
+
+<p>Nicolaum Perottum fanensem Victorino merito subiunxerim. Fuit enim eius auditor, et vel unus ex iis, qui apud illum iudicio omnium magis profecerit. Latinis, ac graecis literis eruditus, atque in primis eloquens habetur. Ex Polybio historico de primo bello Punico libros quinque, ex Plutarcho de fortuna, vel virtute Alexandri libros duos, ex eodem de fortuna romanorum librum unum, de differentia inter odium, et invidiam librum alterum latinos reddidit. Eiusdem est traductio magni Basilii de invidia, Epicteti Enchiridion, Platonis liber de precatione, Hippocratis iuramentum. Scripsit de arte metrica librum unum: de metris, quibus Horatius, et Boetius usi sunt, librum alterum. Epigrammatum item librum edidit.</p>
+</div2>
+
+<div2>
+<head>GUINIFORTUS BARZISIUS</head>
+
+<p>Guinifortus Barzisius Gasparini filius, et ipse merito inter oratores reponetur. Latina, ac graeca literatura ornatus inter disertos numeratur. Philosophia quoque excultus legum studia secutus est. Propter haec idoneus visus est Francisco Sfortiae Mediolanensium principi, cui liberos suos erudiendos, formandosque commendaret.</p>
+</div2>
+
+<div2>
+<head>LEODRISIUS CRIBELLUS</head>
+
+<p>Leodrisius Cribellus mediolanensis non parvum etiam in eloquentia nomen obtinet. Epistolis multis notus Francisci Sfortiae res gestas prosa oratione perscripsit, quas in libros digessit.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS ARRETINUS</head>
+
+<p>Franciscus Arretinus utriusque linguae peritia simul, et dicendi laude in hoc ordine numeratur. Phalaridis tyranni epistolas, quas ille graece scriptas reliquit, latinas effecit. Ex Chrysostomo Homelias super Ioannem apostolum, ex Origene Philocalia, idest flosculos quosdam traduxit. A poetarum studio non abhorrens epigrammatum librum edidit.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS BARBARUS VENETUS</head>
+
+<p>Franciscus Barbarus venetus latinis, ac graecis literis praeditus philosophiae quoque, et logicae operam dedit. Scripsit de re uxoria librum unum. Epistolarum, in quibus scribendis multam curam adhibuit, libros aliquot reliquit. Traduxit ex Plutarcho Aristidis, et Censorii Catonis vitas. Omnes in Republica Veneta honores summos est consecutus, legationibus multis honestissimis aditis non solum pacis, sed etiam belli muneribus.</p>
+</div2>
+
+<div2>
+<head>ANTONIUS CASSARINUS</head>
+
+<p>Antonius Cassarinus siculus latinis literis, ac graecis eruditus artem rhetoricam aliquot annis Genuae professus est. Politicos Platonis libros, quoniam non satis latini sibi videbantur, neque digni, ut aiebat, Platonis eloquentia, novo labore assumpto latiniores fecit. Tamen morte praeventus emendare non valuit, quem librum Alphonso regi dicavit. Symposium septem Sapientum e graeco in latinum convertit ex Plutarcho sumptum: Axiochum de morte ex Platone, quem Iacobo Curto familiari suo docto homini dedicavit. Transtulit quoque haec ex Plutarcho, Apophthegmatum videlicet libros duos, et item quomodo quis sine reprehensione laudare se possit: quomodo amicus ab adulatore dignoscatur: quae utilitas ex inimicis capiatur, de moderanda ira, cumque plura adhuc traducturus videretur, e vita concessit.</p>
+</div2>
+
+<div2>
+<head>POGGIUS FLORENTINUS</head>
+
+<p>Poggius florentinus in hoc numero eloquentium virorum singulare nomen obtinet. Scripsit de nobilitate, de avaritia, de principum infelicitate, de moribus Indorum, facetiarum quoque librum unum. Ab adversariis exagitatus orationes plerasque invectivas edidit. In epistolis etiam laudatur. Cyripaediam, quam Xenophon ille scripsit, latinam reddidit, atque Alphonso regi dedicavit, pro qua a rege magnam mercedem accepit. Eiusdem est traductio Diodori Siculi historiographi ad Nicolaum Quintum pontificem maximum libri sex. Ingravescente aetate a florentinis accitus mortuo Carolo Arretino in reipublicae cancellarium, quod honor apud florentinos magnus habetur, susceptus est.</p>
+</div2>
+
+<div2>
+<head>GUARINUS VERONENSIS</head>
+
+<p>Guarinus veronensis praeceptor meus latine, ac graece iuxta doctus non soluta modo oratione, sed etiam carmine commendatur. Plutarchum de liberis educandis ex graeco latinum fecit. Caesaris, et Alexandri vitas in latinum vertit ab eodem Plutarcho conscriptas. Orationes complures a se habitas vel in amicorum funere, vel in magistratibus collaudandis edidit. Strabonem Cosmographum ex graeco in latinum vertit. Artem rhetoricam profitetur, qua in re supra quinque, et triginta annos sese exercuit. Ab hoc uno plures docti, et eloquentes viri facti sunt, quam a ceteris omnibus huius ordinis, ut non immerito quidam de eo dixerit, quod de Isocrate dictum ferunt, plures ex eius schola viros eruditos, quam ex equo troiano milites prodiisse. Quum ex Leonardo Arretino aliquando quaesitum esset, quem nam nostrae tempestatis doctum virum existimaret, unum sibi Guarinum videri respondit. Eius quoque praestantiae singulare testimonium est epigramma hoc nobile Antonii Panormitae editum ab illo, quum vita functum audivisset:</p>
+
+<quote rend="block">
+<l>Quantum Romulidae sanctum videre Catonem,</l>
+<l>quantum Cepheni volitantem Persea caelo,</l>
+<l>Alciden Thebe pacantem viribus orbem:</l>
+<l>tantum laeta suum vidit Verona Guarinum.</l>
+</quote>
+
+<p>Nicolao Marchioni Estensi, ac Leonello eius filio, quem latinis, ac graecis litteris erudivit, percarus, ac periucundus fuit.</p>
+</div2>
+
+<div2>
+<head>IOANNES AURISPA SICULUS</head>
+
+<p>Ioannes Aurispa siculus et ipse graece, ac latine doctus, atque eloquens habetur. Extant in hoc genere nonnulla eius epigrammata. Hieroclem in Pythagorae carmina, quae aurea appellant, latinum reddidit. Apud Nicolaum pontificem secretarius in honore fuit. Ingentem librorum tum graecorum, tum latinorum numerum congessit. Epistolarum librum edidit. Opuscula nonnulla Luciani, ac Xenophontis librum, qui Oeconomicus inscribitur, in latinum traduxit, quem Cicero adolescens, ut scriptum reliquit, e graeco in latinum converterat.</p>
+</div2>
+
+<div2>
+<head>IANNOTIUS MANETTUS FLORENTINUS</head>
+
+<p>Iannotius Manettus florentinus litterarum non latinarum tantum, et graecarum, sed etiam hebraicarum cognitione laudatur. Scripsit de viris senioribus omnium superiorum aetatum: de religione libros viginti quatuor. Scripsit item de dignitate hominis, quem librum Alphonso regi dedicavit, nescius, ut ipse ait, de eadem re me paulo ante licet alio titulo scripsisse. Sacrarum quoque litterarum amator a Nicolao Pontifice inter secretarios, et ab Alphonso rege inter consiliarios receptus est.</p>
+</div2>
+
+<div2>
+<head>IACOBUS BRACELLUS</head>
+
+<p>Iacobus Bracellus conterraneus meus in hoc numero non in postremis censetur. Rerum antiquarum studiosus, et doctus scripsit de situ Liguriae librum unum: item de bellis ianuensium cum Aragonum regibus. Ob ingenii, doctrinaeque praestantiam a ianuensibus cancellarius factus grandem epistolarum numerum publico nomine scripsit, quae valde laudantur. Moderatione animi civibus meis carus, et iucundus.</p>
+</div2>
+
+<div2>
+<head>BESSARION GRAECUS</head>
+
+<p>Bessarion Graecus cardinalis graece, ac latine doctus, atque in primis eloquens metaphysicorum Aristotelis librum e graeco in latinum transtulit, effecitque, ut quum prius obscurus, et impolitus esset, nunc denique clarus, ac latinus videatur. E Xenophonte Socratis dicta, factaque memoratu digna in latinam linguam convertit. Philosophia quoque excultus theologiam summo studio amplexus est. Religione vitae, ac sanctimonia cardinalem dignitatem consecutus.</p>
+</div2>
+
+<div2>
+<head>GEORGIUS TRAPEZUNTIUS</head>
+
+<p>Nec Georgius Trapezuntius nobis praetereundus est. Latinae linguae, ac graecae multam cognitionem habet. Artem rhetoricam Venetiis, ac Romae pluribus annis docuit. Nec modo rhetoricae, verum et mathematicarum artium doctus multa composuit, plura etiam ex graecis traduxit. Scripsit compendium artis grammaticae ex Prisciano, dialecticae praecepta, de suavi genere orationis, de consolatione, de Spiritus Sancti processione contra graecos, librum rhetoricorum, in orationem Q. Ligarii, in Almagestum Ptolemaei, in Centiloquium eiusdem commentarios. Chrysostomum in Matthaei Evangelium in latinum vertit, Cyrillum in Evangelium Ioannis, eiusdem Cyrilli Thesauros, Eusebium de evangelica praeparatione, Platonis leges, orationem Demosthenis pro corona, Athanasii, ac Basilii vitas ex Gregorio Nazianzeno, ex Aristotele rhetoricorum libros, ac physicorum libros, de generatione, et corruptione, ex eodem metheororum, ac metaphysicorum libros; problemata de caelo, et mundo, de anima, de animalibus: ex Basilio vero de vita Moysis, de Spiritus Sancti processione ad Amphilochium, librum in Eunomium. Eugenio, ac deinde Nicolao pontificibus maximis carus in secretarium apostolicum admissus est.</p>
+</div2>
+
+<div2>
+<head>NICOLAUS SAGUNDINUS CALCIDENSIS</head>
+
+<p>Nicolaus Sagundinus calcidensis in hoc coetu singulare  nomen obtinet. Litterarum graecarum, ac latinarum scientia aeque clarus scripsit de latinae linguae, ac graecae cognatione, de origine, ac Sectis philosophorum. Scripsit item in Aristotelem, quod non tam amore veritatis, quam gloriae cupiditate Platonem impugnaverit, orationem ad Alphonsum regem, de natura, ac moribus Mahometi turcarum principis, urbis atheniensium situm, epistolas plerasque ad familiares. Orationes nonnullas Demosthenis latinas fecit. Quaedam etiam graece non aspernenda composuit. Onosandrum de imperatoris officio latinum reddidit. Florentino Concilio, quo &lt;Ioannes Paleologus&gt; graecorum imperator Eugenio pontifice max. cum Graeciae principibus viris convenit, propter scientiae, ac probitatis opinionem interpres delectus inter graecos, ac latinos argumenta singula, quae fuere prope innumerabilia, et varia pro rerum magnitudine, ac pondere utrinque prolata, vel confirmando, vel confutando statim, ut erant enuntiata, sine mora fidelissime interpretabatur, idque hoc magis mirum visum est, quod de recondita, atque intima theologiae parte, idest de Spiritus Sancti processione disputatio habebatur. Cuius rei fama, adiuncta opinione bonitatis, a venetis in secretarium adscitus est.</p>
+</div2>
+
+<div2>
+<head>HIERONYMUS TIFERNAS</head>
+
+<p>Hieronymus Tifernas physicus latina simul, et graeca doctrina praeditus insignis existimatur: nec prosa solum oratione notus, sed etiam carmine. Orationem habuit luculentam Ferrariae ad Fridericum imperatorem de illius laudibus, ac funebrem ad Leonellum ferrariensem principem litteratissimum de Mariae uxoris Alphonsi regis filiae obitu. Alias etiam quamplurimas orationes, atque epistolas edidit. Omnis praeterea philosophiae doctus medicinae studia persecutus inter medicos clarus evasit.</p>
+</div2>
+
+<div2>
+<head>LAMPUS BIRAGUS</head>
+
+<p>Lampus Biragus mediolanensis hisce viris disertis adiicietur. Latine doctus graecas quoque litteras persecutus est. Xenophontis librum, qui Oeconomicus inscribitur, et ipse latinum reddidit. M. Bruti epistolas graece scriptas latinas fecit. Militiae quoque operam dedit, neque inter militares labores litterarum studia praetermisit. Dionysium Halicarnasseum de origine romanorum e graeco in latinum vertit.</p>
+</div2>
+
+<div2>
+<head>LAURENTIUS VALLA</head>
+
+<p>Laurentius Valla romanus artem rhetoricam diu tum Neapoli, tum Romae professus est. Multa legit, multa etiam litteris mandavit. Scripsit de elegantia latinae linguae, quem librum Elegantiarum inscripsit; de summo bono, quod in voluptate constituit. In dialectica quoque nonnulla, quae logicae repastinationem appellavit. Contra donationem Constantini Ecclesiae Romanae factam librum edidit. Linguae praeterea graecae doctus Thucydidem gravissimum apud graecos historiarum scriptorem in latinum convertit, quem Nicolao pontifici max. dedicavit. Herodotum deinde historiographum elegantissimum latinum a se factum Alphonso regi detulit, a quo multa pecunia muneratus est.</p>
+</div2>
+
+<div2>
+<head>PETRUS CANDIDUS MEDIOLANENSIS</head>
+
+<p>Petrus Candidus mediolanensis latinis, ac graecis litteris eruditus nobis in hunc coetum clarorum  hominum referendus est. Scripsit epistolarum libros decem, et septem, declamationum libros duos, Peregrinae historiae libros quinque, Nocturnalium libros totidem. De Philippi Mariae vita, de Nicolai Picinini, de mediolanensium laudibus libros singulos, orationem funebrem ad Leonellum Marchionem Ferrariensem, Romanarum historiarum epitoma. Ex graeco autem in latinum vertit Politicorum Platonis libros decem; eiusdem de amicitia librum unum, Homeri vitam, ex eiusdem poetae Iliade libros quinque, Appiani Alexandrini primae partis libros quatuor, eiusdem Illyrici, ac civilium bellorum libros sex, quos Alphonso regi dedicavit. Romam profectus a Nicolao pontifice max.. Litteratorum patre secretariorum ordini adiectus est.</p>
+</div2>
+
+<div2>
+<head>TIMOTHEUS VERONENSIS</head>
+
+<p>His adiiciendus est Timotheus Maffaeus veronensis canonicus regularis non sacris modo litteris, verum et liberalibus eruditus. Extat eius liber unus in monachos saecularium auctorum studia vituperantes, quem Nicolao pontifici max. dedicavit. Extant et eius nonnullae  orationes, et epistolae ad amicos laudate. In praedicationibus rerum divinarum excellens, maximeque celebris habetur.</p>
+</div2>
+
+<div2>
+<head>IOANNES ARRETINUS</head>
+
+<p>His addiderimus Ioannem Arretinum latinae, graecaeque linguae doctum, ac in primis disertum. Theologiae quoque, et philosophiae doctor Nicolao pontifici max. gratissimus fuit, et ab eo in cubicularium adscitus Commentarios artis grammaticae edidit. Scripsit de origine medicinae librum unun. Alia nonnulla ex graecis sumpta latina effecit, quae a doctis commendantur.</p>
+</div2>
+
+<div2>
+<head>GREGORIUS TIFERNATIS</head>
+
+<p>Gregorius Tifernatis, quam nunc urbem Castellanam vocant, graece latineque doctus, simulque eloquens philosophiam, et mathematicas eloquentiae adiunxit. Medicinae quoque operam aliquandiu dedit. Romam ad Nicolaum pontificem max. profectus apud eum in precio fuit. Ethicorum Aristotelis ad Eudemum libros octo pontificis iussu latinos fecit: Ethicam item alteram, quam ipse idem Aristoteles magna Moralia inscripsit. Ex Luciano quoque nonnulla in latinum convertit. Strabonem Cosmographum eiusdem pontificis rogatu ex graeco in latinum transtulit.</p>
+</div2>
+
+<div2>
+<head>AENEAS SENENSIS</head>
+
+<p>Aeneas senensis eiusdem urbis episcopus his viris illustribus merito annumerandus est liberalibus disciplinis, sacrisque institutus, et in primis eloquens. Scripsit de regia educatione, de miseria curialium, ita eum librum inscribit, de auctoritate concilii per dialogum libros singulos. Scripsit item de egregiis dictis, ac factis clarorum hominum ad Alphonsum regem. Secretarius trium pontificum Felicis, Eugenii, ac deinde Nicolai a Friderico imperatore romanorum in secretarium, et consiliarium receptus est. Germaniam, quae natio diu romanis pontificibus minus obsequens fuerat, obsequium Eugenio primum, ac mox post Eugenii mortem Nicolao Quinto ipse legatus a germanis detulit. Inter ipsum quoque Fridericum, atque Alphonsum regem affinitatem iunxit. In conventu apud germanos acto causa expeditionis in Turcas imperatoris locum tenuit.</p>
+</div2>
+
+<div2>
+<head>IACOBUS CREMONENSIS</head>
+
+<p>Iacobus Cremonensis nobis in hoc numero reponendus est, qui et ipse latinae, graecaeque linguae eruditus eloquentia valuit. Philosophiae quoque, et mathematicarum artium haud inscius Archimedis nonnulla opera ex graeco in latinum vertit. Ex Diodori Siculi, quem supra nominavimus, historiis libros octo latinos fecit. Quum alia ex eo expectarentur, ex hac vita ereptus est.</p>
+</div2>
+
+<div2>
+<head>THEODORUS GRAECUS THESSALONICENSIS</head>
+
+<p>Theodorus Graecus thessalonicensis utriusque linguae doctus, sed in graeca maxime praecellens huic ordini annumerandus est. In transferendis graecis diligentissimus, Nicolai pontificis max. rogatu, apud quem in magno precio, et honore extitit, Aristotelis problemata, et Alexandri Aphrodisaei et celebrem illum de animalibus librum, ac Theophrastum de plantis in libros decem digestum e graeco in latinum traduxit, ipsique pontifici dedicavit. Eiusdem est traductio Mauritius de re militari in duodecim libros distinctus ad Alphonsum regem, a quo receptus annuo salario honestatus est. Eiusdem est traductio Aelianus et ipse de re militari ad Antonium Panormitam. Praeter haec philosophiae doctus medicinae quoque operam dedit, ex quo et inter physicos non immerito referendus videtur.</p>
+</div2>
+
+<div2>
+<head>GASPARINUS BERGOMENSIS</head>
+
+<p>Gasparinus Bergomensis unus ex iis vel in primis fuit, qui consopitam diu eloquentiam excitaverunt. Arte rhetorica perdiu tum Paduae, tum Mediolani adolescentes instituit: lingua tamen, et sermone, quam scriptis clarior. Scripsit de ortographia librum unum. Orationes multas scriptas reliquit non modo suo ipsius, sed etiam alieno nomine. Scripsit item de compositione, et elegantia praecepta quaedam non inutilia iis, qui humanitatis studia ingredi cupiunt. In epistolas Senecae commentaria reliquit. Iam grandis natu mortem obiit.</p>
+</div2>
+
+</div1>
+
+<div1>
+<head>DE IURIS CONSULTIS</head>
+
+<div2 n="Introduzione">
+
+<p>Nunc de iuris consultis dicendum. Iis etenim suus dandus est honor, quorum studia pertinent ad conservationem societatis humanae, atque ob eam quidem causam semper eiusmodi viri in civitatibus bene constitutis summo honore affecti sunt. Frustra enim aedificaremus urbes, nisi eaedem stabilitatae essent, atque innixae legibus, quae ut bonis praemia, ita malis supplicia decernant. Quod si qui reperti sunt, qui iis perperam utantur, easque ad bonorum perniciem convertant, non leges ipsae, sed qui illis male utuntur culpandi sunt. Sed sane admodum pauci hac nostra tempestate memoriaque floruerunt, nec porro tam multi, ut in dicendo, aut in scribendo oratores gloriam consecuti sunt, sive quod ars illa sit cognitu difficilior, sive, quod multi propter angustias rei familiaris, magnam enim librorum vim postulant haec studia, amplecti non possunt. Ceterum his omissis de huiusmodi viris dicere valeamus.</p>
+</div2>
+
+<div2>
+<head>FLORIANUS BONONIENSIS</head>
+
+<p>Floriani Bononiensis in hoc genere amplissimum nomen fuit. Ius civile multis annis Bononiae magno ad se undique concursu docuit. Commentaria in leges quasdam scripta reliquit, quae valde probata in causis gravioribus magnum auctoritatis locum obtinent. Eius est summa, ac singularis laus Aquiliae Legis famosissimae interpretatio. Ad multam senectutem vixit, nec unquam ab hac professione cessavit.</p>
+</div2>
+
+<div2>
+<head>IOANNES IMOLENSIS</head>
+
+<p>Fuit et in magno honore, et existimatione Ioannes Imolensis. Bononiae multo tempore publice instituit. In totum paene ius civile, ac pontificium commentaria edidit, quae in magno precio habentur. In utra vero facultate praestantior fuerit, haud facile iudicium est. Multum vixit, nec unquam hoc vitae genus deseruit.</p>
+</div2>
+
+<div2>
+<head>ANTONIUS BUTRIENSIS</head>
+
+<p>Antonius Butriensis iuris civilis scientia, cuius Bononiae professor fuit, late cognitus est. Iuris quoque pontificii in primis peritus fuit, in qua facultate quosdam etiam commentarios reliquit valde probatos. Multis eius viri doctrina in utroque iure praestantes facti sunt. Id unum in eo viro notandum est, quod neminem unquam, adeo excellere homines in eo studio volebat, ut doctoratu dignum in examine comprobavit.</p>
+</div2>
+
+<div2>
+<head>RAPHAEL FRUGOSIUS PATAVINUS</head>
+
+<p>Raphael Frugosius patavinus in hoc ordine celebris fuit. Ingentem ex omnibus orbis terrarum partibus auditorum concursum habuit propter nominis sui gloriam. Erat in legibus exponendis disertus, atque elegans iuris consultorum veterum elegantiam sequens. Multa huius viri consilia laudantur, atque in usu habentur Commentarios etiam in quasdam leges condidisse fertur, quorum magna est apud omnes auctoritas. Denique Paduae publice docens consenuit.</p>
+</div2>
+
+<div2>
+<head>RAPHAEL COMENSIS</head>
+
+<p>Raphael alter comensis eadem tempestate in hac scientia claruit, et ipse Patavii docuit, fuitque tanta utriusque praestantia, ut quum quis illos nominaret, duos Raphaeles, perinde ac duos Laelios, aut duos Catones diceret. Huius quoque ingenii, ac scientiae eximia documenta sunt responsa quaedam de maximis, et gravissimis causis tradita. Nonnullas praeterea leges interpretatus est. Hi duo Raphaeles mirum dictu, quum diu Paduae ius civile docuissent, in eadem urbe eodem anno mortui sunt.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS ZABARELLA PATAVINUS</head>
+
+<p>Francisci Zabarellae patavini nomen in iure pontificio praeclarum est, in quod etiam cum magna sua laude commentatus fertur. Propter singularem famam a Martino Quinto pontifice max. inter cardinales cooptatus magnam auctoritatem tenuit.</p>
+</div2>
+
+<div2>
+<head>PAULUS CASTRENSIS</head>
+
+<p>Paulus Castrensis inter primos legum Bononiae, Paduaeque celebratus est. Sed et consilia, quae de gravissimis causis edidit, illum nonnihil illustriorem reddiderunt, quae apud ipsius facultatis peritos magnum sibi auctoritatis locum vendicarunt. Nonnulla etiam in leges scripta reliquisse fertur, quae valde laudantur.</p>
+</div2>
+
+<div2>
+<head>LODOVICUS PONTANUS</head>
+
+<p>Lodovicus Pontanus iuris consultus in primis scientissimus fuit. Aliquot annis tum Bononiae, tum Florentiae, tum Senis publice conductus leges professus est. Memoria incredibili fuit. In disputatione, in causis gravioribus mirum est, quot legum capita memoriter recitaret. Extant eiusdem consilia in causis amplissimis, quarum patrocinium suscipiebat, et de quibus consuli solitus, magna doctrinae eius argumenta. Scripsit etiam aliqua in leges, quae valde probantur. Quum plura editurus videretur, iuvenis adhuc ad Basileense Concilium cum Nicolao Siculo Alphonsi regis legatus profectus e vita discessit.</p>
+</div2>
+
+<div2>
+<head>NICOLAUS SICULUS ABBAS</head>
+
+<p>Nicolaus Siculus abbas appellatus iuris pontificii sine controversia omnium nostri temporis doctissimus iudicatus. Bononiae, ac Senis publice docens magnam auditorum frequentiam habuisse fertur. Iuris quoque civilis non ignarus fuit. Multa circumferuntur eius doctrinae monumenta. Alphonsi regis legatus una cum Lodovico Pontano in Basileensi Concilio, quod contra Eugenium  pontificem max. institutum fuerat, ingentem laudem, et gloriam consecutus est.</p>
+</div2>
+</div1>
+
+<div1>
+<head>DE MEDICIS</head>
+
+<div2 n="Introduzione">
+
+<p>Iuris consultis aequissimo iure, ut mihi quidem videtur, medici proxime adiicientur. Ut enim illorum rempublicam regere, et conservare legibus, ac sanctissimis institutis, sic medicorum officium est bonam civium valetudinem suis artibus tueri: et quemadmodum illi civiles discordias, et intestinas seditiones, sic hi morbos, atque aegritudines tollere, ac sanare omni ingenio, atque industria conari debent, atque haud scio hi ne magis, aut illi humano generi prosint. Nam neque sine legibus civitas stare, neque sine physicorum artibus valetudo perpetuo conservari, aut amissa recuperari potest, ob eamque causam in bene institutis civitatibus summus semper honos his duobus hominum generibus habitus est. Quamquam iuris consultis aliquanto maior, quod eorum actio honestior sit, et magno viro, claroque dignior, ex quo quidem plures amplissimo genere viros in legum studiis versatos, et quotidie versari videmus. Nam quod ad scientiam pertinet, nihil profecto dici potest cum re ipsa praestantius, tum cognitu iucundius. Quid enim altius ipsarum indagatione, et cognitione causarum, rerumque omnium, quibus universa natura continetur? Quid ingeniosius, quam corporis nostri compositionem, structuram, ordinem, tum ipsas aegritudinum causas ratione comprehendere? Quid porro decentius, quam quibus remediis tam varia, tamque diversa morborum genera curentur, agnoscere? Quid denique beatius, quam eorum omnium, quae animata, et quae inanimata sunt, vim, ac proprietatem sapere? Sed de hac re nobis satis hoc loco dictum sit. Non erit autem indecens, ut arbitror, claros aliquot philosophos, et theologos medicis adiungere, quandoquidem absque philosophia medici esse nulli possunt.</p>
+</div2>
+
+<div2>
+<head>MARSILIUS BONONIENSIS</head>
+
+<p>Marsilius Bononiensis in medicina temporibus nostris floruit, vir et ingenio, et doctrina singulari. Eius opera multi praestantes medici effecti sunt, nec quidquam est in tota philosophia, et medicorum artibus, quod ignorasse existimetur, scientia quidem admirabilis, ceterum in docendo, quam medendo admirabilior habitus. Namque omne prope vitae tempus in docendis adolescentibus posuit, ex eaque re magnam laudem, et gloriam adeptus est. Scripsit et ipse multa de hac ipsa facultate, quae doctorum iudicio comprobantur.</p>
+</div2>
+
+<div2>
+<head>IACOBUS FORLIVIENSIS</head>
+
+<p>Iacobus forliviensis singulari inter medicos fama, ac nomine apud patavinos in magna auditorum copia physicas artes, ac medicinam professus est. Ceterum artes ipsas magis ad scientiam, et doctrinam, quam ad exercitationem retulit. In docendo occupatus raro aegrotantibus operam exhibebat. Multos viros erudivit, qui clari evaserunt. Magno in honore non solum apud venetos, sed etiam apud omnes italicos fuit, et quamvis usque occupatus in docendo, multa tamen scripsit in physicis, quae valde laudantur, praecipue librum unum, quem de physicis quaestionibus inscripsit.</p>
+</div2>
+
+<div2>
+<head>ANTONIUS CREMISONUS PATAVINUS</head>
+
+<p>Antonius Cremisonus patavinus inter paucos memoriae meae medicos numeratus est. Paduae physicorum scripta, et ceteras medicorum artes in publico auditorio perdiu legit. Multis tamen claris viris aegrotantibus operam dedit. Plusquam ceteri superiores ad usum, et exercitationem eam scientiam convertit. Nec id tamen avaritiae, aut quaestus causa: nihil enim pro mercede postulabat. Litteris tamen nihil mandavit satis de hisce rebus a veteribus traditum esse arbitratus.</p>
+</div2>
+
+<div2>
+<head>UGO SENENSIS</head>
+
+<p>Ugo senensis magno in primis vir ingenio, ac memoria singulari, tum scientia incredibili, dialecticae, atque omnium artium peritissimus Senis, Bononiae, Papiae, Paduae, Florentiae ingenti auditorum frequentia medicas artes adolescentes publice docuit, magisque eam scientiam ad docendum, quam ad medendum iunior contulit. Senior postmodum aegrotantibus frequentius operam dedit. Eius consilia circa aegritudines quasdam pro Hippocratis dictis habentur. Id unum in primis de hoc viro admiratione dignum praedicatur. Quum aliquot egregii medici neptem eius Senis aegrotantem viserent vi morbi paene consumptam, peregre adveniens, ut urinam contemplentur, rogat. Ipse deinde accuratius inspicit, post quid morbi sit, ex iis quaerit, qui quum dixissent, quod sentirent: O infelicem, inquit, feminam, cuius aegritudo ignorata sit! Conversusque ad eos: haec, inquit, matricem corruptam habet, et sanari potuit, si congrua ab initio remedia adhibita fuissent. Nunc vero ea parte corporis prorsus putrefacta nulla iam ratione amplius sanari potest, nec ultra quadragesimam horam fomentis ullis in vita retineri, secutaque mulieris mors hora, quam praedixerat, ipsum postea admirabiliorem inter medicos reddidit. Scripsit nonnulla in medicina, et physicis, quae apud medicos in precio habentur.</p>
+</div2>
+
+<div2>
+<head>BRANCA PATER, ET ANTONIUS BRANCA FILIUS SICULI</head>
+
+<p>Singulari quoque memoria dignos putavi, et in hunc numerum referendos Brancam patrem, et filium siculos chirurgicos egregios, ex quibus Branca pater admirabilis, ac prope incredibilis rei inventor fuit. Is excogitavit quo nam modo desectos, mutilatosque nasos reformaret, suppleretque, quae omnia mira arte componebat. Ceterum  Antonius huius filius pulcherrimo patris invento non parum adiecit. Nam praeter nares, quo nam modo et labia, et aures mutilatae resarcirentur excogitavit. Praeterea quod carnis pater secabat pro sufficiendo naso ex illius ore, qui mutilatus esset, ipse ex eiusdem lacerto detruncabat, ita ut nulla oris deformitas sequeretur, in secto lacerto, et in eo vulnere infixis mutilati nasi reliquiis usque arctissime constrictis adeo, ne mutilato commovendi quopiam capitis potestas esset, post quintum decimum, interdum vicesimum, dum carnunculam, quae naso cohaeserat, desectam paulatim, postea cultro circumcisam in nares reformabat tanto artificio, ut vix discerni oculis iunctam posset, omni oris deformitate penitus sublata. Multa vulnera sanavit, quae nulla arte, aut ope medica sanari posse videbantur.</p>
+</div2>
+
+<div2>
+<head>NICOLAUS FABA</head>
+
+<p>Nostris etiam temporibus in philosophia floruit Nicolaus Faba, cuius scientiae multis annis Bononiae professor fuit multorum auditorum concursu celeber, ex quibus multi eius diligentia, atque opera docti evaserunt. Nihil tamen composuit, quod posteris proderet. In disputando acer, ac subtilis existimatur.</p>
+</div2>
+
+<div2>
+<head>PAULUS VENETUS</head>
+
+<p>Pauli veneti illustre nomen fuit. Philosophiam et ipse professus plerosque adolescentes Venetiis, ac Paduae ornavit. Multa in omni philosophia scripta reliquit, quae valde utilia existimantur. In theologia quoque non obscurus est habitus. Viam ad dialecticam facilem, et adolescentibus perutilem brevibus quibusdam praeceptis aperuit, quae in magno usu sunt.</p>
+</div2>
+
+<div2>
+<head>ANDREAS MEDIOLANENSIS</head>
+
+<p>Andreas mediolanensis ex D. Augustini ordine inter philosophos ac theologos clarus Senis, et alibi philosophiam professus est. Studia quoque humanitatis coluit: historiam sui temporis scripsit, in qua, quae sua aetate contigerint, annotavit. Volumen praeterea de verborum latinorum interpretatione haud parvum reliquit. Inter oratores non multo minor, quam inter philosophos iudicatus ex praedicationibus quoque magnam laudem promeruit.</p>
+</div2>
+
+<div2>
+<head>IOANNES EX MONTE NIGRO IENUENSIS</head>
+
+<p>Inter philosophos, ac theologos nostri temporis non mediocrem locum tenuit Ioannes ex Monte Nigro ienuensis, cuius praestantia non solum in docendo Ienuae cognita est, verum etiam alibi, Florentiae praesertim, quo tempore graecorum Concilium in ea urbe celebratum est. Hic enim unus ex iis paucis fuit, qui communi consensu totius Conventus ad graecorum errores confutandos delecti sunt, in qua disputatione superatis graecis ingentem laudem, et gloriam adeptus est.</p>
+</div2>
+
+<div2>
+<head>BERNARDINUS SENENSIS</head>
+
+<p>Senae urbs etrusca Bernardino theologo, ac philosopho non parum illustratae sunt. Magnus hic memoria nostra, atque admirabilis vir in praedicando visus est. Quocumque se conferebat, totum populum in se convertebat. Fuit in praedicando copiosus, ac vehemens, memoria incredibili, pronuntiatione adeo apta, ut nunquam satietatem circumstantibus sermo eius afferret. Porro autem ita firma, et constanti voce, ut nunquam inter dicendum deficeret, quodque mirum est magis, in maximo hominum conventu, atque frequentia ita ab eo, qui erat remotissimus, quemadmodum ab eo, qui erat proximus, facile exaudiebatur. Multos oratione sua ex sordidissima vitiorum sentina extraxit, multorum animas variis morbis affectas sanavit, plerasque etiam contemptis rebus humanis ad religionis amorem perduxit, quibus meritis, tum vitae puritate, ac sanctitate a Nicolao Quinto pontifice max. in sanctorum numero relatus est.</p>
+</div2>
+
+<div2>
+<head>RAPHAEL PRONASSIUS</head>
+
+<p>Raphael Pronassius natione ienuensis ordinis D. Dominici dialecticae, ac philosophiae, itemque divinarum rerum artibus ornatus inter theologos nostri temporis singularis iudicatur. Rerum antiquarum studiosus, earum maxime, quae ad mores, et religionis cultum pertinent, Platonis, Aristotelis, ac ceterorum philosophorum veterum scripta, quae consentire cum Evangeliis, et Chrysti veri, ac summi Dei nostri dicti viderentur, in unum volumen collegit, dictaque cum dictis contulit, ut summam sapientiam, hoc est Dei Verbum, ac Filium omnium philosophorum sententias non aequasse modo, sed etiam superasse doceat. Scripsit item alia quaedam in eo genere non contemnenda. In disputationibus subtilis, atque acerrima vitae innocentia, ac puritate.</p>
+</div2>
+
+</div1>
+
+<div1>
+<head>DE PICTORIBUS</head>
+
+<div2 n="Introduzione">
+
+<p>Nunc ad pictores veniamus, quamquam fortasse convenientius fuit, ut post poetas pictores locarentur. Est enim, ut scis, inter pictores, ac poetas magna quaedam affinitas. Neque enim aliud est pictura, quam poema tacitum: namque in inventione, ac dispositione operis utriusque cura propemodum par, nec pictor ullus praestans est habitus, nisi qui in rerum physicarum proprietatibus effingendis excelluerit. Aliud enim est superbum pingere, aliud avarum, aliud ambitiosum, aliud prodigum, et reliqua item huiusmodi, atque in his proprietatibus rerum exprimendis tam pictori, quam poetae elaborandum est, et in ea sane re utriusque ingenium, ac facultas maxime agnoscitur. Nam si avarum fingere quis volens leoni, aut aquilae illum comparaverit, aut si liberalem lupo, aut milvio, is nimirum, sive poeta, sive pictor fuerit, desipere videatur. Oportet enim comparatorum naturam similem esse. Et sane saepe saepius magnus honos nec immerito picturae fuit: est enim ars magni ingenii, ac solertiae, nec temere alia inter operosas maiorem prudentiam, desiderat, utpote quae non solum, ut os, ut facies, ac totius corporis lineamenta, sed multo etiam magis interiores sensus, ac motus exprimantur postulat; ita ut vivere, ac sentire pictura illa, et quodammodo moveri, ac gestire videatur. Alioquin similis fuerit poemati pulchro illi quidem, et eleganti, sed languido, et nihil moventi. Verum ut non satis est poemata pulcra esse, quemadmodum ait Horatius, oportet enim dulcia sint, ut quacumque in parte velint, animos hominum, sensusque permoveant, ita et picturam non solum colorum varietate exornatam, sed multo magis vivacitate quadam, ut ita loquar, figuratam esse convenit, et quemadmodum de pictura, ita et de sculptura, fusura, architectura, quae omnes artes a pictura ortum habent, dicendum est. Nec enim quisquam probatus in his generibus artifex esse potest, cui pingendi ratio ignota sit. Ceterum praetermissa longiori disputatione de iis paucis pictoribus, atque sculptoribus, qui hac aetate nostra claruerunt, scribere pergamus, ac de infinitis eorum operibus ea solum attingemus, quorum clara notitia ad nos pervenit.</p>
+</div2>
+
+<div2>
+<head>GENTILIS FABRIANENSIS</head>
+
+<p>Gentilis fabrianensis ingenio ad omnia pingenda habili, atque accommodato fuit. Maxime vero in aedificiis pingendis eius ars, atque industria cognita est. Eius est Florentiae in Sanctae Trinitatis Templo nobilis illa tabula, in qua Maria Virgo, Christus infans in manibus eius, ac tres Magi Christum adorantes, muneraque offerentes conspiciuntur. Eius est opus Senis in foro eadem Maria mater Christum itidem Puerum gremium tenens tenui linteo illum velare cupienti adsimilis: Ioannes Baptista, Petrus, ac Paulus Apostoli, et Christophorus Christum humero sustinens mirabili arte, ita ut ipsos quoque corporis motus, ac gestus repraesentare videatur. Eius est opus apud Urbem veterem in maiore Templo eadem virgo, et Christus infantulus in manibus ridens, cui nihil addi posse videatur. Pinxit et Brixiae sacellum amplissima mercede Pandulpho Malatestae. Pinxit et Venetiis in Palatio terrestre praelium contra Friderici imperatoris filium a Venetis pro summo pontifice susceptum, gestumque, quod tamen parietis vitio paene totum excidit. Pinxit item in eadem urbe turbinem arbores, ceteraque id genus radicitus evertentem, cuius est ea facies, ut vel perspicientibus horrorem, ac metum incutiat. Eiusdem est opus Romae in Ioannis Laterani Templo Ioannis ipsius historia, ac supra eam historiam prophetae quinque ita expressi, ut non picti, sed e marmore facti esse videantur, quo in opere, quasi mortem praesagiret, seipsum superasse putatus est. Quaedam etiam in eo opere adumbrata modo, atque imperfecta more praeventus reliquit. Eiusdem est etiam altera tabula, in qua Martinus pontifex max., et cardinales decem ita expressi, ut naturam ipsam aequare, et nulla re dissimiles videantur. De hoc viro ferunt, quum Rogerius Gallicus insignis pictor, de quo post dicemus, Iubilaei anno in ipsum Ioannis Baptistae Templum accessisset, eamque picturam contemplatus esset, admiratione operis captum auctore requisito eum multa laudem cumulatum ceteris italicis pictoribus anteposuisse. Eiusdem etiam tabulae praeclarae in diversis locis esse perhibentur, de quibus non scripsi, quoniam de iis haud satis comperi.</p>
+</div2>
+
+<div2>
+<head>IOANNES GALLICUS</head>
+
+<p>Ioannes Gallicus nostri saeculi pictorum princeps iudicatus est, litterarum nonnihil doctus geometriae praesertim, et earum artium, quae ad picturae ornamentum accederent, putaturque ob eam rem multa de colorum proprietatibus invenisse, quae ab antiquis tradita ex Plinii, et aliorum auctorum lectione didicerat. Eius est tabula insignis in penetralibus Alphonsi regis, in qua est Maria Virgo ipsa venustate, ac verecundia notabilis, Gabriel Angelus Dei Filium ex ea nasciturum annuntians excellenti pulchritudine capillis veros vincentibus, Ioannes Baptista vitae sanctitatem, et austeritatem admirabilem praeseferens, Hieronymus viventi persimilis, Bibliotheca mirae artis, quippe quae, si paulum ab ea discedas, videatur introrsus recedere, et totos libros pandere, quorum capita modo appropinquanti appareant. In eiusdem tabulae exteriori parte pictus est Baptistae Lomellinus, cuius fuit ipsa tabula, cui solam vocem deesse iudices, et mulier, quam amabat praestanti forma, et ipsa, qualis erat, ad unguem expressa, inter quos solis radius veluti per rimam illabebatur, quem verum solem putes. Eius est mundi comprehensio orbiculari forma, quam Philippo Belgarum principi pinxit, quo nullum consummatius opus nostra aetate factum putatur, in quo non solum loca, situsque regionum, sed etiam locorum distantiam metiendo dignoscas. Sunt item picturae eius nobiles apud Octavianum Cardinalem virum illestrem eximia forma feminae e balneo exeuntes occultiores corporis partes tenui linteo velatae notabili rubore, e quis unius os tantummodo, pectusque demostrans posteriores corporis partes per speculum pictum lateri oppositum ita expressit, ut et terga, quemadmodum pectus videas. In eadem tabula est in balneo lucerna ardenti simillima, et anus, quae sudare videatur, catulus aquam lambens, et item equi, hominesque perbrevi statura, montes, nemora, pagi, castella tanto artificio elaborata, ut alia ab aliis quinquaginta millibus passuum distare credas. Sed nihil prope admirabilius in eodem opere, quam speculum in eadem tabula depictum, in quo quaecumque inibi descripta sunt, tanquam in vero speculo prospicias. Alia complura opera fecisse dicitur, quorum plenam notitiam habere non potui.</p>
+</div2>
+
+<div2>
+<head>PISANUS VERONENSIS</head>
+
+<p>Pisanus veronensis in pingendis rerum formis, sensibusque exprimendis ingenio prope poetico putatus est. Sed in pingendis equis, ceterisque animalibus peritorum iudicio ceteros antecessit. Mantuae aediculam pinxit, et tabulas valde laudatas. Pinxit Venetiis in Palatio Fridericum Barbarussam Romanorum imperatorem, et eiusdem filium supplicem: magnum quoque ibidem Comitum coetum germanico corporis cultu, orisque habitu: sacerdotem digitis os distorquentem, et ob id ridentes pueros tanta suavitate, ut aspicientes ad hilaritatem excitent. Pinxit et Romae in Ioannis Laterani templo, quae Gentilis D. Ioannis Baptistae historia inchoata reliquerat, quod tamen opus postea, quantum ex eo audivi, parietis humectatione paene oblitteratum est. Sunt et eius ingenii atque artis exemplaria aliquot picturae in tabellulis, ac membranulis, in quis Hieronymus Christum crucifixum adorans ipso gestu, atque oris maiestate venerabilis, et item Eremus, in qua multa diversi generis animalia, quae vivere existimes. Picturae adiecit fingendi artem. Eius opera in plumbo, atque aere sunt Alphonsus rex Aragonum, Philippus Mediolanensium princeps, et alii plerisque Italiae Reguli, quibus propter artis praestantiam carus fuit.</p>
+</div2>
+
+<div2>
+<head>ROGERIUS GALLICUS</head>
+
+<p>Rogerius Gallicus Ioannis discipulus, et conterraneus multa artis suae monumenta singularia edidit. Eius est tabula praeinsignis Ienuae, in qua mulier in balneo sudans, iuxtaque eam catulus, ex adverso duo adolescentes illam clanculum per rimam prospectantes ipso risu notabiles. Eius est tabula altera in penetralibus principis Ferrariae, in cuius alteris valvis Adam, et Eva nudis corporibus e terrestri paradiso per angelum eiecti, quibus nihil desit ad summam pulchritudinem: in alteris Regulus quidam supplex: in media tabula Christus e cruce demissus, Maria Mater, Maria Magdalena, Iosephus ita expresso dolore, ac lacrymis, ut a veris discrepare non existimes. Eiusdem sunt nobiles in linteis picturae apud Alphonsum regem eadem Mater Domini renuntiata Filii captivitate consternata profluentibus lacrymis servata dignitate consummatissimum opus. Item contumeliae, atque supplicia, quae Christus Deus noster a Iudaeis perpessus est, in quibus pro rerum varietate sensuum, atque animorum varietatem facile discernas. Bursellae, quae urbs in Gallia est, aedem sacram pinxit absolutissimi operis.</p>
+</div2>
+</div1>
+
+<div1>
+<head>DE SCULPTORIBUS</head>
+<div2>
+<head>RENTIUS FLORENTINUS</head>
+
+<p>Ex sculptoribus paucos in tanta multitudine claros habemus, quamquam aliqui hodie sunt, quos aliquando nobiles fore existimamus. Sed de Rentio florentino prius verba faciam. Testamentum Novum, deinde Vetus tam diffusa, tam varia Florentiae in valvis Templi Ioannis Baptistae inenarrabilis operis ex aere finxit. Eius item sunt Florentiae in aede reparatae D. Zenobii Sepulcrum ex aere, in Hortis Michaelis Archangeli Ioannes Baptista, ac Stephanus Protomartyr opus utique magni ingenii, artificiique.</p>
+</div2>
+
+<div2>
+<head>VICTOR</head>
+
+<p>Nec inferior putatur Victor eius filius, cuius manus, atque ars in iisdem valvis Ioannis Baptistae elaborandis cognita est. Ita enim inter se utriusque opera conveniunt, ut unius, et eiusdem manu facta esse videantur.</p>
+</div2>
+
+<div2>
+<head>DONATELLUS FLORENTINUS</head>
+
+<p>Donatellus et ipse florentinus ingenii quoque, et artis praestantia excellet non aere tantum, sed etiam marmore notissimus, ut vivos vultus ducere, et ad antiquorum gloriam proxime accedere videatur. Eius est Paduae D. Antonius, atque alia Sanctorum quorundam in eadem tabula praeclara simulacra. Eiusdem est in eadem urbe Gattamelata egregius copiarum dux ex aere equo insidens mirifici operis.</p>
+</div2>
+
+<div2>
+<head>DE QUIBUSDAM CIVIBUS PRIVATIS</head>
+
+<p>Consentaneum videbatur, ut post medicorum mentionem de paucis quibusdam privatis civibus, qui duce virtute, comite fortuna ad amplissimam dignitatem evecti sunt, verba faceremus. Sed nescio quo nam modo ad pictores nostra divertit oratio. Nam ut medicorum est bonae civium valetudini consulere, eamque prudentia, atque artibus suis conservare, ita pricipum virorum est bene respublicas gubernare, ac tueri. De iis viris loquor, qui honestis rationibus magni in civitatibus suis fieri student, non de iis, qui malis artibus, et ambitione corrupti quacunque ratione sibi ad principatum viam moliuntur, cuius generis civium magna penuria est. Sed quod rarius, id praeclarius ac preciosius multo haberi solet. Hac parte absoluta, reliqua deinceps propositi nostri persequemur.</p>
+</div2>
+
+<div2>
+<head>IOANNES CARAZULUS</head>
+
+<p>Ioannes Carazulus eques neapolitanus inter rarissima privatorum civium, qui magni, atque illustres evaserunt, exempla reponendus est. Consilio excellens, animo excellentior ad omnia pacis, ac belli munera natus esse videbatur. Commendabat prudentiam eius formae dignitas egregia. Ob eas res in Ioannae reginae gratiam haud mediocriter venit. Magnus senescalcus, ita eam dignitatem vocant, ab ea factus unus erat, qui apud illam posset, honores conferret, delictorum gratiam faceret. Solum regium nomen deerat. Multis oppidis a regina sibi traditis civilem modum longe supergressus est. Eiusdem reginae statum sua prudentia diu conservavit. Auctoritatem suam Alphonsi regis praesentia diminutam eodem rege digresso recuperavit, omniaque rursus pro arbitrio agere, ac moderari coepit. Demum stimulante quorundam invidia quum in odium reginae incidisset, sive consentiente ea, sive dissimulante in Arce Capuana ab inimicis in cubiculo noctu interemptus est.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS SPINULA</head>
+
+<p>Franciscus Spinula Otobono patre praeclaro viro natus Genuae temporibus nostris in primis floruit. Natura ad conciliandos multitudinis animos comparatus omissis mercaturae studiis ad rempublicam gerendam animum convertit. In cognoscendis rebus acer, nec minus in agendis, exequendisque impiger, ingenio miti iniurias facile remittere, litteratorum amator omne ociosum tempus in legendo consumere. Philippo Maria mediolanensium principe urbem Genuam imperio tenente cuncta de eius consilio a Philippi praesidibus administrari, ac geri, amicos alios dignitate, alios fortunis augere eniti. Conditione privatus, at dignitate civitatis suae princeps habebatur. Urbem Genuam clientum, et amicorum opibus ab adversariis Philippi saepius defendit. Caietam, ad quam tuendam cum praesidio missus fuerat ab eodem Philippo, quamdiu in ea mansit, servavit, quo adversus venetos bellum gerente tractis in idem bellum genuensibus dux classis, quem genuenses Admiratum vocant, creatus triremes ad viginti, mirum dictu, intra quintum, ac vicesimum diem sua diligentia ex publico comparavit, deduxit, armavit. Nuntiantibus quibusdam hostilem classem metu fugam arripere, cum octo triremibus insecutus abeuntes hostibus in se conversis, priusquam cetera classis opitulari posset, circumventus, captusque est. Captivitate liberatus Genuam rediens tanta civium frequentia domum reductus est, ut non ex captivitate reverti, sed devictis hostibus triumphum reportare videretur. Universis civibus tam suae, quam diversae factionis rempublicam vexari, ac perdi indignantibus, eiecto Philippi praesidio, patriam in pristinam libertatem restituit. Patronus libertatis totius civitatis consensu constitutus aliis quibusdam civibus in societatem allectis, quum seditio orta esset, et Thomas Fregosus contrariae factionis alioquin vir magnus, atque illustris rempublicam occupasset, ob suspicionem patria cedens Philippo reconciliatus est. Niceam profectus dum cum Raphaele Adiano triremibus comparatis Thomae statum evertere conatur, aegritudine in cursu gravatus apud Finarium vita excessit.</p>
+</div2>
+
+<div2>
+<head>VITALIANUS BORROMEUS MEDIOLANENSIS</head>
+
+<p>Ad haec magnum civem cognovimus Vitalianum Borromeum mediolanensem origine Pisarum, cui divitiae tantae fuere, ut Philippum Mariam mediolanensium principem in maximis belli discriminibus, quum a Venetis diuturno bello fatigaretur, sua ipsius pecunia saepenumero sustentaverit, cuius rei gratia, et a Philippo admodum dilectus est, et in magnam praeterea dignitatem, et statum evectus. Hospitalitate maxime laudatus est, qua in magnos quosque, et illustres, ac principes viros uti solebat, eoque genere liberalitatis multos sibi mortales obstrinxit. Domum divitiis, ac dignitati convenientem paravit, ceteroque vitae cultu splendidum se se, atque elegantem virum exhibuit.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS FUSCARUS</head>
+
+<p>Franciscus Fuscarus venetus prudentia, an naturali facundia magis valeat incertum. Sermone gravis, ac promptus, consilio validus, memoria insigni saepe eorum civium, qui ante se sententiam in senatu dixerunt, argumenta, ac verba ipsa repetere, saepe etiam legatorum in senatu mandata exponentium ad tricena, interdum ad quinquagena orationis capita memoriter referre, eaque omnia singillatim, atque ex ordine vel confirmare, vel diluere cum totius consessus admiratione prospectus est. Summos quosque honores apud cives suos gradatim consecutus est. Postremo cunctorum civium suffragio dux, et princeps reipublicae mortuo Thoma Mozenigo creatus est multis prius legationibus honestissimis pro republica susceptis, atque aditis. Eius consilio bellum adversus Philippum Mariam mediolanensium principem susceptum, ac gestum est, Brixiaque, et magna parte Galliae Cisalpinae in venetorum ditionem redacta. Iam admodum senex, ingenio tamen firmo, ac memoria integra, curiaeque laborum supra fidem patiens.</p>
+</div2>
+
+<div2>
+<head>COSMUS MEDICES FLORENTINUS</head>
+
+<p>Cosmus Medices florentinus prudentia in primis laudatur. In administranda republica, atque adeo in his omnibus, quae ad rem bellicam pertinent, consilio multum valere existimatur. Litteris non tam latinis modo, sed etiam graecis instructus vitam inter philosophos, et eos, qui rempublicam gerunt, mediam agit tantum litteris temporis impertiens, quantum sibi a negociis reipublicae superest. Bibliothecam, quam amplissimam aedificavit, infinitis librorum voluminibus tum graecorum, tum latinorum cuiusque ordinis, ac facultatis exornavit partim undique magno impendio quaesitis, partim conductis librariis exscriptis. Divitiis civilem modum longe excessit omnium non tantum privatorum hominum nostrae tempestatis locupletissimus, sed etiam cum non mediocribus principibus ea re conferendus. Marci Evangelistae aedem ornatissimam sua ipsius pecunia Florentiae extruxit. Hierosolymis Christi Dei nostri templum eiusdem Sepulcro contiguum ingenti sumptu refecit, auxitque annua pecunia in sacerdotum alimenta constituta. Multa praeterea aedificia tum sacra, tum publica partim sustentavit, partim eversa restituit. In egentes beneficus multos locupletavit, multos ad reipublicae honores evexit, atque in dies evehit. In externos quoque, ne dum in cives liberalis, atque hospitalis. Domum etrusco marmore mirum in modum exornavit, illustravitque. Auctoritate, et existimatione haud dubie civitatis suae princeps: nec famulatu tamen, nec cetero vitae cultu supra mediocrem civem se se effert; quin etiam magistratus quosque, et aetate antecedentes tamquam superiores colere, observareque. Vexatus aliquando ab adversariis, et ex urbe cedere coactus apud venetos relegatus degere maluit, quam rempublicam sumptis armis in discrimen adducere. Revocatus in patriam Francisco Sfortiae singulari amicitia coniunctus illum saepenumeo grandi pecunia adiuvit, ac fovit.</p>
+</div2>
+
+<div2>
+<head>DE COPIARUM DUCIBUS</head>
+
+<p>Civitatem voluit sapiens ille Hippodamus Milesius, ut Aristoteles tradit, eam, quae esset bene constituta, ex triplici genere hominum constare: opificibus, militibus, colonis, et eam, quae ita constituta esset, non dubitabat stabilem, atque optimam fore. Nam per artifices, quae usui singulari civibus sunt, efficiuntur, per colonos vero res frumentaria suppeditatur putabatque eam civitatem mancam, atque imperfectam esse, quae horum trium aliquo careret. Nam et opifex, et colonus militis tutela, et miles opificis, ac coloni ope indiget. Quo nam enim modo aut artifex, aut colonus res suas tueri, aut miles sine iis sustentari possit? Erit itaque proposito instituto nostro conveniens, postquam de claris civibus dictum est, claros copiarum duces memorare, et eos dumtaxat paucos, qui fama, et rebus gestis praecelluerunt nullo tamen dignitatis, ut ad hunc locum feci, ordine servato.</p>
+</div2>
+
+<div2>
+<head>PAULUS URSINUS</head>
+
+<p>Hoc loco nobis commemorandus est Paulus Ursinus. Huius potissimum consilio, ac virtute Lodovicus Andegavensium princeps, rex postea appellatus Ladislaum Neapolitanorum regem, qui Ioannem tum pontificem max. oppugnaverat, apud Roccam Siccam fudit, magnaque parte copiarum capta trepidum in regnum redire coegit, aliquot prius in Tuscia factis memorabilis.</p>
+</div2>
+
+<div2>
+<head>ANGELUS PERGULENSIS</head>
+
+<p>Neque vero Angelus Pergulensis indignus videtur, qui claris ducibus inferatur duabus maxime rebus, victoria apud Zagonacram de venetis insigni, quum Philippi Mariae exercitum duceret, et clade ingenti Sviceris populis alpinis praeferocibus illata nobilitatus.</p>
+</div2>
+
+<div2>
+<head>OTOBONUS TERTIUS PARMENSIS</head>
+
+<p>Otobonus Tertius parmensis rei militaris peritissimus Martinum Faventinum, Lancialotum Beccarium, ac plerosque claros ductores, et equites apud Sutrium Tusciae oppidum proelio vicit. Faventiae florentinorum, ac sociorum exercitum fudit. Imperatorem romanorum, quem Novum electum appellabant, cum ingentibus copiis in Italiam profectum, ut Mediolani principatum invaderet, in Brixensi agro profligavit, multis interfectis, et captis. Facinum Canem nominatissimum in armis virum, magnaque potentia subnixum inter Rosatum, et Belreguardum in mediolanensi signis collatis fregit. Veronensis, et carrariensis principum copias, queis praeerat Chechus Sanseverinus, in Veronensi apud vallem Policellam in fugam vertit Athesi flumine praerapido vado pertransito. Apud Brixellum in parmensi pontificis max., ac Ferrariensis principis equitatum recuperata praeda, multisque captis fugavit. A Ioannis Galeatii mediolanensium principis, et a pontificis max., ac sociorum coniunctis exercitibus in Reginum, ac Parmensem agrum Paulo Ursino duce profectis oppida tutatus est, et pacem honestam obtinuit. Nemo tot proeliis eius signa retro conversa semel vidit, parmensium, placentinorum, ac reginorum princeps. Ad postremum a Nicolai Marchionis ferrariensis copiis inopinato interfectus est.</p>
+</div2>
+
+<div2>
+<head>BRACCIUS MONTONIUS</head>
+
+<p>Braccius Montonius sub Alberico Balbuano eo viro, qui equestrem disciplinam in Italia denuo excitavit (nam ante multis iam annis Germano equite mercenario apud nos bella gerebantur) militaribus institutis ornatus a florentinis, a Malatestis, et aliis nonnullis Italiae regulis mercede conductus praeclare, fortiterque res gessit. Perusiam cepit clientum, et amicorum auxilio. Ab Alphonso rege auxilio Ioannae reginae accersitus Sfortiam copiarum ducem ab obsidione neapolitana depulit multis ibidem egregiis facinoribus editis. Ad Aquilae urbis expugnationem profectus dum urbem ipsam arctius obsidet, sibi praefidens a Martini tum pontificis max. ducibus castris direptis caesus est. Vir animo, consilioque excellens: ceterum corpore ob acceptum in cervice vulnus minus validus.</p>
+</div2>
+
+<div2>
+<head>SFORTIAS CONTINIOLEUS</head>
+
+<p>Sfortias Continioleus unus ex eiusdem Alberici disciplina animo, et corpore aeque bonus stipendia sub florentinis primum Braccii socius, et amicus multa fecit multis proeliis insignis habitus. Aemulatione exinde inter eum, ac Braccium de rei militaris gloria exorta quum ab amicitia, et societate discessissent, alter adversus alterum, Braccius adversus ipsum militare coeperunt. A Lodovico rege conductus contra Ioannam reginam in neapolitanum cum exercitu profectus urbem Neapolim obsedit. Eidem reginae non multo post tempore reconciliatus adversarios iuxta Neapolim acie vicit. Urbem praeter arcem expugnavit. Reginam rebus suis diffidentem appulsa Neapolim Alphonsi classe, quum urbem aliquandiu frustra defendisset, ex arce Capuana Nolam traduxit. Martini pontificis max. rogatu adversus Braccium a regina proficiscens in Aterno flumine, quod nunc Piscariam vocant, dum provoluto vadis armigero succurrit, interiit.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS CARMAGNOLA</head>
+
+<p>Franciscus cognomento Carmagnola Carmagnolae ortus in hoc numero merito celebrandus est. Facinum Canem praestantissimum in armis virum magistrum, ac ducem in re militari habuit. Philippi Mariae Facino mortuo dux copiarum factus paternum illi imperium restituit. Comum, Bergomum, Cremonam, Brixiam tyrannis inde expulsis, qui urbes illas occupaverant, recepit. Urbem Genuam exulibus adiuvantibus Philippi ditioni adiecit. In obsidendis, oppugnandisque urbibus sollers maxime habitus. Urbi Genuae a Philippo missus aliquandiu praefuit. Eiusdem Philippi statum, quamdiu apud illum mansit, conservavit. Martinum Faventinum principem copiarum ducem ipse paucioribus copiis acie vicit. Abalienatus a Philippo, et ob id ad venetos profectus, duxque eorum exercitus factus Brixiam, et aliquot praeterea oppida Philippo ademit. Sexaginta fere millibus hominum partim equitum, partim peditum, quo maior memoria mea exercitus in Italia non est visus, praefuit. De proditione suspectus, et ob eam rem Venetias e castris dissimulanter accitus capitali supplicio affectus est.</p>
+</div2>
+
+<div2>
+<head>IOANNES HUNNACIUS BLANCUS</head>
+
+<p>Ioannes Hunnacius cognomento Blancus natione Valacus, quam gentem Dacos Veteres appellabant, nobis hoc loco haudquaquam reticendus est, cuius hoc maior gloria habenda est, quod contra religionis nostrae adversarios bella gessit. Hic et seorsum, et una cum Ladislao Polonorum rege, qui pro defendenda sanctissima fide nostra traiecto Danubio Turcarum fines ingressus ad extremum proelio infeliciter commisso vitam amisit, cum Turcis pugnavit. Quotiescumque ipse exercitus dux fuit, prospere rem gessit, et nunc, dum haec proderem, Maomettum Ottomanum ab Albae graecae, quam vulgo Belgradum vocant, obsidione depulit, multisque militibus hostium caesis fudit, ac fugavit eiusdem classe apud Danubium profligata, atque exusta, tormentisque omnibus ereptis.</p>
+</div2>
+
+<div2>
+<head>NICOLAUS PICININUS</head>
+
+<p>Nicolaus Picininus unus e Braccianae familiae alumnis omnium celeberrimus primum dum ad Philippum Mariam ex Tuscia cum copiis proficiscitur, inter inimicas, infestasque Philippo gentes sibi per vim transitum fecit. Padana venetorum classis ingens eius virtute, quamquam et Franciscus Sfortia magnam quoque ex ea victoria laudem meruit, profligata est. Porciferae vallem Genuae propinquam ferocibus viris incultam bis, terve excitatis castellis aliquot in collibus, qua in vallem descensus erat, solus memoria patrum nostrorum sine exercitus detrimento intravit, docuitque agrestes viros vinci posse. Florentinorum exercitum ex multis copiarum ducibus comparatum ad octo millia equitum praeter peditatum haud procul a Luca oppido traiecto per summam hyemen Sertio amne, Ansere, ut reor, ab antiquis appellato, qui per eos dies continuis imbribus intumuerat, acie vicit magna hostium parte capta. In Tusciam cum exercitu a Philippo missus una dumtaxat aestate maximam partem agri pisani, ac pistoriensis in Philippi ditionem redegit, ipsis quoque Florentiae urbis finibus depopulatis, vexatisque. In valle Telina insigni clade venetos fregit capto Gregorio Cornaro castrensi legato. Rursus florentinorum, venetorum, et Eugenii pontificis max. coniunctos exercitus, a quibus obsidebatur, ingenti apud Imolam proelio superavit, omnibus prope hostilium copiarum ducibus eo proelio captis. Secundum eam pugnam Forlivium, Imolam, Bononiam, quae oppida Eugenio parebant, uno prope die illi eripuit. Idem postea, Philippo Eugenio reconciliato, Sacrosanctae Romanae Ecclesiae statum summa vi tutatus est. Parva manu maiores ipse hostium copias saepe aggredi non dubitavit. Quum ex vulnere debilitatus esset, a Philippo totius status sui summae praepositus in eo honore vitam finivit, cuius filius Iacobus Picininus propter praestantem virtutem olim etiam celebrabitur.</p>
+</div2>
+
+<div2>
+<head>CAROLUS MALATESTA</head>
+
+<p>Carolus Malatesta celebrati nominis in re militari fuit. Consilio, atque animo multum valere iudicatus est. Aliquot proelia prospere fecit. Apud copiarum duces, et Italiae principes in magna auctoritate, et extimatione fuit. Rei militari doctrinam adiecit, ex quo nonnihil habitus est illustrior.</p>
+</div2>
+
+<div2>
+<head>FRANCISCUS SFORTIA</head>
+
+<p>Franciscus Sfortia in castris propriis natus, atque educatus usque adeo ab adolescentia florere incoepit. Unus vel ex primis ducibus fuit, quorum virtute Braccius apud Aquilam cecidit, paterni exercitus dux summo militum consensu factus. Brixensi bello a Philippo Maria conductus quotidianis ad Brixiae portas excursionibus magni mox futuri ducis opinionem de se praebuit. Eiusdem urbis arcem a venetis obsessam contra venetorum opes diu defendit. Padanae Philippi victoriae, quae fuit maxima de venetorum classe, una cum Nicolao Picinino praecipuus auctor extitit. A Philippo digressus magno exercitu comparato Picentes populos in potestatem suam redegit. Sedendo, et quiescendo hostium vires saepe frustratus est. Veneti exercitus dux Veronam recepit Philippi copiis, quae clandestino per noctem introitu arce occupata urbem invaserant, excedere coactis. Fremente bello Italia ipse dux venetorum, ac florentinorum arbiter electus communis pacis conditiones dixit. Blancam Philippi filiam praestantissimam in uxorem cepit. A mediolanensibus conductus post Philippi mortem venetorum exercitum ingenti equitatu, ac peditatu praeter delectus subnixum magna parte hostium capta proelio devicit. Ab iisdem mediolanensibus studio partium inter se dissidentibus irritatus Mediolanum obsedit, ac cepit. Arrepto imperio adversus venetos cum exercitu profectus, plerisque oppidis circa Olium, et Abduam amnes captis, Brixiam obsedit. Felicitate inter priora exempla reponendus tum imperio, ac rebus gestis, tum Philippi, Alphonsi, ac Ferdinandi eius filii affinitatibus.</p>
+</div2>
+</div1>
+
+<div1>
+<head>DE REGIBUS AC PRINCIPIBUS</head>
+
+<div2 n="Introduzione">
+
+<p>Recensitis copiarum ducibus iis, qui rei militaris gloria eminuerunt, consequens videtur, ut de iis regibus, ac principibus verba faciamus, qui vel rerum gestarum amplitudine, vel auctoritate, et existimatione ceteris praestiterunt, qui sane admodum pauci sunt, ut plane omnia praeclara rara. Nec tamen id cuique mirum videri debet. Nam si paucissimos in unoquoque genere reperiri contigit, multo minus profecto mirandum est, si pauci existant praestantes reges, aut principes, quum per summam omnium rerum, quae expeti possint, copiam, per summas opes, ac licentiam ad ocium, et ad luxum proni ferantur, nisi divino quodam munere, ac naturae beneficio adiuti, et conservati fuerint. Ceterum ut a poetis ad oratores, ab oratoribus ad iurisconsultos, a iurisconsultis ad medicos, a medicis ad pictores, a pictoribus ad singulares cives, et a civibus ad copiarum duces, ita a ducibus ad reges, ac principes convenienter oratio nostra delabitur. Principes enim, ac reges duces fovent, atque extollunt, et veluti corpus membra, ita omnia genera, quae supra memoravimus, regunt, ac tuentur. Nam si boni, iustique fuerint, ii plane omnes bene habent, ac sibi beati videntur. Sin vero mali, atque improbi, miseri, infortunatique habentur, quod illorum vitia in eos, quibus imperant, redundare soleant. Ab hos igitur nostra se convertit oratio, quibus commemoratis labori nostro modum statuemus.</p>
+</div2>
+
+<div2>
+<head>LADISLAUS REX</head>
+
+<p>Ladislaus neapolitanorum rex Ludovicum regem Ludovici posterioris patrem, quum nihil paene praeter Caietam teneret, adolescens e regno, quod ille per occasionem occupaverat, expulit. Dissensione inter se, et Ioannem pontificem max. exorta exercitu comparato Romam cepit, pontificem Roma pepulit. Ductis deinde in Tusciam contra florentinos pontificis fautores copiis Cortonam cepit. Undeviginti millia equitum praeter pedites in senensi agro habuit, quibuscum Florentiam Tusciae caput obsidere constituerat, putaturque frenos liberae civitati iniecturus fuisse, nisi eum in ipsa expeditione mors oppressisset. Octo, et triginta annos, aut paulo plus natus in ipso iuventae flore, et in magna de se expectatione e vita ereptus est.</p>
+</div2>
+
+<div2>
+<head>PHILIPPUS MARIA</head>
+
+<p>Philippus Maria mediolanensium princeps multa, ac magna per duces suos gessit. Paternum imperium mortuo Facino Cane paterno duce, Mediolanum, Comum, Bergomum, Cremonam, Brixiam pulsis tyrannis, qui ea oppida occupaverant, per Franciscum Carmagnolam, aliosque duces suos recepit. Paternae ditioni exulibus adiuvantibus Genuam urbem addidit. Cum florentinis, ac venetis supra viginti annos vario eventu bella gessit. Armis in Tusciam translatis magna parte agri pisani, ac pistoriensis per Nicolaum Picininum capta Florentiam ipsam belli caput tumultu complevit, Italiam omnem conterruit. Svicerorum ferociam per Angelum Pergulensem uno proelio fregit. Carolum Malatestam inimicum capitalem, ac Nestorem Faventinum principem, atque alios plerosque regulos copiarum duces in pugna captos sine precio dimissos magnis insuper muneribus affecit. Manfredo Malatestae sibi infenso oppida, quae per duces ei ademerat, et libertatem restituit. A nemine unquam adeo graviter laesus est, quin illi veniam petenti facile ignoverit. Martinum Quintum pontificem max. in Constantiensi Concilio recens factum Romam revertentem obsequio exhibito Mediolani honorificentissime suscepit, atque habuit. Sigismundum imperatorem coronae gratia Mediolano Romam petentem pecunia adiuvit, eique praeterea pro viribus favit. Legatis quibuscunque ad se euntibus et hospitium, et sumptum large praebuit. Domum suam quasi quoddam ordinis exemplar esse voluit sermone gravis, consilio bonus.</p>
+</div2>
+
+<div2>
+<head>AMADEUS SABAUDIENSIUM DUX</head>
+
+<p>Inter illustres principes celebrandus est nobis Amadeus Sabaudiensium dux. Hic primum ex comite dux factus paternum imperium pacis magis, quam belli artibus longe auxit. Niceam urbem in Italiae finibus sitam haud procul a Varo flumine ditionis suae fecit. Pedemontanam provinciam, quae ad eum hereditario iure pervenit, sublatis civilibus discordiis, quibus ea provincia diu conquassata fuerat, pacavit. Phriburgum urbem amplam in ea provincia sitam, quam olim Helvetii tenuere, imperio suo adiecit. Populares suos procul a belli incendiis perpetuo servavit nullis hostibus, quamdiu vixit, quum omnis reliqua Italia bello flagraret, in eius agro conspectis. Filias summis principibus, ac regibus locavit. Regum item amplissimorum filias liberis suis uxores dedit. Basileensi Concilio contra Eugenium pontificem max. per discordiam principum christianorum max. pontifex factus post Eugenii mortem Nicolao Quinto in Eugenii locum suffecto cardinalis titulo, ac nomine contentus pontificatu cessit, pauloque post iam natu grandior mortem obiit.</p>
+</div2>
+
+<div2>
+<head>CAROLUS GALLORUM REX</head>
+
+<p>Carolus gallorum rex quum ab Henrico Britanniae rege, quam nunc insulam Angliam vocant, Philippo Belgarum, nunc Burgundiorum principe potentissimo sibi adverso, atque Henrici socio, et amico facto, amissa Parisiorum urbe, et maxima regni parte opprimeretur, videreturque toto regno cessurus virginis primo rusticanae consilio, quam ad eum divinitus missam Galli putabant, Aurelianensi urbe, quam britanni obsidebant, conservata, multa deinde proelia adversus hostes secunda fecit, ingentique exercitu peditum, atque equitum comparato britannos non solum iis provinciis, quas ante bellum possederat, a patre acceptis, sed et omni reliqua Gallia cedere coegit, Aquitania, quam galli perdiu amiserant, in ditionem suam redacta.</p>
+</div2>
+
+<div2>
+<head>SIGISMUNDUS IMPERATOR</head>
+
+<p>Sigismundus imperator adversus Zalapinum Maometi huius, qui nunc contra christianos bellum gerit, progenitorem ingentes bis exercitus ex variis gentibus comparavit, dimicavitque quam instructa acie. Dissensionem, quae diu fuit inter Christianos de pontifice max. (nam alii Benedicto, alii aliis pontificibus favebant) ipse usque in Hispaniam Citeriorem, quam Cataloniam appellamus, ea de re profectus sustulit, ac Sacrosanctam Romanam Ecclesiam ad unius pontificis obsequium, atque auctoritatem redegit. Is primus poetas more maiorum laurea corona exornavit. Romam sui coronandi gratia proficiscens, quum per Italiam iter haberet, ab omnibus principibus, ac populis italicis et benigne susceptus, et pecunia adiutus. Cum omnium italicorum gratia coronatus Hungariam rediit, ibique iam natu grandior diem suum obiit.</p>
+</div2>
+
+<div2>
+<head>ALBERTUS BRANDEBURGENSIS</head>
+
+<p>Albertus brandeburgensis princeps natione germanus finitimis aliquot regulis in societatem adscitis adversus liberas Germaniae civitates bellum suscepit, diuque gessit. Novies cum hoste conflixit semel modo fortunam adversam tot proeliis expertus multis millibus captis, caesisque. Ad postremum hostes, ut pacem paterent, compulit. In oppugnatione cuiusdam oppidi moenibus, ac fossa communiti ab ea parte, qua rem gerebat, tertius appulsis scalis murum conscendit, atque inde in oppidum se se iniecit, conversisque in se oppidanis, cum duobus illis modo eorum impetum diu sustinuit. Quum traiecto aliquando flumine hostes in citeriorem ripam transissent, ex insidiis progressus ut primum in hostium conspectum venit, arrepta lancea in eos equo invectus usque ad signa militaria inter confertam aciem fortissime dimicans ignotus hostibus contendit, eorumque impetum solus pertulit, donec accurrentibus suis universum proelium commissum est, in quo victoriam est consecutus. Quum in eo flumine unum modo vadum propter altitudinem esset, qua peditatus hostium transire posset, sagittariorum manu in insidiis collocata, qui vadum occuparent, postquam equites traiecerunt, omnem hostilem peditatum repulit.</p>
+</div2>
+
+<div2>
+<head>ODUS COLUMNA</head>
+
+<p>Odus Columna Martinus Quintus appellatus in maximis Ecclesiae procellis pontifex max. factus discissam primum, ac labantem Ecclesiam multitudine pontificum inter se dissidentium composuit, confirmavitque. Tyrannos, qui in Piceno, in Flaminia, in Umbria Ecclesiae oppida, agrosque occupaverant, copiis, ac ducibus comparatis expulit tributariis regulis parere iussis. Tantum opibus valuit, ut omnes reges, ac principes christiani neglectis ceteris pontificium nomen usurpantibus se se eius auctoritati subiecerunt. Graecorum ad orthodoxam fidem adigendorum suasor, atque auctor fuit oratoribus bis ad graecorum imperatorem missis, a quibus graeci persuasi sunt, ut in Italiam ad Concilium proficiscerentur. Tanta denique eius auctoritas fuit, ut omni prope Italiae praescripserit vitae integritate, ac sapientia spectatus.</p>
+</div2>
+
+<div2>
+<head>THOMAS SARZANENSIS</head>
+
+<p>Thomas Sarzanensis, qui postea Nicolaus Quintus pontifex max. vocitatus est, philosophiae, nec minus theologiae artibus claruit. Earum scientiarum doctor Romae, Bononiaeque in magna aestimatione est habitus. Nicolao cardinali, qui Bononiensibus praefuit, viro praecellenti ob ingenii, ac doctrinae praestantiam usque adeo carus, ut omnem ei administrationem rerum suarum permiserit. Opinione quoque bonitatis commendatus post eiusdem Nicolai mortem Bononiensium episcopus factus. Legatus ab Eugenio in Germaniam missus quum re confecta ex pontificis sententia reverteretur, cardinalis insignia, priusquam Romam pervenisset, in itinere accepit. Mortuo Eugenio summo totius Apostolici Collegii consensu pontifex max. creatus est, hique honores omnes, quod magis mirandus est, illi intra annum contigere. Graecarum litterarum doctos ad se proficiscentes annuis salariis sustentare, atque extollere graeca in latinam linguam transferendi negocio iis dato. Innumerabiles prope e Graecia theologorum, ac philosophorum, ceterarumque honestissimarum facultatem libros nobis antea incognitos ad se afferri curavi. Templa aliquot vetustate collapsa restituit. Palatium Petri Apostolorum Principis templo contiguum mirum in modum ampliavit, exornavitque circumducto antqui operis muro, quem tamen morte praeventus perficere non potuit. Bibliothecam condidit innumerabilium prope librorum tum graecorum, tum latinorum ingenti sumptu missis in Graeciam, Germaniam, Galliam viris doctis, qui amissos bellorum casibus auctores conquirerent. Capta urbe Constantinopoli a Maometo turcarum principe, convocatis totius Italiae civitatum, ac principum oratoribus, et ad Alphonsum regem missis, per Dominicum Capranicensem Sacrosancte Romanae Ecclesiae cardinalem Firmanum sublatis ex Italia discordiis, quo bellum contra Turcas suscipi posset, italicam pacem composuit, dumque expeditioni intendit, in ipso rerum apparatu mortuus est.</p>
+</div2>
+</div1>
+
+<div1>
+<head>Epilogo</head>
+<div2 n="Introduzione">
+
+<p>Commemoratis tempestatis nostrae viris illustribus iis, qui memoriae meae in praesentiarum occurrerunt, labori nostro modum impositurus in Alphonso rege scribendi finem faciam. Hic erit ille, qui librum claudet, et in quo se nostra terminabit oratio. Namque eo memorato, in quo uno tam multa virtutum exempla reperiuntur, quam multa vix in ceteris aetatis nostrae principibus reperire facile est, quippe qui vel sapientia, vel fortuna, vel gloria cunctos anteire existimatur, haudquaquam par videtur, ut de alio quocumque post eum verba fiant. Illo igitur suis laudibus ornato, et concelebrato nihil erit, quod a me in hoc libro ulterius quisquam expectet.</p>
+</div2>
+
+<div2>
+<head>ALPHONSUS REX</head>
+
+<p>Alphonsus rex Aragonum multis, magnificisque rebus gestis gloriosus Joannam Neapolitanorum reginam a Lodovico rege oppressam in pristinum statum restituit. Urbem Neapolim, regina postea a se dissidente, classe e Catalonia profecta vi cepit. Aenariae insulae appulsa classe oppidum in ea munitissimum expugnavit. Massiliam in cursu cepit, ac diripuit. Henricum fratrem e potestate Joannis ulterioris Hispaniae regis in Hispaniam Citeriorem profectus vindicavit. Lotophagoram insulam occupato ponte, quanto insula ex continenti aditur, obsedit. Bofferium Paenorum regem ponte fugatum castris exuit multis militaribus signis, ac tormentis ablatis. In regnum neapolitanum reversus multorum regulorum vocatu per Petrum fratrem Caietam recepit. Adversarios apud Troiam, quae est in Apulia, collatis signis fregit. Ad extremum Neapoli potitus speciose triumphavit. Antonium Caudolam ad Carpenonum oppidum commisso proelio superavit: dimisso paterna oppida restituit. Eugenii pontificis max. rogatu armis in Picenum translatis Franciscum Sfortiam ipsius provinciae cedere coegit. Tiburi dum esset, mortuo interim Eugenio pontifice max., quum ex novi pontificis electione alii aliis faverent, viderenturque vim facturi, ad Collegium misit e suis summos viros, qui Collegio adessent, suamque operam, ac vires pollicerentur, omnesque ab iniuria deterrerent. Quum ex eo quaesitum esset, quem ex omnibus cardinalibus potissimum deligi vellet, eum, qui Deo placeret, cuique sors eveniret, respondit. A florentinis lacessitus ducto in Tusciam exercitu Castilionem, et alia quaedam oppida iis ademit. Pro venetis tum sociis, et amicis bello iterum contra florentinos suscepto Ferdinandum filium cum copiis in Tusciam misit. Pacem deinde, quibus voluit, conditionibus, profectis ad se adversariorum legatis, fecit. Fridericum imperatorem romanorum, cui neptem locaverat, visendi gratia ad se profectum una cum uxore miro honore excepit, et cum amplissimis muneribus a se dimisit. In omnes gentes liberalis legationibus quibuscumque se adeuntibus hospitia, atque cibaria laute, opipareque exhibet. Philosophiae, theologiae, atque omnis antiquitatis studiosus, ceterisque liberalibus disciplinis excultus, memoriaque admirabili a natura donatus eruditos quosque nostri saeculi viros ornat, ac fovet. Urbem Neapolim denuo constravit, vicos direxit, molem ampliavit. Librorum volumina prope infinita in bibliothecam suam mirifice ornatam coniecit. Arcem instauravit cum arcu triumphali magnificentia, structura, opere nulli omnium in orbe terrarum secundam. Aureis, argenteisque vasis, simulacrisque, tum gemmis, et cetero regali cultu omnes saeculi nostri reges longe superavit. Magnus opibus, maior auctoritate a Calixto pontifice unus ex omnibus regibus delectus est, cui bellum adversus Maomettum turcarum principem maximum, et opulentissimum demandet.</p>
+</div2>
+</div1>
+
+</body>
+</text>
+</TEI.2>

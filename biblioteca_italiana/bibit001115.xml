@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lezioni pavesi su la letteratura e la lingua</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>73630 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit001115</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+                        personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Lezioni, articoli di critica e di polemica : 1809-1811</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Santini, Emilio</editor>
+               <publisher>F. Le Monnier</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1933</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+                        riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Trattati</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06-08T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Novadata systems</name>
+            </respStmt>
+            <item>Digitalizzazione - OCR</item>
+         </change>
+         <change>
+            <date>2008-06-23T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Sara Crestini</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2008-07-23T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Ilenia Sabelli</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2008-07-24T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 n="=Lezioni su la letteratura e la lingua">
+            <head>LEZIONI SU LA LETTERATURA E LA LINGUA.</head>
+            <div2 n="Lezione prima. De' principi della letteratura.">
+               <head>LEZIONE PRIMA.</head>
+               <argument>
+                  <p>DE' PRINCIPJ DELLA LETTERATURA.</p>
+               </argument>
+               <div3 n="Introduzione">
+                  <p>Nel viaggio della vita (qualunque siensi gli studi ed i casi a cui la natura e la fortuna ci 
+abbiano destinati) stimo meno pericoloso partito d'appigliarci ad una strada, dopo di averla 
+esaminata prudentemente, per quanto può l'occhio e la previdenza dell'uomo. Non che questo sia 
+ottimo partito e sicuro; ma è l'unico ad ogni modo che ci preservi dalle perplessità, le quali 
+accrescono gli affanni e i timori della nostra mente, e ritardano l'impresa della nostra età fuggitiva. 
+Oltre di che v'è certo sentimento di dignità e d'intima compiacenza nel mirare costantemente alla 
+meta prefissa, senza lasciarsi disanimare dagli eventi e dagli uomini, che d'altronde sogliono 
+rispettare quei generosi i quali sanno e vogliono rispettare sè stessi. Però anche nel corso de' nostri 
+studi non m'allontanerò nè d'un passo da' miei principj: mi sono studiato di manifestarveli 
+nell'<title>Orazione</title> già pronunziata; e se sieno desunti dall'esame del vero, e se possano 
+volgersi alla prosperità delle lettere ed alla utilità della patria, apparirà dalle loro applicazioni ch'io 
+di lezione in lezione verrò facendo dinanzi a voi. Oggi dunque ridurrò la loro sostanza in poche 
+sentenze, dimostrando con quale intendimento, e con che metodo io m'accinga a parlare intorno ai 
+requisiti ed ai mezzi che mi sembrano necessari per conseguire il frutto più salutare e la vera gloria 
+della letteratura.</p>
+                  <p>Ecco ridotti i principj a sei sommi capi, ed ogni assioma alla sua dimostrazione ed alle 
+sue conseguenze generali.</p>
+                  <p>Questi capi sono:</p>
+                  <p>l<hi rend="sup">o</hi> La letteratura è annessa alle facoltà naturali.</p>
+                  <p>2<hi rend="sup">o</hi> Le facoltà naturali sono annesse allo studio.</p>
+                  <p>3<hi rend="sup">o</hi> Le facoltà naturali e lo studio nella letteratura sono annessi ai bisogni 
+della società.</p>
+                  <p>4<hi rend="sup">o</hi> I bisogni della società nella letteratura sono annessi alla verità.</p>
+                  <p>5<hi rend="sup">o</hi> La letteratura è annessa alla lingua.</p>
+                  <p>6<hi rend="sup">o</hi> La lingua è annessa allo stile, e lo stile alle potenze intellettuali d'ogni 
+individuo.</p>
+               </div3>
+               <div3 n="Capo I">
+                  <head>CAPO I.</head>
+                  <argument>
+                     <p>La letteratura è annessa alle facoltà naturali.</p>
+                  </argument>
+                  <p>1<hi rend="sup">o</hi> L'uomo è dotato di facoltà mentali, le quali non si possono 
+pienamente esercitare se non per mezzo della parola. 2<hi rend="sup">o</hi> L'esercizio delle facoltà 
+mentali ha per impulso primo, unico e perpetuo il sentimento del piacere e del dolore. 3<hi rend="sup">o</hi> Questo sentimento mira al passato, al presente e al futuro. 4<hi rend="sup">o</hi> Questa 
+comprensione di tempo deriva da tre facoltà: la memoria, il desiderio e la fantasia. 5<hi rend="sup">o</hi> Queste facoltà sono equilibrate nelle loro azioni e dirette dalla facoltà di paragonare, 
+di sperimentare e di calcolare, che da noi chiamasi comunemente ragione. 6<hi rend="sup">o</hi> La 
+ragione è tanto più vigorosa, operosa, utile ed esatta, quanto più sono forti, operose e ricche le tre 
+altre facoltà di ricordarsi, di desiderare, di immaginare; così all'opposto. 7<hi rend="sup">o</hi> L'uomo 
+dotato di queste tre facoltà in sommo grado, e in sommo grado bilanciate dal calcolo della ragione, 
+è solo atto alla grande e bella ed utile letteratura, perchè solo potrà esercitarle valendosi pienamente 
+dell'uso della parola.</p>
+                  <p>Da questo primo capo emerge: 1<hi rend="sup">o</hi> che senza queste doti non si può 
+essere degnamente letterato; 2<hi rend="sup">o</hi> che chiunque a cui mancano queste doti non 
+conseguirà se non la pedestre, inutile e venale letteratura.</p>
+               </div3>
+               <div3 n="Capo II">
+                  <head>CAPO II.</head>
+                  <argument>
+                     <p>Le facoltà naturali sono annesse allo studio.</p>
+                  </argument>
+                  <p>1<hi rend="sup">o</hi> Nell'animale non v'è apparenza di vita senza moto; nell'animale 
+[umano] non v'è moto fisico senza moto morale; cessato il moto, cessa la vita. 2<hi rend="sup">o</hi> Il moto morale dell'animale umano sta nell'oscillazione perenne della speranza e del 
+timore. 3<hi rend="sup">o</hi> La speranza ed il timore sono emanazione perpetua del sentimento del 
+piacere e del dolore. 4<hi rend="sup">o</hi> Questo sentimento viene eccitato dalle sensazioni delle cose 
+che possono giovare o nuocere; viene mantenuto dall'idea che la sensazione imprime nella 
+memoria; viene riscaldato dal desiderio imminente di conseguire il piacere e di sfuggire il dolore, 
+annessi a quella data idea; viene finalmente rappresentato vivamente dall'evidenza dell'idea che 
+vive nella memoria, dall'ardore del desiderio che la rianima; la qual combinazione di memoria e di 
+desiderio da noi chiamasi fantasia. 5<hi rend="sup">o</hi> Chi dunque è capace di più forti sensazioni, 
+ha più vigore d'idee. 6<hi rend="sup">o</hi> Chi per mezzo delle potenze mentali esprime meglio queste 
+idee, propaga talvolta la stessa facoltà, e spesso e sempre lo stesso esercizio passivo nell'ingegno e 
+nel cuore degli altri. 7<hi rend="sup">o</hi> La facoltà si trasfonde con l'esempio in chi è costituito 
+fisicamente atto a fare altrettanto; l'esercizio passivo si propaga in tutti gli uomini, perchè tutti, 
+eccettuati pochissimi, sono atti a sentire le passioni che si dipingono vivamente, e ad intendere i 
+pensieri che si presentano evidentemente. 8<hi rend="sup">o</hi> Per giovarsi utilmente dell'esempio, 
+bisogna studiare i grandi esemplari; per arricchirsi d'idee proprie, bisogna avere sensazioni proprie e 
+desumere il vero morale per mezzo delle passioni; per propagare negli altri l'esercizio delle passioni 
+e la cognizione del vero morale, bisogna conoscere come gli altri possano sentire e sappiano 
+ragionare.</p>
+                  <p>Da questo secondo capo emerge: 1<hi rend="sup">o</hi> che chiunque posseda le doti 
+naturali di cui si è detto nel capo primo non potrà farle fruttare senza lo studio: 2<hi rend="sup">o</hi> 
+che questo studio consiste nell'esempio de' grandi modelli; 3<hi rend="sup">o</hi> che allo studio de' 
+grandi modelli, per avere una norma, conviene congiungere lo studio del mondo e del cuore umano 
+e la natura vivente per avere un originale; 4<hi rend="sup">o</hi> che gli uomini romiti, claustrali, legati 
+a qualunque setta, accademica o religiosa, che prescriva le facoltà dell'uomo nelle imprese degli 
+ingegni, e specialmente i letterati da tavolino, senza esperienza di mondo, non possono riescire utili 
+letterati mai.</p>
+               </div3>
+               <div3 n="Capo III">
+                  <head>CAPO III.</head>
+                  <argument>
+                     <p>Le facoltà naturali e lo studio nella letteratura sono annessi ai bisogni della 
+società.</p>
+                  </argument>
+                  <p>1<hi rend="sup">o</hi> Tutte quelle facoltà che dà la natura presumono sempre bisogni. 2<hi rend="sup">o</hi> Tutto quello che soddisfa a' bisogni è necessario. 3<hi rend="sup">o</hi> Tutti i bisogni 
+non soddisfatti lascierebbero gli uomini alla disperazione delle passioni che ogni bisogno eccita 
+necessariamente. 4<hi rend="sup">o</hi> Il bisogno di esercitare le proprie facoltà per mezzo della parola 
+e di comunicare in altri lo stesso esercizio dev'essere dunque soddisfatto. 5<hi rend="sup">o</hi> L'uomo 
+è animale sociale. 6<hi rend="sup">o</hi> Ogni società è aggregato di pochi che comandano per mezzo 
+della spada e delle opinioni, e di molti che servono. 7<hi rend="sup">o</hi> Le società compongono 
+nazioni, che guerreggiano perpetuamente l'una contro l'altra. 8<hi rend="sup">o</hi> Le nazioni hanno 
+principio di forza nella comunicazione delle loro idee. 9<hi rend="sup">o</hi> La comunicazione delle 
+idee rappacifica, per mezzo delle leggi e delle opinioni, gl'interessi degli individui. 10<hi rend="sup">o</hi> Le leggi che contrastano con gli interessi degli individui e le opinioni che 
+combattono con le leggi rodono i principj della prosperità e della forza d'ogni società, perchè 
+l'arbitrio delle leggi produce la tirannide, e l'arbitrio delle opinioni produce la licenza; e questi due 
+mali distruggono presto o tardi la prosperità delle nazioni. 11<hi rend="sup">o</hi> L'uso della parola, 
+destinata dalla natura all'esercizio delle facoltà e delle passioni e alla comunicazione delle idee, 
+deve dunque mantenere l'equilibrio tra il potere di chi comanda e le opinioni di chi obbedisce. L'uso 
+della parola si rende utile, rendendolo grato alle passioni e convincente alle opinioni. Si rende grato 
+alle passioni esercitandole, perchè le passioni non si spengono mai. Si convincono le opinioni 
+dimostrandone il danno e l'utilità. Questa alleanza di passioni e di ragione per mezzo della parola 
+costituisce la persuasione; la persuasione costituisce l'unico fine dell'eloquenza. La poesia, la storia 
+e la facoltà oratoria, che costituiscono la letteratura d'ogni nazione, non cangiano se non le 
+apparenze, perchè tutte stanno nell'eloquenza. Poichè la letteratura d'una nazione è annessa al clima, 
+agli usi, alla religione, alle leggi, alla fortuna della stessa nazione, chi non ama la sua patria non può 
+essere utile letterato.</p>
+                  <p>Da questo terzo capo emerge: 1<hi rend="sup">o</hi> che lo stato di natura, di guerra e di 
+società sono una cosa sola ed identica, e che non vi possono essere uomini senza una specie 
+qualunque di letteratura; 2<hi rend="sup">o</hi> che le distinzioni di stato di natura e di società sono 
+fantasmi platonici da lasciarsi a Rousseau ed a' suoi partigiani; poichè Rousseau, dividendo la 
+natura dell'uomo dalla società, pianta per principio delle sue declamazioni che le lettere, essendo 
+frutto della società, corrompono la natura dell'uomo; e frattanto in quel suo discorso contro le 
+scienze e le lettere, ammettendo per assioma che nascano dalle passioni degli uomini, come, per 
+esempio, a quanto egli dice, <quote>«la geometria nacque dall'avarizia, l'astronomia dalla 
+superstizione, la poesia dalla credulità, l'eloquenza dall'ambizione»</quote>, egli sovverte 
+da sè medesimo il suo pomposo edifizio, dacchè, se le lettere e le scienze nascono dalle passioni, 
+egli dovea prima o mostrare che la natura concede agli uomini di dar corso diverso alle loro 
+passioni, o indicarci il mezzo di cangiare la natura dell'uomo; 3<hi rend="sup">o</hi> che gli uomini 
+cosmopoliti saranno sempre tepidi cittadini; e i tepidi cittadini sono dannosi letterati; 4<hi rend="sup">o</hi> che niun letterato sarà utile e glorioso se non conosce le istituzioni sociali, se non 
+vede molti paesi e costumi, se non paragona ed illumina i meriti, gli errori e i difetti dei propri 
+concittadini, se non legge nel cuore della filosofia morale e politica, se finalmente non attende 
+all'indipendenza e all'onore della sua patria.</p>
+               </div3>
+               <div3 n="Capo IV">
+                  <head>CAPO IV.</head>
+                  <argument>
+                     <p>I bisogni della società dipendenti dalla letteratura sono annessi alla 
+verità.</p>
+                  </argument>
+                  <p>1<hi rend="sup">o</hi> Gli uomini così dotati dalla natura, così istruiti dall'esperienza delle 
+proprie e delle altrui passioni, così illuminati dalla meditazione della filosofia sono anelli intermedi 
+tra la fredda verità delle scienze e gl'impetuosi fantasmi delle opinioni, tra la severa ragione di Stato 
+e la cieca umana tendenza alla tirannide e alla servitù. 2<hi rend="sup">o</hi> La verità sola vive eterna 
+tra gli uomini, le opinioni passano coi tempi; onde il letterato che tace la verità e non lusinga che le 
+sole opinioni morrà col suo secolo o poco dopo. Ma la verità non persuade se non è conosciuta. Le 
+menti pregiudicate dalle opinioni non possono conoscerla se non vestita di fantasmi. I fantasmi 
+nascono dalle passioni; il letterato dunque deve far conoscere ed amare la verità eccitando passioni 
+e fantasmi. Vi è verità vivente in tutti i secoli nella pittura delle passioni di qualunque nazione. Non 
+vi è verità nella pittura delle opinioni e de' fantasmi; il letterato dunque deve vestire con le opinioni 
+ed i fantasmi del proprio secolo e della propria nazione le verità eterne, che regnano e regneranno 
+sempre nella mente e nel cuore di tutti gli uomini. 3<hi rend="sup">o</hi> Pochi ragionano; tutti gli altri 
+sentono. Se la letteratura non parla che a pochi, si rimarrà inattiva sul cuore della moltitudine. Se 
+non parla che alla moltitudine, l'eloquenza non potrà essere fondata sulla ragione. Il letterato 
+dunque, appassionando il popolo e convincendo chi lo governa e chi lo nutre, giungerà a persuadere 
+gli uni e gli altri; poichè il popolo riflette gli effetti delle sue passioni sopra chi può ragionare, e i 
+pochi riflettono gli effetti della loro ragione sopra i molti, i quali possono soltanto sentire.</p>
+                  <p>Da questo capo quarto apparirà: 1<hi rend="sup">o</hi> la ragione della decadenza nel 
+mondo di molti libri ch'ebbero grandissima fama a' loro tempi; e più evidentemente la ragione per 
+cui molte altre opere sono disprezzate dagli uomini che vivono educati in società, e venerate nel 
+tempo medesimo con superstizione dai letterati precettisti, accademici e claustrali. 2<hi rend="sup">o</hi> Apparirà la ragione per cui molti uomini che a' nostri tempi vivono col nome celebre 
+di letterati nelle cattedre de' licei, nelle accademie e nelle corti dei grandi, sono ignotissimi al 
+popolo, e appena morti non lasciano il loro nome se non se nel cimiterio ove stan seppelliti.</p>
+               </div3>
+               <div3 n="Capo V">
+                  <head>CAPO V.</head>
+                  <argument>
+                     <p>La letteratura è annessa alla lingua.</p>
+                  </argument>
+                  <p>1<hi rend="sup">o</hi> Ogni nazione ha una lingua. Ogni letterato deve parlare alla sua 
+nazione con la lingua patria. Il pensiero non è rappresentato che dalla parola. Per rappresentare il 
+pensiero bisogna dunque conoscere il valore della parola. Il valore della parola consiste nel suo 
+significato primitivo ed originale, nel conflato de' significati minimi ed accessori provenuti dal 
+tempo, nel suono meccanico della parola. Il significato primitivo d'ogni vocabolo è da desumersi 
+dai primi ed originali scrittori della lingua e dalle lingue che le furono madri. Il conflato delle idee 
+accessorie è da distinguersi negli scrittori d'ogni secolo della stessa lingua, d'età in età, sino a' dì 
+nostri, e specialmente nei poeti maggiori, perchè più degli altri si valsero di significati metaforici ne' 
+vocaboli. Finalmente il suono meccanico o ha qualche analogia con l'oggetto che rappresenta, ed ha 
+in questa parte valore assoluto; o produce armonia, il che accade le più volte per la combinazione 
+dei suoni degli altri vocaboli che lo accompagnano, ed in questo caso ha in ciò valore relativo. Ogni 
+concorso di parole parla per conseguenza al raziocinio per mezzo del significato primitivo, alla 
+fantasia per mezzo delle idee concomitanti, e all'orecchio per mezzo de' suoni. Or questo valore 
+risulta dal consenso de' grandi scrittori e dai vocabolari, che sono depositari di questo 
+consenso.</p>
+                  <p>2<hi rend="sup">o</hi> Quindi dalla combinazione delle voci e dal loro concorso ogni lingua 
+ricava tempra, movimento ed armonia tutta propria, come ogni nazione ha la sua fisionomia. Questa 
+indole interna e queste esterne sembianze, che risiedono nel clima e nella costituzione organica 
+della nazione che parla la lingua e che si trasfondono depurate e abbellite ne' sommi scrittori, sono 
+poi ridotte a stabile ed ordinata ragione grammaticale, che non si deve sì di leggieri violare, senza 
+ragione necessaria ne' soggetti che si trattano, conveniente alla intelligenza comune, e soprattutto 
+analoga all'indole ed alla fisionomia della lingua, perchè, ritenendo la stessa università di voci e lo 
+stesso spirito di fraseggiare, cangia in proprie e naturali anche le poche mutazioni. Ogni autore 
+dunque deve non solo conoscere il valore delle voci, ma serbare ben anche l'andamento e le 
+sembianze della propria lingua. Ogni animale, ogni pianta, ogni ente qualunque che abbia azione 
+sugli altri, perde la bellezza, l'originalità ed il vigor natìo quando è trasportato fuori del clima 
+assegnatogli dalla natura, o quando il tronco per cui si propaga riceve innesti stranieri o non 
+omogenei. Così violando con modi stranieri la lingua, la sua tempra verrebbe ad imbastardirsi; non 
+avrebbe più nè fisionomia nazionale, nè originalità di sembianze proprie, propria agli altri idiomi. 
+Ogni pagina d'uno scritto acquisterebbe certo aspetto di ambiguità; ogni letterato avrebbe apparenza 
+di plagiario, l'idioma di povertà, e la nazione di servitù; l'uso dei modi stranieri farebbe a poco a 
+poco obbliare i natii, e l'obblio degli antichi modi si diffonderebbe sugli antichi e originali scrittori 
+della nazione. E la lingua finalmente, perdendo la sua beltà, le sue grazie e il suo vigore originale ed 
+il testimonio dei primi padri della letteratura nazionale, porrebbe gli autori nel bivio, o di scrivere 
+barbaramente per essere letti, o di scrivere puramente per non essere intesi. Quindi l'ultima 
+corruzione delle lingue.</p>
+                  <p>3<hi rend="sup">o</hi> Ogni lingua ha le sue età, come ogni ente che vive, cresce ed 
+invecchia; ha le apparenze della propria stagione, come ogni popolo cangia di fogge di generazione 
+in generazione. Ogni autore dunque, conservando il valore della parola e la fisionomia della lingua, 
+deve adattarle la foggia del suo secolo. Perchè gli uomini non amano e non cercano se non ciò che 
+sentono e comprendono; e non sentono nè comprendono meglio se non ciò che tocca dappresso lo 
+stato di società, di usi e d'idioma in cui vivono. Queste fogge consistono più nello stile che nella 
+lingua.</p>
+                  <p>Da questo capo quinto apparirà: 1<hi rend="sup">o</hi> perchè molti scienziati, se 
+studiassero la loro lingua, anzichè querelarla e scriverla barbaramente come fanno, 
+l'arricchirebbero; 2<hi rend="sup">o</hi> perchè molti scritti pieni di ottime idee e dettati con somma 
+proprietà d'idioma, ma con imitazione delle fogge boccaccesche e sì fatte, sieno obbliati nelle 
+biblioteche.</p>
+               </div3>
+               <div3 n="Capo VI">
+                  <head>CAPO VI.</head>
+                  <argument>
+                     <p>La lingua è annessa allo stile, e lo stile alle facoltà intellettuali d'ogni 
+individuo.</p>
+                  </argument>
+                  <p>1<hi rend="sup">o</hi> Non si parla e non si scrive se non perchè si sente, s'immagina e si 
+riflette; ma perchè tutti non sentono nè riflettono ad uno stesso modo, dacchè queste facoltà 
+derivano dalla costituzione fisica, modificata diversamente dalle varie educazioni in ogni individuo, 
+così tutti non possono avere lo stesso ordine e la stessa vita nel loro pensiero.</p>
+                  <p>2<hi rend="sup">o</hi> Veder chiaramente con l'intelletto le idee che si vogliono esprimere, 
+concatenarle conseguentemente col raziocinio; ecco l'ordine del pensiero. Sentire nel cuore le 
+passioni eccitate da queste cose, e rappresentarsi le loro immagini; ecco la vita del pensiero.</p>
+                  <p>3<hi rend="sup">o</hi> Ordinare ed animare i pensieri per mezzo del raziocinio e delle 
+passioni, e colorirli per mezzo della lingua; ecco l'idea dello stile.</p>
+                  <p>4<hi rend="sup">o</hi> Così appunto nella pittura si disegna, si dà vita e grazia alle 
+fisionomie, e si coloriscono.</p>
+                  <p>Lo stile dunque non dipende dalla lingua, se non quanto la pittura dal colorito. Chi 
+dunque sa meglio disegnare ed animare i pensieri, quantunque non sappia ottimamente colorirli, 
+scriverà meglio di chi saprà colorirli senza saperli ben disegnare nè animare. Quindi Rafaele, 
+benchè inferiore nel colorito a Tiziano, gli è superiore nel merito e nella lode di egregio pit tore, 
+appunto perchè col disegno conseguì l'arcana armonia delle idee che lo scrittore consegue col 
+raziocinio, perchè col sentimento conseguì l'espressione degli affetti che lo scrittore consegue 
+sentendoli in sè stesso ed osservandoli negli altri. Ma i letterati per arte imitano l'altrui stile e 
+formano regole per costringere che ciascun altro lo imiti, poichè, mancando in essi l'intelletto ed il 
+cuore capace di formarne uno proprio, credono lo stile frutto delle regole. Ma le regole togliendo 
+allo stile gli elementi originali della ragione e della passione, che l'arte non può prescrivere, restò la 
+lingua sola predominante ed universale l'elemento dello stile. Quindi la poca originalità anche de' 
+grandi ingegni, corrotti dall'educazione delle scuole rettoriche.</p>
+                  <p>Da questo sesto ed ultimo capo apparirà: 1<hi rend="sup">o</hi> la ragione per cui le scuole 
+sieno inutilmente inondate da teorie sullo stile, poichè la sola natura può limitare la libertà 
+intellettuale dell'uomo, e perchè i soli esempi possono dar norma ed eccitamento d'imitazione. 2<hi rend="sup">o</hi> Apparirà perchè nel giudizio comune tutte le lodi ed i biasimi sopra lo stile di un 
+libro cominciano grammaticalmente dalla lingua e finiscono pedantescamente nella lingua. 3<hi rend="sup">o</hi>Apparirà in tutto il suo lume una sentenza poco osservata, ed anzi da niuno, ch'io 
+sappia, sino ad ora dimostrata, di Plutarco, il quale nel proemio alla vita di Nicia ci lasciò scritto: 
+<quote>«La gara e l'emulazione d'imitare lo scrivere e lo stile degli altri a me sembrano 
+cose proprie di persona che abbia un animo assai digiuno e sofistico; che se poi questa imitazione e 
+questa gara riguardano quegli scritti che sono inimitabili, l'intento non può essere che di persona 
+affatto stolida»</quote>.
+
+<quote rend="block">
+                        <lg>
+                           <l>Chè stile oltre l'ingegno non si stende.</l>
+                        </lg>
+                        <bibl>PETRARCA.</bibl>
+                     </quote>
+                  </p>
+                  <p>4<hi rend="sup">o</hi> Ed ecco come il semplice ed innegabile assioma, che la letteratura è annessa 
+alle facoltà intellettuali dell'uomo, ritorna per sè stesso anche nell'esterna apparenza del pensiero, 
+nello stile, il quale è sostanzialmente aderente a queste facoltà di ciascun individuo. Il fonte del 
+sapere umano sgorga dal sentimento profondo delle cose che circondano l'uomo, e l'uso migliore 
+dipende dal discernimento del vero dal falso, e dal giudizio proporzionato agli effetti di ciascuna 
+cosa. Ma gli organi del sentimento e dell'uso vivono più o meno perfetti nell'uomo stesso, e la forza 
+del sentire e l'esattezza del giudicare e la intensione nell'operare non sorgono tanto dal numero e 
+dalla varietà delle idee e dei ragionamenti che i libri fanno sovr'esse, quanto dalla profondità con cui 
+si stampano, dall'ordine con cui si dispongono, e dalla meta a cui senza mai traviare si 
+dirigono.</p>
+                  <p>Questi sono i principj sui quali io fonderò le mie lezioni; nè mi presumo che sieno da voi 
+per ora ammessi come certi e innegabili, e molto meno presumo che sieno compresi in tutta la loro 
+estensione. Quanto alla loro certezza, voi la vedrete, spero, con minore fatica di quella che ho 
+dovuto durare.</p>
+                  <p>Le osservazioni su la natura dell'uomo, su me medesimo e su le storie cominciarono a 
+somministrarmeli, dacchè, educato sempre liberamente, istruito dai fatti e non mai guidato dalle 
+teorie, io vivo tra le passioni, le opinioni e gli studi degli uomini; poi l'assidua meditazione, 
+l'esperimento spregiudicato e il paragone dei tempi passati con i presenti hanno gradatamente 
+verificate quelle osservazioni, avvalorati i loro effetti, perchè mi apparvero sempre certi, sempre 
+continui, e li hanno final mente ridotti in questi principj che mi sembrano universali. Ed appunto la 
+loro universalità li rende di difficile comprensione, ove non sieno soggetti all'esame, e vengano 
+esposti dalla cattedra in quel modo d'aforismi. Ma io l'ho fatto, primamente perchè v'accorgiate che 
+in una disciplina qualunque bisogna pure risalire a' principj, e giunti che siesi, bisogna partire dalla 
+verità che contengono; ma questa non mai si trova se non con pertinace lavoro di mente, lavoro al 
+quale dovrete accingervi, se siete disposti a ritrarre alcun utile da ciò che potrò dirvi. In secondo 
+luogo, non dipartendomi mai da essi, parvemi necessario di mostrarveli sommariamente nella prima 
+lezione, acciocchè le conseguenze ch' io andrò traendo non sieno traintese da chi mi ascolta; poichè 
+ogni principio avendo moltissime conseguenze, e ogni conseguenza molte e varie diramazioni di 
+ragionamento e di applicazione, se la sostanza almeno de' principj non vi fosse nota, i ragionamenti 
+e le applicazioni non terrebbero nel vostro intelletto la radice che hanno nel mio, e si cadrebbe o ad 
+operare nelle lettere e giudicarne seguendo più le opinioni accidentali che i principj fondati sulla 
+natura, o a valersi di mille regole parziali, e quindi di mille eccezioni, le quali sarebbero applicate, 
+come pur suole, spesso a torto e spesso pedantescamente.</p>
+                  <p>Or mi rimane a dirvi qual metodo a me sembri più acconcio, onde da voi si risalga 
+analiticamente a que' principj. Com'io li ricavai dall'osservazione, così pure voi dovete 
+persuadervene per mezzo dell'osservazione. Si tratta dunque di conoscere: 1<hi rend="sup">o</hi> chi sia 
+atto alla grande ed utile letteratura; 2<hi rend="sup">o</hi> in che modo la natura debba essere aiutata 
+con lo studio; 3<hi rend="sup">o</hi> come la letteratura giovi agli istituti sociali; 4<hi rend="sup">o</hi> 
+come tenda alla verità; 5<hi rend="sup">o</hi> come la lingua debba essere considerata nella letteratura; 
+6<hi rend="sup">o</hi> come si deve desumere lo stile dalle nostre facoltà intellettuali.</p>
+                  <p>Chi trattasse partitamente questi sei sommi capi, ad uno ad uno, potrebbe certamente far 
+molte dissertazioni, non senza speranza di lode forse, ma certamente senza speranza di utilità. Però 
+che non si potrebbe in verun modo evitare di urtare o ne' precetti sentenziosi, o nelle astrazioni 
+metafisiche: mentre co' precetti si verrebbe a considerare le parti, si sfuggirebbe il tutto; e quanto 
+alle astrazioni, io non sono grande partigiano del bello, del vero e del giusto ideale; cercando il 
+diritto, si perde il fatto; e peggio nelle arti belle, dove si opera per sentimento e per insito vigore di 
+natura; a onde non mai meglio può definirsi il poeta ed il pittore, quanto da quel verso:
+
+<quote rend="block">
+                        <lg>
+                           <l>
+                              <foreign lang="lat">Ingens est olli vigor et caelestis origo</foreign>.</l>
+                        </lg>
+                     </quote>
+                  </p>
+                  <p>E poi dalla esecuzione delle arti belle si rappresentano gli effetti ammirabili della natura, 
+e con essi si svegliano i sentimenti, a' quali la natura creò prontissimo il cuore dell'uomo; nella lor 
+metafisica invece si cercano le cause; ed a forza d'investigare le cause, si smarriscono gli effetti da 
+chi non le trova; e da chi le trova si scioglie quell'incanto soave che nasce dall'improvviso ed 
+indistinto sentimento; e noi siam nati per sentire più che per pensare.</p>
+                  <p>Sentiamo spontanei e con piacere; ma non pensiamo se non se forzati e con fatica; e il 
+raziocinio che non nasce dal sentimento continuo, ma che suole invece partorire il sentimento, 
+riesce freddo sempre e non persuaderà mai i liberi moti del cuore, quantunque giunga a convincere 
+e a far superba la mente di quel suo nuovo sapere. Volgete gli occhi alle scuole pittoriche della 
+nostra Italia: certo che non mancano modelli; ma vennero da paesi stranieri, dove non si sapea 
+dipingere, molti trattati sul bello, sul sublime, su la grazia; pure alcuni Italiani che non sapeano 
+dipingere, ma che voleano almeno aver nome di maestri e giudici di pittura, estesero così que' 
+trattati, che i dottori divennero pittori, e i pittori dottori; ed ho udito i nostri pennelleggiatori 
+dissertare sul <emph>perchè</emph>, ma nel fatto hanno perduto il <emph>come</emph>, quel 
+<emph>come</emph> di Rafaele e di Correggio e di mill'altri che giovanetti lo conseguivano 
+quando non v'erano libri metafisici, ma studiavano la natura, ed esprimeano i sentimenti e gli effetti 
+a che quest'eterna maestra degli artefici e de' letterati alimenta variamente e perpetuamente nelle 
+viscere umane. Ora noi, per seguire, come meglio per noi si potrà, l'ordine stabilito dalla natura, 
+considereremo sempre riuniti que' sei capi, donde, a mio parere, parte e ritorna ogni principio ed 
+ogni conseguenza della letteratura. — Dividerò la letteratura in poeti, storici ed oratori; e 
+questi tre generi, ciascheduno nelle sue specie. All'esame di ogni specie ridurrò tutti gl'individui. 
+Così, per esempio, parlando del poema epico, che è una delle specie di poesia, io ridurrò l'esame de' 
+maggiori poeti epici in una lezione; questo esame comprendera: 1<hi rend="sup">o</hi> la vita d'ogni 
+autore e il suo carattere, desumendolo più da' suoi scritti che dalle tradizioni; e così apparirà il 
+primo capo de' principj su le doti naturali dei grandi poeti; 2<hi rend="sup">o</hi> lo stato delle scienze, 
+delle lettere e delle arti de' suoi tempi; e così apparirà il secondo capo su lo studio necessario a' 
+letterati; 3<hi rend="sup">o</hi> i costumi, la religione e gli istituti politici delle loro patrie; e così 
+apparira quanto que' poeti abbiano giovato a' loro concittadini; 4<hi rend="sup">o</hi> la loro filosofia; e 
+così apparirà come abbiano conferito alla verità; 5<hi rend="sup">o</hi> la loro lingua; e così apparirà 
+con quali tinte essi hanno potuto colorire i loro pensieri; 6<hi rend="sup">o</hi> il loro stile; ed apparirà 
+quanto hanno dovuto sempre seguire le loro facoltà intellettuali, perfezionandole con lo studio, ma 
+non potendole cangiar mai.</p>
+                  <p>Ogni altra lezione sovra tutte le specie di letteratura si ridurrà sempre a questo esame; e 
+l'esame avrà per fondamento la storia. Ciascheduna di queste lezioni storiche avrà in seguito le sue 
+dimostrazioni in una o due altre lezioni, nelle quali ci studieremo di trarre con le opere degli 
+scrittori già esaminati generalmente molte prove particolari; e di contrapporre nel tempo stesso 
+l'impotenza, la presunzione e gli accorgimenti di coloro che hanno presunto d'imitarli senza essere a 
+ciò creati dalla natura, nè istituiti dagli studi opportuni. — La storia d'ogni specie 
+comprenderà gli autori celebri di ogni tempo ed ogni nazione; se alcuno ne trasandassi, io imparerò 
+ciò che non sapea da chi vorrà farmene avvertito. Così noi studieremo sempre sui fatti, e vedremo i 
+principj della letteratura emergere analiticamente da ciascheduna lezione, e tutti ad un tempo. Così 
+questi principj li applicheremo all'utilità della nostra patria e delle lettere italiane. Così, o giovani, 
+avrete agio di esaminarli; e di ciò vi prego istantemente. Perchè se mi compiacerete di questa 
+domanda, non potrete non procacciare vantaggio e a voi che bramate di apprendere, e a me che 
+studiomi d'insegnare.</p>
+                  <p>Poichè l'esame produrrà contro quelle massime alcune difficoltà nell'ingegno o de' più 
+cauti o de' più pronti tra voi; le quali se mi verranno promosse, o io saprò scioglierle 
+ragionevolmente, e ciò tornerà in vostro profitto ed in mio, giacchè varrà a confermarci ne' nostri 
+propositi; o le difficoltà saranno di tal vigore che la ragione non possa vincerle, ed allora mi 
+accorgerò dell'inganno mio proprio, e tentando di ravvedermi, non potrò fare che l'errore non venga 
+ad un tempo corretto nella mente degli altri.</p>
+                  <p>Io lo confesso: ampia è l'arena ch'io mi sono prefisso a percorrere, e faticoso ogni passo; 
+ma, quantunque io non possa dissimulare a me stesso e l'ineguaglianza delle mie forze e la 
+mancanza del tempo necessario a questo corso di studi, parvemi nondimeno che questo sia il solo 
+mezzo e migliore; e che nelle lettere s'abbia sempre, ad onta di ogni dubbio, a scegliere con la 
+mente e praticare i mezzi che sembrano i più efficaci. Che se gli uomini o la fortuna frappongono 
+poi ostacoli insormontabili, savio consiglio sarà l'arrestarsi, anzichè l'accomodarsi ad altri mezzi, 
+che, se ben sieno più opportuni ai capricci della fortuna e ai pregiudizi de' tempi, sembrano ad ogni 
+modo inefficaci all'oggetto, tuttochè profittevoli a' privati interessi di chi li adopera. Noi dunque, 
+amando le lettere e la patria e ripo nendo tutta la nostra gloria e tutti gli emolumenti della vita in 
+questo amore, seguiremo costantemente ciò che ci promette più onore agli studi, più utilità agli 
+Italiani, adempiendo i doveri tutti delle discipline. Non rinnegando mai nè la verità nè la pratica de' 
+nostri principj, lasceremo il resto in cura alla fortuna, tranne la nobile compiacenza di avere 
+soddisfatti tutti i doveri della disciplina alla quale ci ha creati la natura.</p>
+                  <p>O giovani, fu sempre ed è agevole impresa l'usurparsi titolo di maestri con poco sudore, 
+e l'ostentare al volgo de' letterati e de' grandi certo lusso d'inoperosa dottrina; vano nondimeno ad 
+onta d'ogni ambizione ed impossibile riescirà che gli scritti non salutari nè gloriosi alla umana 
+progenie sieno consecrati dalle postere generazioni sull'altare della immortalità. Chi adempie a tutti 
+i doveri dell'arte sua, sì ch'egli sia riputato di ornamento e di vantaggio a' suoi concittadini, quei sale 
+sì alto, che l'occhio dell'invidia non giunge a malignarlo; quei solamente può sacrificare con 
+religione al proprio Genio nel santuario dell'arte senza l'infelice bisogno di profanarlo ne' conviti 
+delle accademie, ove il timore e la vanità profondono scambievoli panegirici, nè di prostituirla agli 
+atrii della possanza e della ricchezza, le quali spesso coronano d'oro gli scienziati e gli artefici, ma 
+del lauro immortale non mai.</p>
+               </div3>
+            </div2>
+            <div2 n="Lezione seconda. Della lingua italiana considerata  storicamente e letterariamente.">
+               <head>LEZIONE SECONDA.</head>
+               <argument>
+                  <p>DELLA LINGUA ITALIANA CONSIDERATA STORICAMENTE E 
+LETTERARIAMENTE.</p>
+               </argument>
+               <p>Piacemi che questo giorno ultimo per noi di lezione finchè sieno trascorse le ferie, non 
+passi inutile affatto. Ma perchè oggi non potrebbesi incominciare il corso delle lezioni storiche, 
+dacchè non avremmo giorni seguenti da far in essi succedere da vicino le pratiche applicazioni, 
+senza le quali niun frutto potremmo ritrarre dalle nostre fatiche, ho deliberato di parlarvi oggi tanto 
+storicamente quanto praticamente della lingua. E a questo argomento sono consigliato da due 
+principali motivi: primamente io so, e lo sapeva prima di venire alla antecedente lezione, che i miei 
+principj vi sarebbero sembrati astrusi; però con la lezione d'oggi, che s'aggira sopra uno solo di que' 
+principj, v'accorgerete in un'ora sola come, meditandoli, e soprattutto applicandoli, non solo non 
+sono astrusi, ma evidentissimi, antichi come la letteratura, ed inerenti alla cosa stessa; che se furono 
+nelle regole traveduti da' precettisti, non però furono trascurati nel fatto mai da' grandi scrittori; e se 
+sembrano nuovi nelle scuole, non è da incolparsi se non la poca mente di coloro che volendo parlare 
+di letteratura, senza saper nè potere essere letterati, architettarono inette e vanissime teorie. L'altro 
+motivo si è che, ogni scrittore avendo una lingua, ed essendo anzi di somma importanza il sapere da 
+bel principio come va trattata la nostra, utile intendimento mi pare ad esporre in una volta ed 
+abbondantemente, e se la vostra attenzione mi seguirà con virile proponimento, di esporre anche 
+pianamente ed a lungo in una lezione ciò che nelle seguenti ci toccherà di trattare spicciolatamente e 
+di volo, e spesso quasi per incidenza.</p>
+               <p>Torniamo dunque a ripetere quel principio: <hi rend="italic">La letteratura è annessa 
+alla lingua</hi>. — Ogni nazione ha una lingua. Ogni letterato deve parlare alla sua nazione 
+con la lingua patria. Il pensiero non è rappresentato che dalla parola. Per rappresentare il pensiero 
+bisogna dunque conoscere il valore della parola. Il valore della parola consiste: 1<hi rend="sup">o</hi> 
+nel suo significato primitivo ed originale; 2<hi rend="sup">o</hi> nel conflato de' significati minimi ed 
+accessori provenuti dal tempo; 3<hi rend="sup">o</hi> nel suono meccanico della parola. Il significato 
+primitivo d'ogni vocabolo è da desumersi dai primi ed originali scrittori della lingua, e dalle lingue 
+che le furono madri. E conflato dell'idee accessorie è da distinguersi negli scrittori d'ogni secolo 
+della stessa lingua, d'età in età, sino ai dì nostri, e specialmente ne' poeti maggiori, perchè più degli 
+altri si valsero di significati metaforici ne' vocaboli. Finalmente il suono meccanico o ha qualche 
+analogia con l'oggetto che rappresenta, ed ha in questa parte valore assoluto; o produce armonia, il 
+che accade le più volte per la combinazione dei suoni degli altri vocaboli che lo accompagnano, e in 
+questo caso ha in ciò valore relativo. Ogni concorso di parole parla per conseguenza al raziocinio 
+per mezzo del significato primitivo, alla fantasia per mezzo delle idee concomitanti, all'orecchio per 
+mezzo de' suoni. Or questo valore risulta dal consenso de' grandi scrittori e dai vocabolari, che sono 
+depositari di questo consenso. Quindi dalla combinazione delle voci e dal loro concorso ogni lingua 
+ricava tempra, movimento ed armonia tutta propria, come ogni nazione ha la sua fisionomia. Questa 
+indole interna e quest'esterne sembianze, che risiedono nel clima e nella costituzione organica della 
+nazione che parla la lingua, e che si trasfondono depurate e abbellite ne' sommi scrittori, sono poi 
+ridotte a stabile ed ordinata ragione grammaticale, che non si deve sì di leggieri violare senza 
+ragione necessaria ai soggetti che si trattano, opportuna all'intelligenza comune, e soprattutto 
+omogenea o all'indole e alla fisionomia della lingua. — Qui dunque bisogna conoscere con 
+costantissimi contrassegni il significato primitivo ed originale delle parole, e la fisionomia della 
+lingua per poterla conservare ne' nostri scritti. — Lasciamo a chi sa pensare meglio di noi 
+l'indagine su l'origine delle lingue: io dichiaro che in questo argomento non credo a veruno de' 
+metafisici. Cerco da me solo il vero nei fatti e dalla loro immediata analogia; e appena mancano i 
+fatti, mi arresto: ed essendo istituto de' miei studi di usare, quanto meglio l'ingegno mi concede, 
+della mia lingua, io esamino come l'abbiano usata gli egregi scrittori; e tutte le mie cure s'aggirano 
+infaticabilmente su questo come. — Noi parliamo la lingua italiana; noi dunque in primo 
+luogo abbiamo bisogno di vederla nella natura e nell'aspetto della lingua che le fu madre, nei popoli 
+che la parlarono e che la parlano, e nei modi con cui gli egregi scrittori hanno dovuto imprendere a 
+maneggiarla.</p>
+               <p>Non può contendersi che la lingua italiana non provenga nella sua massa di parole dalla 
+latina; se poi questa massa sia quella stessa che correva a' tempi d'Augusto per le bocche della plebe 
+romana e toscana, come credono con molte ragioni specialmente i giuresconsulti italiani, o non 
+piuttosto si formi dal dialetto siciliano e dal provenzale, come pretendono gli storici di quelle genti, 
+non è quistione che debba importare al nostro argomento: vero è che tutti questi dialetti 
+provenivano dalla lingua latina, e la massa delle loro parole, quand'anche costituissero la nostra 
+lingua, erano ad ogni modo latine. Or due principali differenze notiamo nella lingua latina dalla 
+italiana, apparentissime e minime differenze, ma nelle quali sta tutta la diversità sostanziale di 
+queste due lingue. La prima sta nelle terminazioni, e la seconda, derivante dalla prima, negli 
+articoli. Ognuno di noi sa che la consonante <emph>m</emph> e la <emph>s</emph> terminavano 
+in latino gran parte di quelle voci che non finivano per vocale; ed alcune altre voci erano terminate 
+dalla consonante <emph>r</emph> e dalla <emph>t</emph>. Per esempio, ecco il periodo con che 
+Tacito incomincia le sue Storie: <quote>«<foreign lang="lat">Initium mihi operis Sergius 
+Galba iterum, Titus Vinius consules erunt: nam post conditam urbem septingentos et viginti prioris 
+aevi annos multi auctores retulerunt, dum res populi romani memorabantur pari eloquentia ac 
+libertate; postquam bellatum apud Actium, atque omnem potentiam ad unum conferri pacis 
+interfuit, magna illa ingenia cessere; et simul veritas pluribus modis 
+infracta</foreign>»</quote>. Voi vedete in questo periodo che molte voci finiscono con 
+vocale, e molte con le consonanti <emph>m</emph> ed <emph>s</emph>, alcune con la 
+<emph>r</emph> e con la <emph>t</emph>, una con la <emph>l</emph> (<foreign lang="lat">simul</foreign>), e una con la <emph>d</emph> (<foreign lang="lat">apud</foreign>). — A noi nelle nostre terminazioni non resta naturalmente 
+niuna consonante; bensì l'uso fa posare talvolta su la <emph>l</emph> e su la <emph>d</emph> 
+— <emph>dall'ingegno</emph> invece del naturale <emph>dallo ingegno</emph>, e 
+— <emph>ad ogni modo</emph> invece di <emph>a ogni modo</emph>. L'abuso inoltre 
+fa dire ne' verbi <emph>dimostrar</emph> per <emph>dimostrare</emph>, e nei nomi 
+specialmente femminini — fatto con frequenza è prettissimo barbarismo — 
+<emph>costituzion</emph> per <emph>costituzione</emph> e <emph>maggior</emph> per 
+<emph>maggiore</emph> e sì fatti. E notisi che qui parlo della prosa, che è l'andamento naturale 
+del pensiero e della parola. Or di tutti i popoli inciviliti che abbiano storici, poeti ed oratori due sono 
+i dialetti generali che si suddividono in molti particolari in ogni lingua; l'uno è il dialetto plebeo, 
+l'altro il letterario ed illustre. Il dialetto plebeo non lascia monumenti di sè ne' libri, tranne 
+pochissimi ne' comici, e ne' satirici, e ne' giuresconsulti, che, parlando per bocca di persone volgari, 
+o di cose usuali, si valgono degli idiotismi de' loro tempi; però <foreign lang="lat">praestitus</foreign> presso alcuno giuresconsulto vuol dire <emph>prestito di 
+danaro</emph>, il che noi non troviamo con questo significato ne' letterati latini; <foreign lang="lat">banda</foreign> e <foreign lang="lat">parentes</foreign>, e <foreign lang="lat">strata</foreign> presso Plauto significa ciò che nella milizia noi diciamo 
+<emph>banda</emph> o <emph>musica militare</emph>, <emph>parentela</emph>, e sono i soli 
+genitori, e <emph>strada selciata</emph> come si dice da noi. Oltre alle parole della moltitudine 
+che non ci vengono in massa per monumenti, anche la pronunzia si perde affatto. Or i Romani nel 
+parlare elidevano la –<emph>m</emph> e la –<emph>s</emph>; e questo non si 
+vede soltanto in Plauto, ma eziandio in Lucrezio, perchè scriveva quando il verso eroico non aveva 
+conseguita tutta l'armonia virgiliana: e i libri de' giuresconsulti son pieni delle parole composte, 
+<foreign lang="lat">praestituiri, debituiri</foreign> per <emph>andare creditore</emph> e 
+<emph>debitore</emph>. — Quanto alla –<emph>m</emph>, ognun sa che anche 
+ne' poeti più nobili spesso non si pronunziava, e da noi pure bisogna tacerla benchè la troviamo 
+scritta, senza di che non si sentirebbe misura d'esametro; e per recare un verso pentametro in cui la 
+misura è più facile a sentirsi:
+
+<quote rend="block">
+                     <lg>
+                        <l>
+                           <foreign lang="lat">Nunc magnum accingor vertere Meonidam</foreign>
+                        </l>
+                     </lg>
+                  </quote>
+
+bisogna elidere la <emph>emme</emph>, e leggere, se si vuol aver la misura del primo dattilo:
+
+<quote rend="block">
+                     <lg>
+                        <l>
+                           <foreign lang="lat">Nunc magnu accingor vertere Meonidam</foreign>.</l>
+                     </lg>
+                  </quote>
+
+Quanto alla –<emph>s</emph>, non solo ne' frammenti di Lucilio, di Nevio e d'Ennio si 
+trova elisa frequentemente alla fine della parola, ma Lucrezio è pieno di sì fatte elisioni: per 
+esempio:
+
+<quote rend="block">
+                     <lg>
+                        <l>
+                           <foreign lang="lat">Nunc mare velivolum florebat navibus pandis</foreign>;</l>
+                     </lg>
+                  </quote>
+
+e bisogna pronunziare <foreign lang="lat">navibu pandis</foreign>, perchè, pronunziandosi la 
+–<emph>s</emph>, il piede sarebbe lungo, giacchè alla <emph>u</emph> di <foreign lang="lat">navibus</foreign> seguitano due consonanti, la <emph>s</emph> cioè e la 
+<emph>p</emph>, (<foreign lang="lat">navibus, pandis</foreign>); dove il dattilo perpetuo nel 
+piede penultimo dell'esametro esige invece una sillaba breve. — Si perde dunque il 
+significato, il corpo e la pronunzia di molte voci della lingua com'è parlata dal popolo; e queste 
+cose si mantengono nella lingua com'è scritta dai letterati, perchè i libri si tramandano d'età in età. 
+Ma quando le invasioni di nazioni barbare e le religioni armate e le grandi emigrazioni e colonie 
+distruggono e seppelliscono le arti, le scienze ed i libri d'una nazione, come avvenne in Italia, allora 
+la lingua illustre de' letterati si perde; con le nuove idee religiose e politiche i nuovi letterati, 
+seppure ve ne sono, deturpano quella lingua ne' libri; ma non potendosi distruggere la intera 
+nazione, la lingua resta nel solo dialetto con cui veniva parlata tra il popolo, ma cangiandosi d'età in 
+età, e non tramandando ai posteri per monumento se non se l'ultimo stato in cui si trova dopo tante 
+vicissitudini. Ecco lo stato della lingua latina ducent'anni prima di Dante: si scrivevano in Italia, è 
+vero, libri teologici, e leggi, e cronache in latino con la terminazione della lingua antica de' letterati, 
+desunta da' libri antichi che rimanevano; ma le voci e la sintassi era già sparita, e il popolo parlava 
+con l'uso che più riusciva ad intendersi reciprocamente.</p>
+               <p>Da questo viene che anche nelle lingue viventi in un modo si scrive e in un altro si 
+pronunzia. Gl'Inglesi, per esempio, scrivono per dire <emph>attraverso</emph>, <foreign lang="eng">throught</foreign>, e pronunziano <foreign lang="grc">Θρου</foreign>; e i Francesi scrivono <foreign lang="fra">autres</foreign>, e pronunziano <emph>otre</emph>; anzi i Francesi prima di Luigi 
+XIV scrivevano <foreign lang="fra">veulx</foreign> invece di <foreign lang="fra">veux</foreign>, che ora pronunziano <emph>veu</emph>; e così sono queste due 
+lingue nel maggior numero delle loro voci. Or voi vedete in queste due lingue straniere e 
+nell'esperienza de' nostri dialetti provinciali, che le ultime sillabe del vocabolo sono quelle che 
+vengono corrotte ed elise; così avvenne nella latina: il popolo, per esempio, disse <foreign lang="lat">bonu dominu</foreign>, come a' tempi di Cicerone, invece di <foreign lang="lat">bonus dominus</foreign>; da questo <foreign lang="lat">bono domino</foreign>, poi 
+<emph>donno</emph> che ancora vuol dire <emph>Signore</emph>, e <emph>Don</emph> che 
+si prepose poi al nome de' nobili quasi titolo di <emph>signoria</emph>. Or tutta la distinzione 
+delle declinazioni de' nomi (il <emph>Signore</emph>, al <emph>Signore</emph> ecc.) e il 
+numero (i <emph>Signori</emph>, a' <emph>Signori</emph>, da' <emph>Signori</emph> ecc.) 
+dipendendo nella lingua latina dalla terminazione delle voci (<foreign lang="lat">dominus, domini, 
+domino</foreign> ecc.); e queste distinzioni di terminazioni essendosi perdute, ne vennero gli 
+articoli <emph>il</emph>, <emph>la</emph>, <emph>lo</emph>; senza di che, sebbene il popolo 
+s'intendesse, il letterato non avrebbe potuto farsi intendere. Ecco dunque come dal cangiamento 
+delle terminazioni e dalla sostituzione degli articoli nacque la differenza delle lingue italiana e 
+latina. Seguitiamo questa differenza nell'applicazione. I letterati, teologi, storici e giuresconsulti 
+scriveano in latino; ma per la diversità delle terminazioni e per la natura di questi studi il popolo 
+non intendeva; e per l'innata tendenza della letæratura, esposta nel capo 3<hi rend="sup">o</hi> de' nostri 
+<emph>Principj</emph>, di parlare alle opinioni e alle passioni del popolo, gli scrittori 
+cominciarono a valersi della lingua del popolo; ma doveano assoggettarla a norme certe: queste 
+norme vennero in primo luogo dal bisogno di quella lingua, quindi gli articoli che distinguevano le 
+persone e i numeri de' nomi: vennero in secondo luogo dalla natura della lingua stessa, che avendo 
+per fondo la latina aveva esattissima coniugazione di verbi; onde noi abbiamo bellissime e varie 
+coniugazioni distinte, al paro de' Latini, nella pronunzia; il che non si distingue ne' Francesi; onde 
+da noi si dice <emph>amo</emph>, <emph>ami</emph>, <emph>ama</emph>, e si sottintende 
+subito l'<emph>io</emph>, il <emph>tu</emph>, il <emph>quello</emph>; non così i Francesi, 
+che, per quanto scrivessero l'azione <emph>amare</emph> di tre persone diverse con molte 
+ortografie diverse, pronunziano e scrivono pur sempre <foreign lang="fra">j'aime</foreign>, 
+<foreign lang="fra">tu aime[s]</foreign>, <foreign lang="fra">il aime</foreign>, e 
+se mancassero i pronomi non si saprebbe da chi venisse l'amore; e gli Inglesi peggio, perchè con un 
+suono solo devono supplire a tutti i tempi; così <foreign lang="eng">to love</foreign>, 
+<emph>amare</emph>, dicono io <emph>amare</emph>, tu <emph>amare</emph>, quello 
+<emph>amare</emph>, e così sempre; e cadrebbero nella confusione se i tempi passati e futuri e i 
+congiuntivi non avessero de' segni preposti come <foreign lang="eng">shall</foreign>, <foreign lang="eng">will</foreign>, <foreign lang="eng">should</foreign>, che si appiccano a tutti i verbi. 
+— Si valsero dunque i primi letterati italiani della opportuna coniugazione, e 
+<emph>s'accomodarono</emph>, come meglio si poteva, negli articoli: dico s'accomodarono, 
+perchè s'essi sono di bell'effetto assai volte nell'armonia pel suono monosillabo e grave, sono 
+nondimeno di maggior danno nella sintassi, perchè sovente sogliono generare confusione, e vietano 
+la rapidità ed il vigor dell'azione del periodo. Ecco, per esempio, un periodo di Salustio, che pure 
+non è grande seguace delle trasposizioni ciceroniane, perch'egli attende a dir molte cose in poche 
+parole, e quindi ha bisogno di molto ordine, perchè l'abbondanza genera confusione; e quindi 
+Salustio schiva che l'ornata disposizione delle voci turbi l'ordine delle idee: 
+<quote>«<foreign lang="lat">Pulchrum est bene facere reipublicae: etiam bene dicere 
+haud absurdum est: vel pace vel bello clarum fieri licet; et qui fecere et qui facta aliorum scripsere 
+multi landantur</foreign>»</quote>. Ecco la traduzione con la giacitura delle parole e con 
+le trasposizioni: <quote>«<hi rend="italic">Bello è il ben fare alla repubblica: anche il 
+ben dire inetto non è; o in pace o in guerra illustre farsi lice; e quanti fecero, e quanti i fatti degli 
+altri scrissero, molti si lodano</hi>»</quote>. Ma udiamo dall'Alfieri questo periodo 
+sgombro di sì fatta pedantesca confusione: <quote>«<hi rend="italic">Bello è il giovare 
+bene operando alla patria; bello altresì il ben dire; in pace come in guerra fama si acquista; e lode 
+ottenne e chi oprava e chi gli altrui fatti scriveva</hi>»</quote>.</p>
+               <p>Ma seguitiamo la storia della nostra lingua, e vediamo come sia giunta ne' libri di Dante, 
+del Petrarca e del Boccaccio, dove stanno le sue vere basi.</p>
+               <p>Nel secolo X tutte le città d'Italia si ordinarono ciascheduna in repubbliche governate 
+alla forma romana da' tribuni e da' consoli. E già noi nella nostra <title>Prolusione</title> abbiamo 
+mostrato come la lingua greca e la greca letteratura furono effetti dello stato popolare. Nè vi 
+spiaccia di udire nuovamente quel passo senza del quale mancherebbe un anello alla catena delle 
+nostre idee. <quote>«Niun popolo trapassò veloce al pari degli Ateniesi dalla fierezza della 
+barbarie alla raffinatissima civiltà; e niuno potè riunire quant'essi le passioni e il criterio, che pur 
+sogliono preponderare ad età differenti ne' popoli, negli individui e nelle lingue. Solone meditò di 
+scrivere in versi e fra le cerimonie de' sacerdoti e gli oracoli le leggi d'una città ove già i metafisici 
+contendeano l'Eliso a' mortali e l'onnipotenza agl'iddii, ove le virtù della libertà regnavano ad ora 
+ad ora con la insania della licenza, e la tirannide anch'essa era costretta ad essere moderata e 
+magnanima. Un popolo che sapeva e ragionare ed illudersi e coronare la virtù ed esiliarla, che 
+trucidava i tiranni, debellava le armi di tutta l'Asia, dava norme di giustizia a' Romani, e non sapea 
+godere nè la giustizia nè la libertà nè la pace, un sì fatto popolo dovea esercitare la sagacità de' 
+prudenti, il valore de' forti, la virtù de' savi e il vigor degl'ingegni; dovea congiungere ne' loro 
+pensieri l'entusiasmo ed il calcolo, e nella loro lingua il colorito, la musica e tutto il disegno ad un 
+tempo e la filosofica precisione»</quote>. — Così pure nelle repubbliche italiane 
+s'è dovuto parlare al popolo e scrivere; se non che non si poteva formare una lingua generale 
+italiana, non solo perchè ogni repubblica aveva un dialetto suo proprio, benchè la massa delle parole 
+fosse dappertutto latina; ma ben anche perchè, essendosi quasi perduto l'uso di scrivere, e tutti gli 
+studi essendosi ridotti al gergo teologico, poco poteva fiorire in quella doppia barbarie la letteratura, 
+senza la quale s'è già veduto che la lingua non può nè illustrarsi nè perpetuarsi. Inoltre breve fu la 
+vita di quelle repubbliche che soggiacquero al dominio degl'imperadori quando Federigo I si mosse 
+contro la Chiesa ed occupò tutta Italia. Ma benchè si parlasse una lingua né in tutto latina nè in tutto 
+italiana, si cominciò tra' tempi di Federigo I e di Federigo II ad avere una certa letteratura. Nel 
+secolo XII i Provenzali parlavano il dialetto plebeo romano, pronunziandolo ed alterandolo secondo 
+la diversità del loro clima e delle loro vicende politiche. Quindi la loro lingua era chiamata 
+<emph>romanza</emph>, e <emph>romanzi</emph> si chiamarono tutti i poemi provenzali, 
+l'imitazione de' quali fu animata in Italia da Federigo II che scrisse anch'egli versi romanzi. Così 
+gl'Italiani cominciarono ad usare della loro lingua, specialmente nel regno di Napoli, dove divenne 
+letterata mercè la corte de' Conti di Provenza che passavano al trono di Napoli, la quale corte dava 
+eccitamento di poesia ai Siciliani, che furono sempre popolo per propria natura poetico. Quindi dal 
+fondo della lingua latina già corrotta nelle desinenze e dall'uso poetico insegnato da' Siciliani venne 
+quella lingua italiana letteraria e comune alla quale Dante nel suo trattato <title>
+                     <foreign lang="lat">De vulgari eloquentia</foreign>
+                  </title> assegna l'origine e la sede nella Sicilia e nel 
+regno di Napoli. Questa lingua passò e si celebrò, attesa la penuria letteraria, in tutta Italia, onde 
+troviamo che molti anteriori a Dante e lontani dalla Toscana scrivevano pure una lingua comune, 
+benchè talvolta si risentisse de' vari dialetti municipali; così Guidotto e Pier Crescenzio a Bologna, 
+Marco Polo a Venezia, Guido Giudice a Messina, Giacomo Colonna romano, Federigo II 
+imperadore, e Pier delle Vigne di Capua, Fra Jacopone da Todi, Gotto mantovano, e molti altri 
+d'altre città. Perciò Dante nel libro già citato biasimò i Toscani che volessero col loro dialetto 
+arrogarsi la dittatura della lingua italiana. Ma questa dittatura divenne imperio legittimo appunto per 
+la ragione che il dialetto toscano ebbe Dante, Petrarca e Boccaccio; per cui di dialetto divenne 
+lingua che signoreggiò e signoreggia tutta l'Italia. Ma sino ad ora non ho veduto niuno che penetri 
+più oltre e risalga ad una ragione più generale, dico, al perchè il dialetto toscano, e non gli altri 
+dialetti d'Italia, abbia sortito tre grandi scrittori capaci di edificare la lingua. Questa ragione noi la 
+troviamo ne' nostri <emph>principj</emph> e in que' fatti da' quali i principj furono desunti. Le 
+altre città d'Italia erano ridotte sotto tiranni o aristocrazie, dopo breve tempo d'indipendenza. Quindi 
+taceano gli oratori e gli scrittori; dacchè se a' tempi barbari aggiungi la tirannide, tutta la letteratura 
+consiste, come s'è detto ne' <emph>principj</emph>, in leggi scritte, dogmi teologici e cronache. 
+Questa letteratura sì limitata serve al governo ed a' sacerdoti, che soli la producono e la intendono. 
+Inoltre la repubblica veneta di que' tempi era fondata su la navigazione e sul commercio, e già 
+tendeva all'aristocrazia appunto quando incominciarono le lettere a rifiorire; gl'ingegni attendevano 
+o al commercio del mare, o agli ordini politici dello Stato, i quali nella aristocrazia sono 
+essenzialmente fondati nella opulenza e nella sapienza secreta di pochi che comandano, e nella 
+miseria e nella ignoranza crassa dei molti che servono. Così in tutte le città d'Italia la lingua italiana 
+non potea di popolare divenir letteraria, e tutti i libri d'ogni città si riduceano a croniche municipali, 
+a raccolte di leggi; e i pochi ingegni che amavano le lettere correvano o a Roma dove si scriveva il 
+latino teologico e fiscale, o a Napoli dove, come s'è detto, coltivavasi una tal lingua comune italiana 
+e letteraria, che ad ogni modo abitava o in corte, o nel santuario, nè usciva ad arricchirsi e a 
+stabilirsi tra il popolo. Solo in Firenze il dialetto del popolo divenne illustre, perchè verso il XIII 
+secolo, appunto quando il Gradenigo meditava di ridurre a servitù il popolo veneto, come gli 
+avvenne dopo alcun tempo, e mentre le città d'Italia erano erette in feudi e prefetture imperiali per 
+le vittorie di Federigo I e di Federigo II sopra il papa, i soli Fiorentini per mezzo di danaro si 
+redensero da Rodolfo II imperadore. Si costituirono in repubblica popolare: la corte abitava presso 
+tutto il popolo, come s'è detto d'Atene, e per conseguenza presso il popolo anche la lingua e la 
+letteratura; quindi la plebe fiorentina era più svegliata e men barbara di tutte le altre plebi italiane; 
+quindi le passioni e il bisogno di esercitarle, quindi le opinioni e le arti di dirigerle, quindi gli storici 
+e i poeti, quindi la vera e grande letteratura in Firenze, e quindi aggiudicata la palma alla lingua che, 
+annessa a questa letteratura, così come la latina, divenne nuovo esemplare all'Italia non solo, ed a 
+tutta l'Europa. Ecco da quali cause nacquero originali in Firenze in gran parte le arti letterarie tra 
+noi, ed ebbero per padri Dante, Petrarca e Boccaccio. — Bisognò dunque fermare questa 
+lingua nello stato in cui que' tre grandi scrittori l'aveano portata, perchè, essendo intesa per tutta 
+Italia ed essendo per conseguenza scritta da tutti gli Italiani, le voci che s'innestassero in essa da 
+differenti dialetti plebei di Italia, siccome fe' Dante, come pure le voci latine e quelle che le nuove 
+arti e dottrine mutandosi e crescendo d'età in età necessariamente producono, tutte assumessero la 
+medesima consonanza della stessa lingua. Non può presumersi che queste cause non accrescano il 
+numero delle voci d'una lingua e non giungano ad alterarne i modi, e questa pretensione è da 
+lasciarsi a' reverendi grammatici ed ai cruscanti accaniti. Abbiamo detto ne' 
+<emph>principj</emph> che i vocabolari sono depositari delle voci; ma dopo i vocabolari le voci 
+crescono con nuove idee: abbiamo detto che vi è una ragione grammaticale certa ed ordinata; ma le 
+grammatiche sono formate su regole parziali e le regole anch'esse desunte da esempi antichi 
+parziali; come dunque ci guideranno sì perchè i nuovi vocaboli e i nuovi modi giungano ad alterare 
+meno che sia possibile lo stato in cui s'è fermata la lingua, perchè se non ferma il corso nel suo 
+miglior punto su basi perpetue, non può essere che non declini? Il midollo della quistione si è che la 
+lingua ritenga la stessa università di voci e lo stesso spirito di fraseggiare in modo che le novità 
+necessarie non l'imbastardiscano, e che col tempo non la travisino affatto. Bisogna insomma che le 
+voci insolite e straniere diventino, appena usate, quasi consuete e italiane. Or ecco, a mio parere, 
+quali sono le leggi certe ed universali che non hanno d'uopo nè di regole, nè d'esempi, nè 
+d'eccezioni, e che valgono a fermare lo stato di una lingua, per quanto la stabilità è conceduta alle 
+cose mortali. 1<hi rend="sup">o</hi> L'uso proprio de' vocaboli destinati per sè stessi e dalla natura della 
+mente umana unicamente alle idee, a rappresentarle e non a confonderle. 2<hi rend="sup">o</hi> La sua 
+perpetua aderenza alla tempra della lingua che le fu madre e che vive incorrotta ne' libri degli 
+eccellenti scrittori. 3<hi rend="sup">o</hi> La sua costante pronunzia, da cui ne viene un'armonia tutta 
+propria. 4<hi rend="sup">o</hi> La consueta giuntura delle sue parole tra di loro, che noi chiamiamo 
+<emph>sintassi</emph>. — Queste quattro leggi si trovano più o meno negli scrittori; 
+s'hanno dunque a seguire gli scrittori che più le hanno osservate.</p>
+               <p>Secondo il nostro metodo di cercare la verità nei fatti, e secondo il nostro principio, già 
+ammesso, che si deve trovare le leggi d'una lingua d'eta in età seguendo il popolo che la parla e gli 
+scrittori che la tramandano, cominciamo da Dante che primo e più d'ogni altro fondò la lingua 
+letteraria ed illustre d'Italia; e da quei tempi giungeremo con l'esame sino a' dì nostri. Io citerò 
+sempre i primi periodi d'ogni libro e d'ogni ragionamento, sì perchè voi possiate riscontrarli ed io 
+non sembri d'aver cercato con affettazione ciò che meglio torna al mio proposito; sì perchè sul bel 
+principio de' suoi scritti ogni autore assume più che mai tutto il suo carattere in fatto di lingua, e i 
+principj sonp soevri d'ogni figura e passione di stile, che sogliono coprire la naturalezza della 
+prosa.</p>
+               <div3 n="Secolo XIII">
+                  <head>SECOLO XIII.</head>
+                  <argument>
+                     <p>Dante.</p>
+                  </argument>
+                  <p>«In quella parte del libro della mia memoria, dinanzi alla quale poco si potrebbe 
+leggere, si trova una rubrica la quale dice: <quote>
+                        <foreign lang="lat">Incipit vita 
+nova</foreign>
+                     </quote>: sotto questa rubrica io trovo scritte le parole le quali è mio intendimento 
+d'assembrare in questo libro e se non tutte, almeno la loro sentenzia.» E così di passo in 
+passo.</p>
+               </div3>
+               <div3 n="Secolo XIV">
+                  <head>SECOLO XIV.</head>
+                  <argument>
+                     <p>Boccaccio.</p>
+                  </argument>
+                  <p>Cerca armonia con le trasposizioni delle parole, mancano le terminazioni, ha bisogno 
+d'articoli, per non generar confusione ripete gli stessi pronomi; mancano le terminazioni in 
+consonanti, per non violare la lingua, e per evitare gli iati che guasterebbero l'armonia frappone in 
+mezzo altre parole.</p>
+                  <p>
+                     <quote>«Dico dunque che già erano gli anni della fruttifera Incarnazione del 
+figliuolo di Dio al numero pervenuti di mille trecento quarant'otto, quando nella egregia citta di 
+Fiorenza, oltre ad ogni altra italica bellissima, pervenne la mortifera pestilenza, la quale per 
+operazione de' corpi superiori, o per le nostre inique opere, da giusta ira di Dio a nostra correzione 
+mandata sopra i mortali, alquanti anni davanti nelle parti orientali incomin ciata, quelle 
+d'immemorabile quantità di viventi avendo private, senza ristare, d'un luogo in un altro 
+continuandosi, verso l'Occidente miserabilmente s'era ampliata.»</quote>
+                  </p>
+               </div3>
+               <div3 n="Secolo XV">
+                  <head>SECOLO XV.</head>
+                  <argument>
+                     <p>Machiavelli.</p>
+                  </argument>
+                  <p>Ritrae a' principj la lingua.</p>
+                  <p>Principia il suo <title>Dialogo su la lingua</title>:</p>
+                  <p>
+                     <quote>«Semprechè io ho potuto onorare la patria mia, eziandio con mio carico 
+e pericolo, l'ho fatto volentieri, perchè l'uomo non ha maggior obbligo nella 
+vita....»</quote>. — Altrove: Machiavelli, primo periodo lib. 1<hi rend="sup">o</hi>
+                     <title>Discorsi</title>, cap. X. <quote>«Tra tutti gli uomini laudati sono i laudatissimi 
+quelli che sono stati capi e ordinatori delle religioni; appresso dipoi quelli che hanno fondato o 
+repubblica o regni; dopo costoro sono celebri quelli che, preposti agli eserciti, hanno ampliato o il 
+loro regno o la patria; a questi si aggiungono gli uomini letterati.»</quote>
+                  </p>
+               </div3>
+               <div3 n="Secolo XVI">
+                  <head>SECOLO XVI.</head>
+                  <p>Ma si scrivea in latino; non si amò la filosofia schietta, e ne' poeti si tornò a Boccaccio e 
+si peggiorò.</p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Galateo di M.r Della Casa</hi>.</p>
+                  <p>A principio: <quote>«Conciossiacosachè tu incominci pur ora quel viaggio del 
+quale io ho la maggior parte, siccome tu vedi, fornito, cioè questa vita mortale; amandoti io assai, 
+come io fo, ho proposto meco medesimo di venirti mostrando quando un luogo, e quando altro, 
+dove io, come colui che gli ho sperimentati, temo, che tu, camminando per essa, possi agevolmente 
+o cadere, o come che sia errare, acciocchè tu, ammaestrato da me, possi tenere la diritta via con 
+salute dell'anima tua, e con laude e onore della tua orrevole e nobile 
+famiglia.»</quote>
+                  </p>
+                  <p>Quindi Bembo, Varchi ecc.</p>
+               </div3>
+               <div3 n="Secolo XVI">
+                  <head>SECOLO XVI (verso la fine)</head>
+                  <p>Ma la natura non può essere violata; i grandi ingegni la seguirono e chi era più fecondo 
+scrivea meno.</p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Torquato Tasso</hi>.</p>
+                  <p rend="centre">
+                     <title>Discorsi poetici</title>. D.so 2<hi rend="sup">o</hi>, primo periodo.</p>
+                  <p>
+                     <quote>«Scelta che avrà il poeta materia per sè stessa capace d'ogni perfezione, 
+gli rimane l'altra assai più difficile fatica che è di darle forma e disposizione poetica; intorno al 
+quale ufficio come intorno a proprio soggetto quasi tutta la virtù dell'arte si 
+manifesta»</quote>.</p>
+               </div3>
+               <div3 n="Secolo XVII">
+                  <head>SECOLO XVII.</head>
+                  <argument>
+                     <p>Montecuccoli. <title>Dedicatoria</title>, primi periodi.</p>
+                  </argument>
+                  <p>
+                     <quote>[«Vivo sessanta anni nel mondo, e quiarantacinque al servigio 
+militare di V. S. C. M. La esperienza mi ha istruito di varie cose per promoverlo, e le grazie che 
+dall'imo de' gradi della milizia sino al supremo comando degli eserciti successivamente 
+m'innalzarono con l'accrescimento di tanti altri in più persone dianzi divisi, ora in me accumulati 
+carichi, vie più ardente accendono il mio zelo. Ma i disagi, i disordini, le ferite e la età ne scemano 
+la forza. Soddisfarò al genio e all'obbligo, come ch'io vaglia, in vita; e quando la morte mi avrà fatto 
+per sempre invalido alle opere del consiglio e della mano, io lascierò in questi libri, impressi e 
+consacrati alla gloria di V. M. e de' successori del trono, la più ricca eredità che un capitano canuto 
+possa legare a' suoi Principi]. Le cose operate valorosamente sono gloria di una sola età; ma 
+quelle che si scrivono, s'elle mirano alla pubblica utilità, vivono eterne.»</quote>
+                  </p>
+               </div3>
+               <div3 n="Secolo XVIII">
+                  <head>SECOLO XVIII.</head>
+                  <p>Venne la lingua francese al colmo sotto Luigi XIV, e le scienze spaziarono.</p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Galliani</hi>. <title>Proemio sulla moneta</title>.</p>
+                  <p>
+                     <quote>«È cosa maravigliosa e assai difficile a spiegarsi donde avvenga che gli 
+uomini i quali alla cultura dell'animo si sono applicati, ed il nome di savi e virtuosi bramavano 
+meritare, quasi tutti hanno cominciato dal rendersi inutili alla società; e, fuori di lei in certo modo 
+trattisi, a quegli studi e a quel genere di vita si sono dati in cui poco a sè, niente agli altri potevano 
+arrecare d'utilità, e per questo appunto, quando si meritarono biasimo e disprezzo, sono stati dal 
+popolo ad una voce lodati e ammirati.»</quote>
+                  </p>
+                  <p>Ma non bastò ad alcuni; e vollero unire le lascivie toscane con la lingua francese.</p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Algarotti</hi>.</p>
+                  <p rend="centre">Principio del <title>Saggio Sulla lingua francese</title> a Scipione Maffei.</p>
+                  <p>
+                     <quote>«Arriva assai volte che colui il quale è straniero in una faccenda, si 
+formi un più retto giudizio che non soglian fare coloro a' quali appartiene la faccenda 
+medesima.»</quote>
+                  </p>
+                  <p>Intanto i Gesuiti, scuola perpetua nemica della lingua, abbandonando le orme del 
+Boccaccio nelle trasposizioni, cercarono l'armonia nelle sue stesse parole morte.</p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Roberti</hi>.</p>
+                  <p rend="centre">
+                     <title>Discorso sul poema dei pesci</title>; principio:</p>
+                  <p>
+                     <quote>«Voi, o valoroso e gentil signor conte, eravate venuto alla scommessa di 
+dodici zecchini se un verso solo più scrivevate in occasione di nozze; e intanto per le mani di un 
+egregio fratel vostro, filosofo e teologo veramente dotto e amico mio candido e soave, voi a leggere 
+mi presentate un quattrocento o cinquecento versi di un bel vostro e splendente ditirambo, 
+contenuto in un tomo di poesie fatte per nozze e ne volete per cortesia di domanda il nostro 
+giudizio.»</quote>
+                  </p>
+                  <p>Ben tosto gli scritti francesi e la natura dello scrivere mostrò che bisognava dir cose e 
+non parole vuote; si curò dunque il succo, si esiliarono le parole morte, ma si mantenne l'eleganza 
+gesuitica, e si caricò la storpiatura. Ecco un passo d'un vivente: <quote>«Grand'uomo fu al 
+certo Minucio Esorato tribun de' soldati; nè tacer puossi il prosuocero del giovin Plinio, vuo' dir 
+Lucio Calpurnio curatore de' roman cittadini qualor Tito la delizia dell'uman genere a Vespasian 
+subentrò nel governo ma per due anni potè goderlo nel buon reggimento il roman impero che poi 
+soggiacque per tredici al crudel Domiziano dissimil troppo dall'amabil 
+fratello.»</quote>
+                  </p>
+                  <p>Ma si trovò noiosa questa maniera e per evitare la scuola boccaccesca e la gesuitica e nel 
+tempo stesso non volendo ritrarre a' suoi principj la lingua....</p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Cesarotti</hi>. Ne' primi periodi del suo <title>Ragionamento 
+preliminare sopra Omero</title>.</p>
+                  <p>
+                     <quote>«La storia degli uomini grandi che nacquero in un secolo rozzo deve 
+essere necessariamente sparsa di favole, (<hi rend="italic">ecco come sin qui corre bene</hi>) ma 
+dopo la morte. Allora è che il nome volando di bocca in bocca desta una specie di smania di sapere 
+le pita minute particolarità. — La vanità degli ammiratori e de' nazionali è interessata a 
+magnificarne la memoria, e una pia menzogna diventa un merito».</quote>
+                  </p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Carmignani</hi>.</p>
+                  <p>
+                     <quote>«Alfieri al contrario vuole unicamente interessare con ciò che fa dire a' 
+suoi personaggi. Oreste contando su la sua spada e sul suo furore s'introduce coraggiosamente nella 
+reggia senza aver punto pensato ai pretesti che devon celare il suo arrivo. Ma non teme per la 
+situazione d'Oreste; già arrivato in un luogo ch'ei conosce benissimo, introdottosi col progetto di già 
+formato, e senza aver perduto alcuno dei mezzi immaginati a quest'uopo, è creduto dallo spettatore 
+sicuro del fatto suo».</quote>
+                  </p>
+                  <space type="stacco narrativo"/>
+                  <p rend="centre">
+                     <hi rend="italic">Alfieri</hi>.</p>
+                  <p>Alfieri invece senza studiare con nessuno sentì da sè stesso questa verità. 
+<quote>«Io da giovinetto induceami ad intraprendere la traduzione di Sallustio, sì pel 
+trasporto che mi cagionava l'autore sì per la necessità che forte incalzavami di meglio imparar 
+l'italiano per poterlo poi scrivere, ed il latino per francamente poi leggerlo; studi entrambi da me 
+pur troppo obbliati e trascurati nell'adolescenza»</quote>.</p>
+               </div3>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI.2>

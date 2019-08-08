@@ -1,0 +1,2752 @@
+digilibLT. Biblioteca digitale di testi latini tardoantichi.
+
+Progetto diretto da Raffaella Tabacco (responsabile della
+ricerca) e Maurizio Lana
+
+______________________________________________________________________
+
+Chronica
+
+Chronographus anni CCCLIV - Furius Dionysius Filocalus
+
+Correzione linguistica: Gianmario Cattaneo
+
+Codifica XML: Nadia Rosso
+
+2015 digilibLT, Vercelli
+
+Fonte: Chronographus anni CCCLIIII, ed. T. Mommsen, in Monumenta
+Germaniae Historica. Auctorum antiquissimorum tomus IX. Chronica
+minora saec. IV. V. VI. VII, I, apud Weidmannos, Berolini 1892,
+pp. 50-76.
+
+Licenza Creative Commons Attribuzione - Non commerciale -
+Condividi allo stesso modo 3.0 Italia
+
+______________________________________________________________________
+
+Le formattazioni sono riprodotte dalla seguente codifica:
+
+Corsivo: {€testo€}
+
+Doppia spaziatura di caratteri: {%testo%}
+
+Grassetto: {$testo$}
+
+Testo in formato minore: {@testo@}
+
+Sottolineato: {#testo#}
+
+Figura: {Fig: didascalia}
+
+
+
+______________________________________________________________________
+
+ DEDICATIO.  
+
+VALENTINE FLOREAS IN DEO
+VALENTINE LEGE FELICITER
+VALENTINE VIVAS FLOREAS
+VALENTINE VIVAS GAVDEAS
+FVRIVS DIONYSIVS FILOCALVS TITVLAVIT
+ IMAGINES VRBIVM.  
+
+ROMA
+ALEXANDRIA
+CONSTANTINOPOLIM
+TREBERIS
+ DEDICATIO ET NATALES CAESARVM  
+
+SALVIS AVGVSTIS FELIX VALENTINVS
+NATALES CAESARVM
+ IMAGINES PLANETARVM VII CVM LATERCVLO DIERVM HORARVMQVE NOXIARVM
+COMMVNIVM BONARVM.  
+
+Noct.
+I Mar. N
+II Sol. C
+III Ven. B
+IIII Mer. C
+V Lun. C
+VI Sat. N
+VII Iov. B
+VIII Mar. N
+VIIII Sol. C
+X Ven. B
+XI Mer. C
+XII Lun. C
+
+Diur.
+I Sat. N
+II Iov. B
+III Mar. N
+IIII Sol. C
+V Ven. B
+VI Mer. C
+VII Lun. C
+VIII Sat. N
+VIIII Iov. B
+X Mar. N
+XI Sol. C
+XII Ven. B
+
+Saturni dies N
+
+Saturni dies horaque eius cum erit nocturna sive diurna, omnia
+obscura laboriosaque fiunt; qui nascentur periculosi erunt; qui
+recesserit non invenietur; qui decubuerit periclitabitur; furtum
+factum non invenietur.
+
+Noct.
+I Ven. B
+II Mer. C
+III Lun. C
+IIII Sat. N
+V Iov. B
+VI Mar. N
+VII Sol. C
+VIII Ven. B
+IX Mer. C
+X Lun. C
+XI Sat. N
+XII Iov. B
+
+Diur.
+I Mar. N
+II Sol. C
+III Ven. B
+IIII Mer. C
+V Lun. C
+VI Sat. N
+VII Iov. B
+VIII Mar. N
+VIIII Sol. C
+X Ven. B
+XI Mer. C
+XII Lun. C
+
+Martis dies N
+
+Martis dies horaque eius cum erit nocturna sive diurna, nomen
+militiae dare, arma militaria comparare utile est. Qui nascentur
+periculosi erunt; qui recesserit non invenietur; qui decubuerit
+periclitabitur; furtum factum non invenietur.
+
+Noct.
+I Sat. N
+II Iov. B
+III Mar. C
+IIII Sol. N
+V Ven. B
+VI Mer. C
+VII Lun. C
+VIII Sat. N
+VIIII Iov. B
+X Mar. N
+XI Sol. C
+XII Ven. B
+
+Diur.
+I Mer. C
+II Lun. C
+III Sat. N
+IIII Iov. B
+V Mar. N
+VI Sol. C
+VII Ven. B
+VIII Mer. C
+VIIII Lun. C
+X Sat. N
+XI Iov. B
+XII Mar. N
+
+Mercuri dies C
+
+Mercuri dies horaque eius cum erit nocturna sive diurna, vilicum
+actorem institorem in negotio ponere utile est. Qui nascentur
+vitales erunt; qui recesserit invenietur; qui decubuerit cito
+convalescet; furtum factum invenietur.
+
+Noct.
+I Iov. B
+II Mar. N
+III Sol. C
+IIII Ven. B
+V Mer. C
+VI Lun. C
+VII Sat. N
+VIII Iov. B
+VIIII Mar. N
+X Sol. C
+XI Ven. B
+XII Mer. C
+
+Diur.
+I Lun. C
+II Sat. N
+III Iov. B
+IIII Mar. N
+V Sol. C
+VI Ven. B
+VII Mer. C
+VIII Lun. C
+VIIII Sat. N
+X Iov. B
+XI Mar. N
+XII Sol. C
+
+Lunae dies C
+
+Lunae dies horaque eius cum erit nocturna sive diurna, stercus in
+agro mittere, putea cisternas fabricare utile est. Qui nascentur
+vitales erunt; qui recesserit invenietur; qui decubuerit
+convalescet; furtum factum non invenietur.
+
+Noct.
+I Mer. C
+II Lun. C
+III Sat. N
+IIII Iov. B
+V Mar. N
+VI Sol. C
+VII Ven. B
+VIII Mer. C
+VIIII Lun. C
+X Sat. N
+XI Iov. B
+XII Mar. N
+
+Diur.
+I Sol. C
+II Ven. B
+III Mer. C
+IIII Lun. C
+V Sat. N
+VI Iov. B
+VII Mar. N
+VIII Sol. C
+VIIII Ven. B
+X Mer. C
+XI Lun. C
+XII Sat. N
+
+Solis dies C
+
+Solis dies horaque eius cum erit nocturna sive diurna, viam
+navigium ingredi, navem in aquam deducere utile est. Qui
+nascentur vitales erunt; qui recesserit invenietur; qui
+decubuerit convalescet; furtum factum invenietur.
+
+Iovis dies B
+
+Iovis dies horaque eius cum erit nocturna sive diurna, beneficium
+petere, cum potente colloqui, rationem reddere utile est. Qui
+nascentur vitales erunt; qui recesserit cito invenietur; qui
+decubuerit convalescet; furtum factum invenietur.
+
+Veneris dies B
+
+Veneris dies horaque eius cum erit nocturna sive diurna,
+sponsalia facere, pueros puellas in disciplina mittere utile est.
+Qui nascentur vitales erunt; qui recesserit invenietur; qui
+decubuerit convalescet; furtum factum invenietur.
+
+ SIGNA ZODIACI EORVMQVE VTILITATES.  
+
+ARI. CAN. LIB. CAP.
+
+In his signis tropicis luna cum erit, nummos mutuos dare vel
+accipere, testamentum facere, telam ordiri, lanas lavare, pecora
+castrare, conductum facere, migrare utile.
+
+TAV. LEO. SCO. AQV.
+
+In his signis solidis luna cum erit, beneficium petere, cum
+potente colloqui, rationem reddere, instrumenta conficere, pueros
+puellas in disciplina mittere, fundamenta ponere, arbores
+inserere, propagines facere, vites deprimere, terram proscindere,
+serere, metere utile est.
+
+GEM. VIR. SA. PIS.
+
+In his signis duplicibus luna cum erit, viam navigium ingredi,
+navem in aquam deducere, olivam legere, vindemiam facere, calcem
+carbonem coquere, vina diffundere, barbam capillos facere utile
+est.
+
+ IMAGINES MENSIVM XII CVM FASTIS MENSTRVIS.  
+
+ IMAGINES IMPERATORVM.  
+
+ VIII. FASTI CONSVLARES A REGIBUS EXACTIS AD A. P. CHR. 354  
+
+u. c.
+
+u.c. 245. Bruto et Collatino Lun. XXIIX
+
+u.c. 246. Publicola II et Tricipitino Mar. X
+
+u.c. 247. Publicola III et Pulbillio Mer. XXI
+
+u.c. 248 b.. Rufo et Aquilino Iov. II
+
+u.c. 249. Voleto et Tuberto Sat. XIII
+
+u.c. 250. Publicola IIII et Tribicitino Sol. XXIIII
+
+u.c. 251. Tuberto II et Lanato Lun. V
+
+u.c. 252 b.. Tricosto et Bigellino Mar. XVI
+
+u.c. 253. Aurunco et Rufo Iov. XXVI
+
+u.c. 254. Cornuto et Longo Ven. VIII
+
+u.c. 255. Helva et Cicurino Sat. XIX
+
+u.c. 256 b.. Rufo II et Vocula Sol. XXX
+
+u.c. 257. Atratino et Augurino Mar. XI
+
+u.c. 258. Regellese et Tricostro Mer. XXIII
+
+u.c. 259. Inreligiense et Structo Iov. IIII
+
+u.c. 260 b.. Celimontiano et Cicurino Ven. XV
+
+u.c. 261. Aurunco et Vigellino Sol. XXVI
+
+u.c. 262. Macerino et Augurino Lun. VII
+
+u.c. 263. Aurgurino II et Atratino II Mar. XIIX
+
+u.c. 264 b.. Cornuto et Labo II Mer. XXIX
+
+u.c. 265. Iulo et Mamertino Ven. X
+
+u.c. 266. Rutilo et Vigellino II Sat. XXI
+
+u.c. 267. Tusco et Sabino Sol. II
+
+u.c. 268 b.. Rutilo et Vigellino III Lun. XIII
+
+u.c. 269. Vivulano et Malucinense Mar. XXIIII
+
+u.c. 270. Mamerco et Vivulano Iovis VI
+
+u.c. 271. Vivulano et Potito Ven. XVII
+
+u.c. 272 b.. Pelos et Vivulano II Sat. XXVIII
+
+u.c. 273. Vivulano III et Pelos Lun. IX
+
+u.c. 274. Cincinnato et Vivulano Mar. XX
+
+u.c. 275. Vivulano IIII et Trutillo Mer. I
+
+u.c. 276 b.. Mamerco II et Structo Iov. XII
+
+u.c. 277. Pulvillo et Lanato Sat. XXIII
+
+u.c. 278. Rutilo et Structo Sol. IIII
+
+u.c. 279. Publicula et Rutillo Lun. XV
+
+u.c. 280 b.. Volso et Medullino Mar. XXVI
+
+u.c. 281. Mamerco III et Volsco Iov. VII
+
+u.c. 282. Ruto et Volsco Ven. XIX
+
+u.c. 283. Inreligiense et Barbato Sat. XXX
+
+u.c. 284 b.. Potito II et Mamerco Sol. XI
+
+u.c. 285. Caelimontiano II et Prisco Mar. XXII
+
+u.c. 286. Barbato II et Volsco Mer. III
+
+u.c. 287. Mamerco II et Vivulano Iov. XIII
+
+u.c. 288 b.. Rigelliense et Prisco II Ven. XXV
+
+u.c. 289. Vivulano II et Capitolino Sol. VI
+
+u.c. 290. Religiense et Medullino III Lun. XVII
+
+u.c. 291. Prisco et Helva Mar. XXVIII
+
+u.c. 292 b.. Tricipitino et Cicurino Mer. VIIII
+
+u.c. 293. Amentino et Cornuto Ven. XX
+
+u.c. 294. Publicula II et Inreligiense Sat. I
+
+u.c. 295. Vivullano et Malluginense Sol. XII
+
+u.c. 296 b.. Rutullo et Carbeto Lun. XXIII
+
+u.c. 297. Pulvillo et Augurino Mer. IIII
+
+u.c. 298. Maximo et Celemontino Iov. XV
+
+u.c. 299. Vaticano et Cicurino Ven. XVI
+
+u.c. 300 b.. Capitolano et Fontinalae Sat. VII
+
+u.c. 301. Vero et Trigemino Lun. XIIX
+
+u.c. 302. Vaticano et Lanato Mar. XXIX
+
+u.c. 303. Sabino II et Augurino Mer. X
+
+u.c. 304 b.. Sabino III et Vivullano Iov. XXI
+
+u.c. 305. Barbato et Potito Sat. II
+
+u.c. 306. Coritinesano et Tricosto Sol. XIIII
+
+u.c. 307. Macrino et Iulio Lun. XXV
+
+u.c. 308 b.. Fuso et Barbato IIII Mar. VI
+
+u.c. 309. Augurino et Philo Iov. XVII
+
+u.c. 310. Siculo et Luscino Ven. XXVIII
+
+u.c. 311. Macerino II et Barbato V Sat. VIIII
+
+u.c. 312 b.. Vivullano et Helva Sol. XX
+
+u.c. 313. Fuso et Grasso Mar. I
+
+u.c. 314. Macerino et Lanato II Mer. XII
+
+u.c. 315. Lanato et Capitolino VI Iov. XXIII
+
+u.c. 316 b.. Fidenato et Cincinnato Ven. IIII
+
+u.c. 317. Fidenati et Maximo Sol. XV
+
+u.c. 318. Maluginense et Grasso Lun. XXVII
+
+u.c. 319. Iulio II et Tricoisto Mar. VIII
+
+u.c. 320 b.. Capitolino et Cosso Mer. XIX
+
+u.c. 321. Vivullano et Faccintore Ven. XXX
+
+u.c. 322. Mamercino et Medullino Sat. XI
+
+u.c. 323. Cincinnato et Mento Sol. XXII
+
+u.c. 324 b.. Crasso et Iulo Lun. III
+
+u.c. 325. Tricipitino et Fidenas Mer. XIIII
+
+u.c. 326. Cosso et Cincinnato II Iov. XXV
+
+u.c. 327. Structo et Mugilliano Ven. VI
+
+u.c. 328 b.. Cosso et Fiso Sat. XVII
+
+u.c. 329. Arretino et Mevulliano Lun. XXIIX
+
+u.c. 330. Crasso et Fidenas Mar. X
+
+u.c. 331. Arretino et Vivullano Mer. XXI
+
+u.c. 332 b.. Capitolino et Mugilliano Iov. II
+
+u.c. 333. Capitolino et Vivullano Sat. XIII
+
+u.c. 334. Cincinnato III et Vulso II Sol. XXIIII
+
+u.c. 335. Lanato et Rufillo Lun. V
+
+u.c. 336 b.. Structo II et Fidenas III Mar. XVI
+
+u.c. 337. Tricipitino et Structo III Iov. XXVII
+
+u.c. 338. Arratino III et Mugellano II Ven. VIII
+
+u.c. 339. Casso et Cincinnato Sat. XIX
+
+u.c. 340 b.. Vivullano II et Potito Sol. XXX
+
+u.c. 341. Medulliano et Cosso Mar. XI
+
+u.c. 342. Vivullano et Filippo Mer. XXIII
+
+u.c. 343. Mugiliano et Rutillo Iov. IIII
+
+u.c. 344 b.. Mamertino et Volusio Ven. XV
+
+u.c. 345. Cosso et Medulliano Sol. XXVI
+
+u.c. 346. Iulo et Cosso Lun. VII
+
+u.c. 347. Voluso II et Structo III Mar. XVIII
+
+u.c. 348 b.. Cosso et Potito Mer. XXIX
+
+u.c. 349. Iulo II et Mamertino Ven. X
+
+u.c. 350. Maluginense et Cicurino III Sat. XXI
+
+u.c. 351. Mamertino et Fuso Sol. II
+
+u.c. 352 b.. Structo III et Cornuto Lun. XIII
+
+u.c. 353. Camello et Iulo Mer. XXIIII
+
+u.c. 354. Volso et Capitolino Iov. VI
+
+u.c. 355. Augurino et Longo Ven. XVII
+
+u.c. 356 b.. Potito et Medulliano Sat. XXVIII
+
+u.c. 357. Iulo II et Fidenas Luna VIIII
+
+u.c. 358. Pansa II et Volso Mar. XX
+
+u.c. 359. Cosso et Medulliano Mer. I
+
+u.c. 360 b.. Camello III et Publicula Iov. XII
+
+u.c. 361. Potito et Malliginense Sat. XXIII
+
+u.c. 362. Potito III et Capitolino Sol. IIII
+
+u.c. 363. Tricipitino et Mamertino Lun. XV
+
+u.c. 364 b.. Longo et Ambusto Mar. XXVI
+
+u.c. 365. Tricosto et Albino Iov. VII
+
+u.c. 366. Capitolino et Corbo Ven. XIX
+
+u.c. 367. Cursore et Lanato Sat. XXX
+
+u.c. 368 b.. Aluginense et Cincinnato Sol. XI
+
+u.c. 369. Capitolino et Cincinnato Mar. XXII
+
+u.c. 370. Rufo et Camillo Mer. III
+
+u.c. 371. Publicola III et Flavo III Iov. XIIII
+
+u.c. 372 b.. Fidenas et Grasso Ven. XXV
+
+u.c. 373. Publicola IIII et Tricipitino Sol. VI
+
+u.c. 374. Publicola V et Mamertino VI Lun. XVII
+
+u.c. 375. Capitolino et Albino Mar. XXVIII
+
+u.c. 376 b.. Fidenas II et Siculo Mer. VIIII
+
+u.c. 377. Mamertino et Cincinnato Ven. XX
+
+u.c. 378. Lanato IIII et Praetextato Sat. I
+
+u.c. 379. Baccho solo Sol. XII
+
+u.c. 380 b.. Papirio et Vivio Lun. XXIII
+
+u.c. 381. Sacrabiense et Cellemontano Mer. IIII
+
+u.c. 382. Prisco et Cominio Iov. XV
+
+u.c. 383. Mamertino solo Ven. XXVI
+
+u.c. 384 b.. Medullino et Potito Sat. VII
+
+u.c. 385. Fidenas III et Maluginense Lun. XIIX
+
+u.c. 386. Capitolino et Structo Mar. XXIX
+
+u.c. 387. Cosso II et Grasso Mer. X
+
+u.c. 388 b.. Mamercino et Laterano Iov. XXI
+
+u.c. 389. Abentinense et Haala Sat. III
+
+u.c. 390. Petico et Calbo Sol. XIIII
+
+u.c. 391. Mamercino et Apuentinense Lun. XXV
+
+u.c. 392 b.. Haala II et Abentinense Mar. VI
+
+u.c. 393. Stola et Vetico Iov. XVII
+
+u.c. 394. Ambusto et Proculo Ven. XXIIX
+
+u.c. 395. Rotillo et Capitolino Sat. VIIII
+
+u.c. 396 b.. Ambusto et Lenas II Sol. XXI
+
+u.c. 397. Rutillo et Capitolino Mar. I
+
+u.c. 398. Ambusto II et Lenas II Mer. XII
+
+u.c. 399. Petico III et Publicula Iov. XXIII
+
+u.c. 400 b.. Ambusto III et Capitolino Ven. IIII
+
+u.c. 401. Petico IIII et Publicula II Sol. XV
+
+u.c. 402. Publicula et Rutillo II Lun. XXVII
+
+u.c. 403. Petico V et Penno II Mar. VIII
+
+u.c. 404 b.. Lenas III et Scipione Mer. XIX
+
+u.c. 405. Camello et Crasso Ven. XXX
+
+u.c. 406. Lenas IIII et Corvino Sat. XI
+
+u.c. 407. Venno et Torquato Sol. XXII
+
+u.c. 408 b.. Corvo II et Visulo II Lun. III
+
+u.c. 409. Dorsuo et Rufo Mer. XIIII
+
+u.c. 410. Rutillo III et Torquato Iov. XXV
+
+u.c. 411. Corvo III et Cosso III Ven. VI
+
+u.c. 412 b.. Hala III et Rutillo IIII Sat. XVII
+
+u.c. 413. Venno II et Mamerco Lun. XIIX
+
+u.c. 414. Torquato III et Mure Mar. X
+
+u.c. 415. Mamercino et Philo Mer. XXI
+
+u.c. 416 b.. Camello et Nepote Iov. II
+
+u.c. 417. Peto et Longo Sat. XIII
+
+u.c. 418. Crasso et Hella Sol. XXIIII
+
+u.c. 419. Caleno et Corvo IIII Lun. V
+
+u.c. 420 b.. Caudino et Calvino Mar. XVI
+
+u.c. 421. Hoc anno dictatores non fuerunt Iov. XXVII
+
+u.c. 422. Calvino et Arvinas II Ven. VIII
+
+u.c. 423. Cotito et Marcello Sat. XIX
+
+u.c. 424 b.. Crasso III et Venio Sol. XXX
+
+u.c. 425. Privernas II et Declao Mar. XI
+
+u.c. 426. Deciano II et Barbato II Mer. XXIII
+
+u.c. 427. Lentulo et Philo II Iov. IIII
+
+u.c. 428 b.. Libone III et Cursore II Ven. XV
+
+u.c. 429. Camello II et Bruto Sol. XXVI
+
+u.c. 430. Hoc anno dictatores non fuerunt Lun. VII
+
+u.c. 431. Lanto II et Ceretano Mar. XVIII
+
+u.c. 432 b.. Corvo et Rulliano Mer. XXIX
+
+u.c. 433. Calvino II et Albino II Ven. X
+
+u.c. 434. Cursore II et Philo III Sat. XXI
+
+u.c. 435. Murillano III et Cerritano Sol. II
+
+u.c. 436 b.. Venno et Flaccinatore Lun. XIII
+
+u.c. 437. Barbula et Bruto Mer. XXIIII
+
+u.c. 438. Lucillo et Lenas Iov. VI
+
+u.c. 439. Cursore IIII et Pilo III Ven. XVII
+
+u.c. 440 b.. Libone et Longo Sat. XXIIX
+
+u.c. 441. Cursore V et Bruto II Lun. VIIII
+
+u.c. 442. Maximo et Mure Mar. XX
+
+u.c. 443. Bruto IIII et Barbula II Mer. I
+
+u.c. 444 b.. Tulliano III et Rutilo Iov. XII
+
+u.c. 445. Hoc anno dictatores non fuerunt Sat. XXIII
+
+u.c. 446. Mure II et Rulliano I Sol. IIII
+
+u.c. 447. Ceto et Violense Lun. XV
+
+u.c. 448 b.. Tremulo et Arvina Mar. XXVI
+
+u.c. 449. Megello et Augurino Iov. VII
+
+u.c. 450. Sofo et Saberio ven. XIX
+
+u.c. 451. Rufo et Adventinense Sat. XXX
+
+u.c. 452 b.. Dextro et Paulo Sol. XI
+
+u.c. 453. Corvo II et Rulliano II Mar. XXII
+
+u.c. 454. Corvo V et Pansa Mer. III
+
+u.c. 455. Petino et Torquato Iov. XIIII
+
+u.c. 456 b.. Scipione et Centumalo Ven. XXV
+
+u.c. 457. Ruliano IIII et Mure Sol. VI
+
+u.c. 458. Ceco et Violense Lun. XVII
+
+u.c. 459. Rulliano V et Mure IIII Mar. XXIIX
+
+u.c. 460 b.. Megello II et Regulo Mer. VIIII
+
+u.c. <461>. u.c. 462. Curgis et Scevola Ven. XX
+
+u.c. 463. Megello III et Bruto Sat. I
+
+u.c. 464. Dentato et Rufino Sol. XII
+
+u.c. 465 b.. Corvino II et Noctua Lun. XXIII
+
+u.c. 466. Tremulo II et Arvina Mer. IIII
+
+u.c. 467. Marcellino et Rutillo Iov. XV
+
+u.c. 468. Maximo et Peto Ven. XXVI
+
+u.c. 469 b.. Canina et Lepido Sat. VII
+
+u.c. 470. Tucco et Metello Lun. XVIII
+
+u.c. 471. Calvo et Maximo Mar. XXIX
+
+u.c. 472. Luscino et Labo Mer. X
+
+u.c. 473 b.. Barbula et Philippo Iov. XXI
+
+u.c. 474. Laevino et Cornunciano Sat. II
+
+u.c. 475. Saberno et Pirrico Sol. XIIII
+
+u.c. 476. Luscino II et Pato II Lun. XXV
+
+u.c. 477 b.. Rufino II et bruto II Mar. VI
+
+u.c. 478. Gurgis II et Clepsena Iov. XVII
+
+u.c. 479. Dentato II et Lentulo Ven. XXIIX
+
+u.c. 480. Dentato III et Merenda Sat. VIIII
+
+u.c. 481 b.. Licino et Cinna Sol. XX
+
+u.c. 482. Cursore II et Maximo Mar. I
+
+u.c. 483. Claudio et Clepsina Mer. XII
+
+u.c. 484. Clepsina II et Lesio Iov. XXIII
+
+u.c. 485 b.. Gallo et Pictore Ven. IIII
+
+u.c. 486. Sofo et Russo Sol. XV
+
+u.c. 487. Regulo et Libone Lun. XXVII
+
+u.c. 488. Pera et Pistore Mar. VIII
+
+u.c. 489 b.. Maximo et Vitulo Mer. XIX
+
+u.c. 490. Caudex et Flacco Ven. XXX
+
+u.c. 491. Maximo et Grasso Sat. XI
+
+u.c. 492. Megello et Vitulo Sol. XXII
+
+u.c. 493 b.. Flacco et Grasso Lun. III
+
+u.c. 494. Asina et Duillio Mer. XIIII
+
+u.c. 495. Scipione et Floro Iov. XXV
+
+u.c. 496. Calatino et Paterculo Ven. VI
+
+u.c. 497 b.. Regulo et Blesio II Sat. XVII
+
+u.c. 498. Longo et Rugulo Lun. XXIIX
+
+u.c. 499. Nobiliore et Paulo Mar. X
+
+u.c. 500. Asina II et Calatino II Mer. XX
+
+u.c. 501 b.. Cepio et Bleso Iov. II
+
+u.c. 502. Cotta et Gemino Sat. XIII
+
+u.c. 503. Megello et Pacilo Sol. XXIIII
+
+u.c. 504. Regulo II et Volso II Lun. V
+
+u.c. 505 b.. Pulchro et Pullo Mar. XVI
+
+u.c. 506. Cotta II et Gemino II Iov. XXVII
+
+u.c. 507. Megello II et Butilo II Ven. VIII
+
+u.c. 508. Grasso II et Licinio II Sat. XIX
+
+u.c. 509 b.. Buteo et Pulbo Sol. XXX
+
+u.c. 510. Attico et Bleso Mar. XI
+
+u.c. 511. Fundulo et Gallo Mer. XXIII
+
+u.c. 512. Catulo et Albino Iov. IIII
+
+u.c. 513 b.. Attico II et Cerco Ven. XV
+
+u.c. 514. Cento et Tuditano Sol. XXVI
+
+u.c. 515. Turrino et Falco Lun. VII
+
+u.c. 516. Gracco et Falto Mar. XVIII
+
+u.c. 517 b.. Caudino et Flacco Mer. XXIX
+
+u.c. 518. Caudino II et Varo Ven. X
+
+u.c. 519. Torquato et Bulbo Sat. XXI
+
+u.c. 520. Albino et Maximo Sol. II
+
+u.c. 521 b.. Verrucoso et Matho Lun. XIII
+
+u.c. 522. Lepido et Malliolo Mer. XXIIII
+
+u.c. 523. Matho et Maso Iov. V
+
+u.c. 524. Barbula et Pera Ven. XVII
+
+u.c. 525 b.. Albino II et Centumalo Sat. XXIIX
+
+u.c. 526. Maximo II et Verrucoso II Lun. VIIII
+
+u.c. 527. Flacco et Regulo Mar. XX
+
+u.c. 528. Torquato II et Flacco II Mer. I
+
+u.c. 529 b.. Papo et Regulo Iov. XII
+
+u.c. 530. Torquato III et Flacco III Sat. XXIII
+
+u.c. 531. Flamio et Pilo Sol. IIII
+
+u.c. 532. Marcello et Calbo Lun. XV
+
+u.c. 533 b.. Asina et Rufo Mar. XXVI
+
+u.c. 534. Levino et Scevola Iov. VII
+
+u.c. 535. Paulo et Salinatore Ven. XIIX
+
+u.c. 536. Scipio et Longo Sat. XXX
+
+u.c. 537 b.. Gemino et Flaminino Sol. XI
+
+u.c. 538. Paulo et Varo Mar. XXII
+
+u.c. 539. Gracco et Albino Mer. III
+
+u.c. 540. Verrucoso IIII et Marcello III Iov. XIIII
+
+u.c. 541 b.. Maximo et Gracco II Ven. XXV
+
+u.c. 542. Pulchro et Flacco III Sol. VI
+
+u.c. 543. Maximo et Centimalo Lun. XVII
+
+u.c. 544. Levino II et Marcello IIII Mar. XXIIX
+
+u.c. 545 b.. Verrucoso V et Flacco IIII Mer. VIIII
+
+u.c. 546. Marcello V et Crispino Ven. XX
+
+u.c. 547. Nerone et Salinatore Sat. I
+
+u.c. 548. Metello et Pilo Sol. XII
+
+u.c. 549 b.. Africano et Divite Lun. XXIII
+
+u.c. 550. Cethego et Tuditano Mer. IIII
+
+u.c. 551. Caepio et Tervillo Iov. XV
+
+u.c. 552. Nerone et Gemino Ven. XXVI
+
+u.c. 553 b.. Lentulo et Peto Sat. VI
+
+u.c. 554. Maximo II et Cotta Lun. XVIII
+
+u.c. 555. Lentulo et Tribulo Mar. XXIX
+
+u.c. 556. Flaminio et Cato Mer. X
+
+u.c. 557 b.. Cethego et Rufo Iov. XXI
+
+u.c. 558. Purpureo et Marcello Sat. III
+
+u.c. 559. Catone et Flacco Sol. XIIII
+
+u.c. 560. Africano et Longo Lun. XXV
+
+u.c. 561 b.. Merula et Termo Mar. VI
+
+u.c. 562. Flaminino et Enobarbo Iov. XVII
+
+u.c. 563. Glabrione et Nasica Ven. XXIIX
+
+u.c. 564. Asiatico et Lelio Sat. VIIII
+
+u.c. 565 b.. Volso et Nobiliore Sol. XX
+
+u.c. 566. Salinatore et Messala Mar. I
+
+u.c. 567. Lepido et Flaminino Mer. XII
+
+u.c. 568. Albino et Phylippo Iov. XXIII
+
+u.c. 569 b.. Pulchro et Tuditano Ven. IIII
+
+u.c. 570. Pulchro et Licino Sol. XV
+
+u.c. 571. Libone et Marcello Lun. XXVII
+
+u.c. 572. Paulo et Tamphilo Mar. VIII
+
+u.c. 573 b.. Cethego et Amphilo Mer. XIX
+
+u.c. 574. Albino et Pisone Ven. XXX
+
+u.c. 575. Fulviano et Fleco Sat. XI
+
+u.c. 576. Bruto et Volso Sol. XXII
+
+u.c. 577 b.. Pulchro et Gracco Lun. III
+
+u.c. 578. Spalo et Levino Mer. XIIII
+
+u.c. 579. Scevola et Lepido Iov. XXV
+
+u.c. 580. Paulo et Scevola Ven. VI
+
+u.c. 581 b.. Abino et Lenas Sat. XVII
+
+u.c. 582. Lenas et Ligo Lun. XXIIX
+
+u.c. 583. Grasso et Longino Mar. X
+
+u.c. 584. Mancino et Serrano Mer. XXI
+
+u.c. 585 b.. Philippo II et Ceplo Iov. II
+
+u.c. 586. Paulo II et Grasso Sat. XIII
+
+u.c. 587. Peto et Penno Sol. XXIIII
+
+u.c. 588. Gallo et Marcello Lun. V
+
+u.c. 589 b.. Torquato et Octavo Mar. XVI
+
+u.c. 590. Torquato et Longo Iov. XXVII
+
+u.c. 591. Graccho II et Haina Ven. VIII
+
+u.c. 592. Nasica et Siculo Sat. XIX
+
+u.c. 593 b.. Messala et Strabo Sol. XXX
+
+u.c. 594. Gallo et Cethego Mar. XI
+
+u.c. 595. Dolabella et Nobiliore Mer. XXIII
+
+u.c. 596. Lepido et Lenas II Iov. IIII
+
+u.c. 597 b.. Caesare et Horesten Ven. XV
+
+u.c. 598. Lentulo et Figulo II Sol. XXVI
+
+u.c. 599. Nasica et Marcello II Lun. VII
+
+u.c. 600. Opimio et Albino Mar. XVIII
+
+u.c. 601 b.. Nobiliore et Fuso Mer. XXIX
+
+u.c. 602. Marcello II et Flacco Ven. X
+
+u.c. 603. Lucillo et Albino Sat. XXI
+
+u.c. 604. Flaminio et Balbo Sol. II
+
+u.c. 605 b.. Censorino et Manilio Lun. XIII
+
+u.c. 606. Magno et Cesoniano Mer. XXIIII
+
+u.c. 607. Aemiliano et Druso Iov. VI
+
+u.c. 608. Lentulo et Mumnio Ven. XVII
+
+u.c. 609 b.. Aemiliano et Mancino Sat. XXVIII
+
+u.c. 610. Gallo et Cotta Lun. VIIII
+
+u.c. 611. Pulchrino et Macedonico Mar. XX
+
+u.c. 612. Celvo et Serviliano Mer. I
+
+u.c. 613 b.. Ceplo et Nepote Iov. XII
+
+u.c. 614. Lellio et Coepio Sat. XXIII
+
+u.c. 615. Pisone et Lenas Sol. IIII
+
+u.c. 616. Nasica et Bruto Lun. XV
+
+u.c. 617 b.. Porcina et Mancino Mar. XXVI
+
+u.c. 618. Pilo et Serrano Iov. VII
+
+u.c. 619. Flacco et Pisone Ven. XIIX
+
+u.c. 620. Aemiliano II et Flacco Sat. XXX
+
+u.c. 621 b.. Scepula et Pisone Sol. XI
+
+u.c. 622. Lenas et Calibo Mar. XXII
+
+u.c. 623. Muciano et Flacco Mer. III
+
+u.c. 624. Lentulo et Mepote Iov. XIIII
+
+u.c. 625 b.. Tuditano et Aquilino Ven. XXV
+
+u.c. 626. Optavio et Rufo Sol. VI
+
+u.c. 627. Ravilla et Cinna Lun. XVII
+
+u.c. 628. Lepido et Horesten Mar. XXVIII
+
+u.c. 629 b.. Hypseo et Flacco Mer. VIIII
+
+u.c. 630. Longino et Calvino Ven. XX
+
+u.c. 631. Metello et Appellate Sat. I
+
+u.c. 632. Enobarbo et Fanno Sol. XII
+
+u.c. 633 b.. Opimio et Maximo Lun. XXIII
+
+u.c. 634. Manilio et Balbo Mer. IIII
+
+u.c. 635. Metello et Cotta Iov. XV
+
+u.c. 636. Catone et Rige Ven. XXVI
+
+u.c. 637 b.. Diademmo et Scevola Sat. VII
+
+u.c. 638. Geta et Eburno Lun. XVIII
+
+u.c. 639. Scauro et Megello Mar. XXIX
+
+u.c. 640. Bulbo et Cato Mer. X
+
+u.c. 641 b.. Caprario et Carpo Iov. XXI
+
+u.c. 642. Druso et Caesoniano Sat. II
+
+u.c. 643. Nasica et Bestia Sol. XIIII
+
+u.c. 644. Rufo et Albino Lun. XXV
+
+u.c. 645 b.. Megello et Silano Mar. VI
+
+u.c. 646. Calva et Hotensio Iov. XVII
+
+u.c. 647. Longino et Nepote Ven. XXIIX
+
+u.c. 648. Serrano et Ceplo Sat. VIIII
+
+u.c. 649 b.. Rufo et Maximo Sol. XX
+
+u.c. 650. Mario II et Frimbrio Mar. I
+
+u.c. 651. Mario III et Horeste Mer. XII
+
+u.c. 652. Mario IIII et Catulo Iov. XX
+
+u.c. 653 b.. Mario V et Aquilio Ven. IIII
+
+u.c. 654. Mario VI et Flacco Sol. XV
+
+u.c. 655. Antonino et Albino Lun. XXVII
+
+u.c. 656. Metello et Vivio Mar. VIII
+
+u.c. 657 b.. Lentulo et Grasso Mer. XIX
+
+u.c. 658. Aenobarbo et Longino Ven. XXX
+
+u.c. 659. Crasso et Scelvola Sat. XI
+
+u.c. 660. Calddo et Aenobarbo Sol. XXII
+
+u.c. 661 b.. Flacco et Herennio Lun. III
+
+u.c. 662. Pulchro et Perpenno Mer. XIIII
+
+u.c. 663. Philippo et Caesare Iov. XXV
+
+u.c. 664. Caesare et Lupo Ven. VI
+
+u.c. 665 b.. Pompeio et Stravo Sat. XVII
+
+u.c. 666. Sulla et Rufo Lun. XXIIX
+
+u.c. 667. Octavio et Cinna Mar. X
+
+u.c. 668. Cinna et Mario Mer. XXI
+
+u.c. 669 b.. Cinna III et Carvo Iov. II
+
+u.c. 670. Carvo II et Cinna IIII Sat. XIII
+
+u.c. 671. Asiatico II et Pulbo Sol. XXIIII
+
+u.c. 672. Gratilliano et Carbo III Lun. V
+
+u.c. 673 b.. Decola et Dolabella Mar. XVI
+
+u.c. 674. Sulla et Pio Iov. XXVII
+
+u.c. 675. Vatio et Pulchro Ven. VIII
+
+u.c. 676. Lepido et Catulo Sat. XIX
+
+u.c. 677 b.. Mamerco et Iuliano Sol. XXX
+
+u.c. 678. Octavio et Curio Mar. XI
+
+u.c. 679. Octavio et Cotta Mer. XXIII
+
+u.c. 680. Lucullo et Cotta Iov. IIII
+
+u.c. 681 b.. Varro et Licinio Ven. XV
+
+u.c. 682. Publicula et Lentulo Sol. XXVI
+
+u.c. 683. Lentulo et Horeste Lun. VII
+
+u.c. 684. Magno et Grasso Mar. XVIII
+
+u.c. 685 b.. Nepote et Metello Mer. XXIX
+
+u.c. 686. Metello et Vatia Ven. X
+
+u.c. 687. Pisone et Glabria Sat. XXI
+
+u.c. 688. Lepido et Tullo Sol. II
+
+u.c. 689 b.. Sulla et Peto Lun. XIII
+
+u.c. 690. Caesare et Turmo Mer. XXIIII
+
+u.c. 691. Cicerone et Antonino Iov. VI
+
+u.c. 692. Siliano et Murena Ven. XVII
+
+u.c. 693 b.. Calpurniano et Messala Sat. XXIIX
+
+u.c. 694. Afranio et Metello Lun. VIIII
+
+u.c. 695. Caesare et Vivulo Mar. XX
+
+u.c. 696. Calsoniano et Cavonio Mar. I
+
+u.c. 697 b.. Lentulo et Nepotae Iov. XII
+
+u.c. 698. Marcellino et Philippo Sat. XXIII
+
+u.c. 699. Magno II et Grasso Sol. IIII
+
+u.c. 700. Aenobarbo et Phucro Lun. XV
+
+u.c. 701 b.. Carvino et Messala Mar. XXVI
+
+u.c. 702. Magno III solo Iov. VII
+
+u.c. 703. Rufo et Marcello Ven. XVIIII
+
+u.c. 704. Paulo et Marcello Sat. XXX
+
+u.c. 705 b.. Marcello II et Cruscello Sol. XI
+
+Hoc usque dictatores fuerunt
+
+u.c. 706. G. Iulio Caesare II et Isaurio
+
+u.c. 707. Caleno et Vatino
+
+u.c. 708. Caesare III et Lepido
+
+u.c. 709 b.. Caesare IIII et solo
+
+u.c. 710. Caesare V et Antonino
+
+u.c. 711. Pansa et Hirstio
+
+u.c. 712. Lepido et Planco
+
+u.c. 713 b.. Petate et Isaurico
+
+u.c. 714. Calvino et Pollione
+
+u.c. 715. Censorino et Sabino Sat. I
+
+u.c. 716. Pulchro et Flacco Sol. XII
+
+u.c. 717 b.. Agrippa et Gallo Lun. XXIII
+
+u.c. 718. Publicula et Nerva Mer. IIII
+
+u.c. 719. Cornificio et Pompeio Iov. XV
+
+u.c. 720. Libone et Atratino Ven. XXVI
+
+u.c. 721 b.. Augusto II et Tullo Sat. VII
+
+u.c. 722. Henobulbo et Sossio Lun. XVIII
+
+u.c. 723. Augusto III et Messala Mar. XXIX
+
+u.c. 724. Augusto IIII et Grasso Mer. X
+
+u.c. 725 b.. Augusto V et Apuleio Iov. XXI
+
+u.c. 726. Augusto VI et Agrippa II Sat. II
+
+u.c. 727. Augusto VII et Agrippa III Sol. XIII
+
+u.c. 728. Augusto VIII et Tauro Lun. XXIIII
+
+u.c. 729 b.. Augusto VIIII et Silano Mar. V
+
+u.c. 730. Augusto X et Flacco Iov. XVII
+
+u.c. 731. Augusto XI et Pisone Ven. XXIIX
+
+u.c. 732. Marcello et Arrutio Sat. VIIII
+
+u.c. 733 b.. Lollio et Lepido Sol. XX
+
+u.c. 734. Apuleio et Nerva Mar. I
+
+u.c. 735. Saturnino et Lucretio Mer. XI
+
+u.c. 736. Lentulo et Lentulo Iov. XXIII
+
+u.c. 737 b.. Turnio et Silato Ven. IIII
+
+u.c. 738. Henobarbo et Scipione Sol. XV
+
+u.c. 739. Libone et Pisone Lun. XXVII
+
+u.c. 740. Grasso et Augure Mar. VIII
+
+u.c. 741 b.. Nerone et Varo Mer. XIX
+
+u.c. 742. Messala et Quirino Ven. XXX
+
+u.c. 743. Tuberone et Maximo Sat. XI
+
+u.c. 744. Africano et Maximo Sol. XXII
+
+u.c. 745 b.. Druso et Crispino Lun. III
+
+u.c. 746. Censorino et Gallo Mer. XIIII
+
+u.c. 747. Nerone et Pisone Iov. XXV
+
+u.c. 748. Balbo et Vetere Ven. VI
+
+u.c. 749 b.. Augusto XII et Sulla Sat. XVII
+
+u.c. 750. Sabino et Rufo Lun. XXIIX
+
+u.c. 751. Lentulo et Messalino Mar. X
+
+u.c. 752. Augusto XIII et Silvano Mer. XXI
+
+u.c. 753 b.. Lentulo et Pisone Iov. II
+
+p. Chr. 1. Caesare et Paulo Sat. XIII
+
+Hoc cons. dominus Iesus Christus natus est VIII kal. Ian. d. Ven.
+luna xv.
+
+p. Chr. 2. Vinicio et Varo Sol. XXIIII
+
+p. Chr. 3. Lamia et Servilio Lun. V
+
+p. Chr. 4 b.. Catulo et Saturnino Mar. XVI
+
+p. Chr. 5. Voleso et Magno Iov. XXVII
+
+p. Chr. 6. Lepido et Arruntio Ven. VIII
+
+p. Chr. 7. Cretico et Nerva Sat. XIX
+
+p. Chr. 8 b.. Camello et Quintiliano Sol. XXX
+
+p. Chr. 9. Camerino et Sabino Mar. XI
+
+p. Chr. 10. Dolabella et Silano Mer. XXII
+
+p. Chr. 11. Lepido et Tauro Iov. IIII
+
+p. Chr. 12. Caesare et Capitone Ven. XV
+
+p. Chr. 13. Planco et Silano Sol. XXVI
+
+p. Chr. 14. duobus Sextis Lun. VII
+
+p. Chr. 15. Druso Caes. et Flacco Mar. XVIII
+
+p. Chr. 16 b.. Tauro et Libone Mer. XXIX
+
+p. Chr. 17. Flacco et Rufo Ven. X
+
+p. Chr. 18. Tito Caes. III et Germanico Caes. II Sat. XXI
+
+p. Chr. 19. Silano et Balbo Sol. II
+
+p. Chr. 20 b.. Messala et Cotta Lun. XIII
+
+p. Chr. 21. Tito Caes. IIII et Druso Caes. II Mer. XXIIII
+
+p. Chr. 22. Agrippa et Galba Iov. VI
+
+p. Chr. 23. Pollione et Vetere Ven XVII
+
+p. Chr. 24 b.. Caethego et Varro Sat. XXVIII
+
+p. Chr. 25. Agrippa et Lentulo Lun. IX
+
+p. Chr. 26. Getulico et Sabino Mar. XX
+
+p. Chr. 27. Grasso et Pisone Mer. I
+
+p. Chr. 28 b.. Silano et Nerva Iov. XII
+
+p. Chr. 29. Gemino et Gemino Sat. XXIII
+
+His consulibus dominus Iesus Christus passus est die Ven. luna
+XIIII
+
+p. Chr. 30. Vinicio et Longino Sol. IIII
+
+p. Chr. 31. Tiberio Caes. V solo Lun. XV
+
+p. Chr. 32 b.. Arruntio et Ahenobarbo Mar. XXVI
+
+p. Chr. 33. Galba et Sulla Iov. VII
+
+His cons. Petrus et Paulus ad urbem venerunt agere episcopatum.
+
+p. Chr. 34. Vitello et Persico Ven. XIX
+
+p. Chr. 35. Camerino et Noniano Sat. XXX
+
+p. Chr. 36 b.. Allieno et Plautino Sol. XI
+
+p. Chr. 37. Proculo et Nigrino Mar. XXII
+
+p. Chr. 38. Iuliano et Asprenatae Mer. III
+
+p. Chr. 39. C. Caesare II et Caesiano Iov. XIIII
+
+p. Chr. 40 b.. C. Caesare III solo Ven. XXV
+
+p. Chr. 41. C. Caesare IIII et Saturnino Sol. VI
+
+p. Chr. 42. Tito Claudio II et Longo Lun. XVII
+
+p. Chr. 43. Tito Claudio III et Vitellio Mar. XXIIX
+
+p. Chr. 44 b.. Crispo II et Tauro Mer. VIIII
+
+p. Chr. 45. Vinicio et Corvino Ven. XX
+
+p. Chr. 46. Asiatico II et Silano Sat. I
+
+p. Chr. 47. Tito Claudio IIII et Vitellio III Sol. XII
+
+p. Chr. 48 b.. Vitellio et Publicula Lun. XXIII
+
+p. Chr. 49. Verannio et Gallo Mer. IIII
+
+p. Chr. 50. Vetere et Nerviliano Iov. XV
+
+p. Chr. 51. Tito Claudio V et Orfito Ven. XXVI
+
+p. Chr. 52 b.. Sulla et Othone Sat. VII
+
+p. Chr. 53. Silano et Antonino Lun. XVIII
+
+p. Chr. 54. Marcello et Aviola Mar. XXIX
+
+p. Chr. 55. Nerone Caes. et Vetere Mer. X
+
+His cons. passi sunt Petrus et Paulus III kal. Iul.
+
+p. Chr. 56 b.. Saturnino et Scipione Iov. XXI
+
+p. Chr. 57. Nerone II et Pisone Sat. II
+
+p. Chr. 58. Nerone III et Messala Sol. XIII
+
+p. Chr. 59. Capitone et Aproniano Lun. XXV
+
+p. Chr. 60 b.. Nerone IIII et Lentulo Mar. VI
+
+p. Chr. 61. Turpillino et Peto Iov. XVII
+
+p. Chr. 62. Mario et Gallo Ven. XXIIX
+
+p. Chr. 63. Regulo et Rufo Sat. VIIII
+
+p. Chr. 64 b.. Grasso et Basso Sol. XX
+
+p. Chr. 65. Nerva et Vestino Mar. I
+
+p. Chr. 66. Telesino et Paulo Mer. XII
+
+p. Chr. 67. Capitone et Rufo Iov. XXIII
+
+p. Chr. 68 b.. Trachala et Italico Ven. IIII
+
+p. Chr. 69. Galva II et Vinio Sol. XV
+
+p. Chr. 70. Vespasiano II et Tito Lun. XVII
+
+p. Chr. 71. Vespasiano III et Nerva Mar. VIII
+
+p. Chr. 72 b.. Vespasiano IIII et Tito II Mer. XVIIII
+
+p. Chr. 73. Domitiano II et Messalino Ven. XXX
+
+p. Chr. 74. Vespasiano V et Tito III Sat. XI
+
+p. Chr. 75. Vespasiano VI et Tito IIII Sol. XXII
+
+p. Chr. 76 b.. Vespasiano VII et Tito V Lun. III
+
+p. Chr. 77. Vespasiano VIII et Domitiano V Mer. XIIII
+
+p. Chr. 78. Commodo et Prisco Iov. XXV
+
+p. Chr. 79. Vespasiano VIIII et Tito VI Ven. VI
+
+p. Chr. 80 b.. Tito VII et Domitiano VII Sat. XVII
+
+p. Chr. 81. Silva et Pollione Lun. XXVIII
+
+p. Chr. 82. Domitiano VIII et Sabino Mar. VIIII
+
+p. Chr. 83. Domitiano VIIII et Rufo Mer. XXI
+
+p. Chr. 84 b.. Domitiano X et Sabino Iov. II
+
+p. Chr. 85. Domitiano XI et Furvo Sat. XIII
+
+p. Chr. 86. Domitiano XII et Dolabella Sol. XXIIII
+
+p. Chr. 87. Domitiano XIII et Saturnino Lun. V
+
+p. Chr. 88 b.. Domitiano XIIII et Rufo Mar. XVI
+
+p. Chr. 89. Fulvo et Atratino Iov. XXVII
+
+p. Chr. 90. Domitiano XV et Nerva Ven. VIII
+
+p. Chr. 91. Clabrione et Traiano Sat. XIX
+
+p. Chr. 92 b.. Domitiano XVI et Saturnino Sol. XXX
+
+p. Chr. 93. Collega et Priscino Mar. XI
+
+p. Chr. 94. Asprenate et Laterano Mer. XXII
+
+p. Chr. 95. Domitiano XVII et Clemente Iov. IIII
+
+p. Chr. 96 b.. Valeriano et Vetere Ven. XV
+
+p. Chr. 97. Nerva II et Rufo III Sol. XXVI
+
+p. Chr. 98. Nerva III et Traiano II Lun. VII
+
+p. Chr. 99. Palma et Senecione Mar. XVII
+
+p. Chr. 100 b.. Traiano III et Frontino Mer. XXIX
+
+p. Chr. 101. Traiano IIII et Peto Ven. X
+
+p. Chr. 102. Servillo II et Sura II Sat. XXI
+
+p. Chr. 103. Traiano V et Maximo II Sol. II
+
+p. Chr. 104 b.. Surano II et Marcello Lun. XIII
+
+p. Chr. 105. Candido II et Quadrato Mar. XXIIII
+
+p. Chr. 106. Commodo et Cereale Iov. VI
+
+p. Chr. 107. Sura et Senecione Ven. XVII
+
+p. Chr. 108 b.. Gallo et Bradua Sat. XXIII
+
+p. Chr. 109. Palma II et Tullo Lun. IIII
+
+p. Chr. 110. Priscina et Ortito Mar. XV
+
+p. Chr. 111. Pisone et Bolano Mer. I
+
+p. Chr. 112 b.. Traiano VI et Africano Iov. XII
+
+p. Chr. 113. Celso et Crispino Sat. XXIII
+
+p. Chr. 114. Vopisco et Asta Sol. IIII
+
+p. Chr. 115. Messala et Pedone Lun. XV
+
+p. Chr. 116 b.. Aeliano et Vetere Mar. XXVI
+
+p. Chr. 117. Nigro et Aproniano Iov. VII
+
+p. Chr. 118. Adriano II et Salinatore Ven. XIX
+
+p. Chr. 119. Adriano II et Rustico Sat. XXX
+
+p. Chr. 120 b.. Severo II et Fulvo Sol. XI
+
+p. Chr. 121. Vero II et Augure Mar. XXII
+
+p. Chr. 122. Aviola et Pansa Mer. III
+
+p. Chr. 123. Petino et Aproniano Iov. XIIII
+
+p. Chr. 124 b.. Glabrione et Torquato Ven. XXV
+
+p. Chr. 125. Asiatico II et Aquilino Sol. VI
+
+p. Chr. 126. Vero III et Ambibulo Lun. XVII
+
+p. Chr. 127. Titiano et Gallicano Mar. XXVIII
+
+p. Chr. 128 b.. Asprenate et Libone Mer. VIIII
+
+p. Chr. 129. Marcello II et Marcello II Ven. XX
+
+p. Chr. 130. Catulino et Apro Sat. I
+
+p. Chr. 131. Pontiano et Rutino Sol. XII
+
+p. Chr. 132 b.. Augurino et Sergiano Lun. XXIII
+
+p. Chr. 133. Hibero et Sisenna Mer. IIII
+
+p. Chr. 134. Serviano et Varo Iov. XV
+
+p. Chr. 135. Luperco et Attico Ven. XXVI
+
+p. Chr. 136 b.. Commodo et Pompeiano Sat. VII
+
+p. Chr. 137. Caesare II et Balbino Lun. XVIII
+
+p. Chr. 138. Nigro et Camerino Mar. XXIX
+
+p. Chr. 139. Antonino II et Praesente II Mer. X
+
+p. Chr. 140 b.. Antonino III et Aureliano Caes. Iov. XXI
+
+p. Chr. 141. Siloga et Severo Sat. II
+
+p. Chr. 142. Rufino et Quadrato Sol. XIIII
+
+p. Chr. 143. Torquato et Attico Lun. XXV
+
+p. Chr. 144 b.. Avito et Maximo Mar. VI
+
+p. Chr. 145. Antonino IIII et Aureliano Caes. II Iov. XVII
+
+p. Chr. 146. Claro et Severo Ven. XXVIII
+
+p. Chr. 147. Largo et Messalino Sat. VIIII
+
+p. Chr. 148 b.. Torquato et Iuliano Sol. XX
+
+p. Chr. 149. Orfito et Prisco Mar. I
+
+p. Chr. 150. Gallicano et Vetere Mer. XII
+
+p. Chr. 151. Maximo et Condiano Iov. XXIII
+
+p. Chr. 152 b.. Glabrione et Homullo Ven. IIII
+
+p. Chr. 153. Praesente et Rufino Sol. XV
+
+p. Chr. 154. Commodo et Laterano Lun. XXVII
+
+p. Chr. 155. Severo et Sabino Mar. VIII
+
+p. Chr. 156 b.. Silvato et Augurino Mer. XXVIIII
+
+p. Chr. 157. Barbato et Regulo Ven. XXX
+
+p. Chr. 158. Tertullo et Sacerdote Sat. XI
+
+p. Chr. 159. Quintillo et Prisco Sol. XXII
+
+p. Chr. 160 b.. Bradua et Varo Lun. III
+
+p. Chr. 161. duobus Augustis Mer. XIIII
+
+p. Chr. 162. Rustico et Aquilino Iov. XXV
+
+p. Chr. 163. Lelliano et Pastore Ven. VI
+
+p. Chr. 164 b.. Macrino et Celso Sat. XVII
+
+p. Chr. 165. Orfito et Pudente Lun. XXVII
+
+p. Chr. 166. Pudente et Pollione Mar. X
+
+p. Chr. 167. Vero III et Quadrato Mer. XXI
+
+p. Chr. 168 b.. Aproniano et Paulo Iov. II
+
+p. Chr. 169. Prisco et Apollinare Sat. XIII
+
+p. Chr. 170. Claro et Caethego Sol. XXIIII
+
+p. Chr. 171. Severo et Herenniano Lun. V
+
+p. Chr. 172 b.. Orfito et Maximo Mar. XVI
+
+p. Chr. 173. Severo II et Pompeiano Iov. XXVII
+
+p. Chr. 174. Gallo et Flacco Ven. VIII
+
+p. Chr. 175. Pisone et Iuliano Sat. XIX
+
+p. Chr. 176 b.. Pollione et Apro Sol. XXX
+
+p. Chr. 177. Commodo et Quintilio Mar. XI
+
+p. Chr. 178. Orfito et Rufo Mer. XXIII
+
+p. Chr. 179. Commodo II et Vero Iov. IIII
+
+p. Chr. 180 b.. Praesente et Condiano Ven. XV
+
+p. Chr. 181. Commodo III et Birro Sol. XXVI
+
+p. Chr. 182. Mamertino et Rufo Lun. VII
+
+p. Chr. 183. Commodo IIII et Victorino Mar. XVIII
+
+p. Chr. 184 b.. Marulo et Eliano Mer. XIX
+
+p. Chr. 185. Materno et Bradua ven. X
+
+p. Chr. 186. Commodo V et Glabrione Sat. XXI
+
+p. Chr. 187. Crispino et Eliano Sol. I
+
+p. Chr. 188 b.. Fusciano et Silano Lun. XIII
+
+p. Chr. 189. duobus Silanis Mer. XXIIII
+
+p. Chr. 190. Commodo VI et Septimiano Iov. VI
+
+p. Chr. 191. Aproniano et Bradua ven. XVII
+
+p. Chr. 192 b.. Commodo VI et Pertinace Sat. XXVIII
+
+p. Chr. 193. Falcone et Claro Lun. VIIII
+
+p. Chr. 194. Severo II et Bino Mar. XX
+
+p. Chr. 195. Tertullo et Clemente Mer. I
+
+p. Chr. 196 b.. Dextro et Prisco Iov. XII
+
+p. Chr. 197. Laterano et Rufino Sat. XXIII
+
+p. Chr. 198. Saturnino et Gallo Sol. IIII
+
+p. Chr. 199. Anulino et Frontone Lun. XV
+
+p. Chr. 200 b.. Severo III et Victorino Mar. XXVI
+
+p. Chr. 201. Fabiano et Mutiano Iov. VII
+
+p. Chr. 202. Severo IIII et Antonino Ven. XIX
+
+p. Chr. 203. Plautiano et Geta Sat. XXX
+
+p. Chr. 204 b.. Cillone et Libone Sol. XI
+
+p. Chr. 205. Antonino II et Geta Mar. XXII
+
+p. Chr. 206. Albino et Miliano Mer. III
+
+p. Chr. 207. Apro et Maximo Iov. XIIII
+
+p. Chr. 208 b.. Antonino III et Geta II Ven. XXV
+
+p. Chr. 209. Pompeiano et Avito Sol. VI
+
+p. Chr. 210. Faustino et Rufino Lun. XVII
+
+p. Chr. 211. Gentiano et Basso Mar. XXVIII
+
+p. Chr. 212 b.. duobus Aspris Mer. VIIII
+
+p. Chr. 213. Antonino IIII et Balbino Ven. XX
+
+p. Chr. 214. Messala et Sabino Sat. I
+
+p. Chr. 215. Laeto et Cereale Sol. XII
+
+p. Chr. 216 b.. Sabino et Anulino Lun. XXIII
+
+p. Chr. 217. Praesente et Extricato Mer. IIII
+
+p. Chr. 218. Antonino et Advento Iov. XV
+
+p. Chr. 219. Antonino II et Sacerdote Ven. XXVI
+
+p. Chr. 220 b.. Antonino III et Comazonte Sat. VII
+
+p. Chr. 221. Grato et Seleuco Lun. XVIII
+
+p. Chr. 222. Antonino IIII et Alexandro Mar. XXIX
+
+p. Chr. 223. Maximo et Cheliano Mer. X
+
+p. Chr. 224 b.. Iuliano et Crispino Iov. XXI
+
+p. Chr. 225. Fusco et Dextro Sat. II
+
+p. Chr. 226. Alexandro II et Marcello Sol. XIIII
+
+p. Chr. 227. Albino et maximo Lun. XXV
+
+p. Chr. 228 b.. Modesto et Probo Mer. VI
+
+p. Chr. 229. Alexandro III et Dione Iov. XVII
+
+p. Chr. 230. Agricola et Clementino Ven. XXIIX
+
+p. Chr. 231. Pompeiano et Peligniano Sat. VIIII
+
+p. Chr. 232 b.. Lupo et Maximo Sol. XX
+
+p. Chr. 233. Maximo et Paterno Mar. I
+
+p. Chr. 234. Maximo II et Urbano Mer. XII
+
+p. Chr. 235. Severo et Quintiano Iov. XXIII
+
+p. Chr. 236 b.. Maximo et Afriacno Ven. IIII
+
+p. Chr. 237. Perpetuo et Corneliano Sol. XV
+
+p. Chr. 238. Pio et Pontiano Lun. XXVII
+
+p. Chr. 239. Gordiano et Aviola Mar. VIII
+
+p. Chr. 240 b.. Sabino et Venusto Mer. XIX
+
+p. Chr. 241. Gordiano II et Pompeiano Ven. XXX
+
+p. Chr. 242. Attico et Protextato Sat. XI
+
+p. Chr. 243. Arriano et Papo Sol. XXII
+
+p. Chr. 244 b.. Peregrino et Aemiliano Lun. III
+
+p. Chr. 245. Philippo et Titiano Mer. XIIII
+
+p. Chr. 246. Praesente et Albino Iov. XXV
+
+p. Chr. 247. Philippo II et Philippo Ven. VI
+
+p. Chr. 248 b.. Philippo III et Philippo II Sat. XVII
+
+p. Chr. 249. Aemiliano et Aquilino Lun. XXVIII
+
+p. Chr. 250. Decio II et Grato Mar. VIIII
+
+p. Chr. 251. Decio III et Decio Caes. Mer. XXI
+
+p. Chr. 252 b.. Gallo II et Volusiano Iov. II
+
+p. Chr. 253. Volusiano II et Maximo Sat. XIII
+
+p. Chr. 254. Valeriano II et Gallieno Sol. XXIIII
+
+p. Chr. 255. Valeriano III et Gallieno II Lun. V
+
+p. Chr. 256 b.. Maximo et Glabrione Mar. XVI
+
+p. Chr. 257. Valeriano IIII et Gallieno III Iov. XXVII
+
+p. Chr. 258. Tusco et Basso Ven. VIII
+
+p. Chr. 259. Aemiliano et Basso Sat. XIX
+
+p. Chr. 260 b.. Seculare et Donato Sol. XXX
+
+p. Chr. 261. Gallicano IIII et Volusiano Mar. XI
+
+p. Chr. 262. Gallicano V et Fausiano Mer. XXIII
+
+p. Chr. 263. Albino et Dextro Iov. IIII
+
+p. Chr. 264 b.. Gallicano VI et Saturnino Ven. XV
+
+p. Chr. 265. Valeriano II et Lucillio Sol. XXVI
+
+p. Chr. 266. Gallieno VII et Sabinillo Lun. VII
+
+p. Chr. 267. Paterno et Arcesilao Mar. XVIII
+
+p. Chr. 268 b.. Paterno II et Mariniano Mer. XXIX
+
+p. Chr. 269. Claudio et Paterno Ven. X
+
+p. Chr. 270. Antiociano et Orfito Sat. XXI
+
+p. Chr. 271. Aureliano et Basso Sol. II
+
+p. Chr. 272 b.. Quieto et Veldumiano Lun. XIII
+
+p. Chr. 273. Tacito et Placidiano Mer. XXIIII
+
+p. Chr. 274. Aureliano II et Capitolino Iov. VI
+
+p. Chr. 275. Aureliano III et Marcellino Ven. XVII
+
+p. Chr. 276 b.. Tacito II et Aemiliano Sat. XXVIII
+
+p. Chr. 277. Probo et Paulino Lun. VIIII
+
+p. Chr. 278. Probo II et Lupo Mar. XX
+
+p. Chr. 279. Probo III et Paterno Mer. I
+
+p. Chr. 280 b.. Messala et Grato Iov. XII
+
+p. Chr. 281. Probo IIII et Tiberiano Sat. XXIII
+
+p. Chr. 282. Probo V et Victorino Sol. IIII
+
+p. Chr. 283. Caro et Carino Lun. XV
+
+p. Chr. 284 b.. Carino II et Numeriano Mar. XXVI
+
+p. Chr. 285. Diocletiano II et Aristobulo Iov. VII
+
+p. Chr. 286. Maximo II et Aquilino Ven. XVIII
+
+p. Chr. 287. Diocletiano III et Maximiano Sat. XXX
+
+p. Chr. 288 b.. Maximiano II et Ianuarino Sol. XI
+
+p. Chr. 289. Basso II et Quintiniano Mar. XXII
+
+p. Chr. 290. Diocletiano IIII et Maximiano III Mer. III
+
+p. Chr. 291. Tiberiano et Dione Iov. XIIII
+
+p. Chr. 292 b.. Annibaliano et Asclepiodoto Ven. XXV
+
+p. Chr. 293. Diocletiano V et Maximiano IIII Sol. VI
+
+p. Chr. 294. Constantio et Maximiano Lun. XVII
+
+p. Chr. 295. Tusco et Annullino Mar. XXVIII
+
+p. Chr. 296 b.. Diocletiano V et Constancio II Mer. VIIII
+
+p. Chr. 297. Maximiano V et Maximiano II Ven. XX
+
+p. Chr. 298. Fausto II et Gallo Sat. I
+
+p. Chr. 299. Diocletiano VII et Maximiano VI Sol. XII
+
+p. Chr. 300 b.. Constantio III et Maximiano III Lun. XXIII
+
+p. Chr. 301. Titiano et Nepotiano Mer. IIII
+
+p. Chr. 302. Constantio IIII et Maximiano IIII Iov. XV
+
+p. Chr. 303. Diocletiano VIII et Maximiano VII Ven. XVI
+
+p. Chr. 304 b.. Diocletiano VIIII et Maximiano VIII Sat. VII
+
+p. Chr. 305. Constantio V et Maximiano V Lun. XVIII
+
+p. Chr. 306. Constantio VI et Maximiano VI Mar. XXIX
+
+p. Chr. 307. novies et Constantino Mer. X
+
+p. Chr. 308 b. . decies et Maximiano VII Iov. XXI
+
+p. Chr. 309. post consul. X et septimum Sat. II
+
+p. Chr. 310. ann. II post cons. X et septimum Sol. XIII
+
+p. Chr. 311. Maximiano VIII solo Lun. XXV
+
+p. Chr. 312 b.. Constantino II et Licinio II Mar. VI
+
+p. Chr. 313. Constantino III et Licinio III Iov. XVII
+
+p. Chr. 314. Volusiano et Anniano Ven. XXVIII
+
+p. Chr. 315. Constantino IIII et Licinio IIII Sat. VIIII
+
+p. Chr. 316 b.. Sabino et Rufino Sol. XX
+
+p. Chr. 317. Gallicano et Basso Mar. I
+
+p. Chr. 318. Licinio V et Crispo Mer. XII
+
+p. Chr. 319. Constantino V et Licinio Iov. XXIII
+
+p. Chr. 320 b.. Constantino VI et Constantino Ven. IIII
+
+p. Chr. 321. Crispo II et Constantino II Sol. XV
+
+p. Chr. 322. Probiano et Iuliano Lun. XXVII
+
+p. Chr. 323. Severo et Rufino Mar. VIII
+
+p. Chr. 324 b.. Crispo III et Constantino III Mer. XIX
+
+p. Chr. 325. Paulino et Iuliano Ven. XXX
+
+p. Chr. 326. Constantino VII et Constantio Sat. XI
+
+p. Chr. 327. Constancio et Maximo Sol. XXII
+
+p. Chr. 328 b.. Ianuarino et Iusto Lun. III
+
+p. Chr. 329. Constantino VIII et Constantio III Mer. XIIII
+
+p. Chr. 330. Gallicano et Symaco Iov. XXV
+
+p. Chr. 331. Basso et Ablavio Ven. VI
+
+p. Chr. 332 b.. Pacatiano et Hilariano Sat. XVII
+
+p. Chr. 333. Dalmatio et Zeofilo Lun. XXVII
+
+p. Chr. 334. Optato et Paulino Mar. X
+
+p. Chr. 335. Constantio et Albino Mer. XXI
+
+p. Chr. 336 b.. Nepotiano et Facundo Iov. II
+
+p. Chr. 337. Feliciano et Titiano Sat. XIII
+
+p. Chr. 338. Vrso et Polemio Sol. XXIIII
+
+p. Chr. 339. Constantio II et Constante II Lun. V
+
+p. Chr. 340 b.. Aquilino et Proculo Mar. XVI
+
+p. Chr. 341. Marcellino et Probino Iov. XXVII
+
+p. Chr. 342. Constantio III et Constante III Ven. VIII
+
+p. Chr. 343. Placidio et Romulo Sat. XVIIII
+
+p. Chr. 344 b.. Leontio et Salustio Sol. XXX
+
+p. Chr. 345. Amantio et Albino Mar. XI
+
+p. Chr. 346. post Amantio et Albino Mer. XXIII
+
+p. Chr. 347. Rufino et Eusebio Iov. IIII
+
+p. Chr. 348 b.. Philippo et Salia Ven. XV
+
+p. Chr. 349. Limenio et Catulino Sol. XXVI
+
+p. Chr. 350. Sergio et Nigriniano Lun. VII
+
+p. Chr. 351. post Sergio et Nigriniano Mar. XVIII
+
+p. Chr. 352 b.. Constancio V et Constantio iun. Mer. XXVIII
+
+p. Chr. 353. Constancio VI et Constantio II Ven. X
+
+p. Chr. 354. Constancio VII et Constantio III Sat. XXII
+
+ CYCLVS PASCHALIS AB A. 312 IN ANNOS CENTVM  
+
+p. Chr. 312 b.. Constantino II et Licinio II idus Apr.
+
+p. Chr. 313. Constantino III et Licinio III III kal. Apr.
+
+p. Chr. 314. Valeriano et Anniano XIIII kal. Mai.
+
+p. Chr. 315. Constantino IV et Licinio IIII III idus Apr.
+
+p. Chr. 316 b.. Sabino et Rufino VIII kal. Apr.
+
+p. Chr. 317. Gallicano et Basso XVIII kal. Mai.
+
+p. Chr. 318. Licinio V et Crispo VIII kal. Apr.
+
+p. Chr. 319. Constantino V et Licinio IIII kal. Apr.
+
+p. Chr. 320 b.. Constantino VI et Constantino III idus Apr.
+
+p. Chr. 321. Crispo II et Constantino II III non. April.
+
+p. Chr. 322. Probiano et Iuliano VIII kal. Apri.
+
+p. Chr. 323. Severo et Ruffo VII idus Apr.
+
+p. Chr. 324 b.. Crispo III et Constantino III IIII kal. Apr.
+
+p. Chr. 325. Paulino et Iuliano XIIII kal. Mai.
+
+p. Chr. 326. Constantino VII et Constantio III idus Apr.
+
+p. Chr. 327. Constantio et Maximo VII kal. Apr.
+
+p. Chr. 328 b.. Ianuarino et Iusto XVIII kal. Mai.
+
+p. Chr. 329. Constantino VIII et Constantio IIII VIII idus Apr.
+
+p. Chr. 330. Gallicano et Syrmaco III kal. Mai.
+
+p. Chr. 331. Basso et Ablavio VIII idus Apr.
+
+p. Chr. 332 b.. Pacatiano et Hilariano III non. Apr.
+
+p. Chr. 333. Dalmatio et Zenofilo XVII kal. Mai.
+
+p. Chr. 334. Optato et Paulino VII idus Apr.
+
+p. Chr. 335. Constantio et Albino III kal. Apr.
+
+p. Chr. 336 b.. Nepotiano et Facundo XIIII kal. Mai.
+
+p. Chr. 337. Feliciano et Titiano III non. Apr.
+
+p. Chr. 338. Vrso et Polemio VIII kal. Apri.
+
+p. Chr. 339. Constancio II et Constante XVII kal. Mai.
+
+p. Chr. 340 b.. Acyndino et Proculo III kal. Apr.
+
+p. Chr. 341. Marcellino et Probino XIII kal. Mai.
+
+p. Chr. 342. Constancio III et Constante II III idus Apr.
+
+p. Chr. 343. Placidio et Romulo III non. Apr.
+
+p. Chr. 344 b.. Leontio et Salustio XVII kal. Mai.
+
+p. Chr. 345. Amantio et Albino VII id. Apri.
+
+p. Chr. 346. post Amantio et Albino III kal. Apr.
+
+p. Chr. 347. Rufino et Eusebio pri. id. April.
+
+p. Chr. 348 b.. Philippo et Salia III non. Apr.
+
+p. Chr. 349. Limenio et Catulino VI kal. Apr.
+
+p. Chr. 350. Sergio et Nigriniano XVII kal. Mai.
+
+p. Chr. 351. post Sergio et Nigriniano prid. kal. Apr.
+
+p. Chr. 352 b.. Constantio V et Constantio iun. XI kal. Mai.
+
+p. Chr. 353. Constantio VI et Constantio II III id. Apr.
+
+p. Chr. 354. Constantio VII et Constantio III VI kal. Apr.
+
+p. Chr. 355. Arbitione et Lolliani XVI kal. Mai.
+
+p. Chr. 356 b.. Constantio VIII et Iuliano I VII id. Apr.
+
+p. Chr. 357. Constantio VIIII et Iuliano II III kal. Apr.
+
+p. Chr. 358. Datiano et Caereale prid. idus Apr.
+
+p. Chr. 368. Valentiniano et Valente II prid. non. Apr. 359.
+
+p. Chr. 369 b.. Valentiniano novili et Victore XVI kal. Mai. 360.
+
+p. Chr. 370. Valentiniano III et Valente III VI id. Apr. 361.
+
+p. Chr. 371. Gratiano II et Provo VI id. Apr. 361b.
+
+p. Chr. 372. Modesto et Arintheo XVI kal. Mai. 355b
+
+p. Chr. 373 b.. Valentiniano IIII et Valente IIII VII idus Apr.
+356b
+
+p. Chr. 374. Gratiano III et Equitio III kal. Apr. 357b
+
+p. Chr. 375. p. c. Gratiani III et Equiti II id. Apr. 358b
+
+p. Chr. 376. Valente V et Valentiniano Caes. iun. prid. non. Apr.
+359b
+
+p. Chr. 377 b.. Gratiano IIII et Merobaude XVI kal. Mai. 360b
+
+p. Chr. 378a. p. c. Gratiani et Merobaudes VI id. April. 361c
+
+p. Chr. 378b. Valente VI et Valentiniano iun. prd. kal. Apr. 362
+
+p. Chr. 379. Olibrio et Ausonio XII kal. Mai. 363
+
+p. Chr. 380 b.. Gratiano V et Theodosio prid. non. Apr. 364
+
+p. Chr. 381. Syagrio et Eucerio VI kal. Apr. 365
+
+p. Chr. 382. Antonio et Euagrio XVI kal. Mai. 366
+
+p. Chr. 383. Saturnino et Syagrio kal. Apr. 367
+
+p. Chr. 384 b.. Ricomede et Clearco XII kal. Mai. 368
+
+p. Chr. 385. Arcadio et Bautone prid. id. April. 369
+
+p. Chr. 386. Onorio et Evodio V kal. Apr. 370
+
+p. Chr. 387. Valentiniano II et Eutropio XV kal. Mai. 371
+
+p. Chr. 388 b.. Theodosio II et Cinegio VI idus Apr. 372
+
+p. Chr. 389. Timasio et Promoto VIII kal. Apr. 373
+
+p. Chr. 390. Valentiniano IIII et Neoterio id. Apr. 374
+
+p. Chr. 391. Taciano et Symmacho non. Apr. 375
+
+p. Chr. 392 b.. Arcadio Aug. II et Rufino VI kal. Apr. 376
+
+p. Chr. 393. Theodosio Aug. III et Abundantio XVI kal. Mai 377
+
+p. Chr. 394. Arcadio Aug. III et Honorio Aug. II kal. Apr. 378
+
+p. Chr. 395. Olibrio et Probino XI kal. Mai. 379
+
+p. Chr. 396 b.. VI Arcadio Aug. IV. et Honorio Aug. III prid. id.
+April. 380
+
+p. Chr. 397. Caesario I et Attico VI kal. Apr. 381
+
+p. Chr. 398. Honorio Aug. IIII et Eutychiano XV kal. Mai. 382
+
+p. Chr. 399. Eutropio et Theodoro V id. Apr. 383
+
+p. Chr. 400 b.. VI Stilichone et Auriliano VIII kal. Apr. 384
+
+p. Chr. 401. Vincentio et Fravio idus Apr. 385
+
+p. Chr. 402. Arcadio Aug. V. et Honorio Aug. V non. Apr. 386
+
+p. Chr. 403. Theodosio Aug. et Rumorido XIIII kal. Mai. 387
+
+p. Chr. 404 b. . VI Honorio VI et Aristenito V id. April. 388
+
+p. Chr. 405. Stilichone II et Anthemio kal. Apr. 389
+
+p. Chr. 406. Arcadio VI et Probo XI kal. Mai. 390
+
+p. Chr. 407. Theodosio II et Honorio VII VIII id. Apr. 391
+
+p. Chr. 408 b.. Basso et Philippo V kal. Apr. 392
+
+p. Chr. 409. Theodosio III et Honorio VIII XV kal. Mai. 393
+
+p. Chr. 410. Varana et IIII non. Apr. 394
+VII kal. Apr. 395
+b. idus Apr. 396
+non. Apr. 397
+XIII kal. Mai. 398
+III id. Apr. 399
+b. kal. Apr. 400
+XVII kal. Mai. 401
+VII idus Apr. 402
+IIII kal. Apr. 403
+b. IIII idus Apr. 404
+IIII non. Apr.405
+VII kal. Apr. 406
+XVIII kal. Mai. 407
+b. IIII non. Apr. 408
+XIIII kal. Mai. 409
+IIII idus Apr. 410
+VII kal. Apr. 411
+Anno centesimo
+ PRAEFECTI VRBIS ROMAE AB A. P. CHR. 254 AD A. 354 EX TEMPORIBVS
+GALLIENI QVIS QVANTVM TEMPORIBVS PRAEFECTVRAM VRBANAM
+ADMINISTRAVIT  
+
+p. Chr. 254. Valeriano II et Gallieno Lollianus praefectus urbis
+
+p. Chr. 255. Valeriano III et Gallieno II Valerius Maximus
+praefectus urbis
+
+p. Chr. 256. Maximo et Glabrione Numnius Albinus praefectus urbis
+
+p. Chr. 257. Valeriano IIII et Gallieno III Iunius Donatus
+praefectus urbis
+
+p. Chr. 258. Tusco et Basso Cornelius Saecularis praefectus urbis
+
+p. Chr. 259. Aemiliano et Basso Cornelius Saecularis praefectus
+urbis
+
+p. Chr. 260. Saeculare II et Donato Cornelius Saecularis
+praefectus urbis
+
+p. Chr. 261. Gallicano IIII et Volusiano Numnius Albinus
+praefectus urbis
+
+p. Chr. 262. Gallieno V et Faustino Numnius Albinus praefectus
+urbis
+
+p. Chr. 263. Albino II et Dextro Numnius Albinus praefectus urbis
+
+p. Chr. 264. Gallicano VI et Saturnino Paternus praefectus urbis
+
+p. Chr. 265. Valeriano II et Lucillo Paternus praefectus urbis
+
+p. Chr. 266. Gallieno VII et Sabinillo Paternus praefectus urbis
+
+p. Chr. 267. Paterno et Harcesilao Petronius Volusianus
+praefectus urbis
+
+p. Chr. 268. Paterno II et Mariniano Petronius Volusianus
+praefectus urbis
+
+p. Chr. 269. Claudio et Paterno Flavius Antiocianus praefectus
+urbis
+
+p. Chr. 270. Antiochiano et Orfito Flavius Antiocianus praefectus
+urbis
+
+p. Chr. 271. Aureliano et Basso Postumius Varus praefectus urbis
+
+p. Chr. 272. Quieto et Veldumiano Flavius Antiocianus praefectus
+urbis
+
+p. Chr. 273. Tacito et Placidiano Virius Orfitus praefectus urbis
+
+p. Chr. 274. Aureliano II et Capitolino Virius Orfitus praefectus
+urbis
+
+p. Chr. 275. Aureliano III et Marcellino Postumius Suagrus
+praefectus urbis
+
+p. Chr. 276. Tacito II et Aemiliano Ovinius Pacatianus praefectus
+urbis
+
+p. Chr. 277. Probo et Paulino Ovinius Pacatianus praefectus urbis
+
+p. Chr. 278. Probo et Lupo Virius Lupus praefectus urbis
+
+p. Chr. 279. Probo III et Paterno Virius Lupus praefectus urbis
+
+p. Chr. 280. Messala et Grato Virius Lupus praefectus urbis
+
+p. Chr. 281. Probo IIII et Tiberiano Ovinius Paternus praefectus
+urbis
+
+p. Chr. 282. Probo V et Victorino Pomponius Victorianus
+praefectus urbis
+
+p. Chr. 283. Caro et Carino Titucius Roburrus praefectus urbis
+
+p. Chr. 284. Carino II et Numeriano Ceionius Varus praefectus
+urbis
+
+p. Chr. 285. Diocletiano II et Aristobulo Ceionius Varus
+praefectus urbis
+
+p. Chr. 286. Maximo II et Aquilino Iunius Maximus praefectus
+urbis
+
+p. Chr. 287. Diocletiano III et Maximiano Iunius Maximus
+praefectus urbis
+
+p. Chr. 288. Maximiano II et Ianuario III kal. Mar. Pomponius
+Ianuarius praefectus urbis
+
+p. Chr. 289. Basso II et Quintiano Pomponius Ianuarianus
+praefectus urbis
+
+p. Chr. 290. Diocletiano IIII et Maximiano III Turranius
+Gratianus praefectus urbis
+
+p. Chr. 291. Tiberiano II et Dione XII kal. Mart. Iunius
+Tiberianus praefectus urbis
+
+p. Chr. 292. Annibaliano et Asclepiodoto III non. Aug. Cl.
+Marcellus praefectus urbis
+
+p. Chr. 293. Diocletiano V et Maximiano IIII III idus Mar.
+Septimius Acyndinus praefectus urbis
+
+p. Chr. 294. Constantio et Maximiano Septimius Aquindinus
+praefectus urbis
+
+p. Chr. 295. Tusco et Anulino III idus Ian. Aristobolus
+praefectus urbis
+
+p. Chr. 296. Diocletiano VI et Constantio II XII kal. Mar.
+Cassius Dion praefectus urbis
+
+p. Chr. 297. Maximiano V et Maximiano II Afranius Annibalianus
+praefectus urbis
+
+p. Chr. 298. Fausto II et Gallo Artorius Maximus praefectus urbis
+
+p. Chr. 299. Diocletiano VI et Maximiano VI Anicius Faustus
+praefectus urbis
+
+p. Chr. 300. Constantio III et Maximiano III kal. Mar. Pompeius
+Faustinus praefectus urbis
+
+p. Chr. 301. Titiano II et Nepotiano Aelius Dionisius praefectus
+urbis
+
+p. Chr. 302. Constantio IIII et Maximiano IIII XI kal. Mar.
+Nummius Tuscus praefectus urbis
+
+p. Chr. 303. Diocletiano VIII et Maximiano VII prid. idus
+Septemb. Iunius Tiberianus praefectus urbis
+
+p. Chr. 304. Diocletiano VIIII et Maximiano VIII prid. non. Ian.
+Aradius Rufinus praefectus urbis
+
+p. Chr. 305. Constantio V et Maximiano V prid. idus Febr.
+Postumius Titianus praefectus urbis
+
+p. Chr. 306. Constantio VI et Maximiano VI XIIII kal. Apr. Annius
+Anulinus praefectus urbis
+
+p. Chr. 307. Maximiano VII et Maximino.
+Ex mense Aprili factum est
+sextum consulatum, quod est
+novies et Constantino. 3 VI kal. Sep. Insteius Tertullus
+praefectus urbis
+p. Chr. 308. consules quos iusserint D. D. N. N. Augusti.
+ex XII. kal. Mai. factum est
+Maxentio et Romulo. quod est
+decies et Maximiano VII. idus April. Statius Rufinus praefectus
+urbis
+p. Chr. 309. Maxentio II et Romulo II III kal. Novem. Aurelius
+Hermogenes praefectus urbis
+
+p. Chr. 310. Maxentio III consule V kal. Nov. Rufius Volusianus
+praefectus urbis
+
+p. Chr. 311. consules quos iusserint D. D. N. N. AVG.
+ex mense Septembro factum est
+Rufino et Eusebio. V kal. Nov. Iunius Flavianus praefectus urbis
+p. Chr. 312. Maxentio IIII consule. qui sunt
+Constantino II et Licinio II V idus Febr. Aradius Rufinus
+praefectus urbis
+VI kal. Nov Annius Anulinus d. XXXIIII praefectus urbis
+III kal. Decemb. Aradius Rufinus iterum praefectus urbis
+p. Chr. 313. Constantino III et Licinio III VI idus Decemb.
+Rufius Volusianus praefectus urbis
+
+p. Chr. 314. Volusiano et Anniano Rufius Volusianus praefectus
+urbis
+
+p. Chr. 315. Constantino III et Licinio IIII XIII kal. Septemb.
+Vetius Rufinus praefectus urbis
+
+p. Chr. 316. Sabino et Rufino prid. non. Aug. Ovinius Gallicanus
+praefectus urbis
+
+p. Chr. 317. consules quos iusserint D. D. N. N. AVG.
+ex die XIII kal. Mar.
+Gallicano et Basso idus Mai. Septimius Bassus praefectus urbis
+p. Chr. 318. Licinio V et Crispo Caes. Ex die III idus Iul. in
+idus Aug. vice illius cognovit Iulius Cassius eo quod ad Augustum
+profectus est. Septimius Bassus regressus praefectus urbis
+
+p. Chr. 319. Constantino V et Licinio Caes. kal. Sept. Valerius
+Maximus Basilius praefectus urbis
+
+p. Chr. 320. Constantino VI et Constantino Caes. Valerius Maximus
+praefectus urbis
+
+p. Chr. 321. Crispo II et Constantino II Valerius Maximus
+praefectus urbis
+
+p. Chr. 322. Probiano et Iuliano Valerius Maximus praefectus
+urbis
+
+p. Chr. 323. Severo et Rufino idus Sept. Lucer. Verinus
+praefectus urbis
+
+p. Chr. 324. Crispo III et Constantino III Lucer. Verinus
+praefectus urbis
+
+p. Chr. 325. Paulino et Iuliano prid. non. Ian. Acilius Severus
+praefectus urbis
+
+p. Chr. 326. Constantino VII et Constantino Caes. idus Novemb.
+Anicius Iulianus praefectus urbis
+
+p. Chr. 327. Constantio et Maximo Anicius Iulianus praefectus
+urbis
+
+p. Chr. 328. Ianuarino et Iusto Anicius Iulianus praefectus urbis
+
+p. Chr. 329. Constantino VIII et Constantino IIII VII idus Sept.
+Publilius Optatianus praefectus urbis d. XXXI.
+Item VIII idus Oct. Petronius Probianus praefectus urbis
+p. Chr. 330. Gallicano et Symmaco Petronius Probianus praefectus
+urbis
+
+p. Chr. 331. Basso et Ablavio prid. idus Apr. Anicius Paulinus
+praefectus urbis
+
+p. Chr. 332. Pacatiano et Hilariano Anicius Paulinus praefectus
+urbis
+
+p. Chr. 333. Dalmatio et Zenofilo VII idus April. Publilius
+Optatianus praefectus urbis
+item in dies XXXII.
+item VI idus Maias Ceionius Iulianus Kamenius praefectus urbis
+p. Chr. 334. Optato et Paulino V kal. Mai. Anicius Paulinus
+praefectus urbis
+
+p. Chr. 335. Constantio et Paulino III kal. Ian. Rufius Albinus
+praefectus urbis
+
+p. Chr. 336. Nepotiano et Facundo Rufius Albinus praefectus urbis
+
+p. Chr. 337. Feliciano et Titiano VI idus Martias Valerius
+Proculus praefectus urbis
+
+p. Chr. 338. Vrso et Polemio idus Ianuarius Mecilius Hilarianus
+praefectus urbis
+
+p. Chr. 339. Constantio II et Constante prid. idus Iulias Turgius
+Apronianus menses III praefectus urbis
+Item VIII kal. Novemb. Fabius Titianus praefectus urbis
+p. Chr. 340. Acyndino et Proculo ex die III non. Maias in IIII
+idus Iun. Iunius Tertullus vicarius cognovit, eo quod ad Augustum
+profectus est, postea reversus Fabius Titianus praefectus urbis
+
+p. Chr. 341. Marcellino et Probino V kal. Mar. Aurelius Celsinus
+praefectus urbis
+
+p. Chr. 342. Constantio III et Constante II kal. Apri. Fl.
+Lollianus Mavortius m. III d. VI. praefectus urbis
+Item prid. non. Iul. Aco Catulinus Philomatius praefectus urbis
+p. Chr. 343. Placido et Romulo Aco Catulinus praefectus urbis
+
+p. Chr. 344. Leontio et Salustio Aco Catulinus praefectus urbis
+III idus Apr. Q. Rusticus praefectus urbis
+p. Chr. 345. Amantio et Albino Quintus Rusticus praefectus urbis
+III non. Iul. Probinus praefectus urbis
+p. Chr. 346. post cons. Amanti et Albini Probinus praefectus
+urbis
+VII kal. Ianuar. Placidus praefectus urbis
+p. Chr. 347. Rufino et Eusebio Placidus praefectus urbis
+prid. idus Iunias Limenius praefectus pretorio et urbis
+p. Chr. 348. Filippo et Salia Ulpius Limenius praefectus pretorio
+et urbis
+
+p. Chr. 349. Limenio et Catulino Limenius praefectus pretorio et
+urbis
+cessaverunt praefecture dies XLI a die VI idus April. usque in XV
+kal. Iun.
+XIIII kal. Iun. Hermogenes praefectus pretorio et urbis
+p. Chr. 350. Sergio et Nigriniano Hermogenes praefectus pretorio
+et urbis
+III kal. Mar. Fabius Titianus praefectus urbis
+p. Chr. 351. Magnentio et Gaisone Fabius Titianus praefectus
+urbis iterum
+kal. Mar. Aur. Celsinus praefectus urbis iterum
+IIII idus Maias Celius Probatus praefectus urbis
+VII idus Iun. Clodius Adelfius praefectus urbis
+XV kal. Ian. Valerius Proculus praefectus urbis
+p. Chr. 352. Decentio et Paulo Valerius Proculus praefectus urbis
+iterum
+V idus Sept. Septimius Mnasea praefectus urbis
+VI kal. Oct. Neratius Caerealis praefectus urbis
+p. Chr. 353. Constantio VI et Constantio II Neratius Caerealis
+praefectus Urbis
+VI idus Decemb. Vitrasius Orfitus praefectus urbis
+p. Chr. 354. Constantio VII et Constantio III Vitrasius Orfitus
+praefectus urbis
+
+DEPOSITIONES EPISCOPORVM ROMANORVM.
+DEPOSITIO EPISCOPORVM
+VI kal. Ianuarias Dionisi, in Callisti.
+III kal. Ianuar. Felicis, in Callisti.
+prid. kal. Ianuar. Silvestri, in Priscillae.
+IIII idus Ianuarias Miltiadis, in Callisti.
+XVIII kal. Feb. Marcellini, in Priscillae.
+III non. Mar. Luci, in Callisti.
+X kal. Mai. Gai, in Callisti.
+IIII non. Augustas Stephani, in Callisti.
+VI kal. Octob. Eusebii, in Callistus.
+VI idus Decemb. Eutychniani, in Callisti.
+non. Octob. Marci, in Balbinae.
+prid. idus Apr. Iuli, in via Aurelia miliario III, in Callisti.
+FERIALE ECCLESIAE ROMANAE.
+ITEM DEPOSITIO MARTIRVM
+VIII kal. Ian. natus Christus in Betleem Iudeae.
+mense Ianuario.
+XIII kal. Feb. Fabiani in Callisti.
+et Sebastiani in Catacumbas,
+XII kal. Feb. Agnetis in Nomentana.
+mense Februario.
+VIII kal. Martias. natale Petri de cathedra.
+mense Martio.
+non. Martias. Perpetuae et Felicitatis, Africae.
+mense Maio.
+XIIII kal. Iun. Partheni et Caloceri in Callisti, Diocletiano
+VIIII et Maximiano VIII.
+mense Iunio. III kal. Iul. Petri in Catacumbas.
+et Pauli Ostense, Tusco et Basso cons.
+mense Iulio.
+VI idus Felicis et Filippi in Priscillae.
+et in Iordanorum, Martialis Vitalis Alexandri.
+et in Maximi Silani. hunc Silanum martirem Novati furati sunt.
+III kal. Aug. Abdos et Semnes in Pontiani, quod est ad ursum
+piliatum.
+mense Augusto.
+VIII idus Aug. Xysti in Callisti.
+et in Praetextati Agapiti et Felicissimi.
+VI idus Aug. Secundi Carpofori Victorini et Severiani Albano.
+et Ostense VII ballistaria Cyriaci Largi Crescentiani Memiae
+Iulianetis et Ixmaracdi.
+IIII idus Aug. Laurenti in Tiburtina.
+idus Aug. Ypoliti in Tiburtina.
+et Pontiani in Callisti.
+XI kal. Septemb. Timotei, Ostense.
+V kal. Sept. Hermetis in Basillae Salaria vetere.
+mense Septembre.
+non. Sep. Aconti, in Porto, et Nonni et Herculani et Taurini.
+V idus Sept. Gorgoni, in Lavicana.
+III idus Sept. Proti et Iacinti, in Basillae.
+XVIII kal. Octob. Cypriani, Africae. Romae celebratur in
+Callisti.
+X kal. Octob. Basillae, Salaria vetere, Diocletiano IX et
+Maximiano VIII consul.
+mense Octobre.
+pri. idus Octob. Callisti in via Aurelia. miliario III.
+mense Novembre.
+V idus Nov. Clementis Semproniani Claui Nicostrati in comitatum.
+III kal. Dec. Saturnini in Trasonis.
+mense Decembre.
+idus Decem. Ariston in pontum.
+ EPISCOPI ROMANI.  
+
+IMPERANTE TIBERIO CAESARE PASSVS EST DOMINVS NOSTER IESVS
+CHRISTVS DVOBVS GEMINIS CONS. VIII KAL. APR. ET POST ASCENSVM
+EIVS BEATISSIMVS PETRVS EPISCOPATVM SVSCEPIT. EX QVO TEMPORE PER
+SVCCESSIONEM DISPOSITVM, QVIS EPISCOPVS QVOT ANNIS PREFVIT VEL
+QVO IMPERANTE.
+
+{€Petrus€} ann. XXV mens. uno d. VIIII. fuit temporibus Tiberii
+Caesaris et Gai et Tiberi Claudi et Neronis, a consul. Minuci et
+Longini usque Nerine et Vero. Passus autem cum Paulo die III kal.
+Iulias consul. ss. imperante Nerone.
+
+{€Linus€} ann .XII m. IIII d. XII. fuit temporibus Neronis, a
+consulatu Saturnini et Scipionis usque Capitone et Rufo
+
+{€Clemens€} ann. VIIII m. XI d. XII. fuit temporibus Galbe et
+Vespasiavi, a cons. Tracali et Italici usque Vespasiano VI et
+Tito.
+
+{€Cletus€} ann. VI m. duo dies. X. fuit temporibus Vespasiani et
+Titi et initia Domitiani, a cons. Vespasiano VIII et Domitiano V
+usque Domitiano VIIII et Rufo
+
+{€Anaclitus€} ann. XII m. X d. III. fuit temporibus Domitiani, a
+cons. Domitiano X et Sabino usque Domitiano XVII et Clemente.
+
+{€Aristus€} annos XIII m. VII d. duos. fuit temporibus novissimis
+Domitiani et Nervae et Traiani, a cons. Valentis et Veri usque
+Gallo et Bradua.
+
+{€Alexander€} ann. VII m. II d. uno. fuit temporibus Traiani a
+cons. Palmae et Tulli usque Veliano et Vetere.
+
+{€Sixtus€} ann. X m. III d. XXI. fuit temporibus Adriani a cons.
+Nigri et Aproniani usque Vero III et Ambibulo.
+
+{€Telesforus€} annos XI m. III d. III. fuit temporibus Antonini
+Macrini a cons. Titiani et Gallicani usque Caesare et Balbino.
+
+{€Higinus€} ann. XII m. III d. VI. fuit temporibus [...]
+
+[...] a cons. Gallicani et Veteris usque Presente et Rufino.
+
+{€Pius€} ann. XX m. IIII m. XXI. fuit temporibus Antonini Pii, a
+cons. Clari et Severi usque duobus Augustis. sub huius episcopatu
+frater eius Ermes librum scripsit, in quo mandatum continetur,
+quae ei precepit angelus, cum venit ad illum in habitu pastoris.
+
+{€Soter€} ann. IX [...]
+
+[...] m. III d. II. fuit temporibus Antonini et Commodi, a cons.
+Veri et Hereniani usque Paterno et Bradua.
+
+{€Victor€} ann. VIIII m. II d. X. fuit temporibus [...]
+
+[...] Antonini, a cons. Saturnini et Galli usque Presente et
+Extricato
+
+{€Calixtus€} ann. V m. II d. X. fuit temporibus Macrini et
+Eliogabali, a cons. Antonini et Adventi usque Antonino III et
+Alexandro.
+
+{€Vrbanus€} ann. VIII mens. XI d. XII. fuit temporibus Alexandri,
+a cons. Maximi et Eliani usque Agricola et Clementino.
+
+{€Pontianus€} ann. V m. II d. VII. fuit temporibus Alexandri, a
+cons. Pompeiani et Peligniani. Eo tempore Pontianus episcopus et
+Yppolitus presbiter exoles sunt deportati in Sardinia in insula
+uocina Severo et Quintiano cons. in eadem insula discinctus est
+IIII kal. Octobr. et loco eius ordinatus est Antheros XI kal.
+Dec. cons. ss.
+
+{€Antheros€} m. uno dies. X. Dormit III non. Ian. Maximo et
+Africano cons.
+
+{€Fabius€} ann. XIIII m. I d. X. fuit temporibus Maximini et
+Cordiani et Filippi, a cons. Maximini et Africani usque Decio II
+et Grato. passus XII kal. Feb. hic regiones divisit diaconibus et
+mul|tas fabricas per cimiteria fieri iussit. post passionem eius
+Moyses et Maximus presbyteri et Nicostratus diaconus comprehensi
+sunt et in carcerem sunt missi. eo tempore supervenit Novatus ex
+Africa et separavit de ecclesia Novatianum et quosdam
+confessores, postquam Moises in carcere defunctus est, qui fuit
+ibi m. XI d. XI.
+
+{€Cornelius€} ann. II m. III d. X. a cons. Decio IIII et Decio II
+usque Gallo et Volusianuo. sub episcopatu eius Novatus extra
+ecclesiam ordinavit Novatianum in urbe Roma et Nicostratum in
+Africa. hoc facto confessores, qui se separaverunt a Cornelio,
+cum Maximo presbytero, qui cum Moyse fuit, ad ecclesiam sunt
+reversi. post hoc Centumcellis expulsi. ibi cum gloria
+dormitionem accepit.
+
+{€Lucius€} ann. II m. VIII d. X. fuit temporibus Galli et
+Volusiani usque Valeriano III et Gallieno II. hic exul fuit et
+postea nutu dei incolumis ad ecclesiam reversus est [...]
+
+{€Lucius€} ann. II m. VIII d. X. fuit temporibus Galli et
+Volusiani usque Valeriano III et Gallieno II. hic exul fuit et
+postea nutu dei incolumis ad ecclesiam reversus est [...]
+
+{€Steffanus€} ann. IIII m. II d. XXI. fuit temporibus Valeriani
+et Gallieni, a cons. Volusiani et Maximi usque Valeriano III et
+Gallieno II.
+
+{€Xystus€} ann. II m. XI. d. VI. coepit a cons. Maximi et
+Glabrionis usque Tusco et Basso et passus est VIII id. Aug. [...]
+a cons. Tusci et Bassi usque in diem XII kal. Aug. Aemiliano et
+Basso cons.
+
+{€Dionisius€} ann. VIII m. II d. IIII. fuit temporibus Gallieni,
+ex die XI kal. Aug. Aemiliano et Basso cons. usque in diem VII
+kal. Ian. cons. Claudi et Paterni.
+
+{€Felix€} ann. V m. XI d. XXV. fuit temporibus Claudi et
+Aureliani, a cons. Claudi et Paterni usque in consulatum
+Aureliano II et Capitolino.
+
+Eutycianus ann. VIII m. XI d. III. fuit temporibus Aureliani, a
+cons. Aureliano III et Marcellino usque in diem VII idus Dec.
+Caro II et Carino cons.
+
+{€Gaius€} ann. XII m. IIII d. VII. fuit temporibus Cari et
+Carini, ex die XVI kal. Ian. cons. Carino II et Carino usque in X
+kal. Mai. Diocletiano VI et Constantio II.
+
+{€Marcellinus€} ann. VIII m. III d. XXV. fuit temporibus
+Diocletiani et Maximiani ex die prid. kal. Iulias a cons.
+Diocletiano VI et Constantio II usque in consul. Diocletiano
+VIIII et Maximiano VIII. quo tempore fuit persecutio et cessavit
+episcopatum ann. VII m. VI d. XXV.
+
+{€Marcellus€} annum unum m. VI d. XX. fuit temporibus Maxenti, a
+cons. X et Maximiano usque post consulatum X et septimium.
+
+Eusebius m. IIII d. XVI, a XIIII kal. Maias usque in diem XVI
+kal. Sept.
+
+{€Miltiades€} ann. III m. VI d. VIII, ex die VI nonas Iulias a
+consulatu Maximiano VIII solo, quod fuit mense Sep. Volusiano et
+Rufino, usque in III idus Ianuarias Volusiano et Anniano coss.
+
+{€Silvester€} ann. XXI m. XI. fuit temporibus Constantini, a
+consulatu Volusiano et Anniani ex die prid. kal. Feb. usque in
+diem kal. Ian. Constancio et Albino coss.
+
+{€Marcus€} mens. VIII dies XX. et hic fuit temporibus
+Constantini, Nepotiano et Facundo coss. ex die XV. kal. Feb.
+usque in diem non. Octob. coss. ss.
+
+{€Iulius€} ann. XV m. I d. XI. fuit temporibus Constantini, a
+consulatu Feliciani et Titiani ex die VIII id. Feb. in diem
+pridie idus Apr. Constancio V et Constancio Caes. hic multas
+fabricas fecit: basilicam in via Portese miliario III; basilicam
+in via Flaminia mil. II quae appellatur Valentini; basilicam
+Iuliam, quae est regione VII iuxta forum divi Traiani; basilicam
+trans Tiberim regione XIIII iuxta Callistum; basilicam in via
+Aurelia mil. III ad Callistum.
+
+{€Liberius€} [...] fuit temporibus Constanti et Constanti ex die
+XI kal. Iun. in diem [...] a consulatu Constantio V et Constantio
+Caes. coss.
+

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sesto tomo dell'io</title>
+            <author>Ugo Foscolo</author>
+         </titleStmt>
+         <extent>41910 Kb in UTF-8</extent>
+         <publicationStmt>
+            <publisher>Biblioteca Italiana</publisher>
+            <pubPlace>Roma</pubPlace>
+            <date>2008</date>
+            <idno>bibit000421</idno>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso
+                            personale o scientifico. Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Collezione BibIt</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Prose varie d'arte</title>
+               <title type="part">v.</title>
+               <author>Foscolo, Ugo</author>
+               <editor id="ed">Fubini, Mario</editor>
+               <publisher>F. Le Monnier</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>1951</date>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                    responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                    digitale</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction method="silent" status="medium">
+               <p>Livello medio: controllo a video con collazione con edizione di
+                            riferimento</p>
+            </correction>
+            <quotation form="data" marks="all">
+               <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                            sono stati rappresentati sulla versione digitale</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                            ricomposte</p>
+            </hyphenation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy id="CGB">
+               <bibl>Classificazione generi BibIt</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>800</date>
+         </creation>
+         <langUsage>
+            <language id="ita">Italiano</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="CGB">
+               <term>Trattati</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06-08T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Novadata systems</name>
+            </respStmt>
+            <item>Digitalizzazione - OCR</item>
+         </change>
+         <change>
+            <date>2007-11-28T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Correzione linguistica</item>
+         </change>
+         <change>
+            <date>2007-12-28T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Laura Sarzi Braga</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Codifica XML - Codifica manuale</item>
+         </change>
+         <change>
+            <date>2007-02-07T00:00:00.000+02:00</date>
+            <respStmt>
+               <name>Carla Deiana</name>
+               <name>BIBIT</name>
+            </respStmt>
+            <item>Validazione</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 n="Proemio">
+            <head>
+               <add resp="ed">PROEMIO</add>
+            </head>
+            <p>Rispetto alla dedica del libro, io la offro a me stesso. Ed è questo, dacchè mi son posto a cucire la mia odissea, l'unico pensiero veramente commodo, e pronto. Non mi costa un minuto di <emph>sì</emph>, di <emph>no</emph>, di <emph>ma</emph>; e mi risparmia la fatica e il rossore di scrivere una dedicatoria. Ond'io posso dal mio canto risparmiare e al mecenate e al lettore due pagine per lo meno di noia. Le cose tra me e me si passano in confidenza. D'altronde de' miei avi, bisavi, e proavi non saprei che mi dire; non li conosco. Potrei rimediare a questa ignoranza e al vuoto della carta col mio panegirico: ma non si può nè si deve, e l'ipocrisia lo proscrive assolutamente; e poi.... chi crederebbe? Biasimiamoci. Progetto nuovo e in salvo dalle mentite. — Ecco per altro violate le regole, e la mia dedicatoria non sarebbe più una dedicatoria.</p>
+            <p>Nondimeno bisogna confessare che il libro è mutilato.</p>
+            <p>Vittoria, lettore! m'alzo a mezzo il pranzo per non lasciarmi scappare il più bel pensiero del mondo. La dedica sarà scritta o dall'editore, o dallo stampatore, o dal libraio, o da un amico, o da qualche letterato, o da.... — Odore di rancidume!</p>
+            <p>E l'impostura farà sempre mercato di voi, vergini muse ? Non è poco se talvolta la ricchezza offre sprezzantemente un tozzo di pane al vostro sacerdote?</p>
+            <p>Lettore, finiamola; tu m'hai fatto tastare una certa corda.... — ed io non ci vo' più pensare; non ci pensar nemmen tu.</p>
+            <p>Ma lo stampatore per non caricarsi la conscienza del pentimento de' compratori che crederanno di portarsi a casa il libro con tutte le adiacenze e pertinenze, aggiunga nel frontispizio a lettere maiuscole: « <hi rend="sc">VI SARÀ L'EPIGRAFE, NON LA DEDICA. CHI LA VUOLE SE LA SCRIVA</hi> ».</p>
+         </div1>
+         <div1 n="Avvertimento">
+            <head>AVVERTIMENTO</head>
+            <p>Il libro che sta fra le mani del candido lettore è il sesto tomo dell'<emph>Io</emph>, opera annunziata nel paragrafo precedente, che n'è il proemio universale.</p>
+            <p>Mando innanzi il sesto, perchè gli antecedenti volumi stanno ancora nel mio calamaio, e i futuri nel non–leggibile scartafaccio del fato.</p>
+            <p>Comprende questo tomo il mio anno ventesimoterzo, dai 4 maggio del 1799 sino a' 4 maggio del 1800. Unito che sia al corpo dell'opera, lascerà il frontispizio che porta.</p>
+            <p>Nè si sospetti ch'io stampi un tomo alla volta per tastare il giudizio del pubblico. Con pace della critica e del disprezzo proseguirò sempre a scrivere ed a stampare.</p>
+            <p>Ma perchè scrivi ? — A ciò ho risposto nel proemio, inseritovi <foreign lang="lat">ad hoc</foreign>. Che se poi non avete nè voluto nè saputo valutare le mie ragioni, eccomi presto a darvi la risposta che di pieno iure vi si spetta. Poichè lasciate suonare il piffero a chi volendo ingannare la sua noia sturba i vicini, non v'adirate s'io che non so suonare alcuno strumento, tento d'ingannare, scrivendo, i miei giorni perseguitati ed afflitti.</p>
+            <p>E perchè stampi?</p>
+            <p>E perchè compri? — D'altronde si può comprare e non leggere; e qui avrei voluto chiamare in testimonio le biblioteche de' frati e de' vescovi, ma poichè sono state saccheggiate dagli agenti nazionali, mi trovo forzato a far citare quelle de' commissari, de' finanzieri, de' generali e de' nobili.... e di qualche letterato. — Vuoi più? Tutta questa rispettabile ciurma potrà persuadervi <foreign lang="lat">ab experto</foreign> che si può comprare, leggere e non intendere.</p>
+            <p>Fuor di scherzo. — Vedimi ginocchione per confessarmi a' tuoi piedi, o tollerante conoscítore dell'uomo. Il proponimento di mostrarmi come la madre natura e la fortuna mi han fatto sa un po' d'ambizione. Lo so.... ma.... ti giuro ch'io non sono stato mai ambizioso. Ho sentito.... lo dico arrossendo.... ho sentito e sento — lascia prima ch'io mi copra con le mani la faccia — una febbre di gloria che m'ubbriaca perpetuamente la testa. Nella mia adolescenza le ho sacrificato la quiete della casa paterna e la certezza del pranzo giornaliero. I miei piaceri, i miei vizi, le mie passioni, il mio onore e perfino le mie speranze — ora non ho altro — sono, quand'ella il voglia, sue vittime. È vero ch'io spoglio talvolta questo fantasma della porpora e della tromba; e allora vedo in lui uno scheletro che traballa su le ossa ammucchiate de' cimiteri.... casca, si dissolve e si confonde fra le altre reliquie della morte. Ma poi? torna a lusingarmi con la sua voce che passa tra il fremito delle tarde generazioni e rompe co' suoi raggi che a me sembrano eterni la profonda caligine de' secoli remoti. Tutte le mie potenze, e i bisogni stessi della vita non parlano allora in me che con un rispettoso mormorio. Il solo pensiero che il mio nome sarebbe sepolto col mio cadavere mi distolse due volte dal mio vecchio proponimento di ingannare la fortuna, di liberarmi dalla noia del mondo e di contentare la umana malignità rendendo questa misera vita alla terra. L'ambizioso ha l'anima gonfia, non elevata. Non ho mai brigato il fumo della letteratura, nè i ricamati vestimenti de' nostri magistrati.... E più che l'amore della virtù il timore dell'avvilimento mi ha rattenuto sovente da quelle azioni che la società chiama delitti. Ma s'io.... — non <add resp="ed">forza</add> umana, non prepotenza divina mi <add resp="ed">faranno rappresentare</add> su questo mortale teatro la parte del piccolo briccone. Bensì.... — Lo dirò? Sogno talvolta di nuotare alla gloria per un mare di sangue. Or tu puoi desumere ciò ch'io non posso dire.</p>
+            <p>Un pari accesso avea, non ha guari, abbattute le mie facoltà. Io aveva esiliato dal mio ingegno le vergini muse, e dal mio cuore il dolce spirito dell'amore. Addio patria, addio madre, addio cara e soave corrispondenza di pacifici affetti. Pareami di consacrare alla “Libertà” un pugnale fumante ancora nelle viscere de' miei congiunti, e di piantar la bandiera della vittoria sopra un monte di cadaveri. La mia fantasia scriveva frattanto il mio nome sulle volte dei cieli. Ma io mi sentiva rodere a un tempo dalla fame di gloria, l'ulcera sorda del supremo potere. Se non che la disperazione di conseguirlo prostrò l'anima mia, la quale giaceva aspettando il soffio distruttore della morte.</p>
+            <p>Una notte nell'agonia dell'infermità, mi sono sentito asciugare il sudore del volto. Schiudendo gli occhi languenti, vidi al debile raggio di una lucerna un vecchio scarno e coperto
+d'un saio sdrucito; il capo calvo, la barba canuta e divisa in due liste. « Non conosci me più? » mi disse sedendo presso al mio capezzale il caro amico Diogene. La mia pallida mano gli facea cenno di andarsene; ma non per questo il buon vecchio si sdegnò. Mi stringeva anzi affettuosamente questa stessa mano e mi confortava a proseguire il mio sonno. « Non dormo, no.... » diss'io, sospirando profondamente e volgendomi dal suo lato, « non dormo....; aspetto qui il sonno eterno! Ma tu che cerchi da me? ».</p>
+            <p>Ed egli: « O mio figliuolo! tu hai negletto la fortuna, perdute le scarse delizie della vita, consumata la gioventù; e invece di pentirti ti vai divorando quel poco d'ingegno che ti resta e che può solo acquistarti la gloria, il di cui cieco desiderio ti ha ridotto a questo deplorabile stato! » — Il mio volto si rasserenava al suo dire; ma quest'ultime parole, destandomi pietà di me stesso, mi trassero una lagrima: ei l'asciugò col lembo del suo saio. Avvedutosi ch'io mi forzava d'alzarmi su le braccia, rizzossi per aiutarmi; s'assise poscia; e sostenendomi il capo con la palma della sua mano proseguì: « Credimi. La fama degli uomini grandi spetta per lo più tre quarti alla sorte e un quarto ai loro delitti. Il vulgo giudica più che dall'intento della fortuna; la utilità fa passare in diritto la sceleraggine, spesso il terrore adula il potente, e l'interesse magnifica sempre l'opulenza. Vedi le lodi che si sono date alle stragi? Ma se pure ti senti bastevolmente scelerato per aspirare all'eroismo, credi che la fortuna arriderà sempre alle tue imprese? Se tu cadessi fra via, saresti deriso come un demagogo, se nel coronamento dell'impresa, esecrato forse come un tiranno: non si può giovare a un popolo senza dominarlo. Aggiungi che gli amori della moltitudine sono brevi ed infausti. Nè ti sarà concesso d'essere giusto impunemente. Un giovine privo di ricchezze, ardente, ma inesperto di ingegno come sei tu, sarà sempre o la vittima del forte o l'ordigno del fazioso. — Tu non potrai dire schiettamente: Amo il mio amico, aborro il mio inimico, ed amo più la mia patria che i suoi governatori. Oh! tu sarai spento dall'arma secreta della calunnia, la tua prigione sarà abbandonata da' tuoi amici e il tuo sepolcro segnato d'infamia.</p>
+            <p>Perchè le antiche calamità della tua patria e le sue presenti sventure non ti hanno ancora insegnato che non si deve aspettar libertà dallo straniero, che scrive sempre le leggi col sangue? Tutto è guerra nell'universo. Lo stesso invasore che la trasse a liberarsi la <gap/> facilmente all'oppressione e al saccheggio. E allora? E avrai tu la forza e il coraggio d'Annibale che per l'universo cercava un nemico al popolo Romano <add resp="ed">?</add>
+            </p>
+            <p>Ma se tu pure che vivrai tu ti lusingassi di un vantaggio per l'umanità.... O mio figlio! La natura geme al nascere di un eroe, e sorride su la tua tomba.</p>
+            <p>Stranieri a tutti gli altri popoli noi non abbiamo che fare con gli uomini che per la <gap/> pietà che talvolta accordano ai nostri mali.</p>
+            <p>O dolci sponde, o sacre case, o feconde campagne d'Italia echeggianti de' nostri gemiti, e rosse del nostro sangue.</p>
+            <p>La venerabile povertà. — I tuoi conoscenti t'incontreranno, e torceranno gli occhi per non riconoscerla.</p>
+            <p>Ah! ora m'avvedo che il saggio vecchio mi ha riservato questa illusione per non calarmi ad un tratto il sipario ed affrettare così la mia morte.</p>
+            <p>Con tutto ciò non mi so dar pace nell'idea di andare ognora vagabondo come un Arabo, portandomi tutto quello che ho sulle spalle. L'ora del mio ritorno è la più bella ch'io segni sempre nel mio giornale. Conoscendo la mia e la universale sceleratezza, ho d'uopo per guardarmi di sapere le leggi che mi condannano e mi proteggono e di avere alcune migliaia d'uomini interessati a difendermi dall'avidità e dall'orgoglio del mio vicino. Ogni sventura, che mi succede in un paese straniero, mi <add resp="ed">ricorda</add> gli antichi amici, le benedizioni e gli addio della mia povera madre e il pacifico piacere di temprare, come suol dirsi, il verno al proprio foco. Chi è quell'Italiano che tornando a casa; non senta scendendo dalle Alpi l'aria piena di vita e di salute e non dica con lagrime di gioia: ‘Beato colui che possiede in questa terra un rivo, un antro, una casa e un raggio di fortuna!’ —</p>
+            <p>Pare che la natura ci abbia costruito il nostro fisico per vivere solamente dove siamo nati.</p>
+            <p>Mi sovviene del povero Svizzero.</p>
+            <p>E n'abbiamo ragionato sovente, io e l'amico mio Diogene; il quale non è poi, come si pretende, l'uomo il più villano del mondo. Nè tutta la sua eloquenza, nè il suo esempio, che vale assai più, mi hanno potuto mai fare cosmopolita nel cuore.... — non posso. La mia ragione presa alle strette dagli argomenti e dalla trista verità dell'esperienza ha detto scuotendo appena la testa di <emph>sì</emph>; ma il cuore — e Diogene che lo sa ve ne attesti — è restato da quel dì malinconico, e non ha risposto neppure un <emph>et</emph>.</p>
+            <p>Ho dormito più volte i miei sonni pacifici su la paglia, e ho cenato allegramente sul desco della povertà. Nelle mie meditazioni ho congedato la vita col disdegnoso sorriso di tutti gli antichi e moderni “sprezzatori” di morte; non eccettuato il buon Seneca che — sia detto fra noi — si accarezzava tremando un fiato di vita con l'acqua ora di uno ora di un altro ruscello, e coi legumi piantati sospettosamente dalla propria mano ne' suoi lussureggianti giardini.</p>
+            <p>Ma la patria?... Il cielo non me ne ha conceduto; anzi ordinò alla fortuna di gettarmi nel mondo come un dado.</p>
+            <p>Dai precedenti tomi dell'<emph>Io</emph> che voi, madama, avete già letto, o leggerete, o sarete per non leggerli mai — non sono ancora scritti — saprete ch'io nacqui in Grecia, che trascorsi l'infanzia fra gli Egiziani; la fanciullezza nell'Illiria; la giovinezza su e giù per l'Italia; la prima virilità in Francia, come vedete; e il resto di vita.... Dio sa!</p>
+            <p>Aggiungete che mio padre mi lasciò erede del suo genio ambulatorio, ed io mi struggo di cercar nuove terre per notomizzare sempre più gli uomini, ed adorare la madre natura. — Ma se voi, madama, leggendo sin qui le poche pagine del mio libro, vi siete <emph>affezionata</emph> all'autore, che (<hi rend="italic">manca il seguito</hi>)</p>
+         </div1>
+      </front>
+      <body>
+         <div1>
+            <head>1</head>
+            <p>Il mio cavallo andava di passo per la via dell'Appennino, e il mio cane mi seguitava.</p>
+            <p>« Addio, addio beato paese, ove la fortuna mi avea fatto obbliare per alcun poco le miserie de'mortali! » Il mio cavallo intanto si fermava perch'io potessi rivolgermi, e salutar da lontano i colli di Bologna, e la mia solitudine, e te, o Luigi, che forse parlavi secretamente di me....</p>
+            <p>Il nominarmi era delitto. —</p>
+            <p>E te e te.... deliziosa fanciulla che allora, chi sa? non ti accorgevi nemmen più ch'io ti mancassi.</p>
+            <p>Ma.... addio! — il destino forse mi ricondurrà più felice e più saggio. — Ma.... conviene dunque ch'io beva la saviezza nel calice della sventura? Sia: quand'io sarò stanco della burrasca, il naufragio sarà sempre pronto. Addio dunque. Che se mai, se mai non mi vedeste più.... e se....</p>
+         </div1>
+         <div1>
+            <head>2</head>
+            <p>Se.... —</p>
+            <p>Conviene per altro ch'io mi faccia conoscere a tutti quelli che non mi conoscono. Io dunque sono uno strumento fatto per ogni tuono, e appunto appunto per modulare le “transazioni”.</p>
+            <p>Nel momento de' miei <emph>Addio</emph> un reggimento di Usseri trottava verso la Toscana. Il mio cavallo era normando di razza, di alta taglia, baio dorato, coda all'inglese, ampio petto, gambe snelle, orecchie ritte, collo e testa marziale.... e v'era da scommettere cento contr'uno che nelle prime campagne della guerra presente egli avesse avuto il nome, le funzioni e le qualità di Baiardo. Vero è ch'egli avea bisogno d'una valdrappa assai larga che gli coprisse la groppa; e se si deve credere alla cronologia de' cinque compratori che mi hanno preceduto, egli non contava che sedici anni.... più o meno.</p>
+            <p>Ma gli si leggeva per altro e nella fronte e nel portamento “storie de' prischi tempi e forti fatti”; onde è naturale che il trottar degli altri cavalli gli abbia ridestato la memoria delle antiche battaglie, e il pizzicore di farsi apprezzare. Aggiungi la mia divisa militare, la mia lunga scimitarra e un gran pennacchio che mi ondeggiava sopra il cappello....</p>
+            <p>— in somma il mio cavallo cominciò prima a corbettare e poi a gareggiare di trotto. Lo dirò? Mi sono in un momento passate dalla testa le care e meste memorie — io precedeva la cavalleria arieggiando il valore di Rinaldo, non parlando più ai colli di Bologna, i quali ad onta de' miei saluti patetici non m'avrebbero mai dato risposta.... così almeno credo.</p>
+         </div1>
+         <div1>
+            <head>
+               <add resp="ed">3</add>
+            </head>
+            <p>Perch'io reputo meno degenerata la schiatta de'cavalli che de'cavalieri. I nostri eroi stanchi delle strane avventure movono guerra, e “vincasi per fortuna o per ingegno”, all'opulenza e al piacere: ed offrono in tributo alle dulcinee una parte della conquista. E qual Venere mai oserebbe appressarsi all'alloro se non sentisse da lungi l'odore del mirto intrecciato e lo splendore del....</p>
+            <p>Ma voi, signor generale, m'intendete, senza ch'io vi annoi di più, e mi credete senza ch'io giuri. — Ve' nondimeno un dubbio insolente: vi sono stati mai degli Eroi? — non vi corrucciate, vi prego: questo sia per non detto.</p>
+            <p>Un pensiero, per altro, rovescia tutte le riflessioni precedenti, le quali si potrebbe far a meno di leggere. Dico dunque che la cavalleria di que' generosi erranti non ha potuto mai esistere.... se non come la sovranità popolare.... ed eccone la ragione.</p>
+            <p>Non si legge mai ch'essi avessero dell'oro.</p>
+            <p>E non so come talvolta non sieno stati cacciati dai castellani dov'essi albergavano a spese dell'aria. Non v'è dunque oggetto di comparazione fra i Paladini e voi, signor Generale. — Ma con gli Eroi di Plutarco? Appunto appunto. Se non che la più gran parte di que' grand'uomini erano nati ricchi; e voi che lo sapevate, vi siete arricchito da voi stesso.... —</p>
+            <p>Fra tanto e tanto, è vero egualmente.</p>
+         </div1>
+         <div1 n="A Psiche">
+            <head>A PSICHE</head>
+            <p>Che fai, deliziosa fanciulla? Io credeva che il tuo cuore volando dietro a' piaceri, non si ricordasse più del suo Lorenzo. Tu non sei sventurata, <add resp="ed">non</add> sospiri con me la perduta felicità. Una mesta illusione ti chiama sovente nella mia solitudine. Io ti parlo e mi faccio rispondere. Talvolta rammentandomi le nostre ore di paradiso ti mando de' baci; e mi sento su le labbra una certa fresca soavità come se tu m'avessi baciato in quel momento. E ieri io m'alzava dal letto salutandoti: « Addio, addio piccola deità: tu forse non sai, né t'importa, s'io vivo ». Ma verso sera la tua lettera mi ha rimproverato i miei sospetti; ed io l'ho bagnata di lagrime riconoscenti.</p>
+            <p>Buon giorno, dunque. Che la tua bellezza e la tua gioventù sorridano sempre come l'aurora di questa mattina. Sempre? — Cielo, cielo, abbi pietà della mia giovinetta!</p>
+            <p>Che ti dirò intanto? — i miei mali?... no: la tua compassione darebbe un balsamo, è vero, al mio povero cuore; non sarà però mai ch'io voglia avvelenare la pace e la voluttà fatte per la tua anima angelica, e per la tua sacra bellezza.</p>
+            <p>Tu vuoi nondimeno ch'io ti scriva quello che ho imparato nel mio viaggio. Innocente! Gli uomini son tutti bassi con la ricchezza e orgogliosi con la povertà. Ciascuno è scelerato, quando il proprio interesse non lo strascini a offrire delle ippocrite adorazioni a quel fantasma che la società cui torna d'ingannarsi, e d'ingannare, chiama pomposamente virtù. — Ecco tutto.</p>
+            <p>Ma io scrivo a te, e non alla ippocondriaca filosofessa che comincia finalmente a moralizzare.... e ne appello ai vecchi amici di casa tornati nella grazia di madonna dopo l'ingrato abbandono. — Cura per altro di non nimicartela. Le antiche galanti sono per lo più di buon cuore e cercano per le altre quello che hanno perduto con la giovinezza fuggitiva.</p>
+            <p>Ascolta. Le donne belle sono nate per amare, e per essere amate. E tu forse mi dici sorridendo: “Lo so meglio di te”. Bada; ancora non t'avvedi che mille basse passioni e il cieco delirio dell'amore turbano quasi sempre le delizie del piacere. Imita la celeste Temira. A questa sacerdotessa di Venere ho consacrato le primizie della mia gioventù. Ella amava le buone qualità delle donne, e sfuggiva senza maldicenza i lor vizi. Ammirava in taluna lo spirito, in tal altra il cuore, in questa la gioventù, in quella i vezzi, ed ammirava tutti questi doni in sè stessa.... ma non n'era avara per questo. Viveva e lasciava vivere. Il mistero apriva e chiudeva le cortine del suo letto: — il mistero; intendi? — Era amante per cinque giorni, ma amica per tutta la vita.</p>
+            <p>Era un dopo–pranzo d'estate. Ella stava ignuda sopra il suo letto. Appoggiava il gomito sui guanciali, e la testa alla palma della mano. Io le giaceva vicino ancora anelante, e appena uscito dagli arcani ove la Dea mi aveva iniziato. Mi accarezzava scherzando; ed io alzava di tratto in tratto la testa e la baciava quasi per ringraziarla libando dalle sue labbra i respiri per i quali ella rinveniva a poco a poco dalla sua voluttuosa agonia. Il desiderio intanto calmato ma non estinto mi porgeva il nettare del piacere, ed io lo assaporava a piccoli sorsi. Le mie mani e i miei sguardi erravano qua e là estatici su quelle bellezze che l'impeto della passione m'avea dapprima mostrato confusamente. La sua bocca umida e socchiusa, la fisonomia passionata, gli occhi più azzurri che mai nuotanti in un languore voluttuoso; le guancie impallidite e rugiadose di sudore; le chiome sparse in onde dorate su le braccia, su le spalle e sul petto; le poppe lievemente sommosse dai palpiti del cuore.... Eterno Iddio! perchè hai scolpito così tenacemente nella memoria la felicità che tu tu.... mi hai rapito per sempre?</p>
+            <p>Oh! — ma la mia curiosità mi teneva sospeso — su le sue forme. — Da quel giorno l'anima mia ha sempre filosofato sul bello, e ha sdegnato i vezzi troppo comuni di tant'altre donne.</p>
+            <p>La mia mano scorrea mollemente per le sue membra bianchissime incarnate di rosa. Ho osato.... ove una fina lanugine biondeggiante.... —</p>
+            <p>« Piccolo birichino, disse Temira baciandomi, e sorridendo della mia ingenuità. «“M'ami tu dunque?”» Io la guardai. « “Fedelmente?” » replicò Temira, che avea sentita tutta l'eloquenza della mia occhiata.</p>
+            <p>« S'io t'amo ? s'io t'amo ?... » esclamai.</p>
+            <p>« Oh in questa età » proruppe Temira abbracciandomi, « solo in questa età gli incensi degli uomini sono puri. Allora soltanto noi respiriamo per un momento il profumo dilicato del candore e della fedeltà.... ma.... un momento! »</p>
+            <p>« Io, proseguì, stava tra il sì e il no sul pensiero di offrire io medesima il tuo primo sacrificio alla natura. Temeva di aprire al tuo cuore inesperto ed impetuoso la via del dissipamento. Io già sentiva il rimorso di sviarti dalle utili discipline, e di rapirti gli amabili vaneggiamenti dell'amore non ancor conosciuto.... Ma d'altra parte mi parea di vederti strascinato dalla prepotenza del tuo naturale a comprare i baci da una bocca affamata, guastando la tua salute e la tua gioventù Talvolta ti sentiva a' piedi di una superba maledire l'amore, e gemere respinto e sprezzato. Le donne virtuose nei sospiri de' loro amanti sfortunati non altro alimentano che una perfida compiacenza. —; Vien dunque, vieni. Gli abbracciamenti d'una donna che t'ama t'ammaestrino nel piacere, e t'allontanino dalle passioni e dal vizio ».</p>
+            <p>« Bada!... non innamorarti!... »</p>
+            <p>(O! avessi creduto a Temira. Non avrei tentato di offrire a' tuoi piedi, o Teresa, il mio cadavere senza neppure la speme di una lagrima. Ma:... così è: ho dovuto bevere sempre la saviezza nel calice della sventura. Io ti sarò amico sino all'ultimo fiato; ma.... amarti! Non più; mai! Io fuggo le memorie della tua bellezza e della tua crudeltà, simile a un'ombra lamentosa....)</p>
+            <p>« Cogli i favori delle belle donne come i fiori delle stagioni ».</p>
+            <p>« Se il cielo ti darà una sposa, dividi con essa tutta la tua felicità. E dividi con essa nelle disgrazie il pane e le lagrime. Amatevi. E se vi fosse concesso amatevi eternamente. Ma questo amore perfetto se lo hanno pur troppo riserbato i numi. Ancor non è poco se due amanti, spenta la passione, non s'odiano. Prevenite gli ultimi giorni di una passione languente che cede sempre il loco alle furie della gelosia e dell'onore. La tristezza, il sospetto e il tradimento passeggiano sempre d'intorno al letto di due sposi gelosi. Non vi rapite la sacra amicizia, unico balsamo all'amarezze della vita. L'amore perfetto è una chimera: il desiderio fa beati alcuni momenti: e l'amicizia conforta tutti i tempi, ed unisce tutte l'età. Va' mio ragazzo; te' un bacio, non mi giurare fedeltà ch'io né la credo nè lo voglio. »</p>
+            <p>Vi era, o Psiche nel tempio di Venere un voto con questa iscrizione: <quote>“Non amo più Tirsi nè prego di amarlo ancora: Dea! fa' che Dòrilo m'ami”</quote>.</p>
+            <p>Io voleva insegnarti le lezioni della mia precettrice fino dal giorno che ti ho detto <emph>mi piaci</emph>. Ma chi era sì pazzo da rapire al piacere le brevi ore furtive appena sfuggite al sospetto del tuo geloso marito? Mi scrivi pertanto ch'ei s'è corretto. Buon per lui: che il cielo e la buona fortuna gliene rendano il merito. Tu se' giovinetta, egli vecchio. Prenda dunque da' tuoi sedeci anni quello che può e che.... per giustizia non gli viene. La natura in fine de' conti si ride delle leggi ippocrite della società. Tu l'ami come fratello, tu l'onori come padre, tu l'accarezzi come sposo; gli basti. Tu nè sei nè sì prodiga nè sì vana da ruinare gl'interessi domestici. Il mondo esige le immagini della virtù e dell'amore e tu le conservi. — Poche mogli fanno altrettanto.</p>
+            <p>Io non so, piccola biricchina, s'egli fu il primo a cogliere il primo boccio di rosa della tua primavera. Sorridi? Per me, non posso giurare nè per il <emph>sì</emph> nè per il <emph>no</emph>.</p>
+            <p>Ma tu, chiunque tu sia, beato mortale che l'hai còlto, inginocchiati meco dinanzi la madre natura.</p>
+            <p>— O Natura! accogli quest'inno de'tuoi figli. I mortali dovrebbero maledirti e renderti questa vita. Pianto, speranza, terrore e morte, ecco i nostri elementi. Ma tu hai creato la Bellezza! e noi adorandola ti rendiamo grazie anche per i nostri mali. —</p>
+            <p>La preghiera è fatta.</p>
+         </div1>
+         <div1>
+            <head>57</head>
+            <p>Ora làsciati pregare e persuadere anche tu, mia fanciulla. Il bello è sì raro! Tu saresti ingrata con la natura, se non ne distribuissi a que'mortali, che piacendoti acquistano il diritto di possederlo.</p>
+            <p>A questo proposito mi ricordo che Temira mi diceva sovente: Io faccio felici gli uomini per quattro motivi.</p>
+            <p>Per bisogno,</p>
+            <p>Per dovere,</p>
+            <p>Per capriccio,</p>
+            <p>Per compassione.</p>
+            <p>Ma a quest'ora il regno di Temira è finito. Il tempo ha sfogliato le rose della bellezza. Ella, o Psiche, ti cede il loco.</p>
+         </div1>
+         <div1>
+            <head>58</head>
+            <p>Temira! il tuo regno è finito; ma io.... — e non so di che amore — ma io t'amo ancora.</p>
+            <p>Il mio amore non è certo platonico.</p>
+            <p>Non è l'amore dei baci.</p>
+            <p>Non è sentimentale.</p>
+            <p>Non è di desiderio.</p>
+            <p>Non è di speranza.</p>
+            <p>Non è di gelosia.</p>
+            <p>Non è di ambizione.</p>
+            <p>Non è per puntiglio.</p>
+            <p>Non per costume.</p>
+            <p>Non è per progetto.</p>
+            <p>Non per cavalleria.</p>
+            <p>Non è.... non è....</p>
+            <p>Chi può dirlo? — ma io so che spargerei tutto il mio sangue per te.</p>
+            <p>Che importa se il tempo ha sfogliato le rose? La fragranza rimane ancora; e l'amicizia la respira.</p>
+            <p>Le passioni, più che l'età, hanno oscurato nel mio sembiante il raggio della giovinezza. Eccomi sventurato e filosofo. Sorridono le mie labbra; ma non il sorriso della gioia. E, se talvolta rido pazzamente, rido di me che ho compianto la perfidia degli uomini senza avvedermi che non si può cambiar la natura.</p>
+            <p>Se dunque, o Psiche, io ti addito il loco di Temira, non è ch'io lo faccia per me; io non ti vedrò forse più. A me basta se tu conforti con un sospiro la memoria di quest'esule sfortunato. Che la sacra amicizia te ne ricompensi! Ella renderà serena la tua vecchiezza, come adesso l'amore fa gaio il tuo aprile.</p>
+            <p>Io scrivo.... e.... e ogni lettera ch'io traccio m'avvisa che la vita siegue con pari rapidità la mia penna. Il tempo vola e divora il creato. Passano l'ore simili alle nuvole cacciate dagli aquiloni. Tutto cangia, tutto si perde quaggiù.... tutto! Quelle trecce che tu con tanta cura componi.... vedi vedi! ti biancheggiano fra le dita. Ogni bacio, ogni addio è il preludio di quella eterna separazione che ci aspetta! — Presto!.... copriti gli occhi fino ch'io chiuda di nuovo le cortine del futuro aperte dalla mia mano indiscreta.</p>
+         </div1>
+         <div1>
+            <head>59</head>
+            <p>Che lunga lettera! per me vorrei che non finisse mai. Io vivo ancora con te.... almen come posso. Non so che intenzioni possa avere il destino su la magra e malinconica persona del povero Lorenzo. Lasciami dunque scrivere.... forse, chi sa, questa lettera ti porterà il mio ultimo addio.</p>
+            <p>T'assista la fortuna, mia buona e cara fanciulla! tu lo meriti, perchè hai il cuore ben fatto. Ma.... che il tuo cuore appunto non ti tradisca! .Non piegarti ai primi sospiri di un amante: lo perderai per sempre. Innanzi di svelare tutti i tuoi vezzi, fa come la madre d'Amore che prima di scendere fra gli abitanti di Tempe si lasciava adorare avvolta dentro una nuvola, facendosi conoscere all'aura de' suoi capelli profumati d'ambrosia.</p>
+            <p>I numi festeggiavano un giorno in un convito celeste il ritorno di Venere dagli oracoli d'Amatunta. Per onorare la Dea, ciascuna delle altre dive ornò le Grazie del proprio pregio. La Grazia cui Diana concesse il pudore, fu adorata dai mortali come la. primogenita e la più bella.</p>
+            <p>Lettore, se vuoi terminare la lettera, salta questo paragrafo che non c'entra.</p>
+            <p>
+               <quote>« Immergendomi in quel laghetto, io cantava un inno alla natura ed invocava le ninfe, amabili custodi delle fontane. “Illusioni!” grida il filosofo. E non è tutto illusione? tutto? Beati gli antichi, che si credevano <add resp="ed">degni</add> degli abbracciamenti delle dive, che sacrificavano alla Bellezza e alle Grazie, che diffondevano lo splendore della divinità su le imperfezioni dell'uomo, e che accarezzando gl'idoli della lor fantasia trovavano il bello ed il vero. »</quote>
+            </p>
+            <p>Parole dello sfortunato amico mio Jacopo Ortis. — Siegue la lettera.</p>
+            <p>Guai se tu ti abbandoni alle prime occhiate di un amante; lo perderai per sempre.</p>
+            <p>Di coloro che spandono i loro tesori per disgustarsi di quanto v'ha di più bello nella natura.</p>
+            <p>Quelle piccole cose che son di tanto valore; la virtù e l'amore son parole vuote; ma le loro immagini piacciono.</p>
+            <p>Il pallore, la tristezza e il silenzio passeggiano come i fantasmi intorno l'uomo geloso — i sogni guidati dalle furie.</p>
+            <p>Non vi sono che i numi ecc.</p>
+            <p>
+               <foreign lang="fre">Épargnez toujours les derniers jours d'une passion languissante.</foreign>
+            </p>
+         </div1>
+      </body>
+      <back>
+         <div1 n="Frammenti vari ed appunti">
+            <head>FRAMMENTI VARI ED APPUNTI</head>
+            <p>« Non conoscete persona del mondo ? » dicevano a un tavolino due galantuomini ad un uomo che avea sembianza d'essere un viaggiatore.</p>
+            <p>« No ».</p>
+            <p>« E che fate qui? »</p>
+            <p>« Passo il verno ».</p>
+            <p>« Bel clima questo!... ma non vi divertite ».</p>
+            <p>« Ho giocato e ho perduto ».</p>
+            <p>« Che fate dunque? »</p>
+            <p>« Passeggio ».</p>
+            <p>« Tutto il giorno? »</p>
+            <p>« Passeggio ».</p>
+            <p>« La sera pure? »</p>
+            <p>« Passeggio ».</p>
+            <p>« Vi annoierete ».</p>
+            <p>« Talvolta ».</p>
+            <p>« E allora? » diss'io che stava in piedi, levandomi con due mani il cappello di testa e ponendolo dispettosamente sul tavolino d'un inimico giurato della noia.</p>
+            <p> « E allora, fumo ».</p>
+            <p>Scuoteva intanto le ceneri della sua pipa, e s'apparecchiava a riempirla di tabacco. — Egli avea bisogno di fumare, ed io di partire; i due genovesi restarono ad ammazzare il tempo sui loro sedili; il viaggiatore si pose a fumare, ed io sono andato dove m'è piaciuto.</p>
+            <p>Ma così svagandomi mi sono obbliato di dirti che ho veduto il tuo <hi rend="sc">B</hi>***. — Mi accolse di buon cuore, forse perchè non ha sospettato della mia trista fortuna — o forse ancora per lo stato cadaverico in cui lo aveva lasciato una febbre maligna che non gli permetteva ancora di respirare il libero soffio dell'aria. Gli uomini non perdono l'orgoglio se non con le forze. —</p>
+            <p>« Io torno dalla soglia della morte », mi disse fievolmente porgendomi la mano tremante.</p>
+            <p>Quel giorno mi sono guardato di nominarti.</p>
+            <p>Io avrei toccato nel cuore del povero malato una corda, la di cui vibrazione non sarebbe cessata sì tosto.</p>
+            <p>« Le donne sono piccole e svelte, bianchissime e per lo più bionde. L'aria modesta, il portamento gentile; le vesti candide, succinte, eleganti; passeggiando si coprono la testa di un lino trasparente che casca sino ai fianchi e scende dai lati sino ai piedi. Alzano spesso le loro vesti per far mostra forse del lor piede breve e calzato con somma decenza. La loro voce dolcissima rende aggradevole quel dialetto che davvero gli uomini mal<gap/> Ma semplicissimo è il loro abbigliamento: curano la.... capelli e le feste portano dei lini. Son poco amorose. Sono amiche de' lor amanti e amanti per invidia di loro amiche</p>
+            <p>Mi son trovato rinchiuso fra due montagne nere aride, circondate in tutta la loro altezza da orribili precipizi, e da abissi profondi. Presso le loro vette le nuvole erravano lentamente fra alberi funebri: due stavano sospese sui loro sterili rami.</p>
+            <p>O conquistatori, qui qui contemplate lo spettacolo dei stermini di cui affliggete la terra.</p>
+            <p>Io sapeva che tu eri debole, ma non poteva persuadermi che tu dovessi morire prima di me.</p>
+            <p>La parola le spirò su le labbra.</p>
+            <p>Le cose più rispettabili sono:</p>
+            <p>La madre col suo bambino sul braccio;</p>
+            <p>Il servitore invecchiato in una famiglia;</p>
+            <p>La verginella che coglie de' fiori.</p>
+            <p>Venero inoltre i vecchi e vo pazzo per i fanciulli dai tre ai sett'anni; disprezzo i pedanti, compiango i soldati ed aborro i criminalisti.</p>
+            <p> Oserei definire la civiltà: la perfetta <add resp="ed">arte</add> di fingere. E la virtù: il secreto di mascherare tutti i volti.</p>
+            <p>Ogni uomo pare che sia fatto per vivere nella sua patria ed io.... per abbandonarla.</p>
+            <p>Ma s'io sono diffidente.... lo giuro per le mie tante e crudeli sventure.... ch'io in questo non ho altra colpa se non d'essere stato troppo ingenuo, e d'aver dato occasione agli uomini di darmi delle lezioni sacrificandomi all'umana malignità e alla sociale furberia.</p>
+            <p>Mi si legge nella fisonomia la prodigalità.</p>
+            <p>Io cerco qui il mio cuore, ma non lo trovo più. Oh! mia giovinezza!</p>
+            <p>Onde, o mio confessore, spero che questo libro ti desterà i pensieri destati da una lapida sepolcrale incontrata in un passeggio solitario.</p>
+            <p>La nostra anima ritiene della divinità dalla quale è emanata una debole conoscenza dell'avvenire.</p>
+            <p>Il mio destino, la mia felicità e il mio presentimento.</p>
+            <p>Io mi credo più savio di tutti perchè rispetto i misteri della natura.</p>
+            <p>Pròstrati in faccia alla divinità e deplora l'umana sconoscenza.</p>
+            <p>La catena che cinge l'universalità degli esseri.</p>
+            <p>L'abbondanza di idee non è che penuria.</p>
+            <p>Il male partecipa della natura dell'infinito; e il bene del finito.</p>
+            <p>Scienza, elezione, e perseveranza: ecco la virtù, e il delitto. Prudenza, ecco tutto.</p>
+            <p>I filosofi hanno voluto gli uomini numi.</p>
+            <p>La virtù unisce il cielo con la terra.</p>
+            <p>La vita meditazione della morte.</p>
+            <p>La nostra vita partecipa de'principi comici e tragici; l'intreccio sono le nostre follie e lo scioglimento la nostra morte.</p>
+            <p>La necessità che trionfa di tutto.</p>
+            <p>La vita è un epigramma, di cui la morte è l'aculeo.</p>
+            <p>Talete rispose a quei che <add resp="ed">gli domandò che</add> ci vuole per essere felici: <quote>Sanità, ingegno, e fortuna</quote>.</p>
+            <p>L'eccesso dei piaceri è l'unico ristoro a' popoli fatti vili e infelici dalla tirannide.</p>
+            <p>Filippo domandava alla fortuna di temperare la sua felicità con una disgrazia.</p>
+            <p>Passeggiere, va' e di' a Sparta che noi riposiamo qui per avere obbedito alle sue sante leggi.</p>
+            <p>In fine del conto tutto è analogia d'idee.</p>
+            <p>Alla soave rugiada della laude la laude fiorisce come le piante alla rugiada del cielo.</p>
+            <p>Ma spetta solo agli uomini dabbene di lodare l'uomo dabbene.</p>
+            <p>Lodi — Io le assaporava deliziosamente.</p>
+            <p>Di questa passione io non sento che un lontano mormorio.</p>
+            <p>Le brighe della malafede mercantile.</p>
+            <p>Saffo è immortale come le Muse.</p>
+         </div1>
+      </back>
+   </text>
+</TEI.2>

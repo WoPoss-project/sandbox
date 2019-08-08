@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://backend.bibliotecaitaliana.it/DTD/bibit.dtd">
+<TEI.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Cerco un libro...</title>
+      <author>Desiderio Chilovi</author>
+    </titleStmt>
+    <extent>55 Kb in UTF-8</extent>
+    <publicationStmt>
+      <publisher>Biblioteca Italiana</publisher>
+      <pubPlace>Roma</pubPlace>
+      <date>2005</date>
+      <idno>bibit001018</idno>
+      <availability>
+        <p>Questa risorsa digitale è liberamente accessibile per uso
+              personale o scientifico. Ogni uso commerciale è vietato</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+      <title>Collezione BibIt</title>
+    </seriesStmt>
+    <sourceDesc>
+      <bibl>
+        <title>Cerco un libro...</title>
+        <author>Chilovi, Desiderio</author>
+        <editor id="ed">Guiducci Bonanni, Carla</editor>
+        <editor id="ed2">Del Bono, Gianna</editor>
+        <editor id="ed3">Rossi, Marielisa</editor>
+        <publisher>Biblioteca nazionale</publisher>
+        <pubPlace>Firenze</pubPlace>
+        <date>1989</date>
+        
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+                  <samplingDecl>
+                    <p>Tutti i materiali paratestuali della fonte cartacea non riconducibili alla
+                      responsabilità dell'autore dell'opera sono stati soppressi nella versione
+                      digitale</p>
+                  </samplingDecl>
+                  <editorialDecl>
+                    <correction method="silent" status="medium">
+                      <p>Livello medio: controllo a video con collazione con edizione di
+                      riferimento</p>
+                    </correction>
+                    <quotation form="data" marks="all">
+                      <p>I simboli di citazione e di discorso diretto presenti sulla fonte cartacea
+                        sono stati rappresentati sulla versione digitale</p>
+                    </quotation>
+                    <hyphenation eol="none">
+                      <p>I trattini di sillabazione a fine riga sono stati soppressi e le parole
+                        ricomposte</p>
+                    </hyphenation>
+                  </editorialDecl>
+    <classDecl><taxonomy id="CGB"><bibl>Classificazione generi BibIt</bibl></taxonomy></classDecl></encodingDesc>
+  <profileDesc>
+    <creation>
+      <date>900</date>
+    </creation>
+    <langUsage><language id="ita">Italiano</language><language id="lat">Latino</language><language id="fre">Francese</language><language id="ger">Tedesco</language><language id="eng">Inglese</language><language id="tur">Turco</language></langUsage>
+    <textClass>
+      <keywords scheme="CGB">
+        <term>Trattati</term>
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>1999-02-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Alberto Petrucciani</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Digitalizzazione - Digitalizzazione DBT</item>
+    </change>
+    <change>
+      <date>2004-02-12T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Correzione linguistica</item>
+    </change>
+    <change>
+      <date>2004-02-12T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Elena Pierazzo</name>
+        <name>CIBIT- Pisa</name>
+      </respStmt>
+      <item>Codifica XML - Codifica XML sulla base del protocollo CIBIT</item>
+    </change>
+    <change>
+      <date>2005-05-10T00:00:00.000+02:00</date>
+      <respStmt>
+        <name>Carla Deiana</name>
+        <name>BIBIT</name>
+      </respStmt>
+      <item>Validazione</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1>
+<head>CERCO UN LIBRO...</head>
+
+<byline>DESIDERIO CHILOVI</byline>
+
+<div2 type="parte">
+<head>[Introduzione]</head>
+<p>
+<pb n="4"/>
+Queste parole si sentono pronunziare di continuo da chi studia; 
+si ripetono ad ogni momento nelle sale delle pubbliche biblioteche: 
+e l'idea che esse esprimono, così indeterminatamente, provoca la 
+domanda: Un libro, di chi?... oppure: Un libro, su che?...
+E non può essere diversamente; perché, o si cerca un libro in 
+qualche modo conosciuto, o si cerca un libro ignoto e tale che, se 
+rinvenuto, potrebbe agevolare i nostri studî.
+E per trovarlo che cosa si fa?
+È presto detto. Saputo il titolo, si chiede senz'altro alla biblioteca; se manca, e se ci preme di averlo, si cerca altrove; e, potendolo, si acquista. Invece, quando ne ignoriamo il titolo, vorremmo 
+che la biblioteca ce lo indicasse, e, possedendolo, ce lo offrisse di suo.
+Poste le cose in questi termini, si domanda: in qual modo il 
+bibliotecario cerca di soddisfare coi suoi lavori alle nostre richieste? 
+Quale aiuto la biblioteca può prestarci nelle ricerche bibliografiche? 
+Quale soccorso efficace possiamo sperare nelle nostre investigazioni dai cataloghi e dal materiale bibliografico d'ogni biblioteca?
+Ecco i quesiti ai quali sarebbe utile dare una risposta chiara 
+ed esauriente.
+</p></div2>
+<div2 type="parte">
+<head>[Il bibliotecario]</head>
+<p>
+Il pubblico crede sempre di poter far grande assegnamento sul 
+bibliotecario. Ma questa fiducia è troppe volte esagerata. Di fronte 
+al bisogno il bibliotecario sa sempre troppo poco! Su questo proposito si racconta che nel secolo passato una gran dama di Corte 
+chiedesse al bibliotecario della Nazionale di Parigi certe notizie 
+genealogiche; ma egli non seppe che cosa risponderle. Sorpresa, 
+gli domandò qual stipendio riceveva, e saputolo: «Mi meraviglio», 
+disse, «che vi si possa dar tanto!» E l'altro calmo rispose: «Mi 
+si dà questo, per il poco che so. Se si pretendesse di pagarmi anche 
+per quello che non so, la Francia non sarebbe ricca a bastanza!»
+<pb n="5"/>
+Di fatto è per tutti evidente che egli potrà conoscere, diciamolo pure, soltanto di vista, un numero relativamente più o meno 
+grande dei suoi libri e, su molti di questi, potrà anche metter la 
+mano in un batter d'occhio; ma aver modo di poterli ricordare 
+assolutamente tutti, e al momento del bisogno, per porgerli al richiedente, sono le due grandi difficoltà contro le quali lotterà costantemente e con varia fortuna. La dottrina del bibliotecario; 
+l'avere egli con tenacia studiato una piccola parte di qualche ramo 
+dello scibile; l'essersi pazientemente addentrato in certi dati argomenti, sono cose che potranno giovargli molto, ma parzialmente, 
+nella sua professione. Fuori di quella cerchia speciale, umanamente 
+limitata, la sua dottrina sarà sempre troppo piccola cosa e impari 
+al bisogno, se si porrà a confronto con le regioni diverse e gli spazi 
+immensi, direi quasi infiniti, attraverso i quali il pensiero dell'uomo 
+ha già peregrinato.
+Fatta una eccezione per i conservatori dei manoscritti, per i 
+quali l'erudizione e la conoscenza profonda della lingua adoperata 
+e della materia trattata nei codici a loro affidati, sono assolutamente indispensabili; abbiamo ora, per i libri a stampa, due 
+specie diverse di bibliotecari: quelli che abbagliati dalle antiche e 
+gloriose tradizioni del passato vogliono non solo esser dotti in ogni 
+cosa, ma pompeggiare tra gli eruditi; e coloro che, invece di dedicare tutto il loro tempo e il loro ingegno ad uno studio speciale e determinato, modestamente cercano e si sforzano di conoscere, a vantaggio del loro istituto, almeno a larghi tratti, le 
+numerose vie per le quali il pensiero dell'uomo corre alla ricerca del vero; a qual punto è già arrivato; e quali libri nelle 
+indagini e ricerche sarebbero più efficaci a chi studia. Essi cercano 
+di essere utili in qualche modo ai frequentatori della biblioteca; e 
+non tentano, con pubblicazioni d'ogni sorta, di guadagnarsi ammirazione e plauso al di là delle mura del loro ufficio! Essi non vogliono disporre a loro comodo e a proprio talento di una pubblica 
+biblioteca; non credono esser stipendiati dal Governo per leggere 
+o studiare per loro conto; la biblioteca non è un magazzino di libri 
+da guardarsi semplicemente a vista; ma è uno strumento da rendersi validissimo per lo studio altrui. Sanno che soltanto col loro 
+lavoro paziente ed assiduo possono dare alla biblioteca un valore 
+ed una potenzialità letteraria e scientifica grandemente superiore 
+a quella che, senza l'opera propria, non potrebbe avere.
+<pb n="6"/>
+Senza un bibliotecario che pensi ed operi così, una biblioteca 
+nazionale, diceva Disraeli, sarà sempre poco più di un <emph>Caos letterario</emph>.
+In questo lento e difficile cammino, in questa improba fatica, 
+il bibliotecario è confortato e sorretto dal pensiero che i suoi studi 
+e l'opera sua potranno un giorno, vicino o lontano, egli non lo 
+sa, giovare ad altri; gli appunti e i ricordi che egli via via raccoglie per i cataloghi - dei quali forse non ha veduto il principio 
+e certo non vedrà la fine - saranno utili a chi studia e studierà.
+</p></div2>
+<div2 type="parte">
+<head>[I cataloghi della biblioteca]</head>
+<p>
+Nella ricerca dei libri è necessario separare i pochi che una 
+biblioteca possiede dalla immensa quantità dei libri che le mancano, e le mancheranno sempre.
+Limitiamoci per ora a discorrere dei cataloghi che registrano 
+i libri della biblioteca: verrà forse in seguito l'occasione di parlare 
+anche degli altri libri e dei mezzi che si hanno per arrivare a 
+conoscerli.
+E per prima cosa si domanda: Basta per una grande biblioteca 
+un catalogo solo, o ce ne vogliono più d'uno? Come deve, o come 
+devono essere?
+In questo le opinioni e i giudizi variano moltissimo. Dopo tanti 
+anni che esistono biblioteche istituite e dirette da uomini di grande 
+ingegno, di dottrina e abilità non comuni, dopo tante prove e così 
+lunga esperienza, il problema non è stato ancora risolto, quantunque la sua importanza sia più grave e molto maggiore che non 
+si creda comunemente.
+Su questo proposito nella relazione della grande inchiesta fatta 
+nel 1849 per la biblioteca del Museo Britannico si fa giustamente 
+notare che una nazione «fintanto che non possiede un buon sistema di cataloghi non può conoscere in tutta la loro estensione 
+quanto siano grandi i tesori letterari e scientifici che possiede, e 
+dei quali dovrebbe potersi valere».
+A me basta di aver qui accennato brevemente a questa importanza; nè posso, nè voglio esaminare i diversi metodi, le diverse 
+regole con cui si compilano i cataloghi, nè addentrarmi poi in 
+particolari tali, da mettere in rilievo i loro pregi e i loro difetti. 
+È sufficiente che si sappia da tutti coloro che adoperano libri, che 
+alla domanda: - se vi è nelle biblioteche il libro di uno scrittore, - 
+<pb n="7"/>
+risponde il catalogo alfabetico per nomi di autore; e che gli altri 
+cataloghi, tolti quelli che hanno un carattere esclusivamente amministrativo, servono, più o meno felicemente, a far ritrovare negli 
+scaffali i libri non conosciuti e forse preziosi per una determinata 
+ricerca.
+</p></div2>
+<div2 type="parte">
+<head>[L'arte di fare i cataloghi]</head>
+<p>
+L'arte di fare i cataloghi non è tanto facile, quanto generalmente si crede. Per fare un catalogo qualunque occorre avere una 
+esatta descrizione del libro; e già in passato il dotto compilatore 
+del Catalogo della Bodlejana in Oxford si lamentava che fosse nella 
+mente di molti la credenza in questa facilità; e scriveva: «Cosa 
+vi è, si dice, di più facile che dare un'occhiata a un frontespizio 
+e trascrivere il titolo di un libro?»
+Ma quando questo titolo deve servire, non per un ricordo personale, ma per un grande Catalogo, allora le difficoltà sorgono numerose sotto ogni aspetto. Le Associazioni dei bibliotecari fanno di 
+frequente studio di questo argomento; ogni biblioteca detta e scrive 
+le proprie norme; e bibliotecari di abilità e di esperienza incontestate 
+redigono e compilano le leggi che si vorrebbero osservate da tutti. 
+Certo, molti lettori resterebbero meravigliati se avessero sott'occhio 
+le memorie e gli scritti intorno a quest'arte; se sapessero di dover 
+leggere e studiare tutto ciò che di importante è stato scritto su 
+questo argomento per poter da loro stessi, e con sicurezza, consultare un grande catalogo; se dovessero fra le norme più autorevoli 
+e universalmente accettate, scegliere le migliori per adoperarle; se 
+per copiare esattamente un titolo dovessero imprimersi nella mente 
+le 91 regole dettate da Antonio Panizzi (1841) per la stampa del 
+catalogo alfabetico della biblioteca del Museo Britannico; le regole del Jewett (1853), destinate ad una vasta collaborazione bibliografica; le regole del Cutter (1876), dello Dziatzko (1886) che ce 
+ne dà 300; del Dewey (1888), per arrivare da ultimo, mentre si 
+aspetta la nuova edizione ampliata di quelle dello stesso Dziatzko, 
+alle 500 regole del Linderfelt (1890); regole che quasi tutte servono unicamente ad insegnare a trascrivere con la dovuta esattezza un titolo, in modo da potergli dare il posto giusto fra le 
+migliaia di titoli del catalogo. È appunto perchè il lettore non conosce tutte coteste regole, che si vede talvolta nel caso di non 
+trovare nel catalogo quello che effettivamente c'è.
+Per dare una qualche idea di questa intricata legislazione fatta 
+<pb n="8"/>
+per mettere d'accordo i bibliotecari, e tutto il personale che lavora 
+ai cataloghi, basterà porgere un esempio intorno ai titoli onorifici o 
+ereditari spettanti agli scrittori. La cosa sembra di lieve importanza, 
+mentre, invece, in un grande catalogo ne ha molta per l'identificazione d'un autore; per non confondere uno con un altro; per non 
+arrivare alla strana anomalia che lo stesso autore possa essere denotato come due persone diverse, il che troppe volte succede.
+Il Linderfelt, l'ultimo degli scrittori da me ora ricordati, ne 
+parla (<num>õ</num> 422-453) per dire quando, come e dove, si deve prendere 
+ricordo di questi titoli, che egli suddivide in onorifici e individuali; 
+in quelli usati dallo stesso autore; in quelli che un autore si attribuisce e piglia da sè; in quelli ereditari di famiglia, i quali devono essere trascritti come sono nell'originale e non tradotti, come 
+si fa per i titoli dei regnanti; quali sono i cambiamenti che i titoli 
+di nobiltà subiscono secondo la legislazione inglese o l'uso di altri 
+paesi; quando si deve mettere <foreign lang="eng"><emph>Lord</emph></foreign> e quando la scrittrice ha diritto di esser chiamata <foreign lang="eng"><emph>Lady</emph></foreign>; quando e come si deve prendere ricordo dei titoli di nobiltà che una donna aveva prima di prender 
+marito; alla necessità di notar sempre sulle schede: <emph><foreign lang="eng">Mrs, Miss, 
+Lady, </foreign> <foreign lang="fra">Mme, Mlle,</foreign> <foreign lang="ger">Frau, Fru, Fräulein, Fröken</foreign>, Signora, Signorina,</emph> ecc. quando dal nome, e forse dalla sola iniziale del nome, 
+non è dato accorgersi trattarsi d'una scrittrice, ed evitare così il 
+pericolo di lasciare, senza avvertirlo, una signora o signorina in 
+mezzo a tanti uomini.
+Per i titoli usati in Oriente, il Linderfelt, ne dà un elenco alfabetico (circa 500), ciascuno accompagnato dal suo significato, per 
+sfuggire il caso di prendere per un casato un titolo o una semplice incombenza onorifica o una designazione qualunque, come 
+sarebbe - giacchè parliamo di donne - <foreign lang="tur"><emph>Kokona</emph></foreign>, che in turco designa 
+signora greca o altra signora cristiana.
+Questa grande precisione è necessaria. La caratteristica principale che accredita un buon catalogo alfabetico, sta tutta in questo: 
+che il titolo di un libro, nella successione dei diversi titoli, deve 
+occupare un posto prestabilito e determinato; o è là, o nel catalogo 
+non si trova. Quanto maggiori sono in questo proposito le incertezze - molte delle quali derivano appunto dall'allontanarsi nel trar 
+copia di un titolo dalle norme prescritte, o dal non averle usate 
+rettamente - tanto più cattivo e inservibile è il catalogo. Con simili 
+incertezze si perde continuamente tempo nel cercare qua e là 
+<pb n="9"/>
+all'impazzata un titolo, per restar poi sempre col dubbio che il libro, 
+che non si è potuto rinvenire nel catalogo, stia poi nascosto in 
+biblioteca.
+Ma il fin qui detto basta: perchè rinunzio al tentativo di voler 
+persuadere e convincere il lettore cortese di queste grandi difficoltà. Ne dubitava persino Antonio Panizzi, il grande maestro. Egli, 
+trattando appunto di queste difficoltà, scriveva a <foreign lang="eng">lord</foreign> Ellesmere: 
+«Profondamente impressionato, come sono, per le difficoltà delle 
+quali le ho spesso tenuto parola, lo sono ancora, e molto più, dalla 
+difficoltà di destare negli altri, intorno ad esse, un senso eguale 
+al mio».
+</p></div2>
+<div2 type="parte">
+<head>[La forma esteriore dei cataloghi]</head>
+<p>
+Prima di parlare dell'ordinamento diverso dei vari cataloghi 
+sarà bene dire qualche parola della loro forma esteriore, che può 
+essere a tutti comune, perchè anche questa dà al bibliotecario molto 
+da pensare.
+Lo scrivere i titoli nell'ordine voluto in un registro, o stamparli sotto forma di libro, ha dei grandi vantaggi: i titoli scritti, o 
+stampati, su di una pagina, rimangono fissi al loro posto e sono 
+riuniti in uno spazio minore; così dallo studioso possono essere più 
+rapidamente veduti e letti senza pericolo che siano disordinati.
+Ma con tutti i mezzi immaginati fino ad oggi non è stato possibile lasciare o dar posto in un volume scritto al numero straordinariamente grande dei titoli che via via si devono aggiungere in 
+modo da non scomporre o alterare l'ordine dato. Si pensò di lasciare dello spazio bianco fra titolo e titolo, riservato ai nuovi; 
+si pensò di scrivere su di una pagina, lasciando quella di faccia 
+bianca per le aggiunte; si provò a scrivere in fogli staccati le opere 
+di un solo autore per potere introdurre, poi, altri fogli, fermandoli 
+tutti con legature mobili; e, per la biblioteca del British Museum, 
+si adottò il sistema di scrivere i titoli su striscie di carta e di impastarle alle sole estremità sulle pagine dei registri, per poterle 
+staccare ad ogni momento, quando fosse necessario dar posto a nuove 
+striscie. Al British Museum un legatore è sempre occupato in questa 
+faccenda: ma tutto è inutile! Questi provvedimenti, che sarebbero 
+bastati se il numero delle pubblicazioni si fosse mantenuto entro 
+discreti limiti, sono insufficienti non solo per il numero crescente 
+dei libri, ma più ancora per il numero stragrande dei titoli delle 
+memorie scientifiche e letterarie da doversi, inevitabilmente, prima 
+<pb n="10"/>
+o poi, inserire nei cataloghi. Osservava benissimo il senatore Giorgio 
+Picot che «anche i cataloghi, come tutti gli strumenti di lavoro, 
+sono soggetti alla legge del progresso».
+Colla registrazione scritta nel catalogo a volumi si ha anche 
+la scheda, polizza di carta o cartoncino, sulla quale si scrive o si 
+stampa il titolo di un'opera, oppure, ritagliandolo da un catalogo 
+stampato o da una bibliografia, vi si impasta sopra. Riunite le schede, 
+di eguale grandezza e ordinate a piacere, è facile inserire poi migliaia e migliaia di aggiunte nello schedario senza alterare l'ordine 
+prestabilito.
+La biblioteca pubblica di Boston stampa colla <emph>linotype</emph>, su cartoncino, in modo molto bello, tutte le schede del proprio Catalogo: 
+lo stesso fa, per le biblioteche destinate alla cultura generale e per 
+i libri moderni, l'Associazione dei bibliotecari americani; cinque 
+grandi biblioteche americane stampano in società le schede che 
+registrano le memorie inserite in centotrenta pubblicazioni periodiche diverse, fra le quali alcune italiane; e, fino dal 1880, ha 
+fatto così la Biblioteca Universitaria di Gand, per la sua <emph>Biblioteca 
+belgica o bibliografia generale dei Paesi Bassi</emph>, ed ugualmente il 
+<foreign lang="lat"><emph>Concilium bibliographicum</emph></foreign> di Zurigo.
+Altre biblioteche invece ritagliano i propri bollettini bibliografici; come ha fatto e fa la Biblioteca Nazionale Centrale di Firenze fino dal 1861, colla <emph>Bibliografia italiana</emph>, che era ed è compilata sui libri da essa ricevuti: similmente pratica da qualche 
+anno la Biblioteca Nazionale di Parigi usando i suoi due bollettini; 
+e la Reale di Berlino coll'indice dei suoi nuovi acquisti.
+Ma la necessità di uno schedario non è avvertita soltanto 
+nelle biblioteche; s'impone anche imperiosamente ai cultori di 
+quelle scienze in cui più che nelle altre è rapido il progredire. 
+Per questa ragione alcune fra le bibliografie più recenti si stampano a libro, lasciando al <foreign lang="lat"><emph>verso</emph></foreign> la pagina in bianco, perchè le indicazioni bibliografiche possano essere ritagliate e ridotte a schede, 
+come hanno fatto per le Memorie di medicina il signor prof. Tullio 
+Rossi Doria di Roma; col suo Indice sistematico delle opere di 
+medicina entrate nella Universitaria di Pavia, il signor dott. Luigi 
+De Marchi; il comm. Barbèra di Firenze col Catalogo perenne delle 
+proprie edizioni; per la fisiologia il signor Richet di Parigi; per 
+la geologia il signor Mourlon di Bruxelles, e il <emph>Bollettino della bibliografia giuridica italiana contemporanea</emph> dell'avv. S. Saladini, 
+<pb n="11"/>
+ed altri molti. Oramai il catalogo scritto in volumi è condannato 
+a sparire e a cedere il posto alla scheda, e le stesse bibliografie, 
+eccettuate quelle retrospettive, dovranno forzatamente esser stampate in modo da potersi ridurre a schede!
+</p></div2>
+<div2 type="part">
+<head>[L'ordinamento dei cataloghi]</head>
+<p>
+Dette queste poche parole intorno alla forma esteriore che si 
+dà ai diversi cataloghi, conviene ora dire che, fra tutti, il più alla 
+mano, il più facile a compilarsi, e anche amministrativamente il più 
+necessario, è certo il catalogo alfabetico per nomi d'autore. Ma que-
+sto catalogo, destinato a far conoscere allo studioso le opere di 
+uno scrittore possedute da una biblioteca, e al bibliotecario il 
+luogo dove esse sono collocate, non aggiunge alcuna nuova nozione bibliografica a quelle che già si avevano, fatta forse eccezione per qualche scritto ancora a noi sconosciuto di un qualche 
+autore. È un catalogo, che quando è molto esteso offre grandi difficoltà per redigerlo in modo sempre uniforme, ed è più che altro 
+destinato ad agevolare la consegna del libro.
+Degli altri cataloghi di una biblioteca, compilati per rispondere 
+alla seconda domanda, per sapere cioè: - quali libri intorno ad un 
+dato argomento la biblioteca possiede, e questa è la cosa che allo 
+studioso più preme - si può dire che due sono le forme principali, 
+meritevoli di essere qui almeno ricordate. Quella che metodicamente 
+raggruppa i titoli dei libri che trattano della medesima scienza o 
+di uno studio particolare e determinato, e che poi dà, a questi titoli 
+riuniti, l'ordine stesso col quale la scienza o lo studio si sono svolti 
+e diramati, nel tracciare la via da essi percorsa fino ai giorni nostri; oppure l'altra, il catalogo a soggetti, nel quale - desunta da 
+un titolo la parola che meglio designa l'argomento trattato - si raggruppano tutte le opere designate con quella parola, che si chiama 
+<emph>parola d'ordine</emph>.
+Queste parole d'ordine si dispongono poi, non in un ordine 
+scientifico o sistematico qualunque, ma semplicemente nell'ordine 
+voluto dall'alfabeto.
+</p></div2>
+<div2 type="parte">
+<head>[Il catalogo a soggetti]</head>
+<p>
+Parlando di quest'ultimo catalogo, del catalogo a soggetti, ho 
+già detto in un altro mio scritto che «questa specie di musaico, 
+formato coi frammenti e con le spezzature di un catalogo scientifico, buttati là alla rinfusa, e ordinati a gruppi fra di loro 
+<pb n="12"/>
+indipendenti, come esige la parola d'ordine, serve certamente per 
+chi ha scarsa coltura, per chi si inizia ad uno studio, oppure a 
+chi desidera sul momento una indicazione bibliografica qualunque; 
+ma in questa disposizione alfabetica non vi sono traccie di logica 
+o di razionalità».
+E qui mi torna ripetere il parere recente di uno scrittore inglese, il quale dopo di avere asserito che con esso si esaltava «<foreign lang="eng"><emph>an 
+A B C classification</emph></foreign>», aggiungeva «<foreign lang="eng"><emph>this is at once its glory and 
+its shame!</emph></foreign>»
+Manca poi, e per una grande biblioteca è difetto gravissimo, 
+qualsiasi carattere d'internazionalità.
+In un catalogo alfabetico il casato di un autore è unico, è immutabile, è intelligibile allo studioso di qualunque nazione; resta 
+uguale tanto in un catalogo fatto da Italiani, quanto se è fatto da 
+Francesi, da Inglesi, da Tedeschi, ecc., salvo i pochi casi di difettosa e erronea trasliterazione dei casati, scritti in un alfabeto che 
+non è il nostro.
+Nel catalogo a soggetti, invece, bisogna necessariamente servirsi di una lingua, e la lingua in cui il catalogo è compilato non 
+può essere conosciuta da tutti.
+Ora il catalogo di una grande biblioteca deve, di certo, servire ai nazionali principalmente; ma al tempo stesso presentare 
+agli stranieri, come riflessa in uno specchio, l'attività intellettuale di quel paese; dare ad essi facile modo di conoscere il pensiero, le vicende storiche, le manifestazioni artistiche ed i costumi 
+paesani.
+A coloro poi che respingono un sistema di classificazione 
+scientifica, solo perchè le classi, le sottoclassi, le sezioni e le 
+sottosezioni in cui il sistema stesso può esser ripartito non si 
+succedono costantemente a tutto rigore di logica - come in questo 
+istante le condizioni delle scienze esigerebbero - a coloro vorrei 
+chiedere, se nel catalogo a soggetto, nel quale le parole d'ordine 
+scelte si succedono e si avvicendano come in un dizionario enciclopedico, essi trovano questo nesso desiderato, questa successione 
+logica della quale lamentano la mancanza; se saprebbero scoprire 
+e indicare le affinità e le relazioni, che esistono e collegano i soggetti che precedono con quelli che seguono, in questo esempio, 
+tolto a caso dal <emph>Catalogo semestrale della Libreria italiana</emph> (Milano, 1897, lib. I, pag. 48):
+<pb n="13"/>
+<quote rend="block">
+<p>Mineralogia - Miniatura - Minuetto - Miracolo - Miraglia (Paolo) - 
+Mitologia - Moglie - Molino - Molluschi - Momenti d'inerzia - Monete - 
+Monismo - Monte Allegro - Monte Pensioni pei Maestri - Montenegro - 
+Monti (Vincenzo) - Morale - Morfologia - Morte - Mosto - Muscoli - 
+Musica.</p>
+</quote>
+Se questo salterello, che così in piccolo riesce già tanto ameno 
+e grazioso, si vorrà applicare al catalogo di una grande biblioteca, 
+riuscirà ancora più bello e divertente. Perchè vi è anche da notare 
+che, per scegliere queste parole d'ordine, non si ha una norma assoluta e rigida, prescrivente a tutti di servirsi per indicare il soggetto di una parola d'ordine piuttosto che di un'altra equivalente. 
+E così per dare poi un qualche legame, una certa unità a questo 
+catalogo, i richiami da una parola d'ordine all'altra si moltiplicano, 
+si intrecciano, si accavallano: e non basta: si raddoppiano, si triplicano le schede, perchè allo stesso titolo sembra conveniente di assegnare differenti parole d'ordine. In tal modo il catalogo cresce 
+a dismisura, e si gonfia stranamente.
+Il R. Istituto Lombardo, che di recente ha adottate - e di ciò 
+dobbiamo essergli molto grati - le schede a stampa per le sue importantissime Memorie, offre già più di un esempio di questo non 
+lodevole gonfiamento. Per citarne uno, che trovo fra i miei appunti, ricorderò la seguente Memoria: <emph>Intorno al bordello di Pavia 
+dal 14° al 17° secolo ed ai soccorsi di S. Simone e S. Margherita</emph>.
+Una scheda stampata - ed è giusto - va con questo titolo sotto 
+il nome dell'erudito autore della Memoria, ed è destinata per il catalogo alfabetico; la seconda, destinata al catalogo per soggetto, 
+porta la parola d'ordine <emph>Pavia</emph>; la terza, <emph>Meretrici</emph>; la quarta, <emph>Postriboli</emph>. Ma volendo seguire con maggiore esattezza questo metodo 
+si deplora la mancanza di una quinta scheda, <emph>Bordelli</emph>, perchè è 
+proprio con questa parola che l'autore designa questi luoghi turpi, 
+mentre per i ricoveri delle donne traviate di <emph>S. Simone</emph> e di <emph>S. Margherita</emph> non si è fatta una sesta ed una settima scheda! In un catalogo scientifico, qualunque sia il sistema seguito, il titolo di questa 
+Memoria non troverebbe altro posto che quello dove stanno riuniti 
+i titoli degli scritti che trattano della <emph>Polizia dei costumi</emph>. Procedendo così, i soggetti diversi potranno divenire diecimila, ventimila, cinquantamila e più.
+Se la Società Reale di Londra adottasse, come il R. Istituto 
+Lombardo, definitivamente questo sistema, per il suo Catalogo delle 
+<pb n="14"/>
+Memorie di scienze esatte pubblicate dopo il 1800; se continuasse 
+anche in avvenire, come fa, a stampare le schede delle sue Memorie (<foreign lang="eng"><emph>Index Slips</emph></foreign>) per i suoi <foreign lang="eng"><emph>Proceedings</emph></foreign>, da ultimo non le basterebbero centomila parole d'ordine. Chi lo può prevedere? E ne 
+seguirà la necessità d'un catalogo sistematico alle centomila parole 
+d'ordine, per averle tutte presenti nell'assegnarle ad un titolo o 
+nelle ricerche da farsi.
+Si aggiunga poi che specialmente nella nuova terminologia 
+scientifica, nella quale l'uso non ha ancora consacrato nè fatto accettare un determinato vocabolo, le incertezze e la confusione devono essere ancora maggiori. Non è molto leggeva in una buona 
+Rivista scientifica popolare, il <emph>Cosmos</emph> di Parigi, il seguente avvertimento:
+<quote rend="block">
+<p><foreign lang="fra"><emph>Les noms des oeuvres des Rayons X</emph>.
+Les rayons Roentgen n'ont pas de nom puisque l'initiateur lui-même 
+leur a infligé la dénomination de rayons X; quant à leurs effets, ils en 
+ont trop, ce qui est quelques fois génant. Pour que nos lecteurs puissent s'y reconnaître quand ils ouvriront des revues étrangères, nous les 
+avisons que les photographies obtenues par les rayons X s'appellent:
+En France: Radiographie ou Radiogramme.
+En Angleterre: Skiagraphie ou Skiagramme.
+En Allemagne: Actinographie.
+Quand nous recevrons des nouveaux noms, nous les signalerons...</foreign></p></quote>
+Questo gioverà moltissimo a chi fa un gran catalogo a soggetti. Potrà aumentare il numero dei richiami... e non credere 
+erroneamente che tutti questi termini scientifici siano fra di loro 
+diversi, mentre servono per indicare la stessa cosa. Dispettoso 
+destino! Anche questi raggi che portano la luce perfino attraverso i 
+corpi non gioveranno a chi fa un catalogo a soggetto; anzi, creeranno 
+confusione maggiore.
+</p></div2>
+<div2 type="part">
+<head>[Il catalogo scientifico e i sistemi bibliografici]</head>
+<p>
+Parlerò ora del catalogo scientifico, il quale raccoglie in sè 
+tutto il materiale bibliografico, posseduto dalla biblioteca, ordinato nel modo più vantaggioso agli studiosi d'una determinata 
+scienza.
+Qui importa distinguere lo schema adottato e il modo col quale 
+poi si adopera. Questo sistema, comunemente detto sistema bibliografico, varia immensamente nella sua composizione, nella sua 
+estensione. Ognuno vede e contempla lo scibile a modo suo, sotto 
+<pb n="15"/>
+cento aspetti diversi, e attraverso lenti d'ogni grado e colore. 
+Pertanto il numero di questi sistemi, sia che abbraccino tutto o una 
+sola parte dello scibile, è molto grande. Ogni biblioteca ha il proprio, e come se ciò non bastasse, molti bibliografi, per smania impaziente di emergere sugli altri, credono di doverci presentare nei 
+loro lavori uno schema vantato come molto più scientifico degli 
+altri. Non ce n'è uno che dica modestamente: «Ho disposto e ripartiti i titoli così, perchè ho creduto in tal modo di rendere più facile allo studioso la sua ricerca». Fra i bibliografi, come tra i nostri 
+giovani scrittori, avviene qualche cosa di simile: questi non si credono uomini di soda dottrina e veri letterati se prima non hanno 
+tormentato, a furia di commenti, alcuni versi di Dante..., commenti 
+che, come asseriva il Montesquieu, parlando di quelli fatti alla 
+Bibbia, lasciano poi tanti dubbi quanti ne sono i versetti; e ciò 
+perchè questi interpreti considerano, egli dice, la Bibbia semplicemente come un libro che può dare ed accrescere autorità ad essi 
+e alle loro idee preconcette: «<foreign lang="fra">c'est pour cela qu'ils en ont corrompu tous les sens et ont donné la torture à tous les passages</foreign>».
+Io non parlerò qui delle divisioni principali sotto le quali cotesti sistemi raggruppano i libri, per poi suddividerle e sezionarle da capo in un numero grandissimo di ramificazioni.
+Questa enumerazione, come pure ogni discussione sul loro valore e pregi, poco monta per quello che qui voglio dire. A me 
+preme di non inoltrarmi sopra un terreno infuocato, scottante, sul 
+quale, se mai si mette il piede, conviene usare estrema prudenza; 
+perchè al solo avvicinarvisi si ode, portato dal vento, come salutare avvertimento, l'eco dell'aria provocatrice che Lindoro canta 
+a don Bartolo: «Dunque lei?... lei vuol battaglia? Ben battaglia 
+le vo' dar...».
+Impegnarsi in una battaglia simile sarebbe inutile; da questa 
+battaglia nessuno uscirebbe vincitore o vinto; ogni combattente 
+porterebbe con sè, a casa sua, parecchio bistrattate, le proprie 
+idee. Però importa notare l'impossibilità di avere e di adoperare, 
+per una grande biblioteca, un sistema bibliografico corrispondente 
+a quell'alto ideale vagheggiato da molti, che sbagliano la classificazione filosofica delle umane conoscenze, colla classificazione, essenzialmente pratica, da darsi ai libri registrati in un catalogo.
+Questi tentativi elevati, nobili, grandi, bisogna lasciarli a coloro 
+<pb n="16"/>
+che, dopo lunghi e pazienti studi e ricerche, sono in grado di offrire nel miglior modo possibile allo studioso il materiale bibliografico di una piccola e limitata parte di una scienza; a coloro 
+che d'ogni libro sanno riferire come, quando, perchè e da chi fu 
+scritto; quale valore ha il libro nella scienza, sia isolatamente o 
+nelle sue relazioni con gli altri scritti prima o dopo la sua pubblicazione; a coloro che con la sola disposizione assennata dei titoli 
+segnano le orme luminose lasciate dalla scienza nel suo progredire; in una parola, ai veri bibliografi; i quali, senza scriverla, delineano la storia di una scienza o di una parte di essa; e talvolta 
+hanno nelle loro mani la fortuna di un libro!
+Qual'è il bibliotecario che può credere di poter far tutto questo 
+per una grande biblioteca, nella quale ogni anno si rovescia una 
+valanga di libri? e non solo credere di poterlo fare, ma di farlo 
+bene? Per me a questa perfezione rinunzio, come a una cosa impossibile; e naturalmente lascio agli altri, senza muover loro rimprovero, la libertà di credere ed operare diversamente.
+Che il filosofo ci spieghi l'origine delle idee, che ci parli dello 
+scibile umano, che ci dica lo scopo al quale mira una determinata 
+scienza, e quale importanza essa abbia nelle ricerche del vero; 
+come si suddivida e si dirami nel momento in cui egli scrive; 
+quali relazioni abbia con le altre scienze, è cosa certo utile e sovranamente bella; ma non vedo nessuna necessità o ragione nel 
+bibliotecario, per dar ordine e rendere utile la sua preziosa suppellettile, di mettere in mostra un sistema bibliografico proprio, con 
+la strana pretesa che esso risponda rigorosamente e sempre a tutto 
+quello che si chiede ad un trattato filosofico sulla genesi delle idee 
+o sulle conoscenze umane.
+Nella scelta di un sistema bisogna accertarsi che esso corrisponda alle necessità della biblioteca. Il voler correre dietro a un 
+ideale di perfezione è lo stesso che voler prendere e stringere un 
+fantasma. Questa presunzione di far cosa perfetta impedisce che 
+si facciano questi cataloghi, e si metta a disposizione degli studiosi 
+il poco che si è fatto. E questo è male!
+La scienza cammina trionfalmente veloce, trasformandosi di 
+continuo; non si ferma, per fare il comodo del bibliotecario, neppure un istante; non si lascia riprodurre, e rapidamente <emph>fissare</emph> 
+dalla luce in una immagine fedele. Fra tanti sistemi scientifici, 
+quello che sembra il migliore, poco dopo essere stato rigorosamente 
+<pb n="17"/>
+delineato, si trasforma per necessità e presto, almeno parzialmente, 
+in un sistema convenzionale.
+Nella loro quasi incredibile varietà non se ne è ancora trovato 
+uno che sia stato benedetto e accolto dai più; i bibliotecari non si 
+sono neppure messi d'accordo sul punto di partenza dal quale si 
+dovrebbero prendere le mosse per farlo; e non tutti ci hanno detto 
+quale idea principale ebbero, e con quali criteri hanno tracciata la 
+loro classificazione.
+Risalendo verso gli antichi, e prendendo a caso qualcuno di 
+questi sistemi, si ha, per esempio, che il Fontanini e il padre Garnier hanno suddiviso tutto lo scibile giusta le quattro Facoltà: 
+Teologia, Filosofia (comprendendo in questa Facoltà anche le altre 
+scienze e le arti), Storia e Giurisprudenza. Il padre Garnier scrive: 
+<foreign lang="lat"><emph>Doctrina quae libris comprehenditur perficit hominem secundum 
+omnes animi vires doctrinae capaces; sunt illae vero quatuor: 
+Ratio superior, Ratio inferior, Vis reminiscendi et Vis societatem 
+cum aliis ineundi quae aliarum trium complexio quaedam: homo 
+enim dictus est a veteribus animal Deo cognatum, rationale, politicum</emph>.</foreign>
+Ma il padre Garnier, da buon cattolico, aggiunse poi quest'altra: l'<emph>Eterodossia</emph>, per non mescolare i libri cattolici con 
+quelli messi all'indice. Il Lomeier fa precedere il suo sistema, destinato anche ad ordinare i libri negli scaffali, da questa dichiarazione: <foreign lang="lat"><emph>Librorum dispositio arbitraria est, eam tamen cum iucunditate et utilitate coniunctam esse oportet</emph></foreign>, e ci dà sette classi 
+principali.
+Stando al Leibnitz, invece, le classi principali dovrebbero essere otto. L'abate Girard supponeva l'uomo nello stato selvaggio; 
+e di qui suddivide tutte le cognizioni, che egli potrà un giorno 
+acquistare, in sei classi principali; dimostrando poi una decisa tendenza a suddividere ancora ogni classe per sei; e presentando poi 
+dei riavvicinamenti bizzarri, e davvero selvaggi, come è quello d'accozzare il <foreign lang="lat"><emph>Corpus iuris</emph></foreign> colle regole per i giuochi d'azzardo. Il 
+Denis, insigne bibliografo e bibliotecario di Vienna, ripartiva, cento 
+anni fa, lo scibile in sette classi secondo il detto di Salomone (G. I.): 
+<foreign lang="lat"><emph>Sapientia aedificavit sibi Domum, excidit columnas septem</emph></foreign>, perchè 
+queste sette colonne che sostengono e ornano la casa della Sapienza 
+simboleggiano il candelabro dell'arca santa, oppure i sette doni 
+dello Spirito Santo.
+<pb n="18"/>
+Se volessi ricordare con questi sistemi, qui citati a caso, più 
+per l'anzianità della trattazione, che per la loro utilità, anche 
+quelli sbocciati dopo, non finirei mai. Ma a titolo di curiosità voglio far menzione di alcuni, limitandomi alle sole grandi ripartizioni fondamentali, per dimostrare almeno quanto differiscano tra 
+di loro. Eccone un manipolo:
+<quote rend="block">
+<p>Scienza universale e scienze speciali; scienze necessarie e scienze 
+utili; scienze teoriche, scienze pratiche, arti produttive; scienze razionali, scienze empiriche; scienze antropologiche e cosmologiche; scienze 
+formali e scienze materiali; scienze cosmologiche e scienze noologiche; 
+scienze naturali, antropologiche e trascendentali; polilogia, cosmologia, 
+andrologia, teologia.</p></quote>
+In altri sistemi invece tutto il sapere umano è suddiviso con criteri 
+diversi:
+<quote rend="block"><p>Il vero, il bello; memoria, ragione, immaginazione; idea, fede, scienza; 
+memoria, immaginazione, intelletto; Dio, natura, uomo, ecc. ecc., </p></quote>
+e, per finire, citerò anche un sistema: odeogetico-metodico-enciclopedico.
+Ora, di tutti questi e di molti altri sistemi, si vorrebbe sapere 
+qual'è la partizione migliore? Quale, in tanta discordanza, è quello 
+che in grandissime linee meglio suddivide lo scibile umano? Quale 
+il più ben accetto ai bibliotecari e agli studiosi?... Questo non si 
+sa e non si saprà mai.
+Ma senza volermi diffondere di più e solamente per svelare 
+in parte quello che realmente avviene nelle biblioteche a proposito di questi sistemi bibliografici rigorosamente scientifici, di cui 
+si fa tanto scalpore, posso cedere la parola al signor Taschereau, 
+che dirigeva la Biblioteca Imperiale, ora Nazionale, di Parigi.
+Egli, sul finire del 1857, offriva il primo volume stampato del 
+<foreign lang="fra"><emph>Catalogue des sciences médicales</emph></foreign> al ministro dell'istruzione pubblica, e diceva: «<foreign lang="fra">Je trouvai (1852) provisoirement conservé le système de classification méthodique adopté au commencement du 
+siècle dernier, par Clément. Ce système était devenu inapplicable 
+depuis que l'esprit analytique a fait voir le lien, qui unit ensemble les diverses parties d'une science et les sciences entre 
+elles. La matière médicale fournissait particulièrement la preuve 
+de cette impossibilité. Dans son rangement suranné et sans ordre, 
+où les <emph>Eaux minérales</emph> et l'<emph>Art vétérinaire</emph> n'avaient pas trouvé 
+<pb n="19"/>
+place, on voyait la <emph>Chimie</emph> considerée comme une branche de la 
+<emph>Médecine</emph>, y rattacher avec elle la <emph>Parfumerie</emph> et la <emph>Cuisine</emph>...</foreign>»
+Non può esservi dubbio! È evidente che il sistema bibliografico del Clément, ideato nel 1635, era antiquato, non si doveva nè 
+si poteva più conservare, nemmeno provvisoriamente, nel 1852! 
+Anzi, reca meraviglia che sia vissuto fino allora!
+Cosa doveva fare il signor Taschereau? Fece quello che ognuno 
+gli avrebbe ragionevolmente suggerito, come la cosa più savia e 
+migliore. Non tracciò da sè questo sistema, non volle che lo facessero gl'impiegati superiori della biblioteca, perchè era impresa 
+troppo difficile. Si rivolse al ministro dell'istruzione pubblica pregandolo di chiedere, in questa sua difficoltà, all'Accademia delle 
+scienze mediche di Parigi di volere, nell'interesse pubblico degli 
+studi e per il vantaggio e il decoro della più grande biblioteca 
+del mondo, venirgli in aiuto, e tracciare quella parte soltanto del 
+sistema bibliografico, che comprendeva le scienze mediche.
+Il ministro trovò buona e giusta la domanda, l'approvò e scrisse 
+subito all'Accademia. L'Accademia accettò l'onorifico incarico e 
+prontamente nominò una Commissione. La nomina di una Commissione è quasi sempre il primo provvedimento, quando non è lo 
+scappavia di un Corpo deliberante per non discutere una proposta, 
+per non dare un giudizio.
+La Commissione non si riunì... e si aspetta ancora la sua relazione... E anche questo non farebbe meraviglia; perchè troppe 
+volte colle Commissioni succede così: ma in questo caso perchè 
+non si riunì la Commissione? perchè non rispose?... Il signor Taschereau non lo dice; ma a me, e forse anche al lettore, questo 
+silenzio sembra molto naturale... Poteva un illustre consesso, formato unicamente di persone che hanno veramente grandi studi e 
+cognizioni, presentarsi a tutto il mondo civile, e dire: le scienze 
+mediche devono essere suddivise così e così? e in questa suddivisione non limitarsi ai grandi gruppi, ma, come esigeva il catalogo, 
+addentrarsi fino alle ultime, estreme e più minute ripartizioni? 
+Poteva l'Accademia accingersi a questo lavoro arrischiato, nella 
+quasi certezza che quando la biblioteca fosse arrivata alla fine della 
+stampa di questo suo catalogo, lo schema non avrebbe più risposto 
+in tutto e da per tutto alle rigorose esigenze della scienza? Poteva 
+attestare ai posteri, vicini o lontani, con un documento solenne 
+che l'Accademia non aveva preveduta nè intravveduta una 
+<pb n="20"/>
+evoluzione ancora latente della scienza, ma pure imminente? di non 
+aver, per esempio, dato allora tutta l'importanza, che hanno presentemente, alle ricerche e agli studi bacterologi?...
+Un'Accademia rispettabile non farà mai un simile sproposito. 
+Se è costretta a fare qualche cosa di simile, indicherà nell'albero 
+dello scibile, quali sono i rami più importanti che si staccano dal 
+suo tronco, quali sono i rami minori che da questi rami principali traggono la loro vita; ma non arriverà mai all'ultimo ramoscello, per timore che da una vicina gemma, nascosta e da lei non 
+ancora veduta, nasca un giorno un nuovo ramoscello, un nuovo 
+fiore da destare la meraviglia e l'ammirazione di tutti! Potrà mandare una Commissione in Egitto a sollevare nel tempio d'Iside il 
+velo che nasconde il senso arcano dei geroglifici, potrà trovare un 
+Champollion che riesca a strappar questo velo, ma non indicherà 
+mai, con tanti minuti particolari, le vie sulle quali la scienza 
+dovrebbe muoversi.
+Non avendo l'Accademia voluto rispondere, il Ministero, dopo 
+tre anni di una inutile aspettativa, affidò quest'incarico al sig. Dubois, che fece lo schema desiderato, e il sig. Taschereau lo ringraziò pubblicamente perchè «<foreign lang="fra"><emph>sans le secours de M. Dubois, sans 
+son courage à s'exposer à la critique, nous n'aurions pu remédier au silence gardé par l'Académie</emph></foreign>».
+Di questo catalogo stampato in più volumi si sa ora questo: 
+che serve sempre nella Biblioteca Nazionale di Parigi, che è ancora utilmente consultato dagli studiosi e dalle altre biblioteche 
+del mondo, che lo schema di suddivisione scientifica è infinite volte 
+migliore di quello che prima esisteva, che non presenta difficoltà 
+allo studioso nel valersene... ma che oramai, per tutti coloro che 
+esigono, nella ripartizione del Catalogo di una biblioteca, quella 
+perfezione ideale della quale ho tanto parlato... bisognerebbe pigliarsi la briga di rifarlo e di ristamparlo da capo.
+E ciò dovrebbe ammaestrare tutti, che anche nel fare i cataloghi scientifici delle biblioteche, e nel servirsene, bisogna per forza 
+contentarsi di quello che umanamente è possibile; che la desiderata 
+divisione dello scibile è sempre incerta e transitoria, per conchiudere che se uno schema bibliografico pratico, sia pure in parte 
+convenzionale, può facilitare il lavoro da farsi e servire ai bisogni 
+degli studiosi, si può francamente accettare, senza timore di offendere la dignità dell'arte di fare i cataloghi o la maestà della scienza!
+<pb n="21"/>
+Ma fin qui non ho parlato che dello schema in genere, secondo 
+il quale si ripartiva il catalogo scientifico, e non ho ancora accennato 
+che grandi difficoltà si incontrano allorquando si vuole strettamente assegnare o determinare il posto che un libro deve occupare 
+nelle ultime sezioni o ramificazioni dello schema; della difficoltà 
+gravissima, e per una grande biblioteca insuperabile, di assegnare 
+questo posto tenendo rigorosamente conto degli altri libri che trattano la stessa questione, lo stesso argomento.
+A quest'ultima difficoltà si cerca di sfuggire ordinando, entro 
+queste sezioni, i libri, sia cronologicamente, sia per parole d'ordine.
+L'ordine cronologico ha talvolta questo difetto, che nella scienza 
+si hanno contemporaneamente intorno allo stesso argomento due 
+o più idee, con intendimenti diversi; e che in una stessa corrente 
+d'idee si ha il suo <emph>pro</emph> e il suo <emph>contro</emph>. In teoria esse dovrebbero 
+rimanere separate, benchè corrano simultaneamente. Invece la disposizione alfabetica per nome d'autore o per parole d'ordine 
+disgrega, come ho già osservato, quello che è affine e lo disperde 
+tanto più, quanto maggiore e più minuto è il frazionamento.
+Su tale proposito penso che nella classificazione dei libri di 
+una grande biblioteca non si possa badare a questioni di precedenza fra i diversi libri che trattano le medesime materie. Di 
+questa precedenza, di queste relazioni fra i libri intorno ad uno 
+stesso argomento deve, se ne ha bisogno, occuparsi da sè il lettore 
+e il bibliografo. Il bibliotecario non deve andare più in là di quello 
+che per la suppellettile letteraria e scientifica, a lui affidata, giudichi 
+necessario e creda possibile. Non deve volere strafare. La sua riuscita dipende dalle proporzioni giuste e possibili date al proprio 
+lavoro.
+Il bibliotecario deve aver la virtù di sapersi fermare a tempo, 
+altrimenti non verrà mai a capo di nulla, finirà, per voler far 
+troppo, col dover interrompere il suo lavoro, come è accaduto alla 
+Nazionale di Parigi, dopo aver stampato il Catalogo delle Scienze 
+mediche e quello della Storia di Francia!
+</p>
+<trailer>*</trailer>
+</div2>
+<div2 type="parte">
+<head>[Conclusioni]</head>
+<p>
+Ma lo sperare di contentar tutti coi cataloghi di una biblioteca 
+è vana pretesa, come quella di credere di soddisfare il pubblico 
+mettendo un orologio sul campanile di una piazza. C'è sempre chi 
+trova che l'orologio corre molto o poco, che le lancette si vedono 
+<pb n="22"/>
+poco, che suona troppo forte per i vicini, e che i lontani non lo 
+sentono: proprio come dice l'abate Guichelet nella sua favola:
+<quote rend="block" lang="fra">
+<lg>
+<l>Tout, jusqu'au savetier, s'en mêle, et puis bavarde, </l>
+<l>En tenant cent propos de cette espèce-là: </l>
+<l>Elle manquait toujours par ceci, par cela; </l>
+<l>On glosait sur le timbre, ainsi que sur l'ouvrage: </l>
+<l>Sur ce point important on n'était pas d'accord; </l>
+<l>On en trouvait le son trop faible ou trop fort.</l>
+</lg></quote>
+Ma anche con tutti questi difetti, veri o supposti, l'orologio in 
+qualche modo segna le sue ore, e tutti, brontolando, se ne servono.
+Lo stesso avviene coi cataloghi della biblioteca. A torto o a 
+ragione si dice molto male di quelli che ci sono: si grida, e non 
+a torto, perchè in essi non si trova quello che si cerca e che ci 
+dovrebbe essere; ma poi si finisce coll'adoperarli. Il guaio maggiore è quando non ci sono!
+Per mettere a nudo i loro difetti, per dire quello che si dovrebbe, o almeno si potrebbe fare, bisognerebbe esaminare, più di 
+quello che ho fatto io qui, la loro compagine; studiare più minutamente il meccanismo che dà loro vita; e soprattutto determinare 
+in modo chiaro e esatto per chi, e a qual fine, cotesti cataloghi 
+dovranno servire, perchè anche i cataloghi, come tutto il resto 
+della biblioteca, possono, o meglio devono, essere adattati ai diversi bisogni del pubblico che la frequenta.
+Se per discorrere di tutte queste belle cose, mettessi, incautamente, il piede su cotesta via, e volessi inoltrarmi, il lettore 
+mi abbandonerebbe, e mi lascerebbe solo a girare qua e là nell'intricato laberinto.
+Ma se questi cataloghi sono insufficienti, quanto e come potranno servire i cataloghi stampati delle più grandi biblioteche del 
+mondo? Che cosa si pensa di fare per dare a chi studia più rapida 
+e sicura conoscenza di quelli scritti che la biblioteca non ha e non 
+avrà mai, e che potrebbero e dovrebbero agevolare le sue ricerche 
+e i suoi studi?
+Queste sono domande serie che vogliono una risposta.
+<pb n="23"/>
+</p></div2></div1>
+</body>
+</text>
+</TEI.2>

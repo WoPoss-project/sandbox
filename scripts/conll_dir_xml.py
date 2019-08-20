@@ -5,7 +5,7 @@ Created on Fri Jul 19 18:16:07 2019
 
 @author: ruizfabo
 
-Modified by Helena on Jul 22 2019
+Modified by @helenasabel on Jul 22 2019
 """
 
 from copy import deepcopy

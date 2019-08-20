@@ -4,6 +4,8 @@
 Created on Fri Jul 19 18:16:07 2019
 
 @author: ruizfabo
+
+Modified by Helena on Jul 22 2019
 """
 
 from copy import deepcopy
@@ -62,7 +64,7 @@ def ana_file(fname, lemma, deprel, outdir):
         #lemma_ids = [word.id for word in sent if lemma in word.lemma]
         if len(lemma_ids) > 0:
             print("## SENT:", " ".join(["{}~{}".format(word.form, word.id) for word in sent]))
-            print(idx, ": CAEDO AT: ", lemma_ids)
+            print(idx, ": LEMMA AT: ", lemma_ids)
             has_lemma = True
         if len(lemma_ids) > 0:
             for lemma_id in lemma_ids:
